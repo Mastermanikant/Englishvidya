@@ -634,7 +634,7 @@
           <div class="word-card" data-index="${i}">
             <div class="word-main">
               <div class="word-en">${escHtml(w.word || w.w || '')}</div>
-              <div class="word-hi">${escHtml(w.meaning_hi || w.m || w.hindi || '')}</div>
+              <div class="word-hi">${escHtml(w.meaning_hi || w.m || w.hindi || w.meaning || '')}</div>
             </div>
             <button class="word-speak-btn" data-word="${escHtml(w.word || w.w || '')}" title="उच्चारण सुनें">
               🔊
@@ -668,7 +668,7 @@
           card.innerHTML = `
             <div class="word-main">
               <div class="word-en">${escHtml(w.word || w.w || '')}</div>
-              <div class="word-hi">${escHtml(w.meaning_hi || w.m || w.hindi || '')}</div>
+              <div class="word-hi">${escHtml(w.meaning_hi || w.m || w.hindi || w.meaning || '')}</div>
             </div>
             <button class="word-speak-btn" data-word="${escHtml(w.word || w.w || '')}" title="उच्चारण सुनें">🔊</button>
           `;
@@ -734,7 +734,7 @@
     if (!current) return;
 
     const word = current.word || current.w || '';
-    const meaning = current.meaning_hi || current.m || current.hindi || '';
+    const meaning = current.meaning_hi || current.m || current.hindi || current.meaning || '';
     const example = current.example_en || current.e || '';
     const pron = current.pronunciation || current.p || '';
 
