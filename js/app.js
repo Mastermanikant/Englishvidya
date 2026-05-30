@@ -301,6 +301,10 @@
           <p class="hero-greeting">${timeGreeting} 🙏</p>
           <h1 class="hero-title">English सीखो, आगे बढ़ो!</h1>
           <p class="hero-subtitle">हर दिन कुछ नया सीखो — Grammar, Vocabulary और Practice सब एक जगह।</p>
+          <div style="margin-top: 10px; font-size: 0.8rem; color: var(--color-success); font-weight: 500; background: rgba(16, 185, 129, 0.1); display: inline-block; padding: 4px 10px; border-radius: 20px;">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle; margin-right: 4px;"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+            Live Update: 30 May 2026, 11:30 PM
+          </div>
         </div>
 
         <!-- Streak Card -->
