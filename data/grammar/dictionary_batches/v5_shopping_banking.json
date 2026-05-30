@@ -1,0 +1,788 @@
+[
+  {
+    "word": "Receipt",
+    "meaning": "A piece of paper or digital document showing that you have paid for something.",
+    "example": "Keep your receipt in case you need to return the shoes later.",
+    "category": "Retail & Shopping"
+  },
+  {
+    "word": "Invoice",
+    "meaning": "A bill sent to a customer asking for payment for goods or services provided.",
+    "example": "The construction company sent an invoice for the materials used.",
+    "category": "Retail & Shopping"
+  },
+  {
+    "word": "Cart",
+    "meaning": "A basket on wheels used for carrying goods while shopping in a store.",
+    "example": "She filled her cart with fresh vegetables and fruits.",
+    "category": "Retail & Shopping"
+  },
+  {
+    "word": "Checkout",
+    "meaning": "The place in a shop where you pay for your goods.",
+    "example": "There was a long line at the checkout because only one register was open.",
+    "category": "Retail & Shopping"
+  },
+  {
+    "word": "Aisle",
+    "meaning": "A passage between rows of shelves in a supermarket or store.",
+    "example": "You can find the cereal in aisle four, next to the baking supplies.",
+    "category": "Retail & Shopping"
+  },
+  {
+    "word": "Retailer",
+    "meaning": "A person or business that sells goods directly to the public in small quantities.",
+    "example": "Large retailers often offer lower prices than small independent shops.",
+    "category": "Retail & Shopping"
+  },
+  {
+    "word": "Wholesaler",
+    "meaning": "A person or company that sells goods in large quantities, usually to retailers.",
+    "example": "The store buys its stock from a wholesaler at a lower price.",
+    "category": "Retail & Shopping"
+  },
+  {
+    "word": "Consumer",
+    "meaning": "A person who purchases goods and services for personal use.",
+    "example": "Consumers are demanding more eco-friendly products these days.",
+    "category": "Retail & Shopping"
+  },
+  {
+    "word": "Customer Service",
+    "meaning": "The assistance and advice provided by a company to those who buy or use its products.",
+    "example": "If your new laptop does not work, call customer service for help.",
+    "category": "Retail & Shopping"
+  },
+  {
+    "word": "Store Credit",
+    "meaning": "Money given by a store to a customer instead of a cash refund, which can only be spent at that store.",
+    "example": "Since I didn't have the receipt, they gave me store credit instead of cash.",
+    "category": "Retail & Shopping"
+  },
+  {
+    "word": "Refund",
+    "meaning": "An amount of money that is given back to you, especially because you are not satisfied with a product.",
+    "example": "I returned the broken toaster and asked for a full refund.",
+    "category": "Retail & Shopping"
+  },
+  {
+    "word": "Exchange",
+    "meaning": "To return a product to a store and get a different one instead.",
+    "example": "The shirt was too small, so I went to the store to exchange it for a medium.",
+    "category": "Retail & Shopping"
+  },
+  {
+    "word": "Warranty",
+    "meaning": "A written guarantee promising to repair or replace a product if it breaks within a specific period.",
+    "example": "The television comes with a two-year warranty that covers all repairs.",
+    "category": "Retail & Shopping"
+  },
+  {
+    "word": "Defective",
+    "meaning": "Having a fault or flaw; not working properly.",
+    "example": "The company recalled the defective toys due to safety concerns.",
+    "category": "Retail & Shopping"
+  },
+  {
+    "word": "In Stock",
+    "meaning": "Available to buy immediately in the store or online.",
+    "example": "The bookstore had only one copy of the novel in stock.",
+    "category": "Retail & Shopping"
+  },
+  {
+    "word": "Out Of Stock",
+    "meaning": "Temporarily unavailable because all items have been sold.",
+    "example": "We are out of stock of that particular phone model, but we can order it for you.",
+    "category": "Retail & Shopping"
+  },
+  {
+    "word": "Backorder",
+    "meaning": "An order for a product that cannot be delivered now because it is out of stock.",
+    "example": "My book is on backorder, so it will take two weeks to arrive.",
+    "category": "Retail & Shopping"
+  },
+  {
+    "word": "Window Shopping",
+    "meaning": "Looking at goods displayed in shop windows without intending to buy anything.",
+    "example": "We had no money to spend, so we just spent the afternoon window shopping.",
+    "category": "Retail & Shopping"
+  },
+  {
+    "word": "Impulse Buying",
+    "meaning": "Buying things suddenly without planning or thinking about whether you really need them.",
+    "example": "Placing candy near the cash register encourages impulse buying.",
+    "category": "Retail & Shopping"
+  },
+  {
+    "word": "Shopping Spree",
+    "meaning": "A short period of time that you spend buying a lot of things.",
+    "example": "After winning the lottery, she went on a major shopping spree.",
+    "category": "Retail & Shopping"
+  },
+  {
+    "word": "Fitting Room",
+    "meaning": "A small room in a clothing store where you can try on clothes to see if they fit.",
+    "example": "She took three dresses into the fitting room to try them on.",
+    "category": "Retail & Shopping"
+  },
+  {
+    "word": "Price Tag",
+    "meaning": "A label attached to an item showing how much it costs.",
+    "example": "I liked the jacket, but when I looked at the price tag, I realized it was too expensive.",
+    "category": "Retail & Shopping"
+  },
+  {
+    "word": "Bulk Buying",
+    "meaning": "Purchasing large quantities of a product at one time, usually to save money.",
+    "example": "Bulk buying toilet paper and paper towels is much cheaper in the long run.",
+    "category": "Retail & Shopping"
+  },
+  {
+    "word": "Brand Name",
+    "meaning": "A well-known name given to a product by the company that makes it.",
+    "example": "Brand name medicines are usually more expensive than generic ones.",
+    "category": "Retail & Shopping"
+  },
+  {
+    "word": "Department Store",
+    "meaning": "A large shop divided into several sections, each selling a different type of goods.",
+    "example": "You can buy clothes, cosmetics, and kitchenware all in one department store.",
+    "category": "Retail & Shopping"
+  },
+  {
+    "word": "Boutique",
+    "meaning": "A small shop that sells fashionable clothes, shoes, or jewelry.",
+    "example": "She bought a unique handmade dress from a local boutique.",
+    "category": "Retail & Shopping"
+  },
+  {
+    "word": "Inventory",
+    "meaning": "A detailed list of all the goods or materials a business has in stock.",
+    "example": "The store closed early on Sunday to perform their annual inventory count.",
+    "category": "Retail & Shopping"
+  },
+  {
+    "word": "E-Commerce",
+    "meaning": "Commercial transactions conducted electronically over the internet.",
+    "example": "The rise of e-commerce has made it easy to buy products from anywhere in the world.",
+    "category": "Retail & Shopping"
+  },
+  {
+    "word": "Catalog",
+    "meaning": "A book or online directory showing a list of items for sale with their descriptions and prices.",
+    "example": "I flipped through the holiday catalog to find gift ideas for my family.",
+    "category": "Retail & Shopping"
+  },
+  {
+    "word": "Convenience Store",
+    "meaning": "A small shop that is open for long hours and sells everyday items like snacks, drinks, and newspapers.",
+    "example": "He ran down to the corner convenience store to buy a carton of milk.",
+    "category": "Retail & Shopping"
+  },
+  {
+    "word": "Layaway",
+    "meaning": "A system of paying a deposit to secure an item for later purchase, paying the balance in installments.",
+    "example": "She put the winter coat on layaway and paid ten dollars every week until it was paid off.",
+    "category": "Retail & Shopping"
+  },
+  {
+    "word": "Rain Check",
+    "meaning": "A promise given to a customer allowing them to buy an out-of-stock sale item at the sale price later.",
+    "example": "The store was out of the discounted shampoo, so they gave me a rain check.",
+    "category": "Retail & Shopping"
+  },
+  {
+    "word": "Vendor",
+    "meaning": "A person or company offering something for sale, especially on the street or at a market.",
+    "example": "The street food vendor sells delicious tacos for only two dollars.",
+    "category": "Retail & Shopping"
+  },
+  {
+    "word": "Merchant",
+    "meaning": "A person or company involved in wholesale trade or retail business.",
+    "example": "Online merchants must ensure their websites are secure for credit card payments.",
+    "category": "Retail & Shopping"
+  },
+  {
+    "word": "Bargain",
+    "meaning": "Something bought or offered for sale much cheaper than its usual price.",
+    "example": "At only ten dollars, this winter coat was a real bargain.",
+    "category": "Bargaining & Discounts"
+  },
+  {
+    "word": "Discount",
+    "meaning": "A reduction in the usual price of something.",
+    "example": "Students receive a ten percent discount on all public transport tickets.",
+    "category": "Bargaining & Discounts"
+  },
+  {
+    "word": "Clearance Sale",
+    "meaning": "A sale in which a shop sells off its old stock at low prices to make room for new items.",
+    "example": "I bought this pair of boots for half price at the clearance sale.",
+    "category": "Bargaining & Discounts"
+  },
+  {
+    "word": "Coupon",
+    "meaning": "A piece of paper or a digital code that gives you a discount when buying a product.",
+    "example": "She clipped coupons from the newspaper to save money on groceries.",
+    "category": "Bargaining & Discounts"
+  },
+  {
+    "word": "Voucher",
+    "meaning": "A document or code that can be exchanged for goods or services of a certain value.",
+    "example": "The airline gave us a travel voucher as compensation for the delayed flight.",
+    "category": "Bargaining & Discounts"
+  },
+  {
+    "word": "Promo Code",
+    "meaning": "A short string of letters or numbers used online to get a discount on a purchase.",
+    "example": "Enter the promo code 'SAVE20' at checkout to get twenty percent off your order.",
+    "category": "Bargaining & Discounts"
+  },
+  {
+    "word": "Haggling",
+    "meaning": "Arguing or negotiating about the price of something before reaching an agreement.",
+    "example": "In local markets, haggling is expected and can save you a lot of money.",
+    "category": "Bargaining & Discounts"
+  },
+  {
+    "word": "Negotiation",
+    "meaning": "Formal discussion between people who are trying to reach an agreement, such as on a price.",
+    "example": "After some negotiation, the car dealer agreed to lower the price by five hundred dollars.",
+    "category": "Bargaining & Discounts"
+  },
+  {
+    "word": "Best Offer",
+    "meaning": "The highest amount of money a buyer is willing to pay, or the lowest a seller is willing to accept.",
+    "example": "The seller accepted my best offer of three hundred dollars for the antique desk.",
+    "category": "Bargaining & Discounts"
+  },
+  {
+    "word": "Rip-Off",
+    "meaning": "Something that is much more expensive than it should be; a cheat.",
+    "example": "Charging twenty dollars for a bottle of water at the concert is a total rip-off.",
+    "category": "Bargaining & Discounts"
+  },
+  {
+    "word": "Overpriced",
+    "meaning": "Costing more than the actual value or more than is reasonable.",
+    "example": "The restaurant was nice, but the food was overpriced and not very tasty.",
+    "category": "Bargaining & Discounts"
+  },
+  {
+    "word": "Underpriced",
+    "meaning": "Costing less than the actual value or worth.",
+    "example": "The house was underpriced, so it sold within two days of listing.",
+    "category": "Bargaining & Discounts"
+  },
+  {
+    "word": "Buy One Get One Free",
+    "meaning": "A promotion where you get a second identical item for free if you buy one.",
+    "example": "The supermarket has a buy one get one free offer on all fresh berries.",
+    "category": "Bargaining & Discounts"
+  },
+  {
+    "word": "Half Price",
+    "meaning": "Costing only fifty percent of the original price.",
+    "example": "During the summer sale, all shirts were sold at half price.",
+    "category": "Bargaining & Discounts"
+  },
+  {
+    "word": "Special Offer",
+    "meaning": "A temporary price reduction or bonus deal to encourage people to buy.",
+    "example": "Take advantage of our special offer: sign up today and get the first month free.",
+    "category": "Bargaining & Discounts"
+  },
+  {
+    "word": "Loyalty Program",
+    "meaning": "A scheme where a store rewards regular customers with discounts or free items.",
+    "example": "I used my points from the store's loyalty program to get a free coffee.",
+    "category": "Bargaining & Discounts"
+  },
+  {
+    "word": "Markdown",
+    "meaning": "A reduction in the price of goods to help sell them quickly.",
+    "example": "The store applied a major markdown to winter clothes in early spring.",
+    "category": "Bargaining & Discounts"
+  },
+  {
+    "word": "Rebate",
+    "meaning": "An amount of money returned to a customer after they have paid the full price for a product.",
+    "example": "There is a fifty-dollar mail-in rebate available for this washing machine.",
+    "category": "Bargaining & Discounts"
+  },
+  {
+    "word": "Value For Money",
+    "meaning": "Something that is worth the amount of money you pay for it.",
+    "example": "This cheap smartphone works incredibly well and offers great value for money.",
+    "category": "Bargaining & Discounts"
+  },
+  {
+    "word": "Steal",
+    "meaning": "A bargain that is so good it feels like you are taking it for free.",
+    "example": "At only five dollars for this brand new book, it was a complete steal.",
+    "category": "Bargaining & Discounts"
+  },
+  {
+    "word": "Flat Discount",
+    "meaning": "A discount of a fixed percentage or amount that applies to all items without exceptions.",
+    "example": "The store is offering a flat thirty percent discount on everything today.",
+    "category": "Bargaining & Discounts"
+  },
+  {
+    "word": "Price Match",
+    "meaning": "A policy where a store agrees to sell an item for the same low price offered by a competitor.",
+    "example": "They offer a price match guarantee, so I showed them the cheaper price online.",
+    "category": "Bargaining & Discounts"
+  },
+  {
+    "word": "Seasonal Sale",
+    "meaning": "A sale held at the end of a season to sell off seasonal goods.",
+    "example": "I always buy my winter coats during the spring seasonal sale when prices drop.",
+    "category": "Bargaining & Discounts"
+  },
+  {
+    "word": "As-Is",
+    "meaning": "Sold in its current condition, including any faults, without a warranty or possibility of return.",
+    "example": "The damaged dining table was sold as-is for a very low price.",
+    "category": "Bargaining & Discounts"
+  },
+  {
+    "word": "List Price",
+    "meaning": "The standard, advertised price of an item before any discounts are applied.",
+    "example": "We managed to buy the car for two thousand dollars below the list price.",
+    "category": "Bargaining & Discounts"
+  },
+  {
+    "word": "Savings Account",
+    "meaning": "A bank account where you deposit money to save it, which usually earns interest over time.",
+    "example": "It is smart to transfer a portion of your monthly salary to a savings account.",
+    "category": "Banking & Accounts"
+  },
+  {
+    "word": "Checking Account",
+    "meaning": "A bank account used for everyday transactions, from which money can be easily withdrawn or spent.",
+    "example": "I use my checking account to pay my monthly rent and buy groceries.",
+    "category": "Banking & Accounts"
+  },
+  {
+    "word": "Balance",
+    "meaning": "The total amount of money in a bank account at a specific time.",
+    "example": "Please check your account balance to make sure you have enough money for the transfer.",
+    "category": "Banking & Accounts"
+  },
+  {
+    "word": "Interest Rate",
+    "meaning": "The percentage of a sum of money charged by a lender or paid by a bank to a saver.",
+    "example": "The bank raised its interest rate on savings accounts to four percent.",
+    "category": "Banking & Accounts"
+  },
+  {
+    "word": "Deposit",
+    "meaning": "To put money into a bank account.",
+    "example": "I need to go to the bank to deposit this check into my account.",
+    "category": "Banking & Accounts"
+  },
+  {
+    "word": "Withdrawal",
+        "meaning": "The act of taking money out of a bank account.",
+        "example": "She made a cash withdrawal of one hundred dollars from the ATM.",
+        "category": "Banking & Accounts"
+  },
+  {
+    "word": "Direct Deposit",
+    "meaning": "A payment method where money is sent electronically straight into a recipient's bank account.",
+    "example": "My salary is paid via direct deposit, so it is in my account every Friday morning.",
+    "category": "Banking & Accounts"
+  },
+  {
+    "word": "Bank Statement",
+    "meaning": "A printed or digital record showing all the deposits, withdrawals, and fees in a bank account.",
+    "example": "I review my monthly bank statement to track my spending habits.",
+    "category": "Banking & Accounts"
+  },
+  {
+    "word": "Overdraft",
+    "meaning": "An arrangement or situation where you withdraw more money from your account than you actually have.",
+    "example": "Her account went into overdraft after the rent check was processed.",
+    "category": "Banking & Accounts"
+  },
+  {
+    "word": "Overdraft Fee",
+    "meaning": "A charge imposed by a bank when a customer withdraws more money than is available in their account.",
+    "example": "I had to pay a thirty-dollar overdraft fee because my balance fell below zero.",
+    "category": "Banking & Accounts"
+  },
+  {
+    "word": "Joint Account",
+    "meaning": "A bank account shared by two or more people, typically family members or business partners.",
+    "example": "My husband and I opened a joint account to manage our household expenses together.",
+    "category": "Banking & Accounts"
+  },
+  {
+    "word": "Branch",
+    "meaning": "A local office of a bank or other large organization.",
+    "example": "I need to visit the local branch to speak with a loan officer.",
+    "category": "Banking & Accounts"
+  },
+  {
+    "word": "Teller",
+    "meaning": "A bank employee who deals directly with customers, handling deposits and withdrawals.",
+    "example": "The bank teller greeted me warmly and helped me deposit my money.",
+    "category": "Banking & Accounts"
+  },
+  {
+    "word": "ATM",
+    "meaning": "A machine that dispenses cash and performs other banking services when you insert a bank card.",
+    "example": "I need to find an ATM to withdraw some cash before going to the market.",
+    "category": "Banking & Accounts"
+  },
+  {
+    "word": "PIN",
+    "meaning": "A secret number that you use with a bank card to withdraw money or make payments.",
+    "example": "Never share your PIN with anyone, not even bank employees.",
+    "category": "Banking & Accounts"
+  },
+  {
+    "word": "Safe Deposit Box",
+    "meaning": "A locked box inside a bank vault used for storing valuable items like jewelry or important papers.",
+    "example": "We keep our property deeds and old family gold in a safe deposit box.",
+    "category": "Banking & Accounts"
+  },
+  {
+    "word": "Routing Number",
+    "meaning": "A nine-digit code that identifies a specific financial institution in banking transactions.",
+    "example": "You will need both your bank routing number and account number to set up direct deposit.",
+    "category": "Banking & Accounts"
+  },
+  {
+    "word": "Account Number",
+    "meaning": "A unique set of numbers used to identify a specific bank account.",
+    "example": "Please double-check your account number before confirming the transfer.",
+    "category": "Banking & Accounts"
+  },
+  {
+    "word": "Mobile Banking",
+    "meaning": "A service that allows customers to conduct financial transactions using a smartphone app.",
+    "example": "Mobile banking makes it easy to deposit checks using your phone camera.",
+    "category": "Banking & Accounts"
+  },
+  {
+    "word": "Online Banking",
+    "meaning": "Conducting banking transactions over the internet through a bank's website.",
+    "example": "I logged into online banking to pay my utility bills last night.",
+    "category": "Banking & Accounts"
+  },
+  {
+    "word": "Certificate Of Deposit",
+    "meaning": "A savings product that earns a fixed interest rate in exchange for keeping your money untouched for a set period.",
+    "example": "He put his savings into a one-year certificate of deposit to get a higher interest rate.",
+    "category": "Banking & Accounts"
+  },
+  {
+    "word": "Minimum Balance",
+    "meaning": "The lowest amount of money that a customer must keep in a bank account to avoid fees.",
+    "example": "This checking account requires a minimum balance of five hundred dollars.",
+    "category": "Banking & Accounts"
+  },
+  {
+    "word": "Bank Run",
+    "meaning": "A situation where many customers rush to withdraw their money from a bank because they fear it will fail.",
+    "example": "The government stepped in to prevent a bank run after rumors spread about the bank's stability.",
+    "category": "Banking & Accounts"
+  },
+  {
+    "word": "Financial Advisor",
+    "meaning": "A professional who helps individuals manage their money, investments, and financial planning.",
+    "example": "We met with a financial advisor to plan for our children's college education.",
+    "category": "Banking & Accounts"
+  },
+  {
+    "word": "Credit Score",
+    "meaning": "A number representing a person's creditworthiness, based on their history of paying back debts.",
+    "example": "Paying your credit card bills on time is the best way to improve your credit score.",
+    "category": "Banking & Accounts"
+  },
+  {
+    "word": "Credit Union",
+    "meaning": "A cooperative financial institution owned and controlled by its members, often offering lower fees.",
+    "example": "She decided to join a local credit union instead of a major national bank.",
+    "category": "Banking & Accounts"
+  },
+  {
+    "word": "Beneficiary",
+    "meaning": "A person designated to receive the funds or assets from an account in the event of the owner's death.",
+    "example": "He listed his daughter as the sole beneficiary of his savings account.",
+    "category": "Banking & Accounts"
+  },
+  {
+    "word": "Liquidity",
+    "meaning": "The ease with which assets or savings can be quickly converted into cash without losing value.",
+    "example": "Cash in a checking account has high liquidity, while real estate has low liquidity.",
+    "category": "Banking & Accounts"
+  },
+  {
+    "word": "Compound Interest",
+    "meaning": "Interest calculated on both the initial principal and the accumulated interest from previous periods.",
+    "example": "Thanks to compound interest, even small savings can grow significantly over thirty years.",
+    "category": "Banking & Accounts"
+  },
+  {
+    "word": "Collateral",
+    "meaning": "An asset that a borrower offers to a lender as security for a loan.",
+    "example": "She had to put up her house as collateral to secure the business loan.",
+    "category": "Banking & Accounts"
+  },
+  {
+    "word": "Default",
+    "meaning": "To fail to pay a debt or loan by the required time.",
+    "example": "If you default on your car loan, the bank may take the car back.",
+    "category": "Banking & Accounts"
+  },
+  {
+    "word": "Principal",
+    "meaning": "The original sum of money lent or invested, not including the interest.",
+    "example": "Her monthly mortgage payments go toward paying off both the principal and the interest.",
+    "category": "Banking & Accounts"
+  },
+  {
+    "word": "Amortization",
+    "meaning": "The process of gradually paying off a debt over time through regular, equal payments.",
+    "example": "The bank provided an amortization schedule showing how the loan would be paid off over fifteen years.",
+    "category": "Banking & Accounts"
+  },
+  {
+    "word": "Credit Limit",
+    "meaning": "The maximum amount of money a credit card company allows you to borrow or charge on your card.",
+    "example": "He reached his credit limit and could not make any more purchases until he paid off his balance.",
+    "category": "Banking & Accounts"
+  },
+  {
+    "word": "Annual Percentage Rate",
+    "meaning": "The yearly interest rate charged for borrowing money or earned through an investment.",
+    "example": "Compare the APR of different credit cards to find the one with the lowest borrowing costs.",
+    "category": "Banking & Accounts"
+  },
+  {
+    "word": "Mortgage",
+    "meaning": "A specific type of loan used to purchase a house or real estate, where the property is security for the loan.",
+    "example": "They took out a thirty-year mortgage to buy their first home.",
+    "category": "Banking & Accounts"
+  },
+  {
+    "word": "Debt",
+    "meaning": "An amount of money that is owed to a person, bank, or company.",
+    "example": "He worked hard to pay off all his college debt within five years.",
+    "category": "Banking & Accounts"
+  },
+  {
+    "word": "Bankruptcy",
+    "meaning": "A legal status of a person or organization that cannot repay the debts they owe to creditors.",
+    "example": "The retail chain declared bankruptcy after several years of falling sales.",
+    "category": "Banking & Accounts"
+  },
+  {
+    "word": "Guarantor",
+    "meaning": "A person who promises to pay a debt if the borrower fails to do so.",
+    "example": "Since the student had no income, her father signed as a guarantor for the apartment lease.",
+    "category": "Banking & Accounts"
+  },
+  {
+    "word": "Transaction",
+    "meaning": "An instance of buying or selling something, or moving money between accounts.",
+    "example": "The online store sends an email confirmation for every transaction you complete.",
+    "category": "Payments & Transactions"
+  },
+  {
+    "word": "Cash",
+    "meaning": "Money in the physical form of coins or notes.",
+    "example": "I prefer to carry a little cash in my wallet in case card machines are down.",
+    "category": "Payments & Transactions"
+  },
+  {
+    "word": "Credit Card",
+    "meaning": "A plastic card that allows you to buy goods now and pay for them later, usually with interest.",
+    "example": "If you do not pay off your credit card bill in full each month, you will owe interest.",
+    "category": "Payments & Transactions"
+  },
+  {
+    "word": "Debit Card",
+    "meaning": "A plastic card that automatically deducts money directly from your checking account when you buy something.",
+    "example": "I paid for the groceries using my debit card, and the money was immediately taken from my account.",
+    "category": "Payments & Transactions"
+  },
+  {
+    "word": "Contactless Payment",
+    "meaning": "A payment method where you pay by tapping your card or phone against a reader without entering a PIN.",
+    "example": "Contactless payment is very popular because it is fast and convenient.",
+    "category": "Payments & Transactions"
+  },
+  {
+    "word": "Mobile Wallet",
+    "meaning": "An app on a smartphone that stores digital versions of your credit or debit cards for making payments.",
+    "example": "I left my physical wallet at home, but I was able to pay using the mobile wallet on my phone.",
+    "category": "Payments & Transactions"
+  },
+  {
+    "word": "Wire Transfer",
+    "meaning": "An electronic transfer of funds from one bank account to another, often used for international payments.",
+    "example": "They sent the money via wire transfer, and it arrived in my account the next day.",
+    "category": "Payments & Transactions"
+  },
+  {
+    "word": "Electronic Funds Transfer",
+    "meaning": "The electronic transfer of money from one bank account to another, covering all digital payments.",
+    "example": "Direct deposits and online bill payments are both examples of electronic funds transfer.",
+    "category": "Payments & Transactions"
+  },
+  {
+    "word": "Bank Draft",
+    "meaning": "A payment document guaranteed by a bank, typically used for large payments where cash is not practical.",
+    "example": "The home buyer presented a bank draft to complete the purchase of the house.",
+    "category": "Payments & Transactions"
+  },
+  {
+    "word": "Cashier's Check",
+    "meaning": "A check guaranteed by the bank itself, signed by a cashier, and paid from the bank's own funds.",
+    "example": "The landlord required a cashier's check for the security deposit and the first month's rent.",
+    "category": "Payments & Transactions"
+  },
+  {
+    "word": "Money Order",
+    "meaning": "A printed order for a pre-specified sum of money, purchased at a post office or bank, used as a secure payment.",
+    "example": "He sent a money order to pay his electricity bill since he did not have a checking account.",
+    "category": "Payments & Transactions"
+  },
+  {
+    "word": "Remittance",
+    "meaning": "Money sent by a person working abroad back to their family or home country.",
+    "example": "Remittances from workers overseas play a huge role in the economy of many developing nations.",
+    "category": "Payments & Transactions"
+  },
+  {
+    "word": "Surcharge",
+    "meaning": "An extra fee added to the cost of a good or service, often for using a specific payment method.",
+    "example": "The gas station charges a small surcharge if you pay with a credit card instead of cash.",
+    "category": "Payments & Transactions"
+  },
+  {
+    "word": "Transaction Fee",
+    "meaning": "A charge applied by a bank or payment processor for handling a specific transaction.",
+    "example": "Some international websites charge a transaction fee for processing foreign currencies.",
+    "category": "Payments & Transactions"
+  },
+  {
+    "word": "Billing Cycle",
+    "meaning": "The period of time between billing statements, usually lasting about thirty days.",
+    "example": "My credit card billing cycle runs from the first of the month to the last day.",
+    "category": "Payments & Transactions"
+  },
+  {
+    "word": "Statement Date",
+    "meaning": "The date on which a billing statement is generated, summarizing all activity during that billing cycle.",
+    "example": "Check your statement date to see which purchases are included in this month's bill.",
+    "category": "Payments & Transactions"
+  },
+  {
+    "word": "Due Date",
+    "meaning": "The final date by which a payment must be received to avoid late fees or interest charges.",
+    "example": "Make sure to pay your utility bill before the due date next Tuesday.",
+    "category": "Payments & Transactions"
+  },
+  {
+    "word": "Minimum Payment",
+    "meaning": "The lowest amount of money you are required to pay on a credit card bill to keep the account active.",
+    "example": "Paying only the minimum payment will result in high interest charges on the remaining balance.",
+    "category": "Payments & Transactions"
+  },
+  {
+    "word": "Pending Transaction",
+    "meaning": "A transaction that has been authorized but not yet finalized or deducted from your account.",
+    "example": "The hotel stay is still a pending transaction on my credit card statement.",
+    "category": "Payments & Transactions"
+  },
+  {
+    "word": "Direct Debit",
+    "meaning": "An arrangement where a bank is authorized to automatically pay money to a company regularly.",
+    "example": "I set up a direct debit so my gym membership fee is paid automatically every month.",
+    "category": "Payments & Transactions"
+  },
+  {
+    "word": "Auto-Pay",
+    "meaning": "A banking feature that automatically pays your recurring bills from your account on the due date.",
+    "example": "I set my internet bill to auto-pay so I never forget to pay it.",
+    "category": "Payments & Transactions"
+  },
+  {
+    "word": "Fraud Alert",
+    "meaning": "A notification sent by a bank warning you of suspicious or unauthorized activity on your account.",
+    "example": "I received a fraud alert text when someone tried to use my card in another country.",
+    "category": "Payments & Transactions"
+  },
+  {
+    "word": "Chargeback",
+    "meaning": "A return of funds to a consumer, initiated by their bank, after they successfully dispute a charge.",
+    "example": "The customer requested a chargeback because the item they ordered online never arrived.",
+    "category": "Payments & Transactions"
+  },
+  {
+    "word": "Processing Fee",
+    "meaning": "An additional charge for handling the administration or technical steps of a transaction.",
+    "example": "The ticket seller charges a five-dollar processing fee for online bookings.",
+    "category": "Payments & Transactions"
+  },
+  {
+    "word": "Receipt Of Payment",
+    "meaning": "A document confirming that payment has been successfully received for a service or product.",
+    "example": "After you click buy, a receipt of payment will be sent to your email address.",
+    "category": "Payments & Transactions"
+  },
+  {
+    "word": "Billing Address",
+    "meaning": "The address associated with a customer's specific credit or debit card, where statements are sent.",
+    "example": "Make sure the billing address you enter matches the address on your bank file.",
+    "category": "Payments & Transactions"
+  },
+  {
+    "word": "ATM Fee",
+    "meaning": "A charge for using an automated teller machine, especially one that does not belong to your bank.",
+    "example": "I had to pay a three-dollar ATM fee for withdrawing cash at a different bank's machine.",
+    "category": "Payments & Transactions"
+  },
+  {
+    "word": "Discrepancy",
+    "meaning": "A lack of compatibility or similarity between two or more facts; an error or mismatch.",
+    "example": "There was a discrepancy between the price on the shelf and the price charged at the register.",
+    "category": "Payments & Transactions"
+  },
+  {
+    "word": "Disputed Charge",
+    "meaning": "A transaction on a bill or statement that a customer claims is incorrect or fraudulent.",
+    "example": "She contacted her bank to file a disputed charge for a purchase she did not make.",
+    "category": "Payments & Transactions"
+  },
+  {
+    "word": "Gratuity",
+    "meaning": "A tip given to a waiter, driver, or other service worker for their service.",
+    "example": "A fifteen percent gratuity was automatically added to our restaurant bill.",
+    "category": "Payments & Transactions"
+  },
+  {
+    "word": "Toll",
+    "meaning": "A fee paid to use a specific road, bridge, or tunnel.",
+    "example": "Make sure you have cash or an electronic pass to pay the toll on the highway.",
+    "category": "Payments & Transactions"
+  },
+  {
+    "word": "Fare",
+    "meaning": "The money a passenger on public transportation has to pay.",
+    "example": "The train fare went up by fifty cents starting this month.",
+    "category": "Payments & Transactions"
+  },
+  {
+    "word": "Billing Statement",
+    "meaning": "A periodic report sent to a credit cardholder showing recent transactions and the balance due.",
+    "example": "I received my monthly billing statement in the mail today.",
+    "category": "Payments & Transactions"
+  }
+]

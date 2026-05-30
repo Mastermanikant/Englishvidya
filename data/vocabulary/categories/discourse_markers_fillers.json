@@ -1,0 +1,104 @@
+﻿[
+    {
+        "word":  "LIKE",
+        "meaning":  "Textbook: Preposition indicating similarity. Spoken Native: Used as a filler word, a hedge, or to report speech and thoughts (e.g., \u0027She was like, \"No way\"\u0027).",
+        "example":  "I was, like, trying to explain it, but he wasn\u0027t really listening.",
+        "category":  "Discourse Markers \u0026 Fillers"
+    },
+    {
+        "word":  "PLUS",
+        "meaning":  "Textbook: Mathematical preposition meaning \u0027add.\u0027 Spoken Native: Used as a coordinating conjunction or transitional word at the beginning of a sentence, meaning \u0027in addition\u0027 or \u0027besides.\u0027",
+        "example":  "The house has a huge backyard. Plus, it\u0027s close to a school.",
+        "category":  "Discourse Markers \u0026 Fillers"
+    },
+    {
+        "word":  "SO",
+        "meaning":  "Textbook: Coordinating conjunction. Spoken Native: Used at the beginning of a sentence to initiate a conversation, transition, or as a filler, and at the end of sentences to imply an incomplete thought (e.g., \u0027So... yeah\u0027).",
+        "example":  "So, what do you think we should do next?",
+        "category":  "Discourse Markers \u0026 Fillers"
+    },
+    {
+        "word":  "BASICALLY",
+        "meaning":  "Textbook: Adverb meaning fundamentally. Spoken Native: Used as a filler word or to introduce a simplified summary of a complex situation.",
+        "example":  "Basically, we just need to sign the contract and we\u0027re done.",
+        "category":  "Discourse Markers \u0026 Fillers"
+    },
+    {
+        "word":  "ANYWAYS",
+        "meaning":  "Textbook: Non-standard variant of \u0027anyway.\u0027 Spoken Native: Widely used in speech to shift topics, transition back to the main point, or signal the end of a conversation.",
+        "example":  "Anyways, let\u0027s get back to what we were discussing.",
+        "category":  "Discourse Markers \u0026 Fillers"
+    },
+    {
+        "word":  "BY THE WAY",
+        "meaning":  "Textbook: Used to introduce a minor digression. Spoken Native: Frequently used to introduce an important piece of news, a sudden reminder, or to change the subject.",
+        "example":  "By the way, did you remember to lock the front door?",
+        "category":  "Discourse Markers \u0026 Fillers"
+    },
+    {
+        "word":  "I MEAN",
+        "meaning":  "Textbook: Used to explain the meaning of your words. Spoken Native: Used as a filler word to self-correct, soften a strong opinion, or clarify a statement.",
+        "example":  "I mean, it\u0027s not a bad movie, it\u0027s just very long.",
+        "category":  "Discourse Markers \u0026 Fillers"
+    },
+    {
+        "word":  "YOU KNOW",
+        "meaning":  "Textbook: Literally verifying the listener\u0027s knowledge. Spoken Native: A very common conversational filler used to keep the listener engaged or check for alignment.",
+        "example":  "It\u0027s just, you know, hard to explain without showing you.",
+        "category":  "Discourse Markers \u0026 Fillers"
+    },
+    {
+        "word":  "AND STUFF",
+        "meaning":  "Textbook: Conjunction + noun. Spoken Native: Added to the end of a sentence to mean \u0027and other similar things,\u0027 avoiding the need to list details.",
+        "example":  "We just hung out, listened to music, and stuff.",
+        "category":  "Discourse Markers \u0026 Fillers"
+    },
+    {
+        "word":  "SO TO SPEAK",
+        "meaning":  "Textbook: Metaphorical signal. Spoken Native: Used to indicate that a description is a figure of speech, though often used redundantly by speakers to fill gaps.",
+        "example":  "He is the captain of our ship, so to speak.",
+        "category":  "Discourse Markers \u0026 Fillers"
+    },
+    {
+        "word":  "MIND YOU",
+        "meaning":  "Textbook: Informal transition. Spoken Native: Used to introduce a qualification, caveat, or contrasting point to a statement just made, similar to \u0027however.\u0027",
+        "example":  "The salary is not great. Mind you, the benefits are excellent.",
+        "category":  "Discourse Markers \u0026 Fillers"
+    },
+    {
+        "word":  "THEN AGAIN",
+        "meaning":  "Textbook: Idiomatic transition. Spoken Native: The default spoken alternative to \u0027on the other hand\u0027 when presenting a contrasting idea or second thought.",
+        "example":  "I think I\u0027ll buy the blue shirt. Then again, the green one looks nice too.",
+        "category":  "Discourse Markers \u0026 Fillers"
+    },
+    {
+        "word":  "AT THE END OF THE DAY",
+        "meaning":  "Textbook: When the day concludes. Spoken Native: Used metaphorically as a clichÃ© meaning \u0027ultimately,\u0027 \u0027when all is said and done,\u0027 or \u0027in the final analysis.\u0027",
+        "example":  "At the end of the day, it\u0027s your decision to make.",
+        "category":  "Discourse Markers \u0026 Fillers"
+    },
+    {
+        "word":  "OR WHAT",
+        "meaning":  "Textbook: Tag question. Spoken Native: Added to the end of a question to add emphasis, show impatience, or demand a clear answer.",
+        "example":  "Are you coming with us or what?",
+        "category":  "Discourse Markers \u0026 Fillers"
+    },
+    {
+        "word":  "RIGHT",
+        "meaning":  "Textbook: Adjective meaning correct. Spoken Native: Used as a tag question to check agreement (e.g., \u0027We\u0027re leaving now, right?\u0027), a transitional word, or an acknowledgement.",
+        "example":  "Right, let\u0027s get started on the next project.",
+        "category":  "Discourse Markers \u0026 Fillers"
+    },
+    {
+        "word":  "BUT",
+        "meaning":  "Textbook: Coordinating conjunction showing contrast. Spoken Native: Frequently used at the end of sentences in speech (especially in Irish, Scottish, and Australian English) to mean \u0027though\u0027 or \u0027however\u0027.",
+        "example":  "It was a very expensive car. I bought it, but.",
+        "category":  "Discourse Markers \u0026 Fillers"
+    },
+    {
+        "word":  "THOUGH",
+        "meaning":  "Textbook: Subordinating conjunction. Spoken Native: Almost always placed at the end of a sentence in spoken English to mean \u0027however\u0027 or \u0027nevertheless.\u0027",
+        "example":  "The food was terrible. The dessert was good, though.",
+        "category":  "Discourse Markers \u0026 Fillers"
+    }
+]

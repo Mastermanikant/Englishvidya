@@ -1,0 +1,74 @@
+﻿[
+    {
+        "word":  "today",
+        "hindi_meaning":  "à¤†à¤œ",
+        "pronunciation_help":  "à¤Ÿà¥-à¤¡à¥‡ (To-day)",
+        "word_type":  "Adverb / Noun",
+        "simple_explanation":  "On this present day.",
+        "daily_life_use":  "Talking about current plans.",
+        "spoken_use":  "I am busy today.",
+        "natural_native_use":  "What\u0027s the plan for today?",
+        "emotional_tone":  "Neutral",
+        "common_collocations":  [
+                                    "today is",
+                                    "later today"
+                                ],
+        "examples":  [
+                         "Today is my birthday.",
+                         "I will call you today."
+                     ],
+        "common_mistakes":  "Saying \u0027today morning\u0027 instead of \u0027this morning\u0027.",
+        "hindi_confusion_correction":  "Hindi \u0027aaj\u0027 directly translates to \u0027today\u0027.",
+        "formal_informal_note":  "Standard vocabulary.",
+        "image_url":  "https://commons.wikimedia.org/wiki/Special:FilePath/Today.jpg",
+        "category":  "Adverb / Noun"
+    },
+    {
+        "word":  "tomorrow",
+        "hindi_meaning":  "à¤•à¤² (à¤†à¤¨à¥‡ à¤µà¤¾à¤²à¤¾)",
+        "pronunciation_help":  "à¤Ÿà¥-à¤®à¥‰-à¤°à¥‹ (To-mor-row)",
+        "word_type":  "Adverb / Noun",
+        "simple_explanation":  "The day after today.",
+        "daily_life_use":  "Talking about future plans.",
+        "spoken_use":  "See you tomorrow.",
+        "natural_native_use":  "I\u0027ll do it tomorrow.",
+        "emotional_tone":  "Neutral",
+        "common_collocations":  [
+                                    "see you tomorrow",
+                                    "tomorrow morning"
+                                ],
+        "examples":  [
+                         "Tomorrow is a holiday.",
+                         "I am leaving tomorrow."
+                     ],
+        "common_mistakes":  "Spelling it wrong (tommorow/tomorow).",
+        "hindi_confusion_correction":  "Hindi \u0027kal\u0027 means both yesterday and tomorrow; English specifies \u0027tomorrow\u0027.",
+        "formal_informal_note":  "Standard vocabulary.",
+        "image_url":  "https://commons.wikimedia.org/wiki/Special:FilePath/Tomorrow.jpg",
+        "category":  "Adverb / Noun"
+    },
+    {
+        "word":  "yesterday",
+        "hindi_meaning":  "à¤•à¤² (à¤¬à¥€à¤¤à¤¾ à¤¹à¥à¤†)",
+        "pronunciation_help":  "à¤¯à¥‡à¤¸-à¤Ÿà¤°-à¤¡à¥‡ (Yes-ter-day)",
+        "word_type":  "Adverb / Noun",
+        "simple_explanation":  "The day before today.",
+        "daily_life_use":  "Talking about the past.",
+        "spoken_use":  "I saw him yesterday.",
+        "natural_native_use":  "Yesterday was fun.",
+        "emotional_tone":  "Neutral",
+        "common_collocations":  [
+                                    "yesterday morning",
+                                    "only yesterday"
+                                ],
+        "examples":  [
+                         "Where were you yesterday?",
+                         "I finished the work yesterday."
+                     ],
+        "common_mistakes":  "Saying \u0027yesterday night\u0027 instead of \u0027last night\u0027.",
+        "hindi_confusion_correction":  "Hindi uses \u0027kal\u0027 for yesterday too, must use context.",
+        "formal_informal_note":  "Standard vocabulary.",
+        "image_url":  "https://commons.wikimedia.org/wiki/Special:FilePath/Yesterday.jpg",
+        "category":  "Adverb / Noun"
+    }
+]

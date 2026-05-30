@@ -1,0 +1,182 @@
+﻿[
+    {
+        "word":  "OR SOMETHING",
+        "meaning":  "Used at the end of a sentence or phrase to show you are not being precise about what you mean.",
+        "example":  "We should meet for coffee or something next week to catch up.",
+        "category":  "Vagueness \u0026 Approximators"
+    },
+    {
+        "word":  "AND THINGS LIKE THAT",
+        "meaning":  "Used to refer to other similar activities or things without naming all of them.",
+        "example":  "The course covers basic grammar, vocabulary, and things like that.",
+        "category":  "Vagueness \u0026 Approximators"
+    },
+    {
+        "word":  "MORE OR LESS",
+        "meaning":  "Almost or approximately; used to show that a statement is not completely exact.",
+        "example":  "The translation is more or less correct, though we might need to polish the style.",
+        "category":  "Vagueness \u0026 Approximators"
+    },
+    {
+        "word":  "ROUGH ESTIMATE",
+        "meaning":  "A calculation that is close to the correct number but not exact.",
+        "example":  "The contractor gave us a rough estimate of five thousand dollars to repair the roof.",
+        "category":  "Vagueness \u0026 Approximators"
+    },
+    {
+        "word":  "GIVE OR TAKE",
+        "meaning":  "Plus or minus a small amount; approximately.",
+        "example":  "The project will take about six months to complete, give or take a few weeks.",
+        "category":  "Vagueness \u0026 Approximators"
+    },
+    {
+        "word":  "IN THE REGION OF",
+        "meaning":  "Approximately; around a certain amount or number.",
+        "example":  "The cost of the new server will be in the region of three thousand dollars.",
+        "category":  "Vagueness \u0026 Approximators"
+    },
+    {
+        "word":  "ROUND ABOUT",
+        "meaning":  "Approximately; around a certain time, date, or number.",
+        "example":  "The package should arrive round about noon tomorrow.",
+        "category":  "Vagueness \u0026 Approximators"
+    },
+    {
+        "word":  "SOMETHING LIKE",
+        "meaning":  "Approximately or similar to.",
+        "example":  "The client wants something like our previous design, but with a different color scheme.",
+        "category":  "Vagueness \u0026 Approximators"
+    },
+    {
+        "word":  "OR SO",
+        "meaning":  "Used after a number, quantity, or time to show that it is approximate.",
+        "example":  "We will need another week or so to finish the testing phase.",
+        "category":  "Vagueness \u0026 Approximators"
+    },
+    {
+        "word":  "ROUGHLY",
+        "meaning":  "Approximately or nearly, without being exact.",
+        "example":  "The meeting lasted roughly two hours, with a short break in the middle.",
+        "category":  "Vagueness \u0026 Approximators"
+    },
+    {
+        "word":  "APPROXIMATELY",
+        "meaning":  "Close to a particular number or time, but not completely accurate.",
+        "example":  "The software update will take approximately twenty minutes to install.",
+        "category":  "Vagueness \u0026 Approximators"
+    },
+    {
+        "word":  "KIND OF LIKE",
+        "meaning":  "Similar to; used to describe something in an informal, approximate way.",
+        "example":  "The new system is kind of like the old one, but it runs on the cloud.",
+        "category":  "Vagueness \u0026 Approximators"
+    },
+    {
+        "word":  "SOME SORT OF",
+        "meaning":  "A type of something that is not clearly identified or described.",
+        "example":  "There seems to be some sort of error in the database query.",
+        "category":  "Vagueness \u0026 Approximators"
+    },
+    {
+        "word":  "A BIT OF A",
+        "meaning":  "Used to soften a negative noun, making it sound less severe.",
+        "example":  "We have a bit of a problem with the server configuration.",
+        "category":  "Vagueness \u0026 Approximators"
+    },
+    {
+        "word":  "SOMEWHERE AROUND",
+        "meaning":  "Approximately at a certain number, price, or time.",
+        "example":  "The team expects to launch the product somewhere around mid-June.",
+        "category":  "Vagueness \u0026 Approximators"
+    },
+    {
+        "word":  "UPWARDS OF",
+        "meaning":  "More than a certain number or amount.",
+        "example":  "The application has upwards of ten thousand active users every day.",
+        "category":  "Vagueness \u0026 Approximators"
+    },
+    {
+        "word":  "CLOSE TO",
+        "meaning":  "Almost; near a particular quantity, time, or state.",
+        "example":  "I am close to finishing the draft; I just need to write the summary.",
+        "category":  "Vagueness \u0026 Approximators"
+    },
+    {
+        "word":  "OR THEREABOUTS",
+        "meaning":  "Near that number, amount, or place; approximately.",
+        "example":  "He has been working at the company for five years or thereabouts.",
+        "category":  "Vagueness \u0026 Approximators"
+    },
+    {
+        "word":  "STUFF LIKE THAT",
+        "meaning":  "Used informally to refer to other similar items or actions without listing them.",
+        "example":  "I need to buy notebooks, pens, and stuff like that for school.",
+        "category":  "Vagueness \u0026 Approximators"
+    },
+    {
+        "word":  "AROUND",
+        "meaning":  "Near to; approximately (referring to time, number, or quantity).",
+        "example":  "Let\u0027s meet around three o\u0027clock in the conference room.",
+        "category":  "Vagueness \u0026 Approximators"
+    },
+    {
+        "word":  "OF SORTS",
+        "meaning":  "Of a poor or unusual kind; used to show that something is not a perfect example of its type.",
+        "example":  "The small office served as a conference room of sorts for the tiny startup team.",
+        "category":  "Vagueness \u0026 Approximators"
+    },
+    {
+        "word":  "TO A DEGREE",
+        "meaning":  "Partly; up to a certain point.",
+        "example":  "I agree with the proposal to a degree, but we need to address the safety concerns first.",
+        "category":  "Vagueness \u0026 Approximators"
+    },
+    {
+        "word":  "NEARLY",
+        "meaning":  "Almost; very close to a particular state or number.",
+        "example":  "The project is nearly complete; we just need the client\u0027s final approval.",
+        "category":  "Vagueness \u0026 Approximators"
+    },
+    {
+        "word":  "ESTIMATED",
+        "meaning":  "Calculated approximately.",
+        "example":  "The estimated delivery time for your order is two to three business days.",
+        "category":  "Vagueness \u0026 Approximators"
+    },
+    {
+        "word":  "A TOUCH OF",
+        "meaning":  "A very small amount of something.",
+        "example":  "Adding a touch of humor to your presentation can help keep the audience engaged.",
+        "category":  "Vagueness \u0026 Approximators"
+    },
+    {
+        "word":  "SOMETHING OF A",
+        "meaning":  "Used to describe someone or something that has the qualities of a particular thing to some extent.",
+        "example":  "The new project manager has proved to be something of an expert in conflict resolution.",
+        "category":  "Vagueness \u0026 Approximators"
+    },
+    {
+        "word":  "OR THE LIKE",
+        "meaning":  "Or other similar things.",
+        "example":  "The policy applies to laptops, tablets, smartphones, or the like.",
+        "category":  "Vagueness \u0026 Approximators"
+    },
+    {
+        "word":  "PROVISIONAL",
+        "meaning":  "Arranged or existing for the present, possibly to be changed later.",
+        "example":  "We have set a provisional date for the product launch, which is September 1st.",
+        "category":  "Vagueness \u0026 Approximators"
+    },
+    {
+        "word":  "TENTATIVE",
+        "meaning":  "Not certain or fixed; subject to change.",
+        "example":  "The team agreed on a tentative schedule for the project milestones.",
+        "category":  "Vagueness \u0026 Approximators"
+    },
+    {
+        "word":  "A FRACTION OF",
+        "meaning":  "A small part or amount of something.",
+        "example":  "The new machine uses only a fraction of the electricity that the old model required.",
+        "category":  "Vagueness \u0026 Approximators"
+    }
+]

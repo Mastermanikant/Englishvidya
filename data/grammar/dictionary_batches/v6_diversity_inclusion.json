@@ -1,0 +1,662 @@
+﻿[
+    {
+        "word":  "Diversity",
+        "meaning":  "The presence of a wide variety of human differences, such as race, gender, age, and background, within a group or organization.",
+        "example":  "The university boasts a rich diversity of students from over fifty different countries.",
+        "category":  "DEI Core Concepts"
+    },
+    {
+        "word":  "Equity",
+        "meaning":  "The practice of ensuring everyone has access to the same opportunities by recognizing that different people have different needs.",
+        "example":  "By providing extra tutoring to students who were struggling, the school demonstrated its commitment to equity.",
+        "category":  "DEI Core Concepts"
+    },
+    {
+        "word":  "Inclusion",
+        "meaning":  "The act of creating an environment where all individuals feel welcomed, respected, supported, and valued.",
+        "example":  "The company\u0027s new policy focuses on inclusion, making sure every employee\u0027s voice is heard during meetings.",
+        "category":  "DEI Core Concepts"
+    },
+    {
+        "word":  "Social Justice",
+        "meaning":  "The view that everyone deserves equal economic, political, and social rights and opportunities.",
+        "example":  "Many young people are actively involved in campaigns that fight for social justice and human rights.",
+        "category":  "DEI Core Concepts"
+    },
+    {
+        "word":  "Privilege",
+        "meaning":  "A special advantage or benefit that a person has because of their social group, identity, or background, often without realizing it.",
+        "example":  "Growing up in a wealthy neighborhood is a privilege that provides better access to high-quality education.",
+        "category":  "DEI Core Concepts"
+    },
+    {
+        "word":  "Intersectionality",
+        "meaning":  "The concept of how different parts of a person\u0027s identity (like race, gender, and class) combine to create unique experiences of discrimination or privilege.",
+        "example":  "Her research on intersectionality explores how race and gender together affect a woman\u0027s career path.",
+        "category":  "DEI Core Concepts"
+    },
+    {
+        "word":  "Marginalization",
+        "meaning":  "The process of pushing a particular group of people to the edge of society, giving them less power and importance.",
+        "example":  "For centuries, minor groups faced marginalization, being excluded from political decision-making.",
+        "category":  "DEI Core Concepts"
+    },
+    {
+        "word":  "Bias",
+        "meaning":  "A personal and sometimes unreasonable preference for or dislike of a person, group, or idea, which influences decision-making.",
+        "example":  "The judge was accused of bias because he had a personal relationship with the defendant.",
+        "category":  "DEI Core Concepts"
+    },
+    {
+        "word":  "Prejudice",
+        "meaning":  "An unfair or unreasonable opinion or feeling formed about someone before knowing them, often based on their group identity.",
+        "example":  "To build a harmonious community, we must work together to overcome racial prejudice.",
+        "category":  "DEI Core Concepts"
+    },
+    {
+        "word":  "Discrimination",
+        "meaning":  "The unfair or prejudicial treatment of different categories of people, especially on the grounds of race, age, or sex.",
+        "example":  "It is illegal to practice discrimination against job applicants based on their age or religion.",
+        "category":  "DEI Core Concepts"
+    },
+    {
+        "word":  "Systemic Barriers",
+        "meaning":  "Rules, practices, or cultures in an institution that show favoritism toward one group and create disadvantages for another.",
+        "example":  "The organization is working to remove systemic barriers that prevent low-income students from attending college.",
+        "category":  "DEI Core Concepts"
+    },
+    {
+        "word":  "Belonging",
+        "meaning":  "The feeling of being accepted, secure, and supported within a community, school, or workplace.",
+        "example":  "Participating in team-building activities helped the new hire develop a strong sense of belonging.",
+        "category":  "DEI Core Concepts"
+    },
+    {
+        "word":  "Psychological Safety",
+        "meaning":  "An environment where people feel comfortable sharing ideas, asking questions, and making mistakes without fear of negative consequences.",
+        "example":  "A high level of psychological safety allows developers to admit coding errors without fear of blame.",
+        "category":  "DEI Core Concepts"
+    },
+    {
+        "word":  "Allyship",
+        "meaning":  "A continuous process of learning and acting to support marginalized groups, using one\u0027s influence or privilege to advocate for them.",
+        "example":  "Active allyship involves speaking up when a colleague is treated unfairly or excluded from discussions.",
+        "category":  "DEI Core Concepts"
+    },
+    {
+        "word":  "Advocacy",
+        "meaning":  "The public support for or recommendation of a particular cause, policy, or group of people.",
+        "example":  "The non-profit organization is known for its strong advocacy of environmental protection and clean energy.",
+        "category":  "DEI Core Concepts"
+    },
+    {
+        "word":  "Diversity Dimensions",
+        "meaning":  "The various aspects of human identity, such as race, ethnicity, gender, sexual orientation, age, physical ability, and religion.",
+        "example":  "Understanding different diversity dimensions helps the human resources team build a more balanced workforce.",
+        "category":  "DEI Core Concepts"
+    },
+    {
+        "word":  "Equal Opportunity",
+        "meaning":  "The principle of treating everyone equally and fairly, without discrimination, in employment, education, and public services.",
+        "example":  "Our company is an equal opportunity employer, welcoming applications from all qualified individuals.",
+        "category":  "DEI Core Concepts"
+    },
+    {
+        "word":  "Human Rights",
+        "meaning":  "The basic rights and freedoms that belong to every person in the world, from birth until death.",
+        "example":  "Ensuring access to clean water, food, and education is a fundamental matter of human rights.",
+        "category":  "DEI Core Concepts"
+    },
+    {
+        "word":  "Underrepresented",
+        "meaning":  "A term describing a group of people who are not present in a particular field, company, or institution in proportion to their population.",
+        "example":  "Women remain underrepresented in senior leadership roles within the technology sector.",
+        "category":  "DEI Core Concepts"
+    },
+    {
+        "word":  "Inherent Worth",
+        "meaning":  "The belief that every human being has value and deserves respect simply because they exist, regardless of their background or abilities.",
+        "example":  "The core principle of our organization is that every individual possesses inherent worth and deserves dignity.",
+        "category":  "DEI Core Concepts"
+    },
+    {
+        "word":  "Social Integration",
+        "meaning":  "The process through which diverse individuals or groups are welcomed and incorporated into a unified, harmonious society.",
+        "example":  "Language classes play a crucial role in the social integration of new immigrants into the local community.",
+        "category":  "DEI Core Concepts"
+    },
+    {
+        "word":  "Cultural Diversity",
+        "meaning":  "The existence of a variety of cultural or ethnic groups within a society or organization.",
+        "example":  "The city\u0027s cultural diversity is celebrated annually through a vibrant food and music festival.",
+        "category":  "DEI Core Concepts"
+    },
+    {
+        "word":  "Pluralism",
+        "meaning":  "A system in which two or more states, groups, or principles coexist peacefully and maintain their unique identities.",
+        "example":  "Democratic societies thrive on pluralism, where different religious and political groups coexist peacefully.",
+        "category":  "DEI Core Concepts"
+    },
+    {
+        "word":  "Empowerment",
+        "meaning":  "The process of becoming stronger and more confident, especially in controlling one\u0027s life and claiming one\u0027s rights.",
+        "example":  "Providing microloans to female entrepreneurs is a powerful tool for economic empowerment.",
+        "category":  "DEI Core Concepts"
+    },
+    {
+        "word":  "Shared Humanity",
+        "meaning":  "The recognition of the basic common qualities, feelings, and rights that connect all human beings across different cultures.",
+        "example":  "During global crises, acts of kindness remind us of our shared humanity across borders.",
+        "category":  "DEI Core Concepts"
+    },
+    {
+        "word":  "Tolerance",
+        "meaning":  "The ability or willingness to tolerate the existence of opinions or behavior that one dislikes or disagrees with.",
+        "example":  "Religious tolerance is essential for maintaining peace and harmony in a multi-cultural nation.",
+        "category":  "DEI Core Concepts"
+    },
+    {
+        "word":  "Respect",
+        "meaning":  "A feeling of deep admiration for someone or something, elicited by their abilities, qualities, achievements, or human dignity.",
+        "example":  "In any professional debate, it is important to treat your opponents with respect and courtesy.",
+        "category":  "DEI Core Concepts"
+    },
+    {
+        "word":  "Dignity",
+        "meaning":  "The state or quality of being worthy of honor or respect, which every person is entitled to.",
+        "example":  "Every patient in the hospital has the right to be treated with dignity and care.",
+        "category":  "DEI Core Concepts"
+    },
+    {
+        "word":  "Social Consciousness",
+        "meaning":  "The state of being aware of the problems and injustices that affect individuals and communities in society.",
+        "example":  "Documentaries can raise social consciousness about important issues like poverty and climate change.",
+        "category":  "DEI Core Concepts"
+    },
+    {
+        "word":  "Common Good",
+        "meaning":  "The advantage or benefit of all members of a society or community.",
+        "example":  "Sometimes, individuals must make small sacrifices for the common good of the entire neighborhood.",
+        "category":  "DEI Core Concepts"
+    },
+    {
+        "word":  "Unconscious Bias",
+        "meaning":  "Social stereotypes about certain groups of people that individuals form outside their own conscious awareness.",
+        "example":  "Recruiters underwent training to recognize and minimize unconscious bias during the hiring process.",
+        "category":  "Workplace Inclusivity"
+    },
+    {
+        "word":  "Microaggression",
+        "meaning":  "A subtle, often unintentional comment or action that expresses a prejudiced attitude toward a marginalized group.",
+        "example":  "Asking a colleague \u0027Where are you really from?\u0027 is a common example of a microaggression.",
+        "category":  "Workplace Inclusivity"
+    },
+    {
+        "word":  "Inclusive Leadership",
+        "meaning":  "A style of leadership where managers actively seek out and value different perspectives to make better, fairer decisions.",
+        "example":  "Through inclusive leadership, the director ensured that junior developers could contribute to key decisions.",
+        "category":  "Workplace Inclusivity"
+    },
+    {
+        "word":  "Affirmative Action",
+        "meaning":  "Policies or practices designed to actively support and hire individuals from historically disadvantaged groups.",
+        "example":  "The university\u0027s affirmative action policy helped increase enrollment of students from minority backgrounds.",
+        "category":  "Workplace Inclusivity"
+    },
+    {
+        "word":  "Reasonable Accommodation",
+        "meaning":  "Modifications or adjustments made to a job or work environment that enable an employee with a disability to perform their duties.",
+        "example":  "Installing a ramp at the office entrance is a reasonable accommodation for employees who use wheelchairs.",
+        "category":  "Workplace Inclusivity"
+    },
+    {
+        "word":  "Neurodiversity",
+        "meaning":  "The concept that differences in human brain function (such as ADHD, autism, or dyslexia) are normal variations rather than illnesses.",
+        "example":  "By embracing neurodiversity, the company found that autistic employees brought unique strengths to data analysis.",
+        "category":  "Workplace Inclusivity"
+    },
+    {
+        "word":  "Cultural Fit",
+        "meaning":  "A traditional hiring practice where candidates are chosen based on how well they match the existing workplace culture, which can sometimes lead to a lack of diversity.",
+        "example":  "Relying too much on cultural fit can lead managers to hire people who look and think exactly like them.",
+        "category":  "Workplace Inclusivity"
+    },
+    {
+        "word":  "Cultural Add",
+        "meaning":  "The practice of hiring people who bring new perspectives, backgrounds, and values to a company rather than just matching existing ones.",
+        "example":  "Instead of looking for a cultural fit, the startup prioritized cultural add to bring in fresh ideas.",
+        "category":  "Workplace Inclusivity"
+    },
+    {
+        "word":  "Gender Pronouns",
+        "meaning":  "The words (such as he/him, she/her, they/them) that a person chooses to represent their gender identity.",
+        "example":  "Many employees include their gender pronouns in their email signatures to promote an inclusive environment.",
+        "category":  "Workplace Inclusivity"
+    },
+    {
+        "word":  "Tokenism",
+        "meaning":  "The practice of doing something (such as hiring one person from a minority group) only to prevent criticism and give the appearance of fairness.",
+        "example":  "Putting a single minority employee on every brochure cover can be perceived as insincere tokenism.",
+        "category":  "Workplace Inclusivity"
+    },
+    {
+        "word":  "Code-switching",
+        "meaning":  "The act of adjusting one\u0027s style of speech, appearance, or behavior to conform to different cultural norms or workplace expectations.",
+        "example":  "She described the exhaustion of code-switching between her home dialect and the formal language of the office.",
+        "category":  "Workplace Inclusivity"
+    },
+    {
+        "word":  "Employee Resource Group",
+        "meaning":  "A voluntary, employee-led group formed around shared characteristics or life experiences to foster a diverse and inclusive workplace.",
+        "example":  "The LGBTQ+ Employee Resource Group organized a series of educational workshops during Pride Month.",
+        "category":  "Workplace Inclusivity"
+    },
+    {
+        "word":  "Safe Space",
+        "meaning":  "A supportive, non-threatening environment where people can feel free to express themselves without fear of discrimination, judgment, or harassment.",
+        "example":  "The support group provided a safe space for parents to share their challenges without feeling judged.",
+        "category":  "Workplace Inclusivity"
+    },
+    {
+        "word":  "Inclusive Language",
+        "meaning":  "Language that avoids words or phrases that could exclude, offend, or stereotype particular groups of people.",
+        "example":  "Using \u0027spouses\u0027 instead of \u0027husbands and wives\u0027 is an easy way to practice inclusive language.",
+        "category":  "Workplace Inclusivity"
+    },
+    {
+        "word":  "Glass Ceiling",
+        "meaning":  "An invisible barrier that prevents women and minority groups from rising to top-level positions in a company or organization.",
+        "example":  "By becoming the first female CEO of the bank, she successfully shattered the glass ceiling.",
+        "category":  "Workplace Inclusivity"
+    },
+    {
+        "word":  "Wage Gap",
+        "meaning":  "The difference in average pay between different groups of employees, such as men and women or different racial groups, performing similar work.",
+        "example":  "The government introduced new transparency laws aimed at closing the gender wage gap.",
+        "category":  "Workplace Inclusivity"
+    },
+    {
+        "word":  "Micro-validation",
+        "meaning":  "A subtle, small gesture or comment that affirms and supports someone\u0027s value, ideas, or identity in a group setting.",
+        "example":  "Nodding and acknowledging a colleague\u0027s point during a heated debate is a form of micro-validation.",
+        "category":  "Workplace Inclusivity"
+    },
+    {
+        "word":  "Equity Audit",
+        "meaning":  "A systematic review of a company\u0027s policies, pay, and practices to identify and eliminate unfair treatment and systemic bias.",
+        "example":  "The equity audit revealed that male employees were promoted faster than their female counterparts.",
+        "category":  "Workplace Inclusivity"
+    },
+    {
+        "word":  "Accessibility",
+        "meaning":  "The quality of being easy to approach, enter, speak with, use, or understand, especially for people with disabilities.",
+        "example":  "Adding closed captions to training videos improves accessibility for employees with hearing impairments.",
+        "category":  "Workplace Inclusivity"
+    },
+    {
+        "word":  "Universal Design",
+        "meaning":  "The design of buildings, products, or environments to make them accessible and usable by all people, regardless of age, size, or ability.",
+        "example":  "The new headquarters was built using universal design, featuring automatic doors and height-adjustable desks.",
+        "category":  "Workplace Inclusivity"
+    },
+    {
+        "word":  "Micro-affirmation",
+        "meaning":  "A small, subtle action or comment that helps someone feel valued, included, and respected in the workplace.",
+        "example":  "A simple micro-affirmation, like saying \u0027that is a great question,\u0027 can boost a new employee\u0027s confidence.",
+        "category":  "Workplace Inclusivity"
+    },
+    {
+        "word":  "Bias Interrupter",
+        "meaning":  "A practical policy or action used in the workplace to stop bias before it influences hiring, promotions, or performance reviews.",
+        "example":  "Removing names from resumes before reviewing them is an effective bias interrupter in recruitment.",
+        "category":  "Workplace Inclusivity"
+    },
+    {
+        "word":  "Meritocracy",
+        "meaning":  "A system or organization where people are chosen and promoted based on their talent and effort, which can sometimes fail if systemic barriers are ignored.",
+        "example":  "While a meritocracy sounds fair, it only works if every candidate starts with the same resources and opportunities.",
+        "category":  "Workplace Inclusivity"
+    },
+    {
+        "word":  "Equal Pay for Equal Work",
+        "meaning":  "The principle that men and women in the same workplace should receive equal pay for performing equal work.",
+        "example":  "The union fought to guarantee equal pay for equal work across all manufacturing plants.",
+        "category":  "Workplace Inclusivity"
+    },
+    {
+        "word":  "Active Ally",
+        "meaning":  "A person in the workplace who actively uses their power, privilege, or voice to support and defend colleagues from marginalized groups.",
+        "example":  "As an active ally, he stood up and corrected a client who made a sexist comment during the meeting.",
+        "category":  "Workplace Inclusivity"
+    },
+    {
+        "word":  "Inclusive Hiring",
+        "meaning":  "The practice of designing recruitment processes that attract a diverse pool of candidates and eliminate unfair bias in selection.",
+        "example":  "The HR department updated their job descriptions to ensure they followed inclusive hiring practices.",
+        "category":  "Workplace Inclusivity"
+    },
+    {
+        "word":  "Cultural Competency Training",
+        "meaning":  "Educational programs designed to help employees understand, respect, and work effectively with people from different cultural backgrounds.",
+        "example":  "All customer service agents complete cultural competency training to better serve international clients.",
+        "category":  "Workplace Inclusivity"
+    },
+    {
+        "word":  "Mentorship Loop",
+        "meaning":  "A formal arrangement where experienced employees provide guidance and career support to newer, diverse team members.",
+        "example":  "The company\u0027s mentorship loop pairs senior executives with junior employees from underrepresented groups.",
+        "category":  "Workplace Inclusivity"
+    },
+    {
+        "word":  "Sponsorship",
+        "meaning":  "A relationship where a senior leader actively uses their influence and authority to help advance the career of a junior colleague.",
+        "example":  "Thanks to the sponsorship of the vice president, the talented manager was recommended for a promotion.",
+        "category":  "Workplace Inclusivity"
+    },
+    {
+        "word":  "Structural Equity",
+        "meaning":  "The design of organizational systems, such as pay bands and promotion tracks, to ensure fairness and equal opportunity for all.",
+        "example":  "The board established structural equity by standardizing salary ranges for all department heads.",
+        "category":  "Workplace Inclusivity"
+    },
+    {
+        "word":  "Systemic Racism",
+        "meaning":  "Policies and practices within institutions (such as schools, banks, or courts) that result in and support unfair treatment of some racial groups.",
+        "example":  "Redlining in housing policies is a clear historical example of systemic racism that still affects wealth today.",
+        "category":  "Social Justice \u0026 Equity"
+    },
+    {
+        "word":  "Institutional Bias",
+        "meaning":  "Unfair practices and policies embedded within an organization that systematically favor one group over another.",
+        "example":  "The standardized test was criticized for institutional bias because it favored students from wealthy schools.",
+        "category":  "Social Justice \u0026 Equity"
+    },
+    {
+        "word":  "Disenfranchisement",
+        "meaning":  "The state of being deprived of a right or privilege, especially the right to vote or participate fully in society.",
+        "example":  "Strict voting laws can lead to the disenfranchisement of low-income citizens who lack official identification.",
+        "category":  "Social Justice \u0026 Equity"
+    },
+    {
+        "word":  "Reparations",
+        "meaning":  "Actions or payments made to make amends or provide compensation for historical injustices and systemic harm.",
+        "example":  "Historians debated the most effective way to distribute reparations to descendants of enslaved people.",
+        "category":  "Social Justice \u0026 Equity"
+    },
+    {
+        "word":  "Decolonization",
+        "meaning":  "The process of uncovering and dismantling colonial ideologies, structures, and practices in education, culture, and governance.",
+        "example":  "The university department began a process of decolonization by adding African and Asian authors to the syllabus.",
+        "category":  "Social Justice \u0026 Equity"
+    },
+    {
+        "word":  "Restorative Justice",
+        "meaning":  "An approach to justice that focuses on repairing the harm caused by behavior through cooperative processes and healing rather than punishment.",
+        "example":  "The school used restorative justice, allowing the student to apologize and repair the damage instead of being suspended.",
+        "category":  "Social Justice \u0026 Equity"
+    },
+    {
+        "word":  "Social Equity",
+        "meaning":  "The active commitment to fairness, justice, and equality in the formulation of public policy and distribution of social resources.",
+        "example":  "The city council\u0027s housing policy promotes social equity by reserving twenty percent of new apartments for low-income families.",
+        "category":  "Social Justice \u0026 Equity"
+    },
+    {
+        "word":  "Underserved Communities",
+        "meaning":  "Populations that have limited access to essential services, resources, and opportunities due to geographic, social, or economic barriers.",
+        "example":  "Mobile clinics were launched to provide basic healthcare to underserved communities in rural areas.",
+        "category":  "Social Justice \u0026 Equity"
+    },
+    {
+        "word":  "Socioeconomic Status",
+        "meaning":  "The social standing or class of an individual or group, often measured as a combination of education, income, and occupation.",
+        "example":  "Students from low socioeconomic status often face challenges in accessing high-quality test prep materials.",
+        "category":  "Social Justice \u0026 Equity"
+    },
+    {
+        "word":  "Ableism",
+        "meaning":  "The unfair treatment, prejudice, or discrimination against people with physical or mental disabilities.",
+        "example":  "Assuming that a person in a wheelchair cannot do a desk job is a common form of ableism.",
+        "category":  "Social Justice \u0026 Equity"
+    },
+    {
+        "word":  "Ageism",
+        "meaning":  "The unfair treatment, stereotyping, or discrimination against individuals based on their age, especially elderly or younger people.",
+        "example":  "Rejecting a highly qualified candidate because they are \u0027too close to retirement\u0027 is an example of ageism.",
+        "category":  "Social Justice \u0026 Equity"
+    },
+    {
+        "word":  "Xenophobia",
+        "meaning":  "The fear, hatred, or prejudice against people from other countries or cultures.",
+        "example":  "The rise in xenophobia led to calls for stricter border controls and anti-immigration policies.",
+        "category":  "Social Justice \u0026 Equity"
+    },
+    {
+        "word":  "Heteronormativity",
+        "meaning":  "The belief or assumption that heterosexuality is the normal, natural, and preferred sexual orientation for all people.",
+        "example":  "The children\u0027s book challenged heteronormativity by featuring a family with two mothers.",
+        "category":  "Social Justice \u0026 Equity"
+    },
+    {
+        "word":  "Cisnormativity",
+        "meaning":  "The assumption that all people identify with the gender they were assigned at birth, excluding transgender and non-binary identities.",
+        "example":  "Forms that only offer \u0027Male\u0027 and \u0027Female\u0027 checkboxes are examples of cisnormativity in data collection.",
+        "category":  "Social Justice \u0026 Equity"
+    },
+    {
+        "word":  "Colorism",
+        "meaning":  "Prejudice or discrimination against individuals with a dark skin tone, typically among people of the same ethnic or racial group.",
+        "example":  "Advertising campaigns that promote skin-whitening creams are criticized for encouraging colorism.",
+        "category":  "Social Justice \u0026 Equity"
+    },
+    {
+        "word":  "Social Stratification",
+        "meaning":  "The categorization of people into socio-economic tiers based on factors like wealth, income, race, education, and power.",
+        "example":  "The country\u0027s rigid social stratification made it extremely difficult for poor citizens to improve their lives.",
+        "category":  "Social Justice \u0026 Equity"
+    },
+    {
+        "word":  "Cultural Assimilation",
+        "meaning":  "The process by which a minority individual or group takes on the characteristics of a dominant culture, sometimes losing their original heritage.",
+        "example":  "Immigrants often face pressure of cultural assimilation, which can lead to the loss of their native language.",
+        "category":  "Social Justice \u0026 Equity"
+    },
+    {
+        "word":  "Economic Inequality",
+        "meaning":  "The unequal distribution of income, wealth, and economic opportunities between different individuals or groups in a society.",
+        "example":  "Tax reforms were proposed to reduce the growing economic inequality between the rich and the poor.",
+        "category":  "Social Justice \u0026 Equity"
+    },
+    {
+        "word":  "Environmental Racism",
+        "meaning":  "The practice of placing toxic waste sites, factories, or landfills near low-income or minority neighborhoods, harming their health.",
+        "example":  "Building a chemical plant near a low-income neighborhood is often cited as environmental racism.",
+        "category":  "Social Justice \u0026 Equity"
+    },
+    {
+        "word":  "Human Dignity",
+        "meaning":  "The basic belief that every person has an inherent right to respect and ethical treatment, which should never be violated.",
+        "example":  "Treating homeless individuals with kindness and respect is a way to honor their human dignity.",
+        "category":  "Social Justice \u0026 Equity"
+    },
+    {
+        "word":  "Civil Rights",
+        "meaning":  "The rights of citizens to political and social freedom and equality, protected by law against discrimination or infringement.",
+        "example":  "The historic march was a turning point in the struggle for civil rights and racial equality.",
+        "category":  "Social Justice \u0026 Equity"
+    },
+    {
+        "word":  "Structural Disadvantage",
+        "meaning":  "A disadvantage that is built into the rules and institutions of a society, making it harder for certain groups to succeed.",
+        "example":  "A lack of public transportation creates a structural disadvantage for residents seeking jobs in the city.",
+        "category":  "Social Justice \u0026 Equity"
+    },
+    {
+        "word":  "Social Mobility",
+        "meaning":  "The movement of individuals, families, or groups from one social or economic level to another in a society.",
+        "example":  "Access to affordable higher education is one of the most effective drivers of social mobility.",
+        "category":  "Social Justice \u0026 Equity"
+    },
+    {
+        "word":  "Generational Wealth",
+        "meaning":  "Financial assets, properties, or businesses that are passed down from one generation of a family to the next, often influenced by historical policies.",
+        "example":  "Homeownership is a primary way that families build and pass down generational wealth.",
+        "category":  "Social Justice \u0026 Equity"
+    },
+    {
+        "word":  "Digital Divide",
+        "meaning":  "The gap between those who have easy access to modern digital technology and the internet and those who do not.",
+        "example":  "During remote learning, the digital divide became clear when some students lacked internet access at home.",
+        "category":  "Social Justice \u0026 Equity"
+    },
+    {
+        "word":  "Cultural Competence",
+        "meaning":  "The ability to understand, appreciate, and interact effectively with people from cultures or belief systems different from one\u0027s own.",
+        "example":  "Nurses who develop cultural competence can provide better, more respectful care to diverse patients.",
+        "category":  "Cultural Empathy"
+    },
+    {
+        "word":  "Cultural Humility",
+        "meaning":  "A lifelong process of self-reflection and learning, where a person remains open to learning about other cultures without judging them.",
+        "example":  "Practicing cultural humility means listening to others and acknowledging that your own culture is not the only standard.",
+        "category":  "Cultural Empathy"
+    },
+    {
+        "word":  "Cultural Appropriation",
+        "meaning":  "The unacknowledged or inappropriate adoption of customs, practices, or ideas of one people or society by members of another, more dominant group.",
+        "example":  "Wearing a traditional native headdress as a fashion accessory is widely seen as cultural appropriation.",
+        "category":  "Cultural Empathy"
+    },
+    {
+        "word":  "Cultural Appreciation",
+        "meaning":  "The respectful study, learning, and sharing of elements of another culture to understand and honor its heritage.",
+        "example":  "Attending a traditional tea ceremony and learning about its history is a form of cultural appreciation.",
+        "category":  "Cultural Empathy"
+    },
+    {
+        "word":  "Implicit Bias",
+        "meaning":  "Thoughts, attitudes, or stereotypes that affect our understanding, actions, and decisions in an unconscious manner.",
+        "example":  "Even well-intentioned teachers may have an implicit bias that affects how they discipline different students.",
+        "category":  "Cultural Empathy"
+    },
+    {
+        "word":  "Ethnocentrism",
+        "meaning":  "The evaluation of other cultures according to preconceptions originating in the standards and customs of one\u0027s own culture.",
+        "example":  "Believing that your country\u0027s food and customs are superior to all others is an example of ethnocentrism.",
+        "category":  "Cultural Empathy"
+    },
+    {
+        "word":  "Stereotype Threat",
+        "meaning":  "A situational predicament where people are or feel themselves to be at risk of conforming to negative stereotypes about their social group.",
+        "example":  "Reminding girls of the stereotype that boys are better at math can trigger stereotype threat and lower their test scores.",
+        "category":  "Cultural Empathy"
+    },
+    {
+        "word":  "In-Group Bias",
+        "meaning":  "The tendency to favor, trust, and support members of one\u0027s own group or social circle over those from other groups.",
+        "example":  "The manager showed in-group bias by assigning the best projects to employees who attended his alma mater.",
+        "category":  "Cultural Empathy"
+    },
+    {
+        "word":  "Out-Group Bias",
+        "meaning":  "The tendency to view people outside one\u0027s own social group with suspicion, dislike, or unfair judgment.",
+        "example":  "We must be careful not to let out-group bias make us suspicious of new teams from other departments.",
+        "category":  "Cultural Empathy"
+    },
+    {
+        "word":  "Active Listening",
+        "meaning":  "A way of listening and responding to another person that improves mutual understanding and shows deep respect for their feelings.",
+        "example":  "Through active listening, the counselor made the student feel heard, respected, and understood.",
+        "category":  "Cultural Empathy"
+    },
+    {
+        "word":  "Empathy",
+        "meaning":  "The ability to understand and share the feelings of another person, putting oneself in their situation.",
+        "example":  "Showing empathy to a grieving friend means sitting with them and sharing their sadness.",
+        "category":  "Cultural Empathy"
+    },
+    {
+        "word":  "Self-Reflection",
+        "meaning":  "The careful thought and analysis of one\u0027s own beliefs, behaviors, and biases to learn and grow as a person.",
+        "example":  "Regular self-reflection helped him realize that his past comments had been insensitive to others.",
+        "category":  "Cultural Empathy"
+    },
+    {
+        "word":  "Unlearning",
+        "meaning":  "The deliberate process of letting go of old, biased, or incorrect assumptions and behaviors in order to adopt new, fairer perspectives.",
+        "example":  "Becoming an ally requires unlearning many of the societal stereotypes we grew up with.",
+        "category":  "Cultural Empathy"
+    },
+    {
+        "word":  "Ally",
+        "meaning":  "A person who makes a conscious commitment to support and stand up for a marginalized group, even if they are not a member of that group.",
+        "example":  "As an ally, she attended the rally to show solidarity with the disabled community.",
+        "category":  "Cultural Empathy"
+    },
+    {
+        "word":  "Cultural Empathy",
+        "meaning":  "The effort to understand and connect with the feelings, perspectives, and cultural experiences of someone from a different background.",
+        "example":  "Reading literature from diverse authors is a wonderful way to develop cultural empathy.",
+        "category":  "Cultural Empathy"
+    },
+    {
+        "word":  "Stereotyping",
+        "meaning":  "The practice of holding a simplified, generalized, and often incorrect belief about a whole group of people.",
+        "example":  "Assuming all older workers are bad with technology is an unfair form of stereotyping.",
+        "category":  "Cultural Empathy"
+    },
+    {
+        "word":  "Cross-Cultural Communication",
+        "meaning":  "The process of exchanging information, ideas, and feelings between people from different cultural backgrounds.",
+        "example":  "Clear cross-cultural communication is vital for the success of multinational business negotiations.",
+        "category":  "Cultural Empathy"
+    },
+    {
+        "word":  "Inclusive Dialogue",
+        "meaning":  "A conversation where everyone\u0027s voice is welcomed and participants work together to understand each other\u0027s perspectives.",
+        "example":  "The town hall meeting fostered an inclusive dialogue between city planners and local residents.",
+        "category":  "Cultural Empathy"
+    },
+    {
+        "word":  "Intercultural Sensitivity",
+        "meaning":  "The ability to recognize, respect, and value cultural differences in communication and behavior.",
+        "example":  "Living abroad for a year helped her develop a deep intercultural sensitivity and respect for differences.",
+        "category":  "Cultural Empathy"
+    },
+    {
+        "word":  "Mutual Respect",
+        "meaning":  "The agreement between two or more people to value and honor each other\u0027s opinions, backgrounds, and human dignity.",
+        "example":  "A successful marriage is built on a foundation of trust, communication, and mutual respect.",
+        "category":  "Cultural Empathy"
+    },
+    {
+        "word":  "Perspective-Taking",
+        "meaning":  "The process of viewing a situation or understanding a concept from an alternative point of view, such as that of another person or group.",
+        "example":  "Perspective-taking allows us to understand why a customer might be frustrated with our service.",
+        "category":  "Cultural Empathy"
+    },
+    {
+        "word":  "Self-Awareness",
+        "meaning":  "The conscious knowledge of one\u0027s own character, feelings, motives, desires, and personal biases.",
+        "example":  "Developing self-awareness helps leaders understand how their emotions and actions affect their team.",
+        "category":  "Cultural Empathy"
+    },
+    {
+        "word":  "Social Belonging",
+        "meaning":  "The human need to be accepted as a member of a social group and to feel connected to others in a community.",
+        "example":  "Creating student clubs helps freshman feel a sense of social belonging during their first semester.",
+        "category":  "Cultural Empathy"
+    },
+    {
+        "word":  "Inclusiveness",
+        "meaning":  "The quality of including and treating all kinds of people fairly and equally, ensuring no one is left out.",
+        "example":  "The festival organizers prioritized inclusiveness by providing sign language interpreters for all performances.",
+        "category":  "Cultural Empathy"
+    },
+    {
+        "word":  "Common Ground",
+        "meaning":  "A shared area of agreement, interest, or belief found between people who have different opinions or cultural backgrounds.",
+        "example":  "Despite their different backgrounds, the parents found common ground in wanting the best education for their kids.",
+        "category":  "Cultural Empathy"
+    }
+]

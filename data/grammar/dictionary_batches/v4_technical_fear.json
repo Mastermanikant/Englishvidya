@@ -1,0 +1,914 @@
+[
+  {
+    "word": "Algorithm",
+    "meaning": "A step-by-step set of instructions to solve a problem — like a recipe for a computer.",
+    "example": "The algorithm sorted the list of names alphabetically in seconds.",
+    "category": "Computing"
+  },
+  {
+    "word": "API",
+    "meaning": "Application Programming Interface — a way for two apps to talk to each other, like a waiter taking your order to the kitchen.",
+    "example": "The weather app uses an API to fetch live temperature data.",
+    "category": "Computing"
+  },
+  {
+    "word": "Bandwidth",
+    "meaning": "The maximum amount of data that can travel through an internet connection at one time — like the width of a water pipe.",
+    "example": "Streaming HD video requires high bandwidth.",
+    "category": "Networking"
+  },
+  {
+    "word": "Binary",
+    "meaning": "A number system using only 0s and 1s — the basic language computers understand.",
+    "example": "The letter 'A' is represented as 01000001 in binary.",
+    "category": "Computing"
+  },
+  {
+    "word": "Blockchain",
+    "meaning": "A chain of digital records (blocks) that are linked and secured — like a tamper-proof public ledger.",
+    "example": "Bitcoin transactions are stored on a blockchain.",
+    "category": "Technology"
+  },
+  {
+    "word": "Boot",
+    "meaning": "The process of starting up a computer or device.",
+    "example": "The laptop takes 15 seconds to boot after you press the power button.",
+    "category": "Computing"
+  },
+  {
+    "word": "Browser",
+    "meaning": "A program used to explore the internet, like Chrome or Firefox.",
+    "example": "She opened her browser and searched for the nearest hospital.",
+    "category": "Internet"
+  },
+  {
+    "word": "Bug",
+    "meaning": "An error or flaw in a computer program that causes it to behave unexpectedly.",
+    "example": "A bug in the app caused it to crash whenever a photo was uploaded.",
+    "category": "Computing"
+  },
+  {
+    "word": "Cache",
+    "meaning": "A temporary storage area that saves frequently used data for quick access — like keeping a bookmark in a book.",
+    "example": "Clearing the cache made the website load faster.",
+    "category": "Computing"
+  },
+  {
+    "word": "Cloud",
+    "meaning": "Storing and accessing data over the internet instead of your own computer's hard drive.",
+    "example": "She saved her photos to the cloud so they would not be lost if her phone broke.",
+    "category": "Technology"
+  },
+  {
+    "word": "Code",
+    "meaning": "Instructions written in a programming language that tell a computer what to do.",
+    "example": "The developer wrote code to build the login page.",
+    "category": "Computing"
+  },
+  {
+    "word": "Compression",
+    "meaning": "Reducing the size of a file so it takes less space or transfers faster.",
+    "example": "The image was compressed before being sent by email.",
+    "category": "Computing"
+  },
+  {
+    "word": "Cookie",
+    "meaning": "A small file stored in your browser that remembers your preferences and login details on websites.",
+    "example": "The website used cookies to remember that you were already logged in.",
+    "category": "Internet"
+  },
+  {
+    "word": "CPU",
+    "meaning": "Central Processing Unit — the main 'brain' of a computer that carries out instructions.",
+    "example": "A faster CPU means the computer can run more programs at once.",
+    "category": "Hardware"
+  },
+  {
+    "word": "Cursor",
+    "meaning": "The small arrow or blinking line on your screen that shows where you are pointing or typing.",
+    "example": "She moved the cursor to the 'Submit' button and clicked.",
+    "category": "Computing"
+  },
+  {
+    "word": "Cybersecurity",
+    "meaning": "The practice of protecting computers and data from attacks, theft, and damage.",
+    "example": "Good cybersecurity practices include using strong passwords and two-factor authentication.",
+    "category": "Security"
+  },
+  {
+    "word": "Data",
+    "meaning": "Facts and information stored or used by a computer — numbers, text, images, and more.",
+    "example": "The hospital stores patient data electronically.",
+    "category": "Computing"
+  },
+  {
+    "word": "Database",
+    "meaning": "An organized collection of data stored so it can be easily found and used.",
+    "example": "The school keeps all student records in a database.",
+    "category": "Computing"
+  },
+  {
+    "word": "Debug",
+    "meaning": "The process of finding and fixing errors (bugs) in a computer program.",
+    "example": "It took the programmer two hours to debug the payment system.",
+    "category": "Computing"
+  },
+  {
+    "word": "Default",
+    "meaning": "The setting or value a system uses automatically unless you change it.",
+    "example": "The default language on the phone was English.",
+    "category": "Computing"
+  },
+  {
+    "word": "Deploy",
+    "meaning": "To release and make a software application available for use.",
+    "example": "The team will deploy the new version of the app on Friday.",
+    "category": "Software"
+  },
+  {
+    "word": "Device",
+    "meaning": "Any piece of hardware such as a phone, tablet, laptop, or printer.",
+    "example": "You can access your files from any device connected to the internet.",
+    "category": "Hardware"
+  },
+  {
+    "word": "Digital",
+    "meaning": "Relating to data represented as numbers (0s and 1s) — the opposite of analogue.",
+    "example": "A digital photograph is stored as data rather than on film.",
+    "category": "Technology"
+  },
+  {
+    "word": "Domain",
+    "meaning": "The unique address of a website on the internet, like www.example.com.",
+    "example": "She bought the domain name for her new online store.",
+    "category": "Internet"
+  },
+  {
+    "word": "Download",
+    "meaning": "Copying data from the internet or a server to your own device.",
+    "example": "He downloaded the report as a PDF file.",
+    "category": "Internet"
+  },
+  {
+    "word": "Driver",
+    "meaning": "A small program that tells the operating system how to communicate with a hardware device.",
+    "example": "She installed a printer driver so the computer could recognise the new printer.",
+    "category": "Software"
+  },
+  {
+    "word": "Drone",
+    "meaning": "An unmanned flying vehicle controlled remotely or by a computer program.",
+    "example": "Drones are used in agriculture to spray crops efficiently.",
+    "category": "Technology"
+  },
+  {
+    "word": "Ecosystem",
+    "meaning": "In technology, the collection of related software, hardware, and services that work together — like Apple's ecosystem of iPhone, Mac, and iCloud.",
+    "example": "Many users stay within the Android ecosystem because all their apps and devices connect smoothly.",
+    "category": "Technology"
+  },
+  {
+    "word": "Encryption",
+    "meaning": "Scrambling data so that only authorised people with the right key can read it.",
+    "example": "Your bank encrypts your personal details so hackers cannot steal them.",
+    "category": "Security"
+  },
+  {
+    "word": "Error",
+    "meaning": "A mistake or problem in a program or system that causes it to work incorrectly.",
+    "example": "An error message appeared saying the file could not be found.",
+    "category": "Computing"
+  },
+  {
+    "word": "Firewall",
+    "meaning": "A security system that monitors and controls incoming and outgoing network traffic — like a security guard for your computer.",
+    "example": "The company's firewall blocked the suspicious email attachment.",
+    "category": "Security"
+  },
+  {
+    "word": "Firmware",
+    "meaning": "Permanent software programmed into a device's hardware to control how it works.",
+    "example": "Updating the router's firmware fixed the connection problems.",
+    "category": "Hardware"
+  },
+  {
+    "word": "Format",
+    "meaning": "The structure or type in which information is stored, e.g. PDF, JPEG, or MP3.",
+    "example": "The document was saved in PDF format so it could be opened on any device.",
+    "category": "Computing"
+  },
+  {
+    "word": "Framework",
+    "meaning": "A pre-built structure or set of tools that developers use to build software more quickly.",
+    "example": "The website was built using the React framework.",
+    "category": "Software"
+  },
+  {
+    "word": "Gigabyte (GB)",
+    "meaning": "A unit of digital storage — roughly enough to store a thousand photos.",
+    "example": "His phone had 128 gigabytes of storage.",
+    "category": "Hardware"
+  },
+  {
+    "word": "GPS",
+    "meaning": "Global Positioning System — technology that uses satellites to find your exact location on Earth.",
+    "example": "She used GPS navigation to find the shortest route.",
+    "category": "Technology"
+  },
+  {
+    "word": "Graphics",
+    "meaning": "Visual elements such as images, animations, and designs displayed on a screen.",
+    "example": "The new game had stunning 3D graphics.",
+    "category": "Computing"
+  },
+  {
+    "word": "Hacker",
+    "meaning": "A person who uses technical skills to access computer systems, sometimes without permission.",
+    "example": "A hacker broke into the company's database and stole customer information.",
+    "category": "Security"
+  },
+  {
+    "word": "Hardware",
+    "meaning": "The physical parts of a computer — the screen, keyboard, and processor you can touch.",
+    "example": "The shop sells both hardware like laptops and software like antivirus programs.",
+    "category": "Hardware"
+  },
+  {
+    "word": "Homepage",
+    "meaning": "The main or first page of a website that visitors see when they arrive.",
+    "example": "The company's homepage displayed their latest products.",
+    "category": "Internet"
+  },
+  {
+    "word": "HTML",
+    "meaning": "HyperText Markup Language — the standard language used to create the structure of web pages.",
+    "example": "Every website you visit is built using HTML.",
+    "category": "Software"
+  },
+  {
+    "word": "Hub",
+    "meaning": "A device or platform that connects multiple devices or services together.",
+    "example": "The smart home hub controlled all the lights and locks in the house.",
+    "category": "Networking"
+  },
+  {
+    "word": "Hyperlink",
+    "meaning": "A clickable word, phrase, or image on a web page that takes you to another page or site.",
+    "example": "She clicked the hyperlink and was taken to the terms and conditions page.",
+    "category": "Internet"
+  },
+  {
+    "word": "Icon",
+    "meaning": "A small image on a screen that represents an app, file, or function.",
+    "example": "Tap the camera icon to open the photo app.",
+    "category": "Computing"
+  },
+  {
+    "word": "Infrastructure",
+    "meaning": "The basic physical and digital systems needed for technology to work — servers, cables, and data centres.",
+    "example": "The government invested in digital infrastructure to bring fast internet to rural areas.",
+    "category": "Technology"
+  },
+  {
+    "word": "Input",
+    "meaning": "Data or information you put into a computer, e.g. typing, clicking, or speaking.",
+    "example": "The form required input such as your name and email address.",
+    "category": "Computing"
+  },
+  {
+    "word": "Interface",
+    "meaning": "The point where a user interacts with a computer — the buttons, menus, and screens.",
+    "example": "The app has a simple interface that even beginners can use.",
+    "category": "Software"
+  },
+  {
+    "word": "Internet",
+    "meaning": "A global network connecting billions of computers and devices so they can share information.",
+    "example": "She searched the internet for tips on learning English.",
+    "category": "Internet"
+  },
+  {
+    "word": "IP Address",
+    "meaning": "A unique number assigned to every device on a network — like a home address for computers.",
+    "example": "Your IP address tells websites roughly where in the world you are located.",
+    "category": "Networking"
+  },
+  {
+    "word": "Keyboard",
+    "meaning": "A hardware device with keys used to type text and commands into a computer.",
+    "example": "She typed the password using the wireless keyboard.",
+    "category": "Hardware"
+  },
+  {
+    "word": "Lag",
+    "meaning": "A noticeable delay between an action and its result, especially in games or video calls.",
+    "example": "There was so much lag during the video call that the audio kept cutting out.",
+    "category": "Networking"
+  },
+  {
+    "word": "Laptop",
+    "meaning": "A portable personal computer small enough to use on your lap.",
+    "example": "He carried his laptop to the café to work on his presentation.",
+    "category": "Hardware"
+  },
+  {
+    "word": "Latency",
+    "meaning": "The time delay between sending and receiving data — lower latency means faster response.",
+    "example": "Gamers prefer low-latency internet connections for smoother gameplay.",
+    "category": "Networking"
+  },
+  {
+    "word": "Log In",
+    "meaning": "To enter your username and password to gain access to a system or website.",
+    "example": "You need to log in with your email address to see your account details.",
+    "category": "Security"
+  },
+  {
+    "word": "Malware",
+    "meaning": "Malicious software designed to damage or gain unauthorised access to a computer system.",
+    "example": "Her computer was infected with malware that slowed it down dramatically.",
+    "category": "Security"
+  },
+  {
+    "word": "Memory (RAM)",
+    "meaning": "Random Access Memory — the computer's short-term memory used to run programs.",
+    "example": "Opening too many tabs at once can use up all your computer's RAM.",
+    "category": "Hardware"
+  },
+  {
+    "word": "Menu",
+    "meaning": "A list of options on a screen from which a user can choose an action.",
+    "example": "Click the File menu to save or open a document.",
+    "category": "Software"
+  },
+  {
+    "word": "Modem",
+    "meaning": "A device that connects your home or office to the internet through your phone or cable line.",
+    "example": "She restarted the modem to fix the slow internet connection.",
+    "category": "Hardware"
+  },
+  {
+    "word": "Monitor",
+    "meaning": "The screen of a desktop computer that displays images and text.",
+    "example": "He plugged a second monitor into his laptop to have more screen space.",
+    "category": "Hardware"
+  },
+  {
+    "word": "Mouse",
+    "meaning": "A small handheld device used to move a cursor on a computer screen and click on things.",
+    "example": "She clicked the right mouse button to open the context menu.",
+    "category": "Hardware"
+  },
+  {
+    "word": "Network",
+    "meaning": "A group of computers and devices connected together to share data and resources.",
+    "example": "All computers in the office are connected to the same network.",
+    "category": "Networking"
+  },
+  {
+    "word": "Notification",
+    "meaning": "An alert or message sent by an app or system to inform you of something new.",
+    "example": "She received a notification that her order had been shipped.",
+    "category": "Software"
+  },
+  {
+    "word": "Open Source",
+    "meaning": "Software whose source code is freely available for anyone to view, use, and improve.",
+    "example": "Linux is a popular open source operating system.",
+    "category": "Software"
+  },
+  {
+    "word": "Operating System",
+    "meaning": "The main software that manages a computer's hardware and allows other programs to run — like Windows or Android.",
+    "example": "She updated her operating system to the latest version for better security.",
+    "category": "Software"
+  },
+  {
+    "word": "Output",
+    "meaning": "Information or results produced by a computer, such as text on screen or a printed document.",
+    "example": "The printer's output was a perfectly formatted report.",
+    "category": "Computing"
+  },
+  {
+    "word": "Patch",
+    "meaning": "A software update designed to fix bugs or security problems.",
+    "example": "The developer released a patch to fix the login error.",
+    "category": "Software"
+  },
+  {
+    "word": "Password",
+    "meaning": "A secret combination of characters used to verify your identity and protect accounts.",
+    "example": "Always use a strong password that includes numbers and special characters.",
+    "category": "Security"
+  },
+  {
+    "word": "Peripheral",
+    "meaning": "Any external device connected to a computer, such as a printer, scanner, or webcam.",
+    "example": "She connected several peripherals to her desktop, including a printer and a microphone.",
+    "category": "Hardware"
+  },
+  {
+    "word": "Phishing",
+    "meaning": "A scam where criminals pretend to be a trusted company to trick you into giving personal information.",
+    "example": "He almost fell for a phishing email pretending to be from his bank.",
+    "category": "Security"
+  },
+  {
+    "word": "Pixel",
+    "meaning": "The smallest unit of a digital image — thousands of tiny coloured dots make up the picture on your screen.",
+    "example": "A higher pixel count means a sharper, clearer photo.",
+    "category": "Computing"
+  },
+  {
+    "word": "Platform",
+    "meaning": "A base technology or service on which other applications are built and run.",
+    "example": "YouTube is a platform for sharing and watching videos.",
+    "category": "Technology"
+  },
+  {
+    "word": "Plugin",
+    "meaning": "A small piece of software added to a program to give it extra features.",
+    "example": "She installed a grammar-checking plugin for her word processor.",
+    "category": "Software"
+  },
+  {
+    "word": "Pop-up",
+    "meaning": "A small window that suddenly appears on screen, often showing an advertisement or alert.",
+    "example": "The website was full of annoying pop-ups.",
+    "category": "Internet"
+  },
+  {
+    "word": "Port",
+    "meaning": "A physical connection point on a device (USB, HDMI) or a virtual channel number used in networking.",
+    "example": "She plugged the charger into the USB port on the side of the laptop.",
+    "category": "Hardware"
+  },
+  {
+    "word": "Privacy",
+    "meaning": "Your right to control who sees your personal information online.",
+    "example": "Read the app's privacy settings to decide what data it can access.",
+    "category": "Security"
+  },
+  {
+    "word": "Processor",
+    "meaning": "The chip inside a computer that carries out instructions — the faster the processor, the quicker the computer.",
+    "example": "The new smartphone has a faster processor for running complex apps.",
+    "category": "Hardware"
+  },
+  {
+    "word": "Program",
+    "meaning": "A set of instructions that tells a computer how to perform a specific task.",
+    "example": "Microsoft Word is a program used to write and edit documents.",
+    "category": "Software"
+  },
+  {
+    "word": "Protocol",
+    "meaning": "A set of rules that governs how data is sent and received over a network.",
+    "example": "HTTPS is a secure protocol that protects data sent between your browser and a website.",
+    "category": "Networking"
+  },
+  {
+    "word": "QR Code",
+    "meaning": "A square barcode that stores information and can be scanned by a phone camera.",
+    "example": "Scan the QR code on the menu to see today's specials.",
+    "category": "Technology"
+  },
+  {
+    "word": "Reboot",
+    "meaning": "To restart a computer or device — often fixes minor problems.",
+    "example": "The technician told him to reboot the router to restore the connection.",
+    "category": "Computing"
+  },
+  {
+    "word": "Resolution",
+    "meaning": "The number of pixels in an image or screen — higher resolution means a sharper picture.",
+    "example": "The 4K monitor has four times the resolution of a standard HD screen.",
+    "category": "Computing"
+  },
+  {
+    "word": "Router",
+    "meaning": "A device that sends internet signals from your modem to your devices wirelessly or by cable.",
+    "example": "Moving the router to the centre of the house improved the Wi-Fi signal.",
+    "category": "Hardware"
+  },
+  {
+    "word": "Screenshot",
+    "meaning": "An image of whatever is currently displayed on your screen.",
+    "example": "She took a screenshot of the error message to send to technical support.",
+    "category": "Computing"
+  },
+  {
+    "word": "Search Engine",
+    "meaning": "A tool that searches the internet and shows results matching your query — like Google or Bing.",
+    "example": "He typed his question into the search engine and found the answer immediately.",
+    "category": "Internet"
+  },
+  {
+    "word": "Server",
+    "meaning": "A powerful computer that stores data and sends it to other computers when requested.",
+    "example": "The website went down because the server was overloaded with visitors.",
+    "category": "Computing"
+  },
+  {
+    "word": "Settings",
+    "meaning": "Options that allow you to customise how a device or application works.",
+    "example": "Go to Settings to change your notification preferences.",
+    "category": "Software"
+  },
+  {
+    "word": "Shortcut",
+    "meaning": "A quicker way to perform an action, often using a key combination like Ctrl+C to copy.",
+    "example": "Use the keyboard shortcut Ctrl+Z to undo your last action.",
+    "category": "Computing"
+  },
+  {
+    "word": "Signal",
+    "meaning": "The strength of a wireless connection — shown as bars on your phone.",
+    "example": "There was no phone signal deep inside the tunnel.",
+    "category": "Networking"
+  },
+  {
+    "word": "Smart Device",
+    "meaning": "An electronic device that connects to the internet and can be controlled remotely.",
+    "example": "Smart devices like thermostats can be controlled from your phone.",
+    "category": "Technology"
+  },
+  {
+    "word": "Software",
+    "meaning": "Programs and applications that run on a computer — the instructions, not the physical parts.",
+    "example": "The company uses accounting software to manage its finances.",
+    "category": "Software"
+  },
+  {
+    "word": "Spam",
+    "meaning": "Unwanted or irrelevant messages sent in bulk, especially by email.",
+    "example": "He set up a filter to send spam emails directly to the trash folder.",
+    "category": "Internet"
+  },
+  {
+    "word": "Streaming",
+    "meaning": "Watching or listening to media over the internet without downloading it first.",
+    "example": "She spent the evening streaming movies on her tablet.",
+    "category": "Internet"
+  },
+  {
+    "word": "Sync",
+    "meaning": "Short for synchronise — making data identical across two or more devices automatically.",
+    "example": "Her contacts synced automatically between her phone and laptop.",
+    "category": "Technology"
+  },
+  {
+    "word": "System",
+    "meaning": "A group of hardware and software components working together to perform tasks.",
+    "example": "The hospital's information system keeps track of all patient appointments.",
+    "category": "Computing"
+  },
+  {
+    "word": "Tablet",
+    "meaning": "A portable touchscreen computer, larger than a phone but smaller than a laptop.",
+    "example": "The children used tablets to do their homework online.",
+    "category": "Hardware"
+  },
+  {
+    "word": "Template",
+    "meaning": "A pre-designed document or layout that you can fill in and customise.",
+    "example": "She used a CV template to create her job application.",
+    "category": "Software"
+  },
+  {
+    "word": "Terminal",
+    "meaning": "A text-based interface for typing commands directly to a computer's operating system.",
+    "example": "The developer used the terminal to run a script that updated the server.",
+    "category": "Computing"
+  },
+  {
+    "word": "Touchscreen",
+    "meaning": "A display that responds to touch, allowing you to control the device with your fingers.",
+    "example": "Modern smartphones use a touchscreen instead of physical buttons.",
+    "category": "Hardware"
+  },
+  {
+    "word": "Update",
+    "meaning": "A new version of software that adds features or fixes problems.",
+    "example": "Install the latest update to keep your phone secure.",
+    "category": "Software"
+  },
+  {
+    "word": "Upload",
+    "meaning": "Sending data from your device to the internet or a server.",
+    "example": "She uploaded her assignment to the college portal before midnight.",
+    "category": "Internet"
+  },
+  {
+    "word": "URL",
+    "meaning": "Uniform Resource Locator — the web address you type to visit a website, e.g. https://www.example.com.",
+    "example": "Copy the URL from the address bar and send it to your friend.",
+    "category": "Internet"
+  },
+  {
+    "word": "USB",
+    "meaning": "Universal Serial Bus — a standard connector used to plug in devices like flash drives and chargers.",
+    "example": "She transferred the photos using a USB cable.",
+    "category": "Hardware"
+  },
+  {
+    "word": "User",
+    "meaning": "Any person who interacts with a computer, app, or digital service.",
+    "example": "The app has over one million active users worldwide.",
+    "category": "Computing"
+  },
+  {
+    "word": "Version",
+    "meaning": "A specific release of a software product — newer versions usually have more features.",
+    "example": "Make sure you are using the latest version of the browser.",
+    "category": "Software"
+  },
+  {
+    "word": "Virus",
+    "meaning": "Malicious software that copies itself and spreads to other devices, causing damage.",
+    "example": "An antivirus program detected and removed the virus before it could steal any data.",
+    "category": "Security"
+  },
+  {
+    "word": "VPN",
+    "meaning": "Virtual Private Network — a service that hides your internet activity and location for privacy and security.",
+    "example": "She used a VPN to safely connect to public Wi-Fi at the airport.",
+    "category": "Security"
+  },
+  {
+    "word": "Webcam",
+    "meaning": "A camera built into or attached to a computer used for video calls.",
+    "example": "He turned on the webcam for his online interview.",
+    "category": "Hardware"
+  },
+  {
+    "word": "Website",
+    "meaning": "A collection of pages on the internet connected under one address.",
+    "example": "The school created a website to share news with parents.",
+    "category": "Internet"
+  },
+  {
+    "word": "Wi-Fi",
+    "meaning": "A wireless technology that allows devices to connect to the internet without cables.",
+    "example": "The hotel provided free Wi-Fi in all rooms.",
+    "category": "Networking"
+  },
+  {
+    "word": "Window",
+    "meaning": "A rectangular area on your screen where a program or file is displayed.",
+    "example": "She opened a new window to compare two documents side by side.",
+    "category": "Software"
+  },
+  {
+    "word": "Wireless",
+    "meaning": "Transmitting data without physical cables, using radio waves or infrared signals.",
+    "example": "He connected his wireless headphones to the laptop via Bluetooth.",
+    "category": "Networking"
+  },
+  {
+    "word": "Zoom",
+    "meaning": "To enlarge or reduce what is displayed on screen; also a popular video-calling application.",
+    "example": "She zoomed in on the map to find the exact street.",
+    "category": "Software"
+  },
+  {
+    "word": "App",
+    "meaning": "Short for application — a software program designed for a specific purpose on a phone or computer.",
+    "example": "He downloaded a meditation app to help him sleep better.",
+    "category": "Software"
+  },
+  {
+    "word": "Artificial Intelligence (AI)",
+    "meaning": "Technology that allows machines to perform tasks that normally require human intelligence, like understanding speech or recognising images.",
+    "example": "The customer service chatbot is powered by artificial intelligence.",
+    "category": "Technology"
+  },
+  {
+    "word": "Automation",
+    "meaning": "Using technology to perform repetitive tasks with little or no human involvement.",
+    "example": "Automation in the factory reduced production time by 40%.",
+    "category": "Technology"
+  },
+  {
+    "word": "Backup",
+    "meaning": "A copy of your data stored separately so it can be restored if the original is lost.",
+    "example": "She made a backup of all her files before updating the operating system.",
+    "category": "Computing"
+  },
+  {
+    "word": "Bluetooth",
+    "meaning": "A wireless technology for short-range connections between devices, like phones and headphones.",
+    "example": "He connected his phone to the car speaker via Bluetooth.",
+    "category": "Networking"
+  },
+  {
+    "word": "Chatbot",
+    "meaning": "A computer program that simulates human conversation and answers questions automatically.",
+    "example": "The bank's website has a chatbot that answers basic queries 24/7.",
+    "category": "Technology"
+  },
+  {
+    "word": "Crash",
+    "meaning": "When a program or system suddenly stops working and closes unexpectedly.",
+    "example": "The app crashed and she lost the paragraph she had just written.",
+    "category": "Computing"
+  },
+  {
+    "word": "Cursor Blink",
+    "meaning": "The rhythmic flashing of the text cursor that shows where your next typed character will appear.",
+    "example": "She watched the cursor blink, waiting for inspiration to write.",
+    "category": "Computing"
+  },
+  {
+    "word": "Dashboard",
+    "meaning": "A screen showing key information and controls for a system at a glance — like the gauges in a car.",
+    "example": "The analytics dashboard showed how many people visited the website each day.",
+    "category": "Software"
+  },
+  {
+    "word": "E-commerce",
+    "meaning": "Buying and selling products or services over the internet.",
+    "example": "Her e-commerce business sells handmade jewellery worldwide.",
+    "category": "Internet"
+  },
+  {
+    "word": "Email",
+    "meaning": "Electronic mail — messages sent and received instantly over the internet.",
+    "example": "He sent the contract to the client by email.",
+    "category": "Internet"
+  },
+  {
+    "word": "File",
+    "meaning": "A named collection of data stored on a device — documents, photos, or videos are all files.",
+    "example": "She saved the report as a PDF file.",
+    "category": "Computing"
+  },
+  {
+    "word": "Folder",
+    "meaning": "A container used to organise files on a computer — like a physical folder in a filing cabinet.",
+    "example": "He created a folder called 'Projects 2025' to organise his work.",
+    "category": "Computing"
+  },
+  {
+    "word": "Glitch",
+    "meaning": "A small, temporary error in a system that causes unexpected behaviour.",
+    "example": "There was a glitch in the app that made the screen flicker.",
+    "category": "Computing"
+  },
+  {
+    "word": "Hard Drive",
+    "meaning": "The storage device inside a computer where all files, programs, and the operating system are saved.",
+    "example": "His hard drive was nearly full, so he deleted old videos to free up space.",
+    "category": "Hardware"
+  },
+  {
+    "word": "Hotspot",
+    "meaning": "A location where Wi-Fi is available, or a feature that lets your phone share its mobile internet with other devices.",
+    "example": "She used her phone as a hotspot when the café Wi-Fi was too slow.",
+    "category": "Networking"
+  },
+  {
+    "word": "Install",
+    "meaning": "To set up a program or app so it is ready to use on your device.",
+    "example": "He installed an antivirus program to protect his laptop.",
+    "category": "Software"
+  },
+  {
+    "word": "Interface",
+    "meaning": "The visual layout of a program that you interact with — buttons, icons, menus, and screens.",
+    "example": "The new interface made it much easier to find settings.",
+    "category": "Software"
+  },
+  {
+    "word": "Machine Learning",
+    "meaning": "A type of AI where computers learn from data to improve their performance without being directly programmed.",
+    "example": "Machine learning helps email systems detect spam automatically.",
+    "category": "Technology"
+  },
+  {
+    "word": "Megabyte (MB)",
+    "meaning": "A unit of digital data equal to roughly one million bytes — used to measure file sizes.",
+    "example": "The photo was 4 megabytes in size.",
+    "category": "Computing"
+  },
+  {
+    "word": "Microchip",
+    "meaning": "A tiny electronic circuit embedded in a small flat piece of silicon, found in nearly all electronic devices.",
+    "example": "Modern microchips are smaller than a fingernail but contain billions of tiny components.",
+    "category": "Hardware"
+  },
+  {
+    "word": "Offline",
+    "meaning": "Not connected to the internet — working only with what is stored locally on your device.",
+    "example": "You can use the document editor offline and it will sync when you reconnect.",
+    "category": "Internet"
+  },
+  {
+    "word": "Online",
+    "meaning": "Connected to and accessible through the internet.",
+    "example": "The library offers online access to thousands of books and journals.",
+    "category": "Internet"
+  },
+  {
+    "word": "Pairing",
+    "meaning": "Connecting two Bluetooth devices to each other so they can communicate.",
+    "example": "She started pairing her new wireless earbuds with her phone.",
+    "category": "Networking"
+  },
+  {
+    "word": "Pop-up Ad",
+    "meaning": "An advertisement that opens in a new window or appears suddenly over a webpage.",
+    "example": "He installed an ad blocker to stop pop-up ads interrupting his reading.",
+    "category": "Internet"
+  },
+  {
+    "word": "Productivity",
+    "meaning": "In technology, apps or tools designed to help you work more efficiently.",
+    "example": "She used productivity apps to manage her tasks and schedule.",
+    "category": "Software"
+  },
+  {
+    "word": "Remote",
+    "meaning": "Accessing or controlling a computer or system from a different location over the internet.",
+    "example": "The IT team fixed the problem using remote access to his computer.",
+    "category": "Computing"
+  },
+  {
+    "word": "Software Update",
+    "meaning": "A new version of a program released to add features, improve performance, or fix security issues.",
+    "example": "A software update fixed the bug that was causing crashes.",
+    "category": "Software"
+  },
+  {
+    "word": "Storage",
+    "meaning": "The space available on a device to keep files, photos, apps, and other data.",
+    "example": "Her phone ran out of storage, so she deleted some videos.",
+    "category": "Hardware"
+  },
+  {
+    "word": "Subscription",
+    "meaning": "A payment model where you pay regularly (monthly or yearly) to use a service or app.",
+    "example": "She paid a monthly subscription for the music streaming service.",
+    "category": "Technology"
+  },
+  {
+    "word": "Support",
+    "meaning": "Help provided by a company to fix problems with their products or services.",
+    "example": "He contacted technical support when the printer stopped working.",
+    "category": "Technology"
+  },
+  {
+    "word": "Touchpad",
+    "meaning": "A flat surface on a laptop used to move the cursor by sliding your finger across it.",
+    "example": "She used the touchpad instead of a mouse to navigate the document.",
+    "category": "Hardware"
+  },
+  {
+    "word": "Two-Factor Authentication",
+    "meaning": "A security method requiring two forms of verification — usually a password plus a code sent to your phone.",
+    "example": "Enable two-factor authentication to make your account much harder to hack.",
+    "category": "Security"
+  },
+  {
+    "word": "Uninstall",
+    "meaning": "To remove a program or app from a device.",
+    "example": "He uninstalled the game to free up space on his phone.",
+    "category": "Software"
+  },
+  {
+    "word": "Username",
+    "meaning": "The name you use to identify yourself when logging into a website or app.",
+    "example": "Her username was her first name followed by her birth year.",
+    "category": "Security"
+  },
+  {
+    "word": "Virtual",
+    "meaning": "Existing in digital form rather than physically — simulated by a computer.",
+    "example": "The virtual meeting replaced the need to travel to the office.",
+    "category": "Technology"
+  },
+  {
+    "word": "Voice Assistant",
+    "meaning": "An AI-powered tool that responds to spoken commands — like Siri, Alexa, or Google Assistant.",
+    "example": "She asked her voice assistant to set a reminder for her 3 pm meeting.",
+    "category": "Technology"
+  },
+  {
+    "word": "Web Page",
+    "meaning": "A single document on the internet that can contain text, images, and links.",
+    "example": "The article was published on a dedicated web page.",
+    "category": "Internet"
+  },
+  {
+    "word": "Widget",
+    "meaning": "A small interactive element on an app or webpage that displays information at a glance.",
+    "example": "She added a weather widget to her phone's home screen.",
+    "category": "Software"
+  },
+  {
+    "word": "Wired",
+    "meaning": "Connected using a physical cable rather than wirelessly.",
+    "example": "A wired connection is usually faster and more reliable than Wi-Fi.",
+    "category": "Networking"
+  }
+]

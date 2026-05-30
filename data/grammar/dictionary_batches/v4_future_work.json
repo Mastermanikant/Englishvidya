@@ -1,0 +1,770 @@
+[
+  {
+    "word": "gig economy",
+    "meaning": "A labour market characterized by short-term, flexible, freelance, or contract work rather than permanent jobs.",
+    "example": "She thrives in the gig economy, juggling photography projects and online tutoring simultaneously.",
+    "category": "Gig Economy"
+  },
+  {
+    "word": "freelancer",
+    "meaning": "A self-employed person who offers services to multiple clients without a long-term commitment to any single employer.",
+    "example": "As a freelancer, he sets his own hours and works with clients across three different continents.",
+    "category": "Gig Economy"
+  },
+  {
+    "word": "platform economy",
+    "meaning": "Economic activity facilitated by digital platforms that connect service providers directly with consumers.",
+    "example": "Uber and Fiverr are prime examples of the platform economy reshaping traditional industries.",
+    "category": "Gig Economy"
+  },
+  {
+    "word": "gig worker",
+    "meaning": "An individual who earns income through temporary, on-demand tasks or projects rather than a salaried position.",
+    "example": "Gig workers often lack the health benefits and job security offered to full-time employees.",
+    "category": "Gig Economy"
+  },
+  {
+    "word": "independent contractor",
+    "meaning": "A professional who provides services under a contract, operating as a separate business entity rather than an employee.",
+    "example": "The company hired her as an independent contractor to redesign their entire website.",
+    "category": "Gig Economy"
+  },
+  {
+    "word": "on-demand work",
+    "meaning": "Work that is requested and completed as needed, often facilitated by apps or digital platforms.",
+    "example": "On-demand work suits people who prefer variety over routine daily tasks.",
+    "category": "Gig Economy"
+  },
+  {
+    "word": "portfolio career",
+    "meaning": "A career strategy where an individual holds multiple part-time roles, projects, or income streams simultaneously.",
+    "example": "She built a portfolio career combining consulting, writing, and workshop facilitation.",
+    "category": "Gig Economy"
+  },
+  {
+    "word": "crowdworking",
+    "meaning": "The practice of outsourcing tasks to a large group of people via an online platform.",
+    "example": "The company used crowdworking platforms to gather data annotations from thousands of contributors.",
+    "category": "Gig Economy"
+  },
+  {
+    "word": "moonlighting",
+    "meaning": "Working a second job outside of one's primary employment, often in the evenings or weekends.",
+    "example": "The software developer was moonlighting as an online tutor to supplement his income.",
+    "category": "Gig Economy"
+  },
+  {
+    "word": "side hustle",
+    "meaning": "A supplementary source of income pursued alongside a primary job, typically rooted in personal passion or skills.",
+    "example": "Her side hustle selling handmade jewellery grew into a full-time business within two years.",
+    "category": "Gig Economy"
+  },
+  {
+    "word": "labour marketplace",
+    "meaning": "An online platform that connects workers with employers or clients seeking specific skills.",
+    "example": "Upwork is a popular labour marketplace for designers, developers, and writers worldwide.",
+    "category": "Gig Economy"
+  },
+  {
+    "word": "remote work",
+    "meaning": "A working arrangement in which employees perform their duties from a location outside the traditional office.",
+    "example": "Remote work became mainstream during the pandemic, proving that many jobs can be done from anywhere.",
+    "category": "Remote Work"
+  },
+  {
+    "word": "telecommuting",
+    "meaning": "The practice of working from home or another location while communicating with the office via technology.",
+    "example": "Telecommuting reduced his daily commute by two hours and significantly improved his work-life balance.",
+    "category": "Remote Work"
+  },
+  {
+    "word": "work-from-home (WFH)",
+    "meaning": "A specific arrangement where an employee completes their professional responsibilities from their own residence.",
+    "example": "The company adopted a permanent WFH policy for roles that require only a computer and internet.",
+    "category": "Remote Work"
+  },
+  {
+    "word": "distributed team",
+    "meaning": "A group of employees who work across different geographic locations rather than in a single office.",
+    "example": "Managing a distributed team requires strong asynchronous communication tools and clear documentation.",
+    "category": "Remote Work"
+  },
+  {
+    "word": "asynchronous communication",
+    "meaning": "A mode of communication where messages are sent and replied to at different times, without requiring instant responses.",
+    "example": "The team relied on asynchronous communication so that members in different time zones could contribute equally.",
+    "category": "Remote Work"
+  },
+  {
+    "word": "virtual collaboration",
+    "meaning": "Working jointly with others using digital tools and online platforms rather than physical meetings.",
+    "example": "Virtual collaboration tools like Miro and Notion have replaced the traditional whiteboard in many offices.",
+    "category": "Remote Work"
+  },
+  {
+    "word": "digital nomad",
+    "meaning": "A person who works remotely while travelling and living in various locations around the world.",
+    "example": "As a digital nomad, she spent six months working from cafés in Southeast Asia.",
+    "category": "Remote Work"
+  },
+  {
+    "word": "coworking space",
+    "meaning": "A shared office environment used by remote workers, freelancers, and small businesses on a flexible basis.",
+    "example": "He rented a desk at the local coworking space to escape the distractions of working from home.",
+    "category": "Remote Work"
+  },
+  {
+    "word": "remote-first culture",
+    "meaning": "An organisational mindset where remote work is the primary mode of operation rather than an exception.",
+    "example": "GitLab is well known for its remote-first culture, with no physical headquarters required.",
+    "category": "Remote Work"
+  },
+  {
+    "word": "bandwidth",
+    "meaning": "In a work context, the mental or time capacity an individual has available to take on additional tasks.",
+    "example": "'Do you have the bandwidth to take on this new project?' the manager asked during the check-in.",
+    "category": "Remote Work"
+  },
+  {
+    "word": "zoom fatigue",
+    "meaning": "Exhaustion and burnout caused by excessive video conferencing, often linked to the demands of sustained attention.",
+    "example": "After eight back-to-back video calls, she experienced severe zoom fatigue by afternoon.",
+    "category": "Remote Work"
+  },
+  {
+    "word": "hybrid work",
+    "meaning": "A flexible work model that combines both in-office and remote work, allowing employees to split their time between locations.",
+    "example": "The firm adopted a hybrid work schedule where staff come to the office on Tuesdays and Thursdays.",
+    "category": "Hybrid Work"
+  },
+  {
+    "word": "flex scheduling",
+    "meaning": "A work arrangement that allows employees to choose their own start and end times within agreed limits.",
+    "example": "Flex scheduling enabled parents to manage school drop-offs without missing any work commitments.",
+    "category": "Hybrid Work"
+  },
+  {
+    "word": "hot-desking",
+    "meaning": "An office practice where desks are not assigned to specific individuals and are used on a first-come, first-served basis.",
+    "example": "Hot-desking was introduced to reduce office space costs after the company went hybrid.",
+    "category": "Hybrid Work"
+  },
+  {
+    "word": "anchor day",
+    "meaning": "A designated day when all or most employees are required to be in the office for collaboration and team meetings.",
+    "example": "Wednesday is the anchor day at their company, when the entire department gathers for planning sessions.",
+    "category": "Hybrid Work"
+  },
+  {
+    "word": "hybrid-first policy",
+    "meaning": "An organisational policy that officially supports and structures a combination of in-office and remote work.",
+    "example": "Their hybrid-first policy allows each team to choose how many days they work onsite.",
+    "category": "Hybrid Work"
+  },
+  {
+    "word": "office hotelling",
+    "meaning": "A system where employees book a workspace in advance rather than having a permanently assigned desk.",
+    "example": "Office hotelling apps allow workers to reserve desks, meeting rooms, and lockers before they arrive.",
+    "category": "Hybrid Work"
+  },
+  {
+    "word": "work-life integration",
+    "meaning": "A holistic approach to balancing professional and personal responsibilities, blending them fluidly rather than keeping them separate.",
+    "example": "Hybrid work has shifted the conversation from work-life balance to work-life integration.",
+    "category": "Hybrid Work"
+  },
+  {
+    "word": "proximity bias",
+    "meaning": "The tendency for managers to favour employees who are physically present in the office over those who work remotely.",
+    "example": "To prevent proximity bias, the company ensured remote workers were equally considered for promotions.",
+    "category": "Hybrid Work"
+  },
+  {
+    "word": "synchronous meeting",
+    "meaning": "A meeting or discussion that takes place in real time, requiring all participants to be available simultaneously.",
+    "example": "The team holds a synchronous meeting every Monday morning to align on the week's priorities.",
+    "category": "Hybrid Work"
+  },
+  {
+    "word": "equitable workplace",
+    "meaning": "A work environment that ensures fair treatment, resources, and opportunities for all employees regardless of where or how they work.",
+    "example": "Creating an equitable workplace means ensuring remote employees are not disadvantaged compared to office-based peers.",
+    "category": "Hybrid Work"
+  },
+  {
+    "word": "automation",
+    "meaning": "The use of technology to perform tasks with minimal human intervention, replacing or augmenting manual processes.",
+    "example": "Automation of invoice processing saved the accounting team over 20 hours of manual work per week.",
+    "category": "Automation"
+  },
+  {
+    "word": "artificial intelligence (AI)",
+    "meaning": "The simulation of human intelligence processes by machines, enabling them to learn, reason, and make decisions.",
+    "example": "AI-powered chatbots now handle the majority of routine customer service inquiries instantly.",
+    "category": "Automation"
+  },
+  {
+    "word": "machine learning",
+    "meaning": "A subset of AI where systems automatically learn and improve from experience without being explicitly programmed.",
+    "example": "The recruitment software uses machine learning to screen thousands of CVs within seconds.",
+    "category": "Automation"
+  },
+  {
+    "word": "robotic process automation (RPA)",
+    "meaning": "Technology that uses software robots to automate repetitive, rule-based business tasks previously performed by humans.",
+    "example": "The bank deployed RPA to automate data entry, dramatically reducing processing errors.",
+    "category": "Automation"
+  },
+  {
+    "word": "algorithmic management",
+    "meaning": "The use of algorithms and data-driven systems to monitor, evaluate, and direct workers' activities.",
+    "example": "Delivery drivers operating under algorithmic management have little control over their own schedules.",
+    "category": "Automation"
+  },
+  {
+    "word": "digital transformation",
+    "meaning": "The integration of digital technology into all areas of a business, fundamentally changing how it operates and delivers value.",
+    "example": "The company's digital transformation journey involved adopting cloud computing and AI-driven analytics.",
+    "category": "Automation"
+  },
+  {
+    "word": "cognitive automation",
+    "meaning": "Advanced automation that mimics human thought processes such as reasoning, judgement, and understanding language.",
+    "example": "Cognitive automation tools can now draft legal summaries, reducing the workload of junior associates.",
+    "category": "Automation"
+  },
+  {
+    "word": "job displacement",
+    "meaning": "The loss of employment caused when automation, technology, or economic shifts eliminate certain roles or industries.",
+    "example": "Job displacement in manufacturing has accelerated as robots take over assembly line tasks.",
+    "category": "Automation"
+  },
+  {
+    "word": "augmented intelligence",
+    "meaning": "A design philosophy that uses AI to enhance and support human decision-making rather than replace humans entirely.",
+    "example": "Radiologists use augmented intelligence tools to detect anomalies faster while retaining final diagnostic authority.",
+    "category": "Automation"
+  },
+  {
+    "word": "intelligent automation",
+    "meaning": "The combination of AI and automation technologies to create systems capable of performing complex, end-to-end processes.",
+    "example": "Intelligent automation is transforming how insurance claims are processed, approved, and paid.",
+    "category": "Automation"
+  },
+  {
+    "word": "hyperautomation",
+    "meaning": "A strategy to automate as many business processes as possible using a combination of AI, machine learning, and RPA.",
+    "example": "Their hyperautomation initiative reduced operational costs by 35% in under a year.",
+    "category": "Automation"
+  },
+  {
+    "word": "future of work",
+    "meaning": "The evolving landscape of employment shaped by technological advancement, demographic shifts, globalisation, and changing worker expectations.",
+    "example": "Researchers studying the future of work predict that adaptability will be the most valuable skill of the next decade.",
+    "category": "General Future-of-Work"
+  },
+  {
+    "word": "upskilling",
+    "meaning": "The process of learning new competencies or enhancing existing skills to meet evolving job market demands.",
+    "example": "The company invested heavily in upskilling its workforce to prepare for AI-driven business processes.",
+    "category": "Upskilling"
+  },
+  {
+    "word": "reskilling",
+    "meaning": "Training workers in entirely new skills so they can transition into different roles, often as a response to job displacement.",
+    "example": "The government launched a reskilling programme to help coal miners transition to renewable energy jobs.",
+    "category": "Upskilling"
+  },
+  {
+    "word": "lifelong learning",
+    "meaning": "The ongoing, voluntary pursuit of knowledge and skills throughout one's entire life, beyond formal education.",
+    "example": "In a rapidly changing economy, lifelong learning is no longer optional — it is a professional necessity.",
+    "category": "Upskilling"
+  },
+  {
+    "word": "microlearning",
+    "meaning": "A learning approach that delivers content in small, focused segments that can be completed quickly and conveniently.",
+    "example": "The platform uses microlearning modules so employees can develop skills during short breaks.",
+    "category": "Upskilling"
+  },
+  {
+    "word": "e-learning",
+    "meaning": "Education delivered electronically via the internet, encompassing online courses, webinars, and digital learning materials.",
+    "example": "E-learning platforms like Coursera and Udemy have made university-level content accessible to millions worldwide.",
+    "category": "Upskilling"
+  },
+  {
+    "word": "learning agility",
+    "meaning": "The ability to rapidly learn from experiences and apply new knowledge effectively in novel situations.",
+    "example": "Employers increasingly value learning agility over specific technical qualifications when hiring.",
+    "category": "Upskilling"
+  },
+  {
+    "word": "competency framework",
+    "meaning": "A structured model that defines the skills, behaviours, and knowledge required to perform a role effectively.",
+    "example": "HR used the competency framework to identify training gaps across different departments.",
+    "category": "Upskilling"
+  },
+  {
+    "word": "digital literacy",
+    "meaning": "The ability to use digital tools and technology effectively, critically, and safely in everyday professional life.",
+    "example": "Digital literacy is now considered a fundamental skill alongside reading and writing.",
+    "category": "Upskilling"
+  },
+  {
+    "word": "credentialing",
+    "meaning": "The process of obtaining formal recognition of skills or qualifications through certificates, badges, or degrees.",
+    "example": "Online credentialing allows professionals to validate new skills without attending a traditional university.",
+    "category": "Upskilling"
+  },
+  {
+    "word": "continuous professional development (CPD)",
+    "meaning": "Structured learning activities undertaken by professionals to maintain and enhance their knowledge and skills throughout their careers.",
+    "example": "Nurses are required to complete a minimum number of CPD hours each year to maintain their licence.",
+    "category": "Upskilling"
+  },
+  {
+    "word": "talent marketplace",
+    "meaning": "An internal platform within an organisation that connects employees to opportunities such as projects, mentors, and new roles.",
+    "example": "The talent marketplace helped engineers discover cross-functional projects aligned with their learning goals.",
+    "category": "Upskilling"
+  },
+  {
+    "word": "workforce development",
+    "meaning": "Systematic efforts by employers, governments, or institutions to build employee skills that align with current and future business needs.",
+    "example": "Workforce development programmes are critical in regions where traditional industries are rapidly declining.",
+    "category": "Upskilling"
+  },
+  {
+    "word": "skills gap",
+    "meaning": "The difference between the skills employers need and the skills workers currently possess.",
+    "example": "The widening skills gap in data science is forcing companies to invest in internal training programmes.",
+    "category": "Upskilling"
+  },
+  {
+    "word": "knowledge worker",
+    "meaning": "A professional whose primary job involves creating, analysing, or applying intellectual knowledge rather than physical labour.",
+    "example": "Software engineers, lawyers, and financial analysts are classic examples of knowledge workers.",
+    "category": "General Future-of-Work"
+  },
+  {
+    "word": "human capital",
+    "meaning": "The collective skills, knowledge, experience, and attributes of employees that contribute to their economic productivity.",
+    "example": "Investing in human capital through training yields long-term returns for both the company and its people.",
+    "category": "General Future-of-Work"
+  },
+  {
+    "word": "employee experience",
+    "meaning": "The sum of all interactions and perceptions an employee has with their organisation throughout their career journey.",
+    "example": "Companies that prioritise employee experience consistently report higher retention and productivity.",
+    "category": "General Future-of-Work"
+  },
+  {
+    "word": "employer branding",
+    "meaning": "The reputation and image of an organisation as a place to work, used to attract and retain top talent.",
+    "example": "Their strong employer branding attracted thousands of applications for just twenty graduate positions.",
+    "category": "General Future-of-Work"
+  },
+  {
+    "word": "talent retention",
+    "meaning": "The strategies and practices organisations use to keep skilled employees and reduce staff turnover.",
+    "example": "Flexible working options have become a key tool for talent retention in competitive industries.",
+    "category": "General Future-of-Work"
+  },
+  {
+    "word": "workforce agility",
+    "meaning": "An organisation's ability to rapidly restructure its workforce in response to changing business conditions or market demands.",
+    "example": "Workforce agility was the key factor that allowed the firm to pivot its operations during the supply chain crisis.",
+    "category": "General Future-of-Work"
+  },
+  {
+    "word": "organisational resilience",
+    "meaning": "The capacity of an organisation to anticipate, prepare for, respond to, and adapt to change and disruption.",
+    "example": "Companies with strong organisational resilience recovered far more quickly from the economic downturn.",
+    "category": "General Future-of-Work"
+  },
+  {
+    "word": "agile methodology",
+    "meaning": "A flexible, iterative approach to project management and product development that emphasises collaboration and rapid adaptation.",
+    "example": "The engineering team adopted agile methodology to deliver working software updates every two weeks.",
+    "category": "General Future-of-Work"
+  },
+  {
+    "word": "flat organisation",
+    "meaning": "An organisational structure with few or no levels of middle management between executives and frontline employees.",
+    "example": "The startup's flat organisation encouraged direct communication and faster decision-making at all levels.",
+    "category": "General Future-of-Work"
+  },
+  {
+    "word": "cross-functional team",
+    "meaning": "A group of employees from different departments or areas of expertise working together towards a common goal.",
+    "example": "The cross-functional team included members from marketing, engineering, and customer success.",
+    "category": "General Future-of-Work"
+  },
+  {
+    "word": "psychological safety",
+    "meaning": "A team environment where individuals feel safe to speak up, take risks, and share ideas without fear of punishment.",
+    "example": "Leaders who foster psychological safety unlock greater innovation and honesty within their teams.",
+    "category": "General Future-of-Work"
+  },
+  {
+    "word": "burnout",
+    "meaning": "A state of chronic stress leading to physical and emotional exhaustion, cynicism, and reduced professional efficacy.",
+    "example": "The rising incidence of burnout among remote workers has prompted many companies to mandate digital detox days.",
+    "category": "General Future-of-Work"
+  },
+  {
+    "word": "wellbeing at work",
+    "meaning": "The overall mental, physical, and social health of employees in the context of their working environment.",
+    "example": "The company introduced mindfulness programmes and flexible hours to improve wellbeing at work.",
+    "category": "General Future-of-Work"
+  },
+  {
+    "word": "quiet quitting",
+    "meaning": "The practice of doing only the minimum required by one's job description and disengaging from additional expectations.",
+    "example": "After years of overwork, many employees began quiet quitting, leading management to reassess their culture.",
+    "category": "General Future-of-Work"
+  },
+  {
+    "word": "great resignation",
+    "meaning": "The post-pandemic trend of a large number of workers voluntarily leaving their jobs in pursuit of better opportunities or life balance.",
+    "example": "The Great Resignation prompted companies to rethink compensation, flexibility, and purpose-driven work.",
+    "category": "General Future-of-Work"
+  },
+  {
+    "word": "contingent workforce",
+    "meaning": "Workers who are employed on a non-permanent basis, including freelancers, temps, contractors, and part-time employees.",
+    "example": "The contingent workforce now accounts for over 40% of the total workforce in some tech companies.",
+    "category": "Gig Economy"
+  },
+  {
+    "word": "task-based employment",
+    "meaning": "A model of work where individuals are hired to complete specific, discrete tasks rather than maintain an ongoing employment relationship.",
+    "example": "Task-based employment is common on platforms like TaskRabbit and Amazon Mechanical Turk.",
+    "category": "Gig Economy"
+  },
+  {
+    "word": "zero-hours contract",
+    "meaning": "A type of employment contract that does not guarantee a minimum number of working hours, offering employers maximum flexibility.",
+    "example": "Critics argue that zero-hours contracts leave workers financially insecure and without basic employment rights.",
+    "category": "Gig Economy"
+  },
+  {
+    "word": "cloud computing",
+    "meaning": "The delivery of computing services — servers, storage, databases, and software — over the internet on demand.",
+    "example": "Cloud computing has made it possible for startups to scale globally without investing in physical infrastructure.",
+    "category": "Remote Work"
+  },
+  {
+    "word": "virtual private network (VPN)",
+    "meaning": "A secure, encrypted connection that allows remote workers to access company networks safely over the internet.",
+    "example": "All employees working from home are required to connect through the company VPN to protect sensitive data.",
+    "category": "Remote Work"
+  },
+  {
+    "word": "productivity tracking",
+    "meaning": "The monitoring of employee output, activity, and time use to measure performance, often using digital tools.",
+    "example": "Productivity tracking software raised ethical concerns about employee privacy in remote work settings.",
+    "category": "Remote Work"
+  },
+  {
+    "word": "digital workplace",
+    "meaning": "A virtual, technology-enabled environment that replicates the functions of a physical office through digital tools and platforms.",
+    "example": "Slack, Notion, and Google Workspace are the backbone of their digital workplace.",
+    "category": "Remote Work"
+  },
+  {
+    "word": "always-on culture",
+    "meaning": "A workplace expectation that employees are constantly available and reachable outside standard working hours.",
+    "example": "The always-on culture was contributing to high turnover as employees struggled to disconnect after hours.",
+    "category": "Remote Work"
+  },
+  {
+    "word": "right to disconnect",
+    "meaning": "An employee's right to switch off from work-related communications outside of official working hours without penalty.",
+    "example": "France was among the first countries to enshrine the right to disconnect in national labour law.",
+    "category": "Remote Work"
+  },
+  {
+    "word": "employer of record (EOR)",
+    "meaning": "A third-party organisation that legally employs workers on behalf of a company, handling payroll, taxes, and compliance.",
+    "example": "The startup used an employer of record to hire remote workers in countries where they had no legal entity.",
+    "category": "General Future-of-Work"
+  },
+  {
+    "word": "people analytics",
+    "meaning": "The use of data and statistical methods to understand, improve, and optimise workforce performance and culture.",
+    "example": "People analytics revealed that employees who had a work best friend were significantly more engaged.",
+    "category": "General Future-of-Work"
+  },
+  {
+    "word": "outcome-based performance",
+    "meaning": "A management approach that evaluates employees on the results they achieve rather than the hours they work.",
+    "example": "Hybrid work models align naturally with outcome-based performance frameworks.",
+    "category": "Hybrid Work"
+  },
+  {
+    "word": "inclusive design",
+    "meaning": "The creation of products, services, and workplaces that accommodate the needs and abilities of the widest possible range of people.",
+    "example": "Inclusive design in office layouts ensures that employees with disabilities can work comfortably in any environment.",
+    "category": "Hybrid Work"
+  },
+  {
+    "word": "activity-based working (ABW)",
+    "meaning": "An office model where employees choose a workspace that suits the nature of the task they are performing at any given time.",
+    "example": "Under activity-based working, staff use quiet booths for deep focus and open tables for collaborative discussions.",
+    "category": "Hybrid Work"
+  },
+  {
+    "word": "generative AI",
+    "meaning": "Artificial intelligence systems capable of creating original text, images, code, and other content in response to user prompts.",
+    "example": "Generative AI tools like ChatGPT are now used for drafting emails, reports, and marketing content.",
+    "category": "Automation"
+  },
+  {
+    "word": "prompt engineering",
+    "meaning": "The practice of designing and refining inputs to AI language models in order to produce desired, high-quality outputs.",
+    "example": "Prompt engineering has emerged as a sought-after skill as organisations integrate AI into their workflows.",
+    "category": "Automation"
+  },
+  {
+    "word": "AI literacy",
+    "meaning": "The ability to understand, evaluate, and effectively use artificial intelligence tools in professional and everyday contexts.",
+    "example": "Companies are offering AI literacy workshops to help all employees navigate AI-powered tools confidently.",
+    "category": "Upskilling"
+  },
+  {
+    "word": "data-driven decision making",
+    "meaning": "The practice of basing business decisions on analysis and interpretation of data rather than intuition alone.",
+    "example": "Data-driven decision making has reduced costly errors in their supply chain planning process.",
+    "category": "Automation"
+  },
+  {
+    "word": "future-proofing",
+    "meaning": "The process of developing skills, strategies, or systems that will remain relevant and effective despite future changes.",
+    "example": "Learning to work alongside AI tools is one way professionals are future-proofing their careers.",
+    "category": "General Future-of-Work"
+  },
+  {
+    "word": "labour market polarisation",
+    "meaning": "A phenomenon where job growth occurs at the high-skill and low-skill ends of the labour market while middle-skill jobs decline.",
+    "example": "Labour market polarisation has eroded stable, middle-income careers in manufacturing and routine office work.",
+    "category": "Automation"
+  },
+  {
+    "word": "automation anxiety",
+    "meaning": "The psychological fear or worry experienced by workers concerned that their jobs will be replaced by machines or AI.",
+    "example": "Automation anxiety was widespread in the warehouse after management announced a new robotic fulfilment system.",
+    "category": "Automation"
+  },
+  {
+    "word": "co-bot (collaborative robot)",
+    "meaning": "A robot designed to work safely alongside humans in shared workspaces, assisting rather than replacing them.",
+    "example": "Factory workers now operate alongside co-bots that handle heavy lifting while humans manage quality control.",
+    "category": "Automation"
+  },
+  {
+    "word": "universal basic income (UBI)",
+    "meaning": "A government programme that provides all citizens with a regular, unconditional sum of money regardless of employment status.",
+    "example": "Proponents of universal basic income argue it could cushion workers displaced by automation.",
+    "category": "General Future-of-Work"
+  },
+  {
+    "word": "skill-based hiring",
+    "meaning": "A recruitment approach that prioritises demonstrated competencies over formal qualifications like degrees or certifications.",
+    "example": "Skill-based hiring has opened doors for talented candidates who lacked university education but had strong portfolios.",
+    "category": "Upskilling"
+  },
+  {
+    "word": "internal mobility",
+    "meaning": "The movement of employees to new roles, teams, or projects within the same organisation to grow and develop.",
+    "example": "Strong internal mobility programmes reduce the need to hire externally for every new position.",
+    "category": "Upskilling"
+  },
+  {
+    "word": "mentorship",
+    "meaning": "A developmental relationship in which a more experienced person guides and advises a less experienced individual.",
+    "example": "The company's mentorship programme paired junior employees with senior leaders for monthly career conversations.",
+    "category": "Upskilling"
+  },
+  {
+    "word": "reverse mentoring",
+    "meaning": "A practice where junior employees mentor senior leaders, typically to share knowledge about technology, social trends, or new perspectives.",
+    "example": "Through reverse mentoring, the CEO learned how younger customers were engaging with the brand on social media.",
+    "category": "Upskilling"
+  },
+  {
+    "word": "cohort learning",
+    "meaning": "A structured learning approach where a group of people progress through a curriculum together, encouraging peer support.",
+    "example": "The leadership development programme used cohort learning to build strong bonds among emerging managers.",
+    "category": "Upskilling"
+  },
+  {
+    "word": "work autonomy",
+    "meaning": "The degree of freedom and independence employees have in deciding how, when, and where they complete their work.",
+    "example": "High work autonomy was consistently rated as one of the top factors attracting talent to the organisation.",
+    "category": "General Future-of-Work"
+  },
+  {
+    "word": "four-day work week",
+    "meaning": "A compressed work schedule where employees work their full-time hours across four days instead of five, with no reduction in pay.",
+    "example": "The trial of a four-day work week showed increased productivity and reduced employee sick days.",
+    "category": "General Future-of-Work"
+  },
+  {
+    "word": "pay transparency",
+    "meaning": "The practice of openly sharing salary ranges and compensation structures within or outside an organisation.",
+    "example": "New legislation is pushing companies towards pay transparency to help close gender and racial wage gaps.",
+    "category": "General Future-of-Work"
+  },
+  {
+    "word": "digital equity",
+    "meaning": "The condition in which all individuals have equal access to the information, technology, and skills needed to participate in the digital economy.",
+    "example": "Addressing digital equity is essential to ensuring that remote and hybrid work benefits workers of all backgrounds.",
+    "category": "General Future-of-Work"
+  },
+  {
+    "word": "purpose-driven work",
+    "meaning": "Employment that is motivated by a sense of meaning, values alignment, and positive impact rather than financial reward alone.",
+    "example": "Younger generations increasingly seek purpose-driven work that aligns with their personal values and social concerns.",
+    "category": "General Future-of-Work"
+  },
+  {
+    "word": "neurodiversity",
+    "meaning": "The natural range of differences in human brain function and behavioural traits, including conditions like ADHD, dyslexia, and autism.",
+    "example": "Inclusive employers design roles and environments that harness the unique strengths of neurodiversity.",
+    "category": "General Future-of-Work"
+  },
+  {
+    "word": "virtual onboarding",
+    "meaning": "The process of integrating a new employee into an organisation entirely through digital tools and remote interactions.",
+    "example": "The HR team redesigned their virtual onboarding programme to make new starters feel connected from day one.",
+    "category": "Remote Work"
+  },
+  {
+    "word": "employee engagement",
+    "meaning": "The emotional commitment and enthusiasm employees have towards their organisation, role, and colleagues.",
+    "example": "Organisations with high employee engagement report 21% greater profitability than their disengaged counterparts.",
+    "category": "General Future-of-Work"
+  },
+  {
+    "word": "talent pipeline",
+    "meaning": "A pool of qualified candidates who are actively being prepared to fill future roles within an organisation.",
+    "example": "The internship programme was designed to build a strong talent pipeline for technical positions.",
+    "category": "General Future-of-Work"
+  },
+  {
+    "word": "gig platform",
+    "meaning": "A digital marketplace that connects individuals offering services with people or businesses seeking those services.",
+    "example": "Fiverr, Toptal, and Freelancer.com are leading gig platforms in the creative and tech sectors.",
+    "category": "Gig Economy"
+  },
+  {
+    "word": "job crafting",
+    "meaning": "The proactive process by which employees shape and redefine their roles to better align with their strengths and interests.",
+    "example": "Through job crafting, the data analyst began leading customer workshops, adding a new dimension to her role.",
+    "category": "General Future-of-Work"
+  },
+  {
+    "word": "algorithmic bias",
+    "meaning": "Systematic errors in AI systems that produce unfair or discriminatory outcomes due to biased training data or design.",
+    "example": "The hiring algorithm had to be retrained after researchers discovered algorithmic bias against female applicants.",
+    "category": "Automation"
+  },
+  {
+    "word": "workforce planning",
+    "meaning": "The strategic process of analysing and forecasting the talent an organisation needs to meet its future business goals.",
+    "example": "Effective workforce planning ensures the company has the right skills in place well before they are needed.",
+    "category": "General Future-of-Work"
+  },
+  {
+    "word": "cloud-based collaboration",
+    "meaning": "The use of cloud computing platforms to enable teams to work together on documents, projects, and communications in real time.",
+    "example": "Google Workspace enables cloud-based collaboration, allowing multiple users to edit documents simultaneously.",
+    "category": "Remote Work"
+  },
+  {
+    "word": "nomad visa",
+    "meaning": "A type of visa issued by certain countries that allows remote workers and freelancers to live and legally work there for an extended period.",
+    "example": "Portugal's nomad visa attracted thousands of digital workers looking to experience life in Europe.",
+    "category": "Remote Work"
+  },
+  {
+    "word": "entrepreneurship",
+    "meaning": "The activity of setting up and running a new business venture, taking on financial risk in the hope of generating profit.",
+    "example": "The rise of the gig economy has encouraged many people to transition from employment into entrepreneurship.",
+    "category": "Gig Economy"
+  },
+  {
+    "word": "intrapreneurship",
+    "meaning": "The practice of acting like an entrepreneur within an established organisation, developing innovative ideas and projects from within.",
+    "example": "The company encouraged intrapreneurship by giving employees time and budget to develop their own product concepts.",
+    "category": "General Future-of-Work"
+  },
+  {
+    "word": "succession planning",
+    "meaning": "The process of identifying and developing future leaders within an organisation to fill key positions when they become vacant.",
+    "example": "Effective succession planning ensures that leadership transitions are smooth and minimally disruptive.",
+    "category": "General Future-of-Work"
+  },
+  {
+    "word": "gig benefits portability",
+    "meaning": "The concept that benefits like healthcare, pensions, and paid leave should be transferable across different gig jobs and platforms.",
+    "example": "Advocates argue that gig benefits portability would provide greater security for workers in the gig economy.",
+    "category": "Gig Economy"
+  },
+  {
+    "word": "remote-work infrastructure",
+    "meaning": "The hardware, software, connectivity, and physical setups that enable employees to work effectively outside a traditional office.",
+    "example": "The company provided a stipend for each remote worker to build their own remote-work infrastructure at home.",
+    "category": "Remote Work"
+  },
+  {
+    "word": "smart factory",
+    "meaning": "A highly digitised manufacturing plant where machines, systems, and processes are interconnected and monitored through IoT and AI.",
+    "example": "The smart factory uses real-time sensor data to predict equipment failures before they disrupt production.",
+    "category": "Automation"
+  },
+  {
+    "word": "Internet of Things (IoT)",
+    "meaning": "A network of physical objects embedded with sensors, software, and connectivity that enables them to collect and exchange data.",
+    "example": "In smart offices, IoT devices adjust lighting and temperature based on occupancy levels throughout the day.",
+    "category": "Automation"
+  },
+  {
+    "word": "decentralised work",
+    "meaning": "A work model in which authority, decision-making, and physical operations are spread across multiple locations rather than centralised.",
+    "example": "Decentralised work structures allow teams to operate independently and respond faster to local market conditions.",
+    "category": "General Future-of-Work"
+  },
+  {
+    "word": "structured flexibility",
+    "meaning": "A work arrangement that provides clear boundaries and expectations while still offering employees significant autonomy over their schedules.",
+    "example": "Structured flexibility allows employees to choose their hours while committing to team availability windows.",
+    "category": "Hybrid Work"
+  },
+  {
+    "word": "virtual water cooler",
+    "meaning": "Online spaces or informal digital interactions designed to replicate the spontaneous social conversations that occur in office settings.",
+    "example": "The team created a virtual water cooler channel where employees share recipes, memes, and weekend stories.",
+    "category": "Remote Work"
+  },
+  {
+    "word": "social capital",
+    "meaning": "The networks, relationships, trust, and norms of cooperation within an organisation that facilitate collective action.",
+    "example": "Remote work can erode social capital if leaders do not intentionally create opportunities for informal connection.",
+    "category": "General Future-of-Work"
+  },
+  {
+    "word": "digital fatigue",
+    "meaning": "A state of exhaustion and disengagement resulting from prolonged use of digital devices and online communication tools.",
+    "example": "Managers were asked to reduce the number of digital meetings to combat widespread digital fatigue in the team.",
+    "category": "Remote Work"
+  },
+  {
+    "word": "bionic workforce",
+    "meaning": "A workforce in which human workers are enhanced and empowered by AI and advanced technology to perform at higher levels.",
+    "example": "The consulting firm envisioned a bionic workforce where every consultant is supported by an AI-powered research assistant.",
+    "category": "Automation"
+  }
+]

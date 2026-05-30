@@ -1,0 +1,182 @@
+﻿[
+    {
+        "word":  "Cloud",
+        "meaning":  "A global network of remote servers used to store and manage data online.",
+        "example":  "All project files are saved in the cloud so anyone can access them.",
+        "category":  "Digital Workspace \u0026 Tech"
+    },
+    {
+        "word":  "Shared Drive",
+        "meaning":  "An online storage space accessible by multiple users in an organization.",
+        "example":  "Please upload the client contracts to the department\u0027s shared drive.",
+        "category":  "Digital Workspace \u0026 Tech"
+    },
+    {
+        "word":  "Grant Access",
+        "meaning":  "To give someone permission to view, edit, or use a file or system.",
+        "example":  "Can you grant access to the designer so they can edit the document?",
+        "category":  "Digital Workspace \u0026 Tech"
+    },
+    {
+        "word":  "Permissions",
+        "meaning":  "Settings that control what a user is allowed to do in a file or software.",
+        "example":  "You need to change the permissions so the client can only view the sheet.",
+        "category":  "Digital Workspace \u0026 Tech"
+    },
+    {
+        "word":  "Log",
+        "meaning":  "To record an event, action, or work hours in a digital system.",
+        "example":  "Don\u0027t forget to log your working hours in the app before Friday evening.",
+        "category":  "Digital Workspace \u0026 Tech"
+    },
+    {
+        "word":  "Screen Recording",
+        "meaning":  "A video capture of a computer screen, often with voice explanations.",
+        "example":  "I sent a quick screen recording to show the developer how the error happens.",
+        "category":  "Digital Workspace \u0026 Tech"
+    },
+    {
+        "word":  "Screenshot",
+        "meaning":  "An image capture of a computer or phone screen.",
+        "example":  "Please take a screenshot of the error message and send it to IT support.",
+        "category":  "Digital Workspace \u0026 Tech"
+    },
+    {
+        "word":  "Hotkey",
+        "meaning":  "A keyboard shortcut used to perform an action quickly.",
+        "example":  "Using the hotkey to mute myself during calls is very convenient.",
+        "category":  "Digital Workspace \u0026 Tech"
+    },
+    {
+        "word":  "Refresh",
+        "meaning":  "To reload a webpage or application to display the latest updates.",
+        "example":  "If the new folder does not appear, try to refresh your browser.",
+        "category":  "Digital Workspace \u0026 Tech"
+    },
+    {
+        "word":  "Reboot",
+        "meaning":  "To restart a computer or device to resolve performance problems.",
+        "example":  "My webcam is not working, so I need to reboot my laptop.",
+        "category":  "Digital Workspace \u0026 Tech"
+    },
+    {
+        "word":  "Collaboration Tool",
+        "meaning":  "Software designed to help people work together on tasks and projects remotely.",
+        "example":  "Slack, Zoom, and Trello are essential collaboration tools for our team.",
+        "category":  "Digital Workspace \u0026 Tech"
+    },
+    {
+        "word":  "Outbox",
+        "meaning":  "A temporary folder where outgoing messages are held before they are sent.",
+        "example":  "My email is stuck in the outbox because my internet disconnected.",
+        "category":  "Digital Workspace \u0026 Tech"
+    },
+    {
+        "word":  "Inbox",
+        "meaning":  "The primary folder where incoming emails and messages are received.",
+        "example":  "I came back from vacation to find over one hundred messages in my inbox.",
+        "category":  "Digital Workspace \u0026 Tech"
+    },
+    {
+        "word":  "Archive",
+        "meaning":  "To store old messages or files in a separate space to keep active areas organized.",
+        "example":  "I archive completed project channels to keep my workspace clean.",
+        "category":  "Digital Workspace \u0026 Tech"
+    },
+    {
+        "word":  "Notification Alert",
+        "meaning":  "A sound or visual pop-up informing you of a new message or update.",
+        "example":  "I turned off notification alerts on my phone to avoid distractions.",
+        "category":  "Digital Workspace \u0026 Tech"
+    },
+    {
+        "word":  "Workspace Env",
+        "meaning":  "The digital setup or platform where a team interacts and shares files.",
+        "example":  "Welcome to our digital workspace; please check the onboarding channel.",
+        "category":  "Digital Workspace \u0026 Tech"
+    },
+    {
+        "word":  "Integrations",
+        "meaning":  "Connections between different apps that allow them to share data automatically.",
+        "example":  "We set up integrations to receive task updates directly in Slack.",
+        "category":  "Digital Workspace \u0026 Tech"
+    },
+    {
+        "word":  "Direct Link",
+        "meaning":  "A URL that points straight to a specific page, folder, or asset.",
+        "example":  "Here is the direct link to the folder containing the project images.",
+        "category":  "Digital Workspace \u0026 Tech"
+    },
+    {
+        "word":  "Search Bar",
+        "meaning":  "A search box where you can type keywords to find items in an app.",
+        "example":  "Type the client\u0027s name in the search bar to locate past messages.",
+        "category":  "Digital Workspace \u0026 Tech"
+    },
+    {
+        "word":  "Toggle Button",
+        "meaning":  "A digital switch that changes between two settings (e.g., on and off).",
+        "example":  "You can toggle the dark mode option in the settings menu.",
+        "category":  "Digital Workspace \u0026 Tech"
+    },
+    {
+        "word":  "Cyber Security",
+        "meaning":  "Measures and practices to protect systems, networks, and data from attacks.",
+        "example":  "The company holds annual cyber security training to prevent phishing.",
+        "category":  "Digital Workspace \u0026 Tech"
+    },
+    {
+        "word":  "Digital Detox",
+        "meaning":  "A period when you avoid using computers, phones, or other screens to rest.",
+        "example":  "I am doing a digital detox this weekend and will not check my email.",
+        "category":  "Digital Workspace \u0026 Tech"
+    },
+    {
+        "word":  "File Sharing",
+        "meaning":  "Sending or giving access to digital files to other users.",
+        "example":  "File sharing is simple and secure on our cloud platform.",
+        "category":  "Digital Workspace \u0026 Tech"
+    },
+    {
+        "word":  "Backup Copy",
+        "meaning":  "A duplicate file created to protect against loss of the original data.",
+        "example":  "I keep a backup copy of all my presentations on an external drive.",
+        "category":  "Digital Workspace \u0026 Tech"
+    },
+    {
+        "word":  "Crash Alert",
+        "meaning":  "A notification that a program or system has stopped working unexpectedly.",
+        "example":  "The design software crashed, but fortunately my work was auto-saved.",
+        "category":  "Digital Workspace \u0026 Tech"
+    },
+    {
+        "word":  "Sync Status",
+        "meaning":  "The progress of updating data across different devices to make them match.",
+        "example":  "Please wait for the sync status to show completed before closing the app.",
+        "category":  "Digital Workspace \u0026 Tech"
+    },
+    {
+        "word":  "System Update",
+        "meaning":  "An improvement to software that adds features, fixes bugs, or improves security.",
+        "example":  "You need to run a system update before installing the new project manager tool.",
+        "category":  "Digital Workspace \u0026 Tech"
+    },
+    {
+        "word":  "Down Time",
+        "meaning":  "A period when a system, network, or server is not running or available.",
+        "example":  "The server down time is scheduled for Sunday morning to avoid disrupting work.",
+        "category":  "Digital Workspace \u0026 Tech"
+    },
+    {
+        "word":  "Inbox Zero",
+        "meaning":  "The state of having an empty email inbox, representing organized communication.",
+        "example":  "Achieving inbox zero before leaving for the weekend feels amazing.",
+        "category":  "Digital Workspace \u0026 Tech"
+    },
+    {
+        "word":  "Data Leak",
+        "meaning":  "An unauthorized release of private or sensitive digital information.",
+        "example":  "The company uses data encryption to prevent any accidental data leak.",
+        "category":  "Digital Workspace \u0026 Tech"
+    }
+]

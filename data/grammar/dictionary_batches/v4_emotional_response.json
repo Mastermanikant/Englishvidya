@@ -1,0 +1,818 @@
+[
+  {
+    "word": "shock",
+    "meaning": "A sudden feeling of disturbance or upset caused by something unexpected or disturbing",
+    "example": "She was in complete shock when she heard the news of the accident.",
+    "category": "Surprise / Distress"
+  },
+  {
+    "word": "sympathy",
+    "meaning": "Feelings of pity and sorrow for someone else's misfortune",
+    "example": "He expressed his sympathy to the family after the loss of their loved one.",
+    "category": "Compassion"
+  },
+  {
+    "word": "admiration",
+    "meaning": "A feeling of wonder, pleasure, and approval towards someone or something",
+    "example": "She looked at the painting with deep admiration for the artist's skill.",
+    "category": "Positive / Respect"
+  },
+  {
+    "word": "relief",
+    "meaning": "A feeling of reassurance and relaxation following release from anxiety or distress",
+    "example": "He let out a sigh of relief when he found out his results were fine.",
+    "category": "Positive / Comfort"
+  },
+  {
+    "word": "gratitude",
+    "meaning": "The quality of being thankful and the readiness to show appreciation",
+    "example": "She expressed her gratitude to the teacher who helped her during hard times.",
+    "category": "Positive / Thankfulness"
+  },
+  {
+    "word": "joy",
+    "meaning": "A feeling of great pleasure and happiness",
+    "example": "The children jumped with joy when they saw the surprise gift.",
+    "category": "Happiness"
+  },
+  {
+    "word": "anger",
+    "meaning": "A strong feeling of displeasure or hostility triggered by a perceived wrong",
+    "example": "He felt a surge of anger when he was unfairly blamed for the mistake.",
+    "category": "Negative / Frustration"
+  },
+  {
+    "word": "fear",
+    "meaning": "An unpleasant emotion caused by the belief that someone or something is dangerous or threatening",
+    "example": "She could feel the fear rising as she walked alone in the dark alley.",
+    "category": "Negative / Distress"
+  },
+  {
+    "word": "excitement",
+    "meaning": "A feeling of great enthusiasm and eagerness",
+    "example": "The crowd was filled with excitement before the championship match began.",
+    "category": "Positive / Energy"
+  },
+  {
+    "word": "sadness",
+    "meaning": "The condition of feeling sorrow or unhappiness",
+    "example": "There was a deep sadness in her eyes after she received the bad news.",
+    "category": "Negative / Sorrow"
+  },
+  {
+    "word": "pride",
+    "meaning": "A feeling of deep satisfaction derived from one's own achievements or those of someone close",
+    "example": "His parents beamed with pride when he graduated at the top of his class.",
+    "category": "Positive / Self-esteem"
+  },
+  {
+    "word": "guilt",
+    "meaning": "A feeling of having done something wrong or failed to do something required",
+    "example": "She was overcome with guilt after forgetting her friend's birthday.",
+    "category": "Negative / Remorse"
+  },
+  {
+    "word": "embarrassment",
+    "meaning": "A feeling of awkwardness or self-consciousness caused by a situation",
+    "example": "He blushed with embarrassment when he tripped in front of everyone.",
+    "category": "Negative / Social"
+  },
+  {
+    "word": "hope",
+    "meaning": "A feeling of expectation and desire for a certain thing to happen",
+    "example": "Despite the challenges, she held onto hope that things would get better.",
+    "category": "Positive / Optimism"
+  },
+  {
+    "word": "disgust",
+    "meaning": "A strong feeling of revulsion or strong disapproval",
+    "example": "She felt disgust when she saw the unhygienic conditions of the place.",
+    "category": "Negative / Aversion"
+  },
+  {
+    "word": "surprise",
+    "meaning": "A feeling of mild astonishment or shock caused by something unexpected",
+    "example": "His sudden arrival at the party was a complete surprise to everyone.",
+    "category": "Surprise"
+  },
+  {
+    "word": "envy",
+    "meaning": "A feeling of discontented longing aroused by someone else's possessions or qualities",
+    "example": "She felt a pang of envy when she saw her friend's new car.",
+    "category": "Negative / Social"
+  },
+  {
+    "word": "jealousy",
+    "meaning": "A feeling of resentment towards someone because of their success or advantages",
+    "example": "Jealousy crept in when he saw his colleague receiving all the praise.",
+    "category": "Negative / Insecurity"
+  },
+  {
+    "word": "love",
+    "meaning": "An intense feeling of deep affection and care for another person",
+    "example": "She felt an overwhelming love for her newborn child.",
+    "category": "Positive / Affection"
+  },
+  {
+    "word": "loneliness",
+    "meaning": "The feeling of sadness because one has no friends or company",
+    "example": "He felt a deep loneliness after moving to a new city where he knew no one.",
+    "category": "Negative / Isolation"
+  },
+  {
+    "word": "affection",
+    "meaning": "A gentle feeling of fondness or liking towards someone",
+    "example": "She showed her affection by hugging her grandmother tightly.",
+    "category": "Positive / Warmth"
+  },
+  {
+    "word": "awe",
+    "meaning": "A feeling of reverential respect mixed with fear or wonder",
+    "example": "The tourists gazed in awe at the towering mountains.",
+    "category": "Positive / Wonder"
+  },
+  {
+    "word": "anxiety",
+    "meaning": "A feeling of worry, nervousness, or unease about something with an uncertain outcome",
+    "example": "She felt anxiety building up before the final exam results were announced.",
+    "category": "Negative / Worry"
+  },
+  {
+    "word": "contentment",
+    "meaning": "A state of peaceful happiness and satisfaction",
+    "example": "After a long day, she felt a sense of contentment sitting by the fireplace.",
+    "category": "Positive / Peace"
+  },
+  {
+    "word": "frustration",
+    "meaning": "The feeling of being upset or annoyed as a result of being unable to change or achieve something",
+    "example": "He felt frustration when the software kept crashing during his presentation.",
+    "category": "Negative / Irritation"
+  },
+  {
+    "word": "grief",
+    "meaning": "Deep sorrow, especially caused by someone's death",
+    "example": "She was consumed by grief after the sudden loss of her father.",
+    "category": "Negative / Loss"
+  },
+  {
+    "word": "compassion",
+    "meaning": "Sympathetic concern for the sufferings of others and a desire to help",
+    "example": "The nurse showed great compassion towards every patient in her care.",
+    "category": "Compassion"
+  },
+  {
+    "word": "despair",
+    "meaning": "The complete loss or absence of hope",
+    "example": "He fell into despair after failing the exam for the third time.",
+    "category": "Negative / Hopelessness"
+  },
+  {
+    "word": "elation",
+    "meaning": "Great happiness and exhilaration",
+    "example": "She felt pure elation when her startup received its first major investment.",
+    "category": "Positive / Happiness"
+  },
+  {
+    "word": "regret",
+    "meaning": "A feeling of sadness or disappointment over something that has happened or been done",
+    "example": "He felt deep regret for not spending more time with his family.",
+    "category": "Negative / Remorse"
+  },
+  {
+    "word": "nostalgia",
+    "meaning": "A sentimental longing or wistful affection for the past",
+    "example": "Listening to old songs filled her with nostalgia for her college days.",
+    "category": "Mixed / Reflective"
+  },
+  {
+    "word": "nervousness",
+    "meaning": "The quality or state of being easily agitated or alarmed",
+    "example": "His nervousness was visible as he waited to give his first public speech.",
+    "category": "Negative / Anxiety"
+  },
+  {
+    "word": "curiosity",
+    "meaning": "A strong desire to know or learn something",
+    "example": "The child's curiosity led her to ask endless questions about everything.",
+    "category": "Positive / Engagement"
+  },
+  {
+    "word": "wonder",
+    "meaning": "A feeling of amazement and admiration, caused by something beautiful or unfamiliar",
+    "example": "He looked at the night sky full of stars with pure wonder.",
+    "category": "Positive / Awe"
+  },
+  {
+    "word": "resentment",
+    "meaning": "Bitter indignation at having been treated unfairly",
+    "example": "She harboured deep resentment towards her boss for taking credit for her work.",
+    "category": "Negative / Bitterness"
+  },
+  {
+    "word": "boredom",
+    "meaning": "The state of feeling weary and impatient because one is unoccupied or lacks interest",
+    "example": "The long wait at the airport was filled with boredom.",
+    "category": "Negative / Disengagement"
+  },
+  {
+    "word": "enthusiasm",
+    "meaning": "Intense and eager enjoyment, interest, or approval",
+    "example": "She tackled the new project with great enthusiasm and energy.",
+    "category": "Positive / Energy"
+  },
+  {
+    "word": "shame",
+    "meaning": "A painful feeling of humiliation or distress caused by wrong or foolish behaviour",
+    "example": "He felt a wave of shame after lying to his closest friend.",
+    "category": "Negative / Social"
+  },
+  {
+    "word": "ecstasy",
+    "meaning": "An overwhelming feeling of great happiness or joyful excitement",
+    "example": "The fans were in ecstasy when their team scored the winning goal.",
+    "category": "Positive / Extreme Joy"
+  },
+  {
+    "word": "melancholy",
+    "meaning": "A feeling of pensive sadness, typically with no obvious cause",
+    "example": "Rainy evenings often filled her with a quiet sense of melancholy.",
+    "category": "Negative / Sadness"
+  },
+  {
+    "word": "irritation",
+    "meaning": "The state of feeling annoyed, impatient, or slightly angry",
+    "example": "The constant noise from outside caused her great irritation.",
+    "category": "Negative / Frustration"
+  },
+  {
+    "word": "optimism",
+    "meaning": "Hopefulness and confidence about the future or the success of something",
+    "example": "Despite the setbacks, his optimism kept the whole team motivated.",
+    "category": "Positive / Mindset"
+  },
+  {
+    "word": "pessimism",
+    "meaning": "A tendency to see the worst aspect of things or believe the worst will happen",
+    "example": "Her pessimism made it hard for her to enjoy good things in life.",
+    "category": "Negative / Mindset"
+  },
+  {
+    "word": "confidence",
+    "meaning": "A feeling of self-assurance arising from one's appreciation of one's own abilities",
+    "example": "She walked into the interview room with complete confidence.",
+    "category": "Positive / Self-esteem"
+  },
+  {
+    "word": "insecurity",
+    "meaning": "Uncertainty or anxiety about oneself; lack of confidence",
+    "example": "His insecurity made him doubt his abilities even when he was doing well.",
+    "category": "Negative / Self-doubt"
+  },
+  {
+    "word": "pity",
+    "meaning": "The feeling of sorrow and compassion caused by the suffering of others",
+    "example": "She felt pity for the stray dog shivering in the rain.",
+    "category": "Compassion"
+  },
+  {
+    "word": "hatred",
+    "meaning": "An intense dislike or ill will towards someone or something",
+    "example": "He was consumed by hatred after years of being treated unjustly.",
+    "category": "Negative / Hostility"
+  },
+  {
+    "word": "tenderness",
+    "meaning": "Gentleness and kindness expressed in an affectionate or caring way",
+    "example": "She spoke to the child with great tenderness and warmth.",
+    "category": "Positive / Warmth"
+  },
+  {
+    "word": "humility",
+    "meaning": "A modest or low view of one's own importance; humbleness",
+    "example": "Despite winning the award, he accepted it with true humility.",
+    "category": "Positive / Character"
+  },
+  {
+    "word": "courage",
+    "meaning": "The ability to do something that frightens one; bravery",
+    "example": "She gathered courage and spoke up against the injustice.",
+    "category": "Positive / Strength"
+  },
+  {
+    "word": "helplessness",
+    "meaning": "The inability to defend oneself or to act without the assistance of others",
+    "example": "He felt helplessness as he watched the flood destroy his village.",
+    "category": "Negative / Vulnerability"
+  },
+  {
+    "word": "trust",
+    "meaning": "A firm belief in the reliability, truth, or ability of someone or something",
+    "example": "Her trust in her mentor helped her overcome her fear of failure.",
+    "category": "Positive / Social"
+  },
+  {
+    "word": "betrayal",
+    "meaning": "The action of betraying trust or expectations; a deep sense of being let down",
+    "example": "She felt a sharp sense of betrayal when her best friend shared her secret.",
+    "category": "Negative / Social"
+  },
+  {
+    "word": "happiness",
+    "meaning": "The state of being happy, content, and pleased",
+    "example": "Her happiness was contagious and brightened the entire room.",
+    "category": "Positive / Happiness"
+  },
+  {
+    "word": "panic",
+    "meaning": "A sudden strong feeling of fear or anxiety that prevents clear thinking",
+    "example": "He went into a panic when he couldn't find his passport at the airport.",
+    "category": "Negative / Fear"
+  },
+  {
+    "word": "serenity",
+    "meaning": "The state of being calm, peaceful, and untroubled",
+    "example": "She found serenity by meditating near the quiet lake every morning.",
+    "category": "Positive / Peace"
+  },
+  {
+    "word": "apathy",
+    "meaning": "Lack of interest, enthusiasm, or concern",
+    "example": "His apathy towards work worried his colleagues and manager.",
+    "category": "Negative / Disengagement"
+  },
+  {
+    "word": "warmth",
+    "meaning": "A quality of friendliness, kindness, and affection in behaviour",
+    "example": "The warmth she showed to every guest made them feel instantly welcome.",
+    "category": "Positive / Warmth"
+  },
+  {
+    "word": "anguish",
+    "meaning": "Severe mental or physical pain or suffering",
+    "example": "The anguish in her voice was clear as she described what she had been through.",
+    "category": "Negative / Suffering"
+  },
+  {
+    "word": "discomfort",
+    "meaning": "A slight pain or a feeling of being uncomfortable",
+    "example": "She felt discomfort sitting in the hard chair during the long lecture.",
+    "category": "Negative / Physical/Emotional"
+  },
+  {
+    "word": "appreciation",
+    "meaning": "Recognition and enjoyment of the good qualities of someone or something",
+    "example": "He showed his appreciation by writing a heartfelt thank-you note.",
+    "category": "Positive / Gratitude"
+  },
+  {
+    "word": "delight",
+    "meaning": "A feeling of great pleasure or satisfaction",
+    "example": "The children squealed with delight when the magician appeared.",
+    "category": "Positive / Joy"
+  },
+  {
+    "word": "indifference",
+    "meaning": "Lack of interest, concern, or sympathy",
+    "example": "His indifference to her pain made her feel invisible and unimportant.",
+    "category": "Negative / Disengagement"
+  },
+  {
+    "word": "longing",
+    "meaning": "A yearning desire for something or someone",
+    "example": "She felt a deep longing for her hometown after years of living abroad.",
+    "category": "Mixed / Yearning"
+  },
+  {
+    "word": "satisfaction",
+    "meaning": "Fulfilment of one's wishes, expectations, or needs",
+    "example": "He felt great satisfaction after completing the project successfully.",
+    "category": "Positive / Fulfilment"
+  },
+  {
+    "word": "distress",
+    "meaning": "Extreme anxiety, sorrow, or pain",
+    "example": "She was in visible distress after hearing about the accident.",
+    "category": "Negative / Suffering"
+  },
+  {
+    "word": "awkwardness",
+    "meaning": "A feeling of social unease or clumsiness in a situation",
+    "example": "There was a moment of awkwardness when they ran into each other unexpectedly.",
+    "category": "Negative / Social"
+  },
+  {
+    "word": "vulnerability",
+    "meaning": "The quality of being exposed to the possibility of being attacked or hurt",
+    "example": "Opening up about her struggles made her feel a sense of vulnerability.",
+    "category": "Mixed / Emotional"
+  },
+  {
+    "word": "overwhelm",
+    "meaning": "A feeling of being submerged by too many emotions or responsibilities at once",
+    "example": "She felt overwhelmed when she had to juggle work, studies, and family.",
+    "category": "Negative / Stress"
+  },
+  {
+    "word": "inspiration",
+    "meaning": "The process of being mentally stimulated to do or feel something creative",
+    "example": "Visiting the museum filled her with inspiration to create her own artwork.",
+    "category": "Positive / Motivation"
+  },
+  {
+    "word": "disappointment",
+    "meaning": "Sadness or displeasure caused by the non-fulfilment of one's hopes or expectations",
+    "example": "There was clear disappointment in his face when he didn't get the promotion.",
+    "category": "Negative / Letdown"
+  },
+  {
+    "word": "tranquility",
+    "meaning": "The quality or state of being free from agitation or disturbance",
+    "example": "She enjoyed the tranquility of the countryside far from the city noise.",
+    "category": "Positive / Peace"
+  },
+  {
+    "word": "resentfulness",
+    "meaning": "The feeling of persistent bitterness and anger towards a person or situation",
+    "example": "Her resentfulness grew over the years as she felt her sacrifices were ignored.",
+    "category": "Negative / Bitterness"
+  },
+  {
+    "word": "confusion",
+    "meaning": "A state of being bewildered or unclear in one's mind about something",
+    "example": "There was confusion on her face when she heard the contradictory instructions.",
+    "category": "Negative / Uncertainty"
+  },
+  {
+    "word": "astonishment",
+    "meaning": "Great surprise or amazement",
+    "example": "He stared in astonishment at the magician's impossible trick.",
+    "category": "Surprise / Wonder"
+  },
+  {
+    "word": "disbelief",
+    "meaning": "Inability or refusal to accept that something is true or real",
+    "example": "She shook her head in disbelief when she saw the final score.",
+    "category": "Surprise / Distress"
+  },
+  {
+    "word": "hopefulness",
+    "meaning": "A feeling of expectation and positive anticipation for the future",
+    "example": "There was a sense of hopefulness in the village after the rains finally came.",
+    "category": "Positive / Optimism"
+  },
+  {
+    "word": "determination",
+    "meaning": "Firmness of purpose and the resolve to achieve a goal",
+    "example": "With great determination, she trained for six months to complete the marathon.",
+    "category": "Positive / Strength"
+  },
+  {
+    "word": "excitement",
+    "meaning": "A feeling of great enthusiasm and eagerness about something imminent",
+    "example": "Her excitement was palpable as she packed her bags for the long-awaited trip.",
+    "category": "Positive / Energy"
+  },
+  {
+    "word": "sorrow",
+    "meaning": "A feeling of deep distress caused by loss, disappointment, or other misfortune",
+    "example": "Deep sorrow filled the room at the funeral of the beloved teacher.",
+    "category": "Negative / Grief"
+  },
+  {
+    "word": "dread",
+    "meaning": "Great fear or apprehension about a future event",
+    "example": "She felt dread every Sunday evening knowing Monday meetings were coming.",
+    "category": "Negative / Fear"
+  },
+  {
+    "word": "cheerfulness",
+    "meaning": "Noticeably happy and optimistic in disposition",
+    "example": "Her cheerfulness at work made the whole office feel lighter.",
+    "category": "Positive / Happiness"
+  },
+  {
+    "word": "agitation",
+    "meaning": "A state of anxiety, nervousness, or excited concern",
+    "example": "His agitation was obvious as he paced back and forth waiting for news.",
+    "category": "Negative / Anxiety"
+  },
+  {
+    "word": "bliss",
+    "meaning": "Perfect happiness; great joy",
+    "example": "She described her honeymoon as absolute bliss.",
+    "category": "Positive / Extreme Joy"
+  },
+  {
+    "word": "suspicion",
+    "meaning": "A feeling that something is possible, likely, or true",
+    "example": "She had a growing suspicion that her colleague was hiding something important.",
+    "category": "Negative / Distrust"
+  },
+  {
+    "word": "excitement",
+    "meaning": "A feeling of great enthusiasm and eagerness about upcoming events",
+    "example": "The children could barely sleep out of excitement on the night before the trip.",
+    "category": "Positive / Energy"
+  },
+  {
+    "word": "torment",
+    "meaning": "Severe physical or mental suffering",
+    "example": "The unanswered questions about what happened continued to torment him.",
+    "category": "Negative / Suffering"
+  },
+  {
+    "word": "relief",
+    "meaning": "The easing of pain, distress, or anxiety after a period of worry",
+    "example": "A wave of relief washed over her when the doctor said everything was normal.",
+    "category": "Positive / Comfort"
+  },
+  {
+    "word": "acceptance",
+    "meaning": "The action of consenting to receive or undertake something offered",
+    "example": "She finally found peace through acceptance of what she could not change.",
+    "category": "Positive / Growth"
+  },
+  {
+    "word": "affirmation",
+    "meaning": "Emotional support or encouragement that validates one's feelings or actions",
+    "example": "His teacher's affirmation gave him the confidence to keep going.",
+    "category": "Positive / Support"
+  },
+  {
+    "word": "restlessness",
+    "meaning": "The inability to remain still or at ease, often due to anxiety or dissatisfaction",
+    "example": "She felt a growing restlessness as her career seemed to be going nowhere.",
+    "category": "Negative / Discomfort"
+  },
+  {
+    "word": "exhilaration",
+    "meaning": "A feeling of excitement, happiness, or elation",
+    "example": "Jumping off the diving board gave him an intense feeling of exhilaration.",
+    "category": "Positive / Excitement"
+  },
+  {
+    "word": "unease",
+    "meaning": "Anxiety or discomfort; an uneasy feeling",
+    "example": "There was a sense of unease in the room when the manager entered silently.",
+    "category": "Negative / Anxiety"
+  },
+  {
+    "word": "fondness",
+    "meaning": "Affection or liking for a person or thing",
+    "example": "She spoke of her grandfather with great fondness and warmth.",
+    "category": "Positive / Affection"
+  },
+  {
+    "word": "forgiveness",
+    "meaning": "The action or process of forgiving or being forgiven",
+    "example": "She offered forgiveness to her friend after they hurt her, choosing peace over grudge.",
+    "category": "Positive / Growth"
+  },
+  {
+    "word": "empathy",
+    "meaning": "The ability to understand and share the feelings of another person",
+    "example": "Her empathy made others feel truly heard and understood.",
+    "category": "Compassion"
+  },
+  {
+    "word": "hostility",
+    "meaning": "Unfriendly or aggressive behaviour or attitudes towards someone",
+    "example": "The hostility in his tone made it clear he was not willing to cooperate.",
+    "category": "Negative / Aggression"
+  },
+  {
+    "word": "attachment",
+    "meaning": "Emotional dependency or connection to a person, place, or thing",
+    "example": "She had a strong emotional attachment to her childhood home.",
+    "category": "Mixed / Affection"
+  },
+  {
+    "word": "thankfulness",
+    "meaning": "The state of being pleased and relieved; grateful for something received",
+    "example": "She felt deep thankfulness for the support her friends gave during her illness.",
+    "category": "Positive / Gratitude"
+  },
+  {
+    "word": "shock",
+    "meaning": "A sudden disturbance to the emotions caused by unexpected news",
+    "example": "The sudden resignation of the CEO sent shock through the entire company.",
+    "category": "Surprise / Distress"
+  },
+  {
+    "word": "bewilderment",
+    "meaning": "The feeling of being completely confused and puzzled",
+    "example": "She stared in bewilderment at the instructions that made no sense at all.",
+    "category": "Negative / Confusion"
+  },
+  {
+    "word": "anticipation",
+    "meaning": "Excitement or anxiety about a future event",
+    "example": "There was great anticipation in the audience before the award was announced.",
+    "category": "Mixed / Expectation"
+  },
+  {
+    "word": "remorse",
+    "meaning": "Deep regret or guilt for a wrong committed",
+    "example": "He was filled with remorse after speaking harshly to his mother.",
+    "category": "Negative / Remorse"
+  },
+  {
+    "word": "affection",
+    "meaning": "A gentle feeling of fondness or liking for someone",
+    "example": "The elderly couple still showed great affection for each other after fifty years.",
+    "category": "Positive / Warmth"
+  },
+  {
+    "word": "annoyance",
+    "meaning": "The feeling of being slightly angry or impatient",
+    "example": "She felt annoyance when people interrupted her while she was speaking.",
+    "category": "Negative / Frustration"
+  },
+  {
+    "word": "euphoria",
+    "meaning": "An intense feeling of happiness and well-being",
+    "example": "After winning the scholarship, he was in a state of euphoria for days.",
+    "category": "Positive / Extreme Joy"
+  },
+  {
+    "word": "stoicism",
+    "meaning": "The endurance of pain or hardship without showing feelings or complaining",
+    "example": "His stoicism in the face of adversity inspired everyone around him.",
+    "category": "Positive / Resilience"
+  },
+  {
+    "word": "timidity",
+    "meaning": "Lack of courage or confidence; easily frightened",
+    "example": "Her timidity prevented her from raising her hand in class even when she knew the answer.",
+    "category": "Negative / Self-doubt"
+  },
+  {
+    "word": "yearning",
+    "meaning": "A feeling of intense longing for something",
+    "example": "She felt a constant yearning to return to her homeland.",
+    "category": "Mixed / Longing"
+  },
+  {
+    "word": "zeal",
+    "meaning": "Great energy or enthusiasm in pursuit of a cause or objective",
+    "example": "She worked with great zeal to bring clean water to the remote village.",
+    "category": "Positive / Motivation"
+  },
+  {
+    "word": "rage",
+    "meaning": "Violent, uncontrollable anger",
+    "example": "He was in a fit of rage after discovering someone had stolen from him.",
+    "category": "Negative / Aggression"
+  },
+  {
+    "word": "tenderness",
+    "meaning": "The emotion of having gentle, loving care towards someone",
+    "example": "She held the baby with great tenderness, speaking softly to soothe it.",
+    "category": "Positive / Care"
+  },
+  {
+    "word": "loathing",
+    "meaning": "A strong feeling of disgust or dislike",
+    "example": "She felt a deep loathing for dishonesty in any form.",
+    "category": "Negative / Aversion"
+  },
+  {
+    "word": "cheerlessness",
+    "meaning": "The state of being gloomy and without joy",
+    "example": "A sense of cheerlessness settled over the house after the argument.",
+    "category": "Negative / Sadness"
+  },
+  {
+    "word": "protectiveness",
+    "meaning": "A desire or instinct to keep someone or something safe from harm",
+    "example": "She felt a fierce protectiveness over her younger sibling.",
+    "category": "Positive / Care"
+  },
+  {
+    "word": "embarrassment",
+    "meaning": "A self-conscious feeling of shame or awkwardness in front of others",
+    "example": "The embarrassment of forgetting someone's name lingered for hours.",
+    "category": "Negative / Social"
+  },
+  {
+    "word": "longing",
+    "meaning": "A feeling of intense desire or wish for something absent or unattainable",
+    "example": "He felt a deep longing for simpler times when life was carefree.",
+    "category": "Mixed / Yearning"
+  },
+  {
+    "word": "resignation",
+    "meaning": "Passive acceptance of something undesirable but inevitable",
+    "example": "With a sigh of resignation, she accepted that the plan had failed.",
+    "category": "Mixed / Acceptance"
+  },
+  {
+    "word": "gratitude",
+    "meaning": "A warm feeling of appreciation shown towards someone who helped you",
+    "example": "Her gratitude was expressed through tears when she thanked her rescuers.",
+    "category": "Positive / Thankfulness"
+  },
+  {
+    "word": "numbness",
+    "meaning": "The absence of emotional feeling, often following trauma or shock",
+    "example": "After the accident, she described a feeling of emotional numbness for weeks.",
+    "category": "Negative / Detachment"
+  },
+  {
+    "word": "reverence",
+    "meaning": "Deep respect and awe for someone or something",
+    "example": "The students sat in reverence as the legendary scientist delivered his lecture.",
+    "category": "Positive / Respect"
+  },
+  {
+    "word": "shock",
+    "meaning": "A sudden and disturbing impression on the mind or emotions",
+    "example": "She was in shock for days after unexpectedly losing her job.",
+    "category": "Surprise / Distress"
+  },
+  {
+    "word": "pride",
+    "meaning": "A feeling of pleasure and satisfaction from one's own work or that of someone close",
+    "example": "She felt a surge of pride watching her daughter perform on stage.",
+    "category": "Positive / Self-esteem"
+  },
+  {
+    "word": "elation",
+    "meaning": "A feeling of joyful triumph or celebration",
+    "example": "There was elation in the team after they signed the biggest deal of the year.",
+    "category": "Positive / Joy"
+  },
+  {
+    "word": "bitterness",
+    "meaning": "Anger and disappointment at being treated unfairly",
+    "example": "Years of bitterness had left her unable to trust anyone.",
+    "category": "Negative / Resentment"
+  },
+  {
+    "word": "excitement",
+    "meaning": "A heightened state of emotional energy and readiness",
+    "example": "There was a buzz of excitement in the office when the new project was announced.",
+    "category": "Positive / Energy"
+  },
+  {
+    "word": "suspense",
+    "meaning": "A state of mental uncertainty or excitement in awaiting an outcome",
+    "example": "Everyone was on the edge of their seat, filled with suspense during the final match.",
+    "category": "Mixed / Anticipation"
+  },
+  {
+    "word": "disillusionment",
+    "meaning": "A feeling of disappointment after discovering something is not as good as believed",
+    "example": "She felt disillusionment after realising her dream job was not what she expected.",
+    "category": "Negative / Disappointment"
+  },
+  {
+    "word": "jealousy",
+    "meaning": "An emotional response of resentment and insecurity towards someone's success or relationships",
+    "example": "Jealousy tore their friendship apart when he got the role she had wanted.",
+    "category": "Negative / Insecurity"
+  },
+  {
+    "word": "sympathy",
+    "meaning": "An expression of care and understanding for someone going through difficulty",
+    "example": "She wrote a sympathy card for her neighbour who had just lost her husband.",
+    "category": "Compassion"
+  },
+  {
+    "word": "admiration",
+    "meaning": "The feeling of respect and approval for the qualities of another person",
+    "example": "His admiration for the firefighters grew after seeing them risk their lives.",
+    "category": "Positive / Respect"
+  },
+  {
+    "word": "calm",
+    "meaning": "A state of free from excitement or strong emotion; tranquil",
+    "example": "She remained calm even in the middle of the crisis, guiding everyone to safety.",
+    "category": "Positive / Peace"
+  },
+  {
+    "word": "irritability",
+    "meaning": "A tendency to be easily annoyed or made angry",
+    "example": "Lack of sleep increased his irritability and he snapped at minor things.",
+    "category": "Negative / Frustration"
+  },
+  {
+    "word": "sentimentality",
+    "meaning": "Excessive tenderness or nostalgia, often related to the past",
+    "example": "She felt a wave of sentimentality when she found her old school photo album.",
+    "category": "Mixed / Nostalgic"
+  },
+  {
+    "word": "horror",
+    "meaning": "An intense feeling of fear, shock, or disgust",
+    "example": "She watched in horror as the building started to collapse.",
+    "category": "Negative / Fear"
+  },
+  {
+    "word": "impatience",
+    "meaning": "A tendency to be irritable and unwilling to wait",
+    "example": "Her impatience grew with every minute the bus was delayed.",
+    "category": "Negative / Frustration"
+  }
+]

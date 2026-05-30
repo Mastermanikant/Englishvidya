@@ -1,0 +1,1136 @@
+﻿[
+    {
+        "word":  "exam",
+        "partOfSpeech":  "noun",
+        "meaning":  "A formal test of knowledge or proficiency.",
+        "example":  "She studied hard for her final exam.",
+        "level":  "A1",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Test types"
+    },
+    {
+        "word":  "quiz",
+        "partOfSpeech":  "noun",
+        "meaning":  "A short, informal test.",
+        "example":  "We have a vocabulary quiz every Friday.",
+        "level":  "A2",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Test types"
+    },
+    {
+        "word":  "assessment",
+        "partOfSpeech":  "noun",
+        "meaning":  "The evaluation of the nature, quality, or ability of someone or something.",
+        "example":  "The teacher used the assessment to determine our reading level.",
+        "level":  "B1",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Test types"
+    },
+    {
+        "word":  "midterm",
+        "partOfSpeech":  "noun",
+        "meaning":  "An exam given in the middle of an academic term.",
+        "example":  "I need to review my notes before the midterm.",
+        "level":  "B1",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Test types"
+    },
+    {
+        "word":  "final",
+        "partOfSpeech":  "noun",
+        "meaning":  "An examination at the end of a term or academic year.",
+        "example":  "The final counts for fifty percent of our grade.",
+        "level":  "A2",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Test types"
+    },
+    {
+        "word":  "pop quiz",
+        "partOfSpeech":  "noun",
+        "meaning":  "A quiz given without any prior warning.",
+        "example":  "I hate it when the professor springs a pop quiz on us.",
+        "level":  "B1",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Test types"
+    },
+    {
+        "word":  "oral exam",
+        "partOfSpeech":  "noun",
+        "meaning":  "A test in which the candidate answers questions aloud.",
+        "example":  "For her Spanish class, she had to take an oral exam.",
+        "level":  "B2",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Test types"
+    },
+    {
+        "word":  "written test",
+        "partOfSpeech":  "noun",
+        "meaning":  "An examination conducted in writing.",
+        "example":  "You must pass a written test before getting a driver\u0027s license.",
+        "level":  "A2",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Test types"
+    },
+    {
+        "word":  "multiple-choice",
+        "partOfSpeech":  "adjective",
+        "meaning":  "Offering a choice of several answers, of which only one is correct.",
+        "example":  "The history exam was mostly multiple-choice questions.",
+        "level":  "B1",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Test types"
+    },
+    {
+        "word":  "practical",
+        "partOfSpeech":  "noun",
+        "meaning":  "An examination in which students must demonstrate practical skills.",
+        "example":  "The chemistry practical involved conducting an experiment.",
+        "level":  "B2",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Test types"
+    },
+    {
+        "word":  "standardized test",
+        "partOfSpeech":  "noun",
+        "meaning":  "A test that is administered and scored in a consistent manner.",
+        "example":  "Many universities require standardized test scores for admission.",
+        "level":  "C1",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Test types"
+    },
+    {
+        "word":  "diagnostic test",
+        "partOfSpeech":  "noun",
+        "meaning":  "A test designed to identify a student\u0027s strengths and weaknesses.",
+        "example":  "The diagnostic test helped the tutor create a customized study plan.",
+        "level":  "C1",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Test types"
+    },
+    {
+        "word":  "placement test",
+        "partOfSpeech":  "noun",
+        "meaning":  "A test given to students entering an institution to determine knowledge or proficiency.",
+        "example":  "He took a placement test to see which math class he should enroll in.",
+        "level":  "B2",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Test types"
+    },
+    {
+        "word":  "mock exam",
+        "partOfSpeech":  "noun",
+        "meaning":  "An examination taken for practice before an official examination.",
+        "example":  "Taking a mock exam helps reduce test anxiety.",
+        "level":  "B2",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Test types"
+    },
+    {
+        "word":  "paper",
+        "partOfSpeech":  "noun",
+        "meaning":  "An essay or dissertation written by a student.",
+        "example":  "She has a ten-page paper due on Monday.",
+        "level":  "B1",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Test types"
+    },
+    {
+        "word":  "presentation",
+        "partOfSpeech":  "noun",
+        "meaning":  "A speech or talk in which a new product, idea, or piece of work is shown and explained.",
+        "example":  "His group gave a presentation on climate change.",
+        "level":  "B1",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Test types"
+    },
+    {
+        "word":  "project",
+        "partOfSpeech":  "noun",
+        "meaning":  "An individual or collaborative enterprise that is carefully planned to achieve a particular aim.",
+        "example":  "The science project took three weeks to complete.",
+        "level":  "A2",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Test types"
+    },
+    {
+        "word":  "evaluation",
+        "partOfSpeech":  "noun",
+        "meaning":  "The making of a judgment about the amount, number, or value of something.",
+        "example":  "The teacher\u0027s evaluation highlighted his strong writing skills.",
+        "level":  "B2",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Test types"
+    },
+    {
+        "word":  "examination",
+        "partOfSpeech":  "noun",
+        "meaning":  "A formal test of a person\u0027s knowledge or proficiency in a particular subject or skill.",
+        "example":  "The university entrance examination was extremely difficult.",
+        "level":  "B1",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Test types"
+    },
+    {
+        "word":  "thesis",
+        "partOfSpeech":  "noun",
+        "meaning":  "A long essay or dissertation involving personal research, written for a university degree.",
+        "example":  "She is writing her master\u0027s thesis on medieval history.",
+        "level":  "C1",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Test types"
+    },
+    {
+        "word":  "dissertation",
+        "partOfSpeech":  "noun",
+        "meaning":  "A long essay on a particular subject, especially one written as a requirement for the Doctor of Philosophy degree.",
+        "example":  "Defending a dissertation is the final step in a PhD program.",
+        "level":  "C2",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Test types"
+    },
+    {
+        "word":  "entrance exam",
+        "partOfSpeech":  "noun",
+        "meaning":  "An examination that students must pass to be admitted to an educational institution.",
+        "example":  "He spent months preparing for the medical school entrance exam.",
+        "level":  "B2",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Test types"
+    },
+    {
+        "word":  "board exam",
+        "partOfSpeech":  "noun",
+        "meaning":  "A standardized examination given to candidates for certification in a profession.",
+        "example":  "The nursing student passed her board exam on the first try.",
+        "level":  "C1",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Test types"
+    },
+    {
+        "word":  "proficiency test",
+        "partOfSpeech":  "noun",
+        "meaning":  "An exam that measures a person\u0027s level of skill or knowledge.",
+        "example":  "She took an English proficiency test to study abroad.",
+        "level":  "B2",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Test types"
+    },
+    {
+        "word":  "aptitude test",
+        "partOfSpeech":  "noun",
+        "meaning":  "A test designed to determine a person\u0027s ability in a particular skill or field of knowledge.",
+        "example":  "The career counselor administered an aptitude test.",
+        "level":  "C1",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Test types"
+    },
+    {
+        "word":  "continuous assessment",
+        "partOfSpeech":  "noun",
+        "meaning":  "The evaluation of a student\u0027s progress throughout a course, rather than by a single examination.",
+        "example":  "This course relies on continuous assessment rather than a final exam.",
+        "level":  "C1",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Test types"
+    },
+    {
+        "word":  "grade",
+        "partOfSpeech":  "noun",
+        "meaning":  "A mark indicating the quality of a student\u0027s work.",
+        "example":  "She received a high grade on her essay.",
+        "level":  "A1",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Grades/Scoring"
+    },
+    {
+        "word":  "mark",
+        "partOfSpeech":  "noun",
+        "meaning":  "A point or score given for academic work.",
+        "example":  "The pass mark for this test is 60 percent.",
+        "level":  "A2",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Grades/Scoring"
+    },
+    {
+        "word":  "score",
+        "partOfSpeech":  "noun",
+        "meaning":  "The number of points achieved in a test or examination.",
+        "example":  "He got a perfect score on the math quiz.",
+        "level":  "A2",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Grades/Scoring"
+    },
+    {
+        "word":  "pass",
+        "partOfSpeech":  "verb",
+        "meaning":  "To be successful in an examination or test.",
+        "example":  "I hope to pass all my classes this semester.",
+        "level":  "A1",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Grades/Scoring"
+    },
+    {
+        "word":  "fail",
+        "partOfSpeech":  "verb",
+        "meaning":  "To be unsuccessful in an examination or test.",
+        "example":  "If you don\u0027t study, you might fail the course.",
+        "level":  "A2",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Grades/Scoring"
+    },
+    {
+        "word":  "distinction",
+        "partOfSpeech":  "noun",
+        "meaning":  "A high grade awarded for outstanding academic achievement.",
+        "example":  "She graduated with distinction from her university.",
+        "level":  "C1",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Grades/Scoring"
+    },
+    {
+        "word":  "merit",
+        "partOfSpeech":  "noun",
+        "meaning":  "A grade signifying a level of achievement above average but below distinction.",
+        "example":  "He passed his piano exam with merit.",
+        "level":  "B2",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Grades/Scoring"
+    },
+    {
+        "word":  "credit",
+        "partOfSpeech":  "noun",
+        "meaning":  "An acknowledgment of having completed a course of study.",
+        "example":  "You need 120 credits to graduate.",
+        "level":  "B1",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Grades/Scoring"
+    },
+    {
+        "word":  "GPA",
+        "partOfSpeech":  "noun",
+        "meaning":  "Grade Point Average; a number representing the average value of the accumulated final grades.",
+        "example":  "Maintaining a high GPA is important for scholarships.",
+        "level":  "B2",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Grades/Scoring"
+    },
+    {
+        "word":  "percentile",
+        "partOfSpeech":  "noun",
+        "meaning":  "A measure used in statistics indicating the value below which a given percentage of observations fall.",
+        "example":  "His test score was in the 99th percentile.",
+        "level":  "C1",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Grades/Scoring"
+    },
+    {
+        "word":  "rank",
+        "partOfSpeech":  "noun",
+        "meaning":  "A position in a hierarchy based on academic performance.",
+        "example":  "She holds the number one rank in her graduating class.",
+        "level":  "B2",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Grades/Scoring"
+    },
+    {
+        "word":  "evaluate",
+        "partOfSpeech":  "verb",
+        "meaning":  "To form an idea of the amount, number, or value of; assess.",
+        "example":  "The teacher will evaluate our speaking skills next week.",
+        "level":  "B2",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Grades/Scoring"
+    },
+    {
+        "word":  "assess",
+        "partOfSpeech":  "verb",
+        "meaning":  "To evaluate or estimate the nature, ability, or quality of.",
+        "example":  "Exams are used to assess what students have learned.",
+        "level":  "B2",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Grades/Scoring"
+    },
+    {
+        "word":  "rubric",
+        "partOfSpeech":  "noun",
+        "meaning":  "A scoring guide used to evaluate the quality of students\u0027 constructed responses.",
+        "example":  "The professor provided a rubric for the term paper.",
+        "level":  "C1",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Grades/Scoring"
+    },
+    {
+        "word":  "point",
+        "partOfSpeech":  "noun",
+        "meaning":  "A unit of credit or scoring in an examination.",
+        "example":  "Each multiple-choice question is worth one point.",
+        "level":  "A2",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Grades/Scoring"
+    },
+    {
+        "word":  "extra credit",
+        "partOfSpeech":  "noun",
+        "meaning":  "Optional academic work that allows a student to earn additional points.",
+        "example":  "Doing the optional presentation will give you extra credit.",
+        "level":  "B1",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Grades/Scoring"
+    },
+    {
+        "word":  "penalty",
+        "partOfSpeech":  "noun",
+        "meaning":  "A deduction of points for an error or rule violation.",
+        "example":  "There is a penalty for handing in assignments late.",
+        "level":  "B2",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Grades/Scoring"
+    },
+    {
+        "word":  "curve",
+        "partOfSpeech":  "noun",
+        "meaning":  "A grading system where grades are assigned based on the relative performance of students.",
+        "example":  "The professor graded the notoriously difficult exam on a curve.",
+        "level":  "C1",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Grades/Scoring"
+    },
+    {
+        "word":  "transcript",
+        "partOfSpeech":  "noun",
+        "meaning":  "An official record of a student\u0027s work, showing courses taken and grades achieved.",
+        "example":  "I need to request my official transcript for my job application.",
+        "level":  "B2",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Grades/Scoring"
+    },
+    {
+        "word":  "report card",
+        "partOfSpeech":  "noun",
+        "meaning":  "A teacher\u0027s written assessment of a student\u0027s work, progress, and conduct, sent home to parents.",
+        "example":  "Her parents were proud of her excellent report card.",
+        "level":  "A2",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Grades/Scoring"
+    },
+    {
+        "word":  "average",
+        "partOfSpeech":  "noun",
+        "meaning":  "A standard or level that is considered typical or usual.",
+        "example":  "My math grade is above average this semester.",
+        "level":  "A2",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Grades/Scoring"
+    },
+    {
+        "word":  "valedictorian",
+        "partOfSpeech":  "noun",
+        "meaning":  "A student, typically having the highest academic achievements, who delivers the valedictory at graduation.",
+        "example":  "She worked incredibly hard to become the high school valedictorian.",
+        "level":  "C2",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Grades/Scoring"
+    },
+    {
+        "word":  "cum laude",
+        "partOfSpeech":  "adverb",
+        "meaning":  "With academic honors (in university degrees).",
+        "example":  "He graduated cum laude with a degree in engineering.",
+        "level":  "C2",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Grades/Scoring"
+    },
+    {
+        "word":  "honors",
+        "partOfSpeech":  "noun",
+        "meaning":  "A class or course of degree studies more specialized than an ordinary pass.",
+        "example":  "She took an honors class in literature.",
+        "level":  "B2",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Grades/Scoring"
+    },
+    {
+        "word":  "scale",
+        "partOfSpeech":  "noun",
+        "meaning":  "A graduated system used to assess or score something.",
+        "example":  "The test is graded on a scale of one to ten.",
+        "level":  "B1",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Grades/Scoring"
+    },
+    {
+        "word":  "desk",
+        "partOfSpeech":  "noun",
+        "meaning":  "A piece of furniture with a flat or sloping surface for writing or reading.",
+        "example":  "Please clear your desk before the test begins.",
+        "level":  "A1",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Classroom objects"
+    },
+    {
+        "word":  "chair",
+        "partOfSpeech":  "noun",
+        "meaning":  "A separate seat for one person.",
+        "example":  "The classroom has thirty desks and chairs.",
+        "level":  "A1",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Classroom objects"
+    },
+    {
+        "word":  "whiteboard",
+        "partOfSpeech":  "noun",
+        "meaning":  "A wipeable board with a white surface used for teaching or presentations.",
+        "example":  "The teacher wrote the homework assignment on the whiteboard.",
+        "level":  "A1",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Classroom objects"
+    },
+    {
+        "word":  "blackboard",
+        "partOfSpeech":  "noun",
+        "meaning":  "A large board with a smooth dark surface used for writing on with chalk.",
+        "example":  "The professor erased the complex equations from the blackboard.",
+        "level":  "A2",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Classroom objects"
+    },
+    {
+        "word":  "chalk",
+        "partOfSpeech":  "noun",
+        "meaning":  "A soft white limestone used for writing on a blackboard.",
+        "example":  "We need more chalk for the classroom.",
+        "level":  "A2",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Classroom objects"
+    },
+    {
+        "word":  "marker",
+        "partOfSpeech":  "noun",
+        "meaning":  "A pen with a broad felt tip.",
+        "example":  "Please use a dry-erase marker on the whiteboard.",
+        "level":  "A1",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Classroom objects"
+    },
+    {
+        "word":  "eraser",
+        "partOfSpeech":  "noun",
+        "meaning":  "An object used to rub out marks made by a pencil, chalk, or marker.",
+        "example":  "Can I borrow your eraser to fix my mistake?",
+        "level":  "A1",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Classroom objects"
+    },
+    {
+        "word":  "duster",
+        "partOfSpeech":  "noun",
+        "meaning":  "A tool used for wiping a chalkboard or whiteboard.",
+        "example":  "He clapped the dusters outside to clean them.",
+        "level":  "B1",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Classroom objects"
+    },
+    {
+        "word":  "smartboard",
+        "partOfSpeech":  "noun",
+        "meaning":  "An interactive whiteboard connected to a computer.",
+        "example":  "The teacher displayed an interactive map on the smartboard.",
+        "level":  "A2",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Classroom objects"
+    },
+    {
+        "word":  "projector",
+        "partOfSpeech":  "noun",
+        "meaning":  "An object used to project rays of light, especially for projecting slides or film onto a screen.",
+        "example":  "The lamp in the classroom projector burned out.",
+        "level":  "B1",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Classroom objects"
+    },
+    {
+        "word":  "laptop",
+        "partOfSpeech":  "noun",
+        "meaning":  "A computer that is portable and suitable for use while traveling.",
+        "example":  "Many students take notes on their laptops during lectures.",
+        "level":  "A1",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Classroom objects"
+    },
+    {
+        "word":  "tablet",
+        "partOfSpeech":  "noun",
+        "meaning":  "A small, flat computer that is controlled by touching the screen.",
+        "example":  "The school provided tablets for digital textbooks.",
+        "level":  "A2",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Classroom objects"
+    },
+    {
+        "word":  "textbook",
+        "partOfSpeech":  "noun",
+        "meaning":  "A book used as a standard work for the study of a particular subject.",
+        "example":  "Please open your history textbook to page forty.",
+        "level":  "A2",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Classroom objects"
+    },
+    {
+        "word":  "notebook",
+        "partOfSpeech":  "noun",
+        "meaning":  "A small book with blank or ruled pages for writing notes in.",
+        "example":  "I bought a new notebook for my math class.",
+        "level":  "A1",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Classroom objects"
+    },
+    {
+        "word":  "workbook",
+        "partOfSpeech":  "noun",
+        "meaning":  "A student\u0027s book containing instruction and exercises relating to a particular subject.",
+        "example":  "Complete the exercises in the grammar workbook.",
+        "level":  "A2",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Classroom objects"
+    },
+    {
+        "word":  "pen",
+        "partOfSpeech":  "noun",
+        "meaning":  "An instrument for writing or drawing with ink.",
+        "example":  "You must use a blue or black pen for the exam.",
+        "level":  "A1",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Classroom objects"
+    },
+    {
+        "word":  "pencil",
+        "partOfSpeech":  "noun",
+        "meaning":  "An instrument for writing or drawing, consisting of a thin stick of graphite.",
+        "example":  "Make sure you have a sharpened pencil for the scantron test.",
+        "level":  "A1",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Classroom objects"
+    },
+    {
+        "word":  "ruler",
+        "partOfSpeech":  "noun",
+        "meaning":  "A straight strip or cylinder used to draw straight lines or measure distances.",
+        "example":  "Use a ruler to draw the margins straight.",
+        "level":  "A2",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Classroom objects"
+    },
+    {
+        "word":  "protractor",
+        "partOfSpeech":  "noun",
+        "meaning":  "An instrument for measuring angles, typically in the form of a flat semicircle marked with degrees.",
+        "example":  "We used a protractor in geometry class today.",
+        "level":  "B2",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Classroom objects"
+    },
+    {
+        "word":  "compass",
+        "partOfSpeech":  "noun",
+        "meaning":  "An instrument for drawing circles and arcs.",
+        "example":  "Use your compass to draw a perfect circle.",
+        "level":  "B1",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Classroom objects"
+    },
+    {
+        "word":  "calculator",
+        "partOfSpeech":  "noun",
+        "meaning":  "A small electronic device used for performing mathematical calculations.",
+        "example":  "Calculators are not permitted during the basic arithmetic test.",
+        "level":  "A2",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Classroom objects"
+    },
+    {
+        "word":  "map",
+        "partOfSpeech":  "noun",
+        "meaning":  "A diagrammatic representation of an area of land or sea.",
+        "example":  "There is a large world map on the classroom wall.",
+        "level":  "A1",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Classroom objects"
+    },
+    {
+        "word":  "globe",
+        "partOfSpeech":  "noun",
+        "meaning":  "A spherical representation of the earth.",
+        "example":  "The geography teacher spun the globe to find Australia.",
+        "level":  "B1",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Classroom objects"
+    },
+    {
+        "word":  "bulletin board",
+        "partOfSpeech":  "noun",
+        "meaning":  "A board for displaying notices or announcements.",
+        "example":  "Check the bulletin board for the club meeting schedule.",
+        "level":  "B1",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Classroom objects"
+    },
+    {
+        "word":  "chart",
+        "partOfSpeech":  "noun",
+        "meaning":  "A sheet of information in the form of a table, graph, or diagram.",
+        "example":  "The periodic table chart hangs in the chemistry lab.",
+        "level":  "A2",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Classroom objects"
+    },
+    {
+        "word":  "pointer",
+        "partOfSpeech":  "noun",
+        "meaning":  "A long, thin rod used to direct attention to a particular location, especially on a map or chart.",
+        "example":  "The teacher used a laser pointer during his presentation.",
+        "level":  "B1",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Classroom objects"
+    },
+    {
+        "word":  "dictionary",
+        "partOfSpeech":  "noun",
+        "meaning":  "A book or electronic resource that lists the words of a language and gives their meaning.",
+        "example":  "Look up any words you don\u0027t know in the dictionary.",
+        "level":  "A1",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Classroom objects"
+    },
+    {
+        "word":  "thesaurus",
+        "partOfSpeech":  "noun",
+        "meaning":  "A book that lists words in groups of synonyms and related concepts.",
+        "example":  "A thesaurus is very helpful when writing an essay.",
+        "level":  "B2",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Classroom objects"
+    },
+    {
+        "word":  "stapler",
+        "partOfSpeech":  "noun",
+        "meaning":  "A device for fastening together sheets of paper with a staple.",
+        "example":  "Can I borrow your stapler for my research paper?",
+        "level":  "B1",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Classroom objects"
+    },
+    {
+        "word":  "hole punch",
+        "partOfSpeech":  "noun",
+        "meaning":  "A device used to make holes in paper.",
+        "example":  "Use the hole punch so you can put these handouts in your binder.",
+        "level":  "B2",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Classroom objects"
+    },
+    {
+        "word":  "scissors",
+        "partOfSpeech":  "noun",
+        "meaning":  "An instrument used for cutting cloth, paper, and other thin material.",
+        "example":  "We need scissors and glue for this art project.",
+        "level":  "A2",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Classroom objects"
+    },
+    {
+        "word":  "glue",
+        "partOfSpeech":  "noun",
+        "meaning":  "An adhesive substance used for sticking objects or materials together.",
+        "example":  "Make sure you put the cap back on the glue.",
+        "level":  "A2",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Classroom objects"
+    },
+    {
+        "word":  "tape",
+        "partOfSpeech":  "noun",
+        "meaning":  "A narrow strip of material, typically used to hold or fasten something.",
+        "example":  "I need some tape to fix my torn paper.",
+        "level":  "A2",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Classroom objects"
+    },
+    {
+        "word":  "highlighter",
+        "partOfSpeech":  "noun",
+        "meaning":  "A broad felt-tipped pen used to overlay transparent fluorescent color on text.",
+        "example":  "Use a highlighter to mark important concepts in your book.",
+        "level":  "A2",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Classroom objects"
+    },
+    {
+        "word":  "binder",
+        "partOfSpeech":  "noun",
+        "meaning":  "A cover for holding loose sheets of paper.",
+        "example":  "Keep all your syllabus and handouts in your binder.",
+        "level":  "B1",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Classroom objects"
+    },
+    {
+        "word":  "folder",
+        "partOfSpeech":  "noun",
+        "meaning":  "A folding cover or holder, typically made of stiff paper or plastic, for storing loose papers.",
+        "example":  "Put your completed homework in the green folder.",
+        "level":  "A2",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Classroom objects"
+    },
+    {
+        "word":  "backpack",
+        "partOfSpeech":  "noun",
+        "meaning":  "A bag with shoulder straps that allow it to be carried on one\u0027s back.",
+        "example":  "His backpack was heavy with textbooks.",
+        "level":  "A1",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Classroom objects"
+    },
+    {
+        "word":  "locker",
+        "partOfSpeech":  "noun",
+        "meaning":  "A small lockable closet or compartment, typically as one of a number placed together for public use.",
+        "example":  "Store your gym clothes in your locker.",
+        "level":  "A2",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Classroom objects"
+    },
+    {
+        "word":  "revise",
+        "partOfSpeech":  "verb",
+        "meaning":  "To reread work done previously to improve one\u0027s knowledge of a subject.",
+        "example":  "I need to revise my notes for the upcoming test.",
+        "level":  "A2",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Study actions"
+    },
+    {
+        "word":  "memorize",
+        "partOfSpeech":  "verb",
+        "meaning":  "To commit to memory; learn by heart.",
+        "example":  "Actors have to memorize a lot of lines.",
+        "level":  "B1",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Study actions"
+    },
+    {
+        "word":  "study",
+        "partOfSpeech":  "verb",
+        "meaning":  "To devote time and attention to acquiring knowledge on a subject.",
+        "example":  "She likes to study in the quiet library.",
+        "level":  "A1",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Study actions"
+    },
+    {
+        "word":  "cram",
+        "partOfSpeech":  "verb",
+        "meaning":  "To study intensively over a short period of time just before an examination.",
+        "example":  "It\u0027s not effective to cram the night before a final exam.",
+        "level":  "B2",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Study actions"
+    },
+    {
+        "word":  "learn",
+        "partOfSpeech":  "verb",
+        "meaning":  "To gain or acquire knowledge of or skill in something by study, experience, or being taught.",
+        "example":  "Children learn foreign languages very quickly.",
+        "level":  "A1",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Study actions"
+    },
+    {
+        "word":  "read",
+        "partOfSpeech":  "verb",
+        "meaning":  "To look at and comprehend the meaning of written or printed matter.",
+        "example":  "Please read the first chapter for homework.",
+        "level":  "A1",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Study actions"
+    },
+    {
+        "word":  "write",
+        "partOfSpeech":  "verb",
+        "meaning":  "To mark letters, words, or other symbols on a surface, typically paper, with a pen, pencil, or similar implement.",
+        "example":  "You need to write a 500-word essay.",
+        "level":  "A1",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Study actions"
+    },
+    {
+        "word":  "take notes",
+        "partOfSpeech":  "verb",
+        "meaning":  "To write down details from a lecture or text in order to remember them.",
+        "example":  "Make sure you take notes during the presentation.",
+        "level":  "A2",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Study actions"
+    },
+    {
+        "word":  "highlight",
+        "partOfSpeech":  "verb",
+        "meaning":  "To draw attention to or emphasize, often by using a brightly colored pen on text.",
+        "example":  "Highlight the most important vocabulary words in the text.",
+        "level":  "A2",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Study actions"
+    },
+    {
+        "word":  "underline",
+        "partOfSpeech":  "verb",
+        "meaning":  "To draw a line under a word or phrase to give emphasis or indicate special type.",
+        "example":  "Underline the thesis statement in the introductory paragraph.",
+        "level":  "B1",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Study actions"
+    },
+    {
+        "word":  "draft",
+        "partOfSpeech":  "verb",
+        "meaning":  "To prepare a preliminary version of a document.",
+        "example":  "I will draft the outline tonight and write the essay tomorrow.",
+        "level":  "B2",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Study actions"
+    },
+    {
+        "word":  "edit",
+        "partOfSpeech":  "verb",
+        "meaning":  "To prepare written material for publication by correcting, condensing, or otherwise modifying it.",
+        "example":  "You should always edit your work before submitting it.",
+        "level":  "B1",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Study actions"
+    },
+    {
+        "word":  "proofread",
+        "partOfSpeech":  "verb",
+        "meaning":  "To read printer\u0027s proofs or other written or printed material and mark any errors.",
+        "example":  "Please proofread this document for spelling mistakes.",
+        "level":  "B2",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Study actions"
+    },
+    {
+        "word":  "brainstorm",
+        "partOfSpeech":  "verb",
+        "meaning":  "To produce an idea or way of solving a problem by holding a spontaneous group discussion.",
+        "example":  "Let\u0027s brainstorm some ideas for our group project.",
+        "level":  "B1",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Study actions"
+    },
+    {
+        "word":  "summarize",
+        "partOfSpeech":  "verb",
+        "meaning":  "To give a brief statement of the main points of something.",
+        "example":  "Can you summarize the plot of the novel?",
+        "level":  "B1",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Study actions"
+    },
+    {
+        "word":  "outline",
+        "partOfSpeech":  "verb",
+        "meaning":  "To give a summary of something.",
+        "example":  "Outline your argument before you start writing.",
+        "level":  "B2",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Study actions"
+    },
+    {
+        "word":  "review",
+        "partOfSpeech":  "verb",
+        "meaning":  "To examine or assess something formally with the possibility or intention of instituting change if necessary.",
+        "example":  "We will review the homework answers at the beginning of class.",
+        "level":  "A2",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Study actions"
+    },
+    {
+        "word":  "practice",
+        "partOfSpeech":  "verb",
+        "meaning":  "To perform an activity or exercise a skill repeatedly or regularly in order to improve or maintain one\u0027s proficiency.",
+        "example":  "You must practice playing the piano every day.",
+        "level":  "A2",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Study actions"
+    },
+    {
+        "word":  "rehearse",
+        "partOfSpeech":  "verb",
+        "meaning":  "To practice a play, piece of music, or other work for later public performance.",
+        "example":  "The students stayed after school to rehearse the play.",
+        "level":  "B2",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Study actions"
+    },
+    {
+        "word":  "focus",
+        "partOfSpeech":  "verb",
+        "meaning":  "To pay particular attention to.",
+        "example":  "It is hard to focus when there is so much noise.",
+        "level":  "B1",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Study actions"
+    },
+    {
+        "word":  "concentrate",
+        "partOfSpeech":  "verb",
+        "meaning":  "To focus all one\u0027s attention on a particular object or activity.",
+        "example":  "I can\u0027t concentrate on my reading with the television on.",
+        "level":  "B1",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Study actions"
+    },
+    {
+        "word":  "analyze",
+        "partOfSpeech":  "verb",
+        "meaning":  "To examine methodically and in detail the constitution or structure of something.",
+        "example":  "We had to analyze a poem in literature class.",
+        "level":  "B2",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Study actions"
+    },
+    {
+        "word":  "interpret",
+        "partOfSpeech":  "verb",
+        "meaning":  "To explain the meaning of information, words, or actions.",
+        "example":  "How do you interpret the author\u0027s message?",
+        "level":  "B2",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Study actions"
+    },
+    {
+        "word":  "research",
+        "partOfSpeech":  "verb",
+        "meaning":  "To investigate systematically.",
+        "example":  "She is researching the effects of climate change.",
+        "level":  "B1",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Study actions"
+    },
+    {
+        "word":  "investigate",
+        "partOfSpeech":  "verb",
+        "meaning":  "To carry out a systematic or formal inquiry to discover and examine the facts of an incident, allegation, etc.",
+        "example":  "The science students will investigate chemical reactions.",
+        "level":  "B2",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Study actions"
+    },
+    {
+        "word":  "cite",
+        "partOfSpeech":  "verb",
+        "meaning":  "To quote a passage, book, or author as evidence for or justification of an argument or statement.",
+        "example":  "Make sure you cite your sources in the bibliography.",
+        "level":  "C1",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Study actions"
+    },
+    {
+        "word":  "reference",
+        "partOfSpeech":  "verb",
+        "meaning":  "To provide a book or article with citations of sources of information.",
+        "example":  "You must reference every author you quote.",
+        "level":  "B2",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Study actions"
+    },
+    {
+        "word":  "quote",
+        "partOfSpeech":  "verb",
+        "meaning":  "To repeat or copy out a group of words from a text or speech.",
+        "example":  "He decided to quote Shakespeare in his essay.",
+        "level":  "B1",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Study actions"
+    },
+    {
+        "word":  "paraphrase",
+        "partOfSpeech":  "verb",
+        "meaning":  "To express the meaning of something written or spoken using different words, especially to achieve greater clarity.",
+        "example":  "Instead of quoting directly, try to paraphrase the paragraph.",
+        "level":  "C1",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Study actions"
+    },
+    {
+        "word":  "plagiarize",
+        "partOfSpeech":  "verb",
+        "meaning":  "To take the work or an idea of someone else and pass it off as one\u0027s own.",
+        "example":  "Students who plagiarize will receive a failing grade.",
+        "level":  "C1",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Study actions"
+    },
+    {
+        "word":  "cheat",
+        "partOfSpeech":  "verb",
+        "meaning":  "To act dishonestly or unfairly in order to gain an advantage, especially in a game or examination.",
+        "example":  "He was caught trying to cheat on the math final.",
+        "level":  "B1",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Study actions"
+    },
+    {
+        "word":  "copy",
+        "partOfSpeech":  "verb",
+        "meaning":  "To make a similar or identical version of; reproduce.",
+        "example":  "Do not copy another student\u0027s homework.",
+        "level":  "A2",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Study actions"
+    },
+    {
+        "word":  "collaborate",
+        "partOfSpeech":  "verb",
+        "meaning":  "To work jointly on an activity, especially to produce or create something.",
+        "example":  "The teacher asked us to collaborate on the group project.",
+        "level":  "B2",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Study actions"
+    },
+    {
+        "word":  "participate",
+        "partOfSpeech":  "verb",
+        "meaning":  "To take part in an action or endeavor.",
+        "example":  "You need to participate more in class discussions.",
+        "level":  "B1",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Study actions"
+    },
+    {
+        "word":  "attend",
+        "partOfSpeech":  "verb",
+        "meaning":  "To be present at an event, meeting, or function.",
+        "example":  "It is mandatory to attend all lectures.",
+        "level":  "A2",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Study actions"
+    },
+    {
+        "word":  "skip",
+        "partOfSpeech":  "verb",
+        "meaning":  "To fail to attend or participate in.",
+        "example":  "If you skip class, you will miss important information.",
+        "level":  "B1",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Study actions"
+    },
+    {
+        "word":  "enroll",
+        "partOfSpeech":  "verb",
+        "meaning":  "To officially register as a member of an institution or a student on a course.",
+        "example":  "I plan to enroll in the advanced French class.",
+        "level":  "B2",
+        "category":  "Exam \u0026 Classroom",
+        "subCategory":  "Study actions"
+    }
+]

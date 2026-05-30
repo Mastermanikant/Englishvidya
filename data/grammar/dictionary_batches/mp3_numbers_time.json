@@ -1,0 +1,1684 @@
+[
+  {
+    "id": "one",
+    "word": "one",
+    "partOfSpeech": "number",
+    "hindiMeaning": "एक",
+    "englishMeaning": "the number 1",
+    "examples": [
+      {
+        "english": "I need one ticket.",
+        "hindi": "मुझे एक टिकट चाहिए।"
+      }
+    ],
+    "synonyms": [
+      "single"
+    ],
+    "antonyms": [
+      "multiple"
+    ],
+    "difficultyLevel": "Beginner",
+    "tags": [
+      "Numbers"
+    ]
+  },
+  {
+    "id": "two",
+    "word": "two",
+    "partOfSpeech": "number",
+    "hindiMeaning": "दो",
+    "englishMeaning": "the number 2",
+    "examples": [
+      {
+        "english": "I have two cars.",
+        "hindi": "मेरे पास दो गाड़ियां हैं।"
+      }
+    ],
+    "synonyms": [
+      "pair"
+    ],
+    "antonyms": [],
+    "difficultyLevel": "Beginner",
+    "tags": [
+      "Numbers"
+    ]
+  },
+  {
+    "id": "three",
+    "word": "three",
+    "partOfSpeech": "number",
+    "hindiMeaning": "तीन",
+    "englishMeaning": "the number 3",
+    "examples": [
+      {
+        "english": "There are three birds.",
+        "hindi": "वहाँ तीन पक्षी हैं।"
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficultyLevel": "Beginner",
+    "tags": [
+      "Numbers"
+    ]
+  },
+  {
+    "id": "four",
+    "word": "four",
+    "partOfSpeech": "number",
+    "hindiMeaning": "चार",
+    "englishMeaning": "the number 4",
+    "examples": [
+      {
+        "english": "He has four brothers.",
+        "hindi": "उसके चार भाई हैं।"
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficultyLevel": "Beginner",
+    "tags": [
+      "Numbers"
+    ]
+  },
+  {
+    "id": "five",
+    "word": "five",
+    "partOfSpeech": "number",
+    "hindiMeaning": "पाँच",
+    "englishMeaning": "the number 5",
+    "examples": [
+      {
+        "english": "Give me five minutes.",
+        "hindi": "मुझे पाँच मिनट दो।"
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficultyLevel": "Beginner",
+    "tags": [
+      "Numbers"
+    ]
+  },
+  {
+    "id": "ten",
+    "word": "ten",
+    "partOfSpeech": "number",
+    "hindiMeaning": "दस",
+    "englishMeaning": "the number 10",
+    "examples": [
+      {
+        "english": "She is ten years old.",
+        "hindi": "वह दस साल की है।"
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficultyLevel": "Beginner",
+    "tags": [
+      "Numbers"
+    ]
+  },
+  {
+    "id": "hundred",
+    "word": "hundred",
+    "partOfSpeech": "number",
+    "hindiMeaning": "सौ",
+    "englishMeaning": "the number 100",
+    "examples": [
+      {
+        "english": "It costs a hundred dollars.",
+        "hindi": "इसकी कीमत सौ डॉलर है।"
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficultyLevel": "Beginner",
+    "tags": [
+      "Numbers"
+    ]
+  },
+  {
+    "id": "thousand",
+    "word": "thousand",
+    "partOfSpeech": "number",
+    "hindiMeaning": "हज़ार",
+    "englishMeaning": "the number 1000",
+    "examples": [
+      {
+        "english": "A thousand people came.",
+        "hindi": "एक हज़ार लोग आए।"
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficultyLevel": "Beginner",
+    "tags": [
+      "Numbers"
+    ]
+  },
+  {
+    "id": "zero",
+    "word": "zero",
+    "partOfSpeech": "number",
+    "hindiMeaning": "शून्य",
+    "englishMeaning": "the number 0; nothing",
+    "examples": [
+      {
+        "english": "The score is zero.",
+        "hindi": "स्कोर शून्य है।"
+      }
+    ],
+    "synonyms": [
+      "nothing",
+      "nil"
+    ],
+    "antonyms": [],
+    "difficultyLevel": "Beginner",
+    "tags": [
+      "Numbers"
+    ]
+  },
+  {
+    "id": "half",
+    "word": "half",
+    "partOfSpeech": "noun",
+    "hindiMeaning": "आधा",
+    "englishMeaning": "either of two equal parts",
+    "examples": [
+      {
+        "english": "Give me half of the cake.",
+        "hindi": "मुझे आधा केक दे दो।"
+      }
+    ],
+    "synonyms": [
+      "fifty percent"
+    ],
+    "antonyms": [
+      "whole",
+      "full"
+    ],
+    "difficultyLevel": "Beginner",
+    "tags": [
+      "Numbers"
+    ]
+  },
+  {
+    "id": "time",
+    "word": "time",
+    "partOfSpeech": "noun",
+    "hindiMeaning": "समय",
+    "englishMeaning": "the indefinite continued progress of existence",
+    "examples": [
+      {
+        "english": "What time is it?",
+        "hindi": "क्या समय हुआ है?"
+      }
+    ],
+    "synonyms": [
+      "moment",
+      "period"
+    ],
+    "antonyms": [],
+    "difficultyLevel": "Beginner",
+    "tags": [
+      "Time"
+    ]
+  },
+  {
+    "id": "second",
+    "word": "second",
+    "partOfSpeech": "noun",
+    "hindiMeaning": "सेकंड",
+    "englishMeaning": "a unit of time; 1/60 of a minute",
+    "examples": [
+      {
+        "english": "Wait a second.",
+        "hindi": "एक सेकंड रुको।"
+      }
+    ],
+    "synonyms": [
+      "moment"
+    ],
+    "antonyms": [],
+    "difficultyLevel": "Beginner",
+    "tags": [
+      "Time"
+    ]
+  },
+  {
+    "id": "minute",
+    "word": "minute",
+    "partOfSpeech": "noun",
+    "hindiMeaning": "मिनट",
+    "englishMeaning": "a unit of time equal to 60 seconds",
+    "examples": [
+      {
+        "english": "It takes five minutes.",
+        "hindi": "इसमें पाँच मिनट लगते हैं।"
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficultyLevel": "Beginner",
+    "tags": [
+      "Time"
+    ]
+  },
+  {
+    "id": "hour",
+    "word": "hour",
+    "partOfSpeech": "noun",
+    "hindiMeaning": "घंटा",
+    "englishMeaning": "a period of time equal to 60 minutes",
+    "examples": [
+      {
+        "english": "I will be there in an hour.",
+        "hindi": "मैं एक घंटे में वहां पहुंच जाऊंगा।"
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficultyLevel": "Beginner",
+    "tags": [
+      "Time"
+    ]
+  },
+  {
+    "id": "day",
+    "word": "day",
+    "partOfSpeech": "noun",
+    "hindiMeaning": "दिन",
+    "englishMeaning": "a period of 24 hours",
+    "examples": [
+      {
+        "english": "Have a good day.",
+        "hindi": "आपका दिन शुभ हो।"
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [
+      "night"
+    ],
+    "difficultyLevel": "Beginner",
+    "tags": [
+      "Time"
+    ]
+  },
+  {
+    "id": "week",
+    "word": "week",
+    "partOfSpeech": "noun",
+    "hindiMeaning": "सप्ताह",
+    "englishMeaning": "a period of seven days",
+    "examples": [
+      {
+        "english": "See you next week.",
+        "hindi": "अगले सप्ताह मिलते हैं।"
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficultyLevel": "Beginner",
+    "tags": [
+      "Time"
+    ]
+  },
+  {
+    "id": "month",
+    "word": "month",
+    "partOfSpeech": "noun",
+    "hindiMeaning": "महीना",
+    "englishMeaning": "each of the twelve named periods into which a year is divided",
+    "examples": [
+      {
+        "english": "My birthday is this month.",
+        "hindi": "मेरा जन्मदिन इस महीने है।"
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficultyLevel": "Beginner",
+    "tags": [
+      "Time"
+    ]
+  },
+  {
+    "id": "year",
+    "word": "year",
+    "partOfSpeech": "noun",
+    "hindiMeaning": "साल",
+    "englishMeaning": "the time taken by the earth to make one revolution around the sun",
+    "examples": [
+      {
+        "english": "Happy new year!",
+        "hindi": "नया साल मुबारक हो!"
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficultyLevel": "Beginner",
+    "tags": [
+      "Time"
+    ]
+  },
+  {
+    "id": "morning",
+    "word": "morning",
+    "partOfSpeech": "noun",
+    "hindiMeaning": "सुबह",
+    "englishMeaning": "the early part of the day",
+    "examples": [
+      {
+        "english": "Good morning!",
+        "hindi": "शुभ प्रभात!"
+      }
+    ],
+    "synonyms": [
+      "dawn",
+      "sunrise"
+    ],
+    "antonyms": [
+      "evening",
+      "night"
+    ],
+    "difficultyLevel": "Beginner",
+    "tags": [
+      "Time"
+    ]
+  },
+  {
+    "id": "afternoon",
+    "word": "afternoon",
+    "partOfSpeech": "noun",
+    "hindiMeaning": "दोपहर",
+    "englishMeaning": "the time from noon or lunchtime to evening",
+    "examples": [
+      {
+        "english": "We will meet in the afternoon.",
+        "hindi": "हम दोपहर में मिलेंगे।"
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficultyLevel": "Beginner",
+    "tags": [
+      "Time"
+    ]
+  },
+  {
+    "id": "evening",
+    "word": "evening",
+    "partOfSpeech": "noun",
+    "hindiMeaning": "शाम",
+    "englishMeaning": "the period of time at the end of the day",
+    "examples": [
+      {
+        "english": "Let's go for a walk this evening.",
+        "hindi": "चलो आज शाम टहलने चलते हैं।"
+      }
+    ],
+    "synonyms": [
+      "dusk"
+    ],
+    "antonyms": [
+      "morning"
+    ],
+    "difficultyLevel": "Beginner",
+    "tags": [
+      "Time"
+    ]
+  },
+  {
+    "id": "night",
+    "word": "night",
+    "partOfSpeech": "noun",
+    "hindiMeaning": "रात",
+    "englishMeaning": "the period of darkness in each 24 hours",
+    "examples": [
+      {
+        "english": "I sleep well at night.",
+        "hindi": "मैं रात को अच्छी तरह सोता हूँ।"
+      }
+    ],
+    "synonyms": [
+      "darkness"
+    ],
+    "antonyms": [
+      "day"
+    ],
+    "difficultyLevel": "Beginner",
+    "tags": [
+      "Time"
+    ]
+  },
+  {
+    "id": "today",
+    "word": "today",
+    "partOfSpeech": "noun",
+    "hindiMeaning": "आज",
+    "englishMeaning": "on or in the course of this present day",
+    "examples": [
+      {
+        "english": "Today is Monday.",
+        "hindi": "आज सोमवार है।"
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [
+      "yesterday",
+      "tomorrow"
+    ],
+    "difficultyLevel": "Beginner",
+    "tags": [
+      "Time"
+    ]
+  },
+  {
+    "id": "tomorrow",
+    "word": "tomorrow",
+    "partOfSpeech": "noun",
+    "hindiMeaning": "कल (आने वाला)",
+    "englishMeaning": "the day after today",
+    "examples": [
+      {
+        "english": "I will do it tomorrow.",
+        "hindi": "मैं इसे कल करूँगा।"
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [
+      "yesterday"
+    ],
+    "difficultyLevel": "Beginner",
+    "tags": [
+      "Time"
+    ]
+  },
+  {
+    "id": "yesterday",
+    "word": "yesterday",
+    "partOfSpeech": "noun",
+    "hindiMeaning": "कल (बीता हुआ)",
+    "englishMeaning": "the day before today",
+    "examples": [
+      {
+        "english": "It rained yesterday.",
+        "hindi": "कल बारिश हुई थी।"
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [
+      "tomorrow"
+    ],
+    "difficultyLevel": "Beginner",
+    "tags": [
+      "Time"
+    ]
+  },
+  {
+    "id": "now",
+    "word": "now",
+    "partOfSpeech": "adverb",
+    "hindiMeaning": "अब",
+    "englishMeaning": "at the present time or moment",
+    "examples": [
+      {
+        "english": "I am busy now.",
+        "hindi": "मैं अभी व्यस्त हूँ।"
+      }
+    ],
+    "synonyms": [
+      "currently",
+      "presently"
+    ],
+    "antonyms": [
+      "then",
+      "later"
+    ],
+    "difficultyLevel": "Beginner",
+    "tags": [
+      "Time"
+    ]
+  },
+  {
+    "id": "later",
+    "word": "later",
+    "partOfSpeech": "adverb",
+    "hindiMeaning": "बाद में",
+    "englishMeaning": "at a time in the future",
+    "examples": [
+      {
+        "english": "Call me later.",
+        "hindi": "मुझे बाद में कॉल करना।"
+      }
+    ],
+    "synonyms": [
+      "afterward"
+    ],
+    "antonyms": [
+      "now",
+      "earlier"
+    ],
+    "difficultyLevel": "Beginner",
+    "tags": [
+      "Time"
+    ]
+  },
+  {
+    "id": "early",
+    "word": "early",
+    "partOfSpeech": "adverb",
+    "hindiMeaning": "जल्दी",
+    "englishMeaning": "happening or done before the usual or expected time",
+    "examples": [
+      {
+        "english": "I wake up early.",
+        "hindi": "मैं जल्दी उठता हूँ।"
+      }
+    ],
+    "synonyms": [
+      "prematurely"
+    ],
+    "antonyms": [
+      "late"
+    ],
+    "difficultyLevel": "Beginner",
+    "tags": [
+      "Time"
+    ]
+  },
+  {
+    "id": "late",
+    "word": "late",
+    "partOfSpeech": "adverb",
+    "hindiMeaning": "देर से",
+    "englishMeaning": "doing something or taking place after the expected, proper, or usual time",
+    "examples": [
+      {
+        "english": "Don't be late.",
+        "hindi": "देर मत करना।"
+      }
+    ],
+    "synonyms": [
+      "delayed"
+    ],
+    "antonyms": [
+      "early"
+    ],
+    "difficultyLevel": "Beginner",
+    "tags": [
+      "Time"
+    ]
+  },
+  {
+    "id": "soon",
+    "word": "soon",
+    "partOfSpeech": "adverb",
+    "hindiMeaning": "जल्द ही",
+    "englishMeaning": "in or after a short time",
+    "examples": [
+      {
+        "english": "She will arrive soon.",
+        "hindi": "वह जल्द ही आएगी।"
+      }
+    ],
+    "synonyms": [
+      "shortly"
+    ],
+    "antonyms": [
+      "later"
+    ],
+    "difficultyLevel": "Beginner",
+    "tags": [
+      "Time"
+    ]
+  },
+  {
+    "id": "always",
+    "word": "always",
+    "partOfSpeech": "adverb",
+    "hindiMeaning": "हमेशा",
+    "englishMeaning": "at all times; on all occasions",
+    "examples": [
+      {
+        "english": "I always tell the truth.",
+        "hindi": "मैं हमेशा सच बोलता हूँ।"
+      }
+    ],
+    "synonyms": [
+      "forever",
+      "constantly"
+    ],
+    "antonyms": [
+      "never"
+    ],
+    "difficultyLevel": "Beginner",
+    "tags": [
+      "Time"
+    ]
+  },
+  {
+    "id": "never",
+    "word": "never",
+    "partOfSpeech": "adverb",
+    "hindiMeaning": "कभी नहीं",
+    "englishMeaning": "at no time in the past or future; on no occasion",
+    "examples": [
+      {
+        "english": "I never eat meat.",
+        "hindi": "मैं कभी मांस नहीं खाता।"
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [
+      "always"
+    ],
+    "difficultyLevel": "Beginner",
+    "tags": [
+      "Time"
+    ]
+  },
+  {
+    "id": "sometimes",
+    "word": "sometimes",
+    "partOfSpeech": "adverb",
+    "hindiMeaning": "कभी-कभी",
+    "englishMeaning": "occasionally, rather than all of the time",
+    "examples": [
+      {
+        "english": "Sometimes I walk to work.",
+        "hindi": "कभी-कभी मैं पैदल काम पर जाता हूँ।"
+      }
+    ],
+    "synonyms": [
+      "occasionally"
+    ],
+    "antonyms": [
+      "always",
+      "never"
+    ],
+    "difficultyLevel": "Beginner",
+    "tags": [
+      "Time"
+    ]
+  },
+  {
+    "id": "often",
+    "word": "often",
+    "partOfSpeech": "adverb",
+    "hindiMeaning": "अक्सर",
+    "englishMeaning": "frequently; many times",
+    "examples": [
+      {
+        "english": "I often go there.",
+        "hindi": "मैं अक्सर वहाँ जाता हूँ।"
+      }
+    ],
+    "synonyms": [
+      "frequently"
+    ],
+    "antonyms": [
+      "rarely",
+      "seldom"
+    ],
+    "difficultyLevel": "Beginner",
+    "tags": [
+      "Time"
+    ]
+  },
+  {
+    "id": "midnight",
+    "word": "midnight",
+    "partOfSpeech": "noun",
+    "hindiMeaning": "आधी रात",
+    "englishMeaning": "twelve o'clock at night",
+    "examples": [
+      {
+        "english": "He woke up at midnight.",
+        "hindi": "वह आधी रात को उठा।"
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [
+      "noon"
+    ],
+    "difficultyLevel": "Beginner",
+    "tags": [
+      "Time"
+    ]
+  },
+  {
+    "id": "monday",
+    "word": "Monday",
+    "partOfSpeech": "noun",
+    "hindiMeaning": "सोमवार",
+    "englishMeaning": "the day of the week before Tuesday",
+    "examples": [
+      {
+        "english": "I start work on Monday.",
+        "hindi": "मैं सोमवार को काम शुरू करता हूँ।"
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficultyLevel": "Beginner",
+    "tags": [
+      "Days"
+    ]
+  },
+  {
+    "id": "tuesday",
+    "word": "Tuesday",
+    "partOfSpeech": "noun",
+    "hindiMeaning": "मंगलवार",
+    "englishMeaning": "the day of the week before Wednesday",
+    "examples": [
+      {
+        "english": "We have a meeting on Tuesday.",
+        "hindi": "मंगलवार को हमारी एक बैठक है।"
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficultyLevel": "Beginner",
+    "tags": [
+      "Days"
+    ]
+  },
+  {
+    "id": "wednesday",
+    "word": "Wednesday",
+    "partOfSpeech": "noun",
+    "hindiMeaning": "बुधवार",
+    "englishMeaning": "the day of the week before Thursday",
+    "examples": [
+      {
+        "english": "It is Wednesday today.",
+        "hindi": "आज बुधवार है।"
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficultyLevel": "Beginner",
+    "tags": [
+      "Days"
+    ]
+  },
+  {
+    "id": "thursday",
+    "word": "Thursday",
+    "partOfSpeech": "noun",
+    "hindiMeaning": "गुरुवार",
+    "englishMeaning": "the day of the week before Friday",
+    "examples": [
+      {
+        "english": "I will see you on Thursday.",
+        "hindi": "मैं आपसे गुरुवार को मिलूँगा।"
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficultyLevel": "Beginner",
+    "tags": [
+      "Days"
+    ]
+  },
+  {
+    "id": "friday",
+    "word": "Friday",
+    "partOfSpeech": "noun",
+    "hindiMeaning": "शुक्रवार",
+    "englishMeaning": "the day of the week before Saturday",
+    "examples": [
+      {
+        "english": "Thank God it's Friday.",
+        "hindi": "भगवान का शुक्र है कि आज शुक्रवार है।"
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficultyLevel": "Beginner",
+    "tags": [
+      "Days"
+    ]
+  },
+  {
+    "id": "saturday",
+    "word": "Saturday",
+    "partOfSpeech": "noun",
+    "hindiMeaning": "शनिवार",
+    "englishMeaning": "the day of the week before Sunday",
+    "examples": [
+      {
+        "english": "I relax on Saturday.",
+        "hindi": "मैं शनिवार को आराम करता हूँ।"
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficultyLevel": "Beginner",
+    "tags": [
+      "Days"
+    ]
+  },
+  {
+    "id": "sunday",
+    "word": "Sunday",
+    "partOfSpeech": "noun",
+    "hindiMeaning": "रविवार",
+    "englishMeaning": "the day of the week before Monday",
+    "examples": [
+      {
+        "english": "Sunday is a holiday.",
+        "hindi": "रविवार एक छुट्टी का दिन है।"
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficultyLevel": "Beginner",
+    "tags": [
+      "Days"
+    ]
+  },
+  {
+    "id": "january",
+    "word": "January",
+    "partOfSpeech": "noun",
+    "hindiMeaning": "जनवरी",
+    "englishMeaning": "the first month of the year",
+    "examples": [
+      {
+        "english": "It is cold in January.",
+        "hindi": "जनवरी में ठंड होती है।"
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficultyLevel": "Beginner",
+    "tags": [
+      "Months"
+    ]
+  },
+  {
+    "id": "february",
+    "word": "February",
+    "partOfSpeech": "noun",
+    "hindiMeaning": "फरवरी",
+    "englishMeaning": "the second month of the year",
+    "examples": [
+      {
+        "english": "February is a short month.",
+        "hindi": "फरवरी एक छोटा महीना है।"
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficultyLevel": "Beginner",
+    "tags": [
+      "Months"
+    ]
+  },
+  {
+    "id": "march",
+    "word": "March",
+    "partOfSpeech": "noun",
+    "hindiMeaning": "मार्च",
+    "englishMeaning": "the third month of the year",
+    "examples": [
+      {
+        "english": "Spring begins in March.",
+        "hindi": "वसंत मार्च में शुरू होता है।"
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficultyLevel": "Beginner",
+    "tags": [
+      "Months"
+    ]
+  },
+  {
+    "id": "april",
+    "word": "April",
+    "partOfSpeech": "noun",
+    "hindiMeaning": "अप्रैल",
+    "englishMeaning": "the fourth month of the year",
+    "examples": [
+      {
+        "english": "April showers bring May flowers.",
+        "hindi": "अप्रैल की बारिश से मई के फूल खिलते हैं।"
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficultyLevel": "Beginner",
+    "tags": [
+      "Months"
+    ]
+  },
+  {
+    "id": "may",
+    "word": "May",
+    "partOfSpeech": "noun",
+    "hindiMeaning": "मई",
+    "englishMeaning": "the fifth month of the year",
+    "examples": [
+      {
+        "english": "It gets hot in May.",
+        "hindi": "मई में गर्मी होने लगती है।"
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficultyLevel": "Beginner",
+    "tags": [
+      "Months"
+    ]
+  },
+  {
+    "id": "june",
+    "word": "June",
+    "partOfSpeech": "noun",
+    "hindiMeaning": "जून",
+    "englishMeaning": "the sixth month of the year",
+    "examples": [
+      {
+        "english": "Schools are closed in June.",
+        "hindi": "जून में स्कूल बंद रहते हैं।"
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficultyLevel": "Beginner",
+    "tags": [
+      "Months"
+    ]
+  },
+  {
+    "id": "july",
+    "word": "July",
+    "partOfSpeech": "noun",
+    "hindiMeaning": "जुलाई",
+    "englishMeaning": "the seventh month of the year",
+    "examples": [
+      {
+        "english": "It rains a lot in July.",
+        "hindi": "जुलाई में बहुत बारिश होती है।"
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficultyLevel": "Beginner",
+    "tags": [
+      "Months"
+    ]
+  },
+  {
+    "id": "august",
+    "word": "August",
+    "partOfSpeech": "noun",
+    "hindiMeaning": "अगस्त",
+    "englishMeaning": "the eighth month of the year",
+    "examples": [
+      {
+        "english": "August is a warm month.",
+        "hindi": "अगस्त एक गर्म महीना होता है।"
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficultyLevel": "Beginner",
+    "tags": [
+      "Months"
+    ]
+  },
+  {
+    "id": "september",
+    "word": "September",
+    "partOfSpeech": "noun",
+    "hindiMeaning": "सितंबर",
+    "englishMeaning": "the ninth month of the year",
+    "examples": [
+      {
+        "english": "September is pleasant.",
+        "hindi": "सितंबर सुहावना होता है।"
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficultyLevel": "Beginner",
+    "tags": [
+      "Months"
+    ]
+  },
+  {
+    "id": "october",
+    "word": "October",
+    "partOfSpeech": "noun",
+    "hindiMeaning": "अक्टूबर",
+    "englishMeaning": "the tenth month of the year",
+    "examples": [
+      {
+        "english": "Halloween is in October.",
+        "hindi": "हैलोवीन अक्टूबर में आता है।"
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficultyLevel": "Beginner",
+    "tags": [
+      "Months"
+    ]
+  },
+  {
+    "id": "november",
+    "word": "November",
+    "partOfSpeech": "noun",
+    "hindiMeaning": "नवंबर",
+    "englishMeaning": "the eleventh month of the year",
+    "examples": [
+      {
+        "english": "Winter starts in November.",
+        "hindi": "सर्दियां नवंबर में शुरू होती हैं।"
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficultyLevel": "Beginner",
+    "tags": [
+      "Months"
+    ]
+  },
+  {
+    "id": "december",
+    "word": "December",
+    "partOfSpeech": "noun",
+    "hindiMeaning": "दिसंबर",
+    "englishMeaning": "the twelfth month of the year",
+    "examples": [
+      {
+        "english": "Christmas is in December.",
+        "hindi": "क्रिसमस दिसंबर में होता है।"
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficultyLevel": "Beginner",
+    "tags": [
+      "Months"
+    ]
+  },
+  {
+    "id": "date",
+    "word": "date",
+    "partOfSpeech": "noun",
+    "hindiMeaning": "तारीख",
+    "englishMeaning": "the day of the month or year",
+    "examples": [
+      {
+        "english": "What is today's date?",
+        "hindi": "आज की तारीख क्या है?"
+      }
+    ],
+    "synonyms": [
+      "day"
+    ],
+    "antonyms": [],
+    "difficultyLevel": "Beginner",
+    "tags": [
+      "Dates"
+    ]
+  },
+  {
+    "id": "north",
+    "word": "north",
+    "partOfSpeech": "noun",
+    "hindiMeaning": "उत्तर",
+    "englishMeaning": "the direction towards the top of a map",
+    "examples": [
+      {
+        "english": "The compass points north.",
+        "hindi": "कम्पास उत्तर की ओर इशारा करता है।"
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [
+      "south"
+    ],
+    "difficultyLevel": "Beginner",
+    "tags": [
+      "Directions"
+    ]
+  },
+  {
+    "id": "south",
+    "word": "south",
+    "partOfSpeech": "noun",
+    "hindiMeaning": "दक्षिण",
+    "englishMeaning": "the direction towards the bottom of a map",
+    "examples": [
+      {
+        "english": "Birds fly south in winter.",
+        "hindi": "पक्षी सर्दियों में दक्षिण की ओर उड़ते हैं।"
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [
+      "north"
+    ],
+    "difficultyLevel": "Beginner",
+    "tags": [
+      "Directions"
+    ]
+  },
+  {
+    "id": "east",
+    "word": "east",
+    "partOfSpeech": "noun",
+    "hindiMeaning": "पूर्व",
+    "englishMeaning": "the direction from which the sun rises",
+    "examples": [
+      {
+        "english": "The sun rises in the east.",
+        "hindi": "सूरज पूर्व से उगता है।"
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [
+      "west"
+    ],
+    "difficultyLevel": "Beginner",
+    "tags": [
+      "Directions"
+    ]
+  },
+  {
+    "id": "west",
+    "word": "west",
+    "partOfSpeech": "noun",
+    "hindiMeaning": "पश्चिम",
+    "englishMeaning": "the direction in which the sun sets",
+    "examples": [
+      {
+        "english": "The sun sets in the west.",
+        "hindi": "सूरज पश्चिम में डूबता है।"
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [
+      "east"
+    ],
+    "difficultyLevel": "Beginner",
+    "tags": [
+      "Directions"
+    ]
+  },
+  {
+    "id": "up",
+    "word": "up",
+    "partOfSpeech": "adverb",
+    "hindiMeaning": "ऊपर",
+    "englishMeaning": "towards a higher place or position",
+    "examples": [
+      {
+        "english": "Look up at the sky.",
+        "hindi": "ऊपर आसमान की तरफ देखो।"
+      }
+    ],
+    "synonyms": [
+      "upward"
+    ],
+    "antonyms": [
+      "down"
+    ],
+    "difficultyLevel": "Beginner",
+    "tags": [
+      "Directions"
+    ]
+  },
+  {
+    "id": "down",
+    "word": "down",
+    "partOfSpeech": "adverb",
+    "hindiMeaning": "नीचे",
+    "englishMeaning": "towards a lower place or position",
+    "examples": [
+      {
+        "english": "Sit down, please.",
+        "hindi": "कृपया नीचे बैठ जाएं।"
+      }
+    ],
+    "synonyms": [
+      "downward"
+    ],
+    "antonyms": [
+      "up"
+    ],
+    "difficultyLevel": "Beginner",
+    "tags": [
+      "Directions"
+    ]
+  },
+  {
+    "id": "left",
+    "word": "left",
+    "partOfSpeech": "noun",
+    "hindiMeaning": "बाएं",
+    "englishMeaning": "the side on which the heart is located",
+    "examples": [
+      {
+        "english": "Turn left at the corner.",
+        "hindi": "कोने से बाएं मुड़ें।"
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [
+      "right"
+    ],
+    "difficultyLevel": "Beginner",
+    "tags": [
+      "Directions"
+    ]
+  },
+  {
+    "id": "right",
+    "word": "right",
+    "partOfSpeech": "noun",
+    "hindiMeaning": "दाएं",
+    "englishMeaning": "the side opposite to the left",
+    "examples": [
+      {
+        "english": "Turn right at the traffic light.",
+        "hindi": "ट्रैफिक लाइट से दाएं मुड़ें।"
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [
+      "left"
+    ],
+    "difficultyLevel": "Beginner",
+    "tags": [
+      "Directions"
+    ]
+  },
+  {
+    "id": "forward",
+    "word": "forward",
+    "partOfSpeech": "adverb",
+    "hindiMeaning": "आगे",
+    "englishMeaning": "in the direction that one is facing or traveling",
+    "examples": [
+      {
+        "english": "Move forward.",
+        "hindi": "आगे बढ़ें।"
+      }
+    ],
+    "synonyms": [
+      "ahead",
+      "onward"
+    ],
+    "antonyms": [
+      "backward"
+    ],
+    "difficultyLevel": "Beginner",
+    "tags": [
+      "Directions"
+    ]
+  },
+  {
+    "id": "backward",
+    "word": "backward",
+    "partOfSpeech": "adverb",
+    "hindiMeaning": "पीछे",
+    "englishMeaning": "in the direction of one's back",
+    "examples": [
+      {
+        "english": "He took a step backward.",
+        "hindi": "उसने एक कदम पीछे लिया।"
+      }
+    ],
+    "synonyms": [
+      "rearward"
+    ],
+    "antonyms": [
+      "forward"
+    ],
+    "difficultyLevel": "Beginner",
+    "tags": [
+      "Directions"
+    ]
+  },
+  {
+    "id": "straight",
+    "word": "straight",
+    "partOfSpeech": "adverb",
+    "hindiMeaning": "सीधे",
+    "englishMeaning": "moving in one direction only; without a curve",
+    "examples": [
+      {
+        "english": "Go straight down this road.",
+        "hindi": "इस सड़क पर सीधे जाएं।"
+      }
+    ],
+    "synonyms": [
+      "directly"
+    ],
+    "antonyms": [
+      "curved",
+      "crooked"
+    ],
+    "difficultyLevel": "Beginner",
+    "tags": [
+      "Directions"
+    ]
+  },
+  {
+    "id": "inside",
+    "word": "inside",
+    "partOfSpeech": "preposition",
+    "hindiMeaning": "अंदर",
+    "englishMeaning": "the inner side or surface of something",
+    "examples": [
+      {
+        "english": "Come inside the house.",
+        "hindi": "घर के अंदर आओ।"
+      }
+    ],
+    "synonyms": [
+      "indoors"
+    ],
+    "antonyms": [
+      "outside"
+    ],
+    "difficultyLevel": "Beginner",
+    "tags": [
+      "Directions"
+    ]
+  },
+  {
+    "id": "outside",
+    "word": "outside",
+    "partOfSpeech": "preposition",
+    "hindiMeaning": "बाहर",
+    "englishMeaning": "the external side or surface of something",
+    "examples": [
+      {
+        "english": "Wait outside.",
+        "hindi": "बाहर इंतज़ार करो।"
+      }
+    ],
+    "synonyms": [
+      "outdoors"
+    ],
+    "antonyms": [
+      "inside"
+    ],
+    "difficultyLevel": "Beginner",
+    "tags": [
+      "Directions"
+    ]
+  },
+  {
+    "id": "front",
+    "word": "front",
+    "partOfSpeech": "noun",
+    "hindiMeaning": "सामने",
+    "englishMeaning": "the side or part of an object that presents itself to view",
+    "examples": [
+      {
+        "english": "Stand in front of me.",
+        "hindi": "मेरे सामने खड़े हो जाओ।"
+      }
+    ],
+    "synonyms": [
+      "fore"
+    ],
+    "antonyms": [
+      "back"
+    ],
+    "difficultyLevel": "Beginner",
+    "tags": [
+      "Directions"
+    ]
+  },
+  {
+    "id": "back",
+    "word": "back",
+    "partOfSpeech": "noun",
+    "hindiMeaning": "पीछे",
+    "englishMeaning": "the rear surface of the human body or an object",
+    "examples": [
+      {
+        "english": "Look at the back of the book.",
+        "hindi": "किताब के पीछे देखो।"
+      }
+    ],
+    "synonyms": [
+      "rear"
+    ],
+    "antonyms": [
+      "front"
+    ],
+    "difficultyLevel": "Beginner",
+    "tags": [
+      "Directions"
+    ]
+  },
+  {
+    "id": "red",
+    "word": "red",
+    "partOfSpeech": "noun",
+    "hindiMeaning": "लाल",
+    "englishMeaning": "the color of blood or fire",
+    "examples": [
+      {
+        "english": "She is wearing a red dress.",
+        "hindi": "उसने लाल पोशाक पहनी है।"
+      }
+    ],
+    "synonyms": [
+      "crimson",
+      "scarlet"
+    ],
+    "antonyms": [],
+    "difficultyLevel": "Beginner",
+    "tags": [
+      "Colors"
+    ]
+  },
+  {
+    "id": "blue",
+    "word": "blue",
+    "partOfSpeech": "noun",
+    "hindiMeaning": "नीला",
+    "englishMeaning": "the color of a clear sky",
+    "examples": [
+      {
+        "english": "The sky is blue.",
+        "hindi": "आसमान नीला है।"
+      }
+    ],
+    "synonyms": [
+      "azure"
+    ],
+    "antonyms": [],
+    "difficultyLevel": "Beginner",
+    "tags": [
+      "Colors"
+    ]
+  },
+  {
+    "id": "green",
+    "word": "green",
+    "partOfSpeech": "noun",
+    "hindiMeaning": "हरा",
+    "englishMeaning": "the color of growing grass",
+    "examples": [
+      {
+        "english": "The leaves are green.",
+        "hindi": "पत्तियां हरी हैं।"
+      }
+    ],
+    "synonyms": [
+      "emerald"
+    ],
+    "antonyms": [],
+    "difficultyLevel": "Beginner",
+    "tags": [
+      "Colors"
+    ]
+  },
+  {
+    "id": "yellow",
+    "word": "yellow",
+    "partOfSpeech": "noun",
+    "hindiMeaning": "पीला",
+    "englishMeaning": "the color of gold or the sun",
+    "examples": [
+      {
+        "english": "The sunflower is yellow.",
+        "hindi": "सूरजमुखी पीला होता है।"
+      }
+    ],
+    "synonyms": [
+      "golden"
+    ],
+    "antonyms": [],
+    "difficultyLevel": "Beginner",
+    "tags": [
+      "Colors"
+    ]
+  },
+  {
+    "id": "black",
+    "word": "black",
+    "partOfSpeech": "noun",
+    "hindiMeaning": "काला",
+    "englishMeaning": "the very darkest color owing to the absence of light",
+    "examples": [
+      {
+        "english": "He has black hair.",
+        "hindi": "उसके बाल काले हैं।"
+      }
+    ],
+    "synonyms": [
+      "ebony",
+      "dark"
+    ],
+    "antonyms": [
+      "white"
+    ],
+    "difficultyLevel": "Beginner",
+    "tags": [
+      "Colors"
+    ]
+  },
+  {
+    "id": "white",
+    "word": "white",
+    "partOfSpeech": "noun",
+    "hindiMeaning": "सफ़ेद",
+    "englishMeaning": "the color of milk or fresh snow",
+    "examples": [
+      {
+        "english": "The snow is white.",
+        "hindi": "बर्फ सफ़ेद होती है।"
+      }
+    ],
+    "synonyms": [
+      "pale"
+    ],
+    "antonyms": [
+      "black"
+    ],
+    "difficultyLevel": "Beginner",
+    "tags": [
+      "Colors"
+    ]
+  },
+  {
+    "id": "orange",
+    "word": "orange",
+    "partOfSpeech": "noun",
+    "hindiMeaning": "नारंगी",
+    "englishMeaning": "a bright reddish-yellow color",
+    "examples": [
+      {
+        "english": "I like orange juice.",
+        "hindi": "मुझे संतरे का जूस पसंद है।"
+      }
+    ],
+    "synonyms": [
+      "coral"
+    ],
+    "antonyms": [],
+    "difficultyLevel": "Beginner",
+    "tags": [
+      "Colors"
+    ]
+  },
+  {
+    "id": "pink",
+    "word": "pink",
+    "partOfSpeech": "noun",
+    "hindiMeaning": "गुलाबी",
+    "englishMeaning": "a pale red color",
+    "examples": [
+      {
+        "english": "The flower is pink.",
+        "hindi": "फूल गुलाबी है।"
+      }
+    ],
+    "synonyms": [
+      "rose"
+    ],
+    "antonyms": [],
+    "difficultyLevel": "Beginner",
+    "tags": [
+      "Colors"
+    ]
+  },
+  {
+    "id": "purple",
+    "word": "purple",
+    "partOfSpeech": "noun",
+    "hindiMeaning": "बैंगनी",
+    "englishMeaning": "a color intermediate between red and blue",
+    "examples": [
+      {
+        "english": "She likes purple balloons.",
+        "hindi": "उसे बैंगनी गुब्बारे पसंद हैं।"
+      }
+    ],
+    "synonyms": [
+      "violet"
+    ],
+    "antonyms": [],
+    "difficultyLevel": "Beginner",
+    "tags": [
+      "Colors"
+    ]
+  },
+  {
+    "id": "brown",
+    "word": "brown",
+    "partOfSpeech": "noun",
+    "hindiMeaning": "भूरा",
+    "englishMeaning": "the color of dark wood or rich soil",
+    "examples": [
+      {
+        "english": "The bear is brown.",
+        "hindi": "भालू भूरा है।"
+      }
+    ],
+    "synonyms": [
+      "tan"
+    ],
+    "antonyms": [],
+    "difficultyLevel": "Beginner",
+    "tags": [
+      "Colors"
+    ]
+  }
+]

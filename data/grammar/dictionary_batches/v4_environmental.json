@@ -1,0 +1,818 @@
+[
+  {
+    "word": "atmosphere",
+    "meaning": "The layer of gases surrounding the Earth, held in place by gravity, which supports life and regulates climate.",
+    "example": "Greenhouse gases in the atmosphere trap heat and contribute to global warming.",
+    "category": "Climate"
+  },
+  {
+    "word": "climate change",
+    "meaning": "Long-term shifts in global temperatures and weather patterns, largely caused by human activities since the mid-20th century.",
+    "example": "Climate change is causing more frequent and intense hurricanes around the world.",
+    "category": "Climate"
+  },
+  {
+    "word": "global warming",
+    "meaning": "The gradual increase in Earth's average surface temperature due to rising levels of greenhouse gases.",
+    "example": "Global warming has led to the melting of polar ice caps and rising sea levels.",
+    "category": "Climate"
+  },
+  {
+    "word": "greenhouse effect",
+    "meaning": "The trapping of the sun's warmth in Earth's lower atmosphere due to the presence of certain gases.",
+    "example": "The greenhouse effect is a natural process, but human activities have intensified it dramatically.",
+    "category": "Climate"
+  },
+  {
+    "word": "greenhouse gas",
+    "meaning": "A gas, such as carbon dioxide or methane, that contributes to the greenhouse effect by absorbing infrared radiation.",
+    "example": "Carbon dioxide is the most significant greenhouse gas emitted by human activities.",
+    "category": "Climate"
+  },
+  {
+    "word": "carbon dioxide",
+    "meaning": "A colorless gas (CO₂) produced by burning fossil fuels and respiration; a major greenhouse gas.",
+    "example": "Power plants release large amounts of carbon dioxide into the atmosphere.",
+    "category": "Climate"
+  },
+  {
+    "word": "carbon footprint",
+    "meaning": "The total amount of greenhouse gases produced directly and indirectly by an individual, organization, or product.",
+    "example": "You can reduce your carbon footprint by using public transportation instead of driving.",
+    "category": "Climate"
+  },
+  {
+    "word": "carbon neutral",
+    "meaning": "Achieving a net zero carbon dioxide output by balancing emissions with carbon removal or offset.",
+    "example": "The company aims to become carbon neutral by 2030 through renewable energy investments.",
+    "category": "Climate"
+  },
+  {
+    "word": "carbon sequestration",
+    "meaning": "The process of capturing and storing atmospheric carbon dioxide to reduce the amount in the atmosphere.",
+    "example": "Planting forests is a natural method of carbon sequestration.",
+    "category": "Climate"
+  },
+  {
+    "word": "methane",
+    "meaning": "A potent greenhouse gas (CH₄) produced by livestock, landfills, and natural gas leaks.",
+    "example": "Methane is far more effective at trapping heat than carbon dioxide over a short time period.",
+    "category": "Climate"
+  },
+  {
+    "word": "ozone layer",
+    "meaning": "A region of Earth's stratosphere containing a high concentration of ozone that absorbs ultraviolet radiation.",
+    "example": "The ozone layer protects life on Earth from harmful UV rays from the sun.",
+    "category": "Climate"
+  },
+  {
+    "word": "ozone depletion",
+    "meaning": "The thinning of Earth's ozone layer caused by chemicals such as chlorofluorocarbons (CFCs).",
+    "example": "Ozone depletion over Antarctica has created what scientists call the ozone hole.",
+    "category": "Climate"
+  },
+  {
+    "word": "sea level rise",
+    "meaning": "The increase in the level of the world's oceans due to the effects of climate change, including melting ice and thermal expansion.",
+    "example": "Sea level rise threatens low-lying coastal cities and island nations with flooding.",
+    "category": "Climate"
+  },
+  {
+    "word": "glacier retreat",
+    "meaning": "The shrinking of glaciers due to increased melting caused by rising temperatures.",
+    "example": "Glacier retreat in the Himalayas threatens freshwater supplies for millions of people.",
+    "category": "Climate"
+  },
+  {
+    "word": "permafrost",
+    "meaning": "Ground that remains completely frozen for two or more years, found mainly in polar and alpine regions.",
+    "example": "Thawing permafrost releases stored carbon dioxide and methane into the atmosphere.",
+    "category": "Climate"
+  },
+  {
+    "word": "drought",
+    "meaning": "A prolonged period of abnormally low rainfall leading to water shortages and crop failure.",
+    "example": "The prolonged drought devastated farmlands and forced thousands to migrate.",
+    "category": "Climate"
+  },
+  {
+    "word": "desertification",
+    "meaning": "The process by which fertile land becomes desert, typically as a result of drought, deforestation, or inappropriate agriculture.",
+    "example": "Desertification in sub-Saharan Africa is displacing local communities.",
+    "category": "Climate"
+  },
+  {
+    "word": "El Niño",
+    "meaning": "A climate pattern that describes the unusual warming of surface waters in the eastern tropical Pacific Ocean.",
+    "example": "El Niño events can cause severe flooding in some regions and droughts in others.",
+    "category": "Climate"
+  },
+  {
+    "word": "carbon offset",
+    "meaning": "A reduction in emissions of carbon dioxide made in order to compensate for emissions produced elsewhere.",
+    "example": "Airlines offer passengers the option to purchase carbon offsets to balance their flight emissions.",
+    "category": "Climate"
+  },
+  {
+    "word": "renewable energy",
+    "meaning": "Energy from a source that is not depleted when used, such as wind, solar, or hydroelectric power.",
+    "example": "Investing in renewable energy is essential to reducing our dependence on fossil fuels.",
+    "category": "Climate"
+  },
+  {
+    "word": "fossil fuel",
+    "meaning": "A natural fuel such as coal, oil, or gas, formed in the geological past from the remains of living organisms.",
+    "example": "Burning fossil fuels is the primary driver of human-caused climate change.",
+    "category": "Climate"
+  },
+  {
+    "word": "conservation",
+    "meaning": "The protection and preservation of the natural environment, including wildlife and natural resources.",
+    "example": "Conservation efforts have helped the bald eagle recover from near extinction.",
+    "category": "Conservation"
+  },
+  {
+    "word": "preservation",
+    "meaning": "The act of keeping something, especially a natural environment or wildlife, safe from harm or destruction.",
+    "example": "The preservation of ancient forests is critical to maintaining biodiversity.",
+    "category": "Conservation"
+  },
+  {
+    "word": "sustainability",
+    "meaning": "The ability to maintain ecological balance by avoiding the depletion of natural resources.",
+    "example": "Sustainable farming practices protect the soil for future generations.",
+    "category": "Conservation"
+  },
+  {
+    "word": "reforestation",
+    "meaning": "The process of replanting trees in an area where forests have been depleted.",
+    "example": "The government launched a reforestation campaign to restore degraded hillsides.",
+    "category": "Conservation"
+  },
+  {
+    "word": "deforestation",
+    "meaning": "The clearing or thinning of forests by humans, often for agriculture or urban development.",
+    "example": "Deforestation in the Amazon has accelerated in recent decades, threatening countless species.",
+    "category": "Conservation"
+  },
+  {
+    "word": "habitat",
+    "meaning": "The natural home or environment in which a plant or animal lives.",
+    "example": "Wetlands are a vital habitat for migratory birds and amphibians.",
+    "category": "Conservation"
+  },
+  {
+    "word": "habitat loss",
+    "meaning": "The destruction or degradation of an environment so that it can no longer support the species that live there.",
+    "example": "Habitat loss is the leading cause of species extinction worldwide.",
+    "category": "Conservation"
+  },
+  {
+    "word": "wildlife corridor",
+    "meaning": "A strip of natural habitat linking isolated patches, allowing animals to move safely between them.",
+    "example": "The new wildlife corridor allows tigers to roam between two national parks.",
+    "category": "Conservation"
+  },
+  {
+    "word": "protected area",
+    "meaning": "A clearly defined geographical space managed through legal or customary means to achieve nature conservation.",
+    "example": "The government designated new protected areas to safeguard marine biodiversity.",
+    "category": "Conservation"
+  },
+  {
+    "word": "national park",
+    "meaning": "A large area of land protected by the government from development for conservation and public enjoyment.",
+    "example": "Yellowstone National Park was the world's first national park, established in 1872.",
+    "category": "Conservation"
+  },
+  {
+    "word": "wildlife refuge",
+    "meaning": "A protected area of land set aside for the conservation and protection of wild animals.",
+    "example": "The Arctic National Wildlife Refuge provides critical breeding grounds for caribou.",
+    "category": "Conservation"
+  },
+  {
+    "word": "poaching",
+    "meaning": "The illegal hunting or capturing of wild animals, especially in a protected area.",
+    "example": "Anti-poaching rangers protect elephants and rhinos from illegal hunters.",
+    "category": "Conservation"
+  },
+  {
+    "word": "endangered species",
+    "meaning": "A species of animal or plant that is seriously at risk of extinction.",
+    "example": "The amur leopard is one of the most critically endangered species on Earth.",
+    "category": "Conservation"
+  },
+  {
+    "word": "extinct",
+    "meaning": "No longer existing; having died out completely as a species.",
+    "example": "The dodo bird became extinct in the 17th century due to hunting and habitat destruction.",
+    "category": "Conservation"
+  },
+  {
+    "word": "rewilding",
+    "meaning": "The large-scale restoration of ecosystems to the point where nature can take care of itself.",
+    "example": "Rewilding projects in Europe have reintroduced wolves to help restore natural balance.",
+    "category": "Conservation"
+  },
+  {
+    "word": "ecotourism",
+    "meaning": "Tourism directed toward exotic, often threatened natural environments, intended to support conservation and local communities.",
+    "example": "Ecotourism in Costa Rica generates revenue that funds rainforest conservation.",
+    "category": "Conservation"
+  },
+  {
+    "word": "pollution",
+    "meaning": "The presence or introduction into the environment of a substance or thing that has harmful or poisonous effects.",
+    "example": "Industrial pollution has contaminated the river, making the water unsafe to drink.",
+    "category": "Pollution"
+  },
+  {
+    "word": "air pollution",
+    "meaning": "The contamination of air by smoke and harmful gases, mainly produced by human activities.",
+    "example": "Air pollution in major cities is linked to increased rates of asthma and lung disease.",
+    "category": "Pollution"
+  },
+  {
+    "word": "water pollution",
+    "meaning": "The contamination of water bodies by harmful substances, making the water unsafe for drinking or aquatic life.",
+    "example": "Agricultural runoff containing pesticides is a major source of water pollution.",
+    "category": "Pollution"
+  },
+  {
+    "word": "soil pollution",
+    "meaning": "The presence of toxic chemicals, pollutants, or contaminants in the soil at high concentrations.",
+    "example": "Soil pollution from heavy metals can enter the food chain through crops.",
+    "category": "Pollution"
+  },
+  {
+    "word": "noise pollution",
+    "meaning": "Harmful or excessive levels of noise in the environment, disrupting wildlife behavior and human health.",
+    "example": "Noise pollution from urban traffic disturbs the sleep patterns of urban wildlife.",
+    "category": "Pollution"
+  },
+  {
+    "word": "light pollution",
+    "meaning": "The brightening of the night sky caused by artificial lights, disrupting ecosystems and astronomy.",
+    "example": "Light pollution prevents millions of people from seeing the Milky Way.",
+    "category": "Pollution"
+  },
+  {
+    "word": "plastic pollution",
+    "meaning": "The accumulation of plastic objects in the environment that adversely affects wildlife, wildlife habitat, and humans.",
+    "example": "Plastic pollution in the ocean is causing widespread harm to marine wildlife.",
+    "category": "Pollution"
+  },
+  {
+    "word": "microplastics",
+    "meaning": "Tiny plastic particles less than 5mm in size that contaminate water, soil, and air.",
+    "example": "Microplastics have been found in drinking water, seafood, and even human blood.",
+    "category": "Pollution"
+  },
+  {
+    "word": "acid rain",
+    "meaning": "Rainfall made acidic by atmospheric pollution, causing environmental damage.",
+    "example": "Acid rain caused by sulfur dioxide emissions has damaged forests in northern Europe.",
+    "category": "Pollution"
+  },
+  {
+    "word": "smog",
+    "meaning": "A dense, discolored fog or haze formed mainly from a mixture of smoke and other atmospheric pollutants.",
+    "example": "Thick smog blanketed the city, forcing authorities to issue health warnings.",
+    "category": "Pollution"
+  },
+  {
+    "word": "eutrophication",
+    "meaning": "Excessive richness of nutrients in a water body, causing dense plant growth and oxygen depletion.",
+    "example": "Eutrophication from agricultural runoff has created a dead zone in the Gulf of Mexico.",
+    "category": "Pollution"
+  },
+  {
+    "word": "toxic waste",
+    "meaning": "Waste material that is harmful or fatal when ingested or absorbed by living organisms.",
+    "example": "Illegal dumping of toxic waste has poisoned local groundwater supplies.",
+    "category": "Pollution"
+  },
+  {
+    "word": "heavy metals",
+    "meaning": "Dense metallic elements such as lead, mercury, and cadmium that are highly toxic to organisms.",
+    "example": "Heavy metals from mining operations have contaminated nearby rivers.",
+    "category": "Pollution"
+  },
+  {
+    "word": "pesticide",
+    "meaning": "A chemical substance used to destroy insects or other organisms harmful to crops or animals.",
+    "example": "Overuse of pesticides has caused a dramatic decline in bee populations.",
+    "category": "Pollution"
+  },
+  {
+    "word": "oil spill",
+    "meaning": "An accidental release of petroleum into the environment, especially into the sea.",
+    "example": "The oil spill devastated coastal wildlife and took years for the ecosystem to recover.",
+    "category": "Pollution"
+  },
+  {
+    "word": "runoff",
+    "meaning": "Water or other liquid that runs off a surface into bodies of water, often carrying pollutants.",
+    "example": "Urban runoff from roads and parking lots carries oil and chemicals into streams.",
+    "category": "Pollution"
+  },
+  {
+    "word": "ecosystem",
+    "meaning": "A biological community of interacting organisms and their physical environment.",
+    "example": "The coral reef ecosystem supports an enormous diversity of marine life.",
+    "category": "Ecosystems"
+  },
+  {
+    "word": "biome",
+    "meaning": "A large naturally occurring community of flora and fauna occupying a major habitat.",
+    "example": "The tropical rainforest biome contains more than half of the world's species.",
+    "category": "Ecosystems"
+  },
+  {
+    "word": "food chain",
+    "meaning": "A hierarchical series of organisms each dependent on the next as a source of food.",
+    "example": "Removing wolves from the food chain allowed deer populations to grow uncontrollably.",
+    "category": "Ecosystems"
+  },
+  {
+    "word": "food web",
+    "meaning": "A system of interlocking and interdependent food chains in an ecosystem.",
+    "example": "The food web in the ocean is complex, with many predators and prey interacting.",
+    "category": "Ecosystems"
+  },
+  {
+    "word": "trophic level",
+    "meaning": "The position an organism occupies in a food chain based on its feeding habits.",
+    "example": "Plants are at the first trophic level, while apex predators occupy the highest.",
+    "category": "Ecosystems"
+  },
+  {
+    "word": "photosynthesis",
+    "meaning": "The process by which green plants use sunlight to synthesize nutrients from carbon dioxide and water.",
+    "example": "Photosynthesis by forests produces oxygen and absorbs large amounts of carbon dioxide.",
+    "category": "Ecosystems"
+  },
+  {
+    "word": "decomposer",
+    "meaning": "An organism that breaks down dead or decaying organic matter, returning nutrients to the ecosystem.",
+    "example": "Fungi and bacteria act as decomposers, recycling nutrients back into the soil.",
+    "category": "Ecosystems"
+  },
+  {
+    "word": "producer",
+    "meaning": "An organism, typically a plant, that produces its own food through photosynthesis.",
+    "example": "Phytoplankton are the primary producers in marine ecosystems.",
+    "category": "Ecosystems"
+  },
+  {
+    "word": "consumer",
+    "meaning": "An organism that cannot produce its own food and must eat other organisms for energy.",
+    "example": "Herbivores such as deer are primary consumers in a forest ecosystem.",
+    "category": "Ecosystems"
+  },
+  {
+    "word": "apex predator",
+    "meaning": "A predator at the top of a food chain with no natural predators of its own.",
+    "example": "The great white shark is an apex predator in marine ecosystems.",
+    "category": "Ecosystems"
+  },
+  {
+    "word": "symbiosis",
+    "meaning": "A close and long-term biological interaction between two different organisms.",
+    "example": "The symbiosis between clownfish and sea anemones benefits both species.",
+    "category": "Ecosystems"
+  },
+  {
+    "word": "mutualism",
+    "meaning": "A type of symbiosis where both organisms benefit from the relationship.",
+    "example": "Bees and flowers have a mutualism relationship: bees get nectar, flowers get pollinated.",
+    "category": "Ecosystems"
+  },
+  {
+    "word": "parasitism",
+    "meaning": "A relationship in which one organism benefits at the expense of another.",
+    "example": "Ticks practice parasitism by feeding on the blood of mammals.",
+    "category": "Ecosystems"
+  },
+  {
+    "word": "wetland",
+    "meaning": "Land consisting of marshes or swamps that is saturated with water, supporting diverse wildlife.",
+    "example": "Wetlands filter water, reduce flooding, and provide habitat for hundreds of bird species.",
+    "category": "Ecosystems"
+  },
+  {
+    "word": "rainforest",
+    "meaning": "A luxuriant, dense forest found in tropical areas with consistently heavy rainfall.",
+    "example": "The Amazon rainforest produces 20% of the world's oxygen.",
+    "category": "Ecosystems"
+  },
+  {
+    "word": "savanna",
+    "meaning": "A grassy plain in tropical and subtropical regions, with few trees.",
+    "example": "The African savanna is home to lions, elephants, and vast herds of wildebeest.",
+    "category": "Ecosystems"
+  },
+  {
+    "word": "tundra",
+    "meaning": "A vast, flat, treeless Arctic region in which the subsoil is permanently frozen.",
+    "example": "The tundra is extremely sensitive to climate change due to its frozen soils.",
+    "category": "Ecosystems"
+  },
+  {
+    "word": "coral reef",
+    "meaning": "A ridge of rock in the sea formed by the growth and compaction of coral, supporting diverse marine life.",
+    "example": "The Great Barrier Reef is the world's largest coral reef ecosystem.",
+    "category": "Ecosystems"
+  },
+  {
+    "word": "mangrove",
+    "meaning": "A shrub or small tree that grows in coastal saline or brackish water, providing critical coastal habitat.",
+    "example": "Mangrove forests protect coastlines from storms and serve as nurseries for fish.",
+    "category": "Ecosystems"
+  },
+  {
+    "word": "estuary",
+    "meaning": "The tidal mouth of a large river, where the river meets the sea, forming a rich ecosystem.",
+    "example": "Estuaries are highly productive ecosystems that support many species of fish and birds.",
+    "category": "Ecosystems"
+  },
+  {
+    "word": "watershed",
+    "meaning": "An area of land that drains all the streams and rainfall to a common outlet, such as a river.",
+    "example": "Protecting the watershed is essential for maintaining clean drinking water supplies.",
+    "category": "Ecosystems"
+  },
+  {
+    "word": "keystone species",
+    "meaning": "A species that has a disproportionately large effect on its ecosystem relative to its abundance.",
+    "example": "Sea otters are a keystone species because they control sea urchin populations.",
+    "category": "Ecosystems"
+  },
+  {
+    "word": "ecological niche",
+    "meaning": "The role and position a species has in its environment, including all interactions with biotic and abiotic factors.",
+    "example": "The woodpecker fills a unique ecological niche by foraging for insects in tree bark.",
+    "category": "Ecosystems"
+  },
+  {
+    "word": "succession",
+    "meaning": "The process by which an ecosystem changes over time from simple communities to more complex ones.",
+    "example": "After a forest fire, ecological succession eventually restores a mature forest.",
+    "category": "Ecosystems"
+  },
+  {
+    "word": "carrying capacity",
+    "meaning": "The maximum population size of a species that an environment can sustain indefinitely.",
+    "example": "Overpopulation of deer caused the local ecosystem to exceed its carrying capacity.",
+    "category": "Ecosystems"
+  },
+  {
+    "word": "biodiversity",
+    "meaning": "The variety of life on Earth, including diversity within species, between species, and of ecosystems.",
+    "example": "High biodiversity makes ecosystems more resilient to disease and environmental change.",
+    "category": "Biodiversity"
+  },
+  {
+    "word": "species richness",
+    "meaning": "The number of different species found in a given area.",
+    "example": "Tropical rainforests have the highest species richness of any terrestrial biome.",
+    "category": "Biodiversity"
+  },
+  {
+    "word": "endemic species",
+    "meaning": "A species that is native to and found only in a particular geographic area.",
+    "example": "The lemur is an endemic species found only on the island of Madagascar.",
+    "category": "Biodiversity"
+  },
+  {
+    "word": "invasive species",
+    "meaning": "A non-native species that spreads rapidly and causes harm to the local ecosystem.",
+    "example": "The zebra mussel is an invasive species that has disrupted Great Lakes ecosystems.",
+    "category": "Biodiversity"
+  },
+  {
+    "word": "native species",
+    "meaning": "A species that originally lives or grows in a particular region without human introduction.",
+    "example": "Planting native species in gardens provides food and shelter for local wildlife.",
+    "category": "Biodiversity"
+  },
+  {
+    "word": "genetic diversity",
+    "meaning": "The variety of genes within a species population, which is essential for adaptation and survival.",
+    "example": "Genetic diversity helps a population survive new diseases and environmental changes.",
+    "category": "Biodiversity"
+  },
+  {
+    "word": "mass extinction",
+    "meaning": "A widespread and rapid decrease in the biodiversity on Earth, typically defined as the loss of 75% of species.",
+    "example": "Scientists warn we may be entering a sixth mass extinction driven by human activity.",
+    "category": "Biodiversity"
+  },
+  {
+    "word": "pollinator",
+    "meaning": "An animal, such as a bee or butterfly, that carries pollen from one plant to another, enabling fertilization.",
+    "example": "The decline of pollinators threatens the reproduction of a wide variety of food crops.",
+    "category": "Biodiversity"
+  },
+  {
+    "word": "migration",
+    "meaning": "The seasonal movement of animals from one habitat to another, typically in response to temperature or food availability.",
+    "example": "Climate change is disrupting the migration patterns of many bird species.",
+    "category": "Biodiversity"
+  },
+  {
+    "word": "adaptation",
+    "meaning": "A change or the process of change by which an organism becomes better suited to its environment.",
+    "example": "The polar bear's white fur is an adaptation for camouflage in Arctic environments.",
+    "category": "Biodiversity"
+  },
+  {
+    "word": "evolution",
+    "meaning": "The gradual development of species over generations through natural selection and genetic change.",
+    "example": "Evolution has produced an extraordinary variety of life on Earth over billions of years.",
+    "category": "Biodiversity"
+  },
+  {
+    "word": "natural selection",
+    "meaning": "The process by which organisms with favorable traits survive and reproduce more successfully.",
+    "example": "Natural selection favors camouflaged insects that are harder for predators to spot.",
+    "category": "Biodiversity"
+  },
+  {
+    "word": "speciation",
+    "meaning": "The process by which new and distinct species evolve through reproductive isolation.",
+    "example": "Geographic isolation of island populations often leads to speciation.",
+    "category": "Biodiversity"
+  },
+  {
+    "word": "flora",
+    "meaning": "The plants of a particular region, habitat, or geological period.",
+    "example": "The flora of the Mediterranean includes olive trees, lavender, and wild herbs.",
+    "category": "Biodiversity"
+  },
+  {
+    "word": "fauna",
+    "meaning": "The animals of a particular region, habitat, or geological period.",
+    "example": "Australia's fauna includes many unique marsupials found nowhere else on Earth.",
+    "category": "Biodiversity"
+  },
+  {
+    "word": "microbiome",
+    "meaning": "The community of microorganisms living in a particular environment, including the human body or soil.",
+    "example": "The soil microbiome is essential for nutrient cycling and plant health.",
+    "category": "Biodiversity"
+  },
+  {
+    "word": "biosphere",
+    "meaning": "The regions of the surface, atmosphere, and hydrosphere of the Earth occupied by living organisms.",
+    "example": "Human activities are altering the biosphere at an unprecedented rate.",
+    "category": "Biodiversity"
+  },
+  {
+    "word": "ecosystem services",
+    "meaning": "The benefits that humans receive from ecosystems, such as clean water, pollination, and climate regulation.",
+    "example": "Healthy forests provide ecosystem services worth trillions of dollars annually.",
+    "category": "Biodiversity"
+  },
+  {
+    "word": "agroforestry",
+    "meaning": "A land-use management system that integrates trees with crops or livestock to improve sustainability.",
+    "example": "Agroforestry helps farmers maintain soil health while preserving biodiversity.",
+    "category": "Conservation"
+  },
+  {
+    "word": "ecological footprint",
+    "meaning": "A measure of the demand placed on Earth's ecosystems by an individual or population.",
+    "example": "Reducing meat consumption can significantly lower your ecological footprint.",
+    "category": "Conservation"
+  },
+  {
+    "word": "environmental impact assessment",
+    "meaning": "An evaluation of the likely environmental effects of a proposed project or development.",
+    "example": "An environmental impact assessment is required before any new highway can be built.",
+    "category": "Conservation"
+  },
+  {
+    "word": "circular economy",
+    "meaning": "An economic system aimed at eliminating waste through the continual use of resources.",
+    "example": "A circular economy model encourages repairing and reusing products instead of discarding them.",
+    "category": "Conservation"
+  },
+  {
+    "word": "zero waste",
+    "meaning": "A philosophy that encourages redesigning the life cycle of resources to minimize waste.",
+    "example": "The zero waste movement promotes composting, recycling, and refusing single-use plastics.",
+    "category": "Conservation"
+  },
+  {
+    "word": "recycling",
+    "meaning": "The process of converting waste materials into reusable materials to prevent their disposal.",
+    "example": "Recycling aluminum cans saves up to 95% of the energy needed to produce new ones.",
+    "category": "Conservation"
+  },
+  {
+    "word": "composting",
+    "meaning": "The process of recycling organic matter, such as food scraps, into fertilizer for plants.",
+    "example": "Composting kitchen waste reduces landfill use and enriches garden soil.",
+    "category": "Conservation"
+  },
+  {
+    "word": "biodegradable",
+    "meaning": "Capable of being decomposed by bacteria or other living organisms and so avoiding environmental pollution.",
+    "example": "Switching to biodegradable packaging can significantly reduce plastic waste.",
+    "category": "Conservation"
+  },
+  {
+    "word": "bioremediation",
+    "meaning": "The use of living organisms to remove or neutralize pollutants from a contaminated environment.",
+    "example": "Bioremediation using oil-eating bacteria helped clean up after the oil spill.",
+    "category": "Conservation"
+  },
+  {
+    "word": "phytoremediation",
+    "meaning": "The use of plants to remove, contain, or detoxify pollutants in the soil or water.",
+    "example": "Phytoremediation with sunflowers was used to absorb radioactive metals near Chernobyl.",
+    "category": "Conservation"
+  },
+  {
+    "word": "afforestation",
+    "meaning": "The process of planting trees in an area where there has been no recent tree cover.",
+    "example": "Large-scale afforestation programs are being used to combat desertification.",
+    "category": "Conservation"
+  },
+  {
+    "word": "particulate matter",
+    "meaning": "Tiny particles of solid or liquid suspended in the air that can damage the respiratory system.",
+    "example": "Particulate matter from vehicle exhaust contributes significantly to urban air pollution.",
+    "category": "Pollution"
+  },
+  {
+    "word": "effluent",
+    "meaning": "Liquid waste or sewage discharged into a river or the sea.",
+    "example": "Untreated factory effluent was dumped into the river, killing fish for miles downstream.",
+    "category": "Pollution"
+  },
+  {
+    "word": "contamination",
+    "meaning": "The presence of an unwanted substance in an environment that makes it impure or unsafe.",
+    "example": "Lead contamination of drinking water poses severe health risks, especially for children.",
+    "category": "Pollution"
+  },
+  {
+    "word": "bioaccumulation",
+    "meaning": "The gradual accumulation of substances, such as toxins, in an organism over time.",
+    "example": "Mercury undergoes bioaccumulation in fish, reaching dangerous levels in large predatory species.",
+    "category": "Pollution"
+  },
+  {
+    "word": "biomagnification",
+    "meaning": "The increasing concentration of a substance in the tissues of organisms at successively higher levels in a food chain.",
+    "example": "DDT undergoes biomagnification, reaching toxic levels in birds of prey that eat contaminated fish.",
+    "category": "Pollution"
+  },
+  {
+    "word": "landfill",
+    "meaning": "A site for the disposal of waste materials by burial, the most common method of solid waste disposal.",
+    "example": "Landfills produce methane gas as organic waste decomposes, contributing to climate change.",
+    "category": "Pollution"
+  },
+  {
+    "word": "incineration",
+    "meaning": "The burning of waste material, especially as a means of waste disposal.",
+    "example": "Incineration reduces waste volume but can release toxic pollutants if uncontrolled.",
+    "category": "Pollution"
+  },
+  {
+    "word": "aquifer",
+    "meaning": "A body of permeable rock that can contain or transmit groundwater.",
+    "example": "Overuse of the aquifer has caused water tables to drop in many farming regions.",
+    "category": "Ecosystems"
+  },
+  {
+    "word": "groundwater",
+    "meaning": "Water held underground in the soil or in pores and crevices in rock.",
+    "example": "Groundwater contamination from industrial sites is difficult and expensive to clean up.",
+    "category": "Ecosystems"
+  },
+  {
+    "word": "water table",
+    "meaning": "The level below which the ground is saturated with water.",
+    "example": "Excessive irrigation has lowered the water table in many agricultural regions.",
+    "category": "Ecosystems"
+  },
+  {
+    "word": "hydrological cycle",
+    "meaning": "The continuous movement of water through Earth's systems: evaporation, precipitation, and runoff.",
+    "example": "Deforestation disrupts the hydrological cycle by reducing water transpiration.",
+    "category": "Ecosystems"
+  },
+  {
+    "word": "transpiration",
+    "meaning": "The process by which moisture is carried through plants from roots to leaves and released as vapor.",
+    "example": "Trees contribute to local rainfall through transpiration.",
+    "category": "Ecosystems"
+  },
+  {
+    "word": "erosion",
+    "meaning": "The gradual destruction or diminution of rock, soil, or land by natural forces such as water or wind.",
+    "example": "Soil erosion on deforested hillsides leads to mudslides and reduced agricultural productivity.",
+    "category": "Ecosystems"
+  },
+  {
+    "word": "sedimentation",
+    "meaning": "The process of particles settling out of a fluid and depositing on a surface.",
+    "example": "Sedimentation in rivers can clog waterways and harm fish spawning grounds.",
+    "category": "Ecosystems"
+  },
+  {
+    "word": "albedo",
+    "meaning": "The proportion of incident light or radiation reflected by a surface, especially of the Earth.",
+    "example": "Melting sea ice reduces Earth's albedo, causing the ocean to absorb more solar heat.",
+    "category": "Climate"
+  },
+  {
+    "word": "tipping point",
+    "meaning": "A threshold in the climate system that, when crossed, triggers an irreversible change.",
+    "example": "Scientists warn that the Amazon could reach a climate tipping point within decades.",
+    "category": "Climate"
+  },
+  {
+    "word": "carbon cycle",
+    "meaning": "The series of processes by which carbon compounds are interconverted in the environment.",
+    "example": "The carbon cycle involves the exchange of carbon between the atmosphere, oceans, soil, and living organisms.",
+    "category": "Climate"
+  },
+  {
+    "word": "net zero",
+    "meaning": "A state in which the greenhouse gases going into the atmosphere are balanced by removal from the atmosphere.",
+    "example": "Many nations have pledged to achieve net zero emissions by 2050.",
+    "category": "Climate"
+  },
+  {
+    "word": "Paris Agreement",
+    "meaning": "An international treaty on climate change adopted in 2015, aiming to limit global warming to below 2°C.",
+    "example": "The Paris Agreement calls on countries to reduce their greenhouse gas emissions.",
+    "category": "Climate"
+  },
+  {
+    "word": "carbon tax",
+    "meaning": "A tax levied on the carbon content of fuels, intended to reduce greenhouse gas emissions.",
+    "example": "A carbon tax makes fossil fuels more expensive, encouraging the switch to clean energy.",
+    "category": "Climate"
+  },
+  {
+    "word": "greenwashing",
+    "meaning": "The practice of making misleading claims about the environmental benefits of a product or company.",
+    "example": "The oil company's environmental campaign was criticized as greenwashing.",
+    "category": "Conservation"
+  },
+  {
+    "word": "environmental justice",
+    "meaning": "The fair treatment and meaningful involvement of all people in environmental laws and policies.",
+    "example": "Environmental justice advocates ensure that low-income communities are not disproportionately harmed by pollution.",
+    "category": "Conservation"
+  },
+  {
+    "word": "anthropogenic",
+    "meaning": "Originating in human activity; caused by or resulting from human action on the environment.",
+    "example": "Anthropogenic emissions of CO₂ are the main driver of current climate change.",
+    "category": "Climate"
+  },
+  {
+    "word": "biodegradation",
+    "meaning": "The chemical dissolution of materials by bacteria, fungi, or other biological means.",
+    "example": "Biodegradation of organic waste in soil is carried out by millions of microorganisms.",
+    "category": "Conservation"
+  },
+  {
+    "word": "habitat fragmentation",
+    "meaning": "The process by which large habitats are divided into smaller, isolated patches, often by human development.",
+    "example": "Roads cause habitat fragmentation that isolates animal populations and reduces genetic diversity.",
+    "category": "Biodiversity"
+  },
+  {
+    "word": "overfishing",
+    "meaning": "The removal of fish from a body of water at a rate that the species cannot replenish.",
+    "example": "Overfishing has caused the collapse of many important commercial fish stocks.",
+    "category": "Conservation"
+  },
+  {
+    "word": "ocean acidification",
+    "meaning": "The ongoing decrease in the pH of the Earth's oceans, caused by the uptake of CO₂ from the atmosphere.",
+    "example": "Ocean acidification dissolves the shells of mollusks and threatens coral reef systems.",
+    "category": "Climate"
+  },
+  {
+    "word": "dead zone",
+    "meaning": "An area of a body of water with so little dissolved oxygen that aquatic life cannot survive.",
+    "example": "Agricultural runoff has created a large dead zone in the Gulf of Mexico each summer.",
+    "category": "Pollution"
+  },
+  {
+    "word": "sustainable development",
+    "meaning": "Development that meets the needs of the present without compromising the ability of future generations to meet their own needs.",
+    "example": "The UN's Sustainable Development Goals guide nations toward a more sustainable future.",
+    "category": "Conservation"
+  }
+]

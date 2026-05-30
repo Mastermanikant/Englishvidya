@@ -1,0 +1,752 @@
+[
+  {
+    "word": "atom",
+    "meaning": "The smallest unit of a chemical element that retains the properties of that element",
+    "example": "Every atom of gold has the same number of protons.",
+    "category": "Science"
+  },
+  {
+    "word": "cell",
+    "meaning": "The basic structural and functional unit of all living organisms",
+    "example": "A human body contains trillions of cells.",
+    "category": "Science"
+  },
+  {
+    "word": "energy",
+    "meaning": "The capacity to do work or cause change in a physical system",
+    "example": "The sun provides energy to all living things on Earth.",
+    "category": "Science"
+  },
+  {
+    "word": "force",
+    "meaning": "A push or pull on an object that can change its motion or shape",
+    "example": "Gravity is a force that pulls objects toward the Earth.",
+    "category": "Science"
+  },
+  {
+    "word": "magnet",
+    "meaning": "An object that produces a magnetic field and attracts certain metals",
+    "example": "The magnet attracted all the iron filings on the table.",
+    "category": "Science"
+  },
+  {
+    "word": "photosynthesis",
+    "meaning": "The process by which green plants use sunlight to make food from carbon dioxide and water",
+    "example": "Plants carry out photosynthesis using the chlorophyll in their leaves.",
+    "category": "Science"
+  },
+  {
+    "word": "organism",
+    "meaning": "Any living thing, including plants, animals, fungi, and microbes",
+    "example": "Bacteria are single-celled organisms found everywhere.",
+    "category": "Science"
+  },
+  {
+    "word": "gravity",
+    "meaning": "The natural force that attracts objects toward the center of the Earth or any other massive body",
+    "example": "Gravity keeps the Moon orbiting around the Earth.",
+    "category": "Science"
+  },
+  {
+    "word": "habitat",
+    "meaning": "The natural environment where a plant or animal lives and grows",
+    "example": "The rainforest is the habitat of many exotic species.",
+    "category": "Science"
+  },
+  {
+    "word": "evaporation",
+    "meaning": "The process by which liquid turns into vapor or gas",
+    "example": "Evaporation of water from lakes contributes to cloud formation.",
+    "category": "Science"
+  },
+  {
+    "word": "condensation",
+    "meaning": "The process by which water vapor cools and turns into liquid water",
+    "example": "Condensation on a cold glass forms tiny water droplets.",
+    "category": "Science"
+  },
+  {
+    "word": "ecosystem",
+    "meaning": "A community of living organisms interacting with their physical environment",
+    "example": "A pond is a small but complex ecosystem.",
+    "category": "Science"
+  },
+  {
+    "word": "friction",
+    "meaning": "The resistance force that opposes motion between two surfaces in contact",
+    "example": "Friction between the brakes and wheels slows down a bicycle.",
+    "category": "Science"
+  },
+  {
+    "word": "nucleus",
+    "meaning": "The central part of an atom containing protons and neutrons; also the control center of a cell",
+    "example": "The nucleus of a cell contains the genetic material DNA.",
+    "category": "Science"
+  },
+  {
+    "word": "element",
+    "meaning": "A pure substance made of only one kind of atom that cannot be broken down by chemical means",
+    "example": "Oxygen is an element essential for breathing.",
+    "category": "Science"
+  },
+  {
+    "word": "molecule",
+    "meaning": "The smallest particle of a substance that retains all its chemical properties, made of two or more atoms",
+    "example": "A water molecule consists of two hydrogen atoms and one oxygen atom.",
+    "category": "Science"
+  },
+  {
+    "word": "respiration",
+    "meaning": "The biological process of converting food into energy using oxygen",
+    "example": "Cellular respiration releases energy from glucose.",
+    "category": "Science"
+  },
+  {
+    "word": "vertebrate",
+    "meaning": "An animal that has a backbone or spinal column",
+    "example": "Fish, birds, and mammals are all vertebrates.",
+    "category": "Science"
+  },
+  {
+    "word": "invertebrate",
+    "meaning": "An animal that does not have a backbone",
+    "example": "Insects, worms, and jellyfish are invertebrates.",
+    "category": "Science"
+  },
+  {
+    "word": "experiment",
+    "meaning": "A scientific test done to discover something or prove a hypothesis",
+    "example": "The students conducted an experiment to test which material dissolves fastest.",
+    "category": "Science"
+  },
+  {
+    "word": "integer",
+    "meaning": "A whole number that can be positive, negative, or zero",
+    "example": "–5, 0, and 12 are all integers.",
+    "category": "Maths"
+  },
+  {
+    "word": "fraction",
+    "meaning": "A number that represents a part of a whole, written with a numerator over a denominator",
+    "example": "One half is written as the fraction 1/2.",
+    "category": "Maths"
+  },
+  {
+    "word": "decimal",
+    "meaning": "A number expressed using a decimal point to show values less than one",
+    "example": "The decimal 0.75 is equal to three quarters.",
+    "category": "Maths"
+  },
+  {
+    "word": "percentage",
+    "meaning": "A number or ratio expressed as a fraction of 100",
+    "example": "She scored 90 percentage in her mathematics test.",
+    "category": "Maths"
+  },
+  {
+    "word": "perimeter",
+    "meaning": "The total distance around the outside boundary of a two-dimensional shape",
+    "example": "The perimeter of a square with side 4 cm is 16 cm.",
+    "category": "Maths"
+  },
+  {
+    "word": "area",
+    "meaning": "The amount of surface enclosed within a boundary of a two-dimensional shape",
+    "example": "The area of a rectangle is calculated by multiplying its length by its width.",
+    "category": "Maths"
+  },
+  {
+    "word": "volume",
+    "meaning": "The amount of three-dimensional space occupied by an object or enclosed in a container",
+    "example": "The volume of a cube is found by cubing the length of its side.",
+    "category": "Maths"
+  },
+  {
+    "word": "ratio",
+    "meaning": "A comparison of two quantities showing how many times one value contains or is contained within the other",
+    "example": "The ratio of boys to girls in the class is 3:2.",
+    "category": "Maths"
+  },
+  {
+    "word": "equation",
+    "meaning": "A mathematical statement that shows two expressions are equal, using the equals sign",
+    "example": "The equation 2x + 3 = 7 can be solved to find x = 2.",
+    "category": "Maths"
+  },
+  {
+    "word": "variable",
+    "meaning": "A symbol, usually a letter, that represents an unknown or changeable quantity in algebra",
+    "example": "In the expression 3y + 5, the letter y is the variable.",
+    "category": "Maths"
+  },
+  {
+    "word": "factor",
+    "meaning": "A number that divides exactly into another number without leaving a remainder",
+    "example": "The factors of 12 are 1, 2, 3, 4, 6, and 12.",
+    "category": "Maths"
+  },
+  {
+    "word": "multiple",
+    "meaning": "A number that is the product of a given number and any whole number",
+    "example": "The multiples of 5 are 5, 10, 15, 20, and so on.",
+    "category": "Maths"
+  },
+  {
+    "word": "prime number",
+    "meaning": "A number greater than 1 that has no factors other than 1 and itself",
+    "example": "7 is a prime number because it can only be divided by 1 and 7.",
+    "category": "Maths"
+  },
+  {
+    "word": "diameter",
+    "meaning": "A straight line passing through the center of a circle from one edge to the other",
+    "example": "If the diameter of the circle is 10 cm, its radius is 5 cm.",
+    "category": "Maths"
+  },
+  {
+    "word": "radius",
+    "meaning": "The distance from the center of a circle to any point on its edge",
+    "example": "The radius of the wheel was measured at 30 centimetres.",
+    "category": "Maths"
+  },
+  {
+    "word": "symmetry",
+    "meaning": "The property of a shape that looks the same on both sides of a dividing line",
+    "example": "A butterfly has bilateral symmetry along its body.",
+    "category": "Maths"
+  },
+  {
+    "word": "probability",
+    "meaning": "The measure of how likely an event is to occur, expressed as a number between 0 and 1",
+    "example": "The probability of getting heads when flipping a coin is 0.5.",
+    "category": "Maths"
+  },
+  {
+    "word": "average",
+    "meaning": "A central value of a set of numbers calculated by adding them and dividing by the count",
+    "example": "The average of 4, 6, and 8 is 6.",
+    "category": "Maths"
+  },
+  {
+    "word": "graph",
+    "meaning": "A diagram that shows the relationship between two or more sets of numbers or data",
+    "example": "The bar graph showed rainfall levels for each month of the year.",
+    "category": "Maths"
+  },
+  {
+    "word": "angle",
+    "meaning": "The space between two lines or surfaces that meet at a point, measured in degrees",
+    "example": "A right angle measures exactly 90 degrees.",
+    "category": "Maths"
+  },
+  {
+    "word": "noun",
+    "meaning": "A word that names a person, place, thing, or idea",
+    "example": "The words 'dog', 'city', and 'happiness' are all nouns.",
+    "category": "English"
+  },
+  {
+    "word": "verb",
+    "meaning": "A word that expresses an action, occurrence, or state of being",
+    "example": "In the sentence 'She runs every morning', 'runs' is the verb.",
+    "category": "English"
+  },
+  {
+    "word": "adjective",
+    "meaning": "A word that describes or modifies a noun or pronoun",
+    "example": "In the phrase 'a tall building', 'tall' is an adjective.",
+    "category": "English"
+  },
+  {
+    "word": "adverb",
+    "meaning": "A word that modifies a verb, adjective, or another adverb, often telling how, when, or where",
+    "example": "She spoke softly — 'softly' is the adverb.",
+    "category": "English"
+  },
+  {
+    "word": "pronoun",
+    "meaning": "A word used in place of a noun to avoid repetition",
+    "example": "In the sentence 'He is my friend', 'he' is a pronoun.",
+    "category": "English"
+  },
+  {
+    "word": "preposition",
+    "meaning": "A word that shows the relationship between a noun or pronoun and other words in a sentence",
+    "example": "The cat sat under the table — 'under' is a preposition.",
+    "category": "English"
+  },
+  {
+    "word": "conjunction",
+    "meaning": "A word that connects words, phrases, or clauses together",
+    "example": "I like tea and coffee — 'and' is a conjunction.",
+    "category": "English"
+  },
+  {
+    "word": "synonym",
+    "meaning": "A word that has the same or nearly the same meaning as another word",
+    "example": "'Happy' and 'joyful' are synonyms.",
+    "category": "English"
+  },
+  {
+    "word": "antonym",
+    "meaning": "A word that has the opposite meaning of another word",
+    "example": "'Hot' and 'cold' are antonyms.",
+    "category": "English"
+  },
+  {
+    "word": "syllable",
+    "meaning": "A unit of pronunciation forming a word or part of a word, typically containing a vowel sound",
+    "example": "The word 'elephant' has three syllables: el-e-phant.",
+    "category": "English"
+  },
+  {
+    "word": "metaphor",
+    "meaning": "A figure of speech that describes something by saying it is something else, implying a comparison",
+    "example": "Life is a journey is a common metaphor.",
+    "category": "English"
+  },
+  {
+    "word": "simile",
+    "meaning": "A figure of speech that compares two unlike things using 'like' or 'as'",
+    "example": "She is as brave as a lion is a simile.",
+    "category": "English"
+  },
+  {
+    "word": "alliteration",
+    "meaning": "The repetition of the same consonant sound at the beginning of nearby words",
+    "example": "Peter Piper picked a peck of pickled peppers is an example of alliteration.",
+    "category": "English"
+  },
+  {
+    "word": "tense",
+    "meaning": "The grammatical form of a verb that shows the time of an action or state",
+    "example": "We use the past tense to talk about things that have already happened.",
+    "category": "English"
+  },
+  {
+    "word": "comprehension",
+    "meaning": "The ability to read a text and understand its meaning",
+    "example": "The teacher gave a comprehension passage about wildlife conservation.",
+    "category": "English"
+  },
+  {
+    "word": "paragraph",
+    "meaning": "A group of related sentences that develop one main idea",
+    "example": "A well-written paragraph begins with a topic sentence.",
+    "category": "English"
+  },
+  {
+    "word": "punctuation",
+    "meaning": "Marks used in writing to separate sentences and clarify meaning, such as full stops and commas",
+    "example": "Correct punctuation helps readers understand a sentence clearly.",
+    "category": "English"
+  },
+  {
+    "word": "idiom",
+    "meaning": "A phrase or expression whose meaning cannot be understood from the literal meanings of its words",
+    "example": "It is raining cats and dogs is an idiom meaning it is raining heavily.",
+    "category": "English"
+  },
+  {
+    "word": "narrative",
+    "meaning": "A spoken or written account of events or a story",
+    "example": "The novel told its narrative from the perspective of a young child.",
+    "category": "English"
+  },
+  {
+    "word": "dialogue",
+    "meaning": "A conversation between two or more characters in a book, play, or film",
+    "example": "The dialogue in the play revealed the characters' true feelings.",
+    "category": "English"
+  },
+  {
+    "word": "continent",
+    "meaning": "One of the seven large landmasses of the Earth",
+    "example": "Asia is the largest continent in the world.",
+    "category": "Social"
+  },
+  {
+    "word": "democracy",
+    "meaning": "A system of government in which citizens vote to elect their leaders",
+    "example": "India is the world's largest democracy.",
+    "category": "Social"
+  },
+  {
+    "word": "constitution",
+    "meaning": "The fundamental set of laws and principles that govern a country",
+    "example": "The Indian Constitution came into effect on 26th January 1950.",
+    "category": "Social"
+  },
+  {
+    "word": "citizenship",
+    "meaning": "The status of being a legally recognized member of a country with rights and responsibilities",
+    "example": "Citizenship grants the right to vote in national elections.",
+    "category": "Social"
+  },
+  {
+    "word": "culture",
+    "meaning": "The customs, traditions, arts, and social behaviour of a group of people",
+    "example": "India has a rich and diverse culture that varies by region.",
+    "category": "Social"
+  },
+  {
+    "word": "economy",
+    "meaning": "The system of production, distribution, and consumption of goods and services in a region",
+    "example": "Agriculture plays an important role in India's economy.",
+    "category": "Social"
+  },
+  {
+    "word": "migration",
+    "meaning": "The movement of people from one place to another to settle permanently or temporarily",
+    "example": "Migration from rural to urban areas has increased in recent decades.",
+    "category": "Social"
+  },
+  {
+    "word": "latitude",
+    "meaning": "The angular distance of a place north or south of the Earth's equator, measured in degrees",
+    "example": "The equator is at 0 degrees latitude.",
+    "category": "Social"
+  },
+  {
+    "word": "longitude",
+    "meaning": "The angular distance of a place east or west of the prime meridian, measured in degrees",
+    "example": "India spans from about 68 to 97 degrees east longitude.",
+    "category": "Social"
+  },
+  {
+    "word": "parliament",
+    "meaning": "The highest legislative body of a country, responsible for making laws",
+    "example": "The Indian Parliament consists of the Lok Sabha and the Rajya Sabha.",
+    "category": "Social"
+  },
+  {
+    "word": "resource",
+    "meaning": "A natural or human-made material that is useful and has value for economic or other purposes",
+    "example": "Water is a precious natural resource that must be conserved.",
+    "category": "Social"
+  },
+  {
+    "word": "population",
+    "meaning": "The total number of people living in a particular area or country",
+    "example": "India has a population of over 1.4 billion people.",
+    "category": "Social"
+  },
+  {
+    "word": "climate",
+    "meaning": "The typical weather conditions of a region over a long period of time",
+    "example": "The Sahara Desert has a hot and dry climate.",
+    "category": "Social"
+  },
+  {
+    "word": "plateau",
+    "meaning": "A large flat area of high land, often with steep sides",
+    "example": "The Deccan Plateau covers much of southern India.",
+    "category": "Social"
+  },
+  {
+    "word": "peninsula",
+    "meaning": "A piece of land that is almost entirely surrounded by water and connected to a larger landmass",
+    "example": "India is often called a peninsula because it is surrounded by sea on three sides.",
+    "category": "Social"
+  },
+  {
+    "word": "government",
+    "meaning": "The group of people with the authority to make and enforce laws in a country or region",
+    "example": "The government announced new policies to improve public education.",
+    "category": "Social"
+  },
+  {
+    "word": "census",
+    "meaning": "An official count of all the people living in a country, usually including details about them",
+    "example": "A national census is conducted every ten years in India.",
+    "category": "Social"
+  },
+  {
+    "word": "trade",
+    "meaning": "The buying and selling of goods and services between people or countries",
+    "example": "India has a long history of trade along the Silk Road.",
+    "category": "Social"
+  },
+  {
+    "word": "irrigation",
+    "meaning": "The supply of water to agricultural land through channels or pipes to help crops grow",
+    "example": "Irrigation systems allow farmers to grow crops even in dry regions.",
+    "category": "Social"
+  },
+  {
+    "word": "heritage",
+    "meaning": "Features of history, culture, and traditions passed down through generations",
+    "example": "The Taj Mahal is part of India's world heritage.",
+    "category": "Social"
+  },
+  {
+    "word": "hypothesis",
+    "meaning": "A proposed explanation for an observation that can be tested through an experiment",
+    "example": "The scientist formed a hypothesis that plants grow faster in sunlight.",
+    "category": "Science"
+  },
+  {
+    "word": "observation",
+    "meaning": "The action of carefully watching or noticing something and recording the findings",
+    "example": "Careful observation revealed that the liquid changed colour when heated.",
+    "category": "Science"
+  },
+  {
+    "word": "solution",
+    "meaning": "A mixture in which one substance is dissolved evenly in another",
+    "example": "Salt dissolved in water forms a saline solution.",
+    "category": "Science"
+  },
+  {
+    "word": "density",
+    "meaning": "The degree of compactness of a substance, measured as mass per unit volume",
+    "example": "Iron has a greater density than wood, which is why iron sinks in water.",
+    "category": "Science"
+  },
+  {
+    "word": "circulation",
+    "meaning": "The movement of blood through the heart and blood vessels of the body",
+    "example": "The heart pumps blood to ensure circulation throughout the body.",
+    "category": "Science"
+  },
+  {
+    "word": "pollination",
+    "meaning": "The transfer of pollen from the male part of a flower to the female part, enabling reproduction",
+    "example": "Bees help in the pollination of flowers by carrying pollen.",
+    "category": "Science"
+  },
+  {
+    "word": "data",
+    "meaning": "Facts and statistics collected together for reference or analysis",
+    "example": "The data showed a steady increase in temperature over ten years.",
+    "category": "Maths"
+  },
+  {
+    "word": "coordinate",
+    "meaning": "A set of numbers used to indicate the position of a point on a grid or map",
+    "example": "The point (3, 4) has x-coordinate 3 and y-coordinate 4.",
+    "category": "Maths"
+  },
+  {
+    "word": "sequence",
+    "meaning": "An ordered set of numbers or items that follow a particular pattern or rule",
+    "example": "The sequence 2, 4, 6, 8 is formed by adding 2 each time.",
+    "category": "Maths"
+  },
+  {
+    "word": "estimation",
+    "meaning": "An approximate calculation or judgement of a value or quantity",
+    "example": "He made an estimation that about 200 people attended the event.",
+    "category": "Maths"
+  },
+  {
+    "word": "polygon",
+    "meaning": "A closed flat shape with three or more straight sides",
+    "example": "A hexagon is a polygon with six sides.",
+    "category": "Maths"
+  },
+  {
+    "word": "inference",
+    "meaning": "A conclusion reached based on evidence and reasoning rather than explicit statements",
+    "example": "From the wet footprints, the detective made an inference that someone had recently entered.",
+    "category": "English"
+  },
+  {
+    "word": "vocabulary",
+    "meaning": "The body of words known and used by a person or within a particular subject",
+    "example": "Reading widely helps to build a strong vocabulary.",
+    "category": "English"
+  },
+  {
+    "word": "theme",
+    "meaning": "The central topic or message of a piece of writing or art",
+    "example": "The theme of the novel was the importance of friendship.",
+    "category": "English"
+  },
+  {
+    "word": "suffix",
+    "meaning": "A letter or group of letters added at the end of a word to change its meaning or function",
+    "example": "Adding the suffix '-ful' to 'care' makes the word 'careful'.",
+    "category": "English"
+  },
+  {
+    "word": "prefix",
+    "meaning": "A letter or group of letters added at the beginning of a word to change its meaning",
+    "example": "The prefix 'un-' added to 'happy' creates the word 'unhappy'.",
+    "category": "English"
+  },
+  {
+    "word": "tributary",
+    "meaning": "A river or stream that flows into a larger river",
+    "example": "The Yamuna is an important tributary of the Ganga river.",
+    "category": "Social"
+  },
+  {
+    "word": "monsoon",
+    "meaning": "A seasonal wind pattern that brings heavy rainfall to a region, especially South Asia",
+    "example": "The southwest monsoon brings most of India's annual rainfall.",
+    "category": "Social"
+  },
+  {
+    "word": "urbanisation",
+    "meaning": "The process by which towns and cities grow in size as more people move from rural to urban areas",
+    "example": "Rapid urbanisation has led to the growth of slums in many cities.",
+    "category": "Social"
+  },
+  {
+    "word": "sovereignty",
+    "meaning": "The full right and power of a country to govern itself without interference from outside",
+    "example": "The constitution upholds the sovereignty of the Indian nation.",
+    "category": "Social"
+  },
+  {
+    "word": "fossil",
+    "meaning": "The preserved remains or traces of an ancient organism found in rock",
+    "example": "Scientists discovered a dinosaur fossil buried deep in the desert.",
+    "category": "Science"
+  },
+  {
+    "word": "erosion",
+    "meaning": "The gradual wearing away of soil or rock by wind, water, or other natural forces",
+    "example": "Soil erosion along the river bank was caused by heavy flooding.",
+    "category": "Science"
+  },
+  {
+    "word": "decomposition",
+    "meaning": "The process by which dead organic matter is broken down into simpler substances by microbes",
+    "example": "Decomposition of fallen leaves returns nutrients to the soil.",
+    "category": "Science"
+  },
+  {
+    "word": "symmetrical",
+    "meaning": "Made up of exactly similar parts facing each other or around an axis",
+    "example": "The symmetrical design of the building made it very pleasing to look at.",
+    "category": "Maths"
+  },
+  {
+    "word": "perpendicular",
+    "meaning": "A line or surface that is at a right angle (90 degrees) to another line or surface",
+    "example": "The two walls are perpendicular to each other.",
+    "category": "Maths"
+  },
+  {
+    "word": "parallel",
+    "meaning": "Lines or surfaces that are the same distance apart and never meet",
+    "example": "Railway tracks are parallel to each other.",
+    "category": "Maths"
+  },
+  {
+    "word": "allusion",
+    "meaning": "An indirect reference to a person, event, or piece of literature within a text",
+    "example": "His speech contained an allusion to Shakespeare's Hamlet.",
+    "category": "English"
+  },
+  {
+    "word": "onomatopoeia",
+    "meaning": "The use of words that imitate the sounds they describe",
+    "example": "Words like 'buzz', 'hiss', and 'clang' are examples of onomatopoeia.",
+    "category": "English"
+  },
+  {
+    "word": "sediment",
+    "meaning": "Matter that settles at the bottom of a liquid, or material deposited by water, wind, or glaciers",
+    "example": "The river deposited sediment on the plains during the flood.",
+    "category": "Science"
+  },
+  {
+    "word": "legislature",
+    "meaning": "The branch of government responsible for making laws",
+    "example": "The legislature passed a new education bill last year.",
+    "category": "Social"
+  },
+  {
+    "word": "fundamental rights",
+    "meaning": "Basic rights and freedoms guaranteed to all citizens by the constitution of a country",
+    "example": "Freedom of speech is one of the fundamental rights in India.",
+    "category": "Social"
+  },
+  {
+    "word": "deforestation",
+    "meaning": "The clearing of forests on a large scale, often resulting in damage to the environment",
+    "example": "Deforestation destroys wildlife habitats and contributes to climate change.",
+    "category": "Social"
+  },
+  {
+    "word": "revolution",
+    "meaning": "A forcible overthrow of a government or social order; also the orbiting of one body around another",
+    "example": "The Earth completes one revolution around the Sun every 365 days.",
+    "category": "Science"
+  },
+  {
+    "word": "rotation",
+    "meaning": "The action of an object spinning around its own axis",
+    "example": "The Earth's rotation on its axis causes day and night.",
+    "category": "Science"
+  },
+  {
+    "word": "prime meridian",
+    "meaning": "The line of longitude at 0 degrees that divides the Earth into the Eastern and Western Hemispheres",
+    "example": "Greenwich, England, is located on the prime meridian.",
+    "category": "Social"
+  },
+  {
+    "word": "biodiversity",
+    "meaning": "The variety of plant and animal life in a particular habitat or on Earth as a whole",
+    "example": "Tropical rainforests are known for their extraordinary biodiversity.",
+    "category": "Science"
+  },
+  {
+    "word": "photon",
+    "meaning": "A tiny particle of light that carries electromagnetic energy",
+    "example": "A photon of light travels at approximately 300,000 kilometres per second.",
+    "category": "Science"
+  },
+  {
+    "word": "mean",
+    "meaning": "The arithmetic average of a set of numbers",
+    "example": "The mean of 10, 20, and 30 is 20.",
+    "category": "Maths"
+  },
+  {
+    "word": "mode",
+    "meaning": "The value that appears most frequently in a data set",
+    "example": "In the set 2, 3, 3, 5, 7, the mode is 3.",
+    "category": "Maths"
+  },
+  {
+    "word": "median",
+    "meaning": "The middle value in an ordered list of numbers",
+    "example": "In the set 1, 3, 5, 7, 9, the median is 5.",
+    "category": "Maths"
+  },
+  {
+    "word": "pronoun reference",
+    "meaning": "The relationship between a pronoun and the noun it refers to in a sentence",
+    "example": "In 'Riya said she was tired', 'she' has a clear pronoun reference to Riya.",
+    "category": "English"
+  },
+  {
+    "word": "active voice",
+    "meaning": "A sentence structure where the subject performs the action expressed by the verb",
+    "example": "The chef cooked the meal — this sentence is in the active voice.",
+    "category": "English"
+  },
+  {
+    "word": "passive voice",
+    "meaning": "A sentence structure where the subject receives the action expressed by the verb",
+    "example": "The meal was cooked by the chef — this is in the passive voice.",
+    "category": "English"
+  },
+  {
+    "word": "equality",
+    "meaning": "The state of being equal in rights, status, and opportunities",
+    "example": "The constitution guarantees equality before the law for all citizens.",
+    "category": "Social"
+  },
+  {
+    "word": "discrimination",
+    "meaning": "The unjust treatment of people based on their race, gender, religion, or other characteristics",
+    "example": "Discrimination based on caste is prohibited by Indian law.",
+    "category": "Social"
+  }
+]

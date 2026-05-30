@@ -1,0 +1,230 @@
+﻿{
+    "topic":  "Adjective System",
+    "topic_hi":  "à¤µà¤¿à¤¶à¥‡à¤·à¤£ à¤ªà¥à¤°à¤£à¤¾à¤²à¥€",
+    "introduction":  {
+                         "text":  "The word that describes or modifies a noun, pronoun, or noun phrase is called an adjective. ",
+                         "text_hi":  "वह शब्द जो संज्ञा, सर्वनाम या संज्ञा वाक्यांश की विशेषता बताए या उसके अर्थ को और स्पष्ट करे, adjective कहलाता है। ",
+                         "important":  "Adjective: noun/pronoun के बारे में extra information देता है। Example Understanding red car “red” car की विशेषता बता रहा है। good boy “good” boy के बारे में बता रहा है कि लड़का कैसा है। smart girl “smart” girl की quality बता रहा है। Adjective and Noun Phrase Adjective, noun phrase का भी part बन सकता है। Example the tall boy → लंबा लड़का the beautiful red car → सुंदर लाल गाड़ी जब adjective noun के साथ जुड़ता है, तो पूरा समूह noun phrase बन सकता है। Kinds of Adjective अब हम adjective के मुख्य प्रकार समझेंगे। "
+                     },
+    "teacher_note":  "बच्चों, Part 18 में हमने pronoun पढ़ा। अब हम adjective समझेंगे। Noun या pronoun केवल नाम बताते हैं। लेकिन: वह कैसा है? कितना है? कौन-सा है? किस प्रकार का है? यह जानकारी adjective देता है। What is an Adjective? ",
+    "types":  [
+                  {
+                      "name":  "Adjective of Quality",
+                      "name_hi":  "गुणवाचक विशेषण",
+                      "definition":  "The adjective that tells the quality or nature of a noun or pronoun is called an adjective of quality. ",
+                      "definition_hi":  "जो विशेषण किसी noun या pronoun के गुण या स्वभाव का बोध कराए, उसे Adjective of Quality कहते हैं। ",
+                      "important_understanding":  "",
+                      "examples":  [
+                                       {
+                                           "english":  "good",
+                                           "hindi":  "boy"
+                                       },
+                                       {
+                                           "english":  "beautiful",
+                                           "hindi":  "girl"
+                                       },
+                                       {
+                                           "english":  "honest",
+                                           "hindi":  "man"
+                                       },
+                                       {
+                                           "english":  "brave",
+                                           "hindi":  "soldier"
+                                       },
+                                       {
+                                           "english":  "Explanation",
+                                           "hindi":  ""
+                                       },
+                                       {
+                                           "english":  "good",
+                                           "hindi":  "लड़का कैसा है"
+                                       },
+                                       {
+                                           "english":  "beautiful",
+                                           "hindi":  "लड़की कैसी है"
+                                       }
+                                   ]
+                  },
+                  {
+                      "name":  "Adjective of Quantity",
+                      "name_hi":  "परिमाणवाचक विशेषण",
+                      "definition":  "The adjective that tells the quantity of something is called an adjective of quantity. ",
+                      "definition_hi":  "जो विशेषण किसी वस्तु की मात्रा का बोध कराए, उसे Adjective of Quantity कहते हैं। ",
+                      "important_understanding":  "यह exact number नहीं बताता, सिर्फ मात्रा का अंदाज़ा बताता है। ",
+                      "examples":  [
+                                       {
+                                           "english":  "some",
+                                           "hindi":  "water"
+                                       },
+                                       {
+                                           "english":  "much",
+                                           "hindi":  "milk"
+                                       },
+                                       {
+                                           "english":  "little",
+                                           "hindi":  "sugar"
+                                       },
+                                       {
+                                           "english":  "enough",
+                                           "hindi":  "food"
+                                       }
+                                   ]
+                  },
+                  {
+                      "name":  "Adjective of Number",
+                      "name_hi":  "संख्यावाचक विशेषण",
+                      "definition":  "The adjective that tells the number or order of nouns is called an adjective of number. ",
+                      "definition_hi":  "जो विशेषण संज्ञा की संख्या या क्रम का बोध कराए, उसे Adjective of Number कहते हैं। ",
+                      "important_understanding":  "Cardinal Number Quantity बताता है। ",
+                      "examples":  [
+                                       {
+                                           "english":  "one",
+                                           "hindi":  "boy"
+                                       },
+                                       {
+                                           "english":  "two",
+                                           "hindi":  "girls"
+                                       },
+                                       {
+                                           "english":  "first",
+                                           "hindi":  "chapter"
+                                       },
+                                       {
+                                           "english":  "second",
+                                           "hindi":  "player"
+                                       },
+                                       {
+                                           "english":  "Ordinal",
+                                           "hindi":  "Number"
+                                       },
+                                       {
+                                           "english":  "Position",
+                                           "hindi":  "बताता है।"
+                                       },
+                                       {
+                                           "english":  "Difference",
+                                           "hindi":  "Between Quantity and Number"
+                                       },
+                                       {
+                                           "english":  "Quantity",
+                                           "hindi":  ""
+                                       },
+                                       {
+                                           "english":  "अंद",
+                                           "hindi":  "ज़ा"
+                                       },
+                                       {
+                                           "english":  "some",
+                                           "hindi":  "water"
+                                       },
+                                       {
+                                           "english":  "Number",
+                                           "hindi":  ""
+                                       },
+                                       {
+                                           "english":  "Exact",
+                                           "hindi":  "counting"
+                                       },
+                                       {
+                                           "english":  "three",
+                                           "hindi":  "books"
+                                       }
+                                   ]
+                  },
+                  {
+                      "name":  "Demonstrative Adjective",
+                      "name_hi":  "संकेतवाचक विशेषण",
+                      "definition":  "The adjective that points out a noun is called a demonstrative adjective. ",
+                      "definition_hi":  "जो विशेषण किसी noun की ओर संकेत करे, उसे Demonstrative Adjective कहते हैं। ",
+                      "important_understanding":  "Near this, these Far that, those Demonstrative Adjective vs Demonstrative Pronoun Demonstrative Adjective this book यहाँ: book noun मौजूद है। Demonstrative Pronoun This is my book. यहाँ: noun नहीं है। ",
+                      "examples":  [
+                                       {
+                                           "english":  "this",
+                                           "hindi":  "book"
+                                       },
+                                       {
+                                           "english":  "that",
+                                           "hindi":  "boy"
+                                       },
+                                       {
+                                           "english":  "these",
+                                           "hindi":  "apples"
+                                       },
+                                       {
+                                           "english":  "those",
+                                           "hindi":  "houses"
+                                       }
+                                   ]
+                  },
+                  {
+                      "name":  "Possessive Adjective",
+                      "name_hi":  "अधिकारवाचक विशेषण",
+                      "definition":  "The adjective that shows possession or ownership is called a possessive adjective. ",
+                      "definition_hi":  "जो विशेषण अधिकार या संबंध का बोध कराए, उसे Possessive Adjective कहते हैं। ",
+                      "important_understanding":  "",
+                      "examples":  [
+                                       {
+                                           "english":  "my",
+                                           "hindi":  "book"
+                                       },
+                                       {
+                                           "english":  "your",
+                                           "hindi":  "pen"
+                                       },
+                                       {
+                                           "english":  "his",
+                                           "hindi":  "car"
+                                       },
+                                       {
+                                           "english":  "their",
+                                           "hindi":  "house"
+                                       }
+                                   ]
+                  },
+                  {
+                      "name":  "Interrogative Adjective",
+                      "name_hi":  "प्रश्नवाचक विशेषण",
+                      "definition":  "The adjective used with a noun to ask questions is called an interrogative adjective. ",
+                      "definition_hi":  "जो विशेषण noun के साथ प्रश्न पूछने के लिए प्रयोग किया जाए, उसे Interrogative Adjective कहते हैं। ",
+                      "important_understanding":  "",
+                      "examples":  [
+                                       {
+                                           "english":  "which",
+                                           "hindi":  "book"
+                                       },
+                                       {
+                                           "english":  "what",
+                                           "hindi":  "subject"
+                                       },
+                                       {
+                                           "english":  "whose",
+                                           "hindi":  "bag"
+                                       },
+                                       {
+                                           "english":  "Example",
+                                           "hindi":  "Sentences"
+                                       },
+                                       {
+                                           "english":  "Which",
+                                           "hindi":  "book is yours?"
+                                       },
+                                       {
+                                           "english":  "What",
+                                           "hindi":  "language do you speak?"
+                                       },
+                                       {
+                                           "english":  "Degree",
+                                           "hindi":  "of Adjective"
+                                       },
+                                       {
+                                           "english":  "(व",
+                                           "hindi":  "शेषण की डिग्री)"
+                                       },
+                                       {
+                                           "english":  "Adjective",
+                                           "hindi":  "की तुलना तीन स्तरों पर की जाती है।"
+                                       }
+                                   ]
+                  }
+              ]
+}

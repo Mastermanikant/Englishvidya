@@ -1,0 +1,722 @@
+[
+  {
+    "word": "Earthquake",
+    "meaning": "A sudden, violent shaking of the ground caused by movement within the earth's crust.",
+    "example": "During the earthquake, we took cover under a sturdy wooden table.",
+    "category": "Natural Disasters"
+  },
+  {
+    "word": "Tsunami",
+    "meaning": "A giant ocean wave caused by an earthquake or volcanic eruption under the sea.",
+    "example": "The coastal town was evacuated immediately after the undersea earthquake to avoid the tsunami.",
+    "category": "Natural Disasters"
+  },
+  {
+    "word": "Hurricane",
+    "meaning": "A severe tropical storm with extremely strong winds and heavy rain.",
+    "example": "The hurricane blew away roof tiles and flooded the coastal streets.",
+    "category": "Natural Disasters"
+  },
+  {
+    "word": "Tornado",
+    "meaning": "A violently spinning column of air that touches both the ground and a cloud.",
+    "example": "We ran down to the storm cellar as the tornado approached our neighborhood.",
+    "category": "Natural Disasters"
+  },
+  {
+    "word": "Flood",
+    "meaning": "An overflow of a large amount of water beyond its normal limits, especially over dry land.",
+    "example": "After days of heavy rain, the river broke its banks and caused a major flood.",
+    "category": "Natural Disasters"
+  },
+  {
+    "word": "Wildfire",
+    "meaning": "A large, destructive fire that spreads quickly over woodland or brush.",
+    "example": "Firefighters worked night and day to stop the wildfire from reaching the town.",
+    "category": "Natural Disasters"
+  },
+  {
+    "word": "Avalanche",
+    "meaning": "A large mass of snow, ice, and rocks sliding rapidly down a mountainside.",
+    "example": "Skiers were warned to stay on marked trails due to the high risk of an avalanche.",
+    "category": "Natural Disasters"
+  },
+  {
+    "word": "Landslide",
+    "meaning": "The sliding down of a mass of earth or rock from a mountain or cliff.",
+    "example": "Heavy rain triggered a landslide that blocked the main highway.",
+    "category": "Natural Disasters"
+  },
+  {
+    "word": "Volcanic Eruption",
+    "meaning": "The sudden release of steam, ash, and lava from a volcano.",
+    "example": "The volcanic eruption sent a thick cloud of ash high into the sky.",
+    "category": "Natural Disasters"
+  },
+  {
+    "word": "Blizzard",
+    "meaning": "A severe snowstorm with high winds and very low visibility.",
+    "example": "The roads were completely closed during the blizzard because drivers could not see ahead.",
+    "category": "Natural Disasters"
+  },
+  {
+    "word": "Drought",
+    "meaning": "A long period of abnormally low rainfall, leading to a shortage of water.",
+    "example": "The crops dried up and died because of the severe summer drought.",
+    "category": "Natural Disasters"
+  },
+  {
+    "word": "Tremor",
+    "meaning": "A relatively small shaking movement of the ground before or after a larger earthquake.",
+    "example": "We felt a small tremor in the morning, but luckily there was no damage.",
+    "category": "Natural Disasters"
+  },
+  {
+    "word": "Aftershock",
+    "meaning": "A smaller earthquake that happens after a larger earthquake in the same area.",
+    "example": "People stayed outside their homes because they feared a dangerous aftershock.",
+    "category": "Natural Disasters"
+  },
+  {
+    "word": "Cyclone",
+    "meaning": "A system of winds rotating inward to an area of low atmospheric pressure, often causing a tropical storm.",
+    "example": "The island nation prepared for the cyclone by boarding up windows and buying extra food.",
+    "category": "Natural Disasters"
+  },
+  {
+    "word": "Typhoon",
+    "meaning": "A tropical storm in the region of the Indian or western Pacific oceans (equivalent to a hurricane).",
+    "example": "The typhoon brought fierce winds and heavy rain to the East Asian coast.",
+    "category": "Natural Disasters"
+  },
+  {
+    "word": "Storm Surge",
+    "meaning": "A rising of the sea as a result of atmospheric pressure changes and wind associated with a storm.",
+    "example": "The storm surge pushed seawater deep into the coastal village, flooding homes.",
+    "category": "Natural Disasters"
+  },
+  {
+    "word": "Mudslide",
+    "meaning": "A rapid movement of a large amount of mud down a hill or slope.",
+    "example": "The mudslide buried several houses at the bottom of the hill after the tropical storm.",
+    "category": "Natural Disasters"
+  },
+  {
+    "word": "Sinkhole",
+    "meaning": "A cavity in the ground caused by water erosion, providing a route for surface water to disappear.",
+    "example": "A giant sinkhole suddenly opened in the middle of the road, swallowing a parked car.",
+    "category": "Natural Disasters"
+  },
+  {
+    "word": "Seismic",
+    "meaning": "Relating to earthquakes or other vibrations of the earth and its crust.",
+    "example": "Scientists monitored the seismic activity near the volcano to predict when it might erupt next.",
+    "category": "Natural Disasters"
+  },
+  {
+    "word": "Epicenter",
+    "meaning": "The point on the earth's surface directly above the focus of an earthquake.",
+    "example": "The town nearest to the epicenter suffered the worst damage from the earthquake.",
+    "category": "Natural Disasters"
+  },
+  {
+    "word": "Richter Scale",
+    "meaning": "A mathematical scale used to measure the intensity of an earthquake.",
+    "example": "The earthquake measured 7.2 on the Richter scale, making it extremely powerful.",
+    "category": "Natural Disasters"
+  },
+  {
+    "word": "Monsoon",
+    "meaning": "A seasonal wind pattern in South and Southeast Asia that brings heavy rains.",
+    "example": "The arrival of the monsoon caused flash floods in several low-lying districts.",
+    "category": "Natural Disasters"
+  },
+  {
+    "word": "Hailstorm",
+    "meaning": "A storm that drops small, hard balls of ice called hail.",
+    "example": "The hailstorm damaged the windshields of several cars parked outside.",
+    "category": "Natural Disasters"
+  },
+  {
+    "word": "Gale",
+    "meaning": "A very strong wind, typically used in marine weather warnings.",
+    "example": "The ship stayed in the harbor to avoid the gale blowing across the open sea.",
+    "category": "Natural Disasters"
+  },
+  {
+    "word": "Forest Fire",
+    "meaning": "An uncontrolled fire occurring in a forest or woodland area.",
+    "example": "A discarded cigarette butt started a massive forest fire that destroyed acres of trees.",
+    "category": "Natural Disasters"
+  },
+  {
+    "word": "Heatwave",
+    "meaning": "A prolonged period of abnormally hot weather.",
+    "example": "During the heatwave, the government advised elderly citizens to stay indoors with air conditioning.",
+    "category": "Natural Disasters"
+  },
+  {
+    "word": "Flash Flood",
+    "meaning": "A sudden local flood, typically due to heavy rain, that develops in a very short time.",
+    "example": "A flash flood washed away the campsite within minutes of the downpour.",
+    "category": "Natural Disasters"
+  },
+  {
+    "word": "Magma",
+    "meaning": "Hot fluid or semi-fluid rock below or within the earth's crust, which becomes lava when erupted.",
+    "example": "The pressure built up as magma moved closer to the volcano's opening.",
+    "category": "Natural Disasters"
+  },
+  {
+    "word": "Lava",
+    "meaning": "Hot molten or semi-fluid rock erupted from a volcano or fissure.",
+    "example": "Red-hot lava flowed slowly down the side of the mountain, burning everything in its path.",
+    "category": "Natural Disasters"
+  },
+  {
+    "word": "Meteorological",
+    "meaning": "Relating to the branch of science concerned with the processes and phenomena of the atmosphere, especially as a means of forecasting the weather.",
+    "example": "The meteorological department issued a severe storm warning for the weekend.",
+    "category": "Natural Disasters"
+  },
+  {
+    "word": "Cardiac Arrest",
+    "meaning": "A sudden loss of heart function, breathing, and consciousness, requiring immediate CPR.",
+    "example": "When the runner collapsed, bystanders quickly recognized it was a cardiac arrest and began chest compressions.",
+    "category": "Medical Emergencies"
+  },
+  {
+    "word": "Stroke",
+    "meaning": "A medical emergency where blood flow to a part of the brain is interrupted or reduced.",
+    "example": "He experienced weakness on one side of his body, which is a common warning sign of a stroke.",
+    "category": "Medical Emergencies"
+  },
+  {
+    "word": "Choking",
+    "meaning": "Being unable to breathe because the airway is blocked by food or an object.",
+    "example": "The waiter performed the Heimlich maneuver on the choking guest to clear his throat.",
+    "category": "Medical Emergencies"
+  },
+  {
+    "word": "Hypothermia",
+    "meaning": "A dangerous drop in body temperature, usually caused by prolonged exposure to cold.",
+    "example": "The hikers developed hypothermia after getting wet in the freezing rain.",
+    "category": "Medical Emergencies"
+  },
+  {
+    "word": "Heatstroke",
+    "meaning": "A life-threatening condition caused by the body overheating, usually from prolonged physical activity in high temperatures.",
+    "example": "Drinking plenty of water can help prevent heatstroke on a hot day.",
+    "category": "Medical Emergencies"
+  },
+  {
+    "word": "Seizure",
+    "meaning": "A sudden, uncontrolled electrical disturbance in the brain that can cause changes in behavior or movements.",
+    "example": "During a seizure, you should clear the area of sharp objects and cushion the person's head.",
+    "category": "Medical Emergencies"
+  },
+  {
+    "word": "Concussion",
+    "meaning": "A temporary brain injury caused by a blow to the head or a violent shaking of the head.",
+    "example": "The football player was taken off the field to be checked for a concussion after a hard tackle.",
+    "category": "Medical Emergencies"
+  },
+  {
+    "word": "Dehydration",
+    "meaning": "A dangerous lack of water in the body, which can lead to headache, dizziness, and weakness.",
+    "example": "Working in the sun without drinking water caused him severe dehydration.",
+    "category": "Medical Emergencies"
+  },
+  {
+    "word": "First Aid",
+    "meaning": "Emergency care or treatment given to an ill or injured person before regular medical aid can be obtained.",
+    "example": "The school teacher applied first aid to the child's scraped knee.",
+    "category": "Medical Emergencies"
+  },
+  {
+    "word": "CPR",
+    "meaning": "Abbreviation for Cardiopulmonary Resuscitation; an emergency procedure combining chest compressions and artificial ventilation.",
+    "example": "Learning how to perform CPR can help you save someone's life during a heart emergency.",
+    "category": "Medical Emergencies"
+  },
+  {
+    "word": "Defibrillator",
+    "meaning": "A device that gives a high-energy electric shock to the heart of someone in cardiac arrest to restore a normal rhythm.",
+    "example": "The airport has a public automated external defibrillator on the wall near the entrance.",
+    "category": "Medical Emergencies"
+  },
+  {
+    "word": "Hemorrhage",
+    "meaning": "Severe or uncontrolled bleeding from a ruptured blood vessel.",
+    "example": "The paramedic applied pressure to the wound to stop the hemorrhage.",
+    "category": "Medical Emergencies"
+  },
+  {
+    "word": "Fracture",
+    "meaning": "A break or crack in a bone.",
+    "example": "The doctor took an X-ray to confirm if the boy had a fracture in his arm.",
+    "category": "Medical Emergencies"
+  },
+  {
+    "word": "Dislocation",
+    "meaning": "An injury where a joint is forced out of its normal position.",
+    "example": "Falling off his bicycle resulted in a painful shoulder dislocation.",
+    "category": "Medical Emergencies"
+  },
+  {
+    "word": "Anaphylaxis",
+    "meaning": "A severe, life-threatening allergic reaction that can affect breathing and require immediate treatment.",
+    "example": "Because of her severe peanut allergy, she always carries an epinephrine auto-injector in case of anaphylaxis.",
+    "category": "Medical Emergencies"
+  },
+  {
+    "word": "Tourniquet",
+    "meaning": "A tight band tied around an arm or leg to stop severe bleeding.",
+    "example": "The soldier used a tourniquet to stop the heavy bleeding from his leg wound.",
+    "category": "Medical Emergencies"
+  },
+  {
+    "word": "Sprain",
+    "meaning": "An injury to a ligament caused by sudden stretching or tearing.",
+    "example": "She tripped on the stairs and suffered a minor sprain in her ankle.",
+    "category": "Medical Emergencies"
+  },
+  {
+    "word": "Burn",
+    "meaning": "Damage to the skin or other tissues caused by heat, chemicals, electricity, or radiation.",
+    "example": "You should run cool tap water over a minor burn for at least ten minutes.",
+    "category": "Medical Emergencies"
+  },
+  {
+    "word": "Unconscious",
+    "meaning": "Lying in a state like sleep, completely unaware of your surroundings and unable to respond.",
+    "example": "The driver was unconscious after the car accident, so we called for an ambulance immediately.",
+    "category": "Medical Emergencies"
+  },
+  {
+    "word": "Asthma Attack",
+    "meaning": "A sudden worsening of asthma symptoms, making it very difficult to breathe.",
+    "example": "She used her rescue inhaler to calm down her asthma attack.",
+    "category": "Medical Emergencies"
+  },
+  {
+    "word": "Hypoventilation",
+    "meaning": "Breathing that is too shallow or too slow, which does not provide enough oxygen to the body.",
+    "example": "The patient showed signs of hypoventilation after receiving heavy pain medication.",
+    "category": "Medical Emergencies"
+  },
+  {
+    "word": "Trauma",
+    "meaning": "A deeply distressing or disturbing experience, or a physical injury caused by an external force.",
+    "example": "The hospital has a specialized trauma center to treat patients with severe injuries.",
+    "category": "Medical Emergencies"
+  },
+  {
+    "word": "Hyperventilation",
+    "meaning": "Breathing too fast and deep, often caused by panic or anxiety, leading to dizziness.",
+    "example": "Sitting down and breathing slowly helped her recover from hyperventilation.",
+    "category": "Medical Emergencies"
+  },
+  {
+    "word": "Shock",
+    "meaning": "A life-threatening medical condition where the body does not get enough blood flow, making the person pale and weak.",
+    "example": "Keep the patient warm and lie them flat on their back to treat them for shock.",
+    "category": "Medical Emergencies"
+  },
+  {
+    "word": "Allergen",
+    "meaning": "A substance that causes an allergic reaction, such as pollen, dust, or certain foods.",
+    "example": "Shellfish is a common allergen that can cause severe rashes or breathing difficulties.",
+    "category": "Medical Emergencies"
+  },
+  {
+    "word": "Resuscitate",
+    "meaning": "To revive someone from unconsciousness or apparent death.",
+    "example": "The lifeguards managed to resuscitate the boy who had nearly drowned.",
+    "category": "Medical Emergencies"
+  },
+  {
+    "word": "Pulse",
+    "meaning": "The regular beating of the heart, which can be felt in the wrist or neck.",
+    "example": "The nurse checked the patient's pulse to make sure it was steady.",
+    "category": "Medical Emergencies"
+  },
+  {
+    "word": "Intubate",
+    "meaning": "To insert a tube into a patient's trachea (windpipe) to help them breathe.",
+    "example": "The doctor had to intubate the patient because they could not breathe on their own.",
+    "category": "Medical Emergencies"
+  },
+  {
+    "word": "Laceration",
+    "meaning": "A deep cut or tear in skin or flesh.",
+    "example": "He needed six stitches to close the laceration on his forehead.",
+    "category": "Medical Emergencies"
+  },
+  {
+    "word": "Suture",
+    "meaning": "A stitch or row of stitches holding together the edges of a wound or surgical cut.",
+    "example": "The surgeon applied sutures to the deep cut to ensure proper healing.",
+    "category": "Medical Emergencies"
+  },
+  {
+    "word": "Collision",
+    "meaning": "An instance of one moving object striking violently against another, such as a car crash.",
+    "example": "The collision on the highway caused a major traffic jam.",
+    "category": "Accidents & Safety"
+  },
+  {
+    "word": "Evacuation",
+    "meaning": "The act of moving people away from a dangerous place to a safer location.",
+    "example": "The police ordered an immediate evacuation of the building when the fire alarm rang.",
+    "category": "Accidents & Safety"
+  },
+  {
+    "word": "Shelter",
+    "meaning": "A place giving temporary protection from bad weather or danger.",
+    "example": "The school hall served as an emergency shelter for families who lost their homes.",
+    "category": "Accidents & Safety"
+  },
+  {
+    "word": "Hazard",
+    "meaning": "A danger or risk that could cause harm or accidents.",
+    "example": "Wet floors are a slipping hazard, so we must put up warning signs.",
+    "category": "Accidents & Safety"
+  },
+  {
+    "word": "Flammable",
+    "meaning": "Easily set on fire and capable of burning rapidly.",
+    "example": "Keep paper and cardboard away from the heater because they are highly flammable.",
+    "category": "Accidents & Safety"
+  },
+  {
+    "word": "Toxic",
+    "meaning": "Poisonous or harmful to living things if swallowed, inhaled, or touched.",
+    "example": "The cleaners wore gloves and masks to avoid inhaling the toxic chemicals.",
+    "category": "Accidents & Safety"
+  },
+  {
+    "word": "Corrosive",
+    "meaning": "A substance that can burn or wear away skin, metal, or other materials through chemical action.",
+    "example": "Acid is a corrosive liquid that must be handled with extreme care.",
+    "category": "Accidents & Safety"
+  },
+  {
+    "word": "Precaution",
+    "meaning": "A measure taken in advance to prevent something dangerous or unpleasant from happening.",
+    "example": "As a precaution, we wore helmets and safety goggles before entering the construction site.",
+    "category": "Accidents & Safety"
+  },
+  {
+    "word": "Safety Gear",
+    "meaning": "Protective clothing or equipment designed to protect the body from injury or infection.",
+    "example": "You must wear proper safety gear, including steel-toed boots, while working in the warehouse.",
+    "category": "Accidents & Safety"
+  },
+  {
+    "word": "Fire Extinguisher",
+    "meaning": "A portable device that discharges water, foam, gas, or other substances to put out a fire.",
+    "example": "She grabbed the fire extinguisher from the wall to put out the kitchen fire.",
+    "category": "Accidents & Safety"
+  },
+  {
+    "word": "Smoke Detector",
+    "meaning": "A device that makes a loud alarm sound when it senses smoke.",
+    "example": "Test your smoke detector every month to ensure the batteries are working.",
+    "category": "Accidents & Safety"
+  },
+  {
+    "word": "Emergency Exit",
+    "meaning": "A special door or passage used to leave a building quickly in case of danger.",
+    "example": "Always keep the emergency exit clear of boxes and chairs.",
+    "category": "Accidents & Safety"
+  },
+  {
+    "word": "Life Jacket",
+    "meaning": "A sleeveless jacket made of buoyant material, designed to keep a person afloat in water.",
+    "example": "The boat captain required all passengers to wear a life jacket.",
+    "category": "Accidents & Safety"
+  },
+  {
+    "word": "Seatbelt",
+    "meaning": "A belt that secures a passenger in a vehicle to prevent injury during a collision.",
+    "example": "Wearing a seatbelt reduces the risk of injury in a car crash.",
+    "category": "Accidents & Safety"
+  },
+  {
+    "word": "Slippery",
+    "meaning": "Having a wet or smooth surface that is difficult to stand or walk on without falling.",
+    "example": "The road was slippery after the first winter frost.",
+    "category": "Accidents & Safety"
+  },
+  {
+    "word": "Safety Harness",
+    "meaning": "A system of straps that prevents a person from falling, used when working at high heights.",
+    "example": "The window cleaner wore a safety harness attached to the roof.",
+    "category": "Accidents & Safety"
+  },
+  {
+    "word": "Eyewash Station",
+    "meaning": "A device designed to flush chemicals or dirt out of a person's eyes with water.",
+    "example": "If a chemical splashes in your eyes, run to the eyewash station immediately.",
+    "category": "Accidents & Safety"
+  },
+  {
+    "word": "Breaker Panel",
+    "meaning": "A metal box containing switches that control the electricity flowing to different parts of a building.",
+    "example": "In case of an electrical fire, shut off the power at the breaker panel.",
+    "category": "Accidents & Safety"
+  },
+  {
+    "word": "Risk Assessment",
+    "meaning": "A systematic process of identifying potential hazards and deciding on safety measures.",
+    "example": "The company conducted a risk assessment before starting the heavy machinery.",
+    "category": "Accidents & Safety"
+  },
+  {
+    "word": "Muster Point",
+    "meaning": "A designated place where people gather in the event of an emergency evacuation.",
+    "example": "Once the fire alarm sounds, walk calmly to the muster point in the parking lot.",
+    "category": "Accidents & Safety"
+  },
+  {
+    "word": "Short Circuit",
+    "meaning": "An accidental electrical connection that interrupts the normal flow of current, often causing sparks or fire.",
+    "example": "A short circuit in the old wiring started a fire in the basement.",
+    "category": "Accidents & Safety"
+  },
+  {
+    "word": "Hazardous",
+    "meaning": "Risky, dangerous, or unsafe to health or environment.",
+    "example": "Disposing of hazardous waste in regular trash cans is illegal.",
+    "category": "Accidents & Safety"
+  },
+  {
+    "word": "First-Aid Kit",
+    "meaning": "A box or bag containing bandages, medicines, and basic medical supplies for emergency treatment.",
+    "example": "We keep a first-aid kit in the car in case of minor accidents during road trips.",
+    "category": "Accidents & Safety"
+  },
+  {
+    "word": "Flashlight",
+    "meaning": "A small electric light carried in the hand, used to see in the dark.",
+    "example": "Keep a flashlight in your bedside drawer in case there is a power outage.",
+    "category": "Accidents & Safety"
+  },
+  {
+    "word": "Waterproof",
+    "meaning": "Resisting the penetration of water, keeping things dry.",
+    "example": "Put your important documents in a waterproof bag during a flood warning.",
+    "category": "Accidents & Safety"
+  },
+  {
+    "word": "Spill",
+    "meaning": "An accidental flow of liquid over the edge of its container.",
+    "example": "The lab assistant cleaned up the chemical spill using a special absorption pad.",
+    "category": "Accidents & Safety"
+  },
+  {
+    "word": "Combustible",
+    "meaning": "Able to catch fire and burn easily, though less easily than flammable materials.",
+    "example": "Wood and coal are combustible materials used for heating homes.",
+    "category": "Accidents & Safety"
+  },
+  {
+    "word": "PPE",
+    "meaning": "Abbreviation for Personal Protective Equipment, such as masks, gloves, and safety helmets.",
+    "example": "Doctors wore full PPE to avoid catching the contagious virus.",
+    "category": "Accidents & Safety"
+  },
+  {
+    "word": "Contamination",
+    "meaning": "The action of making something impure or harmful by adding something dirty or poisonous.",
+    "example": "The local authorities warned residents about water contamination after the flood.",
+    "category": "Accidents & Safety"
+  },
+  {
+    "word": "Scaffolding",
+    "meaning": "A temporary metal structure used to support workers while building or repairing a house.",
+    "example": "Workers must wear safety harnesses when climbing on the high scaffolding.",
+    "category": "Accidents & Safety"
+  },
+  {
+    "word": "Alert",
+    "meaning": "A warning signal or message that tells people to prepare for danger.",
+    "example": "The government sent a text alert to everyone warning about the incoming storm.",
+    "category": "Reporting Danger"
+  },
+  {
+    "word": "Alarm",
+    "meaning": "A loud sound or flashing light that warns people of danger, such as a fire.",
+    "example": "The fire alarm started ringing, and everyone walked out of the building.",
+    "category": "Reporting Danger"
+  },
+  {
+    "word": "SOS",
+    "meaning": "An international distress signal used to call for help, especially by ships or in remote areas.",
+    "example": "The lost hikers spelled out SOS with rocks on the ground so rescue planes could see it.",
+    "category": "Reporting Danger"
+  },
+  {
+    "word": "Distress Signal",
+    "meaning": "A signal from a ship, aircraft, or person indicating they are in serious danger and need help.",
+    "example": "The sinking ship fired a red flare into the sky as a distress signal.",
+    "category": "Reporting Danger"
+  },
+  {
+    "word": "Mayday",
+    "meaning": "An international radio word used by pilots and sailors to signal life-threatening distress.",
+    "example": "The pilot shouted 'Mayday, Mayday' into the radio when the engine failed.",
+    "category": "Reporting Danger"
+  },
+  {
+    "word": "Hotline",
+    "meaning": "A direct telephone line set up for rapid communication in emergencies.",
+    "example": "You can call the emergency hotline if you witness a safety hazard on the highway.",
+    "category": "Reporting Danger"
+  },
+  {
+    "word": "First Responder",
+    "meaning": "Someone whose job is to go immediately to help people at the scene of an emergency, such as a police officer or paramedic.",
+    "example": "First responders arrived at the crash site within five minutes to rescue the drivers.",
+    "category": "Reporting Danger"
+  },
+  {
+    "word": "Dispatcher",
+    "meaning": "A person who receives emergency calls and sends help where it is needed.",
+    "example": "The emergency dispatcher asked for my address and told me to stay calm.",
+    "category": "Reporting Danger"
+  },
+  {
+    "word": "Emergency Services",
+    "meaning": "The public organizations that deal with emergencies, mainly the police, fire, and ambulance services.",
+    "example": "Dial 911 to contact emergency services in North America.",
+    "category": "Reporting Danger"
+  },
+  {
+    "word": "Evacuate",
+    "meaning": "To leave a dangerous place, or to make people leave a dangerous place.",
+    "example": "The police helped residents evacuate the low-lying areas before the river flooded.",
+    "category": "Reporting Danger"
+  },
+  {
+    "word": "Report",
+    "meaning": "To give a description of an event or situation, especially to someone in authority.",
+    "example": "You should report any suspicious packages left unattended in the train station.",
+    "category": "Reporting Danger"
+  },
+  {
+    "word": "Witness",
+    "meaning": "A person who sees an event, such as a crime or accident, happen.",
+    "example": "The police interviewed a witness who saw the car hit the pedestrian.",
+    "category": "Reporting Danger"
+  },
+  {
+    "word": "Casualty",
+    "meaning": "A person killed or injured in a war or accident.",
+    "example": "Fortunately, there were no casualties in the building collapse because everyone escaped.",
+    "category": "Reporting Danger"
+  },
+  {
+    "word": "Survivor",
+    "meaning": "A person who remains alive after a dangerous event or disaster.",
+    "example": "Rescue teams searched the rubble for survivors of the earthquake.",
+    "category": "Reporting Danger"
+  },
+  {
+    "word": "Bystander",
+    "meaning": "A person who is present at an event or incident but does not take part in it.",
+    "example": "A brave bystander jumped into the river to pull the struggling child to safety.",
+    "category": "Reporting Danger"
+  },
+  {
+    "word": "Ambulance",
+    "meaning": "A vehicle equipped for taking sick or injured people to the hospital.",
+    "example": "The ambulance rushed the patient to the emergency room with sirens wailing.",
+    "category": "Reporting Danger"
+  },
+  {
+    "word": "Siren",
+    "meaning": "A device that makes a loud, prolonged sound as a warning signal.",
+    "example": "We heard the fire engine's siren from a block away.",
+    "category": "Reporting Danger"
+  },
+  {
+    "word": "Flare",
+    "meaning": "A device that produces a bright light or flame, used to signal for help or warn drivers in the dark.",
+    "example": "The police placed orange flares on the road to warn drivers of the accident ahead.",
+    "category": "Reporting Danger"
+  },
+  {
+    "word": "Pan-Pan",
+    "meaning": "An international radio signal used to declare an urgent situation that is not yet life-threatening.",
+    "example": "The captain used a pan-pan call to report that the ship had run out of fuel.",
+    "category": "Reporting Danger"
+  },
+  {
+    "word": "Broadcast",
+    "meaning": "To transmit a message or program over radio or television.",
+    "example": "The television station interrupted the movie to broadcast a tornado warning.",
+    "category": "Reporting Danger"
+  },
+  {
+    "word": "Emergency Number",
+    "meaning": "A special telephone number used to reach emergency services like police, fire, or ambulance.",
+    "example": "Make sure children know the emergency number for your country.",
+    "category": "Reporting Danger"
+  },
+  {
+    "word": "Civil Defense",
+    "meaning": "An organization that organizes help and safety measures for citizens during a war or natural disaster.",
+    "example": "Civil defense volunteers distributed blankets and food to the storm victims.",
+    "category": "Reporting Danger"
+  },
+  {
+    "word": "Lockdown",
+    "meaning": "A state of isolation or restricted access instituted as a security measure.",
+    "example": "The school went into lockdown after a dangerous individual was spotted nearby.",
+    "category": "Reporting Danger"
+  },
+  {
+    "word": "Curfew",
+    "meaning": "A rule requiring people to remain indoors between specified hours, typically at night.",
+    "example": "The mayor announced a curfew starting at 8 PM to keep residents safe during the riots.",
+    "category": "Reporting Danger"
+  },
+  {
+    "word": "Shelter-in-place",
+    "meaning": "An instruction to stay inside your current building and take cover rather than trying to evacuate.",
+    "example": "Residents were told to shelter-in-place during the chemical leak to avoid breathing the air outside.",
+    "category": "Reporting Danger"
+  },
+  {
+    "word": "Protocol",
+    "meaning": "A system of rules or procedures that explain the correct conduct or steps to take.",
+    "example": "The emergency protocol requires everyone to exit the building using the stairs, not the elevator.",
+    "category": "Reporting Danger"
+  },
+  {
+    "word": "Drill",
+    "meaning": "A practice exercise to train people what to do in an emergency.",
+    "example": "The school holds a fire drill every semester so students know how to exit safely.",
+    "category": "Reporting Danger"
+  },
+  {
+    "word": "Muster",
+    "meaning": "To gather together, especially for inspection or during an emergency.",
+    "example": "The crew members had to muster on the deck within three minutes of the alarm.",
+    "category": "Reporting Danger"
+  },
+  {
+    "word": "Sector",
+    "meaning": "An area or portion that is distinct from others, often used by rescue operations.",
+    "example": "Rescue teams divided the flooded city into sectors to search for survivors systematically.",
+    "category": "Reporting Danger"
+  },
+  {
+    "word": "Cordon",
+    "meaning": "A line of police, soldiers, or guards preventing access to or from an area.",
+    "example": "Police established a cordon around the gas leak to keep the public at a safe distance.",
+    "category": "Reporting Danger"
+  }
+]

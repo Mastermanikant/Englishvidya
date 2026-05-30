@@ -1,0 +1,6002 @@
+﻿[
+    {
+        "name":  "",
+        "slug":  "uncategorized",
+        "count":  6489,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Abstract Emotional Vocabulary",
+        "slug":  "abstract_emotional_vocabulary",
+        "count":  134,
+        "icon":  "❤"
+    },
+    {
+        "name":  "Academic",
+        "slug":  "academic",
+        "count":  15,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Academic \u0026 Scholarship",
+        "slug":  "academic_scholarship",
+        "count":  2,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Academic Adjectives \u0026 Adverbs",
+        "slug":  "academic_adjectives_adverbs",
+        "count":  54,
+        "icon":  "🏃"
+    },
+    {
+        "name":  "Academic Skills",
+        "slug":  "academic_skills",
+        "count":  13,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Academic Vocabulary",
+        "slug":  "academic_vocabulary",
+        "count":  19,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Accidents \u0026 Safety",
+        "slug":  "accidents_safety",
+        "count":  30,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Accommodations",
+        "slug":  "accommodations",
+        "count":  23,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Acquisition Method",
+        "slug":  "acquisition_method",
+        "count":  10,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Action \u0026 Process",
+        "slug":  "action_process",
+        "count":  27,
+        "icon":  "🎬"
+    },
+    {
+        "name":  "Adaptive Thinking",
+        "slug":  "adaptive_thinking",
+        "count":  28,
+        "icon":  "💭"
+    },
+    {
+        "name":  "Adjective",
+        "slug":  "adjective",
+        "count":  86,
+        "icon":  "🌈"
+    },
+    {
+        "name":  "Adjective / Noun / Adverb",
+        "slug":  "adjective_noun_adverb",
+        "count":  1,
+        "icon":  "🏃"
+    },
+    {
+        "name":  "Adjective / Noun / Verb",
+        "slug":  "adjective_noun_verb",
+        "count":  1,
+        "icon":  "🏃"
+    },
+    {
+        "name":  "Adjective / Verb",
+        "slug":  "adjective_verb",
+        "count":  1,
+        "icon":  "🏃"
+    },
+    {
+        "name":  "Adjective Adjective",
+        "slug":  "adjective-adjective",
+        "count":  1,
+        "icon":  "🌈"
+    },
+    {
+        "name":  "Adjective Noun",
+        "slug":  "adjective-noun",
+        "count":  3,
+        "icon":  "📦"
+    },
+    {
+        "name":  "Adjective Noun Collocation",
+        "slug":  "adjective-noun_collocation",
+        "count":  22,
+        "icon":  "📦"
+    },
+    {
+        "name":  "Adjective/adverb",
+        "slug":  "adjectiveadverb",
+        "count":  6,
+        "icon":  "🏃"
+    },
+    {
+        "name":  "Adjective/interjection",
+        "slug":  "adjectiveinterjection",
+        "count":  2,
+        "icon":  "🌈"
+    },
+    {
+        "name":  "Adjective/noun/adverb",
+        "slug":  "adjectivenounadverb",
+        "count":  1,
+        "icon":  "🏃"
+    },
+    {
+        "name":  "Administration",
+        "slug":  "administration",
+        "count":  22,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Advanced Milestones",
+        "slug":  "advanced_milestones",
+        "count":  3,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Adverb",
+        "slug":  "adverb",
+        "count":  24,
+        "icon":  "🏃"
+    },
+    {
+        "name":  "Adverb / Adjective",
+        "slug":  "adverb_adjective",
+        "count":  2,
+        "icon":  "🏃"
+    },
+    {
+        "name":  "Adverb / Noun",
+        "slug":  "adverb_noun",
+        "count":  3,
+        "icon":  "🏃"
+    },
+    {
+        "name":  "Adverb / Preposition",
+        "slug":  "adverb_preposition",
+        "count":  2,
+        "icon":  "🏃"
+    },
+    {
+        "name":  "Adverb Adjective",
+        "slug":  "adverb-adjective",
+        "count":  4,
+        "icon":  "🏃"
+    },
+    {
+        "name":  "Adverb Adjective Collocation",
+        "slug":  "adverb-adjective_collocation",
+        "count":  6,
+        "icon":  "🏃"
+    },
+    {
+        "name":  "Adverb Verb Collocation",
+        "slug":  "adverb-verb_collocation",
+        "count":  2,
+        "icon":  "🏃"
+    },
+    {
+        "name":  "Adverb/interjection",
+        "slug":  "adverbinterjection",
+        "count":  1,
+        "icon":  "🏃"
+    },
+    {
+        "name":  "Adverbs \u0026 Adjectives Of Intensity",
+        "slug":  "adverbs_adjectives_of_intensity",
+        "count":  17,
+        "icon":  "🏃"
+    },
+    {
+        "name":  "Adverbs Of Hedging",
+        "slug":  "adverbs_of_hedging",
+        "count":  30,
+        "icon":  "🏃"
+    },
+    {
+        "name":  "Air Travel",
+        "slug":  "air_travel",
+        "count":  27,
+        "icon":  "✈"
+    },
+    {
+        "name":  "Algebra/calculations",
+        "slug":  "algebracalculations",
+        "count":  32,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Aesthetic",
+        "slug":  "alternative_to_aesthetic",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Bars / Spitting",
+        "slug":  "alternative_to_bars_spitting",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Based / No Nonsense",
+        "slug":  "alternative_to_based_no-nonsense",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Based / Not Buying It",
+        "slug":  "alternative_to_based_not_buying_it",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Beast Mode / Op",
+        "slug":  "alternative_to_beast_mode_op",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Beef / Drama",
+        "slug":  "alternative_to_beef_drama",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Big Brain / 5000 Iq",
+        "slug":  "alternative_to_big_brain_5000_iq",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Big Brain / Facts",
+        "slug":  "alternative_to_big_brain_facts",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Big Drop / Fell Off",
+        "slug":  "alternative_to_big_drop_fell_off",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Big L / L",
+        "slug":  "alternative_to_big_l_l",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Big L / Trash / Yikes",
+        "slug":  "alternative_to_big_l_trash_yikes",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Big Of Him / Wholesome",
+        "slug":  "alternative_to_big_of_him_wholesome",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Big Sad / L",
+        "slug":  "alternative_to_big_sad_l",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Big Task / Hard Mode",
+        "slug":  "alternative_to_big_task_hard_mode",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Big Think / Thinking Emoji",
+        "slug":  "alternative_to_big_think_thinking_emoji",
+        "count":  1,
+        "icon":  "💭"
+    },
+    {
+        "name":  "Alternative To: Big Ups / Props",
+        "slug":  "alternative_to_big_ups_props",
+        "count":  2,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Binge Worthy / Can\u0027t Stop Watching",
+        "slug":  "alternative_to_binge-worthy_cant_stop_watching",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Boiling / Triggered",
+        "slug":  "alternative_to_boiling_triggered",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Boomer / Old",
+        "slug":  "alternative_to_boomer_old",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Bruh / Lmao That\u0027s Wild",
+        "slug":  "alternative_to_bruh_lmao_thats_wild",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Bruh / No Way",
+        "slug":  "alternative_to_bruh_no_way",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Built Different",
+        "slug":  "alternative_to_built_different",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Can\u0027t Even",
+        "slug":  "alternative_to_cant_even",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Chaos / Clown World",
+        "slug":  "alternative_to_chaos_clown_world",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Chaotic / Unhinged",
+        "slug":  "alternative_to_chaotic_unhinged",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Chill / Good Vibes",
+        "slug":  "alternative_to_chill_good_vibes",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Chill / No Worries",
+        "slug":  "alternative_to_chill_no_worries",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Chill / Zen",
+        "slug":  "alternative_to_chill_zen",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Clean / On Fleek",
+        "slug":  "alternative_to_clean_on_fleek",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Clout / 15 Minutes Of Fame",
+        "slug":  "alternative_to_clout_15_minutes_of_fame",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Confused / What Is Happening",
+        "slug":  "alternative_to_confused_what_is_happening",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Cringe / Yikes",
+        "slug":  "alternative_to_cringe_yikes",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Dead / I\u0027m Dead",
+        "slug":  "alternative_to_dead_im_dead",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Deep / Hits Different",
+        "slug":  "alternative_to_deep_hits_different",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Doing The Most / Extra",
+        "slug":  "alternative_to_doing_the_most_extra",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Epic",
+        "slug":  "alternative_to_epic",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Extra / Doing The Most",
+        "slug":  "alternative_to_extra_doing_the_most",
+        "count":  2,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Fire / Lit",
+        "slug":  "alternative_to_fire_lit",
+        "count":  1,
+        "icon":  "🔥"
+    },
+    {
+        "name":  "Alternative To: Fire / Slaps",
+        "slug":  "alternative_to_fire_slaps",
+        "count":  1,
+        "icon":  "🔥"
+    },
+    {
+        "name":  "Alternative To: Fire Speech / Hit Different",
+        "slug":  "alternative_to_fire_speech_hit_different",
+        "count":  1,
+        "icon":  "🔥"
+    },
+    {
+        "name":  "Alternative To: Flexing / Showing Off",
+        "slug":  "alternative_to_flexing_showing_off",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Fr Fr / For Real",
+        "slug":  "alternative_to_fr_fr_for_real",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Full Send / 100%",
+        "slug":  "alternative_to_full_send_100",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Glowing Up / Glow",
+        "slug":  "alternative_to_glowing_up_glow",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Goat",
+        "slug":  "alternative_to_goat",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Goat / Best Ever",
+        "slug":  "alternative_to_goat_best_ever",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Goat / Best Of The Best",
+        "slug":  "alternative_to_goat_best_of_the_best",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Goated / Elite",
+        "slug":  "alternative_to_goated_elite",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Goated / Machine",
+        "slug":  "alternative_to_goated_machine",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Good Vibes / W Moment",
+        "slug":  "alternative_to_good_vibes_w_moment",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Grind / Hustling",
+        "slug":  "alternative_to_grind_hustling",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Grinder / On The Grind",
+        "slug":  "alternative_to_grinder_on_the_grind",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Grinding / Not Stopping",
+        "slug":  "alternative_to_grinding_not_stopping",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Hot Take",
+        "slug":  "alternative_to_hot_take",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Hype / Energy",
+        "slug":  "alternative_to_hype_energy",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Hyped",
+        "slug":  "alternative_to_hyped",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Hyped / Going Off",
+        "slug":  "alternative_to_hyped_going_off",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Hyped / Lit",
+        "slug":  "alternative_to_hyped_lit",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Hyped / Stoked",
+        "slug":  "alternative_to_hyped_stoked",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: I Can\u0027t Even / Bruh",
+        "slug":  "alternative_to_i_cant_even_bruh",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: I Told You So / W",
+        "slug":  "alternative_to_i_told_you_so_w",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Insane / Crazy",
+        "slug":  "alternative_to_insane_crazy",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: It Hits Different",
+        "slug":  "alternative_to_it_hits_different",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: It\u0027s Fine / W Mentality",
+        "slug":  "alternative_to_its_fine_w_mentality",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Lazy / Npc Energy",
+        "slug":  "alternative_to_lazy_npc_energy",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Lazy / Unbothered",
+        "slug":  "alternative_to_lazy_unbothered",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Legendary / Goat",
+        "slug":  "alternative_to_legendary_goat",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Lit / Electric",
+        "slug":  "alternative_to_lit_electric",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Locked In / Can\u0027t Touch This",
+        "slug":  "alternative_to_locked_in_cant_touch_this",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Lol / Lmao",
+        "slug":  "alternative_to_lol_lmao",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Loud / Screaming In The Comments",
+        "slug":  "alternative_to_loud_screaming_in_the_comments",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Lowkey Iconic / Vibrant",
+        "slug":  "alternative_to_lowkey_iconic_vibrant",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Mid / Basic",
+        "slug":  "alternative_to_mid_basic",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Mind Blowing",
+        "slug":  "alternative_to_mind-blowing",
+        "count":  1,
+        "icon":  "🧠"
+    },
+    {
+        "name":  "Alternative To: Never Been Done / Hits Different",
+        "slug":  "alternative_to_never_been_done_hits_different",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: No Cap / Facts",
+        "slug":  "alternative_to_no_cap_facts",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: No Cap / Keeping It Real",
+        "slug":  "alternative_to_no_cap_keeping_it_real",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: No Days Off / Grinding",
+        "slug":  "alternative_to_no_days_off_grinding",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: No Fear / Built Different",
+        "slug":  "alternative_to_no_fear_built_different",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: No Filter / Savage",
+        "slug":  "alternative_to_no_filter_savage",
+        "count":  1,
+        "icon":  "🧓"
+    },
+    {
+        "name":  "Alternative To: Obsessed / Can\u0027t Stop",
+        "slug":  "alternative_to_obsessed_cant_stop",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Obsessed / Stan",
+        "slug":  "alternative_to_obsessed_stan",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Og / Legend",
+        "slug":  "alternative_to_og_legend",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: On Fleek / Perfect",
+        "slug":  "alternative_to_on_fleek_perfect",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: On The Low / Lowkey",
+        "slug":  "alternative_to_on_the_low_lowkey",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: On Thin Ice / Shaky",
+        "slug":  "alternative_to_on_thin_ice_shaky",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Peak / At Their Peak",
+        "slug":  "alternative_to_peak_at_their_peak",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Plot Twist / Random W",
+        "slug":  "alternative_to_plot_twist_random_w",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Pressed / Salty",
+        "slug":  "alternative_to_pressed_salty",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Pro / Goated At",
+        "slug":  "alternative_to_pro_goated_at",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Random / Out Of Nowhere",
+        "slug":  "alternative_to_random_out_of_nowhere",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Random / Quirky",
+        "slug":  "alternative_to_random_quirky",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Real / Lowkey Real",
+        "slug":  "alternative_to_real_lowkey_real",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Real / Og",
+        "slug":  "alternative_to_real_og",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Rekt / Destroyed",
+        "slug":  "alternative_to_rekt_destroyed",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Ride Or Die / Loyal",
+        "slug":  "alternative_to_ride_or_die_loyal",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Sad / Feels",
+        "slug":  "alternative_to_sad_feels",
+        "count":  1,
+        "icon":  "💛"
+    },
+    {
+        "name":  "Alternative To: Sad React / Big Sad",
+        "slug":  "alternative_to_sad_react_big_sad",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Said / Dropped",
+        "slug":  "alternative_to_said_dropped",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Salty / Sour",
+        "slug":  "alternative_to_salty_sour",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Savage / Bold",
+        "slug":  "alternative_to_savage_bold",
+        "count":  1,
+        "icon":  "🧓"
+    },
+    {
+        "name":  "Alternative To: Savage / No Chill",
+        "slug":  "alternative_to_savage_no_chill",
+        "count":  1,
+        "icon":  "🧓"
+    },
+    {
+        "name":  "Alternative To: Savage / No Filter",
+        "slug":  "alternative_to_savage_no_filter",
+        "count":  1,
+        "icon":  "🧓"
+    },
+    {
+        "name":  "Alternative To: Shade / Throwing Shade",
+        "slug":  "alternative_to_shade_throwing_shade",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Shook / Can\u0027t Believe",
+        "slug":  "alternative_to_shook_cant_believe",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Shook / No Way",
+        "slug":  "alternative_to_shook_no_way",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Side Quest / Background Character",
+        "slug":  "alternative_to_side_quest_background_character",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Simping / Bootlicking",
+        "slug":  "alternative_to_simping_bootlicking",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Slaying / Slay",
+        "slug":  "alternative_to_slaying_slay",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Social Butterfly / Vibe",
+        "slug":  "alternative_to_social_butterfly_vibe",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Stan / Hardcore Fan",
+        "slug":  "alternative_to_stan_hardcore_fan",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Stretch / Reaching",
+        "slug":  "alternative_to_stretch_reaching",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Sus / Shady",
+        "slug":  "alternative_to_sus_shady",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Sus / Sketchy",
+        "slug":  "alternative_to_sus_sketchy",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Tea / Spilling The Tea",
+        "slug":  "alternative_to_tea_spilling_the_tea",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Trash / Clowning",
+        "slug":  "alternative_to_trash_clowning",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Trash / Mid",
+        "slug":  "alternative_to_trash_mid",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Triggered",
+        "slug":  "alternative_to_triggered",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Triggered / Salty",
+        "slug":  "alternative_to_triggered_salty",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Trio / Three Legends",
+        "slug":  "alternative_to_trio_three_legends",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Two Faced / Cap",
+        "slug":  "alternative_to_two-faced_cap",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Unhinged / Chaotic",
+        "slug":  "alternative_to_unhinged_chaotic",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Vague Posting / Posting With No Context",
+        "slug":  "alternative_to_vague_posting_posting_with_no_context",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Vibe / Energy",
+        "slug":  "alternative_to_vibe_energy",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Vibe / Good Vibes",
+        "slug":  "alternative_to_vibe_good_vibes",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: W / Let\u0027s Gooo",
+        "slug":  "alternative_to_w_lets_gooo",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Wholesome",
+        "slug":  "alternative_to_wholesome",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Wholesome / Taking The High Road",
+        "slug":  "alternative_to_wholesome_taking_the_high_road",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Winning / W",
+        "slug":  "alternative_to_winning_w",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Woke / Based",
+        "slug":  "alternative_to_woke_based",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Alternative To: Yapping / Wall Of Text",
+        "slug":  "alternative_to_yapping_wall_of_text",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Analytical",
+        "slug":  "analytical",
+        "count":  71,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Analyzing \u0026 Examining",
+        "slug":  "analyzing_examining",
+        "count":  14,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Anger (extreme)",
+        "slug":  "anger_extreme",
+        "count":  3,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Anger (mild)",
+        "slug":  "anger_mild",
+        "count":  3,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Anger (moderate)",
+        "slug":  "anger_moderate",
+        "count":  3,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Anger (strong)",
+        "slug":  "anger_strong",
+        "count":  2,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Anger/frustration",
+        "slug":  "angerfrustration",
+        "count":  30,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Animals \u0026 Insects",
+        "slug":  "animals_insects",
+        "count":  115,
+        "icon":  "🐾"
+    },
+    {
+        "name":  "Arguing \u0026 Discussing",
+        "slug":  "arguing_discussing",
+        "count":  15,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Argument \u0026 Debate",
+        "slug":  "argument_debate",
+        "count":  20,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Argumentation",
+        "slug":  "argumentation",
+        "count":  11,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Argumentative",
+        "slug":  "argumentative",
+        "count":  40,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Arithmetic/operations",
+        "slug":  "arithmeticoperations",
+        "count":  34,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Asking Help Directions",
+        "slug":  "asking_help_directions",
+        "count":  10,
+        "icon":  "🧭"
+    },
+    {
+        "name":  "Assert",
+        "slug":  "assert",
+        "count":  63,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Assertiveness",
+        "slug":  "assertiveness",
+        "count":  7,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Automation",
+        "slug":  "automation",
+        "count":  21,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Awe / Wonder",
+        "slug":  "awe_wonder",
+        "count":  3,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Bags",
+        "slug":  "bags",
+        "count":  12,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Banking \u0026 Accounts",
+        "slug":  "banking_accounts",
+        "count":  39,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Bargaining \u0026 Discounts",
+        "slug":  "bargaining_discounts",
+        "count":  25,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Bedroom \u0026 Living Room",
+        "slug":  "bedroom_living_room",
+        "count":  17,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Belongings",
+        "slug":  "belongings",
+        "count":  22,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Beverages (cold)",
+        "slug":  "beverages_cold",
+        "count":  15,
+        "icon":  "🧓"
+    },
+    {
+        "name":  "Beverages (hot)",
+        "slug":  "beverages_hot",
+        "count":  15,
+        "icon":  "🧓"
+    },
+    {
+        "name":  "Bias",
+        "slug":  "bias",
+        "count":  26,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Bilingual Acquisition",
+        "slug":  "bilingual_acquisition",
+        "count":  4,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Biodiversity",
+        "slug":  "biodiversity",
+        "count":  19,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Bird Sounds/calls",
+        "slug":  "bird_soundscalls",
+        "count":  20,
+        "icon":  "🔊"
+    },
+    {
+        "name":  "Bitter",
+        "slug":  "bitter",
+        "count":  11,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Body \u0026 Transitions",
+        "slug":  "body_transitions",
+        "count":  30,
+        "icon":  "💪"
+    },
+    {
+        "name":  "Boredom / Apathy (extreme)",
+        "slug":  "boredom_apathy_extreme",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Boredom / Apathy (mild)",
+        "slug":  "boredom_apathy_mild",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Boredom / Apathy (moderate)",
+        "slug":  "boredom_apathy_moderate",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Boredom / Apathy (strong)",
+        "slug":  "boredom_apathy_strong",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Broadcasting \u0026 Tv News",
+        "slug":  "broadcasting_tv_news",
+        "count":  30,
+        "icon":  "📰"
+    },
+    {
+        "name":  "Building Consensus",
+        "slug":  "building_consensus",
+        "count":  34,
+        "icon":  "🏗"
+    },
+    {
+        "name":  "Calm / Serenity",
+        "slug":  "calm_serenity",
+        "count":  4,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Casual Openers",
+        "slug":  "casual_openers",
+        "count":  37,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Cause, Effect \u0026 Connection",
+        "slug":  "cause_effect_connection",
+        "count":  14,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Character \u0026 Personality",
+        "slug":  "character_personality",
+        "count":  14,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Chores",
+        "slug":  "chores",
+        "count":  18,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Cinema \u0026 Film Analysis",
+        "slug":  "cinema_film_analysis",
+        "count":  30,
+        "icon":  "🎬"
+    },
+    {
+        "name":  "Civic Administration",
+        "slug":  "civic_administration",
+        "count":  30,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Civilizations",
+        "slug":  "civilizations",
+        "count":  28,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Clarification",
+        "slug":  "clarification",
+        "count":  10,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Clarify",
+        "slug":  "clarify",
+        "count":  59,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Clarity",
+        "slug":  "clarity",
+        "count":  3,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Classroom Activities",
+        "slug":  "classroom_activities",
+        "count":  10,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Cleaning Supplies",
+        "slug":  "cleaning_supplies",
+        "count":  10,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Climate",
+        "slug":  "climate",
+        "count":  29,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Clothing",
+        "slug":  "clothing",
+        "count":  20,
+        "icon":  "👕"
+    },
+    {
+        "name":  "Cognition",
+        "slug":  "cognition",
+        "count":  47,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Cognitive Bias \u0026 Stance",
+        "slug":  "cognitive_bias_stance",
+        "count":  30,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Cognitive Biases Decision Making",
+        "slug":  "cognitive_biases_-_decision_making",
+        "count":  33,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Cognitive Biases Memory \u0026 Perception",
+        "slug":  "cognitive_biases_-_memory_perception",
+        "count":  16,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Cognitive Biases Social \u0026 Attribution",
+        "slug":  "cognitive_biases_-_social_attribution",
+        "count":  24,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Cognitive Linguistics",
+        "slug":  "cognitive_linguistics",
+        "count":  12,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Cognitive Milestones",
+        "slug":  "cognitive_milestones",
+        "count":  19,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Collaboration \u0026 Tasks",
+        "slug":  "collaboration_tasks",
+        "count":  20,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Common Birds",
+        "slug":  "common_birds",
+        "count":  20,
+        "icon":  "🐦"
+    },
+    {
+        "name":  "Communication",
+        "slug":  "communication",
+        "count":  20,
+        "icon":  "📢"
+    },
+    {
+        "name":  "Communication \u0026 Rhetoric",
+        "slug":  "communication_rhetoric",
+        "count":  1,
+        "icon":  "📢"
+    },
+    {
+        "name":  "Commuting",
+        "slug":  "commuting",
+        "count":  15,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Comparison \u0026 Contrast",
+        "slug":  "comparison_contrast",
+        "count":  2,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Compassion",
+        "slug":  "compassion",
+        "count":  5,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Comprehension",
+        "slug":  "comprehension",
+        "count":  15,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Comprehension \u0026 Clarity",
+        "slug":  "comprehension_clarity",
+        "count":  18,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Computing",
+        "slug":  "computing",
+        "count":  36,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Condiments",
+        "slug":  "condiments",
+        "count":  31,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Confidence",
+        "slug":  "confidence",
+        "count":  3,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Conflict Resolution",
+        "slug":  "conflict_resolution",
+        "count":  33,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Confusion",
+        "slug":  "confusion",
+        "count":  3,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Conservation",
+        "slug":  "conservation",
+        "count":  62,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Contempt / Disdain (extreme)",
+        "slug":  "contempt_disdain_extreme",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Contempt / Disdain (mild)",
+        "slug":  "contempt_disdain_mild",
+        "count":  2,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Contempt / Disdain (moderate)",
+        "slug":  "contempt_disdain_moderate",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Contempt / Disdain (strong)",
+        "slug":  "contempt_disdain_strong",
+        "count":  2,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Content \u0026 Digital Asset Management",
+        "slug":  "content_digital_asset_management",
+        "count":  13,
+        "icon":  "🧓"
+    },
+    {
+        "name":  "Context",
+        "slug":  "context",
+        "count":  66,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Cooking Methods",
+        "slug":  "cooking_methods",
+        "count":  10,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Coping Mechanisms",
+        "slug":  "coping_mechanisms",
+        "count":  29,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Corporate Accountability",
+        "slug":  "corporate_accountability",
+        "count":  30,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Courtroom \u0026 Trials",
+        "slug":  "courtroom_trials",
+        "count":  38,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Creative Writing",
+        "slug":  "creative_writing",
+        "count":  31,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Creativity",
+        "slug":  "creativity",
+        "count":  2,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Creativity \u0026 Ideas",
+        "slug":  "creativity_ideas",
+        "count":  5,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Crimes \u0026 Offences",
+        "slug":  "crimes_offences",
+        "count":  30,
+        "icon":  "👮"
+    },
+    {
+        "name":  "Critical Thinking",
+        "slug":  "critical_thinking",
+        "count":  37,
+        "icon":  "💭"
+    },
+    {
+        "name":  "Critical Thinking \u0026 Language",
+        "slug":  "critical_thinking_language",
+        "count":  1,
+        "icon":  "💭"
+    },
+    {
+        "name":  "Cultural Empathy",
+        "slug":  "cultural_empathy",
+        "count":  25,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Culture \u0026 Anthropology",
+        "slug":  "culture_anthropology",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Culture \u0026 Arts",
+        "slug":  "culture_arts",
+        "count":  1,
+        "icon":  "🎨"
+    },
+    {
+        "name":  "Culture \u0026 Intellectual Life",
+        "slug":  "culture_intellectual_life",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Culture \u0026 Philosophy",
+        "slug":  "culture_philosophy",
+        "count":  2,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Culture \u0026 Rhetoric",
+        "slug":  "culture_rhetoric",
+        "count":  2,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Culture \u0026 Society",
+        "slug":  "culture_society",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Cybersecurity",
+        "slug":  "cybersecurity",
+        "count":  30,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Cybersecurity \u0026 Access Control",
+        "slug":  "cybersecurity_access_control",
+        "count":  16,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Daily Topics",
+        "slug":  "daily_topics",
+        "count":  10,
+        "icon":  "☀"
+    },
+    {
+        "name":  "Data \u0026 File Management",
+        "slug":  "data_file_management",
+        "count":  26,
+        "icon":  "🧓"
+    },
+    {
+        "name":  "Deduction",
+        "slug":  "deduction",
+        "count":  17,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Dei Core Concepts",
+        "slug":  "dei_core_concepts",
+        "count":  30,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Delegation \u0026 Standards",
+        "slug":  "delegation_standards",
+        "count":  30,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Delivery \u0026 Tone",
+        "slug":  "delivery_tone",
+        "count":  35,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Developmental Milestones",
+        "slug":  "developmental_milestones",
+        "count":  10,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Dietary Habits",
+        "slug":  "dietary_habits",
+        "count":  30,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Digital Communication \u0026 Collaboration",
+        "slug":  "digital_communication_collaboration",
+        "count":  20,
+        "icon":  "📢"
+    },
+    {
+        "name":  "Digital Communication Idioms",
+        "slug":  "digital_communication_idioms",
+        "count":  20,
+        "icon":  "💡"
+    },
+    {
+        "name":  "Digital Workspace \u0026 Tech",
+        "slug":  "digital_workspace_tech",
+        "count":  30,
+        "icon":  "💼"
+    },
+    {
+        "name":  "Diplomatic Phrasing",
+        "slug":  "diplomatic_phrasing",
+        "count":  33,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Discourse Marker Â€“ Approximation",
+        "slug":  "discourse_marker_approximation",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Discourse Marker Â€“ Aside",
+        "slug":  "discourse_marker_aside",
+        "count":  2,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Discourse Marker Â€“ Blunt Framing",
+        "slug":  "discourse_marker_blunt_framing",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Discourse Marker Â€“ Clarification",
+        "slug":  "discourse_marker_clarification",
+        "count":  4,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Discourse Marker Â€“ Clarification (informal)",
+        "slug":  "discourse_marker_clarification_informal",
+        "count":  1,
+        "icon":  "🎩"
+    },
+    {
+        "name":  "Discourse Marker Â€“ Closing",
+        "slug":  "discourse_marker_closing",
+        "count":  2,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Discourse Marker Â€“ Confirmation / Filler",
+        "slug":  "discourse_marker_confirmation_filler",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Discourse Marker Â€“ Contrast",
+        "slug":  "discourse_marker_contrast",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Discourse Marker Â€“ Contrast / Qualification",
+        "slug":  "discourse_marker_contrast_qualification",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Discourse Marker Â€“ Correction / Nuance",
+        "slug":  "discourse_marker_correction_nuance",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Discourse Marker Â€“ Doubt / Reported",
+        "slug":  "discourse_marker_doubt_reported",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Discourse Marker Â€“ Emphasis",
+        "slug":  "discourse_marker_emphasis",
+        "count":  4,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Discourse Marker Â€“ Emphasis / Confirmation",
+        "slug":  "discourse_marker_emphasis_confirmation",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Discourse Marker Â€“ Emphasis / Reality Check",
+        "slug":  "discourse_marker_emphasis_reality_check",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Discourse Marker Â€“ Explanation",
+        "slug":  "discourse_marker_explanation",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Discourse Marker Â€“ Figurative Language Signal",
+        "slug":  "discourse_marker_figurative_language_signal",
+        "count":  2,
+        "icon":  "🧓"
+    },
+    {
+        "name":  "Discourse Marker Â€“ Filler / Shared Knowledge",
+        "slug":  "discourse_marker_filler_shared_knowledge",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Discourse Marker Â€“ Framing",
+        "slug":  "discourse_marker_framing",
+        "count":  3,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Discourse Marker Â€“ Framing (informal)",
+        "slug":  "discourse_marker_framing_informal",
+        "count":  1,
+        "icon":  "🎩"
+    },
+    {
+        "name":  "Discourse Marker Â€“ Frankness",
+        "slug":  "discourse_marker_frankness",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Discourse Marker Â€“ Generalization",
+        "slug":  "discourse_marker_generalization",
+        "count":  5,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Discourse Marker Â€“ Hedging",
+        "slug":  "discourse_marker_hedging",
+        "count":  4,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Discourse Marker Â€“ Hedging (informal)",
+        "slug":  "discourse_marker_hedging_informal",
+        "count":  3,
+        "icon":  "🎩"
+    },
+    {
+        "name":  "Discourse Marker Â€“ Hedging / Response",
+        "slug":  "discourse_marker_hedging_response",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Discourse Marker Â€“ Key Point",
+        "slug":  "discourse_marker_key_point",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Discourse Marker Â€“ Key Point (informal)",
+        "slug":  "discourse_marker_key_point_informal",
+        "count":  1,
+        "icon":  "🎩"
+    },
+    {
+        "name":  "Discourse Marker Â€“ Knowledge Limitation",
+        "slug":  "discourse_marker_knowledge_limitation",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Discourse Marker Â€“ Logical Follow Up",
+        "slug":  "discourse_marker_logical_follow-up",
+        "count":  2,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Discourse Marker Â€“ Obviousness",
+        "slug":  "discourse_marker_obviousness",
+        "count":  2,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Discourse Marker Â€“ Partial Positive",
+        "slug":  "discourse_marker_partial_positive",
+        "count":  1,
+        "icon":  "🎨"
+    },
+    {
+        "name":  "Discourse Marker Â€“ Precision",
+        "slug":  "discourse_marker_precision",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Discourse Marker Â€“ Qualification",
+        "slug":  "discourse_marker_qualification",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Discourse Marker Â€“ Reality Check",
+        "slug":  "discourse_marker_reality_check",
+        "count":  2,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Discourse Marker Â€“ Realization",
+        "slug":  "discourse_marker_realization",
+        "count":  2,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Discourse Marker Â€“ Reason / Reconsideration",
+        "slug":  "discourse_marker_reason_reconsideration",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Discourse Marker Â€“ Reformulation",
+        "slug":  "discourse_marker_reformulation",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Discourse Marker Â€“ Reported (unverified)",
+        "slug":  "discourse_marker_reported_unverified",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Discourse Marker Â€“ Reported Information",
+        "slug":  "discourse_marker_reported_information",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Discourse Marker Â€“ Source Attribution",
+        "slug":  "discourse_marker_source_attribution",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Discourse Marker Â€“ Specification",
+        "slug":  "discourse_marker_specification",
+        "count":  3,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Discourse Marker Â€“ Summary",
+        "slug":  "discourse_marker_summary",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Discourse Marker Â€“ Topic Connection",
+        "slug":  "discourse_marker_topic_connection",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Discourse Marker Â€“ Topic Expansion (informal)",
+        "slug":  "discourse_marker_topic_expansion_informal",
+        "count":  1,
+        "icon":  "🎩"
+    },
+    {
+        "name":  "Discourse Marker Â€“ Topic Return",
+        "slug":  "discourse_marker_topic_return",
+        "count":  4,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Discourse Marker Â€“ Topic Shift",
+        "slug":  "discourse_marker_topic_shift",
+        "count":  2,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Discourse Marker Â€“ Uncertainty",
+        "slug":  "discourse_marker_uncertainty",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Discourse Marker Â€“ Wish / Regret",
+        "slug":  "discourse_marker_wish_regret",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Discourse Markers \u0026 Fillers",
+        "slug":  "discourse_markers_fillers",
+        "count":  17,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Discussion",
+        "slug":  "discussion",
+        "count":  29,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Disgust (extreme)",
+        "slug":  "disgust_extreme",
+        "count":  2,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Disgust (mild)",
+        "slug":  "disgust_mild",
+        "count":  2,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Disgust (moderate)",
+        "slug":  "disgust_moderate",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Disgust (strong)",
+        "slug":  "disgust_strong",
+        "count":  2,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Disgust/guilt",
+        "slug":  "disgustguilt",
+        "count":  30,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Distress (extreme)",
+        "slug":  "distress_extreme",
+        "count":  2,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Distress (strong)",
+        "slug":  "distress_strong",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "E Commerce",
+        "slug":  "e-commerce",
+        "count":  31,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Early Word Stage",
+        "slug":  "early_word_stage",
+        "count":  8,
+        "icon":  "🧓"
+    },
+    {
+        "name":  "Eco Friendly Practices",
+        "slug":  "eco-friendly_practices",
+        "count":  23,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Ecosystems",
+        "slug":  "ecosystems",
+        "count":  32,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Education",
+        "slug":  "education",
+        "count":  1,
+        "icon":  "🎓"
+    },
+    {
+        "name":  "Elections \u0026 Voting",
+        "slug":  "elections_voting",
+        "count":  35,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Electronics \u0026 Gadgets",
+        "slug":  "electronics_gadgets",
+        "count":  16,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Email",
+        "slug":  "email",
+        "count":  26,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Emotional Wellness",
+        "slug":  "emotional_wellness",
+        "count":  37,
+        "icon":  "❤"
+    },
+    {
+        "name":  "Emotions \u0026 Feelings",
+        "slug":  "emotions_feelings",
+        "count":  7,
+        "icon":  "❤"
+    },
+    {
+        "name":  "Emphasis",
+        "slug":  "emphasis",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Energy/electricity",
+        "slug":  "energyelectricity",
+        "count":  35,
+        "icon":  "🏙"
+    },
+    {
+        "name":  "English",
+        "slug":  "english",
+        "count":  30,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Environmental Factors",
+        "slug":  "environmental_factors",
+        "count":  17,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Envy / Jealousy (mild)",
+        "slug":  "envy_jealousy_mild",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Envy / Jealousy (moderate)",
+        "slug":  "envy_jealousy_moderate",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Envy / Jealousy (strong)",
+        "slug":  "envy_jealousy_strong",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Essentials",
+        "slug":  "essentials",
+        "count":  45,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Etymology",
+        "slug":  "etymology",
+        "count":  24,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Evaluation",
+        "slug":  "evaluation",
+        "count":  33,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Evaluation Language",
+        "slug":  "evaluation_language",
+        "count":  21,
+        "icon":  "🧓"
+    },
+    {
+        "name":  "Evaluative",
+        "slug":  "evaluative",
+        "count":  79,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Everyday Verbs \u0026 Phrasal Verbs",
+        "slug":  "everyday_verbs_phrasal_verbs",
+        "count":  26,
+        "icon":  "🏃"
+    },
+    {
+        "name":  "Evidence",
+        "slug":  "evidence",
+        "count":  4,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Exam \u0026 Classroom",
+        "slug":  "exam_classroom",
+        "count":  126,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Excellence",
+        "slug":  "excellence",
+        "count":  2,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Explanation",
+        "slug":  "explanation",
+        "count":  3,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Expression",
+        "slug":  "expression",
+        "count":  4,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Fairness \u0026 Justice",
+        "slug":  "fairness_justice",
+        "count":  4,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Fake News \u0026 Misinformation",
+        "slug":  "fake_news_misinformation",
+        "count":  30,
+        "icon":  "📰"
+    },
+    {
+        "name":  "Fast Food",
+        "slug":  "fast_food",
+        "count":  15,
+        "icon":  "🍔"
+    },
+    {
+        "name":  "Fear (extreme)",
+        "slug":  "fear_extreme",
+        "count":  2,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Fear (mild)",
+        "slug":  "fear_mild",
+        "count":  3,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Fear (moderate)",
+        "slug":  "fear_moderate",
+        "count":  3,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Fear (strong)",
+        "slug":  "fear_strong",
+        "count":  2,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Fear/anxiety",
+        "slug":  "fearanxiety",
+        "count":  30,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Finance/accounting",
+        "slug":  "financeaccounting",
+        "count":  30,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Fitness \u0026 Equipment",
+        "slug":  "fitness_equipment",
+        "count":  35,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Fitness \u0026 Recovery",
+        "slug":  "fitness_recovery",
+        "count":  30,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Forces/motion",
+        "slug":  "forcesmotion",
+        "count":  35,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Formal Educational Vocabulary",
+        "slug":  "formal_educational_vocabulary",
+        "count":  133,
+        "icon":  "🎩"
+    },
+    {
+        "name":  "Formal Fallacies",
+        "slug":  "formal_fallacies",
+        "count":  4,
+        "icon":  "🎩"
+    },
+    {
+        "name":  "Formulating Ideas \u0026 Concepts",
+        "slug":  "formulating_ideas_concepts",
+        "count":  10,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Future Of Work Tech",
+        "slug":  "future-of-work_tech",
+        "count":  27,
+        "icon":  "💼"
+    },
+    {
+        "name":  "Gadget",
+        "slug":  "gadget",
+        "count":  20,
+        "icon":  "📚"
+    },
+    {
+        "name":  "General Future Of Work",
+        "slug":  "general_future-of-work",
+        "count":  34,
+        "icon":  "💼"
+    },
+    {
+        "name":  "Geometry/shapes",
+        "slug":  "geometryshapes",
+        "count":  42,
+        "icon":  "🔶"
+    },
+    {
+        "name":  "Gig Economy",
+        "slug":  "gig_economy",
+        "count":  17,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Government Systems",
+        "slug":  "government_systems",
+        "count":  25,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Grains",
+        "slug":  "grains",
+        "count":  20,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Gratitude / Tenderness (extreme)",
+        "slug":  "gratitude_tenderness_extreme",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Gratitude / Tenderness (mild)",
+        "slug":  "gratitude_tenderness_mild",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Gratitude / Tenderness (moderate)",
+        "slug":  "gratitude_tenderness_moderate",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Gratitude / Tenderness (strong)",
+        "slug":  "gratitude_tenderness_strong",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Greetings Farewells",
+        "slug":  "greetings_farewells",
+        "count":  10,
+        "icon":  "👋"
+    },
+    {
+        "name":  "Greetings, Partings \u0026 Social Replies",
+        "slug":  "greetings_partings_social_replies",
+        "count":  26,
+        "icon":  "🎨"
+    },
+    {
+        "name":  "Groceries",
+        "slug":  "groceries",
+        "count":  50,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Guilt / Remorse",
+        "slug":  "guilt_remorse",
+        "count":  4,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Happiness",
+        "slug":  "happiness",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Happiness (extreme)",
+        "slug":  "happiness_extreme",
+        "count":  3,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Happiness (mild)",
+        "slug":  "happiness_mild",
+        "count":  3,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Happiness (moderate)",
+        "slug":  "happiness_moderate",
+        "count":  2,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Happiness (strong)",
+        "slug":  "happiness_strong",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Hardware",
+        "slug":  "hardware",
+        "count":  23,
+        "icon":  "⚔"
+    },
+    {
+        "name":  "Herbs",
+        "slug":  "herbs",
+        "count":  14,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Home",
+        "slug":  "home",
+        "count":  43,
+        "icon":  "🏠"
+    },
+    {
+        "name":  "Honesty",
+        "slug":  "honesty",
+        "count":  2,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Hook \u0026 Intro",
+        "slug":  "hook_intro",
+        "count":  30,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Hope / Anticipation (extreme)",
+        "slug":  "hope_anticipation_extreme",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Hope / Anticipation (mild)",
+        "slug":  "hope_anticipation_mild",
+        "count":  2,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Hope / Anticipation (moderate)",
+        "slug":  "hope_anticipation_moderate",
+        "count":  2,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Hope / Anticipation (strong)",
+        "slug":  "hope_anticipation_strong",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Hybrid Work",
+        "slug":  "hybrid_work",
+        "count":  14,
+        "icon":  "💼"
+    },
+    {
+        "name":  "Hygiene",
+        "slug":  "hygiene",
+        "count":  31,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Immune System",
+        "slug":  "immune_system",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Importance \u0026 Priority",
+        "slug":  "importance_priority",
+        "count":  10,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Improvement",
+        "slug":  "improvement",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Independence \u0026 Control",
+        "slug":  "independence_control",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Indoor Gaming",
+        "slug":  "indoor_gaming",
+        "count":  45,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Inference",
+        "slug":  "inference",
+        "count":  33,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Informal Fallacies Ambiguity",
+        "slug":  "informal_fallacies_-_ambiguity",
+        "count":  5,
+        "icon":  "🎩"
+    },
+    {
+        "name":  "Informal Fallacies Causal",
+        "slug":  "informal_fallacies_-_causal",
+        "count":  3,
+        "icon":  "🎩"
+    },
+    {
+        "name":  "Informal Fallacies Presumption",
+        "slug":  "informal_fallacies_-_presumption",
+        "count":  16,
+        "icon":  "🎩"
+    },
+    {
+        "name":  "Informal Fallacies Relevance",
+        "slug":  "informal_fallacies_-_relevance",
+        "count":  24,
+        "icon":  "🎩"
+    },
+    {
+        "name":  "Informal Softeners \u0026 Hedges",
+        "slug":  "informal_softeners_hedges",
+        "count":  11,
+        "icon":  "🎩"
+    },
+    {
+        "name":  "Innovation",
+        "slug":  "innovation",
+        "count":  31,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Insecurity (mild)",
+        "slug":  "insecurity_mild",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Insecurity (moderate)",
+        "slug":  "insecurity_moderate",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Insecurity (strong)",
+        "slug":  "insecurity_strong",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Instant Messaging \u0026 Chat",
+        "slug":  "instant_messaging_chat",
+        "count":  20,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Instruction",
+        "slug":  "instruction",
+        "count":  30,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Instruction Verbs",
+        "slug":  "instruction_verbs",
+        "count":  49,
+        "icon":  "🏃"
+    },
+    {
+        "name":  "Instruments \u0026 Sound",
+        "slug":  "instruments_sound",
+        "count":  30,
+        "icon":  "🔊"
+    },
+    {
+        "name":  "Intelligence",
+        "slug":  "intelligence",
+        "count":  7,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Interject",
+        "slug":  "interject",
+        "count":  14,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Interjection",
+        "slug":  "interjection",
+        "count":  5,
+        "icon":  "❗"
+    },
+    {
+        "name":  "Internet",
+        "slug":  "internet",
+        "count":  20,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Introductions",
+        "slug":  "introductions",
+        "count":  10,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Irritability",
+        "slug":  "irritability",
+        "count":  3,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Keys \u0026 Accessories",
+        "slug":  "keys_accessories",
+        "count":  10,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Kitchen \u0026 Dining",
+        "slug":  "kitchen_dining",
+        "count":  21,
+        "icon":  "🍽"
+    },
+    {
+        "name":  "Language \u0026 Academic",
+        "slug":  "language_academic",
+        "count":  1,
+        "icon":  "🧓"
+    },
+    {
+        "name":  "Language \u0026 Communication",
+        "slug":  "language_communication",
+        "count":  1,
+        "icon":  "📢"
+    },
+    {
+        "name":  "Language \u0026 Critical Thinking",
+        "slug":  "language_critical_thinking",
+        "count":  1,
+        "icon":  "💭"
+    },
+    {
+        "name":  "Language \u0026 Culture",
+        "slug":  "language_culture",
+        "count":  1,
+        "icon":  "🧓"
+    },
+    {
+        "name":  "Language \u0026 Philosophy",
+        "slug":  "language_philosophy",
+        "count":  1,
+        "icon":  "🧓"
+    },
+    {
+        "name":  "Language \u0026 Rhetoric",
+        "slug":  "language_rhetoric",
+        "count":  4,
+        "icon":  "🧓"
+    },
+    {
+        "name":  "Language Attitudes",
+        "slug":  "language_attitudes",
+        "count":  2,
+        "icon":  "🧓"
+    },
+    {
+        "name":  "Language Change",
+        "slug":  "language_change",
+        "count":  3,
+        "icon":  "🧓"
+    },
+    {
+        "name":  "Language Development",
+        "slug":  "language_development",
+        "count":  11,
+        "icon":  "🧓"
+    },
+    {
+        "name":  "Language Proficiency",
+        "slug":  "language_proficiency",
+        "count":  6,
+        "icon":  "🧓"
+    },
+    {
+        "name":  "Language Skills",
+        "slug":  "language_skills",
+        "count":  26,
+        "icon":  "🧓"
+    },
+    {
+        "name":  "Language Skills",
+        "slug":  "language-skills",
+        "count":  15,
+        "icon":  "🧓"
+    },
+    {
+        "name":  "Leadership",
+        "slug":  "leadership",
+        "count":  2,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Learning",
+        "slug":  "learning",
+        "count":  15,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Learning Resources",
+        "slug":  "learning_resources",
+        "count":  4,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Learning Strategies",
+        "slug":  "learning_strategies",
+        "count":  10,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Learning Strategy",
+        "slug":  "learning_strategy",
+        "count":  19,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Legal Rights",
+        "slug":  "legal_rights",
+        "count":  22,
+        "icon":  "⚖"
+    },
+    {
+        "name":  "Leisure",
+        "slug":  "leisure",
+        "count":  20,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Lentils",
+        "slug":  "lentils",
+        "count":  16,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Light Topics",
+        "slug":  "light_topics",
+        "count":  33,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Linguistic Theories",
+        "slug":  "linguistic_theories",
+        "count":  11,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Linguistic Theory",
+        "slug":  "linguistic_theory",
+        "count":  7,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Linguistics",
+        "slug":  "linguistics",
+        "count":  2,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Linguistics \u0026 Communication",
+        "slug":  "linguistics_communication",
+        "count":  1,
+        "icon":  "📢"
+    },
+    {
+        "name":  "Linguistics \u0026 Logic",
+        "slug":  "linguistics_logic",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Linguistics \u0026 Society",
+        "slug":  "linguistics_society",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Linking Phrase Â€“ Addition / Emphasis",
+        "slug":  "linking_phrase_addition_emphasis",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Linking Phrase Â€“ Cause",
+        "slug":  "linking_phrase_cause",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Linking Phrase Â€“ Cause \u0026 Effect",
+        "slug":  "linking_phrase_cause_effect",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Linking Phrase Â€“ Cause (formal)",
+        "slug":  "linking_phrase_cause_formal",
+        "count":  1,
+        "icon":  "🎩"
+    },
+    {
+        "name":  "Linking Phrase Â€“ Comparison",
+        "slug":  "linking_phrase_comparison",
+        "count":  3,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Linking Phrase Â€“ Concession",
+        "slug":  "linking_phrase_concession",
+        "count":  2,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Linking Phrase Â€“ Condition",
+        "slug":  "linking_phrase_condition",
+        "count":  2,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Linking Phrase Â€“ Consequence (informal)",
+        "slug":  "linking_phrase_consequence_informal",
+        "count":  1,
+        "icon":  "🎩"
+    },
+    {
+        "name":  "Linking Phrase Â€“ Contrast",
+        "slug":  "linking_phrase_contrast",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Linking Phrase Â€“ Emphasis",
+        "slug":  "linking_phrase_emphasis",
+        "count":  2,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Linking Phrase Â€“ Example",
+        "slug":  "linking_phrase_example",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Linking Phrase Â€“ Precaution",
+        "slug":  "linking_phrase_precaution",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Linking Phrase Â€“ Preference / Contrast",
+        "slug":  "linking_phrase_preference_contrast",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Linking Phrase Â€“ Reason (informal)",
+        "slug":  "linking_phrase_reason_informal",
+        "count":  1,
+        "icon":  "🎩"
+    },
+    {
+        "name":  "Linking Phrase Â€“ Reason / Concession",
+        "slug":  "linking_phrase_reason_concession",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Linking Phrase Â€“ Substitution",
+        "slug":  "linking_phrase_substitution",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Linking Word Â€“ Addition",
+        "slug":  "linking_word_addition",
+        "count":  5,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Linking Word Â€“ Addition (formal)",
+        "slug":  "linking_word_addition_formal",
+        "count":  2,
+        "icon":  "🎩"
+    },
+    {
+        "name":  "Linking Word Â€“ Addition (informal)",
+        "slug":  "linking_word_addition_informal",
+        "count":  1,
+        "icon":  "🎩"
+    },
+    {
+        "name":  "Linking Word Â€“ Addition / Emphasis",
+        "slug":  "linking_word_addition_emphasis",
+        "count":  2,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Linking Word Â€“ Concession",
+        "slug":  "linking_word_concession",
+        "count":  4,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Linking Word Â€“ Concession (informal)",
+        "slug":  "linking_word_concession_informal",
+        "count":  1,
+        "icon":  "🎩"
+    },
+    {
+        "name":  "Linking Word Â€“ Condition",
+        "slug":  "linking_word_condition",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Linking Word Â€“ Condition / Result",
+        "slug":  "linking_word_condition_result",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Linking Word Â€“ Contrast",
+        "slug":  "linking_word_contrast",
+        "count":  4,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Linking Word Â€“ Contrast (formal)",
+        "slug":  "linking_word_contrast_formal",
+        "count":  3,
+        "icon":  "🎩"
+    },
+    {
+        "name":  "Linking Word Â€“ Contrast / Concession",
+        "slug":  "linking_word_contrast_concession",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Linking Word Â€“ Example (informal)",
+        "slug":  "linking_word_example_informal",
+        "count":  1,
+        "icon":  "🎩"
+    },
+    {
+        "name":  "Linking Word Â€“ Reason",
+        "slug":  "linking_word_reason",
+        "count":  3,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Linking Word Â€“ Result (formal)",
+        "slug":  "linking_word_result_formal",
+        "count":  3,
+        "icon":  "🎩"
+    },
+    {
+        "name":  "Linking Word Â€“ Result / Conclusion",
+        "slug":  "linking_word_result_conclusion",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Linking Word Â€“ Result / Topic Shift",
+        "slug":  "linking_word_result_topic_shift",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Linking Word Â€“ Sequence",
+        "slug":  "linking_word_sequence",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Literary Terms",
+        "slug":  "literary_terms",
+        "count":  31,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Literary Theory",
+        "slug":  "literary_theory",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Literary Theory \u0026 Aesthetics",
+        "slug":  "literary_theory_aesthetics",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Literary Theory \u0026 Philosophy",
+        "slug":  "literary_theory_philosophy",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Logic \u0026 Critical Thinking",
+        "slug":  "logic_critical_thinking",
+        "count":  1,
+        "icon":  "💭"
+    },
+    {
+        "name":  "Logic \u0026 History",
+        "slug":  "logic_history",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Logic \u0026 Reasoning",
+        "slug":  "logic_reasoning",
+        "count":  19,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Logical Connectives \u0026 Links",
+        "slug":  "logical_connectives_links",
+        "count":  30,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Logical Pitfalls \u0026 Biases",
+        "slug":  "logical_pitfalls_biases",
+        "count":  15,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Logical Reasoning",
+        "slug":  "logical_reasoning",
+        "count":  13,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Logical Truth \u0026 Validity",
+        "slug":  "logical_truth_validity",
+        "count":  25,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Logistics \u0026 Documents",
+        "slug":  "logistics_documents",
+        "count":  26,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Loneliness / Isolation (extreme)",
+        "slug":  "loneliness_isolation_extreme",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Loneliness / Isolation (mild)",
+        "slug":  "loneliness_isolation_mild",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Loneliness / Isolation (moderate)",
+        "slug":  "loneliness_isolation_moderate",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Love / Affection (extreme)",
+        "slug":  "love_affection_extreme",
+        "count":  2,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Love / Affection (mild)",
+        "slug":  "love_affection_mild",
+        "count":  2,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Love / Affection (moderate)",
+        "slug":  "love_affection_moderate",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Love / Affection (strong)",
+        "slug":  "love_affection_strong",
+        "count":  3,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Machine Learning Terms",
+        "slug":  "machine_learning_terms",
+        "count":  29,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Management/leadership",
+        "slug":  "managementleadership",
+        "count":  30,
+        "icon":  "🧓"
+    },
+    {
+        "name":  "Maps/coordinates",
+        "slug":  "mapscoordinates",
+        "count":  28,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Marketing/sales",
+        "slug":  "marketingsales",
+        "count":  30,
+        "icon":  "🛒"
+    },
+    {
+        "name":  "Maths",
+        "slug":  "maths",
+        "count":  31,
+        "icon":  "➕"
+    },
+    {
+        "name":  "Matter",
+        "slug":  "matter",
+        "count":  34,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Meals",
+        "slug":  "meals",
+        "count":  17,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Measurement",
+        "slug":  "measurement",
+        "count":  28,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Media Manipulation",
+        "slug":  "media_manipulation",
+        "count":  30,
+        "icon":  "📰"
+    },
+    {
+        "name":  "Media Operations",
+        "slug":  "media_operations",
+        "count":  30,
+        "icon":  "📰"
+    },
+    {
+        "name":  "Medical Emergencies",
+        "slug":  "medical_emergencies",
+        "count":  30,
+        "icon":  "⚕"
+    },
+    {
+        "name":  "Meetings \u0026 Video Calls",
+        "slug":  "meetings_video_calls",
+        "count":  20,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Meetings/negotiation",
+        "slug":  "meetingsnegotiation",
+        "count":  30,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Memory \u0026 Learning",
+        "slug":  "memory_learning",
+        "count":  15,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Mental States",
+        "slug":  "mental_states",
+        "count":  26,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Messaging",
+        "slug":  "messaging",
+        "count":  24,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Metacognition",
+        "slug":  "metacognition",
+        "count":  12,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Metacognitive",
+        "slug":  "metacognitive",
+        "count":  10,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Migratory Birds",
+        "slug":  "migratory_birds",
+        "count":  20,
+        "icon":  "🐦"
+    },
+    {
+        "name":  "Mild Illness",
+        "slug":  "mild_illness",
+        "count":  17,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Mindfulness Practices",
+        "slug":  "mindfulness_practices",
+        "count":  33,
+        "icon":  "🧠"
+    },
+    {
+        "name":  "Mixed / Acceptance",
+        "slug":  "mixed_acceptance",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Mixed / Affection",
+        "slug":  "mixed_affection",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Mixed / Anticipation",
+        "slug":  "mixed_anticipation",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Mixed / Emotional",
+        "slug":  "mixed_emotional",
+        "count":  1,
+        "icon":  "❤"
+    },
+    {
+        "name":  "Mixed / Expectation",
+        "slug":  "mixed_expectation",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Mixed / Longing",
+        "slug":  "mixed_longing",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Mixed / Nostalgic",
+        "slug":  "mixed_nostalgic",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Mixed / Reflective",
+        "slug":  "mixed_reflective",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Mixed / Yearning",
+        "slug":  "mixed_yearning",
+        "count":  2,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Modal Verbs \u0026 Necessity",
+        "slug":  "modal_verbs_necessity",
+        "count":  9,
+        "icon":  "🏃"
+    },
+    {
+        "name":  "Morning Routine",
+        "slug":  "morning_routine",
+        "count":  16,
+        "icon":  "📅"
+    },
+    {
+        "name":  "Motivation \u0026 Goals",
+        "slug":  "motivation_goals",
+        "count":  8,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Musical Notation \u0026 Theory",
+        "slug":  "musical_notation_theory",
+        "count":  30,
+        "icon":  "🎵"
+    },
+    {
+        "name":  "Natural Disasters",
+        "slug":  "natural_disasters",
+        "count":  30,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Needs Feelings",
+        "slug":  "needs_feelings",
+        "count":  10,
+        "icon":  "💛"
+    },
+    {
+        "name":  "Negative / Aggression",
+        "slug":  "negative_aggression",
+        "count":  2,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Negative / Anxiety",
+        "slug":  "negative_anxiety",
+        "count":  3,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Negative / Aversion",
+        "slug":  "negative_aversion",
+        "count":  2,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Negative / Bitterness",
+        "slug":  "negative_bitterness",
+        "count":  2,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Negative / Confusion",
+        "slug":  "negative_confusion",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Negative / Detachment",
+        "slug":  "negative_detachment",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Negative / Disappointment",
+        "slug":  "negative_disappointment",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Negative / Discomfort",
+        "slug":  "negative_discomfort",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Negative / Disengagement",
+        "slug":  "negative_disengagement",
+        "count":  3,
+        "icon":  "🧓"
+    },
+    {
+        "name":  "Negative / Distress",
+        "slug":  "negative_distress",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Negative / Distrust",
+        "slug":  "negative_distrust",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Negative / Fear",
+        "slug":  "negative_fear",
+        "count":  3,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Negative / Frustration",
+        "slug":  "negative_frustration",
+        "count":  5,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Negative / Grief",
+        "slug":  "negative_grief",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Negative / Hopelessness",
+        "slug":  "negative_hopelessness",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Negative / Hostility",
+        "slug":  "negative_hostility",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Negative / Insecurity",
+        "slug":  "negative_insecurity",
+        "count":  2,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Negative / Irritation",
+        "slug":  "negative_irritation",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Negative / Isolation",
+        "slug":  "negative_isolation",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Negative / Letdown",
+        "slug":  "negative_letdown",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Negative / Loss",
+        "slug":  "negative_loss",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Negative / Mindset",
+        "slug":  "negative_mindset",
+        "count":  1,
+        "icon":  "🧠"
+    },
+    {
+        "name":  "Negative / Physical/emotional",
+        "slug":  "negative_physicalemotional",
+        "count":  1,
+        "icon":  "❤"
+    },
+    {
+        "name":  "Negative / Remorse",
+        "slug":  "negative_remorse",
+        "count":  3,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Negative / Resentment",
+        "slug":  "negative_resentment",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Negative / Sadness",
+        "slug":  "negative_sadness",
+        "count":  2,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Negative / Self Doubt",
+        "slug":  "negative_self-doubt",
+        "count":  2,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Negative / Social",
+        "slug":  "negative_social",
+        "count":  6,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Negative / Sorrow",
+        "slug":  "negative_sorrow",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Negative / Stress",
+        "slug":  "negative_stress",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Negative / Suffering",
+        "slug":  "negative_suffering",
+        "count":  3,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Negative / Uncertainty",
+        "slug":  "negative_uncertainty",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Negative / Vulnerability",
+        "slug":  "negative_vulnerability",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Negative / Worry",
+        "slug":  "negative_worry",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Negotiation Strategies",
+        "slug":  "negotiation_strategies",
+        "count":  33,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Networking",
+        "slug":  "networking",
+        "count":  14,
+        "icon":  "💼"
+    },
+    {
+        "name":  "Nostalgia / Longing",
+        "slug":  "nostalgia_longing",
+        "count":  4,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Noun",
+        "slug":  "noun",
+        "count":  121,
+        "icon":  "📦"
+    },
+    {
+        "name":  "Noun / Adjective",
+        "slug":  "noun_adjective",
+        "count":  2,
+        "icon":  "📦"
+    },
+    {
+        "name":  "Noun / Adverb",
+        "slug":  "noun_adverb",
+        "count":  5,
+        "icon":  "🏃"
+    },
+    {
+        "name":  "Noun / Verb",
+        "slug":  "noun_verb",
+        "count":  9,
+        "icon":  "🏃"
+    },
+    {
+        "name":  "Noun/interjection",
+        "slug":  "nouninterjection",
+        "count":  1,
+        "icon":  "📦"
+    },
+    {
+        "name":  "Nutrient Intake",
+        "slug":  "nutrient_intake",
+        "count":  30,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Office \u0026 Stationery",
+        "slug":  "office_stationery",
+        "count":  16,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Oils",
+        "slug":  "oils",
+        "count":  15,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Outdoor Athletics",
+        "slug":  "outdoor_athletics",
+        "count":  25,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Passion / Intensity",
+        "slug":  "passion_intensity",
+        "count":  4,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Payments \u0026 Transactions",
+        "slug":  "payments_transactions",
+        "count":  33,
+        "icon":  "🎬"
+    },
+    {
+        "name":  "Pedagogical Terms",
+        "slug":  "pedagogical_terms",
+        "count":  29,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Perception",
+        "slug":  "perception",
+        "count":  12,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Performance \u0026 Live Shows",
+        "slug":  "performance_live_shows",
+        "count":  30,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Performance Feedback",
+        "slug":  "performance_feedback",
+        "count":  30,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Personal Care \u0026 Bathroom",
+        "slug":  "personal_care_bathroom",
+        "count":  17,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Philosophy \u0026 Critical Thinking",
+        "slug":  "philosophy_critical_thinking",
+        "count":  3,
+        "icon":  "💭"
+    },
+    {
+        "name":  "Philosophy \u0026 Culture",
+        "slug":  "philosophy_culture",
+        "count":  4,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Philosophy \u0026 Environment",
+        "slug":  "philosophy_environment",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Philosophy \u0026 Epistemology",
+        "slug":  "philosophy_epistemology",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Philosophy \u0026 Ethics",
+        "slug":  "philosophy_ethics",
+        "count":  10,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Philosophy \u0026 Interpretation",
+        "slug":  "philosophy_interpretation",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Philosophy \u0026 Journalism",
+        "slug":  "philosophy_journalism",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Philosophy \u0026 Logic",
+        "slug":  "philosophy_logic",
+        "count":  21,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Philosophy \u0026 Politics",
+        "slug":  "philosophy_politics",
+        "count":  4,
+        "icon":  "🏛"
+    },
+    {
+        "name":  "Philosophy \u0026 Practice",
+        "slug":  "philosophy_practice",
+        "count":  2,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Philosophy \u0026 Psychology",
+        "slug":  "philosophy_psychology",
+        "count":  2,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Philosophy \u0026 Religion",
+        "slug":  "philosophy_religion",
+        "count":  4,
+        "icon":  "🕊"
+    },
+    {
+        "name":  "Philosophy \u0026 Rhetoric",
+        "slug":  "philosophy_rhetoric",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Philosophy \u0026 Science",
+        "slug":  "philosophy_science",
+        "count":  10,
+        "icon":  "🔬"
+    },
+    {
+        "name":  "Philosophy \u0026 Society",
+        "slug":  "philosophy_society",
+        "count":  3,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Philosophy \u0026 Sociology",
+        "slug":  "philosophy_sociology",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Philosophy \u0026 Technology",
+        "slug":  "philosophy_technology",
+        "count":  2,
+        "icon":  "💻"
+    },
+    {
+        "name":  "Phonetic Milestones",
+        "slug":  "phonetic_milestones",
+        "count":  20,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Physical Geography",
+        "slug":  "physical_geography",
+        "count":  44,
+        "icon":  "🗺"
+    },
+    {
+        "name":  "Physical Injury",
+        "slug":  "physical_injury",
+        "count":  26,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Police \u0026 Arrests",
+        "slug":  "police_arrests",
+        "count":  30,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Polite Expressions",
+        "slug":  "polite_expressions",
+        "count":  10,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Polite Phrasing \u0026 Softeners",
+        "slug":  "polite_phrasing_softeners",
+        "count":  30,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Politics \u0026 Diplomacy",
+        "slug":  "politics_diplomacy",
+        "count":  1,
+        "icon":  "🏛"
+    },
+    {
+        "name":  "Politics \u0026 Philosophy",
+        "slug":  "politics_philosophy",
+        "count":  2,
+        "icon":  "🏛"
+    },
+    {
+        "name":  "Politics \u0026 Postcolonial Theory",
+        "slug":  "politics_postcolonial_theory",
+        "count":  1,
+        "icon":  "🏛"
+    },
+    {
+        "name":  "Politics \u0026 Society",
+        "slug":  "politics_society",
+        "count":  3,
+        "icon":  "🏛"
+    },
+    {
+        "name":  "Pollution",
+        "slug":  "pollution",
+        "count":  24,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Positive / Affection",
+        "slug":  "positive_affection",
+        "count":  2,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Positive / Awe",
+        "slug":  "positive_awe",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Positive / Care",
+        "slug":  "positive_care",
+        "count":  2,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Positive / Character",
+        "slug":  "positive_character",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Positive / Comfort",
+        "slug":  "positive_comfort",
+        "count":  2,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Positive / Energy",
+        "slug":  "positive_energy",
+        "count":  5,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Positive / Engagement",
+        "slug":  "positive_engagement",
+        "count":  1,
+        "icon":  "🧓"
+    },
+    {
+        "name":  "Positive / Excitement",
+        "slug":  "positive_excitement",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Positive / Extreme Joy",
+        "slug":  "positive_extreme_joy",
+        "count":  3,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Positive / Fulfilment",
+        "slug":  "positive_fulfilment",
+        "count":  1,
+        "icon":  "🎬"
+    },
+    {
+        "name":  "Positive / Gratitude",
+        "slug":  "positive_gratitude",
+        "count":  2,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Positive / Growth",
+        "slug":  "positive_growth",
+        "count":  2,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Positive / Happiness",
+        "slug":  "positive_happiness",
+        "count":  3,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Positive / Joy",
+        "slug":  "positive_joy",
+        "count":  2,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Positive / Mindset",
+        "slug":  "positive_mindset",
+        "count":  1,
+        "icon":  "🧠"
+    },
+    {
+        "name":  "Positive / Motivation",
+        "slug":  "positive_motivation",
+        "count":  2,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Positive / Optimism",
+        "slug":  "positive_optimism",
+        "count":  2,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Positive / Peace",
+        "slug":  "positive_peace",
+        "count":  4,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Positive / Resilience",
+        "slug":  "positive_resilience",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Positive / Respect",
+        "slug":  "positive_respect",
+        "count":  3,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Positive / Self Esteem",
+        "slug":  "positive_self-esteem",
+        "count":  3,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Positive / Social",
+        "slug":  "positive_social",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Positive / Strength",
+        "slug":  "positive_strength",
+        "count":  2,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Positive / Support",
+        "slug":  "positive_support",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Positive / Thankfulness",
+        "slug":  "positive_thankfulness",
+        "count":  2,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Positive / Warmth",
+        "slug":  "positive_warmth",
+        "count":  4,
+        "icon":  "⚔"
+    },
+    {
+        "name":  "Positive / Wonder",
+        "slug":  "positive_wonder",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Positive Emotions",
+        "slug":  "positive_emotions",
+        "count":  157,
+        "icon":  "❤"
+    },
+    {
+        "name":  "Pragmatic Milestones",
+        "slug":  "pragmatic_milestones",
+        "count":  6,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Pre Linguistic Stage",
+        "slug":  "pre-linguistic_stage",
+        "count":  12,
+        "icon":  "🧓"
+    },
+    {
+        "name":  "Precision",
+        "slug":  "precision",
+        "count":  4,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Premises \u0026 Propositions",
+        "slug":  "premises_propositions",
+        "count":  20,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Presentations",
+        "slug":  "presentations",
+        "count":  22,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Pride (negative)",
+        "slug":  "pride_negative",
+        "count":  2,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Pride (neutral)",
+        "slug":  "pride_neutral",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Pride (positive)",
+        "slug":  "pride_positive",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Print \u0026 Digital Press",
+        "slug":  "print_digital_press",
+        "count":  30,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Problem Solving",
+        "slug":  "problem-solving",
+        "count":  37,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Prompt Engineering",
+        "slug":  "prompt_engineering",
+        "count":  29,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Pronoun/interjection",
+        "slug":  "pronouninterjection",
+        "count":  1,
+        "icon":  "📦"
+    },
+    {
+        "name":  "Pronouns \u0026 Grammar Rules",
+        "slug":  "pronouns_grammar_rules",
+        "count":  24,
+        "icon":  "📦"
+    },
+    {
+        "name":  "Psychological Factors",
+        "slug":  "psychological_factors",
+        "count":  4,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Psychology",
+        "slug":  "psychology",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Psychology \u0026 Aesthetics",
+        "slug":  "psychology_aesthetics",
+        "count":  2,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Psychology \u0026 Critical Thinking",
+        "slug":  "psychology_critical_thinking",
+        "count":  3,
+        "icon":  "💭"
+    },
+    {
+        "name":  "Psychology \u0026 Education",
+        "slug":  "psychology_education",
+        "count":  2,
+        "icon":  "🎓"
+    },
+    {
+        "name":  "Psychology \u0026 Literature",
+        "slug":  "psychology_literature",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Psychology \u0026 Society",
+        "slug":  "psychology_society",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Public Policies",
+        "slug":  "public_policies",
+        "count":  30,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Public Transport",
+        "slug":  "public_transport",
+        "count":  27,
+        "icon":  "🚗"
+    },
+    {
+        "name":  "Quantifiers \u0026 Idiomatic Nouns",
+        "slug":  "quantifiers_idiomatic_nouns",
+        "count":  10,
+        "icon":  "📦"
+    },
+    {
+        "name":  "Quantity \u0026 Scale",
+        "slug":  "quantity_scale",
+        "count":  6,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Questioning Language",
+        "slug":  "questioning_language",
+        "count":  11,
+        "icon":  "🧓"
+    },
+    {
+        "name":  "Reasoning",
+        "slug":  "reasoning",
+        "count":  24,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Relaxing",
+        "slug":  "relaxing",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Reliability",
+        "slug":  "reliability",
+        "count":  2,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Religion \u0026 Culture",
+        "slug":  "religion_culture",
+        "count":  1,
+        "icon":  "🕊"
+    },
+    {
+        "name":  "Remote Collaboration",
+        "slug":  "remote_collaboration",
+        "count":  41,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Remote Work",
+        "slug":  "remote_work",
+        "count":  23,
+        "icon":  "💼"
+    },
+    {
+        "name":  "Renewable Resources",
+        "slug":  "renewable_resources",
+        "count":  21,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Reporting \u0026 Editing",
+        "slug":  "reporting_editing",
+        "count":  30,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Reporting Danger",
+        "slug":  "reporting_danger",
+        "count":  30,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Research",
+        "slug":  "research",
+        "count":  13,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Research \u0026 Verification",
+        "slug":  "research_verification",
+        "count":  10,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Resentment",
+        "slug":  "resentment",
+        "count":  3,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Resilience",
+        "slug":  "resilience",
+        "count":  5,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Responses Agreement",
+        "slug":  "responses_agreement",
+        "count":  10,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Retail \u0026 Shopping",
+        "slug":  "retail_shopping",
+        "count":  34,
+        "icon":  "🛍"
+    },
+    {
+        "name":  "Rhetoric \u0026 Aesthetics",
+        "slug":  "rhetoric_aesthetics",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Rhetoric \u0026 Debate",
+        "slug":  "rhetoric_debate",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Rhetoric \u0026 Language",
+        "slug":  "rhetoric_language",
+        "count":  2,
+        "icon":  "🧓"
+    },
+    {
+        "name":  "Rhetoric \u0026 Logic",
+        "slug":  "rhetoric_logic",
+        "count":  4,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Road \u0026 Rail Travel",
+        "slug":  "road_rail_travel",
+        "count":  22,
+        "icon":  "✈"
+    },
+    {
+        "name":  "Robotics",
+        "slug":  "robotics",
+        "count":  26,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Sadness (extreme)",
+        "slug":  "sadness_extreme",
+        "count":  2,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Sadness (mild)",
+        "slug":  "sadness_mild",
+        "count":  3,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Sadness (moderate)",
+        "slug":  "sadness_moderate",
+        "count":  2,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Sadness (strong)",
+        "slug":  "sadness_strong",
+        "count":  3,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Sadness/grief",
+        "slug":  "sadnessgrief",
+        "count":  30,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Savory Umami",
+        "slug":  "savory_umami",
+        "count":  13,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Science",
+        "slug":  "science",
+        "count":  34,
+        "icon":  "🔬"
+    },
+    {
+        "name":  "Science \u0026 Critical Thinking",
+        "slug":  "science_critical_thinking",
+        "count":  1,
+        "icon":  "🔬"
+    },
+    {
+        "name":  "Science \u0026 Culture",
+        "slug":  "science_culture",
+        "count":  1,
+        "icon":  "🔬"
+    },
+    {
+        "name":  "Science \u0026 Philosophy",
+        "slug":  "science_philosophy",
+        "count":  1,
+        "icon":  "🔬"
+    },
+    {
+        "name":  "Science \u0026 Statistics",
+        "slug":  "science_statistics",
+        "count":  1,
+        "icon":  "🔬"
+    },
+    {
+        "name":  "Science \u0026 Technology",
+        "slug":  "science_technology",
+        "count":  1,
+        "icon":  "💻"
+    },
+    {
+        "name":  "Sea Birds",
+        "slug":  "sea_birds",
+        "count":  20,
+        "icon":  "🐦"
+    },
+    {
+        "name":  "Security",
+        "slug":  "security",
+        "count":  13,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Self Assurance",
+        "slug":  "self-assurance",
+        "count":  5,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Self Development",
+        "slug":  "self-development",
+        "count":  10,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Serious Disease",
+        "slug":  "serious_disease",
+        "count":  52,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Shame / Embarrassment (extreme)",
+        "slug":  "shame_embarrassment_extreme",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Shame / Embarrassment (mild)",
+        "slug":  "shame_embarrassment_mild",
+        "count":  2,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Shame / Embarrassment (moderate)",
+        "slug":  "shame_embarrassment_moderate",
+        "count":  2,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Shame / Embarrassment (strong)",
+        "slug":  "shame_embarrassment_strong",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Shopping Transactions",
+        "slug":  "shopping_transactions",
+        "count":  10,
+        "icon":  "🎬"
+    },
+    {
+        "name":  "Sightseeing",
+        "slug":  "sightseeing",
+        "count":  25,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Skill",
+        "slug":  "skill",
+        "count":  8,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Skin Condition",
+        "slug":  "skin_condition",
+        "count":  2,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Sleeping",
+        "slug":  "sleeping",
+        "count":  14,
+        "icon":  "😴"
+    },
+    {
+        "name":  "Social",
+        "slug":  "social",
+        "count":  30,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Social Justice \u0026 Equity",
+        "slug":  "social_justice_equity",
+        "count":  25,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Social Manners",
+        "slug":  "social_manners",
+        "count":  10,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Sociolinguistics",
+        "slug":  "sociolinguistics",
+        "count":  5,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Sociology",
+        "slug":  "sociology",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Sociology \u0026 Academic",
+        "slug":  "sociology_academic",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Sociology \u0026 Education",
+        "slug":  "sociology_education",
+        "count":  1,
+        "icon":  "🎓"
+    },
+    {
+        "name":  "Sociology \u0026 Philosophy",
+        "slug":  "sociology_philosophy",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Sociology \u0026 Politics",
+        "slug":  "sociology_politics",
+        "count":  2,
+        "icon":  "🏛"
+    },
+    {
+        "name":  "Software",
+        "slug":  "software",
+        "count":  27,
+        "icon":  "⚔"
+    },
+    {
+        "name":  "Software Development \u0026 Lifecycle",
+        "slug":  "software_development_lifecycle",
+        "count":  18,
+        "icon":  "⚔"
+    },
+    {
+        "name":  "Software Terminology",
+        "slug":  "software_terminology",
+        "count":  32,
+        "icon":  "⚔"
+    },
+    {
+        "name":  "Sour",
+        "slug":  "sour",
+        "count":  13,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Source Verification",
+        "slug":  "source_verification",
+        "count":  30,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Space/astronomy",
+        "slug":  "spaceastronomy",
+        "count":  35,
+        "icon":  "🚀"
+    },
+    {
+        "name":  "Speech Variations",
+        "slug":  "speech_variations",
+        "count":  10,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Spices",
+        "slug":  "spices",
+        "count":  31,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Spicy",
+        "slug":  "spicy",
+        "count":  17,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Sports Rules",
+        "slug":  "sports_rules",
+        "count":  25,
+        "icon":  "⚽"
+    },
+    {
+        "name":  "Stance Markers",
+        "slug":  "stance_markers",
+        "count":  30,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Stationery",
+        "slug":  "stationery",
+        "count":  15,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Strategic Leadership",
+        "slug":  "strategic_leadership",
+        "count":  30,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Strategic Thought",
+        "slug":  "strategic_thought",
+        "count":  36,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Study Skills",
+        "slug":  "study-skills",
+        "count":  11,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Supplies",
+        "slug":  "supplies",
+        "count":  27,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Surprise",
+        "slug":  "surprise",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Surprise (extreme)",
+        "slug":  "surprise_extreme",
+        "count":  3,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Surprise (mild)",
+        "slug":  "surprise_mild",
+        "count":  2,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Surprise (moderate)",
+        "slug":  "surprise_moderate",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Surprise (strong)",
+        "slug":  "surprise_strong",
+        "count":  2,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Surprise / Distress",
+        "slug":  "surprise_distress",
+        "count":  4,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Surprise / Wonder",
+        "slug":  "surprise_wonder",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Sustainability Logistics",
+        "slug":  "sustainability_logistics",
+        "count":  23,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Sweet",
+        "slug":  "sweet",
+        "count":  14,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Symptom",
+        "slug":  "symptom",
+        "count":  30,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Syntactic Milestones",
+        "slug":  "syntactic_milestones",
+        "count":  5,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Synthesis",
+        "slug":  "synthesis",
+        "count":  11,
+        "icon":  "📚"
+    },
+    {
+        "name":  "System Operations \u0026 Configuration",
+        "slug":  "system_operations_configuration",
+        "count":  27,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Taste Descriptors",
+        "slug":  "taste_descriptors",
+        "count":  40,
+        "icon":  "👅"
+    },
+    {
+        "name":  "Teaching Method",
+        "slug":  "teaching_method",
+        "count":  3,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Teamwork",
+        "slug":  "teamwork",
+        "count":  1,
+        "icon":  "💼"
+    },
+    {
+        "name":  "Technology",
+        "slug":  "technology",
+        "count":  19,
+        "icon":  "💻"
+    },
+    {
+        "name":  "Texture",
+        "slug":  "texture",
+        "count":  39,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Theater \u0026 Dance",
+        "slug":  "theater_dance",
+        "count":  30,
+        "icon":  "💃"
+    },
+    {
+        "name":  "Thinking Skills",
+        "slug":  "thinking-skills",
+        "count":  12,
+        "icon":  "💭"
+    },
+    {
+        "name":  "Time Appointments",
+        "slug":  "time_appointments",
+        "count":  10,
+        "icon":  "⏰"
+    },
+    {
+        "name":  "Time Periods",
+        "slug":  "time_periods",
+        "count":  28,
+        "icon":  "⏰"
+    },
+    {
+        "name":  "Tools \u0026 Hardware",
+        "slug":  "tools_hardware",
+        "count":  20,
+        "icon":  "⚔"
+    },
+    {
+        "name":  "Traditional Dishes",
+        "slug":  "traditional_dishes",
+        "count":  20,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Transition Â€“ Clarification / Reformulation",
+        "slug":  "transition_clarification_reformulation",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Transition Â€“ Comparison",
+        "slug":  "transition_comparison",
+        "count":  3,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Transition Â€“ Conclusion",
+        "slug":  "transition_conclusion",
+        "count":  3,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Transition Â€“ Contrast",
+        "slug":  "transition_contrast",
+        "count":  3,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Transition Â€“ Example",
+        "slug":  "transition_example",
+        "count":  5,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Transition Â€“ Reasoning",
+        "slug":  "transition_reasoning",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Transition Â€“ Result",
+        "slug":  "transition_result",
+        "count":  2,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Transition Â€“ Sequence",
+        "slug":  "transition_sequence",
+        "count":  7,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Transition Â€“ Sequence (british Informal)",
+        "slug":  "transition_sequence_british_informal",
+        "count":  1,
+        "icon":  "🎩"
+    },
+    {
+        "name":  "Transition Â€“ Sequence (formal)",
+        "slug":  "transition_sequence_formal",
+        "count":  1,
+        "icon":  "🎩"
+    },
+    {
+        "name":  "Transition Â€“ Sequence (informal)",
+        "slug":  "transition_sequence_informal",
+        "count":  1,
+        "icon":  "🎩"
+    },
+    {
+        "name":  "Transition Â€“ Sequence / Conclusion",
+        "slug":  "transition_sequence_conclusion",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Transition Â€“ Summary",
+        "slug":  "transition_summary",
+        "count":  6,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Transition Â€“ Summary (informal)",
+        "slug":  "transition_summary_informal",
+        "count":  1,
+        "icon":  "🎩"
+    },
+    {
+        "name":  "Translation Trap",
+        "slug":  "translation_trap",
+        "count":  86,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Transportation",
+        "slug":  "transportation",
+        "count":  8,
+        "icon":  "🚗"
+    },
+    {
+        "name":  "Types Of Logic",
+        "slug":  "types_of_logic",
+        "count":  20,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Types Of Meals",
+        "slug":  "types_of_meals",
+        "count":  10,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Ui \u0026 Ux Interaction",
+        "slug":  "ui_ux_interaction",
+        "count":  15,
+        "icon":  "🎬"
+    },
+    {
+        "name":  "Uncategorized",
+        "slug":  "uncategorized",
+        "count":  3293,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Understanding",
+        "slug":  "understanding",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Upskilling",
+        "slug":  "upskilling",
+        "count":  19,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Utensils",
+        "slug":  "utensils",
+        "count":  10,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Vagueness \u0026 Approximators",
+        "slug":  "vagueness_approximators",
+        "count":  30,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Validation",
+        "slug":  "validation",
+        "count":  2,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Verb",
+        "slug":  "verb",
+        "count":  90,
+        "icon":  "🏃"
+    },
+    {
+        "name":  "Verb / Adjective",
+        "slug":  "verb_adjective",
+        "count":  2,
+        "icon":  "🏃"
+    },
+    {
+        "name":  "Verb / Noun",
+        "slug":  "verb_noun",
+        "count":  13,
+        "icon":  "🏃"
+    },
+    {
+        "name":  "Verb / Preposition",
+        "slug":  "verb_preposition",
+        "count":  1,
+        "icon":  "🏃"
+    },
+    {
+        "name":  "Verb Adjective",
+        "slug":  "verb-adjective",
+        "count":  10,
+        "icon":  "🏃"
+    },
+    {
+        "name":  "Verb Adverb",
+        "slug":  "verb-adverb",
+        "count":  3,
+        "icon":  "🏃"
+    },
+    {
+        "name":  "Verb Adverb Collocation",
+        "slug":  "verb-adverb_collocation",
+        "count":  2,
+        "icon":  "🏃"
+    },
+    {
+        "name":  "Verb Noun",
+        "slug":  "verb-noun",
+        "count":  56,
+        "icon":  "🏃"
+    },
+    {
+        "name":  "Verb Noun Collocation",
+        "slug":  "verb-noun_collocation",
+        "count":  84,
+        "icon":  "🏃"
+    },
+    {
+        "name":  "Verb Participle",
+        "slug":  "verb-participle",
+        "count":  1,
+        "icon":  "🏃"
+    },
+    {
+        "name":  "Verb Phrase",
+        "slug":  "verb-phrase",
+        "count":  2,
+        "icon":  "🏃"
+    },
+    {
+        "name":  "Verb Phrase Collocation",
+        "slug":  "verb-phrase_collocation",
+        "count":  24,
+        "icon":  "🏃"
+    },
+    {
+        "name":  "Verb/noun",
+        "slug":  "verbnoun",
+        "count":  1,
+        "icon":  "🏃"
+    },
+    {
+        "name":  "Verbs Communication",
+        "slug":  "verbs_communication",
+        "count":  10,
+        "icon":  "🏃"
+    },
+    {
+        "name":  "Video Calls",
+        "slug":  "video_calls",
+        "count":  22,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Visual Aids",
+        "slug":  "visual_aids",
+        "count":  25,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Visual Arts",
+        "slug":  "visual_arts",
+        "count":  30,
+        "icon":  "🎨"
+    },
+    {
+        "name":  "Vocabulary Knowledge",
+        "slug":  "vocabulary_knowledge",
+        "count":  13,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Vocabulary Structure",
+        "slug":  "vocabulary_structure",
+        "count":  17,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Waking Up",
+        "slug":  "waking_up",
+        "count":  6,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: A Handful Of, A Select Number Of, A Limited Cohort, Scant, Sparse",
+        "slug":  "weak_abstract_strong_alternatives_a_handful_of_a_select_number_of_a_limited_cohort_scant_sparse",
+        "count":  1,
+        "icon":  "🔢"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Abominable, Egregious, Heinous, Reprehensible, Execrable",
+        "slug":  "weak_abstract_strong_alternatives_abominable_egregious_heinous_reprehensible_execrable",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Abundantly, Copiously, Prolifically, Extensively, Considerably",
+        "slug":  "weak_abstract_strong_alternatives_abundantly_copiously_prolifically_extensively_considerably",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Acceptable, Adequate, Passable, Tolerable, Satisfactory",
+        "slug":  "weak_abstract_strong_alternatives_acceptable_adequate_passable_tolerable_satisfactory",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Accurate, Verifiable, Substantiated, Irrefutable, Empirically Sound",
+        "slug":  "weak_abstract_strong_alternatives_accurate_verifiable_substantiated_irrefutable_empirically_sound",
+        "count":  1,
+        "icon":  "🔊"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Acquire, Obtain, Procure, Attain, Secure",
+        "slug":  "weak_abstract_strong_alternatives_acquire_obtain_procure_attain_secure",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Additional, Supplementary, Augmented, Incremental, Expanded",
+        "slug":  "weak_abstract_strong_alternatives_additional_supplementary_augmented_incremental_expanded",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Additionally, Furthermore, In Conjunction, Correspondingly, In Like Manner",
+        "slug":  "weak_abstract_strong_alternatives_additionally_furthermore_in_conjunction_correspondingly_in_like_manner",
+        "count":  1,
+        "icon":  "🔗"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Address, Resolve, Mitigate, Confront, Rectify",
+        "slug":  "weak_abstract_strong_alternatives_address_resolve_mitigate_confront_rectify",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Adopt, Embrace, Employ, Implement, Undertake",
+        "slug":  "weak_abstract_strong_alternatives_adopt_embrace_employ_implement_undertake",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Adverse, Detrimental, Deleterious, Inimical, Counterproductive",
+        "slug":  "weak_abstract_strong_alternatives_adverse_detrimental_deleterious_inimical_counterproductive",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Affirmative, Constructive, Efficacious, Propitious, Auspicious",
+        "slug":  "weak_abstract_strong_alternatives_affirmative_constructive_efficacious_propitious_auspicious",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Affluent, Opulent, Prosperous, Plutocratic, Flush",
+        "slug":  "weak_abstract_strong_alternatives_affluent_opulent_prosperous_plutocratic_flush",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: All Facets, The Totality, Each Element, The Entirety, All Constituents",
+        "slug":  "weak_abstract_strong_alternatives_all_facets_the_totality_each_element_the_entirety_all_constituents",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: All Individuals, Any Given Party, Whoever, Each Stakeholder, Every Constituent",
+        "slug":  "weak_abstract_strong_alternatives_all_individuals_any_given_party_whoever_each_stakeholder_every_constituent",
+        "count":  1,
+        "icon":  "🎨"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Alternative, Supplementary, Ancillary, Complementary, Extraneous",
+        "slug":  "weak_abstract_strong_alternatives_alternative_supplementary_ancillary_complementary_extraneous",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Analogous, Comparable, Parallel, Congruent, Cognate",
+        "slug":  "weak_abstract_strong_alternatives_analogous_comparable_parallel_congruent_cognate",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Analogous, Consistent, Identical, Congruent, Uniform",
+        "slug":  "weak_abstract_strong_alternatives_analogous_consistent_identical_congruent_uniform",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Antiquated, Archaic, Venerable, Decrepit, Obsolete",
+        "slug":  "weak_abstract_strong_alternatives_antiquated_archaic_venerable_decrepit_obsolete",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Any Applicable Approach, Whichever Alternative, The Most Viable Option, As Deemed Appropriate, At Discretion",
+        "slug":  "weak_abstract_strong_alternatives_any_applicable_approach_whichever_alternative_the_most_viable_option_as_deemed_appropriate_at_discretion",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Appear, Manifest, Denote, Signify, Indicate",
+        "slug":  "weak_abstract_strong_alternatives_appear_manifest_denote_signify_indicate",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Approximately, Roughly, Ostensibly, Tentatively, Superficially",
+        "slug":  "weak_abstract_strong_alternatives_approximately_roughly_ostensibly_tentatively_superficially",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Archetypal, Quintessential, Emblematic, Representative, Paradigmatic",
+        "slug":  "weak_abstract_strong_alternatives_archetypal_quintessential_emblematic_representative_paradigmatic",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Arduous, Grueling, Formidable, Strenuous, Onerous",
+        "slug":  "weak_abstract_strong_alternatives_arduous_grueling_formidable_strenuous_onerous",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Articulate, Proclaim, Assert, Enunciate, Expound",
+        "slug":  "weak_abstract_strong_alternatives_articulate_proclaim_assert_enunciate_expound",
+        "count":  1,
+        "icon":  "🎨"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Aspire, Desire, Yearn, Covet, Endeavor",
+        "slug":  "weak_abstract_strong_alternatives_aspire_desire_yearn_covet_endeavor",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Astute, Erudite, Perspicacious, Sagacious, Discerning",
+        "slug":  "weak_abstract_strong_alternatives_astute_erudite_perspicacious_sagacious_discerning",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Atrocious, Deplorable, Abysmal, Dreadful, Execrable",
+        "slug":  "weak_abstract_strong_alternatives_atrocious_deplorable_abysmal_dreadful_execrable",
+        "count":  1,
+        "icon":  "📖"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Authentic, Tangible, Substantive, Verifiable, Empirical",
+        "slug":  "weak_abstract_strong_alternatives_authentic_tangible_substantive_verifiable_empirical",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Belated, Overdue, Deferred, Tardy, Delayed",
+        "slug":  "weak_abstract_strong_alternatives_belated_overdue_deferred_tardy_delayed",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Bizarre, Uncanny, Anomalous, Aberrant, Incongruous",
+        "slug":  "weak_abstract_strong_alternatives_bizarre_uncanny_anomalous_aberrant_incongruous",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Candidly, Unequivocally, Transparently, Forthrightly, Sincerely",
+        "slug":  "weak_abstract_strong_alternatives_candidly_unequivocally_transparently_forthrightly_sincerely",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Capable, Competent, Proficient, Qualified, Adept",
+        "slug":  "weak_abstract_strong_alternatives_capable_competent_proficient_qualified_adept",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Captivating, Riveting, Engrossing, Stimulating, Compelling",
+        "slug":  "weak_abstract_strong_alternatives_captivating_riveting_engrossing_stimulating_compelling",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Category, Variant, Classification, Genre, Paradigm",
+        "slug":  "weak_abstract_strong_alternatives_category_variant_classification_genre_paradigm",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Colossal, Immense, Monumental, Vast, Formidable",
+        "slug":  "weak_abstract_strong_alternatives_colossal_immense_monumental_vast_formidable",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Component, Constituent, Integral Element, Facet, Segment",
+        "slug":  "weak_abstract_strong_alternatives_component_constituent_integral_element_facet_segment",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Comprehend, Discern, Apprehend, Ascertain, Cognize",
+        "slug":  "weak_abstract_strong_alternatives_comprehend_discern_apprehend_ascertain_cognize",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Conceivably, Potentially, Hypothetically, Provisionally, Plausibly",
+        "slug":  "weak_abstract_strong_alternatives_conceivably_potentially_hypothetically_provisionally_plausibly",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Concept, Proposition, Hypothesis, Rationale, Conjecture",
+        "slug":  "weak_abstract_strong_alternatives_concept_proposition_hypothesis_rationale_conjecture",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Concise, Succinct, Abbreviated, Curtailed, Ephemeral",
+        "slug":  "weak_abstract_strong_alternatives_concise_succinct_abbreviated_curtailed_ephemeral",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Conclude, Terminate, Dissolve, Finalize, Extinguish",
+        "slug":  "weak_abstract_strong_alternatives_conclude_terminate_dissolve_finalize_extinguish",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Confident, Certain, Resolute, Unwavering, Unequivocal",
+        "slug":  "weak_abstract_strong_alternatives_confident_certain_resolute_unwavering_unequivocal",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Consequently, Thus, Therefore, As A Result, Henceforth",
+        "slug":  "weak_abstract_strong_alternatives_consequently_thus_therefore_as_a_result_henceforth",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Considerably, Substantially, Markedly, Decidedly, Notably",
+        "slug":  "weak_abstract_strong_alternatives_considerably_substantially_markedly_decidedly_notably",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Contemplate, Deliberate, Postulate, Surmise, Hypothesize",
+        "slug":  "weak_abstract_strong_alternatives_contemplate_deliberate_postulate_surmise_hypothesize",
+        "count":  1,
+        "icon":  "📏"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Conventional, Standard, Customary, Prototypical, Archetypal",
+        "slug":  "weak_abstract_strong_alternatives_conventional_standard_customary_prototypical_archetypal",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Convey, Disclose, Impart, Divulge, Elucidate",
+        "slug":  "weak_abstract_strong_alternatives_convey_disclose_impart_divulge_elucidate",
+        "count":  1,
+        "icon":  "🎨"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Crux, Tenet, Thesis, Contention, Premise",
+        "slug":  "weak_abstract_strong_alternatives_crux_tenet_thesis_contention_premise",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Deliberate, Discourse, Converse, Articulate, Expound",
+        "slug":  "weak_abstract_strong_alternatives_deliberate_discourse_converse_articulate_expound",
+        "count":  1,
+        "icon":  "🎨"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Delightful, Charming, Exquisite, Gracious, Enchanting",
+        "slug":  "weak_abstract_strong_alternatives_delightful_charming_exquisite_gracious_enchanting",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Despite The Fact That, Notwithstanding, Even In Light Of, Conceding That, Granted That",
+        "slug":  "weak_abstract_strong_alternatives_despite_the_fact_that_notwithstanding_even_in_light_of_conceding_that_granted_that",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Despondent, Melancholy, Disconsolate, Bereft, Crestfallen",
+        "slug":  "weak_abstract_strong_alternatives_despondent_melancholy_disconsolate_bereft_crestfallen",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Destitute, Impoverished, Indigent, Penurious, Penniless",
+        "slug":  "weak_abstract_strong_alternatives_destitute_impoverished_indigent_penurious_penniless",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Diminished, Reduced, Curtailed, Attenuated, Contracted",
+        "slug":  "weak_abstract_strong_alternatives_diminished_reduced_curtailed_attenuated_contracted",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Discover, Ascertain, Unearth, Identify, Discern",
+        "slug":  "weak_abstract_strong_alternatives_discover_ascertain_unearth_identify_discern",
+        "count":  1,
+        "icon":  "🎨"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Distinctive, Exceptional, Singular, Unprecedented, Distinguished",
+        "slug":  "weak_abstract_strong_alternatives_distinctive_exceptional_singular_unprecedented_distinguished",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Divergent, Contrasting, Disparate, Distinct, Heterogeneous",
+        "slug":  "weak_abstract_strong_alternatives_divergent_contrasting_disparate_distinct_heterogeneous",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Efficacious, Potent, Decisive, Impactful, Transformative",
+        "slug":  "weak_abstract_strong_alternatives_efficacious_potent_decisive_impactful_transformative",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Effortless, Facile, Straightforward, Undemanding, Rudimentary",
+        "slug":  "weak_abstract_strong_alternatives_effortless_facile_straightforward_undemanding_rudimentary",
+        "count":  1,
+        "icon":  "⚔"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Elated, Euphoric, Jubilant, Ecstatic, Gratified",
+        "slug":  "weak_abstract_strong_alternatives_elated_euphoric_jubilant_ecstatic_gratified",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Emerge, Materialize, Manifest, Transpire, Culminate",
+        "slug":  "weak_abstract_strong_alternatives_emerge_materialize_manifest_transpire_culminate",
+        "count":  1,
+        "icon":  "🧱"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Employ, Leverage, Utilize, Deploy, Harness",
+        "slug":  "weak_abstract_strong_alternatives_employ_leverage_utilize_deploy_harness",
+        "count":  1,
+        "icon":  "🧓"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Endeavor, Strive, Attempt, Undertake, Pursue",
+        "slug":  "weak_abstract_strong_alternatives_endeavor_strive_attempt_undertake_pursue",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Entire, Comprehensive, Aggregate, Holistic, Encompassing",
+        "slug":  "weak_abstract_strong_alternatives_entire_comprehensive_aggregate_holistic_encompassing",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Entity, Phenomenon, Element, Facet, Constituent",
+        "slug":  "weak_abstract_strong_alternatives_entity_phenomenon_element_facet_constituent",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Erroneous, Fallacious, Unsubstantiated, Spurious, Unfounded",
+        "slug":  "weak_abstract_strong_alternatives_erroneous_fallacious_unsubstantiated_spurious_unfounded",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Erroneous, Misguided, Fallacious, Indefensible, Untenable",
+        "slug":  "weak_abstract_strong_alternatives_erroneous_misguided_fallacious_indefensible_untenable",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Evidently, Patently, Manifestly, Unequivocally, Indisputably",
+        "slug":  "weak_abstract_strong_alternatives_evidently_patently_manifestly_unequivocally_indisputably",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Exceedingly, Extraordinarily, Remarkably, Profoundly, Immensely",
+        "slug":  "weak_abstract_strong_alternatives_exceedingly_extraordinarily_remarkably_profoundly_immensely",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Excellent, Superb, Commendable, Admirable, Exemplary",
+        "slug":  "weak_abstract_strong_alternatives_excellent_superb_commendable_admirable_exemplary",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Execute, Implement, Undertake, Accomplish, Endeavor",
+        "slug":  "weak_abstract_strong_alternatives_execute_implement_undertake_accomplish_endeavor",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Exhaustive, Comprehensive, Thorough, All Encompassing, Complete",
+        "slug":  "weak_abstract_strong_alternatives_exhaustive_comprehensive_thorough_all-encompassing_complete",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Experience, Perceive, Sense, Discern, Undergo",
+        "slug":  "weak_abstract_strong_alternatives_experience_perceive_sense_discern_undergo",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Fabricate, Construct, Formulate, Devise, Orchestrate",
+        "slug":  "weak_abstract_strong_alternatives_fabricate_construct_formulate_devise_orchestrate",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Facilitate, Bolster, Expedite, Ameliorate, Augment",
+        "slug":  "weak_abstract_strong_alternatives_facilitate_bolster_expedite_ameliorate_augment",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Feasible, Viable, Attainable, Plausible, Practicable",
+        "slug":  "weak_abstract_strong_alternatives_feasible_viable_attainable_plausible_practicable",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Feeble, Tenuous, Ineffectual, Vacillating, Impotent",
+        "slug":  "weak_abstract_strong_alternatives_feeble_tenuous_ineffectual_vacillating_impotent",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Formidable, Robust, Stalwart, Indomitable, Resolute",
+        "slug":  "weak_abstract_strong_alternatives_formidable_robust_stalwart_indomitable_resolute",
+        "count":  1,
+        "icon":  "🎨"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Function, Operate, Perform, Execute, Yield Results",
+        "slug":  "weak_abstract_strong_alternatives_function_operate_perform_execute_yield_results",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Fundamental, Critical, Substantial, Overriding, Seminal",
+        "slug":  "weak_abstract_strong_alternatives_fundamental_critical_substantial_overriding_seminal",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Fundamentally, Intrinsically, Quintessentially, Predominantly, Categorically",
+        "slug":  "weak_abstract_strong_alternatives_fundamentally_intrinsically_quintessentially_predominantly_categorically",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Furious, Incensed, Irate, Livid, Indignant",
+        "slug":  "weak_abstract_strong_alternatives_furious_incensed_irate_livid_indignant",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Furnish, Bestow, Confer, Endow, Provide",
+        "slug":  "weak_abstract_strong_alternatives_furnish_bestow_confer_endow_provide",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Furthermore, In Addition, Moreover, Coupled With, Alongside",
+        "slug":  "weak_abstract_strong_alternatives_furthermore_in_addition_moreover_coupled_with_alongside",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Futile, Ineffectual, Superfluous, Redundant, Inoperative",
+        "slug":  "weak_abstract_strong_alternatives_futile_ineffectual_superfluous_redundant_inoperative",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Genuinely, Authentically, Undeniably, Indisputably, Veritably",
+        "slug":  "weak_abstract_strong_alternatives_genuinely_authentically_undeniably_indisputably_veritably",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Grotesque, Repugnant, Hideous, Unsightly, Repulsive",
+        "slug":  "weak_abstract_strong_alternatives_grotesque_repugnant_hideous_unsightly_repulsive",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Hilarious, Comical, Facetious, Waggish, Droll",
+        "slug":  "weak_abstract_strong_alternatives_hilarious_comical_facetious_waggish_droll",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: However, Yet, Nonetheless, Conversely, On The Other Hand",
+        "slug":  "weak_abstract_strong_alternatives_however_yet_nonetheless_conversely_on_the_other_hand",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Illustrate, Demonstrate, Corroborate, Elucidate, Substantiate",
+        "slug":  "weak_abstract_strong_alternatives_illustrate_demonstrate_corroborate_elucidate_substantiate",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Impeccable, Sterling, Flawless, Meritorious, Laudable",
+        "slug":  "weak_abstract_strong_alternatives_impeccable_sterling_flawless_meritorious_laudable",
+        "count":  1,
+        "icon":  "⚖"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: In Reality, Empirically, Demonstrably, Substantively, Conclusively",
+        "slug":  "weak_abstract_strong_alternatives_in_reality_empirically_demonstrably_substantively_conclusively",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Incontrovertible, Definitive, Unequivocal, Absolute, Irrefutable",
+        "slug":  "weak_abstract_strong_alternatives_incontrovertible_definitive_unequivocal_absolute_irrefutable",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Inferior, Deteriorated, Aggravated, Exacerbated, Regressed",
+        "slug":  "weak_abstract_strong_alternatives_inferior_deteriorated_aggravated_exacerbated_regressed",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Initiate, Inaugurate, Commence, Embark, Launch",
+        "slug":  "weak_abstract_strong_alternatives_initiate_inaugurate_commence_embark_launch",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Innovative, Imaginative, Inventive, Ingenious, Pioneering",
+        "slug":  "weak_abstract_strong_alternatives_innovative_imaginative_inventive_ingenious_pioneering",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Innovative, Pioneering, Nascent, Groundbreaking, Novel",
+        "slug":  "weak_abstract_strong_alternatives_innovative_pioneering_nascent_groundbreaking_novel",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Intermittently, Sporadically, Periodically, On Occasion, Episodically",
+        "slug":  "weak_abstract_strong_alternatives_intermittently_sporadically_periodically_on_occasion_episodically",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Invariably, Perpetually, Consistently, Unfailingly, Inexorably",
+        "slug":  "weak_abstract_strong_alternatives_invariably_perpetually_consistently_unfailingly_inexorably",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Invest, Channel, Devote, Allocate, Direct",
+        "slug":  "weak_abstract_strong_alternatives_invest_channel_devote_allocate_direct",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Liberated, Unrestricted, Autonomous, Emancipated, Uninhibited",
+        "slug":  "weak_abstract_strong_alternatives_liberated_unrestricted_autonomous_emancipated_uninhibited",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Lucid, Unambiguous, Perspicuous, Transparent, Cogent",
+        "slug":  "weak_abstract_strong_alternatives_lucid_unambiguous_perspicuous_transparent_cogent",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Magnificent, Illustrious, Prodigious, Sublime, Extraordinary",
+        "slug":  "weak_abstract_strong_alternatives_magnificent_illustrious_prodigious_sublime_extraordinary",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Marginally, Incrementally, Moderately, Perceptibly, Tangentially",
+        "slug":  "weak_abstract_strong_alternatives_marginally_incrementally_moderately_perceptibly_tangentially",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Material, Substance, Content, Components, Particulars",
+        "slug":  "weak_abstract_strong_alternatives_material_substance_content_components_particulars",
+        "count":  1,
+        "icon":  "🎨"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Mediocre, Middling, Unremarkable, Pedestrian, Par Level",
+        "slug":  "weak_abstract_strong_alternatives_mediocre_middling_unremarkable_pedestrian_par-level",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Methodology, Approach, Mechanism, Paradigm, Modality",
+        "slug":  "weak_abstract_strong_alternatives_methodology_approach_mechanism_paradigm_modality",
+        "count":  1,
+        "icon":  "⚙"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Minuscule, Diminutive, Negligible, Marginal, Infinitesimal",
+        "slug":  "weak_abstract_strong_alternatives_minuscule_diminutive_negligible_marginal_infinitesimal",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Most Detrimental, Most Egregious, Most Catastrophic, Most Deleterious, Least Viable",
+        "slug":  "weak_abstract_strong_alternatives_most_detrimental_most_egregious_most_catastrophic_most_deleterious_least_viable",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Multifaceted, Labyrinthine, Intricate, Convoluted, Nuanced",
+        "slug":  "weak_abstract_strong_alternatives_multifaceted_labyrinthine_intricate_convoluted_nuanced",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Myriad, Multitudinous, Innumerable, Manifold, Plentiful",
+        "slug":  "weak_abstract_strong_alternatives_myriad_multitudinous_innumerable_manifold_plentiful",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Necessitate, Demand, Require, Warrant, Mandate",
+        "slug":  "weak_abstract_strong_alternatives_necessitate_demand_require_warrant_mandate",
+        "count":  1,
+        "icon":  "⚔"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Nevertheless, Notwithstanding, Conversely, In Contradistinction, On The Contrary",
+        "slug":  "weak_abstract_strong_alternatives_nevertheless_notwithstanding_conversely_in_contradistinction_on_the_contrary",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Not A Single Element, Zero Evidence, No Substantive Data, An Absence, A Void",
+        "slug":  "weak_abstract_strong_alternatives_not_a_single_element_zero_evidence_no_substantive_data_an_absence_a_void",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Obtuse, Vacuous, Inane, Asinine, Fatuous",
+        "slug":  "weak_abstract_strong_alternatives_obtuse_vacuous_inane_asinine_fatuous",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: On Account Of, As A Consequence Of, By Virtue Of, Owing To, Given That",
+        "slug":  "weak_abstract_strong_alternatives_on_account_of_as_a_consequence_of_by_virtue_of_owing_to_given_that",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Optimal, Superlative, Unparalleled, Preeminent, Definitive",
+        "slug":  "weak_abstract_strong_alternatives_optimal_superlative_unparalleled_preeminent_definitive",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Overarching, Comprehensive, Sweeping, Broad Spectrum, Holistic",
+        "slug":  "weak_abstract_strong_alternatives_overarching_comprehensive_sweeping_broad-spectrum_holistic",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Peripheral, Inconsequential, Negligible, Trivial, Insubstantial",
+        "slug":  "weak_abstract_strong_alternatives_peripheral_inconsequential_negligible_trivial_insubstantial",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Permit, Authorize, Sanction, Facilitate, Grant",
+        "slug":  "weak_abstract_strong_alternatives_permit_authorize_sanction_facilitate_grant",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Pertinent, Germane, Applicable, Apposite, Commensurate",
+        "slug":  "weak_abstract_strong_alternatives_pertinent_germane_applicable_apposite_commensurate",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Petrified, Terrified, Apprehensive, Aghast, Trepidatious",
+        "slug":  "weak_abstract_strong_alternatives_petrified_terrified_apprehensive_aghast_trepidatious",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Pivotal, Paramount, Indispensable, Consequential, Imperative",
+        "slug":  "weak_abstract_strong_alternatives_pivotal_paramount_indispensable_consequential_imperative",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Pragmatic, Functional, Efficacious, Instrumental, Advantageous",
+        "slug":  "weak_abstract_strong_alternatives_pragmatic_functional_efficacious_instrumental_advantageous",
+        "count":  1,
+        "icon":  "🧓"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Precisely, Solely, Exclusively, Merely, Simply",
+        "slug":  "weak_abstract_strong_alternatives_precisely_solely_exclusively_merely_simply",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Precisely, Verifiably, Concretely, Demonstrably, Unambiguously",
+        "slug":  "weak_abstract_strong_alternatives_precisely_verifiably_concretely_demonstrably_unambiguously",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Predicament, Grievance, Impediment, Contention, Disparity",
+        "slug":  "weak_abstract_strong_alternatives_predicament_grievance_impediment_contention_disparity",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Predicament, Quandary, Circumstance, Juncture, Exigency",
+        "slug":  "weak_abstract_strong_alternatives_predicament_quandary_circumstance_juncture_exigency",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Premature, Preliminary, Nascent, Preemptive, Proactive",
+        "slug":  "weak_abstract_strong_alternatives_premature_preliminary_nascent_preemptive_proactive",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Prepared, Equipped, Primed, Poised, Prepped",
+        "slug":  "weak_abstract_strong_alternatives_prepared_equipped_primed_poised_prepped",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Presumably, In All Likelihood, Ostensibly, With High Probability, Credibly",
+        "slug":  "weak_abstract_strong_alternatives_presumably_in_all_likelihood_ostensibly_with_high_probability_credibly",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Prioritize, Value, Esteem, Advocate, Champion",
+        "slug":  "weak_abstract_strong_alternatives_prioritize_value_esteem_advocate_champion",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Probable, Plausible, Anticipated, Expected, Foreseeable",
+        "slug":  "weak_abstract_strong_alternatives_probable_plausible_anticipated_expected_foreseeable",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Proceed, Advance, Traverse, Navigate, Venture",
+        "slug":  "weak_abstract_strong_alternatives_proceed_advance_traverse_navigate_venture",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Propel, Advance, Progress, Forge, Proceed",
+        "slug":  "weak_abstract_strong_alternatives_propel_advance_progress_forge_proceed",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Protracted, Extensive, Prolonged, Drawn Out, Interminable",
+        "slug":  "weak_abstract_strong_alternatives_protracted_extensive_prolonged_drawn-out_interminable",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Proximate, Adjacent, Imminent, Converging, Approaching",
+        "slug":  "weak_abstract_strong_alternatives_proximate_adjacent_imminent_converging_approaching",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Quandary, Dilemma, Conundrum, Impediment, Obstacle",
+        "slug":  "weak_abstract_strong_alternatives_quandary_dilemma_conundrum_impediment_obstacle",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Rationale, Justification, Premise, Grounds, Impetus",
+        "slug":  "weak_abstract_strong_alternatives_rationale_justification_premise_grounds_impetus",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Receptive, Amenable, Accessible, Permeable, Transparent",
+        "slug":  "weak_abstract_strong_alternatives_receptive_amenable_accessible_permeable_transparent",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Recurrently, Habitually, Routinely, Perennially, Chronically",
+        "slug":  "weak_abstract_strong_alternatives_recurrently_habitually_routinely_perennially_chronically",
+        "count":  1,
+        "icon":  "📅"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Regardless, Nevertheless, Irrespective, Notwithstanding, In Any Case",
+        "slug":  "weak_abstract_strong_alternatives_regardless_nevertheless_irrespective_notwithstanding_in_any_case",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Resplendent, Alluring, Captivating, Exquisite, Ravishing",
+        "slug":  "weak_abstract_strong_alternatives_resplendent_alluring_captivating_exquisite_ravishing",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Rudimentary, Uncomplicated, Streamlined, Elemental, Straightforward",
+        "slug":  "weak_abstract_strong_alternatives_rudimentary_uncomplicated_streamlined_elemental_straightforward",
+        "count":  1,
+        "icon":  "⚔"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Scrutinize, Examine, Inspect, Survey, Analyze",
+        "slug":  "weak_abstract_strong_alternatives_scrutinize_examine_inspect_survey_analyze",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Secure, Protected, Impervious, Risk Mitigated, Fortified",
+        "slug":  "weak_abstract_strong_alternatives_secure_protected_impervious_risk-mitigated_fortified",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Several, Assorted, Sundry, A Handful Of, A Portion Of",
+        "slug":  "weak_abstract_strong_alternatives_several_assorted_sundry_a_handful_of_a_portion_of",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Singular, Unparalleled, Unprecedented, Inimitable, Sui Generis",
+        "slug":  "weak_abstract_strong_alternatives_singular_unparalleled_unprecedented_inimitable_sui_generis",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Sluggish, Languid, Lethargic, Torpid, Dilatory",
+        "slug":  "weak_abstract_strong_alternatives_sluggish_languid_lethargic_torpid_dilatory",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Somewhat, Relatively, Comparatively, Moderately, Arguably",
+        "slug":  "weak_abstract_strong_alternatives_somewhat_relatively_comparatively_moderately_arguably",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Sound, Justifiable, Judicious, Defensible, Apposite",
+        "slug":  "weak_abstract_strong_alternatives_sound_justifiable_judicious_defensible_apposite",
+        "count":  1,
+        "icon":  "🔊"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Stratagem, Blueprint, Framework, Methodology, Schema",
+        "slug":  "weak_abstract_strong_alternatives_stratagem_blueprint_framework_methodology_schema",
+        "count":  1,
+        "icon":  "💼"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Substantial, Considerable, Extensive, Significant, Ample",
+        "slug":  "weak_abstract_strong_alternatives_substantial_considerable_extensive_significant_ample",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Sufficient, Adequate, Requisite, Satisfactory, Commensurate",
+        "slug":  "weak_abstract_strong_alternatives_sufficient_adequate_requisite_satisfactory_commensurate",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Superior, Optimal, Enhanced, Refined, Preferable",
+        "slug":  "weak_abstract_strong_alternatives_superior_optimal_enhanced_refined_preferable",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Sustain, Maintain, Perpetuate, Preserve, Uphold",
+        "slug":  "weak_abstract_strong_alternatives_sustain_maintain_perpetuate_preserve_uphold",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Swift, Expeditious, Nimble, Fleet Footed, Precipitous",
+        "slug":  "weak_abstract_strong_alternatives_swift_expeditious_nimble_fleet-footed_precipitous",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Transform, Revolutionize, Overhaul, Reconstitute, Metamorphose",
+        "slug":  "weak_abstract_strong_alternatives_transform_revolutionize_overhaul_reconstitute_metamorphose",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Transpire, Materialize, Ensue, Unfold, Precipitate",
+        "slug":  "weak_abstract_strong_alternatives_transpire_materialize_ensue_unfold_precipitate",
+        "count":  1,
+        "icon":  "🧱"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Ubiquitously, Pervasively, Universally, Comprehensively, Across The Board",
+        "slug":  "weak_abstract_strong_alternatives_ubiquitously_pervasively_universally_comprehensively_across_the_board",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Unattainable, Insurmountable, Untenable, Inconceivable, Unfeasible",
+        "slug":  "weak_abstract_strong_alternatives_unattainable_insurmountable_untenable_inconceivable_unfeasible",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Under No Circumstances, At No Juncture, Categorically Not, Without Exception, Not Once",
+        "slug":  "weak_abstract_strong_alternatives_under_no_circumstances_at_no_juncture_categorically_not_without_exception_not_once",
+        "count":  1,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Veracity, Empirical Evidence, Substantiated Datum, Established Truth, Corroborated Finding",
+        "slug":  "weak_abstract_strong_alternatives_veracity_empirical_evidence_substantiated_datum_established_truth_corroborated_finding",
+        "count":  1,
+        "icon":  "🏙"
+    },
+    {
+        "name":  "Weak Abstract Â†’ Strong Alternatives: Within A Specific Domain, In A Particular Context, At An Identifiable Locus, Embedded Within, Contained Therein",
+        "slug":  "weak_abstract_strong_alternatives_within_a_specific_domain_in_a_particular_context_at_an_identifiable_locus_embedded_within_contained_therein",
+        "count":  1,
+        "icon":  "🎨"
+    },
+    {
+        "name":  "Weak Professional Vocabulary",
+        "slug":  "weak_professional_vocabulary",
+        "count":  134,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weather",
+        "slug":  "weather",
+        "count":  27,
+        "icon":  "⛅"
+    },
+    {
+        "name":  "Web Browsing Terms",
+        "slug":  "web_browsing_terms",
+        "count":  30,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Weekend Plans",
+        "slug":  "weekend_plans",
+        "count":  36,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Wellness Activities",
+        "slug":  "wellness_activities",
+        "count":  30,
+        "icon":  "📚"
+    },
+    {
+        "name":  "Wild/jungle Birds",
+        "slug":  "wildjungle_birds",
+        "count":  20,
+        "icon":  "🐦"
+    },
+    {
+        "name":  "Working",
+        "slug":  "working",
+        "count":  36,
+        "icon":  "💼"
+    },
+    {
+        "name":  "Workplace Dynamics",
+        "slug":  "workplace_dynamics",
+        "count":  25,
+        "icon":  "💼"
+    },
+    {
+        "name":  "Workplace Inclusivity",
+        "slug":  "workplace_inclusivity",
+        "count":  30,
+        "icon":  "💼"
+    },
+    {
+        "name":  "Writing",
+        "slug":  "writing",
+        "count":  8,
+        "icon":  "📚"
+    }
+]

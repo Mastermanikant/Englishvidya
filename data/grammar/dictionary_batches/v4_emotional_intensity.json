@@ -1,0 +1,818 @@
+[
+  {
+    "word": "annoyed",
+    "meaning": "Slightly irritated or bothered by something minor",
+    "example": "She was annoyed when the meeting started five minutes late.",
+    "category": "Anger (Mild)"
+  },
+  {
+    "word": "irritated",
+    "meaning": "Feeling mild anger or impatience due to a persistent disturbance",
+    "example": "He was irritated by the constant noise from the street.",
+    "category": "Anger (Mild)"
+  },
+  {
+    "word": "agitated",
+    "meaning": "Feeling troubled and nervous, with some emotional unrest",
+    "example": "The long wait made her visibly agitated.",
+    "category": "Anger (Mild)"
+  },
+  {
+    "word": "exasperated",
+    "meaning": "Intensely irritated and frustrated beyond patience",
+    "example": "He was exasperated after explaining the same rule for the tenth time.",
+    "category": "Anger (Moderate)"
+  },
+  {
+    "word": "angry",
+    "meaning": "Having a strong feeling of displeasure or hostility",
+    "example": "She was angry when she discovered she had been lied to.",
+    "category": "Anger (Moderate)"
+  },
+  {
+    "word": "indignant",
+    "meaning": "Feeling or showing anger at something perceived as unfair or wrong",
+    "example": "He was indignant at the accusation of cheating.",
+    "category": "Anger (Moderate)"
+  },
+  {
+    "word": "irate",
+    "meaning": "Feeling very angry, especially about something that seems unjust",
+    "example": "The irate customer demanded to speak to the manager.",
+    "category": "Anger (Strong)"
+  },
+  {
+    "word": "furious",
+    "meaning": "Extremely angry, showing intense and violent anger",
+    "example": "She was furious when she found her car had been scratched.",
+    "category": "Anger (Strong)"
+  },
+  {
+    "word": "enraged",
+    "meaning": "Filled with rage; violently angry beyond control",
+    "example": "He was enraged by the blatant disrespect shown to his family.",
+    "category": "Anger (Extreme)"
+  },
+  {
+    "word": "livid",
+    "meaning": "So angry as to appear pale or flushed; furiously enraged",
+    "example": "She was absolutely livid when she discovered the betrayal.",
+    "category": "Anger (Extreme)"
+  },
+  {
+    "word": "incensed",
+    "meaning": "Extremely angered; filled with burning rage",
+    "example": "The crowd was incensed by the unfair verdict.",
+    "category": "Anger (Extreme)"
+  },
+  {
+    "word": "pleased",
+    "meaning": "Feeling satisfaction or mild happiness about something",
+    "example": "She was pleased with her test results.",
+    "category": "Happiness (Mild)"
+  },
+  {
+    "word": "content",
+    "meaning": "In a state of peaceful satisfaction and ease",
+    "example": "He felt content sitting by the fire with a good book.",
+    "category": "Happiness (Mild)"
+  },
+  {
+    "word": "cheerful",
+    "meaning": "Noticeably happy and optimistic; bright in mood",
+    "example": "She greeted everyone with a cheerful smile.",
+    "category": "Happiness (Mild)"
+  },
+  {
+    "word": "delighted",
+    "meaning": "Feeling or showing great pleasure and joy",
+    "example": "The children were delighted by the surprise party.",
+    "category": "Happiness (Moderate)"
+  },
+  {
+    "word": "joyful",
+    "meaning": "Feeling great happiness and delight",
+    "example": "It was a joyful reunion after years apart.",
+    "category": "Happiness (Moderate)"
+  },
+  {
+    "word": "elated",
+    "meaning": "In high spirits; extremely happy and proud",
+    "example": "She was elated when she received the scholarship offer.",
+    "category": "Happiness (Strong)"
+  },
+  {
+    "word": "ecstatic",
+    "meaning": "Feeling overwhelming happiness or rapturous delight",
+    "example": "He was ecstatic when his team won the championship.",
+    "category": "Happiness (Extreme)"
+  },
+  {
+    "word": "euphoric",
+    "meaning": "Experiencing an intense feeling of happiness and well-being",
+    "example": "She felt euphoric after completing her first marathon.",
+    "category": "Happiness (Extreme)"
+  },
+  {
+    "word": "overjoyed",
+    "meaning": "Extremely happy; filled with great joy beyond expectation",
+    "example": "They were overjoyed at the birth of their child.",
+    "category": "Happiness (Extreme)"
+  },
+  {
+    "word": "uneasy",
+    "meaning": "Slightly worried or uncomfortable about a situation",
+    "example": "She felt uneasy walking alone at night.",
+    "category": "Fear (Mild)"
+  },
+  {
+    "word": "nervous",
+    "meaning": "Anxious and apprehensive, especially before something important",
+    "example": "He was nervous before giving his first public speech.",
+    "category": "Fear (Mild)"
+  },
+  {
+    "word": "apprehensive",
+    "meaning": "Anxious or fearful about a future event or outcome",
+    "example": "She was apprehensive about the results of the medical test.",
+    "category": "Fear (Mild)"
+  },
+  {
+    "word": "anxious",
+    "meaning": "Experiencing worry and unease, often about uncertain outcomes",
+    "example": "He was anxious about the interview for his dream job.",
+    "category": "Fear (Moderate)"
+  },
+  {
+    "word": "frightened",
+    "meaning": "Afraid or scared as a result of something threatening",
+    "example": "She was frightened by the sudden loud explosion.",
+    "category": "Fear (Moderate)"
+  },
+  {
+    "word": "alarmed",
+    "meaning": "Filled with worry and concern about a perceived danger",
+    "example": "He was alarmed by the warning signs on the road.",
+    "category": "Fear (Moderate)"
+  },
+  {
+    "word": "terrified",
+    "meaning": "Extremely frightened; overwhelmed by intense fear",
+    "example": "She was terrified of heights and refused to look down.",
+    "category": "Fear (Strong)"
+  },
+  {
+    "word": "petrified",
+    "meaning": "So frightened as to be unable to move or think clearly",
+    "example": "He was petrified when he encountered the bear on the trail.",
+    "category": "Fear (Strong)"
+  },
+  {
+    "word": "horrorstruck",
+    "meaning": "Paralyzed with shock and extreme terror",
+    "example": "She was horrorstruck at the sight of the accident.",
+    "category": "Fear (Extreme)"
+  },
+  {
+    "word": "panic-stricken",
+    "meaning": "Overcome with sudden, uncontrollable fear causing irrational behavior",
+    "example": "The panic-stricken crowd rushed toward the exits.",
+    "category": "Fear (Extreme)"
+  },
+  {
+    "word": "downcast",
+    "meaning": "Feeling slightly sad or discouraged about something",
+    "example": "He looked downcast after hearing the disappointing news.",
+    "category": "Sadness (Mild)"
+  },
+  {
+    "word": "melancholy",
+    "meaning": "A gentle but persistent feeling of sadness and pensive gloom",
+    "example": "The rainy afternoon left her feeling melancholy.",
+    "category": "Sadness (Mild)"
+  },
+  {
+    "word": "gloomy",
+    "meaning": "Feeling dark, depressed, and without hope",
+    "example": "He was gloomy about his chances of recovery.",
+    "category": "Sadness (Mild)"
+  },
+  {
+    "word": "sorrowful",
+    "meaning": "Feeling or expressing deep sadness and grief",
+    "example": "She gave a sorrowful look as she said goodbye.",
+    "category": "Sadness (Moderate)"
+  },
+  {
+    "word": "mournful",
+    "meaning": "Feeling or expressing grief, especially after a loss",
+    "example": "His voice was mournful as he spoke of his late father.",
+    "category": "Sadness (Moderate)"
+  },
+  {
+    "word": "heartbroken",
+    "meaning": "Overwhelmed with grief or deep emotional pain from loss",
+    "example": "She was heartbroken when the relationship ended.",
+    "category": "Sadness (Strong)"
+  },
+  {
+    "word": "anguished",
+    "meaning": "Suffering from severe mental or emotional pain",
+    "example": "His anguished cries could be heard throughout the hospital.",
+    "category": "Sadness (Strong)"
+  },
+  {
+    "word": "despondent",
+    "meaning": "In low spirits from loss of hope or courage; deeply discouraged",
+    "example": "She became despondent after months of failed job applications.",
+    "category": "Sadness (Strong)"
+  },
+  {
+    "word": "devastated",
+    "meaning": "Overwhelmed with shock and intense sadness; completely undone",
+    "example": "He was devastated by the sudden loss of his best friend.",
+    "category": "Sadness (Extreme)"
+  },
+  {
+    "word": "inconsolable",
+    "meaning": "So sad or upset that nothing can provide comfort",
+    "example": "She was inconsolable after learning of the tragedy.",
+    "category": "Sadness (Extreme)"
+  },
+  {
+    "word": "displeased",
+    "meaning": "Mildly unhappy or dissatisfied with something",
+    "example": "She was displeased with the quality of the service.",
+    "category": "Disgust (Mild)"
+  },
+  {
+    "word": "distasteful",
+    "meaning": "Causing mild dislike or disapproval",
+    "example": "He found the joke distasteful and did not laugh.",
+    "category": "Disgust (Mild)"
+  },
+  {
+    "word": "revolted",
+    "meaning": "Feeling strong disgust and repulsion toward something",
+    "example": "She was revolted by the unsanitary conditions of the kitchen.",
+    "category": "Disgust (Moderate)"
+  },
+  {
+    "word": "repulsed",
+    "meaning": "Feeling extreme distaste or aversion; pushed away emotionally",
+    "example": "He was repulsed by the cruel behavior of the bully.",
+    "category": "Disgust (Strong)"
+  },
+  {
+    "word": "nauseated",
+    "meaning": "Feeling intense disgust so strong it causes physical nausea",
+    "example": "She was nauseated by the graphic images in the documentary.",
+    "category": "Disgust (Strong)"
+  },
+  {
+    "word": "appalled",
+    "meaning": "Deeply shocked and horrified by something morally unacceptable",
+    "example": "He was appalled by the extent of the corruption.",
+    "category": "Disgust (Extreme)"
+  },
+  {
+    "word": "aghast",
+    "meaning": "Struck with horror and disbelief at something shocking",
+    "example": "She stood aghast at the destruction caused by the storm.",
+    "category": "Disgust (Extreme)"
+  },
+  {
+    "word": "curious",
+    "meaning": "Eager to know or learn something; mildly interested",
+    "example": "The child was curious about how the engine worked.",
+    "category": "Surprise (Mild)"
+  },
+  {
+    "word": "surprised",
+    "meaning": "Feeling or showing mild astonishment at something unexpected",
+    "example": "She was surprised to receive a gift on an ordinary day.",
+    "category": "Surprise (Mild)"
+  },
+  {
+    "word": "startled",
+    "meaning": "Feeling a sudden shock or fright from something unexpected",
+    "example": "He was startled by the dog that barked behind him.",
+    "category": "Surprise (Moderate)"
+  },
+  {
+    "word": "astonished",
+    "meaning": "Greatly surprised and filled with wonder",
+    "example": "She was astonished by the magician's incredible trick.",
+    "category": "Surprise (Strong)"
+  },
+  {
+    "word": "astounded",
+    "meaning": "Overwhelmingly shocked and amazed beyond expectation",
+    "example": "He was astounded by the sheer scale of the stadium.",
+    "category": "Surprise (Strong)"
+  },
+  {
+    "word": "dumbfounded",
+    "meaning": "So astonished that one is temporarily speechless",
+    "example": "She was dumbfounded by the unexpected confession.",
+    "category": "Surprise (Extreme)"
+  },
+  {
+    "word": "flabbergasted",
+    "meaning": "Utterly shocked and bewildered; completely taken aback",
+    "example": "He was flabbergasted when he won the lottery.",
+    "category": "Surprise (Extreme)"
+  },
+  {
+    "word": "thunderstruck",
+    "meaning": "Struck with sudden and intense amazement or shock",
+    "example": "She was thunderstruck upon hearing the unexpected resignation.",
+    "category": "Surprise (Extreme)"
+  },
+  {
+    "word": "bashful",
+    "meaning": "Feeling mild shyness and self-consciousness around others",
+    "example": "He was bashful when complimented in front of the group.",
+    "category": "Shame / Embarrassment (Mild)"
+  },
+  {
+    "word": "sheepish",
+    "meaning": "Showing embarrassment from having done something wrong or foolish",
+    "example": "She gave a sheepish grin after forgetting the meeting.",
+    "category": "Shame / Embarrassment (Mild)"
+  },
+  {
+    "word": "embarrassed",
+    "meaning": "Feeling awkward, self-conscious, and uncomfortable in a social situation",
+    "example": "He was embarrassed when he tripped in front of everyone.",
+    "category": "Shame / Embarrassment (Moderate)"
+  },
+  {
+    "word": "chagrined",
+    "meaning": "Feeling distressed and humiliated due to a failure or mistake",
+    "example": "She was chagrined by her poor performance in the debate.",
+    "category": "Shame / Embarrassment (Moderate)"
+  },
+  {
+    "word": "mortified",
+    "meaning": "Feeling extreme embarrassment or shame; deeply humiliated",
+    "example": "He was mortified when his voice cracked during the solo.",
+    "category": "Shame / Embarrassment (Strong)"
+  },
+  {
+    "word": "humiliated",
+    "meaning": "Made to feel ashamed and degraded, especially in public",
+    "example": "She felt deeply humiliated by the public mockery.",
+    "category": "Shame / Embarrassment (Extreme)"
+  },
+  {
+    "word": "fond",
+    "meaning": "Having a gentle affection or liking for someone or something",
+    "example": "She was fond of her old professor's teaching style.",
+    "category": "Love / Affection (Mild)"
+  },
+  {
+    "word": "warm",
+    "meaning": "Showing gentle kindness and friendliness; emotionally open",
+    "example": "He gave her a warm smile as she walked in.",
+    "category": "Love / Affection (Mild)"
+  },
+  {
+    "word": "affectionate",
+    "meaning": "Readily feeling or showing tender love and caring",
+    "example": "She was affectionate toward her younger sister.",
+    "category": "Love / Affection (Moderate)"
+  },
+  {
+    "word": "devoted",
+    "meaning": "Very loving and loyal; committed deeply to a person or cause",
+    "example": "He was devoted to caring for his aging parents.",
+    "category": "Love / Affection (Strong)"
+  },
+  {
+    "word": "adoring",
+    "meaning": "Showing deep love and admiration with great intensity",
+    "example": "She gazed at her newborn with adoring eyes.",
+    "category": "Love / Affection (Strong)"
+  },
+  {
+    "word": "infatuated",
+    "meaning": "Overwhelmed by intense and irrational admiration or love",
+    "example": "He was completely infatuated with the new student.",
+    "category": "Love / Affection (Strong)"
+  },
+  {
+    "word": "enamored",
+    "meaning": "Filled with love and strong admiration for someone",
+    "example": "She was enamored of his witty humor and kindness.",
+    "category": "Love / Affection (Extreme)"
+  },
+  {
+    "word": "lovestruck",
+    "meaning": "So deeply in love as to be unable to think clearly",
+    "example": "He was lovestruck from the moment they met.",
+    "category": "Love / Affection (Extreme)"
+  },
+  {
+    "word": "uninterested",
+    "meaning": "Not finding something appealing or worth attention",
+    "example": "She seemed uninterested in the lecture topic.",
+    "category": "Contempt / Disdain (Mild)"
+  },
+  {
+    "word": "dismissive",
+    "meaning": "Treating something as unworthy of consideration or respect",
+    "example": "He was dismissive of his colleague's creative ideas.",
+    "category": "Contempt / Disdain (Mild)"
+  },
+  {
+    "word": "condescending",
+    "meaning": "Treating others as inferior in a patronizing way",
+    "example": "She resented his condescending tone during the discussion.",
+    "category": "Contempt / Disdain (Moderate)"
+  },
+  {
+    "word": "contemptuous",
+    "meaning": "Showing open disrespect and scorn toward someone",
+    "example": "He gave a contemptuous sneer at the suggestion.",
+    "category": "Contempt / Disdain (Strong)"
+  },
+  {
+    "word": "scornful",
+    "meaning": "Feeling or expressing extreme disdain and ridicule",
+    "example": "She was scornful of those who gave up without trying.",
+    "category": "Contempt / Disdain (Strong)"
+  },
+  {
+    "word": "disdainful",
+    "meaning": "Showing strong dislike combined with superiority and contempt",
+    "example": "He was disdainful of mediocre work and demanded excellence.",
+    "category": "Contempt / Disdain (Extreme)"
+  },
+  {
+    "word": "hopeful",
+    "meaning": "Feeling optimistic and expecting a positive outcome",
+    "example": "She was hopeful that her application would be accepted.",
+    "category": "Hope / Anticipation (Mild)"
+  },
+  {
+    "word": "optimistic",
+    "meaning": "Inclined to expect good things to happen; positive about the future",
+    "example": "Despite the challenges, he remained optimistic about success.",
+    "category": "Hope / Anticipation (Mild)"
+  },
+  {
+    "word": "eager",
+    "meaning": "Strongly wanting to do something; enthusiastically ready",
+    "example": "The students were eager to start the new project.",
+    "category": "Hope / Anticipation (Moderate)"
+  },
+  {
+    "word": "excited",
+    "meaning": "Very enthusiastic and emotionally stirred by something upcoming",
+    "example": "She was excited about her first international trip.",
+    "category": "Hope / Anticipation (Moderate)"
+  },
+  {
+    "word": "thrilled",
+    "meaning": "Feeling a strong wave of excitement and pleasure",
+    "example": "He was thrilled to receive the award on stage.",
+    "category": "Hope / Anticipation (Strong)"
+  },
+  {
+    "word": "exhilarated",
+    "meaning": "Feeling intensely alive and invigorated by excitement",
+    "example": "She felt exhilarated after the skydiving experience.",
+    "category": "Hope / Anticipation (Extreme)"
+  },
+  {
+    "word": "lonely",
+    "meaning": "Feeling sad due to being alone or without company",
+    "example": "He felt lonely during his first week in the new city.",
+    "category": "Loneliness / Isolation (Mild)"
+  },
+  {
+    "word": "isolated",
+    "meaning": "Feeling cut off from others, physically or emotionally",
+    "example": "She felt isolated after moving far from her friends.",
+    "category": "Loneliness / Isolation (Moderate)"
+  },
+  {
+    "word": "desolate",
+    "meaning": "Feeling utterly alone and abandoned, often with deep despair",
+    "example": "After the breakup, he felt completely desolate.",
+    "category": "Loneliness / Isolation (Extreme)"
+  },
+  {
+    "word": "calm",
+    "meaning": "Not showing or feeling nervousness or excitement; tranquil",
+    "example": "She remained calm despite the chaos around her.",
+    "category": "Calm / Serenity"
+  },
+  {
+    "word": "serene",
+    "meaning": "Feeling or appearing pleasantly calm and untroubled",
+    "example": "He was serene as he meditated by the lake.",
+    "category": "Calm / Serenity"
+  },
+  {
+    "word": "tranquil",
+    "meaning": "Free from disturbance; pleasantly peaceful and quiet",
+    "example": "The tranquil garden helped her relax after a stressful day.",
+    "category": "Calm / Serenity"
+  },
+  {
+    "word": "blissful",
+    "meaning": "Feeling perfect happiness and complete peace of mind",
+    "example": "They spent a blissful week by the ocean.",
+    "category": "Calm / Serenity"
+  },
+  {
+    "word": "grumpy",
+    "meaning": "Irritable and bad-tempered in a mild, persistent way",
+    "example": "He was grumpy without his morning coffee.",
+    "category": "Irritability"
+  },
+  {
+    "word": "sulky",
+    "meaning": "Quietly resentful and moody, withdrawing to show displeasure",
+    "example": "She became sulky when her request was turned down.",
+    "category": "Irritability"
+  },
+  {
+    "word": "sullen",
+    "meaning": "Showing deep resentment through gloomy silence and bad temper",
+    "example": "He sat in sullen silence throughout the family dinner.",
+    "category": "Irritability"
+  },
+  {
+    "word": "bitter",
+    "meaning": "Feeling or showing anger and unhappiness due to resentment",
+    "example": "She became bitter after being passed over for promotion.",
+    "category": "Resentment"
+  },
+  {
+    "word": "resentful",
+    "meaning": "Feeling anger and indignation at having been treated unfairly",
+    "example": "He was resentful of the favoritism shown to his sibling.",
+    "category": "Resentment"
+  },
+  {
+    "word": "vengeful",
+    "meaning": "Strongly desiring revenge; intent on punishing those who wronged you",
+    "example": "Her vengeful mood made it hard for others to approach her.",
+    "category": "Resentment"
+  },
+  {
+    "word": "guilty",
+    "meaning": "Feeling responsible for a wrongdoing and burdened by it",
+    "example": "He felt guilty for missing his friend's important event.",
+    "category": "Guilt / Remorse"
+  },
+  {
+    "word": "remorseful",
+    "meaning": "Feeling deep regret and sadness for having done something wrong",
+    "example": "She was remorseful after speaking harshly to her friend.",
+    "category": "Guilt / Remorse"
+  },
+  {
+    "word": "contrite",
+    "meaning": "Feeling or expressing sincere sorrow and regret for wrongdoing",
+    "example": "He gave a contrite apology for his rude behavior.",
+    "category": "Guilt / Remorse"
+  },
+  {
+    "word": "penitent",
+    "meaning": "Feeling sorrow and wanting to make amends for a wrong done",
+    "example": "She was penitent and pledged to correct her mistakes.",
+    "category": "Guilt / Remorse"
+  },
+  {
+    "word": "envious",
+    "meaning": "Feeling discontent caused by desire for another's advantages",
+    "example": "He was envious of his colleague's quick promotion.",
+    "category": "Envy / Jealousy (Mild)"
+  },
+  {
+    "word": "jealous",
+    "meaning": "Feeling resentment toward someone due to their perceived advantages",
+    "example": "She felt jealous of her friend's talent and recognition.",
+    "category": "Envy / Jealousy (Moderate)"
+  },
+  {
+    "word": "covetous",
+    "meaning": "Having a strong, greedy desire for what someone else possesses",
+    "example": "He was covetous of his neighbor's success and wealth.",
+    "category": "Envy / Jealousy (Strong)"
+  },
+  {
+    "word": "wistful",
+    "meaning": "Feeling a tender longing or yearning, often for the past",
+    "example": "She became wistful when looking at old photographs.",
+    "category": "Nostalgia / Longing"
+  },
+  {
+    "word": "nostalgic",
+    "meaning": "Experiencing a sentimental longing for a happy past",
+    "example": "The old song made him feel deeply nostalgic.",
+    "category": "Nostalgia / Longing"
+  },
+  {
+    "word": "yearning",
+    "meaning": "Experiencing a strong and persistent desire or longing",
+    "example": "She had a deep yearning to return to her homeland.",
+    "category": "Nostalgia / Longing"
+  },
+  {
+    "word": "pining",
+    "meaning": "Suffering a heavy longing for someone or something absent",
+    "example": "He was pining for his family while stationed abroad.",
+    "category": "Nostalgia / Longing"
+  },
+  {
+    "word": "proud",
+    "meaning": "Feeling pleased and satisfied with one's own or another's achievement",
+    "example": "She was proud of her daughter's academic success.",
+    "category": "Pride (Positive)"
+  },
+  {
+    "word": "self-satisfied",
+    "meaning": "Complacently pleased with oneself, sometimes without full awareness",
+    "example": "He wore a self-satisfied expression after proving his point.",
+    "category": "Pride (Neutral)"
+  },
+  {
+    "word": "arrogant",
+    "meaning": "Having an exaggerated sense of superiority and self-importance",
+    "example": "His arrogant attitude made it hard to work with him.",
+    "category": "Pride (Negative)"
+  },
+  {
+    "word": "haughty",
+    "meaning": "Condescendingly proud and behaving as if superior to others",
+    "example": "She walked past her colleagues with a haughty air.",
+    "category": "Pride (Negative)"
+  },
+  {
+    "word": "bored",
+    "meaning": "Feeling weary and uninterested due to lack of stimulation",
+    "example": "He was bored during the long, uneventful bus ride.",
+    "category": "Boredom / Apathy (Mild)"
+  },
+  {
+    "word": "indifferent",
+    "meaning": "Having no particular interest or concern; uncaring about an outcome",
+    "example": "She was indifferent to whether they stayed or left.",
+    "category": "Boredom / Apathy (Moderate)"
+  },
+  {
+    "word": "apathetic",
+    "meaning": "Showing little or no emotion or concern; emotionally disengaged",
+    "example": "His apathetic response to the crisis was troubling.",
+    "category": "Boredom / Apathy (Strong)"
+  },
+  {
+    "word": "numb",
+    "meaning": "Emotionally unresponsive or without feeling due to shock or overload",
+    "example": "She felt emotionally numb after processing the tragedy.",
+    "category": "Boredom / Apathy (Extreme)"
+  },
+  {
+    "word": "touched",
+    "meaning": "Mildly moved or affected emotionally by something kind",
+    "example": "She was touched by his thoughtful gesture.",
+    "category": "Gratitude / Tenderness (Mild)"
+  },
+  {
+    "word": "grateful",
+    "meaning": "Feeling or showing thankfulness for kindness received",
+    "example": "He was grateful for the help during his difficult time.",
+    "category": "Gratitude / Tenderness (Moderate)"
+  },
+  {
+    "word": "moved",
+    "meaning": "Deeply emotionally affected, often to the point of tears",
+    "example": "She was moved by the soldier's touching homecoming story.",
+    "category": "Gratitude / Tenderness (Strong)"
+  },
+  {
+    "word": "overwhelmed",
+    "meaning": "Buried under a flood of intense emotions, positive or negative",
+    "example": "He was overwhelmed with gratitude at the kind reception.",
+    "category": "Gratitude / Tenderness (Extreme)"
+  },
+  {
+    "word": "confident",
+    "meaning": "Feeling sure of oneself and one's abilities",
+    "example": "She was confident in her ability to lead the team.",
+    "category": "Confidence"
+  },
+  {
+    "word": "assured",
+    "meaning": "Feeling or showing certainty about one's own capabilities",
+    "example": "He gave an assured performance on the main stage.",
+    "category": "Confidence"
+  },
+  {
+    "word": "empowered",
+    "meaning": "Feeling strengthened and in control of one's own actions and decisions",
+    "example": "The training made her feel empowered to handle any challenge.",
+    "category": "Confidence"
+  },
+  {
+    "word": "timid",
+    "meaning": "Lacking confidence and easily frightened; showing shyness",
+    "example": "The timid student hesitated to raise her hand in class.",
+    "category": "Insecurity (Mild)"
+  },
+  {
+    "word": "insecure",
+    "meaning": "Feeling uncertain about oneself and lacking confidence",
+    "example": "He felt insecure about his ability to fit in.",
+    "category": "Insecurity (Moderate)"
+  },
+  {
+    "word": "vulnerable",
+    "meaning": "Exposed emotionally; susceptible to hurt or criticism",
+    "example": "Opening up made her feel vulnerable but also free.",
+    "category": "Insecurity (Strong)"
+  },
+  {
+    "word": "distraught",
+    "meaning": "Deeply upset and agitated with worry or grief",
+    "example": "She was distraught after receiving the terrible news.",
+    "category": "Distress (Strong)"
+  },
+  {
+    "word": "frantic",
+    "meaning": "Wildly excited by uncontrollable worry, fear, or agitation",
+    "example": "He became frantic when he realized his passport was missing.",
+    "category": "Distress (Extreme)"
+  },
+  {
+    "word": "hysterical",
+    "meaning": "In a state of extreme and uncontrollable emotional agitation",
+    "example": "She became hysterical upon hearing of the accident.",
+    "category": "Distress (Extreme)"
+  },
+  {
+    "word": "awe-struck",
+    "meaning": "Filled with deep reverence and wonder at something magnificent",
+    "example": "He stood awe-struck before the ancient cathedral.",
+    "category": "Awe / Wonder"
+  },
+  {
+    "word": "reverent",
+    "meaning": "Feeling or showing deep respect and wonder",
+    "example": "She listened to the elder's words in reverent silence.",
+    "category": "Awe / Wonder"
+  },
+  {
+    "word": "spellbound",
+    "meaning": "Held completely captivated and transfixed with amazement",
+    "example": "The audience was spellbound by the pianist's performance.",
+    "category": "Awe / Wonder"
+  },
+  {
+    "word": "bewildered",
+    "meaning": "Feeling confused and disoriented, unable to think clearly",
+    "example": "She was bewildered by the complex instructions.",
+    "category": "Confusion"
+  },
+  {
+    "word": "perplexed",
+    "meaning": "Feeling completely baffled and unable to understand something",
+    "example": "He was perplexed by the sudden change in her attitude.",
+    "category": "Confusion"
+  },
+  {
+    "word": "baffled",
+    "meaning": "Totally unable to understand something; utterly confused",
+    "example": "The scientist was baffled by the unexpected data results.",
+    "category": "Confusion"
+  },
+  {
+    "word": "passionate",
+    "meaning": "Having strong, intense feelings about something or someone",
+    "example": "She was passionate about environmental justice.",
+    "category": "Passion / Intensity"
+  },
+  {
+    "word": "fervent",
+    "meaning": "Having or displaying a passionate intensity of feeling",
+    "example": "He was a fervent advocate for education reform.",
+    "category": "Passion / Intensity"
+  },
+  {
+    "word": "zealous",
+    "meaning": "Filled with intense and eager enthusiasm for a cause",
+    "example": "She was zealous in her mission to help underprivileged children.",
+    "category": "Passion / Intensity"
+  },
+  {
+    "word": "fanatical",
+    "meaning": "Obsessively and uncritically enthusiastic about something to excess",
+    "example": "His fanatical dedication to fitness bordered on obsession.",
+    "category": "Passion / Intensity"
+  }
+]

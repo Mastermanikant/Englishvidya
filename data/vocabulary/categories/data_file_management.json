@@ -1,0 +1,158 @@
+﻿[
+    {
+        "word":  "Archive",
+        "meaning":  "To move completed or historical data to a separate, long-term storage location without deleting it (strong alternative to \u0027hide old files\u0027 or \u0027save in a safe place\u0027).",
+        "example":  "Instead of deleting old project folders, we archive them to keep the workspace organized.",
+        "category":  "Data \u0026 File Management"
+    },
+    {
+        "word":  "Purge",
+        "meaning":  "To permanently and irreversibly remove unwanted data, files, or database records to free up space (strong alternative to \u0027delete completely\u0027 or \u0027wipe out\u0027).",
+        "example":  "The system is configured to purge deleted emails after thirty days.",
+        "category":  "Data \u0026 File Management"
+    },
+    {
+        "word":  "Compress",
+        "meaning":  "To reduce the file size of data or media using an algorithm, making it easier to send or store (strong alternative to \u0027make file size smaller\u0027 or \u0027zip a file\u0027).",
+        "example":  "You should compress the high-resolution images before uploading them to the web server.",
+        "category":  "Data \u0026 File Management"
+    },
+    {
+        "word":  "Extract",
+        "meaning":  "To retrieve and decompress specific files from a compressed archive, or to pull specific data from a database (strong alternative to \u0027unzip\u0027 or \u0027pull out data\u0027).",
+        "example":  "First extract the ZIP folder to your desktop, then run the installer.",
+        "category":  "Data \u0026 File Management"
+    },
+    {
+        "word":  "Import",
+        "meaning":  "To transfer data from an external file or format into a software application (strong alternative to \u0027bring data in\u0027 or \u0027load a file\u0027).",
+        "example":  "You can import your contact list directly from a CSV file into the CRM system.",
+        "category":  "Data \u0026 File Management"
+    },
+    {
+        "word":  "Export",
+        "meaning":  "To convert and transfer data from a software application into a file format compatible with other software (strong alternative to \u0027save file as something else\u0027 or \u0027send data out\u0027).",
+        "example":  "Once you finish editing the spreadsheet, export it as a PDF to share with the client.",
+        "category":  "Data \u0026 File Management"
+    },
+    {
+        "word":  "Retrieve",
+        "meaning":  "To search for and successfully recall specific data or files from a storage system or database (strong alternative to \u0027find a file\u0027 or \u0027search and get\u0027).",
+        "example":  "The search tool makes it easy to retrieve documents using keywords.",
+        "category":  "Data \u0026 File Management"
+    },
+    {
+        "word":  "Duplicate",
+        "meaning":  "To create an exact replica of a file, folder, or database record in the same directory or system (strong alternative to \u0027copy-paste\u0027 or \u0027make a copy\u0027).",
+        "example":  "Please duplicate the template folder before you begin customizing it for the new client.",
+        "category":  "Data \u0026 File Management"
+    },
+    {
+        "word":  "Clone",
+        "meaning":  "To make a complete, identical copy of a software project, repository, or virtual environment (strong alternative to \u0027copy a whole setup\u0027 or \u0027make a twin\u0027).",
+        "example":  "Developers need to clone the repository to their local machines to begin coding.",
+        "category":  "Data \u0026 File Management"
+    },
+    {
+        "word":  "Ingest",
+        "meaning":  "To import and absorb large datasets into a database or data warehouse for processing and analysis (strong alternative to \u0027bring lots of data in\u0027 or \u0027load huge files\u0027).",
+        "example":  "The analytics platform is designed to ingest millions of data points per second.",
+        "category":  "Data \u0026 File Management"
+    },
+    {
+        "word":  "Consolidate",
+        "meaning":  "To combine multiple sources of data, files, or information into a single, unified database or report (strong alternative to \u0027put spreadsheets together\u0027 or \u0027combine data\u0027).",
+        "example":  "We will consolidate all customer feedback spreadsheets into one central database.",
+        "category":  "Data \u0026 File Management"
+    },
+    {
+        "word":  "Migrate",
+        "meaning":  "To move data, applications, or entire operating environments from one platform, server, or system to another (strong alternative to \u0027move files over\u0027 or \u0027transfer databases\u0027).",
+        "example":  "The company plans to migrate its local database to the cloud next month.",
+        "category":  "Data \u0026 File Management"
+    },
+    {
+        "word":  "Backup",
+        "meaning":  "To create a duplicate copy of files or system configurations to protect against data loss (strong alternative to \u0027save on external disk\u0027 or \u0027copy files just in case\u0027).",
+        "example":  "Remember to backup your work daily to the cloud storage.",
+        "category":  "Data \u0026 File Management"
+    },
+    {
+        "word":  "Replicate",
+        "meaning":  "To continuously copy and synchronize database changes across multiple servers to ensure high availability (strong alternative to \u0027copy databases automatically\u0027).",
+        "example":  "The system replicates data across three separate server locations to prevent downtime.",
+        "category":  "Data \u0026 File Management"
+    },
+    {
+        "word":  "Parse",
+        "meaning":  "To analyze a string of code, file, or text by breaking it down into component parts to understand its structure (strong alternative to \u0027read through text\u0027 or \u0027look through code\u0027).",
+        "example":  "The script will parse the raw JSON data and display it in a user-friendly table.",
+        "category":  "Data \u0026 File Management"
+    },
+    {
+        "word":  "Query",
+        "meaning":  "A formal request for specific information from a database using structured commands (strong alternative to \u0027search database\u0027 or \u0027ask database for info\u0027).",
+        "example":  "You can run a SQL query to find out how many users signed up last month.",
+        "category":  "Data \u0026 File Management"
+    },
+    {
+        "word":  "Index",
+        "meaning":  "To organize and catalog database records or web pages to optimize search speed and retrieval efficiency (strong alternative to \u0027make database search fast\u0027 or \u0027make a search list\u0027).",
+        "example":  "Search engines index new web pages so they can be retrieved quickly by searchers.",
+        "category":  "Data \u0026 File Management"
+    },
+    {
+        "word":  "Partition",
+        "meaning":  "To divide a storage drive or large database into distinct, independent sections for better management (strong alternative to \u0027split a drive\u0027 or \u0027cut database in half\u0027).",
+        "example":  "We will partition the hard drive to separate the operating system from personal files.",
+        "category":  "Data \u0026 File Management"
+    },
+    {
+        "word":  "Overwrite",
+        "meaning":  "To write new data over existing data, completely replacing the old file or database record (strong alternative to \u0027save on top of\u0027 or \u0027replace old file\u0027).",
+        "example":  "Be careful not to overwrite the original document with your changes.",
+        "category":  "Data \u0026 File Management"
+    },
+    {
+        "word":  "Truncate",
+        "meaning":  "To shorten a data string or file by cutting off its end after a specific limit (strong alternative to \u0027cut off\u0027 or \u0027shorten\u0027).",
+        "example":  "The system will truncate usernames that exceed fifteen characters.",
+        "category":  "Data \u0026 File Management"
+    },
+    {
+        "word":  "Buffer",
+        "meaning":  "To temporarily hold data in computer memory while transferring it from one place to another, preventing interruptions (strong alternative to \u0027load ahead of time\u0027 or \u0027hold data\u0027).",
+        "example":  "The video player will buffer a few seconds of video to ensure smooth playback.",
+        "category":  "Data \u0026 File Management"
+    },
+    {
+        "word":  "Filter",
+        "meaning":  "To narrow down a list of data or search results by applying specific conditions or criteria (strong alternative to \u0027narrow down search\u0027 or \u0027sort out\u0027).",
+        "example":  "You can filter the customer list to show only those who bought a product in the last month.",
+        "category":  "Data \u0026 File Management"
+    },
+    {
+        "word":  "Sort",
+        "meaning":  "To arrange data, files, or records in a specific alphabetical, numerical, or chronological order (strong alternative to \u0027put in order\u0027 or \u0027line up\u0027).",
+        "example":  "You can sort the files by date modified to find the most recent ones.",
+        "category":  "Data \u0026 File Management"
+    },
+    {
+        "word":  "Map",
+        "meaning":  "To link database fields or values from one system to corresponding fields in another system (strong alternative to \u0027match up lists\u0027 or \u0027connect fields\u0027).",
+        "example":  "You need to map the customer name field in the CSV file to the CRM\u0027s name field.",
+        "category":  "Data \u0026 File Management"
+    },
+    {
+        "word":  "Validate",
+        "meaning":  "To check if user input or data meets specific rules or formats before accepting it (strong alternative to \u0027check if input is correct\u0027 or \u0027confirm entry\u0027).",
+        "example":  "The form will validate the email address to ensure it contains an \u0027@\u0027 symbol.",
+        "category":  "Data \u0026 File Management"
+    },
+    {
+        "word":  "Decompress",
+        "meaning":  "To unpack a compressed file or archive back into its original size and format (strong alternative to \u0027unzip\u0027 or \u0027make file normal size\u0027).",
+        "example":  "The utility will decompress the backup files automatically during restoration.",
+        "category":  "Data \u0026 File Management"
+    }
+]

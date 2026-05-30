@@ -1,0 +1,752 @@
+[
+  {
+    "word": "AD HOMINEM",
+    "meaning": "Attacking an opponent's character or personal traits instead of engaging with their actual argument. Analogy: Throwing mud at a runner because you cannot run faster than them.",
+    "example": "We should reject the doctor's advice on nutrition because she was once caught speeding in a school zone.",
+    "category": "Informal Fallacies - Relevance"
+  },
+  {
+    "word": "STRAW MAN",
+    "meaning": "Misrepresenting or exaggerating an opponent's argument to make it easier to attack or defeat. Analogy: Building a weak dummy out of straw just so you can easily knock it down and claim you won a fight.",
+    "example": "My opponent wants to reduce the police budget, which clearly means she wants to let criminals run wild and destroy our city.",
+    "category": "Informal Fallacies - Relevance"
+  },
+  {
+    "word": "APPEAL TO IGNORANCE",
+    "meaning": "Arguing that a claim must be true because it has not yet been proven false, or false because it has not been proven true. Analogy: Assuming a locked drawer is filled with diamonds simply because no one has opened it to prove otherwise.",
+    "example": "Since scientists cannot prove that ghosts do not exist, they must be real.",
+    "category": "Informal Fallacies - Presumption"
+  },
+  {
+    "word": "FALSE DILEMMA",
+    "meaning": "Presenting only two options or outcomes when in fact more possibilities exist. Analogy: Telling someone they must either love every single thing about a country or leave it immediately, ignoring the option to stay and improve it.",
+    "example": "Either we build a new highway through the park, or our city's traffic will grind to a halt forever.",
+    "category": "Informal Fallacies - Presumption"
+  },
+  {
+    "word": "SLIPPERY SLOPE",
+    "meaning": "Arguing that a relatively small first step will inevitably lead to a chain of negative events. Analogy: Refusing to let a child choose their own dessert because you believe it will lead to them refusing all healthy food and ending up malnourished.",
+    "example": "If we allow employees to work from home on Fridays, they will soon demand to work from home all week, and eventually our entire company will go out of business.",
+    "category": "Informal Fallacies - Relevance"
+  },
+  {
+    "word": "CIRCULAR REASONING",
+    "meaning": "An argument that supports its conclusion by restating the conclusion in the premises. Analogy: Trying to prove you are a great driver by saying, 'I am an excellent driver because I drive very well.'",
+    "example": "The government is always honest because they told us they would never lie to us.",
+    "category": "Informal Fallacies - Presumption"
+  },
+  {
+    "word": "HASTY GENERALIZATION",
+    "meaning": "Drawing a broad conclusion based on a small or unrepresentative sample of evidence. Analogy: Tasting one sour apple from a tree and concluding that all the apples in the entire orchard are inedible.",
+    "example": "I met two people from that town and they were both incredibly rude, so everyone in that town must be unfriendly.",
+    "category": "Informal Fallacies - Presumption"
+  },
+  {
+    "word": "RED HERRING",
+    "meaning": "Introducing an irrelevant topic to divert attention from the original argument. Analogy: Dragging a smelly fish across a trail to throw tracking dogs off the scent of the actual prey.",
+    "example": "The senator was asked about his tax evasion charges, but he responded by talking about the importance of family values.",
+    "category": "Informal Fallacies - Relevance"
+  },
+  {
+    "word": "TU QUOQUE",
+    "meaning": "Dismissing an opponent's argument by pointing out that their own behavior is inconsistent with their conclusion. Analogy: Rejecting your parent's warning about the dangers of smoking because they used to smoke when they were younger.",
+    "example": "How can you tell me to stop wasting money when you just bought an expensive new television last week?",
+    "category": "Informal Fallacies - Relevance"
+  },
+  {
+    "word": "POST HOC ERGO PROPTER HOC",
+    "meaning": "Assuming that because one event followed another, the first event must have caused the second. Analogy: Believing your rooster's crowing causes the sun to rise because the sun always comes up right after the crowing.",
+    "example": "After I started eating oatmeal for breakfast, I got a promotion at work; eating oatmeal must make people successful.",
+    "category": "Informal Fallacies - Causal"
+  },
+  {
+    "word": "SUNK COST FALLACY",
+    "meaning": "Continuing an endeavor or behavior because of previously invested resources (time, money, effort), even when stopping would be better. Analogy: Finishing a terrible movie that is making you miserable just because you already paid for the ticket.",
+    "example": "I don't enjoy studying law, but I've already spent three years in law school, so I might as well finish the degree.",
+    "category": "Cognitive Biases - Decision Making"
+  },
+  {
+    "word": "APPEAL TO AUTHORITY",
+    "meaning": "Insisting a claim is true solely because an authority figure said so, especially when that authority is not an expert in the relevant field. Analogy: Believing a foot doctor's advice on how to repair a car engine.",
+    "example": "The famous actor says this vitamin supplement cures insomnia, so it must be effective.",
+    "category": "Informal Fallacies - Relevance"
+  },
+  {
+    "word": "BANDWAGON FALLACY",
+    "meaning": "Arguing that a claim is true or an action is correct simply because many people believe or do it. Analogy: Jumping onto a crowded train carriage just because everyone else is running toward it, without checking where it goes.",
+    "example": "Everyone is investing in this new cryptocurrency, so it must be a safe and profitable investment.",
+    "category": "Informal Fallacies - Relevance"
+  },
+  {
+    "word": "EQUIVOCATION",
+    "meaning": "Using a key term or phrase in an ambiguous way, with one meaning in one portion of the argument and another meaning in another portion. Analogy: Arguing that a feather is light, and what is light cannot be dark, so a feather cannot be black.",
+    "example": "Nothing is better than eternal happiness, and a ham sandwich is better than nothing, so a ham sandwich is better than eternal happiness.",
+    "category": "Informal Fallacies - Ambiguity"
+  },
+  {
+    "word": "FALLACY OF DIVISION",
+    "meaning": "Assuming that what is true for a whole must also be true for all of its individual parts. Analogy: Believing that because a heavy boulder is heavy, every single grain of sand making up the boulder must also be heavy.",
+    "example": "This university is highly prestigious, so every student who graduates from it must be brilliant.",
+    "category": "Informal Fallacies - Ambiguity"
+  },
+  {
+    "word": "FALLACY OF COMPOSITION",
+    "meaning": "Assuming that what is true for the individual parts must also be true for the whole. Analogy: Thinking that because one singer in a choir sounds beautiful alone, a choir of ten thousand singers singing different songs at the same time will sound beautiful.",
+    "example": "Every player on the team is a superstar, so the team is guaranteed to play exceptionally well together.",
+    "category": "Informal Fallacies - Ambiguity"
+  },
+  {
+    "word": "ANECDOTAL FALLACY",
+    "meaning": "Using personal experiences or isolated examples to refute statistical data or scientific evidence. Analogy: Arguing that seatbelts are dangerous because your uncle survived a crash because he wasn't wearing one.",
+    "example": "The news says global temperatures are rising, but it was freezing in my backyard today, so global warming is a hoax.",
+    "category": "Informal Fallacies - Relevance"
+  },
+  {
+    "word": "TEXAS SHARPSHOOTER FALLACY",
+    "meaning": "Cherry-picking data clusters to support an idea, or drawing a bullseye around a random cluster of data points after the fact to create the illusion of a pattern. Analogy: Firing a gun at a barn wall and then drawing a target circle around the bullet holes.",
+    "example": "The company pointed to three clients who doubled their sales using their software, ignoring the thousands of clients whose sales remained flat.",
+    "category": "Informal Fallacies - Causal"
+  },
+  {
+    "word": "MIDDLE GROUND FALLACY",
+    "meaning": "Assuming that the compromise or middle point between two extreme positions must be the correct answer. Analogy: When one person says the sky is blue and another says it is bright yellow, concluding that the sky must be green.",
+    "example": "She says vaccination is vital, and he says vaccines are poison; therefore, the truth must be that some vaccines are slightly toxic.",
+    "category": "Informal Fallacies - Presumption"
+  },
+  {
+    "word": "NO TRUE SCOTSMAN",
+    "meaning": "Protecting a generalization from a counterexample by changing the definition of the group to exclude the counterexample. Analogy: Claiming all dogs love bones, and when shown a dog that hates bones, claiming that it is not a 'real' dog.",
+    "example": "No true programmer writes code without comments, so if he doesn't write comments, he isn't a real programmer.",
+    "category": "Informal Fallacies - Presumption"
+  },
+  {
+    "word": "AD HOC RESCUE",
+    "meaning": "Creating arbitrary or unsupported explanations to save a cherished hypothesis from being disproven. Analogy: Claiming your magic spell failed only because someone in the room was thinking negative thoughts.",
+    "example": "My psychic powers only work when skeptics are not actively observing me.",
+    "category": "Informal Fallacies - Presumption"
+  },
+  {
+    "word": "APPEAL TO NATURE",
+    "meaning": "Arguing that because something is natural it is good or healthy, and because something is unnatural it is bad or harmful. Analogy: Eating poisonous mushrooms because they grew wild in the forest, while refusing life-saving synthetic medicine.",
+    "example": "This herbal supplement is made from natural mountain plants, so it cannot have any harmful side effects.",
+    "category": "Informal Fallacies - Relevance"
+  },
+  {
+    "word": "FALLACY FALLACY",
+    "meaning": "Assuming that because an argument contains a logical fallacy, its conclusion must be completely false. Analogy: Assuming a math answer is wrong because the student made a typo in their calculation steps, even though the final number is correct.",
+    "example": "You used a straw man fallacy in your argument, so your claim that we should recycle plastic is wrong.",
+    "category": "Informal Fallacies - Presumption"
+  },
+  {
+    "word": "GENETIC FALLACY",
+    "meaning": "Judging the validity or quality of an idea based solely on its origin or history rather than its current merits. Analogy: Refusing to buy a reliable car because the car company originally made military vehicles a century ago.",
+    "example": "The ideas behind that educational program were first proposed in a tabloid newspaper, so the program cannot be useful.",
+    "category": "Informal Fallacies - Relevance"
+  },
+  {
+    "word": "LOADED QUESTION",
+    "meaning": "Asking a question that contains an unproven assumption, making it impossible to answer without appearing guilty. Analogy: Asking someone, 'Have you stopped stealing from your coworkers?' when they have never stolen anything.",
+    "example": "Are you going to support our school reform, or do you just hate children?",
+    "category": "Informal Fallacies - Presumption"
+  },
+  {
+    "word": "APPEAL TO CONSEQUENCES",
+    "meaning": "Arguing that a belief is true or false based on whether its outcomes are desirable or undesirable. Analogy: Refusing to believe your house has termites because if it did, you would have to pay for expensive repairs.",
+    "example": "There must be life after death, because the alternative of fading into nothingness is too depressing to accept.",
+    "category": "Informal Fallacies - Relevance"
+  },
+  {
+    "word": "APPEAL TO TRADITION",
+    "meaning": "Arguing that a practice or belief is correct simply because it has been followed for a long time. Analogy: Refusing to use a tractor because your family has plowed fields with horses for generations.",
+    "example": "Our company has always printed reports on paper; there is no reason to switch to digital files now.",
+    "category": "Informal Fallacies - Relevance"
+  },
+  {
+    "word": "APPEAL TO NOVELTY",
+    "meaning": "Arguing that an idea or product is superior simply because it is new or modern. Analogy: Upgrading to a new phone model that has fewer features just because it was released this week.",
+    "example": "This new teaching method was designed last month, so it is bound to produce better results than older methods.",
+    "category": "Informal Fallacies - Relevance"
+  },
+  {
+    "word": "NATURALISTIC FALLACY",
+    "meaning": "Arguing that because something is a certain way in nature, it ought to be that way in human society. Analogy: Arguing that because wild animals steal food from each other, humans should be allowed to steal without punishment.",
+    "example": "In nature, only the strongest survive, so we should not have social safety nets for the poor or sick.",
+    "category": "Informal Fallacies - Relevance"
+  },
+  {
+    "word": "MORALISTIC FALLACY",
+    "meaning": "Arguing that because something ought to be a certain way, it is that way in reality. Analogy: Believing that because crime is bad, no crimes are actually committed in your neighborhood.",
+    "example": "Since warfare is destructive and immoral, humans must not possess any biological instincts for aggression.",
+    "category": "Informal Fallacies - Relevance"
+  },
+  {
+    "word": "FALSE ANALOGY",
+    "meaning": "Comparing two things that share some superficial similarities but are fundamentally different in ways that affect the argument. Analogy: Arguing that since a watch requires a watchmaker, a solar system must require a physical celestial mechanic to keep it wound up.",
+    "example": "Just as a family must balance its household budget, a national government must never run a budget deficit.",
+    "category": "Informal Fallacies - Presumption"
+  },
+  {
+    "word": "DEFINEST FALLACY",
+    "meaning": "Defining a term in a biased or self-serving way to make one's own position true by definition. Analogy: Defining 'winner' as 'anyone who wears blue shoes' to guarantee you win a race.",
+    "example": "A good citizen is someone who agrees with all government actions, so those who protest are not good citizens.",
+    "category": "Informal Fallacies - Ambiguity"
+  },
+  {
+    "word": "PLURIUM INTERROGATIONUM",
+    "meaning": "A complex or multiple question that demands a single simple answer, trapping the respondent. Analogy: Asking a suspect, 'Where did you hide the money and how did you spend it?' before establishing if they stole it.",
+    "example": "Should we cut funding to our failing space program and redirect it to our starving hospitals?",
+    "category": "Informal Fallacies - Presumption"
+  },
+  {
+    "word": "IGNORATIO ELENCHI",
+    "meaning": "An argument that may be valid in itself but proves a conclusion other than the one it was meant to prove. Analogy: Giving a detailed speech about how delicious soup is to prove that soup is the most affordable food in the world.",
+    "example": "The developer argued that the new building would be extremely safe, but the debate was about whether the building would block sunlight.",
+    "category": "Informal Fallacies - Relevance"
+  },
+  {
+    "word": "KETTLE LOGIC",
+    "meaning": "Using multiple, mutually inconsistent arguments to defend a single position. Analogy: Defending yourself against a broken cup charge by saying: 'I returned it whole,' 'It was already cracked,' and 'I never borrowed it.'",
+    "example": "I didn't copy your essay: I've never seen your essay, I only copied the first paragraph, and you copied it from someone else anyway.",
+    "category": "Informal Fallacies - Presumption"
+  },
+  {
+    "word": "MOVING THE GOALPOSTS",
+    "meaning": "Demanding new or more rigorous evidence after the initial criteria for proof have already been met. Analogy: Changing the location of the finish line after a runner has already crossed the original one.",
+    "example": "You proved the drug is safe in laboratory trials, but now you must prove it has no side effects over a hundred years.",
+    "category": "Informal Fallacies - Relevance"
+  },
+  {
+    "word": "SHIFTING THE BURDEN OF PROOF",
+    "meaning": "Demanding that an opponent disprove a claim rather than providing evidence to prove the claim yourself. Analogy: Accusing someone of theft and telling them they must prove their innocence, rather than you proving they did it.",
+    "example": "I believe there is a teapot orbiting Jupiter, and if you don't believe me, you have to prove that it isn't there.",
+    "category": "Informal Fallacies - Presumption"
+  },
+  {
+    "word": "PSYCHOLOGIST'S FALLACY",
+    "meaning": "Assuming that one's own subjective experience or interpretation of an event is objective reality for everyone. Analogy: Believing that because you find public speaking easy, anyone who is nervous about it is just not trying hard enough.",
+    "example": "Learning calculus is incredibly easy and intuitive, so anyone who struggles with it must be lazy.",
+    "category": "Cognitive Biases - Memory & Perception"
+  },
+  {
+    "word": "SPECIAL PLEADING",
+    "meaning": "Applying a double standard by claiming an exception to a rule for oneself or a favored group without providing a valid justification. Analogy: A politician writing a law against speeding but expecting the police to ignore their own speeding because they are 'too busy.'",
+    "example": "Everyone should pay taxes to support public services, but my business shouldn't have to because we do great work.",
+    "category": "Informal Fallacies - Relevance"
+  },
+  {
+    "word": "CHERRY PICKING",
+    "meaning": "Selecting only the evidence that supports your position while ignoring a large body of contradictory evidence. Analogy: Searching a basket of apples and pulling out the only three ripe ones to prove the entire harvest is ready.",
+    "example": "This study shows that one cup of coffee improved memory in five people, so coffee cures memory loss.",
+    "category": "Informal Fallacies - Relevance"
+  },
+  {
+    "word": "LOGICAL SELF-CONTRADICTION",
+    "meaning": "An argument that contains premises or statements that cannot both be true at the same time. Analogy: Claiming to build a wall that cannot be breached, and then claiming to build a cannonball that can breach any wall.",
+    "example": "The only rule we have in this classroom is that there are absolutely no rules whatsoever.",
+    "category": "Formal Fallacies"
+  },
+  {
+    "word": "OVERWHELMING EXCEPTION",
+    "meaning": "A generalization that is technically true but is qualified with so many exceptions that it loses all its meaning. Analogy: Promising that a car runs perfectly, except when it is raining, cold, hot, or driving on a hill.",
+    "example": "Our service is completely free, except for the registration fee, monthly maintenance fee, and transaction costs.",
+    "category": "Informal Fallacies - Presumption"
+  },
+  {
+    "word": "POISONING THE WELL",
+    "meaning": "Discrediting an opponent or source before they even have a chance to present their argument. Analogy: Pouring poison into a well before people drink from it so they will reject whatever comes out.",
+    "example": "Before you listen to my opponent's speech, keep in mind that he is a known liar who only cares about money.",
+    "category": "Informal Fallacies - Relevance"
+  },
+  {
+    "word": "GUILT BY ASSOCIATION",
+    "meaning": "Rejecting a claim or discrediting a person because they are associated with an unpopular group or individual. Analogy: Assuming a dog is aggressive just because it walks in the same park as a wolf.",
+    "example": "You agree with some tax policies of that socialist country, which means you must support their totalitarian government.",
+    "category": "Informal Fallacies - Relevance"
+  },
+  {
+    "word": "ARGUMENT FROM INCREDULITY",
+    "meaning": "Concluding that a claim must be false because it is difficult to understand or believe. Analogy: Assuming a computer works by magic because you don't understand microchips and coding.",
+    "example": "It is impossible to believe that tiny microscopic organisms can cause deadly diseases; therefore, germ theory is wrong.",
+    "category": "Informal Fallacies - Presumption"
+  },
+  {
+    "word": "ARGUMENT TO THE PURSE",
+    "meaning": "Arguing that someone's wealth or financial success makes their conclusions more likely to be true. Analogy: Believing a billionaire's advice on how to raise children simply because they are incredibly rich.",
+    "example": "He is a self-made multi-millionaire, so his ideas about quantum physics must be correct.",
+    "category": "Informal Fallacies - Relevance"
+  },
+  {
+    "word": "ARGUMENT TO THE LAZARUS",
+    "meaning": "Arguing that someone's poverty or humble lifestyle makes their conclusions more virtuous or true. Analogy: Assuming a monk's advice on running a business is correct because he owns no material possessions.",
+    "example": "The villagers live simple, impoverished lives close to the earth, so their traditional medicine is superior to modern science.",
+    "category": "Informal Fallacies - Relevance"
+  },
+  {
+    "word": "CHRONOLOGICAL SNOBBERY",
+    "meaning": "Thinking that ideas, practices, or technologies of the past are automatically inferior to those of the present. Analogy: Assuming that a modern electronic book is better written than a classical Greek manuscript just because it is newer.",
+    "example": "People in the nineteenth century didn't have computers, so their philosophy on ethics has no relevance to our lives.",
+    "category": "Informal Fallacies - Relevance"
+  },
+  {
+    "word": "FAKE PRECISION",
+    "meaning": "Using precise numbers or statistics to give the illusion of scientific accuracy when the data is actually uncertain or estimated. Analogy: Saying a dinosaur fossil is exactly 65,000,003 years old because a scientist told you it was 65 million years old three years ago.",
+    "example": "Our new program will increase student concentration levels by exactly 34.72%.",
+    "category": "Informal Fallacies - Presumption"
+  },
+  {
+    "word": "FALLACY OF THE SINGLE CAUSE",
+    "meaning": "Assuming that there is a single, simple cause for a complex event that actually has multiple contributing factors. Analogy: Blaming a plane crash entirely on the pilot, ignoring the storm, the engine malfunction, and the air traffic control error.",
+    "example": "The high crime rate in the city is caused entirely by violent video games.",
+    "category": "Informal Fallacies - Causal"
+  },
+  {
+    "word": "REIFICATION FALLACY",
+    "meaning": "Treating an abstract concept, metaphor, or mental construct as if it were a concrete, physical reality. Analogy: Searching for a physical object called 'love' in a person's chest cavity.",
+    "example": "Nature always finds a way to balance itself because she is a wise mother who cares for her children.",
+    "category": "Informal Fallacies - Ambiguity"
+  },
+  {
+    "word": "RETROSPECTIVE GLORIFICATION",
+    "meaning": "Exaggerating the virtues and happiness of a past era while ignoring its hardships and flaws. Analogy: Remembering your childhood summers as perfect sunny days, forgetting the sunburns, bee stings, and boredom.",
+    "example": "Life in the middle ages was peaceful, simple, and full of community spirit, unlike our stressful modern world.",
+    "category": "Cognitive Biases - Memory & Perception"
+  },
+  {
+    "word": "GAMBLER'S FALLACY",
+    "meaning": "Believing that past random events can influence the probability of future independent events. Analogy: Expecting a coin flip to land on heads because it has landed on tails five times in a row.",
+    "example": "I've lost the last ten rounds of roulette, so I am due for a big win on the next spin.",
+    "category": "Cognitive Biases - Decision Making"
+  },
+  {
+    "word": "HOT HAND FALLACY",
+    "meaning": "Believing that a person who has experienced success in a random trial has a greater chance of success in consecutive trials. Analogy: Believing a basketball player cannot miss a shot because they made the last three, ignoring their long-term average.",
+    "example": "Our fund manager has beaten the market two quarters in a row; she definitely has a hot hand and cannot lose.",
+    "category": "Cognitive Biases - Decision Making"
+  },
+  {
+    "word": "BASE RATE FALLACY",
+    "meaning": "Ignoring general statistical probabilities (base rates) in favor of specific, vivid details. Analogy: Fearing a shark attack at the beach because you saw a news report, while ignoring the fact that driving to the beach is thousands of times more dangerous.",
+    "example": "The test for a rare disease is 99% accurate, and you tested positive; you assume you are 99% likely to have it, ignoring that the disease only affects 1 in 10,000 people.",
+    "category": "Cognitive Biases - Decision Making"
+  },
+  {
+    "word": "LUDIC FALLACY",
+    "meaning": "Applying simple, clean mathematical models or game rules to predict complex, unpredictable real-world situations. Analogy: Assuming a real-world street fight will follow the weight classes and rules of a professional boxing match.",
+    "example": "I have mapped out our business strategy using a perfect game theory matrix, so there is zero risk of unexpected market shifts.",
+    "category": "Cognitive Biases - Decision Making"
+  },
+  {
+    "word": "CONFIRMATION BIAS",
+    "meaning": "The tendency to search for, interpret, and recall information in a way that confirms one's preexisting beliefs. Analogy: Wearing tinted glasses that filter out every color except the one you want to see.",
+    "example": "He believes that full moons cause wild behavior, so he only notices odd events when there is a full moon.",
+    "category": "Cognitive Biases - Decision Making"
+  },
+  {
+    "word": "ANCHORING BIAS",
+    "meaning": "Relying too heavily on the first piece of information encountered when making decisions, even if it is irrelevant. Analogy: Being told a shirt originally cost one hundred dollars, so you think thirty dollars is a bargain, even if the shirt is only worth ten.",
+    "example": "The seller started the negotiation at an extremely high price, which anchored our counteroffers much higher than we planned.",
+    "category": "Cognitive Biases - Decision Making"
+  },
+  {
+    "word": "AVAILABILITY HEURISTIC",
+    "meaning": "Overestimating the likelihood or frequency of events based on how easily examples of them can be recalled from memory. Analogy: Refusing to travel by airplane because you recently watched a movie about a plane crash.",
+    "example": "Kidnappings must be at an all-time high because every time I turn on the television, there is a report about one.",
+    "category": "Cognitive Biases - Decision Making"
+  },
+  {
+    "word": "DUNNING-KRUGER EFFECT",
+    "meaning": "A cognitive bias where people with low ability in a domain overestimate their competence, while experts underestimate their relative skills. Analogy: A novice chess player who has read one book believing they can defeat a grandmaster.",
+    "example": "He just started learning guitar last week, but he is already giving advice to professional musicians on how to play.",
+    "category": "Cognitive Biases - Decision Making"
+  },
+  {
+    "word": "HALO EFFECT",
+    "meaning": "Allowing an overall positive impression of a person to influence evaluations of their specific traits. Analogy: Assuming a physically attractive person is also kind, honest, and highly intelligent.",
+    "example": "Our new manager is very polite and well-dressed, so I am sure he will write excellent software code.",
+    "category": "Cognitive Biases - Social & Attribution"
+  },
+  {
+    "word": "HINDSIGHT BIAS",
+    "meaning": "The tendency to believe, after an event has occurred, that you predicted or expected it all along. Analogy: Claiming you knew exactly which horse would win a race, but only saying so after the race has finished.",
+    "example": "Once the stock market crashed, he told everyone that he had known for months that the crash was coming.",
+    "category": "Cognitive Biases - Memory & Perception"
+  },
+  {
+    "word": "IN-GROUP BIAS",
+    "meaning": "The tendency to favor and trust members of one's own group over those who belong to other groups. Analogy: Giving a job promotion to a coworker just because you both support the same football team.",
+    "example": "I voted for his proposal because he is in our department, even though the other department's plan was much better.",
+    "category": "Cognitive Biases - Social & Attribution"
+  },
+  {
+    "word": "OUT-GROUP HOMOGENEITY EFFECT",
+    "meaning": "Perceiving members of an out-group as being highly similar to one another, while seeing in-group members as diverse. Analogy: Thinking all cats behave exactly the same way, while recognizing that your own three pet cats have completely unique personalities.",
+    "example": "People from that other country all think the same way and have the exact same hobbies.",
+    "category": "Cognitive Biases - Social & Attribution"
+  },
+  {
+    "word": "FUNDAMENTAL ATTRIBUTION ERROR",
+    "meaning": "Underestimating situational influences and overestimating personal traits when explaining other people's behavior. Analogy: Assuming a driver who cuts you off in traffic is a selfish jerk, ignoring the possibility that they are rushing to the hospital.",
+    "example": "She arrived late to the meeting, so she must be disorganized and lazy, rather than delayed by an accident.",
+    "category": "Cognitive Biases - Social & Attribution"
+  },
+  {
+    "word": "SELF-SERVING BIAS",
+    "meaning": "Attributing personal successes to internal factors (like skill) while blaming personal failures on external factors (like bad luck). Analogy: Claiming you aced the exam because you are smart, but failed the next one because the teacher made it unfair.",
+    "example": "Our team won because of my excellent strategy, but we lost the next game because the referee was biased.",
+    "category": "Cognitive Biases - Social & Attribution"
+  },
+  {
+    "word": "FRAMING EFFECT",
+    "meaning": "Drawing different conclusions from the same information based on how the information is presented. Analogy: Choosing a yogurt labeled '90% fat-free' over one labeled 'contains 10% fat.'",
+    "example": "Patients were much more willing to undergo surgery when told the survival rate was 95% than when told the mortality rate was 5%.",
+    "category": "Cognitive Biases - Decision Making"
+  },
+  {
+    "word": "BARNUM EFFECT",
+    "meaning": "Believing that vague, general personality descriptions apply specifically and accurately to oneself. Analogy: Reading a generic horoscope in a newspaper and feeling shocked by how perfectly it describes your day.",
+    "example": "The personality test said I value honesty but sometimes feel insecure, which is incredibly accurate!",
+    "category": "Cognitive Biases - Memory & Perception"
+  },
+  {
+    "word": "ENDOWMENT EFFECT",
+    "meaning": "Valuing an object more highly simply because you own it. Analogy: Demanding fifty dollars to sell a mug you bought for five dollars, because now it is 'your' mug.",
+    "example": "I refuse to sell my old car for its market value because it has sentimental worth to me.",
+    "category": "Cognitive Biases - Decision Making"
+  },
+  {
+    "word": "LOSS AVERSION",
+    "meaning": "The tendency to prefer avoiding losses over acquiring equivalent gains. Analogy: Feeling twice as upset about losing a twenty-dollar bill as you feel happy about finding one.",
+    "example": "I would rather keep my money in a zero-interest savings account than invest it, because I cannot bear the thought of losing any of it.",
+    "category": "Cognitive Biases - Decision Making"
+  },
+  {
+    "word": "STATUS QUO BIAS",
+    "meaning": "A preference for the current state of affairs, regarding any change from the baseline as a loss. Analogy: Keeping your old, slow computer operating system because you don't want to spend an hour learning a new layout.",
+    "example": "Even though the new software would save us hours of work, our team prefers to keep using the old spreadsheet system.",
+    "category": "Cognitive Biases - Decision Making"
+  },
+  {
+    "word": "BANDWAGON EFFECT",
+    "meaning": "The tendency to adopt behaviors, styles, or attitudes simply because others are doing so. Analogy: Buying a specific brand of shoes only because you see everyone at school wearing them.",
+    "example": "She decided to support that political candidate only after seeing their high numbers in the latest polls.",
+    "category": "Cognitive Biases - Social & Attribution"
+  },
+  {
+    "word": "BIAS BLIND SPOT",
+    "meaning": "Recognizing the impact of cognitive biases on others' judgments while failing to see the same biases in oneself. Analogy: Pointing out that everyone else is wearing colored glasses while claiming your own glasses are perfectly clear.",
+    "example": "Other voters are easily manipulated by media campaigns, but my political choices are based entirely on objective facts.",
+    "category": "Cognitive Biases - Decision Making"
+  },
+  {
+    "word": "ACTOR-OBSERVER BIAS",
+    "meaning": "The tendency to attribute our own actions to external, situational causes, while attributing others' behavior to internal, personal causes. Analogy: Explaining that you tripped because the rug was uneven, but assuming your friend tripped because they are clumsy.",
+    "example": "I shouted because I was under extreme stress, but he shouted because he has an angry temperament.",
+    "category": "Cognitive Biases - Social & Attribution"
+  },
+  {
+    "word": "CHOICE-SUPPORTIVE BIAS",
+    "meaning": "The tendency to retroactively ascribe positive attributes to an option one has selected, while downplaying the flaws. Analogy: Defending a car you bought despite its constant engine trouble, insisting it was still the best choice.",
+    "example": "After buying the expensive laptop, she constantly praised its keyboard while ignoring its terrible battery life.",
+    "category": "Cognitive Biases - Memory & Perception"
+  },
+  {
+    "word": "CLUSTERING ILLUSION",
+    "meaning": "The tendency to overestimate the significance of small clusters of patterns in random data. Analogy: Seeing a cloud shaped like a teapot and believing it is a sign from the universe.",
+    "example": "I had three dreams about water this week, so there must be a flood coming to our town.",
+    "category": "Cognitive Biases - Memory & Perception"
+  },
+  {
+    "word": "CONGRUENCE BIAS",
+    "meaning": "The tendency to test hypotheses exclusively through direct testing, rather than testing alternative hypotheses or trying to falsify them. Analogy: Trying to prove a box only contains red balls by pulling out three red balls, without ever looking to see if there is a green ball at the bottom.",
+    "example": "The researcher only ran tests designed to prove her drug worked, never attempting to find scenarios where it failed.",
+    "category": "Cognitive Biases - Decision Making"
+  },
+  {
+    "word": "AUTHORITY BIAS",
+    "meaning": "The tendency to attribute greater accuracy to the opinion of an authority figure, regardless of content. Analogy: Saluting and obeying an order from someone just because they are wearing a uniform, even if the order makes no sense.",
+    "example": "We must implement this project exactly as the director suggested, even though our data shows it will fail.",
+    "category": "Cognitive Biases - Social & Attribution"
+  },
+  {
+    "word": "DECLINISM",
+    "meaning": "The predisposition to view the past favorably and the future negatively, believing that society is in inevitable decline. Analogy: An elderly person complaining that young people have no manners and the world is going to ruin, forgetting that every generation has said this for thousands of years.",
+    "example": "In the old days, everyone worked hard and cared for each other; today, society has completely collapsed morally.",
+    "category": "Cognitive Biases - Memory & Perception"
+  },
+  {
+    "word": "SYSTEM JUSTIFICATION BIAS",
+    "meaning": "The tendency to defend and bolster the status quo, seeing existing social, economic, and political arrangements as fair and necessary. Analogy: A tenant defending high rent prices because 'that's just how the housing market is supposed to work.'",
+    "example": "The current tax system might have some flaws, but changing it would create instability, so we should keep it exactly as it is.",
+    "category": "Cognitive Biases - Social & Attribution"
+  },
+  {
+    "word": "EMPATHY GAP",
+    "meaning": "The inability to appreciate how much your decision-making is influenced by your current emotional or physical state, or to understand others' visceral states. Analogy: Shopping for groceries while full and assuming you will never want to eat snacks again.",
+    "example": "Now that he is calm, he cannot understand why he became so angry during the argument yesterday.",
+    "category": "Cognitive Biases - Memory & Perception"
+  },
+  {
+    "word": "FALSE CONSENSUS EFFECT",
+    "meaning": "Overestimating the degree to which other people share your beliefs, values, and habits. Analogy: Believing that because you love spicy food, the majority of people must also prefer spicy food.",
+    "example": "Since everyone I know opposes the new policy, it is obvious that the entire city hates it.",
+    "category": "Cognitive Biases - Social & Attribution"
+  },
+  {
+    "word": "FOCUSING EFFECT",
+    "meaning": "Placing too much importance on one single aspect of an event or choice, causing inaccurate predictions of utility. Analogy: Believing moving to California will make you perfectly happy because of the sunny weather, ignoring traffic, taxes, and cost of living.",
+    "example": "If I buy this larger house, my family will be completely happy, regardless of the longer commute to work.",
+    "category": "Cognitive Biases - Decision Making"
+  },
+  {
+    "word": "GOOGLE EFFECT",
+    "meaning": "The tendency to forget information that can be easily found online using search engines. Analogy: Forgetting your best friend's phone number because it is saved in your contacts list.",
+    "example": "I no longer remember historical dates because I know I can look them up on my phone in five seconds.",
+    "category": "Cognitive Biases - Memory & Perception"
+  },
+  {
+    "word": "HOSTILE MEDIA EFFECT",
+    "meaning": "The tendency for individuals with strong biases on an issue to perceive neutral media coverage as biased against their side. Analogy: Two opposing sports teams both claiming the referee was cheating in favor of the other side.",
+    "example": "The news report on the election was completely biased against my favorite candidate, while supporters of the rival candidate complained about the exact same report.",
+    "category": "Cognitive Biases - Social & Attribution"
+  },
+  {
+    "word": "ILLUSION OF CONTROL",
+    "meaning": "Overestimating your ability to control or influence external, random events. Analogy: Rolling dice harder when you want a high number and softer when you want a low number.",
+    "example": "I always wear my team's jersey on game day to ensure they win the championship.",
+    "category": "Cognitive Biases - Decision Making"
+  },
+  {
+    "word": "ILLUSION OF TRANSPARENCY",
+    "meaning": "Overestimating how easily others can read your internal mental and emotional states. Analogy: Giving a presentation and assuming the audience can hear your racing heartbeat and see your extreme nervousness, when you appear perfectly calm.",
+    "example": "I was sure everyone in the meeting could tell how angry I was, but no one noticed anything unusual.",
+    "category": "Cognitive Biases - Social & Attribution"
+  },
+  {
+    "word": "INFORMATION BIAS",
+    "meaning": "The tendency to seek information even when it cannot affect action or decision-making. Analogy: Reading ten more guidebooks about a city after you have already booked a non-refundable hotel and flight.",
+    "example": "Let's gather more data on customer behavior before we launch the product, even though we have to launch it tomorrow regardless of the results.",
+    "category": "Cognitive Biases - Decision Making"
+  },
+  {
+    "word": "JUST-WORLD HYPOTHESIS",
+    "meaning": "Believing that the world is inherently fair and that people get what they deserve (good things happen to good people, bad things to bad people). Analogy: Assuming a victim of a natural disaster must have done something bad to anger the universe.",
+    "example": "He lost his job, so he must have been lazy or incompetent, rather than the victim of an economic downturn.",
+    "category": "Cognitive Biases - Social & Attribution"
+  },
+  {
+    "word": "LESS-IS-BETTER EFFECT",
+    "meaning": "A preference for the smaller or lesser of two options when evaluated separately, but not when evaluated together. Analogy: Preferring an overfilled small cup of ice cream to an underfilled large cup that actually contains more ice cream.",
+    "example": "Customers rated the 7-ounce cup filled to the brim as more generous than the 8-ounce cup that was only three-quarters full.",
+    "category": "Cognitive Biases - Decision Making"
+  },
+  {
+    "word": "MERE EXPOSURE EFFECT",
+    "meaning": "Developing a preference for things merely because they are familiar. Analogy: Disliking a new song at first, but loving it after hearing it played on the radio ten times.",
+    "example": "I chose the brand of laundry detergent I grew up seeing in commercials, even though the store brand is cheaper and identical.",
+    "category": "Cognitive Biases - Decision Making"
+  },
+  {
+    "word": "MISINFORMATION EFFECT",
+    "meaning": "The phenomenon where a person's recall of episodic memories becomes less accurate because of post-event information. Analogy: Watching a video of a car crash, being asked how fast the cars were going when they 'smashed' into each other, and later remembering broken glass that wasn't actually there.",
+    "example": "After talking to other witnesses who mentioned a red car, the witness mistakenly recalled seeing a red car at the crime scene.",
+    "category": "Cognitive Biases - Memory & Perception"
+  },
+  {
+    "word": "NAIVE REALISM",
+    "meaning": "The belief that we see reality objectively and without bias, while those who disagree with us are uninformed, irrational, or biased. Analogy: Assuming your political opinions are pure logic, while anyone who votes differently has been brainwashed.",
+    "example": "My views on the tax system are based on common sense, so anyone who disagrees must be corrupt or foolish.",
+    "category": "Cognitive Biases - Social & Attribution"
+  },
+  {
+    "word": "NEGATIVITY BIAS",
+    "meaning": "The tendency to register and dwell on negative stimuli more than positive stimuli. Analogy: Receiving ten compliments and one criticism, and spending the entire evening worrying about the criticism.",
+    "example": "Despite all the positive reviews of the restaurant, I couldn't stop thinking about the one bad review I read.",
+    "category": "Cognitive Biases - Memory & Perception"
+  },
+  {
+    "word": "OPTIMISM BIAS",
+    "meaning": "Believing that you are less likely to experience negative events (such as illness or accidents) than others. Analogy: Driving without a seatbelt because you believe other people get into accidents, but you are a safe driver.",
+    "example": "I don't need to save money for emergencies because I am sure my business will always be successful.",
+    "category": "Cognitive Biases - Decision Making"
+  },
+  {
+    "word": "PESSIMISM BIAS",
+    "meaning": "The tendency to overestimate the likelihood of negative outcomes, especially when making decisions. Analogy: Refusing to go outside on a cloudy day because you are convinced you will be struck by lightning.",
+    "example": "There is no point in applying for that job because they will definitely reject my application.",
+    "category": "Cognitive Biases - Decision Making"
+  },
+  {
+    "word": "PEAK-END RULE",
+    "meaning": "Evaluating an experience based on how it felt at its peak (highest intensity) and its end, rather than the average of the entire experience. Analogy: Rating a two-week vacation as terrible because you lost your luggage on the flight home, despite having a wonderful time for thirteen days.",
+    "example": "The painful dental procedure was rated as less unpleasant because the dentist ended with a few minutes of painless checkups.",
+    "category": "Cognitive Biases - Memory & Perception"
+  },
+  {
+    "word": "PLANNING FALLACY",
+    "meaning": "Underestimating the time, budget, and effort required to complete a future task. Analogy: Planning to paint your entire house in one weekend, only to finish one room before running out of paint.",
+    "example": "We scheduled the software development to take two weeks, but it ended up taking three months to resolve all the bugs.",
+    "category": "Cognitive Biases - Decision Making"
+  },
+  {
+    "word": "REACTANCE",
+    "meaning": "The urge to do the opposite of what someone wants you to do to protect your sense of personal freedom. Analogy: Refusing to clean your room simply because your parent ordered you to do it, even though you were just about to clean it.",
+    "example": "Once the sign was posted forbidding swimming in the lake, several teenagers jumped in just to prove they could.",
+    "category": "Cognitive Biases - Decision Making"
+  },
+  {
+    "word": "OVERCONFIDENCE EFFECT",
+    "meaning": "Excessive confidence in your own answers, judgments, or abilities compared to their objective accuracy. Analogy: Being 100% sure you know the capital of Brazil is Rio de Janeiro, when it is actually Brasilia.",
+    "example": "He was absolutely certain he had solved the physics equation correctly, but he had made a basic arithmetic error on the first line.",
+    "category": "Cognitive Biases - Decision Making"
+  },
+  {
+    "word": "SOCIAL DESIRABILITY BIAS",
+    "meaning": "The tendency of survey respondents to answer questions in a manner that will be viewed favorably by others. Analogy: Telling a pollster you exercise five times a week and eat healthy meals when you actually eat fast food on the couch.",
+    "example": "Most survey participants reported that they recycle regularly, but the garbage analysis showed very little recycling actually occurred.",
+    "category": "Cognitive Biases - Social & Attribution"
+  },
+  {
+    "word": "SURVIVORSHIP BIAS",
+    "meaning": "Focusing on the people or things that succeeded (survived) while ignoring those that failed, leading to false conclusions. Analogy: Studying the habits of five successful college dropouts who became billionaires, while ignoring the millions of dropouts who ended up unemployed.",
+    "example": "To see how to make a business succeed, we should only interview companies that have been in business for over fifty years.",
+    "category": "Cognitive Biases - Decision Making"
+  },
+  {
+    "word": "PARKINSON'S LAW OF TRIVIALITY",
+    "meaning": "The tendency of organizations to give disproportionate weight to trivial details of a project while ignoring complex issues. Analogy: Spending three hours debating what color to paint the bicycle shed for a nuclear power plant, while spending ten minutes approving the design of the nuclear reactor.",
+    "example": "The board spent the entire meeting discussing the font style for the annual report, leaving no time to discuss the million-dollar budget deficit.",
+    "category": "Cognitive Biases - Decision Making"
+  },
+  {
+    "word": "ZEIGARNIK EFFECT",
+    "meaning": "The tendency to remember interrupted or uncompleted tasks better than completed ones. Analogy: Remembering the questions you got wrong or didn't finish on an exam much more clearly than the ones you answered correctly.",
+    "example": "I cannot sleep because I keep thinking about the half-finished report sitting on my office desk.",
+    "category": "Cognitive Biases - Memory & Perception"
+  },
+  {
+    "word": "AFFECT HEURISTIC",
+    "meaning": "Making decisions based on immediate emotional reactions (gut feelings) rather than objective data. Analogy: Refusing to buy shares in an electric car company because the cars look ugly to you, ignoring their massive profits.",
+    "example": "She rejected the insurance policy because the agent's voice sounded irritating, not because the coverage was bad.",
+    "category": "Cognitive Biases - Decision Making"
+  },
+  {
+    "word": "SPOTLIGHT EFFECT",
+    "meaning": "Overestimating the extent to which other people notice and observe your appearance, behavior, and mistakes. Analogy: Walking into a room with a tiny mustard stain on your shirt and believing everyone is staring at you in disgust.",
+    "example": "I was mortified when I tripped slightly on the stairs, thinking the whole cafeteria was laughing at me, but no one had even looked up.",
+    "category": "Cognitive Biases - Social & Attribution"
+  },
+  {
+    "word": "THIRD-PERSON EFFECT",
+    "meaning": "Believing that mass media messages have a greater effect on others than on oneself. Analogy: Thinking that advertising campaigns manipulate everyone else, while believing you only buy things out of pure necessity.",
+    "example": "Violent video games make other teenagers aggressive, but they have absolutely no effect on my own behavior.",
+    "category": "Cognitive Biases - Social & Attribution"
+  },
+  {
+    "word": "HYPERBOLIC DISCOUNTING",
+    "meaning": "Preferring immediate rewards over delayed rewards, even when the delayed rewards are significantly larger. Analogy: Choosing to eat a chocolate bar right now rather than wait a week for a full box of chocolates.",
+    "example": "Many people choose to spend their paycheck on luxury items today rather than save it for a comfortable retirement.",
+    "category": "Cognitive Biases - Decision Making"
+  },
+  {
+    "word": "CURSE OF KNOWLEDGE",
+    "meaning": "Difficulty in imagining what it is like for someone else not to know something that you already know. Analogy: A software engineer explaining how to use a computer to a grandmother using complex coding jargon, forgetting she doesn't know what a 'compiler' is.",
+    "example": "The professor explained the math concept so quickly that the beginners were completely lost; he had forgotten how difficult it was to learn it for the first time.",
+    "category": "Cognitive Biases - Memory & Perception"
+  },
+  {
+    "word": "OUT-GROUP NEGATIVITY",
+    "meaning": "The tendency to evaluate out-group members more negatively and attribute bad motives to their actions. Analogy: Assuming a rival school's students are rude and dishonest, while believing your own school's students are friendly and honorable.",
+    "example": "The opposing political party only proposed that bill to destroy our economy, not because they want to help the country.",
+    "category": "Cognitive Biases - Social & Attribution"
+  },
+  {
+    "word": "ESCALATION OF COMMITMENT",
+    "meaning": "Increasing investment in a decision or project despite clear evidence that it is failing, simply to justify the past investment. Analogy: Pouring more money into repairing a broken-down car that is beyond repair, because you already spent two thousand dollars on it.",
+    "example": "The government continued to fund the failing construction project to avoid admitting that the original investment was a waste.",
+    "category": "Cognitive Biases - Decision Making"
+  },
+  {
+    "word": "SOCIAL LOAFING",
+    "meaning": "The tendency for individuals to put forth less effort when working collectively in a group than when working individually. Analogy: Walking in a tug-of-war game and pulling less hard on the rope because there are ten other people pulling with you.",
+    "example": "In the group science project, two members did almost all the work while the other three did nothing, knowing they would still get the same grade.",
+    "category": "Cognitive Biases - Social & Attribution"
+  },
+  {
+    "word": "BYSTANDER EFFECT",
+    "meaning": "The phenomenon where individuals are less likely to offer help to a victim when other people are present. Analogy: Seeing someone drop their papers in a crowded hallway and walking past because you assume one of the other fifty people will help them.",
+    "example": "When the car broke down in the middle of a busy highway, dozens of drivers passed by without calling for help, assuming someone else had already done so.",
+    "category": "Cognitive Biases - Social & Attribution"
+  },
+  {
+    "word": "GROUPTHINK",
+    "meaning": "The practice of thinking or making decisions as a group in a way that discourages creativity or individual responsibility to avoid conflict. Analogy: A committee agreeing to launch a faulty rocket because no one wants to speak up and ruin the positive mood of the meeting.",
+    "example": "The marketing team rushed to launch the campaign because no one wanted to disagree with the popular manager's idea.",
+    "category": "Cognitive Biases - Social & Attribution"
+  },
+  {
+    "word": "IKEA EFFECT",
+    "meaning": "Placing a disproportionately high value on products that you have partially created or assembled yourself. Analogy: Thinking a slightly crooked wooden table you built is a masterpiece, while valuing a perfect store-bought table much less.",
+    "example": "He refused to throw away the poorly constructed birdhouse because he had spent three hours assembling it himself.",
+    "category": "Cognitive Biases - Decision Making"
+  },
+  {
+    "word": "CHEERLEADER EFFECT",
+    "meaning": "Perceiving individuals as more attractive or appealing when they are in a group than when they are seen individually. Analogy: Looking at a group of flowers and thinking they look stunning, but realizing each individual flower is wilted and ordinary when examined closely.",
+    "example": "In the band photograph, everyone looked incredibly cool, but when I met the bass player alone, he seemed completely ordinary.",
+    "category": "Cognitive Biases - Social & Attribution"
+  },
+  {
+    "word": "BEN FRANKLIN EFFECT",
+    "meaning": "A cognitive bias where a person who has performed a favor for someone is more likely to do another favor for them or like them more. Analogy: Liking a classmate more after lending them a pencil, because your brain convinces itself: 'I wouldn't lend them a pencil unless I liked them.'",
+    "example": "I asked my rival to borrow a book, and after he lent it to me, he became much friendlier and cooperative.",
+    "category": "Cognitive Biases - Social & Attribution"
+  },
+  {
+    "word": "PARADOX OF CHOICE",
+    "meaning": "The observation that having too many options leads to anxiety, decision paralysis, and lower satisfaction with the final choice. Analogy: Walking into a supermarket with a hundred brands of jam and leaving without buying any because you couldn't decide which was best.",
+    "example": "He spent two hours scrolling through hundreds of movies on the streaming platform, eventually falling asleep without watching anything.",
+    "category": "Cognitive Biases - Decision Making"
+  },
+  {
+    "word": "CONTRAST EFFECT",
+    "meaning": "The enhancement or diminishment of perception as a result of exposure to a recently observed stimulus of lesser or greater value. Analogy: Placing one hand in hot water and one in cold water, then placing both in lukewarm water; the hand from the cold water feels hot, while the other feels cold.",
+    "example": "The average-looking house looked like a luxury mansion because the real estate agent showed us three run-down houses right before it.",
+    "category": "Cognitive Biases - Memory & Perception"
+  },
+  {
+    "word": "FREQUENCY ILLUSION",
+    "meaning": "A cognitive bias where something you recently noticed or learned seems to appear everywhere with improbable frequency. Analogy: Learning the word 'ubiquitous' and suddenly seeing it in three different books and two articles in the same week.",
+    "example": "Right after I bought a blue car, I started seeing blue cars on every street corner, believing everyone was buying them.",
+    "category": "Cognitive Biases - Memory & Perception"
+  },
+  {
+    "word": "COMPASSION FADE",
+    "meaning": "The tendency to experience a decrease in empathy and willingness to help as the number of victims increases. Analogy: Feeling deeply moved by the story of one starving child, but feeling numb and disconnected when reading a report about a million people suffering from famine.",
+    "example": "Donors contributed thousands of dollars to save a single stranded puppy, but ignored a charity appeal to save thousands of endangered birds.",
+    "category": "Cognitive Biases - Social & Attribution"
+  },
+  {
+    "word": "OMISSION BIAS",
+    "meaning": "The tendency to judge harmful actions as worse or less moral than equally harmful omissions (inactions). Analogy: Viewing throwing a stone at someone as worse than seeing someone about to trip over a stone and choosing not to warn them.",
+    "example": "A doctor who actively administers a drug with fatal side effects is judged much more harshly than a doctor who fails to prescribe a life-saving drug.",
+    "category": "Cognitive Biases - Decision Making"
+  },
+  {
+    "word": "AFFIRMING THE CONSEQUENT",
+    "meaning": "A formal fallacy of taking a true conditional statement and invalidly concluding its converse. Analogy: Knowing that if it rains, the grass gets wet, and concluding that because the grass is wet, it must have rained, ignoring the garden sprinkler.",
+    "example": "If you are a doctor, you must have a university degree; since he has a university degree, he must be a doctor.",
+    "category": "Formal Fallacies"
+  },
+  {
+    "word": "DENYING THE ANTECEDENT",
+    "meaning": "A formal fallacy of taking a true conditional statement and invalidly concluding the inverse. Analogy: Knowing that if you are a pilot, you fly planes, and concluding that because you are not a pilot, you cannot fly a plane.",
+    "example": "If you live in London, you live in England; since you do not live in London, you do not live in England.",
+    "category": "Formal Fallacies"
+  },
+  {
+    "word": "UNDISTRIBUTED MIDDLE",
+    "meaning": "A formal fallacy in a categorical syllogism where the middle term is not distributed in either the major or minor premise. Analogy: Knowing all dogs have four legs, and all cats have four legs, and concluding that all dogs are cats.",
+    "example": "All geniuses drink coffee, and my neighbor drinks coffee; therefore, my neighbor is a genius.",
+    "category": "Formal Fallacies"
+  }
+]

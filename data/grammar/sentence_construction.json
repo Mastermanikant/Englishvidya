@@ -1,0 +1,63 @@
+{
+    "topic": "Sentence Construction & Agreement",
+    "topic_hi": "वाक्य निर्माण और सहमति",
+    "introduction": {
+        "text": "Understanding how the Subject, Verb, and Object work together is the foundation of sentence construction. Number and Person dictate the form of the verb.",
+        "text_hi": "Subject, Verb और Object एक साथ कैसे काम करते हैं, यह समझना sentence construction का आधार है। Number और Person verb के रूप को तय करते हैं।",
+        "important": "Subject-Verb Agreement is the most critical rule in English grammar. Singular subjects take singular verbs, and plural subjects take plural verbs."
+    },
+    "teacher_note": "बच्चों, grammar में words को सही order में रखना सबसे ज़रूरी है। अगर order गलत हुआ, तो sentence का अर्थ बदल जाएगा।",
+    "rules": [
+        {
+            "name": "Subject-Verb Agreement",
+            "name_hi": "कर्ता-क्रिया सहमति",
+            "concept": "The verb must agree with its subject in number (singular/plural) and person (1st, 2nd, 3rd).",
+            "concept_hi": "Verb को हमेशा subject के number और person के अनुसार होना चाहिए।",
+            "examples": [
+                { "english": "He plays cricket.", "hindi": "He (Singular) -> plays (Singular)" },
+                { "english": "They play cricket.", "hindi": "They (Plural) -> play (Plural)" },
+                { "english": "I am reading.", "hindi": "I (1st Person) -> am" }
+            ]
+        },
+        {
+            "name": "Basic Sentence Structure (SVO)",
+            "name_hi": "मूल वाक्य संरचना",
+            "concept": "Subject + Verb + Object is the standard word order in English.",
+            "concept_hi": "English में सामान्यतः वाक्य Subject + Verb + Object के क्रम में होते हैं।",
+            "examples": [
+                { "english": "Ram eats an apple.", "hindi": "Ram (Subject) + eats (Verb) + an apple (Object)" },
+                { "english": "She drives a car.", "hindi": "She (S) + drives (V) + a car (O)" }
+            ]
+        },
+        {
+            "name": "Negative Sentence Structure",
+            "name_hi": "नकारात्मक वाक्य संरचना",
+            "concept": "Subject + Helping Verb + NOT + Main Verb + Object",
+            "concept_hi": "Negative वाक्य बनाने के लिए Helping verb के बाद NOT लगाते हैं।",
+            "examples": [
+                { "english": "He does not play.", "hindi": "He (S) + does (HV) + not + play (MV)" },
+                { "english": "I am not sleeping.", "hindi": "I (S) + am (HV) + not + sleeping (MV)" }
+            ]
+        },
+        {
+            "name": "Interrogative Sentence Structure",
+            "name_hi": "प्रश्नवाचक वाक्य संरचना",
+            "concept": "Helping Verb + Subject + Main Verb + Object ?",
+            "concept_hi": "प्रश्न बनाने के लिए Helping Verb को Subject से पहले रखा जाता है।",
+            "examples": [
+                { "english": "Does he play?", "hindi": "Does (HV) + he (S) + play (MV)?" },
+                { "english": "Are you going?", "hindi": "Are (HV) + you (S) + going (MV)?" }
+            ]
+        }
+    ],
+    "drills": [
+        {
+            "drill_type": "Agreement Practice",
+            "questions": [
+                { "sentence": "She ___ (go/goes) to the market.", "answer": "goes" },
+                { "sentence": "They ___ (is/are) happy.", "answer": "are" },
+                { "sentence": "I ___ (has/have) a pen.", "answer": "have" }
+            ]
+        }
+    ]
+}

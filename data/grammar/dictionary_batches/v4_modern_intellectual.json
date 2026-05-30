@@ -1,0 +1,878 @@
+[
+  {
+    "word": "paradigm",
+    "meaning": "A typical example, model, or pattern; a framework of assumptions, concepts, and values that constitutes a way of viewing reality",
+    "example": "The discovery of quantum mechanics represented a paradigm shift in how physicists understood the nature of matter.",
+    "category": "Philosophy & Science"
+  },
+  {
+    "word": "zeitgeist",
+    "meaning": "The defining spirit or mood of a particular period of history as shown by the ideas and beliefs of the time",
+    "example": "Social media's obsession with personal branding perfectly captures the zeitgeist of our narcissistic age.",
+    "category": "Culture & Society"
+  },
+  {
+    "word": "dialectic",
+    "meaning": "A method of reasoning and arriving at truth through logical discussion, often involving opposing viewpoints",
+    "example": "The Hegelian dialectic posits that ideas evolve through the tension between a thesis and its antithesis.",
+    "category": "Philosophy & Logic"
+  },
+  {
+    "word": "nuanced",
+    "meaning": "Characterized by subtle distinctions or shades of meaning; not black-and-white",
+    "example": "A nuanced analysis of the policy revealed both its intended benefits and its unintended consequences.",
+    "category": "Critical Thinking"
+  },
+  {
+    "word": "empirical",
+    "meaning": "Based on, concerned with, or verifiable by observation or experience rather than theory or pure logic",
+    "example": "The researchers demanded empirical evidence before accepting the new treatment's claimed efficacy.",
+    "category": "Philosophy & Science"
+  },
+  {
+    "word": "epistemology",
+    "meaning": "The branch of philosophy concerned with the theory of knowledge — its nature, scope, and limits",
+    "example": "Epistemology asks fundamental questions like: How do we know what we know, and can we trust our senses?",
+    "category": "Philosophy & Logic"
+  },
+  {
+    "word": "ontology",
+    "meaning": "The branch of metaphysics dealing with the nature of being, existence, and reality",
+    "example": "Philosophers debate the ontology of abstract objects — do numbers truly exist, or are they mental constructs?",
+    "category": "Philosophy & Logic"
+  },
+  {
+    "word": "hegemony",
+    "meaning": "Leadership or dominance, especially of one country or social group over others; cultural and ideological dominance",
+    "example": "Gramsci argued that ruling classes maintain hegemony not just through force but through cultural consent.",
+    "category": "Politics & Society"
+  },
+  {
+    "word": "praxis",
+    "meaning": "The process by which a theory, lesson, or skill is enacted, embodied, or realized; practical application",
+    "example": "The activist insisted that genuine social change requires the praxis of living one's political beliefs daily.",
+    "category": "Philosophy & Practice"
+  },
+  {
+    "word": "axiom",
+    "meaning": "A statement or proposition regarded as self-evidently true and accepted as a foundation for further reasoning",
+    "example": "In Euclidean geometry, the axiom that a straight line can be drawn between any two points is taken as given.",
+    "category": "Philosophy & Logic"
+  },
+  {
+    "word": "heuristic",
+    "meaning": "A practical problem-solving approach that is not guaranteed to be optimal but is sufficient for reaching an immediate goal",
+    "example": "The doctor used a heuristic — 'if it looks like a duck' — to make a rapid diagnosis during the emergency.",
+    "category": "Critical Thinking"
+  },
+  {
+    "word": "cognitive dissonance",
+    "meaning": "The mental discomfort experienced when holding two or more contradictory beliefs, values, or behaviors simultaneously",
+    "example": "Many smokers experience cognitive dissonance: they know smoking is harmful yet continue the habit.",
+    "category": "Psychology"
+  },
+  {
+    "word": "semiotics",
+    "meaning": "The study of signs and symbols and their use or interpretation in language and communication",
+    "example": "Semiotics helps us understand how a red traffic light 'means' stop through cultural agreement, not nature.",
+    "category": "Linguistics & Communication"
+  },
+  {
+    "word": "discourse",
+    "meaning": "Written or spoken communication or debate; a mode of representing knowledge within a social and historical context",
+    "example": "Foucault argued that medical discourse shapes how society defines the boundaries of sanity and illness.",
+    "category": "Linguistics & Society"
+  },
+  {
+    "word": "reductionism",
+    "meaning": "The practice of analyzing complex phenomena by reducing them to their simplest possible components",
+    "example": "Critics accused the neuroscientist of reductionism for claiming that love is merely a cocktail of brain chemicals.",
+    "category": "Philosophy & Science"
+  },
+  {
+    "word": "hermeneutics",
+    "meaning": "The theory and methodology of interpretation, especially of texts, language, and symbolic expression",
+    "example": "Biblical hermeneutics examines how historical context shapes the meaning of sacred scripture.",
+    "category": "Philosophy & Interpretation"
+  },
+  {
+    "word": "phenomenology",
+    "meaning": "The philosophical study of the structure of experience and consciousness as perceived from the first-person point of view",
+    "example": "Husserl's phenomenology sought to describe pure conscious experience without presupposing an external world.",
+    "category": "Philosophy & Logic"
+  },
+  {
+    "word": "solipsism",
+    "meaning": "The philosophical idea that only one's own mind is sure to exist; an extreme form of skepticism",
+    "example": "His refusal to accept any external reality led his colleagues to accuse him of philosophical solipsism.",
+    "category": "Philosophy & Logic"
+  },
+  {
+    "word": "positivism",
+    "meaning": "The philosophical theory that all genuine knowledge is based on sense experience and can be verified by scientific methods",
+    "example": "Logical positivism held that any statement which cannot be empirically verified is meaningless.",
+    "category": "Philosophy & Science"
+  },
+  {
+    "word": "pragmatism",
+    "meaning": "A philosophical tradition holding that ideas are meaningful only in terms of their practical consequences",
+    "example": "Adopting pragmatism, the politician abandoned ideological purity in favor of policies that actually worked.",
+    "category": "Philosophy & Practice"
+  },
+  {
+    "word": "relativism",
+    "meaning": "The doctrine that knowledge, truth, and morality exist in relation to cultural or individual circumstances, not absolutely",
+    "example": "Moral relativism suggests that what is considered wrong in one society may be acceptable in another.",
+    "category": "Philosophy & Ethics"
+  },
+  {
+    "word": "nihilism",
+    "meaning": "The rejection of all religious and moral principles, in the belief that life is meaningless",
+    "example": "After the war's devastation, a generation of artists embraced nihilism and expressed it through absurdist art.",
+    "category": "Philosophy & Ethics"
+  },
+  {
+    "word": "existentialism",
+    "meaning": "A philosophical theory emphasizing individual existence, freedom, and choice over predetermined essence or nature",
+    "example": "Sartre's existentialism famously declares that 'existence precedes essence,' meaning we define ourselves through actions.",
+    "category": "Philosophy & Logic"
+  },
+  {
+    "word": "determinism",
+    "meaning": "The philosophical doctrine that all events are completely determined by previously existing causes, leaving no room for free will",
+    "example": "Hard determinism implies that criminals cannot be morally responsible since their actions were causally inevitable.",
+    "category": "Philosophy & Logic"
+  },
+  {
+    "word": "reification",
+    "meaning": "The treatment of an abstraction or idea as if it were a concrete, real thing",
+    "example": "Sociologists warn against the reification of 'the market' as if it were a natural entity independent of human decisions.",
+    "category": "Philosophy & Society"
+  },
+  {
+    "word": "ideology",
+    "meaning": "A system of ideas and ideals, especially one that forms the basis of economic or political theory and policy",
+    "example": "The ideology of meritocracy holds that success is earned purely through talent and effort, ignoring structural inequalities.",
+    "category": "Politics & Society"
+  },
+  {
+    "word": "dialectical materialism",
+    "meaning": "The Marxist theory combining dialectic with materialism, viewing history as driven by material conditions and class conflict",
+    "example": "Dialectical materialism provided the philosophical framework for Marx's analysis of capitalist economic structures.",
+    "category": "Philosophy & Politics"
+  },
+  {
+    "word": "deconstruction",
+    "meaning": "A critical method that questions fixed meanings in texts by revealing inherent contradictions and assumptions",
+    "example": "Derrida's deconstruction exposed how philosophical texts privilege certain concepts over their marginalized opposites.",
+    "category": "Literary Theory"
+  },
+  {
+    "word": "postmodernism",
+    "meaning": "A late-20th-century movement characterized by skepticism toward grand narratives, objective truth, and universal values",
+    "example": "Postmodernism challenged the Enlightenment belief that reason alone could lead humanity to universal progress.",
+    "category": "Culture & Philosophy"
+  },
+  {
+    "word": "meta-narrative",
+    "meaning": "An overarching story or framework that provides comprehensive explanations of historical experience or knowledge",
+    "example": "Lyotard declared that postmodernism signals an 'incredulity toward meta-narratives' like progress and liberation.",
+    "category": "Philosophy & Culture"
+  },
+  {
+    "word": "interdisciplinary",
+    "meaning": "Relating to more than one branch of knowledge; integrating insights and methods from multiple academic fields",
+    "example": "The study of climate change demands an interdisciplinary approach combining climatology, economics, and political science.",
+    "category": "Academic & Scholarship"
+  },
+  {
+    "word": "synthesis",
+    "meaning": "The combination of different ideas, influences, or objects into a new whole; in Hegelian dialectic, the resolution of thesis and antithesis",
+    "example": "The composer's work was a brilliant synthesis of Western classical tradition and West African rhythmic structures.",
+    "category": "Critical Thinking"
+  },
+  {
+    "word": "taxonomy",
+    "meaning": "A scheme of classification, especially an ordered system for categorizing plants, animals, or abstract concepts",
+    "example": "Bloom's taxonomy provides a hierarchical framework for classifying educational objectives from recall to creation.",
+    "category": "Academic & Scholarship"
+  },
+  {
+    "word": "sophistry",
+    "meaning": "The use of clever but fallacious arguments intended to deceive; specious but misleading reasoning",
+    "example": "The senator's rebuttal was dismissed by critics as sophistry designed to distract from the real issue.",
+    "category": "Rhetoric & Logic"
+  },
+  {
+    "word": "syllogism",
+    "meaning": "A form of deductive reasoning with two premises and a conclusion; a logical argument structure",
+    "example": "The classic syllogism — 'All men are mortal; Socrates is a man; therefore Socrates is mortal' — illustrates deductive logic.",
+    "category": "Philosophy & Logic"
+  },
+  {
+    "word": "tautology",
+    "meaning": "A statement that is true by necessity or by virtue of its logical form; an unnecessary repetition of the same meaning",
+    "example": "Saying 'it's either raining or it's not raining' is a tautology — it cannot possibly be false.",
+    "category": "Philosophy & Logic"
+  },
+  {
+    "word": "aphorism",
+    "meaning": "A pithy observation that contains a general truth; a short, clever, and memorable statement",
+    "example": "Nietzsche's aphorism 'What does not kill me makes me stronger' encapsulates an entire philosophy of resilience.",
+    "category": "Rhetoric & Language"
+  },
+  {
+    "word": "polemic",
+    "meaning": "A strong verbal or written attack on someone or something; contentious argument or controversy",
+    "example": "Her book was a blistering polemic against the pharmaceutical industry's pricing practices.",
+    "category": "Rhetoric & Debate"
+  },
+  {
+    "word": "pedagogy",
+    "meaning": "The method and practice of teaching, especially as an academic subject or theoretical concept",
+    "example": "Critical pedagogy, pioneered by Freire, treats education as a tool for social liberation rather than mere information transfer.",
+    "category": "Education"
+  },
+  {
+    "word": "epistemological",
+    "meaning": "Relating to epistemology; concerned with theories of knowledge, its validity, scope, and distinguishing justified belief from opinion",
+    "example": "The study raised an epistemological question: can introspective reports ever be reliable data about mental states?",
+    "category": "Philosophy & Science"
+  },
+  {
+    "word": "intersectionality",
+    "meaning": "The interconnected nature of social categorizations — race, class, gender — that create overlapping systems of discrimination",
+    "example": "Intersectionality reveals that a Black woman's experience of oppression cannot be understood through race or gender alone.",
+    "category": "Sociology & Politics"
+  },
+  {
+    "word": "hegemonic",
+    "meaning": "Relating to or characterized by the dominance of one group, culture, or ideology over others",
+    "example": "Scholars critique hegemonic masculinity as a cultural standard that marginalizes alternative expressions of manhood.",
+    "category": "Politics & Society"
+  },
+  {
+    "word": "normative",
+    "meaning": "Relating to an evaluative standard or norm; establishing or prescribing what should be the case",
+    "example": "The report's normative framework assumed that economic growth is always a desirable policy goal.",
+    "category": "Philosophy & Ethics"
+  },
+  {
+    "word": "subjectivity",
+    "meaning": "The quality of being based on or influenced by personal feelings, tastes, or opinions; individual perspective",
+    "example": "The judge's subjectivity in interpreting 'community standards' made the ruling difficult to predict.",
+    "category": "Philosophy & Psychology"
+  },
+  {
+    "word": "objectivity",
+    "meaning": "The quality of being based on facts and not influenced by personal feelings or opinions; impartiality",
+    "example": "Journalists strive for objectivity, though critics argue complete neutrality is an unachievable ideal.",
+    "category": "Philosophy & Journalism"
+  },
+  {
+    "word": "abstraction",
+    "meaning": "The process of considering ideas or qualities apart from specific instances; a theoretical concept removed from reality",
+    "example": "Freedom is a powerful political abstraction that different factions define according to their own values.",
+    "category": "Philosophy & Critical Thinking"
+  },
+  {
+    "word": "empiricism",
+    "meaning": "The philosophical theory that all knowledge is derived from sense-experience; the scientific method of basing conclusions on evidence",
+    "example": "British empiricists like Locke and Hume argued that the mind begins as a blank slate shaped by experience.",
+    "category": "Philosophy & Science"
+  },
+  {
+    "word": "rationalism",
+    "meaning": "The philosophical view that reason, rather than experience, is the primary source of knowledge and justification",
+    "example": "Descartes' rationalism led him to doubt everything except the certainty of his own thinking mind.",
+    "category": "Philosophy & Logic"
+  },
+  {
+    "word": "categorical imperative",
+    "meaning": "Kant's supreme principle of morality: act only according to a maxim you could will to become a universal law",
+    "example": "The categorical imperative demands that we ask: 'What if everyone behaved this way?' before acting.",
+    "category": "Philosophy & Ethics"
+  },
+  {
+    "word": "utilitarianism",
+    "meaning": "The ethical doctrine that the morally right action is the one that produces the greatest good for the greatest number",
+    "example": "A utilitarian calculation might justify sacrificing one person to save five, regardless of other moral concerns.",
+    "category": "Philosophy & Ethics"
+  },
+  {
+    "word": "deontology",
+    "meaning": "The ethical study of duties and rules; the view that morality is based on following rules regardless of consequences",
+    "example": "From a deontological standpoint, lying is always wrong, even if a lie would save lives.",
+    "category": "Philosophy & Ethics"
+  },
+  {
+    "word": "virtue ethics",
+    "meaning": "An approach to ethics that emphasizes the character and virtues of the moral agent rather than rules or consequences",
+    "example": "Aristotle's virtue ethics focuses on cultivating traits like courage and justice to live a flourishing life.",
+    "category": "Philosophy & Ethics"
+  },
+  {
+    "word": "cogito",
+    "meaning": "Short for 'cogito ergo sum' (I think, therefore I am); Descartes' foundational claim of self-certain existence through thought",
+    "example": "The cogito establishes that while we can doubt everything else, the act of doubting proves the doubter exists.",
+    "category": "Philosophy & Logic"
+  },
+  {
+    "word": "a priori",
+    "meaning": "Knowledge or justification that is independent of experience; known through reason alone before any observation",
+    "example": "Mathematical truths are a priori — we know that 2+2=4 without needing to count physical objects.",
+    "category": "Philosophy & Logic"
+  },
+  {
+    "word": "a posteriori",
+    "meaning": "Knowledge derived from experience or empirical evidence; knowledge that can only be known after observation",
+    "example": "The claim that 'water boils at 100°C at sea level' is a posteriori knowledge, confirmed through experiment.",
+    "category": "Philosophy & Science"
+  },
+  {
+    "word": "inductive reasoning",
+    "meaning": "A form of reasoning that derives general conclusions from specific observations; moving from the particular to the general",
+    "example": "Observing that every swan seen so far is white led scientists, by inductive reasoning, to conclude all swans were white — until Australia.",
+    "category": "Philosophy & Logic"
+  },
+  {
+    "word": "deductive reasoning",
+    "meaning": "A form of reasoning that moves from general premises to specific conclusions; if premises are true, the conclusion must be true",
+    "example": "Deductive reasoning allows detectives to solve crimes by drawing necessary conclusions from established facts.",
+    "category": "Philosophy & Logic"
+  },
+  {
+    "word": "falsifiability",
+    "meaning": "The quality of a statement or theory of being able to be proven wrong by evidence; Popper's criterion for scientific claims",
+    "example": "Popper argued that astrology is not a science because its vague predictions cannot be falsified by any observation.",
+    "category": "Philosophy & Science"
+  },
+  {
+    "word": "paradigm shift",
+    "meaning": "A fundamental change in the basic concepts and experimental practices of a scientific discipline, as described by Kuhn",
+    "example": "Darwin's theory of evolution was a paradigm shift that replaced the creationist model of species origins.",
+    "category": "Philosophy & Science"
+  },
+  {
+    "word": "reductio ad absurdum",
+    "meaning": "A form of argument that demonstrates a proposition is false by showing it leads to an absurd or self-contradictory conclusion",
+    "example": "The philosopher used reductio ad absurdum to show that the concept of 'the greatest conceivable pizza' is logically incoherent.",
+    "category": "Philosophy & Logic"
+  },
+  {
+    "word": "cognitive bias",
+    "meaning": "A systematic pattern of deviation from rationality in judgment, whereby inferences about others or situations may be drawn illogically",
+    "example": "Confirmation bias — a common cognitive bias — leads people to favor information that confirms their existing beliefs.",
+    "category": "Psychology & Critical Thinking"
+  },
+  {
+    "word": "metacognition",
+    "meaning": "Awareness and understanding of one's own thought processes; thinking about thinking",
+    "example": "Effective learners engage in metacognition, monitoring their own comprehension and adjusting strategies accordingly.",
+    "category": "Psychology & Education"
+  },
+  {
+    "word": "heuristics",
+    "meaning": "Mental shortcuts or rules of thumb that simplify decision-making and problem-solving under uncertainty",
+    "example": "While heuristics enable fast decisions, psychologists warn they can lead to systematic errors in judgment.",
+    "category": "Psychology & Critical Thinking"
+  },
+  {
+    "word": "archetype",
+    "meaning": "A universal symbolic pattern or prototype, especially in Jungian psychology; a recurrent character type in literature",
+    "example": "The hero's journey is an archetypal narrative archetype found across virtually all human cultures and mythologies.",
+    "category": "Psychology & Literature"
+  },
+  {
+    "word": "phenomenal",
+    "meaning": "Relating to phenomena as they appear and are experienced by the senses, as opposed to noumena (things as they are in themselves)",
+    "example": "Kant distinguished the phenomenal world we experience from the noumenal world beyond all possible perception.",
+    "category": "Philosophy & Logic"
+  },
+  {
+    "word": "liminal",
+    "meaning": "Occupying a transitional or uncertain position between two states; a threshold between the familiar and the unknown",
+    "example": "Adolescence is a liminal stage — neither childhood nor adulthood — marked by identity exploration and uncertainty.",
+    "category": "Culture & Anthropology"
+  },
+  {
+    "word": "pluralism",
+    "meaning": "A condition or system in which multiple groups, principles, or sources of authority coexist without domination by one",
+    "example": "Cultural pluralism celebrates diversity by allowing immigrant communities to maintain their heritage within a shared society.",
+    "category": "Politics & Philosophy"
+  },
+  {
+    "word": "realpolitik",
+    "meaning": "A pragmatic political approach based on practical considerations rather than ideological or ethical notions",
+    "example": "The alliance with the authoritarian regime was a concession to realpolitik, prioritizing stability over human rights.",
+    "category": "Politics & Diplomacy"
+  },
+  {
+    "word": "cognitive load",
+    "meaning": "The total amount of mental effort being used in working memory; the burden placed on the brain during learning",
+    "example": "Good instructional design minimizes extraneous cognitive load so students can focus on understanding core concepts.",
+    "category": "Psychology & Education"
+  },
+  {
+    "word": "heresy",
+    "meaning": "Belief or opinion contrary to orthodox religious doctrine; by extension, any unconventional or controversial opinion",
+    "example": "Suggesting that economic growth could be harmful was once considered heresy in mainstream policy circles.",
+    "category": "Religion & Culture"
+  },
+  {
+    "word": "dogma",
+    "meaning": "A principle or set of principles laid down by an authority as incontrovertibly true; rigid doctrine",
+    "example": "The professor challenged the economic dogma of perpetual growth as a flawed article of faith.",
+    "category": "Philosophy & Religion"
+  },
+  {
+    "word": "orthodoxy",
+    "meaning": "Authorized or generally accepted theory, doctrine, or practice; conformity to established standards or beliefs",
+    "example": "The economist's heterodox views conflicted sharply with the orthodoxy of his department.",
+    "category": "Philosophy & Society"
+  },
+  {
+    "word": "heterodox",
+    "meaning": "Not conforming with accepted or orthodox standards or beliefs; unconventional",
+    "example": "His heterodox monetary theories were ridiculed by mainstream economists but later proved remarkably prescient.",
+    "category": "Philosophy & Society"
+  },
+  {
+    "word": "sycophancy",
+    "meaning": "Excessive flattery or servile compliance; the behavior of trying to gain favor through obsequious praise",
+    "example": "The leader surrounded himself with sycophancy, stifling honest feedback and creating a culture of yes-men.",
+    "category": "Psychology & Society"
+  },
+  {
+    "word": "sophist",
+    "meaning": "One who reasons with clever but misleading arguments; historically, an ancient Greek teacher of rhetoric and philosophy",
+    "example": "The defense attorney was accused of being a sophist for constructing legally clever but morally bankrupt arguments.",
+    "category": "Philosophy & Rhetoric"
+  },
+  {
+    "word": "epistemics",
+    "meaning": "The study of how individuals and groups form, update, and act on beliefs; the practical dimension of epistemology",
+    "example": "Good epistemics require being willing to update your views when confronted with compelling counter-evidence.",
+    "category": "Philosophy & Critical Thinking"
+  },
+  {
+    "word": "dialectical",
+    "meaning": "Relating to or proceeding by the method of dialectic; involving the tension and resolution of opposing forces",
+    "example": "History, in Hegel's view, unfolds through dialectical processes where contradictions generate new syntheses.",
+    "category": "Philosophy & Logic"
+  },
+  {
+    "word": "contrarian",
+    "meaning": "A person who opposes or rejects popular opinion or behavior; one who takes a contrary position for its own sake",
+    "example": "While a contrarian spirit can reveal blind spots, reflexive opposition without evidence is just another form of irrationality.",
+    "category": "Psychology & Critical Thinking"
+  },
+  {
+    "word": "skepticism",
+    "meaning": "The philosophical practice of questioning the validity of accepted beliefs and claims, especially those lacking evidence",
+    "example": "Scientific skepticism does not mean doubting everything but demanding rigorous evidence before accepting extraordinary claims.",
+    "category": "Philosophy & Logic"
+  },
+  {
+    "word": "cynicism",
+    "meaning": "An inclination to believe that people are motivated purely by self-interest; distrustful of human sincerity",
+    "example": "After decades in politics, his idealism had curdled into a weary cynicism about institutional change.",
+    "category": "Philosophy & Psychology"
+  },
+  {
+    "word": "stoicism",
+    "meaning": "A philosophy of personal ethics emphasizing resilience, self-control, and acceptance of what cannot be changed",
+    "example": "Stoicism teaches that we cannot control external events but can always control our response to them.",
+    "category": "Philosophy & Ethics"
+  },
+  {
+    "word": "catharsis",
+    "meaning": "The process of releasing, and thereby providing relief from, strong or repressed emotions; a purging of emotions through art",
+    "example": "Aristotle believed that tragedy provides catharsis, allowing audiences to safely experience and release fear and pity.",
+    "category": "Psychology & Aesthetics"
+  },
+  {
+    "word": "ethos",
+    "meaning": "The characteristic spirit of a culture, era, or community; in rhetoric, the credibility and moral authority of the speaker",
+    "example": "The startup's ethos of radical transparency extended to publishing all employee salaries publicly.",
+    "category": "Culture & Rhetoric"
+  },
+  {
+    "word": "pathos",
+    "meaning": "A quality that evokes pity or sadness; in rhetoric, an appeal to the emotions of the audience",
+    "example": "The documentary's power lay in its pathos — the raw, unmediated suffering it placed before viewers.",
+    "category": "Rhetoric & Aesthetics"
+  },
+  {
+    "word": "logos",
+    "meaning": "In rhetoric, an appeal to logic and reason; rational argumentation using evidence and structured reasoning",
+    "example": "The scientist relied on logos, presenting data and logical arguments rather than appealing to emotion.",
+    "category": "Rhetoric & Logic"
+  },
+  {
+    "word": "sophrosyne",
+    "meaning": "An ancient Greek concept of excellence of character and soundness of mind; moderation, temperance, and self-restraint",
+    "example": "Sophrosyne — the balance between excess and deficiency — was considered the highest virtue by classical Greeks.",
+    "category": "Philosophy & Ethics"
+  },
+  {
+    "word": "episteme",
+    "meaning": "True knowledge derived from rational analysis; in Foucault, the underlying structure of knowledge in a historical period",
+    "example": "Foucault's concept of episteme reveals how each historical era has a specific set of rules governing what counts as truth.",
+    "category": "Philosophy & Epistemology"
+  },
+  {
+    "word": "noumenon",
+    "meaning": "In Kantian philosophy, the 'thing-in-itself' that exists independently of human perception, unknowable by the senses",
+    "example": "Kant argued we can never know the noumenon — reality as it truly is — only its manifestation in experience.",
+    "category": "Philosophy & Logic"
+  },
+  {
+    "word": "gestalt",
+    "meaning": "An organized whole that is perceived as more than the sum of its parts; a configuration or pattern of elements",
+    "example": "The gestalt of the symphony was far more emotionally powerful than any analysis of its individual instruments could predict.",
+    "category": "Psychology & Aesthetics"
+  },
+  {
+    "word": "realism",
+    "meaning": "The acceptance of a situation as it actually is rather than as idealized; the philosophical view that external objects exist independently",
+    "example": "Political realism holds that international relations are governed by power, not morality or law.",
+    "category": "Philosophy & Politics"
+  },
+  {
+    "word": "idealism",
+    "meaning": "The practice of forming or pursuing ideals, especially unrealistically; philosophically, the view that reality is mind-dependent",
+    "example": "Hegel's idealism held that the material world is the expression of an underlying rational spirit or Absolute.",
+    "category": "Philosophy & Politics"
+  },
+  {
+    "word": "causality",
+    "meaning": "The relationship between cause and effect; the principle that every event has a cause that necessarily produced it",
+    "example": "Establishing causality, not merely correlation, is the central challenge of empirical research in the social sciences.",
+    "category": "Philosophy & Science"
+  },
+  {
+    "word": "correlation",
+    "meaning": "A mutual relationship or connection between two things, without implying that one causes the other",
+    "example": "The famous maxim 'correlation is not causation' reminds researchers not to confuse statistical association with causal mechanism.",
+    "category": "Science & Statistics"
+  },
+  {
+    "word": "counterfactual",
+    "meaning": "Relating to what has not happened or is not the case; hypothetical reasoning about alternative scenarios",
+    "example": "Historians use counterfactual reasoning to explore what might have happened if key decisions had been made differently.",
+    "category": "Logic & History"
+  },
+  {
+    "word": "inference",
+    "meaning": "A conclusion reached by reasoning from evidence or premises; the process of deriving logical consequences",
+    "example": "The detective's brilliant inference linked the suspect to the crime scene through a series of unnoticed details.",
+    "category": "Logic & Critical Thinking"
+  },
+  {
+    "word": "anomaly",
+    "meaning": "Something that deviates from what is standard, normal, or expected; an irregular or inconsistent result",
+    "example": "The anomaly in the experimental data prompted the team to question whether their measurement instrument was calibrated correctly.",
+    "category": "Science & Critical Thinking"
+  },
+  {
+    "word": "iteration",
+    "meaning": "The repetition of a process or set of instructions a specified number of times or until a condition is met; repeated refinement",
+    "example": "The product was improved through rapid iteration — each version incorporating user feedback from the previous release.",
+    "category": "Science & Technology"
+  },
+  {
+    "word": "entropy",
+    "meaning": "A thermodynamic measure of disorder; broadly, the tendency of systems to move toward disorder and randomness over time",
+    "example": "Organizations must invest constant energy to resist entropy — the natural tendency toward disorganization and chaos.",
+    "category": "Science & Philosophy"
+  },
+  {
+    "word": "systemic",
+    "meaning": "Relating to a system as a whole; denoting structural patterns embedded throughout an entire system or institution",
+    "example": "Addressing poverty requires systemic reform, not just charitable programs that treat symptoms without root causes.",
+    "category": "Sociology & Politics"
+  },
+  {
+    "word": "binary",
+    "meaning": "Relating to a system of two categories or components; a fixed opposition between two mutually exclusive alternatives",
+    "example": "Gender theorists challenge the binary of male/female as an oversimplification of the complex spectrum of human identity.",
+    "category": "Philosophy & Culture"
+  },
+  {
+    "word": "spectrum",
+    "meaning": "A range of different positions, opinions, or people, arranged from one extreme to another",
+    "example": "Autism is now understood as a broad spectrum of conditions varying widely in type and severity.",
+    "category": "Science & Culture"
+  },
+  {
+    "word": "nuance",
+    "meaning": "A subtle difference in meaning, expression, or understanding; a fine distinction that resists simple categorization",
+    "example": "The translator struggled to preserve the nuance of the original poem in the target language.",
+    "category": "Language & Critical Thinking"
+  },
+  {
+    "word": "ambiguity",
+    "meaning": "The quality of being open to more than one interpretation; inexactness or uncertainty of meaning",
+    "example": "Skilled poets exploit ambiguity to create multiple layers of meaning accessible to different readers.",
+    "category": "Language & Philosophy"
+  },
+  {
+    "word": "polysemy",
+    "meaning": "The coexistence of multiple meanings for a single word or phrase",
+    "example": "The polysemy of the word 'spirit' — spanning breath, soul, ghost, and alcohol — reveals its deep cultural history.",
+    "category": "Linguistics"
+  },
+  {
+    "word": "semantics",
+    "meaning": "The branch of linguistics concerned with meaning in language; the interpretation of words and symbols",
+    "example": "The legal dispute hinged entirely on the semantics of the contract — what exactly constituted 'reasonable notice.'",
+    "category": "Linguistics & Logic"
+  },
+  {
+    "word": "pragmatics",
+    "meaning": "The branch of linguistics concerned with language use in social context; how context shapes meaning beyond literal words",
+    "example": "Pragmatics explains why 'Can you pass the salt?' functions as a request, not a question about physical ability.",
+    "category": "Linguistics"
+  },
+  {
+    "word": "rhetoric",
+    "meaning": "The art of effective or persuasive speaking or writing; the study of techniques used to inform, persuade, or motivate audiences",
+    "example": "His speech was all rhetoric — emotionally powerful but devoid of evidence, substance, or concrete proposals.",
+    "category": "Communication & Rhetoric"
+  },
+  {
+    "word": "sophistry",
+    "meaning": "The use of clever but deceptive reasoning; apparently logical arguments that are actually misleading or fallacious",
+    "example": "The lobby's slick sophistry disguised the harmful effects of the proposed regulation as beneficial reform.",
+    "category": "Rhetoric & Logic"
+  },
+  {
+    "word": "iconoclast",
+    "meaning": "A person who criticizes or attacks cherished beliefs or institutions; one who challenges established orthodoxies",
+    "example": "The iconoclast scientist published findings that overturned fifty years of received wisdom in her field.",
+    "category": "Culture & Intellectual Life"
+  },
+  {
+    "word": "avant-garde",
+    "meaning": "New and experimental ideas, especially in the arts; innovative work that challenges conventional norms",
+    "example": "The gallery's avant-garde installations provoked fierce debate about the very definition of art itself.",
+    "category": "Culture & Arts"
+  },
+  {
+    "word": "sui generis",
+    "meaning": "Of its own kind; unique and not easily categorized or comparable to anything else",
+    "example": "Shakespeare is sui generis — his contribution to literature is so vast that no comparison does it justice.",
+    "category": "Language & Culture"
+  },
+  {
+    "word": "prolix",
+    "meaning": "Using or containing too many words; tediously long-winded in expression",
+    "example": "The professor's prolix style made even fascinating ideas inaccessible to general readers.",
+    "category": "Language & Rhetoric"
+  },
+  {
+    "word": "laconic",
+    "meaning": "Using very few words; brief and concise in speech or expression",
+    "example": "The general's laconic reply — 'If' — was his famously brief response to the enemy's threat to destroy his city.",
+    "category": "Language & Rhetoric"
+  },
+  {
+    "word": "perspicacious",
+    "meaning": "Having a ready insight into and understanding of things; shrewdly perceptive",
+    "example": "Her perspicacious analysis identified the flaw in the argument that everyone else had overlooked.",
+    "category": "Critical Thinking"
+  },
+  {
+    "word": "acumen",
+    "meaning": "The ability to make good judgments and quick decisions; sharpness of mind and keen practical insight",
+    "example": "His financial acumen allowed him to identify undervalued companies before the broader market recognized their potential.",
+    "category": "Critical Thinking"
+  },
+  {
+    "word": "sagacity",
+    "meaning": "The quality of being sagacious; acute mental discernment and soundness of judgment",
+    "example": "The elder's sagacity — earned through decades of experience — guided the community through its most difficult crisis.",
+    "category": "Critical Thinking"
+  },
+  {
+    "word": "equivocate",
+    "meaning": "To use ambiguous language so as to conceal the truth or avoid commitment; to be deliberately vague",
+    "example": "When pressed on the policy, the minister began to equivocate, never giving a direct answer to the question.",
+    "category": "Language & Rhetoric"
+  },
+  {
+    "word": "obfuscate",
+    "meaning": "To render obscure, unclear, or unintelligible; to deliberately confuse or bewilder",
+    "example": "Legal contracts often obfuscate their terms in dense jargon that discourages careful reading.",
+    "category": "Language & Rhetoric"
+  },
+  {
+    "word": "elucidate",
+    "meaning": "To make something clear; to explain or clarify in detail",
+    "example": "The professor asked the student to elucidate the connection between her hypothesis and the experimental results.",
+    "category": "Language & Academic"
+  },
+  {
+    "word": "articulate",
+    "meaning": "Having or showing the ability to speak fluently and coherently; expressed clearly and effectively",
+    "example": "An articulate argument not only presents correct facts but frames them in a way that is logical and compelling.",
+    "category": "Language & Communication"
+  },
+  {
+    "word": "cogent",
+    "meaning": "Clear, logical, and convincing; powerfully persuasive in a reasoned way",
+    "example": "The barrister presented a cogent case that dismantled the prosecution's argument piece by piece.",
+    "category": "Rhetoric & Logic"
+  },
+  {
+    "word": "trenchant",
+    "meaning": "Vigorously effective and articulate; sharp, penetrating, and incisive in analysis",
+    "example": "Her trenchant criticism of the government's housing policy cut through the spin to the factual core.",
+    "category": "Rhetoric & Language"
+  },
+  {
+    "word": "salient",
+    "meaning": "Most noticeable or important; prominent and striking; most immediately relevant to the discussion",
+    "example": "The most salient finding was that the effect was strongest among populations previously considered immune.",
+    "category": "Critical Thinking & Language"
+  },
+  {
+    "word": "dichotomy",
+    "meaning": "A division or contrast between two things that are represented as entirely opposed; a binary opposition",
+    "example": "The dichotomy between reason and emotion is a false one — neuroscience shows they are deeply intertwined.",
+    "category": "Philosophy & Critical Thinking"
+  },
+  {
+    "word": "paradox",
+    "meaning": "A statement that appears contradictory or absurd but may express a possible truth; an inherent contradiction",
+    "example": "The paradox of tolerance holds that a tolerant society must be intolerant of intolerance to survive.",
+    "category": "Philosophy & Logic"
+  },
+  {
+    "word": "verisimilitude",
+    "meaning": "The appearance of being true or real; the quality of a narrative that makes it believable and lifelike",
+    "example": "The novel's verisimilitude was so convincing that many readers initially believed it was a true memoir.",
+    "category": "Literary Theory & Aesthetics"
+  },
+  {
+    "word": "mimesis",
+    "meaning": "The artistic imitation or representation of reality; the theory that art imitates nature and human experience",
+    "example": "Aristotle's concept of mimesis holds that tragedy imitates action and life in order to instruct and delight.",
+    "category": "Literary Theory & Philosophy"
+  },
+  {
+    "word": "teleology",
+    "meaning": "The philosophical study of purpose and goals; the idea that things have an ultimate end or purpose",
+    "example": "Aristotle's teleology held that every natural thing has a function toward which it naturally aims.",
+    "category": "Philosophy & Ethics"
+  },
+  {
+    "word": "cosmopolitanism",
+    "meaning": "The ideology that all human beings belong to a single community; the idea of being a citizen of the world",
+    "example": "Cosmopolitanism challenges nationalism by arguing that our moral obligations extend to all people, not just compatriots.",
+    "category": "Politics & Philosophy"
+  },
+  {
+    "word": "reflexivity",
+    "meaning": "The capacity of an agent to recognize forces of socialization and alter their position in relation to them; self-awareness in research",
+    "example": "Good qualitative research demands reflexivity — the researcher must acknowledge how their own perspective shapes findings.",
+    "category": "Sociology & Academic"
+  },
+  {
+    "word": "posthumanism",
+    "meaning": "A philosophical movement questioning traditional notions of humanity in an era of advanced technology and biotechnology",
+    "example": "Posthumanism asks whether the boundaries of the human are already dissolving as AI and biotechnology transform our capacities.",
+    "category": "Philosophy & Technology"
+  },
+  {
+    "word": "transhumanism",
+    "meaning": "The belief or theory that the human race can evolve beyond its current limitations through science and technology",
+    "example": "Transhumanism envisions a future where genetic engineering and brain-computer interfaces redefine human existence.",
+    "category": "Philosophy & Technology"
+  },
+  {
+    "word": "anthropocentrism",
+    "meaning": "The belief that human beings are the central or most significant entity in the universe; viewing the world from a human perspective",
+    "example": "Critics of anthropocentrism argue that it licenses the exploitation of nature by treating it as a resource for human use.",
+    "category": "Philosophy & Environment"
+  },
+  {
+    "word": "biopolitics",
+    "meaning": "Foucault's concept that modern states exercise power by regulating and controlling biological life, health, and populations",
+    "example": "Pandemic responses — quarantines, vaccine mandates, and health surveillance — are potent examples of biopolitics in action.",
+    "category": "Philosophy & Politics"
+  },
+  {
+    "word": "simulacrum",
+    "meaning": "An image or representation of something; Baudrillard's concept of a copy without an original that replaces reality",
+    "example": "Baudrillard argued that television had created a simulacrum of war — images of combat so mediated they replaced the event itself.",
+    "category": "Philosophy & Culture"
+  },
+  {
+    "word": "hyperreality",
+    "meaning": "Baudrillard's concept of a condition in which simulations have replaced reality; where signs no longer refer to anything real",
+    "example": "Theme parks like Disneyland are examples of hyperreality — artifical environments more orderly and satisfying than actual life.",
+    "category": "Culture & Philosophy"
+  },
+  {
+    "word": "habitus",
+    "meaning": "Bourdieu's concept of the socially ingrained habits, skills, and dispositions that shape how individuals perceive and act in the world",
+    "example": "A working-class student entering an elite university must navigate the clash between their habitus and that of their new environment.",
+    "category": "Sociology"
+  },
+  {
+    "word": "cultural capital",
+    "meaning": "Bourdieu's concept of non-financial social assets — education, manners, tastes — that promote social mobility",
+    "example": "Children from affluent families accumulate cultural capital through museums, travel, and books, giving them advantages in education.",
+    "category": "Sociology & Education"
+  },
+  {
+    "word": "social construct",
+    "meaning": "An idea or institution that exists because of human agreement and shared perception, not natural law",
+    "example": "Money is a social construct — pieces of paper are valuable only because an entire society agrees they represent value.",
+    "category": "Sociology & Philosophy"
+  },
+  {
+    "word": "performativity",
+    "meaning": "Butler's theory that identity categories like gender are constituted through repeated acts and performances, not innate essence",
+    "example": "Performativity theory suggests that gender is not what we are but what we repeatedly do through stylized actions and behaviors.",
+    "category": "Philosophy & Sociology"
+  },
+  {
+    "word": "subaltern",
+    "meaning": "In postcolonial theory, those excluded from full social, political, and economic participation in a hegemonic society",
+    "example": "Spivak's famous question 'Can the subaltern speak?' questions whether colonized peoples can articulate resistance within dominant frameworks.",
+    "category": "Politics & Postcolonial Theory"
+  },
+  {
+    "word": "Weltanschauung",
+    "meaning": "A comprehensive world view; a particular philosophy or conception of the world held by an individual or group",
+    "example": "His scientific Weltanschauung made it impossible for him to accept explanations rooted in supernatural causation.",
+    "category": "Philosophy & Culture"
+  },
+  {
+    "word": "apophatic",
+    "meaning": "Relating to an approach to knowledge or theology that defines something by what it is not, rather than what it is",
+    "example": "Apophatic theology holds that God is best described negatively — as not finite, not temporal, not comprehensible.",
+    "category": "Philosophy & Religion"
+  },
+  {
+    "word": "immanent",
+    "meaning": "Existing or operating within; inherent in a thing; confined to the natural world, as opposed to transcendent",
+    "example": "Spinoza's God is immanent — not a separate creator but identical with nature itself.",
+    "category": "Philosophy & Religion"
+  },
+  {
+    "word": "transcendent",
+    "meaning": "Going beyond the limits of ordinary experience; surpassing the universe or material existence",
+    "example": "Traditional religions portray God as transcendent — wholly other, existing outside and above the natural order.",
+    "category": "Philosophy & Religion"
+  },
+  {
+    "word": "apotheosis",
+    "meaning": "The highest point or culmination; the elevation of someone or something to a divine or supreme status",
+    "example": "The symphony's final movement represented the apotheosis of the composer's lifelong obsession with the theme of redemption.",
+    "category": "Culture & Rhetoric"
+  }
+]

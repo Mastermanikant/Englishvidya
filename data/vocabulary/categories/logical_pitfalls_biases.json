@@ -1,0 +1,92 @@
+﻿[
+    {
+        "word":  "Red Herring",
+        "meaning":  "An irrelevant topic introduced into an argument to distract attention from the main issue.",
+        "example":  "Discussing the employee\u0027s personal life was a red herring to distract from her excellent work record.",
+        "category":  "Logical Pitfalls \u0026 Biases"
+    },
+    {
+        "word":  "Straw Man",
+        "meaning":  "Misrepresenting someone\u0027s argument to make it look weak and easy to defeat.",
+        "example":  "She claimed I hated cars, which was a straw man since I only said I prefer biking to work.",
+        "category":  "Logical Pitfalls \u0026 Biases"
+    },
+    {
+        "word":  "Non Sequitur",
+        "meaning":  "A conclusion or statement that does not logically follow from the previous argument.",
+        "example":  "Saying \u0027He is a great chef, so he will be a wonderful politician\u0027 is a non sequitur.",
+        "category":  "Logical Pitfalls \u0026 Biases"
+    },
+    {
+        "word":  "Slippery Slope",
+        "meaning":  "Arguing that a small first step will lead to a chain of events ending in a disaster.",
+        "example":  "Claiming that playing one video game will lead to a life of crime is a slippery slope argument.",
+        "category":  "Logical Pitfalls \u0026 Biases"
+    },
+    {
+        "word":  "Begging The Question",
+        "meaning":  "An argument that assumes the truth of its conclusion instead of proving it.",
+        "example":  "Saying \u0027Gold is valuable because it is worth a lot of money\u0027 is begging the question.",
+        "category":  "Logical Pitfalls \u0026 Biases"
+    },
+    {
+        "word":  "Circular Argument",
+        "meaning":  "An argument that starts and ends with the same unproven claim.",
+        "example":  "His speech was a circular argument that kept repeating the same point without adding new evidence.",
+        "category":  "Logical Pitfalls \u0026 Biases"
+    },
+    {
+        "word":  "Correlation",
+        "meaning":  "A relationship or connection between two things, though one may not cause the other.",
+        "example":  "There is a correlation between ice cream sales and sunburns, but one does not cause the other.",
+        "category":  "Logical Pitfalls \u0026 Biases"
+    },
+    {
+        "word":  "Causation",
+        "meaning":  "The relationship where one event directly causes another event to happen.",
+        "example":  "Smoking has a direct causation link to lung disease.",
+        "category":  "Logical Pitfalls \u0026 Biases"
+    },
+    {
+        "word":  "Oversimplification",
+        "meaning":  "Describing a complex problem so simply that it leaves out important details and confuses the truth.",
+        "example":  "Saying that hunger is caused only by a lack of food is an oversimplification of a global issue.",
+        "category":  "Logical Pitfalls \u0026 Biases"
+    },
+    {
+        "word":  "Logical Leap",
+        "meaning":  "A sudden, unsupported jump from a set of facts to a conclusion that doesn\u0027t follow.",
+        "example":  "Assuming someone stole your pen just because they are holding a similar pen is a logical leap.",
+        "category":  "Logical Pitfalls \u0026 Biases"
+    },
+    {
+        "word":  "False Dilemma",
+        "meaning":  "Presenting only two choices when many more options actually exist.",
+        "example":  "Saying \u0027Either you support our plan or you want us to fail\u0027 is a false dilemma.",
+        "category":  "Logical Pitfalls \u0026 Biases"
+    },
+    {
+        "word":  "Post Hoc",
+        "meaning":  "Assuming that because one event happened after another, the first event caused the second.",
+        "example":  "Believing that walking under a ladder caused you to lose your wallet is a post hoc fallacy.",
+        "category":  "Logical Pitfalls \u0026 Biases"
+    },
+    {
+        "word":  "Cognitive Dissonance",
+        "meaning":  "The uncomfortable feeling you get when you hold two contradictory beliefs at the same time.",
+        "example":  "Knowing that smoking is unhealthy while continuing to smoke causes cognitive dissonance.",
+        "category":  "Logical Pitfalls \u0026 Biases"
+    },
+    {
+        "word":  "Confirmation Bias",
+        "meaning":  "The habit of only noticing facts that agree with your opinions, while ignoring facts that disagree.",
+        "example":  "Due to confirmation bias, he only read newspapers that agreed with his political views.",
+        "category":  "Logical Pitfalls \u0026 Biases"
+    },
+    {
+        "word":  "Nuance",
+        "meaning":  "A very small, subtle difference in meaning, opinion, or situation.",
+        "example":  "To understand the debate, you must pay attention to the nuance of each argument.",
+        "category":  "Logical Pitfalls \u0026 Biases"
+    }
+]

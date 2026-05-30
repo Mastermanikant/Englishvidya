@@ -1,0 +1,812 @@
+[
+  {
+    "word": "curriculum",
+    "meaning": "The subjects and topics that are taught in a school or course of study",
+    "example": "The school follows a curriculum designed to develop critical thinking in students.",
+    "category": "Instruction"
+  },
+  {
+    "word": "syllabus",
+    "meaning": "An outline of the topics to be covered in a course or subject",
+    "example": "The teacher distributed the syllabus on the first day of the academic year.",
+    "category": "Instruction"
+  },
+  {
+    "word": "pedagogy",
+    "meaning": "The method and practice of teaching, especially as an academic subject",
+    "example": "Modern pedagogy emphasises student participation over rote memorisation.",
+    "category": "Instruction"
+  },
+  {
+    "word": "lecture",
+    "meaning": "An educational talk given to a class or audience by a teacher or expert",
+    "example": "The professor delivered an engaging lecture on photosynthesis.",
+    "category": "Instruction"
+  },
+  {
+    "word": "module",
+    "meaning": "A self-contained unit of study that forms part of a larger course",
+    "example": "Students must complete six modules to finish the diploma programme.",
+    "category": "Instruction"
+  },
+  {
+    "word": "elective",
+    "meaning": "An optional subject that a student may choose to study",
+    "example": "She chose drama as her elective for the second semester.",
+    "category": "Instruction"
+  },
+  {
+    "word": "compulsory",
+    "meaning": "Required by rules or law; obligatory for all students",
+    "example": "Mathematics is compulsory for all students up to Grade 10.",
+    "category": "Instruction"
+  },
+  {
+    "word": "textbook",
+    "meaning": "A book used as the standard reference for a particular subject",
+    "example": "The science textbook contains detailed diagrams of the human body.",
+    "category": "Instruction"
+  },
+  {
+    "word": "worksheet",
+    "meaning": "A printed sheet of exercises given to students for practice",
+    "example": "The teacher handed out a worksheet on fractions for homework.",
+    "category": "Instruction"
+  },
+  {
+    "word": "lesson plan",
+    "meaning": "A teacher's detailed guide for what to teach during a class period",
+    "example": "The teacher prepared a lesson plan covering three learning objectives.",
+    "category": "Instruction"
+  },
+  {
+    "word": "objective",
+    "meaning": "A specific learning goal or outcome expected from a lesson",
+    "example": "The lesson objective was for students to identify the main idea of a passage.",
+    "category": "Instruction"
+  },
+  {
+    "word": "outcome",
+    "meaning": "The knowledge or skill a student is expected to gain after instruction",
+    "example": "By the end of the unit, the expected outcome is fluency in basic algebra.",
+    "category": "Instruction"
+  },
+  {
+    "word": "differentiation",
+    "meaning": "Adapting teaching methods to meet the diverse needs of learners",
+    "example": "The teacher used differentiation to support both advanced and struggling students.",
+    "category": "Instruction"
+  },
+  {
+    "word": "scaffolding",
+    "meaning": "Providing temporary support to help students understand new concepts",
+    "example": "The teacher used scaffolding by giving sentence starters before the writing task.",
+    "category": "Instruction"
+  },
+  {
+    "word": "demonstration",
+    "meaning": "Showing how to do something as a model for students to follow",
+    "example": "The chemistry teacher gave a demonstration of the titration experiment.",
+    "category": "Instruction"
+  },
+  {
+    "word": "inquiry-based learning",
+    "meaning": "A teaching approach where students learn by asking questions and investigating",
+    "example": "Inquiry-based learning encouraged students to research the water cycle independently.",
+    "category": "Instruction"
+  },
+  {
+    "word": "project-based learning",
+    "meaning": "A method where students learn by completing a real-world project",
+    "example": "Students used project-based learning to design a model smart city.",
+    "category": "Instruction"
+  },
+  {
+    "word": "collaborative learning",
+    "meaning": "A method where students work together to achieve shared learning goals",
+    "example": "Collaborative learning helped students improve their communication skills.",
+    "category": "Instruction"
+  },
+  {
+    "word": "instruction",
+    "meaning": "The act of teaching or delivering knowledge to students",
+    "example": "Direct instruction was used to introduce the rules of grammar.",
+    "category": "Instruction"
+  },
+  {
+    "word": "medium of instruction",
+    "meaning": "The language used to deliver teaching in a school or institution",
+    "example": "The medium of instruction in this school is English from Grade 1.",
+    "category": "Instruction"
+  },
+  {
+    "word": "comprehension",
+    "meaning": "The ability to understand and interpret information",
+    "example": "Students practised reading comprehension using unseen passages.",
+    "category": "Instruction"
+  },
+  {
+    "word": "academic vocabulary",
+    "meaning": "Words commonly used in school subjects and formal educational contexts",
+    "example": "Knowing academic vocabulary helps students understand subject textbooks better.",
+    "category": "Instruction"
+  },
+  {
+    "word": "subject-specific vocabulary",
+    "meaning": "Technical words that belong to a particular school subject",
+    "example": "Words like 'osmosis' and 'diffusion' are subject-specific vocabulary in biology.",
+    "category": "Instruction"
+  },
+  {
+    "word": "glossary",
+    "meaning": "A list of difficult or technical words with their definitions",
+    "example": "The textbook included a glossary at the back for unfamiliar terms.",
+    "category": "Instruction"
+  },
+  {
+    "word": "note-taking",
+    "meaning": "Writing down key points during a lecture or from a textbook",
+    "example": "Effective note-taking helps students retain information from lessons.",
+    "category": "Instruction"
+  },
+  {
+    "word": "summary",
+    "meaning": "A brief account of the main points of a longer text or lesson",
+    "example": "Students wrote a summary of the chapter in their own words.",
+    "category": "Instruction"
+  },
+  {
+    "word": "paraphrase",
+    "meaning": "To restate information in different words while keeping the same meaning",
+    "example": "Students were asked to paraphrase the paragraph to show understanding.",
+    "category": "Instruction"
+  },
+  {
+    "word": "academic language",
+    "meaning": "Formal language used in schools, academic papers, and intellectual discussion",
+    "example": "Students need to develop academic language to succeed in higher education.",
+    "category": "Instruction"
+  },
+  {
+    "word": "bilingual education",
+    "meaning": "A system where two languages are used for instruction",
+    "example": "The school offers bilingual education in both Hindi and English.",
+    "category": "Instruction"
+  },
+  {
+    "word": "English-medium",
+    "meaning": "Describes a school or institution where English is the primary language of teaching",
+    "example": "English-medium schools are common in urban areas across India.",
+    "category": "Instruction"
+  },
+  {
+    "word": "assessment",
+    "meaning": "The process of evaluating a student's knowledge, skills, or performance",
+    "example": "Regular assessment helps teachers track student progress throughout the year.",
+    "category": "Evaluation"
+  },
+  {
+    "word": "examination",
+    "meaning": "A formal test to measure a student's knowledge of a subject",
+    "example": "The final examination will cover all topics taught this semester.",
+    "category": "Evaluation"
+  },
+  {
+    "word": "quiz",
+    "meaning": "A short, informal test given to check students' understanding",
+    "example": "The teacher gave a surprise quiz on the previous day's lesson.",
+    "category": "Evaluation"
+  },
+  {
+    "word": "formative assessment",
+    "meaning": "Ongoing evaluation used to monitor student learning during instruction",
+    "example": "Classroom discussions and exit slips are examples of formative assessment.",
+    "category": "Evaluation"
+  },
+  {
+    "word": "summative assessment",
+    "meaning": "An evaluation at the end of a unit or course to measure overall learning",
+    "example": "The final exam is a summative assessment of the entire year's content.",
+    "category": "Evaluation"
+  },
+  {
+    "word": "rubric",
+    "meaning": "A scoring guide that lists criteria for evaluating student work",
+    "example": "The teacher shared the rubric so students knew how their essays would be marked.",
+    "category": "Evaluation"
+  },
+  {
+    "word": "grade",
+    "meaning": "A mark or score given to indicate the quality of a student's work",
+    "example": "She received an A grade for her science project.",
+    "category": "Evaluation"
+  },
+  {
+    "word": "marks",
+    "meaning": "Points awarded for correct answers in a test or assignment",
+    "example": "Each question in the test carries five marks.",
+    "category": "Evaluation"
+  },
+  {
+    "word": "score",
+    "meaning": "The total number of points a student earns in a test or assessment",
+    "example": "His score of 92 out of 100 placed him at the top of the class.",
+    "category": "Evaluation"
+  },
+  {
+    "word": "portfolio",
+    "meaning": "A collection of student work used to show progress over time",
+    "example": "Students compiled a portfolio of their writing samples throughout the year.",
+    "category": "Evaluation"
+  },
+  {
+    "word": "feedback",
+    "meaning": "Comments or information given to a student about their performance",
+    "example": "The teacher's feedback helped the student improve her essay structure.",
+    "category": "Evaluation"
+  },
+  {
+    "word": "peer assessment",
+    "meaning": "When students evaluate each other's work using agreed criteria",
+    "example": "Peer assessment taught students to give constructive feedback to classmates.",
+    "category": "Evaluation"
+  },
+  {
+    "word": "self-assessment",
+    "meaning": "When a student evaluates their own learning or performance",
+    "example": "Self-assessment helps students identify their own strengths and weaknesses.",
+    "category": "Evaluation"
+  },
+  {
+    "word": "standardised test",
+    "meaning": "A test administered and scored in a consistent manner for all students",
+    "example": "The board conducted a standardised test to compare results across schools.",
+    "category": "Evaluation"
+  },
+  {
+    "word": "benchmark",
+    "meaning": "A reference point used to measure or compare academic performance",
+    "example": "The school set a benchmark of 75% pass rate for all subjects.",
+    "category": "Evaluation"
+  },
+  {
+    "word": "criterion",
+    "meaning": "A standard or rule used to judge or assess student work",
+    "example": "One criterion for the project was the accuracy of the information presented.",
+    "category": "Evaluation"
+  },
+  {
+    "word": "pass",
+    "meaning": "To achieve the minimum required mark in a test or subject",
+    "example": "Students must score at least 40% to pass the final examination.",
+    "category": "Evaluation"
+  },
+  {
+    "word": "fail",
+    "meaning": "To not achieve the minimum required mark in a test or subject",
+    "example": "He was upset to learn he would fail if he missed the supplementary exam.",
+    "category": "Evaluation"
+  },
+  {
+    "word": "distinction",
+    "meaning": "An exceptionally high grade awarded for outstanding performance",
+    "example": "She earned a distinction in English for scoring above 90%.",
+    "category": "Evaluation"
+  },
+  {
+    "word": "merit",
+    "meaning": "A high grade indicating strong performance, below distinction",
+    "example": "He was awarded a merit for his consistent effort throughout the year.",
+    "category": "Evaluation"
+  },
+  {
+    "word": "percentile",
+    "meaning": "A measure indicating the percentage of students who scored below a given point",
+    "example": "Scoring in the 95th percentile means outperforming 95% of test-takers.",
+    "category": "Evaluation"
+  },
+  {
+    "word": "transcript",
+    "meaning": "An official document listing a student's academic subjects and grades",
+    "example": "She submitted her transcript when applying for university admission.",
+    "category": "Evaluation"
+  },
+  {
+    "word": "report card",
+    "meaning": "A periodic document showing a student's grades and teacher comments",
+    "example": "Parents review the report card to understand their child's academic progress.",
+    "category": "Evaluation"
+  },
+  {
+    "word": "evaluation",
+    "meaning": "The process of judging the quality or value of a student's learning",
+    "example": "Evaluation of oral presentations included content, clarity, and confidence.",
+    "category": "Evaluation"
+  },
+  {
+    "word": "continuous evaluation",
+    "meaning": "An ongoing system of assessing students throughout the academic year",
+    "example": "Continuous evaluation reduces the pressure of a single final exam.",
+    "category": "Evaluation"
+  },
+  {
+    "word": "viva voce",
+    "meaning": "An oral examination where a student answers questions verbally",
+    "example": "The viva voce for the lab project tested students' scientific reasoning.",
+    "category": "Evaluation"
+  },
+  {
+    "word": "multiple choice",
+    "meaning": "A type of question with several answer options from which one is correct",
+    "example": "The exam had twenty multiple choice questions worth one mark each.",
+    "category": "Evaluation"
+  },
+  {
+    "word": "short answer",
+    "meaning": "A type of question requiring a brief written response",
+    "example": "Short answer questions tested students' ability to recall key facts.",
+    "category": "Evaluation"
+  },
+  {
+    "word": "long answer",
+    "meaning": "A question requiring a detailed, extended written response",
+    "example": "Long answer questions assessed students' ability to construct arguments.",
+    "category": "Evaluation"
+  },
+  {
+    "word": "critical thinking",
+    "meaning": "The ability to analyse and evaluate information logically and independently",
+    "example": "The teacher encouraged critical thinking by asking 'Why do you think that?'",
+    "category": "Discussion"
+  },
+  {
+    "word": "debate",
+    "meaning": "A formal discussion where students argue opposing sides of a topic",
+    "example": "The class held a debate on whether school uniforms should be compulsory.",
+    "category": "Discussion"
+  },
+  {
+    "word": "discussion",
+    "meaning": "A conversation in which students and teachers explore ideas together",
+    "example": "The class held a discussion about the causes of environmental pollution.",
+    "category": "Discussion"
+  },
+  {
+    "word": "argument",
+    "meaning": "A set of reasons given to support or oppose a point of view",
+    "example": "She constructed a clear argument for why renewable energy is essential.",
+    "category": "Discussion"
+  },
+  {
+    "word": "evidence",
+    "meaning": "Facts or information used to support a claim or argument",
+    "example": "Students were asked to provide evidence from the text to support their answers.",
+    "category": "Discussion"
+  },
+  {
+    "word": "opinion",
+    "meaning": "A personal view or judgement about a topic",
+    "example": "Students shared their opinions about the fairness of the school's rules.",
+    "category": "Discussion"
+  },
+  {
+    "word": "perspective",
+    "meaning": "A particular point of view or way of thinking about a topic",
+    "example": "The teacher asked students to consider the story from the antagonist's perspective.",
+    "category": "Discussion"
+  },
+  {
+    "word": "justify",
+    "meaning": "To give reasons or evidence to support a claim or answer",
+    "example": "Students were asked to justify their choice of the most important historical event.",
+    "category": "Discussion"
+  },
+  {
+    "word": "analyse",
+    "meaning": "To examine something in detail to understand it better",
+    "example": "The essay required students to analyse the themes of the novel.",
+    "category": "Discussion"
+  },
+  {
+    "word": "evaluate",
+    "meaning": "To assess the value, quality, or effectiveness of something",
+    "example": "Students were asked to evaluate the effectiveness of the government's policy.",
+    "category": "Discussion"
+  },
+  {
+    "word": "compare",
+    "meaning": "To examine the similarities between two or more things",
+    "example": "The task asked students to compare the economies of two different countries.",
+    "category": "Discussion"
+  },
+  {
+    "word": "contrast",
+    "meaning": "To examine the differences between two or more things",
+    "example": "Students were asked to contrast the lifestyles of urban and rural communities.",
+    "category": "Discussion"
+  },
+  {
+    "word": "summarise",
+    "meaning": "To state the main points of something briefly and clearly",
+    "example": "After reading the chapter, students were asked to summarise it in five sentences.",
+    "category": "Discussion"
+  },
+  {
+    "word": "infer",
+    "meaning": "To draw a conclusion from information or evidence not directly stated",
+    "example": "From the context, students could infer the meaning of the unknown word.",
+    "category": "Discussion"
+  },
+  {
+    "word": "predict",
+    "meaning": "To say what you think will happen based on available information",
+    "example": "Students were asked to predict the outcome of the experiment before conducting it.",
+    "category": "Discussion"
+  },
+  {
+    "word": "hypothesis",
+    "meaning": "A proposed explanation that can be tested through research or experiment",
+    "example": "The students formed a hypothesis about the effect of light on plant growth.",
+    "category": "Discussion"
+  },
+  {
+    "word": "interpret",
+    "meaning": "To explain the meaning of information, text, or data",
+    "example": "Students were asked to interpret the graph showing population growth.",
+    "category": "Discussion"
+  },
+  {
+    "word": "clarify",
+    "meaning": "To make an idea or statement easier to understand",
+    "example": "The teacher paused to clarify the instructions before students began.",
+    "category": "Discussion"
+  },
+  {
+    "word": "elaborate",
+    "meaning": "To explain something in more detail or expand on an idea",
+    "example": "'Can you elaborate on your answer?' the teacher asked the student.",
+    "category": "Discussion"
+  },
+  {
+    "word": "pose a question",
+    "meaning": "To ask a question, especially to start or continue a discussion",
+    "example": "The teacher posed a question to check if students understood the concept.",
+    "category": "Discussion"
+  },
+  {
+    "word": "open-ended question",
+    "meaning": "A question that requires more than a yes/no answer and promotes thinking",
+    "example": "Open-ended questions like 'Why do you think so?' encourage deeper thinking.",
+    "category": "Discussion"
+  },
+  {
+    "word": "closed question",
+    "meaning": "A question that has a specific correct answer, often yes or no",
+    "example": "The teacher asked a closed question: 'What is the capital of France?'",
+    "category": "Discussion"
+  },
+  {
+    "word": "seminar",
+    "meaning": "A structured academic discussion session led by a teacher or student",
+    "example": "The seminar on climate change featured student-led presentations and debate.",
+    "category": "Discussion"
+  },
+  {
+    "word": "brainstorm",
+    "meaning": "To generate many ideas quickly without judgment or evaluation",
+    "example": "Students were asked to brainstorm solutions to reduce food waste in the school canteen.",
+    "category": "Discussion"
+  },
+  {
+    "word": "think-pair-share",
+    "meaning": "A strategy where students think, discuss with a partner, then share with the class",
+    "example": "The teacher used think-pair-share to ensure all students participated in discussion.",
+    "category": "Discussion"
+  },
+  {
+    "word": "oral presentation",
+    "meaning": "A spoken report or talk delivered to the class by a student",
+    "example": "Each student gave a five-minute oral presentation on their chosen topic.",
+    "category": "Discussion"
+  },
+  {
+    "word": "academic discourse",
+    "meaning": "Formal language and structured ways of discussing ideas in an academic setting",
+    "example": "Students were taught phrases for academic discourse such as 'In contrast to...'",
+    "category": "Discussion"
+  },
+  {
+    "word": "constructive criticism",
+    "meaning": "Feedback that identifies weaknesses while also offering suggestions for improvement",
+    "example": "Peer review sessions practised giving constructive criticism in a respectful way.",
+    "category": "Discussion"
+  },
+  {
+    "word": "consensus",
+    "meaning": "General agreement reached by a group after discussion",
+    "example": "After the group discussion, students reached a consensus on the best solution.",
+    "category": "Discussion"
+  },
+  {
+    "word": "enrolment",
+    "meaning": "The act of officially registering a student at a school or course",
+    "example": "Enrolment for the new academic year begins in March.",
+    "category": "Administration"
+  },
+  {
+    "word": "admission",
+    "meaning": "The process of being accepted into a school or educational programme",
+    "example": "Admission to the school requires passing an entrance examination.",
+    "category": "Administration"
+  },
+  {
+    "word": "academic year",
+    "meaning": "The annual period during which students attend school, usually divided into terms",
+    "example": "The academic year runs from June to April in most Indian schools.",
+    "category": "Administration"
+  },
+  {
+    "word": "semester",
+    "meaning": "A half-year period in an academic year, typically 15 to 18 weeks",
+    "example": "The course is divided into two semesters with exams at the end of each.",
+    "category": "Administration"
+  },
+  {
+    "word": "term",
+    "meaning": "A defined period of the school year, usually three per year",
+    "example": "Results for the first term will be announced next week.",
+    "category": "Administration"
+  },
+  {
+    "word": "timetable",
+    "meaning": "A schedule showing the times and subjects of classes each day",
+    "example": "The new timetable showed that science was moved to Monday mornings.",
+    "category": "Administration"
+  },
+  {
+    "word": "attendance",
+    "meaning": "The record of whether a student is present or absent from class",
+    "example": "Students must maintain 75% attendance to sit for the final examination.",
+    "category": "Administration"
+  },
+  {
+    "word": "homework",
+    "meaning": "Tasks assigned to students to complete at home after school",
+    "example": "The homework for tonight is to read pages 45 to 60 of the novel.",
+    "category": "Administration"
+  },
+  {
+    "word": "assignment",
+    "meaning": "A task or piece of work given to a student as part of their studies",
+    "example": "The assignment required students to interview a local community member.",
+    "category": "Administration"
+  },
+  {
+    "word": "deadline",
+    "meaning": "The final date by which a student must submit a task or assignment",
+    "example": "The deadline for submitting the history project is next Friday.",
+    "category": "Administration"
+  },
+  {
+    "word": "submission",
+    "meaning": "The act of handing in a completed assignment or piece of work",
+    "example": "Late submission of the project would result in a ten percent penalty.",
+    "category": "Administration"
+  },
+  {
+    "word": "plagiarism",
+    "meaning": "Copying someone else's work and presenting it as your own",
+    "example": "Plagiarism is taken seriously and can result in disqualification from the examination.",
+    "category": "Administration"
+  },
+  {
+    "word": "citation",
+    "meaning": "A reference to a source of information used in a student's work",
+    "example": "Every fact in the research paper required a proper citation.",
+    "category": "Administration"
+  },
+  {
+    "word": "academic integrity",
+    "meaning": "Commitment to honesty and ethical standards in all academic work",
+    "example": "Academic integrity means doing your own work and giving credit to sources.",
+    "category": "Administration"
+  },
+  {
+    "word": "detention",
+    "meaning": "A disciplinary measure requiring a student to stay after school",
+    "example": "The student received detention for repeatedly submitting homework late.",
+    "category": "Administration"
+  },
+  {
+    "word": "remedial class",
+    "meaning": "Extra lessons provided to students who need additional support",
+    "example": "The school arranged remedial classes for students struggling with mathematics.",
+    "category": "Administration"
+  },
+  {
+    "word": "extracurricular",
+    "meaning": "Activities outside the regular academic curriculum, such as sports and clubs",
+    "example": "Participating in extracurricular activities helps build leadership skills.",
+    "category": "Administration"
+  },
+  {
+    "word": "principal",
+    "meaning": "The head administrator responsible for running a school",
+    "example": "The principal announced a new English reading programme for all grades.",
+    "category": "Administration"
+  },
+  {
+    "word": "faculty",
+    "meaning": "The teaching staff of a school or department",
+    "example": "The entire faculty attended the professional development workshop.",
+    "category": "Administration"
+  },
+  {
+    "word": "mentor",
+    "meaning": "An experienced teacher who guides and supports a student or junior teacher",
+    "example": "Her mentor helped her develop stronger essay-writing skills.",
+    "category": "Administration"
+  },
+  {
+    "word": "tutor",
+    "meaning": "A person who gives additional private or small-group teaching to students",
+    "example": "The student hired a tutor to help with preparation for the board exams.",
+    "category": "Administration"
+  },
+  {
+    "word": "classroom management",
+    "meaning": "Techniques used by teachers to maintain an orderly and productive learning environment",
+    "example": "Effective classroom management ensures all students can focus on learning.",
+    "category": "Administration"
+  },
+  {
+    "word": "proficiency",
+    "meaning": "A high level of skill or ability in a subject or language",
+    "example": "Students must demonstrate English language proficiency to join the advanced class.",
+    "category": "Language Skills"
+  },
+  {
+    "word": "fluency",
+    "meaning": "The ability to speak or write a language easily, smoothly, and accurately",
+    "example": "Daily reading helps build fluency in English.",
+    "category": "Language Skills"
+  },
+  {
+    "word": "literacy",
+    "meaning": "The ability to read and write in a language",
+    "example": "Improving literacy is a key goal of the school's English programme.",
+    "category": "Language Skills"
+  },
+  {
+    "word": "numeracy",
+    "meaning": "The ability to understand and work with numbers",
+    "example": "Numeracy skills are assessed across all subjects, not just mathematics.",
+    "category": "Language Skills"
+  },
+  {
+    "word": "vocabulary",
+    "meaning": "The set of words known and used by a person in a language",
+    "example": "Wide vocabulary helps students understand academic texts more easily.",
+    "category": "Language Skills"
+  },
+  {
+    "word": "grammar",
+    "meaning": "The set of rules that govern the structure of sentences in a language",
+    "example": "Correct grammar is essential for writing formal academic essays.",
+    "category": "Language Skills"
+  },
+  {
+    "word": "syntax",
+    "meaning": "The way words and phrases are arranged to form sentences",
+    "example": "Students learned about syntax when studying complex sentence structures.",
+    "category": "Language Skills"
+  },
+  {
+    "word": "pronunciation",
+    "meaning": "The way in which a word or language is spoken",
+    "example": "Clear pronunciation is important when giving oral presentations in English.",
+    "category": "Language Skills"
+  },
+  {
+    "word": "articulation",
+    "meaning": "Clear and effective expression of ideas in speaking or writing",
+    "example": "The student's articulation of ideas in the essay was highly praised.",
+    "category": "Language Skills"
+  },
+  {
+    "word": "reading comprehension",
+    "meaning": "The ability to read and understand the meaning of a written text",
+    "example": "Reading comprehension exercises help students practise finding the main idea.",
+    "category": "Language Skills"
+  },
+  {
+    "word": "writing skills",
+    "meaning": "The ability to communicate ideas effectively through written text",
+    "example": "Writing skills are developed through regular essay and report writing tasks.",
+    "category": "Language Skills"
+  },
+  {
+    "word": "listening skills",
+    "meaning": "The ability to understand spoken language accurately",
+    "example": "Listening skills are tested through dictation and audio-based activities.",
+    "category": "Language Skills"
+  },
+  {
+    "word": "speaking skills",
+    "meaning": "The ability to express ideas clearly and confidently in spoken language",
+    "example": "Debates and discussions help students develop their speaking skills.",
+    "category": "Language Skills"
+  },
+  {
+    "word": "cohesion",
+    "meaning": "The way ideas and sentences in a piece of writing link together smoothly",
+    "example": "Good cohesion makes an essay easier for the reader to follow.",
+    "category": "Language Skills"
+  },
+  {
+    "word": "coherence",
+    "meaning": "The logical organisation and flow of ideas in spoken or written language",
+    "example": "The examiner marked the essay down for lack of coherence in argument.",
+    "category": "Language Skills"
+  },
+  {
+    "word": "peer learning",
+    "meaning": "A process where students teach and learn from each other",
+    "example": "Peer learning was encouraged by having advanced students explain concepts to others.",
+    "category": "Learning Strategies"
+  },
+  {
+    "word": "revision",
+    "meaning": "Reviewing and studying previously learned material before an examination",
+    "example": "Students were advised to begin revision at least two weeks before the exam.",
+    "category": "Learning Strategies"
+  },
+  {
+    "word": "active learning",
+    "meaning": "A teaching approach where students are engaged in activities, not just listening",
+    "example": "Active learning techniques include group work, role-play, and problem-solving tasks.",
+    "category": "Learning Strategies"
+  },
+  {
+    "word": "rote learning",
+    "meaning": "Memorising information through repetition without necessarily understanding it",
+    "example": "Critics argue that rote learning does not develop higher-order thinking skills.",
+    "category": "Learning Strategies"
+  },
+  {
+    "word": "higher-order thinking",
+    "meaning": "Cognitive skills involving analysis, evaluation, and creation, not just recall",
+    "example": "Higher-order thinking is required when students write persuasive essays.",
+    "category": "Learning Strategies"
+  },
+  {
+    "word": "metacognition",
+    "meaning": "Awareness and understanding of one's own thought processes and learning",
+    "example": "Teachers encouraged metacognition by asking students to reflect on how they studied.",
+    "category": "Learning Strategies"
+  },
+  {
+    "word": "study skills",
+    "meaning": "Techniques and strategies that help students learn and retain information",
+    "example": "The school ran workshops to teach students effective study skills.",
+    "category": "Learning Strategies"
+  },
+  {
+    "word": "mind map",
+    "meaning": "A diagram used to visually organise information around a central concept",
+    "example": "Students drew a mind map to brainstorm ideas before writing their essays.",
+    "category": "Learning Strategies"
+  },
+  {
+    "word": "research skills",
+    "meaning": "The ability to locate, evaluate, and use information from various sources",
+    "example": "Research skills are essential for completing projects and assignments.",
+    "category": "Learning Strategies"
+  },
+  {
+    "word": "time management",
+    "meaning": "The ability to plan and use one's time effectively for study and tasks",
+    "example": "Good time management helps students balance academics and extracurricular activities.",
+    "category": "Learning Strategies"
+  }
+]

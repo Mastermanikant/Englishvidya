@@ -1,0 +1,722 @@
+[
+  {
+    "word": "MACRONUTRIENT",
+    "meaning": "A chemical substance required in relatively large amounts by the body for energy, growth, and bodily functions (namely carbohydrates, proteins, and fats).",
+    "example": "When planning your meals, it is important to balance your macronutrient intake of proteins, healthy fats, and carbs.",
+    "category": "Nutrient Intake"
+  },
+  {
+    "word": "MICRONUTRIENT",
+    "meaning": "A chemical substance, such as a vitamin or mineral, that is essential in small amounts for proper growth and metabolism.",
+    "example": "Eating a colorful variety of vegetables helps ensure you get all the necessary micronutrients your body needs.",
+    "category": "Nutrient Intake"
+  },
+  {
+    "word": "ANTIOXIDANT",
+    "meaning": "A substance that protects cells from damage caused by harmful molecules called free radicals.",
+    "example": "Blueberries and green tea are packed with antioxidants that help fight inflammation.",
+    "category": "Nutrient Intake"
+  },
+  {
+    "word": "SUPERFOOD",
+    "meaning": "A nutrient-rich food considered to be especially beneficial for health and well-being.",
+    "example": "Chia seeds are often called a superfood because they contain high amounts of fiber, protein, and omega-3s.",
+    "category": "Nutrient Intake"
+  },
+  {
+    "word": "PROBIOTICS",
+    "meaning": "Live bacteria and yeasts that are good for your health, especially your digestive system.",
+    "example": "Eating yogurt or drinking kombucha regularly can supply your gut with beneficial probiotics.",
+    "category": "Nutrient Intake"
+  },
+  {
+    "word": "PREBIOTICS",
+    "meaning": "Specialized plant fibers that act as food for the good bacteria already living in your gut.",
+    "example": "Onions, garlic, and bananas are excellent sources of prebiotics that help support healthy digestion.",
+    "category": "Nutrient Intake"
+  },
+  {
+    "word": "BIOAVAILABILITY",
+    "meaning": "The degree and rate at which a nutrient is absorbed and utilized by the body.",
+    "example": "Cooking tomatoes increases the bioavailability of lycopene, making it easier for the body to absorb.",
+    "category": "Nutrient Intake"
+  },
+  {
+    "word": "GUT MICROBIOME",
+    "meaning": "The community of trillions of microorganisms, including bacteria, fungi, and viruses, that live in human digestive tracts.",
+    "example": "A diverse diet rich in fiber supports a healthy gut microbiome, which is linked to better mood and immunity.",
+    "category": "Nutrient Intake"
+  },
+  {
+    "word": "CALORIC DENSITY",
+    "meaning": "The number of calories in a specific weight or volume of food; foods with high caloric density have many calories in small portions.",
+    "example": "Nuts have high caloric density, so you only need a small handful to get a lot of energy.",
+    "category": "Nutrient Intake"
+  },
+  {
+    "word": "OMEGA-3 FATTY ACIDS",
+    "meaning": "A group of essential fats that the body cannot make itself, which are important for brain function and heart health.",
+    "example": "Fatty fish like salmon and walnuts are rich in omega-3 fatty acids, which help reduce joint pain.",
+    "category": "Nutrient Intake"
+  },
+  {
+    "word": "TRANS FAT",
+    "meaning": "An unhealthy type of fat made through industrial processes, known to increase bad cholesterol and raise heart disease risk.",
+    "example": "Many countries have banned artificial trans fats in packaged snacks to protect public health.",
+    "category": "Nutrient Intake"
+  },
+  {
+    "word": "AMINO ACID",
+    "meaning": "An organic compound that combines to form proteins, often referred to as the building blocks of life.",
+    "example": "After a workout, your muscles need essential amino acids to repair and grow stronger.",
+    "category": "Nutrient Intake"
+  },
+  {
+    "word": "PHYTONUTRIENT",
+    "meaning": "A natural compound found in plants that is thought to promote human health and prevent diseases.",
+    "example": "The vibrant colors of vegetables come from phytonutrients, which help boost your immune system.",
+    "category": "Nutrient Intake"
+  },
+  {
+    "word": "GLYCEMIC INDEX",
+    "meaning": "A system that ranks foods on a scale from 0 to 100 based on how quickly they raise blood sugar levels.",
+    "example": "Oats have a low glycemic index, meaning they provide slow, steady energy without spikes in blood sugar.",
+    "category": "Nutrient Intake"
+  },
+  {
+    "word": "ELECTROLYTES",
+    "meaning": "Essential minerals (like sodium, potassium, and magnesium) that carry an electric charge and help regulate fluids and muscle function.",
+    "example": "Drinking water with electrolytes after a long run prevents muscle cramps and helps you rehydrate quickly.",
+    "category": "Nutrient Intake"
+  },
+  {
+    "word": "DIETARY FIBER",
+    "meaning": "The parts of plant foods that your body cannot digest, which help keep your digestive system clean and healthy.",
+    "example": "A diet high in dietary fiber keeps you feeling full longer and helps prevent constipation.",
+    "category": "Nutrient Intake"
+  },
+  {
+    "word": "TRACE MINERAL",
+    "meaning": "A mineral that the human body needs in very small amounts (such as iron, zinc, or copper) to function properly.",
+    "example": "Selenium is a trace mineral that supports thyroid health and can be found in Brazil nuts.",
+    "category": "Nutrient Intake"
+  },
+  {
+    "word": "EMPTY CALORIES",
+    "meaning": "Calories from foods and drinks that provide energy but have little to no nutritional value, like vitamins or minerals.",
+    "example": "Sodas and candy are full of empty calories that lead to weight gain without nourishing the body.",
+    "category": "Nutrient Intake"
+  },
+  {
+    "word": "CHOLESTEROL",
+    "meaning": "A waxy, fat-like substance found in your body's cells and in animal products, necessary for making hormones and digesting fats.",
+    "example": "Regular exercise can help raise HDL, which is the good kind of cholesterol that protects the heart.",
+    "category": "Nutrient Intake"
+  },
+  {
+    "word": "SATURATED FAT",
+    "meaning": "A type of fat that is usually solid at room temperature and is found mostly in animal products, like meat and butter.",
+    "example": "Limiting your intake of saturated fat can lower your risk of developing heart problems later in life.",
+    "category": "Nutrient Intake"
+  },
+  {
+    "word": "UNSATURATED FAT",
+    "meaning": "A type of fat that is usually liquid at room temperature and is found in plants and fish; considered healthy for the heart.",
+    "example": "Olive oil and avocados are excellent sources of unsaturated fat that support brain health.",
+    "category": "Nutrient Intake"
+  },
+  {
+    "word": "HYDRATION",
+    "meaning": "The process of absorbing and maintaining adequate water in your body's cells and tissues.",
+    "example": "Proper hydration is key to maintaining high energy levels and healthy skin throughout the day.",
+    "category": "Nutrient Intake"
+  },
+  {
+    "word": "COMPLEX CARBOHYDRATE",
+    "meaning": "A carbohydrate made of long chains of sugar molecules, providing slow and sustained energy (found in whole grains, beans, and vegetables).",
+    "example": "Eating complex carbohydrates like brown rice before a game gives athletes long-lasting energy.",
+    "category": "Nutrient Intake"
+  },
+  {
+    "word": "SIMPLE CARBOHYDRATE",
+    "meaning": "A sugar that is quickly broken down by the body to be used as energy, often leading to rapid spikes and drops in blood sugar.",
+    "example": "Simple carbohydrates found in fruit juice can provide a quick boost, but may leave you feeling tired later.",
+    "category": "Nutrient Intake"
+  },
+  {
+    "word": "COLLAGEN",
+    "meaning": "The most abundant protein in the human body, providing structure to skin, bones, muscles, and tendons.",
+    "example": "Many people take collagen supplements to support skin elasticity and reduce joint pain as they age.",
+    "category": "Nutrient Intake"
+  },
+  {
+    "word": "GLUTEN",
+    "meaning": "A protein found in wheat, barley, and rye that gives elasticity to dough, helping it rise and keep its shape.",
+    "example": "Bread has a chewy texture because of gluten, which traps air bubbles during baking.",
+    "category": "Nutrient Intake"
+  },
+  {
+    "word": "VITAMIN",
+    "meaning": "An organic substance that is essential in tiny amounts for the normal growth and activity of the body.",
+    "example": "Vitamin D is unique because your body can produce it when your skin is exposed to sunlight.",
+    "category": "Nutrient Intake"
+  },
+  {
+    "word": "ESSENTIAL FATTY ACIDS",
+    "meaning": "Fats that are necessary for human health but cannot be made by the body and must be obtained from food.",
+    "example": "Flaxseeds are a great plant-based source of essential fatty acids for those who do not eat fish.",
+    "category": "Nutrient Intake"
+  },
+  {
+    "word": "ENZYMES",
+    "meaning": "Proteins that speed up chemical reactions in the body, such as breaking down food during digestion.",
+    "example": "Raw pineapple contains natural digestive enzymes that help your stomach break down proteins more easily.",
+    "category": "Nutrient Intake"
+  },
+  {
+    "word": "MACROS",
+    "meaning": "A casual term for macronutrients (carbohydrates, proteins, and fats), commonly used in fitness tracking.",
+    "example": "He uses a mobile app to count his daily macros and make sure he meets his protein goals.",
+    "category": "Nutrient Intake"
+  },
+  {
+    "word": "INTERMITTENT FASTING",
+    "meaning": "An eating pattern that cycles between periods of eating and periods of fasting.",
+    "example": "She practices intermittent fasting by eating all her meals within an eight-hour window every day.",
+    "category": "Dietary Habits"
+  },
+  {
+    "word": "PLANT-BASED DIET",
+    "meaning": "A diet consisting mostly or entirely of foods derived from plants, with few or no animal products.",
+    "example": "Switching to a plant-based diet helped him lower his blood pressure and increase his daily fiber intake.",
+    "category": "Dietary Habits"
+  },
+  {
+    "word": "KETOGENIC DIET",
+    "meaning": "A high-fat, adequate-protein, low-carbohydrate diet that forces the body to burn fats rather than carbohydrates for energy.",
+    "example": "People on a ketogenic diet avoid sugary foods and grains, focusing instead on meats, eggs, and healthy oils.",
+    "category": "Dietary Habits"
+  },
+  {
+    "word": "MINDFUL EATING",
+    "meaning": "The practice of paying full attention to your food, your hunger cues, and your eating experience without distractions.",
+    "example": "Mindful eating helps you appreciate the taste of your food and prevents you from overeating.",
+    "category": "Dietary Habits"
+  },
+  {
+    "word": "INTUITIVE EATING",
+    "meaning": "An approach to food that rejects diet rules and encourages you to listen to your body's natural hunger and fullness signals.",
+    "example": "By practicing intuitive eating, she learned to eat when she was hungry and stop when she felt satisfied.",
+    "category": "Dietary Habits"
+  },
+  {
+    "word": "CLEAN EATING",
+    "meaning": "A dietary approach that focuses on eating whole, minimally processed foods that are as close to their natural state as possible.",
+    "example": "Clean eating involves choosing fresh fruits, vegetables, and whole grains over packaged snacks.",
+    "category": "Dietary Habits"
+  },
+  {
+    "word": "CALORIE DEFICIT",
+    "meaning": "A state where you burn more calories than you consume, leading to weight loss.",
+    "example": "To lose weight in a healthy way, you should create a moderate calorie deficit by eating less and moving more.",
+    "category": "Dietary Habits"
+  },
+  {
+    "word": "CALORIE SURPLUS",
+    "meaning": "A state where you consume more calories than you burn, which is often used to build muscle mass.",
+    "example": "Bodybuilders enter a calorie surplus when they want to gain muscle and strength during their training.",
+    "category": "Dietary Habits"
+  },
+  {
+    "word": "VEGANISM",
+    "meaning": "The practice of avoiding all animal products in food, clothing, and other aspects of life.",
+    "example": "Veganism requires reading food labels carefully to ensure there are no dairy, egg, or honey ingredients.",
+    "category": "Dietary Habits"
+  },
+  {
+    "word": "PESCATARIAN",
+    "meaning": "A person who does not eat meat but does eat fish and seafood, often along with vegetables and grains.",
+    "example": "As a pescatarian, he gets his protein from salmon, shrimp, and plant sources like beans and tofu.",
+    "category": "Dietary Habits"
+  },
+  {
+    "word": "WHOLE FOODS",
+    "meaning": "Foods that are unprocessed and unrefined, or processed and refined as little as possible, before being consumed.",
+    "example": "A basket of fresh apples, broccoli, and raw almonds is a great example of whole foods.",
+    "category": "Dietary Habits"
+  },
+  {
+    "word": "PORTION CONTROL",
+    "meaning": "The practice of limiting the amount of food you eat in one sitting to manage weight and prevent overeating.",
+    "example": "Using smaller plates is a simple trick that helps with portion control during dinner.",
+    "category": "Dietary Habits"
+  },
+  {
+    "word": "EMOTIONAL EATING",
+    "meaning": "The practice of consuming food in response to feelings (such as stress, sadness, or boredom) instead of physical hunger.",
+    "example": "Recognizing emotional eating is the first step toward finding healthier ways to cope with stress, like taking a walk.",
+    "category": "Dietary Habits"
+  },
+  {
+    "word": "MEAL PREP",
+    "meaning": "Short for meal preparation; the practice of planning, preparing, and packaging meals in advance to save time and eat healthier.",
+    "example": "She spends her Sunday afternoons doing meal prep so she has healthy lunches ready for the work week.",
+    "category": "Dietary Habits"
+  },
+  {
+    "word": "MEDITERRANEAN DIET",
+    "meaning": "A dietary pattern rich in vegetables, fruits, whole grains, beans, nuts, and olive oil, with moderate amounts of fish and poultry.",
+    "example": "The Mediterranean diet is widely praised by doctors for its benefits to heart health and longevity.",
+    "category": "Dietary Habits"
+  },
+  {
+    "word": "ELIMINATION DIET",
+    "meaning": "A short-term eating plan that removes specific foods that may cause allergies or digestive issues, then slowly reintroduces them to identify triggers.",
+    "example": "Her doctor recommended an elimination diet to find out if dairy was causing her skin breakouts.",
+    "category": "Dietary Habits"
+  },
+  {
+    "word": "FOOD INTOLERANCE",
+    "meaning": "A digestive system response that occurs when your body cannot properly break down a certain food, causing discomfort.",
+    "example": "His lactose intolerance means he gets a stomachache if he drinks regular cow's milk.",
+    "category": "Dietary Habits"
+  },
+  {
+    "word": "FOOD ALLERGY",
+    "meaning": "An immune system reaction that occurs soon after eating a certain food, which can cause serious symptoms like trouble breathing.",
+    "example": "Because of a severe peanut allergy, she must always carry an epinephrine injector wherever she goes.",
+    "category": "Dietary Habits"
+  },
+  {
+    "word": "ORGANIC FOOD",
+    "meaning": "Food produced using farming methods that do not involve artificial chemicals, pesticides, or genetically modified organisms.",
+    "example": "Organic food is often more expensive because the natural farming methods require more labor.",
+    "category": "Dietary Habits"
+  },
+  {
+    "word": "ULTRA-PROCESSED FOOD",
+    "meaning": "Industrial formulations made mostly from substances extracted from foods, containing additives like colorings, flavorings, and preservatives.",
+    "example": "Potato chips, soda, and instant noodles are examples of ultra-processed food that we should try to limit.",
+    "category": "Dietary Habits"
+  },
+  {
+    "word": "FARM-TO-TABLE",
+    "meaning": "A movement that promotes serving local food at restaurants and school cafeterias, preferably sourced directly from the producer.",
+    "example": "The restaurant prides itself on its farm-to-table menu, featuring ingredients harvested that very morning.",
+    "category": "Dietary Habits"
+  },
+  {
+    "word": "MEAL REPLACEMENT",
+    "meaning": "A drink, bar, or soup intended as a substitute for a solid meal, often containing controlled amounts of calories and nutrients.",
+    "example": "He drinks a protein-rich meal replacement shake in the morning when he is running late for work.",
+    "category": "Dietary Habits"
+  },
+  {
+    "word": "GLUTEN-FREE",
+    "meaning": "Containing no gluten, a protein found in wheat and other grains; essential for people with celiac disease.",
+    "example": "Many bakeries now offer gluten-free bread made from almond or rice flour.",
+    "category": "Dietary Habits"
+  },
+  {
+    "word": "DAIRY-FREE",
+    "meaning": "Containing no milk or milk products from animals, often replaced with plant-based alternatives like almond milk or oat milk.",
+    "example": "This vegan ice cream is completely dairy-free, made instead with coconut milk.",
+    "category": "Dietary Habits"
+  },
+  {
+    "word": "FLEXITARIAN",
+    "meaning": "A person who has a primarily vegetarian diet but occasionally eats meat or fish.",
+    "example": "Being a flexitarian allowed her to reduce her environmental footprint without giving up meat entirely.",
+    "category": "Dietary Habits"
+  },
+  {
+    "word": "SUGAR CRASH",
+    "meaning": "The sudden drop in energy and mood that occurs after consuming a large amount of sugar or simple carbohydrates.",
+    "example": "Eating a donut for breakfast caused a sugar crash that left him feeling exhausted by noon.",
+    "category": "Dietary Habits"
+  },
+  {
+    "word": "NUTRIENT-DENSE",
+    "meaning": "Containing a high amount of nutrients (like vitamins, minerals, and fiber) relative to its calorie content.",
+    "example": "Backup vitamins and fiber make spinach extremely nutrient-dense, offering plenty of health benefits with very few calories.",
+    "category": "Dietary Habits"
+  },
+  {
+    "word": "CRASH DIET",
+    "meaning": "A severe, rapid weight-loss plan where you dramatically restrict your food intake, which is often unhealthy and unsustainable.",
+    "example": "Instead of a crash diet, it is better to adopt long-term habits that support a healthy weight.",
+    "category": "Dietary Habits"
+  },
+  {
+    "word": "DIETARY SUPPLEMENT",
+    "meaning": "A product taken by mouth that contains a dietary ingredient (like a vitamin, mineral, or herb) intended to add to your diet.",
+    "example": "She takes a vitamin B12 dietary supplement because she follows a strict vegan diet.",
+    "category": "Dietary Habits"
+  },
+  {
+    "word": "PORTION DISTORTION",
+    "meaning": "The perception that large portion sizes of food are normal, often leading to overeating without realizing it.",
+    "example": "Restaurant plates are much larger now than in the past, contributing to portion distortion.",
+    "category": "Dietary Habits"
+  },
+  {
+    "word": "MINDFULNESS",
+    "meaning": "The mental state of being fully aware of the present moment, calmly acknowledging and accepting your feelings and thoughts.",
+    "example": "Taking five deep breaths in the morning is a simple way to bring mindfulness into your daily routine.",
+    "category": "Wellness Activities"
+  },
+  {
+    "word": "MEDITATION",
+    "meaning": "A practice where an individual uses a technique, like focusing on a specific object or breath, to train attention and achieve mental clarity.",
+    "example": "She sits quietly for ten minutes of meditation every morning to reduce her work-related anxiety.",
+    "category": "Wellness Activities"
+  },
+  {
+    "word": "BREATHWORK",
+    "meaning": "Various breathing exercises and techniques designed to improve physical, mental, and spiritual well-being.",
+    "example": "The yoga instructor guided us through a breathwork session that left us feeling deeply relaxed.",
+    "category": "Wellness Activities"
+  },
+  {
+    "word": "SLEEP HYGIENE",
+    "meaning": "A set of habits and practices that are necessary to have good nighttime sleep quality and full daytime alertness.",
+    "example": "Good sleep hygiene includes keeping your bedroom dark, cool, and free of electronic screens.",
+    "category": "Wellness Activities"
+  },
+  {
+    "word": "DIGITAL DETOX",
+    "meaning": "A period of time during which a person refrains from using electronic devices, such as smartphones and computers.",
+    "example": "He went on a digital detox over the weekend, turning off his phone to spend time in nature.",
+    "category": "Wellness Activities"
+  },
+  {
+    "word": "SELF-CARE",
+    "meaning": "The practice of taking action to preserve or improve one's own health, well-being, and happiness, particularly during periods of stress.",
+    "example": "Taking a warm bath and reading a book is her favorite form of self-care after a stressful week.",
+    "category": "Wellness Activities"
+  },
+  {
+    "word": "HOLISTIC HEALTH",
+    "meaning": "An approach to wellness that considers the whole person—body, mind, spirit, and emotions—in the quest for optimal health.",
+    "example": "Holistic health emphasizes that mental stress can manifest as physical pain, so both must be treated together.",
+    "category": "Wellness Activities"
+  },
+  {
+    "word": "CIRCADIAN RHYTHM",
+    "meaning": "The natural, internal process that regulates the sleep-wake cycle and repeats roughly every 24 hours.",
+    "example": "Exposing your eyes to bright morning sunlight helps set your circadian rhythm so you can sleep better at night.",
+    "category": "Wellness Activities"
+  },
+  {
+    "word": "BIOHACKING",
+    "meaning": "The practice of making small, incremental changes to your diet, lifestyle, or environment to optimize your body's performance and health.",
+    "example": "Using blue-light blocking glasses in the evening is a popular biohacking method to improve sleep quality.",
+    "category": "Wellness Activities"
+  },
+  {
+    "word": "FOREST BATHING",
+    "meaning": "The practice of spending quiet, meditative time in a forest or natural setting to reduce stress and improve mental well-being.",
+    "example": "We spent our afternoon forest bathing, walking slowly through the trees and listening to the birds.",
+    "category": "Wellness Activities"
+  },
+  {
+    "word": "ACUPUNCTURE",
+    "meaning": "A traditional Chinese medicine practice where thin needles are inserted into specific points of the body to relieve pain and promote healing.",
+    "example": "She started acupuncture sessions to help manage her chronic lower back pain.",
+    "category": "Wellness Activities"
+  },
+  {
+    "word": "AROMATHERAPY",
+    "meaning": "The therapeutic use of plant-derived, aromatic essential oils to promote physical and psychological well-being.",
+    "example": "Using a lavender diffuser in the bedroom is a popular form of aromatherapy for relaxation.",
+    "category": "Wellness Activities"
+  },
+  {
+    "word": "STRESS MANAGEMENT",
+    "meaning": "A set of techniques, therapies, or lifestyle changes designed to help control and reduce stress levels.",
+    "example": "Time management and regular physical exercise are key components of effective stress management.",
+    "category": "Wellness Activities"
+  },
+  {
+    "word": "JOURNALING",
+    "meaning": "The practice of keeping a written record of your thoughts, feelings, and daily experiences to improve mental clarity.",
+    "example": "Journaling before bed helps him empty his mind and write down any worries that might keep him awake.",
+    "category": "Wellness Activities"
+  },
+  {
+    "word": "GRATITUDE PRACTICE",
+    "meaning": "The habit of regularly acknowledging and appreciating the positive things in your life.",
+    "example": "Writing down three things you are thankful for each day is a simple gratitude practice that boosts happiness.",
+    "category": "Wellness Activities"
+  },
+  {
+    "word": "SOUND THERAPY",
+    "meaning": "A wellness practice that uses music, sound bowls, or specific frequencies to create states of relaxation and healing.",
+    "example": "During the sound therapy session, the deep vibrations of the bronze bowls helped clear my mind.",
+    "category": "Wellness Activities"
+  },
+  {
+    "word": "THERMAL THERAPY",
+    "meaning": "The application of heat or cold to the body to relieve pain, reduce inflammation, or promote relaxation.",
+    "example": "Alternating between a hot sauna and a cold plunge pool is a popular form of thermal therapy.",
+    "category": "Wellness Activities"
+  },
+  {
+    "word": "GROUNDING",
+    "meaning": "The practice of making direct physical contact with the earth's surface (like walking barefoot on grass or sand) to connect with its natural energy.",
+    "example": "Grounding in the grass behind his house helps him feel more connected and calm after a busy workday.",
+    "category": "Wellness Activities"
+  },
+  {
+    "word": "BURNOUT PREVENTION",
+    "meaning": "Strategies and habits used to avoid physical or mental collapse caused by overwork or prolonged stress.",
+    "example": "Setting clear boundaries between work hours and personal time is essential for burnout prevention.",
+    "category": "Wellness Activities"
+  },
+  {
+    "word": "WORK-LIFE BALANCE",
+    "meaning": "The comfortable state of equilibrium achieved between an employee's primary career duties and their private lifestyle.",
+    "example": "Achieving a good work-life balance allows you to perform well at your job while having time for family and hobbies.",
+    "category": "Wellness Activities"
+  },
+  {
+    "word": "EMOTIONAL RESILIENCE",
+    "meaning": "The ability to adapt and bounce back quickly from stressful situations, crises, or emotional challenges.",
+    "example": "Developing emotional resilience helps you view mistakes as learning opportunities rather than failures.",
+    "category": "Wellness Activities"
+  },
+  {
+    "word": "CHRONIC STRESS",
+    "meaning": "A prolonged, constant feeling of stress that can negatively impact your mental and physical health over time.",
+    "example": "Chronic stress can weaken the immune system, making you more susceptible to catching colds.",
+    "category": "Wellness Activities"
+  },
+  {
+    "word": "COGNITIVE BEHAVIORAL THERAPY",
+    "meaning": "A common type of talk therapy that helps people identify and change negative or unhelpful thought patterns and behaviors.",
+    "example": "He used cognitive behavioral therapy to overcome his fear of public speaking.",
+    "category": "Wellness Activities"
+  },
+  {
+    "word": "WELLNESS RETREAT",
+    "meaning": "A travel experience focused on improving health and well-being through activities like yoga, healthy eating, and mindfulness.",
+    "example": "She booked a weekend wellness retreat in the mountains to escape the noise of the city.",
+    "category": "Wellness Activities"
+  },
+  {
+    "word": "POSITIVE PSYCHOLOGY",
+    "meaning": "The scientific study of what makes life most worth living, focusing on human strengths, happiness, and thriving.",
+    "example": "Positive psychology teaches us that nurturing deep relationships is one of the keys to long-term happiness.",
+    "category": "Wellness Activities"
+  },
+  {
+    "word": "SELF-COMPASSION",
+    "meaning": "The practice of treating yourself with kindness, understanding, and forgiveness when you fail or make mistakes, rather than being self-critical.",
+    "example": "Practicing self-compassion helps you recover from setbacks without feeling worthless or defeated.",
+    "category": "Wellness Activities"
+  },
+  {
+    "word": "HYDROTHERAPY",
+    "meaning": "The use of water, either hot or cold, in treatments to relieve pain and promote physical well-being.",
+    "example": "The physical therapist recommended hydrotherapy in a warm pool to ease his joint stiffness.",
+    "category": "Wellness Activities"
+  },
+  {
+    "word": "ADAPTOGEN",
+    "meaning": "A natural substance, typically an herb or mushroom, that helps the body adapt to stress and exerts a normalizing effect on bodily processes.",
+    "example": "Ginseng is a well-known adaptogen used to boost energy and help the body manage daily stress.",
+    "category": "Wellness Activities"
+  },
+  {
+    "word": "DETOXIFICATION",
+    "meaning": "The physiological process by which the body removes toxic substances, primarily carried out by the liver and kidneys.",
+    "example": "Your body doesn't need fancy juices for detoxification; drinking plenty of water and eating fiber supports your liver naturally.",
+    "category": "Wellness Activities"
+  },
+  {
+    "word": "HERBAL TEA",
+    "meaning": "A beverage made from the infusion of herbs, spices, or other plant material in hot water, typically caffeine-free.",
+    "example": "Drinking chamomile herbal tea before bed helps calm the nervous system and prepare the body for sleep.",
+    "category": "Wellness Activities"
+  },
+  {
+    "word": "AEROBIC EXERCISE",
+    "meaning": "Physical exercise of low to high intensity that depends primarily on the aerobic energy-generating process, improving oxygen usage.",
+    "example": "Running, swimming, and cycling are excellent forms of aerobic exercise that strengthen your heart and lungs.",
+    "category": "Fitness & Recovery"
+  },
+  {
+    "word": "ANAEROBIC EXERCISE",
+    "meaning": "High-intensity, short-duration exercise that breaks down glucose for energy without using oxygen, building strength and power.",
+    "example": "Weightlifting and sprinting are examples of anaerobic exercise that help build muscle mass and speed.",
+    "category": "Fitness & Recovery"
+  },
+  {
+    "word": "HYPERTROPHY",
+    "meaning": "The enlargement of an organ or tissue from the increase in size of its cells, commonly referring to muscle growth from training.",
+    "example": "Lifting heavy weights with moderate repetitions is a common strategy to stimulate muscle hypertrophy.",
+    "category": "Fitness & Recovery"
+  },
+  {
+    "word": "ACTIVE RECOVERY",
+    "meaning": "Low-intensity exercise performed after a high-intensity workout to keep the blood flowing and help muscles recover.",
+    "example": "A light 20-minute walk the day after a marathon is a great form of active recovery.",
+    "category": "Fitness & Recovery"
+  },
+  {
+    "word": "FOAM ROLLING",
+    "meaning": "A self-massage technique using a foam cylinder to release muscle tightness, soreness, and improve range of motion.",
+    "example": "Foam rolling after leg day helps reduce muscle soreness and prevents stiffness.",
+    "category": "Fitness & Recovery"
+  },
+  {
+    "word": "FUNCTIONAL FITNESS",
+    "meaning": "Exercises that train your muscles to work together and prepare them for daily tasks by simulating common movements.",
+    "example": "Squats and lunges are functional fitness exercises because they mimic the movements of sitting down and climbing stairs.",
+    "category": "Fitness & Recovery"
+  },
+  {
+    "word": "CORE STABILITY",
+    "meaning": "The capacity of the muscles in your abdomen, back, and pelvis to support your spine and keep your body steady.",
+    "example": "Planks are an effective exercise for building core stability, which helps prevent lower back injury.",
+    "category": "Fitness & Recovery"
+  },
+  {
+    "word": "HIGH-INTENSITY INTERVAL TRAINING",
+    "meaning": "A training technique that involves short bursts of intense exercise alternated with brief recovery periods.",
+    "example": "High-intensity interval training, or HIIT, is a time-efficient way to burn fat and improve cardiovascular health.",
+    "category": "Fitness & Recovery"
+  },
+  {
+    "word": "RESISTANCE TRAINING",
+    "meaning": "Any exercise that causes the muscles to contract against an external resistance (like weights or bands) to increase strength.",
+    "example": "Using resistance bands is a gentle form of resistance training suitable for beginners.",
+    "category": "Fitness & Recovery"
+  },
+  {
+    "word": "MOBILITY DRILLS",
+    "meaning": "Exercises designed to improve the range of motion around your joints, helping you move more freely and efficiently.",
+    "example": "Doing shoulder mobility drills before lifting weights can prevent injury and improve your form.",
+    "category": "Fitness & Recovery"
+  },
+  {
+    "word": "DELAYED ONSET MUSCLE SORENESS",
+    "meaning": "Muscle pain, stiffness, or soreness that starts 24 to 48 hours after unfamiliar or strenuous exercise.",
+    "example": "I had terrible delayed onset muscle soreness in my calves after my first run in months.",
+    "category": "Fitness & Recovery"
+  },
+  {
+    "word": "PROGRESSIVE OVERLOAD",
+    "meaning": "The gradual increase of stress placed upon the body during exercise training over time, encouraging adaptation and growth.",
+    "example": "To build strength, he applies progressive overload by adding a small amount of weight to the bar each week.",
+    "category": "Fitness & Recovery"
+  },
+  {
+    "word": "PHYSICAL CONDITIONING",
+    "meaning": "The process of training to become physically fit by doing exercises that improve strength, flexibility, and endurance.",
+    "example": "The coach focused on physical conditioning during the pre-season to make sure the players could run for the full 90 minutes.",
+    "category": "Fitness & Recovery"
+  },
+  {
+    "word": "PERSONAL RECORD",
+    "meaning": "The best score, time, or weight that an individual has ever achieved in a specific exercise or event.",
+    "example": "She celebrated a new personal record after deadlifting 150 pounds for the first time.",
+    "category": "Fitness & Recovery"
+  },
+  {
+    "word": "ENDURANCE",
+    "meaning": "The ability to sustain a prolonged stressful effort or activity without giving up or becoming overly tired.",
+    "example": "Long-distance runners need exceptional mental and physical endurance to finish a race.",
+    "category": "Fitness & Recovery"
+  },
+  {
+    "word": "CROSS-TRAINING",
+    "meaning": "The action of training in more than one sport or exercise to improve performance in a main sport and prevent overuse injuries.",
+    "example": "The runner did swimming and yoga as cross-training to build full-body strength without hurting her knees.",
+    "category": "Fitness & Recovery"
+  },
+  {
+    "word": "COOL-DOWN",
+    "meaning": "A period of low-intensity exercise and stretching done at the end of a workout to slowly lower your heart rate and prevent stiffness.",
+    "example": "A five-minute walk followed by gentle stretches is a perfect cool-down after a intense run.",
+    "category": "Fitness & Recovery"
+  },
+  {
+    "word": "STRETCHING",
+    "meaning": "Elongating muscles to their full length to improve flexibility, increase range of motion, and prevent injury.",
+    "example": "Daily stretching can help relieve the muscle tension that comes from sitting at a desk all day.",
+    "category": "Fitness & Recovery"
+  },
+  {
+    "word": "PROTEIN SYNTHESIS",
+    "meaning": "The process by which the body creates new proteins to repair and build muscle fibers, usually stimulated by exercise and protein intake.",
+    "example": "Consuming protein within an hour of lifting weights helps maximize muscle protein synthesis.",
+    "category": "Fitness & Recovery"
+  },
+  {
+    "word": "MUSCLE FATIGUE",
+    "meaning": "The decline in a muscle's ability to generate force, occurring after prolonged or intense physical activity.",
+    "example": "During the final set of bench presses, muscle fatigue made it impossible to lift the bar one more time.",
+    "category": "Fitness & Recovery"
+  },
+  {
+    "word": "BODY COMPOSITION",
+    "meaning": "The percentage of fat, bone, water, and muscle in human bodies, providing a more detailed health picture than weight alone.",
+    "example": "Two people can weigh the same but have completely different body composition if one has more muscle mass.",
+    "category": "Fitness & Recovery"
+  },
+  {
+    "word": "CARDIOVASCULAR HEALTH",
+    "meaning": "The health and efficiency of the heart and blood vessels, often improved by regular aerobic exercise.",
+    "example": "Swimming three times a week is a fun way to improve your cardiovascular health and lower resting heart rate.",
+    "category": "Fitness & Recovery"
+  },
+  {
+    "word": "ISOMETRIC EXERCISE",
+    "meaning": "A type of exercise in which the muscle contracts but does not change length, and the joint does not move.",
+    "example": "The wall sit is a classic isometric exercise that builds strength in the thighs without movement.",
+    "category": "Fitness & Recovery"
+  },
+  {
+    "word": "FLEXIBILITY",
+    "meaning": "The quality of bending easily without breaking, specifically referring to the range of motion in a joint or muscle.",
+    "example": "Yoga is excellent for improving flexibility, allowing you to reach down and touch your toes with ease.",
+    "category": "Fitness & Recovery"
+  },
+  {
+    "word": "PLYOMETRICS",
+    "meaning": "Exercises in which muscles exert maximum force in short intervals of time, with the goal of increasing power (jump training).",
+    "example": "Box jumps are a popular plyometrics exercise used by athletes to build explosive leg power.",
+    "category": "Fitness & Recovery"
+  },
+  {
+    "word": "RECOVERY RUN",
+    "meaning": "A short, slow run done at an easy pace to help the body recover after a hard training session.",
+    "example": "She went for a gentle recovery run on Monday morning to help ease the stiffness in her legs.",
+    "category": "Fitness & Recovery"
+  },
+  {
+    "word": "STATIC STRETCHING",
+    "meaning": "A stretching technique where you hold a single position in place for a period of time, usually 15 to 60 seconds.",
+    "example": "Static stretching should be saved for the end of a workout when your muscles are already warm and flexible.",
+    "category": "Fitness & Recovery"
+  },
+  {
+    "word": "DYNAMIC WARM-UP",
+    "meaning": "A series of active movements that mimic the exercise you are about to perform, preparing muscles and joints for action.",
+    "example": "A dynamic warm-up involving high knees and arm circles is much better before running than standing stretches.",
+    "category": "Fitness & Recovery"
+  },
+  {
+    "word": "TARGET HEART RATE",
+    "meaning": "A specific age-based pulse rate zone that you want to maintain during aerobic exercise to get the most cardiovascular benefit.",
+    "example": "During my cycling class, I check my watch to make sure my heart rate stays within my target heart rate zone.",
+    "category": "Fitness & Recovery"
+  },
+  {
+    "word": "OVERTRAINING SYNDROME",
+    "meaning": "A condition that occurs when an athlete trains beyond the body's ability to recover, leading to fatigue, injury, and poor performance.",
+    "example": "Persistent fatigue, trouble sleeping, and a drop in athletic performance are common warning signs of overtraining syndrome.",
+    "category": "Fitness & Recovery"
+  }
+]

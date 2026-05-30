@@ -1,0 +1,650 @@
+[
+  {
+    "word": "happy",
+    "part_of_speech": "adjective",
+    "definition": "Feeling or showing pleasure or contentment.",
+    "examples": ["I am so happy to see you."],
+    "synonyms": ["cheerful", "joyful", "glad"],
+    "antonyms": ["sad", "unhappy"]
+  },
+  {
+    "word": "joyful",
+    "part_of_speech": "adjective",
+    "definition": "Feeling, expressing, or causing great pleasure and happiness.",
+    "examples": ["It was a joyful occasion."],
+    "synonyms": ["happy", "delighted", "jubilant"],
+    "antonyms": ["sorrowful", "sad"]
+  },
+  {
+    "word": "ecstatic",
+    "part_of_speech": "adjective",
+    "definition": "Feeling or expressing overwhelming happiness or joyful excitement.",
+    "examples": ["She was ecstatic when she heard the news."],
+    "synonyms": ["elated", "euphoric", "thrilled"],
+    "antonyms": ["miserable", "depressed"]
+  },
+  {
+    "word": "elated",
+    "part_of_speech": "adjective",
+    "definition": "Make (someone) ecstatically happy.",
+    "examples": ["He felt elated at the prospect of a holiday."],
+    "synonyms": ["thrilled", "exhilarated", "delighted"],
+    "antonyms": ["miserable", "sad"]
+  },
+  {
+    "word": "cheerful",
+    "part_of_speech": "adjective",
+    "definition": "Noticeably happy and optimistic.",
+    "examples": ["She greeted him with a cheerful smile."],
+    "synonyms": ["happy", "jolly", "merry"],
+    "antonyms": ["sad", "gloomy"]
+  },
+  {
+    "word": "delighted",
+    "part_of_speech": "adjective",
+    "definition": "Feeling or showing great pleasure.",
+    "examples": ["We are delighted to have you here."],
+    "synonyms": ["pleased", "glad", "thrilled"],
+    "antonyms": ["displeased", "disappointed"]
+  },
+  {
+    "word": "glad",
+    "part_of_speech": "adjective",
+    "definition": "Feeling pleasure or happiness.",
+    "examples": ["I am glad you came."],
+    "synonyms": ["pleased", "happy", "delighted"],
+    "antonyms": ["sad", "sorry"]
+  },
+  {
+    "word": "euphoric",
+    "part_of_speech": "adjective",
+    "definition": "Characterized by or feeling intense excitement and happiness.",
+    "examples": ["The team was euphoric after their victory."],
+    "synonyms": ["joyous", "ecstatic", "elated"],
+    "antonyms": ["miserable", "depressed"]
+  },
+  {
+    "word": "content",
+    "part_of_speech": "adjective",
+    "definition": "In a state of peaceful happiness.",
+    "examples": ["He seemed content with his life."],
+    "synonyms": ["satisfied", "fulfilled", "peaceful"],
+    "antonyms": ["dissatisfied", "discontented"]
+  },
+  {
+    "word": "thrilled",
+    "part_of_speech": "adjective",
+    "definition": "Extremely pleased and excited.",
+    "examples": ["I'm thrilled to be invited."],
+    "synonyms": ["excited", "delighted", "overjoyed"],
+    "antonyms": ["apathetic", "uninterested"]
+  },
+  {
+    "word": "jubilant",
+    "part_of_speech": "adjective",
+    "definition": "Feeling or expressing great happiness and triumph.",
+    "examples": ["The fans were jubilant after the final whistle."],
+    "synonyms": ["overjoyed", "exultant", "triumphant"],
+    "antonyms": ["despondent", "defeated"]
+  },
+  {
+    "word": "blissful",
+    "part_of_speech": "adjective",
+    "definition": "Extremely happy; full of joy.",
+    "examples": ["We spent a blissful week on the island."],
+    "synonyms": ["joyous", "ecstatic", "delightful"],
+    "antonyms": ["miserable", "wretched"]
+  },
+  {
+    "word": "gleeful",
+    "part_of_speech": "adjective",
+    "definition": "Exuberantly or triumphantly joyful.",
+    "examples": ["She gave a gleeful chuckle."],
+    "synonyms": ["delighted", "joyful", "happy"],
+    "antonyms": ["sad", "gloomy"]
+  },
+  {
+    "word": "radiant",
+    "part_of_speech": "adjective",
+    "definition": "Clearly emanating great joy, love, or health.",
+    "examples": ["She was radiant with happiness."],
+    "synonyms": ["glowing", "shining", "joyful"],
+    "antonyms": ["dull", "gloomy"]
+  },
+  {
+    "word": "merry",
+    "part_of_speech": "adjective",
+    "definition": "Cheerful and lively.",
+    "examples": ["He wished everyone a merry Christmas."],
+    "synonyms": ["cheerful", "jolly", "festive"],
+    "antonyms": ["miserable", "somber"]
+  },
+  {
+    "word": "sad",
+    "part_of_speech": "adjective",
+    "definition": "Feeling or showing sorrow; unhappy.",
+    "examples": ["The movie had a very sad ending."],
+    "synonyms": ["unhappy", "sorrowful", "depressed"],
+    "antonyms": ["happy", "cheerful"]
+  },
+  {
+    "word": "sorrowful",
+    "part_of_speech": "adjective",
+    "definition": "Feeling or showing grief.",
+    "examples": ["She looked at him with sorrowful eyes."],
+    "synonyms": ["sad", "mournful", "heartbroken"],
+    "antonyms": ["joyful", "happy"]
+  },
+  {
+    "word": "depressed",
+    "part_of_speech": "adjective",
+    "definition": "In a state of general unhappiness or despondency.",
+    "examples": ["He felt lonely and depressed."],
+    "synonyms": ["sad", "miserable", "down"],
+    "antonyms": ["cheerful", "happy"]
+  },
+  {
+    "word": "melancholy",
+    "part_of_speech": "adjective",
+    "definition": "Feeling or expressing pensive sadness.",
+    "examples": ["She felt a little melancholy at the thought of leaving."],
+    "synonyms": ["sad", "sorrowful", "gloomy"],
+    "antonyms": ["cheerful", "happy"]
+  },
+  {
+    "word": "miserable",
+    "part_of_speech": "adjective",
+    "definition": "Wretchedly unhappy or uncomfortable.",
+    "examples": ["The cold weather made everyone miserable."],
+    "synonyms": ["unhappy", "sad", "wretched"],
+    "antonyms": ["happy", "cheerful"]
+  },
+  {
+    "word": "gloomy",
+    "part_of_speech": "adjective",
+    "definition": "Causing or feeling depression or despondency.",
+    "examples": ["He fell into a gloomy mood."],
+    "synonyms": ["dark", "depressing", "dismal"],
+    "antonyms": ["bright", "cheerful"]
+  },
+  {
+    "word": "heartbroken",
+    "part_of_speech": "adjective",
+    "definition": "Suffering from overwhelming distress.",
+    "examples": ["He was heartbroken when she left him."],
+    "synonyms": ["devastated", "crushed", "grief-stricken"],
+    "antonyms": ["overjoyed", "elated"]
+  },
+  {
+    "word": "devastated",
+    "part_of_speech": "adjective",
+    "definition": "Extremely shocked and saddened.",
+    "examples": ["They were devastated by the bad news."],
+    "synonyms": ["shattered", "crushed", "shocked"],
+    "antonyms": ["unaffected", "indifferent"]
+  },
+  {
+    "word": "despondent",
+    "part_of_speech": "adjective",
+    "definition": "In low spirits from loss of hope or courage.",
+    "examples": ["She grew despondent as the search continued without success."],
+    "synonyms": ["disheartened", "discouraged", "downcast"],
+    "antonyms": ["hopeful", "optimistic"]
+  },
+  {
+    "word": "mournful",
+    "part_of_speech": "adjective",
+    "definition": "Feeling, expressing, or inducing sadness, regret, or grief.",
+    "examples": ["A mournful breeze blew through the trees."],
+    "synonyms": ["sorrowful", "sad", "melancholic"],
+    "antonyms": ["cheerful", "joyful"]
+  },
+  {
+    "word": "grief-stricken",
+    "part_of_speech": "adjective",
+    "definition": "Overcome with deep sorrow.",
+    "examples": ["The grief-stricken family stood in silence."],
+    "synonyms": ["heartbroken", "devastated", "anguished"],
+    "antonyms": ["joyous", "comforted"]
+  },
+  {
+    "word": "downcast",
+    "part_of_speech": "adjective",
+    "definition": "Feeling despondent.",
+    "examples": ["He looked downcast after the failure."],
+    "synonyms": ["sad", "depressed", "disheartened"],
+    "antonyms": ["cheerful", "elated"]
+  },
+  {
+    "word": "dispirited",
+    "part_of_speech": "adjective",
+    "definition": "Having lost enthusiasm and hope.",
+    "examples": ["The team was dispirited by the continuous losses."],
+    "synonyms": ["discouraged", "downhearted", "demoralized"],
+    "antonyms": ["encouraged", "enthusiastic"]
+  },
+  {
+    "word": "forlorn",
+    "part_of_speech": "adjective",
+    "definition": "Pitifully sad and abandoned or lonely.",
+    "examples": ["She looked a forlorn figure standing at the bus stop."],
+    "synonyms": ["miserable", "sad", "abandoned"],
+    "antonyms": ["cheerful", "cared for"]
+  },
+  {
+    "word": "somber",
+    "part_of_speech": "adjective",
+    "definition": "Oppressively solemn or sober in mood.",
+    "examples": ["He looked at her with a somber expression."],
+    "synonyms": ["serious", "grave", "solemn"],
+    "antonyms": ["cheerful", "frivolous"]
+  },
+  {
+    "word": "angry",
+    "part_of_speech": "adjective",
+    "definition": "Feeling or showing strong annoyance, displeasure, or hostility.",
+    "examples": ["She felt angry about the injustice."],
+    "synonyms": ["furious", "irate", "annoyed"],
+    "antonyms": ["calm", "pleased"]
+  },
+  {
+    "word": "furious",
+    "part_of_speech": "adjective",
+    "definition": "Extremely angry.",
+    "examples": ["He was furious when he found out the truth."],
+    "synonyms": ["enraged", "infuriated", "livid"],
+    "antonyms": ["calm", "content"]
+  },
+  {
+    "word": "enraged",
+    "part_of_speech": "adjective",
+    "definition": "Very angry; furious.",
+    "examples": ["The enraged customer demanded a refund."],
+    "synonyms": ["furious", "incensed", "livid"],
+    "antonyms": ["calm", "placated"]
+  },
+  {
+    "word": "irritated",
+    "part_of_speech": "adjective",
+    "definition": "Showing or feeling slight anger; annoyed.",
+    "examples": ["She was visibly irritated by his constant interruptions."],
+    "synonyms": ["annoyed", "vexed", "bothered"],
+    "antonyms": ["pleased", "delighted"]
+  },
+  {
+    "word": "annoyed",
+    "part_of_speech": "adjective",
+    "definition": "Slightly angry; irritated.",
+    "examples": ["I was annoyed that they didn't call me."],
+    "synonyms": ["irritated", "bothered", "vexed"],
+    "antonyms": ["pleased", "content"]
+  },
+  {
+    "word": "exasperated",
+    "part_of_speech": "adjective",
+    "definition": "Intensely irritated and frustrated.",
+    "examples": ["She let out an exasperated sigh."],
+    "synonyms": ["infuriated", "annoyed", "irritated"],
+    "antonyms": ["calm", "patient"]
+  },
+  {
+    "word": "resentful",
+    "part_of_speech": "adjective",
+    "definition": "Feeling or expressing bitterness or indignation at having been treated unfairly.",
+    "examples": ["He was resentful of his brother's success."],
+    "synonyms": ["bitter", "indignant", "jealous"],
+    "antonyms": ["content", "forgiving"]
+  },
+  {
+    "word": "outraged",
+    "part_of_speech": "adjective",
+    "definition": "Aroused to fierce anger, indignation, or resentment.",
+    "examples": ["The public was outraged by the scandal."],
+    "synonyms": ["angered", "incensed", "shocked"],
+    "antonyms": ["indifferent", "pleased"]
+  },
+  {
+    "word": "irate",
+    "part_of_speech": "adjective",
+    "definition": "Feeling or characterized by great anger.",
+    "examples": ["An irate customer demanded to speak to the manager."],
+    "synonyms": ["angry", "furious", "incensed"],
+    "antonyms": ["calm", "happy"]
+  },
+  {
+    "word": "indignant",
+    "part_of_speech": "adjective",
+    "definition": "Feeling or showing anger or annoyance at what is perceived as unfair treatment.",
+    "examples": ["She was indignant at being the object of suspicion."],
+    "synonyms": ["resentful", "disgruntled", "angry"],
+    "antonyms": ["pleased", "accepting"]
+  },
+  {
+    "word": "livid",
+    "part_of_speech": "adjective",
+    "definition": "Furiously angry.",
+    "examples": ["He was livid when he saw the damage to his car."],
+    "synonyms": ["furious", "enraged", "incensed"],
+    "antonyms": ["calm", "mild"]
+  },
+  {
+    "word": "fuming",
+    "part_of_speech": "adjective",
+    "definition": "Feeling, showing, or expressing great anger.",
+    "examples": ["She sat in the car, fuming about his comments."],
+    "synonyms": ["seething", "angry", "furious"],
+    "antonyms": ["calm", "peaceful"]
+  },
+  {
+    "word": "wrathful",
+    "part_of_speech": "adjective",
+    "definition": "Full of or characterized by intense anger.",
+    "examples": ["The wrathful king ordered the execution."],
+    "synonyms": ["angry", "furious", "irate"],
+    "antonyms": ["peaceful", "forgiving"]
+  },
+  {
+    "word": "bitter",
+    "part_of_speech": "adjective",
+    "definition": "Feeling or showing anger, hurt, or resentment because of bad experiences or a sense of unjust treatment.",
+    "examples": ["She remained bitter about the divorce."],
+    "synonyms": ["resentful", "embittered", "cynical"],
+    "antonyms": ["content", "sweet"]
+  },
+  {
+    "word": "cross",
+    "part_of_speech": "adjective",
+    "definition": "Annoyed or angry.",
+    "examples": ["He was cross that they were late."],
+    "synonyms": ["annoyed", "irritated", "angry"],
+    "antonyms": ["pleased", "good-humored"]
+  },
+  {
+    "word": "afraid",
+    "part_of_speech": "adjective",
+    "definition": "Feeling fear or anxiety; frightened.",
+    "examples": ["Are you afraid of spiders?"],
+    "synonyms": ["scared", "frightened", "terrified"],
+    "antonyms": ["brave", "confident"]
+  },
+  {
+    "word": "scared",
+    "part_of_speech": "adjective",
+    "definition": "Fearful; frightened.",
+    "examples": ["I was too scared to look down."],
+    "synonyms": ["afraid", "frightened", "terrified"],
+    "antonyms": ["unafraid", "bold"]
+  },
+  {
+    "word": "frightened",
+    "part_of_speech": "adjective",
+    "definition": "Afraid or anxious.",
+    "examples": ["The frightened child clung to his mother."],
+    "synonyms": ["scared", "afraid", "startled"],
+    "antonyms": ["calm", "brave"]
+  },
+  {
+    "word": "terrified",
+    "part_of_speech": "adjective",
+    "definition": "Cause to feel extreme fear.",
+    "examples": ["She was terrified of the thunder."],
+    "synonyms": ["petrified", "scared stiff", "horrified"],
+    "antonyms": ["fearless", "unafraid"]
+  },
+  {
+    "word": "anxious",
+    "part_of_speech": "adjective",
+    "definition": "Experiencing worry, unease, or nervousness, typically about an imminent event.",
+    "examples": ["She was anxious about the exam."],
+    "synonyms": ["worried", "nervous", "apprehensive"],
+    "antonyms": ["calm", "confident"]
+  },
+  {
+    "word": "nervous",
+    "part_of_speech": "adjective",
+    "definition": "Easily agitated or alarmed; tending to be anxious.",
+    "examples": ["He felt nervous before giving the speech."],
+    "synonyms": ["anxious", "edgy", "tense"],
+    "antonyms": ["calm", "relaxed"]
+  },
+  {
+    "word": "panicked",
+    "part_of_speech": "adjective",
+    "definition": "Feeling sudden, unreasoning terror.",
+    "examples": ["The panicked crowd rushed for the exits."],
+    "synonyms": ["frightened", "alarmed", "terrified"],
+    "antonyms": ["calm", "composed"]
+  },
+  {
+    "word": "apprehensive",
+    "part_of_speech": "adjective",
+    "definition": "Anxious or fearful that something bad or unpleasant will happen.",
+    "examples": ["He felt apprehensive about going home."],
+    "synonyms": ["anxious", "worried", "uneasy"],
+    "antonyms": ["confident", "relaxed"]
+  },
+  {
+    "word": "worried",
+    "part_of_speech": "adjective",
+    "definition": "Anxious or troubled about actual or potential problems.",
+    "examples": ["I'm worried about his health."],
+    "synonyms": ["anxious", "concerned", "troubled"],
+    "antonyms": ["unconcerned", "calm"]
+  },
+  {
+    "word": "petrified",
+    "part_of_speech": "adjective",
+    "definition": "So frightened that one is unable to move; terrified.",
+    "examples": ["She looked at him with a petrified expression."],
+    "synonyms": ["terrified", "horrified", "scared stiff"],
+    "antonyms": ["brave", "calm"]
+  },
+  {
+    "word": "fearful",
+    "part_of_speech": "adjective",
+    "definition": "Feeling afraid; showing fear or anxiety.",
+    "examples": ["They are fearful of the future."],
+    "synonyms": ["afraid", "scared", "nervous"],
+    "antonyms": ["brave", "fearless"]
+  },
+  {
+    "word": "alarmed",
+    "part_of_speech": "adjective",
+    "definition": "Cause someone to feel frightened, disturbed, or in danger.",
+    "examples": ["He was alarmed by the sudden noise."],
+    "synonyms": ["frightened", "scared", "panicked"],
+    "antonyms": ["calm", "reassured"]
+  },
+  {
+    "word": "intimidated",
+    "part_of_speech": "adjective",
+    "definition": "Frighten or overawe (someone), especially in order to make them do what one wants.",
+    "examples": ["She felt intimidated by the older students."],
+    "synonyms": ["daunted", "frightened", "cowed"],
+    "antonyms": ["confident", "unafraid"]
+  },
+  {
+    "word": "uneasy",
+    "part_of_speech": "adjective",
+    "definition": "Causing or feeling anxiety; troubled or uncomfortable.",
+    "examples": ["She felt a little uneasy about the plan."],
+    "synonyms": ["anxious", "worried", "apprehensive"],
+    "antonyms": ["calm", "comfortable"]
+  },
+  {
+    "word": "horrified",
+    "part_of_speech": "adjective",
+    "definition": "Filled with horror; extremely shocked.",
+    "examples": ["We were horrified by the news."],
+    "synonyms": ["terrified", "shocked", "appalled"],
+    "antonyms": ["delighted", "pleased"]
+  },
+  {
+    "word": "surprised",
+    "part_of_speech": "adjective",
+    "definition": "Feeling or showing surprise because something unexpected has happened.",
+    "examples": ["I was surprised to see him there."],
+    "synonyms": ["amazed", "astonished", "startled"],
+    "antonyms": ["unsurprised", "expectant"]
+  },
+  {
+    "word": "amazed",
+    "part_of_speech": "adjective",
+    "definition": "Greatly surprised; astounded.",
+    "examples": ["She was amazed at his skill."],
+    "synonyms": ["astonished", "astounded", "stunned"],
+    "antonyms": ["unimpressed", "indifferent"]
+  },
+  {
+    "word": "astonished",
+    "part_of_speech": "adjective",
+    "definition": "Greatly surprised or impressed; amazed.",
+    "examples": ["He looked astonished at the news."],
+    "synonyms": ["amazed", "astounded", "surprised"],
+    "antonyms": ["unsurprised", "expecting"]
+  },
+  {
+    "word": "astounded",
+    "part_of_speech": "adjective",
+    "definition": "Shock or greatly surprise.",
+    "examples": ["I was astounded by the results."],
+    "synonyms": ["amazed", "astonished", "staggered"],
+    "antonyms": ["unsurprised", "expectant"]
+  },
+  {
+    "word": "shocked",
+    "part_of_speech": "adjective",
+    "definition": "Cause (someone) to feel surprised and upset.",
+    "examples": ["She was shocked by his rudeness."],
+    "synonyms": ["appalled", "horrified", "stunned"],
+    "antonyms": ["unsurprised", "calm"]
+  },
+  {
+    "word": "stunned",
+    "part_of_speech": "adjective",
+    "definition": "So shocked that one is temporarily unable to react; astonished.",
+    "examples": ["The audience sat in stunned silence."],
+    "synonyms": ["amazed", "astounded", "speechless"],
+    "antonyms": ["unimpressed", "aware"]
+  },
+  {
+    "word": "speechless",
+    "part_of_speech": "adjective",
+    "definition": "Unable to speak, especially as the temporary result of shock or some strong emotion.",
+    "examples": ["The beauty of the landscape left her speechless."],
+    "synonyms": ["dumbfounded", "wordless", "silent"],
+    "antonyms": ["talkative", "vocal"]
+  },
+  {
+    "word": "startled",
+    "part_of_speech": "adjective",
+    "definition": "Feeling or showing sudden shock or alarm.",
+    "examples": ["He gave a startled jump."],
+    "synonyms": ["surprised", "frightened", "alarmed"],
+    "antonyms": ["calm", "relaxed"]
+  },
+  {
+    "word": "bewildered",
+    "part_of_speech": "adjective",
+    "definition": "Perplexed and confused; very puzzled.",
+    "examples": ["He looked bewildered by the instructions."],
+    "synonyms": ["baffled", "mystified", "confused"],
+    "antonyms": ["clearheaded", "understanding"]
+  },
+  {
+    "word": "dumbfounded",
+    "part_of_speech": "adjective",
+    "definition": "Greatly astonish or amaze.",
+    "examples": ["They were dumbfounded by the announcement."],
+    "synonyms": ["speechless", "astounded", "amazed"],
+    "antonyms": ["unsurprised", "expectant"]
+  },
+  {
+    "word": "flabbergasted",
+    "part_of_speech": "adjective",
+    "definition": "Surprise (someone) greatly; astonish.",
+    "examples": ["I was flabbergasted when she told me."],
+    "synonyms": ["astonished", "astounded", "amazed"],
+    "antonyms": ["unsurprised", "expectant"]
+  },
+  {
+    "word": "awestruck",
+    "part_of_speech": "adjective",
+    "definition": "Filled with or revealing awe.",
+    "examples": ["People were awestruck by the sheer size of the monument."],
+    "synonyms": ["amazed", "wonderstruck", "astonished"],
+    "antonyms": ["unimpressed", "bored"]
+  },
+  {
+    "word": "disgusted",
+    "part_of_speech": "adjective",
+    "definition": "Feeling or showing revulsion or strong disapproval.",
+    "examples": ["He looked disgusted by the mess."],
+    "synonyms": ["repulsed", "revolted", "appalled"],
+    "antonyms": ["pleased", "delighted"]
+  },
+  {
+    "word": "repulsed",
+    "part_of_speech": "adjective",
+    "definition": "Driven back or repelled, experiencing intense distaste.",
+    "examples": ["She was repulsed by the smell."],
+    "synonyms": ["disgusted", "revolted", "nauseated"],
+    "antonyms": ["attracted", "charmed"]
+  },
+  {
+    "word": "revolted",
+    "part_of_speech": "adjective",
+    "definition": "Cause to feel disgust.",
+    "examples": ["He was revolted by the cruelty of the act."],
+    "synonyms": ["disgusted", "repelled", "sickened"],
+    "antonyms": ["delighted", "pleased"]
+  },
+  {
+    "word": "appalled",
+    "part_of_speech": "adjective",
+    "definition": "Greatly dismayed or horrified.",
+    "examples": ["We were appalled by the living conditions."],
+    "synonyms": ["horrified", "shocked", "outraged"],
+    "antonyms": ["pleased", "impressed"]
+  },
+  {
+    "word": "sickened",
+    "part_of_speech": "adjective",
+    "definition": "Make (someone) feel disgusted or appalled.",
+    "examples": ["I am sickened by this violence."],
+    "synonyms": ["disgusted", "revolted", "nauseated"],
+    "antonyms": ["delighted", "comforted"]
+  },
+  {
+    "word": "nauseated",
+    "part_of_speech": "adjective",
+    "definition": "Make (someone) feel sick; affect with nausea.",
+    "examples": ["The smell of the food nauseated him."],
+    "synonyms": ["sickened", "disgusted", "repelled"],
+    "antonyms": ["soothed", "pleased"]
+  },
+  {
+    "word": "offended",
+    "part_of_speech": "adjective",
+    "definition": "Resentful or annoyed, typically as a result of a perceived insult.",
+    "examples": ["She looked offended by the joke."],
+    "synonyms": ["insulted", "affronted", "upset"],
+    "antonyms": ["pleased", "complimented"]
+  },
+  {
+    "word": "hopeful",
+    "part_of_speech": "adjective",
+    "definition": "Feeling or inspiring optimism about a future event.",
+    "examples": ["He remained hopeful that they would succeed."],
+    "synonyms": ["optimistic", "confident", "positive"],
+    "antonyms": ["hopeless", "pessimistic"]
+  },
+  {
+    "word": "guilty",
+    "part_of_speech": "adjective",
+    "definition": "Culpable of or responsible for a specified wrongdoing.",
+    "examples": ["She felt guilty about not visiting her parents."],
+    "synonyms": ["ashamed", "remorseful", "sorry"],
+    "antonyms": ["innocent", "shameless"]
+  }
+]

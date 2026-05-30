@@ -1,0 +1,1693 @@
+[
+  {
+    "word": "piece of cake",
+    "partOfSpeech": "idiom",
+    "level": "A2",
+    "meaning": {
+      "english": "something that is very easy to do",
+      "hindi": "बहुत आसान काम"
+    },
+    "examples": [
+      {
+        "english": "The math test was a piece of cake.",
+        "hindi": "गणित का टेस्ट बहुत आसान था।"
+      }
+    ],
+    "pronunciation": "/piːs əv keɪk/",
+    "synonyms": ["breeze", "child's play"],
+    "antonyms": ["hard", "difficult"],
+    "tags": ["idiom", "common"]
+  },
+  {
+    "word": "break a leg",
+    "partOfSpeech": "idiom",
+    "level": "B1",
+    "meaning": {
+      "english": "good luck (especially before a performance)",
+      "hindi": "शुभकामनाएं (विशेषकर प्रदर्शन से पहले)"
+    },
+    "examples": [
+      {
+        "english": "Break a leg in your play tonight!",
+        "hindi": "आज रात अपने नाटक में अच्छा प्रदर्शन करना (शुभकामनाएं)!"
+      }
+    ],
+    "pronunciation": "/breɪk ə lɛɡ/",
+    "synonyms": ["good luck", "all the best"],
+    "antonyms": [],
+    "tags": ["idiom", "encouragement"]
+  },
+  {
+    "word": "hit the hay",
+    "partOfSpeech": "idiom",
+    "level": "B1",
+    "meaning": {
+      "english": "to go to bed",
+      "hindi": "सोने जाना"
+    },
+    "examples": [
+      {
+        "english": "I'm exhausted, it's time to hit the hay.",
+        "hindi": "मैं बहुत थक गया हूँ, अब सोने का समय हो गया है।"
+      }
+    ],
+    "pronunciation": "/hɪt ðə heɪ/",
+    "synonyms": ["go to sleep", "turn in", "hit the sack"],
+    "antonyms": ["wake up", "stay up"],
+    "tags": ["idiom", "sleep"]
+  },
+  {
+    "word": "under the weather",
+    "partOfSpeech": "idiom",
+    "level": "B1",
+    "meaning": {
+      "english": "feeling slightly ill",
+      "hindi": "बीमार महसूस करना"
+    },
+    "examples": [
+      {
+        "english": "I'm feeling a bit under the weather today, so I'll stay home.",
+        "hindi": "आज मैं थोड़ा बीमार महसूस कर रहा हूँ, इसलिए मैं घर पर ही रहूँगा।"
+      }
+    ],
+    "pronunciation": "/ˈʌndər ðə ˈwɛðər/",
+    "synonyms": ["ill", "sick", "unwell"],
+    "antonyms": ["healthy", "well"],
+    "tags": ["idiom", "health"]
+  },
+  {
+    "word": "bite the bullet",
+    "partOfSpeech": "idiom",
+    "level": "C1",
+    "meaning": {
+      "english": "to force yourself to do something difficult or unpleasant",
+      "hindi": "किसी कठिन या अप्रिय स्थिति का सामना करना"
+    },
+    "examples": [
+      {
+        "english": "I hate going to the dentist, but I'll just have to bite the bullet.",
+        "hindi": "मुझे डेंटिस्ट के पास जाना नापसंद है, लेकिन मुझे इसका सामना करना ही होगा।"
+      }
+    ],
+    "pronunciation": "/baɪt ðə ˈbʊlɪt/",
+    "synonyms": ["face the music", "tough it out"],
+    "antonyms": ["avoid", "dodge"],
+    "tags": ["idiom", "courage"]
+  },
+  {
+    "word": "spill the beans",
+    "partOfSpeech": "idiom",
+    "level": "B2",
+    "meaning": {
+      "english": "to reveal a secret",
+      "hindi": "रहस्य उजागर करना"
+    },
+    "examples": [
+      {
+        "english": "Come on, spill the beans! What did he say?",
+        "hindi": "चलो बताओ, रहस्य खोलो! उसने क्या कहा?"
+      }
+    ],
+    "pronunciation": "/spɪl ðə biːnz/",
+    "synonyms": ["reveal", "disclose", "let the cat out of the bag"],
+    "antonyms": ["keep a secret", "hide"],
+    "tags": ["idiom", "secret"]
+  },
+  {
+    "word": "cost an arm and a leg",
+    "partOfSpeech": "idiom",
+    "level": "B2",
+    "meaning": {
+      "english": "to be very expensive",
+      "hindi": "बहुत महँगा होना"
+    },
+    "examples": [
+      {
+        "english": "This designer bag cost an arm and a leg.",
+        "hindi": "यह डिज़ाइनर बैग बहुत महँगा था।"
+      }
+    ],
+    "pronunciation": "/kɒst ən ɑːrm ənd ə lɛɡ/",
+    "synonyms": ["expensive", "pricey", "exorbitant"],
+    "antonyms": ["cheap", "inexpensive"],
+    "tags": ["idiom", "money"]
+  },
+  {
+    "word": "cut corners",
+    "partOfSpeech": "idiom",
+    "level": "B2",
+    "meaning": {
+      "english": "to do something in the easiest, cheapest, or fastest way, often sacrificing quality",
+      "hindi": "पैसे या समय बचाने के लिए काम ठीक से न करना"
+    },
+    "examples": [
+      {
+        "english": "They cut corners when building this house, and now the roof is leaking.",
+        "hindi": "उन्होंने यह घर बनाते समय काम ठीक से नहीं किया, और अब छत टपक रही है।"
+      }
+    ],
+    "pronunciation": "/kʌt ˈkɔːrnərz/",
+    "synonyms": ["skimp"],
+    "antonyms": ["do properly", "be thorough"],
+    "tags": ["idiom", "work"]
+  },
+  {
+    "word": "add insult to injury",
+    "partOfSpeech": "idiom",
+    "level": "C1",
+    "meaning": {
+      "english": "to make a bad situation worse",
+      "hindi": "जले पर नमक छिड़कना (स्थिति को और खराब करना)"
+    },
+    "examples": [
+      {
+        "english": "My car broke down, and to add insult to injury, it started pouring rain.",
+        "hindi": "मेरी कार खराब हो गई, और जले पर नमक छिड़कने वाली बात यह हुई कि भारी बारिश शुरू हो गई।"
+      }
+    ],
+    "pronunciation": "/æd ˈɪnsʌlt tʊ ˈɪndʒəri/",
+    "synonyms": ["make matters worse", "rub salt in the wound"],
+    "antonyms": ["help", "comfort"],
+    "tags": ["idiom", "conflict"]
+  },
+  {
+    "word": "burn bridges",
+    "partOfSpeech": "idiom",
+    "level": "B2",
+    "meaning": {
+      "english": "to destroy relationships or opportunities, making it impossible to return",
+      "hindi": "रिश्ते खराब करना या वापसी के रास्ते बंद करना"
+    },
+    "examples": [
+      {
+        "english": "Try not to burn bridges when you leave your job.",
+        "hindi": "जब आप अपनी नौकरी छोड़ें तो रिश्ते खराब न करने की कोशिश करें।"
+      }
+    ],
+    "pronunciation": "/bɜːrn ˈbrɪdʒɪz/",
+    "synonyms": ["sever ties", "destroy relationships"],
+    "antonyms": ["build relationships", "network"],
+    "tags": ["idiom", "relationships"]
+  },
+  {
+    "word": "bite off more than you can chew",
+    "partOfSpeech": "idiom",
+    "level": "B2",
+    "meaning": {
+      "english": "to take on a task that is way too big or difficult",
+      "hindi": "अपनी क्षमता से अधिक काम ले लेना"
+    },
+    "examples": [
+      {
+        "english": "I think I bit off more than I can chew by taking three extra classes.",
+        "hindi": "मुझे लगता है कि मैंने तीन अतिरिक्त कक्षाएं लेकर अपनी क्षमता से अधिक काम ले लिया है।"
+      }
+    ],
+    "pronunciation": "/baɪt ɒf mɔːr ðən ju kən tʃuː/",
+    "synonyms": ["overcommit", "overextend"],
+    "antonyms": ["take it easy", "undercommit"],
+    "tags": ["idiom", "work"]
+  },
+  {
+    "word": "jump on the bandwagon",
+    "partOfSpeech": "idiom",
+    "level": "C1",
+    "meaning": {
+      "english": "to join a popular trend or activity",
+      "hindi": "किसी लोकप्रिय प्रवृत्ति या गतिविधि में शामिल होना (बहती गंगा में हाथ धोना)"
+    },
+    "examples": [
+      {
+        "english": "Many companies are jumping on the bandwagon and creating eco-friendly products.",
+        "hindi": "कई कंपनियाँ इस प्रवृत्ति में शामिल हो रही हैं और पर्यावरण के अनुकूल उत्पाद बना रही हैं।"
+      }
+    ],
+    "pronunciation": "/dʒʌmp ɒn ðə ˈbændwæɡən/",
+    "synonyms": ["follow the crowd", "join in"],
+    "antonyms": ["be original", "stand out"],
+    "tags": ["idiom", "trend"]
+  },
+  {
+    "word": "pull someone's leg",
+    "partOfSpeech": "idiom",
+    "level": "B1",
+    "meaning": {
+      "english": "to joke with someone, to trick them in a playful way",
+      "hindi": "मजाक करना या टांग खींचना"
+    },
+    "examples": [
+      {
+        "english": "Don't worry, I'm just pulling your leg.",
+        "hindi": "चिंता मत करो, मैं बस तुम्हारा मजाक कर रहा हूँ।"
+      }
+    ],
+    "pronunciation": "/pʊl ˈsʌmwʌnz lɛɡ/",
+    "synonyms": ["joke", "tease", "kid"],
+    "antonyms": ["be serious"],
+    "tags": ["idiom", "humor"]
+  },
+  {
+    "word": "speak of the devil",
+    "partOfSpeech": "idiom",
+    "level": "B2",
+    "meaning": {
+      "english": "said when a person appears just after being mentioned",
+      "hindi": "शैतान का नाम लिया और शैतान हाज़िर"
+    },
+    "examples": [
+      {
+        "english": "Speak of the devil, here comes John now.",
+        "hindi": "शैतान का नाम लिया और शैतान हाज़िर, लो जॉन आ गया।"
+      }
+    ],
+    "pronunciation": "/spiːk əv ðə ˈdɛvəl/",
+    "synonyms": [],
+    "antonyms": [],
+    "tags": ["idiom", "conversation"]
+  },
+  {
+    "word": "see eye to eye",
+    "partOfSpeech": "idiom",
+    "level": "B2",
+    "meaning": {
+      "english": "to agree fully",
+      "hindi": "पूरी तरह सहमत होना"
+    },
+    "examples": [
+      {
+        "english": "My boss and I don't always see eye to eye.",
+        "hindi": "मैं और मेरे बॉस हमेशा एक-दूसरे से सहमत नहीं होते।"
+      }
+    ],
+    "pronunciation": "/siː aɪ tʊ aɪ/",
+    "synonyms": ["agree", "concur", "be in accord"],
+    "antonyms": ["disagree", "clash"],
+    "tags": ["idiom", "agreement"]
+  },
+  {
+    "word": "once in a blue moon",
+    "partOfSpeech": "idiom",
+    "level": "B1",
+    "meaning": {
+      "english": "very rarely",
+      "hindi": "बहुत कम, कभी-कभार (ईद का चाँद)"
+    },
+    "examples": [
+      {
+        "english": "I only go to the cinema once in a blue moon.",
+        "hindi": "मैं बहुत कम ही सिनेमा जाता हूँ।"
+      }
+    ],
+    "pronunciation": "/wʌns ɪn ə bluː muːn/",
+    "synonyms": ["rarely", "seldom", "hardly ever"],
+    "antonyms": ["often", "frequently", "always"],
+    "tags": ["idiom", "time"]
+  },
+  {
+    "word": "when pigs fly",
+    "partOfSpeech": "idiom",
+    "level": "B2",
+    "meaning": {
+      "english": "something that will never happen",
+      "hindi": "असंभव काम (जब सूअर उड़ेंगे)"
+    },
+    "examples": [
+      {
+        "english": "I'll clean my room when pigs fly.",
+        "hindi": "मैं अपना कमरा तब साफ करूँगा जब सूअर उड़ेंगे (यानी कभी नहीं)।"
+      }
+    ],
+    "pronunciation": "/wɛn pɪɡz flaɪ/",
+    "synonyms": ["never", "impossible"],
+    "antonyms": ["certainly", "definitely"],
+    "tags": ["idiom", "impossibility"]
+  },
+  {
+    "word": "let the cat out of the bag",
+    "partOfSpeech": "idiom",
+    "level": "C1",
+    "meaning": {
+      "english": "to reveal a secret by mistake",
+      "hindi": "गलती से कोई राज खोल देना"
+    },
+    "examples": [
+      {
+        "english": "I was trying to keep the party a secret, but my brother let the cat out of the bag.",
+        "hindi": "मैं पार्टी को सीक्रेट रखने की कोशिश कर रहा था, लेकिन मेरे भाई ने राज खोल दिया।"
+      }
+    ],
+    "pronunciation": "/lɛt ðə kæt aʊt əv ðə bæɡ/",
+    "synonyms": ["spill the beans", "reveal a secret"],
+    "antonyms": ["keep a secret", "hide"],
+    "tags": ["idiom", "secret"]
+  },
+  {
+    "word": "hit the nail on the head",
+    "partOfSpeech": "idiom",
+    "level": "C1",
+    "meaning": {
+      "english": "to describe exactly what is causing a situation or problem",
+      "hindi": "बिल्कुल सही बात कहना"
+    },
+    "examples": [
+      {
+        "english": "You hit the nail on the head when you said this company needs better management.",
+        "hindi": "आपने बिल्कुल सही बात कही कि इस कंपनी को बेहतर प्रबंधन की आवश्यकता है।"
+      }
+    ],
+    "pronunciation": "/hɪt ðə neɪl ɒn ðə hɛd/",
+    "synonyms": ["be absolutely right", "spot on"],
+    "antonyms": ["be wrong", "miss the mark"],
+    "tags": ["idiom", "accuracy"]
+  },
+  {
+    "word": "beat around the bush",
+    "partOfSpeech": "idiom",
+    "level": "B2",
+    "meaning": {
+      "english": "to avoid talking about what is important",
+      "hindi": "घुमा-फिरा कर बात करना"
+    },
+    "examples": [
+      {
+        "english": "Stop beating around the bush and tell me what you really think.",
+        "hindi": "घुमा-फिरा कर बात करना बंद करो और बताओ कि तुम सच में क्या सोचते हो।"
+      }
+    ],
+    "pronunciation": "/biːt əˈraʊnd ðə bʊʃ/",
+    "synonyms": ["prevaricate", "dodge the issue"],
+    "antonyms": ["get straight to the point", "be direct"],
+    "tags": ["idiom", "conversation"]
+  },
+  {
+    "word": "call it a day",
+    "partOfSpeech": "idiom",
+    "level": "B2",
+    "meaning": {
+      "english": "to stop working on something",
+      "hindi": "काम समाप्त करना (आज के लिए)"
+    },
+    "examples": [
+      {
+        "english": "We've been working for hours. Let's call it a day.",
+        "hindi": "हम घंटों से काम कर रहे हैं। चलो आज के लिए काम समाप्त करते हैं।"
+      }
+    ],
+    "pronunciation": "/kɔːl ɪt ə deɪ/",
+    "synonyms": ["finish", "stop working"],
+    "antonyms": ["keep working", "continue"],
+    "tags": ["idiom", "work"]
+  },
+  {
+    "word": "hang in there",
+    "partOfSpeech": "idiom",
+    "level": "B1",
+    "meaning": {
+      "english": "don't give up",
+      "hindi": "डटे रहो, हार मत मानो"
+    },
+    "examples": [
+      {
+        "english": "I know things are hard right now, but just hang in there.",
+        "hindi": "मुझे पता है अभी स्थिति कठिन है, लेकिन बस डटे रहो।"
+      }
+    ],
+    "pronunciation": "/hæŋ ɪn ðɛər/",
+    "synonyms": ["persevere", "don't give up", "keep trying"],
+    "antonyms": ["give up", "quit"],
+    "tags": ["idiom", "encouragement"]
+  },
+  {
+    "word": "on the ball",
+    "partOfSpeech": "idiom",
+    "level": "C1",
+    "meaning": {
+      "english": "alert and quick to react to things",
+      "hindi": "चुस्त और सतर्क"
+    },
+    "examples": [
+      {
+        "english": "Our new assistant is really on the ball.",
+        "hindi": "हमारा नया सहायक वास्तव में बहुत चुस्त और सतर्क है।"
+      }
+    ],
+    "pronunciation": "/ɒn ðə bɔːl/",
+    "synonyms": ["alert", "attentive", "sharp"],
+    "antonyms": ["slow", "clueless", "distracted"],
+    "tags": ["idiom", "competence"]
+  },
+  {
+    "word": "cut somebody some slack",
+    "partOfSpeech": "idiom",
+    "level": "B2",
+    "meaning": {
+      "english": "to not judge someone as severely as you usually would",
+      "hindi": "थोड़ी छूट देना या ज्यादा सख्त न होना"
+    },
+    "examples": [
+      {
+        "english": "Cut him some slack, he's new here.",
+        "hindi": "उसे थोड़ी छूट दो, वह यहाँ नया है।"
+      }
+    ],
+    "pronunciation": "/kʌt ˈsʌmbədi sʌm slæk/",
+    "synonyms": ["give someone a break", "be lenient"],
+    "antonyms": ["be strict", "be hard on someone"],
+    "tags": ["idiom", "leniency"]
+  },
+  {
+    "word": "wrap your head around something",
+    "partOfSpeech": "idiom",
+    "level": "C1",
+    "meaning": {
+      "english": "to understand something complicated",
+      "hindi": "किसी जटिल बात को समझना"
+    },
+    "examples": [
+      {
+        "english": "I can't seem to wrap my head around this math problem.",
+        "hindi": "मैं इस गणित की समस्या को समझ नहीं पा रहा हूँ।"
+      }
+    ],
+    "pronunciation": "/ræp jɔːr hɛd əˈraʊnd ˈsʌmθɪŋ/",
+    "synonyms": ["comprehend", "understand", "grasp"],
+    "antonyms": ["misunderstand", "be confused"],
+    "tags": ["idiom", "understanding"]
+  },
+  {
+    "word": "a blessing in disguise",
+    "partOfSpeech": "idiom",
+    "level": "B2",
+    "meaning": {
+      "english": "a good thing that seemed bad at first",
+      "hindi": "भेष बदलकर आया वरदान (ऐसी अच्छी बात जो शुरू में बुरी लगे)"
+    },
+    "examples": [
+      {
+        "english": "Losing that job was a blessing in disguise because I found a much better one.",
+        "hindi": "उस नौकरी का छूटना भेष बदलकर आया वरदान था क्योंकि मुझे उससे बहुत बेहतर नौकरी मिल गई।"
+      }
+    ],
+    "pronunciation": "/ə ˈblɛsɪŋ ɪn dɪsˈɡaɪz/",
+    "synonyms": ["hidden blessing", "silver lining"],
+    "antonyms": ["curse", "misfortune"],
+    "tags": ["idiom", "luck"]
+  },
+  {
+    "word": "a dime a dozen",
+    "partOfSpeech": "idiom",
+    "level": "C1",
+    "meaning": {
+      "english": "very common and of no particular value",
+      "hindi": "बहुत आम और साधारण (कौड़ियों के भाव)"
+    },
+    "examples": [
+      {
+        "english": "People with your skills are a dime a dozen.",
+        "hindi": "आप जैसे कौशल वाले लोग बहुत आम हैं।"
+      }
+    ],
+    "pronunciation": "/ə daɪm ə ˈdʌzən/",
+    "synonyms": ["common", "abundant", "cheap"],
+    "antonyms": ["rare", "unique", "valuable"],
+    "tags": ["idiom", "value"]
+  },
+  {
+    "word": "better late than never",
+    "partOfSpeech": "idiom",
+    "level": "A2",
+    "meaning": {
+      "english": "it is better to do something late than not do it at all",
+      "hindi": "देर आए दुरुस्त आए"
+    },
+    "examples": [
+      {
+        "english": "I finally finished the project; better late than never.",
+        "hindi": "मैंने अंततः प्रोजेक्ट पूरा कर लिया; देर आए दुरुस्त आए।"
+      }
+    ],
+    "pronunciation": "/ˈbɛtər leɪt ðən ˈnɛvər/",
+    "synonyms": [],
+    "antonyms": ["too little too late"],
+    "tags": ["idiom", "time"]
+  },
+  {
+    "word": "cross that bridge when you come to it",
+    "partOfSpeech": "idiom",
+    "level": "C1",
+    "meaning": {
+      "english": "deal with a problem when it happens, not before",
+      "hindi": "जब समस्या आएगी तब देखा जाएगा (समय आने पर निपटना)"
+    },
+    "examples": [
+      {
+        "english": "We don't know if we'll have enough money next year, but we'll cross that bridge when we come to it.",
+        "hindi": "हमें नहीं पता कि अगले साल हमारे पास पर्याप्त पैसा होगा या नहीं, लेकिन जब समय आएगा तब देखा जाएगा।"
+      }
+    ],
+    "pronunciation": "/krɒs ðæt brɪdʒ wɛn ju kʌm tʊ ɪt/",
+    "synonyms": ["deal with it later", "wait and see"],
+    "antonyms": ["worry in advance", "plan ahead excessively"],
+    "tags": ["idiom", "problem-solving"]
+  },
+  {
+    "word": "ghost",
+    "partOfSpeech": "slang",
+    "level": "B2",
+    "meaning": {
+      "english": "to suddenly end all communication with someone without explanation",
+      "hindi": "बिना बताए किसी से बातचीत पूरी तरह बंद कर देना"
+    },
+    "examples": [
+      {
+        "english": "We went on a few dates, and then he just ghosted me.",
+        "hindi": "हम कुछ डेट्स पर गए, और फिर उसने मुझसे अचानक बात करना बंद कर दिया।"
+      }
+    ],
+    "pronunciation": "/ɡoʊst/",
+    "synonyms": ["ignore", "cut off"],
+    "antonyms": ["communicate", "stay in touch"],
+    "tags": ["slang", "dating", "internet"]
+  },
+  {
+    "word": "salty",
+    "partOfSpeech": "slang",
+    "level": "B2",
+    "meaning": {
+      "english": "feeling upset, angry, or bitter, usually over something minor",
+      "hindi": "चिढ़ जाना या खफा होना (विशेषकर छोटी बात पर)"
+    },
+    "examples": [
+      {
+        "english": "He's still salty about losing the game.",
+        "hindi": "वह गेम हारने की वजह से अभी भी खफा है।"
+      }
+    ],
+    "pronunciation": "/ˈsɔːlti/",
+    "synonyms": ["bitter", "upset", "angry"],
+    "antonyms": ["happy", "content"],
+    "tags": ["slang", "emotion"]
+  },
+  {
+    "word": "lit",
+    "partOfSpeech": "slang",
+    "level": "B1",
+    "meaning": {
+      "english": "exciting, excellent, or amazing",
+      "hindi": "बहुत शानदार या मज़ेदार"
+    },
+    "examples": [
+      {
+        "english": "That party last night was lit!",
+        "hindi": "कल रात की पार्टी बहुत शानदार थी!"
+      }
+    ],
+    "pronunciation": "/lɪt/",
+    "synonyms": ["amazing", "awesome", "fire"],
+    "antonyms": ["boring", "dull"],
+    "tags": ["slang", "approval"]
+  },
+  {
+    "word": "extra",
+    "partOfSpeech": "slang",
+    "level": "C1",
+    "meaning": {
+      "english": "over the top, excessive, or unnecessarily dramatic",
+      "hindi": "ज़रूरत से ज़्यादा ड्रामा करना या बहुत ज़्यादा दिखावा करना"
+    },
+    "examples": [
+      {
+        "english": "You don't need to wear a gown to the grocery store, you're being so extra.",
+        "hindi": "तुम्हें ग्रॉसरी स्टोर में गाउन पहनने की ज़रूरत नहीं है, तुम बहुत ज़्यादा दिखावा कर रही हो।"
+      }
+    ],
+    "pronunciation": "/ˈɛkstrə/",
+    "synonyms": ["dramatic", "over the top", "excessive"],
+    "antonyms": ["chill", "lowkey", "relaxed"],
+    "tags": ["slang", "behavior"]
+  },
+  {
+    "word": "snatched",
+    "partOfSpeech": "slang",
+    "level": "C2",
+    "meaning": {
+      "english": "looking really good, perfect, or on point",
+      "hindi": "बहुत ही आकर्षक और परफेक्ट दिखना"
+    },
+    "examples": [
+      {
+        "english": "Your outfit today is totally snatched.",
+        "hindi": "तुम्हारा आज का ऑउटफिट बिल्कुल परफेक्ट लग रहा है।"
+      }
+    ],
+    "pronunciation": "/snætʃt/",
+    "synonyms": ["flawless", "on point", "perfect"],
+    "antonyms": ["messy", "ugly"],
+    "tags": ["slang", "fashion", "compliment"]
+  },
+  {
+    "word": "flex",
+    "partOfSpeech": "slang",
+    "level": "B2",
+    "meaning": {
+      "english": "to show off",
+      "hindi": "दिखावा करना या शेखी बघारना"
+    },
+    "examples": [
+      {
+        "english": "He's just trying to flex his new car.",
+        "hindi": "वह बस अपनी नई कार का दिखावा करने की कोशिश कर रहा है।"
+      }
+    ],
+    "pronunciation": "/flɛks/",
+    "synonyms": ["show off", "boast", "brag"],
+    "antonyms": ["be humble"],
+    "tags": ["slang", "behavior"]
+  },
+  {
+    "word": "lowkey",
+    "partOfSpeech": "slang",
+    "level": "B2",
+    "meaning": {
+      "english": "secretly, mildly, or quietly (not wanting to draw attention)",
+      "hindi": "गुपचुप तरीके से या थोड़ा-थोड़ा (बिना किसी का ध्यान खींचे)"
+    },
+    "examples": [
+      {
+        "english": "I lowkey want to stay home tonight instead of going out.",
+        "hindi": "मैं गुपचुप तरीके से आज रात बाहर जाने के बजाय घर पर ही रहना चाहता हूँ।"
+      }
+    ],
+    "pronunciation": "/ˈloʊˈkiː/",
+    "synonyms": ["secretly", "mildly", "kinda"],
+    "antonyms": ["highkey", "openly"],
+    "tags": ["slang", "adverb"]
+  },
+  {
+    "word": "highkey",
+    "partOfSpeech": "slang",
+    "level": "B2",
+    "meaning": {
+      "english": "very clearly, openly, or intensely",
+      "hindi": "खुलकर, स्पष्ट रूप से या बहुत अधिक"
+    },
+    "examples": [
+      {
+        "english": "I highkey love this song.",
+        "hindi": "मुझे यह गाना खुलकर बहुत पसंद है।"
+      }
+    ],
+    "pronunciation": "/ˈhaɪˈkiː/",
+    "synonyms": ["openly", "definitely", "absolutely"],
+    "antonyms": ["lowkey", "secretly"],
+    "tags": ["slang", "adverb"]
+  },
+  {
+    "word": "basic",
+    "partOfSpeech": "slang",
+    "level": "B2",
+    "meaning": {
+      "english": "only interested in mainstream, popular, and trend-following things (often used as an insult)",
+      "hindi": "केवल आम और लोकप्रिय चीजों में दिलचस्पी रखने वाला (अक्सर अपमान के रूप में प्रयुक्त)"
+    },
+    "examples": [
+      {
+        "english": "Her style is so basic, she wears whatever is trending.",
+        "hindi": "उसकी शैली बहुत ही आम है, वह वही पहनती है जो चलन में होता है।"
+      }
+    ],
+    "pronunciation": "/ˈbeɪsɪk/",
+    "synonyms": ["mainstream", "unoriginal", "ordinary"],
+    "antonyms": ["unique", "original", "extraordinary"],
+    "tags": ["slang", "insult"]
+  },
+  {
+    "word": "savage",
+    "partOfSpeech": "slang",
+    "level": "C1",
+    "meaning": {
+      "english": "ruthless, brutal, but also awesome (often in comebacks)",
+      "hindi": "बेरहम, क्रूर, लेकिन शानदार (अक्सर पलटवार में)"
+    },
+    "examples": [
+      {
+        "english": "Did you hear his reply? That was completely savage.",
+        "hindi": "क्या तुमने उसका जवाब सुना? वह बिल्कुल बेरहम (शानदार) था।"
+      }
+    ],
+    "pronunciation": "/ˈsævɪdʒ/",
+    "synonyms": ["brutal", "ruthless", "fierce"],
+    "antonyms": ["gentle", "mild"],
+    "tags": ["slang", "compliment", "insult"]
+  },
+  {
+    "word": "shook",
+    "partOfSpeech": "slang",
+    "level": "C1",
+    "meaning": {
+      "english": "shocked, surprised, or unsettled",
+      "hindi": "हैरान, आश्चर्यचकित या स्तब्ध"
+    },
+    "examples": [
+      {
+        "english": "When she told me the news, I was totally shook.",
+        "hindi": "जब उसने मुझे खबर बताई, तो मैं पूरी तरह से हैरान रह गया।"
+      }
+    ],
+    "pronunciation": "/ʃʊk/",
+    "synonyms": ["shocked", "surprised", "speechless"],
+    "antonyms": ["calm", "unfazed"],
+    "tags": ["slang", "emotion"]
+  },
+  {
+    "word": "dead",
+    "partOfSpeech": "slang",
+    "level": "B2",
+    "meaning": {
+      "english": "finding something extremely funny",
+      "hindi": "हंस-हंस कर लोटपोट हो जाना"
+    },
+    "examples": [
+      {
+        "english": "That joke was so funny, I'm dead.",
+        "hindi": "वह चुटकुला इतना मजेदार था कि मैं हंस-हंस कर लोटपोट हो गया।"
+      }
+    ],
+    "pronunciation": "/dɛd/",
+    "synonyms": ["hilarious", "dying of laughter"],
+    "antonyms": ["serious"],
+    "tags": ["slang", "humor"]
+  },
+  {
+    "word": "fire",
+    "partOfSpeech": "slang",
+    "level": "A2",
+    "meaning": {
+      "english": "really good, amazing, or trendy",
+      "hindi": "बहुत बढ़िया, शानदार या चलन में"
+    },
+    "examples": [
+      {
+        "english": "This new song is fire!",
+        "hindi": "यह नया गाना बहुत बढ़िया है!"
+      }
+    ],
+    "pronunciation": "/faɪər/",
+    "synonyms": ["lit", "amazing", "awesome"],
+    "antonyms": ["trash", "terrible"],
+    "tags": ["slang", "approval"]
+  },
+  {
+    "word": "tea",
+    "partOfSpeech": "slang",
+    "level": "B2",
+    "meaning": {
+      "english": "gossip or interesting news",
+      "hindi": "गपशप या रोचक खबर"
+    },
+    "examples": [
+      {
+        "english": "Come sit down and spill the tea about what happened last night.",
+        "hindi": "आओ बैठो और बताओ कि कल रात क्या हुआ (गपशप दो)।"
+      }
+    ],
+    "pronunciation": "/tiː/",
+    "synonyms": ["gossip", "news", "scoop"],
+    "antonyms": ["silence", "secrets"],
+    "tags": ["slang", "gossip"]
+  },
+  {
+    "word": "shade",
+    "partOfSpeech": "slang",
+    "level": "C1",
+    "meaning": {
+      "english": "subtle, sneaky disrespect or an insult",
+      "hindi": "अप्रत्यक्ष रूप से किसी का अपमान करना या ताना मारना"
+    },
+    "examples": [
+      {
+        "english": "She was totally throwing shade at my new haircut.",
+        "hindi": "वह मेरे नए हेयरकट पर पूरी तरह से ताना मार रही थी।"
+      }
+    ],
+    "pronunciation": "/ʃeɪd/",
+    "synonyms": ["disrespect", "insult", "diss"],
+    "antonyms": ["compliment", "praise"],
+    "tags": ["slang", "insult"]
+  },
+  {
+    "word": "clapback",
+    "partOfSpeech": "slang",
+    "level": "C1",
+    "meaning": {
+      "english": "a sharp, clever response to an insult",
+      "hindi": "अपमान का करारा जवाब"
+    },
+    "examples": [
+      {
+        "english": "Her clapback on Twitter was absolutely savage.",
+        "hindi": "ट्विटर पर उसका करारा जवाब बिल्कुल शानदार था।"
+      }
+    ],
+    "pronunciation": "/ˈklæpˌbæk/",
+    "synonyms": ["comeback", "retort"],
+    "antonyms": ["silence", "ignoring"],
+    "tags": ["slang", "argument"]
+  },
+  {
+    "word": "bop",
+    "partOfSpeech": "slang",
+    "level": "B1",
+    "meaning": {
+      "english": "a really good, catchy song",
+      "hindi": "एक बहुत अच्छा और आकर्षक गाना"
+    },
+    "examples": [
+      {
+        "english": "Have you heard her new single? It's a bop.",
+        "hindi": "क्या तुमने उसका नया गाना सुना है? यह बहुत अच्छा है।"
+      }
+    ],
+    "pronunciation": "/bɒp/",
+    "synonyms": ["jam", "hit"],
+    "antonyms": ["flop"],
+    "tags": ["slang", "music"]
+  },
+  {
+    "word": "goat",
+    "partOfSpeech": "slang",
+    "level": "A2",
+    "meaning": {
+      "english": "Greatest Of All Time",
+      "hindi": "अब तक का सबसे महान (खिलाड़ी या व्यक्ति)"
+    },
+    "examples": [
+      {
+        "english": "Messi is considered the GOAT of football by many.",
+        "hindi": "मेस्सी को कई लोग फुटबॉल में अब तक का सबसे महान खिलाड़ी मानते हैं।"
+      }
+    ],
+    "pronunciation": "/ɡoʊt/",
+    "synonyms": ["legend", "best ever"],
+    "antonyms": ["worst", "loser"],
+    "tags": ["slang", "acronym", "sports"]
+  },
+  {
+    "word": "drip",
+    "partOfSpeech": "slang",
+    "level": "C1",
+    "meaning": {
+      "english": "cool, stylish clothes and accessories; great sense of fashion",
+      "hindi": "स्टाइलिश कपड़े और बेहतरीन फैशन सेंस"
+    },
+    "examples": [
+      {
+        "english": "Look at his new sneakers, he has too much drip.",
+        "hindi": "उसके नए जूते देखो, उसका फैशन सेंस बहुत बढ़िया है।"
+      }
+    ],
+    "pronunciation": "/drɪp/",
+    "synonyms": ["style", "swag", "fashion"],
+    "antonyms": ["mess", "tastelessness"],
+    "tags": ["slang", "fashion"]
+  },
+  {
+    "word": "cap",
+    "partOfSpeech": "slang",
+    "level": "B2",
+    "meaning": {
+      "english": "a lie, or to lie",
+      "hindi": "झूठ या झूठ बोलना"
+    },
+    "examples": [
+      {
+        "english": "He said he bought a Ferrari, but I think that's cap.",
+        "hindi": "उसने कहा कि उसने फरारी खरीदी है, लेकिन मुझे लगता है कि यह झूठ है।"
+      }
+    ],
+    "pronunciation": "/kæp/",
+    "synonyms": ["lie", "falsehood"],
+    "antonyms": ["truth", "facts"],
+    "tags": ["slang", "honesty"]
+  },
+  {
+    "word": "no cap",
+    "partOfSpeech": "slang",
+    "level": "B2",
+    "meaning": {
+      "english": "no lie; I'm telling the truth",
+      "hindi": "कोई झूठ नहीं; मैं सच कह रहा हूँ"
+    },
+    "examples": [
+      {
+        "english": "That was the best burger I've ever had, no cap.",
+        "hindi": "वह सबसे अच्छा बर्गर था जो मैंने कभी खाया है, सच में (कोई झूठ नहीं)।"
+      }
+    ],
+    "pronunciation": "/noʊ kæp/",
+    "synonyms": ["for real", "honestly", "truthfully"],
+    "antonyms": ["cap", "lying"],
+    "tags": ["slang", "honesty"]
+  },
+  {
+    "word": "bet",
+    "partOfSpeech": "slang",
+    "level": "B1",
+    "meaning": {
+      "english": "an expression of agreement, approval, or confirmation ('okay' or 'sure')",
+      "hindi": "सहमति, स्वीकृति या पुष्टि की अभिव्यक्ति ('ठीक है' या 'ज़रूर')"
+    },
+    "examples": [
+      {
+        "english": "'I'll meet you at 5.' 'Bet.'",
+        "hindi": "'मैं तुमसे 5 बजे मिलूँगा।' 'ठीक है (ज़रूर)।'"
+      }
+    ],
+    "pronunciation": "/bɛt/",
+    "synonyms": ["okay", "sure", "agreed"],
+    "antonyms": ["no way", "disagree"],
+    "tags": ["slang", "agreement"]
+  },
+  {
+    "word": "bussin",
+    "partOfSpeech": "slang",
+    "level": "C1",
+    "meaning": {
+      "english": "extremely delicious (usually describing food)",
+      "hindi": "अत्यंत स्वादिष्ट (आमतौर पर भोजन के लिए प्रयुक्त)"
+    },
+    "examples": [
+      {
+        "english": "This pizza is bussin!",
+        "hindi": "यह पिज्जा बहुत स्वादिष्ट है!"
+      }
+    ],
+    "pronunciation": "/ˈbʌsɪn/",
+    "synonyms": ["delicious", "tasty", "amazing"],
+    "antonyms": ["disgusting", "gross"],
+    "tags": ["slang", "food"]
+  },
+  {
+    "word": "vibe check",
+    "partOfSpeech": "slang",
+    "level": "B2",
+    "meaning": {
+      "english": "assessing someone's mood, energy, or attitude",
+      "hindi": "किसी के मिजाज, ऊर्जा या रवैये का आकलन करना"
+    },
+    "examples": [
+      {
+        "english": "I just did a vibe check on the new guy, and he seems pretty cool.",
+        "hindi": "मैंने बस नए लड़के के मिजाज को परखा, और वह काफी अच्छा लगता है।"
+      }
+    ],
+    "pronunciation": "/vaɪb tʃɛk/",
+    "synonyms": ["mood assessment"],
+    "antonyms": [],
+    "tags": ["slang", "emotion"]
+  },
+  {
+    "word": "simp",
+    "partOfSpeech": "slang",
+    "level": "C1",
+    "meaning": {
+      "english": "someone who does way too much for a person they like",
+      "hindi": "कोई ऐसा व्यक्ति जो किसी को पसंद करने पर उसके लिए बहुत ज़्यादा करता है (अक्सर इस्तेमाल होने वाला शब्द)"
+    },
+    "examples": [
+      {
+        "english": "He bought her a car after one date, he's such a simp.",
+        "hindi": "उसने एक डेट के बाद ही उसके लिए कार खरीद ली, वह सच में बहुत बड़ा सिम्प है।"
+      }
+    ],
+    "pronunciation": "/sɪmp/",
+    "synonyms": ["pushover"],
+    "antonyms": ["alpha"],
+    "tags": ["slang", "dating"]
+  },
+  {
+    "word": "fomo",
+    "partOfSpeech": "slang",
+    "level": "B2",
+    "meaning": {
+      "english": "Fear Of Missing Out",
+      "hindi": "कुछ छूट जाने का डर"
+    },
+    "examples": [
+      {
+        "english": "I didn't want to go to the party, but my FOMO made me go.",
+        "hindi": "मैं पार्टी में नहीं जाना चाहता था, लेकिन कुछ छूट जाने के डर (FOMO) से मैं चला गया।"
+      }
+    ],
+    "pronunciation": "/ˈfoʊmoʊ/",
+    "synonyms": ["anxiety of missing out"],
+    "antonyms": ["jomo (joy of missing out)"],
+    "tags": ["slang", "acronym", "emotion"]
+  },
+  {
+    "word": "yolo",
+    "partOfSpeech": "slang",
+    "level": "B1",
+    "meaning": {
+      "english": "You Only Live Once (used as a reason for doing something risky or fun)",
+      "hindi": "जिंदगी ना मिलेगी दोबारा (किसी जोखिम भरे या मज़ेदार काम को करने के कारण के रूप में प्रयुक्त)"
+    },
+    "examples": [
+      {
+        "english": "I just bought a ticket to skydive, YOLO!",
+        "hindi": "मैंने अभी स्काईडाइव करने के लिए टिकट खरीदा, जिंदगी ना मिलेगी दोबारा (YOLO)!"
+      }
+    ],
+    "pronunciation": "/ˈjoʊloʊ/",
+    "synonyms": ["carpe diem", "seize the day"],
+    "antonyms": ["be cautious"],
+    "tags": ["slang", "acronym", "lifestyle"]
+  },
+  {
+    "word": "squad",
+    "partOfSpeech": "slang",
+    "level": "A2",
+    "meaning": {
+      "english": "a close group of friends",
+      "hindi": "करीबी दोस्तों का समूह"
+    },
+    "examples": [
+      {
+        "english": "Me and the squad are going to the movies tonight.",
+        "hindi": "मैं और मेरे दोस्त (स्क्वाड) आज रात फिल्म देखने जा रहे हैं।"
+      }
+    ],
+    "pronunciation": "/skwɒd/",
+    "synonyms": ["crew", "gang", "friends"],
+    "antonyms": ["loner", "enemy"],
+    "tags": ["slang", "friends"]
+  },
+  {
+    "word": "fam",
+    "partOfSpeech": "slang",
+    "level": "A2",
+    "meaning": {
+      "english": "family, or close friends who feel like family",
+      "hindi": "परिवार, या करीबी दोस्त जो परिवार जैसे लगते हों"
+    },
+    "examples": [
+      {
+        "english": "What's good, fam?",
+        "hindi": "क्या हाल है, भाई/दोस्त (fam)?"
+      }
+    ],
+    "pronunciation": "/fæm/",
+    "synonyms": ["family", "friends", "bro"],
+    "antonyms": ["strangers"],
+    "tags": ["slang", "friends"]
+  },
+  {
+    "word": "sus",
+    "partOfSpeech": "slang",
+    "level": "B1",
+    "meaning": {
+      "english": "suspicious, or acting shady",
+      "hindi": "संदिग्ध, या कुछ गड़बड़ लगना"
+    },
+    "examples": [
+      {
+        "english": "He's been acting really sus lately.",
+        "hindi": "वह हाल ही में बहुत संदिग्ध (sus) व्यवहार कर रहा है।"
+      }
+    ],
+    "pronunciation": "/sʌs/",
+    "synonyms": ["suspicious", "shady", "questionable"],
+    "antonyms": ["trustworthy", "reliable"],
+    "tags": ["slang", "internet"]
+  },
+  {
+    "word": "lol",
+    "partOfSpeech": "internet",
+    "level": "A1",
+    "meaning": {
+      "english": "Laughing Out Loud",
+      "hindi": "ज़ोर से हँसना"
+    },
+    "examples": [
+      {
+        "english": "That video you sent was so funny, lol.",
+        "hindi": "तुमने जो वीडियो भेजा वह बहुत मज़ेदार था, ज़ोर से हँसी आ गई (lol)।"
+      }
+    ],
+    "pronunciation": "/lɒl/ or spelled out",
+    "synonyms": ["haha", "lmao"],
+    "antonyms": [],
+    "tags": ["internet", "acronym", "humor"]
+  },
+  {
+    "word": "tbh",
+    "partOfSpeech": "internet",
+    "level": "A2",
+    "meaning": {
+      "english": "To Be Honest",
+      "hindi": "सच कहूँ तो"
+    },
+    "examples": [
+      {
+        "english": "Tbh, I don't really like this movie.",
+        "hindi": "सच कहूँ तो (tbh), मुझे यह फिल्म खास पसंद नहीं आई।"
+      }
+    ],
+    "pronunciation": "spelled out (T-B-H)",
+    "synonyms": ["frankly", "honestly"],
+    "antonyms": ["lying", "joking"],
+    "tags": ["internet", "acronym"]
+  },
+  {
+    "word": "brb",
+    "partOfSpeech": "internet",
+    "level": "A2",
+    "meaning": {
+      "english": "Be Right Back",
+      "hindi": "अभी वापस आता हूँ"
+    },
+    "examples": [
+      {
+        "english": "Someone's at the door, brb.",
+        "hindi": "दरवाज़े पर कोई है, अभी वापस आता हूँ (brb)।"
+      }
+    ],
+    "pronunciation": "spelled out (B-R-B)",
+    "synonyms": ["back in a minute"],
+    "antonyms": ["staying"],
+    "tags": ["internet", "acronym"]
+  },
+  {
+    "word": "imo",
+    "partOfSpeech": "internet",
+    "level": "B1",
+    "meaning": {
+      "english": "In My Opinion",
+      "hindi": "मेरी राय में"
+    },
+    "examples": [
+      {
+        "english": "Imo, the first book was much better.",
+        "hindi": "मेरी राय में (imo), पहली किताब बहुत बेहतर थी।"
+      }
+    ],
+    "pronunciation": "spelled out (I-M-O)",
+    "synonyms": ["to me", "personally"],
+    "antonyms": ["factually"],
+    "tags": ["internet", "acronym"]
+  },
+  {
+    "word": "idk",
+    "partOfSpeech": "internet",
+    "level": "A1",
+    "meaning": {
+      "english": "I Don't Know",
+      "hindi": "मुझे नहीं पता"
+    },
+    "examples": [
+      {
+        "english": "Idk what time the party starts.",
+        "hindi": "मुझे नहीं पता (idk) कि पार्टी कितने बजे शुरू होती है।"
+      }
+    ],
+    "pronunciation": "spelled out (I-D-K)",
+    "synonyms": ["I have no idea", "unsure"],
+    "antonyms": ["I know"],
+    "tags": ["internet", "acronym"]
+  },
+  {
+    "word": "ttyl",
+    "partOfSpeech": "internet",
+    "level": "A2",
+    "meaning": {
+      "english": "Talk To You Later",
+      "hindi": "बाद में बात करते हैं"
+    },
+    "examples": [
+      {
+        "english": "I have to go to class now, ttyl!",
+        "hindi": "मुझे अब क्लास में जाना है, बाद में बात करते हैं (ttyl)!"
+      }
+    ],
+    "pronunciation": "spelled out (T-T-Y-L)",
+    "synonyms": ["bye", "see ya"],
+    "antonyms": ["hello", "stay"],
+    "tags": ["internet", "acronym", "farewell"]
+  },
+  {
+    "word": "fyi",
+    "partOfSpeech": "internet",
+    "level": "A2",
+    "meaning": {
+      "english": "For Your Information",
+      "hindi": "आपकी जानकारी के लिए"
+    },
+    "examples": [
+      {
+        "english": "Fyi, the meeting has been moved to 3 PM.",
+        "hindi": "आपकी जानकारी के लिए (fyi), मीटिंग को दोपहर 3 बजे कर दिया गया है।"
+      }
+    ],
+    "pronunciation": "spelled out (F-Y-I)",
+    "synonyms": ["just so you know"],
+    "antonyms": [],
+    "tags": ["internet", "acronym", "work"]
+  },
+  {
+    "word": "afk",
+    "partOfSpeech": "internet",
+    "level": "B1",
+    "meaning": {
+      "english": "Away From Keyboard",
+      "hindi": "कीबोर्ड (कंप्यूटर) से दूर"
+    },
+    "examples": [
+      {
+        "english": "I'm going to get a snack, I'll be afk for 5 mins.",
+        "hindi": "मैं नाश्ता लेने जा रहा हूँ, मैं 5 मिनट के लिए कीबोर्ड (कंप्यूटर) से दूर (afk) रहूँगा।"
+      }
+    ],
+    "pronunciation": "spelled out (A-F-K)",
+    "synonyms": ["away", "unavailable"],
+    "antonyms": ["online", "available"],
+    "tags": ["internet", "acronym", "gaming"]
+  },
+  {
+    "word": "fwiw",
+    "partOfSpeech": "internet",
+    "level": "C1",
+    "meaning": {
+      "english": "For What It's Worth",
+      "hindi": "चाहे इसका कुछ मतलब हो या न हो (अपनी राय देने के लिए प्रयुक्त)"
+    },
+    "examples": [
+      {
+        "english": "Fwiw, I think you made the right decision.",
+        "hindi": "चाहे जो भी हो (fwiw), मुझे लगता है कि तुमने सही निर्णय लिया।"
+      }
+    ],
+    "pronunciation": "spelled out (F-W-I-W)",
+    "synonyms": ["in my opinion", "if you ask me"],
+    "antonyms": [],
+    "tags": ["internet", "acronym"]
+  },
+  {
+    "word": "tmi",
+    "partOfSpeech": "internet",
+    "level": "B1",
+    "meaning": {
+      "english": "Too Much Information",
+      "hindi": "ज़रूरत से ज़्यादा जानकारी (विशेषकर व्यक्तिगत या अप्रिय)"
+    },
+    "examples": [
+      {
+        "english": "Okay, that's gross. TMI, man!",
+        "hindi": "ठीक है, यह बहुत घिनौना है। ज़रूरत से ज़्यादा जानकारी दे दी तुमने (TMI)!"
+      }
+    ],
+    "pronunciation": "spelled out (T-M-I)",
+    "synonyms": ["oversharing"],
+    "antonyms": ["vague"],
+    "tags": ["internet", "acronym"]
+  },
+  {
+    "word": "tl;dr",
+    "partOfSpeech": "internet",
+    "level": "B2",
+    "meaning": {
+      "english": "Too Long; Didn't Read (a summary of a long text)",
+      "hindi": "बहुत लंबा था; इसलिए नहीं पढ़ा (लंबे टेक्स्ट का सारांश)"
+    },
+    "examples": [
+      {
+        "english": "TL;DR: The event was cancelled due to bad weather.",
+        "hindi": "सारांश (TL;DR): खराब मौसम के कारण कार्यक्रम रद्द कर दिया गया।"
+      }
+    ],
+    "pronunciation": "spelled out (T-L-D-R)",
+    "synonyms": ["summary", "in short"],
+    "antonyms": ["full text"],
+    "tags": ["internet", "acronym", "summary"]
+  },
+  {
+    "word": "omg",
+    "partOfSpeech": "internet",
+    "level": "A1",
+    "meaning": {
+      "english": "Oh My God / Goodness",
+      "hindi": "हे भगवान (आश्चर्य या उत्साह व्यक्त करने के लिए)"
+    },
+    "examples": [
+      {
+        "english": "Omg, I can't believe we won!",
+        "hindi": "हे भगवान (omg), मुझे विश्वास नहीं हो रहा कि हम जीत गए!"
+      }
+    ],
+    "pronunciation": "spelled out (O-M-G)",
+    "synonyms": ["wow", "unbelievable"],
+    "antonyms": ["unsurprised"],
+    "tags": ["internet", "acronym", "emotion"]
+  },
+  {
+    "word": "irl",
+    "partOfSpeech": "internet",
+    "level": "B1",
+    "meaning": {
+      "english": "In Real Life",
+      "hindi": "असल ज़िंदगी में"
+    },
+    "examples": [
+      {
+        "english": "We've played games together for years, but we've never met irl.",
+        "hindi": "हम सालों से एक साथ गेम खेल रहे हैं, लेकिन हम असल ज़िंदगी (irl) में कभी नहीं मिले।"
+      }
+    ],
+    "pronunciation": "spelled out (I-R-L)",
+    "synonyms": ["in person", "offline"],
+    "antonyms": ["online", "virtual"],
+    "tags": ["internet", "acronym"]
+  },
+  {
+    "word": "rn",
+    "partOfSpeech": "internet",
+    "level": "A2",
+    "meaning": {
+      "english": "Right Now",
+      "hindi": "अभी (इसी वक्त)"
+    },
+    "examples": [
+      {
+        "english": "I'm busy rn, can I call you later?",
+        "hindi": "मैं अभी (rn) व्यस्त हूँ, क्या मैं तुम्हें बाद में कॉल कर सकता हूँ?"
+      }
+    ],
+    "pronunciation": "spelled out (R-N)",
+    "synonyms": ["currently", "at this moment"],
+    "antonyms": ["later", "earlier"],
+    "tags": ["internet", "acronym", "time"]
+  },
+  {
+    "word": "nvm",
+    "partOfSpeech": "internet",
+    "level": "B1",
+    "meaning": {
+      "english": "Nevermind",
+      "hindi": "कोई बात नहीं (जाने दो)"
+    },
+    "examples": [
+      {
+        "english": "I figured it out, nvm.",
+        "hindi": "मुझे समझ आ गया, कोई बात नहीं (nvm)।"
+      }
+    ],
+    "pronunciation": "spelled out (N-V-M)",
+    "synonyms": ["forget it", "don't worry about it"],
+    "antonyms": ["important"],
+    "tags": ["internet", "acronym"]
+  },
+  {
+    "word": "smh",
+    "partOfSpeech": "internet",
+    "level": "B2",
+    "meaning": {
+      "english": "Shaking My Head (expressing disappointment or disbelief)",
+      "hindi": "निराशा या अविश्वास व्यक्त करना (सिर हिलाना)"
+    },
+    "examples": [
+      {
+        "english": "He was late again, smh.",
+        "hindi": "वह फिर से लेट था, निराशाजनक (smh)।"
+      }
+    ],
+    "pronunciation": "spelled out (S-M-H)",
+    "synonyms": ["disappointed", "unbelievable"],
+    "antonyms": ["nodding", "agreeing"],
+    "tags": ["internet", "acronym", "emotion"]
+  },
+  {
+    "word": "btw",
+    "partOfSpeech": "internet",
+    "level": "A2",
+    "meaning": {
+      "english": "By The Way",
+      "hindi": "वैसे (बातचीत का विषय बदलने या कुछ जोड़ने के लिए)"
+    },
+    "examples": [
+      {
+        "english": "Btw, are you coming to the party tonight?",
+        "hindi": "वैसे (btw), क्या तुम आज रात की पार्टी में आ रहे हो?"
+      }
+    ],
+    "pronunciation": "spelled out (B-T-W)",
+    "synonyms": ["incidentally"],
+    "antonyms": [],
+    "tags": ["internet", "acronym"]
+  },
+  {
+    "word": "rofl",
+    "partOfSpeech": "internet",
+    "level": "A2",
+    "meaning": {
+      "english": "Rolling On Floor Laughing",
+      "hindi": "हंसते-हंसते लोटपोट होना"
+    },
+    "examples": [
+      {
+        "english": "That meme is hilarious, rofl!",
+        "hindi": "वह मीम बहुत ही मज़ेदार है, हंसते-हंसते लोटपोट हो गया (rofl)!"
+      }
+    ],
+    "pronunciation": "spelled out (R-O-F-L) or /rɒfl/",
+    "synonyms": ["lmao", "lol", "dying laughing"],
+    "antonyms": ["serious"],
+    "tags": ["internet", "acronym", "humor"]
+  },
+  {
+    "word": "lmk",
+    "partOfSpeech": "internet",
+    "level": "B1",
+    "meaning": {
+      "english": "Let Me Know",
+      "hindi": "मुझे बताना"
+    },
+    "examples": [
+      {
+        "english": "Lmk if you need any help with the project.",
+        "hindi": "अगर प्रोजेक्ट में कोई मदद चाहिए तो मुझे बताना (lmk)।"
+      }
+    ],
+    "pronunciation": "spelled out (L-M-K)",
+    "synonyms": ["tell me", "inform me"],
+    "antonyms": ["keep it a secret"],
+    "tags": ["internet", "acronym"]
+  },
+  {
+    "word": "iykyk",
+    "partOfSpeech": "internet",
+    "level": "C1",
+    "meaning": {
+      "english": "If You Know, You Know",
+      "hindi": "जो लोग जानते हैं, वे समझ जाएंगे (कोई अंदर की बात या मज़ाक)"
+    },
+    "examples": [
+      {
+        "english": "That one specific episode from season 2... iykyk.",
+        "hindi": "सीज़न 2 का वह विशेष एपिसोड... जो जानते हैं, वे समझ जाएंगे (iykyk)।"
+      }
+    ],
+    "pronunciation": "spelled out (I-Y-K-Y-K)",
+    "synonyms": ["inside joke"],
+    "antonyms": ["obvious"],
+    "tags": ["internet", "acronym"]
+  },
+  {
+    "word": "wip",
+    "partOfSpeech": "internet",
+    "level": "B1",
+    "meaning": {
+      "english": "Work In Progress",
+      "hindi": "प्रगति पर है (काम चल रहा है)"
+    },
+    "examples": [
+      {
+        "english": "Here's a sketch of my new drawing, it's a wip.",
+        "hindi": "यह मेरी नई ड्राइंग का स्केच है, अभी इस पर काम चल रहा है (wip)।"
+      }
+    ],
+    "pronunciation": "spelled out (W-I-P)",
+    "synonyms": ["in progress", "unfinished"],
+    "antonyms": ["finished", "complete"],
+    "tags": ["internet", "acronym"]
+  },
+  {
+    "word": "ngl",
+    "partOfSpeech": "internet",
+    "level": "B2",
+    "meaning": {
+      "english": "Not Gonna Lie",
+      "hindi": "सच कहूँ तो (झूठ नहीं बोलूँगा)"
+    },
+    "examples": [
+      {
+        "english": "Ngl, that pizza was the best I've ever had.",
+        "hindi": "सच कहूँ तो (ngl), वह पिज्जा अब तक का सबसे बेहतरीन था।"
+      }
+    ],
+    "pronunciation": "spelled out (N-G-L)",
+    "synonyms": ["to be honest", "tbh"],
+    "antonyms": ["lying"],
+    "tags": ["internet", "acronym"]
+  },
+  {
+    "word": "dm",
+    "partOfSpeech": "internet",
+    "level": "A2",
+    "meaning": {
+      "english": "Direct Message",
+      "hindi": "सीधा संदेश (प्राइवेट मैसेज)"
+    },
+    "examples": [
+      {
+        "english": "Dm me for the details about the party.",
+        "hindi": "पार्टी की जानकारी के लिए मुझे प्राइवेट मैसेज (dm) करें।"
+      }
+    ],
+    "pronunciation": "spelled out (D-M)",
+    "synonyms": ["pm", "private message"],
+    "antonyms": ["public post"],
+    "tags": ["internet", "acronym"]
+  },
+  {
+    "word": "pm",
+    "partOfSpeech": "internet",
+    "level": "A2",
+    "meaning": {
+      "english": "Private Message",
+      "hindi": "निजी संदेश"
+    },
+    "examples": [
+      {
+        "english": "Please send me a PM if you're interested.",
+        "hindi": "यदि आप रुचि रखते हैं तो कृपया मुझे एक निजी संदेश (PM) भेजें।"
+      }
+    ],
+    "pronunciation": "spelled out (P-M)",
+    "synonyms": ["dm", "direct message"],
+    "antonyms": ["public comment"],
+    "tags": ["internet", "acronym"]
+  },
+  {
+    "word": "fr",
+    "partOfSpeech": "internet",
+    "level": "B1",
+    "meaning": {
+      "english": "For Real",
+      "hindi": "सच में / असल में"
+    },
+    "examples": [
+      {
+        "english": "Are you going to move to New York, fr?",
+        "hindi": "क्या तुम सच में (fr) न्यूयॉर्क शिफ्ट हो रहे हो?"
+      }
+    ],
+    "pronunciation": "spelled out (F-R)",
+    "synonyms": ["honestly", "seriously"],
+    "antonyms": ["joking"],
+    "tags": ["internet", "acronym"]
+  },
+  {
+    "word": "asap",
+    "partOfSpeech": "internet",
+    "level": "A2",
+    "meaning": {
+      "english": "As Soon As Possible",
+      "hindi": "जितनी जल्दी हो सके"
+    },
+    "examples": [
+      {
+        "english": "Please reply to this email asap.",
+        "hindi": "कृपया इस ईमेल का जवाब जितनी जल्दी हो सके (asap) दें।"
+      }
+    ],
+    "pronunciation": "/ˈeɪsæp/ or spelled out (A-S-A-P)",
+    "synonyms": ["quickly", "immediately"],
+    "antonyms": ["take your time", "later"],
+    "tags": ["internet", "acronym", "work"]
+  },
+  {
+    "word": "diy",
+    "partOfSpeech": "internet",
+    "level": "A2",
+    "meaning": {
+      "english": "Do It Yourself",
+      "hindi": "स्वयं करें"
+    },
+    "examples": [
+      {
+        "english": "I built this shelf from a DIY kit.",
+        "hindi": "मैंने इस शेल्फ को 'स्वयं करें' (DIY) किट से बनाया है।"
+      }
+    ],
+    "pronunciation": "spelled out (D-I-Y)",
+    "synonyms": ["handmade", "homemade"],
+    "antonyms": ["store-bought", "professional"],
+    "tags": ["internet", "acronym"]
+  },
+  {
+    "word": "faq",
+    "partOfSpeech": "internet",
+    "level": "A2",
+    "meaning": {
+      "english": "Frequently Asked Questions",
+      "hindi": "अक्सर पूछे जाने वाले प्रश्न"
+    },
+    "examples": [
+      {
+        "english": "Check the FAQ section before contacting support.",
+        "hindi": "सहायता टीम से संपर्क करने से पहले 'अक्सर पूछे जाने वाले प्रश्न' (FAQ) अनुभाग देखें।"
+      }
+    ],
+    "pronunciation": "spelled out (F-A-Q) or /fæk/",
+    "synonyms": ["questions and answers"],
+    "antonyms": [],
+    "tags": ["internet", "acronym"]
+  },
+  {
+    "word": "aka",
+    "partOfSpeech": "internet",
+    "level": "B1",
+    "meaning": {
+      "english": "Also Known As",
+      "hindi": "उर्फ़ / को इस नाम से भी जाना जाता है"
+    },
+    "examples": [
+      {
+        "english": "This is Peter, aka Spider-Man.",
+        "hindi": "यह पीटर है, उर्फ़ (aka) स्पाइडर-मैन।"
+      }
+    ],
+    "pronunciation": "spelled out (A-K-A)",
+    "synonyms": ["alias"],
+    "antonyms": [],
+    "tags": ["internet", "acronym"]
+  },
+  {
+    "word": "nsfw",
+    "partOfSpeech": "internet",
+    "level": "B2",
+    "meaning": {
+      "english": "Not Safe For Work (content that is inappropriate for a professional setting)",
+      "hindi": "कार्यस्थल के लिए सुरक्षित नहीं (अनुचित सामग्री)"
+    },
+    "examples": [
+      {
+        "english": "Don't open that link at the office, it's NSFW.",
+        "hindi": "उस लिंक को ऑफिस में मत खोलना, यह कार्यस्थल के लिए सुरक्षित नहीं (NSFW) है।"
+      }
+    ],
+    "pronunciation": "spelled out (N-S-F-W)",
+    "synonyms": ["inappropriate content"],
+    "antonyms": ["sfw (safe for work)"],
+    "tags": ["internet", "acronym", "warning"]
+  }
+]

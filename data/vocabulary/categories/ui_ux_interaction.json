@@ -1,0 +1,92 @@
+﻿[
+    {
+        "word":  "Navigate",
+        "meaning":  "To move through a website, application, or directory structure using menus, buttons, and links (strong alternative to \u0027click around\u0027 or \u0027go through a site\u0027).",
+        "example":  "The website layout is designed to help visitors navigate from page to page easily.",
+        "category":  "UI \u0026 UX Interaction"
+    },
+    {
+        "word":  "Interact",
+        "meaning":  "To actively engage with elements on a digital screen, such as buttons, sliders, or input fields (strong alternative to \u0027click or type on page\u0027).",
+        "example":  "Users can interact with the dynamic charts to filter data by date.",
+        "category":  "UI \u0026 UX Interaction"
+    },
+    {
+        "word":  "Minimize",
+        "meaning":  "To reduce an open window or application to its smallest form, keeping it running in the taskbar (strong alternative to \u0027make window small\u0027 or \u0027hide window\u0027).",
+        "example":  "You can minimize the browser window to see your desktop background.",
+        "category":  "UI \u0026 UX Interaction"
+    },
+    {
+        "word":  "Maximize",
+        "meaning":  "To expand an application window to fill the entire computer screen (strong alternative to \u0027make window big\u0027 or \u0027fill screen\u0027).",
+        "example":  "Maximize the video player to watch the training tutorial in full-screen mode.",
+        "category":  "UI \u0026 UX Interaction"
+    },
+    {
+        "word":  "Scroll",
+        "meaning":  "To move text or graphics vertically or horizontally across a screen to view unseen parts of a page (strong alternative to \u0027move down the page\u0027 or \u0027go down\u0027).",
+        "example":  "Users must scroll to the bottom of the page to read the privacy policy.",
+        "category":  "UI \u0026 UX Interaction"
+    },
+    {
+        "word":  "Personalize",
+        "meaning":  "To tailor a digital service, layout, or content feed to fit an individual user\u0027s preferences or profile (strong alternative to \u0027change settings to make it mine\u0027 or \u0027make custom layout\u0027).",
+        "example":  "The app uses algorithms to personalize recommendations on your home screen.",
+        "category":  "UI \u0026 UX Interaction"
+    },
+    {
+        "word":  "Toggle",
+        "meaning":  "To switch between two options or states (like light mode and dark mode) with a single click (strong alternative to \u0027switch on or off\u0027 or \u0027click the button to switch\u0027).",
+        "example":  "You can toggle the dark mode option in the settings menu.",
+        "category":  "UI \u0026 UX Interaction"
+    },
+    {
+        "word":  "Hover",
+        "meaning":  "To position the mouse cursor over an on-screen element without clicking it to reveal more options (strong alternative to \u0027put cursor on\u0027 or \u0027hold mouse over\u0027).",
+        "example":  "Hover your mouse over the icon to see a short tooltip explaining its function.",
+        "category":  "UI \u0026 UX Interaction"
+    },
+    {
+        "word":  "Swipe",
+        "meaning":  "To slide a finger across a touch screen to scroll through items or navigate between pages (strong alternative to \u0027slide your finger\u0027 or \u0027slide the screen\u0027).",
+        "example":  "You can swipe left to view the next slide in the photo gallery.",
+        "category":  "UI \u0026 UX Interaction"
+    },
+    {
+        "word":  "Zoom",
+        "meaning":  "To magnify or reduce the size of an image, text, or page display on a screen (strong alternative to \u0027make bigger or smaller on screen\u0027 or \u0027blow up display\u0027).",
+        "example":  "You can zoom in to read the small print in the PDF document.",
+        "category":  "UI \u0026 UX Interaction"
+    },
+    {
+        "word":  "Expand",
+        "meaning":  "To click a button or menu to reveal hidden options or content on a webpage (strong alternative to \u0027open up menu\u0027 or \u0027show folder contents\u0027).",
+        "example":  "Click the arrow to expand the menu and see more subfolders.",
+        "category":  "UI \u0026 UX Interaction"
+    },
+    {
+        "word":  "Collapse",
+        "meaning":  "To hide or fold away options or text sections to clean up the screen space (strong alternative to \u0027hide menu section\u0027 or \u0027fold it up\u0027).",
+        "example":  "You can collapse the sidebar to give yourself more screen space to write.",
+        "category":  "UI \u0026 UX Interaction"
+    },
+    {
+        "word":  "Redirect",
+        "meaning":  "To automatically send a visitor from one URL address to a different webpage (strong alternative to \u0027send to another page\u0027 or \u0027send automatically to a link\u0027).",
+        "example":  "The website will redirect you to the login page if your session expires.",
+        "category":  "UI \u0026 UX Interaction"
+    },
+    {
+        "word":  "Embed",
+        "meaning":  "To insert a video, image, map, or code component directly into a webpage\u0027s code so it displays in place (strong alternative to \u0027put video inside page\u0027 or \u0027add map to site\u0027).",
+        "example":  "You can embed the YouTube video directly into your blog post using an iframe.",
+        "category":  "UI \u0026 UX Interaction"
+    },
+    {
+        "word":  "Refresh",
+        "meaning":  "To reload the current webpage or application display to load the latest data or content (strong alternative to \u0027reload the page\u0027 or \u0027re-run page\u0027).",
+        "example":  "If the page loads incorrectly, click the refresh button in your browser.",
+        "category":  "UI \u0026 UX Interaction"
+    }
+]

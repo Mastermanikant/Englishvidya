@@ -1,0 +1,589 @@
+﻿[
+    {
+        "word":  "yes",
+        "hindi_meaning":  "à¤¹à¤¾à¤ (haan)",
+        "pronunciation_help":  "à¤¯à¤¸ (yes)",
+        "word_type":  "Adverb",
+        "simple_explanation":  "Used to give a positive answer or agree with something.",
+        "daily_life_use":  "Confirming information or accepting offers.",
+        "spoken_use":  "Yes, I can do that.",
+        "natural_native_use":  "Yeah. / Yep. / Sure.",
+        "emotional_tone":  "Positive, confirming",
+        "common_collocations":  [
+                                    "yes please",
+                                    "oh yes",
+                                    "yes indeed"
+                                ],
+        "examples":  [
+                         "Are you ready? Yes.",
+                         "Yes, that\u0027s exactly right."
+                     ],
+        "common_mistakes":  "Overusing \u0027yes\u0027 in conversation instead of \u0027yeah\u0027 or \u0027uh-huh\u0027, making it sound too formal.",
+        "hindi_confusion_correction":  "Straightforward translation, but \u0027yeah\u0027 is much more common in casual English.",
+        "formal_informal_note":  "Formal. Use \u0027yeah\u0027 or \u0027yep\u0027 in casual settings.",
+        "image_url":  "https://commons.wikimedia.org/wiki/Special:FilePath/Check_mark.svg",
+        "category":  "Adverb"
+    },
+    {
+        "word":  "no",
+        "hindi_meaning":  "à¤¨à¤¹à¥€à¤‚ (nahin)",
+        "pronunciation_help":  "à¤¨à¥‹ (no)",
+        "word_type":  "Adverb",
+        "simple_explanation":  "Used to give a negative answer or refuse something.",
+        "daily_life_use":  "Declining offers or denying a statement.",
+        "spoken_use":  "No, I don\u0027t want to.",
+        "natural_native_use":  "Nope. / Nah.",
+        "emotional_tone":  "Negative, denying",
+        "common_collocations":  [
+                                    "no thanks",
+                                    "oh no",
+                                    "no way"
+                                ],
+        "examples":  [
+                         "No, I haven\u0027t seen it.",
+                         "He said no to the offer."
+                     ],
+        "common_mistakes":  "Saying \u0027no\u0027 too bluntly can sound rude. Often softened with \u0027I\u0027m sorry, but no\u0027.",
+        "hindi_confusion_correction":  "In Hindi \u0027à¤œà¥€ à¤¨à¤¹à¥€à¤‚\u0027 is polite. In English, \u0027No, thank you\u0027 is the polite form.",
+        "formal_informal_note":  "Can be direct. \u0027Nope\u0027 is informal.",
+        "image_url":  "https://commons.wikimedia.org/wiki/Special:FilePath/Red_X_mark.svg",
+        "category":  "Adverb"
+    },
+    {
+        "word":  "please",
+        "hindi_meaning":  "à¤•à¥ƒà¤ªà¤¯à¤¾ (kripaya)",
+        "pronunciation_help":  "à¤ªà¥à¤²à¥€à¤œà¤¼ (pleez)",
+        "word_type":  "Adverb",
+        "simple_explanation":  "Used to make a polite request.",
+        "daily_life_use":  "Asking for favors or ordering food.",
+        "spoken_use":  "Can you help me, please?",
+        "natural_native_use":  "Could you please...?",
+        "emotional_tone":  "Polite",
+        "common_collocations":  [
+                                    "yes please",
+                                    "please do",
+                                    "could you please"
+                                ],
+        "examples":  [
+                         "Please close the door.",
+                         "Water, please."
+                     ],
+        "common_mistakes":  "Forgetting to say \u0027please\u0027 when asking for things can be considered rude in English.",
+        "hindi_confusion_correction":  "English speakers use \u0027please\u0027 much more frequently than Hindi speakers use \u0027à¤•à¥ƒà¤ªà¤¯à¤¾\u0027.",
+        "formal_informal_note":  "Expected in both formal and informal situations.",
+        "image_url":  "https://commons.wikimedia.org/wiki/Special:FilePath/Please_hands.svg",
+        "category":  "Adverb"
+    },
+    {
+        "word":  "really",
+        "hindi_meaning":  "à¤¸à¤š à¤®à¥‡à¤‚ / à¤µà¤¾à¤¸à¥à¤¤à¤µ à¤®à¥‡à¤‚ (sach mein)",
+        "pronunciation_help":  "à¤°à¤¿à¤…à¤²à¤¿ (ree-uh-lee)",
+        "word_type":  "Adverb",
+        "simple_explanation":  "Used to emphasize a point or express surprise/doubt.",
+        "daily_life_use":  "Asking for confirmation or exaggerating an adjective.",
+        "spoken_use":  "Are you really sure?",
+        "natural_native_use":  "Oh, really? / I\u0027m really tired.",
+        "emotional_tone":  "Emphatic, questioning",
+        "common_collocations":  [
+                                    "really good",
+                                    "really want",
+                                    "not really"
+                                ],
+        "examples":  [
+                         "I really like this song.",
+                         "Really? I didn\u0027t know that."
+                     ],
+        "common_mistakes":  "Using \u0027really\u0027 instead of \u0027very\u0027 repeatedly (e.g., \u0027really really good\u0027).",
+        "hindi_confusion_correction":  "When asked as a question (\u0027Really?\u0027), it means \u0027à¤•à¥à¤¯à¤¾ à¤¸à¤š à¤®à¥‡à¤‚?\u0027.",
+        "formal_informal_note":  "Common in all speech.",
+        "image_url":  "https://commons.wikimedia.org/wiki/Special:FilePath/Question_mark_icon.svg",
+        "category":  "Adverb"
+    },
+    {
+        "word":  "exactly",
+        "hindi_meaning":  "à¤¬à¤¿à¤²à¥à¤•à¥à¤² / à¤¸à¤Ÿà¥€à¤• (bilkul / sateek)",
+        "pronunciation_help":  "à¤‡à¤—à¥à¤œà¤¼à¥ˆà¤•à¥à¤Ÿà¤²à¥€ (ig-zact-lee)",
+        "word_type":  "Adverb",
+        "simple_explanation":  "Used to emphasize that something is completely correct.",
+        "daily_life_use":  "Agreeing strongly with someone\u0027s point.",
+        "spoken_use":  "Exactly! That\u0027s what I meant.",
+        "natural_native_use":  "Exactly.",
+        "emotional_tone":  "Confirming, enthusiastic",
+        "common_collocations":  [
+                                    "exactly the same",
+                                    "not exactly",
+                                    "know exactly"
+                                ],
+        "examples":  [
+                         "Do exactly as I say.",
+                         "That\u0027s exactly right."
+                     ],
+        "common_mistakes":  "Mispronouncing by omitting the \u0027t\u0027 sound completely, though native speakers sometimes say \u0027eg-zak-lee\u0027.",
+        "hindi_confusion_correction":  "Often used as a one-word answer to mean \u0027à¤¬à¤¿à¤²à¥à¤•à¥à¤² à¤¸à¤¹à¥€ à¤¬à¤¾à¤¤\u0027.",
+        "formal_informal_note":  "Appropriate for all settings.",
+        "image_url":  "https://commons.wikimedia.org/wiki/Special:FilePath/Target_icon.svg",
+        "category":  "Adverb"
+    },
+    {
+        "word":  "absolutely",
+        "hindi_meaning":  "à¤ªà¥‚à¤°à¥à¤£ à¤°à¥‚à¤ª à¤¸à¥‡ / à¤¬à¤¿à¤²à¥à¤•à¥à¤² (poorn roop se / bilkul)",
+        "pronunciation_help":  "à¤à¤¬à¥à¤¸à¤²à¥‚à¤Ÿà¤²à¥€ (ab-so-loot-lee)",
+        "word_type":  "Adverb",
+        "simple_explanation":  "Used to say \u0027yes\u0027 strongly or to emphasize that something is completely true.",
+        "daily_life_use":  "Showing strong agreement.",
+        "spoken_use":  "Are you sure? Absolutely.",
+        "natural_native_use":  "Absolutely not. / Absolutely!",
+        "emotional_tone":  "Strong, definitive",
+        "common_collocations":  [
+                                    "absolutely right",
+                                    "absolutely stunning",
+                                    "absolutely not"
+                                ],
+        "examples":  [
+                         "You are absolutely right.",
+                         "I absolutely love this place."
+                     ],
+        "common_mistakes":  "Using it for mild agreement. It should be used for strong agreement.",
+        "hindi_confusion_correction":  "Stronger than \u0027yes\u0027. It\u0027s like saying \u0027à¤¸à¥Œ à¤ªà¥à¤°à¤¤à¤¿à¤¶à¤¤ à¤¹à¤¾à¤\u0027.",
+        "formal_informal_note":  "Often used in both formal and casual conversations.",
+        "image_url":  "https://commons.wikimedia.org/wiki/Special:FilePath/100_percent_icon.svg",
+        "category":  "Adverb"
+    },
+    {
+        "word":  "maybe",
+        "hindi_meaning":  "à¤¶à¤¾à¤¯à¤¦ (shaayad)",
+        "pronunciation_help":  "à¤®à¥‡-à¤¬à¥€ (may-bee)",
+        "word_type":  "Adverb",
+        "simple_explanation":  "Used to indicate that something is possible or that you are not sure.",
+        "daily_life_use":  "Giving an uncertain answer to a question.",
+        "spoken_use":  "Maybe we will go tomorrow.",
+        "natural_native_use":  "Maybe later. / Just maybe.",
+        "emotional_tone":  "Uncertain, hesitant",
+        "common_collocations":  [
+                                    "maybe later",
+                                    "just maybe"
+                                ],
+        "examples":  [
+                         "Maybe it will rain today.",
+                         "Are you coming? Maybe."
+                     ],
+        "common_mistakes":  "Confusing \u0027maybe\u0027 (adverb) with \u0027may be\u0027 (verb phrase).",
+        "hindi_confusion_correction":  "\u0027Maybe\u0027 is one word meaning \u0027à¤¶à¤¾à¤¯à¤¦\u0027. \u0027May be\u0027 is two words meaning \u0027à¤¹à¥‹ à¤¸à¤•à¤¤à¤¾ à¤¹à¥ˆ\u0027.",
+        "formal_informal_note":  "Neutral.",
+        "image_url":  "https://commons.wikimedia.org/wiki/Special:FilePath/Thinking_face.svg",
+        "category":  "Adverb"
+    },
+    {
+        "word":  "probably",
+        "hindi_meaning":  "à¤¸à¤‚à¤­à¤µà¤¤à¤ƒ / à¤¶à¤¾à¤¯à¤¦ (sambhavatah / shaayad)",
+        "pronunciation_help":  "à¤ªà¥à¤°à¥‰à¤¬à¤¬à¥à¤²à¥€ (prob-ab-lee)",
+        "word_type":  "Adverb",
+        "simple_explanation":  "Used to mean that something is very likely to happen or be true.",
+        "daily_life_use":  "Predicting something with confidence but not 100% certainty.",
+        "spoken_use":  "I will probably stay home.",
+        "natural_native_use":  "Probs. (very slang/informal)",
+        "emotional_tone":  "Confident but cautious",
+        "common_collocations":  [
+                                    "probably won\u0027t",
+                                    "most probably",
+                                    "probably will"
+                                ],
+        "examples":  [
+                         "He is probably at work.",
+                         "It will probably rain."
+                     ],
+        "common_mistakes":  "Mispronouncing as \u0027prob-lee\u0027 (though natives often say it this way, learners should aim for the full word first).",
+        "hindi_confusion_correction":  "Stronger than \u0027maybe\u0027 (à¤¶à¤¾à¤¯à¤¦). It means \u0027à¤œà¤¼à¥à¤¯à¤¾à¤¦à¤¾à¤¤à¤° à¤šà¤¾à¤‚à¤¸ à¤¹à¥ˆ\u0027.",
+        "formal_informal_note":  "Neutral.",
+        "image_url":  "https://commons.wikimedia.org/wiki/Special:FilePath/Graph_up_icon.svg",
+        "category":  "Adverb"
+    },
+    {
+        "word":  "definitely",
+        "hindi_meaning":  "à¤¨à¤¿à¤¶à¥à¤šà¤¿à¤¤ à¤°à¥‚à¤ª à¤¸à¥‡ (nishchit roop se)",
+        "pronunciation_help":  "à¤¡à¥‡à¤«à¤¼à¤¿à¤¨à¥‡à¤Ÿà¤²à¥€ (def-in-it-lee)",
+        "word_type":  "Adverb",
+        "simple_explanation":  "Without any doubt.",
+        "daily_life_use":  "Giving a 100% certain answer or agreeing strongly.",
+        "spoken_use":  "I will definitely be there.",
+        "natural_native_use":  "Def. (slang)",
+        "emotional_tone":  "Certain, firm",
+        "common_collocations":  [
+                                    "definitely not",
+                                    "will definitely"
+                                ],
+        "examples":  [
+                         "She is definitely the best player.",
+                         "We definitely need to talk."
+                     ],
+        "common_mistakes":  "Spelling it wrong (e.g., \u0027definately\u0027).",
+        "hindi_confusion_correction":  "Used to say \u0027à¤ªà¤•à¥à¤•à¤¾\u0027 or \u0027à¤¬à¤¿à¤¨à¤¾ à¤•à¤¿à¤¸à¥€ à¤¶à¤• à¤•à¥‡\u0027.",
+        "formal_informal_note":  "Neutral.",
+        "image_url":  "https://commons.wikimedia.org/wiki/Special:FilePath/Check_mark_green.svg",
+        "category":  "Adverb"
+    },
+    {
+        "word":  "obviously",
+        "hindi_meaning":  "à¤œà¤¼à¤¾à¤¹à¤¿à¤° à¤¹à¥ˆ / à¤¸à¥à¤ªà¤·à¥à¤Ÿ à¤°à¥‚à¤ª à¤¸à¥‡ (zaahir hai / spasht roop se)",
+        "pronunciation_help":  "à¤‘à¤¬à¥à¤µà¤¿à¤¯à¤¸à¤²à¥€ (ob-vee-us-lee)",
+        "word_type":  "Adverb",
+        "simple_explanation":  "In a way that is easily seen or understood.",
+        "daily_life_use":  "Stating a fact that everyone already knows.",
+        "spoken_use":  "Obviously, we need more time.",
+        "natural_native_use":  "Well, obviously.",
+        "emotional_tone":  "Direct, sometimes condescending",
+        "common_collocations":  [
+                                    "quite obviously",
+                                    "obviously not"
+                                ],
+        "examples":  [
+                         "He was obviously tired.",
+                         "Obviously, you can\u0027t park here."
+                     ],
+        "common_mistakes":  "Using it too often can make you sound arrogant, as if everyone else is stupid for not knowing.",
+        "hindi_confusion_correction":  "Similar to \u0027à¤œà¤¼à¤¾à¤¹à¤¿à¤° à¤¸à¥€ à¤¬à¤¾à¤¤ à¤¹à¥ˆ\u0027. Use with care so you don\u0027t sound rude.",
+        "formal_informal_note":  "Conversational.",
+        "image_url":  "https://commons.wikimedia.org/wiki/Special:FilePath/Light_bulb_icon.svg",
+        "category":  "Adverb"
+    },
+    {
+        "word":  "honestly",
+        "hindi_meaning":  "à¤ˆà¤®à¤¾à¤¨à¤¦à¤¾à¤°à¥€ à¤¸à¥‡ / à¤¸à¤š à¤•à¤¹à¥‚à¤ à¤¤à¥‹ (imaandari se / sach kahoon toh)",
+        "pronunciation_help":  "à¤‘à¤¨à¥‡à¤¸à¥à¤Ÿà¤²à¥€ (on-est-lee)",
+        "word_type":  "Adverb",
+        "simple_explanation":  "Used to emphasize that you are telling the truth or your true opinion.",
+        "daily_life_use":  "Sharing a personal opinion frankly.",
+        "spoken_use":  "Honestly, I didn\u0027t like the movie.",
+        "natural_native_use":  "To be honest...",
+        "emotional_tone":  "Sincere, frank",
+        "common_collocations":  [
+                                    "quite honestly",
+                                    "honestly believe"
+                                ],
+        "examples":  [
+                         "Honestly, I don\u0027t know.",
+                         "She spoke honestly about her feelings."
+                     ],
+        "common_mistakes":  "Pronouncing the \u0027h\u0027. It should be silent (on-est-lee).",
+        "hindi_confusion_correction":  "Often used at the start of a sentence like \u0027à¤¸à¤š à¤•à¤¹à¥‚à¤ à¤¤à¥‹...\u0027.",
+        "formal_informal_note":  "Neutral.",
+        "image_url":  "https://commons.wikimedia.org/wiki/Special:FilePath/Hand_on_heart_icon.svg",
+        "category":  "Adverb"
+    },
+    {
+        "word":  "seriously",
+        "hindi_meaning":  "à¤—à¤‚à¤­à¥€à¤°à¤¤à¤¾ à¤¸à¥‡ / à¤¸à¤š à¤®à¥‡à¤‚ (gambheerta se / sach mein)",
+        "pronunciation_help":  "à¤¸à¥€à¤°à¤¿à¤¯à¤¸à¤²à¥€ (see-ree-us-lee)",
+        "word_type":  "Adverb",
+        "simple_explanation":  "In a serious way, or used to express surprise and ask if something is true.",
+        "daily_life_use":  "Asking if someone is joking, or stating a serious fact.",
+        "spoken_use":  "Are you taking this seriously?",
+        "natural_native_use":  "Seriously? (Used as \u0027Are you joking?\u0027)",
+        "emotional_tone":  "Grave, surprised",
+        "common_collocations":  [
+                                    "take seriously",
+                                    "but seriously"
+                                ],
+        "examples":  [
+                         "You need to study seriously.",
+                         "Seriously? He quit his job?"
+                     ],
+        "common_mistakes":  "Overusing \u0027seriously\u0027 as a reaction to minor things.",
+        "hindi_confusion_correction":  "Can mean \u0027à¤®à¤œà¤¼à¤¾à¤• à¤›à¥‹à¤¡à¤¼à¥‹\u0027 (but seriously) or \u0027à¤•à¥à¤¯à¤¾ à¤¸à¤š à¤®à¥‡à¤‚?\u0027 (seriously?).",
+        "formal_informal_note":  "Conversational.",
+        "image_url":  "https://commons.wikimedia.org/wiki/Special:FilePath/Serious_face_icon.svg",
+        "category":  "Adverb"
+    },
+    {
+        "word":  "actually",
+        "hindi_meaning":  "à¤¦à¤°à¤…à¤¸à¤² / à¤µà¤¾à¤¸à¥à¤¤à¤µ à¤®à¥‡à¤‚ (darasal / vaastav mein)",
+        "pronunciation_help":  "à¤à¤•à¥à¤šà¥à¤…à¤²à¥€ (ak-choo-uh-lee)",
+        "word_type":  "Adverb",
+        "simple_explanation":  "Used to state the truth, especially when it is different from what was expected.",
+        "daily_life_use":  "Correcting someone politely or clarifying a fact.",
+        "spoken_use":  "Actually, I am from Delhi.",
+        "natural_native_use":  "Well, actually...",
+        "emotional_tone":  "Informative, correcting",
+        "common_collocations":  [
+                                    "actually do",
+                                    "well actually"
+                                ],
+        "examples":  [
+                         "I thought he was angry, but actually he was sad.",
+                         "What actually happened?"
+                     ],
+        "common_mistakes":  "Using it to mean \u0027currently\u0027 (due to translation from some European languages, less common for Hindi speakers).",
+        "hindi_confusion_correction":  "Best translated as \u0027à¤¦à¤°à¤…à¤¸à¤²\u0027. Use it to politely correct a misunderstanding.",
+        "formal_informal_note":  "Neutral.",
+        "image_url":  "https://commons.wikimedia.org/wiki/Special:FilePath/Info_icon.svg",
+        "category":  "Adverb"
+    },
+    {
+        "word":  "basically",
+        "hindi_meaning":  "à¤®à¥‚à¤² à¤°à¥‚à¤ª à¤¸à¥‡ / à¤•à¥à¤² à¤®à¤¿à¤²à¤¾à¤•à¤° (mool roop se / kul milakar)",
+        "pronunciation_help":  "à¤¬à¥‡à¤¸à¤¿à¤•à¤²à¥€ (bay-sik-lee)",
+        "word_type":  "Adverb",
+        "simple_explanation":  "Used to summarize or explain something in a simple way.",
+        "daily_life_use":  "Giving a short summary of a long story.",
+        "spoken_use":  "Basically, we have to start over.",
+        "natural_native_use":  "So basically...",
+        "emotional_tone":  "Simplifying",
+        "common_collocations":  [
+                                    "basically the same"
+                                ],
+        "examples":  [
+                         "Basically, it\u0027s a machine that makes coffee.",
+                         "He basically told me to leave."
+                     ],
+        "common_mistakes":  "Using it as a filler word in every sentence without adding meaning.",
+        "hindi_confusion_correction":  "Used like \u0027à¤®à¥‹à¤Ÿà¥‡ à¤¤à¥Œà¤° à¤ªà¤°\u0027 to give the main idea.",
+        "formal_informal_note":  "Informal and conversational.",
+        "image_url":  "https://commons.wikimedia.org/wiki/Special:FilePath/Summary_icon.svg",
+        "category":  "Adverb"
+    },
+    {
+        "word":  "totally",
+        "hindi_meaning":  "à¤ªà¥‚à¤°à¥€ à¤¤à¤°à¤¹ à¤¸à¥‡ (poori tarah se)",
+        "pronunciation_help":  "à¤Ÿà¥‹à¤Ÿà¤²à¥€ (toe-tuh-lee)",
+        "word_type":  "Adverb",
+        "simple_explanation":  "Completely, entirely.",
+        "daily_life_use":  "Strongly agreeing or emphasizing completion.",
+        "spoken_use":  "I totally forgot about the meeting.",
+        "natural_native_use":  "Totally! (As an agreement)",
+        "emotional_tone":  "Enthusiastic",
+        "common_collocations":  [
+                                    "totally agree",
+                                    "totally different",
+                                    "totally forgot"
+                                ],
+        "examples":  [
+                         "The movie was totally awesome.",
+                         "I totally agree with you."
+                     ],
+        "common_mistakes":  "Using \u0027totally\u0027 in highly formal writing (it sounds too slangy).",
+        "hindi_confusion_correction":  "Can be used as a slang reply meaning \u0027à¤¸à¥Œ à¤ªà¥à¤°à¤¤à¤¿à¤¶à¤¤ à¤¸à¤¹à¥€\u0027.",
+        "formal_informal_note":  "Very informal.",
+        "image_url":  "https://commons.wikimedia.org/wiki/Special:FilePath/Full_circle_icon.svg",
+        "category":  "Adverb"
+    },
+    {
+        "word":  "completely",
+        "hindi_meaning":  "à¤ªà¥‚à¤°à¥€ à¤¤à¤°à¤¹ à¤¸à¥‡ / à¤®à¥à¤•à¤®à¥à¤®à¤² à¤¤à¥Œà¤° à¤ªà¤° (poori tarah se)",
+        "pronunciation_help":  "à¤•à¤®à¥à¤ªà¥à¤²à¥€à¤Ÿà¤²à¥€ (kum-pleet-lee)",
+        "word_type":  "Adverb",
+        "simple_explanation":  "In every way or as much as possible.",
+        "daily_life_use":  "Describing something that is 100% done or changed.",
+        "spoken_use":  "I completely understand.",
+        "natural_native_use":  "Completely ruined. / Completely done.",
+        "emotional_tone":  "Absolute",
+        "common_collocations":  [
+                                    "completely different",
+                                    "completely forgot",
+                                    "completely ignore"
+                                ],
+        "examples":  [
+                         "The house was completely destroyed.",
+                         "I completely agree."
+                     ],
+        "common_mistakes":  "Using it with ungradable adjectives (e.g., \u0027completely a little bit\u0027).",
+        "hindi_confusion_correction":  "More formal than \u0027totally\u0027, but means the same thing.",
+        "formal_informal_note":  "Appropriate for all settings.",
+        "image_url":  "https://commons.wikimedia.org/wiki/Special:FilePath/Check_all_icon.svg",
+        "category":  "Adverb"
+    },
+    {
+        "word":  "anyway",
+        "hindi_meaning":  "à¤–à¤¼à¥ˆà¤° / à¤µà¥ˆà¤¸à¥‡ à¤­à¥€ (khair / vaise bhi)",
+        "pronunciation_help":  "à¤à¤¨à¥€-à¤µà¥‡ (eh-nee-way)",
+        "word_type":  "Adverb",
+        "simple_explanation":  "Used to change the subject, return to a previous subject, or end a conversation.",
+        "daily_life_use":  "Moving a conversation forward.",
+        "spoken_use":  "Anyway, let\u0027s get back to work.",
+        "natural_native_use":  "Anyways... (informal plural)",
+        "emotional_tone":  "Transitioning",
+        "common_collocations":  [
+                                    "anyway, as I was saying",
+                                    "thanks anyway"
+                                ],
+        "examples":  [
+                         "It\u0027s raining, but we\u0027re going anyway.",
+                         "Anyway, I should go now."
+                     ],
+        "common_mistakes":  "Using \u0027anyways\u0027 in formal writing. \u0027Anyway\u0027 is the correct standard form.",
+        "hindi_confusion_correction":  "Best translation is \u0027à¤–à¤¼à¥ˆà¤°\u0027. Perfect for changing topics.",
+        "formal_informal_note":  "Conversational.",
+        "image_url":  "https://commons.wikimedia.org/wiki/Special:FilePath/Arrow_right_icon.svg",
+        "category":  "Adverb"
+    },
+    {
+        "word":  "yes",
+        "hindi_meaning":  "à¤¹à¤¾à¤",
+        "pronunciation_help":  "à¤¯à¥‡à¤¸ (Yes)",
+        "word_type":  "Adverb",
+        "simple_explanation":  "Used to give an affirmative answer.",
+        "daily_life_use":  "When agreeing or accepting something.",
+        "spoken_use":  "Yes, I will do it.",
+        "natural_native_use":  "Yeah! / Yep!",
+        "emotional_tone":  "Positive",
+        "common_collocations":  [
+                                    "say yes",
+                                    "yes please"
+                                ],
+        "examples":  [
+                         "Yes, I understand.",
+                         "Are you coming? Yes."
+                     ],
+        "common_mistakes":  "Using \u0027yes\u0027 too aggressively.",
+        "hindi_confusion_correction":  "Don\u0027t confuse \u0027yes\u0027 with head nodding alone; speak it.",
+        "formal_informal_note":  "Yeah/Yep are informal; Yes is formal.",
+        "image_url":  "https://commons.wikimedia.org/wiki/Special:FilePath/Yes_check.svg",
+        "category":  "Adverb"
+    },
+    {
+        "word":  "no",
+        "hindi_meaning":  "à¤¨à¤¹à¥€à¤‚",
+        "pronunciation_help":  "à¤¨à¥‹ (No)",
+        "word_type":  "Adverb",
+        "simple_explanation":  "Used to give a negative answer.",
+        "daily_life_use":  "When refusing or disagreeing.",
+        "spoken_use":  "No, I don\u0027t want it.",
+        "natural_native_use":  "Nope. / Nah.",
+        "emotional_tone":  "Negative",
+        "common_collocations":  [
+                                    "say no",
+                                    "oh no"
+                                ],
+        "examples":  [
+                         "No, thank you.",
+                         "I have no money."
+                     ],
+        "common_mistakes":  "Saying just \u0027No\u0027 can sound rude. Add \u0027thank you\u0027.",
+        "hindi_confusion_correction":  "Hindi \u0027nahi\u0027 is direct, English \u0027no\u0027 often needs softening.",
+        "formal_informal_note":  "Nope/Nah are informal; No is formal.",
+        "image_url":  "https://commons.wikimedia.org/wiki/Special:FilePath/No_sign.svg",
+        "category":  "Adverb"
+    },
+    {
+        "word":  "please",
+        "hindi_meaning":  "à¤•à¥ƒà¤ªà¤¯à¤¾",
+        "pronunciation_help":  "à¤ªà¥à¤²à¥€à¤œà¤¼ (Pleez)",
+        "word_type":  "Adverb",
+        "simple_explanation":  "Used to ask for something politely.",
+        "daily_life_use":  "When making a request.",
+        "spoken_use":  "Please help me.",
+        "natural_native_use":  "Could you please...?",
+        "emotional_tone":  "Polite",
+        "common_collocations":  [
+                                    "yes please",
+                                    "please do"
+                                ],
+        "examples":  [
+                         "Can you please pass the water?",
+                         "Please sit down."
+                     ],
+        "common_mistakes":  "Forgetting to use it when asking for things.",
+        "hindi_confusion_correction":  "In Hindi tone implies politeness, in English \u0027please\u0027 is required.",
+        "formal_informal_note":  "Always good to use; essential in formal settings.",
+        "image_url":  "https://commons.wikimedia.org/wiki/Special:FilePath/Please.jpg",
+        "category":  "Adverb"
+    },
+    {
+        "word":  "now",
+        "hindi_meaning":  "à¤…à¤¬ / à¤…à¤­à¥€",
+        "pronunciation_help":  "à¤¨à¤¾à¤‰ (Now)",
+        "word_type":  "Adverb",
+        "simple_explanation":  "At the present time.",
+        "daily_life_use":  "Talking about immediate actions.",
+        "spoken_use":  "Do it right now.",
+        "natural_native_use":  "I need to go now.",
+        "emotional_tone":  "Urgent / Neutral",
+        "common_collocations":  [
+                                    "right now",
+                                    "just now",
+                                    "by now"
+                                ],
+        "examples":  [
+                         "Now is the best time.",
+                         "I am eating now."
+                     ],
+        "common_mistakes":  "Saying \u0027now\u0027 at the end of every sentence.",
+        "hindi_confusion_correction":  "Hindi \u0027abhi\u0027 implies right now, English \u0027now\u0027 is similar.",
+        "formal_informal_note":  "Standard vocabulary.",
+        "image_url":  "https://commons.wikimedia.org/wiki/Special:FilePath/Now.jpg",
+        "category":  "Adverb"
+    },
+    {
+        "word":  "later",
+        "hindi_meaning":  "à¤¬à¤¾à¤¦ à¤®à¥‡à¤‚",
+        "pronunciation_help":  "à¤²à¥‡-à¤Ÿà¤° (Lay-ter)",
+        "word_type":  "Adverb",
+        "simple_explanation":  "At a time in the future.",
+        "daily_life_use":  "Delaying something.",
+        "spoken_use":  "I will call you later.",
+        "natural_native_use":  "Catch you later.",
+        "emotional_tone":  "Neutral",
+        "common_collocations":  [
+                                    "see you later",
+                                    "much later"
+                                ],
+        "examples":  [
+                         "Let\u0027s talk later.",
+                         "He came later in the evening."
+                     ],
+        "common_mistakes":  "Confusing \u0027later\u0027 (time) with \u0027latter\u0027 (order).",
+        "hindi_confusion_correction":  "Hindi \u0027baad mein\u0027 directly translates to \u0027later\u0027.",
+        "formal_informal_note":  "Catch you later is informal.",
+        "image_url":  "https://commons.wikimedia.org/wiki/Special:FilePath/Later.jpg",
+        "category":  "Adverb"
+    },
+    {
+        "word":  "Now",
+        "hindi_meaning":  "à¤…à¤­à¥€ / à¤…à¤¬",
+        "pronunciation_help":  "à¤¨à¤¾à¤‰",
+        "word_type":  "Adverb",
+        "simple_explanation":  "At the present time or moment.",
+        "daily_life_use":  "Urgency, current actions.",
+        "spoken_use":  "I have to go now.",
+        "natural_native_use":  "Right now.",
+        "emotional_tone":  "Immediate, urgent.",
+        "common_collocations":  [
+                                    "right now",
+                                    "from now on",
+                                    "now and then"
+                                ],
+        "examples":  [
+                         "Are you ready now?",
+                         "We live in Delhi now."
+                     ],
+        "common_mistakes":  "Confusing \u0027now\u0027 with \u0027know\u0027.",
+        "hindi_confusion_correction":  "\u0027Now\u0027 means \u0027ab\u0027 (à¤…à¤¬) and \u0027Know\u0027 means \u0027pata hona\u0027 (à¤ªà¤¤à¤¾ à¤¹à¥‹à¤¨à¤¾).",
+        "formal_informal_note":  "Universal.",
+        "image_url":  "https://upload.wikimedia.org/wikipedia/commons/1/18/Pocket_watch.jpg",
+        "category":  "Adverb"
+    },
+    {
+        "word":  "Then",
+        "hindi_meaning":  "à¤¤à¤¬ / à¤«à¤¿à¤°",
+        "pronunciation_help":  "à¤¦à¥‡à¤¨",
+        "word_type":  "Adverb",
+        "simple_explanation":  "At that time, or next in order.",
+        "daily_life_use":  "Storytelling, sequences.",
+        "spoken_use":  "What happened then?",
+        "natural_native_use":  "Now and then.",
+        "emotional_tone":  "Sequential, reflective.",
+        "common_collocations":  [
+                                    "back then",
+                                    "since then",
+                                    "then again"
+                                ],
+        "examples":  [
+                         "We ate dinner, and then we went to sleep.",
+                         "I was much younger back then."
+                     ],
+        "common_mistakes":  "Confusing \u0027then\u0027 (time) with \u0027than\u0027 (comparison).",
+        "hindi_confusion_correction":  "Use \u0027then\u0027 for time (à¤¤à¤¬) and \u0027than\u0027 for comparing (à¤¸à¥‡).",
+        "formal_informal_note":  "Universal.",
+        "image_url":  "https://upload.wikimedia.org/wikipedia/commons/1/18/Pocket_watch.jpg",
+        "category":  "Adverb"
+    }
+]

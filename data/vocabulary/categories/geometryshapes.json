@@ -1,0 +1,296 @@
+﻿[
+    {
+        "word":  "geometry",
+        "part_of_speech":  "noun",
+        "definition":  "The branch of mathematics concerned with the properties and relations of points, lines, surfaces, and solids.",
+        "category":  "Geometry/Shapes",
+        "example":  "We study shapes and their properties in geometry."
+    },
+    {
+        "word":  "point",
+        "part_of_speech":  "noun",
+        "definition":  "An exact location in space, usually represented by a dot.",
+        "category":  "Geometry/Shapes",
+        "example":  "A point has no length, width, or thickness."
+    },
+    {
+        "word":  "line",
+        "part_of_speech":  "noun",
+        "definition":  "A straight one-dimensional figure having no thickness and extending infinitely in both directions.",
+        "category":  "Geometry/Shapes",
+        "example":  "A line connects two distinct points."
+    },
+    {
+        "word":  "angle",
+        "part_of_speech":  "noun",
+        "definition":  "The space between two intersecting lines or surfaces at or close to the point where they meet.",
+        "category":  "Geometry/Shapes",
+        "example":  "A right triangle has one 90-degree angle."
+    },
+    {
+        "word":  "degree",
+        "part_of_speech":  "noun",
+        "definition":  "A unit of measurement of angles.",
+        "category":  "Geometry/Shapes",
+        "example":  "A full circle is 360 degrees."
+    },
+    {
+        "word":  "acute angle",
+        "part_of_speech":  "noun",
+        "definition":  "An angle that measures less than ninety degrees.",
+        "category":  "Geometry/Shapes",
+        "example":  "An angle of 45 degrees is an acute angle."
+    },
+    {
+        "word":  "obtuse angle",
+        "part_of_speech":  "noun",
+        "definition":  "An angle that measures more than 90 degrees but less than 180 degrees.",
+        "category":  "Geometry/Shapes",
+        "example":  "An angle of 120 degrees is an obtuse angle."
+    },
+    {
+        "word":  "right angle",
+        "part_of_speech":  "noun",
+        "definition":  "An angle of exactly 90 degrees.",
+        "category":  "Geometry/Shapes",
+        "example":  "The corners of a square form a right angle."
+    },
+    {
+        "word":  "triangle",
+        "part_of_speech":  "noun",
+        "definition":  "A plane figure with three straight sides and three angles.",
+        "category":  "Geometry/Shapes",
+        "example":  "An equilateral triangle has three equal sides."
+    },
+    {
+        "word":  "quadrilateral",
+        "part_of_speech":  "noun",
+        "definition":  "A four-sided polygon.",
+        "category":  "Geometry/Shapes",
+        "example":  "Rectangles and squares are types of quadrilaterals."
+    },
+    {
+        "word":  "square",
+        "part_of_speech":  "noun",
+        "definition":  "A plane figure with four equal straight sides and four right angles.",
+        "category":  "Geometry/Shapes",
+        "example":  "All sides of a square are of equal length."
+    },
+    {
+        "word":  "rectangle",
+        "part_of_speech":  "noun",
+        "definition":  "A plane figure with four straight sides and four right angles, especially one with unequal adjacent sides.",
+        "category":  "Geometry/Shapes",
+        "example":  "The standard door shape is a rectangle."
+    },
+    {
+        "word":  "rhombus",
+        "part_of_speech":  "noun",
+        "definition":  "A quadrilateral all of whose sides have the same length.",
+        "category":  "Geometry/Shapes",
+        "example":  "A rhombus looks like a tilted square."
+    },
+    {
+        "word":  "parallelogram",
+        "part_of_speech":  "noun",
+        "definition":  "A four-sided plane rectilinear figure with opposite sides parallel.",
+        "category":  "Geometry/Shapes",
+        "example":  "Every rectangle is a parallelogram."
+    },
+    {
+        "word":  "trapezoid",
+        "part_of_speech":  "noun",
+        "definition":  "A quadrilateral with at least one pair of parallel sides.",
+        "category":  "Geometry/Shapes",
+        "example":  "A trapezoid has one set of parallel opposite sides."
+    },
+    {
+        "word":  "polygon",
+        "part_of_speech":  "noun",
+        "definition":  "A plane figure with at least three straight sides and angles.",
+        "category":  "Geometry/Shapes",
+        "example":  "A triangle is the simplest type of polygon."
+    },
+    {
+        "word":  "pentagon",
+        "part_of_speech":  "noun",
+        "definition":  "A polygon with five straight sides and five angles.",
+        "category":  "Geometry/Shapes",
+        "example":  "The US Department of Defense headquarters is shaped like a pentagon."
+    },
+    {
+        "word":  "hexagon",
+        "part_of_speech":  "noun",
+        "definition":  "A polygon with six straight sides and angles.",
+        "category":  "Geometry/Shapes",
+        "example":  "Honeycombs are built in the shape of a hexagon."
+    },
+    {
+        "word":  "octagon",
+        "part_of_speech":  "noun",
+        "definition":  "A polygon with eight straight sides and eight angles.",
+        "category":  "Geometry/Shapes",
+        "example":  "A stop sign is shaped like an octagon."
+    },
+    {
+        "word":  "circle",
+        "part_of_speech":  "noun",
+        "definition":  "A round plane figure whose boundary consists of points equidistant from a fixed point.",
+        "category":  "Geometry/Shapes",
+        "example":  "A wheel is a perfect circle."
+    },
+    {
+        "word":  "radius",
+        "part_of_speech":  "noun",
+        "definition":  "A straight line from the center to the circumference of a circle or sphere.",
+        "category":  "Geometry/Shapes",
+        "example":  "The radius of the circle is half of its diameter."
+    },
+    {
+        "word":  "diameter",
+        "part_of_speech":  "noun",
+        "definition":  "A straight line passing from side to side through the center of a body or figure, especially a circle or sphere.",
+        "category":  "Geometry/Shapes",
+        "example":  "The diameter is the longest chord of a circle."
+    },
+    {
+        "word":  "circumference",
+        "part_of_speech":  "noun",
+        "definition":  "The enclosing boundary of a curved geometric figure, especially a circle.",
+        "category":  "Geometry/Shapes",
+        "example":  "You can calculate the circumference using the radius."
+    },
+    {
+        "word":  "chord",
+        "part_of_speech":  "noun",
+        "definition":  "A straight line segment whose endpoints lie on the circle.",
+        "category":  "Geometry/Shapes",
+        "example":  "The diameter is a special type of chord."
+    },
+    {
+        "word":  "tangent",
+        "part_of_speech":  "noun",
+        "definition":  "A straight line or plane that touches a curve or curved surface at a point, but if extended does not cross it at that point.",
+        "category":  "Geometry/Shapes",
+        "example":  "The tangent line touches the circle at exactly one point."
+    },
+    {
+        "word":  "sphere",
+        "part_of_speech":  "noun",
+        "definition":  "A round solid figure, or its surface, with every point on its surface equidistant from its center.",
+        "category":  "Geometry/Shapes",
+        "example":  "The Earth is shaped roughly like a sphere."
+    },
+    {
+        "word":  "cube",
+        "part_of_speech":  "noun",
+        "definition":  "A symmetrical three-dimensional shape, either solid or hollow, contained by six equal squares.",
+        "category":  "Geometry/Shapes",
+        "example":  "A standard die is shaped like a cube."
+    },
+    {
+        "word":  "cylinder",
+        "part_of_speech":  "noun",
+        "definition":  "A solid geometric figure with straight parallel sides and a circular or oval cross section.",
+        "category":  "Geometry/Shapes",
+        "example":  "A soda can is shaped like a cylinder."
+    },
+    {
+        "word":  "cone",
+        "part_of_speech":  "noun",
+        "definition":  "A solid or hollow object which tapers from a circular or roughly circular base to a point.",
+        "category":  "Geometry/Shapes",
+        "example":  "Ice cream is often served in a cone."
+    },
+    {
+        "word":  "pyramid",
+        "part_of_speech":  "noun",
+        "definition":  "A monumental structure with a square or triangular base and sloping sides that meet in a point at the top.",
+        "category":  "Geometry/Shapes",
+        "example":  "The ancient Egyptians built many a large pyramid."
+    },
+    {
+        "word":  "prism",
+        "part_of_speech":  "noun",
+        "definition":  "A solid geometric figure whose two end faces are similar, equal, and parallel rectilinear figures, and whose sides are parallelograms.",
+        "category":  "Geometry/Shapes",
+        "example":  "A triangular prism splits light into a rainbow."
+    },
+    {
+        "word":  "vertex",
+        "part_of_speech":  "noun",
+        "definition":  "The highest point; the top or apex. In geometry, the point where two lines meet to form an angle.",
+        "category":  "Geometry/Shapes",
+        "example":  "A triangle has three vertices, one for each corner."
+    },
+    {
+        "word":  "edge",
+        "part_of_speech":  "noun",
+        "definition":  "The line segment where two faces of a solid figure meet.",
+        "category":  "Geometry/Shapes",
+        "example":  "A cube has twelve distinct edges."
+    },
+    {
+        "word":  "face",
+        "part_of_speech":  "noun",
+        "definition":  "Any of the individual flat surfaces of a solid object.",
+        "category":  "Geometry/Shapes",
+        "example":  "A cube has six square faces."
+    },
+    {
+        "word":  "perimeter",
+        "part_of_speech":  "noun",
+        "definition":  "The continuous line forming the boundary of a closed geometric figure.",
+        "category":  "Geometry/Shapes",
+        "example":  "You need to measure the perimeter to build a fence around the yard."
+    },
+    {
+        "word":  "area",
+        "part_of_speech":  "noun",
+        "definition":  "The extent or measurement of a surface or piece of land.",
+        "category":  "Geometry/Shapes",
+        "example":  "The area of a rectangle is its length multiplied by its width."
+    },
+    {
+        "word":  "volume",
+        "part_of_speech":  "noun",
+        "definition":  "The amount of space that a substance or object occupies.",
+        "category":  "Geometry/Shapes",
+        "example":  "The volume of a pool tells us how much water it can hold."
+    },
+    {
+        "word":  "symmetry",
+        "part_of_speech":  "noun",
+        "definition":  "The quality of being made up of exactly similar parts facing each other or around an axis.",
+        "category":  "Geometry/Shapes",
+        "example":  "A butterfly\u0027s wings exhibit perfect symmetry."
+    },
+    {
+        "word":  "congruent",
+        "part_of_speech":  "adjective",
+        "definition":  "Identical in form; coinciding exactly when superimposed.",
+        "category":  "Geometry/Shapes",
+        "example":  "Two triangles are congruent if all their corresponding sides and angles are equal."
+    },
+    {
+        "word":  "similar",
+        "part_of_speech":  "adjective",
+        "definition":  "Having the same shape but not necessarily the same size.",
+        "category":  "Geometry/Shapes",
+        "example":  "All squares are similar to each other."
+    },
+    {
+        "word":  "parallel",
+        "part_of_speech":  "adjective",
+        "definition":  "Lines in a plane which do not meet; that is, two lines in a plane that do not intersect or touch each other at any point.",
+        "category":  "Geometry/Shapes",
+        "example":  "Railroad tracks represent parallel lines."
+    },
+    {
+        "word":  "perpendicular",
+        "part_of_speech":  "adjective",
+        "definition":  "At an angle of 90 degrees to a given line, plane, or surface.",
+        "category":  "Geometry/Shapes",
+        "example":  "The walls of a room are perpendicular to the floor."
+    }
+]

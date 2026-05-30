@@ -1,0 +1,681 @@
+[
+  {
+    "word": "act",
+    "partOfSpeech": "root",
+    "definition": "to do, to move",
+    "level": "beginner",
+    "examples": ["action", "actor", "react"]
+  },
+  {
+    "word": "aud",
+    "partOfSpeech": "root",
+    "definition": "to hear",
+    "level": "beginner",
+    "examples": ["audience", "audio", "audible"]
+  },
+  {
+    "word": "bio",
+    "partOfSpeech": "root",
+    "definition": "life",
+    "level": "beginner",
+    "examples": ["biology", "biography", "biosphere"]
+  },
+  {
+    "word": "chron",
+    "partOfSpeech": "root",
+    "definition": "time",
+    "level": "intermediate",
+    "examples": ["chronological", "chronic", "synchronize"]
+  },
+  {
+    "word": "cred",
+    "partOfSpeech": "root",
+    "definition": "to believe",
+    "level": "intermediate",
+    "examples": ["credible", "credit", "incredible"]
+  },
+  {
+    "word": "dict",
+    "partOfSpeech": "root",
+    "definition": "to say, to speak",
+    "level": "intermediate",
+    "examples": ["dictate", "dictionary", "predict"]
+  },
+  {
+    "word": "duc / duct",
+    "partOfSpeech": "root",
+    "definition": "to lead",
+    "level": "intermediate",
+    "examples": ["conduct", "educate", "reduce"]
+  },
+  {
+    "word": "fac / fec / fic",
+    "partOfSpeech": "root",
+    "definition": "to make, to do",
+    "level": "advanced",
+    "examples": ["factory", "affect", "fiction"]
+  },
+  {
+    "word": "graph / gram",
+    "partOfSpeech": "root",
+    "definition": "to write, to draw",
+    "level": "beginner",
+    "examples": ["autograph", "grammar", "graphic"]
+  },
+  {
+    "word": "ject",
+    "partOfSpeech": "root",
+    "definition": "to throw",
+    "level": "intermediate",
+    "examples": ["inject", "reject", "project"]
+  },
+  {
+    "word": "log / logue",
+    "partOfSpeech": "root",
+    "definition": "word, thought, speech",
+    "level": "intermediate",
+    "examples": ["dialogue", "logic", "apology"]
+  },
+  {
+    "word": "luc / lum",
+    "partOfSpeech": "root",
+    "definition": "light",
+    "level": "advanced",
+    "examples": ["illuminate", "lucid", "translucent"]
+  },
+  {
+    "word": "man",
+    "partOfSpeech": "root",
+    "definition": "hand",
+    "level": "intermediate",
+    "examples": ["manual", "manufacture", "manuscript"]
+  },
+  {
+    "word": "miss / mit",
+    "partOfSpeech": "root",
+    "definition": "to send",
+    "level": "intermediate",
+    "examples": ["mission", "submit", "transmit"]
+  },
+  {
+    "word": "morph",
+    "partOfSpeech": "root",
+    "definition": "shape, form",
+    "level": "advanced",
+    "examples": ["metamorphosis", "amorphous", "morphology"]
+  },
+  {
+    "word": "mort",
+    "partOfSpeech": "root",
+    "definition": "death",
+    "level": "advanced",
+    "examples": ["immortal", "mortal", "mortuary"]
+  },
+  {
+    "word": "nat",
+    "partOfSpeech": "root",
+    "definition": "born",
+    "level": "advanced",
+    "examples": ["innate", "natal", "natural"]
+  },
+  {
+    "word": "nom / nym",
+    "partOfSpeech": "root",
+    "definition": "name",
+    "level": "intermediate",
+    "examples": ["anonymous", "nominate", "synonym"]
+  },
+  {
+    "word": "path",
+    "partOfSpeech": "root",
+    "definition": "feeling, disease",
+    "level": "intermediate",
+    "examples": ["empathy", "pathology", "sympathy"]
+  },
+  {
+    "word": "ped / pod",
+    "partOfSpeech": "root",
+    "definition": "foot",
+    "level": "intermediate",
+    "examples": ["pedal", "pedestrian", "podiatrist"]
+  },
+  {
+    "word": "pel / puls",
+    "partOfSpeech": "root",
+    "definition": "to push, to drive",
+    "level": "advanced",
+    "examples": ["compel", "impulse", "propel"]
+  },
+  {
+    "word": "phil",
+    "partOfSpeech": "root",
+    "definition": "love",
+    "level": "advanced",
+    "examples": ["philanthropist", "philosophy", "bibliophile"]
+  },
+  {
+    "word": "phon",
+    "partOfSpeech": "root",
+    "definition": "sound",
+    "level": "beginner",
+    "examples": ["microphone", "phonetics", "symphony"]
+  },
+  {
+    "word": "port",
+    "partOfSpeech": "root",
+    "definition": "to carry",
+    "level": "beginner",
+    "examples": ["export", "portable", "transport"]
+  },
+  {
+    "word": "rupt",
+    "partOfSpeech": "root",
+    "definition": "to break",
+    "level": "intermediate",
+    "examples": ["bankrupt", "erupt", "interrupt"]
+  },
+  {
+    "word": "scrib / script",
+    "partOfSpeech": "root",
+    "definition": "to write",
+    "level": "intermediate",
+    "examples": ["describe", "manuscript", "scribble"]
+  },
+  {
+    "word": "sens / sent",
+    "partOfSpeech": "root",
+    "definition": "to feel",
+    "level": "intermediate",
+    "examples": ["consensus", "sensitive", "sentiment"]
+  },
+  {
+    "word": "spec / spect",
+    "partOfSpeech": "root",
+    "definition": "to look",
+    "level": "intermediate",
+    "examples": ["inspect", "spectator", "suspect"]
+  },
+  {
+    "word": "struct",
+    "partOfSpeech": "root",
+    "definition": "to build",
+    "level": "beginner",
+    "examples": ["construct", "destruction", "structure"]
+  },
+  {
+    "word": "tact / tang",
+    "partOfSpeech": "root",
+    "definition": "to touch",
+    "level": "advanced",
+    "examples": ["contact", "intact", "tangible"]
+  },
+  {
+    "word": "tract",
+    "partOfSpeech": "root",
+    "definition": "to pull, to draw",
+    "level": "intermediate",
+    "examples": ["attract", "distract", "tractor"]
+  },
+  {
+    "word": "vac",
+    "partOfSpeech": "root",
+    "definition": "empty",
+    "level": "intermediate",
+    "examples": ["evacuate", "vacant", "vacuum"]
+  },
+  {
+    "word": "ven / vent",
+    "partOfSpeech": "root",
+    "definition": "to come",
+    "level": "advanced",
+    "examples": ["convene", "invent", "prevent"]
+  },
+  {
+    "word": "vert / vers",
+    "partOfSpeech": "root",
+    "definition": "to turn",
+    "level": "advanced",
+    "examples": ["convert", "reverse", "vertical"]
+  },
+  {
+    "word": "vid / vis",
+    "partOfSpeech": "root",
+    "definition": "to see",
+    "level": "beginner",
+    "examples": ["evident", "video", "visible"]
+  },
+  {
+    "word": "vit / viv",
+    "partOfSpeech": "root",
+    "definition": "life",
+    "level": "advanced",
+    "examples": ["revive", "vital", "vivid"]
+  },
+  {
+    "word": "voc / vok",
+    "partOfSpeech": "root",
+    "definition": "voice, to call",
+    "level": "intermediate",
+    "examples": ["advocate", "revoke", "vocal"]
+  },
+  {
+    "word": "a- / an-",
+    "partOfSpeech": "prefix",
+    "definition": "not, without",
+    "level": "advanced",
+    "examples": ["amoral", "anonymous"]
+  },
+  {
+    "word": "ab-",
+    "partOfSpeech": "prefix",
+    "definition": "away from",
+    "level": "intermediate",
+    "examples": ["abnormal", "absent"]
+  },
+  {
+    "word": "ad-",
+    "partOfSpeech": "prefix",
+    "definition": "to, toward",
+    "level": "intermediate",
+    "examples": ["adapt", "addition"]
+  },
+  {
+    "word": "ante-",
+    "partOfSpeech": "prefix",
+    "definition": "before",
+    "level": "advanced",
+    "examples": ["antecedent", "antenatal"]
+  },
+  {
+    "word": "anti-",
+    "partOfSpeech": "prefix",
+    "definition": "against",
+    "level": "beginner",
+    "examples": ["antibacterial", "antidote"]
+  },
+  {
+    "word": "auto-",
+    "partOfSpeech": "prefix",
+    "definition": "self",
+    "level": "beginner",
+    "examples": ["autobiography", "automatic"]
+  },
+  {
+    "word": "bi-",
+    "partOfSpeech": "prefix",
+    "definition": "two",
+    "level": "beginner",
+    "examples": ["bicycle", "bilingual"]
+  },
+  {
+    "word": "circum-",
+    "partOfSpeech": "prefix",
+    "definition": "around",
+    "level": "advanced",
+    "examples": ["circumference", "circumvent"]
+  },
+  {
+    "word": "co- / com- / con-",
+    "partOfSpeech": "prefix",
+    "definition": "with, together",
+    "level": "intermediate",
+    "examples": ["coexist", "combine", "connect"]
+  },
+  {
+    "word": "contra- / contro-",
+    "partOfSpeech": "prefix",
+    "definition": "against",
+    "level": "advanced",
+    "examples": ["contradict", "controversy"]
+  },
+  {
+    "word": "de-",
+    "partOfSpeech": "prefix",
+    "definition": "down, away, opposite",
+    "level": "intermediate",
+    "examples": ["decrease", "descend"]
+  },
+  {
+    "word": "dis-",
+    "partOfSpeech": "prefix",
+    "definition": "not, apart",
+    "level": "beginner",
+    "examples": ["disagree", "disappear"]
+  },
+  {
+    "word": "en- / em-",
+    "partOfSpeech": "prefix",
+    "definition": "cause to be, put into",
+    "level": "intermediate",
+    "examples": ["empower", "enable"]
+  },
+  {
+    "word": "ex-",
+    "partOfSpeech": "prefix",
+    "definition": "out, former",
+    "level": "beginner",
+    "examples": ["exclude", "ex-president"]
+  },
+  {
+    "word": "extra-",
+    "partOfSpeech": "prefix",
+    "definition": "outside, beyond",
+    "level": "intermediate",
+    "examples": ["extraordinary", "extraterrestrial"]
+  },
+  {
+    "word": "hyper-",
+    "partOfSpeech": "prefix",
+    "definition": "over, above, excessive",
+    "level": "intermediate",
+    "examples": ["hyperactive", "hypersensitive"]
+  },
+  {
+    "word": "in- / im- / il- / ir-",
+    "partOfSpeech": "prefix",
+    "definition": "not",
+    "level": "beginner",
+    "examples": ["illegal", "impossible", "inactive", "irregular"]
+  },
+  {
+    "word": "in- / im-",
+    "partOfSpeech": "prefix",
+    "definition": "in, into",
+    "level": "intermediate",
+    "examples": ["import", "include"]
+  },
+  {
+    "word": "inter-",
+    "partOfSpeech": "prefix",
+    "definition": "between",
+    "level": "beginner",
+    "examples": ["international", "interrupt"]
+  },
+  {
+    "word": "intra-",
+    "partOfSpeech": "prefix",
+    "definition": "within",
+    "level": "advanced",
+    "examples": ["intranet", "intravenous"]
+  },
+  {
+    "word": "macro-",
+    "partOfSpeech": "prefix",
+    "definition": "large",
+    "level": "intermediate",
+    "examples": ["macroeconomics", "macroscopic"]
+  },
+  {
+    "word": "micro-",
+    "partOfSpeech": "prefix",
+    "definition": "small",
+    "level": "beginner",
+    "examples": ["microchip", "microscope"]
+  },
+  {
+    "word": "mis-",
+    "partOfSpeech": "prefix",
+    "definition": "wrong, bad",
+    "level": "beginner",
+    "examples": ["misunderstand", "misspell"]
+  },
+  {
+    "word": "mono-",
+    "partOfSpeech": "prefix",
+    "definition": "one",
+    "level": "intermediate",
+    "examples": ["monolingual", "monologue"]
+  },
+  {
+    "word": "multi-",
+    "partOfSpeech": "prefix",
+    "definition": "many",
+    "level": "beginner",
+    "examples": ["multicultural", "multimedia"]
+  },
+  {
+    "word": "non-",
+    "partOfSpeech": "prefix",
+    "definition": "not",
+    "level": "beginner",
+    "examples": ["nonfiction", "nonsense"]
+  },
+  {
+    "word": "omni-",
+    "partOfSpeech": "prefix",
+    "definition": "all",
+    "level": "advanced",
+    "examples": ["omniscient", "omnivore"]
+  },
+  {
+    "word": "over-",
+    "partOfSpeech": "prefix",
+    "definition": "above, too much",
+    "level": "beginner",
+    "examples": ["overeat", "overwork"]
+  },
+  {
+    "word": "pan-",
+    "partOfSpeech": "prefix",
+    "definition": "all, entire",
+    "level": "advanced",
+    "examples": ["pandemic", "panorama"]
+  },
+  {
+    "word": "poly-",
+    "partOfSpeech": "prefix",
+    "definition": "many",
+    "level": "intermediate",
+    "examples": ["polygon", "polyglot"]
+  },
+  {
+    "word": "post-",
+    "partOfSpeech": "prefix",
+    "definition": "after",
+    "level": "intermediate",
+    "examples": ["postgraduate", "postpone"]
+  },
+  {
+    "word": "pre-",
+    "partOfSpeech": "prefix",
+    "definition": "before",
+    "level": "beginner",
+    "examples": ["predict", "preview"]
+  },
+  {
+    "word": "pro-",
+    "partOfSpeech": "prefix",
+    "definition": "forward, in favor of",
+    "level": "intermediate",
+    "examples": ["proceed", "proactive"]
+  },
+  {
+    "word": "re-",
+    "partOfSpeech": "prefix",
+    "definition": "again, back",
+    "level": "beginner",
+    "examples": ["rebuild", "return"]
+  },
+  {
+    "word": "semi-",
+    "partOfSpeech": "prefix",
+    "definition": "half, partly",
+    "level": "beginner",
+    "examples": ["semicircle", "semifinal"]
+  },
+  {
+    "word": "sub-",
+    "partOfSpeech": "prefix",
+    "definition": "under, below",
+    "level": "beginner",
+    "examples": ["submarine", "subway"]
+  },
+  {
+    "word": "super-",
+    "partOfSpeech": "prefix",
+    "definition": "above, beyond",
+    "level": "beginner",
+    "examples": ["superman", "supernatural"]
+  },
+  {
+    "word": "trans-",
+    "partOfSpeech": "prefix",
+    "definition": "across",
+    "level": "intermediate",
+    "examples": ["transfer", "translate"]
+  },
+  {
+    "word": "un-",
+    "partOfSpeech": "prefix",
+    "definition": "not, opposite of",
+    "level": "beginner",
+    "examples": ["unhappy", "unlock"]
+  },
+  {
+    "word": "uni-",
+    "partOfSpeech": "prefix",
+    "definition": "one",
+    "level": "beginner",
+    "examples": ["unicorn", "uniform"]
+  },
+  {
+    "word": "-able / -ible",
+    "partOfSpeech": "suffix",
+    "definition": "can be done",
+    "level": "beginner",
+    "examples": ["comfortable", "visible"]
+  },
+  {
+    "word": "-al / -ial",
+    "partOfSpeech": "suffix",
+    "definition": "having characteristics of",
+    "level": "intermediate",
+    "examples": ["personal", "facial"]
+  },
+  {
+    "word": "-ed",
+    "partOfSpeech": "suffix",
+    "definition": "past-tense verbs",
+    "level": "beginner",
+    "examples": ["walked", "jumped"]
+  },
+  {
+    "word": "-en",
+    "partOfSpeech": "suffix",
+    "definition": "made of, to make",
+    "level": "intermediate",
+    "examples": ["wooden", "sweeten"]
+  },
+  {
+    "word": "-er / -or",
+    "partOfSpeech": "suffix",
+    "definition": "one who",
+    "level": "beginner",
+    "examples": ["teacher", "actor"]
+  },
+  {
+    "word": "-er",
+    "partOfSpeech": "suffix",
+    "definition": "comparative",
+    "level": "beginner",
+    "examples": ["taller", "faster"]
+  },
+  {
+    "word": "-est",
+    "partOfSpeech": "suffix",
+    "definition": "superlative",
+    "level": "beginner",
+    "examples": ["tallest", "fastest"]
+  },
+  {
+    "word": "-ful",
+    "partOfSpeech": "suffix",
+    "definition": "full of",
+    "level": "beginner",
+    "examples": ["beautiful", "helpful"]
+  },
+  {
+    "word": "-ic",
+    "partOfSpeech": "suffix",
+    "definition": "having characteristics of",
+    "level": "advanced",
+    "examples": ["linguistic", "poetic"]
+  },
+  {
+    "word": "-ing",
+    "partOfSpeech": "suffix",
+    "definition": "verb form / present participle",
+    "level": "beginner",
+    "examples": ["running", "singing"]
+  },
+  {
+    "word": "-ion / -tion / -ation / -ition",
+    "partOfSpeech": "suffix",
+    "definition": "act, process",
+    "level": "intermediate",
+    "examples": ["celebration", "condition"]
+  },
+  {
+    "word": "-ity / -ty",
+    "partOfSpeech": "suffix",
+    "definition": "state of",
+    "level": "intermediate",
+    "examples": ["activity", "society"]
+  },
+  {
+    "word": "-ive / -ative / -itive",
+    "partOfSpeech": "suffix",
+    "definition": "adjective form of a noun",
+    "level": "intermediate",
+    "examples": ["active", "competitive"]
+  },
+  {
+    "word": "-less",
+    "partOfSpeech": "suffix",
+    "definition": "without",
+    "level": "beginner",
+    "examples": ["fearless", "hopeless"]
+  },
+  {
+    "word": "-ly",
+    "partOfSpeech": "suffix",
+    "definition": "characteristic of",
+    "level": "beginner",
+    "examples": ["quickly", "happily"]
+  },
+  {
+    "word": "-ment",
+    "partOfSpeech": "suffix",
+    "definition": "action or process",
+    "level": "intermediate",
+    "examples": ["enjoyment", "movement"]
+  },
+  {
+    "word": "-ness",
+    "partOfSpeech": "suffix",
+    "definition": "state of, condition of",
+    "level": "beginner",
+    "examples": ["kindness", "happiness"]
+  },
+  {
+    "word": "-ous / -eous / -ious",
+    "partOfSpeech": "suffix",
+    "definition": "possessing the qualities of",
+    "level": "advanced",
+    "examples": ["joyous", "curious"]
+  },
+  {
+    "word": "-s / -es",
+    "partOfSpeech": "suffix",
+    "definition": "more than one",
+    "level": "beginner",
+    "examples": ["books", "boxes"]
+  },
+  {
+    "word": "-y",
+    "partOfSpeech": "suffix",
+    "definition": "characterized by",
+    "level": "beginner",
+    "examples": ["cloudy", "happy"]
+  }
+]

@@ -1,0 +1,109 @@
+{
+  "project": "English Vidya",
+  "system": "Advanced Vocabulary Intelligence System",
+  "description": "Foundational dictionary with Hindi context, built for spoken fluency.",
+  "words": [
+    {
+      "word": "Go",
+      "meaning_hi": "जाना",
+      "pronunciation": "गो",
+      "type": "Verb",
+      "short_intro": "To move from one place to another.",
+      "short_intro_hi": "एक जगह से दूसरी जगह जाना।",
+      "level": "A1",
+      "forms": {
+        "v1": "go",
+        "v2": "went",
+        "v3": "gone",
+        "v4": "going",
+        "v5": "goes"
+      },
+      "examples": [
+        {
+          "english": "I go to school.",
+          "hindi": "मैं स्कूल जाता हूँ।"
+        },
+        {
+          "english": "He went home.",
+          "hindi": "वह घर गया।"
+        }
+      ],
+      "common_mistake": "Don't say 'go to home', say 'go home'.",
+      "collocations": ["go away", "go back", "go out"]
+    },
+    {
+      "word": "Come",
+      "meaning_hi": "आना",
+      "pronunciation": "कम",
+      "type": "Verb",
+      "short_intro": "To move towards someone or something.",
+      "short_intro_hi": "किसी व्यक्ति या वस्तु की ओर आना।",
+      "level": "A1",
+      "forms": {
+        "v1": "come",
+        "v2": "came",
+        "v3": "come",
+        "v4": "coming",
+        "v5": "comes"
+      },
+      "examples": [
+        {
+          "english": "Come here.",
+          "hindi": "यहाँ आओ।"
+        },
+        {
+          "english": "She is coming today.",
+          "hindi": "वह आज आ रही है।"
+        }
+      ],
+      "collocations": ["come back", "come true", "come across"]
+    },
+    {
+      "word": "Look",
+      "meaning_hi": "देखना",
+      "pronunciation": "लुक",
+      "type": "Verb",
+      "short_intro": "To direct your eyes in order to see.",
+      "short_intro_hi": "देखने के लिए अपनी आँखों को निर्देशित करना।",
+      "level": "A1",
+      "examples": [
+        {
+          "english": "Look at me.",
+          "hindi": "मेरी तरफ देखो।"
+        }
+      ],
+      "collocations": ["look at", "look for", "look after"]
+    },
+    {
+      "word": "Beautiful",
+      "meaning_hi": "सुंदर",
+      "pronunciation": "ब्यूटीफुल",
+      "type": "Adjective",
+      "short_intro": "Pleasing the senses or mind.",
+      "short_intro_hi": "देखने या महसूस करने में अच्छा लगना।",
+      "level": "A1",
+      "examples": [
+        {
+          "english": "She is very beautiful.",
+          "hindi": "वह बहुत सुंदर है।"
+        }
+      ],
+      "synonyms": ["pretty", "lovely", "gorgeous"]
+    },
+    {
+      "word": "Water",
+      "meaning_hi": "पानी",
+      "pronunciation": "वॉटर",
+      "type": "Noun",
+      "short_intro": "A transparent, tasteless liquid.",
+      "short_intro_hi": "पारदर्शी, स्वादहीन तरल।",
+      "level": "A1",
+      "examples": [
+        {
+          "english": "I drink water.",
+          "hindi": "मैं पानी पीता हूँ।"
+        }
+      ]
+    }
+  ]
+}

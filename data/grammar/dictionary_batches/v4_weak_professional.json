@@ -1,0 +1,806 @@
+[
+  {
+    "word": "proficient",
+    "meaning": "Competent and skilled in doing or using something (strong alternative to 'good at').",
+    "example": "She is proficient in data analysis and Python programming.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "facilitate",
+    "meaning": "To make an action or process easier; to enable or assist (strong alternative to 'help').",
+    "example": "The new software will facilitate faster communication across departments.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "implement",
+    "meaning": "To put a plan, decision, or strategy into effect (strong alternative to 'do' or 'carry out').",
+    "example": "The team will implement the new policy starting next quarter.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "collaborate",
+    "meaning": "To work jointly with others toward a common goal (strong alternative to 'work with').",
+    "example": "We collaborate with cross-functional teams to deliver projects on time.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "optimize",
+    "meaning": "To make the best or most effective use of a resource or situation (strong alternative to 'improve').",
+    "example": "Our goal is to optimize the supply chain to reduce costs by 20%.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "spearhead",
+    "meaning": "To lead or initiate a campaign, project, or movement (strong alternative to 'lead').",
+    "example": "He spearheaded the company's digital transformation initiative.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "leverage",
+    "meaning": "To use something to maximum advantage (strong alternative to 'use').",
+    "example": "We can leverage existing partnerships to expand into new markets.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "synthesize",
+    "meaning": "To combine elements to form a coherent whole or conclusion (strong alternative to 'put together').",
+    "example": "The analyst synthesized data from multiple sources into one comprehensive report.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "articulate",
+    "meaning": "To express an idea clearly and effectively (strong alternative to 'say' or 'tell').",
+    "example": "She articulated the company's vision with clarity and confidence.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "mitigate",
+    "meaning": "To lessen the severity or impact of something negative (strong alternative to 'reduce' or 'handle').",
+    "example": "The manager took steps to mitigate the financial risks of the project.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "expedite",
+    "meaning": "To make a process happen sooner or more quickly (strong alternative to 'speed up').",
+    "example": "Please expedite the approval process so we can meet the deadline.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "cultivate",
+    "meaning": "To develop or foster something over time (strong alternative to 'build' or 'grow').",
+    "example": "We aim to cultivate long-term relationships with our key clients.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "streamline",
+    "meaning": "To simplify or make a process more efficient (strong alternative to 'make easier').",
+    "example": "The new system will streamline onboarding for new employees.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "advocate",
+    "meaning": "To publicly recommend or support a cause or policy (strong alternative to 'support').",
+    "example": "She advocates for inclusive hiring practices within the organization.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "evaluate",
+    "meaning": "To assess or judge the value or condition of something (strong alternative to 'check' or 'look at').",
+    "example": "The committee will evaluate each proposal based on feasibility and budget.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "orchestrate",
+    "meaning": "To plan and coordinate elements of a complex event or situation (strong alternative to 'organize').",
+    "example": "She orchestrated the product launch across three international markets.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "culminate",
+    "meaning": "To reach the highest or final point; to result in (strong alternative to 'end in').",
+    "example": "Years of research culminated in a breakthrough medical discovery.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "delineate",
+    "meaning": "To describe or portray something precisely (strong alternative to 'explain' or 'show').",
+    "example": "The report delineates the responsibilities of each department clearly.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "substantiate",
+    "meaning": "To provide evidence to prove or support a claim (strong alternative to 'prove' or 'back up').",
+    "example": "Please substantiate your findings with quantitative data.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "conceptualize",
+    "meaning": "To form an idea or concept of something (strong alternative to 'think of' or 'come up with').",
+    "example": "The designer conceptualized a new user interface based on customer feedback.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "galvanize",
+    "meaning": "To shock or excite someone into taking action (strong alternative to 'motivate').",
+    "example": "The CEO's speech galvanized the team to exceed their quarterly targets.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "consolidate",
+    "meaning": "To combine separate things into a single more effective whole (strong alternative to 'merge' or 'combine').",
+    "example": "We will consolidate our offices to reduce overhead expenses.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "discern",
+    "meaning": "To perceive or recognize something with clarity (strong alternative to 'notice' or 'see').",
+    "example": "A skilled manager can discern patterns in employee performance data.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "innovate",
+    "meaning": "To introduce new ideas, methods, or products (strong alternative to 'try new things').",
+    "example": "Companies that fail to innovate risk becoming obsolete.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "quantify",
+    "meaning": "To express or measure something in numerical terms (strong alternative to 'measure').",
+    "example": "We need to quantify the impact of the marketing campaign on revenue.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "perpetuate",
+    "meaning": "To cause something to continue indefinitely (strong alternative to 'keep going').",
+    "example": "Outdated hiring processes can perpetuate systemic inequalities.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "disseminate",
+    "meaning": "To spread or distribute information widely (strong alternative to 'share' or 'send out').",
+    "example": "The HR team will disseminate the new policy guidelines to all staff.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "ascertain",
+    "meaning": "To find out for certain; to determine (strong alternative to 'find out').",
+    "example": "We need to ascertain whether the vendor can meet our delivery schedule.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "rectify",
+    "meaning": "To put right; to correct an error or fault (strong alternative to 'fix').",
+    "example": "The accounting team moved quickly to rectify the billing discrepancy.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "deliberate",
+    "meaning": "Done consciously and intentionally; thoughtfully considered (strong alternative to 'careful' or 'on purpose').",
+    "example": "The board made a deliberate decision to shift toward sustainable practices.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "fortify",
+    "meaning": "To strengthen or reinforce something (strong alternative to 'make stronger').",
+    "example": "The company will fortify its cybersecurity infrastructure this year.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "initiate",
+    "meaning": "To cause a process to begin (strong alternative to 'start').",
+    "example": "The director will initiate a performance review cycle at the end of the month.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "prioritize",
+    "meaning": "To designate or treat something as more important than other things (strong alternative to 'focus on first').",
+    "example": "Leaders must prioritize tasks that align with strategic objectives.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "integrate",
+    "meaning": "To combine one thing with another so they become a whole (strong alternative to 'put together' or 'include').",
+    "example": "The platform integrates seamlessly with existing CRM tools.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "formulate",
+    "meaning": "To create or prepare methodically (strong alternative to 'make' or 'come up with').",
+    "example": "The team formulated a comprehensive strategy for market entry.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "capitalize",
+    "meaning": "To take advantage of a situation or resource (strong alternative to 'take advantage of').",
+    "example": "We should capitalize on this market opportunity before competitors do.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "benchmark",
+    "meaning": "To evaluate or check by comparison with a standard (strong alternative to 'compare').",
+    "example": "We benchmark our performance against industry leaders quarterly.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "collaborate",
+    "meaning": "To work jointly on an activity or project (strong alternative to 'team up' or 'work with').",
+    "example": "The departments collaborate to ensure seamless project delivery.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "encompass",
+    "meaning": "To include a wide range of things (strong alternative to 'cover' or 'include').",
+    "example": "Our service offering encompasses consulting, training, and support.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "align",
+    "meaning": "To arrange in proper position relative to something else; to bring into agreement (strong alternative to 'match' or 'fit').",
+    "example": "We must align our KPIs with the company's long-term strategic goals.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "escalate",
+    "meaning": "To increase rapidly or to raise an issue to a higher authority (strong alternative to 'raise' or 'bring up').",
+    "example": "If the issue persists, please escalate it to senior management.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "holistic",
+    "meaning": "Characterized by comprehension of the parts of something as intimately interconnected (strong alternative to 'complete' or 'overall').",
+    "example": "We take a holistic approach to employee well-being and productivity.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "transparent",
+    "meaning": "Open, frank, and not concealing anything (strong alternative to 'open' or 'honest').",
+    "example": "The organization is committed to being transparent in its financial reporting.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "robust",
+    "meaning": "Strong and effective in all circumstances (strong alternative to 'strong' or 'good').",
+    "example": "We need a robust risk management framework to handle volatility.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "pragmatic",
+    "meaning": "Dealing with things sensibly and realistically (strong alternative to 'practical' or 'realistic').",
+    "example": "The team took a pragmatic approach to solving the budget constraints.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "rigorous",
+    "meaning": "Extremely thorough and careful (strong alternative to 'strict' or 'careful').",
+    "example": "Our quality assurance process is rigorous and multi-layered.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "succinct",
+    "meaning": "Briefly and clearly expressed (strong alternative to 'short' or 'brief').",
+    "example": "Please provide a succinct summary of the project outcomes for the board.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "pivotal",
+    "meaning": "Of crucial importance; central (strong alternative to 'very important' or 'key').",
+    "example": "This partnership will play a pivotal role in our global expansion.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "viable",
+    "meaning": "Capable of working successfully; feasible (strong alternative to 'possible' or 'workable').",
+    "example": "The team identified three viable solutions to the production bottleneck.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "scalable",
+    "meaning": "Able to be changed in size or scale (strong alternative to 'can grow' or 'expandable').",
+    "example": "We need a scalable infrastructure to support future business growth.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "strategic",
+    "meaning": "Relating to the identification of long-term goals and how to achieve them (strong alternative to 'planned' or 'important').",
+    "example": "The acquisition was a strategic move to enter the Asian market.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "comprehensive",
+    "meaning": "Including or dealing with all or nearly all elements (strong alternative to 'complete' or 'full').",
+    "example": "She prepared a comprehensive report on the competitive landscape.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "meticulous",
+    "meaning": "Showing great attention to detail (strong alternative to 'careful' or 'detailed').",
+    "example": "The auditor was meticulous in reviewing every financial record.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "tenacious",
+    "meaning": "Not readily giving up; persistent (strong alternative to 'determined' or 'not giving up').",
+    "example": "Her tenacious work ethic helped the team overcome every obstacle.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "exemplary",
+    "meaning": "Serving as a desirable model; representing the best of its kind (strong alternative to 'very good' or 'excellent').",
+    "example": "Her exemplary performance earned her the Employee of the Year award.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "diligent",
+    "meaning": "Having or showing care and conscientiousness in one's work (strong alternative to 'hardworking').",
+    "example": "Diligent employees consistently meet deadlines and produce quality work.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "adept",
+    "meaning": "Very skilled or proficient at something (strong alternative to 'good at').",
+    "example": "He is adept at navigating complex regulatory environments.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "astute",
+    "meaning": "Having an ability to accurately assess situations (strong alternative to 'smart' or 'clever').",
+    "example": "Her astute negotiation skills secured a favorable contract.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "conscientious",
+    "meaning": "Wishing to do what is right; diligent and thorough (strong alternative to 'careful' or 'responsible').",
+    "example": "He is a conscientious professional who takes every task seriously.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "decisive",
+    "meaning": "Having or showing the ability to make decisions quickly (strong alternative to 'quick to decide').",
+    "example": "In a crisis, a decisive leader is invaluable to the organization.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "proactive",
+    "meaning": "Creating or controlling a situation rather than just responding (strong alternative to 'prepared' or 'ahead of time').",
+    "example": "A proactive approach to customer complaints builds lasting loyalty.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "innovative",
+    "meaning": "Featuring new methods; advanced and original (strong alternative to 'new' or 'creative').",
+    "example": "The company launched an innovative product that disrupted the industry.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "resourceful",
+    "meaning": "Able to find quick and clever ways to overcome difficulties (strong alternative to 'creative in solving problems').",
+    "example": "The resourceful team delivered the project despite limited resources.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "resilient",
+    "meaning": "Able to recover quickly from difficult conditions (strong alternative to 'strong' or 'able to bounce back').",
+    "example": "Building a resilient workforce is essential for long-term success.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "analytical",
+    "meaning": "Relating to the separation of something into its component elements (strong alternative to 'good with numbers' or 'logical').",
+    "example": "Her analytical approach helped identify the root cause of the issue.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "coherent",
+    "meaning": "Logical and consistent; forming a unified whole (strong alternative to 'clear' or 'makes sense').",
+    "example": "Please submit a coherent business plan before the investor meeting.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "concise",
+    "meaning": "Giving a lot of information clearly in few words (strong alternative to 'short and clear').",
+    "example": "The executive preferred concise briefings rather than lengthy presentations.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "credible",
+    "meaning": "Able to be believed; convincing and trustworthy (strong alternative to 'believable' or 'trustworthy').",
+    "example": "A credible data source strengthens the legitimacy of your report.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "impactful",
+    "meaning": "Having a major impact; producing a strong effect (strong alternative to 'effective' or 'makes a difference').",
+    "example": "The campaign was highly impactful, increasing brand awareness by 40%.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "actionable",
+    "meaning": "Providing practical guidance that can be acted upon (strong alternative to 'useful' or 'can be used').",
+    "example": "The consultant delivered actionable recommendations for cost reduction.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "dynamic",
+    "meaning": "Characterized by constant change, activity, or progress (strong alternative to 'active' or 'energetic').",
+    "example": "She is a dynamic leader who thrives in fast-paced environments.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "transparent",
+    "meaning": "Open to scrutiny; not concealing information (strong alternative to 'clear' or 'open').",
+    "example": "Transparent communication fosters trust within the team.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "accountable",
+    "meaning": "Required or expected to justify decisions and actions (strong alternative to 'responsible').",
+    "example": "Every team member is accountable for their deliverables and deadlines.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "systematic",
+    "meaning": "Done or acting according to a fixed plan or system (strong alternative to 'organized' or 'step-by-step').",
+    "example": "A systematic review of the process revealed several inefficiencies.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "authoritative",
+    "meaning": "Commanding and self-confident; able to be trusted (strong alternative to 'reliable' or 'expert').",
+    "example": "She is an authoritative voice in the field of corporate governance.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "compelling",
+    "meaning": "Evoking interest, attention, or admiration; convincing (strong alternative to 'interesting' or 'convincing').",
+    "example": "He made a compelling case for restructuring the sales division.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "proficiency",
+    "meaning": "A high degree of skill; expertise (strong alternative to 'skill' or 'ability').",
+    "example": "Proficiency in data visualization is a core requirement for this role.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "acumen",
+    "meaning": "The ability to make good judgments and quick decisions (strong alternative to 'skill' or 'understanding').",
+    "example": "Her business acumen helped the startup secure Series A funding.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "initiative",
+    "meaning": "The ability to assess and act independently (strong alternative to 'drive' or 'effort').",
+    "example": "He showed great initiative by identifying a gap in the market before being asked.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "expertise",
+    "meaning": "Expert skill or knowledge in a particular field (strong alternative to 'experience' or 'knowledge').",
+    "example": "The firm's expertise in cybersecurity is unmatched in the region.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "integrity",
+    "meaning": "The quality of being honest and having strong moral principles (strong alternative to 'honesty').",
+    "example": "Integrity is the foundation of every successful professional relationship.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "efficacy",
+    "meaning": "The ability to produce a desired or intended result (strong alternative to 'effectiveness').",
+    "example": "The new training program demonstrated high efficacy across all departments.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "coherence",
+    "meaning": "The quality of being logical and consistent (strong alternative to 'clarity' or 'logic').",
+    "example": "The proposal lacked coherence and needed significant restructuring.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "transparency",
+    "meaning": "The condition of being open and not secretive (strong alternative to 'openness').",
+    "example": "Financial transparency is critical for maintaining investor trust.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "scalability",
+    "meaning": "The capacity to be changed in size or scale (strong alternative to 'ability to grow').",
+    "example": "Scalability is a key factor when evaluating cloud service providers.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "synergy",
+    "meaning": "The combined effect greater than the sum of parts (strong alternative to 'teamwork' or 'working together').",
+    "example": "The merger created significant synergy between the two product lines.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "benchmark",
+    "meaning": "A standard or point of reference for evaluation (strong alternative to 'standard' or 'goal').",
+    "example": "The team exceeded every performance benchmark set for the fiscal year.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "trajectory",
+    "meaning": "The course of development over time (strong alternative to 'path' or 'direction').",
+    "example": "The company's growth trajectory has been consistently upward for three years.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "catalyst",
+    "meaning": "A person or thing that causes or accelerates change (strong alternative to 'cause' or 'trigger').",
+    "example": "The new CEO served as a catalyst for cultural transformation in the organization.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "paradigm",
+    "meaning": "A typical pattern or model of something; a framework (strong alternative to 'model' or 'approach').",
+    "example": "Agile methodology has become the dominant paradigm in software development.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "resolution",
+    "meaning": "A firm decision or the solving of a problem (strong alternative to 'answer' or 'fixing').",
+    "example": "The conflict required a swift resolution to prevent project delays.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "deliverable",
+    "meaning": "A product or result that must be completed and provided (strong alternative to 'output' or 'result').",
+    "example": "Please confirm all deliverables before the client presentation.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "stakeholder",
+    "meaning": "A person with an interest or concern in a project or organization (strong alternative to 'interested person').",
+    "example": "All key stakeholders must be informed before the announcement is made.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "mandate",
+    "meaning": "An official order or authorization to do something (strong alternative to 'instruction' or 'rule').",
+    "example": "The board issued a clear mandate to reduce operational costs by 15%.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "protocol",
+    "meaning": "The official procedure or system of rules (strong alternative to 'rules' or 'process').",
+    "example": "All employees must follow the data security protocol without exception.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "compliance",
+    "meaning": "The action of following rules, standards, or laws (strong alternative to 'following the rules').",
+    "example": "Regulatory compliance is non-negotiable in the financial sector.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "infrastructure",
+    "meaning": "The basic systems and services needed for an organization to function (strong alternative to 'setup' or 'systems').",
+    "example": "Investing in IT infrastructure is critical for business continuity.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "incumbent",
+    "meaning": "Necessary as a duty or responsibility; the current holder of a role (strong alternative to 'required' or 'current').",
+    "example": "It is incumbent upon all managers to uphold the company's code of conduct.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "procurement",
+    "meaning": "The action of obtaining goods or services (strong alternative to 'buying' or 'getting').",
+    "example": "The procurement team negotiated favorable terms with our suppliers.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "revenue",
+    "meaning": "Income generated from business operations (strong alternative to 'money earned' or 'income').",
+    "example": "Q3 revenue exceeded projections by 12%, signaling strong market demand.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "attrition",
+    "meaning": "The gradual reduction in workforce or customer base (strong alternative to 'loss' or 'leaving').",
+    "example": "High attrition rates indicate poor employee engagement or satisfaction.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "retention",
+    "meaning": "The continued possession, use, or control of something or someone (strong alternative to 'keeping').",
+    "example": "Employee retention is a top priority for our HR strategy this year.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "outsource",
+    "meaning": "To obtain goods or services from an outside supplier (strong alternative to 'give to someone else').",
+    "example": "We decided to outsource payroll processing to reduce administrative burden.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "disruption",
+    "meaning": "A disturbance that interrupts an event or process; radical change (strong alternative to 'change' or 'shake-up').",
+    "example": "Digital disruption has transformed entire industries in the past decade.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "contingency",
+    "meaning": "A provision for a possible event or circumstance; a backup plan (strong alternative to 'backup plan').",
+    "example": "Every project manager should have a contingency plan for unexpected delays.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "incentivize",
+    "meaning": "To encourage a particular behavior by offering a reward (strong alternative to 'encourage' or 'reward').",
+    "example": "The company incentivizes innovation through quarterly bonus programs.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "forecast",
+    "meaning": "To predict a future trend or event (strong alternative to 'predict' or 'guess').",
+    "example": "The finance team forecast a 10% growth in revenue for the next fiscal year.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "bottleneck",
+    "meaning": "A point of congestion or blockage that impedes progress (strong alternative to 'problem' or 'obstacle').",
+    "example": "The approval stage was identified as the main bottleneck slowing production.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "onboarding",
+    "meaning": "The process of integrating a new employee into an organization (strong alternative to 'starting someone').",
+    "example": "A structured onboarding program significantly reduces time-to-productivity.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "due diligence",
+    "meaning": "Careful and thorough research before making a decision (strong alternative to 'checking carefully').",
+    "example": "The legal team conducted extensive due diligence before signing the contract.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "turnaround",
+    "meaning": "A reversal of a previously unfavorable situation (strong alternative to 'improvement' or 'change').",
+    "example": "The new CEO engineered a remarkable turnaround of the struggling division.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "outperform",
+    "meaning": "To perform better than another entity (strong alternative to 'do better than').",
+    "example": "Our product consistently outperforms competitors in customer satisfaction scores.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "iterate",
+    "meaning": "To repeat a process with the aim of approaching a desired outcome (strong alternative to 'repeat' or 'try again').",
+    "example": "The development team will iterate on the prototype based on user feedback.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "upskill",
+    "meaning": "To teach an employee new or additional skills (strong alternative to 'train more' or 'teach more').",
+    "example": "The organization invested heavily to upskill its workforce in AI tools.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "curate",
+    "meaning": "To select, organize, and look after items or information carefully (strong alternative to 'choose' or 'collect').",
+    "example": "The content team curated a library of resources for professional development.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "envision",
+    "meaning": "To imagine or conceive of something as a future possibility (strong alternative to 'imagine' or 'picture').",
+    "example": "The leadership team envisions a fully remote-first company by 2030.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "calibrate",
+    "meaning": "To carefully assess and adjust something for accuracy (strong alternative to 'adjust' or 'fine-tune').",
+    "example": "We need to calibrate our performance metrics to align with updated goals.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "navigate",
+    "meaning": "To plan and direct the course through complex situations (strong alternative to 'handle' or 'deal with').",
+    "example": "She successfully navigated the company through regulatory challenges.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "acknowledge",
+    "meaning": "To recognize the existence, truth, or importance of something (strong alternative to 'admit' or 'agree').",
+    "example": "The manager acknowledged the team's efforts during the annual review.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "validate",
+    "meaning": "To check or prove the accuracy or quality of something (strong alternative to 'confirm' or 'check').",
+    "example": "We need to validate the findings before presenting them to the board.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "generate",
+    "meaning": "To cause something to arise or come about (strong alternative to 'create' or 'make').",
+    "example": "The campaign generated over 5,000 qualified leads in one month.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "channel",
+    "meaning": "To direct toward a particular end or into a particular course (strong alternative to 'direct' or 'focus').",
+    "example": "She channeled her expertise into developing the company's talent pipeline.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "amplify",
+    "meaning": "To increase the volume, significance, or effect of something (strong alternative to 'increase' or 'boost').",
+    "example": "Social media was used to amplify the product launch campaign globally.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "diagnose",
+    "meaning": "To identify the nature of a problem through examination (strong alternative to 'find' or 'figure out').",
+    "example": "The consultant was hired to diagnose inefficiencies in the supply chain.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "execute",
+    "meaning": "To carry out or put into effect a plan or order (strong alternative to 'do' or 'carry out').",
+    "example": "The project manager executed the rollout plan flawlessly.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "demonstrate",
+    "meaning": "To show clearly the existence or truth of something (strong alternative to 'show' or 'prove').",
+    "example": "The pilot program demonstrated a 25% increase in operational efficiency.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "deploy",
+    "meaning": "To bring into effective action; to put to use (strong alternative to 'use' or 'launch').",
+    "example": "The IT department will deploy the new software update over the weekend.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "propel",
+    "meaning": "To drive forward or motivate toward a goal (strong alternative to 'push' or 'motivate').",
+    "example": "The strategic investment will propel the company into new growth markets.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "foster",
+    "meaning": "To encourage the development or growth of something (strong alternative to 'encourage' or 'support').",
+    "example": "Great leaders foster a culture of innovation and continuous learning.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "attain",
+    "meaning": "To succeed in achieving something, especially after effort (strong alternative to 'reach' or 'get').",
+    "example": "She worked diligently to attain the role of Chief Operations Officer.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "reaffirm",
+    "meaning": "To state something again as a fact; to confirm a commitment (strong alternative to 'say again' or 'confirm').",
+    "example": "The CEO reaffirmed the company's commitment to ethical sourcing practices.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "propound",
+    "meaning": "To put forward for consideration; to propose (strong alternative to 'suggest' or 'put forward').",
+    "example": "The researcher propounded a new theory of organizational behavior.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "transcend",
+    "meaning": "To go beyond the limits of; to surpass (strong alternative to 'go beyond' or 'exceed').",
+    "example": "Great companies transcend short-term profit to create lasting societal value.",
+    "category": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "embody",
+    "meaning": "To be an expression of or give a tangible form to (strong alternative to 'represent' or 'show').",
+    "example": "She embodies the company's values of integrity, innovation, and inclusion.",
+    "category": "Weak Professional Vocabulary"
+  }
+]

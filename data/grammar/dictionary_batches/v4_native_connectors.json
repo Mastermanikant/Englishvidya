@@ -1,0 +1,1016 @@
+[
+  {
+    "word": "actually",
+    "meaning": "Used to introduce a surprising or corrective piece of information; signals the real truth",
+    "example": "I thought he was angry, but actually, he was just tired.",
+    "category": "Discourse Marker – Reality Check"
+  },
+  {
+    "word": "basically",
+    "meaning": "Used to summarize or simplify something to its core idea",
+    "example": "Basically, we ran out of money and had to stop the project.",
+    "category": "Discourse Marker – Summary"
+  },
+  {
+    "word": "honestly",
+    "meaning": "Used to signal candid, direct speech; often introduces an opinion",
+    "example": "Honestly, I don't think that's a good plan.",
+    "category": "Discourse Marker – Frankness"
+  },
+  {
+    "word": "literally",
+    "meaning": "Used for emphasis (often informal/hyperbolic) or to confirm something is not metaphorical",
+    "example": "I was literally shaking when I heard the news.",
+    "category": "Discourse Marker – Emphasis"
+  },
+  {
+    "word": "I mean",
+    "meaning": "Used to clarify, rephrase, or add detail to what was just said",
+    "example": "It was a great trip — I mean, we had a few problems, but overall it was great.",
+    "category": "Discourse Marker – Clarification"
+  },
+  {
+    "word": "you know",
+    "meaning": "Used to check shared understanding or fill a pause while thinking",
+    "example": "It's, you know, one of those things you can't really explain.",
+    "category": "Discourse Marker – Filler / Shared Knowledge"
+  },
+  {
+    "word": "you see",
+    "meaning": "Used to explain something the listener may not already understand",
+    "example": "You see, the problem is that nobody told him about the change.",
+    "category": "Discourse Marker – Explanation"
+  },
+  {
+    "word": "right",
+    "meaning": "Used as a filler or to seek confirmation from the listener",
+    "example": "So we agreed to meet at noon, right? And then she didn't show up.",
+    "category": "Discourse Marker – Confirmation / Filler"
+  },
+  {
+    "word": "so",
+    "meaning": "Used to introduce a conclusion, result, or new topic in conversation",
+    "example": "So, what are we going to do about this?",
+    "category": "Linking Word – Result / Topic Shift"
+  },
+  {
+    "word": "well",
+    "meaning": "Used to introduce a response, soften a statement, or signal hesitation",
+    "example": "Well, I'm not entirely sure that's the right approach.",
+    "category": "Discourse Marker – Hedging / Response"
+  },
+  {
+    "word": "anyway",
+    "meaning": "Used to return to the main topic or dismiss an aside",
+    "example": "Anyway, let's get back to what we were discussing.",
+    "category": "Discourse Marker – Topic Return"
+  },
+  {
+    "word": "anyhow",
+    "meaning": "Informal variant of 'anyway'; used to resume or conclude a topic",
+    "example": "Anyhow, that's not the point — let's move on.",
+    "category": "Discourse Marker – Topic Return"
+  },
+  {
+    "word": "besides",
+    "meaning": "Used to add another reason or consideration, often reinforcing a point",
+    "example": "I don't want to go. Besides, it's too cold outside.",
+    "category": "Linking Word – Addition"
+  },
+  {
+    "word": "moreover",
+    "meaning": "Used to add a further, often stronger, point to what was said",
+    "example": "The plan is expensive. Moreover, it has a very low chance of success.",
+    "category": "Linking Word – Addition (Formal)"
+  },
+  {
+    "word": "furthermore",
+    "meaning": "Used to add extra information that supports the main argument",
+    "example": "The product is eco-friendly. Furthermore, it costs less than alternatives.",
+    "category": "Linking Word – Addition (Formal)"
+  },
+  {
+    "word": "in addition",
+    "meaning": "Used to introduce supplementary information",
+    "example": "She speaks French. In addition, she's fluent in Spanish.",
+    "category": "Linking Word – Addition"
+  },
+  {
+    "word": "on top of that",
+    "meaning": "Informal way to add extra, often negative or surprising, information",
+    "example": "He lost his wallet. On top of that, his phone died.",
+    "category": "Linking Word – Addition (Informal)"
+  },
+  {
+    "word": "what's more",
+    "meaning": "Used to emphasize an additional and often more important point",
+    "example": "The hotel was dirty. What's more, the staff were rude.",
+    "category": "Linking Word – Addition / Emphasis"
+  },
+  {
+    "word": "not only that",
+    "meaning": "Used to introduce a further point beyond what was already mentioned",
+    "example": "She won the race. Not only that, she broke the world record.",
+    "category": "Linking Word – Addition / Emphasis"
+  },
+  {
+    "word": "also",
+    "meaning": "Used to add another point or item",
+    "example": "He's a great cook. He's also very organized.",
+    "category": "Linking Word – Addition"
+  },
+  {
+    "word": "as well",
+    "meaning": "Added at the end of a clause to indicate something additional",
+    "example": "She plays piano, and she sings as well.",
+    "category": "Linking Word – Addition"
+  },
+  {
+    "word": "too",
+    "meaning": "Used at the end of a clause to mean 'also' or 'in addition'",
+    "example": "I'd like some coffee, too.",
+    "category": "Linking Word – Addition"
+  },
+  {
+    "word": "however",
+    "meaning": "Used to introduce a contrast or contradiction with what was just said",
+    "example": "She studied hard. However, she didn't pass the exam.",
+    "category": "Linking Word – Contrast (Formal)"
+  },
+  {
+    "word": "but",
+    "meaning": "The most common linking word to introduce a contrast or exception",
+    "example": "I wanted to help, but I didn't know how.",
+    "category": "Linking Word – Contrast"
+  },
+  {
+    "word": "yet",
+    "meaning": "Used like 'but' to introduce a surprising contrast",
+    "example": "He's young, yet he's incredibly wise.",
+    "category": "Linking Word – Contrast"
+  },
+  {
+    "word": "still",
+    "meaning": "Used to indicate something continues to be true despite a contrasting point",
+    "example": "The task was hard. Still, they managed to finish on time.",
+    "category": "Linking Word – Contrast"
+  },
+  {
+    "word": "nevertheless",
+    "meaning": "Used to introduce a point that contrasts with and despite the previous statement",
+    "example": "The reviews were bad. Nevertheless, the film was a box office success.",
+    "category": "Linking Word – Contrast (Formal)"
+  },
+  {
+    "word": "nonetheless",
+    "meaning": "Similar to 'nevertheless'; used to admit a fact while stating a contrary point",
+    "example": "The evidence is inconclusive. Nonetheless, we must act.",
+    "category": "Linking Word – Contrast (Formal)"
+  },
+  {
+    "word": "on the other hand",
+    "meaning": "Used to present a contrasting viewpoint or alternative consideration",
+    "example": "Living in the city has many benefits. On the other hand, it's very expensive.",
+    "category": "Transition – Contrast"
+  },
+  {
+    "word": "that said",
+    "meaning": "Used to introduce a contrasting or qualifying point after what was stated",
+    "example": "It's a challenging course. That said, the students learn a lot.",
+    "category": "Discourse Marker – Contrast / Qualification"
+  },
+  {
+    "word": "having said that",
+    "meaning": "Used to introduce a contrasting view while acknowledging the previous point",
+    "example": "The movie was long. Having said that, it was very entertaining.",
+    "category": "Discourse Marker – Contrast"
+  },
+  {
+    "word": "even so",
+    "meaning": "Used to admit a fact while asserting that a contrasting result still occurred",
+    "example": "I knew the risks. Even so, I decided to go ahead.",
+    "category": "Linking Word – Concession"
+  },
+  {
+    "word": "although",
+    "meaning": "Used to introduce a subordinate clause that contrasts with the main clause",
+    "example": "Although it was raining, they went for a walk.",
+    "category": "Linking Word – Concession"
+  },
+  {
+    "word": "even though",
+    "meaning": "Stronger than 'although'; emphasizes a surprising contrast",
+    "example": "Even though he practiced daily, he couldn't master the technique.",
+    "category": "Linking Word – Concession"
+  },
+  {
+    "word": "though",
+    "meaning": "Informal form of 'although', often placed at the end of a clause",
+    "example": "It was hard. I enjoyed it, though.",
+    "category": "Linking Word – Concession (Informal)"
+  },
+  {
+    "word": "while",
+    "meaning": "Used to contrast two simultaneous situations or opposing ideas",
+    "example": "While I understand your point, I don't fully agree.",
+    "category": "Linking Word – Contrast / Concession"
+  },
+  {
+    "word": "whereas",
+    "meaning": "Used to draw a direct contrast between two different facts",
+    "example": "Tom is outgoing, whereas his brother is quite shy.",
+    "category": "Linking Word – Contrast"
+  },
+  {
+    "word": "in contrast",
+    "meaning": "Used to highlight a clear difference between two things",
+    "example": "Sales rose in the north. In contrast, the south saw a decline.",
+    "category": "Transition – Contrast"
+  },
+  {
+    "word": "by contrast",
+    "meaning": "Used to compare two contrasting things or situations",
+    "example": "The first half was slow. By contrast, the second was thrilling.",
+    "category": "Transition – Contrast"
+  },
+  {
+    "word": "therefore",
+    "meaning": "Used to introduce a logical conclusion or result",
+    "example": "He missed the bus; therefore, he was late.",
+    "category": "Linking Word – Result / Conclusion"
+  },
+  {
+    "word": "thus",
+    "meaning": "Formal word meaning 'as a result' or 'in this way'",
+    "example": "The data was corrupted, thus making the analysis unreliable.",
+    "category": "Linking Word – Result (Formal)"
+  },
+  {
+    "word": "hence",
+    "meaning": "Formal word meaning 'for this reason'; introduces a result or inference",
+    "example": "The project was underfunded, hence the delays.",
+    "category": "Linking Word – Result (Formal)"
+  },
+  {
+    "word": "as a result",
+    "meaning": "Used to introduce the consequence or outcome of something",
+    "example": "It rained heavily. As a result, the game was cancelled.",
+    "category": "Transition – Result"
+  },
+  {
+    "word": "consequently",
+    "meaning": "Formally introduces a logical consequence",
+    "example": "He didn't study. Consequently, he failed the test.",
+    "category": "Linking Word – Result (Formal)"
+  },
+  {
+    "word": "as a consequence",
+    "meaning": "Used to state the outcome or effect of a previous action",
+    "example": "She broke the rules. As a consequence, she was disqualified.",
+    "category": "Transition – Result"
+  },
+  {
+    "word": "because of this",
+    "meaning": "Informal way to state a cause-and-effect relationship",
+    "example": "He was rude to the staff. Because of this, the manager asked him to leave.",
+    "category": "Linking Phrase – Cause & Effect"
+  },
+  {
+    "word": "that's why",
+    "meaning": "Informal phrase introducing the reason for an outcome",
+    "example": "She loved animals — that's why she became a vet.",
+    "category": "Linking Phrase – Reason (Informal)"
+  },
+  {
+    "word": "because",
+    "meaning": "The primary word for introducing a reason or cause",
+    "example": "I left early because I had another meeting.",
+    "category": "Linking Word – Reason"
+  },
+  {
+    "word": "since",
+    "meaning": "Used like 'because' to introduce a reason, often implying shared knowledge",
+    "example": "Since you're already here, you might as well stay for dinner.",
+    "category": "Linking Word – Reason"
+  },
+  {
+    "word": "as",
+    "meaning": "Used to introduce a reason, similar to 'since' or 'because'",
+    "example": "As the road was blocked, we took a different route.",
+    "category": "Linking Word – Reason"
+  },
+  {
+    "word": "due to",
+    "meaning": "Used to state the cause of something, typically followed by a noun phrase",
+    "example": "The match was cancelled due to heavy rain.",
+    "category": "Linking Phrase – Cause"
+  },
+  {
+    "word": "owing to",
+    "meaning": "Formal phrase meaning 'because of'; introduces a cause",
+    "example": "Owing to the storm, all flights were grounded.",
+    "category": "Linking Phrase – Cause (Formal)"
+  },
+  {
+    "word": "given that",
+    "meaning": "Used to introduce a reason or condition that is already established",
+    "example": "Given that he had no experience, he did very well.",
+    "category": "Linking Phrase – Reason / Concession"
+  },
+  {
+    "word": "first of all",
+    "meaning": "Used to introduce the first point in a sequence or argument",
+    "example": "First of all, I want to thank everyone for coming.",
+    "category": "Transition – Sequence"
+  },
+  {
+    "word": "to start with",
+    "meaning": "Informal phrase to introduce the first point",
+    "example": "To start with, let's look at the main problem.",
+    "category": "Transition – Sequence (Informal)"
+  },
+  {
+    "word": "for a start",
+    "meaning": "British informal phrase used to introduce the first of several reasons",
+    "example": "I can't afford it, for a start. And I don't even like it.",
+    "category": "Transition – Sequence (British Informal)"
+  },
+  {
+    "word": "to begin with",
+    "meaning": "Used to introduce the first point, or to describe an initial state",
+    "example": "To begin with, I thought it was a joke.",
+    "category": "Transition – Sequence"
+  },
+  {
+    "word": "secondly",
+    "meaning": "Used to introduce the second point in a list or argument",
+    "example": "Firstly, it's expensive. Secondly, it's not practical.",
+    "category": "Transition – Sequence"
+  },
+  {
+    "word": "then",
+    "meaning": "Used to indicate the next step in a sequence or a subsequent event",
+    "example": "We had lunch, then went for a walk.",
+    "category": "Linking Word – Sequence"
+  },
+  {
+    "word": "after that",
+    "meaning": "Used to describe what happens next in a sequence",
+    "example": "Sign the form, and after that, submit it online.",
+    "category": "Transition – Sequence"
+  },
+  {
+    "word": "next",
+    "meaning": "Used to indicate the following item or action in a series",
+    "example": "Next, add the chopped onions to the pan.",
+    "category": "Transition – Sequence"
+  },
+  {
+    "word": "subsequently",
+    "meaning": "Formal word meaning 'after that' or 'following that event'",
+    "example": "He was arrested and subsequently released on bail.",
+    "category": "Transition – Sequence (Formal)"
+  },
+  {
+    "word": "eventually",
+    "meaning": "Used to describe something that happens after a long time or series of events",
+    "example": "We searched for hours and eventually found the keys.",
+    "category": "Transition – Sequence"
+  },
+  {
+    "word": "in the end",
+    "meaning": "Used to describe the final outcome after a process",
+    "example": "We argued a lot, but in the end, we agreed.",
+    "category": "Transition – Conclusion"
+  },
+  {
+    "word": "finally",
+    "meaning": "Used to introduce the last point in a sequence or a long-awaited result",
+    "example": "Finally, I'd like to thank the organizers.",
+    "category": "Transition – Sequence / Conclusion"
+  },
+  {
+    "word": "lastly",
+    "meaning": "Used to introduce the final item in a list",
+    "example": "Lastly, make sure to save your work before closing.",
+    "category": "Transition – Sequence"
+  },
+  {
+    "word": "to sum up",
+    "meaning": "Used to signal a summary of the main points",
+    "example": "To sum up, the project was a great success.",
+    "category": "Transition – Summary"
+  },
+  {
+    "word": "in summary",
+    "meaning": "Used to introduce a brief restatement of the key points",
+    "example": "In summary, there are three key factors to consider.",
+    "category": "Transition – Summary"
+  },
+  {
+    "word": "in conclusion",
+    "meaning": "Used to signal the final remarks or overall judgment",
+    "example": "In conclusion, more research is clearly needed.",
+    "category": "Transition – Conclusion"
+  },
+  {
+    "word": "to conclude",
+    "meaning": "Used to formally introduce final remarks",
+    "example": "To conclude, I believe this approach is the most effective.",
+    "category": "Transition – Conclusion"
+  },
+  {
+    "word": "all in all",
+    "meaning": "Used to give a general overall opinion or summary",
+    "example": "All in all, it was a fantastic weekend.",
+    "category": "Transition – Summary (Informal)"
+  },
+  {
+    "word": "overall",
+    "meaning": "Used to introduce a general assessment taking everything into account",
+    "example": "Overall, the results were better than expected.",
+    "category": "Transition – Summary"
+  },
+  {
+    "word": "in short",
+    "meaning": "Used to give a concise summary",
+    "example": "In short, we need more time.",
+    "category": "Transition – Summary"
+  },
+  {
+    "word": "in brief",
+    "meaning": "Used to introduce a short version of what was said",
+    "example": "In brief, the plan failed because of a lack of funding.",
+    "category": "Transition – Summary"
+  },
+  {
+    "word": "to put it simply",
+    "meaning": "Used to introduce a plain, easy-to-understand version of something",
+    "example": "To put it simply, we spent more than we earned.",
+    "category": "Discourse Marker – Clarification"
+  },
+  {
+    "word": "in other words",
+    "meaning": "Used to restate something more clearly or from a different angle",
+    "example": "He was let go. In other words, he was fired.",
+    "category": "Transition – Clarification / Reformulation"
+  },
+  {
+    "word": "that is to say",
+    "meaning": "Used to clarify or rephrase the previous statement",
+    "example": "We'll start in spring — that is to say, in April or May.",
+    "category": "Discourse Marker – Clarification"
+  },
+  {
+    "word": "namely",
+    "meaning": "Used to specify or identify what was just mentioned",
+    "example": "Only one person objected — namely, the treasurer.",
+    "category": "Discourse Marker – Specification"
+  },
+  {
+    "word": "specifically",
+    "meaning": "Used to give precise details about something",
+    "example": "I'm referring to one person specifically — the manager.",
+    "category": "Discourse Marker – Specification"
+  },
+  {
+    "word": "in particular",
+    "meaning": "Used to single out a specific item within a general category",
+    "example": "She liked everything, in particular the dessert.",
+    "category": "Discourse Marker – Specification"
+  },
+  {
+    "word": "especially",
+    "meaning": "Used to emphasize that something is more true in one case than others",
+    "example": "She loves all fruit, especially mangoes.",
+    "category": "Discourse Marker – Emphasis"
+  },
+  {
+    "word": "above all",
+    "meaning": "Used to emphasize the most important point",
+    "example": "Be honest. Above all, be kind.",
+    "category": "Discourse Marker – Emphasis"
+  },
+  {
+    "word": "most importantly",
+    "meaning": "Used to highlight the single most significant point",
+    "example": "Most importantly, make sure everyone is safe.",
+    "category": "Discourse Marker – Emphasis"
+  },
+  {
+    "word": "in fact",
+    "meaning": "Used to introduce a stronger or surprising piece of evidence that reinforces or corrects",
+    "example": "I thought it was easy. In fact, it was one of the hardest things I've done.",
+    "category": "Discourse Marker – Emphasis / Reality Check"
+  },
+  {
+    "word": "as a matter of fact",
+    "meaning": "Used to emphasize truth or correct a misconception informally",
+    "example": "As a matter of fact, I've been here before.",
+    "category": "Discourse Marker – Reality Check"
+  },
+  {
+    "word": "indeed",
+    "meaning": "Used to confirm or strongly emphasize a point",
+    "example": "It was, indeed, the best performance of the year.",
+    "category": "Discourse Marker – Emphasis / Confirmation"
+  },
+  {
+    "word": "after all",
+    "meaning": "Used to introduce a reason that explains why something is true, often after reconsideration",
+    "example": "Don't be too hard on him — after all, he's just a child.",
+    "category": "Discourse Marker – Reason / Reconsideration"
+  },
+  {
+    "word": "at least",
+    "meaning": "Used to present a positive aspect despite a negative situation",
+    "example": "We lost the game, but at least nobody got hurt.",
+    "category": "Discourse Marker – Partial Positive"
+  },
+  {
+    "word": "if anything",
+    "meaning": "Used to suggest an alternative possibility, often surprising",
+    "example": "He wasn't upset — if anything, he was relieved.",
+    "category": "Discourse Marker – Correction / Nuance"
+  },
+  {
+    "word": "for instance",
+    "meaning": "Used to introduce a specific example",
+    "example": "Many languages are tonal — for instance, Mandarin and Vietnamese.",
+    "category": "Transition – Example"
+  },
+  {
+    "word": "for example",
+    "meaning": "Used to introduce an illustrative example",
+    "example": "There are many benefits, for example, improved health and more energy.",
+    "category": "Transition – Example"
+  },
+  {
+    "word": "such as",
+    "meaning": "Used to give examples within a clause",
+    "example": "She enjoys outdoor activities such as hiking and cycling.",
+    "category": "Linking Phrase – Example"
+  },
+  {
+    "word": "like",
+    "meaning": "Informal word used to introduce examples",
+    "example": "He loves sports like football and basketball.",
+    "category": "Linking Word – Example (Informal)"
+  },
+  {
+    "word": "to illustrate",
+    "meaning": "Used to introduce an example that demonstrates a point",
+    "example": "To illustrate, consider what happened in the 2008 financial crisis.",
+    "category": "Transition – Example"
+  },
+  {
+    "word": "as an example",
+    "meaning": "Used to introduce a specific case that supports a general point",
+    "example": "Take Japan as an example — it has one of the lowest crime rates.",
+    "category": "Transition – Example"
+  },
+  {
+    "word": "take ... for example",
+    "meaning": "Used to introduce a specific illustrative case",
+    "example": "Take Paris for example — it's one of the most visited cities in the world.",
+    "category": "Transition – Example"
+  },
+  {
+    "word": "in terms of",
+    "meaning": "Used to specify a particular aspect or dimension being discussed",
+    "example": "In terms of cost, the second option is much better.",
+    "category": "Discourse Marker – Framing"
+  },
+  {
+    "word": "when it comes to",
+    "meaning": "Informal phrase to introduce a specific topic or area",
+    "example": "When it comes to cooking, she's the expert.",
+    "category": "Discourse Marker – Framing (Informal)"
+  },
+  {
+    "word": "as far as ... is concerned",
+    "meaning": "Used to limit a statement to a specific topic",
+    "example": "As far as I'm concerned, the meeting is over.",
+    "category": "Discourse Marker – Framing"
+  },
+  {
+    "word": "regarding",
+    "meaning": "Used to indicate the topic of a statement",
+    "example": "Regarding your question, I'll need more time to answer.",
+    "category": "Discourse Marker – Framing"
+  },
+  {
+    "word": "as for",
+    "meaning": "Used to shift focus to a new topic or person",
+    "example": "As for the report, we'll discuss it tomorrow.",
+    "category": "Discourse Marker – Topic Shift"
+  },
+  {
+    "word": "speaking of which",
+    "meaning": "Used to connect the current topic to a related point",
+    "example": "That reminds me of last summer — speaking of which, did you go anywhere?",
+    "category": "Discourse Marker – Topic Connection"
+  },
+  {
+    "word": "on the subject of",
+    "meaning": "Used to introduce a related topic",
+    "example": "On the subject of holidays, have you booked anything yet?",
+    "category": "Discourse Marker – Topic Shift"
+  },
+  {
+    "word": "while we're at it",
+    "meaning": "Used to suggest doing something related since you're already involved",
+    "example": "While we're at it, let's update the other files too.",
+    "category": "Discourse Marker – Topic Expansion (Informal)"
+  },
+  {
+    "word": "by the way",
+    "meaning": "Used to introduce a tangential or additional remark",
+    "example": "By the way, I saw your brother yesterday.",
+    "category": "Discourse Marker – Aside"
+  },
+  {
+    "word": "incidentally",
+    "meaning": "Used to introduce a related but secondary point or tangent",
+    "example": "Incidentally, the same thing happened to me last year.",
+    "category": "Discourse Marker – Aside"
+  },
+  {
+    "word": "as I was saying",
+    "meaning": "Used to return to a point after a digression",
+    "example": "As I was saying, we need to fix the root cause.",
+    "category": "Discourse Marker – Topic Return"
+  },
+  {
+    "word": "to get back to the point",
+    "meaning": "Used to refocus the conversation on the main topic",
+    "example": "To get back to the point, what's our deadline?",
+    "category": "Discourse Marker – Topic Return"
+  },
+  {
+    "word": "the thing is",
+    "meaning": "Used to introduce the real or important point, often explaining a difficulty",
+    "example": "The thing is, I don't know if I can trust him.",
+    "category": "Discourse Marker – Key Point (Informal)"
+  },
+  {
+    "word": "the point is",
+    "meaning": "Used to emphasize the most essential part of an argument",
+    "example": "The point is, we can't keep ignoring this problem.",
+    "category": "Discourse Marker – Key Point"
+  },
+  {
+    "word": "what I'm saying is",
+    "meaning": "Used to clarify or rephrase your main argument",
+    "example": "What I'm saying is, we need a completely new strategy.",
+    "category": "Discourse Marker – Clarification (Informal)"
+  },
+  {
+    "word": "don't get me wrong",
+    "meaning": "Used to prevent a misinterpretation of what you're saying",
+    "example": "Don't get me wrong — I like him, I just disagree with this decision.",
+    "category": "Discourse Marker – Clarification"
+  },
+  {
+    "word": "not to mention",
+    "meaning": "Used to add an additional significant point, often negative",
+    "example": "It's expensive, not to mention very time-consuming.",
+    "category": "Linking Phrase – Addition / Emphasis"
+  },
+  {
+    "word": "let alone",
+    "meaning": "Used after a negative to emphasize an even more extreme case",
+    "example": "He can't boil water, let alone cook a meal.",
+    "category": "Linking Phrase – Emphasis"
+  },
+  {
+    "word": "much less",
+    "meaning": "Used similarly to 'let alone', stressing an impossibility",
+    "example": "She couldn't afford rent, much less a holiday.",
+    "category": "Linking Phrase – Emphasis"
+  },
+  {
+    "word": "if only",
+    "meaning": "Used to express a wish or regret about a past or hypothetical situation",
+    "example": "If only I had left earlier, I wouldn't have missed the train.",
+    "category": "Discourse Marker – Wish / Regret"
+  },
+  {
+    "word": "provided that",
+    "meaning": "Used to introduce a condition that must be met for something to happen",
+    "example": "You can borrow the car, provided that you return it by six.",
+    "category": "Linking Phrase – Condition"
+  },
+  {
+    "word": "as long as",
+    "meaning": "Used to state a condition; as long as it is met, the result follows",
+    "example": "As long as you're honest, I won't be angry.",
+    "category": "Linking Phrase – Condition"
+  },
+  {
+    "word": "unless",
+    "meaning": "Used to introduce an exception or negative condition",
+    "example": "Don't call me unless it's an emergency.",
+    "category": "Linking Word – Condition"
+  },
+  {
+    "word": "in case",
+    "meaning": "Used to indicate something is done as a precaution",
+    "example": "Take an umbrella in case it rains.",
+    "category": "Linking Phrase – Precaution"
+  },
+  {
+    "word": "otherwise",
+    "meaning": "Used to indicate what will happen if a condition is not met",
+    "example": "Study hard; otherwise, you'll fail.",
+    "category": "Linking Word – Condition / Result"
+  },
+  {
+    "word": "or else",
+    "meaning": "Used to introduce a negative consequence of not doing something",
+    "example": "Pay the fine or else face legal action.",
+    "category": "Linking Phrase – Consequence (Informal)"
+  },
+  {
+    "word": "similarly",
+    "meaning": "Used to introduce a point that is like or comparable to the previous one",
+    "example": "The food was excellent. Similarly, the service was outstanding.",
+    "category": "Transition – Comparison"
+  },
+  {
+    "word": "likewise",
+    "meaning": "Used to indicate that the same is true of something else",
+    "example": "He left early. Likewise, I decided not to stay.",
+    "category": "Transition – Comparison"
+  },
+  {
+    "word": "in the same way",
+    "meaning": "Used to draw a parallel between two ideas or situations",
+    "example": "Just as we train our bodies, in the same way we must train our minds.",
+    "category": "Transition – Comparison"
+  },
+  {
+    "word": "just as",
+    "meaning": "Used to make a direct parallel comparison",
+    "example": "Just as a good doctor listens, so too must a good teacher.",
+    "category": "Linking Phrase – Comparison"
+  },
+  {
+    "word": "compared to",
+    "meaning": "Used to highlight differences or similarities between two things",
+    "example": "Compared to last year, sales have significantly improved.",
+    "category": "Linking Phrase – Comparison"
+  },
+  {
+    "word": "relative to",
+    "meaning": "Used to compare one thing in relation to another",
+    "example": "Relative to the cost, the quality is quite poor.",
+    "category": "Linking Phrase – Comparison"
+  },
+  {
+    "word": "as opposed to",
+    "meaning": "Used to contrast two things or ideas",
+    "example": "I prefer tea as opposed to coffee.",
+    "category": "Linking Phrase – Contrast"
+  },
+  {
+    "word": "rather than",
+    "meaning": "Used to show a preference for one thing over another",
+    "example": "She chose to walk rather than take the bus.",
+    "category": "Linking Phrase – Preference / Contrast"
+  },
+  {
+    "word": "instead of",
+    "meaning": "Used to indicate a substitution or alternative chosen",
+    "example": "He stayed home instead of going to the party.",
+    "category": "Linking Phrase – Substitution"
+  },
+  {
+    "word": "in spite of",
+    "meaning": "Used to show that something happens despite an obstacle",
+    "example": "In spite of the rain, the match continued.",
+    "category": "Linking Phrase – Concession"
+  },
+  {
+    "word": "despite",
+    "meaning": "Used to show contrast with an expected obstacle; same as 'in spite of'",
+    "example": "Despite being tired, she finished the project.",
+    "category": "Linking Word – Concession"
+  },
+  {
+    "word": "regardless of",
+    "meaning": "Used to indicate that something is true or will happen despite any factors",
+    "example": "Regardless of the weather, the event will go ahead.",
+    "category": "Linking Phrase – Concession"
+  },
+  {
+    "word": "with that in mind",
+    "meaning": "Used to introduce a conclusion or action that follows from what was said",
+    "example": "With that in mind, let's revise our approach.",
+    "category": "Discourse Marker – Logical Follow-up"
+  },
+  {
+    "word": "bearing that in mind",
+    "meaning": "Used to transition to a decision or action informed by the previous information",
+    "example": "Bearing that in mind, we should proceed carefully.",
+    "category": "Discourse Marker – Logical Follow-up"
+  },
+  {
+    "word": "in light of",
+    "meaning": "Used to show that a conclusion is made based on new information",
+    "example": "In light of the new evidence, we need to reconsider.",
+    "category": "Transition – Reasoning"
+  },
+  {
+    "word": "on that note",
+    "meaning": "Used to transition from a topic to a related closing point",
+    "example": "On that note, I think we should wrap up.",
+    "category": "Discourse Marker – Closing"
+  },
+  {
+    "word": "with that",
+    "meaning": "Used informally to signal the end of something or a transition",
+    "example": "With that, I'll hand it over to the next speaker.",
+    "category": "Discourse Marker – Closing"
+  },
+  {
+    "word": "sort of",
+    "meaning": "Used to make a statement less direct or certain; hedging",
+    "example": "It was sort of disappointing, to be honest.",
+    "category": "Discourse Marker – Hedging (Informal)"
+  },
+  {
+    "word": "kind of",
+    "meaning": "Used to soften or qualify a statement informally",
+    "example": "I kind of thought you'd say that.",
+    "category": "Discourse Marker – Hedging (Informal)"
+  },
+  {
+    "word": "in a way",
+    "meaning": "Used to qualify a statement to suggest it is partially true",
+    "example": "In a way, I'm glad it happened.",
+    "category": "Discourse Marker – Hedging"
+  },
+  {
+    "word": "more or less",
+    "meaning": "Used to indicate approximate truth; almost but not entirely",
+    "example": "We're more or less finished — just a few details left.",
+    "category": "Discourse Marker – Approximation"
+  },
+  {
+    "word": "to some extent",
+    "meaning": "Used to indicate partial agreement or truth",
+    "example": "To some extent, you're right.",
+    "category": "Discourse Marker – Hedging"
+  },
+  {
+    "word": "to a certain degree",
+    "meaning": "Used to qualify the degree of truth in a statement",
+    "example": "To a certain degree, we are all responsible for this outcome.",
+    "category": "Discourse Marker – Hedging"
+  },
+  {
+    "word": "in a sense",
+    "meaning": "Used to qualify a statement as true from one particular perspective",
+    "example": "In a sense, we've already solved the problem.",
+    "category": "Discourse Marker – Qualification"
+  },
+  {
+    "word": "strictly speaking",
+    "meaning": "Used to introduce the precise, technical, or literal interpretation",
+    "example": "Strictly speaking, that rule doesn't apply here.",
+    "category": "Discourse Marker – Precision"
+  },
+  {
+    "word": "generally speaking",
+    "meaning": "Used to introduce a broad or typical statement",
+    "example": "Generally speaking, people prefer stability over risk.",
+    "category": "Discourse Marker – Generalization"
+  },
+  {
+    "word": "broadly speaking",
+    "meaning": "Used to introduce a rough or approximate generalization",
+    "example": "Broadly speaking, the feedback has been positive.",
+    "category": "Discourse Marker – Generalization"
+  },
+  {
+    "word": "as a rule",
+    "meaning": "Used to state a general principle or typical behavior",
+    "example": "As a rule, I try to avoid eating after 8 p.m.",
+    "category": "Discourse Marker – Generalization"
+  },
+  {
+    "word": "on the whole",
+    "meaning": "Used to give a general assessment considering everything",
+    "example": "On the whole, the trip was very enjoyable.",
+    "category": "Transition – Summary"
+  },
+  {
+    "word": "for the most part",
+    "meaning": "Used to indicate something is mostly or largely true",
+    "example": "For the most part, the students understood the lesson.",
+    "category": "Discourse Marker – Generalization"
+  },
+  {
+    "word": "by and large",
+    "meaning": "Idiom meaning 'in general' or 'on the whole'",
+    "example": "By and large, the new policy has been well received.",
+    "category": "Discourse Marker – Generalization"
+  },
+  {
+    "word": "so to speak",
+    "meaning": "Used to signal that a word or phrase is being used loosely or figuratively",
+    "example": "He's the glue that holds the team together, so to speak.",
+    "category": "Discourse Marker – Figurative Language Signal"
+  },
+  {
+    "word": "as it were",
+    "meaning": "Used to indicate a metaphorical or imprecise usage of a term",
+    "example": "She became the mother of the movement, as it were.",
+    "category": "Discourse Marker – Figurative Language Signal"
+  },
+  {
+    "word": "I suppose",
+    "meaning": "Used to express uncertain agreement or reluctant acceptance",
+    "example": "I suppose you're right, but it still seems risky.",
+    "category": "Discourse Marker – Hedging"
+  },
+  {
+    "word": "I guess",
+    "meaning": "Informal expression of uncertain agreement or a tentative conclusion",
+    "example": "I guess we'll just have to wait and see.",
+    "category": "Discourse Marker – Hedging (Informal)"
+  },
+  {
+    "word": "apparently",
+    "meaning": "Used to report something believed to be true based on available information, but not personally verified",
+    "example": "Apparently, the meeting was cancelled.",
+    "category": "Discourse Marker – Reported Information"
+  },
+  {
+    "word": "supposedly",
+    "meaning": "Used to express doubt about a claim others believe to be true",
+    "example": "He's supposedly an expert, but his advice was wrong.",
+    "category": "Discourse Marker – Doubt / Reported"
+  },
+  {
+    "word": "allegedly",
+    "meaning": "Used to indicate a claim has been made but not proven",
+    "example": "He allegedly stole the funds, though no charges were filed.",
+    "category": "Discourse Marker – Reported (Unverified)"
+  },
+  {
+    "word": "according to",
+    "meaning": "Used to attribute information to a specific source",
+    "example": "According to the report, unemployment has fallen.",
+    "category": "Discourse Marker – Source Attribution"
+  },
+  {
+    "word": "as far as I know",
+    "meaning": "Used to indicate a statement is true to the best of the speaker's knowledge",
+    "example": "As far as I know, the office opens at nine.",
+    "category": "Discourse Marker – Knowledge Limitation"
+  },
+  {
+    "word": "if I'm not mistaken",
+    "meaning": "Used to introduce a statement the speaker is fairly, but not completely, sure of",
+    "example": "If I'm not mistaken, the deadline is Friday.",
+    "category": "Discourse Marker – Uncertainty"
+  },
+  {
+    "word": "come to think of it",
+    "meaning": "Used when a new thought or realization suddenly occurs",
+    "example": "Come to think of it, I've met her before.",
+    "category": "Discourse Marker – Realization"
+  },
+  {
+    "word": "now that I think about it",
+    "meaning": "Used to introduce a reconsidered or newly remembered point",
+    "example": "Now that I think about it, he did seem nervous.",
+    "category": "Discourse Marker – Realization"
+  },
+  {
+    "word": "needless to say",
+    "meaning": "Used to introduce something considered obvious",
+    "example": "Needless to say, we were all shocked by the news.",
+    "category": "Discourse Marker – Obviousness"
+  },
+  {
+    "word": "it goes without saying",
+    "meaning": "Used to state something that should be obvious or universally understood",
+    "example": "It goes without saying that honesty is the best policy.",
+    "category": "Discourse Marker – Obviousness"
+  },
+  {
+    "word": "not to put too fine a point on it",
+    "meaning": "Used before a blunt or frank statement",
+    "example": "Not to put too fine a point on it, the project was a disaster.",
+    "category": "Discourse Marker – Blunt Framing"
+  },
+  {
+    "word": "put it another way",
+    "meaning": "Used to offer an alternative explanation of the same point",
+    "example": "Put it another way, we simply can't afford it.",
+    "category": "Discourse Marker – Reformulation"
+  }
+]

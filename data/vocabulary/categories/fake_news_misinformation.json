@@ -1,0 +1,182 @@
+﻿[
+    {
+        "word":  "MISINFORMATION",
+        "meaning":  "False or inaccurate information that is shared without the intention to deceive.",
+        "example":  "Sharing a rumor about a local school closure before checking if it was true is a common form of misinformation.",
+        "category":  "Fake News \u0026 Misinformation"
+    },
+    {
+        "word":  "DISINFORMATION",
+        "meaning":  "False information that is deliberately created and spread to deceive or influence public opinion.",
+        "example":  "The foreign intelligence agency launched a disinformation campaign to disrupt the upcoming election.",
+        "category":  "Fake News \u0026 Misinformation"
+    },
+    {
+        "word":  "MALINFORMATION",
+        "meaning":  "Genuine or true information that is shared out of context or with malicious intent to cause harm.",
+        "example":  "Leaking a private conversation from ten years ago to damage a candidate\u0027s reputation is malinformation.",
+        "category":  "Fake News \u0026 Misinformation"
+    },
+    {
+        "word":  "DEEPFAKE",
+        "meaning":  "Synthetic media in which a person\u0027s face or body is digitally altered to look like someone else, typically using AI.",
+        "example":  "The online video of the president announcing an emergency draft was proven to be a deepfake.",
+        "category":  "Fake News \u0026 Misinformation"
+    },
+    {
+        "word":  "CHEAPFAKE",
+        "meaning":  "Media that has been manipulated using simple, non-AI tools like speed changes, cropping, or splicing.",
+        "example":  "The cheapfake video of the speaker was slowed down to make it seem as if she was slurring her words.",
+        "category":  "Fake News \u0026 Misinformation"
+    },
+    {
+        "word":  "CLICKBAIT",
+        "meaning":  "Sensationalist headlines designed to tempt users to click a link, often leading to low-quality content.",
+        "example":  "The website uses clickbait like \u0027You will not believe what happened next\u0027 to drive up advertising revenue.",
+        "category":  "Fake News \u0026 Misinformation"
+    },
+    {
+        "word":  "HOAX",
+        "meaning":  "A humorous or malicious deception designed to fool the public into believing something false is true.",
+        "example":  "The story about a giant shark in the city river turned out to be a clever internet hoax.",
+        "category":  "Fake News \u0026 Misinformation"
+    },
+    {
+        "word":  "ECHO CHAMBER",
+        "meaning":  "An environment where a person only encounters information and opinions that reflect and reinforce their own.",
+        "example":  "By unfriending anyone who disagreed with him, he created a personal echo chamber on social media.",
+        "category":  "Fake News \u0026 Misinformation"
+    },
+    {
+        "word":  "FILTER BUBBLE",
+        "meaning":  "A state of intellectual isolation that can result from personalized searches and website algorithms.",
+        "example":  "Because of her filter bubble, she rarely saw news articles that challenged her political views.",
+        "category":  "Fake News \u0026 Misinformation"
+    },
+    {
+        "word":  "POST-TRUTH",
+        "meaning":  "A situation where objective facts are less influential in shaping public opinion than appeals to emotion and personal belief.",
+        "example":  "In a post-truth political climate, voters often ignore official statistics in favor of emotional slogans.",
+        "category":  "Fake News \u0026 Misinformation"
+    },
+    {
+        "word":  "FABRICATION",
+        "meaning":  "The invention or creation of false information, news stories, or quotes from thin air.",
+        "example":  "The journalist was dismissed after it was revealed that several interview quotes were complete fabrications.",
+        "category":  "Fake News \u0026 Misinformation"
+    },
+    {
+        "word":  "CONSPIRACY THEORY",
+        "meaning":  "A belief that a secret, influential organization is responsible for an event or phenomenon.",
+        "example":  "He believed a conspiracy theory that the weather was being controlled by a secret government laboratory.",
+        "category":  "Fake News \u0026 Misinformation"
+    },
+    {
+        "word":  "PSEUDOSCIENCE",
+        "meaning":  "A collection of beliefs or practices mistakenly regarded as being based on the scientific method.",
+        "example":  "The article promoted a pseudoscience claiming that wearing certain copper bracelets could cure all diseases.",
+        "category":  "Fake News \u0026 Misinformation"
+    },
+    {
+        "word":  "JUNK SCIENCE",
+        "meaning":  "Untested or fraudulent scientific theories and data used to support a biased agenda or legal claim.",
+        "example":  "Critics accused the company of using junk science to prove their new plastic bottles would decompose in a week.",
+        "category":  "Fake News \u0026 Misinformation"
+    },
+    {
+        "word":  "TROLL FARM",
+        "meaning":  "An organization or group that posts offensive or inflammatory online messages to disrupt discussions or spread propaganda.",
+        "example":  "Investigators linked the thousands of automated posts criticizing the treaty to a foreign troll farm.",
+        "category":  "Fake News \u0026 Misinformation"
+    },
+    {
+        "word":  "RAGE-BAIT",
+        "meaning":  "Content specifically designed to provoke anger or outrage in readers to drive engagement and shares.",
+        "example":  "The talk show host posted rage-bait on his feed to start arguments and increase his follower count.",
+        "category":  "Fake News \u0026 Misinformation"
+    },
+    {
+        "word":  "ASTROTURFING",
+        "meaning":  "Masking the sponsors of a message or organization to make it appear as though it originates from grassroots participants.",
+        "example":  "The letter-writing campaign protesting the park taxes was actually corporate astroturfing funded by real estate developers.",
+        "category":  "Fake News \u0026 Misinformation"
+    },
+    {
+        "word":  "BOTNET",
+        "meaning":  "A network of private computers infected with malicious software and controlled as a group to spread spam or fake accounts.",
+        "example":  "The botnet was programmed to retweet the politician\u0027s statements thousands of times within seconds.",
+        "category":  "Fake News \u0026 Misinformation"
+    },
+    {
+        "word":  "SOCKPUPPET",
+        "meaning":  "A false online identity used for purposes of deception, often to praise oneself or attack opponents.",
+        "example":  "The politician was caught using a sockpuppet account to agree with his own posts and praise his policies.",
+        "category":  "Fake News \u0026 Misinformation"
+    },
+    {
+        "word":  "IMPERSONATION",
+        "meaning":  "Actively pretending to be another real person, brand, or organization online to deceive others.",
+        "example":  "The website warning of a bank collapse was shut down for impersonation of a real financial institution.",
+        "category":  "Fake News \u0026 Misinformation"
+    },
+    {
+        "word":  "CLONED SITE",
+        "meaning":  "An exact replica of a legitimate news or organizational website, created to host fake stories and fool visitors.",
+        "example":  "Always check the URL, as scammers often use cloned sites to publish false medical news under respected logos.",
+        "category":  "Fake News \u0026 Misinformation"
+    },
+    {
+        "word":  "DOXING",
+        "meaning":  "Searching for and publishing private or identifying information about a particular individual on the internet, typically with malicious intent.",
+        "example":  "The company condemned the doxing of its employees, whose home addresses were leaked by angry online protestors.",
+        "category":  "Fake News \u0026 Misinformation"
+    },
+    {
+        "word":  "SMEAR CAMPAIGN",
+        "meaning":  "A deliberate plan to damage the reputation of a public figure by spreading negative rumors or false accusations.",
+        "example":  "The actor claimed the article about his past was a smear campaign organized by a rival studio.",
+        "category":  "Fake News \u0026 Misinformation"
+    },
+    {
+        "word":  "MEMETIC WARFARE",
+        "meaning":  "The use of internet memes to influence public opinion, spread propaganda, or disrupt political discussions.",
+        "example":  "During the election, both sides engaged in memetic warfare to mock their opponents with viral jokes.",
+        "category":  "Fake News \u0026 Misinformation"
+    },
+    {
+        "word":  "INFORMATION WARFARE",
+        "meaning":  "The strategic use of information and communication technologies to gain competitive advantages over an opponent.",
+        "example":  "Cyber security experts monitored the state\u0027s networks for signs of foreign information warfare.",
+        "category":  "Fake News \u0026 Misinformation"
+    },
+    {
+        "word":  "PROPAGANDA",
+        "meaning":  "Information, especially of a biased or misleading nature, used to promote a political cause or point of view.",
+        "example":  "The regime used state television to broadcast propaganda that exaggerated the country\u0027s economic growth.",
+        "category":  "Fake News \u0026 Misinformation"
+    },
+    {
+        "word":  "MANIPULATED MEDIA",
+        "meaning":  "Video, audio, or images that have been edited, altered, or re-sequenced to mislead the viewer.",
+        "example":  "The platform flagged the post as manipulated media because it combined unrelated video clips to create a false narrative.",
+        "category":  "Fake News \u0026 Misinformation"
+    },
+    {
+        "word":  "RUMORMONGERING",
+        "meaning":  "The practice of actively spreading rumors, gossip, or unverified reports.",
+        "example":  "The council asked residents to stop the rumormongering about water contamination until official tests were complete.",
+        "category":  "Fake News \u0026 Misinformation"
+    },
+    {
+        "word":  "HYPER-PARTISAN CONTENT",
+        "meaning":  "Media that is extremely biased in favor of a political party or cause, often ignoring objective facts.",
+        "example":  "He stopped visiting the blog because it only posted hyper-partisan content that refused to acknowledge any flaws in its party.",
+        "category":  "Fake News \u0026 Misinformation"
+    },
+    {
+        "word":  "DATA VOID",
+        "meaning":  "A search query where there is a high demand for information, but very little credible content exists, allowing low-quality or false sources to dominate search results.",
+        "example":  "When the obscure chemical was first mentioned in the news, a data void allowed conspiracy blogs to rank first in search results.",
+        "category":  "Fake News \u0026 Misinformation"
+    }
+]

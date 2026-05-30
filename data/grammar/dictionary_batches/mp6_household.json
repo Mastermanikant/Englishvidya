@@ -1,0 +1,834 @@
+[
+  {
+    "word": "Broom",
+    "pos": "Noun",
+    "meaning_hindi": "झाड़ू",
+    "meaning_english": "A tool with a long handle used for sweeping.",
+    "example_sentence": "She used a broom to clean the floor.",
+    "difficulty_level": "Beginner"
+  },
+  {
+    "word": "Mop",
+    "pos": "Noun",
+    "meaning_hindi": "पोछा",
+    "meaning_english": "A tool with a sponge or bundle of yarn used for washing floors.",
+    "example_sentence": "He cleaned the spill with a mop.",
+    "difficulty_level": "Beginner"
+  },
+  {
+    "word": "Dustpan",
+    "pos": "Noun",
+    "meaning_hindi": "सूप/कचरा उठाने का पात्र",
+    "meaning_english": "A flat container used for sweeping dust into.",
+    "example_sentence": "Sweep the dirt into the dustpan.",
+    "difficulty_level": "Beginner"
+  },
+  {
+    "word": "Bucket",
+    "pos": "Noun",
+    "meaning_hindi": "बाल्टी",
+    "meaning_english": "An open container with a handle used to hold liquids.",
+    "example_sentence": "Fill the bucket with water.",
+    "difficulty_level": "Beginner"
+  },
+  {
+    "word": "Spoon",
+    "pos": "Noun",
+    "meaning_hindi": "चम्मच",
+    "meaning_english": "A tool used for eating soft or liquid foods.",
+    "example_sentence": "I ate the soup with a spoon.",
+    "difficulty_level": "Beginner"
+  },
+  {
+    "word": "Fork",
+    "pos": "Noun",
+    "meaning_hindi": "कांटा",
+    "meaning_english": "A tool with prongs used for picking up food.",
+    "example_sentence": "She ate the noodles using a fork.",
+    "difficulty_level": "Beginner"
+  },
+  {
+    "word": "Knife",
+    "pos": "Noun",
+    "meaning_hindi": "चाकू",
+    "meaning_english": "A tool with a sharp blade used for cutting.",
+    "example_sentence": "Be careful while chopping vegetables with a knife.",
+    "difficulty_level": "Beginner"
+  },
+  {
+    "word": "Plate",
+    "pos": "Noun",
+    "meaning_hindi": "थाली/प्लेट",
+    "meaning_english": "A flat dish from which food is eaten or served.",
+    "example_sentence": "He served the dinner on a large plate.",
+    "difficulty_level": "Beginner"
+  },
+  {
+    "word": "Bowl",
+    "pos": "Noun",
+    "meaning_hindi": "कटोरा",
+    "meaning_english": "A round, deep dish used for holding food or liquid.",
+    "example_sentence": "She poured soup into the bowl.",
+    "difficulty_level": "Beginner"
+  },
+  {
+    "word": "Cup",
+    "pos": "Noun",
+    "meaning_hindi": "प्याला/कप",
+    "meaning_english": "A small container with a handle used for drinking.",
+    "example_sentence": "I would like a cup of tea.",
+    "difficulty_level": "Beginner"
+  },
+  {
+    "word": "Glass",
+    "pos": "Noun",
+    "meaning_hindi": "गिलास",
+    "meaning_english": "A container made of glass used for drinking.",
+    "example_sentence": "Please give me a glass of water.",
+    "difficulty_level": "Beginner"
+  },
+  {
+    "word": "Mug",
+    "pos": "Noun",
+    "meaning_hindi": "मग",
+    "meaning_english": "A large cup typically used for hot drinks.",
+    "example_sentence": "He drank hot coffee from his favorite mug.",
+    "difficulty_level": "Beginner"
+  },
+  {
+    "word": "Spatula",
+    "pos": "Noun",
+    "meaning_hindi": "पलटा",
+    "meaning_english": "A tool with a broad, flat blade used for mixing or spreading.",
+    "example_sentence": "She flipped the pancake using a spatula.",
+    "difficulty_level": "Intermediate"
+  },
+  {
+    "word": "Ladle",
+    "pos": "Noun",
+    "meaning_hindi": "करछुल",
+    "meaning_english": "A large, long-handled spoon used for serving soup.",
+    "example_sentence": "He used a ladle to serve the stew.",
+    "difficulty_level": "Intermediate"
+  },
+  {
+    "word": "Tongs",
+    "pos": "Noun",
+    "meaning_hindi": "चिमटा",
+    "meaning_english": "A tool used for gripping and lifting objects.",
+    "example_sentence": "Use tongs to pick up the hot pieces of meat.",
+    "difficulty_level": "Intermediate"
+  },
+  {
+    "word": "Whisk",
+    "pos": "Noun",
+    "meaning_hindi": "फेंटनी",
+    "meaning_english": "A utensil used for beating or stirring light ingredients.",
+    "example_sentence": "Whisk the eggs until they are fluffy.",
+    "difficulty_level": "Intermediate"
+  },
+  {
+    "word": "Peeler",
+    "pos": "Noun",
+    "meaning_hindi": "छीलने वाला चाकू",
+    "meaning_english": "A tool used to remove the skin from fruits and vegetables.",
+    "example_sentence": "Use a peeler to remove the potato skin.",
+    "difficulty_level": "Intermediate"
+  },
+  {
+    "word": "Grater",
+    "pos": "Noun",
+    "meaning_hindi": "कद्दूकस",
+    "meaning_english": "A tool used to shred food into small pieces.",
+    "example_sentence": "She used a grater for the cheese.",
+    "difficulty_level": "Intermediate"
+  },
+  {
+    "word": "Strainer",
+    "pos": "Noun",
+    "meaning_hindi": "छलनी",
+    "meaning_english": "A device used for separating solid matter from liquid.",
+    "example_sentence": "Pour the tea through a strainer.",
+    "difficulty_level": "Intermediate"
+  },
+  {
+    "word": "Saucepan",
+    "pos": "Noun",
+    "meaning_hindi": "सॉसपैन / पतेली",
+    "meaning_english": "A deep cooking pan with a long handle.",
+    "example_sentence": "Boil some water in the saucepan.",
+    "difficulty_level": "Intermediate"
+  },
+  {
+    "word": "Frying pan",
+    "pos": "Noun",
+    "meaning_hindi": "कड़ाही / फ्राइंग पैन",
+    "meaning_english": "A flat-bottomed pan used for frying food.",
+    "example_sentence": "Fry the onions in a frying pan.",
+    "difficulty_level": "Beginner"
+  },
+  {
+    "word": "Pressure cooker",
+    "pos": "Noun",
+    "meaning_hindi": "प्रेशर कुकर",
+    "meaning_english": "A sealed pot used for cooking food quickly under steam pressure.",
+    "example_sentence": "The rice will cook quickly in the pressure cooker.",
+    "difficulty_level": "Intermediate"
+  },
+  {
+    "word": "Rolling pin",
+    "pos": "Noun",
+    "meaning_hindi": "बेलन",
+    "meaning_english": "A cylinder used to roll over dough to flatten it.",
+    "example_sentence": "She used a rolling pin to flatten the chapati dough.",
+    "difficulty_level": "Intermediate"
+  },
+  {
+    "word": "Chopping board",
+    "pos": "Noun",
+    "meaning_hindi": "चॉपिंग बोर्ड",
+    "meaning_english": "A wooden or plastic board used for cutting vegetables or meat.",
+    "example_sentence": "Place the onions on the chopping board before cutting.",
+    "difficulty_level": "Intermediate"
+  },
+  {
+    "word": "Refrigerator",
+    "pos": "Noun",
+    "meaning_hindi": "फ्रिज",
+    "meaning_english": "An appliance used for keeping food and drinks cold.",
+    "example_sentence": "Keep the milk in the refrigerator.",
+    "difficulty_level": "Beginner"
+  },
+  {
+    "word": "Microwave",
+    "pos": "Noun",
+    "meaning_hindi": "माइक्रोवेव",
+    "meaning_english": "An oven that uses microwaves to cook or heat food.",
+    "example_sentence": "Heat the leftovers in the microwave.",
+    "difficulty_level": "Beginner"
+  },
+  {
+    "word": "Oven",
+    "pos": "Noun",
+    "meaning_hindi": "ओवन",
+    "meaning_english": "An enclosed compartment used for baking or roasting.",
+    "example_sentence": "Bake the cake in the oven for 30 minutes.",
+    "difficulty_level": "Beginner"
+  },
+  {
+    "word": "Toaster",
+    "pos": "Noun",
+    "meaning_hindi": "टोस्टर",
+    "meaning_english": "An electrical device for making toast.",
+    "example_sentence": "Put two slices of bread into the toaster.",
+    "difficulty_level": "Beginner"
+  },
+  {
+    "word": "Blender",
+    "pos": "Noun",
+    "meaning_hindi": "मिक्सर / ब्लेंडर",
+    "meaning_english": "A machine used to mix or puree food.",
+    "example_sentence": "Use the blender to make a fruit smoothie.",
+    "difficulty_level": "Intermediate"
+  },
+  {
+    "word": "Sink",
+    "pos": "Noun",
+    "meaning_hindi": "सिंक",
+    "meaning_english": "A fixed basin with a water supply and drain.",
+    "example_sentence": "Wash the dirty dishes in the sink.",
+    "difficulty_level": "Beginner"
+  },
+  {
+    "word": "Faucet",
+    "pos": "Noun",
+    "meaning_hindi": "नल",
+    "meaning_english": "A device by which water is drawn from a pipe.",
+    "example_sentence": "Turn off the faucet after washing your hands.",
+    "difficulty_level": "Intermediate"
+  },
+  {
+    "word": "Towel",
+    "pos": "Noun",
+    "meaning_hindi": "तौलिया",
+    "meaning_english": "A piece of absorbent cloth used for drying.",
+    "example_sentence": "Use a dry towel to wipe your face.",
+    "difficulty_level": "Beginner"
+  },
+  {
+    "word": "Napkin",
+    "pos": "Noun",
+    "meaning_hindi": "नैपकिन / रुमाल",
+    "meaning_english": "A square piece of cloth or paper used at a meal to wipe fingers or mouth.",
+    "example_sentence": "Place the napkin on your lap during dinner.",
+    "difficulty_level": "Beginner"
+  },
+  {
+    "word": "Tablecloth",
+    "pos": "Noun",
+    "meaning_hindi": "मेजपोश",
+    "meaning_english": "A cloth used to cover a table.",
+    "example_sentence": "She spread a beautiful tablecloth over the dining table.",
+    "difficulty_level": "Intermediate"
+  },
+  {
+    "word": "Bed",
+    "pos": "Noun",
+    "meaning_hindi": "बिस्तर / पलंग",
+    "meaning_english": "A piece of furniture for sleep or rest.",
+    "example_sentence": "I am going to sleep in my bed.",
+    "difficulty_level": "Beginner"
+  },
+  {
+    "word": "Mattress",
+    "pos": "Noun",
+    "meaning_hindi": "गद्दा",
+    "meaning_english": "A large, thick pad used as a bed or placed on a bed frame.",
+    "example_sentence": "This new mattress is very comfortable.",
+    "difficulty_level": "Intermediate"
+  },
+  {
+    "word": "Pillow",
+    "pos": "Noun",
+    "meaning_hindi": "तकिया",
+    "meaning_english": "A rectangular cloth bag stuffed with soft materials, used to support the head in bed.",
+    "example_sentence": "I need a soft pillow to sleep well.",
+    "difficulty_level": "Beginner"
+  },
+  {
+    "word": "Blanket",
+    "pos": "Noun",
+    "meaning_hindi": "कंबल",
+    "meaning_english": "A large piece of woolen or similar material used as a covering on a bed.",
+    "example_sentence": "It is cold, so use a blanket.",
+    "difficulty_level": "Beginner"
+  },
+  {
+    "word": "Quilt",
+    "pos": "Noun",
+    "meaning_hindi": "रजाई",
+    "meaning_english": "A warm bed covering made of padding enclosed between layers of fabric.",
+    "example_sentence": "The heavy quilt kept him warm in winter.",
+    "difficulty_level": "Intermediate"
+  },
+  {
+    "word": "Bedsheet",
+    "pos": "Noun",
+    "meaning_hindi": "चादर",
+    "meaning_english": "A large piece of cloth laid on a bed as a cover.",
+    "example_sentence": "Change the bedsheet every week.",
+    "difficulty_level": "Beginner"
+  },
+  {
+    "word": "Wardrobe",
+    "pos": "Noun",
+    "meaning_hindi": "अलमारी",
+    "meaning_english": "A large, tall cupboard in which clothes may be hung or stored.",
+    "example_sentence": "Hang your clothes in the wardrobe.",
+    "difficulty_level": "Beginner"
+  },
+  {
+    "word": "Hanger",
+    "pos": "Noun",
+    "meaning_hindi": "हैंगर",
+    "meaning_english": "A shaped piece of wood, plastic, or wire with a hook for hanging clothes.",
+    "example_sentence": "Put your shirt on a hanger.",
+    "difficulty_level": "Beginner"
+  },
+  {
+    "word": "Mirror",
+    "pos": "Noun",
+    "meaning_hindi": "शीशा / दर्पण",
+    "meaning_english": "A surface, typically of glass coated with a metal amalgam, which reflects a clear image.",
+    "example_sentence": "She looked at herself in the mirror.",
+    "difficulty_level": "Beginner"
+  },
+  {
+    "word": "Comb",
+    "pos": "Noun",
+    "meaning_hindi": "कंघी",
+    "meaning_english": "A tool used for untangling or arranging hair.",
+    "example_sentence": "He used a comb to fix his hair.",
+    "difficulty_level": "Beginner"
+  },
+  {
+    "word": "Hairbrush",
+    "pos": "Noun",
+    "meaning_hindi": "हेयरब्रश",
+    "meaning_english": "A brush used to groom the hair.",
+    "example_sentence": "She brushed her long hair with a hairbrush.",
+    "difficulty_level": "Intermediate"
+  },
+  {
+    "word": "Toothbrush",
+    "pos": "Noun",
+    "meaning_hindi": "टूथब्रश",
+    "meaning_english": "A small brush with a long handle, used for cleaning the teeth.",
+    "example_sentence": "Brush your teeth with a toothbrush.",
+    "difficulty_level": "Beginner"
+  },
+  {
+    "word": "Toothpaste",
+    "pos": "Noun",
+    "meaning_hindi": "टूथपेस्ट",
+    "meaning_english": "A paste used for cleaning the teeth.",
+    "example_sentence": "Apply some toothpaste on the brush.",
+    "difficulty_level": "Beginner"
+  },
+  {
+    "word": "Soap",
+    "pos": "Noun",
+    "meaning_hindi": "साबुन",
+    "meaning_english": "A substance used with water for washing and cleaning.",
+    "example_sentence": "Wash your hands with soap.",
+    "difficulty_level": "Beginner"
+  },
+  {
+    "word": "Shampoo",
+    "pos": "Noun",
+    "meaning_hindi": "शैम्पू",
+    "meaning_english": "A liquid preparation for washing the hair.",
+    "example_sentence": "Use shampoo to wash your hair properly.",
+    "difficulty_level": "Beginner"
+  },
+  {
+    "word": "Conditioner",
+    "pos": "Noun",
+    "meaning_hindi": "कंडीशनर",
+    "meaning_english": "A liquid applied to hair after shampooing to improve its condition.",
+    "example_sentence": "Hair is softer after applying conditioner.",
+    "difficulty_level": "Intermediate"
+  },
+  {
+    "word": "Toilet",
+    "pos": "Noun",
+    "meaning_hindi": "शौचालय",
+    "meaning_english": "A fixed receptacle into which a person may urinate or defecate.",
+    "example_sentence": "Please flush the toilet after use.",
+    "difficulty_level": "Beginner"
+  },
+  {
+    "word": "Shower",
+    "pos": "Noun",
+    "meaning_hindi": "शॉवर / फव्वारा",
+    "meaning_english": "A device that produces a spray of water for bathing.",
+    "example_sentence": "I took a quick shower in the morning.",
+    "difficulty_level": "Beginner"
+  },
+  {
+    "word": "Bathtub",
+    "pos": "Noun",
+    "meaning_hindi": "बाथटब",
+    "meaning_english": "A large container for water, used for immersing and washing the body.",
+    "example_sentence": "She soaked in a warm bathtub.",
+    "difficulty_level": "Intermediate"
+  },
+  {
+    "word": "Sofa",
+    "pos": "Noun",
+    "meaning_hindi": "सोफ़ा",
+    "meaning_english": "A long upholstered piece of furniture for several people to sit on.",
+    "example_sentence": "They sat on the sofa to watch TV.",
+    "difficulty_level": "Beginner"
+  },
+  {
+    "word": "Chair",
+    "pos": "Noun",
+    "meaning_hindi": "कुर्सी",
+    "meaning_english": "A separate seat for one person, typically with a back and four legs.",
+    "example_sentence": "He pulled up a chair and sat down.",
+    "difficulty_level": "Beginner"
+  },
+  {
+    "word": "Table",
+    "pos": "Noun",
+    "meaning_hindi": "मेज़",
+    "meaning_english": "A piece of furniture with a flat top and one or more legs.",
+    "example_sentence": "Put your books on the table.",
+    "difficulty_level": "Beginner"
+  },
+  {
+    "word": "Carpet",
+    "pos": "Noun",
+    "meaning_hindi": "कालीन",
+    "meaning_english": "A floor covering made from thick woven fabric.",
+    "example_sentence": "We bought a new carpet for the living room.",
+    "difficulty_level": "Intermediate"
+  },
+  {
+    "word": "Rug",
+    "pos": "Noun",
+    "meaning_hindi": "गलीचा",
+    "meaning_english": "A floor covering of thick woven material or animal skin.",
+    "example_sentence": "The dog was sleeping on the rug.",
+    "difficulty_level": "Intermediate"
+  },
+  {
+    "word": "Curtain",
+    "pos": "Noun",
+    "meaning_hindi": "पर्दा",
+    "meaning_english": "A piece of material suspended at the top to form a screen, typically at a window.",
+    "example_sentence": "Draw the curtain to block the sunlight.",
+    "difficulty_level": "Intermediate"
+  },
+  {
+    "word": "Television",
+    "pos": "Noun",
+    "meaning_hindi": "टेलीविज़न / टीवी",
+    "meaning_english": "A device with a screen for receiving television signals.",
+    "example_sentence": "They are watching a movie on the television.",
+    "difficulty_level": "Beginner"
+  },
+  {
+    "word": "Remote",
+    "pos": "Noun",
+    "meaning_hindi": "रिमोट",
+    "meaning_english": "A device used to control a machine from a distance.",
+    "example_sentence": "Where is the TV remote?",
+    "difficulty_level": "Beginner"
+  },
+  {
+    "word": "Clock",
+    "pos": "Noun",
+    "meaning_hindi": "घड़ी",
+    "meaning_english": "A mechanical or electrical device for measuring time.",
+    "example_sentence": "The clock on the wall shows 10 PM.",
+    "difficulty_level": "Beginner"
+  },
+  {
+    "word": "Lamp",
+    "pos": "Noun",
+    "meaning_hindi": "दीपक / लैंप",
+    "meaning_english": "A device for giving light.",
+    "example_sentence": "Turn on the reading lamp.",
+    "difficulty_level": "Beginner"
+  },
+  {
+    "word": "Bulb",
+    "pos": "Noun",
+    "meaning_hindi": "बल्ब",
+    "meaning_english": "The glass part that fits into an electric lamp to give light.",
+    "example_sentence": "The room is dark because the bulb is fused.",
+    "difficulty_level": "Beginner"
+  },
+  {
+    "word": "Fan",
+    "pos": "Noun",
+    "meaning_hindi": "पंखा",
+    "meaning_english": "An apparatus with rotating blades that creates a current of air for cooling.",
+    "example_sentence": "Please turn on the ceiling fan.",
+    "difficulty_level": "Beginner"
+  },
+  {
+    "word": "Air conditioner",
+    "pos": "Noun",
+    "meaning_hindi": "एसी / एयर कंडीशनर",
+    "meaning_english": "A system for controlling the humidity, ventilation, and temperature in a building.",
+    "example_sentence": "The air conditioner keeps the room cool in summer.",
+    "difficulty_level": "Intermediate"
+  },
+  {
+    "word": "Heater",
+    "pos": "Noun",
+    "meaning_hindi": "हीटर",
+    "meaning_english": "A device for warming the air or water.",
+    "example_sentence": "We need a heater in the winter.",
+    "difficulty_level": "Intermediate"
+  },
+  {
+    "word": "Iron",
+    "pos": "Noun",
+    "meaning_hindi": "इस्त्री",
+    "meaning_english": "An appliance used for smoothing clothes.",
+    "example_sentence": "Use an iron to remove the wrinkles from your shirt.",
+    "difficulty_level": "Beginner"
+  },
+  {
+    "word": "Ironing board",
+    "pos": "Noun",
+    "meaning_hindi": "इस्त्री करने का बोर्ड",
+    "meaning_english": "A narrow, flat board covered with cloth and having folding legs, used for ironing clothes.",
+    "example_sentence": "Set up the ironing board in the bedroom.",
+    "difficulty_level": "Intermediate"
+  },
+  {
+    "word": "Washing machine",
+    "pos": "Noun",
+    "meaning_hindi": "वाशिंग मशीन",
+    "meaning_english": "A machine for washing clothes.",
+    "example_sentence": "Put the dirty clothes in the washing machine.",
+    "difficulty_level": "Beginner"
+  },
+  {
+    "word": "Needle",
+    "pos": "Noun",
+    "meaning_hindi": "सुई",
+    "meaning_english": "A small, thin piece of steel used for sewing.",
+    "example_sentence": "She threaded the needle carefully.",
+    "difficulty_level": "Beginner"
+  },
+  {
+    "word": "Thread",
+    "pos": "Noun",
+    "meaning_hindi": "धागा",
+    "meaning_english": "A long, thin strand of cotton or nylon used in sewing.",
+    "example_sentence": "Use a black thread to stitch this button.",
+    "difficulty_level": "Beginner"
+  },
+  {
+    "word": "Umbrella",
+    "pos": "Noun",
+    "meaning_hindi": "छाता",
+    "meaning_english": "A device consisting of a circular canopy of cloth on a folding metal frame, used for protection against rain or sun.",
+    "example_sentence": "Take an umbrella, it might rain today.",
+    "difficulty_level": "Beginner"
+  },
+  {
+    "word": "Keys",
+    "pos": "Noun",
+    "meaning_hindi": "चाबियाँ",
+    "meaning_english": "A small piece of shaped metal with incisions cut to fit the wards of a particular lock.",
+    "example_sentence": "I forgot my house keys on the table.",
+    "difficulty_level": "Beginner"
+  },
+  {
+    "word": "Wallet",
+    "pos": "Noun",
+    "meaning_hindi": "बटुआ (पुरुषों का)",
+    "meaning_english": "A pocket-sized flat folding case for holding money and plastic cards.",
+    "example_sentence": "He opened his wallet to pay the bill.",
+    "difficulty_level": "Beginner"
+  },
+  {
+    "word": "Purse",
+    "pos": "Noun",
+    "meaning_hindi": "पर्स / बटुआ",
+    "meaning_english": "A small bag used especially by a woman to carry everyday personal items.",
+    "example_sentence": "She kept her phone in her purse.",
+    "difficulty_level": "Beginner"
+  },
+  {
+    "word": "Backpack",
+    "pos": "Noun",
+    "meaning_hindi": "बैकपैक / पीठ का थैला",
+    "meaning_english": "A bag with shoulder straps that allow it to be carried on one's back.",
+    "example_sentence": "The student packed his books in the backpack.",
+    "difficulty_level": "Beginner"
+  },
+  {
+    "word": "Handbag",
+    "pos": "Noun",
+    "meaning_hindi": "हैंडबैग",
+    "meaning_english": "A small bag used by women to carry personal items.",
+    "example_sentence": "She bought a stylish leather handbag.",
+    "difficulty_level": "Intermediate"
+  },
+  {
+    "word": "Spectacles",
+    "pos": "Noun",
+    "meaning_hindi": "चश्मा",
+    "meaning_english": "A pair of glasses used to correct defective vision.",
+    "example_sentence": "He cannot read without his spectacles.",
+    "difficulty_level": "Intermediate"
+  },
+  {
+    "word": "Sunglasses",
+    "pos": "Noun",
+    "meaning_hindi": "धूप का चश्मा",
+    "meaning_english": "Glasses tinted to protect the eyes from sunlight or glare.",
+    "example_sentence": "She wore sunglasses to protect her eyes from the sun.",
+    "difficulty_level": "Beginner"
+  },
+  {
+    "word": "Watch",
+    "pos": "Noun",
+    "meaning_hindi": "घड़ी (कलाई की)",
+    "meaning_english": "A small timepiece worn typically on a strap on one's wrist.",
+    "example_sentence": "My watch shows the correct time.",
+    "difficulty_level": "Beginner"
+  },
+  {
+    "word": "Matchbox",
+    "pos": "Noun",
+    "meaning_hindi": "माचिस",
+    "meaning_english": "A small box containing matches.",
+    "example_sentence": "Use a matchbox to light the candle.",
+    "difficulty_level": "Beginner"
+  },
+  {
+    "word": "Candle",
+    "pos": "Noun",
+    "meaning_hindi": "मोमबत्ती",
+    "meaning_english": "A block of solid wax with a central wick, lit to produce light.",
+    "example_sentence": "They lit a candle when the electricity went out.",
+    "difficulty_level": "Beginner"
+  },
+  {
+    "word": "Lighter",
+    "pos": "Noun",
+    "meaning_hindi": "लाइटर",
+    "meaning_english": "A device that produces a small flame, typically used to light cigarettes.",
+    "example_sentence": "He used a lighter to start the campfire.",
+    "difficulty_level": "Intermediate"
+  },
+  {
+    "word": "Dustbin",
+    "pos": "Noun",
+    "meaning_hindi": "कूड़ेदान",
+    "meaning_english": "A container for household refuse, especially one kept outside.",
+    "example_sentence": "Throw the wrapper in the dustbin.",
+    "difficulty_level": "Beginner"
+  },
+  {
+    "word": "Trash bag",
+    "pos": "Noun",
+    "meaning_hindi": "कचरे की थैली",
+    "meaning_english": "A large bag made of plastic used to hold rubbish.",
+    "example_sentence": "Tie the trash bag and put it outside.",
+    "difficulty_level": "Intermediate"
+  },
+  {
+    "word": "Basket",
+    "pos": "Noun",
+    "meaning_hindi": "टोकरी",
+    "meaning_english": "A container used to hold or carry things.",
+    "example_sentence": "She picked apples and put them in a basket.",
+    "difficulty_level": "Beginner"
+  },
+  {
+    "word": "Plier",
+    "pos": "Noun",
+    "meaning_hindi": "प्लास / पक्कड़",
+    "meaning_english": "A hand tool used to hold objects firmly.",
+    "example_sentence": "Use a plier to cut the wire.",
+    "difficulty_level": "Intermediate"
+  },
+  {
+    "word": "Screwdriver",
+    "pos": "Noun",
+    "meaning_hindi": "पेचकस",
+    "meaning_english": "A tool with a flattened or cross-shaped tip that fits into the head of a screw to turn it.",
+    "example_sentence": "I need a screwdriver to open this machine.",
+    "difficulty_level": "Intermediate"
+  },
+  {
+    "word": "Hammer",
+    "pos": "Noun",
+    "meaning_hindi": "हथौड़ा",
+    "meaning_english": "A tool with a heavy head used for hitting nails.",
+    "example_sentence": "He used a hammer to drive the nail into the wall.",
+    "difficulty_level": "Beginner"
+  },
+  {
+    "word": "Nail",
+    "pos": "Noun",
+    "meaning_hindi": "कील",
+    "meaning_english": "A small metal spike with a broadened flat head, driven typically into wood.",
+    "example_sentence": "We need a nail to hang the picture.",
+    "difficulty_level": "Beginner"
+  },
+  {
+    "word": "Wrench",
+    "pos": "Noun",
+    "meaning_hindi": "पाना / रिंच",
+    "meaning_english": "A tool used for gripping and turning nuts or bolts.",
+    "example_sentence": "He tightened the bolt with a wrench.",
+    "difficulty_level": "Intermediate"
+  },
+  {
+    "word": "Flashlight",
+    "pos": "Noun",
+    "meaning_hindi": "टॉर्च",
+    "meaning_english": "A portable battery-powered electric lamp.",
+    "example_sentence": "I used a flashlight to see in the dark.",
+    "difficulty_level": "Beginner"
+  },
+  {
+    "word": "Battery",
+    "pos": "Noun",
+    "meaning_hindi": "बैटरी",
+    "meaning_english": "A container consisting of one or more cells, converting chemical energy into electricity.",
+    "example_sentence": "The remote control needs a new battery.",
+    "difficulty_level": "Beginner"
+  },
+  {
+    "word": "Charger",
+    "pos": "Noun",
+    "meaning_hindi": "चार्जर",
+    "meaning_english": "A device for charging a battery or battery-powered equipment.",
+    "example_sentence": "Plug in your phone charger.",
+    "difficulty_level": "Beginner"
+  },
+  {
+    "word": "Earphones",
+    "pos": "Noun",
+    "meaning_hindi": "इयरफ़ोन",
+    "meaning_english": "A device worn on the ears for listening to audio.",
+    "example_sentence": "She plugged in her earphones to listen to music.",
+    "difficulty_level": "Beginner"
+  },
+  {
+    "word": "Thermos",
+    "pos": "Noun",
+    "meaning_hindi": "थर्मस",
+    "meaning_english": "A container that keeps a drink or other fluid hot or cold by means of a double wall enclosing a vacuum.",
+    "example_sentence": "He carried hot tea in a thermos.",
+    "difficulty_level": "Intermediate"
+  },
+  {
+    "word": "Perfume",
+    "pos": "Noun",
+    "meaning_hindi": "इत्र / परफ्यूम",
+    "meaning_english": "A fragrant liquid typically made from essential oils, extracted from flowers and spices.",
+    "example_sentence": "She sprayed some perfume before leaving the house.",
+    "difficulty_level": "Beginner"
+  },
+  {
+    "word": "Deodorant",
+    "pos": "Noun",
+    "meaning_hindi": "दुर्गंधनाशक (डिओडोरेंट)",
+    "meaning_english": "A substance applied to the body to prevent or mask body odor.",
+    "example_sentence": "He uses a deodorant every day after his shower.",
+    "difficulty_level": "Intermediate"
+  },
+  {
+    "word": "Scissors",
+    "pos": "Noun",
+    "meaning_hindi": "कैंची",
+    "meaning_english": "An instrument used for cutting cloth, paper, and other thin material.",
+    "example_sentence": "Use scissors to cut the paper.",
+    "difficulty_level": "Beginner"
+  },
+  {
+    "word": "Stove",
+    "pos": "Noun",
+    "meaning_hindi": "चूल्हा",
+    "meaning_english": "An apparatus for cooking or heating that operates by burning fuel or using electricity.",
+    "example_sentence": "Put the pan on the stove.",
+    "difficulty_level": "Beginner"
+  },
+  {
+    "word": "Doormat",
+    "pos": "Noun",
+    "meaning_hindi": "पायदान",
+    "meaning_english": "A mat placed in a doorway, on which people can wipe their shoes on entering.",
+    "example_sentence": "Please wipe your feet on the doormat.",
+    "difficulty_level": "Beginner"
+  },
+  {
+    "word": "Vase",
+    "pos": "Noun",
+    "meaning_hindi": "फूलदान",
+    "meaning_english": "A decorative container without handles, typically made of glass or china, used as an ornament or for displaying cut flowers.",
+    "example_sentence": "She put the fresh roses in a vase.",
+    "difficulty_level": "Intermediate"
+  },
+  {
+    "word": "Bookshelf",
+    "pos": "Noun",
+    "meaning_hindi": "किताबों की अलमारी",
+    "meaning_english": "A shelf on which books can be stored.",
+    "example_sentence": "He arranged his novels on the bookshelf.",
+    "difficulty_level": "Beginner"
+  }
+]
