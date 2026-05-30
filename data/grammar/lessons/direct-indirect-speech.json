@@ -1,0 +1,29 @@
+{
+  "title": "Direct & Indirect Speech (प्रत्यक्ष और अप्रत्यक्ष कथन)",
+  "slug": "direct-indirect-speech",
+  "part": 14,
+  "definition_en": "Direct speech quotes the exact words. Indirect speech reports what was said without exact quotes.",
+  "definition_hi": "Direct में वक्ता के शब्दों को ज्यों का त्यों रखा जाता है। Indirect में उन शब्दों को अपने तरीके से कहा जाता है।",
+  "categories": [
+    {
+      "name": "Direct Speech",
+      "intro": "Exact words",
+      "examples": [
+        {
+          "en": "He said, 'I am going.'",
+          "hi": "उसने कहा, 'मैं जा रहा हूँ।'"
+        }
+      ]
+    },
+    {
+      "name": "Indirect Speech",
+      "intro": "Reported words",
+      "examples": [
+        {
+          "en": "He said that he was going.",
+          "hi": "उसने कहा कि वह जा रहा था।"
+        }
+      ]
+    }
+  ]
+}

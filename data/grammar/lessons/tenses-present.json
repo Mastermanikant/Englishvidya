@@ -1,0 +1,37 @@
+{
+  "title": "Present Tense (वर्तमान काल)",
+  "slug": "tenses-present",
+  "part": 9,
+  "definition_en": "The present tense is used to describe an action that is happening right now or happens regularly.",
+  "definition_hi": "वर्तमान काल उस कार्य को दर्शाता है जो अभी हो रहा है या नियमित रूप से होता है।",
+  "categories": [
+    {
+      "name": "Simple Present",
+      "intro": "Habits and facts",
+      "examples": [
+        {
+          "en": "I play cricket.",
+          "hi": "मैं क्रिकेट खेलता हूँ।"
+        },
+        {
+          "en": "The sun rises in the east.",
+          "hi": "सूरज पूर्व से उगता है।"
+        }
+      ]
+    },
+    {
+      "name": "Present Continuous",
+      "intro": "Action happening right now",
+      "examples": [
+        {
+          "en": "I am eating.",
+          "hi": "मैं खा रहा हूँ।"
+        },
+        {
+          "en": "They are playing.",
+          "hi": "वे खेल रहे हैं।"
+        }
+      ]
+    }
+  ]
+}

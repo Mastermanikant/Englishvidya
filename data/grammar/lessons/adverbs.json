@@ -1,0 +1,37 @@
+{
+  "title": "Adverbs (क्रिया विशेषण)",
+  "slug": "adverbs",
+  "part": 5,
+  "definition_en": "An adverb is a word that modifies a verb, an adjective, or another adverb.",
+  "definition_hi": "क्रिया विशेषण वह शब्द है जो किसी क्रिया, विशेषण या अन्य क्रिया विशेषण की विशेषता बताता है।",
+  "categories": [
+    {
+      "name": "Adverbs of Manner",
+      "intro": "How an action is done",
+      "examples": [
+        {
+          "en": "He runs quickly.",
+          "hi": "वह तेज़ी से दौड़ता है।"
+        },
+        {
+          "en": "She sings beautifully.",
+          "hi": "वह बहुत सुरीला गाती है।"
+        }
+      ]
+    },
+    {
+      "name": "Adverbs of Time",
+      "intro": "When an action is done",
+      "examples": [
+        {
+          "en": "I will go tomorrow.",
+          "hi": "मैं कल जाऊँगा।"
+        },
+        {
+          "en": "He came late.",
+          "hi": "वह देर से आया।"
+        }
+      ]
+    }
+  ]
+}
