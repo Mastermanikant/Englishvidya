@@ -1,4 +1,0 @@
-# Cloudflare Pages — SPA redirect rule
-# Since routing is hash-based (#/), this is not strictly required,
-# but it ensures direct URL loads always return index.html
-/*    /index.html   200
