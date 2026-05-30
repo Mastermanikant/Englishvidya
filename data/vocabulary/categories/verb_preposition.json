@@ -1,25 +1,29 @@
-﻿[{
-    "word":  "like",
-    "hindi_meaning":  "à¤ªà¤¸à¤‚à¤¦ à¤•à¤°à¤¨à¤¾ / à¤•à¥€ à¤¤à¤°à¤¹",
-    "pronunciation_help":  "à¤²à¤¾à¤‡à¤• (Like)",
-    "word_type":  "Verb / Preposition",
-    "simple_explanation":  "To enjoy something; or similar to.",
-    "daily_life_use":  "Expressing preference.",
-    "spoken_use":  "I like pizza.",
-    "natural_native_use":  "Do you like it?",
-    "emotional_tone":  "Positive",
-    "common_collocations":  [
-                                "would like",
-                                "looks like",
-                                "like this"
-                            ],
-    "examples":  [
-                     "I like reading books.",
-                     "She looks like her mother."
-                 ],
-    "common_mistakes":  "Saying \u0027I am liking it\u0027 instead of \u0027I like it\u0027 for general facts.",
-    "hindi_confusion_correction":  "Hindi \u0027pasand\u0027 is like.",
-    "formal_informal_note":  "Standard vocabulary.",
-    "image_url":  "https://commons.wikimedia.org/wiki/Special:FilePath/Like_thumbs_up.svg",
-    "category":  "Verb / Preposition"
-}]
+[
+  {
+    "word": "like",
+    "hindi_meaning": "पसंद करना / की तरह",
+    "pronunciation_help": "लाइक (Like)",
+    "word_type": "Verb / Preposition",
+    "simple_explanation": "To enjoy something; or similar to.",
+    "daily_life_use": "Expressing preference.",
+    "spoken_use": "I like pizza.",
+    "natural_native_use": "Do you like it?",
+    "emotional_tone": "Positive",
+    "common_collocations": [
+      "would like",
+      "looks like",
+      "like this"
+    ],
+    "examples": [
+      "I like reading books.",
+      "She looks like her mother."
+    ],
+    "common_mistakes": "Saying 'I am liking it' instead of 'I like it' for general facts.",
+    "hindi_confusion_correction": "Hindi 'pasand' is like.",
+    "formal_informal_note": "Standard vocabulary.",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Like_thumbs_up.svg",
+    "category": "Verb / Preposition",
+    "meaning_hi": "???? ???? / ?? ???",
+    "pronunciation": "???? (Like)"
+  }
+]

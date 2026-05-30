@@ -1,122 +1,126 @@
-﻿[
-    {
-        "word":  "You\u0027re Muted",
-        "meaning":  "A phrase used to tell someone that their microphone is turned off during a call.",
-        "example":  "We can see your lips moving, but you\u0027re muted; please turn on your microphone.",
-        "category":  "Meetings \u0026 Video Calls"
-    },
-    {
-        "word":  "Screen Share",
-        "meaning":  "To show the contents of your computer screen to other participants in a virtual meeting.",
-        "example":  "Let me share my screen so you can see the marketing graphics we prepared.",
-        "category":  "Meetings \u0026 Video Calls"
-    },
-    {
-        "word":  "Camera Shy",
-        "meaning":  "Hesitant or unwilling to turn on your webcam during a video call.",
-        "example":  "Most of the team was camera shy today, so it was mostly an audio call.",
-        "category":  "Meetings \u0026 Video Calls"
-    },
-    {
-        "word":  "Breakout Room",
-        "meaning":  "A smaller, separate virtual room created during a larger online meeting for small group discussions.",
-        "example":  "The host split us into breakout rooms to brainstorm ideas in smaller groups.",
-        "category":  "Meetings \u0026 Video Calls"
-    },
-    {
-        "word":  "Audio Lag",
-        "meaning":  "A delay in sound transmission during a call, usually caused by a poor internet connection.",
-        "example":  "There is a significant audio lag, making it hard to have a smooth conversation.",
-        "category":  "Meetings \u0026 Video Calls"
-    },
-    {
-        "word":  "Drop Off",
-        "meaning":  "To leave a virtual meeting or call before it has finished.",
-        "example":  "I need to drop off this call five minutes early to attend another meeting.",
-        "category":  "Meetings \u0026 Video Calls"
-    },
-    {
-        "word":  "Hop On",
-        "meaning":  "To quickly join a virtual meeting or call.",
-        "example":  "Can you hop on a quick call so we can resolve this design issue together?",
-        "category":  "Meetings \u0026 Video Calls"
-    },
-    {
-        "word":  "Dial In",
-        "meaning":  "To join a virtual meeting using a telephone instead of a computer internet connection.",
-        "example":  "If your Wi-Fi is weak, you can dial in using the phone number in the invitation.",
-        "category":  "Meetings \u0026 Video Calls"
-    },
-    {
-        "word":  "Hard Stop",
-        "meaning":  "A fixed time when a meeting must end or a participant must leave due to another commitment.",
-        "example":  "I have a hard stop at 3:00 PM, so we must finish our discussion by then.",
-        "category":  "Meetings \u0026 Video Calls"
-    },
-    {
-        "word":  "Background Noise",
-        "meaning":  "Distracting sounds in a person\u0027s physical environment during a call.",
-        "example":  "Please mute yourself if you have background noise like traffic or construction.",
-        "category":  "Meetings \u0026 Video Calls"
-    },
-    {
-        "word":  "Echo",
-        "meaning":  "A repetition of sound during a call caused by audio feedback from speakers.",
-        "example":  "I hear an echo when you speak; please try using headphones.",
-        "category":  "Meetings \u0026 Video Calls"
-    },
-    {
-        "word":  "Meeting Agenda",
-        "meaning":  "A list of topics and items to be discussed during a meeting.",
-        "example":  "I will send out the meeting agenda so everyone can prepare their updates.",
-        "category":  "Meetings \u0026 Video Calls"
-    },
-    {
-        "word":  "Icebreaker",
-        "meaning":  "A short, light activity at the start of a meeting to help participants feel comfortable.",
-        "example":  "We started our virtual meeting with a fun icebreaker about our favorite foods.",
-        "category":  "Meetings \u0026 Video Calls"
-    },
-    {
-        "word":  "Face Time",
-        "meaning":  "Time spent interacting with colleagues directly, either in person or via video call.",
-        "example":  "Even though we work remotely, getting some face time on video calls helps build trust.",
-        "category":  "Meetings \u0026 Video Calls"
-    },
-    {
-        "word":  "Recap",
-        "meaning":  "A brief summary of the main points and decisions discussed in a meeting.",
-        "example":  "I will send a quick recap of today\u0027s call along with the next steps.",
-        "category":  "Meetings \u0026 Video Calls"
-    },
-    {
-        "word":  "Double-Book",
-        "meaning":  "To schedule two different meetings or events at the same time.",
-        "example":  "I apologize, I am double-booked at 10 AM, so I must reschedule our chat.",
-        "category":  "Meetings \u0026 Video Calls"
-    },
-    {
-        "word":  "Kickoff Meeting",
-        "meaning":  "The first meeting with a project team to align on goals and start the project.",
-        "example":  "We will hold a kickoff meeting on Monday to introduce the new client project.",
-        "category":  "Meetings \u0026 Video Calls"
-    },
-    {
-        "word":  "Postmortem",
-        "meaning":  "A meeting held after a project is finished to analyze what went well and what went wrong.",
-        "example":  "During the project postmortem, we discussed how to avoid timeline delays in the future.",
-        "category":  "Meetings \u0026 Video Calls"
-    },
-    {
-        "word":  "Status Check",
-        "meaning":  "A quick update during a meeting to see how a specific task is progressing.",
-        "example":  "Let\u0027s do a quick status check on the website launch before we move to marketing.",
-        "category":  "Meetings \u0026 Video Calls"
-    },
-    {
-        "word":  "Host",
-        "meaning":  "The person who organizes, starts, and manages a virtual meeting.",
-        "example":  "As the host of the meeting, please record the session for those who couldn\u0027t attend.",
-        "category":  "Meetings \u0026 Video Calls"
-    }
+[
+  {
+    "word": "You're Muted",
+    "meaning": "A phrase used to tell someone that their microphone is turned off during a call.",
+    "example": "We can see your lips moving, but you're muted; please turn on your microphone.",
+    "category": "Meetings & Video Calls"
+  },
+  {
+    "word": "Screen Share",
+    "meaning": "To show the contents of your computer screen to other participants in a virtual meeting.",
+    "example": "Let me share my screen so you can see the marketing graphics we prepared.",
+    "category": "Meetings & Video Calls"
+  },
+  {
+    "word": "Camera Shy",
+    "meaning": "Hesitant or unwilling to turn on your webcam during a video call.",
+    "example": "Most of the team was camera shy today, so it was mostly an audio call.",
+    "category": "Meetings & Video Calls"
+  },
+  {
+    "word": "Breakout Room",
+    "meaning": "A smaller, separate virtual room created during a larger online meeting for small group discussions.",
+    "example": "The host split us into breakout rooms to brainstorm ideas in smaller groups.",
+    "category": "Meetings & Video Calls"
+  },
+  {
+    "word": "Audio Lag",
+    "meaning": "A delay in sound transmission during a call, usually caused by a poor internet connection.",
+    "example": "There is a significant audio lag, making it hard to have a smooth conversation.",
+    "category": "Meetings & Video Calls"
+  },
+  {
+    "word": "Drop Off",
+    "meaning": "To leave a virtual meeting or call before it has finished.",
+    "example": "I need to drop off this call five minutes early to attend another meeting.",
+    "category": "Meetings & Video Calls",
+    "meaning_hi": "?????? (??????? ?? ?????) ?? ???? ? ????",
+    "pronunciation": "????? ??"
+  },
+  {
+    "word": "Hop On",
+    "meaning": "To quickly join a virtual meeting or call.",
+    "example": "Can you hop on a quick call so we can resolve this design issue together?",
+    "category": "Meetings & Video Calls"
+  },
+  {
+    "word": "Dial In",
+    "meaning": "To join a virtual meeting using a telephone instead of a computer internet connection.",
+    "example": "If your Wi-Fi is weak, you can dial in using the phone number in the invitation.",
+    "category": "Meetings & Video Calls"
+  },
+  {
+    "word": "Hard Stop",
+    "meaning": "A fixed time when a meeting must end or a participant must leave due to another commitment.",
+    "example": "I have a hard stop at 3:00 PM, so we must finish our discussion by then.",
+    "category": "Meetings & Video Calls"
+  },
+  {
+    "word": "Background Noise",
+    "meaning": "Distracting sounds in a person's physical environment during a call.",
+    "example": "Please mute yourself if you have background noise like traffic or construction.",
+    "category": "Meetings & Video Calls"
+  },
+  {
+    "word": "Echo",
+    "meaning": "A repetition of sound during a call caused by audio feedback from speakers.",
+    "example": "I hear an echo when you speak; please try using headphones.",
+    "category": "Meetings & Video Calls"
+  },
+  {
+    "word": "Meeting Agenda",
+    "meaning": "A list of topics and items to be discussed during a meeting.",
+    "example": "I will send out the meeting agenda so everyone can prepare their updates.",
+    "category": "Meetings & Video Calls"
+  },
+  {
+    "word": "Icebreaker",
+    "meaning": "A short, light activity at the start of a meeting to help participants feel comfortable.",
+    "example": "We started our virtual meeting with a fun icebreaker about our favorite foods.",
+    "category": "Meetings & Video Calls"
+  },
+  {
+    "word": "Face Time",
+    "meaning": "Time spent interacting with colleagues directly, either in person or via video call.",
+    "example": "Even though we work remotely, getting some face time on video calls helps build trust.",
+    "category": "Meetings & Video Calls"
+  },
+  {
+    "word": "Recap",
+    "meaning": "A brief summary of the main points and decisions discussed in a meeting.",
+    "example": "I will send a quick recap of today's call along with the next steps.",
+    "category": "Meetings & Video Calls"
+  },
+  {
+    "word": "Double-Book",
+    "meaning": "To schedule two different meetings or events at the same time.",
+    "example": "I apologize, I am double-booked at 10 AM, so I must reschedule our chat.",
+    "category": "Meetings & Video Calls"
+  },
+  {
+    "word": "Kickoff Meeting",
+    "meaning": "The first meeting with a project team to align on goals and start the project.",
+    "example": "We will hold a kickoff meeting on Monday to introduce the new client project.",
+    "category": "Meetings & Video Calls"
+  },
+  {
+    "word": "Postmortem",
+    "meaning": "A meeting held after a project is finished to analyze what went well and what went wrong.",
+    "example": "During the project postmortem, we discussed how to avoid timeline delays in the future.",
+    "category": "Meetings & Video Calls"
+  },
+  {
+    "word": "Status Check",
+    "meaning": "A quick update during a meeting to see how a specific task is progressing.",
+    "example": "Let's do a quick status check on the website launch before we move to marketing.",
+    "category": "Meetings & Video Calls"
+  },
+  {
+    "word": "Host",
+    "meaning": "The person who organizes, starts, and manages a virtual meeting.",
+    "example": "As the host of the meeting, please record the session for those who couldn't attend.",
+    "category": "Meetings & Video Calls",
+    "meaning_hi": "??????",
+    "pronunciation": "/ho?st/"
+  }
 ]

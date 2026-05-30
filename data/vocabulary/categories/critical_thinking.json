@@ -1,1 +1,226 @@
-﻿[{"word":"analyze","meaning":"To examine something methodically and in detail for purposes of explanation.","example":"Students are required to analyze the primary sources before drawing conclusions.","category":"Critical Thinking"},{"word":"confront","meaning":"To face up to and deal with a problem or difficult situation.","example":"Good scholars confront contradictory evidence rather than ignoring it.","category":"Critical Thinking"},{"word":"differentiate","meaning":"To recognize or ascertain what makes someone or something different.","example":"The ability to differentiate between correlation and causation is crucial in research.","category":"Critical Thinking"},{"word":"discern","meaning":"To perceive or recognize something with difficulty but clearly.","example":"A skilled reader can discern the author\u0027s implicit bias in the text.","category":"Critical Thinking"},{"word":"distinguish","meaning":"To recognize or point out a difference.","example":"It is important to distinguish between primary and secondary sources.","category":"Critical Thinking"},{"word":"interpret","meaning":"To explain the meaning of information, words, or actions.","example":"The student interpreted the ambiguous data in a novel way.","category":"Critical Thinking"},{"word":"nuanced","meaning":"Characterized by subtle shades of meaning or expression.","example":"A nuanced argument acknowledges complexity rather than oversimplifying the issue.","category":"Critical Thinking"},{"word":"question","meaning":"To raise doubts about or to examine critically.","example":"Critical thinkers question assumptions rather than accepting them at face value.","category":"Critical Thinking"},{"word":"viewpoint","meaning":"A particular attitude or way of considering a matter; a point of view.","example":"The essay must present and evaluate multiple viewpoints on the topic.","category":"Critical Thinking"},{"word":"challenge","meaning":"To dispute the truth or validity of an idea or belief.","example":"The student challenged the conventional interpretation of the poem.","category":"Critical Thinking"},{"word":"critical","meaning":"Expressing or involving an analysis of the merits and faults of something.","example":"Critical evaluation of sources is a fundamental academic skill.","category":"Critical Thinking"},{"word":"critical thinking","meaning":"The objective analysis and evaluation of an issue in order to form a judgment.","example":"Critical thinking requires questioning assumptions, not just accepting facts at face value.","category":"Critical Thinking"},{"word":"analytical thinking","meaning":"The ability to systematically break down complex problems into smaller parts to understand them better.","example":"Her analytical thinking helped her identify the root cause of the system failure.","category":"Critical Thinking"},{"word":"logical fallacy","meaning":"An error in reasoning that renders an argument invalid or misleading.","example":"Attacking the speaker\u0027s character instead of their argument is a logical fallacy called ad hominem.","category":"Critical Thinking"},{"word":"assumption","meaning":"Something taken for granted or accepted as true without proof.","example":"His argument rested on the faulty assumption that everyone had equal opportunities.","category":"Critical Thinking"},{"word":"convergent thinking","meaning":"A type of thinking that focuses on finding a single, correct solution to a well-defined problem.","example":"Standardized tests typically measure convergent thinking.","category":"Critical Thinking"},{"word":"divergent thinking","meaning":"A thought process that explores many possible solutions to an open-ended problem.","example":"Brainstorming encourages divergent thinking to generate creative ideas.","category":"Critical Thinking"},{"word":"lateral thinking","meaning":"Approaching problems from unexpected angles, bypassing conventional step-by-step logic.","example":"The creative solution required lateral thinking rather than standard methods.","category":"Critical Thinking"},{"word":"empathy","meaning":"The ability to understand and share the feelings of another person.","example":"Empathy allowed her to see the argument from her opponent\u0027s perspective.","category":"Critical Thinking"},{"word":"perspective-taking","meaning":"The act of mentally adopting the viewpoint of another person to better understand their thoughts or feelings.","example":"Perspective-taking is essential for resolving conflicts fairly.","category":"Critical Thinking"},{"word":"objectivity","meaning":"The quality of being uninfluenced by personal feelings or opinions in considering facts.","example":"Maintaining objectivity during an investigation is critical for accurate conclusions.","category":"Critical Thinking"},{"word":"subjectivity","meaning":"The quality of being based on or influenced by personal feelings, tastes, or opinions.","example":"Art criticism is inherently subjective, shaped by the viewer\u0027s own experiences.","category":"Critical Thinking"},{"word":"epistemic humility","meaning":"An awareness of the limits of one\u0027s knowledge and a willingness to revise beliefs when faced with new evidence.","example":"Good scientists practice epistemic humility, acknowledging what they don\u0027t yet know.","category":"Critical Thinking"},{"word":"skepticism","meaning":"A questioning attitude toward claims that are taken for granted, requiring evidence before acceptance.","example":"Healthy skepticism prevents people from accepting misinformation uncritically.","category":"Critical Thinking"},{"word":"open-mindedness","meaning":"The willingness to consider new ideas, arguments, or perspectives without immediate judgment.","example":"Open-mindedness allowed her to change her opinion when presented with strong evidence.","category":"Critical Thinking"},{"word":"intellectual curiosity","meaning":"A strong desire to learn, explore, and understand new ideas and information.","example":"His intellectual curiosity drove him to read widely beyond his area of expertise.","category":"Critical Thinking"},{"word":"judgment","meaning":"The ability to make considered decisions or come to sensible conclusions.","example":"Good judgment requires both knowledge and emotional awareness.","category":"Critical Thinking"},{"word":"evaluation","meaning":"The process of assessing the quality, value, or significance of something based on criteria.","example":"Critical evaluation of sources is essential for academic writing.","category":"Critical Thinking"},{"word":"synthesis","meaning":"The process of combining different elements, ideas, or influences to form a coherent whole.","example":"Her thesis synthesized research from psychology, philosophy, and neuroscience.","category":"Critical Thinking"},{"word":"analysis","meaning":"The detailed examination of the elements or structure of something.","example":"A thorough analysis of the data revealed several unexpected trends.","category":"Critical Thinking"},{"word":"critical evaluation","meaning":"Careful assessment of claims or arguments by examining evidence, logic, and potential biases.","example":"Critical evaluation of the study revealed methodological flaws that undermined its conclusions.","category":"Critical Thinking"},{"word":"nuanced","meaning":"Characterized by subtle distinctions or shades of meaning; not black-and-white","example":"A nuanced analysis of the policy revealed both its intended benefits and its unintended consequences.","category":"Critical Thinking"},{"word":"heuristic","meaning":"A practical problem-solving approach that is not guaranteed to be optimal but is sufficient for reaching an immediate goal","example":"The doctor used a heuristic â€” \u0027if it looks like a duck\u0027 â€” to make a rapid diagnosis during the emergency.","category":"Critical Thinking"},{"word":"synthesis","meaning":"The combination of different ideas, influences, or objects into a new whole; in Hegelian dialectic, the resolution of thesis and antithesis","example":"The composer\u0027s work was a brilliant synthesis of Western classical tradition and West African rhythmic structures.","category":"Critical Thinking"},{"word":"perspicacious","meaning":"Having a ready insight into and understanding of things; shrewdly perceptive","example":"Her perspicacious analysis identified the flaw in the argument that everyone else had overlooked.","category":"Critical Thinking"},{"word":"acumen","meaning":"The ability to make good judgments and quick decisions; sharpness of mind and keen practical insight","example":"His financial acumen allowed him to identify undervalued companies before the broader market recognized their potential.","category":"Critical Thinking"},{"word":"sagacity","meaning":"The quality of being sagacious; acute mental discernment and soundness of judgment","example":"The elder\u0027s sagacity â€” earned through decades of experience â€” guided the community through its most difficult crisis.","category":"Critical Thinking"}]
+[
+  {
+    "word": "analyze",
+    "meaning": "To examine something methodically and in detail for purposes of explanation.",
+    "example": "Students are required to analyze the primary sources before drawing conclusions.",
+    "category": "Critical Thinking"
+  },
+  {
+    "word": "confront",
+    "meaning": "To face up to and deal with a problem or difficult situation.",
+    "example": "Good scholars confront contradictory evidence rather than ignoring it.",
+    "category": "Critical Thinking"
+  },
+  {
+    "word": "differentiate",
+    "meaning": "To recognize or ascertain what makes someone or something different.",
+    "example": "The ability to differentiate between correlation and causation is crucial in research.",
+    "category": "Critical Thinking"
+  },
+  {
+    "word": "discern",
+    "meaning": "To perceive or recognize something with difficulty but clearly.",
+    "example": "A skilled reader can discern the author's implicit bias in the text.",
+    "category": "Critical Thinking"
+  },
+  {
+    "word": "distinguish",
+    "meaning": "To recognize or point out a difference.",
+    "example": "It is important to distinguish between primary and secondary sources.",
+    "category": "Critical Thinking"
+  },
+  {
+    "word": "interpret",
+    "meaning": "To explain the meaning of information, words, or actions.",
+    "example": "The student interpreted the ambiguous data in a novel way.",
+    "category": "Critical Thinking"
+  },
+  {
+    "word": "nuanced",
+    "meaning": "Characterized by subtle shades of meaning or expression.",
+    "example": "A nuanced argument acknowledges complexity rather than oversimplifying the issue.",
+    "category": "Critical Thinking"
+  },
+  {
+    "word": "question",
+    "meaning": "To raise doubts about or to examine critically.",
+    "example": "Critical thinkers question assumptions rather than accepting them at face value.",
+    "category": "Critical Thinking"
+  },
+  {
+    "word": "viewpoint",
+    "meaning": "A particular attitude or way of considering a matter; a point of view.",
+    "example": "The essay must present and evaluate multiple viewpoints on the topic.",
+    "category": "Critical Thinking"
+  },
+  {
+    "word": "challenge",
+    "meaning": "To dispute the truth or validity of an idea or belief.",
+    "example": "The student challenged the conventional interpretation of the poem.",
+    "category": "Critical Thinking"
+  },
+  {
+    "word": "critical",
+    "meaning": "Expressing or involving an analysis of the merits and faults of something.",
+    "example": "Critical evaluation of sources is a fundamental academic skill.",
+    "category": "Critical Thinking"
+  },
+  {
+    "word": "critical thinking",
+    "meaning": "The objective analysis and evaluation of an issue in order to form a judgment.",
+    "example": "Critical thinking requires questioning assumptions, not just accepting facts at face value.",
+    "category": "Critical Thinking"
+  },
+  {
+    "word": "analytical thinking",
+    "meaning": "The ability to systematically break down complex problems into smaller parts to understand them better.",
+    "example": "Her analytical thinking helped her identify the root cause of the system failure.",
+    "category": "Critical Thinking"
+  },
+  {
+    "word": "logical fallacy",
+    "meaning": "An error in reasoning that renders an argument invalid or misleading.",
+    "example": "Attacking the speaker's character instead of their argument is a logical fallacy called ad hominem.",
+    "category": "Critical Thinking"
+  },
+  {
+    "word": "assumption",
+    "meaning": "Something taken for granted or accepted as true without proof.",
+    "example": "His argument rested on the faulty assumption that everyone had equal opportunities.",
+    "category": "Critical Thinking"
+  },
+  {
+    "word": "convergent thinking",
+    "meaning": "A type of thinking that focuses on finding a single, correct solution to a well-defined problem.",
+    "example": "Standardized tests typically measure convergent thinking.",
+    "category": "Critical Thinking"
+  },
+  {
+    "word": "divergent thinking",
+    "meaning": "A thought process that explores many possible solutions to an open-ended problem.",
+    "example": "Brainstorming encourages divergent thinking to generate creative ideas.",
+    "category": "Critical Thinking"
+  },
+  {
+    "word": "lateral thinking",
+    "meaning": "Approaching problems from unexpected angles, bypassing conventional step-by-step logic.",
+    "example": "The creative solution required lateral thinking rather than standard methods.",
+    "category": "Critical Thinking"
+  },
+  {
+    "word": "empathy",
+    "meaning": "The ability to understand and share the feelings of another person.",
+    "example": "Empathy allowed her to see the argument from her opponent's perspective.",
+    "category": "Critical Thinking"
+  },
+  {
+    "word": "perspective-taking",
+    "meaning": "The act of mentally adopting the viewpoint of another person to better understand their thoughts or feelings.",
+    "example": "Perspective-taking is essential for resolving conflicts fairly.",
+    "category": "Critical Thinking"
+  },
+  {
+    "word": "objectivity",
+    "meaning": "The quality of being uninfluenced by personal feelings or opinions in considering facts.",
+    "example": "Maintaining objectivity during an investigation is critical for accurate conclusions.",
+    "category": "Critical Thinking"
+  },
+  {
+    "word": "subjectivity",
+    "meaning": "The quality of being based on or influenced by personal feelings, tastes, or opinions.",
+    "example": "Art criticism is inherently subjective, shaped by the viewer's own experiences.",
+    "category": "Critical Thinking"
+  },
+  {
+    "word": "epistemic humility",
+    "meaning": "An awareness of the limits of one's knowledge and a willingness to revise beliefs when faced with new evidence.",
+    "example": "Good scientists practice epistemic humility, acknowledging what they don't yet know.",
+    "category": "Critical Thinking"
+  },
+  {
+    "word": "skepticism",
+    "meaning": "A questioning attitude toward claims that are taken for granted, requiring evidence before acceptance.",
+    "example": "Healthy skepticism prevents people from accepting misinformation uncritically.",
+    "category": "Critical Thinking"
+  },
+  {
+    "word": "open-mindedness",
+    "meaning": "The willingness to consider new ideas, arguments, or perspectives without immediate judgment.",
+    "example": "Open-mindedness allowed her to change her opinion when presented with strong evidence.",
+    "category": "Critical Thinking"
+  },
+  {
+    "word": "intellectual curiosity",
+    "meaning": "A strong desire to learn, explore, and understand new ideas and information.",
+    "example": "His intellectual curiosity drove him to read widely beyond his area of expertise.",
+    "category": "Critical Thinking"
+  },
+  {
+    "word": "judgment",
+    "meaning": "The ability to make considered decisions or come to sensible conclusions.",
+    "example": "Good judgment requires both knowledge and emotional awareness.",
+    "category": "Critical Thinking"
+  },
+  {
+    "word": "evaluation",
+    "meaning": "The process of assessing the quality, value, or significance of something based on criteria.",
+    "example": "Critical evaluation of sources is essential for academic writing.",
+    "category": "Critical Thinking",
+    "meaning_hi": "?????????"
+  },
+  {
+    "word": "synthesis",
+    "meaning": "The process of combining different elements, ideas, or influences to form a coherent whole.",
+    "example": "Her thesis synthesized research from psychology, philosophy, and neuroscience.",
+    "category": "Critical Thinking"
+  },
+  {
+    "word": "analysis",
+    "meaning": "The detailed examination of the elements or structure of something.",
+    "example": "A thorough analysis of the data revealed several unexpected trends.",
+    "category": "Critical Thinking",
+    "meaning_hi": "????????"
+  },
+  {
+    "word": "critical evaluation",
+    "meaning": "Careful assessment of claims or arguments by examining evidence, logic, and potential biases.",
+    "example": "Critical evaluation of the study revealed methodological flaws that undermined its conclusions.",
+    "category": "Critical Thinking"
+  },
+  {
+    "word": "nuanced",
+    "meaning": "Characterized by subtle distinctions or shades of meaning; not black-and-white",
+    "example": "A nuanced analysis of the policy revealed both its intended benefits and its unintended consequences.",
+    "category": "Critical Thinking"
+  },
+  {
+    "word": "heuristic",
+    "meaning": "A practical problem-solving approach that is not guaranteed to be optimal but is sufficient for reaching an immediate goal",
+    "example": "The doctor used a heuristic â€” 'if it looks like a duck' â€” to make a rapid diagnosis during the emergency.",
+    "category": "Critical Thinking"
+  },
+  {
+    "word": "synthesis",
+    "meaning": "The combination of different ideas, influences, or objects into a new whole; in Hegelian dialectic, the resolution of thesis and antithesis",
+    "example": "The composer's work was a brilliant synthesis of Western classical tradition and West African rhythmic structures.",
+    "category": "Critical Thinking"
+  },
+  {
+    "word": "perspicacious",
+    "meaning": "Having a ready insight into and understanding of things; shrewdly perceptive",
+    "example": "Her perspicacious analysis identified the flaw in the argument that everyone else had overlooked.",
+    "category": "Critical Thinking"
+  },
+  {
+    "word": "acumen",
+    "meaning": "The ability to make good judgments and quick decisions; sharpness of mind and keen practical insight",
+    "example": "His financial acumen allowed him to identify undervalued companies before the broader market recognized their potential.",
+    "category": "Critical Thinking"
+  },
+  {
+    "word": "sagacity",
+    "meaning": "The quality of being sagacious; acute mental discernment and soundness of judgment",
+    "example": "The elder's sagacity â€” earned through decades of experience â€” guided the community through its most difficult crisis.",
+    "category": "Critical Thinking"
+  }
+]

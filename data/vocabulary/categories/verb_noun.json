@@ -1,327 +1,354 @@
-﻿[
-    {
-        "word":  "stop",
-        "hindi_meaning":  "à¤°à¥à¤•à¤¨à¤¾ / à¤°à¥‹à¤•à¤¨à¤¾",
-        "pronunciation_help":  "à¤¸à¥à¤Ÿà¥‰à¤ª (Stop)",
-        "word_type":  "Verb / Noun",
-        "simple_explanation":  "To cease moving or doing something.",
-        "daily_life_use":  "Commanding someone to halt.",
-        "spoken_use":  "Stop the car.",
-        "natural_native_use":  "Please stop talking.",
-        "emotional_tone":  "Urgent",
-        "common_collocations":  [
-                                    "bus stop",
-                                    "stop it",
-                                    "full stop"
-                                ],
-        "examples":  [
-                         "The bus stop is near.",
-                         "You must stop smoking."
-                     ],
-        "common_mistakes":  "Confusing \u0027stop to do\u0027 (pause to do) vs \u0027stop doing\u0027 (quit).",
-        "hindi_confusion_correction":  "Hindi \u0027rukna\u0027 or \u0027rokna\u0027 both translate to stop.",
-        "formal_informal_note":  "Standard vocabulary.",
-        "image_url":  "https://commons.wikimedia.org/wiki/Special:FilePath/Stop_sign.svg",
-        "category":  "Verb / Noun"
-    },
-    {
-        "word":  "watch",
-        "hindi_meaning":  "à¤¦à¥‡à¤–à¤¨à¤¾ (à¤šà¤²à¤¤à¥€ à¤¹à¥à¤ˆ à¤šà¥€à¤œà¤¼)",
-        "pronunciation_help":  "à¤µà¥‰à¤š (Watch)",
-        "word_type":  "Verb / Noun",
-        "simple_explanation":  "To look at something moving, or a clock on a wrist.",
-        "daily_life_use":  "Viewing TV, movies, or sports.",
-        "spoken_use":  "I watch TV every night.",
-        "natural_native_use":  "Watch out!",
-        "emotional_tone":  "Neutral",
-        "common_collocations":  [
-                                    "watch TV",
-                                    "watch out",
-                                    "wrist watch"
-                                ],
-        "examples":  [
-                         "We are watching a movie.",
-                         "He bought a new watch."
-                     ],
-        "common_mistakes":  "Saying \u0027I am seeing a movie on TV\u0027. Use \u0027watching\u0027.",
-        "hindi_confusion_correction":  "Watch is for movement and focus.",
-        "formal_informal_note":  "Standard vocabulary.",
-        "image_url":  "https://commons.wikimedia.org/wiki/Special:FilePath/Watch.jpg",
-        "category":  "Verb / Noun"
-    },
-    {
-        "word":  "sleep",
-        "hindi_meaning":  "à¤¸à¥‹à¤¨à¤¾",
-        "pronunciation_help":  "à¤¸à¥à¤²à¥€à¤ª (Sleep)",
-        "word_type":  "Verb / Noun",
-        "simple_explanation":  "To rest with eyes closed in an unconscious state.",
-        "daily_life_use":  "Talking about rest at night.",
-        "spoken_use":  "I sleep on the bed.",
-        "natural_native_use":  "Go to sleep.",
-        "emotional_tone":  "Neutral",
-        "common_collocations":  [
-                                    "go to sleep",
-                                    "deep sleep",
-                                    "sleep well"
-                                ],
-        "examples":  [
-                         "I need to sleep now.",
-                         "Did you sleep well?"
-                     ],
-        "common_mistakes":  "Saying \u0027I was sleep\u0027 instead of \u0027I was sleeping\u0027.",
-        "hindi_confusion_correction":  "Hindi \u0027sona\u0027 translates well to sleep.",
-        "formal_informal_note":  "Standard vocabulary.",
-        "image_url":  "https://commons.wikimedia.org/wiki/Special:FilePath/Sleep.jpg",
-        "category":  "Verb / Noun"
-    },
-    {
-        "word":  "walk",
-        "hindi_meaning":  "à¤šà¤²à¤¨à¤¾ (à¤ªà¥ˆà¤¦à¤²)",
-        "pronunciation_help":  "à¤µà¥‰à¤• (Walk)",
-        "word_type":  "Verb / Noun",
-        "simple_explanation":  "To move on foot at a regular pace.",
-        "daily_life_use":  "Exercise or moving around.",
-        "spoken_use":  "I walk to school.",
-        "natural_native_use":  "Let\u0027s go for a walk.",
-        "emotional_tone":  "Neutral",
-        "common_collocations":  [
-                                    "take a walk",
-                                    "walk away",
-                                    "go for a walk"
-                                ],
-        "examples":  [
-                         "She is walking in the park.",
-                         "The shop is a short walk from here."
-                     ],
-        "common_mistakes":  "Mispronouncing the \u0027l\u0027 (it is silent: wawk).",
-        "hindi_confusion_correction":  "Hindi \u0027chalna\u0027 translates to walk, but also means \u0027to go\u0027.",
-        "formal_informal_note":  "Standard vocabulary.",
-        "image_url":  "https://commons.wikimedia.org/wiki/Special:FilePath/Walk.jpg",
-        "category":  "Verb / Noun"
-    },
-    {
-        "word":  "need",
-        "hindi_meaning":  "à¤œà¤¼à¤°à¥‚à¤°à¤¤ à¤¹à¥‹à¤¨à¤¾",
-        "pronunciation_help":  "à¤¨à¥€à¤¡ (Need)",
-        "word_type":  "Verb / Noun",
-        "simple_explanation":  "Require something because it is essential.",
-        "daily_life_use":  "Expressing necessities.",
-        "spoken_use":  "I need help.",
-        "natural_native_use":  "I need to go.",
-        "emotional_tone":  "Urgent / Neutral",
-        "common_collocations":  [
-                                    "need to",
-                                    "in need",
-                                    "no need"
-                                ],
-        "examples":  [
-                         "I need some money.",
-                         "You don\u0027t need to worry."
-                     ],
-        "common_mistakes":  "Confusing \u0027want\u0027 (desire) and \u0027need\u0027 (essential).",
-        "hindi_confusion_correction":  "Hindi \u0027zaroorat\u0027 is need.",
-        "formal_informal_note":  "Standard vocabulary.",
-        "image_url":  "https://commons.wikimedia.org/wiki/Special:FilePath/Need.jpg",
-        "category":  "Verb / Noun"
-    },
-    {
-        "word":  "love",
-        "hindi_meaning":  "à¤ªà¥à¤¯à¤¾à¤° à¤•à¤°à¤¨à¤¾ / à¤¬à¤¹à¥à¤¤ à¤ªà¤¸à¤‚à¤¦ à¤•à¤°à¤¨à¤¾",
-        "pronunciation_help":  "à¤²à¤µ (Love)",
-        "word_type":  "Verb / Noun",
-        "simple_explanation":  "To have a deep affection or strong liking.",
-        "daily_life_use":  "Expressing strong feelings.",
-        "spoken_use":  "I love my family.",
-        "natural_native_use":  "I love this song.",
-        "emotional_tone":  "Positive / Affectionate",
-        "common_collocations":  [
-                                    "fall in love",
-                                    "love you",
-                                    "would love to"
-                                ],
-        "examples":  [
-                         "I love chocolate.",
-                         "She loves playing tennis."
-                     ],
-        "common_mistakes":  "Using love too casually in formal settings.",
-        "hindi_confusion_correction":  "Hindi \u0027pyaar\u0027 is love.",
-        "formal_informal_note":  "Standard vocabulary.",
-        "image_url":  "https://commons.wikimedia.org/wiki/Special:FilePath/Heart_icon.svg",
-        "category":  "Verb / Noun"
-    },
-    {
-        "word":  "help",
-        "hindi_meaning":  "à¤®à¤¦à¤¦ à¤•à¤°à¤¨à¤¾",
-        "pronunciation_help":  "à¤¹à¥‡à¤²à¥à¤ª (Help)",
-        "word_type":  "Verb / Noun",
-        "simple_explanation":  "To make it easier for someone to do something.",
-        "daily_life_use":  "Assisting someone.",
-        "spoken_use":  "Can you help me?",
-        "natural_native_use":  "I need help.",
-        "emotional_tone":  "Helpful",
-        "common_collocations":  [
-                                    "help me",
-                                    "need help",
-                                    "ask for help"
-                                ],
-        "examples":  [
-                         "Please help me carry this bag.",
-                         "Thank you for your help."
-                     ],
-        "common_mistakes":  "Saying \u0027help to me\u0027 (just say \u0027help me\u0027).",
-        "hindi_confusion_correction":  "Hindi \u0027madad\u0027 is help.",
-        "formal_informal_note":  "Standard vocabulary.",
-        "image_url":  "https://commons.wikimedia.org/wiki/Special:FilePath/Help.jpg",
-        "category":  "Verb / Noun"
-    },
-    {
-        "word":  "work",
-        "hindi_meaning":  "à¤•à¤¾à¤® à¤•à¤°à¤¨à¤¾",
-        "pronunciation_help":  "à¤µà¤°à¥à¤• (Work)",
-        "word_type":  "Verb / Noun",
-        "simple_explanation":  "Activity involving mental or physical effort.",
-        "daily_life_use":  "Talking about jobs or tasks.",
-        "spoken_use":  "I work in an office.",
-        "natural_native_use":  "I have a lot of work.",
-        "emotional_tone":  "Neutral",
-        "common_collocations":  [
-                                    "at work",
-                                    "hard work",
-                                    "work out"
-                                ],
-        "examples":  [
-                         "He is at work.",
-                         "This machine does not work."
-                     ],
-        "common_mistakes":  "Saying \u0027I have a work\u0027 (work is uncountable, say \u0027I have some work\u0027).",
-        "hindi_confusion_correction":  "Hindi \u0027kaam\u0027 is work.",
-        "formal_informal_note":  "Standard vocabulary.",
-        "image_url":  "https://commons.wikimedia.org/wiki/Special:FilePath/Work.jpg",
-        "category":  "Verb / Noun"
-    },
-    {
-        "word":  "play",
-        "hindi_meaning":  "à¤–à¥‡à¤²à¤¨à¤¾",
-        "pronunciation_help":  "à¤ªà¥à¤²à¥‡ (Play)",
-        "word_type":  "Verb / Noun",
-        "simple_explanation":  "Engage in activity for enjoyment.",
-        "daily_life_use":  "Sports or games.",
-        "spoken_use":  "I play football.",
-        "natural_native_use":  "Let\u0027s play a game.",
-        "emotional_tone":  "Fun / Active",
-        "common_collocations":  [
-                                    "play games",
-                                    "play music",
-                                    "play with"
-                                ],
-        "examples":  [
-                         "Children love to play.",
-                         "Can you play the guitar?"
-                     ],
-        "common_mistakes":  "Saying \u0027play a movie\u0027 is fine, but don\u0027t say \u0027play TV\u0027 (turn on TV).",
-        "hindi_confusion_correction":  "Hindi \u0027khelna\u0027 is play.",
-        "formal_informal_note":  "Standard vocabulary.",
-        "image_url":  "https://commons.wikimedia.org/wiki/Special:FilePath/Play.jpg",
-        "category":  "Verb / Noun"
-    },
-    {
-        "word":  "pay",
-        "hindi_meaning":  "à¤ªà¥ˆà¤¸à¥‡ à¤¦à¥‡à¤¨à¤¾ / à¤šà¥à¤•à¤¾à¤¨à¤¾",
-        "pronunciation_help":  "à¤ªà¥‡ (Pay)",
-        "word_type":  "Verb / Noun",
-        "simple_explanation":  "Give money for goods or work done.",
-        "daily_life_use":  "Transactions.",
-        "spoken_use":  "I will pay the bill.",
-        "natural_native_use":  "How much did you pay?",
-        "emotional_tone":  "Neutral",
-        "common_collocations":  [
-                                    "pay bill",
-                                    "pay attention",
-                                    "pay for"
-                                ],
-        "examples":  [
-                         "Can I pay by card?",
-                         "You must pay attention in class."
-                     ],
-        "common_mistakes":  "Saying \u0027pay the money\u0027 instead of just \u0027pay\u0027 or \u0027pay the bill\u0027.",
-        "hindi_confusion_correction":  "Hindi \u0027paise dena\u0027 or \u0027chukaana\u0027 is pay.",
-        "formal_informal_note":  "Standard vocabulary.",
-        "image_url":  "https://commons.wikimedia.org/wiki/Special:FilePath/Pay.jpg",
-        "category":  "Verb / Noun"
-    },
-    {
-        "word":  "cost",
-        "hindi_meaning":  "à¤•à¥€à¤®à¤¤ à¤¹à¥‹à¤¨à¤¾ / à¤®à¥‚à¤²à¥à¤¯",
-        "pronunciation_help":  "à¤•à¥‰à¤¸à¥à¤Ÿ (Cost)",
-        "word_type":  "Verb / Noun",
-        "simple_explanation":  "Require the payment of a specified sum.",
-        "daily_life_use":  "Asking about price.",
-        "spoken_use":  "How much does it cost?",
-        "natural_native_use":  "It costs 100 rupees.",
-        "emotional_tone":  "Neutral",
-        "common_collocations":  [
-                                    "how much does it cost",
-                                    "low cost",
-                                    "extra cost"
-                                ],
-        "examples":  [
-                         "This phone costs too much.",
-                         "The cost of living is high."
-                     ],
-        "common_mistakes":  "Saying \u0027costed\u0027 for past tense (it is usually \u0027cost\u0027).",
-        "hindi_confusion_correction":  "Hindi \u0027keemat\u0027 is cost.",
-        "formal_informal_note":  "Standard vocabulary.",
-        "image_url":  "https://commons.wikimedia.org/wiki/Special:FilePath/Cost.jpg",
-        "category":  "Verb / Noun"
-    },
-    {
-        "word":  "Support",
-        "hindi_meaning":  "à¤¸à¤®à¤°à¥à¤¥à¤¨ à¤•à¤°à¤¨à¤¾, à¤¸à¤¾à¤¥ à¤¦à¥‡à¤¨à¤¾",
-        "pronunciation_help":  "à¤¸à¤ªà¥‹à¤°à¥à¤Ÿ (suh-port)",
-        "word_type":  "Verb / Noun",
-        "simple_explanation":  "To give help or assistance to someone.",
-        "daily_life_use":  "Used for emotional backing, financial help, or cheering a team.",
-        "spoken_use":  "Thanks for your support.",
-        "natural_native_use":  "My family always supports me.",
-        "emotional_tone":  "Positive, encouraging",
-        "common_collocations":  [
-                                    "full support",
-                                    "emotional support",
-                                    "support system"
-                                ],
-        "examples":  [
-                         "Which team do you support?",
-                         "I will support your decision."
-                     ],
-        "common_mistakes":  "Confusing it with \u0027help\u0027. \u0027Support\u0027 is ongoing backing; \u0027help\u0027 is usually a one-time task.",
-        "hindi_confusion_correction":  "Means both \u0027à¤¸à¤¾à¤¥ à¤¦à¥‡à¤¨à¤¾\u0027 (verb) and \u0027à¤¸à¤®à¤°à¥à¤¥à¤¨\u0027 (noun).",
-        "formal_informal_note":  "Very common.",
-        "image_url":  "https://upload.wikimedia.org/wikipedia/commons/4/47/Helping_hand.jpg",
-        "category":  "Verb / Noun"
-    },
-    {
-        "word":  "Smile",
-        "hindi_meaning":  "à¤®à¥à¤¸à¥à¤•à¥à¤°à¤¾à¤¨à¤¾, à¤®à¥à¤¸à¥à¤•à¤¾à¤¨",
-        "pronunciation_help":  "à¤¸à¥à¤®à¤¾à¤‡à¤² (smyl)",
-        "word_type":  "Verb / Noun",
-        "simple_explanation":  "Forming one\u0027s features into a pleased, kind, or amused expression.",
-        "daily_life_use":  "Used to describe looking happy.",
-        "spoken_use":  "She has a beautiful smile.",
-        "natural_native_use":  "He smiled at me.",
-        "emotional_tone":  "Positive, happy",
-        "common_collocations":  [
-                                    "big smile",
-                                    "fake smile",
-                                    "smile at"
-                                ],
-        "examples":  [
-                         "Always start your day with a smile.",
-                         "They were smiling and laughing."
-                     ],
-        "common_mistakes":  "Saying \u0027He smiled to me\u0027 instead of \u0027He smiled AT me\u0027.",
-        "hindi_confusion_correction":  "Smile means à¤®à¥à¤¸à¥à¤•à¥à¤°à¤¾à¤¨à¤¾. Laugh means à¤¹à¤à¤¸à¤¨à¤¾ (with sound). Don\u0027t mix them.",
-        "formal_informal_note":  "Universal word.",
-        "image_url":  "https://upload.wikimedia.org/wikipedia/commons/e/e0/Smiling_girl.jpg",
-        "category":  "Verb / Noun"
-    }
+[
+  {
+    "word": "stop",
+    "hindi_meaning": "रुकना / रोकना",
+    "pronunciation_help": "स्टॉप (Stop)",
+    "word_type": "Verb / Noun",
+    "simple_explanation": "To cease moving or doing something.",
+    "daily_life_use": "Commanding someone to halt.",
+    "spoken_use": "Stop the car.",
+    "natural_native_use": "Please stop talking.",
+    "emotional_tone": "Urgent",
+    "common_collocations": [
+      "bus stop",
+      "stop it",
+      "full stop"
+    ],
+    "examples": [
+      "The bus stop is near.",
+      "You must stop smoking."
+    ],
+    "common_mistakes": "Confusing 'stop to do' (pause to do) vs 'stop doing' (quit).",
+    "hindi_confusion_correction": "Hindi 'rukna' or 'rokna' both translate to stop.",
+    "formal_informal_note": "Standard vocabulary.",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Stop_sign.svg",
+    "category": "Verb / Noun",
+    "meaning_hi": "????? / ?????",
+    "pronunciation": "????? (Stop)"
+  },
+  {
+    "word": "watch",
+    "hindi_meaning": "देखना (चलती हुई चीज़)",
+    "pronunciation_help": "वॉच (Watch)",
+    "word_type": "Verb / Noun",
+    "simple_explanation": "To look at something moving, or a clock on a wrist.",
+    "daily_life_use": "Viewing TV, movies, or sports.",
+    "spoken_use": "I watch TV every night.",
+    "natural_native_use": "Watch out!",
+    "emotional_tone": "Neutral",
+    "common_collocations": [
+      "watch TV",
+      "watch out",
+      "wrist watch"
+    ],
+    "examples": [
+      "We are watching a movie.",
+      "He bought a new watch."
+    ],
+    "common_mistakes": "Saying 'I am seeing a movie on TV'. Use 'watching'.",
+    "hindi_confusion_correction": "Watch is for movement and focus.",
+    "formal_informal_note": "Standard vocabulary.",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Watch.jpg",
+    "category": "Verb / Noun",
+    "meaning_hi": "",
+    "pronunciation": "??? (Watch)"
+  },
+  {
+    "word": "sleep",
+    "hindi_meaning": "सोना",
+    "pronunciation_help": "स्लीप (Sleep)",
+    "word_type": "Verb / Noun",
+    "simple_explanation": "To rest with eyes closed in an unconscious state.",
+    "daily_life_use": "Talking about rest at night.",
+    "spoken_use": "I sleep on the bed.",
+    "natural_native_use": "Go to sleep.",
+    "emotional_tone": "Neutral",
+    "common_collocations": [
+      "go to sleep",
+      "deep sleep",
+      "sleep well"
+    ],
+    "examples": [
+      "I need to sleep now.",
+      "Did you sleep well?"
+    ],
+    "common_mistakes": "Saying 'I was sleep' instead of 'I was sleeping'.",
+    "hindi_confusion_correction": "Hindi 'sona' translates well to sleep.",
+    "formal_informal_note": "Standard vocabulary.",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sleep.jpg",
+    "category": "Verb / Noun",
+    "meaning_hi": "",
+    "pronunciation": "/sli?p/"
+  },
+  {
+    "word": "walk",
+    "hindi_meaning": "चलना (पैदल)",
+    "pronunciation_help": "वॉक (Walk)",
+    "word_type": "Verb / Noun",
+    "simple_explanation": "To move on foot at a regular pace.",
+    "daily_life_use": "Exercise or moving around.",
+    "spoken_use": "I walk to school.",
+    "natural_native_use": "Let's go for a walk.",
+    "emotional_tone": "Neutral",
+    "common_collocations": [
+      "take a walk",
+      "walk away",
+      "go for a walk"
+    ],
+    "examples": [
+      "She is walking in the park.",
+      "The shop is a short walk from here."
+    ],
+    "common_mistakes": "Mispronouncing the 'l' (it is silent: wawk).",
+    "hindi_confusion_correction": "Hindi 'chalna' translates to walk, but also means 'to go'.",
+    "formal_informal_note": "Standard vocabulary.",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Walk.jpg",
+    "category": "Verb / Noun",
+    "meaning_hi": "",
+    "pronunciation": "/w??k/"
+  },
+  {
+    "word": "need",
+    "hindi_meaning": "ज़रूरत होना",
+    "pronunciation_help": "नीड (Need)",
+    "word_type": "Verb / Noun",
+    "simple_explanation": "Require something because it is essential.",
+    "daily_life_use": "Expressing necessities.",
+    "spoken_use": "I need help.",
+    "natural_native_use": "I need to go.",
+    "emotional_tone": "Urgent / Neutral",
+    "common_collocations": [
+      "need to",
+      "in need",
+      "no need"
+    ],
+    "examples": [
+      "I need some money.",
+      "You don't need to worry."
+    ],
+    "common_mistakes": "Confusing 'want' (desire) and 'need' (essential).",
+    "hindi_confusion_correction": "Hindi 'zaroorat' is need.",
+    "formal_informal_note": "Standard vocabulary.",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Need.jpg",
+    "category": "Verb / Noun",
+    "meaning_hi": "",
+    "pronunciation": "??? (Need)"
+  },
+  {
+    "word": "love",
+    "hindi_meaning": "प्यार करना / बहुत पसंद करना",
+    "pronunciation_help": "लव (Love)",
+    "word_type": "Verb / Noun",
+    "simple_explanation": "To have a deep affection or strong liking.",
+    "daily_life_use": "Expressing strong feelings.",
+    "spoken_use": "I love my family.",
+    "natural_native_use": "I love this song.",
+    "emotional_tone": "Positive / Affectionate",
+    "common_collocations": [
+      "fall in love",
+      "love you",
+      "would love to"
+    ],
+    "examples": [
+      "I love chocolate.",
+      "She loves playing tennis."
+    ],
+    "common_mistakes": "Using love too casually in formal settings.",
+    "hindi_confusion_correction": "Hindi 'pyaar' is love.",
+    "formal_informal_note": "Standard vocabulary.",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Heart_icon.svg",
+    "category": "Verb / Noun",
+    "meaning_hi": "",
+    "pronunciation": "??"
+  },
+  {
+    "word": "help",
+    "hindi_meaning": "मदद करना",
+    "pronunciation_help": "हेल्प (Help)",
+    "word_type": "Verb / Noun",
+    "simple_explanation": "To make it easier for someone to do something.",
+    "daily_life_use": "Assisting someone.",
+    "spoken_use": "Can you help me?",
+    "natural_native_use": "I need help.",
+    "emotional_tone": "Helpful",
+    "common_collocations": [
+      "help me",
+      "need help",
+      "ask for help"
+    ],
+    "examples": [
+      "Please help me carry this bag.",
+      "Thank you for your help."
+    ],
+    "common_mistakes": "Saying 'help to me' (just say 'help me').",
+    "hindi_confusion_correction": "Hindi 'madad' is help.",
+    "formal_informal_note": "Standard vocabulary.",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Help.jpg",
+    "category": "Verb / Noun",
+    "meaning_hi": "??? ????",
+    "pronunciation": "????? (Help)"
+  },
+  {
+    "word": "work",
+    "hindi_meaning": "काम करना",
+    "pronunciation_help": "वर्क (Work)",
+    "word_type": "Verb / Noun",
+    "simple_explanation": "Activity involving mental or physical effort.",
+    "daily_life_use": "Talking about jobs or tasks.",
+    "spoken_use": "I work in an office.",
+    "natural_native_use": "I have a lot of work.",
+    "emotional_tone": "Neutral",
+    "common_collocations": [
+      "at work",
+      "hard work",
+      "work out"
+    ],
+    "examples": [
+      "He is at work.",
+      "This machine does not work."
+    ],
+    "common_mistakes": "Saying 'I have a work' (work is uncountable, say 'I have some work').",
+    "hindi_confusion_correction": "Hindi 'kaam' is work.",
+    "formal_informal_note": "Standard vocabulary.",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Work.jpg",
+    "category": "Verb / Noun",
+    "meaning_hi": "??? ????",
+    "pronunciation": "???? (Work)"
+  },
+  {
+    "word": "play",
+    "hindi_meaning": "खेलना",
+    "pronunciation_help": "प्ले (Play)",
+    "word_type": "Verb / Noun",
+    "simple_explanation": "Engage in activity for enjoyment.",
+    "daily_life_use": "Sports or games.",
+    "spoken_use": "I play football.",
+    "natural_native_use": "Let's play a game.",
+    "emotional_tone": "Fun / Active",
+    "common_collocations": [
+      "play games",
+      "play music",
+      "play with"
+    ],
+    "examples": [
+      "Children love to play.",
+      "Can you play the guitar?"
+    ],
+    "common_mistakes": "Saying 'play a movie' is fine, but don't say 'play TV' (turn on TV).",
+    "hindi_confusion_correction": "Hindi 'khelna' is play.",
+    "formal_informal_note": "Standard vocabulary.",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Play.jpg",
+    "category": "Verb / Noun",
+    "meaning_hi": "",
+    "pronunciation": "???? (Play)"
+  },
+  {
+    "word": "pay",
+    "hindi_meaning": "पैसे देना / चुकाना",
+    "pronunciation_help": "पे (Pay)",
+    "word_type": "Verb / Noun",
+    "simple_explanation": "Give money for goods or work done.",
+    "daily_life_use": "Transactions.",
+    "spoken_use": "I will pay the bill.",
+    "natural_native_use": "How much did you pay?",
+    "emotional_tone": "Neutral",
+    "common_collocations": [
+      "pay bill",
+      "pay attention",
+      "pay for"
+    ],
+    "examples": [
+      "Can I pay by card?",
+      "You must pay attention in class."
+    ],
+    "common_mistakes": "Saying 'pay the money' instead of just 'pay' or 'pay the bill'.",
+    "hindi_confusion_correction": "Hindi 'paise dena' or 'chukaana' is pay.",
+    "formal_informal_note": "Standard vocabulary.",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pay.jpg",
+    "category": "Verb / Noun",
+    "meaning_hi": "?????? ????",
+    "pronunciation": "?? (Pay)"
+  },
+  {
+    "word": "cost",
+    "hindi_meaning": "कीमत होना / मूल्य",
+    "pronunciation_help": "कॉस्ट (Cost)",
+    "word_type": "Verb / Noun",
+    "simple_explanation": "Require the payment of a specified sum.",
+    "daily_life_use": "Asking about price.",
+    "spoken_use": "How much does it cost?",
+    "natural_native_use": "It costs 100 rupees.",
+    "emotional_tone": "Neutral",
+    "common_collocations": [
+      "how much does it cost",
+      "low cost",
+      "extra cost"
+    ],
+    "examples": [
+      "This phone costs too much.",
+      "The cost of living is high."
+    ],
+    "common_mistakes": "Saying 'costed' for past tense (it is usually 'cost').",
+    "hindi_confusion_correction": "Hindi 'keemat' is cost.",
+    "formal_informal_note": "Standard vocabulary.",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cost.jpg",
+    "category": "Verb / Noun",
+    "meaning_hi": "कीमत होना / मूल्य",
+    "pronunciation": "????? (Cost)",
+    "pronunciation_hi": "�\"�0स्�x (Cost)"
+  },
+  {
+    "word": "Support",
+    "hindi_meaning": "समर्थन करना, साथ देना",
+    "pronunciation_help": "सपोर्ट (suh-port)",
+    "word_type": "Verb / Noun",
+    "simple_explanation": "To give help or assistance to someone.",
+    "daily_life_use": "Used for emotional backing, financial help, or cheering a team.",
+    "spoken_use": "Thanks for your support.",
+    "natural_native_use": "My family always supports me.",
+    "emotional_tone": "Positive, encouraging",
+    "common_collocations": [
+      "full support",
+      "emotional support",
+      "support system"
+    ],
+    "examples": [
+      "Which team do you support?",
+      "I will support your decision."
+    ],
+    "common_mistakes": "Confusing it with 'help'. 'Support' is ongoing backing; 'help' is usually a one-time task.",
+    "hindi_confusion_correction": "Means both 'साथ देना' (verb) and 'समर्थन' (noun).",
+    "formal_informal_note": "Very common.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Helping_hand.jpg",
+    "category": "Verb / Noun",
+    "meaning_hi": "?????? ????, ??? ????",
+    "pronunciation": "?????? (suh-port)"
+  },
+  {
+    "word": "Smile",
+    "hindi_meaning": "मुस्कुराना, मुस्कान",
+    "pronunciation_help": "स्माइल (smyl)",
+    "word_type": "Verb / Noun",
+    "simple_explanation": "Forming one's features into a pleased, kind, or amused expression.",
+    "daily_life_use": "Used to describe looking happy.",
+    "spoken_use": "She has a beautiful smile.",
+    "natural_native_use": "He smiled at me.",
+    "emotional_tone": "Positive, happy",
+    "common_collocations": [
+      "big smile",
+      "fake smile",
+      "smile at"
+    ],
+    "examples": [
+      "Always start your day with a smile.",
+      "They were smiling and laughing."
+    ],
+    "common_mistakes": "Saying 'He smiled to me' instead of 'He smiled AT me'.",
+    "hindi_confusion_correction": "Smile means मुस्कुराना. Laugh means हँसना (with sound). Don't mix them.",
+    "formal_informal_note": "Universal word.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Smiling_girl.jpg",
+    "category": "Verb / Noun",
+    "meaning_hi": "??????????, ???????",
+    "pronunciation": "?????? (smyl)"
+  }
 ]

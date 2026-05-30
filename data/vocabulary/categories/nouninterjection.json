@@ -1,25 +1,29 @@
-﻿[{
-    "word":  "thanks",
-    "hindi_meaning":  "à¤§à¤¨à¥à¤¯à¤µà¤¾à¤¦ / à¤¶à¥à¤•à¥à¤°à¤¿à¤¯à¤¾ (dhanyavaad / shukriya)",
-    "pronunciation_help":  "à¤¥à¥ˆà¤‚à¤•à¥à¤¸ (thanks)",
-    "word_type":  "Noun/Interjection",
-    "simple_explanation":  "Used to express gratitude to someone.",
-    "daily_life_use":  "Appreciating someone\u0027s help or receiving a gift.",
-    "spoken_use":  "Thanks for your help.",
-    "natural_native_use":  "Thanks a lot! / Cheers! (UK)",
-    "emotional_tone":  "Grateful",
-    "common_collocations":  [
-                                "thanks a lot",
-                                "many thanks",
-                                "say thanks"
-                            ],
-    "examples":  [
-                     "Thanks for coming.",
-                     "I just want to say thanks."
-                 ],
-    "common_mistakes":  "Saying \u0027thanks you\u0027 instead of \u0027thank you\u0027 or \u0027thanks\u0027.",
-    "hindi_confusion_correction":  "Thanks = à¤¶à¥à¤•à¥à¤°à¤¿à¤¯à¤¾ (casual), Thank you = à¤§à¤¨à¥à¤¯à¤µà¤¾à¤¦ (more formal).",
-    "formal_informal_note":  "Informal. \u0027Thank you\u0027 is more formal.",
-    "image_url":  "https://commons.wikimedia.org/wiki/Special:FilePath/Thank_you_icon.svg",
-    "category":  "Noun/Interjection"
-}]
+[
+  {
+    "word": "thanks",
+    "hindi_meaning": "धन्यवाद / शुक्रिया (dhanyavaad / shukriya)",
+    "pronunciation_help": "थैंक्स (thanks)",
+    "word_type": "Noun/Interjection",
+    "simple_explanation": "Used to express gratitude to someone.",
+    "daily_life_use": "Appreciating someone's help or receiving a gift.",
+    "spoken_use": "Thanks for your help.",
+    "natural_native_use": "Thanks a lot! / Cheers! (UK)",
+    "emotional_tone": "Grateful",
+    "common_collocations": [
+      "thanks a lot",
+      "many thanks",
+      "say thanks"
+    ],
+    "examples": [
+      "Thanks for coming.",
+      "I just want to say thanks."
+    ],
+    "common_mistakes": "Saying 'thanks you' instead of 'thank you' or 'thanks'.",
+    "hindi_confusion_correction": "Thanks = शुक्रिया (casual), Thank you = धन्यवाद (more formal).",
+    "formal_informal_note": "Informal. 'Thank you' is more formal.",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Thank_you_icon.svg",
+    "category": "Noun/Interjection",
+    "meaning_hi": "",
+    "pronunciation": "?????? (thanks)"
+  }
+]

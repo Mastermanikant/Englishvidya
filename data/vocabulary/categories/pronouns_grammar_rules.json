@@ -1,146 +1,155 @@
-﻿[
-    {
-        "word":  "WHOM",
-        "meaning":  "Textbook: Used as the objective pronoun of \u0027who\u0027. Spoken Native: Replaced by \u0027who\u0027 in almost all spoken contexts (e.g., \u0027Who did you call?\u0027 instead of \u0027Whom did you call?\u0027).",
-        "example":  "Who are you going to the movie with?",
-        "category":  "Pronouns \u0026 Grammar Rules"
-    },
-    {
-        "word":  "GOOD",
-        "meaning":  "Textbook: Adjective describing a noun. Spoken Native: Commonly used in spoken English as an adverb to describe how someone is doing or performing (e.g., \u0027I\u0027m doing good\u0027).",
-        "example":  "She plays the piano really good for her age.",
-        "category":  "Pronouns \u0026 Grammar Rules"
-    },
-    {
-        "word":  "FEWER",
-        "meaning":  "Textbook: Used only with countable nouns. Spoken Native: Replaced by \u0027less\u0027 in almost all casual and spoken contexts (e.g., \u0027less people\u0027 instead of \u0027fewer people\u0027).",
-        "example":  "There are less cars on the road today than yesterday.",
-        "category":  "Pronouns \u0026 Grammar Rules"
-    },
-    {
-        "word":  "IF I WERE",
-        "meaning":  "Textbook: The subjunctive mood for hypothetical statements. Spoken Native: Often replaced by \u0027If I was\u0027 in everyday spoken conversation.",
-        "example":  "If I was in your shoes, I would probably accept the job.",
-        "category":  "Pronouns \u0026 Grammar Rules"
-    },
-    {
-        "word":  "WHOSE",
-        "meaning":  "Textbook: Possessive form of \u0027who\u0027 for people. Spoken Native: Used in speech for inanimate objects to avoid the awkward \u0027of which\u0027 construction (e.g., \u0027the book whose cover is torn\u0027).",
-        "example":  "That is the company whose database was hacked.",
-        "category":  "Pronouns \u0026 Grammar Rules"
-    },
-    {
-        "word":  "COULD CARE LESS",
-        "meaning":  "Textbook: Criticized as logically meaning you care some. Spoken Native: Used by many native speakers to mean \u0027don\u0027t care at all\u0027 (synonymous with \u0027couldn\u0027t care less\u0027).",
-        "example":  "I could care less about what they think of my outfit.",
-        "category":  "Pronouns \u0026 Grammar Rules"
-    },
-    {
-        "word":  "GUYS",
-        "meaning":  "Textbook: Plural noun meaning males. Spoken Native: Used as a gender-neutral plural pronoun to address any group of two or more people.",
-        "example":  "What do you guys want to eat for dinner tonight?",
-        "category":  "Pronouns \u0026 Grammar Rules"
-    },
-    {
-        "word":  "THEY",
-        "meaning":  "Textbook: Third-person plural pronoun. Spoken Native: The standard, natural way to refer to a single person whose gender is unknown or irrelevant.",
-        "example":  "Someone left their keys on the table; I hope they come back for them.",
-        "category":  "Pronouns \u0026 Grammar Rules"
-    },
-    {
-        "word":  "ME",
-        "meaning":  "Textbook: Objective pronoun. Spoken Native: Frequently used as part of a compound subject in casual speech (e.g., \u0027Me and Sarah\u0027 instead of \u0027Sarah and I\u0027).",
-        "example":  "Me and my brother went fishing last weekend.",
-        "category":  "Pronouns \u0026 Grammar Rules"
-    },
-    {
-        "word":  "MYSELF",
-        "meaning":  "Textbook: Reflexive or intensive pronoun. Spoken Native: Often used incorrectly in place of \u0027me\u0027 or \u0027I\u0027 in professional emails to sound more formal (e.g., \u0027Please contact myself\u0027).",
-        "example":  "If you have any questions, you can email myself or Mark.",
-        "category":  "Pronouns \u0026 Grammar Rules"
-    },
-    {
-        "word":  "NONE",
-        "meaning":  "Textbook: Takes a singular verb. Spoken Native: Almost always takes a plural verb in casual speech and writing (e.g., \u0027None of them are here\u0027).",
-        "example":  "None of my friends are going to the concert.",
-        "category":  "Pronouns \u0026 Grammar Rules"
-    },
-    {
-        "word":  "NEITHER",
-        "meaning":  "Textbook: Used with singular verbs. Spoken Native: Frequently paired with a plural verb in spoken English when followed by \u0027of\u0027 and a plural noun.",
-        "example":  "Neither of those options are very appealing to me.",
-        "category":  "Pronouns \u0026 Grammar Rules"
-    },
-    {
-        "word":  "DIFFERENT THAN",
-        "meaning":  "Textbook: Recommends \u0027different from.\u0027 Spoken Native: \u0027Different than\u0027 is very common and natural in spoken English, particularly in American English when followed by a full clause.",
-        "example":  "The new job is different than I expected.",
-        "category":  "Pronouns \u0026 Grammar Rules"
-    },
-    {
-        "word":  "AS FAR AS",
-        "meaning":  "Textbook: Requires a verb to complete the clause (e.g., \u0027As far as I know\u0027). Spoken Native: In spoken English, often followed immediately by a noun phrase to introduce a topic (e.g., \u0027As far as the budget...\u0027).",
-        "example":  "As far as public transit, the city is doing a great job.",
-        "category":  "Pronouns \u0026 Grammar Rules"
-    },
-    {
-        "word":  "BECAUSE",
-        "meaning":  "Textbook: Subordinating conjunction introducing a clause. Spoken Native: Used colloquially followed immediately by a noun, adjective, or verb as a humorous shorthand explanation (e.g., \u0027because science\u0027).",
-        "example":  "I\u0027m staying in tonight because tired.",
-        "category":  "Pronouns \u0026 Grammar Rules"
-    },
-    {
-        "word":  "NEVER",
-        "meaning":  "Textbook: At no time in the past or future. Spoken Native: Often used in casual speech as an emphatic alternative to \u0027did not\u0027 for specific instances.",
-        "example":  "I never saw him at the party last night, did he show up?",
-        "category":  "Pronouns \u0026 Grammar Rules"
-    },
-    {
-        "word":  "EVERYONE",
-        "meaning":  "Textbook: Singular pronoun requiring singular verbs and pronouns. Spoken Native: Although paired with singular verbs, it is almost always referred to with plural pronouns (they/them/their) to maintain gender neutrality.",
-        "example":  "Everyone has their own way of doing things.",
-        "category":  "Pronouns \u0026 Grammar Rules"
-    },
-    {
-        "word":  "EACH",
-        "meaning":  "Textbook: Singular determiner. Spoken Native: Often paired with plural pronouns (they/them/their) in speech to avoid gender-biased language like \u0027his or her.\u0027",
-        "example":  "Each student must turn in their assignment by Monday.",
-        "category":  "Pronouns \u0026 Grammar Rules"
-    },
-    {
-        "word":  "OFTEN",
-        "meaning":  "Textbook: Frequently. Spoken Native: Traditionally pronounced with a silent \u0027t,\u0027 but pronouncing the \u0027t\u0027 is now extremely common and widely accepted.",
-        "example":  "We often visit the beach during the summer months.",
-        "category":  "Pronouns \u0026 Grammar Rules"
-    },
-    {
-        "word":  "QUICK",
-        "meaning":  "Textbook: Adjective describing something fast. Spoken Native: Frequently used as a flat adverb instead of \u0027quickly\u0027 in conversational phrases (e.g., \u0027come here quick\u0027).",
-        "example":  "I need to run to the store quick before it closes.",
-        "category":  "Pronouns \u0026 Grammar Rules"
-    },
-    {
-        "word":  "SLOW",
-        "meaning":  "Textbook: Adjective describing low speed. Spoken Native: Regularly used as a flat adverb in spoken English in phrases like \u0027drive slow\u0027 or \u0027take it slow.\u0027",
-        "example":  "You should drive slow on these icy roads.",
-        "category":  "Pronouns \u0026 Grammar Rules"
-    },
-    {
-        "word":  "BAD",
-        "meaning":  "Textbook: Adjective meaning not good. Spoken Native: Used as a flat adverb instead of \u0027badly\u0027 in informal settings, especially after verbs of desiring (e.g., \u0027need it bad\u0027).",
-        "example":  "I need a vacation so bad; I\u0027m completely burnt out.",
-        "category":  "Pronouns \u0026 Grammar Rules"
-    },
-    {
-        "word":  "Y\u0027ALL",
-        "meaning":  "Textbook: Non-standard dialectal contraction. Spoken Native: Used widely in the American South and informal contexts to fill the gap of a plural second-person pronoun (\u0027you all\u0027).",
-        "example":  "Are y\u0027all ready to order, or do you need a few more minutes?",
-        "category":  "Pronouns \u0026 Grammar Rules"
-    },
-    {
-        "word":  "BEEN",
-        "meaning":  "Textbook: Past participle of \u0027be.\u0027 Spoken Native: In African American Vernacular English (AAVE) and spoken slang, \u0027been\u0027 (stressed) is used to mean something started in the far past and is still true.",
-        "example":  "I been known about that movie; it\u0027s a classic.",
-        "category":  "Pronouns \u0026 Grammar Rules"
-    }
+[
+  {
+    "word": "WHOM",
+    "meaning": "Textbook: Used as the objective pronoun of 'who'. Spoken Native: Replaced by 'who' in almost all spoken contexts (e.g., 'Who did you call?' instead of 'Whom did you call?').",
+    "example": "Who are you going to the movie with?",
+    "category": "Pronouns & Grammar Rules"
+  },
+  {
+    "word": "GOOD",
+    "meaning": "Textbook: Adjective describing a noun. Spoken Native: Commonly used in spoken English as an adverb to describe how someone is doing or performing (e.g., 'I'm doing good').",
+    "example": "She plays the piano really good for her age.",
+    "category": "Pronouns & Grammar Rules",
+    "meaning_hi": "?????",
+    "pronunciation": "??? (Good)"
+  },
+  {
+    "word": "FEWER",
+    "meaning": "Textbook: Used only with countable nouns. Spoken Native: Replaced by 'less' in almost all casual and spoken contexts (e.g., 'less people' instead of 'fewer people').",
+    "example": "There are less cars on the road today than yesterday.",
+    "category": "Pronouns & Grammar Rules"
+  },
+  {
+    "word": "IF I WERE",
+    "meaning": "Textbook: The subjunctive mood for hypothetical statements. Spoken Native: Often replaced by 'If I was' in everyday spoken conversation.",
+    "example": "If I was in your shoes, I would probably accept the job.",
+    "category": "Pronouns & Grammar Rules"
+  },
+  {
+    "word": "WHOSE",
+    "meaning": "Textbook: Possessive form of 'who' for people. Spoken Native: Used in speech for inanimate objects to avoid the awkward 'of which' construction (e.g., 'the book whose cover is torn').",
+    "example": "That is the company whose database was hacked.",
+    "category": "Pronouns & Grammar Rules",
+    "meaning_hi": "?????"
+  },
+  {
+    "word": "COULD CARE LESS",
+    "meaning": "Textbook: Criticized as logically meaning you care some. Spoken Native: Used by many native speakers to mean 'don't care at all' (synonymous with 'couldn't care less').",
+    "example": "I could care less about what they think of my outfit.",
+    "category": "Pronouns & Grammar Rules"
+  },
+  {
+    "word": "GUYS",
+    "meaning": "Textbook: Plural noun meaning males. Spoken Native: Used as a gender-neutral plural pronoun to address any group of two or more people.",
+    "example": "What do you guys want to eat for dinner tonight?",
+    "category": "Pronouns & Grammar Rules"
+  },
+  {
+    "word": "THEY",
+    "meaning": "Textbook: Third-person plural pronoun. Spoken Native: The standard, natural way to refer to a single person whose gender is unknown or irrelevant.",
+    "example": "Someone left their keys on the table; I hope they come back for them.",
+    "category": "Pronouns & Grammar Rules"
+  },
+  {
+    "word": "ME",
+    "meaning": "Textbook: Objective pronoun. Spoken Native: Frequently used as part of a compound subject in casual speech (e.g., 'Me and Sarah' instead of 'Sarah and I').",
+    "example": "Me and my brother went fishing last weekend.",
+    "category": "Pronouns & Grammar Rules"
+  },
+  {
+    "word": "MYSELF",
+    "meaning": "Textbook: Reflexive or intensive pronoun. Spoken Native: Often used incorrectly in place of 'me' or 'I' in professional emails to sound more formal (e.g., 'Please contact myself').",
+    "example": "If you have any questions, you can email myself or Mark.",
+    "category": "Pronouns & Grammar Rules"
+  },
+  {
+    "word": "NONE",
+    "meaning": "Textbook: Takes a singular verb. Spoken Native: Almost always takes a plural verb in casual speech and writing (e.g., 'None of them are here').",
+    "example": "None of my friends are going to the concert.",
+    "category": "Pronouns & Grammar Rules"
+  },
+  {
+    "word": "NEITHER",
+    "meaning": "Textbook: Used with singular verbs. Spoken Native: Frequently paired with a plural verb in spoken English when followed by 'of' and a plural noun.",
+    "example": "Neither of those options are very appealing to me.",
+    "category": "Pronouns & Grammar Rules"
+  },
+  {
+    "word": "DIFFERENT THAN",
+    "meaning": "Textbook: Recommends 'different from.' Spoken Native: 'Different than' is very common and natural in spoken English, particularly in American English when followed by a full clause.",
+    "example": "The new job is different than I expected.",
+    "category": "Pronouns & Grammar Rules"
+  },
+  {
+    "word": "AS FAR AS",
+    "meaning": "Textbook: Requires a verb to complete the clause (e.g., 'As far as I know'). Spoken Native: In spoken English, often followed immediately by a noun phrase to introduce a topic (e.g., 'As far as the budget...').",
+    "example": "As far as public transit, the city is doing a great job.",
+    "category": "Pronouns & Grammar Rules"
+  },
+  {
+    "word": "BECAUSE",
+    "meaning": "Textbook: Subordinating conjunction introducing a clause. Spoken Native: Used colloquially followed immediately by a noun, adjective, or verb as a humorous shorthand explanation (e.g., 'because science').",
+    "example": "I'm staying in tonight because tired.",
+    "category": "Pronouns & Grammar Rules"
+  },
+  {
+    "word": "NEVER",
+    "meaning": "Textbook: At no time in the past or future. Spoken Native: Often used in casual speech as an emphatic alternative to 'did not' for specific instances.",
+    "example": "I never saw him at the party last night, did he show up?",
+    "category": "Pronouns & Grammar Rules",
+    "meaning_hi": "??? ????"
+  },
+  {
+    "word": "EVERYONE",
+    "meaning": "Textbook: Singular pronoun requiring singular verbs and pronouns. Spoken Native: Although paired with singular verbs, it is almost always referred to with plural pronouns (they/them/their) to maintain gender neutrality.",
+    "example": "Everyone has their own way of doing things.",
+    "category": "Pronouns & Grammar Rules"
+  },
+  {
+    "word": "EACH",
+    "meaning": "Textbook: Singular determiner. Spoken Native: Often paired with plural pronouns (they/them/their) in speech to avoid gender-biased language like 'his or her.'",
+    "example": "Each student must turn in their assignment by Monday.",
+    "category": "Pronouns & Grammar Rules"
+  },
+  {
+    "word": "OFTEN",
+    "meaning": "Textbook: Frequently. Spoken Native: Traditionally pronounced with a silent 't,' but pronouncing the 't' is now extremely common and widely accepted.",
+    "example": "We often visit the beach during the summer months.",
+    "category": "Pronouns & Grammar Rules",
+    "meaning_hi": "?????"
+  },
+  {
+    "word": "QUICK",
+    "meaning": "Textbook: Adjective describing something fast. Spoken Native: Frequently used as a flat adverb instead of 'quickly' in conversational phrases (e.g., 'come here quick').",
+    "example": "I need to run to the store quick before it closes.",
+    "category": "Pronouns & Grammar Rules"
+  },
+  {
+    "word": "SLOW",
+    "meaning": "Textbook: Adjective describing low speed. Spoken Native: Regularly used as a flat adverb in spoken English in phrases like 'drive slow' or 'take it slow.'",
+    "example": "You should drive slow on these icy roads.",
+    "category": "Pronouns & Grammar Rules",
+    "meaning_hi": "???? (dheema)",
+    "pronunciation": "???? (slow)"
+  },
+  {
+    "word": "BAD",
+    "meaning": "Textbook: Adjective meaning not good. Spoken Native: Used as a flat adverb instead of 'badly' in informal settings, especially after verbs of desiring (e.g., 'need it bad').",
+    "example": "I need a vacation so bad; I'm completely burnt out.",
+    "category": "Pronouns & Grammar Rules",
+    "meaning_hi": "???? / ?????",
+    "pronunciation": "??? (Bad)"
+  },
+  {
+    "word": "Y'ALL",
+    "meaning": "Textbook: Non-standard dialectal contraction. Spoken Native: Used widely in the American South and informal contexts to fill the gap of a plural second-person pronoun ('you all').",
+    "example": "Are y'all ready to order, or do you need a few more minutes?",
+    "category": "Pronouns & Grammar Rules"
+  },
+  {
+    "word": "BEEN",
+    "meaning": "Textbook: Past participle of 'be.' Spoken Native: In African American Vernacular English (AAVE) and spoken slang, 'been' (stressed) is used to mean something started in the far past and is still true.",
+    "example": "I been known about that movie; it's a classic.",
+    "category": "Pronouns & Grammar Rules"
+  }
 ]

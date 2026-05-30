@@ -1,52 +1,56 @@
-﻿[
-    {
-        "word":  "open",
-        "hindi_meaning":  "à¤–à¥‹à¤²à¤¨à¤¾ / à¤–à¥à¤²à¤¾",
-        "pronunciation_help":  "à¤“à¤ªà¤¨ (O-pen)",
-        "word_type":  "Verb / Adjective",
-        "simple_explanation":  "Not closed; to unfasten.",
-        "daily_life_use":  "Using doors, windows, books.",
-        "spoken_use":  "Open the door.",
-        "natural_native_use":  "The shop is open.",
-        "emotional_tone":  "Neutral",
-        "common_collocations":  [
-                                    "open the door",
-                                    "keep open",
-                                    "wide open"
-                                ],
-        "examples":  [
-                         "Please open the window.",
-                         "Is the bank open today?"
-                     ],
-        "common_mistakes":  "Saying \u0027open the light\u0027 (use \u0027turn on the light\u0027).",
-        "hindi_confusion_correction":  "Hindi \u0027kholna\u0027 is open.",
-        "formal_informal_note":  "Standard vocabulary.",
-        "image_url":  "https://commons.wikimedia.org/wiki/Special:FilePath/Open_sign.jpg",
-        "category":  "Verb / Adjective"
-    },
-    {
-        "word":  "close",
-        "hindi_meaning":  "à¤¬à¤‚à¤¦ à¤•à¤°à¤¨à¤¾ / à¤ªà¤¾à¤¸",
-        "pronunciation_help":  "à¤•à¥à¤²à¥‹à¤œà¤¼ (Cloze) / à¤•à¥à¤²à¥‹à¤¸ (Closs)",
-        "word_type":  "Verb / Adjective",
-        "simple_explanation":  "To shut; or being near.",
-        "daily_life_use":  "Shutting doors, or talking about distance.",
-        "spoken_use":  "Close the door.",
-        "natural_native_use":  "Come close to me.",
-        "emotional_tone":  "Neutral",
-        "common_collocations":  [
-                                    "close the door",
-                                    "close to",
-                                    "very close"
-                                ],
-        "examples":  [
-                         "Please close your book.",
-                         "My house is close to the school."
-                     ],
-        "common_mistakes":  "Confusing the pronunciation: \u0027cloze\u0027 (verb) vs \u0027closs\u0027 (adjective).",
-        "hindi_confusion_correction":  "Hindi \u0027band karna\u0027 (verb) and \u0027paas\u0027 (adj).",
-        "formal_informal_note":  "Standard vocabulary.",
-        "image_url":  "https://commons.wikimedia.org/wiki/Special:FilePath/Closed_sign.jpg",
-        "category":  "Verb / Adjective"
-    }
+[
+  {
+    "word": "open",
+    "hindi_meaning": "खोलना / खुला",
+    "pronunciation_help": "ओपन (O-pen)",
+    "word_type": "Verb / Adjective",
+    "simple_explanation": "Not closed; to unfasten.",
+    "daily_life_use": "Using doors, windows, books.",
+    "spoken_use": "Open the door.",
+    "natural_native_use": "The shop is open.",
+    "emotional_tone": "Neutral",
+    "common_collocations": [
+      "open the door",
+      "keep open",
+      "wide open"
+    ],
+    "examples": [
+      "Please open the window.",
+      "Is the bank open today?"
+    ],
+    "common_mistakes": "Saying 'open the light' (use 'turn on the light').",
+    "hindi_confusion_correction": "Hindi 'kholna' is open.",
+    "formal_informal_note": "Standard vocabulary.",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Open_sign.jpg",
+    "category": "Verb / Adjective",
+    "meaning_hi": "",
+    "pronunciation": "??? (O-pen)"
+  },
+  {
+    "word": "close",
+    "hindi_meaning": "बंद करना / पास",
+    "pronunciation_help": "क्लोज़ (Cloze) / क्लोस (Closs)",
+    "word_type": "Verb / Adjective",
+    "simple_explanation": "To shut; or being near.",
+    "daily_life_use": "Shutting doors, or talking about distance.",
+    "spoken_use": "Close the door.",
+    "natural_native_use": "Come close to me.",
+    "emotional_tone": "Neutral",
+    "common_collocations": [
+      "close the door",
+      "close to",
+      "very close"
+    ],
+    "examples": [
+      "Please close your book.",
+      "My house is close to the school."
+    ],
+    "common_mistakes": "Confusing the pronunciation: 'cloze' (verb) vs 'closs' (adjective).",
+    "hindi_confusion_correction": "Hindi 'band karna' (verb) and 'paas' (adj).",
+    "formal_informal_note": "Standard vocabulary.",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Closed_sign.jpg",
+    "category": "Verb / Adjective",
+    "meaning_hi": "??? ????",
+    "pronunciation": "?????? (Cloze) / ????? (Closs)"
+  }
 ]

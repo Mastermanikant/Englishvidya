@@ -1,122 +1,123 @@
-﻿[
-    {
-        "word":  "Ping",
-        "meaning":  "To send a short message to someone online to get their attention.",
-        "example":  "Ping me on Slack when you are free to discuss the budget.",
-        "category":  "Instant Messaging \u0026 Chat"
-    },
-    {
-        "word":  "Thread",
-        "meaning":  "A series of connected messages on a specific topic within a chat application.",
-        "example":  "Please reply in the thread so we do not clutter the main channel.",
-        "category":  "Instant Messaging \u0026 Chat"
-    },
-    {
-        "word":  "Heads Up",
-        "meaning":  "A short warning or advance notice about something.",
-        "example":  "Just a heads up, the website will undergo maintenance tonight.",
-        "category":  "Instant Messaging \u0026 Chat"
-    },
-    {
-        "word":  "Direct Message",
-        "meaning":  "A private message sent directly to one person instead of a group channel.",
-        "example":  "Send me a direct message with your email address.",
-        "category":  "Instant Messaging \u0026 Chat"
-    },
-    {
-        "word":  "Mute Channel",
-        "meaning":  "To silence notifications from a specific chat channel or group.",
-        "example":  "I muted the random channel so I can focus on my core tasks.",
-        "category":  "Instant Messaging \u0026 Chat"
-    },
-    {
-        "word":  "Tag",
-        "meaning":  "To mention a user using \u0027@\u0027 to send them a direct notification in chat.",
-        "example":  "If you need immediate help, tag the project manager in your message.",
-        "category":  "Instant Messaging \u0026 Chat"
-    },
-    {
-        "word":  "Mention",
-        "meaning":  "An instance of referencing someone directly in an online message.",
-        "example":  "I missed your mention because I was away from my laptop.",
-        "category":  "Instant Messaging \u0026 Chat"
-    },
-    {
-        "word":  "Away Status",
-        "meaning":  "An indicator showing that a user is currently not active at their computer.",
-        "example":  "Her away status suggests she has stepped out for lunch.",
-        "category":  "Instant Messaging \u0026 Chat"
-    },
-    {
-        "word":  "Do Not Disturb",
-        "meaning":  "A setting that blocks all incoming notifications to allow focused work.",
-        "example":  "I put my status on Do Not Disturb while writing the presentation.",
-        "category":  "Instant Messaging \u0026 Chat"
-    },
-    {
-        "word":  "Voice Note",
-        "meaning":  "An audio message recorded and sent in a chat application.",
-        "example":  "He sent a quick voice note to explain the issue while walking.",
-        "category":  "Instant Messaging \u0026 Chat"
-    },
-    {
-        "word":  "Emoji Reaction",
-        "meaning":  "Using a small icon to respond to a message without writing text.",
-        "example":  "Give me a thumbs-up emoji reaction once you have read this.",
-        "category":  "Instant Messaging \u0026 Chat"
-    },
-    {
-        "word":  "Chat Channel",
-        "meaning":  "A dedicated chat room for a specific team, topic, or project.",
-        "example":  "We created a new chat channel specifically for the marketing campaign.",
-        "category":  "Instant Messaging \u0026 Chat"
-    },
-    {
-        "word":  "Pin Message",
-        "meaning":  "To attach a message to the top of a chat or channel so it is easy to find.",
-        "example":  "The links to the design guidelines are pinned to the top of the channel.",
-        "category":  "Instant Messaging \u0026 Chat"
-    },
-    {
-        "word":  "Offline",
-        "meaning":  "Not connected to the internet or not available on messaging apps.",
-        "example":  "He is offline for the day, so he will answer your message tomorrow.",
-        "category":  "Instant Messaging \u0026 Chat"
-    },
-    {
-        "word":  "Online",
-        "meaning":  "Connected to the internet and active on messaging applications.",
-        "example":  "She is online right now, so you can ask her for help.",
-        "category":  "Instant Messaging \u0026 Chat"
-    },
-    {
-        "word":  "Typo",
-        "meaning":  "A small spelling error made when typing a message.",
-        "example":  "Sorry for the typo; I meant \u0027send the file,\u0027 not \u0027lend the file.\u0027",
-        "category":  "Instant Messaging \u0026 Chat"
-    },
-    {
-        "word":  "Out Of Office",
-        "meaning":  "A status or automatic reply showing that an employee is away from work.",
-        "example":  "I set my Out Of Office reply because I am taking a vacation next week.",
-        "category":  "Instant Messaging \u0026 Chat"
-    },
-    {
-        "word":  "Copy That",
-        "meaning":  "A phrase used to show you have received and understood a message.",
-        "example":  "Copy that, I will update the project board immediately.",
-        "category":  "Instant Messaging \u0026 Chat"
-    },
-    {
-        "word":  "Read Receipt",
-        "meaning":  "An indicator showing that a recipient has viewed a sent message.",
-        "example":  "She saw your message because the read receipt is visible.",
-        "category":  "Instant Messaging \u0026 Chat"
-    },
-    {
-        "word":  "Status Update",
-        "meaning":  "A short custom message next to your name showing your current task or state.",
-        "example":  "He changed his status update to \u0027In a Meeting\u0027 so he wouldn\u0027t be interrupted.",
-        "category":  "Instant Messaging \u0026 Chat"
-    }
+[
+  {
+    "word": "Ping",
+    "meaning": "To send a short message to someone online to get their attention.",
+    "example": "Ping me on Slack when you are free to discuss the budget.",
+    "category": "Instant Messaging & Chat"
+  },
+  {
+    "word": "Thread",
+    "meaning": "A series of connected messages on a specific topic within a chat application.",
+    "example": "Please reply in the thread so we do not clutter the main channel.",
+    "category": "Instant Messaging & Chat",
+    "meaning_hi": "????"
+  },
+  {
+    "word": "Heads Up",
+    "meaning": "A short warning or advance notice about something.",
+    "example": "Just a heads up, the website will undergo maintenance tonight.",
+    "category": "Instant Messaging & Chat"
+  },
+  {
+    "word": "Direct Message",
+    "meaning": "A private message sent directly to one person instead of a group channel.",
+    "example": "Send me a direct message with your email address.",
+    "category": "Instant Messaging & Chat"
+  },
+  {
+    "word": "Mute Channel",
+    "meaning": "To silence notifications from a specific chat channel or group.",
+    "example": "I muted the random channel so I can focus on my core tasks.",
+    "category": "Instant Messaging & Chat"
+  },
+  {
+    "word": "Tag",
+    "meaning": "To mention a user using '@' to send them a direct notification in chat.",
+    "example": "If you need immediate help, tag the project manager in your message.",
+    "category": "Instant Messaging & Chat"
+  },
+  {
+    "word": "Mention",
+    "meaning": "An instance of referencing someone directly in an online message.",
+    "example": "I missed your mention because I was away from my laptop.",
+    "category": "Instant Messaging & Chat"
+  },
+  {
+    "word": "Away Status",
+    "meaning": "An indicator showing that a user is currently not active at their computer.",
+    "example": "Her away status suggests she has stepped out for lunch.",
+    "category": "Instant Messaging & Chat"
+  },
+  {
+    "word": "Do Not Disturb",
+    "meaning": "A setting that blocks all incoming notifications to allow focused work.",
+    "example": "I put my status on Do Not Disturb while writing the presentation.",
+    "category": "Instant Messaging & Chat"
+  },
+  {
+    "word": "Voice Note",
+    "meaning": "An audio message recorded and sent in a chat application.",
+    "example": "He sent a quick voice note to explain the issue while walking.",
+    "category": "Instant Messaging & Chat"
+  },
+  {
+    "word": "Emoji Reaction",
+    "meaning": "Using a small icon to respond to a message without writing text.",
+    "example": "Give me a thumbs-up emoji reaction once you have read this.",
+    "category": "Instant Messaging & Chat"
+  },
+  {
+    "word": "Chat Channel",
+    "meaning": "A dedicated chat room for a specific team, topic, or project.",
+    "example": "We created a new chat channel specifically for the marketing campaign.",
+    "category": "Instant Messaging & Chat"
+  },
+  {
+    "word": "Pin Message",
+    "meaning": "To attach a message to the top of a chat or channel so it is easy to find.",
+    "example": "The links to the design guidelines are pinned to the top of the channel.",
+    "category": "Instant Messaging & Chat"
+  },
+  {
+    "word": "Offline",
+    "meaning": "Not connected to the internet or not available on messaging apps.",
+    "example": "He is offline for the day, so he will answer your message tomorrow.",
+    "category": "Instant Messaging & Chat"
+  },
+  {
+    "word": "Online",
+    "meaning": "Connected to the internet and active on messaging applications.",
+    "example": "She is online right now, so you can ask her for help.",
+    "category": "Instant Messaging & Chat"
+  },
+  {
+    "word": "Typo",
+    "meaning": "A small spelling error made when typing a message.",
+    "example": "Sorry for the typo; I meant 'send the file,' not 'lend the file.'",
+    "category": "Instant Messaging & Chat"
+  },
+  {
+    "word": "Out Of Office",
+    "meaning": "A status or automatic reply showing that an employee is away from work.",
+    "example": "I set my Out Of Office reply because I am taking a vacation next week.",
+    "category": "Instant Messaging & Chat"
+  },
+  {
+    "word": "Copy That",
+    "meaning": "A phrase used to show you have received and understood a message.",
+    "example": "Copy that, I will update the project board immediately.",
+    "category": "Instant Messaging & Chat"
+  },
+  {
+    "word": "Read Receipt",
+    "meaning": "An indicator showing that a recipient has viewed a sent message.",
+    "example": "She saw your message because the read receipt is visible.",
+    "category": "Instant Messaging & Chat"
+  },
+  {
+    "word": "Status Update",
+    "meaning": "A short custom message next to your name showing your current task or state.",
+    "example": "He changed his status update to 'In a Meeting' so he wouldn't be interrupted.",
+    "category": "Instant Messaging & Chat"
+  }
 ]

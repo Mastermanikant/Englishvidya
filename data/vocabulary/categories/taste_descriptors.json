@@ -1,1 +1,214 @@
-﻿[{"word":"Salty","category":"Taste descriptors","meaning":"Tasting of or containing salt."},{"word":"Sweet","category":"Taste descriptors","meaning":"Having the pleasant taste characteristic of sugar."},{"word":"Sour","category":"Taste descriptors","meaning":"Having an acid taste like lemon or vinegar."},{"word":"Bitter","category":"Taste descriptors","meaning":"Having a sharp, pungent taste; not sweet."},{"word":"Umami","category":"Taste descriptors","meaning":"Savory taste corresponding to the flavor of glutamates."},{"word":"Savory","category":"Taste descriptors","meaning":"Salty or spicy rather than sweet."},{"word":"Spicy","category":"Taste descriptors","meaning":"Flavored with or fragrant with spice; hot."},{"word":"Bland","category":"Taste descriptors","meaning":"Lacking strong flavor."},{"word":"Rich","category":"Taste descriptors","meaning":"Containing a large amount of fat, spices, or sugar."},{"word":"Mild","category":"Taste descriptors","meaning":"Not strong or severe in taste."},{"word":"Tart","category":"Taste descriptors","meaning":"Sharp or acid in taste."},{"word":"Tangy","category":"Taste descriptors","meaning":"Having a strong, piquant flavor."},{"word":"Zesty","category":"Taste descriptors","meaning":"Having a strong, pleasant, and somewhat spicy flavor."},{"word":"Crispy","category":"Taste descriptors","meaning":"Firm and brittle."},{"word":"Crunchy","category":"Taste descriptors","meaning":"Making a sharp noise when bitten or crushed."},{"word":"Chewy","category":"Taste descriptors","meaning":"Needing to be chewed hard or for some time."},{"word":"Tender","category":"Taste descriptors","meaning":"Easy to cut or chew."},{"word":"Tough","category":"Taste descriptors","meaning":"Difficult to cut or chew."},{"word":"Juicy","category":"Taste descriptors","meaning":"Full of juice."},{"word":"Dry","category":"Taste descriptors","meaning":"Lacking moisture."},{"word":"Moist","category":"Taste descriptors","meaning":"Slightly wet."},{"word":"Greasy","category":"Taste descriptors","meaning":"Covered with or full of fat or oil."},{"word":"Creamy","category":"Taste descriptors","meaning":"Smooth and soft, resembling cream."},{"word":"Flaky","category":"Taste descriptors","meaning":"Breaking easily into small thin pieces."},{"word":"Gooey","category":"Taste descriptors","meaning":"Soft and sticky."},{"word":"Melt-in-the-mouth","category":"Taste descriptors","meaning":"So soft it seems to melt in your mouth."},{"word":"Smoky","category":"Taste descriptors","meaning":"Having the taste or aroma of smoke."},{"word":"Earthy","category":"Taste descriptors","meaning":"Having a taste resembling soil."},{"word":"Nutty","category":"Taste descriptors","meaning":"Tasting of nuts."},{"word":"Fruity","category":"Taste descriptors","meaning":"Resembling fruit in taste."},{"word":"Minty","category":"Taste descriptors","meaning":"Having the flavor of mint."},{"word":"Pungent","category":"Taste descriptors","meaning":"Having a sharply strong taste or smell."},{"word":"Acrid","category":"Taste descriptors","meaning":"Irritatingly strong and unpleasant taste."},{"word":"Astringent","category":"Taste descriptors","meaning":"Causing a puckering sensation in the mouth."},{"word":"Peppery","category":"Taste descriptors","meaning":"Strongly flavored with pepper."},{"word":"Fiery","category":"Taste descriptors","meaning":"Intensely hot or spicy."},{"word":"Cooling","category":"Taste descriptors","meaning":"Imparting a sensation of coldness, like mint."},{"word":"Refreshing","category":"Taste descriptors","meaning":"Serving to refresh or reinvigorate."},{"word":"Heavy","category":"Taste descriptors","meaning":"Dense, filling, and difficult to digest."},{"word":"Light","category":"Taste descriptors","meaning":"Not heavy or filling; easily digested."}]
+[
+  {
+    "word": "Salty",
+    "category": "Taste descriptors",
+    "meaning": "Tasting of or containing salt.",
+    "meaning_hi": "?????",
+    "pronunciation": "??????"
+  },
+  {
+    "word": "Sweet",
+    "category": "Taste descriptors",
+    "meaning": "Having the pleasant taste characteristic of sugar.",
+    "meaning_hi": "????",
+    "pronunciation": "?????"
+  },
+  {
+    "word": "Sour",
+    "category": "Taste descriptors",
+    "meaning": "Having an acid taste like lemon or vinegar.",
+    "meaning_hi": "?????",
+    "pronunciation": "????"
+  },
+  {
+    "word": "Bitter",
+    "category": "Taste descriptors",
+    "meaning": "Having a sharp, pungent taste; not sweet.",
+    "meaning_hi": "?????",
+    "pronunciation": "????"
+  },
+  {
+    "word": "Umami",
+    "category": "Taste descriptors",
+    "meaning": "Savory taste corresponding to the flavor of glutamates."
+  },
+  {
+    "word": "Savory",
+    "category": "Taste descriptors",
+    "meaning": "Salty or spicy rather than sweet."
+  },
+  {
+    "word": "Spicy",
+    "category": "Taste descriptors",
+    "meaning": "Flavored with or fragrant with spice; hot.",
+    "meaning_hi": "????????/????",
+    "pronunciation": "???????"
+  },
+  {
+    "word": "Bland",
+    "category": "Taste descriptors",
+    "meaning": "Lacking strong flavor."
+  },
+  {
+    "word": "Rich",
+    "category": "Taste descriptors",
+    "meaning": "Containing a large amount of fat, spices, or sugar."
+  },
+  {
+    "word": "Mild",
+    "category": "Taste descriptors",
+    "meaning": "Not strong or severe in taste."
+  },
+  {
+    "word": "Tart",
+    "category": "Taste descriptors",
+    "meaning": "Sharp or acid in taste."
+  },
+  {
+    "word": "Tangy",
+    "category": "Taste descriptors",
+    "meaning": "Having a strong, piquant flavor."
+  },
+  {
+    "word": "Zesty",
+    "category": "Taste descriptors",
+    "meaning": "Having a strong, pleasant, and somewhat spicy flavor."
+  },
+  {
+    "word": "Crispy",
+    "category": "Taste descriptors",
+    "meaning": "Firm and brittle."
+  },
+  {
+    "word": "Crunchy",
+    "category": "Taste descriptors",
+    "meaning": "Making a sharp noise when bitten or crushed."
+  },
+  {
+    "word": "Chewy",
+    "category": "Taste descriptors",
+    "meaning": "Needing to be chewed hard or for some time."
+  },
+  {
+    "word": "Tender",
+    "category": "Taste descriptors",
+    "meaning": "Easy to cut or chew."
+  },
+  {
+    "word": "Tough",
+    "category": "Taste descriptors",
+    "meaning": "Difficult to cut or chew."
+  },
+  {
+    "word": "Juicy",
+    "category": "Taste descriptors",
+    "meaning": "Full of juice."
+  },
+  {
+    "word": "Dry",
+    "category": "Taste descriptors",
+    "meaning": "Lacking moisture."
+  },
+  {
+    "word": "Moist",
+    "category": "Taste descriptors",
+    "meaning": "Slightly wet."
+  },
+  {
+    "word": "Greasy",
+    "category": "Taste descriptors",
+    "meaning": "Covered with or full of fat or oil."
+  },
+  {
+    "word": "Creamy",
+    "category": "Taste descriptors",
+    "meaning": "Smooth and soft, resembling cream."
+  },
+  {
+    "word": "Flaky",
+    "category": "Taste descriptors",
+    "meaning": "Breaking easily into small thin pieces."
+  },
+  {
+    "word": "Gooey",
+    "category": "Taste descriptors",
+    "meaning": "Soft and sticky."
+  },
+  {
+    "word": "Melt-in-the-mouth",
+    "category": "Taste descriptors",
+    "meaning": "So soft it seems to melt in your mouth."
+  },
+  {
+    "word": "Smoky",
+    "category": "Taste descriptors",
+    "meaning": "Having the taste or aroma of smoke."
+  },
+  {
+    "word": "Earthy",
+    "category": "Taste descriptors",
+    "meaning": "Having a taste resembling soil."
+  },
+  {
+    "word": "Nutty",
+    "category": "Taste descriptors",
+    "meaning": "Tasting of nuts."
+  },
+  {
+    "word": "Fruity",
+    "category": "Taste descriptors",
+    "meaning": "Resembling fruit in taste."
+  },
+  {
+    "word": "Minty",
+    "category": "Taste descriptors",
+    "meaning": "Having the flavor of mint."
+  },
+  {
+    "word": "Pungent",
+    "category": "Taste descriptors",
+    "meaning": "Having a sharply strong taste or smell."
+  },
+  {
+    "word": "Acrid",
+    "category": "Taste descriptors",
+    "meaning": "Irritatingly strong and unpleasant taste."
+  },
+  {
+    "word": "Astringent",
+    "category": "Taste descriptors",
+    "meaning": "Causing a puckering sensation in the mouth."
+  },
+  {
+    "word": "Peppery",
+    "category": "Taste descriptors",
+    "meaning": "Strongly flavored with pepper."
+  },
+  {
+    "word": "Fiery",
+    "category": "Taste descriptors",
+    "meaning": "Intensely hot or spicy."
+  },
+  {
+    "word": "Cooling",
+    "category": "Taste descriptors",
+    "meaning": "Imparting a sensation of coldness, like mint."
+  },
+  {
+    "word": "Refreshing",
+    "category": "Taste descriptors",
+    "meaning": "Serving to refresh or reinvigorate."
+  },
+  {
+    "word": "Heavy",
+    "category": "Taste descriptors",
+    "meaning": "Dense, filling, and difficult to digest."
+  },
+  {
+    "word": "Light",
+    "category": "Taste descriptors",
+    "meaning": "Not heavy or filling; easily digested.",
+    "meaning_hi": "????? / ?????",
+    "pronunciation": "???? (lait)"
+  }
+]

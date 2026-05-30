@@ -1,1 +1,132 @@
-﻿[{"word":"Salt","category":"Condiments"},{"word":"Black salt","category":"Condiments"},{"word":"Rock salt","category":"Condiments"},{"word":"Sugar","category":"Condiments"},{"word":"Jaggery","category":"Condiments"},{"word":"Honey","category":"Condiments"},{"word":"Tomato ketchup","category":"Condiments"},{"word":"Green chilli sauce","category":"Condiments"},{"word":"Red chilli sauce","category":"Condiments"},{"word":"Soy sauce","category":"Condiments"},{"word":"Vinegar","category":"Condiments"},{"word":"Apple cider vinegar","category":"Condiments"},{"word":"Mayonnaise","category":"Condiments"},{"word":"Mustard sauce","category":"Condiments"},{"word":"Mint chutney","category":"Condiments"},{"word":"Tamarind chutney","category":"Condiments"},{"word":"Mango pickle","category":"Condiments"},{"word":"Lemon pickle","category":"Condiments"},{"word":"Mixed pickle","category":"Condiments"},{"word":"Rose water","category":"Condiments"},{"word":"Kewra water","category":"Condiments"},{"word":"Vanilla extract","category":"Condiments"},{"word":"Chaat masala","category":"Condiments"},{"word":"Baking soda","category":"Condiments"},{"word":"Baking powder","category":"Condiments"},{"word":"Yeast","category":"Condiments"},{"word":"Food color","category":"Condiments"},{"word":"MSG","category":"Condiments"},{"word":"Schezwan sauce","category":"Condiments"},{"word":"Garlic paste","category":"Condiments"},{"word":"Ginger paste","category":"Condiments"}]
+[
+  {
+    "word": "Salt",
+    "category": "Condiments",
+    "meaning_hi": "???",
+    "pronunciation": "?????"
+  },
+  {
+    "word": "Black salt",
+    "category": "Condiments"
+  },
+  {
+    "word": "Rock salt",
+    "category": "Condiments"
+  },
+  {
+    "word": "Sugar",
+    "category": "Condiments",
+    "meaning_hi": "????",
+    "pronunciation": "????"
+  },
+  {
+    "word": "Jaggery",
+    "category": "Condiments"
+  },
+  {
+    "word": "Honey",
+    "category": "Condiments",
+    "meaning_hi": "???",
+    "pronunciation": "???"
+  },
+  {
+    "word": "Tomato ketchup",
+    "category": "Condiments"
+  },
+  {
+    "word": "Green chilli sauce",
+    "category": "Condiments"
+  },
+  {
+    "word": "Red chilli sauce",
+    "category": "Condiments"
+  },
+  {
+    "word": "Soy sauce",
+    "category": "Condiments"
+  },
+  {
+    "word": "Vinegar",
+    "category": "Condiments"
+  },
+  {
+    "word": "Apple cider vinegar",
+    "category": "Condiments"
+  },
+  {
+    "word": "Mayonnaise",
+    "category": "Condiments"
+  },
+  {
+    "word": "Mustard sauce",
+    "category": "Condiments"
+  },
+  {
+    "word": "Mint chutney",
+    "category": "Condiments"
+  },
+  {
+    "word": "Tamarind chutney",
+    "category": "Condiments"
+  },
+  {
+    "word": "Mango pickle",
+    "category": "Condiments"
+  },
+  {
+    "word": "Lemon pickle",
+    "category": "Condiments"
+  },
+  {
+    "word": "Mixed pickle",
+    "category": "Condiments"
+  },
+  {
+    "word": "Rose water",
+    "category": "Condiments"
+  },
+  {
+    "word": "Kewra water",
+    "category": "Condiments"
+  },
+  {
+    "word": "Vanilla extract",
+    "category": "Condiments"
+  },
+  {
+    "word": "Chaat masala",
+    "category": "Condiments"
+  },
+  {
+    "word": "Baking soda",
+    "category": "Condiments"
+  },
+  {
+    "word": "Baking powder",
+    "category": "Condiments"
+  },
+  {
+    "word": "Yeast",
+    "category": "Condiments"
+  },
+  {
+    "word": "Food color",
+    "category": "Condiments"
+  },
+  {
+    "word": "MSG",
+    "category": "Condiments"
+  },
+  {
+    "word": "Schezwan sauce",
+    "category": "Condiments"
+  },
+  {
+    "word": "Garlic paste",
+    "category": "Condiments"
+  },
+  {
+    "word": "Ginger paste",
+    "category": "Condiments"
+  }
+]

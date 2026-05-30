@@ -1,1 +1,189 @@
-﻿[{"word":"curriculum","meaning":"The subjects and topics that are taught in a school or course of study","example":"The school follows a curriculum designed to develop critical thinking in students.","category":"Instruction"},{"word":"syllabus","meaning":"An outline of the topics to be covered in a course or subject","example":"The teacher distributed the syllabus on the first day of the academic year.","category":"Instruction"},{"word":"pedagogy","meaning":"The method and practice of teaching, especially as an academic subject","example":"Modern pedagogy emphasises student participation over rote memorisation.","category":"Instruction"},{"word":"lecture","meaning":"An educational talk given to a class or audience by a teacher or expert","example":"The professor delivered an engaging lecture on photosynthesis.","category":"Instruction"},{"word":"module","meaning":"A self-contained unit of study that forms part of a larger course","example":"Students must complete six modules to finish the diploma programme.","category":"Instruction"},{"word":"elective","meaning":"An optional subject that a student may choose to study","example":"She chose drama as her elective for the second semester.","category":"Instruction"},{"word":"compulsory","meaning":"Required by rules or law; obligatory for all students","example":"Mathematics is compulsory for all students up to Grade 10.","category":"Instruction"},{"word":"textbook","meaning":"A book used as the standard reference for a particular subject","example":"The science textbook contains detailed diagrams of the human body.","category":"Instruction"},{"word":"worksheet","meaning":"A printed sheet of exercises given to students for practice","example":"The teacher handed out a worksheet on fractions for homework.","category":"Instruction"},{"word":"lesson plan","meaning":"A teacher\u0027s detailed guide for what to teach during a class period","example":"The teacher prepared a lesson plan covering three learning objectives.","category":"Instruction"},{"word":"objective","meaning":"A specific learning goal or outcome expected from a lesson","example":"The lesson objective was for students to identify the main idea of a passage.","category":"Instruction"},{"word":"outcome","meaning":"The knowledge or skill a student is expected to gain after instruction","example":"By the end of the unit, the expected outcome is fluency in basic algebra.","category":"Instruction"},{"word":"differentiation","meaning":"Adapting teaching methods to meet the diverse needs of learners","example":"The teacher used differentiation to support both advanced and struggling students.","category":"Instruction"},{"word":"scaffolding","meaning":"Providing temporary support to help students understand new concepts","example":"The teacher used scaffolding by giving sentence starters before the writing task.","category":"Instruction"},{"word":"demonstration","meaning":"Showing how to do something as a model for students to follow","example":"The chemistry teacher gave a demonstration of the titration experiment.","category":"Instruction"},{"word":"inquiry-based learning","meaning":"A teaching approach where students learn by asking questions and investigating","example":"Inquiry-based learning encouraged students to research the water cycle independently.","category":"Instruction"},{"word":"project-based learning","meaning":"A method where students learn by completing a real-world project","example":"Students used project-based learning to design a model smart city.","category":"Instruction"},{"word":"collaborative learning","meaning":"A method where students work together to achieve shared learning goals","example":"Collaborative learning helped students improve their communication skills.","category":"Instruction"},{"word":"instruction","meaning":"The act of teaching or delivering knowledge to students","example":"Direct instruction was used to introduce the rules of grammar.","category":"Instruction"},{"word":"medium of instruction","meaning":"The language used to deliver teaching in a school or institution","example":"The medium of instruction in this school is English from Grade 1.","category":"Instruction"},{"word":"comprehension","meaning":"The ability to understand and interpret information","example":"Students practised reading comprehension using unseen passages.","category":"Instruction"},{"word":"academic vocabulary","meaning":"Words commonly used in school subjects and formal educational contexts","example":"Knowing academic vocabulary helps students understand subject textbooks better.","category":"Instruction"},{"word":"subject-specific vocabulary","meaning":"Technical words that belong to a particular school subject","example":"Words like \u0027osmosis\u0027 and \u0027diffusion\u0027 are subject-specific vocabulary in biology.","category":"Instruction"},{"word":"glossary","meaning":"A list of difficult or technical words with their definitions","example":"The textbook included a glossary at the back for unfamiliar terms.","category":"Instruction"},{"word":"note-taking","meaning":"Writing down key points during a lecture or from a textbook","example":"Effective note-taking helps students retain information from lessons.","category":"Instruction"},{"word":"summary","meaning":"A brief account of the main points of a longer text or lesson","example":"Students wrote a summary of the chapter in their own words.","category":"Instruction"},{"word":"paraphrase","meaning":"To restate information in different words while keeping the same meaning","example":"Students were asked to paraphrase the paragraph to show understanding.","category":"Instruction"},{"word":"academic language","meaning":"Formal language used in schools, academic papers, and intellectual discussion","example":"Students need to develop academic language to succeed in higher education.","category":"Instruction"},{"word":"bilingual education","meaning":"A system where two languages are used for instruction","example":"The school offers bilingual education in both Hindi and English.","category":"Instruction"},{"word":"English-medium","meaning":"Describes a school or institution where English is the primary language of teaching","example":"English-medium schools are common in urban areas across India.","category":"Instruction"}]
+[
+  {
+    "word": "curriculum",
+    "meaning": "The subjects and topics that are taught in a school or course of study",
+    "example": "The school follows a curriculum designed to develop critical thinking in students.",
+    "category": "Instruction",
+    "meaning_hi": "?????????"
+  },
+  {
+    "word": "syllabus",
+    "meaning": "An outline of the topics to be covered in a course or subject",
+    "example": "The teacher distributed the syllabus on the first day of the academic year.",
+    "category": "Instruction"
+  },
+  {
+    "word": "pedagogy",
+    "meaning": "The method and practice of teaching, especially as an academic subject",
+    "example": "Modern pedagogy emphasises student participation over rote memorisation.",
+    "category": "Instruction",
+    "meaning_hi": "?????????????"
+  },
+  {
+    "word": "lecture",
+    "meaning": "An educational talk given to a class or audience by a teacher or expert",
+    "example": "The professor delivered an engaging lecture on photosynthesis.",
+    "category": "Instruction",
+    "meaning_hi": "?????????"
+  },
+  {
+    "word": "module",
+    "meaning": "A self-contained unit of study that forms part of a larger course",
+    "example": "Students must complete six modules to finish the diploma programme.",
+    "category": "Instruction"
+  },
+  {
+    "word": "elective",
+    "meaning": "An optional subject that a student may choose to study",
+    "example": "She chose drama as her elective for the second semester.",
+    "category": "Instruction",
+    "meaning_hi": "????????"
+  },
+  {
+    "word": "compulsory",
+    "meaning": "Required by rules or law; obligatory for all students",
+    "example": "Mathematics is compulsory for all students up to Grade 10.",
+    "category": "Instruction",
+    "meaning_hi": "????????"
+  },
+  {
+    "word": "textbook",
+    "meaning": "A book used as the standard reference for a particular subject",
+    "example": "The science textbook contains detailed diagrams of the human body.",
+    "category": "Instruction"
+  },
+  {
+    "word": "worksheet",
+    "meaning": "A printed sheet of exercises given to students for practice",
+    "example": "The teacher handed out a worksheet on fractions for homework.",
+    "category": "Instruction"
+  },
+  {
+    "word": "lesson plan",
+    "meaning": "A teacher's detailed guide for what to teach during a class period",
+    "example": "The teacher prepared a lesson plan covering three learning objectives.",
+    "category": "Instruction"
+  },
+  {
+    "word": "objective",
+    "meaning": "A specific learning goal or outcome expected from a lesson",
+    "example": "The lesson objective was for students to identify the main idea of a passage.",
+    "category": "Instruction",
+    "meaning_hi": "????????"
+  },
+  {
+    "word": "outcome",
+    "meaning": "The knowledge or skill a student is expected to gain after instruction",
+    "example": "By the end of the unit, the expected outcome is fluency in basic algebra.",
+    "category": "Instruction"
+  },
+  {
+    "word": "differentiation",
+    "meaning": "Adapting teaching methods to meet the diverse needs of learners",
+    "example": "The teacher used differentiation to support both advanced and struggling students.",
+    "category": "Instruction"
+  },
+  {
+    "word": "scaffolding",
+    "meaning": "Providing temporary support to help students understand new concepts",
+    "example": "The teacher used scaffolding by giving sentence starters before the writing task.",
+    "category": "Instruction"
+  },
+  {
+    "word": "demonstration",
+    "meaning": "Showing how to do something as a model for students to follow",
+    "example": "The chemistry teacher gave a demonstration of the titration experiment.",
+    "category": "Instruction"
+  },
+  {
+    "word": "inquiry-based learning",
+    "meaning": "A teaching approach where students learn by asking questions and investigating",
+    "example": "Inquiry-based learning encouraged students to research the water cycle independently.",
+    "category": "Instruction"
+  },
+  {
+    "word": "project-based learning",
+    "meaning": "A method where students learn by completing a real-world project",
+    "example": "Students used project-based learning to design a model smart city.",
+    "category": "Instruction"
+  },
+  {
+    "word": "collaborative learning",
+    "meaning": "A method where students work together to achieve shared learning goals",
+    "example": "Collaborative learning helped students improve their communication skills.",
+    "category": "Instruction"
+  },
+  {
+    "word": "instruction",
+    "meaning": "The act of teaching or delivering knowledge to students",
+    "example": "Direct instruction was used to introduce the rules of grammar.",
+    "category": "Instruction"
+  },
+  {
+    "word": "medium of instruction",
+    "meaning": "The language used to deliver teaching in a school or institution",
+    "example": "The medium of instruction in this school is English from Grade 1.",
+    "category": "Instruction"
+  },
+  {
+    "word": "comprehension",
+    "meaning": "The ability to understand and interpret information",
+    "example": "Students practised reading comprehension using unseen passages.",
+    "category": "Instruction",
+    "meaning_hi": "???"
+  },
+  {
+    "word": "academic vocabulary",
+    "meaning": "Words commonly used in school subjects and formal educational contexts",
+    "example": "Knowing academic vocabulary helps students understand subject textbooks better.",
+    "category": "Instruction"
+  },
+  {
+    "word": "subject-specific vocabulary",
+    "meaning": "Technical words that belong to a particular school subject",
+    "example": "Words like 'osmosis' and 'diffusion' are subject-specific vocabulary in biology.",
+    "category": "Instruction"
+  },
+  {
+    "word": "glossary",
+    "meaning": "A list of difficult or technical words with their definitions",
+    "example": "The textbook included a glossary at the back for unfamiliar terms.",
+    "category": "Instruction"
+  },
+  {
+    "word": "note-taking",
+    "meaning": "Writing down key points during a lecture or from a textbook",
+    "example": "Effective note-taking helps students retain information from lessons.",
+    "category": "Instruction"
+  },
+  {
+    "word": "summary",
+    "meaning": "A brief account of the main points of a longer text or lesson",
+    "example": "Students wrote a summary of the chapter in their own words.",
+    "category": "Instruction"
+  },
+  {
+    "word": "paraphrase",
+    "meaning": "To restate information in different words while keeping the same meaning",
+    "example": "Students were asked to paraphrase the paragraph to show understanding.",
+    "category": "Instruction"
+  },
+  {
+    "word": "academic language",
+    "meaning": "Formal language used in schools, academic papers, and intellectual discussion",
+    "example": "Students need to develop academic language to succeed in higher education.",
+    "category": "Instruction"
+  },
+  {
+    "word": "bilingual education",
+    "meaning": "A system where two languages are used for instruction",
+    "example": "The school offers bilingual education in both Hindi and English.",
+    "category": "Instruction"
+  },
+  {
+    "word": "English-medium",
+    "meaning": "Describes a school or institution where English is the primary language of teaching",
+    "example": "English-medium schools are common in urban areas across India.",
+    "category": "Instruction"
+  }
+]

@@ -1,14 +1,16 @@
-﻿[
-    {
-        "word":  "embarrassed",
-        "meaning":  "Feeling awkward, self-conscious, and uncomfortable in a social situation",
-        "example":  "He was embarrassed when he tripped in front of everyone.",
-        "category":  "Shame / Embarrassment (Moderate)"
-    },
-    {
-        "word":  "chagrined",
-        "meaning":  "Feeling distressed and humiliated due to a failure or mistake",
-        "example":  "She was chagrined by her poor performance in the debate.",
-        "category":  "Shame / Embarrassment (Moderate)"
-    }
+[
+  {
+    "word": "embarrassed",
+    "meaning": "Feeling awkward, self-conscious, and uncomfortable in a social situation",
+    "example": "He was embarrassed when he tripped in front of everyone.",
+    "category": "Shame / Embarrassment (Moderate)",
+    "meaning_hi": "???????? (Sharminda)",
+    "pronunciation": "im-BAR-uhst"
+  },
+  {
+    "word": "chagrined",
+    "meaning": "Feeling distressed and humiliated due to a failure or mistake",
+    "example": "She was chagrined by her poor performance in the debate.",
+    "category": "Shame / Embarrassment (Moderate)"
+  }
 ]

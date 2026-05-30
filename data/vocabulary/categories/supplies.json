@@ -1,1 +1,132 @@
-﻿[{"word":"Soap","category":"Supplies"},{"word":"Detergent","category":"Supplies"},{"word":"Dishwashing liquid","category":"Supplies"},{"word":"Sponge","category":"Supplies"},{"word":"Broom","category":"Supplies"},{"word":"Mop","category":"Supplies"},{"word":"Dustpan","category":"Supplies"},{"word":"Trash bag","category":"Supplies"},{"word":"Garbage bin","category":"Supplies"},{"word":"Bucket","category":"Supplies"},{"word":"Mug","category":"Supplies"},{"word":"Matchbox","category":"Supplies"},{"word":"Lighter","category":"Supplies"},{"word":"Candles","category":"Supplies"},{"word":"Tissue paper","category":"Supplies"},{"word":"Paper towel","category":"Supplies"},{"word":"Aluminum foil","category":"Supplies"},{"word":"Cling film","category":"Supplies"},{"word":"Food container","category":"Supplies"},{"word":"Utensils","category":"Supplies"},{"word":"Plate","category":"Supplies"},{"word":"Bowl","category":"Supplies"},{"word":"Spoon","category":"Supplies"},{"word":"Fork","category":"Supplies"},{"word":"Knife","category":"Supplies"},{"word":"Glass","category":"Supplies"},{"word":"Cup","category":"Supplies"}]
+[
+  {
+    "word": "Soap",
+    "category": "Supplies",
+    "meaning_hi": "?????"
+  },
+  {
+    "word": "Detergent",
+    "category": "Supplies"
+  },
+  {
+    "word": "Dishwashing liquid",
+    "category": "Supplies"
+  },
+  {
+    "word": "Sponge",
+    "category": "Supplies"
+  },
+  {
+    "word": "Broom",
+    "category": "Supplies",
+    "meaning_hi": "?????"
+  },
+  {
+    "word": "Mop",
+    "category": "Supplies",
+    "meaning_hi": "???? ?????"
+  },
+  {
+    "word": "Dustpan",
+    "category": "Supplies",
+    "meaning_hi": "???/???? ????? ?? ?????"
+  },
+  {
+    "word": "Trash bag",
+    "category": "Supplies",
+    "meaning_hi": "???? ?? ????"
+  },
+  {
+    "word": "Garbage bin",
+    "category": "Supplies"
+  },
+  {
+    "word": "Bucket",
+    "category": "Supplies",
+    "meaning_hi": "??????"
+  },
+  {
+    "word": "Mug",
+    "category": "Supplies",
+    "meaning_hi": "??"
+  },
+  {
+    "word": "Matchbox",
+    "category": "Supplies",
+    "meaning_hi": "?????"
+  },
+  {
+    "word": "Lighter",
+    "category": "Supplies",
+    "meaning_hi": "?????"
+  },
+  {
+    "word": "Candles",
+    "category": "Supplies"
+  },
+  {
+    "word": "Tissue paper",
+    "category": "Supplies"
+  },
+  {
+    "word": "Paper towel",
+    "category": "Supplies"
+  },
+  {
+    "word": "Aluminum foil",
+    "category": "Supplies"
+  },
+  {
+    "word": "Cling film",
+    "category": "Supplies"
+  },
+  {
+    "word": "Food container",
+    "category": "Supplies"
+  },
+  {
+    "word": "Utensils",
+    "category": "Supplies"
+  },
+  {
+    "word": "Plate",
+    "category": "Supplies",
+    "meaning_hi": "???? / ?????",
+    "pronunciation": "????? (pleyt)"
+  },
+  {
+    "word": "Bowl",
+    "category": "Supplies",
+    "meaning_hi": "?????",
+    "pronunciation": "???"
+  },
+  {
+    "word": "Spoon",
+    "category": "Supplies",
+    "meaning_hi": "?????",
+    "pronunciation": "????? (spuun)"
+  },
+  {
+    "word": "Fork",
+    "category": "Supplies",
+    "meaning_hi": "?????",
+    "pronunciation": "?????"
+  },
+  {
+    "word": "Knife",
+    "category": "Supplies",
+    "meaning_hi": "????",
+    "pronunciation": "????? (naif)"
+  },
+  {
+    "word": "Glass",
+    "category": "Supplies",
+    "meaning_hi": "?????"
+  },
+  {
+    "word": "Cup",
+    "category": "Supplies",
+    "meaning_hi": "?????? / ??",
+    "pronunciation": "?? (kup)"
+  }
+]

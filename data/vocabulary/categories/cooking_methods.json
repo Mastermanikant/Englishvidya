@@ -1,1 +1,66 @@
-﻿[{"word":"Bake","category":"Cooking methods","meaning":"Cook food by dry heat in an oven."},{"word":"Boil","category":"Cooking methods","meaning":"Cook by immersing in boiling water."},{"word":"Fry","category":"Cooking methods","meaning":"Cook food in hot fat or oil."},{"word":"Grill","category":"Cooking methods","meaning":"Cook food using a grill."},{"word":"Roast","category":"Cooking methods","meaning":"Cook food by prolonged exposure to heat in an oven or over a fire."},{"word":"Steam","category":"Cooking methods","meaning":"Cook food by heating it in steam."},{"word":"Simmer","category":"Cooking methods","meaning":"Keep a liquid just below boiling point."},{"word":"Poach","category":"Cooking methods","meaning":"Cook by simmering in a small amount of liquid."},{"word":"SautÃ©","category":"Cooking methods","meaning":"Fry quickly in a little hot fat."},{"word":"Broil","category":"Cooking methods","meaning":"Cook meat or fish by exposure to direct radiant heat."}]
+[
+  {
+    "word": "Bake",
+    "category": "Cooking methods",
+    "meaning": "Cook food by dry heat in an oven.",
+    "meaning_hi": "??????",
+    "pronunciation": "???"
+  },
+  {
+    "word": "Boil",
+    "category": "Cooking methods",
+    "meaning": "Cook by immersing in boiling water.",
+    "meaning_hi": "??????",
+    "pronunciation": "????"
+  },
+  {
+    "word": "Fry",
+    "category": "Cooking methods",
+    "meaning": "Cook food in hot fat or oil.",
+    "meaning_hi": "????",
+    "pronunciation": "?????"
+  },
+  {
+    "word": "Grill",
+    "category": "Cooking methods",
+    "meaning": "Cook food using a grill.",
+    "meaning_hi": "????? ????/?????",
+    "pronunciation": "?????"
+  },
+  {
+    "word": "Roast",
+    "category": "Cooking methods",
+    "meaning": "Cook food by prolonged exposure to heat in an oven or over a fire.",
+    "meaning_hi": "?????",
+    "pronunciation": "?????"
+  },
+  {
+    "word": "Steam",
+    "category": "Cooking methods",
+    "meaning": "Cook food by heating it in steam.",
+    "meaning_hi": "??? ?? ?????",
+    "pronunciation": "?????"
+  },
+  {
+    "word": "Simmer",
+    "category": "Cooking methods",
+    "meaning": "Keep a liquid just below boiling point.",
+    "meaning_hi": "???? ??? ?? ?????",
+    "pronunciation": "????"
+  },
+  {
+    "word": "Poach",
+    "category": "Cooking methods",
+    "meaning": "Cook by simmering in a small amount of liquid."
+  },
+  {
+    "word": "SautÃ©",
+    "category": "Cooking methods",
+    "meaning": "Fry quickly in a little hot fat."
+  },
+  {
+    "word": "Broil",
+    "category": "Cooking methods",
+    "meaning": "Cook meat or fish by exposure to direct radiant heat."
+  }
+]

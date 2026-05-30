@@ -1,1 +1,64 @@
-﻿[{"word":"I Don\u0027t Understand","meaning":"A phrase used when you do not grasp the meaning or explanation of something.","example":"I don\u0027t understand this math problem; can you show me?","category":"clarification"},{"word":"Speak Slowly","meaning":"A polite request asking someone to speak at a slower speed.","example":"Please speak slowly, I am still learning English.","category":"clarification"},{"word":"Repeat","meaning":"To say or write something again.","example":"Could you repeat the address, please? I didn\u0027t write it down.","category":"clarification"},{"word":"What Does This Mean?","meaning":"A question used to ask for the meaning of a word, symbol, or statement.","example":"What does this English word mean? I haven\u0027t seen it before.","category":"clarification"},{"word":"Write It Down","meaning":"A request asking someone to write information on paper or a screen.","example":"Could you write down the phone number for me?","category":"clarification"},{"word":"Understand","meaning":"To know or grasp the meaning of what someone is saying.","example":"Do you understand the instructions for the game?","category":"clarification"},{"word":"Pronounce","meaning":"To make the correct sound of a word or letter.","example":"How do you pronounce this word correctly?","category":"clarification"},{"word":"Spell","meaning":"To write or say the letters of a word in the correct order.","example":"How do you spell your first name?","category":"clarification"},{"word":"Mean","meaning":"To represent or signify a particular idea or message.","example":"Red lights mean that you must stop your car.","category":"clarification"},{"word":"Question","meaning":"A sentence or phrase used to ask for information.","example":"If you have a question, please raise your hand.","category":"clarification"}]
+[
+  {
+    "word": "I Don't Understand",
+    "meaning": "A phrase used when you do not grasp the meaning or explanation of something.",
+    "example": "I don't understand this math problem; can you show me?",
+    "category": "clarification"
+  },
+  {
+    "word": "Speak Slowly",
+    "meaning": "A polite request asking someone to speak at a slower speed.",
+    "example": "Please speak slowly, I am still learning English.",
+    "category": "clarification"
+  },
+  {
+    "word": "Repeat",
+    "meaning": "To say or write something again.",
+    "example": "Could you repeat the address, please? I didn't write it down.",
+    "category": "clarification"
+  },
+  {
+    "word": "What Does This Mean?",
+    "meaning": "A question used to ask for the meaning of a word, symbol, or statement.",
+    "example": "What does this English word mean? I haven't seen it before.",
+    "category": "clarification"
+  },
+  {
+    "word": "Write It Down",
+    "meaning": "A request asking someone to write information on paper or a screen.",
+    "example": "Could you write down the phone number for me?",
+    "category": "clarification"
+  },
+  {
+    "word": "Understand",
+    "meaning": "To know or grasp the meaning of what someone is saying.",
+    "example": "Do you understand the instructions for the game?",
+    "category": "clarification",
+    "meaning_hi": "?????",
+    "pronunciation": "?????????? (un-dur-stand)"
+  },
+  {
+    "word": "Pronounce",
+    "meaning": "To make the correct sound of a word or letter.",
+    "example": "How do you pronounce this word correctly?",
+    "category": "clarification"
+  },
+  {
+    "word": "Spell",
+    "meaning": "To write or say the letters of a word in the correct order.",
+    "example": "How do you spell your first name?",
+    "category": "clarification"
+  },
+  {
+    "word": "Mean",
+    "meaning": "To represent or signify a particular idea or message.",
+    "example": "Red lights mean that you must stop your car.",
+    "category": "clarification"
+  },
+  {
+    "word": "Question",
+    "meaning": "A sentence or phrase used to ask for information.",
+    "example": "If you have a question, please raise your hand.",
+    "category": "clarification"
+  }
+]

@@ -1,1 +1,153 @@
-﻿[{"word":"Validity","meaning":"The quality of an argument being logically correct in its structure.","example":"If your premises are false, the validity of your argument doesn\u0027t make your conclusion true.","category":"Logical Truth \u0026 Validity"},{"word":"Soundness","meaning":"The state of an argument being both logically valid and based on true facts.","example":"A sound argument must have true premises and a correct logical structure.","category":"Logical Truth \u0026 Validity"},{"word":"Coherence","meaning":"The quality of being logical, consistent, and easy to understand as a whole.","example":"His explanation lacked coherence; it was just a random mix of thoughts.","category":"Logical Truth \u0026 Validity"},{"word":"Plausibility","meaning":"The quality of seeming reasonable, believable, or likely to be true.","example":"The police questioned the plausibility of his story about losing his keys.","category":"Logical Truth \u0026 Validity"},{"word":"Credibility","meaning":"The quality of being trusted and believed in.","example":"The witness lost his credibility when he changed his story multiple times.","category":"Logical Truth \u0026 Validity"},{"word":"Truth Value","meaning":"Whether a statement is true or false (the basic property of propositions in logic).","example":"In boolean logic, every variable has a truth value of either true or false.","category":"Logical Truth \u0026 Validity"},{"word":"Objective","meaning":"Based on real facts and evidence, not influenced by personal feelings or opinions.","example":"An objective report should only present the facts, without taking sides.","category":"Logical Truth \u0026 Validity"},{"word":"Subjective","meaning":"Based on personal opinions, feelings, or tastes rather than facts.","example":"Which movie is the best is a highly subjective question.","category":"Logical Truth \u0026 Validity"},{"word":"Inconsistency","meaning":"A situation where two or more statements or facts contradict each other.","example":"There is an inconsistency between his words and his actions.","category":"Logical Truth \u0026 Validity"},{"word":"Self-Contradiction","meaning":"A statement containing ideas that cannot both be true at the same time.","example":"The sentence \u0027I am completely silent right now\u0027 is a self-contradiction.","category":"Logical Truth \u0026 Validity"},{"word":"Fallacious","meaning":"Based on a mistaken belief or incorrect reasoning; containing a fallacy.","example":"His conclusion was fallacious because it was based on biased data.","category":"Logical Truth \u0026 Validity"},{"word":"Tenable","meaning":"An idea or argument that can be defended successfully against criticism.","example":"His position is no longer tenable because new evidence proves him wrong.","category":"Logical Truth \u0026 Validity"},{"word":"Untenable","meaning":"An idea or argument that cannot be defended against criticism or objection.","example":"The theory became untenable after the laboratory experiments failed repeatedly.","category":"Logical Truth \u0026 Validity"},{"word":"Cogent","meaning":"Clear, logical, and convincing; powerfully persuasive.","example":"She presented a cogent argument that convinced the board to approve the budget.","category":"Logical Truth \u0026 Validity"},{"word":"Logical Flow","meaning":"The smooth transition of ideas from one point to the next in an argument.","example":"The essay was easy to read because it had a very clear logical flow.","category":"Logical Truth \u0026 Validity"},{"word":"Conclusive","meaning":"Proving something completely, leaving no doubt about the result.","example":"The fingerprint on the glass was conclusive proof that he was in the room.","category":"Logical Truth \u0026 Validity"},{"word":"Inconclusive","meaning":"Not leading to a firm conclusion; leaving things uncertain.","example":"The blood test was inconclusive, so the doctor ordered more tests.","category":"Logical Truth \u0026 Validity"},{"word":"Axiom","meaning":"A statement or principle that is accepted as true without proof, acting as a starting point.","example":"In geometry, the idea that a straight line is the shortest path between two points is an axiom.","category":"Logical Truth \u0026 Validity"},{"word":"Corollary","meaning":"A natural consequence or direct result that follows logically from another proven statement.","example":"If you eat too much sugar, a corollary is that you might develop tooth decay.","category":"Logical Truth \u0026 Validity"},{"word":"Paradox","meaning":"A statement that seems self-contradictory but may reveal a surprising truth.","example":"The paradox of saving money is that if everyone does it, the economy slows down.","category":"Logical Truth \u0026 Validity"},{"word":"Absurdity","meaning":"The quality of being completely ridiculous, illogical, or unreasonable.","example":"The argument reached an absurdity when he claimed that gravity was a hoax.","category":"Logical Truth \u0026 Validity"},{"word":"Veracity","meaning":"The truthfulness or accuracy of a statement or claim.","example":"We questioned the veracity of his story because he had lied in the past.","category":"Logical Truth \u0026 Validity"},{"word":"Fallacy","meaning":"An error in reasoning that makes an argument invalid.","example":"Attacking a person instead of their argument is a common logical fallacy.","category":"Logical Truth \u0026 Validity"},{"word":"Ambiguity","meaning":"The quality of being unclear or open to multiple meanings.","example":"The ambiguity in the contract caused a dispute between the two companies.","category":"Logical Truth \u0026 Validity"},{"word":"Empirical Evidence","meaning":"Information received by means of observation or experimentation.","example":"There is no empirical evidence to support the claim that this plant cures diseases.","category":"Logical Truth \u0026 Validity"}]
+[
+  {
+    "word": "Validity",
+    "meaning": "The quality of an argument being logically correct in its structure.",
+    "example": "If your premises are false, the validity of your argument doesn't make your conclusion true.",
+    "category": "Logical Truth & Validity"
+  },
+  {
+    "word": "Soundness",
+    "meaning": "The state of an argument being both logically valid and based on true facts.",
+    "example": "A sound argument must have true premises and a correct logical structure.",
+    "category": "Logical Truth & Validity"
+  },
+  {
+    "word": "Coherence",
+    "meaning": "The quality of being logical, consistent, and easy to understand as a whole.",
+    "example": "His explanation lacked coherence; it was just a random mix of thoughts.",
+    "category": "Logical Truth & Validity"
+  },
+  {
+    "word": "Plausibility",
+    "meaning": "The quality of seeming reasonable, believable, or likely to be true.",
+    "example": "The police questioned the plausibility of his story about losing his keys.",
+    "category": "Logical Truth & Validity"
+  },
+  {
+    "word": "Credibility",
+    "meaning": "The quality of being trusted and believed in.",
+    "example": "The witness lost his credibility when he changed his story multiple times.",
+    "category": "Logical Truth & Validity"
+  },
+  {
+    "word": "Truth Value",
+    "meaning": "Whether a statement is true or false (the basic property of propositions in logic).",
+    "example": "In boolean logic, every variable has a truth value of either true or false.",
+    "category": "Logical Truth & Validity"
+  },
+  {
+    "word": "Objective",
+    "meaning": "Based on real facts and evidence, not influenced by personal feelings or opinions.",
+    "example": "An objective report should only present the facts, without taking sides.",
+    "category": "Logical Truth & Validity",
+    "meaning_hi": "????????"
+  },
+  {
+    "word": "Subjective",
+    "meaning": "Based on personal opinions, feelings, or tastes rather than facts.",
+    "example": "Which movie is the best is a highly subjective question.",
+    "category": "Logical Truth & Validity"
+  },
+  {
+    "word": "Inconsistency",
+    "meaning": "A situation where two or more statements or facts contradict each other.",
+    "example": "There is an inconsistency between his words and his actions.",
+    "category": "Logical Truth & Validity"
+  },
+  {
+    "word": "Self-Contradiction",
+    "meaning": "A statement containing ideas that cannot both be true at the same time.",
+    "example": "The sentence 'I am completely silent right now' is a self-contradiction.",
+    "category": "Logical Truth & Validity"
+  },
+  {
+    "word": "Fallacious",
+    "meaning": "Based on a mistaken belief or incorrect reasoning; containing a fallacy.",
+    "example": "His conclusion was fallacious because it was based on biased data.",
+    "category": "Logical Truth & Validity"
+  },
+  {
+    "word": "Tenable",
+    "meaning": "An idea or argument that can be defended successfully against criticism.",
+    "example": "His position is no longer tenable because new evidence proves him wrong.",
+    "category": "Logical Truth & Validity"
+  },
+  {
+    "word": "Untenable",
+    "meaning": "An idea or argument that cannot be defended against criticism or objection.",
+    "example": "The theory became untenable after the laboratory experiments failed repeatedly.",
+    "category": "Logical Truth & Validity"
+  },
+  {
+    "word": "Cogent",
+    "meaning": "Clear, logical, and convincing; powerfully persuasive.",
+    "example": "She presented a cogent argument that convinced the board to approve the budget.",
+    "category": "Logical Truth & Validity"
+  },
+  {
+    "word": "Logical Flow",
+    "meaning": "The smooth transition of ideas from one point to the next in an argument.",
+    "example": "The essay was easy to read because it had a very clear logical flow.",
+    "category": "Logical Truth & Validity"
+  },
+  {
+    "word": "Conclusive",
+    "meaning": "Proving something completely, leaving no doubt about the result.",
+    "example": "The fingerprint on the glass was conclusive proof that he was in the room.",
+    "category": "Logical Truth & Validity"
+  },
+  {
+    "word": "Inconclusive",
+    "meaning": "Not leading to a firm conclusion; leaving things uncertain.",
+    "example": "The blood test was inconclusive, so the doctor ordered more tests.",
+    "category": "Logical Truth & Validity"
+  },
+  {
+    "word": "Axiom",
+    "meaning": "A statement or principle that is accepted as true without proof, acting as a starting point.",
+    "example": "In geometry, the idea that a straight line is the shortest path between two points is an axiom.",
+    "category": "Logical Truth & Validity"
+  },
+  {
+    "word": "Corollary",
+    "meaning": "A natural consequence or direct result that follows logically from another proven statement.",
+    "example": "If you eat too much sugar, a corollary is that you might develop tooth decay.",
+    "category": "Logical Truth & Validity"
+  },
+  {
+    "word": "Paradox",
+    "meaning": "A statement that seems self-contradictory but may reveal a surprising truth.",
+    "example": "The paradox of saving money is that if everyone does it, the economy slows down.",
+    "category": "Logical Truth & Validity"
+  },
+  {
+    "word": "Absurdity",
+    "meaning": "The quality of being completely ridiculous, illogical, or unreasonable.",
+    "example": "The argument reached an absurdity when he claimed that gravity was a hoax.",
+    "category": "Logical Truth & Validity"
+  },
+  {
+    "word": "Veracity",
+    "meaning": "The truthfulness or accuracy of a statement or claim.",
+    "example": "We questioned the veracity of his story because he had lied in the past.",
+    "category": "Logical Truth & Validity"
+  },
+  {
+    "word": "Fallacy",
+    "meaning": "An error in reasoning that makes an argument invalid.",
+    "example": "Attacking a person instead of their argument is a common logical fallacy.",
+    "category": "Logical Truth & Validity"
+  },
+  {
+    "word": "Ambiguity",
+    "meaning": "The quality of being unclear or open to multiple meanings.",
+    "example": "The ambiguity in the contract caused a dispute between the two companies.",
+    "category": "Logical Truth & Validity"
+  },
+  {
+    "word": "Empirical Evidence",
+    "meaning": "Information received by means of observation or experimentation.",
+    "example": "There is no empirical evidence to support the claim that this plant cures diseases.",
+    "category": "Logical Truth & Validity"
+  }
+]

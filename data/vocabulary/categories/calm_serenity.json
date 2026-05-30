@@ -1,26 +1,28 @@
-﻿[
-    {
-        "word":  "calm",
-        "meaning":  "Not showing or feeling nervousness or excitement; tranquil",
-        "example":  "She remained calm despite the chaos around her.",
-        "category":  "Calm / Serenity"
-    },
-    {
-        "word":  "serene",
-        "meaning":  "Feeling or appearing pleasantly calm and untroubled",
-        "example":  "He was serene as he meditated by the lake.",
-        "category":  "Calm / Serenity"
-    },
-    {
-        "word":  "tranquil",
-        "meaning":  "Free from disturbance; pleasantly peaceful and quiet",
-        "example":  "The tranquil garden helped her relax after a stressful day.",
-        "category":  "Calm / Serenity"
-    },
-    {
-        "word":  "blissful",
-        "meaning":  "Feeling perfect happiness and complete peace of mind",
-        "example":  "They spent a blissful week by the ocean.",
-        "category":  "Calm / Serenity"
-    }
+[
+  {
+    "word": "calm",
+    "meaning": "Not showing or feeling nervousness or excitement; tranquil",
+    "example": "She remained calm despite the chaos around her.",
+    "category": "Calm / Serenity",
+    "meaning_hi": "???? (Shaant)",
+    "pronunciation": "kahm"
+  },
+  {
+    "word": "serene",
+    "meaning": "Feeling or appearing pleasantly calm and untroubled",
+    "example": "He was serene as he meditated by the lake.",
+    "category": "Calm / Serenity"
+  },
+  {
+    "word": "tranquil",
+    "meaning": "Free from disturbance; pleasantly peaceful and quiet",
+    "example": "The tranquil garden helped her relax after a stressful day.",
+    "category": "Calm / Serenity"
+  },
+  {
+    "word": "blissful",
+    "meaning": "Feeling perfect happiness and complete peace of mind",
+    "example": "They spent a blissful week by the ocean.",
+    "category": "Calm / Serenity"
+  }
 ]

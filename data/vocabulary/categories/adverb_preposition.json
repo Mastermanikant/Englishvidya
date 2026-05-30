@@ -1,52 +1,56 @@
-﻿[
-    {
-        "word":  "up",
-        "hindi_meaning":  "à¤Šà¤ªà¤°",
-        "pronunciation_help":  "à¤…à¤ª (Up)",
-        "word_type":  "Adverb / Preposition",
-        "simple_explanation":  "Towards a higher place.",
-        "daily_life_use":  "Directing movement.",
-        "spoken_use":  "Look up at the sky.",
-        "natural_native_use":  "Go up the stairs.",
-        "emotional_tone":  "Neutral",
-        "common_collocations":  [
-                                    "stand up",
-                                    "wake up",
-                                    "go up"
-                                ],
-        "examples":  [
-                         "Please stand up.",
-                         "Prices are going up."
-                     ],
-        "common_mistakes":  "Using \u0027up\u0027 unnecessarily (e.g., \u0027open up\u0027 vs \u0027open\u0027).",
-        "hindi_confusion_correction":  "Hindi \u0027oopar\u0027 is up.",
-        "formal_informal_note":  "Standard vocabulary.",
-        "image_url":  "https://commons.wikimedia.org/wiki/Special:FilePath/Up_arrow.svg",
-        "category":  "Adverb / Preposition"
-    },
-    {
-        "word":  "down",
-        "hindi_meaning":  "à¤¨à¥€à¤šà¥‡",
-        "pronunciation_help":  "à¤¡à¤¾à¤‰à¤¨ (Down)",
-        "word_type":  "Adverb / Preposition",
-        "simple_explanation":  "Towards a lower place.",
-        "daily_life_use":  "Directing movement.",
-        "spoken_use":  "Please sit down.",
-        "natural_native_use":  "Look down.",
-        "emotional_tone":  "Neutral",
-        "common_collocations":  [
-                                    "sit down",
-                                    "fall down",
-                                    "calm down"
-                                ],
-        "examples":  [
-                         "The sun is going down.",
-                         "Write this down."
-                     ],
-        "common_mistakes":  "Confusing \u0027down\u0027 with \u0027under\u0027.",
-        "hindi_confusion_correction":  "Hindi \u0027neeche\u0027 is down.",
-        "formal_informal_note":  "Standard vocabulary.",
-        "image_url":  "https://commons.wikimedia.org/wiki/Special:FilePath/Down_arrow.svg",
-        "category":  "Adverb / Preposition"
-    }
+[
+  {
+    "word": "up",
+    "hindi_meaning": "ऊपर",
+    "pronunciation_help": "अप (Up)",
+    "word_type": "Adverb / Preposition",
+    "simple_explanation": "Towards a higher place.",
+    "daily_life_use": "Directing movement.",
+    "spoken_use": "Look up at the sky.",
+    "natural_native_use": "Go up the stairs.",
+    "emotional_tone": "Neutral",
+    "common_collocations": [
+      "stand up",
+      "wake up",
+      "go up"
+    ],
+    "examples": [
+      "Please stand up.",
+      "Prices are going up."
+    ],
+    "common_mistakes": "Using 'up' unnecessarily (e.g., 'open up' vs 'open').",
+    "hindi_confusion_correction": "Hindi 'oopar' is up.",
+    "formal_informal_note": "Standard vocabulary.",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Up_arrow.svg",
+    "category": "Adverb / Preposition",
+    "meaning_hi": "",
+    "pronunciation": "?? (Up)"
+  },
+  {
+    "word": "down",
+    "hindi_meaning": "नीचे",
+    "pronunciation_help": "डाउन (Down)",
+    "word_type": "Adverb / Preposition",
+    "simple_explanation": "Towards a lower place.",
+    "daily_life_use": "Directing movement.",
+    "spoken_use": "Please sit down.",
+    "natural_native_use": "Look down.",
+    "emotional_tone": "Neutral",
+    "common_collocations": [
+      "sit down",
+      "fall down",
+      "calm down"
+    ],
+    "examples": [
+      "The sun is going down.",
+      "Write this down."
+    ],
+    "common_mistakes": "Confusing 'down' with 'under'.",
+    "hindi_confusion_correction": "Hindi 'neeche' is down.",
+    "formal_informal_note": "Standard vocabulary.",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Down_arrow.svg",
+    "category": "Adverb / Preposition",
+    "meaning_hi": "",
+    "pronunciation": "???? (Down)"
+  }
 ]

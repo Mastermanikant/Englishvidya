@@ -1,1 +1,76 @@
-﻿[{"word":"actually","category":"interject","definition":"Used to emphasize the truth or facts of a situation."},{"word":"briefly","category":"interject","definition":"For a short time; in a few words."},{"word":"candidly","category":"interject","definition":"In an honest and straightforward way; frankly."},{"word":"concede","category":"interject","definition":"Admit that something is true or valid after first denying or resisting it."},{"word":"frankly","category":"interject","definition":"In an open, honest, and direct manner."},{"word":"genuinely","category":"interject","definition":"In a truthful way."},{"word":"honestly","category":"interject","definition":"In a truthful, fair, or honorable way."},{"word":"indeed","category":"interject","definition":"Used to emphasize a statement or response confirming something already suggested."},{"word":"interject","category":"interject","definition":"Say something abruptly, especially as an aside or interruption."},{"word":"intervene","category":"interject","definition":"Come between so as to prevent or alter a result or course of events."},{"word":"naturally","category":"interject","definition":"Without special intervention; in a natural manner."},{"word":"realistically","category":"interject","definition":"In a way that demonstrates a sensible and practical idea of what can be achieved or expected."},{"word":"remark","category":"interject","definition":"Say something as a comment; mention."},{"word":"theoretically","category":"interject","definition":"In a way that relates to the theory of a subject or area of study rather than its practical application."}]
+[
+  {
+    "word": "actually",
+    "category": "interject",
+    "definition": "Used to emphasize the truth or facts of a situation.",
+    "meaning_hi": "????? / ?????? ??? (darasal / vaastav mein)",
+    "pronunciation": "???????? (ak-choo-uh-lee)"
+  },
+  {
+    "word": "briefly",
+    "category": "interject",
+    "definition": "For a short time; in a few words."
+  },
+  {
+    "word": "candidly",
+    "category": "interject",
+    "definition": "In an honest and straightforward way; frankly."
+  },
+  {
+    "word": "concede",
+    "category": "interject",
+    "definition": "Admit that something is true or valid after first denying or resisting it."
+  },
+  {
+    "word": "frankly",
+    "category": "interject",
+    "definition": "In an open, honest, and direct manner."
+  },
+  {
+    "word": "genuinely",
+    "category": "interject",
+    "definition": "In a truthful way."
+  },
+  {
+    "word": "honestly",
+    "category": "interject",
+    "definition": "In a truthful, fair, or honorable way.",
+    "meaning_hi": "???????? ?? / ?? ???? ?? (imaandari se / sach kahoon toh)",
+    "pronunciation": "???????? (on-est-lee)"
+  },
+  {
+    "word": "indeed",
+    "category": "interject",
+    "definition": "Used to emphasize a statement or response confirming something already suggested."
+  },
+  {
+    "word": "interject",
+    "category": "interject",
+    "definition": "Say something abruptly, especially as an aside or interruption."
+  },
+  {
+    "word": "intervene",
+    "category": "interject",
+    "definition": "Come between so as to prevent or alter a result or course of events."
+  },
+  {
+    "word": "naturally",
+    "category": "interject",
+    "definition": "Without special intervention; in a natural manner."
+  },
+  {
+    "word": "realistically",
+    "category": "interject",
+    "definition": "In a way that demonstrates a sensible and practical idea of what can be achieved or expected."
+  },
+  {
+    "word": "remark",
+    "category": "interject",
+    "definition": "Say something as a comment; mention."
+  },
+  {
+    "word": "theoretically",
+    "category": "interject",
+    "definition": "In a way that relates to the theory of a subject or area of study rather than its practical application."
+  }
+]

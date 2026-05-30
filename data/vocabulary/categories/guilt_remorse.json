@@ -1,26 +1,28 @@
-﻿[
-    {
-        "word":  "guilty",
-        "meaning":  "Feeling responsible for a wrongdoing and burdened by it",
-        "example":  "He felt guilty for missing his friend\u0027s important event.",
-        "category":  "Guilt / Remorse"
-    },
-    {
-        "word":  "remorseful",
-        "meaning":  "Feeling deep regret and sadness for having done something wrong",
-        "example":  "She was remorseful after speaking harshly to her friend.",
-        "category":  "Guilt / Remorse"
-    },
-    {
-        "word":  "contrite",
-        "meaning":  "Feeling or expressing sincere sorrow and regret for wrongdoing",
-        "example":  "He gave a contrite apology for his rude behavior.",
-        "category":  "Guilt / Remorse"
-    },
-    {
-        "word":  "penitent",
-        "meaning":  "Feeling sorrow and wanting to make amends for a wrong done",
-        "example":  "She was penitent and pledged to correct her mistakes.",
-        "category":  "Guilt / Remorse"
-    }
+[
+  {
+    "word": "guilty",
+    "meaning": "Feeling responsible for a wrongdoing and burdened by it",
+    "example": "He felt guilty for missing his friend's important event.",
+    "category": "Guilt / Remorse",
+    "meaning_hi": "???? / ?????? ????? ???? (Doshi / Apraadhi mahsoos karna)",
+    "pronunciation": "GIL-tee"
+  },
+  {
+    "word": "remorseful",
+    "meaning": "Feeling deep regret and sadness for having done something wrong",
+    "example": "She was remorseful after speaking harshly to her friend.",
+    "category": "Guilt / Remorse"
+  },
+  {
+    "word": "contrite",
+    "meaning": "Feeling or expressing sincere sorrow and regret for wrongdoing",
+    "example": "He gave a contrite apology for his rude behavior.",
+    "category": "Guilt / Remorse"
+  },
+  {
+    "word": "penitent",
+    "meaning": "Feeling sorrow and wanting to make amends for a wrong done",
+    "example": "She was penitent and pledged to correct her mistakes.",
+    "category": "Guilt / Remorse"
+  }
 ]

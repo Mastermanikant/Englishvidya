@@ -1,1 +1,219 @@
-﻿[{"word":"Algorithm","meaning":"A step-by-step set of instructions to solve a problem â€” like a recipe for a computer.","example":"The algorithm sorted the list of names alphabetically in seconds.","category":"Computing"},{"word":"API","meaning":"Application Programming Interface â€” a way for two apps to talk to each other, like a waiter taking your order to the kitchen.","example":"The weather app uses an API to fetch live temperature data.","category":"Computing"},{"word":"Binary","meaning":"A number system using only 0s and 1s â€” the basic language computers understand.","example":"The letter \u0027A\u0027 is represented as 01000001 in binary.","category":"Computing"},{"word":"Boot","meaning":"The process of starting up a computer or device.","example":"The laptop takes 15 seconds to boot after you press the power button.","category":"Computing"},{"word":"Bug","meaning":"An error or flaw in a computer program that causes it to behave unexpectedly.","example":"A bug in the app caused it to crash whenever a photo was uploaded.","category":"Computing"},{"word":"Cache","meaning":"A temporary storage area that saves frequently used data for quick access â€” like keeping a bookmark in a book.","example":"Clearing the cache made the website load faster.","category":"Computing"},{"word":"Code","meaning":"Instructions written in a programming language that tell a computer what to do.","example":"The developer wrote code to build the login page.","category":"Computing"},{"word":"Compression","meaning":"Reducing the size of a file so it takes less space or transfers faster.","example":"The image was compressed before being sent by email.","category":"Computing"},{"word":"Cursor","meaning":"The small arrow or blinking line on your screen that shows where you are pointing or typing.","example":"She moved the cursor to the \u0027Submit\u0027 button and clicked.","category":"Computing"},{"word":"Data","meaning":"Facts and information stored or used by a computer â€” numbers, text, images, and more.","example":"The hospital stores patient data electronically.","category":"Computing"},{"word":"Database","meaning":"An organized collection of data stored so it can be easily found and used.","example":"The school keeps all student records in a database.","category":"Computing"},{"word":"Debug","meaning":"The process of finding and fixing errors (bugs) in a computer program.","example":"It took the programmer two hours to debug the payment system.","category":"Computing"},{"word":"Default","meaning":"The setting or value a system uses automatically unless you change it.","example":"The default language on the phone was English.","category":"Computing"},{"word":"Error","meaning":"A mistake or problem in a program or system that causes it to work incorrectly.","example":"An error message appeared saying the file could not be found.","category":"Computing"},{"word":"Format","meaning":"The structure or type in which information is stored, e.g. PDF, JPEG, or MP3.","example":"The document was saved in PDF format so it could be opened on any device.","category":"Computing"},{"word":"Graphics","meaning":"Visual elements such as images, animations, and designs displayed on a screen.","example":"The new game had stunning 3D graphics.","category":"Computing"},{"word":"Icon","meaning":"A small image on a screen that represents an app, file, or function.","example":"Tap the camera icon to open the photo app.","category":"Computing"},{"word":"Input","meaning":"Data or information you put into a computer, e.g. typing, clicking, or speaking.","example":"The form required input such as your name and email address.","category":"Computing"},{"word":"Output","meaning":"Information or results produced by a computer, such as text on screen or a printed document.","example":"The printer\u0027s output was a perfectly formatted report.","category":"Computing"},{"word":"Pixel","meaning":"The smallest unit of a digital image â€” thousands of tiny coloured dots make up the picture on your screen.","example":"A higher pixel count means a sharper, clearer photo.","category":"Computing"},{"word":"Reboot","meaning":"To restart a computer or device â€” often fixes minor problems.","example":"The technician told him to reboot the router to restore the connection.","category":"Computing"},{"word":"Resolution","meaning":"The number of pixels in an image or screen â€” higher resolution means a sharper picture.","example":"The 4K monitor has four times the resolution of a standard HD screen.","category":"Computing"},{"word":"Screenshot","meaning":"An image of whatever is currently displayed on your screen.","example":"She took a screenshot of the error message to send to technical support.","category":"Computing"},{"word":"Server","meaning":"A powerful computer that stores data and sends it to other computers when requested.","example":"The website went down because the server was overloaded with visitors.","category":"Computing"},{"word":"Shortcut","meaning":"A quicker way to perform an action, often using a key combination like Ctrl+C to copy.","example":"Use the keyboard shortcut Ctrl+Z to undo your last action.","category":"Computing"},{"word":"System","meaning":"A group of hardware and software components working together to perform tasks.","example":"The hospital\u0027s information system keeps track of all patient appointments.","category":"Computing"},{"word":"Terminal","meaning":"A text-based interface for typing commands directly to a computer\u0027s operating system.","example":"The developer used the terminal to run a script that updated the server.","category":"Computing"},{"word":"User","meaning":"Any person who interacts with a computer, app, or digital service.","example":"The app has over one million active users worldwide.","category":"Computing"},{"word":"Backup","meaning":"A copy of your data stored separately so it can be restored if the original is lost.","example":"She made a backup of all her files before updating the operating system.","category":"Computing"},{"word":"Crash","meaning":"When a program or system suddenly stops working and closes unexpectedly.","example":"The app crashed and she lost the paragraph she had just written.","category":"Computing"},{"word":"Cursor Blink","meaning":"The rhythmic flashing of the text cursor that shows where your next typed character will appear.","example":"She watched the cursor blink, waiting for inspiration to write.","category":"Computing"},{"word":"File","meaning":"A named collection of data stored on a device â€” documents, photos, or videos are all files.","example":"She saved the report as a PDF file.","category":"Computing"},{"word":"Folder","meaning":"A container used to organise files on a computer â€” like a physical folder in a filing cabinet.","example":"He created a folder called \u0027Projects 2025\u0027 to organise his work.","category":"Computing"},{"word":"Glitch","meaning":"A small, temporary error in a system that causes unexpected behaviour.","example":"There was a glitch in the app that made the screen flicker.","category":"Computing"},{"word":"Megabyte (MB)","meaning":"A unit of digital data equal to roughly one million bytes â€” used to measure file sizes.","example":"The photo was 4 megabytes in size.","category":"Computing"},{"word":"Remote","meaning":"Accessing or controlling a computer or system from a different location over the internet.","example":"The IT team fixed the problem using remote access to his computer.","category":"Computing"}]
+[
+  {
+    "word": "Algorithm",
+    "meaning": "A step-by-step set of instructions to solve a problem â€” like a recipe for a computer.",
+    "example": "The algorithm sorted the list of names alphabetically in seconds.",
+    "category": "Computing"
+  },
+  {
+    "word": "API",
+    "meaning": "Application Programming Interface â€” a way for two apps to talk to each other, like a waiter taking your order to the kitchen.",
+    "example": "The weather app uses an API to fetch live temperature data.",
+    "category": "Computing"
+  },
+  {
+    "word": "Binary",
+    "meaning": "A number system using only 0s and 1s â€” the basic language computers understand.",
+    "example": "The letter 'A' is represented as 01000001 in binary.",
+    "category": "Computing"
+  },
+  {
+    "word": "Boot",
+    "meaning": "The process of starting up a computer or device.",
+    "example": "The laptop takes 15 seconds to boot after you press the power button.",
+    "category": "Computing"
+  },
+  {
+    "word": "Bug",
+    "meaning": "An error or flaw in a computer program that causes it to behave unexpectedly.",
+    "example": "A bug in the app caused it to crash whenever a photo was uploaded.",
+    "category": "Computing"
+  },
+  {
+    "word": "Cache",
+    "meaning": "A temporary storage area that saves frequently used data for quick access â€” like keeping a bookmark in a book.",
+    "example": "Clearing the cache made the website load faster.",
+    "category": "Computing"
+  },
+  {
+    "word": "Code",
+    "meaning": "Instructions written in a programming language that tell a computer what to do.",
+    "example": "The developer wrote code to build the login page.",
+    "category": "Computing"
+  },
+  {
+    "word": "Compression",
+    "meaning": "Reducing the size of a file so it takes less space or transfers faster.",
+    "example": "The image was compressed before being sent by email.",
+    "category": "Computing"
+  },
+  {
+    "word": "Cursor",
+    "meaning": "The small arrow or blinking line on your screen that shows where you are pointing or typing.",
+    "example": "She moved the cursor to the 'Submit' button and clicked.",
+    "category": "Computing"
+  },
+  {
+    "word": "Data",
+    "meaning": "Facts and information stored or used by a computer â€” numbers, text, images, and more.",
+    "example": "The hospital stores patient data electronically.",
+    "category": "Computing"
+  },
+  {
+    "word": "Database",
+    "meaning": "An organized collection of data stored so it can be easily found and used.",
+    "example": "The school keeps all student records in a database.",
+    "category": "Computing"
+  },
+  {
+    "word": "Debug",
+    "meaning": "The process of finding and fixing errors (bugs) in a computer program.",
+    "example": "It took the programmer two hours to debug the payment system.",
+    "category": "Computing"
+  },
+  {
+    "word": "Default",
+    "meaning": "The setting or value a system uses automatically unless you change it.",
+    "example": "The default language on the phone was English.",
+    "category": "Computing"
+  },
+  {
+    "word": "Error",
+    "meaning": "A mistake or problem in a program or system that causes it to work incorrectly.",
+    "example": "An error message appeared saying the file could not be found.",
+    "category": "Computing"
+  },
+  {
+    "word": "Format",
+    "meaning": "The structure or type in which information is stored, e.g. PDF, JPEG, or MP3.",
+    "example": "The document was saved in PDF format so it could be opened on any device.",
+    "category": "Computing"
+  },
+  {
+    "word": "Graphics",
+    "meaning": "Visual elements such as images, animations, and designs displayed on a screen.",
+    "example": "The new game had stunning 3D graphics.",
+    "category": "Computing"
+  },
+  {
+    "word": "Icon",
+    "meaning": "A small image on a screen that represents an app, file, or function.",
+    "example": "Tap the camera icon to open the photo app.",
+    "category": "Computing"
+  },
+  {
+    "word": "Input",
+    "meaning": "Data or information you put into a computer, e.g. typing, clicking, or speaking.",
+    "example": "The form required input such as your name and email address.",
+    "category": "Computing"
+  },
+  {
+    "word": "Output",
+    "meaning": "Information or results produced by a computer, such as text on screen or a printed document.",
+    "example": "The printer's output was a perfectly formatted report.",
+    "category": "Computing"
+  },
+  {
+    "word": "Pixel",
+    "meaning": "The smallest unit of a digital image â€” thousands of tiny coloured dots make up the picture on your screen.",
+    "example": "A higher pixel count means a sharper, clearer photo.",
+    "category": "Computing"
+  },
+  {
+    "word": "Reboot",
+    "meaning": "To restart a computer or device â€” often fixes minor problems.",
+    "example": "The technician told him to reboot the router to restore the connection.",
+    "category": "Computing"
+  },
+  {
+    "word": "Resolution",
+    "meaning": "The number of pixels in an image or screen â€” higher resolution means a sharper picture.",
+    "example": "The 4K monitor has four times the resolution of a standard HD screen.",
+    "category": "Computing"
+  },
+  {
+    "word": "Screenshot",
+    "meaning": "An image of whatever is currently displayed on your screen.",
+    "example": "She took a screenshot of the error message to send to technical support.",
+    "category": "Computing"
+  },
+  {
+    "word": "Server",
+    "meaning": "A powerful computer that stores data and sends it to other computers when requested.",
+    "example": "The website went down because the server was overloaded with visitors.",
+    "category": "Computing"
+  },
+  {
+    "word": "Shortcut",
+    "meaning": "A quicker way to perform an action, often using a key combination like Ctrl+C to copy.",
+    "example": "Use the keyboard shortcut Ctrl+Z to undo your last action.",
+    "category": "Computing"
+  },
+  {
+    "word": "System",
+    "meaning": "A group of hardware and software components working together to perform tasks.",
+    "example": "The hospital's information system keeps track of all patient appointments.",
+    "category": "Computing"
+  },
+  {
+    "word": "Terminal",
+    "meaning": "A text-based interface for typing commands directly to a computer's operating system.",
+    "example": "The developer used the terminal to run a script that updated the server.",
+    "category": "Computing"
+  },
+  {
+    "word": "User",
+    "meaning": "Any person who interacts with a computer, app, or digital service.",
+    "example": "The app has over one million active users worldwide.",
+    "category": "Computing"
+  },
+  {
+    "word": "Backup",
+    "meaning": "A copy of your data stored separately so it can be restored if the original is lost.",
+    "example": "She made a backup of all her files before updating the operating system.",
+    "category": "Computing"
+  },
+  {
+    "word": "Crash",
+    "meaning": "When a program or system suddenly stops working and closes unexpectedly.",
+    "example": "The app crashed and she lost the paragraph she had just written.",
+    "category": "Computing"
+  },
+  {
+    "word": "Cursor Blink",
+    "meaning": "The rhythmic flashing of the text cursor that shows where your next typed character will appear.",
+    "example": "She watched the cursor blink, waiting for inspiration to write.",
+    "category": "Computing"
+  },
+  {
+    "word": "File",
+    "meaning": "A named collection of data stored on a device â€” documents, photos, or videos are all files.",
+    "example": "She saved the report as a PDF file.",
+    "category": "Computing"
+  },
+  {
+    "word": "Folder",
+    "meaning": "A container used to organise files on a computer â€” like a physical folder in a filing cabinet.",
+    "example": "He created a folder called 'Projects 2025' to organise his work.",
+    "category": "Computing"
+  },
+  {
+    "word": "Glitch",
+    "meaning": "A small, temporary error in a system that causes unexpected behaviour.",
+    "example": "There was a glitch in the app that made the screen flicker.",
+    "category": "Computing"
+  },
+  {
+    "word": "Megabyte (MB)",
+    "meaning": "A unit of digital data equal to roughly one million bytes â€” used to measure file sizes.",
+    "example": "The photo was 4 megabytes in size.",
+    "category": "Computing"
+  },
+  {
+    "word": "Remote",
+    "meaning": "Accessing or controlling a computer or system from a different location over the internet.",
+    "example": "The IT team fixed the problem using remote access to his computer.",
+    "category": "Computing",
+    "meaning_hi": "?????"
+  }
+]

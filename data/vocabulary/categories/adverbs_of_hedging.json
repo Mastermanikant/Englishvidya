@@ -1,1 +1,184 @@
-﻿[{"word":"APPARENTLY","meaning":"According to what you have heard, read, or seen, though you are not completely certain.","example":"Apparently, the meeting has been rescheduled to tomorrow morning.","category":"Adverbs of Hedging"},{"word":"PRESUMABLY","meaning":"Used to say what you think is likely to happen or be true, based on what you already know.","example":"She didn\u0027t answer her phone, so presumably she is still in the middle of a flight.","category":"Adverbs of Hedging"},{"word":"ARGUABLY","meaning":"Used when stating an opinion that can be supported by facts and reasons, showing it is not an absolute truth.","example":"This is arguably the best software update they have released all year.","category":"Adverbs of Hedging"},{"word":"SEEMINGLY","meaning":"Appearing to be true or real, although it may not actually be so.","example":"The design is seemingly simple, but it actually contains many complex features.","category":"Adverbs of Hedging"},{"word":"SUPPOSEDLY","meaning":"Used to show that something is claimed or believed to be true by many, though it might not be.","example":"The new battery supposedly lasts for two full days without needing a charge.","category":"Adverbs of Hedging"},{"word":"REPORTEDLY","meaning":"According to rumors or news reports, but not confirmed by official sources.","example":"The company is reportedly planning to open a new office in Tokyo next year.","category":"Adverbs of Hedging"},{"word":"POTENTIALLY","meaning":"Possibly happening or developing in the future under certain conditions.","example":"This new marketing campaign could potentially double our monthly website visits.","category":"Adverbs of Hedging"},{"word":"THEORETICALLY","meaning":"Used to describe what is supposed to happen according to a plan or theory, though it might differ in reality.","example":"Theoretically, the bus should arrive every ten minutes, but traffic often causes delays.","category":"Adverbs of Hedging"},{"word":"HYPOTHETICALLY","meaning":"In a way that is based on a possible situation or guess rather than on real facts.","example":"Hypothetically speaking, if we had unlimited budget, what features would you add?","category":"Adverbs of Hedging"},{"word":"OSTENSIBLY","meaning":"Appearing to be true, or stated to be true, but perhaps hiding a different reality or motive.","example":"He visited the office ostensibly to check on the progress, but he really wanted to see the new layout.","category":"Adverbs of Hedging"},{"word":"RELATIVELY","meaning":"In comparison with other similar things or to a standard.","example":"The exam was relatively easy compared to the practice tests we did in class.","category":"Adverbs of Hedging"},{"word":"VIRTUALLY","meaning":"Almost or nearly; for all practical purposes.","example":"With modern technology, it is virtually impossible to get lost in a major city.","category":"Adverbs of Hedging"},{"word":"PRACTICALLY","meaning":"Almost or very nearly; used to soften a statement that might otherwise be an exaggeration.","example":"I have practically finished my report; I just need to write the conclusion.","category":"Adverbs of Hedging"},{"word":"TYPICALLY","meaning":"In a way that shows the usual characteristics of a person, thing, or group.","example":"We typically start our team meetings with a brief update from each developer.","category":"Adverbs of Hedging"},{"word":"GENERALLY","meaning":"By or to most people; in most cases or situations.","example":"The proposed schedule is generally acceptable, though we might need a few minor changes.","category":"Adverbs of Hedging"},{"word":"PROBABLY","meaning":"Used to say that something is very likely to happen or be true.","example":"It will probably rain this afternoon, so you should bring an umbrella.","category":"Adverbs of Hedging"},{"word":"POSSIBLY","meaning":"Used to show that something might be true or might happen, but is not certain.","example":"I could possibly finish this task by Friday if I don\u0027t receive any more urgent requests.","category":"Adverbs of Hedging"},{"word":"MAINLY","meaning":"More than anything else; for the most part.","example":"The delay was mainly due to unexpected technical issues with the servers.","category":"Adverbs of Hedging"},{"word":"PARTIALLY","meaning":"Not completely; only to some extent.","example":"The manager was partially responsible for the misunderstanding, as his instructions were unclear.","category":"Adverbs of Hedging"},{"word":"LARGELY","meaning":"To a great extent; mostly or chiefly.","example":"The success of the product launch was largely due to the hard work of the marketing team.","category":"Adverbs of Hedging"},{"word":"TECHNICALLY","meaning":"According to a strict, literal interpretation of the facts or rules.","example":"Technically, you are late, but since the meeting hasn\u0027t started, it\u0027s not a problem.","category":"Adverbs of Hedging"},{"word":"BROADLY","meaning":"In a general way, without focusing on specific details.","example":"Broadly speaking, the clients are happy with our progress so far.","category":"Adverbs of Hedging"},{"word":"LOOSELY","meaning":"In a way that is not strict, exact, or precise.","example":"The film is loosely based on a true story, but many details were changed for dramatic effect.","category":"Adverbs of Hedging"},{"word":"REASONABLY","meaning":"To a moderate or satisfactory degree; fairly.","example":"I am reasonably confident that we can launch the website by next week.","category":"Adverbs of Hedging"},{"word":"FEASIBLY","meaning":"In a way that is possible and practical to achieve.","example":"We could feasibly complete the database migration over the weekend to minimize downtime.","category":"Adverbs of Hedging"},{"word":"SPECIFICALLY","meaning":"For a particular purpose or in a precise way (often used to hedge general statements).","example":"I came here specifically to discuss the budget issues, though we can cover other topics too.","category":"Adverbs of Hedging"},{"word":"LIKELY","meaning":"Probable or expected; used to state a prediction without being 100% certain.","example":"It is likely that the board will approve the new policy at the next meeting.","category":"Adverbs of Hedging"},{"word":"UNLIKELY","meaning":"Not expected or probable; used to soften a negative prediction.","example":"It is unlikely that we will face any major problems during the transition.","category":"Adverbs of Hedging"},{"word":"PREFERABLY","meaning":"Used to indicate a choice that you would like best, but is not mandatory.","example":"Please submit your feedback by Thursday, preferably before the afternoon meeting.","category":"Adverbs of Hedging"},{"word":"HOPEFULLY","meaning":"Used to express a wish that something will happen, showing optimism without a guarantee.","example":"Hopefully, the new updates will resolve the crashing issues users have reported.","category":"Adverbs of Hedging"}]
+[
+  {
+    "word": "APPARENTLY",
+    "meaning": "According to what you have heard, read, or seen, though you are not completely certain.",
+    "example": "Apparently, the meeting has been rescheduled to tomorrow morning.",
+    "category": "Adverbs of Hedging"
+  },
+  {
+    "word": "PRESUMABLY",
+    "meaning": "Used to say what you think is likely to happen or be true, based on what you already know.",
+    "example": "She didn't answer her phone, so presumably she is still in the middle of a flight.",
+    "category": "Adverbs of Hedging"
+  },
+  {
+    "word": "ARGUABLY",
+    "meaning": "Used when stating an opinion that can be supported by facts and reasons, showing it is not an absolute truth.",
+    "example": "This is arguably the best software update they have released all year.",
+    "category": "Adverbs of Hedging"
+  },
+  {
+    "word": "SEEMINGLY",
+    "meaning": "Appearing to be true or real, although it may not actually be so.",
+    "example": "The design is seemingly simple, but it actually contains many complex features.",
+    "category": "Adverbs of Hedging"
+  },
+  {
+    "word": "SUPPOSEDLY",
+    "meaning": "Used to show that something is claimed or believed to be true by many, though it might not be.",
+    "example": "The new battery supposedly lasts for two full days without needing a charge.",
+    "category": "Adverbs of Hedging"
+  },
+  {
+    "word": "REPORTEDLY",
+    "meaning": "According to rumors or news reports, but not confirmed by official sources.",
+    "example": "The company is reportedly planning to open a new office in Tokyo next year.",
+    "category": "Adverbs of Hedging"
+  },
+  {
+    "word": "POTENTIALLY",
+    "meaning": "Possibly happening or developing in the future under certain conditions.",
+    "example": "This new marketing campaign could potentially double our monthly website visits.",
+    "category": "Adverbs of Hedging"
+  },
+  {
+    "word": "THEORETICALLY",
+    "meaning": "Used to describe what is supposed to happen according to a plan or theory, though it might differ in reality.",
+    "example": "Theoretically, the bus should arrive every ten minutes, but traffic often causes delays.",
+    "category": "Adverbs of Hedging"
+  },
+  {
+    "word": "HYPOTHETICALLY",
+    "meaning": "In a way that is based on a possible situation or guess rather than on real facts.",
+    "example": "Hypothetically speaking, if we had unlimited budget, what features would you add?",
+    "category": "Adverbs of Hedging"
+  },
+  {
+    "word": "OSTENSIBLY",
+    "meaning": "Appearing to be true, or stated to be true, but perhaps hiding a different reality or motive.",
+    "example": "He visited the office ostensibly to check on the progress, but he really wanted to see the new layout.",
+    "category": "Adverbs of Hedging"
+  },
+  {
+    "word": "RELATIVELY",
+    "meaning": "In comparison with other similar things or to a standard.",
+    "example": "The exam was relatively easy compared to the practice tests we did in class.",
+    "category": "Adverbs of Hedging"
+  },
+  {
+    "word": "VIRTUALLY",
+    "meaning": "Almost or nearly; for all practical purposes.",
+    "example": "With modern technology, it is virtually impossible to get lost in a major city.",
+    "category": "Adverbs of Hedging"
+  },
+  {
+    "word": "PRACTICALLY",
+    "meaning": "Almost or very nearly; used to soften a statement that might otherwise be an exaggeration.",
+    "example": "I have practically finished my report; I just need to write the conclusion.",
+    "category": "Adverbs of Hedging"
+  },
+  {
+    "word": "TYPICALLY",
+    "meaning": "In a way that shows the usual characteristics of a person, thing, or group.",
+    "example": "We typically start our team meetings with a brief update from each developer.",
+    "category": "Adverbs of Hedging"
+  },
+  {
+    "word": "GENERALLY",
+    "meaning": "By or to most people; in most cases or situations.",
+    "example": "The proposed schedule is generally acceptable, though we might need a few minor changes.",
+    "category": "Adverbs of Hedging"
+  },
+  {
+    "word": "PROBABLY",
+    "meaning": "Used to say that something is very likely to happen or be true.",
+    "example": "It will probably rain this afternoon, so you should bring an umbrella.",
+    "category": "Adverbs of Hedging",
+    "meaning_hi": "?????? / ???? (sambhavatah / shaayad)",
+    "pronunciation": "????????? (prob-ab-lee)"
+  },
+  {
+    "word": "POSSIBLY",
+    "meaning": "Used to show that something might be true or might happen, but is not certain.",
+    "example": "I could possibly finish this task by Friday if I don't receive any more urgent requests.",
+    "category": "Adverbs of Hedging"
+  },
+  {
+    "word": "MAINLY",
+    "meaning": "More than anything else; for the most part.",
+    "example": "The delay was mainly due to unexpected technical issues with the servers.",
+    "category": "Adverbs of Hedging"
+  },
+  {
+    "word": "PARTIALLY",
+    "meaning": "Not completely; only to some extent.",
+    "example": "The manager was partially responsible for the misunderstanding, as his instructions were unclear.",
+    "category": "Adverbs of Hedging"
+  },
+  {
+    "word": "LARGELY",
+    "meaning": "To a great extent; mostly or chiefly.",
+    "example": "The success of the product launch was largely due to the hard work of the marketing team.",
+    "category": "Adverbs of Hedging"
+  },
+  {
+    "word": "TECHNICALLY",
+    "meaning": "According to a strict, literal interpretation of the facts or rules.",
+    "example": "Technically, you are late, but since the meeting hasn't started, it's not a problem.",
+    "category": "Adverbs of Hedging"
+  },
+  {
+    "word": "BROADLY",
+    "meaning": "In a general way, without focusing on specific details.",
+    "example": "Broadly speaking, the clients are happy with our progress so far.",
+    "category": "Adverbs of Hedging"
+  },
+  {
+    "word": "LOOSELY",
+    "meaning": "In a way that is not strict, exact, or precise.",
+    "example": "The film is loosely based on a true story, but many details were changed for dramatic effect.",
+    "category": "Adverbs of Hedging"
+  },
+  {
+    "word": "REASONABLY",
+    "meaning": "To a moderate or satisfactory degree; fairly.",
+    "example": "I am reasonably confident that we can launch the website by next week.",
+    "category": "Adverbs of Hedging"
+  },
+  {
+    "word": "FEASIBLY",
+    "meaning": "In a way that is possible and practical to achieve.",
+    "example": "We could feasibly complete the database migration over the weekend to minimize downtime.",
+    "category": "Adverbs of Hedging"
+  },
+  {
+    "word": "SPECIFICALLY",
+    "meaning": "For a particular purpose or in a precise way (often used to hedge general statements).",
+    "example": "I came here specifically to discuss the budget issues, though we can cover other topics too.",
+    "category": "Adverbs of Hedging"
+  },
+  {
+    "word": "LIKELY",
+    "meaning": "Probable or expected; used to state a prediction without being 100% certain.",
+    "example": "It is likely that the board will approve the new policy at the next meeting.",
+    "category": "Adverbs of Hedging"
+  },
+  {
+    "word": "UNLIKELY",
+    "meaning": "Not expected or probable; used to soften a negative prediction.",
+    "example": "It is unlikely that we will face any major problems during the transition.",
+    "category": "Adverbs of Hedging"
+  },
+  {
+    "word": "PREFERABLY",
+    "meaning": "Used to indicate a choice that you would like best, but is not mandatory.",
+    "example": "Please submit your feedback by Thursday, preferably before the afternoon meeting.",
+    "category": "Adverbs of Hedging"
+  },
+  {
+    "word": "HOPEFULLY",
+    "meaning": "Used to express a wish that something will happen, showing optimism without a guarantee.",
+    "example": "Hopefully, the new updates will resolve the crashing issues users have reported.",
+    "category": "Adverbs of Hedging"
+  }
+]

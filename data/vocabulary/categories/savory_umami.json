@@ -1,1 +1,56 @@
-﻿[{"word":"salty","category":"savory_umami"},{"word":"savory","category":"savory_umami"},{"word":"umami","category":"savory_umami"},{"word":"briny","category":"savory_umami"},{"word":"saline","category":"savory_umami"},{"word":"meaty","category":"savory_umami"},{"word":"brothy","category":"savory_umami"},{"word":"rich","category":"savory_umami"},{"word":"earthy","category":"savory_umami"},{"word":"cheesy","category":"savory_umami"},{"word":"nutty","category":"savory_umami"},{"word":"yeasty","category":"savory_umami"},{"word":"mushroomy","category":"savory_umami"}]
+[
+  {
+    "word": "salty",
+    "category": "savory_umami",
+    "meaning_hi": "?????",
+    "pronunciation": "??????"
+  },
+  {
+    "word": "savory",
+    "category": "savory_umami"
+  },
+  {
+    "word": "umami",
+    "category": "savory_umami"
+  },
+  {
+    "word": "briny",
+    "category": "savory_umami"
+  },
+  {
+    "word": "saline",
+    "category": "savory_umami"
+  },
+  {
+    "word": "meaty",
+    "category": "savory_umami"
+  },
+  {
+    "word": "brothy",
+    "category": "savory_umami"
+  },
+  {
+    "word": "rich",
+    "category": "savory_umami"
+  },
+  {
+    "word": "earthy",
+    "category": "savory_umami"
+  },
+  {
+    "word": "cheesy",
+    "category": "savory_umami"
+  },
+  {
+    "word": "nutty",
+    "category": "savory_umami"
+  },
+  {
+    "word": "yeasty",
+    "category": "savory_umami"
+  },
+  {
+    "word": "mushroomy",
+    "category": "savory_umami"
+  }
+]

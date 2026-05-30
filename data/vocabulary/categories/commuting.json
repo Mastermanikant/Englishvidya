@@ -1,1 +1,74 @@
-﻿[{"word":"leave","category":"Commuting"},{"word":"lock","category":"Commuting"},{"word":"commute","category":"Commuting"},{"word":"drive","category":"Commuting"},{"word":"ride","category":"Commuting"},{"word":"cycle","category":"Commuting"},{"word":"pedal","category":"Commuting"},{"word":"walk","category":"Commuting"},{"word":"stroll","category":"Commuting"},{"word":"catch","category":"Commuting"},{"word":"board","category":"Commuting"},{"word":"embark","category":"Commuting"},{"word":"arrive","category":"Commuting"},{"word":"return","category":"Commuting"},{"word":"come back","category":"Commuting"}]
+[
+  {
+    "word": "leave",
+    "category": "Commuting",
+    "meaning_hi": "?????? / ??????"
+  },
+  {
+    "word": "lock",
+    "category": "Commuting",
+    "meaning_hi": "????",
+    "pronunciation": "??? (lok)"
+  },
+  {
+    "word": "commute",
+    "category": "Commuting"
+  },
+  {
+    "word": "drive",
+    "category": "Commuting",
+    "meaning_hi": "????? (?????)",
+    "pronunciation": "?????? (drive)"
+  },
+  {
+    "word": "ride",
+    "category": "Commuting",
+    "meaning_hi": "????? ????",
+    "pronunciation": "???? (ride)"
+  },
+  {
+    "word": "cycle",
+    "category": "Commuting"
+  },
+  {
+    "word": "pedal",
+    "category": "Commuting"
+  },
+  {
+    "word": "walk",
+    "category": "Commuting",
+    "meaning_hi": "????",
+    "pronunciation": "/w??k/"
+  },
+  {
+    "word": "stroll",
+    "category": "Commuting"
+  },
+  {
+    "word": "catch",
+    "category": "Commuting",
+    "meaning_hi": "??????",
+    "pronunciation": "??? (catch)"
+  },
+  {
+    "word": "board",
+    "category": "Commuting"
+  },
+  {
+    "word": "embark",
+    "category": "Commuting"
+  },
+  {
+    "word": "arrive",
+    "category": "Commuting",
+    "meaning_hi": "???????"
+  },
+  {
+    "word": "return",
+    "category": "Commuting"
+  },
+  {
+    "word": "come back",
+    "category": "Commuting"
+  }
+]

@@ -1,1 +1,153 @@
-﻿[{"word":"Referee","meaning":"An official who makes sure that players follow the rules of a game.","example":"The referee blew his whistle to stop the soccer match after a foul.","category":"Sports Rules"},{"word":"Penalty","meaning":"A punishment given to a player or team for breaking a rule.","example":"The team received a penalty because one of their players touched the ball with their hands.","category":"Sports Rules"},{"word":"Foul","meaning":"An unfair play or action in a game that goes against the rules.","example":"Pushing another player is a foul and will result in a free kick.","category":"Sports Rules"},{"word":"Offside","meaning":"A position in sports like soccer or hockey where a player is in an illegal spot, usually too close to the opponent\u0027s goal.","example":"The striker scored a goal, but it did not count because he was offside.","category":"Sports Rules"},{"word":"Overtime","meaning":"Extra time played at the end of a game when the score is tied.","example":"The basketball game went into overtime after both teams scored 90 points.","category":"Sports Rules"},{"word":"Tournament","meaning":"A series of games or contests in which many players or teams compete to win a final championship.","example":"The tennis tournament lasts for two weeks and has over a hundred players.","category":"Sports Rules"},{"word":"Substitute","meaning":"A player who replaces another player during a game.","example":"The coach decided to send in a substitute player in the second half of the match.","category":"Sports Rules"},{"word":"Disqualify","meaning":"To stop someone from playing or competing in a game because they did not follow the rules.","example":"The runner was disqualified for starting the race before the whistle blew.","category":"Sports Rules"},{"word":"Out of Bounds","meaning":"Outside the playing area of a field or court.","example":"The tennis ball landed out of bounds, so the point went to the other player.","category":"Sports Rules"},{"word":"Defense","meaning":"The part of a team that tries to stop the other team from scoring points.","example":"Our team has a strong defense, so it is difficult for opponents to score.","category":"Sports Rules"},{"word":"Offense","meaning":"The part of a team that tries to score goals or points.","example":"The team\u0027s offense is very fast and has scored many goals this season.","category":"Sports Rules"},{"word":"Draw","meaning":"A game that ends with the same score for both teams; a tie.","example":"The match ended in a 1-1 draw, so both teams received one point.","category":"Sports Rules"},{"word":"Championship","meaning":"The final game or match to decide who is the best player or team in a sport.","example":"They trained hard all year to win the state soccer championship.","category":"Sports Rules"},{"word":"Halftime","meaning":"A short rest period between the two halves of a sports game.","example":"During halftime, the players drank water and listened to the coach\u0027s new plan.","category":"Sports Rules"},{"word":"Playoffs","meaning":"A series of extra games played at the end of a regular season to decide the champion.","example":"Only the top eight teams in the league qualify for the playoffs.","category":"Sports Rules"},{"word":"Spectator","meaning":"A person who watches a sports event or game.","example":"Thousands of spectators filled the stadium to watch the final race.","category":"Sports Rules"},{"word":"Coach","meaning":"A person who trains and guides athletes or teams.","example":"The coach gave the team instructions on how to improve their passing.","category":"Sports Rules"},{"word":"Captain","meaning":"The chosen leader of a sports team.","example":"The captain shook hands with the referee before the game started.","category":"Sports Rules"},{"word":"Sportsmanship","meaning":"Fair, polite, and honest behavior when playing a sport or game.","example":"Shaking hands with your opponent after losing is a sign of good sportsmanship.","category":"Sports Rules"},{"word":"Forfeit","meaning":"To lose a game automatically because you cannot play or because you broke a rule.","example":"The team had to forfeit the game because they did not have enough players.","category":"Sports Rules"},{"word":"Underdog","meaning":"A player or team that is expected to lose a game or competition.","example":"Everyone was surprised when the underdog team won the final match.","category":"Sports Rules"},{"word":"MVP","meaning":"An abbreviation for Most Valuable Player, an award given to the best player in a game or season.","example":"Sarah was named MVP after scoring three goals in the final match.","category":"Sports Rules"},{"word":"Seeding","meaning":"The ranking of players or teams in a tournament based on their past performance.","example":"Because she has the highest seeding, she will play against lower-ranked players first.","category":"Sports Rules"},{"word":"Stretcher","meaning":"A flat frame used for carrying an injured player off the field.","example":"The player injured his leg and had to be carried away on a stretcher.","category":"Sports Rules"},{"word":"Home Turf","meaning":"The sports field or stadium that belongs to a specific team.","example":"Our team usually plays better when we are on our home turf.","category":"Sports Rules"}]
+[
+  {
+    "word": "Referee",
+    "meaning": "An official who makes sure that players follow the rules of a game.",
+    "example": "The referee blew his whistle to stop the soccer match after a foul.",
+    "category": "Sports Rules"
+  },
+  {
+    "word": "Penalty",
+    "meaning": "A punishment given to a player or team for breaking a rule.",
+    "example": "The team received a penalty because one of their players touched the ball with their hands.",
+    "category": "Sports Rules"
+  },
+  {
+    "word": "Foul",
+    "meaning": "An unfair play or action in a game that goes against the rules.",
+    "example": "Pushing another player is a foul and will result in a free kick.",
+    "category": "Sports Rules"
+  },
+  {
+    "word": "Offside",
+    "meaning": "A position in sports like soccer or hockey where a player is in an illegal spot, usually too close to the opponent's goal.",
+    "example": "The striker scored a goal, but it did not count because he was offside.",
+    "category": "Sports Rules"
+  },
+  {
+    "word": "Overtime",
+    "meaning": "Extra time played at the end of a game when the score is tied.",
+    "example": "The basketball game went into overtime after both teams scored 90 points.",
+    "category": "Sports Rules"
+  },
+  {
+    "word": "Tournament",
+    "meaning": "A series of games or contests in which many players or teams compete to win a final championship.",
+    "example": "The tennis tournament lasts for two weeks and has over a hundred players.",
+    "category": "Sports Rules"
+  },
+  {
+    "word": "Substitute",
+    "meaning": "A player who replaces another player during a game.",
+    "example": "The coach decided to send in a substitute player in the second half of the match.",
+    "category": "Sports Rules"
+  },
+  {
+    "word": "Disqualify",
+    "meaning": "To stop someone from playing or competing in a game because they did not follow the rules.",
+    "example": "The runner was disqualified for starting the race before the whistle blew.",
+    "category": "Sports Rules"
+  },
+  {
+    "word": "Out of Bounds",
+    "meaning": "Outside the playing area of a field or court.",
+    "example": "The tennis ball landed out of bounds, so the point went to the other player.",
+    "category": "Sports Rules"
+  },
+  {
+    "word": "Defense",
+    "meaning": "The part of a team that tries to stop the other team from scoring points.",
+    "example": "Our team has a strong defense, so it is difficult for opponents to score.",
+    "category": "Sports Rules"
+  },
+  {
+    "word": "Offense",
+    "meaning": "The part of a team that tries to score goals or points.",
+    "example": "The team's offense is very fast and has scored many goals this season.",
+    "category": "Sports Rules"
+  },
+  {
+    "word": "Draw",
+    "meaning": "A game that ends with the same score for both teams; a tie.",
+    "example": "The match ended in a 1-1 draw, so both teams received one point.",
+    "category": "Sports Rules",
+    "meaning_hi": "????? ????? / ??????"
+  },
+  {
+    "word": "Championship",
+    "meaning": "The final game or match to decide who is the best player or team in a sport.",
+    "example": "They trained hard all year to win the state soccer championship.",
+    "category": "Sports Rules"
+  },
+  {
+    "word": "Halftime",
+    "meaning": "A short rest period between the two halves of a sports game.",
+    "example": "During halftime, the players drank water and listened to the coach's new plan.",
+    "category": "Sports Rules"
+  },
+  {
+    "word": "Playoffs",
+    "meaning": "A series of extra games played at the end of a regular season to decide the champion.",
+    "example": "Only the top eight teams in the league qualify for the playoffs.",
+    "category": "Sports Rules"
+  },
+  {
+    "word": "Spectator",
+    "meaning": "A person who watches a sports event or game.",
+    "example": "Thousands of spectators filled the stadium to watch the final race.",
+    "category": "Sports Rules"
+  },
+  {
+    "word": "Coach",
+    "meaning": "A person who trains and guides athletes or teams.",
+    "example": "The coach gave the team instructions on how to improve their passing.",
+    "category": "Sports Rules"
+  },
+  {
+    "word": "Captain",
+    "meaning": "The chosen leader of a sports team.",
+    "example": "The captain shook hands with the referee before the game started.",
+    "category": "Sports Rules"
+  },
+  {
+    "word": "Sportsmanship",
+    "meaning": "Fair, polite, and honest behavior when playing a sport or game.",
+    "example": "Shaking hands with your opponent after losing is a sign of good sportsmanship.",
+    "category": "Sports Rules"
+  },
+  {
+    "word": "Forfeit",
+    "meaning": "To lose a game automatically because you cannot play or because you broke a rule.",
+    "example": "The team had to forfeit the game because they did not have enough players.",
+    "category": "Sports Rules"
+  },
+  {
+    "word": "Underdog",
+    "meaning": "A player or team that is expected to lose a game or competition.",
+    "example": "Everyone was surprised when the underdog team won the final match.",
+    "category": "Sports Rules"
+  },
+  {
+    "word": "MVP",
+    "meaning": "An abbreviation for Most Valuable Player, an award given to the best player in a game or season.",
+    "example": "Sarah was named MVP after scoring three goals in the final match.",
+    "category": "Sports Rules"
+  },
+  {
+    "word": "Seeding",
+    "meaning": "The ranking of players or teams in a tournament based on their past performance.",
+    "example": "Because she has the highest seeding, she will play against lower-ranked players first.",
+    "category": "Sports Rules"
+  },
+  {
+    "word": "Stretcher",
+    "meaning": "A flat frame used for carrying an injured player off the field.",
+    "example": "The player injured his leg and had to be carried away on a stretcher.",
+    "category": "Sports Rules"
+  },
+  {
+    "word": "Home Turf",
+    "meaning": "The sports field or stadium that belongs to a specific team.",
+    "example": "Our team usually plays better when we are on our home turf.",
+    "category": "Sports Rules"
+  }
+]

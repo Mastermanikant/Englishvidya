@@ -1,1 +1,113 @@
-﻿[{"word":"Commit","meaning":"To write and save a set of code changes to a version control repository (like Git) with a descriptive message (strong alternative to \u0027save your changes\u0027 or \u0027record code changes\u0027).","example":"Remember to commit your code changes before pushing them to the remote server.","category":"Software Development \u0026 Lifecycle"},{"word":"Debug","meaning":"The process of locating, analyzing, and fixing bugs or defects in software code (strong alternative to \u0027find and fix errors\u0027 or \u0027clean code errors\u0027).","example":"The developer spent the afternoon debugging the login form to resolve the error.","category":"Software Development \u0026 Lifecycle"},{"word":"Integrate","meaning":"To connect different software programs or systems so they can share data and work together seamlessly (strong alternative to \u0027connect systems\u0027 or \u0027hook up programs\u0027).","example":"The goal is to integrate the CRM with our email marketing tool.","category":"Software Development \u0026 Lifecycle"},{"word":"Iterate","meaning":"To repeat a design, development, or testing process, making improvements with each cycle (strong alternative to \u0027try again\u0027 or \u0027repeat process with changes\u0027).","example":"We will iterate on the app\u0027s user interface based on the first round of user feedback.","category":"Software Development \u0026 Lifecycle"},{"word":"Refactor","meaning":"To restructure existing computer code to improve its readability, structure, and efficiency without changing its behavior (strong alternative to \u0027clean up code\u0027 or \u0027rewrite code\u0027).","example":"It is good practice to refactor your code to make it easier to maintain in the future.","category":"Software Development \u0026 Lifecycle"},{"word":"Scrape","meaning":"To automatically extract large amounts of public data or text from websites using a computer program (strong alternative to \u0027copy text off website manually\u0027 or \u0027grab web text\u0027).","example":"The tool will scrape product prices from competitor sites to compare them automatically.","category":"Software Development \u0026 Lifecycle"},{"word":"Merge","meaning":"To combine different branches of code or document versions into a single, unified file (strong alternative to \u0027combine files\u0027 or \u0027put code branches together\u0027).","example":"The team lead will merge the feature branch into the main development line.","category":"Software Development \u0026 Lifecycle"},{"word":"Compile","meaning":"To convert written programming code into a machine-readable format that a computer can run directly (strong alternative to \u0027make code run\u0027 or \u0027turn code into software\u0027).","example":"The compiler will translate your C++ code into an executable file.","category":"Software Development \u0026 Lifecycle"},{"word":"Patch","meaning":"To release a small software update designed to fix a bug or security vulnerability quickly (strong alternative to \u0027put a quick fix on\u0027 or \u0027hotfix\u0027).","example":"The developer released a hotfix patch to resolve the crash issue reported by users.","category":"Software Development \u0026 Lifecycle"},{"word":"Simulate","meaning":"To run a model of a real-world system or user behavior on a computer to test outcomes (strong alternative to \u0027test by pretending\u0027 or \u0027fake a run\u0027).","example":"We can simulate high user traffic to see how the website handles heavy loads.","category":"Software Development \u0026 Lifecycle"},{"word":"Rollback","meaning":"To restore a database or system to a previous stable state, undoing recent changes that caused errors (strong alternative to \u0027undo update\u0027 or \u0027go back to old version\u0027).","example":"Due to a bug in the new release, we had to rollback the system to yesterday\u0027s version.","category":"Software Development \u0026 Lifecycle"},{"word":"Render","meaning":"The process of generating an image or visual interface on a screen from a digital model or code (strong alternative to \u0027draw image\u0027 or \u0027show on screen\u0027).","example":"It takes a few seconds for the graphics card to render the 3D model on screen.","category":"Software Development \u0026 Lifecycle"},{"word":"Preview","meaning":"To view how a webpage, email, or document will look to end-users before publishing it (strong alternative to \u0027look at before live\u0027 or \u0027test look\u0027).","example":"Always preview your newsletter draft to check the layout before hitting send.","category":"Software Development \u0026 Lifecycle"},{"word":"Format","meaning":"To organize or style digital text, files, or storage media according to a specific structure or layout (strong alternative to \u0027clean up layout\u0027 or \u0027arrange text design\u0027).","example":"You should format the document with consistent headings and fonts for a professional look.","category":"Software Development \u0026 Lifecycle"},{"word":"Mock","meaning":"To create a simulated version of a software component, database, or API for testing purposes (strong alternative to \u0027pretend link\u0027 or \u0027fake API connection\u0027).","example":"We will mock the payment gateway response so we can test checkout without spending real money.","category":"Software Development \u0026 Lifecycle"},{"word":"Fork","meaning":"To create an independent copy of an existing software repository to develop it separately (strong alternative to \u0027split project copy\u0027 or \u0027branch off project\u0027).","example":"You can fork the open-source project to add your custom features.","category":"Software Development \u0026 Lifecycle"},{"word":"Lint","meaning":"To automatically analyze code for potential errors, stylistic bugs, or bad practices before running it (strong alternative to \u0027check code for mistakes\u0027 or \u0027clean code typos\u0027).","example":"Always run a linter to lint your Javascript code before submitting a pull request.","category":"Software Development \u0026 Lifecycle"},{"word":"Build","meaning":"The process of compiling, linking, and packaging raw source code into a completed, runnable software release (strong alternative to \u0027make final software\u0027 or \u0027generate executable\u0027).","example":"The automated build pipeline failed due to a missing dependency.","category":"Software Development \u0026 Lifecycle"}]
+[
+  {
+    "word": "Commit",
+    "meaning": "To write and save a set of code changes to a version control repository (like Git) with a descriptive message (strong alternative to 'save your changes' or 'record code changes').",
+    "example": "Remember to commit your code changes before pushing them to the remote server.",
+    "category": "Software Development & Lifecycle"
+  },
+  {
+    "word": "Debug",
+    "meaning": "The process of locating, analyzing, and fixing bugs or defects in software code (strong alternative to 'find and fix errors' or 'clean code errors').",
+    "example": "The developer spent the afternoon debugging the login form to resolve the error.",
+    "category": "Software Development & Lifecycle"
+  },
+  {
+    "word": "Integrate",
+    "meaning": "To connect different software programs or systems so they can share data and work together seamlessly (strong alternative to 'connect systems' or 'hook up programs').",
+    "example": "The goal is to integrate the CRM with our email marketing tool.",
+    "category": "Software Development & Lifecycle"
+  },
+  {
+    "word": "Iterate",
+    "meaning": "To repeat a design, development, or testing process, making improvements with each cycle (strong alternative to 'try again' or 'repeat process with changes').",
+    "example": "We will iterate on the app's user interface based on the first round of user feedback.",
+    "category": "Software Development & Lifecycle"
+  },
+  {
+    "word": "Refactor",
+    "meaning": "To restructure existing computer code to improve its readability, structure, and efficiency without changing its behavior (strong alternative to 'clean up code' or 'rewrite code').",
+    "example": "It is good practice to refactor your code to make it easier to maintain in the future.",
+    "category": "Software Development & Lifecycle"
+  },
+  {
+    "word": "Scrape",
+    "meaning": "To automatically extract large amounts of public data or text from websites using a computer program (strong alternative to 'copy text off website manually' or 'grab web text').",
+    "example": "The tool will scrape product prices from competitor sites to compare them automatically.",
+    "category": "Software Development & Lifecycle"
+  },
+  {
+    "word": "Merge",
+    "meaning": "To combine different branches of code or document versions into a single, unified file (strong alternative to 'combine files' or 'put code branches together').",
+    "example": "The team lead will merge the feature branch into the main development line.",
+    "category": "Software Development & Lifecycle"
+  },
+  {
+    "word": "Compile",
+    "meaning": "To convert written programming code into a machine-readable format that a computer can run directly (strong alternative to 'make code run' or 'turn code into software').",
+    "example": "The compiler will translate your C++ code into an executable file.",
+    "category": "Software Development & Lifecycle"
+  },
+  {
+    "word": "Patch",
+    "meaning": "To release a small software update designed to fix a bug or security vulnerability quickly (strong alternative to 'put a quick fix on' or 'hotfix').",
+    "example": "The developer released a hotfix patch to resolve the crash issue reported by users.",
+    "category": "Software Development & Lifecycle"
+  },
+  {
+    "word": "Simulate",
+    "meaning": "To run a model of a real-world system or user behavior on a computer to test outcomes (strong alternative to 'test by pretending' or 'fake a run').",
+    "example": "We can simulate high user traffic to see how the website handles heavy loads.",
+    "category": "Software Development & Lifecycle"
+  },
+  {
+    "word": "Rollback",
+    "meaning": "To restore a database or system to a previous stable state, undoing recent changes that caused errors (strong alternative to 'undo update' or 'go back to old version').",
+    "example": "Due to a bug in the new release, we had to rollback the system to yesterday's version.",
+    "category": "Software Development & Lifecycle"
+  },
+  {
+    "word": "Render",
+    "meaning": "The process of generating an image or visual interface on a screen from a digital model or code (strong alternative to 'draw image' or 'show on screen').",
+    "example": "It takes a few seconds for the graphics card to render the 3D model on screen.",
+    "category": "Software Development & Lifecycle"
+  },
+  {
+    "word": "Preview",
+    "meaning": "To view how a webpage, email, or document will look to end-users before publishing it (strong alternative to 'look at before live' or 'test look').",
+    "example": "Always preview your newsletter draft to check the layout before hitting send.",
+    "category": "Software Development & Lifecycle"
+  },
+  {
+    "word": "Format",
+    "meaning": "To organize or style digital text, files, or storage media according to a specific structure or layout (strong alternative to 'clean up layout' or 'arrange text design').",
+    "example": "You should format the document with consistent headings and fonts for a professional look.",
+    "category": "Software Development & Lifecycle"
+  },
+  {
+    "word": "Mock",
+    "meaning": "To create a simulated version of a software component, database, or API for testing purposes (strong alternative to 'pretend link' or 'fake API connection').",
+    "example": "We will mock the payment gateway response so we can test checkout without spending real money.",
+    "category": "Software Development & Lifecycle"
+  },
+  {
+    "word": "Fork",
+    "meaning": "To create an independent copy of an existing software repository to develop it separately (strong alternative to 'split project copy' or 'branch off project').",
+    "example": "You can fork the open-source project to add your custom features.",
+    "category": "Software Development & Lifecycle",
+    "meaning_hi": "?????",
+    "pronunciation": "?????"
+  },
+  {
+    "word": "Lint",
+    "meaning": "To automatically analyze code for potential errors, stylistic bugs, or bad practices before running it (strong alternative to 'check code for mistakes' or 'clean code typos').",
+    "example": "Always run a linter to lint your Javascript code before submitting a pull request.",
+    "category": "Software Development & Lifecycle"
+  },
+  {
+    "word": "Build",
+    "meaning": "The process of compiling, linking, and packaging raw source code into a completed, runnable software release (strong alternative to 'make final software' or 'generate executable').",
+    "example": "The automated build pipeline failed due to a missing dependency.",
+    "category": "Software Development & Lifecycle",
+    "meaning_hi": "????? / ??????? ????"
+  }
+]

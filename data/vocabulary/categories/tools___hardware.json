@@ -1,1 +1,91 @@
-﻿[{"word":"hammer","category":"Tools \u0026 Hardware"},{"word":"screwdriver","category":"Tools \u0026 Hardware"},{"word":"wrench","category":"Tools \u0026 Hardware"},{"word":"pliers","category":"Tools \u0026 Hardware"},{"word":"tape measure","category":"Tools \u0026 Hardware"},{"word":"drill","category":"Tools \u0026 Hardware"},{"word":"nail","category":"Tools \u0026 Hardware"},{"word":"screw","category":"Tools \u0026 Hardware"},{"word":"bolt","category":"Tools \u0026 Hardware"},{"word":"nut","category":"Tools \u0026 Hardware"},{"word":"level","category":"Tools \u0026 Hardware"},{"word":"saw","category":"Tools \u0026 Hardware"},{"word":"utility knife","category":"Tools \u0026 Hardware"},{"word":"scissors","category":"Tools \u0026 Hardware"},{"word":"wire cutters","category":"Tools \u0026 Hardware"},{"word":"flashlight","category":"Tools \u0026 Hardware"},{"word":"ladder","category":"Tools \u0026 Hardware"},{"word":"toolbox","category":"Tools \u0026 Hardware"},{"word":"sandpaper","category":"Tools \u0026 Hardware"},{"word":"glue","category":"Tools \u0026 Hardware"}]
+[
+  {
+    "word": "hammer",
+    "category": "Tools & Hardware",
+    "meaning_hi": "??????"
+  },
+  {
+    "word": "screwdriver",
+    "category": "Tools & Hardware",
+    "meaning_hi": "?????"
+  },
+  {
+    "word": "wrench",
+    "category": "Tools & Hardware",
+    "meaning_hi": "???? / ????"
+  },
+  {
+    "word": "pliers",
+    "category": "Tools & Hardware"
+  },
+  {
+    "word": "tape measure",
+    "category": "Tools & Hardware"
+  },
+  {
+    "word": "drill",
+    "category": "Tools & Hardware"
+  },
+  {
+    "word": "nail",
+    "category": "Tools & Hardware",
+    "meaning_hi": "???",
+    "pronunciation": "/ne?l/"
+  },
+  {
+    "word": "screw",
+    "category": "Tools & Hardware"
+  },
+  {
+    "word": "bolt",
+    "category": "Tools & Hardware"
+  },
+  {
+    "word": "nut",
+    "category": "Tools & Hardware",
+    "meaning_hi": "?????/????",
+    "pronunciation": "??"
+  },
+  {
+    "word": "level",
+    "category": "Tools & Hardware"
+  },
+  {
+    "word": "saw",
+    "category": "Tools & Hardware"
+  },
+  {
+    "word": "utility knife",
+    "category": "Tools & Hardware"
+  },
+  {
+    "word": "scissors",
+    "category": "Tools & Hardware",
+    "meaning_hi": "?????"
+  },
+  {
+    "word": "wire cutters",
+    "category": "Tools & Hardware"
+  },
+  {
+    "word": "flashlight",
+    "category": "Tools & Hardware",
+    "meaning_hi": "?????"
+  },
+  {
+    "word": "ladder",
+    "category": "Tools & Hardware"
+  },
+  {
+    "word": "toolbox",
+    "category": "Tools & Hardware"
+  },
+  {
+    "word": "sandpaper",
+    "category": "Tools & Hardware"
+  },
+  {
+    "word": "glue",
+    "category": "Tools & Hardware"
+  }
+]

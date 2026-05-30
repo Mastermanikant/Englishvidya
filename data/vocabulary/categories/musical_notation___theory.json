@@ -1,1 +1,184 @@
-﻿[{"word":"Tempo","meaning":"The speed at which a piece of music is played.","example":"The conductor asked the orchestra to play at a faster tempo.","category":"Musical Notation \u0026 Theory"},{"word":"Rhythm","meaning":"A regular, repeated pattern of sounds or movements in music.","example":"She clapped her hands to keep up with the lively rhythm of the drums.","category":"Musical Notation \u0026 Theory"},{"word":"Melody","meaning":"A sequence of single notes that forms the main tune of a song.","example":"The singer has a beautiful voice, and the melody of the song is easy to remember.","category":"Musical Notation \u0026 Theory"},{"word":"Harmony","meaning":"The combination of different musical notes played or sung at the same time to produce a pleasing sound.","example":"The two singers sang in perfect harmony, making the song sound rich and full.","category":"Musical Notation \u0026 Theory"},{"word":"Chord","meaning":"A group of three or more musical notes played together at the same time.","example":"He learned how to play a basic C-major chord on the guitar.","category":"Musical Notation \u0026 Theory"},{"word":"Clef","meaning":"A symbol placed at the beginning of a musical staff to show the pitch of the written notes.","example":"Flute players read music written in the treble clef.","category":"Musical Notation \u0026 Theory"},{"word":"Staff","meaning":"The set of five horizontal lines and four spaces on which musical notes are written.","example":"The sheet music shows notes placed on different lines of the staff.","category":"Musical Notation \u0026 Theory"},{"word":"Pitch","meaning":"How high or low a sound or musical note is.","example":"She can sing very high notes with perfect pitch.","category":"Musical Notation \u0026 Theory"},{"word":"Beat","meaning":"The basic unit of time and rhythm in music; the steady pulse of a song.","example":"The kids tapped their feet to the steady beat of the music.","category":"Musical Notation \u0026 Theory"},{"word":"Scale","meaning":"A series of musical notes arranged in order of rising or falling pitch.","example":"Beginning piano students spend a lot of time practicing scales.","category":"Musical Notation \u0026 Theory"},{"word":"Interval","meaning":"The difference in pitch between two musical notes.","example":"The interval between C and G is a perfect fifth.","category":"Musical Notation \u0026 Theory"},{"word":"Dynamics","meaning":"The level of volume (loudness or softness) in a piece of music.","example":"The sheet music had markings for dynamics, telling the pianist when to play softly.","category":"Musical Notation \u0026 Theory"},{"word":"Key","meaning":"A group of notes or a scale that forms the basis of a piece of music.","example":"This song is written in the key of G major.","category":"Musical Notation \u0026 Theory"},{"word":"Measure","meaning":"A small section of music containing a specific number of beats, separated by vertical lines on a staff.","example":"The clarinet player missed a note in the second measure of the song.","category":"Musical Notation \u0026 Theory"},{"word":"Crescendo","meaning":"A gradual increase in the loudness or volume of a piece of music.","example":"The music built to a dramatic crescendo before the final chorus.","category":"Musical Notation \u0026 Theory"},{"word":"Decrescendo","meaning":"A gradual decrease in the loudness or volume of a piece of music.","example":"The song ended with a quiet decrescendo, fading out slowly.","category":"Musical Notation \u0026 Theory"},{"word":"Metronome","meaning":"A device that makes a regular ticking sound to help musicians practice playing at a steady speed.","example":"He used a metronome to keep his timing accurate while playing the piano.","category":"Musical Notation \u0026 Theory"},{"word":"Octave","meaning":"The distance between two notes where the higher note has exactly twice the frequency of the lower note.","example":"She sang the chorus again, but this time an octave higher.","category":"Musical Notation \u0026 Theory"},{"word":"Syncopation","meaning":"A temporary shifting of the regular musical accent, placing stress on the weak beats.","example":"Jazz music often uses syncopation to create a catchy, unexpected rhythm.","category":"Musical Notation \u0026 Theory"},{"word":"Tonality","meaning":"The system of organizing music around a central note or key.","example":"The sad tonality of the piece suggests it is written in a minor key.","category":"Musical Notation \u0026 Theory"},{"word":"Solo","meaning":"A piece of music or a performance by a single singer or instrument.","example":"The electric guitarist played an amazing solo in the middle of the song.","category":"Musical Notation \u0026 Theory"},{"word":"Duet","meaning":"A song or musical performance by two people.","example":"The romantic song was performed as a duet by a male and female singer.","category":"Musical Notation \u0026 Theory"},{"word":"Trio","meaning":"A group of three musicians or singers performing together.","example":"The jazz trio consisted of a pianist, a drummer, and a bass player.","category":"Musical Notation \u0026 Theory"},{"word":"Quartet","meaning":"A group of four musicians or singers performing together.","example":"A classical string quartet usually has two violins, a viola, and a cello.","category":"Musical Notation \u0026 Theory"},{"word":"Ensemble","meaning":"A group of musicians, actors, or dancers who perform together.","example":"The school brass ensemble rehearses every Wednesday afternoon.","category":"Musical Notation \u0026 Theory"},{"word":"Accent","meaning":"An emphasis or extra force placed on a particular note or beat.","example":"The music sheet has a little symbol showing an accent on the first note of each measure.","category":"Musical Notation \u0026 Theory"},{"word":"Time Signature","meaning":"Numbers written at the beginning of a musical piece showing how many beats are in each measure.","example":"A time signature of 4/4 means there are four quarter beats in each measure.","category":"Musical Notation \u0026 Theory"},{"word":"Flat","meaning":"A musical symbol that lowers the pitch of a note by one half step.","example":"To play a B-flat, you need to press a different key than for a regular B.","category":"Musical Notation \u0026 Theory"},{"word":"Sharp","meaning":"A musical symbol that raises the pitch of a note by one half step.","example":"The key signature has three sharps, meaning those notes must be played higher.","category":"Musical Notation \u0026 Theory"},{"word":"Improvisation","meaning":"The act of composing or performing music on the spot without any preparation or written music.","example":"His performance was full of clever improvisation, making each concert unique.","category":"Musical Notation \u0026 Theory"}]
+[
+  {
+    "word": "Tempo",
+    "meaning": "The speed at which a piece of music is played.",
+    "example": "The conductor asked the orchestra to play at a faster tempo.",
+    "category": "Musical Notation & Theory"
+  },
+  {
+    "word": "Rhythm",
+    "meaning": "A regular, repeated pattern of sounds or movements in music.",
+    "example": "She clapped her hands to keep up with the lively rhythm of the drums.",
+    "category": "Musical Notation & Theory"
+  },
+  {
+    "word": "Melody",
+    "meaning": "A sequence of single notes that forms the main tune of a song.",
+    "example": "The singer has a beautiful voice, and the melody of the song is easy to remember.",
+    "category": "Musical Notation & Theory"
+  },
+  {
+    "word": "Harmony",
+    "meaning": "The combination of different musical notes played or sung at the same time to produce a pleasing sound.",
+    "example": "The two singers sang in perfect harmony, making the song sound rich and full.",
+    "category": "Musical Notation & Theory"
+  },
+  {
+    "word": "Chord",
+    "meaning": "A group of three or more musical notes played together at the same time.",
+    "example": "He learned how to play a basic C-major chord on the guitar.",
+    "category": "Musical Notation & Theory"
+  },
+  {
+    "word": "Clef",
+    "meaning": "A symbol placed at the beginning of a musical staff to show the pitch of the written notes.",
+    "example": "Flute players read music written in the treble clef.",
+    "category": "Musical Notation & Theory"
+  },
+  {
+    "word": "Staff",
+    "meaning": "The set of five horizontal lines and four spaces on which musical notes are written.",
+    "example": "The sheet music shows notes placed on different lines of the staff.",
+    "category": "Musical Notation & Theory"
+  },
+  {
+    "word": "Pitch",
+    "meaning": "How high or low a sound or musical note is.",
+    "example": "She can sing very high notes with perfect pitch.",
+    "category": "Musical Notation & Theory"
+  },
+  {
+    "word": "Beat",
+    "meaning": "The basic unit of time and rhythm in music; the steady pulse of a song.",
+    "example": "The kids tapped their feet to the steady beat of the music.",
+    "category": "Musical Notation & Theory"
+  },
+  {
+    "word": "Scale",
+    "meaning": "A series of musical notes arranged in order of rising or falling pitch.",
+    "example": "Beginning piano students spend a lot of time practicing scales.",
+    "category": "Musical Notation & Theory"
+  },
+  {
+    "word": "Interval",
+    "meaning": "The difference in pitch between two musical notes.",
+    "example": "The interval between C and G is a perfect fifth.",
+    "category": "Musical Notation & Theory"
+  },
+  {
+    "word": "Dynamics",
+    "meaning": "The level of volume (loudness or softness) in a piece of music.",
+    "example": "The sheet music had markings for dynamics, telling the pianist when to play softly.",
+    "category": "Musical Notation & Theory"
+  },
+  {
+    "word": "Key",
+    "meaning": "A group of notes or a scale that forms the basis of a piece of music.",
+    "example": "This song is written in the key of G major.",
+    "category": "Musical Notation & Theory",
+    "meaning_hi": "????",
+    "pronunciation": "?? (kee)"
+  },
+  {
+    "word": "Measure",
+    "meaning": "A small section of music containing a specific number of beats, separated by vertical lines on a staff.",
+    "example": "The clarinet player missed a note in the second measure of the song.",
+    "category": "Musical Notation & Theory"
+  },
+  {
+    "word": "Crescendo",
+    "meaning": "A gradual increase in the loudness or volume of a piece of music.",
+    "example": "The music built to a dramatic crescendo before the final chorus.",
+    "category": "Musical Notation & Theory"
+  },
+  {
+    "word": "Decrescendo",
+    "meaning": "A gradual decrease in the loudness or volume of a piece of music.",
+    "example": "The song ended with a quiet decrescendo, fading out slowly.",
+    "category": "Musical Notation & Theory"
+  },
+  {
+    "word": "Metronome",
+    "meaning": "A device that makes a regular ticking sound to help musicians practice playing at a steady speed.",
+    "example": "He used a metronome to keep his timing accurate while playing the piano.",
+    "category": "Musical Notation & Theory"
+  },
+  {
+    "word": "Octave",
+    "meaning": "The distance between two notes where the higher note has exactly twice the frequency of the lower note.",
+    "example": "She sang the chorus again, but this time an octave higher.",
+    "category": "Musical Notation & Theory"
+  },
+  {
+    "word": "Syncopation",
+    "meaning": "A temporary shifting of the regular musical accent, placing stress on the weak beats.",
+    "example": "Jazz music often uses syncopation to create a catchy, unexpected rhythm.",
+    "category": "Musical Notation & Theory"
+  },
+  {
+    "word": "Tonality",
+    "meaning": "The system of organizing music around a central note or key.",
+    "example": "The sad tonality of the piece suggests it is written in a minor key.",
+    "category": "Musical Notation & Theory"
+  },
+  {
+    "word": "Solo",
+    "meaning": "A piece of music or a performance by a single singer or instrument.",
+    "example": "The electric guitarist played an amazing solo in the middle of the song.",
+    "category": "Musical Notation & Theory"
+  },
+  {
+    "word": "Duet",
+    "meaning": "A song or musical performance by two people.",
+    "example": "The romantic song was performed as a duet by a male and female singer.",
+    "category": "Musical Notation & Theory"
+  },
+  {
+    "word": "Trio",
+    "meaning": "A group of three musicians or singers performing together.",
+    "example": "The jazz trio consisted of a pianist, a drummer, and a bass player.",
+    "category": "Musical Notation & Theory"
+  },
+  {
+    "word": "Quartet",
+    "meaning": "A group of four musicians or singers performing together.",
+    "example": "A classical string quartet usually has two violins, a viola, and a cello.",
+    "category": "Musical Notation & Theory"
+  },
+  {
+    "word": "Ensemble",
+    "meaning": "A group of musicians, actors, or dancers who perform together.",
+    "example": "The school brass ensemble rehearses every Wednesday afternoon.",
+    "category": "Musical Notation & Theory"
+  },
+  {
+    "word": "Accent",
+    "meaning": "An emphasis or extra force placed on a particular note or beat.",
+    "example": "The music sheet has a little symbol showing an accent on the first note of each measure.",
+    "category": "Musical Notation & Theory"
+  },
+  {
+    "word": "Time Signature",
+    "meaning": "Numbers written at the beginning of a musical piece showing how many beats are in each measure.",
+    "example": "A time signature of 4/4 means there are four quarter beats in each measure.",
+    "category": "Musical Notation & Theory"
+  },
+  {
+    "word": "Flat",
+    "meaning": "A musical symbol that lowers the pitch of a note by one half step.",
+    "example": "To play a B-flat, you need to press a different key than for a regular B.",
+    "category": "Musical Notation & Theory"
+  },
+  {
+    "word": "Sharp",
+    "meaning": "A musical symbol that raises the pitch of a note by one half step.",
+    "example": "The key signature has three sharps, meaning those notes must be played higher.",
+    "category": "Musical Notation & Theory"
+  },
+  {
+    "word": "Improvisation",
+    "meaning": "The act of composing or performing music on the spot without any preparation or written music.",
+    "example": "His performance was full of clever improvisation, making each concert unique.",
+    "category": "Musical Notation & Theory"
+  }
+]

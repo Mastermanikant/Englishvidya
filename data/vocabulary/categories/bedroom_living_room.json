@@ -1,70 +1,81 @@
-﻿[
-    {
-        "word":  "pillow",
-        "category":  "Bedroom \u0026 Living Room"
-    },
-    {
-        "word":  "blanket",
-        "category":  "Bedroom \u0026 Living Room"
-    },
-    {
-        "word":  "sheet",
-        "category":  "Bedroom \u0026 Living Room"
-    },
-    {
-        "word":  "mattress",
-        "category":  "Bedroom \u0026 Living Room"
-    },
-    {
-        "word":  "cushion",
-        "category":  "Bedroom \u0026 Living Room"
-    },
-    {
-        "word":  "rug",
-        "category":  "Bedroom \u0026 Living Room"
-    },
-    {
-        "word":  "remote control",
-        "category":  "Bedroom \u0026 Living Room"
-    },
-    {
-        "word":  "lamp",
-        "category":  "Bedroom \u0026 Living Room"
-    },
-    {
-        "word":  "clock",
-        "category":  "Bedroom \u0026 Living Room"
-    },
-    {
-        "word":  "hanger",
-        "category":  "Bedroom \u0026 Living Room"
-    },
-    {
-        "word":  "laundry basket",
-        "category":  "Bedroom \u0026 Living Room"
-    },
-    {
-        "word":  "vase",
-        "category":  "Bedroom \u0026 Living Room"
-    },
-    {
-        "word":  "candle",
-        "category":  "Bedroom \u0026 Living Room"
-    },
-    {
-        "word":  "matches",
-        "category":  "Bedroom \u0026 Living Room"
-    },
-    {
-        "word":  "lighter",
-        "category":  "Bedroom \u0026 Living Room"
-    },
-    {
-        "word":  "frame",
-        "category":  "Bedroom \u0026 Living Room"
-    },
-    {
-        "word":  "coaster",
-        "category":  "Bedroom \u0026 Living Room"
-    }
+[
+  {
+    "word": "pillow",
+    "category": "Bedroom & Living Room",
+    "meaning_hi": "?????"
+  },
+  {
+    "word": "blanket",
+    "category": "Bedroom & Living Room",
+    "meaning_hi": "????"
+  },
+  {
+    "word": "sheet",
+    "category": "Bedroom & Living Room"
+  },
+  {
+    "word": "mattress",
+    "category": "Bedroom & Living Room",
+    "meaning_hi": "?????"
+  },
+  {
+    "word": "cushion",
+    "category": "Bedroom & Living Room"
+  },
+  {
+    "word": "rug",
+    "category": "Bedroom & Living Room",
+    "meaning_hi": "?????"
+  },
+  {
+    "word": "remote control",
+    "category": "Bedroom & Living Room"
+  },
+  {
+    "word": "lamp",
+    "category": "Bedroom & Living Room",
+    "meaning_hi": "???? / ????"
+  },
+  {
+    "word": "clock",
+    "category": "Bedroom & Living Room",
+    "meaning_hi": "???? (????? ?? ??? ????)",
+    "pronunciation": "????? (klok)"
+  },
+  {
+    "word": "hanger",
+    "category": "Bedroom & Living Room",
+    "meaning_hi": "?????"
+  },
+  {
+    "word": "laundry basket",
+    "category": "Bedroom & Living Room"
+  },
+  {
+    "word": "vase",
+    "category": "Bedroom & Living Room",
+    "meaning_hi": "??????"
+  },
+  {
+    "word": "candle",
+    "category": "Bedroom & Living Room",
+    "meaning_hi": "????????"
+  },
+  {
+    "word": "matches",
+    "category": "Bedroom & Living Room"
+  },
+  {
+    "word": "lighter",
+    "category": "Bedroom & Living Room",
+    "meaning_hi": "?????"
+  },
+  {
+    "word": "frame",
+    "category": "Bedroom & Living Room"
+  },
+  {
+    "word": "coaster",
+    "category": "Bedroom & Living Room"
+  }
 ]

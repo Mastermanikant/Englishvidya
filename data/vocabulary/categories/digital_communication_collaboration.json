@@ -1,122 +1,123 @@
-﻿[
-    {
-        "word":  "Schedule",
-        "meaning":  "To set a specific future time for an email, message, or calendar event to be automatically sent or held (strong alternative to \u0027send later\u0027 or \u0027email later\u0027).",
-        "example":  "I will schedule the client onboarding email to go out on Monday at 9:00 AM.",
-        "category":  "Digital Communication \u0026 Collaboration"
-    },
-    {
-        "word":  "Ping",
-        "meaning":  "To send a brief, direct message to someone, usually on a chat platform, to get their quick attention (strong alternative to \u0027send a message\u0027 or \u0027get in touch with\u0027).",
-        "example":  "Please ping me on Slack once the server is back up.",
-        "category":  "Digital Communication \u0026 Collaboration"
-    },
-    {
-        "word":  "Synchronize",
-        "meaning":  "To coordinate two or more devices, files, or teams so they contain the exact same updated information (strong alternative to \u0027make the same\u0027 or \u0027get everyone updated\u0027).",
-        "example":  "We need to synchronize our calendars before booking the client presentations.",
-        "category":  "Digital Communication \u0026 Collaboration"
-    },
-    {
-        "word":  "Huddle",
-        "meaning":  "To join a brief, informal online meeting to resolve an issue quickly with team members (strong alternative to \u0027have a quick call\u0027 or \u0027talk online\u0027).",
-        "example":  "Let\u0027s jump into a quick huddle to resolve this blocker before the end of the day.",
-        "category":  "Digital Communication \u0026 Collaboration"
-    },
-    {
-        "word":  "Broadcast",
-        "meaning":  "To distribute data or send a single message to all users on a network or channel simultaneously (strong alternative to \u0027send to everyone\u0027 or \u0027tell everyone\u0027).",
-        "example":  "The CEO will broadcast the announcement to the entire company channel.",
-        "category":  "Digital Communication \u0026 Collaboration"
-    },
-    {
-        "word":  "Mention",
-        "meaning":  "To notify a specific user in a digital thread by using the \u0027@\u0027 symbol followed by their username (strong alternative to \u0027tag someone\u0027 or \u0027call them out by name\u0027).",
-        "example":  "Be sure to mention the designer in your comment so they get an immediate notification.",
-        "category":  "Digital Communication \u0026 Collaboration"
-    },
-    {
-        "word":  "Thread",
-        "meaning":  "A grouped series of messages or replies that keep a specific digital conversation organized under one main post (strong alternative to \u0027chain of emails\u0027 or \u0027message history\u0027).",
-        "example":  "Let\u0027s move this conversation to a separate thread to keep the main channel clean.",
-        "category":  "Digital Communication \u0026 Collaboration"
-    },
-    {
-        "word":  "Collaborate",
-        "meaning":  "To work jointly with others in a shared digital workspace on a single project or document in real time (strong alternative to \u0027work together\u0027 or \u0027edit together\u0027).",
-        "example":  "Five team members can collaborate on this presentation simultaneously using Google Slides.",
-        "category":  "Digital Communication \u0026 Collaboration"
-    },
-    {
-        "word":  "Dispatch",
-        "meaning":  "To officially send a message, notification, or package of data to its destination (strong alternative to \u0027send off\u0027 or \u0027mail\u0027).",
-        "example":  "The system will automatically dispatch a confirmation email once payment is processed.",
-        "category":  "Digital Communication \u0026 Collaboration"
-    },
-    {
-        "word":  "Acknowledge",
-        "meaning":  "To formally confirm receipt of a digital communication or notification (strong alternative to \u0027say I saw it\u0027 or \u0027got it\u0027).",
-        "example":  "Please acknowledge the receipt of the client\u0027s brief by replying to their email.",
-        "category":  "Digital Communication \u0026 Collaboration"
-    },
-    {
-        "word":  "Escalate",
-        "meaning":  "To transfer an unresolved customer issue or technical bug to a higher tier of authority or support (strong alternative to \u0027pass it up\u0027 or \u0027tell the boss\u0027).",
-        "example":  "If the first-level support cannot resolve the issue, they will escalate it to the engineering team.",
-        "category":  "Digital Communication \u0026 Collaboration"
-    },
-    {
-        "word":  "Flag",
-        "meaning":  "To mark an email, message, or file with a visual indicator for priority or follow-up action (strong alternative to \u0027mark as important\u0027 or \u0027remember to check\u0027).",
-        "example":  "I will flag this email so I remember to draft a response first thing tomorrow.",
-        "category":  "Digital Communication \u0026 Collaboration"
-    },
-    {
-        "word":  "Mute",
-        "meaning":  "To temporarily silence notifications or audio from a specific user, channel, or application (strong alternative to \u0027turn off sounds\u0027 or \u0027make silent\u0027).",
-        "example":  "I had to mute the group chat because the continuous alerts were distracting me during the meeting.",
-        "category":  "Digital Communication \u0026 Collaboration"
-    },
-    {
-        "word":  "Delegate",
-        "meaning":  "To assign tasks, action items, or access permissions to another team member using a project management tool (strong alternative to \u0027pass the work\u0027 or \u0027give the task\u0027).",
-        "example":  "You can delegate the database maintenance task to our junior administrator through Jira.",
-        "category":  "Digital Communication \u0026 Collaboration"
-    },
-    {
-        "word":  "Opt-In",
-        "meaning":  "To explicitly choose or give consent to participate in an email list, data sharing, or feature trial (strong alternative to \u0027say yes to emails\u0027 or \u0027sign up\u0027).",
-        "example":  "Users must opt-in to receive promotional offers via email.",
-        "category":  "Digital Communication \u0026 Collaboration"
-    },
-    {
-        "word":  "Opt-Out",
-        "meaning":  "To explicitly choose to withdraw from or stop receiving a digital service, email list, or tracking program (strong alternative to \u0027unsubscribe\u0027 or \u0027stop getting emails\u0027).",
-        "example":  "You can opt-out of cookie tracking by adjusting your browser privacy settings.",
-        "category":  "Digital Communication \u0026 Collaboration"
-    },
-    {
-        "word":  "Channel",
-        "meaning":  "To direct communication or focus user traffic toward a specific digital destination or medium (strong alternative to \u0027send traffic to\u0027 or \u0027point people to\u0027).",
-        "example":  "We should channel all customer inquiries through our online helpdesk rather than email.",
-        "category":  "Digital Communication \u0026 Collaboration"
-    },
-    {
-        "word":  "Transmit",
-        "meaning":  "To send signals, messages, or data packets over a communication medium or network (strong alternative to \u0027send data\u0027 or \u0027pass along information\u0027).",
-        "example":  "The satellite will transmit real-time telemetry data to the ground station.",
-        "category":  "Digital Communication \u0026 Collaboration"
-    },
-    {
-        "word":  "Solicit",
-        "meaning":  "To ask for or request information, feedback, or input from users via digital channels (strong alternative to \u0027ask for\u0027 or \u0027beg for feedback\u0027).",
-        "example":  "We will solicit customer feedback through a post-purchase survey.",
-        "category":  "Digital Communication \u0026 Collaboration"
-    },
-    {
-        "word":  "Moderate",
-        "meaning":  "To monitor and control user-generated content or discussions to ensure they follow guidelines (strong alternative to \u0027watch and filter posts\u0027 or \u0027police the chat\u0027).",
-        "example":  "Our community manager will moderate the forum to prevent spam and offensive comments.",
-        "category":  "Digital Communication \u0026 Collaboration"
-    }
+[
+  {
+    "word": "Schedule",
+    "meaning": "To set a specific future time for an email, message, or calendar event to be automatically sent or held (strong alternative to 'send later' or 'email later').",
+    "example": "I will schedule the client onboarding email to go out on Monday at 9:00 AM.",
+    "category": "Digital Communication & Collaboration"
+  },
+  {
+    "word": "Ping",
+    "meaning": "To send a brief, direct message to someone, usually on a chat platform, to get their quick attention (strong alternative to 'send a message' or 'get in touch with').",
+    "example": "Please ping me on Slack once the server is back up.",
+    "category": "Digital Communication & Collaboration"
+  },
+  {
+    "word": "Synchronize",
+    "meaning": "To coordinate two or more devices, files, or teams so they contain the exact same updated information (strong alternative to 'make the same' or 'get everyone updated').",
+    "example": "We need to synchronize our calendars before booking the client presentations.",
+    "category": "Digital Communication & Collaboration"
+  },
+  {
+    "word": "Huddle",
+    "meaning": "To join a brief, informal online meeting to resolve an issue quickly with team members (strong alternative to 'have a quick call' or 'talk online').",
+    "example": "Let's jump into a quick huddle to resolve this blocker before the end of the day.",
+    "category": "Digital Communication & Collaboration"
+  },
+  {
+    "word": "Broadcast",
+    "meaning": "To distribute data or send a single message to all users on a network or channel simultaneously (strong alternative to 'send to everyone' or 'tell everyone').",
+    "example": "The CEO will broadcast the announcement to the entire company channel.",
+    "category": "Digital Communication & Collaboration"
+  },
+  {
+    "word": "Mention",
+    "meaning": "To notify a specific user in a digital thread by using the '@' symbol followed by their username (strong alternative to 'tag someone' or 'call them out by name').",
+    "example": "Be sure to mention the designer in your comment so they get an immediate notification.",
+    "category": "Digital Communication & Collaboration"
+  },
+  {
+    "word": "Thread",
+    "meaning": "A grouped series of messages or replies that keep a specific digital conversation organized under one main post (strong alternative to 'chain of emails' or 'message history').",
+    "example": "Let's move this conversation to a separate thread to keep the main channel clean.",
+    "category": "Digital Communication & Collaboration",
+    "meaning_hi": "????"
+  },
+  {
+    "word": "Collaborate",
+    "meaning": "To work jointly with others in a shared digital workspace on a single project or document in real time (strong alternative to 'work together' or 'edit together').",
+    "example": "Five team members can collaborate on this presentation simultaneously using Google Slides.",
+    "category": "Digital Communication & Collaboration"
+  },
+  {
+    "word": "Dispatch",
+    "meaning": "To officially send a message, notification, or package of data to its destination (strong alternative to 'send off' or 'mail').",
+    "example": "The system will automatically dispatch a confirmation email once payment is processed.",
+    "category": "Digital Communication & Collaboration"
+  },
+  {
+    "word": "Acknowledge",
+    "meaning": "To formally confirm receipt of a digital communication or notification (strong alternative to 'say I saw it' or 'got it').",
+    "example": "Please acknowledge the receipt of the client's brief by replying to their email.",
+    "category": "Digital Communication & Collaboration"
+  },
+  {
+    "word": "Escalate",
+    "meaning": "To transfer an unresolved customer issue or technical bug to a higher tier of authority or support (strong alternative to 'pass it up' or 'tell the boss').",
+    "example": "If the first-level support cannot resolve the issue, they will escalate it to the engineering team.",
+    "category": "Digital Communication & Collaboration"
+  },
+  {
+    "word": "Flag",
+    "meaning": "To mark an email, message, or file with a visual indicator for priority or follow-up action (strong alternative to 'mark as important' or 'remember to check').",
+    "example": "I will flag this email so I remember to draft a response first thing tomorrow.",
+    "category": "Digital Communication & Collaboration"
+  },
+  {
+    "word": "Mute",
+    "meaning": "To temporarily silence notifications or audio from a specific user, channel, or application (strong alternative to 'turn off sounds' or 'make silent').",
+    "example": "I had to mute the group chat because the continuous alerts were distracting me during the meeting.",
+    "category": "Digital Communication & Collaboration"
+  },
+  {
+    "word": "Delegate",
+    "meaning": "To assign tasks, action items, or access permissions to another team member using a project management tool (strong alternative to 'pass the work' or 'give the task').",
+    "example": "You can delegate the database maintenance task to our junior administrator through Jira.",
+    "category": "Digital Communication & Collaboration"
+  },
+  {
+    "word": "Opt-In",
+    "meaning": "To explicitly choose or give consent to participate in an email list, data sharing, or feature trial (strong alternative to 'say yes to emails' or 'sign up').",
+    "example": "Users must opt-in to receive promotional offers via email.",
+    "category": "Digital Communication & Collaboration"
+  },
+  {
+    "word": "Opt-Out",
+    "meaning": "To explicitly choose to withdraw from or stop receiving a digital service, email list, or tracking program (strong alternative to 'unsubscribe' or 'stop getting emails').",
+    "example": "You can opt-out of cookie tracking by adjusting your browser privacy settings.",
+    "category": "Digital Communication & Collaboration"
+  },
+  {
+    "word": "Channel",
+    "meaning": "To direct communication or focus user traffic toward a specific digital destination or medium (strong alternative to 'send traffic to' or 'point people to').",
+    "example": "We should channel all customer inquiries through our online helpdesk rather than email.",
+    "category": "Digital Communication & Collaboration"
+  },
+  {
+    "word": "Transmit",
+    "meaning": "To send signals, messages, or data packets over a communication medium or network (strong alternative to 'send data' or 'pass along information').",
+    "example": "The satellite will transmit real-time telemetry data to the ground station.",
+    "category": "Digital Communication & Collaboration"
+  },
+  {
+    "word": "Solicit",
+    "meaning": "To ask for or request information, feedback, or input from users via digital channels (strong alternative to 'ask for' or 'beg for feedback').",
+    "example": "We will solicit customer feedback through a post-purchase survey.",
+    "category": "Digital Communication & Collaboration"
+  },
+  {
+    "word": "Moderate",
+    "meaning": "To monitor and control user-generated content or discussions to ensure they follow guidelines (strong alternative to 'watch and filter posts' or 'police the chat').",
+    "example": "Our community manager will moderate the forum to prevent spam and offensive comments.",
+    "category": "Digital Communication & Collaboration"
+  }
 ]

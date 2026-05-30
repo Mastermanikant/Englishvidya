@@ -1,80 +1,82 @@
-﻿[
-    {
-        "word":  "Publish",
-        "meaning":  "To make digital content, a blog post, or a website update publicly accessible to users (strong alternative to \u0027make it so people can see\u0027 or \u0027put it out online\u0027).",
-        "example":  "We will publish the new pricing page once it is approved by the director.",
-        "category":  "Content \u0026 Digital Asset Management"
-    },
-    {
-        "word":  "Track",
-        "meaning":  "To monitor and record user actions, visits, or metrics on a website or app for analysis (strong alternative to \u0027watch what they do\u0027 or \u0027follow online actions\u0027).",
-        "example":  "We use cookies to track user engagement and analyze website traffic.",
-        "category":  "Content \u0026 Digital Asset Management"
-    },
-    {
-        "word":  "Fetch",
-        "meaning":  "An action performed by a software program to retrieve data from a remote server or database (strong alternative to \u0027go get data\u0027 or \u0027grab data\u0027).",
-        "example":  "The application will fetch the current weather data from the API.",
-        "category":  "Content \u0026 Digital Asset Management"
-    },
-    {
-        "word":  "Link",
-        "meaning":  "To create a hypermedia connection between two digital items, such as webpages, files, or database records (strong alternative to \u0027connect files\u0027 or \u0027make a connection\u0027).",
-        "example":  "You should link the terms of service page in the footer of the website.",
-        "category":  "Content \u0026 Digital Asset Management"
-    },
-    {
-        "word":  "Tag",
-        "meaning":  "To attach a keyword or metadata label to a digital piece of content, file, or photo to make it easily searchable (strong alternative to \u0027put a label on\u0027 or \u0027mark file keyword\u0027).",
-        "example":  "Be sure to tag each blog post with relevant topics like SEO and marketing.",
-        "category":  "Content \u0026 Digital Asset Management"
-    },
-    {
-        "word":  "Queue",
-        "meaning":  "To arrange emails, data packets, or server tasks in a sequential line to be processed one after the other (strong alternative to \u0027put in line to wait\u0027 or \u0027make data wait in line\u0027).",
-        "example":  "The server will queue the outgoing emails and process them ten at a time.",
-        "category":  "Content \u0026 Digital Asset Management"
-    },
-    {
-        "word":  "Capture",
-        "meaning":  "To record or save digital data, screens, or user input in real-time (strong alternative to \u0027grab screen\u0027 or \u0027take photo of screen\u0027).",
-        "example":  "Use the snippet tool to capture a screenshot of the error message.",
-        "category":  "Content \u0026 Digital Asset Management"
-    },
-    {
-        "word":  "Crop",
-        "meaning":  "To trim or cut off the outer edges of a digital image to improve framing or reduce size (strong alternative to \u0027cut image edges\u0027 or \u0027trim borders\u0027).",
-        "example":  "Please crop the team photo to focus on the speakers.",
-        "category":  "Content \u0026 Digital Asset Management"
-    },
-    {
-        "word":  "Upload",
-        "meaning":  "To transfer data or files from a local computer or device to a remote server or website (strong alternative to \u0027send file to site\u0027 or \u0027put file on portal\u0027).",
-        "example":  "You can upload your profile picture through the settings page.",
-        "category":  "Content \u0026 Digital Asset Management"
-    },
-    {
-        "word":  "Download",
-        "meaning":  "To transfer files or data from a remote server or internet site to a local device (strong alternative to \u0027get file from site\u0027 or \u0027save file from internet\u0027).",
-        "example":  "Users can download the user manual in PDF format directly from our website.",
-        "category":  "Content \u0026 Digital Asset Management"
-    },
-    {
-        "word":  "Sync",
-        "meaning":  "Short for synchronize, to keep data consistent across different folders, drives, or apps (strong alternative to \u0027make match\u0027 or \u0027keep same\u0027).",
-        "example":  "Make sure you sync your local drafts to the cloud server before shutting down.",
-        "category":  "Content \u0026 Digital Asset Management"
-    },
-    {
-        "word":  "Host",
-        "meaning":  "To store files, images, or web assets on a server so they can be viewed on the web (strong alternative to \u0027put images online\u0027 or \u0027keep files on server\u0027).",
-        "example":  "We can host our marketing graphics on a content delivery network for faster load times.",
-        "category":  "Content \u0026 Digital Asset Management"
-    },
-    {
-        "word":  "Stream",
-        "meaning":  "To transmit audio or video content continuously in real-time over the internet without downloading the full file first (strong alternative to \u0027play video online\u0027 or \u0027watch online without saving\u0027).",
-        "example":  "The conference will stream the keynote speech live on our portal.",
-        "category":  "Content \u0026 Digital Asset Management"
-    }
+[
+  {
+    "word": "Publish",
+    "meaning": "To make digital content, a blog post, or a website update publicly accessible to users (strong alternative to 'make it so people can see' or 'put it out online').",
+    "example": "We will publish the new pricing page once it is approved by the director.",
+    "category": "Content & Digital Asset Management"
+  },
+  {
+    "word": "Track",
+    "meaning": "To monitor and record user actions, visits, or metrics on a website or app for analysis (strong alternative to 'watch what they do' or 'follow online actions').",
+    "example": "We use cookies to track user engagement and analyze website traffic.",
+    "category": "Content & Digital Asset Management"
+  },
+  {
+    "word": "Fetch",
+    "meaning": "An action performed by a software program to retrieve data from a remote server or database (strong alternative to 'go get data' or 'grab data').",
+    "example": "The application will fetch the current weather data from the API.",
+    "category": "Content & Digital Asset Management"
+  },
+  {
+    "word": "Link",
+    "meaning": "To create a hypermedia connection between two digital items, such as webpages, files, or database records (strong alternative to 'connect files' or 'make a connection').",
+    "example": "You should link the terms of service page in the footer of the website.",
+    "category": "Content & Digital Asset Management"
+  },
+  {
+    "word": "Tag",
+    "meaning": "To attach a keyword or metadata label to a digital piece of content, file, or photo to make it easily searchable (strong alternative to 'put a label on' or 'mark file keyword').",
+    "example": "Be sure to tag each blog post with relevant topics like SEO and marketing.",
+    "category": "Content & Digital Asset Management"
+  },
+  {
+    "word": "Queue",
+    "meaning": "To arrange emails, data packets, or server tasks in a sequential line to be processed one after the other (strong alternative to 'put in line to wait' or 'make data wait in line').",
+    "example": "The server will queue the outgoing emails and process them ten at a time.",
+    "category": "Content & Digital Asset Management"
+  },
+  {
+    "word": "Capture",
+    "meaning": "To record or save digital data, screens, or user input in real-time (strong alternative to 'grab screen' or 'take photo of screen').",
+    "example": "Use the snippet tool to capture a screenshot of the error message.",
+    "category": "Content & Digital Asset Management"
+  },
+  {
+    "word": "Crop",
+    "meaning": "To trim or cut off the outer edges of a digital image to improve framing or reduce size (strong alternative to 'cut image edges' or 'trim borders').",
+    "example": "Please crop the team photo to focus on the speakers.",
+    "category": "Content & Digital Asset Management"
+  },
+  {
+    "word": "Upload",
+    "meaning": "To transfer data or files from a local computer or device to a remote server or website (strong alternative to 'send file to site' or 'put file on portal').",
+    "example": "You can upload your profile picture through the settings page.",
+    "category": "Content & Digital Asset Management"
+  },
+  {
+    "word": "Download",
+    "meaning": "To transfer files or data from a remote server or internet site to a local device (strong alternative to 'get file from site' or 'save file from internet').",
+    "example": "Users can download the user manual in PDF format directly from our website.",
+    "category": "Content & Digital Asset Management"
+  },
+  {
+    "word": "Sync",
+    "meaning": "Short for synchronize, to keep data consistent across different folders, drives, or apps (strong alternative to 'make match' or 'keep same').",
+    "example": "Make sure you sync your local drafts to the cloud server before shutting down.",
+    "category": "Content & Digital Asset Management"
+  },
+  {
+    "word": "Host",
+    "meaning": "To store files, images, or web assets on a server so they can be viewed on the web (strong alternative to 'put images online' or 'keep files on server').",
+    "example": "We can host our marketing graphics on a content delivery network for faster load times.",
+    "category": "Content & Digital Asset Management",
+    "meaning_hi": "??????",
+    "pronunciation": "/ho?st/"
+  },
+  {
+    "word": "Stream",
+    "meaning": "To transmit audio or video content continuously in real-time over the internet without downloading the full file first (strong alternative to 'play video online' or 'watch online without saving').",
+    "example": "The conference will stream the keynote speech live on our portal.",
+    "category": "Content & Digital Asset Management"
+  }
 ]

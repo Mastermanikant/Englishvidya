@@ -1,1 +1,200 @@
-﻿[{"word":"Prehistory","part_of_speech":"noun","definition":"The period of time before written records.","example":"Archaeologists study prehistory by examining artifacts and fossils.","category":"Time periods"},{"word":"Paleolithic","part_of_speech":"adjective","definition":"Relating to the early phase of the Stone Age, lasting about 2.5 million years.","example":"Paleolithic tools were primarily made from chipped stones.","category":"Time periods"},{"word":"Neolithic","part_of_speech":"adjective","definition":"Relating to the later part of the Stone Age, when ground or polished stone weapons and implements prevailed.","example":"The Neolithic revolution introduced agriculture and settled farming.","category":"Time periods"},{"word":"Antiquity","part_of_speech":"noun","definition":"The ancient past, especially the period before the Middle Ages.","example":"Many great philosophers lived during classical antiquity.","category":"Time periods"},{"word":"Millennium","part_of_speech":"noun","definition":"A period of a thousand years.","example":"The year 2000 marked the beginning of a new millennium.","category":"Time periods"},{"word":"Century","part_of_speech":"noun","definition":"A period of one hundred years.","example":"The 20th century saw massive technological advancements.","category":"Time periods"},{"word":"Decade","part_of_speech":"noun","definition":"A period of ten years.","example":"The internet has completely transformed communication in the past decade.","category":"Time periods"},{"word":"Era","part_of_speech":"noun","definition":"A long and distinct period of history with a particular feature or characteristic.","example":"The Victorian era was known for its strict moral codes.","category":"Time periods"},{"word":"Epoch","part_of_speech":"noun","definition":"A period of time in history or a person\u0027s life, typically one marked by notable events or particular characteristics.","example":"The development of the steam engine marked a new epoch in industrial history.","category":"Time periods"},{"word":"Bronze Age","part_of_speech":"noun","definition":"A historical period characterized by the use of bronze, and in some areas proto-writing, and other early features of urban civilization.","example":"The Bronze Age brought significant improvements in weaponry and tools.","category":"Time periods"},{"word":"Iron Age","part_of_speech":"noun","definition":"The period generally occurring after the Bronze Age, marked by the prevalent use of iron.","example":"Farming became more efficient during the Iron Age with the invention of iron plows.","category":"Time periods"},{"word":"Middle Ages","part_of_speech":"noun","definition":"The period of European history from the fall of the Roman Empire in the West to the fall of Constantinople.","example":"Knights and castles are often associated with the Middle Ages.","category":"Time periods"},{"word":"Medieval","part_of_speech":"adjective","definition":"Relating to the Middle Ages.","example":"Medieval architecture often features large, imposing fortresses.","category":"Time periods"},{"word":"Renaissance","part_of_speech":"noun","definition":"The revival of art and literature under the influence of classical models in the 14th-16th centuries.","example":"Leonardo da Vinci was a prominent figure of the Renaissance.","category":"Time periods"},{"word":"Enlightenment","part_of_speech":"noun","definition":"A European intellectual movement of the late 17th and 18th centuries emphasizing reason and individualism rather than tradition.","example":"The Enlightenment greatly influenced the founding fathers of the United States.","category":"Time periods"},{"word":"Industrial Revolution","part_of_speech":"noun","definition":"The transition to new manufacturing processes in Europe and the United States, in the period from about 1760 to sometime between 1820 and 1840.","example":"The Industrial Revolution led to a massive increase in urban populations.","category":"Time periods"},{"word":"Modernity","part_of_speech":"noun","definition":"The quality or condition of being modern.","example":"The city\u0027s skyline is a testament to its fast-paced modernity.","category":"Time periods"},{"word":"Contemporary","part_of_speech":"adjective","definition":"Living or occurring at the same time; belonging to or occurring in the present.","example":"The museum exhibits a large collection of contemporary art.","category":"Time periods"},{"word":"Chronology","part_of_speech":"noun","definition":"The arrangement of events or dates in the order of their occurrence.","example":"The detective tried to establish a clear chronology of the crime.","category":"Time periods"},{"word":"Anno Domini","part_of_speech":"adverb","definition":"Used to indicate that a time division falls within the Christian era; in the year of the Lord.","example":"The Roman Empire fell in 476 Anno Domini.","category":"Time periods"},{"word":"BCE","part_of_speech":"abbreviation","definition":"Before Common Era; a non-religious alternative to the use of BC.","example":"The city of Rome was traditionally founded in 753 BCE.","category":"Time periods"},{"word":"CE","part_of_speech":"abbreviation","definition":"Common Era; a non-religious alternative to the use of AD.","example":"The current year is 2024 CE.","category":"Time periods"},{"word":"Generation","part_of_speech":"noun","definition":"All of the people born and living at about the same time, regarded collectively.","example":"My grandfather belongs to the baby boomer generation.","category":"Time periods"},{"word":"Eternity","part_of_speech":"noun","definition":"Infinite or unending time.","example":"The concept of eternity is difficult for the human mind to grasp.","category":"Time periods"},{"word":"Fortnight","part_of_speech":"noun","definition":"A period of two weeks.","example":"They will return from their vacation in a fortnight.","category":"Time periods"},{"word":"Bicentennial","part_of_speech":"noun","definition":"The two-hundredth anniversary of a significant event.","example":"The nation celebrated its bicentennial with grand parades.","category":"Time periods"},{"word":"Centennial","part_of_speech":"noun","definition":"A hundredth anniversary.","example":"The university is celebrating its centennial this year.","category":"Time periods"},{"word":"Eon","part_of_speech":"noun","definition":"An indefinite and very long period of time, often a period exaggerated for humorous or rhetorical effect.","example":"It feels like an eon since we last met.","category":"Time periods"}]
+[
+  {
+    "word": "Prehistory",
+    "part_of_speech": "noun",
+    "definition": "The period of time before written records.",
+    "example": "Archaeologists study prehistory by examining artifacts and fossils.",
+    "category": "Time periods"
+  },
+  {
+    "word": "Paleolithic",
+    "part_of_speech": "adjective",
+    "definition": "Relating to the early phase of the Stone Age, lasting about 2.5 million years.",
+    "example": "Paleolithic tools were primarily made from chipped stones.",
+    "category": "Time periods"
+  },
+  {
+    "word": "Neolithic",
+    "part_of_speech": "adjective",
+    "definition": "Relating to the later part of the Stone Age, when ground or polished stone weapons and implements prevailed.",
+    "example": "The Neolithic revolution introduced agriculture and settled farming.",
+    "category": "Time periods"
+  },
+  {
+    "word": "Antiquity",
+    "part_of_speech": "noun",
+    "definition": "The ancient past, especially the period before the Middle Ages.",
+    "example": "Many great philosophers lived during classical antiquity.",
+    "category": "Time periods"
+  },
+  {
+    "word": "Millennium",
+    "part_of_speech": "noun",
+    "definition": "A period of a thousand years.",
+    "example": "The year 2000 marked the beginning of a new millennium.",
+    "category": "Time periods"
+  },
+  {
+    "word": "Century",
+    "part_of_speech": "noun",
+    "definition": "A period of one hundred years.",
+    "example": "The 20th century saw massive technological advancements.",
+    "category": "Time periods"
+  },
+  {
+    "word": "Decade",
+    "part_of_speech": "noun",
+    "definition": "A period of ten years.",
+    "example": "The internet has completely transformed communication in the past decade.",
+    "category": "Time periods"
+  },
+  {
+    "word": "Era",
+    "part_of_speech": "noun",
+    "definition": "A long and distinct period of history with a particular feature or characteristic.",
+    "example": "The Victorian era was known for its strict moral codes.",
+    "category": "Time periods"
+  },
+  {
+    "word": "Epoch",
+    "part_of_speech": "noun",
+    "definition": "A period of time in history or a person's life, typically one marked by notable events or particular characteristics.",
+    "example": "The development of the steam engine marked a new epoch in industrial history.",
+    "category": "Time periods"
+  },
+  {
+    "word": "Bronze Age",
+    "part_of_speech": "noun",
+    "definition": "A historical period characterized by the use of bronze, and in some areas proto-writing, and other early features of urban civilization.",
+    "example": "The Bronze Age brought significant improvements in weaponry and tools.",
+    "category": "Time periods"
+  },
+  {
+    "word": "Iron Age",
+    "part_of_speech": "noun",
+    "definition": "The period generally occurring after the Bronze Age, marked by the prevalent use of iron.",
+    "example": "Farming became more efficient during the Iron Age with the invention of iron plows.",
+    "category": "Time periods"
+  },
+  {
+    "word": "Middle Ages",
+    "part_of_speech": "noun",
+    "definition": "The period of European history from the fall of the Roman Empire in the West to the fall of Constantinople.",
+    "example": "Knights and castles are often associated with the Middle Ages.",
+    "category": "Time periods"
+  },
+  {
+    "word": "Medieval",
+    "part_of_speech": "adjective",
+    "definition": "Relating to the Middle Ages.",
+    "example": "Medieval architecture often features large, imposing fortresses.",
+    "category": "Time periods"
+  },
+  {
+    "word": "Renaissance",
+    "part_of_speech": "noun",
+    "definition": "The revival of art and literature under the influence of classical models in the 14th-16th centuries.",
+    "example": "Leonardo da Vinci was a prominent figure of the Renaissance.",
+    "category": "Time periods"
+  },
+  {
+    "word": "Enlightenment",
+    "part_of_speech": "noun",
+    "definition": "A European intellectual movement of the late 17th and 18th centuries emphasizing reason and individualism rather than tradition.",
+    "example": "The Enlightenment greatly influenced the founding fathers of the United States.",
+    "category": "Time periods"
+  },
+  {
+    "word": "Industrial Revolution",
+    "part_of_speech": "noun",
+    "definition": "The transition to new manufacturing processes in Europe and the United States, in the period from about 1760 to sometime between 1820 and 1840.",
+    "example": "The Industrial Revolution led to a massive increase in urban populations.",
+    "category": "Time periods"
+  },
+  {
+    "word": "Modernity",
+    "part_of_speech": "noun",
+    "definition": "The quality or condition of being modern.",
+    "example": "The city's skyline is a testament to its fast-paced modernity.",
+    "category": "Time periods"
+  },
+  {
+    "word": "Contemporary",
+    "part_of_speech": "adjective",
+    "definition": "Living or occurring at the same time; belonging to or occurring in the present.",
+    "example": "The museum exhibits a large collection of contemporary art.",
+    "category": "Time periods"
+  },
+  {
+    "word": "Chronology",
+    "part_of_speech": "noun",
+    "definition": "The arrangement of events or dates in the order of their occurrence.",
+    "example": "The detective tried to establish a clear chronology of the crime.",
+    "category": "Time periods"
+  },
+  {
+    "word": "Anno Domini",
+    "part_of_speech": "adverb",
+    "definition": "Used to indicate that a time division falls within the Christian era; in the year of the Lord.",
+    "example": "The Roman Empire fell in 476 Anno Domini.",
+    "category": "Time periods"
+  },
+  {
+    "word": "BCE",
+    "part_of_speech": "abbreviation",
+    "definition": "Before Common Era; a non-religious alternative to the use of BC.",
+    "example": "The city of Rome was traditionally founded in 753 BCE.",
+    "category": "Time periods"
+  },
+  {
+    "word": "CE",
+    "part_of_speech": "abbreviation",
+    "definition": "Common Era; a non-religious alternative to the use of AD.",
+    "example": "The current year is 2024 CE.",
+    "category": "Time periods"
+  },
+  {
+    "word": "Generation",
+    "part_of_speech": "noun",
+    "definition": "All of the people born and living at about the same time, regarded collectively.",
+    "example": "My grandfather belongs to the baby boomer generation.",
+    "category": "Time periods",
+    "meaning_hi": "?????",
+    "pronunciation": "/?d??n??re???n/"
+  },
+  {
+    "word": "Eternity",
+    "part_of_speech": "noun",
+    "definition": "Infinite or unending time.",
+    "example": "The concept of eternity is difficult for the human mind to grasp.",
+    "category": "Time periods"
+  },
+  {
+    "word": "Fortnight",
+    "part_of_speech": "noun",
+    "definition": "A period of two weeks.",
+    "example": "They will return from their vacation in a fortnight.",
+    "category": "Time periods"
+  },
+  {
+    "word": "Bicentennial",
+    "part_of_speech": "noun",
+    "definition": "The two-hundredth anniversary of a significant event.",
+    "example": "The nation celebrated its bicentennial with grand parades.",
+    "category": "Time periods"
+  },
+  {
+    "word": "Centennial",
+    "part_of_speech": "noun",
+    "definition": "A hundredth anniversary.",
+    "example": "The university is celebrating its centennial this year.",
+    "category": "Time periods"
+  },
+  {
+    "word": "Eon",
+    "part_of_speech": "noun",
+    "definition": "An indefinite and very long period of time, often a period exaggerated for humorous or rhetorical effect.",
+    "example": "It feels like an eon since we last met.",
+    "category": "Time periods"
+  }
+]

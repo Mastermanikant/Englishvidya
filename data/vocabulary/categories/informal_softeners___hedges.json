@@ -1,1 +1,79 @@
-﻿[{"word":"ACTUALLY","meaning":"Textbook: Adverb meaning in truth or fact. Spoken Native: Used to politely correct someone, soften a refusal, or express mild surprise.","example":"I actually can\u0027t make it to the party tonight.","category":"Informal Softeners \u0026 Hedges"},{"word":"HONESTLY","meaning":"Textbook: In a truthful way. Spoken Native: Used at the beginning of a sentence to add emphasis, express frustration, or soften an opinion.","example":"Honestly, I don\u0027t think it\u0027s worth the price.","category":"Informal Softeners \u0026 Hedges"},{"word":"PROBABLY","meaning":"Textbook: Adverb indicating high likelihood. Spoken Native: Often contracted to \u0027prob\u0027ly\u0027 or \u0027prolly\u0027 and used to soften assertions or commitments in conversation.","example":"I\u0027ll probably be a few minutes late to the meeting.","category":"Informal Softeners \u0026 Hedges"},{"word":"KIND OF","meaning":"Textbook: A phrase meaning \u0027type of\u0027 or \u0027class of.\u0027 Spoken Native: Used as a qualifying adverb (often contracted to \u0027kinda\u0027) meaning \u0027somewhat\u0027 or \u0027moderately.\u0027","example":"I\u0027m kind of tired, so I might stay home tonight.","category":"Informal Softeners \u0026 Hedges"},{"word":"SORT OF","meaning":"Textbook: A phrase meaning \u0027category of.\u0027 Spoken Native: Used as a softening adverb (often contracted to \u0027sorta\u0027) to mean \u0027somewhat\u0027 or \u0027more or less.\u0027","example":"It sort of looks like rain, doesn\u0027t it?","category":"Informal Softeners \u0026 Hedges"},{"word":"SOON","meaning":"Textbook: In a short time. Spoken Native: Highly subjective; in business, it can mean \u0027within the week,\u0027 while in casual conversation it could mean \u0027in a few minutes.\u0027","example":"I\u0027ll get back to you soon with the details.","category":"Informal Softeners \u0026 Hedges"},{"word":"PERHAPS","meaning":"Textbook: Adverb meaning maybe or by chance. Spoken Native: Rarely used in everyday spoken American English, where it sounds overly literary; replaced by \u0027maybe.\u0027","example":"Maybe we should try a different approach to solve this.","category":"Informal Softeners \u0026 Hedges"},{"word":"MAYBE","meaning":"Textbook: Adverb indicating possibility. Spoken Native: Often placed at the start of a sentence to make suggestions, requests, or criticisms sound less aggressive.","example":"Maybe you could try calling them instead of sending an email.","category":"Informal Softeners \u0026 Hedges"},{"word":"SAY","meaning":"Textbook: Verb to express in words. Spoken Native: Used at the beginning of a clause to introduce a hypothetical suggestion or example (e.g., \u0027Say we go at five...\u0027).","example":"Say we don\u0027t finish by Friday, what happens then?","category":"Informal Softeners \u0026 Hedges"},{"word":"OR SOMETHING","meaning":"Textbook: Disjunctive phrase. Spoken Native: Added to the end of a statement to make it sound less precise, less direct, or to leave other possibilities open.","example":"Do you want to go watch a movie or something?","category":"Informal Softeners \u0026 Hedges"},{"word":"NEITHER HERE NOR THERE","meaning":"Textbook: Idiom for irrelevant. Spoken Native: Used in daily conversation to dismiss a point or detail as having no importance to the main issue.","example":"Whether you liked the food or not is neither here nor there; we still have to pay.","category":"Informal Softeners \u0026 Hedges"}]
+[
+  {
+    "word": "ACTUALLY",
+    "meaning": "Textbook: Adverb meaning in truth or fact. Spoken Native: Used to politely correct someone, soften a refusal, or express mild surprise.",
+    "example": "I actually can't make it to the party tonight.",
+    "category": "Informal Softeners & Hedges",
+    "meaning_hi": "????? / ?????? ??? (darasal / vaastav mein)",
+    "pronunciation": "???????? (ak-choo-uh-lee)"
+  },
+  {
+    "word": "HONESTLY",
+    "meaning": "Textbook: In a truthful way. Spoken Native: Used at the beginning of a sentence to add emphasis, express frustration, or soften an opinion.",
+    "example": "Honestly, I don't think it's worth the price.",
+    "category": "Informal Softeners & Hedges",
+    "meaning_hi": "???????? ?? / ?? ???? ?? (imaandari se / sach kahoon toh)",
+    "pronunciation": "???????? (on-est-lee)"
+  },
+  {
+    "word": "PROBABLY",
+    "meaning": "Textbook: Adverb indicating high likelihood. Spoken Native: Often contracted to 'prob'ly' or 'prolly' and used to soften assertions or commitments in conversation.",
+    "example": "I'll probably be a few minutes late to the meeting.",
+    "category": "Informal Softeners & Hedges",
+    "meaning_hi": "?????? / ???? (sambhavatah / shaayad)",
+    "pronunciation": "????????? (prob-ab-lee)"
+  },
+  {
+    "word": "KIND OF",
+    "meaning": "Textbook: A phrase meaning 'type of' or 'class of.' Spoken Native: Used as a qualifying adverb (often contracted to 'kinda') meaning 'somewhat' or 'moderately.'",
+    "example": "I'm kind of tired, so I might stay home tonight.",
+    "category": "Informal Softeners & Hedges"
+  },
+  {
+    "word": "SORT OF",
+    "meaning": "Textbook: A phrase meaning 'category of.' Spoken Native: Used as a softening adverb (often contracted to 'sorta') to mean 'somewhat' or 'more or less.'",
+    "example": "It sort of looks like rain, doesn't it?",
+    "category": "Informal Softeners & Hedges"
+  },
+  {
+    "word": "SOON",
+    "meaning": "Textbook: In a short time. Spoken Native: Highly subjective; in business, it can mean 'within the week,' while in casual conversation it could mean 'in a few minutes.'",
+    "example": "I'll get back to you soon with the details.",
+    "category": "Informal Softeners & Hedges",
+    "meaning_hi": "???? ??"
+  },
+  {
+    "word": "PERHAPS",
+    "meaning": "Textbook: Adverb meaning maybe or by chance. Spoken Native: Rarely used in everyday spoken American English, where it sounds overly literary; replaced by 'maybe.'",
+    "example": "Maybe we should try a different approach to solve this.",
+    "category": "Informal Softeners & Hedges"
+  },
+  {
+    "word": "MAYBE",
+    "meaning": "Textbook: Adverb indicating possibility. Spoken Native: Often placed at the start of a sentence to make suggestions, requests, or criticisms sound less aggressive.",
+    "example": "Maybe you could try calling them instead of sending an email.",
+    "category": "Informal Softeners & Hedges",
+    "meaning_hi": "???? (shaayad)",
+    "pronunciation": "??-?? (may-bee)"
+  },
+  {
+    "word": "SAY",
+    "meaning": "Textbook: Verb to express in words. Spoken Native: Used at the beginning of a clause to introduce a hypothetical suggestion or example (e.g., 'Say we go at five...').",
+    "example": "Say we don't finish by Friday, what happens then?",
+    "category": "Informal Softeners & Hedges",
+    "meaning_hi": "????",
+    "pronunciation": "?? (Say)"
+  },
+  {
+    "word": "OR SOMETHING",
+    "meaning": "Textbook: Disjunctive phrase. Spoken Native: Added to the end of a statement to make it sound less precise, less direct, or to leave other possibilities open.",
+    "example": "Do you want to go watch a movie or something?",
+    "category": "Informal Softeners & Hedges"
+  },
+  {
+    "word": "NEITHER HERE NOR THERE",
+    "meaning": "Textbook: Idiom for irrelevant. Spoken Native: Used in daily conversation to dismiss a point or detail as having no importance to the main issue.",
+    "example": "Whether you liked the food or not is neither here nor there; we still have to pay.",
+    "category": "Informal Softeners & Hedges"
+  }
+]

@@ -1,42 +1,48 @@
-﻿[
-    {
-        "word":  "key",
-        "category":  "Keys \u0026 Accessories"
-    },
-    {
-        "word":  "keychain",
-        "category":  "Keys \u0026 Accessories"
-    },
-    {
-        "word":  "padlock",
-        "category":  "Keys \u0026 Accessories"
-    },
-    {
-        "word":  "lanyard",
-        "category":  "Keys \u0026 Accessories"
-    },
-    {
-        "word":  "keyhole",
-        "category":  "Keys \u0026 Accessories"
-    },
-    {
-        "word":  "doorknob",
-        "category":  "Keys \u0026 Accessories"
-    },
-    {
-        "word":  "sunglasses",
-        "category":  "Keys \u0026 Accessories"
-    },
-    {
-        "word":  "umbrella",
-        "category":  "Keys \u0026 Accessories"
-    },
-    {
-        "word":  "watch",
-        "category":  "Keys \u0026 Accessories"
-    },
-    {
-        "word":  "belt",
-        "category":  "Keys \u0026 Accessories"
-    }
+[
+  {
+    "word": "key",
+    "category": "Keys & Accessories",
+    "meaning_hi": "????",
+    "pronunciation": "?? (kee)"
+  },
+  {
+    "word": "keychain",
+    "category": "Keys & Accessories"
+  },
+  {
+    "word": "padlock",
+    "category": "Keys & Accessories"
+  },
+  {
+    "word": "lanyard",
+    "category": "Keys & Accessories"
+  },
+  {
+    "word": "keyhole",
+    "category": "Keys & Accessories"
+  },
+  {
+    "word": "doorknob",
+    "category": "Keys & Accessories"
+  },
+  {
+    "word": "sunglasses",
+    "category": "Keys & Accessories",
+    "meaning_hi": "??? ?? ?????"
+  },
+  {
+    "word": "umbrella",
+    "category": "Keys & Accessories",
+    "meaning_hi": "????"
+  },
+  {
+    "word": "watch",
+    "category": "Keys & Accessories",
+    "meaning_hi": "?????",
+    "pronunciation": "??? (Watch)"
+  },
+  {
+    "word": "belt",
+    "category": "Keys & Accessories"
+  }
 ]

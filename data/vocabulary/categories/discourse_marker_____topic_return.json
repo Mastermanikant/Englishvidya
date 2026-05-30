@@ -1,1 +1,28 @@
-﻿[{"word":"anyway","meaning":"Used to return to the main topic or dismiss an aside","example":"Anyway, let\u0027s get back to what we were discussing.","category":"Discourse Marker â€“ Topic Return"},{"word":"anyhow","meaning":"Informal variant of \u0027anyway\u0027; used to resume or conclude a topic","example":"Anyhow, that\u0027s not the point â€” let\u0027s move on.","category":"Discourse Marker â€“ Topic Return"},{"word":"as I was saying","meaning":"Used to return to a point after a digression","example":"As I was saying, we need to fix the root cause.","category":"Discourse Marker â€“ Topic Return"},{"word":"to get back to the point","meaning":"Used to refocus the conversation on the main topic","example":"To get back to the point, what\u0027s our deadline?","category":"Discourse Marker â€“ Topic Return"}]
+[
+  {
+    "word": "anyway",
+    "meaning": "Used to return to the main topic or dismiss an aside",
+    "example": "Anyway, let's get back to what we were discussing.",
+    "category": "Discourse Marker â€“ Topic Return",
+    "meaning_hi": "???? / ???? ?? (khair / vaise bhi)",
+    "pronunciation": "???-?? (eh-nee-way)"
+  },
+  {
+    "word": "anyhow",
+    "meaning": "Informal variant of 'anyway'; used to resume or conclude a topic",
+    "example": "Anyhow, that's not the point â€” let's move on.",
+    "category": "Discourse Marker â€“ Topic Return"
+  },
+  {
+    "word": "as I was saying",
+    "meaning": "Used to return to a point after a digression",
+    "example": "As I was saying, we need to fix the root cause.",
+    "category": "Discourse Marker â€“ Topic Return"
+  },
+  {
+    "word": "to get back to the point",
+    "meaning": "Used to refocus the conversation on the main topic",
+    "example": "To get back to the point, what's our deadline?",
+    "category": "Discourse Marker â€“ Topic Return"
+  }
+]

@@ -1,1 +1,28 @@
-﻿[{"word":"demonstrate","meaning":"To clearly show the existence or truth of something by giving proof or evidence.","example":"The experiment demonstrates a clear correlation between the two variables.","category":"Evidence"},{"word":"substantiate","meaning":"To provide evidence to support or prove the truth of something.","example":"Every claim in your essay must be substantiated with credible evidence.","category":"Evidence"},{"word":"support","meaning":"To give assistance or backing to a claim with evidence.","example":"Use at least three sources to support each major claim in your paper.","category":"Evidence"},{"word":"corroborate","meaning":"To confirm or give support to a statement, theory, or finding.","example":"The second study corroborated the findings of the first.","category":"Evidence"}]
+[
+  {
+    "word": "demonstrate",
+    "meaning": "To clearly show the existence or truth of something by giving proof or evidence.",
+    "example": "The experiment demonstrates a clear correlation between the two variables.",
+    "category": "Evidence"
+  },
+  {
+    "word": "substantiate",
+    "meaning": "To provide evidence to support or prove the truth of something.",
+    "example": "Every claim in your essay must be substantiated with credible evidence.",
+    "category": "Evidence"
+  },
+  {
+    "word": "support",
+    "meaning": "To give assistance or backing to a claim with evidence.",
+    "example": "Use at least three sources to support each major claim in your paper.",
+    "category": "Evidence",
+    "meaning_hi": "?????? ????, ??? ????",
+    "pronunciation": "?????? (suh-port)"
+  },
+  {
+    "word": "corroborate",
+    "meaning": "To confirm or give support to a statement, theory, or finding.",
+    "example": "The second study corroborated the findings of the first.",
+    "category": "Evidence"
+  }
+]

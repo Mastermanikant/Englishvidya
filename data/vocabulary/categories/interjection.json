@@ -1,123 +1,134 @@
-﻿[
-    {
-        "word":  "hello",
-        "hindi_meaning":  "à¤¨à¤®à¤¸à¥à¤¤à¥‡ / à¤¹à¥‡à¤²à¥‹ (namaste / hello)",
-        "pronunciation_help":  "à¤¹à¥‡à¤²à¥‹ (heh-low)",
-        "word_type":  "Interjection",
-        "simple_explanation":  "Used as a greeting when you meet someone or answer the phone.",
-        "daily_life_use":  "Starting a conversation or greeting friends and colleagues.",
-        "spoken_use":  "Hello, how are you?",
-        "natural_native_use":  "Hey there! / Hi!",
-        "emotional_tone":  "Friendly, welcoming",
-        "common_collocations":  [
-                                    "say hello",
-                                    "hello there",
-                                    "hello everyone"
-                                ],
-        "examples":  [
-                         "Hello, nice to meet you.",
-                         "Say hello to your family for me."
-                     ],
-        "common_mistakes":  "Saying \u0027hello\u0027 multiple times to keep a conversation going instead of asking a question.",
-        "hindi_confusion_correction":  "In Hindi, \u0027à¤¨à¤®à¤¸à¥à¤¤à¥‡\u0027 is formal. In English, \u0027hello\u0027 can be used in both formal and informal settings.",
-        "formal_informal_note":  "Can be formal or informal. \u0027Hi\u0027 or \u0027Hey\u0027 is more informal.",
-        "image_url":  "https://commons.wikimedia.org/wiki/Special:FilePath/Waving_hand_icon.svg",
-        "category":  "Interjection"
-    },
-    {
-        "word":  "goodbye",
-        "hindi_meaning":  "à¤…à¤²à¤µà¤¿à¤¦à¤¾ (alvida)",
-        "pronunciation_help":  "à¤—à¥à¤¡à¤¬à¤¾à¤¯ (good-bye)",
-        "word_type":  "Interjection",
-        "simple_explanation":  "Used when leaving or at the end of a conversation.",
-        "daily_life_use":  "Ending a phone call or leaving a place.",
-        "spoken_use":  "Goodbye, see you tomorrow.",
-        "natural_native_use":  "Bye! / See ya! / Take care.",
-        "emotional_tone":  "Neutral, sometimes sad",
-        "common_collocations":  [
-                                    "say goodbye",
-                                    "kiss goodbye",
-                                    "wave goodbye"
-                                ],
-        "examples":  [
-                         "It\u0027s time to say goodbye.",
-                         "She waved goodbye as the train left."
-                     ],
-        "common_mistakes":  "Saying \u0027goodbye\u0027 can sound very final; native speakers often just say \u0027bye\u0027 or \u0027see you\u0027.",
-        "hindi_confusion_correction":  "In Hindi \u0027à¤«à¤¿à¤° à¤®à¤¿à¤²à¥‡à¤‚à¤—à¥‡\u0027 is common; the English equivalent is \u0027see you later\u0027.",
-        "formal_informal_note":  "\u0027Goodbye\u0027 is slightly formal; \u0027bye\u0027 is universally used.",
-        "image_url":  "https://commons.wikimedia.org/wiki/Special:FilePath/Goodbye_waving.svg",
-        "category":  "Interjection"
-    },
-    {
-        "word":  "wow",
-        "hindi_meaning":  "à¤µà¤¾à¤¹ (waah)",
-        "pronunciation_help":  "à¤µà¤¾à¤“ (wow)",
-        "word_type":  "Interjection",
-        "simple_explanation":  "Used to express strong surprise or admiration.",
-        "daily_life_use":  "Reacting to surprising news or seeing something beautiful.",
-        "spoken_use":  "Wow, that looks amazing!",
-        "natural_native_use":  "Oh wow!",
-        "emotional_tone":  "Surprised, impressed",
-        "common_collocations":  [
-                                    "oh wow"
-                                ],
-        "examples":  [
-                         "Wow, I didn\u0027t know that!",
-                         "Wow, what a great car."
-                     ],
-        "common_mistakes":  "Using it sarcastically when a genuine reaction is expected.",
-        "hindi_confusion_correction":  "Exact equivalent of \u0027à¤µà¤¾à¤¹!\u0027.",
-        "formal_informal_note":  "Informal.",
-        "image_url":  "https://commons.wikimedia.org/wiki/Special:FilePath/Surprised_face.svg",
-        "category":  "Interjection"
-    },
-    {
-        "word":  "hello",
-        "hindi_meaning":  "à¤¨à¤®à¤¸à¥à¤¤à¥‡",
-        "pronunciation_help":  "à¤¹à¥‡-à¤²à¥‹ (He-lo)",
-        "word_type":  "Interjection",
-        "simple_explanation":  "Used to greet someone.",
-        "daily_life_use":  "When meeting someone or answering the phone.",
-        "spoken_use":  "Hello, how are you?",
-        "natural_native_use":  "Hey! / Hi!",
-        "emotional_tone":  "Friendly",
-        "common_collocations":  [
-                                    "say hello",
-                                    "hello there"
-                                ],
-        "examples":  [
-                         "Hello, my name is Raj.",
-                         "Hello! Is anyone there?"
-                     ],
-        "common_mistakes":  "Saying \u0027hello\u0027 without a smile can seem rude.",
-        "hindi_confusion_correction":  "Hindi \u0027Namaste\u0027 is respectful, \u0027hello\u0027 is general.",
-        "formal_informal_note":  "Hi/Hey are informal; Hello is formal.",
-        "image_url":  "https://commons.wikimedia.org/wiki/Special:FilePath/Hello.jpg",
-        "category":  "Interjection"
-    },
-    {
-        "word":  "goodbye",
-        "hindi_meaning":  "à¤…à¤²à¤µà¤¿à¤¦à¤¾",
-        "pronunciation_help":  "à¤—à¥à¤¡-à¤¬à¤¾à¤¯ (Good-bye)",
-        "word_type":  "Interjection",
-        "simple_explanation":  "Used when leaving someone.",
-        "daily_life_use":  "When parting ways.",
-        "spoken_use":  "Goodbye, see you tomorrow.",
-        "natural_native_use":  "Bye! / See ya!",
-        "emotional_tone":  "Neutral",
-        "common_collocations":  [
-                                    "say goodbye",
-                                    "kiss goodbye"
-                                ],
-        "examples":  [
-                         "Goodbye, take care.",
-                         "I have to say goodbye now."
-                     ],
-        "common_mistakes":  "Pronouncing it as \u0027goodboy\u0027.",
-        "hindi_confusion_correction":  "Often shortened to \u0027bye\u0027 in English, unlike \u0027alvida\u0027 which is formal.",
-        "formal_informal_note":  "Bye is informal, Goodbye is standard.",
-        "image_url":  "https://commons.wikimedia.org/wiki/Special:FilePath/Goodbye.jpg",
-        "category":  "Interjection"
-    }
+[
+  {
+    "word": "hello",
+    "hindi_meaning": "नमस्ते / हेलो (namaste / hello)",
+    "pronunciation_help": "हेलो (heh-low)",
+    "word_type": "Interjection",
+    "simple_explanation": "Used as a greeting when you meet someone or answer the phone.",
+    "daily_life_use": "Starting a conversation or greeting friends and colleagues.",
+    "spoken_use": "Hello, how are you?",
+    "natural_native_use": "Hey there! / Hi!",
+    "emotional_tone": "Friendly, welcoming",
+    "common_collocations": [
+      "say hello",
+      "hello there",
+      "hello everyone"
+    ],
+    "examples": [
+      "Hello, nice to meet you.",
+      "Say hello to your family for me."
+    ],
+    "common_mistakes": "Saying 'hello' multiple times to keep a conversation going instead of asking a question.",
+    "hindi_confusion_correction": "In Hindi, 'नमस्ते' is formal. In English, 'hello' can be used in both formal and informal settings.",
+    "formal_informal_note": "Can be formal or informal. 'Hi' or 'Hey' is more informal.",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Waving_hand_icon.svg",
+    "category": "Interjection",
+    "meaning_hi": "",
+    "pronunciation": "??-?? (He-lo)"
+  },
+  {
+    "word": "goodbye",
+    "hindi_meaning": "अलविदा (alvida)",
+    "pronunciation_help": "गुडबाय (good-bye)",
+    "word_type": "Interjection",
+    "simple_explanation": "Used when leaving or at the end of a conversation.",
+    "daily_life_use": "Ending a phone call or leaving a place.",
+    "spoken_use": "Goodbye, see you tomorrow.",
+    "natural_native_use": "Bye! / See ya! / Take care.",
+    "emotional_tone": "Neutral, sometimes sad",
+    "common_collocations": [
+      "say goodbye",
+      "kiss goodbye",
+      "wave goodbye"
+    ],
+    "examples": [
+      "It's time to say goodbye.",
+      "She waved goodbye as the train left."
+    ],
+    "common_mistakes": "Saying 'goodbye' can sound very final; native speakers often just say 'bye' or 'see you'.",
+    "hindi_confusion_correction": "In Hindi 'फिर मिलेंगे' is common; the English equivalent is 'see you later'.",
+    "formal_informal_note": "'Goodbye' is slightly formal; 'bye' is universally used.",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Goodbye_waving.svg",
+    "category": "Interjection",
+    "meaning_hi": "",
+    "pronunciation": "???-??? (Good-bye)"
+  },
+  {
+    "word": "wow",
+    "hindi_meaning": "वाह (waah)",
+    "pronunciation_help": "वाओ (wow)",
+    "word_type": "Interjection",
+    "simple_explanation": "Used to express strong surprise or admiration.",
+    "daily_life_use": "Reacting to surprising news or seeing something beautiful.",
+    "spoken_use": "Wow, that looks amazing!",
+    "natural_native_use": "Oh wow!",
+    "emotional_tone": "Surprised, impressed",
+    "common_collocations": [
+      "oh wow"
+    ],
+    "examples": [
+      "Wow, I didn't know that!",
+      "Wow, what a great car."
+    ],
+    "common_mistakes": "Using it sarcastically when a genuine reaction is expected.",
+    "hindi_confusion_correction": "Exact equivalent of 'वाह!'.",
+    "formal_informal_note": "Informal.",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Surprised_face.svg",
+    "category": "Interjection",
+    "meaning_hi": "वाह (waah)",
+    "pronunciation": "??? (wow)",
+    "pronunciation_hi": "वा�\u001c (wow)"
+  },
+  {
+    "word": "hello",
+    "hindi_meaning": "नमस्ते",
+    "pronunciation_help": "हे-लो (He-lo)",
+    "word_type": "Interjection",
+    "simple_explanation": "Used to greet someone.",
+    "daily_life_use": "When meeting someone or answering the phone.",
+    "spoken_use": "Hello, how are you?",
+    "natural_native_use": "Hey! / Hi!",
+    "emotional_tone": "Friendly",
+    "common_collocations": [
+      "say hello",
+      "hello there"
+    ],
+    "examples": [
+      "Hello, my name is Raj.",
+      "Hello! Is anyone there?"
+    ],
+    "common_mistakes": "Saying 'hello' without a smile can seem rude.",
+    "hindi_confusion_correction": "Hindi 'Namaste' is respectful, 'hello' is general.",
+    "formal_informal_note": "Hi/Hey are informal; Hello is formal.",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hello.jpg",
+    "category": "Interjection",
+    "meaning_hi": "",
+    "pronunciation": "??-?? (He-lo)"
+  },
+  {
+    "word": "goodbye",
+    "hindi_meaning": "अलविदा",
+    "pronunciation_help": "गुड-बाय (Good-bye)",
+    "word_type": "Interjection",
+    "simple_explanation": "Used when leaving someone.",
+    "daily_life_use": "When parting ways.",
+    "spoken_use": "Goodbye, see you tomorrow.",
+    "natural_native_use": "Bye! / See ya!",
+    "emotional_tone": "Neutral",
+    "common_collocations": [
+      "say goodbye",
+      "kiss goodbye"
+    ],
+    "examples": [
+      "Goodbye, take care.",
+      "I have to say goodbye now."
+    ],
+    "common_mistakes": "Pronouncing it as 'goodboy'.",
+    "hindi_confusion_correction": "Often shortened to 'bye' in English, unlike 'alvida' which is formal.",
+    "formal_informal_note": "Bye is informal, Goodbye is standard.",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Goodbye.jpg",
+    "category": "Interjection",
+    "meaning_hi": "",
+    "pronunciation": "???-??? (Good-bye)"
+  }
 ]

@@ -1,1 +1,321 @@
-﻿[{"word":"absolutely","category":"assert","definition":"With no qualification; totally confident."},{"word":"affirm","category":"assert","definition":"State as a fact strongly and publicly."},{"word":"assert","category":"assert","definition":"State a fact or belief confidently and forcefully."},{"word":"assure","category":"assert","definition":"Tell someone something positively to dispel any doubts."},{"word":"assuredly","category":"assert","definition":"Confidently; with certainty."},{"word":"authoritative","category":"assert","definition":"Able to be trusted as being accurate or true."},{"word":"categorically","category":"assert","definition":"In a way that is unambiguously explicit and direct."},{"word":"certainly","category":"assert","definition":"Undoubtedly; definitely."},{"word":"compelling","category":"assert","definition":"Evoking interest, attention, or admiration in a powerfully irresistible way."},{"word":"conclusively","category":"assert","definition":"In a way that is achieved easily or by a large margin."},{"word":"concur","category":"assert","definition":"Be of the same opinion; agree."},{"word":"confidently","category":"assert","definition":"In a self-assured way that expresses faith in oneself."},{"word":"confirm","category":"assert","definition":"Establish the truth or correctness of something previously believed."},{"word":"consistently","category":"assert","definition":"In every case or on every occasion; invariably."},{"word":"contend","category":"assert","definition":"Assert something as a position in an argument."},{"word":"convince","category":"assert","definition":"Cause someone to believe firmly in the truth of something."},{"word":"corroborate","category":"assert","definition":"Confirm or give support to a statement, theory, or finding."},{"word":"crucial","category":"assert","definition":"Decisive or critical, especially in the success or failure of something."},{"word":"decidedly","category":"assert","definition":"In a decisive and confident way."},{"word":"declare","category":"assert","definition":"Say something in a solemn and emphatic manner."},{"word":"deem","category":"assert","definition":"Regard or consider in a specified way."},{"word":"definitely","category":"assert","definition":"Without doubt."},{"word":"definitive","category":"assert","definition":"Done or reached decisively and with authority."},{"word":"definitively","category":"assert","definition":"Decisively and with authority; conclusively."},{"word":"dictate","category":"assert","definition":"State or order authoritatively."},{"word":"doubtlessly","category":"assert","definition":"Certainly; without doubt."},{"word":"emphasize","category":"assert","definition":"Give special importance or prominence to something in speaking or writing."},{"word":"emphatically","category":"assert","definition":"In a forceful way."},{"word":"ensure","category":"assert","definition":"Make certain that something shall occur or be the case."},{"word":"essential","category":"assert","definition":"Absolutely necessary; extremely important."},{"word":"establish","category":"assert","definition":"Show to be true or certain by determining the facts."},{"word":"firmly","category":"assert","definition":"With little possibility of movement; securely."},{"word":"fundamental","category":"assert","definition":"Forming a necessary base or core; of central importance."},{"word":"guarantee","category":"assert","definition":"Provide a formal assurance or promise, especially that certain conditions shall be fulfilled relating to a product, service, or transaction."},{"word":"incontrovertible","category":"assert","definition":"Not able to be denied or disputed."},{"word":"indisputably","category":"assert","definition":"In a way that cannot be challenged or denied."},{"word":"indubitably","category":"assert","definition":"Without a doubt; impossible to doubt."},{"word":"inevitable","category":"assert","definition":"Certain to happen; unavoidable."},{"word":"inevitably","category":"assert","definition":"As is certain to happen; unavoidably."},{"word":"insist","category":"assert","definition":"Demand something forcefully, not accepting refusal."},{"word":"instruct","category":"assert","definition":"Direct or command someone to do something, especially as an official order."},{"word":"invariably","category":"assert","definition":"In every case or on every occasion; always."},{"word":"maintain","category":"assert","definition":"State something strongly to be the case; assert."},{"word":"positively","category":"assert","definition":"With certainty; so as to leave no room for doubt."},{"word":"postulate","category":"assert","definition":"Suggest or assume the existence, fact, or truth of something as a basis for reasoning, discussion, or belief."},{"word":"profoundly","category":"assert","definition":"To a profound extent; extremely."},{"word":"propose","category":"assert","definition":"Put forward a plan or suggestion for consideration or action."},{"word":"prove","category":"assert","definition":"Demonstrate the truth or existence of something by evidence or argument."},{"word":"reassure","category":"assert","definition":"Say or do something to remove the doubts and fears of someone."},{"word":"reiterate","category":"assert","definition":"Say something again or a number of times, typically for emphasis or clarity."},{"word":"reject","category":"assert","definition":"Dismiss as inadequate, inappropriate, or not to one\u0027s taste."},{"word":"resolve","category":"assert","definition":"Settle or find a solution to a problem, dispute, or contentious matter."},{"word":"resolutely","category":"assert","definition":"In an admirably purposeful, determined, and unwavering manner."},{"word":"state","category":"assert","definition":"Express something definitely or clearly in speech or writing."},{"word":"strongly","category":"assert","definition":"With great power or force."},{"word":"substantiate","category":"assert","definition":"Provide evidence to support or prove the truth of."},{"word":"surely","category":"assert","definition":"Used to emphasize the speaker\u0027s firm belief that what they are saying is true and often their surprise that there is any doubt of this."},{"word":"undeniably","category":"assert","definition":"In a way that cannot be denied or disputed."},{"word":"undoubtedly","category":"assert","definition":"Without doubt; certainly."},{"word":"unequivocally","category":"assert","definition":"In a way that leaves no doubt."},{"word":"unquestionably","category":"assert","definition":"In a way that cannot be disputed or doubted; without question."},{"word":"validate","category":"assert","definition":"Check or prove the validity or accuracy of something."},{"word":"verify","category":"assert","definition":"Make sure or demonstrate that something is true, accurate, or justified."}]
+[
+  {
+    "word": "absolutely",
+    "category": "assert",
+    "definition": "With no qualification; totally confident.",
+    "meaning_hi": "????? ??? ?? / ??????? (poorn roop se / bilkul)",
+    "pronunciation": "????????? (ab-so-loot-lee)"
+  },
+  {
+    "word": "affirm",
+    "category": "assert",
+    "definition": "State as a fact strongly and publicly."
+  },
+  {
+    "word": "assert",
+    "category": "assert",
+    "definition": "State a fact or belief confidently and forcefully."
+  },
+  {
+    "word": "assure",
+    "category": "assert",
+    "definition": "Tell someone something positively to dispel any doubts."
+  },
+  {
+    "word": "assuredly",
+    "category": "assert",
+    "definition": "Confidently; with certainty."
+  },
+  {
+    "word": "authoritative",
+    "category": "assert",
+    "definition": "Able to be trusted as being accurate or true."
+  },
+  {
+    "word": "categorically",
+    "category": "assert",
+    "definition": "In a way that is unambiguously explicit and direct."
+  },
+  {
+    "word": "certainly",
+    "category": "assert",
+    "definition": "Undoubtedly; definitely."
+  },
+  {
+    "word": "compelling",
+    "category": "assert",
+    "definition": "Evoking interest, attention, or admiration in a powerfully irresistible way."
+  },
+  {
+    "word": "conclusively",
+    "category": "assert",
+    "definition": "In a way that is achieved easily or by a large margin."
+  },
+  {
+    "word": "concur",
+    "category": "assert",
+    "definition": "Be of the same opinion; agree."
+  },
+  {
+    "word": "confidently",
+    "category": "assert",
+    "definition": "In a self-assured way that expresses faith in oneself."
+  },
+  {
+    "word": "confirm",
+    "category": "assert",
+    "definition": "Establish the truth or correctness of something previously believed."
+  },
+  {
+    "word": "consistently",
+    "category": "assert",
+    "definition": "In every case or on every occasion; invariably."
+  },
+  {
+    "word": "contend",
+    "category": "assert",
+    "definition": "Assert something as a position in an argument."
+  },
+  {
+    "word": "convince",
+    "category": "assert",
+    "definition": "Cause someone to believe firmly in the truth of something."
+  },
+  {
+    "word": "corroborate",
+    "category": "assert",
+    "definition": "Confirm or give support to a statement, theory, or finding."
+  },
+  {
+    "word": "crucial",
+    "category": "assert",
+    "definition": "Decisive or critical, especially in the success or failure of something."
+  },
+  {
+    "word": "decidedly",
+    "category": "assert",
+    "definition": "In a decisive and confident way."
+  },
+  {
+    "word": "declare",
+    "category": "assert",
+    "definition": "Say something in a solemn and emphatic manner."
+  },
+  {
+    "word": "deem",
+    "category": "assert",
+    "definition": "Regard or consider in a specified way."
+  },
+  {
+    "word": "definitely",
+    "category": "assert",
+    "definition": "Without doubt.",
+    "meaning_hi": "??????? ??? ?? (nishchit roop se)",
+    "pronunciation": "?????????? (def-in-it-lee)"
+  },
+  {
+    "word": "definitive",
+    "category": "assert",
+    "definition": "Done or reached decisively and with authority."
+  },
+  {
+    "word": "definitively",
+    "category": "assert",
+    "definition": "Decisively and with authority; conclusively."
+  },
+  {
+    "word": "dictate",
+    "category": "assert",
+    "definition": "State or order authoritatively."
+  },
+  {
+    "word": "doubtlessly",
+    "category": "assert",
+    "definition": "Certainly; without doubt."
+  },
+  {
+    "word": "emphasize",
+    "category": "assert",
+    "definition": "Give special importance or prominence to something in speaking or writing."
+  },
+  {
+    "word": "emphatically",
+    "category": "assert",
+    "definition": "In a forceful way."
+  },
+  {
+    "word": "ensure",
+    "category": "assert",
+    "definition": "Make certain that something shall occur or be the case."
+  },
+  {
+    "word": "essential",
+    "category": "assert",
+    "definition": "Absolutely necessary; extremely important."
+  },
+  {
+    "word": "establish",
+    "category": "assert",
+    "definition": "Show to be true or certain by determining the facts."
+  },
+  {
+    "word": "firmly",
+    "category": "assert",
+    "definition": "With little possibility of movement; securely."
+  },
+  {
+    "word": "fundamental",
+    "category": "assert",
+    "definition": "Forming a necessary base or core; of central importance."
+  },
+  {
+    "word": "guarantee",
+    "category": "assert",
+    "definition": "Provide a formal assurance or promise, especially that certain conditions shall be fulfilled relating to a product, service, or transaction."
+  },
+  {
+    "word": "incontrovertible",
+    "category": "assert",
+    "definition": "Not able to be denied or disputed."
+  },
+  {
+    "word": "indisputably",
+    "category": "assert",
+    "definition": "In a way that cannot be challenged or denied."
+  },
+  {
+    "word": "indubitably",
+    "category": "assert",
+    "definition": "Without a doubt; impossible to doubt."
+  },
+  {
+    "word": "inevitable",
+    "category": "assert",
+    "definition": "Certain to happen; unavoidable."
+  },
+  {
+    "word": "inevitably",
+    "category": "assert",
+    "definition": "As is certain to happen; unavoidably."
+  },
+  {
+    "word": "insist",
+    "category": "assert",
+    "definition": "Demand something forcefully, not accepting refusal."
+  },
+  {
+    "word": "instruct",
+    "category": "assert",
+    "definition": "Direct or command someone to do something, especially as an official order."
+  },
+  {
+    "word": "invariably",
+    "category": "assert",
+    "definition": "In every case or on every occasion; always."
+  },
+  {
+    "word": "maintain",
+    "category": "assert",
+    "definition": "State something strongly to be the case; assert."
+  },
+  {
+    "word": "positively",
+    "category": "assert",
+    "definition": "With certainty; so as to leave no room for doubt."
+  },
+  {
+    "word": "postulate",
+    "category": "assert",
+    "definition": "Suggest or assume the existence, fact, or truth of something as a basis for reasoning, discussion, or belief."
+  },
+  {
+    "word": "profoundly",
+    "category": "assert",
+    "definition": "To a profound extent; extremely."
+  },
+  {
+    "word": "propose",
+    "category": "assert",
+    "definition": "Put forward a plan or suggestion for consideration or action."
+  },
+  {
+    "word": "prove",
+    "category": "assert",
+    "definition": "Demonstrate the truth or existence of something by evidence or argument."
+  },
+  {
+    "word": "reassure",
+    "category": "assert",
+    "definition": "Say or do something to remove the doubts and fears of someone."
+  },
+  {
+    "word": "reiterate",
+    "category": "assert",
+    "definition": "Say something again or a number of times, typically for emphasis or clarity."
+  },
+  {
+    "word": "reject",
+    "category": "assert",
+    "definition": "Dismiss as inadequate, inappropriate, or not to one's taste."
+  },
+  {
+    "word": "resolve",
+    "category": "assert",
+    "definition": "Settle or find a solution to a problem, dispute, or contentious matter."
+  },
+  {
+    "word": "resolutely",
+    "category": "assert",
+    "definition": "In an admirably purposeful, determined, and unwavering manner."
+  },
+  {
+    "word": "state",
+    "category": "assert",
+    "definition": "Express something definitely or clearly in speech or writing."
+  },
+  {
+    "word": "strongly",
+    "category": "assert",
+    "definition": "With great power or force."
+  },
+  {
+    "word": "substantiate",
+    "category": "assert",
+    "definition": "Provide evidence to support or prove the truth of."
+  },
+  {
+    "word": "surely",
+    "category": "assert",
+    "definition": "Used to emphasize the speaker's firm belief that what they are saying is true and often their surprise that there is any doubt of this."
+  },
+  {
+    "word": "undeniably",
+    "category": "assert",
+    "definition": "In a way that cannot be denied or disputed."
+  },
+  {
+    "word": "undoubtedly",
+    "category": "assert",
+    "definition": "Without doubt; certainly."
+  },
+  {
+    "word": "unequivocally",
+    "category": "assert",
+    "definition": "In a way that leaves no doubt."
+  },
+  {
+    "word": "unquestionably",
+    "category": "assert",
+    "definition": "In a way that cannot be disputed or doubted; without question."
+  },
+  {
+    "word": "validate",
+    "category": "assert",
+    "definition": "Check or prove the validity or accuracy of something."
+  },
+  {
+    "word": "verify",
+    "category": "assert",
+    "definition": "Make sure or demonstrate that something is true, accurate, or justified."
+  }
+]

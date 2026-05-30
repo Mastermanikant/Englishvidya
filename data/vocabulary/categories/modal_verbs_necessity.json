@@ -1,56 +1,57 @@
-﻿[
-    {
-        "word":  "MUST",
-        "meaning":  "Textbook: Expresses obligation or strict rule. Spoken Native: Rarely used in speech for obligation (replaced by \u0027have to\u0027 or \u0027need to\u0027); mostly used to express a logical deduction (e.g., \u0027You must be tired\u0027).",
-        "example":  "You\u0027ve been working all day; you must be exhausted.",
-        "category":  "Modal Verbs \u0026 Necessity"
-    },
-    {
-        "word":  "SHALL",
-        "meaning":  "Textbook: Future action or obligation for first-person. Spoken Native: Rarely used except in formal documents or specific polite suggestions (e.g., \u0027Shall we dance?\u0027); replaced by \u0027will\u0027 or \u0027should\u0027.",
-        "example":  "We should head out soon before the traffic gets bad.",
-        "category":  "Modal Verbs \u0026 Necessity"
-    },
-    {
-        "word":  "MAY",
-        "meaning":  "Textbook: Requesting permission or expressing possibility. Spoken Native: Replaced by \u0027can\u0027 or \u0027could\u0027 in casual permission requests, while \u0027may\u0027 is reserved for formal writing or expressing possibility.",
-        "example":  "Can I borrow your pen for a second?",
-        "category":  "Modal Verbs \u0026 Necessity"
-    },
-    {
-        "word":  "HAVE TO",
-        "meaning":  "Textbook: Semi-modal of external obligation. Spoken Native: The default spoken alternative to \u0027must\u0027 for expressing everyday obligations and rules.",
-        "example":  "I have to finish this report by five o\u0027clock.",
-        "category":  "Modal Verbs \u0026 Necessity"
-    },
-    {
-        "word":  "GOTTA",
-        "meaning":  "Textbook: Informal slang contraction of \u0027have got to.\u0027 Spoken Native: Extremely common in daily spoken English to express necessity or an urgent task.",
-        "example":  "I gotta run or I\u0027ll be late for my appointment.",
-        "category":  "Modal Verbs \u0026 Necessity"
-    },
-    {
-        "word":  "HAVE GOT",
-        "meaning":  "Textbook: Criticized as redundant. Spoken Native: The standard spoken expression for possession or obligation in both British and American English (e.g., \u0027I\u0027ve got a headache\u0027).",
-        "example":  "I have got to get some sleep tonight.",
-        "category":  "Modal Verbs \u0026 Necessity"
-    },
-    {
-        "word":  "CAN",
-        "meaning":  "Textbook: Expresses capability or physical ability. Spoken Native: Used interchangeably with \u0027may\u0027 to request or grant permission in casual and business environments.",
-        "example":  "Can I leave the meeting early today?",
-        "category":  "Modal Verbs \u0026 Necessity"
-    },
-    {
-        "word":  "SHOULD",
-        "meaning":  "Textbook: Expresses recommendation or moral duty. Spoken Native: Often used to express high probability or expectation (e.g., \u0027The package should arrive today\u0027).",
-        "example":  "If you sent the letter yesterday, they should receive it tomorrow.",
-        "category":  "Modal Verbs \u0026 Necessity"
-    },
-    {
-        "word":  "COULD",
-        "meaning":  "Textbook: Past ability of \u0027can.\u0027 Spoken Native: Frequently used to make tentative suggestions or polite requests, sounding less direct than \u0027can\u0027.",
-        "example":  "Could we possibly move the meeting to Wednesday?",
-        "category":  "Modal Verbs \u0026 Necessity"
-    }
+[
+  {
+    "word": "MUST",
+    "meaning": "Textbook: Expresses obligation or strict rule. Spoken Native: Rarely used in speech for obligation (replaced by 'have to' or 'need to'); mostly used to express a logical deduction (e.g., 'You must be tired').",
+    "example": "You've been working all day; you must be exhausted.",
+    "category": "Modal Verbs & Necessity"
+  },
+  {
+    "word": "SHALL",
+    "meaning": "Textbook: Future action or obligation for first-person. Spoken Native: Rarely used except in formal documents or specific polite suggestions (e.g., 'Shall we dance?'); replaced by 'will' or 'should'.",
+    "example": "We should head out soon before the traffic gets bad.",
+    "category": "Modal Verbs & Necessity"
+  },
+  {
+    "word": "MAY",
+    "meaning": "Textbook: Requesting permission or expressing possibility. Spoken Native: Replaced by 'can' or 'could' in casual permission requests, while 'may' is reserved for formal writing or expressing possibility.",
+    "example": "Can I borrow your pen for a second?",
+    "category": "Modal Verbs & Necessity",
+    "meaning_hi": "??"
+  },
+  {
+    "word": "HAVE TO",
+    "meaning": "Textbook: Semi-modal of external obligation. Spoken Native: The default spoken alternative to 'must' for expressing everyday obligations and rules.",
+    "example": "I have to finish this report by five o'clock.",
+    "category": "Modal Verbs & Necessity"
+  },
+  {
+    "word": "GOTTA",
+    "meaning": "Textbook: Informal slang contraction of 'have got to.' Spoken Native: Extremely common in daily spoken English to express necessity or an urgent task.",
+    "example": "I gotta run or I'll be late for my appointment.",
+    "category": "Modal Verbs & Necessity"
+  },
+  {
+    "word": "HAVE GOT",
+    "meaning": "Textbook: Criticized as redundant. Spoken Native: The standard spoken expression for possession or obligation in both British and American English (e.g., 'I've got a headache').",
+    "example": "I have got to get some sleep tonight.",
+    "category": "Modal Verbs & Necessity"
+  },
+  {
+    "word": "CAN",
+    "meaning": "Textbook: Expresses capability or physical ability. Spoken Native: Used interchangeably with 'may' to request or grant permission in casual and business environments.",
+    "example": "Can I leave the meeting early today?",
+    "category": "Modal Verbs & Necessity"
+  },
+  {
+    "word": "SHOULD",
+    "meaning": "Textbook: Expresses recommendation or moral duty. Spoken Native: Often used to express high probability or expectation (e.g., 'The package should arrive today').",
+    "example": "If you sent the letter yesterday, they should receive it tomorrow.",
+    "category": "Modal Verbs & Necessity"
+  },
+  {
+    "word": "COULD",
+    "meaning": "Textbook: Past ability of 'can.' Spoken Native: Frequently used to make tentative suggestions or polite requests, sounding less direct than 'can'.",
+    "example": "Could we possibly move the meeting to Wednesday?",
+    "category": "Modal Verbs & Necessity"
+  }
 ]

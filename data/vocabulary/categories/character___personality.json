@@ -1,1 +1,88 @@
-﻿[{"word":"benevolent","meaning":"Kind, generous, and well-meaning toward others.","example":"The benevolent teacher always helped struggling students after class.","category":"Character \u0026 Personality"},{"word":"diligent","meaning":"Working hard and carefully with steady effort.","example":"A diligent student reviews notes every evening after class.","category":"Character \u0026 Personality"},{"word":"frugal","meaning":"Careful about spending money; not wasteful.","example":"Being frugal helped him save enough money for a vacation.","category":"Character \u0026 Personality"},{"word":"genuine","meaning":"Truly what it is said to be; real and sincere.","example":"Her apology seemed genuine, not forced.","category":"Character \u0026 Personality"},{"word":"integrity","meaning":"The quality of being honest and having strong moral principles.","example":"A leader with integrity earns the trust of their team.","category":"Character \u0026 Personality"},{"word":"meticulous","meaning":"Showing great attention to detail; very careful and precise.","example":"He was meticulous about keeping his notes organized.","category":"Character \u0026 Personality"},{"word":"persistent","meaning":"Continuing firmly despite obstacles or opposition.","example":"A persistent student keeps practicing even after failing.","category":"Character \u0026 Personality"},{"word":"resilient","meaning":"Able to recover quickly from difficulties; adaptable.","example":"A resilient person bounces back from failure stronger than before.","category":"Character \u0026 Personality"},{"word":"confident","meaning":"Having strong belief in yourself and your abilities.","example":"Practicing regularly made him feel more confident during presentations.","category":"Character \u0026 Personality"},{"word":"consistent","meaning":"Always behaving or happening in the same way; not changing.","example":"Consistent effort over time leads to lasting improvement.","category":"Character \u0026 Personality"},{"word":"endure","meaning":"To remain firm under suffering or hardship; to tolerate and survive.","example":"Athletes must endure intense training to reach the top.","category":"Character \u0026 Personality"},{"word":"reliable","meaning":"Consistently good in quality or performance; dependable.","example":"A reliable internet connection is essential for online learning.","category":"Character \u0026 Personality"},{"word":"rigorous","meaning":"Extremely thorough and careful; demanding high standards.","example":"The rigorous training program prepared them for the national competition.","category":"Character \u0026 Personality"},{"word":"tolerate","meaning":"To accept or endure something unpleasant without complaint.","example":"Learning requires the ability to tolerate confusion before understanding comes.","category":"Character \u0026 Personality"}]
+[
+  {
+    "word": "benevolent",
+    "meaning": "Kind, generous, and well-meaning toward others.",
+    "example": "The benevolent teacher always helped struggling students after class.",
+    "category": "Character & Personality"
+  },
+  {
+    "word": "diligent",
+    "meaning": "Working hard and carefully with steady effort.",
+    "example": "A diligent student reviews notes every evening after class.",
+    "category": "Character & Personality"
+  },
+  {
+    "word": "frugal",
+    "meaning": "Careful about spending money; not wasteful.",
+    "example": "Being frugal helped him save enough money for a vacation.",
+    "category": "Character & Personality"
+  },
+  {
+    "word": "genuine",
+    "meaning": "Truly what it is said to be; real and sincere.",
+    "example": "Her apology seemed genuine, not forced.",
+    "category": "Character & Personality"
+  },
+  {
+    "word": "integrity",
+    "meaning": "The quality of being honest and having strong moral principles.",
+    "example": "A leader with integrity earns the trust of their team.",
+    "category": "Character & Personality"
+  },
+  {
+    "word": "meticulous",
+    "meaning": "Showing great attention to detail; very careful and precise.",
+    "example": "He was meticulous about keeping his notes organized.",
+    "category": "Character & Personality"
+  },
+  {
+    "word": "persistent",
+    "meaning": "Continuing firmly despite obstacles or opposition.",
+    "example": "A persistent student keeps practicing even after failing.",
+    "category": "Character & Personality"
+  },
+  {
+    "word": "resilient",
+    "meaning": "Able to recover quickly from difficulties; adaptable.",
+    "example": "A resilient person bounces back from failure stronger than before.",
+    "category": "Character & Personality"
+  },
+  {
+    "word": "confident",
+    "meaning": "Having strong belief in yourself and your abilities.",
+    "example": "Practicing regularly made him feel more confident during presentations.",
+    "category": "Character & Personality",
+    "meaning_hi": "???????????? (Aatmavishvaasi)",
+    "pronunciation": "KAHN-fi-duhnt"
+  },
+  {
+    "word": "consistent",
+    "meaning": "Always behaving or happening in the same way; not changing.",
+    "example": "Consistent effort over time leads to lasting improvement.",
+    "category": "Character & Personality"
+  },
+  {
+    "word": "endure",
+    "meaning": "To remain firm under suffering or hardship; to tolerate and survive.",
+    "example": "Athletes must endure intense training to reach the top.",
+    "category": "Character & Personality"
+  },
+  {
+    "word": "reliable",
+    "meaning": "Consistently good in quality or performance; dependable.",
+    "example": "A reliable internet connection is essential for online learning.",
+    "category": "Character & Personality"
+  },
+  {
+    "word": "rigorous",
+    "meaning": "Extremely thorough and careful; demanding high standards.",
+    "example": "The rigorous training program prepared them for the national competition.",
+    "category": "Character & Personality"
+  },
+  {
+    "word": "tolerate",
+    "meaning": "To accept or endure something unpleasant without complaint.",
+    "example": "Learning requires the ability to tolerate confusion before understanding comes.",
+    "category": "Character & Personality"
+  }
+]

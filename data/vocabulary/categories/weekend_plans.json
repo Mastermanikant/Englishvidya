@@ -1,1 +1,220 @@
-﻿[{"word":"weekend getaway","meaning":"A short trip or vacation taken over the weekend","example":"We\u0027re planning a little weekend getaway to the hills.","category":"weekend_plans"},{"word":"brunch","meaning":"A meal eaten late in the morning that combines breakfast and lunch","example":"We\u0027re doing brunch on Sunday at that new cafÃ© downtown.","category":"weekend_plans"},{"word":"road trip","meaning":"A long journey made by car, usually for leisure","example":"We\u0027re going on a spontaneous road trip up the coast.","category":"weekend_plans"},{"word":"sleep in","meaning":"To sleep later than usual in the morning","example":"I have no plans â€” I\u0027m just going to sleep in on Saturday.","category":"weekend_plans"},{"word":"binge-watch","meaning":"To watch multiple episodes of a TV show in rapid succession","example":"I plan to binge-watch that new series everyone\u0027s talking about.","category":"weekend_plans"},{"word":"barbecue","meaning":"An outdoor gathering where food is cooked over a grill, or the grill itself","example":"We\u0027re hosting a barbecue in the garden on Saturday.","category":"weekend_plans"},{"word":"hike","meaning":"A long walk, especially through natural countryside","example":"I\u0027m planning a hike through the national park on Sunday.","category":"weekend_plans"},{"word":"hang out","meaning":"To spend time relaxing and socialising with others informally","example":"We\u0027re just going to hang out at Jake\u0027s place.","category":"weekend_plans"},{"word":"catch a film","meaning":"To go to the cinema to watch a movie","example":"We\u0027re thinking of catching a film on Friday night.","category":"weekend_plans"},{"word":"day trip","meaning":"A trip to a place and back within a single day","example":"We\u0027re doing a day trip to the seaside.","category":"weekend_plans"},{"word":"unwind","meaning":"To relax after a period of work or stress","example":"I just need to unwind this weekend â€” no plans at all.","category":"weekend_plans"},{"word":"grocery run","meaning":"A quick trip to the supermarket to buy food and supplies","example":"I need to do a grocery run on Saturday morning.","category":"weekend_plans"},{"word":"potluck","meaning":"A shared meal where each guest brings a dish to contribute","example":"We\u0027re having a potluck dinner â€” can you bring a dessert?","category":"weekend_plans"},{"word":"staycation","meaning":"Spending a holiday period at home or nearby rather than travelling abroad","example":"We\u0027re having a staycation this year and exploring local spots.","category":"weekend_plans"},{"word":"catch up on","meaning":"To do something you have not had time to do recently","example":"I\u0027m going to catch up on some reading this weekend.","category":"weekend_plans"},{"word":"run errands","meaning":"To carry out a series of small tasks or chores","example":"Saturday is all about running errands â€” bank, post office, the lot.","category":"weekend_plans"},{"word":"day off","meaning":"A day when one does not go to work or school","example":"I finally have a day off on Monday â€” I can\u0027t wait.","category":"weekend_plans"},{"word":"outing","meaning":"A short trip taken for pleasure, usually during the day","example":"We\u0027re planning a family outing to the zoo.","category":"weekend_plans"},{"word":"explore","meaning":"To travel through an unfamiliar area to discover what it is like","example":"I want to explore some new walking trails this weekend.","category":"weekend_plans"},{"word":"pamper","meaning":"To indulge oneself with comfort, luxury, or special treatment","example":"I booked a spa day to pamper myself on Saturday.","category":"weekend_plans"},{"word":"catch a game","meaning":"To watch a sports match, either live or on television","example":"We\u0027re going to catch a game at the stadium on Sunday.","category":"weekend_plans"},{"word":"dinner party","meaning":"A formal or semi-formal evening meal hosted for a group of guests","example":"We\u0027re hosting a small dinner party for close friends.","category":"weekend_plans"},{"word":"festival","meaning":"A public event or celebration, often with music, food, or cultural activities","example":"There\u0027s a food festival in town â€” we\u0027re definitely going.","category":"weekend_plans"},{"word":"volunteer","meaning":"To offer one\u0027s time and effort freely to help others","example":"I\u0027m volunteering at the local shelter this Saturday.","category":"weekend_plans"},{"word":"catch some sun","meaning":"To spend time outdoors enjoying the sunshine","example":"We\u0027re hoping to catch some sun at the park if the weather holds.","category":"weekend_plans"},{"word":"recharge","meaning":"To restore one\u0027s energy or enthusiasm after a period of activity","example":"I just need to recharge this weekend â€” total rest.","category":"weekend_plans"},{"word":"catch up on sleep","meaning":"To get extra sleep to compensate for previous lack of rest","example":"I\u0027m going to catch up on sleep this weekend after a hectic week.","category":"weekend_plans"},{"word":"catch up on reading","meaning":"To read material that one has been intending to read for a while","example":"I have a stack of books I need to catch up on reading.","category":"weekend_plans"},{"word":"DIY","meaning":"Do It Yourself â€” making or repairing things yourself rather than hiring a professional","example":"I\u0027ve got a DIY project to finish this weekend â€” painting the kitchen.","category":"weekend_plans"},{"word":"game night","meaning":"An informal social gathering where people play board games or card games together","example":"We\u0027re hosting a game night on Friday â€” want to join?","category":"weekend_plans"},{"word":"spontaneous","meaning":"Done or occurring as a natural impulse, without prior planning","example":"We made a spontaneous decision to drive to the mountains.","category":"weekend_plans"},{"word":"catch the sunrise","meaning":"To wake up early enough to watch the sun rise","example":"We\u0027re going to catch the sunrise at the beach on Sunday.","category":"weekend_plans"},{"word":"garden party","meaning":"A social gathering held outdoors in a garden","example":"They\u0027re throwing a garden party next Saturday â€” should be lovely.","category":"weekend_plans"},{"word":"splash out","meaning":"To spend more money than usual on something as a treat","example":"We decided to splash out and book a fancy hotel for the weekend.","category":"weekend_plans"},{"word":"low-key","meaning":"Modest, relaxed, and without much fuss or excitement","example":"It\u0027ll be a low-key weekend â€” just staying home and cooking.","category":"weekend_plans"},{"word":"neighbourhood walk","meaning":"A casual stroll through the local area","example":"I\u0027m planning a neighbourhood walk to explore some new streets.","category":"weekend_plans"}]
+[
+  {
+    "word": "weekend getaway",
+    "meaning": "A short trip or vacation taken over the weekend",
+    "example": "We're planning a little weekend getaway to the hills.",
+    "category": "weekend_plans"
+  },
+  {
+    "word": "brunch",
+    "meaning": "A meal eaten late in the morning that combines breakfast and lunch",
+    "example": "We're doing brunch on Sunday at that new cafÃ© downtown.",
+    "category": "weekend_plans"
+  },
+  {
+    "word": "road trip",
+    "meaning": "A long journey made by car, usually for leisure",
+    "example": "We're going on a spontaneous road trip up the coast.",
+    "category": "weekend_plans"
+  },
+  {
+    "word": "sleep in",
+    "meaning": "To sleep later than usual in the morning",
+    "example": "I have no plans â€” I'm just going to sleep in on Saturday.",
+    "category": "weekend_plans"
+  },
+  {
+    "word": "binge-watch",
+    "meaning": "To watch multiple episodes of a TV show in rapid succession",
+    "example": "I plan to binge-watch that new series everyone's talking about.",
+    "category": "weekend_plans"
+  },
+  {
+    "word": "barbecue",
+    "meaning": "An outdoor gathering where food is cooked over a grill, or the grill itself",
+    "example": "We're hosting a barbecue in the garden on Saturday.",
+    "category": "weekend_plans"
+  },
+  {
+    "word": "hike",
+    "meaning": "A long walk, especially through natural countryside",
+    "example": "I'm planning a hike through the national park on Sunday.",
+    "category": "weekend_plans"
+  },
+  {
+    "word": "hang out",
+    "meaning": "To spend time relaxing and socialising with others informally",
+    "example": "We're just going to hang out at Jake's place.",
+    "category": "weekend_plans",
+    "meaning_hi": "?????-????? ?? ??? ??? ??????",
+    "pronunciation": "???? ???"
+  },
+  {
+    "word": "catch a film",
+    "meaning": "To go to the cinema to watch a movie",
+    "example": "We're thinking of catching a film on Friday night.",
+    "category": "weekend_plans"
+  },
+  {
+    "word": "day trip",
+    "meaning": "A trip to a place and back within a single day",
+    "example": "We're doing a day trip to the seaside.",
+    "category": "weekend_plans"
+  },
+  {
+    "word": "unwind",
+    "meaning": "To relax after a period of work or stress",
+    "example": "I just need to unwind this weekend â€” no plans at all.",
+    "category": "weekend_plans"
+  },
+  {
+    "word": "grocery run",
+    "meaning": "A quick trip to the supermarket to buy food and supplies",
+    "example": "I need to do a grocery run on Saturday morning.",
+    "category": "weekend_plans"
+  },
+  {
+    "word": "potluck",
+    "meaning": "A shared meal where each guest brings a dish to contribute",
+    "example": "We're having a potluck dinner â€” can you bring a dessert?",
+    "category": "weekend_plans"
+  },
+  {
+    "word": "staycation",
+    "meaning": "Spending a holiday period at home or nearby rather than travelling abroad",
+    "example": "We're having a staycation this year and exploring local spots.",
+    "category": "weekend_plans"
+  },
+  {
+    "word": "catch up on",
+    "meaning": "To do something you have not had time to do recently",
+    "example": "I'm going to catch up on some reading this weekend.",
+    "category": "weekend_plans"
+  },
+  {
+    "word": "run errands",
+    "meaning": "To carry out a series of small tasks or chores",
+    "example": "Saturday is all about running errands â€” bank, post office, the lot.",
+    "category": "weekend_plans"
+  },
+  {
+    "word": "day off",
+    "meaning": "A day when one does not go to work or school",
+    "example": "I finally have a day off on Monday â€” I can't wait.",
+    "category": "weekend_plans"
+  },
+  {
+    "word": "outing",
+    "meaning": "A short trip taken for pleasure, usually during the day",
+    "example": "We're planning a family outing to the zoo.",
+    "category": "weekend_plans"
+  },
+  {
+    "word": "explore",
+    "meaning": "To travel through an unfamiliar area to discover what it is like",
+    "example": "I want to explore some new walking trails this weekend.",
+    "category": "weekend_plans"
+  },
+  {
+    "word": "pamper",
+    "meaning": "To indulge oneself with comfort, luxury, or special treatment",
+    "example": "I booked a spa day to pamper myself on Saturday.",
+    "category": "weekend_plans"
+  },
+  {
+    "word": "catch a game",
+    "meaning": "To watch a sports match, either live or on television",
+    "example": "We're going to catch a game at the stadium on Sunday.",
+    "category": "weekend_plans"
+  },
+  {
+    "word": "dinner party",
+    "meaning": "A formal or semi-formal evening meal hosted for a group of guests",
+    "example": "We're hosting a small dinner party for close friends.",
+    "category": "weekend_plans"
+  },
+  {
+    "word": "festival",
+    "meaning": "A public event or celebration, often with music, food, or cultural activities",
+    "example": "There's a food festival in town â€” we're definitely going.",
+    "category": "weekend_plans"
+  },
+  {
+    "word": "volunteer",
+    "meaning": "To offer one's time and effort freely to help others",
+    "example": "I'm volunteering at the local shelter this Saturday.",
+    "category": "weekend_plans"
+  },
+  {
+    "word": "catch some sun",
+    "meaning": "To spend time outdoors enjoying the sunshine",
+    "example": "We're hoping to catch some sun at the park if the weather holds.",
+    "category": "weekend_plans"
+  },
+  {
+    "word": "recharge",
+    "meaning": "To restore one's energy or enthusiasm after a period of activity",
+    "example": "I just need to recharge this weekend â€” total rest.",
+    "category": "weekend_plans"
+  },
+  {
+    "word": "catch up on sleep",
+    "meaning": "To get extra sleep to compensate for previous lack of rest",
+    "example": "I'm going to catch up on sleep this weekend after a hectic week.",
+    "category": "weekend_plans"
+  },
+  {
+    "word": "catch up on reading",
+    "meaning": "To read material that one has been intending to read for a while",
+    "example": "I have a stack of books I need to catch up on reading.",
+    "category": "weekend_plans"
+  },
+  {
+    "word": "DIY",
+    "meaning": "Do It Yourself â€” making or repairing things yourself rather than hiring a professional",
+    "example": "I've got a DIY project to finish this weekend â€” painting the kitchen.",
+    "category": "weekend_plans"
+  },
+  {
+    "word": "game night",
+    "meaning": "An informal social gathering where people play board games or card games together",
+    "example": "We're hosting a game night on Friday â€” want to join?",
+    "category": "weekend_plans"
+  },
+  {
+    "word": "spontaneous",
+    "meaning": "Done or occurring as a natural impulse, without prior planning",
+    "example": "We made a spontaneous decision to drive to the mountains.",
+    "category": "weekend_plans"
+  },
+  {
+    "word": "catch the sunrise",
+    "meaning": "To wake up early enough to watch the sun rise",
+    "example": "We're going to catch the sunrise at the beach on Sunday.",
+    "category": "weekend_plans"
+  },
+  {
+    "word": "garden party",
+    "meaning": "A social gathering held outdoors in a garden",
+    "example": "They're throwing a garden party next Saturday â€” should be lovely.",
+    "category": "weekend_plans"
+  },
+  {
+    "word": "splash out",
+    "meaning": "To spend more money than usual on something as a treat",
+    "example": "We decided to splash out and book a fancy hotel for the weekend.",
+    "category": "weekend_plans"
+  },
+  {
+    "word": "low-key",
+    "meaning": "Modest, relaxed, and without much fuss or excitement",
+    "example": "It'll be a low-key weekend â€” just staying home and cooking.",
+    "category": "weekend_plans"
+  },
+  {
+    "word": "neighbourhood walk",
+    "meaning": "A casual stroll through the local area",
+    "example": "I'm planning a neighbourhood walk to explore some new streets.",
+    "category": "weekend_plans"
+  }
+]

@@ -1,1 +1,105 @@
-﻿[{"word":"deduction","meaning":"The process of reaching a logical conclusion by applying general principles to a specific situation.","example":"Through careful deduction, he determined that \u0027malevolent\u0027 must mean something harmful or evil.","category":"deduction"},{"word":"ambiguity","meaning":"The quality of being open to more than one interpretation; inexactness.","example":"The ambiguity of the sentence made it hard to deduce the meaning of the unfamiliar word.","category":"deduction"},{"word":"hypothesis","meaning":"A proposed explanation or educated guess made on the basis of limited evidence.","example":"She formed a hypothesis about the word\u0027s meaning after reading the surrounding sentences.","category":"deduction"},{"word":"analysis","meaning":"The detailed examination of the elements or structure of something.","example":"A careful analysis of the word\u0027s parts revealed its Latin origin.","category":"deduction"},{"word":"logic","meaning":"Reasoning conducted according to strict principles of validity.","example":"By applying logic, she concluded that \u0027audacious\u0027 must mean bold or daring.","category":"deduction"},{"word":"deduce","meaning":"To arrive at a conclusion through logical reasoning from general principles.","example":"He could deduce the meaning of \u0027loquacious\u0027 from the context of the chatty character\u0027s description.","category":"deduction"},{"word":"verify","meaning":"To make sure or demonstrate that something is true, accurate, or justified.","example":"After guessing the word\u0027s meaning from context, she verified it with a dictionary.","category":"deduction"},{"word":"confirm","meaning":"To establish the truth or correctness of something previously believed or suspected.","example":"He confirmed his inference about the word\u0027s meaning by reading the next paragraph.","category":"deduction"},{"word":"revise","meaning":"To reconsider and alter something in light of further evidence.","example":"After reading more of the passage, she had to revise her initial guess about the word.","category":"deduction"},{"word":"decode","meaning":"To convert coded information into a comprehensible form; to work out the meaning of something.","example":"Readers can decode unfamiliar words by analyzing their prefixes, roots, and suffixes.","category":"deduction"},{"word":"dictionary","meaning":"A reference book that lists the words of a language and gives their meanings and usage.","example":"When context clues are insufficient, a dictionary is the most reliable tool for finding a word\u0027s meaning.","category":"deduction"},{"word":"decipher","meaning":"To succeed in understanding, interpreting, or identifying something obscure or difficult.","example":"Good readers can decipher the meaning of new words without stopping to use a dictionary every time.","category":"deduction"},{"word":"logical reasoning","meaning":"The process of using rational thought and evidence to arrive at a conclusion.","example":"Logical reasoning helped him conclude that \u0027obsolete\u0027 meant outdated based on the passage about old technology.","category":"deduction"},{"word":"process of elimination","meaning":"A method of deduction in which unlikely possibilities are discarded to identify the correct answer.","example":"By process of elimination, she ruled out meanings that didn\u0027t fit the context and identified the correct one.","category":"deduction"},{"word":"critical thinking","meaning":"The objective analysis and evaluation of an issue in order to form a judgment.","example":"Critical thinking is essential when using deduction to understand complex vocabulary.","category":"deduction"},{"word":"deductive reasoning","meaning":"A reasoning process in which a conclusion follows necessarily from the stated premises.","example":"Using deductive reasoning, she applied the known meaning of \u0027micro-\u0027 (small) to understand \u0027microscopic\u0027.","category":"deduction"},{"word":"decoding strategy","meaning":"A method used to work out the pronunciation or meaning of an unfamiliar word.","example":"Combining phonics and root analysis is a powerful decoding strategy for unfamiliar words.","category":"deduction"}]
+[
+  {
+    "word": "deduction",
+    "meaning": "The process of reaching a logical conclusion by applying general principles to a specific situation.",
+    "example": "Through careful deduction, he determined that 'malevolent' must mean something harmful or evil.",
+    "category": "deduction"
+  },
+  {
+    "word": "ambiguity",
+    "meaning": "The quality of being open to more than one interpretation; inexactness.",
+    "example": "The ambiguity of the sentence made it hard to deduce the meaning of the unfamiliar word.",
+    "category": "deduction"
+  },
+  {
+    "word": "hypothesis",
+    "meaning": "A proposed explanation or educated guess made on the basis of limited evidence.",
+    "example": "She formed a hypothesis about the word's meaning after reading the surrounding sentences.",
+    "category": "deduction"
+  },
+  {
+    "word": "analysis",
+    "meaning": "The detailed examination of the elements or structure of something.",
+    "example": "A careful analysis of the word's parts revealed its Latin origin.",
+    "category": "deduction",
+    "meaning_hi": "????????"
+  },
+  {
+    "word": "logic",
+    "meaning": "Reasoning conducted according to strict principles of validity.",
+    "example": "By applying logic, she concluded that 'audacious' must mean bold or daring.",
+    "category": "deduction"
+  },
+  {
+    "word": "deduce",
+    "meaning": "To arrive at a conclusion through logical reasoning from general principles.",
+    "example": "He could deduce the meaning of 'loquacious' from the context of the chatty character's description.",
+    "category": "deduction"
+  },
+  {
+    "word": "verify",
+    "meaning": "To make sure or demonstrate that something is true, accurate, or justified.",
+    "example": "After guessing the word's meaning from context, she verified it with a dictionary.",
+    "category": "deduction"
+  },
+  {
+    "word": "confirm",
+    "meaning": "To establish the truth or correctness of something previously believed or suspected.",
+    "example": "He confirmed his inference about the word's meaning by reading the next paragraph.",
+    "category": "deduction"
+  },
+  {
+    "word": "revise",
+    "meaning": "To reconsider and alter something in light of further evidence.",
+    "example": "After reading more of the passage, she had to revise her initial guess about the word.",
+    "category": "deduction"
+  },
+  {
+    "word": "decode",
+    "meaning": "To convert coded information into a comprehensible form; to work out the meaning of something.",
+    "example": "Readers can decode unfamiliar words by analyzing their prefixes, roots, and suffixes.",
+    "category": "deduction"
+  },
+  {
+    "word": "dictionary",
+    "meaning": "A reference book that lists the words of a language and gives their meanings and usage.",
+    "example": "When context clues are insufficient, a dictionary is the most reliable tool for finding a word's meaning.",
+    "category": "deduction"
+  },
+  {
+    "word": "decipher",
+    "meaning": "To succeed in understanding, interpreting, or identifying something obscure or difficult.",
+    "example": "Good readers can decipher the meaning of new words without stopping to use a dictionary every time.",
+    "category": "deduction"
+  },
+  {
+    "word": "logical reasoning",
+    "meaning": "The process of using rational thought and evidence to arrive at a conclusion.",
+    "example": "Logical reasoning helped him conclude that 'obsolete' meant outdated based on the passage about old technology.",
+    "category": "deduction"
+  },
+  {
+    "word": "process of elimination",
+    "meaning": "A method of deduction in which unlikely possibilities are discarded to identify the correct answer.",
+    "example": "By process of elimination, she ruled out meanings that didn't fit the context and identified the correct one.",
+    "category": "deduction"
+  },
+  {
+    "word": "critical thinking",
+    "meaning": "The objective analysis and evaluation of an issue in order to form a judgment.",
+    "example": "Critical thinking is essential when using deduction to understand complex vocabulary.",
+    "category": "deduction"
+  },
+  {
+    "word": "deductive reasoning",
+    "meaning": "A reasoning process in which a conclusion follows necessarily from the stated premises.",
+    "example": "Using deductive reasoning, she applied the known meaning of 'micro-' (small) to understand 'microscopic'.",
+    "category": "deduction"
+  },
+  {
+    "word": "decoding strategy",
+    "meaning": "A method used to work out the pronunciation or meaning of an unfamiliar word.",
+    "example": "Combining phonics and root analysis is a powerful decoding strategy for unfamiliar words.",
+    "category": "deduction"
+  }
+]

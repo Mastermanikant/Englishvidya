@@ -1,1 +1,108 @@
-﻿[{"word":"plate","category":"Kitchen \u0026 Dining"},{"word":"bowl","category":"Kitchen \u0026 Dining"},{"word":"cup","category":"Kitchen \u0026 Dining"},{"word":"mug","category":"Kitchen \u0026 Dining"},{"word":"fork","category":"Kitchen \u0026 Dining"},{"word":"knife","category":"Kitchen \u0026 Dining"},{"word":"spoon","category":"Kitchen \u0026 Dining"},{"word":"spatula","category":"Kitchen \u0026 Dining"},{"word":"whisk","category":"Kitchen \u0026 Dining"},{"word":"peeler","category":"Kitchen \u0026 Dining"},{"word":"grater","category":"Kitchen \u0026 Dining"},{"word":"tongs","category":"Kitchen \u0026 Dining"},{"word":"cutting board","category":"Kitchen \u0026 Dining"},{"word":"frying pan","category":"Kitchen \u0026 Dining"},{"word":"saucepan","category":"Kitchen \u0026 Dining"},{"word":"colander","category":"Kitchen \u0026 Dining"},{"word":"measuring cup","category":"Kitchen \u0026 Dining"},{"word":"strainer","category":"Kitchen \u0026 Dining"},{"word":"corkscrew","category":"Kitchen \u0026 Dining"},{"word":"can opener","category":"Kitchen \u0026 Dining"},{"word":"chopsticks","category":"Kitchen \u0026 Dining"}]
+[
+  {
+    "word": "plate",
+    "category": "Kitchen & Dining",
+    "meaning_hi": "???? / ?????",
+    "pronunciation": "????? (pleyt)"
+  },
+  {
+    "word": "bowl",
+    "category": "Kitchen & Dining",
+    "meaning_hi": "?????",
+    "pronunciation": "???"
+  },
+  {
+    "word": "cup",
+    "category": "Kitchen & Dining",
+    "meaning_hi": "?????? / ??",
+    "pronunciation": "?? (kup)"
+  },
+  {
+    "word": "mug",
+    "category": "Kitchen & Dining",
+    "meaning_hi": "??"
+  },
+  {
+    "word": "fork",
+    "category": "Kitchen & Dining",
+    "meaning_hi": "?????",
+    "pronunciation": "?????"
+  },
+  {
+    "word": "knife",
+    "category": "Kitchen & Dining",
+    "meaning_hi": "????",
+    "pronunciation": "????? (naif)"
+  },
+  {
+    "word": "spoon",
+    "category": "Kitchen & Dining",
+    "meaning_hi": "?????",
+    "pronunciation": "????? (spuun)"
+  },
+  {
+    "word": "spatula",
+    "category": "Kitchen & Dining",
+    "meaning_hi": "????"
+  },
+  {
+    "word": "whisk",
+    "category": "Kitchen & Dining",
+    "meaning_hi": "??????",
+    "pronunciation": "?????"
+  },
+  {
+    "word": "peeler",
+    "category": "Kitchen & Dining",
+    "meaning_hi": "????? ???? ????"
+  },
+  {
+    "word": "grater",
+    "category": "Kitchen & Dining",
+    "meaning_hi": "???????"
+  },
+  {
+    "word": "tongs",
+    "category": "Kitchen & Dining",
+    "meaning_hi": "?????"
+  },
+  {
+    "word": "cutting board",
+    "category": "Kitchen & Dining"
+  },
+  {
+    "word": "frying pan",
+    "category": "Kitchen & Dining",
+    "meaning_hi": "?????? / ??????? ???"
+  },
+  {
+    "word": "saucepan",
+    "category": "Kitchen & Dining",
+    "meaning_hi": "?????? / ?????"
+  },
+  {
+    "word": "colander",
+    "category": "Kitchen & Dining"
+  },
+  {
+    "word": "measuring cup",
+    "category": "Kitchen & Dining"
+  },
+  {
+    "word": "strainer",
+    "category": "Kitchen & Dining",
+    "meaning_hi": "????"
+  },
+  {
+    "word": "corkscrew",
+    "category": "Kitchen & Dining"
+  },
+  {
+    "word": "can opener",
+    "category": "Kitchen & Dining"
+  },
+  {
+    "word": "chopsticks",
+    "category": "Kitchen & Dining"
+  }
+]

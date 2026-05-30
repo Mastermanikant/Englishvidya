@@ -1,1 +1,90 @@
-﻿[{"word":"eat","category":"Meals"},{"word":"consume","category":"Meals"},{"word":"devour","category":"Meals"},{"word":"chew","category":"Meals"},{"word":"swallow","category":"Meals"},{"word":"drink","category":"Meals"},{"word":"sip","category":"Meals"},{"word":"gulp","category":"Meals"},{"word":"cook","category":"Meals"},{"word":"prepare","category":"Meals"},{"word":"bake","category":"Meals"},{"word":"fry","category":"Meals"},{"word":"boil","category":"Meals"},{"word":"chop","category":"Meals"},{"word":"stir","category":"Meals"},{"word":"pour","category":"Meals"},{"word":"serve","category":"Meals"}]
+[
+  {
+    "word": "eat",
+    "category": "Meals",
+    "meaning_hi": "????",
+    "pronunciation": "/i?t/"
+  },
+  {
+    "word": "consume",
+    "category": "Meals"
+  },
+  {
+    "word": "devour",
+    "category": "Meals"
+  },
+  {
+    "word": "chew",
+    "category": "Meals"
+  },
+  {
+    "word": "swallow",
+    "category": "Meals"
+  },
+  {
+    "word": "drink",
+    "category": "Meals",
+    "meaning_hi": "????",
+    "pronunciation": "/dr??k/"
+  },
+  {
+    "word": "sip",
+    "category": "Meals"
+  },
+  {
+    "word": "gulp",
+    "category": "Meals"
+  },
+  {
+    "word": "cook",
+    "category": "Meals",
+    "meaning_hi": "?????",
+    "pronunciation": "??? (cook)"
+  },
+  {
+    "word": "prepare",
+    "category": "Meals"
+  },
+  {
+    "word": "bake",
+    "category": "Meals",
+    "meaning_hi": "??????",
+    "pronunciation": "???"
+  },
+  {
+    "word": "fry",
+    "category": "Meals",
+    "meaning_hi": "????",
+    "pronunciation": "?????"
+  },
+  {
+    "word": "boil",
+    "category": "Meals",
+    "meaning_hi": "??????",
+    "pronunciation": "????"
+  },
+  {
+    "word": "chop",
+    "category": "Meals",
+    "meaning_hi": "?????",
+    "pronunciation": "???"
+  },
+  {
+    "word": "stir",
+    "category": "Meals",
+    "meaning_hi": "??????/?????",
+    "pronunciation": "????"
+  },
+  {
+    "word": "pour",
+    "category": "Meals",
+    "meaning_hi": "?????/???????",
+    "pronunciation": "???"
+  },
+  {
+    "word": "serve",
+    "category": "Meals",
+    "meaning_hi": "??????",
+    "pronunciation": "????"
+  }
+]

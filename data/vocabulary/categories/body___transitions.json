@@ -1,1 +1,184 @@
-﻿[{"word":"TRANSITION","meaning":"A word, phrase, or sentence that smoothly connects one topic or idea to the next.","example":"A smooth transition helps the audience follow along when you switch to a new slide.","category":"Body \u0026 Transitions"},{"word":"DIGRESSION","meaning":"A temporary departure from the main subject of the speech.","example":"After a brief digression about his vacation, the speaker returned to the business plan.","category":"Body \u0026 Transitions"},{"word":"ELABORATE","meaning":"To explain something in more detail or add more information to a point.","example":"Could you please elaborate on how this new software will save us time?","category":"Body \u0026 Transitions"},{"word":"ILLUSTRATE","meaning":"To explain or clarify something by using examples, pictures, or stories.","example":"The presenter used a chart to illustrate the growth of online shopping.","category":"Body \u0026 Transitions"},{"word":"EMPHASIZE","meaning":"To give special importance or attention to a word or point.","example":"She raised her voice slightly to emphasize the main goal of the project.","category":"Body \u0026 Transitions"},{"word":"CRITICAL POINT","meaning":"A very important idea or fact that is key to understanding the topic.","example":"The speaker paused before sharing the critical point to make sure everyone was listening.","category":"Body \u0026 Transitions"},{"word":"BACK IT UP","meaning":"To provide proof, facts, or evidence to support a claim.","example":"If you make a bold claim, you must back it up with reliable statistics.","category":"Body \u0026 Transitions"},{"word":"ANALOGY","meaning":"A comparison between two different things to show their similarities and help explain an idea.","example":"He used the analogy of a captain steering a ship to explain the role of a manager.","category":"Body \u0026 Transitions"},{"word":"RECAP","meaning":"To briefly repeat or summarize the main points that have already been discussed.","example":"Before we move to the Q\u0026A session, let\u0027s do a quick recap of the three main ideas.","category":"Body \u0026 Transitions"},{"word":"SUMMARIZE","meaning":"To express the most important facts or ideas in a short and clear way.","example":"At the end of each section, it is helpful to summarize the key takeaways.","category":"Body \u0026 Transitions"},{"word":"CONTRAST","meaning":"To compare two things to show how they are different from each other.","example":"The speaker contrasted the old system with the new one to show the benefits of the upgrade.","category":"Body \u0026 Transitions"},{"word":"SEGUE","meaning":"A smooth and logical transition from one topic, slide, or idea to another.","example":"That customer story is a perfect segue into our next topic: product quality.","category":"Body \u0026 Transitions"},{"word":"DWELL ON","meaning":"To spend a lot of time talking or thinking about a specific point or problem.","example":"We don\u0027t need to dwell on the past mistakes; let\u0027s focus on future solutions.","category":"Body \u0026 Transitions"},{"word":"EXPAND ON","meaning":"To give more details and information about something that has already been mentioned.","example":"I would like to expand on the third point of our strategy.","category":"Body \u0026 Transitions"},{"word":"PARAPHRASE","meaning":"To repeat something using different words to make it simpler or clearer.","example":"Let me paraphrase what the client said so we are all on the same page.","category":"Body \u0026 Transitions"},{"word":"TAKEAWAY","meaning":"A key fact, point, or lesson learned from a presentation that you should remember.","example":"The main takeaway from today\u0027s workshop is that practice is the key to confidence.","category":"Body \u0026 Transitions"},{"word":"REINFORCE","meaning":"To make an idea or belief stronger by providing additional support or evidence.","example":"Showing a video can help reinforce the message of your speech.","category":"Body \u0026 Transitions"},{"word":"GO INTO DETAIL","meaning":"To explain all the facts, steps, or specific information about something.","example":"We don\u0027t have time to go into detail about every feature, but I will cover the main ones.","category":"Body \u0026 Transitions"},{"word":"SCRATCH THE SURFACE","meaning":"To deal with only a small or superficial part of a subject.","example":"This half-hour presentation only scratches the surface of a very complex issue.","category":"Body \u0026 Transitions"},{"word":"POINT-BY-POINT","meaning":"Analyzing or explaining things one individual item at a time.","example":"She gave a point-by-point comparison of the two business proposals.","category":"Body \u0026 Transitions"},{"word":"BRING UP","meaning":"To introduce a new topic or question for discussion during a presentation.","example":"I am glad you brought up that question, as it is very relevant to our next slide.","category":"Body \u0026 Transitions"},{"word":"BUILD UPON","meaning":"To use a previous idea or fact as a base to develop further points.","example":"I want to build upon what my colleague just said about customer feedback.","category":"Body \u0026 Transitions"},{"word":"CLARIFY","meaning":"To make something clear or easier to understand by giving more explanation.","example":"Let me clarify that this budget is only an estimate, not the final number.","category":"Body \u0026 Transitions"},{"word":"EVIDENCE","meaning":"Facts, information, or data that show whether something is true or valid.","example":"The speaker presented strong evidence to show that the new method actually works.","category":"Body \u0026 Transitions"},{"word":"FLOW","meaning":"The smooth and natural connection of ideas throughout a speech.","example":"Using clear transitions improves the flow of your presentation.","category":"Body \u0026 Transitions"},{"word":"COHERENCE","meaning":"The quality of being logical, well-organized, and easy to understand as a whole.","example":"A good speech needs coherence so the audience doesn\u0027t get confused by random ideas.","category":"Body \u0026 Transitions"},{"word":"ANCHOR","meaning":"A key idea or reference point that helps the audience remember the main message.","example":"He used a simple slogan as an anchor to keep his message memorable.","category":"Body \u0026 Transitions"},{"word":"STEP-BY-STEP","meaning":"An explanation or process that is presented in a gradual, logical order.","example":"She gave a step-by-step guide on how to use the new mobile app.","category":"Body \u0026 Transitions"},{"word":"DIVERGE","meaning":"To move away from the main path, topic, or plan.","example":"Try not to diverge too far from your outline, or you might run out of time.","category":"Body \u0026 Transitions"},{"word":"WRAP UP","meaning":"To finish or complete a presentation, meeting, or activity.","example":"Let\u0027s wrap up this presentation by looking at our goals for next month.","category":"Body \u0026 Transitions"}]
+[
+  {
+    "word": "TRANSITION",
+    "meaning": "A word, phrase, or sentence that smoothly connects one topic or idea to the next.",
+    "example": "A smooth transition helps the audience follow along when you switch to a new slide.",
+    "category": "Body & Transitions"
+  },
+  {
+    "word": "DIGRESSION",
+    "meaning": "A temporary departure from the main subject of the speech.",
+    "example": "After a brief digression about his vacation, the speaker returned to the business plan.",
+    "category": "Body & Transitions"
+  },
+  {
+    "word": "ELABORATE",
+    "meaning": "To explain something in more detail or add more information to a point.",
+    "example": "Could you please elaborate on how this new software will save us time?",
+    "category": "Body & Transitions"
+  },
+  {
+    "word": "ILLUSTRATE",
+    "meaning": "To explain or clarify something by using examples, pictures, or stories.",
+    "example": "The presenter used a chart to illustrate the growth of online shopping.",
+    "category": "Body & Transitions"
+  },
+  {
+    "word": "EMPHASIZE",
+    "meaning": "To give special importance or attention to a word or point.",
+    "example": "She raised her voice slightly to emphasize the main goal of the project.",
+    "category": "Body & Transitions"
+  },
+  {
+    "word": "CRITICAL POINT",
+    "meaning": "A very important idea or fact that is key to understanding the topic.",
+    "example": "The speaker paused before sharing the critical point to make sure everyone was listening.",
+    "category": "Body & Transitions"
+  },
+  {
+    "word": "BACK IT UP",
+    "meaning": "To provide proof, facts, or evidence to support a claim.",
+    "example": "If you make a bold claim, you must back it up with reliable statistics.",
+    "category": "Body & Transitions"
+  },
+  {
+    "word": "ANALOGY",
+    "meaning": "A comparison between two different things to show their similarities and help explain an idea.",
+    "example": "He used the analogy of a captain steering a ship to explain the role of a manager.",
+    "category": "Body & Transitions"
+  },
+  {
+    "word": "RECAP",
+    "meaning": "To briefly repeat or summarize the main points that have already been discussed.",
+    "example": "Before we move to the Q&A session, let's do a quick recap of the three main ideas.",
+    "category": "Body & Transitions"
+  },
+  {
+    "word": "SUMMARIZE",
+    "meaning": "To express the most important facts or ideas in a short and clear way.",
+    "example": "At the end of each section, it is helpful to summarize the key takeaways.",
+    "category": "Body & Transitions"
+  },
+  {
+    "word": "CONTRAST",
+    "meaning": "To compare two things to show how they are different from each other.",
+    "example": "The speaker contrasted the old system with the new one to show the benefits of the upgrade.",
+    "category": "Body & Transitions"
+  },
+  {
+    "word": "SEGUE",
+    "meaning": "A smooth and logical transition from one topic, slide, or idea to another.",
+    "example": "That customer story is a perfect segue into our next topic: product quality.",
+    "category": "Body & Transitions"
+  },
+  {
+    "word": "DWELL ON",
+    "meaning": "To spend a lot of time talking or thinking about a specific point or problem.",
+    "example": "We don't need to dwell on the past mistakes; let's focus on future solutions.",
+    "category": "Body & Transitions"
+  },
+  {
+    "word": "EXPAND ON",
+    "meaning": "To give more details and information about something that has already been mentioned.",
+    "example": "I would like to expand on the third point of our strategy.",
+    "category": "Body & Transitions"
+  },
+  {
+    "word": "PARAPHRASE",
+    "meaning": "To repeat something using different words to make it simpler or clearer.",
+    "example": "Let me paraphrase what the client said so we are all on the same page.",
+    "category": "Body & Transitions"
+  },
+  {
+    "word": "TAKEAWAY",
+    "meaning": "A key fact, point, or lesson learned from a presentation that you should remember.",
+    "example": "The main takeaway from today's workshop is that practice is the key to confidence.",
+    "category": "Body & Transitions"
+  },
+  {
+    "word": "REINFORCE",
+    "meaning": "To make an idea or belief stronger by providing additional support or evidence.",
+    "example": "Showing a video can help reinforce the message of your speech.",
+    "category": "Body & Transitions"
+  },
+  {
+    "word": "GO INTO DETAIL",
+    "meaning": "To explain all the facts, steps, or specific information about something.",
+    "example": "We don't have time to go into detail about every feature, but I will cover the main ones.",
+    "category": "Body & Transitions"
+  },
+  {
+    "word": "SCRATCH THE SURFACE",
+    "meaning": "To deal with only a small or superficial part of a subject.",
+    "example": "This half-hour presentation only scratches the surface of a very complex issue.",
+    "category": "Body & Transitions"
+  },
+  {
+    "word": "POINT-BY-POINT",
+    "meaning": "Analyzing or explaining things one individual item at a time.",
+    "example": "She gave a point-by-point comparison of the two business proposals.",
+    "category": "Body & Transitions"
+  },
+  {
+    "word": "BRING UP",
+    "meaning": "To introduce a new topic or question for discussion during a presentation.",
+    "example": "I am glad you brought up that question, as it is very relevant to our next slide.",
+    "category": "Body & Transitions",
+    "meaning_hi": "???? ???? ?? ????? ???? ????",
+    "pronunciation": "?????? ??"
+  },
+  {
+    "word": "BUILD UPON",
+    "meaning": "To use a previous idea or fact as a base to develop further points.",
+    "example": "I want to build upon what my colleague just said about customer feedback.",
+    "category": "Body & Transitions"
+  },
+  {
+    "word": "CLARIFY",
+    "meaning": "To make something clear or easier to understand by giving more explanation.",
+    "example": "Let me clarify that this budget is only an estimate, not the final number.",
+    "category": "Body & Transitions"
+  },
+  {
+    "word": "EVIDENCE",
+    "meaning": "Facts, information, or data that show whether something is true or valid.",
+    "example": "The speaker presented strong evidence to show that the new method actually works.",
+    "category": "Body & Transitions"
+  },
+  {
+    "word": "FLOW",
+    "meaning": "The smooth and natural connection of ideas throughout a speech.",
+    "example": "Using clear transitions improves the flow of your presentation.",
+    "category": "Body & Transitions"
+  },
+  {
+    "word": "COHERENCE",
+    "meaning": "The quality of being logical, well-organized, and easy to understand as a whole.",
+    "example": "A good speech needs coherence so the audience doesn't get confused by random ideas.",
+    "category": "Body & Transitions"
+  },
+  {
+    "word": "ANCHOR",
+    "meaning": "A key idea or reference point that helps the audience remember the main message.",
+    "example": "He used a simple slogan as an anchor to keep his message memorable.",
+    "category": "Body & Transitions"
+  },
+  {
+    "word": "STEP-BY-STEP",
+    "meaning": "An explanation or process that is presented in a gradual, logical order.",
+    "example": "She gave a step-by-step guide on how to use the new mobile app.",
+    "category": "Body & Transitions"
+  },
+  {
+    "word": "DIVERGE",
+    "meaning": "To move away from the main path, topic, or plan.",
+    "example": "Try not to diverge too far from your outline, or you might run out of time.",
+    "category": "Body & Transitions"
+  },
+  {
+    "word": "WRAP UP",
+    "meaning": "To finish or complete a presentation, meeting, or activity.",
+    "example": "Let's wrap up this presentation by looking at our goals for next month.",
+    "category": "Body & Transitions"
+  }
+]

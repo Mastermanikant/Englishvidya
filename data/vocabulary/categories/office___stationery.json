@@ -1,1 +1,69 @@
-﻿[{"word":"pen","category":"Office \u0026 Stationery"},{"word":"pencil","category":"Office \u0026 Stationery"},{"word":"eraser","category":"Office \u0026 Stationery"},{"word":"sharpener","category":"Office \u0026 Stationery"},{"word":"notebook","category":"Office \u0026 Stationery"},{"word":"stapler","category":"Office \u0026 Stationery"},{"word":"paperclip","category":"Office \u0026 Stationery"},{"word":"highlighter","category":"Office \u0026 Stationery"},{"word":"marker","category":"Office \u0026 Stationery"},{"word":"tape","category":"Office \u0026 Stationery"},{"word":"sticky note","category":"Office \u0026 Stationery"},{"word":"envelope","category":"Office \u0026 Stationery"},{"word":"folder","category":"Office \u0026 Stationery"},{"word":"ruler","category":"Office \u0026 Stationery"},{"word":"calculator","category":"Office \u0026 Stationery"},{"word":"clipboard","category":"Office \u0026 Stationery"}]
+[
+  {
+    "word": "pen",
+    "category": "Office & Stationery",
+    "meaning_hi": "???",
+    "pronunciation": "??? (pen)"
+  },
+  {
+    "word": "pencil",
+    "category": "Office & Stationery"
+  },
+  {
+    "word": "eraser",
+    "category": "Office & Stationery"
+  },
+  {
+    "word": "sharpener",
+    "category": "Office & Stationery"
+  },
+  {
+    "word": "notebook",
+    "category": "Office & Stationery",
+    "meaning_hi": "????/??????"
+  },
+  {
+    "word": "stapler",
+    "category": "Office & Stationery"
+  },
+  {
+    "word": "paperclip",
+    "category": "Office & Stationery"
+  },
+  {
+    "word": "highlighter",
+    "category": "Office & Stationery"
+  },
+  {
+    "word": "marker",
+    "category": "Office & Stationery"
+  },
+  {
+    "word": "tape",
+    "category": "Office & Stationery"
+  },
+  {
+    "word": "sticky note",
+    "category": "Office & Stationery"
+  },
+  {
+    "word": "envelope",
+    "category": "Office & Stationery"
+  },
+  {
+    "word": "folder",
+    "category": "Office & Stationery"
+  },
+  {
+    "word": "ruler",
+    "category": "Office & Stationery"
+  },
+  {
+    "word": "calculator",
+    "category": "Office & Stationery"
+  },
+  {
+    "word": "clipboard",
+    "category": "Office & Stationery"
+  }
+]

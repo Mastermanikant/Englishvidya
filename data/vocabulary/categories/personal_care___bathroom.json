@@ -1,1 +1,80 @@
-﻿[{"word":"toothbrush","category":"Personal Care \u0026 Bathroom"},{"word":"toothpaste","category":"Personal Care \u0026 Bathroom"},{"word":"towel","category":"Personal Care \u0026 Bathroom"},{"word":"comb","category":"Personal Care \u0026 Bathroom"},{"word":"hairbrush","category":"Personal Care \u0026 Bathroom"},{"word":"soap","category":"Personal Care \u0026 Bathroom"},{"word":"shampoo","category":"Personal Care \u0026 Bathroom"},{"word":"razor","category":"Personal Care \u0026 Bathroom"},{"word":"tweezers","category":"Personal Care \u0026 Bathroom"},{"word":"nail clippers","category":"Personal Care \u0026 Bathroom"},{"word":"mirror","category":"Personal Care \u0026 Bathroom"},{"word":"sponge","category":"Personal Care \u0026 Bathroom"},{"word":"deodorant","category":"Personal Care \u0026 Bathroom"},{"word":"lotion","category":"Personal Care \u0026 Bathroom"},{"word":"floss","category":"Personal Care \u0026 Bathroom"},{"word":"toilet paper","category":"Personal Care \u0026 Bathroom"},{"word":"tissue","category":"Personal Care \u0026 Bathroom"}]
+[
+  {
+    "word": "toothbrush",
+    "category": "Personal Care & Bathroom",
+    "meaning_hi": "???????"
+  },
+  {
+    "word": "toothpaste",
+    "category": "Personal Care & Bathroom",
+    "meaning_hi": "????????"
+  },
+  {
+    "word": "towel",
+    "category": "Personal Care & Bathroom",
+    "meaning_hi": "??????"
+  },
+  {
+    "word": "comb",
+    "category": "Personal Care & Bathroom",
+    "meaning_hi": "???? ????"
+  },
+  {
+    "word": "hairbrush",
+    "category": "Personal Care & Bathroom",
+    "meaning_hi": "????????"
+  },
+  {
+    "word": "soap",
+    "category": "Personal Care & Bathroom",
+    "meaning_hi": "?????"
+  },
+  {
+    "word": "shampoo",
+    "category": "Personal Care & Bathroom",
+    "meaning_hi": "??????"
+  },
+  {
+    "word": "razor",
+    "category": "Personal Care & Bathroom"
+  },
+  {
+    "word": "tweezers",
+    "category": "Personal Care & Bathroom"
+  },
+  {
+    "word": "nail clippers",
+    "category": "Personal Care & Bathroom"
+  },
+  {
+    "word": "mirror",
+    "category": "Personal Care & Bathroom",
+    "meaning_hi": "???? / ????",
+    "pronunciation": "???? (mir-er)"
+  },
+  {
+    "word": "sponge",
+    "category": "Personal Care & Bathroom"
+  },
+  {
+    "word": "deodorant",
+    "category": "Personal Care & Bathroom",
+    "meaning_hi": "??????????? (?????????)"
+  },
+  {
+    "word": "lotion",
+    "category": "Personal Care & Bathroom"
+  },
+  {
+    "word": "floss",
+    "category": "Personal Care & Bathroom"
+  },
+  {
+    "word": "toilet paper",
+    "category": "Personal Care & Bathroom"
+  },
+  {
+    "word": "tissue",
+    "category": "Personal Care & Bathroom"
+  }
+]

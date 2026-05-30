@@ -1,1 +1,817 @@
-﻿[{"word":"Happy","category":"Positive Emotions","sub_category":"Happiness/Joy"},{"word":"Joyful","category":"Positive Emotions","sub_category":"Happiness/Joy"},{"word":"Cheerful","category":"Positive Emotions","sub_category":"Happiness/Joy"},{"word":"Delighted","category":"Positive Emotions","sub_category":"Happiness/Joy"},{"word":"Glad","category":"Positive Emotions","sub_category":"Happiness/Joy"},{"word":"Merry","category":"Positive Emotions","sub_category":"Happiness/Joy"},{"word":"Sunny","category":"Positive Emotions","sub_category":"Happiness/Joy"},{"word":"Radiant","category":"Positive Emotions","sub_category":"Happiness/Joy"},{"word":"Smiling","category":"Positive Emotions","sub_category":"Happiness/Joy"},{"word":"Beaming","category":"Positive Emotions","sub_category":"Happiness/Joy"},{"word":"Overjoyed","category":"Positive Emotions","sub_category":"Happiness/Joy"},{"word":"Ecstatic","category":"Positive Emotions","sub_category":"Happiness/Joy"},{"word":"Euphoric","category":"Positive Emotions","sub_category":"Happiness/Joy"},{"word":"Blissful","category":"Positive Emotions","sub_category":"Happiness/Joy"},{"word":"Thrilled","category":"Positive Emotions","sub_category":"Happiness/Joy"},{"word":"Elated","category":"Positive Emotions","sub_category":"Happiness/Joy"},{"word":"Jubilant","category":"Positive Emotions","sub_category":"Happiness/Joy"},{"word":"Triumphant","category":"Positive Emotions","sub_category":"Happiness/Joy"},{"word":"Exuberant","category":"Positive Emotions","sub_category":"Happiness/Joy"},{"word":"Buoyant","category":"Positive Emotions","sub_category":"Happiness/Joy"},{"word":"Upbeat","category":"Positive Emotions","sub_category":"Happiness/Joy"},{"word":"Lively","category":"Positive Emotions","sub_category":"Happiness/Joy"},{"word":"Animated","category":"Positive Emotions","sub_category":"Happiness/Joy"},{"word":"Vibrant","category":"Positive Emotions","sub_category":"Happiness/Joy"},{"word":"Spirited","category":"Positive Emotions","sub_category":"Happiness/Joy"},{"word":"Playful","category":"Positive Emotions","sub_category":"Happiness/Joy"},{"word":"Gleeful","category":"Positive Emotions","sub_category":"Happiness/Joy"},{"word":"Mirthful","category":"Positive Emotions","sub_category":"Happiness/Joy"},{"word":"Lighthearted","category":"Positive Emotions","sub_category":"Happiness/Joy"},{"word":"Carefree","category":"Positive Emotions","sub_category":"Happiness/Joy"},{"word":"Content","category":"Positive Emotions","sub_category":"Happiness/Joy"},{"word":"Satisfied","category":"Positive Emotions","sub_category":"Happiness/Joy"},{"word":"Pleased","category":"Positive Emotions","sub_category":"Happiness/Joy"},{"word":"Gratified","category":"Positive Emotions","sub_category":"Happiness/Joy"},{"word":"Cheery","category":"Positive Emotions","sub_category":"Happiness/Joy"},{"word":"Jovial","category":"Positive Emotions","sub_category":"Happiness/Joy"},{"word":"Jolly","category":"Positive Emotions","sub_category":"Happiness/Joy"},{"word":"Festive","category":"Positive Emotions","sub_category":"Happiness/Joy"},{"word":"Giddy","category":"Positive Emotions","sub_category":"Happiness/Joy"},{"word":"Tickled","category":"Positive Emotions","sub_category":"Happiness/Joy"},{"word":"Loving","category":"Positive Emotions","sub_category":"Love/Affection"},{"word":"Affectionate","category":"Positive Emotions","sub_category":"Love/Affection"},{"word":"Fond","category":"Positive Emotions","sub_category":"Love/Affection"},{"word":"Tender","category":"Positive Emotions","sub_category":"Love/Affection"},{"word":"Caring","category":"Positive Emotions","sub_category":"Love/Affection"},{"word":"Devoted","category":"Positive Emotions","sub_category":"Love/Affection"},{"word":"Adoring","category":"Positive Emotions","sub_category":"Love/Affection"},{"word":"Doting","category":"Positive Emotions","sub_category":"Love/Affection"},{"word":"Passionate","category":"Positive Emotions","sub_category":"Love/Affection"},{"word":"Amorous","category":"Positive Emotions","sub_category":"Love/Affection"},{"word":"Romantic","category":"Positive Emotions","sub_category":"Love/Affection"},{"word":"Enamored","category":"Positive Emotions","sub_category":"Love/Affection"},{"word":"Smitten","category":"Positive Emotions","sub_category":"Love/Affection"},{"word":"Captivated","category":"Positive Emotions","sub_category":"Love/Affection"},{"word":"Enchanted","category":"Positive Emotions","sub_category":"Love/Affection"},{"word":"Charmed","category":"Positive Emotions","sub_category":"Love/Affection"},{"word":"Bewitched","category":"Positive Emotions","sub_category":"Love/Affection"},{"word":"Fascinated","category":"Positive Emotions","sub_category":"Love/Affection"},{"word":"Attached","category":"Positive Emotions","sub_category":"Love/Affection"},{"word":"Loyal","category":"Positive Emotions","sub_category":"Love/Affection"},{"word":"Faithful","category":"Positive Emotions","sub_category":"Love/Affection"},{"word":"Warm","category":"Positive Emotions","sub_category":"Love/Affection"},{"word":"Warmhearted","category":"Positive Emotions","sub_category":"Love/Affection"},{"word":"Sympathetic","category":"Positive Emotions","sub_category":"Love/Affection"},{"word":"Compassionate","category":"Positive Emotions","sub_category":"Love/Affection"},{"word":"Empathetic","category":"Positive Emotions","sub_category":"Love/Affection"},{"word":"Kind","category":"Positive Emotions","sub_category":"Love/Affection"},{"word":"Kindhearted","category":"Positive Emotions","sub_category":"Love/Affection"},{"word":"Benevolent","category":"Positive Emotions","sub_category":"Love/Affection"},{"word":"Generous","category":"Positive Emotions","sub_category":"Love/Affection"},{"word":"Gracious","category":"Positive Emotions","sub_category":"Love/Affection"},{"word":"Thoughtful","category":"Positive Emotions","sub_category":"Love/Affection"},{"word":"Considerate","category":"Positive Emotions","sub_category":"Love/Affection"},{"word":"Sweet","category":"Positive Emotions","sub_category":"Love/Affection"},{"word":"Gentle","category":"Positive Emotions","sub_category":"Love/Affection"},{"word":"Endearing","category":"Positive Emotions","sub_category":"Love/Affection"},{"word":"Cuddly","category":"Positive Emotions","sub_category":"Love/Affection"},{"word":"Snuggly","category":"Positive Emotions","sub_category":"Love/Affection"},{"word":"Confident","category":"Positive Emotions","sub_category":"Confidence/Pride"},{"word":"Proud","category":"Positive Emotions","sub_category":"Confidence/Pride"},{"word":"Sure","category":"Positive Emotions","sub_category":"Confidence/Pride"},{"word":"Certain","category":"Positive Emotions","sub_category":"Confidence/Pride"},{"word":"Positive","category":"Positive Emotions","sub_category":"Confidence/Pride"},{"word":"Assured","category":"Positive Emotions","sub_category":"Confidence/Pride"},{"word":"Self-assured","category":"Positive Emotions","sub_category":"Confidence/Pride"},{"word":"Secure","category":"Positive Emotions","sub_category":"Confidence/Pride"},{"word":"Bold","category":"Positive Emotions","sub_category":"Confidence/Pride"},{"word":"Brave","category":"Positive Emotions","sub_category":"Confidence/Pride"},{"word":"Courageous","category":"Positive Emotions","sub_category":"Confidence/Pride"},{"word":"Fearless","category":"Positive Emotions","sub_category":"Confidence/Pride"},{"word":"Dauntless","category":"Positive Emotions","sub_category":"Confidence/Pride"},{"word":"Valiant","category":"Positive Emotions","sub_category":"Confidence/Pride"},{"word":"Heroic","category":"Positive Emotions","sub_category":"Confidence/Pride"},{"word":"Gallant","category":"Positive Emotions","sub_category":"Confidence/Pride"},{"word":"Daring","category":"Positive Emotions","sub_category":"Confidence/Pride"},{"word":"Adventurous","category":"Positive Emotions","sub_category":"Confidence/Pride"},{"word":"Audacious","category":"Positive Emotions","sub_category":"Confidence/Pride"},{"word":"Plucky","category":"Positive Emotions","sub_category":"Confidence/Pride"},{"word":"Resolute","category":"Positive Emotions","sub_category":"Confidence/Pride"},{"word":"Determined","category":"Positive Emotions","sub_category":"Confidence/Pride"},{"word":"Steadfast","category":"Positive Emotions","sub_category":"Confidence/Pride"},{"word":"Firm","category":"Positive Emotions","sub_category":"Confidence/Pride"},{"word":"Unwavering","category":"Positive Emotions","sub_category":"Confidence/Pride"},{"word":"Unflinching","category":"Positive Emotions","sub_category":"Confidence/Pride"},{"word":"Undaunted","category":"Positive Emotions","sub_category":"Confidence/Pride"},{"word":"Empowered","category":"Positive Emotions","sub_category":"Confidence/Pride"},{"word":"Strong","category":"Positive Emotions","sub_category":"Confidence/Pride"},{"word":"Powerful","category":"Positive Emotions","sub_category":"Confidence/Pride"},{"word":"Mighty","category":"Positive Emotions","sub_category":"Confidence/Pride"},{"word":"Invincible","category":"Positive Emotions","sub_category":"Confidence/Pride"},{"word":"Unstoppable","category":"Positive Emotions","sub_category":"Confidence/Pride"},{"word":"Victorious","category":"Positive Emotions","sub_category":"Confidence/Pride"},{"word":"Successful","category":"Positive Emotions","sub_category":"Confidence/Pride"},{"word":"Accomplished","category":"Positive Emotions","sub_category":"Confidence/Pride"},{"word":"Dignified","category":"Positive Emotions","sub_category":"Confidence/Pride"},{"word":"Noble","category":"Positive Emotions","sub_category":"Confidence/Pride"},{"word":"Honorable","category":"Positive Emotions","sub_category":"Confidence/Pride"},{"word":"Esteemed","category":"Positive Emotions","sub_category":"Confidence/Pride"},{"word":"Peaceful","category":"Positive Emotions","sub_category":"Peace/Calm"},{"word":"Calm","category":"Positive Emotions","sub_category":"Peace/Calm"},{"word":"Quiet","category":"Positive Emotions","sub_category":"Peace/Calm"},{"word":"Still","category":"Positive Emotions","sub_category":"Peace/Calm"},{"word":"Tranquil","category":"Positive Emotions","sub_category":"Peace/Calm"},{"word":"Serene","category":"Positive Emotions","sub_category":"Peace/Calm"},{"word":"Placid","category":"Positive Emotions","sub_category":"Peace/Calm"},{"word":"Mild","category":"Positive Emotions","sub_category":"Peace/Calm"},{"word":"Restful","category":"Positive Emotions","sub_category":"Peace/Calm"},{"word":"Relaxed","category":"Positive Emotions","sub_category":"Peace/Calm"},{"word":"Easygoing","category":"Positive Emotions","sub_category":"Peace/Calm"},{"word":"Mellow","category":"Positive Emotions","sub_category":"Peace/Calm"},{"word":"Chill","category":"Positive Emotions","sub_category":"Peace/Calm"},{"word":"Untroubled","category":"Positive Emotions","sub_category":"Peace/Calm"},{"word":"Undisturbed","category":"Positive Emotions","sub_category":"Peace/Calm"},{"word":"Unruffled","category":"Positive Emotions","sub_category":"Peace/Calm"},{"word":"Composed","category":"Positive Emotions","sub_category":"Peace/Calm"},{"word":"Collected","category":"Positive Emotions","sub_category":"Peace/Calm"},{"word":"Cool","category":"Positive Emotions","sub_category":"Peace/Calm"},{"word":"Unflappable","category":"Positive Emotions","sub_category":"Peace/Calm"},{"word":"Centered","category":"Positive Emotions","sub_category":"Peace/Calm"},{"word":"Grounded","category":"Positive Emotions","sub_category":"Peace/Calm"},{"word":"Balanced","category":"Positive Emotions","sub_category":"Peace/Calm"},{"word":"Harmonious","category":"Positive Emotions","sub_category":"Peace/Calm"},{"word":"Zen","category":"Positive Emotions","sub_category":"Peace/Calm"},{"word":"Soothing","category":"Positive Emotions","sub_category":"Peace/Calm"},{"word":"Comforting","category":"Positive Emotions","sub_category":"Peace/Calm"},{"word":"Reassuring","category":"Positive Emotions","sub_category":"Peace/Calm"},{"word":"Healing","category":"Positive Emotions","sub_category":"Peace/Calm"},{"word":"Restorative","category":"Positive Emotions","sub_category":"Peace/Calm"},{"word":"Refreshing","category":"Positive Emotions","sub_category":"Peace/Calm"},{"word":"Renewing","category":"Positive Emotions","sub_category":"Peace/Calm"},{"word":"Soothed","category":"Positive Emotions","sub_category":"Peace/Calm"},{"word":"Comforted","category":"Positive Emotions","sub_category":"Peace/Calm"},{"word":"Relieved","category":"Positive Emotions","sub_category":"Peace/Calm"},{"word":"Alleviated","category":"Positive Emotions","sub_category":"Peace/Calm"},{"word":"Eased","category":"Positive Emotions","sub_category":"Peace/Calm"},{"word":"Assuaged","category":"Positive Emotions","sub_category":"Peace/Calm"},{"word":"Contented","category":"Positive Emotions","sub_category":"Peace/Calm"}]
+[
+  {
+    "word": "Happy",
+    "category": "Positive Emotions",
+    "sub_category": "Happiness/Joy",
+    "meaning_hi": "???",
+    "pronunciation": "?????? (hap-ee)"
+  },
+  {
+    "word": "Joyful",
+    "category": "Positive Emotions",
+    "sub_category": "Happiness/Joy"
+  },
+  {
+    "word": "Cheerful",
+    "category": "Positive Emotions",
+    "sub_category": "Happiness/Joy"
+  },
+  {
+    "word": "Delighted",
+    "category": "Positive Emotions",
+    "sub_category": "Happiness/Joy"
+  },
+  {
+    "word": "Glad",
+    "category": "Positive Emotions",
+    "sub_category": "Happiness/Joy"
+  },
+  {
+    "word": "Merry",
+    "category": "Positive Emotions",
+    "sub_category": "Happiness/Joy"
+  },
+  {
+    "word": "Sunny",
+    "category": "Positive Emotions",
+    "sub_category": "Happiness/Joy"
+  },
+  {
+    "word": "Radiant",
+    "category": "Positive Emotions",
+    "sub_category": "Happiness/Joy"
+  },
+  {
+    "word": "Smiling",
+    "category": "Positive Emotions",
+    "sub_category": "Happiness/Joy"
+  },
+  {
+    "word": "Beaming",
+    "category": "Positive Emotions",
+    "sub_category": "Happiness/Joy"
+  },
+  {
+    "word": "Overjoyed",
+    "category": "Positive Emotions",
+    "sub_category": "Happiness/Joy"
+  },
+  {
+    "word": "Ecstatic",
+    "category": "Positive Emotions",
+    "sub_category": "Happiness/Joy"
+  },
+  {
+    "word": "Euphoric",
+    "category": "Positive Emotions",
+    "sub_category": "Happiness/Joy"
+  },
+  {
+    "word": "Blissful",
+    "category": "Positive Emotions",
+    "sub_category": "Happiness/Joy"
+  },
+  {
+    "word": "Thrilled",
+    "category": "Positive Emotions",
+    "sub_category": "Happiness/Joy",
+    "meaning_hi": "?????? ??????? / ???????? (Atyant prasann / Romanchit)",
+    "pronunciation": "thrild"
+  },
+  {
+    "word": "Elated",
+    "category": "Positive Emotions",
+    "sub_category": "Happiness/Joy"
+  },
+  {
+    "word": "Jubilant",
+    "category": "Positive Emotions",
+    "sub_category": "Happiness/Joy"
+  },
+  {
+    "word": "Triumphant",
+    "category": "Positive Emotions",
+    "sub_category": "Happiness/Joy"
+  },
+  {
+    "word": "Exuberant",
+    "category": "Positive Emotions",
+    "sub_category": "Happiness/Joy"
+  },
+  {
+    "word": "Buoyant",
+    "category": "Positive Emotions",
+    "sub_category": "Happiness/Joy"
+  },
+  {
+    "word": "Upbeat",
+    "category": "Positive Emotions",
+    "sub_category": "Happiness/Joy"
+  },
+  {
+    "word": "Lively",
+    "category": "Positive Emotions",
+    "sub_category": "Happiness/Joy"
+  },
+  {
+    "word": "Animated",
+    "category": "Positive Emotions",
+    "sub_category": "Happiness/Joy"
+  },
+  {
+    "word": "Vibrant",
+    "category": "Positive Emotions",
+    "sub_category": "Happiness/Joy"
+  },
+  {
+    "word": "Spirited",
+    "category": "Positive Emotions",
+    "sub_category": "Happiness/Joy"
+  },
+  {
+    "word": "Playful",
+    "category": "Positive Emotions",
+    "sub_category": "Happiness/Joy"
+  },
+  {
+    "word": "Gleeful",
+    "category": "Positive Emotions",
+    "sub_category": "Happiness/Joy"
+  },
+  {
+    "word": "Mirthful",
+    "category": "Positive Emotions",
+    "sub_category": "Happiness/Joy"
+  },
+  {
+    "word": "Lighthearted",
+    "category": "Positive Emotions",
+    "sub_category": "Happiness/Joy"
+  },
+  {
+    "word": "Carefree",
+    "category": "Positive Emotions",
+    "sub_category": "Happiness/Joy"
+  },
+  {
+    "word": "Content",
+    "category": "Positive Emotions",
+    "sub_category": "Happiness/Joy"
+  },
+  {
+    "word": "Satisfied",
+    "category": "Positive Emotions",
+    "sub_category": "Happiness/Joy",
+    "meaning_hi": "??????? (Santusht)",
+    "pronunciation": "SAT-is-fyed"
+  },
+  {
+    "word": "Pleased",
+    "category": "Positive Emotions",
+    "sub_category": "Happiness/Joy"
+  },
+  {
+    "word": "Gratified",
+    "category": "Positive Emotions",
+    "sub_category": "Happiness/Joy"
+  },
+  {
+    "word": "Cheery",
+    "category": "Positive Emotions",
+    "sub_category": "Happiness/Joy"
+  },
+  {
+    "word": "Jovial",
+    "category": "Positive Emotions",
+    "sub_category": "Happiness/Joy"
+  },
+  {
+    "word": "Jolly",
+    "category": "Positive Emotions",
+    "sub_category": "Happiness/Joy"
+  },
+  {
+    "word": "Festive",
+    "category": "Positive Emotions",
+    "sub_category": "Happiness/Joy"
+  },
+  {
+    "word": "Giddy",
+    "category": "Positive Emotions",
+    "sub_category": "Happiness/Joy"
+  },
+  {
+    "word": "Tickled",
+    "category": "Positive Emotions",
+    "sub_category": "Happiness/Joy"
+  },
+  {
+    "word": "Loving",
+    "category": "Positive Emotions",
+    "sub_category": "Love/Affection"
+  },
+  {
+    "word": "Affectionate",
+    "category": "Positive Emotions",
+    "sub_category": "Love/Affection"
+  },
+  {
+    "word": "Fond",
+    "category": "Positive Emotions",
+    "sub_category": "Love/Affection"
+  },
+  {
+    "word": "Tender",
+    "category": "Positive Emotions",
+    "sub_category": "Love/Affection"
+  },
+  {
+    "word": "Caring",
+    "category": "Positive Emotions",
+    "sub_category": "Love/Affection",
+    "meaning_hi": "????? ???? ????, ????? ???? ????",
+    "pronunciation": "??????? (care-ing)"
+  },
+  {
+    "word": "Devoted",
+    "category": "Positive Emotions",
+    "sub_category": "Love/Affection"
+  },
+  {
+    "word": "Adoring",
+    "category": "Positive Emotions",
+    "sub_category": "Love/Affection"
+  },
+  {
+    "word": "Doting",
+    "category": "Positive Emotions",
+    "sub_category": "Love/Affection"
+  },
+  {
+    "word": "Passionate",
+    "category": "Positive Emotions",
+    "sub_category": "Love/Affection"
+  },
+  {
+    "word": "Amorous",
+    "category": "Positive Emotions",
+    "sub_category": "Love/Affection"
+  },
+  {
+    "word": "Romantic",
+    "category": "Positive Emotions",
+    "sub_category": "Love/Affection"
+  },
+  {
+    "word": "Enamored",
+    "category": "Positive Emotions",
+    "sub_category": "Love/Affection"
+  },
+  {
+    "word": "Smitten",
+    "category": "Positive Emotions",
+    "sub_category": "Love/Affection"
+  },
+  {
+    "word": "Captivated",
+    "category": "Positive Emotions",
+    "sub_category": "Love/Affection"
+  },
+  {
+    "word": "Enchanted",
+    "category": "Positive Emotions",
+    "sub_category": "Love/Affection"
+  },
+  {
+    "word": "Charmed",
+    "category": "Positive Emotions",
+    "sub_category": "Love/Affection"
+  },
+  {
+    "word": "Bewitched",
+    "category": "Positive Emotions",
+    "sub_category": "Love/Affection"
+  },
+  {
+    "word": "Fascinated",
+    "category": "Positive Emotions",
+    "sub_category": "Love/Affection"
+  },
+  {
+    "word": "Attached",
+    "category": "Positive Emotions",
+    "sub_category": "Love/Affection"
+  },
+  {
+    "word": "Loyal",
+    "category": "Positive Emotions",
+    "sub_category": "Love/Affection",
+    "meaning_hi": "??????",
+    "pronunciation": "???? (loy-ul)"
+  },
+  {
+    "word": "Faithful",
+    "category": "Positive Emotions",
+    "sub_category": "Love/Affection"
+  },
+  {
+    "word": "Warm",
+    "category": "Positive Emotions",
+    "sub_category": "Love/Affection"
+  },
+  {
+    "word": "Warmhearted",
+    "category": "Positive Emotions",
+    "sub_category": "Love/Affection"
+  },
+  {
+    "word": "Sympathetic",
+    "category": "Positive Emotions",
+    "sub_category": "Love/Affection"
+  },
+  {
+    "word": "Compassionate",
+    "category": "Positive Emotions",
+    "sub_category": "Love/Affection"
+  },
+  {
+    "word": "Empathetic",
+    "category": "Positive Emotions",
+    "sub_category": "Love/Affection"
+  },
+  {
+    "word": "Kind",
+    "category": "Positive Emotions",
+    "sub_category": "Love/Affection",
+    "meaning_hi": "?????",
+    "pronunciation": "?????? (kynd)"
+  },
+  {
+    "word": "Kindhearted",
+    "category": "Positive Emotions",
+    "sub_category": "Love/Affection"
+  },
+  {
+    "word": "Benevolent",
+    "category": "Positive Emotions",
+    "sub_category": "Love/Affection"
+  },
+  {
+    "word": "Generous",
+    "category": "Positive Emotions",
+    "sub_category": "Love/Affection"
+  },
+  {
+    "word": "Gracious",
+    "category": "Positive Emotions",
+    "sub_category": "Love/Affection"
+  },
+  {
+    "word": "Thoughtful",
+    "category": "Positive Emotions",
+    "sub_category": "Love/Affection"
+  },
+  {
+    "word": "Considerate",
+    "category": "Positive Emotions",
+    "sub_category": "Love/Affection"
+  },
+  {
+    "word": "Sweet",
+    "category": "Positive Emotions",
+    "sub_category": "Love/Affection",
+    "meaning_hi": "????",
+    "pronunciation": "?????"
+  },
+  {
+    "word": "Gentle",
+    "category": "Positive Emotions",
+    "sub_category": "Love/Affection"
+  },
+  {
+    "word": "Endearing",
+    "category": "Positive Emotions",
+    "sub_category": "Love/Affection"
+  },
+  {
+    "word": "Cuddly",
+    "category": "Positive Emotions",
+    "sub_category": "Love/Affection"
+  },
+  {
+    "word": "Snuggly",
+    "category": "Positive Emotions",
+    "sub_category": "Love/Affection"
+  },
+  {
+    "word": "Confident",
+    "category": "Positive Emotions",
+    "sub_category": "Confidence/Pride",
+    "meaning_hi": "???????????? (Aatmavishvaasi)",
+    "pronunciation": "KAHN-fi-duhnt"
+  },
+  {
+    "word": "Proud",
+    "category": "Positive Emotions",
+    "sub_category": "Confidence/Pride",
+    "meaning_hi": "???? (Garv)",
+    "pronunciation": "prowd"
+  },
+  {
+    "word": "Sure",
+    "category": "Positive Emotions",
+    "sub_category": "Confidence/Pride",
+    "meaning_hi": "????? / ????? (zaroor / pakka)",
+    "pronunciation": "????? (shoor)"
+  },
+  {
+    "word": "Certain",
+    "category": "Positive Emotions",
+    "sub_category": "Confidence/Pride"
+  },
+  {
+    "word": "Positive",
+    "category": "Positive Emotions",
+    "sub_category": "Confidence/Pride"
+  },
+  {
+    "word": "Assured",
+    "category": "Positive Emotions",
+    "sub_category": "Confidence/Pride"
+  },
+  {
+    "word": "Self-assured",
+    "category": "Positive Emotions",
+    "sub_category": "Confidence/Pride"
+  },
+  {
+    "word": "Secure",
+    "category": "Positive Emotions",
+    "sub_category": "Confidence/Pride"
+  },
+  {
+    "word": "Bold",
+    "category": "Positive Emotions",
+    "sub_category": "Confidence/Pride"
+  },
+  {
+    "word": "Brave",
+    "category": "Positive Emotions",
+    "sub_category": "Confidence/Pride"
+  },
+  {
+    "word": "Courageous",
+    "category": "Positive Emotions",
+    "sub_category": "Confidence/Pride"
+  },
+  {
+    "word": "Fearless",
+    "category": "Positive Emotions",
+    "sub_category": "Confidence/Pride"
+  },
+  {
+    "word": "Dauntless",
+    "category": "Positive Emotions",
+    "sub_category": "Confidence/Pride"
+  },
+  {
+    "word": "Valiant",
+    "category": "Positive Emotions",
+    "sub_category": "Confidence/Pride"
+  },
+  {
+    "word": "Heroic",
+    "category": "Positive Emotions",
+    "sub_category": "Confidence/Pride"
+  },
+  {
+    "word": "Gallant",
+    "category": "Positive Emotions",
+    "sub_category": "Confidence/Pride"
+  },
+  {
+    "word": "Daring",
+    "category": "Positive Emotions",
+    "sub_category": "Confidence/Pride"
+  },
+  {
+    "word": "Adventurous",
+    "category": "Positive Emotions",
+    "sub_category": "Confidence/Pride"
+  },
+  {
+    "word": "Audacious",
+    "category": "Positive Emotions",
+    "sub_category": "Confidence/Pride"
+  },
+  {
+    "word": "Plucky",
+    "category": "Positive Emotions",
+    "sub_category": "Confidence/Pride"
+  },
+  {
+    "word": "Resolute",
+    "category": "Positive Emotions",
+    "sub_category": "Confidence/Pride"
+  },
+  {
+    "word": "Determined",
+    "category": "Positive Emotions",
+    "sub_category": "Confidence/Pride"
+  },
+  {
+    "word": "Steadfast",
+    "category": "Positive Emotions",
+    "sub_category": "Confidence/Pride"
+  },
+  {
+    "word": "Firm",
+    "category": "Positive Emotions",
+    "sub_category": "Confidence/Pride"
+  },
+  {
+    "word": "Unwavering",
+    "category": "Positive Emotions",
+    "sub_category": "Confidence/Pride"
+  },
+  {
+    "word": "Unflinching",
+    "category": "Positive Emotions",
+    "sub_category": "Confidence/Pride"
+  },
+  {
+    "word": "Undaunted",
+    "category": "Positive Emotions",
+    "sub_category": "Confidence/Pride"
+  },
+  {
+    "word": "Empowered",
+    "category": "Positive Emotions",
+    "sub_category": "Confidence/Pride"
+  },
+  {
+    "word": "Strong",
+    "category": "Positive Emotions",
+    "sub_category": "Confidence/Pride",
+    "meaning_hi": "?????? / ??????",
+    "pronunciation": "????????? (strong)"
+  },
+  {
+    "word": "Powerful",
+    "category": "Positive Emotions",
+    "sub_category": "Confidence/Pride"
+  },
+  {
+    "word": "Mighty",
+    "category": "Positive Emotions",
+    "sub_category": "Confidence/Pride"
+  },
+  {
+    "word": "Invincible",
+    "category": "Positive Emotions",
+    "sub_category": "Confidence/Pride"
+  },
+  {
+    "word": "Unstoppable",
+    "category": "Positive Emotions",
+    "sub_category": "Confidence/Pride"
+  },
+  {
+    "word": "Victorious",
+    "category": "Positive Emotions",
+    "sub_category": "Confidence/Pride"
+  },
+  {
+    "word": "Successful",
+    "category": "Positive Emotions",
+    "sub_category": "Confidence/Pride"
+  },
+  {
+    "word": "Accomplished",
+    "category": "Positive Emotions",
+    "sub_category": "Confidence/Pride"
+  },
+  {
+    "word": "Dignified",
+    "category": "Positive Emotions",
+    "sub_category": "Confidence/Pride"
+  },
+  {
+    "word": "Noble",
+    "category": "Positive Emotions",
+    "sub_category": "Confidence/Pride"
+  },
+  {
+    "word": "Honorable",
+    "category": "Positive Emotions",
+    "sub_category": "Confidence/Pride"
+  },
+  {
+    "word": "Esteemed",
+    "category": "Positive Emotions",
+    "sub_category": "Confidence/Pride"
+  },
+  {
+    "word": "Peaceful",
+    "category": "Positive Emotions",
+    "sub_category": "Peace/Calm"
+  },
+  {
+    "word": "Calm",
+    "category": "Positive Emotions",
+    "sub_category": "Peace/Calm",
+    "meaning_hi": "???? (Shaant)",
+    "pronunciation": "kahm"
+  },
+  {
+    "word": "Quiet",
+    "category": "Positive Emotions",
+    "sub_category": "Peace/Calm",
+    "meaning_hi": "????, ?? ????? ????",
+    "pronunciation": "?????? (kwy-it)"
+  },
+  {
+    "word": "Still",
+    "category": "Positive Emotions",
+    "sub_category": "Peace/Calm"
+  },
+  {
+    "word": "Tranquil",
+    "category": "Positive Emotions",
+    "sub_category": "Peace/Calm"
+  },
+  {
+    "word": "Serene",
+    "category": "Positive Emotions",
+    "sub_category": "Peace/Calm"
+  },
+  {
+    "word": "Placid",
+    "category": "Positive Emotions",
+    "sub_category": "Peace/Calm"
+  },
+  {
+    "word": "Mild",
+    "category": "Positive Emotions",
+    "sub_category": "Peace/Calm"
+  },
+  {
+    "word": "Restful",
+    "category": "Positive Emotions",
+    "sub_category": "Peace/Calm"
+  },
+  {
+    "word": "Relaxed",
+    "category": "Positive Emotions",
+    "sub_category": "Peace/Calm",
+    "meaning_hi": "????????? / ???? ?? (Tanaavmukt / Aaraam se)",
+    "pronunciation": "ri-LAKST"
+  },
+  {
+    "word": "Easygoing",
+    "category": "Positive Emotions",
+    "sub_category": "Peace/Calm"
+  },
+  {
+    "word": "Mellow",
+    "category": "Positive Emotions",
+    "sub_category": "Peace/Calm"
+  },
+  {
+    "word": "Chill",
+    "category": "Positive Emotions",
+    "sub_category": "Peace/Calm"
+  },
+  {
+    "word": "Untroubled",
+    "category": "Positive Emotions",
+    "sub_category": "Peace/Calm"
+  },
+  {
+    "word": "Undisturbed",
+    "category": "Positive Emotions",
+    "sub_category": "Peace/Calm"
+  },
+  {
+    "word": "Unruffled",
+    "category": "Positive Emotions",
+    "sub_category": "Peace/Calm"
+  },
+  {
+    "word": "Composed",
+    "category": "Positive Emotions",
+    "sub_category": "Peace/Calm"
+  },
+  {
+    "word": "Collected",
+    "category": "Positive Emotions",
+    "sub_category": "Peace/Calm"
+  },
+  {
+    "word": "Cool",
+    "category": "Positive Emotions",
+    "sub_category": "Peace/Calm"
+  },
+  {
+    "word": "Unflappable",
+    "category": "Positive Emotions",
+    "sub_category": "Peace/Calm"
+  },
+  {
+    "word": "Centered",
+    "category": "Positive Emotions",
+    "sub_category": "Peace/Calm"
+  },
+  {
+    "word": "Grounded",
+    "category": "Positive Emotions",
+    "sub_category": "Peace/Calm"
+  },
+  {
+    "word": "Balanced",
+    "category": "Positive Emotions",
+    "sub_category": "Peace/Calm"
+  },
+  {
+    "word": "Harmonious",
+    "category": "Positive Emotions",
+    "sub_category": "Peace/Calm"
+  },
+  {
+    "word": "Zen",
+    "category": "Positive Emotions",
+    "sub_category": "Peace/Calm"
+  },
+  {
+    "word": "Soothing",
+    "category": "Positive Emotions",
+    "sub_category": "Peace/Calm"
+  },
+  {
+    "word": "Comforting",
+    "category": "Positive Emotions",
+    "sub_category": "Peace/Calm"
+  },
+  {
+    "word": "Reassuring",
+    "category": "Positive Emotions",
+    "sub_category": "Peace/Calm"
+  },
+  {
+    "word": "Healing",
+    "category": "Positive Emotions",
+    "sub_category": "Peace/Calm"
+  },
+  {
+    "word": "Restorative",
+    "category": "Positive Emotions",
+    "sub_category": "Peace/Calm"
+  },
+  {
+    "word": "Refreshing",
+    "category": "Positive Emotions",
+    "sub_category": "Peace/Calm"
+  },
+  {
+    "word": "Renewing",
+    "category": "Positive Emotions",
+    "sub_category": "Peace/Calm"
+  },
+  {
+    "word": "Soothed",
+    "category": "Positive Emotions",
+    "sub_category": "Peace/Calm"
+  },
+  {
+    "word": "Comforted",
+    "category": "Positive Emotions",
+    "sub_category": "Peace/Calm"
+  },
+  {
+    "word": "Relieved",
+    "category": "Positive Emotions",
+    "sub_category": "Peace/Calm",
+    "meaning_hi": "???? ????? ???? (Raahat mahsoos karna)",
+    "pronunciation": "ri-LEEVD"
+  },
+  {
+    "word": "Alleviated",
+    "category": "Positive Emotions",
+    "sub_category": "Peace/Calm"
+  },
+  {
+    "word": "Eased",
+    "category": "Positive Emotions",
+    "sub_category": "Peace/Calm"
+  },
+  {
+    "word": "Assuaged",
+    "category": "Positive Emotions",
+    "sub_category": "Peace/Calm"
+  },
+  {
+    "word": "Contented",
+    "category": "Positive Emotions",
+    "sub_category": "Peace/Calm"
+  }
+]

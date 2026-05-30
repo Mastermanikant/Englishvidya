@@ -1,1 +1,147 @@
-﻿[{"word":"instant message","meaning":"A short text message sent and received in real time over the internet","example":"She sent an instant message to ask if he was free to talk.","category":"Messaging"},{"word":"direct message","meaning":"A private message sent to a specific individual on a platform","example":"Send me a direct message if you have any questions.","category":"Messaging"},{"word":"group chat","meaning":"A messaging conversation involving three or more participants","example":"The project team uses a group chat for quick daily updates.","category":"Messaging"},{"word":"emoji","meaning":"A small digital image or icon used to express emotion in text","example":"She added a thumbs-up emoji to show her agreement.","category":"Messaging"},{"word":"GIF","meaning":"A short, looping animated image used in digital communication","example":"He replied to the good news with a celebratory GIF.","category":"Messaging"},{"word":"sticker","meaning":"A larger, illustrated digital image used like an emoji in messaging apps","example":"The app offers custom sticker packs for expressive chats.","category":"Messaging"},{"word":"read receipt","meaning":"A notification indicating that the recipient has seen a message","example":"The blue ticks serve as read receipts in many messaging apps.","category":"Messaging"},{"word":"notification","meaning":"An alert informing a user of a new message or event","example":"He turned off notifications during the meeting to avoid distractions.","category":"Messaging"},{"word":"pin","meaning":"To highlight and fix an important message at the top of a chat","example":"The manager pinned the meeting agenda in the team chat.","category":"Messaging"},{"word":"mention","meaning":"Tagging a specific person in a message using @ to alert them","example":"Use @John in the chat to make sure he sees the update.","category":"Messaging"},{"word":"reaction","meaning":"An emoji-based response to a specific message without typing a reply","example":"He gave a heart reaction to show appreciation for the update.","category":"Messaging"},{"word":"thread","meaning":"A series of replies nested under a specific message in a chat","example":"Reply in the thread to keep the main channel uncluttered.","category":"Messaging"},{"word":"do not disturb","meaning":"A status setting that suppresses incoming message notifications","example":"She activated do not disturb during focused work hours.","category":"Messaging"},{"word":"chatbot","meaning":"An automated program that simulates conversation with users","example":"The chatbot answered basic customer queries instantly.","category":"Messaging"},{"word":"encrypted message","meaning":"A message that is encoded so only the intended recipient can read it","example":"The app sends encrypted messages to protect user privacy.","category":"Messaging"},{"word":"ping","meaning":"To send a brief message to get someone\u0027s attention quickly","example":"Ping me on Slack when the document is ready to review.","category":"Messaging"},{"word":"opt-in","meaning":"Choosing to receive messages or communications voluntarily","example":"Users must opt-in to receive marketing emails.","category":"Messaging"},{"word":"broadcast message","meaning":"A message sent to many recipients at once, typically one-way","example":"The company sent a broadcast message to announce the new policy.","category":"Messaging"},{"word":"channel","meaning":"A dedicated space in a messaging platform for a specific topic or team","example":"Post design-related updates in the #design channel.","category":"Messaging"},{"word":"profile picture","meaning":"An image representing a user on a digital platform or messaging app","example":"Use a professional profile picture for work-related platforms.","category":"Messaging"},{"word":"handle","meaning":"A username or identifier used on a digital platform","example":"Her Twitter handle is @sarahdesigns.","category":"Messaging"},{"word":"tagging","meaning":"Linking a person or topic in a post or message to draw attention","example":"She posted the update and tagged the relevant team members.","category":"Messaging"},{"word":"away message","meaning":"A status message informing others that a user is temporarily unavailable","example":"His away message said he would be back in an hour.","category":"Messaging"},{"word":"end-to-end encryption","meaning":"A security method ensuring only communicating users can read the messages","example":"The app uses end-to-end encryption to protect private conversations.","category":"Messaging"}]
+[
+  {
+    "word": "instant message",
+    "meaning": "A short text message sent and received in real time over the internet",
+    "example": "She sent an instant message to ask if he was free to talk.",
+    "category": "Messaging"
+  },
+  {
+    "word": "direct message",
+    "meaning": "A private message sent to a specific individual on a platform",
+    "example": "Send me a direct message if you have any questions.",
+    "category": "Messaging"
+  },
+  {
+    "word": "group chat",
+    "meaning": "A messaging conversation involving three or more participants",
+    "example": "The project team uses a group chat for quick daily updates.",
+    "category": "Messaging"
+  },
+  {
+    "word": "emoji",
+    "meaning": "A small digital image or icon used to express emotion in text",
+    "example": "She added a thumbs-up emoji to show her agreement.",
+    "category": "Messaging"
+  },
+  {
+    "word": "GIF",
+    "meaning": "A short, looping animated image used in digital communication",
+    "example": "He replied to the good news with a celebratory GIF.",
+    "category": "Messaging"
+  },
+  {
+    "word": "sticker",
+    "meaning": "A larger, illustrated digital image used like an emoji in messaging apps",
+    "example": "The app offers custom sticker packs for expressive chats.",
+    "category": "Messaging"
+  },
+  {
+    "word": "read receipt",
+    "meaning": "A notification indicating that the recipient has seen a message",
+    "example": "The blue ticks serve as read receipts in many messaging apps.",
+    "category": "Messaging"
+  },
+  {
+    "word": "notification",
+    "meaning": "An alert informing a user of a new message or event",
+    "example": "He turned off notifications during the meeting to avoid distractions.",
+    "category": "Messaging"
+  },
+  {
+    "word": "pin",
+    "meaning": "To highlight and fix an important message at the top of a chat",
+    "example": "The manager pinned the meeting agenda in the team chat.",
+    "category": "Messaging"
+  },
+  {
+    "word": "mention",
+    "meaning": "Tagging a specific person in a message using @ to alert them",
+    "example": "Use @John in the chat to make sure he sees the update.",
+    "category": "Messaging"
+  },
+  {
+    "word": "reaction",
+    "meaning": "An emoji-based response to a specific message without typing a reply",
+    "example": "He gave a heart reaction to show appreciation for the update.",
+    "category": "Messaging"
+  },
+  {
+    "word": "thread",
+    "meaning": "A series of replies nested under a specific message in a chat",
+    "example": "Reply in the thread to keep the main channel uncluttered.",
+    "category": "Messaging",
+    "meaning_hi": "????"
+  },
+  {
+    "word": "do not disturb",
+    "meaning": "A status setting that suppresses incoming message notifications",
+    "example": "She activated do not disturb during focused work hours.",
+    "category": "Messaging"
+  },
+  {
+    "word": "chatbot",
+    "meaning": "An automated program that simulates conversation with users",
+    "example": "The chatbot answered basic customer queries instantly.",
+    "category": "Messaging"
+  },
+  {
+    "word": "encrypted message",
+    "meaning": "A message that is encoded so only the intended recipient can read it",
+    "example": "The app sends encrypted messages to protect user privacy.",
+    "category": "Messaging"
+  },
+  {
+    "word": "ping",
+    "meaning": "To send a brief message to get someone's attention quickly",
+    "example": "Ping me on Slack when the document is ready to review.",
+    "category": "Messaging"
+  },
+  {
+    "word": "opt-in",
+    "meaning": "Choosing to receive messages or communications voluntarily",
+    "example": "Users must opt-in to receive marketing emails.",
+    "category": "Messaging"
+  },
+  {
+    "word": "broadcast message",
+    "meaning": "A message sent to many recipients at once, typically one-way",
+    "example": "The company sent a broadcast message to announce the new policy.",
+    "category": "Messaging"
+  },
+  {
+    "word": "channel",
+    "meaning": "A dedicated space in a messaging platform for a specific topic or team",
+    "example": "Post design-related updates in the #design channel.",
+    "category": "Messaging"
+  },
+  {
+    "word": "profile picture",
+    "meaning": "An image representing a user on a digital platform or messaging app",
+    "example": "Use a professional profile picture for work-related platforms.",
+    "category": "Messaging"
+  },
+  {
+    "word": "handle",
+    "meaning": "A username or identifier used on a digital platform",
+    "example": "Her Twitter handle is @sarahdesigns.",
+    "category": "Messaging"
+  },
+  {
+    "word": "tagging",
+    "meaning": "Linking a person or topic in a post or message to draw attention",
+    "example": "She posted the update and tagged the relevant team members.",
+    "category": "Messaging"
+  },
+  {
+    "word": "away message",
+    "meaning": "A status message informing others that a user is temporarily unavailable",
+    "example": "His away message said he would be back in an hour.",
+    "category": "Messaging"
+  },
+  {
+    "word": "end-to-end encryption",
+    "meaning": "A security method ensuring only communicating users can read the messages",
+    "example": "The app uses end-to-end encryption to protect private conversations.",
+    "category": "Messaging"
+  }
+]

@@ -1,1 +1,210 @@
-﻿[{"word":"Water","category":"Essentials"},{"word":"Electricity","category":"Essentials"},{"word":"Gas cylinder","category":"Essentials"},{"word":"Batteries","category":"Essentials"},{"word":"Light bulb","category":"Essentials"},{"word":"Umbrella","category":"Essentials"},{"word":"Raincoat","category":"Essentials"},{"word":"Flashlight","category":"Essentials"},{"word":"Padlock","category":"Essentials"},{"word":"Key","category":"Essentials"},{"word":"Wallet","category":"Essentials"},{"word":"Purse","category":"Essentials"},{"word":"Shopping bag","category":"Essentials"},{"word":"Backpack","category":"Essentials"},{"word":"Shoes","category":"Essentials"},{"word":"Slippers","category":"Essentials"},{"word":"Socks","category":"Essentials"},{"word":"Clothes","category":"Essentials"},{"word":"Iron","category":"Essentials"},{"word":"Ironing board","category":"Essentials"},{"word":"Clothes hanger","category":"Essentials"},{"word":"Safety pins","category":"Essentials"},{"word":"Needle","category":"Essentials"},{"word":"Thread","category":"Essentials"},{"word":"Scissors","category":"Essentials"},{"word":"Adhesive tape","category":"Essentials"},{"word":"Glue","category":"Essentials"},{"word":"Pen","category":"Essentials"},{"word":"Pencil","category":"Essentials"},{"word":"Notebook","category":"Essentials"},{"word":"Newspaper","category":"Essentials"},{"word":"Medicine","category":"Essentials"},{"word":"Bandage","category":"Essentials"},{"word":"Antiseptic liquid","category":"Essentials"},{"word":"Painkiller","category":"Essentials"},{"word":"Ointment","category":"Essentials"},{"word":"Thermometer","category":"Essentials"},{"word":"Face mask","category":"Essentials"},{"word":"Spectacles","category":"Essentials"},{"word":"Watch","category":"Essentials"},{"word":"Mobile phone","category":"Essentials"},{"word":"Charger","category":"Essentials"},{"word":"Earphones","category":"Essentials"},{"word":"Power bank","category":"Essentials"},{"word":"Laptop","category":"Essentials"}]
+[
+  {
+    "word": "Water",
+    "category": "Essentials",
+    "meaning_hi": "????",
+    "pronunciation": "???? (waa-ter)"
+  },
+  {
+    "word": "Electricity",
+    "category": "Essentials"
+  },
+  {
+    "word": "Gas cylinder",
+    "category": "Essentials"
+  },
+  {
+    "word": "Batteries",
+    "category": "Essentials"
+  },
+  {
+    "word": "Light bulb",
+    "category": "Essentials"
+  },
+  {
+    "word": "Umbrella",
+    "category": "Essentials",
+    "meaning_hi": "????"
+  },
+  {
+    "word": "Raincoat",
+    "category": "Essentials"
+  },
+  {
+    "word": "Flashlight",
+    "category": "Essentials",
+    "meaning_hi": "?????"
+  },
+  {
+    "word": "Padlock",
+    "category": "Essentials"
+  },
+  {
+    "word": "Key",
+    "category": "Essentials",
+    "meaning_hi": "????",
+    "pronunciation": "?? (kee)"
+  },
+  {
+    "word": "Wallet",
+    "category": "Essentials",
+    "meaning_hi": "???? (??????? ??)"
+  },
+  {
+    "word": "Purse",
+    "category": "Essentials",
+    "meaning_hi": "???? / ????"
+  },
+  {
+    "word": "Shopping bag",
+    "category": "Essentials"
+  },
+  {
+    "word": "Backpack",
+    "category": "Essentials",
+    "meaning_hi": "?????? / ??? ?? ????"
+  },
+  {
+    "word": "Shoes",
+    "category": "Essentials",
+    "meaning_hi": "????",
+    "pronunciation": "???? (shooz)"
+  },
+  {
+    "word": "Slippers",
+    "category": "Essentials"
+  },
+  {
+    "word": "Socks",
+    "category": "Essentials"
+  },
+  {
+    "word": "Clothes",
+    "category": "Essentials",
+    "meaning_hi": "?????",
+    "pronunciation": "??????? (klo-thz)"
+  },
+  {
+    "word": "Iron",
+    "category": "Essentials",
+    "meaning_hi": "???????"
+  },
+  {
+    "word": "Ironing board",
+    "category": "Essentials",
+    "meaning_hi": "??????? ???? ?? ?????"
+  },
+  {
+    "word": "Clothes hanger",
+    "category": "Essentials"
+  },
+  {
+    "word": "Safety pins",
+    "category": "Essentials"
+  },
+  {
+    "word": "Needle",
+    "category": "Essentials",
+    "meaning_hi": "???"
+  },
+  {
+    "word": "Thread",
+    "category": "Essentials",
+    "meaning_hi": "????"
+  },
+  {
+    "word": "Scissors",
+    "category": "Essentials",
+    "meaning_hi": "?????"
+  },
+  {
+    "word": "Adhesive tape",
+    "category": "Essentials"
+  },
+  {
+    "word": "Glue",
+    "category": "Essentials"
+  },
+  {
+    "word": "Pen",
+    "category": "Essentials",
+    "meaning_hi": "???",
+    "pronunciation": "??? (pen)"
+  },
+  {
+    "word": "Pencil",
+    "category": "Essentials"
+  },
+  {
+    "word": "Notebook",
+    "category": "Essentials",
+    "meaning_hi": "????/??????"
+  },
+  {
+    "word": "Newspaper",
+    "category": "Essentials"
+  },
+  {
+    "word": "Medicine",
+    "category": "Essentials",
+    "meaning_hi": "???",
+    "pronunciation": "/?meds?n/"
+  },
+  {
+    "word": "Bandage",
+    "category": "Essentials"
+  },
+  {
+    "word": "Antiseptic liquid",
+    "category": "Essentials"
+  },
+  {
+    "word": "Painkiller",
+    "category": "Essentials"
+  },
+  {
+    "word": "Ointment",
+    "category": "Essentials"
+  },
+  {
+    "word": "Thermometer",
+    "category": "Essentials"
+  },
+  {
+    "word": "Face mask",
+    "category": "Essentials"
+  },
+  {
+    "word": "Spectacles",
+    "category": "Essentials",
+    "meaning_hi": "?????"
+  },
+  {
+    "word": "Watch",
+    "category": "Essentials",
+    "meaning_hi": "?????",
+    "pronunciation": "??? (Watch)"
+  },
+  {
+    "word": "Mobile phone",
+    "category": "Essentials"
+  },
+  {
+    "word": "Charger",
+    "category": "Essentials",
+    "meaning_hi": "??????"
+  },
+  {
+    "word": "Earphones",
+    "category": "Essentials",
+    "meaning_hi": "???????"
+  },
+  {
+    "word": "Power bank",
+    "category": "Essentials"
+  },
+  {
+    "word": "Laptop",
+    "category": "Essentials"
+  }
+]

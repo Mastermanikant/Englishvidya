@@ -1,52 +1,57 @@
-﻿[
-    {
-        "word":  "front",
-        "hindi_meaning":  "à¤¸à¤¾à¤®à¤¨à¥‡",
-        "pronunciation_help":  "à¤«à¥à¤°à¤‚à¤Ÿ (Front)",
-        "word_type":  "Noun / Adjective",
-        "simple_explanation":  "The forward part or surface of something.",
-        "daily_life_use":  "Indicating position.",
-        "spoken_use":  "In front of the house.",
-        "natural_native_use":  "The front door.",
-        "emotional_tone":  "Neutral",
-        "common_collocations":  [
-                                    "in front of",
-                                    "front door",
-                                    "up front"
-                                ],
-        "examples":  [
-                         "Park the car in front.",
-                         "My shirt has a front pocket."
-                     ],
-        "common_mistakes":  "Saying \u0027in the front of\u0027 when \u0027in front of\u0027 is correct.",
-        "hindi_confusion_correction":  "Hindi \u0027saamne\u0027 is in front.",
-        "formal_informal_note":  "Standard vocabulary.",
-        "image_url":  "https://commons.wikimedia.org/wiki/Special:FilePath/Front.jpg",
-        "category":  "Noun / Adjective"
-    },
-    {
-        "word":  "Future",
-        "hindi_meaning":  "à¤­à¤µà¤¿à¤·à¥à¤¯",
-        "pronunciation_help":  "à¤«à¤¼à¥à¤¯à¥‚à¤šà¤°",
-        "word_type":  "Noun / Adjective",
-        "simple_explanation":  "The time that will come after the present.",
-        "daily_life_use":  "Planning, hopes, predictions.",
-        "spoken_use":  "I want to be a doctor in the future.",
-        "natural_native_use":  "Looking to the future.",
-        "emotional_tone":  "Hopeful, uncertain.",
-        "common_collocations":  [
-                                    "in the future",
-                                    "near future",
-                                    "bright future"
-                                ],
-        "examples":  [
-                         "Nobody knows what the future holds.",
-                         "She is planning for her future."
-                     ],
-        "common_mistakes":  "Saying \u0027in future\u0027 without \u0027the\u0027.",
-        "hindi_confusion_correction":  "Usually say \u0027in the future\u0027 in American English.",
-        "formal_informal_note":  "Universal.",
-        "image_url":  "https://upload.wikimedia.org/wikipedia/commons/4/4b/Road_to_future.jpg",
-        "category":  "Noun / Adjective"
-    }
+[
+  {
+    "word": "front",
+    "hindi_meaning": "सामने",
+    "pronunciation_help": "फ्रंट (Front)",
+    "word_type": "Noun / Adjective",
+    "simple_explanation": "The forward part or surface of something.",
+    "daily_life_use": "Indicating position.",
+    "spoken_use": "In front of the house.",
+    "natural_native_use": "The front door.",
+    "emotional_tone": "Neutral",
+    "common_collocations": [
+      "in front of",
+      "front door",
+      "up front"
+    ],
+    "examples": [
+      "Park the car in front.",
+      "My shirt has a front pocket."
+    ],
+    "common_mistakes": "Saying 'in the front of' when 'in front of' is correct.",
+    "hindi_confusion_correction": "Hindi 'saamne' is in front.",
+    "formal_informal_note": "Standard vocabulary.",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Front.jpg",
+    "category": "Noun / Adjective",
+    "meaning_hi": "",
+    "pronunciation": "????? (Front)"
+  },
+  {
+    "word": "Future",
+    "hindi_meaning": "भविष्य",
+    "pronunciation_help": "फ़्यूचर",
+    "word_type": "Noun / Adjective",
+    "simple_explanation": "The time that will come after the present.",
+    "daily_life_use": "Planning, hopes, predictions.",
+    "spoken_use": "I want to be a doctor in the future.",
+    "natural_native_use": "Looking to the future.",
+    "emotional_tone": "Hopeful, uncertain.",
+    "common_collocations": [
+      "in the future",
+      "near future",
+      "bright future"
+    ],
+    "examples": [
+      "Nobody knows what the future holds.",
+      "She is planning for her future."
+    ],
+    "common_mistakes": "Saying 'in future' without 'the'.",
+    "hindi_confusion_correction": "Usually say 'in the future' in American English.",
+    "formal_informal_note": "Universal.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Road_to_future.jpg",
+    "category": "Noun / Adjective",
+    "meaning_hi": "भविष्य",
+    "pronunciation": "???????",
+    "pronunciation_hi": "फ़्य�\u001a�aर"
+  }
 ]

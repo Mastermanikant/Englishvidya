@@ -1,52 +1,56 @@
-﻿[
-    {
-        "word":  "sorry",
-        "hindi_meaning":  "à¤®à¤¾à¤«à¤¼ à¤•à¤°à¤¨à¤¾ (maaf karna)",
-        "pronunciation_help":  "à¤¸à¥‰à¤°à¥€ (saw-ree)",
-        "word_type":  "Adjective/Interjection",
-        "simple_explanation":  "Used to apologize or express regret.",
-        "daily_life_use":  "Apologizing for a mistake or interrupting someone.",
-        "spoken_use":  "I\u0027m sorry about that.",
-        "natural_native_use":  "My bad. / So sorry!",
-        "emotional_tone":  "Apologetic, regretful",
-        "common_collocations":  [
-                                    "so sorry",
-                                    "say sorry",
-                                    "feel sorry"
-                                ],
-        "examples":  [
-                         "I\u0027m sorry I\u0027m late.",
-                         "Sorry to bother you."
-                     ],
-        "common_mistakes":  "Using \u0027excuse me\u0027 when you did something wrong. \u0027Sorry\u0027 is for mistakes, \u0027excuse me\u0027 is to get attention.",
-        "hindi_confusion_correction":  "\u0027à¤®à¤¾à¤«à¤¼ à¤•à¤°à¤¨à¤¾\u0027 covers both. In English, use \u0027sorry\u0027 when you are at fault.",
-        "formal_informal_note":  "Universal. \u0027My apologies\u0027 is more formal.",
-        "image_url":  "https://commons.wikimedia.org/wiki/Special:FilePath/Sad_face_icon.svg",
-        "category":  "Adjective/Interjection"
-    },
-    {
-        "word":  "welcome",
-        "hindi_meaning":  "à¤¸à¥à¤µà¤¾à¤—à¤¤ à¤¹à¥ˆ (swagat hai)",
-        "pronunciation_help":  "à¤µà¥‡à¤²à¤•à¤® (wel-kum)",
-        "word_type":  "Adjective/Interjection",
-        "simple_explanation":  "Used to greet someone arriving or as a polite response to \u0027thank you\u0027.",
-        "daily_life_use":  "Greeting guests or replying to gratitude.",
-        "spoken_use":  "You\u0027re welcome.",
-        "natural_native_use":  "No problem! / Anytime!",
-        "emotional_tone":  "Warm, polite",
-        "common_collocations":  [
-                                    "you\u0027re welcome",
-                                    "welcome to",
-                                    "warm welcome"
-                                ],
-        "examples":  [
-                         "Welcome to our home.",
-                         "Thanks for the help. - You\u0027re welcome."
-                     ],
-        "common_mistakes":  "Saying \u0027welcome\u0027 when handing something to someone (use \u0027here you go\u0027 instead).",
-        "hindi_confusion_correction":  "In Hindi \u0027à¤¸à¥à¤µà¤¾à¤—à¤¤\u0027 is only for receiving guests. In English \u0027welcome\u0027 is also the reply to \u0027thank you\u0027.",
-        "formal_informal_note":  "Neutral. \u0027No worries\u0027 is informal.",
-        "image_url":  "https://commons.wikimedia.org/wiki/Special:FilePath/Welcome_mat_icon.svg",
-        "category":  "Adjective/Interjection"
-    }
+[
+  {
+    "word": "sorry",
+    "hindi_meaning": "माफ़ करना (maaf karna)",
+    "pronunciation_help": "सॉरी (saw-ree)",
+    "word_type": "Adjective/Interjection",
+    "simple_explanation": "Used to apologize or express regret.",
+    "daily_life_use": "Apologizing for a mistake or interrupting someone.",
+    "spoken_use": "I'm sorry about that.",
+    "natural_native_use": "My bad. / So sorry!",
+    "emotional_tone": "Apologetic, regretful",
+    "common_collocations": [
+      "so sorry",
+      "say sorry",
+      "feel sorry"
+    ],
+    "examples": [
+      "I'm sorry I'm late.",
+      "Sorry to bother you."
+    ],
+    "common_mistakes": "Using 'excuse me' when you did something wrong. 'Sorry' is for mistakes, 'excuse me' is to get attention.",
+    "hindi_confusion_correction": "'माफ़ करना' covers both. In English, use 'sorry' when you are at fault.",
+    "formal_informal_note": "Universal. 'My apologies' is more formal.",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sad_face_icon.svg",
+    "category": "Adjective/Interjection",
+    "meaning_hi": "???? ????",
+    "pronunciation": "??-?? (So-ree)"
+  },
+  {
+    "word": "welcome",
+    "hindi_meaning": "स्वागत है (swagat hai)",
+    "pronunciation_help": "वेलकम (wel-kum)",
+    "word_type": "Adjective/Interjection",
+    "simple_explanation": "Used to greet someone arriving or as a polite response to 'thank you'.",
+    "daily_life_use": "Greeting guests or replying to gratitude.",
+    "spoken_use": "You're welcome.",
+    "natural_native_use": "No problem! / Anytime!",
+    "emotional_tone": "Warm, polite",
+    "common_collocations": [
+      "you're welcome",
+      "welcome to",
+      "warm welcome"
+    ],
+    "examples": [
+      "Welcome to our home.",
+      "Thanks for the help. - You're welcome."
+    ],
+    "common_mistakes": "Saying 'welcome' when handing something to someone (use 'here you go' instead).",
+    "hindi_confusion_correction": "In Hindi 'स्वागत' is only for receiving guests. In English 'welcome' is also the reply to 'thank you'.",
+    "formal_informal_note": "Neutral. 'No worries' is informal.",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Welcome_mat_icon.svg",
+    "category": "Adjective/Interjection",
+    "meaning_hi": "",
+    "pronunciation": "???-?? (Wel-come)"
+  }
 ]

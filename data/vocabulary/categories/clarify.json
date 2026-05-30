@@ -1,1 +1,304 @@
-﻿[{"word":"admittedly","category":"clarify","definition":"Used to introduce a concession or statement."},{"word":"altogether","category":"clarify","definition":"Completely; totally."},{"word":"apparently","category":"clarify","definition":"As far as one knows or can see."},{"word":"ascertain","category":"clarify","definition":"Find something out for certain; make sure of."},{"word":"basically","category":"clarify","definition":"In the most fundamental respects; fundamentally."},{"word":"clarify","category":"clarify","definition":"Make a statement or situation less confused and more comprehensible."},{"word":"clearly","category":"clarify","definition":"In such a way as to allow easy and accurate perception or interpretation."},{"word":"consequently","category":"clarify","definition":"As a result."},{"word":"convey","category":"clarify","definition":"Make an idea, impression, or feeling known or understandable to someone."},{"word":"deduce","category":"clarify","definition":"Arrive at a fact or a conclusion by reasoning."},{"word":"demonstrate","category":"clarify","definition":"Clearly show the existence or truth of something by giving proof or evidence."},{"word":"denote","category":"clarify","definition":"Be a sign of; indicate."},{"word":"direct","category":"clarify","definition":"Extending or moving from one place to another without changing direction."},{"word":"discern","category":"clarify","definition":"Perceive or recognize something."},{"word":"distinctly","category":"clarify","definition":"In a way that is readily distinguishable by the senses; clearly."},{"word":"effectively","category":"clarify","definition":"In such a manner as to achieve a desired result."},{"word":"elaborate","category":"clarify","definition":"Develop or present a theory, policy, or system in detail."},{"word":"entirely","category":"clarify","definition":"Completely; solely."},{"word":"equate","category":"clarify","definition":"Consider one thing to be the same as or equivalent to another."},{"word":"essentially","category":"clarify","definition":"Used to emphasize the basic, fundamental, or intrinsic nature of a person, thing, or situation."},{"word":"evidently","category":"clarify","definition":"Plainly or obviously; in a way that is clearly seen or understood."},{"word":"exactly","category":"clarify","definition":"Without discrepancy; used to emphasize the accuracy or truth of a statement."},{"word":"explicitly","category":"clarify","definition":"In a clear and detailed manner, leaving no room for confusion or doubt."},{"word":"express","category":"clarify","definition":"Convey a thought or feeling in words or by gestures and conduct."},{"word":"factually","category":"clarify","definition":"In a way that is concerned with what is actually the case rather than interpretations of or reactions to it."},{"word":"fundamentally","category":"clarify","definition":"In central or primary respects."},{"word":"highlight","category":"clarify","definition":"Draw special attention to."},{"word":"illuminate","category":"clarify","definition":"Help to clarify or explain a subject or matter."},{"word":"illustrate","category":"clarify","definition":"Explain or make something clear by using examples, charts, pictures, etc."},{"word":"impart","category":"clarify","definition":"Make information known; communicate."},{"word":"implicitly","category":"clarify","definition":"In a way that is not directly expressed; tacitly."},{"word":"inherently","category":"clarify","definition":"In a permanent, essential, or characteristic way."},{"word":"initially","category":"clarify","definition":"At first."},{"word":"interpret","category":"clarify","definition":"Explain the meaning of information, words, or actions."},{"word":"justify","category":"clarify","definition":"Show or prove to be right or reasonable."},{"word":"literally","category":"clarify","definition":"In a literal manner or sense; exactly."},{"word":"logically","category":"clarify","definition":"According to the rules of logic or formal argument."},{"word":"manifest","category":"clarify","definition":"Clear or obvious to the eye or mind."},{"word":"merely","category":"clarify","definition":"Just; only."},{"word":"necessarily","category":"clarify","definition":"As a necessary result; inevitably."},{"word":"notably","category":"clarify","definition":"Especially; in particular."},{"word":"objectively","category":"clarify","definition":"In a way that is not influenced by personal feelings or opinions."},{"word":"obviously","category":"clarify","definition":"In a way that is easily perceived or understood; clearly."},{"word":"outline","category":"clarify","definition":"Give a summary of."},{"word":"particularly","category":"clarify","definition":"To a higher degree than is usual or average."},{"word":"perceive","category":"clarify","definition":"Become aware or conscious of something; come to realize or understand."},{"word":"plainly","category":"clarify","definition":"Able to be perceived easily."},{"word":"practically","category":"clarify","definition":"Virtually; almost."},{"word":"precisely","category":"clarify","definition":"In exact terms; without vagueness."},{"word":"predominantly","category":"clarify","definition":"Mainly; for the most part."},{"word":"primarily","category":"clarify","definition":"For the most part; mainly."},{"word":"purely","category":"clarify","definition":"Exclusively; solely."},{"word":"rationally","category":"clarify","definition":"In a logical or reasonable manner."},{"word":"recognize","category":"clarify","definition":"Identify someone or something from having encountered them before; know again."},{"word":"signify","category":"clarify","definition":"Be an indication of."},{"word":"specifically","category":"clarify","definition":"In a way that is exact and clear; precisely."},{"word":"strictly","category":"clarify","definition":"In a way that involves rigid enforcement or that demands obedience."},{"word":"technically","category":"clarify","definition":"According to the facts or exact meaning of something; strictly."},{"word":"typically","category":"clarify","definition":"In most cases; usually."}]
+[
+  {
+    "word": "admittedly",
+    "category": "clarify",
+    "definition": "Used to introduce a concession or statement."
+  },
+  {
+    "word": "altogether",
+    "category": "clarify",
+    "definition": "Completely; totally."
+  },
+  {
+    "word": "apparently",
+    "category": "clarify",
+    "definition": "As far as one knows or can see."
+  },
+  {
+    "word": "ascertain",
+    "category": "clarify",
+    "definition": "Find something out for certain; make sure of."
+  },
+  {
+    "word": "basically",
+    "category": "clarify",
+    "definition": "In the most fundamental respects; fundamentally.",
+    "meaning_hi": "??? ??? ?? / ??? ?????? (mool roop se / kul milakar)",
+    "pronunciation": "??????? (bay-sik-lee)"
+  },
+  {
+    "word": "clarify",
+    "category": "clarify",
+    "definition": "Make a statement or situation less confused and more comprehensible."
+  },
+  {
+    "word": "clearly",
+    "category": "clarify",
+    "definition": "In such a way as to allow easy and accurate perception or interpretation."
+  },
+  {
+    "word": "consequently",
+    "category": "clarify",
+    "definition": "As a result."
+  },
+  {
+    "word": "convey",
+    "category": "clarify",
+    "definition": "Make an idea, impression, or feeling known or understandable to someone."
+  },
+  {
+    "word": "deduce",
+    "category": "clarify",
+    "definition": "Arrive at a fact or a conclusion by reasoning."
+  },
+  {
+    "word": "demonstrate",
+    "category": "clarify",
+    "definition": "Clearly show the existence or truth of something by giving proof or evidence."
+  },
+  {
+    "word": "denote",
+    "category": "clarify",
+    "definition": "Be a sign of; indicate."
+  },
+  {
+    "word": "direct",
+    "category": "clarify",
+    "definition": "Extending or moving from one place to another without changing direction."
+  },
+  {
+    "word": "discern",
+    "category": "clarify",
+    "definition": "Perceive or recognize something."
+  },
+  {
+    "word": "distinctly",
+    "category": "clarify",
+    "definition": "In a way that is readily distinguishable by the senses; clearly."
+  },
+  {
+    "word": "effectively",
+    "category": "clarify",
+    "definition": "In such a manner as to achieve a desired result."
+  },
+  {
+    "word": "elaborate",
+    "category": "clarify",
+    "definition": "Develop or present a theory, policy, or system in detail."
+  },
+  {
+    "word": "entirely",
+    "category": "clarify",
+    "definition": "Completely; solely."
+  },
+  {
+    "word": "equate",
+    "category": "clarify",
+    "definition": "Consider one thing to be the same as or equivalent to another."
+  },
+  {
+    "word": "essentially",
+    "category": "clarify",
+    "definition": "Used to emphasize the basic, fundamental, or intrinsic nature of a person, thing, or situation."
+  },
+  {
+    "word": "evidently",
+    "category": "clarify",
+    "definition": "Plainly or obviously; in a way that is clearly seen or understood."
+  },
+  {
+    "word": "exactly",
+    "category": "clarify",
+    "definition": "Without discrepancy; used to emphasize the accuracy or truth of a statement.",
+    "meaning_hi": "??????? / ???? (bilkul / sateek)",
+    "pronunciation": "??????????? (ig-zact-lee)"
+  },
+  {
+    "word": "explicitly",
+    "category": "clarify",
+    "definition": "In a clear and detailed manner, leaving no room for confusion or doubt."
+  },
+  {
+    "word": "express",
+    "category": "clarify",
+    "definition": "Convey a thought or feeling in words or by gestures and conduct."
+  },
+  {
+    "word": "factually",
+    "category": "clarify",
+    "definition": "In a way that is concerned with what is actually the case rather than interpretations of or reactions to it."
+  },
+  {
+    "word": "fundamentally",
+    "category": "clarify",
+    "definition": "In central or primary respects."
+  },
+  {
+    "word": "highlight",
+    "category": "clarify",
+    "definition": "Draw special attention to."
+  },
+  {
+    "word": "illuminate",
+    "category": "clarify",
+    "definition": "Help to clarify or explain a subject or matter."
+  },
+  {
+    "word": "illustrate",
+    "category": "clarify",
+    "definition": "Explain or make something clear by using examples, charts, pictures, etc."
+  },
+  {
+    "word": "impart",
+    "category": "clarify",
+    "definition": "Make information known; communicate."
+  },
+  {
+    "word": "implicitly",
+    "category": "clarify",
+    "definition": "In a way that is not directly expressed; tacitly."
+  },
+  {
+    "word": "inherently",
+    "category": "clarify",
+    "definition": "In a permanent, essential, or characteristic way."
+  },
+  {
+    "word": "initially",
+    "category": "clarify",
+    "definition": "At first."
+  },
+  {
+    "word": "interpret",
+    "category": "clarify",
+    "definition": "Explain the meaning of information, words, or actions."
+  },
+  {
+    "word": "justify",
+    "category": "clarify",
+    "definition": "Show or prove to be right or reasonable."
+  },
+  {
+    "word": "literally",
+    "category": "clarify",
+    "definition": "In a literal manner or sense; exactly."
+  },
+  {
+    "word": "logically",
+    "category": "clarify",
+    "definition": "According to the rules of logic or formal argument."
+  },
+  {
+    "word": "manifest",
+    "category": "clarify",
+    "definition": "Clear or obvious to the eye or mind."
+  },
+  {
+    "word": "merely",
+    "category": "clarify",
+    "definition": "Just; only."
+  },
+  {
+    "word": "necessarily",
+    "category": "clarify",
+    "definition": "As a necessary result; inevitably."
+  },
+  {
+    "word": "notably",
+    "category": "clarify",
+    "definition": "Especially; in particular."
+  },
+  {
+    "word": "objectively",
+    "category": "clarify",
+    "definition": "In a way that is not influenced by personal feelings or opinions."
+  },
+  {
+    "word": "obviously",
+    "category": "clarify",
+    "definition": "In a way that is easily perceived or understood; clearly.",
+    "meaning_hi": "?????? ?? / ?????? ??? ?? (zaahir hai / spasht roop se)",
+    "pronunciation": "????????? (ob-vee-us-lee)"
+  },
+  {
+    "word": "outline",
+    "category": "clarify",
+    "definition": "Give a summary of.",
+    "meaning_hi": "???????"
+  },
+  {
+    "word": "particularly",
+    "category": "clarify",
+    "definition": "To a higher degree than is usual or average."
+  },
+  {
+    "word": "perceive",
+    "category": "clarify",
+    "definition": "Become aware or conscious of something; come to realize or understand."
+  },
+  {
+    "word": "plainly",
+    "category": "clarify",
+    "definition": "Able to be perceived easily."
+  },
+  {
+    "word": "practically",
+    "category": "clarify",
+    "definition": "Virtually; almost."
+  },
+  {
+    "word": "precisely",
+    "category": "clarify",
+    "definition": "In exact terms; without vagueness."
+  },
+  {
+    "word": "predominantly",
+    "category": "clarify",
+    "definition": "Mainly; for the most part."
+  },
+  {
+    "word": "primarily",
+    "category": "clarify",
+    "definition": "For the most part; mainly."
+  },
+  {
+    "word": "purely",
+    "category": "clarify",
+    "definition": "Exclusively; solely."
+  },
+  {
+    "word": "rationally",
+    "category": "clarify",
+    "definition": "In a logical or reasonable manner."
+  },
+  {
+    "word": "recognize",
+    "category": "clarify",
+    "definition": "Identify someone or something from having encountered them before; know again."
+  },
+  {
+    "word": "signify",
+    "category": "clarify",
+    "definition": "Be an indication of."
+  },
+  {
+    "word": "specifically",
+    "category": "clarify",
+    "definition": "In a way that is exact and clear; precisely."
+  },
+  {
+    "word": "strictly",
+    "category": "clarify",
+    "definition": "In a way that involves rigid enforcement or that demands obedience."
+  },
+  {
+    "word": "technically",
+    "category": "clarify",
+    "definition": "According to the facts or exact meaning of something; strictly."
+  },
+  {
+    "word": "typically",
+    "category": "clarify",
+    "definition": "In most cases; usually."
+  }
+]

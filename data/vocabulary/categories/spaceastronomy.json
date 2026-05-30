@@ -1,177 +1,179 @@
-﻿[
-    {
-        "word":  "Astronomy",
-        "category":  "Space/Astronomy",
-        "definition":  "The branch of science which deals with celestial objects, space, and the physical universe as a whole."
-    },
-    {
-        "word":  "Astrophysics",
-        "category":  "Space/Astronomy",
-        "definition":  "The branch of astronomy concerned with the physical nature of stars and other celestial bodies."
-    },
-    {
-        "word":  "Universe",
-        "category":  "Space/Astronomy",
-        "definition":  "All existing matter and space considered as a whole; the cosmos."
-    },
-    {
-        "word":  "Galaxy",
-        "category":  "Space/Astronomy",
-        "definition":  "A system of millions or billions of stars, together with gas and dust, held together by gravitational attraction."
-    },
-    {
-        "word":  "Solar System",
-        "category":  "Space/Astronomy",
-        "definition":  "The collection of eight planets and their moons in orbit round the sun, together with smaller bodies in the form of asteroids, meteoroids, and comets."
-    },
-    {
-        "word":  "Star",
-        "category":  "Space/Astronomy",
-        "definition":  "A fixed luminous point in the night sky which is a large, remote incandescent body like the sun."
-    },
-    {
-        "word":  "Planet",
-        "category":  "Space/Astronomy",
-        "definition":  "A celestial body moving in an elliptical orbit round a star."
-    },
-    {
-        "word":  "Asteroid",
-        "category":  "Space/Astronomy",
-        "definition":  "A small rocky body orbiting the sun."
-    },
-    {
-        "word":  "Comet",
-        "category":  "Space/Astronomy",
-        "definition":  "A celestial object consisting of a nucleus of ice and dust and, when near the sun, a \u0027tail\u0027 of gas and dust particles pointing away from the sun."
-    },
-    {
-        "word":  "Meteor",
-        "category":  "Space/Astronomy",
-        "definition":  "A small body of matter from outer space that enters the earth\u0027s atmosphere, becoming incandescent as a result of friction and appearing as a streak of light."
-    },
-    {
-        "word":  "Meteorite",
-        "category":  "Space/Astronomy",
-        "definition":  "A meteor that survives its passage through the earth\u0027s atmosphere such that part of it strikes the ground."
-    },
-    {
-        "word":  "Orbit",
-        "category":  "Space/Astronomy",
-        "definition":  "The regularly repeated elliptical course of a celestial object or spacecraft about a star or planet."
-    },
-    {
-        "word":  "Eclipse",
-        "category":  "Space/Astronomy",
-        "definition":  "An obscuring of the light from one celestial body by the passage of another between it and the observer or between it and its source of illumination."
-    },
-    {
-        "word":  "Nebula",
-        "category":  "Space/Astronomy",
-        "definition":  "A cloud of gas and dust in outer space, visible in the night sky either as an indistinct bright patch or as a dark silhouette against other luminous matter."
-    },
-    {
-        "word":  "Supernova",
-        "category":  "Space/Astronomy",
-        "definition":  "A star that suddenly increases greatly in brightness because of a catastrophic explosion that ejects most of its mass."
-    },
-    {
-        "word":  "Black Hole",
-        "category":  "Space/Astronomy",
-        "definition":  "A region of space having a gravitational field so intense that no matter or radiation can escape."
-    },
-    {
-        "word":  "Quasar",
-        "category":  "Space/Astronomy",
-        "definition":  "A massive and extremely remote celestial object, emitting exceptionally large amounts of energy, and typically having a starlike image in a telescope."
-    },
-    {
-        "word":  "Pulsar",
-        "category":  "Space/Astronomy",
-        "definition":  "A celestial object, thought to be a rapidly rotating neutron star, that emits regular pulses of radio waves and other electromagnetic radiation at rates of up to one thousand pulses per second."
-    },
-    {
-        "word":  "Exoplanet",
-        "category":  "Space/Astronomy",
-        "definition":  "A planet which orbits a star outside the solar system."
-    },
-    {
-        "word":  "Light-year",
-        "category":  "Space/Astronomy",
-        "definition":  "A unit of astronomical distance equivalent to the distance that light travels in one year, which is 9.4607 Ã— 10^12 km."
-    },
-    {
-        "word":  "Parsec",
-        "category":  "Space/Astronomy",
-        "definition":  "A unit of distance used in astronomy, equal to about 3.26 light years."
-    },
-    {
-        "word":  "Redshift",
-        "category":  "Space/Astronomy",
-        "definition":  "The displacement of spectral lines towards longer wavelengths in radiation from distant galaxies and celestial objects."
-    },
-    {
-        "word":  "Blueshift",
-        "category":  "Space/Astronomy",
-        "definition":  "The displacement of the spectrum to shorter wavelengths in the light coming from distant celestial objects moving toward the observer."
-    },
-    {
-        "word":  "Dark Matter",
-        "category":  "Space/Astronomy",
-        "definition":  "Nonluminous material that is postulated to exist in space and that could take any of several forms including weakly interacting particles or high-energy randomly moving particles created soon after the Big Bang."
-    },
-    {
-        "word":  "Dark Energy",
-        "category":  "Space/Astronomy",
-        "definition":  "A theoretical repulsive force that counteracts gravity and causes the universe to expand at an accelerating rate."
-    },
-    {
-        "word":  "Big Bang",
-        "category":  "Space/Astronomy",
-        "definition":  "The rapid expansion of matter from a state of extremely high density and temperature which according to current cosmological theories marked the origin of the universe."
-    },
-    {
-        "word":  "Singularity",
-        "category":  "Space/Astronomy",
-        "definition":  "A point at which a function takes an infinite value, especially in space-time when matter is infinitely dense, as at the center of a black hole."
-    },
-    {
-        "word":  "Constellation",
-        "category":  "Space/Astronomy",
-        "definition":  "A group of stars forming a recognizable pattern that is traditionally named after its apparent form or identified with a mythological figure."
-    },
-    {
-        "word":  "Telescope",
-        "category":  "Space/Astronomy",
-        "definition":  "An optical instrument designed to make distant objects appear nearer."
-    },
-    {
-        "word":  "Satellite",
-        "category":  "Space/Astronomy",
-        "definition":  "An artificial body placed in orbit round the earth or moon or another planet in order to collect information or for communication."
-    },
-    {
-        "word":  "Gravity Well",
-        "category":  "Space/Astronomy",
-        "definition":  "The pull of gravity that a large body in space exerts."
-    },
-    {
-        "word":  "Escape Velocity",
-        "category":  "Space/Astronomy",
-        "definition":  "The lowest velocity which a body must have in order to escape the gravitational attraction of a particular planet or other object."
-    },
-    {
-        "word":  "Spacetime",
-        "category":  "Space/Astronomy",
-        "definition":  "The concepts of time and three-dimensional space regarded as fused in a four-dimensional continuum."
-    },
-    {
-        "word":  "Relativity",
-        "category":  "Space/Astronomy",
-        "definition":  "The dependence of various physical phenomena on relative motion of the observer and the observed objects, especially regarding the nature and behavior of light, space, time, and gravity."
-    },
-    {
-        "word":  "Wormhole",
-        "category":  "Space/Astronomy",
-        "definition":  "A theoretical passage through space-time that could create shortcuts for long journeys across the universe."
-    }
+[
+  {
+    "word": "Astronomy",
+    "category": "Space/Astronomy",
+    "definition": "The branch of science which deals with celestial objects, space, and the physical universe as a whole."
+  },
+  {
+    "word": "Astrophysics",
+    "category": "Space/Astronomy",
+    "definition": "The branch of astronomy concerned with the physical nature of stars and other celestial bodies."
+  },
+  {
+    "word": "Universe",
+    "category": "Space/Astronomy",
+    "definition": "All existing matter and space considered as a whole; the cosmos."
+  },
+  {
+    "word": "Galaxy",
+    "category": "Space/Astronomy",
+    "definition": "A system of millions or billions of stars, together with gas and dust, held together by gravitational attraction."
+  },
+  {
+    "word": "Solar System",
+    "category": "Space/Astronomy",
+    "definition": "The collection of eight planets and their moons in orbit round the sun, together with smaller bodies in the form of asteroids, meteoroids, and comets."
+  },
+  {
+    "word": "Star",
+    "category": "Space/Astronomy",
+    "definition": "A fixed luminous point in the night sky which is a large, remote incandescent body like the sun.",
+    "meaning_hi": "????",
+    "pronunciation": "?????"
+  },
+  {
+    "word": "Planet",
+    "category": "Space/Astronomy",
+    "definition": "A celestial body moving in an elliptical orbit round a star."
+  },
+  {
+    "word": "Asteroid",
+    "category": "Space/Astronomy",
+    "definition": "A small rocky body orbiting the sun."
+  },
+  {
+    "word": "Comet",
+    "category": "Space/Astronomy",
+    "definition": "A celestial object consisting of a nucleus of ice and dust and, when near the sun, a 'tail' of gas and dust particles pointing away from the sun."
+  },
+  {
+    "word": "Meteor",
+    "category": "Space/Astronomy",
+    "definition": "A small body of matter from outer space that enters the earth's atmosphere, becoming incandescent as a result of friction and appearing as a streak of light."
+  },
+  {
+    "word": "Meteorite",
+    "category": "Space/Astronomy",
+    "definition": "A meteor that survives its passage through the earth's atmosphere such that part of it strikes the ground."
+  },
+  {
+    "word": "Orbit",
+    "category": "Space/Astronomy",
+    "definition": "The regularly repeated elliptical course of a celestial object or spacecraft about a star or planet."
+  },
+  {
+    "word": "Eclipse",
+    "category": "Space/Astronomy",
+    "definition": "An obscuring of the light from one celestial body by the passage of another between it and the observer or between it and its source of illumination."
+  },
+  {
+    "word": "Nebula",
+    "category": "Space/Astronomy",
+    "definition": "A cloud of gas and dust in outer space, visible in the night sky either as an indistinct bright patch or as a dark silhouette against other luminous matter."
+  },
+  {
+    "word": "Supernova",
+    "category": "Space/Astronomy",
+    "definition": "A star that suddenly increases greatly in brightness because of a catastrophic explosion that ejects most of its mass."
+  },
+  {
+    "word": "Black Hole",
+    "category": "Space/Astronomy",
+    "definition": "A region of space having a gravitational field so intense that no matter or radiation can escape."
+  },
+  {
+    "word": "Quasar",
+    "category": "Space/Astronomy",
+    "definition": "A massive and extremely remote celestial object, emitting exceptionally large amounts of energy, and typically having a starlike image in a telescope."
+  },
+  {
+    "word": "Pulsar",
+    "category": "Space/Astronomy",
+    "definition": "A celestial object, thought to be a rapidly rotating neutron star, that emits regular pulses of radio waves and other electromagnetic radiation at rates of up to one thousand pulses per second."
+  },
+  {
+    "word": "Exoplanet",
+    "category": "Space/Astronomy",
+    "definition": "A planet which orbits a star outside the solar system."
+  },
+  {
+    "word": "Light-year",
+    "category": "Space/Astronomy",
+    "definition": "A unit of astronomical distance equivalent to the distance that light travels in one year, which is 9.4607 Ã— 10^12 km."
+  },
+  {
+    "word": "Parsec",
+    "category": "Space/Astronomy",
+    "definition": "A unit of distance used in astronomy, equal to about 3.26 light years."
+  },
+  {
+    "word": "Redshift",
+    "category": "Space/Astronomy",
+    "definition": "The displacement of spectral lines towards longer wavelengths in radiation from distant galaxies and celestial objects."
+  },
+  {
+    "word": "Blueshift",
+    "category": "Space/Astronomy",
+    "definition": "The displacement of the spectrum to shorter wavelengths in the light coming from distant celestial objects moving toward the observer."
+  },
+  {
+    "word": "Dark Matter",
+    "category": "Space/Astronomy",
+    "definition": "Nonluminous material that is postulated to exist in space and that could take any of several forms including weakly interacting particles or high-energy randomly moving particles created soon after the Big Bang."
+  },
+  {
+    "word": "Dark Energy",
+    "category": "Space/Astronomy",
+    "definition": "A theoretical repulsive force that counteracts gravity and causes the universe to expand at an accelerating rate."
+  },
+  {
+    "word": "Big Bang",
+    "category": "Space/Astronomy",
+    "definition": "The rapid expansion of matter from a state of extremely high density and temperature which according to current cosmological theories marked the origin of the universe."
+  },
+  {
+    "word": "Singularity",
+    "category": "Space/Astronomy",
+    "definition": "A point at which a function takes an infinite value, especially in space-time when matter is infinitely dense, as at the center of a black hole."
+  },
+  {
+    "word": "Constellation",
+    "category": "Space/Astronomy",
+    "definition": "A group of stars forming a recognizable pattern that is traditionally named after its apparent form or identified with a mythological figure."
+  },
+  {
+    "word": "Telescope",
+    "category": "Space/Astronomy",
+    "definition": "An optical instrument designed to make distant objects appear nearer."
+  },
+  {
+    "word": "Satellite",
+    "category": "Space/Astronomy",
+    "definition": "An artificial body placed in orbit round the earth or moon or another planet in order to collect information or for communication."
+  },
+  {
+    "word": "Gravity Well",
+    "category": "Space/Astronomy",
+    "definition": "The pull of gravity that a large body in space exerts."
+  },
+  {
+    "word": "Escape Velocity",
+    "category": "Space/Astronomy",
+    "definition": "The lowest velocity which a body must have in order to escape the gravitational attraction of a particular planet or other object."
+  },
+  {
+    "word": "Spacetime",
+    "category": "Space/Astronomy",
+    "definition": "The concepts of time and three-dimensional space regarded as fused in a four-dimensional continuum."
+  },
+  {
+    "word": "Relativity",
+    "category": "Space/Astronomy",
+    "definition": "The dependence of various physical phenomena on relative motion of the observer and the observed objects, especially regarding the nature and behavior of light, space, time, and gravity."
+  },
+  {
+    "word": "Wormhole",
+    "category": "Space/Astronomy",
+    "definition": "A theoretical passage through space-time that could create shortcuts for long journeys across the universe."
+  }
 ]
