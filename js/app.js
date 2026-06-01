@@ -30,7 +30,8 @@
     fcDeck: [],
     fcIndex: 0,
     fcKnown: 0,
-    route: ''
+    route: '',
+    isHashMode: location.protocol === 'file:'
   };
 
   // ── DOM References ──
@@ -125,29 +126,48 @@
   // ═══════════════════════════════════════════════════
   const Router = {
     init() {
-      window.addEventListener('popstate', () => this.resolve());
+      if (state.isHashMode) {
+        window.addEventListener('hashchange', () => this.resolve());
+      } else {
+        window.addEventListener('popstate', () => this.resolve());
+      }
       this.resolve();
     },
 
     resolve() {
-      // Get the path and clean any repo name from subdirectories if hosted on GitHub Pages
-      let path = location.pathname;
-      
-      const repoPrefix = '/Englishvidya/Englishvidya';
-      const repoPrefixShort = '/Englishvidya';
-      
-      if (path.startsWith(repoPrefix)) {
-        path = path.slice(repoPrefix.length);
-      } else if (path.startsWith(repoPrefixShort)) {
-        path = path.slice(repoPrefixShort.length);
+      let route = 'home';
+      let param = null;
+
+      if (state.isHashMode) {
+        // Hash routing mode for offline/local file protocol
+        const hash = location.hash.slice(1) || '/';
+        const parts = hash.split('/').filter(Boolean);
+        route = parts[0] || 'home';
+        param = parts[1] || null;
+      } else {
+        // Clean URL pathname routing mode for live environments
+        let path = location.pathname;
+        const repoPrefix = '/Englishvidya/Englishvidya';
+        const repoPrefixShort = '/Englishvidya';
+        
+        if (path.startsWith(repoPrefix)) {
+          path = path.slice(repoPrefix.length);
+        } else if (path.startsWith(repoPrefixShort)) {
+          path = path.slice(repoPrefixShort.length);
+        }
+        
+        const parts = path.split('/').filter(Boolean);
+        route = parts[0] || 'home';
+        param = parts[1] || null;
       }
       
-      const parts = path.split('/').filter(Boolean);
-      let route = parts[0] || 'home';
-      const param = parts[1] || null;
-      
+      // Clean path to internal route key normalization
       if (route === 'about-us' || route === 'about') {
         route = 'about';
+      } else if (route === 'contact-us' || route === 'contact') {
+        route = 'contact';
+      } else if (route === 'legal-policies' || route === 'legal') {
+        route = 'legal';
       }
 
       state.route = route;
@@ -396,6 +416,13 @@
         ? '🎉 बहुत शानदार! आप असाधारण प्रयास कर रहे हैं!' 
         : 'हर दिन वेबसाइट खोलें, 5 मिनट पढ़ें और अपनी स्ट्रीक बढ़ाएं!';
     }
+
+    // 🌟 Elite Polish: Trigger Stats count-up animations on home load
+    setTimeout(() => {
+      animateValue('#stat-words', 0, 19773, 1200);
+      animateValue('#stat-lessons', 0, 60, 1000);
+      animateValue('#stat-categories', 0, 148, 800);
+    }, 300);
   }
 
   // ═══════════════════════════════════════════════════
@@ -988,6 +1015,22 @@
     return 'शुभ संध्या 🌙';
   }
 
+  function animateValue(id, start, end, duration) {
+    const obj = $(id);
+    if (!obj) return;
+    let startTimestamp = null;
+    const step = (timestamp) => {
+      if (!startTimestamp) startTimestamp = timestamp;
+      const progress = Math.min((timestamp - startTimestamp) / duration, 1);
+      const value = Math.floor(progress * (end - start) + start);
+      obj.textContent = value.toLocaleString('en-IN');
+      if (progress < 1) {
+        window.requestAnimationFrame(step);
+      }
+    };
+    window.requestAnimationFrame(step);
+  }
+
   // ═══════════════════════════════════════════════════
   //  12. INITIALIZE GLOBAL LISTENERS & INTERACTION ENGINE
   // ═══════════════════════════════════════════════════
@@ -995,6 +1038,24 @@
     ThemeManager.init();
     SearchEngine.init();
     initScrollProgress();
+
+    // 🛡️ SPA 404 Redirect Hack handler
+    if (!state.isHashMode) {
+      const queryParams = new URLSearchParams(location.search);
+      const redirectParam = queryParams.get('p');
+      if (redirectParam) {
+        let cleanPath = '/' + redirectParam.replace(/^\/+/, '');
+        let prefix = '';
+        const repoPrefix = '/Englishvidya/Englishvidya';
+        const repoPrefixShort = '/Englishvidya';
+        if (location.pathname.startsWith(repoPrefix)) {
+          prefix = repoPrefix;
+        } else if (location.pathname.startsWith(repoPrefixShort)) {
+          prefix = repoPrefixShort;
+        }
+        history.replaceState(null, '', prefix + cleanPath);
+      }
+    }
 
     // Intercept internal clicks for Pretty URLs SPA transitions
     document.addEventListener('click', (e) => {
@@ -1010,19 +1071,24 @@
           return;
         }
 
-        let prefix = '';
-        const repoPrefix = '/Englishvidya/Englishvidya';
-        const repoPrefixShort = '/Englishvidya';
-        if (location.pathname.startsWith(repoPrefix)) {
-          prefix = repoPrefix;
-        } else if (location.pathname.startsWith(repoPrefixShort)) {
-          prefix = repoPrefixShort;
-        }
+        if (state.isHashMode) {
+          // Fallback to Hash routing in offline mode
+          location.hash = '#' + href;
+        } else {
+          // Live server pathname transition
+          let prefix = '';
+          const repoPrefix = '/Englishvidya/Englishvidya';
+          const repoPrefixShort = '/Englishvidya';
+          if (location.pathname.startsWith(repoPrefix)) {
+            prefix = repoPrefix;
+          } else if (location.pathname.startsWith(repoPrefixShort)) {
+            prefix = repoPrefixShort;
+          }
 
-        const targetPath = prefix + href;
-        
-        history.pushState(null, '', targetPath);
-        Router.resolve();
+          const targetPath = prefix + href;
+          history.pushState(null, '', targetPath);
+          Router.resolve();
+        }
       }
     });
 
@@ -1178,6 +1244,31 @@
               <p style="margin-top: 15px;"><strong>3. स्वैच्छिक योगदान और ई-बुक:</strong> यदि छात्र वैकल्पिक व्याकरण ई-बुक ख़रीदते हैं, तो वह भुगतान पूरी तरह से सुरक्षित मर्चेंट चैनल के माध्यम से किया जाएगा। किसी भी असफल भुगतान या तकनीकी समस्या की स्थिति में, संबंधित पेमेंट गेटवे की नीतियां लागू होंगी, हालांकि हम आपकी पूरी सहायता करने का प्रयास करेंगे।</p>
             </div>
           `;
+        }
+      });
+    }
+
+    // 📲 Custom PWA Install Prompt Handler
+    let deferredPrompt;
+    window.addEventListener('beforeinstallprompt', (e) => {
+      e.preventDefault();
+      deferredPrompt = e;
+      const installBanner = $('#pwa-install-banner');
+      if (installBanner) {
+        installBanner.style.display = 'block';
+      }
+    });
+
+    const installBtn = $('#pwa-install-btn');
+    if (installBtn) {
+      installBtn.addEventListener('click', async () => {
+        if (!deferredPrompt) return;
+        deferredPrompt.prompt();
+        const { outcome } = await deferredPrompt.userChoice;
+        deferredPrompt = null;
+        const installBanner = $('#pwa-install-banner');
+        if (installBanner) {
+          installBanner.style.display = 'none';
         }
       });
     }
