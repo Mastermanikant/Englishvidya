@@ -38,8 +38,18 @@
     <script type="text/javascript">
         // 🛡️ SPA Redirect Hack for GitHub Pages
         (function() {
-            var pathSegmentsToKeep = 0;
             var l = window.location;
+            var path = l.pathname;
+            
+            // Dynamically detect GitHub Pages subfolder (e.g. /Englishvidya)
+            var segments = path.split('/').filter(Boolean);
+            var pathSegmentsToKeep = 0;
+            if (segments.length > 0 && segments[0].toLowerCase() === 'englishvidya') {
+                pathSegmentsToKeep = 1;
+                if (segments.length > 1 && segments[1].toLowerCase() === 'englishvidya') {
+                    pathSegmentsToKeep = 2;
+                }
+            }
             
             // Generate direct routing parameters
             var redirectUrl = l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +

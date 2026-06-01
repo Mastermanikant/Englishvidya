@@ -356,7 +356,7 @@
           const slug = el.dataset.slug;
           this.addToRecent(word);
           this.close();
-          location.hash = `#/dictionary/${slug}`;
+          navigate(`/dictionary/${slug}`);
         });
       });
     },
@@ -483,7 +483,7 @@
             const titleEn = titleMatch ? titleMatch[1].trim().replace(/[✅⏳❌]/g, '').trim() : l.title;
             const titleHi = titleMatch && titleMatch[2] ? titleMatch[2].trim() : '';
             return `
-              <a href="#/grammar/${escHtml(l.slug)}" class="chapter-item">
+              <a href="/grammar/${escHtml(l.slug)}" class="chapter-item">
                 <div class="chapter-num">${l.part}</div>
                 <div class="chapter-info">
                   <div class="chapter-title">${escHtml(titleEn)}</div>
@@ -502,7 +502,7 @@
   async function renderLesson(lessonSlug) {
     appContent.innerHTML = `
       <div class="animate-fade-in">
-        <a href="#/grammar" class="lesson-back-btn">← सभी पाठ देखें</a>
+        <a href="/grammar" class="lesson-back-btn">← सभी पाठ देखें</a>
         <div class="skeleton skeleton-title"></div>
         <div class="skeleton skeleton-card"></div>
         <div class="skeleton skeleton-card"></div>
@@ -514,7 +514,7 @@
     if (!lessonData) {
       appContent.innerHTML = `
         <div class="animate-fade-in">
-          <a href="#/grammar" class="lesson-back-btn">← सभी पाठ देखें</a>
+          <a href="/grammar" class="lesson-back-btn">← सभी पाठ देखें</a>
           <div class="card text-center" style="padding: var(--sp-10);">
             <p style="font-size: 2rem; margin-bottom: var(--sp-4);">🚧</p>
             <h2>यह पाठ जल्द आ रहा है!</h2>
@@ -528,7 +528,7 @@
 
     appContent.innerHTML = `
       <div class="animate-fade-in">
-        <a href="#/grammar" class="lesson-back-btn">← सभी पाठ देखें</a>
+        <a href="/grammar" class="lesson-back-btn">← सभी पाठ देखें</a>
 
         <div class="lesson-header">
           <span class="badge">पाठ ${lessonData.part || ''}</span>
@@ -645,9 +645,26 @@
 
     $$('#category-chips .category-chip').forEach(chip => {
       chip.addEventListener('click', () => {
+        const slug = chip.dataset.slug;
         $$('#category-chips .category-chip').forEach(c => c.classList.remove('active'));
         chip.classList.add('active');
-        loadAndShowWords(chip.dataset.slug);
+        
+        // Update URL to match selected category slug cleanly
+        if (state.isHashMode) {
+          location.hash = `#/dictionary/${slug}`;
+        } else {
+          let prefix = '';
+          const repoPrefix = '/Englishvidya/Englishvidya';
+          const repoPrefixShort = '/Englishvidya';
+          if (location.pathname.startsWith(repoPrefix)) {
+            prefix = repoPrefix;
+          } else if (location.pathname.startsWith(repoPrefixShort)) {
+            prefix = repoPrefixShort;
+          }
+          history.pushState(null, '', prefix + `/dictionary/${slug}`);
+        }
+        
+        loadAndShowWords(slug);
         chip.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' });
       });
     });
@@ -822,7 +839,7 @@
     if (categories) {
       $$('#fc-category-chips .category-chip').forEach(chip => {
         chip.addEventListener('click', () => {
-          location.hash = `#/flashcards/${chip.dataset.slug}`;
+          navigate('/flashcards/' + chip.dataset.slug);
         });
       });
     }
@@ -842,12 +859,26 @@
               आपने <strong>${state.fcDeck.length}</strong> में से <strong style="color: var(--success);">${state.fcKnown}</strong> शब्द याद किए!
             </p>
             <div style="margin-top: var(--sp-6); display: flex; gap: var(--sp-3); justify-content: center; flex-wrap: wrap;">
-              <button class="fc-btn fc-btn-know" onclick="location.hash='#/flashcards/${activeSlug}'">🔄 फिर से</button>
-              <button class="fc-btn fc-btn-skip" onclick="location.hash='#/flashcards'">📂 दूसरी श्रेणी</button>
+              <button class="fc-btn fc-btn-know" id="fc-retry-btn">🔄 फिर से</button>
+              <button class="fc-btn fc-btn-skip" id="fc-other-btn">📂 दूसरी श्रेणी</button>
             </div>
           </div>
         </div>
       `;
+      
+      const retryBtn = $('#fc-retry-btn');
+      if (retryBtn) {
+        retryBtn.addEventListener('click', () => {
+          navigate('/flashcards/' + activeSlug);
+        });
+      }
+
+      const otherBtn = $('#fc-other-btn');
+      if (otherBtn) {
+        otherBtn.addEventListener('click', () => {
+          navigate('/flashcards');
+        });
+      }
       return;
     }
 
@@ -1031,6 +1062,23 @@
     window.requestAnimationFrame(step);
   }
 
+  function navigate(path) {
+    if (state.isHashMode) {
+      location.hash = '#' + path;
+    } else {
+      let prefix = '';
+      const repoPrefix = '/Englishvidya/Englishvidya';
+      const repoPrefixShort = '/Englishvidya';
+      if (location.pathname.startsWith(repoPrefix)) {
+        prefix = repoPrefix;
+      } else if (location.pathname.startsWith(repoPrefixShort)) {
+        prefix = repoPrefixShort;
+      }
+      history.pushState(null, '', prefix + path);
+      Router.resolve();
+    }
+  }
+
   // ═══════════════════════════════════════════════════
   //  12. INITIALIZE GLOBAL LISTENERS & INTERACTION ENGINE
   // ═══════════════════════════════════════════════════
@@ -1180,12 +1228,17 @@
                    style="background: #10b981; border-color: #10b981; text-decoration: none; color: #fff; font-size: 0.95rem; padding: 12px; display: block; border-radius: 8px; font-weight: 700; text-align:center;">
                   💬 सीधे WhatsApp पर भी भेजें
                 </a>
-                <button class="promo-btn secondary" onclick="location.hash='#/'" style="padding: 12px; border-radius: 8px; cursor:pointer;">
+                <button class="promo-btn secondary" id="contact-home-btn" style="padding: 12px; border-radius: 8px; cursor:pointer;">
                   🏠 होम पेज पर वापस जाएँ
                 </button>
               </div>
             </div>
           `;
+
+          const homeBtn = $('#contact-home-btn');
+          if (homeBtn) {
+            homeBtn.addEventListener('click', () => navigate('/'));
+          }
 
           showToast('✅ संदेश सुरक्षित रूप से भेजा गया!');
         }, 1000);
