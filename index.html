@@ -21,11 +21,20 @@
     <!-- Premium Stylesheet -->
     <link rel="stylesheet" href="./css/style.css">
 
-    <!-- Prevent Flash of Unstyled Content (FOUC) -->
+    <!-- Prevent Flash of Unstyled Content (FOUC) & Restore SPA URLs -->
     <script>
       (function(){
         var t = localStorage.getItem('ev-theme') || 'dark';
         document.documentElement.setAttribute('data-theme', t);
+        
+        var redirect = sessionStorage.getItem('redirect');
+        if (redirect) {
+          sessionStorage.removeItem('redirect');
+          try {
+            var url = new URL(redirect);
+            window.history.replaceState(null, null, url.pathname + url.search + url.hash);
+          } catch(e) {}
+        }
       })();
     </script>
 </head>
@@ -39,19 +48,19 @@
     <!-- 2. GLASS STICKY HEADER -->
     <header class="app-header" id="app-header">
         <div class="header-left">
-            <a href="#/" class="logo" id="logo-link" aria-label="English Vidya Home">
+            <a href="/" class="logo" id="logo-link" aria-label="English Vidya Home">
                 <span class="logo-mark">🎓</span>
                 <span class="logo-text">English <span class="logo-accent">Vidya</span></span>
             </a>
         </div>
         <nav class="desktop-nav" aria-label="Desktop Navigation" id="desktop-nav">
-            <a href="#/" class="desktop-nav-link active" data-route="home">होम</a>
-            <a href="#/grammar" class="desktop-nav-link" data-route="grammar">Grammar</a>
-            <a href="#/dictionary" class="desktop-nav-link" data-route="dictionary">शब्दकोश</a>
-            <a href="#/flashcards" class="desktop-nav-link" data-route="flashcards">Flashcards</a>
-            <a href="#/about" class="desktop-nav-link" data-route="about">हमारे बारे में</a>
-            <a href="#/contact" class="desktop-nav-link" data-route="contact">संपर्क करें</a>
-            <a href="#/legal" class="desktop-nav-link" data-route="legal">नीतियां (Legal)</a>
+            <a href="/" class="desktop-nav-link active" data-route="home">होम</a>
+            <a href="/grammar" class="desktop-nav-link" data-route="grammar">Grammar</a>
+            <a href="/dictionary" class="desktop-nav-link" data-route="dictionary">शब्दकोश</a>
+            <a href="/flashcards" class="desktop-nav-link" data-route="flashcards">Flashcards</a>
+            <a href="/about-us" class="desktop-nav-link" data-route="about">हमारे बारे में</a>
+            <a href="/contact" class="desktop-nav-link" data-route="contact">संपर्क करें</a>
+            <a href="/legal" class="desktop-nav-link" data-route="legal">नीतियां (Legal)</a>
         </nav>
         <div class="header-right">
             <!-- Zero-Cost Instant Search -->
@@ -94,89 +103,97 @@
                 
                 <!-- Gorgeous Neon-Orb Hero -->
                 <div class="promo-hero">
-                    <div class="promo-hero-badge">English Vidya • ASOP Launch</div>
+                    <div class="promo-hero-badge">English Vidya • 100% Honest Education</div>
                     <p class="hero-greeting" id="hero-greeting-text">सुप्रभात, विद्यार्थी 🙏</p>
                     <h1 class="promo-hero-title">English सीखो, आगे बढ़ो!</h1>
                     <p class="promo-hero-subtitle">
-                        हिंदी माध्यम के छात्रों के लिए भारत का पहला distraction-free, super-fast और 100% मुफ़्त अंग्रेजी सीखने का डिजिटल मंच।
+                        हिंदी माध्यम के छात्रों के लिए भारत का पहला 100% मुफ़्त, विज्ञापन-मुक्त (No Ads), और बिना किसी लॉगिन (No Login) के सीधे सीखने का ईमानदार डिजिटल मंच।
                     </p>
                     
                     <div class="promo-hero-ctas">
-                        <a href="#/grammar" class="promo-btn primary">📖 पढ़ना शुरू करें (Start Learning)</a>
-                        <a href="#/about" class="promo-btn secondary">💡 हमारे बारे में (About Us)</a>
+                        <a href="/grammar" class="promo-btn primary">📖 पढ़ना शुरू करें (Start Learning)</a>
+                        <a href="/about-us" class="promo-btn secondary">💡 हमारे बारे में (About Us)</a>
                     </div>
 
                     <div class="live-badge-wrap">
                         <span class="live-dot"></span>
-                        <span>Live Campaign Mode • 2026</span>
+                        <span>100% सुरक्षित • 2026</span>
                     </div>
                 </div>
 
-                <!-- 3 Interactive Morphing Cards (Accordion Panels) -->
+                <!-- 2 Interactive Morphing Cards (Accordion Panels) -->
                 <div class="promo-section" style="margin-top: var(--sp-6);">
-                    <h2 class="section-title text-center" style="margin-bottom: var(--sp-2);">✨ मुख्य विशेषताएं (Core Pillars)</h2>
+                    <h2 class="section-title text-center" style="margin-bottom: var(--sp-2);">✨ मुख्य आधार (Core Pillars)</h2>
                     <p class="section-subtitle text-center" style="margin-bottom: var(--sp-6);">नीचे दिए गए कार्डों पर क्लिक करके विस्तार में देखें (Click to Expand)</p>
                     
                     <div class="morph-cards-container" id="morph-cards-container">
                         
-                        <!-- Card 1: What We Do -->
-                        <div class="morph-card" id="card-what-we-do">
+                        <!-- Card 1: Our Promise -->
+                        <div class="morph-card" id="card-honest-promise">
                             <div class="morph-card-header" style="display: flex; justify-content: space-between; align-items: center; cursor: pointer;">
                                 <div style="display: flex; align-items: center; gap: var(--sp-3);">
-                                    <span style="font-size: 1.5rem;">📖</span>
-                                    <h3 style="margin: 0; font-size: 1.1rem; color: var(--text-primary);">01. हम क्या करते हैं (What We Do)</h3>
+                                    <span style="font-size: 1.5rem;">🤝</span>
+                                    <h3 style="margin: 0; font-size: 1.1rem; color: var(--text-primary);">01. हमारा ईमानदार वादा (Our Honest Promise)</h3>
                                 </div>
                                 <span class="morph-card-indicator" style="font-weight: 600; color: var(--accent);">↓</span>
                             </div>
                             <div class="morph-card-content" style="max-height: 0; overflow: hidden;">
                                 <div style="padding: var(--sp-5); display: grid; grid-template-columns: 1fr; gap: var(--sp-4);">
                                     <p style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6; border-left: 3px solid var(--accent); padding-left: 10px;">
-                                        हम ग्रामीण भारत के उन होनहार छात्रों के लिए काम करते हैं जो अंग्रेजी न बोल पाने के कारण पीछे रह जाते हैं। हमारा मंच रटने के बजाय व्यावहारिक अभ्यास पर ध्यान केंद्रित करता है।
+                                        हमारा एकमात्र लक्ष्य ग्रामीण भारत के उन होनहार छात्रों को सर्वोत्तम शिक्षा प्रदान करना है जो महंगे कोचिंग संस्थानों की फीस नहीं दे सकते। हम आपसे ये तीन पक्के वादे करते हैं:
                                     </p>
                                     <div class="pillars-grid">
                                         <div class="pillar-card">
-                                            <h4 style="color: var(--accent);">📚 द्विभाषी व्याकरण (Bilingual Grammar)</h4>
-                                            <p style="margin-top: 5px;">सभी नियमों को रटने के बजाय, हम उन्हें हिंदी-अंग्रेजी (Hinglish) के आसान वाक्यों से मस्कुलर प्रैक्टिस द्वारा सीधे मस्तिष्क में उतारते हैं।</p>
+                                            <h4 style="color: var(--accent);">💸 100% हमेशा के लिए मुफ़्त</h4>
+                                            <p style="margin-top: 5px;">वेबसाइट की 100% सामग्री हमेशा मुफ़्त रहेगी। हम आपसे कभी भी किसी कोर्स, पीडीएफ, या टेस्ट सीरीज़ के लिए कोई पैसा नहीं मांगेंगे।</p>
                                         </div>
                                         <div class="pillar-card">
-                                            <h4 style="color: var(--accent);">🔤 19,773 शब्दों का खज़ाना (Dictionary)</h4>
-                                            <p style="margin-top: 5px;">ग्रामीण छात्रों की सामान्य गलतियों को दूर करने के लिए विशेष देवनागरी उच्चारण और हिंदी अर्थ के साथ 148 श्रेणियों में विभाजित शब्दकोश।</p>
+                                            <h4 style="color: var(--accent);">🚫 कोई विज्ञापन नहीं (No Ads)</h4>
+                                            <p style="margin-top: 5px;">पढ़ाई के दौरान आपका ध्यान भटकाने के लिए इस मंच पर कोई बैनर या वीडियो विज्ञापन कभी नहीं चलाए जाएंगे। बिल्कुल शांत वातावरण।</p>
                                         </div>
                                         <div class="pillar-card">
-                                            <h4 style="color: var(--accent);">🃏 फ़्लैशकार्ड्स (Practice Deck)</h4>
-                                            <p style="margin-top: 5px;">याददाश्त को बेहतर बनाने और उच्चारण का तुरंत वॉयस सुनने के लिए स्पेस-रेपेटिशन (Spaced Repetition) पर आधारित स्मार्ट कार्ड्स।</p>
+                                            <h4 style="color: var(--accent);">🔒 सुरक्षित और पासवर्ड-मुक्त</h4>
+                                            <p style="margin-top: 5px;">न कोई फालतू रजिस्ट्रेशन फॉर्म और न कोई डेटा बेचना। आप बिना किसी लॉगिन के सीधे आकर अपनी पढ़ाई शुरू कर सकते हैं।</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-                        <!-- Card 2: Our Plans -->
-                        <div class="morph-card" id="card-our-plans">
+                        <!-- Card 2: What's Available Today -->
+                        <div class="morph-card" id="card-whats-available">
                             <div class="morph-card-header" style="display: flex; justify-content: space-between; align-items: center; cursor: pointer;">
                                 <div style="display: flex; align-items: center; gap: var(--sp-3);">
-                                    <span style="font-size: 1.5rem;">🚀</span>
-                                    <h3 style="margin: 0; font-size: 1.1rem; color: var(--text-primary);">02. हमारी योजना (Our Plans & Vision)</h3>
+                                    <span style="font-size: 1.5rem;">📚</span>
+                                    <h3 style="margin: 0; font-size: 1.1rem; color: var(--text-primary);">02. आज मंच पर क्या उपलब्ध है? (What's Available)</h3>
                                 </div>
                                 <span class="morph-card-indicator" style="font-weight: 600; color: var(--accent);">↓</span>
                             </div>
                             <div class="morph-card-content" style="max-height: 0; overflow: hidden;">
                                 <div style="padding: var(--sp-5); display: grid; grid-template-columns: 1fr; gap: var(--sp-4);">
                                     <p style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6; border-left: 3px solid var(--accent); padding-left: 10px;">
-                                        हमारा उद्देश्य ग्रामीण भारत के हर छात्र के हाथ में एक प्रीमियम, सुरक्षित और ध्यान न भटकाने वाला शिक्षा पारिस्थितिकी तंत्र (Ecosystem) प्रदान करना है।
+                                        वेबसाइट पर आज ही आपके सीखने के लिए निम्नलिखित विशाल सामग्री और फीचर्स पूरी तरह से तैयार हैं:
                                     </p>
                                     <div class="pillars-grid">
                                         <div class="pillar-card">
-                                            <h4 style="color: var(--accent);">🔥 डेली स्ट्रीक और रिवार्ड्स (Gamification)</h4>
-                                            <p style="margin-top: 5px;">छात्र रोज़ाना आकर 5 मिनट पढ़ेंगे और अपनी स्ट्रीक बनाए रखेंगे। लगातार 10 दिनों की स्ट्रीक पर ₹49 मूल्य की प्रीमियम पीडीएफ बुक बिल्कुल मुफ्त दी जाएगी।</p>
+                                            <h4 style="color: var(--accent);">📖 द्विभाषी व्याकरण (Grammar Notes)</h4>
+                                            <p style="margin-top: 5px;">कठिन अंग्रेजी नियमों को रटने के बजाय हिंदी और आसान हिंग्लिश (Hinglish) के उदाहरणों के साथ समझें।</p>
                                         </div>
                                         <div class="pillar-card">
-                                            <h4 style="color: var(--accent);">📊 साप्ताहिक लीडरबोर्ड (Peer Board)</h4>
-                                            <p style="margin-top: 5px;">बिना किसी स्पैम या तनाव के, शीर्ष सक्रिय छात्रों की प्रशंसा बढ़ाने और उनका गौरव बढ़ाने के लिए हर सोमवार रीसेट होने वाला लीडरबोर्ड।</p>
+                                            <h4 style="color: var(--accent);">🔤 19,773 शब्दों का शब्दकोश (Dictionary)</h4>
+                                            <p style="margin-top: 5px;">रोज काम आने वाले शब्दों का शुद्ध देवनागरी उच्चारण और हिंदी अर्थ के साथ 148 विशेष श्रेणियों में वर्गीकृत संग्रह।</p>
                                         </div>
                                         <div class="pillar-card">
-                                            <h4 style="color: var(--accent);">📡 ऑफलाइन सपोर्ट PWA (Offline Study)</h4>
-                                            <p style="margin-top: 5px;">इंटरनेट कनेक्टिविटी की समस्या को खत्म करने के लिए, लोड किए गए सभी व्याकरण नोट्स और शब्द ऑफलाइन रहने पर भी फोन में चलते रहेंगे।</p>
+                                            <h4 style="color: var(--accent);">🃏 फ़्लैशकार्ड्स (Practice Deck)</h4>
+                                            <p style="margin-top: 5px;">याददाश्त को बेहतर बनाने और सही अंग्रेजी उच्चारण का ऑडियो सुनने के लिए वैज्ञानिक स्पेस-रेपेटिशन विधि पर आधारित स्मार्ट कार्ड्स।</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>��ी फोन में चलते रहेंगे।</p>
                                         </div>
                                     </div>
                                 </div>
@@ -227,22 +244,22 @@
                 <div class="promo-section" style="margin-top: var(--sp-6);">
                     <h2 class="section-title text-center" style="margin-bottom: var(--sp-6);">⚡ जल्दी शुरू करें (Quick Start)</h2>
                     <div class="action-grid">
-                        <a href="#/grammar" class="action-card">
+                        <a href="/grammar" class="action-card">
                             <div class="action-icon">📖</div>
                             <div class="action-title">Grammar सीखें</div>
                             <div class="action-desc">Noun, Verb, Tense — हिंदी में समझें</div>
                         </a>
-                        <a href="#/dictionary" class="action-card">
+                        <a href="/dictionary" class="action-card">
                             <div class="action-icon">🔤</div>
                             <div class="action-title">शब्दकोश खोलें</div>
                             <div class="action-desc">19,773 शब्दों का खज़ाना</div>
                         </a>
-                        <a href="#/flashcards" class="action-card">
+                        <a href="/flashcards" class="action-card">
                             <div class="action-icon">🃏</div>
                             <div class="action-title">Flashcards Practice</div>
                             <div class="action-desc">याद करें, उच्चारण सुनें</div>
                         </a>
-                        <a href="#/profile" class="action-card">
+                        <a href="/profile" class="action-card">
                             <div class="action-icon">👤</div>
                             <div class="action-title">प्रोफ़ाइल</div>
                             <div class="action-desc">सेटिंग्स और प्रगति</div>
@@ -307,7 +324,7 @@
                     <!-- 8-platform Premium SVG Links Grid -->
                     <div class="social-links-grid">
                         <!-- 1. YouTube -->
-                        <a href="#/youtube" target="_blank" rel="noopener noreferrer" class="social-link-card">
+                        <a href="/youtube" target="_blank" rel="noopener noreferrer" class="social-link-card">
                             <div class="social-icon-wrapper" style="background: #FF0000;">
                                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2" ry="2"/></svg>
                             </div>

@@ -125,15 +125,30 @@
   // ═══════════════════════════════════════════════════
   const Router = {
     init() {
-      window.addEventListener('hashchange', () => this.resolve());
+      window.addEventListener('popstate', () => this.resolve());
       this.resolve();
     },
 
     resolve() {
-      const hash = location.hash.slice(1) || '/';
-      const parts = hash.split('/').filter(Boolean);
-      const route = parts[0] || 'home';
+      // Get the path and clean any repo name from subdirectories if hosted on GitHub Pages
+      let path = location.pathname;
+      
+      const repoPrefix = '/Englishvidya/Englishvidya';
+      const repoPrefixShort = '/Englishvidya';
+      
+      if (path.startsWith(repoPrefix)) {
+        path = path.slice(repoPrefix.length);
+      } else if (path.startsWith(repoPrefixShort)) {
+        path = path.slice(repoPrefixShort.length);
+      }
+      
+      const parts = path.split('/').filter(Boolean);
+      let route = parts[0] || 'home';
       const param = parts[1] || null;
+      
+      if (route === 'about-us' || route === 'about') {
+        route = 'about';
+      }
 
       state.route = route;
       this.updateNav(route);
@@ -980,6 +995,36 @@
     ThemeManager.init();
     SearchEngine.init();
     initScrollProgress();
+
+    // Intercept internal clicks for Pretty URLs SPA transitions
+    document.addEventListener('click', (e) => {
+      const link = e.target.closest('a');
+      if (!link) return;
+
+      const href = link.getAttribute('href');
+      if (href && href.startsWith('/') && !href.startsWith('//') && link.origin === location.origin) {
+        e.preventDefault();
+        
+        if (href === '/youtube') {
+          window.open('https://youtube.com/@englishvidyahq', '_blank', 'noopener,noreferrer');
+          return;
+        }
+
+        let prefix = '';
+        const repoPrefix = '/Englishvidya/Englishvidya';
+        const repoPrefixShort = '/Englishvidya';
+        if (location.pathname.startsWith(repoPrefix)) {
+          prefix = repoPrefix;
+        } else if (location.pathname.startsWith(repoPrefixShort)) {
+          prefix = repoPrefixShort;
+        }
+
+        const targetPath = prefix + href;
+        
+        history.pushState(null, '', targetPath);
+        Router.resolve();
+      }
+    });
 
     // 🛡️ Security Rule 3: Event delegation for Morphing cards
     const morphContainer = $('#morph-cards-container');
