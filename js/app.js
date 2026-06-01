@@ -31,8 +31,28 @@
     fcIndex: 0,
     fcKnown: 0,
     route: '',
-    isHashMode: location.protocol === 'file:'
+    isHashMode: location.protocol === 'file:',
+    basePath: '/'
   };
+
+  // Calculate dynamic basePath for enterprise routing
+  if (!state.isHashMode) {
+    let cleanPath = location.pathname;
+    if (cleanPath.endsWith('/index.html')) {
+      cleanPath = cleanPath.slice(0, -10);
+    } else if (cleanPath.endsWith('/old_index.html')) {
+      cleanPath = cleanPath.slice(0, -14);
+    }
+    if (!cleanPath.endsWith('/')) {
+      const lastSlash = cleanPath.lastIndexOf('/');
+      if (lastSlash >= 0) {
+        cleanPath = cleanPath.slice(0, lastSlash + 1);
+      } else {
+        cleanPath = '/';
+      }
+    }
+    state.basePath = cleanPath;
+  }
 
   // ── DOM References ──
   const $ = (sel) => document.querySelector(sel);
@@ -147,13 +167,9 @@
       } else {
         // Clean URL pathname routing mode for live environments
         let path = location.pathname;
-        const repoPrefix = '/Englishvidya/Englishvidya';
-        const repoPrefixShort = '/Englishvidya';
-        
-        if (path.startsWith(repoPrefix)) {
-          path = path.slice(repoPrefix.length);
-        } else if (path.startsWith(repoPrefixShort)) {
-          path = path.slice(repoPrefixShort.length);
+        const base = state.basePath.toLowerCase();
+        if (path.toLowerCase().startsWith(base)) {
+          path = path.slice(base.length);
         }
         
         const parts = path.split('/').filter(Boolean);
@@ -653,15 +669,8 @@
         if (state.isHashMode) {
           location.hash = `#/dictionary/${slug}`;
         } else {
-          let prefix = '';
-          const repoPrefix = '/Englishvidya/Englishvidya';
-          const repoPrefixShort = '/Englishvidya';
-          if (location.pathname.startsWith(repoPrefix)) {
-            prefix = repoPrefix;
-          } else if (location.pathname.startsWith(repoPrefixShort)) {
-            prefix = repoPrefixShort;
-          }
-          history.pushState(null, '', prefix + `/dictionary/${slug}`);
+          const targetPath = (state.basePath + `/dictionary/${slug}`).replace(/\/+/g, '/');
+          history.pushState(null, '', targetPath);
         }
         
         loadAndShowWords(slug);
@@ -1066,15 +1075,8 @@
     if (state.isHashMode) {
       location.hash = '#' + path;
     } else {
-      let prefix = '';
-      const repoPrefix = '/Englishvidya/Englishvidya';
-      const repoPrefixShort = '/Englishvidya';
-      if (location.pathname.startsWith(repoPrefix)) {
-        prefix = repoPrefix;
-      } else if (location.pathname.startsWith(repoPrefixShort)) {
-        prefix = repoPrefixShort;
-      }
-      history.pushState(null, '', prefix + path);
+      const targetPath = (state.basePath + '/' + path.replace(/^\/+/, '')).replace(/\/+/g, '/');
+      history.pushState(null, '', targetPath);
       Router.resolve();
     }
   }
@@ -1088,20 +1090,14 @@
     initScrollProgress();
 
     // 🛡️ SPA 404 Redirect Hack handler
+    // 🛡️ SPA 404 Redirect Hack handler
     if (!state.isHashMode) {
       const queryParams = new URLSearchParams(location.search);
       const redirectParam = queryParams.get('p');
       if (redirectParam) {
-        let cleanPath = '/' + redirectParam.replace(/^\/+/, '');
-        let prefix = '';
-        const repoPrefix = '/Englishvidya/Englishvidya';
-        const repoPrefixShort = '/Englishvidya';
-        if (location.pathname.startsWith(repoPrefix)) {
-          prefix = repoPrefix;
-        } else if (location.pathname.startsWith(repoPrefixShort)) {
-          prefix = repoPrefixShort;
-        }
-        history.replaceState(null, '', prefix + cleanPath);
+        const cleanPath = '/' + redirectParam.replace(/^\/+/, '');
+        const targetPath = (state.basePath + '/' + cleanPath).replace(/\/+/g, '/');
+        history.replaceState(null, '', targetPath);
       }
     }
 
@@ -1124,16 +1120,7 @@
           location.hash = '#' + href;
         } else {
           // Live server pathname transition
-          let prefix = '';
-          const repoPrefix = '/Englishvidya/Englishvidya';
-          const repoPrefixShort = '/Englishvidya';
-          if (location.pathname.startsWith(repoPrefix)) {
-            prefix = repoPrefix;
-          } else if (location.pathname.startsWith(repoPrefixShort)) {
-            prefix = repoPrefixShort;
-          }
-
-          const targetPath = prefix + href;
+          const targetPath = (state.basePath + '/' + href.replace(/^\/+/, '')).replace(/\/+/g, '/');
           history.pushState(null, '', targetPath);
           Router.resolve();
         }
