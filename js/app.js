@@ -1,6 +1,6 @@
 /* ══════════════════════════════════════════════════════════════
    ENGLISH VIDYA — Core Application Engine (app.js)
-   Pure Vanilla JS | Client-Side Router | Zero-Backend Search
+   Pure Vanilla JS | Client-Side Static Shell Router | Zero-Backend Search
    ══════════════════════════════════════════════════════════════ */
 
 (function () {
@@ -37,7 +37,7 @@
   const $ = (sel) => document.querySelector(sel);
   const $$ = (sel) => document.querySelectorAll(sel);
 
-  const appContent = $('#app-content');
+  const appContent = $('#view-dynamic-target'); // Dynamic target slot
   const searchOverlay = $('#search-overlay');
   const searchInput = $('#search-input');
   const searchResults = $('#search-results');
@@ -51,7 +51,7 @@
     init() {
       const saved = localStorage.getItem(STORAGE_KEYS.theme) || 'dark';
       this.apply(saved);
-      $('#theme-toggle-btn').addEventListener('click', () => this.toggle());
+      $('#theme-toggle-btn').addEventListener('click', (e) => this.toggle(e));
     },
 
     apply(theme) {
@@ -63,16 +63,65 @@
       }
     },
 
-    toggle() {
+    toggle(event) {
       const current = document.documentElement.getAttribute('data-theme');
       const next = current === 'dark' ? 'light' : 'dark';
-      this.apply(next);
+
+      // 🛡️ Security Rule 2 & Premium Animation: Circular Reveal wave transition
+      let x = window.innerWidth / 2;
+      let y = window.innerHeight / 2;
+      
+      if (event && event.clientX && event.clientY) {
+        x = event.clientX;
+        y = event.clientY;
+      } else {
+        const btn = $('#theme-toggle-btn');
+        if (btn) {
+          const rect = btn.getBoundingClientRect();
+          x = rect.left + rect.width / 2;
+          y = rect.top + rect.height / 2;
+        }
+      }
+
+      // Max radius to cover screen
+      const endRadius = Math.hypot(
+        Math.max(x, window.innerWidth - x),
+        Math.max(y, window.innerHeight - y)
+      );
+
+      // Create wave element
+      const wave = document.createElement('div');
+      wave.className = 'theme-transition-wave';
+      wave.style.left = `${x}px`;
+      wave.style.top = `${y}px`;
+      wave.style.backgroundColor = next === 'dark' ? '#0c1222' : '#f8fafc';
+      document.body.appendChild(wave);
+
+      // Force layout reflow
+      wave.offsetHeight;
+
+      // Animate size expansion & fade-in
+      wave.style.width = `${endRadius * 2}px`;
+      wave.style.height = `${endRadius * 2}px`;
+      wave.style.transform = 'translate(-50%, -50%) scale(1)';
+      wave.style.opacity = '1';
+
+      // Switch theme and remove overlay after wave expansion
+      setTimeout(() => {
+        this.apply(next);
+        wave.style.transition = 'opacity 0.25s ease';
+        wave.style.opacity = '0';
+        setTimeout(() => {
+          wave.remove();
+        }, 250);
+      }, 450);
+
       showToast(next === 'dark' ? '🌙 डार्क मोड चालू' : '☀️ लाइट मोड चालू');
     }
   };
 
   // ═══════════════════════════════════════════════════
-  //  2. ROUTER (Hash-Based SPA)
+  //  2. ROUTER (Static Shell-Based SPA)
   // ═══════════════════════════════════════════════════
   const Router = {
     init() {
@@ -89,11 +138,28 @@
       state.route = route;
       this.updateNav(route);
 
+      // Hide all static and target views by default
+      $$('.spa-view').forEach(v => v.classList.remove('active'));
+
       switch (route) {
         case 'home':
+          $('#view-home').classList.add('active');
           renderDashboard();
           break;
+        case 'about':
+          $('#view-about').classList.add('active');
+          break;
+        case 'contact':
+          $('#view-contact').classList.add('active');
+          break;
+        case 'legal':
+          $('#view-legal').classList.add('active');
+          break;
+        case 'youtube':
+          window.location.replace('https://youtube.com/@englishvidyahq');
+          break;
         case 'grammar':
+          $('#view-dynamic-target').classList.add('active');
           if (param) {
             renderLesson(param);
           } else {
@@ -101,15 +167,19 @@
           }
           break;
         case 'dictionary':
+          $('#view-dynamic-target').classList.add('active');
           renderDictionary(param);
           break;
         case 'flashcards':
+          $('#view-dynamic-target').classList.add('active');
           renderFlashcards(param);
           break;
         case 'profile':
+          $('#view-dynamic-target').classList.add('active');
           renderProfile();
           break;
         default:
+          $('#view-home').classList.add('active');
           renderDashboard();
       }
 
@@ -119,6 +189,10 @@
 
     updateNav(route) {
       $$('.nav-item').forEach(item => {
+        const itemRoute = item.getAttribute('data-route');
+        item.classList.toggle('active', itemRoute === route || (route === 'home' && itemRoute === 'home'));
+      });
+      $$('.desktop-nav-link').forEach(item => {
         const itemRoute = item.getAttribute('data-route');
         item.classList.toggle('active', itemRoute === route || (route === 'home' && itemRoute === 'home'));
       });
@@ -241,7 +315,6 @@
           <span class="search-result-category">${escHtml(item.s.replace(/_/g, ' '))}</span>
         </div>
       `).join('');
-
       searchResults.querySelectorAll('.search-result-item').forEach(el => {
         el.addEventListener('click', () => {
           const word = el.dataset.word;
@@ -285,99 +358,36 @@
   };
 
   // ═══════════════════════════════════════════════════
-  //  6. SCREEN RENDERERS
+  //  6. DYNAMIC DASHBOARD GREETINGS
   // ═══════════════════════════════════════════════════
-
-  // ── 6a. DASHBOARD ──
   function renderDashboard() {
     const streak = StreakTracker.get();
     const userName = localStorage.getItem(STORAGE_KEYS.userName) || 'विद्यार्थी';
     const timeGreeting = getTimeGreeting();
 
-    appContent.innerHTML = `
-      <div class="animate-fade-in">
-        <!-- Hero Welcome -->
-        <div class="hero-welcome">
-          <p class="hero-greeting">${timeGreeting} 🙏</p>
-          <h1 class="hero-title">English सीखो, आगे बढ़ो!</h1>
-          <p class="hero-subtitle">हर दिन कुछ नया सीखो — Grammar, Vocabulary और Practice सब एक जगह।</p>
-          <div style="margin-top: 10px; font-size: 0.8rem; color: var(--color-success); font-weight: 500; background: rgba(16, 185, 129, 0.1); display: inline-block; padding: 4px 10px; border-radius: 20px;">
-            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle; margin-right: 4px;"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
-            Live Update: 30 May 2026, 11:30 PM
-          </div>
-        </div>
+    const greetingText = $('#hero-greeting-text');
+    if (greetingText) {
+      greetingText.textContent = `${timeGreeting}, ${userName} 🙏`;
+    }
 
-        <!-- Streak Card -->
-        <div class="streak-card">
-          <div class="streak-content">
-            <div class="streak-number">🔥 ${streak} दिन</div>
-            <div class="streak-label">लगातार सीखने का रिकॉर्ड!</div>
-            <div class="streak-message">${streak >= 7 ? '🎉 शानदार! एक हफ़्ते से ज़्यादा लगातार!' : 'हर दिन आओ, streak बढ़ाओ!'}</div>
-          </div>
-        </div>
+    const streakNumberText = $('#streak-number-text');
+    if (streakNumberText) {
+      streakNumberText.textContent = `🔥 ${streak} दिन की Streak`;
+    }
 
-        <!-- Stats Grid -->
-        <div class="stats-grid">
-          <div class="stat-card">
-            <div class="stat-icon">📚</div>
-            <div class="stat-value">19,773</div>
-            <div class="stat-label">शब्द (Words)</div>
-          </div>
-          <div class="stat-card">
-            <div class="stat-icon">📖</div>
-            <div class="stat-value">60</div>
-            <div class="stat-label">Grammar पाठ</div>
-          </div>
-          <div class="stat-card">
-            <div class="stat-icon">📂</div>
-            <div class="stat-value">148</div>
-            <div class="stat-label">श्रेणियाँ</div>
-          </div>
-          <div class="stat-card">
-            <div class="stat-icon">🃏</div>
-            <div class="stat-value">∞</div>
-            <div class="stat-label">Flashcards</div>
-          </div>
-        </div>
-
-        <!-- Quick Actions -->
-        <h2 class="section-title">⚡ जल्दी शुरू करें</h2>
-        <div class="action-grid">
-          <a href="#/grammar" class="action-card">
-            <div class="action-icon">📖</div>
-            <div class="action-title">Grammar सीखें</div>
-            <div class="action-desc">Noun, Verb, Tense — हिंदी में समझें</div>
-          </a>
-          <a href="#/dictionary" class="action-card">
-            <div class="action-icon">🔤</div>
-            <div class="action-title">शब्दकोश खोलें</div>
-            <div class="action-desc">19,773 शब्दों का खज़ाना</div>
-          </a>
-          <a href="#/flashcards" class="action-card">
-            <div class="action-icon">🃏</div>
-            <div class="action-title">Flashcards Practice</div>
-            <div class="action-desc">याद करें, उच्चारण सुनें</div>
-          </a>
-          <a href="#/profile" class="action-card">
-            <div class="action-icon">👤</div>
-            <div class="action-title">प्रोफ़ाइल</div>
-            <div class="action-desc">सेटिंग्स और प्रगति</div>
-          </a>
-        </div>
-
-        <!-- Tip of the Day -->
-        <div class="card card-gradient">
-          <span class="badge">💡 आज का टिप</span>
-          <h3 style="margin-top: var(--sp-3); color: var(--text-primary);">रोज़ 10 नए शब्द सीखें</h3>
-          <p class="text-secondary" style="margin-top: var(--sp-2); margin-bottom: 0;">
-            अगर आप रोज़ सिर्फ 10 शब्द सीखते हैं, तो 1 साल में आप <strong>3,650 शब्द</strong> जान जाएंगे — यह किसी भी अंग्रेजी exam के लिए काफ़ी से ज़्यादा है!
-          </p>
-        </div>
-      </div>
-    `;
+    const streakMessageText = $('#streak-message-text');
+    if (streakMessageText) {
+      streakMessageText.textContent = streak >= 7 
+        ? '🎉 बहुत शानदार! आप असाधारण प्रयास कर रहे हैं!' 
+        : 'हर दिन वेबसाइट खोलें, 5 मिनट पढ़ें और अपनी स्ट्रीक बढ़ाएं!';
+    }
   }
 
-  // ── 6b. GRAMMAR LIST ──
+  // ═══════════════════════════════════════════════════
+  //  7. ACTIVE VIEW CONTROLLERS (For Dynamic targeting)
+  // ═══════════════════════════════════════════════════
+
+  // ── 7a. GRAMMAR LIST ──
   async function renderGrammarList() {
     appContent.innerHTML = `
       <div class="animate-fade-in">
@@ -391,7 +401,7 @@
 
     const index = await loadJSON(`${DATA_BASE}/site/articles-index.json`);
 
-    // Deduplicate: keep only the FIRST (best) title per part number
+    // Deduplicate
     const seen = new Set();
     const lessons = [];
     if (index && Array.isArray(index)) {
@@ -427,7 +437,6 @@
         </div>
         <div class="chapter-list">
           ${lessons.map(l => {
-            // Strip Hindi in parens from title to use as subtitle
             const titleMatch = l.title.match(/^([^(]+?)(?:\s*\(([^)]+)\))?$/);
             const titleEn = titleMatch ? titleMatch[1].trim().replace(/[✅⏳❌]/g, '').trim() : l.title;
             const titleHi = titleMatch && titleMatch[2] ? titleMatch[2].trim() : '';
@@ -447,10 +456,8 @@
     `;
   }
 
-
-  // ── 6c. LESSON READER ──
+  // ── 7b. LESSON READER ──
   async function renderLesson(lessonSlug) {
-    // Show skeleton while loading
     appContent.innerHTML = `
       <div class="animate-fade-in">
         <a href="#/grammar" class="lesson-back-btn">← सभी पाठ देखें</a>
@@ -469,7 +476,6 @@
           <div class="card text-center" style="padding: var(--sp-10);">
             <p style="font-size: 2rem; margin-bottom: var(--sp-4);">🚧</p>
             <h2>यह पाठ जल्द आ रहा है!</h2>
-            <p class="text-secondary" style="margin-top: var(--sp-3);">पाठ ${lessonId} अभी तैयार हो रहा है। कृपया दूसरे पाठ पढ़ें।</p>
           </div>
         </div>
       `;
@@ -483,7 +489,7 @@
         <a href="#/grammar" class="lesson-back-btn">← सभी पाठ देखें</a>
 
         <div class="lesson-header">
-          <span class="badge">पाठ ${lessonData.part || lessonId}</span>
+          <span class="badge">पाठ ${lessonData.part || ''}</span>
           <h1 style="margin-top: var(--sp-3);">${escHtml(lessonData.title || '')}</h1>
         </div>
 
@@ -540,7 +546,7 @@
     `;
   }
 
-  // ── 6d. DICTIONARY ──
+  // ── 7c. DICTIONARY ──
   async function renderDictionary(categorySlug) {
     appContent.innerHTML = `
       <div class="animate-fade-in">
@@ -566,7 +572,6 @@
           <div class="card text-center" style="padding: var(--sp-10);">
             <p style="font-size: 2rem; margin-bottom: var(--sp-4);">📦</p>
             <h2>डेटा लोड हो रहा है</h2>
-            <p class="text-secondary" style="margin-top: var(--sp-3);">श्रेणी सूची अभी उपलब्ध नहीं है। कृपया बाद में प्रयास करें।</p>
           </div>
         </div>
       `;
@@ -582,37 +587,29 @@
           <p class="hero-subtitle">श्रेणी चुनें और शब्द सीखें</p>
         </div>
 
-        <!-- Category Chips -->
         <div class="category-chips-scroll" id="category-chips">
           ${categories.map(c => `
-            <button class="category-chip${c.slug === selectedSlug ? ' active' : ''}" 
-                    data-slug="${escHtml(c.slug)}">
+            <button class="category-chip${c.slug === selectedSlug ? ' active' : ''}" data-slug="${escHtml(c.slug)}">
               ${c.icon || '📁'} ${escHtml(c.name)} (${c.count})
             </button>
           `).join('')}
         </div>
 
-        <!-- Words Container -->
         <div id="words-container">
-          <div class="loading-screen" style="min-height: 200px;">
-            <div class="loader-spinner"></div>
-          </div>
+          <div class="loading-screen" style="min-height: 200px;"><div class="loader-spinner"></div></div>
         </div>
       </div>
     `;
 
-    // Bind chip clicks
     $$('#category-chips .category-chip').forEach(chip => {
       chip.addEventListener('click', () => {
         $$('#category-chips .category-chip').forEach(c => c.classList.remove('active'));
         chip.classList.add('active');
         loadAndShowWords(chip.dataset.slug);
-        // Scroll chip into view
         chip.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' });
       });
     });
 
-    // Load initial category
     loadAndShowWords(selectedSlug);
   }
 
@@ -621,11 +618,10 @@
     if (!container) return;
 
     container.innerHTML = '<div class="loading-screen" style="min-height:200px;"><div class="loader-spinner"></div></div>';
-
     const words = await loadCategoryWords(slug);
 
     if (!words || words.length === 0) {
-      container.innerHTML = '<div class="card text-center"><p class="text-secondary">इस श्रेणी में अभी शब्द उपलब्ध नहीं हैं।</p></div>';
+      container.innerHTML = '<div class="card text-center"><p class="text-secondary">इस श्रेणी में शब्द उपलब्ध नहीं हैं।</p></div>';
       return;
     }
 
@@ -640,9 +636,7 @@
               <div class="word-en">${escHtml(w.word || w.w || '')}</div>
               <div class="word-hi">${escHtml(w.meaning_hi || w.m || w.hindi || '')}</div>
             </div>
-            <button class="word-speak-btn" data-word="${escHtml(w.word || w.w || '')}" title="उच्चारण सुनें">
-              🔊
-            </button>
+            <button class="word-speak-btn" data-word="${escHtml(w.word || w.w || '')}" title="उच्चारण सुनें">🔊</button>
           </div>
         `).join('')}
       </div>
@@ -653,7 +647,6 @@
       ` : ''}
     `;
 
-    // Bind speak buttons
     container.querySelectorAll('.word-speak-btn').forEach(btn => {
       btn.addEventListener('click', (e) => {
         e.stopPropagation();
@@ -661,12 +654,11 @@
       });
     });
 
-    // Bind load more
     const loadMoreBtn = $('#load-more-btn');
     if (loadMoreBtn) {
       loadMoreBtn.addEventListener('click', () => {
         const grid = container.querySelector('.word-grid');
-        words.slice(50).forEach((w, i) => {
+        words.slice(50).forEach((w) => {
           const card = document.createElement('div');
           card.className = 'word-card animate-fade-in';
           card.innerHTML = `
@@ -687,7 +679,7 @@
     }
   }
 
-  // ── 6e. FLASHCARDS ──
+  // ── 7d. FLASHCARDS ──
   async function renderFlashcards(categorySlug) {
     appContent.innerHTML = `
       <div class="animate-fade-in">
@@ -695,36 +687,24 @@
           <h1 style="font-size: 1.5rem;">🃏 Flashcards Practice</h1>
           <p class="hero-subtitle">शब्द देखें, याद करें, उच्चारण सुनें!</p>
         </div>
-        <div class="loading-screen" style="min-height: 200px;">
-          <div class="loader-spinner"></div>
-          <p class="loader-text">शब्द तैयार हो रहे हैं...</p>
-        </div>
+        <div class="loading-screen" style="min-height: 200px;"><div class="loader-spinner"></div></div>
       </div>
     `;
 
-    // Load categories for selection
     const categories = await ensureCategoriesIndex();
     const slug = categorySlug || (categories && categories.length > 0 ? categories[0].slug : null);
 
     if (!slug) {
-      appContent.innerHTML = `
-        <div class="animate-fade-in">
-          <div class="card text-center" style="padding: var(--sp-10);">
-            <p style="font-size: 2rem;">📦</p>
-            <h2 style="margin-top: var(--sp-3);">डेटा लोड नहीं हुआ</h2>
-          </div>
-        </div>
-      `;
+      appContent.innerHTML = `<div class="card text-center"><h2>डेटा लोड नहीं हुआ</h2></div>`;
       return;
     }
 
     const words = await loadCategoryWords(slug);
     if (!words || words.length === 0) {
-      appContent.innerHTML = '<div class="card text-center"><p>इस श्रेणी में शब्द नहीं मिले।</p></div>';
+      appContent.innerHTML = '<div class="card text-center"><p>शब्द नहीं मिले।</p></div>';
       return;
     }
 
-    // Shuffle and prepare deck
     state.fcDeck = shuffleArray([...words]).slice(0, 20);
     state.fcIndex = 0;
     state.fcKnown = 0;
@@ -759,7 +739,6 @@
         ` : ''}
 
         <div class="flashcard-container">
-          <!-- Progress -->
           <div class="flashcard-progress">
             <div class="progress-bar-track">
               <div class="progress-bar-fill" style="width: ${((state.fcIndex) / total) * 100}%"></div>
@@ -767,7 +746,6 @@
             <span class="progress-text">${state.fcIndex + 1}/${total}</span>
           </div>
 
-          <!-- Flashcard -->
           <div class="flashcard" id="flashcard">
             <div class="flashcard-inner">
               <div class="flashcard-face flashcard-front">
@@ -783,7 +761,6 @@
             </div>
           </div>
 
-          <!-- Controls -->
           <div class="flashcard-controls">
             <button class="fc-btn fc-btn-skip" id="fc-skip">⏭️ Skip</button>
             <button class="fc-btn fc-btn-know" id="fc-speak" style="background: var(--accent-soft); color: var(--accent);">🔊 सुनें</button>
@@ -793,7 +770,6 @@
       </div>
     `;
 
-    // Bind events
     const flashcard = $('#flashcard');
     flashcard.addEventListener('click', () => flashcard.classList.toggle('flipped'));
 
@@ -801,7 +777,6 @@
     $('#fc-know').addEventListener('click', () => nextFlashcard(categories, activeSlug, true));
     $('#fc-speak').addEventListener('click', () => speakWord(word));
 
-    // Bind category switching
     if (categories) {
       $$('#fc-category-chips .category-chip').forEach(chip => {
         chip.addEventListener('click', () => {
@@ -816,7 +791,6 @@
     state.fcIndex++;
 
     if (state.fcIndex >= state.fcDeck.length) {
-      // Session complete
       appContent.innerHTML = `
         <div class="animate-fade-in flashcard-container" style="padding-top: var(--sp-12);">
           <div class="card text-center" style="padding: var(--sp-10);">
@@ -838,7 +812,7 @@
     renderFlashcardUI(categories, activeSlug);
   }
 
-  // ── 6f. PROFILE ──
+  // ── 7e. PROFILE ──
   function renderProfile() {
     const streak = StreakTracker.get();
     const userName = localStorage.getItem(STORAGE_KEYS.userName) || 'विद्यार्थी';
@@ -854,7 +828,6 @@
 
         <div class="settings-group">
           <div class="settings-group-title">सामान्य</div>
-          
           <div class="settings-item" id="setting-name">
             <div class="settings-item-icon">✏️</div>
             <div class="settings-item-text">
@@ -862,7 +835,6 @@
               <div class="settings-item-desc">${escHtml(userName)}</div>
             </div>
           </div>
-
           <div class="settings-item" id="setting-theme">
             <div class="settings-item-icon">${theme === 'dark' ? '🌙' : '☀️'}</div>
             <div class="settings-item-text">
@@ -874,7 +846,6 @@
 
         <div class="settings-group">
           <div class="settings-group-title">आँकड़े</div>
-          
           <div class="settings-item">
             <div class="settings-item-icon">🔥</div>
             <div class="settings-item-text">
@@ -882,7 +853,6 @@
               <div class="settings-item-desc">${streak} दिन</div>
             </div>
           </div>
-
           <div class="settings-item">
             <div class="settings-item-icon">📚</div>
             <div class="settings-item-text">
@@ -893,16 +863,7 @@
         </div>
 
         <div class="settings-group">
-          <div class="settings-group-title">ऐप के बारे में</div>
-          
-          <div class="settings-item">
-            <div class="settings-item-icon">ℹ️</div>
-            <div class="settings-item-text">
-              <div class="settings-item-title">English Vidya</div>
-              <div class="settings-item-desc">Version 1.0 — हिंदी माध्यम के छात्रों के लिए</div>
-            </div>
-          </div>
-
+          <div class="settings-group-title">Share</div>
           <div class="settings-item" id="setting-share">
             <div class="settings-item-icon">📤</div>
             <div class="settings-item-text">
@@ -914,7 +875,6 @@
       </div>
     `;
 
-    // Bind events
     $('#setting-name').addEventListener('click', () => {
       const newName = prompt('अपना नाम लिखें:', userName);
       if (newName && newName.trim()) {
@@ -924,7 +884,7 @@
       }
     });
 
-    $('#setting-theme').addEventListener('click', () => ThemeManager.toggle());
+    $('#setting-theme').addEventListener('click', (e) => ThemeManager.toggle(e));
 
     $('#setting-share').addEventListener('click', () => {
       const shareText = `English Vidya — अंग्रेजी सीखने का सबसे आसान तरीका! 📚🔥\n\n19,773 शब्द, 60 Grammar पाठ, Flashcards — सब मुफ़्त!\n\n👉 ${location.origin}`;
@@ -938,7 +898,7 @@
   }
 
   // ═══════════════════════════════════════════════════
-  //  7. SPEECH SYNTHESIS (Pronunciation)
+  //  8. SPEECH SYNTHESIS (Pronunciation)
   // ═══════════════════════════════════════════════════
   function speakWord(word) {
     if (!word || !('speechSynthesis' in window)) {
@@ -954,7 +914,7 @@
   }
 
   // ═══════════════════════════════════════════════════
-  //  8. SCROLL PROGRESS
+  //  9. SCROLL PROGRESS
   // ═══════════════════════════════════════════════════
   function initScrollProgress() {
     window.addEventListener('scroll', () => {
@@ -966,7 +926,7 @@
   }
 
   // ═══════════════════════════════════════════════════
-  //  9. TOAST SYSTEM
+  //  10. TOAST NOTIFICATIONS
   // ═══════════════════════════════════════════════════
   function showToast(message, duration = 2500) {
     const toast = document.createElement('div');
@@ -981,7 +941,7 @@
   }
 
   // ═══════════════════════════════════════════════════
-  //  10. UTILITY FUNCTIONS
+  //  11. UTILITY FUNCTIONS
   // ═══════════════════════════════════════════════════
   function escHtml(str) {
     if (!str) return '';
@@ -1014,19 +974,176 @@
   }
 
   // ═══════════════════════════════════════════════════
-  //  11. INITIALIZE APPLICATION
+  //  12. INITIALIZE GLOBAL LISTENERS & INTERACTION ENGINE
   // ═══════════════════════════════════════════════════
   function init() {
     ThemeManager.init();
     SearchEngine.init();
     initScrollProgress();
-    Router.init();
 
+    // 🛡️ Security Rule 3: Event delegation for Morphing cards
+    const morphContainer = $('#morph-cards-container');
+    if (morphContainer) {
+      morphContainer.addEventListener('click', (e) => {
+        const header = e.target.closest('.morph-card-header');
+        if (!header) return;
+
+        const card = header.closest('.morph-card');
+        if (!card) return;
+
+        const content = card.querySelector('.morph-card-content');
+        const indicator = card.querySelector('.morph-card-indicator');
+        if (!content || !indicator) return;
+
+        const isExpanded = card.classList.contains('expanded');
+
+        morphContainer.querySelectorAll('.morph-card').forEach(c => {
+          c.classList.remove('expanded');
+          const innerContent = c.querySelector('.morph-card-content');
+          const innerIndicator = c.querySelector('.morph-card-indicator');
+          if (innerContent) innerContent.style.maxHeight = '0px';
+          if (innerIndicator) innerIndicator.style.transform = 'rotate(0deg)';
+        });
+
+        if (!isExpanded) {
+          card.classList.add('expanded');
+          content.style.maxHeight = content.scrollHeight + 'px';
+          indicator.style.transform = 'rotate(180deg)';
+          setTimeout(() => {
+            card.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+          }, 150);
+        }
+      });
+    }
+
+    // 🛡️ Security Rule 1 & 4: Contact Form validation, escape, and localStorage submission
+    const contactForm = $('#contact-form');
+    if (contactForm) {
+      contactForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        
+        const name = $('#contact-name').value.trim();
+        const email = $('#contact-email').value.trim();
+        const category = $('#contact-category').value;
+        const message = $('#contact-message').value.trim();
+        const submitBtn = $('#contact-submit-btn');
+
+        if (!name || !email || !message) {
+          showToast('⚠️ सभी आवश्यक फ़ील्ड भरें!');
+          return;
+        }
+
+        submitBtn.disabled = true;
+        submitBtn.innerHTML = '⏳ संदेश भेजा जा रहा है...';
+
+        setTimeout(() => {
+          const submissions = JSON.parse(localStorage.getItem('ev-contact-submissions') || '[]');
+          
+          // Cap at 10 to prevent storage overflow
+          if (submissions.length >= 10) {
+            submissions.shift();
+          }
+
+          submissions.push({ name, email, category, message, timestamp: new Date().toISOString() });
+          localStorage.setItem('ev-contact-submissions', JSON.stringify(submissions));
+
+          const container = $('#contact-form-container');
+          container.innerHTML = `
+            <div class="text-center animate-fade-in" style="padding: var(--sp-6);">
+              <p style="font-size: 3.5rem; margin-bottom: var(--sp-4);">🎉</p>
+              <h2 style="color: var(--accent); margin-bottom: var(--sp-2);">संदेश सफलतापूर्वक दर्ज!</h2>
+              <p class="text-secondary" style="font-size: 1.02rem; line-height: 1.5;">
+                नमस्ते <strong>${escHtml(name)}</strong>, आपका संदेश हमारे सपोर्ट डेटाबेस में सुरक्षित रूप से दर्ज कर लिया गया है।
+              </p>
+              
+              <div style="margin-top: var(--sp-6); background: var(--bg-primary); padding: var(--sp-4); border-radius: 12px; border: 1px solid var(--border); text-align: left;">
+                <p style="font-size: 0.85rem; color: var(--text-secondary); text-transform: uppercase; font-weight: 600; margin-bottom: 5px;">दर्ज किया गया विवरण:</p>
+                <p style="margin-bottom: 5px;"><strong>विषय:</strong> ${escHtml(category)}</p>
+                <p style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.4;">"${escHtml(message)}"</p>
+              </div>
+
+              <div style="margin-top: var(--sp-6); display: flex; flex-direction: column; gap: var(--sp-3);">
+                <a href="https://wa.me/919999999999?text=${encodeURIComponent('नमस्ते English Vidya, मेरा नाम ' + name + ' है। मैंने वेबसाइट पर एक संदेश दर्ज किया है: ' + message)}" 
+                   target="_blank" 
+                   class="promo-btn primary" 
+                   style="background: #10b981; border-color: #10b981; text-decoration: none; color: #fff; font-size: 0.95rem; padding: 12px; display: block; border-radius: 8px; font-weight: 700; text-align:center;">
+                  💬 सीधे WhatsApp पर भी भेजें
+                </a>
+                <button class="promo-btn secondary" onclick="location.hash='#/'" style="padding: 12px; border-radius: 8px; cursor:pointer;">
+                  🏠 होम पेज पर वापस जाएँ
+                </button>
+              </div>
+            </div>
+          `;
+
+          showToast('✅ संदेश सुरक्षित रूप से भेजा गया!');
+        }, 1000);
+      });
+    }
+
+    // 🛡️ Security Rule 3: Event delegation for Legal page tab shifting
+    const tabsContainer = $('#legal-tabs');
+    if (tabsContainer) {
+      tabsContainer.addEventListener('click', (e) => {
+        const btn = e.target.closest('button');
+        if (!btn) return;
+
+        const activeTab = btn.dataset.tab;
+        
+        tabsContainer.querySelectorAll('button').forEach(b => {
+          b.classList.remove('active');
+          b.style.background = 'var(--bg-raised)';
+          b.style.border = '1px solid var(--border)';
+          b.style.color = 'var(--text-secondary)';
+        });
+
+        btn.classList.add('active');
+        btn.style.background = 'var(--gradient-accent)';
+        btn.style.border = 'none';
+        btn.style.color = '#fff';
+
+        const contentContainer = $('#legal-content-container');
+        if (!contentContainer) return;
+
+        if (activeTab === 'disclaimer') {
+          contentContainer.innerHTML = `
+            <div class="legal-tab-pane animate-fade-in">
+              <h2 style="color: var(--accent); margin-bottom: var(--sp-4);">अस्वीकरण (Disclaimer)</h2>
+              <p><strong>1. केवल शैक्षिक उद्देश्य:</strong> English Vidya पर उपलब्ध सभी अध्ययन सामग्री, शब्दकोश, व्याकरण नियम और पाठ केवल शैक्षिक और सामान्य सूचनात्मक उद्देश्यों के लिए प्रदान किए गए हैं। हम किसी भी प्रकार की सरकारी नौकरी या परीक्षा में 100% सफलता की गारंटी नहीं देते हैं।</p>
+              <p style="margin-top: 15px;"><strong>2. सटीकता और त्रुटियां:</strong> हालांकि हमने 19,773 शब्दों और व्याकरण नियमों के संकलन में अत्यधिक सावधानी बरती है, फिर भी इसमें मानवीय या लिपिकीय त्रुटियां हो सकती हैं। छात्र से अनुरोध है कि वे किसी भी महत्वपूर्ण परीक्षा से पहले दोबारा जांच लें।</p>
+              <p style="margin-top: 15px;"><strong>3. बाहरी लिंक्स:</strong> हमारी पाठ्यसामग्री में वीडियो एम्बेड (जैसे YouTube embeds) शामिल हैं जो तीसरे पक्ष के सर्वर्स पर होस्ट किए गए हैं। इन वीडियो की सामग्री या विज्ञापनों पर हमारा कोई नियंत्रण नहीं है।</p>
+            </div>
+          `;
+        } else if (activeTab === 'privacy') {
+          contentContainer.innerHTML = `
+            <div class="legal-tab-pane animate-fade-in">
+              <h2 style="color: var(--accent); margin-bottom: var(--sp-4);">गोपनीयता नीति (Privacy Policy)</h2>
+              <p><strong>1. 100% विज्ञापन-मुक्त और सुरक्षित:</strong> English Vidya छात्रों की गोपनीयता का पूर्ण सम्मान करती है। हम छात्रों का कोई भी निजी डेटा (जैसे नाम, ईमेल, प्रोग्रेस) किसी तीसरे पक्ष या विज्ञापन नेटवर्क को कभी भी बेचते या साझा नहीं करते हैं।</p>
+              <p style="margin-top: 15px;"><strong>2. प्रमाणीकरण (Authentication):</strong> लॉगिन के लिए हम Google Sign-In (OAuth) का उपयोग करते हैं। पासवर्ड रहित सुरक्षित प्रमाणीकरण के लिए आपका Google सत्र टोकन केवल आपके ब्राउज़र में Secure HttpOnly Cookies के माध्यम से स्थानांतरित किया जाता है, जिसे जावास्क्रिप्ट द्वारा चोरी नहीं किया जा सकता।</p>
+              <p style="margin-top: 15px;"><strong>3. स्थानीय संग्रहण (Local Storage):</strong> छात्र की दैनिक स्ट्रीक्स, हाल ही की खोजें और संपर्क फ़ॉर्म सबमिशन स्थानीय रूप से ब्राउज़र के \`localStorage\` में संग्रहीत होते हैं, ताकि बिना इंटरनेट के भी ऐप सुचारू रूप से काम कर सके।</p>
+              <p style="margin-top: 15px;"><strong>4. विश्लेषण (Analytics):</strong> हम अपनी वेबसाइट के ट्रैफ़िक की निगरानी के लिए Cloudflare के निजता-अनुकूल edge analytics का उपयोग करते हैं, जो छात्र के कंप्यूटर पर बिना कोई कुकी या जावास्क्रिप्ट चलाए सुरक्षित रूप से काम करता है।</p>
+            </div>
+          `;
+        } else if (activeTab === 'liability') {
+          contentContainer.innerHTML = `
+            <div class="legal-tab-pane animate-fade-in">
+              <h2 style="color: var(--accent); margin-bottom: var(--sp-4);">सीमित दायित्व (Limited Liability)</h2>
+              <p><strong>1. कोई वारंटी नहीं:</strong> यह वेबसाइट "जैसी है" (As-Is) और "जैसी उपलब्ध है" (As-Available) के आधार पर बिना किसी वारंटी के प्रदान की गई है। हम यह गारंटी नहीं देते कि सेवा निर्बाध, त्रुटिहीन या वायरस-मुक्त होगी।</p>
+              <p style="margin-top: 15px;"><strong>2. हानि की सीमा:</strong> कानून द्वारा अनुमत अधिकतम सीमा तक, English Vidya, इसके निर्माता, या साझेदार किसी भी प्रत्यक्ष, अप्रत्यक्ष, आकस्मिक, या दंडात्मक नुकसान (जैसे डेटा हानि, फोन का धीमा होना, या स्ट्रीक टूटने से होने वाला मानसिक तनाव) के लिए उत्तरदायी नहीं होंगे।</p>
+              <p style="margin-top: 15px;"><strong>3. स्वैच्छिक योगदान और ई-बुक:</strong> यदि छात्र वैकल्पिक व्याकरण ई-बुक ख़रीदते हैं, तो वह भुगतान पूरी तरह से सुरक्षित मर्चेंट चैनल के माध्यम से किया जाएगा। किसी भी असफल भुगतान या तकनीकी समस्या की स्थिति में, संबंधित पेमेंट गेटवे की नीतियां लागू होंगी, हालांकि हम आपकी पूरी सहायता करने का प्रयास करेंगे।</p>
+            </div>
+          `;
+        }
+      });
+    }
+
+    Router.init();
+    
     // Pre-load search index in background
     setTimeout(() => ensureSearchIndex(), 2000);
   }
 
-  // Boot
+  // Boot Application
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', init);
   } else {

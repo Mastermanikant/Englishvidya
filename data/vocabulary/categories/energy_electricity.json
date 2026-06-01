@@ -1,1 +1,263 @@
-﻿[{"word":"Energy","category":"Energy/Electricity","definition":"The property of matter and radiation which is manifest as a capacity to perform work."},{"word":"Joule","category":"Energy/Electricity","definition":"The SI unit of work or energy."},{"word":"Kinetic Energy","category":"Energy/Electricity","definition":"Energy which a body possesses by virtue of being in motion."},{"word":"Potential Energy","category":"Energy/Electricity","definition":"The energy possessed by a body by virtue of its position relative to others, stresses within itself, electric charge, and other factors."},{"word":"Thermal Energy","category":"Energy/Electricity","definition":"Energy possessed by an object or system due to the movement of particles within the object or the system."},{"word":"Chemical Energy","category":"Energy/Electricity","definition":"Energy stored in the bonds of chemical compounds."},{"word":"Nuclear Energy","category":"Energy/Electricity","definition":"The energy released during nuclear fission or fusion, especially when used to generate electricity."},{"word":"Mechanical Energy","category":"Energy/Electricity","definition":"The sum of potential energy and kinetic energy."},{"word":"Conservation of Energy","category":"Energy/Electricity","definition":"A principle stating that energy cannot be created or destroyed, but can be altered from one form to another."},{"word":"Entropy","category":"Energy/Electricity","definition":"A thermodynamic quantity representing the unavailability of a system\u0027s thermal energy for conversion into mechanical work."},{"word":"Thermodynamics","category":"Energy/Electricity","definition":"The branch of physical science that deals with the relations between heat and other forms of energy."},{"word":"Heat","category":"Energy/Electricity","definition":"Energy that is transferred from one body to another as the result of a difference in temperature."},{"word":"Conduction","category":"Energy/Electricity","definition":"The process by which heat or electricity is directly transmitted through a substance."},{"word":"Convection","category":"Energy/Electricity","definition":"The movement caused within a fluid by the tendency of hotter and therefore less dense material to rise, and colder, denser material to sink under the influence of gravity."},{"word":"Radiation","category":"Energy/Electricity","definition":"The emission of energy as electromagnetic waves or as moving subatomic particles."},{"word":"Temperature","category":"Energy/Electricity","definition":"The degree or intensity of heat present in a substance or object."},{"word":"Electricity","category":"Energy/Electricity","definition":"A form of energy resulting from the existence of charged particles (such as electrons or protons), either statically as an accumulation of charge or dynamically as a current."},{"word":"Charge","category":"Energy/Electricity","definition":"The physical property of matter that causes it to experience a force when placed in an electromagnetic field."},{"word":"Electron","category":"Energy/Electricity","definition":"A stable subatomic particle with a charge of negative electricity, found in all atoms."},{"word":"Proton","category":"Energy/Electricity","definition":"A stable subatomic particle occurring in all atomic nuclei, with a positive electric charge equal in magnitude to that of an electron, but of opposite sign."},{"word":"Neutron","category":"Energy/Electricity","definition":"A subatomic particle of about the same mass as a proton but without an electric charge, present in all atomic nuclei except those of ordinary hydrogen."},{"word":"Ion","category":"Energy/Electricity","definition":"An atom or molecule with a net electric charge due to the loss or gain of one or more electrons."},{"word":"Current","category":"Energy/Electricity","definition":"A flow of electricity which results from the ordered directional movement of electrically charged particles."},{"word":"Voltage","category":"Energy/Electricity","definition":"An electromotive force or potential difference expressed in volts."},{"word":"Resistance","category":"Energy/Electricity","definition":"The degree to which a substance or device opposes the passage of an electric current, causing energy dissipation."},{"word":"Ohm","category":"Energy/Electricity","definition":"The SI unit of electrical resistance."},{"word":"Ampere","category":"Energy/Electricity","definition":"A unit of electric current equal to a flow of one coulomb per second."},{"word":"Watt","category":"Energy/Electricity","definition":"The SI unit of power, equivalent to one joule per second."},{"word":"Circuit","category":"Energy/Electricity","definition":"A path in which electrons from a voltage or current source flow."},{"word":"Capacitance","category":"Energy/Electricity","definition":"The ability of a system to store an electric charge."},{"word":"Induction","category":"Energy/Electricity","definition":"The production of an electromotive force across an electrical conductor in a changing magnetic field."},{"word":"Transformer","category":"Energy/Electricity","definition":"An apparatus for reducing or increasing the voltage of an alternating current."},{"word":"Generator","category":"Energy/Electricity","definition":"A dynamo or similar machine for converting mechanical energy into electricity."},{"word":"Motor","category":"Energy/Electricity","definition":"A machine, especially one powered by electricity or internal combustion, that supplies motive power for a vehicle or for some other device with moving parts."},{"word":"Superconductor","category":"Energy/Electricity","definition":"A substance capable of becoming superconducting at sufficiently low temperatures."}]
+[
+  {
+    "word": "Ampere",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "A unit of electric current equal to a flow of one coulomb per second.",
+    "example": "",
+    "category": "Energy & Electricity",
+    "subCategory": "Energy/electricity"
+  },
+  {
+    "word": "Capacitance",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "The ability of a system to store an electric charge.",
+    "example": "",
+    "category": "Energy & Electricity",
+    "subCategory": "Energy/electricity"
+  },
+  {
+    "word": "Charge",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "The physical property of matter that causes it to experience a force when placed in an electromagnetic field.",
+    "example": "",
+    "category": "Energy & Electricity",
+    "subCategory": "Energy/electricity"
+  },
+  {
+    "word": "Chemical Energy",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "Energy stored in the bonds of chemical compounds.",
+    "example": "",
+    "category": "Energy & Electricity",
+    "subCategory": "Energy/electricity"
+  },
+  {
+    "word": "Circuit",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "A path in which electrons from a voltage or current source flow.",
+    "example": "",
+    "category": "Energy & Electricity",
+    "subCategory": "Energy/electricity"
+  },
+  {
+    "word": "Conduction",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "The process by which heat or electricity is directly transmitted through a substance.",
+    "example": "",
+    "category": "Energy & Electricity",
+    "subCategory": "Energy/electricity"
+  },
+  {
+    "word": "Conservation of Energy",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "A principle stating that energy cannot be created or destroyed, but can be altered from one form to another.",
+    "example": "",
+    "category": "Energy & Electricity",
+    "subCategory": "Energy/electricity"
+  },
+  {
+    "word": "Convection",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "The movement caused within a fluid by the tendency of hotter and therefore less dense material to rise, and colder, denser material to sink under the influence of gravity.",
+    "example": "",
+    "category": "Energy & Electricity",
+    "subCategory": "Energy/electricity"
+  },
+  {
+    "word": "Current",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "A flow of electricity which results from the ordered directional movement of electrically charged particles.",
+    "example": "",
+    "category": "Energy & Electricity",
+    "subCategory": "Energy/electricity"
+  },
+  {
+    "word": "Electron",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "A stable subatomic particle with a charge of negative electricity, found in all atoms.",
+    "example": "",
+    "category": "Energy & Electricity",
+    "subCategory": "Energy/electricity"
+  },
+  {
+    "word": "Generator",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "A dynamo or similar machine for converting mechanical energy into electricity.",
+    "example": "",
+    "category": "Energy & Electricity",
+    "subCategory": "Energy/electricity"
+  },
+  {
+    "word": "Ion",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "An atom or molecule with a net electric charge due to the loss or gain of one or more electrons.",
+    "example": "",
+    "category": "Energy & Electricity",
+    "subCategory": "Energy/electricity"
+  },
+  {
+    "word": "Joule",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "The SI unit of work or energy.",
+    "example": "",
+    "category": "Energy & Electricity",
+    "subCategory": "Energy/electricity"
+  },
+  {
+    "word": "Kinetic Energy",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "Energy which a body possesses by virtue of being in motion.",
+    "example": "",
+    "category": "Energy & Electricity",
+    "subCategory": "Energy/electricity"
+  },
+  {
+    "word": "Mechanical Energy",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "The sum of potential energy and kinetic energy.",
+    "example": "",
+    "category": "Energy & Electricity",
+    "subCategory": "Energy/electricity"
+  },
+  {
+    "word": "Motor",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "A machine, especially one powered by electricity or internal combustion, that supplies motive power for a vehicle or for some other device with moving parts.",
+    "example": "",
+    "category": "Energy & Electricity",
+    "subCategory": "Energy/electricity"
+  },
+  {
+    "word": "Neutron",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "A subatomic particle of about the same mass as a proton but without an electric charge, present in all atomic nuclei except those of ordinary hydrogen.",
+    "example": "",
+    "category": "Energy & Electricity",
+    "subCategory": "Energy/electricity"
+  },
+  {
+    "word": "Nuclear Energy",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "The energy released during nuclear fission or fusion, especially when used to generate electricity.",
+    "example": "",
+    "category": "Energy & Electricity",
+    "subCategory": "Energy/electricity"
+  },
+  {
+    "word": "Ohm",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "The SI unit of electrical resistance.",
+    "example": "",
+    "category": "Energy & Electricity",
+    "subCategory": "Energy/electricity"
+  },
+  {
+    "word": "Potential Energy",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "The energy possessed by a body by virtue of its position relative to others, stresses within itself, electric charge, and other factors.",
+    "example": "",
+    "category": "Energy & Electricity",
+    "subCategory": "Energy/electricity"
+  },
+  {
+    "word": "Proton",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "A stable subatomic particle occurring in all atomic nuclei, with a positive electric charge equal in magnitude to that of an electron, but of opposite sign.",
+    "example": "",
+    "category": "Energy & Electricity",
+    "subCategory": "Energy/electricity"
+  },
+  {
+    "word": "Radiation",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "The emission of energy as electromagnetic waves or as moving subatomic particles.",
+    "example": "",
+    "category": "Energy & Electricity",
+    "subCategory": "Energy/electricity"
+  },
+  {
+    "word": "Resistance",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "The degree to which a substance or device opposes the passage of an electric current, causing energy dissipation.",
+    "example": "",
+    "category": "Energy & Electricity",
+    "subCategory": "Energy/electricity"
+  },
+  {
+    "word": "Superconductor",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "A substance capable of becoming superconducting at sufficiently low temperatures.",
+    "example": "",
+    "category": "Energy & Electricity",
+    "subCategory": "Energy/electricity"
+  },
+  {
+    "word": "Thermal Energy",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "Energy possessed by an object or system due to the movement of particles within the object or the system.",
+    "example": "",
+    "category": "Energy & Electricity",
+    "subCategory": "Energy/electricity"
+  },
+  {
+    "word": "Thermodynamics",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "The branch of physical science that deals with the relations between heat and other forms of energy.",
+    "example": "",
+    "category": "Energy & Electricity",
+    "subCategory": "Energy/electricity"
+  },
+  {
+    "word": "Transformer",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "An apparatus for reducing or increasing the voltage of an alternating current.",
+    "example": "",
+    "category": "Energy & Electricity",
+    "subCategory": "Energy/electricity"
+  },
+  {
+    "word": "Voltage",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "An electromotive force or potential difference expressed in volts.",
+    "example": "",
+    "category": "Energy & Electricity",
+    "subCategory": "Energy/electricity"
+  },
+  {
+    "word": "Watt",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "The SI unit of power, equivalent to one joule per second.",
+    "example": "",
+    "category": "Energy & Electricity",
+    "subCategory": "Energy/electricity"
+  }
+]

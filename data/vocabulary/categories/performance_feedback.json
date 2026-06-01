@@ -1,1 +1,209 @@
-﻿[{"word":"Constructive Criticism","meaning":"Helpful feedback that points out specific problems in someone\u0027s work but also offers suggestions for improvement.","example":"She accepted the constructive criticism about her presentation and worked to make her slides clearer.","category":"Performance Feedback"},{"word":"Performance Review","meaning":"A formal assessment in which a manager evaluates an employee\u0027s work performance, identifies strengths and weaknesses, and sets goals.","example":"During my annual performance review, my boss praised my sales figures but suggested improving my typing speed.","category":"Performance Feedback"},{"word":"360-Degree Feedback","meaning":"A performance evaluation method where feedback is gathered from an employee\u0027s supervisors, peers, and subordinates.","example":"The company uses 360-degree feedback to give managers a complete picture of how their leadership style is perceived.","category":"Performance Feedback"},{"word":"Performance Improvement Plan","meaning":"A structured plan with clear goals designed to help an underperforming employee improve to meet company standards.","example":"After failing to meet his sales targets, he was placed on a three-month performance improvement plan.","category":"Performance Feedback"},{"word":"Professional Development","meaning":"The process of obtaining new skills, qualifications, and experience to advance in one\u0027s career.","example":"The company offers tuition reimbursement to encourage continuous professional development among its staff.","category":"Performance Feedback"},{"word":"Coaching Session","meaning":"A meeting between a manager or coach and an employee to guide, train, and help them improve specific skills.","example":"During our weekly coaching session, we practiced handling difficult client conversations.","category":"Performance Feedback"},{"word":"Active Listening","meaning":"A communication technique that involves fully focusing on, understanding, responding to, and remembering what the speaker is saying.","example":"By using active listening, the manager was able to understand the employee\u0027s concerns about the workload.","category":"Performance Feedback"},{"word":"Feedback Loop","meaning":"A process in which the output of a system or project is used as input for future improvement.","example":"Setting up a feedback loop with customers allowed the development team to fix software bugs quickly.","category":"Performance Feedback"},{"word":"Mentorship","meaning":"A professional relationship in which an experienced person guides and advises a less experienced colleague.","example":"The corporate mentorship program pairs new hires with senior directors to help them navigate the company.","category":"Performance Feedback"},{"word":"Course Correction","meaning":"A change in plans, strategy, or behavior to correct a mistake or improve the chances of success.","example":"The project was over budget, so the manager made a course correction by cutting unnecessary software subscriptions.","category":"Performance Feedback"},{"word":"Employee Recognition","meaning":"The act of publicly or privately praising and rewarding employees for their hard work and achievements.","example":"Employee recognition, such as the \u0027Employee of the Month\u0027 award, boosts morale in the office.","category":"Performance Feedback"},{"word":"Peer Review","meaning":"The evaluation of work or performance by colleagues who are at the same level of authority in the company.","example":"Before sending the proposal to the client, we conducted a peer review to check for errors.","category":"Performance Feedback"},{"word":"Developmental Goal","meaning":"A target set by an employee and manager to help the employee acquire new skills or grow in their career.","example":"Her main developmental goal for this quarter was to improve her public speaking skills.","category":"Performance Feedback"},{"word":"Radical Candor","meaning":"A communication style where a manager challenges employees directly while showing that they care about them personally.","example":"Using radical candor, the director told the designer that the logo was confusing, but offered to help redesign it.","category":"Performance Feedback"},{"word":"Feedforward","meaning":"The practice of giving constructive suggestions for future performance rather than focusing on past mistakes.","example":"Instead of criticising the failed presentation, the coach used feedforward to suggest ideas for the next one.","category":"Performance Feedback"},{"word":"Constructive Feedback","meaning":"Supportive and actionable information given to an employee to help them improve their skills or performance.","example":"The supervisor provided constructive feedback on the report, pointing out areas where data was missing.","category":"Performance Feedback"},{"word":"Strengths Finder","meaning":"An assessment or tool used to identify an individual\u0027s unique talents, strengths, and areas of highest potential.","example":"Our team completed a strengths finder test to see how we could better divide our project responsibilities.","category":"Performance Feedback"},{"word":"Performance Metrics","meaning":"Numeric measures of activities and results used to track and assess the efficiency and effectiveness of business processes.","example":"We track performance metrics like average call duration and customer satisfaction weekly.","category":"Performance Feedback"},{"word":"Performance Appraisal","meaning":"A regular, structured review of an employee\u0027s job performance and overall contribution to a company.","example":"The HR department scheduled performance appraisals for all team members at the end of the fiscal year.","category":"Performance Feedback"},{"word":"Goal Setting","meaning":"The process of identifying something that you want to accomplish and establishing measurable targets and timeframes to achieve it.","example":"Effective goal setting should follow the SMART framework--Specific, Measurable, Achievable, Relevant, and Time-bound.","category":"Performance Feedback"},{"word":"Development Plan","meaning":"A document outlining the training, projects, and goals an employee needs to work on to improve their career path.","example":"The manager worked with the new designer to create a personalized development plan for the year.","category":"Performance Feedback"},{"word":"Growth Opportunity","meaning":"A situation, task, or role that allows an individual to expand their knowledge, skills, and professional status.","example":"Leading the project team was a massive growth opportunity for the junior engineer.","category":"Performance Feedback"},{"word":"One-On-One Meeting","meaning":"A regular private meeting between a manager and a direct report to discuss work, challenges, and career progress.","example":"I use my weekly one-on-one meeting with my boss to ask for advice on difficult accounts.","category":"Performance Feedback"},{"word":"Area For Improvement","meaning":"A specific skill, behavior, or task where an employee needs to perform better or gain more knowledge.","example":"Timeliness in responding to emails was noted as an area for improvement in her review.","category":"Performance Feedback"},{"word":"Positive Reinforcement","meaning":"The practice of rewarding or praising desirable behavior in order to encourage employees to repeat it.","example":"The supervisor used positive reinforcement by giving gift cards to employees who met their safety targets.","category":"Performance Feedback"},{"word":"Skill Gap Analysis","meaning":"A tool used to identify the difference between the skills a team has and the skills it needs to achieve its goals.","example":"A skill gap analysis revealed that our marketing team lacked expertise in search engine optimization.","category":"Performance Feedback"},{"word":"Self-Assessment","meaning":"The process of evaluating one\u0027s own work performance, strengths, weaknesses, and professional behavior.","example":"Before my meeting with the manager, I had to fill out a self-assessment form about my projects this year.","category":"Performance Feedback"},{"word":"Performance Tracking","meaning":"The continuous process of monitoring and recording an employee\u0027s output and quality of work over time.","example":"The company uses specialized software for performance tracking of remote workers.","category":"Performance Feedback"},{"word":"Constructive Dialogue","meaning":"A productive, open conversation where participants listen to each other and work toward understanding and solution.","example":"A constructive dialogue between the union and management helped prevent a strike.","category":"Performance Feedback"},{"word":"Feedback Session","meaning":"A designated meeting where team members or managers share comments, suggestions, and critiques about a project or performance.","example":"We had a feedback session after the website launch to discuss what went well and what could be improved.","category":"Performance Feedback"}]
+[
+  {
+    "word": "360-Degree Feedback",
+    "meaning": "A performance evaluation method where feedback is gathered from an employee's supervisors, peers, and subordinates.",
+    "pronunciation": "",
+    "definition": "A performance evaluation method where feedback is gathered from an employee's supervisors, peers, and subordinates.",
+    "example": "The company uses 360-degree feedback to give managers a complete picture of how their leadership style is perceived.",
+    "category": "Performance Feedback",
+    "subCategory": "Performance Feedback"
+  },
+  {
+    "word": "Area For Improvement",
+    "meaning": "A specific skill, behavior, or task where an employee needs to perform better or gain more knowledge.",
+    "pronunciation": "",
+    "definition": "A specific skill, behavior, or task where an employee needs to perform better or gain more knowledge.",
+    "example": "Timeliness in responding to emails was noted as an area for improvement in her review.",
+    "category": "Performance Feedback",
+    "subCategory": "Performance Feedback"
+  },
+  {
+    "word": "Coaching Session",
+    "meaning": "A meeting between a manager or coach and an employee to guide, train, and help them improve specific skills.",
+    "pronunciation": "",
+    "definition": "A meeting between a manager or coach and an employee to guide, train, and help them improve specific skills.",
+    "example": "During our weekly coaching session, we practiced handling difficult client conversations.",
+    "category": "Performance Feedback",
+    "subCategory": "Performance Feedback"
+  },
+  {
+    "word": "Constructive Dialogue",
+    "meaning": "A productive, open conversation where participants listen to each other and work toward understanding and solution.",
+    "pronunciation": "",
+    "definition": "A productive, open conversation where participants listen to each other and work toward understanding and solution.",
+    "example": "A constructive dialogue between the union and management helped prevent a strike.",
+    "category": "Performance Feedback",
+    "subCategory": "Performance Feedback"
+  },
+  {
+    "word": "Course Correction",
+    "meaning": "A change in plans, strategy, or behavior to correct a mistake or improve the chances of success.",
+    "pronunciation": "",
+    "definition": "A change in plans, strategy, or behavior to correct a mistake or improve the chances of success.",
+    "example": "The project was over budget, so the manager made a course correction by cutting unnecessary software subscriptions.",
+    "category": "Performance Feedback",
+    "subCategory": "Performance Feedback"
+  },
+  {
+    "word": "Development Plan",
+    "meaning": "A document outlining the training, projects, and goals an employee needs to work on to improve their career path.",
+    "pronunciation": "",
+    "definition": "A document outlining the training, projects, and goals an employee needs to work on to improve their career path.",
+    "example": "The manager worked with the new designer to create a personalized development plan for the year.",
+    "category": "Performance Feedback",
+    "subCategory": "Performance Feedback"
+  },
+  {
+    "word": "Developmental Goal",
+    "meaning": "A target set by an employee and manager to help the employee acquire new skills or grow in their career.",
+    "pronunciation": "",
+    "definition": "A target set by an employee and manager to help the employee acquire new skills or grow in their career.",
+    "example": "Her main developmental goal for this quarter was to improve her public speaking skills.",
+    "category": "Performance Feedback",
+    "subCategory": "Performance Feedback"
+  },
+  {
+    "word": "Employee Recognition",
+    "meaning": "The act of publicly or privately praising and rewarding employees for their hard work and achievements.",
+    "pronunciation": "",
+    "definition": "The act of publicly or privately praising and rewarding employees for their hard work and achievements.",
+    "example": "Employee recognition, such as the 'Employee of the Month' award, boosts morale in the office.",
+    "category": "Performance Feedback",
+    "subCategory": "Performance Feedback"
+  },
+  {
+    "word": "Feedback Session",
+    "meaning": "A designated meeting where team members or managers share comments, suggestions, and critiques about a project or performance.",
+    "pronunciation": "",
+    "definition": "A designated meeting where team members or managers share comments, suggestions, and critiques about a project or performance.",
+    "example": "We had a feedback session after the website launch to discuss what went well and what could be improved.",
+    "category": "Performance Feedback",
+    "subCategory": "Performance Feedback"
+  },
+  {
+    "word": "Feedforward",
+    "meaning": "The practice of giving constructive suggestions for future performance rather than focusing on past mistakes.",
+    "pronunciation": "",
+    "definition": "The practice of giving constructive suggestions for future performance rather than focusing on past mistakes.",
+    "example": "Instead of criticising the failed presentation, the coach used feedforward to suggest ideas for the next one.",
+    "category": "Performance Feedback",
+    "subCategory": "Performance Feedback"
+  },
+  {
+    "word": "Goal Setting",
+    "meaning": "The process of identifying something that you want to accomplish and establishing measurable targets and timeframes to achieve it.",
+    "pronunciation": "",
+    "definition": "The process of identifying something that you want to accomplish and establishing measurable targets and timeframes to achieve it.",
+    "example": "Effective goal setting should follow the SMART framework--Specific, Measurable, Achievable, Relevant, and Time-bound.",
+    "category": "Performance Feedback",
+    "subCategory": "Performance Feedback"
+  },
+  {
+    "word": "Growth Opportunity",
+    "meaning": "A situation, task, or role that allows an individual to expand their knowledge, skills, and professional status.",
+    "pronunciation": "",
+    "definition": "A situation, task, or role that allows an individual to expand their knowledge, skills, and professional status.",
+    "example": "Leading the project team was a massive growth opportunity for the junior engineer.",
+    "category": "Performance Feedback",
+    "subCategory": "Performance Feedback"
+  },
+  {
+    "word": "One-On-One Meeting",
+    "meaning": "A regular private meeting between a manager and a direct report to discuss work, challenges, and career progress.",
+    "pronunciation": "",
+    "definition": "A regular private meeting between a manager and a direct report to discuss work, challenges, and career progress.",
+    "example": "I use my weekly one-on-one meeting with my boss to ask for advice on difficult accounts.",
+    "category": "Performance Feedback",
+    "subCategory": "Performance Feedback"
+  },
+  {
+    "word": "Performance Appraisal",
+    "meaning": "A regular, structured review of an employee's job performance and overall contribution to a company.",
+    "pronunciation": "",
+    "definition": "A regular, structured review of an employee's job performance and overall contribution to a company.",
+    "example": "The HR department scheduled performance appraisals for all team members at the end of the fiscal year.",
+    "category": "Performance Feedback",
+    "subCategory": "Performance Feedback"
+  },
+  {
+    "word": "Performance Improvement Plan",
+    "meaning": "A structured plan with clear goals designed to help an underperforming employee improve to meet company standards.",
+    "pronunciation": "",
+    "definition": "A structured plan with clear goals designed to help an underperforming employee improve to meet company standards.",
+    "example": "After failing to meet his sales targets, he was placed on a three-month performance improvement plan.",
+    "category": "Performance Feedback",
+    "subCategory": "Performance Feedback"
+  },
+  {
+    "word": "Performance Metrics",
+    "meaning": "Numeric measures of activities and results used to track and assess the efficiency and effectiveness of business processes.",
+    "pronunciation": "",
+    "definition": "Numeric measures of activities and results used to track and assess the efficiency and effectiveness of business processes.",
+    "example": "We track performance metrics like average call duration and customer satisfaction weekly.",
+    "category": "Performance Feedback",
+    "subCategory": "Performance Feedback"
+  },
+  {
+    "word": "Performance Review",
+    "meaning": "A formal assessment in which a manager evaluates an employee's work performance, identifies strengths and weaknesses, and sets goals.",
+    "pronunciation": "",
+    "definition": "A formal assessment in which a manager evaluates an employee's work performance, identifies strengths and weaknesses, and sets goals.",
+    "example": "During my annual performance review, my boss praised my sales figures but suggested improving my typing speed.",
+    "category": "Performance Feedback",
+    "subCategory": "Performance Feedback"
+  },
+  {
+    "word": "Performance Tracking",
+    "meaning": "The continuous process of monitoring and recording an employee's output and quality of work over time.",
+    "pronunciation": "",
+    "definition": "The continuous process of monitoring and recording an employee's output and quality of work over time.",
+    "example": "The company uses specialized software for performance tracking of remote workers.",
+    "category": "Performance Feedback",
+    "subCategory": "Performance Feedback"
+  },
+  {
+    "word": "Positive Reinforcement",
+    "meaning": "The practice of rewarding or praising desirable behavior in order to encourage employees to repeat it.",
+    "pronunciation": "",
+    "definition": "The practice of rewarding or praising desirable behavior in order to encourage employees to repeat it.",
+    "example": "The supervisor used positive reinforcement by giving gift cards to employees who met their safety targets.",
+    "category": "Performance Feedback",
+    "subCategory": "Performance Feedback"
+  },
+  {
+    "word": "Professional Development",
+    "meaning": "The process of obtaining new skills, qualifications, and experience to advance in one's career.",
+    "pronunciation": "",
+    "definition": "The process of obtaining new skills, qualifications, and experience to advance in one's career.",
+    "example": "The company offers tuition reimbursement to encourage continuous professional development among its staff.",
+    "category": "Performance Feedback",
+    "subCategory": "Performance Feedback"
+  },
+  {
+    "word": "Radical Candor",
+    "meaning": "A communication style where a manager challenges employees directly while showing that they care about them personally.",
+    "pronunciation": "",
+    "definition": "A communication style where a manager challenges employees directly while showing that they care about them personally.",
+    "example": "Using radical candor, the director told the designer that the logo was confusing, but offered to help redesign it.",
+    "category": "Performance Feedback",
+    "subCategory": "Performance Feedback"
+  },
+  {
+    "word": "Skill Gap Analysis",
+    "meaning": "A tool used to identify the difference between the skills a team has and the skills it needs to achieve its goals.",
+    "pronunciation": "",
+    "definition": "A tool used to identify the difference between the skills a team has and the skills it needs to achieve its goals.",
+    "example": "A skill gap analysis revealed that our marketing team lacked expertise in search engine optimization.",
+    "category": "Performance Feedback",
+    "subCategory": "Performance Feedback"
+  },
+  {
+    "word": "Strengths Finder",
+    "meaning": "An assessment or tool used to identify an individual's unique talents, strengths, and areas of highest potential.",
+    "pronunciation": "",
+    "definition": "An assessment or tool used to identify an individual's unique talents, strengths, and areas of highest potential.",
+    "example": "Our team completed a strengths finder test to see how we could better divide our project responsibilities.",
+    "category": "Performance Feedback",
+    "subCategory": "Performance Feedback"
+  }
+]

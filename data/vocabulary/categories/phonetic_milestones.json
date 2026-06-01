@@ -1,1 +1,182 @@
-﻿[{"word":"Phoneme","meaning":"The smallest unit of sound in a language that can distinguish one word from another (e.g., the sound /p/ in \u0027pin\u0027).","example":"Children must learn to hear the difference between phonemes like /b/ and /p/ to tell \u0027bat\u0027 and \u0027pat\u0027 apart.","category":"Phonetic Milestones"},{"word":"Phonological Processing","meaning":"The ability to analyze, remember, and manipulate speech sounds in words.","example":"Good phonological processing skills help children segment words into individual sounds when they start learning to read.","category":"Phonetic Milestones"},{"word":"Phonotactics","meaning":"The rules of a language that determine which sound combinations are allowed at the beginning, middle, or end of words.","example":"Babies naturally learn English phonotactics and realize that words can start with \u0027str\u0027 but not \u0027rt\u0027.","category":"Phonetic Milestones"},{"word":"Auditory Discrimination","meaning":"The ability to detect differences between similar speech sounds, such as distinguishing \u0027cat\u0027 from \u0027cap\u0027.","example":"Infants have amazing auditory discrimination and can hear sound differences that adults sometimes fail to notice.","category":"Phonetic Milestones"},{"word":"Gliding","meaning":"A phonological process where a child replaces consonant sounds like /l/ or /r/ with /w/ or /j/ (e.g., saying \u0027wabbit\u0027 for \u0027rabbit\u0027).","example":"Gliding is very common in young children and is why many toddlers say \u0027wewy\u0027 instead of \u0027very\u0027.","category":"Phonetic Milestones"},{"word":"Stopping","meaning":"A phonological process where a child replaces fricative sounds (like /f/ or /s/) with stop sounds (like /p/ or /t/), e.g., saying \u0027punny\u0027 for \u0027funny\u0027.","example":"The child showed stopping when she pronounced \u0027sun\u0027 as \u0027tun\u0027 and \u0027fish\u0027 as \u0027pish\u0027.","category":"Phonetic Milestones"},{"word":"Cluster Reduction","meaning":"A phonological process where a child simplifies consonant groups by dropping one of the consonant sounds, e.g., saying \u0027poon\u0027 for \u0027spoon\u0027.","example":"Cluster reduction is the reason why a toddler might refer to a \u0027train\u0027 as a \u0027tain\u0027.","category":"Phonetic Milestones"},{"word":"Fronting","meaning":"A phonological process where sounds made in the back of the mouth (like /k/ or /g/) are replaced by sounds made in the front (like /t/ or /d/).","example":"The toddler\u0027s fronting error turned the word \u0027car\u0027 into \u0027tar\u0027 and \u0027go\u0027 into \u0027do\u0027.","category":"Phonetic Milestones"},{"word":"Syllable Deletion","meaning":"A phonological process where a child drops an unstressed syllable from a word, e.g., saying \u0027nana\u0027 instead of \u0027banana\u0027.","example":"Saying \u0027tato\u0027 instead of \u0027potato\u0027 is a common example of syllable deletion in early child speech.","category":"Phonetic Milestones"},{"word":"Assimilation","meaning":"A phonological process where one sound in a word becomes similar to another sound in the same word, e.g., saying \u0027goggie\u0027 for \u0027doggy\u0027.","example":"The toddler used assimilation when he pronounced the word \u0027tub\u0027 as \u0027bub\u0027.","category":"Phonetic Milestones"},{"word":"Phonological Awareness","meaning":"The ability to recognize and work with the sounds of spoken language, such as rhyming and counting syllables.","example":"Clapping along with the syllables of a word is a great way to build phonological awareness in preschoolers.","category":"Phonetic Milestones"},{"word":"Speech Sounds","meaning":"The individual sounds made by the voice to produce speech, categorized into vowels and consonants.","example":"Young children spend their first years learning how to control their mouth and tongue to make correct speech sounds.","category":"Phonetic Milestones"},{"word":"Phonological System","meaning":"The set of rules and patterns that govern how sounds are organized and used in a specific language.","example":"Every language has its own phonological system, which dictates which sounds can be grouped together.","category":"Phonetic Milestones"},{"word":"Phonetics","meaning":"The study of the physical sounds of human speech, focusing on how sounds are created, heard, and written.","example":"A speech therapist uses phonetics to understand exactly why a child is having trouble making certain sounds.","category":"Phonetic Milestones"},{"word":"Phonology","meaning":"The study of how speech sounds are organized and used as patterns in a specific language.","example":"Phonology helps us understand why children make predictable errors like dropping the \u0027s\u0027 in \u0027stop\u0027.","category":"Phonetic Milestones"},{"word":"Phonetic Inventory","meaning":"The complete collection of speech sounds that a child is able to produce, whether they use them correctly or not.","example":"The therapist noted that the child\u0027s phonetic inventory included most vowels but was missing several consonant sounds.","category":"Phonetic Milestones"},{"word":"Word Envelope","meaning":"The overall rhythmic shape and intonation contour of a word, which children often recognize before the individual consonant sounds.","example":"Even if they can\u0027t pronounce the consonants, toddlers often mimic the word envelope, getting the rhythm and vowels right.","category":"Phonetic Milestones"},{"word":"Speech Discrimination","meaning":"The ability of a child\u0027s brain to distinguish between different speech sounds and sound patterns.","example":"Speech discrimination allows a four-month-old baby to tell their mother\u0027s voice apart from a stranger\u0027s voice.","category":"Phonetic Milestones"},{"word":"Target Phoneme","meaning":"The specific speech sound that a child is aiming to produce in a word.","example":"In practicing the word \u0027sun\u0027, the target phoneme was the initial /s/ sound, which the child was pronouncing as /t/.","category":"Phonetic Milestones"},{"word":"Infant Speech Perception","meaning":"The ability of young infants to hear and distinguish differences between speech sounds, even before they can talk.","example":"Infant speech perception studies show that newborns can distinguish their mother\u0027s native language from other tongues.","category":"Phonetic Milestones"}]
+[
+  {
+    "word": "Assimilation",
+    "meaning": "A phonological process where one sound in a word becomes similar to another sound in the same word, e.g., saying 'goggie' for 'doggy'.",
+    "pronunciation": "",
+    "definition": "A phonological process where one sound in a word becomes similar to another sound in the same word, e.g., saying 'goggie' for 'doggy'.",
+    "example": "The toddler used assimilation when he pronounced the word 'tub' as 'bub'.",
+    "category": "Phonetic Milestones",
+    "subCategory": "Phonetic Milestones"
+  },
+  {
+    "word": "Auditory Discrimination",
+    "meaning": "The ability to detect differences between similar speech sounds, such as distinguishing 'cat' from 'cap'.",
+    "pronunciation": "",
+    "definition": "The ability to detect differences between similar speech sounds, such as distinguishing 'cat' from 'cap'.",
+    "example": "Infants have amazing auditory discrimination and can hear sound differences that adults sometimes fail to notice.",
+    "category": "Phonetic Milestones",
+    "subCategory": "Phonetic Milestones"
+  },
+  {
+    "word": "Cluster Reduction",
+    "meaning": "A phonological process where a child simplifies consonant groups by dropping one of the consonant sounds, e.g., saying 'poon' for 'spoon'.",
+    "pronunciation": "",
+    "definition": "A phonological process where a child simplifies consonant groups by dropping one of the consonant sounds, e.g., saying 'poon' for 'spoon'.",
+    "example": "Cluster reduction is the reason why a toddler might refer to a 'train' as a 'tain'.",
+    "category": "Phonetic Milestones",
+    "subCategory": "Phonetic Milestones"
+  },
+  {
+    "word": "Fronting",
+    "meaning": "A phonological process where sounds made in the back of the mouth (like /k/ or /g/) are replaced by sounds made in the front (like /t/ or /d/).",
+    "pronunciation": "",
+    "definition": "A phonological process where sounds made in the back of the mouth (like /k/ or /g/) are replaced by sounds made in the front (like /t/ or /d/).",
+    "example": "The toddler's fronting error turned the word 'car' into 'tar' and 'go' into 'do'.",
+    "category": "Phonetic Milestones",
+    "subCategory": "Phonetic Milestones"
+  },
+  {
+    "word": "Gliding",
+    "meaning": "A phonological process where a child replaces consonant sounds like /l/ or /r/ with /w/ or /j/ (e.g., saying 'wabbit' for 'rabbit').",
+    "pronunciation": "",
+    "definition": "A phonological process where a child replaces consonant sounds like /l/ or /r/ with /w/ or /j/ (e.g., saying 'wabbit' for 'rabbit').",
+    "example": "Gliding is very common in young children and is why many toddlers say 'wewy' instead of 'very'.",
+    "category": "Phonetic Milestones",
+    "subCategory": "Phonetic Milestones"
+  },
+  {
+    "word": "Infant Speech Perception",
+    "meaning": "The ability of young infants to hear and distinguish differences between speech sounds, even before they can talk.",
+    "pronunciation": "",
+    "definition": "The ability of young infants to hear and distinguish differences between speech sounds, even before they can talk.",
+    "example": "Infant speech perception studies show that newborns can distinguish their mother's native language from other tongues.",
+    "category": "Phonetic Milestones",
+    "subCategory": "Phonetic Milestones"
+  },
+  {
+    "word": "Phoneme",
+    "meaning": "The smallest unit of sound in a language that can distinguish one word from another (e.g., the sound /p/ in 'pin').",
+    "pronunciation": "",
+    "definition": "The smallest unit of sound in a language that can distinguish one word from another (e.g., the sound /p/ in 'pin').",
+    "example": "Children must learn to hear the difference between phonemes like /b/ and /p/ to tell 'bat' and 'pat' apart.",
+    "category": "Phonetic Milestones",
+    "subCategory": "Phonetic Milestones"
+  },
+  {
+    "word": "Phonetic Inventory",
+    "meaning": "The complete collection of speech sounds that a child is able to produce, whether they use them correctly or not.",
+    "pronunciation": "",
+    "definition": "The complete collection of speech sounds that a child is able to produce, whether they use them correctly or not.",
+    "example": "The therapist noted that the child's phonetic inventory included most vowels but was missing several consonant sounds.",
+    "category": "Phonetic Milestones",
+    "subCategory": "Phonetic Milestones"
+  },
+  {
+    "word": "Phonetics",
+    "meaning": "The study of the physical sounds of human speech, focusing on how sounds are created, heard, and written.",
+    "pronunciation": "",
+    "definition": "The study of the physical sounds of human speech, focusing on how sounds are created, heard, and written.",
+    "example": "A speech therapist uses phonetics to understand exactly why a child is having trouble making certain sounds.",
+    "category": "Phonetic Milestones",
+    "subCategory": "Phonetic Milestones"
+  },
+  {
+    "word": "Phonological Awareness",
+    "meaning": "The ability to recognize and work with the sounds of spoken language, such as rhyming and counting syllables.",
+    "pronunciation": "",
+    "definition": "The ability to recognize and work with the sounds of spoken language, such as rhyming and counting syllables.",
+    "example": "Clapping along with the syllables of a word is a great way to build phonological awareness in preschoolers.",
+    "category": "Phonetic Milestones",
+    "subCategory": "Phonetic Milestones"
+  },
+  {
+    "word": "Phonological Processing",
+    "meaning": "The ability to analyze, remember, and manipulate speech sounds in words.",
+    "pronunciation": "",
+    "definition": "The ability to analyze, remember, and manipulate speech sounds in words.",
+    "example": "Good phonological processing skills help children segment words into individual sounds when they start learning to read.",
+    "category": "Phonetic Milestones",
+    "subCategory": "Phonetic Milestones"
+  },
+  {
+    "word": "Phonological System",
+    "meaning": "The set of rules and patterns that govern how sounds are organized and used in a specific language.",
+    "pronunciation": "",
+    "definition": "The set of rules and patterns that govern how sounds are organized and used in a specific language.",
+    "example": "Every language has its own phonological system, which dictates which sounds can be grouped together.",
+    "category": "Phonetic Milestones",
+    "subCategory": "Phonetic Milestones"
+  },
+  {
+    "word": "Phonology",
+    "meaning": "The study of how speech sounds are organized and used as patterns in a specific language.",
+    "pronunciation": "",
+    "definition": "The study of how speech sounds are organized and used as patterns in a specific language.",
+    "example": "Phonology helps us understand why children make predictable errors like dropping the 's' in 'stop'.",
+    "category": "Phonetic Milestones",
+    "subCategory": "Phonetic Milestones"
+  },
+  {
+    "word": "Phonotactics",
+    "meaning": "The rules of a language that determine which sound combinations are allowed at the beginning, middle, or end of words.",
+    "pronunciation": "",
+    "definition": "The rules of a language that determine which sound combinations are allowed at the beginning, middle, or end of words.",
+    "example": "Babies naturally learn English phonotactics and realize that words can start with 'str' but not 'rt'.",
+    "category": "Phonetic Milestones",
+    "subCategory": "Phonetic Milestones"
+  },
+  {
+    "word": "Speech Discrimination",
+    "meaning": "The ability of a child's brain to distinguish between different speech sounds and sound patterns.",
+    "pronunciation": "",
+    "definition": "The ability of a child's brain to distinguish between different speech sounds and sound patterns.",
+    "example": "Speech discrimination allows a four-month-old baby to tell their mother's voice apart from a stranger's voice.",
+    "category": "Phonetic Milestones",
+    "subCategory": "Phonetic Milestones"
+  },
+  {
+    "word": "Speech Sounds",
+    "meaning": "The individual sounds made by the voice to produce speech, categorized into vowels and consonants.",
+    "pronunciation": "",
+    "definition": "The individual sounds made by the voice to produce speech, categorized into vowels and consonants.",
+    "example": "Young children spend their first years learning how to control their mouth and tongue to make correct speech sounds.",
+    "category": "Phonetic Milestones",
+    "subCategory": "Phonetic Milestones"
+  },
+  {
+    "word": "Stopping",
+    "meaning": "A phonological process where a child replaces fricative sounds (like /f/ or /s/) with stop sounds (like /p/ or /t/), e.g., saying 'punny' for 'funny'.",
+    "pronunciation": "",
+    "definition": "A phonological process where a child replaces fricative sounds (like /f/ or /s/) with stop sounds (like /p/ or /t/), e.g., saying 'punny' for 'funny'.",
+    "example": "The child showed stopping when she pronounced 'sun' as 'tun' and 'fish' as 'pish'.",
+    "category": "Phonetic Milestones",
+    "subCategory": "Phonetic Milestones"
+  },
+  {
+    "word": "Syllable Deletion",
+    "meaning": "A phonological process where a child drops an unstressed syllable from a word, e.g., saying 'nana' instead of 'banana'.",
+    "pronunciation": "",
+    "definition": "A phonological process where a child drops an unstressed syllable from a word, e.g., saying 'nana' instead of 'banana'.",
+    "example": "Saying 'tato' instead of 'potato' is a common example of syllable deletion in early child speech.",
+    "category": "Phonetic Milestones",
+    "subCategory": "Phonetic Milestones"
+  },
+  {
+    "word": "Target Phoneme",
+    "meaning": "The specific speech sound that a child is aiming to produce in a word.",
+    "pronunciation": "",
+    "definition": "The specific speech sound that a child is aiming to produce in a word.",
+    "example": "In practicing the word 'sun', the target phoneme was the initial /s/ sound, which the child was pronouncing as /t/.",
+    "category": "Phonetic Milestones",
+    "subCategory": "Phonetic Milestones"
+  },
+  {
+    "word": "Word Envelope",
+    "meaning": "The overall rhythmic shape and intonation contour of a word, which children often recognize before the individual consonant sounds.",
+    "pronunciation": "",
+    "definition": "The overall rhythmic shape and intonation contour of a word, which children often recognize before the individual consonant sounds.",
+    "example": "Even if they can't pronounce the consonants, toddlers often mimic the word envelope, getting the rhythm and vowels right.",
+    "category": "Phonetic Milestones",
+    "subCategory": "Phonetic Milestones"
+  }
+]

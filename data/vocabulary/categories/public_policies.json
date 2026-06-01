@@ -1,1 +1,272 @@
-﻿[{"word":"Legislation","meaning":"A law or set of laws suggested or passed by a government\u0027s law-making body.","example":"The government introduced new legislation to reduce plastic waste and protect the oceans.","category":"Public Policies"},{"word":"Bill","meaning":"A written proposal for a new law that must be discussed and voted on by the legislature before it becomes law.","example":"The representative introduced a bill to increase funding for public school lunch programs.","category":"Public Policies"},{"word":"Veto","meaning":"The power of a leader, like a president or governor, to reject a bill passed by the legislature, preventing it from becoming law.","example":"The president used his veto to block the tax bill because he believed it would hurt working families.","category":"Public Policies"},{"word":"Act","meaning":"A bill that has been officially approved by the law-making body and signed into law.","example":"The Clean Air Act has significantly reduced pollution levels across the country since it was passed.","category":"Public Policies"},{"word":"Amendment","meaning":"A formal change, addition, or correction made to a law, constitution, or other legal document.","example":"The first amendment to the constitution protects the freedom of speech and religion.","category":"Public Policies"},{"word":"Ratify","meaning":"To officially approve and accept a treaty, agreement, or amendment, making it legally binding.","example":"The country voted to ratify the international treaty on carbon emission reductions.","category":"Public Policies"},{"word":"Executive Order","meaning":"A rule or command issued by a president or governor that has the force of law without needing approval from the legislature.","example":"The president signed an executive order to protect public lands from oil drilling.","category":"Public Policies"},{"word":"Decree","meaning":"An official order or decision issued by a ruler or legal authority, which immediately becomes law.","example":"The king issued a decree declaring a national holiday to celebrate the harvest.","category":"Public Policies"},{"word":"Policy Framework","meaning":"A set of guidelines and goals that helps the government plan and make decisions on specific issues.","example":"The government developed a policy framework to guide the transition to renewable energy over the next decade.","category":"Public Policies"},{"word":"Subsidy","meaning":"Financial help given by the government to a business or industry to keep prices low or help it survive.","example":"The government provides a subsidy to farmers to make sure fresh food remains affordable for everyone.","category":"Public Policies"},{"word":"Tariff","meaning":"A tax that a government places on goods imported from other countries.","example":"The government imposed a tariff on imported steel to encourage businesses to buy local steel.","category":"Public Policies"},{"word":"Fiscal Policy","meaning":"The way a government manages its economy by adjusting tax rates and spending levels.","example":"During the recession, the government\u0027s fiscal policy focused on increasing spending to create jobs.","category":"Public Policies"},{"word":"Taxation","meaning":"The system of collecting money from citizens and businesses to pay for government services.","example":"Roads, police services, and public libraries are all funded through taxation.","category":"Public Policies"},{"word":"Welfare","meaning":"Government programs that provide financial aid, food, and healthcare to help citizens who are in need.","example":"The family received welfare benefits to help them pay rent after the father lost his job.","category":"Public Policies"},{"word":"Deregulation","meaning":"The removal of government rules and controls from a particular industry to encourage competition.","example":"The deregulation of the airline industry led to lower ticket prices and more flight options.","category":"Public Policies"},{"word":"Regulation","meaning":"An official rule made by the government to control how businesses and citizens behave.","example":"The government introduced a new regulation requiring food companies to list all ingredients on packaging.","category":"Public Policies"},{"word":"Sanction","meaning":"A penalty or restriction placed on a country or person by a government, often to force them to obey international laws.","example":"Several countries imposed economic sanctions on the nation to protest its human rights violations.","category":"Public Policies"},{"word":"Appropriation","meaning":"An official decision by a law-making body to set aside a specific amount of public money for a particular project or department.","example":"The legislature approved an appropriation of ten million dollars to repair public bridges.","category":"Public Policies"},{"word":"Budget Deficit","meaning":"A situation where the government spends more money than it collects in revenue during a year.","example":"The nation faced a large budget deficit because tax revenue dropped during the economic slowdown.","category":"Public Policies"},{"word":"Nationalization","meaning":"The process of taking a private company or industry under government control or ownership.","example":"The government announced the nationalization of the country\u0027s oil companies to protect its natural resources.","category":"Public Policies"},{"word":"Privatization","meaning":"The process of selling state-owned businesses or services to private companies.","example":"The privatization of the postal service led to faster deliveries but higher shipping costs.","category":"Public Policies"},{"word":"Lobbying","meaning":"The act of trying to influence government officials to make decisions or pass laws that favor a particular group.","example":"Environmental groups are lobbying congress to pass stricter laws against industrial pollution.","category":"Public Policies"},{"word":"Interest Group","meaning":"A group of people who work together to protect and promote their shared interests by influencing public policy.","example":"The medical association acts as an interest group, advocating for better doctors\u0027 salaries and healthcare standards.","category":"Public Policies"},{"word":"Policy Advocate","meaning":"A person or group who publicly supports, argues for, or promotes a specific government policy or social change.","example":"She has been a passionate policy advocate for child safety laws for over twenty years.","category":"Public Policies"},{"word":"Welfare State","meaning":"A country where the government takes responsibility for the health, education, and well-being of its citizens, especially those in need.","example":"Sweden is often described as a welfare state because it offers free healthcare and university education to all citizens.","category":"Public Policies"},{"word":"Public Mandate","meaning":"The authority and support given by the public to an elected leader to carry out their promised policies.","example":"Having won 65% of the votes, the new president claimed he had a clear public mandate to lower taxes.","category":"Public Policies"},{"word":"Social Security","meaning":"A government program that provides money to people who are retired, unemployed, disabled, or unable to work.","example":"Many elderly citizens rely on monthly social security payments to cover their living costs.","category":"Public Policies"},{"word":"Eminent Domain","meaning":"The legal right of the government to take private land for public use, provided they pay a fair price to the owner.","example":"The government used eminent domain to buy the farmland needed to build the new state highway.","category":"Public Policies"},{"word":"Filibuster","meaning":"A tactic used in congress or parliament, such as making a very long speech, to delay or prevent a vote on a bill.","example":"The senator staged a 12-hour filibuster to delay the voting on the controversial bill.","category":"Public Policies"},{"word":"Bipartisan","meaning":"Involving the cooperation and agreement of two opposing political parties.","example":"The new education bill received bipartisan support, with both parties voting in favor of it.","category":"Public Policies"}]
+[
+  {
+    "word": "Act",
+    "meaning": "A bill that has been officially approved by the law-making body and signed into law.",
+    "pronunciation": "",
+    "definition": "to do, to move",
+    "example": "The Clean Air Act has significantly reduced pollution levels across the country since it was passed.",
+    "category": "Public Policies",
+    "subCategory": "Public Policies"
+  },
+  {
+    "word": "Amendment",
+    "meaning": "A formal change, addition, or correction made to a law, constitution, or other legal document.",
+    "pronunciation": "",
+    "definition": "A formal change, addition, or correction made to a law, constitution, or other legal document.",
+    "example": "The first amendment to the constitution protects the freedom of speech and religion.",
+    "category": "Public Policies",
+    "subCategory": "Public Policies"
+  },
+  {
+    "word": "Appropriation",
+    "meaning": "An official decision by a law-making body to set aside a specific amount of public money for a particular project or department.",
+    "pronunciation": "",
+    "definition": "An official decision by a law-making body to set aside a specific amount of public money for a particular project or department.",
+    "example": "The legislature approved an appropriation of ten million dollars to repair public bridges.",
+    "category": "Public Policies",
+    "subCategory": "Public Policies"
+  },
+  {
+    "word": "Bill",
+    "meaning": "A written proposal for a new law that must be discussed and voted on by the legislature before it becomes law.",
+    "pronunciation": "",
+    "definition": "A written proposal for a new law that must be discussed and voted on by the legislature before it becomes law.",
+    "example": "The representative introduced a bill to increase funding for public school lunch programs.",
+    "category": "Public Policies",
+    "subCategory": "Public Policies"
+  },
+  {
+    "word": "Bipartisan",
+    "meaning": "Involving the cooperation and agreement of two opposing political parties.",
+    "pronunciation": "",
+    "definition": "Involving the cooperation and agreement of two opposing political parties.",
+    "example": "The new education bill received bipartisan support, with both parties voting in favor of it.",
+    "category": "Public Policies",
+    "subCategory": "Public Policies"
+  },
+  {
+    "word": "Budget Deficit",
+    "meaning": "A situation where the government spends more money than it collects in revenue during a year.",
+    "pronunciation": "",
+    "definition": "A situation where the government spends more money than it collects in revenue during a year.",
+    "example": "The nation faced a large budget deficit because tax revenue dropped during the economic slowdown.",
+    "category": "Public Policies",
+    "subCategory": "Public Policies"
+  },
+  {
+    "word": "Decree",
+    "meaning": "An official order or decision issued by a ruler or legal authority, which immediately becomes law.",
+    "pronunciation": "",
+    "definition": "An official order or decision issued by a ruler or legal authority, which immediately becomes law.",
+    "example": "The king issued a decree declaring a national holiday to celebrate the harvest.",
+    "category": "Public Policies",
+    "subCategory": "Public Policies"
+  },
+  {
+    "word": "Deregulation",
+    "meaning": "The removal of government rules and controls from a particular industry to encourage competition.",
+    "pronunciation": "",
+    "definition": "The removal of government rules and controls from a particular industry to encourage competition.",
+    "example": "The deregulation of the airline industry led to lower ticket prices and more flight options.",
+    "category": "Public Policies",
+    "subCategory": "Public Policies"
+  },
+  {
+    "word": "Eminent Domain",
+    "meaning": "The legal right of the government to take private land for public use, provided they pay a fair price to the owner.",
+    "pronunciation": "",
+    "definition": "The legal right of the government to take private land for public use, provided they pay a fair price to the owner.",
+    "example": "The government used eminent domain to buy the farmland needed to build the new state highway.",
+    "category": "Public Policies",
+    "subCategory": "Public Policies"
+  },
+  {
+    "word": "Executive Order",
+    "meaning": "A rule or command issued by a president or governor that has the force of law without needing approval from the legislature.",
+    "pronunciation": "",
+    "definition": "A rule or command issued by a president or governor that has the force of law without needing approval from the legislature.",
+    "example": "The president signed an executive order to protect public lands from oil drilling.",
+    "category": "Public Policies",
+    "subCategory": "Public Policies"
+  },
+  {
+    "word": "Filibuster",
+    "meaning": "A tactic used in congress or parliament, such as making a very long speech, to delay or prevent a vote on a bill.",
+    "pronunciation": "",
+    "definition": "A tactic used in congress or parliament, such as making a very long speech, to delay or prevent a vote on a bill.",
+    "example": "The senator staged a 12-hour filibuster to delay the voting on the controversial bill.",
+    "category": "Public Policies",
+    "subCategory": "Public Policies"
+  },
+  {
+    "word": "Fiscal Policy",
+    "meaning": "The way a government manages its economy by adjusting tax rates and spending levels.",
+    "pronunciation": "",
+    "definition": "The way a government manages its economy by adjusting tax rates and spending levels.",
+    "example": "During the recession, the government's fiscal policy focused on increasing spending to create jobs.",
+    "category": "Public Policies",
+    "subCategory": "Public Policies"
+  },
+  {
+    "word": "Interest Group",
+    "meaning": "A group of people who work together to protect and promote their shared interests by influencing public policy.",
+    "pronunciation": "",
+    "definition": "A group of people who work together to protect and promote their shared interests by influencing public policy.",
+    "example": "The medical association acts as an interest group, advocating for better doctors' salaries and healthcare standards.",
+    "category": "Public Policies",
+    "subCategory": "Public Policies"
+  },
+  {
+    "word": "Legislation",
+    "meaning": "A law or set of laws suggested or passed by a government's law-making body.",
+    "pronunciation": "",
+    "definition": "A law or set of laws suggested or passed by a government's law-making body.",
+    "example": "The government introduced new legislation to reduce plastic waste and protect the oceans.",
+    "category": "Public Policies",
+    "subCategory": "Public Policies"
+  },
+  {
+    "word": "Lobbying",
+    "meaning": "The act of trying to influence government officials to make decisions or pass laws that favor a particular group.",
+    "pronunciation": "",
+    "definition": "The act of trying to influence government officials to make decisions or pass laws that favor a particular group.",
+    "example": "Environmental groups are lobbying congress to pass stricter laws against industrial pollution.",
+    "category": "Public Policies",
+    "subCategory": "Public Policies"
+  },
+  {
+    "word": "Nationalization",
+    "meaning": "The process of taking a private company or industry under government control or ownership.",
+    "pronunciation": "",
+    "definition": "The process of taking a private company or industry under government control or ownership.",
+    "example": "The government announced the nationalization of the country's oil companies to protect its natural resources.",
+    "category": "Public Policies",
+    "subCategory": "Public Policies"
+  },
+  {
+    "word": "Policy Advocate",
+    "meaning": "A person or group who publicly supports, argues for, or promotes a specific government policy or social change.",
+    "pronunciation": "",
+    "definition": "A person or group who publicly supports, argues for, or promotes a specific government policy or social change.",
+    "example": "She has been a passionate policy advocate for child safety laws for over twenty years.",
+    "category": "Public Policies",
+    "subCategory": "Public Policies"
+  },
+  {
+    "word": "Policy Framework",
+    "meaning": "A set of guidelines and goals that helps the government plan and make decisions on specific issues.",
+    "pronunciation": "",
+    "definition": "A set of guidelines and goals that helps the government plan and make decisions on specific issues.",
+    "example": "The government developed a policy framework to guide the transition to renewable energy over the next decade.",
+    "category": "Public Policies",
+    "subCategory": "Public Policies"
+  },
+  {
+    "word": "Privatization",
+    "meaning": "The process of selling state-owned businesses or services to private companies.",
+    "pronunciation": "",
+    "definition": "The process of selling state-owned businesses or services to private companies.",
+    "example": "The privatization of the postal service led to faster deliveries but higher shipping costs.",
+    "category": "Public Policies",
+    "subCategory": "Public Policies"
+  },
+  {
+    "word": "Public Mandate",
+    "meaning": "The authority and support given by the public to an elected leader to carry out their promised policies.",
+    "pronunciation": "",
+    "definition": "The authority and support given by the public to an elected leader to carry out their promised policies.",
+    "example": "Having won 65% of the votes, the new president claimed he had a clear public mandate to lower taxes.",
+    "category": "Public Policies",
+    "subCategory": "Public Policies"
+  },
+  {
+    "word": "Ratify",
+    "meaning": "To officially approve and accept a treaty, agreement, or amendment, making it legally binding.",
+    "pronunciation": "",
+    "definition": "To officially approve and accept a treaty, agreement, or amendment, making it legally binding.",
+    "example": "The country voted to ratify the international treaty on carbon emission reductions.",
+    "category": "Public Policies",
+    "subCategory": "Public Policies"
+  },
+  {
+    "word": "Regulation",
+    "meaning": "An official rule made by the government to control how businesses and citizens behave.",
+    "pronunciation": "",
+    "definition": "An official rule made by the government to control how businesses and citizens behave.",
+    "example": "The government introduced a new regulation requiring food companies to list all ingredients on packaging.",
+    "category": "Public Policies",
+    "subCategory": "Public Policies"
+  },
+  {
+    "word": "Sanction",
+    "meaning": "A penalty or restriction placed on a country or person by a government, often to force them to obey international laws.",
+    "pronunciation": "",
+    "definition": "A penalty or restriction placed on a country or person by a government, often to force them to obey international laws.",
+    "example": "Several countries imposed economic sanctions on the nation to protest its human rights violations.",
+    "category": "Public Policies",
+    "subCategory": "Public Policies"
+  },
+  {
+    "word": "Social Security",
+    "meaning": "A government program that provides money to people who are retired, unemployed, disabled, or unable to work.",
+    "pronunciation": "",
+    "definition": "A government program that provides money to people who are retired, unemployed, disabled, or unable to work.",
+    "example": "Many elderly citizens rely on monthly social security payments to cover their living costs.",
+    "category": "Public Policies",
+    "subCategory": "Public Policies"
+  },
+  {
+    "word": "Subsidy",
+    "meaning": "Financial help given by the government to a business or industry to keep prices low or help it survive.",
+    "pronunciation": "",
+    "definition": "Financial help given by the government to a business or industry to keep prices low or help it survive.",
+    "example": "The government provides a subsidy to farmers to make sure fresh food remains affordable for everyone.",
+    "category": "Public Policies",
+    "subCategory": "Public Policies"
+  },
+  {
+    "word": "Tariff",
+    "meaning": "A tax that a government places on goods imported from other countries.",
+    "pronunciation": "",
+    "definition": "A tax that a government places on goods imported from other countries.",
+    "example": "The government imposed a tariff on imported steel to encourage businesses to buy local steel.",
+    "category": "Public Policies",
+    "subCategory": "Public Policies"
+  },
+  {
+    "word": "Taxation",
+    "meaning": "The system of collecting money from citizens and businesses to pay for government services.",
+    "pronunciation": "",
+    "definition": "The system of collecting money from citizens and businesses to pay for government services.",
+    "example": "Roads, police services, and public libraries are all funded through taxation.",
+    "category": "Public Policies",
+    "subCategory": "Public Policies"
+  },
+  {
+    "word": "Veto",
+    "meaning": "The power of a leader, like a president or governor, to reject a bill passed by the legislature, preventing it from becoming law.",
+    "pronunciation": "",
+    "definition": "The power of a leader, like a president or governor, to reject a bill passed by the legislature, preventing it from becoming law.",
+    "example": "The president used his veto to block the tax bill because he believed it would hurt working families.",
+    "category": "Public Policies",
+    "subCategory": "Public Policies"
+  },
+  {
+    "word": "Welfare",
+    "meaning": "Government programs that provide financial aid, food, and healthcare to help citizens who are in need.",
+    "pronunciation": "",
+    "definition": "Government programs that provide financial aid, food, and healthcare to help citizens who are in need.",
+    "example": "The family received welfare benefits to help them pay rent after the father lost his job.",
+    "category": "Public Policies",
+    "subCategory": "Public Policies"
+  },
+  {
+    "word": "Welfare State",
+    "meaning": "A country where the government takes responsibility for the health, education, and well-being of its citizens, especially those in need.",
+    "pronunciation": "",
+    "definition": "A country where the government takes responsibility for the health, education, and well-being of its citizens, especially those in need.",
+    "example": "Sweden is often described as a welfare state because it offers free healthcare and university education to all citizens.",
+    "category": "Public Policies",
+    "subCategory": "Public Policies"
+  }
+]

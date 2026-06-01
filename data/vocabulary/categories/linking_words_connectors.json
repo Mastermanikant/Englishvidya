@@ -1,0 +1,821 @@
+[
+  {
+    "word": "Accordingly",
+    "meaning": "In a way that fits the situation; therefore.",
+    "pronunciation": "",
+    "definition": "In a way that fits the situation; therefore.",
+    "example": "The costs have risen, and we must adjust our prices accordingly.",
+    "category": "Linking Words & Connectors",
+    "subCategory": "Linking Words & Connectors"
+  },
+  {
+    "word": "after that",
+    "meaning": "Used to describe what happens next in a sequence",
+    "pronunciation": "",
+    "definition": "Used to describe what happens next in a sequence",
+    "example": "Sign the form, and after that, submit it online.",
+    "category": "Linking Words & Connectors",
+    "subCategory": "Linking Words & Connectors"
+  },
+  {
+    "word": "all in all",
+    "meaning": "Used to give a general overall opinion or summary",
+    "pronunciation": "",
+    "definition": "Used to give a general overall opinion or summary",
+    "example": "All in all, it was a fantastic weekend.",
+    "category": "Linking Words & Connectors",
+    "subCategory": "Linking Words & Connectors"
+  },
+  {
+    "word": "also",
+    "meaning": "Used to add another point or item",
+    "pronunciation": "",
+    "definition": "In addition; too; as well",
+    "example": "He's a great cook. He's also very organized.",
+    "category": "Linking Words & Connectors",
+    "subCategory": "Linking Words & Connectors"
+  },
+  {
+    "word": "Alternately",
+    "meaning": "Used to show that two situations keep following each other, or to offer a second choice.",
+    "pronunciation": "",
+    "definition": "Used to show that two situations keep following each other, or to offer a second choice.",
+    "example": "We could drive to the beach, or alternately, we could take the train.",
+    "category": "Linking Words & Connectors",
+    "subCategory": "Linking Words & Connectors"
+  },
+  {
+    "word": "although",
+    "meaning": "Used to introduce a subordinate clause that contrasts with the main clause",
+    "pronunciation": "",
+    "definition": "In spite of the fact that; even though",
+    "example": "Although it was raining, they went for a walk.",
+    "category": "Linking Words & Connectors",
+    "subCategory": "Linking Words & Connectors"
+  },
+  {
+    "word": "as",
+    "meaning": "Used to introduce a reason, similar to 'since' or 'because'",
+    "pronunciation": "",
+    "definition": "Used to introduce a reason, similar to 'since' or 'because'",
+    "example": "As the road was blocked, we took a different route.",
+    "category": "Linking Words & Connectors",
+    "subCategory": "Linking Words & Connectors"
+  },
+  {
+    "word": "as a consequence",
+    "meaning": "Used to state the outcome or effect of a previous action",
+    "pronunciation": "",
+    "definition": "Used to state the outcome or effect of a previous action",
+    "example": "She broke the rules. As a consequence, she was disqualified.",
+    "category": "Linking Words & Connectors",
+    "subCategory": "Linking Words & Connectors"
+  },
+  {
+    "word": "As A Result",
+    "meaning": "Introducing the outcome or consequence of a previous action.",
+    "pronunciation": "",
+    "definition": "Used to introduce the consequence or outcome of something",
+    "example": "The company cut its prices, and as a result, sales increased.",
+    "category": "Linking Words & Connectors",
+    "subCategory": "Linking Words & Connectors"
+  },
+  {
+    "word": "as an example",
+    "meaning": "Used to introduce a specific case that supports a general point",
+    "pronunciation": "",
+    "definition": "Used to introduce a specific case that supports a general point",
+    "example": "Take Japan as an example â€” it has one of the lowest crime rates.",
+    "category": "Linking Words & Connectors",
+    "subCategory": "Linking Words & Connectors"
+  },
+  {
+    "word": "as long as",
+    "meaning": "Used to state a condition; as long as it is met, the result follows",
+    "pronunciation": "",
+    "definition": "Used to state a condition; as long as it is met, the result follows",
+    "example": "As long as you're honest, I won't be angry.",
+    "category": "Linking Words & Connectors",
+    "subCategory": "Linking Phrase Â€“ Condition"
+  },
+  {
+    "word": "as opposed to",
+    "meaning": "Used to contrast two things or ideas",
+    "pronunciation": "",
+    "definition": "Used to contrast two things or ideas",
+    "example": "I prefer tea as opposed to coffee.",
+    "category": "Linking Words & Connectors",
+    "subCategory": "Linking Phrase Â€“ Contrast"
+  },
+  {
+    "word": "as well",
+    "meaning": "Added at the end of a clause to indicate something additional",
+    "pronunciation": "",
+    "definition": "Added at the end of a clause to indicate something additional",
+    "example": "She plays piano, and she sings as well.",
+    "category": "Linking Words & Connectors",
+    "subCategory": "Linking Words & Connectors"
+  },
+  {
+    "word": "because",
+    "meaning": "The primary word for introducing a reason or cause",
+    "pronunciation": "",
+    "definition": "For the reason that; since",
+    "example": "I left early because I had another meeting.",
+    "category": "Linking Words & Connectors",
+    "subCategory": "Linking Words & Connectors"
+  },
+  {
+    "word": "because of this",
+    "meaning": "Informal way to state a cause-and-effect relationship",
+    "pronunciation": "",
+    "definition": "Informal way to state a cause-and-effect relationship",
+    "example": "He was rude to the staff. Because of this, the manager asked him to leave.",
+    "category": "Linking Words & Connectors",
+    "subCategory": "Linking Phrase Â€“ Cause & Effect"
+  },
+  {
+    "word": "besides",
+    "meaning": "Used to add another reason or consideration, often reinforcing a point",
+    "pronunciation": "",
+    "definition": "Used to add another reason or consideration, often reinforcing a point",
+    "example": "I don't want to go. Besides, it's too cold outside.",
+    "category": "Linking Words & Connectors",
+    "subCategory": "Linking Words & Connectors"
+  },
+  {
+    "word": "by contrast",
+    "meaning": "Used to compare two contrasting things or situations",
+    "pronunciation": "",
+    "definition": "Used to compare two contrasting things or situations",
+    "example": "The first half was slow. By contrast, the second was thrilling.",
+    "category": "Linking Words & Connectors",
+    "subCategory": "Linking Words & Connectors"
+  },
+  {
+    "word": "By The Same Token",
+    "meaning": "For the same reasons; in the same way.",
+    "pronunciation": "",
+    "definition": "For the same reasons; in the same way.",
+    "example": "If you work hard, you will succeed; by the same token, laziness leads to failure.",
+    "category": "Linking Words & Connectors",
+    "subCategory": "Linking Words & Connectors"
+  },
+  {
+    "word": "compared to",
+    "meaning": "Used to highlight differences or similarities between two things",
+    "pronunciation": "",
+    "definition": "Used to highlight differences or similarities between two things",
+    "example": "Compared to last year, sales have significantly improved.",
+    "category": "Linking Words & Connectors",
+    "subCategory": "Linking Phrase Â€“ Comparison"
+  },
+  {
+    "word": "Conversely",
+    "meaning": "From an opposite point of view; used to introduce an idea that is the reverse of another.",
+    "pronunciation": "",
+    "definition": "From an opposite point of view; used to introduce an idea that is the reverse of another.",
+    "example": "Poor diet leads to illness; conversely, healthy eating promotes good health.",
+    "category": "Linking Words & Connectors",
+    "subCategory": "Linking Words & Connectors"
+  },
+  {
+    "word": "despite",
+    "meaning": "Used to show contrast with an expected obstacle; same as 'in spite of'",
+    "pronunciation": "",
+    "definition": "Used to show contrast with an expected obstacle; same as 'in spite of'",
+    "example": "Despite being tired, she finished the project.",
+    "category": "Linking Words & Connectors",
+    "subCategory": "Linking Words & Connectors"
+  },
+  {
+    "word": "due to",
+    "meaning": "Used to state the cause of something, typically followed by a noun phrase",
+    "pronunciation": "",
+    "definition": "Used to state the cause of something, typically followed by a noun phrase",
+    "example": "The match was cancelled due to heavy rain.",
+    "category": "Linking Words & Connectors",
+    "subCategory": "Linking Phrase Â€“ Cause"
+  },
+  {
+    "word": "even so",
+    "meaning": "Used to admit a fact while asserting that a contrasting result still occurred",
+    "pronunciation": "",
+    "definition": "Used to admit a fact while asserting that a contrasting result still occurred",
+    "example": "I knew the risks. Even so, I decided to go ahead.",
+    "category": "Linking Words & Connectors",
+    "subCategory": "Linking Words & Connectors"
+  },
+  {
+    "word": "even though",
+    "meaning": "Stronger than 'although'; emphasizes a surprising contrast",
+    "pronunciation": "",
+    "definition": "Stronger than 'although'; emphasizes a surprising contrast",
+    "example": "Even though he practiced daily, he couldn't master the technique.",
+    "category": "Linking Words & Connectors",
+    "subCategory": "Linking Words & Connectors"
+  },
+  {
+    "word": "eventually",
+    "meaning": "Used to describe something that happens after a long time or series of events",
+    "pronunciation": "",
+    "definition": "Used to describe something that happens after a long time or series of events",
+    "example": "We searched for hours and eventually found the keys.",
+    "category": "Linking Words & Connectors",
+    "subCategory": "Linking Words & Connectors"
+  },
+  {
+    "word": "finally",
+    "meaning": "Used to introduce the last point in a sequence or a long-awaited result",
+    "pronunciation": "",
+    "definition": "Used to introduce the last point in a sequence or a long-awaited result",
+    "example": "Finally, I'd like to thank the organizers.",
+    "category": "Linking Words & Connectors",
+    "subCategory": "Linking Words & Connectors"
+  },
+  {
+    "word": "first of all",
+    "meaning": "Used to introduce the first point in a sequence or argument",
+    "pronunciation": "",
+    "definition": "Used to introduce the first point in a sequence or argument",
+    "example": "First of all, I want to thank everyone for coming.",
+    "category": "Linking Words & Connectors",
+    "subCategory": "Linking Words & Connectors"
+  },
+  {
+    "word": "for a start",
+    "meaning": "British informal phrase used to introduce the first of several reasons",
+    "pronunciation": "",
+    "definition": "British informal phrase used to introduce the first of several reasons",
+    "example": "I can't afford it, for a start. And I don't even like it.",
+    "category": "Linking Words & Connectors",
+    "subCategory": "Linking Words & Connectors"
+  },
+  {
+    "word": "for example",
+    "meaning": "Used to introduce an illustrative example",
+    "pronunciation": "",
+    "definition": "Used to introduce an illustrative example",
+    "example": "There are many benefits, for example, improved health and more energy.",
+    "category": "Linking Words & Connectors",
+    "subCategory": "Linking Words & Connectors"
+  },
+  {
+    "word": "For Instance",
+    "meaning": "For example; used to introduce a particular case that represents a general rule.",
+    "pronunciation": "",
+    "definition": "Used to introduce a specific example",
+    "example": "Wild animals can be dangerous; for instance, bears will attack if threatened.",
+    "category": "Linking Words & Connectors",
+    "subCategory": "Linking Words & Connectors"
+  },
+  {
+    "word": "given that",
+    "meaning": "Used to introduce a reason or condition that is already established",
+    "pronunciation": "",
+    "definition": "Used to introduce a reason or condition that is already established",
+    "example": "Given that he had no experience, he did very well.",
+    "category": "Linking Words & Connectors",
+    "subCategory": "Linking Phrase Â€“ Reason / Concession"
+  },
+  {
+    "word": "hence",
+    "meaning": "Formal word meaning 'for this reason'; introduces a result or inference",
+    "pronunciation": "",
+    "definition": "Formal word meaning 'for this reason'; introduces a result or inference",
+    "example": "The project was underfunded, hence the delays.",
+    "category": "Linking Words & Connectors",
+    "subCategory": "Linking Words & Connectors"
+  },
+  {
+    "word": "however",
+    "meaning": "Used to introduce a contrast or contradiction with what was just said",
+    "pronunciation": "",
+    "definition": "Used to introduce a statement that contrasts with or seems to contradict something said before",
+    "example": "She studied hard. However, she didn't pass the exam.",
+    "category": "Linking Words & Connectors",
+    "subCategory": "Linking Words & Connectors"
+  },
+  {
+    "word": "in addition",
+    "meaning": "Used to introduce supplementary information",
+    "pronunciation": "",
+    "definition": "Used to introduce supplementary information",
+    "example": "She speaks French. In addition, she's fluent in Spanish.",
+    "category": "Linking Words & Connectors",
+    "subCategory": "Linking Words & Connectors"
+  },
+  {
+    "word": "in brief",
+    "meaning": "Used to introduce a short version of what was said",
+    "pronunciation": "",
+    "definition": "Used to introduce a short version of what was said",
+    "example": "In brief, the plan failed because of a lack of funding.",
+    "category": "Linking Words & Connectors",
+    "subCategory": "Linking Words & Connectors"
+  },
+  {
+    "word": "in case",
+    "meaning": "Used to indicate something is done as a precaution",
+    "pronunciation": "",
+    "definition": "Used to indicate something is done as a precaution",
+    "example": "Take an umbrella in case it rains.",
+    "category": "Linking Words & Connectors",
+    "subCategory": "Linking Phrase Â€“ Precaution"
+  },
+  {
+    "word": "in conclusion",
+    "meaning": "Used to signal the final remarks or overall judgment",
+    "pronunciation": "",
+    "definition": "Used to signal the final remarks or overall judgment",
+    "example": "In conclusion, more research is clearly needed.",
+    "category": "Linking Words & Connectors",
+    "subCategory": "Linking Words & Connectors"
+  },
+  {
+    "word": "In Contrast",
+    "meaning": "Used to show a clear difference between two things or situations.",
+    "pronunciation": "",
+    "definition": "Used to highlight a clear difference between two things",
+    "example": "The first half of the movie was exciting; in contrast, the second half was boring.",
+    "category": "Linking Words & Connectors",
+    "subCategory": "Linking Words & Connectors"
+  },
+  {
+    "word": "In Light Of",
+    "meaning": "Because of new information; considering a particular fact.",
+    "pronunciation": "",
+    "definition": "Used to show that a conclusion is made based on new information",
+    "example": "In light of the new report, we have decided to change our policy.",
+    "category": "Linking Words & Connectors",
+    "subCategory": "Linking Words & Connectors"
+  },
+  {
+    "word": "In Other Words",
+    "meaning": "Used to explain something in a simpler or different way to make it clearer.",
+    "pronunciation": "",
+    "definition": "Used to restate something more clearly or from a different angle",
+    "example": "We don't have enough money. In other words, we cannot buy the house.",
+    "category": "Linking Words & Connectors",
+    "subCategory": "Linking Words & Connectors"
+  },
+  {
+    "word": "in short",
+    "meaning": "Used to give a concise summary",
+    "pronunciation": "",
+    "definition": "Used to give a concise summary",
+    "example": "In short, we need more time.",
+    "category": "Linking Words & Connectors",
+    "subCategory": "Linking Words & Connectors"
+  },
+  {
+    "word": "in spite of",
+    "meaning": "Used to show that something happens despite an obstacle",
+    "pronunciation": "",
+    "definition": "Used to show that something happens despite an obstacle",
+    "example": "In spite of the rain, the match continued.",
+    "category": "Linking Words & Connectors",
+    "subCategory": "Linking Phrase Â€“ Concession"
+  },
+  {
+    "word": "in summary",
+    "meaning": "Used to introduce a brief restatement of the key points",
+    "pronunciation": "",
+    "definition": "Used to introduce a brief restatement of the key points",
+    "example": "In summary, there are three key factors to consider.",
+    "category": "Linking Words & Connectors",
+    "subCategory": "Linking Words & Connectors"
+  },
+  {
+    "word": "in the end",
+    "meaning": "Used to describe the final outcome after a process",
+    "pronunciation": "",
+    "definition": "Used to describe the final outcome after a process",
+    "example": "We argued a lot, but in the end, we agreed.",
+    "category": "Linking Words & Connectors",
+    "subCategory": "Linking Words & Connectors"
+  },
+  {
+    "word": "in the same way",
+    "meaning": "Used to draw a parallel between two ideas or situations",
+    "pronunciation": "",
+    "definition": "Used to draw a parallel between two ideas or situations",
+    "example": "Just as we train our bodies, in the same way we must train our minds.",
+    "category": "Linking Words & Connectors",
+    "subCategory": "Linking Words & Connectors"
+  },
+  {
+    "word": "instead of",
+    "meaning": "Used to indicate a substitution or alternative chosen",
+    "pronunciation": "",
+    "definition": "Used to indicate a substitution or alternative chosen",
+    "example": "He stayed home instead of going to the party.",
+    "category": "Linking Words & Connectors",
+    "subCategory": "Linking Phrase Â€“ Substitution"
+  },
+  {
+    "word": "just as",
+    "meaning": "Used to make a direct parallel comparison",
+    "pronunciation": "",
+    "definition": "Used to make a direct parallel comparison",
+    "example": "Just as a good doctor listens, so too must a good teacher.",
+    "category": "Linking Words & Connectors",
+    "subCategory": "Linking Phrase Â€“ Comparison"
+  },
+  {
+    "word": "lastly",
+    "meaning": "Used to introduce the final item in a list",
+    "pronunciation": "",
+    "definition": "Used to introduce the final item in a list",
+    "example": "Lastly, make sure to save your work before closing.",
+    "category": "Linking Words & Connectors",
+    "subCategory": "Linking Words & Connectors"
+  },
+  {
+    "word": "let alone",
+    "meaning": "Used after a negative to emphasize an even more extreme case",
+    "pronunciation": "",
+    "definition": "Used after a negative to emphasize an even more extreme case",
+    "example": "He can't boil water, let alone cook a meal.",
+    "category": "Linking Words & Connectors",
+    "subCategory": "Linking Phrase Â€“ Emphasis"
+  },
+  {
+    "word": "likewise",
+    "meaning": "Used to indicate that the same is true of something else",
+    "pronunciation": "",
+    "definition": "Used to indicate that the same is true of something else",
+    "example": "He left early. Likewise, I decided not to stay.",
+    "category": "Linking Words & Connectors",
+    "subCategory": "Linking Words & Connectors"
+  },
+  {
+    "word": "moreover",
+    "meaning": "Used to add a further, often stronger, point to what was said",
+    "pronunciation": "",
+    "definition": "Used to add a further, often stronger, point to what was said",
+    "example": "The plan is expensive. Moreover, it has a very low chance of success.",
+    "category": "Linking Words & Connectors",
+    "subCategory": "Linking Words & Connectors"
+  },
+  {
+    "word": "much less",
+    "meaning": "Used similarly to 'let alone', stressing an impossibility",
+    "pronunciation": "",
+    "definition": "Used similarly to 'let alone', stressing an impossibility",
+    "example": "She couldn't afford rent, much less a holiday.",
+    "category": "Linking Words & Connectors",
+    "subCategory": "Linking Phrase Â€“ Emphasis"
+  },
+  {
+    "word": "next",
+    "meaning": "Used to indicate the following item or action in a series",
+    "pronunciation": "",
+    "definition": "Used to indicate the following item or action in a series",
+    "example": "Next, add the chopped onions to the pan.",
+    "category": "Linking Words & Connectors",
+    "subCategory": "Linking Words & Connectors"
+  },
+  {
+    "word": "nonetheless",
+    "meaning": "Similar to 'nevertheless'; used to admit a fact while stating a contrary point",
+    "pronunciation": "",
+    "definition": "Similar to 'nevertheless'; used to admit a fact while stating a contrary point",
+    "example": "The evidence is inconclusive. Nonetheless, we must act.",
+    "category": "Linking Words & Connectors",
+    "subCategory": "Linking Words & Connectors"
+  },
+  {
+    "word": "not only that",
+    "meaning": "Used to introduce a further point beyond what was already mentioned",
+    "pronunciation": "",
+    "definition": "Used to introduce a further point beyond what was already mentioned",
+    "example": "She won the race. Not only that, she broke the world record.",
+    "category": "Linking Words & Connectors",
+    "subCategory": "Linking Words & Connectors"
+  },
+  {
+    "word": "not to mention",
+    "meaning": "Used to add an additional significant point, often negative",
+    "pronunciation": "",
+    "definition": "Used to add an additional significant point, often negative",
+    "example": "It's expensive, not to mention very time-consuming.",
+    "category": "Linking Words & Connectors",
+    "subCategory": "Linking Phrase Â€“ Addition / Emphasis"
+  },
+  {
+    "word": "On The Basis Of",
+    "meaning": "Using something as the reason or foundation for an idea or action.",
+    "pronunciation": "",
+    "definition": "Using something as the reason or foundation for an idea or action.",
+    "example": "He was offered the job on the basis of his excellent past experience.",
+    "category": "Linking Words & Connectors",
+    "subCategory": "Linking Words & Connectors"
+  },
+  {
+    "word": "On The Contrary",
+    "meaning": "Used to show that the opposite of what has just been said is actually true.",
+    "pronunciation": "",
+    "definition": "Used to show that the opposite of what has just been said is actually true.",
+    "example": "I thought you disliked vegetables. On the contrary, I eat them every day.",
+    "category": "Linking Words & Connectors",
+    "subCategory": "Linking Words & Connectors"
+  },
+  {
+    "word": "On The Other Hand",
+    "meaning": "Used to introduce a contrasting point of view or alternative fact.",
+    "pronunciation": "",
+    "definition": "Used to present a contrasting viewpoint or alternative consideration",
+    "example": "Working from home saves time; on the other hand, you might feel isolated.",
+    "category": "Linking Words & Connectors",
+    "subCategory": "Linking Words & Connectors"
+  },
+  {
+    "word": "on the whole",
+    "meaning": "Used to give a general assessment considering everything",
+    "pronunciation": "",
+    "definition": "Used to give a general assessment considering everything",
+    "example": "On the whole, the trip was very enjoyable.",
+    "category": "Linking Words & Connectors",
+    "subCategory": "Linking Words & Connectors"
+  },
+  {
+    "word": "on top of that",
+    "meaning": "Informal way to add extra, often negative or surprising, information",
+    "pronunciation": "",
+    "definition": "Informal way to add extra, often negative or surprising, information",
+    "example": "He lost his wallet. On top of that, his phone died.",
+    "category": "Linking Words & Connectors",
+    "subCategory": "Linking Words & Connectors"
+  },
+  {
+    "word": "or else",
+    "meaning": "Used to introduce a negative consequence of not doing something",
+    "pronunciation": "",
+    "definition": "Used to introduce a negative consequence of not doing something",
+    "example": "Pay the fine or else face legal action.",
+    "category": "Linking Words & Connectors",
+    "subCategory": "Linking Phrase Â€“ Consequence (informal)"
+  },
+  {
+    "word": "otherwise",
+    "meaning": "Used to indicate what will happen if a condition is not met",
+    "pronunciation": "",
+    "definition": "Used to indicate what will happen if a condition is not met",
+    "example": "Study hard; otherwise, you'll fail.",
+    "category": "Linking Words & Connectors",
+    "subCategory": "Linking Words & Connectors"
+  },
+  {
+    "word": "overall",
+    "meaning": "Used to introduce a general assessment taking everything into account",
+    "pronunciation": "",
+    "definition": "Used to introduce a general assessment taking everything into account",
+    "example": "Overall, the results were better than expected.",
+    "category": "Linking Words & Connectors",
+    "subCategory": "Linking Words & Connectors"
+  },
+  {
+    "word": "owing to",
+    "meaning": "Formal phrase meaning 'because of'; introduces a cause",
+    "pronunciation": "",
+    "definition": "Formal phrase meaning 'because of'; introduces a cause",
+    "example": "Owing to the storm, all flights were grounded.",
+    "category": "Linking Words & Connectors",
+    "subCategory": "Linking Phrase Â€“ Cause (formal)"
+  },
+  {
+    "word": "provided that",
+    "meaning": "Used to introduce a condition that must be met for something to happen",
+    "pronunciation": "",
+    "definition": "Used to introduce a condition that must be met for something to happen",
+    "example": "You can borrow the car, provided that you return it by six.",
+    "category": "Linking Words & Connectors",
+    "subCategory": "Linking Phrase Â€“ Condition"
+  },
+  {
+    "word": "rather than",
+    "meaning": "Used to show a preference for one thing over another",
+    "pronunciation": "",
+    "definition": "Used to show a preference for one thing over another",
+    "example": "She chose to walk rather than take the bus.",
+    "category": "Linking Words & Connectors",
+    "subCategory": "Linking Phrase Â€“ Preference / Contrast"
+  },
+  {
+    "word": "regardless of",
+    "meaning": "Used to indicate that something is true or will happen despite any factors",
+    "pronunciation": "",
+    "definition": "Used to indicate that something is true or will happen despite any factors",
+    "example": "Regardless of the weather, the event will go ahead.",
+    "category": "Linking Words & Connectors",
+    "subCategory": "Linking Phrase Â€“ Concession"
+  },
+  {
+    "word": "relative to",
+    "meaning": "Used to compare one thing in relation to another",
+    "pronunciation": "",
+    "definition": "Used to compare one thing in relation to another",
+    "example": "Relative to the cost, the quality is quite poor.",
+    "category": "Linking Words & Connectors",
+    "subCategory": "Linking Phrase Â€“ Comparison"
+  },
+  {
+    "word": "secondly",
+    "meaning": "Used to introduce the second point in a list or argument",
+    "pronunciation": "",
+    "definition": "Used to introduce the second point in a list or argument",
+    "example": "Firstly, it's expensive. Secondly, it's not practical.",
+    "category": "Linking Words & Connectors",
+    "subCategory": "Linking Words & Connectors"
+  },
+  {
+    "word": "similarly",
+    "meaning": "Used to introduce a point that is like or comparable to the previous one",
+    "pronunciation": "",
+    "definition": "Used to introduce a point that is like or comparable to the previous one",
+    "example": "The food was excellent. Similarly, the service was outstanding.",
+    "category": "Linking Words & Connectors",
+    "subCategory": "Linking Words & Connectors"
+  },
+  {
+    "word": "since",
+    "meaning": "Used like 'because' to introduce a reason, often implying shared knowledge",
+    "pronunciation": "",
+    "definition": "Used like 'because' to introduce a reason, often implying shared knowledge",
+    "example": "Since you're already here, you might as well stay for dinner.",
+    "category": "Linking Words & Connectors",
+    "subCategory": "Linking Words & Connectors"
+  },
+  {
+    "word": "still",
+    "meaning": "Used to indicate something continues to be true despite a contrasting point",
+    "pronunciation": "",
+    "definition": "",
+    "example": "The task was hard. Still, they managed to finish on time.",
+    "category": "Linking Words & Connectors",
+    "subCategory": "Linking Words & Connectors"
+  },
+  {
+    "word": "subsequently",
+    "meaning": "Formal word meaning 'after that' or 'following that event'",
+    "pronunciation": "",
+    "definition": "Formal word meaning 'after that' or 'following that event'",
+    "example": "He was arrested and subsequently released on bail.",
+    "category": "Linking Words & Connectors",
+    "subCategory": "Linking Words & Connectors"
+  },
+  {
+    "word": "such as",
+    "meaning": "Used to give examples within a clause",
+    "pronunciation": "",
+    "definition": "Used to give examples within a clause",
+    "example": "She enjoys outdoor activities such as hiking and cycling.",
+    "category": "Linking Words & Connectors",
+    "subCategory": "Linking Phrase Â€“ Example"
+  },
+  {
+    "word": "take ... for example",
+    "meaning": "Used to introduce a specific illustrative case",
+    "pronunciation": "",
+    "definition": "Used to introduce a specific illustrative case",
+    "example": "Take Paris for example â€” it's one of the most visited cities in the world.",
+    "category": "Linking Words & Connectors",
+    "subCategory": "Linking Words & Connectors"
+  },
+  {
+    "word": "that's why",
+    "meaning": "Informal phrase introducing the reason for an outcome",
+    "pronunciation": "",
+    "definition": "Informal phrase introducing the reason for an outcome",
+    "example": "She loved animals â€” that's why she became a vet.",
+    "category": "Linking Words & Connectors",
+    "subCategory": "Linking Phrase Â€“ Reason (informal)"
+  },
+  {
+    "word": "then",
+    "meaning": "तब / फिर",
+    "pronunciation": "???",
+    "definition": "At that time, or next in order.",
+    "example": "We had lunch, then went for a walk.",
+    "category": "Linking Words & Connectors",
+    "subCategory": "Linking Words & Connectors"
+  },
+  {
+    "word": "therefore",
+    "meaning": "Used to introduce a logical conclusion or result",
+    "pronunciation": "",
+    "definition": "Used to introduce a logical conclusion or result",
+    "example": "He missed the bus; therefore, he was late.",
+    "category": "Linking Words & Connectors",
+    "subCategory": "Linking Words & Connectors"
+  },
+  {
+    "word": "thus",
+    "meaning": "Formal word meaning 'as a result' or 'in this way'",
+    "pronunciation": "",
+    "definition": "Formal word meaning 'as a result' or 'in this way'",
+    "example": "The data was corrupted, thus making the analysis unreliable.",
+    "category": "Linking Words & Connectors",
+    "subCategory": "Linking Words & Connectors"
+  },
+  {
+    "word": "to begin with",
+    "meaning": "Used to introduce the first point, or to describe an initial state",
+    "pronunciation": "",
+    "definition": "Used to introduce the first point, or to describe an initial state",
+    "example": "To begin with, I thought it was a joke.",
+    "category": "Linking Words & Connectors",
+    "subCategory": "Linking Words & Connectors"
+  },
+  {
+    "word": "to conclude",
+    "meaning": "Used to formally introduce final remarks",
+    "pronunciation": "",
+    "definition": "Used to formally introduce final remarks",
+    "example": "To conclude, I believe this approach is the most effective.",
+    "category": "Linking Words & Connectors",
+    "subCategory": "Linking Words & Connectors"
+  },
+  {
+    "word": "to illustrate",
+    "meaning": "Used to introduce an example that demonstrates a point",
+    "pronunciation": "",
+    "definition": "Used to introduce an example that demonstrates a point",
+    "example": "To illustrate, consider what happened in the 2008 financial crisis.",
+    "category": "Linking Words & Connectors",
+    "subCategory": "Linking Words & Connectors"
+  },
+  {
+    "word": "to start with",
+    "meaning": "Informal phrase to introduce the first point",
+    "pronunciation": "",
+    "definition": "Informal phrase to introduce the first point",
+    "example": "To start with, let's look at the main problem.",
+    "category": "Linking Words & Connectors",
+    "subCategory": "Linking Words & Connectors"
+  },
+  {
+    "word": "to sum up",
+    "meaning": "Used to signal a summary of the main points",
+    "pronunciation": "",
+    "definition": "Used to signal a summary of the main points",
+    "example": "To sum up, the project was a great success.",
+    "category": "Linking Words & Connectors",
+    "subCategory": "Linking Words & Connectors"
+  },
+  {
+    "word": "too",
+    "meaning": "Used at the end of a clause to mean 'also' or 'in addition'",
+    "pronunciation": "",
+    "definition": "Used at the end of a clause to mean 'also' or 'in addition'",
+    "example": "I'd like some coffee, too.",
+    "category": "Linking Words & Connectors",
+    "subCategory": "Linking Words & Connectors"
+  },
+  {
+    "word": "unless",
+    "meaning": "Used to introduce an exception or negative condition",
+    "pronunciation": "",
+    "definition": "Used to introduce an exception or negative condition",
+    "example": "Don't call me unless it's an emergency.",
+    "category": "Linking Words & Connectors",
+    "subCategory": "Linking Words & Connectors"
+  },
+  {
+    "word": "what's more",
+    "meaning": "Used to emphasize an additional and often more important point",
+    "pronunciation": "",
+    "definition": "Used to emphasize an additional and often more important point",
+    "example": "The hotel was dirty. What's more, the staff were rude.",
+    "category": "Linking Words & Connectors",
+    "subCategory": "Linking Words & Connectors"
+  },
+  {
+    "word": "whereas",
+    "meaning": "Used to draw a direct contrast between two different facts",
+    "pronunciation": "",
+    "definition": "Used to draw a direct contrast between two different facts",
+    "example": "Tom is outgoing, whereas his brother is quite shy.",
+    "category": "Linking Words & Connectors",
+    "subCategory": "Linking Words & Connectors"
+  },
+  {
+    "word": "while",
+    "meaning": "Used to contrast two simultaneous situations or opposing ideas",
+    "pronunciation": "",
+    "definition": "Used to contrast two simultaneous situations or opposing ideas",
+    "example": "While I understand your point, I don't fully agree.",
+    "category": "Linking Words & Connectors",
+    "subCategory": "Linking Words & Connectors"
+  },
+  {
+    "word": "yet",
+    "meaning": "Used like 'but' to introduce a surprising contrast",
+    "pronunciation": "",
+    "definition": "Used like 'but' to introduce a surprising contrast",
+    "example": "He's young, yet he's incredibly wise.",
+    "category": "Linking Words & Connectors",
+    "subCategory": "Linking Words & Connectors"
+  }
+]

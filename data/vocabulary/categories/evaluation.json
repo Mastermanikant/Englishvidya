@@ -1,207 +1,245 @@
 [
   {
-    "word": "appraise",
-    "meaning": "To assess the value, quality, or nature of something.",
-    "example": "He carefully appraised the methodology used in the study.",
-    "category": "Evaluation"
-  },
-  {
-    "word": "critique",
-    "meaning": "A detailed analysis and assessment of something.",
-    "example": "The student offered a thoughtful critique of the author's methodology.",
-    "category": "Evaluation"
-  },
-  {
-    "word": "evaluate",
-    "meaning": "To form an idea of the amount, number, or value of something; to assess.",
-    "example": "The student evaluated three competing theories before forming her own view.",
-    "category": "Evaluation"
+    "word": "assessment",
+    "meaning": "?????????",
+    "pronunciation": "",
+    "definition": "The evaluation or estimation of the nature, quality, or ability of someone or something.",
+    "example": "Regular assessment helps teachers track student progress throughout the year.",
+    "category": "Evaluation",
+    "subCategory": "Evaluation"
   },
   {
     "word": "benchmark",
     "meaning": "A standard or reference point against which things may be compared.",
+    "pronunciation": "",
+    "definition": "A standard or reference point against which things may be compared.",
     "example": "This study sets a new benchmark for research quality in the field.",
-    "category": "Evaluation"
-  },
-  {
-    "word": "assessment",
-    "meaning": "The process of evaluating a student's knowledge, skills, or performance",
-    "example": "Regular assessment helps teachers track student progress throughout the year.",
     "category": "Evaluation",
-    "meaning_hi": "?????????"
-  },
-  {
-    "word": "examination",
-    "meaning": "A formal test to measure a student's knowledge of a subject",
-    "example": "The final examination will cover all topics taught this semester.",
-    "category": "Evaluation",
-    "meaning_hi": "???????"
-  },
-  {
-    "word": "quiz",
-    "meaning": "A short, informal test given to check students' understanding",
-    "example": "The teacher gave a surprise quiz on the previous day's lesson.",
-    "category": "Evaluation",
-    "meaning_hi": "????????????"
-  },
-  {
-    "word": "formative assessment",
-    "meaning": "Ongoing evaluation used to monitor student learning during instruction",
-    "example": "Classroom discussions and exit slips are examples of formative assessment.",
-    "category": "Evaluation"
-  },
-  {
-    "word": "summative assessment",
-    "meaning": "An evaluation at the end of a unit or course to measure overall learning",
-    "example": "The final exam is a summative assessment of the entire year's content.",
-    "category": "Evaluation"
-  },
-  {
-    "word": "rubric",
-    "meaning": "A scoring guide that lists criteria for evaluating student work",
-    "example": "The teacher shared the rubric so students knew how their essays would be marked.",
-    "category": "Evaluation"
-  },
-  {
-    "word": "grade",
-    "meaning": "A mark or score given to indicate the quality of a student's work",
-    "example": "She received an A grade for her science project.",
-    "category": "Evaluation",
-    "meaning_hi": "??????/?????"
-  },
-  {
-    "word": "marks",
-    "meaning": "Points awarded for correct answers in a test or assignment",
-    "example": "Each question in the test carries five marks.",
-    "category": "Evaluation"
-  },
-  {
-    "word": "score",
-    "meaning": "The total number of points a student earns in a test or assessment",
-    "example": "His score of 92 out of 100 placed him at the top of the class.",
-    "category": "Evaluation"
-  },
-  {
-    "word": "portfolio",
-    "meaning": "A collection of student work used to show progress over time",
-    "example": "Students compiled a portfolio of their writing samples throughout the year.",
-    "category": "Evaluation"
-  },
-  {
-    "word": "feedback",
-    "meaning": "Comments or information given to a student about their performance",
-    "example": "The teacher's feedback helped the student improve her essay structure.",
-    "category": "Evaluation"
-  },
-  {
-    "word": "peer assessment",
-    "meaning": "When students evaluate each other's work using agreed criteria",
-    "example": "Peer assessment taught students to give constructive feedback to classmates.",
-    "category": "Evaluation"
-  },
-  {
-    "word": "self-assessment",
-    "meaning": "When a student evaluates their own learning or performance",
-    "example": "Self-assessment helps students identify their own strengths and weaknesses.",
-    "category": "Evaluation"
-  },
-  {
-    "word": "standardised test",
-    "meaning": "A test administered and scored in a consistent manner for all students",
-    "example": "The board conducted a standardised test to compare results across schools.",
-    "category": "Evaluation"
-  },
-  {
-    "word": "benchmark",
-    "meaning": "A reference point used to measure or compare academic performance",
-    "example": "The school set a benchmark of 75% pass rate for all subjects.",
-    "category": "Evaluation"
-  },
-  {
-    "word": "criterion",
-    "meaning": "A standard or rule used to judge or assess student work",
-    "example": "One criterion for the project was the accuracy of the information presented.",
-    "category": "Evaluation"
-  },
-  {
-    "word": "pass",
-    "meaning": "To achieve the minimum required mark in a test or subject",
-    "example": "Students must score at least 40% to pass the final examination.",
-    "category": "Evaluation",
-    "meaning_hi": "???????? ????"
-  },
-  {
-    "word": "fail",
-    "meaning": "To not achieve the minimum required mark in a test or subject",
-    "example": "He was upset to learn he would fail if he missed the supplementary exam.",
-    "category": "Evaluation",
-    "meaning_hi": "???? ????"
-  },
-  {
-    "word": "distinction",
-    "meaning": "An exceptionally high grade awarded for outstanding performance",
-    "example": "She earned a distinction in English for scoring above 90%.",
-    "category": "Evaluation"
-  },
-  {
-    "word": "merit",
-    "meaning": "A high grade indicating strong performance, below distinction",
-    "example": "He was awarded a merit for his consistent effort throughout the year.",
-    "category": "Evaluation"
-  },
-  {
-    "word": "percentile",
-    "meaning": "A measure indicating the percentage of students who scored below a given point",
-    "example": "Scoring in the 95th percentile means outperforming 95% of test-takers.",
-    "category": "Evaluation"
-  },
-  {
-    "word": "transcript",
-    "meaning": "An official document listing a student's academic subjects and grades",
-    "example": "She submitted her transcript when applying for university admission.",
-    "category": "Evaluation"
-  },
-  {
-    "word": "report card",
-    "meaning": "A periodic document showing a student's grades and teacher comments",
-    "example": "Parents review the report card to understand their child's academic progress.",
-    "category": "Evaluation"
-  },
-  {
-    "word": "evaluation",
-    "meaning": "The process of judging the quality or value of a student's learning",
-    "example": "Evaluation of oral presentations included content, clarity, and confidence.",
-    "category": "Evaluation",
-    "meaning_hi": "?????????"
+    "subCategory": "Evaluation"
   },
   {
     "word": "continuous evaluation",
     "meaning": "An ongoing system of assessing students throughout the academic year",
+    "pronunciation": "",
+    "definition": "An ongoing system of assessing students throughout the academic year",
     "example": "Continuous evaluation reduces the pressure of a single final exam.",
-    "category": "Evaluation"
+    "category": "Evaluation",
+    "subCategory": "Evaluation"
   },
   {
-    "word": "viva voce",
-    "meaning": "An oral examination where a student answers questions verbally",
-    "example": "The viva voce for the lab project tested students' scientific reasoning.",
-    "category": "Evaluation"
+    "word": "criterion",
+    "meaning": "A standard or rule used to judge or assess student work",
+    "pronunciation": "",
+    "definition": "A principle or standard by which something may be judged or decided.",
+    "example": "One criterion for the project was the accuracy of the information presented.",
+    "category": "Evaluation",
+    "subCategory": "Evaluation"
   },
   {
-    "word": "multiple choice",
-    "meaning": "A type of question with several answer options from which one is correct",
-    "example": "The exam had twenty multiple choice questions worth one mark each.",
-    "category": "Evaluation"
+    "word": "distinction",
+    "meaning": "An exceptionally high grade awarded for outstanding performance",
+    "pronunciation": "",
+    "definition": "A high grade awarded for outstanding academic achievement.",
+    "example": "She earned a distinction in English for scoring above 90%.",
+    "category": "Evaluation",
+    "subCategory": "Evaluation"
   },
   {
-    "word": "short answer",
-    "meaning": "A type of question requiring a brief written response",
-    "example": "Short answer questions tested students' ability to recall key facts.",
-    "category": "Evaluation"
+    "word": "examination",
+    "meaning": "???????",
+    "pronunciation": "",
+    "definition": "A formal test of a person's knowledge or proficiency in a subject or skill.",
+    "example": "The final examination will cover all topics taught this semester.",
+    "category": "Evaluation",
+    "subCategory": "Evaluation"
+  },
+  {
+    "word": "fail",
+    "meaning": "???? ????",
+    "pronunciation": "",
+    "definition": "",
+    "example": "He was upset to learn he would fail if he missed the supplementary exam.",
+    "category": "Evaluation",
+    "subCategory": "Evaluation"
+  },
+  {
+    "word": "feedback",
+    "meaning": "Comments or information given to a student about their performance",
+    "pronunciation": "",
+    "definition": "à¤ªà¥à¤°à¤¤à¤¿à¤•à¥à¤°à¤¿à¤¯à¤¾ (à¤«à¥€à¤¡à¤¬à¥ˆà¤•)",
+    "example": "The teacher's feedback helped the student improve her essay structure.",
+    "category": "Evaluation",
+    "subCategory": "Evaluation"
+  },
+  {
+    "word": "formative assessment",
+    "meaning": "Ongoing evaluation used to monitor student learning during instruction",
+    "pronunciation": "",
+    "definition": "Ongoing evaluation used to monitor student learning during instruction",
+    "example": "Classroom discussions and exit slips are examples of formative assessment.",
+    "category": "Evaluation",
+    "subCategory": "Evaluation"
+  },
+  {
+    "word": "grade",
+    "meaning": "??????/?????",
+    "pronunciation": "",
+    "definition": "A mark indicating a student's level of accomplishment.",
+    "example": "She received an A grade for her science project.",
+    "category": "Evaluation",
+    "subCategory": "Evaluation"
   },
   {
     "word": "long answer",
     "meaning": "A question requiring a detailed, extended written response",
+    "pronunciation": "",
+    "definition": "A question requiring a detailed, extended written response",
     "example": "Long answer questions assessed students' ability to construct arguments.",
-    "category": "Evaluation"
+    "category": "Evaluation",
+    "subCategory": "Evaluation"
+  },
+  {
+    "word": "marks",
+    "meaning": "Points awarded for correct answers in a test or assignment",
+    "pronunciation": "",
+    "definition": "Points awarded for correct answers in a test or assignment",
+    "example": "Each question in the test carries five marks.",
+    "category": "Evaluation",
+    "subCategory": "Evaluation"
+  },
+  {
+    "word": "merit",
+    "meaning": "A high grade indicating strong performance, below distinction",
+    "pronunciation": "",
+    "definition": "A grade signifying a level of achievement above average but below distinction.",
+    "example": "He was awarded a merit for his consistent effort throughout the year.",
+    "category": "Evaluation",
+    "subCategory": "Evaluation"
+  },
+  {
+    "word": "multiple choice",
+    "meaning": "A type of question with several answer options from which one is correct",
+    "pronunciation": "",
+    "definition": "A type of question with several answer options from which one is correct",
+    "example": "The exam had twenty multiple choice questions worth one mark each.",
+    "category": "Evaluation",
+    "subCategory": "Evaluation"
+  },
+  {
+    "word": "pass",
+    "meaning": "???????? ????",
+    "pronunciation": "",
+    "definition": "Be successful in an exam, course, or class.",
+    "example": "Students must score at least 40% to pass the final examination.",
+    "category": "Evaluation",
+    "subCategory": "Evaluation"
+  },
+  {
+    "word": "peer assessment",
+    "meaning": "When students evaluate each other's work using agreed criteria",
+    "pronunciation": "",
+    "definition": "When students evaluate each other's work using agreed criteria",
+    "example": "Peer assessment taught students to give constructive feedback to classmates.",
+    "category": "Evaluation",
+    "subCategory": "Evaluation"
+  },
+  {
+    "word": "percentile",
+    "meaning": "A measure indicating the percentage of students who scored below a given point",
+    "pronunciation": "",
+    "definition": "A measure used in statistics indicating the value below which a given percentage of observations fall.",
+    "example": "Scoring in the 95th percentile means outperforming 95% of test-takers.",
+    "category": "Evaluation",
+    "subCategory": "Evaluation"
+  },
+  {
+    "word": "portfolio",
+    "meaning": "A collection of student work used to show progress over time",
+    "pronunciation": "",
+    "definition": "A collection of student work used to show progress over time",
+    "example": "Students compiled a portfolio of their writing samples throughout the year.",
+    "category": "Evaluation",
+    "subCategory": "Evaluation"
+  },
+  {
+    "word": "quiz",
+    "meaning": "????????????",
+    "pronunciation": "",
+    "definition": "A test of knowledge, especially a brief, informal test given to students.",
+    "example": "The teacher gave a surprise quiz on the previous day's lesson.",
+    "category": "Evaluation",
+    "subCategory": "Evaluation"
+  },
+  {
+    "word": "report card",
+    "meaning": "A periodic document showing a student's grades and teacher comments",
+    "pronunciation": "",
+    "definition": "A teacher's written assessment of a student's work, progress, and conduct, sent home to parents.",
+    "example": "Parents review the report card to understand their child's academic progress.",
+    "category": "Evaluation",
+    "subCategory": "Evaluation"
+  },
+  {
+    "word": "rubric",
+    "meaning": "A scoring guide that lists criteria for evaluating student work",
+    "pronunciation": "",
+    "definition": "A scoring guide used to evaluate the quality of students' constructed responses.",
+    "example": "The teacher shared the rubric so students knew how their essays would be marked.",
+    "category": "Evaluation",
+    "subCategory": "Evaluation"
+  },
+  {
+    "word": "self-assessment",
+    "meaning": "When a student evaluates their own learning or performance",
+    "pronunciation": "",
+    "definition": "When a student evaluates their own learning or performance",
+    "example": "Self-assessment helps students identify their own strengths and weaknesses.",
+    "category": "Evaluation",
+    "subCategory": "Evaluation"
+  },
+  {
+    "word": "short answer",
+    "meaning": "A type of question requiring a brief written response",
+    "pronunciation": "",
+    "definition": "A type of question requiring a brief written response",
+    "example": "Short answer questions tested students' ability to recall key facts.",
+    "category": "Evaluation",
+    "subCategory": "Evaluation"
+  },
+  {
+    "word": "standardised test",
+    "meaning": "A test administered and scored in a consistent manner for all students",
+    "pronunciation": "",
+    "definition": "A test administered and scored in a consistent manner for all students",
+    "example": "The board conducted a standardised test to compare results across schools.",
+    "category": "Evaluation",
+    "subCategory": "Evaluation"
+  },
+  {
+    "word": "summative assessment",
+    "meaning": "An evaluation at the end of a unit or course to measure overall learning",
+    "pronunciation": "",
+    "definition": "An evaluation at the end of a unit or course to measure overall learning",
+    "example": "The final exam is a summative assessment of the entire year's content.",
+    "category": "Evaluation",
+    "subCategory": "Evaluation"
+  },
+  {
+    "word": "transcript",
+    "meaning": "An official document listing a student's academic subjects and grades",
+    "pronunciation": "",
+    "definition": "An official record of a student's work, showing courses taken and grades achieved.",
+    "example": "She submitted her transcript when applying for university admission.",
+    "category": "Evaluation",
+    "subCategory": "Evaluation"
+  },
+  {
+    "word": "viva voce",
+    "meaning": "An oral examination where a student answers questions verbally",
+    "pronunciation": "",
+    "definition": "An oral examination where a student answers questions verbally",
+    "example": "The viva voce for the lab project tested students' scientific reasoning.",
+    "category": "Evaluation",
+    "subCategory": "Evaluation"
   }
 ]

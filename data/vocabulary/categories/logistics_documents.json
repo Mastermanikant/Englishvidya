@@ -1,158 +1,218 @@
-﻿[
-    {
-        "word":  "PASSPORT",
-        "meaning":  "An official government document proving your identity and nationality, required for traveling to other countries.",
-        "example":  "Make sure your passport is valid for at least six months before booking your trip.",
-        "category":  "Logistics \u0026 Documents"
-    },
-    {
-        "word":  "VISA",
-        "meaning":  "An official stamp or document placed in a passport that allows the holder to enter, leave, or stay in a country.",
-        "example":  "You need to apply for a tourist visa before traveling to India.",
-        "category":  "Logistics \u0026 Documents"
-    },
-    {
-        "word":  "TRAVEL INSURANCE",
-        "meaning":  "A type of insurance that covers costs associated with medical emergencies, lost baggage, or trip cancellations.",
-        "example":  "It is wise to buy travel insurance in case your flights are canceled or your luggage is lost.",
-        "category":  "Logistics \u0026 Documents"
-    },
-    {
-        "word":  "VACCINATION CERTIFICATE",
-        "meaning":  "An official document proving that you have received specific vaccines required for entry into a country.",
-        "example":  "Travelers entering from certain regions must present a yellow fever vaccination certificate.",
-        "category":  "Logistics \u0026 Documents"
-    },
-    {
-        "word":  "BORDER CONTROL",
-        "meaning":  "The place where government officials check the passports, visas, and luggage of people entering a country.",
-        "example":  "We waited in a long queue at border control after landing in Canada.",
-        "category":  "Logistics \u0026 Documents"
-    },
-    {
-        "word":  "CURRENCY EXCHANGE",
-        "meaning":  "The service or office where you can trade the money of one country for that of another.",
-        "example":  "I went to the currency exchange booth to get some euros before my flight.",
-        "category":  "Logistics \u0026 Documents"
-    },
-    {
-        "word":  "CUSTOMS DECLARATION",
-        "meaning":  "An official form where travelers list valuable or restricted items they are bringing into a country.",
-        "example":  "Every passenger must fill out a customs declaration form before landing.",
-        "category":  "Logistics \u0026 Documents"
-    },
-    {
-        "word":  "EXPIRY DATE",
-        "meaning":  "The date on which a document, ticket, or agreement ceases to be valid or active.",
-        "example":  "Please check the expiry date of your credit card before you go abroad.",
-        "category":  "Logistics \u0026 Documents"
-    },
-    {
-        "word":  "DESTINATION",
-        "meaning":  "The place to which someone or something is going or being sent.",
-        "example":  "After traveling all day, we finally reached our destination in the mountains.",
-        "category":  "Logistics \u0026 Documents"
-    },
-    {
-        "word":  "HIGH SEASON",
-        "meaning":  "The time of year when a place is most popular with tourists, often resulting in higher prices and larger crowds.",
-        "example":  "Hotel rooms are much more expensive during the high season of summer.",
-        "category":  "Logistics \u0026 Documents"
-    },
-    {
-        "word":  "LOW SEASON",
-        "meaning":  "The time of year when fewer tourists visit a place, resulting in lower prices and fewer crowds.",
-        "example":  "Traveling in the low season is cheaper and lets you avoid long queues.",
-        "category":  "Logistics \u0026 Documents"
-    },
-    {
-        "word":  "PEAK HOURS",
-        "meaning":  "The times of the day when demand for a service, like trains or highways, is at its highest.",
-        "example":  "Ticket prices are higher during peak hours when everyone is commuting.",
-        "category":  "Logistics \u0026 Documents"
-    },
-    {
-        "word":  "TRAVEL AGENCY",
-        "meaning":  "A business that helps people arrange flights, hotel bookings, and tours for their holidays.",
-        "example":  "The travel agency organized a customized tour of Japan for our family.",
-        "category":  "Logistics \u0026 Documents"
-    },
-    {
-        "word":  "GUIDEBOOK",
-        "meaning":  "A book that gives tourists information about a town, area, or country, including maps and suggestions.",
-        "example":  "I consulted my guidebook to find the best walking tour in Rome.",
-        "category":  "Logistics \u0026 Documents"
-    },
-    {
-        "word":  "VOUCHER",
-        "meaning":  "A document or ticket that can be exchanged for goods or services, like a hotel room or a meal.",
-        "example":  "The airline gave us a food voucher to use at the airport restaurants during our flight delay.",
-        "category":  "Logistics \u0026 Documents"
-    },
-    {
-        "word":  "PACKAGE TOUR",
-        "meaning":  "A holiday that includes flights, hotels, and sometimes meals and activities, bought together for one set price.",
-        "example":  "They bought a package tour to Hawaii, which saved them the hassle of booking everything separately.",
-        "category":  "Logistics \u0026 Documents"
-    },
-    {
-        "word":  "ECOTOURISM",
-        "meaning":  "Tourism directed toward exotic, natural environments, intended to support conservation and observe wildlife.",
-        "example":  "The island promotes ecotourism to protect its coral reefs and rainforests.",
-        "category":  "Logistics \u0026 Documents"
-    },
-    {
-        "word":  "TRAVEL BAN",
-        "meaning":  "A government restriction that prevents people from entering or leaving a particular country or area.",
-        "example":  "The government announced a temporary travel ban due to health concerns.",
-        "category":  "Logistics \u0026 Documents"
-    },
-    {
-        "word":  "DURATION",
-        "meaning":  "The total amount of time that something lasts or continues.",
-        "example":  "The duration of the train ride from London to Paris is about two and a half hours.",
-        "category":  "Logistics \u0026 Documents"
-    },
-    {
-        "word":  "RENT-A-CAR",
-        "meaning":  "A service or company that hires out cars to customers for a specified period of time.",
-        "example":  "We walked to the rent-a-car office to pick up the keys to our vehicle.",
-        "category":  "Logistics \u0026 Documents"
-    },
-    {
-        "word":  "GLOBETROTTER",
-        "meaning":  "A person who travels widely and frequently around the world.",
-        "example":  "My uncle is a real globetrotter who has visited more than fifty countries.",
-        "category":  "Logistics \u0026 Documents"
-    },
-    {
-        "word":  "TRAVEL BUG",
-        "meaning":  "A strong, passionate desire to travel and explore the world.",
-        "example":  "Ever since her trip to Thailand, she has caught the travel bug and plans new holidays constantly.",
-        "category":  "Logistics \u0026 Documents"
-    },
-    {
-        "word":  "LOST AND FOUND",
-        "meaning":  "An office or desk where items left behind by passengers or visitors are stored and can be claimed.",
-        "example":  "I left my umbrella on the train, so I went to the lost and found office to see if someone returned it.",
-        "category":  "Logistics \u0026 Documents"
-    },
-    {
-        "word":  "LUGGAGE TROLLEY",
-        "meaning":  "A small, wheeled cart used by passengers to carry heavy suitcases at airports or train stations.",
-        "example":  "He loaded three large suitcases onto a luggage trolley to push them to the taxi stand.",
-        "category":  "Logistics \u0026 Documents"
-    },
-    {
-        "word":  "WAYFARER",
-        "meaning":  "A traveler, especially one who travels on foot.",
-        "example":  "The village inn offered warm meals and comfortable beds to weary wayfarers.",
-        "category":  "Logistics \u0026 Documents"
-    },
-    {
-        "word":  "STOPOVER",
-        "meaning":  "A planned, temporary break in a journey, typically lasting more than twenty-four hours, before continuing to the final destination.",
-        "example":  "We had a two-day stopover in Singapore on our way to Australia.",
-        "category":  "Logistics \u0026 Documents"
-    }
+[
+  {
+    "word": "BORDER CONTROL",
+    "meaning": "The place where government officials check the passports, visas, and luggage of people entering a country.",
+    "pronunciation": "",
+    "definition": "The place where government officials check the passports, visas, and luggage of people entering a country.",
+    "example": "We waited in a long queue at border control after landing in Canada.",
+    "category": "Logistics & Documents",
+    "subCategory": "Logistics & Documents"
+  },
+  {
+    "word": "CURRENCY EXCHANGE",
+    "meaning": "The service or office where you can trade the money of one country for that of another.",
+    "pronunciation": "",
+    "definition": "The service or office where you can trade the money of one country for that of another.",
+    "example": "I went to the currency exchange booth to get some euros before my flight.",
+    "category": "Logistics & Documents",
+    "subCategory": "Logistics & Documents"
+  },
+  {
+    "word": "CUSTOMS DECLARATION",
+    "meaning": "An official form where travelers list valuable or restricted items they are bringing into a country.",
+    "pronunciation": "",
+    "definition": "An official form where travelers list valuable or restricted items they are bringing into a country.",
+    "example": "Every passenger must fill out a customs declaration form before landing.",
+    "category": "Logistics & Documents",
+    "subCategory": "Logistics & Documents"
+  },
+  {
+    "word": "DESTINATION",
+    "meaning": "The place to which someone or something is going or being sent.",
+    "pronunciation": "",
+    "definition": "The place to which someone or something is going or being sent.",
+    "example": "After traveling all day, we finally reached our destination in the mountains.",
+    "category": "Logistics & Documents",
+    "subCategory": "Logistics & Documents"
+  },
+  {
+    "word": "DURATION",
+    "meaning": "The total amount of time that something lasts or continues.",
+    "pronunciation": "",
+    "definition": "The total amount of time that something lasts or continues.",
+    "example": "The duration of the train ride from London to Paris is about two and a half hours.",
+    "category": "Logistics & Documents",
+    "subCategory": "Logistics & Documents"
+  },
+  {
+    "word": "EXPIRY DATE",
+    "meaning": "The date on which a document, ticket, or agreement ceases to be valid or active.",
+    "pronunciation": "",
+    "definition": "The date on which a document, ticket, or agreement ceases to be valid or active.",
+    "example": "Please check the expiry date of your credit card before you go abroad.",
+    "category": "Logistics & Documents",
+    "subCategory": "Logistics & Documents"
+  },
+  {
+    "word": "GLOBETROTTER",
+    "meaning": "A person who travels widely and frequently around the world.",
+    "pronunciation": "",
+    "definition": "A person who travels widely and frequently around the world.",
+    "example": "My uncle is a real globetrotter who has visited more than fifty countries.",
+    "category": "Logistics & Documents",
+    "subCategory": "Logistics & Documents"
+  },
+  {
+    "word": "GUIDEBOOK",
+    "meaning": "A book that gives tourists information about a town, area, or country, including maps and suggestions.",
+    "pronunciation": "",
+    "definition": "A book that gives tourists information about a town, area, or country, including maps and suggestions.",
+    "example": "I consulted my guidebook to find the best walking tour in Rome.",
+    "category": "Logistics & Documents",
+    "subCategory": "Logistics & Documents"
+  },
+  {
+    "word": "HIGH SEASON",
+    "meaning": "The time of year when a place is most popular with tourists, often resulting in higher prices and larger crowds.",
+    "pronunciation": "",
+    "definition": "The time of year when a place is most popular with tourists, often resulting in higher prices and larger crowds.",
+    "example": "Hotel rooms are much more expensive during the high season of summer.",
+    "category": "Logistics & Documents",
+    "subCategory": "Logistics & Documents"
+  },
+  {
+    "word": "LOST AND FOUND",
+    "meaning": "An office or desk where items left behind by passengers or visitors are stored and can be claimed.",
+    "pronunciation": "",
+    "definition": "An office or desk where items left behind by passengers or visitors are stored and can be claimed.",
+    "example": "I left my umbrella on the train, so I went to the lost and found office to see if someone returned it.",
+    "category": "Logistics & Documents",
+    "subCategory": "Logistics & Documents"
+  },
+  {
+    "word": "LOW SEASON",
+    "meaning": "The time of year when fewer tourists visit a place, resulting in lower prices and fewer crowds.",
+    "pronunciation": "",
+    "definition": "The time of year when fewer tourists visit a place, resulting in lower prices and fewer crowds.",
+    "example": "Traveling in the low season is cheaper and lets you avoid long queues.",
+    "category": "Logistics & Documents",
+    "subCategory": "Logistics & Documents"
+  },
+  {
+    "word": "LUGGAGE TROLLEY",
+    "meaning": "A small, wheeled cart used by passengers to carry heavy suitcases at airports or train stations.",
+    "pronunciation": "",
+    "definition": "A small, wheeled cart used by passengers to carry heavy suitcases at airports or train stations.",
+    "example": "He loaded three large suitcases onto a luggage trolley to push them to the taxi stand.",
+    "category": "Logistics & Documents",
+    "subCategory": "Logistics & Documents"
+  },
+  {
+    "word": "PACKAGE TOUR",
+    "meaning": "A holiday that includes flights, hotels, and sometimes meals and activities, bought together for one set price.",
+    "pronunciation": "",
+    "definition": "A holiday that includes flights, hotels, and sometimes meals and activities, bought together for one set price.",
+    "example": "They bought a package tour to Hawaii, which saved them the hassle of booking everything separately.",
+    "category": "Logistics & Documents",
+    "subCategory": "Logistics & Documents"
+  },
+  {
+    "word": "PASSPORT",
+    "meaning": "An official government document proving your identity and nationality, required for traveling to other countries.",
+    "pronunciation": "",
+    "definition": "",
+    "example": "Make sure your passport is valid for at least six months before booking your trip.",
+    "category": "Logistics & Documents",
+    "subCategory": "Logistics & Documents"
+  },
+  {
+    "word": "PEAK HOURS",
+    "meaning": "The times of the day when demand for a service, like trains or highways, is at its highest.",
+    "pronunciation": "",
+    "definition": "The times of the day when demand for a service, like trains or highways, is at its highest.",
+    "example": "Ticket prices are higher during peak hours when everyone is commuting.",
+    "category": "Logistics & Documents",
+    "subCategory": "Logistics & Documents"
+  },
+  {
+    "word": "RENT-A-CAR",
+    "meaning": "A service or company that hires out cars to customers for a specified period of time.",
+    "pronunciation": "",
+    "definition": "A service or company that hires out cars to customers for a specified period of time.",
+    "example": "We walked to the rent-a-car office to pick up the keys to our vehicle.",
+    "category": "Logistics & Documents",
+    "subCategory": "Logistics & Documents"
+  },
+  {
+    "word": "STOPOVER",
+    "meaning": "A planned, temporary break in a journey, typically lasting more than twenty-four hours, before continuing to the final destination.",
+    "pronunciation": "",
+    "definition": "A planned, temporary break in a journey, typically lasting more than twenty-four hours, before continuing to the final destination.",
+    "example": "We had a two-day stopover in Singapore on our way to Australia.",
+    "category": "Logistics & Documents",
+    "subCategory": "Logistics & Documents"
+  },
+  {
+    "word": "TRAVEL AGENCY",
+    "meaning": "A business that helps people arrange flights, hotel bookings, and tours for their holidays.",
+    "pronunciation": "",
+    "definition": "A business that helps people arrange flights, hotel bookings, and tours for their holidays.",
+    "example": "The travel agency organized a customized tour of Japan for our family.",
+    "category": "Logistics & Documents",
+    "subCategory": "Logistics & Documents"
+  },
+  {
+    "word": "TRAVEL BAN",
+    "meaning": "A government restriction that prevents people from entering or leaving a particular country or area.",
+    "pronunciation": "",
+    "definition": "A government restriction that prevents people from entering or leaving a particular country or area.",
+    "example": "The government announced a temporary travel ban due to health concerns.",
+    "category": "Logistics & Documents",
+    "subCategory": "Logistics & Documents"
+  },
+  {
+    "word": "TRAVEL BUG",
+    "meaning": "A strong, passionate desire to travel and explore the world.",
+    "pronunciation": "",
+    "definition": "A strong, passionate desire to travel and explore the world.",
+    "example": "Ever since her trip to Thailand, she has caught the travel bug and plans new holidays constantly.",
+    "category": "Logistics & Documents",
+    "subCategory": "Logistics & Documents"
+  },
+  {
+    "word": "TRAVEL INSURANCE",
+    "meaning": "A type of insurance that covers costs associated with medical emergencies, lost baggage, or trip cancellations.",
+    "pronunciation": "",
+    "definition": "A type of insurance that covers costs associated with medical emergencies, lost baggage, or trip cancellations.",
+    "example": "It is wise to buy travel insurance in case your flights are canceled or your luggage is lost.",
+    "category": "Logistics & Documents",
+    "subCategory": "Logistics & Documents"
+  },
+  {
+    "word": "VACCINATION CERTIFICATE",
+    "meaning": "An official document proving that you have received specific vaccines required for entry into a country.",
+    "pronunciation": "",
+    "definition": "An official document proving that you have received specific vaccines required for entry into a country.",
+    "example": "Travelers entering from certain regions must present a yellow fever vaccination certificate.",
+    "category": "Logistics & Documents",
+    "subCategory": "Logistics & Documents"
+  },
+  {
+    "word": "VISA",
+    "meaning": "An official stamp or document placed in a passport that allows the holder to enter, leave, or stay in a country.",
+    "pronunciation": "",
+    "definition": "An official stamp or document placed in a passport that allows the holder to enter, leave, or stay in a country.",
+    "example": "You need to apply for a tourist visa before traveling to India.",
+    "category": "Logistics & Documents",
+    "subCategory": "Logistics & Documents"
+  },
+  {
+    "word": "WAYFARER",
+    "meaning": "A traveler, especially one who travels on foot.",
+    "pronunciation": "",
+    "definition": "A traveler, especially one who travels on foot.",
+    "example": "The village inn offered warm meals and comfortable beds to weary wayfarers.",
+    "category": "Logistics & Documents",
+    "subCategory": "Logistics & Documents"
+  }
 ]

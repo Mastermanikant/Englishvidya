@@ -1,182 +1,227 @@
-﻿[
-    {
-        "word":  "ATTENTION-GRABBER",
-        "meaning":  "A statement, question, or image used at the start to get the audience\u0027s interest.",
-        "example":  "She started her presentation with a surprising statistic as an attention-grabber.",
-        "category":  "Hook \u0026 Intro"
-    },
-    {
-        "word":  "OPENING REMARK",
-        "meaning":  "The first few words or sentences spoken when beginning a speech.",
-        "example":  "The guest speaker made a warm opening remark to welcome everyone to the conference.",
-        "category":  "Hook \u0026 Intro"
-    },
-    {
-        "word":  "HOOK",
-        "meaning":  "A creative or interesting statement at the very beginning that captures the audience\u0027s attention.",
-        "example":  "Using a personal story is a great hook to connect with your listeners immediately.",
-        "category":  "Hook \u0026 Intro"
-    },
-    {
-        "word":  "ICEBREAKER",
-        "meaning":  "A short activity, joke, or question used to help the audience feel comfortable and relaxed.",
-        "example":  "The presenter used a quick icebreaker to get the audience laughing and talking.",
-        "category":  "Hook \u0026 Intro"
-    },
-    {
-        "word":  "ANECDOTE",
-        "meaning":  "A short, interesting story about a real event or person, used to illustrate a point.",
-        "example":  "He shared an anecdote about his first job to explain the importance of patience.",
-        "category":  "Hook \u0026 Intro"
-    },
-    {
-        "word":  "ROADMAP",
-        "meaning":  "A brief overview of the main points the speaker will cover during the presentation.",
-        "example":  "Providing a roadmap at the beginning helps the audience follow your presentation easily.",
-        "category":  "Hook \u0026 Intro"
-    },
-    {
-        "word":  "AUDIENCE ANALYSIS",
-        "meaning":  "Checking who the listeners are to make sure the speech matches their interests and knowledge.",
-        "example":  "Doing a quick audience analysis helped the speaker choose simple words instead of technical jargon.",
-        "category":  "Hook \u0026 Intro"
-    },
-    {
-        "word":  "SIGNPOST",
-        "meaning":  "A word or phrase that tells the audience where they are in the presentation.",
-        "example":  "Using phrases like \u0027firstly\u0027 or \u0027moving on\u0027 acts as a signpost for the listeners.",
-        "category":  "Hook \u0026 Intro"
-    },
-    {
-        "word":  "CALL TO ACTION",
-        "meaning":  "A clear instruction telling the audience what they should do next after hearing the speech.",
-        "example":  "The presentation ended with a strong call to action, asking everyone to sign the petition.",
-        "category":  "Hook \u0026 Intro"
-    },
-    {
-        "word":  "CREDIBILITY STATEMENT",
-        "meaning":  "A statement explaining why the speaker is qualified to talk about the topic.",
-        "example":  "Her credibility statement mentioned her ten years of research experience in climate science.",
-        "category":  "Hook \u0026 Intro"
-    },
-    {
-        "word":  "THESIS STATEMENT",
-        "meaning":  "A single sentence that explains the main message or purpose of the presentation.",
-        "example":  "The presenter clearly stated her thesis statement: remote work improves both productivity and happiness.",
-        "category":  "Hook \u0026 Intro"
-    },
-    {
-        "word":  "RHETORICAL QUESTION",
-        "meaning":  "A question asked to make the audience think, not to get an actual answer.",
-        "example":  "He began the talk with a rhetorical question: \u0027Have you ever wondered what the world will look like in fifty years?\u0027",
-        "category":  "Hook \u0026 Intro"
-    },
-    {
-        "word":  "CORE MESSAGE",
-        "meaning":  "The most important point that the speaker wants the audience to remember.",
-        "example":  "No matter how long your speech is, you should always have one clear core message.",
-        "category":  "Hook \u0026 Intro"
-    },
-    {
-        "word":  "WIIFM",
-        "meaning":  "An acronym for \u0027What\u0027s In It For Me\u0027, representing what the audience will gain from listening.",
-        "example":  "To keep the audience interested, make sure to address the WIIFM early in your introduction.",
-        "category":  "Hook \u0026 Intro"
-    },
-    {
-        "word":  "SHOCKING STATISTIC",
-        "meaning":  "A surprising number or fact used to show the importance of a topic.",
-        "example":  "The speaker shared a shocking statistic about food waste to make the audience care about the issue.",
-        "category":  "Hook \u0026 Intro"
-    },
-    {
-        "word":  "BOLD STATEMENT",
-        "meaning":  "A strong, confident, and sometimes surprising claim made to get people\u0027s attention.",
-        "example":  "He started with a bold statement: \u0027Traditional offices will be completely gone by the end of this decade.\u0027",
-        "category":  "Hook \u0026 Intro"
-    },
-    {
-        "word":  "COMMON GROUND",
-        "meaning":  "A shared interest, opinion, or experience that helps the speaker connect with the audience.",
-        "example":  "Finding common ground with the audience helps build trust right from the start.",
-        "category":  "Hook \u0026 Intro"
-    },
-    {
-        "word":  "PROVOCATIVE",
-        "meaning":  "Making people think deeply, feel strong emotions, or start a discussion.",
-        "example":  "She asked a provocative question that challenged the audience\u0027s traditional beliefs.",
-        "category":  "Hook \u0026 Intro"
-    },
-    {
-        "word":  "SET THE STAGE",
-        "meaning":  "To prepare the audience by explaining the context or background of the topic.",
-        "example":  "Before showing the data, the presenter set the stage by describing the history of the company.",
-        "category":  "Hook \u0026 Intro"
-    },
-    {
-        "word":  "ESTABLISH RAPPORT",
-        "meaning":  "To build a friendly, trusting, and positive relationship with the audience.",
-        "example":  "Greeting people at the door is a simple way to establish rapport before your speech starts.",
-        "category":  "Hook \u0026 Intro"
-    },
-    {
-        "word":  "HOUSEKEEPING RULES",
-        "meaning":  "Information about practical details, such as break times or where to find emergency exits, given at the start.",
-        "example":  "The host went over a few housekeeping rules before introducing the main speaker.",
-        "category":  "Hook \u0026 Intro"
-    },
-    {
-        "word":  "AGENDA",
-        "meaning":  "A list of items or topics that will be discussed or presented in order.",
-        "example":  "Let\u0027s look at today\u0027s agenda to see what we will cover before lunch.",
-        "category":  "Hook \u0026 Intro"
-    },
-    {
-        "word":  "PREVIEW",
-        "meaning":  "A brief look at what is coming next in the speech or presentation.",
-        "example":  "He gave a quick preview of the product features before demonstrating them live.",
-        "category":  "Hook \u0026 Intro"
-    },
-    {
-        "word":  "WELCOME ADDRESS",
-        "meaning":  "A formal speech or statement welcoming guests to an event.",
-        "example":  "The director gave a warm welcome address to all the new international students.",
-        "category":  "Hook \u0026 Intro"
-    },
-    {
-        "word":  "STATE THE PURPOSE",
-        "meaning":  "To clearly explain why the presentation is being given.",
-        "example":  "It is important to state the purpose of your meeting in the first two minutes.",
-        "category":  "Hook \u0026 Intro"
-    },
-    {
-        "word":  "OVERVIEW",
-        "meaning":  "A general summary or quick description of a subject.",
-        "example":  "The first slide provides an overview of our sales performance this year.",
-        "category":  "Hook \u0026 Intro"
-    },
-    {
-        "word":  "INTRODUCE ONESELF",
-        "meaning":  "To tell the audience your name and a bit about who you are.",
-        "example":  "Before beginning the slides, please take a moment to introduce yourself to the group.",
-        "category":  "Hook \u0026 Intro"
-    },
-    {
-        "word":  "ATTENTION SPAN",
-        "meaning":  "The length of time that a person can focus on something without getting distracted.",
-        "example":  "Because the human attention span is short, keep your introduction under three minutes.",
-        "category":  "Hook \u0026 Intro"
-    },
-    {
-        "word":  "CAPTIVATE",
-        "meaning":  "To hold the attention and interest of the audience completely.",
-        "example":  "Her storytelling was so powerful that she managed to captivate the entire room.",
-        "category":  "Hook \u0026 Intro"
-    },
-    {
-        "word":  "START STRONG",
-        "meaning":  "Beginning a speech with high energy, confidence, and a clear message.",
-        "example":  "Starting strong helps you overcome nervous energy and builds immediate confidence.",
-        "category":  "Hook \u0026 Intro"
-    }
+[
+  {
+    "word": "AGENDA",
+    "meaning": "A list of items or topics that will be discussed or presented in order.",
+    "pronunciation": "",
+    "definition": "A list of items to be discussed at a formal meeting.",
+    "example": "Let's look at today's agenda to see what we will cover before lunch.",
+    "category": "Hook & Intro",
+    "subCategory": "Hook & Intro"
+  },
+  {
+    "word": "ANECDOTE",
+    "meaning": "A short, interesting story about a real event or person, used to illustrate a point.",
+    "pronunciation": "",
+    "definition": "a short amusing or interesting story about a real incident or person.",
+    "example": "He shared an anecdote about his first job to explain the importance of patience.",
+    "category": "Hook & Intro",
+    "subCategory": "Hook & Intro"
+  },
+  {
+    "word": "ATTENTION SPAN",
+    "meaning": "The length of time that a person can focus on something without getting distracted.",
+    "pronunciation": "",
+    "definition": "The length of time a person can concentrate on a task without becoming distracted.",
+    "example": "Because the human attention span is short, keep your introduction under three minutes.",
+    "category": "Hook & Intro",
+    "subCategory": "Hook & Intro"
+  },
+  {
+    "word": "ATTENTION-GRABBER",
+    "meaning": "A statement, question, or image used at the start to get the audience's interest.",
+    "pronunciation": "",
+    "definition": "A statement, question, or image used at the start to get the audience's interest.",
+    "example": "She started her presentation with a surprising statistic as an attention-grabber.",
+    "category": "Hook & Intro",
+    "subCategory": "Hook & Intro"
+  },
+  {
+    "word": "AUDIENCE ANALYSIS",
+    "meaning": "Checking who the listeners are to make sure the speech matches their interests and knowledge.",
+    "pronunciation": "",
+    "definition": "Checking who the listeners are to make sure the speech matches their interests and knowledge.",
+    "example": "Doing a quick audience analysis helped the speaker choose simple words instead of technical jargon.",
+    "category": "Hook & Intro",
+    "subCategory": "Hook & Intro"
+  },
+  {
+    "word": "BOLD STATEMENT",
+    "meaning": "A strong, confident, and sometimes surprising claim made to get people's attention.",
+    "pronunciation": "",
+    "definition": "A strong, confident, and sometimes surprising claim made to get people's attention.",
+    "example": "He started with a bold statement: 'Traditional offices will be completely gone by the end of this decade.'",
+    "category": "Hook & Intro",
+    "subCategory": "Hook & Intro"
+  },
+  {
+    "word": "CALL TO ACTION",
+    "meaning": "A clear instruction telling the audience what they should do next after hearing the speech.",
+    "pronunciation": "",
+    "definition": "A piece of content intended to induce a viewer, reader, or listener to perform a specific act.",
+    "example": "The presentation ended with a strong call to action, asking everyone to sign the petition.",
+    "category": "Hook & Intro",
+    "subCategory": "Hook & Intro"
+  },
+  {
+    "word": "CORE MESSAGE",
+    "meaning": "The most important point that the speaker wants the audience to remember.",
+    "pronunciation": "",
+    "definition": "The most important point that the speaker wants the audience to remember.",
+    "example": "No matter how long your speech is, you should always have one clear core message.",
+    "category": "Hook & Intro",
+    "subCategory": "Hook & Intro"
+  },
+  {
+    "word": "CREDIBILITY STATEMENT",
+    "meaning": "A statement explaining why the speaker is qualified to talk about the topic.",
+    "pronunciation": "",
+    "definition": "A statement explaining why the speaker is qualified to talk about the topic.",
+    "example": "Her credibility statement mentioned her ten years of research experience in climate science.",
+    "category": "Hook & Intro",
+    "subCategory": "Hook & Intro"
+  },
+  {
+    "word": "HOUSEKEEPING RULES",
+    "meaning": "Information about practical details, such as break times or where to find emergency exits, given at the start.",
+    "pronunciation": "",
+    "definition": "Information about practical details, such as break times or where to find emergency exits, given at the start.",
+    "example": "The host went over a few housekeeping rules before introducing the main speaker.",
+    "category": "Hook & Intro",
+    "subCategory": "Hook & Intro"
+  },
+  {
+    "word": "ICEBREAKER",
+    "meaning": "A short activity, joke, or question used to help the audience feel comfortable and relaxed.",
+    "pronunciation": "",
+    "definition": "A short, light activity at the start of a meeting to help participants feel comfortable.",
+    "example": "The presenter used a quick icebreaker to get the audience laughing and talking.",
+    "category": "Hook & Intro",
+    "subCategory": "Hook & Intro"
+  },
+  {
+    "word": "INTRODUCE ONESELF",
+    "meaning": "To tell the audience your name and a bit about who you are.",
+    "pronunciation": "",
+    "definition": "To tell the audience your name and a bit about who you are.",
+    "example": "Before beginning the slides, please take a moment to introduce yourself to the group.",
+    "category": "Hook & Intro",
+    "subCategory": "Hook & Intro"
+  },
+  {
+    "word": "OPENING REMARK",
+    "meaning": "The first few words or sentences spoken when beginning a speech.",
+    "pronunciation": "",
+    "definition": "The first few words or sentences spoken when beginning a speech.",
+    "example": "The guest speaker made a warm opening remark to welcome everyone to the conference.",
+    "category": "Hook & Intro",
+    "subCategory": "Hook & Intro"
+  },
+  {
+    "word": "OVERVIEW",
+    "meaning": "A general summary or quick description of a subject.",
+    "pronunciation": "",
+    "definition": "A general summary or quick description of a subject.",
+    "example": "The first slide provides an overview of our sales performance this year.",
+    "category": "Hook & Intro",
+    "subCategory": "Hook & Intro"
+  },
+  {
+    "word": "PREVIEW",
+    "meaning": "A brief look at what is coming next in the speech or presentation.",
+    "pronunciation": "",
+    "definition": "To view how a webpage, email, or document will look to end-users before publishing it (strong alternative to 'look at before live' or 'test look').",
+    "example": "He gave a quick preview of the product features before demonstrating them live.",
+    "category": "Hook & Intro",
+    "subCategory": "Hook & Intro"
+  },
+  {
+    "word": "RHETORICAL QUESTION",
+    "meaning": "A question asked to make the audience think, not to get an actual answer.",
+    "pronunciation": "",
+    "definition": "A question asked to make the audience think, not to get an actual answer.",
+    "example": "He began the talk with a rhetorical question: 'Have you ever wondered what the world will look like in fifty years?'",
+    "category": "Hook & Intro",
+    "subCategory": "Hook & Intro"
+  },
+  {
+    "word": "ROADMAP",
+    "meaning": "A brief overview of the main points the speaker will cover during the presentation.",
+    "pronunciation": "",
+    "definition": "A brief overview of the main points the speaker will cover during the presentation.",
+    "example": "Providing a roadmap at the beginning helps the audience follow your presentation easily.",
+    "category": "Hook & Intro",
+    "subCategory": "Hook & Intro"
+  },
+  {
+    "word": "SET THE STAGE",
+    "meaning": "To prepare the audience by explaining the context or background of the topic.",
+    "pronunciation": "",
+    "definition": "To prepare the audience by explaining the context or background of the topic.",
+    "example": "Before showing the data, the presenter set the stage by describing the history of the company.",
+    "category": "Hook & Intro",
+    "subCategory": "Hook & Intro"
+  },
+  {
+    "word": "SHOCKING STATISTIC",
+    "meaning": "A surprising number or fact used to show the importance of a topic.",
+    "pronunciation": "",
+    "definition": "A surprising number or fact used to show the importance of a topic.",
+    "example": "The speaker shared a shocking statistic about food waste to make the audience care about the issue.",
+    "category": "Hook & Intro",
+    "subCategory": "Hook & Intro"
+  },
+  {
+    "word": "SIGNPOST",
+    "meaning": "A word or phrase that tells the audience where they are in the presentation.",
+    "pronunciation": "",
+    "definition": "A word or phrase that tells the audience where they are in the presentation.",
+    "example": "Using phrases like 'firstly' or 'moving on' acts as a signpost for the listeners.",
+    "category": "Hook & Intro",
+    "subCategory": "Hook & Intro"
+  },
+  {
+    "word": "START STRONG",
+    "meaning": "Beginning a speech with high energy, confidence, and a clear message.",
+    "pronunciation": "",
+    "definition": "Beginning a speech with high energy, confidence, and a clear message.",
+    "example": "Starting strong helps you overcome nervous energy and builds immediate confidence.",
+    "category": "Hook & Intro",
+    "subCategory": "Hook & Intro"
+  },
+  {
+    "word": "STATE THE PURPOSE",
+    "meaning": "To clearly explain why the presentation is being given.",
+    "pronunciation": "",
+    "definition": "To clearly explain why the presentation is being given.",
+    "example": "It is important to state the purpose of your meeting in the first two minutes.",
+    "category": "Hook & Intro",
+    "subCategory": "Hook & Intro"
+  },
+  {
+    "word": "THESIS STATEMENT",
+    "meaning": "A single sentence that explains the main message or purpose of the presentation.",
+    "pronunciation": "",
+    "definition": "A single sentence that explains the main message or purpose of the presentation.",
+    "example": "The presenter clearly stated her thesis statement: remote work improves both productivity and happiness.",
+    "category": "Hook & Intro",
+    "subCategory": "Hook & Intro"
+  },
+  {
+    "word": "WELCOME ADDRESS",
+    "meaning": "A formal speech or statement welcoming guests to an event.",
+    "pronunciation": "",
+    "definition": "A formal speech or statement welcoming guests to an event.",
+    "example": "The director gave a warm welcome address to all the new international students.",
+    "category": "Hook & Intro",
+    "subCategory": "Hook & Intro"
+  },
+  {
+    "word": "WIIFM",
+    "meaning": "An acronym for 'What's In It For Me', representing what the audience will gain from listening.",
+    "pronunciation": "",
+    "definition": "An acronym for 'What's In It For Me', representing what the audience will gain from listening.",
+    "example": "To keep the audience interested, make sure to address the WIIFM early in your introduction.",
+    "category": "Hook & Intro",
+    "subCategory": "Hook & Intro"
+  }
 ]

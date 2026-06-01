@@ -1,1 +1,137 @@
-﻿[{"word":"slide deck","meaning":"A set of slides used in a presentation, typically created with software","example":"She prepared a polished slide deck for the investor pitch.","category":"Presentations"},{"word":"presenter view","meaning":"A display mode showing the speaker\u0027s notes and upcoming slides during a presentation","example":"He used presenter view so he could see his notes while the audience saw the slides.","category":"Presentations"},{"word":"bullet point","meaning":"A short piece of information highlighted with a dot or symbol in a list","example":"Keep bullet points concise for better audience readability.","category":"Presentations"},{"word":"infographic","meaning":"A visual representation of information or data using graphics","example":"The infographic summarised the survey results in a clear format.","category":"Presentations"},{"word":"transition","meaning":"An animated effect between slides in a presentation","example":"Avoid overusing flashy transitions as they can distract the audience.","category":"Presentations"},{"word":"animation","meaning":"Movement effects applied to text or objects within a presentation slide","example":"Each bullet point appeared with a fade animation.","category":"Presentations"},{"word":"Q\u0026A session","meaning":"A segment of a presentation where the audience asks questions","example":"Please save your questions for the Q\u0026A session at the end.","category":"Presentations"},{"word":"handout","meaning":"A printed or digital document distributed to audience members during a presentation","example":"Participants received a handout summarising the key points.","category":"Presentations"},{"word":"pitch","meaning":"A persuasive presentation aimed at selling an idea or product","example":"The startup delivered a compelling pitch to attract investors.","category":"Presentations"},{"word":"data visualisation","meaning":"The graphical representation of information and data","example":"Effective data visualisation makes complex trends easy to understand.","category":"Presentations"},{"word":"whiteboard","meaning":"A digital or physical surface used to draw and write ideas during a presentation","example":"The trainer used the interactive whiteboard to illustrate the concept.","category":"Presentations"},{"word":"run of show","meaning":"A detailed timeline of events during a presentation or event","example":"The event coordinator shared the run of show with all speakers.","category":"Presentations"},{"word":"talking points","meaning":"Key ideas or facts a speaker wishes to convey during a presentation","example":"He prepared talking points to stay on track during the interview.","category":"Presentations"},{"word":"call to action","meaning":"An instruction prompting the audience to take a specific next step","example":"End your presentation with a clear call to action.","category":"Presentations"},{"word":"poll","meaning":"An interactive feature in a message or meeting allowing participants to vote on options","example":"The host launched a live poll to gauge audience opinions.","category":"Presentations"},{"word":"presenter","meaning":"The person delivering a presentation or leading a meeting","example":"The presenter spoke clearly and maintained eye contact with the camera.","category":"Presentations"},{"word":"audience engagement","meaning":"Techniques used to involve and interest the audience during a presentation","example":"Quizzes and polls improve audience engagement during webinars.","category":"Presentations"},{"word":"key takeaway","meaning":"The most important point or lesson from a presentation or discussion","example":"The key takeaway is that early planning reduces project risks.","category":"Presentations"},{"word":"agenda","meaning":"A list of topics or items to be discussed in a meeting","example":"Please review the agenda before the meeting begins.","category":"Presentations"},{"word":"minutes","meaning":"A written record of what was discussed and decided in a meeting","example":"The secretary shared the meeting minutes with all participants.","category":"Presentations"},{"word":"annotation","meaning":"A note or comment added to a document or presentation slide","example":"She added annotations to highlight key data points on the slide.","category":"Presentations"},{"word":"co-presenter","meaning":"A person who shares the role of presenting alongside the main presenter","example":"The marketing director joined as co-presenter for the product launch webinar.","category":"Presentations"}]
+[
+  {
+    "word": "animation",
+    "meaning": "Movement effects applied to text or objects within a presentation slide",
+    "pronunciation": "",
+    "definition": "Movement effects applied to text or objects within a presentation slide",
+    "example": "Each bullet point appeared with a fade animation.",
+    "category": "Presentations",
+    "subCategory": "Presentations"
+  },
+  {
+    "word": "audience engagement",
+    "meaning": "Techniques used to involve and interest the audience during a presentation",
+    "pronunciation": "",
+    "definition": "Techniques used to involve and interest the audience during a presentation",
+    "example": "Quizzes and polls improve audience engagement during webinars.",
+    "category": "Presentations",
+    "subCategory": "Presentations"
+  },
+  {
+    "word": "bullet point",
+    "meaning": "A short piece of information highlighted with a dot or symbol in a list",
+    "pronunciation": "",
+    "definition": "A short piece of information highlighted with a dot or symbol in a list",
+    "example": "Keep bullet points concise for better audience readability.",
+    "category": "Presentations",
+    "subCategory": "Presentations"
+  },
+  {
+    "word": "co-presenter",
+    "meaning": "A person who shares the role of presenting alongside the main presenter",
+    "pronunciation": "",
+    "definition": "A person who shares the role of presenting alongside the main presenter",
+    "example": "The marketing director joined as co-presenter for the product launch webinar.",
+    "category": "Presentations",
+    "subCategory": "Presentations"
+  },
+  {
+    "word": "data visualisation",
+    "meaning": "The graphical representation of information and data",
+    "pronunciation": "",
+    "definition": "The graphical representation of information and data",
+    "example": "Effective data visualisation makes complex trends easy to understand.",
+    "category": "Presentations",
+    "subCategory": "Presentations"
+  },
+  {
+    "word": "handout",
+    "meaning": "A printed or digital document distributed to audience members during a presentation",
+    "pronunciation": "",
+    "definition": "A printed or digital document distributed to audience members during a presentation",
+    "example": "Participants received a handout summarising the key points.",
+    "category": "Presentations",
+    "subCategory": "Presentations"
+  },
+  {
+    "word": "infographic",
+    "meaning": "A visual representation of information or data using graphics",
+    "pronunciation": "",
+    "definition": "A visual representation of information or data using graphics",
+    "example": "The infographic summarised the survey results in a clear format.",
+    "category": "Presentations",
+    "subCategory": "Presentations"
+  },
+  {
+    "word": "key takeaway",
+    "meaning": "The most important point or lesson from a presentation or discussion",
+    "pronunciation": "",
+    "definition": "The most important point or lesson from a presentation or discussion",
+    "example": "The key takeaway is that early planning reduces project risks.",
+    "category": "Presentations",
+    "subCategory": "Presentations"
+  },
+  {
+    "word": "minutes",
+    "meaning": "A written record of what was discussed and decided in a meeting",
+    "pronunciation": "",
+    "definition": "The written record of a meeting.",
+    "example": "The secretary shared the meeting minutes with all participants.",
+    "category": "Presentations",
+    "subCategory": "Presentations"
+  },
+  {
+    "word": "poll",
+    "meaning": "An interactive feature in a message or meeting allowing participants to vote on options",
+    "pronunciation": "",
+    "definition": "An interactive feature in a message or meeting allowing participants to vote on options",
+    "example": "The host launched a live poll to gauge audience opinions.",
+    "category": "Presentations",
+    "subCategory": "Presentations"
+  },
+  {
+    "word": "presenter",
+    "meaning": "The person delivering a presentation or leading a meeting",
+    "pronunciation": "",
+    "definition": "The person delivering a presentation or leading a meeting",
+    "example": "The presenter spoke clearly and maintained eye contact with the camera.",
+    "category": "Presentations",
+    "subCategory": "Presentations"
+  },
+  {
+    "word": "presenter view",
+    "meaning": "A display mode showing the speaker's notes and upcoming slides during a presentation",
+    "pronunciation": "",
+    "definition": "A display mode showing the speaker's notes and upcoming slides during a presentation",
+    "example": "He used presenter view so he could see his notes while the audience saw the slides.",
+    "category": "Presentations",
+    "subCategory": "Presentations"
+  },
+  {
+    "word": "run of show",
+    "meaning": "A detailed timeline of events during a presentation or event",
+    "pronunciation": "",
+    "definition": "A detailed timeline of events during a presentation or event",
+    "example": "The event coordinator shared the run of show with all speakers.",
+    "category": "Presentations",
+    "subCategory": "Presentations"
+  },
+  {
+    "word": "slide deck",
+    "meaning": "A set of slides used in a presentation, typically created with software",
+    "pronunciation": "",
+    "definition": "A set of slides used in a presentation, typically created with software",
+    "example": "She prepared a polished slide deck for the investor pitch.",
+    "category": "Presentations",
+    "subCategory": "Presentations"
+  },
+  {
+    "word": "talking points",
+    "meaning": "Key ideas or facts a speaker wishes to convey during a presentation",
+    "pronunciation": "",
+    "definition": "Key ideas or facts a speaker wishes to convey during a presentation",
+    "example": "He prepared talking points to stay on track during the interview.",
+    "category": "Presentations",
+    "subCategory": "Presentations"
+  }
+]

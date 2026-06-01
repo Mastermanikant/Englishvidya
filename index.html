@@ -3,13 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
-
-    <!-- ⛔ TEMPORARILY BLOCKING INDEXING — Remove these 3 lines when ready to launch publicly -->
-    <meta name="robots" content="noindex, nofollow, noarchive, nosnippet">
-    <meta name="googlebot" content="noindex, nofollow">
-    <meta name="bingbot" content="noindex, nofollow">
-    <meta name="description" content="English Vidya — हिंदी माध्यम के छात्रों के लिए बेहतरीन अंग्रेजी सीखने का मंच। Grammar, Vocabulary, Flashcards सब एक जगह।">
-    <meta name="theme-color" content="#0f172a">
+    <meta name="description" content="English Vidya — हिंदी माध्यम के छात्रों के लिए भारत का पहला 100% मुफ़्त, विज्ञापन-मुक्त और तेज़ अंग्रेजी सीखने का डिजिटल मंच।">
+    <meta name="theme-color" content="#0c1222">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     
@@ -18,15 +13,15 @@
     <!-- PWA Manifest -->
     <link rel="manifest" href="./manifest.json">
     
-    <!-- Fonts: Inter for body, Outfit for headings -->
+    <!-- Premium Fonts: Inter for body, Outfit for headings -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@600;700;800;900&display=swap" rel="stylesheet">
     
-    <!-- Main Stylesheet -->
+    <!-- Premium Stylesheet -->
     <link rel="stylesheet" href="./css/style.css">
 
-    <!-- Inline Critical: Prevent FOUC (Flash of Unstyled Content) -->
+    <!-- Prevent Flash of Unstyled Content (FOUC) -->
     <script>
       (function(){
         var t = localStorage.getItem('ev-theme') || 'dark';
@@ -36,29 +31,34 @@
 </head>
 <body>
 
-    <!-- ═══════════════════════════════════════════════════ -->
-    <!-- 1. SCROLL PROGRESS BAR                             -->
-    <!-- ═══════════════════════════════════════════════════ -->
+    <!-- 1. SCROLL PROGRESS TRACK -->
     <div class="scroll-progress-track" aria-hidden="true">
         <div class="scroll-progress-bar" id="scroll-progress"></div>
     </div>
 
-    <!-- ═══════════════════════════════════════════════════ -->
-    <!-- 2. APP HEADER (Sticky, Glassmorphism)               -->
-    <!-- ═══════════════════════════════════════════════════ -->
+    <!-- 2. GLASS STICKY HEADER -->
     <header class="app-header" id="app-header">
         <div class="header-left">
             <a href="#/" class="logo" id="logo-link" aria-label="English Vidya Home">
-                <span class="logo-mark">ॐ</span>
+                <span class="logo-mark">🎓</span>
                 <span class="logo-text">English <span class="logo-accent">Vidya</span></span>
             </a>
         </div>
+        <nav class="desktop-nav" aria-label="Desktop Navigation" id="desktop-nav">
+            <a href="#/" class="desktop-nav-link active" data-route="home">होम</a>
+            <a href="#/grammar" class="desktop-nav-link" data-route="grammar">Grammar</a>
+            <a href="#/dictionary" class="desktop-nav-link" data-route="dictionary">शब्दकोश</a>
+            <a href="#/flashcards" class="desktop-nav-link" data-route="flashcards">Flashcards</a>
+            <a href="#/about" class="desktop-nav-link" data-route="about">हमारे बारे में</a>
+            <a href="#/contact" class="desktop-nav-link" data-route="contact">संपर्क करें</a>
+            <a href="#/legal" class="desktop-nav-link" data-route="legal">नीतियां (Legal)</a>
+        </nav>
         <div class="header-right">
-            <!-- Search Trigger -->
+            <!-- Zero-Cost Instant Search -->
             <button class="header-btn" id="search-trigger-btn" aria-label="खोजें (Search)">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
             </button>
-            <!-- Theme Toggle -->
+            <!-- Smooth Theme Toggle -->
             <button class="header-btn" id="theme-toggle-btn" aria-label="Theme बदलें">
                 <svg class="icon-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
                 <svg class="icon-moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
@@ -66,9 +66,7 @@
         </div>
     </header>
 
-    <!-- ═══════════════════════════════════════════════════ -->
-    <!-- 3. SEARCH OVERLAY (Full-screen Zero-Cost Search)    -->
-    <!-- ═══════════════════════════════════════════════════ -->
+    <!-- 3. SEARCH OVERLAY -->
     <div class="search-overlay" id="search-overlay" role="dialog" aria-label="शब्द खोजें">
         <div class="search-overlay-header">
             <div class="search-input-wrap">
@@ -80,7 +78,6 @@
             </div>
         </div>
         <div class="search-results-area" id="search-results">
-            <!-- Recent searches & results render here -->
             <div class="search-placeholder">
                 <p class="search-hint">🔍 ऊपर टाइप करें — तुरंत results आएंगे</p>
                 <div id="recent-searches-container"></div>
@@ -88,20 +85,535 @@
         </div>
     </div>
 
-    <!-- ═══════════════════════════════════════════════════ -->
-    <!-- 4. MAIN CONTENT CONTAINER (SPA Routing Target)      -->
-    <!-- ═══════════════════════════════════════════════════ -->
+    <!-- 4. MAIN SPA CONTENT AREA -->
     <main class="app-main" id="app-content">
-        <!-- All screen content renders here dynamically via app.js -->
-        <div class="loading-screen" id="initial-loader">
-            <div class="loader-spinner"></div>
-            <p class="loader-text">English Vidya लोड हो रहा है...</p>
+
+        <!-- ── HOME VIEW (Visible by Default) ── -->
+        <div id="view-home" class="spa-view active">
+            <div class="promo-home">
+                
+                <!-- Gorgeous Neon-Orb Hero -->
+                <div class="promo-hero">
+                    <div class="promo-hero-badge">English Vidya • ASOP Launch</div>
+                    <p class="hero-greeting" id="hero-greeting-text">सुप्रभात, विद्यार्थी 🙏</p>
+                    <h1 class="promo-hero-title">English सीखो, आगे बढ़ो!</h1>
+                    <p class="promo-hero-subtitle">
+                        हिंदी माध्यम के छात्रों के लिए भारत का पहला distraction-free, super-fast और 100% मुफ़्त अंग्रेजी सीखने का डिजिटल मंच।
+                    </p>
+                    
+                    <div class="promo-hero-ctas">
+                        <a href="#/grammar" class="promo-btn primary">📖 पढ़ना शुरू करें (Start Learning)</a>
+                        <a href="#/about" class="promo-btn secondary">💡 हमारे बारे में (About Us)</a>
+                    </div>
+
+                    <div class="live-badge-wrap">
+                        <span class="live-dot"></span>
+                        <span>Live Campaign Mode • 2026</span>
+                    </div>
+                </div>
+
+                <!-- 3 Interactive Morphing Cards (Accordion Panels) -->
+                <div class="promo-section" style="margin-top: var(--sp-6);">
+                    <h2 class="section-title text-center" style="margin-bottom: var(--sp-2);">✨ मुख्य विशेषताएं (Core Pillars)</h2>
+                    <p class="section-subtitle text-center" style="margin-bottom: var(--sp-6);">नीचे दिए गए कार्डों पर क्लिक करके विस्तार में देखें (Click to Expand)</p>
+                    
+                    <div class="morph-cards-container" id="morph-cards-container">
+                        
+                        <!-- Card 1: What We Do -->
+                        <div class="morph-card" id="card-what-we-do">
+                            <div class="morph-card-header" style="display: flex; justify-content: space-between; align-items: center; cursor: pointer;">
+                                <div style="display: flex; align-items: center; gap: var(--sp-3);">
+                                    <span style="font-size: 1.5rem;">📖</span>
+                                    <h3 style="margin: 0; font-size: 1.1rem; color: var(--text-primary);">01. हम क्या करते हैं (What We Do)</h3>
+                                </div>
+                                <span class="morph-card-indicator" style="font-weight: 600; color: var(--accent);">↓</span>
+                            </div>
+                            <div class="morph-card-content" style="max-height: 0; overflow: hidden;">
+                                <div style="padding: var(--sp-5); display: grid; grid-template-columns: 1fr; gap: var(--sp-4);">
+                                    <p style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6; border-left: 3px solid var(--accent); padding-left: 10px;">
+                                        हम ग्रामीण भारत के उन होनहार छात्रों के लिए काम करते हैं जो अंग्रेजी न बोल पाने के कारण पीछे रह जाते हैं। हमारा मंच रटने के बजाय व्यावहारिक अभ्यास पर ध्यान केंद्रित करता है।
+                                    </p>
+                                    <div class="pillars-grid">
+                                        <div class="pillar-card">
+                                            <h4 style="color: var(--accent);">📚 द्विभाषी व्याकरण (Bilingual Grammar)</h4>
+                                            <p style="margin-top: 5px;">सभी नियमों को रटने के बजाय, हम उन्हें हिंदी-अंग्रेजी (Hinglish) के आसान वाक्यों से मस्कुलर प्रैक्टिस द्वारा सीधे मस्तिष्क में उतारते हैं।</p>
+                                        </div>
+                                        <div class="pillar-card">
+                                            <h4 style="color: var(--accent);">🔤 19,773 शब्दों का खज़ाना (Dictionary)</h4>
+                                            <p style="margin-top: 5px;">ग्रामीण छात्रों की सामान्य गलतियों को दूर करने के लिए विशेष देवनागरी उच्चारण और हिंदी अर्थ के साथ 148 श्रेणियों में विभाजित शब्दकोश।</p>
+                                        </div>
+                                        <div class="pillar-card">
+                                            <h4 style="color: var(--accent);">🃏 फ़्लैशकार्ड्स (Practice Deck)</h4>
+                                            <p style="margin-top: 5px;">याददाश्त को बेहतर बनाने और उच्चारण का तुरंत वॉयस सुनने के लिए स्पेस-रेपेटिशन (Spaced Repetition) पर आधारित स्मार्ट कार्ड्स।</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Card 2: Our Plans -->
+                        <div class="morph-card" id="card-our-plans">
+                            <div class="morph-card-header" style="display: flex; justify-content: space-between; align-items: center; cursor: pointer;">
+                                <div style="display: flex; align-items: center; gap: var(--sp-3);">
+                                    <span style="font-size: 1.5rem;">🚀</span>
+                                    <h3 style="margin: 0; font-size: 1.1rem; color: var(--text-primary);">02. हमारी योजना (Our Plans & Vision)</h3>
+                                </div>
+                                <span class="morph-card-indicator" style="font-weight: 600; color: var(--accent);">↓</span>
+                            </div>
+                            <div class="morph-card-content" style="max-height: 0; overflow: hidden;">
+                                <div style="padding: var(--sp-5); display: grid; grid-template-columns: 1fr; gap: var(--sp-4);">
+                                    <p style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6; border-left: 3px solid var(--accent); padding-left: 10px;">
+                                        हमारा उद्देश्य ग्रामीण भारत के हर छात्र के हाथ में एक प्रीमियम, सुरक्षित और ध्यान न भटकाने वाला शिक्षा पारिस्थितिकी तंत्र (Ecosystem) प्रदान करना है।
+                                    </p>
+                                    <div class="pillars-grid">
+                                        <div class="pillar-card">
+                                            <h4 style="color: var(--accent);">🔥 डेली स्ट्रीक और रिवार्ड्स (Gamification)</h4>
+                                            <p style="margin-top: 5px;">छात्र रोज़ाना आकर 5 मिनट पढ़ेंगे और अपनी स्ट्रीक बनाए रखेंगे। लगातार 10 दिनों की स्ट्रीक पर ₹49 मूल्य की प्रीमियम पीडीएफ बुक बिल्कुल मुफ्त दी जाएगी।</p>
+                                        </div>
+                                        <div class="pillar-card">
+                                            <h4 style="color: var(--accent);">📊 साप्ताहिक लीडरबोर्ड (Peer Board)</h4>
+                                            <p style="margin-top: 5px;">बिना किसी स्पैम या तनाव के, शीर्ष सक्रिय छात्रों की प्रशंसा बढ़ाने और उनका गौरव बढ़ाने के लिए हर सोमवार रीसेट होने वाला लीडरबोर्ड।</p>
+                                        </div>
+                                        <div class="pillar-card">
+                                            <h4 style="color: var(--accent);">📡 ऑफलाइन सपोर्ट PWA (Offline Study)</h4>
+                                            <p style="margin-top: 5px;">इंटरनेट कनेक्टिविटी की समस्या को खत्म करने के लिए, लोड किए गए सभी व्याकरण नोट्स और शब्द ऑफलाइन रहने पर भी फोन में चलते रहेंगे।</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Card 3: Coming Next -->
+                        <div class="morph-card" id="card-coming-next">
+                            <div class="morph-card-header" style="display: flex; justify-content: space-between; align-items: center; cursor: pointer;">
+                                <div style="display: flex; align-items: center; gap: var(--sp-3);">
+                                    <span style="font-size: 1.5rem;">🔮</span>
+                                    <h3 style="margin: 0; font-size: 1.1rem; color: var(--text-primary);">03. आगामी फीचर्स (What's Coming Next)</h3>
+                                </div>
+                                <span class="morph-card-indicator" style="font-weight: 600; color: var(--accent);">↓</span>
+                            </div>
+                            <div class="morph-card-content" style="max-height: 0; overflow: hidden;">
+                                <div style="padding: var(--sp-5); display: grid; grid-template-columns: 1fr; gap: var(--sp-4);">
+                                    <p style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6; border-left: 3px solid var(--accent); padding-left: 10px;">
+                                        वेबसाइट को पूरी तरह मुफ़्त रखते हुए हम आर्टिफिशियल इंटेलिजेंस (AI) की सहायता से छात्रों के उच्चारण और बातचीत की झिझक दूर करने के फीचर्स जोड़ रहे हैं।
+                                    </p>
+                                    <div class="pillars-grid">
+                                        <div class="pillar-card">
+                                            <h4 style="color: var(--accent);">🗣️ Edge AI उच्चारण मूल्यांकन (Voice Assessor)</h4>
+                                            <p style="margin-top: 5px;">ब्राउज़र के नेटिव वॉयस रिकग्निशन एपीआई से छात्र के उच्चारण का स्थानीय स्तर पर ₹0 लागत पर स्वचालित मूल्यांकन करेंगे।</p>
+                                        </div>
+                                        <div class="pillar-card">
+                                            <h4 style="color: var(--accent);">🤖 Edge AI द्विभाषी मेंटर (Bilingual Chatbot)</h4>
+                                            <p style="margin-top: 5px;">क्लाउडफ्लेयर के सर्वरलेस एआई नेटवर्क (Llama-3 Edge AI) पर चलने वाला रोबोट शिक्षक, जिससे छात्र सीधे Hinglish में इंग्लिश सीख सकेंगे।</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Achievements Streak Card -->
+                <div class="streak-card promo-streak" style="margin-top: var(--sp-8);">
+                    <div class="streak-content">
+                        <div class="streak-number" id="streak-number-text">🔥 0 दिन की Streak</div>
+                        <div class="streak-label">लगातार सीखने की निरंतरता!</div>
+                        <div class="streak-message" id="streak-message-text">हर दिन वेबसाइट खोलें, 5 मिनट पढ़ें और अपनी स्ट्रीक बढ़ाएं!</div>
+                    </div>
+                </div>
+
+                <!-- Quick Start App Grid -->
+                <div class="promo-section" style="margin-top: var(--sp-6);">
+                    <h2 class="section-title text-center" style="margin-bottom: var(--sp-6);">⚡ जल्दी शुरू करें (Quick Start)</h2>
+                    <div class="action-grid">
+                        <a href="#/grammar" class="action-card">
+                            <div class="action-icon">📖</div>
+                            <div class="action-title">Grammar सीखें</div>
+                            <div class="action-desc">Noun, Verb, Tense — हिंदी में समझें</div>
+                        </a>
+                        <a href="#/dictionary" class="action-card">
+                            <div class="action-icon">🔤</div>
+                            <div class="action-title">शब्दकोश खोलें</div>
+                            <div class="action-desc">19,773 शब्दों का खज़ाना</div>
+                        </a>
+                        <a href="#/flashcards" class="action-card">
+                            <div class="action-icon">🃏</div>
+                            <div class="action-title">Flashcards Practice</div>
+                            <div class="action-desc">याद करें, उच्चारण सुनें</div>
+                        </a>
+                        <a href="#/profile" class="action-card">
+                            <div class="action-icon">👤</div>
+                            <div class="action-title">प्रोफ़ाइल</div>
+                            <div class="action-desc">सेटिंग्स और प्रगति</div>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Statistics Summary -->
+                <div class="promo-section">
+                    <h2 class="section-title text-center" style="margin-bottom: var(--sp-6);">📊 हमारे आँकड़े (Statistics)</h2>
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <div class="stat-icon">📚</div>
+                            <div class="stat-value">19,773</div>
+                            <div class="stat-label">शब्द (Words)</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon">📖</div>
+                            <div class="stat-value">60</div>
+                            <div class="stat-label">Grammar पाठ</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon">📂</div>
+                            <div class="stat-value">148</div>
+                            <div class="stat-label">श्रेणियाँ</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon">🃏</div>
+                            <div class="stat-value">∞</div>
+                            <div class="stat-label">Flashcards</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 📲 हमसे सोशल मीडिया पर जुड़ें (Stay Connected) -->
+                <div class="promo-section social-connect-section" style="margin-top: var(--sp-6);">
+                    <h2 class="section-title text-center" style="margin-bottom: var(--sp-2); font-size: 1.4rem;">📲 हमसे सोशल मीडिया पर जुड़ें (Stay Connected)</h2>
+                    <p class="section-subtitle text-center" style="margin-bottom: var(--sp-6);">
+                        रोज नए English Words, Spoken Sentences और Grammar Tricks बिल्कुल आसान भाषा में सीखने के लिए अभी हमसे जुड़ें!
+                    </p>
+                    
+                    <!-- WhatsApp Highlight Banner -->
+                    <div class="whatsapp-promo-banner" style="background: linear-gradient(135deg, #25d366, #128c7e); border-radius: var(--radius-lg); padding: var(--sp-6); color: #ffffff; margin-bottom: var(--sp-5); box-shadow: 0 4px 15px rgba(37, 211, 102, 0.2); position: relative; overflow: hidden; display: flex; flex-direction: column; gap: var(--sp-3); align-items: center; text-align: center;">
+                        <div class="social-icon-wrapper" style="background: #ffffff; width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#128c7e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+                        </div>
+                        <div>
+                            <h3 style="font-family: var(--font-heading); font-size: 1.25rem; font-weight: 800; margin-bottom: 6px; color:#ffffff;">WhatsApp चैनल से जुड़ें (Daily Spoken Practice)</h3>
+                            <p style="font-size: 0.85rem; opacity: 0.95; line-height: 1.5; max-width: 480px; margin:0 auto;">
+                                ग्रामर नोट्स की पीडीएफ़, रोज बोले जाने वाले नए इंग्लिश वाक्य और स्पेलिंग शीट्स सीधे अपने व्हाट्सएप पर मुफ्त में पाएं!
+                            </p>
+                        </div>
+                        <a href="https://whatsapp.com/channel/0029VbCnmPe0VycPXCmBBH43" 
+                           target="_blank" 
+                           rel="noopener noreferrer"
+                           class="promo-btn primary" 
+                           style="background: #ffffff; color: #128c7e; font-weight:800; border: none; font-size: 0.9rem; padding: 10px 20px; box-shadow: 0 4px 10px rgba(0,0,0,0.15); width: 100%; max-width: 260px; text-decoration:none; border-radius:8px;">
+                            🟢 WhatsApp चैनल पर जुड़ें (Join Free)
+                        </a>
+                    </div>
+
+                    <!-- 8-platform Premium SVG Links Grid -->
+                    <div class="social-links-grid">
+                        <!-- 1. YouTube -->
+                        <a href="#/youtube" target="_blank" rel="noopener noreferrer" class="social-link-card">
+                            <div class="social-icon-wrapper" style="background: #FF0000;">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2" ry="2"/></svg>
+                            </div>
+                            <div class="social-card-text">
+                                <span class="social-card-name">YouTube</span>
+                                <span class="social-card-username">@englishvidyahq</span>
+                            </div>
+                        </a>
+
+                        <!-- 2. Instagram -->
+                        <a href="https://instagram.com/englishvidyahq" target="_blank" rel="noopener noreferrer" class="social-link-card">
+                            <div class="social-icon-wrapper" style="background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                            </div>
+                            <div class="social-card-text">
+                                <span class="social-card-name">Instagram</span>
+                                <span class="social-card-username">@englishvidyahq</span>
+                            </div>
+                        </a>
+
+                        <!-- 3. Telegram -->
+                        <a href="https://t.me/englishvidyahq" target="_blank" rel="noopener noreferrer" class="social-link-card">
+                            <div class="social-icon-wrapper" style="background: #0088cc;">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+                            </div>
+                            <div class="social-card-text">
+                                <span class="social-card-name">Telegram</span>
+                                <span class="social-card-username">t.me/englishvidyahq</span>
+                            </div>
+                        </a>
+
+                        <!-- 4. Facebook -->
+                        <a href="https://facebook.com/englishvidyahq" target="_blank" rel="noopener noreferrer" class="social-link-card">
+                            <div class="social-icon-wrapper" style="background: #1877F2;">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+                            </div>
+                            <div class="social-card-text">
+                                <span class="social-card-name">Facebook</span>
+                                <span class="social-card-username">englishvidyahq</span>
+                            </div>
+                        </a>
+
+                        <!-- 5. Pinterest -->
+                        <a href="https://pinterest.com/englishvidyahq" target="_blank" rel="noopener noreferrer" class="social-link-card">
+                            <div class="social-icon-wrapper" style="background: #BD081C;">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 8c-2.2 0-4 1.8-4 4 0 1.5 1 2.8 2.5 3.5-.1-.3-.2-.7-.2-1.1v-2.2c0-.4.3-.8.8-.8s.8.3.8.8v2.2c0 .4-.1.8-.2 1.1 1.5-.7 2.5-2 2.5-3.5 0-2.2-1.8-4-4-4z"/></svg>
+                            </div>
+                            <div class="social-card-text">
+                                <span class="social-card-name">Pinterest</span>
+                                <span class="social-card-username">englishvidyahq</span>
+                            </div>
+                        </a>
+
+                        <!-- 6. LinkedIn -->
+                        <a href="https://linkedin.com/company/englishvidyahq" target="_blank" rel="noopener noreferrer" class="social-link-card">
+                            <div class="social-icon-wrapper" style="background: #0A66C2;">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                            </div>
+                            <div class="social-card-text">
+                                <span class="social-card-name">LinkedIn</span>
+                                <span class="social-card-username">englishvidyahq</span>
+                            </div>
+                        </a>
+
+                        <!-- 7. X (Twitter) -->
+                        <a href="https://x.com/englishvidyahq" target="_blank" rel="noopener noreferrer" class="social-link-card" style="grid-column: span 2;">
+                            <div class="social-icon-wrapper" style="background: #000000; border: 1px solid rgba(255,255,255,0.15);">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" y1="20" x2="20" y2="4"/><line x1="4" y1="4" x2="20" y2="20"/></svg>
+                            </div>
+                            <div class="social-card-text">
+                                <span class="social-card-name">X (Twitter)</span>
+                                <span class="social-card-username">@englishvidyahq</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Tip of the Day -->
+                <div class="card card-gradient promo-tip" style="margin-top: var(--sp-8);">
+                    <span class="badge">💡 आज का टिप</span>
+                    <h3 style="margin-top: var(--sp-3); color: var(--text-primary);">रोज़ 10 नए शब्द सीखें</h3>
+                    <p class="text-secondary" style="margin-top: var(--sp-2); margin-bottom: 0;">
+                        अगर आप रोज़ सिर्फ 10 शब्द सीखते हैं, तो 1 साल में आप <strong>3,650 शब्द</strong> जान जाएंगे — यह किसी भी अंग्रेजी exam के लिए काफ़ी से ज़्यादा है!
+                    </p>
+                </div>
+
+            </div>
         </div>
+
+        <!-- ── ABOUT VIEW (Static & Beautiful) ── -->
+        <div id="view-about" class="spa-view">
+            <div class="animate-fade-in about-page">
+                <div class="hero-welcome promo-hero">
+                    <span class="badge">हमारे बारे में (About Us)</span>
+                    <h1 class="promo-hero-title">हमारा मिशन और टीम</h1>
+                    <p class="promo-hero-subtitle">
+                        ग्रामीण भारत और हिंदी-माध्यम के छात्रों के बीच अंग्रेजी के डर को खत्म कर उन्हें रोजगार और डिजिटल अवसरों के लिए सशक्त बनाना।
+                    </p>
+                </div>
+
+                <div class="promo-section">
+                    <div class="card about-card" style="padding: var(--sp-6); margin-bottom: var(--sp-6);">
+                        <h2>🎯 हमारा उद्देश्य (Our Vision & Mission)</h2>
+                        <p style="font-size: 1.1rem; line-height: 1.6; margin-top: var(--sp-4);">
+                            भारत में अंग्रेजी केवल एक विषय नहीं है, बल्कि यह रोजगार, सामाजिक गतिशीलता और वैश्विक सूचनाओं का प्रवेश द्वार है। दुर्भाग्य से, पारंपरिक शिक्षा प्रणाली अंग्रेजी को रटने वाले नियमों के रूप में पढ़ाती है। 
+                        </p>
+                        <p style="font-size: 1.1rem; line-height: 1.6; margin-top: var(--sp-4);">
+                            <strong>English Vidya</strong> का लक्ष्य इस खाई को पाटना है। हम भारत के कोने-कोने में रहने वाले छात्रों को एक अत्यंत तीव्र गति से चलने वाला, ध्यान न भटकाने वाला, और आधुनिक वैज्ञानिक पद्धतियों पर आधारित अंग्रेजी शिक्षा का मंच बिना किसी शुल्क के प्रदान कर रहे हैं।
+                        </p>
+                    </div>
+                </div>
+
+                <div class="promo-section card-gradient" style="border-radius: 20px; padding: var(--sp-8) var(--sp-6); margin-bottom: var(--sp-6);">
+                    <h2 style="color: var(--text-primary); margin-bottom: var(--sp-6); text-align:center;">👨‍🏫 शिक्षण दर्शन (Educational Philosophy)</h2>
+                    <div class="pillars-grid">
+                        <div class="pillar-card">
+                            <div class="pillar-icon" style="font-size:2rem; margin-bottom:10px;">📚</div>
+                            <h4 style="font-weight: 700; margin-bottom: 5px;">भाषा का अर्जन (Acquisition)</h4>
+                            <p style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 0;">जैसे बच्चा अपनी मातृभाषा व्याकरण रटे बिना सुनकर सीखता है, वैसे ही हम छात्रों को सेंटेंस पैटर्न से वाक्य प्रयोग सिखाते हैं।</p>
+                        </div>
+                        <div class="pillar-card">
+                            <div class="pillar-icon" style="font-size:2rem; margin-bottom:10px;">🔄</div>
+                            <h4 style="font-weight: 700; margin-bottom: 5px;">द्विभाषी हाइब्रिड (Hybrid Hinglish)</h4>
+                            <p style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 0;">ग्रामीण छात्रों के मनोविज्ञान को ध्यान में रखकर हिंदी-मिश्रित-अंग्रेजी (Hinglish) में सहज और आनंददायक संवाद शैली का उपयोग किया जाता है।</p>
+                        </div>
+                        <div class="pillar-card">
+                            <div class="pillar-icon" style="font-size:2rem; margin-bottom:10px;">🗣️</div>
+                            <h4 style="font-weight: 700; margin-bottom: 5px;">आत्मविश्वास निर्माण (Confidence)</h4>
+                            <p style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 0;">Devanagari उच्चारण गाइड और वॉयस इंजन की सहायता से छात्र शब्दों का सटीक उच्चारण सुनकर झिझक मिटाना सीखते हैं।</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="promo-section">
+                    <div class="card about-card" style="padding: var(--sp-6); margin-bottom: var(--sp-6);">
+                        <h2>🛡️ सुरक्षा और डेटा गोपनीयता (Security & Reliability)</h2>
+                        <p style="line-height: 1.6; margin-top: var(--sp-3);">
+                            हमारी पूरी प्रणाली **Cloudflare Web Edge Application** पर सर्वरलेस आर्किटेक्चर के साथ सुरक्षित रूप से होस्ट की गई है। यह ग्रामीण भारत के बहुत धीमे नेटवर्क (2G/3G) पर भी लैग-फ्री और पूरी तरह सुरक्षित अनुभव सुनिश्चित करता है।
+                        </p>
+                        <p style="line-height: 1.6; margin-top: var(--sp-3);">
+                            <strong>English Vidya</strong> छात्रों के लिए हमेशा 100% मुफ़्त और पूरी तरह से विज्ञापन-मुक्त (Ad-free) रहेगी। हम किसी भी प्रकार का गुप्त शुल्क या सब्सक्रिप्शन नहीं लेते हैं। भविष्य में इस मुफ़्त सेवा के संचालन और सर्वर लागत की भरपाई करने के लिए, हम छात्रों को पूरी तरह से वैकल्पिक (Optional) और बहुत ही कम मूल्य पर डाउनलोड करने योग्य **प्रीमियम व्याकरण ई-बुक (Bilingual Workbook PDF)** प्रदान करेंगे, जिसे छात्र चाहें तो अपनी स्वेच्छा से ख़रीद सकते हैं या लगातार 10 दिनों की दैनिक स्ट्रीक पूरी करके बिल्कुल मुफ्त प्राप्त कर सकते हैं।
+                        </p>
+                        <div style="margin-top: var(--sp-4); display: flex; gap: 10px; align-items: center;">
+                            <span style="background: rgba(16, 185, 129, 0.1); color: var(--success); padding: 5px 12px; border-radius: 20px; font-size: 0.85rem; font-weight: 600;">🔒 Secure by Cloudflare</span>
+                            <span style="background: rgba(6, 182, 212, 0.1); color: var(--accent); padding: 5px 12px; border-radius: 20px; font-size: 0.85rem; font-weight: 600;">✅ SSL Verified</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ── CONTACT VIEW (Static & Dynamic validated form) ── -->
+        <div id="view-contact" class="spa-view">
+            <div class="animate-fade-in contact-page">
+                <div class="hero-welcome promo-hero">
+                    <span class="badge">संपर्क करें (Contact Us)</span>
+                    <h1 class="promo-hero-title">हमसे जुड़ें</h1>
+                    <p class="promo-hero-subtitle">
+                        यदि आपके पास कोई प्रश्न, सुझाव या तकनीकी समस्या है, तो नीचे दिए गए फॉर्म का उपयोग करें। हम 24 घंटे के भीतर आपसे संपर्क करेंगे।
+                    </p>
+                </div>
+
+                <div class="promo-section" style="max-width: 650px; margin: 0 auto var(--sp-8) auto;">
+                    <div class="card contact-form-card" id="contact-form-container" style="padding: var(--sp-6);">
+                        <h2>✉️ संदेश भेजें (Send Message)</h2>
+                        <form id="contact-form" style="margin-top: var(--sp-6); display: flex; flex-direction: column; gap: var(--sp-4);">
+                            <div class="form-group" style="display:flex; flex-direction:column; gap:5px;">
+                                <label for="contact-name" style="font-weight:500; font-size:0.9rem;">आपका नाम (Full Name) <span style="color: var(--success);">*</span></label>
+                                <input type="text" id="contact-name" placeholder="अपना नाम लिखें..." required style="background: var(--bg-raised); border: 1px solid var(--border); color: var(--text-primary); padding: 10px; border-radius: 8px;">
+                            </div>
+                            
+                            <div class="form-group" style="display:flex; flex-direction:column; gap:5px;">
+                                <label for="contact-email" style="font-weight:500; font-size:0.9rem;">ईमेल या मोबाइल नंबर (Email / Mobile) <span style="color: var(--success);">*</span></label>
+                                <input type="text" id="contact-email" placeholder="example@gmail.com या मोबाइल नंबर..." required style="background: var(--bg-raised); border: 1px solid var(--border); color: var(--text-primary); padding: 10px; border-radius: 8px;">
+                            </div>
+
+                            <div class="form-group" style="display:flex; flex-direction:column; gap:5px;">
+                                <label for="contact-category" style="font-weight:500; font-size:0.9rem;">विषय (Subject)</label>
+                                <select id="contact-category" style="background: var(--bg-raised); border: 1px solid var(--border); color: var(--text-primary); padding: 10px; border-radius: 8px;">
+                                    <option value="Question">प्रश्न (General Question)</option>
+                                    <option value="Feedback">सुझाव (Feedback / Suggestion)</option>
+                                    <option value="Technical Issue">तकनीकी समस्या (Technical Issue)</option>
+                                    <option value="Business">व्यावसायिक सहयोग (Partnership)</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group" style="display:flex; flex-direction:column; gap:5px;">
+                                <label for="contact-message" style="font-weight:500; font-size:0.9rem;">आपका संदेश (Your Message) <span style="color: var(--success);">*</span></label>
+                                <textarea id="contact-message" rows="5" placeholder="अपना संदेश या प्रश्न विस्तार से लिखें..." required style="background: var(--bg-raised); border: 1px solid var(--border); color: var(--text-primary); padding: 10px; border-radius: 8px; font-family:inherit; resize:vertical;"></textarea>
+                            </div>
+
+                            <button type="submit" class="promo-btn primary" style="width: 100%; border: none; font-size: 1rem; padding: 12px; cursor:pointer;" id="contact-submit-btn">
+                                🚀 संदेश भेजें (Send Message)
+                            </button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="promo-section text-center" style="margin-top: var(--sp-6); margin-bottom: var(--sp-8);">
+                    <h3>📍 अन्य संपर्क माध्यम</h3>
+                    <p class="text-secondary" style="margin-top: var(--sp-2);">आप हमें सीधे ईमेल या व्हाट्सएप पर भी संपर्क कर सकते हैं:</p>
+                    <div style="margin-top: var(--sp-6); display: flex; gap: var(--sp-4); justify-content: center; flex-wrap: wrap;">
+                        <div class="card" style="min-width: 250px; padding: var(--sp-6);">
+                            <h4>📧 ईमेल करें</h4>
+                            <p style="color: var(--accent); font-weight: 600; margin-top: 10px; font-size: 1.05rem;">support@englishvidya.com</p>
+                        </div>
+                        <div class="card" style="min-width: 250px; padding: var(--sp-6);">
+                            <h4>💬 व्हाट्सएप सहायता</h4>
+                            <p style="color: var(--success); font-weight: 600; margin-top: 10px; font-size: 1.05rem;">+91 99999-99999</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ── LEGAL VIEW (Static Tabbed content) ── -->
+        <div id="view-legal" class="spa-view">
+            <div class="animate-fade-in legal-page" style="padding-bottom: var(--sp-12);">
+                <div class="hero-welcome promo-hero">
+                    <span class="badge">कानूनी नीतियां (Legal Policies)</span>
+                    <h1 class="promo-hero-title">नीतियां और अस्वीकरण</h1>
+                    <p class="promo-hero-subtitle">
+                        हमारी सेवाओं का उपयोग करने से पहले कृपया अस्वीकरण, गोपनीयता नीति और सीमित दायित्व की शर्तों को ध्यानपूर्वक पढ़ें।
+                    </p>
+                </div>
+
+                <div class="promo-section" style="max-width: 800px; margin: 0 auto;">
+                    <!-- Tab Buttons -->
+                    <div class="legal-tabs" id="legal-tabs" style="display: flex; gap: 10px; border-bottom: 2px solid var(--border); padding-bottom: 10px; margin-bottom: var(--sp-6); justify-content: center; flex-wrap: wrap;">
+                        <button class="promo-btn active" data-tab="disclaimer" style="padding: 8px 16px; font-size: 0.9rem; border-radius: 20px; background: var(--gradient-accent); border: none; color: #fff;">⚠️ अस्वीकरण (Disclaimer)</button>
+                        <button class="promo-btn" data-tab="privacy" style="padding: 8px 16px; font-size: 0.9rem; border-radius: 20px; background: var(--bg-raised); border: 1px solid var(--border); color: var(--text-secondary);">🔒 गोपनीयता नीति (Privacy)</button>
+                        <button class="promo-btn" data-tab="liability" style="padding: 8px 16px; font-size: 0.9rem; border-radius: 20px; background: var(--bg-raised); border: 1px solid var(--border); color: var(--text-secondary);">⚖️ सीमित दायित्व (Liability)</button>
+                    </div>
+
+                    <!-- Tab Contents -->
+                    <div class="legal-content-card card" id="legal-content-container" style="padding: var(--sp-6); min-height: 300px; line-height: 1.7;">
+                        <!-- Disclaimer (Active by default) -->
+                        <div class="legal-tab-pane" id="pane-disclaimer">
+                            <h2 style="color: var(--accent); margin-bottom: var(--sp-4);">अस्वीकरण (Disclaimer)</h2>
+                            <p><strong>1. केवल शैक्षिक उद्देश्य:</strong> English Vidya पर उपलब्ध सभी अध्ययन सामग्री, शब्दकोश, व्याकरण नियम और पाठ केवल शैक्षिक और सामान्य सूचनात्मक उद्देश्यों के लिए प्रदान किए गए हैं। हम किसी भी प्रकार की सरकारी नौकरी या शैक्षणिक परीक्षा में 100% सफलता की गारंटी नहीं देते हैं।</p>
+                            <p style="margin-top: 15px;"><strong>2. सटीकता और त्रुटियां:</strong> हालांकि हमने 19,773 शब्दों और व्याकरण नियमों के संकलन में अत्यधिक सावधानी बरती है, फिर भी इसमें मानवीय या लिपिकीय त्रुटियां (typographical errors) हो सकती हैं। छात्र से अनुरोध है कि वे किसी भी महत्वपूर्ण परीक्षा या व्यावसायिक उपयोग से पहले तथ्यों को दोबारा जांच लें।</p>
+                            <p style="margin-top: 15px;"><strong>3. बाहरी लिंक्स:</strong> हमारी पाठ्यसामग्री में वीडियो एम्बेड (जैसे YouTube embeds) शामिल हैं जो तीसरे पक्ष के सर्वर्स पर होस्ट किए गए हैं। इन वीडियो की सामग्री या उन पर दिखाई देने वाले विज्ञापनों पर हमारा कोई नियंत्रण या स्वामित्व नहीं है।</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ── DYNAMIC VIEWS TARGET (For Grammar, Dictionary, Flashcards, Profile) ── -->
+        <div id="view-dynamic-target" class="spa-view">
+            <!-- Dynamic APP content renders here via JS -->
+            <div class="loading-screen" id="initial-loader" style="display:none;">
+                <div class="loader-spinner"></div>
+                <p class="loader-text">English Vidya लोड हो रहा है...</p>
+            </div>
+        </div>
+
     </main>
 
-    <!-- ═══════════════════════════════════════════════════ -->
-    <!-- 5. BOTTOM NAVIGATION (Mobile-First, Premium)        -->
-    <!-- ═══════════════════════════════════════════════════ -->
+    <!-- 5. STATIC APP FOOTER -->
+    <footer class="app-footer" id="app-footer">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <a href="#/" class="logo">
+                    <span class="logo-mark">🎓</span>
+                    <span class="logo-text">English <span class="logo-accent">Vidya</span></span>
+                </a>
+                <p class="footer-desc">हिंदी माध्यम के छात्रों के लिए भारत का सबसे बेहतरीन, तेज और पूर्णतः निःशुल्क अंग्रेजी सीखने का डिजिटल मंच।</p>
+            </div>
+            <div class="footer-links-col">
+                <h4>त्वरित लिंक (Quick Links)</h4>
+                <ul class="footer-links">
+                    <li><a href="#/">होम (Home)</a></li>
+                    <li><a href="#/grammar">ग्रामर पाठ (Grammar)</a></li>
+                    <li><a href="#/dictionary">शब्दकोश (Dictionary)</a></li>
+                    <li><a href="#/flashcards">फ्लैशकार्ड्स (Flashcards)</a></li>
+                </ul>
+            </div>
+            <div class="footer-links-col">
+                <h4>कंपनी और सपोर्ट (Company & Support)</h4>
+                <ul class="footer-links">
+                    <li><a href="#/about">हमारे बारे में (About Us)</a></li>
+                    <li><a href="#/contact">संपर्क करें (Contact Us)</a></li>
+                    <li><a href="#/legal">नीतियां (Legal Policies)</a></li>
+                </ul>
+            </div>
+            <div class="footer-links-col">
+                <h4>हमसे जुड़ें (Follow Us)</h4>
+                <ul class="footer-links" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; min-width: 250px;">
+                    <li><a href="https://whatsapp.com/channel/0029VbCnmPe0VycPXCmBBH43" target="_blank" rel="noopener noreferrer">🟢 WhatsApp</a></li>
+                    <li><a href="#/youtube" target="_blank" rel="noopener noreferrer">🔴 YouTube</a></li>
+                    <li><a href="https://instagram.com/englishvidyahq" target="_blank" rel="noopener noreferrer">📸 Instagram</a></li>
+                    <li><a href="https://t.me/englishvidyahq" target="_blank" rel="noopener noreferrer">✈️ Telegram</a></li>
+                    <li><a href="https://facebook.com/englishvidyahq" target="_blank" rel="noopener noreferrer">🔵 Facebook</a></li>
+                    <li><a href="https://pinterest.com/englishvidyahq" target="_blank" rel="noopener noreferrer">📌 Pinterest</a></li>
+                    <li><a href="https://linkedin.com/company/englishvidyahq" target="_blank" rel="noopener noreferrer">💼 LinkedIn</a></li>
+                    <li><a href="https://x.com/englishvidyahq" target="_blank" rel="noopener noreferrer">🐦 X (Twitter)</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 English Vidya. सर्वाधिकार सुरक्षित। | Designed for rural and Hindi-medium students in India 🇮🇳</p>
+        </div>
+    </footer>
+
+    <!-- 6. BOTTOM NAVIGATION (Mobile-First sticky) -->
     <nav class="bottom-nav" id="bottom-nav" aria-label="Main Navigation">
         <a href="#/" class="nav-item active" data-route="home" id="nav-home">
             <svg class="nav-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
@@ -125,14 +637,8 @@
         </a>
     </nav>
 
-    <!-- ═══════════════════════════════════════════════════ -->
-    <!-- 6. TOOLTIP POPOVER (Global, reused across screens)  -->
-    <!-- ═══════════════════════════════════════════════════ -->
+    <!-- Global dynamic nodes -->
     <div class="tooltip-popover" id="tooltip-popover" role="tooltip" aria-hidden="true"></div>
-
-    <!-- ═══════════════════════════════════════════════════ -->
-    <!-- 7. TOAST NOTIFICATION CONTAINER                     -->
-    <!-- ═══════════════════════════════════════════════════ -->
     <div class="toast-container" id="toast-container" aria-live="polite"></div>
 
     <!-- Core Application Script -->
@@ -142,7 +648,7 @@
     <script>
       if ('serviceWorker' in navigator) {
         window.addEventListener('load', function() {
-      navigator.serviceWorker.register('./service-worker.js')
+          navigator.serviceWorker.register('./service-worker.js')
             .then(function(reg) { console.log('[SW] Registered:', reg.scope); })
             .catch(function(err) { console.warn('[SW] Registration failed:', err); });
         });

@@ -1,1 +1,155 @@
-﻿[{"word":"upskilling","meaning":"The process of learning new competencies or enhancing existing skills to meet evolving job market demands.","example":"The company invested heavily in upskilling its workforce to prepare for AI-driven business processes.","category":"Upskilling"},{"word":"reskilling","meaning":"Training workers in entirely new skills so they can transition into different roles, often as a response to job displacement.","example":"The government launched a reskilling programme to help coal miners transition to renewable energy jobs.","category":"Upskilling"},{"word":"lifelong learning","meaning":"The ongoing, voluntary pursuit of knowledge and skills throughout one\u0027s entire life, beyond formal education.","example":"In a rapidly changing economy, lifelong learning is no longer optional â€” it is a professional necessity.","category":"Upskilling"},{"word":"microlearning","meaning":"A learning approach that delivers content in small, focused segments that can be completed quickly and conveniently.","example":"The platform uses microlearning modules so employees can develop skills during short breaks.","category":"Upskilling"},{"word":"e-learning","meaning":"Education delivered electronically via the internet, encompassing online courses, webinars, and digital learning materials.","example":"E-learning platforms like Coursera and Udemy have made university-level content accessible to millions worldwide.","category":"Upskilling"},{"word":"learning agility","meaning":"The ability to rapidly learn from experiences and apply new knowledge effectively in novel situations.","example":"Employers increasingly value learning agility over specific technical qualifications when hiring.","category":"Upskilling"},{"word":"competency framework","meaning":"A structured model that defines the skills, behaviours, and knowledge required to perform a role effectively.","example":"HR used the competency framework to identify training gaps across different departments.","category":"Upskilling"},{"word":"digital literacy","meaning":"The ability to use digital tools and technology effectively, critically, and safely in everyday professional life.","example":"Digital literacy is now considered a fundamental skill alongside reading and writing.","category":"Upskilling"},{"word":"credentialing","meaning":"The process of obtaining formal recognition of skills or qualifications through certificates, badges, or degrees.","example":"Online credentialing allows professionals to validate new skills without attending a traditional university.","category":"Upskilling"},{"word":"continuous professional development (CPD)","meaning":"Structured learning activities undertaken by professionals to maintain and enhance their knowledge and skills throughout their careers.","example":"Nurses are required to complete a minimum number of CPD hours each year to maintain their licence.","category":"Upskilling"},{"word":"talent marketplace","meaning":"An internal platform within an organisation that connects employees to opportunities such as projects, mentors, and new roles.","example":"The talent marketplace helped engineers discover cross-functional projects aligned with their learning goals.","category":"Upskilling"},{"word":"workforce development","meaning":"Systematic efforts by employers, governments, or institutions to build employee skills that align with current and future business needs.","example":"Workforce development programmes are critical in regions where traditional industries are rapidly declining.","category":"Upskilling"},{"word":"skills gap","meaning":"The difference between the skills employers need and the skills workers currently possess.","example":"The widening skills gap in data science is forcing companies to invest in internal training programmes.","category":"Upskilling"},{"word":"AI literacy","meaning":"The ability to understand, evaluate, and effectively use artificial intelligence tools in professional and everyday contexts.","example":"Companies are offering AI literacy workshops to help all employees navigate AI-powered tools confidently.","category":"Upskilling"},{"word":"skill-based hiring","meaning":"A recruitment approach that prioritises demonstrated competencies over formal qualifications like degrees or certifications.","example":"Skill-based hiring has opened doors for talented candidates who lacked university education but had strong portfolios.","category":"Upskilling"},{"word":"internal mobility","meaning":"The movement of employees to new roles, teams, or projects within the same organisation to grow and develop.","example":"Strong internal mobility programmes reduce the need to hire externally for every new position.","category":"Upskilling"},{"word":"mentorship","meaning":"A developmental relationship in which a more experienced person guides and advises a less experienced individual.","example":"The company\u0027s mentorship programme paired junior employees with senior leaders for monthly career conversations.","category":"Upskilling"},{"word":"reverse mentoring","meaning":"A practice where junior employees mentor senior leaders, typically to share knowledge about technology, social trends, or new perspectives.","example":"Through reverse mentoring, the CEO learned how younger customers were engaging with the brand on social media.","category":"Upskilling"},{"word":"cohort learning","meaning":"A structured learning approach where a group of people progress through a curriculum together, encouraging peer support.","example":"The leadership development programme used cohort learning to build strong bonds among emerging managers.","category":"Upskilling"}]
+[
+  {
+    "word": "AI literacy",
+    "meaning": "The ability to understand, evaluate, and effectively use artificial intelligence tools in professional and everyday contexts.",
+    "pronunciation": "",
+    "definition": "The ability to understand, evaluate, and effectively use artificial intelligence tools in professional and everyday contexts.",
+    "example": "Companies are offering AI literacy workshops to help all employees navigate AI-powered tools confidently.",
+    "category": "Upskilling",
+    "subCategory": "Upskilling"
+  },
+  {
+    "word": "cohort learning",
+    "meaning": "A structured learning approach where a group of people progress through a curriculum together, encouraging peer support.",
+    "pronunciation": "",
+    "definition": "A structured learning approach where a group of people progress through a curriculum together, encouraging peer support.",
+    "example": "The leadership development programme used cohort learning to build strong bonds among emerging managers.",
+    "category": "Upskilling",
+    "subCategory": "Upskilling"
+  },
+  {
+    "word": "competency framework",
+    "meaning": "A structured model that defines the skills, behaviours, and knowledge required to perform a role effectively.",
+    "pronunciation": "",
+    "definition": "A structured model that defines the skills, behaviours, and knowledge required to perform a role effectively.",
+    "example": "HR used the competency framework to identify training gaps across different departments.",
+    "category": "Upskilling",
+    "subCategory": "Upskilling"
+  },
+  {
+    "word": "continuous professional development (CPD)",
+    "meaning": "Structured learning activities undertaken by professionals to maintain and enhance their knowledge and skills throughout their careers.",
+    "pronunciation": "",
+    "definition": "Structured learning activities undertaken by professionals to maintain and enhance their knowledge and skills throughout their careers.",
+    "example": "Nurses are required to complete a minimum number of CPD hours each year to maintain their licence.",
+    "category": "Upskilling",
+    "subCategory": "Upskilling"
+  },
+  {
+    "word": "digital literacy",
+    "meaning": "The ability to use digital tools and technology effectively, critically, and safely in everyday professional life.",
+    "pronunciation": "",
+    "definition": "The ability to use digital tools and technology effectively, critically, and safely in everyday professional life.",
+    "example": "Digital literacy is now considered a fundamental skill alongside reading and writing.",
+    "category": "Upskilling",
+    "subCategory": "Upskilling"
+  },
+  {
+    "word": "e-learning",
+    "meaning": "Education delivered electronically via the internet, encompassing online courses, webinars, and digital learning materials.",
+    "pronunciation": "",
+    "definition": "Education delivered electronically via the internet, encompassing online courses, webinars, and digital learning materials.",
+    "example": "E-learning platforms like Coursera and Udemy have made university-level content accessible to millions worldwide.",
+    "category": "Upskilling",
+    "subCategory": "Upskilling"
+  },
+  {
+    "word": "internal mobility",
+    "meaning": "The movement of employees to new roles, teams, or projects within the same organisation to grow and develop.",
+    "pronunciation": "",
+    "definition": "The movement of employees to new roles, teams, or projects within the same organisation to grow and develop.",
+    "example": "Strong internal mobility programmes reduce the need to hire externally for every new position.",
+    "category": "Upskilling",
+    "subCategory": "Upskilling"
+  },
+  {
+    "word": "learning agility",
+    "meaning": "The ability to rapidly learn from experiences and apply new knowledge effectively in novel situations.",
+    "pronunciation": "",
+    "definition": "The ability to rapidly learn from experiences and apply new knowledge effectively in novel situations.",
+    "example": "Employers increasingly value learning agility over specific technical qualifications when hiring.",
+    "category": "Upskilling",
+    "subCategory": "Upskilling"
+  },
+  {
+    "word": "lifelong learning",
+    "meaning": "The ongoing, voluntary pursuit of knowledge and skills throughout one's entire life, beyond formal education.",
+    "pronunciation": "",
+    "definition": "The ongoing, voluntary pursuit of knowledge and skills throughout one's entire life, beyond formal education.",
+    "example": "In a rapidly changing economy, lifelong learning is no longer optional â€” it is a professional necessity.",
+    "category": "Upskilling",
+    "subCategory": "Upskilling"
+  },
+  {
+    "word": "microlearning",
+    "meaning": "A learning approach that delivers content in small, focused segments that can be completed quickly and conveniently.",
+    "pronunciation": "",
+    "definition": "A learning approach that delivers content in small, focused segments that can be completed quickly and conveniently.",
+    "example": "The platform uses microlearning modules so employees can develop skills during short breaks.",
+    "category": "Upskilling",
+    "subCategory": "Upskilling"
+  },
+  {
+    "word": "reskilling",
+    "meaning": "Training workers in entirely new skills so they can transition into different roles, often as a response to job displacement.",
+    "pronunciation": "",
+    "definition": "Training workers in entirely new skills so they can transition into different roles, often as a response to job displacement.",
+    "example": "The government launched a reskilling programme to help coal miners transition to renewable energy jobs.",
+    "category": "Upskilling",
+    "subCategory": "Upskilling"
+  },
+  {
+    "word": "reverse mentoring",
+    "meaning": "A practice where junior employees mentor senior leaders, typically to share knowledge about technology, social trends, or new perspectives.",
+    "pronunciation": "",
+    "definition": "A practice where junior employees mentor senior leaders, typically to share knowledge about technology, social trends, or new perspectives.",
+    "example": "Through reverse mentoring, the CEO learned how younger customers were engaging with the brand on social media.",
+    "category": "Upskilling",
+    "subCategory": "Upskilling"
+  },
+  {
+    "word": "skill-based hiring",
+    "meaning": "A recruitment approach that prioritises demonstrated competencies over formal qualifications like degrees or certifications.",
+    "pronunciation": "",
+    "definition": "A recruitment approach that prioritises demonstrated competencies over formal qualifications like degrees or certifications.",
+    "example": "Skill-based hiring has opened doors for talented candidates who lacked university education but had strong portfolios.",
+    "category": "Upskilling",
+    "subCategory": "Upskilling"
+  },
+  {
+    "word": "skills gap",
+    "meaning": "The difference between the skills employers need and the skills workers currently possess.",
+    "pronunciation": "",
+    "definition": "The difference between the skills employers need and the skills workers currently possess.",
+    "example": "The widening skills gap in data science is forcing companies to invest in internal training programmes.",
+    "category": "Upskilling",
+    "subCategory": "Upskilling"
+  },
+  {
+    "word": "talent marketplace",
+    "meaning": "An internal platform within an organisation that connects employees to opportunities such as projects, mentors, and new roles.",
+    "pronunciation": "",
+    "definition": "An internal platform within an organisation that connects employees to opportunities such as projects, mentors, and new roles.",
+    "example": "The talent marketplace helped engineers discover cross-functional projects aligned with their learning goals.",
+    "category": "Upskilling",
+    "subCategory": "Upskilling"
+  },
+  {
+    "word": "upskilling",
+    "meaning": "The process of learning new competencies or enhancing existing skills to meet evolving job market demands.",
+    "pronunciation": "",
+    "definition": "The process of learning new competencies or enhancing existing skills to meet evolving job market demands.",
+    "example": "The company invested heavily in upskilling its workforce to prepare for AI-driven business processes.",
+    "category": "Upskilling",
+    "subCategory": "Upskilling"
+  },
+  {
+    "word": "workforce development",
+    "meaning": "Systematic efforts by employers, governments, or institutions to build employee skills that align with current and future business needs.",
+    "pronunciation": "",
+    "definition": "Systematic efforts by employers, governments, or institutions to build employee skills that align with current and future business needs.",
+    "example": "Workforce development programmes are critical in regions where traditional industries are rapidly declining.",
+    "category": "Upskilling",
+    "subCategory": "Upskilling"
+  }
+]

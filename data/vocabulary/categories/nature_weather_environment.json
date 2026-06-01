@@ -1,0 +1,2081 @@
+[
+  {
+    "word": "acid rain",
+    "meaning": "Rainfall made acidic by atmospheric pollution, causing environmental damage.",
+    "pronunciation": "",
+    "definition": "Rainfall made acidic by atmospheric pollution, causing environmental damage.",
+    "example": "Acid rain caused by sulfur dioxide emissions has damaged forests in northern Europe.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Nature, Weather & Environment"
+  },
+  {
+    "word": "adaptation",
+    "meaning": "A change or the process of change by which an organism becomes better suited to its environment.",
+    "pronunciation": "",
+    "definition": "",
+    "example": "The polar bear's white fur is an adaptation for camouflage in Arctic environments.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Biodiversity"
+  },
+  {
+    "word": "afforestation",
+    "meaning": "The process of planting trees in an area where there has been no recent tree cover.",
+    "pronunciation": "",
+    "definition": "The process of planting trees in an area where there has been no recent tree cover.",
+    "example": "Large-scale afforestation programs are being used to combat desertification.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Conservation"
+  },
+  {
+    "word": "Aftershock",
+    "meaning": "A smaller earthquake that happens after a larger earthquake in the same area.",
+    "pronunciation": "",
+    "definition": "",
+    "example": "People stayed outside their homes because they feared a dangerous aftershock.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Natural Disasters"
+  },
+  {
+    "word": "agroforestry",
+    "meaning": "A land-use management system that integrates trees with crops or livestock to improve sustainability.",
+    "pronunciation": "",
+    "definition": "A land-use management system that integrates trees with crops or livestock to improve sustainability.",
+    "example": "Agroforestry helps farmers maintain soil health while preserving biodiversity.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Conservation"
+  },
+  {
+    "word": "air pollution",
+    "meaning": "The contamination of air by smoke and harmful gases, mainly produced by human activities.",
+    "pronunciation": "",
+    "definition": "The contamination of air by smoke and harmful gases, mainly produced by human activities.",
+    "example": "Air pollution in major cities is linked to increased rates of asthma and lung disease.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Nature, Weather & Environment"
+  },
+  {
+    "word": "albedo",
+    "meaning": "The proportion of incident light or radiation reflected by a surface, especially of the Earth.",
+    "pronunciation": "",
+    "definition": "The proportion of incident light or radiation reflected by a surface, especially of the Earth.",
+    "example": "Melting sea ice reduces Earth's albedo, causing the ocean to absorb more solar heat.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Climate"
+  },
+  {
+    "word": "anthropogenic",
+    "meaning": "Originating in human activity; caused by or resulting from human action on the environment.",
+    "pronunciation": "",
+    "definition": "Originating in human activity; caused by or resulting from human action on the environment.",
+    "example": "Anthropogenic emissions of COâ‚‚ are the main driver of current climate change.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Climate"
+  },
+  {
+    "word": "apex predator",
+    "meaning": "A predator at the top of a food chain with no natural predators of its own.",
+    "pronunciation": "",
+    "definition": "A predator at the top of a food chain with no natural predators of its own.",
+    "example": "The great white shark is an apex predator in marine ecosystems.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Ecosystems"
+  },
+  {
+    "word": "aquifer",
+    "meaning": "A body of permeable rock that can contain or transmit groundwater.",
+    "pronunciation": "",
+    "definition": "A body of permeable rock that can contain or transmit groundwater.",
+    "example": "Overuse of the aquifer has caused water tables to drop in many farming regions.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Ecosystems"
+  },
+  {
+    "word": "atmosphere",
+    "meaning": "The layer of gases surrounding the Earth, held in place by gravity, which supports life and regulates climate.",
+    "pronunciation": "",
+    "definition": "The envelope of gases surrounding the earth or another planet.",
+    "example": "Greenhouse gases in the atmosphere trap heat and contribute to global warming.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Climate"
+  },
+  {
+    "word": "Auditory Input",
+    "meaning": "Any sound or spoken language that a child hears through their ears, which is crucial for language development.",
+    "pronunciation": "",
+    "definition": "Any sound or spoken language that a child hears through their ears, which is crucial for language development.",
+    "example": "Without enough auditory input, it is very difficult for a child to learn how to speak.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Environmental Factors"
+  },
+  {
+    "word": "Avalanche",
+    "meaning": "A large mass of snow, ice, and rocks sliding rapidly down a mountainside.",
+    "pronunciation": "",
+    "definition": "",
+    "example": "Skiers were warned to stay on marked trails due to the high risk of an avalanche.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Natural Disasters"
+  },
+  {
+    "word": "bioaccumulation",
+    "meaning": "The gradual accumulation of substances, such as toxins, in an organism over time.",
+    "pronunciation": "",
+    "definition": "The gradual accumulation of substances, such as toxins, in an organism over time.",
+    "example": "Mercury undergoes bioaccumulation in fish, reaching dangerous levels in large predatory species.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Nature, Weather & Environment"
+  },
+  {
+    "word": "biodegradable",
+    "meaning": "Capable of being decomposed by bacteria or other living organisms and so avoiding environmental pollution.",
+    "pronunciation": "",
+    "definition": "Capable of being decomposed by bacteria or other living organisms and so avoiding environmental pollution.",
+    "example": "Switching to biodegradable packaging can significantly reduce plastic waste.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Conservation"
+  },
+  {
+    "word": "biodegradation",
+    "meaning": "The chemical dissolution of materials by bacteria, fungi, or other biological means.",
+    "pronunciation": "",
+    "definition": "The chemical dissolution of materials by bacteria, fungi, or other biological means.",
+    "example": "Biodegradation of organic waste in soil is carried out by millions of microorganisms.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Conservation"
+  },
+  {
+    "word": "biodiversity",
+    "meaning": "The variety of life on Earth, including diversity within species, between species, and of ecosystems.",
+    "pronunciation": "",
+    "definition": "",
+    "example": "High biodiversity makes ecosystems more resilient to disease and environmental change.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Biodiversity"
+  },
+  {
+    "word": "biomagnification",
+    "meaning": "The increasing concentration of a substance in the tissues of organisms at successively higher levels in a food chain.",
+    "pronunciation": "",
+    "definition": "The increasing concentration of a substance in the tissues of organisms at successively higher levels in a food chain.",
+    "example": "DDT undergoes biomagnification, reaching toxic levels in birds of prey that eat contaminated fish.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Nature, Weather & Environment"
+  },
+  {
+    "word": "biome",
+    "meaning": "A large naturally occurring community of flora and fauna occupying a major habitat.",
+    "pronunciation": "",
+    "definition": "",
+    "example": "The tropical rainforest biome contains more than half of the world's species.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Ecosystems"
+  },
+  {
+    "word": "bioremediation",
+    "meaning": "The use of living organisms to remove or neutralize pollutants from a contaminated environment.",
+    "pronunciation": "",
+    "definition": "The use of living organisms to remove or neutralize pollutants from a contaminated environment.",
+    "example": "Bioremediation using oil-eating bacteria helped clean up after the oil spill.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Conservation"
+  },
+  {
+    "word": "biosphere",
+    "meaning": "The regions of the surface, atmosphere, and hydrosphere of the Earth occupied by living organisms.",
+    "pronunciation": "",
+    "definition": "",
+    "example": "Human activities are altering the biosphere at an unprecedented rate.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Biodiversity"
+  },
+  {
+    "word": "blazing hot",
+    "meaning": "Extremely and intensely hot",
+    "pronunciation": "",
+    "definition": "Extremely and intensely hot",
+    "example": "It was blazing hot at the festival â€” we needed shade.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Nature, Weather & Environment"
+  },
+  {
+    "word": "Blizzard",
+    "meaning": "A severe snowstorm with high winds and very low visibility.",
+    "pronunciation": "",
+    "definition": "",
+    "example": "The roads were completely closed during the blizzard because drivers could not see ahead.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Natural Disasters"
+  },
+  {
+    "word": "breezy",
+    "meaning": "Having a light, refreshing wind",
+    "pronunciation": "",
+    "definition": "Having a light, refreshing wind",
+    "example": "It's lovely and breezy by the coast today.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Nature, Weather & Environment"
+  },
+  {
+    "word": "brighten up",
+    "meaning": "To become sunnier and less overcast",
+    "pronunciation": "",
+    "definition": "To become sunnier and less overcast",
+    "example": "I think it'll brighten up by this afternoon.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Nature, Weather & Environment"
+  },
+  {
+    "word": "bundle up",
+    "meaning": "To dress in warm clothing to protect against the cold",
+    "pronunciation": "",
+    "definition": "To dress in warm clothing to protect against the cold",
+    "example": "Make sure you bundle up â€” it's freezing out there!",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Nature, Weather & Environment"
+  },
+  {
+    "word": "Canopy",
+    "meaning": "The high, thick layer of leaves and branches formed by the tops of trees in a forest, which shades the ground below.",
+    "pronunciation": "",
+    "definition": "",
+    "example": "Monkeys and colorful birds spend most of their lives high up in the rainforest canopy.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Conservation"
+  },
+  {
+    "word": "carbon cycle",
+    "meaning": "The series of processes by which carbon compounds are interconverted in the environment.",
+    "pronunciation": "",
+    "definition": "The series of processes by which carbon compounds are interconverted in the environment.",
+    "example": "The carbon cycle involves the exchange of carbon between the atmosphere, oceans, soil, and living organisms.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Climate"
+  },
+  {
+    "word": "carbon dioxide",
+    "meaning": "A colorless gas (COâ‚‚) produced by burning fossil fuels and respiration; a major greenhouse gas.",
+    "pronunciation": "",
+    "definition": "A colorless gas (COâ‚‚) produced by burning fossil fuels and respiration; a major greenhouse gas.",
+    "example": "Power plants release large amounts of carbon dioxide into the atmosphere.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Climate"
+  },
+  {
+    "word": "carbon footprint",
+    "meaning": "The total amount of greenhouse gases produced directly and indirectly by an individual, organization, or product.",
+    "pronunciation": "",
+    "definition": "The total amount of greenhouse gases produced directly and indirectly by an individual, organization, or product.",
+    "example": "You can reduce your carbon footprint by using public transportation instead of driving.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Climate"
+  },
+  {
+    "word": "carbon neutral",
+    "meaning": "Achieving a net zero carbon dioxide output by balancing emissions with carbon removal or offset.",
+    "pronunciation": "",
+    "definition": "Achieving a net zero carbon dioxide output by balancing emissions with carbon removal or offset.",
+    "example": "The company aims to become carbon neutral by 2030 through renewable energy investments.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Climate"
+  },
+  {
+    "word": "carbon offset",
+    "meaning": "A reduction in emissions of carbon dioxide made in order to compensate for emissions produced elsewhere.",
+    "pronunciation": "",
+    "definition": "A reduction in emissions of carbon dioxide made in order to compensate for emissions produced elsewhere.",
+    "example": "Airlines offer passengers the option to purchase carbon offsets to balance their flight emissions.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Climate"
+  },
+  {
+    "word": "carbon sequestration",
+    "meaning": "The process of capturing and storing atmospheric carbon dioxide to reduce the amount in the atmosphere.",
+    "pronunciation": "",
+    "definition": "The process of capturing and storing atmospheric carbon dioxide to reduce the amount in the atmosphere.",
+    "example": "Planting forests is a natural method of carbon sequestration.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Climate"
+  },
+  {
+    "word": "carbon tax",
+    "meaning": "A tax levied on the carbon content of fuels, intended to reduce greenhouse gas emissions.",
+    "pronunciation": "",
+    "definition": "A tax levied on the carbon content of fuels, intended to reduce greenhouse gas emissions.",
+    "example": "A carbon tax makes fossil fuels more expensive, encouraging the switch to clean energy.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Climate"
+  },
+  {
+    "word": "Caretaker Speech",
+    "meaning": "The simplified, slower, and more repetitive language that adults use when speaking to young children, which aids language acquisition.",
+    "pronunciation": "",
+    "definition": "The simplified, slower, and more repetitive language that adults use when speaking to young children, which aids language acquisition.",
+    "example": "Parents instinctively use caretaker speech â€” short sentences, clear pronunciation â€” to help toddlers acquire words.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Environmental Factors"
+  },
+  {
+    "word": "carrying capacity",
+    "meaning": "The maximum population size of a species that an environment can sustain indefinitely.",
+    "pronunciation": "",
+    "definition": "The maximum population size of a species that an environment can sustain indefinitely.",
+    "example": "Overpopulation of deer caused the local ecosystem to exceed its carrying capacity.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Ecosystems"
+  },
+  {
+    "word": "Child-Directed Speech",
+    "meaning": "The high-pitched, slow, and repetitive way adults talk to infants to catch their attention and help them learn words.",
+    "pronunciation": "",
+    "definition": "The high-pitched, slow, and repetitive way adults talk to infants to catch their attention and help them learn words.",
+    "example": "He naturally shifted to child-directed speech, saying, 'Look at the pretty birdy!' to his baby nephew.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Environmental Factors"
+  },
+  {
+    "word": "chilly",
+    "meaning": "Noticeably cold, but not freezing",
+    "pronunciation": "",
+    "definition": "Noticeably cold, but not freezing",
+    "example": "It's quite chilly this morning â€” grab a jacket.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Nature, Weather & Environment"
+  },
+  {
+    "word": "circular economy",
+    "meaning": "An economic system aimed at eliminating waste through the continual use of resources.",
+    "pronunciation": "",
+    "definition": "An economic system aimed at eliminating waste through the continual use of resources.",
+    "example": "A circular economy model encourages repairing and reusing products instead of discarding them.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Conservation"
+  },
+  {
+    "word": "clearing up",
+    "meaning": "When bad weather is becoming better, with clouds moving away",
+    "pronunciation": "",
+    "definition": "When bad weather is becoming better, with clouds moving away",
+    "example": "It was raining this morning, but it's clearing up now.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Nature, Weather & Environment"
+  },
+  {
+    "word": "climate change",
+    "meaning": "Long-term shifts in global temperatures and weather patterns, largely caused by human activities since the mid-20th century.",
+    "pronunciation": "",
+    "definition": "",
+    "example": "Climate change is causing more frequent and intense hurricanes around the world.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Climate"
+  },
+  {
+    "word": "cloud burst",
+    "meaning": "A sudden, intense rainstorm",
+    "pronunciation": "",
+    "definition": "A sudden, intense rainstorm",
+    "example": "A cloudburst hit the city and flooded the streets.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Nature, Weather & Environment"
+  },
+  {
+    "word": "Compost",
+    "meaning": "Decayed organic matter, like food scraps and leaves, that is recycled as a rich fertilizer for garden soil.",
+    "pronunciation": "",
+    "definition": "Decayed organic matter, like food scraps and leaves, that is recycled as a rich fertilizer for garden soil.",
+    "example": "Instead of throwing away banana peels and coffee grounds, we put them in the compost bin.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Eco-friendly Practices"
+  },
+  {
+    "word": "composting",
+    "meaning": "The process of recycling organic matter, such as food scraps, into fertilizer for plants.",
+    "pronunciation": "",
+    "definition": "The process of recycling organic matter, such as food scraps, into fertilizer for plants.",
+    "example": "Composting kitchen waste reduces landfill use and enriches garden soil.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Conservation"
+  },
+  {
+    "word": "Conscious Consumerism",
+    "meaning": "Buying goods and services that are produced in an environmentally friendly and socially responsible way.",
+    "pronunciation": "",
+    "definition": "Buying goods and services that are produced in an environmentally friendly and socially responsible way.",
+    "example": "Conscious consumerism encourages people to support brands that treat workers fairly and use organic cotton.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Eco-friendly Practices"
+  },
+  {
+    "word": "conservation",
+    "meaning": "The protection and preservation of the natural environment, including wildlife and natural resources.",
+    "pronunciation": "",
+    "definition": "",
+    "example": "Conservation efforts have helped the bald eagle recover from near extinction.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Conservation"
+  },
+  {
+    "word": "Conservationist",
+    "meaning": "A person who actively works to protect and preserve the environment, plants, animals, and natural resources.",
+    "pronunciation": "",
+    "definition": "A person who actively works to protect and preserve the environment, plants, animals, and natural resources.",
+    "example": "The conservationist gave a talk at our school about how we can save water at home.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Conservation"
+  },
+  {
+    "word": "consumer",
+    "meaning": "An organism that cannot produce its own food and must eat other organisms for energy.",
+    "pronunciation": "",
+    "definition": "à¤‰à¤ªà¤­à¥‹à¤•à¥à¤¤à¤¾",
+    "example": "Herbivores such as deer are primary consumers in a forest ecosystem.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Ecosystems"
+  },
+  {
+    "word": "Coral Bleaching",
+    "meaning": "The process where corals turn white and weaken because ocean waters are too warm, forcing out the colorful algae that feed them.",
+    "pronunciation": "",
+    "definition": "The process where corals turn white and weaken because ocean waters are too warm, forcing out the colorful algae that feed them.",
+    "example": "Rising ocean temperatures have caused severe coral bleaching across the Great Barrier Reef.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Conservation"
+  },
+  {
+    "word": "coral reef",
+    "meaning": "A ridge of rock in the sea formed by the growth and compaction of coral, supporting diverse marine life.",
+    "pronunciation": "",
+    "definition": "A ridge of rock in the sea formed by the growth and compaction of coral, supporting diverse marine life.",
+    "example": "The Great Barrier Reef is the world's largest coral reef ecosystem.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Ecosystems"
+  },
+  {
+    "word": "crisp",
+    "meaning": "Pleasantly cold and fresh, typically describing autumn or winter air",
+    "pronunciation": "",
+    "definition": "Pleasantly cold and fresh, typically describing autumn or winter air",
+    "example": "A crisp autumn morning is perfect for a walk.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Nature, Weather & Environment"
+  },
+  {
+    "word": "Cyclone",
+    "meaning": "A system of winds rotating inward to an area of low atmospheric pressure, often causing a tropical storm.",
+    "pronunciation": "",
+    "definition": "",
+    "example": "The island nation prepared for the cyclone by boarding up windows and buying extra food.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Natural Disasters"
+  },
+  {
+    "word": "dead zone",
+    "meaning": "An area of a body of water with so little dissolved oxygen that aquatic life cannot survive.",
+    "pronunciation": "",
+    "definition": "An area of a body of water with so little dissolved oxygen that aquatic life cannot survive.",
+    "example": "Agricultural runoff has created a large dead zone in the Gulf of Mexico each summer.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Nature, Weather & Environment"
+  },
+  {
+    "word": "decomposer",
+    "meaning": "An organism that breaks down dead or decaying organic matter, returning nutrients to the ecosystem.",
+    "pronunciation": "",
+    "definition": "",
+    "example": "Fungi and bacteria act as decomposers, recycling nutrients back into the soil.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Ecosystems"
+  },
+  {
+    "word": "deforestation",
+    "meaning": "The clearing or thinning of forests by humans, often for agriculture or urban development.",
+    "pronunciation": "",
+    "definition": "The clearing or thinning of forests by humans, often for agriculture or urban development.",
+    "example": "Deforestation in the Amazon has accelerated in recent decades, threatening countless species.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Conservation"
+  },
+  {
+    "word": "desertification",
+    "meaning": "The process by which fertile land becomes desert, typically as a result of drought, deforestation, or inappropriate agriculture.",
+    "pronunciation": "",
+    "definition": "The process by which fertile land becomes desert, typically as a result of drought, deforestation, or inappropriate agriculture.",
+    "example": "Desertification in sub-Saharan Africa is displacing local communities.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Climate"
+  },
+  {
+    "word": "downpour",
+    "meaning": "A heavy, sudden rainfall",
+    "pronunciation": "",
+    "definition": "A heavy, sudden rainfall",
+    "example": "We got caught in a downpour on the way home.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Nature, Weather & Environment"
+  },
+  {
+    "word": "dreadful weather",
+    "meaning": "A negative remark about bad or unpleasant weather conditions",
+    "pronunciation": "",
+    "definition": "A negative remark about bad or unpleasant weather conditions",
+    "example": "Dreadful weather we've been having â€” non-stop rain!",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Nature, Weather & Environment"
+  },
+  {
+    "word": "drizzle",
+    "meaning": "Light, fine rain falling gently",
+    "pronunciation": "",
+    "definition": "Light, fine rain falling gently",
+    "example": "There's just a light drizzle outside â€” no need for an umbrella.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Nature, Weather & Environment"
+  },
+  {
+    "word": "drought",
+    "meaning": "A prolonged period of abnormally low rainfall leading to water shortages and crop failure.",
+    "pronunciation": "",
+    "definition": "",
+    "example": "The prolonged drought devastated farmlands and forced thousands to migrate.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Climate"
+  },
+  {
+    "word": "Drought-Tolerant",
+    "meaning": "Plants that can survive and grow with very little water or rainfall.",
+    "pronunciation": "",
+    "definition": "Plants that can survive and grow with very little water or rainfall.",
+    "example": "We replaced our grassy lawn with drought-tolerant lavender and native desert plants to save water.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Eco-friendly Practices"
+  },
+  {
+    "word": "Earthquake",
+    "meaning": "A sudden, violent shaking of the ground caused by movement within the earth's crust.",
+    "pronunciation": "",
+    "definition": "à¤­à¥‚à¤•à¤‚à¤ª",
+    "example": "During the earthquake, we took cover under a sturdy wooden table.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Natural Disasters"
+  },
+  {
+    "word": "Eco-Label",
+    "meaning": "An official mark placed on a product certifying that it meets specific environmental standards.",
+    "pronunciation": "",
+    "definition": "An official mark placed on a product certifying that it meets specific environmental standards.",
+    "example": "The eco-label on the dish soap shows that it is biodegradable and non-toxic to fish.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Eco-friendly Practices"
+  },
+  {
+    "word": "Eco-Tourism",
+    "meaning": "Responsible travel to natural areas that protects the environment and supports the local people.",
+    "pronunciation": "",
+    "definition": "Responsible travel to natural areas that protects the environment and supports the local people.",
+    "example": "The eco-tourism resort uses solar power, harvests rainwater, and employs local guides.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Conservation"
+  },
+  {
+    "word": "Ecological Balance",
+    "meaning": "A stable state of equilibrium in an ecosystem where all living things live in harmony without one species dominating.",
+    "pronunciation": "",
+    "definition": "A stable state of equilibrium in an ecosystem where all living things live in harmony without one species dominating.",
+    "example": "Reintroducing wolves helped restore the ecological balance by controlling the deer population.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Conservation"
+  },
+  {
+    "word": "ecological footprint",
+    "meaning": "A measure of the demand placed on Earth's ecosystems by an individual or population.",
+    "pronunciation": "",
+    "definition": "A measure of the demand placed on Earth's ecosystems by an individual or population.",
+    "example": "Reducing meat consumption can significantly lower your ecological footprint.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Conservation"
+  },
+  {
+    "word": "ecological niche",
+    "meaning": "The role and position a species has in its environment, including all interactions with biotic and abiotic factors.",
+    "pronunciation": "",
+    "definition": "The role and position a species has in its environment, including all interactions with biotic and abiotic factors.",
+    "example": "The woodpecker fills a unique ecological niche by foraging for insects in tree bark.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Ecosystems"
+  },
+  {
+    "word": "Ecosystem",
+    "meaning": "A community of living organisms interacting with each other and their non-living physical environment.",
+    "pronunciation": "",
+    "definition": "",
+    "example": "A single pond is a small ecosystem where frogs, insects, fish, and plants rely on one another.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Conservation"
+  },
+  {
+    "word": "ecosystem services",
+    "meaning": "The benefits that humans receive from ecosystems, such as clean water, pollination, and climate regulation.",
+    "pronunciation": "",
+    "definition": "The benefits that humans receive from ecosystems, such as clean water, pollination, and climate regulation.",
+    "example": "Healthy forests provide ecosystem services worth trillions of dollars annually.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Biodiversity"
+  },
+  {
+    "word": "ecotourism",
+    "meaning": "Tourism directed toward exotic, often threatened natural environments, intended to support conservation and local communities.",
+    "pronunciation": "",
+    "definition": "Tourism directed toward exotic, often threatened natural environments, intended to support conservation and local communities.",
+    "example": "Ecotourism in Costa Rica generates revenue that funds rainforest conservation.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Conservation"
+  },
+  {
+    "word": "effluent",
+    "meaning": "Liquid waste or sewage discharged into a river or the sea.",
+    "pronunciation": "",
+    "definition": "Liquid waste or sewage discharged into a river or the sea.",
+    "example": "Untreated factory effluent was dumped into the river, killing fish for miles downstream.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Nature, Weather & Environment"
+  },
+  {
+    "word": "El NiÃ±o",
+    "meaning": "A climate pattern that describes the unusual warming of surface waters in the eastern tropical Pacific Ocean.",
+    "pronunciation": "",
+    "definition": "A climate pattern that describes the unusual warming of surface waters in the eastern tropical Pacific Ocean.",
+    "example": "El NiÃ±o events can cause severe flooding in some regions and droughts in others.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Climate"
+  },
+  {
+    "word": "endangered species",
+    "meaning": "A species of animal or plant that is seriously at risk of extinction.",
+    "pronunciation": "",
+    "definition": "A species of animal or plant that is seriously at risk of extinction.",
+    "example": "The amur leopard is one of the most critically endangered species on Earth.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Conservation"
+  },
+  {
+    "word": "endemic species",
+    "meaning": "A species that is native to and found only in a particular geographic area.",
+    "pronunciation": "",
+    "definition": "A species that is native to and found only in a particular geographic area.",
+    "example": "The lemur is an endemic species found only on the island of Madagascar.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Biodiversity"
+  },
+  {
+    "word": "environmental impact assessment",
+    "meaning": "An evaluation of the likely environmental effects of a proposed project or development.",
+    "pronunciation": "",
+    "definition": "An evaluation of the likely environmental effects of a proposed project or development.",
+    "example": "An environmental impact assessment is required before any new highway can be built.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Conservation"
+  },
+  {
+    "word": "environmental justice",
+    "meaning": "The fair treatment and meaningful involvement of all people in environmental laws and policies.",
+    "pronunciation": "",
+    "definition": "The fair treatment and meaningful involvement of all people in environmental laws and policies.",
+    "example": "Environmental justice advocates ensure that low-income communities are not disproportionately harmed by pollution.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Conservation"
+  },
+  {
+    "word": "Epicenter",
+    "meaning": "The point on the earth's surface directly above the focus of an earthquake.",
+    "pronunciation": "",
+    "definition": "The point on the earth's surface directly above the focus of an earthquake.",
+    "example": "The town nearest to the epicenter suffered the worst damage from the earthquake.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Natural Disasters"
+  },
+  {
+    "word": "erosion",
+    "meaning": "The gradual destruction or diminution of rock, soil, or land by natural forces such as water or wind.",
+    "pronunciation": "",
+    "definition": "The process of eroding or being eroded by wind, water, or other natural agents.",
+    "example": "Soil erosion on deforested hillsides leads to mudslides and reduced agricultural productivity.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Ecosystems"
+  },
+  {
+    "word": "estuary",
+    "meaning": "The tidal mouth of a large river, where the river meets the sea, forming a rich ecosystem.",
+    "pronunciation": "",
+    "definition": "The tidal mouth of a large river, where the tide meets the stream.",
+    "example": "Estuaries are highly productive ecosystems that support many species of fish and birds.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Ecosystems"
+  },
+  {
+    "word": "eutrophication",
+    "meaning": "Excessive richness of nutrients in a water body, causing dense plant growth and oxygen depletion.",
+    "pronunciation": "",
+    "definition": "Excessive richness of nutrients in a water body, causing dense plant growth and oxygen depletion.",
+    "example": "Eutrophication from agricultural runoff has created a dead zone in the Gulf of Mexico.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Nature, Weather & Environment"
+  },
+  {
+    "word": "evolution",
+    "meaning": "The gradual development of species over generations through natural selection and genetic change.",
+    "pronunciation": "",
+    "definition": "",
+    "example": "Evolution has produced an extraordinary variety of life on Earth over billions of years.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Biodiversity"
+  },
+  {
+    "word": "Expand",
+    "meaning": "To respond to a child's short phrase by repeating it and adding missing grammatical parts to show a complete sentence.",
+    "pronunciation": "",
+    "definition": "To respond to a child's short phrase by repeating it and adding missing grammatical parts to show a complete sentence.",
+    "example": "When a child says 'doggy run,' a parent can expand it by saying 'Yes, the doggy is running in the grass!'",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Environmental Factors"
+  },
+  {
+    "word": "Expansion",
+    "meaning": "An adult technique of repeating what a child says but adding more words to make it grammatically complete.",
+    "pronunciation": "",
+    "definition": "An adult technique of repeating what a child says but adding more words to make it grammatically complete.",
+    "example": "When the toddler said 'Car go,' the mother used expansion by saying, 'Yes, the blue car is going fast!'",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Environmental Factors"
+  },
+  {
+    "word": "extinct",
+    "meaning": "No longer existing; having died out completely as a species.",
+    "pronunciation": "",
+    "definition": "No longer existing; having died out completely as a species.",
+    "example": "The dodo bird became extinct in the 17th century due to hunting and habitat destruction.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Conservation"
+  },
+  {
+    "word": "Fast Fashion",
+    "meaning": "Inexpensive clothing produced rapidly in response to the latest trends, leading to excessive waste and pollution.",
+    "pronunciation": "",
+    "definition": "Inexpensive clothing produced rapidly in response to the latest trends, leading to excessive waste and pollution.",
+    "example": "Fast fashion brands encourage people to buy new clothes constantly, resulting in mountains of textile waste.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Eco-friendly Practices"
+  },
+  {
+    "word": "fauna",
+    "meaning": "The animals of a particular region, habitat, or geological period.",
+    "pronunciation": "",
+    "definition": "",
+    "example": "Australia's fauna includes many unique marsupials found nowhere else on Earth.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Biodiversity"
+  },
+  {
+    "word": "Flash Flood",
+    "meaning": "A sudden local flood, typically due to heavy rain, that develops in a very short time.",
+    "pronunciation": "",
+    "definition": "A sudden local flood, typically due to heavy rain, that develops in a very short time.",
+    "example": "A flash flood washed away the campsite within minutes of the downpour.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Natural Disasters"
+  },
+  {
+    "word": "Flood",
+    "meaning": "An overflow of a large amount of water beyond its normal limits, especially over dry land.",
+    "pronunciation": "",
+    "definition": "à¤¬à¤¾à¤¢à¤¼",
+    "example": "After days of heavy rain, the river broke its banks and caused a major flood.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Natural Disasters"
+  },
+  {
+    "word": "flora",
+    "meaning": "The plants of a particular region, habitat, or geological period.",
+    "pronunciation": "",
+    "definition": "",
+    "example": "The flora of the Mediterranean includes olive trees, lavender, and wild herbs.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Biodiversity"
+  },
+  {
+    "word": "food chain",
+    "meaning": "A hierarchical series of organisms each dependent on the next as a source of food.",
+    "pronunciation": "",
+    "definition": "",
+    "example": "Removing wolves from the food chain allowed deer populations to grow uncontrollably.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Ecosystems"
+  },
+  {
+    "word": "Food Miles",
+    "meaning": "The distance food travels from the farm where it is produced to the table where it is eaten by consumers.",
+    "pronunciation": "",
+    "definition": "The distance food travels from the farm where it is produced to the table where it is eaten by consumers.",
+    "example": "Buying imported strawberries in winter increases your food miles and environmental impact.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Eco-friendly Practices"
+  },
+  {
+    "word": "food web",
+    "meaning": "A system of interlocking and interdependent food chains in an ecosystem.",
+    "pronunciation": "",
+    "definition": "",
+    "example": "The food web in the ocean is complex, with many predators and prey interacting.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Ecosystems"
+  },
+  {
+    "word": "Forest Fire",
+    "meaning": "An uncontrolled fire occurring in a forest or woodland area.",
+    "pronunciation": "",
+    "definition": "An uncontrolled fire occurring in a forest or woodland area.",
+    "example": "A discarded cigarette butt started a massive forest fire that destroyed acres of trees.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Natural Disasters"
+  },
+  {
+    "word": "fossil fuel",
+    "meaning": "A natural fuel such as coal, oil, or gas, formed in the geological past from the remains of living organisms.",
+    "pronunciation": "",
+    "definition": "A natural fuel such as coal, oil, or gas, formed in the geological past from the remains of living organisms.",
+    "example": "Burning fossil fuels is the primary driver of human-caused climate change.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Climate"
+  },
+  {
+    "word": "frost",
+    "meaning": "A thin layer of ice that forms on surfaces when temperatures drop below freezing",
+    "pronunciation": "",
+    "definition": "",
+    "example": "There was frost on the windshield this morning.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Nature, Weather & Environment"
+  },
+  {
+    "word": "Gale",
+    "meaning": "A very strong wind, typically used in marine weather warnings.",
+    "pronunciation": "",
+    "definition": "A very strong wind, typically used in marine weather warnings.",
+    "example": "The ship stayed in the harbor to avoid the gale blowing across the open sea.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Natural Disasters"
+  },
+  {
+    "word": "genetic diversity",
+    "meaning": "The variety of genes within a species population, which is essential for adaptation and survival.",
+    "pronunciation": "",
+    "definition": "The variety of genes within a species population, which is essential for adaptation and survival.",
+    "example": "Genetic diversity helps a population survive new diseases and environmental changes.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Biodiversity"
+  },
+  {
+    "word": "glacier retreat",
+    "meaning": "The shrinking of glaciers due to increased melting caused by rising temperatures.",
+    "pronunciation": "",
+    "definition": "The shrinking of glaciers due to increased melting caused by rising temperatures.",
+    "example": "Glacier retreat in the Himalayas threatens freshwater supplies for millions of people.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Climate"
+  },
+  {
+    "word": "global warming",
+    "meaning": "The gradual increase in Earth's average surface temperature due to rising levels of greenhouse gases.",
+    "pronunciation": "",
+    "definition": "",
+    "example": "Global warming has led to the melting of polar ice caps and rising sea levels.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Climate"
+  },
+  {
+    "word": "Green Living",
+    "meaning": "A lifestyle where individuals try to reduce their environmental impact and conserve natural resources.",
+    "pronunciation": "",
+    "definition": "A lifestyle where individuals try to reduce their environmental impact and conserve natural resources.",
+    "example": "Green living involves recycling, saving energy, eating local food, and reducing plastic use.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Eco-friendly Practices"
+  },
+  {
+    "word": "greenhouse effect",
+    "meaning": "The trapping of the sun's warmth in Earth's lower atmosphere due to the presence of certain gases.",
+    "pronunciation": "",
+    "definition": "",
+    "example": "The greenhouse effect is a natural process, but human activities have intensified it dramatically.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Climate"
+  },
+  {
+    "word": "greenhouse gas",
+    "meaning": "A gas, such as carbon dioxide or methane, that contributes to the greenhouse effect by absorbing infrared radiation.",
+    "pronunciation": "",
+    "definition": "A gas, such as carbon dioxide or methane, that contributes to the greenhouse effect by absorbing infrared radiation.",
+    "example": "Carbon dioxide is the most significant greenhouse gas emitted by human activities.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Climate"
+  },
+  {
+    "word": "greenwashing",
+    "meaning": "The practice of making misleading claims about the environmental benefits of a product or company.",
+    "pronunciation": "",
+    "definition": "The practice of making misleading claims about the environmental benefits of a product or company.",
+    "example": "The oil company's environmental campaign was criticized as greenwashing.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Conservation"
+  },
+  {
+    "word": "Greywater",
+    "meaning": "Wastewater from household sinks, showers, and washing machines that can be safely reused to water plants.",
+    "pronunciation": "",
+    "definition": "Wastewater from household sinks, showers, and washing machines that can be safely reused to water plants.",
+    "example": "The family installed a greywater system to reuse laundry water on their backyard fruit trees.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Eco-friendly Practices"
+  },
+  {
+    "word": "groundwater",
+    "meaning": "Water held underground in the soil or in pores and crevices in rock.",
+    "pronunciation": "",
+    "definition": "Water held underground in the soil or in pores and crevices in rock.",
+    "example": "Groundwater contamination from industrial sites is difficult and expensive to clean up.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Ecosystems"
+  },
+  {
+    "word": "habitat",
+    "meaning": "The natural home or environment in which a plant or animal lives.",
+    "pronunciation": "",
+    "definition": "à¤¨à¤¿à¤µà¤¾à¤¸ à¤¸à¥à¤¥à¤¾à¤¨",
+    "example": "Wetlands are a vital habitat for migratory birds and amphibians.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Conservation"
+  },
+  {
+    "word": "habitat fragmentation",
+    "meaning": "The process by which large habitats are divided into smaller, isolated patches, often by human development.",
+    "pronunciation": "",
+    "definition": "The process by which large habitats are divided into smaller, isolated patches, often by human development.",
+    "example": "Roads cause habitat fragmentation that isolates animal populations and reduces genetic diversity.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Biodiversity"
+  },
+  {
+    "word": "habitat loss",
+    "meaning": "The destruction or degradation of an environment so that it can no longer support the species that live there.",
+    "pronunciation": "",
+    "definition": "The destruction or degradation of an environment so that it can no longer support the species that live there.",
+    "example": "Habitat loss is the leading cause of species extinction worldwide.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Conservation"
+  },
+  {
+    "word": "Hailstorm",
+    "meaning": "A storm that drops small, hard balls of ice called hail.",
+    "pronunciation": "",
+    "definition": "",
+    "example": "The hailstorm damaged the windshields of several cars parked outside.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Natural Disasters"
+  },
+  {
+    "word": "Heatwave",
+    "meaning": "A prolonged period of abnormally hot weather.",
+    "pronunciation": "",
+    "definition": "A prolonged period of abnormally hot weather",
+    "example": "During the heatwave, the government advised elderly citizens to stay indoors with air conditioning.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Natural Disasters"
+  },
+  {
+    "word": "heavy metals",
+    "meaning": "Dense metallic elements such as lead, mercury, and cadmium that are highly toxic to organisms.",
+    "pronunciation": "",
+    "definition": "Dense metallic elements such as lead, mercury, and cadmium that are highly toxic to organisms.",
+    "example": "Heavy metals from mining operations have contaminated nearby rivers.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Nature, Weather & Environment"
+  },
+  {
+    "word": "humid",
+    "meaning": "Describing weather that is warm and damp, making the air feel heavy",
+    "pronunciation": "",
+    "definition": "Describing weather that is warm and damp, making the air feel heavy",
+    "example": "It's so humid today that my shirt is sticking to me.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Nature, Weather & Environment"
+  },
+  {
+    "word": "Hurricane",
+    "meaning": "A severe tropical storm with extremely strong winds and heavy rain.",
+    "pronunciation": "",
+    "definition": "",
+    "example": "The hurricane blew away roof tiles and flooded the coastal streets.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Natural Disasters"
+  },
+  {
+    "word": "hydrological cycle",
+    "meaning": "The continuous movement of water through Earth's systems: evaporation, precipitation, and runoff.",
+    "pronunciation": "",
+    "definition": "The continuous movement of water through Earth's systems: evaporation, precipitation, and runoff.",
+    "example": "Deforestation disrupts the hydrological cycle by reducing water transpiration.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Ecosystems"
+  },
+  {
+    "word": "incineration",
+    "meaning": "The burning of waste material, especially as a means of waste disposal.",
+    "pronunciation": "",
+    "definition": "The burning of waste material, especially as a means of waste disposal.",
+    "example": "Incineration reduces waste volume but can release toxic pollutants if uncontrolled.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Nature, Weather & Environment"
+  },
+  {
+    "word": "Infant-Directed Speech",
+    "meaning": "Another term for child-directed speech, characterized by exaggerated pitch, simple grammar, and slow speaking rate.",
+    "pronunciation": "",
+    "definition": "Another term for child-directed speech, characterized by exaggerated pitch, simple grammar, and slow speaking rate.",
+    "example": "Studies show that babies prefer infant-directed speech over regular adult conversation because it is easier to follow.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Environmental Factors"
+  },
+  {
+    "word": "invasive species",
+    "meaning": "A non-native species that spreads rapidly and causes harm to the local ecosystem.",
+    "pronunciation": "",
+    "definition": "A non-native species that spreads rapidly and causes harm to the local ecosystem.",
+    "example": "The zebra mussel is an invasive species that has disrupted Great Lakes ecosystems.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Biodiversity"
+  },
+  {
+    "word": "Keystone Species",
+    "meaning": "A species that has an exceptionally large effect on its ecosystem, and whose removal would cause the system to collapse.",
+    "pronunciation": "",
+    "definition": "A species that has a disproportionately large effect on its ecosystem relative to its abundance.",
+    "example": "Sea otters are a keystone species because they eat sea urchins, protecting kelp forests from being destroyed.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Conservation"
+  },
+  {
+    "word": "Land Conservation",
+    "meaning": "The effort to protect open spaces, forests, and wild lands from being developed by builders and industries.",
+    "pronunciation": "",
+    "definition": "The effort to protect open spaces, forests, and wild lands from being developed by builders and industries.",
+    "example": "The local land conservation group bought the farm to keep it from being turned into a shopping mall.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Conservation"
+  },
+  {
+    "word": "landfill",
+    "meaning": "A site for the disposal of waste materials by burial, the most common method of solid waste disposal.",
+    "pronunciation": "",
+    "definition": "A site for the disposal of waste materials by burial, the most common method of solid waste disposal.",
+    "example": "Landfills produce methane gas as organic waste decomposes, contributing to climate change.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Nature, Weather & Environment"
+  },
+  {
+    "word": "Language Environment",
+    "meaning": "The physical and social setting surrounding a child, including the amount and quality of spoken language they hear.",
+    "pronunciation": "",
+    "definition": "The physical and social setting surrounding a child, including the amount and quality of spoken language they hear.",
+    "example": "A language environment filled with books, talking, and singing gives children a head start in school.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Environmental Factors"
+  },
+  {
+    "word": "Language Exposure",
+    "meaning": "The opportunity for a child to hear and interact with language in their environment, which is necessary for learning.",
+    "pronunciation": "",
+    "definition": "The opportunity for a child to hear and interact with language in their environment, which is necessary for learning.",
+    "example": "Early language exposure through reading books has a huge impact on a child's vocabulary at school entry.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Environmental Factors"
+  },
+  {
+    "word": "Language Model",
+    "meaning": "A person (usually a parent, sibling, or teacher) whose speech serves as an example for a child to copy and learn from.",
+    "pronunciation": "",
+    "definition": "A person (usually a parent, sibling, or teacher) whose speech serves as an example for a child to copy and learn from.",
+    "example": "A child's primary language model is usually their mother, which is why children often mimic their parents' accents.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Environmental Factors"
+  },
+  {
+    "word": "Lava",
+    "meaning": "Hot molten or semi-fluid rock erupted from a volcano or fissure.",
+    "pronunciation": "",
+    "definition": "Hot molten or semifluid rock erupted from a volcano or fissure.",
+    "example": "Red-hot lava flowed slowly down the side of the mountain, burning everything in its path.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Natural Disasters"
+  },
+  {
+    "word": "light pollution",
+    "meaning": "The brightening of the night sky caused by artificial lights, disrupting ecosystems and astronomy.",
+    "pronunciation": "",
+    "definition": "The brightening of the night sky caused by artificial lights, disrupting ecosystems and astronomy.",
+    "example": "Light pollution prevents millions of people from seeing the Milky Way.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Nature, Weather & Environment"
+  },
+  {
+    "word": "Linguistic Input",
+    "meaning": "All the language that a child hears or is exposed to in their daily environment.",
+    "pronunciation": "",
+    "definition": "All the language that a child hears or is exposed to in their daily environment.",
+    "example": "A rich linguistic input, filled with conversations and stories, helps children build a large vocabulary.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Environmental Factors"
+  },
+  {
+    "word": "Locally Sourced",
+    "meaning": "Products or food grown or manufactured in the nearby area rather than shipped from far away.",
+    "pronunciation": "",
+    "definition": "Products or food grown or manufactured in the nearby area rather than shipped from far away.",
+    "example": "The restaurant serves locally sourced vegetables purchased from farmers down the road.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Eco-friendly Practices"
+  },
+  {
+    "word": "looks like rain",
+    "meaning": "An observation that the sky or conditions suggest rain is coming",
+    "pronunciation": "",
+    "definition": "An observation that the sky or conditions suggest rain is coming",
+    "example": "Looks like rain â€” I should have brought my umbrella.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Nature, Weather & Environment"
+  },
+  {
+    "word": "lovely day",
+    "meaning": "A common, pleasant remark about the current pleasant weather",
+    "pronunciation": "",
+    "definition": "A common, pleasant remark about the current pleasant weather",
+    "example": "Lovely day, isn't it? Perfect for being outside.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Nature, Weather & Environment"
+  },
+  {
+    "word": "Magma",
+    "meaning": "Hot fluid or semi-fluid rock below or within the earth's crust, which becomes lava when erupted.",
+    "pronunciation": "",
+    "definition": "Hot fluid or semifluid material below or within the earth's crust from which lava and other igneous rock is formed by cooling.",
+    "example": "The pressure built up as magma moved closer to the volcano's opening.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Natural Disasters"
+  },
+  {
+    "word": "mangrove",
+    "meaning": "A shrub or small tree that grows in coastal saline or brackish water, providing critical coastal habitat.",
+    "pronunciation": "",
+    "definition": "A shrub or small tree that grows in coastal saline or brackish water, providing critical coastal habitat.",
+    "example": "Mangrove forests protect coastlines from storms and serve as nurseries for fish.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Ecosystems"
+  },
+  {
+    "word": "Marine Protected Area",
+    "meaning": "A designated region of the ocean where human activities are limited to protect sealife and habitats.",
+    "pronunciation": "",
+    "definition": "A designated region of the ocean where human activities are limited to protect sealife and habitats.",
+    "example": "Fishing and oil drilling are strictly banned inside the new marine protected area.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Conservation"
+  },
+  {
+    "word": "mass extinction",
+    "meaning": "A widespread and rapid decrease in the biodiversity on Earth, typically defined as the loss of 75% of species.",
+    "pronunciation": "",
+    "definition": "A widespread and rapid decrease in the biodiversity on Earth, typically defined as the loss of 75% of species.",
+    "example": "Scientists warn we may be entering a sixth mass extinction driven by human activity.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Biodiversity"
+  },
+  {
+    "word": "Meteorological",
+    "meaning": "Relating to the branch of science concerned with the processes and phenomena of the atmosphere, especially as a means of forecasting the weather.",
+    "pronunciation": "",
+    "definition": "Relating to the branch of science concerned with the processes and phenomena of the atmosphere, especially as a means of forecasting the weather.",
+    "example": "The meteorological department issued a severe storm warning for the weekend.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Natural Disasters"
+  },
+  {
+    "word": "methane",
+    "meaning": "A potent greenhouse gas (CHâ‚„) produced by livestock, landfills, and natural gas leaks.",
+    "pronunciation": "",
+    "definition": "A potent greenhouse gas (CHâ‚„) produced by livestock, landfills, and natural gas leaks.",
+    "example": "Methane is far more effective at trapping heat than carbon dioxide over a short time period.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Climate"
+  },
+  {
+    "word": "microbiome",
+    "meaning": "The community of microorganisms living in a particular environment, including the human body or soil.",
+    "pronunciation": "",
+    "definition": "The community of microorganisms living in a particular environment, including the human body or soil.",
+    "example": "The soil microbiome is essential for nutrient cycling and plant health.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Biodiversity"
+  },
+  {
+    "word": "Microplastics",
+    "meaning": "Extremely tiny pieces of plastic, less than five millimeters long, that pollute waters and harm aquatic wildlife.",
+    "pronunciation": "",
+    "definition": "Tiny plastic particles less than 5mm in size that contaminate water, soil, and air.",
+    "example": "Microplastics have been found inside fish, showing how plastic pollution enters the global food chain.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Eco-friendly Practices"
+  },
+  {
+    "word": "migration",
+    "meaning": "The seasonal movement of animals from one habitat to another, typically in response to temperature or food availability.",
+    "pronunciation": "",
+    "definition": "The seasonal movement of animals from one habitat to another, typically in response to temperature or food availability.",
+    "example": "Climate change is disrupting the migration patterns of many bird species.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Biodiversity"
+  },
+  {
+    "word": "mild",
+    "meaning": "Pleasantly warm weather, neither too hot nor too cold",
+    "pronunciation": "",
+    "definition": "",
+    "example": "The weather has been very mild this spring.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Nature, Weather & Environment"
+  },
+  {
+    "word": "Minimalism",
+    "meaning": "A lifestyle choice centered around reducing possessions and focusing on simple, conscious consumption.",
+    "pronunciation": "",
+    "definition": "A style of art or design that uses a minimum of colors, shapes, and lines, focusing on extreme simplicity.",
+    "example": "Adopting minimalism helped him realize he did not need to buy new gadgets to be happy.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Eco-friendly Practices"
+  },
+  {
+    "word": "Modeling",
+    "meaning": "Demonstrating correct language use for a child to hear and copy.",
+    "pronunciation": "",
+    "definition": "",
+    "example": "Modeling good sentence structure by speaking clearly is the best way to teach grammar to children.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Environmental Factors"
+  },
+  {
+    "word": "Monsoon",
+    "meaning": "A seasonal wind pattern in South and Southeast Asia that brings heavy rains.",
+    "pronunciation": "",
+    "definition": "",
+    "example": "The arrival of the monsoon caused flash floods in several low-lying districts.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Natural Disasters"
+  },
+  {
+    "word": "Motherese",
+    "meaning": "A common, informal term for child-directed speech, referring to the baby-talk style parents use with infants.",
+    "pronunciation": "",
+    "definition": "A common, informal term for child-directed speech, referring to the baby-talk style parents use with infants.",
+    "example": "Her voice naturally became higher and warmer as she used motherese to soothe her baby.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Environmental Factors"
+  },
+  {
+    "word": "Mudslide",
+    "meaning": "A rapid movement of a large amount of mud down a hill or slope.",
+    "pronunciation": "",
+    "definition": "",
+    "example": "The mudslide buried several houses at the bottom of the hill after the tropical storm.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Natural Disasters"
+  },
+  {
+    "word": "muggy",
+    "meaning": "Unpleasantly warm and very humid",
+    "pronunciation": "",
+    "definition": "Unpleasantly warm and very humid",
+    "example": "The muggy weather makes it hard to sleep at night.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Nature, Weather & Environment"
+  },
+  {
+    "word": "mutualism",
+    "meaning": "A type of symbiosis where both organisms benefit from the relationship.",
+    "pronunciation": "",
+    "definition": "",
+    "example": "Bees and flowers have a mutualism relationship: bees get nectar, flowers get pollinated.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Ecosystems"
+  },
+  {
+    "word": "national park",
+    "meaning": "A large area of land protected by the government from development for conservation and public enjoyment.",
+    "pronunciation": "",
+    "definition": "A large area of land protected by the government from development for conservation and public enjoyment.",
+    "example": "Yellowstone National Park was the world's first national park, established in 1872.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Conservation"
+  },
+  {
+    "word": "native species",
+    "meaning": "A species that originally lives or grows in a particular region without human introduction.",
+    "pronunciation": "",
+    "definition": "A species that originally lives or grows in a particular region without human introduction.",
+    "example": "Planting native species in gardens provides food and shelter for local wildlife.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Biodiversity"
+  },
+  {
+    "word": "Natural Reserve",
+    "meaning": "An area of land set aside and protected by the government or organizations to keep plants and animals safe.",
+    "pronunciation": "",
+    "definition": "An area of land set aside and protected by the government or organizations to keep plants and animals safe.",
+    "example": "We hiked through the natural reserve, making sure not to disturb the nesting birds.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Conservation"
+  },
+  {
+    "word": "natural selection",
+    "meaning": "The process by which organisms with favorable traits survive and reproduce more successfully.",
+    "pronunciation": "",
+    "definition": "The process by which organisms with favorable traits survive and reproduce more successfully.",
+    "example": "Natural selection favors camouflaged insects that are harder for predators to spot.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Biodiversity"
+  },
+  {
+    "word": "net zero",
+    "meaning": "A state in which the greenhouse gases going into the atmosphere are balanced by removal from the atmosphere.",
+    "pronunciation": "",
+    "definition": "A state in which the greenhouse gases going into the atmosphere are balanced by removal from the atmosphere.",
+    "example": "Many nations have pledged to achieve net zero emissions by 2050.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Climate"
+  },
+  {
+    "word": "noise pollution",
+    "meaning": "Harmful or excessive levels of noise in the environment, disrupting wildlife behavior and human health.",
+    "pronunciation": "",
+    "definition": "Harmful or excessive levels of noise in the environment, disrupting wildlife behavior and human health.",
+    "example": "Noise pollution from urban traffic disturbs the sleep patterns of urban wildlife.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Nature, Weather & Environment"
+  },
+  {
+    "word": "ocean acidification",
+    "meaning": "The ongoing decrease in the pH of the Earth's oceans, caused by the uptake of COâ‚‚ from the atmosphere.",
+    "pronunciation": "",
+    "definition": "The ongoing decrease in the pH of the Earth's oceans, caused by the uptake of COâ‚‚ from the atmosphere.",
+    "example": "Ocean acidification dissolves the shells of mollusks and threatens coral reef systems.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Climate"
+  },
+  {
+    "word": "oil spill",
+    "meaning": "An accidental release of petroleum into the environment, especially into the sea.",
+    "pronunciation": "",
+    "definition": "An accidental release of petroleum into the environment, especially into the sea.",
+    "example": "The oil spill devastated coastal wildlife and took years for the ecosystem to recover.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Nature, Weather & Environment"
+  },
+  {
+    "word": "Organic Farming",
+    "meaning": "Growing crops and raising animals without using artificial chemical fertilizers, pesticides, or genetically modified seeds.",
+    "pronunciation": "",
+    "definition": "Growing crops and raising animals without using artificial chemical fertilizers, pesticides, or genetically modified seeds.",
+    "example": "Organic farming keeps the soil healthy and prevents chemical runoff from entering local rivers.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Eco-friendly Practices"
+  },
+  {
+    "word": "overcast",
+    "meaning": "Describing a sky that is completely covered with clouds, making it dull and grey",
+    "pronunciation": "",
+    "definition": "",
+    "example": "It's quite overcast today; I hope it doesn't rain.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Nature, Weather & Environment"
+  },
+  {
+    "word": "overfishing",
+    "meaning": "The removal of fish from a body of water at a rate that the species cannot replenish.",
+    "pronunciation": "",
+    "definition": "The removal of fish from a body of water at a rate that the species cannot replenish.",
+    "example": "Overfishing has caused the collapse of many important commercial fish stocks.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Conservation"
+  },
+  {
+    "word": "Overgrazing",
+    "meaning": "Allowing farm animals to eat grass so heavily that the plants cannot grow back, damaging the soil.",
+    "pronunciation": "",
+    "definition": "Allowing farm animals to eat grass so heavily that the plants cannot grow back, damaging the soil.",
+    "example": "Overgrazing by cattle turned the fertile grassland into a dry, dusty field.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Conservation"
+  },
+  {
+    "word": "ozone depletion",
+    "meaning": "The thinning of Earth's ozone layer caused by chemicals such as chlorofluorocarbons (CFCs).",
+    "pronunciation": "",
+    "definition": "The thinning of Earth's ozone layer caused by chemicals such as chlorofluorocarbons (CFCs).",
+    "example": "Ozone depletion over Antarctica has created what scientists call the ozone hole.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Climate"
+  },
+  {
+    "word": "ozone layer",
+    "meaning": "A region of Earth's stratosphere containing a high concentration of ozone that absorbs ultraviolet radiation.",
+    "pronunciation": "",
+    "definition": "",
+    "example": "The ozone layer protects life on Earth from harmful UV rays from the sun.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Climate"
+  },
+  {
+    "word": "parasitism",
+    "meaning": "A relationship in which one organism benefits at the expense of another.",
+    "pronunciation": "",
+    "definition": "",
+    "example": "Ticks practice parasitism by feeding on the blood of mammals.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Ecosystems"
+  },
+  {
+    "word": "Parentese",
+    "meaning": "The musical, high-pitched, and loving speech style that parents use to communicate with babies to aid language development.",
+    "pronunciation": "",
+    "definition": "The musical, high-pitched, and loving speech style that parents use to communicate with babies to aid language development.",
+    "example": "Using parentese helps infants pay attention to speech sounds and makes it easier for them to learn words.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Environmental Factors"
+  },
+  {
+    "word": "Paris Agreement",
+    "meaning": "An international treaty on climate change adopted in 2015, aiming to limit global warming to below 2Â°C.",
+    "pronunciation": "",
+    "definition": "An international treaty on climate change adopted in 2015, aiming to limit global warming to below 2Â°C.",
+    "example": "The Paris Agreement calls on countries to reduce their greenhouse gas emissions.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Climate"
+  },
+  {
+    "word": "particulate matter",
+    "meaning": "Tiny particles of solid or liquid suspended in the air that can damage the respiratory system.",
+    "pronunciation": "",
+    "definition": "Tiny particles of solid or liquid suspended in the air that can damage the respiratory system.",
+    "example": "Particulate matter from vehicle exhaust contributes significantly to urban air pollution.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Nature, Weather & Environment"
+  },
+  {
+    "word": "Permaculture",
+    "meaning": "An agricultural design system that mimics natural ecosystems to grow food and live sustainably.",
+    "pronunciation": "",
+    "definition": "An agricultural design system that mimics natural ecosystems to grow food and live sustainably.",
+    "example": "By practicing permaculture, they created a self-sustaining forest garden that produces fruits and nuts.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Eco-friendly Practices"
+  },
+  {
+    "word": "permafrost",
+    "meaning": "Ground that remains completely frozen for two or more years, found mainly in polar and alpine regions.",
+    "pronunciation": "",
+    "definition": "Ground that remains completely frozen for two or more years, found mainly in polar and alpine regions.",
+    "example": "Thawing permafrost releases stored carbon dioxide and methane into the atmosphere.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Climate"
+  },
+  {
+    "word": "pesticide",
+    "meaning": "A chemical substance used to destroy insects or other organisms harmful to crops or animals.",
+    "pronunciation": "",
+    "definition": "A chemical substance used to destroy insects or other organisms harmful to crops or animals.",
+    "example": "Overuse of pesticides has caused a dramatic decline in bee populations.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Nature, Weather & Environment"
+  },
+  {
+    "word": "Phantom Load",
+    "meaning": "The electricity wasted by household appliances when they are plugged in but turned off or in standby mode.",
+    "pronunciation": "",
+    "definition": "The electricity wasted by household appliances when they are plugged in but turned off or in standby mode.",
+    "example": "Unplugging your television and microwave when going on vacation eliminates the phantom load.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Eco-friendly Practices"
+  },
+  {
+    "word": "photosynthesis",
+    "meaning": "The process by which green plants use sunlight to synthesize nutrients from carbon dioxide and water.",
+    "pronunciation": "",
+    "definition": "",
+    "example": "Photosynthesis by forests produces oxygen and absorbs large amounts of carbon dioxide.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Ecosystems"
+  },
+  {
+    "word": "phytoremediation",
+    "meaning": "The use of plants to remove, contain, or detoxify pollutants in the soil or water.",
+    "pronunciation": "",
+    "definition": "The use of plants to remove, contain, or detoxify pollutants in the soil or water.",
+    "example": "Phytoremediation with sunflowers was used to absorb radioactive metals near Chernobyl.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Conservation"
+  },
+  {
+    "word": "plastic pollution",
+    "meaning": "The accumulation of plastic objects in the environment that adversely affects wildlife, wildlife habitat, and humans.",
+    "pronunciation": "",
+    "definition": "The accumulation of plastic objects in the environment that adversely affects wildlife, wildlife habitat, and humans.",
+    "example": "Plastic pollution in the ocean is causing widespread harm to marine wildlife.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Nature, Weather & Environment"
+  },
+  {
+    "word": "poaching",
+    "meaning": "The illegal hunting or capturing of wild animals, especially in a protected area.",
+    "pronunciation": "",
+    "definition": "The illegal hunting or capturing of wild animals, especially in a protected area.",
+    "example": "Anti-poaching rangers protect elephants and rhinos from illegal hunters.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Conservation"
+  },
+  {
+    "word": "pollinator",
+    "meaning": "An animal, such as a bee or butterfly, that carries pollen from one plant to another, enabling fertilization.",
+    "pronunciation": "",
+    "definition": "An animal, such as a bee or butterfly, that carries pollen from one plant to another, enabling fertilization.",
+    "example": "The decline of pollinators threatens the reproduction of a wide variety of food crops.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Biodiversity"
+  },
+  {
+    "word": "pollution",
+    "meaning": "The presence or introduction into the environment of a substance or thing that has harmful or poisonous effects.",
+    "pronunciation": "",
+    "definition": "à¤ªà¥à¤°à¤¦à¥‚à¤·à¤£",
+    "example": "Industrial pollution has contaminated the river, making the water unsafe to drink.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Nature, Weather & Environment"
+  },
+  {
+    "word": "preservation",
+    "meaning": "The act of keeping something, especially a natural environment or wildlife, safe from harm or destruction.",
+    "pronunciation": "",
+    "definition": "The act of keeping something, especially a natural environment or wildlife, safe from harm or destruction.",
+    "example": "The preservation of ancient forests is critical to maintaining biodiversity.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Conservation"
+  },
+  {
+    "word": "protected area",
+    "meaning": "A clearly defined geographical space managed through legal or customary means to achieve nature conservation.",
+    "pronunciation": "",
+    "definition": "A clearly defined geographical space managed through legal or customary means to achieve nature conservation.",
+    "example": "The government designated new protected areas to safeguard marine biodiversity.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Conservation"
+  },
+  {
+    "word": "rainforest",
+    "meaning": "A luxuriant, dense forest found in tropical areas with consistently heavy rainfall.",
+    "pronunciation": "",
+    "definition": "",
+    "example": "The Amazon rainforest produces 20% of the world's oxygen.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Ecosystems"
+  },
+  {
+    "word": "Rainwater Harvesting",
+    "meaning": "Collecting and storing rainwater from roofs to use later for watering plants or flushing toilets.",
+    "pronunciation": "",
+    "definition": "Collecting and storing rainwater from roofs to use later for watering plants or flushing toilets.",
+    "example": "Rainwater harvesting is a life-saving practice in areas that experience long droughts.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Eco-friendly Practices"
+  },
+  {
+    "word": "Recast",
+    "meaning": "To repeat a child's incorrect statement with corrected grammar and vocabulary, showing them the right way without criticising.",
+    "pronunciation": "",
+    "definition": "To repeat a child's incorrect statement with corrected grammar and vocabulary, showing them the right way without criticising.",
+    "example": "When the toddler said 'Daddy eat,' the father chose to recast it as 'Yes, Daddy is eating his lunch.'",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Environmental Factors"
+  },
+  {
+    "word": "Recasting",
+    "meaning": "A technique where an adult repeats a child's incorrect sentence in a corrected form without directly correcting them.",
+    "pronunciation": "",
+    "definition": "A technique where an adult repeats a child's incorrect sentence in a corrected form without directly correcting them.",
+    "example": "When the child said, 'Doggy barked,' the father used recasting by replying, 'Yes, the dog is barking.'",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Environmental Factors"
+  },
+  {
+    "word": "recycling",
+    "meaning": "The process of converting waste materials into reusable materials to prevent their disposal.",
+    "pronunciation": "",
+    "definition": "The process of converting waste materials into reusable materials to prevent their disposal.",
+    "example": "Recycling aluminum cans saves up to 95% of the energy needed to produce new ones.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Conservation"
+  },
+  {
+    "word": "reforestation",
+    "meaning": "The process of replanting trees in an area where forests have been depleted.",
+    "pronunciation": "",
+    "definition": "The process of replanting trees in an area where forests have been depleted.",
+    "example": "The government launched a reforestation campaign to restore degraded hillsides.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Conservation"
+  },
+  {
+    "word": "Reinforcement",
+    "meaning": "In behaviorist theory, the encouragement or rewards (like smiles or praise) given to a child that motivate them to repeat a language behavior.",
+    "pronunciation": "",
+    "definition": "In psychology, any consequence that increases the future likelihood of a behavior.",
+    "example": "The parents' happy reaction served as positive reinforcement, encouraging the baby to repeat the word 'mama'.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Environmental Factors"
+  },
+  {
+    "word": "renewable energy",
+    "meaning": "Energy from a source that is not depleted when used, such as wind, solar, or hydroelectric power.",
+    "pronunciation": "",
+    "definition": "Energy from a source that is not depleted when used, such as wind, solar, or hydroelectric power.",
+    "example": "Investing in renewable energy is essential to reducing our dependence on fossil fuels.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Climate"
+  },
+  {
+    "word": "rewilding",
+    "meaning": "The large-scale restoration of ecosystems to the point where nature can take care of itself.",
+    "pronunciation": "",
+    "definition": "The large-scale restoration of ecosystems to the point where nature can take care of itself.",
+    "example": "Rewilding projects in Europe have reintroduced wolves to help restore natural balance.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Conservation"
+  },
+  {
+    "word": "Richter Scale",
+    "meaning": "A mathematical scale used to measure the intensity of an earthquake.",
+    "pronunciation": "",
+    "definition": "A mathematical scale used to measure the intensity of an earthquake.",
+    "example": "The earthquake measured 7.2 on the Richter scale, making it extremely powerful.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Natural Disasters"
+  },
+  {
+    "word": "runoff",
+    "meaning": "Water or other liquid that runs off a surface into bodies of water, often carrying pollutants.",
+    "pronunciation": "",
+    "definition": "Water or other liquid that runs off a surface into bodies of water, often carrying pollutants.",
+    "example": "Urban runoff from roads and parking lots carries oil and chemicals into streams.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Nature, Weather & Environment"
+  },
+  {
+    "word": "savanna",
+    "meaning": "A grassy plain in tropical and subtropical regions, with few trees.",
+    "pronunciation": "",
+    "definition": "",
+    "example": "The African savanna is home to lions, elephants, and vast herds of wildebeest.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Ecosystems"
+  },
+  {
+    "word": "scorching",
+    "meaning": "Extremely hot, often uncomfortably so",
+    "pronunciation": "",
+    "definition": "Extremely hot, often uncomfortably so",
+    "example": "It was scorching yesterday â€” over 40 degrees!",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Nature, Weather & Environment"
+  },
+  {
+    "word": "sea level rise",
+    "meaning": "The increase in the level of the world's oceans due to the effects of climate change, including melting ice and thermal expansion.",
+    "pronunciation": "",
+    "definition": "The increase in the level of the world's oceans due to the effects of climate change, including melting ice and thermal expansion.",
+    "example": "Sea level rise threatens low-lying coastal cities and island nations with flooding.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Climate"
+  },
+  {
+    "word": "seasonal",
+    "meaning": "Relating to or typical of a particular season",
+    "pronunciation": "",
+    "definition": "Relating to or typical of a particular season",
+    "example": "This kind of rain is very seasonal for July.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Nature, Weather & Environment"
+  },
+  {
+    "word": "sedimentation",
+    "meaning": "The process of particles settling out of a fluid and depositing on a surface.",
+    "pronunciation": "",
+    "definition": "The process of particles settling out of a fluid and depositing on a surface.",
+    "example": "Sedimentation in rivers can clog waterways and harm fish spawning grounds.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Ecosystems"
+  },
+  {
+    "word": "Seismic",
+    "meaning": "Relating to earthquakes or other vibrations of the earth and its crust.",
+    "pronunciation": "",
+    "definition": "Relating to earthquakes or other vibrations of the earth and its crust.",
+    "example": "Scientists monitored the seismic activity near the volcano to predict when it might erupt next.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Natural Disasters"
+  },
+  {
+    "word": "Single-Use Plastic",
+    "meaning": "Plastic items designed to be used only once and then thrown away, such as shopping bags, straws, and water bottles.",
+    "pronunciation": "",
+    "definition": "Plastic items designed to be used only once and then thrown away, such as shopping bags, straws, and water bottles.",
+    "example": "Many cities have banned single-use plastic bags to protect oceans and marine life.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Eco-friendly Practices"
+  },
+  {
+    "word": "Sinkhole",
+    "meaning": "A cavity in the ground caused by water erosion, providing a route for surface water to disappear.",
+    "pronunciation": "",
+    "definition": "",
+    "example": "A giant sinkhole suddenly opened in the middle of the road, swallowing a parked car.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Natural Disasters"
+  },
+  {
+    "word": "Slow Fashion",
+    "meaning": "An eco-friendly movement that encourages buying high-quality, durable clothes made ethically and sustainably.",
+    "pronunciation": "",
+    "definition": "An eco-friendly movement that encourages buying high-quality, durable clothes made ethically and sustainably.",
+    "example": "Investing in classic pieces from slow fashion labels means your clothes will last for many years.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Eco-friendly Practices"
+  },
+  {
+    "word": "smog",
+    "meaning": "A dense, discolored fog or haze formed mainly from a mixture of smoke and other atmospheric pollutants.",
+    "pronunciation": "",
+    "definition": "A dense, discolored fog or haze formed mainly from a mixture of smoke and other atmospheric pollutants.",
+    "example": "Thick smog blanketed the city, forcing authorities to issue health warnings.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Nature, Weather & Environment"
+  },
+  {
+    "word": "Soil Erosion",
+    "meaning": "The wearing away and loss of the top layer of soil, usually caused by wind, rain, or farming activities.",
+    "pronunciation": "",
+    "definition": "The wearing away and loss of the top layer of soil, usually caused by wind, rain, or farming activities.",
+    "example": "Planting grass on hillsides helps prevent soil erosion by holding the dirt in place with roots.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Conservation"
+  },
+  {
+    "word": "soil pollution",
+    "meaning": "The presence of toxic chemicals, pollutants, or contaminants in the soil at high concentrations.",
+    "pronunciation": "",
+    "definition": "The presence of toxic chemicals, pollutants, or contaminants in the soil at high concentrations.",
+    "example": "Soil pollution from heavy metals can enter the food chain through crops.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Nature, Weather & Environment"
+  },
+  {
+    "word": "speciation",
+    "meaning": "The process by which new and distinct species evolve through reproductive isolation.",
+    "pronunciation": "",
+    "definition": "The process by which new and distinct species evolve through reproductive isolation.",
+    "example": "Geographic isolation of island populations often leads to speciation.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Biodiversity"
+  },
+  {
+    "word": "species richness",
+    "meaning": "The number of different species found in a given area.",
+    "pronunciation": "",
+    "definition": "The number of different species found in a given area.",
+    "example": "Tropical rainforests have the highest species richness of any terrestrial biome.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Biodiversity"
+  },
+  {
+    "word": "spells of rain",
+    "meaning": "Brief periods of rainfall interspersed with dry weather",
+    "pronunciation": "",
+    "definition": "Brief periods of rainfall interspersed with dry weather",
+    "example": "Expect a few spells of rain throughout the day.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Nature, Weather & Environment"
+  },
+  {
+    "word": "Storm Surge",
+    "meaning": "A rising of the sea as a result of atmospheric pressure changes and wind associated with a storm.",
+    "pronunciation": "",
+    "definition": "",
+    "example": "The storm surge pushed seawater deep into the coastal village, flooding homes.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Natural Disasters"
+  },
+  {
+    "word": "succession",
+    "meaning": "The process by which an ecosystem changes over time from simple communities to more complex ones.",
+    "pronunciation": "",
+    "definition": "",
+    "example": "After a forest fire, ecological succession eventually restores a mature forest.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Ecosystems"
+  },
+  {
+    "word": "sunny spells",
+    "meaning": "Short periods of sunshine between clouds",
+    "pronunciation": "",
+    "definition": "Short periods of sunshine between clouds",
+    "example": "The forecast says cloudy with a few sunny spells.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Nature, Weather & Environment"
+  },
+  {
+    "word": "sunshine",
+    "meaning": "The light and warmth coming from the sun",
+    "pronunciation": "",
+    "definition": "The light and warmth coming from the sun",
+    "example": "We finally got some sunshine after a week of rain.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Nature, Weather & Environment"
+  },
+  {
+    "word": "sustainability",
+    "meaning": "The ability to maintain ecological balance by avoiding the depletion of natural resources.",
+    "pronunciation": "",
+    "definition": "",
+    "example": "Sustainable farming practices protect the soil for future generations.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Conservation"
+  },
+  {
+    "word": "sustainable development",
+    "meaning": "Development that meets the needs of the present without compromising the ability of future generations to meet their own needs.",
+    "pronunciation": "",
+    "definition": "Development that meets the needs of the present without compromising the ability of future generations to meet their own needs.",
+    "example": "The UN's Sustainable Development Goals guide nations toward a more sustainable future.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Conservation"
+  },
+  {
+    "word": "Sustainable Forestry",
+    "meaning": "Managing forests in a way that harvests wood but ensures the forest survives and new trees grow back.",
+    "pronunciation": "",
+    "definition": "Managing forests in a way that harvests wood but ensures the forest survives and new trees grow back.",
+    "example": "The paper company practices sustainable forestry by planting two trees for every one they cut down.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Conservation"
+  },
+  {
+    "word": "symbiosis",
+    "meaning": "A close and long-term biological interaction between two different organisms.",
+    "pronunciation": "",
+    "definition": "",
+    "example": "The symbiosis between clownfish and sea anemones benefits both species.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Ecosystems"
+  },
+  {
+    "word": "thunderstorm",
+    "meaning": "A storm with thunder, lightning, and heavy rain",
+    "pronunciation": "",
+    "definition": "A storm with thunder, lightning, and heavy rain",
+    "example": "A thunderstorm kept me indoors all afternoon.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Nature, Weather & Environment"
+  },
+  {
+    "word": "tipping point",
+    "meaning": "A threshold in the climate system that, when crossed, triggers an irreversible change.",
+    "pronunciation": "",
+    "definition": "A threshold in the climate system that, when crossed, triggers an irreversible change.",
+    "example": "Scientists warn that the Amazon could reach a climate tipping point within decades.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Climate"
+  },
+  {
+    "word": "Tornado",
+    "meaning": "A violently spinning column of air that touches both the ground and a cloud.",
+    "pronunciation": "",
+    "definition": "",
+    "example": "We ran down to the storm cellar as the tornado approached our neighborhood.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Natural Disasters"
+  },
+  {
+    "word": "toxic waste",
+    "meaning": "Waste material that is harmful or fatal when ingested or absorbed by living organisms.",
+    "pronunciation": "",
+    "definition": "Waste material that is harmful or fatal when ingested or absorbed by living organisms.",
+    "example": "Illegal dumping of toxic waste has poisoned local groundwater supplies.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Nature, Weather & Environment"
+  },
+  {
+    "word": "transpiration",
+    "meaning": "The process by which moisture is carried through plants from roots to leaves and released as vapor.",
+    "pronunciation": "",
+    "definition": "",
+    "example": "Trees contribute to local rainfall through transpiration.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Ecosystems"
+  },
+  {
+    "word": "Tremor",
+    "meaning": "A relatively small shaking movement of the ground before or after a larger earthquake.",
+    "pronunciation": "",
+    "definition": "An involuntary quivering movement.",
+    "example": "We felt a small tremor in the morning, but luckily there was no damage.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Natural Disasters"
+  },
+  {
+    "word": "trophic level",
+    "meaning": "The position an organism occupies in a food chain based on its feeding habits.",
+    "pronunciation": "",
+    "definition": "",
+    "example": "Plants are at the first trophic level, while apex predators occupy the highest.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Ecosystems"
+  },
+  {
+    "word": "Tsunami",
+    "meaning": "A giant ocean wave caused by an earthquake or volcanic eruption under the sea.",
+    "pronunciation": "",
+    "definition": "",
+    "example": "The coastal town was evacuated immediately after the undersea earthquake to avoid the tsunami.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Natural Disasters"
+  },
+  {
+    "word": "tundra",
+    "meaning": "A vast, flat, treeless Arctic region in which the subsoil is permanently frozen.",
+    "pronunciation": "",
+    "definition": "A vast, flat, treeless Arctic region of Europe, Asia, and North America in which the subsoil is permanently frozen.",
+    "example": "The tundra is extremely sensitive to climate change due to its frozen soils.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Ecosystems"
+  },
+  {
+    "word": "Typhoon",
+    "meaning": "A tropical storm in the region of the Indian or western Pacific oceans (equivalent to a hurricane).",
+    "pronunciation": "",
+    "definition": "",
+    "example": "The typhoon brought fierce winds and heavy rain to the East Asian coast.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Natural Disasters"
+  },
+  {
+    "word": "Upcycling",
+    "meaning": "Turning old, discarded items or waste materials into new products of higher quality, beauty, or usefulness.",
+    "pronunciation": "",
+    "definition": "Turning old, discarded items or waste materials into new products of higher quality, beauty, or usefulness.",
+    "example": "She turned an old wooden ladder into a beautiful bookshelf, a perfect example of upcycling.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Eco-friendly Practices"
+  },
+  {
+    "word": "Volcanic Eruption",
+    "meaning": "The sudden release of steam, ash, and lava from a volcano.",
+    "pronunciation": "",
+    "definition": "The sudden release of steam, ash, and lava from a volcano.",
+    "example": "The volcanic eruption sent a thick cloud of ash high into the sky.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Natural Disasters"
+  },
+  {
+    "word": "water pollution",
+    "meaning": "The contamination of water bodies by harmful substances, making the water unsafe for drinking or aquatic life.",
+    "pronunciation": "",
+    "definition": "The contamination of water bodies by harmful substances, making the water unsafe for drinking or aquatic life.",
+    "example": "Agricultural runoff containing pesticides is a major source of water pollution.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Nature, Weather & Environment"
+  },
+  {
+    "word": "water table",
+    "meaning": "The level below which the ground is saturated with water.",
+    "pronunciation": "",
+    "definition": "The level below which the ground is saturated with water.",
+    "example": "Excessive irrigation has lowered the water table in many agricultural regions.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Ecosystems"
+  },
+  {
+    "word": "Watershed",
+    "meaning": "An area of land where all the rain and melting snow drains into a single river, lake, or ocean.",
+    "pronunciation": "",
+    "definition": "",
+    "example": "Protecting the watershed ensures that the drinking water for the nearby town remains clean.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Conservation"
+  },
+  {
+    "word": "wetland",
+    "meaning": "Land consisting of marshes or swamps that is saturated with water, supporting diverse wildlife.",
+    "pronunciation": "",
+    "definition": "",
+    "example": "Wetlands filter water, reduce flooding, and provide habitat for hundreds of bird species.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Ecosystems"
+  },
+  {
+    "word": "Wetland Restoration",
+    "meaning": "Rehabilitating damaged swamps, marshes, or bogs so they can naturally filter water and provide homes for wildlife again.",
+    "pronunciation": "",
+    "definition": "Rehabilitating damaged swamps, marshes, or bogs so they can naturally filter water and provide homes for wildlife again.",
+    "example": "The wetland restoration project successfully brought back clean water and nesting birds to the area.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Conservation"
+  },
+  {
+    "word": "Wildfire",
+    "meaning": "A large, destructive fire that spreads quickly over woodland or brush.",
+    "pronunciation": "",
+    "definition": "",
+    "example": "Firefighters worked night and day to stop the wildfire from reaching the town.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Natural Disasters"
+  },
+  {
+    "word": "wildlife corridor",
+    "meaning": "A strip of natural habitat linking isolated patches, allowing animals to move safely between them.",
+    "pronunciation": "",
+    "definition": "A strip of natural habitat linking isolated patches, allowing animals to move safely between them.",
+    "example": "The new wildlife corridor allows tigers to roam between two national parks.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Conservation"
+  },
+  {
+    "word": "wildlife refuge",
+    "meaning": "A protected area of land set aside for the conservation and protection of wild animals.",
+    "pronunciation": "",
+    "definition": "A protected area of land set aside for the conservation and protection of wild animals.",
+    "example": "The Arctic National Wildlife Refuge provides critical breeding grounds for caribou.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Conservation"
+  },
+  {
+    "word": "zero waste",
+    "meaning": "A philosophy that encourages redesigning the life cycle of resources to minimize waste.",
+    "pronunciation": "",
+    "definition": "A philosophy that encourages redesigning the life cycle of resources to minimize waste.",
+    "example": "The zero waste movement promotes composting, recycling, and refusing single-use plastics.",
+    "category": "Nature, Weather & Environment",
+    "subCategory": "Conservation"
+  }
+]

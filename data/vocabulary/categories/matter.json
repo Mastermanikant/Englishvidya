@@ -1,1 +1,200 @@
-﻿[{"word":"Matter","category":"Matter","definition":"Physical substance in general, as distinct from mind and spirit; that which occupies space and possesses rest mass."},{"word":"Atom","category":"Matter","definition":"The basic building block of chemistry. It is the smallest unit into which matter can be divided without the release of electrically charged particles."},{"word":"Molecule","category":"Matter","definition":"A group of atoms bonded together, representing the smallest fundamental unit of a chemical compound that can take part in a chemical reaction."},{"word":"Element","category":"Matter","definition":"A substance that cannot be broken down into simpler substances by chemical means."},{"word":"Compound","category":"Matter","definition":"A thing that is composed of two or more separate elements; a mixture."},{"word":"Mixture","category":"Matter","definition":"A substance made by mixing other substances together."},{"word":"Solid","category":"Matter","definition":"Firm and stable in shape; not liquid or fluid."},{"word":"Liquid","category":"Matter","definition":"A substance that flows freely but is of constant volume, having a consistency like that of water or oil."},{"word":"Gas","category":"Matter","definition":"An air-like fluid substance which expands freely to fill any space available, irrespective of its quantity."},{"word":"Plasma","category":"Matter","definition":"An ionized gas consisting of positive ions and free electrons in proportions resulting in more or less no overall electric charge."},{"word":"Density","category":"Matter","definition":"The degree of compactness of a substance."},{"word":"Volume","category":"Matter","definition":"The amount of space that a substance or object occupies, or that is enclosed within a container."},{"word":"Isotope","category":"Matter","definition":"Each of two or more forms of the same element that contain equal numbers of protons but different numbers of neutrons in their nuclei."},{"word":"Quark","category":"Matter","definition":"Any of a number of subatomic particles carrying a fractional electric charge, postulated as building blocks of the hadrons."},{"word":"Lepton","category":"Matter","definition":"A subatomic particle, such as an electron, muon, or neutrino, which does not take part in the strong interaction."},{"word":"Boson","category":"Matter","definition":"A subatomic particle, such as a photon, which has zero or integral spin."},{"word":"Fermion","category":"Matter","definition":"A subatomic particle, such as a nucleon, which has half-integral spin."},{"word":"Hadron","category":"Matter","definition":"A subatomic particle of a type including the baryons and mesons, which can take part in the strong interaction."},{"word":"Photon","category":"Matter","definition":"A particle representing a quantum of light or other electromagnetic radiation."},{"word":"Gluon","category":"Matter","definition":"A subatomic particle of a class that is thought to bind quarks together."},{"word":"Antimatter","category":"Matter","definition":"Molecules formed by atoms consisting of antiprotons, antineutrons, and positrons."},{"word":"Positron","category":"Matter","definition":"A subatomic particle with the same mass as an electron and a numerically equal but positive charge."},{"word":"Subatomic","category":"Matter","definition":"Smaller than or occurring within an atom."},{"word":"Nucleus","category":"Matter","definition":"The positively charged central core of an atom, consisting of protons and neutrons and containing nearly all its mass."},{"word":"Covalent","category":"Matter","definition":"Relating to or denoting chemical bonds formed by the sharing of electrons between atoms."},{"word":"Ionic","category":"Matter","definition":"Relating to, composed of, or using ions."},{"word":"Metallic","category":"Matter","definition":"Relating to or resembling metal or metals."},{"word":"Crystal","category":"Matter","definition":"A piece of a homogeneous solid substance having a natural geometrically regular form with symmetrically arranged plane faces."},{"word":"Phase","category":"Matter","definition":"A distinct period or stage in a process of change or forming part of something\u0027s development."},{"word":"Sublimation","category":"Matter","definition":"The transition of a substance directly from the solid to the gas phase, without passing through the intermediate liquid phase."},{"word":"Deposition","category":"Matter","definition":"The phase transition in which gas transforms into solid without passing through the liquid phase."},{"word":"Condensation","category":"Matter","definition":"The conversion of a vapor or gas to a liquid."},{"word":"Evaporation","category":"Matter","definition":"The process of turning from liquid into vapor."},{"word":"Viscosity","category":"Matter","definition":"The state of being thick, sticky, and semifluid in consistency, due to internal friction."}]
+[
+  {
+    "word": "Antimatter",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "Molecules formed by atoms consisting of antiprotons, antineutrons, and positrons.",
+    "example": "",
+    "category": "Matter",
+    "subCategory": "Matter"
+  },
+  {
+    "word": "Boson",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "A subatomic particle, such as a photon, which has zero or integral spin.",
+    "example": "",
+    "category": "Matter",
+    "subCategory": "Matter"
+  },
+  {
+    "word": "Compound",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "A thing that is composed of two or more separate elements; a mixture.",
+    "example": "",
+    "category": "Matter",
+    "subCategory": "Matter"
+  },
+  {
+    "word": "Covalent",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "Relating to or denoting chemical bonds formed by the sharing of electrons between atoms.",
+    "example": "",
+    "category": "Matter",
+    "subCategory": "Matter"
+  },
+  {
+    "word": "Crystal",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "A piece of a homogeneous solid substance having a natural geometrically regular form with symmetrically arranged plane faces.",
+    "example": "",
+    "category": "Matter",
+    "subCategory": "Matter"
+  },
+  {
+    "word": "Fermion",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "A subatomic particle, such as a nucleon, which has half-integral spin.",
+    "example": "",
+    "category": "Matter",
+    "subCategory": "Matter"
+  },
+  {
+    "word": "Gas",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "An air-like fluid substance which expands freely to fill any space available, irrespective of its quantity.",
+    "example": "",
+    "category": "Matter",
+    "subCategory": "Matter"
+  },
+  {
+    "word": "Gluon",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "A subatomic particle of a class that is thought to bind quarks together.",
+    "example": "",
+    "category": "Matter",
+    "subCategory": "Matter"
+  },
+  {
+    "word": "Hadron",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "A subatomic particle of a type including the baryons and mesons, which can take part in the strong interaction.",
+    "example": "",
+    "category": "Matter",
+    "subCategory": "Matter"
+  },
+  {
+    "word": "Ionic",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "Relating to, composed of, or using ions.",
+    "example": "",
+    "category": "Matter",
+    "subCategory": "Matter"
+  },
+  {
+    "word": "Isotope",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "Each of two or more forms of the same element that contain equal numbers of protons but different numbers of neutrons in their nuclei.",
+    "example": "",
+    "category": "Matter",
+    "subCategory": "Matter"
+  },
+  {
+    "word": "Lepton",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "A subatomic particle, such as an electron, muon, or neutrino, which does not take part in the strong interaction.",
+    "example": "",
+    "category": "Matter",
+    "subCategory": "Matter"
+  },
+  {
+    "word": "Liquid",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "A substance that flows freely but is of constant volume, having a consistency like that of water or oil.",
+    "example": "",
+    "category": "Matter",
+    "subCategory": "Matter"
+  },
+  {
+    "word": "Matter",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "Physical substance in general, as distinct from mind and spirit; that which occupies space and possesses rest mass.",
+    "example": "",
+    "category": "Matter",
+    "subCategory": "Matter"
+  },
+  {
+    "word": "Mixture",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "A substance made by mixing other substances together.",
+    "example": "",
+    "category": "Matter",
+    "subCategory": "Matter"
+  },
+  {
+    "word": "Phase",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "A distinct period or stage in a process of change or forming part of something's development.",
+    "example": "",
+    "category": "Matter",
+    "subCategory": "Matter"
+  },
+  {
+    "word": "Plasma",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "An ionized gas consisting of positive ions and free electrons in proportions resulting in more or less no overall electric charge.",
+    "example": "",
+    "category": "Matter",
+    "subCategory": "Matter"
+  },
+  {
+    "word": "Positron",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "A subatomic particle with the same mass as an electron and a numerically equal but positive charge.",
+    "example": "",
+    "category": "Matter",
+    "subCategory": "Matter"
+  },
+  {
+    "word": "Quark",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "Any of a number of subatomic particles carrying a fractional electric charge, postulated as building blocks of the hadrons.",
+    "example": "",
+    "category": "Matter",
+    "subCategory": "Matter"
+  },
+  {
+    "word": "Solid",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "Firm and stable in shape; not liquid or fluid.",
+    "example": "",
+    "category": "Matter",
+    "subCategory": "Matter"
+  },
+  {
+    "word": "Subatomic",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "Smaller than or occurring within an atom.",
+    "example": "",
+    "category": "Matter",
+    "subCategory": "Matter"
+  },
+  {
+    "word": "Viscosity",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "The state of being thick, sticky, and semifluid in consistency, due to internal friction.",
+    "example": "",
+    "category": "Matter",
+    "subCategory": "Matter"
+  }
+]

@@ -1,182 +1,218 @@
-﻿[
-    {
-        "word":  "TABLOID",
-        "meaning":  "A small-sized newspaper that focuses on sensational news, celebrity gossip, crime, and has lots of large photos.",
-        "example":  "He bought a tabloid at the supermarket to read about the latest rumors surrounding the royal family.",
-        "category":  "Print \u0026 Digital Press"
-    },
-    {
-        "word":  "BROADSHEET",
-        "meaning":  "A large-format newspaper printed on large sheets of paper, known for serious, in-depth articles and international news.",
-        "example":  "She prefers reading a broadsheet because she finds its political analysis more reliable than tabloid stories.",
-        "category":  "Print \u0026 Digital Press"
-    },
-    {
-        "word":  "CIRCULATION",
-        "meaning":  "The average number of copies of a newspaper or magazine that are distributed or sold each day or week.",
-        "example":  "Due to the rise of free online articles, the physical circulation of the local newspaper has dropped significantly.",
-        "category":  "Print \u0026 Digital Press"
-    },
-    {
-        "word":  "PAYWALL",
-        "meaning":  "A system on a website that requires visitors to pay a subscription fee to access articles and premium content.",
-        "example":  "I wanted to read the full report on the website, but I ran into a paywall asking for a monthly subscription.",
-        "category":  "Print \u0026 Digital Press"
-    },
-    {
-        "word":  "MASTHEAD",
-        "meaning":  "The printed section of a newspaper or magazine, usually on the editorial page, listing the publication\u0027s name, staff, and owners.",
-        "example":  "If you want to know who the editor-in-chief of the magazine is, you can check the masthead.",
-        "category":  "Print \u0026 Digital Press"
-    },
-    {
-        "word":  "CITIZEN JOURNALISM",
-        "meaning":  "News reporting and analysis conducted by ordinary citizens rather than professional journalists, often using social media.",
-        "example":  "The video recorded by a bystander during the protest was a powerful example of citizen journalism.",
-        "category":  "Print \u0026 Digital Press"
-    },
-    {
-        "word":  "BLOGGER",
-        "meaning":  "A person who writes and regularly updates an online journal or blog, expressing personal opinions or covering specific topics.",
-        "example":  "The food blogger gained thousands of followers by writing honest reviews of local restaurants.",
-        "category":  "Print \u0026 Digital Press"
-    },
-    {
-        "word":  "NEWSLETTER",
-        "meaning":  "A short, regularly published report containing news and updates, sent via email or post to members of a group or subscribers.",
-        "example":  "Our school sends out a weekly newsletter to keep parents informed about upcoming events and projects.",
-        "category":  "Print \u0026 Digital Press"
-    },
-    {
-        "word":  "CLASSIFIED ADS",
-        "meaning":  "Small advertisements in a newspaper or website, organized by categories, where people buy, sell, or rent items and advertise jobs.",
-        "example":  "He looked through the classified ads in the local paper to find a cheap used bicycle.",
-        "category":  "Print \u0026 Digital Press"
-    },
-    {
-        "word":  "SYNDICATED COLUMN",
-        "meaning":  "An article or column written by a popular writer that is sold to and printed by many different newspapers at the same time.",
-        "example":  "Her syndicated column about family life appears in over fifty newspapers across the country every Wednesday.",
-        "category":  "Print \u0026 Digital Press"
-    },
-    {
-        "word":  "DIGITAL EDITION",
-        "meaning":  "An online version of a printed newspaper or magazine that can be read on computers, tablets, or smartphones.",
-        "example":  "He cancelled his physical paper subscription and signed up for the digital edition to read on his tablet.",
-        "category":  "Print \u0026 Digital Press"
-    },
-    {
-        "word":  "OBITUARY",
-        "meaning":  "An article in a newspaper that announces a person\u0027s death and gives a brief summary of their life and accomplishments.",
-        "example":  "She wrote a beautiful obituary for her grandfather, highlighting his years of service as a local doctor.",
-        "category":  "Print \u0026 Digital Press"
-    },
-    {
-        "word":  "ARCHIVE",
-        "meaning":  "A collection of historical records, past issues of newspapers, or old photographs kept for research and reference.",
-        "example":  "The university library maintains a digital archive of local newspapers dating back to the nineteenth century.",
-        "category":  "Print \u0026 Digital Press"
-    },
-    {
-        "word":  "ADVERTORIAL",
-        "meaning":  "An advertisement designed to look like a normal, objective news article or editorial column.",
-        "example":  "Although it looked like a health advice article, it was actually an advertorial promoting a new brand of vitamins.",
-        "category":  "Print \u0026 Digital Press"
-    },
-    {
-        "word":  "NEWSSTAND",
-        "meaning":  "A small stall or outdoor booth where newspapers, magazines, and maps are sold to the public.",
-        "example":  "She stopped at a newsstand near the subway station to buy a morning paper and a bottle of water.",
-        "category":  "Print \u0026 Digital Press"
-    },
-    {
-        "word":  "PRESS KIT",
-        "meaning":  "A package of promotional materials, photos, and information sent to journalists to help them write about a company or product.",
-        "example":  "The movie studio sent a detailed press kit to movie critics before the official premiere.",
-        "category":  "Print \u0026 Digital Press"
-    },
-    {
-        "word":  "PRINTING PRESS",
-        "meaning":  "A machine that applies ink to paper to mass-produce newspapers, books, and magazines.",
-        "example":  "The invention of the printing press in the fifteenth century made books affordable for ordinary people.",
-        "category":  "Print \u0026 Digital Press"
-    },
-    {
-        "word":  "JOURNAL",
-        "meaning":  "A serious academic or professional publication containing scholarly articles written by experts in a specific field.",
-        "example":  "The doctor published his research findings in a respected medical journal.",
-        "category":  "Print \u0026 Digital Press"
-    },
-    {
-        "word":  "FAKE NEWS",
-        "meaning":  "False or misleading stories presented as real news, often spread online to influence people\u0027s opinions or make money.",
-        "example":  "Social media platforms are trying to block the spread of fake news during election campaigns.",
-        "category":  "Print \u0026 Digital Press"
-    },
-    {
-        "word":  "CLICKBAIT",
-        "meaning":  "Sensational or exaggerating headlines on websites designed to tempt users to click a link, often leading to low-quality articles.",
-        "example":  "I clicked on a link with the clickbait title \u0027You Won\u0027t Believe What Happened Next,\u0027 only to find a boring ad.",
-        "category":  "Print \u0026 Digital Press"
-    },
-    {
-        "word":  "AGGREGATOR",
-        "meaning":  "A website or software tool that collects news stories from many different sources and shows them in one place.",
-        "example":  "He uses a news aggregator app to see stories from five different newspapers on his phone screen.",
-        "category":  "Print \u0026 Digital Press"
-    },
-    {
-        "word":  "HYPERLINK",
-        "meaning":  "A clickable text or image on a website that takes the reader to another webpage or document.",
-        "example":  "The digital article included a hyperlink that directed readers to the government\u0027s official statistics page.",
-        "category":  "Print \u0026 Digital Press"
-    },
-    {
-        "word":  "USER-GENERATED CONTENT",
-        "meaning":  "Any form of content, such as videos, blogs, or comments, created and posted online by everyday users of a platform.",
-        "example":  "Many modern news sites include user-generated content, like video clips sent in by readers during breaking events.",
-        "category":  "Print \u0026 Digital Press"
-    },
-    {
-        "word":  "SUBSCRIPTION",
-        "meaning":  "An agreement to pay a regular amount of money to receive issues of a publication or access to a website.",
-        "example":  "She bought a yearly subscription to the science magazine so she wouldn\u0027t miss an issue.",
-        "category":  "Print \u0026 Digital Press"
-    },
-    {
-        "word":  "LAYOUT",
-        "meaning":  "The way in which text, headlines, and photographs are arranged on a newspaper page or a screen.",
-        "example":  "The layout designer decided to place the dramatic photo right next to the main headline for maximum impact.",
-        "category":  "Print \u0026 Digital Press"
-    },
-    {
-        "word":  "FRONT PAGE",
-        "meaning":  "The very first page of a newspaper, where the most important and urgent news of the day is displayed.",
-        "example":  "The signing of the peace treaty was featured on the front page of every major newspaper.",
-        "category":  "Print \u0026 Digital Press"
-    },
-    {
-        "word":  "PERIODICAL",
-        "meaning":  "A magazine or journal that is published at regular intervals, such as weekly, monthly, or quarterly.",
-        "example":  "The library has a special section dedicated to periodicals, including science journals and design magazines.",
-        "category":  "Print \u0026 Digital Press"
-    },
-    {
-        "word":  "SENSATIONALISM",
-        "meaning":  "The practice of using exciting, shocking, or exaggerated language and stories to attract public attention and interest.",
-        "example":  "Critics accused the newspaper of sensationalism when they printed rumors instead of verified facts about the actor.",
-        "category":  "Print \u0026 Digital Press"
-    },
-    {
-        "word":  "YELLOW JOURNALISM",
-        "meaning":  "A style of newspaper reporting that emphasizes sensationalism and exaggeration over facts to attract readers.",
-        "example":  "In the late nineteenth century, yellow journalism was common, with papers printing wild rumors to increase sales.",
-        "category":  "Print \u0026 Digital Press"
-    },
-    {
-        "word":  "COLOPHON",
-        "meaning":  "A brief statement or symbol containing details about the publication\u0027s printing, paper type, and typography, usually found at the back.",
-        "example":  "The designer examined the colophon of the art magazine to find out which font had been used for the titles.",
-        "category":  "Print \u0026 Digital Press"
-    }
+[
+  {
+    "word": "ADVERTORIAL",
+    "meaning": "An advertisement designed to look like a normal, objective news article or editorial column.",
+    "pronunciation": "",
+    "definition": "An advertisement designed to look like a normal, objective news article or editorial column.",
+    "example": "Although it looked like a health advice article, it was actually an advertorial promoting a new brand of vitamins.",
+    "category": "Print & Digital Press",
+    "subCategory": "Print & Digital Press"
+  },
+  {
+    "word": "AGGREGATOR",
+    "meaning": "A website or software tool that collects news stories from many different sources and shows them in one place.",
+    "pronunciation": "",
+    "definition": "A website or software tool that collects news stories from many different sources and shows them in one place.",
+    "example": "He uses a news aggregator app to see stories from five different newspapers on his phone screen.",
+    "category": "Print & Digital Press",
+    "subCategory": "Print & Digital Press"
+  },
+  {
+    "word": "BLOGGER",
+    "meaning": "A person who writes and regularly updates an online journal or blog, expressing personal opinions or covering specific topics.",
+    "pronunciation": "",
+    "definition": "A person who writes and regularly updates an online journal or blog, expressing personal opinions or covering specific topics.",
+    "example": "The food blogger gained thousands of followers by writing honest reviews of local restaurants.",
+    "category": "Print & Digital Press",
+    "subCategory": "Print & Digital Press"
+  },
+  {
+    "word": "BROADSHEET",
+    "meaning": "A large-format newspaper printed on large sheets of paper, known for serious, in-depth articles and international news.",
+    "pronunciation": "",
+    "definition": "A large-format newspaper printed on large sheets of paper, known for serious, in-depth articles and international news.",
+    "example": "She prefers reading a broadsheet because she finds its political analysis more reliable than tabloid stories.",
+    "category": "Print & Digital Press",
+    "subCategory": "Print & Digital Press"
+  },
+  {
+    "word": "CIRCULATION",
+    "meaning": "The average number of copies of a newspaper or magazine that are distributed or sold each day or week.",
+    "pronunciation": "",
+    "definition": "",
+    "example": "Due to the rise of free online articles, the physical circulation of the local newspaper has dropped significantly.",
+    "category": "Print & Digital Press",
+    "subCategory": "Print & Digital Press"
+  },
+  {
+    "word": "CITIZEN JOURNALISM",
+    "meaning": "News reporting and analysis conducted by ordinary citizens rather than professional journalists, often using social media.",
+    "pronunciation": "",
+    "definition": "News reporting and analysis conducted by ordinary citizens rather than professional journalists, often using social media.",
+    "example": "The video recorded by a bystander during the protest was a powerful example of citizen journalism.",
+    "category": "Print & Digital Press",
+    "subCategory": "Print & Digital Press"
+  },
+  {
+    "word": "CLASSIFIED ADS",
+    "meaning": "Small advertisements in a newspaper or website, organized by categories, where people buy, sell, or rent items and advertise jobs.",
+    "pronunciation": "",
+    "definition": "Small advertisements in a newspaper or website, organized by categories, where people buy, sell, or rent items and advertise jobs.",
+    "example": "He looked through the classified ads in the local paper to find a cheap used bicycle.",
+    "category": "Print & Digital Press",
+    "subCategory": "Print & Digital Press"
+  },
+  {
+    "word": "COLOPHON",
+    "meaning": "A brief statement or symbol containing details about the publication's printing, paper type, and typography, usually found at the back.",
+    "pronunciation": "",
+    "definition": "A brief statement or symbol containing details about the publication's printing, paper type, and typography, usually found at the back.",
+    "example": "The designer examined the colophon of the art magazine to find out which font had been used for the titles.",
+    "category": "Print & Digital Press",
+    "subCategory": "Print & Digital Press"
+  },
+  {
+    "word": "DIGITAL EDITION",
+    "meaning": "An online version of a printed newspaper or magazine that can be read on computers, tablets, or smartphones.",
+    "pronunciation": "",
+    "definition": "An online version of a printed newspaper or magazine that can be read on computers, tablets, or smartphones.",
+    "example": "He cancelled his physical paper subscription and signed up for the digital edition to read on his tablet.",
+    "category": "Print & Digital Press",
+    "subCategory": "Print & Digital Press"
+  },
+  {
+    "word": "FAKE NEWS",
+    "meaning": "False or misleading stories presented as real news, often spread online to influence people's opinions or make money.",
+    "pronunciation": "",
+    "definition": "False or misleading stories presented as real news, often spread online to influence people's opinions or make money.",
+    "example": "Social media platforms are trying to block the spread of fake news during election campaigns.",
+    "category": "Print & Digital Press",
+    "subCategory": "Print & Digital Press"
+  },
+  {
+    "word": "FRONT PAGE",
+    "meaning": "The very first page of a newspaper, where the most important and urgent news of the day is displayed.",
+    "pronunciation": "",
+    "definition": "The very first page of a newspaper, where the most important and urgent news of the day is displayed.",
+    "example": "The signing of the peace treaty was featured on the front page of every major newspaper.",
+    "category": "Print & Digital Press",
+    "subCategory": "Print & Digital Press"
+  },
+  {
+    "word": "JOURNAL",
+    "meaning": "A serious academic or professional publication containing scholarly articles written by experts in a specific field.",
+    "pronunciation": "",
+    "definition": "A serious academic or professional publication containing scholarly articles written by experts in a specific field.",
+    "example": "The doctor published his research findings in a respected medical journal.",
+    "category": "Print & Digital Press",
+    "subCategory": "Print & Digital Press"
+  },
+  {
+    "word": "LAYOUT",
+    "meaning": "The way in which text, headlines, and photographs are arranged on a newspaper page or a screen.",
+    "pronunciation": "",
+    "definition": "The way in which text, headlines, and photographs are arranged on a newspaper page or a screen.",
+    "example": "The layout designer decided to place the dramatic photo right next to the main headline for maximum impact.",
+    "category": "Print & Digital Press",
+    "subCategory": "Print & Digital Press"
+  },
+  {
+    "word": "MASTHEAD",
+    "meaning": "The printed section of a newspaper or magazine, usually on the editorial page, listing the publication's name, staff, and owners.",
+    "pronunciation": "",
+    "definition": "The printed section of a newspaper or magazine, usually on the editorial page, listing the publication's name, staff, and owners.",
+    "example": "If you want to know who the editor-in-chief of the magazine is, you can check the masthead.",
+    "category": "Print & Digital Press",
+    "subCategory": "Print & Digital Press"
+  },
+  {
+    "word": "NEWSSTAND",
+    "meaning": "A small stall or outdoor booth where newspapers, magazines, and maps are sold to the public.",
+    "pronunciation": "",
+    "definition": "A small stall or outdoor booth where newspapers, magazines, and maps are sold to the public.",
+    "example": "She stopped at a newsstand near the subway station to buy a morning paper and a bottle of water.",
+    "category": "Print & Digital Press",
+    "subCategory": "Print & Digital Press"
+  },
+  {
+    "word": "OBITUARY",
+    "meaning": "An article in a newspaper that announces a person's death and gives a brief summary of their life and accomplishments.",
+    "pronunciation": "",
+    "definition": "An article in a newspaper that announces a person's death and gives a brief summary of their life and accomplishments.",
+    "example": "She wrote a beautiful obituary for her grandfather, highlighting his years of service as a local doctor.",
+    "category": "Print & Digital Press",
+    "subCategory": "Print & Digital Press"
+  },
+  {
+    "word": "PAYWALL",
+    "meaning": "A system on a website that requires visitors to pay a subscription fee to access articles and premium content.",
+    "pronunciation": "",
+    "definition": "A system on a website that requires visitors to pay a subscription fee to access articles and premium content.",
+    "example": "I wanted to read the full report on the website, but I ran into a paywall asking for a monthly subscription.",
+    "category": "Print & Digital Press",
+    "subCategory": "Print & Digital Press"
+  },
+  {
+    "word": "PERIODICAL",
+    "meaning": "A magazine or journal that is published at regular intervals, such as weekly, monthly, or quarterly.",
+    "pronunciation": "",
+    "definition": "A magazine or journal that is published at regular intervals, such as weekly, monthly, or quarterly.",
+    "example": "The library has a special section dedicated to periodicals, including science journals and design magazines.",
+    "category": "Print & Digital Press",
+    "subCategory": "Print & Digital Press"
+  },
+  {
+    "word": "PRESS KIT",
+    "meaning": "A package of promotional materials, photos, and information sent to journalists to help them write about a company or product.",
+    "pronunciation": "",
+    "definition": "A package of promotional materials, photos, and information sent to journalists to help them write about a company or product.",
+    "example": "The movie studio sent a detailed press kit to movie critics before the official premiere.",
+    "category": "Print & Digital Press",
+    "subCategory": "Print & Digital Press"
+  },
+  {
+    "word": "PRINTING PRESS",
+    "meaning": "A machine that applies ink to paper to mass-produce newspapers, books, and magazines.",
+    "pronunciation": "",
+    "definition": "A machine that applies ink to paper to mass-produce newspapers, books, and magazines.",
+    "example": "The invention of the printing press in the fifteenth century made books affordable for ordinary people.",
+    "category": "Print & Digital Press",
+    "subCategory": "Print & Digital Press"
+  },
+  {
+    "word": "SUBSCRIPTION",
+    "meaning": "An agreement to pay a regular amount of money to receive issues of a publication or access to a website.",
+    "pronunciation": "",
+    "definition": "à¤¸à¤¦à¤¸à¥à¤¯à¤¤à¤¾",
+    "example": "She bought a yearly subscription to the science magazine so she wouldn't miss an issue.",
+    "category": "Print & Digital Press",
+    "subCategory": "Print & Digital Press"
+  },
+  {
+    "word": "SYNDICATED COLUMN",
+    "meaning": "An article or column written by a popular writer that is sold to and printed by many different newspapers at the same time.",
+    "pronunciation": "",
+    "definition": "An article or column written by a popular writer that is sold to and printed by many different newspapers at the same time.",
+    "example": "Her syndicated column about family life appears in over fifty newspapers across the country every Wednesday.",
+    "category": "Print & Digital Press",
+    "subCategory": "Print & Digital Press"
+  },
+  {
+    "word": "TABLOID",
+    "meaning": "A small-sized newspaper that focuses on sensational news, celebrity gossip, crime, and has lots of large photos.",
+    "pronunciation": "",
+    "definition": "A small-sized newspaper that focuses on sensational news, celebrity gossip, crime, and has lots of large photos.",
+    "example": "He bought a tabloid at the supermarket to read about the latest rumors surrounding the royal family.",
+    "category": "Print & Digital Press",
+    "subCategory": "Print & Digital Press"
+  },
+  {
+    "word": "USER-GENERATED CONTENT",
+    "meaning": "Any form of content, such as videos, blogs, or comments, created and posted online by everyday users of a platform.",
+    "pronunciation": "",
+    "definition": "Any form of content, such as videos, blogs, or comments, created and posted online by everyday users of a platform.",
+    "example": "Many modern news sites include user-generated content, like video clips sent in by readers during breaking events.",
+    "category": "Print & Digital Press",
+    "subCategory": "Print & Digital Press"
+  }
 ]

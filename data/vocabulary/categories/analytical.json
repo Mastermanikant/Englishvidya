@@ -1,429 +1,488 @@
 [
   {
-    "word": "analyze",
-    "meaning": "To examine something in detail in order to understand it or explain it.",
-    "example": "The researcher carefully analyzed the data before drawing any conclusions.",
-    "category": "Analytical"
-  },
-  {
-    "word": "synthesize",
-    "meaning": "To combine different ideas, information, or arguments into a coherent whole.",
-    "example": "Good academic writing synthesizes multiple sources into a unified argument.",
-    "category": "Analytical"
-  },
-  {
-    "word": "infer",
-    "meaning": "To conclude from evidence and reasoning rather than from explicit statements.",
-    "example": "From the tone of the letter, one can infer that the writer was frustrated.",
-    "category": "Analytical"
-  },
-  {
-    "word": "deduce",
-    "meaning": "To arrive at a conclusion by reasoning from general principles to specific facts.",
-    "example": "Scientists deduce the age of fossils using known decay rates.",
-    "category": "Analytical"
-  },
-  {
-    "word": "hypothesis",
-    "meaning": "A proposed explanation made on limited evidence as a starting point for investigation.",
-    "example": "The team developed a hypothesis and then designed experiments to test it.",
-    "category": "Analytical"
-  },
-  {
-    "word": "conjecture",
-    "meaning": "An opinion or conclusion formed on the basis of incomplete information.",
-    "example": "Without more data, the theory remains mere conjecture.",
-    "category": "Analytical"
-  },
-  {
-    "word": "assumption",
-    "meaning": "Something accepted as true without proof, often forming the basis of an argument.",
-    "example": "The plan was built on the flawed assumption that costs would remain stable.",
-    "category": "Analytical"
-  },
-  {
-    "word": "logical fallacy",
-    "meaning": "An error in reasoning that makes an argument invalid or misleading.",
-    "example": "Claiming that an idea is wrong because it is unpopular is a logical fallacy.",
-    "category": "Analytical"
-  },
-  {
-    "word": "implication",
-    "meaning": "A conclusion that can be drawn from something, though not explicitly stated.",
-    "example": "The implications of the new law for small businesses are significant.",
-    "category": "Analytical"
-  },
-  {
-    "word": "inference",
-    "meaning": "A conclusion reached through reasoning from available evidence.",
-    "example": "The detective made a reasonable inference based on the clues at the scene.",
-    "category": "Analytical"
-  },
-  {
-    "word": "reasoning",
-    "meaning": "The action of thinking about something in a logical, sensible way.",
-    "example": "Sound reasoning is the foundation of any persuasive argument.",
-    "category": "Analytical"
-  },
-  {
-    "word": "perspective",
-    "meaning": "A particular attitude toward or way of regarding something; a point of view.",
-    "example": "Considering the issue from multiple perspectives leads to better decisions.",
-    "category": "Analytical"
-  },
-  {
-    "word": "nuance",
-    "meaning": "A subtle difference in meaning, expression, or understanding.",
-    "example": "Her analysis captured the nuance that simpler reports had missed.",
-    "category": "Analytical"
-  },
-  {
-    "word": "ambiguity",
-    "meaning": "The quality of being open to more than one interpretation; inexactness.",
-    "example": "The ambiguity of the contract led to a legal dispute.",
-    "category": "Analytical"
-  },
-  {
-    "word": "dichotomy",
-    "meaning": "A division or contrast between two things that are entirely different.",
-    "example": "The false dichotomy between science and religion ignores centuries of coexistence.",
-    "category": "Analytical"
-  },
-  {
-    "word": "paradigm",
-    "meaning": "A typical example, model, or framework of thinking in a particular field.",
-    "example": "Einstein's theory of relativity shifted the entire paradigm of physics.",
-    "category": "Analytical"
-  },
-  {
-    "word": "context",
-    "meaning": "The circumstances that form the setting for an event or statement.",
-    "example": "Understanding a quote requires knowing its historical context.",
-    "category": "Analytical"
-  },
-  {
-    "word": "distinguish",
-    "meaning": "To recognize or show the difference between two things.",
-    "example": "Students should be able to distinguish between fact and opinion.",
-    "category": "Analytical"
-  },
-  {
-    "word": "juxtapose",
-    "meaning": "To place two things side by side for comparison or contrast.",
-    "example": "The writer juxtaposed poverty and luxury to highlight inequality.",
-    "category": "Analytical"
-  },
-  {
-    "word": "correlation",
-    "meaning": "A mutual relationship or connection between two or more things.",
-    "example": "There is a strong correlation between education levels and income.",
-    "category": "Analytical"
-  },
-  {
-    "word": "causation",
-    "meaning": "The action of causing something; the relationship between cause and effect.",
-    "example": "Correlation does not imply causation; further study is needed.",
-    "category": "Analytical"
-  },
-  {
-    "word": "generalization",
-    "meaning": "A broad statement or conclusion made from limited specific cases.",
-    "example": "Saying all teenagers are irresponsible is an unfair generalization.",
-    "category": "Analytical"
-  },
-  {
-    "word": "speculate",
-    "meaning": "To form a theory or opinion without firm evidence.",
-    "example": "Without further data, we can only speculate about the cause.",
-    "category": "Analytical"
-  },
-  {
-    "word": "paradox",
-    "meaning": "A statement that seems self-contradictory but may reveal a deeper truth.",
-    "example": "The paradox of choice suggests that more options can lead to less satisfaction.",
-    "category": "Analytical"
-  },
-  {
-    "word": "fallacious",
-    "meaning": "Based on a mistaken belief or faulty reasoning; misleading.",
-    "example": "The argument was fallacious because it assumed what it was trying to prove.",
-    "category": "Analytical"
-  },
-  {
-    "word": "empirical",
-    "meaning": "Based on observation or experience rather than theory or pure logic.",
-    "example": "Empirical evidence from clinical trials supports the drug's effectiveness.",
-    "category": "Analytical"
-  },
-  {
-    "word": "abstract",
-    "meaning": "Relating to ideas and concepts rather than concrete, tangible things.",
-    "example": "Justice is an abstract concept that different cultures define differently.",
-    "category": "Analytical"
-  },
-  {
-    "word": "deductive",
-    "meaning": "Relating to reasoning that moves from general principles to specific conclusions.",
-    "example": "Deductive reasoning helped him narrow down the most likely explanation.",
-    "category": "Analytical"
-  },
-  {
-    "word": "inductive",
-    "meaning": "Relating to reasoning that moves from specific observations to general conclusions.",
-    "example": "Inductive reasoning led scientists to propose the germ theory of disease.",
-    "category": "Analytical"
-  },
-  {
-    "word": "holistic",
-    "meaning": "Characterized by comprehension of the whole system rather than just its parts.",
-    "example": "A holistic analysis considers economic, social, and environmental factors together.",
-    "category": "Analytical"
-  },
-  {
-    "word": "interrogate",
-    "meaning": "To question or examine a claim or text closely and critically.",
-    "example": "We must interrogate the assumptions underlying this policy proposal.",
-    "category": "Analytical"
-  },
-  {
-    "word": "deconstruct",
-    "meaning": "To analyze and break down a text or concept by examining its underlying assumptions.",
-    "example": "The philosopher deconstructed the concept of 'freedom' to reveal its contradictions.",
-    "category": "Analytical"
-  },
-  {
-    "word": "illuminate",
-    "meaning": "To make something clearer or easier to understand; to shed light on.",
-    "example": "This example illuminates the flaw in the original argument.",
-    "category": "Analytical"
-  },
-  {
-    "word": "elucidate",
-    "meaning": "To make something clearer by explanation or careful analysis.",
-    "example": "Could you elucidate how you arrived at that conclusion?",
-    "category": "Analytical"
-  },
-  {
-    "word": "reconcile",
-    "meaning": "To bring opposing ideas or evidence into agreement or consistency.",
-    "example": "The researcher tried to reconcile contradictory findings from two studies.",
-    "category": "Analytical"
-  },
-  {
-    "word": "contextualize",
-    "meaning": "To place an argument or fact within its broader situational or historical setting.",
-    "example": "To understand the data, we must contextualize it within the wider economic crisis.",
-    "category": "Analytical"
-  },
-  {
-    "word": "extrapolate",
-    "meaning": "To extend known data or conclusions into an area not yet directly observed.",
-    "example": "From current trends, we can extrapolate future population growth.",
-    "category": "Analytical"
-  },
-  {
-    "word": "interpolate",
-    "meaning": "To insert an estimated value between known values in a dataset or argument.",
-    "example": "The analyst interpolated missing data points to complete the trend line.",
-    "category": "Analytical"
-  },
-  {
-    "word": "presuppose",
-    "meaning": "To require something as a precondition; to assume beforehand.",
-    "example": "This argument presupposes that all voters are fully informed.",
-    "category": "Analytical"
-  },
-  {
     "word": "analogize",
     "meaning": "To draw an analogy between two different things to explain or clarify.",
+    "pronunciation": "",
+    "definition": "To draw an analogy between two different things to explain or clarify.",
     "example": "He analogized the brain to a computer to simplify the explanation.",
-    "category": "Analytical"
+    "category": "Analytical",
+    "subCategory": "Analytical"
   },
   {
     "word": "analogy",
     "meaning": "A comparison between two things for the purpose of explanation or clarification.",
+    "pronunciation": "",
+    "definition": "A comparison between two things to explain or clarify an idea.",
     "example": "The analogy between the heart and a pump is useful for teaching biology.",
-    "category": "Analytical"
+    "category": "Analytical",
+    "subCategory": "Analytical"
   },
   {
-    "word": "categorize",
-    "meaning": "To place things into groups based on shared characteristics.",
-    "example": "The researcher categorized the responses into three broad themes.",
-    "category": "Analytical"
-  },
-  {
-    "word": "classify",
-    "meaning": "To arrange or organize according to shared qualities or characteristics.",
-    "example": "Scientists classify organisms based on their evolutionary relationships.",
-    "category": "Analytical"
-  },
-  {
-    "word": "methodology",
-    "meaning": "A system of methods used in a particular area of study or activity.",
-    "example": "Flaws in the methodology can invalidate an entire study.",
-    "category": "Analytical"
-  },
-  {
-    "word": "inference",
-    "meaning": "A conclusion reached on the basis of evidence and reasoning.",
-    "example": "Drawing inferences from incomplete data requires careful qualification.",
-    "category": "Analytical"
-  },
-  {
-    "word": "rigorous",
-    "meaning": "Extremely thorough and careful; applying strict standards.",
-    "example": "Rigorous analysis demands that you test every assumption.",
-    "category": "Analytical"
-  },
-  {
-    "word": "systematic",
-    "meaning": "Done or acting according to a fixed plan or procedure; methodical.",
-    "example": "A systematic review considers all available evidence on a topic.",
-    "category": "Analytical"
+    "word": "analyze",
+    "meaning": "To examine something in detail in order to understand it or explain it.",
+    "pronunciation": "",
+    "definition": "To examine methodically and in detail the constitution or structure of something.",
+    "example": "The researcher carefully analyzed the data before drawing any conclusions.",
+    "category": "Analytical",
+    "subCategory": "Analytical"
   },
   {
     "word": "anomaly",
     "meaning": "Something that deviates from what is standard, normal, or expected.",
+    "pronunciation": "",
+    "definition": "Something that deviates from what is standard, normal, or expected.",
     "example": "The anomaly in the data prompted a review of the collection method.",
-    "category": "Analytical"
+    "category": "Analytical",
+    "subCategory": "Analytical"
   },
   {
-    "word": "delineate",
-    "meaning": "To describe or indicate something precisely; to outline clearly.",
-    "example": "The report delineates the key risks associated with the policy.",
-    "category": "Analytical"
+    "word": "assumption",
+    "meaning": "Something accepted as true without proof, often forming the basis of an argument.",
+    "pronunciation": "",
+    "definition": "Something accepted as true without proof, often forming the basis of an argument.",
+    "example": "The plan was built on the flawed assumption that costs would remain stable.",
+    "category": "Analytical",
+    "subCategory": "Analytical"
   },
   {
-    "word": "unpack",
-    "meaning": "To explain or analyze the layers of meaning in a complex idea or argument.",
-    "example": "Let us unpack the assumptions embedded in this argument.",
-    "category": "Analytical"
+    "word": "categorize",
+    "meaning": "To place things into groups based on shared characteristics.",
+    "pronunciation": "",
+    "definition": "To place things into groups based on shared characteristics.",
+    "example": "The researcher categorized the responses into three broad themes.",
+    "category": "Analytical",
+    "subCategory": "Analytical"
   },
   {
-    "word": "probe",
-    "meaning": "To investigate or examine a subject thoroughly and critically.",
-    "example": "The journalist probed deeper into the government's financial records.",
-    "category": "Analytical"
-  },
-  {
-    "word": "interrogate",
-    "meaning": "To examine critically; to question the assumptions behind a claim or text.",
-    "example": "We must interrogate the data rather than accept it uncritically.",
-    "category": "Analytical"
-  },
-  {
-    "word": "dialectic",
-    "meaning": "A method of argument for resolving disagreement through reasoned discussion.",
-    "example": "The dialectic between tradition and innovation drives intellectual progress.",
-    "category": "Analytical"
-  },
-  {
-    "word": "epistemic",
-    "meaning": "Relating to knowledge or the degree of its validation.",
-    "example": "Epistemic humility means recognizing the limits of what we can know.",
-    "category": "Analytical"
-  },
-  {
-    "word": "intrinsic",
-    "meaning": "Belonging naturally; essential and fundamental to the nature of something.",
-    "example": "Critical thinking is intrinsic to good academic performance.",
-    "category": "Analytical"
-  },
-  {
-    "word": "extrinsic",
-    "meaning": "Coming from outside; not inherent in the thing being discussed.",
-    "example": "Extrinsic factors like funding can influence the outcome of research.",
-    "category": "Analytical"
-  },
-  {
-    "word": "implicit",
-    "meaning": "Suggested but not directly expressed; present but not stated clearly.",
-    "example": "The argument has an implicit assumption that readers share the author's values.",
-    "category": "Analytical"
-  },
-  {
-    "word": "conflate",
-    "meaning": "To combine or confuse two or more different things erroneously.",
-    "example": "It is a mistake to conflate correlation with causation.",
-    "category": "Analytical"
+    "word": "causation",
+    "meaning": "The action of causing something; the relationship between cause and effect.",
+    "pronunciation": "",
+    "definition": "The action of causing something; the relationship between cause and effect.",
+    "example": "Correlation does not imply causation; further study is needed.",
+    "category": "Analytical",
+    "subCategory": "Analytical"
   },
   {
     "word": "classify",
-    "meaning": "To arrange or organize things into groups based on shared qualities",
-    "example": "Biologists classify living organisms into kingdoms.",
-    "category": "analytical"
+    "meaning": "To arrange or organize according to shared qualities or characteristics.",
+    "pronunciation": "",
+    "definition": "To arrange a group of things in classes or categories according to shared qualities (replaces the conversational 'group' or 'sort').",
+    "example": "Scientists classify organisms based on their evolutionary relationships.",
+    "category": "Analytical",
+    "subCategory": "Analytical"
   },
   {
     "word": "compare",
     "meaning": "To examine two or more things to find similarities and differences",
+    "pronunciation": "",
+    "definition": "To examine the similarities between two or more things",
     "example": "The essay asked students to compare two different political systems.",
-    "category": "analytical"
+    "category": "Analytical",
+    "subCategory": "Analytical"
+  },
+  {
+    "word": "conflate",
+    "meaning": "To combine or confuse two or more different things erroneously.",
+    "pronunciation": "",
+    "definition": "To combine or confuse two or more different things erroneously.",
+    "example": "It is a mistake to conflate correlation with causation.",
+    "category": "Analytical",
+    "subCategory": "Analytical"
+  },
+  {
+    "word": "conjecture",
+    "meaning": "An opinion or conclusion formed on the basis of incomplete information.",
+    "pronunciation": "",
+    "definition": "An opinion or conclusion formed on the basis of incomplete information.",
+    "example": "Without more data, the theory remains mere conjecture.",
+    "category": "Analytical",
+    "subCategory": "Analytical"
+  },
+  {
+    "word": "contextualize",
+    "meaning": "To place an argument or fact within its broader situational or historical setting.",
+    "pronunciation": "",
+    "definition": "To place an argument or fact within its broader situational or historical setting.",
+    "example": "To understand the data, we must contextualize it within the wider economic crisis.",
+    "category": "Analytical",
+    "subCategory": "Analytical"
   },
   {
     "word": "contrast",
     "meaning": "To show the differences between two or more things",
+    "pronunciation": "",
+    "definition": "To examine the differences between two or more things",
     "example": "The teacher asked students to contrast democracy and dictatorship.",
-    "category": "analytical"
-  },
-  {
-    "word": "categorize",
-    "meaning": "To place people or things in particular groups or classes",
-    "example": "You can categorize vocabulary words by their parts of speech.",
-    "category": "analytical"
-  },
-  {
-    "word": "differentiate",
-    "meaning": "To recognize or describe the differences between things",
-    "example": "Students must differentiate between facts and opinions in the article.",
-    "category": "analytical"
-  },
-  {
-    "word": "identify",
-    "meaning": "To recognize and name something correctly",
-    "example": "Can you identify the main theme of the poem?",
-    "category": "analytical"
-  },
-  {
-    "word": "examine",
-    "meaning": "To look at something carefully and in detail",
-    "example": "The students examined the specimen under the microscope.",
-    "category": "analytical"
-  },
-  {
-    "word": "investigate",
-    "meaning": "To carry out a systematic inquiry to discover facts",
-    "example": "They investigated the cause of the chemical reaction.",
-    "category": "analytical"
-  },
-  {
-    "word": "determine",
-    "meaning": "To find out or establish something with certainty",
-    "example": "The scientist determined the exact temperature at which the liquid boiled.",
-    "category": "analytical"
-  },
-  {
-    "word": "distinguish",
-    "meaning": "To recognize or point out a difference",
-    "example": "A good reader can distinguish between literal and figurative language.",
-    "category": "analytical"
+    "category": "Analytical",
+    "subCategory": "Analytical"
   },
   {
     "word": "correlate",
     "meaning": "To show a mutual relationship or connection between two things",
+    "pronunciation": "",
+    "definition": "To have a mutual relationship or connection, in which one thing affects or depends on another (replaces the conversational 'link up' or 'go together').",
     "example": "Researchers correlate regular exercise with improved mental health.",
-    "category": "analytical"
+    "category": "Analytical",
+    "subCategory": "Analytical"
+  },
+  {
+    "word": "correlation",
+    "meaning": "A mutual relationship or connection between two or more things.",
+    "pronunciation": "",
+    "definition": "A mutual relationship or connection between two or more things.",
+    "example": "There is a strong correlation between education levels and income.",
+    "category": "Analytical",
+    "subCategory": "Analytical"
   },
   {
     "word": "deconstruct",
-    "meaning": "To break something down into its component parts for analysis",
-    "example": "The professor asked students to deconstruct the author's argument.",
-    "category": "analytical"
+    "meaning": "To analyze and break down a text or concept by examining its underlying assumptions.",
+    "pronunciation": "",
+    "definition": "To analyze a text or concept by exposing its internal contradictions (replaces the conversational 'take apart').",
+    "example": "The philosopher deconstructed the concept of 'freedom' to reveal its contradictions.",
+    "category": "Analytical",
+    "subCategory": "Analytical"
+  },
+  {
+    "word": "deduce",
+    "meaning": "To arrive at a conclusion by reasoning from general principles to specific facts.",
+    "pronunciation": "",
+    "definition": "To arrive at a conclusion by reasoning from general principles to specific cases.",
+    "example": "Scientists deduce the age of fossils using known decay rates.",
+    "category": "Analytical",
+    "subCategory": "Analytical"
+  },
+  {
+    "word": "deductive",
+    "meaning": "Relating to reasoning that moves from general principles to specific conclusions.",
+    "pronunciation": "",
+    "definition": "Relating to reasoning that moves from general principles to specific conclusions.",
+    "example": "Deductive reasoning helped him narrow down the most likely explanation.",
+    "category": "Analytical",
+    "subCategory": "Analytical"
+  },
+  {
+    "word": "delineate",
+    "meaning": "To describe or indicate something precisely; to outline clearly.",
+    "pronunciation": "",
+    "definition": "To describe or portray something precisely (replaces the conversational 'draw' or 'lay out').",
+    "example": "The report delineates the key risks associated with the policy.",
+    "category": "Analytical",
+    "subCategory": "Analytical"
+  },
+  {
+    "word": "dialectic",
+    "meaning": "A method of argument for resolving disagreement through reasoned discussion.",
+    "pronunciation": "",
+    "definition": "The art of investigating or discussing the truth of opinions, often through contrasting opposing viewpoints.",
+    "example": "The dialectic between tradition and innovation drives intellectual progress.",
+    "category": "Analytical",
+    "subCategory": "Analytical"
+  },
+  {
+    "word": "dichotomy",
+    "meaning": "A division or contrast between two things that are entirely different.",
+    "pronunciation": "",
+    "definition": "A division or contrast between two things that are or are represented as being opposed or entirely different.",
+    "example": "The false dichotomy between science and religion ignores centuries of coexistence.",
+    "category": "Analytical",
+    "subCategory": "Analytical"
+  },
+  {
+    "word": "differentiate",
+    "meaning": "To recognize or describe the differences between things",
+    "pronunciation": "",
+    "definition": "To recognize or ascertain what makes someone or something different.",
+    "example": "Students must differentiate between facts and opinions in the article.",
+    "category": "Analytical",
+    "subCategory": "Analytical"
+  },
+  {
+    "word": "distinguish",
+    "meaning": "To recognize or show the difference between two things.",
+    "pronunciation": "",
+    "definition": "To recognize or point out a difference.",
+    "example": "Students should be able to distinguish between fact and opinion.",
+    "category": "Analytical",
+    "subCategory": "Analytical"
+  },
+  {
+    "word": "elucidate",
+    "meaning": "To make something clearer by explanation or careful analysis.",
+    "pronunciation": "",
+    "definition": "To make something clear; to explain.",
+    "example": "Could you elucidate how you arrived at that conclusion?",
+    "category": "Analytical",
+    "subCategory": "Analytical"
+  },
+  {
+    "word": "epistemic",
+    "meaning": "Relating to knowledge or the degree of its validation.",
+    "pronunciation": "",
+    "definition": "Relating to knowledge or the degree of its validation.",
+    "example": "Epistemic humility means recognizing the limits of what we can know.",
+    "category": "Analytical",
+    "subCategory": "Analytical"
+  },
+  {
+    "word": "examine",
+    "meaning": "To look at something carefully and in detail",
+    "pronunciation": "",
+    "definition": "To look at something carefully and in detail",
+    "example": "The students examined the specimen under the microscope.",
+    "category": "Analytical",
+    "subCategory": "Analytical"
+  },
+  {
+    "word": "extrapolate",
+    "meaning": "To extend known data or conclusions into an area not yet directly observed.",
+    "pronunciation": "",
+    "definition": "To extend known data or conclusions into an area not yet directly observed.",
+    "example": "From current trends, we can extrapolate future population growth.",
+    "category": "Analytical",
+    "subCategory": "Analytical"
+  },
+  {
+    "word": "extrinsic",
+    "meaning": "Coming from outside; not inherent in the thing being discussed.",
+    "pronunciation": "",
+    "definition": "Coming from outside; not inherent in the thing being discussed.",
+    "example": "Extrinsic factors like funding can influence the outcome of research.",
+    "category": "Analytical",
+    "subCategory": "Analytical"
+  },
+  {
+    "word": "fallacious",
+    "meaning": "Based on a mistaken belief or faulty reasoning; misleading.",
+    "pronunciation": "",
+    "definition": "Based on a mistaken belief or faulty reasoning; misleading.",
+    "example": "The argument was fallacious because it assumed what it was trying to prove.",
+    "category": "Analytical",
+    "subCategory": "Analytical"
+  },
+  {
+    "word": "generalization",
+    "meaning": "A broad statement or conclusion made from limited specific cases.",
+    "pronunciation": "",
+    "definition": "",
+    "example": "Saying all teenagers are irresponsible is an unfair generalization.",
+    "category": "Analytical",
+    "subCategory": "Analytical"
+  },
+  {
+    "word": "holistic",
+    "meaning": "Characterized by comprehension of the whole system rather than just its parts.",
+    "pronunciation": "",
+    "definition": "Characterized by comprehension of the whole system rather than just its parts.",
+    "example": "A holistic analysis considers economic, social, and environmental factors together.",
+    "category": "Analytical",
+    "subCategory": "Analytical"
+  },
+  {
+    "word": "identify",
+    "meaning": "To recognize and name something correctly",
+    "pronunciation": "",
+    "definition": "To establish or indicate who or what someone or something is.",
+    "example": "Can you identify the main theme of the poem?",
+    "category": "Analytical",
+    "subCategory": "Analytical"
+  },
+  {
+    "word": "illuminate",
+    "meaning": "To make something clearer or easier to understand; to shed light on.",
+    "pronunciation": "",
+    "definition": "To help to clarify or explain something.",
+    "example": "This example illuminates the flaw in the original argument.",
+    "category": "Analytical",
+    "subCategory": "Analytical"
+  },
+  {
+    "word": "implication",
+    "meaning": "A conclusion that can be drawn from something, though not explicitly stated.",
+    "pronunciation": "",
+    "definition": "The conclusion that can be drawn from something although it is not explicitly stated (replaces the conversational 'logical result' or 'hinted outcome').",
+    "example": "The implications of the new law for small businesses are significant.",
+    "category": "Analytical",
+    "subCategory": "Analytical"
+  },
+  {
+    "word": "inductive",
+    "meaning": "Relating to reasoning that moves from specific observations to general conclusions.",
+    "pronunciation": "",
+    "definition": "Relating to reasoning that moves from specific observations to general conclusions.",
+    "example": "Inductive reasoning led scientists to propose the germ theory of disease.",
+    "category": "Analytical",
+    "subCategory": "Analytical"
+  },
+  {
+    "word": "infer",
+    "meaning": "To conclude from evidence and reasoning rather than from explicit statements.",
+    "pronunciation": "",
+    "definition": "To deduce or conclude information from evidence and reasoning.",
+    "example": "From the tone of the letter, one can infer that the writer was frustrated.",
+    "category": "Analytical",
+    "subCategory": "Analytical"
+  },
+  {
+    "word": "inference",
+    "meaning": "A conclusion reached through reasoning from available evidence.",
+    "pronunciation": "",
+    "definition": "The act of deriving logical conclusions from premises known or assumed to be true.",
+    "example": "The detective made a reasonable inference based on the clues at the scene.",
+    "category": "Analytical",
+    "subCategory": "Analytical"
+  },
+  {
+    "word": "interpolate",
+    "meaning": "To insert an estimated value between known values in a dataset or argument.",
+    "pronunciation": "",
+    "definition": "To insert an estimated value between known values in a dataset or argument.",
+    "example": "The analyst interpolated missing data points to complete the trend line.",
+    "category": "Analytical",
+    "subCategory": "Analytical"
+  },
+  {
+    "word": "interrogate",
+    "meaning": "To question or examine a claim or text closely and critically.",
+    "pronunciation": "",
+    "definition": "To question or examine a claim or text closely and critically.",
+    "example": "We must interrogate the assumptions underlying this policy proposal.",
+    "category": "Analytical",
+    "subCategory": "Analytical"
+  },
+  {
+    "word": "intrinsic",
+    "meaning": "Belonging naturally; essential and fundamental to the nature of something.",
+    "pronunciation": "",
+    "definition": "Belonging naturally to something; existing within rather than being added.",
+    "example": "Critical thinking is intrinsic to good academic performance.",
+    "category": "Analytical",
+    "subCategory": "Analytical"
+  },
+  {
+    "word": "investigate",
+    "meaning": "To carry out a systematic inquiry to discover facts",
+    "pronunciation": "",
+    "definition": "To carry out a systematic or formal inquiry to discover and examine the facts of an incident, allegation, etc.",
+    "example": "They investigated the cause of the chemical reaction.",
+    "category": "Analytical",
+    "subCategory": "Analytical"
+  },
+  {
+    "word": "juxtapose",
+    "meaning": "To place two things side by side for comparison or contrast.",
+    "pronunciation": "",
+    "definition": "To place two things side by side for comparison or contrast.",
+    "example": "The writer juxtaposed poverty and luxury to highlight inequality.",
+    "category": "Analytical",
+    "subCategory": "Analytical"
+  },
+  {
+    "word": "logical fallacy",
+    "meaning": "An error in reasoning that makes an argument invalid or misleading.",
+    "pronunciation": "",
+    "definition": "An error in reasoning that makes an argument invalid or misleading.",
+    "example": "Claiming that an idea is wrong because it is unpopular is a logical fallacy.",
+    "category": "Analytical",
+    "subCategory": "Analytical"
+  },
+  {
+    "word": "nuance",
+    "meaning": "A subtle difference in meaning, expression, or understanding.",
+    "pronunciation": "",
+    "definition": "A subtle difference in meaning, expression, or sound.",
+    "example": "Her analysis captured the nuance that simpler reports had missed.",
+    "category": "Analytical",
+    "subCategory": "Analytical"
   },
   {
     "word": "outline",
-    "meaning": "To give the main facts or ideas about something",
+    "meaning": "???????",
+    "pronunciation": "",
+    "definition": "A general description or plan giving the essential features of something but not the detail.",
     "example": "He outlined the key points of his presentation before speaking.",
-    "category": "analytical",
-    "meaning_hi": "???????"
+    "category": "Analytical",
+    "subCategory": "Analytical"
+  },
+  {
+    "word": "paradigm",
+    "meaning": "A typical example, model, or framework of thinking in a particular field.",
+    "pronunciation": "",
+    "definition": "A typical example or pattern of something; a model or overarching framework.",
+    "example": "Einstein's theory of relativity shifted the entire paradigm of physics.",
+    "category": "Analytical",
+    "subCategory": "Analytical"
+  },
+  {
+    "word": "paradox",
+    "meaning": "A statement that seems self-contradictory but may reveal a deeper truth.",
+    "pronunciation": "",
+    "definition": "A seemingly absurd or self-contradictory statement or proposition that when investigated may prove to be well founded or true.",
+    "example": "The paradox of choice suggests that more options can lead to less satisfaction.",
+    "category": "Analytical",
+    "subCategory": "Analytical"
+  },
+  {
+    "word": "presuppose",
+    "meaning": "To require something as a precondition; to assume beforehand.",
+    "pronunciation": "",
+    "definition": "To require something as a precondition; to assume beforehand.",
+    "example": "This argument presupposes that all voters are fully informed.",
+    "category": "Analytical",
+    "subCategory": "Analytical"
+  },
+  {
+    "word": "probe",
+    "meaning": "To investigate or examine a subject thoroughly and critically.",
+    "pronunciation": "",
+    "definition": "To investigate or examine a subject thoroughly and critically.",
+    "example": "The journalist probed deeper into the government's financial records.",
+    "category": "Analytical",
+    "subCategory": "Analytical"
+  },
+  {
+    "word": "reasoning",
+    "meaning": "The action of thinking about something in a logical, sensible way.",
+    "pronunciation": "",
+    "definition": "",
+    "example": "Sound reasoning is the foundation of any persuasive argument.",
+    "category": "Analytical",
+    "subCategory": "Analytical"
+  },
+  {
+    "word": "reconcile",
+    "meaning": "To bring opposing ideas or evidence into agreement or consistency.",
+    "pronunciation": "",
+    "definition": "To bring opposing ideas or evidence into agreement or consistency.",
+    "example": "The researcher tried to reconcile contradictory findings from two studies.",
+    "category": "Analytical",
+    "subCategory": "Analytical"
+  },
+  {
+    "word": "speculate",
+    "meaning": "To form a theory or opinion without firm evidence.",
+    "pronunciation": "",
+    "definition": "To form a theory or conjecture about a subject without firm evidence (replaces the conversational 'guess' or 'wonder').",
+    "example": "Without further data, we can only speculate about the cause.",
+    "category": "Analytical",
+    "subCategory": "Analytical"
+  },
+  {
+    "word": "synthesize",
+    "meaning": "To combine different ideas, information, or arguments into a coherent whole.",
+    "pronunciation": "",
+    "definition": "To combine elements from different sources into a coherent whole.",
+    "example": "Good academic writing synthesizes multiple sources into a unified argument.",
+    "category": "Analytical",
+    "subCategory": "Analytical"
+  },
+  {
+    "word": "unpack",
+    "meaning": "To explain or analyze the layers of meaning in a complex idea or argument.",
+    "pronunciation": "",
+    "definition": "To explain or analyze the layers of meaning in a complex idea or argument.",
+    "example": "Let us unpack the assumptions embedded in this argument.",
+    "category": "Analytical",
+    "subCategory": "Analytical"
   }
 ]

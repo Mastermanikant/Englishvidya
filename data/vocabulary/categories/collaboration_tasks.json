@@ -1,122 +1,173 @@
-﻿[
-    {
-        "word":  "Assign",
-        "meaning":  "To give someone responsibility for a task or project.",
-        "example":  "The manager will assign the research task to the marketing team.",
-        "category":  "Collaboration \u0026 Tasks"
-    },
-    {
-        "word":  "Project Board",
-        "meaning":  "A visual tool used to organize and track tasks in a project.",
-        "example":  "Please check the project board to see which tasks are still pending.",
-        "category":  "Collaboration \u0026 Tasks"
-    },
-    {
-        "word":  "Ticket",
-        "meaning":  "A digital record used to track a specific request, task, or bug report.",
-        "example":  "I submitted a support ticket to get my password reset.",
-        "category":  "Collaboration \u0026 Tasks"
-    },
-    {
-        "word":  "Backlog",
-        "meaning":  "A list of future tasks or project requirements that are waiting to be done.",
-        "example":  "We put the new feature request into the project backlog for next month.",
-        "category":  "Collaboration \u0026 Tasks"
-    },
-    {
-        "word":  "Sprint",
-        "meaning":  "A short, set period of time (typically two weeks) to complete specific tasks.",
-        "example":  "We have several high-priority tasks to deliver in this sprint.",
-        "category":  "Collaboration \u0026 Tasks"
-    },
-    {
-        "word":  "Blocked",
-        "meaning":  "Unable to make progress on a task due to waiting for someone or something else.",
-        "example":  "I am blocked on writing the report because I don\u0027t have the final numbers.",
-        "category":  "Collaboration \u0026 Tasks"
-    },
-    {
-        "word":  "Unblock",
-        "meaning":  "To remove an obstacle so that progress on a task can continue.",
-        "example":  "Thank you for sending the data; that unblocks my analysis task.",
-        "category":  "Collaboration \u0026 Tasks"
-    },
-    {
-        "word":  "Deliverable",
-        "meaning":  "A final product, document, or service that must be completed and handed over.",
-        "example":  "The design prototype is our main deliverable for this week.",
-        "category":  "Collaboration \u0026 Tasks"
-    },
-    {
-        "word":  "Action Item",
-        "meaning":  "A specific task assigned to an individual during a meeting to be completed later.",
-        "example":  "Our team has three action items to complete before the next review.",
-        "category":  "Collaboration \u0026 Tasks"
-    },
-    {
-        "word":  "Milestone",
-        "meaning":  "An important event or key stage in the progress of a project.",
-        "example":  "Releasing the beta version was a major milestone for our team.",
-        "category":  "Collaboration \u0026 Tasks"
-    },
-    {
-        "word":  "Workflow",
-        "meaning":  "The sequence of steps a task goes through from start to finish.",
-        "example":  "We need to define a clear workflow for review and approval of content.",
-        "category":  "Collaboration \u0026 Tasks"
-    },
-    {
-        "word":  "Handover",
-        "meaning":  "Passing responsibility for a project or task to another person.",
-        "example":  "I completed the handover process before leaving for my vacation.",
-        "category":  "Collaboration \u0026 Tasks"
-    },
-    {
-        "word":  "Standup",
-        "meaning":  "A quick, daily meeting where team members share progress and issues.",
-        "example":  "In our morning standup, I reported that my code changes are complete.",
-        "category":  "Collaboration \u0026 Tasks"
-    },
-    {
-        "word":  "Sync Up",
-        "meaning":  "To meet or talk to ensure everyone has the same information and goals.",
-        "example":  "Let\u0027s sync up tomorrow morning to align our project plans.",
-        "category":  "Collaboration \u0026 Tasks"
-    },
-    {
-        "word":  "Check-In",
-        "meaning":  "A brief meeting or message to verify progress or see how someone is doing.",
-        "example":  "I will do a quick check-in with the client to share our progress.",
-        "category":  "Collaboration \u0026 Tasks"
-    },
-    {
-        "word":  "Due Date",
-        "meaning":  "The date or time by which a task must be completed.",
-        "example":  "The due date for submitting the draft proposal is this Friday.",
-        "category":  "Collaboration \u0026 Tasks"
-    },
-    {
-        "word":  "In Progress",
-        "meaning":  "Currently being worked on and not yet finished.",
-        "example":  "The website redesign is currently in progress and looking great.",
-        "category":  "Collaboration \u0026 Tasks"
-    },
-    {
-        "word":  "Co-Author",
-        "meaning":  "To write or create a document together with one or more people.",
-        "example":  "We will co-author the guide on a shared cloud document.",
-        "category":  "Collaboration \u0026 Tasks"
-    },
-    {
-        "word":  "Task Owner",
-        "meaning":  "The person who is responsible for ensuring a task is finished.",
-        "example":  "As the task owner, you must update the status on the board.",
-        "category":  "Collaboration \u0026 Tasks"
-    },
-    {
-        "word":  "Timeline",
-        "meaning":  "A schedule showing when tasks in a project are planned to happen.",
-        "example":  "The project timeline shows we have three weeks left before the launch.",
-        "category":  "Collaboration \u0026 Tasks"
-    }
+[
+  {
+    "word": "Action Item",
+    "meaning": "A specific task assigned to an individual during a meeting to be completed later.",
+    "pronunciation": "",
+    "definition": "A documented event, task, activity, or action that needs to take place.",
+    "example": "Our team has three action items to complete before the next review.",
+    "category": "Collaboration & Tasks",
+    "subCategory": "Collaboration & Tasks"
+  },
+  {
+    "word": "Assign",
+    "meaning": "To give someone responsibility for a task or project.",
+    "pronunciation": "",
+    "definition": "To give someone responsibility for a task or project.",
+    "example": "The manager will assign the research task to the marketing team.",
+    "category": "Collaboration & Tasks",
+    "subCategory": "Collaboration & Tasks"
+  },
+  {
+    "word": "Backlog",
+    "meaning": "A list of future tasks or project requirements that are waiting to be done.",
+    "pronunciation": "",
+    "definition": "A list of future tasks or project requirements that are waiting to be done.",
+    "example": "We put the new feature request into the project backlog for next month.",
+    "category": "Collaboration & Tasks",
+    "subCategory": "Collaboration & Tasks"
+  },
+  {
+    "word": "Blocked",
+    "meaning": "Unable to make progress on a task due to waiting for someone or something else.",
+    "pronunciation": "",
+    "definition": "Unable to make progress on a task due to waiting for someone or something else.",
+    "example": "I am blocked on writing the report because I don't have the final numbers.",
+    "category": "Collaboration & Tasks",
+    "subCategory": "Collaboration & Tasks"
+  },
+  {
+    "word": "Co-Author",
+    "meaning": "To write or create a document together with one or more people.",
+    "pronunciation": "",
+    "definition": "To write or create a document together with one or more people.",
+    "example": "We will co-author the guide on a shared cloud document.",
+    "category": "Collaboration & Tasks",
+    "subCategory": "Collaboration & Tasks"
+  },
+  {
+    "word": "Deliverable",
+    "meaning": "A final product, document, or service that must be completed and handed over.",
+    "pronunciation": "",
+    "definition": "A thing able to be provided, especially a product of a development process.",
+    "example": "The design prototype is our main deliverable for this week.",
+    "category": "Collaboration & Tasks",
+    "subCategory": "Collaboration & Tasks"
+  },
+  {
+    "word": "Due Date",
+    "meaning": "The date or time by which a task must be completed.",
+    "pronunciation": "",
+    "definition": "The date or time by which a task must be completed.",
+    "example": "The due date for submitting the draft proposal is this Friday.",
+    "category": "Collaboration & Tasks",
+    "subCategory": "Collaboration & Tasks"
+  },
+  {
+    "word": "Handover",
+    "meaning": "Passing responsibility for a project or task to another person.",
+    "pronunciation": "",
+    "definition": "Passing responsibility for a project or task to another person.",
+    "example": "I completed the handover process before leaving for my vacation.",
+    "category": "Collaboration & Tasks",
+    "subCategory": "Collaboration & Tasks"
+  },
+  {
+    "word": "In Progress",
+    "meaning": "Currently being worked on and not yet finished.",
+    "pronunciation": "",
+    "definition": "Currently being worked on and not yet finished.",
+    "example": "The website redesign is currently in progress and looking great.",
+    "category": "Collaboration & Tasks",
+    "subCategory": "Collaboration & Tasks"
+  },
+  {
+    "word": "Milestone",
+    "meaning": "An important event or key stage in the progress of a project.",
+    "pronunciation": "",
+    "definition": "A significant point in development, like reaching 1M subscribers.",
+    "example": "Releasing the beta version was a major milestone for our team.",
+    "category": "Collaboration & Tasks",
+    "subCategory": "Collaboration & Tasks"
+  },
+  {
+    "word": "Project Board",
+    "meaning": "A visual tool used to organize and track tasks in a project.",
+    "pronunciation": "",
+    "definition": "A visual tool used to organize and track tasks in a project.",
+    "example": "Please check the project board to see which tasks are still pending.",
+    "category": "Collaboration & Tasks",
+    "subCategory": "Collaboration & Tasks"
+  },
+  {
+    "word": "Sprint",
+    "meaning": "A short, set period of time (typically two weeks) to complete specific tasks.",
+    "pronunciation": "",
+    "definition": "A set, short time-box wherein a specific work has to be completed and made ready for review.",
+    "example": "We have several high-priority tasks to deliver in this sprint.",
+    "category": "Collaboration & Tasks",
+    "subCategory": "Collaboration & Tasks"
+  },
+  {
+    "word": "Standup",
+    "meaning": "A quick, daily meeting where team members share progress and issues.",
+    "pronunciation": "",
+    "definition": "A daily short meeting to discuss status.",
+    "example": "In our morning standup, I reported that my code changes are complete.",
+    "category": "Collaboration & Tasks",
+    "subCategory": "Collaboration & Tasks"
+  },
+  {
+    "word": "Sync Up",
+    "meaning": "To meet or talk to ensure everyone has the same information and goals.",
+    "pronunciation": "",
+    "definition": "To meet or talk to ensure everyone has the same information and goals.",
+    "example": "Let's sync up tomorrow morning to align our project plans.",
+    "category": "Collaboration & Tasks",
+    "subCategory": "Collaboration & Tasks"
+  },
+  {
+    "word": "Task Owner",
+    "meaning": "The person who is responsible for ensuring a task is finished.",
+    "pronunciation": "",
+    "definition": "The person who is responsible for ensuring a task is finished.",
+    "example": "As the task owner, you must update the status on the board.",
+    "category": "Collaboration & Tasks",
+    "subCategory": "Collaboration & Tasks"
+  },
+  {
+    "word": "Ticket",
+    "meaning": "A digital record used to track a specific request, task, or bug report.",
+    "pronunciation": "",
+    "definition": "A digital record used to track a specific request, task, or bug report.",
+    "example": "I submitted a support ticket to get my password reset.",
+    "category": "Collaboration & Tasks",
+    "subCategory": "Collaboration & Tasks"
+  },
+  {
+    "word": "Timeline",
+    "meaning": "A schedule showing when tasks in a project are planned to happen.",
+    "pronunciation": "",
+    "definition": "A schedule showing when tasks in a project are planned to happen.",
+    "example": "The project timeline shows we have three weeks left before the launch.",
+    "category": "Collaboration & Tasks",
+    "subCategory": "Collaboration & Tasks"
+  },
+  {
+    "word": "Unblock",
+    "meaning": "To remove an obstacle so that progress on a task can continue.",
+    "pronunciation": "",
+    "definition": "To remove an obstacle so that progress on a task can continue.",
+    "example": "Thank you for sending the data; that unblocks my analysis task.",
+    "category": "Collaboration & Tasks",
+    "subCategory": "Collaboration & Tasks"
+  },
+  {
+    "word": "Workflow",
+    "meaning": "The sequence of steps a task goes through from start to finish.",
+    "pronunciation": "",
+    "definition": "The sequence of steps a task goes through from start to finish.",
+    "example": "We need to define a clear workflow for review and approval of content.",
+    "category": "Collaboration & Tasks",
+    "subCategory": "Collaboration & Tasks"
+  }
 ]

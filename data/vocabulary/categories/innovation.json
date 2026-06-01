@@ -1,1 +1,263 @@
-﻿[{"word":"innovation","meaning":"The introduction of new ideas, methods, products, or processes that create value or improve outcomes.","example":"Their innovation in battery technology made electric vehicles more affordable for everyday consumers.","category":"Innovation"},{"word":"disruptive innovation","meaning":"An innovation that transforms an existing market by introducing simplicity, accessibility, or lower cost.","example":"Streaming services were a disruptive innovation that overturned the traditional cable TV industry.","category":"Innovation"},{"word":"incremental innovation","meaning":"Small, gradual improvements made to an existing product, process, or service over time.","example":"Each software update represented an incremental innovation that enhanced user experience bit by bit.","category":"Innovation"},{"word":"ideation","meaning":"The creative process of generating, developing, and communicating new ideas.","example":"The ideation phase of the design sprint produced a dozen potential solutions in just two hours.","category":"Innovation"},{"word":"prototyping","meaning":"Creating a preliminary model or version of a product to test concepts and gather feedback.","example":"Rapid prototyping allowed the design team to get user reactions before committing to full development.","category":"Innovation"},{"word":"design thinking","meaning":"A human-centered problem-solving approach that emphasizes empathy, ideation, and iterative testing.","example":"Design thinking reshaped the hospital\u0027s patient intake process by centering the patient experience.","category":"Innovation"},{"word":"experimentation","meaning":"The practice of testing new ideas or hypotheses through structured trials to discover what works.","example":"A culture of experimentation enabled the company to launch and learn from small bets quickly.","category":"Innovation"},{"word":"creative synthesis","meaning":"Combining diverse ideas, concepts, or disciplines to produce a new and original solution.","example":"Creative synthesis of biology and robotics led to breakthroughs in prosthetic limb design.","category":"Innovation"},{"word":"cross-pollination","meaning":"Applying ideas or practices from one field to spark innovation in another, unrelated field.","example":"Cross-pollination between jazz improvisation and agile development inspired a new project management style.","category":"Innovation"},{"word":"first-principles thinking","meaning":"Breaking down problems to their fundamental truths and reasoning up from there, ignoring assumptions.","example":"Using first-principles thinking, they redesigned the logistics model from scratch instead of patching the old one.","category":"Innovation"},{"word":"moonshot thinking","meaning":"Setting ambitious, seemingly impossible goals that push the boundaries of what is considered achievable.","example":"Moonshot thinking drove the team to pursue carbon-neutral shipping instead of merely reducing emissions.","category":"Innovation"},{"word":"serendipitous discovery","meaning":"An unexpected and fortunate finding that arises during the course of another investigation or process.","example":"The scientist\u0027s serendipitous discovery of the compound\u0027s new property opened a whole new research avenue.","category":"Innovation"},{"word":"value proposition","meaning":"A clear statement of the unique benefit a product or service delivers to its customers.","example":"Their value proposition â€” same-day delivery at no extra cost â€” won over millions of loyal customers.","category":"Innovation"},{"word":"biomimicry","meaning":"Drawing inspiration from nature\u0027s designs and processes to solve human engineering or design challenges.","example":"Biomimicry of the shark\u0027s skin texture significantly reduced drag in high-speed swimsuit design.","category":"Innovation"},{"word":"open innovation","meaning":"A model that uses external as well as internal ideas and pathways to advance technology and products.","example":"Through open innovation, the company crowdsourced solutions from engineers worldwide.","category":"Innovation"},{"word":"scalability","meaning":"The ability of a system, product, or process to handle increasing demands without losing performance.","example":"The platform\u0027s scalability meant it handled ten million users as smoothly as ten thousand.","category":"Innovation"},{"word":"rapid prototyping","meaning":"Quickly creating functional test versions of a product to accelerate learning and iteration cycles.","example":"Rapid prototyping cut development time in half by catching design flaws in the earliest stages.","category":"Innovation"},{"word":"futures thinking","meaning":"A disciplined approach to exploring plausible, possible, and preferable future scenarios to inform present decisions.","example":"Futures thinking helped the policy team anticipate the societal impact of widespread AI automation.","category":"Innovation"},{"word":"empathy mapping","meaning":"A tool used to gain deeper insight into a user\u0027s or stakeholder\u0027s thoughts, feelings, and motivations.","example":"Empathy mapping helped the product team redesign the onboarding experience to feel more human.","category":"Innovation"},{"word":"intellectual curiosity","meaning":"A strong, innate desire to learn, explore, and understand new ideas, questions, and phenomena.","example":"Her intellectual curiosity drove her to read across disciplines, which made her thinking unusually original.","category":"Innovation"},{"word":"minimum viable product (MVP)","meaning":"A stripped-down version of a product with just enough features to test its core value with real users.","example":"Launching an MVP allowed the team to validate customer interest before investing in the full build.","category":"Innovation"},{"word":"emergent thinking","meaning":"Reasoning that allows solutions or ideas to arise organically from interaction and exploration, rather than being predefined.","example":"The team\u0027s emergent thinking during the hackathon produced a solution no one had originally envisioned.","category":"Innovation"},{"word":"co-creation","meaning":"A collaborative process in which stakeholders jointly develop ideas, products, or solutions together.","example":"Co-creation sessions with end users led to a feature set that far exceeded what the team had imagined alone.","category":"Innovation"},{"word":"horizon of possibilities","meaning":"The full range of potential future options, outcomes, or paths available in a given situation.","example":"Creative workshops expanded the team\u0027s horizon of possibilities beyond their usual technical solutions.","category":"Innovation"},{"word":"knowledge synthesis","meaning":"Integrating information from multiple sources or disciplines to form new, deeper understanding.","example":"Knowledge synthesis from biology, AI, and ethics shaped a more robust policy on autonomous systems.","category":"Innovation"},{"word":"entrepreneurial mindset","meaning":"A way of thinking that embraces opportunity, risk, initiative, and resourcefulness in any context.","example":"An entrepreneurial mindset led the employee to propose a new revenue stream the company had overlooked.","category":"Innovation"},{"word":"bold hypothesis","meaning":"A courageous, ambitious, and often counterintuitive assumption proposed as a starting point for exploration.","example":"Their bold hypothesis that consumers would pay more for simplicity overturned conventional pricing wisdom.","category":"Innovation"},{"word":"paradigm shift","meaning":"A fundamental change in the underlying assumptions or framework that defines how people understand a field.","example":"The internet caused a paradigm shift in how businesses interact with and sell to customers.","category":"Innovation"},{"word":"innovation pipeline","meaning":"A structured framework that guides ideas from conception through development, testing, and eventual launch.","example":"A healthy innovation pipeline ensures that the company always has next-generation solutions in development.","category":"Innovation"},{"word":"transformative potential","meaning":"The latent capacity of an idea, technology, or action to fundamentally change a system or context.","example":"Investors quickly recognized the transformative potential of the AI platform for the healthcare sector.","category":"Innovation"},{"word":"contrarian thinking","meaning":"Deliberately questioning and challenging widely accepted views or conventional wisdom to find hidden opportunities.","example":"His contrarian thinking led him to invest in a sector everyone else had written off â€” and it paid off.","category":"Innovation"}]
+[
+  {
+    "word": "biomimicry",
+    "meaning": "Drawing inspiration from nature's designs and processes to solve human engineering or design challenges.",
+    "pronunciation": "",
+    "definition": "Drawing inspiration from nature's designs and processes to solve human engineering or design challenges.",
+    "example": "Biomimicry of the shark's skin texture significantly reduced drag in high-speed swimsuit design.",
+    "category": "Innovation",
+    "subCategory": "Innovation"
+  },
+  {
+    "word": "bold hypothesis",
+    "meaning": "A courageous, ambitious, and often counterintuitive assumption proposed as a starting point for exploration.",
+    "pronunciation": "",
+    "definition": "A courageous, ambitious, and often counterintuitive assumption proposed as a starting point for exploration.",
+    "example": "Their bold hypothesis that consumers would pay more for simplicity overturned conventional pricing wisdom.",
+    "category": "Innovation",
+    "subCategory": "Innovation"
+  },
+  {
+    "word": "co-creation",
+    "meaning": "A collaborative process in which stakeholders jointly develop ideas, products, or solutions together.",
+    "pronunciation": "",
+    "definition": "A collaborative process in which stakeholders jointly develop ideas, products, or solutions together.",
+    "example": "Co-creation sessions with end users led to a feature set that far exceeded what the team had imagined alone.",
+    "category": "Innovation",
+    "subCategory": "Innovation"
+  },
+  {
+    "word": "contrarian thinking",
+    "meaning": "Deliberately questioning and challenging widely accepted views or conventional wisdom to find hidden opportunities.",
+    "pronunciation": "",
+    "definition": "Deliberately questioning and challenging widely accepted views or conventional wisdom to find hidden opportunities.",
+    "example": "His contrarian thinking led him to invest in a sector everyone else had written off â€” and it paid off.",
+    "category": "Innovation",
+    "subCategory": "Innovation"
+  },
+  {
+    "word": "creative synthesis",
+    "meaning": "Combining diverse ideas, concepts, or disciplines to produce a new and original solution.",
+    "pronunciation": "",
+    "definition": "Combining diverse ideas, concepts, or disciplines to produce a new and original solution.",
+    "example": "Creative synthesis of biology and robotics led to breakthroughs in prosthetic limb design.",
+    "category": "Innovation",
+    "subCategory": "Innovation"
+  },
+  {
+    "word": "cross-pollination",
+    "meaning": "Applying ideas or practices from one field to spark innovation in another, unrelated field.",
+    "pronunciation": "",
+    "definition": "Applying ideas or practices from one field to spark innovation in another, unrelated field.",
+    "example": "Cross-pollination between jazz improvisation and agile development inspired a new project management style.",
+    "category": "Innovation",
+    "subCategory": "Innovation"
+  },
+  {
+    "word": "design thinking",
+    "meaning": "A human-centered problem-solving approach that emphasizes empathy, ideation, and iterative testing.",
+    "pronunciation": "",
+    "definition": "A human-centered problem-solving approach that emphasizes empathy, ideation, and iterative testing.",
+    "example": "Design thinking reshaped the hospital's patient intake process by centering the patient experience.",
+    "category": "Innovation",
+    "subCategory": "Innovation"
+  },
+  {
+    "word": "disruptive innovation",
+    "meaning": "An innovation that transforms an existing market by introducing simplicity, accessibility, or lower cost.",
+    "pronunciation": "",
+    "definition": "An innovation that transforms an existing market by introducing simplicity, accessibility, or lower cost.",
+    "example": "Streaming services were a disruptive innovation that overturned the traditional cable TV industry.",
+    "category": "Innovation",
+    "subCategory": "Innovation"
+  },
+  {
+    "word": "emergent thinking",
+    "meaning": "Reasoning that allows solutions or ideas to arise organically from interaction and exploration, rather than being predefined.",
+    "pronunciation": "",
+    "definition": "Reasoning that allows solutions or ideas to arise organically from interaction and exploration, rather than being predefined.",
+    "example": "The team's emergent thinking during the hackathon produced a solution no one had originally envisioned.",
+    "category": "Innovation",
+    "subCategory": "Innovation"
+  },
+  {
+    "word": "empathy mapping",
+    "meaning": "A tool used to gain deeper insight into a user's or stakeholder's thoughts, feelings, and motivations.",
+    "pronunciation": "",
+    "definition": "A tool used to gain deeper insight into a user's or stakeholder's thoughts, feelings, and motivations.",
+    "example": "Empathy mapping helped the product team redesign the onboarding experience to feel more human.",
+    "category": "Innovation",
+    "subCategory": "Innovation"
+  },
+  {
+    "word": "entrepreneurial mindset",
+    "meaning": "A way of thinking that embraces opportunity, risk, initiative, and resourcefulness in any context.",
+    "pronunciation": "",
+    "definition": "A way of thinking that embraces opportunity, risk, initiative, and resourcefulness in any context.",
+    "example": "An entrepreneurial mindset led the employee to propose a new revenue stream the company had overlooked.",
+    "category": "Innovation",
+    "subCategory": "Innovation"
+  },
+  {
+    "word": "experimentation",
+    "meaning": "The practice of testing new ideas or hypotheses through structured trials to discover what works.",
+    "pronunciation": "",
+    "definition": "The practice of testing new ideas or hypotheses through structured trials to discover what works.",
+    "example": "A culture of experimentation enabled the company to launch and learn from small bets quickly.",
+    "category": "Innovation",
+    "subCategory": "Innovation"
+  },
+  {
+    "word": "first-principles thinking",
+    "meaning": "Breaking down problems to their fundamental truths and reasoning up from there, ignoring assumptions.",
+    "pronunciation": "",
+    "definition": "Breaking down problems to their fundamental truths and reasoning up from there, ignoring assumptions.",
+    "example": "Using first-principles thinking, they redesigned the logistics model from scratch instead of patching the old one.",
+    "category": "Innovation",
+    "subCategory": "Innovation"
+  },
+  {
+    "word": "futures thinking",
+    "meaning": "A disciplined approach to exploring plausible, possible, and preferable future scenarios to inform present decisions.",
+    "pronunciation": "",
+    "definition": "A disciplined approach to exploring plausible, possible, and preferable future scenarios to inform present decisions.",
+    "example": "Futures thinking helped the policy team anticipate the societal impact of widespread AI automation.",
+    "category": "Innovation",
+    "subCategory": "Innovation"
+  },
+  {
+    "word": "horizon of possibilities",
+    "meaning": "The full range of potential future options, outcomes, or paths available in a given situation.",
+    "pronunciation": "",
+    "definition": "The full range of potential future options, outcomes, or paths available in a given situation.",
+    "example": "Creative workshops expanded the team's horizon of possibilities beyond their usual technical solutions.",
+    "category": "Innovation",
+    "subCategory": "Innovation"
+  },
+  {
+    "word": "ideation",
+    "meaning": "The creative process of generating, developing, and communicating new ideas.",
+    "pronunciation": "",
+    "definition": "The creative process of generating, developing, and communicating new ideas.",
+    "example": "The ideation phase of the design sprint produced a dozen potential solutions in just two hours.",
+    "category": "Innovation",
+    "subCategory": "Innovation"
+  },
+  {
+    "word": "incremental innovation",
+    "meaning": "Small, gradual improvements made to an existing product, process, or service over time.",
+    "pronunciation": "",
+    "definition": "Small, gradual improvements made to an existing product, process, or service over time.",
+    "example": "Each software update represented an incremental innovation that enhanced user experience bit by bit.",
+    "category": "Innovation",
+    "subCategory": "Innovation"
+  },
+  {
+    "word": "innovation",
+    "meaning": "The introduction of new ideas, methods, products, or processes that create value or improve outcomes.",
+    "pronunciation": "",
+    "definition": "à¤¨à¤µà¤¾à¤šà¤¾à¤°",
+    "example": "Their innovation in battery technology made electric vehicles more affordable for everyday consumers.",
+    "category": "Innovation",
+    "subCategory": "Innovation"
+  },
+  {
+    "word": "innovation pipeline",
+    "meaning": "A structured framework that guides ideas from conception through development, testing, and eventual launch.",
+    "pronunciation": "",
+    "definition": "A structured framework that guides ideas from conception through development, testing, and eventual launch.",
+    "example": "A healthy innovation pipeline ensures that the company always has next-generation solutions in development.",
+    "category": "Innovation",
+    "subCategory": "Innovation"
+  },
+  {
+    "word": "knowledge synthesis",
+    "meaning": "Integrating information from multiple sources or disciplines to form new, deeper understanding.",
+    "pronunciation": "",
+    "definition": "Integrating information from multiple sources or disciplines to form new, deeper understanding.",
+    "example": "Knowledge synthesis from biology, AI, and ethics shaped a more robust policy on autonomous systems.",
+    "category": "Innovation",
+    "subCategory": "Innovation"
+  },
+  {
+    "word": "minimum viable product (MVP)",
+    "meaning": "A stripped-down version of a product with just enough features to test its core value with real users.",
+    "pronunciation": "",
+    "definition": "A stripped-down version of a product with just enough features to test its core value with real users.",
+    "example": "Launching an MVP allowed the team to validate customer interest before investing in the full build.",
+    "category": "Innovation",
+    "subCategory": "Innovation"
+  },
+  {
+    "word": "moonshot thinking",
+    "meaning": "Setting ambitious, seemingly impossible goals that push the boundaries of what is considered achievable.",
+    "pronunciation": "",
+    "definition": "Setting ambitious, seemingly impossible goals that push the boundaries of what is considered achievable.",
+    "example": "Moonshot thinking drove the team to pursue carbon-neutral shipping instead of merely reducing emissions.",
+    "category": "Innovation",
+    "subCategory": "Innovation"
+  },
+  {
+    "word": "open innovation",
+    "meaning": "A model that uses external as well as internal ideas and pathways to advance technology and products.",
+    "pronunciation": "",
+    "definition": "A model that uses external as well as internal ideas and pathways to advance technology and products.",
+    "example": "Through open innovation, the company crowdsourced solutions from engineers worldwide.",
+    "category": "Innovation",
+    "subCategory": "Innovation"
+  },
+  {
+    "word": "paradigm shift",
+    "meaning": "A fundamental change in the underlying assumptions or framework that defines how people understand a field.",
+    "pronunciation": "",
+    "definition": "A fundamental change in the underlying assumptions or framework that defines how people understand a field.",
+    "example": "The internet caused a paradigm shift in how businesses interact with and sell to customers.",
+    "category": "Innovation",
+    "subCategory": "Innovation"
+  },
+  {
+    "word": "prototyping",
+    "meaning": "Creating a preliminary model or version of a product to test concepts and gather feedback.",
+    "pronunciation": "",
+    "definition": "Creating a preliminary model or version of a product to test concepts and gather feedback.",
+    "example": "Rapid prototyping allowed the design team to get user reactions before committing to full development.",
+    "category": "Innovation",
+    "subCategory": "Innovation"
+  },
+  {
+    "word": "rapid prototyping",
+    "meaning": "Quickly creating functional test versions of a product to accelerate learning and iteration cycles.",
+    "pronunciation": "",
+    "definition": "Quickly creating functional test versions of a product to accelerate learning and iteration cycles.",
+    "example": "Rapid prototyping cut development time in half by catching design flaws in the earliest stages.",
+    "category": "Innovation",
+    "subCategory": "Innovation"
+  },
+  {
+    "word": "scalability",
+    "meaning": "The ability of a system, product, or process to handle increasing demands without losing performance.",
+    "pronunciation": "",
+    "definition": "à¤®à¤¾à¤ªà¤¨à¥€à¤¯à¤¤à¤¾ (à¤¬à¤¢à¤¼à¤¨à¥‡ à¤•à¥€ à¤•à¥à¤·à¤®à¤¤à¤¾)",
+    "example": "The platform's scalability meant it handled ten million users as smoothly as ten thousand.",
+    "category": "Innovation",
+    "subCategory": "Innovation"
+  },
+  {
+    "word": "serendipitous discovery",
+    "meaning": "An unexpected and fortunate finding that arises during the course of another investigation or process.",
+    "pronunciation": "",
+    "definition": "An unexpected and fortunate finding that arises during the course of another investigation or process.",
+    "example": "The scientist's serendipitous discovery of the compound's new property opened a whole new research avenue.",
+    "category": "Innovation",
+    "subCategory": "Innovation"
+  },
+  {
+    "word": "transformative potential",
+    "meaning": "The latent capacity of an idea, technology, or action to fundamentally change a system or context.",
+    "pronunciation": "",
+    "definition": "The latent capacity of an idea, technology, or action to fundamentally change a system or context.",
+    "example": "Investors quickly recognized the transformative potential of the AI platform for the healthcare sector.",
+    "category": "Innovation",
+    "subCategory": "Innovation"
+  }
+]

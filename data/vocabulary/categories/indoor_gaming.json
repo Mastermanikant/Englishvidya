@@ -1,274 +1,371 @@
 [
   {
-    "word": "Console",
-    "meaning": "A special computer system designed specifically for playing video games on a television or screen.",
-    "example": "He bought the latest video game console on the day it was released.",
-    "category": "Indoor Gaming"
-  },
-  {
-    "word": "Controller",
-    "meaning": "A handheld device used to control characters or actions in a video game.",
-    "example": "Pass me the other controller so we can play together.",
-    "category": "Indoor Gaming"
-  },
-  {
-    "word": "Gameplay",
-    "meaning": "The specific way a video game is played, including its rules, activities, and experience.",
-    "example": "The graphics of this game are simple, but the gameplay is very fun and exciting.",
-    "category": "Indoor Gaming"
-  },
-  {
     "word": "Avatar",
     "meaning": "A digital character that represents a player in a virtual world or video game.",
+    "pronunciation": "",
+    "definition": "A digital character that represents a player in a virtual world or video game.",
     "example": "You can change the clothes and hairstyle of your avatar in the game.",
-    "category": "Indoor Gaming"
-  },
-  {
-    "word": "Level Up",
-    "meaning": "To reach a higher stage or level in a video game by earning points or completing tasks.",
-    "example": "You need to defeat this monster to level up and get new abilities.",
-    "category": "Indoor Gaming"
-  },
-  {
-    "word": "Quest",
-    "meaning": "A mission or task that a player must complete in a game to earn rewards.",
-    "example": "The main quest of the game is to find the hidden treasure and save the town.",
-    "category": "Indoor Gaming"
-  },
-  {
-    "word": "Multiplayer",
-    "meaning": "A video game designed for more than one person to play at the same time.",
-    "example": "We played a multiplayer game online with friends from different countries.",
-    "category": "Indoor Gaming"
-  },
-  {
-    "word": "Single-Player",
-    "meaning": "A video game designed to be played by only one person at a time.",
-    "example": "I prefer single-player games because I can enjoy the story at my own pace.",
-    "category": "Indoor Gaming"
-  },
-  {
-    "word": "Respawn",
-    "meaning": "To appear back in the game after your character dies or is defeated.",
-    "example": "When you die in this game, you respawn at the nearest campfire.",
-    "category": "Indoor Gaming"
-  },
-  {
-    "word": "Buff",
-    "meaning": "A temporary increase in a character's power, speed, or abilities in a video game.",
-    "example": "The magic potion gave my character a temporary speed buff.",
-    "category": "Indoor Gaming"
-  },
-  {
-    "word": "Nerf",
-    "meaning": "To make a character, weapon, or ability weaker in a video game update to keep the game fair.",
-    "example": "The game developers decided to nerf the sword because it was too powerful.",
-    "category": "Indoor Gaming"
-  },
-  {
-    "word": "Cooldown",
-    "meaning": "The minimum time a player must wait before using an ability or weapon again in a game.",
-    "example": "I couldn't use my healing spell because it was still on cooldown.",
-    "category": "Indoor Gaming"
-  },
-  {
-    "word": "Campaign",
-    "meaning": "The main story mode of a video game, divided into different levels or missions.",
-    "example": "It took me twenty hours of gameplay to complete the game's campaign.",
-    "category": "Indoor Gaming"
-  },
-  {
-    "word": "Sandbox",
-    "meaning": "A type of video game that gives players a lot of freedom to create, build, or explore without strict goals.",
-    "example": "Minecraft is a famous sandbox game where you can build anything you want.",
-    "category": "Indoor Gaming"
-  },
-  {
-    "word": "Simulation",
-    "meaning": "A video game that tries to copy real-life activities, like driving a plane or managing a city.",
-    "example": "He bought a flight simulation game to practice landing airplanes.",
-    "category": "Indoor Gaming"
-  },
-  {
-    "word": "Speedrun",
-    "meaning": "The act of completing a video game as fast as possible.",
-    "example": "He watched a speedrun of his favorite childhood game on the internet.",
-    "category": "Indoor Gaming"
-  },
-  {
-    "word": "Loot",
-    "meaning": "Items, weapons, or money that players collect in a video game.",
-    "example": "Defeating the dragon allows players to collect rare and valuable loot.",
-    "category": "Indoor Gaming"
-  },
-  {
-    "word": "Microtransaction",
-    "meaning": "A small payment made online to buy virtual items or extra content within a video game.",
-    "example": "The game is free to download, but it contains many microtransactions for special outfits.",
-    "category": "Indoor Gaming"
-  },
-  {
-    "word": "Matchmaking",
-    "meaning": "An online system in video games that pairs players of similar skill levels to play together.",
-    "example": "The game's matchmaking system took three minutes to find an opponent for me.",
-    "category": "Indoor Gaming"
-  },
-  {
-    "word": "Non-Player Character",
-    "meaning": "A character in a video game that is controlled by the computer, not by a player (NPC).",
-    "example": "The non-player character in the shop gave us a new quest.",
-    "category": "Indoor Gaming"
-  },
-  {
-    "word": "Glitch",
-    "meaning": "A small, temporary programming error or bug in a video game.",
-    "example": "A strange glitch made my character float in the air for a few seconds.",
-    "category": "Indoor Gaming"
-  },
-  {
-    "word": "High Score",
-    "meaning": "The highest points ever recorded in a particular game.",
-    "example": "She was proud to see her name at the top of the high score board.",
-    "category": "Indoor Gaming"
-  },
-  {
-    "word": "Esports",
-    "meaning": "Organized, competitive video gaming events where professional players compete against each other.",
-    "example": "Esports tournaments now attract millions of viewers worldwide.",
-    "category": "Indoor Gaming"
-  },
-  {
-    "word": "Lag",
-    "meaning": "A delay or slow response in an online game, usually caused by a poor internet connection.",
-    "example": "I lost the match because severe lag made it impossible to control my character.",
-    "category": "Indoor Gaming"
-  },
-  {
-    "word": "Graphics",
-    "meaning": "The visual images and designs shown on the screen during a video game.",
-    "example": "Modern video games have incredibly realistic 3D graphics.",
-    "category": "Indoor Gaming"
-  },
-  {
-    "word": "Checkmate",
-    "meaning": "A winning position in chess where the opponent's king cannot escape capture.",
-    "example": "He won the game of chess by putting my king in checkmate.",
-    "category": "Indoor Gaming"
-  },
-  {
-    "word": "Chessboard",
-    "meaning": "A square board divided into 64 alternating black and white squares, used to play chess.",
-    "example": "Set up the pieces on the chessboard so we can start our game.",
-    "category": "Indoor Gaming"
-  },
-  {
-    "word": "Dice",
-    "meaning": "Small plastic cubes with dots representing numbers 1 to 6 on each side, used in games.",
-    "example": "You need to roll the dice to find out how many spaces your token can move.",
-    "category": "Indoor Gaming"
-  },
-  {
-    "word": "Board Game",
-    "meaning": "A game played on a marked board, usually involving pieces or cards.",
-    "example": "Playing a board game with family is a fun activity on a rainy evening.",
-    "category": "Indoor Gaming"
-  },
-  {
-    "word": "Strategy",
-    "meaning": "A careful plan of actions designed to achieve victory or a goal.",
-    "example": "You need a good strategy if you want to win this complex board game.",
-    "category": "Indoor Gaming"
-  },
-  {
-    "word": "Pawn",
-    "meaning": "The weakest and most common piece in the game of chess.",
-    "example": "He sacrificed a pawn to protect his queen.",
-    "category": "Indoor Gaming"
-  },
-  {
-    "word": "Card Deck",
-    "meaning": "A complete set of playing cards, usually consisting of 52 cards.",
-    "example": "He shuffled the card deck before dealing them to the players.",
-    "category": "Indoor Gaming"
+    "category": "Indoor Gaming",
+    "subCategory": "Indoor Gaming"
   },
   {
     "word": "Bluff",
     "meaning": "To trick or deceive opponents by pretending to have better cards or a stronger position than you actually do.",
+    "pronunciation": "",
+    "definition": "To trick or deceive opponents by pretending to have better cards or a stronger position than you actually do.",
     "example": "In poker, sometimes you have to bluff to win a round with weak cards.",
-    "category": "Indoor Gaming"
+    "category": "Indoor Gaming",
+    "subCategory": "Indoor Gaming"
   },
   {
-    "word": "Shuffle",
-    "meaning": "To mix a deck of cards thoroughly so their order is random before starting a game.",
-    "example": "Please shuffle the cards well before you hand them out.",
-    "category": "Indoor Gaming"
+    "word": "Board Game",
+    "meaning": "A game played on a marked board, usually involving pieces or cards.",
+    "pronunciation": "",
+    "definition": "A game played on a marked board, usually involving pieces or cards.",
+    "example": "Playing a board game with family is a fun activity on a rainy evening.",
+    "category": "Indoor Gaming",
+    "subCategory": "Indoor Gaming"
+  },
+  {
+    "word": "Buff",
+    "meaning": "A temporary increase in a character's power, speed, or abilities in a video game.",
+    "pronunciation": "",
+    "definition": "A temporary increase in a character's power, speed, or abilities in a video game.",
+    "example": "The magic potion gave my character a temporary speed buff.",
+    "category": "Indoor Gaming",
+    "subCategory": "Indoor Gaming"
+  },
+  {
+    "word": "Card Deck",
+    "meaning": "A complete set of playing cards, usually consisting of 52 cards.",
+    "pronunciation": "",
+    "definition": "A complete set of playing cards, usually consisting of 52 cards.",
+    "example": "He shuffled the card deck before dealing them to the players.",
+    "category": "Indoor Gaming",
+    "subCategory": "Indoor Gaming"
+  },
+  {
+    "word": "Checkmate",
+    "meaning": "A winning position in chess where the opponent's king cannot escape capture.",
+    "pronunciation": "",
+    "definition": "A winning position in chess where the opponent's king cannot escape capture.",
+    "example": "He won the game of chess by putting my king in checkmate.",
+    "category": "Indoor Gaming",
+    "subCategory": "Indoor Gaming"
+  },
+  {
+    "word": "Chessboard",
+    "meaning": "A square board divided into 64 alternating black and white squares, used to play chess.",
+    "pronunciation": "",
+    "definition": "A square board divided into 64 alternating black and white squares, used to play chess.",
+    "example": "Set up the pieces on the chessboard so we can start our game.",
+    "category": "Indoor Gaming",
+    "subCategory": "Indoor Gaming"
+  },
+  {
+    "word": "Console",
+    "meaning": "A special computer system designed specifically for playing video games on a television or screen.",
+    "pronunciation": "",
+    "definition": "",
+    "example": "He bought the latest video game console on the day it was released.",
+    "category": "Indoor Gaming",
+    "subCategory": "Indoor Gaming"
+  },
+  {
+    "word": "Controller",
+    "meaning": "A handheld device used to control characters or actions in a video game.",
+    "pronunciation": "",
+    "definition": "A handheld device used to control characters or actions in a video game.",
+    "example": "Pass me the other controller so we can play together.",
+    "category": "Indoor Gaming",
+    "subCategory": "Indoor Gaming"
+  },
+  {
+    "word": "Cooldown",
+    "meaning": "The minimum time a player must wait before using an ability or weapon again in a game.",
+    "pronunciation": "",
+    "definition": "The minimum time a player must wait before using an ability or weapon again in a game.",
+    "example": "I couldn't use my healing spell because it was still on cooldown.",
+    "category": "Indoor Gaming",
+    "subCategory": "Indoor Gaming"
   },
   {
     "word": "Dealer",
     "meaning": "The person who distributes the cards to the players in a card game.",
+    "pronunciation": "",
+    "definition": "The person who distributes the cards to the players in a card game.",
     "example": "The dealer handed five cards to each player at the table.",
-    "category": "Indoor Gaming"
+    "category": "Indoor Gaming",
+    "subCategory": "Indoor Gaming"
   },
   {
-    "word": "Turn-Based",
-    "meaning": "A game design where players take turns to make their moves one after the other.",
-    "example": "Monopoly is a turn-based game, so you must wait for your friend to finish before you play.",
-    "category": "Indoor Gaming"
-  },
-  {
-    "word": "Opponent",
-    "meaning": "A person who plays against you in a game or sport.",
-    "example": "He shook hands with his opponent before the tennis match started.",
-    "category": "Indoor Gaming"
-  },
-  {
-    "word": "Move",
-    "meaning": "An action of changing the position of a piece on a game board.",
-    "example": "That was a very clever move that captured my knight.",
-    "category": "Indoor Gaming"
-  },
-  {
-    "word": "Token",
-    "meaning": "A small object used to represent a player on a game board.",
-    "example": "I chose the little silver car as my token for the board game.",
-    "category": "Indoor Gaming"
-  },
-  {
-    "word": "Roll",
-    "meaning": "To throw dice onto a surface to get a random number.",
-    "example": "It is your turn to roll the dice and move your piece.",
-    "category": "Indoor Gaming"
-  },
-  {
-    "word": "Tile",
-    "meaning": "A small, flat piece used in games like Scrabble or Dominoes.",
-    "example": "She picked up seven letters tiles from the bag to start the game.",
-    "category": "Indoor Gaming"
-  },
-  {
-    "word": "Trivia",
-    "meaning": "A game or quiz testing players on facts and general knowledge.",
-    "example": "We won first prize at the local pub's weekly trivia night.",
-    "category": "Indoor Gaming"
-  },
-  {
-    "word": "Solitaire",
-    "meaning": "A card game that is played by a single person.",
-    "example": "He passed the time on the train by playing solitaire on his phone.",
-    "category": "Indoor Gaming"
+    "word": "Dice",
+    "meaning": "Small plastic cubes with dots representing numbers 1 to 6 on each side, used in games.",
+    "pronunciation": "",
+    "definition": "Small plastic cubes with dots representing numbers 1 to 6 on each side, used in games.",
+    "example": "You need to roll the dice to find out how many spaces your token can move.",
+    "category": "Indoor Gaming",
+    "subCategory": "Indoor Gaming"
   },
   {
     "word": "Draw Pile",
     "meaning": "The stack of cards face down from which players take cards during a game.",
+    "pronunciation": "",
+    "definition": "The stack of cards face down from which players take cards during a game.",
     "example": "If you do not have any playable cards, you must draw one from the draw pile.",
-    "category": "Indoor Gaming"
+    "category": "Indoor Gaming",
+    "subCategory": "Indoor Gaming"
+  },
+  {
+    "word": "Esports",
+    "meaning": "Organized, competitive video gaming events where professional players compete against each other.",
+    "pronunciation": "",
+    "definition": "Organized, competitive video gaming events where professional players compete against each other.",
+    "example": "Esports tournaments now attract millions of viewers worldwide.",
+    "category": "Indoor Gaming",
+    "subCategory": "Indoor Gaming"
+  },
+  {
+    "word": "Gameplay",
+    "meaning": "The specific way a video game is played, including its rules, activities, and experience.",
+    "pronunciation": "",
+    "definition": "The specific way a video game is played, including its rules, activities, and experience.",
+    "example": "The graphics of this game are simple, but the gameplay is very fun and exciting.",
+    "category": "Indoor Gaming",
+    "subCategory": "Indoor Gaming"
   },
   {
     "word": "Hand",
-    "meaning": "The set of cards that a player holds in their hand during a game.",
+    "meaning": "हाथ",
+    "pronunciation": "/h?nd/",
+    "definition": "The end part of the arm, containing fingers and a thumb, used for holding things.",
     "example": "She had a very strong hand with two aces and a king.",
     "category": "Indoor Gaming",
-    "meaning_hi": "???",
-    "pronunciation": "/h?nd/"
+    "subCategory": "Indoor Gaming"
+  },
+  {
+    "word": "High Score",
+    "meaning": "The highest points ever recorded in a particular game.",
+    "pronunciation": "",
+    "definition": "The highest points ever recorded in a particular game.",
+    "example": "She was proud to see her name at the top of the high score board.",
+    "category": "Indoor Gaming",
+    "subCategory": "Indoor Gaming"
+  },
+  {
+    "word": "Lag",
+    "meaning": "A delay or slow response in an online game, usually caused by a poor internet connection.",
+    "pronunciation": "",
+    "definition": "A noticeable delay between an action and its result, especially in games or video calls.",
+    "example": "I lost the match because severe lag made it impossible to control my character.",
+    "category": "Indoor Gaming",
+    "subCategory": "Indoor Gaming"
+  },
+  {
+    "word": "Level Up",
+    "meaning": "To reach a higher stage or level in a video game by earning points or completing tasks.",
+    "pronunciation": "",
+    "definition": "To reach a higher stage or level in a video game by earning points or completing tasks.",
+    "example": "You need to defeat this monster to level up and get new abilities.",
+    "category": "Indoor Gaming",
+    "subCategory": "Indoor Gaming"
+  },
+  {
+    "word": "Loot",
+    "meaning": "Items, weapons, or money that players collect in a video game.",
+    "pronunciation": "",
+    "definition": "Items, weapons, or money that players collect in a video game.",
+    "example": "Defeating the dragon allows players to collect rare and valuable loot.",
+    "category": "Indoor Gaming",
+    "subCategory": "Indoor Gaming"
+  },
+  {
+    "word": "Matchmaking",
+    "meaning": "An online system in video games that pairs players of similar skill levels to play together.",
+    "pronunciation": "",
+    "definition": "An online system in video games that pairs players of similar skill levels to play together.",
+    "example": "The game's matchmaking system took three minutes to find an opponent for me.",
+    "category": "Indoor Gaming",
+    "subCategory": "Indoor Gaming"
+  },
+  {
+    "word": "Microtransaction",
+    "meaning": "A small payment made online to buy virtual items or extra content within a video game.",
+    "pronunciation": "",
+    "definition": "A small payment made online to buy virtual items or extra content within a video game.",
+    "example": "The game is free to download, but it contains many microtransactions for special outfits.",
+    "category": "Indoor Gaming",
+    "subCategory": "Indoor Gaming"
+  },
+  {
+    "word": "Move",
+    "meaning": "An action of changing the position of a piece on a game board.",
+    "pronunciation": "",
+    "definition": "Go in a specified direction or manner",
+    "example": "That was a very clever move that captured my knight.",
+    "category": "Indoor Gaming",
+    "subCategory": "Indoor Gaming"
+  },
+  {
+    "word": "Multiplayer",
+    "meaning": "A video game designed for more than one person to play at the same time.",
+    "pronunciation": "",
+    "definition": "A video game designed for more than one person to play at the same time.",
+    "example": "We played a multiplayer game online with friends from different countries.",
+    "category": "Indoor Gaming",
+    "subCategory": "Indoor Gaming"
+  },
+  {
+    "word": "Nerf",
+    "meaning": "To make a character, weapon, or ability weaker in a video game update to keep the game fair.",
+    "pronunciation": "",
+    "definition": "To make a character, weapon, or ability weaker in a video game update to keep the game fair.",
+    "example": "The game developers decided to nerf the sword because it was too powerful.",
+    "category": "Indoor Gaming",
+    "subCategory": "Indoor Gaming"
+  },
+  {
+    "word": "Non-Player Character",
+    "meaning": "A character in a video game that is controlled by the computer, not by a player (NPC).",
+    "pronunciation": "",
+    "definition": "A character in a video game that is controlled by the computer, not by a player (NPC).",
+    "example": "The non-player character in the shop gave us a new quest.",
+    "category": "Indoor Gaming",
+    "subCategory": "Indoor Gaming"
+  },
+  {
+    "word": "Opponent",
+    "meaning": "A person who plays against you in a game or sport.",
+    "pronunciation": "",
+    "definition": "A person who plays against you in a game or sport.",
+    "example": "He shook hands with his opponent before the tennis match started.",
+    "category": "Indoor Gaming",
+    "subCategory": "Indoor Gaming"
+  },
+  {
+    "word": "Pawn",
+    "meaning": "The weakest and most common piece in the game of chess.",
+    "pronunciation": "",
+    "definition": "The weakest and most common piece in the game of chess.",
+    "example": "He sacrificed a pawn to protect his queen.",
+    "category": "Indoor Gaming",
+    "subCategory": "Indoor Gaming"
+  },
+  {
+    "word": "Quest",
+    "meaning": "A mission or task that a player must complete in a game to earn rewards.",
+    "pronunciation": "",
+    "definition": "A mission or task that a player must complete in a game to earn rewards.",
+    "example": "The main quest of the game is to find the hidden treasure and save the town.",
+    "category": "Indoor Gaming",
+    "subCategory": "Indoor Gaming"
+  },
+  {
+    "word": "Respawn",
+    "meaning": "To appear back in the game after your character dies or is defeated.",
+    "pronunciation": "",
+    "definition": "To appear back in the game after your character dies or is defeated.",
+    "example": "When you die in this game, you respawn at the nearest campfire.",
+    "category": "Indoor Gaming",
+    "subCategory": "Indoor Gaming"
+  },
+  {
+    "word": "Roll",
+    "meaning": "To throw dice onto a surface to get a random number.",
+    "pronunciation": "",
+    "definition": "To throw dice onto a surface to get a random number.",
+    "example": "It is your turn to roll the dice and move your piece.",
+    "category": "Indoor Gaming",
+    "subCategory": "Indoor Gaming"
+  },
+  {
+    "word": "Sandbox",
+    "meaning": "A type of video game that gives players a lot of freedom to create, build, or explore without strict goals.",
+    "pronunciation": "",
+    "definition": "A type of video game that gives players a lot of freedom to create, build, or explore without strict goals.",
+    "example": "Minecraft is a famous sandbox game where you can build anything you want.",
+    "category": "Indoor Gaming",
+    "subCategory": "Indoor Gaming"
+  },
+  {
+    "word": "Shuffle",
+    "meaning": "To mix a deck of cards thoroughly so their order is random before starting a game.",
+    "pronunciation": "",
+    "definition": "To mix a deck of cards thoroughly so their order is random before starting a game.",
+    "example": "Please shuffle the cards well before you hand them out.",
+    "category": "Indoor Gaming",
+    "subCategory": "Indoor Gaming"
+  },
+  {
+    "word": "Simulation",
+    "meaning": "A video game that tries to copy real-life activities, like driving a plane or managing a city.",
+    "pronunciation": "",
+    "definition": "A video game that tries to copy real-life activities, like driving a plane or managing a city.",
+    "example": "He bought a flight simulation game to practice landing airplanes.",
+    "category": "Indoor Gaming",
+    "subCategory": "Indoor Gaming"
+  },
+  {
+    "word": "Single-Player",
+    "meaning": "A video game designed to be played by only one person at a time.",
+    "pronunciation": "",
+    "definition": "A video game designed to be played by only one person at a time.",
+    "example": "I prefer single-player games because I can enjoy the story at my own pace.",
+    "category": "Indoor Gaming",
+    "subCategory": "Indoor Gaming"
+  },
+  {
+    "word": "Solitaire",
+    "meaning": "A card game that is played by a single person.",
+    "pronunciation": "",
+    "definition": "A card game that is played by a single person.",
+    "example": "He passed the time on the train by playing solitaire on his phone.",
+    "category": "Indoor Gaming",
+    "subCategory": "Indoor Gaming"
+  },
+  {
+    "word": "Speedrun",
+    "meaning": "The act of completing a video game as fast as possible.",
+    "pronunciation": "",
+    "definition": "The act of completing a video game as fast as possible.",
+    "example": "He watched a speedrun of his favorite childhood game on the internet.",
+    "category": "Indoor Gaming",
+    "subCategory": "Indoor Gaming"
+  },
+  {
+    "word": "Tile",
+    "meaning": "A small, flat piece used in games like Scrabble or Dominoes.",
+    "pronunciation": "",
+    "definition": "A small, flat piece used in games like Scrabble or Dominoes.",
+    "example": "She picked up seven letters tiles from the bag to start the game.",
+    "category": "Indoor Gaming",
+    "subCategory": "Indoor Gaming"
+  },
+  {
+    "word": "Token",
+    "meaning": "A small object used to represent a player on a game board.",
+    "pronunciation": "",
+    "definition": "A small object used to represent a player on a game board.",
+    "example": "I chose the little silver car as my token for the board game.",
+    "category": "Indoor Gaming",
+    "subCategory": "Indoor Gaming"
+  },
+  {
+    "word": "Trivia",
+    "meaning": "A game or quiz testing players on facts and general knowledge.",
+    "pronunciation": "",
+    "definition": "A game or quiz testing players on facts and general knowledge.",
+    "example": "We won first prize at the local pub's weekly trivia night.",
+    "category": "Indoor Gaming",
+    "subCategory": "Indoor Gaming"
+  },
+  {
+    "word": "Turn-Based",
+    "meaning": "A game design where players take turns to make their moves one after the other.",
+    "pronunciation": "",
+    "definition": "A game design where players take turns to make their moves one after the other.",
+    "example": "Monopoly is a turn-based game, so you must wait for your friend to finish before you play.",
+    "category": "Indoor Gaming",
+    "subCategory": "Indoor Gaming"
   }
 ]

@@ -1,1 +1,191 @@
-﻿[{"word":"automation","meaning":"The use of technology to perform tasks with minimal human intervention, replacing or augmenting manual processes.","example":"Automation of invoice processing saved the accounting team over 20 hours of manual work per week.","category":"Automation"},{"word":"artificial intelligence (AI)","meaning":"The simulation of human intelligence processes by machines, enabling them to learn, reason, and make decisions.","example":"AI-powered chatbots now handle the majority of routine customer service inquiries instantly.","category":"Automation"},{"word":"machine learning","meaning":"A subset of AI where systems automatically learn and improve from experience without being explicitly programmed.","example":"The recruitment software uses machine learning to screen thousands of CVs within seconds.","category":"Automation"},{"word":"robotic process automation (RPA)","meaning":"Technology that uses software robots to automate repetitive, rule-based business tasks previously performed by humans.","example":"The bank deployed RPA to automate data entry, dramatically reducing processing errors.","category":"Automation"},{"word":"algorithmic management","meaning":"The use of algorithms and data-driven systems to monitor, evaluate, and direct workers\u0027 activities.","example":"Delivery drivers operating under algorithmic management have little control over their own schedules.","category":"Automation"},{"word":"digital transformation","meaning":"The integration of digital technology into all areas of a business, fundamentally changing how it operates and delivers value.","example":"The company\u0027s digital transformation journey involved adopting cloud computing and AI-driven analytics.","category":"Automation"},{"word":"cognitive automation","meaning":"Advanced automation that mimics human thought processes such as reasoning, judgement, and understanding language.","example":"Cognitive automation tools can now draft legal summaries, reducing the workload of junior associates.","category":"Automation"},{"word":"job displacement","meaning":"The loss of employment caused when automation, technology, or economic shifts eliminate certain roles or industries.","example":"Job displacement in manufacturing has accelerated as robots take over assembly line tasks.","category":"Automation"},{"word":"augmented intelligence","meaning":"A design philosophy that uses AI to enhance and support human decision-making rather than replace humans entirely.","example":"Radiologists use augmented intelligence tools to detect anomalies faster while retaining final diagnostic authority.","category":"Automation"},{"word":"intelligent automation","meaning":"The combination of AI and automation technologies to create systems capable of performing complex, end-to-end processes.","example":"Intelligent automation is transforming how insurance claims are processed, approved, and paid.","category":"Automation"},{"word":"hyperautomation","meaning":"A strategy to automate as many business processes as possible using a combination of AI, machine learning, and RPA.","example":"Their hyperautomation initiative reduced operational costs by 35% in under a year.","category":"Automation"},{"word":"generative AI","meaning":"Artificial intelligence systems capable of creating original text, images, code, and other content in response to user prompts.","example":"Generative AI tools like ChatGPT are now used for drafting emails, reports, and marketing content.","category":"Automation"},{"word":"prompt engineering","meaning":"The practice of designing and refining inputs to AI language models in order to produce desired, high-quality outputs.","example":"Prompt engineering has emerged as a sought-after skill as organisations integrate AI into their workflows.","category":"Automation"},{"word":"data-driven decision making","meaning":"The practice of basing business decisions on analysis and interpretation of data rather than intuition alone.","example":"Data-driven decision making has reduced costly errors in their supply chain planning process.","category":"Automation"},{"word":"labour market polarisation","meaning":"A phenomenon where job growth occurs at the high-skill and low-skill ends of the labour market while middle-skill jobs decline.","example":"Labour market polarisation has eroded stable, middle-income careers in manufacturing and routine office work.","category":"Automation"},{"word":"automation anxiety","meaning":"The psychological fear or worry experienced by workers concerned that their jobs will be replaced by machines or AI.","example":"Automation anxiety was widespread in the warehouse after management announced a new robotic fulfilment system.","category":"Automation"},{"word":"co-bot (collaborative robot)","meaning":"A robot designed to work safely alongside humans in shared workspaces, assisting rather than replacing them.","example":"Factory workers now operate alongside co-bots that handle heavy lifting while humans manage quality control.","category":"Automation"},{"word":"algorithmic bias","meaning":"Systematic errors in AI systems that produce unfair or discriminatory outcomes due to biased training data or design.","example":"The hiring algorithm had to be retrained after researchers discovered algorithmic bias against female applicants.","category":"Automation"},{"word":"smart factory","meaning":"A highly digitised manufacturing plant where machines, systems, and processes are interconnected and monitored through IoT and AI.","example":"The smart factory uses real-time sensor data to predict equipment failures before they disrupt production.","category":"Automation"},{"word":"Internet of Things (IoT)","meaning":"A network of physical objects embedded with sensors, software, and connectivity that enables them to collect and exchange data.","example":"In smart offices, IoT devices adjust lighting and temperature based on occupancy levels throughout the day.","category":"Automation"},{"word":"bionic workforce","meaning":"A workforce in which human workers are enhanced and empowered by AI and advanced technology to perform at higher levels.","example":"The consulting firm envisioned a bionic workforce where every consultant is supported by an AI-powered research assistant.","category":"Automation"}]
+[
+  {
+    "word": "algorithmic bias",
+    "meaning": "Systematic errors in AI systems that produce unfair or discriminatory outcomes due to biased training data or design.",
+    "pronunciation": "",
+    "definition": "Systematic errors in AI systems that produce unfair or discriminatory outcomes due to biased training data or design.",
+    "example": "The hiring algorithm had to be retrained after researchers discovered algorithmic bias against female applicants.",
+    "category": "Automation",
+    "subCategory": "Automation"
+  },
+  {
+    "word": "algorithmic management",
+    "meaning": "The use of algorithms and data-driven systems to monitor, evaluate, and direct workers' activities.",
+    "pronunciation": "",
+    "definition": "The use of algorithms and data-driven systems to monitor, evaluate, and direct workers' activities.",
+    "example": "Delivery drivers operating under algorithmic management have little control over their own schedules.",
+    "category": "Automation",
+    "subCategory": "Automation"
+  },
+  {
+    "word": "artificial intelligence (AI)",
+    "meaning": "The simulation of human intelligence processes by machines, enabling them to learn, reason, and make decisions.",
+    "pronunciation": "",
+    "definition": "The simulation of human intelligence processes by machines, enabling them to learn, reason, and make decisions.",
+    "example": "AI-powered chatbots now handle the majority of routine customer service inquiries instantly.",
+    "category": "Automation",
+    "subCategory": "Automation"
+  },
+  {
+    "word": "augmented intelligence",
+    "meaning": "A design philosophy that uses AI to enhance and support human decision-making rather than replace humans entirely.",
+    "pronunciation": "",
+    "definition": "A design philosophy that uses AI to enhance and support human decision-making rather than replace humans entirely.",
+    "example": "Radiologists use augmented intelligence tools to detect anomalies faster while retaining final diagnostic authority.",
+    "category": "Automation",
+    "subCategory": "Automation"
+  },
+  {
+    "word": "automation",
+    "meaning": "The use of technology to perform tasks with minimal human intervention, replacing or augmenting manual processes.",
+    "pronunciation": "",
+    "definition": "à¤¸à¥à¤µà¤šà¤¾à¤²à¤¨",
+    "example": "Automation of invoice processing saved the accounting team over 20 hours of manual work per week.",
+    "category": "Automation",
+    "subCategory": "Automation"
+  },
+  {
+    "word": "automation anxiety",
+    "meaning": "The psychological fear or worry experienced by workers concerned that their jobs will be replaced by machines or AI.",
+    "pronunciation": "",
+    "definition": "The psychological fear or worry experienced by workers concerned that their jobs will be replaced by machines or AI.",
+    "example": "Automation anxiety was widespread in the warehouse after management announced a new robotic fulfilment system.",
+    "category": "Automation",
+    "subCategory": "Automation"
+  },
+  {
+    "word": "bionic workforce",
+    "meaning": "A workforce in which human workers are enhanced and empowered by AI and advanced technology to perform at higher levels.",
+    "pronunciation": "",
+    "definition": "A workforce in which human workers are enhanced and empowered by AI and advanced technology to perform at higher levels.",
+    "example": "The consulting firm envisioned a bionic workforce where every consultant is supported by an AI-powered research assistant.",
+    "category": "Automation",
+    "subCategory": "Automation"
+  },
+  {
+    "word": "co-bot (collaborative robot)",
+    "meaning": "A robot designed to work safely alongside humans in shared workspaces, assisting rather than replacing them.",
+    "pronunciation": "",
+    "definition": "A robot designed to work safely alongside humans in shared workspaces, assisting rather than replacing them.",
+    "example": "Factory workers now operate alongside co-bots that handle heavy lifting while humans manage quality control.",
+    "category": "Automation",
+    "subCategory": "Automation"
+  },
+  {
+    "word": "cognitive automation",
+    "meaning": "Advanced automation that mimics human thought processes such as reasoning, judgement, and understanding language.",
+    "pronunciation": "",
+    "definition": "Advanced automation that mimics human thought processes such as reasoning, judgement, and understanding language.",
+    "example": "Cognitive automation tools can now draft legal summaries, reducing the workload of junior associates.",
+    "category": "Automation",
+    "subCategory": "Automation"
+  },
+  {
+    "word": "data-driven decision making",
+    "meaning": "The practice of basing business decisions on analysis and interpretation of data rather than intuition alone.",
+    "pronunciation": "",
+    "definition": "The practice of basing business decisions on analysis and interpretation of data rather than intuition alone.",
+    "example": "Data-driven decision making has reduced costly errors in their supply chain planning process.",
+    "category": "Automation",
+    "subCategory": "Automation"
+  },
+  {
+    "word": "digital transformation",
+    "meaning": "The integration of digital technology into all areas of a business, fundamentally changing how it operates and delivers value.",
+    "pronunciation": "",
+    "definition": "The integration of digital technology into all areas of a business, fundamentally changing how it operates and delivers value.",
+    "example": "The company's digital transformation journey involved adopting cloud computing and AI-driven analytics.",
+    "category": "Automation",
+    "subCategory": "Automation"
+  },
+  {
+    "word": "generative AI",
+    "meaning": "Artificial intelligence systems capable of creating original text, images, code, and other content in response to user prompts.",
+    "pronunciation": "",
+    "definition": "Artificial intelligence systems capable of creating original text, images, code, and other content in response to user prompts.",
+    "example": "Generative AI tools like ChatGPT are now used for drafting emails, reports, and marketing content.",
+    "category": "Automation",
+    "subCategory": "Automation"
+  },
+  {
+    "word": "hyperautomation",
+    "meaning": "A strategy to automate as many business processes as possible using a combination of AI, machine learning, and RPA.",
+    "pronunciation": "",
+    "definition": "A strategy to automate as many business processes as possible using a combination of AI, machine learning, and RPA.",
+    "example": "Their hyperautomation initiative reduced operational costs by 35% in under a year.",
+    "category": "Automation",
+    "subCategory": "Automation"
+  },
+  {
+    "word": "intelligent automation",
+    "meaning": "The combination of AI and automation technologies to create systems capable of performing complex, end-to-end processes.",
+    "pronunciation": "",
+    "definition": "The combination of AI and automation technologies to create systems capable of performing complex, end-to-end processes.",
+    "example": "Intelligent automation is transforming how insurance claims are processed, approved, and paid.",
+    "category": "Automation",
+    "subCategory": "Automation"
+  },
+  {
+    "word": "Internet of Things (IoT)",
+    "meaning": "A network of physical objects embedded with sensors, software, and connectivity that enables them to collect and exchange data.",
+    "pronunciation": "",
+    "definition": "A network of physical objects embedded with sensors, software, and connectivity that enables them to collect and exchange data.",
+    "example": "In smart offices, IoT devices adjust lighting and temperature based on occupancy levels throughout the day.",
+    "category": "Automation",
+    "subCategory": "Automation"
+  },
+  {
+    "word": "job displacement",
+    "meaning": "The loss of employment caused when automation, technology, or economic shifts eliminate certain roles or industries.",
+    "pronunciation": "",
+    "definition": "The loss of employment caused when automation, technology, or economic shifts eliminate certain roles or industries.",
+    "example": "Job displacement in manufacturing has accelerated as robots take over assembly line tasks.",
+    "category": "Automation",
+    "subCategory": "Automation"
+  },
+  {
+    "word": "labour market polarisation",
+    "meaning": "A phenomenon where job growth occurs at the high-skill and low-skill ends of the labour market while middle-skill jobs decline.",
+    "pronunciation": "",
+    "definition": "A phenomenon where job growth occurs at the high-skill and low-skill ends of the labour market while middle-skill jobs decline.",
+    "example": "Labour market polarisation has eroded stable, middle-income careers in manufacturing and routine office work.",
+    "category": "Automation",
+    "subCategory": "Automation"
+  },
+  {
+    "word": "machine learning",
+    "meaning": "A subset of AI where systems automatically learn and improve from experience without being explicitly programmed.",
+    "pronunciation": "",
+    "definition": "à¤®à¤¶à¥€à¤¨ à¤²à¤°à¥à¤¨à¤¿à¤‚à¤— (à¤®à¤¶à¥€à¤¨à¥€ à¤…à¤§à¤¿à¤—à¤®)",
+    "example": "The recruitment software uses machine learning to screen thousands of CVs within seconds.",
+    "category": "Automation",
+    "subCategory": "Automation"
+  },
+  {
+    "word": "prompt engineering",
+    "meaning": "The practice of designing and refining inputs to AI language models in order to produce desired, high-quality outputs.",
+    "pronunciation": "",
+    "definition": "The practice of designing and refining inputs to AI language models in order to produce desired, high-quality outputs.",
+    "example": "Prompt engineering has emerged as a sought-after skill as organisations integrate AI into their workflows.",
+    "category": "Automation",
+    "subCategory": "Automation"
+  },
+  {
+    "word": "robotic process automation (RPA)",
+    "meaning": "Technology that uses software robots to automate repetitive, rule-based business tasks previously performed by humans.",
+    "pronunciation": "",
+    "definition": "Technology that uses software robots to automate repetitive, rule-based business tasks previously performed by humans.",
+    "example": "The bank deployed RPA to automate data entry, dramatically reducing processing errors.",
+    "category": "Automation",
+    "subCategory": "Automation"
+  },
+  {
+    "word": "smart factory",
+    "meaning": "A highly digitised manufacturing plant where machines, systems, and processes are interconnected and monitored through IoT and AI.",
+    "pronunciation": "",
+    "definition": "A highly digitised manufacturing plant where machines, systems, and processes are interconnected and monitored through IoT and AI.",
+    "example": "The smart factory uses real-time sensor data to predict equipment failures before they disrupt production.",
+    "category": "Automation",
+    "subCategory": "Automation"
+  }
+]

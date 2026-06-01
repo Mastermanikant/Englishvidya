@@ -1,925 +1,1037 @@
 [
   {
-    "word": "Dog",
-    "category": "Animals & Insects",
-    "subCategory": "Pets",
-    "partOfSpeech": "Noun",
-    "meaning": "A domesticated carnivorous mammal.",
-    "usageExample": "The dog wagged its tail."
-  },
-  {
-    "word": "Cat",
-    "category": "Animals & Insects",
-    "subCategory": "Pets",
-    "partOfSpeech": "Noun",
-    "meaning": "A small domesticated carnivorous mammal with soft fur.",
-    "usageExample": "The cat purred softly."
-  },
-  {
-    "word": "Hamster",
-    "category": "Animals & Insects",
-    "subCategory": "Pets",
-    "partOfSpeech": "Noun",
-    "meaning": "A small rodent kept as a pet.",
-    "usageExample": "The hamster ran in its wheel."
-  },
-  {
-    "word": "Guinea Pig",
-    "category": "Animals & Insects",
-    "subCategory": "Pets",
-    "partOfSpeech": "Noun",
-    "meaning": "A stout, tailless South American rodent.",
-    "usageExample": "She fed her guinea pig some carrots."
-  },
-  {
-    "word": "Goldfish",
-    "category": "Animals & Insects",
-    "subCategory": "Pets",
-    "partOfSpeech": "Noun",
-    "meaning": "A small orange or red freshwater fish.",
-    "usageExample": "The goldfish swam around the bowl."
-  },
-  {
-    "word": "Parrot",
-    "category": "Animals & Insects",
-    "subCategory": "Pets",
-    "partOfSpeech": "Noun",
-    "meaning": "A tropical bird with a curved beak.",
-    "usageExample": "The parrot repeated what I said."
-  },
-  {
-    "word": "Rabbit",
-    "category": "Animals & Insects",
-    "subCategory": "Pets",
-    "partOfSpeech": "Noun",
-    "meaning": "A burrowing, plant-eating mammal with long ears.",
-    "usageExample": "The rabbit hopped across the lawn."
-  },
-  {
-    "word": "Turtle",
-    "category": "Animals & Insects",
-    "subCategory": "Pets",
-    "partOfSpeech": "Noun",
-    "meaning": "A reptile with a shell.",
-    "usageExample": "The turtle moved very slowly."
-  },
-  {
-    "word": "Canary",
-    "category": "Animals & Insects",
-    "subCategory": "Pets",
-    "partOfSpeech": "Noun",
-    "meaning": "A small, typically yellow finch.",
-    "usageExample": "The canary sang a beautiful song."
-  },
-  {
-    "word": "Ferret",
-    "category": "Animals & Insects",
-    "subCategory": "Pets",
-    "partOfSpeech": "Noun",
-    "meaning": "A domesticated polecat kept as a pet.",
-    "usageExample": "The ferret playfully chased the ball."
-  },
-  {
-    "word": "Iguana",
-    "category": "Animals & Insects",
-    "subCategory": "Pets",
-    "partOfSpeech": "Noun",
-    "meaning": "A large, herbivorous tropical American lizard.",
-    "usageExample": "The iguana basked under the heat lamp."
-  },
-  {
-    "word": "Gerbil",
-    "category": "Animals & Insects",
-    "subCategory": "Pets",
-    "partOfSpeech": "Noun",
-    "meaning": "A small, jumping desert rodent.",
-    "usageExample": "The gerbil built a nest in its cage."
-  },
-  {
-    "word": "Chinchilla",
-    "category": "Animals & Insects",
-    "subCategory": "Pets",
-    "partOfSpeech": "Noun",
-    "meaning": "A small South American rodent with soft fur.",
-    "usageExample": "Chinchillas take dust baths to keep clean."
-  },
-  {
-    "word": "Cockatiel",
-    "category": "Animals & Insects",
-    "subCategory": "Pets",
-    "partOfSpeech": "Noun",
-    "meaning": "A small crested parrot.",
-    "usageExample": "The cockatiel whistled a tune."
-  },
-  {
-    "word": "Hedgehog",
-    "category": "Animals & Insects",
-    "subCategory": "Pets",
-    "partOfSpeech": "Noun",
-    "meaning": "A small mammal covered in spines.",
-    "usageExample": "The hedgehog rolled into a tight ball."
-  },
-  {
-    "word": "Lion",
-    "category": "Animals & Insects",
-    "subCategory": "Wild animals",
-    "partOfSpeech": "Noun",
-    "meaning": "A large tawny-colored cat that lives in prides.",
-    "usageExample": "The lion roared fiercely across the savanna."
-  },
-  {
-    "word": "Tiger",
-    "category": "Animals & Insects",
-    "subCategory": "Wild animals",
-    "partOfSpeech": "Noun",
-    "meaning": "A large, solitary cat with a yellow-orange coat and dark stripes.",
-    "usageExample": "The tiger stalked its prey in the jungle."
-  },
-  {
-    "word": "Elephant",
-    "category": "Animals & Insects",
-    "subCategory": "Wild animals",
-    "partOfSpeech": "Noun",
-    "meaning": "A very large plant-eating mammal with a trunk and tusks.",
-    "usageExample": "The elephant sprayed water over its back."
-  },
-  {
-    "word": "Giraffe",
-    "category": "Animals & Insects",
-    "subCategory": "Wild animals",
-    "partOfSpeech": "Noun",
-    "meaning": "A large African mammal with a very long neck and forelegs.",
-    "usageExample": "The giraffe reached high into the tree for leaves."
-  },
-  {
-    "word": "Zebra",
-    "category": "Animals & Insects",
-    "subCategory": "Wild animals",
-    "partOfSpeech": "Noun",
-    "meaning": "An African wild horse with black-and-white stripes.",
-    "usageExample": "A herd of zebras grazed on the plains."
-  },
-  {
-    "word": "Bear",
-    "category": "Animals & Insects",
-    "subCategory": "Wild animals",
-    "partOfSpeech": "Noun",
-    "meaning": "A large, heavy mammal that walks on the soles of its feet.",
-    "usageExample": "The bear caught a salmon in the river."
-  },
-  {
-    "word": "Wolf",
-    "category": "Animals & Insects",
-    "subCategory": "Wild animals",
-    "partOfSpeech": "Noun",
-    "meaning": "A wild carnivorous mammal of the dog family.",
-    "usageExample": "The wolf howled at the full moon."
-  },
-  {
-    "word": "Fox",
-    "category": "Animals & Insects",
-    "subCategory": "Wild animals",
-    "partOfSpeech": "Noun",
-    "meaning": "A carnivorous mammal of the dog family with a pointed muzzle and bushy tail.",
-    "usageExample": "The quick brown fox jumped over the log."
-  },
-  {
-    "word": "Deer",
-    "category": "Animals & Insects",
-    "subCategory": "Wild animals",
-    "partOfSpeech": "Noun",
-    "meaning": "A hoofed grazing or browsing animal, with branched antlers in males.",
-    "usageExample": "The deer vanished into the forest."
-  },
-  {
-    "word": "Monkey",
-    "category": "Animals & Insects",
-    "subCategory": "Wild animals",
-    "partOfSpeech": "Noun",
-    "meaning": "A small to medium-sized primate.",
-    "usageExample": "The monkey swung from branch to branch."
-  },
-  {
-    "word": "Gorilla",
-    "category": "Animals & Insects",
-    "subCategory": "Wild animals",
-    "partOfSpeech": "Noun",
-    "meaning": "A powerfully built great ape.",
-    "usageExample": "The silverback gorilla guarded his family."
-  },
-  {
-    "word": "Kangaroo",
-    "category": "Animals & Insects",
-    "subCategory": "Wild animals",
-    "partOfSpeech": "Noun",
-    "meaning": "A large plant-eating marsupial with a long, powerful tail.",
-    "usageExample": "The kangaroo bounded across the outback."
-  },
-  {
-    "word": "Rhinoceros",
-    "category": "Animals & Insects",
-    "subCategory": "Wild animals",
-    "partOfSpeech": "Noun",
-    "meaning": "A large, heavily built plant-eating mammal with one or two horns.",
-    "usageExample": "The rhinoceros charged at the vehicle."
-  },
-  {
-    "word": "Hippopotamus",
-    "category": "Animals & Insects",
-    "subCategory": "Wild animals",
-    "partOfSpeech": "Noun",
-    "meaning": "A large thick-skinned semiaquatic African mammal.",
-    "usageExample": "The hippopotamus submerged itself in the muddy river."
-  },
-  {
-    "word": "Cheetah",
-    "category": "Animals & Insects",
-    "subCategory": "Wild animals",
-    "partOfSpeech": "Noun",
-    "meaning": "A large, slender spotted cat found in Africa and parts of Asia.",
-    "usageExample": "The cheetah sprinted after a gazelle."
-  },
-  {
-    "word": "Leopard",
-    "category": "Animals & Insects",
-    "subCategory": "Wild animals",
-    "partOfSpeech": "Noun",
-    "meaning": "A large, solitary cat that has a fawn or brown coat with black spots.",
-    "usageExample": "The leopard rested on a tree branch."
-  },
-  {
-    "word": "Panda",
-    "category": "Animals & Insects",
-    "subCategory": "Wild animals",
-    "partOfSpeech": "Noun",
-    "meaning": "A large bear-like mammal with characteristic black and white markings.",
-    "usageExample": "The panda chewed on bamboo shoots."
-  },
-  {
-    "word": "Koala",
-    "category": "Animals & Insects",
-    "subCategory": "Wild animals",
-    "partOfSpeech": "Noun",
-    "meaning": "A bear-like arboreal Australian marsupial.",
-    "usageExample": "The koala slept clinging to a eucalyptus tree."
-  },
-  {
-    "word": "Sloth",
-    "category": "Animals & Insects",
-    "subCategory": "Wild animals",
-    "partOfSpeech": "Noun",
-    "meaning": "A slow-moving tropical American mammal that hangs upside down.",
-    "usageExample": "The sloth moved deliberately through the canopy."
-  },
-  {
-    "word": "Moose",
-    "category": "Animals & Insects",
-    "subCategory": "Wild animals",
-    "partOfSpeech": "Noun",
-    "meaning": "A large deer with palmate antlers.",
-    "usageExample": "A moose stood in the shallow pond."
-  },
-  {
-    "word": "Cow",
-    "category": "Animals & Insects",
-    "subCategory": "Farm animals",
-    "partOfSpeech": "Noun",
-    "meaning": "A fully grown female animal of a domesticated breed of ox.",
-    "usageExample": "The cow chewed its cud in the meadow."
-  },
-  {
-    "word": "Pig",
-    "category": "Animals & Insects",
-    "subCategory": "Farm animals",
-    "partOfSpeech": "Noun",
-    "meaning": "An omnivorous domesticated hoofed mammal with sparse bristly hair.",
-    "usageExample": "The pig rolled happily in the mud."
-  },
-  {
-    "word": "Sheep",
-    "category": "Animals & Insects",
-    "subCategory": "Farm animals",
-    "partOfSpeech": "Noun",
-    "meaning": "A domesticated ruminant animal with a thick woolly coat.",
-    "usageExample": "A flock of sheep grazed on the hillside."
-  },
-  {
-    "word": "Goat",
-    "category": "Animals & Insects",
-    "subCategory": "Farm animals",
-    "partOfSpeech": "Noun",
-    "meaning": "A hardy domesticated ruminant animal that has backward-curving horns.",
-    "usageExample": "The goat stood on the rocky ledge."
-  },
-  {
-    "word": "Horse",
-    "category": "Animals & Insects",
-    "subCategory": "Farm animals",
-    "partOfSpeech": "Noun",
-    "meaning": "A large plant-eating domesticated mammal with solid hoofs.",
-    "usageExample": "The horse galloped across the field."
-  },
-  {
-    "word": "Chicken",
-    "category": "Animals & Insects",
-    "subCategory": "Farm animals",
-    "partOfSpeech": "Noun",
-    "meaning": "A domestic fowl kept for its eggs or meat.",
-    "usageExample": "The chicken pecked at the scattered seeds.",
-    "meaning_hi": "??????/????",
-    "pronunciation": "????"
-  },
-  {
-    "word": "Duck",
-    "category": "Animals & Insects",
-    "subCategory": "Farm animals",
-    "partOfSpeech": "Noun",
-    "meaning": "A waterbird with a broad blunt bill, short legs, and webbed feet.",
-    "usageExample": "The duck quacked and splashed in the pond."
-  },
-  {
-    "word": "Goose",
-    "category": "Animals & Insects",
-    "subCategory": "Farm animals",
-    "partOfSpeech": "Noun",
-    "meaning": "A large waterbird with a long neck and webbed feet.",
-    "usageExample": "The goose honked loudly at the intruder."
-  },
-  {
-    "word": "Turkey",
-    "category": "Animals & Insects",
-    "subCategory": "Farm animals",
-    "partOfSpeech": "Noun",
-    "meaning": "A large, primarily North American bird.",
-    "usageExample": "The turkey gobbled in the barnyard."
-  },
-  {
-    "word": "Donkey",
-    "category": "Animals & Insects",
-    "subCategory": "Farm animals",
-    "partOfSpeech": "Noun",
-    "meaning": "A domesticated hoofed mammal of the horse family with long ears.",
-    "usageExample": "The donkey carried a heavy load."
-  },
-  {
-    "word": "Mule",
-    "category": "Animals & Insects",
-    "subCategory": "Farm animals",
-    "partOfSpeech": "Noun",
-    "meaning": "The offspring of a male donkey and a female horse.",
-    "usageExample": "The stubborn mule refused to cross the bridge."
-  },
-  {
-    "word": "Ox",
-    "category": "Animals & Insects",
-    "subCategory": "Farm animals",
-    "partOfSpeech": "Noun",
-    "meaning": "A domesticated bovine animal kept for draft purposes.",
-    "usageExample": "The ox pulled the heavy plow through the soil."
-  },
-  {
     "word": "Alpaca",
-    "category": "Animals & Insects",
-    "subCategory": "Farm animals",
-    "partOfSpeech": "Noun",
     "meaning": "A long-haired domesticated South American mammal related to the llama.",
-    "usageExample": "The alpaca's fleece is soft and warm."
-  },
-  {
-    "word": "Llama",
+    "pronunciation": "",
+    "definition": "A long-haired domesticated South American mammal related to the llama.",
+    "example": "The alpaca's fleece is soft and warm.",
     "category": "Animals & Insects",
-    "subCategory": "Farm animals",
-    "partOfSpeech": "Noun",
-    "meaning": "A domesticated South American camelid, used as a pack animal.",
-    "usageExample": "The llama carried supplies up the mountain."
-  },
-  {
-    "word": "Pony",
-    "category": "Animals & Insects",
-    "subCategory": "Farm animals",
-    "partOfSpeech": "Noun",
-    "meaning": "A horse of a small breed.",
-    "usageExample": "The children took turns riding the pony."
-  },
-  {
-    "word": "Rooster",
-    "category": "Animals & Insects",
-    "subCategory": "Farm animals",
-    "partOfSpeech": "Noun",
-    "meaning": "A male domestic chicken.",
-    "usageExample": "The rooster crowed at dawn."
-  },
-  {
-    "word": "Hen",
-    "category": "Animals & Insects",
-    "subCategory": "Farm animals",
-    "partOfSpeech": "Noun",
-    "meaning": "A female bird, especially of a domestic fowl.",
-    "usageExample": "The hen laid a brown egg."
-  },
-  {
-    "word": "Calf",
-    "category": "Animals & Insects",
-    "subCategory": "Farm animals",
-    "partOfSpeech": "Noun",
-    "meaning": "A young bovine animal.",
-    "usageExample": "The calf stayed close to its mother."
-  },
-  {
-    "word": "Lamb",
-    "category": "Animals & Insects",
-    "subCategory": "Farm animals",
-    "partOfSpeech": "Noun",
-    "meaning": "A young sheep.",
-    "usageExample": "The newborn lamb took its first wobbly steps."
-  },
-  {
-    "word": "Piglet",
-    "category": "Animals & Insects",
-    "subCategory": "Farm animals",
-    "partOfSpeech": "Noun",
-    "meaning": "A young pig.",
-    "usageExample": "The pink piglet squealed when picked up."
-  },
-  {
-    "word": "Whale",
-    "category": "Animals & Insects",
-    "subCategory": "Marine life",
-    "partOfSpeech": "Noun",
-    "meaning": "A very large marine mammal with a streamlined hairless body.",
-    "usageExample": "The blue whale is the largest animal on earth."
-  },
-  {
-    "word": "Dolphin",
-    "category": "Animals & Insects",
-    "subCategory": "Marine life",
-    "partOfSpeech": "Noun",
-    "meaning": "A small gregarious toothed whale.",
-    "usageExample": "The dolphin leapt playfully out of the water."
-  },
-  {
-    "word": "Shark",
-    "category": "Animals & Insects",
-    "subCategory": "Marine life",
-    "partOfSpeech": "Noun",
-    "meaning": "A long-bodied marine fish with a cartilaginous skeleton.",
-    "usageExample": "The great white shark is a formidable predator."
-  },
-  {
-    "word": "Octopus",
-    "category": "Animals & Insects",
-    "subCategory": "Marine life",
-    "partOfSpeech": "Noun",
-    "meaning": "A cephalopod mollusk with eight sucker-bearing arms.",
-    "usageExample": "The octopus released a cloud of ink to escape."
-  },
-  {
-    "word": "Squid",
-    "category": "Animals & Insects",
-    "subCategory": "Marine life",
-    "partOfSpeech": "Noun",
-    "meaning": "An elongated, fast-swimming cephalopod mollusk.",
-    "usageExample": "The giant squid lives deep in the ocean."
-  },
-  {
-    "word": "Jellyfish",
-    "category": "Animals & Insects",
-    "subCategory": "Marine life",
-    "partOfSpeech": "Noun",
-    "meaning": "A free-swimming marine coelenterate with a jellylike bell-shaped body.",
-    "usageExample": "Be careful of jellyfish stings at the beach."
-  },
-  {
-    "word": "Starfish",
-    "category": "Animals & Insects",
-    "subCategory": "Marine life",
-    "partOfSpeech": "Noun",
-    "meaning": "A marine echinoderm with five or more radiating arms.",
-    "usageExample": "The starfish clung to the rocky shore."
-  },
-  {
-    "word": "Crab",
-    "category": "Animals & Insects",
-    "subCategory": "Marine life",
-    "partOfSpeech": "Noun",
-    "meaning": "A crustacean with a broad carapace, stalked eyes, and five pairs of legs.",
-    "usageExample": "The crab scurried sideways across the sand."
-  },
-  {
-    "word": "Lobster",
-    "category": "Animals & Insects",
-    "subCategory": "Marine life",
-    "partOfSpeech": "Noun",
-    "meaning": "A large marine crustacean with a cylindrical body and large pincers.",
-    "usageExample": "Lobsters hide in crevices on the ocean floor."
-  },
-  {
-    "word": "Seahorse",
-    "category": "Animals & Insects",
-    "subCategory": "Marine life",
-    "partOfSpeech": "Noun",
-    "meaning": "A small marine fish with a horse-like head and upright posture.",
-    "usageExample": "The seahorse anchored itself to the seaweed."
-  },
-  {
-    "word": "Walrus",
-    "category": "Animals & Insects",
-    "subCategory": "Marine life",
-    "partOfSpeech": "Noun",
-    "meaning": "A large marine mammal with flippers, a broad head, and long tusks.",
-    "usageExample": "The walrus rested on the ice floe."
-  },
-  {
-    "word": "Seal",
-    "category": "Animals & Insects",
-    "subCategory": "Marine life",
-    "partOfSpeech": "Noun",
-    "meaning": "A fish-eating marine mammal with a streamlined body.",
-    "usageExample": "The seal balanced a ball on its nose at the aquarium."
-  },
-  {
-    "word": "Manatee",
-    "category": "Animals & Insects",
-    "subCategory": "Marine life",
-    "partOfSpeech": "Noun",
-    "meaning": "A large, gentle aquatic mammal, also known as a sea cow.",
-    "usageExample": "The manatee grazed on underwater grasses."
-  },
-  {
-    "word": "Stingray",
-    "category": "Animals & Insects",
-    "subCategory": "Marine life",
-    "partOfSpeech": "Noun",
-    "meaning": "A bottom-dwelling marine ray with a flattened diamond-shaped body.",
-    "usageExample": "The stingray glided smoothly over the sandy bottom."
-  },
-  {
-    "word": "Eel",
-    "category": "Animals & Insects",
-    "subCategory": "Marine life",
-    "partOfSpeech": "Noun",
-    "meaning": "A snakelike fish with a slender elongated body.",
-    "usageExample": "The moray eel poked its head out of the coral."
-  },
-  {
-    "word": "Clam",
-    "category": "Animals & Insects",
-    "subCategory": "Marine life",
-    "partOfSpeech": "Noun",
-    "meaning": "A marine bivalve mollusk with shells of equal size.",
-    "usageExample": "We dug for clams on the beach."
-  },
-  {
-    "word": "Oyster",
-    "category": "Animals & Insects",
-    "subCategory": "Marine life",
-    "partOfSpeech": "Noun",
-    "meaning": "A bivalve mollusk with a rough irregular shell.",
-    "usageExample": "Some oysters can produce pearls."
-  },
-  {
-    "word": "Coral",
-    "category": "Animals & Insects",
-    "subCategory": "Marine life",
-    "partOfSpeech": "Noun",
-    "meaning": "A hard stony substance secreted by certain marine polyps.",
-    "usageExample": "The coral reef was teeming with colorful fish."
+    "subCategory": "Animals & Insects"
   },
   {
     "word": "Anemone",
-    "category": "Animals & Insects",
-    "subCategory": "Marine life",
-    "partOfSpeech": "Noun",
     "meaning": "A sedentary marine coelenterate with a columnar body and stinging tentacles.",
-    "usageExample": "Clownfish make their homes in sea anemones."
-  },
-  {
-    "word": "Shrimp",
+    "pronunciation": "",
+    "definition": "A sedentary marine coelenterate with a columnar body and stinging tentacles.",
+    "example": "Clownfish make their homes in sea anemones.",
     "category": "Animals & Insects",
-    "subCategory": "Marine life",
-    "partOfSpeech": "Noun",
-    "meaning": "A small free-swimming crustacean with an elongated body.",
-    "usageExample": "A school of shrimp swam by the dock."
+    "subCategory": "Animals & Insects"
   },
   {
     "word": "Ant",
-    "category": "Animals & Insects",
-    "subCategory": "Insects/Bugs",
-    "partOfSpeech": "Noun",
     "meaning": "A small insect typically having a complex social organization.",
-    "usageExample": "An army of ants carried the crumb away."
-  },
-  {
-    "word": "Bee",
+    "pronunciation": "",
+    "definition": "A small insect typically having a complex social organization.",
+    "example": "An army of ants carried the crumb away.",
     "category": "Animals & Insects",
-    "subCategory": "Insects/Bugs",
-    "partOfSpeech": "Noun",
-    "meaning": "An insect of a large group to which the honeybee belongs.",
-    "usageExample": "The bee buzzed from flower to flower."
-  },
-  {
-    "word": "Butterfly",
-    "category": "Animals & Insects",
-    "subCategory": "Insects/Bugs",
-    "partOfSpeech": "Noun",
-    "meaning": "A nectar-feeding insect with two pairs of large, brightly colored wings.",
-    "usageExample": "A monarch butterfly landed on my arm."
-  },
-  {
-    "word": "Moth",
-    "category": "Animals & Insects",
-    "subCategory": "Insects/Bugs",
-    "partOfSpeech": "Noun",
-    "meaning": "A mainly nocturnal insect related to the butterfly.",
-    "usageExample": "The moth was attracted to the porch light."
-  },
-  {
-    "word": "Spider",
-    "category": "Animals & Insects",
-    "subCategory": "Insects/Bugs",
-    "partOfSpeech": "Noun",
-    "meaning": "An eight-legged predatory arachnid.",
-    "usageExample": "The spider spun a web in the corner."
-  },
-  {
-    "word": "Beetle",
-    "category": "Animals & Insects",
-    "subCategory": "Insects/Bugs",
-    "partOfSpeech": "Noun",
-    "meaning": "An insect with hard front wings that cover the hind wings.",
-    "usageExample": "A shiny green beetle crawled up the stem."
-  },
-  {
-    "word": "Ladybug",
-    "category": "Animals & Insects",
-    "subCategory": "Insects/Bugs",
-    "partOfSpeech": "Noun",
-    "meaning": "A small flying beetle, typically red with black spots.",
-    "usageExample": "The ladybug is considered good luck."
-  },
-  {
-    "word": "Mosquito",
-    "category": "Animals & Insects",
-    "subCategory": "Insects/Bugs",
-    "partOfSpeech": "Noun",
-    "meaning": "A slender long-legged fly with aquatic larvae.",
-    "usageExample": "A mosquito bit me on the arm."
-  },
-  {
-    "word": "Fly",
-    "category": "Animals & Insects",
-    "subCategory": "Insects/Bugs",
-    "partOfSpeech": "Noun",
-    "meaning": "A flying insect characterized by a single pair of transparent wings.",
-    "usageExample": "A fly buzzed around the room.",
-    "meaning_hi": "????? / ??????"
-  },
-  {
-    "word": "Wasp",
-    "category": "Animals & Insects",
-    "subCategory": "Insects/Bugs",
-    "partOfSpeech": "Noun",
-    "meaning": "A social winged insect that has a narrow waist and a sting.",
-    "usageExample": "The wasp built a paper nest under the eaves."
-  },
-  {
-    "word": "Dragonfly",
-    "category": "Animals & Insects",
-    "subCategory": "Insects/Bugs",
-    "partOfSpeech": "Noun",
-    "meaning": "A fast-flying insect with a long body and two pairs of transparent wings.",
-    "usageExample": "The dragonfly darted across the pond."
-  },
-  {
-    "word": "Grasshopper",
-    "category": "Animals & Insects",
-    "subCategory": "Insects/Bugs",
-    "partOfSpeech": "Noun",
-    "meaning": "A plant-eating insect with long hind legs used for leaping.",
-    "usageExample": "The grasshopper leaped high into the air."
-  },
-  {
-    "word": "Cricket",
-    "category": "Animals & Insects",
-    "subCategory": "Insects/Bugs",
-    "partOfSpeech": "Noun",
-    "meaning": "An insect, the male of which produces a musical chirping sound.",
-    "usageExample": "We could hear crickets chirping in the night."
-  },
-  {
-    "word": "Cockroach",
-    "category": "Animals & Insects",
-    "subCategory": "Insects/Bugs",
-    "partOfSpeech": "Noun",
-    "meaning": "A scavenging insect that resembles a beetle.",
-    "usageExample": "The cockroach scurried under the refrigerator."
-  },
-  {
-    "word": "Flea",
-    "category": "Animals & Insects",
-    "subCategory": "Insects/Bugs",
-    "partOfSpeech": "Noun",
-    "meaning": "A small wingless jumping insect that feeds on the blood of mammals.",
-    "usageExample": "The dog was scratching because it had a flea."
-  },
-  {
-    "word": "Tick",
-    "category": "Animals & Insects",
-    "subCategory": "Insects/Bugs",
-    "partOfSpeech": "Noun",
-    "meaning": "A parasitic arachnid that attaches itself to the skin and sucks blood.",
-    "usageExample": "Check yourself for ticks after walking in the woods."
-  },
-  {
-    "word": "Termite",
-    "category": "Animals & Insects",
-    "subCategory": "Insects/Bugs",
-    "partOfSpeech": "Noun",
-    "meaning": "A pale soft-bodied insect that lives in large colonies and feeds on wood.",
-    "usageExample": "Termites caused significant damage to the house."
-  },
-  {
-    "word": "Centipede",
-    "category": "Animals & Insects",
-    "subCategory": "Insects/Bugs",
-    "partOfSpeech": "Noun",
-    "meaning": "A predatory myriapod invertebrate with a flattened elongated body.",
-    "usageExample": "A centipede crawled out from under the rock."
-  },
-  {
-    "word": "Caterpillar",
-    "category": "Animals & Insects",
-    "subCategory": "Insects/Bugs",
-    "partOfSpeech": "Noun",
-    "meaning": "The larva of a butterfly or moth.",
-    "usageExample": "The fuzzy caterpillar munched on a leaf."
-  },
-  {
-    "word": "Worm",
-    "category": "Animals & Insects",
-    "subCategory": "Insects/Bugs",
-    "partOfSpeech": "Noun",
-    "meaning": "A creeping invertebrate animal with a long, slender soft body.",
-    "usageExample": "An earthworm wriggled in the damp soil."
-  },
-  {
-    "word": "Bark",
-    "category": "Animals & Insects",
-    "subCategory": "Animal Sounds/Calls",
-    "partOfSpeech": "Noun",
-    "meaning": "The sharp explosive cry of certain animals, especially a dog.",
-    "usageExample": "The loud bark woke me up."
-  },
-  {
-    "word": "Meow",
-    "category": "Animals & Insects",
-    "subCategory": "Animal Sounds/Calls",
-    "partOfSpeech": "Noun",
-    "meaning": "The characteristic crying sound of a cat.",
-    "usageExample": "The hungry cat let out a loud meow."
-  },
-  {
-    "word": "Moo",
-    "category": "Animals & Insects",
-    "subCategory": "Animal Sounds/Calls",
-    "partOfSpeech": "Noun",
-    "meaning": "The characteristic deep vocal sound of a cow.",
-    "usageExample": "A distant moo was heard from the barn."
+    "subCategory": "Animals & Insects"
   },
   {
     "word": "Baa",
-    "category": "Animals & Insects",
-    "subCategory": "Animal Sounds/Calls",
-    "partOfSpeech": "Noun",
     "meaning": "The cry of a sheep or goat.",
-    "usageExample": "The little lamb let out a soft baa."
+    "pronunciation": "",
+    "definition": "The cry of a sheep or goat.",
+    "example": "The little lamb let out a soft baa.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
   },
   {
-    "word": "Oink",
+    "word": "Bark",
+    "meaning": "The sharp explosive cry of certain animals, especially a dog.",
+    "pronunciation": "",
+    "definition": "The sharp explosive cry of certain animals, especially a dog.",
+    "example": "The loud bark woke me up.",
     "category": "Animals & Insects",
-    "subCategory": "Animal Sounds/Calls",
-    "partOfSpeech": "Noun",
-    "meaning": "The characteristic grunting sound of a pig.",
-    "usageExample": "The pig gave a satisfied oink."
+    "subCategory": "Animals & Insects"
   },
   {
-    "word": "Quack",
+    "word": "Bear",
+    "meaning": "A large, heavy mammal that walks on the soles of its feet.",
+    "pronunciation": "",
+    "definition": "à¤­à¤¾à¤²à¥‚",
+    "example": "The bear caught a salmon in the river.",
     "category": "Animals & Insects",
-    "subCategory": "Animal Sounds/Calls",
-    "partOfSpeech": "Noun",
-    "meaning": "The characteristic harsh sound made by a duck.",
-    "usageExample": "The duck's quack echoed across the pond."
+    "subCategory": "Animals & Insects"
   },
   {
-    "word": "Chirp",
+    "word": "Bee",
+    "meaning": "An insect of a large group to which the honeybee belongs.",
+    "pronunciation": "",
+    "definition": "An insect of a large group to which the honeybee belongs.",
+    "example": "The bee buzzed from flower to flower.",
     "category": "Animals & Insects",
-    "subCategory": "Animal Sounds/Calls",
-    "partOfSpeech": "Noun",
-    "meaning": "A short, sharp, high-pitched sound made by a small bird or an insect.",
-    "usageExample": "The pleasant chirp of the birds signaled morning."
+    "subCategory": "Animals & Insects"
   },
   {
-    "word": "Roar",
+    "word": "Beetle",
+    "meaning": "An insect with hard front wings that cover the hind wings.",
+    "pronunciation": "",
+    "definition": "An insect with hard front wings that cover the hind wings.",
+    "example": "A shiny green beetle crawled up the stem.",
     "category": "Animals & Insects",
-    "subCategory": "Animal Sounds/Calls",
-    "partOfSpeech": "Noun",
-    "meaning": "A full, deep, prolonged cry uttered by a large wild animal.",
-    "usageExample": "The lion's roar could be heard for miles."
-  },
-  {
-    "word": "Howl",
-    "category": "Animals & Insects",
-    "subCategory": "Animal Sounds/Calls",
-    "partOfSpeech": "Noun",
-    "meaning": "A long, loud, doleful cry uttered by an animal such as a dog or wolf.",
-    "usageExample": "The wolf's howl sent shivers down my spine."
-  },
-  {
-    "word": "Hoot",
-    "category": "Animals & Insects",
-    "subCategory": "Animal Sounds/Calls",
-    "partOfSpeech": "Noun",
-    "meaning": "The deep, musical cry of an owl.",
-    "usageExample": "An owl's hoot broke the silence of the night."
-  },
-  {
-    "word": "Neigh",
-    "category": "Animals & Insects",
-    "subCategory": "Animal Sounds/Calls",
-    "partOfSpeech": "Noun",
-    "meaning": "A characteristic high-pitched sound made by a horse.",
-    "usageExample": "The horse gave a loud neigh."
+    "subCategory": "Animals & Insects"
   },
   {
     "word": "Bray",
-    "category": "Animals & Insects",
-    "subCategory": "Animal Sounds/Calls",
-    "partOfSpeech": "Noun",
     "meaning": "The loud, harsh cry of a donkey or mule.",
-    "usageExample": "The donkey's bray was quite annoying."
+    "pronunciation": "",
+    "definition": "The loud, harsh cry of a donkey or mule.",
+    "example": "The donkey's bray was quite annoying.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
   },
   {
-    "word": "Squeak",
+    "word": "Butterfly",
+    "meaning": "A nectar-feeding insect with two pairs of large, brightly colored wings.",
+    "pronunciation": "",
+    "definition": "A nectar-feeding insect with two pairs of large, brightly colored wings.",
+    "example": "A monarch butterfly landed on my arm.",
     "category": "Animals & Insects",
-    "subCategory": "Animal Sounds/Calls",
-    "partOfSpeech": "Noun",
-    "meaning": "A short, high-pitched sound or cry, typically made by a mouse.",
-    "usageExample": "We heard a tiny squeak from the floorboards."
-  },
-  {
-    "word": "Hiss",
-    "category": "Animals & Insects",
-    "subCategory": "Animal Sounds/Calls",
-    "partOfSpeech": "Noun",
-    "meaning": "A sharp sibilant sound typical of a snake or an angry cat.",
-    "usageExample": "The snake warned us away with an angry hiss."
-  },
-  {
-    "word": "Cluck",
-    "category": "Animals & Insects",
-    "subCategory": "Animal Sounds/Calls",
-    "partOfSpeech": "Noun",
-    "meaning": "The short, low sound made by a hen.",
-    "usageExample": "The mother hen gave a reassuring cluck to her chicks."
-  },
-  {
-    "word": "Gobble",
-    "category": "Animals & Insects",
-    "subCategory": "Animal Sounds/Calls",
-    "partOfSpeech": "Noun",
-    "meaning": "The characteristic throaty sound made by a turkey.",
-    "usageExample": "The male turkey let out a loud gobble."
+    "subCategory": "Animals & Insects"
   },
   {
     "word": "Buzz",
-    "category": "Animals & Insects",
-    "subCategory": "Animal Sounds/Calls",
-    "partOfSpeech": "Noun",
     "meaning": "A low, continuous humming sound, made by an insect.",
-    "usageExample": "The buzz of the bee was distracting."
+    "pronunciation": "",
+    "definition": "A low, continuous humming sound, made by an insect.",
+    "example": "The buzz of the bee was distracting.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Calf",
+    "meaning": "A young bovine animal.",
+    "pronunciation": "",
+    "definition": "A young bovine animal.",
+    "example": "The calf stayed close to its mother.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Canary",
+    "meaning": "A small, typically yellow finch.",
+    "pronunciation": "",
+    "definition": "A small, typically yellow finch.",
+    "example": "The canary sang a beautiful song.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Cat",
+    "meaning": "A small domesticated carnivorous mammal with soft fur.",
+    "pronunciation": "",
+    "definition": "à¤¬à¤¿à¤²à¥à¤²à¥€",
+    "example": "The cat purred softly.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Caterpillar",
+    "meaning": "The larva of a butterfly or moth.",
+    "pronunciation": "",
+    "definition": "The larva of a butterfly or moth.",
+    "example": "The fuzzy caterpillar munched on a leaf.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Centipede",
+    "meaning": "A predatory myriapod invertebrate with a flattened elongated body.",
+    "pronunciation": "",
+    "definition": "A predatory myriapod invertebrate with a flattened elongated body.",
+    "example": "A centipede crawled out from under the rock.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Cheetah",
+    "meaning": "A large, slender spotted cat found in Africa and parts of Asia.",
+    "pronunciation": "",
+    "definition": "A large, slender spotted cat found in Africa and parts of Asia.",
+    "example": "The cheetah sprinted after a gazelle.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Chicken",
+    "meaning": "??????/????",
+    "pronunciation": "????",
+    "definition": "",
+    "example": "The chicken pecked at the scattered seeds.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Chinchilla",
+    "meaning": "A small South American rodent with soft fur.",
+    "pronunciation": "",
+    "definition": "A small South American rodent with soft fur.",
+    "example": "Chinchillas take dust baths to keep clean.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Chirp",
+    "meaning": "A short, sharp, high-pitched sound made by a small bird or an insect.",
+    "pronunciation": "",
+    "definition": "A short, sharp, high-pitched sound made by a small bird or an insect.",
+    "example": "The pleasant chirp of the birds signaled morning.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Clam",
+    "meaning": "A marine bivalve mollusk with shells of equal size.",
+    "pronunciation": "",
+    "definition": "A marine bivalve mollusk with shells of equal size.",
+    "example": "We dug for clams on the beach.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Cluck",
+    "meaning": "The short, low sound made by a hen.",
+    "pronunciation": "",
+    "definition": "The short, low sound made by a hen.",
+    "example": "The mother hen gave a reassuring cluck to her chicks.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Cockatiel",
+    "meaning": "A small crested parrot.",
+    "pronunciation": "",
+    "definition": "A small crested parrot.",
+    "example": "The cockatiel whistled a tune.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Cockroach",
+    "meaning": "A scavenging insect that resembles a beetle.",
+    "pronunciation": "",
+    "definition": "A scavenging insect that resembles a beetle.",
+    "example": "The cockroach scurried under the refrigerator.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Coral",
+    "meaning": "A hard stony substance secreted by certain marine polyps.",
+    "pronunciation": "",
+    "definition": "A hard stony substance secreted by certain marine polyps.",
+    "example": "The coral reef was teeming with colorful fish.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Cow",
+    "meaning": "A fully grown female animal of a domesticated breed of ox.",
+    "pronunciation": "",
+    "definition": "à¤—à¤¾à¤¯",
+    "example": "The cow chewed its cud in the meadow.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Crab",
+    "meaning": "A crustacean with a broad carapace, stalked eyes, and five pairs of legs.",
+    "pronunciation": "",
+    "definition": "A crustacean with a broad carapace, stalked eyes, and five pairs of legs.",
+    "example": "The crab scurried sideways across the sand.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Cricket",
+    "meaning": "An insect, the male of which produces a musical chirping sound.",
+    "pronunciation": "",
+    "definition": "An insect, the male of which produces a musical chirping sound.",
+    "example": "We could hear crickets chirping in the night.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
   },
   {
     "word": "Croak",
-    "category": "Animals & Insects",
-    "subCategory": "Animal Sounds/Calls",
-    "partOfSpeech": "Noun",
     "meaning": "A characteristic deep hoarse sound made by a frog or a crow.",
-    "usageExample": "The frog let out a deep croak from the lily pad."
+    "pronunciation": "",
+    "definition": "A characteristic deep hoarse sound made by a frog or a crow.",
+    "example": "The frog let out a deep croak from the lily pad.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
   },
   {
-    "word": "Trumpet",
+    "word": "Deer",
+    "meaning": "A hoofed grazing or browsing animal, with branched antlers in males.",
+    "pronunciation": "",
+    "definition": "à¤¹à¤¿à¤°à¤£",
+    "example": "The deer vanished into the forest.",
     "category": "Animals & Insects",
-    "subCategory": "Animal Sounds/Calls",
-    "partOfSpeech": "Noun",
-    "meaning": "The loud cry of an elephant.",
-    "usageExample": "The elephant lifted its trunk and let out a loud trumpet."
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Dog",
+    "meaning": "A domesticated carnivorous mammal.",
+    "pronunciation": "",
+    "definition": "à¤•à¥à¤¤à¥à¤¤à¤¾",
+    "example": "The dog wagged its tail.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Dolphin",
+    "meaning": "A small gregarious toothed whale.",
+    "pronunciation": "",
+    "definition": "A small gregarious toothed whale.",
+    "example": "The dolphin leapt playfully out of the water.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Donkey",
+    "meaning": "A domesticated hoofed mammal of the horse family with long ears.",
+    "pronunciation": "",
+    "definition": "A domesticated hoofed mammal of the horse family with long ears.",
+    "example": "The donkey carried a heavy load.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Dragonfly",
+    "meaning": "A fast-flying insect with a long body and two pairs of transparent wings.",
+    "pronunciation": "",
+    "definition": "A fast-flying insect with a long body and two pairs of transparent wings.",
+    "example": "The dragonfly darted across the pond.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Duck",
+    "meaning": "A waterbird with a broad blunt bill, short legs, and webbed feet.",
+    "pronunciation": "",
+    "definition": "à¤¬à¤¤à¥à¤¤à¤–",
+    "example": "The duck quacked and splashed in the pond.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Eel",
+    "meaning": "A snakelike fish with a slender elongated body.",
+    "pronunciation": "",
+    "definition": "A snakelike fish with a slender elongated body.",
+    "example": "The moray eel poked its head out of the coral.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Elephant",
+    "meaning": "A very large plant-eating mammal with a trunk and tusks.",
+    "pronunciation": "",
+    "definition": "à¤¹à¤¾à¤¥à¥€",
+    "example": "The elephant sprayed water over its back.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Ferret",
+    "meaning": "A domesticated polecat kept as a pet.",
+    "pronunciation": "",
+    "definition": "A domesticated polecat kept as a pet.",
+    "example": "The ferret playfully chased the ball.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Flea",
+    "meaning": "A small wingless jumping insect that feeds on the blood of mammals.",
+    "pronunciation": "",
+    "definition": "A small wingless jumping insect that feeds on the blood of mammals.",
+    "example": "The dog was scratching because it had a flea.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Fly",
+    "meaning": "????? / ??????",
+    "pronunciation": "",
+    "definition": "",
+    "example": "A fly buzzed around the room.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Fox",
+    "meaning": "A carnivorous mammal of the dog family with a pointed muzzle and bushy tail.",
+    "pronunciation": "",
+    "definition": "à¤²à¥‹à¤®à¤¡à¤¼à¥€",
+    "example": "The quick brown fox jumped over the log.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Gerbil",
+    "meaning": "A small, jumping desert rodent.",
+    "pronunciation": "",
+    "definition": "A small, jumping desert rodent.",
+    "example": "The gerbil built a nest in its cage.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Giraffe",
+    "meaning": "A large African mammal with a very long neck and forelegs.",
+    "pronunciation": "",
+    "definition": "A large African mammal with a very long neck and forelegs.",
+    "example": "The giraffe reached high into the tree for leaves.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Goat",
+    "meaning": "A hardy domesticated ruminant animal that has backward-curving horns.",
+    "pronunciation": "/É¡oÊŠt/",
+    "definition": "[object Object]",
+    "example": "The goat stood on the rocky ledge.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Gobble",
+    "meaning": "The characteristic throaty sound made by a turkey.",
+    "pronunciation": "",
+    "definition": "The characteristic throaty sound made by a turkey.",
+    "example": "The male turkey let out a loud gobble.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Goldfish",
+    "meaning": "A small orange or red freshwater fish.",
+    "pronunciation": "",
+    "definition": "A small orange or red freshwater fish.",
+    "example": "The goldfish swam around the bowl.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Goose",
+    "meaning": "A large waterbird with a long neck and webbed feet.",
+    "pronunciation": "",
+    "definition": "A large waterbird with a long neck and webbed feet.",
+    "example": "The goose honked loudly at the intruder.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Gorilla",
+    "meaning": "A powerfully built great ape.",
+    "pronunciation": "",
+    "definition": "A powerfully built great ape.",
+    "example": "The silverback gorilla guarded his family.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Grasshopper",
+    "meaning": "A plant-eating insect with long hind legs used for leaping.",
+    "pronunciation": "",
+    "definition": "A plant-eating insect with long hind legs used for leaping.",
+    "example": "The grasshopper leaped high into the air.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Guinea Pig",
+    "meaning": "A stout, tailless South American rodent.",
+    "pronunciation": "",
+    "definition": "A stout, tailless South American rodent.",
+    "example": "She fed her guinea pig some carrots.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Hamster",
+    "meaning": "A small rodent kept as a pet.",
+    "pronunciation": "",
+    "definition": "A small rodent kept as a pet.",
+    "example": "The hamster ran in its wheel.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Hedgehog",
+    "meaning": "A small mammal covered in spines.",
+    "pronunciation": "",
+    "definition": "A small mammal covered in spines.",
+    "example": "The hedgehog rolled into a tight ball.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Hen",
+    "meaning": "A female bird, especially of a domestic fowl.",
+    "pronunciation": "",
+    "definition": "A female bird, especially of a domestic fowl.",
+    "example": "The hen laid a brown egg.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Hippopotamus",
+    "meaning": "A large thick-skinned semiaquatic African mammal.",
+    "pronunciation": "",
+    "definition": "A large thick-skinned semiaquatic African mammal.",
+    "example": "The hippopotamus submerged itself in the muddy river.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Hiss",
+    "meaning": "A sharp sibilant sound typical of a snake or an angry cat.",
+    "pronunciation": "",
+    "definition": "A sharp sibilant sound typical of a snake or an angry cat.",
+    "example": "The snake warned us away with an angry hiss.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Hoot",
+    "meaning": "The deep, musical cry of an owl.",
+    "pronunciation": "",
+    "definition": "The deep, musical cry of an owl.",
+    "example": "An owl's hoot broke the silence of the night.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Horse",
+    "meaning": "A large plant-eating domesticated mammal with solid hoofs.",
+    "pronunciation": "",
+    "definition": "à¤˜à¥‹à¤¡à¤¼à¤¾",
+    "example": "The horse galloped across the field.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Howl",
+    "meaning": "A long, loud, doleful cry uttered by an animal such as a dog or wolf.",
+    "pronunciation": "",
+    "definition": "A long, loud, doleful cry uttered by an animal such as a dog or wolf.",
+    "example": "The wolf's howl sent shivers down my spine.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Iguana",
+    "meaning": "A large, herbivorous tropical American lizard.",
+    "pronunciation": "",
+    "definition": "A large, herbivorous tropical American lizard.",
+    "example": "The iguana basked under the heat lamp.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Jellyfish",
+    "meaning": "A free-swimming marine coelenterate with a jellylike bell-shaped body.",
+    "pronunciation": "",
+    "definition": "A free-swimming marine coelenterate with a jellylike bell-shaped body.",
+    "example": "Be careful of jellyfish stings at the beach.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Kangaroo",
+    "meaning": "A large plant-eating marsupial with a long, powerful tail.",
+    "pronunciation": "",
+    "definition": "A large plant-eating marsupial with a long, powerful tail.",
+    "example": "The kangaroo bounded across the outback.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Koala",
+    "meaning": "A bear-like arboreal Australian marsupial.",
+    "pronunciation": "",
+    "definition": "A bear-like arboreal Australian marsupial.",
+    "example": "The koala slept clinging to a eucalyptus tree.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Ladybug",
+    "meaning": "A small flying beetle, typically red with black spots.",
+    "pronunciation": "",
+    "definition": "A small flying beetle, typically red with black spots.",
+    "example": "The ladybug is considered good luck.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Lamb",
+    "meaning": "A young sheep.",
+    "pronunciation": "",
+    "definition": "A young sheep.",
+    "example": "The newborn lamb took its first wobbly steps.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Leopard",
+    "meaning": "A large, solitary cat that has a fawn or brown coat with black spots.",
+    "pronunciation": "",
+    "definition": "A large, solitary cat that has a fawn or brown coat with black spots.",
+    "example": "The leopard rested on a tree branch.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Lion",
+    "meaning": "A large tawny-colored cat that lives in prides.",
+    "pronunciation": "",
+    "definition": "à¤¶à¥‡à¤°",
+    "example": "The lion roared fiercely across the savanna.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Llama",
+    "meaning": "A domesticated South American camelid, used as a pack animal.",
+    "pronunciation": "",
+    "definition": "A domesticated South American camelid, used as a pack animal.",
+    "example": "The llama carried supplies up the mountain.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Lobster",
+    "meaning": "A large marine crustacean with a cylindrical body and large pincers.",
+    "pronunciation": "",
+    "definition": "A large marine crustacean with a cylindrical body and large pincers.",
+    "example": "Lobsters hide in crevices on the ocean floor.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Manatee",
+    "meaning": "A large, gentle aquatic mammal, also known as a sea cow.",
+    "pronunciation": "",
+    "definition": "A large, gentle aquatic mammal, also known as a sea cow.",
+    "example": "The manatee grazed on underwater grasses.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Meow",
+    "meaning": "The characteristic crying sound of a cat.",
+    "pronunciation": "",
+    "definition": "The characteristic crying sound of a cat.",
+    "example": "The hungry cat let out a loud meow.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Monkey",
+    "meaning": "A small to medium-sized primate.",
+    "pronunciation": "",
+    "definition": "à¤¬à¤‚à¤¦à¤°",
+    "example": "The monkey swung from branch to branch.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Moo",
+    "meaning": "The characteristic deep vocal sound of a cow.",
+    "pronunciation": "",
+    "definition": "The characteristic deep vocal sound of a cow.",
+    "example": "A distant moo was heard from the barn.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Moose",
+    "meaning": "A large deer with palmate antlers.",
+    "pronunciation": "",
+    "definition": "A large deer with palmate antlers.",
+    "example": "A moose stood in the shallow pond.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Mosquito",
+    "meaning": "A slender long-legged fly with aquatic larvae.",
+    "pronunciation": "",
+    "definition": "A slender long-legged fly with aquatic larvae.",
+    "example": "A mosquito bit me on the arm.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Moth",
+    "meaning": "A mainly nocturnal insect related to the butterfly.",
+    "pronunciation": "",
+    "definition": "A mainly nocturnal insect related to the butterfly.",
+    "example": "The moth was attracted to the porch light.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Mule",
+    "meaning": "The offspring of a male donkey and a female horse.",
+    "pronunciation": "",
+    "definition": "The offspring of a male donkey and a female horse.",
+    "example": "The stubborn mule refused to cross the bridge.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Neigh",
+    "meaning": "A characteristic high-pitched sound made by a horse.",
+    "pronunciation": "",
+    "definition": "A characteristic high-pitched sound made by a horse.",
+    "example": "The horse gave a loud neigh.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Octopus",
+    "meaning": "A cephalopod mollusk with eight sucker-bearing arms.",
+    "pronunciation": "",
+    "definition": "A cephalopod mollusk with eight sucker-bearing arms.",
+    "example": "The octopus released a cloud of ink to escape.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Oink",
+    "meaning": "The characteristic grunting sound of a pig.",
+    "pronunciation": "",
+    "definition": "The characteristic grunting sound of a pig.",
+    "example": "The pig gave a satisfied oink.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Ox",
+    "meaning": "A domesticated bovine animal kept for draft purposes.",
+    "pronunciation": "",
+    "definition": "A domesticated bovine animal kept for draft purposes.",
+    "example": "The ox pulled the heavy plow through the soil.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Oyster",
+    "meaning": "A bivalve mollusk with a rough irregular shell.",
+    "pronunciation": "",
+    "definition": "A bivalve mollusk with a rough irregular shell.",
+    "example": "Some oysters can produce pearls.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Panda",
+    "meaning": "A large bear-like mammal with characteristic black and white markings.",
+    "pronunciation": "",
+    "definition": "A large bear-like mammal with characteristic black and white markings.",
+    "example": "The panda chewed on bamboo shoots.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Parrot",
+    "meaning": "A tropical bird with a curved beak.",
+    "pronunciation": "",
+    "definition": "à¤¤à¥‹à¤¤à¤¾",
+    "example": "The parrot repeated what I said.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Pig",
+    "meaning": "An omnivorous domesticated hoofed mammal with sparse bristly hair.",
+    "pronunciation": "",
+    "definition": "An omnivorous domesticated hoofed mammal with sparse bristly hair.",
+    "example": "The pig rolled happily in the mud.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Piglet",
+    "meaning": "A young pig.",
+    "pronunciation": "",
+    "definition": "A young pig.",
+    "example": "The pink piglet squealed when picked up.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Pony",
+    "meaning": "A horse of a small breed.",
+    "pronunciation": "",
+    "definition": "A horse of a small breed.",
+    "example": "The children took turns riding the pony.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
   },
   {
     "word": "Purr",
-    "category": "Animals & Insects",
-    "subCategory": "Animal Sounds/Calls",
-    "partOfSpeech": "Noun",
     "meaning": "A low continuous vibratory sound expressing contentment in a cat.",
-    "usageExample": "The cat's gentle purr was soothing."
+    "pronunciation": "",
+    "definition": "A low continuous vibratory sound expressing contentment in a cat.",
+    "example": "The cat's gentle purr was soothing.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Quack",
+    "meaning": "The characteristic harsh sound made by a duck.",
+    "pronunciation": "",
+    "definition": "The characteristic harsh sound made by a duck.",
+    "example": "The duck's quack echoed across the pond.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Rabbit",
+    "meaning": "A burrowing, plant-eating mammal with long ears.",
+    "pronunciation": "",
+    "definition": "à¤–à¤°à¤—à¥‹à¤¶",
+    "example": "The rabbit hopped across the lawn.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Rhinoceros",
+    "meaning": "A large, heavily built plant-eating mammal with one or two horns.",
+    "pronunciation": "",
+    "definition": "A large, heavily built plant-eating mammal with one or two horns.",
+    "example": "The rhinoceros charged at the vehicle.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Roar",
+    "meaning": "A full, deep, prolonged cry uttered by a large wild animal.",
+    "pronunciation": "",
+    "definition": "A full, deep, prolonged cry uttered by a large wild animal.",
+    "example": "The lion's roar could be heard for miles.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Rooster",
+    "meaning": "A male domestic chicken.",
+    "pronunciation": "",
+    "definition": "A male domestic chicken.",
+    "example": "The rooster crowed at dawn.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Seahorse",
+    "meaning": "A small marine fish with a horse-like head and upright posture.",
+    "pronunciation": "",
+    "definition": "A small marine fish with a horse-like head and upright posture.",
+    "example": "The seahorse anchored itself to the seaweed.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Seal",
+    "meaning": "A fish-eating marine mammal with a streamlined body.",
+    "pronunciation": "",
+    "definition": "A fish-eating marine mammal with a streamlined body.",
+    "example": "The seal balanced a ball on its nose at the aquarium.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Shark",
+    "meaning": "A long-bodied marine fish with a cartilaginous skeleton.",
+    "pronunciation": "",
+    "definition": "A long-bodied marine fish with a cartilaginous skeleton.",
+    "example": "The great white shark is a formidable predator.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Sheep",
+    "meaning": "A domesticated ruminant animal with a thick woolly coat.",
+    "pronunciation": "",
+    "definition": "A domesticated ruminant animal with a thick woolly coat.",
+    "example": "A flock of sheep grazed on the hillside.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Shrimp",
+    "meaning": "A small free-swimming crustacean with an elongated body.",
+    "pronunciation": "",
+    "definition": "A small free-swimming crustacean with an elongated body.",
+    "example": "A school of shrimp swam by the dock.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Sloth",
+    "meaning": "A slow-moving tropical American mammal that hangs upside down.",
+    "pronunciation": "",
+    "definition": "A slow-moving tropical American mammal that hangs upside down.",
+    "example": "The sloth moved deliberately through the canopy.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Spider",
+    "meaning": "An eight-legged predatory arachnid.",
+    "pronunciation": "",
+    "definition": "An eight-legged predatory arachnid.",
+    "example": "The spider spun a web in the corner.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Squeak",
+    "meaning": "A short, high-pitched sound or cry, typically made by a mouse.",
+    "pronunciation": "",
+    "definition": "A short, high-pitched sound or cry, typically made by a mouse.",
+    "example": "We heard a tiny squeak from the floorboards.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Squid",
+    "meaning": "An elongated, fast-swimming cephalopod mollusk.",
+    "pronunciation": "",
+    "definition": "An elongated, fast-swimming cephalopod mollusk.",
+    "example": "The giant squid lives deep in the ocean.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Starfish",
+    "meaning": "A marine echinoderm with five or more radiating arms.",
+    "pronunciation": "",
+    "definition": "A marine echinoderm with five or more radiating arms.",
+    "example": "The starfish clung to the rocky shore.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Stingray",
+    "meaning": "A bottom-dwelling marine ray with a flattened diamond-shaped body.",
+    "pronunciation": "",
+    "definition": "A bottom-dwelling marine ray with a flattened diamond-shaped body.",
+    "example": "The stingray glided smoothly over the sandy bottom.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Termite",
+    "meaning": "A pale soft-bodied insect that lives in large colonies and feeds on wood.",
+    "pronunciation": "",
+    "definition": "A pale soft-bodied insect that lives in large colonies and feeds on wood.",
+    "example": "Termites caused significant damage to the house.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Tick",
+    "meaning": "A parasitic arachnid that attaches itself to the skin and sucks blood.",
+    "pronunciation": "",
+    "definition": "A parasitic arachnid that attaches itself to the skin and sucks blood.",
+    "example": "Check yourself for ticks after walking in the woods.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Tiger",
+    "meaning": "A large, solitary cat with a yellow-orange coat and dark stripes.",
+    "pronunciation": "",
+    "definition": "à¤¬à¤¾à¤˜",
+    "example": "The tiger stalked its prey in the jungle.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Trumpet",
+    "meaning": "The loud cry of an elephant.",
+    "pronunciation": "",
+    "definition": "The loud cry of an elephant.",
+    "example": "The elephant lifted its trunk and let out a loud trumpet.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Turkey",
+    "meaning": "A large, primarily North American bird.",
+    "pronunciation": "",
+    "definition": "A large, primarily North American bird.",
+    "example": "The turkey gobbled in the barnyard.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Turtle",
+    "meaning": "A reptile with a shell.",
+    "pronunciation": "",
+    "definition": "à¤•à¤›à¥à¤†",
+    "example": "The turtle moved very slowly.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Walrus",
+    "meaning": "A large marine mammal with flippers, a broad head, and long tusks.",
+    "pronunciation": "",
+    "definition": "A large marine mammal with flippers, a broad head, and long tusks.",
+    "example": "The walrus rested on the ice floe.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Wasp",
+    "meaning": "A social winged insect that has a narrow waist and a sting.",
+    "pronunciation": "",
+    "definition": "A social winged insect that has a narrow waist and a sting.",
+    "example": "The wasp built a paper nest under the eaves.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Whale",
+    "meaning": "A very large marine mammal with a streamlined hairless body.",
+    "pronunciation": "",
+    "definition": "A very large marine mammal with a streamlined hairless body.",
+    "example": "The blue whale is the largest animal on earth.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Wolf",
+    "meaning": "A wild carnivorous mammal of the dog family.",
+    "pronunciation": "",
+    "definition": "à¤­à¥‡à¤¡à¤¼à¤¿à¤¯à¤¾",
+    "example": "The wolf howled at the full moon.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Worm",
+    "meaning": "A creeping invertebrate animal with a long, slender soft body.",
+    "pronunciation": "",
+    "definition": "A creeping invertebrate animal with a long, slender soft body.",
+    "example": "An earthworm wriggled in the damp soil.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
+  },
+  {
+    "word": "Zebra",
+    "meaning": "An African wild horse with black-and-white stripes.",
+    "pronunciation": "",
+    "definition": "An African wild horse with black-and-white stripes.",
+    "example": "A herd of zebras grazed on the plains.",
+    "category": "Animals & Insects",
+    "subCategory": "Animals & Insects"
   }
 ]

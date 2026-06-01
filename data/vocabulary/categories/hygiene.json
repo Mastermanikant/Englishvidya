@@ -1,135 +1,218 @@
 [
   {
-    "word": "Toothbrush",
+    "word": "Aftershave",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "",
+    "example": "",
     "category": "Hygiene",
-    "meaning_hi": "???????"
-  },
-  {
-    "word": "Toothpaste",
-    "category": "Hygiene",
-    "meaning_hi": "????????"
-  },
-  {
-    "word": "Mouthwash",
-    "category": "Hygiene"
-  },
-  {
-    "word": "Dental floss",
-    "category": "Hygiene"
-  },
-  {
-    "word": "Shampoo",
-    "category": "Hygiene",
-    "meaning_hi": "??????"
-  },
-  {
-    "word": "Conditioner",
-    "category": "Hygiene",
-    "meaning_hi": "???????"
-  },
-  {
-    "word": "Hair oil",
-    "category": "Hygiene"
-  },
-  {
-    "word": "Comb",
-    "category": "Hygiene",
-    "meaning_hi": "???? ????"
-  },
-  {
-    "word": "Hairbrush",
-    "category": "Hygiene",
-    "meaning_hi": "????????"
-  },
-  {
-    "word": "Body wash",
-    "category": "Hygiene"
+    "subCategory": "Hygiene"
   },
   {
     "word": "Bath soap",
-    "category": "Hygiene"
-  },
-  {
-    "word": "Loofah",
-    "category": "Hygiene"
-  },
-  {
-    "word": "Towel",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "",
+    "example": "",
     "category": "Hygiene",
-    "meaning_hi": "??????"
-  },
-  {
-    "word": "Face wash",
-    "category": "Hygiene"
-  },
-  {
-    "word": "Moisturizer",
-    "category": "Hygiene"
+    "subCategory": "Hygiene"
   },
   {
     "word": "Body lotion",
-    "category": "Hygiene"
-  },
-  {
-    "word": "Talcum powder",
-    "category": "Hygiene"
-  },
-  {
-    "word": "Deodorant",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "",
+    "example": "",
     "category": "Hygiene",
-    "meaning_hi": "??????????? (?????????)"
+    "subCategory": "Hygiene"
   },
   {
-    "word": "Perfume",
+    "word": "Body wash",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "",
+    "example": "",
     "category": "Hygiene",
-    "meaning_hi": "???? / ???????"
+    "subCategory": "Hygiene"
   },
   {
-    "word": "Shaving cream",
-    "category": "Hygiene"
-  },
-  {
-    "word": "Razor",
-    "category": "Hygiene"
-  },
-  {
-    "word": "Aftershave",
-    "category": "Hygiene"
-  },
-  {
-    "word": "Hand sanitizer",
-    "category": "Hygiene"
-  },
-  {
-    "word": "Hand wash",
-    "category": "Hygiene"
-  },
-  {
-    "word": "Nail clipper",
-    "category": "Hygiene"
+    "word": "Conditioner",
+    "meaning": "???????",
+    "pronunciation": "",
+    "definition": "",
+    "example": "",
+    "category": "Hygiene",
+    "subCategory": "Hygiene"
   },
   {
     "word": "Cotton buds",
-    "category": "Hygiene"
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "",
+    "example": "",
+    "category": "Hygiene",
+    "subCategory": "Hygiene"
   },
   {
     "word": "Cotton pads",
-    "category": "Hygiene"
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "",
+    "example": "",
+    "category": "Hygiene",
+    "subCategory": "Hygiene"
   },
   {
-    "word": "Sanitary pads",
-    "category": "Hygiene"
+    "word": "Dental floss",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "",
+    "example": "",
+    "category": "Hygiene",
+    "subCategory": "Hygiene"
+  },
+  {
+    "word": "Deodorant",
+    "meaning": "??????????? (?????????)",
+    "pronunciation": "",
+    "definition": "",
+    "example": "",
+    "category": "Hygiene",
+    "subCategory": "Hygiene"
   },
   {
     "word": "Diapers",
-    "category": "Hygiene"
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "",
+    "example": "",
+    "category": "Hygiene",
+    "subCategory": "Hygiene"
   },
   {
-    "word": "Wet wipes",
-    "category": "Hygiene"
+    "word": "Face wash",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "",
+    "example": "",
+    "category": "Hygiene",
+    "subCategory": "Hygiene"
+  },
+  {
+    "word": "Hair oil",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "",
+    "example": "",
+    "category": "Hygiene",
+    "subCategory": "Hygiene"
+  },
+  {
+    "word": "Hand sanitizer",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "",
+    "example": "",
+    "category": "Hygiene",
+    "subCategory": "Hygiene"
+  },
+  {
+    "word": "Hand wash",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "",
+    "example": "",
+    "category": "Hygiene",
+    "subCategory": "Hygiene"
+  },
+  {
+    "word": "Loofah",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "",
+    "example": "",
+    "category": "Hygiene",
+    "subCategory": "Hygiene"
+  },
+  {
+    "word": "Moisturizer",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "",
+    "example": "",
+    "category": "Hygiene",
+    "subCategory": "Hygiene"
+  },
+  {
+    "word": "Mouthwash",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "",
+    "example": "",
+    "category": "Hygiene",
+    "subCategory": "Hygiene"
+  },
+  {
+    "word": "Nail clipper",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "",
+    "example": "",
+    "category": "Hygiene",
+    "subCategory": "Hygiene"
+  },
+  {
+    "word": "Perfume",
+    "meaning": "???? / ???????",
+    "pronunciation": "",
+    "definition": "",
+    "example": "",
+    "category": "Hygiene",
+    "subCategory": "Hygiene"
+  },
+  {
+    "word": "Sanitary pads",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "",
+    "example": "",
+    "category": "Hygiene",
+    "subCategory": "Hygiene"
+  },
+  {
+    "word": "Shaving cream",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "",
+    "example": "",
+    "category": "Hygiene",
+    "subCategory": "Hygiene"
+  },
+  {
+    "word": "Talcum powder",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "",
+    "example": "",
+    "category": "Hygiene",
+    "subCategory": "Hygiene"
   },
   {
     "word": "Toilet paper",
-    "category": "Hygiene"
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "",
+    "example": "",
+    "category": "Hygiene",
+    "subCategory": "Hygiene"
+  },
+  {
+    "word": "Wet wipes",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "",
+    "example": "",
+    "category": "Hygiene",
+    "subCategory": "Hygiene"
   }
 ]

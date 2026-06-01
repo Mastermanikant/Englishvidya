@@ -1,184 +1,209 @@
 [
   {
-    "word": "continent",
-    "meaning": "One of the seven large landmasses of the Earth",
-    "example": "Asia is the largest continent in the world.",
-    "category": "Social"
-  },
-  {
-    "word": "democracy",
-    "meaning": "A system of government in which citizens vote to elect their leaders",
-    "example": "India is the world's largest democracy.",
-    "category": "Social"
-  },
-  {
-    "word": "constitution",
-    "meaning": "The fundamental set of laws and principles that govern a country",
-    "example": "The Indian Constitution came into effect on 26th January 1950.",
-    "category": "Social"
+    "word": "census",
+    "meaning": "An official count of all the people living in a country, usually including details about them",
+    "pronunciation": "",
+    "definition": "An official count of all the people living in a country, usually including details about them",
+    "example": "A national census is conducted every ten years in India.",
+    "category": "Social",
+    "subCategory": "Social"
   },
   {
     "word": "citizenship",
     "meaning": "The status of being a legally recognized member of a country with rights and responsibilities",
+    "pronunciation": "",
+    "definition": "The status of being a legally recognized member of a country with rights and responsibilities",
     "example": "Citizenship grants the right to vote in national elections.",
-    "category": "Social"
-  },
-  {
-    "word": "culture",
-    "meaning": "The customs, traditions, arts, and social behaviour of a group of people",
-    "example": "India has a rich and diverse culture that varies by region.",
-    "category": "Social"
-  },
-  {
-    "word": "economy",
-    "meaning": "The system of production, distribution, and consumption of goods and services in a region",
-    "example": "Agriculture plays an important role in India's economy.",
-    "category": "Social"
-  },
-  {
-    "word": "migration",
-    "meaning": "The movement of people from one place to another to settle permanently or temporarily",
-    "example": "Migration from rural to urban areas has increased in recent decades.",
-    "category": "Social"
-  },
-  {
-    "word": "latitude",
-    "meaning": "The angular distance of a place north or south of the Earth's equator, measured in degrees",
-    "example": "The equator is at 0 degrees latitude.",
-    "category": "Social"
-  },
-  {
-    "word": "longitude",
-    "meaning": "The angular distance of a place east or west of the prime meridian, measured in degrees",
-    "example": "India spans from about 68 to 97 degrees east longitude.",
-    "category": "Social"
-  },
-  {
-    "word": "parliament",
-    "meaning": "The highest legislative body of a country, responsible for making laws",
-    "example": "The Indian Parliament consists of the Lok Sabha and the Rajya Sabha.",
-    "category": "Social"
-  },
-  {
-    "word": "resource",
-    "meaning": "A natural or human-made material that is useful and has value for economic or other purposes",
-    "example": "Water is a precious natural resource that must be conserved.",
-    "category": "Social"
-  },
-  {
-    "word": "population",
-    "meaning": "The total number of people living in a particular area or country",
-    "example": "India has a population of over 1.4 billion people.",
     "category": "Social",
-    "meaning_hi": "?????",
-    "pronunciation": "/?p?pj??le???n/"
+    "subCategory": "Social"
   },
   {
     "word": "climate",
     "meaning": "The typical weather conditions of a region over a long period of time",
+    "pronunciation": "",
+    "definition": "à¤œà¤²à¤µà¤¾à¤¯à¥",
     "example": "The Sahara Desert has a hot and dry climate.",
-    "category": "Social"
+    "category": "Social",
+    "subCategory": "Social"
   },
   {
-    "word": "plateau",
-    "meaning": "A large flat area of high land, often with steep sides",
-    "example": "The Deccan Plateau covers much of southern India.",
-    "category": "Social"
+    "word": "constitution",
+    "meaning": "The fundamental set of laws and principles that govern a country",
+    "pronunciation": "",
+    "definition": "The fundamental set of laws and principles that govern a country",
+    "example": "The Indian Constitution came into effect on 26th January 1950.",
+    "category": "Social",
+    "subCategory": "Social"
   },
   {
-    "word": "peninsula",
-    "meaning": "A piece of land that is almost entirely surrounded by water and connected to a larger landmass",
-    "example": "India is often called a peninsula because it is surrounded by sea on three sides.",
-    "category": "Social"
+    "word": "continent",
+    "meaning": "One of the seven large landmasses of the Earth",
+    "pronunciation": "",
+    "definition": "Any of the world's main continuous expanses of land.",
+    "example": "Asia is the largest continent in the world.",
+    "category": "Social",
+    "subCategory": "Social"
   },
   {
-    "word": "government",
-    "meaning": "The group of people with the authority to make and enforce laws in a country or region",
-    "example": "The government announced new policies to improve public education.",
-    "category": "Social"
+    "word": "culture",
+    "meaning": "The customs, traditions, arts, and social behaviour of a group of people",
+    "pronunciation": "",
+    "definition": "The customs, traditions, arts, and social behaviour of a group of people",
+    "example": "India has a rich and diverse culture that varies by region.",
+    "category": "Social",
+    "subCategory": "Social"
   },
   {
-    "word": "census",
-    "meaning": "An official count of all the people living in a country, usually including details about them",
-    "example": "A national census is conducted every ten years in India.",
-    "category": "Social"
-  },
-  {
-    "word": "trade",
-    "meaning": "The buying and selling of goods and services between people or countries",
-    "example": "India has a long history of trade along the Silk Road.",
-    "category": "Social"
-  },
-  {
-    "word": "irrigation",
-    "meaning": "The supply of water to agricultural land through channels or pipes to help crops grow",
-    "example": "Irrigation systems allow farmers to grow crops even in dry regions.",
-    "category": "Social"
-  },
-  {
-    "word": "heritage",
-    "meaning": "Features of history, culture, and traditions passed down through generations",
-    "example": "The Taj Mahal is part of India's world heritage.",
-    "category": "Social"
-  },
-  {
-    "word": "tributary",
-    "meaning": "A river or stream that flows into a larger river",
-    "example": "The Yamuna is an important tributary of the Ganga river.",
-    "category": "Social"
-  },
-  {
-    "word": "monsoon",
-    "meaning": "A seasonal wind pattern that brings heavy rainfall to a region, especially South Asia",
-    "example": "The southwest monsoon brings most of India's annual rainfall.",
-    "category": "Social"
-  },
-  {
-    "word": "urbanisation",
-    "meaning": "The process by which towns and cities grow in size as more people move from rural to urban areas",
-    "example": "Rapid urbanisation has led to the growth of slums in many cities.",
-    "category": "Social"
-  },
-  {
-    "word": "sovereignty",
-    "meaning": "The full right and power of a country to govern itself without interference from outside",
-    "example": "The constitution upholds the sovereignty of the Indian nation.",
-    "category": "Social"
-  },
-  {
-    "word": "legislature",
-    "meaning": "The branch of government responsible for making laws",
-    "example": "The legislature passed a new education bill last year.",
-    "category": "Social"
-  },
-  {
-    "word": "fundamental rights",
-    "meaning": "Basic rights and freedoms guaranteed to all citizens by the constitution of a country",
-    "example": "Freedom of speech is one of the fundamental rights in India.",
-    "category": "Social"
-  },
-  {
-    "word": "deforestation",
-    "meaning": "The clearing of forests on a large scale, often resulting in damage to the environment",
-    "example": "Deforestation destroys wildlife habitats and contributes to climate change.",
-    "category": "Social"
-  },
-  {
-    "word": "prime meridian",
-    "meaning": "The line of longitude at 0 degrees that divides the Earth into the Eastern and Western Hemispheres",
-    "example": "Greenwich, England, is located on the prime meridian.",
-    "category": "Social"
+    "word": "economy",
+    "meaning": "The system of production, distribution, and consumption of goods and services in a region",
+    "pronunciation": "",
+    "definition": "The system of production, distribution, and consumption of goods and services in a region",
+    "example": "Agriculture plays an important role in India's economy.",
+    "category": "Social",
+    "subCategory": "Social"
   },
   {
     "word": "equality",
     "meaning": "The state of being equal in rights, status, and opportunities",
+    "pronunciation": "",
+    "definition": "The state of being equal, especially in status, rights, and opportunities.",
     "example": "The constitution guarantees equality before the law for all citizens.",
-    "category": "Social"
+    "category": "Social",
+    "subCategory": "Social"
   },
   {
-    "word": "discrimination",
-    "meaning": "The unjust treatment of people based on their race, gender, religion, or other characteristics",
-    "example": "Discrimination based on caste is prohibited by Indian law.",
-    "category": "Social"
+    "word": "fundamental rights",
+    "meaning": "Basic rights and freedoms guaranteed to all citizens by the constitution of a country",
+    "pronunciation": "",
+    "definition": "Basic rights and freedoms guaranteed to all citizens by the constitution of a country",
+    "example": "Freedom of speech is one of the fundamental rights in India.",
+    "category": "Social",
+    "subCategory": "Social"
+  },
+  {
+    "word": "government",
+    "meaning": "The group of people with the authority to make and enforce laws in a country or region",
+    "pronunciation": "",
+    "definition": "The group of people with the authority to make and enforce laws in a country or region",
+    "example": "The government announced new policies to improve public education.",
+    "category": "Social",
+    "subCategory": "Social"
+  },
+  {
+    "word": "heritage",
+    "meaning": "Features of history, culture, and traditions passed down through generations",
+    "pronunciation": "",
+    "definition": "Features of history, culture, and traditions passed down through generations",
+    "example": "The Taj Mahal is part of India's world heritage.",
+    "category": "Social",
+    "subCategory": "Social"
+  },
+  {
+    "word": "irrigation",
+    "meaning": "The supply of water to agricultural land through channels or pipes to help crops grow",
+    "pronunciation": "",
+    "definition": "The supply of water to agricultural land through channels or pipes to help crops grow",
+    "example": "Irrigation systems allow farmers to grow crops even in dry regions.",
+    "category": "Social",
+    "subCategory": "Social"
+  },
+  {
+    "word": "latitude",
+    "meaning": "The angular distance of a place north or south of the Earth's equator, measured in degrees",
+    "pronunciation": "",
+    "definition": "The angular distance of a place north or south of the earth's equator.",
+    "example": "The equator is at 0 degrees latitude.",
+    "category": "Social",
+    "subCategory": "Social"
+  },
+  {
+    "word": "legislature",
+    "meaning": "The branch of government responsible for making laws",
+    "pronunciation": "",
+    "definition": "The branch of government responsible for making laws",
+    "example": "The legislature passed a new education bill last year.",
+    "category": "Social",
+    "subCategory": "Social"
+  },
+  {
+    "word": "longitude",
+    "meaning": "The angular distance of a place east or west of the prime meridian, measured in degrees",
+    "pronunciation": "",
+    "definition": "The angular distance of a place east or west of the meridian at Greenwich.",
+    "example": "India spans from about 68 to 97 degrees east longitude.",
+    "category": "Social",
+    "subCategory": "Social"
+  },
+  {
+    "word": "peninsula",
+    "meaning": "A piece of land that is almost entirely surrounded by water and connected to a larger landmass",
+    "pronunciation": "",
+    "definition": "A piece of land almost surrounded by water or projecting out into a body of water.",
+    "example": "India is often called a peninsula because it is surrounded by sea on three sides.",
+    "category": "Social",
+    "subCategory": "Social"
+  },
+  {
+    "word": "plateau",
+    "meaning": "A large flat area of high land, often with steep sides",
+    "pronunciation": "",
+    "definition": "An area of relatively level high ground.",
+    "example": "The Deccan Plateau covers much of southern India.",
+    "category": "Social",
+    "subCategory": "Social"
+  },
+  {
+    "word": "population",
+    "meaning": "?????",
+    "pronunciation": "/?p?pj??le???n/",
+    "definition": "",
+    "example": "India has a population of over 1.4 billion people.",
+    "category": "Social",
+    "subCategory": "Social"
+  },
+  {
+    "word": "prime meridian",
+    "meaning": "The line of longitude at 0 degrees that divides the Earth into the Eastern and Western Hemispheres",
+    "pronunciation": "",
+    "definition": "The earth's zero of longitude, which by convention passes through Greenwich, England.",
+    "example": "Greenwich, England, is located on the prime meridian.",
+    "category": "Social",
+    "subCategory": "Social"
+  },
+  {
+    "word": "resource",
+    "meaning": "A natural or human-made material that is useful and has value for economic or other purposes",
+    "pronunciation": "",
+    "definition": "A natural or human-made material that is useful and has value for economic or other purposes",
+    "example": "Water is a precious natural resource that must be conserved.",
+    "category": "Social",
+    "subCategory": "Social"
+  },
+  {
+    "word": "trade",
+    "meaning": "The buying and selling of goods and services between people or countries",
+    "pronunciation": "",
+    "definition": "The buying and selling of goods and services between people or countries",
+    "example": "India has a long history of trade along the Silk Road.",
+    "category": "Social",
+    "subCategory": "Social"
+  },
+  {
+    "word": "tributary",
+    "meaning": "A river or stream that flows into a larger river",
+    "pronunciation": "",
+    "definition": "A river or stream flowing into a larger river or lake.",
+    "example": "The Yamuna is an important tributary of the Ganga river.",
+    "category": "Social",
+    "subCategory": "Social"
+  },
+  {
+    "word": "urbanisation",
+    "meaning": "The process by which towns and cities grow in size as more people move from rural to urban areas",
+    "pronunciation": "",
+    "definition": "The process by which towns and cities grow in size as more people move from rural to urban areas",
+    "example": "Rapid urbanisation has led to the growth of slums in many cities.",
+    "category": "Social",
+    "subCategory": "Social"
   }
 ]

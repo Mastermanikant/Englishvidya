@@ -1,1 +1,182 @@
-﻿[{"word":"FROM MY PERSPECTIVE","meaning":"Used to introduce an opinion based on your personal experience, job role, or viewpoint.","example":"From my perspective, the new software is much easier to use than the previous version.","category":"Stance Markers"},{"word":"IN MY VIEW","meaning":"A formal phrase used to introduce your opinion.","example":"In my view, the company should invest more in employee training.","category":"Stance Markers"},{"word":"AS I SEE IT","meaning":"Used to state your opinion or explanation of a situation.","example":"As I see it, we have two main choices: expand the team or extend the deadline.","category":"Stance Markers"},{"word":"FROM WHAT I UNDERSTAND","meaning":"Used to show that your statement is based on information you have received, which might not be complete.","example":"From what I understand, they are offering us a discount if we sign a two-year contract.","category":"Stance Markers"},{"word":"ACCORDING TO","meaning":"As stated by a person, document, or group (used to distance yourself from the statement).","example":"According to the manual, the machine needs to be cleaned every week.","category":"Stance Markers"},{"word":"PERSONALLY","meaning":"Used to show that you are giving your own opinion, rather than speaking for a group.","example":"Personally, I prefer working from home, but I understand why some prefer the office.","category":"Stance Markers"},{"word":"AS FAR AS I\u0027M CONCERNED","meaning":"Used to introduce your own opinion, especially when it might differ from others.","example":"As far as I\u0027m concerned, the project is finished once we submit this final report.","category":"Stance Markers"},{"word":"IT IS WIDELY BELIEVED","meaning":"Used to state a common belief without naming specific people, making it sound objective.","example":"It is widely believed that learning a second language improves cognitive skills.","category":"Stance Markers"},{"word":"IT IS GENERALLY ACCEPTED","meaning":"Used to present an opinion as a common fact, reducing personal accountability for the claim.","example":"It is generally accepted that regular exercise leads to better physical health.","category":"Stance Markers"},{"word":"TO SOME EXTENT","meaning":"Used to say that something is partly, but not completely, true.","example":"I agree with your feedback to some extent, but I think the introduction is fine.","category":"Stance Markers"},{"word":"TO A CERTAIN DEGREE","meaning":"Partly; up to a point.","example":"To a certain degree, success in business depends on luck as well as hard work.","category":"Stance Markers"},{"word":"IN ALL LIKELIHOOD","meaning":"Very probably; almost certainly.","example":"In all likelihood, the manager will approve your vacation request since you asked early.","category":"Stance Markers"},{"word":"IN ALL PROBABILITY","meaning":"Very likely; used to state a strong expectation without complete certainty.","example":"In all probability, the flight will be delayed due to the heavy snow.","category":"Stance Markers"},{"word":"FOR THE MOST PART","meaning":"Mostly; in general.","example":"For the most part, the clients were happy with the demonstration we gave them.","category":"Stance Markers"},{"word":"GENERALLY SPEAKING","meaning":"In most situations; as a general rule.","example":"Generally speaking, junior developers need more guidance during their first few months.","category":"Stance Markers"},{"word":"BROADLY SPEAKING","meaning":"Without focusing on small details; generally.","example":"Broadly speaking, our sales have increased, but a few products are not doing well.","category":"Stance Markers"},{"word":"AS A RULE","meaning":"Usually; as a habit or general practice.","example":"As a rule, we do not reply to support emails over the weekend.","category":"Stance Markers"},{"word":"IN PRINCIPLE","meaning":"Used to say that you agree with the general idea of a plan, but there might be practical problems.","example":"I agree with your proposal in principle, but we need to figure out where the funding will come from.","category":"Stance Markers"},{"word":"ON BALANCE","meaning":"After considering all the facts or opinions.","example":"On balance, I think the benefits of the merger outweigh the potential risks.","category":"Stance Markers"},{"word":"ALL THINGS CONSIDERED","meaning":"Used to make a general statement after thinking about all the aspects of a situation.","example":"All things considered, the event was a great success, despite the technical glitches.","category":"Stance Markers"},{"word":"IN GENERAL","meaning":"Usually or in most cases.","example":"In general, we try to avoid scheduling meetings on Friday afternoons.","category":"Stance Markers"},{"word":"SO FAR AS I CAN TELL","meaning":"Based on the evidence or information that is currently available.","example":"So far as I can tell, the server is running normally and there are no active errors.","category":"Stance Markers"},{"word":"BY AND LARGE","meaning":"On the whole; generally speaking.","example":"By and large, the new remote work policy has been received positively by the staff.","category":"Stance Markers"},{"word":"FOR ALL I KNOW","meaning":"Used to say that you do not have enough information to be sure of something.","example":"She might have left the company already, for all I know.","category":"Stance Markers"},{"word":"IT GOES WITHOUT SAYING","meaning":"Used to state something that is obvious, though still stated to show alignment.","example":"It goes without saying that we will need to work hard to meet this tight deadline.","category":"Stance Markers"},{"word":"TO BE FAIR","meaning":"Used to introduce a fact or point that makes your judgment of a situation more balanced or less critical.","example":"The developer made a mistake, but to be fair, the requirements were extremely confusing.","category":"Stance Markers"},{"word":"INDEED","meaning":"Used to emphasize a statement or confirm something that has already been suggested.","example":"The design is indeed very clean, but it might not appeal to older users.","category":"Stance Markers"},{"word":"ADMITTEDLY","meaning":"Used when admitting that something is true, especially when it goes against your main argument.","example":"Admittedly, the new process takes longer, but it reduces errors significantly.","category":"Stance Markers"},{"word":"IN MY HUMBLE OPINION","meaning":"A polite and slightly humorous phrase used to share your view, showing you do not think your opinion is better than others.","example":"In my humble opinion, the original version was much more engaging.","category":"Stance Markers"},{"word":"CONCEIVABLY","meaning":"In a way that can be imagined or believed; possibly.","example":"We could conceivably launch the beta version by the end of next month if everything goes smoothly.","category":"Stance Markers"}]
+[
+  {
+    "word": "ADMITTEDLY",
+    "meaning": "Used when admitting that something is true, especially when it goes against your main argument.",
+    "pronunciation": "",
+    "definition": "Used to introduce a concession or statement.",
+    "example": "Admittedly, the new process takes longer, but it reduces errors significantly.",
+    "category": "Stance Markers",
+    "subCategory": "Stance Markers"
+  },
+  {
+    "word": "ALL THINGS CONSIDERED",
+    "meaning": "Used to make a general statement after thinking about all the aspects of a situation.",
+    "pronunciation": "",
+    "definition": "Used to make a general statement after thinking about all the aspects of a situation.",
+    "example": "All things considered, the event was a great success, despite the technical glitches.",
+    "category": "Stance Markers",
+    "subCategory": "Stance Markers"
+  },
+  {
+    "word": "AS FAR AS I'M CONCERNED",
+    "meaning": "Used to introduce your own opinion, especially when it might differ from others.",
+    "pronunciation": "",
+    "definition": "Used to introduce your own opinion, especially when it might differ from others.",
+    "example": "As far as I'm concerned, the project is finished once we submit this final report.",
+    "category": "Stance Markers",
+    "subCategory": "Stance Markers"
+  },
+  {
+    "word": "AS I SEE IT",
+    "meaning": "Used to state your opinion or explanation of a situation.",
+    "pronunciation": "",
+    "definition": "Used to state your opinion or explanation of a situation.",
+    "example": "As I see it, we have two main choices: expand the team or extend the deadline.",
+    "category": "Stance Markers",
+    "subCategory": "Stance Markers"
+  },
+  {
+    "word": "CONCEIVABLY",
+    "meaning": "In a way that can be imagined or believed; possibly.",
+    "pronunciation": "",
+    "definition": "In a way that can be imagined or believed; possibly.",
+    "example": "We could conceivably launch the beta version by the end of next month if everything goes smoothly.",
+    "category": "Stance Markers",
+    "subCategory": "Stance Markers"
+  },
+  {
+    "word": "FOR ALL I KNOW",
+    "meaning": "Used to say that you do not have enough information to be sure of something.",
+    "pronunciation": "",
+    "definition": "Used to say that you do not have enough information to be sure of something.",
+    "example": "She might have left the company already, for all I know.",
+    "category": "Stance Markers",
+    "subCategory": "Stance Markers"
+  },
+  {
+    "word": "FROM MY PERSPECTIVE",
+    "meaning": "Used to introduce an opinion based on your personal experience, job role, or viewpoint.",
+    "pronunciation": "",
+    "definition": "Used to introduce an opinion based on your personal experience, job role, or viewpoint.",
+    "example": "From my perspective, the new software is much easier to use than the previous version.",
+    "category": "Stance Markers",
+    "subCategory": "Stance Markers"
+  },
+  {
+    "word": "FROM WHAT I UNDERSTAND",
+    "meaning": "Used to show that your statement is based on information you have received, which might not be complete.",
+    "pronunciation": "",
+    "definition": "Used to show that your statement is based on information you have received, which might not be complete.",
+    "example": "From what I understand, they are offering us a discount if we sign a two-year contract.",
+    "category": "Stance Markers",
+    "subCategory": "Stance Markers"
+  },
+  {
+    "word": "IN ALL LIKELIHOOD",
+    "meaning": "Very probably; almost certainly.",
+    "pronunciation": "",
+    "definition": "Very probably; almost certainly.",
+    "example": "In all likelihood, the manager will approve your vacation request since you asked early.",
+    "category": "Stance Markers",
+    "subCategory": "Stance Markers"
+  },
+  {
+    "word": "IN ALL PROBABILITY",
+    "meaning": "Very likely; used to state a strong expectation without complete certainty.",
+    "pronunciation": "",
+    "definition": "Very likely; used to state a strong expectation without complete certainty.",
+    "example": "In all probability, the flight will be delayed due to the heavy snow.",
+    "category": "Stance Markers",
+    "subCategory": "Stance Markers"
+  },
+  {
+    "word": "IN GENERAL",
+    "meaning": "Usually or in most cases.",
+    "pronunciation": "",
+    "definition": "Usually or in most cases.",
+    "example": "In general, we try to avoid scheduling meetings on Friday afternoons.",
+    "category": "Stance Markers",
+    "subCategory": "Stance Markers"
+  },
+  {
+    "word": "IN MY HUMBLE OPINION",
+    "meaning": "A polite and slightly humorous phrase used to share your view, showing you do not think your opinion is better than others.",
+    "pronunciation": "",
+    "definition": "A polite and slightly humorous phrase used to share your view, showing you do not think your opinion is better than others.",
+    "example": "In my humble opinion, the original version was much more engaging.",
+    "category": "Stance Markers",
+    "subCategory": "Stance Markers"
+  },
+  {
+    "word": "IN MY VIEW",
+    "meaning": "A formal phrase used to introduce your opinion.",
+    "pronunciation": "",
+    "definition": "A formal phrase used to introduce your opinion.",
+    "example": "In my view, the company should invest more in employee training.",
+    "category": "Stance Markers",
+    "subCategory": "Stance Markers"
+  },
+  {
+    "word": "IN PRINCIPLE",
+    "meaning": "Used to say that you agree with the general idea of a plan, but there might be practical problems.",
+    "pronunciation": "",
+    "definition": "Used to say that you agree with the general idea of a plan, but there might be practical problems.",
+    "example": "I agree with your proposal in principle, but we need to figure out where the funding will come from.",
+    "category": "Stance Markers",
+    "subCategory": "Stance Markers"
+  },
+  {
+    "word": "IT IS GENERALLY ACCEPTED",
+    "meaning": "Used to present an opinion as a common fact, reducing personal accountability for the claim.",
+    "pronunciation": "",
+    "definition": "Used to present an opinion as a common fact, reducing personal accountability for the claim.",
+    "example": "It is generally accepted that regular exercise leads to better physical health.",
+    "category": "Stance Markers",
+    "subCategory": "Stance Markers"
+  },
+  {
+    "word": "IT IS WIDELY BELIEVED",
+    "meaning": "Used to state a common belief without naming specific people, making it sound objective.",
+    "pronunciation": "",
+    "definition": "Used to state a common belief without naming specific people, making it sound objective.",
+    "example": "It is widely believed that learning a second language improves cognitive skills.",
+    "category": "Stance Markers",
+    "subCategory": "Stance Markers"
+  },
+  {
+    "word": "ON BALANCE",
+    "meaning": "After considering all the facts or opinions.",
+    "pronunciation": "",
+    "definition": "After considering all the facts or opinions.",
+    "example": "On balance, I think the benefits of the merger outweigh the potential risks.",
+    "category": "Stance Markers",
+    "subCategory": "Stance Markers"
+  },
+  {
+    "word": "PERSONALLY",
+    "meaning": "Used to show that you are giving your own opinion, rather than speaking for a group.",
+    "pronunciation": "",
+    "definition": "Used to show that you are giving your own opinion, rather than speaking for a group.",
+    "example": "Personally, I prefer working from home, but I understand why some prefer the office.",
+    "category": "Stance Markers",
+    "subCategory": "Stance Markers"
+  },
+  {
+    "word": "SO FAR AS I CAN TELL",
+    "meaning": "Based on the evidence or information that is currently available.",
+    "pronunciation": "",
+    "definition": "Based on the evidence or information that is currently available.",
+    "example": "So far as I can tell, the server is running normally and there are no active errors.",
+    "category": "Stance Markers",
+    "subCategory": "Stance Markers"
+  },
+  {
+    "word": "TO BE FAIR",
+    "meaning": "Used to introduce a fact or point that makes your judgment of a situation more balanced or less critical.",
+    "pronunciation": "",
+    "definition": "Used to introduce a fact or point that makes your judgment of a situation more balanced or less critical.",
+    "example": "The developer made a mistake, but to be fair, the requirements were extremely confusing.",
+    "category": "Stance Markers",
+    "subCategory": "Stance Markers"
+  }
+]

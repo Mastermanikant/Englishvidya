@@ -1,1 +1,164 @@
-﻿[{"word":"CENSORSHIP","meaning":"The practice of officially examining books, movies, or news and suppressing parts that are considered unacceptable or politically sensitive.","example":"The authoritarian government used strict censorship to prevent newspapers from criticizing the president.","category":"Media Operations"},{"word":"FREEDOM OF THE PRESS","meaning":"The legal right of newspapers, websites, and TV channels to publish news and opinions without government control or censorship.","example":"Freedom of the press is a fundamental right that allows journalists to expose government corruption safely.","category":"Media Operations"},{"word":"DEFAMATION","meaning":"The act of spreading false and harmful statements that damage another person\u0027s or organization\u0027s reputation.","example":"The actress sued the website for defamation after they published a fake story accusing her of theft.","category":"Media Operations"},{"word":"EMBARGO","meaning":"A request or agreement not to publish a news story or press release until a specific date and time.","example":"The science laboratory placed an embargo on the research paper until Friday at midnight.","category":"Media Operations"},{"word":"BIAS","meaning":"An unfair preference for one person, group, or point of view, which prevents objective and neutral reporting.","example":"Some critics accused the news channel of bias because it only interviewed politicians from one party.","category":"Media Operations"},{"word":"CONFLICT OF INTEREST","meaning":"A situation where a journalist\u0027s personal relationships or financial interests could prevent them from reporting a story objectively.","example":"To avoid a conflict of interest, the reporter did not write about the new shopping mall owned by her brother.","category":"Media Operations"},{"word":"MUCKRAKING","meaning":"The searching out and public exposure of misconduct, scandals, or corruption, especially by public figures or companies.","example":"The journalist\u0027s muckraking revealed that the local factory had been secretly dumping chemicals into the river.","category":"Media Operations"},{"word":"SHIELD LAW","meaning":"A law that protects journalists from being forced to reveal the names of their confidential sources in a court of law.","example":"Under the state\u0027s shield law, the judge could not force the reporter to reveal who gave him the secret documents.","category":"Media Operations"},{"word":"ETHICAL CODE","meaning":"A set of professional rules and moral principles that guide journalists to report news honestly, fairly, and accurately.","example":"The news agency\u0027s ethical code strictly forbids accepting expensive gifts or money from political candidates.","category":"Media Operations"},{"word":"PROPAGANDA","meaning":"Information, especially of a biased or misleading nature, used by a political group to promote their cause or damage an opponent.","example":"During the war, the state-controlled media broadcast continuous propaganda to make citizens support the invasion.","category":"Media Operations"},{"word":"SPIN","meaning":"A biased or heavily edited explanation of an event designed to influence public opinion in a positive or negative way.","example":"The politician\u0027s advisor tried to put a positive spin on the election loss, calling it an opportunity for growth.","category":"Media Operations"},{"word":"GATEKEEPER","meaning":"A person, such as an editor or executive, who decides which news stories will be published and which ones will be ignored.","example":"The news editor acts as a gatekeeper, choosing which stories are important enough to go on the front page.","category":"Media Operations"},{"word":"PRESS CONFERENCE","meaning":"A meeting organized to give information to the media and answer questions from reporters, usually held by public figures.","example":"The police chief held a press conference to explain how they captured the escaped prisoner.","category":"Media Operations"},{"word":"MEDIA MOGUL","meaning":"A very powerful and wealthy person who owns and controls a large number of newspapers, TV stations, or media networks.","example":"The media mogul purchased three major TV stations to expand his influence over national news.","category":"Media Operations"},{"word":"NEWS SYNDICATE","meaning":"An agency or association that gathers news stories, columns, or photos and sells them to various newspapers and websites.","example":"The newspaper relies on a global news syndicate to get photos of events happening in other countries.","category":"Media Operations"},{"word":"PUBLIC RELATIONS","meaning":"The business of maintaining a positive public image for a company, organization, or famous person.","example":"After the product recall, the company hired a public relations firm to rebuild trust with their customers.","category":"Media Operations"},{"word":"CHECKBOOK JOURNALISM","meaning":"The controversial practice of paying sources money for exclusive information, interviews, or news stories.","example":"Many serious editors criticize checkbook journalism because sources might lie just to get paid.","category":"Media Operations"},{"word":"DISINFORMATION","meaning":"False or misleading information that is deliberately created and spread to deceive or influence public opinion.","example":"The cyber-security experts warned that foreign agencies were spreading disinformation to disrupt the election.","category":"Media Operations"},{"word":"MISINFORMATION","meaning":"False or inaccurate information that is spread, regardless of whether there is an intention to deceive or not.","example":"The rumor about the school closure was just misinformation spread by a confused post on social media.","category":"Media Operations"},{"word":"MEDIA LITERACY","meaning":"The ability to access, analyze, evaluate, and critically understand news and media in all its different forms.","example":"Schools are teaching media literacy to help students identify biased sources and fake articles online.","category":"Media Operations"},{"word":"FIRST AMENDMENT","meaning":"The part of the US Constitution that guarantees freedom of speech and freedom of the press.","example":"The newspaper\u0027s lawyers argued that the government\u0027s attempt to block their article violated the First Amendment.","category":"Media Operations"},{"word":"PRIVACY LAWS","meaning":"Legal rules that protect individuals from having their private lives, letters, or photos published in the media without consent.","example":"Celebrities often rely on privacy laws to keep photographers from taking pictures of their children inside their homes.","category":"Media Operations"},{"word":"FAIR USE","meaning":"A legal rule that allows people to use short parts of copyrighted material without permission for news reporting, teaching, or criticism.","example":"Under fair use, the book reviewer was allowed to quote three sentences from the new novel in her article.","category":"Media Operations"},{"word":"WHISTLEBLOWER","meaning":"A person who exposes secret, illegal, or dishonest activities happening inside a company, government agency, or organization.","example":"A whistleblower leaked internal emails showing that the factory knew their products were unsafe.","category":"Media Operations"},{"word":"FOURTH ESTATE","meaning":"A term referring to the press and news media, representing their power to watch over the government and inform the public.","example":"The journalists took their role as the Fourth Estate seriously, investigating how public funds were spent.","category":"Media Operations"},{"word":"LIBEL","meaning":"The illegal act of writing or publishing false statements that damage another person\u0027s reputation.","example":"The politician threatened to sue the newspaper for libel after they printed false claims about him accepting bribes.","category":"Media Operations"},{"word":"SLANDER","meaning":"The illegal act of making false spoken statements that damage another person\u0027s reputation.","example":"During the live debate, the candidate\u0027s false accusations against his opponent were criticized as slander.","category":"Media Operations"},{"word":"PRESS PASS","meaning":"An official card or badge that identifies someone as a journalist, allowing them access to restricted areas or events.","example":"The security guard checked her press pass before letting her enter the conference room.","category":"Media Operations"},{"word":"RIGHT TO KNOW","meaning":"The principle that the public has a right to access information about government activities and decisions that affect society.","example":"The citizens argued they had a right to know about the toxic waste stored near the city limits.","category":"Media Operations"},{"word":"PRESS CORPS","meaning":"A group of journalists representing various news organizations who cover a specific event or follow a public figure.","example":"The presidential press corps gathered in the briefing room to wait for the press conference to begin.","category":"Media Operations"}]
+[
+  {
+    "word": "CHECKBOOK JOURNALISM",
+    "meaning": "The controversial practice of paying sources money for exclusive information, interviews, or news stories.",
+    "pronunciation": "",
+    "definition": "The controversial practice of paying sources money for exclusive information, interviews, or news stories.",
+    "example": "Many serious editors criticize checkbook journalism because sources might lie just to get paid.",
+    "category": "Media Operations",
+    "subCategory": "Media Operations"
+  },
+  {
+    "word": "EMBARGO",
+    "meaning": "A request or agreement not to publish a news story or press release until a specific date and time.",
+    "pronunciation": "",
+    "definition": "A request or agreement not to publish a news story or press release until a specific date and time.",
+    "example": "The science laboratory placed an embargo on the research paper until Friday at midnight.",
+    "category": "Media Operations",
+    "subCategory": "Media Operations"
+  },
+  {
+    "word": "ETHICAL CODE",
+    "meaning": "A set of professional rules and moral principles that guide journalists to report news honestly, fairly, and accurately.",
+    "pronunciation": "",
+    "definition": "A set of professional rules and moral principles that guide journalists to report news honestly, fairly, and accurately.",
+    "example": "The news agency's ethical code strictly forbids accepting expensive gifts or money from political candidates.",
+    "category": "Media Operations",
+    "subCategory": "Media Operations"
+  },
+  {
+    "word": "FAIR USE",
+    "meaning": "A legal rule that allows people to use short parts of copyrighted material without permission for news reporting, teaching, or criticism.",
+    "pronunciation": "",
+    "definition": "A legal rule that allows people to use short parts of copyrighted material without permission for news reporting, teaching, or criticism.",
+    "example": "Under fair use, the book reviewer was allowed to quote three sentences from the new novel in her article.",
+    "category": "Media Operations",
+    "subCategory": "Media Operations"
+  },
+  {
+    "word": "FIRST AMENDMENT",
+    "meaning": "The part of the US Constitution that guarantees freedom of speech and freedom of the press.",
+    "pronunciation": "",
+    "definition": "The part of the US Constitution that guarantees freedom of speech and freedom of the press.",
+    "example": "The newspaper's lawyers argued that the government's attempt to block their article violated the First Amendment.",
+    "category": "Media Operations",
+    "subCategory": "Media Operations"
+  },
+  {
+    "word": "FOURTH ESTATE",
+    "meaning": "A term referring to the press and news media, representing their power to watch over the government and inform the public.",
+    "pronunciation": "",
+    "definition": "A term referring to the press and news media, representing their power to watch over the government and inform the public.",
+    "example": "The journalists took their role as the Fourth Estate seriously, investigating how public funds were spent.",
+    "category": "Media Operations",
+    "subCategory": "Media Operations"
+  },
+  {
+    "word": "FREEDOM OF THE PRESS",
+    "meaning": "The legal right of newspapers, websites, and TV channels to publish news and opinions without government control or censorship.",
+    "pronunciation": "",
+    "definition": "The legal right of newspapers, websites, and TV channels to publish news and opinions without government control or censorship.",
+    "example": "Freedom of the press is a fundamental right that allows journalists to expose government corruption safely.",
+    "category": "Media Operations",
+    "subCategory": "Media Operations"
+  },
+  {
+    "word": "GATEKEEPER",
+    "meaning": "A person, such as an editor or executive, who decides which news stories will be published and which ones will be ignored.",
+    "pronunciation": "",
+    "definition": "A person, such as an editor or executive, who decides which news stories will be published and which ones will be ignored.",
+    "example": "The news editor acts as a gatekeeper, choosing which stories are important enough to go on the front page.",
+    "category": "Media Operations",
+    "subCategory": "Media Operations"
+  },
+  {
+    "word": "MEDIA LITERACY",
+    "meaning": "The ability to access, analyze, evaluate, and critically understand news and media in all its different forms.",
+    "pronunciation": "",
+    "definition": "The ability to access, analyze, evaluate, and create media in a variety of forms.",
+    "example": "Schools are teaching media literacy to help students identify biased sources and fake articles online.",
+    "category": "Media Operations",
+    "subCategory": "Media Operations"
+  },
+  {
+    "word": "MEDIA MOGUL",
+    "meaning": "A very powerful and wealthy person who owns and controls a large number of newspapers, TV stations, or media networks.",
+    "pronunciation": "",
+    "definition": "A very powerful and wealthy person who owns and controls a large number of newspapers, TV stations, or media networks.",
+    "example": "The media mogul purchased three major TV stations to expand his influence over national news.",
+    "category": "Media Operations",
+    "subCategory": "Media Operations"
+  },
+  {
+    "word": "NEWS SYNDICATE",
+    "meaning": "An agency or association that gathers news stories, columns, or photos and sells them to various newspapers and websites.",
+    "pronunciation": "",
+    "definition": "An agency or association that gathers news stories, columns, or photos and sells them to various newspapers and websites.",
+    "example": "The newspaper relies on a global news syndicate to get photos of events happening in other countries.",
+    "category": "Media Operations",
+    "subCategory": "Media Operations"
+  },
+  {
+    "word": "PRESS CONFERENCE",
+    "meaning": "A meeting organized to give information to the media and answer questions from reporters, usually held by public figures.",
+    "pronunciation": "",
+    "definition": "A meeting organized to give information to the media and answer questions from reporters, usually held by public figures.",
+    "example": "The police chief held a press conference to explain how they captured the escaped prisoner.",
+    "category": "Media Operations",
+    "subCategory": "Media Operations"
+  },
+  {
+    "word": "PRESS CORPS",
+    "meaning": "A group of journalists representing various news organizations who cover a specific event or follow a public figure.",
+    "pronunciation": "",
+    "definition": "A group of journalists representing various news organizations who cover a specific event or follow a public figure.",
+    "example": "The presidential press corps gathered in the briefing room to wait for the press conference to begin.",
+    "category": "Media Operations",
+    "subCategory": "Media Operations"
+  },
+  {
+    "word": "PRESS PASS",
+    "meaning": "An official card or badge that identifies someone as a journalist, allowing them access to restricted areas or events.",
+    "pronunciation": "",
+    "definition": "An official card or badge that identifies someone as a journalist, allowing them access to restricted areas or events.",
+    "example": "The security guard checked her press pass before letting her enter the conference room.",
+    "category": "Media Operations",
+    "subCategory": "Media Operations"
+  },
+  {
+    "word": "PRIVACY LAWS",
+    "meaning": "Legal rules that protect individuals from having their private lives, letters, or photos published in the media without consent.",
+    "pronunciation": "",
+    "definition": "Legal rules that protect individuals from having their private lives, letters, or photos published in the media without consent.",
+    "example": "Celebrities often rely on privacy laws to keep photographers from taking pictures of their children inside their homes.",
+    "category": "Media Operations",
+    "subCategory": "Media Operations"
+  },
+  {
+    "word": "PUBLIC RELATIONS",
+    "meaning": "The business of maintaining a positive public image for a company, organization, or famous person.",
+    "pronunciation": "",
+    "definition": "The business of maintaining a positive public image for a company, organization, or famous person.",
+    "example": "After the product recall, the company hired a public relations firm to rebuild trust with their customers.",
+    "category": "Media Operations",
+    "subCategory": "Media Operations"
+  },
+  {
+    "word": "RIGHT TO KNOW",
+    "meaning": "The principle that the public has a right to access information about government activities and decisions that affect society.",
+    "pronunciation": "",
+    "definition": "The principle that the public has a right to access information about government activities and decisions that affect society.",
+    "example": "The citizens argued they had a right to know about the toxic waste stored near the city limits.",
+    "category": "Media Operations",
+    "subCategory": "Media Operations"
+  },
+  {
+    "word": "SHIELD LAW",
+    "meaning": "A law that protects journalists from being forced to reveal the names of their confidential sources in a court of law.",
+    "pronunciation": "",
+    "definition": "A law that protects journalists from being forced to reveal the names of their confidential sources in a court of law.",
+    "example": "Under the state's shield law, the judge could not force the reporter to reveal who gave him the secret documents.",
+    "category": "Media Operations",
+    "subCategory": "Media Operations"
+  }
+]

@@ -1,212 +1,308 @@
-﻿[
-    {
-        "word":  "BODY LANGUAGE",
-        "meaning":  "The way you move, stand, or hold your body, which communicates your feelings without words.",
-        "example":  "Standing with your arms crossed can make your body language seem closed or unfriendly.",
-        "category":  "Delivery \u0026 Tone"
-    },
-    {
-        "word":  "EYE CONTACT",
-        "meaning":  "Looking directly into the eyes of the people in your audience.",
-        "example":  "Making eye contact with different people in the room helps build a connection.",
-        "category":  "Delivery \u0026 Tone"
-    },
-    {
-        "word":  "PACE",
-        "meaning":  "The speed at which you speak during a presentation.",
-        "example":  "When people get nervous, their pace often increases, making them speak too fast.",
-        "category":  "Delivery \u0026 Tone"
-    },
-    {
-        "word":  "PITCH",
-        "meaning":  "How high or low your voice sounds when you speak.",
-        "example":  "Varying your pitch helps keep your voice interesting and prevents a flat tone.",
-        "category":  "Delivery \u0026 Tone"
-    },
-    {
-        "word":  "TONE OF VOICE",
-        "meaning":  "The quality of your voice that shows your feelings, attitude, or character.",
-        "example":  "Using a warm tone of voice makes the audience feel welcome and valued.",
-        "category":  "Delivery \u0026 Tone"
-    },
-    {
-        "word":  "GESTURE",
-        "meaning":  "A movement of your hands, arms, or head to express an idea or feeling.",
-        "example":  "He used a wide hand gesture to show the scale of the new project.",
-        "category":  "Delivery \u0026 Tone"
-    },
-    {
-        "word":  "POSTURE",
-        "meaning":  "The way you hold your body when standing or sitting.",
-        "example":  "Good posture, like standing straight with shoulders back, shows confidence.",
-        "category":  "Delivery \u0026 Tone"
-    },
-    {
-        "word":  "PROJECTION",
-        "meaning":  "Using your voice loudly and clearly so that everyone in the room can hear you.",
-        "example":  "Good vocal projection is necessary when presenting in a large hall without a microphone.",
-        "category":  "Delivery \u0026 Tone"
-    },
-    {
-        "word":  "MONOTONE",
-        "meaning":  "A way of speaking where the sound of the voice stays at the same low level without changing.",
-        "example":  "If you speak in a monotone, the audience might lose interest and fall asleep.",
-        "category":  "Delivery \u0026 Tone"
-    },
-    {
-        "word":  "PAUSE",
-        "meaning":  "A short stop in speaking before saying something else, used for emphasis or reflection.",
-        "example":  "Using a dramatic pause after a big question gives the audience time to think.",
-        "category":  "Delivery \u0026 Tone"
-    },
-    {
-        "word":  "ARTICULATION",
-        "meaning":  "The clear and distinct pronunciation of words.",
-        "example":  "Good articulation ensures that your listeners don\u0027t misunderstand similar-sounding words.",
-        "category":  "Delivery \u0026 Tone"
-    },
-    {
-        "word":  "FLUENCY",
-        "meaning":  "The ability to speak smoothly, easily, and without long pauses or hesitation.",
-        "example":  "Daily practice will help improve your fluency when speaking in public.",
-        "category":  "Delivery \u0026 Tone"
-    },
-    {
-        "word":  "STAGE FRIGHT",
-        "meaning":  "Nervousness or fear before or during a performance or speech in front of an audience.",
-        "example":  "Even experienced speakers sometimes experience stage fright before going on stage.",
-        "category":  "Delivery \u0026 Tone"
-    },
-    {
-        "word":  "NON-VERBAL COMMUNICATION",
-        "meaning":  "Sending messages or expressing feelings without using spoken words, e.g., facial expressions.",
-        "example":  "Smiling is an important part of non-verbal communication that shows friendliness.",
-        "category":  "Delivery \u0026 Tone"
-    },
-    {
-        "word":  "FILLER WORD",
-        "meaning":  "A word or sound like \u0027um\u0027, \u0027uh\u0027, \u0027like\u0027, or \u0027so\u0027 used while thinking what to say next.",
-        "example":  "Try to replace filler words with a brief silence to sound more professional.",
-        "category":  "Delivery \u0026 Tone"
-    },
-    {
-        "word":  "ENGAGEMENT",
-        "meaning":  "The degree of interest, attention, and active participation from the audience.",
-        "example":  "Asking the audience to vote by raising their hands increases engagement.",
-        "category":  "Delivery \u0026 Tone"
-    },
-    {
-        "word":  "ENTHUSIASM",
-        "meaning":  "A strong feeling of excitement and interest in the topic you are presenting.",
-        "example":  "If the speaker shows enthusiasm, the audience is more likely to become excited too.",
-        "category":  "Delivery \u0026 Tone"
-    },
-    {
-        "word":  "CHARISMA",
-        "meaning":  "A special personal quality that makes a speaker attractive, inspiring, and influential to others.",
-        "example":  "His natural charisma kept the audience focused on every word of his presentation.",
-        "category":  "Delivery \u0026 Tone"
-    },
-    {
-        "word":  "DYNAMICS",
-        "meaning":  "The variation in volume, speed, and emotion in a speaker\u0027s voice during a talk.",
-        "example":  "Using vocal dynamics makes your presentation much more exciting to listen to.",
-        "category":  "Delivery \u0026 Tone"
-    },
-    {
-        "word":  "INFLECTION",
-        "meaning":  "The change in the pitch or tone of the voice, especially when finishing a sentence.",
-        "example":  "An upward inflection at the end of a sentence can make a statement sound like a question.",
-        "category":  "Delivery \u0026 Tone"
-    },
-    {
-        "word":  "CLARITY",
-        "meaning":  "The quality of being easy to see, hear, or understand.",
-        "example":  "The clarity of her explanation made a very complex scientific topic easy for everyone.",
-        "category":  "Delivery \u0026 Tone"
-    },
-    {
-        "word":  "CONFIDENCE",
-        "meaning":  "A feeling of trust in one\u0027s own abilities, skills, and judgment.",
-        "example":  "Practice is the best way to build confidence before a major presentation.",
-        "category":  "Delivery \u0026 Tone"
-    },
-    {
-        "word":  "INTERACTION",
-        "meaning":  "Communication or direct involvement between the speaker and the audience.",
-        "example":  "The workshop included plenty of interaction, with Q\u0026A sessions and group work.",
-        "category":  "Delivery \u0026 Tone"
-    },
-    {
-        "word":  "Q\u0026A SESSION",
-        "meaning":  "A period at the end of a presentation where the audience can ask questions to the speaker.",
-        "example":  "We will save fifteen minutes at the end of the seminar for a Q\u0026A session.",
-        "category":  "Delivery \u0026 Tone"
-    },
-    {
-        "word":  "COMPOSURE",
-        "meaning":  "The state of being calm, in control of your emotions, and relaxed under pressure.",
-        "example":  "Despite the technical problems, the presenter maintained her composure and kept going.",
-        "category":  "Delivery \u0026 Tone"
-    },
-    {
-        "word":  "CONNECT WITH",
-        "meaning":  "To establish a good relationship or feeling of understanding with the audience.",
-        "example":  "To connect with your audience, try to use personal stories they can relate to.",
-        "category":  "Delivery \u0026 Tone"
-    },
-    {
-        "word":  "VISUALIZE",
-        "meaning":  "To form a mental picture of something, often used as a technique to prepare for a speech.",
-        "example":  "Visualizing yourself giving a successful presentation can help reduce anxiety.",
-        "category":  "Delivery \u0026 Tone"
-    },
-    {
-        "word":  "AD-LIB",
-        "meaning":  "To speak or perform without preparation or notes; to improvise.",
-        "example":  "When the slides stopped working, he had to ad-lib the rest of his talk.",
-        "category":  "Delivery \u0026 Tone"
-    },
-    {
-        "word":  "CHIN UP",
-        "meaning":  "Keeping your head raised to look confident and project your voice better.",
-        "example":  "Remember to keep your chin up and look at the back row of the audience.",
-        "category":  "Delivery \u0026 Tone"
-    },
-    {
-        "word":  "BODY ORIENTATION",
-        "meaning":  "The direction in which your body is facing relative to your audience.",
-        "example":  "Keep your body orientation towards the audience rather than turning to face the screen.",
-        "category":  "Delivery \u0026 Tone"
-    },
-    {
-        "word":  "FIDGET",
-        "meaning":  "To make small, restless movements with your hands or feet, often due to nervousness.",
-        "example":  "Avoid holding a pen if you tend to fidget with it while speaking.",
-        "category":  "Delivery \u0026 Tone"
-    },
-    {
-        "word":  "VOCAL VARIETY",
-        "meaning":  "Changes in voice speed, volume, and pitch to make a speech more interesting.",
-        "example":  "Using vocal variety helps prevent your presentation from sounding boring or monotone.",
-        "category":  "Delivery \u0026 Tone"
-    },
-    {
-        "word":  "WANDERING",
-        "meaning":  "Moving around the stage aimlessly or without a clear purpose.",
-        "example":  "Walk with purpose rather than wandering back and forth on the stage.",
-        "category":  "Delivery \u0026 Tone"
-    },
-    {
-        "word":  "PROXEMICS",
-        "meaning":  "The use of physical space and distance between a speaker and the audience.",
-        "example":  "Understanding proxemics helps you decide how close to stand to your audience for a personal feel.",
-        "category":  "Delivery \u0026 Tone"
-    },
-    {
-        "word":  "HESITATION",
-        "meaning":  "A brief pause or delay before doing or saying something, often showing doubt or nervousness.",
-        "example":  "She answered the difficult question without any hesitation, showing she knew the topic well.",
-        "category":  "Delivery \u0026 Tone"
-    }
+[
+  {
+    "word": "AD-LIB",
+    "meaning": "To speak or perform without preparation or notes; to improvise.",
+    "pronunciation": "",
+    "definition": "To speak or perform without preparation or notes; to improvise.",
+    "example": "When the slides stopped working, he had to ad-lib the rest of his talk.",
+    "category": "Delivery & Tone",
+    "subCategory": "Delivery & Tone"
+  },
+  {
+    "word": "ARTICULATION",
+    "meaning": "The clear and distinct pronunciation of words.",
+    "pronunciation": "",
+    "definition": "The physical process of producing clear and distinct speech sounds using the lips, teeth, tongue, and jaw.",
+    "example": "Good articulation ensures that your listeners don't misunderstand similar-sounding words.",
+    "category": "Delivery & Tone",
+    "subCategory": "Delivery & Tone"
+  },
+  {
+    "word": "BODY LANGUAGE",
+    "meaning": "The way you move, stand, or hold your body, which communicates your feelings without words.",
+    "pronunciation": "",
+    "definition": "The way you move, stand, or hold your body, which communicates your feelings without words.",
+    "example": "Standing with your arms crossed can make your body language seem closed or unfriendly.",
+    "category": "Delivery & Tone",
+    "subCategory": "Delivery & Tone"
+  },
+  {
+    "word": "BODY ORIENTATION",
+    "meaning": "The direction in which your body is facing relative to your audience.",
+    "pronunciation": "",
+    "definition": "The direction in which your body is facing relative to your audience.",
+    "example": "Keep your body orientation towards the audience rather than turning to face the screen.",
+    "category": "Delivery & Tone",
+    "subCategory": "Delivery & Tone"
+  },
+  {
+    "word": "CHARISMA",
+    "meaning": "A special personal quality that makes a speaker attractive, inspiring, and influential to others.",
+    "pronunciation": "",
+    "definition": "",
+    "example": "His natural charisma kept the audience focused on every word of his presentation.",
+    "category": "Delivery & Tone",
+    "subCategory": "Delivery & Tone"
+  },
+  {
+    "word": "CHIN UP",
+    "meaning": "Keeping your head raised to look confident and project your voice better.",
+    "pronunciation": "",
+    "definition": "Keeping your head raised to look confident and project your voice better.",
+    "example": "Remember to keep your chin up and look at the back row of the audience.",
+    "category": "Delivery & Tone",
+    "subCategory": "Delivery & Tone"
+  },
+  {
+    "word": "COMPOSURE",
+    "meaning": "The state of being calm, in control of your emotions, and relaxed under pressure.",
+    "pronunciation": "",
+    "definition": "The state of being calm, in control of your emotions, and relaxed under pressure.",
+    "example": "Despite the technical problems, the presenter maintained her composure and kept going.",
+    "category": "Delivery & Tone",
+    "subCategory": "Delivery & Tone"
+  },
+  {
+    "word": "CONFIDENCE",
+    "meaning": "A feeling of trust in one's own abilities, skills, and judgment.",
+    "pronunciation": "",
+    "definition": "A feeling of self-assurance arising from one's appreciation of one's own abilities",
+    "example": "Practice is the best way to build confidence before a major presentation.",
+    "category": "Delivery & Tone",
+    "subCategory": "Delivery & Tone"
+  },
+  {
+    "word": "CONNECT WITH",
+    "meaning": "To establish a good relationship or feeling of understanding with the audience.",
+    "pronunciation": "",
+    "definition": "To establish a good relationship or feeling of understanding with the audience.",
+    "example": "To connect with your audience, try to use personal stories they can relate to.",
+    "category": "Delivery & Tone",
+    "subCategory": "Delivery & Tone"
+  },
+  {
+    "word": "DYNAMICS",
+    "meaning": "The variation in volume, speed, and emotion in a speaker's voice during a talk.",
+    "pronunciation": "",
+    "definition": "The branch of mechanics concerned with the motion of bodies under the action of forces.",
+    "example": "Using vocal dynamics makes your presentation much more exciting to listen to.",
+    "category": "Delivery & Tone",
+    "subCategory": "Delivery & Tone"
+  },
+  {
+    "word": "ENGAGEMENT",
+    "meaning": "The degree of interest, attention, and active participation from the audience.",
+    "pronunciation": "",
+    "definition": "The interactions that a customer has with a brand's presence across different platforms.",
+    "example": "Asking the audience to vote by raising their hands increases engagement.",
+    "category": "Delivery & Tone",
+    "subCategory": "Delivery & Tone"
+  },
+  {
+    "word": "ENTHUSIASM",
+    "meaning": "A strong feeling of excitement and interest in the topic you are presenting.",
+    "pronunciation": "",
+    "definition": "Intense and eager enjoyment, interest, or approval",
+    "example": "If the speaker shows enthusiasm, the audience is more likely to become excited too.",
+    "category": "Delivery & Tone",
+    "subCategory": "Delivery & Tone"
+  },
+  {
+    "word": "EYE CONTACT",
+    "meaning": "Looking directly into the eyes of the people in your audience.",
+    "pronunciation": "",
+    "definition": "Looking directly into the eyes of the people in your audience.",
+    "example": "Making eye contact with different people in the room helps build a connection.",
+    "category": "Delivery & Tone",
+    "subCategory": "Delivery & Tone"
+  },
+  {
+    "word": "FIDGET",
+    "meaning": "To make small, restless movements with your hands or feet, often due to nervousness.",
+    "pronunciation": "",
+    "definition": "To make small, restless movements with your hands or feet, often due to nervousness.",
+    "example": "Avoid holding a pen if you tend to fidget with it while speaking.",
+    "category": "Delivery & Tone",
+    "subCategory": "Delivery & Tone"
+  },
+  {
+    "word": "FILLER WORD",
+    "meaning": "A word or sound like 'um', 'uh', 'like', or 'so' used while thinking what to say next.",
+    "pronunciation": "",
+    "definition": "A word or sound like 'um', 'uh', 'like', or 'so' used while thinking what to say next.",
+    "example": "Try to replace filler words with a brief silence to sound more professional.",
+    "category": "Delivery & Tone",
+    "subCategory": "Delivery & Tone"
+  },
+  {
+    "word": "FLUENCY",
+    "meaning": "The ability to speak smoothly, easily, and without long pauses or hesitation.",
+    "pronunciation": "",
+    "definition": "The ability to speak or write a language easily, smoothly, and accurately",
+    "example": "Daily practice will help improve your fluency when speaking in public.",
+    "category": "Delivery & Tone",
+    "subCategory": "Delivery & Tone"
+  },
+  {
+    "word": "GESTURE",
+    "meaning": "A movement of your hands, arms, or head to express an idea or feeling.",
+    "pronunciation": "",
+    "definition": "A movement of a part of the body, especially a hand or head, to express an idea or emotion.",
+    "example": "He used a wide hand gesture to show the scale of the new project.",
+    "category": "Delivery & Tone",
+    "subCategory": "Delivery & Tone"
+  },
+  {
+    "word": "HESITATION",
+    "meaning": "A brief pause or delay before doing or saying something, often showing doubt or nervousness.",
+    "pronunciation": "",
+    "definition": "A brief pause or delay before doing or saying something, often showing doubt or nervousness.",
+    "example": "She answered the difficult question without any hesitation, showing she knew the topic well.",
+    "category": "Delivery & Tone",
+    "subCategory": "Delivery & Tone"
+  },
+  {
+    "word": "INFLECTION",
+    "meaning": "The change in the pitch or tone of the voice, especially when finishing a sentence.",
+    "pronunciation": "",
+    "definition": "The change in the pitch or tone of the voice, especially when finishing a sentence.",
+    "example": "An upward inflection at the end of a sentence can make a statement sound like a question.",
+    "category": "Delivery & Tone",
+    "subCategory": "Delivery & Tone"
+  },
+  {
+    "word": "INTERACTION",
+    "meaning": "Communication or direct involvement between the speaker and the audience.",
+    "pronunciation": "",
+    "definition": "Communication or direct involvement between the speaker and the audience.",
+    "example": "The workshop included plenty of interaction, with Q&A sessions and group work.",
+    "category": "Delivery & Tone",
+    "subCategory": "Delivery & Tone"
+  },
+  {
+    "word": "MONOTONE",
+    "meaning": "A way of speaking where the sound of the voice stays at the same low level without changing.",
+    "pronunciation": "",
+    "definition": "A way of speaking where the sound of the voice stays at the same low level without changing.",
+    "example": "If you speak in a monotone, the audience might lose interest and fall asleep.",
+    "category": "Delivery & Tone",
+    "subCategory": "Delivery & Tone"
+  },
+  {
+    "word": "NON-VERBAL COMMUNICATION",
+    "meaning": "Sending messages or expressing feelings without using spoken words, e.g., facial expressions.",
+    "pronunciation": "",
+    "definition": "Sending messages or expressing feelings without using spoken words, e.g., facial expressions.",
+    "example": "Smiling is an important part of non-verbal communication that shows friendliness.",
+    "category": "Delivery & Tone",
+    "subCategory": "Delivery & Tone"
+  },
+  {
+    "word": "PACE",
+    "meaning": "The speed at which you speak during a presentation.",
+    "pronunciation": "",
+    "definition": "The speed at which a lesson or learning activity moves",
+    "example": "When people get nervous, their pace often increases, making them speak too fast.",
+    "category": "Delivery & Tone",
+    "subCategory": "Delivery & Tone"
+  },
+  {
+    "word": "PAUSE",
+    "meaning": "A short stop in speaking before saying something else, used for emphasis or reflection.",
+    "pronunciation": "",
+    "definition": "A short stop in speaking before saying something else, used for emphasis or reflection.",
+    "example": "Using a dramatic pause after a big question gives the audience time to think.",
+    "category": "Delivery & Tone",
+    "subCategory": "Delivery & Tone"
+  },
+  {
+    "word": "PITCH",
+    "meaning": "How high or low your voice sounds when you speak.",
+    "pronunciation": "",
+    "definition": "à¤ªà¥à¤°à¤¸à¥à¤¤à¤¾à¤µ (à¤ªà¤¿à¤š)",
+    "example": "Varying your pitch helps keep your voice interesting and prevents a flat tone.",
+    "category": "Delivery & Tone",
+    "subCategory": "Delivery & Tone"
+  },
+  {
+    "word": "POSTURE",
+    "meaning": "The way you hold your body when standing or sitting.",
+    "pronunciation": "",
+    "definition": "The way you hold your body when standing or sitting.",
+    "example": "Good posture, like standing straight with shoulders back, shows confidence.",
+    "category": "Delivery & Tone",
+    "subCategory": "Delivery & Tone"
+  },
+  {
+    "word": "PROJECTION",
+    "meaning": "Using your voice loudly and clearly so that everyone in the room can hear you.",
+    "pronunciation": "",
+    "definition": "A psychological defense mechanism in which individuals attribute characteristics they find unacceptable in themselves to another person.",
+    "example": "Good vocal projection is necessary when presenting in a large hall without a microphone.",
+    "category": "Delivery & Tone",
+    "subCategory": "Delivery & Tone"
+  },
+  {
+    "word": "PROXEMICS",
+    "meaning": "The use of physical space and distance between a speaker and the audience.",
+    "pronunciation": "",
+    "definition": "The use of physical space and distance between a speaker and the audience.",
+    "example": "Understanding proxemics helps you decide how close to stand to your audience for a personal feel.",
+    "category": "Delivery & Tone",
+    "subCategory": "Delivery & Tone"
+  },
+  {
+    "word": "Q&A SESSION",
+    "meaning": "A period at the end of a presentation where the audience can ask questions to the speaker.",
+    "pronunciation": "",
+    "definition": "A segment of a presentation where the audience asks questions",
+    "example": "We will save fifteen minutes at the end of the seminar for a Q&A session.",
+    "category": "Delivery & Tone",
+    "subCategory": "Delivery & Tone"
+  },
+  {
+    "word": "STAGE FRIGHT",
+    "meaning": "Nervousness or fear before or during a performance or speech in front of an audience.",
+    "pronunciation": "",
+    "definition": "Nervousness or fear felt by a person before performing in front of an audience.",
+    "example": "Even experienced speakers sometimes experience stage fright before going on stage.",
+    "category": "Delivery & Tone",
+    "subCategory": "Delivery & Tone"
+  },
+  {
+    "word": "TONE OF VOICE",
+    "meaning": "The quality of your voice that shows your feelings, attitude, or character.",
+    "pronunciation": "",
+    "definition": "The quality of your voice that shows your feelings, attitude, or character.",
+    "example": "Using a warm tone of voice makes the audience feel welcome and valued.",
+    "category": "Delivery & Tone",
+    "subCategory": "Delivery & Tone"
+  },
+  {
+    "word": "VISUALIZE",
+    "meaning": "To form a mental picture of something, often used as a technique to prepare for a speech.",
+    "pronunciation": "",
+    "definition": "To form a mental image or picture of something",
+    "example": "Visualizing yourself giving a successful presentation can help reduce anxiety.",
+    "category": "Delivery & Tone",
+    "subCategory": "Delivery & Tone"
+  },
+  {
+    "word": "VOCAL VARIETY",
+    "meaning": "Changes in voice speed, volume, and pitch to make a speech more interesting.",
+    "pronunciation": "",
+    "definition": "Changes in voice speed, volume, and pitch to make a speech more interesting.",
+    "example": "Using vocal variety helps prevent your presentation from sounding boring or monotone.",
+    "category": "Delivery & Tone",
+    "subCategory": "Delivery & Tone"
+  },
+  {
+    "word": "WANDERING",
+    "meaning": "Moving around the stage aimlessly or without a clear purpose.",
+    "pronunciation": "",
+    "definition": "Moving around the stage aimlessly or without a clear purpose.",
+    "example": "Walk with purpose rather than wandering back and forth on the stage.",
+    "category": "Delivery & Tone",
+    "subCategory": "Delivery & Tone"
+  }
 ]

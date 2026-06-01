@@ -1,181 +1,182 @@
 [
   {
     "word": "Acceleration",
-    "category": "Forces/Motion",
-    "definition": "The rate of change of velocity per unit of time."
-  },
-  {
-    "word": "Velocity",
-    "category": "Forces/Motion",
-    "definition": "The speed of something in a given direction."
-  },
-  {
-    "word": "Speed",
-    "category": "Forces/Motion",
-    "definition": "The rate at which someone or something is able to move or operate."
-  },
-  {
-    "word": "Displacement",
-    "category": "Forces/Motion",
-    "definition": "The moving of something from its place or position."
-  },
-  {
-    "word": "Force",
-    "category": "Forces/Motion",
-    "definition": "Strength or energy as an attribute of physical action or movement."
-  },
-  {
-    "word": "Friction",
-    "category": "Forces/Motion",
-    "definition": "The resistance that one surface or object encounters when moving over another."
-  },
-  {
-    "word": "Gravity",
-    "category": "Forces/Motion",
-    "definition": "The force that attracts a body toward the center of the earth, or toward any other physical body having mass."
-  },
-  {
-    "word": "Inertia",
-    "category": "Forces/Motion",
-    "definition": "A property of matter by which it continues in its existing state of rest or uniform motion in a straight line, unless that state is changed by an external force."
-  },
-  {
-    "word": "Momentum",
-    "category": "Forces/Motion",
-    "definition": "The quantity of motion of a moving body, measured as a product of its mass and velocity."
-  },
-  {
-    "word": "Newton",
-    "category": "Forces/Motion",
-    "definition": "The SI unit of force."
-  },
-  {
-    "word": "Mass",
-    "category": "Forces/Motion",
-    "definition": "A measure of the amount of matter in an object."
-  },
-  {
-    "word": "Weight",
-    "category": "Forces/Motion",
-    "definition": "A body's relative mass or the quantity of matter contained by it, giving rise to a downward force."
-  },
-  {
-    "word": "Centripetal",
-    "category": "Forces/Motion",
-    "definition": "Moving or tending to move toward a center."
-  },
-  {
-    "word": "Centrifugal",
-    "category": "Forces/Motion",
-    "definition": "Moving or tending to move away from a center."
-  },
-  {
-    "word": "Kinematics",
-    "category": "Forces/Motion",
-    "definition": "The branch of mechanics concerned with the motion of objects without reference to the forces which cause the motion."
-  },
-  {
-    "word": "Dynamics",
-    "category": "Forces/Motion",
-    "definition": "The branch of mechanics concerned with the motion of bodies under the action of forces."
-  },
-  {
-    "word": "Torque",
-    "category": "Forces/Motion",
-    "definition": "A twisting force that causes rotation."
-  },
-  {
-    "word": "Work",
-    "category": "Forces/Motion",
-    "definition": "The measure of energy transfer that occurs when an object is moved over a distance by an external force.",
-    "meaning_hi": "??? ????",
-    "pronunciation": "???? (Work)"
-  },
-  {
-    "word": "Power",
-    "category": "Forces/Motion",
-    "definition": "The rate of doing work or transferring energy."
-  },
-  {
-    "word": "Pressure",
-    "category": "Forces/Motion",
-    "definition": "Continuous physical force exerted on or against an object by something in contact with it."
-  },
-  {
-    "word": "Buoyancy",
-    "category": "Forces/Motion",
-    "definition": "The ability or tendency to float in water or air or some other fluid."
-  },
-  {
-    "word": "Drag",
-    "category": "Forces/Motion",
-    "definition": "The longitudinal retarding force exerted by air or other fluid surrounding a moving object."
-  },
-  {
-    "word": "Lift",
-    "category": "Forces/Motion",
-    "definition": "An upward force acting on an object moving through a fluid.",
-    "meaning_hi": "?????",
-    "pronunciation": "/l?ft/"
-  },
-  {
-    "word": "Thrust",
-    "category": "Forces/Motion",
-    "definition": "A sudden or violent lunge with a pointed weapon or a bodily part."
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "The rate of change of velocity per unit of time.",
+    "example": "",
+    "category": "Forces & Motion",
+    "subCategory": "Forces/motion"
   },
   {
     "word": "Aerodynamics",
-    "category": "Forces/Motion",
-    "definition": "The study of the properties of moving air, and especially of the interaction between the air and solid bodies moving through it."
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "The study of the properties of moving air, and especially of the interaction between the air and solid bodies moving through it.",
+    "example": "",
+    "category": "Forces & Motion",
+    "subCategory": "Forces/motion"
   },
   {
-    "word": "Trajectory",
-    "category": "Forces/Motion",
-    "definition": "The path followed by a projectile flying or an object moving under the action of given forces."
+    "word": "Centrifugal",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "Moving or tending to move away from a center.",
+    "example": "",
+    "category": "Forces & Motion",
+    "subCategory": "Forces/motion"
   },
   {
-    "word": "Projectile",
-    "category": "Forces/Motion",
-    "definition": "A missile designed to be fired from a rocket or gun."
+    "word": "Centripetal",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "Moving or tending to move toward a center.",
+    "example": "",
+    "category": "Forces & Motion",
+    "subCategory": "Forces/motion"
+  },
+  {
+    "word": "Displacement",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "The moving of something from its place or position.",
+    "example": "",
+    "category": "Forces & Motion",
+    "subCategory": "Forces/motion"
+  },
+  {
+    "word": "Drag",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "The longitudinal retarding force exerted by air or other fluid surrounding a moving object.",
+    "example": "",
+    "category": "Forces & Motion",
+    "subCategory": "Forces/motion"
+  },
+  {
+    "word": "Inertia",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "A property of matter by which it continues in its existing state of rest or uniform motion in a straight line, unless that state is changed by an external force.",
+    "example": "",
+    "category": "Forces & Motion",
+    "subCategory": "Forces/motion"
+  },
+  {
+    "word": "Kinematics",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "The branch of mechanics concerned with the motion of objects without reference to the forces which cause the motion.",
+    "example": "",
+    "category": "Forces & Motion",
+    "subCategory": "Forces/motion"
+  },
+  {
+    "word": "Lift",
+    "meaning": "उठाना (uthaana)",
+    "pronunciation": "/l?ft/",
+    "definition": "An upward force acting on an object moving through a fluid.",
+    "example": "",
+    "category": "Forces & Motion",
+    "subCategory": "Forces/motion"
+  },
+  {
+    "word": "Momentum",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "The quantity of motion of a moving body, measured as a product of its mass and velocity.",
+    "example": "",
+    "category": "Forces & Motion",
+    "subCategory": "Forces/motion"
+  },
+  {
+    "word": "Newton",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "The SI unit of force.",
+    "example": "",
+    "category": "Forces & Motion",
+    "subCategory": "Forces/motion"
   },
   {
     "word": "Oscillation",
-    "category": "Forces/Motion",
-    "definition": "Movement back and forth at a regular speed."
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "Movement back and forth at a regular speed.",
+    "example": "",
+    "category": "Forces & Motion",
+    "subCategory": "Forces/motion"
   },
   {
     "word": "Pendulum",
-    "category": "Forces/Motion",
-    "definition": "A weight hung from a fixed point so that it can swing freely backward and forward."
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "A weight hung from a fixed point so that it can swing freely backward and forward.",
+    "example": "",
+    "category": "Forces & Motion",
+    "subCategory": "Forces/motion"
   },
   {
-    "word": "Resonance",
-    "category": "Forces/Motion",
-    "definition": "The reinforcement or prolongation of sound by reflection from a surface or by the synchronous vibration of a neighboring object."
+    "word": "Power",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "The rate of doing work or transferring energy.",
+    "example": "",
+    "category": "Forces & Motion",
+    "subCategory": "Forces/motion"
   },
   {
-    "word": "Frequency",
-    "category": "Forces/Motion",
-    "definition": "The rate at which something occurs or is repeated over a particular period of time or in a given sample."
+    "word": "Pressure",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "Continuous physical force exerted on or against an object by something in contact with it.",
+    "example": "",
+    "category": "Forces & Motion",
+    "subCategory": "Forces/motion"
   },
   {
-    "word": "Amplitude",
-    "category": "Forces/Motion",
-    "definition": "The maximum extent of a vibration or oscillation, measured from the position of equilibrium."
+    "word": "Projectile",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "A missile designed to be fired from a rocket or gun.",
+    "example": "",
+    "category": "Forces & Motion",
+    "subCategory": "Forces/motion"
+  },
+  {
+    "word": "Thrust",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "A sudden or violent lunge with a pointed weapon or a bodily part.",
+    "example": "",
+    "category": "Forces & Motion",
+    "subCategory": "Forces/motion"
+  },
+  {
+    "word": "Torque",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "A twisting force that causes rotation.",
+    "example": "",
+    "category": "Forces & Motion",
+    "subCategory": "Forces/motion"
+  },
+  {
+    "word": "Velocity",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "The speed of something in a given direction.",
+    "example": "",
+    "category": "Forces & Motion",
+    "subCategory": "Forces/motion"
   },
   {
     "word": "Wavelength",
-    "category": "Forces/Motion",
-    "definition": "The distance between successive crests of a wave, especially points in a sound wave or electromagnetic wave."
-  },
-  {
-    "word": "Vacuum",
-    "category": "Forces/Motion",
-    "definition": "A space entirely devoid of matter."
-  },
-  {
-    "word": "Vector",
-    "category": "Forces/Motion",
-    "definition": "A quantity having direction as well as magnitude, especially as determining the position of one point in space relative to another."
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "The distance between successive crests of a wave, especially points in a sound wave or electromagnetic wave.",
+    "example": "",
+    "category": "Forces & Motion",
+    "subCategory": "Forces/motion"
   }
 ]

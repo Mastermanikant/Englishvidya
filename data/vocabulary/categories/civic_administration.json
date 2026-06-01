@@ -1,184 +1,272 @@
 [
   {
-    "word": "Bureaucracy",
-    "meaning": "A large, complex system of government administration run by non-elected officials who follow strict rules.",
-    "example": "It took months of dealing with government bureaucracy just to get a permit to open the restaurant.",
-    "category": "Civic Administration"
-  },
-  {
-    "word": "Civil Service",
-    "meaning": "The permanent, professional branches of government administration, where staff are hired based on qualifications rather than political connections.",
-    "example": "He chose a career in the civil service to help improve public transportation systems in his city.",
-    "category": "Civic Administration"
-  },
-  {
-    "word": "Municipality",
-    "meaning": "A city, town, or local area that has its own local government.",
-    "example": "The municipality is responsible for trash collection, local roads, and public parks.",
-    "category": "Civic Administration"
-  },
-  {
-    "word": "Mayor",
-    "meaning": "The elected leader of a city, town, or municipality.",
-    "example": "The mayor announced a new plan to build affordable housing for low-income families.",
-    "category": "Civic Administration"
-  },
-  {
-    "word": "City Council",
-    "meaning": "A group of elected officials who govern a city and vote on local laws and budgets.",
-    "example": "The city council voted to approve the construction of a new bike lane downtown.",
-    "category": "Civic Administration"
-  },
-  {
-    "word": "By-law",
-    "meaning": "A local law made by a city or town government that applies only to that area.",
-    "example": "Under the city by-law, dogs must be kept on a leash in all public parks.",
-    "category": "Civic Administration"
-  },
-  {
-    "word": "Public Hearing",
-    "meaning": "A formal meeting where citizens can voice their opinions on proposed laws, projects, or budgets.",
-    "example": "The town held a public hearing to listen to residents' concerns about the new highway project.",
-    "category": "Civic Administration"
-  },
-  {
-    "word": "Public Utility",
-    "meaning": "A service that is essential to the public, such as electricity, water, or gas, often regulated or run by the government.",
-    "example": "The local public utility worked quickly to restore water service after the pipe broke.",
-    "category": "Civic Administration"
-  },
-  {
-    "word": "Zoning",
-    "meaning": "Rules about how land in a city or town can be used, such as for houses, stores, or factories.",
-    "example": "The zoning laws in this neighborhood do not allow tall commercial buildings to be constructed.",
-    "category": "Civic Administration"
-  },
-  {
-    "word": "Ordinance",
-    "meaning": "A law passed by a local government, such as a city or county.",
-    "example": "The town passed a noise ordinance banning loud music after 10:00 PM.",
-    "category": "Civic Administration"
-  },
-  {
-    "word": "Infrastructure",
-    "meaning": "The basic physical structures and systems needed for a society to function, like roads, bridges, and power lines.",
-    "example": "The government is investing billions of dollars to repair the country's aging infrastructure.",
-    "category": "Civic Administration"
-  },
-  {
-    "word": "Civic Engagement",
-    "meaning": "Active participation by citizens in the life of their community to make it better.",
-    "example": "Voting in elections and volunteering at local charities are great examples of civic engagement.",
-    "category": "Civic Administration"
-  },
-  {
-    "word": "Public Registry",
-    "meaning": "A government database of official records that the public can look at, such as land ownership or birth records.",
-    "example": "You can check the public registry to find out who owns the property next to your house.",
-    "category": "Civic Administration"
-  },
-  {
-    "word": "Public Works",
-    "meaning": "Building and repair projects done by the government for the community, such as roads, schools, and sewers.",
-    "example": "The department of public works is responsible for paving roads and clearing snow during the winter.",
-    "category": "Civic Administration"
-  },
-  {
-    "word": "Town Hall",
-    "meaning": "A local government building, or an open meeting where local politicians answer questions from residents.",
-    "example": "The senator hosted a town hall meeting to discuss the new healthcare law with her constituents.",
-    "category": "Civic Administration"
-  },
-  {
-    "word": "Citizen",
-    "meaning": "A person who is legally recognized as a member of a country and has rights and duties there.",
-    "example": "As a citizen, you have the right to vote and the duty to obey the nation's laws.",
+    "word": "Accountability",
+    "meaning": "The requirement for government officials to explain their actions and decisions, and accept responsibility if they make mistakes.",
+    "pronunciation": "",
+    "definition": "The requirement for government officials to explain their actions and decisions, and accept responsibility if they make mistakes.",
+    "example": "The city council must show accountability by explaining how tax money was spent.",
     "category": "Civic Administration",
-    "meaning_hi": "??????",
-    "pronunciation": "/?s?t?z?n/"
-  },
-  {
-    "word": "Resident",
-    "meaning": "A person who lives in a particular place, even if they are not a citizen of that country.",
-    "example": "Although she is a foreign student, she is a resident of this city and pays local sales tax.",
-    "category": "Civic Administration"
-  },
-  {
-    "word": "Social Contract",
-    "meaning": "An unspoken agreement where citizens give up some freedoms to the government in exchange for protection of their rights.",
-    "example": "According to the social contract theory, citizens obey laws because the government protects their safety and property.",
-    "category": "Civic Administration"
+    "subCategory": "Civic Administration"
   },
   {
     "word": "Assembly",
     "meaning": "A group of people who gather together for a shared purpose, often to make laws or discuss public matters.",
+    "pronunciation": "",
+    "definition": "A group of people who gather together for a shared purpose, often to make laws or discuss public matters.",
     "example": "The state assembly met to debate the new budget proposed by the governor.",
-    "category": "Civic Administration"
+    "category": "Civic Administration",
+    "subCategory": "Civic Administration"
   },
   {
-    "word": "Public Sector",
-    "meaning": "The part of the economy that is owned, managed, and funded by the government.",
-    "example": "Public schools, hospitals, and police departments are all part of the public sector.",
-    "category": "Civic Administration"
+    "word": "Bureaucracy",
+    "meaning": "A large, complex system of government administration run by non-elected officials who follow strict rules.",
+    "pronunciation": "",
+    "definition": "A large, complex system of government administration run by non-elected officials who follow strict rules.",
+    "example": "It took months of dealing with government bureaucracy just to get a permit to open the restaurant.",
+    "category": "Civic Administration",
+    "subCategory": "Civic Administration"
   },
   {
-    "word": "Ombudsman",
-    "meaning": "An official appointed to investigate complaints by individuals against government departments or public authorities.",
-    "example": "If you feel a government agency treated you unfairly, you can file a complaint with the ombudsman.",
-    "category": "Civic Administration"
+    "word": "By-law",
+    "meaning": "A local law made by a city or town government that applies only to that area.",
+    "pronunciation": "",
+    "definition": "A local law made by a city or town government that applies only to that area.",
+    "example": "Under the city by-law, dogs must be kept on a leash in all public parks.",
+    "category": "Civic Administration",
+    "subCategory": "Civic Administration"
   },
   {
-    "word": "Red Tape",
-    "meaning": "Excessive rules, paperwork, and official procedures that slow down government actions and decisions.",
-    "example": "The small business owner complained that red tape made it extremely difficult to get a business license.",
-    "category": "Civic Administration"
+    "word": "Citizen",
+    "meaning": "??????",
+    "pronunciation": "/?s?t?z?n/",
+    "definition": "",
+    "example": "As a citizen, you have the right to vote and the duty to obey the nation's laws.",
+    "category": "Civic Administration",
+    "subCategory": "Civic Administration"
+  },
+  {
+    "word": "City Council",
+    "meaning": "A group of elected officials who govern a city and vote on local laws and budgets.",
+    "pronunciation": "",
+    "definition": "A group of elected officials who govern a city and vote on local laws and budgets.",
+    "example": "The city council voted to approve the construction of a new bike lane downtown.",
+    "category": "Civic Administration",
+    "subCategory": "Civic Administration"
   },
   {
     "word": "Civic Duty",
     "meaning": "Something that a citizen has a legal or moral responsibility to do, such as voting or serving on a jury.",
+    "pronunciation": "",
+    "definition": "Something that a citizen has a legal or moral responsibility to do, such as voting or serving on a jury.",
     "example": "Serving on a jury when called is a fundamental civic duty that supports the justice system.",
-    "category": "Civic Administration"
+    "category": "Civic Administration",
+    "subCategory": "Civic Administration"
   },
   {
-    "word": "Local Government",
-    "meaning": "The level of government that manages towns, cities, or counties, handling local issues rather than national ones.",
-    "example": "The local government decided to build a new community library in the town center.",
-    "category": "Civic Administration"
+    "word": "Civic Engagement",
+    "meaning": "Active participation by citizens in the life of their community to make it better.",
+    "pronunciation": "",
+    "definition": "Active participation by citizens in the life of their community to make it better.",
+    "example": "Voting in elections and volunteering at local charities are great examples of civic engagement.",
+    "category": "Civic Administration",
+    "subCategory": "Civic Administration"
   },
   {
-    "word": "Public Servant",
-    "meaning": "A person who works for the government or in public services, such as a teacher, firefighter, or postal worker.",
-    "example": "Police officers are public servants who work daily to keep our neighborhoods safe.",
-    "category": "Civic Administration"
-  },
-  {
-    "word": "Transparency",
-    "meaning": "The practice of keeping government actions, records, and decisions open and clear so the public can see them.",
-    "example": "To ensure transparency, the government publishes its spending reports online for everyone to read.",
-    "category": "Civic Administration"
-  },
-  {
-    "word": "Accountability",
-    "meaning": "The requirement for government officials to explain their actions and decisions, and accept responsibility if they make mistakes.",
-    "example": "The city council must show accountability by explaining how tax money was spent.",
-    "category": "Civic Administration"
-  },
-  {
-    "word": "Revenue Collection",
-    "meaning": "The process by which the government collects money, such as taxes and fees, to fund public services.",
-    "example": "Effective revenue collection allows the city to maintain roads, parks, and schools.",
-    "category": "Civic Administration"
-  },
-  {
-    "word": "Gentrification",
-    "meaning": "The process where a poor urban neighborhood is changed by wealthier people moving in, improving housing but displacing poorer residents.",
-    "example": "The gentrification of the historic neighborhood caused property taxes to rise, forcing many families to move away.",
-    "category": "Civic Administration"
+    "word": "Civil Service",
+    "meaning": "The permanent, professional branches of government administration, where staff are hired based on qualifications rather than political connections.",
+    "pronunciation": "",
+    "definition": "The permanent, professional branches of government administration, where staff are hired based on qualifications rather than political connections.",
+    "example": "He chose a career in the civil service to help improve public transportation systems in his city.",
+    "category": "Civic Administration",
+    "subCategory": "Civic Administration"
   },
   {
     "word": "Decentralization",
     "meaning": "Moving power and decision-making from a single central government office to local offices in different areas.",
+    "pronunciation": "",
+    "definition": "Moving power and decision-making from a single central government office to local offices in different areas.",
     "example": "The decentralization of the education department gave individual schools more control over their budgets.",
-    "category": "Civic Administration"
+    "category": "Civic Administration",
+    "subCategory": "Civic Administration"
+  },
+  {
+    "word": "Gentrification",
+    "meaning": "The process where a poor urban neighborhood is changed by wealthier people moving in, improving housing but displacing poorer residents.",
+    "pronunciation": "",
+    "definition": "The process where a poor urban neighborhood is changed by wealthier people moving in, improving housing but displacing poorer residents.",
+    "example": "The gentrification of the historic neighborhood caused property taxes to rise, forcing many families to move away.",
+    "category": "Civic Administration",
+    "subCategory": "Civic Administration"
+  },
+  {
+    "word": "Infrastructure",
+    "meaning": "The basic physical structures and systems needed for a society to function, like roads, bridges, and power lines.",
+    "pronunciation": "",
+    "definition": "The basic physical and digital systems needed for technology to work â€” servers, cables, and data centres.",
+    "example": "The government is investing billions of dollars to repair the country's aging infrastructure.",
+    "category": "Civic Administration",
+    "subCategory": "Civic Administration"
+  },
+  {
+    "word": "Local Government",
+    "meaning": "The level of government that manages towns, cities, or counties, handling local issues rather than national ones.",
+    "pronunciation": "",
+    "definition": "The level of government that manages towns, cities, or counties, handling local issues rather than national ones.",
+    "example": "The local government decided to build a new community library in the town center.",
+    "category": "Civic Administration",
+    "subCategory": "Civic Administration"
+  },
+  {
+    "word": "Mayor",
+    "meaning": "The elected leader of a city, town, or municipality.",
+    "pronunciation": "",
+    "definition": "The elected leader of a city, town, or municipality.",
+    "example": "The mayor announced a new plan to build affordable housing for low-income families.",
+    "category": "Civic Administration",
+    "subCategory": "Civic Administration"
+  },
+  {
+    "word": "Municipality",
+    "meaning": "A city, town, or local area that has its own local government.",
+    "pronunciation": "",
+    "definition": "A city, town, or local area that has its own local government.",
+    "example": "The municipality is responsible for trash collection, local roads, and public parks.",
+    "category": "Civic Administration",
+    "subCategory": "Civic Administration"
+  },
+  {
+    "word": "Ombudsman",
+    "meaning": "An official appointed to investigate complaints by individuals against government departments or public authorities.",
+    "pronunciation": "",
+    "definition": "An official appointed to investigate complaints by individuals against government departments or public authorities.",
+    "example": "If you feel a government agency treated you unfairly, you can file a complaint with the ombudsman.",
+    "category": "Civic Administration",
+    "subCategory": "Civic Administration"
+  },
+  {
+    "word": "Ordinance",
+    "meaning": "A law passed by a local government, such as a city or county.",
+    "pronunciation": "",
+    "definition": "A law passed by a local government, such as a city or county.",
+    "example": "The town passed a noise ordinance banning loud music after 10:00 PM.",
+    "category": "Civic Administration",
+    "subCategory": "Civic Administration"
+  },
+  {
+    "word": "Public Hearing",
+    "meaning": "A formal meeting where citizens can voice their opinions on proposed laws, projects, or budgets.",
+    "pronunciation": "",
+    "definition": "A formal meeting where citizens can voice their opinions on proposed laws, projects, or budgets.",
+    "example": "The town held a public hearing to listen to residents' concerns about the new highway project.",
+    "category": "Civic Administration",
+    "subCategory": "Civic Administration"
+  },
+  {
+    "word": "Public Registry",
+    "meaning": "A government database of official records that the public can look at, such as land ownership or birth records.",
+    "pronunciation": "",
+    "definition": "A government database of official records that the public can look at, such as land ownership or birth records.",
+    "example": "You can check the public registry to find out who owns the property next to your house.",
+    "category": "Civic Administration",
+    "subCategory": "Civic Administration"
+  },
+  {
+    "word": "Public Sector",
+    "meaning": "The part of the economy that is owned, managed, and funded by the government.",
+    "pronunciation": "",
+    "definition": "The part of the economy that is owned, managed, and funded by the government.",
+    "example": "Public schools, hospitals, and police departments are all part of the public sector.",
+    "category": "Civic Administration",
+    "subCategory": "Civic Administration"
+  },
+  {
+    "word": "Public Servant",
+    "meaning": "A person who works for the government or in public services, such as a teacher, firefighter, or postal worker.",
+    "pronunciation": "",
+    "definition": "A person who works for the government or in public services, such as a teacher, firefighter, or postal worker.",
+    "example": "Police officers are public servants who work daily to keep our neighborhoods safe.",
+    "category": "Civic Administration",
+    "subCategory": "Civic Administration"
+  },
+  {
+    "word": "Public Utility",
+    "meaning": "A service that is essential to the public, such as electricity, water, or gas, often regulated or run by the government.",
+    "pronunciation": "",
+    "definition": "A service that is essential to the public, such as electricity, water, or gas, often regulated or run by the government.",
+    "example": "The local public utility worked quickly to restore water service after the pipe broke.",
+    "category": "Civic Administration",
+    "subCategory": "Civic Administration"
+  },
+  {
+    "word": "Public Works",
+    "meaning": "Building and repair projects done by the government for the community, such as roads, schools, and sewers.",
+    "pronunciation": "",
+    "definition": "Building and repair projects done by the government for the community, such as roads, schools, and sewers.",
+    "example": "The department of public works is responsible for paving roads and clearing snow during the winter.",
+    "category": "Civic Administration",
+    "subCategory": "Civic Administration"
+  },
+  {
+    "word": "Red Tape",
+    "meaning": "Excessive rules, paperwork, and official procedures that slow down government actions and decisions.",
+    "pronunciation": "",
+    "definition": "Excessive rules, paperwork, and official procedures that slow down government actions and decisions.",
+    "example": "The small business owner complained that red tape made it extremely difficult to get a business license.",
+    "category": "Civic Administration",
+    "subCategory": "Civic Administration"
+  },
+  {
+    "word": "Resident",
+    "meaning": "A person who lives in a particular place, even if they are not a citizen of that country.",
+    "pronunciation": "",
+    "definition": "A person who lives in a particular place, even if they are not a citizen of that country.",
+    "example": "Although she is a foreign student, she is a resident of this city and pays local sales tax.",
+    "category": "Civic Administration",
+    "subCategory": "Civic Administration"
+  },
+  {
+    "word": "Revenue Collection",
+    "meaning": "The process by which the government collects money, such as taxes and fees, to fund public services.",
+    "pronunciation": "",
+    "definition": "The process by which the government collects money, such as taxes and fees, to fund public services.",
+    "example": "Effective revenue collection allows the city to maintain roads, parks, and schools.",
+    "category": "Civic Administration",
+    "subCategory": "Civic Administration"
+  },
+  {
+    "word": "Social Contract",
+    "meaning": "An unspoken agreement where citizens give up some freedoms to the government in exchange for protection of their rights.",
+    "pronunciation": "",
+    "definition": "An unspoken agreement where citizens give up some freedoms to the government in exchange for protection of their rights.",
+    "example": "According to the social contract theory, citizens obey laws because the government protects their safety and property.",
+    "category": "Civic Administration",
+    "subCategory": "Civic Administration"
+  },
+  {
+    "word": "Town Hall",
+    "meaning": "A local government building, or an open meeting where local politicians answer questions from residents.",
+    "pronunciation": "",
+    "definition": "A local government building, or an open meeting where local politicians answer questions from residents.",
+    "example": "The senator hosted a town hall meeting to discuss the new healthcare law with her constituents.",
+    "category": "Civic Administration",
+    "subCategory": "Civic Administration"
+  },
+  {
+    "word": "Transparency",
+    "meaning": "The practice of keeping government actions, records, and decisions open and clear so the public can see them.",
+    "pronunciation": "",
+    "definition": "The condition of being open and not secretive (strong alternative to 'openness').",
+    "example": "To ensure transparency, the government publishes its spending reports online for everyone to read.",
+    "category": "Civic Administration",
+    "subCategory": "Civic Administration"
+  },
+  {
+    "word": "Zoning",
+    "meaning": "Rules about how land in a city or town can be used, such as for houses, stores, or factories.",
+    "pronunciation": "",
+    "definition": "Rules about how land in a city or town can be used, such as for houses, stores, or factories.",
+    "example": "The zoning laws in this neighborhood do not allow tall commercial buildings to be constructed.",
+    "category": "Civic Administration",
+    "subCategory": "Civic Administration"
   }
 ]

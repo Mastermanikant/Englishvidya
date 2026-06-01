@@ -1,0 +1,758 @@
+[
+  {
+    "word": "above all",
+    "meaning": "Used to emphasize the most important point",
+    "pronunciation": "",
+    "definition": "Used to emphasize the most important point",
+    "example": "Be honest. Above all, be kind.",
+    "category": "Discourse Markers",
+    "subCategory": "Discourse Markers"
+  },
+  {
+    "word": "according to",
+    "meaning": "Used to attribute information to a specific source",
+    "pronunciation": "",
+    "definition": "Used to attribute information to a specific source",
+    "example": "According to the report, unemployment has fallen.",
+    "category": "Discourse Markers",
+    "subCategory": "Discourse Markers"
+  },
+  {
+    "word": "actually",
+    "meaning": "दरअसल / वास्तव में (darasal / vaastav mein)",
+    "pronunciation": "???????? (ak-choo-uh-lee)",
+    "definition": "Used to state the truth, especially when it is different from what was expected.",
+    "example": "I thought he was angry, but actually, he was just tired.",
+    "category": "Discourse Markers",
+    "subCategory": "Discourse Markers"
+  },
+  {
+    "word": "after all",
+    "meaning": "Used to introduce a reason that explains why something is true, often after reconsideration",
+    "pronunciation": "",
+    "definition": "Used to introduce a reason that explains why something is true, often after reconsideration",
+    "example": "Don't be too hard on him â€” after all, he's just a child.",
+    "category": "Discourse Markers",
+    "subCategory": "Discourse Markers"
+  },
+  {
+    "word": "allegedly",
+    "meaning": "Used to indicate a claim has been made but not proven",
+    "pronunciation": "",
+    "definition": "Used to indicate a claim has been made but not proven",
+    "example": "He allegedly stole the funds, though no charges were filed.",
+    "category": "Discourse Markers",
+    "subCategory": "Discourse Markers"
+  },
+  {
+    "word": "AND STUFF",
+    "meaning": "Textbook: Conjunction + noun. Spoken Native: Added to the end of a sentence to mean 'and other similar things,' avoiding the need to list details.",
+    "pronunciation": "",
+    "definition": "Textbook: Conjunction + noun. Spoken Native: Added to the end of a sentence to mean 'and other similar things,' avoiding the need to list details.",
+    "example": "We just hung out, listened to music, and stuff.",
+    "category": "Discourse Markers",
+    "subCategory": "Discourse Markers"
+  },
+  {
+    "word": "anyhow",
+    "meaning": "Informal variant of 'anyway'; used to resume or conclude a topic",
+    "pronunciation": "",
+    "definition": "Informal variant of 'anyway'; used to resume or conclude a topic",
+    "example": "Anyhow, that's not the point â€” let's move on.",
+    "category": "Discourse Markers",
+    "subCategory": "Discourse Markers"
+  },
+  {
+    "word": "anyway",
+    "meaning": "ख़ैर / वैसे भी (khair / vaise bhi)",
+    "pronunciation": "???-?? (eh-nee-way)",
+    "definition": "Used to change the subject, return to a previous subject, or end a conversation.",
+    "example": "Anyway, let's get back to what we were discussing.",
+    "category": "Discourse Markers",
+    "subCategory": "Discourse Markers"
+  },
+  {
+    "word": "ANYWAYS",
+    "meaning": "Textbook: Non-standard variant of 'anyway.' Spoken Native: Widely used in speech to shift topics, transition back to the main point, or signal the end of a conversation.",
+    "pronunciation": "",
+    "definition": "Textbook: Non-standard variant of 'anyway.' Spoken Native: Widely used in speech to shift topics, transition back to the main point, or signal the end of a conversation.",
+    "example": "Anyways, let's get back to what we were discussing.",
+    "category": "Discourse Markers",
+    "subCategory": "Discourse Markers"
+  },
+  {
+    "word": "as a matter of fact",
+    "meaning": "Used to emphasize truth or correct a misconception informally",
+    "pronunciation": "",
+    "definition": "Used to emphasize truth or correct a misconception informally",
+    "example": "As a matter of fact, I've been here before.",
+    "category": "Discourse Markers",
+    "subCategory": "Discourse Markers"
+  },
+  {
+    "word": "as a rule",
+    "meaning": "Used to state a general principle or typical behavior",
+    "pronunciation": "",
+    "definition": "Used to state a general principle or typical behavior",
+    "example": "As a rule, I try to avoid eating after 8 p.m.",
+    "category": "Discourse Markers",
+    "subCategory": "Discourse Markers"
+  },
+  {
+    "word": "as far as ... is concerned",
+    "meaning": "Used to limit a statement to a specific topic",
+    "pronunciation": "",
+    "definition": "Used to limit a statement to a specific topic",
+    "example": "As far as I'm concerned, the meeting is over.",
+    "category": "Discourse Markers",
+    "subCategory": "Discourse Markers"
+  },
+  {
+    "word": "as far as I know",
+    "meaning": "Used to indicate a statement is true to the best of the speaker's knowledge",
+    "pronunciation": "",
+    "definition": "Used to indicate a statement is true to the best of the speaker's knowledge",
+    "example": "As far as I know, the office opens at nine.",
+    "category": "Discourse Markers",
+    "subCategory": "Discourse Markers"
+  },
+  {
+    "word": "as for",
+    "meaning": "Used to shift focus to a new topic or person",
+    "pronunciation": "",
+    "definition": "Used to shift focus to a new topic or person",
+    "example": "As for the report, we'll discuss it tomorrow.",
+    "category": "Discourse Markers",
+    "subCategory": "Discourse Markers"
+  },
+  {
+    "word": "as I was saying",
+    "meaning": "Used to return to a point after a digression",
+    "pronunciation": "",
+    "definition": "Used to return to a point after a digression",
+    "example": "As I was saying, we need to fix the root cause.",
+    "category": "Discourse Markers",
+    "subCategory": "Discourse Markers"
+  },
+  {
+    "word": "as it were",
+    "meaning": "Used to indicate a metaphorical or imprecise usage of a term",
+    "pronunciation": "",
+    "definition": "Used to indicate a metaphorical or imprecise usage of a term",
+    "example": "She became the mother of the movement, as it were.",
+    "category": "Discourse Markers",
+    "subCategory": "Discourse Markers"
+  },
+  {
+    "word": "at least",
+    "meaning": "Used to present a positive aspect despite a negative situation",
+    "pronunciation": "",
+    "definition": "Used to present a positive aspect despite a negative situation",
+    "example": "We lost the game, but at least nobody got hurt.",
+    "category": "Discourse Markers",
+    "subCategory": "Discourse Markers"
+  },
+  {
+    "word": "AT THE END OF THE DAY",
+    "meaning": "Textbook: When the day concludes. Spoken Native: Used metaphorically as a clichÃ© meaning 'ultimately,' 'when all is said and done,' or 'in the final analysis.'",
+    "pronunciation": "",
+    "definition": "Textbook: When the day concludes. Spoken Native: Used metaphorically as a clichÃ© meaning 'ultimately,' 'when all is said and done,' or 'in the final analysis.'",
+    "example": "At the end of the day, it's your decision to make.",
+    "category": "Discourse Markers",
+    "subCategory": "Discourse Markers"
+  },
+  {
+    "word": "BASICALLY",
+    "meaning": "मूल रूप से / कुल मिलाकर (mool roop se / kul milakar)",
+    "pronunciation": "??????? (bay-sik-lee)",
+    "definition": "Used to summarize or explain something in a simple way.",
+    "example": "Basically, we just need to sign the contract and we're done.",
+    "category": "Discourse Markers",
+    "subCategory": "Discourse Markers"
+  },
+  {
+    "word": "bearing that in mind",
+    "meaning": "Used to transition to a decision or action informed by the previous information",
+    "pronunciation": "",
+    "definition": "Used to transition to a decision or action informed by the previous information",
+    "example": "Bearing that in mind, we should proceed carefully.",
+    "category": "Discourse Markers",
+    "subCategory": "Discourse Markers"
+  },
+  {
+    "word": "broadly speaking",
+    "meaning": "Used to introduce a rough or approximate generalization",
+    "pronunciation": "",
+    "definition": "Used to introduce a rough or approximate generalization",
+    "example": "Broadly speaking, the feedback has been positive.",
+    "category": "Discourse Markers",
+    "subCategory": "Discourse Markers"
+  },
+  {
+    "word": "BUT",
+    "meaning": "Textbook: Coordinating conjunction showing contrast. Spoken Native: Frequently used at the end of sentences in speech (especially in Irish, Scottish, and Australian English) to mean 'though' or 'however'.",
+    "pronunciation": "",
+    "definition": "Used to introduce a phrase or clause contrasting with what has already been mentioned",
+    "example": "It was a very expensive car. I bought it, but.",
+    "category": "Discourse Markers",
+    "subCategory": "Discourse Markers"
+  },
+  {
+    "word": "by and large",
+    "meaning": "Idiom meaning 'in general' or 'on the whole'",
+    "pronunciation": "",
+    "definition": "Idiom meaning 'in general' or 'on the whole'",
+    "example": "By and large, the new policy has been well received.",
+    "category": "Discourse Markers",
+    "subCategory": "Discourse Markers"
+  },
+  {
+    "word": "BY THE WAY",
+    "meaning": "Textbook: Used to introduce a minor digression. Spoken Native: Frequently used to introduce an important piece of news, a sudden reminder, or to change the subject.",
+    "pronunciation": "",
+    "definition": "Used to introduce a tangential or additional remark",
+    "example": "By the way, did you remember to lock the front door?",
+    "category": "Discourse Markers",
+    "subCategory": "Discourse Markers"
+  },
+  {
+    "word": "come to think of it",
+    "meaning": "Used when a new thought or realization suddenly occurs",
+    "pronunciation": "",
+    "definition": "Used when a new thought or realization suddenly occurs",
+    "example": "Come to think of it, I've met her before.",
+    "category": "Discourse Markers",
+    "subCategory": "Discourse Markers"
+  },
+  {
+    "word": "don't get me wrong",
+    "meaning": "Used to prevent a misinterpretation of what you're saying",
+    "pronunciation": "",
+    "definition": "Used to prevent a misinterpretation of what you're saying",
+    "example": "Don't get me wrong â€” I like him, I just disagree with this decision.",
+    "category": "Discourse Markers",
+    "subCategory": "Discourse Markers"
+  },
+  {
+    "word": "especially",
+    "meaning": "Used to emphasize that something is more true in one case than others",
+    "pronunciation": "",
+    "definition": "Used to emphasize that something is more true in one case than others",
+    "example": "She loves all fruit, especially mangoes.",
+    "category": "Discourse Markers",
+    "subCategory": "Discourse Markers"
+  },
+  {
+    "word": "for the most part",
+    "meaning": "Used to indicate something is mostly or largely true",
+    "pronunciation": "",
+    "definition": "Used to indicate something is mostly or largely true",
+    "example": "For the most part, the students understood the lesson.",
+    "category": "Discourse Markers",
+    "subCategory": "Discourse Markers"
+  },
+  {
+    "word": "generally speaking",
+    "meaning": "Used to introduce a broad or typical statement",
+    "pronunciation": "",
+    "definition": "Used to introduce a broad or typical statement",
+    "example": "Generally speaking, people prefer stability over risk.",
+    "category": "Discourse Markers",
+    "subCategory": "Discourse Markers"
+  },
+  {
+    "word": "having said that",
+    "meaning": "Used to introduce a contrasting view while acknowledging the previous point",
+    "pronunciation": "",
+    "definition": "Used to introduce a contrasting view while acknowledging the previous point",
+    "example": "The movie was long. Having said that, it was very entertaining.",
+    "category": "Discourse Markers",
+    "subCategory": "Discourse Markers"
+  },
+  {
+    "word": "honestly",
+    "meaning": "ईमानदारी से / सच कहूँ तो (imaandari se / sach kahoon toh)",
+    "pronunciation": "???????? (on-est-lee)",
+    "definition": "Used to emphasize that you are telling the truth or your true opinion.",
+    "example": "Honestly, I don't think that's a good plan.",
+    "category": "Discourse Markers",
+    "subCategory": "Discourse Markers"
+  },
+  {
+    "word": "I guess",
+    "meaning": "Informal expression of uncertain agreement or a tentative conclusion",
+    "pronunciation": "",
+    "definition": "Informal expression of uncertain agreement or a tentative conclusion",
+    "example": "I guess we'll just have to wait and see.",
+    "category": "Discourse Markers",
+    "subCategory": "Discourse Markers"
+  },
+  {
+    "word": "I MEAN",
+    "meaning": "Textbook: Used to explain the meaning of your words. Spoken Native: Used as a filler word to self-correct, soften a strong opinion, or clarify a statement.",
+    "pronunciation": "",
+    "definition": "Used to clarify, rephrase, or add detail to what was just said",
+    "example": "I mean, it's not a bad movie, it's just very long.",
+    "category": "Discourse Markers",
+    "subCategory": "Discourse Markers"
+  },
+  {
+    "word": "I suppose",
+    "meaning": "Used to express uncertain agreement or reluctant acceptance",
+    "pronunciation": "",
+    "definition": "Used to express uncertain agreement or reluctant acceptance",
+    "example": "I suppose you're right, but it still seems risky.",
+    "category": "Discourse Markers",
+    "subCategory": "Discourse Markers"
+  },
+  {
+    "word": "if anything",
+    "meaning": "Used to suggest an alternative possibility, often surprising",
+    "pronunciation": "",
+    "definition": "Used to suggest an alternative possibility, often surprising",
+    "example": "He wasn't upset â€” if anything, he was relieved.",
+    "category": "Discourse Markers",
+    "subCategory": "Discourse Markers"
+  },
+  {
+    "word": "if I'm not mistaken",
+    "meaning": "Used to introduce a statement the speaker is fairly, but not completely, sure of",
+    "pronunciation": "",
+    "definition": "Used to introduce a statement the speaker is fairly, but not completely, sure of",
+    "example": "If I'm not mistaken, the deadline is Friday.",
+    "category": "Discourse Markers",
+    "subCategory": "Discourse Markers"
+  },
+  {
+    "word": "if only",
+    "meaning": "Used to express a wish or regret about a past or hypothetical situation",
+    "pronunciation": "",
+    "definition": "Used to express a wish or regret about a past or hypothetical situation",
+    "example": "If only I had left earlier, I wouldn't have missed the train.",
+    "category": "Discourse Markers",
+    "subCategory": "Discourse Markers"
+  },
+  {
+    "word": "in a sense",
+    "meaning": "Used to qualify a statement as true from one particular perspective",
+    "pronunciation": "",
+    "definition": "Used to qualify a statement as true from one particular perspective",
+    "example": "In a sense, we've already solved the problem.",
+    "category": "Discourse Markers",
+    "subCategory": "Discourse Markers"
+  },
+  {
+    "word": "in a way",
+    "meaning": "Used to qualify a statement to suggest it is partially true",
+    "pronunciation": "",
+    "definition": "Used to qualify a statement to suggest it is partially true",
+    "example": "In a way, I'm glad it happened.",
+    "category": "Discourse Markers",
+    "subCategory": "Discourse Markers"
+  },
+  {
+    "word": "in fact",
+    "meaning": "Used to introduce a stronger or surprising piece of evidence that reinforces or corrects",
+    "pronunciation": "",
+    "definition": "Used to introduce a stronger or surprising piece of evidence that reinforces or corrects",
+    "example": "I thought it was easy. In fact, it was one of the hardest things I've done.",
+    "category": "Discourse Markers",
+    "subCategory": "Discourse Markers"
+  },
+  {
+    "word": "in particular",
+    "meaning": "Used to single out a specific item within a general category",
+    "pronunciation": "",
+    "definition": "Used to single out a specific item within a general category",
+    "example": "She liked everything, in particular the dessert.",
+    "category": "Discourse Markers",
+    "subCategory": "Discourse Markers"
+  },
+  {
+    "word": "in terms of",
+    "meaning": "Used to specify a particular aspect or dimension being discussed",
+    "pronunciation": "",
+    "definition": "Used to specify a particular aspect or dimension being discussed",
+    "example": "In terms of cost, the second option is much better.",
+    "category": "Discourse Markers",
+    "subCategory": "Discourse Markers"
+  },
+  {
+    "word": "incidentally",
+    "meaning": "Used to introduce a related but secondary point or tangent",
+    "pronunciation": "",
+    "definition": "Used to introduce a related but secondary point or tangent",
+    "example": "Incidentally, the same thing happened to me last year.",
+    "category": "Discourse Markers",
+    "subCategory": "Discourse Markers"
+  },
+  {
+    "word": "indeed",
+    "meaning": "Used to confirm or strongly emphasize a point",
+    "pronunciation": "",
+    "definition": "Used to emphasize a statement or response confirming something already suggested.",
+    "example": "It was, indeed, the best performance of the year.",
+    "category": "Discourse Markers",
+    "subCategory": "Discourse Markers"
+  },
+  {
+    "word": "it goes without saying",
+    "meaning": "Used to state something that should be obvious or universally understood",
+    "pronunciation": "",
+    "definition": "Used to state something that should be obvious or universally understood",
+    "example": "It goes without saying that honesty is the best policy.",
+    "category": "Discourse Markers",
+    "subCategory": "Discourse Markers"
+  },
+  {
+    "word": "kind of",
+    "meaning": "Used to soften or qualify a statement informally",
+    "pronunciation": "",
+    "definition": "Rather; to some extent (vague qualifier)",
+    "example": "I kind of thought you'd say that.",
+    "category": "Discourse Markers",
+    "subCategory": "Discourse Markers"
+  },
+  {
+    "word": "LIKE",
+    "meaning": "पसंद करना / की तरह",
+    "pronunciation": "???? (Like)",
+    "definition": "To enjoy something; or similar to.",
+    "example": "I was, like, trying to explain it, but he wasn't really listening.",
+    "category": "Discourse Markers",
+    "subCategory": "Discourse Markers"
+  },
+  {
+    "word": "MIND YOU",
+    "meaning": "Textbook: Informal transition. Spoken Native: Used to introduce a qualification, caveat, or contrasting point to a statement just made, similar to 'however.'",
+    "pronunciation": "",
+    "definition": "Textbook: Informal transition. Spoken Native: Used to introduce a qualification, caveat, or contrasting point to a statement just made, similar to 'however.'",
+    "example": "The salary is not great. Mind you, the benefits are excellent.",
+    "category": "Discourse Markers",
+    "subCategory": "Discourse Markers"
+  },
+  {
+    "word": "more or less",
+    "meaning": "Used to indicate approximate truth; almost but not entirely",
+    "pronunciation": "",
+    "definition": "Used to indicate approximate truth; almost but not entirely",
+    "example": "We're more or less finished â€” just a few details left.",
+    "category": "Discourse Markers",
+    "subCategory": "Discourse Markers"
+  },
+  {
+    "word": "most importantly",
+    "meaning": "Used to highlight the single most significant point",
+    "pronunciation": "",
+    "definition": "Used to highlight the single most significant point",
+    "example": "Most importantly, make sure everyone is safe.",
+    "category": "Discourse Markers",
+    "subCategory": "Discourse Markers"
+  },
+  {
+    "word": "namely",
+    "meaning": "Used to specify or identify what was just mentioned",
+    "pronunciation": "",
+    "definition": "Used to specify or identify what was just mentioned",
+    "example": "Only one person objected â€” namely, the treasurer.",
+    "category": "Discourse Markers",
+    "subCategory": "Discourse Markers"
+  },
+  {
+    "word": "needless to say",
+    "meaning": "Used to introduce something considered obvious",
+    "pronunciation": "",
+    "definition": "Used to introduce something considered obvious",
+    "example": "Needless to say, we were all shocked by the news.",
+    "category": "Discourse Markers",
+    "subCategory": "Discourse Markers"
+  },
+  {
+    "word": "not to put too fine a point on it",
+    "meaning": "Used before a blunt or frank statement",
+    "pronunciation": "",
+    "definition": "Used before a blunt or frank statement",
+    "example": "Not to put too fine a point on it, the project was a disaster.",
+    "category": "Discourse Markers",
+    "subCategory": "Discourse Markers"
+  },
+  {
+    "word": "now that I think about it",
+    "meaning": "Used to introduce a reconsidered or newly remembered point",
+    "pronunciation": "",
+    "definition": "Used to introduce a reconsidered or newly remembered point",
+    "example": "Now that I think about it, he did seem nervous.",
+    "category": "Discourse Markers",
+    "subCategory": "Discourse Markers"
+  },
+  {
+    "word": "on that note",
+    "meaning": "Used to transition from a topic to a related closing point",
+    "pronunciation": "",
+    "definition": "Used to transition from a topic to a related closing point",
+    "example": "On that note, I think we should wrap up.",
+    "category": "Discourse Markers",
+    "subCategory": "Discourse Markers"
+  },
+  {
+    "word": "on the subject of",
+    "meaning": "Used to introduce a related topic",
+    "pronunciation": "",
+    "definition": "Used to introduce a related topic",
+    "example": "On the subject of holidays, have you booked anything yet?",
+    "category": "Discourse Markers",
+    "subCategory": "Discourse Markers"
+  },
+  {
+    "word": "OR WHAT",
+    "meaning": "Textbook: Tag question. Spoken Native: Added to the end of a question to add emphasis, show impatience, or demand a clear answer.",
+    "pronunciation": "",
+    "definition": "Textbook: Tag question. Spoken Native: Added to the end of a question to add emphasis, show impatience, or demand a clear answer.",
+    "example": "Are you coming with us or what?",
+    "category": "Discourse Markers",
+    "subCategory": "Discourse Markers"
+  },
+  {
+    "word": "PLUS",
+    "meaning": "Textbook: Mathematical preposition meaning 'add.' Spoken Native: Used as a coordinating conjunction or transitional word at the beginning of a sentence, meaning 'in addition' or 'besides.'",
+    "pronunciation": "",
+    "definition": "Textbook: Mathematical preposition meaning 'add.' Spoken Native: Used as a coordinating conjunction or transitional word at the beginning of a sentence, meaning 'in addition' or 'besides.'",
+    "example": "The house has a huge backyard. Plus, it's close to a school.",
+    "category": "Discourse Markers",
+    "subCategory": "Discourse Markers"
+  },
+  {
+    "word": "put it another way",
+    "meaning": "Used to offer an alternative explanation of the same point",
+    "pronunciation": "",
+    "definition": "Used to offer an alternative explanation of the same point",
+    "example": "Put it another way, we simply can't afford it.",
+    "category": "Discourse Markers",
+    "subCategory": "Discourse Markers"
+  },
+  {
+    "word": "regarding",
+    "meaning": "Used to indicate the topic of a statement",
+    "pronunciation": "",
+    "definition": "Used to indicate the topic of a statement",
+    "example": "Regarding your question, I'll need more time to answer.",
+    "category": "Discourse Markers",
+    "subCategory": "Discourse Markers"
+  },
+  {
+    "word": "RIGHT",
+    "meaning": "सही / दायां (sahi / daayaan)",
+    "pronunciation": "???? (Right)",
+    "definition": "Morally good, factual, or a direction.",
+    "example": "Right, let's get started on the next project.",
+    "category": "Discourse Markers",
+    "subCategory": "Discourse Markers"
+  },
+  {
+    "word": "SO",
+    "meaning": "Textbook: Coordinating conjunction. Spoken Native: Used at the beginning of a sentence to initiate a conversation, transition, or as a filler, and at the end of sentences to imply an incomplete thought (e.g., 'So... yeah').",
+    "pronunciation": "",
+    "definition": "To such a great extent; therefore; and for this reason",
+    "example": "So, what do you think we should do next?",
+    "category": "Discourse Markers",
+    "subCategory": "Discourse Markers"
+  },
+  {
+    "word": "SO TO SPEAK",
+    "meaning": "Textbook: Metaphorical signal. Spoken Native: Used to indicate that a description is a figure of speech, though often used redundantly by speakers to fill gaps.",
+    "pronunciation": "",
+    "definition": "Used to signal that a word or phrase is being used loosely or figuratively",
+    "example": "He is the captain of our ship, so to speak.",
+    "category": "Discourse Markers",
+    "subCategory": "Discourse Markers"
+  },
+  {
+    "word": "sort of",
+    "meaning": "Used to make a statement less direct or certain; hedging",
+    "pronunciation": "",
+    "definition": "To a certain extent; in some way",
+    "example": "It was sort of disappointing, to be honest.",
+    "category": "Discourse Markers",
+    "subCategory": "Discourse Markers"
+  },
+  {
+    "word": "speaking of which",
+    "meaning": "Used to connect the current topic to a related point",
+    "pronunciation": "",
+    "definition": "Used to connect the current topic to a related point",
+    "example": "That reminds me of last summer â€” speaking of which, did you go anywhere?",
+    "category": "Discourse Markers",
+    "subCategory": "Discourse Markers"
+  },
+  {
+    "word": "strictly speaking",
+    "meaning": "Used to introduce the precise, technical, or literal interpretation",
+    "pronunciation": "",
+    "definition": "Used to introduce the precise, technical, or literal interpretation",
+    "example": "Strictly speaking, that rule doesn't apply here.",
+    "category": "Discourse Markers",
+    "subCategory": "Discourse Markers"
+  },
+  {
+    "word": "that is to say",
+    "meaning": "Used to clarify or rephrase the previous statement",
+    "pronunciation": "",
+    "definition": "Used to clarify or rephrase the previous statement",
+    "example": "We'll start in spring â€” that is to say, in April or May.",
+    "category": "Discourse Markers",
+    "subCategory": "Discourse Markers"
+  },
+  {
+    "word": "that said",
+    "meaning": "Used to introduce a contrasting or qualifying point after what was stated",
+    "pronunciation": "",
+    "definition": "Used to introduce a contrasting or qualifying point after what was stated",
+    "example": "It's a challenging course. That said, the students learn a lot.",
+    "category": "Discourse Markers",
+    "subCategory": "Discourse Markers"
+  },
+  {
+    "word": "the point is",
+    "meaning": "Used to emphasize the most essential part of an argument",
+    "pronunciation": "",
+    "definition": "Used to emphasize the most essential part of an argument",
+    "example": "The point is, we can't keep ignoring this problem.",
+    "category": "Discourse Markers",
+    "subCategory": "Discourse Markers"
+  },
+  {
+    "word": "the thing is",
+    "meaning": "Used to introduce the real or important point, often explaining a difficulty",
+    "pronunciation": "",
+    "definition": "Used to introduce the real or important point, often explaining a difficulty",
+    "example": "The thing is, I don't know if I can trust him.",
+    "category": "Discourse Markers",
+    "subCategory": "Discourse Markers"
+  },
+  {
+    "word": "THEN AGAIN",
+    "meaning": "Textbook: Idiomatic transition. Spoken Native: The default spoken alternative to 'on the other hand' when presenting a contrasting idea or second thought.",
+    "pronunciation": "",
+    "definition": "Textbook: Idiomatic transition. Spoken Native: The default spoken alternative to 'on the other hand' when presenting a contrasting idea or second thought.",
+    "example": "I think I'll buy the blue shirt. Then again, the green one looks nice too.",
+    "category": "Discourse Markers",
+    "subCategory": "Discourse Markers"
+  },
+  {
+    "word": "THOUGH",
+    "meaning": "Textbook: Subordinating conjunction. Spoken Native: Almost always placed at the end of a sentence in spoken English to mean 'however' or 'nevertheless.'",
+    "pronunciation": "",
+    "definition": "Informal form of 'although', often placed at the end of a clause",
+    "example": "The food was terrible. The dessert was good, though.",
+    "category": "Discourse Markers",
+    "subCategory": "Discourse Markers"
+  },
+  {
+    "word": "to a certain degree",
+    "meaning": "Used to qualify the degree of truth in a statement",
+    "pronunciation": "",
+    "definition": "Used to qualify the degree of truth in a statement",
+    "example": "To a certain degree, we are all responsible for this outcome.",
+    "category": "Discourse Markers",
+    "subCategory": "Discourse Markers"
+  },
+  {
+    "word": "to get back to the point",
+    "meaning": "Used to refocus the conversation on the main topic",
+    "pronunciation": "",
+    "definition": "Used to refocus the conversation on the main topic",
+    "example": "To get back to the point, what's our deadline?",
+    "category": "Discourse Markers",
+    "subCategory": "Discourse Markers"
+  },
+  {
+    "word": "to put it simply",
+    "meaning": "Used to introduce a plain, easy-to-understand version of something",
+    "pronunciation": "",
+    "definition": "Used to introduce a plain, easy-to-understand version of something",
+    "example": "To put it simply, we spent more than we earned.",
+    "category": "Discourse Markers",
+    "subCategory": "Discourse Markers"
+  },
+  {
+    "word": "to some extent",
+    "meaning": "Used to indicate partial agreement or truth",
+    "pronunciation": "",
+    "definition": "Used to indicate partial agreement or truth",
+    "example": "To some extent, you're right.",
+    "category": "Discourse Markers",
+    "subCategory": "Discourse Markers"
+  },
+  {
+    "word": "well",
+    "meaning": "Used to introduce a response, soften a statement, or signal hesitation",
+    "pronunciation": "",
+    "definition": "Used to introduce a response, soften a statement, or signal hesitation",
+    "example": "Well, I'm not entirely sure that's the right approach.",
+    "category": "Discourse Markers",
+    "subCategory": "Discourse Markers"
+  },
+  {
+    "word": "what I'm saying is",
+    "meaning": "Used to clarify or rephrase your main argument",
+    "pronunciation": "",
+    "definition": "Used to clarify or rephrase your main argument",
+    "example": "What I'm saying is, we need a completely new strategy.",
+    "category": "Discourse Markers",
+    "subCategory": "Discourse Markers"
+  },
+  {
+    "word": "when it comes to",
+    "meaning": "Informal phrase to introduce a specific topic or area",
+    "pronunciation": "",
+    "definition": "Informal phrase to introduce a specific topic or area",
+    "example": "When it comes to cooking, she's the expert.",
+    "category": "Discourse Markers",
+    "subCategory": "Discourse Markers"
+  },
+  {
+    "word": "while we're at it",
+    "meaning": "Used to suggest doing something related since you're already involved",
+    "pronunciation": "",
+    "definition": "Used to suggest doing something related since you're already involved",
+    "example": "While we're at it, let's update the other files too.",
+    "category": "Discourse Markers",
+    "subCategory": "Discourse Markers"
+  },
+  {
+    "word": "with that",
+    "meaning": "Used informally to signal the end of something or a transition",
+    "pronunciation": "",
+    "definition": "Used informally to signal the end of something or a transition",
+    "example": "With that, I'll hand it over to the next speaker.",
+    "category": "Discourse Markers",
+    "subCategory": "Discourse Markers"
+  },
+  {
+    "word": "with that in mind",
+    "meaning": "Used to introduce a conclusion or action that follows from what was said",
+    "pronunciation": "",
+    "definition": "Used to introduce a conclusion or action that follows from what was said",
+    "example": "With that in mind, let's revise our approach.",
+    "category": "Discourse Markers",
+    "subCategory": "Discourse Markers"
+  },
+  {
+    "word": "YOU KNOW",
+    "meaning": "Textbook: Literally verifying the listener's knowledge. Spoken Native: A very common conversational filler used to keep the listener engaged or check for alignment.",
+    "pronunciation": "",
+    "definition": "Used to check shared understanding or fill a pause while thinking",
+    "example": "It's just, you know, hard to explain without showing you.",
+    "category": "Discourse Markers",
+    "subCategory": "Discourse Markers"
+  },
+  {
+    "word": "you see",
+    "meaning": "Used to explain something the listener may not already understand",
+    "pronunciation": "",
+    "definition": "Used to explain something the listener may not already understand",
+    "example": "You see, the problem is that nobody told him about the change.",
+    "category": "Discourse Markers",
+    "subCategory": "Discourse Markers"
+  }
+]

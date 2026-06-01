@@ -1,317 +1,182 @@
 [
   {
-    "word": "Geography",
-    "part_of_speech": "noun",
-    "definition": "The study of the physical features of the earth and its atmosphere, and of human activity as it affects and is affected by these.",
-    "example": "She majored in geography to learn more about global landscapes.",
-    "category": "Physical Geography",
-    "meaning_hi": "?????"
-  },
-  {
-    "word": "Continent",
-    "part_of_speech": "noun",
-    "definition": "Any of the world's main continuous expanses of land.",
-    "example": "Asia is the largest continent in the world.",
-    "category": "Physical Geography"
-  },
-  {
-    "word": "Ocean",
-    "part_of_speech": "noun",
-    "definition": "A very large expanse of sea, in particular each of the main areas into which the sea is divided geographically.",
-    "example": "The Pacific Ocean is the deepest body of water on Earth.",
-    "category": "Physical Geography"
-  },
-  {
-    "word": "Sea",
-    "part_of_speech": "noun",
-    "definition": "The expanse of salt water that covers most of the earth's surface and surrounds its landmasses.",
-    "example": "The Mediterranean Sea connects Europe, Africa, and Asia.",
-    "category": "Physical Geography",
-    "meaning_hi": "??????",
-    "pronunciation": "??"
-  },
-  {
-    "word": "Gulf",
-    "part_of_speech": "noun",
-    "definition": "A deep inlet of the sea almost surrounded by land, with a narrow mouth.",
-    "example": "The Gulf of Mexico borders the southern coast of the United States.",
-    "category": "Physical Geography"
-  },
-  {
-    "word": "Bay",
-    "part_of_speech": "noun",
-    "definition": "A broad inlet of the sea where the land curves inward.",
-    "example": "San Francisco Bay is famous for its bridge and island prison.",
-    "category": "Physical Geography"
-  },
-  {
-    "word": "Peninsula",
-    "part_of_speech": "noun",
-    "definition": "A piece of land almost surrounded by water or projecting out into a body of water.",
-    "example": "Italy is shaped like a boot and is a large peninsula.",
-    "category": "Physical Geography"
-  },
-  {
-    "word": "Island",
-    "part_of_speech": "noun",
-    "definition": "A piece of land surrounded by water.",
-    "example": "Hawaii is an island in the middle of the Pacific Ocean.",
-    "category": "Physical Geography"
-  },
-  {
     "word": "Archipelago",
-    "part_of_speech": "noun",
+    "meaning": "",
+    "pronunciation": "",
     "definition": "A group of islands.",
     "example": "The country of Indonesia is a massive archipelago.",
-    "category": "Physical Geography"
-  },
-  {
-    "word": "Isthmus",
-    "part_of_speech": "noun",
-    "definition": "A narrow strip of land with sea on either side, forming a link between two larger areas of land.",
-    "example": "The Isthmus of Panama connects North and South America.",
-    "category": "Physical Geography"
-  },
-  {
-    "word": "Strait",
-    "part_of_speech": "noun",
-    "definition": "A narrow passage of water connecting two seas or two other large areas of water.",
-    "example": "The Strait of Gibraltar connects the Atlantic Ocean to the Mediterranean Sea.",
-    "category": "Physical Geography"
-  },
-  {
-    "word": "Mountain",
-    "part_of_speech": "noun",
-    "definition": "A large natural elevation of the earth's surface rising abruptly from the surrounding level.",
-    "example": "Mount Everest is the tallest mountain in the world.",
     "category": "Physical Geography",
-    "meaning_hi": "?????",
-    "pronunciation": "???????"
-  },
-  {
-    "word": "Range",
-    "part_of_speech": "noun",
-    "definition": "A line or series of mountains or hills.",
-    "example": "The Andes is the longest continental mountain range in the world.",
-    "category": "Physical Geography"
-  },
-  {
-    "word": "Plateau",
-    "part_of_speech": "noun",
-    "definition": "An area of relatively level high ground.",
-    "example": "The Tibetan Plateau is sometimes referred to as the 'Roof of the World'.",
-    "category": "Physical Geography"
-  },
-  {
-    "word": "Valley",
-    "part_of_speech": "noun",
-    "definition": "A low area of land between hills or mountains, typically with a river or stream flowing through it.",
-    "example": "The village was nestled in a lush, green valley.",
-    "category": "Physical Geography"
-  },
-  {
-    "word": "Canyon",
-    "part_of_speech": "noun",
-    "definition": "A deep gorge, typically one with a river flowing through it.",
-    "example": "The Grand Canyon was carved by the Colorado River over millions of years.",
-    "category": "Physical Geography"
+    "subCategory": "Physical Geography"
   },
   {
     "word": "Basin",
-    "part_of_speech": "noun",
+    "meaning": "",
+    "pronunciation": "",
     "definition": "A natural depression on the earth's surface, typically containing water.",
     "example": "The Amazon Basin holds the largest rainforest in the world.",
-    "category": "Physical Geography"
-  },
-  {
-    "word": "Plain",
-    "part_of_speech": "noun",
-    "definition": "A large area of flat land with few trees.",
-    "example": "Bison used to roam the Great Plains in vast herds.",
-    "category": "Physical Geography"
-  },
-  {
-    "word": "Desert",
-    "part_of_speech": "noun",
-    "definition": "A barren area of landscape where little precipitation occurs and, consequently, living conditions are hostile for plant and animal life.",
-    "example": "The Sahara is the largest hot desert on Earth.",
-    "category": "Physical Geography"
-  },
-  {
-    "word": "Oasis",
-    "part_of_speech": "noun",
-    "definition": "A fertile spot in a desert, where water is found.",
-    "example": "The weary travelers were relieved to find an oasis with palm trees and a spring.",
-    "category": "Physical Geography"
-  },
-  {
-    "word": "Tundra",
-    "part_of_speech": "noun",
-    "definition": "A vast, flat, treeless Arctic region of Europe, Asia, and North America in which the subsoil is permanently frozen.",
-    "example": "Only specialized plants and animals can survive in the harsh tundra.",
-    "category": "Physical Geography"
-  },
-  {
-    "word": "Glacier",
-    "part_of_speech": "noun",
-    "definition": "A slowly moving mass or river of ice formed by the accumulation and compaction of snow on mountains or near the poles.",
-    "example": "Global warming has caused many glaciers to retreat.",
-    "category": "Physical Geography"
-  },
-  {
-    "word": "River",
-    "part_of_speech": "noun",
-    "definition": "A large natural stream of water flowing in a channel to the sea, a lake, or another such stream.",
-    "example": "The Nile River was essential to ancient Egyptian civilization.",
     "category": "Physical Geography",
-    "meaning_hi": "???",
-    "pronunciation": "????"
+    "subCategory": "Physical Geography"
   },
   {
-    "word": "Tributary",
-    "part_of_speech": "noun",
-    "definition": "A river or stream flowing into a larger river or lake.",
-    "example": "The Missouri River is a major tributary of the Mississippi River.",
-    "category": "Physical Geography"
+    "word": "Bay",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "A broad inlet of the sea where the land curves inward.",
+    "example": "San Francisco Bay is famous for its bridge and island prison.",
+    "category": "Physical Geography",
+    "subCategory": "Physical Geography"
   },
   {
-    "word": "Delta",
-    "part_of_speech": "noun",
-    "definition": "A landform that forms from deposition of sediment carried by a river as the flow leaves its mouth and enters slower-moving or stagnant water.",
-    "example": "The Mississippi Delta is an important ecological region.",
-    "category": "Physical Geography"
-  },
-  {
-    "word": "Estuary",
-    "part_of_speech": "noun",
-    "definition": "The tidal mouth of a large river, where the tide meets the stream.",
-    "example": "Estuaries serve as critical nurseries for many species of fish.",
-    "category": "Physical Geography"
-  },
-  {
-    "word": "Volcano",
-    "part_of_speech": "noun",
-    "definition": "A mountain or hill, typically conical, having a crater or vent through which lava, rock fragments, hot vapor, and gas are being or have been erupted from the earth's crust.",
-    "example": "Mount Vesuvius is a famous volcano in Italy.",
-    "category": "Physical Geography"
-  },
-  {
-    "word": "Earthquake",
-    "part_of_speech": "noun",
-    "definition": "A sudden and violent shaking of the ground, sometimes causing great destruction, as a result of movements within the earth's crust or volcanic action.",
-    "example": "The city has strict building codes to prevent damage from a major earthquake.",
-    "category": "Physical Geography"
-  },
-  {
-    "word": "Tectonic",
-    "part_of_speech": "adjective",
-    "definition": "Relating to the structure of the earth's crust and the large-scale processes which take place within it.",
-    "example": "The shifting of tectonic plates causes earthquakes.",
-    "category": "Physical Geography"
-  },
-  {
-    "word": "Erosion",
-    "part_of_speech": "noun",
-    "definition": "The process of eroding or being eroded by wind, water, or other natural agents.",
-    "example": "Coastal erosion is threatening houses built near the cliffs.",
-    "category": "Physical Geography"
-  },
-  {
-    "word": "Weathering",
-    "part_of_speech": "noun",
-    "definition": "The breaking down of rocks, soil, and minerals as well as wood and artificial materials through contact with the Earth's atmosphere, water, and biological organisms.",
-    "example": "The jagged rocks were smoothed over time by natural weathering.",
-    "category": "Physical Geography"
-  },
-  {
-    "word": "Climate",
-    "part_of_speech": "noun",
-    "definition": "The weather conditions prevailing in an area in general or over a long period.",
-    "example": "Tropical rainforests have a hot and humid climate year-round.",
-    "category": "Physical Geography"
-  },
-  {
-    "word": "Atmosphere",
-    "part_of_speech": "noun",
-    "definition": "The envelope of gases surrounding the earth or another planet.",
-    "example": "The Earth's atmosphere protects us from harmful solar radiation.",
-    "category": "Physical Geography"
-  },
-  {
-    "word": "Biosphere",
-    "part_of_speech": "noun",
-    "definition": "The regions of the surface, atmosphere, and hydrosphere of the earth occupied by living organisms.",
-    "example": "All ecosystems on Earth combine to form the biosphere.",
-    "category": "Physical Geography"
-  },
-  {
-    "word": "Hydrosphere",
-    "part_of_speech": "noun",
-    "definition": "All the waters on the earth's surface, such as lakes and seas, and sometimes including water over the earth's surface, such as clouds.",
-    "example": "The hydrosphere covers approximately 71% of the Earth's surface.",
-    "category": "Physical Geography"
-  },
-  {
-    "word": "Lithosphere",
-    "part_of_speech": "noun",
-    "definition": "The rigid outer part of the earth, consisting of the crust and upper mantle.",
-    "example": "Tectonic plates are sections of the Earth's lithosphere.",
-    "category": "Physical Geography"
-  },
-  {
-    "word": "Mantle",
-    "part_of_speech": "noun",
-    "definition": "The region of the earth's interior between the crust and the core, believed to consist of hot, dense silicate rocks.",
-    "example": "The mantle makes up most of the Earth's volume.",
-    "category": "Physical Geography"
+    "word": "Canyon",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "A deep gorge, typically one with a river flowing through it.",
+    "example": "The Grand Canyon was carved by the Colorado River over millions of years.",
+    "category": "Physical Geography",
+    "subCategory": "Physical Geography"
   },
   {
     "word": "Crust",
-    "part_of_speech": "noun",
+    "meaning": "",
+    "pronunciation": "",
     "definition": "The outermost layer of a planet.",
     "example": "The Earth's crust is much thinner under the oceans than it is under the continents.",
-    "category": "Physical Geography"
+    "category": "Physical Geography",
+    "subCategory": "Physical Geography"
   },
   {
-    "word": "Magma",
-    "part_of_speech": "noun",
-    "definition": "Hot fluid or semifluid material below or within the earth's crust from which lava and other igneous rock is formed by cooling.",
-    "example": "Magma rises to the surface during a volcanic eruption.",
-    "category": "Physical Geography"
+    "word": "Delta",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "A landform that forms from deposition of sediment carried by a river as the flow leaves its mouth and enters slower-moving or stagnant water.",
+    "example": "The Mississippi Delta is an important ecological region.",
+    "category": "Physical Geography",
+    "subCategory": "Physical Geography"
   },
   {
-    "word": "Lava",
-    "part_of_speech": "noun",
-    "definition": "Hot molten or semifluid rock erupted from a volcano or fissure.",
-    "example": "The lava flowed slowly down the side of the volcano.",
-    "category": "Physical Geography"
+    "word": "Glacier",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "A slowly moving mass or river of ice formed by the accumulation and compaction of snow on mountains or near the poles.",
+    "example": "Global warming has caused many glaciers to retreat.",
+    "category": "Physical Geography",
+    "subCategory": "Physical Geography"
   },
   {
-    "word": "Fossil",
-    "part_of_speech": "noun",
-    "definition": "The remains or impression of a prehistoric organism preserved in petrified form or as a mold or cast in rock.",
-    "example": "We found a fossil of a fern in the sedimentary rock.",
-    "category": "Physical Geography"
+    "word": "Gulf",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "A deep inlet of the sea almost surrounded by land, with a narrow mouth.",
+    "example": "The Gulf of Mexico borders the southern coast of the United States.",
+    "category": "Physical Geography",
+    "subCategory": "Physical Geography"
   },
   {
-    "word": "Sediment",
-    "part_of_speech": "noun",
-    "definition": "Particulate matter that is carried by water or wind and deposited on the surface of the land or the bottom of a body of water.",
-    "example": "The river carried a large amount of sediment down to the delta.",
-    "category": "Physical Geography"
+    "word": "Hydrosphere",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "All the waters on the earth's surface, such as lakes and seas, and sometimes including water over the earth's surface, such as clouds.",
+    "example": "The hydrosphere covers approximately 71% of the Earth's surface.",
+    "category": "Physical Geography",
+    "subCategory": "Physical Geography"
   },
   {
-    "word": "Biome",
-    "part_of_speech": "noun",
-    "definition": "A large naturally occurring community of flora and fauna occupying a major habitat.",
-    "example": "The desert biome is characterized by low rainfall and specialized plant life.",
-    "category": "Physical Geography"
+    "word": "Isthmus",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "A narrow strip of land with sea on either side, forming a link between two larger areas of land.",
+    "example": "The Isthmus of Panama connects North and South America.",
+    "category": "Physical Geography",
+    "subCategory": "Physical Geography"
   },
   {
-    "word": "Ecosystem",
-    "part_of_speech": "noun",
-    "definition": "A biological community of interacting organisms and their physical environment.",
-    "example": "A coral reef is a diverse and fragile ecosystem.",
-    "category": "Physical Geography"
+    "word": "Lithosphere",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "The rigid outer part of the earth, consisting of the crust and upper mantle.",
+    "example": "Tectonic plates are sections of the Earth's lithosphere.",
+    "category": "Physical Geography",
+    "subCategory": "Physical Geography"
+  },
+  {
+    "word": "Mantle",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "The region of the earth's interior between the crust and the core, believed to consist of hot, dense silicate rocks.",
+    "example": "The mantle makes up most of the Earth's volume.",
+    "category": "Physical Geography",
+    "subCategory": "Physical Geography"
+  },
+  {
+    "word": "Mountain",
+    "meaning": "पहाड़",
+    "pronunciation": "???????",
+    "definition": "A large natural elevation of the earth's surface rising abruptly from the surrounding level.",
+    "example": "Mount Everest is the tallest mountain in the world.",
+    "category": "Physical Geography",
+    "subCategory": "Physical Geography"
+  },
+  {
+    "word": "Oasis",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "A fertile spot in a desert, where water is found.",
+    "example": "The weary travelers were relieved to find an oasis with palm trees and a spring.",
+    "category": "Physical Geography",
+    "subCategory": "Physical Geography"
+  },
+  {
+    "word": "Plain",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "A large area of flat land with few trees.",
+    "example": "Bison used to roam the Great Plains in vast herds.",
+    "category": "Physical Geography",
+    "subCategory": "Physical Geography"
+  },
+  {
+    "word": "River",
+    "meaning": "नदी",
+    "pronunciation": "????",
+    "definition": "A large natural stream of water flowing in a channel to the sea, a lake, or another such stream.",
+    "example": "The Nile River was essential to ancient Egyptian civilization.",
+    "category": "Physical Geography",
+    "subCategory": "Physical Geography"
+  },
+  {
+    "word": "Sea",
+    "meaning": "समुद्र",
+    "pronunciation": "??",
+    "definition": "The expanse of salt water that covers most of the earth's surface and surrounds its landmasses.",
+    "example": "The Mediterranean Sea connects Europe, Africa, and Asia.",
+    "category": "Physical Geography",
+    "subCategory": "Physical Geography"
+  },
+  {
+    "word": "Strait",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "A narrow passage of water connecting two seas or two other large areas of water.",
+    "example": "The Strait of Gibraltar connects the Atlantic Ocean to the Mediterranean Sea.",
+    "category": "Physical Geography",
+    "subCategory": "Physical Geography"
+  },
+  {
+    "word": "Tectonic",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "Relating to the structure of the earth's crust and the large-scale processes which take place within it.",
+    "example": "The shifting of tectonic plates causes earthquakes.",
+    "category": "Physical Geography",
+    "subCategory": "Physical Geography"
+  },
+  {
+    "word": "Weathering",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "The breaking down of rocks, soil, and minerals as well as wood and artificial materials through contact with the Earth's atmosphere, water, and biological organisms.",
+    "example": "The jagged rocks were smoothed over time by natural weathering.",
+    "category": "Physical Geography",
+    "subCategory": "Physical Geography"
   }
 ]

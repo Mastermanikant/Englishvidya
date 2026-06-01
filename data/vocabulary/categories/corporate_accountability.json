@@ -1,1 +1,254 @@
-﻿[{"word":"Fiduciary Duty","meaning":"A legal obligation to act in the best financial interest of another party, such as a company\u0027s shareholders.","example":"The board members have a fiduciary duty to manage the pension fund responsibly.","category":"Corporate Accountability"},{"word":"Compliance","meaning":"The act of obeying rules, laws, regulations, and internal standards of a company or industry.","example":"The company invested in new filters to ensure compliance with environmental protection laws.","category":"Corporate Accountability"},{"word":"Governance","meaning":"The system of rules, practices, and processes by which a firm is directed, controlled, and managed.","example":"Good corporate governance builds investor confidence and protects the interests of shareholders.","category":"Corporate Accountability"},{"word":"Transparency","meaning":"The practice of sharing information openly and honestly with employees, customers, and the public.","example":"The CEO promoted transparency by publishing the company\u0027s financial reports and salary bands online.","category":"Corporate Accountability"},{"word":"Ethical Standards","meaning":"The principles of conduct that govern an individual or group, defining what is morally right and wrong in business.","example":"Selling low-quality products under a premium label violates our company\u0027s ethical standards.","category":"Corporate Accountability"},{"word":"Conflict Of Interest","meaning":"A situation in which a person\u0027s private interests or relationships could compromise their professional judgment.","example":"Hiring the director\u0027s brother without a public job posting was seen as a clear conflict of interest.","category":"Corporate Accountability"},{"word":"Liability","meaning":"The state of being legally responsible for something, such as a debt, injury, or product defect.","example":"The toy manufacturer faced significant liability after a design defect caused injuries to children.","category":"Corporate Accountability"},{"word":"Corporate Social Responsibility","meaning":"A business model in which companies integrate social and environmental concerns into their operations and interactions.","example":"As part of its corporate social responsibility, the retail giant pledged to eliminate single-use plastics.","category":"Corporate Accountability"},{"word":"Regulatory Compliance","meaning":"An organization\u0027s adherence to laws, regulations, guidelines, and specifications relevant to its business operations.","example":"The bank hired extra staff to handle the complex paperwork required for regulatory compliance.","category":"Corporate Accountability"},{"word":"Whistleblower","meaning":"An employee or insider who reports illegal, unethical, or dishonest activities happening within an organization.","example":"The whistleblower exposed the company\u0027s illegal dumping of chemical waste into the river.","category":"Corporate Accountability"},{"word":"Code Of Conduct","meaning":"A set of rules outlining the social norms, religious rules, and responsibilities of, or proper practices for, an individual.","example":"The employee code of conduct strictly prohibits the use of company computers for personal shopping.","category":"Corporate Accountability"},{"word":"Audit Trail","meaning":"A step-by-step history or record that provides documentary evidence of the sequence of activities that have affected a transaction.","example":"The software creates an audit trail that records every time a user accesses financial records.","category":"Corporate Accountability"},{"word":"Due Diligence","meaning":"The research and investigation done by a company or person before signing a contract or making a business deal.","example":"The tech firm performed due diligence on the startup before buying it to make sure there were no hidden debts.","category":"Corporate Accountability"},{"word":"Risk Assessment","meaning":"A systematic process of identifying, analyzing, and evaluating potential hazards or risks in a project or business.","example":"We conducted a risk assessment to understand how inflation might affect our manufacturing costs.","category":"Corporate Accountability"},{"word":"Fiscal Responsibility","meaning":"The practice of managing money and financial resources in a wise, balanced, and sustainable manner.","example":"By keeping expenses low and saving for emergencies, the non-profit demonstrated excellent fiscal responsibility.","category":"Corporate Accountability"},{"word":"Stewardship","meaning":"The job of supervising or taking care of something, such as an organization\u0027s resources, environment, or assets.","example":"Environmental stewardship is a core principle for the forestry company, which plants three trees for every one cut down.","category":"Corporate Accountability"},{"word":"Internal Audit","meaning":"An independent, objective evaluation of a company\u0027s financial records, internal controls, and operational processes.","example":"The internal audit helped the company find areas where employees were bypassing safety procedures.","category":"Corporate Accountability"},{"word":"Liability Waiver","meaning":"A legal document that a person signs to agree not to hold a company responsible for any injuries or damages.","example":"Before climbing the indoor rock wall, visitors must sign a liability waiver.","category":"Corporate Accountability"},{"word":"Non-Disclosure Agreement","meaning":"A legally binding contract that prevents employees or partners from sharing a company\u0027s confidential information.","example":"The new engineer signed a non-disclosure agreement to protect the design details of the secret project.","category":"Corporate Accountability"},{"word":"Regulatory Framework","meaning":"A system of regulations and the means, like laws and agencies, used to enforce them in a particular industry.","example":"The medical device startup had to navigate a complex regulatory framework before selling its product.","category":"Corporate Accountability"},{"word":"Compliance Officer","meaning":"An employee whose job is to ensure that a company complies with all relevant laws and regulations.","example":"The compliance officer checked the export logs to make sure no trade restrictions were violated.","category":"Corporate Accountability"},{"word":"Direct Report","meaning":"An employee who is managed directly by another person in the company hierarchy.","example":"The vice president has five direct reports, including the directors of marketing and sales.","category":"Corporate Accountability"},{"word":"Corporate Governance","meaning":"The framework of rules, relationships, systems, and processes by which corporations are directed and controlled.","example":"Strong corporate governance prevents executives from abusing their power or using company funds for personal use.","category":"Corporate Accountability"},{"word":"Ethical Dilemma","meaning":"A complex situation in business where a choice must be made between two moral principles, neither of which is clearly right.","example":"Deciding whether to report a minor safety error that would delay a critical launch created an ethical dilemma.","category":"Corporate Accountability"},{"word":"Quality Audit","meaning":"A systematic examination of a quality system carried out by an internal or external quality auditor.","example":"Our factory passed the annual quality audit, confirming that we meet international manufacturing standards.","category":"Corporate Accountability"},{"word":"Traceability","meaning":"The ability to track the history, application, or location of an item or activity using recorded documentation.","example":"Food traceability allows the supermarket chain to find which farm a contaminated batch of lettuce came from.","category":"Corporate Accountability"},{"word":"Zero Tolerance","meaning":"A policy of punishing all violations of a rule, no matter how minor, with no exceptions or excuses.","example":"The tech company has a zero tolerance policy for discrimination or harassment in the workplace.","category":"Corporate Accountability"},{"word":"Mitigating Risk","meaning":"Taking proactive steps to reduce the likelihood or impact of potential problems or hazards.","example":"Installing security cameras and alarms was our primary method of mitigating risk of theft.","category":"Corporate Accountability"},{"word":"Legal Obligation","meaning":"A duty or responsibility that is enforced by law, requiring a person or organization to act in a certain way.","example":"The company has a legal obligation to pay its employees at least the minimum wage.","category":"Corporate Accountability"},{"word":"Fair Trade","meaning":"An institutional arrangement designed to help producers in developing countries achieve better trading conditions.","example":"By purchasing fair trade coffee beans, the cafe ensures that local farmers are paid a fair price.","category":"Corporate Accountability"}]
+[
+  {
+    "word": "Audit Trail",
+    "meaning": "A step-by-step history or record that provides documentary evidence of the sequence of activities that have affected a transaction.",
+    "pronunciation": "",
+    "definition": "A step-by-step history or record that provides documentary evidence of the sequence of activities that have affected a transaction.",
+    "example": "The software creates an audit trail that records every time a user accesses financial records.",
+    "category": "Corporate Accountability",
+    "subCategory": "Corporate Accountability"
+  },
+  {
+    "word": "Code Of Conduct",
+    "meaning": "A set of rules outlining the social norms, religious rules, and responsibilities of, or proper practices for, an individual.",
+    "pronunciation": "",
+    "definition": "A set of rules outlining the social norms, religious rules, and responsibilities of, or proper practices for, an individual.",
+    "example": "The employee code of conduct strictly prohibits the use of company computers for personal shopping.",
+    "category": "Corporate Accountability",
+    "subCategory": "Corporate Accountability"
+  },
+  {
+    "word": "Compliance",
+    "meaning": "The act of obeying rules, laws, regulations, and internal standards of a company or industry.",
+    "pronunciation": "",
+    "definition": "",
+    "example": "The company invested in new filters to ensure compliance with environmental protection laws.",
+    "category": "Corporate Accountability",
+    "subCategory": "Corporate Accountability"
+  },
+  {
+    "word": "Compliance Officer",
+    "meaning": "An employee whose job is to ensure that a company complies with all relevant laws and regulations.",
+    "pronunciation": "",
+    "definition": "An employee whose job is to ensure that a company complies with all relevant laws and regulations.",
+    "example": "The compliance officer checked the export logs to make sure no trade restrictions were violated.",
+    "category": "Corporate Accountability",
+    "subCategory": "Corporate Accountability"
+  },
+  {
+    "word": "Conflict Of Interest",
+    "meaning": "A situation in which a person's private interests or relationships could compromise their professional judgment.",
+    "pronunciation": "",
+    "definition": "A situation in which a person's private interests or relationships could compromise their professional judgment.",
+    "example": "Hiring the director's brother without a public job posting was seen as a clear conflict of interest.",
+    "category": "Corporate Accountability",
+    "subCategory": "Corporate Accountability"
+  },
+  {
+    "word": "Corporate Governance",
+    "meaning": "The framework of rules, relationships, systems, and processes by which corporations are directed and controlled.",
+    "pronunciation": "",
+    "definition": "The framework of rules, relationships, systems, and processes by which corporations are directed and controlled.",
+    "example": "Strong corporate governance prevents executives from abusing their power or using company funds for personal use.",
+    "category": "Corporate Accountability",
+    "subCategory": "Corporate Accountability"
+  },
+  {
+    "word": "Corporate Social Responsibility",
+    "meaning": "A business model in which companies integrate social and environmental concerns into their operations and interactions.",
+    "pronunciation": "",
+    "definition": "A business model in which companies integrate social and environmental concerns into their operations and interactions.",
+    "example": "As part of its corporate social responsibility, the retail giant pledged to eliminate single-use plastics.",
+    "category": "Corporate Accountability",
+    "subCategory": "Corporate Accountability"
+  },
+  {
+    "word": "Direct Report",
+    "meaning": "An employee who is managed directly by another person in the company hierarchy.",
+    "pronunciation": "",
+    "definition": "An employee who is managed directly by another person in the company hierarchy.",
+    "example": "The vice president has five direct reports, including the directors of marketing and sales.",
+    "category": "Corporate Accountability",
+    "subCategory": "Corporate Accountability"
+  },
+  {
+    "word": "Due Diligence",
+    "meaning": "The research and investigation done by a company or person before signing a contract or making a business deal.",
+    "pronunciation": "",
+    "definition": "Careful and thorough research before making a decision (strong alternative to 'checking carefully').",
+    "example": "The tech firm performed due diligence on the startup before buying it to make sure there were no hidden debts.",
+    "category": "Corporate Accountability",
+    "subCategory": "Corporate Accountability"
+  },
+  {
+    "word": "Ethical Dilemma",
+    "meaning": "A complex situation in business where a choice must be made between two moral principles, neither of which is clearly right.",
+    "pronunciation": "",
+    "definition": "A complex situation in business where a choice must be made between two moral principles, neither of which is clearly right.",
+    "example": "Deciding whether to report a minor safety error that would delay a critical launch created an ethical dilemma.",
+    "category": "Corporate Accountability",
+    "subCategory": "Corporate Accountability"
+  },
+  {
+    "word": "Ethical Standards",
+    "meaning": "The principles of conduct that govern an individual or group, defining what is morally right and wrong in business.",
+    "pronunciation": "",
+    "definition": "The principles of conduct that govern an individual or group, defining what is morally right and wrong in business.",
+    "example": "Selling low-quality products under a premium label violates our company's ethical standards.",
+    "category": "Corporate Accountability",
+    "subCategory": "Corporate Accountability"
+  },
+  {
+    "word": "Fair Trade",
+    "meaning": "An institutional arrangement designed to help producers in developing countries achieve better trading conditions.",
+    "pronunciation": "",
+    "definition": "An institutional arrangement designed to help producers in developing countries achieve better trading conditions.",
+    "example": "By purchasing fair trade coffee beans, the cafe ensures that local farmers are paid a fair price.",
+    "category": "Corporate Accountability",
+    "subCategory": "Corporate Accountability"
+  },
+  {
+    "word": "Fiduciary Duty",
+    "meaning": "A legal obligation to act in the best financial interest of another party, such as a company's shareholders.",
+    "pronunciation": "",
+    "definition": "A legal obligation to act in the best financial interest of another party, such as a company's shareholders.",
+    "example": "The board members have a fiduciary duty to manage the pension fund responsibly.",
+    "category": "Corporate Accountability",
+    "subCategory": "Corporate Accountability"
+  },
+  {
+    "word": "Fiscal Responsibility",
+    "meaning": "The practice of managing money and financial resources in a wise, balanced, and sustainable manner.",
+    "pronunciation": "",
+    "definition": "The practice of managing money and financial resources in a wise, balanced, and sustainable manner.",
+    "example": "By keeping expenses low and saving for emergencies, the non-profit demonstrated excellent fiscal responsibility.",
+    "category": "Corporate Accountability",
+    "subCategory": "Corporate Accountability"
+  },
+  {
+    "word": "Governance",
+    "meaning": "The system of rules, practices, and processes by which a firm is directed, controlled, and managed.",
+    "pronunciation": "",
+    "definition": "The system of rules, practices, and processes by which a firm is directed, controlled, and managed.",
+    "example": "Good corporate governance builds investor confidence and protects the interests of shareholders.",
+    "category": "Corporate Accountability",
+    "subCategory": "Corporate Accountability"
+  },
+  {
+    "word": "Internal Audit",
+    "meaning": "An independent, objective evaluation of a company's financial records, internal controls, and operational processes.",
+    "pronunciation": "",
+    "definition": "An independent, objective evaluation of a company's financial records, internal controls, and operational processes.",
+    "example": "The internal audit helped the company find areas where employees were bypassing safety procedures.",
+    "category": "Corporate Accountability",
+    "subCategory": "Corporate Accountability"
+  },
+  {
+    "word": "Legal Obligation",
+    "meaning": "A duty or responsibility that is enforced by law, requiring a person or organization to act in a certain way.",
+    "pronunciation": "",
+    "definition": "A duty or responsibility that is enforced by law, requiring a person or organization to act in a certain way.",
+    "example": "The company has a legal obligation to pay its employees at least the minimum wage.",
+    "category": "Corporate Accountability",
+    "subCategory": "Corporate Accountability"
+  },
+  {
+    "word": "Liability",
+    "meaning": "The state of being legally responsible for something, such as a debt, injury, or product defect.",
+    "pronunciation": "",
+    "definition": "à¤¦à¤¾à¤¯à¤¿à¤¤à¥à¤µ / à¤œà¤¿à¤®à¥à¤®à¥‡à¤¦à¤¾à¤°à¥€",
+    "example": "The toy manufacturer faced significant liability after a design defect caused injuries to children.",
+    "category": "Corporate Accountability",
+    "subCategory": "Corporate Accountability"
+  },
+  {
+    "word": "Liability Waiver",
+    "meaning": "A legal document that a person signs to agree not to hold a company responsible for any injuries or damages.",
+    "pronunciation": "",
+    "definition": "A legal document that a person signs to agree not to hold a company responsible for any injuries or damages.",
+    "example": "Before climbing the indoor rock wall, visitors must sign a liability waiver.",
+    "category": "Corporate Accountability",
+    "subCategory": "Corporate Accountability"
+  },
+  {
+    "word": "Mitigating Risk",
+    "meaning": "Taking proactive steps to reduce the likelihood or impact of potential problems or hazards.",
+    "pronunciation": "",
+    "definition": "Taking proactive steps to reduce the likelihood or impact of potential problems or hazards.",
+    "example": "Installing security cameras and alarms was our primary method of mitigating risk of theft.",
+    "category": "Corporate Accountability",
+    "subCategory": "Corporate Accountability"
+  },
+  {
+    "word": "Non-Disclosure Agreement",
+    "meaning": "A legally binding contract that prevents employees or partners from sharing a company's confidential information.",
+    "pronunciation": "",
+    "definition": "A legally binding contract that prevents employees or partners from sharing a company's confidential information.",
+    "example": "The new engineer signed a non-disclosure agreement to protect the design details of the secret project.",
+    "category": "Corporate Accountability",
+    "subCategory": "Corporate Accountability"
+  },
+  {
+    "word": "Quality Audit",
+    "meaning": "A systematic examination of a quality system carried out by an internal or external quality auditor.",
+    "pronunciation": "",
+    "definition": "A systematic examination of a quality system carried out by an internal or external quality auditor.",
+    "example": "Our factory passed the annual quality audit, confirming that we meet international manufacturing standards.",
+    "category": "Corporate Accountability",
+    "subCategory": "Corporate Accountability"
+  },
+  {
+    "word": "Regulatory Compliance",
+    "meaning": "An organization's adherence to laws, regulations, guidelines, and specifications relevant to its business operations.",
+    "pronunciation": "",
+    "definition": "An organization's adherence to laws, regulations, guidelines, and specifications relevant to its business operations.",
+    "example": "The bank hired extra staff to handle the complex paperwork required for regulatory compliance.",
+    "category": "Corporate Accountability",
+    "subCategory": "Corporate Accountability"
+  },
+  {
+    "word": "Regulatory Framework",
+    "meaning": "A system of regulations and the means, like laws and agencies, used to enforce them in a particular industry.",
+    "pronunciation": "",
+    "definition": "A system of regulations and the means, like laws and agencies, used to enforce them in a particular industry.",
+    "example": "The medical device startup had to navigate a complex regulatory framework before selling its product.",
+    "category": "Corporate Accountability",
+    "subCategory": "Corporate Accountability"
+  },
+  {
+    "word": "Stewardship",
+    "meaning": "The job of supervising or taking care of something, such as an organization's resources, environment, or assets.",
+    "pronunciation": "",
+    "definition": "The job of supervising or taking care of something, such as an organization's resources, environment, or assets.",
+    "example": "Environmental stewardship is a core principle for the forestry company, which plants three trees for every one cut down.",
+    "category": "Corporate Accountability",
+    "subCategory": "Corporate Accountability"
+  },
+  {
+    "word": "Traceability",
+    "meaning": "The ability to track the history, application, or location of an item or activity using recorded documentation.",
+    "pronunciation": "",
+    "definition": "The ability to track the history, application, or location of an item or activity using recorded documentation.",
+    "example": "Food traceability allows the supermarket chain to find which farm a contaminated batch of lettuce came from.",
+    "category": "Corporate Accountability",
+    "subCategory": "Corporate Accountability"
+  },
+  {
+    "word": "Whistleblower",
+    "meaning": "An employee or insider who reports illegal, unethical, or dishonest activities happening within an organization.",
+    "pronunciation": "",
+    "definition": "An employee or insider who reports illegal, unethical, or dishonest activities happening within an organization.",
+    "example": "The whistleblower exposed the company's illegal dumping of chemical waste into the river.",
+    "category": "Corporate Accountability",
+    "subCategory": "Corporate Accountability"
+  },
+  {
+    "word": "Zero Tolerance",
+    "meaning": "A policy of punishing all violations of a rule, no matter how minor, with no exceptions or excuses.",
+    "pronunciation": "",
+    "definition": "A policy of punishing all violations of a rule, no matter how minor, with no exceptions or excuses.",
+    "example": "The tech company has a zero tolerance policy for discrimination or harassment in the workplace.",
+    "category": "Corporate Accountability",
+    "subCategory": "Corporate Accountability"
+  }
+]

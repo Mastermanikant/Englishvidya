@@ -1,1 +1,254 @@
-﻿[{"word":"CHARACTER ARC","meaning":"The transformation or inner journey of a character over the course of a story.","example":"The selfish protagonist has a wonderful character arc, learning to care for others by the end of the book.","category":"Creative Writing"},{"word":"SHOW, DON\u0027T TELL","meaning":"A writing rule where actions, feelings, and details are shown rather than explained directly to the reader.","example":"Instead of writing \u0027He was angry\u0027, use show, don\u0027t tell by writing \u0027He slammed the door and clenched his fists\u0027.","category":"Creative Writing"},{"word":"CLICHÉ","meaning":"A phrase, idea, or plot element that has been overused so much that it has lost its original meaning or impact.","example":"Starting a story with \u0027It was a dark and stormy night\u0027 is a major cliché in creative writing.","category":"Creative Writing"},{"word":"PACING","meaning":"The speed or rate at which a story\u0027s events unfold and the narrative moves forward.","example":"The novel starts slowly to build the characters, but the pacing increases during the action scenes.","category":"Creative Writing"},{"word":"SUBPLOT","meaning":"A secondary plot or minor story that runs alongside the main plot in a novel, play, or movie.","example":"The movie\u0027s main plot is a space battle, but there is a romantic subplot between the two pilots.","category":"Creative Writing"},{"word":"CLIFFHANGER","meaning":"An ending to an episode, chapter, or book that leaves the audience in suspense and eager to know what happens next.","example":"The chapter ended on a cliffhanger, with the main character trapped in a burning building.","category":"Creative Writing"},{"word":"VOICE","meaning":"The unique style, tone, and personality of a writer or character that makes their writing distinctive.","example":"The author writes with a humorous and engaging voice that makes her books easy to read.","category":"Creative Writing"},{"word":"TONE","meaning":"The writer\u0027s attitude toward the subject matter or audience, expressed through word choice and style.","example":"The tone of the article was serious and urgent, warning readers about environmental dangers.","category":"Creative Writing"},{"word":"DIALOGUE","meaning":"Written or spoken conversation between two or more characters in a story, book, or play.","example":"The dialogue in the script was natural and sounded like real people talking.","category":"Creative Writing"},{"word":"POINT OF VIEW","meaning":"The perspective from which a story is told (such as first-person \u0027I\u0027 or third-person \u0027he/she\u0027).","example":"Writing the novel from the point of view of the villain gave the story an interesting perspective.","category":"Creative Writing"},{"word":"WORLD-BUILDING","meaning":"The process of creating a detailed, imaginary world with its own history, geography, and rules, typical of fantasy and sci-fi.","example":"J.R.R. Tolkien is legendary for his incredible world-building in creating Middle-earth.","category":"Creative Writing"},{"word":"EXPOSITION","meaning":"The introduction of background information about characters, settings, or events at the beginning of a story.","example":"The first chapter is mostly exposition, explaining how the family ended up living in the old lighthouse.","category":"Creative Writing"},{"word":"DRAFT","meaning":"A preliminary, rough version of a piece of writing that will be edited and revised later.","example":"The author finished his first draft in three months and then started the editing process.","category":"Creative Writing"},{"word":"EDITING","meaning":"The process of correcting, improving, and organizing a piece of writing to prepare it for publication.","example":"Good editing can turn a messy first draft into a polished, readable book.","category":"Creative Writing"},{"word":"PROOFREADING","meaning":"The final step of reading a text to find and correct minor spelling, grammar, and punctuation mistakes.","example":"Before submitting your essay, spend ten minutes proofreading it to catch any typos.","category":"Creative Writing"},{"word":"BILDUNGSROMAN","meaning":"A novel that focuses on the psychological and moral growth of a protagonist from youth to adulthood.","example":"Great Expectations by Charles Dickens is a classic Bildungsroman tracking the life of a boy named Pip.","category":"Creative Writing"},{"word":"STREAM OF CONSCIOUSNESS","meaning":"A writing style that mimics the continuous, unedited flow of thoughts, feelings, and memories in a character\u0027s mind.","example":"The novel uses stream of consciousness, so the text reads like a chaotic sequence of thoughts.","category":"Creative Writing"},{"word":"NARRATIVE ARC","meaning":"The chronological path of a story, moving from the setup, through the conflict and climax, to the final resolution.","example":"A satisfying narrative arc gives a story structure and keeps the reader engaged.","category":"Creative Writing"},{"word":"HOOK","meaning":"The very first sentence or opening passage of a story designed to grab the reader\u0027s attention immediately.","example":"The novel\u0027s opening hook was so exciting that I couldn\u0027t put the book down.","category":"Creative Writing"},{"word":"POETIC JUSTICE","meaning":"A literary device where good characters are rewarded and bad characters are punished in an appropriate, often ironic way.","example":"It was a moment of poetic justice when the corrupt businessman lost all his money in the scam.","category":"Creative Writing"},{"word":"PLOT TWIST","meaning":"An unexpected development or surprise change in the direction of a story\u0027s plot.","example":"The movie had a massive plot twist at the end that nobody saw coming.","category":"Creative Writing"},{"word":"RED HERRING","meaning":"A misleading clue or false lead designed to distract the reader from the actual truth or mystery.","example":"The suspicious butler was a red herring to keep the audience from guessing the real murderer.","category":"Creative Writing"},{"word":"DEUS EX MACHINA","meaning":"An artificial or improbable plot device used to suddenly solve a seemingly hopeless problem in a story.","example":"The army arriving out of nowhere to save the hero was a disappointing deus ex machina.","category":"Creative Writing"},{"word":"MONOLOGUE","meaning":"A long speech delivered by a single character in a play, movie, or book, addressed to other characters or the audience.","example":"The actor performed a dramatic monologue expressing his character\u0027s grief.","category":"Creative Writing"},{"word":"ANTHROPOMORPHISM","meaning":"The technique of giving human characteristics, emotions, and behaviors to animals or non-human objects.","example":"In the cartoon, the talking dog displaying human emotions is an example of anthropomorphism.","category":"Creative Writing"},{"word":"EPIPHANY","meaning":"A moment of sudden and great revelation or realization where a character understands something important.","example":"After talking to his mother, he had an epiphany about what he wanted to do with his life.","category":"Creative Writing"},{"word":"MOTIVATION","meaning":"The underlying reason behind a character\u0027s actions, goals, and behaviors in a story.","example":"To make your characters believable, you must give them a clear motivation, like love or revenge.","category":"Creative Writing"},{"word":"TROPE","meaning":"A common theme, device, or cliché that appears frequently in a particular genre of literature or film.","example":"The mentor who dies early in the story is a classic fantasy trope.","category":"Creative Writing"},{"word":"SUSPENSE","meaning":"The feeling of excited or anxious uncertainty about what may happen next in a story.","example":"The slow creak of the door opened, keeping the audience in suspense.","category":"Creative Writing"},{"word":"PLOT HOLE","meaning":"An inconsistency or logical gap in the storyline of a book, movie, or play.","example":"The movie had a huge plot hole where a character suddenly appears in a city without explanation.","category":"Creative Writing"},{"word":"CONFLICT","meaning":"The main struggle, opposition, or problem that drives the plot and forces the characters to take action.","example":"The conflict between the two families is the driving force behind the tragedy in Romeo and Juliet.","category":"Creative Writing"}]
+[
+  {
+    "word": "ANTHROPOMORPHISM",
+    "meaning": "The technique of giving human characteristics, emotions, and behaviors to animals or non-human objects.",
+    "pronunciation": "",
+    "definition": "The technique of giving human characteristics, emotions, and behaviors to animals or non-human objects.",
+    "example": "In the cartoon, the talking dog displaying human emotions is an example of anthropomorphism.",
+    "category": "Creative Writing",
+    "subCategory": "Creative Writing"
+  },
+  {
+    "word": "BILDUNGSROMAN",
+    "meaning": "A novel that focuses on the psychological and moral growth of a protagonist from youth to adulthood.",
+    "pronunciation": "",
+    "definition": "A novel that focuses on the psychological and moral growth of a protagonist from youth to adulthood.",
+    "example": "Great Expectations by Charles Dickens is a classic Bildungsroman tracking the life of a boy named Pip.",
+    "category": "Creative Writing",
+    "subCategory": "Creative Writing"
+  },
+  {
+    "word": "CHARACTER ARC",
+    "meaning": "The transformation or inner journey of a character over the course of a story.",
+    "pronunciation": "",
+    "definition": "The transformation or inner journey of a character over the course of a story.",
+    "example": "The selfish protagonist has a wonderful character arc, learning to care for others by the end of the book.",
+    "category": "Creative Writing",
+    "subCategory": "Creative Writing"
+  },
+  {
+    "word": "CLICHÉ",
+    "meaning": "A phrase, idea, or plot element that has been overused so much that it has lost its original meaning or impact.",
+    "pronunciation": "",
+    "definition": "A phrase, idea, or plot element that has been overused so much that it has lost its original meaning or impact.",
+    "example": "Starting a story with 'It was a dark and stormy night' is a major cliché in creative writing.",
+    "category": "Creative Writing",
+    "subCategory": "Creative Writing"
+  },
+  {
+    "word": "CLIFFHANGER",
+    "meaning": "An ending to an episode, chapter, or book that leaves the audience in suspense and eager to know what happens next.",
+    "pronunciation": "",
+    "definition": "An ending to an episode, chapter, or book that leaves the audience in suspense and eager to know what happens next.",
+    "example": "The chapter ended on a cliffhanger, with the main character trapped in a burning building.",
+    "category": "Creative Writing",
+    "subCategory": "Creative Writing"
+  },
+  {
+    "word": "DEUS EX MACHINA",
+    "meaning": "An artificial or improbable plot device used to suddenly solve a seemingly hopeless problem in a story.",
+    "pronunciation": "",
+    "definition": "An artificial or improbable plot device used to suddenly solve a seemingly hopeless problem in a story.",
+    "example": "The army arriving out of nowhere to save the hero was a disappointing deus ex machina.",
+    "category": "Creative Writing",
+    "subCategory": "Creative Writing"
+  },
+  {
+    "word": "DIALOGUE",
+    "meaning": "Written or spoken conversation between two or more characters in a story, book, or play.",
+    "pronunciation": "",
+    "definition": "A conversation between two or more characters in a book, play, or film",
+    "example": "The dialogue in the script was natural and sounded like real people talking.",
+    "category": "Creative Writing",
+    "subCategory": "Creative Writing"
+  },
+  {
+    "word": "EDITING",
+    "meaning": "The process of correcting, improving, and organizing a piece of writing to prepare it for publication.",
+    "pronunciation": "",
+    "definition": "The process of correcting, improving, and organizing a piece of writing to prepare it for publication.",
+    "example": "Good editing can turn a messy first draft into a polished, readable book.",
+    "category": "Creative Writing",
+    "subCategory": "Creative Writing"
+  },
+  {
+    "word": "EXPOSITION",
+    "meaning": "The introduction of background information about characters, settings, or events at the beginning of a story.",
+    "pronunciation": "",
+    "definition": "The introduction of background information about characters, settings, or events at the beginning of a story.",
+    "example": "The first chapter is mostly exposition, explaining how the family ended up living in the old lighthouse.",
+    "category": "Creative Writing",
+    "subCategory": "Creative Writing"
+  },
+  {
+    "word": "HOOK",
+    "meaning": "The very first sentence or opening passage of a story designed to grab the reader's attention immediately.",
+    "pronunciation": "",
+    "definition": "The beginning of a video designed to grab the viewer's attention instantly.",
+    "example": "The novel's opening hook was so exciting that I couldn't put the book down.",
+    "category": "Creative Writing",
+    "subCategory": "Creative Writing"
+  },
+  {
+    "word": "MONOLOGUE",
+    "meaning": "A long speech delivered by a single character in a play, movie, or book, addressed to other characters or the audience.",
+    "pronunciation": "",
+    "definition": "A long speech delivered by a single character in a play, movie, or book, addressed to other characters or the audience.",
+    "example": "The actor performed a dramatic monologue expressing his character's grief.",
+    "category": "Creative Writing",
+    "subCategory": "Creative Writing"
+  },
+  {
+    "word": "MOTIVATION",
+    "meaning": "The underlying reason behind a character's actions, goals, and behaviors in a story.",
+    "pronunciation": "",
+    "definition": "",
+    "example": "To make your characters believable, you must give them a clear motivation, like love or revenge.",
+    "category": "Creative Writing",
+    "subCategory": "Creative Writing"
+  },
+  {
+    "word": "NARRATIVE ARC",
+    "meaning": "The chronological path of a story, moving from the setup, through the conflict and climax, to the final resolution.",
+    "pronunciation": "",
+    "definition": "The chronological path of a story, moving from the setup, through the conflict and climax, to the final resolution.",
+    "example": "A satisfying narrative arc gives a story structure and keeps the reader engaged.",
+    "category": "Creative Writing",
+    "subCategory": "Creative Writing"
+  },
+  {
+    "word": "PACING",
+    "meaning": "The speed or rate at which a story's events unfold and the narrative moves forward.",
+    "pronunciation": "",
+    "definition": "The speed or rate at which a story's events unfold and the narrative moves forward.",
+    "example": "The novel starts slowly to build the characters, but the pacing increases during the action scenes.",
+    "category": "Creative Writing",
+    "subCategory": "Creative Writing"
+  },
+  {
+    "word": "PLOT HOLE",
+    "meaning": "An inconsistency or logical gap in the storyline of a book, movie, or play.",
+    "pronunciation": "",
+    "definition": "An inconsistency or logical gap in the storyline of a book, movie, or play.",
+    "example": "The movie had a huge plot hole where a character suddenly appears in a city without explanation.",
+    "category": "Creative Writing",
+    "subCategory": "Creative Writing"
+  },
+  {
+    "word": "PLOT TWIST",
+    "meaning": "An unexpected development or surprise change in the direction of a story's plot.",
+    "pronunciation": "",
+    "definition": "An unexpected development or surprise change in the direction of a story's plot.",
+    "example": "The movie had a massive plot twist at the end that nobody saw coming.",
+    "category": "Creative Writing",
+    "subCategory": "Creative Writing"
+  },
+  {
+    "word": "POETIC JUSTICE",
+    "meaning": "A literary device where good characters are rewarded and bad characters are punished in an appropriate, often ironic way.",
+    "pronunciation": "",
+    "definition": "A literary device where good characters are rewarded and bad characters are punished in an appropriate, often ironic way.",
+    "example": "It was a moment of poetic justice when the corrupt businessman lost all his money in the scam.",
+    "category": "Creative Writing",
+    "subCategory": "Creative Writing"
+  },
+  {
+    "word": "POINT OF VIEW",
+    "meaning": "The perspective from which a story is told (such as first-person 'I' or third-person 'he/she').",
+    "pronunciation": "",
+    "definition": "The perspective from which a story is told (such as first-person 'I' or third-person 'he/she').",
+    "example": "Writing the novel from the point of view of the villain gave the story an interesting perspective.",
+    "category": "Creative Writing",
+    "subCategory": "Creative Writing"
+  },
+  {
+    "word": "PROOFREADING",
+    "meaning": "The final step of reading a text to find and correct minor spelling, grammar, and punctuation mistakes.",
+    "pronunciation": "",
+    "definition": "The final step of reading a text to find and correct minor spelling, grammar, and punctuation mistakes.",
+    "example": "Before submitting your essay, spend ten minutes proofreading it to catch any typos.",
+    "category": "Creative Writing",
+    "subCategory": "Creative Writing"
+  },
+  {
+    "word": "RED HERRING",
+    "meaning": "A misleading clue or false lead designed to distract the reader from the actual truth or mystery.",
+    "pronunciation": "",
+    "definition": "Introducing an irrelevant topic to divert attention from the original issue.",
+    "example": "The suspicious butler was a red herring to keep the audience from guessing the real murderer.",
+    "category": "Creative Writing",
+    "subCategory": "Creative Writing"
+  },
+  {
+    "word": "SHOW, DON'T TELL",
+    "meaning": "A writing rule where actions, feelings, and details are shown rather than explained directly to the reader.",
+    "pronunciation": "",
+    "definition": "A writing rule where actions, feelings, and details are shown rather than explained directly to the reader.",
+    "example": "Instead of writing 'He was angry', use show, don't tell by writing 'He slammed the door and clenched his fists'.",
+    "category": "Creative Writing",
+    "subCategory": "Creative Writing"
+  },
+  {
+    "word": "STREAM OF CONSCIOUSNESS",
+    "meaning": "A writing style that mimics the continuous, unedited flow of thoughts, feelings, and memories in a character's mind.",
+    "pronunciation": "",
+    "definition": "A writing style that mimics the continuous, unedited flow of thoughts, feelings, and memories in a character's mind.",
+    "example": "The novel uses stream of consciousness, so the text reads like a chaotic sequence of thoughts.",
+    "category": "Creative Writing",
+    "subCategory": "Creative Writing"
+  },
+  {
+    "word": "SUBPLOT",
+    "meaning": "A secondary plot or minor story that runs alongside the main plot in a novel, play, or movie.",
+    "pronunciation": "",
+    "definition": "A secondary plot or minor story that runs alongside the main plot in a novel, play, or movie.",
+    "example": "The movie's main plot is a space battle, but there is a romantic subplot between the two pilots.",
+    "category": "Creative Writing",
+    "subCategory": "Creative Writing"
+  },
+  {
+    "word": "SUSPENSE",
+    "meaning": "The feeling of excited or anxious uncertainty about what may happen next in a story.",
+    "pronunciation": "",
+    "definition": "A state of mental uncertainty or excitement in awaiting an outcome",
+    "example": "The slow creak of the door opened, keeping the audience in suspense.",
+    "category": "Creative Writing",
+    "subCategory": "Creative Writing"
+  },
+  {
+    "word": "TONE",
+    "meaning": "The writer's attitude toward the subject matter or audience, expressed through word choice and style.",
+    "pronunciation": "",
+    "definition": "The attitude of a writer toward a subject or an audience, conveyed through word choice.",
+    "example": "The tone of the article was serious and urgent, warning readers about environmental dangers.",
+    "category": "Creative Writing",
+    "subCategory": "Creative Writing"
+  },
+  {
+    "word": "TROPE",
+    "meaning": "A common theme, device, or cliché that appears frequently in a particular genre of literature or film.",
+    "pronunciation": "",
+    "definition": "A common theme, device, or cliché that appears frequently in a particular genre of literature or film.",
+    "example": "The mentor who dies early in the story is a classic fantasy trope.",
+    "category": "Creative Writing",
+    "subCategory": "Creative Writing"
+  },
+  {
+    "word": "VOICE",
+    "meaning": "The unique style, tone, and personality of a writer or character that makes their writing distinctive.",
+    "pronunciation": "",
+    "definition": "The unique style, tone, and personality of a writer or character that makes their writing distinctive.",
+    "example": "The author writes with a humorous and engaging voice that makes her books easy to read.",
+    "category": "Creative Writing",
+    "subCategory": "Creative Writing"
+  },
+  {
+    "word": "WORLD-BUILDING",
+    "meaning": "The process of creating a detailed, imaginary world with its own history, geography, and rules, typical of fantasy and sci-fi.",
+    "pronunciation": "",
+    "definition": "The process of creating a detailed, imaginary world with its own history, geography, and rules, typical of fantasy and sci-fi.",
+    "example": "J.R.R. Tolkien is legendary for his incredible world-building in creating Middle-earth.",
+    "category": "Creative Writing",
+    "subCategory": "Creative Writing"
+  }
+]

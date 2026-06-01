@@ -1,424 +1,407 @@
 [
   {
-    "word": "evaluate",
-    "meaning": "To assess the value, quality, or importance of something through careful judgment.",
-    "example": "Students must evaluate the reliability of online sources before citing them.",
-    "category": "Evaluative"
-  },
-  {
-    "word": "critique",
-    "meaning": "To analyze and judge the merits and faults of something in a detailed way.",
-    "example": "She wrote a thoughtful critique of the author's methodology.",
-    "category": "Evaluative"
-  },
-  {
-    "word": "corroborate",
-    "meaning": "To confirm or support a statement or theory with new evidence.",
-    "example": "A second witness corroborated the account given by the first.",
-    "category": "Evaluative"
+    "word": "appetizing",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "",
+    "example": "",
+    "category": "Evaluative",
+    "subCategory": "Evaluative"
   },
   {
     "word": "caveat",
     "meaning": "A warning or qualification attached to a statement or agreement.",
+    "pronunciation": "",
+    "definition": "A warning or qualification attached to a statement or agreement.",
     "example": "She accepted the findings but added an important caveat about sample size.",
-    "category": "Evaluative"
-  },
-  {
-    "word": "bias",
-    "meaning": "An unfair inclination or prejudice that affects judgment or interpretation.",
-    "example": "Confirmation bias leads people to seek only information that supports their existing beliefs.",
-    "category": "Evaluative"
-  },
-  {
-    "word": "objectivity",
-    "meaning": "The quality of making judgments based on facts rather than personal feelings.",
-    "example": "Scientific research demands objectivity to ensure reliable results.",
-    "category": "Evaluative"
-  },
-  {
-    "word": "subjectivity",
-    "meaning": "The quality of being based on personal feelings or opinions rather than facts.",
-    "example": "Art criticism involves a degree of subjectivity that scientific analysis does not.",
-    "category": "Evaluative"
-  },
-  {
-    "word": "credibility",
-    "meaning": "The quality of being trusted and believed in; reliability of a source.",
-    "example": "The report's credibility was undermined when errors in the data were found.",
-    "category": "Evaluative"
-  },
-  {
-    "word": "validity",
-    "meaning": "The quality of being logically sound and producing accurate results.",
-    "example": "Researchers questioned the validity of the experiment's methodology.",
-    "category": "Evaluative"
-  },
-  {
-    "word": "reliability",
-    "meaning": "The consistency of a measure or result when repeated under the same conditions.",
-    "example": "A single study cannot establish reliability; the findings must be replicated.",
-    "category": "Evaluative"
-  },
-  {
-    "word": "scrutinize",
-    "meaning": "To examine or inspect closely and thoroughly.",
-    "example": "Journalists must scrutinize official statements rather than accept them at face value.",
-    "category": "Evaluative"
-  },
-  {
-    "word": "discern",
-    "meaning": "To perceive or recognize a distinction between things; to judge wisely.",
-    "example": "It takes skill to discern between reliable and unreliable information.",
-    "category": "Evaluative"
-  },
-  {
-    "word": "oversimplify",
-    "meaning": "To treat something as simpler than it really is, distorting its true nature.",
-    "example": "Media reports often oversimplify complex economic issues.",
-    "category": "Evaluative"
-  },
-  {
-    "word": "plausible",
-    "meaning": "Seeming reasonable or probable; having an appearance of truth.",
-    "example": "The explanation sounded plausible but lacked supporting data.",
-    "category": "Evaluative"
-  },
-  {
-    "word": "pragmatic",
-    "meaning": "Dealing with things sensibly and realistically based on practical considerations.",
-    "example": "A pragmatic approach focuses on what actually works rather than what is ideal.",
-    "category": "Evaluative"
-  },
-  {
-    "word": "reductive",
-    "meaning": "Tending to oversimplify a complex problem or idea.",
-    "example": "Blaming poverty solely on laziness is a reductive view of a complex issue.",
-    "category": "Evaluative"
-  },
-  {
-    "word": "skepticism",
-    "meaning": "A questioning or doubting attitude toward claims without sufficient evidence.",
-    "example": "Healthy skepticism encourages one to demand proof before accepting a claim.",
-    "category": "Evaluative"
-  },
-  {
-    "word": "prioritize",
-    "meaning": "To designate or treat something as more important than other things.",
-    "example": "Critical thinking requires us to prioritize evidence over emotion.",
-    "category": "Evaluative"
-  },
-  {
-    "word": "weigh",
-    "meaning": "To consider the relative importance or significance of competing ideas or evidence.",
-    "example": "The judge must weigh the evidence carefully before delivering a verdict.",
-    "category": "Evaluative"
-  },
-  {
-    "word": "exacerbate",
-    "meaning": "To make a problem, bad situation, or feeling worse.",
-    "example": "Poor communication can exacerbate conflict rather than resolve it.",
-    "category": "Evaluative"
-  },
-  {
-    "word": "overstate",
-    "meaning": "To state something too strongly; to exaggerate beyond the truth.",
-    "example": "The headline overstated the risk, causing unnecessary public panic.",
-    "category": "Evaluative"
-  },
-  {
-    "word": "understate",
-    "meaning": "To state something with less force than the facts justify; to downplay.",
-    "example": "Officials understated the severity of the economic downturn.",
-    "category": "Evaluative"
-  },
-  {
-    "word": "exemplify",
-    "meaning": "To be a typical or ideal example of something.",
-    "example": "This article exemplifies the kind of sloppy reasoning we must avoid.",
-    "category": "Evaluative"
-  },
-  {
-    "word": "benchmark",
-    "meaning": "A standard or point of reference against which things can be measured.",
-    "example": "The report uses international standards as a benchmark for comparison.",
-    "category": "Evaluative"
-  },
-  {
-    "word": "criterion",
-    "meaning": "A principle or standard by which something may be judged or decided.",
-    "example": "The key criterion for selection was demonstrable impact on student learning.",
-    "category": "Evaluative"
-  },
-  {
-    "word": "objectify",
-    "meaning": "To treat something abstract as a concrete, measurable thing.",
-    "example": "Economists objectify well-being by reducing it to income levels.",
-    "category": "Evaluative"
-  },
-  {
-    "word": "problematic",
-    "meaning": "Presenting a difficulty or challenge; questionable or debatable.",
-    "example": "The study's small sample size makes its conclusions problematic.",
-    "category": "Evaluative"
-  },
-  {
-    "word": "tenable",
-    "meaning": "Able to be maintained or defended against objection; reasonable.",
-    "example": "That position is no longer tenable in the light of new evidence.",
-    "category": "Evaluative"
-  },
-  {
-    "word": "untenable",
-    "meaning": "Not able to be maintained or defended; indefensible.",
-    "example": "His argument became untenable once the core premise was disproved.",
-    "category": "Evaluative"
-  },
-  {
-    "word": "appraise",
-    "meaning": "To assess the value, quality, or nature of something carefully.",
-    "example": "The committee will appraise each proposal against set criteria.",
-    "category": "Evaluative"
-  },
-  {
-    "word": "discrepancy",
-    "meaning": "A difference or inconsistency between two or more facts or claims.",
-    "example": "The discrepancy between the two reports raises serious questions.",
-    "category": "Evaluative"
-  },
-  {
-    "word": "inconsistency",
-    "meaning": "The fact of having parts that are contradictory or do not match.",
-    "example": "The inconsistency in his testimony damaged his credibility.",
-    "category": "Evaluative"
+    "category": "Evaluative",
+    "subCategory": "Evaluative"
   },
   {
     "word": "caveat emptor",
     "meaning": "A warning that the buyer or reader must beware and exercise judgment.",
+    "pronunciation": "",
+    "definition": "A warning that the buyer or reader must beware and exercise judgment.",
     "example": "With so little verified data, caveat emptor should guide any reader of this report.",
-    "category": "Evaluative"
+    "category": "Evaluative",
+    "subCategory": "Evaluative"
   },
   {
-    "word": "pertinent",
-    "meaning": "Relevant or applicable to a particular matter; to the point.",
-    "example": "Only cite evidence that is pertinent to the argument you are making.",
-    "category": "Evaluative"
+    "word": "credibility",
+    "meaning": "The quality of being trusted and believed in; reliability of a source.",
+    "pronunciation": "",
+    "definition": "The quality of being trusted and believed in; reliability of a source.",
+    "example": "The report's credibility was undermined when errors in the data were found.",
+    "category": "Evaluative",
+    "subCategory": "Evaluative"
   },
   {
-    "word": "salient",
-    "meaning": "Most noticeable or important; standing out prominently.",
-    "example": "The most salient point in the report was the rising rate of youth unemployment.",
-    "category": "Evaluative"
+    "word": "delectable",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "",
+    "example": "",
+    "category": "Evaluative",
+    "subCategory": "Evaluative"
   },
   {
-    "word": "superfluous",
-    "meaning": "Unnecessary, especially through being more than enough.",
-    "example": "The additional paragraphs were superfluous and weakened the essay's focus.",
-    "category": "Evaluative"
+    "word": "delicious",
+    "meaning": "?????????",
+    "pronunciation": "??????",
+    "definition": "",
+    "example": "",
+    "category": "Evaluative",
+    "subCategory": "Evaluative"
   },
   {
-    "word": "tangential",
-    "meaning": "Only slightly connected to the main topic; not directly relevant.",
-    "example": "His comments on the history of the city were tangential to the policy debate.",
-    "category": "Evaluative"
+    "word": "disgusting",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "",
+    "example": "",
+    "category": "Evaluative",
+    "subCategory": "Evaluative"
   },
   {
-    "word": "circumspect",
-    "meaning": "Wary and unwilling to take risks; careful to consider all circumstances.",
-    "example": "A circumspect thinker does not rush to conclusions without sufficient evidence.",
-    "category": "Evaluative"
+    "word": "flavorful",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "",
+    "example": "",
+    "category": "Evaluative",
+    "subCategory": "Evaluative"
   },
   {
-    "word": "propagate",
-    "meaning": "To spread ideas, information, or beliefs widely.",
-    "example": "Social media can propagate misinformation at unprecedented speed.",
-    "category": "Evaluative"
+    "word": "flavorless",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "",
+    "example": "",
+    "category": "Evaluative",
+    "subCategory": "Evaluative"
   },
   {
-    "word": "assess",
-    "meaning": "To judge the quality, importance, or value of something",
-    "example": "The examiner assessed each student's written work carefully.",
-    "category": "evaluative"
+    "word": "flavorsome",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "",
+    "example": "",
+    "category": "Evaluative",
+    "subCategory": "Evaluative"
   },
   {
-    "word": "critique",
-    "meaning": "To give a detailed analysis and judgment of something",
-    "example": "Students were asked to critique the author's argument for bias.",
-    "category": "evaluative"
+    "word": "full-bodied",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "",
+    "example": "",
+    "category": "Evaluative",
+    "subCategory": "Evaluative"
   },
   {
-    "word": "judge",
-    "meaning": "To form an opinion or conclusion about something",
-    "example": "Do not judge the effectiveness of a solution before testing it.",
-    "category": "evaluative"
+    "word": "gross",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "",
+    "example": "",
+    "category": "Evaluative",
+    "subCategory": "Evaluative"
   },
   {
-    "word": "justify",
-    "meaning": "To give reasons or evidence for a decision or action",
-    "example": "You must justify your answer with relevant facts.",
-    "category": "evaluative"
+    "word": "inconsistency",
+    "meaning": "The fact of having parts that are contradictory or do not match.",
+    "pronunciation": "",
+    "definition": "The fact of having parts that are contradictory or do not match.",
+    "example": "The inconsistency in his testimony damaged his credibility.",
+    "category": "Evaluative",
+    "subCategory": "Evaluative"
   },
   {
-    "word": "validate",
-    "meaning": "To confirm that something is correct, accurate, or acceptable",
-    "example": "The experiment was repeated to validate the original findings.",
-    "category": "evaluative"
-  },
-  {
-    "word": "refute",
-    "meaning": "To prove that something is wrong or false",
-    "example": "The student refuted the argument by presenting counter-evidence.",
-    "category": "evaluative"
-  },
-  {
-    "word": "challenge",
-    "meaning": "To question or dispute the truth of something",
-    "example": "She challenged the author's assumption about human nature.",
-    "category": "evaluative"
+    "word": "insipid",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "",
+    "example": "",
+    "category": "Evaluative",
+    "subCategory": "Evaluative"
   },
   {
     "word": "measure",
     "meaning": "To determine the extent or degree of something",
+    "pronunciation": "",
+    "definition": "à¤®à¤¾à¤ªà¤¨à¤¾",
     "example": "Tests are used to measure a student's understanding of the topic.",
-    "category": "evaluative"
-  },
-  {
-    "word": "prioritize",
-    "meaning": "To decide the order of importance of things",
-    "example": "Good learners prioritize understanding over memorization.",
-    "category": "evaluative"
-  },
-  {
-    "word": "weigh",
-    "meaning": "To consider the relative importance or value of different factors",
-    "example": "She carefully weighed the pros and cons before forming her opinion.",
-    "category": "evaluative"
-  },
-  {
-    "word": "scrutinize",
-    "meaning": "To examine or inspect something very carefully",
-    "example": "The editor scrutinized every sentence of the research paper.",
-    "category": "evaluative"
-  },
-  {
-    "word": "delicious",
-    "category": "evaluative",
-    "meaning_hi": "?????????",
-    "pronunciation": "??????"
-  },
-  {
-    "word": "delectable",
-    "category": "evaluative"
-  },
-  {
-    "word": "tasty",
-    "category": "evaluative",
-    "meaning_hi": "?????????",
-    "pronunciation": "??????"
-  },
-  {
-    "word": "appetizing",
-    "category": "evaluative"
+    "category": "Evaluative",
+    "subCategory": "Evaluative"
   },
   {
     "word": "mouthwatering",
-    "category": "evaluative"
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "",
+    "example": "",
+    "category": "Evaluative",
+    "subCategory": "Evaluative"
   },
   {
-    "word": "scrumptious",
-    "category": "evaluative"
+    "word": "objectify",
+    "meaning": "To treat something abstract as a concrete, measurable thing.",
+    "pronunciation": "",
+    "definition": "To treat something abstract as a concrete, measurable thing.",
+    "example": "Economists objectify well-being by reducing it to income levels.",
+    "category": "Evaluative",
+    "subCategory": "Evaluative"
   },
   {
-    "word": "yummy",
-    "category": "evaluative"
+    "word": "oversimplify",
+    "meaning": "To treat something as simpler than it really is, distorting its true nature.",
+    "pronunciation": "",
+    "definition": "To treat something as simpler than it really is, distorting its true nature.",
+    "example": "Media reports often oversimplify complex economic issues.",
+    "category": "Evaluative",
+    "subCategory": "Evaluative"
+  },
+  {
+    "word": "overstate",
+    "meaning": "To state something too strongly; to exaggerate beyond the truth.",
+    "pronunciation": "",
+    "definition": "To state something too strongly; to exaggerate beyond the truth.",
+    "example": "The headline overstated the risk, causing unnecessary public panic.",
+    "category": "Evaluative",
+    "subCategory": "Evaluative"
   },
   {
     "word": "palatable",
-    "category": "evaluative"
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "",
+    "example": "",
+    "category": "Evaluative",
+    "subCategory": "Evaluative"
   },
   {
-    "word": "flavorful",
-    "category": "evaluative"
+    "word": "pertinent",
+    "meaning": "Relevant or applicable to a particular matter; to the point.",
+    "pronunciation": "",
+    "definition": "Relevant or applicable to a particular matter; to the point.",
+    "example": "Only cite evidence that is pertinent to the argument you are making.",
+    "category": "Evaluative",
+    "subCategory": "Evaluative"
   },
   {
-    "word": "flavorsome",
-    "category": "evaluative"
+    "word": "prioritize",
+    "meaning": "To designate or treat something as more important than other things.",
+    "pronunciation": "",
+    "definition": "To designate or treat something as more important than other things.",
+    "example": "Critical thinking requires us to prioritize evidence over emotion.",
+    "category": "Evaluative",
+    "subCategory": "Evaluative"
   },
   {
-    "word": "robust",
-    "category": "evaluative"
+    "word": "problematic",
+    "meaning": "Presenting a difficulty or challenge; questionable or debatable.",
+    "pronunciation": "",
+    "definition": "Presenting a difficulty or challenge; questionable or debatable.",
+    "example": "The study's small sample size makes its conclusions problematic.",
+    "category": "Evaluative",
+    "subCategory": "Evaluative"
   },
   {
-    "word": "full-bodied",
-    "category": "evaluative"
-  },
-  {
-    "word": "mild",
-    "category": "evaluative"
-  },
-  {
-    "word": "bland",
-    "category": "evaluative"
-  },
-  {
-    "word": "tasteless",
-    "category": "evaluative"
-  },
-  {
-    "word": "flavorless",
-    "category": "evaluative"
-  },
-  {
-    "word": "insipid",
-    "category": "evaluative"
-  },
-  {
-    "word": "flat",
-    "category": "evaluative"
-  },
-  {
-    "word": "stale",
-    "category": "evaluative",
-    "meaning_hi": "????",
-    "pronunciation": "?????"
-  },
-  {
-    "word": "rancid",
-    "category": "evaluative"
-  },
-  {
-    "word": "spoiled",
-    "category": "evaluative"
+    "word": "propagate",
+    "meaning": "To spread ideas, information, or beliefs widely.",
+    "pronunciation": "",
+    "definition": "To spread ideas, information, or beliefs widely.",
+    "example": "Social media can propagate misinformation at unprecedented speed.",
+    "category": "Evaluative",
+    "subCategory": "Evaluative"
   },
   {
     "word": "putrid",
-    "category": "evaluative"
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "",
+    "example": "",
+    "category": "Evaluative",
+    "subCategory": "Evaluative"
+  },
+  {
+    "word": "rancid",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "",
+    "example": "",
+    "category": "Evaluative",
+    "subCategory": "Evaluative"
+  },
+  {
+    "word": "reductive",
+    "meaning": "Tending to oversimplify a complex problem or idea.",
+    "pronunciation": "",
+    "definition": "Tending to oversimplify a complex problem or idea.",
+    "example": "Blaming poverty solely on laziness is a reductive view of a complex issue.",
+    "category": "Evaluative",
+    "subCategory": "Evaluative"
+  },
+  {
+    "word": "reliability",
+    "meaning": "The consistency of a measure or result when repeated under the same conditions.",
+    "pronunciation": "",
+    "definition": "The consistency of a measure or result when repeated under the same conditions.",
+    "example": "A single study cannot establish reliability; the findings must be replicated.",
+    "category": "Evaluative",
+    "subCategory": "Evaluative"
   },
   {
     "word": "rotten",
-    "category": "evaluative"
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "",
+    "example": "",
+    "category": "Evaluative",
+    "subCategory": "Evaluative"
   },
   {
-    "word": "foul",
-    "category": "evaluative"
+    "word": "scrumptious",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "",
+    "example": "",
+    "category": "Evaluative",
+    "subCategory": "Evaluative"
   },
   {
-    "word": "gross",
-    "category": "evaluative"
+    "word": "spoiled",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "",
+    "example": "",
+    "category": "Evaluative",
+    "subCategory": "Evaluative"
+  },
+  {
+    "word": "stale",
+    "meaning": "????",
+    "pronunciation": "?????",
+    "definition": "",
+    "example": "",
+    "category": "Evaluative",
+    "subCategory": "Evaluative"
+  },
+  {
+    "word": "superfluous",
+    "meaning": "Unnecessary, especially through being more than enough.",
+    "pronunciation": "",
+    "definition": "Unnecessary, especially through being more than enough.",
+    "example": "The additional paragraphs were superfluous and weakened the essay's focus.",
+    "category": "Evaluative",
+    "subCategory": "Evaluative"
+  },
+  {
+    "word": "tangential",
+    "meaning": "Only slightly connected to the main topic; not directly relevant.",
+    "pronunciation": "",
+    "definition": "Only slightly connected to the main topic; not directly relevant.",
+    "example": "His comments on the history of the city were tangential to the policy debate.",
+    "category": "Evaluative",
+    "subCategory": "Evaluative"
+  },
+  {
+    "word": "tasteless",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "",
+    "example": "",
+    "category": "Evaluative",
+    "subCategory": "Evaluative"
+  },
+  {
+    "word": "tasty",
+    "meaning": "?????????",
+    "pronunciation": "??????",
+    "definition": "",
+    "example": "",
+    "category": "Evaluative",
+    "subCategory": "Evaluative"
+  },
+  {
+    "word": "tenable",
+    "meaning": "Able to be maintained or defended against objection; reasonable.",
+    "pronunciation": "",
+    "definition": "Able to be maintained or defended against objection; reasonable.",
+    "example": "That position is no longer tenable in the light of new evidence.",
+    "category": "Evaluative",
+    "subCategory": "Evaluative"
   },
   {
     "word": "unappetizing",
-    "category": "evaluative"
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "",
+    "example": "",
+    "category": "Evaluative",
+    "subCategory": "Evaluative"
+  },
+  {
+    "word": "understate",
+    "meaning": "To state something with less force than the facts justify; to downplay.",
+    "pronunciation": "",
+    "definition": "To state something with less force than the facts justify; to downplay.",
+    "example": "Officials understated the severity of the economic downturn.",
+    "category": "Evaluative",
+    "subCategory": "Evaluative"
   },
   {
     "word": "unpalatable",
-    "category": "evaluative"
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "",
+    "example": "",
+    "category": "Evaluative",
+    "subCategory": "Evaluative"
+  },
+  {
+    "word": "untenable",
+    "meaning": "Not able to be maintained or defended; indefensible.",
+    "pronunciation": "",
+    "definition": "Not able to be maintained or defended; indefensible.",
+    "example": "His argument became untenable once the core premise was disproved.",
+    "category": "Evaluative",
+    "subCategory": "Evaluative"
+  },
+  {
+    "word": "validity",
+    "meaning": "The quality of being logically sound and producing accurate results.",
+    "pronunciation": "",
+    "definition": "The quality of being logically or factually sound.",
+    "example": "Researchers questioned the validity of the experiment's methodology.",
+    "category": "Evaluative",
+    "subCategory": "Evaluative"
   },
   {
     "word": "vile",
-    "category": "evaluative"
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "",
+    "example": "",
+    "category": "Evaluative",
+    "subCategory": "Evaluative"
   },
   {
-    "word": "disgusting",
-    "category": "evaluative"
+    "word": "weigh",
+    "meaning": "To consider the relative importance or significance of competing ideas or evidence.",
+    "pronunciation": "",
+    "definition": "To consider the relative importance or significance of competing ideas or evidence.",
+    "example": "The judge must weigh the evidence carefully before delivering a verdict.",
+    "category": "Evaluative",
+    "subCategory": "Evaluative"
+  },
+  {
+    "word": "yummy",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "",
+    "example": "",
+    "category": "Evaluative",
+    "subCategory": "Evaluative"
   }
 ]
