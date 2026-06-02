@@ -356,7 +356,7 @@
     close() {
       searchOverlay.classList.remove('active');
       searchInput.value = '';
-      searchResults.innerHTML = '<div class="search-placeholder"><p class="search-hint">🔍 ऊपर टाइप करें — तुरंत results आएंगे</p><div id="recent-searches-container"></div></div>';
+      searchResults.innerHTML = '<div class="search-placeholder"><p class="search-hint">🔍 Type above — results appear instantly</p><div id="recent-searches-container"></div></div>';
     },
 
     async search(query) {
@@ -367,7 +367,7 @@
 
       const index = await ensureSearchIndex();
       if (!index) {
-        searchResults.innerHTML = '<div class="search-placeholder"><p class="search-hint">⚠️ Search index लोड नहीं हो सका</p></div>';
+        searchResults.innerHTML = '<div class="search-placeholder"><p class="search-hint">⚠️ Search index could not be loaded</p></div>';
         return;
       }
 
@@ -377,7 +377,7 @@
       ).slice(0, 20);
 
       if (matches.length === 0) {
-        searchResults.innerHTML = `<div class="search-placeholder"><p class="search-hint">😔 "${query}" के लिए कोई शब्द नहीं मिला</p></div>`;
+        searchResults.innerHTML = `<div class="search-placeholder"><p class="search-hint">😔 No results found for "${query}"</p></div>`;
         return;
       }
 
@@ -412,13 +412,13 @@
     showRecent() {
       const recent = JSON.parse(localStorage.getItem(STORAGE_KEYS.recent) || '[]');
       if (recent.length === 0) {
-        searchResults.innerHTML = '<div class="search-placeholder"><p class="search-hint">🔍 ऊपर टाइप करें — तुरंत results आएंगे</p></div>';
+        searchResults.innerHTML = '<div class="search-placeholder"><p class="search-hint">🔍 Type above — results appear instantly</p></div>';
         return;
       }
 
       searchResults.innerHTML = `
         <div style="padding-top: var(--sp-4);">
-          <p class="text-small text-secondary" style="margin-bottom: var(--sp-3);">हाल ही में खोजे गए:</p>
+          <p class="text-small text-secondary" style="margin-bottom: var(--sp-3);">Recently searched:</p>
           <div>${recent.map(w => `<span class="recent-tag" data-word="${escHtml(w)}">${escHtml(w)}</span>`).join('')}</div>
         </div>
       `;
@@ -437,7 +437,7 @@
   // ═══════════════════════════════════════════════════
   function renderDashboard() {
     const streak = StreakTracker.get();
-    const userName = localStorage.getItem(STORAGE_KEYS.userName) || 'विद्यार्थी';
+    const userName = localStorage.getItem(STORAGE_KEYS.userName) || 'Student';
     const timeGreeting = getTimeGreeting();
 
     const greetingText = $('#hero-greeting-text');
@@ -447,14 +447,14 @@
 
     const streakNumberText = $('#streak-number-text');
     if (streakNumberText) {
-      streakNumberText.textContent = `🔥 ${streak} दिन की Streak`;
+      streakNumberText.textContent = `🔥 ${streak}-Day Streak`;
     }
 
     const streakMessageText = $('#streak-message-text');
     if (streakMessageText) {
       streakMessageText.textContent = streak >= 7 
-        ? '🎉 बहुत शानदार! आप असाधारण प्रयास कर रहे हैं!' 
-        : 'हर दिन वेबसाइट खोलें, 5 मिनट पढ़ें और अपनी स्ट्रीक बढ़ाएं!';
+        ? '🎉 Amazing! You are doing an outstanding job!' 
+        : 'Visit daily, read for 5 minutes, and keep your streak alive!';
     }
 
     // 🌟 Elite Polish: Trigger Stats count-up animations on home load
@@ -474,8 +474,8 @@
     appContent.innerHTML = `
       <div class="animate-fade-in">
         <div class="hero-welcome" style="padding-bottom: var(--sp-4);">
-          <h1 style="font-size: 1.5rem;">📖 Grammar पाठ</h1>
-          <p class="hero-subtitle">हिंदी माध्यम के विद्यार्थियों के लिए — आसान भाषा में</p>
+          <h1 style="font-size: 1.5rem;">📖 Grammar Lessons</h1>
+          <p class="hero-subtitle">For Hindi-medium students — explained simply</p>
         </div>
         <div class="loading-screen" style="min-height:200px;"><div class="loader-spinner"></div></div>
       </div>
@@ -500,11 +500,11 @@
       appContent.innerHTML = `
         <div class="animate-fade-in">
           <div class="hero-welcome" style="padding-bottom: var(--sp-4);">
-            <h1 style="font-size: 1.5rem;">📖 Grammar पाठ</h1>
+            <h1 style="font-size: 1.5rem;">📖 Grammar Lessons</h1>
           </div>
           <div class="card text-center" style="padding: var(--sp-10);">
             <p style="font-size: 2rem; margin-bottom: var(--sp-4);">🚧</p>
-            <h2>पाठ जल्द आ रहे हैं!</h2>
+            <h2>Lessons coming soon!</h2>
           </div>
         </div>
       `;
@@ -514,8 +514,8 @@
     appContent.innerHTML = `
       <div class="animate-fade-in">
         <div class="hero-welcome" style="padding-bottom: var(--sp-4);">
-          <h1 style="font-size: 1.5rem;">📖 Grammar पाठ</h1>
-          <p class="hero-subtitle">हिंदी माध्यम के विद्यार्थियों के लिए — आसान भाषा में</p>
+          <h1 style="font-size: 1.5rem;">📖 Grammar Lessons</h1>
+          <p class="hero-subtitle">For Hindi-medium students — explained simply</p>
         </div>
         <div class="chapter-list">
           ${lessons.map(l => {
@@ -542,7 +542,7 @@
   async function renderLesson(lessonSlug) {
     appContent.innerHTML = `
       <div class="animate-fade-in">
-        <a href="/grammar" class="lesson-back-btn">← सभी पाठ देखें</a>
+        <a href="/grammar" class="lesson-back-btn">← All Lessons</a>
         <div class="skeleton skeleton-title"></div>
         <div class="skeleton skeleton-card"></div>
         <div class="skeleton skeleton-card"></div>
@@ -554,10 +554,10 @@
     if (!lessonData) {
       appContent.innerHTML = `
         <div class="animate-fade-in">
-          <a href="/grammar" class="lesson-back-btn">← सभी पाठ देखें</a>
+          <a href="/grammar" class="lesson-back-btn">← All Lessons</a>
           <div class="card text-center" style="padding: var(--sp-10);">
             <p style="font-size: 2rem; margin-bottom: var(--sp-4);">🚧</p>
-            <h2>यह पाठ जल्द आ रहा है!</h2>
+            <h2>This lesson is coming soon!</h2>
           </div>
         </div>
       `;
@@ -568,10 +568,10 @@
 
     appContent.innerHTML = `
       <div class="animate-fade-in">
-        <a href="/grammar" class="lesson-back-btn">← सभी पाठ देखें</a>
+        <a href="/grammar" class="lesson-back-btn">← All Lessons</a>
 
         <div class="lesson-header">
-          <span class="badge">पाठ ${lessonData.part || ''}</span>
+          <span class="badge">Lesson ${lessonData.part || ''}</span>
           <h1 style="margin-top: var(--sp-3);">${escHtml(lessonData.title || '')}</h1>
         </div>
 
@@ -580,7 +580,7 @@
             <div class="teacher-header">
               <div class="teacher-avatar">👨‍🏫</div>
               <div>
-                <div class="teacher-name">शिक्षक का संदेश</div>
+                <div class="teacher-name">Teacher's Note</div>
                 <div class="teacher-role">English Mentor</div>
               </div>
             </div>
@@ -590,13 +590,13 @@
 
         ${lessonData.definition_en ? `
           <div class="card">
-            <h3>परिभाषा (Definition)</h3>
+            <h3>Definition</h3>
             <p style="margin-top: var(--sp-3); font-size: 1.05rem; font-weight: 500;">
               ${escHtml(lessonData.definition_en)}
             </p>
             ${lessonData.definition_hi ? `
               <div class="definition-block" style="margin-top: var(--sp-3);">
-                <strong>हिंदी में:</strong> ${escHtml(lessonData.definition_hi)}
+                <strong>Hindi:</strong> ${escHtml(lessonData.definition_hi)}
               </div>
             ` : ''}
           </div>
@@ -634,12 +634,12 @@
     appContent.innerHTML = `
       <div class="animate-fade-in">
         <div class="hero-welcome" style="padding-bottom: var(--sp-3);">
-          <h1 style="font-size: 1.5rem;">🔤 शब्दकोश (Dictionary)</h1>
-          <p class="hero-subtitle">148 श्रेणियों में 19,773 शब्द — हिंदी अर्थ के साथ</p>
+          <h1 style="font-size: 1.5rem;">🔤 Dictionary</h1>
+          <p class="hero-subtitle">19,773 words across 148 categories — with Hindi meanings</p>
         </div>
         <div class="loading-screen" style="min-height: 200px;">
           <div class="loader-spinner"></div>
-          <p class="loader-text">श्रेणियाँ लोड हो रही हैं...</p>
+          <p class="loader-text">Loading categories...</p>
         </div>
       </div>
     `;
@@ -650,11 +650,11 @@
       appContent.innerHTML = `
         <div class="animate-fade-in">
           <div class="hero-welcome" style="padding-bottom: var(--sp-3);">
-            <h1 style="font-size: 1.5rem;">🔤 शब्दकोश (Dictionary)</h1>
+            <h1 style="font-size: 1.5rem;">🔤 Dictionary</h1>
           </div>
           <div class="card text-center" style="padding: var(--sp-10);">
             <p style="font-size: 2rem; margin-bottom: var(--sp-4);">📦</p>
-            <h2>डेटा लोड हो रहा है</h2>
+            <h2>Loading data...</h2>
           </div>
         </div>
       `;
@@ -666,8 +666,8 @@
     appContent.innerHTML = `
       <div class="animate-fade-in">
         <div class="hero-welcome" style="padding-bottom: var(--sp-3);">
-          <h1 style="font-size: 1.5rem;">🔤 शब्दकोश (Dictionary)</h1>
-          <p class="hero-subtitle">श्रेणी चुनें और शब्द सीखें</p>
+          <h1 style="font-size: 1.5rem;">🔤 Dictionary</h1>
+          <p class="hero-subtitle">Choose a category and learn words</p>
         </div>
 
         <div class="category-chips-scroll" id="category-chips">
@@ -1488,7 +1488,7 @@
     const words = await loadCategoryWords(slug);
 
     if (!words || words.length === 0) {
-      container.innerHTML = '<div class="card text-center"><p class="text-secondary">इस श्रेणी में शब्द उपलब्ध नहीं हैं।</p></div>';
+      container.innerHTML = '<div class="card text-center"><p class="text-secondary">No words available in this category.</p></div>';
       return;
     }
 
@@ -1499,7 +1499,7 @@
       <div class="word-grid animate-fade-in"></div>
       ${words.length > 50 ? `
         <div class="text-center mt-6" id="load-more-container">
-          <button class="fc-btn fc-btn-know" id="load-more-btn">और शब्द देखें (${words.length - 50} बाकी)</button>
+          <button class="fc-btn fc-btn-know" id="load-more-btn">Load more words (${words.length - 50} remaining)</button>
         </div>
       ` : ''}
     `;
@@ -1526,7 +1526,7 @@
       <div class="animate-fade-in">
         <div class="hero-welcome" style="padding-bottom: var(--sp-3);">
           <h1 style="font-size: 1.5rem;">🃏 Flashcards Practice</h1>
-          <p class="hero-subtitle">शब्द देखें, याद करें, उच्चारण सुनें!</p>
+          <p class="hero-subtitle">See, memorise and listen to words!</p>
         </div>
         <div class="loading-screen" style="min-height: 200px;"><div class="loader-spinner"></div></div>
       </div>
@@ -1536,13 +1536,13 @@
     const slug = categorySlug || (categories && categories.length > 0 ? categories[0].slug : null);
 
     if (!slug) {
-      appContent.innerHTML = `<div class="card text-center"><h2>डेटा लोड नहीं हुआ</h2></div>`;
+      appContent.innerHTML = `<div class="card text-center"><h2>Could not load data</h2></div>`;
       return;
     }
 
     const words = await loadCategoryWords(slug);
     if (!words || words.length === 0) {
-      appContent.innerHTML = '<div class="card text-center"><p>शब्द नहीं मिले।</p></div>';
+      appContent.innerHTML = '<div class="card text-center"><p>No words found.</p></div>';
       return;
     }
 
@@ -1934,9 +1934,9 @@
 
   function getTimeGreeting() {
     const hour = new Date().getHours();
-    if (hour < 12) return 'सुप्रभात ☀️';
-    if (hour < 17) return 'नमस्ते 🙏';
-    return 'शुभ संध्या 🌙';
+    if (hour < 12) return 'Good Morning ☀️';
+    if (hour < 17) return 'Hello 🙏';
+    return 'Good Evening 🌙';
   }
 
   function animateValue(id, start, end, duration) {
@@ -2089,12 +2089,12 @@
         const submitBtn = $('#contact-submit-btn');
 
         if (!name || !email || !message) {
-          showToast('⚠️ सभी आवश्यक फ़ील्ड भरें!');
+          showToast('⚠️ Please fill all required fields!');
           return;
         }
 
         submitBtn.disabled = true;
-        submitBtn.innerHTML = '⏳ संदेश भेजा जा रहा है...';
+          submitBtn.innerHTML = '⏳ Sending message...';
 
         setTimeout(() => {
           const submissions = JSON.parse(localStorage.getItem('ev-contact-submissions') || '[]');
@@ -2111,26 +2111,26 @@
           container.innerHTML = `
             <div class="text-center animate-fade-in" style="padding: var(--sp-6);">
               <p style="font-size: 3.5rem; margin-bottom: var(--sp-4);">🎉</p>
-              <h2 style="color: var(--accent); margin-bottom: var(--sp-2);">संदेश सफलतापूर्वक दर्ज!</h2>
+              <h2 style="color: var(--accent); margin-bottom: var(--sp-2);">Message Received!</h2>
               <p class="text-secondary" style="font-size: 1.02rem; line-height: 1.5;">
-                नमस्ते <strong>${escHtml(name)}</strong>, आपका संदेश हमारे सपोर्ट डेटाबेस में सुरक्षित रूप से दर्ज कर लिया गया है।
+                Hello <strong>${escHtml(name)}</strong>, your message has been safely recorded in our support database.
               </p>
               
               <div style="margin-top: var(--sp-6); background: var(--bg-primary); padding: var(--sp-4); border-radius: 12px; border: 1px solid var(--border); text-align: left;">
-                <p style="font-size: 0.85rem; color: var(--text-secondary); text-transform: uppercase; font-weight: 600; margin-bottom: 5px;">दर्ज किया गया विवरण:</p>
-                <p style="margin-bottom: 5px;"><strong>विषय:</strong> ${escHtml(category)}</p>
+                <p style="font-size: 0.85rem; color: var(--text-secondary); text-transform: uppercase; font-weight: 600; margin-bottom: 5px;">Submitted details:</p>
+                <p style="margin-bottom: 5px;"><strong>Subject:</strong> ${escHtml(category)}</p>
                 <p style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.4;">"${escHtml(message)}"</p>
               </div>
 
               <div style="margin-top: var(--sp-6); display: flex; flex-direction: column; gap: var(--sp-3);">
-                <a href="https://wa.me/919999999999?text=${encodeURIComponent('नमस्ते English Vidya, मेरा नाम ' + name + ' है। मैंने वेबसाइट पर एक संदेश दर्ज किया है: ' + message)}" 
+                <a href="https://wa.me/919999999999?text=${encodeURIComponent('Hello English Vidya, my name is ' + name + '. I submitted a message on the website: ' + message)}" 
                    target="_blank" 
                    class="promo-btn primary" 
                    style="background: #10b981; border-color: #10b981; text-decoration: none; color: #fff; font-size: 0.95rem; padding: 12px; display: block; border-radius: 8px; font-weight: 700; text-align:center;">
-                  💬 सीधे WhatsApp पर भी भेजें
+                  💬 Also send on WhatsApp
                 </a>
                 <button class="promo-btn secondary" id="contact-home-btn" style="padding: 12px; border-radius: 8px; cursor:pointer;">
-                  🏠 होम पेज पर वापस जाएँ
+                  🏠 Go to Home Page
                 </button>
               </div>
             </div>
@@ -2141,7 +2141,7 @@
             homeBtn.addEventListener('click', () => navigate('/'));
           }
 
-          showToast('✅ संदेश सुरक्षित रूप से भेजा गया!');
+          showToast('✅ Message sent successfully!');
         }, 1000);
       });
     }
@@ -2173,7 +2173,7 @@
         if (activeTab === 'disclaimer') {
           contentContainer.innerHTML = `
             <div class="legal-tab-pane animate-fade-in">
-              <h2 style="color: var(--accent); margin-bottom: var(--sp-4);">अस्वीकरण</h2>
+              <h2 style="color: var(--accent); margin-bottom: var(--sp-4);">Disclaimer</h2>
               <p><strong>1. केवल शैक्षिक उद्देश्य:</strong> English Vidya पर उपलब्ध सभी अध्ययन सामग्री, शब्दकोश, व्याकरण नियम और पाठ केवल शैक्षिक और सामान्य सूचनात्मक उद्देश्यों के लिए प्रदान किए गए हैं। हम किसी भी परीक्षा या सरकारी नौकरी में सफलता की गारंटी नहीं देते हैं।</p>
               <p style="margin-top: 15px;"><strong>2. सटीकता और त्रुटियां:</strong> हालांकि हमने 19,773 शब्दों और व्याकरण नियमों के संकलन में अत्यधिक सावधानी बरती है, फिर भी इसमें मानवीय या लिपिकीय त्रुटियां हो सकती हैं। छात्र से अनुरोध है कि वे किसी भी महत्वपूर्ण परीक्षा से पहले दोबारा जांच लें।</p>
               <p style="margin-top: 15px;"><strong>3. बाहरी लिंक्स:</strong> हमारी पाठ्यसामग्री में वीडियो एम्बेड शामिल हैं जो तीसरे पक्ष के सर्वर्स पर होस्ट किए गए हैं। इन वीडियो की सामग्री या विज्ञापनों पर हमारा कोई नियंत्रण नहीं है।</p>
@@ -2182,7 +2182,7 @@
         } else if (activeTab === 'privacy') {
           contentContainer.innerHTML = `
             <div class="legal-tab-pane animate-fade-in">
-              <h2 style="color: var(--accent); margin-bottom: var(--sp-4);">गोपनीयता नीति</h2>
+              <h2 style="color: var(--accent); margin-bottom: var(--sp-4);">Privacy Policy</h2>
               <p><strong>1. डेटा सुरक्षा और गोपनीयता:</strong> English Vidya छात्रों की गोपनीयता का पूर्ण सम्मान करती है। हम छात्रों का कोई भी निजी डेटा (जैसे नाम, ईमेल, प्रोग्रेस) किसी तीसरे पक्ष को कभी भी बेचते या साझा नहीं करते हैं। विज्ञापन और अन्य सेवाएं भी निजता नियमों के तहत ही दिखाई जाती हैं।</p>
               <p style="margin-top: 15px;"><strong>2. प्रमाणीकरण:</strong> लॉगिन के लिए हम Google Sign-In (OAuth) का उपयोग करते हैं। पासवर्ड रहित सुरक्षित प्रमाणीकरण के लिए आपका Google सत्र टोकन केवल आपके ब्राउज़र में Secure HttpOnly Cookies के माध्यम से स्थानांतरित किया जाता है, जिसे जावास्क्रिप्ट द्वारा चोरी नहीं किया जा सकता।</p>
               <p style="margin-top: 15px;"><strong>3. स्थानीय संग्रहण (Local Storage):</strong> छात्र की दैनिक स्ट्रीक्स, हाल ही की खोजें और संपर्क फ़ॉर्म सबमिशन स्थानीय रूप से ब्राउज़र के \`localStorage\` में संग्रहीत होते हैं, ताकि बिना इंटरनेट के भी ऐप सुचारू रूप से काम कर सके।</p>
@@ -2192,7 +2192,7 @@
         } else if (activeTab === 'liability') {
           contentContainer.innerHTML = `
             <div class="legal-tab-pane animate-fade-in">
-              <h2 style="color: var(--accent); margin-bottom: var(--sp-4);">सीमित दायित्व</h2>
+              <h2 style="color: var(--accent); margin-bottom: var(--sp-4);">Limitation of Liability</h2>
               <p><strong>1. कोई वारंटी नहीं:</strong> यह वेबसाइट "जैसी है" और "जैसी उपलब्ध है" के आधार पर बिना किसी वारंटी के प्रदान की गई है। हम यह गारंटी नहीं देते कि सेवा निर्बाध, त्रुटिहीन या वायरस-मुक्त होगी।</p>
               <p style="margin-top: 15px;"><strong>2. हानि की सीमा:</strong> कानून द्वारा अनुमत अधिकतम सीमा तक, English Vidya, इसके निर्माता, या साझेदार किसी भी प्रत्यक्ष, अप्रत्यक्ष, आकस्मिक, या दंडात्मक नुकसान (जैसे डेटा हानि, phone का धीमा होना, या streak टूटने से होने वाला मानसिक तनाव) के लिए उत्तरदायी नहीं होंगे।</p>
               <p style="margin-top: 15px;"><strong>3. स्वैच्छिक योगदान और ई-बुक:</strong> यदि छात्र वैकल्पिक व्याकरण ई-बुक ख़रीदते हैं, तो वह भुगतान पूरी तरह से सुरक्षित मर्चेंट चैनल के माध्यम से किया जाएगा। किसी भी असफल भुगतान या तकनीकी समस्या की स्थिति में, संबंधित पेमेंट गेटवे की नीतियां लागू होंगी, हालांकि हम आपकी पूरी सहायता करने का प्रयास करेंगे।</p>
