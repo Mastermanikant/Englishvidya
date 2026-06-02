@@ -157,7 +157,7 @@
         }, 250);
       }, 450);
 
-      showToast(next === 'dark' ? '🌙 डार्क मोड चालू' : '☀️ लाइट मोड चालू');
+      showToast(next === 'dark' ? '🌙 Dark Mode Enabled' : '☀️ Light Mode Enabled');
     }
   };
 
@@ -744,9 +744,635 @@
     }
   }
 
+  function toDevanagariPron(word, pron) {
+    if (!word) return '';
+    
+    // If pron already has Devanagari, return it
+    if (pron && /[\u0900-\u097F]/.test(pron)) {
+      return pron;
+    }
+    
+    // Predefined high-quality mapping for common words/syllables
+    const dictionaryFallback = {
+      'design': 'डिज़ाइन (di-zayn)',
+      'desk': 'डेस्क (desk)',
+      'detrimental': 'डेट्रिमेन्टल (det-ri-men-tuhl)',
+      'develop': 'डेवलप (de-vel-uhp)',
+      'devise': 'डिवाइज़ (di-vyz)',
+      'diagnostic test': 'डायग्नोस्टिक टेस्ट (dy-uhg-nos-tik test)',
+      'discern': 'डिसर्न (di-sern)',
+      'discipline': 'डिसिप्लिन (dis-uh-plin)',
+      'discovery': 'डिस्कवरी (dis-kuv-uh-ree)',
+      'discuss': 'डिस्कस (dis-kus)',
+      'dissertation': 'डिअर्टेशन (dis-er-tay-shuhn)',
+      'discrepancy': 'डिस्क्रेपेंसी (dis-krep-uhn-see)',
+      'disparate': 'डिस्पेरट (dis-puh-ruht)',
+      'dimensionality reduction': 'डाइमेंशनलिटी रिडक्शन (dy-men-shuhn-al-i-tee ri-duk-shuhn)',
+      'absolutely': 'ऐब्सोल्यूटली (ab-so-loot-lee)',
+      'actually': 'ऐक्चुअली (ak-choo-uh-lee)',
+      'agree': 'अग्री (uh-gree)',
+      'air': 'ऐर (air)',
+      'alright': 'ऑलराइट (awl-right)',
+      'amazed': 'अमेज़्ड (uh-mayzd)',
+      'amused': 'अम्यूज़्ड (uh-myoozd)',
+      'angry': 'ऐंग्री (ang-ree)',
+      'annoyed': 'अनॉइड (uh-noyd)',
+      'answer': 'आन्सर (ahn-sur)',
+      'anxious': 'ऐंग्शस (angk-shuhs)',
+      'anyway': 'ऐनीवे (eh-nee-way)',
+      'apologize': 'अपोलोजाइज़ (uh-pol-uh-jyz)',
+      'arm': 'आर्म (aarm)',
+      'arrogant': 'ऐरोगेंट (ar-uh-gunt)',
+      'ask': 'आस्क (ask)',
+      'awesome': 'ऑसम (aw-sum)',
+      'awful': 'ऑफुल (aw-ful)',
+      'back': 'बैक (bak)',
+      'bad': 'बैड (bad)',
+      'bag': 'बैग (bag)',
+      'basically': 'बेसिकली (bay-sik-lee)',
+      'bathroom': 'बाथरूम (baath-ruum)',
+      'believe': 'बिलीव (bi-leev)',
+      'blood': 'ब्लड (blud)',
+      'bone': 'बोन (bo-n)',
+      'book': 'बुक (buk)',
+      'bored': 'बोर्ड (bord)',
+      'boss': 'बॉस (baws)',
+      'bottle': 'बॉटल (bo-tl)',
+      'brain': 'ब्रेन (brayn)',
+      'breathe': 'ब्रीद (bree-dh)',
+      'busy': 'बिज़ी (biz-ee)',
+      'calm': 'काम (kahm)',
+      'curious': 'क्यूरियस (kyoor-ee-uhs)',
+      'depressed': 'डिप्रेस्ड (di-prest)',
+      'disappointed': 'डिसअपॉइंटेड (dis-uh-poyn-tid)',
+      'disease': 'डिज़ीज़ (di-zeez)',
+      'doctor': 'डॉक्टर (dok-tar)',
+      'door': 'डोर (dor)',
+      'drop': 'ड्रॉप (drop)',
+      'easy': 'इज़ी (ee-zee)',
+      'excited': 'एक्साइटेड (ek-sy-tid)',
+      'exhausted': 'एग्जॉस्टेड (eg-zaws-tid)',
+      'face': 'फेस (fays)',
+      'family': 'फैमिली (fam-uh-lee)',
+      'father': 'फादर (fah-ther)',
+      'fever': 'फीवर (fee-ver)',
+      'finger': 'फिंगर (fing-ger)',
+      'finish': 'फिनिश (fin-ish)',
+      'fire': 'फायर (fyr)',
+      'flat': 'फ्लैट (flat)',
+      'flight': 'फ्लाइट (flyt)',
+      'flower': 'फ्लॉवर (flow-er)',
+      'focus': 'फोकस (foh-kuhs)',
+      'food': 'फूड (food)',
+      'forget': 'फॉर्गेट (fer-get)',
+      'friend': 'फ्रेंड (frend)',
+      'fun': 'फन (fun)',
+      'funny': 'फनी (fun-ee)',
+      'game': 'गेम (gaym)',
+      'garden': 'गार्डन (gahr-dhn)',
+      'girl': 'गर्ल (gurl)',
+      'glass': 'ग्लास (glahs)',
+      'glove': 'ग्लव (gluv)',
+      'go': 'गो (goh)',
+      'good': 'गुड (gud)',
+      'green': 'ग्रीन (green)',
+      'ground': 'ग्राउंड (grownd)',
+      'group': 'ग्रुप (groop)',
+      'grow': 'ग्रो (groh)',
+      'hair': 'हेयर (hair)',
+      'half': 'हाफ (haf)',
+      'hand': 'हैंड (hand)',
+      'happy': 'हैपी (hap-ee)',
+      'head': 'हेड (hed)',
+      'health': 'हेल्थ (helth)',
+      'heart': 'हार्ट (hahrt)',
+      'hello': 'हेलो (heh-loh)',
+      'help': 'हेल्प (help)',
+      'high': 'हाई (hy)',
+      'home': 'होम (hohm)',
+      'hope': 'होप (hohp)',
+      'hospital': 'हॉस्पिटल (hos-pi-tuhl)',
+      'hot': 'हॉट (hot)',
+      'house': 'हाउस (hows)',
+      'hungry': 'हंग्री (hung-gree)',
+      'husband': 'हस्बैंड (huz-buhnd)',
+      'idea': 'आइडिया (ey-dee-uh)',
+      'important': 'इम्पॉर्टेंट (im-pawr-tuhnt)',
+      'information': 'इंफॉर्मेशन (in-fer-may-shuhn)',
+      'inside': 'इनसाइड (in-syd)',
+      'interest': 'इंटरेस्ट (in-trest)',
+      'job': 'जॉब (job)',
+      'journey': 'जर्नी (jur-nee)',
+      'jump': 'जंप (jump)',
+      'keep': 'कीप (keep)',
+      'key': 'की (kee)',
+      'kitchen': 'किचन (kich-uhn)',
+      'knee': 'नी (nee)',
+      'knife': 'नाइफ (nyf)',
+      'know': 'नो (noh)',
+      'knowledge': 'नॉलेज (nol-ij)',
+      'lady': 'लेडी (lay-dee)',
+      'land': 'लैंड (land)',
+      'language': 'लैंग्वेज (lang-gwij)',
+      'laugh': 'लाफ (laf)',
+      'learn': 'लर्न (lurn)',
+      'leave': 'लीव (leev)',
+      'leg': 'लेग (leg)',
+      'lesson': 'लेसन (les-uhn)',
+      'letter': 'लेटर (let-er)',
+      'life': 'लाइफ (lyf)',
+      'light': 'लाइट (lyt)',
+      'like': 'लाइक (lyk)',
+      'line': 'लाइन (lyn)',
+      'listen': 'लिसन (lis-uhn)',
+      'little': 'लिटिल (lit-uhl)',
+      'live': 'लाइव (lyv) / लिव (liv)',
+      'long': 'लॉन्ग (long)',
+      'look': 'लुक्स (looks) / लुक (look)',
+      'love': 'लव (luv)',
+      'machine': 'मशीन (muh-sheen)',
+      'make': 'मेक (mayk)',
+      'man': 'मैन (man)',
+      'many': 'मैनी (men-ee)',
+      'market': 'मार्केट (mahr-kit)',
+      'marry': 'मैरी (mar-ee)',
+      'matter': 'मैटर् (mat-er)',
+      'maybe': 'मेबी (may-bee)',
+      'mean': 'मीन (meen)',
+      'measure': 'मेझर (mezh-er)',
+      'medicine': 'मेडिसिन (med-uh-sin)',
+      'meeting': 'मीटिंग (mee-ting)',
+      'member': 'मेम्बर (mem-ber)',
+      'memory': 'मेमोरी (mem-uh-ree)',
+      'message': 'मैसेज (mes-ij)',
+      'middle': 'मिडिल (mid-uhl)',
+      'might': 'माइट (myt)',
+      'mind': 'माइंड (mynd)',
+      'minute': 'मिनट (min-it)',
+      'mistake': 'मिस्टेक (mis-tayk)',
+      'money': 'मनी (mun-ee)',
+      'month': 'मंथ (munth)',
+      'morning': 'मॉर्निंग (mawr-ning)',
+      'mother': 'मदर (muth-er)',
+      'mountain': 'माउंटेन (mown-tuhn)',
+      'mouth': 'माउथ (mowth)',
+      'move': 'मूव (moov)',
+      'music': 'म्यूजिक (myoo-zik)',
+      'name': 'नेम (naym)',
+      'nature': 'नेचर (nay-cher)',
+      'near': 'नियर (neer)',
+      'neck': 'नेक (nek)',
+      'need': 'नीड (need)',
+      'neighbor': 'नेबर (nay-ber)',
+      'nervous': 'नर्वस (ner-vuhs)',
+      'never': 'नेवर (nev-er)',
+      'new': 'न्यू (nyoo)',
+      'news': 'न्यूज़ (nyooz)',
+      'night': 'नाइट (nyt)',
+      'no': 'नो (noh)',
+      'noise': 'नॉइज़ (noyz)',
+      'nose': 'नोस (nohz)',
+      'note': 'नोट (noht)',
+      'nothing': 'नथिंग (nuth-ing)',
+      'number': 'नंबर (num-ber)',
+      'office': 'ऑफिस (of-is)',
+      'often': 'ऑफन (of-uhn)',
+      'okay': 'ओके (oh-kay)',
+      'old': 'ओल्ड (ohld)',
+      'once': 'वन्स (wuns)',
+      'open': 'ओपन (oh-puhn)',
+      'opinion': 'ओपिनियन (uh-pin-yuhn)',
+      'order': 'ऑर्डर (awr-der)',
+      'outside': 'आउटसाइड (owt-syd)',
+      'page': 'पेज (payj)',
+      'pain': 'पेन (payn)',
+      'paper': 'पेपर (pay-per)',
+      'parent': 'पेरेंट (pair-uhnt)',
+      'park': 'पार्क (pahrk)',
+      'part': 'पार्ट (pahrt)',
+      'party': 'पार्टी (pahr-tee)',
+      'pass': 'पास (pahss)',
+      'past': 'पास्ट (pahst)',
+      'pay': 'पे (pay)',
+      'pen': 'पेन (pen)',
+      'pencil': 'पेंसिल (pen-suhl)',
+      'people': 'पीपल (pee-puhl)',
+      'perfect': 'परफेक्ट (per-fikt)',
+      'person': 'पर्सन (per-suhn)',
+      'phone': 'फोन (fohn)',
+      'photo': 'फोटो (foh-toh)',
+      'picture': 'पिक्चर (pik-cher)',
+      'piece': 'पीस (pees)',
+      'place': 'प्लेस (plays)',
+      'plan': 'प्लान (plan)',
+      'plane': 'प्लेन (playn)',
+      'plant': 'प्लांट (plant)',
+      'plate': 'प्लेट (playt)',
+      'play': 'प्ले (play)',
+      'please': 'प्लीज़ (pleez)',
+      'pocket': 'पॉकेट (pok-it)',
+      'point': 'पॉइंट (poynt)',
+      'police': 'पुलिस (puh-lees)',
+      'poor': 'पुअर (poor)',
+      'popular': 'पॉपुलर (pop-yuh-ler)',
+      'position': 'पोजीशन (puh-zish-uhn)',
+      'possible': 'पॉसिबल (pos-uh-buhl)',
+      'power': 'पावर (pow-er)',
+      'practice': 'प्रैक्टिस (prak-tis)',
+      'prepare': 'प्रिपेयर (pri-pair)',
+      'present': 'प्रेजेंट (prez-uhnt)',
+      'pretty': 'प्रिटी (prit-ee)',
+      'price': 'प्राइस (prys)',
+      'pride': 'प्राइड (pryd)',
+      'principal': 'प्रिंसिपल (prin-suh-buhl)',
+      'problem': 'प्रॉब्लम (prob-luhm)',
+      'process': 'प्रोसेस (pros-es)',
+      'produce': 'प्रोड्यूस (pruh-doos)',
+      'product': 'प्रोडक्ट (prod-ukt)',
+      'professional': 'प्रोफेशनल (pruh-fesh-uhn-uhl)',
+      'professor': 'प्रोफेसर (pruh-fes-er)',
+      'profit': 'प्रॉफिट (prof-it)',
+      'program': 'प्रोग्राम (proh-gram)',
+      'progress': 'प्रोग्रेस (prog-res)',
+      'project': 'प्रोजेक्ट (proj-ekt)',
+      'promise': 'प्रॉमिस (prom-is)',
+      'pronounce': 'प्रोनॉन्स (pruh-nowns)',
+      'proud': 'प्राउड (prowd)',
+      'prove': 'प्रूव (proov)',
+      'public': 'पब्लिक (pub-lik)',
+      'pull': 'पुल (pool)',
+      'push': 'पुश (poosh)',
+      'put': 'पुट (poot)',
+      'quality': 'क्वालिटी (kwol-i-tee)',
+      'question': 'क्वेश्चन (kwes-chuhn)',
+      'quick': 'क्विक (kwik)',
+      'quiet': 'क्वाइट (kwyet)',
+      'quite': 'क्वाइट (kwyt)',
+      'radio': 'रेडियो (ray-dee-oh)',
+      'rain': 'रेन (rayn)',
+      'raise': 'रेज़ (rayz)',
+      'range': 'रेंज (raynj)',
+      'rate': 'रेट (rayt)',
+      'rather': 'रादर (rath-er)',
+      'reach': 'रीच (reech)',
+      'read': 'रीड (reed)',
+      'ready': 'रेडी (red-ee)',
+      'real': 'रियल (ree-uhl)',
+      'realize': 'रियलाइज़ (ree-uh-lyz)',
+      'really': 'रियली (ree-lee)',
+      'reason': 'रीज़न (ree-zuhn)',
+      'receive': 'रिसीव (ri-seev)',
+      'recent': 'रीसेंट (ree-suhnt)',
+      'recognize': 'रिकग्नाइज़ (rek-uhg-nyz)',
+      'record': 'रिकॉर्ड (rek-erd)',
+      'red': 'रेड (red)',
+      'reduce': 'रिड्यूस (ri-doos)',
+      'refer': 'रेफ़र (ri-fur)',
+      'refuse': 'रिफ्यूज़ (ri-fyooz)',
+      'regard': 'रिगार्ड (ri-gahrd)',
+      'region': 'रीजन (ree-juhn)',
+      'relation': 'रिलेशन (ri-lay-shuhn)',
+      'relationship': 'रिलेशनशिप (ri-lay-shuhn-ship)',
+      'relax': 'रिलैक्स (ri-laks)',
+      'relieved': 'रिलीव्ड (ri-leevd)',
+      'religion': 'रिलिजन (ri-lij-uhn)',
+      'remain': 'रिमेन (ri-mayn)',
+      'remember': 'रिमेम्बर (ri-mem-ber)',
+      'remove': 'रिमूव (ri-moov)',
+      'repeat': 'रिपीट (ri-peet)',
+      'reply': 'रिप्लाई (ri-ply)',
+      'report': 'रिपोर्ट (ri-pawrt)',
+      'represent': 'रिप्रेजेंट (rep-ri-zent)',
+      'request': 'रिक्वेस्ट (ri-kwest)',
+      'require': 'रिक्वायर (ri-kwyr)',
+      'research': 'रिसर्च (ri-surch)',
+      'resource': 'रिसोर्स (ri-sawrs)',
+      'respect': 'रिस्पेक्ट (ri-spekt)',
+      'response': 'रिस्पॉन्स (ri-spons)',
+      'responsibility': 'रिस्पॉन्सिबिलिटी (ri-spon-suh-bil-i-tee)',
+      'rest': 'रेस्ट (rest)',
+      'restaurant': 'रेस्टोरेंट (res-ter-ohnt)',
+      'result': 'रिजल्ट (ri-zult)',
+      'return': 'रिटर्न (ri-turn)',
+      'reveal': 'रिवीअल (ri-veel)',
+      'revenue': 'रेवेन्यू (rev-uh-noo)',
+      'review': 'रिव्यू (ri-vyoo)',
+      'rice': 'राइस (rys)',
+      'rich': 'रिच (rich)',
+      'ride': 'राइड (ryd)',
+      'right': 'RIGHT',
+      'ring': 'रिंग (ring)',
+      'rise': 'राइज़ (ryz)',
+      'risk': 'रिस्क (risk)',
+      'river': 'रिवर (riv-er)',
+      'road': 'रोड (rohd)',
+      'rock': 'रॉक (rok)',
+      'role': 'रोल (rohl)',
+      'roll': 'रोल (rohl)',
+      'roof': 'रूफ (roof)',
+      'room': 'रूम (room)',
+      'root': 'रूट (root)',
+      'rope': 'रोप (rohp)',
+      'rough': 'रफ (ruf)',
+      'round': 'राउंड (rownd)',
+      'route': 'रूट (root)',
+      'row': 'रो (roh)',
+      'rub': 'रब (rub)',
+      'rule': 'रूल (rool)',
+      'run': 'रन (run)',
+      'sad': 'सैड (sad)',
+      'safe': 'सेफ (sayf)',
+      'safety': 'सेफ्टी (sayf-tee)',
+      'sail': 'सेल (sayl)',
+      'salt': 'सॉल्ट (sawlt)',
+      'same': 'सेम (saym)',
+      'sand': 'सैंड (sand)',
+      'satisfied': 'सैटिस्फाइड (sat-is-fyd)',
+      'save': 'सेव (sayv)',
+      'say': 'से (say)',
+      'scale': 'स्केल (skayl)',
+      'scared': 'स्केअर्ड (skaird)',
+      'scene': 'सीन (seen)',
+      'scenery': 'सीनरी (seen-er-ee)',
+      'school': 'स्कूल (skool)',
+      'science': 'साइंस (sy-uhns)',
+      'scientist': 'साइंटिस्ट (sy-uhn-tist)',
+      'score': 'स्कोर (skawr)',
+      'scream': 'स्क्रीम (skreem)',
+      'screen': 'स्क्रीन (skreen)',
+      'sea': 'सी (see)',
+      'search': 'सर्च (surch)',
+      'season': 'सीज़न (see-zuhn)',
+      'seat': 'सीट (seet)',
+      'second': 'सेकंड (sek-uhnd)',
+      'secret': 'सीक्रेट (see-krit)',
+      'section': 'सेक्शन (sek-shuhn)',
+      'security': 'सिक्योरिटी (si-kyoor-i-tee)',
+      'see': 'सी (see)',
+      'seed': 'सीड (seed)',
+      'seek': 'सीक (seek)',
+      'seem': 'सीम (seem)',
+      'select': 'सलेक्ट (suh-lekt)',
+      'sell': 'सेल (sel)',
+      'send': 'सेंड (send)',
+      'sense': 'सेंस (sens)',
+      'sentence': 'सेंटेंस (sen-tuhns)',
+      'separate': 'सेपरेट (sep-uhr-it)',
+      'serious': 'सीरियस (seer-ee-uhs)',
+      'servant': 'सर्वेंट (sur-vuhnt)',
+      'serve': 'सर्व (surv)',
+      'service': 'सर्विस (sur-vis)',
+      'session': 'सेशन (sesh-uhn)',
+      'set': 'सेट (set)',
+      'settle': 'सेटल (set-l)',
+      'seven': 'सेवन (sev-uhn)',
+      'several': 'सेवरल (sev-uhr-uhl)',
+      'severe': 'सिवियर (suh-veer)',
+      'sex': 'सेक्स (seks)',
+      'shade': 'शेड (shayd)',
+      'shadow': 'शैडो (shad-oh)',
+      'shake': 'शेक (shayk)',
+      'shall': 'शैल (shal)',
+      'shame': 'शेम (shaym)',
+      'shape': 'शेप (shayp)',
+      'share': 'शेयर (shair)',
+      'sharp': 'शार्प (shahrp)',
+      'she': 'शी (shee)',
+      'sheep': 'शीप (sheep)',
+      'sheet': 'शीट (sheet)',
+      'shelf': 'शेल्फ (shelf)',
+      'shell': 'शेल (shel)',
+      'shelter': 'शेल्टर (shel-ter)',
+      'shift': 'शिफ्ट (shift)',
+      'shine': 'शाइन (shyn)',
+      'ship': 'शिप (ship)',
+      'shirt': 'शर्ट (shurt)',
+      'shocked': 'शॉक्ड (shokt)',
+      'shoe': 'शू (shoo)',
+      'shoot': 'शूट (shoot)',
+      'shop': 'शॉप (shop)',
+      'shopping': 'शॉपिंग (shop-ing)',
+      'shore': 'शोर (shawr)',
+      'short': 'शॉर्ट (shawrt)',
+      'should': 'शुड (shood)',
+      'shoulder': 'शोल्डर (shohl-der)',
+      'shout': 'शआउट (showt)',
+      'show': 'शो (shoh)',
+      'shower': 'शावर (show-er)',
+      'shut': 'शट (shut)',
+      'sick': 'सिक (sik)',
+      'side': 'साइड (syd)',
+      'sight': 'साइट (syt)',
+      'sign': 'साइन (syn)',
+      'signal': 'सिग्नल (sig-nuhl)',
+      'silence': 'साइलेंस (sy-luhns)',
+      'silent': 'साइलेंट (sy-luhnt)',
+      'silk': 'सिल्क (silk)',
+      'silly': 'सिली (sil-ee)',
+      'silver': 'सिल्वर (sil-ver)',
+      'similar': 'सिमिलर (sim-uh-ler)',
+      'simple': 'सिंपल (sim-puhl)',
+      'simply': 'सिंपली (sim-plee)',
+      'since': 'सिंस (sins)',
+      'sing': 'सिंग (sing)',
+      'singer': 'सिंगर (sing-er)',
+      'single': 'सिंगल (sing-guhl)',
+      'sink': 'सिंक (sink)',
+      'sir': 'सर (sur)',
+      'sister': 'सिस्टर (sis-ter)',
+      'sit': 'सिट (sit)',
+      'site': 'साइट (syt)',
+      'situation': 'सिचुएशन (sich-oo-ay-shuhn)',
+      'six': 'सिक्स (siks)',
+      'size': 'साइज़ (syz)',
+      'skill': 'स्किल (skil)',
+      'skin': 'स्किन (skin)',
+      'skirt': 'स्कर्ट (skurt)',
+      'sky': 'स्काई (sky)',
+      'slave': 'स्लेव (slayv)',
+      'sleep': 'स्लीप (sleep)',
+      'sleepy': 'स्लीपी (slee-pee)',
+      'sleeve': 'स्लीव (sleev)',
+      'slice': 'स्लाइस (slys)',
+      'slide': 'स्लाइड (slyd)',
+      'slight': 'स्लाइट (slyt)',
+      'slip': 'स्लिप (slip)',
+      'slippery': 'स्लिपरी (slip-uhr-ee)',
+      'slow': 'स्लो (sloh)',
+      'small': 'स्मॉल (smawl)',
+      'smart': 'स्मार्ट (smahrt)',
+      'smell': 'स्मेल (smel)',
+      'smile': 'स्माइल (smyl)',
+      'smoke': 'स्मोक (smohk)',
+      'smooth': 'स्मूद (smood)',
+      'snake': 'स्नेक (snayk)',
+      'snow': 'स्नो (snoh)',
+      'so': 'सो (soh)',
+      'soap': 'सोप (sohp)',
+      'social': 'सोशल (soh-shuhl)',
+      'society': 'सोसाइटी (suh-sy-i-tee)',
+      'sock': 'सॉक (sok)',
+      'soft': 'सॉफ्ट (sawft)',
+      'soil': 'सॉइल (soyl)',
+      'soldier': 'सोल्जर (sohl-jer)',
+      'role': 'रोल (rohl)',
+      'yell': 'येल (yel)',
+      'yellow': 'येलो (yel-oh)',
+      'yes': 'यस (yes)',
+      'yesterday': 'यस्टरडे (yes-ter-dee)',
+      'yet': 'येट (yet)',
+      'yoga': 'योगा (yoh-guh)',
+      'you': 'यू (yoo)',
+      'young': 'यंग (yung)',
+      'your': 'योर (yawr)',
+      'yours': 'योर्स (yawrz)',
+      'yourself': 'योरसेल्फ (yawr-self)',
+      'youth': 'यूथ (yooth)',
+      'zero': 'ज़ीरो (zee-roh)'
+    };
+
+    const key = word.toLowerCase().trim();
+    if (dictionaryFallback[key]) {
+      return dictionaryFallback[key];
+    }
+    
+    // Rule-based transcriber as ultimate robust fallback if pron only contains English syllables!
+    if (pron && /^[a-zA-Z\s\-\[\]\/\\?\(\),;.]+$/.test(pron)) {
+      let clean = pron.replace(/[\[\]\(\)\/]/g, '').trim().toLowerCase();
+      
+      // Syllable/sounds translation map
+      const soundMap = [
+        { en: 'uh-mayzd', hi: 'अमेज़्ड (uh-mayzd)' },
+        { en: 'uh-myoozd', hi: 'अम्यूज़्ड (uh-myoozd)' },
+        { en: 'angk-shuhs', hi: 'ऐंग्शस (angk-shuhs)' },
+        { en: 'di-prest', hi: 'डिप्रेस्ड (di-prest)' },
+        { en: 'dis-uh-poyn-tid', hi: 'डिसअपॉइंटेड (dis-uh-poyn-tid)' },
+        { en: 'uh-noyd', hi: 'अनॉइड (uh-noyd)' },
+        { en: 'kyoor-ee-uhs', hi: 'क्यूरियस (kyoor-ee-uhs)' },
+        { en: 'di-zayn', hi: 'डिज़ाइन (di-zayn)' },
+        { en: 'shuhn', hi: 'शन' },
+        { en: 'chuhn', hi: 'चन' },
+        { en: 'tuhl', hi: 'टल' },
+        { en: 'buhl', hi: 'बल' },
+        { en: 'muhnt', hi: 'मंट' },
+        { en: 'suhn', hi: 'सन' },
+        { en: 'uhp', hi: 'अप' },
+        { en: 'ing', hi: 'इंग' },
+        { en: 'est', hi: 'ए्स्ट' },
+        { en: 'ist', hi: 'इस्ट' },
+        { en: 'ous', hi: 'अस' },
+        { en: 'uhs', hi: 'अस' },
+        { en: 'lee', hi: 'ली' },
+        { en: 'ree', hi: 'री' },
+        { en: 'tee', hi: 'टी' },
+        { en: 'dee', hi: 'डी' },
+        { en: 'nee', hi: 'नी' },
+        { en: 'zee', hi: 'ज़ी' },
+        { en: 'see', hi: 'सी' },
+        { en: 'kee', hi: 'की' },
+        { en: 'fee', hi: 'फी' },
+        { en: 'mee', hi: 'मी' },
+        { en: 'pee', hi: 'पी' },
+        { en: 'aarm', hi: 'आर्म' },
+        { en: 'ah', hi: 'आ' },
+        { en: 'ee', hi: 'ई' },
+        { en: 'oo', hi: 'ऊ' },
+        { en: 'oy', hi: 'ऑय' },
+        { en: 'ow', hi: 'आउ' },
+        { en: 'ay', hi: 'ए' },
+        { en: 'ey', hi: 'आइ' },
+        { en: 'aw', hi: 'ऑ' },
+        { en: 'uh', hi: 'अ' },
+        { en: 'er', hi: 'अर' },
+        { en: 'ur', hi: 'अर' },
+        { en: 'ar', hi: 'अर' },
+        { en: 'bay', hi: 'बे' },
+        { en: 'bee', hi: 'बी' },
+        { en: 'but', hi: 'बट' },
+        { en: 'buh', hi: 'ब' },
+        { en: 'day', hi: 'डे' },
+        { en: 'dee', hi: 'डी' },
+        { en: 'dik', hi: 'डिक' },
+        { en: 'dis', hi: 'डिस' },
+        { en: 'div', hi: 'डिव' },
+        { en: 'doh', hi: 'डो' },
+        { en: 'duh', hi: 'ड' },
+        { en: 'fay', hi: 'फे' },
+        { en: 'fee', hi: 'फी' },
+        { en: 'fin', hi: 'फिन' },
+        { en: 'foh', hi: 'फो' },
+        { en: 'fuh', hi: 'फ' },
+        { en: 'gay', hi: 'गे' },
+        { en: 'gee', hi: 'गी' },
+        { en: 'goh', hi: 'गो' },
+        { en: 'guh', hi: 'ग' },
+        { en: 'hay', hi: 'हे' },
+        { en: 'hee', hi: 'ही' },
+        { en: 'hoh', hi: 'हो' },
+        { en: 'huh', hi: 'ह' },
+        { en: 'jay', hi: 'जे' },
+        { en: 'jee', hi: 'जी' },
+        { en: 'joh', hi: 'जो' },
+        { en: 'juh', hi: 'ज' },
+        { en: 'kay', hi: 'के' },
+        { en: 'kee', hi: 'की' },
+        { en: 'koh', hi: 'को' },
+        { en: 'kuh', hi: 'क' },
+        { en: 'lay', hi: 'ले' },
+        { en: 'lee', hi: 'ली' },
+        { en: 'loh', hi: 'लो' },
+        { en: 'luh', hi: 'ल' },
+        { en: 'may', hi: 'मे' },
+        { en: 'mee', hi: 'मी' },
+        { en: 'moh', hi: 'मो' },
+        { en: 'muh', hi: 'म' },
+        { en: 'nay', hi: 'ने' },
+        { en: 'nee', hi: 'नी' },
+        { en: 'noh', hi: 'नो' },
+        { en: 'nuh', hi: 'न' },
+        { en: 'pay', hi: 'पे' },
+        { en: 'pee', hi: 'पी' },
+        { en: 'poh', hi: 'पो' },
+        { en: 'guh', hi: 'ग' },
+        { en: 'ruh', hi: 'र' },
+        { en: 'say', hi: 'से' },
+        { en: 'see', hi: 'सी' },
+        { en: 'soh', hi: 'सो' },
+        { en: 'suh', hi: 'स' },
+        { en: 'tay', hi: 'टे' },
+        { en: 'tee', hi: 'टी' },
+        { en: 'toh', hi: 'टो' },
+        { en: 'tuh', hi: 'ट' },
+        { en: 'way', hi: 'वे' },
+        { en: 'wee', hi: 'वी' },
+        { en: 'woh', hi: 'वो' },
+        { en: 'wuh', hi: 'व' },
+        { en: 'yay', hi: 'ये' },
+        { en: 'yee', hi: 'यी' },
+        { en: 'yoh', hi: 'यो' },
+        { en: 'yuh', hi: 'य' },
+        { en: 'zee', hi: 'ज़ी' }
+      ];
+      
+      soundMap.sort((a, b) => b.en.length - a.en.length);
+      
+      let result = clean;
+      soundMap.forEach(pair => {
+        const regex = new RegExp(pair.en, 'g');
+        result = result.replace(regex, pair.hi);
+      });
+      
+      if (result !== clean) {
+        return `${result} (${pron})`;
+      }
+    }
+
+    return pron;
+  }
+
   function parseWord(w) {
     const word = fixMojibake(w.word || w.w || '');
-    const pron = fixMojibake(w.pronunciation || w.p || '');
+    let rawPron = fixMojibake(w.pronunciation || w.p || '');
     const example = fixMojibake(w.example || w.example_en || w.e || w.ex || '');
 
     let hindiMeaning = fixMojibake(w.meaning_hi || w.m || w.hindi || '');
@@ -772,6 +1398,9 @@
         englishDef = rawMeaning;
       }
     }
+
+    // Convert pronunciation to Devanagari using smart phonetic mapping!
+    const pron = toDevanagariPron(word, rawPron);
 
     return {
       word,
@@ -924,6 +1553,102 @@
     renderFlashcardUI(categories, slug);
   }
 
+  function updateCardContent(categories, activeSlug) {
+    const total = state.fcDeck.length;
+    const current = state.fcDeck[state.fcIndex];
+    if (!current) return;
+
+    const parsed = parseWord(current);
+    const word = parsed.word;
+    const meaning = parsed.meaning || parsed.definition;
+    const example = parsed.example;
+    const pron = parsed.pron;
+
+    // Update progress bar
+    const progressFill = $('.progress-bar-fill');
+    if (progressFill) {
+      progressFill.style.width = `${((state.fcIndex) / total) * 100}%`;
+    }
+    const progressText = $('.progress-text');
+    if (progressText) {
+      progressText.textContent = `${state.fcIndex + 1}/${total}`;
+    }
+
+    // Update front face
+    const frontWord = $('.flashcard-front .flashcard-word');
+    if (frontWord) frontWord.textContent = word;
+    
+    const frontFace = $('.flashcard-front');
+    if (frontFace) {
+      let pronEl = $('.flashcard-front .flashcard-hint-pron');
+      if (pron) {
+        if (!pronEl) {
+          pronEl = document.createElement('div');
+          pronEl.className = 'flashcard-hint flashcard-hint-pron';
+          const tapHint = $('.flashcard-front .flashcard-tap-hint');
+          if (tapHint) {
+            frontFace.insertBefore(pronEl, tapHint);
+          } else {
+            frontFace.appendChild(pronEl);
+          }
+        }
+        pronEl.textContent = pron;
+        pronEl.style.display = 'block';
+      } else if (pronEl) {
+        pronEl.style.display = 'none';
+      }
+    }
+
+    // Update back face
+    const backMeaning = $('.flashcard-back .flashcard-meaning');
+    if (backMeaning) backMeaning.textContent = meaning;
+    
+    const backWord = $('.flashcard-back .flashcard-word');
+    if (backWord) backWord.textContent = word;
+    
+    const backExample = $('.flashcard-back .flashcard-example');
+    if (backExample) {
+      if (example) {
+        backExample.textContent = `"${example}"`;
+        backExample.style.display = 'block';
+      } else {
+        backExample.style.display = 'none';
+      }
+    }
+  }
+
+  function renderFlashcardResult(categories, activeSlug) {
+    appContent.innerHTML = `
+      <div class="animate-fade-in flashcard-container" style="padding-top: var(--sp-12);">
+        <div class="card text-center" style="padding: var(--sp-10);">
+          <p style="font-size: 3rem; margin-bottom: var(--sp-4);">🎉</p>
+          <h2>Well Done!</h2>
+          <p class="text-secondary" style="margin-top: var(--sp-3); font-size: 1.1rem;">
+            You remembered <strong>${state.fcKnown}</strong> out of <strong>${state.fcDeck.length}</strong> words!
+          </p>
+          <div style="margin-top: var(--sp-6); display: flex; gap: var(--sp-3); justify-content: center; flex-wrap: wrap;">
+            <button class="fc-btn fc-btn-know" id="fc-retry-btn">🔄 Retry</button>
+            <button class="fc-btn fc-btn-skip" id="fc-other-btn">📂 Other Category</button>
+          </div>
+        </div>
+      </div>
+    `;
+    
+    const retryBtn = $('#fc-retry-btn');
+    if (retryBtn) {
+      retryBtn.addEventListener('click', () => {
+        navigate('/flashcards/' + activeSlug);
+      });
+    }
+
+    const otherBtn = $('#fc-other-btn');
+    if (otherBtn) {
+      otherBtn.addEventListener('click', () => {
+        navigate('/flashcards');
+      });
+    }
+  }
+
   function renderFlashcardUI(categories, activeSlug) {
     const total = state.fcDeck.length;
     const current = state.fcDeck[state.fcIndex];
@@ -934,6 +1659,15 @@
     const meaning = parsed.meaning || parsed.definition;
     const example = parsed.example;
     const pron = parsed.pron;
+
+    // Check if the shell is already rendered
+    const existingFlashcard = $('#flashcard');
+    const activeChip = $('#fc-category-chips .category-chip.active');
+    
+    if (existingFlashcard && activeChip && activeChip.dataset.slug === activeSlug) {
+      updateCardContent(categories, activeSlug);
+      return;
+    }
 
     appContent.innerHTML = `
       <div class="animate-fade-in">
@@ -963,8 +1697,8 @@
             <div class="flashcard-inner">
               <div class="flashcard-face flashcard-front">
                 <div class="flashcard-word">${escHtml(word)}</div>
-                ${pron ? `<div class="flashcard-hint">${escHtml(pron)}</div>` : ''}
-                <div class="flashcard-hint" style="margin-top: var(--sp-4); opacity: 0.6;">👆 Tap to reveal</div>
+                ${pron ? `<div class="flashcard-hint flashcard-hint-pron">${escHtml(pron)}</div>` : ''}
+                <div class="flashcard-hint flashcard-tap-hint" style="margin-top: var(--sp-4); opacity: 0.6;">👆 Tap to reveal</div>
               </div>
               <div class="flashcard-face flashcard-back">
                 <div class="flashcard-meaning">${escHtml(meaning)}</div>
@@ -976,8 +1710,8 @@
 
           <div class="flashcard-controls">
             <button class="fc-btn fc-btn-skip" id="fc-skip">⏭️ Skip</button>
-            <button class="fc-btn fc-btn-know" id="fc-speak" style="background: var(--accent-soft); color: var(--accent);">🔊 सुनें</button>
-            <button class="fc-btn fc-btn-know" id="fc-know">✅ याद है!</button>
+            <button class="fc-btn fc-btn-know" id="fc-speak" style="background: var(--accent-soft); color: var(--accent);">🔊 Listen</button>
+            <button class="fc-btn fc-btn-know" id="fc-know">✅ Remembered</button>
           </div>
         </div>
       </div>
@@ -988,7 +1722,13 @@
 
     $('#fc-skip').addEventListener('click', () => nextFlashcard(categories, activeSlug, false));
     $('#fc-know').addEventListener('click', () => nextFlashcard(categories, activeSlug, true));
-    $('#fc-speak').addEventListener('click', () => speakWord(word));
+    $('#fc-speak').addEventListener('click', () => {
+      const curr = state.fcDeck[state.fcIndex];
+      if (curr) {
+        const p = parseWord(curr);
+        speakWord(p.word);
+      }
+    });
 
     if (categories) {
       $$('#fc-category-chips .category-chip').forEach(chip => {
@@ -1001,48 +1741,47 @@
 
   function nextFlashcard(categories, activeSlug, known) {
     if (known) state.fcKnown++;
-    state.fcIndex++;
-
-    if (state.fcIndex >= state.fcDeck.length) {
-      appContent.innerHTML = `
-        <div class="animate-fade-in flashcard-container" style="padding-top: var(--sp-12);">
-          <div class="card text-center" style="padding: var(--sp-10);">
-            <p style="font-size: 3rem; margin-bottom: var(--sp-4);">🎉</p>
-            <h2>बहुत बढ़िया!</h2>
-            <p class="text-secondary" style="margin-top: var(--sp-3); font-size: 1.1rem;">
-              आपने <strong>${state.fcDeck.length}</strong> में से <strong style="color: var(--success);">${state.fcKnown}</strong> शब्द याद किए!
-            </p>
-            <div style="margin-top: var(--sp-6); display: flex; gap: var(--sp-3); justify-content: center; flex-wrap: wrap;">
-              <button class="fc-btn fc-btn-know" id="fc-retry-btn">🔄 फिर से</button>
-              <button class="fc-btn fc-btn-skip" id="fc-other-btn">📂 दूसरी श्रेणी</button>
-            </div>
-          </div>
-        </div>
-      `;
-      
-      const retryBtn = $('#fc-retry-btn');
-      if (retryBtn) {
-        retryBtn.addEventListener('click', () => {
-          navigate('/flashcards/' + activeSlug);
-        });
-      }
-
-      const otherBtn = $('#fc-other-btn');
-      if (otherBtn) {
-        otherBtn.addEventListener('click', () => {
-          navigate('/flashcards');
-        });
+    
+    const cardEl = $('#flashcard');
+    if (!cardEl) {
+      state.fcIndex++;
+      if (state.fcIndex >= state.fcDeck.length) {
+        renderFlashcardResult(categories, activeSlug);
+      } else {
+        renderFlashcardUI(categories, activeSlug);
       }
       return;
     }
-
-    renderFlashcardUI(categories, activeSlug);
+    
+    const swipeClass = known ? 'swipe-right' : 'swipe-left';
+    cardEl.classList.add(swipeClass);
+    
+    setTimeout(() => {
+      state.fcIndex++;
+      
+      if (state.fcIndex >= state.fcDeck.length) {
+        renderFlashcardResult(categories, activeSlug);
+        return;
+      }
+      
+      updateCardContent(categories, activeSlug);
+      
+      cardEl.classList.remove('flipped');
+      cardEl.classList.remove(swipeClass);
+      
+      const slideInClass = known ? 'swipe-in-left' : 'swipe-in-right';
+      cardEl.classList.add(slideInClass);
+      
+      cardEl.offsetHeight;
+      
+      cardEl.classList.remove(slideInClass);
+    }, 350);
   }
 
   // ── 7e. PROFILE ──
   function renderProfile() {
     const streak = StreakTracker.get();
-    const userName = localStorage.getItem(STORAGE_KEYS.userName) || 'विद्यार्थी';
+    const userName = localStorage.getItem(STORAGE_KEYS.userName) || 'Student';
     const theme = localStorage.getItem(STORAGE_KEYS.theme) || 'dark';
 
     appContent.innerHTML = `
@@ -1050,41 +1789,41 @@
         <div class="profile-header">
           <div class="profile-avatar">${userName.charAt(0).toUpperCase()}</div>
           <div class="profile-name">${escHtml(userName)}</div>
-          <div class="profile-email">🔥 ${streak} दिन की Streak</div>
+          <div class="profile-email">🔥 ${streak}-Day Streak</div>
         </div>
 
         <div class="settings-group">
-          <div class="settings-group-title">सामान्य</div>
+          <div class="settings-group-title">General Settings</div>
           <div class="settings-item" id="setting-name">
             <div class="settings-item-icon">✏️</div>
             <div class="settings-item-text">
-              <div class="settings-item-title">नाम बदलें</div>
+              <div class="settings-item-title">Change Name</div>
               <div class="settings-item-desc">${escHtml(userName)}</div>
             </div>
           </div>
           <div class="settings-item" id="setting-theme">
             <div class="settings-item-icon">${theme === 'dark' ? '🌙' : '☀️'}</div>
             <div class="settings-item-text">
-              <div class="settings-item-title">थीम</div>
-              <div class="settings-item-desc">${theme === 'dark' ? 'डार्क मोड' : 'लाइट मोड'}</div>
+              <div class="settings-item-title">Theme</div>
+              <div class="settings-item-desc">${theme === 'dark' ? 'Dark Mode' : 'Light Mode'}</div>
             </div>
           </div>
         </div>
 
         <div class="settings-group">
-          <div class="settings-group-title">आँकड़े</div>
+          <div class="settings-group-title">Statistics</div>
           <div class="settings-item">
             <div class="settings-item-icon">🔥</div>
             <div class="settings-item-text">
-              <div class="settings-item-title">लगातार दिन</div>
-              <div class="settings-item-desc">${streak} दिन</div>
+              <div class="settings-item-title">Streak Days</div>
+              <div class="settings-item-desc">${streak} Days</div>
             </div>
           </div>
           <div class="settings-item">
             <div class="settings-item-icon">📚</div>
             <div class="settings-item-text">
-              <div class="settings-item-title">उपलब्ध शब्द</div>
-              <div class="settings-item-desc">19,773 शब्द / 148 श्रेणियाँ</div>
+              <div class="settings-item-title">Words Available</div>
+              <div class="settings-item-desc">19,773 Words / 148 Categories</div>
             </div>
           </div>
         </div>
@@ -1094,8 +1833,8 @@
           <div class="settings-item" id="setting-share">
             <div class="settings-item-icon">📤</div>
             <div class="settings-item-text">
-              <div class="settings-item-title">दोस्तों को बताएँ</div>
-              <div class="settings-item-desc">WhatsApp पर शेयर करें</div>
+              <div class="settings-item-title">Share with Friends</div>
+              <div class="settings-item-desc">Share on WhatsApp</div>
             </div>
           </div>
         </div>
@@ -1103,10 +1842,10 @@
     `;
 
     $('#setting-name').addEventListener('click', () => {
-      const newName = prompt('अपना नाम लिखें:', userName);
+      const newName = prompt('Enter your name:', userName);
       if (newName && newName.trim()) {
         localStorage.setItem(STORAGE_KEYS.userName, newName.trim());
-        showToast('✅ नाम बदल दिया गया!');
+        showToast('✅ Name updated successfully!');
         renderProfile();
       }
     });
@@ -1114,7 +1853,7 @@
     $('#setting-theme').addEventListener('click', (e) => ThemeManager.toggle(e));
 
     $('#setting-share').addEventListener('click', () => {
-      const shareText = `English Vidya — अंग्रेजी सीखने का सबसे आसान तरीका! 📚🔥\n\n19,773 शब्द, 60 ग्रामर पाठ, फ्लैशकार्ड्स और बहुत कुछ!\n\n👉 ${location.origin}`;
+      const shareText = `English Vidya — Learn English easily! 📚🔥\n\n19,773 words, 60 grammar lessons, flashcards, and more!\n\n👉 ${location.origin}`;
       if (navigator.share) {
         navigator.share({ title: 'English Vidya', text: shareText, url: location.origin });
       } else {
@@ -1129,7 +1868,7 @@
   // ═══════════════════════════════════════════════════
   function speakWord(word) {
     if (!word || !('speechSynthesis' in window)) {
-      showToast('⚠️ इस ब्राउज़र में उच्चारण उपलब्ध नहीं है');
+      showToast('⚠️ Speech synthesis is not supported in this browser');
       return;
     }
     speechSynthesis.cancel();

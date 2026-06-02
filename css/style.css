@@ -2830,4 +2830,43 @@ p {
   }
 }
 
+/* Flashcard Swipe Transitions */
+.flashcard {
+  transition: transform 0.35s cubic-bezier(0.25, 0.8, 0.25, 1), opacity 0.3s ease;
+}
+.flashcard.swipe-left {
+  transform: translateX(-150%) rotate(-15deg);
+  opacity: 0;
+}
+.flashcard.swipe-right {
+  transform: translateX(150%) rotate(15deg);
+  opacity: 0;
+}
+.flashcard.swipe-in-left {
+  transform: translateX(-150%) rotate(-10deg);
+  opacity: 0;
+  transition: none !important;
+}
+.flashcard.swipe-in-right {
+  transform: translateX(150%) rotate(10deg);
+  opacity: 0;
+  transition: none !important;
+}
+
+/* Footer Social Icons Grid Layout */
+.footer-social-icons {
+  display: flex;
+  gap: var(--sp-2);
+  flex-wrap: wrap;
+  margin-top: var(--sp-3);
+}
+.footer-social-icons .social-icon-btn {
+  width: 40px;
+  height: 40px;
+}
+.footer-social-icons .social-icon-wrapper {
+  width: 28px;
+  height: 28px;
+}
+
 
