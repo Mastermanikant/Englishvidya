@@ -188,9 +188,26 @@ button {
 .logo {
   display: flex;
   align-items: center;
-  gap: var(--sp-2);
+  gap: var(--sp-3);
   text-decoration: none;
   color: var(--text-primary);
+  transition: opacity var(--duration-fast) ease;
+}
+
+.logo:hover {
+  opacity: 0.95;
+}
+
+.logo-svg {
+  display: block;
+  object-fit: contain;
+  transition: transform var(--duration-normal) var(--ease-out), filter var(--duration-normal) var(--ease-out);
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.08));
+}
+
+.logo:hover .logo-svg {
+  transform: rotate(-3deg) scale(1.08);
+  filter: drop-shadow(0 4px 10px rgba(245, 166, 35, 0.25));
 }
 
 .logo-mark {
@@ -206,8 +223,24 @@ button {
 .logo-text {
   font-family: var(--font-heading);
   font-weight: 700;
-  font-size: 1.2rem;
-  letter-spacing: -0.5px;
+  font-size: 1.25rem;
+  letter-spacing: -0.4px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.logo-text span {
+  display: inline-block;
+  transition: transform 0.3s var(--ease-out);
+}
+
+.logo:hover .logo-text span:first-child {
+  transform: translateY(-1px);
+}
+
+.logo:hover .logo-text .logo-accent {
+  transform: translateY(1px);
 }
 
 .logo-accent {
