@@ -200,7 +200,8 @@ button {
 
 .logo-svg {
   display: block;
-  object-fit: contain;
+  object-fit: cover;
+  border-radius: var(--radius-md);
   transition: transform var(--duration-normal) var(--ease-out), filter var(--duration-normal) var(--ease-out);
   filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.08));
 }
