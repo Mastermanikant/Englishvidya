@@ -10,7 +10,9 @@
     
     <title>English Vidya — Learn English, Build Confidence</title>
 
-    <!-- PWA Manifest -->
+    <!-- Favicon: English Vidya SVG brand icon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='18' fill='%230d1b3e'/%3E%3C!-- Book pages ---%3E%3Cpath d='M18 65 L50 58 L82 65 L82 28 L50 35 L18 28 Z' fill='%23ffffff' opacity='0.95'/%3E%3Cpath d='M50 35 L50 58' stroke='%23f5a623' stroke-width='2'/%3E%3C!-- EV letters ---%3E%3Ctext x='50' y='52' font-family='Arial Black,sans-serif' font-size='18' font-weight='900' fill='%23f5a623' text-anchor='middle'%3EEV%3C/text%3E%3C!-- leaf ---%3E%3Cellipse cx='50' cy='22' rx='5' ry='8' fill='%23f5a623' transform='rotate(-20,50,22)'/%3E%3Cellipse cx='55' cy='20' rx='4' ry='7' fill='%23f5a623' opacity='0.7' transform='rotate(15,55,20)'/%3E%3C/svg%3E">
+    <link rel="apple-touch-icon" href="./icons/icon-192.png">
     <link rel="manifest" href="./manifest.json">
     
     <!-- Premium Fonts: Inter for body, Outfit for headings -->
@@ -63,7 +65,15 @@
         <div class="mobile-drawer" id="mobile-drawer">
             <div class="mobile-drawer-header">
                 <div class="logo">
-                    <span class="logo-mark">🎓</span>
+                    <!-- EV Brand Logo SVG -->
+                    <svg class="logo-svg" width="32" height="32" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                      <rect width="100" height="100" rx="18" fill="#0d1b3e"/>
+                      <path d="M18 65 L50 58 L82 65 L82 28 L50 35 L18 28 Z" fill="#ffffff" opacity="0.95"/>
+                      <path d="M50 35 L50 58" stroke="#f5a623" stroke-width="2"/>
+                      <text x="50" y="52" font-family="Arial Black,sans-serif" font-size="18" font-weight="900" fill="#f5a623" text-anchor="middle">EV</text>
+                      <ellipse cx="50" cy="22" rx="5" ry="8" fill="#f5a623" transform="rotate(-20,50,22)"/>
+                      <ellipse cx="55" cy="20" rx="4" ry="7" fill="#f5a623" opacity="0.7" transform="rotate(15,55,20)"/>
+                    </svg>
                     <span class="logo-text">English <span class="logo-accent">Vidya</span></span>
                 </div>
                 <button class="mobile-drawer-close" id="mobile-drawer-close" aria-label="Close menu">
@@ -98,7 +108,15 @@
                 </svg>
             </button>
             <a href="/" class="logo" id="logo-link" aria-label="English Vidya Home">
-                <span class="logo-mark">🎓</span>
+                <!-- EV Brand Logo SVG -->
+                <svg class="logo-svg" width="32" height="32" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                  <rect width="100" height="100" rx="18" fill="#0d1b3e"/>
+                  <path d="M18 65 L50 58 L82 65 L82 28 L50 35 L18 28 Z" fill="#ffffff" opacity="0.95"/>
+                  <path d="M50 35 L50 58" stroke="#f5a623" stroke-width="2"/>
+                  <text x="50" y="52" font-family="Arial Black,sans-serif" font-size="18" font-weight="900" fill="#f5a623" text-anchor="middle">EV</text>
+                  <ellipse cx="50" cy="22" rx="5" ry="8" fill="#f5a623" transform="rotate(-20,50,22)"/>
+                  <ellipse cx="55" cy="20" rx="4" ry="7" fill="#f5a623" opacity="0.7" transform="rotate(15,55,20)"/>
+                </svg>
                 <span class="logo-text">English <span class="logo-accent">Vidya</span></span>
             </a>
         </div>
@@ -166,7 +184,7 @@
 
                     <div class="live-badge-wrap">
                         <span class="live-dot"></span>
-                        <span>सुरक्षित शिक्षण मंच • 2026</span>
+                        <span>Secure Learning Platform &bull; 2026</span>
                     </div>
                 </div>
 
@@ -183,8 +201,8 @@
 
                 <!-- 2 Interactive Morphing Cards (Accordion Panels) -->
                 <div class="promo-section" style="margin-top: var(--sp-6);">
-                    <h2 class="section-title text-center" style="margin-bottom: var(--sp-2);">✨ मुख्य आधार (Core Pillars)</h2>
-                    <p class="section-subtitle text-center" style="margin-bottom: var(--sp-6);">नीचे दिए गए कार्डों पर क्लिक करके विस्तार में देखें (Click to Expand)</p>
+                    <h2 class="section-title text-center" style="margin-bottom: var(--sp-2);">✨ Core Pillars</h2>
+                    <p class="section-subtitle text-center" style="margin-bottom: var(--sp-6);">Click on a card below to expand and learn more</p>
                     
                     <div class="morph-cards-container" id="morph-cards-container">
                         
@@ -193,7 +211,7 @@
                             <div class="morph-card-header" style="display: flex; justify-content: space-between; align-items: center; cursor: pointer;">
                                 <div style="display: flex; align-items: center; gap: var(--sp-3);">
                                     <span style="font-size: 1.5rem;">🎯</span>
-                                    <h3 style="margin: 0; font-size: 1.1rem; color: var(--text-primary);">01. हमारा लक्ष्य</h3>
+                                    <h3 style="margin: 0; font-size: 1.1rem; color: var(--text-primary);">01. Our Goal</h3>
                                 </div>
                                 <span class="morph-card-indicator" style="font-weight: 600; color: var(--accent);">↓</span>
                             </div>
@@ -225,7 +243,7 @@
                             <div class="morph-card-header" style="display: flex; justify-content: space-between; align-items: center; cursor: pointer;">
                                 <div style="display: flex; align-items: center; gap: var(--sp-3);">
                                     <span style="font-size: 1.5rem;">📚</span>
-                                    <h3 style="margin: 0; font-size: 1.1rem; color: var(--text-primary);">02. मुख्य विशेषताएँ</h3>
+                                    <h3 style="margin: 0; font-size: 1.1rem; color: var(--text-primary);">02. Key Features</h3>
                                 </div>
                                 <span class="morph-card-indicator" style="font-weight: 600; color: var(--accent);">↓</span>
                             </div>
@@ -252,6 +270,103 @@
                             </div>
                         </div>
 
+                        <!-- Card 3: Connect with Us -->
+                        <div class="morph-card" id="card-social-connect">
+                            <div class="morph-card-header" style="display: flex; justify-content: space-between; align-items: center; cursor: pointer;">
+                                <div style="display: flex; align-items: center; gap: var(--sp-3);">
+                                    <span style="font-size: 1.5rem;">📲</span>
+                                    <h3 style="margin: 0; font-size: 1.1rem; color: var(--text-primary);">03. Connect with Us</h3>
+                                </div>
+                                <span class="morph-card-indicator" style="font-weight: 600; color: var(--accent);">↓</span>
+                            </div>
+                            <div class="morph-card-content" style="max-height: 0; overflow: hidden;">
+                                <div style="padding: var(--sp-5); display: flex; flex-direction: column; gap: var(--sp-4);">
+                                    <p style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6; border-left: 3px solid var(--accent); padding-left: 10px; margin-bottom: 0;">
+                                        Connect with us to learn new English words, spoken sentences, and grammar tricks daily in simple terms!
+                                    </p>
+                                    
+                                    <!-- WhatsApp Highlight Banner -->
+                                    <div class="whatsapp-promo-banner" style="background: linear-gradient(135deg, #25d366, #128c7e); border-radius: var(--radius-lg); padding: var(--sp-6); color: #ffffff; box-shadow: 0 4px 15px rgba(37, 211, 102, 0.2); position: relative; overflow: hidden; display: flex; flex-direction: column; gap: var(--sp-3); align-items: center; text-align: center;">
+                                        <div class="social-icon-wrapper" style="background: #ffffff; width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+                                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#128c7e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+                                        </div>
+                                        <div>
+                                            <h3 style="font-family: var(--font-heading); font-size: 1.25rem; font-weight: 800; margin-bottom: 6px; color:#ffffff;">Join Our WhatsApp Channel</h3>
+                                            <p style="font-size: 0.85rem; opacity: 0.95; line-height: 1.5; max-width: 480px; margin:0 auto; color: #ffffff;">
+                                                Get grammar PDFs, daily spoken English sentences, and spelling worksheets directly on your WhatsApp for free!
+                                            </p>
+                                        </div>
+                                        <a href="https://whatsapp.com/channel/0029VbCnmPe0VycPXCmBBH43" 
+                                           target="_blank" 
+                                           rel="noopener noreferrer"
+                                           class="promo-btn primary" 
+                                           style="background: #ffffff; color: #128c7e; font-weight:800; border: none; font-size: 0.9rem; padding: 10px 20px; box-shadow: 0 4px 10px rgba(0,0,0,0.15); width: 100%; max-width: 260px; text-decoration:none; border-radius:8px;">
+                                            🟢 Join WhatsApp Channel
+                                        </a>
+                                    </div>
+
+                                    <!-- 8-platform Premium Tooltipped Icons Row -->
+                                    <div class="social-icons-row" style="margin-top: 10px; margin-bottom: 5px;">
+                                        <!-- 1. WhatsApp -->
+                                        <a href="https://whatsapp.com/channel/0029VbCnmPe0VycPXCmBBH43" target="_blank" rel="noopener noreferrer" class="social-icon-btn whatsapp" data-tooltip="WhatsApp">
+                                            <div class="social-icon-wrapper" style="background: #25D366;">
+                                                <svg viewBox="0 0 24 24" fill="#fff" width="18" height="18"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.514 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.724-1.457L0 24zm6.59-4.846c1.6.95 3.188 1.449 4.825 1.451 5.436.002 9.858-4.42 9.86-9.86.001-2.636-1.024-5.113-2.887-6.978C16.581 1.884 14.103.859 11.472.859 6.037.859 1.615 5.28 1.613 10.717c0 1.696.442 3.352 1.28 4.809l-1.037 3.79 3.882-1.018zm11.758-6.84c-.297-.15-1.758-.867-2.03-.967-.273-.099-.471-.15-.669.15-.198.297-.768.967-.941 1.16-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.521.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/></svg>
+                                            </div>
+                                        </a>
+
+                                        <!-- 2. YouTube -->
+                                        <a href="/youtube" target="_blank" rel="noopener noreferrer" class="social-icon-btn youtube" data-tooltip="YouTube">
+                                            <div class="social-icon-wrapper" style="background: #FF0000;">
+                                                <svg viewBox="0 0 24 24" fill="#fff" width="18" height="18"><path d="M23.498 6.163a3.003 3.003 0 00-2.11-2.11C19.518 3.5 12 3.5 12 3.5s-7.518 0-9.388.553a3.003 3.003 0 00-2.11 2.11C0 8.033 0 12 0 12s0 3.967.502 5.837a3.003 3.003 0 002.11 2.11c1.87.553 9.388.553 9.388.553s7.518 0 9.388-.553a3.003 3.003 0 002.11-2.11C24 15.967 24 12 24 12s0-3.967-.502-5.837zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                                            </div>
+                                        </a>
+
+                                        <!-- 3. Instagram -->
+                                        <a href="https://instagram.com/englishvidyahq" target="_blank" rel="noopener noreferrer" class="social-icon-btn instagram" data-tooltip="Instagram">
+                                            <div class="social-icon-wrapper" style="background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);">
+                                                <svg viewBox="0 0 24 24" fill="#fff" width="18" height="18"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+                                            </div>
+                                        </a>
+
+                                        <!-- 4. Telegram -->
+                                        <a href="https://t.me/englishvidyahq" target="_blank" rel="noopener noreferrer" class="social-icon-btn telegram" data-tooltip="Telegram">
+                                            <div class="social-icon-wrapper" style="background: #0088cc;">
+                                                <svg viewBox="0 0 24 24" fill="#fff" width="18" height="18"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-1-.64-.35-1 .22-1.58.15-.15 2.7-2.46 2.75-2.67.01-.03.01-.15-.06-.21a.28.28 0 00-.22-.04c-.03 0-.5.31-1.42.93l-2.07 1.4c-.65.45-1.24.55-1.77.53-.59-.01-1.72-.33-2.56-.6-.94-.3-1.63-.46-1.57-.97.03-.27.4-.55 1.12-.84 4.37-1.9 7.28-3.16 8.73-3.78 4.14-1.77 5-2.08 5.56-2.09.12 0 .4.03.58.18.15.13.2.3.22.43.02.1.04.4.02.66z"/></svg>
+                                            </div>
+                                        </a>
+
+                                        <!-- 5. Facebook -->
+                                        <a href="https://facebook.com/englishvidyahq" target="_blank" rel="noopener noreferrer" class="social-icon-btn facebook" data-tooltip="Facebook">
+                                            <div class="social-icon-wrapper" style="background: #1877F2;">
+                                                <svg viewBox="0 0 24 24" fill="#fff" width="18" height="18"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                                            </div>
+                                        </a>
+
+                                        <!-- 6. Pinterest -->
+                                        <a href="https://pinterest.com/englishvidyahq" target="_blank" rel="noopener noreferrer" class="social-icon-btn pinterest" data-tooltip="Pinterest">
+                                            <div class="social-icon-wrapper" style="background: #BD081C;">
+                                                <svg viewBox="0 0 24 24" fill="#fff" width="18" height="18"><path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.162-.105-.946-.199-2.385.041-3.412.219-.937 1.408-5.966 1.408-5.966s-.359-.722-.359-1.782c0-1.668.967-2.914 2.171-2.914 1.023 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.064-4.882-5.012-4.882-3.414 0-5.418 2.561-5.418 5.207 0 1.031.397 2.138.893 2.738.098.119.112.224.083.345l-.333 1.36c-.053.22-.174.267-.402.161-1.499-.698-2.436-2.889-2.436-4.649 0-3.785 2.75-7.262 7.929-7.262 4.163 0 7.398 2.967 7.398 6.931 0 4.136-2.607 7.464-6.227 7.464-1.216 0-2.359-.631-2.75-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146 1.124.347 2.317.535 3.554.535 6.621 0 11.985-5.367 11.985-11.987C24.007 5.368 18.64 0 12.017 0z"/></svg>
+                                            </div>
+                                        </a>
+
+                                        <!-- 7. LinkedIn -->
+                                        <a href="https://linkedin.com/company/englishvidyahq" target="_blank" rel="noopener noreferrer" class="social-icon-btn linkedin" data-tooltip="LinkedIn">
+                                            <div class="social-icon-wrapper" style="background: #0A66C2;">
+                                                <svg viewBox="0 0 24 24" fill="#fff" width="18" height="18"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                                            </div>
+                                        </a>
+
+                                        <!-- 8. X (Twitter) -->
+                                        <a href="https://x.com/englishvidyahq" target="_blank" rel="noopener noreferrer" class="social-icon-btn x-twitter" data-tooltip="X (Twitter)">
+                                            <div class="social-icon-wrapper" style="background: #000000; border: 1px solid rgba(255,255,255,0.15);">
+                                                <svg viewBox="0 0 24 24" fill="#fff" width="18" height="18"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
 
@@ -266,27 +381,27 @@
 
                 <!-- Quick Start App Grid -->
                 <div class="promo-section" style="margin-top: var(--sp-6);">
-                    <h2 class="section-title text-center" style="margin-bottom: var(--sp-6);">⚡ जल्दी शुरू करें</h2>
+                    <h2 class="section-title text-center" style="margin-bottom: var(--sp-6);">⚡ Quick Start</h2>
                     <div class="action-grid">
                         <a href="/grammar" class="action-card">
                             <div class="action-icon">📖</div>
-                            <div class="action-title">Grammar सीखें</div>
-                            <div class="action-desc">Noun, Verb, Tense — हिंदी में समझें</div>
+                            <div class="action-title">Learn Grammar</div>
+                            <div class="action-desc">Noun, Verb, Tense — explained in Hindi</div>
                         </a>
                         <a href="/dictionary" class="action-card">
                             <div class="action-icon">🔤</div>
-                            <div class="action-title">शब्दकोश खोलें</div>
-                            <div class="action-desc">19,773 शब्दों का खज़ाना</div>
+                            <div class="action-title">Explore Dictionary</div>
+                            <div class="action-desc">Treasure of 19,773 words</div>
                         </a>
                         <a href="/flashcards" class="action-card">
                             <div class="action-icon">🃏</div>
-                            <div class="action-title">फ्लैशकार्ड्स अभ्यास</div>
-                            <div class="action-desc">याद करें, उच्चारण सुनें</div>
+                            <div class="action-title">Flashcard Practice</div>
+                            <div class="action-desc">Memorise, listen to pronunciation</div>
                         </a>
                         <a href="/profile" class="action-card">
                             <div class="action-icon">👤</div>
-                            <div class="action-title">प्रोफ़ाइल</div>
-                            <div class="action-desc">सेटिंग्स और प्रगति</div>
+                            <div class="action-title">Profile</div>
+                            <div class="action-desc">Settings &amp; Progress</div>
                         </a>
                     </div>
                 </div>
@@ -298,17 +413,17 @@
                         <div class="stat-card">
                             <div class="stat-icon">📚</div>
                             <div id="stat-words" class="stat-value">19,773</div>
-                            <div class="stat-label">शब्द</div>
+                            <div class="stat-label">Words</div>
                         </div>
                         <div class="stat-card">
                             <div class="stat-icon">📖</div>
                             <div id="stat-lessons" class="stat-value">60</div>
-                            <div class="stat-label">ग्रामर पाठ</div>
+                            <div class="stat-label">Grammar Lessons</div>
                         </div>
                         <div class="stat-card">
                             <div class="stat-icon">📂</div>
                             <div id="stat-categories" class="stat-value">148</div>
-                            <div class="stat-label">श्रेणियाँ</div>
+                            <div class="stat-label">Categories</div>
                         </div>
                         <div class="stat-card">
                             <div class="stat-icon">🃏</div>
@@ -318,92 +433,7 @@
                     </div>
                 </div>
 
-                <!-- 📲 हमसे सोशल मीडिया पर जुड़ें (Stay Connected) -->
-                <div class="promo-section social-connect-section" style="margin-top: var(--sp-6);">
-                    <h2 class="section-title text-center" style="margin-bottom: var(--sp-2); font-size: 1.4rem;">📲 Connect with Us</h2>
-                    <p class="section-subtitle text-center" style="margin-bottom: var(--sp-6);">
-                        Connect with us to learn new English words, spoken sentences, and grammar tricks daily in simple terms!
-                    </p>
-                    
-                    <!-- WhatsApp Highlight Banner -->
-                    <div class="whatsapp-promo-banner" style="background: linear-gradient(135deg, #25d366, #128c7e); border-radius: var(--radius-lg); padding: var(--sp-6); color: #ffffff; margin-bottom: var(--sp-5); box-shadow: 0 4px 15px rgba(37, 211, 102, 0.2); position: relative; overflow: hidden; display: flex; flex-direction: column; gap: var(--sp-3); align-items: center; text-align: center;">
-                        <div class="social-icon-wrapper" style="background: #ffffff; width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center;">
-                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#128c7e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
-                        </div>
-                        <div>
-                            <h3 style="font-family: var(--font-heading); font-size: 1.25rem; font-weight: 800; margin-bottom: 6px; color:#ffffff;">Join Our WhatsApp Channel</h3>
-                            <p style="font-size: 0.85rem; opacity: 0.95; line-height: 1.5; max-width: 480px; margin:0 auto;">
-                                Get grammar PDFs, daily spoken English sentences, and spelling worksheets directly on your WhatsApp for free!
-                            </p>
-                        </div>
-                        <a href="https://whatsapp.com/channel/0029VbCnmPe0VycPXCmBBH43" 
-                           target="_blank" 
-                           rel="noopener noreferrer"
-                           class="promo-btn primary" 
-                           style="background: #ffffff; color: #128c7e; font-weight:800; border: none; font-size: 0.9rem; padding: 10px 20px; box-shadow: 0 4px 10px rgba(0,0,0,0.15); width: 100%; max-width: 260px; text-decoration:none; border-radius:8px;">
-                            🟢 Join WhatsApp Channel
-                        </a>
-                    </div>
 
-                    <!-- 8-platform Premium Tooltipped Icons Row -->
-                    <div class="social-icons-row">
-                        <!-- 1. WhatsApp -->
-                        <a href="https://whatsapp.com/channel/0029VbCnmPe0VycPXCmBBH43" target="_blank" rel="noopener noreferrer" class="social-icon-btn whatsapp" data-tooltip="WhatsApp">
-                            <div class="social-icon-wrapper" style="background: #25D366;">
-                                <svg viewBox="0 0 24 24" fill="#fff" width="18" height="18"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.514 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.724-1.457L0 24zm6.59-4.846c1.6.95 3.188 1.449 4.825 1.451 5.436.002 9.858-4.42 9.86-9.86.001-2.636-1.024-5.113-2.887-6.978C16.581 1.884 14.103.859 11.472.859 6.037.859 1.615 5.28 1.613 10.717c0 1.696.442 3.352 1.28 4.809l-1.037 3.79 3.882-1.018zm11.758-6.84c-.297-.15-1.758-.867-2.03-.967-.273-.099-.471-.15-.669.15-.198.297-.768.967-.941 1.16-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.521.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/></svg>
-                            </div>
-                        </a>
-
-                        <!-- 2. YouTube -->
-                        <a href="/youtube" target="_blank" rel="noopener noreferrer" class="social-icon-btn youtube" data-tooltip="YouTube">
-                            <div class="social-icon-wrapper" style="background: #FF0000;">
-                                <svg viewBox="0 0 24 24" fill="#fff" width="18" height="18"><path d="M23.498 6.163a3.003 3.003 0 00-2.11-2.11C19.518 3.5 12 3.5 12 3.5s-7.518 0-9.388.553a3.003 3.003 0 00-2.11 2.11C0 8.033 0 12 0 12s0 3.967.502 5.837a3.003 3.003 0 002.11 2.11c1.87.553 9.388.553 9.388.553s7.518 0 9.388-.553a3.003 3.003 0 002.11-2.11C24 15.967 24 12 24 12s0-3.967-.502-5.837zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
-                            </div>
-                        </a>
-
-                        <!-- 3. Instagram -->
-                        <a href="https://instagram.com/englishvidyahq" target="_blank" rel="noopener noreferrer" class="social-icon-btn instagram" data-tooltip="Instagram">
-                            <div class="social-icon-wrapper" style="background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);">
-                                <svg viewBox="0 0 24 24" fill="#fff" width="18" height="18"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
-                            </div>
-                        </a>
-
-                        <!-- 4. Telegram -->
-                        <a href="https://t.me/englishvidyahq" target="_blank" rel="noopener noreferrer" class="social-icon-btn telegram" data-tooltip="Telegram">
-                            <div class="social-icon-wrapper" style="background: #0088cc;">
-                                <svg viewBox="0 0 24 24" fill="#fff" width="18" height="18"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-1-.64-.35-1 .22-1.58.15-.15 2.7-2.46 2.75-2.67.01-.03.01-.15-.06-.21a.28.28 0 00-.22-.04c-.03 0-.5.31-1.42.93l-2.07 1.4c-.65.45-1.24.55-1.77.53-.59-.01-1.72-.33-2.56-.6-.94-.3-1.63-.46-1.57-.97.03-.27.4-.55 1.12-.84 4.37-1.9 7.28-3.16 8.73-3.78 4.14-1.77 5-2.08 5.56-2.09.12 0 .4.03.58.18.15.13.2.3.22.43.02.1.04.4.02.66z"/></svg>
-                            </div>
-                        </a>
-
-                        <!-- 5. Facebook -->
-                        <a href="https://facebook.com/englishvidyahq" target="_blank" rel="noopener noreferrer" class="social-icon-btn facebook" data-tooltip="Facebook">
-                            <div class="social-icon-wrapper" style="background: #1877F2;">
-                                <svg viewBox="0 0 24 24" fill="#fff" width="18" height="18"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
-                            </div>
-                        </a>
-
-                        <!-- 6. Pinterest -->
-                        <a href="https://pinterest.com/englishvidyahq" target="_blank" rel="noopener noreferrer" class="social-icon-btn pinterest" data-tooltip="Pinterest">
-                            <div class="social-icon-wrapper" style="background: #BD081C;">
-                                <svg viewBox="0 0 24 24" fill="#fff" width="18" height="18"><path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.162-.105-.946-.199-2.385.041-3.412.219-.937 1.408-5.966 1.408-5.966s-.359-.722-.359-1.782c0-1.668.967-2.914 2.171-2.914 1.023 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.064-4.882-5.012-4.882-3.414 0-5.418 2.561-5.418 5.207 0 1.031.397 2.138.893 2.738.098.119.112.224.083.345l-.333 1.36c-.053.22-.174.267-.402.161-1.499-.698-2.436-2.889-2.436-4.649 0-3.785 2.75-7.262 7.929-7.262 4.163 0 7.398 2.967 7.398 6.931 0 4.136-2.607 7.464-6.227 7.464-1.216 0-2.359-.631-2.75-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146 1.124.347 2.317.535 3.554.535 6.621 0 11.985-5.367 11.985-11.987C24.007 5.368 18.64 0 12.017 0z"/></svg>
-                            </div>
-                        </a>
-
-                        <!-- 7. LinkedIn -->
-                        <a href="https://linkedin.com/company/englishvidyahq" target="_blank" rel="noopener noreferrer" class="social-icon-btn linkedin" data-tooltip="LinkedIn">
-                            <div class="social-icon-wrapper" style="background: #0A66C2;">
-                                <svg viewBox="0 0 24 24" fill="#fff" width="18" height="18"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
-                            </div>
-                        </a>
-
-                        <!-- 8. X (Twitter) -->
-                        <a href="https://x.com/englishvidyahq" target="_blank" rel="noopener noreferrer" class="social-icon-btn x-twitter" data-tooltip="X (Twitter)">
-                            <div class="social-icon-wrapper" style="background: #000000; border: 1px solid rgba(255,255,255,0.15);">
-                                <svg viewBox="0 0 24 24" fill="#fff" width="18" height="18"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
-                            </div>
-                        </a>
-                    </div>
-                </div>
 
                 <!-- Tip of the Day -->
                 <div class="card card-gradient promo-tip" style="margin-top: var(--sp-8);">
@@ -662,6 +692,12 @@
         </div>
         <div class="footer-bottom">
             <p>© 2026 English Vidya. All Rights Reserved. | Designed for rural and Hindi-medium students in India 🇮🇳</p>
+            <p class="developer-credit" style="margin-top: var(--sp-2); font-size: 0.82rem;">
+                Developed and Designed by 
+                <a href="https://mastermanikant.com" target="_blank" rel="noopener noreferrer" class="manikant-link">
+                    Master Manikant
+                </a>
+            </p>
         </div>
     </footer>
 
