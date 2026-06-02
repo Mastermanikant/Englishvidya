@@ -706,6 +706,151 @@
     loadAndShowWords(selectedSlug);
   }
 
+  function fixMojibake(str) {
+    if (!str) return '';
+    const cpMap = {
+      0x20ac: 0x80, 0x201a: 0x82, 0x0192: 0x83, 0x201e: 0x84, 0x2026: 0x85,
+      0x2020: 0x86, 0x2021: 0x87, 0x02c6: 0x88, 0x2030: 0x89, 0x0160: 0x8a,
+      0x2039: 0x8b, 0x0152: 0x8c, 0x017d: 0x8e, 0x2018: 0x91, 0x2019: 0x92,
+      0x201c: 0x93, 0x201d: 0x94, 0x2022: 0x95, 0x2013: 0x96, 0x2014: 0x97,
+      0x02dc: 0x98, 0x2122: 0x99, 0x0161: 0x9a, 0x203a: 0x9b, 0x0153: 0x9c,
+      0x017e: 0x9e, 0x0178: 0x9f
+    };
+    const bytes = new Uint8Array(str.length * 3);
+    let bIdx = 0;
+    for (let i = 0; i < str.length; i++) {
+      const code = str.charCodeAt(i);
+      if (code < 128) {
+        bytes[bIdx++] = code;
+      } else if (code <= 255) {
+        bytes[bIdx++] = code;
+      } else if (cpMap[code]) {
+        bytes[bIdx++] = cpMap[code];
+      } else {
+        if (code < 0x800) {
+          bytes[bIdx++] = 0xc0 | (code >> 6);
+          bytes[bIdx++] = 0x80 | (code & 0x3f);
+        } else {
+          bytes[bIdx++] = 0xe0 | (code >> 12);
+          bytes[bIdx++] = 0x80 | ((code >> 6) & 0x3f);
+          bytes[bIdx++] = 0x80 | (code & 0x3f);
+        }
+      }
+    }
+    try {
+      return new TextDecoder('utf-8').decode(bytes.subarray(0, bIdx));
+    } catch (e) {
+      return str;
+    }
+  }
+
+  function parseWord(w) {
+    const word = fixMojibake(w.word || w.w || '');
+    const pron = fixMojibake(w.pronunciation || w.p || '');
+    const example = fixMojibake(w.example || w.example_en || w.e || w.ex || '');
+
+    let hindiMeaning = fixMojibake(w.meaning_hi || w.m || w.hindi || '');
+    let englishDef = fixMojibake(w.definition_en || w.d || '');
+
+    const rawMeaning = fixMojibake(w.meaning || '');
+    const rawDef = fixMojibake(w.definition || '');
+
+    const isHindi = (str) => /[\u0900-\u097F]/.test(str);
+
+    if (!hindiMeaning) {
+      if (isHindi(rawMeaning)) {
+        hindiMeaning = rawMeaning;
+      } else if (isHindi(rawDef)) {
+        hindiMeaning = rawDef;
+      }
+    }
+
+    if (!englishDef) {
+      if (rawDef && !isHindi(rawDef)) {
+        englishDef = rawDef;
+      } else if (rawMeaning && !isHindi(rawMeaning)) {
+        englishDef = rawMeaning;
+      }
+    }
+
+    return {
+      word,
+      pron,
+      meaning: hindiMeaning,
+      definition: englishDef,
+      example
+    };
+  }
+
+  function createWordCard(w, i) {
+    const parsed = parseWord(w);
+    const card = document.createElement('div');
+    card.className = 'word-card';
+    card.dataset.index = i;
+    
+    card.innerHTML = `
+      <div class="word-header">
+        <div class="word-main">
+          <div class="word-en-row">
+            <span class="word-en">${escHtml(parsed.word)}</span>
+            ${parsed.pron ? `<span class="word-pron">[${escHtml(parsed.pron)}]</span>` : ''}
+          </div>
+          <div class="word-hi">${escHtml(parsed.meaning || parsed.definition.slice(0, 60) + (parsed.definition.length > 60 ? '...' : ''))}</div>
+        </div>
+        <div class="word-actions">
+          <button class="word-speak-btn" data-word="${escHtml(parsed.word)}" title="Hear pronunciation">🔊</button>
+          <span class="word-expand-arrow">▼</span>
+        </div>
+      </div>
+      <div class="word-details-drawer">
+        <div class="word-details-content">
+          ${parsed.meaning ? `
+            <div class="word-detail-row">
+              <span class="word-detail-label">Hindi Meaning</span>
+              <span class="word-detail-val">${escHtml(parsed.meaning)}</span>
+            </div>
+          ` : ''}
+          ${parsed.definition ? `
+            <div class="word-detail-row">
+              <span class="word-detail-label">English Definition</span>
+              <span class="word-detail-val">${escHtml(parsed.definition)}</span>
+            </div>
+          ` : ''}
+          ${parsed.example ? `
+            <div class="word-detail-row word-detail-example">
+              <span class="word-detail-label">Example Sentence</span>
+              <span class="word-detail-val">"${escHtml(parsed.example)}"</span>
+            </div>
+          ` : ''}
+        </div>
+      </div>
+    `;
+
+    // Add click events
+    card.querySelector('.word-speak-btn').addEventListener('click', (e) => {
+      e.stopPropagation();
+      speakWord(parsed.word);
+    });
+
+    card.addEventListener('click', (e) => {
+      if (e.target.closest('.word-speak-btn')) return;
+      
+      const isExpanded = card.classList.contains('expanded');
+      card.classList.toggle('expanded');
+      
+      const drawer = card.querySelector('.word-details-drawer');
+      if (drawer) {
+        if (card.classList.contains('expanded')) {
+          drawer.style.maxHeight = drawer.scrollHeight + 'px';
+        } else {
+          drawer.style.maxHeight = '0px';
+        }
+      }
+    });
+
+    return card;
+  }
+
   async function loadAndShowWords(slug) {
     const container = $('#words-container');
     if (!container) return;
@@ -722,52 +867,26 @@
     state.currentCategory = slug;
 
     container.innerHTML = `
-      <div class="word-grid animate-fade-in">
-        ${words.slice(0, 50).map((w, i) => `
-          <div class="word-card" data-index="${i}">
-            <div class="word-main">
-              <div class="word-en">${escHtml(w.word || w.w || '')}</div>
-              <div class="word-hi">${escHtml(w.meaning_hi || w.m || w.hindi || '')}</div>
-            </div>
-            <button class="word-speak-btn" data-word="${escHtml(w.word || w.w || '')}" title="उच्चारण सुनें">🔊</button>
-          </div>
-        `).join('')}
-      </div>
+      <div class="word-grid animate-fade-in"></div>
       ${words.length > 50 ? `
-        <div class="text-center mt-6">
+        <div class="text-center mt-6" id="load-more-container">
           <button class="fc-btn fc-btn-know" id="load-more-btn">और शब्द देखें (${words.length - 50} बाकी)</button>
         </div>
       ` : ''}
     `;
 
-    container.querySelectorAll('.word-speak-btn').forEach(btn => {
-      btn.addEventListener('click', (e) => {
-        e.stopPropagation();
-        speakWord(btn.dataset.word);
-      });
+    const grid = container.querySelector('.word-grid');
+    words.slice(0, 50).forEach((w, i) => {
+      grid.appendChild(createWordCard(w, i));
     });
 
     const loadMoreBtn = $('#load-more-btn');
     if (loadMoreBtn) {
       loadMoreBtn.addEventListener('click', () => {
-        const grid = container.querySelector('.word-grid');
-        words.slice(50).forEach((w) => {
-          const card = document.createElement('div');
-          card.className = 'word-card animate-fade-in';
-          card.innerHTML = `
-            <div class="word-main">
-              <div class="word-en">${escHtml(w.word || w.w || '')}</div>
-              <div class="word-hi">${escHtml(w.meaning_hi || w.m || w.hindi || '')}</div>
-            </div>
-            <button class="word-speak-btn" data-word="${escHtml(w.word || w.w || '')}" title="उच्चारण सुनें">🔊</button>
-          `;
-          card.querySelector('.word-speak-btn').addEventListener('click', (e) => {
-            e.stopPropagation();
-            speakWord(w.word || w.w || '');
-          });
-          grid.appendChild(card);
+        words.slice(50).forEach((w, i) => {
+          grid.appendChild(createWordCard(w, i + 50));
         });
-        loadMoreBtn.remove();
+        $('#load-more-container').remove();
       });
     }
   }
@@ -810,10 +929,11 @@
     const current = state.fcDeck[state.fcIndex];
     if (!current) return;
 
-    const word = current.word || current.w || '';
-    const meaning = current.meaning_hi || current.m || current.hindi || '';
-    const example = current.example_en || current.e || '';
-    const pron = current.pronunciation || current.p || '';
+    const parsed = parseWord(current);
+    const word = parsed.word;
+    const meaning = parsed.meaning || parsed.definition;
+    const example = parsed.example;
+    const pron = parsed.pron;
 
     appContent.innerHTML = `
       <div class="animate-fade-in">
