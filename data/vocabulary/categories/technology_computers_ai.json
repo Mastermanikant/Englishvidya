@@ -324,15 +324,6 @@
     "subCategory": "Software Development & Lifecycle"
   },
   {
-    "word": "Busy",
-    "meaning": "व्यस्त (vyast)",
-    "pronunciation": "????? (biz-ee)",
-    "definition": "Having a great deal to do; occupied.",
-    "example": "I have been busy all week preparing for my exams.",
-    "category": "Technology, Computers & AI",
-    "subCategory": "Daily Topics"
-  },
-  {
     "word": "Bypass",
     "meaning": "To avoid or find an alternative route around a network restriction, security gate, or system check (strong alternative to 'go around block' or 'skip restriction').",
     "pronunciation": "",
@@ -403,6 +394,15 @@
     "example": "All project files are saved in the cloud so anyone can access them.",
     "category": "Technology, Computers & AI",
     "subCategory": "Digital Workspace & Tech"
+  },
+  {
+    "word": "cloud computing",
+    "meaning": "The delivery of computing services â€” servers, storage, databases, and software â€” over the internet on demand.",
+    "pronunciation": "",
+    "definition": "à¤•à¥à¤²à¤¾à¤‰à¤¡ à¤•à¤‚à¤ªà¥à¤¯à¥‚à¤Ÿà¤¿à¤‚à¤—",
+    "example": "Cloud computing has made it possible for startups to scale globally without investing in physical infrastructure.",
+    "category": "Technology, Computers & AI",
+    "subCategory": "Remote Work"
   },
   {
     "word": "CLUTTER",
@@ -828,15 +828,6 @@
     "subCategory": "Instant Messaging & Chat"
   },
   {
-    "word": "Domain",
-    "meaning": "The unique address of a website on the internet, like www.example.com.",
-    "pronunciation": "",
-    "definition": "The set of all possible input values for a function.",
-    "example": "She bought the domain name for her new online store.",
-    "category": "Technology, Computers & AI",
-    "subCategory": "Internet"
-  },
-  {
     "word": "Domain Name",
     "meaning": "",
     "pronunciation": "",
@@ -1096,15 +1087,6 @@
     "example": "I love trying different kinds of local food when I travel.",
     "category": "Technology, Computers & AI",
     "subCategory": "Daily Topics"
-  },
-  {
-    "word": "Fork",
-    "meaning": "?????",
-    "pronunciation": "?????",
-    "definition": "",
-    "example": "You can fork the open-source project to add your custom features.",
-    "category": "Technology, Computers & AI",
-    "subCategory": "Software Development & Lifecycle"
   },
   {
     "word": "Format",
@@ -1557,15 +1539,6 @@
     "subCategory": "Prompt Engineering"
   },
   {
-    "word": "Keyboard",
-    "meaning": "A hardware device with keys used to type text and commands into a computer.",
-    "pronunciation": "",
-    "definition": "",
-    "example": "She typed the password using the wireless keyboard.",
-    "category": "Technology, Computers & AI",
-    "subCategory": "Hardware"
-  },
-  {
     "word": "Keylogger",
     "meaning": "",
     "pronunciation": "",
@@ -1764,15 +1737,6 @@
     "subCategory": "Hardware"
   },
   {
-    "word": "Mirror",
-    "meaning": "शीशा / आईना",
-    "pronunciation": "???? (mir-er)",
-    "definition": "A piece of glass with a shiny back that reflects images.",
-    "example": "The repository has a mirror site in Europe to ensure fast downloads for local developers.",
-    "category": "Technology, Computers & AI",
-    "subCategory": "System Operations & Configuration"
-  },
-  {
     "word": "Mixed Reality",
     "meaning": "",
     "pronunciation": "",
@@ -1800,15 +1764,6 @@
     "subCategory": "Hardware"
   },
   {
-    "word": "Monitor",
-    "meaning": "The screen of a desktop computer that displays images and text.",
-    "pronunciation": "",
-    "definition": "",
-    "example": "He plugged a second monitor into his laptop to have more screen space.",
-    "category": "Technology, Computers & AI",
-    "subCategory": "Hardware"
-  },
-  {
     "word": "Motion Planning",
     "meaning": "",
     "pronunciation": "",
@@ -1816,15 +1771,6 @@
     "example": "",
     "category": "Technology, Computers & AI",
     "subCategory": "Robotics"
-  },
-  {
-    "word": "Mouse",
-    "meaning": "A small handheld device used to move a cursor on a computer screen and click on things.",
-    "pronunciation": "",
-    "definition": "à¤šà¥‚à¤¹à¤¾",
-    "example": "She clicked the right mouse button to open the context menu.",
-    "category": "Technology, Computers & AI",
-    "subCategory": "Hardware"
   },
   {
     "word": "Movie",
@@ -2457,15 +2403,6 @@
     "subCategory": "Visual Aids"
   },
   {
-    "word": "Router",
-    "meaning": "A device that sends internet signals from your modem to your devices wirelessly or by cable.",
-    "pronunciation": "",
-    "definition": "A networking device that forwards data packets between computer networks.",
-    "example": "Moving the router to the centre of the house improved the Wi-Fi signal.",
-    "category": "Technology, Computers & AI",
-    "subCategory": "Hardware"
-  },
-  {
     "word": "SaaS",
     "meaning": "",
     "pronunciation": "",
@@ -2509,15 +2446,6 @@
     "example": "",
     "category": "Technology, Computers & AI",
     "subCategory": "Robotics"
-  },
-  {
-    "word": "Scrape",
-    "meaning": "To automatically extract large amounts of public data or text from websites using a computer program (strong alternative to 'copy text off website manually' or 'grab web text').",
-    "pronunciation": "",
-    "definition": "An injury or mark caused by scraping.",
-    "example": "The tool will scrape product prices from competitor sites to compare them automatically.",
-    "category": "Technology, Computers & AI",
-    "subCategory": "Software Development & Lifecycle"
   },
   {
     "word": "Screen Recording",
@@ -3112,6 +3040,15 @@
     "example": "",
     "category": "Technology, Computers & AI",
     "subCategory": "Future-of-work Tech"
+  },
+  {
+    "word": "Virtual Reality",
+    "meaning": "à¤†à¤­à¤¾à¤¸à¥€ à¤µà¤¾à¤¸à¥à¤¤à¤µà¤¿à¤•à¤¤à¤¾",
+    "pronunciation": "",
+    "definition": "à¤†à¤­à¤¾à¤¸à¥€ à¤µà¤¾à¤¸à¥à¤¤à¤µà¤¿à¤•à¤¤à¤¾",
+    "example": "Virtual reality is used in gaming and training.",
+    "category": "Technology, Computers & AI",
+    "subCategory": "Uncategorized"
   },
   {
     "word": "VISUAL AID",

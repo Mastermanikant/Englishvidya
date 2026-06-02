@@ -279,15 +279,6 @@
     "subCategory": "Emotions, Feelings & Wellness"
   },
   {
-    "word": "arrogant",
-    "meaning": "घमंडी, अभिमानी",
-    "pronunciation": "??????? (ar-uh-gunt)",
-    "definition": "Believing that you are better or more important than other people.",
-    "example": "His arrogant attitude made it hard to work with him.",
-    "category": "Emotions, Feelings & Wellness",
-    "subCategory": "Pride (negative)"
-  },
-  {
     "word": "Assuaged",
     "meaning": "",
     "pronunciation": "",
@@ -459,15 +450,6 @@
     "subCategory": "Emotions, Feelings & Wellness"
   },
   {
-    "word": "bored",
-    "meaning": "ऊबा हुआ (Ooba hua)",
-    "pronunciation": "bord",
-    "definition": "Feeling unhappy because something is not interesting.",
-    "example": "He was bored during the long, uneventful bus ride.",
-    "category": "Emotions, Feelings & Wellness",
-    "subCategory": "Boredom / Apathy (mild)"
-  },
-  {
     "word": "BOUNDARIES",
     "meaning": "Personal rules and limits that you establish to protect your time, energy, and mental health from others.",
     "pronunciation": "",
@@ -511,15 +493,6 @@
     "example": "Setting clear boundaries between work hours and personal time is essential for burnout prevention.",
     "category": "Emotions, Feelings & Wellness",
     "subCategory": "Emotions, Feelings & Wellness"
-  },
-  {
-    "word": "calm",
-    "meaning": "शांत (Shaant)",
-    "pronunciation": "kahm",
-    "definition": "Not showing or feeling nervousness, anger, or other strong emotions.",
-    "example": "She remained calm despite the chaos around her.",
-    "category": "Emotions, Feelings & Wellness",
-    "subCategory": "Calm / Serenity"
   },
   {
     "word": "Captivated",
@@ -828,15 +801,6 @@
     "subCategory": "Emotions, Feelings & Wellness"
   },
   {
-    "word": "curious",
-    "meaning": "उत्सुक / जिज्ञासु (Utsuk / Jigyaasu)",
-    "pronunciation": "KYOOR-ee-uhs",
-    "definition": "Eager to know or learn something.",
-    "example": "The child was curious about how the engine worked.",
-    "category": "Emotions, Feelings & Wellness",
-    "subCategory": "Surprise (mild)"
-  },
-  {
     "word": "Daring",
     "meaning": "",
     "pronunciation": "",
@@ -1006,15 +970,6 @@
     "example": "Disenchantment with romantic ideals came gradually as experience tempered his youthful expectations.",
     "category": "Emotions, Feelings & Wellness",
     "subCategory": "Abstract Emotional Vocabulary"
-  },
-  {
-    "word": "disgust",
-    "meaning": "A strong feeling of revulsion or strong disapproval",
-    "pronunciation": "",
-    "definition": "",
-    "example": "She felt disgust when she saw the unhygienic conditions of the place.",
-    "category": "Emotions, Feelings & Wellness",
-    "subCategory": "Disgust & Contempt"
   },
   {
     "word": "disillusionment",
@@ -1377,15 +1332,6 @@
     "subCategory": "Abstract Emotional Vocabulary"
   },
   {
-    "word": "excited",
-    "meaning": "उत्साहित (Utsaahit)",
-    "pronunciation": "ik-SY-tid",
-    "definition": "Feeling very happy and enthusiastic about something.",
-    "example": "She was excited about her first international trip.",
-    "category": "Emotions, Feelings & Wellness",
-    "subCategory": "Hope & Anticipation"
-  },
-  {
     "word": "exhilaration",
     "meaning": "A feeling of excitement, happiness, or elation; an energized sense of joy.",
     "pronunciation": "",
@@ -1575,15 +1521,6 @@
     "subCategory": "Emotions, Feelings & Wellness"
   },
   {
-    "word": "grateful",
-    "meaning": "आभारी / कृतज्ञ (Aabhaari / Kritagya)",
-    "pronunciation": "GRAYT-fuhl",
-    "definition": "Feeling or showing appreciation for something done or received.",
-    "example": "He was grateful for the help during his difficult time.",
-    "category": "Emotions, Feelings & Wellness",
-    "subCategory": "Gratitude / Tenderness (moderate)"
-  },
-  {
     "word": "Gratified",
     "meaning": "",
     "pronunciation": "",
@@ -1710,15 +1647,6 @@
     "subCategory": "Abstract Emotional Vocabulary"
   },
   {
-    "word": "HERBAL TEA",
-    "meaning": "A beverage made from the infusion of herbs, spices, or other plant material in hot water, typically caffeine-free.",
-    "pronunciation": "",
-    "definition": "An infusion made from herbs or spices in hot water.",
-    "example": "Drinking chamomile herbal tea before bed helps calm the nervous system and prepare the body for sleep.",
-    "category": "Emotions, Feelings & Wellness",
-    "subCategory": "Emotions, Feelings & Wellness"
-  },
-  {
     "word": "Heroic",
     "meaning": "",
     "pronunciation": "",
@@ -1773,15 +1701,6 @@
     "subCategory": "Abstract Emotional Vocabulary"
   },
   {
-    "word": "hopeful",
-    "meaning": "आशावान (Aashavaan)",
-    "pronunciation": "HOHP-fuhl",
-    "definition": "Feeling or inspiring optimism about a future event.",
-    "example": "She was hopeful that her application would be accepted.",
-    "category": "Emotions, Feelings & Wellness",
-    "subCategory": "Hope & Anticipation"
-  },
-  {
     "word": "hopefulness",
     "meaning": "A feeling of expectation and positive anticipation for the future",
     "pronunciation": "",
@@ -1807,15 +1726,6 @@
     "example": "Despite her extraordinary talent, she spoke about her work with genuine humility.",
     "category": "Emotions, Feelings & Wellness",
     "subCategory": "Abstract Emotional Vocabulary"
-  },
-  {
-    "word": "Hungry",
-    "meaning": "भूखा (bhookha)",
-    "pronunciation": "??????",
-    "definition": "Feeling a need or desire for food.",
-    "example": "I haven't eaten all day, so I am very hungry.",
-    "category": "Emotions, Feelings & Wellness",
-    "subCategory": "Emotions, Feelings & Wellness"
   },
   {
     "word": "HYDROTHERAPY",
@@ -2023,24 +1933,6 @@
     "example": "The prolonged isolation of the pandemic left many people struggling with their mental health.",
     "category": "Emotions, Feelings & Wellness",
     "subCategory": "Abstract Emotional Vocabulary"
-  },
-  {
-    "word": "jealous",
-    "meaning": "ईर्ष्यालु / जलने वाला (Irshyalu / Jalne wala)",
-    "pronunciation": "JEL-uhs",
-    "definition": "Feeling upset because someone has something you want.",
-    "example": "She felt jealous of her friend's talent and recognition.",
-    "category": "Emotions, Feelings & Wellness",
-    "subCategory": "Envy / Jealousy (moderate)"
-  },
-  {
-    "word": "jealousy",
-    "meaning": "A feeling of resentment towards someone because of their success or advantages",
-    "pronunciation": "",
-    "definition": "",
-    "example": "Jealousy crept in when he saw his colleague receiving all the praise.",
-    "category": "Emotions, Feelings & Wellness",
-    "subCategory": "Negative / Insecurity"
   },
   {
     "word": "Jolly",
@@ -2527,15 +2419,6 @@
     "example": "He uses progressive muscle relaxation in bed to help his body relax and fall asleep.",
     "category": "Emotions, Feelings & Wellness",
     "subCategory": "Coping Mechanisms"
-  },
-  {
-    "word": "proud",
-    "meaning": "गर्व (Garv)",
-    "pronunciation": "prowd",
-    "definition": "Feeling very pleased and satisfied about something you or someone else has done.",
-    "example": "She was proud of her daughter's academic success.",
-    "category": "Emotions, Feelings & Wellness",
-    "subCategory": "Pride (positive)"
   },
   {
     "word": "quietude",
@@ -3078,15 +2961,6 @@
     "subCategory": "Emotions, Feelings & Wellness"
   },
   {
-    "word": "surprised",
-    "meaning": "हैरान (Hairaan)",
-    "pronunciation": "suh-PRIYZD",
-    "definition": "Feeling or showing wonder because of something unexpected.",
-    "example": "She was surprised to receive a gift on an ordinary day.",
-    "category": "Emotions, Feelings & Wellness",
-    "subCategory": "Surprise (mild)"
-  },
-  {
     "word": "Sweet",
     "meaning": "????",
     "pronunciation": "?????",
@@ -3132,15 +3006,6 @@
     "subCategory": "Emotions, Feelings & Wellness"
   },
   {
-    "word": "Thirsty",
-    "meaning": "प्यासा (pyaasa)",
-    "pronunciation": "???????",
-    "definition": "Feeling a need to drink liquid.",
-    "example": "The sun is hot, and walking has made me thirsty.",
-    "category": "Emotions, Feelings & Wellness",
-    "subCategory": "Emotions, Feelings & Wellness"
-  },
-  {
     "word": "Thoughtful",
     "meaning": "",
     "pronunciation": "",
@@ -3148,15 +3013,6 @@
     "example": "",
     "category": "Emotions, Feelings & Wellness",
     "subCategory": "Emotions, Feelings & Wellness"
-  },
-  {
-    "word": "thrilled",
-    "meaning": "अत्यंत प्रसन्न / रोमांचित (Atyant prasann / Romanchit)",
-    "pronunciation": "thrild",
-    "definition": "Extremely happy and excited.",
-    "example": "He was thrilled to receive the award on stage.",
-    "category": "Emotions, Feelings & Wellness",
-    "subCategory": "Hope & Anticipation"
   },
   {
     "word": "thunderstruck",
@@ -3202,15 +3058,6 @@
     "example": "Her timidity in speaking publicly masked an incredibly sharp and insightful mind.",
     "category": "Emotions, Feelings & Wellness",
     "subCategory": "Abstract Emotional Vocabulary"
-  },
-  {
-    "word": "Tired",
-    "meaning": "थका हुआ",
-    "pronunciation": "?????? (tie-urd)",
-    "definition": "In need of sleep or rest; weary.",
-    "example": "I am too tired to go out tonight; I want to stay home.",
-    "category": "Emotions, Feelings & Wellness",
-    "subCategory": "Emotions, Feelings & Wellness"
   },
   {
     "word": "touched",

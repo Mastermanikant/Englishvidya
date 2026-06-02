@@ -1,0 +1,125 @@
+{
+  "title": "Alphabet, Phonics & Pronunciation (वर्णमाला, ध्वनि और उच्चारण)",
+  "slug": "alphabet-phonics-and-pronunciation",
+  "part": 3,
+  "definition_en": "Alphabet is the complete set of 26 letters used to write English. Phonics is the relationship between letters and sounds, and Pronunciation is the standard production of speech sounds to speak words clearly.",
+  "definition_hi": "अंग्रेजी लिखने के लिए उपयोग किए जाने वाले 26 अक्षरों के व्यवस्थित समूह को वर्णमाला (Alphabet) कहते हैं। अक्षरों और उनकी ध्वनियों के बीच के संबंध को फ़ोनिक्स (Phonics) कहते हैं, और शब्दों को शुद्ध रूप से बोलने के ढंग को उच्चारण (Pronunciation) कहते हैं।",
+  "categories": [
+    {
+      "name": "1. बड़े और छोटे अक्षर (Capital & Small Letters)",
+      "intro": "अंग्रेजी में अक्षरों के दो रूप होते हैं: Capital (A, B, C...) और Small (a, b, c...)।\n\n💡 Capital Letters का उपयोग कहाँ करें?\n* नियम 1: किसी भी वाक्य के पहले शब्द का पहला अक्षर हमेशा Capital होगा। (जैसे: This is a book.)\n* नियम 2: Proper Nouns (व्यक्ति, देश, शहर, नदी, या स्थान के विशेष नाम) का पहला अक्षर हमेशा Capital होगा। (जैसे: Aman, India, Delhi)\n\nCase Sensitivity (कंप्यूटर और पासवर्ड में):\nकंप्यूटर के लिए बड़े और छोटे अक्षर अलग होते हैं। जैसे 'Good' और 'good' पासवर्ड में अलग माने जाते हैं।",
+      "examples": [
+        {
+          "en": "polish (to shine shoes) vs. Polish (people or language of Poland)",
+          "hi": "polish (पॉलिश करना) बनाम Polish (पोलैंड देश के लोग या भाषा)"
+        },
+        {
+          "en": "march (to parade/walk) vs. March (third month of the year)",
+          "hi": "march (परेड करना) बनाम March (मार्च का महीना)"
+        },
+        {
+          "en": "china (fine earthenware) vs. China (country name)",
+          "hi": "china (चीनी मिट्टी के बर्तन) बनाम China (चीन देश का नाम)"
+        }
+      ]
+    },
+    {
+      "name": "2. स्वर और व्यंजन (Vowels & Consonants)",
+      "intro": "अंग्रेजी वर्णमाला के 26 अक्षरों को उनकी ध्वनियों (sounds) के आधार पर दो भागों में बांटा गया है:\n\n* Vowels (स्वर): 5 अक्षर (A, E, I, O, U)। बोलते समय हवा बिना किसी रुकावट के गले से बाहर निकलती है।\n* Consonants (व्यंजन): 21 अक्षर (B, C, D, F...)। बोलते समय जीभ, होंठ या दाँत हवा के मार्ग में रुकावट पैदा करते हैं।\n\nवोकल ट्रैक्ट (Vocal Tract) मुख-मार्ग है जहाँ से हवा बाहर आती है। स्वर हर शब्द की 'आत्मा' है - कोई भी अंग्रेज़ी शब्द स्वर के बिना नहीं बन सकता।",
+      "examples": [
+        {
+          "en": "Short Vowels: Cat (ऐ), Pen (ए), Pin (इ), Hot (ऑ), Cut (अ)",
+          "hi": "लघु स्वर ध्वनियाँ (स्वर छोटे रूप में बोले जाते हैं)"
+        },
+        {
+          "en": "Long Vowels: Cake (ए), Me (ई), Kite (आइ), Go (ओ), Cute (यू)",
+          "hi": "दीर्घ स्वर ध्वनियाँ (अक्षर अपना नाम स्वयं बोलते हैं)"
+        }
+      ]
+    },
+    {
+      "name": "3. अर्ध-स्वर का जादू (Semi-Vowels: W & Y)",
+      "intro": "W और Y अर्ध-स्वर हैं। ये कभी व्यंजन और कभी स्वर की तरह व्यवहार करते हैं:\n\n* नियम: जब W या Y शब्द की शुरुआत (start) में आते हैं, तो व्यंजन (Consonant) होते हैं और 'य' या 'व' जैसी ध्वनि देते हैं।\n* नियम: जब Y शब्द के बीच में या अंत में आता है, तो स्वर (Vowel) बन जाता है और 'इ', 'ई' या 'आइ' ध्वनि देता है।\n* नियम: W अकेला स्वर नहीं बनता, लेकिन बीच/अंत में आकर अन्य स्वरों के साथ मिलकर संयुक्त स्वर (Vowel Sound) बनाता है।",
+      "examples": [
+        {
+          "en": "Y as Consonant: Yes (यस), Yellow (येलो), Year (यिअर - 'a year' is standard)",
+          "hi": "शुरुआत में आने के कारण व्यंजन है।"
+        },
+        {
+          "en": "Y as Vowel: Gym (जिम - 'इ'), Happy (हैपी - 'ई'), Sky (स्काइ - 'आइ')",
+          "hi": "बीच या अंत में आने के कारण स्वर ध्वनि है।"
+        },
+        {
+          "en": "W as Consonant: Water (वॉटर), Work (वर्क)",
+          "hi": "शुरुआत में आने के कारण व्यंजन है।"
+        },
+        {
+          "en": "W as Vowel Partner: Saw (ऑ), Few (यू), Cow (आउ)",
+          "hi": "बीच या अंत में आकर स्वर ध्वनि बनाता है।"
+        }
+      ]
+    },
+    {
+      "name": "4. मूक अक्षर (Silent Letters)",
+      "intro": "अंग्रेजी में कुछ अक्षर स्पेलिंग में लिखे जाते हैं, पर बोलते समय वे मौन (silent) रहते हैं:\n\n* Silent B: M के बाद आने वाला B साइलेंट रहता है।\n* Silent K: N से पहले आने वाला K साइलेंट रहता है।\n* Silent W: R से पहले आने वाला W साइलेंट रहता है।\n* Silent H: O से पहले आने वाला H या W के बाद आने वाला H साइलेंट रहता है।\n* Silent T: listen, often, watch जैसे शब्दों में T साइलेंट रहता है।",
+      "examples": [
+        {
+          "en": "Comb (कोम), Climb (क्लाइम), Thumb (थम)",
+          "hi": "M के बाद B साइलेंट है।"
+        },
+        {
+          "en": "Know (नो), Knife (नाइफ), Knee (नी)",
+          "hi": "N से पहले K साइलेंट है।"
+        },
+        {
+          "en": "Write (राइट), Wrong (रॉन्ग), Wrist (रिस्ट)",
+          "hi": "R से पहले W साइलेंट है।"
+        },
+        {
+          "en": "Honest (ऑनेस्ट), Hour (आर), What (व्हाट/व्हॉट)",
+          "hi": "यहाँ H की ध्वनि मूक है।"
+        },
+        {
+          "en": "Listen (लिसन), Often (ऑफन), Watch (वॉच)",
+          "hi": "यहाँ T साइलेंट है।"
+        }
+      ]
+    },
+    {
+      "name": "5. समान ध्वनि और स्पेलिंग के नियम",
+      "intro": "उच्चारण और लेखन के आपसी तालमेल से 3 खास श्रेणियों के शब्द बनते हैं:\n\n1. Homophones (समान ध्वनि): उच्चारण एक समान, स्पेलिंग और अर्थ अलग।\n2. Homographs (समान लेखन): स्पेलिंग एक समान, उच्चारण और अर्थ अलग।\n3. Homonyms (समान रूप व ध्वनि): स्पेलिंग और उच्चारण एक समान, अर्थ अलग।",
+      "examples": [
+        {
+          "en": "Homophones: Son (बेटा) vs. Sun (सूर्य) | Right (सही) vs. Write (लिखना)",
+          "hi": "उच्चारण बिल्कुल समान है।"
+        },
+        {
+          "en": "Homographs: Lead (लीड - नेतृत्व) vs. Lead (लेड - सीसा) | Wind (विंड - हवा) vs. Wind (वाइंड - लपेटना)",
+          "hi": "लिखा एक जैसा जाता है पर उच्चारण भिन्न है।"
+        },
+        {
+          "en": "Homonyms: Bat (बल्ला) vs. Bat (चमगादड़) | Bank (बैंक - बैंक) vs. Bank (तट)",
+          "hi": "लिखना और बोलना एक समान है पर अर्थ भिन्न हैं।"
+        }
+      ]
+    },
+    {
+      "name": "6. आम उच्चारण की गलतियाँ (Common Pronunciation Mistakes)",
+      "intro": "हिंदी माध्यम के छात्रों द्वारा की जाने वाली कुछ आम गलतियाँ और उनके सुधार:",
+      "examples": [
+        {
+          "en": "School: Correct: 'स्कूल' (School) | Incorrect: 'सकूल' (Sakool) ❌",
+          "hi": "S के पहले आधा 'इ' नहीं, केवल 'स' बोलना है।"
+        },
+        {
+          "en": "Very: Correct: 'वेरी' (Very) | Incorrect: 'बेरी' (Bery) ❌",
+          "hi": "V बोलते समय ऊपर के दाँत निचले होंठ को छूने चाहिए।"
+        },
+        {
+          "en": "What: Correct: 'व्हॉट/व्हाट' (What) | Incorrect: 'भाट' (Bhat) ❌",
+          "hi": "Wh की ध्वनि 'व' और 'ह' का मिश्रित रूप है, भारी 'भ' नहीं।"
+        }
+      ]
+    }
+  ]
+}

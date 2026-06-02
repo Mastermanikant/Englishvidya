@@ -58,9 +58,45 @@
         <div class="scroll-progress-bar" id="scroll-progress"></div>
     </div>
 
+    <!-- MOBILE DRAWER OVERLAY -->
+    <div class="mobile-drawer-overlay" id="mobile-drawer-overlay" role="dialog" aria-label="Mobile Navigation Menu">
+        <div class="mobile-drawer" id="mobile-drawer">
+            <div class="mobile-drawer-header">
+                <div class="logo">
+                    <span class="logo-mark">🎓</span>
+                    <span class="logo-text">English <span class="logo-accent">Vidya</span></span>
+                </div>
+                <button class="mobile-drawer-close" id="mobile-drawer-close" aria-label="Close menu">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </button>
+            </div>
+            <nav class="mobile-drawer-nav" aria-label="Mobile Navigation Drawer">
+                <a href="/" class="mobile-drawer-link active" data-route="home">🏠 होम (Home)</a>
+                <a href="/grammar" class="mobile-drawer-link" data-route="grammar">📖 Grammar सीखें</a>
+                <a href="/dictionary" class="mobile-drawer-link" data-route="dictionary">🔤 शब्दकोश (Dictionary)</a>
+                <a href="/flashcards" class="mobile-drawer-link" data-route="flashcards">🃏 Flashcards Practice</a>
+                <a href="/profile" class="mobile-drawer-link" data-route="profile">👤 प्रोफ़ाइल (Profile)</a>
+                <hr class="drawer-divider">
+                <a href="/about-us" class="mobile-drawer-link" data-route="about">About Us (हमारे बारे में)</a>
+                <a href="/contact" class="mobile-drawer-link" data-route="contact">Contact Us (संपर्क करें)</a>
+                <a href="/legal" class="mobile-drawer-link" data-route="legal">Legal Policies (नीतियां)</a>
+            </nav>
+        </div>
+    </div>
+
     <!-- 2. GLASS STICKY HEADER -->
     <header class="app-header" id="app-header">
         <div class="header-left">
+            <button class="header-btn mobile-menu-trigger" id="mobile-menu-trigger" aria-label="Menu" aria-expanded="false" style="margin-right: var(--sp-3);">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="4" y1="12" x2="20" y2="12"></line>
+                    <line x1="4" y1="6" x2="20" y2="6"></line>
+                    <line x1="4" y1="18" x2="20" y2="18"></line>
+                </svg>
+            </button>
             <a href="/" class="logo" id="logo-link" aria-label="English Vidya Home">
                 <span class="logo-mark">🎓</span>
                 <span class="logo-text">English <span class="logo-accent">Vidya</span></span>
@@ -210,13 +246,6 @@
                                         <div class="pillar-card">
                                             <h4 style="color: var(--accent);">🃏 फ़्लैशकार्ड्स (Practice Deck)</h4>
                                             <p style="margin-top: 5px;">याददाश्त को बेहतर बनाने और सही अंग्रेजी उच्चारण का ऑडियो सुनने के लिए वैज्ञानिक स्पेस-रेपेटिशन विधि पर आधारित स्मार्ट कार्ड्स।</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
                                         </div>
                                     </div>
                                 </div>

@@ -1,11 +1,11 @@
 /* ═══════════════════════════════════════════════════════════════
-   English Vidya — Production Service Worker v2
+   English Vidya — Production Service Worker v3
    Strategy  : Cache-First for shell + data, SWR for lesson files
    Offline   : Full offline support with graceful fallback
    Versioning: Update CACHE_VERSION to bust old caches on deploy
    ═══════════════════════════════════════════════════════════════ */
 
-const CACHE_VERSION   = 'ev-v2';
+const CACHE_VERSION   = 'ev-v3';
 const SHELL_CACHE     = `${CACHE_VERSION}-shell`;
 const DATA_CACHE      = `${CACHE_VERSION}-data`;
 const LESSON_CACHE    = `${CACHE_VERSION}-lessons`;

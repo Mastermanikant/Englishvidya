@@ -18,6 +18,15 @@
     "subCategory": "Forces/motion"
   },
   {
+    "word": "Amplitude",
+    "meaning": "The size of a sound wave, which determines how loud a sound is.",
+    "pronunciation": "",
+    "definition": "The maximum extent of a vibration or oscillation, measured from the position of equilibrium.",
+    "example": "Increasing the amplitude of the signal makes the music louder.",
+    "category": "Forces & Motion",
+    "subCategory": "Instruments & Sound"
+  },
+  {
     "word": "Centrifugal",
     "meaning": "",
     "pronunciation": "",
@@ -54,6 +63,33 @@
     "subCategory": "Forces/motion"
   },
   {
+    "word": "force",
+    "meaning": "A push or pull on an object that can change its motion or shape",
+    "pronunciation": "",
+    "definition": "à¤¬à¤²",
+    "example": "Gravity is a force that pulls objects toward the Earth.",
+    "category": "Forces & Motion",
+    "subCategory": "Science"
+  },
+  {
+    "word": "Frequency",
+    "meaning": "The speed at which sound waves vibrate, which decides how high or low a pitch is.",
+    "pronunciation": "",
+    "definition": "The rate at which something occurs or is repeated over a particular period of time or in a given sample.",
+    "example": "Humans cannot hear sounds that vibrate at a very high frequency.",
+    "category": "Forces & Motion",
+    "subCategory": "Instruments & Sound"
+  },
+  {
+    "word": "gravity",
+    "meaning": "The natural force that attracts objects toward the center of the Earth or any other massive body",
+    "pronunciation": "",
+    "definition": "à¤—à¥à¤°à¥à¤¤à¥à¤µà¤¾à¤•à¤°à¥à¤·à¤£",
+    "example": "Gravity keeps the Moon orbiting around the Earth.",
+    "category": "Forces & Motion",
+    "subCategory": "Science"
+  },
+  {
     "word": "Inertia",
     "meaning": "",
     "pronunciation": "",
@@ -79,6 +115,15 @@
     "example": "",
     "category": "Forces & Motion",
     "subCategory": "Forces/motion"
+  },
+  {
+    "word": "mass",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "A coherent, typically large body of matter with no definite shape.",
+    "example": "The mass of the rock was recorded in kilograms.",
+    "category": "Forces & Motion",
+    "subCategory": "Measurement"
   },
   {
     "word": "Momentum",
@@ -144,6 +189,24 @@
     "subCategory": "Forces/motion"
   },
   {
+    "word": "Resonance",
+    "meaning": "The quality of a sound being deep, full, and echoing, lasting for a short time.",
+    "pronunciation": "",
+    "definition": "The reinforcement or prolongation of sound by reflection from a surface or by the synchronous vibration of a neighboring object.",
+    "example": "The wooden body of the acoustic guitar gives it a warm resonance.",
+    "category": "Forces & Motion",
+    "subCategory": "Instruments & Sound"
+  },
+  {
+    "word": "Speed",
+    "meaning": "à¤—à¤¤à¤¿",
+    "pronunciation": "",
+    "definition": "à¤—à¤¤à¤¿",
+    "example": "The car was running at a high speed.",
+    "category": "Forces & Motion",
+    "subCategory": "Uncategorized"
+  },
+  {
     "word": "Thrust",
     "meaning": "",
     "pronunciation": "",
@@ -162,6 +225,15 @@
     "subCategory": "Forces/motion"
   },
   {
+    "word": "trajectory",
+    "meaning": "The course of development over time (strong alternative to 'path' or 'direction').",
+    "pronunciation": "",
+    "definition": "The path followed by a projectile flying or an object moving under the action of given forces.",
+    "example": "The company's growth trajectory has been consistently upward for three years.",
+    "category": "Forces & Motion",
+    "subCategory": "Weak Professional Vocabulary"
+  },
+  {
     "word": "Velocity",
     "meaning": "",
     "pronunciation": "",
@@ -178,5 +250,23 @@
     "example": "",
     "category": "Forces & Motion",
     "subCategory": "Forces/motion"
+  },
+  {
+    "word": "Weight",
+    "meaning": "à¤µà¤œà¤¨",
+    "pronunciation": "",
+    "definition": "à¤µà¤œà¤¨",
+    "example": "What is the weight of this bag?",
+    "category": "Forces & Motion",
+    "subCategory": "Uncategorized"
+  },
+  {
+    "word": "work",
+    "meaning": "काम करना",
+    "pronunciation": "???? (Work)",
+    "definition": "Activity involving mental or physical effort.",
+    "example": "The solution seems to work well.",
+    "category": "Forces & Motion",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Function, Operate, Perform, Execute, Yield Results"
   }
 ]

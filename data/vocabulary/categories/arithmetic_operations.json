@@ -9,6 +9,15 @@
     "subCategory": "Arithmetic/operations"
   },
   {
+    "word": "Addition",
+    "meaning": "à¤œà¥‹à¤¡à¤¼",
+    "pronunciation": "",
+    "definition": "à¤œà¥‹à¤¡à¤¼",
+    "example": "The teacher taught us simple addition.",
+    "category": "Arithmetic & Operations",
+    "subCategory": "Uncategorized"
+  },
+  {
     "word": "arithmetic",
     "meaning": "???????",
     "pronunciation": "",
@@ -36,6 +45,15 @@
     "subCategory": "Arithmetic/operations"
   },
   {
+    "word": "decimal",
+    "meaning": "A number expressed using a decimal point to show values less than one",
+    "pronunciation": "",
+    "definition": "à¤¦à¤¶à¤®à¤²à¤µ",
+    "example": "The decimal 0.75 is equal to three quarters.",
+    "category": "Arithmetic & Operations",
+    "subCategory": "Maths"
+  },
+  {
     "word": "denominator",
     "meaning": "",
     "pronunciation": "",
@@ -52,6 +70,24 @@
     "example": "The difference between 10 and 4 is 6.",
     "category": "Arithmetic & Operations",
     "subCategory": "Arithmetic/operations"
+  },
+  {
+    "word": "Dividend",
+    "meaning": "à¤²à¤¾à¤­à¤¾à¤‚à¤¶",
+    "pronunciation": "",
+    "definition": "à¤²à¤¾à¤­à¤¾à¤‚à¤¶",
+    "example": "The company pays a high dividend to its investors.",
+    "category": "Arithmetic & Operations",
+    "subCategory": "Uncategorized"
+  },
+  {
+    "word": "Division",
+    "meaning": "à¤­à¤¾à¤—",
+    "pronunciation": "",
+    "definition": "à¤­à¤¾à¤—",
+    "example": "Division by zero is not possible.",
+    "category": "Arithmetic & Operations",
+    "subCategory": "Uncategorized"
   },
   {
     "word": "divisor",
@@ -90,6 +126,33 @@
     "subCategory": "Arithmetic/operations"
   },
   {
+    "word": "factor",
+    "meaning": "A number that divides exactly into another number without leaving a remainder",
+    "pronunciation": "",
+    "definition": "A number or quantity that when multiplied with another produces a given number or expression.",
+    "example": "The factors of 12 are 1, 2, 3, 4, 6, and 12.",
+    "category": "Arithmetic & Operations",
+    "subCategory": "Maths"
+  },
+  {
+    "word": "fraction",
+    "meaning": "A number that represents a part of a whole, written with a numerator over a denominator",
+    "pronunciation": "",
+    "definition": "à¤­à¤¿à¤¨à¥à¤¨",
+    "example": "One half is written as the fraction 1/2.",
+    "category": "Arithmetic & Operations",
+    "subCategory": "Maths"
+  },
+  {
+    "word": "integer",
+    "meaning": "A whole number that can be positive, negative, or zero",
+    "pronunciation": "",
+    "definition": "A whole number; a number that is not a fraction.",
+    "example": "â€“5, 0, and 12 are all integers.",
+    "category": "Arithmetic & Operations",
+    "subCategory": "Maths"
+  },
+  {
     "word": "minuend",
     "meaning": "",
     "pronunciation": "",
@@ -97,6 +160,24 @@
     "example": "In 10 - 4 = 6, 10 is the minuend.",
     "category": "Arithmetic & Operations",
     "subCategory": "Arithmetic/operations"
+  },
+  {
+    "word": "multiple",
+    "meaning": "A number that is the product of a given number and any whole number",
+    "pronunciation": "",
+    "definition": "A number that can be divided by another a certain number of times without a remainder.",
+    "example": "The multiples of 5 are 5, 10, 15, 20, and so on.",
+    "category": "Arithmetic & Operations",
+    "subCategory": "Maths"
+  },
+  {
+    "word": "Multiplication",
+    "meaning": "à¤—à¥à¤£à¤¾",
+    "pronunciation": "",
+    "definition": "à¤—à¥à¤£à¤¾",
+    "example": "He is learning the rules of multiplication.",
+    "category": "Arithmetic & Operations",
+    "subCategory": "Uncategorized"
   },
   {
     "word": "numerator",
@@ -115,6 +196,24 @@
     "example": "9 is an odd number.",
     "category": "Arithmetic & Operations",
     "subCategory": "Arithmetic/operations"
+  },
+  {
+    "word": "percentage",
+    "meaning": "A number or ratio expressed as a fraction of 100",
+    "pronunciation": "",
+    "definition": "à¤ªà¥à¤°à¤¤à¤¿à¤¶à¤¤",
+    "example": "She scored 90 percentage in her mathematics test.",
+    "category": "Arithmetic & Operations",
+    "subCategory": "Maths"
+  },
+  {
+    "word": "prime number",
+    "meaning": "A number greater than 1 that has no factors other than 1 and itself",
+    "pronunciation": "",
+    "definition": "A whole number greater than 1 whose only divisors are 1 and itself.",
+    "example": "7 is a prime number because it can only be divided by 1 and 7.",
+    "category": "Arithmetic & Operations",
+    "subCategory": "Maths"
   },
   {
     "word": "product",
@@ -144,6 +243,15 @@
     "subCategory": "Arithmetic/operations"
   },
   {
+    "word": "ratio",
+    "meaning": "A comparison of two quantities showing how many times one value contains or is contained within the other",
+    "pronunciation": "",
+    "definition": "The quantitative relation between two amounts showing the number of times one value contains or is contained within the other.",
+    "example": "The ratio of boys to girls in the class is 3:2.",
+    "category": "Arithmetic & Operations",
+    "subCategory": "Maths"
+  },
+  {
     "word": "remainder",
     "meaning": "",
     "pronunciation": "",
@@ -160,6 +268,15 @@
     "example": "The square root of 25 is 5.",
     "category": "Arithmetic & Operations",
     "subCategory": "Arithmetic/operations"
+  },
+  {
+    "word": "Subtraction",
+    "meaning": "à¤˜à¤Ÿà¤¾à¤µ",
+    "pronunciation": "",
+    "definition": "à¤˜à¤Ÿà¤¾à¤µ",
+    "example": "Subtraction is the opposite of addition.",
+    "category": "Arithmetic & Operations",
+    "subCategory": "Uncategorized"
   },
   {
     "word": "subtrahend",

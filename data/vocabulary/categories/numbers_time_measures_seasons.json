@@ -135,15 +135,6 @@
     "subCategory": "Numbers, Time, Measures & Seasons"
   },
   {
-    "word": "Early",
-    "meaning": "जल्दी (समय से पहले)",
-    "pronunciation": "??-?? (Er-lee)",
-    "definition": "Before the usual or expected time.",
-    "example": "He arrived early for the party and helped clean up.",
-    "category": "Numbers, Time, Measures & Seasons",
-    "subCategory": "Numbers, Time, Measures & Seasons"
-  },
-  {
     "word": "Enlightenment",
     "meaning": "",
     "pronunciation": "",
@@ -297,38 +288,11 @@
     "subCategory": "Measurement"
   },
   {
-    "word": "Late",
-    "meaning": "देर से",
-    "pronunciation": "??? (Late)",
-    "definition": "After the expected or usual time.",
-    "example": "Please do not be late for school tomorrow.",
-    "category": "Numbers, Time, Measures & Seasons",
-    "subCategory": "Numbers, Time, Measures & Seasons"
-  },
-  {
-    "word": "Later",
-    "meaning": "बाद में",
-    "pronunciation": "??-?? (Lay-ter)",
-    "definition": "At a time in the future.",
-    "example": "I cannot talk right now, I will call you later.",
-    "category": "Numbers, Time, Measures & Seasons",
-    "subCategory": "Numbers, Time, Measures & Seasons"
-  },
-  {
     "word": "liter",
     "meaning": "",
     "pronunciation": "",
     "definition": "A metric unit of capacity, formerly defined as the volume of one kilogram of water under standard conditions.",
     "example": "He bought a two-liter bottle of soda.",
-    "category": "Numbers, Time, Measures & Seasons",
-    "subCategory": "Measurement"
-  },
-  {
-    "word": "mass",
-    "meaning": "",
-    "pronunciation": "",
-    "definition": "A coherent, typically large body of matter with no definite shape.",
-    "example": "The mass of the rock was recorded in kilograms.",
     "category": "Numbers, Time, Measures & Seasons",
     "subCategory": "Measurement"
   },
@@ -423,15 +387,6 @@
     "subCategory": "Numbers, Time, Measures & Seasons"
   },
   {
-    "word": "Now",
-    "meaning": "अब / अभी",
-    "pronunciation": "???",
-    "definition": "At the present time.",
-    "example": "We need to leave the house now, or we will be late.",
-    "category": "Numbers, Time, Measures & Seasons",
-    "subCategory": "Numbers, Time, Measures & Seasons"
-  },
-  {
     "word": "On Time",
     "meaning": "At the correct or planned time; not late.",
     "pronunciation": "",
@@ -486,38 +441,11 @@
     "subCategory": "Measurement"
   },
   {
-    "word": "Today",
-    "meaning": "आज",
-    "pronunciation": "????",
-    "definition": "On this present day.",
-    "example": "We are going to have a picnic today because the weather is warm.",
-    "category": "Numbers, Time, Measures & Seasons",
-    "subCategory": "Numbers, Time, Measures & Seasons"
-  },
-  {
-    "word": "Tomorrow",
-    "meaning": "कल (आने वाला)",
-    "pronunciation": "??????",
-    "definition": "The day after today.",
-    "example": "I will have my English exam tomorrow morning.",
-    "category": "Numbers, Time, Measures & Seasons",
-    "subCategory": "Numbers, Time, Measures & Seasons"
-  },
-  {
     "word": "What Time Is It?",
     "meaning": "A common question used to ask for the current hour and minute.",
     "pronunciation": "",
     "definition": "A common question used to ask for the current hour and minute.",
     "example": "What time is it? - It is exactly ten o'clock.",
-    "category": "Numbers, Time, Measures & Seasons",
-    "subCategory": "Numbers, Time, Measures & Seasons"
-  },
-  {
-    "word": "Yesterday",
-    "meaning": "कल (बीता हुआ)",
-    "pronunciation": "???????",
-    "definition": "The day before today.",
-    "example": "Yesterday was Sunday, so I stayed home all day.",
     "category": "Numbers, Time, Measures & Seasons",
     "subCategory": "Numbers, Time, Measures & Seasons"
   }

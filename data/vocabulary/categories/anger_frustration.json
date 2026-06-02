@@ -54,15 +54,6 @@
     "subCategory": "Anger & Frustration"
   },
   {
-    "word": "angry",
-    "meaning": "गुस्सा (Gussa)",
-    "pronunciation": "?????? (ang-ree)",
-    "definition": "Having a strong feeling of displeasure.",
-    "example": "She was angry when she discovered she had been lied to.",
-    "category": "Anger & Frustration",
-    "subCategory": "Anger (moderate)"
-  },
-  {
     "word": "animosity",
     "meaning": "",
     "pronunciation": "",
@@ -79,15 +70,6 @@
     "example": "She felt annoyance when people interrupted her while she was speaking.",
     "category": "Anger & Frustration",
     "subCategory": "Anger & Frustration"
-  },
-  {
-    "word": "annoyed",
-    "meaning": "चिढ़ा हुआ / नाराज़ (Chidha hua / Naaraaz)",
-    "pronunciation": "uh-NOYD",
-    "definition": "Slightly angry or irritated.",
-    "example": "She was annoyed when the meeting started five minutes late.",
-    "category": "Anger & Frustration",
-    "subCategory": "Anger (mild)"
   },
   {
     "word": "antagonism",
@@ -270,6 +252,15 @@
     "subCategory": "Anger & Frustration"
   },
   {
+    "word": "frustration",
+    "meaning": "The feeling of being upset or annoyed as a result of being unable to change or achieve something",
+    "pronunciation": "",
+    "definition": "",
+    "example": "He felt frustration when the software kept crashing during his presentation.",
+    "category": "Anger & Frustration",
+    "subCategory": "Negative / Irritation"
+  },
+  {
     "word": "fury",
     "meaning": "",
     "pronunciation": "",
@@ -295,6 +286,15 @@
     "example": "He was grumpy without his morning coffee.",
     "category": "Anger & Frustration",
     "subCategory": "Anger & Frustration"
+  },
+  {
+    "word": "hostility",
+    "meaning": "Unfriendly or aggressive behaviour or attitudes towards someone",
+    "pronunciation": "",
+    "definition": "",
+    "example": "The hostility in his tone made it clear he was not willing to cooperate.",
+    "category": "Anger & Frustration",
+    "subCategory": "Negative / Aggression"
   },
   {
     "word": "Hotline",
@@ -369,6 +369,15 @@
     "subCategory": "Anger & Frustration"
   },
   {
+    "word": "jealousy",
+    "meaning": "A feeling of resentment towards someone because of their success or advantages",
+    "pronunciation": "",
+    "definition": "",
+    "example": "Jealousy crept in when he saw his colleague receiving all the praise.",
+    "category": "Anger & Frustration",
+    "subCategory": "Negative / Insecurity"
+  },
+  {
     "word": "livid",
     "meaning": "So angry as to appear pale or flushed; furiously enraged",
     "pronunciation": "",
@@ -441,6 +450,15 @@
     "subCategory": "Anger/frustration"
   },
   {
+    "word": "rage",
+    "meaning": "Violent, uncontrollable anger",
+    "pronunciation": "",
+    "definition": "",
+    "example": "He was in a fit of rage after discovering someone had stolen from him.",
+    "category": "Anger & Frustration",
+    "subCategory": "Negative / Aggression"
+  },
+  {
     "word": "resentful",
     "meaning": "Feeling anger and indignation at having been treated unfairly",
     "pronunciation": "",
@@ -448,6 +466,15 @@
     "example": "He was resentful of the favoritism shown to his sibling.",
     "category": "Anger & Frustration",
     "subCategory": "Anger & Frustration"
+  },
+  {
+    "word": "resentment",
+    "meaning": "Bitter indignation at having been treated unfairly",
+    "pronunciation": "",
+    "definition": "",
+    "example": "She harboured deep resentment towards her boss for taking credit for her work.",
+    "category": "Anger & Frustration",
+    "subCategory": "Food, Groceries & Taste Descriptors"
   },
   {
     "word": "Sector",

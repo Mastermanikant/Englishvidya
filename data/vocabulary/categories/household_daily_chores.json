@@ -1,14 +1,5 @@
 [
   {
-    "word": "adapter",
-    "meaning": "",
-    "pronunciation": "",
-    "definition": "",
-    "example": "",
-    "category": "Household & Daily Chores",
-    "subCategory": "Electronics & Gadgets"
-  },
-  {
     "word": "Aluminum foil",
     "meaning": "",
     "pronunciation": "",
@@ -151,15 +142,6 @@
     "example": "",
     "category": "Household & Daily Chores",
     "subCategory": "Chores"
-  },
-  {
-    "word": "charger",
-    "meaning": "??????",
-    "pronunciation": "",
-    "definition": "",
-    "example": "",
-    "category": "Household & Daily Chores",
-    "subCategory": "Electronics & Gadgets"
   },
   {
     "word": "Chopsticks",
@@ -342,15 +324,6 @@
     "subCategory": "Cleaning Supplies"
   },
   {
-    "word": "earbuds",
-    "meaning": "",
-    "pronunciation": "",
-    "definition": "",
-    "example": "",
-    "category": "Household & Daily Chores",
-    "subCategory": "Electronics & Gadgets"
-  },
-  {
     "word": "earrings",
     "meaning": "",
     "pronunciation": "",
@@ -358,24 +331,6 @@
     "example": "",
     "category": "Household & Daily Chores",
     "subCategory": "Belongings"
-  },
-  {
-    "word": "extension cord",
-    "meaning": "",
-    "pronunciation": "",
-    "definition": "",
-    "example": "",
-    "category": "Household & Daily Chores",
-    "subCategory": "Electronics & Gadgets"
-  },
-  {
-    "word": "flash drive",
-    "meaning": "",
-    "pronunciation": "",
-    "definition": "",
-    "example": "",
-    "category": "Household & Daily Chores",
-    "subCategory": "Electronics & Gadgets"
   },
   {
     "word": "fold",
@@ -394,6 +349,15 @@
     "example": "",
     "category": "Household & Daily Chores",
     "subCategory": "Household & Daily Chores"
+  },
+  {
+    "word": "Fork",
+    "meaning": "?????",
+    "pronunciation": "?????",
+    "definition": "",
+    "example": "You can fork the open-source project to add your custom features.",
+    "category": "Household & Daily Chores",
+    "subCategory": "Software Development & Lifecycle"
   },
   {
     "word": "frame",
@@ -493,15 +457,6 @@
     "example": "",
     "category": "Household & Daily Chores",
     "subCategory": "Belongings"
-  },
-  {
-    "word": "headphones",
-    "meaning": "",
-    "pronunciation": "",
-    "definition": "",
-    "example": "",
-    "category": "Household & Daily Chores",
-    "subCategory": "Electronics & Gadgets"
   },
   {
     "word": "keys",
@@ -675,24 +630,6 @@
     "subCategory": "Home"
   },
   {
-    "word": "plug",
-    "meaning": "",
-    "pronunciation": "",
-    "definition": "",
-    "example": "",
-    "category": "Household & Daily Chores",
-    "subCategory": "Electronics & Gadgets"
-  },
-  {
-    "word": "power bank",
-    "meaning": "",
-    "pronunciation": "",
-    "definition": "",
-    "example": "",
-    "category": "Household & Daily Chores",
-    "subCategory": "Electronics & Gadgets"
-  },
-  {
     "word": "purchase",
     "meaning": "",
     "pronunciation": "",
@@ -792,15 +729,6 @@
     "subCategory": "Chores"
   },
   {
-    "word": "smartphone",
-    "meaning": "",
-    "pronunciation": "",
-    "definition": "",
-    "example": "",
-    "category": "Household & Daily Chores",
-    "subCategory": "Electronics & Gadgets"
-  },
-  {
     "word": "smartwatch",
     "meaning": "",
     "pronunciation": "",
@@ -819,15 +747,6 @@
     "subCategory": "Home"
   },
   {
-    "word": "socket",
-    "meaning": "",
-    "pronunciation": "",
-    "definition": "",
-    "example": "",
-    "category": "Household & Daily Chores",
-    "subCategory": "Electronics & Gadgets"
-  },
-  {
     "word": "sofa",
     "meaning": "सोफा",
     "pronunciation": "????? (so-fa)",
@@ -835,6 +754,15 @@
     "example": "",
     "category": "Household & Daily Chores",
     "subCategory": "Home"
+  },
+  {
+    "word": "Spatula",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "An implement with a broad, flat, blunt blade.",
+    "example": "",
+    "category": "Household & Daily Chores",
+    "subCategory": "Uncategorized"
   },
   {
     "word": "speaker",
@@ -934,6 +862,15 @@
     "example": "",
     "category": "Household & Daily Chores",
     "subCategory": "Household & Daily Chores"
+  },
+  {
+    "word": "Tongs",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "An instrument used for picking up and holding things.",
+    "example": "",
+    "category": "Household & Daily Chores",
+    "subCategory": "Uncategorized"
   },
   {
     "word": "toothbrush",

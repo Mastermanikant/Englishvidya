@@ -2,7 +2,7 @@
     {
         "name": "Academic Vocabulary & Education",
         "slug": "academic_vocabulary_education",
-        "count": 318,
+        "count": 316,
         "icon": "🎓"
     },
     {
@@ -24,15 +24,9 @@
         "icon": "📚"
     },
     {
-        "name": "Adverbs & Adjectives Of Intensity",
-        "slug": "adverbs_adjectives_of_intensity",
-        "count": 17,
-        "icon": "📚"
-    },
-    {
         "name": "Algebra & Calculations",
         "slug": "algebra_calculations",
-        "count": 21,
+        "count": 29,
         "icon": "📊"
     },
     {
@@ -44,7 +38,7 @@
     {
         "name": "Anger & Frustration",
         "slug": "anger_frustration",
-        "count": 62,
+        "count": 65,
         "icon": "📚"
     },
     {
@@ -62,7 +56,7 @@
     {
         "name": "Arithmetic & Operations",
         "slug": "arithmetic_operations",
-        "count": 21,
+        "count": 34,
         "icon": "➕"
     },
     {
@@ -92,13 +86,13 @@
     {
         "name": "Beverages (Hot & Cold)",
         "slug": "beverages_hot_cold",
-        "count": 27,
+        "count": 30,
         "icon": "☕"
     },
     {
         "name": "Birds & Bird Sounds",
         "slug": "birds_bird_sounds",
-        "count": 88,
+        "count": 93,
         "icon": "🐦"
     },
     {
@@ -110,7 +104,7 @@
     {
         "name": "Business, Finance & Workplace English",
         "slug": "business_finance_workplace_english",
-        "count": 81,
+        "count": 86,
         "icon": "💼"
     },
     {
@@ -140,7 +134,7 @@
     {
         "name": "Clothing, Fashion & Accessories",
         "slug": "clothing_fashion_accessories",
-        "count": 39,
+        "count": 41,
         "icon": "👕"
     },
     {
@@ -230,7 +224,7 @@
     {
         "name": "Digital Communication & Collaboration",
         "slug": "digital_communication_collaboration",
-        "count": 17,
+        "count": 18,
         "icon": "📚"
     },
     {
@@ -248,19 +242,25 @@
     {
         "name": "Discourse Markers",
         "slug": "discourse_markers",
-        "count": 84,
+        "count": 79,
         "icon": "🗣"
     },
     {
         "name": "E-Commerce",
         "slug": "e_commerce",
-        "count": 20,
+        "count": 28,
         "icon": "🛒"
     },
     {
         "name": "Elections & Voting",
         "slug": "elections_voting",
         "count": 34,
+        "icon": "📚"
+    },
+    {
+        "name": "Electronics & Gadgets",
+        "slug": "electronics_gadgets",
+        "count": 16,
         "icon": "📚"
     },
     {
@@ -272,13 +272,13 @@
     {
         "name": "Emotions, Feelings & Wellness",
         "slug": "emotions_feelings_wellness",
-        "count": 389,
+        "count": 372,
         "icon": "😊"
     },
     {
         "name": "Energy & Electricity",
         "slug": "energy_electricity",
-        "count": 29,
+        "count": 35,
         "icon": "⚡"
     },
     {
@@ -332,7 +332,7 @@
     {
         "name": "Finance/accounting",
         "slug": "finance_accounting",
-        "count": 18,
+        "count": 23,
         "icon": "📚"
     },
     {
@@ -350,19 +350,19 @@
     {
         "name": "Food, Groceries & Taste Descriptors",
         "slug": "food_groceries_taste_descriptors",
-        "count": 353,
+        "count": 352,
         "icon": "🍎"
     },
     {
         "name": "Forces & Motion",
         "slug": "forces_motion",
-        "count": 20,
+        "count": 30,
         "icon": "⚙"
     },
     {
         "name": "General English Vocabulary",
         "slug": "general_english_vocabulary",
-        "count": 249,
+        "count": 1693,
         "icon": "📚"
     },
     {
@@ -374,7 +374,7 @@
     {
         "name": "Geometry & Shapes",
         "slug": "geometry_shapes",
-        "count": 23,
+        "count": 41,
         "icon": "🔶"
     },
     {
@@ -392,13 +392,13 @@
     {
         "name": "Grammar & Parts of Speech",
         "slug": "grammar_parts_of_speech",
-        "count": 200,
+        "count": 351,
         "icon": "📝"
     },
     {
         "name": "Greetings, Social Manners & Polite English",
         "slug": "greetings_social_manners_polite_english",
-        "count": 282,
+        "count": 267,
         "icon": "🤝"
     },
     {
@@ -416,7 +416,7 @@
     {
         "name": "Household & Daily Chores",
         "slug": "household_daily_chores",
-        "count": 119,
+        "count": 112,
         "icon": "🏠"
     },
     {
@@ -446,13 +446,13 @@
     {
         "name": "Instruction Verbs",
         "slug": "instruction_verbs",
-        "count": 19,
+        "count": 18,
         "icon": "📚"
     },
     {
         "name": "Instruments & Sound",
         "slug": "instruments_sound",
-        "count": 28,
+        "count": 25,
         "icon": "📚"
     },
     {
@@ -470,7 +470,7 @@
     {
         "name": "Linking Words & Connectors",
         "slug": "linking_words_connectors",
-        "count": 91,
+        "count": 90,
         "icon": "🔗"
     },
     {
@@ -488,13 +488,7 @@
     {
         "name": "Marketing/sales",
         "slug": "marketing_sales",
-        "count": 15,
-        "icon": "📚"
-    },
-    {
-        "name": "Maths",
-        "slug": "maths",
-        "count": 26,
+        "count": 20,
         "icon": "📚"
     },
     {
@@ -522,6 +516,12 @@
         "icon": "📚"
     },
     {
+        "name": "Meetings/negotiation",
+        "slug": "meetings_negotiation",
+        "count": 18,
+        "icon": "📚"
+    },
+    {
         "name": "Mindfulness Practices",
         "slug": "mindfulness_practices",
         "count": 28,
@@ -530,7 +530,7 @@
     {
         "name": "Musical Notation & Theory",
         "slug": "musical_notation_theory",
-        "count": 25,
+        "count": 23,
         "icon": "📚"
     },
     {
@@ -542,13 +542,13 @@
     {
         "name": "Negotiation Strategies",
         "slug": "negotiation_strategies",
-        "count": 32,
+        "count": 29,
         "icon": "📚"
     },
     {
         "name": "Numbers, Time, Measures & Seasons",
         "slug": "numbers_time_measures_seasons",
-        "count": 58,
+        "count": 50,
         "icon": "⏰"
     },
     {
@@ -566,7 +566,7 @@
     {
         "name": "Payments & Transactions",
         "slug": "payments_transactions",
-        "count": 31,
+        "count": 30,
         "icon": "📚"
     },
     {
@@ -584,7 +584,7 @@
     {
         "name": "Philosophy, Logic & Thinking Skills",
         "slug": "philosophy_logic_thinking_skills",
-        "count": 456,
+        "count": 453,
         "icon": "🧠"
     },
     {
@@ -596,7 +596,7 @@
     {
         "name": "Physical Geography",
         "slug": "physical_geography",
-        "count": 20,
+        "count": 17,
         "icon": "📚"
     },
     {
@@ -606,15 +606,9 @@
         "icon": "📚"
     },
     {
-        "name": "Presentations",
-        "slug": "presentations",
-        "count": 15,
-        "icon": "📚"
-    },
-    {
         "name": "Print & Digital Press",
         "slug": "print_digital_press",
-        "count": 24,
+        "count": 23,
         "icon": "📚"
     },
     {
@@ -632,13 +626,13 @@
     {
         "name": "Remote Collaboration",
         "slug": "remote_collaboration",
-        "count": 28,
+        "count": 24,
         "icon": "📚"
     },
     {
         "name": "Remote Work",
         "slug": "remote_work",
-        "count": 20,
+        "count": 19,
         "icon": "📚"
     },
     {
@@ -650,7 +644,7 @@
     {
         "name": "Retail & Shopping",
         "slug": "retail_shopping",
-        "count": 32,
+        "count": 27,
         "icon": "📚"
     },
     {
@@ -662,13 +656,13 @@
     {
         "name": "Science",
         "slug": "science",
-        "count": 24,
+        "count": 21,
         "icon": "📚"
     },
     {
         "name": "Shame, Guilt & Embarrassment",
         "slug": "shame_guilt_embarrassment",
-        "count": 33,
+        "count": 34,
         "icon": "📚"
     },
     {
@@ -680,7 +674,7 @@
     {
         "name": "Social",
         "slug": "social",
-        "count": 23,
+        "count": 20,
         "icon": "📚"
     },
     {
@@ -692,7 +686,7 @@
     {
         "name": "Space & Astronomy",
         "slug": "space_astronomy",
-        "count": 29,
+        "count": 34,
         "icon": "🚀"
     },
     {
@@ -716,7 +710,7 @@
     {
         "name": "Strategic Thought",
         "slug": "strategic_thought",
-        "count": 29,
+        "count": 27,
         "icon": "📚"
     },
     {
@@ -728,7 +722,7 @@
     {
         "name": "Technology, Computers & AI",
         "slug": "technology_computers_ai",
-        "count": 368,
+        "count": 361,
         "icon": "💻"
     },
     {
@@ -758,7 +752,7 @@
     {
         "name": "Travel, Transport & Directions",
         "slug": "travel_transport_directions",
-        "count": 171,
+        "count": 174,
         "icon": "✈"
     },
     {
@@ -782,7 +776,7 @@
     {
         "name": "Weak vs Strong Alternatives",
         "slug": "weak_vs_strong_alternatives",
-        "count": 350,
+        "count": 319,
         "icon": "📚"
     },
     {

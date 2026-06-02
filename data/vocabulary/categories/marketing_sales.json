@@ -1,5 +1,14 @@
 [
   {
+    "word": "Analytics",
+    "meaning": "à¤µà¤¿à¤¶à¥à¤²à¥‡à¤·à¤¿à¤•à¥€",
+    "pronunciation": "",
+    "definition": "à¤µà¤¿à¤¶à¥à¤²à¥‡à¤·à¤¿à¤•à¥€",
+    "example": "Data analytics helps businesses make better decisions.",
+    "category": "Marketing/sales",
+    "subCategory": "Uncategorized"
+  },
+  {
     "word": "Brand Equity",
     "meaning": "",
     "pronunciation": "",
@@ -27,6 +36,15 @@
     "subCategory": "Marketing/sales"
   },
   {
+    "word": "conversion",
+    "meaning": "When a user completes a desired action, like making a purchase.",
+    "pronunciation": "",
+    "definition": "The point at which a recipient of a marketing message performs a desired action.",
+    "example": "",
+    "category": "Marketing/sales",
+    "subCategory": "Uncategorized"
+  },
+  {
     "word": "CRM",
     "meaning": "",
     "pronunciation": "",
@@ -45,6 +63,15 @@
     "subCategory": "Marketing/sales"
   },
   {
+    "word": "demographics",
+    "meaning": "Statistical data relating to the population and particular groups within it.",
+    "pronunciation": "",
+    "definition": "Statistical data relating to the population and particular groups within it.",
+    "example": "",
+    "category": "Marketing/sales",
+    "subCategory": "Uncategorized"
+  },
+  {
     "word": "Funnel",
     "meaning": "",
     "pronunciation": "",
@@ -61,6 +88,15 @@
     "example": "",
     "category": "Marketing/sales",
     "subCategory": "Marketing/sales"
+  },
+  {
+    "word": "niche",
+    "meaning": "A specialized segment of the market or specific topic a creator focuses on.",
+    "pronunciation": "",
+    "definition": "",
+    "example": "",
+    "category": "Marketing/sales",
+    "subCategory": "Uncategorized"
   },
   {
     "word": "Omnichannel",
@@ -115,6 +151,15 @@
     "example": "",
     "category": "Marketing/sales",
     "subCategory": "Marketing/sales"
+  },
+  {
+    "word": "seo",
+    "meaning": "Search Engine Optimization; practices to increase a site's visibility.",
+    "pronunciation": "",
+    "definition": "Search Engine Optimization; the process of improving the quality and quantity of website traffic to a website or a web page from search engines.",
+    "example": "",
+    "category": "Marketing/sales",
+    "subCategory": "Uncategorized"
   },
   {
     "word": "Targeting",

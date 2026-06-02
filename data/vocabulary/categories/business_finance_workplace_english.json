@@ -9,13 +9,22 @@
     "subCategory": "Hybrid Work"
   },
   {
-    "word": "Adjourn",
-    "meaning": "",
+    "word": "agile",
+    "meaning": "A project management approach based on iterative progress and flexibility",
     "pronunciation": "",
-    "definition": "Break off (a meeting, legal case, or game) with the intention of resuming it later.",
-    "example": "",
+    "definition": "Relating to or denoting a method of project management, used especially for software development, that is characterized by the division of tasks into short phases of work and frequent reassessment and adaptation of plans.",
+    "example": "The development team follows an agile methodology with two-week sprints.",
     "category": "Business, Finance & Workplace English",
-    "subCategory": "Meetings/negotiation"
+    "subCategory": "Remote Collaboration"
+  },
+  {
+    "word": "alignment",
+    "meaning": "Ensuring that goals, strategies, resources, and people are working coherently toward a common objective.",
+    "pronunciation": "",
+    "definition": "A position of agreement or alliance.",
+    "example": "Strategic alignment across departments prevented duplication of effort and accelerated delivery.",
+    "category": "Business, Finance & Workplace English",
+    "subCategory": "Strategic Thought"
   },
   {
     "word": "anchor day",
@@ -27,31 +36,22 @@
     "subCategory": "Hybrid Work"
   },
   {
-    "word": "Arbitration",
-    "meaning": "",
+    "word": "animation",
+    "meaning": "Movement effects applied to text or objects within a presentation slide",
     "pronunciation": "",
-    "definition": "The use of an arbitrator to settle a dispute.",
-    "example": "",
+    "definition": "Movement effects applied to text or objects within a presentation slide",
+    "example": "Each bullet point appeared with a fade animation.",
     "category": "Business, Finance & Workplace English",
-    "subCategory": "Meetings/negotiation"
+    "subCategory": "Presentations"
   },
   {
-    "word": "Bag",
-    "meaning": "थैला / बैग",
-    "pronunciation": "??? (bag)",
-    "definition": "A container made of paper, plastic, or cloth, used for carrying things.",
-    "example": "Would you like a paper bag for your groceries?",
-    "category": "Business, Finance & Workplace English",
-    "subCategory": "Shopping Transactions"
-  },
-  {
-    "word": "Bargaining",
-    "meaning": "",
+    "word": "audience engagement",
+    "meaning": "Techniques used to involve and interest the audience during a presentation",
     "pronunciation": "",
-    "definition": "Negotiate the terms and conditions of a transaction.",
-    "example": "",
+    "definition": "Techniques used to involve and interest the audience during a presentation",
+    "example": "Quizzes and polls improve audience engagement during webinars.",
     "category": "Business, Finance & Workplace English",
-    "subCategory": "Meetings/negotiation"
+    "subCategory": "Presentations"
   },
   {
     "word": "Bluetooth",
@@ -63,13 +63,13 @@
     "subCategory": "Networking"
   },
   {
-    "word": "Brainstorming",
-    "meaning": "",
+    "word": "bullet point",
+    "meaning": "A short piece of information highlighted with a dot or symbol in a list",
     "pronunciation": "",
-    "definition": "A group discussion to produce ideas or solve problems.",
-    "example": "",
+    "definition": "A short piece of information highlighted with a dot or symbol in a list",
+    "example": "Keep bullet points concise for better audience readability.",
     "category": "Business, Finance & Workplace English",
-    "subCategory": "Meetings/negotiation"
+    "subCategory": "Presentations"
   },
   {
     "word": "Buy",
@@ -135,6 +135,15 @@
     "subCategory": "Shopping Transactions"
   },
   {
+    "word": "co-presenter",
+    "meaning": "A person who shares the role of presenting alongside the main presenter",
+    "pronunciation": "",
+    "definition": "A person who shares the role of presenting alongside the main presenter",
+    "example": "The marketing director joined as co-presenter for the product launch webinar.",
+    "category": "Business, Finance & Workplace English",
+    "subCategory": "Presentations"
+  },
+  {
     "word": "Core Competency",
     "meaning": "",
     "pronunciation": "",
@@ -142,15 +151,6 @@
     "example": "",
     "category": "Business, Finance & Workplace English",
     "subCategory": "Management/leadership"
-  },
-  {
-    "word": "Counterproposal",
-    "meaning": "",
-    "pronunciation": "",
-    "definition": "An alternative proposal made in response to a previous proposal that is regarded as unacceptable or unsatisfactory.",
-    "example": "",
-    "category": "Business, Finance & Workplace English",
-    "subCategory": "Meetings/negotiation"
   },
   {
     "word": "create",
@@ -169,6 +169,15 @@
     "example": "Please crop the team photo to focus on the speakers.",
     "category": "Business, Finance & Workplace English",
     "subCategory": "Content & Digital Asset Management"
+  },
+  {
+    "word": "data visualisation",
+    "meaning": "The graphical representation of information and data",
+    "pronunciation": "",
+    "definition": "The graphical representation of information and data",
+    "example": "Effective data visualisation makes complex trends easy to understand.",
+    "category": "Business, Finance & Workplace English",
+    "subCategory": "Presentations"
   },
   {
     "word": "Delegation",
@@ -216,15 +225,6 @@
     "subCategory": "Hybrid Work"
   },
   {
-    "word": "Facilitator",
-    "meaning": "",
-    "pronunciation": "",
-    "definition": "A person or thing that makes an action or process easy or easier.",
-    "example": "",
-    "category": "Business, Finance & Workplace English",
-    "subCategory": "Meetings/negotiation"
-  },
-  {
     "word": "Fetch",
     "meaning": "An action performed by a software program to retrieve data from a remote server or database (strong alternative to 'go get data' or 'grab data').",
     "pronunciation": "",
@@ -243,13 +243,13 @@
     "subCategory": "Hybrid Work"
   },
   {
-    "word": "Follow-up",
-    "meaning": "",
+    "word": "handout",
+    "meaning": "A printed or digital document distributed to audience members during a presentation",
     "pronunciation": "",
-    "definition": "Further action or investigation.",
-    "example": "",
+    "definition": "A printed or digital document distributed to audience members during a presentation",
+    "example": "Participants received a handout summarising the key points.",
     "category": "Business, Finance & Workplace English",
-    "subCategory": "Meetings/negotiation"
+    "subCategory": "Presentations"
   },
   {
     "word": "Host",
@@ -324,13 +324,13 @@
     "subCategory": "Hybrid Work"
   },
   {
-    "word": "Interlocutor",
-    "meaning": "",
+    "word": "infographic",
+    "meaning": "A visual representation of information or data using graphics",
     "pronunciation": "",
-    "definition": "A person who takes part in a dialogue or conversation.",
-    "example": "",
+    "definition": "A visual representation of information or data using graphics",
+    "example": "The infographic summarised the survey results in a clear format.",
     "category": "Business, Finance & Workplace English",
-    "subCategory": "Meetings/negotiation"
+    "subCategory": "Presentations"
   },
   {
     "word": "IP Address",
@@ -340,6 +340,15 @@
     "example": "Your IP address tells websites roughly where in the world you are located.",
     "category": "Business, Finance & Workplace English",
     "subCategory": "Networking"
+  },
+  {
+    "word": "key takeaway",
+    "meaning": "The most important point or lesson from a presentation or discussion",
+    "pronunciation": "",
+    "definition": "The most important point or lesson from a presentation or discussion",
+    "example": "The key takeaway is that early planning reduces project risks.",
+    "category": "Business, Finance & Workplace English",
+    "subCategory": "Presentations"
   },
   {
     "word": "labor",
@@ -378,6 +387,15 @@
     "subCategory": "Working"
   },
   {
+    "word": "Metric",
+    "meaning": "à¤®à¤¾à¤ªà¤¦à¤‚à¤¡",
+    "pronunciation": "",
+    "definition": "à¤®à¤¾à¤ªà¤¦à¤‚à¤¡",
+    "example": "We use different metrics to measure our success.",
+    "category": "Business, Finance & Workplace English",
+    "subCategory": "Uncategorized"
+  },
+  {
     "word": "negotiate",
     "meaning": "",
     "pronunciation": "",
@@ -403,6 +421,15 @@
     "example": "Office hotelling apps allow workers to reserve desks, meeting rooms, and lockers before they arrive.",
     "category": "Business, Finance & Workplace English",
     "subCategory": "Hybrid Work"
+  },
+  {
+    "word": "onboarding",
+    "meaning": "The process of integrating a new employee or user into a system or organisation",
+    "pronunciation": "",
+    "definition": "The action or process of integrating a new employee into an organization or familiarizing a new customer or client with one's products or services.",
+    "example": "Virtual onboarding helps remote employees feel welcomed from day one.",
+    "category": "Business, Finance & Workplace English",
+    "subCategory": "Remote Collaboration"
   },
   {
     "word": "Open",
@@ -450,22 +477,31 @@
     "subCategory": "Management/leadership"
   },
   {
-    "word": "Post-mortem",
-    "meaning": "",
+    "word": "poll",
+    "meaning": "An interactive feature in a message or meeting allowing participants to vote on options",
     "pronunciation": "",
-    "definition": "An analysis or discussion of an event held soon after it has occurred, especially in order to determine why it was a failure.",
-    "example": "",
+    "definition": "An interactive feature in a message or meeting allowing participants to vote on options",
+    "example": "The host launched a live poll to gauge audience opinions.",
     "category": "Business, Finance & Workplace English",
-    "subCategory": "Meetings/negotiation"
+    "subCategory": "Presentations"
   },
   {
-    "word": "Price",
-    "meaning": "दाम / कीमत",
-    "pronunciation": "?????? (Price)",
-    "definition": "The amount of money expected or required for something.",
-    "example": "The price of fruit has gone up this week.",
+    "word": "presenter",
+    "meaning": "The person delivering a presentation or leading a meeting",
+    "pronunciation": "",
+    "definition": "The person delivering a presentation or leading a meeting",
+    "example": "The presenter spoke clearly and maintained eye contact with the camera.",
     "category": "Business, Finance & Workplace English",
-    "subCategory": "Shopping Transactions"
+    "subCategory": "Presentations"
+  },
+  {
+    "word": "presenter view",
+    "meaning": "A display mode showing the speaker's notes and upcoming slides during a presentation",
+    "pronunciation": "",
+    "definition": "A display mode showing the speaker's notes and upcoming slides during a presentation",
+    "example": "He used presenter view so he could see his notes while the audience saw the slides.",
+    "category": "Business, Finance & Workplace English",
+    "subCategory": "Presentations"
   },
   {
     "word": "Protocol",
@@ -504,24 +540,6 @@
     "subCategory": "Content & Digital Asset Management"
   },
   {
-    "word": "Quorum",
-    "meaning": "",
-    "pronunciation": "",
-    "definition": "The minimum number of members of an assembly or society that must be present at any of its meetings to make the proceedings of that meeting valid.",
-    "example": "",
-    "category": "Business, Finance & Workplace English",
-    "subCategory": "Meetings/negotiation"
-  },
-  {
-    "word": "Reconvene",
-    "meaning": "",
-    "pronunciation": "",
-    "definition": "Convene or cause to convene again, especially after a pause in proceedings.",
-    "example": "",
-    "category": "Business, Finance & Workplace English",
-    "subCategory": "Meetings/negotiation"
-  },
-  {
     "word": "repair",
     "meaning": "",
     "pronunciation": "",
@@ -529,6 +547,15 @@
     "example": "",
     "category": "Business, Finance & Workplace English",
     "subCategory": "Working"
+  },
+  {
+    "word": "run of show",
+    "meaning": "A detailed timeline of events during a presentation or event",
+    "pronunciation": "",
+    "definition": "A detailed timeline of events during a presentation or event",
+    "example": "The event coordinator shared the run of show with all speakers.",
+    "category": "Business, Finance & Workplace English",
+    "subCategory": "Presentations"
   },
   {
     "word": "Sell",
@@ -558,6 +585,24 @@
     "subCategory": "Networking"
   },
   {
+    "word": "slide deck",
+    "meaning": "A set of slides used in a presentation, typically created with software",
+    "pronunciation": "",
+    "definition": "A set of slides used in a presentation, typically created with software",
+    "example": "She prepared a polished slide deck for the investor pitch.",
+    "category": "Business, Finance & Workplace English",
+    "subCategory": "Presentations"
+  },
+  {
+    "word": "stakeholder",
+    "meaning": "A person or group with an interest in the outcome of a project or decision",
+    "pronunciation": "",
+    "definition": "à¤¹à¤¿à¤¤à¤§à¤¾à¤°à¤•",
+    "example": "Keep all stakeholders informed of project progress via weekly updates.",
+    "category": "Business, Finance & Workplace English",
+    "subCategory": "Remote Collaboration"
+  },
+  {
     "word": "stamp",
     "meaning": "",
     "pronunciation": "",
@@ -574,15 +619,6 @@
     "example": "",
     "category": "Business, Finance & Workplace English",
     "subCategory": "Office & Stationery"
-  },
-  {
-    "word": "Stipulation",
-    "meaning": "",
-    "pronunciation": "",
-    "definition": "A condition or requirement that is specified or demanded as part of an agreement.",
-    "example": "",
-    "category": "Business, Finance & Workplace English",
-    "subCategory": "Meetings/negotiation"
   },
   {
     "word": "Stream",
@@ -639,13 +675,22 @@
     "subCategory": "Content & Digital Asset Management"
   },
   {
-    "word": "Term sheet",
-    "meaning": "",
+    "word": "talking points",
+    "meaning": "Key ideas or facts a speaker wishes to convey during a presentation",
     "pronunciation": "",
-    "definition": "A non-binding agreement setting forth the basic terms and conditions under which an investment will be made.",
-    "example": "",
+    "definition": "Key ideas or facts a speaker wishes to convey during a presentation",
+    "example": "He prepared talking points to stay on track during the interview.",
     "category": "Business, Finance & Workplace English",
-    "subCategory": "Meetings/negotiation"
+    "subCategory": "Presentations"
+  },
+  {
+    "word": "touchpoint",
+    "meaning": "A point of contact or interaction between team members or with a client",
+    "pronunciation": "",
+    "definition": "A point of contact or interaction, especially between a business and its customers or consumers.",
+    "example": "Regular touchpoints help maintain strong client relationships.",
+    "category": "Business, Finance & Workplace English",
+    "subCategory": "Remote Collaboration"
   },
   {
     "word": "Track",
@@ -675,15 +720,6 @@
     "subCategory": "Working"
   },
   {
-    "word": "Ultimatum",
-    "meaning": "",
-    "pronunciation": "",
-    "definition": "A final demand or statement of terms, the rejection of which will result in retaliation or a breakdown in relations.",
-    "example": "",
-    "category": "Business, Finance & Workplace English",
-    "subCategory": "Meetings/negotiation"
-  },
-  {
     "word": "Upload",
     "meaning": "To transfer data or files from a local computer or device to a remote server or website (strong alternative to 'send file to site' or 'put file on portal').",
     "pronunciation": "",
@@ -691,6 +727,15 @@
     "example": "You can upload your profile picture through the settings page.",
     "category": "Business, Finance & Workplace English",
     "subCategory": "Content & Digital Asset Management"
+  },
+  {
+    "word": "vision",
+    "meaning": "A clear, inspiring picture of a desired future state that guides long-term planning and decision-making.",
+    "pronunciation": "",
+    "definition": "à¤¦à¥‚à¤°à¤¦à¥ƒà¤·à¥à¤Ÿà¤¿ (à¤µà¤¿à¤œà¤¼à¤¨)",
+    "example": "The founder's bold vision for carbon-neutral logistics attracted investors who shared her ambition.",
+    "category": "Business, Finance & Workplace English",
+    "subCategory": "Strategic Thought"
   },
   {
     "word": "Wi-Fi",

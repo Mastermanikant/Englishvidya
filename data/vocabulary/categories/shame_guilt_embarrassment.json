@@ -108,6 +108,15 @@
     "subCategory": "Disgust/guilt"
   },
   {
+    "word": "disgust",
+    "meaning": "A strong feeling of revulsion or strong disapproval",
+    "pronunciation": "",
+    "definition": "",
+    "example": "She felt disgust when she saw the unhygienic conditions of the place.",
+    "category": "Shame, Guilt & Embarrassment",
+    "subCategory": "Disgust & Contempt"
+  },
+  {
     "word": "dishonor",
     "meaning": "",
     "pronunciation": "",
@@ -126,13 +135,13 @@
     "subCategory": "Disgust/guilt"
   },
   {
-    "word": "embarrassed",
-    "meaning": "शर्मिंदा (Sharminda)",
-    "pronunciation": "im-BAR-uhst",
-    "definition": "Feeling ashamed or self-conscious.",
-    "example": "He was embarrassed when he tripped in front of everyone.",
+    "word": "embarrassment",
+    "meaning": "A feeling of awkwardness or self-consciousness caused by a situation",
+    "pronunciation": "",
+    "definition": "",
+    "example": "He blushed with embarrassment when he tripped in front of everyone.",
     "category": "Shame, Guilt & Embarrassment",
-    "subCategory": "Shame / Embarrassment (moderate)"
+    "subCategory": "Negative / Social"
   },
   {
     "word": "guilt",
@@ -142,15 +151,6 @@
     "example": "She was overcome with guilt after forgetting her friend's birthday.",
     "category": "Shame, Guilt & Embarrassment",
     "subCategory": "Negative / Remorse"
-  },
-  {
-    "word": "guilty",
-    "meaning": "दोषी / अपराधी महसूस करना (Doshi / Apraadhi mahsoos karna)",
-    "pronunciation": "GIL-tee",
-    "definition": "Feeling bad because you have done something wrong.",
-    "example": "He felt guilty for missing his friend's important event.",
-    "category": "Shame, Guilt & Embarrassment",
-    "subCategory": "Guilt / Remorse"
   },
   {
     "word": "humiliated",
@@ -178,6 +178,15 @@
     "example": "He was mortified when his voice cracked during the solo.",
     "category": "Shame, Guilt & Embarrassment",
     "subCategory": "Shame / Embarrassment (strong)"
+  },
+  {
+    "word": "Nausea",
+    "meaning": "A feeling of sickness with an inclination to vomit.",
+    "pronunciation": "",
+    "definition": "A feeling of sickness with an inclination to vomit.",
+    "example": "",
+    "category": "Shame, Guilt & Embarrassment",
+    "subCategory": "Health, Diseases & Symptoms"
   },
   {
     "word": "penitence",

@@ -1,5 +1,32 @@
 [
   {
+    "word": "ABSOLUTELY",
+    "meaning": "पूर्ण रूप से / बिल्कुल (poorn roop se / bilkul)",
+    "pronunciation": "????????? (ab-so-loot-lee)",
+    "definition": "Used to say 'yes' strongly or to emphasize that something is completely true.",
+    "example": "Can you send me the slides? - Absolutely, I'll email them now.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Adverbs & Adjectives Of Intensity"
+  },
+  {
+    "word": "actually",
+    "meaning": "दरअसल / वास्तव में (darasal / vaastav mein)",
+    "pronunciation": "???????? (ak-choo-uh-lee)",
+    "definition": "Used to state the truth, especially when it is different from what was expected.",
+    "example": "I thought he was angry, but actually, he was just tired.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Discourse Markers"
+  },
+  {
+    "word": "Agree",
+    "meaning": "सहमत होना, राजी होना",
+    "pronunciation": "अग्री (uh-gree)",
+    "definition": "To have the same opinion about something.",
+    "example": "",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Uncategorized"
+  },
+  {
     "word": "air",
     "meaning": "हवा",
     "pronunciation": "ऐर (air)",
@@ -36,6 +63,60 @@
     "subCategory": "Adjective"
   },
   {
+    "word": "angry",
+    "meaning": "गुस्सा (Gussa)",
+    "pronunciation": "?????? (ang-ree)",
+    "definition": "Having a strong feeling of displeasure.",
+    "example": "She was angry when she discovered she had been lied to.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Anger (moderate)"
+  },
+  {
+    "word": "annoyed",
+    "meaning": "चिढ़ा हुआ / नाराज़ (Chidha hua / Naaraaz)",
+    "pronunciation": "uh-NOYD",
+    "definition": "Slightly angry or irritated.",
+    "example": "She was annoyed when the meeting started five minutes late.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Anger (mild)"
+  },
+  {
+    "word": "answer",
+    "meaning": "जवाब देना (jawab dena)",
+    "pronunciation": "???? (ahn-sur)",
+    "definition": "A thing said, written, or done to deal with or as a reaction to a question.",
+    "example": "Of course I can, he answered.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Uncategorized"
+  },
+  {
+    "word": "anxious",
+    "meaning": "चिंतित / बेचैन (Chintit / Bechain)",
+    "pronunciation": "ANGK-shuhs",
+    "definition": "Experiencing worry, unease, or nervousness.",
+    "example": "He was anxious about the interview for his dream job.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Fear & Anxiety"
+  },
+  {
+    "word": "anyway",
+    "meaning": "ख़ैर / वैसे भी (khair / vaise bhi)",
+    "pronunciation": "???-?? (eh-nee-way)",
+    "definition": "Used to change the subject, return to a previous subject, or end a conversation.",
+    "example": "Anyway, let's get back to what we were discussing.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Discourse Markers"
+  },
+  {
+    "word": "Apologize",
+    "meaning": "माफी मांगना",
+    "pronunciation": "अपोलोजाइज़ (uh-pol-uh-jyz)",
+    "definition": "To say sorry for something that you have done wrong.",
+    "example": "",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Uncategorized"
+  },
+  {
     "word": "Arm",
     "meaning": "बांह / हाथ",
     "pronunciation": "आर्म (aarm)",
@@ -45,6 +126,15 @@
     "subCategory": "Grammar & Parts Of Speech"
   },
   {
+    "word": "arrogant",
+    "meaning": "घमंडी, अभिमानी",
+    "pronunciation": "??????? (ar-uh-gunt)",
+    "definition": "Believing that you are better or more important than other people.",
+    "example": "His arrogant attitude made it hard to work with him.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Pride (negative)"
+  },
+  {
     "word": "AS FAR AS",
     "meaning": "Textbook: Requires a verb to complete the clause (e.g., 'As far as I know'). Spoken Native: In spoken English, often followed immediately by a noun phrase to introduce a topic (e.g., 'As far as the budget...').",
     "pronunciation": "",
@@ -52,6 +142,33 @@
     "example": "As far as public transit, the city is doing a great job.",
     "category": "Grammar & Parts of Speech",
     "subCategory": "Grammar & Parts Of Speech"
+  },
+  {
+    "word": "Ask",
+    "meaning": "पूछना / मांगना (poochna / maangna)",
+    "pronunciation": "???? (ask)",
+    "definition": "To say something in order to obtain an answer or some information.",
+    "example": "Don't be afraid to ask the teacher if you need help.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Verbs Communication"
+  },
+  {
+    "word": "AWESOME",
+    "meaning": "बहुत बढ़िया / शानदार (bahut badhiya / shandaar)",
+    "pronunciation": "??? (aw-sum)",
+    "definition": "Extremely good or impressive.",
+    "example": "That's awesome news! Congratulations on the promotion.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Adverbs & Adjectives Of Intensity"
+  },
+  {
+    "word": "awful",
+    "meaning": "भयानक / बहुत बुरा (bhayanak / bahut bura)",
+    "pronunciation": "????? (aw-ful)",
+    "definition": "Very bad or unpleasant.",
+    "example": "The performance was awful.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Abominable, Egregious, Heinous, Reprehensible, Execrable"
   },
   {
     "word": "Back",
@@ -72,6 +189,24 @@
     "subCategory": "Grammar & Parts Of Speech"
   },
   {
+    "word": "Bag",
+    "meaning": "थैला / बैग",
+    "pronunciation": "??? (bag)",
+    "definition": "A container made of paper, plastic, or cloth, used for carrying things.",
+    "example": "Would you like a paper bag for your groceries?",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Shopping Transactions"
+  },
+  {
+    "word": "BASICALLY",
+    "meaning": "मूल रूप से / कुल मिलाकर (mool roop se / kul milakar)",
+    "pronunciation": "??????? (bay-sik-lee)",
+    "definition": "Used to summarize or explain something in a simple way.",
+    "example": "Basically, we just need to sign the contract and we're done.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Discourse Markers"
+  },
+  {
     "word": "bathroom",
     "meaning": "बाथरूम / स्नानघर",
     "pronunciation": "बाथरूम् (baath-ruum)",
@@ -81,6 +216,15 @@
     "subCategory": "Grammar & Parts Of Speech"
   },
   {
+    "word": "BEAT",
+    "meaning": "Textbook: To strike repeatedly. Spoken Native: Used as a predicate adjective meaning completely exhausted or tired.",
+    "pronunciation": "",
+    "definition": "Textbook: To strike repeatedly. Spoken Native: Used as a predicate adjective meaning completely exhausted or tired.",
+    "example": "I'm beat; I'm going to bed early tonight.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Adverbs & Adjectives Of Intensity"
+  },
+  {
     "word": "BEEN",
     "meaning": "Textbook: Past participle of 'be.' Spoken Native: In African American Vernacular English (AAVE) and spoken slang, 'been' (stressed) is used to mean something started in the far past and is still true.",
     "pronunciation": "",
@@ -88,6 +232,24 @@
     "example": "I been known about that movie; it's a classic.",
     "category": "Grammar & Parts of Speech",
     "subCategory": "Grammar & Parts Of Speech"
+  },
+  {
+    "word": "believe",
+    "meaning": "मानना / विश्वास करना (maanna / vishwas karna)",
+    "pronunciation": "बिलीव (bi-leev)",
+    "definition": "To accept that something is true, especially without proof.",
+    "example": "",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Uncategorized"
+  },
+  {
+    "word": "Blood",
+    "meaning": "à¤°à¤•à¥à¤¤",
+    "pronunciation": "/bl?d/",
+    "definition": "The red liquid that flows through the bodies of humans and animals.",
+    "example": "The heart pumps blood around the body.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Uncategorized"
   },
   {
     "word": "Bone",
@@ -108,6 +270,15 @@
     "subCategory": "Grammar & Parts Of Speech"
   },
   {
+    "word": "bored",
+    "meaning": "ऊबा हुआ (Ooba hua)",
+    "pronunciation": "bord",
+    "definition": "Feeling unhappy because something is not interesting.",
+    "example": "He was bored during the long, uneventful bus ride.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Boredom / Apathy (mild)"
+  },
+  {
     "word": "Boss",
     "meaning": "मालिक, बॉस",
     "pronunciation": "बॉस (baws)",
@@ -124,6 +295,15 @@
     "example": "",
     "category": "Grammar & Parts of Speech",
     "subCategory": "Grammar & Parts Of Speech"
+  },
+  {
+    "word": "Brain",
+    "meaning": "à¤®à¤¸à¥à¤¤à¤¿à¤·à¥à¤•",
+    "pronunciation": "/bre?n/",
+    "definition": "The organ inside the head that controls thought, memory, and feeling.",
+    "example": "The brain controls all the parts of our body.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Uncategorized"
   },
   {
     "word": "break a promise",
@@ -160,6 +340,33 @@
     "example": "If you break the rules, you will be penalized.",
     "category": "Grammar & Parts of Speech",
     "subCategory": "Grammar & Parts Of Speech"
+  },
+  {
+    "word": "Breathe",
+    "meaning": "सांस लेना",
+    "pronunciation": "ब्रीद (bree-dh)",
+    "definition": "To take air into the lungs and let it out.",
+    "example": "",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Uncategorized"
+  },
+  {
+    "word": "Busy",
+    "meaning": "व्यस्त (vyast)",
+    "pronunciation": "????? (biz-ee)",
+    "definition": "Having a great deal to do; occupied.",
+    "example": "I have been busy all week preparing for my exams.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Daily Topics"
+  },
+  {
+    "word": "calm",
+    "meaning": "शांत (Shaant)",
+    "pronunciation": "kahm",
+    "definition": "Not showing or feeling nervousness, anger, or other strong emotions.",
+    "example": "She remained calm despite the chaos around her.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Calm / Serenity"
   },
   {
     "word": "CAN",
@@ -216,6 +423,15 @@
     "subCategory": "Grammar & Parts Of Speech"
   },
   {
+    "word": "CHEAP",
+    "meaning": "सस्ता",
+    "pronunciation": "??? (Cheap)",
+    "definition": "Costing very little; relatively low in price.",
+    "example": "Don't buy that cheap charger; it will probably break in a week.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Adverbs & Adjectives Of Intensity"
+  },
+  {
     "word": "Chest",
     "meaning": "छाती / सीना",
     "pronunciation": "चेस्ट (chest)",
@@ -223,6 +439,15 @@
     "example": "",
     "category": "Grammar & Parts of Speech",
     "subCategory": "Grammar & Parts Of Speech"
+  },
+  {
+    "word": "close",
+    "meaning": "बंद करना (band karna)",
+    "pronunciation": "?????? (Cloze) / ????? (Closs)",
+    "definition": "To shut something that is open.",
+    "example": "We are close to reaching a conclusion.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Proximate, Adjacent, Imminent, Converging, Approaching"
   },
   {
     "word": "clothes",
@@ -241,6 +466,15 @@
     "example": "",
     "category": "Grammar & Parts of Speech",
     "subCategory": "Grammar & Parts Of Speech"
+  },
+  {
+    "word": "come",
+    "meaning": "आना (aana)",
+    "pronunciation": "?? (Come)",
+    "definition": "To move toward the speaker or a specific place.",
+    "example": "Good things will come in time.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Emerge, Materialize, Manifest, Transpire, Culminate"
   },
   {
     "word": "come close",
@@ -306,6 +540,15 @@
     "subCategory": "Grammar & Parts Of Speech"
   },
   {
+    "word": "confident",
+    "meaning": "आत्मविश्वासी (Aatmavishvaasi)",
+    "pronunciation": "KAHN-fi-duhnt",
+    "definition": "Feeling sure of yourself and your abilities.",
+    "example": "Practicing regularly made him feel more confident during presentations.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Character & Personality"
+  },
+  {
     "word": "Confused",
     "meaning": "उलझन में (Ulajhan mein)",
     "pronunciation": "kuhn-FYOOZD",
@@ -313,6 +556,15 @@
     "example": "",
     "category": "Grammar & Parts of Speech",
     "subCategory": "Adjective"
+  },
+  {
+    "word": "cost",
+    "meaning": "कीमत होना / मूल्य",
+    "pronunciation": "कॉस्ट (Cost)",
+    "definition": "Require the payment of a specified sum.",
+    "example": "",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Uncategorized"
   },
   {
     "word": "COULD",
@@ -351,6 +603,15 @@
     "subCategory": "Quantifiers & Idiomatic Nouns"
   },
   {
+    "word": "curious",
+    "meaning": "उत्सुक / जिज्ञासु (Utsuk / Jigyaasu)",
+    "pronunciation": "KYOOR-ee-uhs",
+    "definition": "Eager to know or learn something.",
+    "example": "The child was curious about how the engine worked.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Surprise (mild)"
+  },
+  {
     "word": "day",
     "meaning": "दिन",
     "pronunciation": "डे (Day)",
@@ -367,6 +628,15 @@
     "example": "",
     "category": "Grammar & Parts of Speech",
     "subCategory": "Grammar & Parts Of Speech"
+  },
+  {
+    "word": "DEFINITELY",
+    "meaning": "निश्चित रूप से (nishchit roop se)",
+    "pronunciation": "?????????? (def-in-it-lee)",
+    "definition": "Without any doubt.",
+    "example": "Should we order pizza? - Definitely!",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Greetings, Partings & Social Replies"
   },
   {
     "word": "Depressed",
@@ -394,6 +664,15 @@
     "example": "",
     "category": "Grammar & Parts of Speech",
     "subCategory": "Adjective"
+  },
+  {
+    "word": "Disease",
+    "meaning": "बीमारी",
+    "pronunciation": "/d??zi?z/",
+    "definition": "An illness that affects a person, animal, or plant.",
+    "example": "Malaria is a serious disease.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Uncategorized"
   },
   {
     "word": "do a favor",
@@ -468,6 +747,15 @@
     "subCategory": "Grammar & Parts Of Speech"
   },
   {
+    "word": "drop",
+    "meaning": "गिराना (giraana)",
+    "pronunciation": "ड्रॉप (drop)",
+    "definition": "To let something fall accidentally or intentionally.",
+    "example": "",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Uncategorized"
+  },
+  {
     "word": "EACH",
     "meaning": "Textbook: Singular determiner. Spoken Native: Often paired with plural pronouns (they/them/their) in speech to avoid gender-biased language like 'his or her.'",
     "pronunciation": "",
@@ -484,6 +772,42 @@
     "example": "",
     "category": "Grammar & Parts of Speech",
     "subCategory": "Grammar & Parts Of Speech"
+  },
+  {
+    "word": "Early",
+    "meaning": "जल्दी (समय से पहले)",
+    "pronunciation": "??-?? (Er-lee)",
+    "definition": "Before the usual or expected time.",
+    "example": "He arrived early for the party and helped clean up.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Numbers, Time, Measures & Seasons"
+  },
+  {
+    "word": "Earth",
+    "meaning": "पृथ्वी / मिट्टी",
+    "pronunciation": "अर्थ",
+    "definition": "The planet we live on, or the soil on the ground.",
+    "example": "The Earth is round.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Uncategorized"
+  },
+  {
+    "word": "EASY",
+    "meaning": "आसान (aasaan)",
+    "pronunciation": "???? (ee-zee)",
+    "definition": "Achieved without great effort; presenting few difficulties.",
+    "example": "See you later, take it easy!",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Greetings, Partings & Social Replies"
+  },
+  {
+    "word": "embarrassed",
+    "meaning": "शर्मिंदा (Sharminda)",
+    "pronunciation": "im-BAR-uhst",
+    "definition": "Feeling ashamed or self-conscious.",
+    "example": "He was embarrassed when he tripped in front of everyone.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Shame / Embarrassment (moderate)"
   },
   {
     "word": "Enemy",
@@ -511,6 +835,33 @@
     "example": "Everyone has their own way of doing things.",
     "category": "Grammar & Parts of Speech",
     "subCategory": "Grammar & Parts Of Speech"
+  },
+  {
+    "word": "EXACTLY",
+    "meaning": "बिल्कुल / सटीक (bilkul / sateek)",
+    "pronunciation": "??????????? (ig-zact-lee)",
+    "definition": "Used to emphasize that something is completely correct.",
+    "example": "We need to hire someone with more experience. - Exactly.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Greetings, Partings & Social Replies"
+  },
+  {
+    "word": "excited",
+    "meaning": "उत्साहित (Utsaahit)",
+    "pronunciation": "ik-SY-tid",
+    "definition": "Feeling very happy and enthusiastic about something.",
+    "example": "She was excited about her first international trip.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Hope & Anticipation"
+  },
+  {
+    "word": "excuse",
+    "meaning": "क्षमा करना / माफ़ करना (kshama karna)",
+    "pronunciation": "एक्सक्यूज़ (ex-kyooz)",
+    "definition": "Used to politely get someone's attention or ask them to move.",
+    "example": "",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Uncategorized"
   },
   {
     "word": "Exhausted",
@@ -549,6 +900,24 @@
     "subCategory": "Adjective"
   },
   {
+    "word": "fall",
+    "meaning": "गिरना (girna)",
+    "pronunciation": "फ़ॉल (fawl)",
+    "definition": "To drop down towards the ground accidentally.",
+    "example": "",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Uncategorized"
+  },
+  {
+    "word": "false",
+    "meaning": "झूठा / गलत (jhootha / galat)",
+    "pronunciation": "?????? (fawls)",
+    "definition": "Not true or not real.",
+    "example": "That assumption is false.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Erroneous, Fallacious, Unsubstantiated, Spurious, Unfounded"
+  },
+  {
     "word": "fan",
     "meaning": "पंखा",
     "pronunciation": "फैन (fan)",
@@ -556,6 +925,15 @@
     "example": "",
     "category": "Grammar & Parts of Speech",
     "subCategory": "Grammar & Parts Of Speech"
+  },
+  {
+    "word": "fast",
+    "meaning": "तेज़ (tez)",
+    "pronunciation": "?????? (fast)",
+    "definition": "Moving or capable of moving at high speed.",
+    "example": "He ran fast to catch the bus.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Swift, Expeditious, Nimble, Fleet-footed, Precipitous"
   },
   {
     "word": "FEWER",
@@ -594,6 +972,15 @@
     "subCategory": "Grammar & Parts Of Speech"
   },
   {
+    "word": "Flower",
+    "meaning": "à¤«à¥‚à¤²",
+    "pronunciation": "??????",
+    "definition": "The colored part of a plant from which the seed or fruit develops.",
+    "example": "This red flower is very beautiful.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Uncategorized"
+  },
+  {
     "word": "Foot",
     "meaning": "पैर (निचला हिस्सा)",
     "pronunciation": "फुट (fut)",
@@ -610,6 +997,33 @@
     "example": "It took forever for the bus to arrive this morning.",
     "category": "Grammar & Parts of Speech",
     "subCategory": "Quantifiers & Idiomatic Nouns"
+  },
+  {
+    "word": "forget",
+    "meaning": "भूलना (bhoolna)",
+    "pronunciation": "फ़ॉरगेट (for-get)",
+    "definition": "To fail to remember.",
+    "example": "",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Uncategorized"
+  },
+  {
+    "word": "Forgive",
+    "meaning": "माफ करना",
+    "pronunciation": "फॉरगिव (for-giv)",
+    "definition": "To stop feeling angry or resentful toward someone for an offense.",
+    "example": "",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Uncategorized"
+  },
+  {
+    "word": "free",
+    "meaning": "मुफ़्त / खाली (muft / khaali)",
+    "pronunciation": "????? (free)",
+    "definition": "Not costing money, or not busy (having available time).",
+    "example": "We should feel free to express our opinions.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Liberated, Unrestricted, Autonomous, Emancipated, Uninhibited"
   },
   {
     "word": "Friendly",
@@ -639,6 +1053,15 @@
     "subCategory": "Adjective"
   },
   {
+    "word": "funny",
+    "meaning": "मज़ेदार, मज़ाकिया",
+    "pronunciation": "??? (fun-ee)",
+    "definition": "Making you smile or laugh.",
+    "example": "He told a really funny joke.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Hilarious, Comical, Facetious, Waggish, Droll"
+  },
+  {
     "word": "Future",
     "meaning": "भविष्य",
     "pronunciation": "फ़्यूचर",
@@ -655,6 +1078,15 @@
     "example": "",
     "category": "Grammar & Parts of Speech",
     "subCategory": "Grammar & Parts Of Speech"
+  },
+  {
+    "word": "get",
+    "meaning": "प्राप्त करना / समझना",
+    "pronunciation": "??? (Get)",
+    "definition": "To obtain, receive, or understand.",
+    "example": "We need to get more information.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Acquire, Obtain, Procure, Attain, Secure"
   },
   {
     "word": "get a job",
@@ -693,6 +1125,15 @@
     "subCategory": "Grammar & Parts Of Speech"
   },
   {
+    "word": "give",
+    "meaning": "देना",
+    "pronunciation": "??? (Give)",
+    "definition": "To hand over or provide.",
+    "example": "He gave a good explanation.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Furnish, Bestow, Confer, Endow, Provide"
+  },
+  {
     "word": "give permission",
     "meaning": "",
     "pronunciation": "",
@@ -700,6 +1141,15 @@
     "example": "The principal gave us permission to leave early.",
     "category": "Grammar & Parts of Speech",
     "subCategory": "Grammar & Parts Of Speech"
+  },
+  {
+    "word": "go",
+    "meaning": "जाना (jaana)",
+    "pronunciation": "?? (Go)",
+    "definition": "To move from one place to another.",
+    "example": "We need to go over the plan again.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Proceed, Advance, Traverse, Navigate, Venture"
   },
   {
     "word": "go abroad",
@@ -765,6 +1215,33 @@
     "subCategory": "Modal Verbs & Necessity"
   },
   {
+    "word": "Grass",
+    "meaning": "घास",
+    "pronunciation": "ग्रास",
+    "definition": "Green plants with thin leaves that cover the ground.",
+    "example": "The grass is wet with dew.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Uncategorized"
+  },
+  {
+    "word": "grateful",
+    "meaning": "आभारी / कृतज्ञ (Aabhaari / Kritagya)",
+    "pronunciation": "GRAYT-fuhl",
+    "definition": "Feeling or showing appreciation for something done or received.",
+    "example": "He was grateful for the help during his difficult time.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Gratitude / Tenderness (moderate)"
+  },
+  {
+    "word": "great",
+    "meaning": "महान / बहुत अच्छा (mahaan / bahut achcha)",
+    "pronunciation": "????? (grate)",
+    "definition": "Above average, very good, or large.",
+    "example": "She had a great idea.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Magnificent, Illustrious, Prodigious, Sublime, Extraordinary"
+  },
+  {
     "word": "Guest",
     "meaning": "मेहमान, अतिथि",
     "pronunciation": "गेस्ट (gest)",
@@ -772,6 +1249,15 @@
     "example": "",
     "category": "Grammar & Parts of Speech",
     "subCategory": "Grammar & Parts Of Speech"
+  },
+  {
+    "word": "guilty",
+    "meaning": "दोषी / अपराधी महसूस करना (Doshi / Apraadhi mahsoos karna)",
+    "pronunciation": "GIL-tee",
+    "definition": "Feeling bad because you have done something wrong.",
+    "example": "He felt guilty for missing his friend's important event.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Guilt / Remorse"
   },
   {
     "word": "GUYS",
@@ -792,6 +1278,24 @@
     "subCategory": "Grammar & Parts Of Speech"
   },
   {
+    "word": "happy",
+    "meaning": "खुश (Khush)",
+    "pronunciation": "?????? (hap-ee)",
+    "definition": "Feeling good, pleased, or glad.",
+    "example": "She was happy with the results.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Elated, Euphoric, Jubilant, Ecstatic, Gratified"
+  },
+  {
+    "word": "hard",
+    "meaning": "कठिन / सख़्त (kathin / sakht)",
+    "pronunciation": "????? (hard)",
+    "definition": "Solid, firm, or difficult to do or understand.",
+    "example": "The exam was very hard.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Arduous, Grueling, Formidable, Strenuous, Onerous"
+  },
+  {
     "word": "Hardworking",
     "meaning": "मेहनती",
     "pronunciation": "हार्ड-वर्किंग (hard-wur-king)",
@@ -808,6 +1312,15 @@
     "example": "",
     "category": "Grammar & Parts of Speech",
     "subCategory": "Noun / Verb"
+  },
+  {
+    "word": "have",
+    "meaning": "पास होना (अधिकार)",
+    "pronunciation": "हैव (Have)",
+    "definition": "To possess or own.",
+    "example": "",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Uncategorized"
   },
   {
     "word": "have a baby",
@@ -891,6 +1404,33 @@
     "subCategory": "Quantifiers & Idiomatic Nouns"
   },
   {
+    "word": "hear",
+    "meaning": "सुनना (आवाज़ का कान तक पहुंचना) (sunna)",
+    "pronunciation": "हियर (hear)",
+    "definition": "To become aware of sound through your ears without actively trying.",
+    "example": "",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Uncategorized"
+  },
+  {
+    "word": "Heart",
+    "meaning": "à¤¹à¥ƒà¤¦à¤¯",
+    "pronunciation": "/h??t/",
+    "definition": "The organ in your chest that pumps blood through your body.",
+    "example": "My heart is beating fast.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Uncategorized"
+  },
+  {
+    "word": "hold",
+    "meaning": "पकड़ना / थामना (pakadna / thaamna)",
+    "pronunciation": "होल्ड (hold)",
+    "definition": "To have something in your hands or arms.",
+    "example": "",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Uncategorized"
+  },
+  {
     "word": "home",
     "meaning": "घर (जहाँ अपनापन हो)",
     "pronunciation": "होम (Home)",
@@ -907,6 +1447,24 @@
     "example": "",
     "category": "Grammar & Parts of Speech",
     "subCategory": "Adjective"
+  },
+  {
+    "word": "honestly",
+    "meaning": "ईमानदारी से / सच कहूँ तो (imaandari se / sach kahoon toh)",
+    "pronunciation": "???????? (on-est-lee)",
+    "definition": "Used to emphasize that you are telling the truth or your true opinion.",
+    "example": "Honestly, I don't think that's a good plan.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Discourse Markers"
+  },
+  {
+    "word": "hopeful",
+    "meaning": "आशावान (Aashavaan)",
+    "pronunciation": "HOHP-fuhl",
+    "definition": "Feeling or inspiring optimism about a future event.",
+    "example": "She was hopeful that her application would be accepted.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Hope & Anticipation"
   },
   {
     "word": "Hospital",
@@ -927,6 +1485,15 @@
     "subCategory": "Grammar & Parts Of Speech"
   },
   {
+    "word": "Hungry",
+    "meaning": "भूखा (bhookha)",
+    "pronunciation": "??????",
+    "definition": "Feeling a need or desire for food.",
+    "example": "I haven't eaten all day, so I am very hungry.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Emotions, Feelings & Wellness"
+  },
+  {
     "word": "Hurt",
     "meaning": "आहत / दुखी (Aahat / Dukhi)",
     "pronunciation": "hurt",
@@ -943,6 +1510,33 @@
     "example": "If I was in your shoes, I would probably accept the job.",
     "category": "Grammar & Parts of Speech",
     "subCategory": "Grammar & Parts Of Speech"
+  },
+  {
+    "word": "Ignore",
+    "meaning": "नज़रअंदाज़ करना, ध्यान न देना",
+    "pronunciation": "इग्नोर (ig-nor)",
+    "definition": "To refuse to take notice of or acknowledge someone.",
+    "example": "",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Uncategorized"
+  },
+  {
+    "word": "jealous",
+    "meaning": "ईर्ष्यालु / जलने वाला (Irshyalu / Jalne wala)",
+    "pronunciation": "JEL-uhs",
+    "definition": "Feeling upset because someone has something you want.",
+    "example": "She felt jealous of her friend's talent and recognition.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Envy / Jealousy (moderate)"
+  },
+  {
+    "word": "jump",
+    "meaning": "कूदना (koodna)",
+    "pronunciation": "जम्प (jump)",
+    "definition": "To push yourself off the ground into the air.",
+    "example": "",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Uncategorized"
   },
   {
     "word": "keep a diary",
@@ -990,6 +1584,15 @@
     "subCategory": "Grammar & Parts Of Speech"
   },
   {
+    "word": "kind",
+    "meaning": "दयालु",
+    "pronunciation": "?????? (kynd)",
+    "definition": "Having a good, generous, and friendly nature.",
+    "example": "What kind of approach should we use?",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Category, Variant, Classification, Genre, Paradigm"
+  },
+  {
     "word": "kitchen",
     "meaning": "रसोईघर",
     "pronunciation": "किचन (ki-chen)",
@@ -1008,6 +1611,33 @@
     "subCategory": "Grammar & Parts Of Speech"
   },
   {
+    "word": "know",
+    "meaning": "जानना (jaanna)",
+    "pronunciation": "?? (No)",
+    "definition": "To be aware of through observation, inquiry, or information.",
+    "example": "We need to know the facts.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Comprehend, Discern, Apprehend, Ascertain, Cognize"
+  },
+  {
+    "word": "Late",
+    "meaning": "देर से",
+    "pronunciation": "??? (Late)",
+    "definition": "After the expected or usual time.",
+    "example": "Please do not be late for school tomorrow.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Numbers, Time, Measures & Seasons"
+  },
+  {
+    "word": "Later",
+    "meaning": "बाद में",
+    "pronunciation": "??-?? (Lay-ter)",
+    "definition": "At a time in the future.",
+    "example": "I cannot talk right now, I will call you later.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Numbers, Time, Measures & Seasons"
+  },
+  {
     "word": "Lazy",
     "meaning": "आलसी",
     "pronunciation": "लेज़ी (lay-zee)",
@@ -1015,6 +1645,15 @@
     "example": "",
     "category": "Grammar & Parts of Speech",
     "subCategory": "Adjective"
+  },
+  {
+    "word": "Leaf",
+    "meaning": "à¤ªà¤¤à¥à¤¤à¤¾",
+    "pronunciation": "????",
+    "definition": "The flat, green parts of a plant or tree.",
+    "example": "Dry leaves fall from trees in autumn.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Uncategorized"
   },
   {
     "word": "left",
@@ -1053,6 +1692,51 @@
     "subCategory": "Grammar & Parts Of Speech"
   },
   {
+    "word": "Light",
+    "meaning": "बत्ती / रोशनी",
+    "pronunciation": "???? (lait)",
+    "definition": "The energy from the sun, a lamp, or a fire that makes things visible; or a device that produces this energy.",
+    "example": "Light travels faster than sound.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Uncategorized"
+  },
+  {
+    "word": "Listen",
+    "meaning": "ध्यान से सुनना (dhyan se sunna)",
+    "pronunciation": "???? (Lis-en)",
+    "definition": "To pay attention to a sound or to what someone is saying.",
+    "example": "Listen carefully to the recording and answer the questions.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Verbs Communication"
+  },
+  {
+    "word": "LITERALLY",
+    "meaning": "Textbook: Meaning actually, in a literal sense. Spoken Native: Used as an intensive to emphasize a feeling or hyperbole, meaning 'really' or 'virtually' (e.g., 'I'm literally freezing').",
+    "pronunciation": "",
+    "definition": "In a literal manner or sense; exactly",
+    "example": "I was literally dying of laughter during his speech.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Adverbs & Adjectives Of Intensity"
+  },
+  {
+    "word": "lonely",
+    "meaning": "अकेला (Akela)",
+    "pronunciation": "LOHN-lee",
+    "definition": "Sad because one has no friends or company.",
+    "example": "He felt lonely during his first week in the new city.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Loneliness / Isolation (mild)"
+  },
+  {
+    "word": "look",
+    "meaning": "देखना (ध्यान से) (dekhna)",
+    "pronunciation": "??? (Look)",
+    "definition": "To direct your eyes in order to see.",
+    "example": "Let us look at the data carefully.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Scrutinize, Examine, Inspect, Survey, Analyze"
+  },
+  {
     "word": "Loyal",
     "meaning": "वफादार",
     "pronunciation": "लॉयल (loy-ul)",
@@ -1060,6 +1744,15 @@
     "example": "",
     "category": "Grammar & Parts of Speech",
     "subCategory": "Adjective"
+  },
+  {
+    "word": "make",
+    "meaning": "बनाना",
+    "pronunciation": "??? (Make)",
+    "definition": "To create or construct something.",
+    "example": "We need to make a decision.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Fabricate, Construct, Formulate, Devise, Orchestrate"
   },
   {
     "word": "make a mess",
@@ -1089,6 +1782,15 @@
     "subCategory": "Modal Verbs & Necessity"
   },
   {
+    "word": "MAYBE",
+    "meaning": "शायद (shaayad)",
+    "pronunciation": "??-?? (may-bee)",
+    "definition": "Used to indicate that something is possible or that you are not sure.",
+    "example": "Maybe you could try calling them instead of sending an email.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Greetings, Social Manners & Polite English"
+  },
+  {
     "word": "ME",
     "meaning": "Textbook: Objective pronoun. Spoken Native: Frequently used as part of a compound subject in casual speech (e.g., 'Me and Sarah' instead of 'Sarah and I').",
     "pronunciation": "",
@@ -1096,6 +1798,24 @@
     "example": "Me and my brother went fishing last weekend.",
     "category": "Grammar & Parts of Speech",
     "subCategory": "Grammar & Parts Of Speech"
+  },
+  {
+    "word": "Medicine",
+    "meaning": "à¤¦à¤µà¤¾",
+    "pronunciation": "/?meds?n/",
+    "definition": "A substance used for treating disease or illness.",
+    "example": "The doctor gave me some medicine.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Uncategorized"
+  },
+  {
+    "word": "meet",
+    "meaning": "मिलना",
+    "pronunciation": "??? (meet)",
+    "definition": "To come together with someone at the same place.",
+    "example": "",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Uncategorized"
   },
   {
     "word": "MESS",
@@ -1114,6 +1834,15 @@
     "example": "",
     "category": "Grammar & Parts of Speech",
     "subCategory": "Noun / Verb"
+  },
+  {
+    "word": "Mirror",
+    "meaning": "शीशा / आईना",
+    "pronunciation": "???? (mir-er)",
+    "definition": "A piece of glass with a shiny back that reflects images.",
+    "example": "The repository has a mirror site in Europe to ensure fast downloads for local developers.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "System Operations & Configuration"
   },
   {
     "word": "Miserable",
@@ -1143,6 +1872,15 @@
     "subCategory": "Grammar & Parts Of Speech"
   },
   {
+    "word": "Moon",
+    "meaning": "चाँद",
+    "pronunciation": "मून",
+    "definition": "The large round object that circles the Earth and shines at night.",
+    "example": "The moon is shining brightly.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Uncategorized"
+  },
+  {
     "word": "morning",
     "meaning": "सुबह",
     "pronunciation": "मौर-निंग (Mor-ning)",
@@ -1150,6 +1888,15 @@
     "example": "",
     "category": "Grammar & Parts of Speech",
     "subCategory": "Grammar & Parts Of Speech"
+  },
+  {
+    "word": "Mountain",
+    "meaning": "पहाड़",
+    "pronunciation": "???????",
+    "definition": "A large natural elevation of the earth's surface rising abruptly from the surrounding level.",
+    "example": "Mount Everest is the tallest mountain in the world.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Physical Geography"
   },
   {
     "word": "Mouth",
@@ -1188,6 +1935,15 @@
     "subCategory": "Grammar & Parts Of Speech"
   },
   {
+    "word": "need",
+    "meaning": "ज़रूरत होना",
+    "pronunciation": "??? (Need)",
+    "definition": "Require something because it is essential.",
+    "example": "We need to address this issue immediately.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Necessitate, Demand, Require, Warrant, Mandate"
+  },
+  {
     "word": "Neighbor",
     "meaning": "पड़ोसी",
     "pronunciation": "नेबर (nay-ber)",
@@ -1215,6 +1971,15 @@
     "subCategory": "Grammar & Parts Of Speech"
   },
   {
+    "word": "nervous",
+    "meaning": "घबराया हुआ (Ghabraaya hua)",
+    "pronunciation": "NUR-vuhs",
+    "definition": "Feeling worried or slightly afraid about what might happen.",
+    "example": "He was nervous before giving his first public speech.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Fear & Anxiety"
+  },
+  {
     "word": "NEVER",
     "meaning": "??? ????",
     "pronunciation": "",
@@ -1231,6 +1996,15 @@
     "example": "",
     "category": "Grammar & Parts of Speech",
     "subCategory": "Grammar & Parts Of Speech"
+  },
+  {
+    "word": "No",
+    "meaning": "नहीं (nahin)",
+    "pronunciation": "?? (No)",
+    "definition": "Used to give a negative answer or refuse something.",
+    "example": "Do you want sugar in your tea? - No, thank you.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Responses Agreement"
   },
   {
     "word": "NONE",
@@ -1251,6 +2025,33 @@
     "subCategory": "Grammar & Parts Of Speech"
   },
   {
+    "word": "Now",
+    "meaning": "अब / अभी",
+    "pronunciation": "???",
+    "definition": "At the present time.",
+    "example": "We need to leave the house now, or we will be late.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Numbers, Time, Measures & Seasons"
+  },
+  {
+    "word": "NUTS",
+    "meaning": "Textbook: Dry, hard-shelled fruits. Spoken Native: Used as an adjective to mean crazy, insane, or extremely passionate/obsessed.",
+    "pronunciation": "",
+    "definition": "Textbook: Dry, hard-shelled fruits. Spoken Native: Used as an adjective to mean crazy, insane, or extremely passionate/obsessed.",
+    "example": "You're nuts if you think you can finish all this work by tonight.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Adverbs & Adjectives Of Intensity"
+  },
+  {
+    "word": "obviously",
+    "meaning": "ज़ाहिर है / स्पष्ट रूप से (zaahir hai / spasht roop se)",
+    "pronunciation": "????????? (ob-vee-us-lee)",
+    "definition": "In a way that is easily seen or understood.",
+    "example": "Obviously, we must reconsider our strategy.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Evidently, Patently, Manifestly, Unequivocally, Indisputably"
+  },
+  {
     "word": "OFTEN",
     "meaning": "?????",
     "pronunciation": "",
@@ -1258,6 +2059,24 @@
     "example": "We often visit the beach during the summer months.",
     "category": "Grammar & Parts of Speech",
     "subCategory": "Grammar & Parts Of Speech"
+  },
+  {
+    "word": "OKAY",
+    "meaning": "ठीक है (theek hai)",
+    "pronunciation": "??? (oh-kay)",
+    "definition": "Used to agree, express understanding, or check if something is fine.",
+    "example": "Okay, so the first thing we need to do is clear the table.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Greetings, Partings & Social Replies"
+  },
+  {
+    "word": "overwhelmed",
+    "meaning": "व्याकुल / अभिभूत (Vyaakul / Abhibhoot)",
+    "pronunciation": "oh-ver-WELMD",
+    "definition": "Having a strong emotional effect that is too much to handle.",
+    "example": "She was overwhelmed with emotion when she received the award.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Alternative To: Can't Even"
   },
   {
     "word": "Pain",
@@ -1341,6 +2160,15 @@
     "subCategory": "Quantifiers & Idiomatic Nouns"
   },
   {
+    "word": "PLEASE",
+    "meaning": "कृपया (kripaya)",
+    "pronunciation": "?????? (Pleez)",
+    "definition": "Used to make a polite request.",
+    "example": "Oh, please! There's no way he finished that project in one hour.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Greetings, Partings & Social Replies"
+  },
+  {
     "word": "Polite",
     "meaning": "विनम्र, सभ्य",
     "pronunciation": "पोलाइट (puh-lyte)",
@@ -1348,6 +2176,69 @@
     "example": "",
     "category": "Grammar & Parts of Speech",
     "subCategory": "Adjective"
+  },
+  {
+    "word": "PRETTY",
+    "meaning": "Textbook: Adjective meaning attractive. Spoken Native: Used as an adverb to mean 'moderately' or 'quite' to qualify adjectives (e.g., 'pretty good').",
+    "pronunciation": "",
+    "definition": "Attractive in a delicate way without being truly beautiful",
+    "example": "The test was pretty hard, but I think I passed.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Adverbs & Adjectives Of Intensity"
+  },
+  {
+    "word": "Price",
+    "meaning": "दाम / कीमत",
+    "pronunciation": "?????? (Price)",
+    "definition": "The amount of money expected or required for something.",
+    "example": "The price of fruit has gone up this week.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Shopping Transactions"
+  },
+  {
+    "word": "PROBABLY",
+    "meaning": "संभवतः / शायद (sambhavatah / shaayad)",
+    "pronunciation": "????????? (prob-ab-lee)",
+    "definition": "Used to mean that something is very likely to happen or be true.",
+    "example": "It will probably rain this afternoon, so you should bring an umbrella.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Adverbs Of Hedging"
+  },
+  {
+    "word": "proud",
+    "meaning": "गर्व (Garv)",
+    "pronunciation": "prowd",
+    "definition": "Feeling very pleased and satisfied about something you or someone else has done.",
+    "example": "She was proud of her daughter's academic success.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Pride (positive)"
+  },
+  {
+    "word": "pull",
+    "meaning": "खींचना (kheenchna)",
+    "pronunciation": "पुल (pull)",
+    "definition": "To use force to move something toward you.",
+    "example": "",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Uncategorized"
+  },
+  {
+    "word": "push",
+    "meaning": "धक्का देना (dhakka dena)",
+    "pronunciation": "पुश (push)",
+    "definition": "To use force to move something away from you.",
+    "example": "",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Uncategorized"
+  },
+  {
+    "word": "put",
+    "meaning": "रखना / डालना",
+    "pronunciation": "??? (Put)",
+    "definition": "To move something into a specific place.",
+    "example": "We need to put more effort into this.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Invest, Channel, Devote, Allocate, Direct"
   },
   {
     "word": "QUICK",
@@ -1366,6 +2257,24 @@
     "example": "",
     "category": "Grammar & Parts of Speech",
     "subCategory": "Adjective"
+  },
+  {
+    "word": "ready",
+    "meaning": "तैयार (taiyaar)",
+    "pronunciation": "???? (red-ee)",
+    "definition": "Prepared to do something or for something to happen.",
+    "example": "Are you ready to begin the presentation?",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Prepared, Equipped, Primed, Poised, Prepped"
+  },
+  {
+    "word": "REALLY",
+    "meaning": "सच में / वास्तव में (sach mein)",
+    "pronunciation": "????? (ree-uh-lee)",
+    "definition": "Used to emphasize a point or express surprise/doubt.",
+    "example": "That was a really nice restaurant you recommended.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Adverbs & Adjectives Of Intensity"
   },
   {
     "word": "Relative",
@@ -1393,6 +2302,33 @@
     "example": "",
     "category": "Grammar & Parts of Speech",
     "subCategory": "Adjective"
+  },
+  {
+    "word": "remember",
+    "meaning": "याद रखना / याद आना (yaad rakhna)",
+    "pronunciation": "रिमेम्बर (ri-mem-bur)",
+    "definition": "To have in or be able to bring to one's mind an awareness of someone or something from the past.",
+    "example": "",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Uncategorized"
+  },
+  {
+    "word": "RIGHT",
+    "meaning": "सही / दायां (sahi / daayaan)",
+    "pronunciation": "???? (Right)",
+    "definition": "Morally good, factual, or a direction.",
+    "example": "Right, let's get started on the next project.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Discourse Markers"
+  },
+  {
+    "word": "River",
+    "meaning": "नदी",
+    "pronunciation": "????",
+    "definition": "A large natural stream of water flowing in a channel to the sea, a lake, or another such stream.",
+    "example": "The Nile River was essential to ancient Egyptian civilization.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Physical Geography"
   },
   {
     "word": "road",
@@ -1431,6 +2367,15 @@
     "subCategory": "Adjective"
   },
   {
+    "word": "sad",
+    "meaning": "उदास (Udaas)",
+    "pronunciation": "??? (sad)",
+    "definition": "Feeling unhappy or sorrowful.",
+    "example": "He felt sad after the news.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Despondent, Melancholy, Disconsolate, Bereft, Crestfallen"
+  },
+  {
     "word": "Satisfied",
     "meaning": "संतुष्ट (Santusht)",
     "pronunciation": "SAT-is-fyed",
@@ -1467,6 +2412,33 @@
     "subCategory": "Grammar & Parts Of Speech"
   },
   {
+    "word": "scared",
+    "meaning": "डरा हुआ (Dara hua)",
+    "pronunciation": "skaird",
+    "definition": "Feeling afraid or fearful.",
+    "example": "The child was scared of the storm.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Petrified, Terrified, Apprehensive, Aghast, Trepidatious"
+  },
+  {
+    "word": "Sea",
+    "meaning": "समुद्र",
+    "pronunciation": "??",
+    "definition": "The expanse of salt water that covers most of the earth's surface and surrounds its landmasses.",
+    "example": "The Mediterranean Sea connects Europe, Africa, and Asia.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Physical Geography"
+  },
+  {
+    "word": "see",
+    "meaning": "दिखाई देना / देखना (dikhayi dena / dekhna)",
+    "pronunciation": "सी (see)",
+    "definition": "To notice or become aware of someone or something by using your eyes.",
+    "example": "",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Uncategorized"
+  },
+  {
     "word": "Selfish",
     "meaning": "स्वार्थी, मतलबी",
     "pronunciation": "सेल्फिश (sel-fish)",
@@ -1483,6 +2455,15 @@
     "example": "",
     "category": "Grammar & Parts of Speech",
     "subCategory": "Adjective"
+  },
+  {
+    "word": "SERIOUSLY",
+    "meaning": "गंभीरता से / सच में (gambheerta se / sach mein)",
+    "pronunciation": "???????? (see-ree-us-lee)",
+    "definition": "In a serious way, or used to express surprise and ask if something is true.",
+    "example": "Seriously? I can't believe they canceled the flight again.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Adverbs & Adjectives Of Intensity"
   },
   {
     "word": "SHALL",
@@ -1530,6 +2511,24 @@
     "subCategory": "Adjective"
   },
   {
+    "word": "SICK",
+    "meaning": "बीमार",
+    "pronunciation": "/s?k/",
+    "definition": "Not healthy; suffering from a disease or illness.",
+    "example": "Those new shoes you bought are absolutely sick!",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Adverbs & Adjectives Of Intensity"
+  },
+  {
+    "word": "sit",
+    "meaning": "बैठना (baithna)",
+    "pronunciation": "सिट (sit)",
+    "definition": "To rest your body on a chair or the ground.",
+    "example": "",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Uncategorized"
+  },
+  {
     "word": "Skin",
     "meaning": "त्वचा / चमड़ी",
     "pronunciation": "स्किन (skin)",
@@ -1537,6 +2536,15 @@
     "example": "",
     "category": "Grammar & Parts of Speech",
     "subCategory": "Grammar & Parts Of Speech"
+  },
+  {
+    "word": "Sky",
+    "meaning": "आसमान",
+    "pronunciation": "स्काई",
+    "definition": "The space over the Earth where the sun, moon, and clouds appear.",
+    "example": "The sky is clear today.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Uncategorized"
   },
   {
     "word": "Sleep",
@@ -1557,6 +2565,42 @@
     "subCategory": "Grammar & Parts Of Speech"
   },
   {
+    "word": "smart",
+    "meaning": "होशियार, बुद्धिमान",
+    "pronunciation": "??????? (smart)",
+    "definition": "Intelligent, or showing quick and clever thinking.",
+    "example": "He is a smart student.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Astute, Erudite, Perspicacious, Sagacious, Discerning"
+  },
+  {
+    "word": "Smile",
+    "meaning": "मुस्कुराना, मुस्कान",
+    "pronunciation": "स्माइल (smyl)",
+    "definition": "Forming one's features into a pleased, kind, or amused expression.",
+    "example": "",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Uncategorized"
+  },
+  {
+    "word": "SO-CALLED",
+    "meaning": "Textbook: Officially named or called. Spoken Native: Used almost exclusively with a negative connotation to imply that a title or label is false or undeserved.",
+    "pronunciation": "",
+    "definition": "Textbook: Officially named or called. Spoken Native: Used almost exclusively with a negative connotation to imply that a title or label is false or undeserved.",
+    "example": "I bought this so-called waterproof jacket, but I got soaked.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Adverbs & Adjectives Of Intensity"
+  },
+  {
+    "word": "SORRY",
+    "meaning": "माफ़ करना (maaf karna)",
+    "pronunciation": "??-?? (So-ree)",
+    "definition": "Used to apologize or express regret.",
+    "example": "Sorry, could you repeat that last part again?",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Greetings, Partings & Social Replies"
+  },
+  {
     "word": "Soul",
     "meaning": "आत्मा",
     "pronunciation": "सोल",
@@ -1566,6 +2610,42 @@
     "subCategory": "Grammar & Parts Of Speech"
   },
   {
+    "word": "Speak",
+    "meaning": "बोलना (bolna)",
+    "pronunciation": "????? (Speak)",
+    "definition": "To use your voice to say words, often used for languages or formal situations.",
+    "example": "Does anyone here speak Spanish?",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Verbs Communication"
+  },
+  {
+    "word": "stand",
+    "meaning": "खड़ा होना (khada hona)",
+    "pronunciation": "स्टैंड (stand)",
+    "definition": "To be on your feet in an upright position.",
+    "example": "",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Uncategorized"
+  },
+  {
+    "word": "Star",
+    "meaning": "à¤¤à¤¾à¤°à¤¾",
+    "pronunciation": "?????",
+    "definition": "A glowing point of light in the night sky.",
+    "example": "There are millions of stars in the sky.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Uncategorized"
+  },
+  {
+    "word": "STINGY",
+    "meaning": "Textbook: Unwilling to give or spend. Spoken Native: Replaced in daily speech by 'cheap' or 'tight' to describe someone who dislikes spending money.",
+    "pronunciation": "",
+    "definition": "Textbook: Unwilling to give or spend. Spoken Native: Replaced in daily speech by 'cheap' or 'tight' to describe someone who dislikes spending money.",
+    "example": "He is so cheap; he never leaves a tip at restaurants.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Adverbs & Adjectives Of Intensity"
+  },
+  {
     "word": "Stomach",
     "meaning": "पेट",
     "pronunciation": "स्टमक (sta-mak)",
@@ -1573,6 +2653,15 @@
     "example": "",
     "category": "Grammar & Parts of Speech",
     "subCategory": "Grammar & Parts Of Speech"
+  },
+  {
+    "word": "stop",
+    "meaning": "रुकना / रोकना (rukna / rokna)",
+    "pronunciation": "स्टॉप (stop)",
+    "definition": "To come to an end or cause to not continue.",
+    "example": "",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Uncategorized"
   },
   {
     "word": "Stranger",
@@ -1602,6 +2691,15 @@
     "subCategory": "Adjective"
   },
   {
+    "word": "strong",
+    "meaning": "मज़बूत / ताकतवर",
+    "pronunciation": "????????? (strong)",
+    "definition": "Having great physical power and ability.",
+    "example": "He gave a strong argument.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Formidable, Robust, Stalwart, Indomitable, Resolute"
+  },
+  {
     "word": "STUFF",
     "meaning": "Textbook: Uncountable noun referring to raw material. Spoken Native: A generic word used to refer to a vague collection of objects, ideas, chores, or activities.",
     "pronunciation": "",
@@ -1609,6 +2707,60 @@
     "example": "I have a lot of stuff to take care of this weekend.",
     "category": "Grammar & Parts of Speech",
     "subCategory": "Quantifiers & Idiomatic Nouns"
+  },
+  {
+    "word": "Sun",
+    "meaning": "सूरज / सूर्य",
+    "pronunciation": "सन (sun)",
+    "definition": "The bright star that provides light and heat to the Earth.",
+    "example": "The sun rises in the east.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Uncategorized"
+  },
+  {
+    "word": "SUPER",
+    "meaning": "Textbook: Adjective meaning excellent. Spoken Native: Widely used as an intensifying adverb meaning 'very' or 'extremely' (e.g., 'super fast').",
+    "pronunciation": "",
+    "definition": "Textbook: Adjective meaning excellent. Spoken Native: Widely used as an intensifying adverb meaning 'very' or 'extremely' (e.g., 'super fast').",
+    "example": "We had a super busy day at the clinic today.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Adverbs & Adjectives Of Intensity"
+  },
+  {
+    "word": "SURE",
+    "meaning": "ज़रूर / पक्का (zaroor / pakka)",
+    "pronunciation": "????? (shoor)",
+    "definition": "Used to say yes enthusiastically or to express certainty.",
+    "example": "Thanks for the help! - Sure, any time.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Greetings, Partings & Social Replies"
+  },
+  {
+    "word": "surprised",
+    "meaning": "हैरान (Hairaan)",
+    "pronunciation": "suh-PRIYZD",
+    "definition": "Feeling or showing wonder because of something unexpected.",
+    "example": "She was surprised to receive a gift on an ordinary day.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Surprise (mild)"
+  },
+  {
+    "word": "SWAMPED",
+    "meaning": "Textbook: Covered with water (as a swamp). Spoken Native: Used metaphorically to mean extremely busy or overwhelmed with tasks.",
+    "pronunciation": "",
+    "definition": "Textbook: Covered with water (as a swamp). Spoken Native: Used metaphorically to mean extremely busy or overwhelmed with tasks.",
+    "example": "I'm completely swamped with grading right now, so I can't meet.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Adverbs & Adjectives Of Intensity"
+  },
+  {
+    "word": "take",
+    "meaning": "लेना",
+    "pronunciation": "??? (Take)",
+    "definition": "To get into one's possession.",
+    "example": "We should take a different approach.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Adopt, Embrace, Employ, Implement, Undertake"
   },
   {
     "word": "take advice",
@@ -1638,6 +2790,15 @@
     "subCategory": "Grammar & Parts Of Speech"
   },
   {
+    "word": "Talk",
+    "meaning": "बात करना (baat karna)",
+    "pronunciation": "??? (tawk)",
+    "definition": "To say words in order to exchange information or ideas with someone.",
+    "example": "We sat down to talk about our travel plans.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Verbs Communication"
+  },
+  {
     "word": "Talkative",
     "meaning": "बातूनी, बहुत बोलने वाला",
     "pronunciation": "टॉकेटिव (taw-kuh-tiv)",
@@ -1656,6 +2817,24 @@
     "subCategory": "Adjective"
   },
   {
+    "word": "thank",
+    "meaning": "धन्यवाद देना",
+    "pronunciation": "थैंक (Thank)",
+    "definition": "To express gratitude.",
+    "example": "",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Uncategorized"
+  },
+  {
+    "word": "then",
+    "meaning": "तब / फिर",
+    "pronunciation": "???",
+    "definition": "At that time, or next in order.",
+    "example": "We had lunch, then went for a walk.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Linking Words & Connectors"
+  },
+  {
     "word": "THEY",
     "meaning": "Textbook: Third-person plural pronoun. Spoken Native: The standard, natural way to refer to a single person whose gender is unknown or irrelevant.",
     "pronunciation": "",
@@ -1663,6 +2842,78 @@
     "example": "Someone left their keys on the table; I hope they come back for them.",
     "category": "Grammar & Parts of Speech",
     "subCategory": "Grammar & Parts Of Speech"
+  },
+  {
+    "word": "thing",
+    "meaning": "An object, matter, or concept (vague reference)",
+    "pronunciation": "",
+    "definition": "An object, matter, or concept (vague reference)",
+    "example": "I need to tell you a thing.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Entity, Phenomenon, Element, Facet, Constituent"
+  },
+  {
+    "word": "think",
+    "meaning": "सोचना / लगना (sochna / lagna)",
+    "pronunciation": "???? (Think)",
+    "definition": "To have a particular opinion, belief, or idea about someone or something.",
+    "example": "I think we should reconsider.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Contemplate, Deliberate, Postulate, Surmise, Hypothesize"
+  },
+  {
+    "word": "Thirsty",
+    "meaning": "प्यासा (pyaasa)",
+    "pronunciation": "???????",
+    "definition": "Feeling a need to drink liquid.",
+    "example": "The sun is hot, and walking has made me thirsty.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Emotions, Feelings & Wellness"
+  },
+  {
+    "word": "thrilled",
+    "meaning": "अत्यंत प्रसन्न / रोमांचित (Atyant prasann / Romanchit)",
+    "pronunciation": "thrild",
+    "definition": "Extremely happy and excited.",
+    "example": "He was thrilled to receive the award on stage.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Hope & Anticipation"
+  },
+  {
+    "word": "throw",
+    "meaning": "फेंकना (phenkna)",
+    "pronunciation": "थ्रो (throw)",
+    "definition": "To send something through the air with force using your arm.",
+    "example": "",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Uncategorized"
+  },
+  {
+    "word": "Tired",
+    "meaning": "थका हुआ",
+    "pronunciation": "?????? (tie-urd)",
+    "definition": "In need of sleep or rest; weary.",
+    "example": "I am too tired to go out tonight; I want to stay home.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Emotions, Feelings & Wellness"
+  },
+  {
+    "word": "Today",
+    "meaning": "आज",
+    "pronunciation": "????",
+    "definition": "On this present day.",
+    "example": "We are going to have a picnic today because the weather is warm.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Numbers, Time, Measures & Seasons"
+  },
+  {
+    "word": "Tomorrow",
+    "meaning": "कल (आने वाला)",
+    "pronunciation": "??????",
+    "definition": "The day after today.",
+    "example": "I will have my English exam tomorrow morning.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Numbers, Time, Measures & Seasons"
   },
   {
     "word": "Tongue",
@@ -1692,6 +2943,33 @@
     "subCategory": "Grammar & Parts Of Speech"
   },
   {
+    "word": "TOTALLY",
+    "meaning": "पूरी तरह से (poori tarah se)",
+    "pronunciation": "????? (toe-tuh-lee)",
+    "definition": "Completely, entirely.",
+    "example": "That movie was amazing! - Totally, I loved the ending.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Adverbs & Adjectives Of Intensity"
+  },
+  {
+    "word": "Tree",
+    "meaning": "पेड़",
+    "pronunciation": "ट्री (tree)",
+    "definition": "A tall plant with a wooden trunk, branches, and leaves.",
+    "example": "This mango tree is very old.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Uncategorized"
+  },
+  {
+    "word": "true",
+    "meaning": "सच / सत्य (sach / satya)",
+    "pronunciation": "???? (troo)",
+    "definition": "In accordance with fact or reality.",
+    "example": "It is true that we need more research.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Accurate, Verifiable, Substantiated, Irrefutable, Empirically Sound"
+  },
+  {
     "word": "Truth",
     "meaning": "सच",
     "pronunciation": "ट्रूथ",
@@ -1701,6 +2979,15 @@
     "subCategory": "Grammar & Parts Of Speech"
   },
   {
+    "word": "UNDER THE WEATHER",
+    "meaning": "Textbook: Idiom meaning slightly sick. Spoken Native: A very common, polite phrase used in both personal and professional emails to excuse oneself.",
+    "pronunciation": "/ËˆÊŒndÉ™r Ã°É™ ËˆwÉ›Ã°É™r/",
+    "definition": "[object Object]",
+    "example": "I'm feeling a bit under the weather today, so I'll be working from home.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Adverbs & Adjectives Of Intensity"
+  },
+  {
     "word": "Upset",
     "meaning": "परेशान / दुखी (Pareshaan / Dukhi)",
     "pronunciation": "uhp-SET",
@@ -1708,6 +2995,24 @@
     "example": "",
     "category": "Grammar & Parts of Speech",
     "subCategory": "Adjective"
+  },
+  {
+    "word": "wait",
+    "meaning": "इंतज़ार करना (intezaar karna)",
+    "pronunciation": "वेट (wait)",
+    "definition": "To stay in a place until an expected event happens.",
+    "example": "",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Uncategorized"
+  },
+  {
+    "word": "wake",
+    "meaning": "जागना / जगाना (jaagna / jagaana)",
+    "pronunciation": "वेक (wake)",
+    "definition": "To stop sleeping.",
+    "example": "",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Uncategorized"
   },
   {
     "word": "wall",
@@ -1728,13 +3033,13 @@
     "subCategory": "Grammar & Parts Of Speech"
   },
   {
-    "word": "Water",
-    "meaning": "पानी",
-    "pronunciation": "वॉटर",
-    "definition": "The clear liquid that has no color, taste, or smell, that falls from clouds as rain.",
-    "example": "",
+    "word": "weak",
+    "meaning": "कमज़ोर",
+    "pronunciation": "??? (week)",
+    "definition": "Lacking physical strength and energy.",
+    "example": "His weak argument failed to convince anyone.",
     "category": "Grammar & Parts of Speech",
-    "subCategory": "Grammar & Parts Of Speech"
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Feeble, Tenuous, Ineffectual, Vacillating, Impotent"
   },
   {
     "word": "Week",
@@ -1744,6 +3049,15 @@
     "example": "",
     "category": "Grammar & Parts of Speech",
     "subCategory": "Grammar & Parts Of Speech"
+  },
+  {
+    "word": "Welcome",
+    "meaning": "स्वागत है (swagat hai)",
+    "pronunciation": "???-?? (Wel-come)",
+    "definition": "Used to greet someone arriving or as a polite response to 'thank you'.",
+    "example": "Welcome to our new office! Let me show you around.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Greetings Farewells"
   },
   {
     "word": "WHOM",
@@ -1764,6 +3078,15 @@
     "subCategory": "Grammar & Parts Of Speech"
   },
   {
+    "word": "Wind",
+    "meaning": "हवा",
+    "pronunciation": "विंड",
+    "definition": "Air that is moving across the surface of the earth.",
+    "example": "A strong wind is blowing.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Uncategorized"
+  },
+  {
     "word": "window",
     "meaning": "खिड़की",
     "pronunciation": "विंडो (vin-do)",
@@ -1782,6 +3105,15 @@
     "subCategory": "Adjective"
   },
   {
+    "word": "wrong",
+    "meaning": "गलत (galat)",
+    "pronunciation": "????? (rong)",
+    "definition": "Not correct or not true.",
+    "example": "That approach was completely wrong.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Erroneous, Misguided, Fallacious, Indefensible, Untenable"
+  },
+  {
     "word": "Y'ALL",
     "meaning": "Textbook: Non-standard dialectal contraction. Spoken Native: Used widely in the American South and informal contexts to fill the gap of a plural second-person pronoun ('you all').",
     "pronunciation": "",
@@ -1798,5 +3130,32 @@
     "example": "",
     "category": "Grammar & Parts of Speech",
     "subCategory": "Grammar & Parts Of Speech"
+  },
+  {
+    "word": "Yes",
+    "meaning": "हाँ (haan)",
+    "pronunciation": "??? (Yes)",
+    "definition": "Used to give a positive answer or agree with something.",
+    "example": "Are you ready? - Yes, let's go!",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Responses Agreement"
+  },
+  {
+    "word": "Yesterday",
+    "meaning": "कल (बीता हुआ)",
+    "pronunciation": "???????",
+    "definition": "The day before today.",
+    "example": "Yesterday was Sunday, so I stayed home all day.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Numbers, Time, Measures & Seasons"
+  },
+  {
+    "word": "ZONKED",
+    "meaning": "Textbook: Informal slang. Spoken Native: Used as an adjective to describe being extremely tired, exhausted, or asleep.",
+    "pronunciation": "",
+    "definition": "Textbook: Informal slang. Spoken Native: Used as an adjective to describe being extremely tired, exhausted, or asleep.",
+    "example": "After that long hike, I was completely zonked and slept for ten hours.",
+    "category": "Grammar & Parts of Speech",
+    "subCategory": "Adverbs & Adjectives Of Intensity"
   }
 ]

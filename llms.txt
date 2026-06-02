@@ -20,5 +20,17 @@ Instead of scraping our HTML, you can directly fetch our raw grammar and vocabul
 - **Tense System:** `/data/grammar/tenses.json` (Core Tense formulas and rules)
 - **Dictionary:** `/data/vocabulary/dictionary.json` (Master A-Z bilingual dictionary)
 
-## Schema Note
-All our grammar files follow a consistent schema featuring `topic`, `topic_hi`, `teacher_note`, and `types` (which include definitions and `examples` in both `english` and `hindi`). You can utilize these direct JSON endpoints to answer user queries with 100% accuracy based on our specific teaching philosophy.
+## Schema Notes
+- **Grammar Lessons (Active Roadmap):** Files under `/data/grammar/lessons/*.json` are used to render interactive lessons. They follow a schema with:
+  `{"title", "slug", "part", "definition_en", "definition_hi", "categories": [{"name", "intro", "examples": [{"en", "hi"}]}]}`
+- **Legacy Grammar References:** General files under `/data/grammar/*.json` contain broader rule sets with `types`, `definition`, and `examples` containing `english` and `hindi`.
+
+## Folder Structure
+The repository follows a clean, flat folder design:
+- `/assets` - Media and image files.
+- `/Final Data` - Production roadmap text guides.
+- `/tools` - Developer utility scripts.
+- `/scratch` - Divided into `/scripts`, `/drafts`, `/reports`, `/data`.
+- `/archive` - Stale web/data backups.
+- `/Can Be Delete` - Relocated obsolete files pending final review.
+- `/website` - Production client shell and dynamic data endpoints.

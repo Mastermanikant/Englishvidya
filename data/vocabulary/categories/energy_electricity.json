@@ -81,6 +81,15 @@
     "subCategory": "Energy/electricity"
   },
   {
+    "word": "Electricity",
+    "meaning": "à¤µà¤¿à¤¦à¥à¤¯à¥à¤¤",
+    "pronunciation": "",
+    "definition": "à¤µà¤¿à¤¦à¥à¤¯à¥à¤¤",
+    "example": "We use electricity to run our fans.",
+    "category": "Energy & Electricity",
+    "subCategory": "Uncategorized"
+  },
+  {
     "word": "Electron",
     "meaning": "",
     "pronunciation": "",
@@ -90,6 +99,24 @@
     "subCategory": "Energy/electricity"
   },
   {
+    "word": "energy",
+    "meaning": "The capacity to do work or cause change in a physical system",
+    "pronunciation": "",
+    "definition": "à¤Šà¤°à¥à¤œà¤¾",
+    "example": "The sun provides energy to all living things on Earth.",
+    "category": "Energy & Electricity",
+    "subCategory": "Science"
+  },
+  {
+    "word": "entropy",
+    "meaning": "A thermodynamic measure of disorder; broadly, the tendency of systems to move toward disorder and randomness over time",
+    "pronunciation": "",
+    "definition": "A thermodynamic quantity representing the unavailability of a system's thermal energy for conversion into mechanical work.",
+    "example": "Organizations must invest constant energy to resist entropy â€” the natural tendency toward disorganization and chaos.",
+    "category": "Energy & Electricity",
+    "subCategory": "Philosophy, Logic & Thinking Skills"
+  },
+  {
     "word": "Generator",
     "meaning": "",
     "pronunciation": "",
@@ -97,6 +124,24 @@
     "example": "",
     "category": "Energy & Electricity",
     "subCategory": "Energy/electricity"
+  },
+  {
+    "word": "Heat",
+    "meaning": "à¤Šà¤·à¥à¤®à¤¾",
+    "pronunciation": "",
+    "definition": "à¤Šà¤·à¥à¤®à¤¾",
+    "example": "The sun gives us light and heat.",
+    "category": "Energy & Electricity",
+    "subCategory": "Uncategorized"
+  },
+  {
+    "word": "induction",
+    "meaning": "A reasoning process that draws general conclusions from specific observations or cases.",
+    "pronunciation": "",
+    "definition": "The inference of a general law from particular instances.",
+    "example": "Scientists use induction when they observe patterns and form broader theories.",
+    "category": "Energy & Electricity",
+    "subCategory": "Philosophy, Logic & Thinking Skills"
   },
   {
     "word": "Ion",
@@ -214,6 +259,15 @@
     "example": "",
     "category": "Energy & Electricity",
     "subCategory": "Energy/electricity"
+  },
+  {
+    "word": "Temperature",
+    "meaning": "à¤¤à¤¾à¤ªà¤®à¤¾à¤¨",
+    "pronunciation": "",
+    "definition": "à¤¤à¤¾à¤ªà¤®à¤¾à¤¨",
+    "example": "The temperature is very high today.",
+    "category": "Energy & Electricity",
+    "subCategory": "Uncategorized"
   },
   {
     "word": "Thermal Energy",

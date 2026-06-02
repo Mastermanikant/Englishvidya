@@ -108,6 +108,15 @@
     "subCategory": "Formal Educational Vocabulary"
   },
   {
+    "word": "always",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "at all times; on all occasions.",
+    "example": "",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Uncategorized"
+  },
+  {
     "word": "amiable",
     "meaning": "Having or displaying a friendly and pleasant manner.",
     "pronunciation": "",
@@ -241,15 +250,6 @@
     "example": "She is an authoritative voice in the field of corporate governance.",
     "category": "Weak vs Strong Alternatives",
     "subCategory": "Weak Professional Vocabulary"
-  },
-  {
-    "word": "awful",
-    "meaning": "भयानक / बहुत बुरा (bhayanak / bahut bura)",
-    "pronunciation": "????? (aw-ful)",
-    "definition": "Very bad or unpleasant.",
-    "example": "The performance was awful.",
-    "category": "Weak vs Strong Alternatives",
-    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Abominable, Egregious, Heinous, Reprehensible, Execrable"
   },
   {
     "word": "baccalaureate",
@@ -441,15 +441,6 @@
     "subCategory": "Alternative To: On The Low / Lowkey"
   },
   {
-    "word": "close",
-    "meaning": "बंद करना (band karna)",
-    "pronunciation": "?????? (Cloze) / ????? (Closs)",
-    "definition": "To shut something that is open.",
-    "example": "We are close to reaching a conclusion.",
-    "category": "Weak vs Strong Alternatives",
-    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Proximate, Adjacent, Imminent, Converging, Approaching"
-  },
-  {
     "word": "collaborative",
     "meaning": "Involving two or more parties working jointly toward a shared goal",
     "pronunciation": "",
@@ -457,15 +448,6 @@
     "example": "Collaborative learning encourages students to solve problems together.",
     "category": "Weak vs Strong Alternatives",
     "subCategory": "Formal Educational Vocabulary"
-  },
-  {
-    "word": "come",
-    "meaning": "आना (aana)",
-    "pronunciation": "?? (Come)",
-    "definition": "To move toward the speaker or a specific place.",
-    "example": "Good things will come in time.",
-    "category": "Weak vs Strong Alternatives",
-    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Emerge, Materialize, Manifest, Transpire, Culminate"
   },
   {
     "word": "commencement",
@@ -637,6 +619,15 @@
     "example": "Climbing the north face of the mountain was a daunting challenge.",
     "category": "Weak vs Strong Alternatives",
     "subCategory": "Alternative To: Big Task / Hard Mode"
+  },
+  {
+    "word": "Deal",
+    "meaning": "à¤¸à¥Œà¤¦à¤¾",
+    "pronunciation": "",
+    "definition": "à¤¸à¥Œà¤¦à¤¾",
+    "example": "They signed a big business deal.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Uncategorized"
   },
   {
     "word": "devastating",
@@ -1026,24 +1017,6 @@
     "subCategory": "Weak Abstract Â†’ Strong Alternatives: Veracity, Empirical Evidence, Substantiated Datum, Established Truth, Corroborated Finding"
   },
   {
-    "word": "false",
-    "meaning": "झूठा / गलत (jhootha / galat)",
-    "pronunciation": "?????? (fawls)",
-    "definition": "Not true or not real.",
-    "example": "That assumption is false.",
-    "category": "Weak vs Strong Alternatives",
-    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Erroneous, Fallacious, Unsubstantiated, Spurious, Unfounded"
-  },
-  {
-    "word": "fast",
-    "meaning": "तेज़ (tez)",
-    "pronunciation": "?????? (fast)",
-    "definition": "Moving or capable of moving at high speed.",
-    "example": "He ran fast to catch the bus.",
-    "category": "Weak vs Strong Alternatives",
-    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Swift, Expeditious, Nimble, Fleet-footed, Precipitous"
-  },
-  {
     "word": "feel",
     "meaning": "????? ????",
     "pronunciation": "",
@@ -1089,15 +1062,6 @@
     "subCategory": "Alternative To: Extra / Doing The Most"
   },
   {
-    "word": "forecast",
-    "meaning": "To predict a future trend or event (strong alternative to 'predict' or 'guess').",
-    "pronunciation": "",
-    "definition": "A prediction or estimate of future events, especially coming weather or a financial trend.",
-    "example": "The finance team forecast a 10% growth in revenue for the next fiscal year.",
-    "category": "Weak vs Strong Alternatives",
-    "subCategory": "Weak Professional Vocabulary"
-  },
-  {
     "word": "formative",
     "meaning": "Relating to ongoing assessment used to monitor student learning progress",
     "pronunciation": "",
@@ -1125,15 +1089,6 @@
     "subCategory": "Weak Professional Vocabulary"
   },
   {
-    "word": "free",
-    "meaning": "मुफ़्त / खाली (muft / khaali)",
-    "pronunciation": "????? (free)",
-    "definition": "Not costing money, or not busy (having available time).",
-    "example": "We should feel free to express our opinions.",
-    "category": "Weak vs Strong Alternatives",
-    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Liberated, Unrestricted, Autonomous, Emancipated, Uninhibited"
-  },
-  {
     "word": "full",
     "meaning": "Containing or holding as much or as many as possible; complete",
     "pronunciation": "",
@@ -1141,15 +1096,6 @@
     "example": "We need a full review of the process.",
     "category": "Weak vs Strong Alternatives",
     "subCategory": "Weak Abstract Â†’ Strong Alternatives: Exhaustive, Comprehensive, Thorough, All-encompassing, Complete"
-  },
-  {
-    "word": "funny",
-    "meaning": "मज़ेदार, मज़ाकिया",
-    "pronunciation": "??? (fun-ee)",
-    "definition": "Making you smile or laugh.",
-    "example": "He told a really funny joke.",
-    "category": "Weak vs Strong Alternatives",
-    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Hilarious, Comical, Facetious, Waggish, Droll"
   },
   {
     "word": "furious",
@@ -1188,33 +1134,6 @@
     "subCategory": "Alternative To: Real / Lowkey Real"
   },
   {
-    "word": "get",
-    "meaning": "प्राप्त करना / समझना",
-    "pronunciation": "??? (Get)",
-    "definition": "To obtain, receive, or understand.",
-    "example": "We need to get more information.",
-    "category": "Weak vs Strong Alternatives",
-    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Acquire, Obtain, Procure, Attain, Secure"
-  },
-  {
-    "word": "give",
-    "meaning": "देना",
-    "pronunciation": "??? (Give)",
-    "definition": "To hand over or provide.",
-    "example": "He gave a good explanation.",
-    "category": "Weak vs Strong Alternatives",
-    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Furnish, Bestow, Confer, Endow, Provide"
-  },
-  {
-    "word": "go",
-    "meaning": "जाना (jaana)",
-    "pronunciation": "?? (Go)",
-    "definition": "To move from one place to another.",
-    "example": "We need to go over the plan again.",
-    "category": "Weak vs Strong Alternatives",
-    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Proceed, Advance, Traverse, Navigate, Venture"
-  },
-  {
     "word": "graduate",
     "meaning": "??????",
     "pronunciation": "",
@@ -1222,15 +1141,6 @@
     "example": "She was among the first in her family to graduate from a university.",
     "category": "Weak vs Strong Alternatives",
     "subCategory": "Formal Educational Vocabulary"
-  },
-  {
-    "word": "great",
-    "meaning": "महान / बहुत अच्छा (mahaan / bahut achcha)",
-    "pronunciation": "????? (grate)",
-    "definition": "Above average, very good, or large.",
-    "example": "She had a great idea.",
-    "category": "Weak vs Strong Alternatives",
-    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Magnificent, Illustrious, Prodigious, Sublime, Extraordinary"
   },
   {
     "word": "gregarious",
@@ -1249,24 +1159,6 @@
     "example": "What will happen next is uncertain.",
     "category": "Weak vs Strong Alternatives",
     "subCategory": "Weak Abstract Â†’ Strong Alternatives: Transpire, Materialize, Ensue, Unfold, Precipitate"
-  },
-  {
-    "word": "happy",
-    "meaning": "खुश (Khush)",
-    "pronunciation": "?????? (hap-ee)",
-    "definition": "Feeling good, pleased, or glad.",
-    "example": "She was happy with the results.",
-    "category": "Weak vs Strong Alternatives",
-    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Elated, Euphoric, Jubilant, Ecstatic, Gratified"
-  },
-  {
-    "word": "hard",
-    "meaning": "कठिन / सख़्त (kathin / sakht)",
-    "pronunciation": "????? (hard)",
-    "definition": "Solid, firm, or difficult to do or understand.",
-    "example": "The exam was very hard.",
-    "category": "Weak vs Strong Alternatives",
-    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Arduous, Grueling, Formidable, Strenuous, Onerous"
   },
   {
     "word": "hilarious",
@@ -1566,24 +1458,6 @@
     "subCategory": "Weak Abstract Â†’ Strong Alternatives: Sustain, Maintain, Perpetuate, Preserve, Uphold"
   },
   {
-    "word": "kind",
-    "meaning": "दयालु",
-    "pronunciation": "?????? (kynd)",
-    "definition": "Having a good, generous, and friendly nature.",
-    "example": "What kind of approach should we use?",
-    "category": "Weak vs Strong Alternatives",
-    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Category, Variant, Classification, Genre, Paradigm"
-  },
-  {
-    "word": "know",
-    "meaning": "जानना (jaanna)",
-    "pronunciation": "?? (No)",
-    "definition": "To be aware of through observation, inquiry, or information.",
-    "example": "We need to know the facts.",
-    "category": "Weak vs Strong Alternatives",
-    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Comprehend, Discern, Apprehend, Ascertain, Cognize"
-  },
-  {
     "word": "knowledge acquisition",
     "meaning": "The process of gaining new information and integrating it with existing understanding",
     "pronunciation": "",
@@ -1683,15 +1557,6 @@
     "subCategory": "Weak Abstract Â†’ Strong Alternatives: Protracted, Extensive, Prolonged, Drawn-out, Interminable"
   },
   {
-    "word": "look",
-    "meaning": "देखना (ध्यान से) (dekhna)",
-    "pronunciation": "??? (Look)",
-    "definition": "To direct your eyes in order to see.",
-    "example": "Let us look at the data carefully.",
-    "category": "Weak vs Strong Alternatives",
-    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Scrutinize, Examine, Inspect, Survey, Analyze"
-  },
-  {
     "word": "lot of",
     "meaning": "A large quantity or amount of something",
     "pronunciation": "",
@@ -1735,15 +1600,6 @@
     "example": "There was a major flaw in the design.",
     "category": "Weak vs Strong Alternatives",
     "subCategory": "Weak Abstract Â†’ Strong Alternatives: Fundamental, Critical, Substantial, Overriding, Seminal"
-  },
-  {
-    "word": "make",
-    "meaning": "बनाना",
-    "pronunciation": "??? (Make)",
-    "definition": "To create or construct something.",
-    "example": "We need to make a decision.",
-    "category": "Weak vs Strong Alternatives",
-    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Fabricate, Construct, Formulate, Devise, Orchestrate"
   },
   {
     "word": "mandate",
@@ -1836,15 +1692,6 @@
     "subCategory": "Weak Abstract Â†’ Strong Alternatives: Additional, Supplementary, Augmented, Incremental, Expanded"
   },
   {
-    "word": "need",
-    "meaning": "ज़रूरत होना",
-    "pronunciation": "??? (Need)",
-    "definition": "Require something because it is essential.",
-    "example": "We need to address this issue immediately.",
-    "category": "Weak vs Strong Alternatives",
-    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Necessitate, Demand, Require, Warrant, Mandate"
-  },
-  {
     "word": "nefarious",
     "meaning": "Wicked or criminal; villainous.",
     "pronunciation": "",
@@ -1861,6 +1708,15 @@
     "example": "There were many negative outcomes.",
     "category": "Weak vs Strong Alternatives",
     "subCategory": "Weak Abstract Â†’ Strong Alternatives: Adverse, Detrimental, Deleterious, Inimical, Counterproductive"
+  },
+  {
+    "word": "new",
+    "meaning": "à¤¨à¤¯à¤¾",
+    "pronunciation": "",
+    "definition": "not existing before; made, introduced, or discovered recently.",
+    "example": "",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Uncategorized"
   },
   {
     "word": "nice",
@@ -1906,15 +1762,6 @@
     "example": "Nothing about this is working.",
     "category": "Weak vs Strong Alternatives",
     "subCategory": "Weak Abstract Â†’ Strong Alternatives: Not A Single Element, Zero Evidence, No Substantive Data, An Absence, A Void"
-  },
-  {
-    "word": "obviously",
-    "meaning": "ज़ाहिर है / स्पष्ट रूप से (zaahir hai / spasht roop se)",
-    "pronunciation": "????????? (ob-vee-us-lee)",
-    "definition": "In a way that is easily seen or understood.",
-    "example": "Obviously, we must reconsider our strategy.",
-    "category": "Weak vs Strong Alternatives",
-    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Evidently, Patently, Manifestly, Unequivocally, Indisputably"
   },
   {
     "word": "old",
@@ -1969,15 +1816,6 @@
     "example": "We decided to outsource payroll processing to reduce administrative burden.",
     "category": "Weak vs Strong Alternatives",
     "subCategory": "Weak Professional Vocabulary"
-  },
-  {
-    "word": "overwhelmed",
-    "meaning": "व्याकुल / अभिभूत (Vyaakul / Abhibhoot)",
-    "pronunciation": "oh-ver-WELMD",
-    "definition": "Having a strong emotional effect that is too much to handle.",
-    "example": "She was overwhelmed with emotion when she received the award.",
-    "category": "Weak vs Strong Alternatives",
-    "subCategory": "Alternative To: Can't Even"
   },
   {
     "word": "part",
@@ -2196,15 +2034,6 @@
     "subCategory": "Alternative To: Shade / Throwing Shade"
   },
   {
-    "word": "put",
-    "meaning": "रखना / डालना",
-    "pronunciation": "??? (Put)",
-    "definition": "To move something into a specific place.",
-    "example": "We need to put more effort into this.",
-    "category": "Weak vs Strong Alternatives",
-    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Invest, Channel, Devote, Allocate, Direct"
-  },
-  {
     "word": "qualitative",
     "meaning": "Relating to non-numerical characteristics or data based on observation",
     "pronunciation": "",
@@ -2248,15 +2077,6 @@
     "example": "She looked radiant on her graduation day.",
     "category": "Weak vs Strong Alternatives",
     "subCategory": "Alternative To: Glowing Up / Glow"
-  },
-  {
-    "word": "ready",
-    "meaning": "तैयार (taiyaar)",
-    "pronunciation": "???? (red-ee)",
-    "definition": "Prepared to do something or for something to happen.",
-    "example": "Are you ready to begin the presentation?",
-    "category": "Weak vs Strong Alternatives",
-    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Prepared, Equipped, Primed, Poised, Prepped"
   },
   {
     "word": "reaffirm",
@@ -2376,15 +2196,6 @@
     "subCategory": "Alternative To: Locked In / Can't Touch This"
   },
   {
-    "word": "sad",
-    "meaning": "उदास (Udaas)",
-    "pronunciation": "??? (sad)",
-    "definition": "Feeling unhappy or sorrowful.",
-    "example": "He felt sad after the news.",
-    "category": "Weak vs Strong Alternatives",
-    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Despondent, Melancholy, Disconsolate, Bereft, Crestfallen"
-  },
-  {
     "word": "safe",
     "meaning": "Protected from or not exposed to danger or risk",
     "pronunciation": "",
@@ -2428,15 +2239,6 @@
     "example": "The politician's scandalous behaviour made headlines for weeks.",
     "category": "Weak vs Strong Alternatives",
     "subCategory": "Alternative To: Tea / Spilling The Tea"
-  },
-  {
-    "word": "scared",
-    "meaning": "डरा हुआ (Dara hua)",
-    "pronunciation": "skaird",
-    "definition": "Feeling afraid or fearful.",
-    "example": "The child was scared of the storm.",
-    "category": "Weak vs Strong Alternatives",
-    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Petrified, Terrified, Apprehensive, Aghast, Trepidatious"
   },
   {
     "word": "seem",
@@ -2484,15 +2286,6 @@
     "subCategory": "Weak Abstract Â†’ Strong Alternatives: Illustrate, Demonstrate, Corroborate, Elucidate, Substantiate"
   },
   {
-    "word": "similar",
-    "meaning": "Resembling without being identical",
-    "pronunciation": "",
-    "definition": "Having the same shape but not necessarily the same size.",
-    "example": "The two approaches are similar in nature.",
-    "category": "Weak vs Strong Alternatives",
-    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Analogous, Comparable, Parallel, Congruent, Cognate"
-  },
-  {
     "word": "simple",
     "meaning": "Easily understood or done; presenting no difficulty",
     "pronunciation": "",
@@ -2520,13 +2313,22 @@
     "subCategory": "Weak Abstract Â†’ Strong Alternatives: Minuscule, Diminutive, Negligible, Marginal, Infinitesimal"
   },
   {
-    "word": "smart",
-    "meaning": "होशियार, बुद्धिमान",
-    "pronunciation": "??????? (smart)",
-    "definition": "Intelligent, or showing quick and clever thinking.",
-    "example": "He is a smart student.",
+    "word": "some",
+    "meaning": "à¤•à¥à¤›",
+    "pronunciation": "",
+    "definition": "an unspecified amount or number of.",
+    "example": "",
     "category": "Weak vs Strong Alternatives",
-    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Astute, Erudite, Perspicacious, Sagacious, Discerning"
+    "subCategory": "Uncategorized"
+  },
+  {
+    "word": "sometimes",
+    "meaning": "???-???",
+    "pronunciation": "",
+    "definition": "occasionally, rather than all of the time.",
+    "example": "",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Uncategorized"
   },
   {
     "word": "somewhere",
@@ -2619,15 +2421,6 @@
     "subCategory": "Weak Professional Vocabulary"
   },
   {
-    "word": "strong",
-    "meaning": "मज़बूत / ताकतवर",
-    "pronunciation": "????????? (strong)",
-    "definition": "Having great physical power and ability.",
-    "example": "He gave a strong argument.",
-    "category": "Weak vs Strong Alternatives",
-    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Formidable, Robust, Stalwart, Indomitable, Resolute"
-  },
-  {
     "word": "sullen",
     "meaning": "Bad-tempered and sulky; gloomy.",
     "pronunciation": "",
@@ -2682,15 +2475,6 @@
     "subCategory": "Formal Educational Vocabulary"
   },
   {
-    "word": "take",
-    "meaning": "लेना",
-    "pronunciation": "??? (Take)",
-    "definition": "To get into one's possession.",
-    "example": "We should take a different approach.",
-    "category": "Weak vs Strong Alternatives",
-    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Adopt, Embrace, Employ, Implement, Undertake"
-  },
-  {
     "word": "tenacious",
     "meaning": "Holding firm to a purpose; persistent and determined.",
     "pronunciation": "",
@@ -2709,15 +2493,6 @@
     "subCategory": "Formal Educational Vocabulary"
   },
   {
-    "word": "thing",
-    "meaning": "An object, matter, or concept (vague reference)",
-    "pronunciation": "",
-    "definition": "An object, matter, or concept (vague reference)",
-    "example": "I need to tell you a thing.",
-    "category": "Weak vs Strong Alternatives",
-    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Entity, Phenomenon, Element, Facet, Constituent"
-  },
-  {
     "word": "thing-like situation",
     "meaning": "A vague reference to an unspecified state or event",
     "pronunciation": "",
@@ -2725,24 +2500,6 @@
     "example": "We are in a difficult thing-like situation.",
     "category": "Weak vs Strong Alternatives",
     "subCategory": "Weak Abstract Â†’ Strong Alternatives: Predicament, Quandary, Circumstance, Juncture, Exigency"
-  },
-  {
-    "word": "think",
-    "meaning": "सोचना / लगना (sochna / lagna)",
-    "pronunciation": "???? (Think)",
-    "definition": "To have a particular opinion, belief, or idea about someone or something.",
-    "example": "I think we should reconsider.",
-    "category": "Weak vs Strong Alternatives",
-    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Contemplate, Deliberate, Postulate, Surmise, Hypothesize"
-  },
-  {
-    "word": "trajectory",
-    "meaning": "The course of development over time (strong alternative to 'path' or 'direction').",
-    "pronunciation": "",
-    "definition": "The path followed by a projectile flying or an object moving under the action of given forces.",
-    "example": "The company's growth trajectory has been consistently upward for three years.",
-    "category": "Weak vs Strong Alternatives",
-    "subCategory": "Weak Professional Vocabulary"
   },
   {
     "word": "transcend",
@@ -2788,15 +2545,6 @@
     "example": "The company was led by a triumvirate of visionary founders.",
     "category": "Weak vs Strong Alternatives",
     "subCategory": "Alternative To: Trio / Three Legends"
-  },
-  {
-    "word": "true",
-    "meaning": "सच / सत्य (sach / satya)",
-    "pronunciation": "???? (troo)",
-    "definition": "In accordance with fact or reality.",
-    "example": "It is true that we need more research.",
-    "category": "Weak vs Strong Alternatives",
-    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Accurate, Verifiable, Substantiated, Irrefutable, Empirically Sound"
   },
   {
     "word": "try",
@@ -3051,15 +2799,6 @@
     "subCategory": "Weak Abstract Â†’ Strong Alternatives: Methodology, Approach, Mechanism, Paradigm, Modality"
   },
   {
-    "word": "weak",
-    "meaning": "कमज़ोर",
-    "pronunciation": "??? (week)",
-    "definition": "Lacking physical strength and energy.",
-    "example": "His weak argument failed to convince anyone.",
-    "category": "Weak vs Strong Alternatives",
-    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Feeble, Tenuous, Ineffectual, Vacillating, Impotent"
-  },
-  {
     "word": "weary",
     "meaning": "Feeling or showing extreme tiredness, especially from exertion.",
     "pronunciation": "",
@@ -3105,15 +2844,6 @@
     "subCategory": "Alternative To: Full Send / 100%"
   },
   {
-    "word": "work",
-    "meaning": "काम करना",
-    "pronunciation": "???? (Work)",
-    "definition": "Activity involving mental or physical effort.",
-    "example": "The solution seems to work well.",
-    "category": "Weak vs Strong Alternatives",
-    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Function, Operate, Perform, Execute, Yield Results"
-  },
-  {
     "word": "worse",
     "meaning": "Of poorer quality or lower standard",
     "pronunciation": "",
@@ -3130,15 +2860,6 @@
     "example": "This is the worst possible outcome.",
     "category": "Weak vs Strong Alternatives",
     "subCategory": "Weak Abstract Â†’ Strong Alternatives: Most Detrimental, Most Egregious, Most Catastrophic, Most Deleterious, Least Viable"
-  },
-  {
-    "word": "wrong",
-    "meaning": "गलत (galat)",
-    "pronunciation": "????? (rong)",
-    "definition": "Not correct or not true.",
-    "example": "That approach was completely wrong.",
-    "category": "Weak vs Strong Alternatives",
-    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Erroneous, Misguided, Fallacious, Indefensible, Untenable"
   },
   {
     "word": "zenith",

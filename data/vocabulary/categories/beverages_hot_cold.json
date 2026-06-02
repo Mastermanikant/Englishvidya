@@ -81,6 +81,15 @@
     "subCategory": "Beverages (hot)"
   },
   {
+    "word": "HERBAL TEA",
+    "meaning": "A beverage made from the infusion of herbs, spices, or other plant material in hot water, typically caffeine-free.",
+    "pronunciation": "",
+    "definition": "An infusion made from herbs or spices in hot water.",
+    "example": "Drinking chamomile herbal tea before bed helps calm the nervous system and prepare the body for sleep.",
+    "category": "Beverages (Hot & Cold)",
+    "subCategory": "Emotions, Feelings & Wellness"
+  },
+  {
     "word": "Hot chocolate",
     "meaning": "A hot drink made with milk and chocolate or cocoa powder.",
     "pronunciation": "",
@@ -232,6 +241,24 @@
     "example": "",
     "category": "Beverages (Hot & Cold)",
     "subCategory": "Beverages (cold)"
+  },
+  {
+    "word": "tea",
+    "meaning": "[object Object]",
+    "pronunciation": "??",
+    "definition": "[object Object]",
+    "example": "",
+    "category": "Beverages (Hot & Cold)",
+    "subCategory": "Uncategorized"
+  },
+  {
+    "word": "Water",
+    "meaning": "पानी",
+    "pronunciation": "वॉटर",
+    "definition": "The clear liquid that has no color, taste, or smell, that falls from clouds as rain.",
+    "example": "",
+    "category": "Beverages (Hot & Cold)",
+    "subCategory": "Grammar & Parts Of Speech"
   },
   {
     "word": "Wine",

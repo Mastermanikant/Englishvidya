@@ -27,15 +27,6 @@
     "subCategory": "Fear/anxiety"
   },
   {
-    "word": "anxious",
-    "meaning": "चिंतित / बेचैन (Chintit / Bechain)",
-    "pronunciation": "ANGK-shuhs",
-    "definition": "Experiencing worry, unease, or nervousness.",
-    "example": "He was anxious about the interview for his dream job.",
-    "category": "Fear & Anxiety",
-    "subCategory": "Fear & Anxiety"
-  },
-  {
     "word": "cowardice",
     "meaning": "",
     "pronunciation": "",
@@ -126,6 +117,15 @@
     "subCategory": "Distress (extreme)"
   },
   {
+    "word": "insecurity",
+    "meaning": "Uncertainty or anxiety about oneself; lack of confidence",
+    "pronunciation": "",
+    "definition": "",
+    "example": "His insecurity made him doubt his abilities even when he was doing well.",
+    "category": "Fear & Anxiety",
+    "subCategory": "Negative / Self-doubt"
+  },
+  {
     "word": "intimidation",
     "meaning": "",
     "pronunciation": "",
@@ -142,15 +142,6 @@
     "example": "",
     "category": "Fear & Anxiety",
     "subCategory": "Fear/anxiety"
-  },
-  {
-    "word": "nervous",
-    "meaning": "घबराया हुआ (Ghabraaya hua)",
-    "pronunciation": "NUR-vuhs",
-    "definition": "Feeling worried or slightly afraid about what might happen.",
-    "example": "He was nervous before giving his first public speech.",
-    "category": "Fear & Anxiety",
-    "subCategory": "Fear & Anxiety"
   },
   {
     "word": "nervousness",
@@ -214,6 +205,15 @@
     "example": "",
     "category": "Fear & Anxiety",
     "subCategory": "Fear/anxiety"
+  },
+  {
+    "word": "suspicion",
+    "meaning": "A feeling that something is possible, likely, or true",
+    "pronunciation": "",
+    "definition": "",
+    "example": "She had a growing suspicion that her colleague was hiding something important.",
+    "category": "Fear & Anxiety",
+    "subCategory": "Negative / Distrust"
   },
   {
     "word": "tension",

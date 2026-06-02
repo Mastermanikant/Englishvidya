@@ -54,6 +54,24 @@
     "subCategory": "E-commerce"
   },
   {
+    "word": "Chargeback",
+    "meaning": "A return of funds to a consumer, initiated by their bank, after they successfully dispute a charge.",
+    "pronunciation": "",
+    "definition": "A return of money to a payer of some transaction, especially a credit card transaction.",
+    "example": "The customer requested a chargeback because the item they ordered online never arrived.",
+    "category": "E-Commerce",
+    "subCategory": "Payments & Transactions"
+  },
+  {
+    "word": "Checkout",
+    "meaning": "The place in a shop where you pay for your goods.",
+    "pronunciation": "",
+    "definition": "The process of finalizing a purchase in an online store.",
+    "example": "There was a long line at the checkout because only one register was open.",
+    "category": "E-Commerce",
+    "subCategory": "Retail & Shopping"
+  },
+  {
     "word": "Conversion Rate",
     "meaning": "",
     "pronunciation": "",
@@ -81,6 +99,15 @@
     "subCategory": "E-commerce"
   },
   {
+    "word": "Cryptocurrency",
+    "meaning": "à¤•à¥à¤°à¤¿à¤ªà¥à¤Ÿà¥‹à¤•à¤°à¥‡à¤‚à¤¸à¥€",
+    "pronunciation": "",
+    "definition": "à¤•à¥à¤°à¤¿à¤ªà¥à¤Ÿà¥‹à¤•à¤°à¥‡à¤‚à¤¸à¥€",
+    "example": "Many people invest in cryptocurrency like Bitcoin.",
+    "category": "E-Commerce",
+    "subCategory": "Uncategorized"
+  },
+  {
     "word": "Digital Wallet",
     "meaning": "",
     "pronunciation": "",
@@ -97,6 +124,24 @@
     "example": "",
     "category": "E-Commerce",
     "subCategory": "E-commerce"
+  },
+  {
+    "word": "Inventory",
+    "meaning": "A detailed list of all the goods or materials a business has in stock.",
+    "pronunciation": "",
+    "definition": "The raw materials used to produce goods as well as the goods that are available for sale.",
+    "example": "The store closed early on Sunday to perform their annual inventory count.",
+    "category": "E-Commerce",
+    "subCategory": "Retail & Shopping"
+  },
+  {
+    "word": "Invoice",
+    "meaning": "A bill sent to a customer asking for payment for goods or services provided.",
+    "pronunciation": "",
+    "definition": "A list of goods sent or services provided, with a statement of the sum due for these; a bill.",
+    "example": "The construction company sent an invoice for the materials used.",
+    "category": "E-Commerce",
+    "subCategory": "Retail & Shopping"
   },
   {
     "word": "Merchant Account",
@@ -135,6 +180,24 @@
     "subCategory": "E-commerce"
   },
   {
+    "word": "Receipt",
+    "meaning": "A piece of paper or digital document showing that you have paid for something.",
+    "pronunciation": "",
+    "definition": "A document acknowledging that a person has received money or property in payment following a sale or other transfer of goods or provision of a service.",
+    "example": "Keep your receipt in case you need to return the shoes later.",
+    "category": "E-Commerce",
+    "subCategory": "Retail & Shopping"
+  },
+  {
+    "word": "Refund",
+    "meaning": "An amount of money that is given back to you, especially because you are not satisfied with a product.",
+    "pronunciation": "",
+    "definition": "A reimbursement for a purchase that a customer returns or is unsatisfied with.",
+    "example": "I returned the broken toaster and asked for a full refund.",
+    "category": "E-Commerce",
+    "subCategory": "Retail & Shopping"
+  },
+  {
     "word": "Shipping",
     "meaning": "",
     "pronunciation": "",
@@ -160,6 +223,15 @@
     "example": "",
     "category": "E-Commerce",
     "subCategory": "E-commerce"
+  },
+  {
+    "word": "SUBSCRIPTION",
+    "meaning": "An agreement to pay a regular amount of money to receive issues of a publication or access to a website.",
+    "pronunciation": "",
+    "definition": "à¤¸à¤¦à¤¸à¥à¤¯à¤¤à¤¾",
+    "example": "She bought a yearly subscription to the science magazine so she wouldn't miss an issue.",
+    "category": "E-Commerce",
+    "subCategory": "Print & Digital Press"
   },
   {
     "word": "Upselling",

@@ -35,20 +35,40 @@
     basePath: '/'
   };
 
-  // Calculate dynamic basePath for enterprise routing
+  // Calculate dynamic basePath for routing
   if (!state.isHashMode) {
     let cleanPath = location.pathname;
-    if (cleanPath.endsWith('/index.html')) {
-      cleanPath = cleanPath.slice(0, -10);
-    } else if (cleanPath.endsWith('/old_index.html')) {
-      cleanPath = cleanPath.slice(0, -14);
+    
+    // List of known top-level SPA route prefixes
+    const knownRoutes = ['grammar', 'dictionary', 'flashcards', 'profile', 'about-us', 'about', 'contact-us', 'contact', 'legal-policies', 'legal'];
+    
+    // Find where the route starts in the path
+    const parts = cleanPath.split('/');
+    let routeIndex = -1;
+    for (let i = 0; i < parts.length; i++) {
+      if (knownRoutes.includes(parts[i].toLowerCase())) {
+        routeIndex = i;
+        break;
+      }
     }
-    if (!cleanPath.endsWith('/')) {
-      const lastSlash = cleanPath.lastIndexOf('/');
-      if (lastSlash >= 0) {
-        cleanPath = cleanPath.slice(0, lastSlash + 1);
-      } else {
-        cleanPath = '/';
+    
+    if (routeIndex !== -1) {
+      // Reconstruct the base path up to the route index
+      cleanPath = parts.slice(0, routeIndex).join('/') + '/';
+    } else {
+      // Standard cleanup
+      if (cleanPath.endsWith('/index.html')) {
+        cleanPath = cleanPath.slice(0, -10);
+      } else if (cleanPath.endsWith('/old_index.html')) {
+        cleanPath = cleanPath.slice(0, -14);
+      }
+      if (!cleanPath.endsWith('/')) {
+        const lastSlash = cleanPath.lastIndexOf('/');
+        if (lastSlash >= 0) {
+          cleanPath = cleanPath.slice(0, lastSlash + 1);
+        } else {
+          cleanPath = '/';
+        }
       }
     }
     state.basePath = cleanPath;
@@ -244,6 +264,10 @@
         item.classList.toggle('active', itemRoute === route || (route === 'home' && itemRoute === 'home'));
       });
       $$('.desktop-nav-link').forEach(item => {
+        const itemRoute = item.getAttribute('data-route');
+        item.classList.toggle('active', itemRoute === route || (route === 'home' && itemRoute === 'home'));
+      });
+      $$('.mobile-drawer-link').forEach(item => {
         const itemRoute = item.getAttribute('data-route');
         item.classList.toggle('active', itemRoute === route || (route === 'home' && itemRoute === 'home'));
       });
@@ -583,11 +607,12 @@
             ${categories.map((cat, i) => `
               <div class="accordion-item${i === 0 ? ' open' : ''}">
                 <button class="accordion-trigger" onclick="this.parentElement.classList.toggle('open')">
-                  <span>${escHtml(cat.name || '')} ${cat.intro ? '— ' + escHtml(cat.intro) : ''}</span>
+                  <span>${escHtml(cat.name || '')}</span>
                   <span class="accordion-arrow">→</span>
                 </button>
                 <div class="accordion-content">
                   <div class="accordion-body">
+                    ${cat.intro ? `<p class="accordion-intro">${escHtml(cat.intro)}</p>` : ''}
                     ${(cat.examples || []).map(ex => `
                       <div class="example-pair">
                         <div class="example-en">${escHtml(ex.en || '')}</div>
@@ -1088,6 +1113,36 @@
     ThemeManager.init();
     SearchEngine.init();
     initScrollProgress();
+
+    // 📲 Mobile Navigation Drawer Handlers
+    const menuTrigger = $('#mobile-menu-trigger');
+    const drawerOverlay = $('#mobile-drawer-overlay');
+    const drawerClose = $('#mobile-drawer-close');
+
+    if (menuTrigger && drawerOverlay && drawerClose) {
+      const openDrawer = () => {
+        drawerOverlay.classList.add('active');
+        menuTrigger.setAttribute('aria-expanded', 'true');
+      };
+      
+      const closeDrawer = () => {
+        drawerOverlay.classList.remove('active');
+        menuTrigger.setAttribute('aria-expanded', 'false');
+      };
+
+      menuTrigger.addEventListener('click', openDrawer);
+      drawerClose.addEventListener('click', closeDrawer);
+      drawerOverlay.addEventListener('click', (e) => {
+        if (!e.target.closest('#mobile-drawer')) {
+          closeDrawer();
+        }
+      });
+      
+      // Close drawer when clicking any link inside it
+      $$('.mobile-drawer-link').forEach(link => {
+        link.addEventListener('click', closeDrawer);
+      });
+    }
 
     // 🛡️ SPA 404 Redirect Hack handler
     // 🛡️ SPA 404 Redirect Hack handler

@@ -837,15 +837,6 @@
     "subCategory": "Health, Diseases & Symptoms"
   },
   {
-    "word": "Nausea",
-    "meaning": "A feeling of sickness with an inclination to vomit.",
-    "pronunciation": "",
-    "definition": "A feeling of sickness with an inclination to vomit.",
-    "example": "",
-    "category": "Health, Diseases & Symptoms",
-    "subCategory": "Health, Diseases & Symptoms"
-  },
-  {
     "word": "Osteoporosis",
     "meaning": "A medical condition in which the bones become brittle and fragile.",
     "pronunciation": "",
@@ -979,6 +970,15 @@
     "example": "",
     "category": "Health, Diseases & Symptoms",
     "subCategory": "Health, Diseases & Symptoms"
+  },
+  {
+    "word": "Scrape",
+    "meaning": "To automatically extract large amounts of public data or text from websites using a computer program (strong alternative to 'copy text off website manually' or 'grab web text').",
+    "pronunciation": "",
+    "definition": "An injury or mark caused by scraping.",
+    "example": "The tool will scrape product prices from competitor sites to compare them automatically.",
+    "category": "Health, Diseases & Symptoms",
+    "subCategory": "Software Development & Lifecycle"
   },
   {
     "word": "Scratch",

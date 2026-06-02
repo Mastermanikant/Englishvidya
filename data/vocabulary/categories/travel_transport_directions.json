@@ -684,6 +684,15 @@
     "subCategory": "Asking Help Directions"
   },
   {
+    "word": "grid",
+    "meaning": "The layout of posts on a user's profile, typically in a square pattern.",
+    "pronunciation": "",
+    "definition": "A network of lines that cross each other to form a series of squares or rectangles.",
+    "example": "",
+    "category": "Travel, Transport & Directions",
+    "subCategory": "Uncategorized"
+  },
+  {
     "word": "HALF BOARD",
     "meaning": "A hotel rate that includes the room, breakfast, and one other meal, usually dinner.",
     "pronunciation": "",
@@ -801,6 +810,15 @@
     "subCategory": "Air Travel"
   },
   {
+    "word": "latitude",
+    "meaning": "The angular distance of a place north or south of the Earth's equator, measured in degrees",
+    "pronunciation": "",
+    "definition": "The angular distance of a place north or south of the earth's equator.",
+    "example": "The equator is at 0 degrees latitude.",
+    "category": "Travel, Transport & Directions",
+    "subCategory": "Social"
+  },
+  {
     "word": "LAYOVER",
     "meaning": "A short stay in a place in between parts of a longer journey, especially between flights.",
     "pronunciation": "",
@@ -862,6 +880,15 @@
     "example": "",
     "category": "Travel, Transport & Directions",
     "subCategory": "Commuting"
+  },
+  {
+    "word": "longitude",
+    "meaning": "The angular distance of a place east or west of the prime meridian, measured in degrees",
+    "pronunciation": "",
+    "definition": "The angular distance of a place east or west of the meridian at Greenwich.",
+    "example": "India spans from about 68 to 97 degrees east longitude.",
+    "category": "Travel, Transport & Directions",
+    "subCategory": "Social"
   },
   {
     "word": "motorcycle",
@@ -954,15 +981,6 @@
     "subCategory": "Road & Rail Travel"
   },
   {
-    "word": "PARKING LOT",
-    "meaning": "An open area of land designated for parking cars and other vehicles.",
-    "pronunciation": "",
-    "definition": "A place during a meeting to note down important topics that are not relevant to the current discussion so they can be addressed later.",
-    "example": "The shopping center has a large parking lot that is free for customers.",
-    "category": "Travel, Transport & Directions",
-    "subCategory": "Road & Rail Travel"
-  },
-  {
     "word": "PASSENGER",
     "meaning": "A person who travels in a train, bus, car, boat, or plane but is not driving or operating it.",
     "pronunciation": "",
@@ -988,6 +1006,15 @@
     "example": "Drivers must slow down and yield to any pedestrian using the crosswalk.",
     "category": "Travel, Transport & Directions",
     "subCategory": "Road & Rail Travel"
+  },
+  {
+    "word": "prime meridian",
+    "meaning": "The line of longitude at 0 degrees that divides the Earth into the Eastern and Western Hemispheres",
+    "pronunciation": "",
+    "definition": "The earth's zero of longitude, which by convention passes through Greenwich, England.",
+    "example": "Greenwich, England, is located on the prime meridian.",
+    "category": "Travel, Transport & Directions",
+    "subCategory": "Social"
   },
   {
     "word": "PRIME TIME",

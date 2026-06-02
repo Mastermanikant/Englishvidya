@@ -1,154 +1,164 @@
 [
   {
-    "word": "Agenda",
-    "category": "Meetings/Negotiation",
-    "definition": "A list of items to be discussed at a formal meeting."
-  },
-  {
-    "word": "Minutes",
-    "category": "Meetings/Negotiation",
-    "definition": "The written record of a meeting."
-  },
-  {
-    "word": "Action Item",
-    "category": "Meetings/Negotiation",
-    "definition": "A documented event, task, activity, or action that needs to take place."
-  },
-  {
-    "word": "Brainstorming",
-    "category": "Meetings/Negotiation",
-    "definition": "A group discussion to produce ideas or solve problems."
-  },
-  {
-    "word": "Compromise",
-    "category": "Meetings/Negotiation",
-    "definition": "An agreement or a settlement of a dispute that is reached by each side making concessions."
-  },
-  {
-    "word": "Concession",
-    "category": "Meetings/Negotiation",
-    "definition": "A thing that is granted, especially in response to demands; a thing conceded."
-  },
-  {
-    "word": "Counterproposal",
-    "category": "Meetings/Negotiation",
-    "definition": "An alternative proposal made in response to a previous proposal that is regarded as unacceptable or unsatisfactory."
-  },
-  {
-    "word": "Deadlock",
-    "category": "Meetings/Negotiation",
-    "definition": "A situation, typically one involving opposing parties, in which no progress can be made."
-  },
-  {
-    "word": "Leverage",
-    "category": "Meetings/Negotiation",
-    "definition": "The power to influence a person or situation to achieve a particular outcome."
-  },
-  {
-    "word": "Mediation",
-    "category": "Meetings/Negotiation",
-    "definition": "Intervention in a dispute in order to resolve it; arbitration."
+    "word": "Adjourn",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "Break off (a meeting, legal case, or game) with the intention of resuming it later.",
+    "example": "",
+    "category": "Meetings/negotiation",
+    "subCategory": "Meetings/negotiation"
   },
   {
     "word": "Arbitration",
-    "category": "Meetings/Negotiation",
-    "definition": "The use of an arbitrator to settle a dispute."
-  },
-  {
-    "word": "Quorum",
-    "category": "Meetings/Negotiation",
-    "definition": "The minimum number of members of an assembly or society that must be present at any of its meetings to make the proceedings of that meeting valid."
-  },
-  {
-    "word": "Follow-up",
-    "category": "Meetings/Negotiation",
-    "definition": "Further action or investigation."
-  },
-  {
-    "word": "Touch base",
-    "category": "Meetings/Negotiation",
-    "definition": "Briefly make or renew contact with someone."
-  },
-  {
-    "word": "Offline",
-    "category": "Meetings/Negotiation",
-    "definition": "Discussed outside of the current meeting or public forum."
-  },
-  {
-    "word": "Table",
-    "category": "Meetings/Negotiation",
-    "definition": "To postpone consideration of a topic.",
-    "meaning_hi": "???",
-    "pronunciation": "???? (tey-bl)"
-  },
-  {
-    "word": "Adjourn",
-    "category": "Meetings/Negotiation",
-    "definition": "Break off (a meeting, legal case, or game) with the intention of resuming it later."
-  },
-  {
-    "word": "Facilitator",
-    "category": "Meetings/Negotiation",
-    "definition": "A person or thing that makes an action or process easy or easier."
-  },
-  {
-    "word": "Interlocutor",
-    "category": "Meetings/Negotiation",
-    "definition": "A person who takes part in a dialogue or conversation."
-  },
-  {
-    "word": "BATNA",
-    "category": "Meetings/Negotiation",
-    "definition": "Best Alternative to a Negotiated Agreement; the most advantageous alternative course of action a party can take if negotiations fail and an agreement cannot be reached."
-  },
-  {
-    "word": "Post-mortem",
-    "category": "Meetings/Negotiation",
-    "definition": "An analysis or discussion of an event held soon after it has occurred, especially in order to determine why it was a failure."
-  },
-  {
-    "word": "Reconvene",
-    "category": "Meetings/Negotiation",
-    "definition": "Convene or cause to convene again, especially after a pause in proceedings."
-  },
-  {
-    "word": "Standup",
-    "category": "Meetings/Negotiation",
-    "definition": "A daily short meeting to discuss status."
-  },
-  {
-    "word": "Parking lot",
-    "category": "Meetings/Negotiation",
-    "definition": "A place during a meeting to note down important topics that are not relevant to the current discussion so they can be addressed later."
-  },
-  {
-    "word": "Resolution",
-    "category": "Meetings/Negotiation",
-    "definition": "A firm decision to do or not to do something."
-  },
-  {
-    "word": "Stipulation",
-    "category": "Meetings/Negotiation",
-    "definition": "A condition or requirement that is specified or demanded as part of an agreement."
-  },
-  {
-    "word": "Term sheet",
-    "category": "Meetings/Negotiation",
-    "definition": "A non-binding agreement setting forth the basic terms and conditions under which an investment will be made."
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "The use of an arbitrator to settle a dispute.",
+    "example": "",
+    "category": "Meetings/negotiation",
+    "subCategory": "Meetings/negotiation"
   },
   {
     "word": "Bargaining",
-    "category": "Meetings/Negotiation",
-    "definition": "Negotiate the terms and conditions of a transaction."
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "Negotiate the terms and conditions of a transaction.",
+    "example": "",
+    "category": "Meetings/negotiation",
+    "subCategory": "Meetings/negotiation"
+  },
+  {
+    "word": "BATNA",
+    "meaning": "Abbreviation for 'Best Alternative to a Negotiated Agreement'; your backup plan if negotiations fail.",
+    "pronunciation": "",
+    "definition": "Best Alternative to a Negotiated Agreement; the most advantageous alternative course of action a party can take if negotiations fail and an agreement cannot be reached.",
+    "example": "Knowing our BATNA helped us remain calm when the client threatened to leave the meeting.",
+    "category": "Meetings/negotiation",
+    "subCategory": "Negotiation Strategies"
+  },
+  {
+    "word": "Brainstorming",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "A group discussion to produce ideas or solve problems.",
+    "example": "",
+    "category": "Meetings/negotiation",
+    "subCategory": "Meetings/negotiation"
+  },
+  {
+    "word": "Counterproposal",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "An alternative proposal made in response to a previous proposal that is regarded as unacceptable or unsatisfactory.",
+    "example": "",
+    "category": "Meetings/negotiation",
+    "subCategory": "Meetings/negotiation"
+  },
+  {
+    "word": "Facilitator",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "A person or thing that makes an action or process easy or easier.",
+    "example": "",
+    "category": "Meetings/negotiation",
+    "subCategory": "Meetings/negotiation"
+  },
+  {
+    "word": "Follow-up",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "Further action or investigation.",
+    "example": "",
+    "category": "Meetings/negotiation",
+    "subCategory": "Meetings/negotiation"
+  },
+  {
+    "word": "Interlocutor",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "A person who takes part in a dialogue or conversation.",
+    "example": "",
+    "category": "Meetings/negotiation",
+    "subCategory": "Meetings/negotiation"
+  },
+  {
+    "word": "LEVERAGE",
+    "meaning": "The power or advantage to influence people and get the results you want in a negotiation.",
+    "pronunciation": "",
+    "definition": "The power to influence a person or situation to achieve a particular outcome.",
+    "example": "Having a second job offer gave the candidate great leverage when negotiating their salary.",
+    "category": "Meetings/negotiation",
+    "subCategory": "Negotiation Strategies"
+  },
+  {
+    "word": "minutes",
+    "meaning": "A written record of what was discussed and decided in a meeting",
+    "pronunciation": "",
+    "definition": "The written record of a meeting.",
+    "example": "The secretary shared the meeting minutes with all participants.",
+    "category": "Meetings/negotiation",
+    "subCategory": "Presentations"
+  },
+  {
+    "word": "PARKING LOT",
+    "meaning": "An open area of land designated for parking cars and other vehicles.",
+    "pronunciation": "",
+    "definition": "A place during a meeting to note down important topics that are not relevant to the current discussion so they can be addressed later.",
+    "example": "The shopping center has a large parking lot that is free for customers.",
+    "category": "Meetings/negotiation",
+    "subCategory": "Road & Rail Travel"
+  },
+  {
+    "word": "Post-mortem",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "An analysis or discussion of an event held soon after it has occurred, especially in order to determine why it was a failure.",
+    "example": "",
+    "category": "Meetings/negotiation",
+    "subCategory": "Meetings/negotiation"
+  },
+  {
+    "word": "Quorum",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "The minimum number of members of an assembly or society that must be present at any of its meetings to make the proceedings of that meeting valid.",
+    "example": "",
+    "category": "Meetings/negotiation",
+    "subCategory": "Meetings/negotiation"
+  },
+  {
+    "word": "Reconvene",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "Convene or cause to convene again, especially after a pause in proceedings.",
+    "example": "",
+    "category": "Meetings/negotiation",
+    "subCategory": "Meetings/negotiation"
+  },
+  {
+    "word": "Stipulation",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "A condition or requirement that is specified or demanded as part of an agreement.",
+    "example": "",
+    "category": "Meetings/negotiation",
+    "subCategory": "Meetings/negotiation"
+  },
+  {
+    "word": "Term sheet",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "A non-binding agreement setting forth the basic terms and conditions under which an investment will be made.",
+    "example": "",
+    "category": "Meetings/negotiation",
+    "subCategory": "Meetings/negotiation"
   },
   {
     "word": "Ultimatum",
-    "category": "Meetings/Negotiation",
-    "definition": "A final demand or statement of terms, the rejection of which will result in retaliation or a breakdown in relations."
-  },
-  {
-    "word": "Collaboration",
-    "category": "Meetings/Negotiation",
-    "definition": "The action of working with someone to produce or create something."
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "A final demand or statement of terms, the rejection of which will result in retaliation or a breakdown in relations.",
+    "example": "",
+    "category": "Meetings/negotiation",
+    "subCategory": "Meetings/negotiation"
   }
 ]

@@ -1332,15 +1332,6 @@
     "subCategory": "Cognitive Biases - Decision Making"
   },
   {
-    "word": "entropy",
-    "meaning": "A thermodynamic measure of disorder; broadly, the tendency of systems to move toward disorder and randomness over time",
-    "pronunciation": "",
-    "definition": "A thermodynamic quantity representing the unavailability of a system's thermal energy for conversion into mechanical work.",
-    "example": "Organizations must invest constant energy to resist entropy â€” the natural tendency toward disorganization and chaos.",
-    "category": "Philosophy, Logic & Thinking Skills",
-    "subCategory": "Philosophy, Logic & Thinking Skills"
-  },
-  {
     "word": "episodic memory",
     "meaning": "Long-term memory for personally experienced events and the contexts in which they occurred.",
     "pronunciation": "",
@@ -1951,15 +1942,6 @@
     "example": "The blood test was inconclusive, so the doctor ordered more tests.",
     "category": "Philosophy, Logic & Thinking Skills",
     "subCategory": "Logical Truth & Validity"
-  },
-  {
-    "word": "induction",
-    "meaning": "A reasoning process that draws general conclusions from specific observations or cases.",
-    "pronunciation": "",
-    "definition": "The inference of a general law from particular instances.",
-    "example": "Scientists use induction when they observe patterns and form broader theories.",
-    "category": "Philosophy, Logic & Thinking Skills",
-    "subCategory": "Philosophy, Logic & Thinking Skills"
   },
   {
     "word": "inductive reasoning",
@@ -2608,6 +2590,15 @@
     "example": "Developing object permanence helps a baby understand that when mom leaves the room, she still exists and will return.",
     "category": "Philosophy, Logic & Thinking Skills",
     "subCategory": "Cognitive Milestones"
+  },
+  {
+    "word": "objective",
+    "meaning": "Not influenced by personal feelings or opinions in considering and representing facts.",
+    "pronunciation": "",
+    "definition": "A thing aimed at or sought; a goal.",
+    "example": "",
+    "category": "Philosophy, Logic & Thinking Skills",
+    "subCategory": "Uncategorized"
   },
   {
     "word": "objectivity",
@@ -3717,15 +3708,6 @@
     "subCategory": "Critical Thinking"
   },
   {
-    "word": "substitute",
-    "meaning": "To replace one thing with another; a useful strategy for testing a word's meaning in context.",
-    "pronunciation": "",
-    "definition": "To replace variables with specific values in an algebraic expression.",
-    "example": "Substitute a familiar word for the unfamiliar one to check if your guess makes sense.",
-    "category": "Philosophy, Logic & Thinking Skills",
-    "subCategory": "Inference"
-  },
-  {
     "word": "subtle",
     "meaning": "So small or slight as to be difficult to notice or detect.",
     "pronunciation": "",
@@ -3994,15 +3976,6 @@
     "example": "A utilitarian calculation might justify sacrificing one person to save five, regardless of other moral concerns.",
     "category": "Philosophy, Logic & Thinking Skills",
     "subCategory": "Philosophy & Ethics"
-  },
-  {
-    "word": "variable",
-    "meaning": "Something that can change or be changed; not fixed.",
-    "pronunciation": "",
-    "definition": "A quantity that may change within the context of a mathematical problem or experiment.",
-    "example": "Weather is a variable that can affect outdoor events significantly.",
-    "category": "Philosophy, Logic & Thinking Skills",
-    "subCategory": "Logic & Reasoning"
   },
   {
     "word": "Veracity",

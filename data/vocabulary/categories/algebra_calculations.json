@@ -9,6 +9,15 @@
     "subCategory": "Algebra/calculations"
   },
   {
+    "word": "Algebra",
+    "meaning": "à¤¬à¥€à¤œà¤—à¤£à¤¿à¤¤",
+    "pronunciation": "",
+    "definition": "The part of mathematics in which letters and other general symbols are used to represent numbers and quantities.",
+    "example": "I find algebra difficult to understand.",
+    "category": "Algebra & Calculations",
+    "subCategory": "Uncategorized"
+  },
+  {
     "word": "axis",
     "meaning": "",
     "pronunciation": "",
@@ -45,6 +54,15 @@
     "subCategory": "Algebra/calculations"
   },
   {
+    "word": "coordinate",
+    "meaning": "A set of numbers used to indicate the position of a point on a grid or map",
+    "pronunciation": "",
+    "definition": "Each of a group of numbers used to indicate the position of a point, line, or plane.",
+    "example": "The point (3, 4) has x-coordinate 3 and y-coordinate 4.",
+    "category": "Algebra & Calculations",
+    "subCategory": "Maths"
+  },
+  {
     "word": "derivative",
     "meaning": "",
     "pronunciation": "",
@@ -52,6 +70,24 @@
     "example": "The derivative of position with respect to time is velocity.",
     "category": "Algebra & Calculations",
     "subCategory": "Algebra/calculations"
+  },
+  {
+    "word": "Domain",
+    "meaning": "The unique address of a website on the internet, like www.example.com.",
+    "pronunciation": "",
+    "definition": "The set of all possible input values for a function.",
+    "example": "She bought the domain name for her new online store.",
+    "category": "Algebra & Calculations",
+    "subCategory": "Internet"
+  },
+  {
+    "word": "equation",
+    "meaning": "A mathematical statement that shows two expressions are equal, using the equals sign",
+    "pronunciation": "",
+    "definition": "à¤¸à¤®à¥€à¤•à¤°à¤£",
+    "example": "The equation 2x + 3 = 7 can be solved to find x = 2.",
+    "category": "Algebra & Calculations",
+    "subCategory": "Maths"
   },
   {
     "word": "expression",
@@ -72,6 +108,15 @@
     "subCategory": "Algebra/calculations"
   },
   {
+    "word": "Formula",
+    "meaning": "à¤¸à¥‚à¤¤à¥à¤°",
+    "pronunciation": "",
+    "definition": "à¤¸à¥‚à¤¤à¥à¤°",
+    "example": "You need a formula to find the area of a circle.",
+    "category": "Algebra & Calculations",
+    "subCategory": "Uncategorized"
+  },
+  {
     "word": "function",
     "meaning": "",
     "pronunciation": "",
@@ -79,6 +124,15 @@
     "example": "The function f(x) = x^2 maps every number to its square.",
     "category": "Algebra & Calculations",
     "subCategory": "Algebra/calculations"
+  },
+  {
+    "word": "graph",
+    "meaning": "A diagram that shows the relationship between two or more sets of numbers or data",
+    "pronunciation": "",
+    "definition": "à¤—à¥à¤°à¤¾à¤«",
+    "example": "The bar graph showed rainfall levels for each month of the year.",
+    "category": "Algebra & Calculations",
+    "subCategory": "Maths"
   },
   {
     "word": "inequality",
@@ -178,6 +232,24 @@
     "example": "We need to solve for x in this equation.",
     "category": "Algebra & Calculations",
     "subCategory": "Algebra/calculations"
+  },
+  {
+    "word": "substitute",
+    "meaning": "To replace one thing with another; a useful strategy for testing a word's meaning in context.",
+    "pronunciation": "",
+    "definition": "To replace variables with specific values in an algebraic expression.",
+    "example": "Substitute a familiar word for the unfamiliar one to check if your guess makes sense.",
+    "category": "Algebra & Calculations",
+    "subCategory": "Inference"
+  },
+  {
+    "word": "variable",
+    "meaning": "Something that can change or be changed; not fixed.",
+    "pronunciation": "",
+    "definition": "A quantity that may change within the context of a mathematical problem or experiment.",
+    "example": "Weather is a variable that can affect outdoor events significantly.",
+    "category": "Algebra & Calculations",
+    "subCategory": "Logic & Reasoning"
   },
   {
     "word": "vector",
