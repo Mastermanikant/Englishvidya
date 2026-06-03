@@ -1,0 +1,5 @@
+name = "englishvidya"
+compatibility_date = "2026-06-03"
+
+# Deploy static assets located in the website folder
+assets = { directory = "./website" }
