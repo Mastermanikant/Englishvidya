@@ -6,11 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
     <meta name="description"
         content="English Vidya — हिंदी माध्यम के छात्रों के लिए अंग्रेजी सीखने का सरल, तेज़ और आधुनिक डिजिटल मंच।">
-    <comment-tag id="1">
-        <meta name="theme-color" content="#0c1222">
-    </comment-tag id="1" text="Since your app features a theme toggle, consider replacing this with two meta tags utilizing media queries to support both light and dark modes natively in the browser UI:
-<meta name='theme-color' media='(prefers-color-scheme: light)' content='#ffffff'>
-<meta name='theme-color' media='(prefers-color-scheme: dark)' content='#0c1222'>" type="suggestion">
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="#f8fafc">
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0c1222">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
@@ -661,13 +658,9 @@
                             <div class="form-group" style="display:flex; flex-direction:column; gap:5px;">
                                 <label for="contact-name" style="font-weight:500; font-size:0.9rem;">Your Name <span
                                         style="color: var(--success);">*</span></label>
-                                <comment-tag id="2"><input type="text" id="contact-name"
-                                        placeholder="Enter your name..." required</comment-tag id="2"
-                                        text="Forms should ideally include 'name' and 'autocomplete' attributes. Adding 'name=\"
-                                        name\" autocomplete=\"name\"' here helps browsers autofill user data accurately
-                                        and ensures standard form submission works properly." type="suggestion">
-                                    style="background: var(--bg-raised); border: 1px solid var(--border); color:
-                                    var(--text-primary); padding: 10px; border-radius: 8px;">
+                                <input type="text" id="contact-name" name="name" autocomplete="name"
+                                    placeholder="Enter your name..." required
+                                    style="background: var(--bg-raised); border: 1px solid var(--border); color: var(--text-primary); padding: 10px; border-radius: 8px;">
                             </div>
 
                             <div class="form-group" style="display:flex; flex-direction:column; gap:5px;">
@@ -693,8 +686,8 @@
                                 <label for="contact-message" style="font-weight:500; font-size:0.9rem;">Your Message
                                     <span style="color: var(--success);">*</span></label>
                                 <textarea id="contact-message" rows="5"
-                                    placeholder="Write your message or question in detail..." required <comment-tag
-                                    id="3">style="background: var(--bg-raised); border: 1px solid var(--border); color: var(--text-primary); padding: 10px; border-radius: 8px; font-family:inherit; resize:vertical;"</comment-tag id="3" text="Avoid heavy inline styles like this, especially when they are repeated across multiple form inputs. Extracting this into a reusable CSS class (e.g., '.form-input') in your stylesheet will clean up your HTML, reduce file size, and allow you to cleanly add interactive states like :focus." type="suggestion">></textarea>
+                                    placeholder="Write your message or question in detail..." required
+                                    style="background: var(--bg-raised); border: 1px solid var(--border); color: var(--text-primary); padding: 10px; border-radius: 8px; font-family:inherit; resize:vertical;"></textarea>
                             </div>
 
                             <button type="submit" class="promo-btn primary"

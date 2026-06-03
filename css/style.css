@@ -1268,11 +1268,15 @@ p {
 }
 
 .fc-btn {
-  padding: var(--sp-3) var(--sp-6);
+  padding: var(--sp-2) var(--sp-6);
   border-radius: var(--radius-full);
   font-weight: 700;
   font-size: 0.9rem;
   transition: all var(--duration-fast);
+  min-height: 48px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .fc-btn-skip {
@@ -1606,7 +1610,7 @@ p {
 }
 
 @media (min-width: 1024px) {
-  .app-main { max-width: 900px; }
+  .app-main { max-width: 1200px; }
 }
 
 /* ─────────────────────────────────────────────

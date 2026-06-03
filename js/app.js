@@ -354,12 +354,14 @@
 
     open() {
       searchOverlay.classList.add('active');
+      document.body.style.overflow = 'hidden';
       setTimeout(() => searchInput.focus(), 100);
       this.showRecent();
     },
 
     close() {
       searchOverlay.classList.remove('active');
+      document.body.style.overflow = '';
       searchInput.value = '';
       searchResults.innerHTML = '<div class="search-placeholder"><p class="search-hint">🔍 Type above — results appear instantly</p><div id="recent-searches-container"></div></div>';
     },

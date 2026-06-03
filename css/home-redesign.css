@@ -1058,6 +1058,10 @@
   text-align: center;
   transition: all 0.15s var(--ease-out);
   cursor: pointer;
+  min-height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .quiz-opt:hover {
@@ -1519,8 +1523,8 @@
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  width: 40px;
-  height: 40px;
+  width: 48px;
+  height: 48px;
   border-radius: var(--radius-full);
   background: var(--bg-raised);
   border: 1px solid var(--border);

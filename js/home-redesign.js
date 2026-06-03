@@ -339,35 +339,40 @@ function handleQuizAnswer(btn, isCorrect) {
     quizAnswered = true;
 
     const qOpts = document.getElementById('quiz-opts');
+    if (!qOpts) return;
     const buttons = qOpts.querySelectorAll('.quiz-opt');
 
     buttons.forEach(b => {
         b.style.pointerEvents = 'none';
     });
 
+    const scoreDisplay = document.getElementById('quiz-score-display');
+    const hintText = document.getElementById('quiz-hint-text');
+
     if (isCorrect) {
         btn.classList.add('correct');
         quizScore++;
-        document.getElementById('quiz-score-display').textContent = `Score: ${quizScore}`;
-        document.getElementById('quiz-hint-text').innerHTML = "✅ बिल्कुल सही!";
+        if (scoreDisplay) scoreDisplay.textContent = `Score: ${quizScore}`;
+        if (hintText) hintText.innerHTML = "✅ बिल्कुल सही!";
     } else {
         btn.classList.add('wrong');
         const correctIndex = quizQuestions[currentQuizIndex].options.findIndex(o => o.correct);
-        buttons[correctIndex].classList.add('correct');
-        document.getElementById('quiz-hint-text').innerHTML = "❌ ग़लत जवाब!";
+        if (buttons[correctIndex]) buttons[correctIndex].classList.add('correct');
+        if (hintText) hintText.innerHTML = "❌ ग़लत जवाब!";
     }
 
     setTimeout(() => {
         currentQuizIndex++;
+        const qText = document.getElementById('quiz-question-text');
+        const qLabel = document.getElementById('quiz-counter');
+        
         if (currentQuizIndex < quizQuestions.length) {
             renderQuiz();
         } else {
-            document.getElementById('quiz-question-text').innerHTML =
-                `Quiz पूरी! आपका स्कोर: ${quizScore}/${quizQuestions.length} 🎉`;
-            document.getElementById('quiz-opts').innerHTML =
-                '<button class="quiz-opt" style="grid-column: span 2; text-align: center;" onclick="resetQuiz()">🔄 फिर से खेलें</button>';
-            document.getElementById('quiz-hint-text').innerHTML = "";
-            document.getElementById('quiz-counter').textContent = "Done";
+            if (qText) qText.innerHTML = `Quiz पूरी! आपका स्कोर: ${quizScore}/${quizQuestions.length} 🎉`;
+            if (qOpts) qOpts.innerHTML = '<button class="quiz-opt" style="grid-column: span 2; text-align: center;" onclick="resetQuiz()">🔄 फिर से खेलें</button>';
+            if (hintText) hintText.innerHTML = "";
+            if (qLabel) qLabel.textContent = "Done";
         }
     }, 1400);
 }
@@ -375,7 +380,8 @@ function handleQuizAnswer(btn, isCorrect) {
 window.resetQuiz = function() {
     currentQuizIndex = 0;
     quizScore = 0;
-    document.getElementById('quiz-score-display').textContent = 'Score: 0';
+    const scoreDisplay = document.getElementById('quiz-score-display');
+    if (scoreDisplay) scoreDisplay.textContent = 'Score: 0';
     renderQuiz();
 };
 
