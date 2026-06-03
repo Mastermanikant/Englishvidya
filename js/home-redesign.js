@@ -18,7 +18,9 @@ function initSectionToggles() {
     const togglePairs = [
         { btn: 'toggle-progress', content: 'progress-content' },
         { btn: 'toggle-wotd',     content: 'wotd-content' },
-        { btn: 'toggle-modules',  content: 'modules-content' }
+        { btn: 'toggle-modules',  content: 'modules-content' },
+        { btn: 'toggle-roadmap',  content: 'roadmap-content' },
+        { btn: 'toggle-hubs',     content: 'hubs-content' }
     ];
 
     togglePairs.forEach(({ btn, content }) => {
@@ -51,11 +53,66 @@ function initProgressDisplay() {
     if (lessons > 0) updateStat('stat-lessons', lessons);
     if (words > 0)   updateStat('stat-words', words);
     if (xp > 0)      updateStat('stat-xp', xp);
+
+    initRoadmapProgress(lessons);
 }
 
 function updateStat(id, value) {
     const el = document.getElementById(id);
     if (el) el.textContent = value;
+}
+
+// ─── 0c. Roadmap Progress Interactivity ──────────────────────────────────
+function initRoadmapProgress(lessons) {
+    const steps = [
+        document.getElementById('roadmap-step-1'),
+        document.getElementById('roadmap-step-2'),
+        document.getElementById('roadmap-step-3'),
+        document.getElementById('roadmap-step-4'),
+        document.getElementById('roadmap-step-5')
+    ];
+    
+    let activeIndex = 0;
+    if (lessons === 0) {
+        activeIndex = 0; // step 1 is active (Alphabet & Basics)
+    } else if (lessons > 0 && lessons <= 5) {
+        activeIndex = 1; // step 2 is active (Vocabulary Builder)
+    } else if (lessons > 5 && lessons <= 12) {
+        activeIndex = 2; // step 3 is active (Grammar Master)
+    } else if (lessons > 12 && lessons <= 20) {
+        activeIndex = 3; // step 4 is active (Speaking Practice)
+    } else {
+        activeIndex = 4; // step 5 is active (Personality Development)
+    }
+
+    steps.forEach((step, idx) => {
+        if (!step) return;
+        
+        // Clear classes first
+        step.classList.remove('completed', 'active', 'locked');
+        const badge = step.querySelector('.roadmap-step-badge');
+        if (badge) badge.classList.remove('completed', 'active', 'locked');
+        
+        if (idx < activeIndex) {
+            step.classList.add('completed');
+            if (badge) {
+                badge.classList.add('completed');
+                badge.textContent = 'Completed';
+            }
+        } else if (idx === activeIndex) {
+            step.classList.add('active');
+            if (badge) {
+                badge.classList.add('active');
+                badge.textContent = 'In Progress';
+            }
+        } else {
+            step.classList.add('locked');
+            if (badge) {
+                badge.classList.add('locked');
+                badge.textContent = 'Locked';
+            }
+        }
+    });
 }
 
 // ─── 1. Word of the Day Bookmark ──────────────────────────────────────────
