@@ -36,6 +36,7 @@
 
     <!-- Premium Stylesheet -->
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/home-redesign.css">
 
     <!-- Prevent Flash of Unstyled Content (FOUC) & Restore SPA URLs -->
     <script>
@@ -197,365 +198,265 @@
     <main class="app-main" id="app-content">
 
         <!-- ── HOME VIEW (Visible by Default) ── -->
-        <div id="view-home" class="spa-view active">
-            <div class="promo-home">
+<div id="view-home" class="spa-view active new-home">
 
-                <!-- Gorgeous Neon-Orb Hero -->
-                <div class="promo-hero">
-                    <div class="promo-hero-badge">English Vidya • अंग्रेजी सीखने का आधुनिक मंच</div>
-                    <p class="hero-greeting" id="hero-greeting-text">सुप्रभात, विद्यार्थी 🙏</p>
-                    <h1 class="promo-hero-title">English सीखो, आगे बढ़ो!</h1>
-                    <p class="promo-hero-subtitle">
-                        हिंदी माध्यम के छात्रों के लिए सरलतम और सबसे प्रभावी ढंग से अंग्रेजी सीखने का आधुनिक डिजिटल मंच।
-                    </p>
+    <!-- ── HERO ──────────────────────────────────────────────────────── -->
+    <section class="hero-new animate-in d-1" aria-label="Welcome">
+        <div class="hero-deco" aria-hidden="true"></div>
 
-                    <div class="promo-hero-ctas">
-                        <a href="/grammar" class="promo-btn primary">📖 पढ़ना शुरू करें</a>
-                        <a href="/about-us" class="promo-btn secondary">💡 हमारे बारे में</a>
-                    </div>
+        <p class="hero-greeting" id="hero-greeting-text">नमस्ते, विद्यार्थी 👋</p>
+        <h1 class="hero-title">
+            Build Your<br/>
+            <span class="gradient-text">English Confidence</span>
+        </h1>
+        <p class="hero-subtitle">Roz thoda seekho, bada badlo — ek kadam aage.</p>
+        <div class="hero-cta-row">
+            <a href="/grammar" class="btn-primary" data-route="grammar">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                Aaj Ka Lesson
+            </a>
+            <a href="/flashcards" class="btn-secondary" data-route="flashcards">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+                Quick Practice
+            </a>
+        </div>
+    </section>
 
-                    <div class="live-badge-wrap">
-                        <span class="live-dot"></span>
-                        <span>सुरक्षित शिक्षण मंच &bull; 2026</span>
-                    </div>
+    <!-- Custom PWA Install Banner (Retained & Relocated) -->
+    <div id="pwa-install-banner" class="streak-card promo-streak animate-in d-2"
+        style="display: none; background: linear-gradient(135deg, #3b82f6, #1d4ed8); color: #fff; box-shadow: 0 4px 15px rgba(59, 130, 246, 0.25);">
+        <div class="streak-content"
+            style="display: flex; flex-direction: column; align-items: center; text-align: center; gap: var(--sp-2);">
+            <div class="streak-number" style="font-size: 1.2rem; color: #fff;">📲 English Vidya App इंस्टॉल करें</div>
+            <div class="streak-label"
+                style="opacity: 0.95; font-size: 0.85rem; max-width: 460px; color: #fff;">इसे अपने मोबाइल पर
+                ऐप की तरह इंस्टॉल करें और बिना इंटरनेट के भी सुपर-फास्ट स्पीड पर ग्रामर और शब्दकोश पढ़ें!
+            </div>
+            <button id="pwa-install-btn" class="promo-btn primary"
+                style="background: #ffffff; color: #1d4ed8; font-weight: 800; border: none; font-size: 0.85rem; padding: 8px 20px; border-radius: 8px; cursor: pointer; width: 100%; max-width: 220px; margin-top: 5px;">
+                📥 अभी इंस्टॉल करें
+            </button>
+        </div>
+    </div>
+
+    <!-- ── PROGRESS SNAPSHOT ─────────────────────────────────────────── -->
+    <section class="progress-section animate-in d-2" aria-labelledby="progress-heading">
+        <div class="section-header-wrap">
+            <p class="section-label" id="progress-heading">Aapki Progress</p>
+        </div>
+        <div class="progress-grid">
+            <div class="progress-card">
+                <div class="prog-icon blue" aria-hidden="true">📚</div>
+                <div class="prog-value" id="stat-lessons">0</div>
+                <div class="prog-label">Lessons<br/>Completed</div>
+                <div class="prog-bar-wrap" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                    <div class="prog-bar blue" style="width: 0%;" id="prog-bar-lessons"></div>
                 </div>
-
-                <!-- Custom PWA Install Banner (Hidden by default) -->
-                <div id="pwa-install-banner" class="streak-card promo-streak"
-                    style="display: none; margin-top: var(--sp-6); background: linear-gradient(135deg, #3b82f6, #1d4ed8); color: #fff; box-shadow: 0 4px 15px rgba(59, 130, 246, 0.25);">
-                    <div class="streak-content"
-                        style="display: flex; flex-direction: column; align-items: center; text-align: center; gap: var(--sp-2);">
-                        <div class="streak-number" style="font-size: 1.2rem; color: #fff;">📲 English Vidya App इंस्टॉल
-                            करें</div>
-                        <div class="streak-label"
-                            style="opacity: 0.95; font-size: 0.85rem; max-width: 460px; color: #fff;">इसे अपने मोबाइल पर
-                            ऐप की तरह इंस्टॉल करें और बिना इंटरनेट के भी सुपर-फास्ट स्पीड पर ग्रामर और शब्दकोश पढ़ें!
-                        </div>
-                        <button id="pwa-install-btn" class="promo-btn primary"
-                            style="background: #ffffff; color: #1d4ed8; font-weight: 800; border: none; font-size: 0.85rem; padding: 8px 20px; border-radius: 8px; cursor: pointer; width: 100%; max-width: 220px; margin-top: 5px;">
-                            📥 अभी इंस्टॉल करें
-                        </button>
-                    </div>
+            </div>
+            <div class="progress-card">
+                <div class="prog-icon green" aria-hidden="true">💬</div>
+                <div class="prog-value" id="stat-words">0</div>
+                <div class="prog-label">Words<br/>Learned</div>
+                <div class="prog-bar-wrap" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                    <div class="prog-bar green" style="width: 0%;" id="prog-bar-words"></div>
                 </div>
-
-                <!-- 2 Interactive Morphing Cards (Accordion Panels) -->
-                <div class="promo-section" style="margin-top: var(--sp-6);">
-                    <h2 class="section-title text-center" style="margin-bottom: var(--sp-2);">✨ मुख्य स्तंभ</h2>
-                    <p class="section-subtitle text-center" style="margin-bottom: var(--sp-6);">अधिक जानने के लिए किसी भी कार्ड पर क्लिक करें</p>
-
-                    <div class="morph-cards-container" id="morph-cards-container">
-
-                        <!-- Card 1: Our Vision -->
-                        <div class="morph-card" id="card-honest-promise">
-                            <div class="morph-card-header"
-                                style="display: flex; justify-content: space-between; align-items: center; cursor: pointer;">
-                                <div style="display: flex; align-items: center; gap: var(--sp-3);">
-                                    <span style="font-size: 1.5rem;">🎯</span>
-                                    <h3 style="margin: 0; font-size: 1.1rem; color: var(--text-primary);">01. Our Goal
-                                    </h3>
-                                </div>
-                                <span class="morph-card-indicator"
-                                    style="font-weight: 600; color: var(--accent);">↓</span>
-                            </div>
-                            <div class="morph-card-content" style="max-height: 0; overflow: hidden;">
-                                <div
-                                    style="padding: var(--sp-5); display: grid; grid-template-columns: 1fr; gap: var(--sp-4);">
-                                    <p
-                                        style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6; border-left: 3px solid var(--accent); padding-left: 10px;">
-                                        हमारा एकमात्र लक्ष्य हिंदी माध्यम के उन होनहार छात्रों को सर्वोत्तम शिक्षा
-                                        प्रदान करना है जो अंग्रेजी के डर के कारण जीवन में पीछे रह जाते हैं। हम अंग्रेजी
-                                        को रटने के बजाय व्यावहारिक रूप से सिखाने पर जोर देते हैं:
-                                    </p>
-                                    <div class="pillars-grid">
-                                        <div class="pillar-card">
-                                            <h4 style="color: var(--accent);">📖 सरल व्याकरण नियम</h4>
-                                            <p style="margin-top: 5px;">कठिन व्याकरण नियमों को रटने के बजाय आसान हिंदी
-                                                और दैनिक उदाहरणों के साथ समझें।</p>
-                                        </div>
-                                        <div class="pillar-card">
-                                            <h4 style="color: var(--accent);">🔤 शब्दकोश अभ्यास</h4>
-                                            <p style="margin-top: 5px;">रोज काम आने वाले 19,000+ शब्दों का देवनागरी
-                                                उच्चारण के साथ अभ्यास करें।</p>
-                                        </div>
-                                        <div class="pillar-card">
-                                            <h4 style="color: var(--accent);">🃏 वैज्ञानिक पद्धति</h4>
-                                            <p style="margin-top: 5px;">फ़्लैशकार्ड्स और स्पेस-रेपेटिशन की मदद से लंबे
-                                                समय तक शब्दों को याद रखें।</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Card 2: Core Features -->
-                        <div class="morph-card" id="card-whats-available">
-                            <div class="morph-card-header"
-                                style="display: flex; justify-content: space-between; align-items: center; cursor: pointer;">
-                                <div style="display: flex; align-items: center; gap: var(--sp-3);">
-                                    <span style="font-size: 1.5rem;">📚</span>
-                                    <h3 style="margin: 0; font-size: 1.1rem; color: var(--text-primary);">02. Key
-                                        Features</h3>
-                                </div>
-                                <span class="morph-card-indicator"
-                                    style="font-weight: 600; color: var(--accent);">↓</span>
-                            </div>
-                            <div class="morph-card-content" style="max-height: 0; overflow: hidden;">
-                                <div
-                                    style="padding: var(--sp-5); display: grid; grid-template-columns: 1fr; gap: var(--sp-4);">
-                                    <p
-                                        style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6; border-left: 3px solid var(--accent); padding-left: 10px;">
-                                        अंग्रेजी सीखने की यात्रा को आसान बनाने के लिए निम्नलिखित सुविधाएँ उपलब्ध हैं:
-                                    </p>
-                                    <div class="pillars-grid">
-                                        <div class="pillar-card">
-                                            <h4 style="color: var(--accent);">📖 व्याकरण नोट्स</h4>
-                                            <p style="margin-top: 5px;">हिंदी और हिंग्लिश के उदाहरणों के साथ समझें।</p>
-                                        </div>
-                                        <div class="pillar-card">
-                                            <h4 style="color: var(--accent);">🔤 देवनागरी शब्दकोश</h4>
-                                            <p style="margin-top: 5px;">शब्दों का शुद्ध देवनागरी उच्चारण और हिंदी अर्थ
-                                                के साथ वर्गीकृत संग्रह।</p>
-                                        </div>
-                                        <div class="pillar-card">
-                                            <h4 style="color: var(--accent);">🃏 फ़्लैशकार्ड्स</h4>
-                                            <p style="margin-top: 5px;">उच्चारण सुनने और याददाश्त को बेहतर बनाने के लिए
-                                                स्मार्ट कार्ड्स।</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Card 3: Connect with Us -->
-                        <div class="morph-card" id="card-social-connect">
-                            <div class="morph-card-header"
-                                style="display: flex; justify-content: space-between; align-items: center; cursor: pointer;">
-                                <div style="display: flex; align-items: center; gap: var(--sp-3);">
-                                    <span style="font-size: 1.5rem;">📲</span>
-                                    <h3 style="margin: 0; font-size: 1.1rem; color: var(--text-primary);">03. Connect
-                                        with Us</h3>
-                                </div>
-                                <span class="morph-card-indicator"
-                                    style="font-weight: 600; color: var(--accent);">↓</span>
-                            </div>
-                            <div class="morph-card-content" style="max-height: 0; overflow: hidden;">
-                                <div
-                                    style="padding: var(--sp-5); display: flex; flex-direction: column; gap: var(--sp-4);">
-                                    <p
-                                        style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6; border-left: 3px solid var(--accent); padding-left: 10px; margin-bottom: 0;">
-                                        हमसे जुड़ें और रोज़ नए अंग्रेजी शब्द, बोलचाल के वाक्य और व्याकरण की आसान ट्रिक्स सीखें!
-                                    </p>
-
-                                    <!-- WhatsApp Highlight Banner -->
-                                    <div class="whatsapp-promo-banner"
-                                        style="background: linear-gradient(135deg, #25d366, #128c7e); border-radius: var(--radius-lg); padding: var(--sp-6); color: #ffffff; box-shadow: 0 4px 15px rgba(37, 211, 102, 0.2); position: relative; overflow: hidden; display: flex; flex-direction: column; gap: var(--sp-3); align-items: center; text-align: center;">
-                                        <div class="social-icon-wrapper"
-                                            style="background: #ffffff; width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center;">
-                                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#128c7e"
-                                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                                <path
-                                                    d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" />
-                                            </svg>
-                                        </div>
-                                        <div>
-                                            <h3
-                                                style="font-family: var(--font-heading); font-size: 1.25rem; font-weight: 800; margin-bottom: 6px; color:#ffffff;">
-                                                Join Our WhatsApp Channel</h3>
-                                            <p
-                                                style="font-size: 0.85rem; opacity: 0.95; line-height: 1.5; max-width: 480px; margin:0 auto; color: #ffffff;">
-                                                Get grammar PDFs, daily spoken English sentences, and spelling
-                                                worksheets directly on your WhatsApp for free!
-                                            </p>
-                                        </div>
-                                        <a href="https://whatsapp.com/channel/0029VbCnmPe0VycPXCmBBH43" target="_blank"
-                                            rel="noopener noreferrer" class="promo-btn primary"
-                                            style="background: #ffffff; color: #128c7e; font-weight:800; border: none; font-size: 0.9rem; padding: 10px 20px; box-shadow: 0 4px 10px rgba(0,0,0,0.15); width: 100%; max-width: 260px; text-decoration:none; border-radius:8px;">
-                                            🟢 Join WhatsApp Channel
-                                        </a>
-                                    </div>
-
-                                    <!-- 8-platform Premium Tooltipped Icons Row -->
-                                    <div class="social-icons-row" style="margin-top: 10px; margin-bottom: 5px;">
-                                        <!-- 1. WhatsApp -->
-                                        <a href="https://whatsapp.com/channel/0029VbCnmPe0VycPXCmBBH43" target="_blank"
-                                            rel="noopener noreferrer" class="social-icon-btn whatsapp"
-                                            data-tooltip="WhatsApp">
-                                            <div class="social-icon-wrapper" style="background: #25D366;">
-                                                <svg viewBox="0 0 24 24" fill="#fff" width="18" height="18">
-                                                    <path
-                                                        d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.514 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.724-1.457L0 24zm6.59-4.846c1.6.95 3.188 1.449 4.825 1.451 5.436.002 9.858-4.42 9.86-9.86.001-2.636-1.024-5.113-2.887-6.978C16.581 1.884 14.103.859 11.472.859 6.037.859 1.615 5.28 1.613 10.717c0 1.696.442 3.352 1.28 4.809l-1.037 3.79 3.882-1.018zm11.758-6.84c-.297-.15-1.758-.867-2.03-.967-.273-.099-.471-.15-.669.15-.198.297-.768.967-.941 1.16-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.521.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z" />
-                                                </svg>
-                                            </div>
-                                        </a>
-
-                                        <!-- 2. YouTube -->
-                                        <a href="https://youtube.com/@englishvidyahq" target="_blank" rel="noopener noreferrer"
-                                            class="social-icon-btn youtube" data-tooltip="YouTube">
-                                            <div class="social-icon-wrapper" style="background: #FF0000;">
-                                                <svg viewBox="0 0 24 24" fill="#fff" width="18" height="18">
-                                                    <path
-                                                        d="M23.498 6.163a3.003 3.003 0 00-2.11-2.11C19.518 3.5 12 3.5 12 3.5s-7.518 0-9.388.553a3.003 3.003 0 00-2.11 2.11C0 8.033 0 12 0 12s0 3.967.502 5.837a3.003 3.003 0 002.11 2.11c1.87.553 9.388.553 9.388.553s7.518 0 9.388-.553a3.003 3.003 0 002.11-2.11C24 15.967 24 12 24 12s0-3.967-.502-5.837zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
-                                                </svg>
-                                            </div>
-                                        </a>
-
-                                        <!-- 3. Instagram -->
-                                        <a href="https://instagram.com/englishvidyahq" target="_blank"
-                                            rel="noopener noreferrer" class="social-icon-btn instagram"
-                                            data-tooltip="Instagram">
-                                            <div class="social-icon-wrapper"
-                                                style="background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);">
-                                                <svg viewBox="0 0 24 24" fill="#fff" width="18" height="18">
-                                                    <path
-                                                        d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" />
-                                                </svg>
-                                            </div>
-                                        </a>
-
-                                        <!-- 4. Telegram -->
-                                        <a href="https://t.me/englishvidyahq" target="_blank" rel="noopener noreferrer"
-                                            class="social-icon-btn telegram" data-tooltip="Telegram">
-                                            <div class="social-icon-wrapper" style="background: #0088cc;">
-                                                <svg viewBox="0 0 24 24" fill="#fff" width="18" height="18">
-                                                    <path
-                                                        d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-1-.64-.35-1 .22-1.58.15-.15 2.7-2.46 2.75-2.67.01-.03.01-.15-.06-.21a.28.28 0 00-.22-.04c-.03 0-.5.31-1.42.93l-2.07 1.4c-.65.45-1.24.55-1.77.53-.59-.01-1.72-.33-2.56-.6-.94-.3-1.63-.46-1.57-.97.03-.27.4-.55 1.12-.84 4.37-1.9 7.28-3.16 8.73-3.78 4.14-1.77 5-2.08 5.56-2.09.12 0 .4.03.58.18.15.13.2.3.22.43.02.1.04.4.02.66z" />
-                                                </svg>
-                                            </div>
-                                        </a>
-
-                                        <!-- 5. Facebook -->
-                                        <a href="https://facebook.com/englishvidyahq" target="_blank"
-                                            rel="noopener noreferrer" class="social-icon-btn facebook"
-                                            data-tooltip="Facebook">
-                                            <div class="social-icon-wrapper" style="background: #1877F2;">
-                                                <svg viewBox="0 0 24 24" fill="#fff" width="18" height="18">
-                                                    <path
-                                                        d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
-                                                </svg>
-                                            </div>
-                                        </a>
-
-                                        <!-- 6. Pinterest -->
-                                        <a href="https://pinterest.com/englishvidyahq" target="_blank"
-                                            rel="noopener noreferrer" class="social-icon-btn pinterest"
-                                            data-tooltip="Pinterest">
-                                            <div class="social-icon-wrapper" style="background: #BD081C;">
-                                                <svg viewBox="0 0 24 24" fill="#fff" width="18" height="18">
-                                                    <path
-                                                        d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.162-.105-.946-.199-2.385.041-3.412.219-.937 1.408-5.966 1.408-5.966s-.359-.722-.359-1.782c0-1.668.967-2.914 2.171-2.914 1.023 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.064-4.882-5.012-4.882-3.414 0-5.418 2.561-5.418 5.207 0 1.031.397 2.138.893 2.738.098.119.112.224.083.345l-.333 1.36c-.053.22-.174.267-.402.161-1.499-.698-2.436-2.889-2.436-4.649 0-3.785 2.75-7.262 7.929-7.262 4.163 0 7.398 2.967 7.398 6.931 0 4.136-2.607 7.464-6.227 7.464-1.216 0-2.359-.631-2.75-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146 1.124.347 2.317.535 3.554.535 6.621 0 11.985-5.367 11.985-11.987C24.007 5.368 18.64 0 12.017 0z" />
-                                                </svg>
-                                            </div>
-                                        </a>
-
-                                        <!-- 7. LinkedIn -->
-                                        <a href="https://linkedin.com/company/englishvidyahq" target="_blank"
-                                            rel="noopener noreferrer" class="social-icon-btn linkedin"
-                                            data-tooltip="LinkedIn">
-                                            <div class="social-icon-wrapper" style="background: #0A66C2;">
-                                                <svg viewBox="0 0 24 24" fill="#fff" width="18" height="18">
-                                                    <path
-                                                        d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
-                                                </svg>
-                                            </div>
-                                        </a>
-
-                                        <!-- 8. X (Twitter) -->
-                                        <a href="https://x.com/englishvidyahq" target="_blank" rel="noopener noreferrer"
-                                            class="social-icon-btn x-twitter" data-tooltip="X (Twitter)">
-                                            <div class="social-icon-wrapper"
-                                                style="background: #000000; border: 1px solid rgba(255,255,255,0.15);">
-                                                <svg viewBox="0 0 24 24" fill="#fff" width="18" height="18">
-                                                    <path
-                                                        d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
-                                                </svg>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
+            </div>
+            <div class="progress-card">
+                <div class="prog-icon amber" aria-hidden="true">🏆</div>
+                <div class="prog-value" id="stat-xp">0</div>
+                <div class="prog-label">Total<br/>XP Earned</div>
+                <div class="prog-bar-wrap" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                    <div class="prog-bar amber" style="width: 0%;" id="prog-bar-xp"></div>
                 </div>
-
-                <!-- Achievements Streak Card -->
-                <div class="streak-card promo-streak" style="margin-top: var(--sp-8);">
-                    <div class="streak-content">
-                        <div class="streak-number" id="streak-number-text">🔥 0 दिन की Streak</div>
-                        <div class="streak-label">हर दिन सीखने की निरंतरता बनाएं!</div>
-                        <div class="streak-message" id="streak-message-text">हर दिन वेबसाइट खोलें, 5 मिनट पढ़ें और अपनी
-                            स्ट्रीक बढ़ाएं!</div>
-                    </div>
-                </div>
-
-                <!-- Quick Start App Grid -->
-                <div class="promo-section" style="margin-top: var(--sp-6);">
-                    <h2 class="section-title text-center" style="margin-bottom: var(--sp-6);">⚡ तुरंत शुरू करें</h2>
-                    <div class="action-grid">
-                        <a href="/grammar" class="action-card">
-                            <div class="action-icon">📖</div>
-                            <div class="action-title">व्याकरण सीखें</div>
-                            <div class="action-desc">Noun, Verb, Tense — हिंदी में समझें</div>
-                        </a>
-                        <a href="/dictionary" class="action-card">
-                            <div class="action-icon">🔤</div>
-                            <div class="action-title">शब्दकोश खोजें</div>
-                            <div class="action-desc">19,773 शब्दों का खजाना</div>
-                        </a>
-                        <a href="/flashcards" class="action-card">
-                            <div class="action-icon">🃏</div>
-                            <div class="action-title">फ़्लैशकार्ड अभ्यास</div>
-                            <div class="action-desc">याद करें, उच्चारण सुनें</div>
-                        </a>
-                        <a href="/profile" class="action-card">
-                            <div class="action-icon">👤</div>
-                            <div class="action-title">प्रोफ़ाइल</div>
-                            <div class="action-desc">सेटिंग्स और प्रगति</div>
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Statistics Summary -->
-                <div class="promo-section">
-                    <h2 class="section-title text-center" style="margin-bottom: var(--sp-6);">📊 हमारे आँकड़े</h2>
-                    <div class="stats-grid">
-                        <div class="stat-card">
-                            <div class="stat-icon">📚</div>
-                            <div id="stat-words" class="stat-value">19,773</div>
-                            <div class="stat-label">शब्द</div>
-                        </div>
-                        <div class="stat-card">
-                            <div class="stat-icon">📖</div>
-                            <div id="stat-lessons" class="stat-value">60</div>
-                            <div class="stat-label">व्याकरण पाठ</div>
-                        </div>
-                        <div class="stat-card">
-                            <div class="stat-icon">📂</div>
-                            <div id="stat-categories" class="stat-value">148</div>
-                            <div class="stat-label">श्रेणियाँ</div>
-                        </div>
-                        <div class="stat-card">
-                            <div class="stat-icon">🃏</div>
-                            <div class="stat-value">∞</div>
-                            <div class="stat-label">फ़्लैशकार्ड्स</div>
-                        </div>
-                    </div>
-                </div>
-
-
-
-                <!-- Tip of the Day -->
-                <div class="card card-gradient promo-tip" style="margin-top: var(--sp-8);">
-                    <span class="badge">💡 आज का टिप</span>
-                    <h3 style="margin-top: var(--sp-3); color: var(--text-primary);">रोज़ 10 नए शब्द सीखें</h3>
-                    <p class="text-secondary" style="margin-top: var(--sp-2); margin-bottom: 0;">
-                        अगर आप रोज़ सिर्फ 10 शब्द सीखते हैं, तो 1 साल में आप <strong>3,650 शब्द</strong> जान जाएंगे — यह
-                        किसी भी अंग्रेजी exam के लिए काफ़ी से ज़्यादा है!
-                    </p>
-                </div>
-
             </div>
         </div>
+    </section>
+
+    <!-- ── WORD OF THE DAY ───────────────────────────────────────────── -->
+    <section class="wotd-section animate-in d-3" aria-labelledby="wotd-heading">
+        <div class="section-header-wrap">
+            <p class="section-label" id="wotd-heading">Aaj Ka Shabd</p>
+        </div>
+        <div class="wotd-card">
+            <div class="wotd-deco" aria-hidden="true">Aa</div>
+            <div class="wotd-header">
+                <div class="wotd-tag">✨ Word of the Day</div>
+                <button class="wotd-bookmark" id="wotd-bookmark-btn" aria-label="Save word">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg>
+                </button>
+            </div>
+            <div class="wotd-word" id="wotd-word-text">Eloquent</div>
+            <div class="wotd-phonetic" id="wotd-phonetic-text">/ˈel.ə.kwənt/</div>
+            <span class="wotd-pos" id="wotd-pos-text">adjective</span>
+            <p class="wotd-definition" id="wotd-def-text">Fluent or persuasive in speaking or writing; expressing something clearly and effectively.</p>
+            <div class="wotd-hindi">
+                <div class="hindi-label">Hindi Mein</div>
+                <div class="hindi-text" id="wotd-hi-text">वाक्पटु — स्पष्ट और प्रभावशाली ढंग से बोलने वाला</div>
+            </div>
+            <div class="wotd-actions">
+                <button class="wotd-listen" id="wotd-speak-btn" aria-label="Pronounce word">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"></path></svg>
+                </button>
+                <p class="wotd-example" id="wotd-ex-text">"She gave an <em>eloquent</em> speech that moved everyone in the room."</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── QUICK-START MODULES ───────────────────────────────────────── -->
+    <section class="modules-section animate-in d-4" aria-labelledby="modules-heading">
+        <div class="section-header-wrap">
+            <p class="section-label" id="modules-heading">Modules Explore Karein</p>
+        </div>
+        <div class="modules-grid">
+
+            <a href="/grammar" class="module-card featured" data-route="grammar" aria-label="Grammar module">
+                <div class="mod-icon purple" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 3a2.828 2.828 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z"></path></svg>
+                </div>
+                <div class="module-info">
+                    <div class="module-badge">Most Popular</div>
+                    <div class="module-title">Grammar Master</div>
+                    <div class="module-sub">Tenses, Articles, Prepositions — sab kuch step-by-step</div>
+                </div>
+                <div class="module-arrow" aria-hidden="true">→</div>
+            </a>
+
+            <a href="/dictionary" class="module-card" data-route="dictionary" aria-label="Dictionary module">
+                <div class="mod-icon blue" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                </div>
+                <div class="module-title">Dictionary</div>
+                <div class="module-sub">19,000+ words Hindi arth ke sath</div>
+                <div class="module-arrow" aria-hidden="true">→</div>
+            </a>
+
+            <a href="/flashcards" class="module-card" data-route="flashcards" aria-label="Flashcards module">
+                <div class="mod-icon green" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="9" y1="3" x2="9" y2="21"></line></svg>
+                </div>
+                <div class="module-title">Flashcards</div>
+                <div class="module-sub">Scientific tarike se yaad karein</div>
+                <div class="module-badge new">New</div>
+                <div class="module-arrow" aria-hidden="true">→</div>
+            </a>
+        </div>
+    </section>
+
+    <!-- ── PHRASEBOOK CAROUSEL ───────────────────────────────────────── -->
+    <section class="phrases-section animate-in d-5" aria-labelledby="phrases-heading">
+        <div class="section-header-wrap">
+            <p class="section-label" id="phrases-heading">Useful Phrases — Rozmarra Ki Boli</p>
+        </div>
+        <div class="phrases-scroll-wrapper">
+            <div class="phrases-scroll" role="list">
+                <div class="phrase-card" role="listitem" tabindex="0">
+                    <div class="phrase-context">Office</div>
+                    <div class="phrase-en">"Could you please clarify?"</div>
+                    <div class="phrase-hi">क्या आप थोड़ा और स्पष्ट कर सकते हैं?</div>
+                </div>
+                <div class="phrase-card" role="listitem" tabindex="0">
+                    <div class="phrase-context">Polite Request</div>
+                    <div class="phrase-en">"I'd appreciate your help."</div>
+                    <div class="phrase-hi">मुझे आपकी मदद की ज़रूरत होगी, धन्यवाद।</div>
+                </div>
+                <div class="phrase-card" role="listitem" tabindex="0">
+                    <div class="phrase-context">Apology</div>
+                    <div class="phrase-en">"I sincerely apologise."</div>
+                    <div class="phrase-hi">मैं ईमानदारी से माफी माँगता/माँगती हूँ।</div>
+                </div>
+                <div class="phrase-card" role="listitem" tabindex="0">
+                    <div class="phrase-context">Opinion</div>
+                    <div class="phrase-en">"In my humble opinion…"</div>
+                    <div class="phrase-hi">मेरी विनम्र राय में…</div>
+                </div>
+                <div class="phrase-card" role="listitem" tabindex="0">
+                    <div class="phrase-context">Agreement</div>
+                    <div class="phrase-en">"That makes perfect sense."</div>
+                    <div class="phrase-hi">यह बिल्कुल सही बात है।</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── DAILY STREAK ───────────────────────────────────────────────── -->
+    <section class="streak-section animate-in d-6" aria-labelledby="streak-heading">
+        <div class="section-header-wrap">
+            <p class="section-label" id="streak-heading">Aapki Streak</p>
+        </div>
+        <div class="streak-card promo-streak" style="margin-top: 0;">
+            <div class="streak-content">
+                <div class="streak-number" id="streak-number-text">🔥 0 दिन की Streak</div>
+                <div class="streak-label">हर दिन सीखने की निरंतरता बनाएं!</div>
+                <div class="streak-message" id="streak-message-text">हर दिन वेबसाइट खोलें, 5 मिनट पढ़ें और अपनी
+                    स्ट्रीक बढ़ाएं!</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── QUICK QUIZ ─────────────────────────────────────────────────── -->
+    <section class="quiz-section animate-in d-6" aria-labelledby="quiz-heading">
+        <div class="section-header-wrap">
+            <p class="section-label" id="quiz-heading">Quick Quiz — Abhi Try Karein</p>
+            <span class="see-all-link" id="quiz-score-display">Score: 0</span>
+        </div>
+        <div class="quiz-card" id="quiz-card-container">
+            <p class="quiz-question-label">
+                <span>Choose the correct option</span>
+                <span id="quiz-counter">1/5</span>
+            </p>
+            <p class="quiz-q" id="quiz-question-text">She <em id="quiz-blank">___</em> to the market yesterday.</p>
+            <div class="quiz-options" id="quiz-opts" role="group" aria-label="Quiz answer options">
+                <!-- Buttons injected by JS -->
+            </div>
+            <p class="quiz-hint" id="quiz-hint-text">💡 Past tense ka sochein — "yesterday" ka hint hai!</p>
+        </div>
+    </section>
+
+    <!-- ── CONNECT WITH US (Retained) ────────────────────────────────── -->
+    <section class="connect-section animate-in d-6" aria-labelledby="connect-heading">
+        <div class="section-header-wrap">
+            <p class="section-label" id="connect-heading">Connect With Us</p>
+        </div>
+        <div class="whatsapp-promo-banner"
+            style="background: linear-gradient(135deg, #25d366, #128c7e); border-radius: var(--radius-lg); padding: var(--sp-6); color: #ffffff; box-shadow: 0 4px 15px rgba(37, 211, 102, 0.2); position: relative; overflow: hidden; display: flex; flex-direction: column; gap: var(--sp-3); align-items: center; text-align: center;">
+            <div class="social-icon-wrapper"
+                style="background: #ffffff; width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#128c7e"
+                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path
+                        d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" />
+                </svg>
+            </div>
+            <div>
+                <h3
+                    style="font-family: var(--font-heading); font-size: 1.25rem; font-weight: 800; margin-bottom: 6px; color:#ffffff;">
+                    Join Our WhatsApp Channel</h3>
+                <p
+                    style="font-size: 0.85rem; opacity: 0.95; line-height: 1.5; max-width: 480px; margin:0 auto; color: #ffffff;">
+                    Get grammar PDFs, daily spoken English sentences, and spelling
+                    worksheets directly on your WhatsApp for free!
+                </p>
+            </div>
+            <a href="https://whatsapp.com/channel/0029VbCnmPe0VycPXCmBBH43" target="_blank"
+                rel="noopener noreferrer" class="promo-btn primary"
+                style="background: #ffffff; color: #128c7e; font-weight:800; border: none; font-size: 0.9rem; padding: 10px 20px; box-shadow: 0 4px 10px rgba(0,0,0,0.15); width: 100%; max-width: 260px; text-decoration:none; border-radius:8px;">
+                🟢 Join WhatsApp Channel
+            </a>
+        </div>
+    </section>
+
+    <!-- ── TIP OF THE DAY (Retained) ─────────────────────────────────── -->
+    <div class="card card-gradient promo-tip animate-in d-6" style="margin-top: var(--sp-6);">
+        <span class="badge">💡 आज का टिप</span>
+        <h3 style="margin-top: var(--sp-3); color: var(--text-primary);">रोज़ 10 नए शब्द सीखें</h3>
+        <p class="text-secondary" style="margin-top: var(--sp-2); margin-bottom: 0;">
+            अगर आप रोज़ सिर्फ 10 शब्द सीखते हैं, तो 1 साल में आप <strong>3,650 शब्द</strong> जान जाएंगे — यह
+            किसी भी अंग्रेजी exam के लिए काफ़ी से ज़्यादा है!
+        </p>
+    </div>
+
+</div>
+<!-- ── END HOME VIEW ── -->
 
         <!-- ── ABOUT VIEW (Static & Beautiful) ── -->
         <div id="view-about" class="spa-view">
@@ -975,6 +876,7 @@
 
     <!-- Core Application Script -->
     <script src="./js/app.js"></script>
+    <script src="./js/home-redesign.js"></script>
 
     <!-- Service Worker Registration -->
     <script>
