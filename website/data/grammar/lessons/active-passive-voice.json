@@ -1,0 +1,29 @@
+{
+  "title": "Active & Passive Voice (कर्तृवाच्य और कर्मवाच्य)",
+  "slug": "active-passive-voice",
+  "part": 16,
+  "definition_en": "Active voice emphasizes the subject acting. Passive voice emphasizes the object receiving the action.",
+  "definition_hi": "Active में कर्ता (Subject) की प्रधानता होती है, और Passive में कर्म (Object) की प्रधानता होती है।",
+  "categories": [
+    {
+      "name": "Active Voice",
+      "intro": "Subject acts",
+      "examples": [
+        {
+          "en": "Ram killed Ravan.",
+          "hi": "राम ने रावण को मारा।"
+        }
+      ]
+    },
+    {
+      "name": "Passive Voice",
+      "intro": "Action is received",
+      "examples": [
+        {
+          "en": "Ravan was killed by Ram.",
+          "hi": "रावण राम के द्वारा मारा गया।"
+        }
+      ]
+    }
+  ]
+}

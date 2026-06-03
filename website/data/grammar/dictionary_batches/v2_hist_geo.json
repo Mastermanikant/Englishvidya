@@ -1,0 +1,898 @@
+[
+  {
+    "word": "Prehistory",
+    "part_of_speech": "noun",
+    "definition": "The period of time before written records.",
+    "example": "Archaeologists study prehistory by examining artifacts and fossils.",
+    "category": "Time periods"
+  },
+  {
+    "word": "Paleolithic",
+    "part_of_speech": "adjective",
+    "definition": "Relating to the early phase of the Stone Age, lasting about 2.5 million years.",
+    "example": "Paleolithic tools were primarily made from chipped stones.",
+    "category": "Time periods"
+  },
+  {
+    "word": "Neolithic",
+    "part_of_speech": "adjective",
+    "definition": "Relating to the later part of the Stone Age, when ground or polished stone weapons and implements prevailed.",
+    "example": "The Neolithic revolution introduced agriculture and settled farming.",
+    "category": "Time periods"
+  },
+  {
+    "word": "Antiquity",
+    "part_of_speech": "noun",
+    "definition": "The ancient past, especially the period before the Middle Ages.",
+    "example": "Many great philosophers lived during classical antiquity.",
+    "category": "Time periods"
+  },
+  {
+    "word": "Millennium",
+    "part_of_speech": "noun",
+    "definition": "A period of a thousand years.",
+    "example": "The year 2000 marked the beginning of a new millennium.",
+    "category": "Time periods"
+  },
+  {
+    "word": "Century",
+    "part_of_speech": "noun",
+    "definition": "A period of one hundred years.",
+    "example": "The 20th century saw massive technological advancements.",
+    "category": "Time periods"
+  },
+  {
+    "word": "Decade",
+    "part_of_speech": "noun",
+    "definition": "A period of ten years.",
+    "example": "The internet has completely transformed communication in the past decade.",
+    "category": "Time periods"
+  },
+  {
+    "word": "Era",
+    "part_of_speech": "noun",
+    "definition": "A long and distinct period of history with a particular feature or characteristic.",
+    "example": "The Victorian era was known for its strict moral codes.",
+    "category": "Time periods"
+  },
+  {
+    "word": "Epoch",
+    "part_of_speech": "noun",
+    "definition": "A period of time in history or a person's life, typically one marked by notable events or particular characteristics.",
+    "example": "The development of the steam engine marked a new epoch in industrial history.",
+    "category": "Time periods"
+  },
+  {
+    "word": "Bronze Age",
+    "part_of_speech": "noun",
+    "definition": "A historical period characterized by the use of bronze, and in some areas proto-writing, and other early features of urban civilization.",
+    "example": "The Bronze Age brought significant improvements in weaponry and tools.",
+    "category": "Time periods"
+  },
+  {
+    "word": "Iron Age",
+    "part_of_speech": "noun",
+    "definition": "The period generally occurring after the Bronze Age, marked by the prevalent use of iron.",
+    "example": "Farming became more efficient during the Iron Age with the invention of iron plows.",
+    "category": "Time periods"
+  },
+  {
+    "word": "Middle Ages",
+    "part_of_speech": "noun",
+    "definition": "The period of European history from the fall of the Roman Empire in the West to the fall of Constantinople.",
+    "example": "Knights and castles are often associated with the Middle Ages.",
+    "category": "Time periods"
+  },
+  {
+    "word": "Medieval",
+    "part_of_speech": "adjective",
+    "definition": "Relating to the Middle Ages.",
+    "example": "Medieval architecture often features large, imposing fortresses.",
+    "category": "Time periods"
+  },
+  {
+    "word": "Renaissance",
+    "part_of_speech": "noun",
+    "definition": "The revival of art and literature under the influence of classical models in the 14th-16th centuries.",
+    "example": "Leonardo da Vinci was a prominent figure of the Renaissance.",
+    "category": "Time periods"
+  },
+  {
+    "word": "Enlightenment",
+    "part_of_speech": "noun",
+    "definition": "A European intellectual movement of the late 17th and 18th centuries emphasizing reason and individualism rather than tradition.",
+    "example": "The Enlightenment greatly influenced the founding fathers of the United States.",
+    "category": "Time periods"
+  },
+  {
+    "word": "Industrial Revolution",
+    "part_of_speech": "noun",
+    "definition": "The transition to new manufacturing processes in Europe and the United States, in the period from about 1760 to sometime between 1820 and 1840.",
+    "example": "The Industrial Revolution led to a massive increase in urban populations.",
+    "category": "Time periods"
+  },
+  {
+    "word": "Modernity",
+    "part_of_speech": "noun",
+    "definition": "The quality or condition of being modern.",
+    "example": "The city's skyline is a testament to its fast-paced modernity.",
+    "category": "Time periods"
+  },
+  {
+    "word": "Contemporary",
+    "part_of_speech": "adjective",
+    "definition": "Living or occurring at the same time; belonging to or occurring in the present.",
+    "example": "The museum exhibits a large collection of contemporary art.",
+    "category": "Time periods"
+  },
+  {
+    "word": "Chronology",
+    "part_of_speech": "noun",
+    "definition": "The arrangement of events or dates in the order of their occurrence.",
+    "example": "The detective tried to establish a clear chronology of the crime.",
+    "category": "Time periods"
+  },
+  {
+    "word": "Anno Domini",
+    "part_of_speech": "adverb",
+    "definition": "Used to indicate that a time division falls within the Christian era; in the year of the Lord.",
+    "example": "The Roman Empire fell in 476 Anno Domini.",
+    "category": "Time periods"
+  },
+  {
+    "word": "BCE",
+    "part_of_speech": "abbreviation",
+    "definition": "Before Common Era; a non-religious alternative to the use of BC.",
+    "example": "The city of Rome was traditionally founded in 753 BCE.",
+    "category": "Time periods"
+  },
+  {
+    "word": "CE",
+    "part_of_speech": "abbreviation",
+    "definition": "Common Era; a non-religious alternative to the use of AD.",
+    "example": "The current year is 2024 CE.",
+    "category": "Time periods"
+  },
+  {
+    "word": "Generation",
+    "part_of_speech": "noun",
+    "definition": "All of the people born and living at about the same time, regarded collectively.",
+    "example": "My grandfather belongs to the baby boomer generation.",
+    "category": "Time periods"
+  },
+  {
+    "word": "Eternity",
+    "part_of_speech": "noun",
+    "definition": "Infinite or unending time.",
+    "example": "The concept of eternity is difficult for the human mind to grasp.",
+    "category": "Time periods"
+  },
+  {
+    "word": "Fortnight",
+    "part_of_speech": "noun",
+    "definition": "A period of two weeks.",
+    "example": "They will return from their vacation in a fortnight.",
+    "category": "Time periods"
+  },
+  {
+    "word": "Bicentennial",
+    "part_of_speech": "noun",
+    "definition": "The two-hundredth anniversary of a significant event.",
+    "example": "The nation celebrated its bicentennial with grand parades.",
+    "category": "Time periods"
+  },
+  {
+    "word": "Centennial",
+    "part_of_speech": "noun",
+    "definition": "A hundredth anniversary.",
+    "example": "The university is celebrating its centennial this year.",
+    "category": "Time periods"
+  },
+  {
+    "word": "Eon",
+    "part_of_speech": "noun",
+    "definition": "An indefinite and very long period of time, often a period exaggerated for humorous or rhetorical effect.",
+    "example": "It feels like an eon since we last met.",
+    "category": "Time periods"
+  },
+  {
+    "word": "Civilization",
+    "part_of_speech": "noun",
+    "definition": "The stage of human social and cultural development and organization that is considered most advanced.",
+    "example": "Ancient Egypt was a powerful and advanced civilization.",
+    "category": "Civilizations"
+  },
+  {
+    "word": "Mesopotamia",
+    "part_of_speech": "noun",
+    "definition": "An ancient region in western Asia between the Tigris and Euphrates rivers, considered the cradle of civilization.",
+    "example": "The invention of the wheel is attributed to the peoples of Mesopotamia.",
+    "category": "Civilizations"
+  },
+  {
+    "word": "Sumerian",
+    "part_of_speech": "adjective",
+    "definition": "Relating to Sumer, its ancient language, or the early, non-Semitic element it contributed to Babylonian civilization.",
+    "example": "Cuneiform is the writing system developed by the Sumerian culture.",
+    "category": "Civilizations"
+  },
+  {
+    "word": "Babylon",
+    "part_of_speech": "noun",
+    "definition": "An ancient city in Mesopotamia, the capital of Babylonia in the 2nd millennium BC.",
+    "example": "The Hanging Gardens of Babylon were one of the Seven Wonders of the Ancient World.",
+    "category": "Civilizations"
+  },
+  {
+    "word": "Pharaoh",
+    "part_of_speech": "noun",
+    "definition": "A ruler in ancient Egypt.",
+    "example": "The pharaoh Tutankhamun is famous for his intact tomb.",
+    "category": "Civilizations"
+  },
+  {
+    "word": "Dynasty",
+    "part_of_speech": "noun",
+    "definition": "A line of hereditary rulers of a country.",
+    "example": "The Ming dynasty ruled China for nearly 300 years.",
+    "category": "Civilizations"
+  },
+  {
+    "word": "Empire",
+    "part_of_speech": "noun",
+    "definition": "An extensive group of states or countries under a single supreme authority.",
+    "example": "The British Empire once spanned across the globe.",
+    "category": "Civilizations"
+  },
+  {
+    "word": "Kingdom",
+    "part_of_speech": "noun",
+    "definition": "A country, state, or territory ruled by a king or queen.",
+    "example": "The United Kingdom is a sovereign country in Europe.",
+    "category": "Civilizations"
+  },
+  {
+    "word": "Republic",
+    "part_of_speech": "noun",
+    "definition": "A state in which supreme power is held by the people and their elected representatives.",
+    "example": "The Roman Republic lasted until the establishment of the Roman Empire.",
+    "category": "Civilizations"
+  },
+  {
+    "word": "Democracy",
+    "part_of_speech": "noun",
+    "definition": "A system of government by the whole population or all the eligible members of a state.",
+    "example": "Ancient Athens is often considered the birthplace of democracy.",
+    "category": "Civilizations"
+  },
+  {
+    "word": "Oligarchy",
+    "part_of_speech": "noun",
+    "definition": "A small group of people having control of a country, organization, or institution.",
+    "example": "Sparta was an ancient Greek city-state ruled by an oligarchy.",
+    "category": "Civilizations"
+  },
+  {
+    "word": "Aristocracy",
+    "part_of_speech": "noun",
+    "definition": "The highest class in certain societies, especially those holding hereditary titles or offices.",
+    "example": "The French Revolution sought to overthrow the aristocracy.",
+    "category": "Civilizations"
+  },
+  {
+    "word": "Nomadic",
+    "part_of_speech": "adjective",
+    "definition": "Living the life of a nomad; wandering.",
+    "example": "Many early human societies lived a nomadic lifestyle, following animal herds.",
+    "category": "Civilizations"
+  },
+  {
+    "word": "Hunter-gatherer",
+    "part_of_speech": "noun",
+    "definition": "A member of a nomadic people who live chiefly by hunting and fishing, and harvesting wild food.",
+    "example": "For thousands of years, humans survived as hunter-gatherers.",
+    "category": "Civilizations"
+  },
+  {
+    "word": "Agrarian",
+    "part_of_speech": "adjective",
+    "definition": "Relating to cultivated land or the cultivation of land.",
+    "example": "The transition to an agrarian society allowed for population growth.",
+    "category": "Civilizations"
+  },
+  {
+    "word": "Feudalism",
+    "part_of_speech": "noun",
+    "definition": "The dominant social system in medieval Europe.",
+    "example": "Under feudalism, lords granted land to vassals in exchange for military service.",
+    "category": "Civilizations"
+  },
+  {
+    "word": "Vassal",
+    "part_of_speech": "noun",
+    "definition": "A holder of land by feudal tenure on conditions of homage and allegiance.",
+    "example": "The vassal pledged his loyalty to the king.",
+    "category": "Civilizations"
+  },
+  {
+    "word": "Serf",
+    "part_of_speech": "noun",
+    "definition": "An agricultural laborer bound under the feudal system to work on his lord's estate.",
+    "example": "A serf was not permitted to leave the land they worked on.",
+    "category": "Civilizations"
+  },
+  {
+    "word": "Knight",
+    "part_of_speech": "noun",
+    "definition": "A man who served his sovereign or lord as a mounted soldier in armor.",
+    "example": "The knight rode into battle defending his kingdom.",
+    "category": "Civilizations"
+  },
+  {
+    "word": "Samurai",
+    "part_of_speech": "noun",
+    "definition": "A member of a powerful military caste in feudal Japan.",
+    "example": "The samurai followed a strict code of honor known as Bushido.",
+    "category": "Civilizations"
+  },
+  {
+    "word": "Shogun",
+    "part_of_speech": "noun",
+    "definition": "A hereditary commander-in-chief in feudal Japan.",
+    "example": "The shogun held the real political power during the Edo period.",
+    "category": "Civilizations"
+  },
+  {
+    "word": "Incan",
+    "part_of_speech": "adjective",
+    "definition": "Relating to the Incas.",
+    "example": "Machu Picchu is a famous Incan citadel set high in the Andes Mountains.",
+    "category": "Civilizations"
+  },
+  {
+    "word": "Mayan",
+    "part_of_speech": "adjective",
+    "definition": "Relating to the Maya civilization.",
+    "example": "The Mayan civilization is known for its advanced calendar and astronomical systems.",
+    "category": "Civilizations"
+  },
+  {
+    "word": "Aztec",
+    "part_of_speech": "adjective",
+    "definition": "Relating to the Aztecs, a Mesoamerican culture.",
+    "example": "The Aztec empire was centered in what is now Mexico City.",
+    "category": "Civilizations"
+  },
+  {
+    "word": "Hellenistic",
+    "part_of_speech": "adjective",
+    "definition": "Relating to Greek history, language, and culture from the death of Alexander the Great to the defeat of Cleopatra.",
+    "example": "Alexandria was a major center of Hellenistic culture and learning.",
+    "category": "Civilizations"
+  },
+  {
+    "word": "Byzantine",
+    "part_of_speech": "adjective",
+    "definition": "Relating to Byzantium, the Byzantine Empire, or the Eastern Orthodox Church.",
+    "example": "The Hagia Sophia is a masterpiece of Byzantine architecture.",
+    "category": "Civilizations"
+  },
+  {
+    "word": "Ottoman",
+    "part_of_speech": "adjective",
+    "definition": "Relating to the Turkish dynasty of Osman I or to the Ottoman Empire.",
+    "example": "The Ottoman Empire controlled much of Southeastern Europe and the Middle East.",
+    "category": "Civilizations"
+  },
+  {
+    "word": "Mongol",
+    "part_of_speech": "noun",
+    "definition": "A native or inhabitant of Mongolia; a member of the nomadic peoples who established a huge empire under Genghis Khan.",
+    "example": "The Mongol empire became the largest contiguous land empire in history.",
+    "category": "Civilizations"
+  },
+  {
+    "word": "Cartography",
+    "part_of_speech": "noun",
+    "definition": "The science or practice of drawing maps.",
+    "example": "Advances in satellite technology have greatly improved modern cartography.",
+    "category": "Maps/Coordinates"
+  },
+  {
+    "word": "Atlas",
+    "part_of_speech": "noun",
+    "definition": "A book of maps or charts.",
+    "example": "She opened the atlas to find the location of the obscure island.",
+    "category": "Maps/Coordinates"
+  },
+  {
+    "word": "Globe",
+    "part_of_speech": "noun",
+    "definition": "A spherical representation of the earth or of the constellations.",
+    "example": "He spun the globe and randomly pointed his finger at a country.",
+    "category": "Maps/Coordinates"
+  },
+  {
+    "word": "Equator",
+    "part_of_speech": "noun",
+    "definition": "An imaginary line drawn around the earth equally distant from both poles, dividing the earth into northern and southern hemispheres.",
+    "example": "Countries near the equator tend to have tropical climates.",
+    "category": "Maps/Coordinates"
+  },
+  {
+    "word": "Latitude",
+    "part_of_speech": "noun",
+    "definition": "The angular distance of a place north or south of the earth's equator.",
+    "example": "Toronto is at a latitude of 43 degrees North.",
+    "category": "Maps/Coordinates"
+  },
+  {
+    "word": "Longitude",
+    "part_of_speech": "noun",
+    "definition": "The angular distance of a place east or west of the meridian at Greenwich.",
+    "example": "The ship's coordinates included its longitude to pinpoint its exact location.",
+    "category": "Maps/Coordinates"
+  },
+  {
+    "word": "Prime Meridian",
+    "part_of_speech": "noun",
+    "definition": "The earth's zero of longitude, which by convention passes through Greenwich, England.",
+    "example": "The Prime Meridian divides the Earth into Eastern and Western Hemispheres.",
+    "category": "Maps/Coordinates"
+  },
+  {
+    "word": "Hemisphere",
+    "part_of_speech": "noun",
+    "definition": "A half of the earth, usually as divided into northern and southern halves by the equator, or into western and eastern halves by an imaginary line passing through the poles.",
+    "example": "Australia is located in the Southern Hemisphere.",
+    "category": "Maps/Coordinates"
+  },
+  {
+    "word": "Coordinate",
+    "part_of_speech": "noun",
+    "definition": "Each of a group of numbers used to indicate the position of a point, line, or plane.",
+    "example": "The pilot entered the coordinates into the navigation system.",
+    "category": "Maps/Coordinates"
+  },
+  {
+    "word": "Compass",
+    "part_of_speech": "noun",
+    "definition": "An instrument containing a magnetized pointer which shows the direction of magnetic north and bearings from it.",
+    "example": "The hikers used a compass to find their way out of the dense forest.",
+    "category": "Maps/Coordinates"
+  },
+  {
+    "word": "Scale",
+    "part_of_speech": "noun",
+    "definition": "The ratio of a distance on the map to the corresponding distance on the ground.",
+    "example": "According to the map's scale, one inch equals fifty miles.",
+    "category": "Maps/Coordinates"
+  },
+  {
+    "word": "Legend",
+    "part_of_speech": "noun",
+    "definition": "An explanatory list of the symbols on a map or chart.",
+    "example": "Check the legend to see what the dotted line represents.",
+    "category": "Maps/Coordinates"
+  },
+  {
+    "word": "Topography",
+    "part_of_speech": "noun",
+    "definition": "The arrangement of the natural and artificial physical features of an area.",
+    "example": "The topography of the region includes rolling hills and deep valleys.",
+    "category": "Maps/Coordinates"
+  },
+  {
+    "word": "Contour",
+    "part_of_speech": "noun",
+    "definition": "An outline, especially one representing or bounding the shape or form of something, often used on maps to denote elevation.",
+    "example": "Contour lines on a map show the steepness of the terrain.",
+    "category": "Maps/Coordinates"
+  },
+  {
+    "word": "Projection",
+    "part_of_speech": "noun",
+    "definition": "The representation on a plane surface of any part of the surface of the earth or a celestial sphere.",
+    "example": "The Mercator projection distorts the size of landmasses near the poles.",
+    "category": "Maps/Coordinates"
+  },
+  {
+    "word": "Tropic of Cancer",
+    "part_of_speech": "noun",
+    "definition": "The parallel of latitude that is approximately 23.5 degrees north of the equator.",
+    "example": "The Tropic of Cancer marks the northernmost point where the sun appears directly overhead.",
+    "category": "Maps/Coordinates"
+  },
+  {
+    "word": "Tropic of Capricorn",
+    "part_of_speech": "noun",
+    "definition": "The parallel of latitude that is approximately 23.5 degrees south of the equator.",
+    "example": "Australia is bisected by the Tropic of Capricorn.",
+    "category": "Maps/Coordinates"
+  },
+  {
+    "word": "Arctic Circle",
+    "part_of_speech": "noun",
+    "definition": "The parallel of latitude that is approximately 66.5 degrees north of the equator.",
+    "example": "Areas above the Arctic Circle experience the midnight sun in summer.",
+    "category": "Maps/Coordinates"
+  },
+  {
+    "word": "Antarctic Circle",
+    "part_of_speech": "noun",
+    "definition": "The parallel of latitude that is approximately 66.5 degrees south of the equator.",
+    "example": "Few expeditions venture past the icy Antarctic Circle.",
+    "category": "Maps/Coordinates"
+  },
+  {
+    "word": "Grid",
+    "part_of_speech": "noun",
+    "definition": "A network of lines that cross each other to form a series of squares or rectangles.",
+    "example": "The city was planned on a neat rectangular grid.",
+    "category": "Maps/Coordinates"
+  },
+  {
+    "word": "Zenith",
+    "part_of_speech": "noun",
+    "definition": "The point in the sky or celestial sphere directly above an observer.",
+    "example": "At noon, the sun was at its zenith.",
+    "category": "Maps/Coordinates"
+  },
+  {
+    "word": "Nadir",
+    "part_of_speech": "noun",
+    "definition": "The point on the celestial sphere directly below an observer.",
+    "example": "The nadir is exactly opposite the zenith.",
+    "category": "Maps/Coordinates"
+  },
+  {
+    "word": "Bearing",
+    "part_of_speech": "noun",
+    "definition": "Direction or position relative to a fixed point.",
+    "example": "The sailor checked the ship's bearing to stay on course.",
+    "category": "Maps/Coordinates"
+  },
+  {
+    "word": "Elevation",
+    "part_of_speech": "noun",
+    "definition": "Height above a given level, especially sea level.",
+    "example": "The city of Denver is known for its high elevation.",
+    "category": "Maps/Coordinates"
+  },
+  {
+    "word": "Declination",
+    "part_of_speech": "noun",
+    "definition": "The angular distance of a point north or south of the celestial equator.",
+    "example": "Astronomers use declination to locate stars in the sky.",
+    "category": "Maps/Coordinates"
+  },
+  {
+    "word": "Azimuth",
+    "part_of_speech": "noun",
+    "definition": "The direction of a celestial object from the observer, expressed as the angular distance from the north or south point of the horizon.",
+    "example": "The telescope was adjusted to the correct azimuth.",
+    "category": "Maps/Coordinates"
+  },
+  {
+    "word": "Equinox",
+    "part_of_speech": "noun",
+    "definition": "The time or date (twice each year) at which the sun crosses the celestial equator, when day and night are of approximately equal length.",
+    "example": "The vernal equinox marks the beginning of spring.",
+    "category": "Maps/Coordinates"
+  },
+  {
+    "word": "Solstice",
+    "part_of_speech": "noun",
+    "definition": "Either of the two times in the year when the sun reaches its highest or lowest point in the sky at noon, marked by the longest and shortest days.",
+    "example": "Many ancient cultures celebrated the winter solstice.",
+    "category": "Maps/Coordinates"
+  },
+  {
+    "word": "Geography",
+    "part_of_speech": "noun",
+    "definition": "The study of the physical features of the earth and its atmosphere, and of human activity as it affects and is affected by these.",
+    "example": "She majored in geography to learn more about global landscapes.",
+    "category": "Physical Geography"
+  },
+  {
+    "word": "Continent",
+    "part_of_speech": "noun",
+    "definition": "Any of the world's main continuous expanses of land.",
+    "example": "Asia is the largest continent in the world.",
+    "category": "Physical Geography"
+  },
+  {
+    "word": "Ocean",
+    "part_of_speech": "noun",
+    "definition": "A very large expanse of sea, in particular each of the main areas into which the sea is divided geographically.",
+    "example": "The Pacific Ocean is the deepest body of water on Earth.",
+    "category": "Physical Geography"
+  },
+  {
+    "word": "Sea",
+    "part_of_speech": "noun",
+    "definition": "The expanse of salt water that covers most of the earth's surface and surrounds its landmasses.",
+    "example": "The Mediterranean Sea connects Europe, Africa, and Asia.",
+    "category": "Physical Geography"
+  },
+  {
+    "word": "Gulf",
+    "part_of_speech": "noun",
+    "definition": "A deep inlet of the sea almost surrounded by land, with a narrow mouth.",
+    "example": "The Gulf of Mexico borders the southern coast of the United States.",
+    "category": "Physical Geography"
+  },
+  {
+    "word": "Bay",
+    "part_of_speech": "noun",
+    "definition": "A broad inlet of the sea where the land curves inward.",
+    "example": "San Francisco Bay is famous for its bridge and island prison.",
+    "category": "Physical Geography"
+  },
+  {
+    "word": "Peninsula",
+    "part_of_speech": "noun",
+    "definition": "A piece of land almost surrounded by water or projecting out into a body of water.",
+    "example": "Italy is shaped like a boot and is a large peninsula.",
+    "category": "Physical Geography"
+  },
+  {
+    "word": "Island",
+    "part_of_speech": "noun",
+    "definition": "A piece of land surrounded by water.",
+    "example": "Hawaii is an island in the middle of the Pacific Ocean.",
+    "category": "Physical Geography"
+  },
+  {
+    "word": "Archipelago",
+    "part_of_speech": "noun",
+    "definition": "A group of islands.",
+    "example": "The country of Indonesia is a massive archipelago.",
+    "category": "Physical Geography"
+  },
+  {
+    "word": "Isthmus",
+    "part_of_speech": "noun",
+    "definition": "A narrow strip of land with sea on either side, forming a link between two larger areas of land.",
+    "example": "The Isthmus of Panama connects North and South America.",
+    "category": "Physical Geography"
+  },
+  {
+    "word": "Strait",
+    "part_of_speech": "noun",
+    "definition": "A narrow passage of water connecting two seas or two other large areas of water.",
+    "example": "The Strait of Gibraltar connects the Atlantic Ocean to the Mediterranean Sea.",
+    "category": "Physical Geography"
+  },
+  {
+    "word": "Mountain",
+    "part_of_speech": "noun",
+    "definition": "A large natural elevation of the earth's surface rising abruptly from the surrounding level.",
+    "example": "Mount Everest is the tallest mountain in the world.",
+    "category": "Physical Geography"
+  },
+  {
+    "word": "Range",
+    "part_of_speech": "noun",
+    "definition": "A line or series of mountains or hills.",
+    "example": "The Andes is the longest continental mountain range in the world.",
+    "category": "Physical Geography"
+  },
+  {
+    "word": "Plateau",
+    "part_of_speech": "noun",
+    "definition": "An area of relatively level high ground.",
+    "example": "The Tibetan Plateau is sometimes referred to as the 'Roof of the World'.",
+    "category": "Physical Geography"
+  },
+  {
+    "word": "Valley",
+    "part_of_speech": "noun",
+    "definition": "A low area of land between hills or mountains, typically with a river or stream flowing through it.",
+    "example": "The village was nestled in a lush, green valley.",
+    "category": "Physical Geography"
+  },
+  {
+    "word": "Canyon",
+    "part_of_speech": "noun",
+    "definition": "A deep gorge, typically one with a river flowing through it.",
+    "example": "The Grand Canyon was carved by the Colorado River over millions of years.",
+    "category": "Physical Geography"
+  },
+  {
+    "word": "Basin",
+    "part_of_speech": "noun",
+    "definition": "A natural depression on the earth's surface, typically containing water.",
+    "example": "The Amazon Basin holds the largest rainforest in the world.",
+    "category": "Physical Geography"
+  },
+  {
+    "word": "Plain",
+    "part_of_speech": "noun",
+    "definition": "A large area of flat land with few trees.",
+    "example": "Bison used to roam the Great Plains in vast herds.",
+    "category": "Physical Geography"
+  },
+  {
+    "word": "Desert",
+    "part_of_speech": "noun",
+    "definition": "A barren area of landscape where little precipitation occurs and, consequently, living conditions are hostile for plant and animal life.",
+    "example": "The Sahara is the largest hot desert on Earth.",
+    "category": "Physical Geography"
+  },
+  {
+    "word": "Oasis",
+    "part_of_speech": "noun",
+    "definition": "A fertile spot in a desert, where water is found.",
+    "example": "The weary travelers were relieved to find an oasis with palm trees and a spring.",
+    "category": "Physical Geography"
+  },
+  {
+    "word": "Tundra",
+    "part_of_speech": "noun",
+    "definition": "A vast, flat, treeless Arctic region of Europe, Asia, and North America in which the subsoil is permanently frozen.",
+    "example": "Only specialized plants and animals can survive in the harsh tundra.",
+    "category": "Physical Geography"
+  },
+  {
+    "word": "Glacier",
+    "part_of_speech": "noun",
+    "definition": "A slowly moving mass or river of ice formed by the accumulation and compaction of snow on mountains or near the poles.",
+    "example": "Global warming has caused many glaciers to retreat.",
+    "category": "Physical Geography"
+  },
+  {
+    "word": "River",
+    "part_of_speech": "noun",
+    "definition": "A large natural stream of water flowing in a channel to the sea, a lake, or another such stream.",
+    "example": "The Nile River was essential to ancient Egyptian civilization.",
+    "category": "Physical Geography"
+  },
+  {
+    "word": "Tributary",
+    "part_of_speech": "noun",
+    "definition": "A river or stream flowing into a larger river or lake.",
+    "example": "The Missouri River is a major tributary of the Mississippi River.",
+    "category": "Physical Geography"
+  },
+  {
+    "word": "Delta",
+    "part_of_speech": "noun",
+    "definition": "A landform that forms from deposition of sediment carried by a river as the flow leaves its mouth and enters slower-moving or stagnant water.",
+    "example": "The Mississippi Delta is an important ecological region.",
+    "category": "Physical Geography"
+  },
+  {
+    "word": "Estuary",
+    "part_of_speech": "noun",
+    "definition": "The tidal mouth of a large river, where the tide meets the stream.",
+    "example": "Estuaries serve as critical nurseries for many species of fish.",
+    "category": "Physical Geography"
+  },
+  {
+    "word": "Volcano",
+    "part_of_speech": "noun",
+    "definition": "A mountain or hill, typically conical, having a crater or vent through which lava, rock fragments, hot vapor, and gas are being or have been erupted from the earth's crust.",
+    "example": "Mount Vesuvius is a famous volcano in Italy.",
+    "category": "Physical Geography"
+  },
+  {
+    "word": "Earthquake",
+    "part_of_speech": "noun",
+    "definition": "A sudden and violent shaking of the ground, sometimes causing great destruction, as a result of movements within the earth's crust or volcanic action.",
+    "example": "The city has strict building codes to prevent damage from a major earthquake.",
+    "category": "Physical Geography"
+  },
+  {
+    "word": "Tectonic",
+    "part_of_speech": "adjective",
+    "definition": "Relating to the structure of the earth's crust and the large-scale processes which take place within it.",
+    "example": "The shifting of tectonic plates causes earthquakes.",
+    "category": "Physical Geography"
+  },
+  {
+    "word": "Erosion",
+    "part_of_speech": "noun",
+    "definition": "The process of eroding or being eroded by wind, water, or other natural agents.",
+    "example": "Coastal erosion is threatening houses built near the cliffs.",
+    "category": "Physical Geography"
+  },
+  {
+    "word": "Weathering",
+    "part_of_speech": "noun",
+    "definition": "The breaking down of rocks, soil, and minerals as well as wood and artificial materials through contact with the Earth's atmosphere, water, and biological organisms.",
+    "example": "The jagged rocks were smoothed over time by natural weathering.",
+    "category": "Physical Geography"
+  },
+  {
+    "word": "Climate",
+    "part_of_speech": "noun",
+    "definition": "The weather conditions prevailing in an area in general or over a long period.",
+    "example": "Tropical rainforests have a hot and humid climate year-round.",
+    "category": "Physical Geography"
+  },
+  {
+    "word": "Atmosphere",
+    "part_of_speech": "noun",
+    "definition": "The envelope of gases surrounding the earth or another planet.",
+    "example": "The Earth's atmosphere protects us from harmful solar radiation.",
+    "category": "Physical Geography"
+  },
+  {
+    "word": "Biosphere",
+    "part_of_speech": "noun",
+    "definition": "The regions of the surface, atmosphere, and hydrosphere of the earth occupied by living organisms.",
+    "example": "All ecosystems on Earth combine to form the biosphere.",
+    "category": "Physical Geography"
+  },
+  {
+    "word": "Hydrosphere",
+    "part_of_speech": "noun",
+    "definition": "All the waters on the earth's surface, such as lakes and seas, and sometimes including water over the earth's surface, such as clouds.",
+    "example": "The hydrosphere covers approximately 71% of the Earth's surface.",
+    "category": "Physical Geography"
+  },
+  {
+    "word": "Lithosphere",
+    "part_of_speech": "noun",
+    "definition": "The rigid outer part of the earth, consisting of the crust and upper mantle.",
+    "example": "Tectonic plates are sections of the Earth's lithosphere.",
+    "category": "Physical Geography"
+  },
+  {
+    "word": "Mantle",
+    "part_of_speech": "noun",
+    "definition": "The region of the earth's interior between the crust and the core, believed to consist of hot, dense silicate rocks.",
+    "example": "The mantle makes up most of the Earth's volume.",
+    "category": "Physical Geography"
+  },
+  {
+    "word": "Crust",
+    "part_of_speech": "noun",
+    "definition": "The outermost layer of a planet.",
+    "example": "The Earth's crust is much thinner under the oceans than it is under the continents.",
+    "category": "Physical Geography"
+  },
+  {
+    "word": "Magma",
+    "part_of_speech": "noun",
+    "definition": "Hot fluid or semifluid material below or within the earth's crust from which lava and other igneous rock is formed by cooling.",
+    "example": "Magma rises to the surface during a volcanic eruption.",
+    "category": "Physical Geography"
+  },
+  {
+    "word": "Lava",
+    "part_of_speech": "noun",
+    "definition": "Hot molten or semifluid rock erupted from a volcano or fissure.",
+    "example": "The lava flowed slowly down the side of the volcano.",
+    "category": "Physical Geography"
+  },
+  {
+    "word": "Fossil",
+    "part_of_speech": "noun",
+    "definition": "The remains or impression of a prehistoric organism preserved in petrified form or as a mold or cast in rock.",
+    "example": "We found a fossil of a fern in the sedimentary rock.",
+    "category": "Physical Geography"
+  },
+  {
+    "word": "Sediment",
+    "part_of_speech": "noun",
+    "definition": "Particulate matter that is carried by water or wind and deposited on the surface of the land or the bottom of a body of water.",
+    "example": "The river carried a large amount of sediment down to the delta.",
+    "category": "Physical Geography"
+  },
+  {
+    "word": "Biome",
+    "part_of_speech": "noun",
+    "definition": "A large naturally occurring community of flora and fauna occupying a major habitat.",
+    "example": "The desert biome is characterized by low rainfall and specialized plant life.",
+    "category": "Physical Geography"
+  },
+  {
+    "word": "Ecosystem",
+    "part_of_speech": "noun",
+    "definition": "A biological community of interacting organisms and their physical environment.",
+    "example": "A coral reef is a diverse and fragile ecosystem.",
+    "category": "Physical Geography"
+  }
+]

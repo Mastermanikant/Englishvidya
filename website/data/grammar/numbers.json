@@ -1,0 +1,88 @@
+{
+  "topic": "Number System",
+  "topic_hi": "वचन प्रणाली",
+  "introduction": "The counting of things is called number.",
+  "introduction_hi": "वस्तुओं की गिनती को वचन कहते हैं।",
+  "types": [
+    {
+      "name": "Singular Number",
+      "name_hi": "एकवचन",
+      "definition": "The noun that refers to one person, place, thing, idea, or quality is called singular number.",
+      "definition_hi": "जो संज्ञा एक व्यक्ति, स्थान, वस्तु, विचार या गुण का बोध कराए, उसे Singular Number कहते हैं।",
+      "quick_examples": [
+        {"en": "boy", "hi": "लड़का"},
+        {"en": "girl", "hi": "लड़की"},
+        {"en": "book", "hi": "किताब"},
+        {"en": "apple", "hi": "सेब"}
+      ]
+    },
+    {
+      "name": "Plural Number",
+      "name_hi": "बहुवचन",
+      "definition": "The noun that refers to more than one person, place, thing, idea, or quality is called plural number.",
+      "definition_hi": "जो संज्ञा एक से अधिक व्यक्ति, स्थान, वस्तु, विचार या गुण का बोध कराए, उसे Plural Number कहते हैं।",
+      "quick_examples": [
+        {"en": "boys", "hi": "लड़के"},
+        {"en": "girls", "hi": "लड़कियां"},
+        {"en": "books", "hi": "किताबें"},
+        {"en": "apples", "hi": "सेब"}
+      ]
+    }
+  ],
+  "important_understandings": [
+    "Uncountable nouns सामान्यतः singular माने जाते हैं। (Examples: water, milk, oil, air)",
+    "Exception: 'five packets of milk' — यहाँ count material नहीं, container count हो रहा है।",
+    "Proper noun सामान्यतः singular होते हैं (Ram, The Sun).",
+    "But Sometimes Proper Nouns Become Plural: The Smiths (Smith परिवार), The Himalayas (हिमालय की पर्वत श्रृंखलाएँ)।",
+    "Important Rule: All words ending with 's' are not plural. (Examples: mathematics, physics, news, series).",
+    "Some Nouns Are Always Plural: clothes, trousers, scissors, glasses, binoculars."
+  ],
+  "conversion_rules": [
+    {
+      "rule": "Rule 1",
+      "description": "यदि noun के अंत में s, sh, ch, x, z हो, तो 'es' जोड़कर plural बनाते हैं।",
+      "examples": [
+        {"singular": "class", "plural": "classes"},
+        {"singular": "bench", "plural": "benches"},
+        {"singular": "bus", "plural": "buses"},
+        {"singular": "quiz", "plural": "quizzes"}
+      ]
+    },
+    {
+      "rule": "Rule 2",
+      "description": "यदि noun के अंत में 'o' हो और उससे पहले consonant हो, तो 'es' जोड़ते हैं।",
+      "examples": [
+        {"singular": "hero", "plural": "heroes"},
+        {"singular": "potato", "plural": "potatoes"},
+        {"singular": "tomato", "plural": "tomatoes"}
+      ]
+    },
+    {
+      "rule": "Rule 3",
+      "description": "यदि 'o' से पहले vowel हो, तो सामान्यतः 's' जोड़ते हैं।",
+      "examples": [
+        {"singular": "radio", "plural": "radios"},
+        {"singular": "video", "plural": "videos"},
+        {"singular": "studio", "plural": "studios"}
+      ]
+    },
+    {
+      "rule": "Rule 4",
+      "description": "यदि noun के अंत में 'y' हो और उससे पहले consonant हो, तो 'y' हटाकर 'ies' जोड़ते हैं।",
+      "examples": [
+        {"singular": "city", "plural": "cities"},
+        {"singular": "baby", "plural": "babies"},
+        {"singular": "family", "plural": "families"}
+      ]
+    },
+    {
+      "rule": "Rule 5",
+      "description": "यदि 'y' से पहले vowel हो, तो केवल 's' जोड़ते हैं।",
+      "examples": [
+        {"singular": "boy", "plural": "boys"},
+        {"singular": "toy", "plural": "toys"},
+        {"singular": "day", "plural": "days"}
+      ]
+    }
+  ]
+}

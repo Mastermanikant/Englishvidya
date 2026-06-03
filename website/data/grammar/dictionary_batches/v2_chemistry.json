@@ -1,0 +1,674 @@
+[
+  {
+    "word": "Hydrogen",
+    "sub_category": "Elements",
+    "definition": "A colorless gas, atomic number 1.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Helium",
+    "sub_category": "Elements",
+    "definition": "A light colorless inert gas.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Lithium",
+    "sub_category": "Elements",
+    "definition": "A soft, silvery-white alkali metal.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Beryllium",
+    "sub_category": "Elements",
+    "definition": "A hard gray metal.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Boron",
+    "sub_category": "Elements",
+    "definition": "A metalloid element.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Carbon",
+    "sub_category": "Elements",
+    "definition": "A nonmetal that has two main forms (diamond and graphite).",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Nitrogen",
+    "sub_category": "Elements",
+    "definition": "A colorless, odorless unreactive gas.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Oxygen",
+    "sub_category": "Elements",
+    "definition": "A reactive gas, the life-supporting component of the air.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Fluorine",
+    "sub_category": "Elements",
+    "definition": "A poisonous pale yellow gas.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Neon",
+    "sub_category": "Elements",
+    "definition": "An inert gas used in signs.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Sodium",
+    "sub_category": "Elements",
+    "definition": "A soft silver-white reactive metal.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Magnesium",
+    "sub_category": "Elements",
+    "definition": "A silver-white metal.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Aluminum",
+    "sub_category": "Elements",
+    "definition": "A light silvery-gray metal.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Silicon",
+    "sub_category": "Elements",
+    "definition": "A nonmetal with semiconducting properties.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Phosphorus",
+    "sub_category": "Elements",
+    "definition": "A poisonous, combustible nonmetal.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Sulfur",
+    "sub_category": "Elements",
+    "definition": "A yellow combustible nonmetal.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Chlorine",
+    "sub_category": "Elements",
+    "definition": "A toxic, irritant, pale green gas.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Argon",
+    "sub_category": "Elements",
+    "definition": "An inert gaseous element.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Potassium",
+    "sub_category": "Elements",
+    "definition": "A soft silvery-white reactive metal.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Calcium",
+    "sub_category": "Elements",
+    "definition": "A soft gray metal.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Iron",
+    "sub_category": "Elements",
+    "definition": "A strong, hard magnetic silvery-gray metal.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Copper",
+    "sub_category": "Elements",
+    "definition": "A red-brown metal.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Zinc",
+    "sub_category": "Elements",
+    "definition": "A silvery-white metal.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Silver",
+    "sub_category": "Elements",
+    "definition": "A precious shiny grayish-white metal.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Gold",
+    "sub_category": "Elements",
+    "definition": "A yellow precious metal.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Platinum",
+    "sub_category": "Elements",
+    "definition": "A precious silvery-white metal.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Mercury",
+    "sub_category": "Elements",
+    "definition": "A heavy silvery-white metal that is liquid at ordinary temperatures.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Lead",
+    "sub_category": "Elements",
+    "definition": "A heavy, base, soft, bluish-gray metal.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Uranium",
+    "sub_category": "Elements",
+    "definition": "A dense radioactive metal.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Plutonium",
+    "sub_category": "Elements",
+    "definition": "A dense silvery radioactive metal.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Oxidation",
+    "sub_category": "Reactions",
+    "definition": "A process in which a chemical substance changes because of the addition of oxygen.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Reduction",
+    "sub_category": "Reactions",
+    "definition": "A chemical reaction that involves the gaining of electrons.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Combustion",
+    "sub_category": "Reactions",
+    "definition": "A rapid chemical combination of a substance with oxygen.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Neutralization",
+    "sub_category": "Reactions",
+    "definition": "A chemical reaction in which acid and a base react.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Synthesis",
+    "sub_category": "Reactions",
+    "definition": "The production of chemical compounds by reaction from simpler materials.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Decomposition",
+    "sub_category": "Reactions",
+    "definition": "The breakdown of a single entity into two or more fragments.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Precipitation",
+    "sub_category": "Reactions",
+    "definition": "The creation of a solid from a solution.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Catalysis",
+    "sub_category": "Reactions",
+    "definition": "The acceleration of a chemical reaction by a catalyst.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Hydrolysis",
+    "sub_category": "Reactions",
+    "definition": "The chemical breakdown of a compound due to reaction with water.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Electrolysis",
+    "sub_category": "Reactions",
+    "definition": "Chemical decomposition produced by passing an electric current.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Substitution",
+    "sub_category": "Reactions",
+    "definition": "A chemical reaction during which one functional group is replaced by another.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Addition",
+    "sub_category": "Reactions",
+    "definition": "A reaction in which one molecule combines with another.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Elimination",
+    "sub_category": "Reactions",
+    "definition": "A type of organic reaction in which two substituents are removed.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Isomerization",
+    "sub_category": "Reactions",
+    "definition": "The process by which one molecule is transformed into another with the same atoms.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Polymerization",
+    "sub_category": "Reactions",
+    "definition": "A process of reacting monomer molecules together to form polymer chains.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Fermentation",
+    "sub_category": "Reactions",
+    "definition": "The chemical breakdown of a substance by bacteria or yeasts.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Photosynthesis",
+    "sub_category": "Reactions",
+    "definition": "The process by which green plants use sunlight to synthesize foods.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Respiration",
+    "sub_category": "Reactions",
+    "definition": "A process in living organisms involving the production of energy.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Endothermic",
+    "sub_category": "Reactions",
+    "definition": "A reaction requiring the absorption of heat.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Exothermic",
+    "sub_category": "Reactions",
+    "definition": "A reaction accompanied by the release of heat.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Reversible",
+    "sub_category": "Reactions",
+    "definition": "A chemical reaction that results in an equilibrium mixture.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Irreversible",
+    "sub_category": "Reactions",
+    "definition": "A chemical reaction that proceeds in only one direction.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Titration",
+    "sub_category": "Reactions",
+    "definition": "The slow addition of one solution to another to find concentration.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Esterification",
+    "sub_category": "Reactions",
+    "definition": "A reaction of an alcohol with an acid to produce an ester.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Saponification",
+    "sub_category": "Reactions",
+    "definition": "A process that involves conversion of fat into soap.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Displacement",
+    "sub_category": "Reactions",
+    "definition": "A reaction in which a more reactive element displaces a less reactive one.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Redox",
+    "sub_category": "Reactions",
+    "definition": "A type of chemical reaction in which oxidation states change.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Photochemical",
+    "sub_category": "Reactions",
+    "definition": "A chemical reaction initiated by the absorption of light.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Beaker",
+    "sub_category": "Lab Equipment",
+    "definition": "A lipped cylindrical glass container.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Flask",
+    "sub_category": "Lab Equipment",
+    "definition": "A narrow-necked glass container.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Test tube",
+    "sub_category": "Lab Equipment",
+    "definition": "A thin glass tube closed at one end.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Pipette",
+    "sub_category": "Lab Equipment",
+    "definition": "A slender tube for transferring small quantities of liquid.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Burette",
+    "sub_category": "Lab Equipment",
+    "definition": "A graduated glass tube with a tap at one end.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Graduated cylinder",
+    "sub_category": "Lab Equipment",
+    "definition": "A piece of laboratory equipment used to measure the volume of a liquid.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Bunsen burner",
+    "sub_category": "Lab Equipment",
+    "definition": "A small adjustable gas burner.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Crucible",
+    "sub_category": "Lab Equipment",
+    "definition": "A ceramic container in which substances may be melted.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Tongs",
+    "sub_category": "Lab Equipment",
+    "definition": "An instrument used for picking up and holding things.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Thermometer",
+    "sub_category": "Lab Equipment",
+    "definition": "An instrument for measuring temperature.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Funnel",
+    "sub_category": "Lab Equipment",
+    "definition": "A tube used for guiding liquid into a small opening.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Filter paper",
+    "sub_category": "Lab Equipment",
+    "definition": "A porous paper used for filtering liquids.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Petri dish",
+    "sub_category": "Lab Equipment",
+    "definition": "A shallow, circular dish used for the culture of microorganisms.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Microscope",
+    "sub_category": "Lab Equipment",
+    "definition": "An optical instrument used for viewing very small objects.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Spectrophotometer",
+    "sub_category": "Lab Equipment",
+    "definition": "An apparatus for measuring the intensity of light.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Centrifuge",
+    "sub_category": "Lab Equipment",
+    "definition": "A machine with a rapidly rotating container.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Autoclave",
+    "sub_category": "Lab Equipment",
+    "definition": "A heated container used for chemical reactions.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Fume hood",
+    "sub_category": "Lab Equipment",
+    "definition": "A ventilated enclosure in a chemistry laboratory.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Spatula",
+    "sub_category": "Lab Equipment",
+    "definition": "An implement with a broad, flat, blunt blade.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Mortar",
+    "sub_category": "Lab Equipment",
+    "definition": "A cup-shaped receptacle in which ingredients are crushed.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Pestle",
+    "sub_category": "Lab Equipment",
+    "definition": "A heavy tool used for crushing and grinding substances.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Watch glass",
+    "sub_category": "Lab Equipment",
+    "definition": "A circular concave piece of glass.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Evaporating dish",
+    "sub_category": "Lab Equipment",
+    "definition": "A piece of laboratory glassware used for evaporation.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Dropper",
+    "sub_category": "Lab Equipment",
+    "definition": "A short glass tube for measuring out drops.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Stirring rod",
+    "sub_category": "Lab Equipment",
+    "definition": "A piece of equipment used to mix chemicals.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Ring stand",
+    "sub_category": "Lab Equipment",
+    "definition": "A piece of scientific equipment to which clamps can be attached.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Wire gauze",
+    "sub_category": "Lab Equipment",
+    "definition": "A sheet of thin metal that has a wire mesh.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Clay triangle",
+    "sub_category": "Lab Equipment",
+    "definition": "A piece of laboratory equipment used in heating substances.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Solid",
+    "sub_category": "Matter states",
+    "definition": "Firm and stable in shape.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Liquid",
+    "sub_category": "Matter states",
+    "definition": "A substance that flows freely but is of constant volume.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Gas",
+    "sub_category": "Matter states",
+    "definition": "An airlike fluid substance which expands freely.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Plasma",
+    "sub_category": "Matter states",
+    "definition": "An ionized gas consisting of positive ions and free electrons.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Bose-Einstein condensate",
+    "sub_category": "Matter states",
+    "definition": "A state of matter of a dilute gas cooled to very low temperatures.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Aqueous",
+    "sub_category": "Matter states",
+    "definition": "Of or containing water.",
+    "part_of_speech": "adjective"
+  },
+  {
+    "word": "Vapor",
+    "sub_category": "Matter states",
+    "definition": "A substance diffused or suspended in the air.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Fluid",
+    "sub_category": "Matter states",
+    "definition": "A substance that has no fixed shape and yields easily to external pressure.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Crystal",
+    "sub_category": "Matter states",
+    "definition": "A solid material whose constituents are highly ordered.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Amorphous",
+    "sub_category": "Matter states",
+    "definition": "Without a clearly defined shape or form.",
+    "part_of_speech": "adjective"
+  },
+  {
+    "word": "Colloid",
+    "sub_category": "Matter states",
+    "definition": "A mixture in which one substance is suspended throughout another.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Aerosol",
+    "sub_category": "Matter states",
+    "definition": "A colloidal suspension of particles dispersed in air.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Emulsion",
+    "sub_category": "Matter states",
+    "definition": "A fine dispersion of minute droplets of one liquid in another.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Foam",
+    "sub_category": "Matter states",
+    "definition": "A mass of small bubbles formed on or in liquid.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Gel",
+    "sub_category": "Matter states",
+    "definition": "A jellylike substance consisting of a solid dispersed in a liquid.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Sol",
+    "sub_category": "Matter states",
+    "definition": "A fluid colloidal system.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Suspension",
+    "sub_category": "Matter states",
+    "definition": "A heterogeneous mixture in which solute-like particles settle out.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Supercritical fluid",
+    "sub_category": "Matter states",
+    "definition": "Any substance at a temperature and pressure above its critical point.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Sublimation",
+    "sub_category": "Matter states",
+    "definition": "The transition of a substance directly from the solid to the gas phase.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Deposition",
+    "sub_category": "Matter states",
+    "definition": "The transition in which gas transforms into solid.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Melting",
+    "sub_category": "Matter states",
+    "definition": "The process whereby heat changes something from a solid to a liquid.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Freezing",
+    "sub_category": "Matter states",
+    "definition": "The transition where a liquid turns into a solid.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Boiling",
+    "sub_category": "Matter states",
+    "definition": "The action of bringing a liquid to the temperature at which it bubbles.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Condensation",
+    "sub_category": "Matter states",
+    "definition": "Water that collects as droplets on a cold surface.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Evaporation",
+    "sub_category": "Matter states",
+    "definition": "The process of turning from liquid into vapor.",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Vaporization",
+    "sub_category": "Matter states",
+    "definition": "The conversion of a solid or a liquid into a gas.",
+    "part_of_speech": "noun"
+  }
+]

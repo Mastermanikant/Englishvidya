@@ -1,0 +1,860 @@
+[
+  {
+    "word": "explain",
+    "meaning": "To make something clear or easy to understand by describing it in detail",
+    "example": "The teacher will explain the concept of photosynthesis using a diagram.",
+    "category": "Instruction Verbs"
+  },
+  {
+    "word": "demonstrate",
+    "meaning": "To show how something works or is done, often as a practical example",
+    "example": "She demonstrated how to solve the equation step by step on the board.",
+    "category": "Instruction Verbs"
+  },
+  {
+    "word": "illustrate",
+    "meaning": "To make something clear by using examples, charts, or pictures",
+    "example": "He used a graph to illustrate the relationship between speed and time.",
+    "category": "Instruction Verbs"
+  },
+  {
+    "word": "clarify",
+    "meaning": "To make a statement or situation less confusing and more clearly understandable",
+    "example": "Could you clarify what you mean by 'passive voice'?",
+    "category": "Instruction Verbs"
+  },
+  {
+    "word": "define",
+    "meaning": "To state the exact meaning of a word, phrase, or concept",
+    "example": "First, let us define the term 'osmosis' before we study the process.",
+    "category": "Instruction Verbs"
+  },
+  {
+    "word": "describe",
+    "meaning": "To give a detailed account of the qualities, features, or events of something",
+    "example": "Describe the water cycle in your own words.",
+    "category": "Instruction Verbs"
+  },
+  {
+    "word": "outline",
+    "meaning": "To give the main facts or points about a topic without going into detail",
+    "example": "Please outline the key events that led to World War One.",
+    "category": "Instruction Verbs"
+  },
+  {
+    "word": "summarise",
+    "meaning": "To give a brief statement of the main points of something",
+    "example": "Can you summarise what we learned in the last lesson?",
+    "category": "Instruction Verbs"
+  },
+  {
+    "word": "revise",
+    "meaning": "To review and study previously learned material in preparation for a test",
+    "example": "You should revise all your notes before the exam on Friday.",
+    "category": "Instruction Verbs"
+  },
+  {
+    "word": "review",
+    "meaning": "To look at or examine something again, especially to check or assess it",
+    "example": "Let us review the homework from yesterday before starting today's lesson.",
+    "category": "Instruction Verbs"
+  },
+  {
+    "word": "analyse",
+    "meaning": "To examine something in detail in order to understand or explain it",
+    "example": "Analyse the poem and identify the literary devices the poet uses.",
+    "category": "Instruction Verbs"
+  },
+  {
+    "word": "evaluate",
+    "meaning": "To judge or assess the quality, importance, or value of something",
+    "example": "Evaluate the effectiveness of the marketing strategy in the case study.",
+    "category": "Evaluation Language"
+  },
+  {
+    "word": "assess",
+    "meaning": "To consider or form a judgement about something based on evidence",
+    "example": "We will assess your progress through a short quiz at the end of term.",
+    "category": "Evaluation Language"
+  },
+  {
+    "word": "compare",
+    "meaning": "To examine two or more things in order to note similarities and differences",
+    "example": "Compare and contrast the two characters in the novel.",
+    "category": "Instruction Verbs"
+  },
+  {
+    "word": "contrast",
+    "meaning": "To show the differences between two or more things",
+    "example": "Contrast the living conditions in urban and rural areas.",
+    "category": "Instruction Verbs"
+  },
+  {
+    "word": "identify",
+    "meaning": "To recognise and correctly name or point out something",
+    "example": "Identify the nouns in the following sentence.",
+    "category": "Instruction Verbs"
+  },
+  {
+    "word": "justify",
+    "meaning": "To show or prove that something is right, reasonable, or valid",
+    "example": "Justify your answer with evidence from the text.",
+    "category": "Instruction Verbs"
+  },
+  {
+    "word": "predict",
+    "meaning": "To say what you think will happen in the future based on available information",
+    "example": "Based on the data, what do you predict will happen next?",
+    "category": "Questioning Language"
+  },
+  {
+    "word": "infer",
+    "meaning": "To reach a conclusion based on evidence and reasoning rather than explicit statement",
+    "example": "What can we infer about the character's feelings from this paragraph?",
+    "category": "Questioning Language"
+  },
+  {
+    "word": "deduce",
+    "meaning": "To arrive at a fact or conclusion by reasoning from general principles",
+    "example": "From the clues given, deduce what the scientist's hypothesis must have been.",
+    "category": "Questioning Language"
+  },
+  {
+    "word": "apply",
+    "meaning": "To use knowledge or a skill in a particular situation",
+    "example": "Now apply the formula we learned to solve these practice problems.",
+    "category": "Instruction Verbs"
+  },
+  {
+    "word": "recall",
+    "meaning": "To bring a fact or event back into one's memory",
+    "example": "Can you recall the three branches of government we discussed?",
+    "category": "Questioning Language"
+  },
+  {
+    "word": "recite",
+    "meaning": "To say aloud something that one has memorised, such as a poem or a list",
+    "example": "Students were asked to recite the periodic table of elements.",
+    "category": "Instruction Verbs"
+  },
+  {
+    "word": "interpret",
+    "meaning": "To explain the meaning of something or understand it in a particular way",
+    "example": "How do you interpret the final scene of the play?",
+    "category": "Questioning Language"
+  },
+  {
+    "word": "formulate",
+    "meaning": "To create or express something precisely and systematically",
+    "example": "Formulate a hypothesis based on the observation data you collected.",
+    "category": "Instruction Verbs"
+  },
+  {
+    "word": "construct",
+    "meaning": "To build or create something, often a reasoned argument or a diagram",
+    "example": "Construct a bar chart using the information from the table.",
+    "category": "Instruction Verbs"
+  },
+  {
+    "word": "elaborate",
+    "meaning": "To explain in more detail or add further information to something already said",
+    "example": "That is a good point — could you elaborate on it a bit more?",
+    "category": "Questioning Language"
+  },
+  {
+    "word": "expand",
+    "meaning": "To make something larger or more detailed; to develop an idea further",
+    "example": "Please expand on your argument in the next paragraph.",
+    "category": "Instruction Verbs"
+  },
+  {
+    "word": "paraphrase",
+    "meaning": "To express the meaning of something written or spoken using different words",
+    "example": "Can you paraphrase the author's main argument in your own words?",
+    "category": "Instruction Verbs"
+  },
+  {
+    "word": "highlight",
+    "meaning": "To draw attention to the most important parts of something",
+    "example": "I want to highlight the key differences between the two theories.",
+    "category": "Instruction Verbs"
+  },
+  {
+    "word": "emphasise",
+    "meaning": "To give special importance or prominence to something in speech or writing",
+    "example": "I want to emphasise that citing your sources is very important.",
+    "category": "Instruction Verbs"
+  },
+  {
+    "word": "reinforce",
+    "meaning": "To strengthen or support something, such as a concept or skill, through repetition",
+    "example": "These exercises are designed to reinforce what you learned last week.",
+    "category": "Pedagogical Terms"
+  },
+  {
+    "word": "scaffold",
+    "meaning": "To provide structured support to help learners accomplish a task they could not do alone",
+    "example": "The teacher scaffolded the writing task by giving students a sentence starter.",
+    "category": "Pedagogical Terms"
+  },
+  {
+    "word": "differentiate",
+    "meaning": "To adjust teaching methods to meet the different learning needs of students",
+    "example": "She differentiated the lesson by providing extension tasks for advanced learners.",
+    "category": "Pedagogical Terms"
+  },
+  {
+    "word": "facilitate",
+    "meaning": "To make it easier for a process to happen, or to guide a discussion or activity",
+    "example": "The teacher's role is to facilitate discussion, not to give all the answers.",
+    "category": "Pedagogical Terms"
+  },
+  {
+    "word": "model",
+    "meaning": "To demonstrate a skill or process for students to observe and then imitate",
+    "example": "The teacher will model how to write a topic sentence before you try it.",
+    "category": "Pedagogical Terms"
+  },
+  {
+    "word": "prompt",
+    "meaning": "To give a hint or cue to help a student remember something or continue",
+    "example": "If students are stuck, prompt them with a leading question.",
+    "category": "Pedagogical Terms"
+  },
+  {
+    "word": "probe",
+    "meaning": "To ask follow-up questions to check for deeper understanding",
+    "example": "The teacher probed further by asking 'Why do you think that happened?'",
+    "category": "Questioning Language"
+  },
+  {
+    "word": "elicit",
+    "meaning": "To draw out answers or information from students through questioning",
+    "example": "The teacher tried to elicit the correct answer by giving a series of hints.",
+    "category": "Pedagogical Terms"
+  },
+  {
+    "word": "check",
+    "meaning": "To verify that students have understood or to look for correctness",
+    "example": "Before we move on, I will check for understanding with a quick question.",
+    "category": "Evaluation Language"
+  },
+  {
+    "word": "monitor",
+    "meaning": "To observe and check student progress during a task or activity",
+    "example": "The teacher walked around the room to monitor students' work.",
+    "category": "Pedagogical Terms"
+  },
+  {
+    "word": "feedback",
+    "meaning": "Information given to students about their performance to help them improve",
+    "example": "She gave detailed feedback on each student's essay.",
+    "category": "Evaluation Language"
+  },
+  {
+    "word": "correct",
+    "meaning": "To identify and fix errors in a student's work or answer",
+    "example": "He asked a peer to correct the spelling mistakes in his paragraph.",
+    "category": "Evaluation Language"
+  },
+  {
+    "word": "mark",
+    "meaning": "To grade or annotate student work with comments or scores",
+    "example": "I will mark your assignments and return them by Thursday.",
+    "category": "Evaluation Language"
+  },
+  {
+    "word": "grade",
+    "meaning": "To assign a level, mark, or score to a student's work based on quality",
+    "example": "Each essay will be graded on content, structure, and language use.",
+    "category": "Evaluation Language"
+  },
+  {
+    "word": "praise",
+    "meaning": "To express approval or admiration for a student's work or behaviour",
+    "example": "The teacher praised the class for their excellent participation.",
+    "category": "Evaluation Language"
+  },
+  {
+    "word": "encourage",
+    "meaning": "To give support, confidence, or hope to students to help them persist",
+    "example": "She encouraged her students to keep trying even when the task was difficult.",
+    "category": "Evaluation Language"
+  },
+  {
+    "word": "question",
+    "meaning": "To ask something in order to find out information or check understanding",
+    "example": "Never be afraid to question anything you do not understand.",
+    "category": "Questioning Language"
+  },
+  {
+    "word": "challenge",
+    "meaning": "To push students to think harder or to question an existing idea",
+    "example": "I want to challenge you to think of a counter-argument to this view.",
+    "category": "Questioning Language"
+  },
+  {
+    "word": "debate",
+    "meaning": "To discuss a topic formally, considering and arguing different points of view",
+    "example": "Today we will debate whether social media has a positive or negative effect.",
+    "category": "Classroom Activities"
+  },
+  {
+    "word": "discuss",
+    "meaning": "To talk about a topic, considering different ideas and perspectives",
+    "example": "In pairs, discuss the causes of the French Revolution.",
+    "category": "Classroom Activities"
+  },
+  {
+    "word": "brainstorm",
+    "meaning": "To spontaneously generate a list of ideas on a topic without immediate evaluation",
+    "example": "Let us brainstorm some ideas for our group presentation.",
+    "category": "Classroom Activities"
+  },
+  {
+    "word": "present",
+    "meaning": "To formally show or explain something to an audience",
+    "example": "Each group will present their findings to the rest of the class.",
+    "category": "Classroom Activities"
+  },
+  {
+    "word": "report",
+    "meaning": "To give a formal account of findings, events, or results",
+    "example": "Write a report on the results of your science experiment.",
+    "category": "Classroom Activities"
+  },
+  {
+    "word": "observe",
+    "meaning": "To watch carefully in order to learn something or gather information",
+    "example": "Observe the changes that happen when you heat the liquid.",
+    "category": "Instruction Verbs"
+  },
+  {
+    "word": "record",
+    "meaning": "To write down or store information so it can be referred to later",
+    "example": "Record your observations in the table provided.",
+    "category": "Instruction Verbs"
+  },
+  {
+    "word": "note",
+    "meaning": "To pay attention to and write down important information",
+    "example": "Please note the key vocabulary on the board in your exercise books.",
+    "category": "Instruction Verbs"
+  },
+  {
+    "word": "copy",
+    "meaning": "To write down exactly what is written on the board or in a text",
+    "example": "Copy the diagram into your notebook and label all the parts.",
+    "category": "Instruction Verbs"
+  },
+  {
+    "word": "label",
+    "meaning": "To add identifying names or descriptions to parts of a diagram or image",
+    "example": "Label the parts of the human heart on the diagram.",
+    "category": "Instruction Verbs"
+  },
+  {
+    "word": "match",
+    "meaning": "To pair two related items, such as words and their definitions",
+    "example": "Match each vocabulary word with its correct definition.",
+    "category": "Classroom Activities"
+  },
+  {
+    "word": "complete",
+    "meaning": "To finish a task or fill in missing information",
+    "example": "Complete the gaps in the sentences using the words from the box.",
+    "category": "Instruction Verbs"
+  },
+  {
+    "word": "fill in",
+    "meaning": "To write the required information in blank spaces in a text or form",
+    "example": "Fill in the blanks with the correct form of the verb.",
+    "category": "Instruction Verbs"
+  },
+  {
+    "word": "underline",
+    "meaning": "To draw a line under a word or phrase to indicate it is important",
+    "example": "Underline all the adjectives in the passage.",
+    "category": "Instruction Verbs"
+  },
+  {
+    "word": "circle",
+    "meaning": "To draw a ring around a word, number, or option",
+    "example": "Circle the correct answer for each multiple-choice question.",
+    "category": "Instruction Verbs"
+  },
+  {
+    "word": "highlight",
+    "meaning": "To mark text with a colour to make it stand out for later reference",
+    "example": "Highlight all the key terms in the reading passage.",
+    "category": "Instruction Verbs"
+  },
+  {
+    "word": "cross out",
+    "meaning": "To draw a line through something to indicate it is wrong or should be removed",
+    "example": "Cross out the word that does not belong in each group.",
+    "category": "Instruction Verbs"
+  },
+  {
+    "word": "rearrange",
+    "meaning": "To change the order of words, sentences, or items",
+    "example": "Rearrange the words to form a grammatically correct sentence.",
+    "category": "Instruction Verbs"
+  },
+  {
+    "word": "sequence",
+    "meaning": "To arrange items or events in a particular logical or chronological order",
+    "example": "Sequence the stages of the rock cycle from beginning to end.",
+    "category": "Instruction Verbs"
+  },
+  {
+    "word": "categorise",
+    "meaning": "To sort things into groups based on shared characteristics",
+    "example": "Categorise the following words as nouns, verbs, or adjectives.",
+    "category": "Instruction Verbs"
+  },
+  {
+    "word": "classify",
+    "meaning": "To arrange things in groups or classes based on shared characteristics",
+    "example": "Classify the animals in the list as mammals, reptiles, or birds.",
+    "category": "Instruction Verbs"
+  },
+  {
+    "word": "rank",
+    "meaning": "To arrange items in order of importance, size, or quality",
+    "example": "Rank the following factors from most to least important.",
+    "category": "Instruction Verbs"
+  },
+  {
+    "word": "prioritise",
+    "meaning": "To decide the order of importance of tasks or items and deal with them accordingly",
+    "example": "Prioritise the points you will make in your essay introduction.",
+    "category": "Instruction Verbs"
+  },
+  {
+    "word": "hypothesis",
+    "meaning": "A proposed explanation for a phenomenon, made as a starting point for investigation",
+    "example": "Write a hypothesis for the experiment before you begin testing.",
+    "category": "Academic Vocabulary"
+  },
+  {
+    "word": "evidence",
+    "meaning": "Facts, examples, or information that support or prove something",
+    "example": "Support your argument with evidence from the text.",
+    "category": "Academic Vocabulary"
+  },
+  {
+    "word": "argument",
+    "meaning": "A reason or set of reasons given to support or oppose an idea or view",
+    "example": "Your essay should present a clear argument and support it with evidence.",
+    "category": "Academic Vocabulary"
+  },
+  {
+    "word": "concept",
+    "meaning": "An abstract idea or general notion that represents a category of things",
+    "example": "Today we will explore the concept of democracy and its origins.",
+    "category": "Academic Vocabulary"
+  },
+  {
+    "word": "theory",
+    "meaning": "A system of ideas or principles intended to explain a set of facts or phenomena",
+    "example": "Darwin's theory of evolution changed the way we understand life on Earth.",
+    "category": "Academic Vocabulary"
+  },
+  {
+    "word": "principle",
+    "meaning": "A fundamental truth or rule that serves as the basis for reasoning or behaviour",
+    "example": "The lesson is based on the principle of cause and effect.",
+    "category": "Academic Vocabulary"
+  },
+  {
+    "word": "objective",
+    "meaning": "The specific goal or aim of a lesson or task",
+    "example": "By the end of this lesson, the learning objective is to be able to use the past perfect tense.",
+    "category": "Pedagogical Terms"
+  },
+  {
+    "word": "outcome",
+    "meaning": "The result or expected achievement of a lesson or learning activity",
+    "example": "The desired learning outcome is that students can write a persuasive paragraph.",
+    "category": "Pedagogical Terms"
+  },
+  {
+    "word": "criteria",
+    "meaning": "The standards or conditions against which something is judged",
+    "example": "Here are the assessment criteria against which your project will be marked.",
+    "category": "Evaluation Language"
+  },
+  {
+    "word": "rubric",
+    "meaning": "A scoring guide that lists the criteria for evaluating student work",
+    "example": "Refer to the rubric to understand how your essay will be graded.",
+    "category": "Evaluation Language"
+  },
+  {
+    "word": "benchmark",
+    "meaning": "A standard or point of reference against which things may be compared",
+    "example": "This sample essay serves as a benchmark for Grade A writing.",
+    "category": "Evaluation Language"
+  },
+  {
+    "word": "task",
+    "meaning": "A specific piece of work or activity that students are required to do",
+    "example": "Your task is to write a short biography of a historical figure.",
+    "category": "Pedagogical Terms"
+  },
+  {
+    "word": "activity",
+    "meaning": "Something that students do as part of a lesson",
+    "example": "The next activity involves working in groups to solve a problem.",
+    "category": "Pedagogical Terms"
+  },
+  {
+    "word": "exercise",
+    "meaning": "A set of questions or problems to practice a skill",
+    "example": "Please turn to page 45 and complete the grammar exercise.",
+    "category": "Classroom Activities"
+  },
+  {
+    "word": "instruction",
+    "meaning": "A direction or order telling someone what to do",
+    "example": "Read the instructions carefully before you begin the test.",
+    "category": "Pedagogical Terms"
+  },
+  {
+    "word": "procedure",
+    "meaning": "An established or official way of doing something, step by step",
+    "example": "Follow the procedure outlined in the experiment guide.",
+    "category": "Academic Vocabulary"
+  },
+  {
+    "word": "context",
+    "meaning": "The circumstances or background that form the setting for something",
+    "example": "To understand the poem, you need to know the historical context in which it was written.",
+    "category": "Academic Vocabulary"
+  },
+  {
+    "word": "relevant",
+    "meaning": "Closely connected or appropriate to the subject being discussed",
+    "example": "Make sure all the examples you choose are relevant to the question.",
+    "category": "Academic Vocabulary"
+  },
+  {
+    "word": "appropriate",
+    "meaning": "Suitable or fitting for a particular purpose or situation",
+    "example": "Use appropriate vocabulary when writing a formal letter.",
+    "category": "Academic Vocabulary"
+  },
+  {
+    "word": "accurate",
+    "meaning": "Correct and without errors in facts or details",
+    "example": "Your calculations must be accurate if your experiment is to be valid.",
+    "category": "Evaluation Language"
+  },
+  {
+    "word": "precise",
+    "meaning": "Very exact and accurate in detail",
+    "example": "Use precise language when describing the results of your experiment.",
+    "category": "Evaluation Language"
+  },
+  {
+    "word": "clear",
+    "meaning": "Easy to understand; expressed without confusion or ambiguity",
+    "example": "Your explanation is clear and well-structured — well done.",
+    "category": "Evaluation Language"
+  },
+  {
+    "word": "concise",
+    "meaning": "Giving a lot of information in few words; brief and to the point",
+    "example": "Your answer should be concise — aim for no more than two sentences.",
+    "category": "Evaluation Language"
+  },
+  {
+    "word": "coherent",
+    "meaning": "Logical and consistent; forming a unified whole that makes sense",
+    "example": "Your essay needs to be more coherent — connect your ideas with linking words.",
+    "category": "Evaluation Language"
+  },
+  {
+    "word": "structured",
+    "meaning": "Arranged or organised in a systematic and logical way",
+    "example": "A well-structured answer has an introduction, body, and conclusion.",
+    "category": "Academic Vocabulary"
+  },
+  {
+    "word": "demonstrate understanding",
+    "meaning": "To show through writing or speaking that one has grasped a concept",
+    "example": "Your answer clearly demonstrates understanding of the topic.",
+    "category": "Evaluation Language"
+  },
+  {
+    "word": "misconception",
+    "meaning": "A view or opinion that is incorrect because it is based on faulty reasoning or understanding",
+    "example": "A common misconception is that lightning never strikes the same place twice.",
+    "category": "Pedagogical Terms"
+  },
+  {
+    "word": "prior knowledge",
+    "meaning": "Information or understanding that a student already has before a lesson",
+    "example": "We will build on your prior knowledge of fractions in today's lesson.",
+    "category": "Pedagogical Terms"
+  },
+  {
+    "word": "activate",
+    "meaning": "To stimulate prior knowledge or thinking in preparation for new learning",
+    "example": "We will start with a quiz to activate your prior knowledge on this topic.",
+    "category": "Pedagogical Terms"
+  },
+  {
+    "word": "engage",
+    "meaning": "To interest and involve students actively in the learning process",
+    "example": "The video clip was used to engage students at the start of the lesson.",
+    "category": "Pedagogical Terms"
+  },
+  {
+    "word": "pace",
+    "meaning": "The speed at which a lesson or learning activity moves",
+    "example": "The teacher adjusted the pace of the lesson when students seemed confused.",
+    "category": "Pedagogical Terms"
+  },
+  {
+    "word": "transition",
+    "meaning": "A movement from one activity or topic to another during a lesson",
+    "example": "Now let us make a smooth transition from grammar to writing practice.",
+    "category": "Pedagogical Terms"
+  },
+  {
+    "word": "refer to",
+    "meaning": "To mention or direct attention to something, such as a text or example",
+    "example": "Refer to the diagram on page 12 to answer the following questions.",
+    "category": "Instruction Verbs"
+  },
+  {
+    "word": "take turns",
+    "meaning": "To do something one after another so each person has an equal opportunity",
+    "example": "In this activity, you will take turns reading a paragraph aloud.",
+    "category": "Classroom Activities"
+  },
+  {
+    "word": "peer review",
+    "meaning": "The process of evaluating a classmate's work using agreed criteria",
+    "example": "Swap your essay with your partner for a peer review session.",
+    "category": "Evaluation Language"
+  },
+  {
+    "word": "self-assess",
+    "meaning": "To evaluate one's own work against a set of criteria",
+    "example": "Use the checklist to self-assess your writing before submitting it.",
+    "category": "Evaluation Language"
+  },
+  {
+    "word": "reflect",
+    "meaning": "To think carefully and deeply about one's own learning or experiences",
+    "example": "At the end of the lesson, take a moment to reflect on what you have learned.",
+    "category": "Pedagogical Terms"
+  },
+  {
+    "word": "consolidate",
+    "meaning": "To make learning stronger and more secure through practice and review",
+    "example": "This exercise will help you consolidate your knowledge of verb tenses.",
+    "category": "Pedagogical Terms"
+  },
+  {
+    "word": "extend",
+    "meaning": "To go beyond the basic level of understanding to explore a topic more deeply",
+    "example": "For those who finish early, here is an extension task to extend your thinking.",
+    "category": "Pedagogical Terms"
+  },
+  {
+    "word": "open-ended question",
+    "meaning": "A question that requires a detailed answer rather than a simple yes or no",
+    "example": "The teacher asked an open-ended question to encourage critical thinking.",
+    "category": "Questioning Language"
+  },
+  {
+    "word": "closed question",
+    "meaning": "A question that can be answered with a single word or a short phrase",
+    "example": "A closed question like 'What is the capital?' only checks recall.",
+    "category": "Questioning Language"
+  },
+  {
+    "word": "think aloud",
+    "meaning": "To verbalise one's thought process while solving a problem, as a teaching method",
+    "example": "The teacher thought aloud while solving the problem so students could follow the reasoning.",
+    "category": "Pedagogical Terms"
+  },
+  {
+    "word": "wait time",
+    "meaning": "The pause a teacher gives after asking a question before expecting an answer",
+    "example": "Good teachers use wait time to allow students to think before responding.",
+    "category": "Pedagogical Terms"
+  },
+  {
+    "word": "cold calling",
+    "meaning": "The technique of calling on students who have not volunteered to answer",
+    "example": "Cold calling ensures all students are prepared to participate at any time.",
+    "category": "Pedagogical Terms"
+  },
+  {
+    "word": "hands-on",
+    "meaning": "Involving direct practical experience rather than reading or theory",
+    "example": "The hands-on experiment gave students a better understanding of chemical reactions.",
+    "category": "Pedagogical Terms"
+  },
+  {
+    "word": "collaborate",
+    "meaning": "To work jointly with others on a common task or project",
+    "example": "Students will collaborate in small groups to design a solution.",
+    "category": "Classroom Activities"
+  },
+  {
+    "word": "contribute",
+    "meaning": "To give one's ideas, opinions, or effort to a group or discussion",
+    "example": "Everyone is expected to contribute at least one idea to the group discussion.",
+    "category": "Classroom Activities"
+  },
+  {
+    "word": "annotate",
+    "meaning": "To add explanatory notes or comments to a text or diagram",
+    "example": "Annotate the poem by writing your initial reactions and observations in the margin.",
+    "category": "Instruction Verbs"
+  },
+  {
+    "word": "cite",
+    "meaning": "To quote or refer to a source as evidence for an argument",
+    "example": "You must cite all the sources you used in your bibliography.",
+    "category": "Academic Vocabulary"
+  },
+  {
+    "word": "paraphrase",
+    "meaning": "To restate an idea or passage in your own words",
+    "example": "Do not copy directly — paraphrase the information from your sources.",
+    "category": "Academic Vocabulary"
+  },
+  {
+    "word": "synthesise",
+    "meaning": "To combine information or ideas from different sources to form a new understanding",
+    "example": "In your essay, you should synthesise the arguments from at least three texts.",
+    "category": "Academic Vocabulary"
+  },
+  {
+    "word": "conclude",
+    "meaning": "To bring something to an end or to reach a decision or judgment",
+    "example": "What can you conclude from the results of your investigation?",
+    "category": "Instruction Verbs"
+  },
+  {
+    "word": "revise",
+    "meaning": "To change or improve a piece of writing after an initial draft",
+    "example": "After peer feedback, revise your essay to make it stronger.",
+    "category": "Instruction Verbs"
+  },
+  {
+    "word": "draft",
+    "meaning": "A preliminary version of a piece of writing, subject to revision",
+    "example": "Write a first draft of your introduction and we will review it together.",
+    "category": "Academic Vocabulary"
+  },
+  {
+    "word": "key term",
+    "meaning": "An important word or phrase that is central to understanding a topic",
+    "example": "Make sure you know all the key terms before the exam.",
+    "category": "Academic Vocabulary"
+  },
+  {
+    "word": "topic sentence",
+    "meaning": "The sentence in a paragraph that expresses the main idea of that paragraph",
+    "example": "Every paragraph should begin with a clear topic sentence.",
+    "category": "Academic Vocabulary"
+  },
+  {
+    "word": "supporting detail",
+    "meaning": "A fact, example, or explanation that backs up the main idea of a paragraph",
+    "example": "Follow your topic sentence with two or three supporting details.",
+    "category": "Academic Vocabulary"
+  },
+  {
+    "word": "counter-argument",
+    "meaning": "A reason or argument that opposes or challenges the main argument",
+    "example": "A strong essay always addresses the counter-argument before refuting it.",
+    "category": "Academic Vocabulary"
+  },
+  {
+    "word": "fluency",
+    "meaning": "The ability to speak or write smoothly and naturally, without hesitation",
+    "example": "We will practise speaking activities to build your fluency.",
+    "category": "Language Skills"
+  },
+  {
+    "word": "accuracy",
+    "meaning": "The ability to use language correctly, without grammatical or spelling errors",
+    "example": "Focus on accuracy when you write, and fluency when you speak.",
+    "category": "Language Skills"
+  },
+  {
+    "word": "comprehension",
+    "meaning": "The ability to understand written or spoken language",
+    "example": "Answer the comprehension questions after reading the passage.",
+    "category": "Language Skills"
+  },
+  {
+    "word": "inference",
+    "meaning": "A conclusion reached from evidence and reasoning rather than direct statement",
+    "example": "Make an inference about why the character made that decision.",
+    "category": "Language Skills"
+  },
+  {
+    "word": "critical thinking",
+    "meaning": "The ability to think clearly and rationally, questioning ideas and evaluating evidence",
+    "example": "This task is designed to develop your critical thinking skills.",
+    "category": "Pedagogical Terms"
+  },
+  {
+    "word": "higher-order thinking",
+    "meaning": "Complex cognitive skills such as analysis, synthesis, and evaluation",
+    "example": "This question requires higher-order thinking rather than simple memorisation.",
+    "category": "Pedagogical Terms"
+  },
+  {
+    "word": "lower-order thinking",
+    "meaning": "Basic cognitive skills such as memorisation and recall of facts",
+    "example": "This drill focuses on lower-order thinking to help students memorise vocabulary.",
+    "category": "Pedagogical Terms"
+  },
+  {
+    "word": "comprehend",
+    "meaning": "To fully understand something that one has read or heard",
+    "example": "Did you comprehend the instructions, or would you like me to explain again?",
+    "category": "Instruction Verbs"
+  },
+  {
+    "word": "trace",
+    "meaning": "To follow the development of something step by step",
+    "example": "Trace the development of democracy from ancient Greece to the modern era.",
+    "category": "Instruction Verbs"
+  },
+  {
+    "word": "examine",
+    "meaning": "To look at something carefully and in detail in order to understand or assess it",
+    "example": "Examine the evidence on both sides before forming your opinion.",
+    "category": "Instruction Verbs"
+  },
+  {
+    "word": "investigate",
+    "meaning": "To carry out a systematic inquiry or research into a subject",
+    "example": "Your group will investigate the effect of temperature on plant growth.",
+    "category": "Instruction Verbs"
+  },
+  {
+    "word": "explore",
+    "meaning": "To examine or investigate an idea or topic in an open and curious way",
+    "example": "Today we will explore different perspectives on climate change.",
+    "category": "Instruction Verbs"
+  },
+  {
+    "word": "demonstrate mastery",
+    "meaning": "To show that one has achieved a full, confident command of a skill or topic",
+    "example": "By the end of the unit, students should be able to demonstrate mastery of the content.",
+    "category": "Evaluation Language"
+  }
+]

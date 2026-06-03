@@ -1,0 +1,191 @@
+[
+  {
+    "word": "acknowledgement",
+    "meaning": "A brief reply confirming receipt of a message or information",
+    "pronunciation": "",
+    "definition": "A brief reply confirming receipt of a message or information",
+    "example": "Please send an acknowledgement once you receive the brief.",
+    "category": "Email",
+    "subCategory": "Email"
+  },
+  {
+    "word": "attachment",
+    "meaning": "A file sent along with an email message",
+    "pronunciation": "",
+    "definition": "Emotional dependency or connection to a person, place, or thing",
+    "example": "Please find the report as an attachment to this email.",
+    "category": "Email",
+    "subCategory": "Email"
+  },
+  {
+    "word": "auto-reply",
+    "meaning": "An automatic response sent when someone is unavailable",
+    "pronunciation": "",
+    "definition": "An automatic response sent when someone is unavailable",
+    "example": "She set an auto-reply message while on vacation.",
+    "category": "Email",
+    "subCategory": "Email"
+  },
+  {
+    "word": "BCC",
+    "meaning": "Blind Carbon Copy; sending a copy to recipients without others knowing",
+    "pronunciation": "",
+    "definition": "Blind Carbon Copy; sending a copy to recipients without others knowing",
+    "example": "He BCCed the HR department on the sensitive message.",
+    "category": "Email",
+    "subCategory": "Email"
+  },
+  {
+    "word": "CC",
+    "meaning": "Carbon Copy; sending a copy of an email to additional recipients",
+    "pronunciation": "",
+    "definition": "Carbon Copy; sending a copy of an email to additional recipients",
+    "example": "I will CC the manager so she is aware of our discussion.",
+    "category": "Email",
+    "subCategory": "Email"
+  },
+  {
+    "word": "deliverability",
+    "meaning": "The ability of an email to successfully reach the recipient's inbox",
+    "pronunciation": "",
+    "definition": "The ability of an email to successfully reach the recipient's inbox",
+    "example": "Poor email deliverability results in messages being marked as spam.",
+    "category": "Email",
+    "subCategory": "Email"
+  },
+  {
+    "word": "embed",
+    "meaning": "To insert content such as an image, video, or link directly into a message",
+    "pronunciation": "",
+    "definition": "To insert content such as an image, video, or link directly into a message",
+    "example": "He embedded the video link in the email so recipients could watch immediately.",
+    "category": "Email",
+    "subCategory": "Email"
+  },
+  {
+    "word": "follow-up email",
+    "meaning": "A message sent after a meeting or conversation to summarise actions or next steps",
+    "pronunciation": "",
+    "definition": "A message sent after a meeting or conversation to summarise actions or next steps",
+    "example": "She sent a follow-up email recapping the decisions made in the meeting.",
+    "category": "Email",
+    "subCategory": "Email"
+  },
+  {
+    "word": "forward",
+    "meaning": "???",
+    "pronunciation": "",
+    "definition": "",
+    "example": "Please forward the invitation to your colleague.",
+    "category": "Email",
+    "subCategory": "Email"
+  },
+  {
+    "word": "hyperlink",
+    "meaning": "A clickable link in a digital message that redirects to a webpage or file",
+    "pronunciation": "",
+    "definition": "A link from a hypertext file or document to another location or file.",
+    "example": "Click the hyperlink in the email to access the registration form.",
+    "category": "Email",
+    "subCategory": "Email"
+  },
+  {
+    "word": "label",
+    "meaning": "A tag applied to an email to categorise and organise messages",
+    "pronunciation": "",
+    "definition": "A tag applied to an email to categorise and organise messages",
+    "example": "She uses labels like 'urgent' and 'invoices' to sort her inbox.",
+    "category": "Email",
+    "subCategory": "Email"
+  },
+  {
+    "word": "mailing list",
+    "meaning": "A collection of email addresses used to send messages to multiple people at once",
+    "pronunciation": "",
+    "definition": "A collection of email addresses used to send messages to multiple people at once",
+    "example": "Subscribe to our mailing list for weekly updates.",
+    "category": "Email",
+    "subCategory": "Email"
+  },
+  {
+    "word": "newsletter",
+    "meaning": "A regularly distributed email containing news and updates",
+    "pronunciation": "",
+    "definition": "A regularly distributed email containing news and updates",
+    "example": "The company sends a newsletter to all clients every Friday.",
+    "category": "Email",
+    "subCategory": "Email"
+  },
+  {
+    "word": "out-of-office",
+    "meaning": "An automatic email reply informing senders that the recipient is away",
+    "pronunciation": "",
+    "definition": "An automatic email reply informing senders that the recipient is away",
+    "example": "He set an out-of-office message for the duration of his leave.",
+    "category": "Email",
+    "subCategory": "Email"
+  },
+  {
+    "word": "phishing",
+    "meaning": "A fraudulent attempt to obtain sensitive information via deceptive emails",
+    "pronunciation": "",
+    "definition": "The fraudulent practice of sending emails purporting to be from reputable companies in order to induce individuals to reveal personal information.",
+    "example": "The phishing email appeared to come from the bank but was fake.",
+    "category": "Email",
+    "subCategory": "Email"
+  },
+  {
+    "word": "reply-all",
+    "meaning": "Responding to an email so that all original recipients receive the response",
+    "pronunciation": "",
+    "definition": "Responding to an email so that all original recipients receive the response",
+    "example": "Do not reply-all unless your response is relevant to everyone.",
+    "category": "Email",
+    "subCategory": "Email"
+  },
+  {
+    "word": "signature",
+    "meaning": "A block of text appended to the end of an email with the sender's details",
+    "pronunciation": "",
+    "definition": "A block of text appended to the end of an email with the sender's details",
+    "example": "His email signature includes his phone number and job title.",
+    "category": "Email",
+    "subCategory": "Email"
+  },
+  {
+    "word": "spam",
+    "meaning": "Unsolicited or irrelevant messages sent in bulk, especially by email",
+    "pronunciation": "",
+    "definition": "Unsolicited or irrelevant messages sent in bulk, especially by email",
+    "example": "The promotional newsletter ended up in his spam folder.",
+    "category": "Email",
+    "subCategory": "Email"
+  },
+  {
+    "word": "subject line",
+    "meaning": "The brief heading of an email that summarises its content",
+    "pronunciation": "",
+    "definition": "The brief heading of an email that summarises its content",
+    "example": "A clear subject line helps recipients prioritise their inbox.",
+    "category": "Email",
+    "subCategory": "Email"
+  },
+  {
+    "word": "template",
+    "meaning": "A pre-designed format or structure used to create documents or messages",
+    "pronunciation": "",
+    "definition": "A pre-designed layout or format used as a starting point for content.",
+    "example": "Use the email template for consistent brand communication.",
+    "category": "Email",
+    "subCategory": "Email"
+  },
+  {
+    "word": "unsubscribe",
+    "meaning": "To remove oneself from an email mailing list",
+    "pronunciation": "",
+    "definition": "To remove oneself from an email mailing list",
+    "example": "Click the link at the bottom of the email to unsubscribe.",
+    "category": "Email",
+    "subCategory": "Email"
+  }
+]

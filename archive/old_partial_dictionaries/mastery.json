@@ -1,0 +1,62 @@
+{
+  "title": "English Mastery & Application",
+  "description": "Spoken English, Idioms, IELTS strategies, and Business communication tips.",
+  "topics": [
+    {
+      "concept": "Advanced Spoken & Thinking System",
+      "rules": [
+        "Stop translating from Hindi. Direct English thought leads to direct English speech.",
+        "Use filler words (Well..., Actually..., Honestly...) to buy thinking time naturally.",
+        "Avoid single-word answers; expand your response to maintain conversation flow."
+      ],
+      "examples": [
+        {
+          "english": "Well, I think English is very important nowadays.",
+          "hindi": "खैर, मुझे लगता है कि आजकल अंग्रेज़ी बहुत महत्वपूर्ण है।"
+        }
+      ]
+    },
+    {
+      "concept": "Idioms, Phrases & Expressions",
+      "rules": [
+        "Native English relies heavily on idioms and phrasal verbs rather than literal words."
+      ],
+      "examples": [
+        {
+          "english": "Once in a blue moon.",
+          "hindi": "कभी कभार।"
+        },
+        {
+          "english": "Hit the nail on the head.",
+          "hindi": "बिल्कुल सही बात कहना।"
+        }
+      ]
+    },
+    {
+      "concept": "IELTS & International English",
+      "rules": [
+        "IELTS speaking tests natural fluency, not memorization. Use the Idea + Reason + Example + Conclusion structure.",
+        "International English demands clear pronunciation and neutral accents rather than faking British or American accents."
+      ],
+      "examples": [
+        {
+          "english": "I enjoy reading books because they improve my knowledge. For example, I recently read a science fiction novel.",
+          "hindi": "मुझे किताबें पढ़ना पसंद है क्योंकि ये मेरा ज्ञान बढ़ाती हैं।"
+        }
+      ]
+    },
+    {
+      "concept": "Business & Corporate English",
+      "rules": [
+        "Focus on professional communication, business emails, and negotiation English.",
+        "Be polite but direct in meetings and corporate presentations."
+      ],
+      "examples": [
+        {
+          "english": "Please find attached the report for your review.",
+          "hindi": "कृपया समीक्षा के लिए संलग्न रिपोर्ट देखें।"
+        }
+      ]
+    }
+  ]
+}

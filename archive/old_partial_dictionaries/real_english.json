@@ -1,0 +1,74 @@
+{
+  "topic": "Real English Application System",
+  "topic_hi": "वास्तविक अंग्रेजी अनुप्रयोग प्रणाली",
+  "introduction": {
+    "text": "This system bridges the gap between learning grammar and actually speaking naturally in real-life situations.",
+    "text_hi": "यह सिस्टम ग्रामर सीखने और असल जिंदगी में स्वाभाविक रूप से अंग्रेजी बोलने के बीच की दूरी को खत्म करता है।"
+  },
+  "teacher_note": "ग्रामर के सारे नियम सीख लेने के बाद भी अक्सर हम बोलने में अटकते हैं। यह सिस्टम हमें सिखाएगा कि बिना हिचकिचाए, सही और नेचुरल इंग्लिश कैसे बोलें।",
+  "modules": [
+    {
+      "name": "Spoken Communication",
+      "name_hi": "बोलचाल का संचार",
+      "focus": "Fluency, phrasing, and real-time conversation skills.",
+      "key_elements": [
+        "Greeting and Introductions",
+        "Expressing Opinions",
+        "Agreeing and Disagreeing",
+        "Making Requests"
+      ],
+      "example": {
+        "formal": "Could you please help me with this?",
+        "informal": "Can you give me a hand?",
+        "hindi": "क्या आप मेरी मदद कर सकते हैं?"
+      }
+    },
+    {
+      "name": "Translation Intelligence",
+      "name_hi": "अनुवाद बुद्धिमत्ता",
+      "focus": "Thinking in English rather than translating word-for-word from Hindi.",
+      "important_rule": "Literal translation often leads to unnatural English. Understand the context and emotion first.",
+      "example_correction": {
+        "wrong_literal": "My head is eating circles. (मेरा सिर चक्कर खा रहा है।)",
+        "correct_natural": "I am feeling dizzy.",
+        "hindi": "मुझे चक्कर आ रहा है।"
+      }
+    },
+    {
+      "name": "Real-Life English Application",
+      "name_hi": "दैनिक जीवन में अंग्रेजी का प्रयोग",
+      "focus": "Using English in common scenarios like at the bank, hospital, airport, or restaurant.",
+      "scenario_examples": [
+        {
+          "scenario": "At a Restaurant",
+          "english": "I would like to order the pasta, please.",
+          "hindi": "मैं पास्ता ऑर्डर करना चाहूँगा।"
+        },
+        {
+          "scenario": "At the Hospital",
+          "english": "I have an appointment with Dr. Sharma.",
+          "hindi": "मेरा डॉ. शर्मा के साथ अपॉइंटमेंट है।"
+        }
+      ]
+    },
+    {
+      "name": "Error Correction",
+      "name_hi": "त्रुटि सुधार",
+      "focus": "Identifying and fixing the most common mistakes made by Hindi-medium learners.",
+      "common_mistakes": [
+        {
+          "incorrect": "I am having two brothers.",
+          "correct": "I have two brothers.",
+          "hindi": "मेरे दो भाई हैं।",
+          "reason": "Ownership verbs like 'have' generally don't take the continuous '-ing' form."
+        },
+        {
+          "incorrect": "He didn't went there.",
+          "correct": "He didn't go there.",
+          "hindi": "वह वहाँ नहीं गया।",
+          "reason": "Always use V1 after 'did'."
+        }
+      ]
+    }
+  ]
+}

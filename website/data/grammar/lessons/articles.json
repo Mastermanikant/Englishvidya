@@ -1,0 +1,37 @@
+{
+  "title": "Articles (A, An, The)",
+  "slug": "articles",
+  "part": 15,
+  "definition_en": "Articles are used before nouns to define whether they are specific or unspecific.",
+  "definition_hi": "ये शब्द संज्ञा (Noun) को निश्चित या अनिश्चित बताने के लिए प्रयोग होते हैं।",
+  "categories": [
+    {
+      "name": "Definite Article (The)",
+      "intro": "Specific nouns",
+      "examples": [
+        {
+          "en": "The sun is hot.",
+          "hi": "सूरज गर्म है।"
+        },
+        {
+          "en": "I read the book you gave me.",
+          "hi": "मैंने वह किताब पढ़ी जो तुमने मुझे दी थी।"
+        }
+      ]
+    },
+    {
+      "name": "Indefinite Articles (A, An)",
+      "intro": "Unspecific nouns",
+      "examples": [
+        {
+          "en": "I have a pen.",
+          "hi": "मेरे पास एक कलम है।"
+        },
+        {
+          "en": "She eats an apple daily.",
+          "hi": "वह रोज़ एक सेब खाती है।"
+        }
+      ]
+    }
+  ]
+}

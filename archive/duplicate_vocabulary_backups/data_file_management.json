@@ -1,0 +1,218 @@
+[
+  {
+    "word": "Archive",
+    "meaning": "To move completed or historical data to a separate, long-term storage location without deleting it (strong alternative to 'hide old files' or 'save in a safe place').",
+    "pronunciation": "",
+    "definition": "To store old messages or files in a separate space to keep active areas organized.",
+    "example": "Instead of deleting old project folders, we archive them to keep the workspace organized.",
+    "category": "Data & File Management",
+    "subCategory": "Data & File Management"
+  },
+  {
+    "word": "Buffer",
+    "meaning": "To temporarily hold data in computer memory while transferring it from one place to another, preventing interruptions (strong alternative to 'load ahead of time' or 'hold data').",
+    "pronunciation": "",
+    "definition": "To temporarily hold data in computer memory while transferring it from one place to another, preventing interruptions (strong alternative to 'load ahead of time' or 'hold data').",
+    "example": "The video player will buffer a few seconds of video to ensure smooth playback.",
+    "category": "Data & File Management",
+    "subCategory": "Data & File Management"
+  },
+  {
+    "word": "Clone",
+    "meaning": "To make a complete, identical copy of a software project, repository, or virtual environment (strong alternative to 'copy a whole setup' or 'make a twin').",
+    "pronunciation": "",
+    "definition": "To make a complete, identical copy of a software project, repository, or virtual environment (strong alternative to 'copy a whole setup' or 'make a twin').",
+    "example": "Developers need to clone the repository to their local machines to begin coding.",
+    "category": "Data & File Management",
+    "subCategory": "Data & File Management"
+  },
+  {
+    "word": "Compress",
+    "meaning": "To reduce the file size of data or media using an algorithm, making it easier to send or store (strong alternative to 'make file size smaller' or 'zip a file').",
+    "pronunciation": "",
+    "definition": "To reduce the file size of data or media using an algorithm, making it easier to send or store (strong alternative to 'make file size smaller' or 'zip a file').",
+    "example": "You should compress the high-resolution images before uploading them to the web server.",
+    "category": "Data & File Management",
+    "subCategory": "Data & File Management"
+  },
+  {
+    "word": "Consolidate",
+    "meaning": "To combine multiple sources of data, files, or information into a single, unified database or report (strong alternative to 'put spreadsheets together' or 'combine data').",
+    "pronunciation": "",
+    "definition": "To make something physically stronger or more solid; to combine into a single more effective unit.",
+    "example": "We will consolidate all customer feedback spreadsheets into one central database.",
+    "category": "Data & File Management",
+    "subCategory": "Data & File Management"
+  },
+  {
+    "word": "Decompress",
+    "meaning": "To unpack a compressed file or archive back into its original size and format (strong alternative to 'unzip' or 'make file normal size').",
+    "pronunciation": "",
+    "definition": "To unpack a compressed file or archive back into its original size and format (strong alternative to 'unzip' or 'make file normal size').",
+    "example": "The utility will decompress the backup files automatically during restoration.",
+    "category": "Data & File Management",
+    "subCategory": "Data & File Management"
+  },
+  {
+    "word": "Duplicate",
+    "meaning": "To create an exact replica of a file, folder, or database record in the same directory or system (strong alternative to 'copy-paste' or 'make a copy').",
+    "pronunciation": "",
+    "definition": "To create an exact replica of a file, folder, or database record in the same directory or system (strong alternative to 'copy-paste' or 'make a copy').",
+    "example": "Please duplicate the template folder before you begin customizing it for the new client.",
+    "category": "Data & File Management",
+    "subCategory": "Data & File Management"
+  },
+  {
+    "word": "Export",
+    "meaning": "To convert and transfer data from a software application into a file format compatible with other software (strong alternative to 'save file as something else' or 'send data out').",
+    "pronunciation": "",
+    "definition": "To convert and transfer data from a software application into a file format compatible with other software (strong alternative to 'save file as something else' or 'send data out').",
+    "example": "Once you finish editing the spreadsheet, export it as a PDF to share with the client.",
+    "category": "Data & File Management",
+    "subCategory": "Data & File Management"
+  },
+  {
+    "word": "Extract",
+    "meaning": "To retrieve and decompress specific files from a compressed archive, or to pull specific data from a database (strong alternative to 'unzip' or 'pull out data').",
+    "pronunciation": "",
+    "definition": "To retrieve and decompress specific files from a compressed archive, or to pull specific data from a database (strong alternative to 'unzip' or 'pull out data').",
+    "example": "First extract the ZIP folder to your desktop, then run the installer.",
+    "category": "Data & File Management",
+    "subCategory": "Data & File Management"
+  },
+  {
+    "word": "Filter",
+    "meaning": "To narrow down a list of data or search results by applying specific conditions or criteria (strong alternative to 'narrow down search' or 'sort out').",
+    "pronunciation": "",
+    "definition": "An effect applied to an image or video to alter its appearance.",
+    "example": "You can filter the customer list to show only those who bought a product in the last month.",
+    "category": "Data & File Management",
+    "subCategory": "Data & File Management"
+  },
+  {
+    "word": "Import",
+    "meaning": "To transfer data from an external file or format into a software application (strong alternative to 'bring data in' or 'load a file').",
+    "pronunciation": "",
+    "definition": "To transfer data from an external file or format into a software application (strong alternative to 'bring data in' or 'load a file').",
+    "example": "You can import your contact list directly from a CSV file into the CRM system.",
+    "category": "Data & File Management",
+    "subCategory": "Data & File Management"
+  },
+  {
+    "word": "Index",
+    "meaning": "To organize and catalog database records or web pages to optimize search speed and retrieval efficiency (strong alternative to 'make database search fast' or 'make a search list').",
+    "pronunciation": "",
+    "definition": "To organize and catalog database records or web pages to optimize search speed and retrieval efficiency (strong alternative to 'make database search fast' or 'make a search list').",
+    "example": "Search engines index new web pages so they can be retrieved quickly by searchers.",
+    "category": "Data & File Management",
+    "subCategory": "Data & File Management"
+  },
+  {
+    "word": "Ingest",
+    "meaning": "To import and absorb large datasets into a database or data warehouse for processing and analysis (strong alternative to 'bring lots of data in' or 'load huge files').",
+    "pronunciation": "",
+    "definition": "To import and absorb large datasets into a database or data warehouse for processing and analysis (strong alternative to 'bring lots of data in' or 'load huge files').",
+    "example": "The analytics platform is designed to ingest millions of data points per second.",
+    "category": "Data & File Management",
+    "subCategory": "Data & File Management"
+  },
+  {
+    "word": "Map",
+    "meaning": "To link database fields or values from one system to corresponding fields in another system (strong alternative to 'match up lists' or 'connect fields').",
+    "pronunciation": "",
+    "definition": "A diagrammatic representation of an area of land or sea.",
+    "example": "You need to map the customer name field in the CSV file to the CRM's name field.",
+    "category": "Data & File Management",
+    "subCategory": "Data & File Management"
+  },
+  {
+    "word": "Migrate",
+    "meaning": "To move data, applications, or entire operating environments from one platform, server, or system to another (strong alternative to 'move files over' or 'transfer databases').",
+    "pronunciation": "",
+    "definition": "To move data, applications, or entire operating environments from one platform, server, or system to another (strong alternative to 'move files over' or 'transfer databases').",
+    "example": "The company plans to migrate its local database to the cloud next month.",
+    "category": "Data & File Management",
+    "subCategory": "Data & File Management"
+  },
+  {
+    "word": "Overwrite",
+    "meaning": "To write new data over existing data, completely replacing the old file or database record (strong alternative to 'save on top of' or 'replace old file').",
+    "pronunciation": "",
+    "definition": "To write new data over existing data, completely replacing the old file or database record (strong alternative to 'save on top of' or 'replace old file').",
+    "example": "Be careful not to overwrite the original document with your changes.",
+    "category": "Data & File Management",
+    "subCategory": "Data & File Management"
+  },
+  {
+    "word": "Parse",
+    "meaning": "To analyze a string of code, file, or text by breaking it down into component parts to understand its structure (strong alternative to 'read through text' or 'look through code').",
+    "pronunciation": "",
+    "definition": "To analyze a string of code, file, or text by breaking it down into component parts to understand its structure (strong alternative to 'read through text' or 'look through code').",
+    "example": "The script will parse the raw JSON data and display it in a user-friendly table.",
+    "category": "Data & File Management",
+    "subCategory": "Data & File Management"
+  },
+  {
+    "word": "Partition",
+    "meaning": "To divide a storage drive or large database into distinct, independent sections for better management (strong alternative to 'split a drive' or 'cut database in half').",
+    "pronunciation": "",
+    "definition": "To divide a storage drive or large database into distinct, independent sections for better management (strong alternative to 'split a drive' or 'cut database in half').",
+    "example": "We will partition the hard drive to separate the operating system from personal files.",
+    "category": "Data & File Management",
+    "subCategory": "Data & File Management"
+  },
+  {
+    "word": "Purge",
+    "meaning": "To permanently and irreversibly remove unwanted data, files, or database records to free up space (strong alternative to 'delete completely' or 'wipe out').",
+    "pronunciation": "",
+    "definition": "To permanently and irreversibly remove unwanted data, files, or database records to free up space (strong alternative to 'delete completely' or 'wipe out').",
+    "example": "The system is configured to purge deleted emails after thirty days.",
+    "category": "Data & File Management",
+    "subCategory": "Data & File Management"
+  },
+  {
+    "word": "Query",
+    "meaning": "A formal request for specific information from a database using structured commands (strong alternative to 'search database' or 'ask database for info').",
+    "pronunciation": "",
+    "definition": "A formal request for specific information from a database using structured commands (strong alternative to 'search database' or 'ask database for info').",
+    "example": "You can run a SQL query to find out how many users signed up last month.",
+    "category": "Data & File Management",
+    "subCategory": "Data & File Management"
+  },
+  {
+    "word": "Replicate",
+    "meaning": "To continuously copy and synchronize database changes across multiple servers to ensure high availability (strong alternative to 'copy databases automatically').",
+    "pronunciation": "",
+    "definition": "To copy, reproduce, or repeat an experiment to verify results (replaces the conversational 'do again' or 'copy').",
+    "example": "The system replicates data across three separate server locations to prevent downtime.",
+    "category": "Data & File Management",
+    "subCategory": "Data & File Management"
+  },
+  {
+    "word": "Retrieve",
+    "meaning": "To search for and successfully recall specific data or files from a storage system or database (strong alternative to 'find a file' or 'search and get').",
+    "pronunciation": "",
+    "definition": "To search for and successfully recall specific data or files from a storage system or database (strong alternative to 'find a file' or 'search and get').",
+    "example": "The search tool makes it easy to retrieve documents using keywords.",
+    "category": "Data & File Management",
+    "subCategory": "Data & File Management"
+  },
+  {
+    "word": "Sort",
+    "meaning": "To arrange data, files, or records in a specific alphabetical, numerical, or chronological order (strong alternative to 'put in order' or 'line up').",
+    "pronunciation": "",
+    "definition": "To arrange data, files, or records in a specific alphabetical, numerical, or chronological order (strong alternative to 'put in order' or 'line up').",
+    "example": "You can sort the files by date modified to find the most recent ones.",
+    "category": "Data & File Management",
+    "subCategory": "Data & File Management"
+  },
+  {
+    "word": "Truncate",
+    "meaning": "To shorten a data string or file by cutting off its end after a specific limit (strong alternative to 'cut off' or 'shorten').",
+    "pronunciation": "",
+    "definition": "To shorten a data string or file by cutting off its end after a specific limit (strong alternative to 'cut off' or 'shorten').",
+    "example": "The system will truncate usernames that exceed fifteen characters.",
+    "category": "Data & File Management",
+    "subCategory": "Data & File Management"
+  }
+]

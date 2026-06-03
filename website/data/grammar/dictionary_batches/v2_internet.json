@@ -1,0 +1,617 @@
+[
+  {
+    "word": "Browser",
+    "definition": "A software application used to access information on the World Wide Web.",
+    "category": "Web browsing terms"
+  },
+  {
+    "word": "URL",
+    "definition": "Uniform Resource Locator, the address of a specific web page or file on the internet.",
+    "category": "Web browsing terms"
+  },
+  {
+    "word": "HTTP",
+    "definition": "Hypertext Transfer Protocol, the foundation of data communication for the World Wide Web.",
+    "category": "Web browsing terms"
+  },
+  {
+    "word": "HTTPS",
+    "definition": "An extension of HTTP used for secure communication over a computer network.",
+    "category": "Web browsing terms"
+  },
+  {
+    "word": "Domain Name",
+    "definition": "The name of a website that identifies it on the internet.",
+    "category": "Web browsing terms"
+  },
+  {
+    "word": "IP Address",
+    "definition": "A unique string of numbers separated by periods that identifies each computer connected to the internet.",
+    "category": "Web browsing terms"
+  },
+  {
+    "word": "Bookmark",
+    "definition": "A saved shortcut that directs your browser to a specific webpage.",
+    "category": "Web browsing terms"
+  },
+  {
+    "word": "Cache",
+    "definition": "Temporary storage space or memory that allows fast access to data.",
+    "category": "Web browsing terms"
+  },
+  {
+    "word": "Cookie",
+    "definition": "A small piece of data sent from a website and stored on the user's computer by the user's web browser.",
+    "category": "Web browsing terms"
+  },
+  {
+    "word": "Homepage",
+    "definition": "The introductory page of a website, typically serving as a table of contents.",
+    "category": "Web browsing terms"
+  },
+  {
+    "word": "Hyperlink",
+    "definition": "A link from a hypertext file or document to another location or file.",
+    "category": "Web browsing terms"
+  },
+  {
+    "word": "Search Engine",
+    "definition": "A software system that is designed to carry out web searches.",
+    "category": "Web browsing terms"
+  },
+  {
+    "word": "Webpage",
+    "definition": "A hypertext document connected to the World Wide Web.",
+    "category": "Web browsing terms"
+  },
+  {
+    "word": "Website",
+    "definition": "A set of related web pages located under a single domain name.",
+    "category": "Web browsing terms"
+  },
+  {
+    "word": "Search Query",
+    "definition": "The exact words or phrases a user enters into a search engine.",
+    "category": "Web browsing terms"
+  },
+  {
+    "word": "Tab",
+    "definition": "A graphical control element that allows multiple documents or panels to be contained within a single window.",
+    "category": "Web browsing terms"
+  },
+  {
+    "word": "Refresh",
+    "definition": "To reload the current webpage to get the most updated version.",
+    "category": "Web browsing terms"
+  },
+  {
+    "word": "Navigation Bar",
+    "definition": "A user interface element within a webpage that contains links to other sections of the website.",
+    "category": "Web browsing terms"
+  },
+  {
+    "word": "Extension",
+    "definition": "A small software program that modifies and enhances a web browser's functionality.",
+    "category": "Web browsing terms"
+  },
+  {
+    "word": "Plug-in",
+    "definition": "A software component that adds a specific feature to an existing computer program.",
+    "category": "Web browsing terms"
+  },
+  {
+    "word": "Pop-up",
+    "definition": "A window that suddenly appears in the foreground of the visual interface.",
+    "category": "Web browsing terms"
+  },
+  {
+    "word": "Incognito Mode",
+    "definition": "A privacy feature in some web browsers that disables browsing history and web cache.",
+    "category": "Web browsing terms"
+  },
+  {
+    "word": "History",
+    "definition": "A record of web pages that a user has visited in the past.",
+    "category": "Web browsing terms"
+  },
+  {
+    "word": "Address Bar",
+    "definition": "A text box in a web browser displaying the address of the webpage that is currently being viewed.",
+    "category": "Web browsing terms"
+  },
+  {
+    "word": "Web Server",
+    "definition": "A computer that runs websites, storing their web pages and data.",
+    "category": "Web browsing terms"
+  },
+  {
+    "word": "DNS",
+    "definition": "Domain Name System, the phonebook of the internet.",
+    "category": "Web browsing terms"
+  },
+  {
+    "word": "Web Crawler",
+    "definition": "An internet bot that systematically browses the World Wide Web, typically for the purpose of Web indexing.",
+    "category": "Web browsing terms"
+  },
+  {
+    "word": "Indexing",
+    "definition": "The process by which search engines organize information before a search to enable fast responses to queries.",
+    "category": "Web browsing terms"
+  },
+  {
+    "word": "Router",
+    "definition": "A networking device that forwards data packets between computer networks.",
+    "category": "Web browsing terms"
+  },
+  {
+    "word": "ISP",
+    "definition": "Internet Service Provider, a company that provides access to the internet.",
+    "category": "Web browsing terms"
+  },
+  {
+    "word": "Malware",
+    "definition": "Software that is specifically designed to disrupt, damage, or gain unauthorized access to a computer system.",
+    "category": "Cybersecurity"
+  },
+  {
+    "word": "Virus",
+    "definition": "A type of malicious software that, when executed, replicates itself by modifying other computer programs.",
+    "category": "Cybersecurity"
+  },
+  {
+    "word": "Trojan",
+    "definition": "A type of malware which misleads users of its true intent.",
+    "category": "Cybersecurity"
+  },
+  {
+    "word": "Worm",
+    "definition": "A standalone malware computer program that replicates itself in order to spread to other computers.",
+    "category": "Cybersecurity"
+  },
+  {
+    "word": "Ransomware",
+    "definition": "Malicious software designed to block access to a computer system until a sum of money is paid.",
+    "category": "Cybersecurity"
+  },
+  {
+    "word": "Spyware",
+    "definition": "Software that enables a user to obtain covert information about another's computer activities.",
+    "category": "Cybersecurity"
+  },
+  {
+    "word": "Adware",
+    "definition": "Software that automatically displays or downloads advertising material when a user is online.",
+    "category": "Cybersecurity"
+  },
+  {
+    "word": "Phishing",
+    "definition": "The fraudulent practice of sending emails purporting to be from reputable companies in order to induce individuals to reveal personal information.",
+    "category": "Cybersecurity"
+  },
+  {
+    "word": "Social Engineering",
+    "definition": "The psychological manipulation of people into performing actions or divulging confidential information.",
+    "category": "Cybersecurity"
+  },
+  {
+    "word": "DDoS",
+    "definition": "Distributed Denial of Service, a cyber attack in which the perpetrator seeks to make a machine or network resource unavailable to its intended users.",
+    "category": "Cybersecurity"
+  },
+  {
+    "word": "Botnet",
+    "definition": "A network of private computers infected with malicious software and controlled as a group without the owners' knowledge.",
+    "category": "Cybersecurity"
+  },
+  {
+    "word": "Firewall",
+    "definition": "A network security system that monitors and controls incoming and outgoing network traffic based on predetermined security rules.",
+    "category": "Cybersecurity"
+  },
+  {
+    "word": "Antivirus",
+    "definition": "Computer software used to prevent, detect, and remove malicious software.",
+    "category": "Cybersecurity"
+  },
+  {
+    "word": "Encryption",
+    "definition": "The process of converting information or data into a code, especially to prevent unauthorized access.",
+    "category": "Cybersecurity"
+  },
+  {
+    "word": "Decryption",
+    "definition": "The process of taking encoded or encrypted text or other data and converting it back into text that you or the computer can read and understand.",
+    "category": "Cybersecurity"
+  },
+  {
+    "word": "Cipher",
+    "definition": "An algorithm for performing encryption or decryption.",
+    "category": "Cybersecurity"
+  },
+  {
+    "word": "VPN",
+    "definition": "Virtual Private Network, a secure and encrypted connection over the internet from a device to a network.",
+    "category": "Cybersecurity"
+  },
+  {
+    "word": "Hacking",
+    "definition": "The gaining of unauthorized access to data in a system or computer.",
+    "category": "Cybersecurity"
+  },
+  {
+    "word": "Vulnerability",
+    "definition": "A weakness in an information system, system security procedures, internal controls, or implementation that could be exploited.",
+    "category": "Cybersecurity"
+  },
+  {
+    "word": "Exploit",
+    "definition": "A piece of software, a chunk of data, or a sequence of commands that takes advantage of a bug or vulnerability to cause unintended or unanticipated behavior.",
+    "category": "Cybersecurity"
+  },
+  {
+    "word": "Patch",
+    "definition": "A set of changes to a computer program or its supporting data designed to update, fix, or improve it.",
+    "category": "Cybersecurity"
+  },
+  {
+    "word": "Zero-day",
+    "definition": "A computer-software vulnerability that is unknown to, or unaddressed by, those who should be interested in mitigating the vulnerability.",
+    "category": "Cybersecurity"
+  },
+  {
+    "word": "Authentication",
+    "definition": "The process or action of verifying the identity of a user or process.",
+    "category": "Cybersecurity"
+  },
+  {
+    "word": "Authorization",
+    "definition": "The function of specifying access rights/privileges to resources.",
+    "category": "Cybersecurity"
+  },
+  {
+    "word": "Two-Factor Authentication",
+    "definition": "A security system that requires two distinct forms of identification in order to access something.",
+    "category": "Cybersecurity"
+  },
+  {
+    "word": "Password",
+    "definition": "A secret word or phrase that must be used to gain admission to something.",
+    "category": "Cybersecurity"
+  },
+  {
+    "word": "Biometrics",
+    "definition": "The measurement and statistical analysis of people's unique physical and behavioral characteristics.",
+    "category": "Cybersecurity"
+  },
+  {
+    "word": "Keylogger",
+    "definition": "A type of surveillance software that has the capability to record every keystroke you make to a log file.",
+    "category": "Cybersecurity"
+  },
+  {
+    "word": "Brute Force Attack",
+    "definition": "A trial-and-error method used by application programs to decode encrypted data such as passwords.",
+    "category": "Cybersecurity"
+  },
+  {
+    "word": "Spoofing",
+    "definition": "A specific type of cyber-attack in which someone attempts to use a computer, device, or network to trick other computer networks by masquerading as a legitimate entity.",
+    "category": "Cybersecurity"
+  },
+  {
+    "word": "Shopping Cart",
+    "definition": "A piece of e-commerce software on a web server that allows visitors to an internet site to select items for eventual purchase.",
+    "category": "E-commerce"
+  },
+  {
+    "word": "Checkout",
+    "definition": "The process of finalizing a purchase in an online store.",
+    "category": "E-commerce"
+  },
+  {
+    "word": "Payment Gateway",
+    "definition": "A merchant service provided by an e-commerce application service provider that authorizes credit card or direct payments.",
+    "category": "E-commerce"
+  },
+  {
+    "word": "Merchant Account",
+    "definition": "A type of bank account that allows businesses to accept payments by payment cards.",
+    "category": "E-commerce"
+  },
+  {
+    "word": "POS",
+    "definition": "Point of Sale, the time and place where a retail transaction is completed.",
+    "category": "E-commerce"
+  },
+  {
+    "word": "Conversion Rate",
+    "definition": "The percentage of users who take a desired action, such as completing a purchase.",
+    "category": "E-commerce"
+  },
+  {
+    "word": "Bounce Rate",
+    "definition": "The percentage of visitors to a particular website who navigate away from the site after viewing only one page.",
+    "category": "E-commerce"
+  },
+  {
+    "word": "Affiliate Marketing",
+    "definition": "An arrangement by which an online retailer pays commission to an external website for traffic or sales generated from its referrals.",
+    "category": "E-commerce"
+  },
+  {
+    "word": "Dropshipping",
+    "definition": "A form of retail business wherein the seller accepts customer orders but does not keep goods sold in stock.",
+    "category": "E-commerce"
+  },
+  {
+    "word": "B2B",
+    "definition": "Business to Business, a situation where one business makes a commercial transaction with another.",
+    "category": "E-commerce"
+  },
+  {
+    "word": "B2C",
+    "definition": "Business to Consumer, the process of selling products and services directly between a business and consumers.",
+    "category": "E-commerce"
+  },
+  {
+    "word": "C2C",
+    "definition": "Consumer to Consumer, a business model that facilitates the transaction of products or services between customers.",
+    "category": "E-commerce"
+  },
+  {
+    "word": "Inventory",
+    "definition": "The raw materials used to produce goods as well as the goods that are available for sale.",
+    "category": "E-commerce"
+  },
+  {
+    "word": "Fulfillment",
+    "definition": "The process of receiving, packaging, and shipping orders for goods.",
+    "category": "E-commerce"
+  },
+  {
+    "word": "SKU",
+    "definition": "Stock Keeping Unit, a scannable bar code, most often seen printed on product labels in a retail store.",
+    "category": "E-commerce"
+  },
+  {
+    "word": "Invoice",
+    "definition": "A commercial document issued by a seller to a buyer, relating to a sale transaction and indicating the products, quantities, and agreed prices.",
+    "category": "E-commerce"
+  },
+  {
+    "word": "Receipt",
+    "definition": "A document acknowledging that a person has received money or property in payment following a sale or other transfer of goods or provision of a service.",
+    "category": "E-commerce"
+  },
+  {
+    "word": "Refund",
+    "definition": "A reimbursement for a purchase that a customer returns or is unsatisfied with.",
+    "category": "E-commerce"
+  },
+  {
+    "word": "Chargeback",
+    "definition": "A return of money to a payer of some transaction, especially a credit card transaction.",
+    "category": "E-commerce"
+  },
+  {
+    "word": "Subscription",
+    "definition": "A business model where a customer must pay a recurring price at regular intervals for access to a product or service.",
+    "category": "E-commerce"
+  },
+  {
+    "word": "Digital Wallet",
+    "definition": "A software-based system that securely stores users' payment information and passwords for numerous payment methods and websites.",
+    "category": "E-commerce"
+  },
+  {
+    "word": "Cryptocurrency",
+    "definition": "A digital or virtual currency that uses cryptography for security.",
+    "category": "E-commerce"
+  },
+  {
+    "word": "Order Tracking",
+    "definition": "The process by which customers can monitor the status of their online order.",
+    "category": "E-commerce"
+  },
+  {
+    "word": "Shipping",
+    "definition": "The physical moving of good from one point to another, such as the moving of merchandise from the warehouse to the customer.",
+    "category": "E-commerce"
+  },
+  {
+    "word": "Coupon Code",
+    "definition": "A code consisting of letters or numbers that consumers can enter into a promotional box on a site's shopping cart checkout page to obtain a discount.",
+    "category": "E-commerce"
+  },
+  {
+    "word": "Discount",
+    "definition": "A reduction made from the gross amount or value of something.",
+    "category": "E-commerce"
+  },
+  {
+    "word": "Wishlist",
+    "definition": "An e-commerce feature that allows shoppers to create personalized collections of products they want to buy and save them in their user account for future reference.",
+    "category": "E-commerce"
+  },
+  {
+    "word": "Upselling",
+    "definition": "A sales technique used to get a customer to spend more by buying an upgraded or premium version of what's being purchased.",
+    "category": "E-commerce"
+  },
+  {
+    "word": "Cross-selling",
+    "definition": "The action or practice of selling an additional product or service to an existing customer.",
+    "category": "E-commerce"
+  },
+  {
+    "word": "Cart Abandonment",
+    "definition": "An e-commerce term used to describe a visitor on a web page who leaves that page before completing the desired action.",
+    "category": "E-commerce"
+  },
+  {
+    "word": "Loyalty Program",
+    "definition": "A marketing strategy designed to encourage customers to continue to shop at or use the services of a business associated with the program.",
+    "category": "E-commerce"
+  },
+  {
+    "word": "Algorithm",
+    "definition": "A finite sequence of rigorous instructions, typically used to solve a class of specific problems or to perform a computation.",
+    "category": "Software terminology"
+  },
+  {
+    "word": "API",
+    "definition": "Application Programming Interface, a way for two or more computer programs to communicate with each other.",
+    "category": "Software terminology"
+  },
+  {
+    "word": "Application",
+    "definition": "A computer program designed to carry out a specific task other than one relating to the operation of the computer itself.",
+    "category": "Software terminology"
+  },
+  {
+    "word": "Backend",
+    "definition": "The data access layer of software development, including databases and server-side infrastructure.",
+    "category": "Software terminology"
+  },
+  {
+    "word": "Frontend",
+    "definition": "The presentation layer of software development, directly interacting with the user.",
+    "category": "Software terminology"
+  },
+  {
+    "word": "Bug",
+    "definition": "An unexpected defect, fault, flaw, or imperfection in a computer program.",
+    "category": "Software terminology"
+  },
+  {
+    "word": "Code",
+    "definition": "The set of instructions forming a computer program which is executed by a computer.",
+    "category": "Software terminology"
+  },
+  {
+    "word": "Compiler",
+    "definition": "A computer program that translates computer code written in one programming language into another language.",
+    "category": "Software terminology"
+  },
+  {
+    "word": "Database",
+    "definition": "An organized collection of data stored and accessed electronically.",
+    "category": "Software terminology"
+  },
+  {
+    "word": "Debugging",
+    "definition": "The process of finding and resolving bugs within computer programs, software, or systems.",
+    "category": "Software terminology"
+  },
+  {
+    "word": "Deployment",
+    "definition": "All of the activities that make a software system available for use.",
+    "category": "Software terminology"
+  },
+  {
+    "word": "Framework",
+    "definition": "A platform for developing software applications, providing a foundation on which software developers can build programs for a specific platform.",
+    "category": "Software terminology"
+  },
+  {
+    "word": "GUI",
+    "definition": "Graphical User Interface, a form of user interface that allows users to interact with electronic devices through graphical icons.",
+    "category": "Software terminology"
+  },
+  {
+    "word": "IDE",
+    "definition": "Integrated Development Environment, a software application that provides comprehensive facilities to computer programmers for software development.",
+    "category": "Software terminology"
+  },
+  {
+    "word": "Open Source",
+    "definition": "A type of software whose source code is released under a license in which the copyright holder grants users the rights to use, study, change, and distribute the software to anyone and for any purpose.",
+    "category": "Software terminology"
+  },
+  {
+    "word": "Proprietary Software",
+    "definition": "Software that retains the intellectual property rights, typically copyright, of its source code.",
+    "category": "Software terminology"
+  },
+  {
+    "word": "OS",
+    "definition": "Operating System, system software that manages computer hardware, software resources, and provides common services for computer programs.",
+    "category": "Software terminology"
+  },
+  {
+    "word": "Release",
+    "definition": "The distribution of a software version to the public or the consumer.",
+    "category": "Software terminology"
+  },
+  {
+    "word": "Repository",
+    "definition": "A central file storage location, typically used by version control systems to store multiple versions of files.",
+    "category": "Software terminology"
+  },
+  {
+    "word": "SaaS",
+    "definition": "Software as a Service, a software licensing and delivery model in which software is licensed on a subscription basis and is centrally hosted.",
+    "category": "Software terminology"
+  },
+  {
+    "word": "Script",
+    "definition": "A program or sequence of instructions that is interpreted or carried out by another program rather than by the computer processor.",
+    "category": "Software terminology"
+  },
+  {
+    "word": "Source Code",
+    "definition": "Any collection of code, with or without comments, written using a human-readable programming language.",
+    "category": "Software terminology"
+  },
+  {
+    "word": "UI",
+    "definition": "User Interface, the space where interactions between humans and machines occur.",
+    "category": "Software terminology"
+  },
+  {
+    "word": "UX",
+    "definition": "User Experience, a person's emotions and attitudes about using a particular product, system or service.",
+    "category": "Software terminology"
+  },
+  {
+    "word": "Version Control",
+    "definition": "A class of systems responsible for managing changes to computer programs, documents, large web sites, or other collections of information.",
+    "category": "Software terminology"
+  },
+  {
+    "word": "Web App",
+    "definition": "An application program that is stored on a remote server and delivered over the internet through a browser interface.",
+    "category": "Software terminology"
+  },
+  {
+    "word": "Widget",
+    "definition": "An element of a graphical user interface (GUI) that displays information or provides a specific way for a user to interact with the operating system or an application.",
+    "category": "Software terminology"
+  },
+  {
+    "word": "Commit",
+    "definition": "The process of saving changes to a local repository.",
+    "category": "Software terminology"
+  },
+  {
+    "word": "Pull Request",
+    "definition": "An event in software development when a contributor requests that a project maintainer pulls source code changes into the main repository.",
+    "category": "Software terminology"
+  },
+  {
+    "word": "Agile",
+    "definition": "An approach to software development under which requirements and solutions evolve through the collaborative effort of self-organizing and cross-functional teams and their customer/end user.",
+    "category": "Software terminology"
+  },
+  {
+    "word": "Sprint",
+    "definition": "A set, short time-box wherein a specific work has to be completed and made ready for review.",
+    "category": "Software terminology"
+  },
+  {
+    "word": "SDK",
+    "definition": "Software Development Kit, a collection of software development tools in one installable package.",
+    "category": "Software terminology"
+  }
+]

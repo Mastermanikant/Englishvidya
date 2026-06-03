@@ -1,0 +1,5 @@
+Successfully scheduled one-shot timer.
+Expected to fire at: 2026-05-29T19:55:42+05:30
+Prompt: Check if bulk extraction task has finished.
+
+[2026-05-29T19:55:35+05:30] Timer cancelled: agent received a message during wait.

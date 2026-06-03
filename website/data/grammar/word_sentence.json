@@ -1,0 +1,106 @@
+[
+  {
+    "topic": "What is a Word?",
+    "topic_hi": "शब्द क्या है?",
+    "introduction": {
+      "english": "A word is a meaningful unit made of letters or sounds.",
+      "hindi": "अर्थपूर्ण अक्षरों या ध्वनियों के समूह को शब्द कहते हैं।"
+    },
+    "types": []
+  },
+  {
+    "topic": "What is a Sentence?",
+    "topic_hi": "वाक्य क्या है?",
+    "introduction": {
+      "english": "A sentence is a group of words that gives complete meaning (expresses a complete thought).",
+      "hindi": "पूर्ण अर्थ देने वाले शब्दों के समूह को वाक्य कहते हैं।"
+    },
+    "types": []
+  },
+  {
+    "topic": "Sentence Structure Basics",
+    "topic_hi": "वाक्य की मूल संरचना",
+    "introduction": {
+      "english": "Sentences are built from different word groups that work together to form a complete meaning.",
+      "hindi": "वाक्य के अंदर अलग-अलग हिस्से (Phrase, Clause) मिलकर एक पूरा अर्थ बनाते हैं।"
+    },
+    "types": [
+      {
+        "name": "Phrase",
+        "description": "A group of words that does not express a complete thought (incomplete meaning group)."
+      },
+      {
+        "name": "Clause",
+        "description": "A group of words that has its own subject and its own verb."
+      },
+      {
+        "name": "Subject",
+        "description": "The part about which something is said (जिसके बारे में कुछ कहा जाए)."
+      },
+      {
+        "name": "Predicate",
+        "description": "Tells something about the subject (Subject के बारे में जो कुछ कहा जाए)."
+      }
+    ]
+  },
+  {
+    "topic": "Word Order in English",
+    "topic_hi": "अंग्रेज़ी में शब्दों का क्रम",
+    "introduction": {
+      "english": "Word order is the arrangement of words in a sentence.",
+      "hindi": "वाक्य में शब्दों को सही क्रम में रखने की प्रक्रिया को word order कहते हैं।"
+    },
+    "types": [
+      {
+        "name": "Hindi Structure",
+        "description": "Subject + Object + Verb (SOV)"
+      },
+      {
+        "name": "English Structure",
+        "description": "Subject + Verb + Object (SVO)"
+      }
+    ]
+  },
+  {
+    "topic": "Parts of Speech System",
+    "topic_hi": "शब्द-भेद प्रणाली",
+    "introduction": {
+      "english": "The words that describe the roles played by words in a sentence are called Parts of Speech.",
+      "hindi": "वाक्य में शब्द जो-जो भूमिका निभाते हैं, उन्हीं भूमिकाओं के आधार पर उन्हें Parts of Speech कहा जाता है।"
+    },
+    "types": [
+      {
+        "name": "Noun",
+        "description": "The name of a person, place, thing, concept, quality, or state of being."
+      },
+      {
+        "name": "Pronoun",
+        "description": "The word that is used instead of a noun or noun phrase to avoid its repetition."
+      },
+      {
+        "name": "Adjective",
+        "description": "The word that describes or modifies a noun, pronoun, or noun phrase."
+      },
+      {
+        "name": "Verb",
+        "description": "The action or state of being."
+      },
+      {
+        "name": "Adverb",
+        "description": "Modifies a verb, adjective, or another adverb."
+      },
+      {
+        "name": "Preposition",
+        "description": "Shows relationship between a noun/pronoun and other words."
+      },
+      {
+        "name": "Conjunction",
+        "description": "Joins words, phrases, or clauses."
+      },
+      {
+        "name": "Interjection",
+        "description": "Expresses sudden emotion or feeling."
+      }
+    ]
+  }
+]

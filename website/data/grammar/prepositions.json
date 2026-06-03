@@ -1,0 +1,304 @@
+﻿{
+    "topic":  "Preposition System",
+    "topic_hi":  "à¤¸à¤‚à¤¬à¤‚à¤§à¤¬à¥‹à¤§à¤• à¤…à¤µà¥à¤¯à¤¯ à¤ªà¥à¤°à¤£à¤¾à¤²à¥€",
+    "introduction":  {
+                         "text":  "A word placed before a noun, pronoun, or noun phrase to show its relation with another part of the sentence is called a preposition. ",
+                         "text_hi":  "वह शब्द जो noun, pronoun या noun phrase से पहले आकर उसका संबंध sentence के दूसरे शब्दों से जोड़ता है, preposition कहलाता है। ",
+                         "important":  "Preposition: दो words या groups के बीच relation दिखाता है। "
+                     },
+    "teacher_note":  "बच्चों, अब तक हमने: noun pronoun adjective verb adverb समझा। अब हम preposition समझेंगे। Sentence में केवल words होना काफी नहीं होता। उनके बीच: relation position direction time भी बताना पड़ता है। यही काम preposition करता है। What is a Preposition? ",
+    "types":  [
+                  {
+                      "name":  "Preposition of Place",
+                      "name_hi":  "स्थान बोधक संबंध",
+                      "definition":  "The preposition that shows place or position is called a preposition of place. ",
+                      "definition_hi":  "जो preposition किसी स्थान या स्थिति का बोध कराए, उसे Preposition of Place कहते हैं। ",
+                      "important_understanding":  "in अंदर on ऊपर (touching surface) under नीचे ",
+                      "examples":  [
+                                       {
+                                           "english":  "in",
+                                           "hindi":  ""
+                                       },
+                                       {
+                                           "english":  "on",
+                                           "hindi":  ""
+                                       },
+                                       {
+                                           "english":  "under",
+                                           "hindi":  ""
+                                       },
+                                       {
+                                           "english":  "behind",
+                                           "hindi":  ""
+                                       },
+                                       {
+                                           "english":  "beside",
+                                           "hindi":  ""
+                                       },
+                                       {
+                                           "english":  "Example",
+                                           "hindi":  "Sentences"
+                                       },
+                                       {
+                                           "english":  "The",
+                                           "hindi":  "cat is under the table."
+                                       },
+                                       {
+                                           "english":  "The",
+                                           "hindi":  "picture is on the wall."
+                                       },
+                                       {
+                                           "english":  "Ram",
+                                           "hindi":  "is in the classroom."
+                                       }
+                                   ]
+                  },
+                  {
+                      "name":  "Preposition of Time",
+                      "name_hi":  "समय बोधक संबंध",
+                      "definition":  "The preposition that shows time is called a preposition of time. ",
+                      "definition_hi":  "जो preposition समय का बोध कराए, उसे Preposition of Time कहते हैं। Main Time Prepositions at on in Use of “At” Specific time ",
+                      "important_understanding":  "",
+                      "examples":  [
+                                       {
+                                           "english":  "at",
+                                           "hindi":  "5 o’clock"
+                                       },
+                                       {
+                                           "english":  "at",
+                                           "hindi":  "night"
+                                       },
+                                       {
+                                           "english":  "Use",
+                                           "hindi":  "of “On”"
+                                       },
+                                       {
+                                           "english":  "Specific",
+                                           "hindi":  "day/date"
+                                       },
+                                       {
+                                           "english":  "on",
+                                           "hindi":  "Monday"
+                                       },
+                                       {
+                                           "english":  "on",
+                                           "hindi":  "15 August"
+                                       },
+                                       {
+                                           "english":  "Use",
+                                           "hindi":  "of “In”"
+                                       },
+                                       {
+                                           "english":  "Longer",
+                                           "hindi":  "periods"
+                                       },
+                                       {
+                                           "english":  "in",
+                                           "hindi":  "2025"
+                                       },
+                                       {
+                                           "english":  "in",
+                                           "hindi":  "winter"
+                                       },
+                                       {
+                                           "english":  "in",
+                                           "hindi":  "the morning"
+                                       },
+                                       {
+                                           "english":  "Final",
+                                           "hindi":  "Easy Rule"
+                                       },
+                                       {
+                                           "english":  "At",
+                                           "hindi":  ""
+                                       },
+                                       {
+                                           "english":  "exact",
+                                           "hindi":  "time"
+                                       },
+                                       {
+                                           "english":  "On",
+                                           "hindi":  ""
+                                       },
+                                       {
+                                           "english":  "day",
+                                           "hindi":  "date"
+                                       },
+                                       {
+                                           "english":  "In",
+                                           "hindi":  ""
+                                       },
+                                       {
+                                           "english":  "month",
+                                           "hindi":  "year/long period"
+                                       }
+                                   ]
+                  },
+                  {
+                      "name":  "Preposition of Direction",
+                      "name_hi":  "दिशा बोधक संबंध",
+                      "definition":  "The preposition that shows movement or direction is called a preposition of direction. ",
+                      "definition_hi":  "जो preposition दिशा या movement का बोध कराए, उसे Preposition of Direction कहते हैं। ",
+                      "important_understanding":  "Direction prepositions: movement दिखाते हैं। ",
+                      "examples":  [
+                                       {
+                                           "english":  "to",
+                                           "hindi":  ""
+                                       },
+                                       {
+                                           "english":  "towards",
+                                           "hindi":  ""
+                                       },
+                                       {
+                                           "english":  "into",
+                                           "hindi":  ""
+                                       },
+                                       {
+                                           "english":  "onto",
+                                           "hindi":  ""
+                                       },
+                                       {
+                                           "english":  "Example",
+                                           "hindi":  "Sentences"
+                                       },
+                                       {
+                                           "english":  "He",
+                                           "hindi":  "went to school."
+                                       },
+                                       {
+                                           "english":  "The",
+                                           "hindi":  "boy jumped into the river."
+                                       },
+                                       {
+                                           "english":  "She",
+                                           "hindi":  "walked towards the market."
+                                       }
+                                   ]
+                  },
+                  {
+                      "name":  "Preposition of Cause or Purpose",
+                      "name_hi":  "कारण/उद्देश्य बोधक संबंध",
+                      "definition":  "The preposition that shows reason or purpose is called a preposition of cause or purpose. A group of words beginning with a preposition and ending with its object is called a prepositional phrase. ",
+                      "definition_hi":  "जो preposition कारण या उद्देश्य का बोध कराए, उसे Preposition of Cause/Purpose कहते हैं। शब्दों का वह समूह जो preposition से शुरू होकर उसके object पर समाप्त हो, prepositional phrase कहलाता है। ",
+                      "important_understanding":  "Preposition के बाद: noun pronoun noun phrase आता है। Preposition vs Adverb कई बार same word: preposition या adverb दोनों हो सकता है। Example 1 He went inside the room. inside + noun → preposition Example 2 He went inside. noun नहीं है → adverb Preposition के बाद object आता है। Adverb के बाद object जरूरी नहीं। Important Preposition Difference In vs Into In स्थिति The boy is in the room. Into movement अंदर की ओर The boy went into the room. On vs Onto On स्थिति The book is on the table. Onto movement ऊपर की ओर The cat jumped onto the table. Between vs Among Between दो के बीच The ball is between Ram and Mohan. Among कई लोगों/वस्तुओं के बीच He was sitting among friends. Common Mistakes ❌ He discussed about the issue. ✅ He discussed the issue. ❌ She entered into the room. ✅ She entered the room. Fixed Preposition Awareness कुछ verbs/adjectives के साथ fixed prepositions आते हैं। ",
+                      "examples":  [
+                                       {
+                                           "english":  "for",
+                                           "hindi":  ""
+                                       },
+                                       {
+                                           "english":  "because",
+                                           "hindi":  "of"
+                                       },
+                                       {
+                                           "english":  "due",
+                                           "hindi":  "to"
+                                       },
+                                       {
+                                           "english":  "Example",
+                                           "hindi":  "Sentences"
+                                       },
+                                       {
+                                           "english":  "He",
+                                           "hindi":  "was punished for his mistake."
+                                       },
+                                       {
+                                           "english":  "The",
+                                           "hindi":  "match was cancelled because of rain."
+                                       },
+                                       {
+                                           "english":  "Preposition",
+                                           "hindi":  "Noun Phrase"
+                                       },
+                                       {
+                                           "english":  "Preposition",
+                                           "hindi":  "सामान्यतः noun phrase के साथ आता है।"
+                                       },
+                                       {
+                                           "english":  "on",
+                                           "hindi":  "the table"
+                                       },
+                                       {
+                                           "english":  "in",
+                                           "hindi":  "the classroom"
+                                       },
+                                       {
+                                           "english":  "under",
+                                           "hindi":  "the old tree"
+                                       },
+                                       {
+                                           "english":  "interested",
+                                           "hindi":  "in"
+                                       },
+                                       {
+                                           "english":  "good",
+                                           "hindi":  "at"
+                                       },
+                                       {
+                                           "english":  "afraid",
+                                           "hindi":  "of"
+                                       },
+                                       {
+                                           "english":  "depend",
+                                           "hindi":  "on"
+                                       },
+                                       {
+                                           "english":  "Example",
+                                           "hindi":  "Sentences"
+                                       },
+                                       {
+                                           "english":  "She",
+                                           "hindi":  "is interested in music."
+                                       },
+                                       {
+                                           "english":  "He",
+                                           "hindi":  "is good at English."
+                                       },
+                                       {
+                                           "english":  "Prepositional",
+                                           "hindi":  "Phrase"
+                                       },
+                                       {
+                                           "english":  "in",
+                                           "hindi":  "the room"
+                                       },
+                                       {
+                                           "english":  "under",
+                                           "hindi":  "the table"
+                                       },
+                                       {
+                                           "english":  "beside",
+                                           "hindi":  "the river"
+                                       },
+                                       {
+                                           "english":  "Small",
+                                           "hindi":  "Advanced Awareness"
+                                       },
+                                       {
+                                           "english":  "Modern",
+                                           "hindi":  "grammar में: कुछ grammarians prepositions को:"
+                                       },
+                                       {
+                                           "english":  "simple",
+                                           "hindi":  "preposition"
+                                       },
+                                       {
+                                           "english":  "compound",
+                                           "hindi":  "preposition"
+                                       },
+                                       {
+                                           "english":  "phrase",
+                                           "hindi":  "preposition"
+                                       },
+                                       {
+                                           "english":  "में",
+                                           "hindi":  "भी बाँटते हैं।"
+                                       },
+                                       {
+                                           "english":  "आगे",
+                                           "hindi":  "advanced grammar में इसकी awareness मिलेगी।"
+                                       }
+                                   ]
+                  }
+              ]
+}

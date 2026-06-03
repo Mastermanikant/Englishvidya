@@ -1,0 +1,824 @@
+[
+  {
+    "word": "analyze",
+    "meaning": "To examine something in detail in order to understand it or explain it.",
+    "example": "The researcher carefully analyzed the data before drawing any conclusions.",
+    "category": "Analytical"
+  },
+  {
+    "word": "synthesize",
+    "meaning": "To combine different ideas, information, or arguments into a coherent whole.",
+    "example": "Good academic writing synthesizes multiple sources into a unified argument.",
+    "category": "Analytical"
+  },
+  {
+    "word": "evaluate",
+    "meaning": "To assess the value, quality, or importance of something through careful judgment.",
+    "example": "Students must evaluate the reliability of online sources before citing them.",
+    "category": "Evaluative"
+  },
+  {
+    "word": "critique",
+    "meaning": "To analyze and judge the merits and faults of something in a detailed way.",
+    "example": "She wrote a thoughtful critique of the author's methodology.",
+    "category": "Evaluative"
+  },
+  {
+    "word": "infer",
+    "meaning": "To conclude from evidence and reasoning rather than from explicit statements.",
+    "example": "From the tone of the letter, one can infer that the writer was frustrated.",
+    "category": "Analytical"
+  },
+  {
+    "word": "deduce",
+    "meaning": "To arrive at a conclusion by reasoning from general principles to specific facts.",
+    "example": "Scientists deduce the age of fossils using known decay rates.",
+    "category": "Analytical"
+  },
+  {
+    "word": "premise",
+    "meaning": "A statement or assumption that forms the basis of an argument.",
+    "example": "The entire argument rests on a flawed premise.",
+    "category": "Argumentative"
+  },
+  {
+    "word": "assertion",
+    "meaning": "A confident and forceful statement of fact or belief.",
+    "example": "His assertion that crime has increased is not supported by statistics.",
+    "category": "Argumentative"
+  },
+  {
+    "word": "refute",
+    "meaning": "To prove that a statement or theory is wrong or false.",
+    "example": "The scientist refuted the earlier hypothesis with new experimental evidence.",
+    "category": "Argumentative"
+  },
+  {
+    "word": "corroborate",
+    "meaning": "To confirm or support a statement or theory with new evidence.",
+    "example": "A second witness corroborated the account given by the first.",
+    "category": "Evaluative"
+  },
+  {
+    "word": "substantiate",
+    "meaning": "To provide evidence to support or prove the truth of something.",
+    "example": "You must substantiate your claims with credible sources.",
+    "category": "Argumentative"
+  },
+  {
+    "word": "hypothesis",
+    "meaning": "A proposed explanation made on limited evidence as a starting point for investigation.",
+    "example": "The team developed a hypothesis and then designed experiments to test it.",
+    "category": "Analytical"
+  },
+  {
+    "word": "conjecture",
+    "meaning": "An opinion or conclusion formed on the basis of incomplete information.",
+    "example": "Without more data, the theory remains mere conjecture.",
+    "category": "Analytical"
+  },
+  {
+    "word": "assumption",
+    "meaning": "Something accepted as true without proof, often forming the basis of an argument.",
+    "example": "The plan was built on the flawed assumption that costs would remain stable.",
+    "category": "Analytical"
+  },
+  {
+    "word": "logical fallacy",
+    "meaning": "An error in reasoning that makes an argument invalid or misleading.",
+    "example": "Claiming that an idea is wrong because it is unpopular is a logical fallacy.",
+    "category": "Analytical"
+  },
+  {
+    "word": "counterargument",
+    "meaning": "An argument made to oppose or rebut another argument.",
+    "example": "A strong essay acknowledges the counterargument and addresses it directly.",
+    "category": "Argumentative"
+  },
+  {
+    "word": "rebuttal",
+    "meaning": "A response that contradicts or proves a claim or argument wrong.",
+    "example": "Her rebuttal effectively dismantled every point the opposition had raised.",
+    "category": "Argumentative"
+  },
+  {
+    "word": "concede",
+    "meaning": "To admit that something is true or valid, even if one disagrees overall.",
+    "example": "The debater conceded that the opposing side had one valid point.",
+    "category": "Argumentative"
+  },
+  {
+    "word": "caveat",
+    "meaning": "A warning or qualification attached to a statement or agreement.",
+    "example": "She accepted the findings but added an important caveat about sample size.",
+    "category": "Evaluative"
+  },
+  {
+    "word": "implication",
+    "meaning": "A conclusion that can be drawn from something, though not explicitly stated.",
+    "example": "The implications of the new law for small businesses are significant.",
+    "category": "Analytical"
+  },
+  {
+    "word": "inference",
+    "meaning": "A conclusion reached through reasoning from available evidence.",
+    "example": "The detective made a reasonable inference based on the clues at the scene.",
+    "category": "Analytical"
+  },
+  {
+    "word": "bias",
+    "meaning": "An unfair inclination or prejudice that affects judgment or interpretation.",
+    "example": "Confirmation bias leads people to seek only information that supports their existing beliefs.",
+    "category": "Evaluative"
+  },
+  {
+    "word": "objectivity",
+    "meaning": "The quality of making judgments based on facts rather than personal feelings.",
+    "example": "Scientific research demands objectivity to ensure reliable results.",
+    "category": "Evaluative"
+  },
+  {
+    "word": "subjectivity",
+    "meaning": "The quality of being based on personal feelings or opinions rather than facts.",
+    "example": "Art criticism involves a degree of subjectivity that scientific analysis does not.",
+    "category": "Evaluative"
+  },
+  {
+    "word": "credibility",
+    "meaning": "The quality of being trusted and believed in; reliability of a source.",
+    "example": "The report's credibility was undermined when errors in the data were found.",
+    "category": "Evaluative"
+  },
+  {
+    "word": "validity",
+    "meaning": "The quality of being logically sound and producing accurate results.",
+    "example": "Researchers questioned the validity of the experiment's methodology.",
+    "category": "Evaluative"
+  },
+  {
+    "word": "reliability",
+    "meaning": "The consistency of a measure or result when repeated under the same conditions.",
+    "example": "A single study cannot establish reliability; the findings must be replicated.",
+    "category": "Evaluative"
+  },
+  {
+    "word": "evidence",
+    "meaning": "Facts, information, or proof used to establish whether a belief or claim is true.",
+    "example": "He presented compelling evidence to support his argument.",
+    "category": "Argumentative"
+  },
+  {
+    "word": "reasoning",
+    "meaning": "The action of thinking about something in a logical, sensible way.",
+    "example": "Sound reasoning is the foundation of any persuasive argument.",
+    "category": "Analytical"
+  },
+  {
+    "word": "rationale",
+    "meaning": "A set of reasons or a logical basis for a course of action or belief.",
+    "example": "The committee explained the rationale behind its decision to cut funding.",
+    "category": "Argumentative"
+  },
+  {
+    "word": "perspective",
+    "meaning": "A particular attitude toward or way of regarding something; a point of view.",
+    "example": "Considering the issue from multiple perspectives leads to better decisions.",
+    "category": "Analytical"
+  },
+  {
+    "word": "nuance",
+    "meaning": "A subtle difference in meaning, expression, or understanding.",
+    "example": "Her analysis captured the nuance that simpler reports had missed.",
+    "category": "Analytical"
+  },
+  {
+    "word": "ambiguity",
+    "meaning": "The quality of being open to more than one interpretation; inexactness.",
+    "example": "The ambiguity of the contract led to a legal dispute.",
+    "category": "Analytical"
+  },
+  {
+    "word": "dichotomy",
+    "meaning": "A division or contrast between two things that are entirely different.",
+    "example": "The false dichotomy between science and religion ignores centuries of coexistence.",
+    "category": "Analytical"
+  },
+  {
+    "word": "paradigm",
+    "meaning": "A typical example, model, or framework of thinking in a particular field.",
+    "example": "Einstein's theory of relativity shifted the entire paradigm of physics.",
+    "category": "Analytical"
+  },
+  {
+    "word": "context",
+    "meaning": "The circumstances that form the setting for an event or statement.",
+    "example": "Understanding a quote requires knowing its historical context.",
+    "category": "Analytical"
+  },
+  {
+    "word": "scrutinize",
+    "meaning": "To examine or inspect closely and thoroughly.",
+    "example": "Journalists must scrutinize official statements rather than accept them at face value.",
+    "category": "Evaluative"
+  },
+  {
+    "word": "discern",
+    "meaning": "To perceive or recognize a distinction between things; to judge wisely.",
+    "example": "It takes skill to discern between reliable and unreliable information.",
+    "category": "Evaluative"
+  },
+  {
+    "word": "distinguish",
+    "meaning": "To recognize or show the difference between two things.",
+    "example": "Students should be able to distinguish between fact and opinion.",
+    "category": "Analytical"
+  },
+  {
+    "word": "juxtapose",
+    "meaning": "To place two things side by side for comparison or contrast.",
+    "example": "The writer juxtaposed poverty and luxury to highlight inequality.",
+    "category": "Analytical"
+  },
+  {
+    "word": "correlation",
+    "meaning": "A mutual relationship or connection between two or more things.",
+    "example": "There is a strong correlation between education levels and income.",
+    "category": "Analytical"
+  },
+  {
+    "word": "causation",
+    "meaning": "The action of causing something; the relationship between cause and effect.",
+    "example": "Correlation does not imply causation; further study is needed.",
+    "category": "Analytical"
+  },
+  {
+    "word": "generalization",
+    "meaning": "A broad statement or conclusion made from limited specific cases.",
+    "example": "Saying all teenagers are irresponsible is an unfair generalization.",
+    "category": "Analytical"
+  },
+  {
+    "word": "oversimplify",
+    "meaning": "To treat something as simpler than it really is, distorting its true nature.",
+    "example": "Media reports often oversimplify complex economic issues.",
+    "category": "Evaluative"
+  },
+  {
+    "word": "contradict",
+    "meaning": "To deny or state the opposite of what someone else has said.",
+    "example": "The new findings directly contradict the earlier published results.",
+    "category": "Argumentative"
+  },
+  {
+    "word": "coherent",
+    "meaning": "Logical and consistent; easy to understand because well-structured.",
+    "example": "A coherent argument flows naturally from one point to the next.",
+    "category": "Argumentative"
+  },
+  {
+    "word": "plausible",
+    "meaning": "Seeming reasonable or probable; having an appearance of truth.",
+    "example": "The explanation sounded plausible but lacked supporting data.",
+    "category": "Evaluative"
+  },
+  {
+    "word": "speculate",
+    "meaning": "To form a theory or opinion without firm evidence.",
+    "example": "Without further data, we can only speculate about the cause.",
+    "category": "Analytical"
+  },
+  {
+    "word": "advocate",
+    "meaning": "To publicly recommend or support a particular cause or policy.",
+    "example": "She advocates for stronger environmental regulations.",
+    "category": "Argumentative"
+  },
+  {
+    "word": "contend",
+    "meaning": "To assert something as a position in an argument; to maintain firmly.",
+    "example": "The author contends that modern education fails to teach critical thinking.",
+    "category": "Argumentative"
+  },
+  {
+    "word": "postulate",
+    "meaning": "To suggest or assume the existence, fact, or truth of something as a basis for reasoning.",
+    "example": "The economist postulated that lower taxes stimulate growth.",
+    "category": "Argumentative"
+  },
+  {
+    "word": "proposition",
+    "meaning": "A statement that expresses an idea or argument to be considered.",
+    "example": "The proposition that all people are equal before the law is central to democracy.",
+    "category": "Argumentative"
+  },
+  {
+    "word": "thesis",
+    "meaning": "A central claim or argument that an essay or paper aims to prove.",
+    "example": "Her thesis argued that climate change is the defining crisis of our time.",
+    "category": "Argumentative"
+  },
+  {
+    "word": "antithesis",
+    "meaning": "The direct opposite of something; a contrast of opposing ideas.",
+    "example": "Reckless spending is the antithesis of sound financial planning.",
+    "category": "Argumentative"
+  },
+  {
+    "word": "paradox",
+    "meaning": "A statement that seems self-contradictory but may reveal a deeper truth.",
+    "example": "The paradox of choice suggests that more options can lead to less satisfaction.",
+    "category": "Analytical"
+  },
+  {
+    "word": "rhetoric",
+    "meaning": "The art of effective or persuasive speaking or writing.",
+    "example": "Political speeches often rely on powerful rhetoric to move audiences.",
+    "category": "Argumentative"
+  },
+  {
+    "word": "fallacious",
+    "meaning": "Based on a mistaken belief or faulty reasoning; misleading.",
+    "example": "The argument was fallacious because it assumed what it was trying to prove.",
+    "category": "Analytical"
+  },
+  {
+    "word": "pragmatic",
+    "meaning": "Dealing with things sensibly and realistically based on practical considerations.",
+    "example": "A pragmatic approach focuses on what actually works rather than what is ideal.",
+    "category": "Evaluative"
+  },
+  {
+    "word": "empirical",
+    "meaning": "Based on observation or experience rather than theory or pure logic.",
+    "example": "Empirical evidence from clinical trials supports the drug's effectiveness.",
+    "category": "Analytical"
+  },
+  {
+    "word": "abstract",
+    "meaning": "Relating to ideas and concepts rather than concrete, tangible things.",
+    "example": "Justice is an abstract concept that different cultures define differently.",
+    "category": "Analytical"
+  },
+  {
+    "word": "concrete",
+    "meaning": "Specific, definite, and based on facts rather than ideas or feelings.",
+    "example": "Support your argument with concrete examples, not vague statements.",
+    "category": "Argumentative"
+  },
+  {
+    "word": "deductive",
+    "meaning": "Relating to reasoning that moves from general principles to specific conclusions.",
+    "example": "Deductive reasoning helped him narrow down the most likely explanation.",
+    "category": "Analytical"
+  },
+  {
+    "word": "inductive",
+    "meaning": "Relating to reasoning that moves from specific observations to general conclusions.",
+    "example": "Inductive reasoning led scientists to propose the germ theory of disease.",
+    "category": "Analytical"
+  },
+  {
+    "word": "holistic",
+    "meaning": "Characterized by comprehension of the whole system rather than just its parts.",
+    "example": "A holistic analysis considers economic, social, and environmental factors together.",
+    "category": "Analytical"
+  },
+  {
+    "word": "reductive",
+    "meaning": "Tending to oversimplify a complex problem or idea.",
+    "example": "Blaming poverty solely on laziness is a reductive view of a complex issue.",
+    "category": "Evaluative"
+  },
+  {
+    "word": "skepticism",
+    "meaning": "A questioning or doubting attitude toward claims without sufficient evidence.",
+    "example": "Healthy skepticism encourages one to demand proof before accepting a claim.",
+    "category": "Evaluative"
+  },
+  {
+    "word": "interrogate",
+    "meaning": "To question or examine a claim or text closely and critically.",
+    "example": "We must interrogate the assumptions underlying this policy proposal.",
+    "category": "Analytical"
+  },
+  {
+    "word": "deconstruct",
+    "meaning": "To analyze and break down a text or concept by examining its underlying assumptions.",
+    "example": "The philosopher deconstructed the concept of 'freedom' to reveal its contradictions.",
+    "category": "Analytical"
+  },
+  {
+    "word": "illuminate",
+    "meaning": "To make something clearer or easier to understand; to shed light on.",
+    "example": "This example illuminates the flaw in the original argument.",
+    "category": "Analytical"
+  },
+  {
+    "word": "elucidate",
+    "meaning": "To make something clearer by explanation or careful analysis.",
+    "example": "Could you elucidate how you arrived at that conclusion?",
+    "category": "Analytical"
+  },
+  {
+    "word": "undermine",
+    "meaning": "To weaken or damage the effectiveness or force of something.",
+    "example": "A single contradictory fact can undermine an otherwise strong argument.",
+    "category": "Argumentative"
+  },
+  {
+    "word": "reinforce",
+    "meaning": "To strengthen an argument, claim, or idea with additional support.",
+    "example": "The second study reinforces the conclusions of the first.",
+    "category": "Argumentative"
+  },
+  {
+    "word": "acknowledge",
+    "meaning": "To accept or admit the existence or truth of something.",
+    "example": "A fair argument acknowledges the strongest objections to its own position.",
+    "category": "Argumentative"
+  },
+  {
+    "word": "challenge",
+    "meaning": "To question the truth, validity, or legitimacy of something.",
+    "example": "Her essay challenges the conventional wisdom about economic growth.",
+    "category": "Argumentative"
+  },
+  {
+    "word": "dispute",
+    "meaning": "To question or argue against the truth or validity of something.",
+    "example": "Several economists dispute the claim that austerity measures promote growth.",
+    "category": "Argumentative"
+  },
+  {
+    "word": "reconcile",
+    "meaning": "To bring opposing ideas or evidence into agreement or consistency.",
+    "example": "The researcher tried to reconcile contradictory findings from two studies.",
+    "category": "Analytical"
+  },
+  {
+    "word": "prioritize",
+    "meaning": "To designate or treat something as more important than other things.",
+    "example": "Critical thinking requires us to prioritize evidence over emotion.",
+    "category": "Evaluative"
+  },
+  {
+    "word": "weigh",
+    "meaning": "To consider the relative importance or significance of competing ideas or evidence.",
+    "example": "The judge must weigh the evidence carefully before delivering a verdict.",
+    "category": "Evaluative"
+  },
+  {
+    "word": "contextualize",
+    "meaning": "To place an argument or fact within its broader situational or historical setting.",
+    "example": "To understand the data, we must contextualize it within the wider economic crisis.",
+    "category": "Analytical"
+  },
+  {
+    "word": "extrapolate",
+    "meaning": "To extend known data or conclusions into an area not yet directly observed.",
+    "example": "From current trends, we can extrapolate future population growth.",
+    "category": "Analytical"
+  },
+  {
+    "word": "interpolate",
+    "meaning": "To insert an estimated value between known values in a dataset or argument.",
+    "example": "The analyst interpolated missing data points to complete the trend line.",
+    "category": "Analytical"
+  },
+  {
+    "word": "mitigate",
+    "meaning": "To make less severe, serious, or painful; to lessen the impact of.",
+    "example": "Acknowledging limitations in your study helps mitigate criticism.",
+    "category": "Argumentative"
+  },
+  {
+    "word": "exacerbate",
+    "meaning": "To make a problem, bad situation, or feeling worse.",
+    "example": "Poor communication can exacerbate conflict rather than resolve it.",
+    "category": "Evaluative"
+  },
+  {
+    "word": "assert",
+    "meaning": "To state a fact or belief confidently and forcefully.",
+    "example": "The report asserts that mental health is still widely neglected.",
+    "category": "Argumentative"
+  },
+  {
+    "word": "negate",
+    "meaning": "To make ineffective or invalid; to nullify a claim or argument.",
+    "example": "The new data negates the original findings entirely.",
+    "category": "Argumentative"
+  },
+  {
+    "word": "qualify",
+    "meaning": "To make a statement less absolute by adding conditions or reservations.",
+    "example": "He qualified his statement by noting that exceptions exist.",
+    "category": "Argumentative"
+  },
+  {
+    "word": "presuppose",
+    "meaning": "To require something as a precondition; to assume beforehand.",
+    "example": "This argument presupposes that all voters are fully informed.",
+    "category": "Analytical"
+  },
+  {
+    "word": "overstate",
+    "meaning": "To state something too strongly; to exaggerate beyond the truth.",
+    "example": "The headline overstated the risk, causing unnecessary public panic.",
+    "category": "Evaluative"
+  },
+  {
+    "word": "understate",
+    "meaning": "To state something with less force than the facts justify; to downplay.",
+    "example": "Officials understated the severity of the economic downturn.",
+    "category": "Evaluative"
+  },
+  {
+    "word": "illustrate",
+    "meaning": "To make something clear by using examples, charts, or evidence.",
+    "example": "The case study illustrates how theory can break down in practice.",
+    "category": "Argumentative"
+  },
+  {
+    "word": "exemplify",
+    "meaning": "To be a typical or ideal example of something.",
+    "example": "This article exemplifies the kind of sloppy reasoning we must avoid.",
+    "category": "Evaluative"
+  },
+  {
+    "word": "analogize",
+    "meaning": "To draw an analogy between two different things to explain or clarify.",
+    "example": "He analogized the brain to a computer to simplify the explanation.",
+    "category": "Analytical"
+  },
+  {
+    "word": "analogy",
+    "meaning": "A comparison between two things for the purpose of explanation or clarification.",
+    "example": "The analogy between the heart and a pump is useful for teaching biology.",
+    "category": "Analytical"
+  },
+  {
+    "word": "categorize",
+    "meaning": "To place things into groups based on shared characteristics.",
+    "example": "The researcher categorized the responses into three broad themes.",
+    "category": "Analytical"
+  },
+  {
+    "word": "classify",
+    "meaning": "To arrange or organize according to shared qualities or characteristics.",
+    "example": "Scientists classify organisms based on their evolutionary relationships.",
+    "category": "Analytical"
+  },
+  {
+    "word": "benchmark",
+    "meaning": "A standard or point of reference against which things can be measured.",
+    "example": "The report uses international standards as a benchmark for comparison.",
+    "category": "Evaluative"
+  },
+  {
+    "word": "criterion",
+    "meaning": "A principle or standard by which something may be judged or decided.",
+    "example": "The key criterion for selection was demonstrable impact on student learning.",
+    "category": "Evaluative"
+  },
+  {
+    "word": "methodology",
+    "meaning": "A system of methods used in a particular area of study or activity.",
+    "example": "Flaws in the methodology can invalidate an entire study.",
+    "category": "Analytical"
+  },
+  {
+    "word": "inference",
+    "meaning": "A conclusion reached on the basis of evidence and reasoning.",
+    "example": "Drawing inferences from incomplete data requires careful qualification.",
+    "category": "Analytical"
+  },
+  {
+    "word": "objectify",
+    "meaning": "To treat something abstract as a concrete, measurable thing.",
+    "example": "Economists objectify well-being by reducing it to income levels.",
+    "category": "Evaluative"
+  },
+  {
+    "word": "problematic",
+    "meaning": "Presenting a difficulty or challenge; questionable or debatable.",
+    "example": "The study's small sample size makes its conclusions problematic.",
+    "category": "Evaluative"
+  },
+  {
+    "word": "contentious",
+    "meaning": "Causing or likely to cause argument or disagreement; disputed.",
+    "example": "The proposal was highly contentious, dividing experts into two camps.",
+    "category": "Argumentative"
+  },
+  {
+    "word": "tenable",
+    "meaning": "Able to be maintained or defended against objection; reasonable.",
+    "example": "That position is no longer tenable in the light of new evidence.",
+    "category": "Evaluative"
+  },
+  {
+    "word": "untenable",
+    "meaning": "Not able to be maintained or defended; indefensible.",
+    "example": "His argument became untenable once the core premise was disproved.",
+    "category": "Evaluative"
+  },
+  {
+    "word": "cogent",
+    "meaning": "Clear, logical, and convincing; powerfully persuasive.",
+    "example": "She made a cogent case for reforming the healthcare system.",
+    "category": "Argumentative"
+  },
+  {
+    "word": "lucid",
+    "meaning": "Expressed clearly; easy to understand.",
+    "example": "A lucid argument requires precise language and a clear structure.",
+    "category": "Argumentative"
+  },
+  {
+    "word": "rigorous",
+    "meaning": "Extremely thorough and careful; applying strict standards.",
+    "example": "Rigorous analysis demands that you test every assumption.",
+    "category": "Analytical"
+  },
+  {
+    "word": "systematic",
+    "meaning": "Done or acting according to a fixed plan or procedure; methodical.",
+    "example": "A systematic review considers all available evidence on a topic.",
+    "category": "Analytical"
+  },
+  {
+    "word": "appraise",
+    "meaning": "To assess the value, quality, or nature of something carefully.",
+    "example": "The committee will appraise each proposal against set criteria.",
+    "category": "Evaluative"
+  },
+  {
+    "word": "discrepancy",
+    "meaning": "A difference or inconsistency between two or more facts or claims.",
+    "example": "The discrepancy between the two reports raises serious questions.",
+    "category": "Evaluative"
+  },
+  {
+    "word": "anomaly",
+    "meaning": "Something that deviates from what is standard, normal, or expected.",
+    "example": "The anomaly in the data prompted a review of the collection method.",
+    "category": "Analytical"
+  },
+  {
+    "word": "inconsistency",
+    "meaning": "The fact of having parts that are contradictory or do not match.",
+    "example": "The inconsistency in his testimony damaged his credibility.",
+    "category": "Evaluative"
+  },
+  {
+    "word": "delineate",
+    "meaning": "To describe or indicate something precisely; to outline clearly.",
+    "example": "The report delineates the key risks associated with the policy.",
+    "category": "Analytical"
+  },
+  {
+    "word": "articulate",
+    "meaning": "To express an idea or feeling clearly and effectively in words.",
+    "example": "A good writer can articulate complex ideas in simple, clear language.",
+    "category": "Argumentative"
+  },
+  {
+    "word": "qualify",
+    "meaning": "To add conditions or reservations to a claim to make it more precise.",
+    "example": "She qualified her initial statement with several important exceptions.",
+    "category": "Argumentative"
+  },
+  {
+    "word": "unpack",
+    "meaning": "To explain or analyze the layers of meaning in a complex idea or argument.",
+    "example": "Let us unpack the assumptions embedded in this argument.",
+    "category": "Analytical"
+  },
+  {
+    "word": "probe",
+    "meaning": "To investigate or examine a subject thoroughly and critically.",
+    "example": "The journalist probed deeper into the government's financial records.",
+    "category": "Analytical"
+  },
+  {
+    "word": "interrogate",
+    "meaning": "To examine critically; to question the assumptions behind a claim or text.",
+    "example": "We must interrogate the data rather than accept it uncritically.",
+    "category": "Analytical"
+  },
+  {
+    "word": "contention",
+    "meaning": "A point of view put forward in an argument; a position one defends.",
+    "example": "Her central contention is that poverty is a policy choice, not an inevitability.",
+    "category": "Argumentative"
+  },
+  {
+    "word": "dialectic",
+    "meaning": "A method of argument for resolving disagreement through reasoned discussion.",
+    "example": "The dialectic between tradition and innovation drives intellectual progress.",
+    "category": "Analytical"
+  },
+  {
+    "word": "stipulate",
+    "meaning": "To demand or specify something as a condition of an argument or agreement.",
+    "example": "The author stipulates that freedom must be balanced with responsibility.",
+    "category": "Argumentative"
+  },
+  {
+    "word": "caveat emptor",
+    "meaning": "A warning that the buyer or reader must beware and exercise judgment.",
+    "example": "With so little verified data, caveat emptor should guide any reader of this report.",
+    "category": "Evaluative"
+  },
+  {
+    "word": "epistemic",
+    "meaning": "Relating to knowledge or the degree of its validation.",
+    "example": "Epistemic humility means recognizing the limits of what we can know.",
+    "category": "Analytical"
+  },
+  {
+    "word": "intrinsic",
+    "meaning": "Belonging naturally; essential and fundamental to the nature of something.",
+    "example": "Critical thinking is intrinsic to good academic performance.",
+    "category": "Analytical"
+  },
+  {
+    "word": "extrinsic",
+    "meaning": "Coming from outside; not inherent in the thing being discussed.",
+    "example": "Extrinsic factors like funding can influence the outcome of research.",
+    "category": "Analytical"
+  },
+  {
+    "word": "implicit",
+    "meaning": "Suggested but not directly expressed; present but not stated clearly.",
+    "example": "The argument has an implicit assumption that readers share the author's values.",
+    "category": "Analytical"
+  },
+  {
+    "word": "explicit",
+    "meaning": "Stated clearly and in detail, leaving no room for confusion or doubt.",
+    "example": "Make your thesis statement explicit at the start of your essay.",
+    "category": "Argumentative"
+  },
+  {
+    "word": "pertinent",
+    "meaning": "Relevant or applicable to a particular matter; to the point.",
+    "example": "Only cite evidence that is pertinent to the argument you are making.",
+    "category": "Evaluative"
+  },
+  {
+    "word": "salient",
+    "meaning": "Most noticeable or important; standing out prominently.",
+    "example": "The most salient point in the report was the rising rate of youth unemployment.",
+    "category": "Evaluative"
+  },
+  {
+    "word": "superfluous",
+    "meaning": "Unnecessary, especially through being more than enough.",
+    "example": "The additional paragraphs were superfluous and weakened the essay's focus.",
+    "category": "Evaluative"
+  },
+  {
+    "word": "tangential",
+    "meaning": "Only slightly connected to the main topic; not directly relevant.",
+    "example": "His comments on the history of the city were tangential to the policy debate.",
+    "category": "Evaluative"
+  },
+  {
+    "word": "circumspect",
+    "meaning": "Wary and unwilling to take risks; careful to consider all circumstances.",
+    "example": "A circumspect thinker does not rush to conclusions without sufficient evidence.",
+    "category": "Evaluative"
+  },
+  {
+    "word": "circumvent",
+    "meaning": "To find a way around an obstacle or to avoid dealing with it directly.",
+    "example": "The argument attempts to circumvent the need for empirical evidence.",
+    "category": "Argumentative"
+  },
+  {
+    "word": "conflate",
+    "meaning": "To combine or confuse two or more different things erroneously.",
+    "example": "It is a mistake to conflate correlation with causation.",
+    "category": "Analytical"
+  },
+  {
+    "word": "propagate",
+    "meaning": "To spread ideas, information, or beliefs widely.",
+    "example": "Social media can propagate misinformation at unprecedented speed.",
+    "category": "Evaluative"
+  },
+  {
+    "word": "repudiate",
+    "meaning": "To refuse to accept or be associated with something; to deny firmly.",
+    "example": "She repudiated the claim that her research was biased.",
+    "category": "Argumentative"
+  },
+  {
+    "word": "recapitulate",
+    "meaning": "To summarize and restate the main points of an argument.",
+    "example": "In the conclusion, the author recapitulates the essay's key findings.",
+    "category": "Argumentative"
+  }
+]

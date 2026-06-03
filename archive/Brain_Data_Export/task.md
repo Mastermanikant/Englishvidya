@@ -1,0 +1,4 @@
+- [x] Implement collapsible "Connect with Us" card in `index.html` inside the accordion
+- [x] Add "Developed and Designed by Master Manikant" credit line to `index.html` footer bottom
+- [x] Add premium styles for credit link, organized social grid, and glassmorphic card enhancements to `style.css`
+- [x] Verify visual animations, toggles, and layout alignment

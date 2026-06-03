@@ -1,0 +1,28 @@
+{
+    "slug": "part-1",
+    "title": "15 ()",
+    "part": 1,
+    "categories": [
+        {
+            "id": "cat_core_foundation",
+            "name": "Core grammar foundation already completed earlier:",
+            "intro": [
+                "alphabet",
+                "vowel/consonant",
+                "word",
+                "sentence",
+                "phrase",
+                "clause",
+                "subject/predicate",
+                "parts of speech introduction",
+                "etc."
+            ],
+            "examples": []
+        },
+        {
+            "id": "cat_advanced_system",
+            "name": "Advanced System Completed",
+            "examples": []
+        }
+    ]
+}

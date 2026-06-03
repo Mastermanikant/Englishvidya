@@ -1,0 +1,49 @@
+﻿[
+    {
+        "word":  "Fever",
+        "hindi_meaning":  "बुखार",
+        "pronunciation_help":  "Fee-ver",
+        "word_type":  "Noun",
+        "simple_explanation":  "A high body temperature usually caused by sickness.",
+        "daily_life_use":  "Common when someone catches an infection or a cold.",
+        "spoken_use":  "I have a fever today.",
+        "natural_native_use":  "I\u0027m running a fever.",
+        "emotional_tone":  "Tired, sick",
+        "common_collocations":  [
+                                    "high fever",
+                                    "mild fever",
+                                    "running a fever"
+                                ],
+        "examples":  [
+                         "He didn\u0027t go to school because of a fever.",
+                         "Her fever finally broke."
+                     ],
+        "common_mistakes":  "Saying \u0027I am fever\u0027 instead of \u0027I have a fever\u0027.",
+        "hindi_confusion_correction":  "Use \u0027have a fever\u0027, not \u0027fever is coming to me\u0027 (बुखार आ रहा है).",
+        "formal_informal_note":  "Used formally and informally.",
+        "image_url":  "https://upload.wikimedia.org/wikipedia/commons/1/1b/Thermometer.jpg"
+    },
+    {
+        "word":  "Cough",
+        "hindi_meaning":  "खांसी",
+        "pronunciation_help":  "Koff",
+        "word_type":  "Noun / Verb",
+        "simple_explanation":  "Expelling air from the lungs suddenly and loudly.",
+        "daily_life_use":  "Occurs with throat irritation.",
+        "spoken_use":  "I have a cough.",
+        "natural_native_use":  "I can\u0027t stop coughing.",
+        "emotional_tone":  "Irritated",
+        "common_collocations":  [
+                                    "dry cough",
+                                    "bad cough"
+                                ],
+        "examples":  [
+                         "She is coughing a lot.",
+                         "Cover your mouth when you cough."
+                     ],
+        "common_mistakes":  "Pronouncing as \u0027cow\u0027.",
+        "hindi_confusion_correction":  "Say \u0027I have a cough\u0027 not \u0027I have cough\u0027.",
+        "formal_informal_note":  "Standard",
+        "image_url":  "https://upload.wikimedia.org/wikipedia/commons/e/e0/Coughing.jpg"
+    }
+]

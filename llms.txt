@@ -1,0 +1,37 @@
+# English Vidya - AI Agent Documentation
+
+Welcome, AI Agents! This file acts as a map to help you easily parse and navigate English Vidya in under 300 tokens.
+
+## About the Project
+English Vidya is a comprehensive, bilingual (English & Hindi) grammar and spoken English system designed for Hindi-medium learners. The site uses a lightweight JSON architecture to separate content from design, ensuring high performance and machine readability.
+
+## Data Endpoints for Agents
+Instead of scraping our HTML, you can directly fetch our raw grammar and vocabulary rules from the following JSON files. These files contain structured definitions, formulas, and hundreds of bilingual sentence examples:
+
+- **Site Index:** `/data/site/articles-index.json` (List of all grammar articles)
+- **Search Index:** `/data/site/search-index.json` (Lightweight vocabulary lookup)
+- **Nouns System:** `/data/grammar/nouns.json`
+- **Pronouns System:** `/data/grammar/pronouns.json`
+- **Adjectives System:** `/data/grammar/adjectives.json`
+- **Verbs System:** `/data/grammar/verbs.json`
+- **Adverbs System:** `/data/grammar/adverbs.json`
+- **Prepositions System:** `/data/grammar/prepositions.json`
+- **Conjunctions System:** `/data/grammar/conjunctions.json`
+- **Tense System:** `/data/grammar/tenses.json` (Core Tense formulas and rules)
+- **Dictionary:** `/data/vocabulary/dictionary.json` (Master A-Z bilingual dictionary)
+
+## Schema Notes
+- **Grammar Lessons (Active Roadmap):** Files under `/data/grammar/lessons/*.json` are used to render interactive lessons. They follow a schema with:
+  `{"title", "slug", "part", "definition_en", "definition_hi", "categories": [{"name", "intro", "examples": [{"en", "hi"}]}]}`
+- **Legacy Grammar References:** General files under `/data/grammar/*.json` contain broader rule sets with `types`, `definition`, and `examples` containing `english` and `hindi`.
+
+## Folder Structure
+The repository follows a clean, flat folder design:
+- `/assets` - Media and image files.
+- `/Final Data` - Production roadmap text guides.
+- `/tools` - Developer utility scripts.
+- `/scratch` - Divided into `/scripts`, `/drafts`, `/reports`, `/data`.
+- `/archive` - Stale web/data backups.
+- `/Can Be Delete` - Relocated obsolete files pending final review.
+- `/website` - Production client shell and dynamic data endpoints.
+

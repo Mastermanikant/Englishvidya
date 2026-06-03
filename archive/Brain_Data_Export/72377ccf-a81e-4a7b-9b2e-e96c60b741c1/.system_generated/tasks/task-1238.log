@@ -1,0 +1,115 @@
+Reading JSON data...
+The property 'examples' cannot be found on this object. Verify that the property exists and can be set.
+At D:\English Vidya\scratch\extract_pronouns.ps1:77 char:17
++ ...             $currentItem.examples += [ordered]@{ english = $matches[1 ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'examples' cannot be found on this object. Verify that the property exists and can be set.
+At D:\English Vidya\scratch\extract_pronouns.ps1:77 char:17
++ ...             $currentItem.examples += [ordered]@{ english = $matches[1 ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'examples' cannot be found on this object. Verify that the property exists and can be set.
+At D:\English Vidya\scratch\extract_pronouns.ps1:77 char:17
++ ...             $currentItem.examples += [ordered]@{ english = $matches[1 ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'examples' cannot be found on this object. Verify that the property exists and can be set.
+At D:\English Vidya\scratch\extract_pronouns.ps1:77 char:17
++ ...             $currentItem.examples += [ordered]@{ english = $matches[1 ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'examples' cannot be found on this object. Verify that the property exists and can be set.
+At D:\English Vidya\scratch\extract_pronouns.ps1:77 char:17
++ ...             $currentItem.examples += [ordered]@{ english = $matches[1 ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'examples' cannot be found on this object. Verify that the property exists and can be set.
+At D:\English Vidya\scratch\extract_pronouns.ps1:77 char:17
++ ...             $currentItem.examples += [ordered]@{ english = $matches[1 ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'examples' cannot be found on this object. Verify that the property exists and can be set.
+At D:\English Vidya\scratch\extract_pronouns.ps1:77 char:17
++ ...             $currentItem.examples += [ordered]@{ english = $matches[1 ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'examples' cannot be found on this object. Verify that the property exists and can be set.
+At D:\English Vidya\scratch\extract_pronouns.ps1:77 char:17
++ ...             $currentItem.examples += [ordered]@{ english = $matches[1 ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'examples' cannot be found on this object. Verify that the property exists and can be set.
+At D:\English Vidya\scratch\extract_pronouns.ps1:77 char:17
++ ...             $currentItem.examples += [ordered]@{ english = $matches[1 ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'examples' cannot be found on this object. Verify that the property exists and can be set.
+At D:\English Vidya\scratch\extract_pronouns.ps1:77 char:17
++ ...             $currentItem.examples += [ordered]@{ english = $matches[1 ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'examples' cannot be found on this object. Verify that the property exists and can be set.
+At D:\English Vidya\scratch\extract_pronouns.ps1:77 char:17
++ ...             $currentItem.examples += [ordered]@{ english = $matches[1 ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'examples' cannot be found on this object. Verify that the property exists and can be set.
+At D:\English Vidya\scratch\extract_pronouns.ps1:77 char:17
++ ...             $currentItem.examples += [ordered]@{ english = $matches[1 ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'examples' cannot be found on this object. Verify that the property exists and can be set.
+At D:\English Vidya\scratch\extract_pronouns.ps1:77 char:17
++ ...             $currentItem.examples += [ordered]@{ english = $matches[1 ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'examples' cannot be found on this object. Verify that the property exists and can be set.
+At D:\English Vidya\scratch\extract_pronouns.ps1:79 char:17
++ ...             $currentItem.examples += [ordered]@{ english = $text; hin ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'examples' cannot be found on this object. Verify that the property exists and can be set.
+At D:\English Vidya\scratch\extract_pronouns.ps1:77 char:17
++ ...             $currentItem.examples += [ordered]@{ english = $matches[1 ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+The property 'examples' cannot be found on this object. Verify that the property exists and can be set.
+At D:\English Vidya\scratch\extract_pronouns.ps1:77 char:17
++ ...             $currentItem.examples += [ordered]@{ english = $matches[1 ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+ 
+Extraction complete. Writing to JSON...
+Done! Saved to d:\English Vidya\website\data\grammar\pronouns.json

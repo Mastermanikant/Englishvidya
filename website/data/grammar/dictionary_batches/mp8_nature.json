@@ -1,0 +1,722 @@
+[
+  {
+    "word": "Lion",
+    "pos": "noun",
+    "meaning": "शेर",
+    "meaning_en": "A large wild cat",
+    "example": "The lion is sleeping under the tree.",
+    "example_hi": "शेर पेड़ के नीचे सो रहा है।"
+  },
+  {
+    "word": "Tiger",
+    "pos": "noun",
+    "meaning": "बाघ",
+    "meaning_en": "A large wild animal of the cat family with yellowish-orange fur and dark stripes",
+    "example": "We saw a tiger in the national park.",
+    "example_hi": "हमने राष्ट्रीय उद्यान में एक बाघ देखा।"
+  },
+  {
+    "word": "Elephant",
+    "pos": "noun",
+    "meaning": "हाथी",
+    "meaning_en": "A very large animal with a long trunk",
+    "example": "Elephants are very intelligent animals.",
+    "example_hi": "हाथी बहुत बुद्धिमान जानवर होते हैं।"
+  },
+  {
+    "word": "Dog",
+    "pos": "noun",
+    "meaning": "कुत्ता",
+    "meaning_en": "A common animal with four legs, kept as a pet or for hunting",
+    "example": "My dog barks at strangers.",
+    "example_hi": "मेरा कुत्ता अजनबियों पर भौंकता है।"
+  },
+  {
+    "word": "Cat",
+    "pos": "noun",
+    "meaning": "बिल्ली",
+    "meaning_en": "A small animal with soft fur, kept as a pet",
+    "example": "The cat is drinking milk.",
+    "example_hi": "बिल्ली दूध पी रही है।"
+  },
+  {
+    "word": "Horse",
+    "pos": "noun",
+    "meaning": "घोड़ा",
+    "meaning_en": "A large animal with four legs, used for riding",
+    "example": "He rides his horse every morning.",
+    "example_hi": "वह हर सुबह अपने घोड़े की सवारी करता है।"
+  },
+  {
+    "word": "Cow",
+    "pos": "noun",
+    "meaning": "गाय",
+    "meaning_en": "A large female animal kept on farms to produce milk or beef",
+    "example": "The cow gives us milk.",
+    "example_hi": "गाय हमें दूध देती है।"
+  },
+  {
+    "word": "Monkey",
+    "pos": "noun",
+    "meaning": "बंदर",
+    "meaning_en": "An animal with a long tail that climbs trees",
+    "example": "The monkey is jumping on the roof.",
+    "example_hi": "बंदर छत पर कूद रहा है।"
+  },
+  {
+    "word": "Deer",
+    "pos": "noun",
+    "meaning": "हिरण",
+    "meaning_en": "A grass-eating animal that can run very fast",
+    "example": "A deer was running in the forest.",
+    "example_hi": "जंगल में एक हिरण दौड़ रहा था।"
+  },
+  {
+    "word": "Bear",
+    "pos": "noun",
+    "meaning": "भालू",
+    "meaning_en": "A large, heavy wild animal with thick fur",
+    "example": "The bear is eating honey.",
+    "example_hi": "भालू शहद खा रहा है।"
+  },
+  {
+    "word": "Fox",
+    "pos": "noun",
+    "meaning": "लोमड़ी",
+    "meaning_en": "A wild animal like a dog with a thick tail",
+    "example": "The fox is very clever.",
+    "example_hi": "लोमड़ी बहुत चालाक होती है।"
+  },
+  {
+    "word": "Wolf",
+    "pos": "noun",
+    "meaning": "भेड़िया",
+    "meaning_en": "A wild animal of the dog family",
+    "example": "The wolf howled at the moon.",
+    "example_hi": "भेड़िये ने चाँद को देखकर आवाज़ लगाई।"
+  },
+  {
+    "word": "Rabbit",
+    "pos": "noun",
+    "meaning": "खरगोश",
+    "meaning_en": "A small animal with long ears and soft fur",
+    "example": "The rabbit is eating a carrot.",
+    "example_hi": "खरगोश गाजर खा रहा है।"
+  },
+  {
+    "word": "Snake",
+    "pos": "noun",
+    "meaning": "साँप",
+    "meaning_en": "A long, thin reptile without legs",
+    "example": "I saw a snake in the garden.",
+    "example_hi": "मैंने बगीचे में एक साँप देखा।"
+  },
+  {
+    "word": "Crocodile",
+    "pos": "noun",
+    "meaning": "मगरमच्छ",
+    "meaning_en": "A large reptile with a long tail and big teeth",
+    "example": "A crocodile lives in the river.",
+    "example_hi": "मगरमच्छ नदी में रहता है।"
+  },
+  {
+    "word": "Frog",
+    "pos": "noun",
+    "meaning": "मेंढक",
+    "meaning_en": "A small animal that has smooth skin and lives in water and on land",
+    "example": "The frog jumped into the pond.",
+    "example_hi": "मेंढक तालाब में कूद गया।"
+  },
+  {
+    "word": "Turtle",
+    "pos": "noun",
+    "meaning": "कछुआ",
+    "meaning_en": "An animal with a hard shell on its back",
+    "example": "The turtle walks very slowly.",
+    "example_hi": "कछुआ बहुत धीरे चलता है।"
+  },
+  {
+    "word": "Fish",
+    "pos": "noun",
+    "meaning": "मछली",
+    "meaning_en": "An animal that lives in water",
+    "example": "We have colorful fish in our aquarium.",
+    "example_hi": "हमारे एक्वेरियम में रंग-बिरंगी मछलियाँ हैं।"
+  },
+  {
+    "word": "Mouse",
+    "pos": "noun",
+    "meaning": "चूहा",
+    "meaning_en": "A small animal with a long tail",
+    "example": "The mouse ran into the hole.",
+    "example_hi": "चूहा बिल में भाग गया।"
+  },
+  {
+    "word": "Squirrel",
+    "pos": "noun",
+    "meaning": "गिलहरी",
+    "meaning_en": "A small animal with a bushy tail that climbs trees",
+    "example": "The squirrel is eating nuts.",
+    "example_hi": "गिलहरी अखरोट खा रही है।"
+  },
+  {
+    "word": "Bird",
+    "pos": "noun",
+    "meaning": "पक्षी",
+    "meaning_en": "An animal with wings and feathers",
+    "example": "A bird is singing on the tree.",
+    "example_hi": "पेड़ पर एक पक्षी गा रहा है।"
+  },
+  {
+    "word": "Eagle",
+    "pos": "noun",
+    "meaning": "चील",
+    "meaning_en": "A large strong bird with a sharp beak",
+    "example": "An eagle can fly very high.",
+    "example_hi": "चील बहुत ऊँचा उड़ सकती है।"
+  },
+  {
+    "word": "Parrot",
+    "pos": "noun",
+    "meaning": "तोता",
+    "meaning_en": "A bird with colorful feathers that can copy human speech",
+    "example": "My parrot can say 'Hello'.",
+    "example_hi": "मेरा तोता 'नमस्ते' कह सकता है।"
+  },
+  {
+    "word": "Pigeon",
+    "pos": "noun",
+    "meaning": "कबूतर",
+    "meaning_en": "A fat bird that lives in cities",
+    "example": "There are many pigeons on the roof.",
+    "example_hi": "छत पर कई कबूतर हैं।"
+  },
+  {
+    "word": "Crow",
+    "pos": "noun",
+    "meaning": "कौवा",
+    "meaning_en": "A large black bird",
+    "example": "A crow is sitting on the wall.",
+    "example_hi": "दीवार पर एक कौवा बैठा है।"
+  },
+  {
+    "word": "Peacock",
+    "pos": "noun",
+    "meaning": "मोर",
+    "meaning_en": "A large bird with beautiful long tail feathers",
+    "example": "The peacock is dancing in the rain.",
+    "example_hi": "मोर बारिश में नाच रहा है।"
+  },
+  {
+    "word": "Swan",
+    "pos": "noun",
+    "meaning": "हंस",
+    "meaning_en": "A large white bird with a long neck",
+    "example": "The swan is swimming in the lake.",
+    "example_hi": "हंस झील में तैर रहा है।"
+  },
+  {
+    "word": "Owl",
+    "pos": "noun",
+    "meaning": "उल्लू",
+    "meaning_en": "A bird with large eyes that hunts at night",
+    "example": "An owl can see in the dark.",
+    "example_hi": "उल्लू अँधेरे में देख सकता है।"
+  },
+  {
+    "word": "Sparrow",
+    "pos": "noun",
+    "meaning": "गौरैया",
+    "meaning_en": "A small brown bird",
+    "example": "A sparrow built a nest in our window.",
+    "example_hi": "एक गौरैया ने हमारी खिड़की में घोंसला बनाया।"
+  },
+  {
+    "word": "Duck",
+    "pos": "noun",
+    "meaning": "बत्तख",
+    "meaning_en": "A bird that lives by water and has short legs",
+    "example": "The ducks are quacking in the pond.",
+    "example_hi": "बत्तखें तालाब में शोर कर रही हैं।"
+  },
+  {
+    "word": "Penguin",
+    "pos": "noun",
+    "meaning": "पेंग्विन",
+    "meaning_en": "A black and white bird that cannot fly but uses its wings for swimming",
+    "example": "Penguins live in very cold places.",
+    "example_hi": "पेंग्विन बहुत ठंडी जगहों पर रहते हैं।"
+  },
+  {
+    "word": "Ostrich",
+    "pos": "noun",
+    "meaning": "शुतुरमुर्ग",
+    "meaning_en": "A very large African bird that cannot fly but can run very fast",
+    "example": "The ostrich is the largest bird in the world.",
+    "example_hi": "शुतुरमुर्ग दुनिया का सबसे बड़ा पक्षी है।"
+  },
+  {
+    "word": "Woodpecker",
+    "pos": "noun",
+    "meaning": "कठफोड़वा",
+    "meaning_en": "A bird that uses its strong beak to make holes in tree trunks",
+    "example": "I can hear a woodpecker on the tree.",
+    "example_hi": "मैं पेड़ पर एक कठफोड़वे की आवाज़ सुन सकता हूँ।"
+  },
+  {
+    "word": "Cuckoo",
+    "pos": "noun",
+    "meaning": "कोयल",
+    "meaning_en": "A bird with a sweet voice",
+    "example": "The cuckoo is singing sweetly.",
+    "example_hi": "कोयल मीठा गा रही है।"
+  },
+  {
+    "word": "Vulture",
+    "pos": "noun",
+    "meaning": "गिद्ध",
+    "meaning_en": "A large bird that eats dead animals",
+    "example": "Vultures were flying high in the sky.",
+    "example_hi": "गिद्ध आसमान में बहुत ऊँचाई पर उड़ रहे थे।"
+  },
+  {
+    "word": "Tree",
+    "pos": "noun",
+    "meaning": "पेड़",
+    "meaning_en": "A tall plant with a wooden trunk and branches",
+    "example": "This mango tree is very old.",
+    "example_hi": "यह आम का पेड़ बहुत पुराना है।"
+  },
+  {
+    "word": "Forest",
+    "pos": "noun",
+    "meaning": "जंगल",
+    "meaning_en": "A large area covered with trees",
+    "example": "Many wild animals live in the forest.",
+    "example_hi": "जंगल में कई जंगली जानवर रहते हैं।"
+  },
+  {
+    "word": "River",
+    "pos": "noun",
+    "meaning": "नदी",
+    "meaning_en": "A large natural flow of water",
+    "example": "The Ganga is a holy river.",
+    "example_hi": "गंगा एक पवित्र नदी है।"
+  },
+  {
+    "word": "Mountain",
+    "pos": "noun",
+    "meaning": "पहाड़",
+    "meaning_en": "A very high hill",
+    "example": "The Himalayas are very high mountains.",
+    "example_hi": "हिमालय बहुत ऊँचे पहाड़ हैं।"
+  },
+  {
+    "word": "Ocean",
+    "pos": "noun",
+    "meaning": "महासागर",
+    "meaning_en": "A very large area of sea",
+    "example": "The Pacific Ocean is the largest ocean.",
+    "example_hi": "प्रशांत महासागर सबसे बड़ा महासागर है।"
+  },
+  {
+    "word": "Sea",
+    "pos": "noun",
+    "meaning": "समुद्र",
+    "meaning_en": "The salty water that covers a large part of the Earth",
+    "example": "We love swimming in the sea.",
+    "example_hi": "हमें समुद्र में तैरना पसंद है।"
+  },
+  {
+    "word": "Sky",
+    "pos": "noun",
+    "meaning": "आसमान",
+    "meaning_en": "The space above the Earth",
+    "example": "The sky is clear today.",
+    "example_hi": "आज आसमान साफ है।"
+  },
+  {
+    "word": "Cloud",
+    "pos": "noun",
+    "meaning": "बादल",
+    "meaning_en": "A white or grey mass in the sky",
+    "example": "Dark clouds are gathering in the sky.",
+    "example_hi": "आसमान में काले बादल छा रहे हैं।"
+  },
+  {
+    "word": "Rain",
+    "pos": "noun",
+    "meaning": "बारिश",
+    "meaning_en": "Water falling from clouds",
+    "example": "I love the smell of the earth after rain.",
+    "example_hi": "मुझे बारिश के बाद मिट्टी की खुशबू बहुत पसंद है।"
+  },
+  {
+    "word": "Sun",
+    "pos": "noun",
+    "meaning": "सूरज",
+    "meaning_en": "The star that gives light and heat to the Earth",
+    "example": "The sun rises in the east.",
+    "example_hi": "सूरज पूर्व में उगता है।"
+  },
+  {
+    "word": "Moon",
+    "pos": "noun",
+    "meaning": "चाँद",
+    "meaning_en": "The round object that shines in the sky at night",
+    "example": "The moon is shining brightly.",
+    "example_hi": "चाँद चमक रहा है।"
+  },
+  {
+    "word": "Star",
+    "pos": "noun",
+    "meaning": "तारा",
+    "meaning_en": "A small shining point in the night sky",
+    "example": "There are millions of stars in the sky.",
+    "example_hi": "आसमान में लाखों तारे हैं।"
+  },
+  {
+    "word": "Wind",
+    "pos": "noun",
+    "meaning": "हवा",
+    "meaning_en": "Moving air",
+    "example": "A strong wind is blowing.",
+    "example_hi": "तेज़ हवा चल रही है।"
+  },
+  {
+    "word": "Earth",
+    "pos": "noun",
+    "meaning": "धरती",
+    "meaning_en": "The planet we live on",
+    "example": "The Earth is round.",
+    "example_hi": "धरती गोल है।"
+  },
+  {
+    "word": "Soil",
+    "pos": "noun",
+    "meaning": "मिट्टी",
+    "meaning_en": "The top layer of earth where plants grow",
+    "example": "Plants need good soil to grow well.",
+    "example_hi": "पौधों को अच्छे से बढ़ने के लिए अच्छी मिट्टी की ज़रूरत होती है।"
+  },
+  {
+    "word": "Rock",
+    "pos": "noun",
+    "meaning": "चट्टान",
+    "meaning_en": "A large piece of stone",
+    "example": "He sat on a large rock.",
+    "example_hi": "वह एक बड़ी चट्टान पर बैठ गया।"
+  },
+  {
+    "word": "Leaf",
+    "pos": "noun",
+    "meaning": "पत्ता",
+    "meaning_en": "A flat green part of a plant or tree",
+    "example": "Dry leaves fall from trees in autumn.",
+    "example_hi": "पतझड़ में पेड़ों से सूखे पत्ते गिरते हैं।"
+  },
+  {
+    "word": "Flower",
+    "pos": "noun",
+    "meaning": "फूल",
+    "meaning_en": "The colored part of a plant from which seeds grow",
+    "example": "This red flower is very beautiful.",
+    "example_hi": "यह लाल फूल बहुत सुंदर है।"
+  },
+  {
+    "word": "Grass",
+    "pos": "noun",
+    "meaning": "घास",
+    "meaning_en": "A common green plant covering fields and parks",
+    "example": "The grass is wet with dew.",
+    "example_hi": "घास ओस से गीली है।"
+  },
+  {
+    "word": "Plant",
+    "pos": "noun",
+    "meaning": "पौधा",
+    "meaning_en": "A living thing that grows in the earth",
+    "example": "I water the plants every day.",
+    "example_hi": "मैं रोज़ पौधों को पानी देता हूँ।"
+  },
+  {
+    "word": "Seed",
+    "pos": "noun",
+    "meaning": "बीज",
+    "meaning_en": "The small hard part of a plant from which a new plant can grow",
+    "example": "Sow the seeds in the garden.",
+    "example_hi": "बगीचे में बीज बो दें।"
+  },
+  {
+    "word": "Root",
+    "pos": "noun",
+    "meaning": "जड़",
+    "meaning_en": "The part of a plant that grows under the ground",
+    "example": "The roots absorb water from the soil.",
+    "example_hi": "जड़ें मिट्टी से पानी सोखती हैं।"
+  },
+  {
+    "word": "Branch",
+    "pos": "noun",
+    "meaning": "शाखा",
+    "meaning_en": "A part of a tree that grows out from the trunk",
+    "example": "A monkey is sitting on a branch.",
+    "example_hi": "एक बंदर शाखा पर बैठा है।"
+  },
+  {
+    "word": "Valley",
+    "pos": "noun",
+    "meaning": "घाटी",
+    "meaning_en": "An area of low land between mountains",
+    "example": "The village is situated in a beautiful valley.",
+    "example_hi": "गाँव एक खूबसूरत घाटी में स्थित है।"
+  },
+  {
+    "word": "Cave",
+    "pos": "noun",
+    "meaning": "गुफा",
+    "meaning_en": "A large hole in the side of a hill or under the ground",
+    "example": "Bears sleep in caves during winter.",
+    "example_hi": "भालू सर्दियों में गुफाओं में सोते हैं।"
+  },
+  {
+    "word": "Waterfall",
+    "pos": "noun",
+    "meaning": "झरना",
+    "meaning_en": "Water flowing over a steep drop",
+    "example": "We saw a beautiful waterfall in the mountains.",
+    "example_hi": "हमने पहाड़ों में एक खूबसूरत झरना देखा।"
+  },
+  {
+    "word": "Lake",
+    "pos": "noun",
+    "meaning": "झील",
+    "meaning_en": "A large area of water surrounded by land",
+    "example": "We went boating on the lake.",
+    "example_hi": "हम झील पर नाव चलाने गए।"
+  },
+  {
+    "word": "Desert",
+    "pos": "noun",
+    "meaning": "रेगिस्तान",
+    "meaning_en": "A large dry area of land with very few plants",
+    "example": "Camels are used to travel in the desert.",
+    "example_hi": "रेगिस्तान में यात्रा करने के लिए ऊंटों का इस्तेमाल किया जाता है।"
+  },
+  {
+    "word": "Island",
+    "pos": "noun",
+    "meaning": "द्वीप",
+    "meaning_en": "A piece of land surrounded by water",
+    "example": "They spent their holiday on an island.",
+    "example_hi": "उन्होंने अपनी छुट्टियाँ एक द्वीप पर बिताईं।"
+  },
+  {
+    "word": "Beach",
+    "pos": "noun",
+    "meaning": "समुद्र तट",
+    "meaning_en": "An area of sand or small stones near the sea",
+    "example": "Children were playing on the beach.",
+    "example_hi": "बच्चे समुद्र तट पर खेल रहे थे।"
+  },
+  {
+    "word": "Environment",
+    "pos": "noun",
+    "meaning": "पर्यावरण",
+    "meaning_en": "The air, water, and land in or on which people, animals, and plants live",
+    "example": "We must protect our environment.",
+    "example_hi": "हमें अपने पर्यावरण की रक्षा करनी चाहिए।"
+  },
+  {
+    "word": "Weather",
+    "pos": "noun",
+    "meaning": "मौसम",
+    "meaning_en": "The conditions in the air above the earth such as wind, rain, or temperature",
+    "example": "The weather is very pleasant today.",
+    "example_hi": "आज मौसम बहुत सुहावना है।"
+  },
+  {
+    "word": "Climate",
+    "pos": "noun",
+    "meaning": "जलवायु",
+    "meaning_en": "The general weather conditions of a place",
+    "example": "India has a tropical climate.",
+    "example_hi": "भारत की जलवायु उष्णकटिबंधीय है।"
+  },
+  {
+    "word": "Season",
+    "pos": "noun",
+    "meaning": "ऋतु",
+    "meaning_en": "One of the four periods of the year (spring, summer, autumn, winter)",
+    "example": "Which is your favorite season?",
+    "example_hi": "तुम्हारी पसंदीदा ऋतु कौन सी है?"
+  },
+  {
+    "word": "Spring",
+    "pos": "noun",
+    "meaning": "वसंत",
+    "meaning_en": "The season between winter and summer",
+    "example": "Flowers bloom in the spring.",
+    "example_hi": "वसंत ऋतु में फूल खिलते हैं।"
+  },
+  {
+    "word": "Summer",
+    "pos": "noun",
+    "meaning": "गर्मी",
+    "meaning_en": "The hottest season of the year",
+    "example": "We eat a lot of ice cream in summer.",
+    "example_hi": "हम गर्मियों में बहुत सारी आइसक्रीम खाते हैं।"
+  },
+  {
+    "word": "Autumn",
+    "pos": "noun",
+    "meaning": "पतझड़",
+    "meaning_en": "The season when leaves fall from trees",
+    "example": "The leaves turn yellow in autumn.",
+    "example_hi": "पतझड़ में पत्ते पीले हो जाते हैं।"
+  },
+  {
+    "word": "Winter",
+    "pos": "noun",
+    "meaning": "सर्दी",
+    "meaning_en": "The coldest season of the year",
+    "example": "We wear warm clothes in winter.",
+    "example_hi": "हम सर्दियों में गर्म कपड़े पहनते हैं।"
+  },
+  {
+    "word": "Pollution",
+    "pos": "noun",
+    "meaning": "प्रदूषण",
+    "meaning_en": "Damage caused to air, water, or soil by harmful substances",
+    "example": "Air pollution is bad for our health.",
+    "example_hi": "वायु प्रदूषण हमारे स्वास्थ्य के लिए हानिकारक है।"
+  },
+  {
+    "word": "Garbage",
+    "pos": "noun",
+    "meaning": "कचरा",
+    "meaning_en": "Waste material",
+    "example": "Please throw the garbage in the dustbin.",
+    "example_hi": "कृपया कचरा कूड़ेदान में डालें।"
+  },
+  {
+    "word": "Recycle",
+    "pos": "verb",
+    "meaning": "पुनर्चक्रण करना",
+    "meaning_en": "To treat things that have already been used so that they can be used again",
+    "example": "We should recycle plastic and paper.",
+    "example_hi": "हमें प्लास्टिक और कागज का पुनर्चक्रण करना चाहिए।"
+  },
+  {
+    "word": "Protection",
+    "pos": "noun",
+    "meaning": "सुरक्षा",
+    "meaning_en": "The act of keeping someone or something safe",
+    "example": "Animals need protection from hunters.",
+    "example_hi": "जानवरों को शिकारियों से सुरक्षा की आवश्यकता है।"
+  },
+  {
+    "word": "Wildlife",
+    "pos": "noun",
+    "meaning": "वन्यजीव",
+    "meaning_en": "Animals and plants that grow independently in natural conditions",
+    "example": "We went to the forest to see the wildlife.",
+    "example_hi": "हम वन्यजीव देखने के लिए जंगल गए।"
+  },
+  {
+    "word": "Habitat",
+    "pos": "noun",
+    "meaning": "निवास स्थान",
+    "meaning_en": "The natural home of a plant or animal",
+    "example": "The jungle is the natural habitat of a tiger.",
+    "example_hi": "जंगल बाघ का प्राकृतिक निवास स्थान है।"
+  },
+  {
+    "word": "Disaster",
+    "pos": "noun",
+    "meaning": "आपदा",
+    "meaning_en": "An event that causes a lot of harm or damage",
+    "example": "The flood was a terrible natural disaster.",
+    "example_hi": "बाढ़ एक भयानक प्राकृतिक आपदा थी।"
+  },
+  {
+    "word": "Flood",
+    "pos": "noun",
+    "meaning": "बाढ़",
+    "meaning_en": "A large amount of water covering an area that is usually dry",
+    "example": "Heavy rain caused a flood in the city.",
+    "example_hi": "भारी बारिश के कारण शहर में बाढ़ आ गई।"
+  },
+  {
+    "word": "Earthquake",
+    "pos": "noun",
+    "meaning": "भूकंप",
+    "meaning_en": "A sudden violent shaking of the earth's surface",
+    "example": "Many buildings were destroyed in the earthquake.",
+    "example_hi": "भूकंप में कई इमारतें नष्ट हो गईं।"
+  },
+  {
+    "word": "Storm",
+    "pos": "noun",
+    "meaning": "तूफान",
+    "meaning_en": "Very bad weather with strong winds and rain",
+    "example": "The ship sank during a bad storm.",
+    "example_hi": "एक भयानक तूफान के दौरान जहाज डूब गया।"
+  },
+  {
+    "word": "Volcano",
+    "pos": "noun",
+    "meaning": "ज्वालामुखी",
+    "meaning_en": "A mountain with a large hole at the top through which hot liquid rock is forced out",
+    "example": "The volcano erupted last night.",
+    "example_hi": "कल रात ज्वालामुखी फट गया।"
+  },
+  {
+    "word": "Dust",
+    "pos": "noun",
+    "meaning": "धूल",
+    "meaning_en": "Dry dirt in the form of powder",
+    "example": "There is a lot of dust on the table.",
+    "example_hi": "मेज पर बहुत धूल है।"
+  },
+  {
+    "word": "Fog",
+    "pos": "noun",
+    "meaning": "कोहरा",
+    "meaning_en": "A thick cloud of small drops of water near the ground",
+    "example": "It is dangerous to drive in thick fog.",
+    "example_hi": "घने कोहरे में गाड़ी चलाना खतरनाक है।"
+  },
+  {
+    "word": "Ice",
+    "pos": "noun",
+    "meaning": "बर्फ",
+    "meaning_en": "Frozen water",
+    "example": "Put some ice in the juice.",
+    "example_hi": "जूस में कुछ बर्फ डालो।"
+  },
+  {
+    "word": "Snow",
+    "pos": "noun",
+    "meaning": "हिमपात",
+    "meaning_en": "Soft white pieces of frozen water falling from the sky",
+    "example": "Children love to play in the snow.",
+    "example_hi": "बच्चों को बर्फ में खेलना बहुत पसंद है।"
+  },
+  {
+    "word": "Wild",
+    "pos": "adjective",
+    "meaning": "जंगली",
+    "meaning_en": "Living or growing in natural conditions",
+    "example": "Tigers are wild animals.",
+    "example_hi": "बाघ जंगली जानवर हैं।"
+  },
+  {
+    "word": "Pet",
+    "pos": "noun",
+    "meaning": "पालतू जानवर",
+    "meaning_en": "An animal kept at home for pleasure",
+    "example": "I have a pet dog.",
+    "example_hi": "मेरे पास एक पालतू कुत्ता है।"
+  }
+]

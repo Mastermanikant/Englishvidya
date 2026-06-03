@@ -1,0 +1,650 @@
+[
+  {
+    "word": "Artificial Intelligence",
+    "pos": "noun",
+    "meaning": "कृत्रिम बुद्धिमत्ता",
+    "meaning_en": "The simulation of human intelligence in machines",
+    "example": "Artificial intelligence is changing the world quickly.",
+    "example_hi": "कृत्रिम बुद्धिमत्ता दुनिया को तेज़ी से बदल रही है।"
+  },
+  {
+    "word": "Machine Learning",
+    "pos": "noun",
+    "meaning": "मशीन लर्निंग (मशीनी अधिगम)",
+    "meaning_en": "A type of AI that allows systems to learn from data",
+    "example": "Machine learning helps predict customer behavior.",
+    "example_hi": "मशीन लर्निंग ग्राहक के व्यवहार की भविष्यवाणी करने में मदद करती है।"
+  },
+  {
+    "word": "Algorithm",
+    "pos": "noun",
+    "meaning": "एल्गोरिथ्म (कलन विधि)",
+    "meaning_en": "A set of rules to be followed in calculations by a computer",
+    "example": "The app uses a complex algorithm to find matches.",
+    "example_hi": "यह ऐप जोड़े खोजने के लिए एक जटिल एल्गोरिथ्म का उपयोग करता है।"
+  },
+  {
+    "word": "Data",
+    "pos": "noun",
+    "meaning": "डेटा / आँकड़े",
+    "meaning_en": "Facts and statistics collected together for analysis",
+    "example": "We need more data to make a decision.",
+    "example_hi": "निर्णय लेने के लिए हमें और डेटा की आवश्यकता है।"
+  },
+  {
+    "word": "Cloud Computing",
+    "pos": "noun",
+    "meaning": "क्लाउड कंप्यूटिंग",
+    "meaning_en": "The practice of using a network of remote servers hosted on the internet to store data",
+    "example": "Cloud computing makes file sharing very easy.",
+    "example_hi": "क्लाउड कंप्यूटिंग फ़ाइल साझा करने को बहुत आसान बनाती है।"
+  },
+  {
+    "word": "Startup",
+    "pos": "noun",
+    "meaning": "नया व्यवसाय (स्टार्टअप)",
+    "meaning_en": "A newly established business",
+    "example": "He quit his job to launch a tech startup.",
+    "example_hi": "उसने एक टेक स्टार्टअप शुरू करने के लिए अपनी नौकरी छोड़ दी।"
+  },
+  {
+    "word": "Entrepreneur",
+    "pos": "noun",
+    "meaning": "उद्यमी",
+    "meaning_en": "A person who sets up a business, taking on financial risks",
+    "example": "She is a successful entrepreneur in the tech industry.",
+    "example_hi": "वह टेक उद्योग में एक सफल उद्यमी है।"
+  },
+  {
+    "word": "Investment",
+    "pos": "noun",
+    "meaning": "निवेश",
+    "meaning_en": "The action or process of investing money for profit",
+    "example": "Buying property is a good investment.",
+    "example_hi": "संपत्ति खरीदना एक अच्छा निवेश है।"
+  },
+  {
+    "word": "Revenue",
+    "pos": "noun",
+    "meaning": "राजस्व / आय",
+    "meaning_en": "Income, especially when of an organization",
+    "example": "The company's revenue increased this year.",
+    "example_hi": "इस वर्ष कंपनी का राजस्व बढ़ गया।"
+  },
+  {
+    "word": "Profit",
+    "pos": "noun",
+    "meaning": "लाभ / मुनाफा",
+    "meaning_en": "A financial gain",
+    "example": "We made a huge profit from the sale.",
+    "example_hi": "हमने बिक्री से भारी मुनाफा कमाया।"
+  },
+  {
+    "word": "Loss",
+    "pos": "noun",
+    "meaning": "नुकसान / घाटा",
+    "meaning_en": "The fact or process of losing something or money",
+    "example": "The business suffered a heavy loss last year.",
+    "example_hi": "पिछले साल व्यवसाय को भारी नुकसान हुआ था।"
+  },
+  {
+    "word": "Strategy",
+    "pos": "noun",
+    "meaning": "रणनीति",
+    "meaning_en": "A plan of action designed to achieve a long-term aim",
+    "example": "We need a better marketing strategy.",
+    "example_hi": "हमें एक बेहतर मार्केटिंग रणनीति की आवश्यकता है।"
+  },
+  {
+    "word": "Innovation",
+    "pos": "noun",
+    "meaning": "नवाचार",
+    "meaning_en": "The introduction of new things, ideas, or ways of doing something",
+    "example": "Innovation is key to a company's success.",
+    "example_hi": "नवाचार एक कंपनी की सफलता की कुंजी है।"
+  },
+  {
+    "word": "Marketing",
+    "pos": "noun",
+    "meaning": "विपणन / मार्केटिंग",
+    "meaning_en": "The action of promoting and selling products or services",
+    "example": "Good marketing can increase sales.",
+    "example_hi": "अच्छी मार्केटिंग बिक्री बढ़ा सकती है।"
+  },
+  {
+    "word": "Networking",
+    "pos": "noun",
+    "meaning": "नेटवर्किंग / संपर्क बनाना",
+    "meaning_en": "Interacting with others to exchange information and develop professional contacts",
+    "example": "Networking is important for career growth.",
+    "example_hi": "करियर के विकास के लिए नेटवर्किंग महत्वपूर्ण है।"
+  },
+  {
+    "word": "Automation",
+    "pos": "noun",
+    "meaning": "स्वचालन",
+    "meaning_en": "The use of technology to perform tasks without human help",
+    "example": "Automation will reduce production time.",
+    "example_hi": "स्वचालन से उत्पादन का समय कम हो जाएगा।"
+  },
+  {
+    "word": "Blockchain",
+    "pos": "noun",
+    "meaning": "ब्लॉकचेन",
+    "meaning_en": "A system in which a record of transactions is maintained across computers",
+    "example": "Blockchain technology is highly secure.",
+    "example_hi": "ब्लॉकचेन तकनीक अत्यधिक सुरक्षित है।"
+  },
+  {
+    "word": "Cryptocurrency",
+    "pos": "noun",
+    "meaning": "क्रिप्टोकरेंसी",
+    "meaning_en": "A digital currency in which transactions are verified and records maintained by cryptography",
+    "example": "Many people invest in cryptocurrency like Bitcoin.",
+    "example_hi": "कई लोग बिटकॉइन जैसी क्रिप्टोकरेंसी में निवेश करते हैं।"
+  },
+  {
+    "word": "Cybersecurity",
+    "pos": "noun",
+    "meaning": "साइबर सुरक्षा",
+    "meaning_en": "The practice of protecting systems, networks, and programs from digital attacks",
+    "example": "Companies spend millions on cybersecurity.",
+    "example_hi": "कंपनियां साइबर सुरक्षा पर लाखों खर्च करती हैं।"
+  },
+  {
+    "word": "Virtual Reality",
+    "pos": "noun",
+    "meaning": "आभासी वास्तविकता",
+    "meaning_en": "A computer-generated simulation of a three-dimensional environment",
+    "example": "Virtual reality is used in gaming and training.",
+    "example_hi": "आभासी वास्तविकता का उपयोग गेमिंग और प्रशिक्षण में किया जाता है।"
+  },
+  {
+    "word": "Software",
+    "pos": "noun",
+    "meaning": "सॉफ्टवेयर",
+    "meaning_en": "The programs and other operating information used by a computer",
+    "example": "You need to update your computer's software.",
+    "example_hi": "आपको अपने कंप्यूटर के सॉफ्टवेयर को अपडेट करना होगा।"
+  },
+  {
+    "word": "Hardware",
+    "pos": "noun",
+    "meaning": "हार्डवेयर",
+    "meaning_en": "The physical parts of a computer system",
+    "example": "He is an expert in computer hardware.",
+    "example_hi": "वह कंप्यूटर हार्डवेयर के विशेषज्ञ हैं।"
+  },
+  {
+    "word": "Database",
+    "pos": "noun",
+    "meaning": "डेटाबेस (आँकड़ों का आधार)",
+    "meaning_en": "A structured set of data held in a computer",
+    "example": "The customer's details are stored in our database.",
+    "example_hi": "ग्राहक का विवरण हमारे डेटाबेस में संग्रहीत है।"
+  },
+  {
+    "word": "E-commerce",
+    "pos": "noun",
+    "meaning": "ई-कॉमर्स",
+    "meaning_en": "Commercial transactions conducted electronically on the internet",
+    "example": "E-commerce has grown rapidly in recent years.",
+    "example_hi": "हाल के वर्षों में ई-कॉमर्स तेजी से बढ़ा है।"
+  },
+  {
+    "word": "Outsourcing",
+    "pos": "noun",
+    "meaning": "आउटसोर्सिंग",
+    "meaning_en": "Obtaining goods or a service from an outside supplier",
+    "example": "Outsourcing can help reduce company costs.",
+    "example_hi": "आउटसोर्सिंग कंपनी की लागत कम करने में मदद कर सकती है।"
+  },
+  {
+    "word": "Partnership",
+    "pos": "noun",
+    "meaning": "साझेदारी",
+    "meaning_en": "A business or firm owned and run by two or more partners",
+    "example": "They entered into a business partnership.",
+    "example_hi": "उन्होंने एक व्यापारिक साझेदारी में प्रवेश किया।"
+  },
+  {
+    "word": "Leadership",
+    "pos": "noun",
+    "meaning": "नेतृत्व",
+    "meaning_en": "The action of leading a group of people or an organization",
+    "example": "Good leadership is essential for a team.",
+    "example_hi": "एक टीम के लिए अच्छा नेतृत्व आवश्यक है।"
+  },
+  {
+    "word": "Management",
+    "pos": "noun",
+    "meaning": "प्रबंधन",
+    "meaning_en": "The process of dealing with or controlling things or people",
+    "example": "Time management is a very useful skill.",
+    "example_hi": "समय प्रबंधन एक बहुत ही उपयोगी कौशल है।"
+  },
+  {
+    "word": "Negotiation",
+    "pos": "noun",
+    "meaning": "बातचीत / मोलभाव",
+    "meaning_en": "Discussion aimed at reaching an agreement",
+    "example": "The price is open to negotiation.",
+    "example_hi": "कीमत पर मोलभाव किया जा सकता है।"
+  },
+  {
+    "word": "Productivity",
+    "pos": "noun",
+    "meaning": "उत्पादकता",
+    "meaning_en": "The effectiveness of productive effort",
+    "example": "Working in a quiet room increases my productivity.",
+    "example_hi": "शांत कमरे में काम करने से मेरी उत्पादकता बढ़ जाती है।"
+  },
+  {
+    "word": "Efficiency",
+    "pos": "noun",
+    "meaning": "कार्यक्षमता",
+    "meaning_en": "The state or quality of being efficient",
+    "example": "New machines have improved the factory's efficiency.",
+    "example_hi": "नई मशीनों ने कारखाने की कार्यक्षमता में सुधार किया है।"
+  },
+  {
+    "word": "Scalability",
+    "pos": "noun",
+    "meaning": "मापनीयता (बढ़ने की क्षमता)",
+    "meaning_en": "The capacity to be changed in size or scale",
+    "example": "The new system is designed for scalability.",
+    "example_hi": "नई प्रणाली को मापनीयता के लिए डिज़ाइन किया गया है।"
+  },
+  {
+    "word": "Prototype",
+    "pos": "noun",
+    "meaning": "प्रोटोटाइप (मूल रूप)",
+    "meaning_en": "A first or preliminary version of a device or vehicle",
+    "example": "They built a working prototype of the new car.",
+    "example_hi": "उन्होंने नई कार का एक काम करने वाला प्रोटोटाइप बनाया।"
+  },
+  {
+    "word": "Merger",
+    "pos": "noun",
+    "meaning": "विलय",
+    "meaning_en": "A combination of two things, especially companies",
+    "example": "The merger of the two banks was successful.",
+    "example_hi": "दोनों बैंकों का विलय सफल रहा।"
+  },
+  {
+    "word": "Acquisition",
+    "pos": "noun",
+    "meaning": "अधिग्रहण",
+    "meaning_en": "An asset or object bought or obtained, often referring to a company",
+    "example": "The large company made a new acquisition today.",
+    "example_hi": "बड़ी कंपनी ने आज एक नया अधिग्रहण किया।"
+  },
+  {
+    "word": "Shareholder",
+    "pos": "noun",
+    "meaning": "शेयरधारक",
+    "meaning_en": "An owner of shares in a company",
+    "example": "The shareholders voted for the new policy.",
+    "example_hi": "शेयरधारकों ने नई नीति के लिए मतदान किया।"
+  },
+  {
+    "word": "Stakeholder",
+    "pos": "noun",
+    "meaning": "हितधारक",
+    "meaning_en": "A person with an interest or concern in something, especially a business",
+    "example": "All stakeholders will be informed of the changes.",
+    "example_hi": "सभी हितधारकों को बदलावों के बारे में सूचित किया जाएगा।"
+  },
+  {
+    "word": "Dividend",
+    "pos": "noun",
+    "meaning": "लाभांश",
+    "meaning_en": "A sum of money paid regularly by a company to its shareholders",
+    "example": "The company pays a high dividend to its investors.",
+    "example_hi": "कंपनी अपने निवेशकों को उच्च लाभांश का भुगतान करती है।"
+  },
+  {
+    "word": "Asset",
+    "pos": "noun",
+    "meaning": "संपत्ति",
+    "meaning_en": "A useful or valuable thing or person",
+    "example": "His knowledge of computers is a great asset to the company.",
+    "example_hi": "कंप्यूटर का उनका ज्ञान कंपनी के लिए एक बड़ी संपत्ति है।"
+  },
+  {
+    "word": "Liability",
+    "pos": "noun",
+    "meaning": "दायित्व / जिम्मेदारी",
+    "meaning_en": "The state of being legally responsible for something",
+    "example": "The company cannot accept liability for any damage.",
+    "example_hi": "कंपनी किसी भी नुकसान के लिए दायित्व स्वीकार नहीं कर सकती है।"
+  },
+  {
+    "word": "Budget",
+    "pos": "noun",
+    "meaning": "बजट",
+    "meaning_en": "An estimate of income and expenditure for a set period of time",
+    "example": "We need to stay within our monthly budget.",
+    "example_hi": "हमें अपने मासिक बजट के भीतर रहना होगा।"
+  },
+  {
+    "word": "Funding",
+    "pos": "noun",
+    "meaning": "वित्तीय सहायता (फंडिंग)",
+    "meaning_en": "Money provided, especially by an organization or government",
+    "example": "The project needs more funding to continue.",
+    "example_hi": "परियोजना को जारी रखने के लिए और अधिक फंडिंग की आवश्यकता है।"
+  },
+  {
+    "word": "Pitch",
+    "pos": "noun",
+    "meaning": "प्रस्ताव (पिच)",
+    "meaning_en": "A presentation to sell an idea or product to an audience",
+    "example": "He gave a great pitch to the investors.",
+    "example_hi": "उसने निवेशकों के सामने एक शानदार प्रस्ताव पेश किया।"
+  },
+  {
+    "word": "Capital",
+    "pos": "noun",
+    "meaning": "पूँजी",
+    "meaning_en": "Wealth in the form of money or other assets owned by a person or organization",
+    "example": "They do not have enough capital to start the business.",
+    "example_hi": "उनके पास व्यवसाय शुरू करने के लिए पर्याप्त पूँजी नहीं है।"
+  },
+  {
+    "word": "Interest",
+    "pos": "noun",
+    "meaning": "ब्याज",
+    "meaning_en": "Money paid regularly at a particular rate for the use of money lent",
+    "example": "The bank charges a high rate of interest.",
+    "example_hi": "बैंक उच्च ब्याज दर वसूलता है।"
+  },
+  {
+    "word": "Customer",
+    "pos": "noun",
+    "meaning": "ग्राहक",
+    "meaning_en": "A person who buys goods or services from a shop or business",
+    "example": "The customer is always right.",
+    "example_hi": "ग्राहक हमेशा सही होता है।"
+  },
+  {
+    "word": "Consumer",
+    "pos": "noun",
+    "meaning": "उपभोक्ता",
+    "meaning_en": "A person who purchases goods and services for personal use",
+    "example": "Consumer rights must be protected.",
+    "example_hi": "उपभोक्ता अधिकारों की रक्षा की जानी चाहिए।"
+  },
+  {
+    "word": "Feedback",
+    "pos": "noun",
+    "meaning": "प्रतिक्रिया (फीडबैक)",
+    "meaning_en": "Information about reactions to a product",
+    "example": "We welcome customer feedback to improve our service.",
+    "example_hi": "हम अपनी सेवा को बेहतर बनाने के लिए ग्राहक की प्रतिक्रिया का स्वागत करते हैं।"
+  },
+  {
+    "word": "Brand",
+    "pos": "noun",
+    "meaning": "ब्रांड / छाप",
+    "meaning_en": "A type of product manufactured by a particular company under a particular name",
+    "example": "Apple is a very popular global brand.",
+    "example_hi": "एप्पल एक बहुत लोकप्रिय वैश्विक ब्रांड है।"
+  },
+  {
+    "word": "Vision",
+    "pos": "noun",
+    "meaning": "दूरदृष्टि (विज़न)",
+    "meaning_en": "The ability to think about or plan the future with imagination or wisdom",
+    "example": "He has a clear vision for his company's future.",
+    "example_hi": "उनकी अपनी कंपनी के भविष्य के लिए स्पष्ट दूरदृष्टि है।"
+  },
+  {
+    "word": "Mission",
+    "pos": "noun",
+    "meaning": "मिशन / लक्ष्य",
+    "meaning_en": "An important assignment given to a person or group of people",
+    "example": "Our mission is to provide free education to all.",
+    "example_hi": "हमारा मिशन सभी को मुफ्त शिक्षा प्रदान करना है।"
+  },
+  {
+    "word": "Interface",
+    "pos": "noun",
+    "meaning": "इंटरफ़ेस",
+    "meaning_en": "A device or program enabling a user to communicate with a computer",
+    "example": "The app has a user-friendly interface.",
+    "example_hi": "ऐप का इंटरफ़ेस उपयोग में बहुत आसान है।"
+  },
+  {
+    "word": "Platform",
+    "pos": "noun",
+    "meaning": "मंच / प्लेटफॉर्म",
+    "meaning_en": "A standard for the hardware of a computer system, determining what software it can run",
+    "example": "Instagram is a popular social media platform.",
+    "example_hi": "इंस्टाग्राम एक लोकप्रिय सोशल मीडिया प्लेटफॉर्म है।"
+  },
+  {
+    "word": "Dashboard",
+    "pos": "noun",
+    "meaning": "डैशबोर्ड",
+    "meaning_en": "A user interface that organizes and presents information in a way that is easy to read",
+    "example": "The financial dashboard shows all the key numbers.",
+    "example_hi": "वित्तीय डैशबोर्ड सभी प्रमुख आंकड़े दिखाता है।"
+  },
+  {
+    "word": "Metric",
+    "pos": "noun",
+    "meaning": "मापदंड",
+    "meaning_en": "A system or standard of measurement",
+    "example": "We use different metrics to measure our success.",
+    "example_hi": "हम अपनी सफलता को मापने के लिए विभिन्न मापदंडों का उपयोग करते हैं।"
+  },
+  {
+    "word": "Subscription",
+    "pos": "noun",
+    "meaning": "सदस्यता",
+    "meaning_en": "An arrangement to receive something, typically a publication, regularly by paying in advance",
+    "example": "I cancelled my magazine subscription.",
+    "example_hi": "मैंने अपनी पत्रिका की सदस्यता रद्द कर दी।"
+  },
+  {
+    "word": "Server",
+    "pos": "noun",
+    "meaning": "सर्वर",
+    "meaning_en": "A computer or computer program which manages access to a centralized resource or service in a network",
+    "example": "The game server is currently down.",
+    "example_hi": "गेम का सर्वर अभी बंद है।"
+  },
+  {
+    "word": "Code",
+    "pos": "noun",
+    "meaning": "कोड (संकेतावली)",
+    "meaning_en": "Program instructions",
+    "example": "Learning how to write code takes time.",
+    "example_hi": "कोड लिखना सीखने में समय लगता है।"
+  },
+  {
+    "word": "Developer",
+    "pos": "noun",
+    "meaning": "डेवलपर (विकासकर्ता)",
+    "meaning_en": "A person or thing that develops something, especially software",
+    "example": "She works as a software developer.",
+    "example_hi": "वह एक सॉफ्टवेयर डेवलपर के रूप में काम करती है।"
+  },
+  {
+    "word": "Program",
+    "pos": "noun",
+    "meaning": "कार्यक्रम / प्रोग्राम",
+    "meaning_en": "A series of coded software instructions to control the operation of a computer or other machine",
+    "example": "He wrote a program to calculate the expenses.",
+    "example_hi": "उसने खर्चों की गणना करने के लिए एक प्रोग्राम लिखा।"
+  },
+  {
+    "word": "Upgrade",
+    "pos": "verb",
+    "meaning": "उन्नत करना (अपग्रेड)",
+    "meaning_en": "Raise something to a higher standard, in particular improve equipment or machinery by adding or replacing components",
+    "example": "You need to upgrade your phone's operating system.",
+    "example_hi": "आपको अपने फोन के ऑपरेटिंग सिस्टम को अपग्रेड करना होगा।"
+  },
+  {
+    "word": "Download",
+    "pos": "verb",
+    "meaning": "डाउनलोड करना",
+    "meaning_en": "Copy data from one computer system to another, typically over the Internet",
+    "example": "You can download the app from the store.",
+    "example_hi": "आप स्टोर से ऐप डाउनलोड कर सकते हैं।"
+  },
+  {
+    "word": "Upload",
+    "pos": "verb",
+    "meaning": "अपलोड करना",
+    "meaning_en": "Transfer data from one computer to another, typically to one that is larger or remote",
+    "example": "I need to upload my photos to the internet.",
+    "example_hi": "मुझे अपनी तस्वीरें इंटरनेट पर अपलोड करनी हैं।"
+  },
+  {
+    "word": "Privacy",
+    "pos": "noun",
+    "meaning": "गोपनीयता",
+    "meaning_en": "The state or condition of being free from being observed or disturbed by other people",
+    "example": "Data privacy is a major concern today.",
+    "example_hi": "आज डेटा गोपनीयता एक प्रमुख चिंता का विषय है।"
+  },
+  {
+    "word": "Network",
+    "pos": "noun",
+    "meaning": "नेटवर्क / जाल",
+    "meaning_en": "A group or system of interconnected people or things",
+    "example": "The computer network is secured with a password.",
+    "example_hi": "कंप्यूटर नेटवर्क एक पासवर्ड के साथ सुरक्षित है।"
+  },
+  {
+    "word": "Internet",
+    "pos": "noun",
+    "meaning": "इंटरनेट",
+    "meaning_en": "A global computer network providing a variety of information and communication facilities",
+    "example": "You can find almost anything on the internet.",
+    "example_hi": "आप इंटरनेट पर लगभग कुछ भी पा सकते हैं।"
+  },
+  {
+    "word": "Browser",
+    "pos": "noun",
+    "meaning": "ब्राउज़र",
+    "meaning_en": "A computer program with a graphical user interface for displaying HTML files",
+    "example": "Chrome is a very fast web browser.",
+    "example_hi": "क्रोम बहुत तेज़ वेब ब्राउज़र है।"
+  },
+  {
+    "word": "Device",
+    "pos": "noun",
+    "meaning": "उपकरण (डिवाइस)",
+    "meaning_en": "A thing made or adapted for a particular purpose, especially a piece of mechanical or electronic equipment",
+    "example": "Please turn off your electronic devices during the flight.",
+    "example_hi": "कृपया उड़ान के दौरान अपने इलेक्ट्रॉनिक उपकरणों को बंद कर दें।"
+  },
+  {
+    "word": "Gadget",
+    "pos": "noun",
+    "meaning": "गैजेट (छोटा उपकरण)",
+    "meaning_en": "A small mechanical or electronic device or tool, especially an ingenious or novel one",
+    "example": "He loves buying new tech gadgets.",
+    "example_hi": "उसे नए टेक गैजेट खरीदना बहुत पसंद है।"
+  },
+  {
+    "word": "Sensor",
+    "pos": "noun",
+    "meaning": "सेंसर (संवेदक)",
+    "meaning_en": "A device which detects or measures a physical property and records, indicates, or otherwise responds to it",
+    "example": "The motion sensor turns on the light automatically.",
+    "example_hi": "मोशन सेंसर अपने आप लाइट चालू कर देता है।"
+  },
+  {
+    "word": "Analytics",
+    "pos": "noun",
+    "meaning": "विश्लेषिकी",
+    "meaning_en": "The systematic computational analysis of data or statistics",
+    "example": "Data analytics helps businesses make better decisions.",
+    "example_hi": "डेटा एनालिटिक्स व्यवसायों को बेहतर निर्णय लेने में मदद करता है।"
+  },
+  {
+    "word": "Application",
+    "pos": "noun",
+    "meaning": "एप्लीकेशन (ऐप)",
+    "meaning_en": "A computer program designed to perform a group of coordinated functions, tasks, or activities for the benefit of the user",
+    "example": "This application is available for both Android and iOS.",
+    "example_hi": "यह ऐप एंड्रॉइड और आईओएस दोनों के लिए उपलब्ध है।"
+  },
+  {
+    "word": "Big Data",
+    "pos": "noun",
+    "meaning": "बिग डेटा (विशाल आँकड़े)",
+    "meaning_en": "Extremely large data sets that may be analyzed computationally to reveal patterns, trends, and associations",
+    "example": "Big Data is used to understand consumer choices.",
+    "example_hi": "बिग डेटा का उपयोग उपभोक्ता की पसंद को समझने के लिए किया जाता है।"
+  },
+  {
+    "word": "Freelancer",
+    "pos": "noun",
+    "meaning": "स्वतंत्र कार्यकर्ता (फ्रीलांसर)",
+    "meaning_en": "A person who is self-employed and not necessarily committed to a particular employer long-term",
+    "example": "She works as a freelancer from home.",
+    "example_hi": "वह घर से एक स्वतंत्र कार्यकर्ता के रूप में काम करती है।"
+  },
+  {
+    "word": "Target",
+    "pos": "noun",
+    "meaning": "लक्ष्य",
+    "meaning_en": "A person, object, or place selected as the aim of an attack, or an objective or result towards which efforts are directed",
+    "example": "We reached our sales target for the month.",
+    "example_hi": "हमने महीने के लिए अपना बिक्री लक्ष्य हासिल कर लिया।"
+  },
+  {
+    "word": "Market",
+    "pos": "noun",
+    "meaning": "बाज़ार",
+    "meaning_en": "An area or arena in which commercial dealings are conducted",
+    "example": "The stock market went up today.",
+    "example_hi": "आज शेयर बाज़ार ऊपर गया।"
+  },
+  {
+    "word": "Campaign",
+    "pos": "noun",
+    "meaning": "अभियान",
+    "meaning_en": "An organized course of action to achieve a goal",
+    "example": "The marketing campaign was very successful.",
+    "example_hi": "मार्केटिंग अभियान बहुत सफल रहा।"
+  },
+  {
+    "word": "Deal",
+    "pos": "noun",
+    "meaning": "सौदा",
+    "meaning_en": "An agreement entered into by two or more parties for their mutual benefit",
+    "example": "They signed a big business deal.",
+    "example_hi": "उन्होंने एक बड़े व्यापारिक सौदे पर हस्ताक्षर किए।"
+  },
+  {
+    "word": "Contract",
+    "pos": "noun",
+    "meaning": "अनुबंध / ठेका",
+    "meaning_en": "A written or spoken agreement, especially one concerning employment, sales, or tenancy, that is intended to be enforceable by law",
+    "example": "Please read the contract carefully before signing.",
+    "example_hi": "कृपया हस्ताक्षर करने से पहले अनुबंध को ध्यान से पढ़ें।"
+  },
+  {
+    "word": "Innovation",
+    "pos": "noun",
+    "meaning": "नवाचार",
+    "meaning_en": "A new method, idea, product, etc.",
+    "example": "The company is known for its technological innovation.",
+    "example_hi": "यह कंपनी अपने तकनीकी नवाचार के लिए जानी जाती है।"
+  },
+  {
+    "word": "Digitization",
+    "pos": "noun",
+    "meaning": "डिजिटलीकरण",
+    "meaning_en": "The conversion of text, pictures, or sound into a digital form that can be processed by a computer",
+    "example": "The digitization of old books will preserve them forever.",
+    "example_hi": "पुरानी किताबों का डिजिटलीकरण उन्हें हमेशा के लिए सुरक्षित रखेगा।"
+  }
+]

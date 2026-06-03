@@ -1,0 +1,800 @@
+[
+    {
+        "name": "Academic Vocabulary & Education",
+        "slug": "academic_vocabulary_education",
+        "count": 316,
+        "icon": "🎓"
+    },
+    {
+        "name": "Accidents & Safety",
+        "slug": "accidents_safety",
+        "count": 30,
+        "icon": "📚"
+    },
+    {
+        "name": "Action & Process",
+        "slug": "action_process",
+        "count": 27,
+        "icon": "📚"
+    },
+    {
+        "name": "Administration",
+        "slug": "administration",
+        "count": 22,
+        "icon": "📚"
+    },
+    {
+        "name": "Algebra & Calculations",
+        "slug": "algebra_calculations",
+        "count": 29,
+        "icon": "📊"
+    },
+    {
+        "name": "Analytical",
+        "slug": "analytical",
+        "count": 54,
+        "icon": "📚"
+    },
+    {
+        "name": "Anger & Frustration",
+        "slug": "anger_frustration",
+        "count": 65,
+        "icon": "📚"
+    },
+    {
+        "name": "Animals & Insects",
+        "slug": "animals_insects",
+        "count": 115,
+        "icon": "🐾"
+    },
+    {
+        "name": "Argument, Debate & Discussion",
+        "slug": "argument_debate_discussion",
+        "count": 79,
+        "icon": "🗣"
+    },
+    {
+        "name": "Arithmetic & Operations",
+        "slug": "arithmetic_operations",
+        "count": 34,
+        "icon": "➕"
+    },
+    {
+        "name": "Assert",
+        "slug": "assert",
+        "count": 40,
+        "icon": "📚"
+    },
+    {
+        "name": "Automation",
+        "slug": "automation",
+        "count": 21,
+        "icon": "📚"
+    },
+    {
+        "name": "Banking & Accounts",
+        "slug": "banking_accounts",
+        "count": 38,
+        "icon": "💰"
+    },
+    {
+        "name": "Bargaining & Discounts",
+        "slug": "bargaining_discounts",
+        "count": 25,
+        "icon": "📚"
+    },
+    {
+        "name": "Beverages (Hot & Cold)",
+        "slug": "beverages_hot_cold",
+        "count": 30,
+        "icon": "☕"
+    },
+    {
+        "name": "Birds & Bird Sounds",
+        "slug": "birds_bird_sounds",
+        "count": 93,
+        "icon": "🐦"
+    },
+    {
+        "name": "Building Consensus",
+        "slug": "building_consensus",
+        "count": 32,
+        "icon": "📚"
+    },
+    {
+        "name": "Business, Finance & Workplace English",
+        "slug": "business_finance_workplace_english",
+        "count": 86,
+        "icon": "💼"
+    },
+    {
+        "name": "Cinema & Film Analysis",
+        "slug": "cinema_film_analysis",
+        "count": 27,
+        "icon": "📚"
+    },
+    {
+        "name": "Civic Administration",
+        "slug": "civic_administration",
+        "count": 30,
+        "icon": "📚"
+    },
+    {
+        "name": "Civilizations",
+        "slug": "civilizations",
+        "count": 23,
+        "icon": "📚"
+    },
+    {
+        "name": "Clarify",
+        "slug": "clarify",
+        "count": 32,
+        "icon": "📚"
+    },
+    {
+        "name": "Clothing, Fashion & Accessories",
+        "slug": "clothing_fashion_accessories",
+        "count": 41,
+        "icon": "👕"
+    },
+    {
+        "name": "Collaboration & Tasks",
+        "slug": "collaboration_tasks",
+        "count": 19,
+        "icon": "📚"
+    },
+    {
+        "name": "Collocations & Phrases",
+        "slug": "collocations_phrases",
+        "count": 144,
+        "icon": "🤝"
+    },
+    {
+        "name": "Conflict Resolution",
+        "slug": "conflict_resolution",
+        "count": 30,
+        "icon": "📚"
+    },
+    {
+        "name": "Context",
+        "slug": "context",
+        "count": 59,
+        "icon": "📚"
+    },
+    {
+        "name": "Corporate Accountability",
+        "slug": "corporate_accountability",
+        "count": 28,
+        "icon": "📚"
+    },
+    {
+        "name": "Courtroom & Trials",
+        "slug": "courtroom_trials",
+        "count": 37,
+        "icon": "📚"
+    },
+    {
+        "name": "Creative Writing",
+        "slug": "creative_writing",
+        "count": 28,
+        "icon": "📚"
+    },
+    {
+        "name": "Crimes & Offences",
+        "slug": "crimes_offences",
+        "count": 29,
+        "icon": "📚"
+    },
+    {
+        "name": "Cultural Empathy",
+        "slug": "cultural_empathy",
+        "count": 17,
+        "icon": "📚"
+    },
+    {
+        "name": "Data & File Management",
+        "slug": "data_file_management",
+        "count": 24,
+        "icon": "📚"
+    },
+    {
+        "name": "Dei Core Concepts",
+        "slug": "dei_core_concepts",
+        "count": 29,
+        "icon": "📚"
+    },
+    {
+        "name": "Delegation & Standards",
+        "slug": "delegation_standards",
+        "count": 27,
+        "icon": "📚"
+    },
+    {
+        "name": "Delivery & Tone",
+        "slug": "delivery_tone",
+        "count": 34,
+        "icon": "📚"
+    },
+    {
+        "name": "Dietary Habits",
+        "slug": "dietary_habits",
+        "count": 30,
+        "icon": "📚"
+    },
+    {
+        "name": "Digital Communication & Collaboration",
+        "slug": "digital_communication_collaboration",
+        "count": 18,
+        "icon": "📚"
+    },
+    {
+        "name": "Digital Communication Idioms",
+        "slug": "digital_communication_idioms",
+        "count": 15,
+        "icon": "📚"
+    },
+    {
+        "name": "Diplomatic Phrasing",
+        "slug": "diplomatic_phrasing",
+        "count": 32,
+        "icon": "📚"
+    },
+    {
+        "name": "Discourse Markers",
+        "slug": "discourse_markers",
+        "count": 79,
+        "icon": "🗣"
+    },
+    {
+        "name": "E-Commerce",
+        "slug": "e_commerce",
+        "count": 28,
+        "icon": "🛒"
+    },
+    {
+        "name": "Elections & Voting",
+        "slug": "elections_voting",
+        "count": 34,
+        "icon": "📚"
+    },
+    {
+        "name": "Electronics & Gadgets",
+        "slug": "electronics_gadgets",
+        "count": 16,
+        "icon": "📚"
+    },
+    {
+        "name": "Email",
+        "slug": "email",
+        "count": 21,
+        "icon": "📚"
+    },
+    {
+        "name": "Emotions, Feelings & Wellness",
+        "slug": "emotions_feelings_wellness",
+        "count": 372,
+        "icon": "😊"
+    },
+    {
+        "name": "Energy & Electricity",
+        "slug": "energy_electricity",
+        "count": 35,
+        "icon": "⚡"
+    },
+    {
+        "name": "English",
+        "slug": "english",
+        "count": 25,
+        "icon": "📚"
+    },
+    {
+        "name": "Essentials",
+        "slug": "essentials",
+        "count": 20,
+        "icon": "📚"
+    },
+    {
+        "name": "Etymology",
+        "slug": "etymology",
+        "count": 20,
+        "icon": "📚"
+    },
+    {
+        "name": "Evaluation",
+        "slug": "evaluation",
+        "count": 27,
+        "icon": "📚"
+    },
+    {
+        "name": "Evaluative",
+        "slug": "evaluative",
+        "count": 45,
+        "icon": "📚"
+    },
+    {
+        "name": "Everyday Verbs & Phrasal Verbs",
+        "slug": "everyday_verbs_phrasal_verbs",
+        "count": 25,
+        "icon": "📚"
+    },
+    {
+        "name": "Fake News & Misinformation",
+        "slug": "fake_news_misinformation",
+        "count": 30,
+        "icon": "📚"
+    },
+    {
+        "name": "Fear & Anxiety",
+        "slug": "fear_anxiety",
+        "count": 31,
+        "icon": "📚"
+    },
+    {
+        "name": "Finance/accounting",
+        "slug": "finance_accounting",
+        "count": 23,
+        "icon": "📚"
+    },
+    {
+        "name": "Fitness & Equipment",
+        "slug": "fitness_equipment",
+        "count": 33,
+        "icon": "📚"
+    },
+    {
+        "name": "Fitness & Recovery",
+        "slug": "fitness_recovery",
+        "count": 26,
+        "icon": "📚"
+    },
+    {
+        "name": "Food, Groceries & Taste Descriptors",
+        "slug": "food_groceries_taste_descriptors",
+        "count": 352,
+        "icon": "🍎"
+    },
+    {
+        "name": "Forces & Motion",
+        "slug": "forces_motion",
+        "count": 30,
+        "icon": "⚙"
+    },
+    {
+        "name": "General English Vocabulary",
+        "slug": "general_english_vocabulary",
+        "count": 1693,
+        "icon": "📚"
+    },
+    {
+        "name": "General Future-of-work",
+        "slug": "general_future_of_work",
+        "count": 33,
+        "icon": "📚"
+    },
+    {
+        "name": "Geometry & Shapes",
+        "slug": "geometry_shapes",
+        "count": 41,
+        "icon": "🔶"
+    },
+    {
+        "name": "Gig Economy",
+        "slug": "gig_economy",
+        "count": 17,
+        "icon": "📚"
+    },
+    {
+        "name": "Government Systems",
+        "slug": "government_systems",
+        "count": 23,
+        "icon": "📚"
+    },
+    {
+        "name": "Grammar & Parts of Speech",
+        "slug": "grammar_parts_of_speech",
+        "count": 351,
+        "icon": "📝"
+    },
+    {
+        "name": "Greetings, Social Manners & Polite English",
+        "slug": "greetings_social_manners_polite_english",
+        "count": 267,
+        "icon": "🤝"
+    },
+    {
+        "name": "Health, Diseases & Symptoms",
+        "slug": "health_diseases_symptoms",
+        "count": 142,
+        "icon": "⚕"
+    },
+    {
+        "name": "Hook & Intro",
+        "slug": "hook_intro",
+        "count": 25,
+        "icon": "📚"
+    },
+    {
+        "name": "Household & Daily Chores",
+        "slug": "household_daily_chores",
+        "count": 112,
+        "icon": "🏠"
+    },
+    {
+        "name": "Hygiene",
+        "slug": "hygiene",
+        "count": 24,
+        "icon": "📚"
+    },
+    {
+        "name": "Indoor Gaming",
+        "slug": "indoor_gaming",
+        "count": 41,
+        "icon": "📚"
+    },
+    {
+        "name": "Innovation",
+        "slug": "innovation",
+        "count": 29,
+        "icon": "📚"
+    },
+    {
+        "name": "Instruction",
+        "slug": "instruction",
+        "count": 17,
+        "icon": "📚"
+    },
+    {
+        "name": "Instruction Verbs",
+        "slug": "instruction_verbs",
+        "count": 18,
+        "icon": "📚"
+    },
+    {
+        "name": "Instruments & Sound",
+        "slug": "instruments_sound",
+        "count": 25,
+        "icon": "📚"
+    },
+    {
+        "name": "Legal Rights",
+        "slug": "legal_rights",
+        "count": 20,
+        "icon": "📚"
+    },
+    {
+        "name": "Light Topics",
+        "slug": "light_topics",
+        "count": 30,
+        "icon": "📚"
+    },
+    {
+        "name": "Linking Words & Connectors",
+        "slug": "linking_words_connectors",
+        "count": 90,
+        "icon": "🔗"
+    },
+    {
+        "name": "Literary Terms",
+        "slug": "literary_terms",
+        "count": 24,
+        "icon": "📚"
+    },
+    {
+        "name": "Logistics & Documents",
+        "slug": "logistics_documents",
+        "count": 24,
+        "icon": "📚"
+    },
+    {
+        "name": "Marketing/sales",
+        "slug": "marketing_sales",
+        "count": 20,
+        "icon": "📚"
+    },
+    {
+        "name": "Matter",
+        "slug": "matter",
+        "count": 22,
+        "icon": "📚"
+    },
+    {
+        "name": "Media Manipulation",
+        "slug": "media_manipulation",
+        "count": 28,
+        "icon": "📚"
+    },
+    {
+        "name": "Media Operations",
+        "slug": "media_operations",
+        "count": 18,
+        "icon": "📚"
+    },
+    {
+        "name": "Meetings & Video Calls",
+        "slug": "meetings_video_calls",
+        "count": 17,
+        "icon": "📚"
+    },
+    {
+        "name": "Meetings/negotiation",
+        "slug": "meetings_negotiation",
+        "count": 18,
+        "icon": "📚"
+    },
+    {
+        "name": "Mindfulness Practices",
+        "slug": "mindfulness_practices",
+        "count": 28,
+        "icon": "📚"
+    },
+    {
+        "name": "Musical Notation & Theory",
+        "slug": "musical_notation_theory",
+        "count": 23,
+        "icon": "📚"
+    },
+    {
+        "name": "Nature, Weather & Environment",
+        "slug": "nature_weather_environment",
+        "count": 231,
+        "icon": "🌳"
+    },
+    {
+        "name": "Negotiation Strategies",
+        "slug": "negotiation_strategies",
+        "count": 29,
+        "icon": "📚"
+    },
+    {
+        "name": "Numbers, Time, Measures & Seasons",
+        "slug": "numbers_time_measures_seasons",
+        "count": 50,
+        "icon": "⏰"
+    },
+    {
+        "name": "Nutrient Intake",
+        "slug": "nutrient_intake",
+        "count": 29,
+        "icon": "📚"
+    },
+    {
+        "name": "Outdoor Athletics",
+        "slug": "outdoor_athletics",
+        "count": 23,
+        "icon": "📚"
+    },
+    {
+        "name": "Payments & Transactions",
+        "slug": "payments_transactions",
+        "count": 30,
+        "icon": "📚"
+    },
+    {
+        "name": "Performance & Live Shows",
+        "slug": "performance_live_shows",
+        "count": 27,
+        "icon": "📚"
+    },
+    {
+        "name": "Performance Feedback",
+        "slug": "performance_feedback",
+        "count": 23,
+        "icon": "📚"
+    },
+    {
+        "name": "Philosophy, Logic & Thinking Skills",
+        "slug": "philosophy_logic_thinking_skills",
+        "count": 453,
+        "icon": "🧠"
+    },
+    {
+        "name": "Phonetic Milestones",
+        "slug": "phonetic_milestones",
+        "count": 20,
+        "icon": "📚"
+    },
+    {
+        "name": "Physical Geography",
+        "slug": "physical_geography",
+        "count": 17,
+        "icon": "📚"
+    },
+    {
+        "name": "Police & Arrests",
+        "slug": "police_arrests",
+        "count": 27,
+        "icon": "📚"
+    },
+    {
+        "name": "Print & Digital Press",
+        "slug": "print_digital_press",
+        "count": 23,
+        "icon": "📚"
+    },
+    {
+        "name": "Problem-solving",
+        "slug": "problem_solving",
+        "count": 23,
+        "icon": "📚"
+    },
+    {
+        "name": "Public Policies",
+        "slug": "public_policies",
+        "count": 30,
+        "icon": "📚"
+    },
+    {
+        "name": "Remote Collaboration",
+        "slug": "remote_collaboration",
+        "count": 24,
+        "icon": "📚"
+    },
+    {
+        "name": "Remote Work",
+        "slug": "remote_work",
+        "count": 19,
+        "icon": "📚"
+    },
+    {
+        "name": "Reporting & Editing",
+        "slug": "reporting_editing",
+        "count": 24,
+        "icon": "📚"
+    },
+    {
+        "name": "Retail & Shopping",
+        "slug": "retail_shopping",
+        "count": 27,
+        "icon": "📚"
+    },
+    {
+        "name": "Sadness & Grief",
+        "slug": "sadness_grief",
+        "count": 29,
+        "icon": "📚"
+    },
+    {
+        "name": "Science",
+        "slug": "science",
+        "count": 21,
+        "icon": "📚"
+    },
+    {
+        "name": "Shame, Guilt & Embarrassment",
+        "slug": "shame_guilt_embarrassment",
+        "count": 34,
+        "icon": "📚"
+    },
+    {
+        "name": "Sightseeing",
+        "slug": "sightseeing",
+        "count": 23,
+        "icon": "📚"
+    },
+    {
+        "name": "Social",
+        "slug": "social",
+        "count": 20,
+        "icon": "📚"
+    },
+    {
+        "name": "Social Justice & Equity",
+        "slug": "social_justice_equity",
+        "count": 25,
+        "icon": "📚"
+    },
+    {
+        "name": "Space & Astronomy",
+        "slug": "space_astronomy",
+        "count": 34,
+        "icon": "🚀"
+    },
+    {
+        "name": "Sports Rules",
+        "slug": "sports_rules",
+        "count": 22,
+        "icon": "📚"
+    },
+    {
+        "name": "Stance Markers",
+        "slug": "stance_markers",
+        "count": 20,
+        "icon": "📚"
+    },
+    {
+        "name": "Strategic Leadership",
+        "slug": "strategic_leadership",
+        "count": 21,
+        "icon": "📚"
+    },
+    {
+        "name": "Strategic Thought",
+        "slug": "strategic_thought",
+        "count": 27,
+        "icon": "📚"
+    },
+    {
+        "name": "Sustainability Logistics",
+        "slug": "sustainability_logistics",
+        "count": 16,
+        "icon": "📚"
+    },
+    {
+        "name": "Technology, Computers & AI",
+        "slug": "technology_computers_ai",
+        "count": 361,
+        "icon": "💻"
+    },
+    {
+        "name": "Texture",
+        "slug": "texture",
+        "count": 25,
+        "icon": "📚"
+    },
+    {
+        "name": "Theater & Dance",
+        "slug": "theater_dance",
+        "count": 24,
+        "icon": "📚"
+    },
+    {
+        "name": "Transitions & Connectives",
+        "slug": "transitions_connectives",
+        "count": 22,
+        "icon": "🔄"
+    },
+    {
+        "name": "Translation Trap",
+        "slug": "translation_trap",
+        "count": 66,
+        "icon": "📚"
+    },
+    {
+        "name": "Travel, Transport & Directions",
+        "slug": "travel_transport_directions",
+        "count": 174,
+        "icon": "✈"
+    },
+    {
+        "name": "Upskilling",
+        "slug": "upskilling",
+        "count": 17,
+        "icon": "📚"
+    },
+    {
+        "name": "Vagueness & Approximators",
+        "slug": "vagueness_approximators",
+        "count": 26,
+        "icon": "📚"
+    },
+    {
+        "name": "Visual Arts",
+        "slug": "visual_arts",
+        "count": 26,
+        "icon": "📚"
+    },
+    {
+        "name": "Weak vs Strong Alternatives",
+        "slug": "weak_vs_strong_alternatives",
+        "count": 319,
+        "icon": "📚"
+    },
+    {
+        "name": "Weekend Plans",
+        "slug": "weekend_plans",
+        "count": 33,
+        "icon": "📚"
+    },
+    {
+        "name": "Workplace Dynamics",
+        "slug": "workplace_dynamics",
+        "count": 15,
+        "icon": "📚"
+    },
+    {
+        "name": "Workplace Inclusivity",
+        "slug": "workplace_inclusivity",
+        "count": 29,
+        "icon": "📚"
+    }
+]

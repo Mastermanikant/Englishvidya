@@ -1,0 +1,16 @@
+Expand-Archive : .docx is not a supported archive file format. .zip is the only supported archive file format.
+At line:1 char:1
++ Expand-Archive -Path 'Word meaning prompt list.docx' -DestinationPath ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (.docx:String) [Expand-Archive], IOException
+    + FullyQualifiedErrorId : NotSupportedArchiveFileExtension,Expand-Archive
+ 
+Select-String : Cannot find path 'D:\English Vidya\Archive\SourceFiles\temp_word\word\document.xml' because it does 
+not exist.
+At line:1 char:91
++ ... rd' -Force; Select-String -Path 'temp_word\word\document.xml' -Patter ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (D:\English Vidy...rd\document.xml:String) [Select-String], ItemNotFound 
+   Exception
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SelectStringCommand
+ 

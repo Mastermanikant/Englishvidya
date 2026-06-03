@@ -1,0 +1,782 @@
+[
+  {
+    "word": "Premise",
+    "meaning": "A statement or idea that is accepted as true and used as the basis for a logical argument.",
+    "example": "The argument is based on the premise that everyone deserves equal rights.",
+    "category": "Premises & Propositions"
+  },
+  {
+    "word": "Conclusion",
+    "meaning": "The final decision or opinion you reach after considering all the facts and reasoning.",
+    "example": "After reviewing all the evidence, we came to the conclusion that the plan would work.",
+    "category": "Premises & Propositions"
+  },
+  {
+    "word": "Claim",
+    "meaning": "A statement saying that something is true, which others may agree or disagree with.",
+    "example": "His claim that he finished the work early turned out to be false.",
+    "category": "Premises & Propositions"
+  },
+  {
+    "word": "Proposition",
+    "meaning": "An idea or opinion that is put forward for people to consider or discuss.",
+    "example": "The proposition that working fewer hours increases productivity is being tested.",
+    "category": "Premises & Propositions"
+  },
+  {
+    "word": "Assumption",
+    "meaning": "Something that you accept as true or certain to happen, even if you have no proof.",
+    "example": "Her plan failed because it was based on the wrong assumption about the weather.",
+    "category": "Premises & Propositions"
+  },
+  {
+    "word": "Inference",
+    "meaning": "A guess or opinion you form based on the information or evidence you have.",
+    "example": "From his quiet behavior, we made the inference that he was unhappy.",
+    "category": "Premises & Propositions"
+  },
+  {
+    "word": "Hypothesis",
+    "meaning": "An idea that attempts to explain something, which has not yet been proven true.",
+    "example": "The scientists tested their hypothesis by running several experiments.",
+    "category": "Premises & Propositions"
+  },
+  {
+    "word": "Assertion",
+    "meaning": "A strong, confident statement that something is true, often made without proof.",
+    "example": "She made the assertion that local taxes were too high, but she had no data to prove it.",
+    "category": "Premises & Propositions"
+  },
+  {
+    "word": "Warrant",
+    "meaning": "A reason or explanation that connects your evidence to your main claim.",
+    "example": "If you claim it will rain, the dark clouds in the sky are your warrant.",
+    "category": "Premises & Propositions"
+  },
+  {
+    "word": "Presumption",
+    "meaning": "Believing that something is true because it is very likely, though not 100% certain.",
+    "example": "Under the law, there is a presumption of innocence until a person is proven guilty.",
+    "category": "Premises & Propositions"
+  },
+  {
+    "word": "Line Of Reasoning",
+    "meaning": "A set of connected ideas and arguments that lead to a logical conclusion.",
+    "example": "I found it difficult to follow his line of reasoning during the debate.",
+    "category": "Premises & Propositions"
+  },
+  {
+    "word": "Train Of Thought",
+    "meaning": "A sequence of connected thoughts or ideas in a person's mind.",
+    "example": "The loud noise outside broke my train of thought, and I forgot what I was saying.",
+    "category": "Premises & Propositions"
+  },
+  {
+    "word": "Rationale",
+    "meaning": "The fundamental reasons or logical basis behind a decision, belief, or action.",
+    "example": "The director explained the rationale behind the decision to close the office.",
+    "category": "Premises & Propositions"
+  },
+  {
+    "word": "Thesis",
+    "meaning": "The main statement, claim, or argument of an essay or presentation.",
+    "example": "The thesis of her essay was that technology has made communication harder, not easier.",
+    "category": "Premises & Propositions"
+  },
+  {
+    "word": "Synthesis",
+    "meaning": "Combining different ideas or pieces of information to create a new, single understanding.",
+    "example": "His book is a brilliant synthesis of history, science, and philosophy.",
+    "category": "Premises & Propositions"
+  },
+  {
+    "word": "Antithesis",
+    "meaning": "The exact opposite of a particular idea or statement.",
+    "example": "Cruelty to animals is the absolute antithesis of kindness.",
+    "category": "Premises & Propositions"
+  },
+  {
+    "word": "Underlying Assumption",
+    "meaning": "A basic belief that is not directly spoken but forms the foundation of an argument.",
+    "example": "The underlying assumption of the project is that internet access will remain cheap.",
+    "category": "Premises & Propositions"
+  },
+  {
+    "word": "Hidden Premise",
+    "meaning": "An unstated fact or belief that is necessary for an argument's conclusion to be true.",
+    "example": "His argument that we should buy the car has a hidden premise that we can afford it.",
+    "category": "Premises & Propositions"
+  },
+  {
+    "word": "Grounds",
+    "meaning": "The facts, reasons, or evidence that support a claim or decision.",
+    "example": "The police had reasonable grounds to believe that a crime had been committed.",
+    "category": "Premises & Propositions"
+  },
+  {
+    "word": "Postulate",
+    "meaning": "To suggest or accept something as true so that it can be used to build an argument.",
+    "example": "Let us postulate that all humans want to be happy, and see where that leads.",
+    "category": "Premises & Propositions"
+  },
+  {
+    "word": "Therefore",
+    "meaning": "For that reason; used to show that the next statement is a result of the previous one.",
+    "example": "The school was closed due to snow; therefore, the children stayed home.",
+    "category": "Logical Connectives & Links"
+  },
+  {
+    "word": "Consequently",
+    "meaning": "As a result of something that happened before.",
+    "example": "He didn't study for the test; consequently, he did not pass.",
+    "category": "Logical Connectives & Links"
+  },
+  {
+    "word": "Thus",
+    "meaning": "In this way, or as a result of what has just been mentioned.",
+    "example": "She won the tournament, thus proving she was the best player.",
+    "category": "Logical Connectives & Links"
+  },
+  {
+    "word": "Hence",
+    "meaning": "For this reason; used to introduce a logical consequence.",
+    "example": "The store was closed for repairs, hence the lack of customers.",
+    "category": "Logical Connectives & Links"
+  },
+  {
+    "word": "Furthermore",
+    "meaning": "In addition to what has already been said; used to add more support to a point.",
+    "example": "The new computer is faster; furthermore, it uses less electricity.",
+    "category": "Logical Connectives & Links"
+  },
+  {
+    "word": "Moreover",
+    "meaning": "Used to add an important new fact or argument that supports your point.",
+    "example": "The house is beautiful; moreover, it is located in a very quiet neighborhood.",
+    "category": "Logical Connectives & Links"
+  },
+  {
+    "word": "In Contrast",
+    "meaning": "Used to show a clear difference between two things or situations.",
+    "example": "The first half of the movie was exciting; in contrast, the second half was boring.",
+    "category": "Logical Connectives & Links"
+  },
+  {
+    "word": "On The Other Hand",
+    "meaning": "Used to introduce a contrasting point of view or alternative fact.",
+    "example": "Working from home saves time; on the other hand, you might feel isolated.",
+    "category": "Logical Connectives & Links"
+  },
+  {
+    "word": "Conversely",
+    "meaning": "From an opposite point of view; used to introduce an idea that is the reverse of another.",
+    "example": "Poor diet leads to illness; conversely, healthy eating promotes good health.",
+    "category": "Logical Connectives & Links"
+  },
+  {
+    "word": "Alternately",
+    "meaning": "Used to show that two situations keep following each other, or to offer a second choice.",
+    "example": "We could drive to the beach, or alternately, we could take the train.",
+    "category": "Logical Connectives & Links"
+  },
+  {
+    "word": "Although",
+    "meaning": "Used to introduce a statement that makes the main statement surprising or less strong.",
+    "example": "Although the sun was shining, the wind was very cold.",
+    "category": "Logical Connectives & Links"
+  },
+  {
+    "word": "Even Though",
+    "meaning": "Used to emphasize a contrast or a fact that makes something else surprising.",
+    "example": "She went to work even though she was feeling quite sick.",
+    "category": "Logical Connectives & Links"
+  },
+  {
+    "word": "Provided That",
+    "meaning": "Only if a particular condition is met; on the condition that.",
+    "example": "You can attend the party, provided that you finish your homework first.",
+    "category": "Logical Connectives & Links"
+  },
+  {
+    "word": "Unless",
+    "meaning": "Except on the condition that; used to show the only situation that stops something.",
+    "example": "You cannot enter the building unless you have a security pass.",
+    "category": "Logical Connectives & Links"
+  },
+  {
+    "word": "Because Of This",
+    "meaning": "For this reason; introducing the cause behind an outcome.",
+    "example": "The team practiced daily. Because of this, they won the championship easily.",
+    "category": "Logical Connectives & Links"
+  },
+  {
+    "word": "Due To",
+    "meaning": "Because of; caused by a specific event or situation.",
+    "example": "The flight was delayed due to thick fog at the airport.",
+    "category": "Logical Connectives & Links"
+  },
+  {
+    "word": "As A Result",
+    "meaning": "Introducing the outcome or consequence of a previous action.",
+    "example": "The company cut its prices, and as a result, sales increased.",
+    "category": "Logical Connectives & Links"
+  },
+  {
+    "word": "On The Contrary",
+    "meaning": "Used to show that the opposite of what has just been said is actually true.",
+    "example": "I thought you disliked vegetables. On the contrary, I eat them every day.",
+    "category": "Logical Connectives & Links"
+  },
+  {
+    "word": "In Other Words",
+    "meaning": "Used to explain something in a simpler or different way to make it clearer.",
+    "example": "We don't have enough money. In other words, we cannot buy the house.",
+    "category": "Logical Connectives & Links"
+  },
+  {
+    "word": "That Is To Say",
+    "meaning": "Used to clarify the exact meaning of what you have just said.",
+    "example": "Our group will meet next week — that is to say, on Tuesday afternoon.",
+    "category": "Logical Connectives & Links"
+  },
+  {
+    "word": "Specifically",
+    "meaning": "In a detailed or exact way; used to point out a single item or detail.",
+    "example": "I am asking you, specifically, to double-check the final numbers.",
+    "category": "Logical Connectives & Links"
+  },
+  {
+    "word": "For Instance",
+    "meaning": "For example; used to introduce a particular case that represents a general rule.",
+    "example": "Wild animals can be dangerous; for instance, bears will attack if threatened.",
+    "category": "Logical Connectives & Links"
+  },
+  {
+    "word": "By The Same Token",
+    "meaning": "For the same reasons; in the same way.",
+    "example": "If you work hard, you will succeed; by the same token, laziness leads to failure.",
+    "category": "Logical Connectives & Links"
+  },
+  {
+    "word": "On That Note",
+    "meaning": "Speaking about that topic; connecting your next point to the current subject.",
+    "example": "It's getting late. On that note, let's end the meeting for today.",
+    "category": "Logical Connectives & Links"
+  },
+  {
+    "word": "In Addition",
+    "meaning": "Also; as an extra point or item.",
+    "example": "She plays the violin. In addition, she speaks three languages fluently.",
+    "category": "Logical Connectives & Links"
+  },
+  {
+    "word": "Nevertheless",
+    "meaning": "In spite of what has just been said; however.",
+    "example": "It was a very difficult task; nevertheless, they completed it on time.",
+    "category": "Logical Connectives & Links"
+  },
+  {
+    "word": "Nonetheless",
+    "meaning": "Despite what has been said; yet.",
+    "example": "The weather was terrible. Nonetheless, we enjoyed our walk in the park.",
+    "category": "Logical Connectives & Links"
+  },
+  {
+    "word": "In Light Of",
+    "meaning": "Because of new information; considering a particular fact.",
+    "example": "In light of the new report, we have decided to change our policy.",
+    "category": "Logical Connectives & Links"
+  },
+  {
+    "word": "On The Basis Of",
+    "meaning": "Using something as the reason or foundation for an idea or action.",
+    "example": "He was offered the job on the basis of his excellent past experience.",
+    "category": "Logical Connectives & Links"
+  },
+  {
+    "word": "Accordingly",
+    "meaning": "In a way that fits the situation; therefore.",
+    "example": "The costs have risen, and we must adjust our prices accordingly.",
+    "category": "Logical Connectives & Links"
+  },
+  {
+    "word": "Deductive Reasoning",
+    "meaning": "Reasoning from general rules or principles to find a specific logical conclusion.",
+    "example": "Using deductive reasoning, Sherlock Holmes solved the crime by eliminating options.",
+    "category": "Types of Logic"
+  },
+  {
+    "word": "Inductive Reasoning",
+    "meaning": "Making a general conclusion based on specific observations or examples.",
+    "example": "Inductive reasoning led the scientist to believe all swans are white, until she saw a black one.",
+    "category": "Types of Logic"
+  },
+  {
+    "word": "Abductive Reasoning",
+    "meaning": "Finding the most likely explanation for a set of incomplete facts or clues.",
+    "example": "Doctors use abductive reasoning when they diagnose an illness based on a few symptoms.",
+    "category": "Types of Logic"
+  },
+  {
+    "word": "Circular Reasoning",
+    "meaning": "A mistake in logic where you try to prove an idea by repeating it in different words.",
+    "example": "Saying 'I am honest because I always tell the truth' is an example of circular reasoning.",
+    "category": "Types of Logic"
+  },
+  {
+    "word": "Causal Reasoning",
+    "meaning": "Reasoning that connects a cause directly to its effect.",
+    "example": "Causal reasoning helps us understand that dropping a glass makes it break.",
+    "category": "Types of Logic"
+  },
+  {
+    "word": "Analogical Reasoning",
+    "meaning": "Understanding something new by comparing it to something similar that you already know.",
+    "example": "He used analogical reasoning to explain the flow of electricity by comparing it to water pipes.",
+    "category": "Types of Logic"
+  },
+  {
+    "word": "Generalization",
+    "meaning": "A broad statement or belief created by looking at only a few specific examples.",
+    "example": "To say that all children love sweets is a common generalization.",
+    "category": "Types of Logic"
+  },
+  {
+    "word": "Syllogism",
+    "meaning": "A formal argument consisting of two premises and a conclusion (e.g., A=B, B=C, therefore A=C).",
+    "example": "The classic syllogism is: All men are mortal; Socrates is a man; therefore, Socrates is mortal.",
+    "category": "Types of Logic"
+  },
+  {
+    "word": "Logic",
+    "meaning": "A structured way of thinking or reasoning that follows strict rules of truth.",
+    "example": "There is no logic in buying things you do not need and cannot afford.",
+    "category": "Types of Logic"
+  },
+  {
+    "word": "Dialectic",
+    "meaning": "A method of finding the truth by discussing opposing points of view to reach a synthesis.",
+    "example": "Through a polite dialectic, the two managers resolved their disagreement.",
+    "category": "Types of Logic"
+  },
+  {
+    "word": "Empirical Reasoning",
+    "meaning": "Reasoning that is based on physical evidence and direct observation rather than theory.",
+    "example": "Empirical reasoning requires scientists to run experiments and record real results.",
+    "category": "Types of Logic"
+  },
+  {
+    "word": "Rationalism",
+    "meaning": "The belief that knowledge should be based on reason and logic rather than emotions or beliefs.",
+    "example": "His rationalism made him demand logical proof for every claim.",
+    "category": "Types of Logic"
+  },
+  {
+    "word": "Skepticism",
+    "meaning": "An attitude of doubting claims until they are supported by clear evidence.",
+    "example": "The teacher showed skepticism when the student claimed a dog ate his homework.",
+    "category": "Types of Logic"
+  },
+  {
+    "word": "Problem-Solving",
+    "meaning": "The process of finding logical solutions to difficult or complex issues.",
+    "example": "Excellent problem-solving skills are highly valued in the workplace.",
+    "category": "Types of Logic"
+  },
+  {
+    "word": "Analytical Thinking",
+    "meaning": "Breaking a complex problem down into smaller parts to understand it better.",
+    "example": "Solving this math puzzle requires a lot of analytical thinking.",
+    "category": "Types of Logic"
+  },
+  {
+    "word": "Intuitive Reasoning",
+    "meaning": "Reaching a conclusion based on a quick feeling or instinct, rather than step-by-step logic.",
+    "example": "Her intuitive reasoning told her that something was wrong, even though everything looked normal.",
+    "category": "Types of Logic"
+  },
+  {
+    "word": "Systematic Reasoning",
+    "meaning": "Thinking in a step-by-step, organized, and methodical way.",
+    "example": "A systematic reasoning approach helped the engineers find the bug in the software.",
+    "category": "Types of Logic"
+  },
+  {
+    "word": "Linear Thinking",
+    "meaning": "A simple, straight-line way of thinking where one idea leads directly to the next.",
+    "example": "Linear thinking is useful for following recipes, but not for creative problem-solving.",
+    "category": "Types of Logic"
+  },
+  {
+    "word": "Lateral Thinking",
+    "meaning": "Solving problems by using creative, unusual, or indirect ideas.",
+    "example": "We need some lateral thinking to solve this issue because the standard methods failed.",
+    "category": "Types of Logic"
+  },
+  {
+    "word": "Quantitative Reasoning",
+    "meaning": "Using numbers, mathematics, and statistics to analyze and solve problems.",
+    "example": "The business analyst used quantitative reasoning to predict future sales trends.",
+    "category": "Types of Logic"
+  },
+  {
+    "word": "Validity",
+    "meaning": "The quality of an argument being logically correct in its structure.",
+    "example": "If your premises are false, the validity of your argument doesn't make your conclusion true.",
+    "category": "Logical Truth & Validity"
+  },
+  {
+    "word": "Soundness",
+    "meaning": "The state of an argument being both logically valid and based on true facts.",
+    "example": "A sound argument must have true premises and a correct logical structure.",
+    "category": "Logical Truth & Validity"
+  },
+  {
+    "word": "Coherence",
+    "meaning": "The quality of being logical, consistent, and easy to understand as a whole.",
+    "example": "His explanation lacked coherence; it was just a random mix of thoughts.",
+    "category": "Logical Truth & Validity"
+  },
+  {
+    "word": "Plausibility",
+    "meaning": "The quality of seeming reasonable, believable, or likely to be true.",
+    "example": "The police questioned the plausibility of his story about losing his keys.",
+    "category": "Logical Truth & Validity"
+  },
+  {
+    "word": "Credibility",
+    "meaning": "The quality of being trusted and believed in.",
+    "example": "The witness lost his credibility when he changed his story multiple times.",
+    "category": "Logical Truth & Validity"
+  },
+  {
+    "word": "Truth Value",
+    "meaning": "Whether a statement is true or false (the basic property of propositions in logic).",
+    "example": "In boolean logic, every variable has a truth value of either true or false.",
+    "category": "Logical Truth & Validity"
+  },
+  {
+    "word": "Objective",
+    "meaning": "Based on real facts and evidence, not influenced by personal feelings or opinions.",
+    "example": "An objective report should only present the facts, without taking sides.",
+    "category": "Logical Truth & Validity"
+  },
+  {
+    "word": "Subjective",
+    "meaning": "Based on personal opinions, feelings, or tastes rather than facts.",
+    "example": "Which movie is the best is a highly subjective question.",
+    "category": "Logical Truth & Validity"
+  },
+  {
+    "word": "Inconsistency",
+    "meaning": "A situation where two or more statements or facts contradict each other.",
+    "example": "There is an inconsistency between his words and his actions.",
+    "category": "Logical Truth & Validity"
+  },
+  {
+    "word": "Self-Contradiction",
+    "meaning": "A statement containing ideas that cannot both be true at the same time.",
+    "example": "The sentence 'I am completely silent right now' is a self-contradiction.",
+    "category": "Logical Truth & Validity"
+  },
+  {
+    "word": "Fallacious",
+    "meaning": "Based on a mistaken belief or incorrect reasoning; containing a fallacy.",
+    "example": "His conclusion was fallacious because it was based on biased data.",
+    "category": "Logical Truth & Validity"
+  },
+  {
+    "word": "Tenable",
+    "meaning": "An idea or argument that can be defended successfully against criticism.",
+    "example": "His position is no longer tenable because new evidence proves him wrong.",
+    "category": "Logical Truth & Validity"
+  },
+  {
+    "word": "Untenable",
+    "meaning": "An idea or argument that cannot be defended against criticism or objection.",
+    "example": "The theory became untenable after the laboratory experiments failed repeatedly.",
+    "category": "Logical Truth & Validity"
+  },
+  {
+    "word": "Cogent",
+    "meaning": "Clear, logical, and convincing; powerfully persuasive.",
+    "example": "She presented a cogent argument that convinced the board to approve the budget.",
+    "category": "Logical Truth & Validity"
+  },
+  {
+    "word": "Logical Flow",
+    "meaning": "The smooth transition of ideas from one point to the next in an argument.",
+    "example": "The essay was easy to read because it had a very clear logical flow.",
+    "category": "Logical Truth & Validity"
+  },
+  {
+    "word": "Conclusive",
+    "meaning": "Proving something completely, leaving no doubt about the result.",
+    "example": "The fingerprint on the glass was conclusive proof that he was in the room.",
+    "category": "Logical Truth & Validity"
+  },
+  {
+    "word": "Inconclusive",
+    "meaning": "Not leading to a firm conclusion; leaving things uncertain.",
+    "example": "The blood test was inconclusive, so the doctor ordered more tests.",
+    "category": "Logical Truth & Validity"
+  },
+  {
+    "word": "Axiom",
+    "meaning": "A statement or principle that is accepted as true without proof, acting as a starting point.",
+    "example": "In geometry, the idea that a straight line is the shortest path between two points is an axiom.",
+    "category": "Logical Truth & Validity"
+  },
+  {
+    "word": "Corollary",
+    "meaning": "A natural consequence or direct result that follows logically from another proven statement.",
+    "example": "If you eat too much sugar, a corollary is that you might develop tooth decay.",
+    "category": "Logical Truth & Validity"
+  },
+  {
+    "word": "Paradox",
+    "meaning": "A statement that seems self-contradictory but may reveal a surprising truth.",
+    "example": "The paradox of saving money is that if everyone does it, the economy slows down.",
+    "category": "Logical Truth & Validity"
+  },
+  {
+    "word": "Absurdity",
+    "meaning": "The quality of being completely ridiculous, illogical, or unreasonable.",
+    "example": "The argument reached an absurdity when he claimed that gravity was a hoax.",
+    "category": "Logical Truth & Validity"
+  },
+  {
+    "word": "Veracity",
+    "meaning": "The truthfulness or accuracy of a statement or claim.",
+    "example": "We questioned the veracity of his story because he had lied in the past.",
+    "category": "Logical Truth & Validity"
+  },
+  {
+    "word": "Fallacy",
+    "meaning": "An error in reasoning that makes an argument invalid.",
+    "example": "Attacking a person instead of their argument is a common logical fallacy.",
+    "category": "Logical Truth & Validity"
+  },
+  {
+    "word": "Ambiguity",
+    "meaning": "The quality of being unclear or open to multiple meanings.",
+    "example": "The ambiguity in the contract caused a dispute between the two companies.",
+    "category": "Logical Truth & Validity"
+  },
+  {
+    "word": "Empirical Evidence",
+    "meaning": "Information received by means of observation or experimentation.",
+    "example": "There is no empirical evidence to support the claim that this plant cures diseases.",
+    "category": "Logical Truth & Validity"
+  },
+  {
+    "word": "Counterargument",
+    "meaning": "An argument made to oppose or show the flaws in another argument.",
+    "example": "A strong essay introduces a counterargument and then explains why it is incorrect.",
+    "category": "Argument & Debate"
+  },
+  {
+    "word": "Rebuttal",
+    "meaning": "A formal response that uses evidence to prove that a claim or argument is false.",
+    "example": "Her rebuttal was so strong that the opposition had no way to reply.",
+    "category": "Argument & Debate"
+  },
+  {
+    "word": "Refutation",
+    "meaning": "The act of proving a statement or theory to be wrong or false.",
+    "example": "The scientist published a complete refutation of the old theory.",
+    "category": "Argument & Debate"
+  },
+  {
+    "word": "Concession",
+    "meaning": "Admitting that a point made by your opponent is true or valid, even if you disagree overall.",
+    "example": "Making a small concession can make you look fair and reasonable in a debate.",
+    "category": "Argument & Debate"
+  },
+  {
+    "word": "Contradiction",
+    "meaning": "A statement or situation where two things are completely opposed, showing that one must be false.",
+    "example": "There is a clear contradiction between saying you want to save money and buying luxury items.",
+    "category": "Argument & Debate"
+  },
+  {
+    "word": "To Dispute",
+    "meaning": "To argue against or challenge the truth of a statement.",
+    "example": "The defense lawyer disputed the claim that her client was at the scene.",
+    "category": "Argument & Debate"
+  },
+  {
+    "word": "To Refute",
+    "meaning": "To prove that a statement, theory, or accusation is wrong.",
+    "example": "New evidence was found to refute the witness's claims.",
+    "category": "Argument & Debate"
+  },
+  {
+    "word": "To Rebut",
+    "meaning": "To offer arguments or evidence that contradict or oppose a claim.",
+    "example": "The politician asked for a chance to rebut the criticisms made by his rival.",
+    "category": "Argument & Debate"
+  },
+  {
+    "word": "To Concede",
+    "meaning": "To reluctantly admit that something is true or that you have lost a point.",
+    "example": "After seeing the test results, he had to concede that his theory was wrong.",
+    "category": "Argument & Debate"
+  },
+  {
+    "word": "Counterexample",
+    "meaning": "A specific example that proves a general rule or claim is false.",
+    "example": "Finding one black swan is a counterexample that disproves the rule that all swans are white.",
+    "category": "Argument & Debate"
+  },
+  {
+    "word": "Burden Of Proof",
+    "meaning": "The duty to provide evidence to prove a claim that you have made.",
+    "example": "If you accuse someone of lying, the burden of proof is on you, not on them.",
+    "category": "Argument & Debate"
+  },
+  {
+    "word": "Cognitive Bias",
+    "meaning": "A systematic error in thinking that affects the decisions and judgments people make.",
+    "example": "Confirmation bias is a cognitive bias where you only look for facts that agree with you.",
+    "category": "Argument & Debate"
+  },
+  {
+    "word": "Discrepancy",
+    "meaning": "A difference or inconsistency between two things that should be the same.",
+    "example": "There was a discrepancy between the receipts and the amount of money in the cash register.",
+    "category": "Argument & Debate"
+  },
+  {
+    "word": "Challenge",
+    "meaning": "To question whether a statement or action is true, fair, or legal.",
+    "example": "The players decided to challenge the referee's decision.",
+    "category": "Argument & Debate"
+  },
+  {
+    "word": "Undermine",
+    "meaning": "To weaken or damage the strength or credibility of an argument or claim.",
+    "example": "New data began to undermine the scientist's long-standing theory.",
+    "category": "Argument & Debate"
+  },
+  {
+    "word": "Substantiate",
+    "meaning": "To provide evidence or proof to support a claim.",
+    "example": "You must substantiate your accusations with concrete facts.",
+    "category": "Argument & Debate"
+  },
+  {
+    "word": "Corroborate",
+    "meaning": "To support or confirm a statement or story by providing fresh evidence.",
+    "example": "Three other witnesses were called to corroborate the victim's story.",
+    "category": "Argument & Debate"
+  },
+  {
+    "word": "Validate",
+    "meaning": "To prove that something is correct, acceptable, or logically sound.",
+    "example": "Further scientific research helped to validate the doctor's new treatment method.",
+    "category": "Argument & Debate"
+  },
+  {
+    "word": "Invalidate",
+    "meaning": "To prove that an argument or claim is incorrect, illogical, or officially void.",
+    "example": "Finding a single error in the math can invalidate the entire calculation.",
+    "category": "Argument & Debate"
+  },
+  {
+    "word": "Falsify",
+    "meaning": "To prove that a statement or theory is false (or to alter data dishonestly).",
+    "example": "Karl Popper argued that scientific theories must be open to being falsified.",
+    "category": "Argument & Debate"
+  },
+  {
+    "word": "Red Herring",
+    "meaning": "An irrelevant topic introduced into an argument to distract attention from the main issue.",
+    "example": "Discussing the employee's personal life was a red herring to distract from her excellent work record.",
+    "category": "Logical Pitfalls & Biases"
+  },
+  {
+    "word": "Straw Man",
+    "meaning": "Misrepresenting someone's argument to make it look weak and easy to defeat.",
+    "example": "She claimed I hated cars, which was a straw man since I only said I prefer biking to work.",
+    "category": "Logical Pitfalls & Biases"
+  },
+  {
+    "word": "Non Sequitur",
+    "meaning": "A conclusion or statement that does not logically follow from the previous argument.",
+    "example": "Saying 'He is a great chef, so he will be a wonderful politician' is a non sequitur.",
+    "category": "Logical Pitfalls & Biases"
+  },
+  {
+    "word": "Slippery Slope",
+    "meaning": "Arguing that a small first step will lead to a chain of events ending in a disaster.",
+    "example": "Claiming that playing one video game will lead to a life of crime is a slippery slope argument.",
+    "category": "Logical Pitfalls & Biases"
+  },
+  {
+    "word": "Begging The Question",
+    "meaning": "An argument that assumes the truth of its conclusion instead of proving it.",
+    "example": "Saying 'Gold is valuable because it is worth a lot of money' is begging the question.",
+    "category": "Logical Pitfalls & Biases"
+  },
+  {
+    "word": "Circular Argument",
+    "meaning": "An argument that starts and ends with the same unproven claim.",
+    "example": "His speech was a circular argument that kept repeating the same point without adding new evidence.",
+    "category": "Logical Pitfalls & Biases"
+  },
+  {
+    "word": "Correlation",
+    "meaning": "A relationship or connection between two things, though one may not cause the other.",
+    "example": "There is a correlation between ice cream sales and sunburns, but one does not cause the other.",
+    "category": "Logical Pitfalls & Biases"
+  },
+  {
+    "word": "Causation",
+    "meaning": "The relationship where one event directly causes another event to happen.",
+    "example": "Smoking has a direct causation link to lung disease.",
+    "category": "Logical Pitfalls & Biases"
+  },
+  {
+    "word": "Oversimplification",
+    "meaning": "Describing a complex problem so simply that it leaves out important details and confuses the truth.",
+    "example": "Saying that hunger is caused only by a lack of food is an oversimplification of a global issue.",
+    "category": "Logical Pitfalls & Biases"
+  },
+  {
+    "word": "Logical Leap",
+    "meaning": "A sudden, unsupported jump from a set of facts to a conclusion that doesn't follow.",
+    "example": "Assuming someone stole your pen just because they are holding a similar pen is a logical leap.",
+    "category": "Logical Pitfalls & Biases"
+  },
+  {
+    "word": "False Dilemma",
+    "meaning": "Presenting only two choices when many more options actually exist.",
+    "example": "Saying 'Either you support our plan or you want us to fail' is a false dilemma.",
+    "category": "Logical Pitfalls & Biases"
+  },
+  {
+    "word": "Post Hoc",
+    "meaning": "Assuming that because one event happened after another, the first event caused the second.",
+    "example": "Believing that walking under a ladder caused you to lose your wallet is a post hoc fallacy.",
+    "category": "Logical Pitfalls & Biases"
+  },
+  {
+    "word": "Cognitive Dissonance",
+    "meaning": "The uncomfortable feeling you get when you hold two contradictory beliefs at the same time.",
+    "example": "Knowing that smoking is unhealthy while continuing to smoke causes cognitive dissonance.",
+    "category": "Logical Pitfalls & Biases"
+  },
+  {
+    "word": "Confirmation Bias",
+    "meaning": "The habit of only noticing facts that agree with your opinions, while ignoring facts that disagree.",
+    "example": "Due to confirmation bias, he only read newspapers that agreed with his political views.",
+    "category": "Logical Pitfalls & Biases"
+  },
+  {
+    "word": "Nuance",
+    "meaning": "A very small, subtle difference in meaning, opinion, or situation.",
+    "example": "To understand the debate, you must pay attention to the nuance of each argument.",
+    "category": "Logical Pitfalls & Biases"
+  }
+]

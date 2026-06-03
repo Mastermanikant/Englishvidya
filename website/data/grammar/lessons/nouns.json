@@ -1,0 +1,51 @@
+{
+  "title": "Nouns (संज्ञा)",
+  "slug": "nouns",
+  "part": 4,
+  "definition_en": "A noun is a word that names a person, place, thing, or idea.",
+  "definition_hi": "संज्ञा किसी व्यक्ति, वस्तु, स्थान या भाव के नाम को कहते हैं।",
+  "categories": [
+    {
+      "name": "Proper Noun (व्यक्तिवाचक संज्ञा)",
+      "intro": "Specific names",
+      "examples": [
+        {
+          "en": "Rahul is my friend.",
+          "hi": "राहुल मेरा दोस्त है।"
+        },
+        {
+          "en": "I live in Delhi.",
+          "hi": "मैं दिल्ली में रहता हूँ।"
+        }
+      ]
+    },
+    {
+      "name": "Common Noun (जातिवाचक संज्ञा)",
+      "intro": "General names",
+      "examples": [
+        {
+          "en": "The boy is playing.",
+          "hi": "लड़का खेल रहा है।"
+        },
+        {
+          "en": "This is a big city.",
+          "hi": "यह एक बड़ा शहर है।"
+        }
+      ]
+    },
+    {
+      "name": "Abstract Noun (भाववाचक संज्ञा)",
+      "intro": "Feelings or ideas",
+      "examples": [
+        {
+          "en": "Honesty is the best policy.",
+          "hi": "ईमानदारी सबसे अच्छी नीति है।"
+        },
+        {
+          "en": "Love is blind.",
+          "hi": "प्यार अंधा होता है।"
+        }
+      ]
+    }
+  ]
+}

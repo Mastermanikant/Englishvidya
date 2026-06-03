@@ -1,0 +1,161 @@
+= : The term '=' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the 
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:81
++ ... glish Vidya\Archive\SourceFiles\*.docx' | ForEach-Object {  = 'd:\Eng ...
++                                                                 ~
+    + CategoryInfo          : ObjectNotFound: (=:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+pandoc : The term 'pandoc' is not recognized as the name of a cmdlet, function, script file, or operable program. 
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:141
++ ... \English Vidya\scratch\markdown\' + .BaseName + '.md'; pandoc .FullNa ...
++                                                            ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (pandoc:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+Remove-Item : Cannot find path 'D:\English Vidya\.FullName' because it does not exist.
+At line:1 char:175
++ ... me + '.md'; pandoc .FullName -t markdown -o ; Remove-Item .FullName }
++                                                   ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (D:\English Vidya\.FullName:String) [Remove-Item], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.RemoveItemCommand
+ 
+= : The term '=' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the 
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:81
++ ... glish Vidya\Archive\SourceFiles\*.docx' | ForEach-Object {  = 'd:\Eng ...
++                                                                 ~
+    + CategoryInfo          : ObjectNotFound: (=:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+pandoc : The term 'pandoc' is not recognized as the name of a cmdlet, function, script file, or operable program. 
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:141
++ ... \English Vidya\scratch\markdown\' + .BaseName + '.md'; pandoc .FullNa ...
++                                                            ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (pandoc:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+Remove-Item : Cannot find path 'D:\English Vidya\.FullName' because it does not exist.
+At line:1 char:175
++ ... me + '.md'; pandoc .FullName -t markdown -o ; Remove-Item .FullName }
++                                                   ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (D:\English Vidya\.FullName:String) [Remove-Item], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.RemoveItemCommand
+ 
+= : The term '=' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the 
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:81
++ ... glish Vidya\Archive\SourceFiles\*.docx' | ForEach-Object {  = 'd:\Eng ...
++                                                                 ~
+    + CategoryInfo          : ObjectNotFound: (=:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+pandoc : The term 'pandoc' is not recognized as the name of a cmdlet, function, script file, or operable program. 
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:141
++ ... \English Vidya\scratch\markdown\' + .BaseName + '.md'; pandoc .FullNa ...
++                                                            ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (pandoc:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+Remove-Item : Cannot find path 'D:\English Vidya\.FullName' because it does not exist.
+At line:1 char:175
++ ... me + '.md'; pandoc .FullName -t markdown -o ; Remove-Item .FullName }
++                                                   ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (D:\English Vidya\.FullName:String) [Remove-Item], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.RemoveItemCommand
+ 
+= : The term '=' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the 
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:81
++ ... glish Vidya\Archive\SourceFiles\*.docx' | ForEach-Object {  = 'd:\Eng ...
++                                                                 ~
+    + CategoryInfo          : ObjectNotFound: (=:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+pandoc : The term 'pandoc' is not recognized as the name of a cmdlet, function, script file, or operable program. 
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:141
++ ... \English Vidya\scratch\markdown\' + .BaseName + '.md'; pandoc .FullNa ...
++                                                            ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (pandoc:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+Remove-Item : Cannot find path 'D:\English Vidya\.FullName' because it does not exist.
+At line:1 char:175
++ ... me + '.md'; pandoc .FullName -t markdown -o ; Remove-Item .FullName }
++                                                   ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (D:\English Vidya\.FullName:String) [Remove-Item], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.RemoveItemCommand
+ 
+= : The term '=' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the 
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:81
++ ... glish Vidya\Archive\SourceFiles\*.docx' | ForEach-Object {  = 'd:\Eng ...
++                                                                 ~
+    + CategoryInfo          : ObjectNotFound: (=:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+pandoc : The term 'pandoc' is not recognized as the name of a cmdlet, function, script file, or operable program. 
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:141
++ ... \English Vidya\scratch\markdown\' + .BaseName + '.md'; pandoc .FullNa ...
++                                                            ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (pandoc:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+Remove-Item : Cannot find path 'D:\English Vidya\.FullName' because it does not exist.
+At line:1 char:175
++ ... me + '.md'; pandoc .FullName -t markdown -o ; Remove-Item .FullName }
++                                                   ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (D:\English Vidya\.FullName:String) [Remove-Item], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.RemoveItemCommand
+ 
+= : The term '=' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the 
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:81
++ ... glish Vidya\Archive\SourceFiles\*.docx' | ForEach-Object {  = 'd:\Eng ...
++                                                                 ~
+    + CategoryInfo          : ObjectNotFound: (=:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+pandoc : The term 'pandoc' is not recognized as the name of a cmdlet, function, script file, or operable program. 
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:141
++ ... \English Vidya\scratch\markdown\' + .BaseName + '.md'; pandoc .FullNa ...
++                                                            ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (pandoc:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+Remove-Item : Cannot find path 'D:\English Vidya\.FullName' because it does not exist.
+At line:1 char:175
++ ... me + '.md'; pandoc .FullName -t markdown -o ; Remove-Item .FullName }
++                                                   ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (D:\English Vidya\.FullName:String) [Remove-Item], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.RemoveItemCommand
+ 
+= : The term '=' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the 
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:81
++ ... glish Vidya\Archive\SourceFiles\*.docx' | ForEach-Object {  = 'd:\Eng ...
++                                                                 ~
+    + CategoryInfo          : ObjectNotFound: (=:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+pandoc : The term 'pandoc' is not recognized as the name of a cmdlet, function, script file, or operable program. 
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:141
++ ... \English Vidya\scratch\markdown\' + .BaseName + '.md'; pandoc .FullNa ...
++                                                            ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (pandoc:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+Remove-Item : Cannot find path 'D:\English Vidya\.FullName' because it does not exist.
+At line:1 char:175
++ ... me + '.md'; pandoc .FullName -t markdown -o ; Remove-Item .FullName }
++                                                   ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (D:\English Vidya\.FullName:String) [Remove-Item], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.RemoveItemCommand
+ 

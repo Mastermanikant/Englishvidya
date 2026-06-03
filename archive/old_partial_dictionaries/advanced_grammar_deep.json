@@ -1,0 +1,62 @@
+{
+  "title": "Advanced Grammar Deep Study",
+  "description": "Advanced concepts including Voice, Narration, Conditionals, and Complex Tense Relations.",
+  "topics": [
+    {
+      "concept": "Sequence of Events & Tense Relations",
+      "rules": [
+        "When two actions happen in the past, the earlier action uses Past Perfect, and the later action uses Past Indefinite.",
+        "For interrupted actions, the ongoing action uses Past Continuous, and the interrupting action uses Past Indefinite."
+      ],
+      "examples": [
+        {
+          "english": "The thief had escaped before the police arrived.",
+          "hindi": "पुलिस के आने से पहले चोर भाग चुका था।"
+        },
+        {
+          "english": "I was sleeping when he came.",
+          "hindi": "मैं सो रहा था जब वह आया।"
+        }
+      ]
+    },
+    {
+      "concept": "Active and Passive Voice",
+      "rules": [
+        "Focuses on the action rather than the subject performing the action.",
+        "Object of active sentence becomes subject of passive sentence. Uses 'to be' verb + Past Participle (V3)."
+      ],
+      "examples": [
+        {
+          "english": "A letter was written by her.",
+          "hindi": "उसके द्वारा एक पत्र लिखा गया।"
+        }
+      ]
+    },
+    {
+      "concept": "Direct and Indirect Narration",
+      "rules": [
+        "Direct speech quotes the exact words spoken. Indirect speech reports what was said without exact quotes.",
+        "Tenses typically shift back one step in the past when reporting in the past tense."
+      ],
+      "examples": [
+        {
+          "english": "He said that he was going to the market.",
+          "hindi": "उसने कहा कि वह बाजार जा रहा था।"
+        }
+      ]
+    },
+    {
+      "concept": "Conditionals",
+      "rules": [
+        "Zero Conditional: General truths (If + Present Simple, Present Simple).",
+        "First Conditional: Real future possibilities (If + Present Simple, will + base verb)."
+      ],
+      "examples": [
+        {
+          "english": "If it rains, we will stay at home.",
+          "hindi": "अगर बारिश होती है, तो हम घर पर रहेंगे।"
+        }
+      ]
+    }
+  ]
+}

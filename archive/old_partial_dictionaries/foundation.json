@@ -1,0 +1,82 @@
+[
+  {
+    "topic": "What is Language?",
+    "topic_hi": "भाषा क्या है?",
+    "introduction": {
+      "english": "Language is a system used for communication.",
+      "hindi": "भाषा विचारों, भावनाओं और जानकारी को व्यक्त करने का माध्यम है।"
+    },
+    "types": []
+  },
+  {
+    "topic": "Types of Language",
+    "topic_hi": "भाषा के प्रकार",
+    "introduction": {
+      "english": "Language exists in different forms such as spoken, written, and sign language.",
+      "hindi": "भाषा विभिन्न रूपों में होती है जैसे मौखिक, लिखित और सांकेतिक भाषा।"
+    },
+    "types": [
+      {
+        "name": "Spoken Language",
+        "description": "जो भाषा बोलकर use की जाए।"
+      },
+      {
+        "name": "Written Language",
+        "description": "जो भाषा लिखकर use की जाए।"
+      },
+      {
+        "name": "Sign Language",
+        "description": "जो भाषा संकेतों या gestures से use की जाए।"
+      }
+    ]
+  },
+  {
+    "topic": "What is Grammar?",
+    "topic_hi": "व्याकरण क्या है?",
+    "introduction": {
+      "english": "Grammar is the set of rules for making correct and meaningful sentences.",
+      "hindi": "व्याकरण सही और अर्थपूर्ण वाक्य बनाने के नियमों का समूह है।"
+    },
+    "types": []
+  },
+  {
+    "topic": "What is English Grammar?",
+    "topic_hi": "अंग्रेज़ी व्याकरण क्या है?",
+    "introduction": {
+      "english": "English grammar is the rule system used to arrange words correctly in English.",
+      "hindi": "अंग्रेज़ी व्याकरण वह नियम प्रणाली है जिसके द्वारा अंग्रेज़ी में शब्दों को सही क्रम में रखा जाता है।"
+    },
+    "types": []
+  },
+  {
+    "topic": "Importance of Grammar",
+    "topic_hi": "व्याकरण का महत्व",
+    "introduction": {
+      "english": "Grammar helps us communicate clearly and correctly.",
+      "hindi": "व्याकरण हमें स्पष्ट और सही तरीके से संवाद करने में सहायता करता है।"
+    },
+    "types": []
+  },
+  {
+    "topic": "Communication Basics",
+    "topic_hi": "संचार के मूल तत्व",
+    "introduction": {
+      "english": "Communication is the process of sharing information, thoughts, or feelings.",
+      "hindi": "संचार वह प्रक्रिया है जिसमें लोग विचार, जानकारी या भावनाएँ एक-दूसरे तक पहुँचाते हैं।"
+    },
+    "types": [
+      {
+        "name": "Sender",
+        "description": "जो message भेजता है।"
+      },
+      {
+        "name": "Message",
+        "description": "जो information भेजी जा रही है।"
+      },
+      {
+        "name": "Receiver",
+        "description": "जो message receive करता है।"
+      }
+    ]
+  }
+]

@@ -1,0 +1,2873 @@
+[
+  {
+    "word": "a bit",
+    "meaning": "Slightly; to a small degree",
+    "pronunciation": "",
+    "definition": "Slightly; to a small degree",
+    "example": "The result is a bit disappointing.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Marginally, Incrementally, Moderately, Perceptibly, Tangentially"
+  },
+  {
+    "word": "a lot",
+    "meaning": "A large number or amount of something",
+    "pronunciation": "",
+    "definition": "A large number or amount of something",
+    "example": "There is a lot of work to be done.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Abundantly, Copiously, Prolifically, Extensively, Considerably"
+  },
+  {
+    "word": "able",
+    "meaning": "Having the power, skill, means, or opportunity to do something",
+    "pronunciation": "",
+    "definition": "Having the power, skill, means, or opportunity to do something",
+    "example": "We should be able to solve this quickly.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Capable, Competent, Proficient, Qualified, Adept"
+  },
+  {
+    "word": "abstruse",
+    "meaning": "Difficult to understand; obscure or complex in nature",
+    "pronunciation": "",
+    "definition": "Difficult to understand; obscure or complex in nature",
+    "example": "The professor's abstruse lecture on quantum mechanics left many students confused.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Formal Educational Vocabulary"
+  },
+  {
+    "word": "absurd",
+    "meaning": "Wildly unreasonable, illogical, or inappropriate.",
+    "pronunciation": "",
+    "definition": "Wildly unreasonable, illogical, or inappropriate.",
+    "example": "The idea of banning books in a school library is simply absurd.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Bruh / No Way"
+  },
+  {
+    "word": "abysmal",
+    "meaning": "Extremely bad; appalling.",
+    "pronunciation": "",
+    "definition": "Extremely bad; appalling.",
+    "example": "The customer service at the hotel was abysmal.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Trash / Mid"
+  },
+  {
+    "word": "accountable",
+    "meaning": "Required or expected to justify decisions and actions (strong alternative to 'responsible').",
+    "pronunciation": "",
+    "definition": "Required or expected to justify decisions and actions (strong alternative to 'responsible').",
+    "example": "Every team member is accountable for their deliverables and deadlines.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "accreditation",
+    "meaning": "Official recognition that an institution or program meets established standards",
+    "pronunciation": "",
+    "definition": "Official recognition that an institution or program meets established standards",
+    "example": "The medical school received full accreditation from the national board.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Formal Educational Vocabulary"
+  },
+  {
+    "word": "acrimonious",
+    "meaning": "Bitter and angry in tone; sharp and caustic.",
+    "pronunciation": "",
+    "definition": "Bitter and angry in tone; sharp and caustic.",
+    "example": "The partnership ended in an acrimonious public dispute.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Beef / Drama"
+  },
+  {
+    "word": "adept",
+    "meaning": "Very skilled or proficient at something.",
+    "pronunciation": "",
+    "definition": "Very skilled or proficient at something.",
+    "example": "She is adept at navigating complex negotiations.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Pro / Goated At"
+  },
+  {
+    "word": "admonish",
+    "meaning": "To warn or reprimand firmly but not harshly",
+    "pronunciation": "",
+    "definition": "To warn or reprimand firmly but not harshly",
+    "example": "The dean admonished students who violated the code of conduct.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Formal Educational Vocabulary"
+  },
+  {
+    "word": "affirmative",
+    "meaning": "Expressing agreement or a positive assertion; supporting a proposition",
+    "pronunciation": "",
+    "definition": "Expressing agreement or a positive assertion; supporting a proposition",
+    "example": "The committee gave an affirmative response to the research proposal.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Formal Educational Vocabulary"
+  },
+  {
+    "word": "always",
+    "meaning": "",
+    "pronunciation": "",
+    "definition": "at all times; on all occasions.",
+    "example": "",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Uncategorized"
+  },
+  {
+    "word": "amiable",
+    "meaning": "Having or displaying a friendly and pleasant manner.",
+    "pronunciation": "",
+    "definition": "Having or displaying a friendly and pleasant manner.",
+    "example": "The new neighbour was amiable and quickly became part of the community.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Chill / Good Vibes"
+  },
+  {
+    "word": "amplify",
+    "meaning": "To increase the volume, significance, or effect of something (strong alternative to 'increase' or 'boost').",
+    "pronunciation": "",
+    "definition": "To increase the volume, significance, or effect of something (strong alternative to 'increase' or 'boost').",
+    "example": "Social media was used to amplify the product launch campaign globally.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "analytical",
+    "meaning": "Relating to the separation of something into its component elements (strong alternative to 'good with numbers' or 'logical').",
+    "pronunciation": "",
+    "definition": "",
+    "example": "Her analytical approach helped identify the root cause of the issue.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "and",
+    "meaning": "Used to connect words, clauses, or sentences (overused connector)",
+    "pronunciation": "",
+    "definition": "Used to connect words, clauses, or sentences (overused connector)",
+    "example": "He studied and he passed the exam.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Furthermore, In Addition, Moreover, Coupled With, Alongside"
+  },
+  {
+    "word": "anyone",
+    "meaning": "Any person or people in general",
+    "pronunciation": "",
+    "definition": "Any person or people in general",
+    "example": "Anyone can see this is flawed.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: All Individuals, Any Given Party, Whoever, Each Stakeholder, Every Constituent"
+  },
+  {
+    "word": "appalling",
+    "meaning": "Causing dismay or horror; shockingly bad.",
+    "pronunciation": "",
+    "definition": "Causing dismay or horror; shockingly bad.",
+    "example": "The conditions in the factory were appalling and needed immediate attention.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Cringe / Yikes"
+  },
+  {
+    "word": "aptitude",
+    "meaning": "A natural ability or talent, especially for learning",
+    "pronunciation": "",
+    "definition": "A natural ability or tendency to learn or master a skill.",
+    "example": "The aptitude test revealed her exceptional talent for mathematics.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Formal Educational Vocabulary"
+  },
+  {
+    "word": "arbitrary",
+    "meaning": "Based on random choice or personal whim, not reason or system.",
+    "pronunciation": "",
+    "definition": "Based on random choice or personal whim, not reason or system.",
+    "example": "The selection process seemed arbitrary and unfair to many applicants.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Random / Out Of Nowhere"
+  },
+  {
+    "word": "archaic",
+    "meaning": "Very old or old-fashioned; belonging to an earlier period.",
+    "pronunciation": "",
+    "definition": "Very old or old-fashioned; belonging to an earlier period.",
+    "example": "Some of the laws on the books are archaic and long overdue for reform.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Boomer / Old"
+  },
+  {
+    "word": "assimilate",
+    "meaning": "To absorb and integrate information or ideas fully",
+    "pronunciation": "",
+    "definition": "To absorb and integrate information or ideas fully",
+    "example": "Students were given time to assimilate the complex theory before being tested.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Formal Educational Vocabulary"
+  },
+  {
+    "word": "astounding",
+    "meaning": "Surprisingly impressive or notable; causing great astonishment.",
+    "pronunciation": "",
+    "definition": "Surprisingly impressive or notable; causing great astonishment.",
+    "example": "The magician's final trick was absolutely astounding.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Mind-blowing"
+  },
+  {
+    "word": "attrition",
+    "meaning": "The gradual reduction in workforce or customer base (strong alternative to 'loss' or 'leaving').",
+    "pronunciation": "",
+    "definition": "The gradual reduction in workforce or customer base (strong alternative to 'loss' or 'leaving').",
+    "example": "High attrition rates indicate poor employee engagement or satisfaction.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "audacious",
+    "meaning": "Showing a willingness to take surprisingly bold risks.",
+    "pronunciation": "",
+    "definition": "",
+    "example": "Her audacious proposal to redesign the entire system stunned the board.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Savage / Bold"
+  },
+  {
+    "word": "authentic",
+    "meaning": "Of undisputed origin and not a copy; genuine.",
+    "pronunciation": "",
+    "definition": "Of undisputed origin and not a copy; genuine.",
+    "example": "Visitors praised the restaurant for its authentic regional cuisine.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Real / Og"
+  },
+  {
+    "word": "authoritative",
+    "meaning": "Commanding and self-confident; able to be trusted (strong alternative to 'reliable' or 'expert').",
+    "pronunciation": "",
+    "definition": "Able to be trusted as being accurate or true.",
+    "example": "She is an authoritative voice in the field of corporate governance.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "baccalaureate",
+    "meaning": "An undergraduate degree awarded by a college or university",
+    "pronunciation": "",
+    "definition": "An undergraduate degree awarded by a college or university",
+    "example": "She completed her baccalaureate in literature before pursuing a master's degree.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Formal Educational Vocabulary"
+  },
+  {
+    "word": "baffled",
+    "meaning": "Totally bewildered or perplexed.",
+    "pronunciation": "",
+    "definition": "Totally bewilder or perplex.",
+    "example": "Scientists were baffled by the unusual star formation.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Confused / What Is Happening"
+  },
+  {
+    "word": "best",
+    "meaning": "Of the most excellent, effective, or desirable type",
+    "pronunciation": "",
+    "definition": "Of the most excellent, effective, or desirable type",
+    "example": "This is the best approach available.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Optimal, Superlative, Unparalleled, Preeminent, Definitive"
+  },
+  {
+    "word": "better",
+    "meaning": "More desirable, satisfactory, or effective",
+    "pronunciation": "",
+    "definition": "More desirable, satisfactory, or effective",
+    "example": "There must be a better solution.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Superior, Optimal, Enhanced, Refined, Preferable"
+  },
+  {
+    "word": "bewildered",
+    "meaning": "Completely puzzled or confused; lost in thought.",
+    "pronunciation": "",
+    "definition": "Perplexed and confused; very puzzled.",
+    "example": "He looked utterly bewildered by the complex legal document.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: I Can't Even / Bruh"
+  },
+  {
+    "word": "bibliographic",
+    "meaning": "Relating to the description and history of books and other publications",
+    "pronunciation": "",
+    "definition": "Relating to the description and history of books and other publications",
+    "example": "The bibliographic details of each source must be accurately cited in the paper.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Formal Educational Vocabulary"
+  },
+  {
+    "word": "big",
+    "meaning": "à¤¬à¤¡à¤¼à¤¾",
+    "pronunciation": "",
+    "definition": "",
+    "example": "That is a big decision to make.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Colossal, Immense, Monumental, Vast, Formidable"
+  },
+  {
+    "word": "brazen",
+    "meaning": "Bold and without shame; flagrantly obvious.",
+    "pronunciation": "",
+    "definition": "Bold and without shame; flagrantly obvious.",
+    "example": "The thief made a brazen attempt to steal in broad daylight.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Savage / No Filter"
+  },
+  {
+    "word": "cadre",
+    "meaning": "A small group of trained people at the core of an organization",
+    "pronunciation": "",
+    "definition": "A small group of trained people at the core of an organization",
+    "example": "A cadre of experienced educators designed the new curriculum framework.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Formal Educational Vocabulary"
+  },
+  {
+    "word": "candid",
+    "meaning": "Truthful and straightforward; frank.",
+    "pronunciation": "",
+    "definition": "Truthful and straightforward; frank in expressing one's views.",
+    "example": "She was refreshingly candid about the challenges the company faced.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: No Cap / Keeping It Real"
+  },
+  {
+    "word": "canonical",
+    "meaning": "Conforming to established academic or scholarly standards; widely accepted",
+    "pronunciation": "",
+    "definition": "Conforming to established academic or scholarly standards; widely accepted",
+    "example": "Shakespeare's works are considered canonical texts in English literature courses.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Formal Educational Vocabulary"
+  },
+  {
+    "word": "capitalize",
+    "meaning": "To take advantage of a situation or resource (strong alternative to 'take advantage of').",
+    "pronunciation": "",
+    "definition": "To take advantage of a situation or resource (strong alternative to 'take advantage of').",
+    "example": "We should capitalize on this market opportunity before competitors do.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "captivating",
+    "meaning": "Capable of attracting and holding interest; charming or fascinating.",
+    "pronunciation": "",
+    "definition": "Capable of attracting and holding interest; charming or fascinating.",
+    "example": "The documentary was so captivating that no one left the room.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Fire / Lit"
+  },
+  {
+    "word": "care",
+    "meaning": "Feel concern or interest; attach importance to something",
+    "pronunciation": "",
+    "definition": "Feel concern or interest; attach importance to something",
+    "example": "We should care about accuracy.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Prioritize, Value, Esteem, Advocate, Champion"
+  },
+  {
+    "word": "catalyst",
+    "meaning": "A person or thing that causes or accelerates change (strong alternative to 'cause' or 'trigger').",
+    "pronunciation": "",
+    "definition": "A person or thing that causes or accelerates change (strong alternative to 'cause' or 'trigger').",
+    "example": "The new CEO served as a catalyst for cultural transformation in the organization.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "catastrophic",
+    "meaning": "Involving or causing sudden great damage or suffering; disastrous.",
+    "pronunciation": "",
+    "definition": "Involving or causing sudden great damage or suffering; disastrous.",
+    "example": "The flood was catastrophic for the farming communities.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Big L / L"
+  },
+  {
+    "word": "certain",
+    "meaning": "Known for sure; established beyond doubt",
+    "pronunciation": "",
+    "definition": "",
+    "example": "There is a certain degree of risk involved.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Incontrovertible, Definitive, Unequivocal, Absolute, Irrefutable"
+  },
+  {
+    "word": "certify",
+    "meaning": "To officially confirm or attest to something, especially qualifications",
+    "pronunciation": "",
+    "definition": "To officially confirm or attest to something, especially qualifications",
+    "example": "The board will certify all graduates who complete the required coursework.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Formal Educational Vocabulary"
+  },
+  {
+    "word": "change",
+    "meaning": "Make or become different; alter",
+    "pronunciation": "",
+    "definition": "To make or become different.",
+    "example": "We need to change our strategy.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Transform, Revolutionize, Overhaul, Reconstitute, Metamorphose"
+  },
+  {
+    "word": "cherished",
+    "meaning": "Held dear; protected and cared for lovingly.",
+    "pronunciation": "",
+    "definition": "Held dear; protected and cared for lovingly.",
+    "example": "That photograph is one of her most cherished possessions.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Obsessed / Stan"
+  },
+  {
+    "word": "clandestine",
+    "meaning": "Kept secret or done secretively, especially because illicit.",
+    "pronunciation": "",
+    "definition": "Kept secret or done secretively, especially because illicit.",
+    "example": "The journalists conducted a clandestine investigation into corruption.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: On The Low / Lowkey"
+  },
+  {
+    "word": "collaborative",
+    "meaning": "Involving two or more parties working jointly toward a shared goal",
+    "pronunciation": "",
+    "definition": "Involving two or more parties working jointly toward a shared goal",
+    "example": "Collaborative learning encourages students to solve problems together.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Formal Educational Vocabulary"
+  },
+  {
+    "word": "commencement",
+    "meaning": "???????? ??????",
+    "pronunciation": "",
+    "definition": "A ceremony in which degrees or diplomas are conferred on graduating students.",
+    "example": "The commencement ceremony was attended by hundreds of proud families.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Formal Educational Vocabulary"
+  },
+  {
+    "word": "commendable",
+    "meaning": "Deserving praise; worthy of admiration.",
+    "pronunciation": "",
+    "definition": "Deserving praise; worthy of admiration.",
+    "example": "His effort to volunteer every weekend was truly commendable.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Big Ups / Props"
+  },
+  {
+    "word": "compassionate",
+    "meaning": "Feeling or showing sympathy and concern for others.",
+    "pronunciation": "",
+    "definition": "",
+    "example": "The compassionate nurse stayed late to comfort the anxious patient.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Wholesome"
+  },
+  {
+    "word": "competency",
+    "meaning": "The ability to do something successfully or efficiently; a skill or qualification",
+    "pronunciation": "",
+    "definition": "The ability to do something successfully or efficiently; a skill or qualification",
+    "example": "Digital literacy is a core competency in the modern educational framework.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Formal Educational Vocabulary"
+  },
+  {
+    "word": "compulsory",
+    "meaning": "????????",
+    "pronunciation": "",
+    "definition": "Required by law or a rule; obligatory.",
+    "example": "Attendance at orientation is compulsory for all first-year students.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Formal Educational Vocabulary"
+  },
+  {
+    "word": "confer",
+    "meaning": "To grant or bestow a title, degree, or benefit formally",
+    "pronunciation": "",
+    "definition": "To grant or bestow a title, degree, or benefit formally",
+    "example": "The university will confer honorary degrees upon three distinguished scholars.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Formal Educational Vocabulary"
+  },
+  {
+    "word": "consortium",
+    "meaning": "A group of institutions or individuals working together toward a common goal",
+    "pronunciation": "",
+    "definition": "A group of institutions or individuals working together toward a common goal",
+    "example": "The university consortium jointly developed an online learning platform.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Formal Educational Vocabulary"
+  },
+  {
+    "word": "constructivism",
+    "meaning": "A theory that learners construct knowledge from their own experiences",
+    "pronunciation": "",
+    "definition": "A theory suggesting that children actively build their language skills through their interactions with the physical and social world.",
+    "example": "The teacher's approach was rooted in constructivism, emphasizing hands-on activities.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Formal Educational Vocabulary"
+  },
+  {
+    "word": "contemporaneous",
+    "meaning": "Existing or occurring at the same period of time",
+    "pronunciation": "",
+    "definition": "Existing or occurring at the same period of time",
+    "example": "The two scientific discoveries were contemporaneous, arising independently in different countries.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Formal Educational Vocabulary"
+  },
+  {
+    "word": "contingency",
+    "meaning": "A provision for a possible event or circumstance; a backup plan (strong alternative to 'backup plan').",
+    "pronunciation": "",
+    "definition": "A provision for a possible event or circumstance; a backup plan (strong alternative to 'backup plan').",
+    "example": "Every project manager should have a contingency plan for unexpected delays.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "controversial",
+    "meaning": "Giving rise to public disagreement; debatable.",
+    "pronunciation": "",
+    "definition": "Giving rise to public disagreement; debatable.",
+    "example": "The new education policy was controversial among teachers and parents alike.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Hot Take"
+  },
+  {
+    "word": "creative",
+    "meaning": "Relating to or involving the imagination or original ideas",
+    "pronunciation": "",
+    "definition": "Relating to or involving the imagination or original ideas",
+    "example": "We need creative solutions to this challenge.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Innovative, Imaginative, Inventive, Ingenious, Pioneering"
+  },
+  {
+    "word": "credentialing",
+    "meaning": "The process of verifying and documenting a person's qualifications",
+    "pronunciation": "",
+    "definition": "The process of verifying and documenting a person's qualifications",
+    "example": "Teacher credentialing ensures that all educators meet professional standards.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Formal Educational Vocabulary"
+  },
+  {
+    "word": "crestfallen",
+    "meaning": "Sad and disappointed.",
+    "pronunciation": "",
+    "definition": "Sad and disappointed.",
+    "example": "He was crestfallen when his business proposal was rejected.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Big Sad / L"
+  },
+  {
+    "word": "cryptic",
+    "meaning": "Having a meaning that is mysterious or obscure.",
+    "pronunciation": "",
+    "definition": "Having a meaning that is mysterious or obscure.",
+    "example": "His cryptic message left everyone guessing what he had planned.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Vague Posting / Posting With No Context"
+  },
+  {
+    "word": "culminate",
+    "meaning": "To reach the highest or final point; to result in (strong alternative to 'end in').",
+    "pronunciation": "",
+    "definition": "To reach the highest or final point; to result in (strong alternative to 'end in').",
+    "example": "Years of research culminated in a breakthrough medical discovery.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "curate",
+    "meaning": "To select, organize, and look after items or information carefully (strong alternative to 'choose' or 'collect').",
+    "pronunciation": "",
+    "definition": "To select, organize, and look after items or information carefully (strong alternative to 'choose' or 'collect').",
+    "example": "The content team curated a library of resources for professional development.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "cynical",
+    "meaning": "Believing the worst of people; distrustful of human sincerity.",
+    "pronunciation": "",
+    "definition": "Believing the worst of people; distrustful of human sincerity.",
+    "example": "His cynical view of politics made him sceptical of all promises.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Based / Not Buying It"
+  },
+  {
+    "word": "daunting",
+    "meaning": "Seeming difficult to deal with in prospect; intimidating.",
+    "pronunciation": "",
+    "definition": "Seeming difficult to deal with in prospect; intimidating.",
+    "example": "Climbing the north face of the mountain was a daunting challenge.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Big Task / Hard Mode"
+  },
+  {
+    "word": "Deal",
+    "meaning": "à¤¸à¥Œà¤¦à¤¾",
+    "pronunciation": "",
+    "definition": "à¤¸à¥Œà¤¦à¤¾",
+    "example": "They signed a big business deal.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Uncategorized"
+  },
+  {
+    "word": "devastating",
+    "meaning": "Highly destructive or damaging; causing severe shock or grief.",
+    "pronunciation": "",
+    "definition": "Highly destructive or damaging; causing severe shock or grief.",
+    "example": "The news of the accident was devastating for the entire community.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Rekt / Destroyed"
+  },
+  {
+    "word": "didactic",
+    "meaning": "Intended to teach or instruct, especially in a morally instructive manner",
+    "pronunciation": "",
+    "definition": "Intended to teach or instruct, especially in a morally instructive manner",
+    "example": "The didactic approach of the lesson effectively conveyed complex ethical principles.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Formal Educational Vocabulary"
+  },
+  {
+    "word": "different",
+    "meaning": "Not the same as another or each other; unlike in nature, form, or quality",
+    "pronunciation": "",
+    "definition": "Not the same as another or each other; unlike in nature, form, or quality",
+    "example": "We need a different perspective.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Divergent, Contrasting, Disparate, Distinct, Heterogeneous"
+  },
+  {
+    "word": "differentiation",
+    "meaning": "The process of adapting teaching to meet individual student needs",
+    "pronunciation": "",
+    "definition": "Adapting teaching methods to meet the diverse needs of learners",
+    "example": "Curriculum differentiation allows gifted students to work at an advanced pace.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Formal Educational Vocabulary"
+  },
+  {
+    "word": "diligent",
+    "meaning": "Having or showing care and conscientiousness in one's work.",
+    "pronunciation": "",
+    "definition": "Having or showing care and conscientiousness in one's work.",
+    "example": "She was a diligent student who never missed a revision session.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Grinder / On The Grind"
+  },
+  {
+    "word": "discerning",
+    "meaning": "Having or showing good judgement; perceptive.",
+    "pronunciation": "",
+    "definition": "Having or showing good judgement; perceptive.",
+    "example": "A discerning reader will notice the subtle irony in the novel.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Woke / Based"
+  },
+  {
+    "word": "discourse",
+    "meaning": "Written or spoken communication or debate on a subject",
+    "pronunciation": "",
+    "definition": "Written or spoken communication or debate on a subject",
+    "example": "Academic discourse requires logical reasoning and evidence-based argumentation.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Formal Educational Vocabulary"
+  },
+  {
+    "word": "disheartened",
+    "meaning": "Having lost determination or confidence; dispirited.",
+    "pronunciation": "",
+    "definition": "Having lost determination or confidence; dispirited.",
+    "example": "She was disheartened by the lack of support from her colleagues.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Sad React / Big Sad"
+  },
+  {
+    "word": "disparage",
+    "meaning": "Regard or represent as being of little worth; belittle.",
+    "pronunciation": "",
+    "definition": "Regard or represent as being of little worth; belittle.",
+    "example": "Critics who disparage popular fiction often overlook its cultural value.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Trash / Clowning"
+  },
+  {
+    "word": "disruption",
+    "meaning": "A disturbance that interrupts an event or process; radical change (strong alternative to 'change' or 'shake-up').",
+    "pronunciation": "",
+    "definition": "A disturbance that interrupts an event or process; radical change (strong alternative to 'change' or 'shake-up').",
+    "example": "Digital disruption has transformed entire industries in the past decade.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "disseminate",
+    "meaning": "To spread information or knowledge widely",
+    "pronunciation": "",
+    "definition": "To spread information or knowledge widely",
+    "example": "The journal aims to disseminate research findings to educators worldwide.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Formal Educational Vocabulary"
+  },
+  {
+    "word": "distinguished",
+    "meaning": "Successful, authoritative, and commanding great respect.",
+    "pronunciation": "",
+    "definition": "Successful, authoritative, and commanding great respect.",
+    "example": "The distinguished professor delivered a compelling keynote address.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Goated / Elite"
+  },
+  {
+    "word": "doctoral",
+    "meaning": "Relating to the highest academic degree awarded by a university",
+    "pronunciation": "",
+    "definition": "Relating to the highest academic degree awarded by a university",
+    "example": "Doctoral candidates must defend their thesis before a panel of experts.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Formal Educational Vocabulary"
+  },
+  {
+    "word": "dubious",
+    "meaning": "Hesitating or doubting; of questionable value or truth.",
+    "pronunciation": "",
+    "definition": "Hesitating or doubting; of questionable value or truth.",
+    "example": "She gave him a dubious look when he claimed to have run a marathon.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Sus / Sketchy"
+  },
+  {
+    "word": "dumb",
+    "meaning": "Slow to learn or lacking intelligence",
+    "pronunciation": "",
+    "definition": "Slow to learn or lacking intelligence",
+    "example": "That was a dumb mistake.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Obtuse, Vacuous, Inane, Asinine, Fatuous"
+  },
+  {
+    "word": "dynamic",
+    "meaning": "Characterized by constant change, activity, or progress (strong alternative to 'active' or 'energetic').",
+    "pronunciation": "",
+    "definition": "Characterized by constant change, activity, or progress (strong alternative to 'active' or 'energetic').",
+    "example": "She is a dynamic leader who thrives in fast-paced environments.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "ebullient",
+    "meaning": "Cheerful and full of energy; exuberant.",
+    "pronunciation": "",
+    "definition": "Cheerful and full of energy; exuberant.",
+    "example": "The ebullient host made every guest feel immediately welcome.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Hyped / Lit"
+  },
+  {
+    "word": "edification",
+    "meaning": "The instruction or improvement of a person morally or intellectually",
+    "pronunciation": "",
+    "definition": "The instruction or improvement of a person morally or intellectually",
+    "example": "The lecture was designed for the edification of students new to philosophy.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Formal Educational Vocabulary"
+  },
+  {
+    "word": "effervescent",
+    "meaning": "Vivacious and enthusiastic; bubbly.",
+    "pronunciation": "",
+    "definition": "Vivacious and enthusiastic; bubbly.",
+    "example": "Her effervescent personality made the meeting far more enjoyable.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Vibe / Energy"
+  },
+  {
+    "word": "efficacy",
+    "meaning": "The ability to produce a desired result or effect; effectiveness",
+    "pronunciation": "",
+    "definition": "The ability to produce a desired result or effect; effectiveness",
+    "example": "Researchers studied the efficacy of interactive teaching methods in large classrooms.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Formal Educational Vocabulary"
+  },
+  {
+    "word": "effortlessly",
+    "meaning": "Done without apparent exertion; seeming to require no effort.",
+    "pronunciation": "",
+    "definition": "Done without apparent exertion; seeming to require no effort.",
+    "example": "She effortlessly solved every puzzle in the competition.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Slaying / Slay"
+  },
+  {
+    "word": "egregious",
+    "meaning": "Outstandingly bad; shocking.",
+    "pronunciation": "",
+    "definition": "Outstandingly bad; shocking.",
+    "example": "His egregious breach of trust ended the partnership immediately.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Big L / Trash / Yikes"
+  },
+  {
+    "word": "eloquence",
+    "meaning": "Fluent or persuasive speaking or writing.",
+    "pronunciation": "",
+    "definition": "Fluent or persuasive speaking or writing.",
+    "example": "The barrister's eloquence in court was admired by all.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Bars / Spitting"
+  },
+  {
+    "word": "eloquent",
+    "meaning": "Fluent or persuasive in speaking or writing.",
+    "pronunciation": "",
+    "definition": "Fluent or persuasive in speaking or writing.",
+    "example": "The lawyer delivered an eloquent closing argument.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Said / Dropped"
+  },
+  {
+    "word": "embody",
+    "meaning": "To be an expression of or give a tangible form to (strong alternative to 'represent' or 'show').",
+    "pronunciation": "",
+    "definition": "To be an expression of or give a tangible form to (strong alternative to 'represent' or 'show').",
+    "example": "She embodies the company's values of integrity, innovation, and inclusion.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "encompass",
+    "meaning": "To include a wide range of things (strong alternative to 'cover' or 'include').",
+    "pronunciation": "",
+    "definition": "To include a wide range of things (strong alternative to 'cover' or 'include').",
+    "example": "Our service offering encompasses consulting, training, and support.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "end",
+    "meaning": "Come or bring to a final point; finish",
+    "pronunciation": "",
+    "definition": "Come or bring to a final point; finish",
+    "example": "We must end this inefficiency.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Conclude, Terminate, Dissolve, Finalize, Extinguish"
+  },
+  {
+    "word": "enough",
+    "meaning": "As much or as many as required",
+    "pronunciation": "",
+    "definition": "As much or as many as required",
+    "example": "We do not have enough data to conclude.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Sufficient, Adequate, Requisite, Satisfactory, Commensurate"
+  },
+  {
+    "word": "enthusiastic",
+    "meaning": "Having or showing intense and eager enjoyment or interest.",
+    "pronunciation": "",
+    "definition": "Having or showing intense and eager enjoyment or interest.",
+    "example": "The students were enthusiastic about the science fair project.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Hyped / Stoked"
+  },
+  {
+    "word": "enumerate",
+    "meaning": "To mention a number of things one by one in a systematic way",
+    "pronunciation": "",
+    "definition": "To mention a number of things one by one in a systematic way",
+    "example": "The student was asked to enumerate the causes of World War I in the exam.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Formal Educational Vocabulary"
+  },
+  {
+    "word": "envision",
+    "meaning": "To imagine or conceive of something as a future possibility (strong alternative to 'imagine' or 'picture').",
+    "pronunciation": "",
+    "definition": "To imagine or conceive of something as a future possibility (strong alternative to 'imagine' or 'picture').",
+    "example": "The leadership team envisions a fully remote-first company by 2030.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "epistemology",
+    "meaning": "The branch of philosophy concerned with the nature and scope of knowledge",
+    "pronunciation": "",
+    "definition": "The branch of philosophy concerned with the theory of knowledge.",
+    "example": "Epistemology plays a central role in educational philosophy courses.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Formal Educational Vocabulary"
+  },
+  {
+    "word": "equitable",
+    "meaning": "Fair and impartial; treating everyone equally",
+    "pronunciation": "",
+    "definition": "Fair and impartial; treating everyone equally",
+    "example": "The school district developed an equitable resource allocation policy.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Formal Educational Vocabulary"
+  },
+  {
+    "word": "erudite",
+    "meaning": "Having or showing great knowledge or learning",
+    "pronunciation": "",
+    "definition": "Having or showing great knowledge or learning",
+    "example": "The erudite professor was celebrated for her groundbreaking research in linguistics.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Formal Educational Vocabulary"
+  },
+  {
+    "word": "everything",
+    "meaning": "à¤¸à¤¬ à¤•à¥à¤›",
+    "pronunciation": "",
+    "definition": "",
+    "example": "Everything about the proposal needs revision.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: All Facets, The Totality, Each Element, The Entirety, All Constituents"
+  },
+  {
+    "word": "everywhere",
+    "meaning": "In or to all places",
+    "pronunciation": "",
+    "definition": "In or to all places",
+    "example": "The impact was felt everywhere.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Ubiquitously, Pervasively, Universally, Comprehensively, Across The Board"
+  },
+  {
+    "word": "exceptional",
+    "meaning": "Unusually good; outstanding beyond what is usual or expected.",
+    "pronunciation": "",
+    "definition": "Unusually good; outstanding beyond what is usual or expected.",
+    "example": "The chef's dessert was truly exceptional â€” unlike anything I had tasted.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Fire / Slaps"
+  },
+  {
+    "word": "execute",
+    "meaning": "To carry out or put into effect a plan or order (strong alternative to 'do' or 'carry out').",
+    "pronunciation": "",
+    "definition": "To carry out or put into effect a plan or order (strong alternative to 'do' or 'carry out').",
+    "example": "The project manager executed the rollout plan flawlessly.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "exhilarated",
+    "meaning": "Feeling very happy, animated, and elated.",
+    "pronunciation": "",
+    "definition": "Feeling intensely alive and invigorated by excitement",
+    "example": "She felt exhilarated after finishing the marathon.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Hyped"
+  },
+  {
+    "word": "expedite",
+    "meaning": "To make a process happen sooner or more quickly (strong alternative to 'speed up').",
+    "pronunciation": "",
+    "definition": "To make a process happen sooner or more quickly (strong alternative to 'speed up').",
+    "example": "Please expedite the approval process so we can meet the deadline.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "expository",
+    "meaning": "Intended to explain or describe something clearly",
+    "pronunciation": "",
+    "definition": "Intended to explain or describe something clearly",
+    "example": "Students in grade eight are required to write an expository essay each semester.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Formal Educational Vocabulary"
+  },
+  {
+    "word": "exquisite",
+    "meaning": "Extremely beautiful and delicate; intensely felt.",
+    "pronunciation": "",
+    "definition": "Extremely beautiful and delicate; intensely felt.",
+    "example": "The craftsmanship on the vase was exquisite.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Aesthetic"
+  },
+  {
+    "word": "fact",
+    "meaning": "A thing that is known or proved to be true",
+    "pronunciation": "",
+    "definition": "A thing that is known or proved to be true",
+    "example": "The fact is that the data is unclear.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Veracity, Empirical Evidence, Substantiated Datum, Established Truth, Corroborated Finding"
+  },
+  {
+    "word": "feel",
+    "meaning": "????? ????",
+    "pronunciation": "",
+    "definition": "",
+    "example": "She did not feel comfortable with the decision.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Experience, Perceive, Sense, Discern, Undergo"
+  },
+  {
+    "word": "few",
+    "meaning": "à¤•à¥à¤› (à¤—à¤¿à¤¨à¤¤à¥€ à¤®à¥‡à¤‚)",
+    "pronunciation": "",
+    "definition": "",
+    "example": "Only a few candidates qualified.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: A Handful Of, A Select Number Of, A Limited Cohort, Scant, Sparse"
+  },
+  {
+    "word": "find",
+    "meaning": "???? / ?????",
+    "pronunciation": "",
+    "definition": "To discover the exact place of.",
+    "example": "We need to find a solution.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Discover, Ascertain, Unearth, Identify, Discern"
+  },
+  {
+    "word": "flabbergasted",
+    "meaning": "Extremely surprised and shocked.",
+    "pronunciation": "",
+    "definition": "Surprise (someone) greatly; astonish.",
+    "example": "He was flabbergasted when he discovered he had won the scholarship.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Shook / Can't Believe"
+  },
+  {
+    "word": "flamboyant",
+    "meaning": "Tending to attract attention because of confidence and stylishness.",
+    "pronunciation": "",
+    "definition": "Tending to attract attention because of confidence and stylishness.",
+    "example": "The designer was known for his flamboyant stage persona.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Extra / Doing The Most"
+  },
+  {
+    "word": "formative",
+    "meaning": "Relating to ongoing assessment used to monitor student learning progress",
+    "pronunciation": "",
+    "definition": "Relating to ongoing assessment used to monitor student learning progress",
+    "example": "Formative assessments help identify student misconceptions before the final exam.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Formal Educational Vocabulary"
+  },
+  {
+    "word": "formidable",
+    "meaning": "Inspiring fear or respect through being impressively large, powerful, or capable.",
+    "pronunciation": "",
+    "definition": "Inspiring fear or respect through being impressively large, powerful, or capable.",
+    "example": "The defending champions were a formidable opponent.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Beast Mode / Op"
+  },
+  {
+    "word": "fortify",
+    "meaning": "To strengthen or reinforce something (strong alternative to 'make stronger').",
+    "pronunciation": "",
+    "definition": "To strengthen or reinforce something (strong alternative to 'make stronger').",
+    "example": "The company will fortify its cybersecurity infrastructure this year.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "full",
+    "meaning": "Containing or holding as much or as many as possible; complete",
+    "pronunciation": "",
+    "definition": "Containing or holding as much or as many as possible; complete",
+    "example": "We need a full review of the process.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Exhaustive, Comprehensive, Thorough, All-encompassing, Complete"
+  },
+  {
+    "word": "furious",
+    "meaning": "Extremely angry; full of fierce rage.",
+    "pronunciation": "",
+    "definition": "Extremely angry.",
+    "example": "He was furious when he discovered his project had been plagiarised.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Triggered"
+  },
+  {
+    "word": "galvanize",
+    "meaning": "To shock or excite someone into taking action (strong alternative to 'motivate').",
+    "pronunciation": "",
+    "definition": "To shock or excite someone into taking action (strong alternative to 'motivate').",
+    "example": "The CEO's speech galvanized the team to exceed their quarterly targets.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "general",
+    "meaning": "Affecting or concerning all or most people, places, or things",
+    "pronunciation": "",
+    "definition": "Affecting or concerning all or most people, places, or things",
+    "example": "The presentation covered general concepts only.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Overarching, Comprehensive, Sweeping, Broad-spectrum, Holistic"
+  },
+  {
+    "word": "genuine",
+    "meaning": "Truly what something is said to be; authentic and sincere.",
+    "pronunciation": "",
+    "definition": "Truly what it is said to be; real and sincere.",
+    "example": "Her concern for the villagers was completely genuine.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Real / Lowkey Real"
+  },
+  {
+    "word": "graduate",
+    "meaning": "??????",
+    "pronunciation": "",
+    "definition": "",
+    "example": "She was among the first in her family to graduate from a university.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Formal Educational Vocabulary"
+  },
+  {
+    "word": "gregarious",
+    "meaning": "Fond of company; sociable.",
+    "pronunciation": "",
+    "definition": "Fond of company; sociable.",
+    "example": "His gregarious nature meant he always had a crowd of friends around him.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Social Butterfly / Vibe"
+  },
+  {
+    "word": "happen",
+    "meaning": "Take place, occur",
+    "pronunciation": "",
+    "definition": "Take place, occur",
+    "example": "What will happen next is uncertain.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Transpire, Materialize, Ensue, Unfold, Precipitate"
+  },
+  {
+    "word": "hilarious",
+    "meaning": "Extremely amusing; causing great laughter.",
+    "pronunciation": "",
+    "definition": "Extremely amusing; causing great laughter.",
+    "example": "His impersonation of the professor was absolutely hilarious.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Lol / Lmao"
+  },
+  {
+    "word": "hypocritical",
+    "meaning": "Behaving in a way that contradicts stated beliefs; two-faced.",
+    "pronunciation": "",
+    "definition": "Behaving in a way that contradicts stated beliefs; two-faced.",
+    "example": "It would be hypocritical to preach punctuality while always arriving late.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Two-faced / Cap"
+  },
+  {
+    "word": "idea",
+    "meaning": "A thought or suggestion as to a possible course of action",
+    "pronunciation": "",
+    "definition": "A thought or suggestion as to a possible course of action",
+    "example": "She had a great idea for the project.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Concept, Proposition, Hypothesis, Rationale, Conjecture"
+  },
+  {
+    "word": "illustrious",
+    "meaning": "Well known, respected, and admired for past achievements.",
+    "pronunciation": "",
+    "definition": "Well known, respected, and admired for past achievements.",
+    "example": "She joined an illustrious list of scientists to win the Nobel Prize.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Legendary / Goat"
+  },
+  {
+    "word": "immaculate",
+    "meaning": "Perfectly clean, neat, or tidy; free from flaws.",
+    "pronunciation": "",
+    "definition": "Perfectly clean, neat, or tidy; free from flaws.",
+    "example": "His presentation was immaculate â€” not a slide out of place.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Clean / On Fleek"
+  },
+  {
+    "word": "immersive",
+    "meaning": "Deeply engaging and absorbing, providing a rich learning environment",
+    "pronunciation": "",
+    "definition": "Deeply engaging and absorbing, providing a rich learning environment",
+    "example": "The language lab offers an immersive experience for students learning French.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Formal Educational Vocabulary"
+  },
+  {
+    "word": "impactful",
+    "meaning": "Having a major impact; producing a strong effect (strong alternative to 'effective' or 'makes a difference').",
+    "pronunciation": "",
+    "definition": "Having a major impact; producing a strong effect (strong alternative to 'effective' or 'makes a difference').",
+    "example": "The campaign was highly impactful, increasing brand awareness by 40%.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "impeccable",
+    "meaning": "In accordance with the highest standards; faultless.",
+    "pronunciation": "",
+    "definition": "In accordance with the highest standards; faultless.",
+    "example": "The tailor's craftsmanship was impeccable down to the last stitch.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: On Fleek / Perfect"
+  },
+  {
+    "word": "important",
+    "meaning": "Of great significance or value",
+    "pronunciation": "",
+    "definition": "Of great significance or value",
+    "example": "This is an important meeting.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Pivotal, Paramount, Indispensable, Consequential, Imperative"
+  },
+  {
+    "word": "impossible",
+    "meaning": "Not able to occur, exist, or be done",
+    "pronunciation": "",
+    "definition": "Not able to occur, exist, or be done",
+    "example": "Without funding, the project is impossible.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Unattainable, Insurmountable, Untenable, Inconceivable, Unfeasible"
+  },
+  {
+    "word": "impudent",
+    "meaning": "Not showing due respect; impertinent.",
+    "pronunciation": "",
+    "definition": "Not showing due respect; impertinent.",
+    "example": "His impudent remarks to the supervisor cost him a warning.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: No Filter / Savage"
+  },
+  {
+    "word": "incandescent",
+    "meaning": "Full of strong emotion; passionate; or emitting light when heated.",
+    "pronunciation": "",
+    "definition": "Full of strong emotion; passionate; or emitting light when heated.",
+    "example": "He was incandescent with rage when the deal fell through.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Boiling / Triggered"
+  },
+  {
+    "word": "incentivize",
+    "meaning": "To encourage a particular behavior by offering a reward (strong alternative to 'encourage' or 'reward').",
+    "pronunciation": "",
+    "definition": "To encourage a particular behavior by offering a reward (strong alternative to 'encourage' or 'reward').",
+    "example": "The company incentivizes innovation through quarterly bonus programs.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "incisive",
+    "meaning": "Intelligently analytical and clear-thinking; sharp.",
+    "pronunciation": "",
+    "definition": "Intelligently analytical and clear-thinking.",
+    "example": "The journalist's incisive questioning exposed the contradictions in the policy.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Big Brain / Facts"
+  },
+  {
+    "word": "incredulous",
+    "meaning": "Unwilling or unable to believe something; sceptical.",
+    "pronunciation": "",
+    "definition": "Unwilling or unable to believe something; sceptical.",
+    "example": "She gave an incredulous laugh when told the price of the handbag.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Shook / No Way"
+  },
+  {
+    "word": "inculcate",
+    "meaning": "To instill an idea or habit by persistent instruction",
+    "pronunciation": "",
+    "definition": "To instill an idea or habit by persistent instruction",
+    "example": "Teachers seek to inculcate a love of learning from an early age.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Formal Educational Vocabulary"
+  },
+  {
+    "word": "indefatigable",
+    "meaning": "Persisting tirelessly; incapable of being fatigued.",
+    "pronunciation": "",
+    "definition": "Persisting tirelessly; incapable of being fatigued.",
+    "example": "She was an indefatigable campaigner for environmental rights.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: No Days Off / Grinding"
+  },
+  {
+    "word": "indignant",
+    "meaning": "Feeling or showing anger because of something unjust.",
+    "pronunciation": "",
+    "definition": "Feeling or showing anger or annoyance at what is perceived as unfair treatment.",
+    "example": "She was indignant when the waiter ignored her for fifteen minutes.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Pressed / Salty"
+  },
+  {
+    "word": "indolent",
+    "meaning": "Wanting to avoid activity or exertion; lazy.",
+    "pronunciation": "",
+    "definition": "Wanting to avoid activity or exertion; lazy.",
+    "example": "His indolent attitude towards deadlines frustrated the whole team.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Lazy / Npc Energy"
+  },
+  {
+    "word": "infuriating",
+    "meaning": "Making someone extremely angry and impatient.",
+    "pronunciation": "",
+    "definition": "Making someone extremely angry and impatient.",
+    "example": "The constant interruptions during the meeting were infuriating.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Triggered / Salty"
+  },
+  {
+    "word": "ingenious",
+    "meaning": "Clever, original, and inventive.",
+    "pronunciation": "",
+    "definition": "Clever, original, and inventive.",
+    "example": "The engineer came up with an ingenious solution to the drainage problem.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Big Brain / 5000 Iq"
+  },
+  {
+    "word": "initiate",
+    "meaning": "To cause a process to begin (strong alternative to 'start').",
+    "pronunciation": "",
+    "definition": "To cause a process to begin (strong alternative to 'start').",
+    "example": "The director will initiate a performance review cycle at the end of the month.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "inquiry",
+    "meaning": "An investigation into a topic or question; a formal examination",
+    "pronunciation": "",
+    "definition": "An investigation into a topic or question; a formal examination",
+    "example": "Inquiry-based learning encourages students to ask questions and discover answers.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Formal Educational Vocabulary"
+  },
+  {
+    "word": "interesting",
+    "meaning": "Arousing curiosity or attention",
+    "pronunciation": "",
+    "definition": "Arousing curiosity or attention",
+    "example": "The lecture was very interesting.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Captivating, Riveting, Engrossing, Stimulating, Compelling"
+  },
+  {
+    "word": "intoxicating",
+    "meaning": "Exhilaratingly exciting; causing a feeling of excitement and loss of inhibition.",
+    "pronunciation": "",
+    "definition": "Exhilaratingly exciting; causing a feeling of excitement and loss of inhibition.",
+    "example": "The atmosphere at the live concert was intoxicating.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Lit / Electric"
+  },
+  {
+    "word": "intrepid",
+    "meaning": "Fearless; adventurous and bold.",
+    "pronunciation": "",
+    "definition": "Fearless; adventurous and bold.",
+    "example": "The intrepid explorer mapped an uncharted region of the Amazon.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: No Fear / Built Different"
+  },
+  {
+    "word": "invigorating",
+    "meaning": "Making one feel strong, healthy, and full of energy.",
+    "pronunciation": "",
+    "definition": "Making one feel strong, healthy, and full of energy.",
+    "example": "The morning swim was invigorating and set the tone for the day.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Vibe / Good Vibes"
+  },
+  {
+    "word": "irreverent",
+    "meaning": "Showing a lack of respect for people or things generally taken seriously.",
+    "pronunciation": "",
+    "definition": "Showing a lack of respect for people or things generally taken seriously.",
+    "example": "His irreverent comedy challenged many long-held assumptions.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Savage / No Chill"
+  },
+  {
+    "word": "issue",
+    "meaning": "An important topic or problem for debate or discussion",
+    "pronunciation": "",
+    "definition": "An important topic or problem for debate or discussion",
+    "example": "There is a serious issue we must address.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Predicament, Grievance, Impediment, Contention, Disparity"
+  },
+  {
+    "word": "iterative",
+    "meaning": "Involving repetition of a process to achieve a desired result",
+    "pronunciation": "",
+    "definition": "Involving repetition of a process to achieve a desired result",
+    "example": "The iterative design process allowed students to improve their projects through feedback.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Formal Educational Vocabulary"
+  },
+  {
+    "word": "jubilant",
+    "meaning": "Feeling or expressing great happiness and triumph.",
+    "pronunciation": "",
+    "definition": "Feeling or expressing great happiness and triumph.",
+    "example": "The crowd was jubilant when the final whistle confirmed their victory.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: W / Let's Gooo"
+  },
+  {
+    "word": "just",
+    "meaning": "Exactly; only; a short time ago (overused filler)",
+    "pronunciation": "",
+    "definition": "Exactly; only; a short time ago (overused filler)",
+    "example": "I just wanted to say that it looks fine.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Precisely, Solely, Exclusively, Merely, Simply"
+  },
+  {
+    "word": "keep",
+    "meaning": "Have or retain possession of; continue to have",
+    "pronunciation": "",
+    "definition": "To continue to have or hold.",
+    "example": "We should keep improving our methods.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Sustain, Maintain, Perpetuate, Preserve, Uphold"
+  },
+  {
+    "word": "knowledge acquisition",
+    "meaning": "The process of gaining new information and integrating it with existing understanding",
+    "pronunciation": "",
+    "definition": "The process of gaining new information and integrating it with existing understanding",
+    "example": "Knowledge acquisition is accelerated through active learning strategies.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Formal Educational Vocabulary"
+  },
+  {
+    "word": "laborious",
+    "meaning": "Requiring considerable time and effort; not natural or fluent.",
+    "pronunciation": "",
+    "definition": "Requiring considerable time and effort; not natural or fluent.",
+    "example": "Translating the ancient manuscript was a laborious task.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Doing The Most / Extra"
+  },
+  {
+    "word": "languid",
+    "meaning": "Displaying or having a disinclination for physical exertion; slow.",
+    "pronunciation": "",
+    "definition": "Displaying or having a disinclination for physical exertion; slow.",
+    "example": "She spent the afternoon in languid contentment by the pool.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Lazy / Unbothered"
+  },
+  {
+    "word": "laudatory",
+    "meaning": "Expressing praise and commendation.",
+    "pronunciation": "",
+    "definition": "Expressing praise and commendation.",
+    "example": "The review was wholly laudatory, praising every aspect of the performance.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Big Ups / Props"
+  },
+  {
+    "word": "laureate",
+    "meaning": "A person who has been awarded a prize or honor, especially in academia",
+    "pronunciation": "",
+    "definition": "A person who has been awarded a prize or honor, especially in academia",
+    "example": "The Nobel laureate delivered a keynote address at the university convocation.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Formal Educational Vocabulary"
+  },
+  {
+    "word": "lecture",
+    "meaning": "?????????",
+    "pronunciation": "",
+    "definition": "An educational talk to an audience, especially one of students in a university.",
+    "example": "The guest lecture on climate change drew students from all departments.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Formal Educational Vocabulary"
+  },
+  {
+    "word": "legendary",
+    "meaning": "Remarkable enough to be famous; celebrated in stories and history.",
+    "pronunciation": "",
+    "definition": "Remarkable enough to be famous; celebrated in stories and history.",
+    "example": "She gave a legendary performance that critics still talk about decades later.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Goat"
+  },
+  {
+    "word": "less",
+    "meaning": "A smaller amount of; not as much",
+    "pronunciation": "",
+    "definition": "A smaller amount of; not as much",
+    "example": "We need less ambiguity in the proposal.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Diminished, Reduced, Curtailed, Attenuated, Contracted"
+  },
+  {
+    "word": "let",
+    "meaning": "Not prevent or forbid; allow",
+    "pronunciation": "",
+    "definition": "To allow something to happen.",
+    "example": "Let us consider all options.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Permit, Authorize, Sanction, Facilitate, Grant"
+  },
+  {
+    "word": "literacy",
+    "meaning": "????????",
+    "pronunciation": "",
+    "definition": "The ability to read and write.",
+    "example": "Financial literacy has been added to the high school curriculum.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Formal Educational Vocabulary"
+  },
+  {
+    "word": "long",
+    "meaning": "Having great length; a great distance or duration",
+    "pronunciation": "",
+    "definition": "Having great length; a great distance or duration",
+    "example": "This has been a long process.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Protracted, Extensive, Prolonged, Drawn-out, Interminable"
+  },
+  {
+    "word": "lot of",
+    "meaning": "A large quantity or amount of something",
+    "pronunciation": "",
+    "definition": "A large quantity or amount of something",
+    "example": "There is a lot of room for improvement.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Substantial, Considerable, Extensive, Significant, Ample"
+  },
+  {
+    "word": "ludicrous",
+    "meaning": "So foolish, unreasonable, or out of place as to be amusing.",
+    "pronunciation": "",
+    "definition": "So foolish, unreasonable, or out of place as to be amusing.",
+    "example": "The idea that cats planned the heist was absolutely ludicrous.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Bruh / Lmao That's Wild"
+  },
+  {
+    "word": "magnanimity",
+    "meaning": "The quality of being generous and forgiving.",
+    "pronunciation": "",
+    "definition": "The quality of being generous and forgiving.",
+    "example": "His magnanimity after the dispute restored goodwill between the teams.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Big Of Him / Wholesome"
+  },
+  {
+    "word": "magnanimous",
+    "meaning": "Very generous or forgiving, especially towards a rival.",
+    "pronunciation": "",
+    "definition": "Very generous or forgiving, especially towards a rival.",
+    "example": "The champion was magnanimous in victory, praising his competitor warmly.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Wholesome / Taking The High Road"
+  },
+  {
+    "word": "major",
+    "meaning": "????? ????",
+    "pronunciation": "",
+    "definition": "A student's principal subject or course of study.",
+    "example": "There was a major flaw in the design.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Fundamental, Critical, Substantial, Overriding, Seminal"
+  },
+  {
+    "word": "mandate",
+    "meaning": "An official instruction or authorization to carry out a policy",
+    "pronunciation": "",
+    "definition": "An official instruction or authorization to carry out a policy",
+    "example": "The ministry's mandate requires all schools to adopt inclusive education practices.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Formal Educational Vocabulary"
+  },
+  {
+    "word": "many",
+    "meaning": "à¤¬à¤¹à¥à¤¤ à¤¸à¤¾à¤°à¥‡",
+    "pronunciation": "",
+    "definition": "",
+    "example": "There are many ways to solve this problem.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Myriad, Multitudinous, Innumerable, Manifold, Plentiful"
+  },
+  {
+    "word": "matriculate",
+    "meaning": "To be enrolled in a college or university as a student",
+    "pronunciation": "",
+    "definition": "To be enrolled in a college or university as a student",
+    "example": "Over 500 students matriculated into the freshman class this year.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Formal Educational Vocabulary"
+  },
+  {
+    "word": "meagre",
+    "meaning": "Lacking in quantity or quality; insufficient.",
+    "pronunciation": "",
+    "definition": "Lacking in quantity or quality; insufficient.",
+    "example": "His meagre salary barely covered the rent.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Mid / Basic"
+  },
+  {
+    "word": "mentorship",
+    "meaning": "Guidance and support provided by an experienced person to a less experienced one",
+    "pronunciation": "",
+    "definition": "The guidance provided by a mentor, especially an experienced person in a company or educational institution.",
+    "example": "The faculty mentorship program pairs new students with doctoral advisors.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Formal Educational Vocabulary"
+  },
+  {
+    "word": "meticulous",
+    "meaning": "Showing great attention to detail; very careful and precise.",
+    "pronunciation": "",
+    "definition": "Showing great attention to detail; very careful and precise.",
+    "example": "The scientist was meticulous in recording every observation.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Extra / Doing The Most"
+  },
+  {
+    "word": "minor",
+    "meaning": "??? ????",
+    "pronunciation": "",
+    "definition": "A student's subsidiary subject or course of study.",
+    "example": "It was just a minor setback.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Peripheral, Inconsequential, Negligible, Trivial, Insubstantial"
+  },
+  {
+    "word": "mnemonic",
+    "meaning": "A device, pattern, or association used to aid memory and recall",
+    "pronunciation": "",
+    "definition": "",
+    "example": "The teacher taught students a mnemonic device to remember the periodic table.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Formal Educational Vocabulary"
+  },
+  {
+    "word": "monumental",
+    "meaning": "Of great importance or lasting significance; impressively large or grand.",
+    "pronunciation": "",
+    "definition": "Of great importance or lasting significance; impressively large or grand.",
+    "example": "Winning the championship was a monumental achievement for the entire team.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Epic"
+  },
+  {
+    "word": "more",
+    "meaning": "A greater or additional amount or degree",
+    "pronunciation": "",
+    "definition": "A greater or additional amount or degree",
+    "example": "We need more evidence to support the claim.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Additional, Supplementary, Augmented, Incremental, Expanded"
+  },
+  {
+    "word": "nefarious",
+    "meaning": "Wicked or criminal; villainous.",
+    "pronunciation": "",
+    "definition": "Wicked or criminal; villainous.",
+    "example": "The organisation was involved in nefarious schemes across three countries.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Sus / Shady"
+  },
+  {
+    "word": "negative",
+    "meaning": "Characterized by the absence of positive qualities; harmful",
+    "pronunciation": "",
+    "definition": "Characterized by the absence of positive qualities; harmful",
+    "example": "There were many negative outcomes.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Adverse, Detrimental, Deleterious, Inimical, Counterproductive"
+  },
+  {
+    "word": "new",
+    "meaning": "à¤¨à¤¯à¤¾",
+    "pronunciation": "",
+    "definition": "not existing before; made, introduced, or discovered recently.",
+    "example": "",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Uncategorized"
+  },
+  {
+    "word": "nice",
+    "meaning": "Pleasant, agreeable, or satisfactory",
+    "pronunciation": "",
+    "definition": "Pleasant, agreeable, or satisfactory",
+    "example": "It was a nice day for a walk.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Delightful, Charming, Exquisite, Gracious, Enchanting"
+  },
+  {
+    "word": "nominal",
+    "meaning": "Relating to or consisting of a name; token or minor in extent",
+    "pronunciation": "",
+    "definition": "Relating to or consisting of a name; token or minor in extent",
+    "example": "A nominal fee is charged for access to the university's research archives.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Formal Educational Vocabulary"
+  },
+  {
+    "word": "nonchalant",
+    "meaning": "Feeling or appearing casually calm and relaxed; not displaying anxiety.",
+    "pronunciation": "",
+    "definition": "Feeling or appearing casually calm and relaxed; not displaying anxiety.",
+    "example": "She answered the difficult question with a nonchalant shrug.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Chill / No Worries"
+  },
+  {
+    "word": "normal",
+    "meaning": "Conforming to a standard; usual, typical, or expected",
+    "pronunciation": "",
+    "definition": "Conforming to a standard; usual, typical, or expected",
+    "example": "This is normal behavior for the system.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Conventional, Standard, Customary, Prototypical, Archetypal"
+  },
+  {
+    "word": "nothing",
+    "meaning": "à¤•à¥à¤› à¤¨à¤¹à¥€à¤‚",
+    "pronunciation": "",
+    "definition": "",
+    "example": "Nothing about this is working.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Not A Single Element, Zero Evidence, No Substantive Data, An Absence, A Void"
+  },
+  {
+    "word": "old",
+    "meaning": "à¤ªà¥à¤°à¤¾à¤¨à¤¾",
+    "pronunciation": "",
+    "definition": "",
+    "example": "He visited the old building downtown.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Antiquated, Archaic, Venerable, Decrepit, Obsolete"
+  },
+  {
+    "word": "orchestrate",
+    "meaning": "To plan and coordinate elements of a complex event or situation (strong alternative to 'organize').",
+    "pronunciation": "",
+    "definition": "To plan and coordinate elements of a complex event or situation (strong alternative to 'organize').",
+    "example": "She orchestrated the product launch across three international markets.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "ostentatious",
+    "meaning": "Designed to impress or attract notice; showy.",
+    "pronunciation": "",
+    "definition": "Designed to impress or attract notice; showy.",
+    "example": "His ostentatious display of wealth made many uncomfortable.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Flexing / Showing Off"
+  },
+  {
+    "word": "other",
+    "meaning": "Used to refer to a person or thing that is different or distinct",
+    "pronunciation": "",
+    "definition": "Used to refer to a person or thing that is different or distinct",
+    "example": "We should consider other options.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Alternative, Supplementary, Ancillary, Complementary, Extraneous"
+  },
+  {
+    "word": "outperform",
+    "meaning": "To perform better than another entity (strong alternative to 'do better than').",
+    "pronunciation": "",
+    "definition": "To perform better than another entity (strong alternative to 'do better than').",
+    "example": "Our product consistently outperforms competitors in customer satisfaction scores.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "outsource",
+    "meaning": "To obtain goods or services from an outside supplier (strong alternative to 'give to someone else').",
+    "pronunciation": "",
+    "definition": "To obtain goods or services from an outside supplier (strong alternative to 'give to someone else').",
+    "example": "We decided to outsource payroll processing to reduce administrative burden.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "part",
+    "meaning": "A piece or segment of something",
+    "pronunciation": "",
+    "definition": "A piece or segment of something",
+    "example": "This is an important part of the process.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Component, Constituent, Integral Element, Facet, Segment"
+  },
+  {
+    "word": "pedagogy",
+    "meaning": "?????????????",
+    "pronunciation": "",
+    "definition": "The method and practice of teaching.",
+    "example": "Modern pedagogy emphasizes student-centered and inclusive approaches.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Formal Educational Vocabulary"
+  },
+  {
+    "word": "pensive",
+    "meaning": "Engaged in or reflecting deep or serious thought.",
+    "pronunciation": "",
+    "definition": "Engaged in or reflecting deep or serious thought.",
+    "example": "She sat in pensive silence, turning the problem over in her mind.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Big Think / Thinking Emoji"
+  },
+  {
+    "word": "peripheral",
+    "meaning": "Relating to or situated on the edge; of secondary importance.",
+    "pronunciation": "",
+    "definition": "Relating to or situated on the edge; of secondary importance.",
+    "example": "His role in the project was peripheral, but still valuable.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Side Quest / Background Character"
+  },
+  {
+    "word": "perpetuate",
+    "meaning": "To cause something to continue indefinitely (strong alternative to 'keep going').",
+    "pronunciation": "",
+    "definition": "To cause something to continue indefinitely (strong alternative to 'keep going').",
+    "example": "Outdated hiring processes can perpetuate systemic inequalities.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "pivotal",
+    "meaning": "Of crucial importance; central (strong alternative to 'very important' or 'key').",
+    "pronunciation": "",
+    "definition": "Of crucial importance; central (strong alternative to 'very important' or 'key').",
+    "example": "This partnership will play a pivotal role in our global expansion.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "plan",
+    "meaning": "????? ?????",
+    "pronunciation": "",
+    "definition": "",
+    "example": "We need a solid plan going forward.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Stratagem, Blueprint, Framework, Methodology, Schema"
+  },
+  {
+    "word": "poor",
+    "meaning": "Lacking sufficient money to live at a comfortable standard",
+    "pronunciation": "",
+    "definition": "Lacking sufficient money to live at a comfortable standard",
+    "example": "Many poor families struggle to survive.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Destitute, Impoverished, Indigent, Penurious, Penniless"
+  },
+  {
+    "word": "positive",
+    "meaning": "Constructive, optimistic, or confident in a vague sense",
+    "pronunciation": "",
+    "definition": "",
+    "example": "We received positive feedback from the team.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Affirmative, Constructive, Efficacious, Propitious, Auspicious"
+  },
+  {
+    "word": "possible",
+    "meaning": "Able to be done; within the power or capacity of someone or something",
+    "pronunciation": "",
+    "definition": "Able to be done; within the power or capacity of someone or something",
+    "example": "It is possible to achieve this goal.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Feasible, Viable, Attainable, Plausible, Practicable"
+  },
+  {
+    "word": "practicum",
+    "meaning": "A practical section of an educational program in a real-world setting",
+    "pronunciation": "",
+    "definition": "A practical section of an educational program in a real-world setting",
+    "example": "Student teachers complete a practicum in local schools before graduation.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Formal Educational Vocabulary"
+  },
+  {
+    "word": "precarious",
+    "meaning": "Not securely held; dependent on chance; uncertain.",
+    "pronunciation": "",
+    "definition": "Not securely held; dependent on chance; uncertain.",
+    "example": "The company's financial position is precarious after years of losses.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: On Thin Ice / Shaky"
+  },
+  {
+    "word": "precipitous",
+    "meaning": "Dangerously high or steep; done suddenly and without careful consideration.",
+    "pronunciation": "",
+    "definition": "Dangerously high or steep; done suddenly and without careful consideration.",
+    "example": "The company's precipitous decline shocked investors.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Big Drop / Fell Off"
+  },
+  {
+    "word": "prerequisite",
+    "meaning": "A required condition or course that must be fulfilled before another",
+    "pronunciation": "",
+    "definition": "Something required as a prior condition before something else can happen.",
+    "example": "Statistics is a prerequisite for enrollment in the advanced research methods course.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Formal Educational Vocabulary"
+  },
+  {
+    "word": "problem",
+    "meaning": "A matter or situation regarded as unwelcome or harmful",
+    "pronunciation": "",
+    "definition": "A matter or situation regarded as unwelcome or harmful",
+    "example": "We have a big problem to solve.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Quandary, Dilemma, Conundrum, Impediment, Obstacle"
+  },
+  {
+    "word": "procurement",
+    "meaning": "The action of obtaining goods or services (strong alternative to 'buying' or 'getting').",
+    "pronunciation": "",
+    "definition": "The action of obtaining goods or services (strong alternative to 'buying' or 'getting').",
+    "example": "The procurement team negotiated favorable terms with our suppliers.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "proficiency",
+    "meaning": "A high degree of skill or competence in a particular area",
+    "pronunciation": "",
+    "definition": "A high level of skill or ability in a subject or language",
+    "example": "Students must demonstrate language proficiency before enrolling in advanced courses.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Formal Educational Vocabulary"
+  },
+  {
+    "word": "profound",
+    "meaning": "Very great or intense; having deep meaning or insight.",
+    "pronunciation": "",
+    "definition": "Very deep and meaningful; having a strong and lasting impact.",
+    "example": "The philosopher's words had a profound impact on her worldview.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Deep / Hits Different"
+  },
+  {
+    "word": "prolific",
+    "meaning": "Producing many works, results, or offspring.",
+    "pronunciation": "",
+    "definition": "Producing many works, results, or offspring.",
+    "example": "She was a prolific author, publishing four novels in three years.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Goated / Machine"
+  },
+  {
+    "word": "propel",
+    "meaning": "To drive forward or motivate toward a goal (strong alternative to 'push' or 'motivate').",
+    "pronunciation": "",
+    "definition": "To drive forward or motivate toward a goal (strong alternative to 'push' or 'motivate').",
+    "example": "The strategic investment will propel the company into new growth markets.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "propitious",
+    "meaning": "Giving or indicating a good chance of success; favourable.",
+    "pronunciation": "",
+    "definition": "Giving or indicating a good chance of success; favourable.",
+    "example": "The calm weather was propitious for the yacht race.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Good Vibes / W Moment"
+  },
+  {
+    "word": "propound",
+    "meaning": "To put forward for consideration; to propose (strong alternative to 'suggest' or 'put forward').",
+    "pronunciation": "",
+    "definition": "To put forward for consideration; to propose (strong alternative to 'suggest' or 'put forward').",
+    "example": "The researcher propounded a new theory of organizational behavior.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "provisional",
+    "meaning": "Arranged or existing for the present; temporary",
+    "pronunciation": "",
+    "definition": "Arranged or existing for the present; temporary",
+    "example": "The student received a provisional acceptance pending final exam results.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Formal Educational Vocabulary"
+  },
+  {
+    "word": "provocative",
+    "meaning": "Deliberately causing a strong reaction, typically anger or interest.",
+    "pronunciation": "",
+    "definition": "Deliberately causing a strong reaction, typically anger or interest.",
+    "example": "His provocative remarks sparked a heated debate in the forum.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Shade / Throwing Shade"
+  },
+  {
+    "word": "qualitative",
+    "meaning": "Relating to non-numerical characteristics or data based on observation",
+    "pronunciation": "",
+    "definition": "Relating to non-numerical characteristics or data based on observation",
+    "example": "The qualitative research involved in-depth interviews with twenty educators.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Formal Educational Vocabulary"
+  },
+  {
+    "word": "quantify",
+    "meaning": "To express or measure something in numerical terms (strong alternative to 'measure').",
+    "pronunciation": "",
+    "definition": "To express or measure something in numerical terms (strong alternative to 'measure').",
+    "example": "We need to quantify the impact of the marketing campaign on revenue.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "quantitative",
+    "meaning": "Relating to or measured by quantity; involving numerical data",
+    "pronunciation": "",
+    "definition": "Relating to or measured by quantity; involving numerical data",
+    "example": "Quantitative analysis of test scores revealed a significant improvement.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Formal Educational Vocabulary"
+  },
+  {
+    "word": "quite",
+    "meaning": "To the utmost or most absolute extent; fairly",
+    "pronunciation": "",
+    "definition": "To the utmost or most absolute extent; fairly",
+    "example": "The results were quite good.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Considerably, Substantially, Markedly, Decidedly, Notably"
+  },
+  {
+    "word": "radiant",
+    "meaning": "Sending out light; shining or glowing brightly.",
+    "pronunciation": "",
+    "definition": "Clearly emanating great joy, love, or health.",
+    "example": "She looked radiant on her graduation day.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Glowing Up / Glow"
+  },
+  {
+    "word": "reaffirm",
+    "meaning": "To state something again as a fact; to confirm a commitment (strong alternative to 'say again' or 'confirm').",
+    "pronunciation": "",
+    "definition": "To state something again as a fact; to confirm a commitment (strong alternative to 'say again' or 'confirm').",
+    "example": "The CEO reaffirmed the company's commitment to ethical sourcing practices.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "real",
+    "meaning": "Actually existing as a thing or occurring in fact; not imagined or supposed",
+    "pronunciation": "",
+    "definition": "Actually existing as a thing or occurring in fact; not imagined or supposed",
+    "example": "This is a real opportunity for growth.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Authentic, Tangible, Substantive, Verifiable, Empirical"
+  },
+  {
+    "word": "rectify",
+    "meaning": "To put right or correct something wrong or erroneous",
+    "pronunciation": "",
+    "definition": "To put right or correct something wrong or erroneous",
+    "example": "The administration took steps to rectify the scheduling error promptly.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Formal Educational Vocabulary"
+  },
+  {
+    "word": "remarkable",
+    "meaning": "Worthy of attention; striking or extraordinary.",
+    "pronunciation": "",
+    "definition": "Worthy of attention; striking or extraordinary.",
+    "example": "It was remarkable how quickly she mastered the new language.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Insane / Crazy"
+  },
+  {
+    "word": "remedial",
+    "meaning": "Designed to correct a deficiency in knowledge or understanding",
+    "pronunciation": "",
+    "definition": "Designed to correct a deficiency in knowledge or understanding",
+    "example": "Remedial English classes are offered to students who need extra support.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Formal Educational Vocabulary"
+  },
+  {
+    "word": "repository",
+    "meaning": "A central location where data or materials are stored and managed",
+    "pronunciation": "",
+    "definition": "A central file storage location, typically used by version control systems to store multiple versions of files.",
+    "example": "The digital repository contains thousands of peer-reviewed academic articles.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Formal Educational Vocabulary"
+  },
+  {
+    "word": "resilient",
+    "meaning": "Able to withstand or recover quickly from difficult conditions.",
+    "pronunciation": "",
+    "definition": "Able to recover quickly from difficulties; tough.",
+    "example": "Despite the setbacks, she remained resilient and kept pushing forward.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Built Different"
+  },
+  {
+    "word": "resolute",
+    "meaning": "Admirably purposeful, determined, and unwavering.",
+    "pronunciation": "",
+    "definition": "",
+    "example": "Despite criticism, the director remained resolute in her creative vision.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Grinding / Not Stopping"
+  },
+  {
+    "word": "rich",
+    "meaning": "Having a great deal of money or assets",
+    "pronunciation": "",
+    "definition": "Containing a large amount of fat, spices, or sugar.",
+    "example": "He lived in a rich neighborhood.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Affluent, Opulent, Prosperous, Plutocratic, Flush"
+  },
+  {
+    "word": "riveting",
+    "meaning": "Completely engrossing; so interesting as to demand full attention.",
+    "pronunciation": "",
+    "definition": "Completely engrossing; so interesting as to demand full attention.",
+    "example": "The documentary was so riveting that she watched all four episodes in one sitting.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Binge-worthy / Can't Stop Watching"
+  },
+  {
+    "word": "robust",
+    "meaning": "Strong and effective in all circumstances (strong alternative to 'strong' or 'good').",
+    "pronunciation": "",
+    "definition": "",
+    "example": "We need a robust risk management framework to handle volatility.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "sabbatical",
+    "meaning": "A period of paid leave granted to a professor for research or study",
+    "pronunciation": "",
+    "definition": "A period of paid leave granted to a professor for research or study",
+    "example": "Professor Williams spent her sabbatical writing a book on education reform.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Formal Educational Vocabulary"
+  },
+  {
+    "word": "sacrosanct",
+    "meaning": "Regarded as too important or valuable to be interfered with.",
+    "pronunciation": "",
+    "definition": "Regarded as too important or valuable to be interfered with.",
+    "example": "For her, family dinner time was sacrosanct.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Locked In / Can't Touch This"
+  },
+  {
+    "word": "safe",
+    "meaning": "Protected from or not exposed to danger or risk",
+    "pronunciation": "",
+    "definition": "Protected from or not exposed to danger or risk",
+    "example": "We need to ensure a safe environment.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Secure, Protected, Impervious, Risk-mitigated, Fortified"
+  },
+  {
+    "word": "same",
+    "meaning": "Identical; not different or changed",
+    "pronunciation": "",
+    "definition": "Identical; not different or changed",
+    "example": "We applied the same methodology throughout.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Analogous, Consistent, Identical, Congruent, Uniform"
+  },
+  {
+    "word": "sanguine",
+    "meaning": "Optimistic, especially in a difficult situation.",
+    "pronunciation": "",
+    "definition": "Optimistic, especially in a difficult situation.",
+    "example": "He remained sanguine about the team's chances despite the injury.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: It's Fine / W Mentality"
+  },
+  {
+    "word": "scalable",
+    "meaning": "Able to be changed in size or scale (strong alternative to 'can grow' or 'expandable').",
+    "pronunciation": "",
+    "definition": "Able to be changed in size or scale (strong alternative to 'can grow' or 'expandable').",
+    "example": "We need a scalable infrastructure to support future business growth.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "scandalous",
+    "meaning": "Causing general public outrage by a perceived offence against morality.",
+    "pronunciation": "",
+    "definition": "Causing general public outrage by a perceived offence against morality.",
+    "example": "The politician's scandalous behaviour made headlines for weeks.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Tea / Spilling The Tea"
+  },
+  {
+    "word": "seem",
+    "meaning": "Give the impression or sensation of being something",
+    "pronunciation": "",
+    "definition": "Give the impression or sensation of being something",
+    "example": "The plan seems to be working.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Appear, Manifest, Denote, Signify, Indicate"
+  },
+  {
+    "word": "serendipitous",
+    "meaning": "Occurring or discovered by chance in a happy or beneficial way.",
+    "pronunciation": "",
+    "definition": "Occurring or discovered by chance in a happy or beneficial way.",
+    "example": "Their meeting at the conference was entirely serendipitous.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Plot Twist / Random W"
+  },
+  {
+    "word": "serene",
+    "meaning": "Calm, peaceful, and untroubled; tranquil.",
+    "pronunciation": "",
+    "definition": "",
+    "example": "The lakeside retreat was serene and the perfect place to think.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Chill / Zen"
+  },
+  {
+    "word": "short",
+    "meaning": "Of a small length or duration; brief",
+    "pronunciation": "",
+    "definition": "A brief vertical video format.",
+    "example": "We have a short window of opportunity.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Concise, Succinct, Abbreviated, Curtailed, Ephemeral"
+  },
+  {
+    "word": "show",
+    "meaning": "Make visible or evident; demonstrate",
+    "pronunciation": "",
+    "definition": "To make something visible or clear.",
+    "example": "The data shows a clear trend.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Illustrate, Demonstrate, Corroborate, Elucidate, Substantiate"
+  },
+  {
+    "word": "simple",
+    "meaning": "Easily understood or done; presenting no difficulty",
+    "pronunciation": "",
+    "definition": "Easily understood or done; presenting no difficulty",
+    "example": "The solution turned out to be simple.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Rudimentary, Uncomplicated, Streamlined, Elemental, Straightforward"
+  },
+  {
+    "word": "sincerely",
+    "meaning": "In a genuine and honest manner; without pretence.",
+    "pronunciation": "",
+    "definition": "In a genuine and honest manner; without pretence.",
+    "example": "I sincerely appreciate everything you have done for me.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Fr Fr / For Real"
+  },
+  {
+    "word": "small",
+    "meaning": "à¤›à¥‹à¤Ÿà¤¾",
+    "pronunciation": "",
+    "definition": "",
+    "example": "There was a small improvement in his work.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Minuscule, Diminutive, Negligible, Marginal, Infinitesimal"
+  },
+  {
+    "word": "some",
+    "meaning": "à¤•à¥à¤›",
+    "pronunciation": "",
+    "definition": "an unspecified amount or number of.",
+    "example": "",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Uncategorized"
+  },
+  {
+    "word": "sometimes",
+    "meaning": "???-???",
+    "pronunciation": "",
+    "definition": "occasionally, rather than all of the time.",
+    "example": "",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Uncategorized"
+  },
+  {
+    "word": "somewhere",
+    "meaning": "In or to some place",
+    "pronunciation": "",
+    "definition": "In or to some place",
+    "example": "The answer lies somewhere in the data.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Within A Specific Domain, In A Particular Context, At An Identifiable Locus, Embedded Within, Contained Therein"
+  },
+  {
+    "word": "spearhead",
+    "meaning": "To lead or initiate a campaign, project, or movement (strong alternative to 'lead').",
+    "pronunciation": "",
+    "definition": "To lead or initiate a campaign, project, or movement (strong alternative to 'lead').",
+    "example": "He spearheaded the company's digital transformation initiative.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "special",
+    "meaning": "Better, greater, or otherwise different from what is usual",
+    "pronunciation": "",
+    "definition": "Better, greater, or otherwise different from what is usual",
+    "example": "This deserves special attention.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Distinctive, Exceptional, Singular, Unprecedented, Distinguished"
+  },
+  {
+    "word": "spirited",
+    "meaning": "Full of energy, enthusiasm, and determination.",
+    "pronunciation": "",
+    "definition": "",
+    "example": "The team put up a spirited defence in the final quarter.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Hyped / Going Off"
+  },
+  {
+    "word": "start",
+    "meaning": "???? ????",
+    "pronunciation": "",
+    "definition": "To begin an action or process.",
+    "example": "We need to start over with a fresh approach.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Initiate, Inaugurate, Commence, Embark, Launch"
+  },
+  {
+    "word": "steadfast",
+    "meaning": "Resolutely or dutifully firm and unwavering.",
+    "pronunciation": "",
+    "definition": "",
+    "example": "She remained steadfast in her commitment despite the opposition.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Ride Or Die / Loyal"
+  },
+  {
+    "word": "stipend",
+    "meaning": "A fixed regular sum paid as a salary or allowance, especially to scholars",
+    "pronunciation": "",
+    "definition": "A fixed regular sum paid as a salary or allowance, especially to scholars",
+    "example": "Graduate research assistants receive a monthly stipend from the university.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Formal Educational Vocabulary"
+  },
+  {
+    "word": "stirring",
+    "meaning": "Causing great excitement or strong emotion; inspiring.",
+    "pronunciation": "",
+    "definition": "Causing great excitement or strong emotion; inspiring.",
+    "example": "The general's stirring speech motivated the weary troops.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Fire Speech / Hit Different"
+  },
+  {
+    "word": "strategic",
+    "meaning": "Relating to the identification of long-term goals and how to achieve them (strong alternative to 'planned' or 'important').",
+    "pronunciation": "",
+    "definition": "Relating to the identification of long-term goals and how to achieve them (strong alternative to 'planned' or 'important').",
+    "example": "The acquisition was a strategic move to enter the Asian market.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "streamline",
+    "meaning": "To simplify or make a process more efficient (strong alternative to 'make easier').",
+    "pronunciation": "",
+    "definition": "To simplify or make a process more efficient (strong alternative to 'make easier').",
+    "example": "The new system will streamline onboarding for new employees.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "sullen",
+    "meaning": "Bad-tempered and sulky; gloomy.",
+    "pronunciation": "",
+    "definition": "Showing deep resentment through gloomy silence and bad temper",
+    "example": "He sat in sullen silence after losing the argument.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Salty / Sour"
+  },
+  {
+    "word": "summative",
+    "meaning": "Relating to a final evaluation of student learning at the end of a unit",
+    "pronunciation": "",
+    "definition": "Relating to a final evaluation of student learning at the end of a unit",
+    "example": "The summative assessment comprised a written exam and a project presentation.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Formal Educational Vocabulary"
+  },
+  {
+    "word": "superlative",
+    "meaning": "Of the highest quality or degree; outstanding.",
+    "pronunciation": "",
+    "definition": "Of the highest quality or degree; outstanding.",
+    "example": "The violinist delivered a superlative performance at the gala.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Goat / Best Of The Best"
+  },
+  {
+    "word": "sycophantic",
+    "meaning": "Behaving or done in an obsequious way to gain favour; fawning.",
+    "pronunciation": "",
+    "definition": "Behaving or done in an obsequious way to gain favour; fawning.",
+    "example": "His sycophantic praise of the boss made his colleagues roll their eyes.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Simping / Bootlicking"
+  },
+  {
+    "word": "syllabus",
+    "meaning": "An outline of topics covered in an educational course",
+    "pronunciation": "",
+    "definition": "An outline of the topics to be covered in a course or subject",
+    "example": "The syllabus was distributed on the first day of class and reviewed in detail.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Formal Educational Vocabulary"
+  },
+  {
+    "word": "symposium",
+    "meaning": "A formal conference at which experts present and discuss a topic",
+    "pronunciation": "",
+    "definition": "A formal conference at which experts present and discuss a topic",
+    "example": "The annual educational symposium brought together researchers from thirty countries.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Formal Educational Vocabulary"
+  },
+  {
+    "word": "tenacious",
+    "meaning": "Holding firm to a purpose; persistent and determined.",
+    "pronunciation": "",
+    "definition": "Holding firmly to a belief or position; not readily giving up.",
+    "example": "Her tenacious spirit kept her going even when others gave up.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Grind / Hustling"
+  },
+  {
+    "word": "tenure",
+    "meaning": "The holding of a permanent position by a faculty member at a university",
+    "pronunciation": "",
+    "definition": "The holding of a permanent position by a faculty member at a university",
+    "example": "Earning tenure requires a strong record of teaching, research, and service.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Formal Educational Vocabulary"
+  },
+  {
+    "word": "thing-like situation",
+    "meaning": "A vague reference to an unspecified state or event",
+    "pronunciation": "",
+    "definition": "A vague reference to an unspecified state or event",
+    "example": "We are in a difficult thing-like situation.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Predicament, Quandary, Circumstance, Juncture, Exigency"
+  },
+  {
+    "word": "transcend",
+    "meaning": "To go beyond the limits of; to surpass (strong alternative to 'go beyond' or 'exceed').",
+    "pronunciation": "",
+    "definition": "To go beyond the limits of; to surpass (strong alternative to 'go beyond' or 'exceed').",
+    "example": "Great companies transcend short-term profit to create lasting societal value.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "transcribe",
+    "meaning": "To put thoughts, speech, or data into written or printed form",
+    "pronunciation": "",
+    "definition": "To put thoughts, speech, or data into written or printed form",
+    "example": "Students were asked to transcribe the interview recordings for analysis.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Formal Educational Vocabulary"
+  },
+  {
+    "word": "transient",
+    "meaning": "Lasting only for a short time; impermanent.",
+    "pronunciation": "",
+    "definition": "Lasting only for a short time; impermanent.",
+    "example": "The joy of viral fame is often transient.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Clout / 15 Minutes Of Fame"
+  },
+  {
+    "word": "triumphant",
+    "meaning": "Having achieved victory or success; feeling or expressing jubilation.",
+    "pronunciation": "",
+    "definition": "",
+    "example": "The team returned from the tournament triumphant and celebrated.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Winning / W"
+  },
+  {
+    "word": "triumvirate",
+    "meaning": "A group of three powerful or notable people or things.",
+    "pronunciation": "",
+    "definition": "A group of three powerful or notable people or things.",
+    "example": "The company was led by a triumvirate of visionary founders.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Trio / Three Legends"
+  },
+  {
+    "word": "try",
+    "meaning": "????? ????",
+    "pronunciation": "",
+    "definition": "To make an effort to do something.",
+    "example": "We should try a different method.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Endeavor, Strive, Attempt, Undertake, Pursue"
+  },
+  {
+    "word": "tuition",
+    "meaning": "Teaching or instruction; also, fees charged by an educational institution",
+    "pronunciation": "",
+    "definition": "Teaching or instruction; also, fees charged by an educational institution",
+    "example": "The scholarship covered full tuition for four years of undergraduate study.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Formal Educational Vocabulary"
+  },
+  {
+    "word": "turbulent",
+    "meaning": "Moving unsteadily or violently; marked by conflict or disorder.",
+    "pronunciation": "",
+    "definition": "Moving unsteadily or violently; marked by conflict or disorder.",
+    "example": "It was a turbulent year for the company with multiple leadership changes.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Chaotic / Unhinged"
+  },
+  {
+    "word": "turnaround",
+    "meaning": "A reversal of a previously unfavorable situation (strong alternative to 'improvement' or 'change').",
+    "pronunciation": "",
+    "definition": "A reversal of a previously unfavorable situation (strong alternative to 'improvement' or 'change').",
+    "example": "The new CEO engineered a remarkable turnaround of the struggling division.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "tutelage",
+    "meaning": "Instruction or guidance, especially that given to individuals",
+    "pronunciation": "",
+    "definition": "Instruction or guidance, especially that given to individuals",
+    "example": "Under the tutelage of Dr. Chen, the student completed a distinguished research project.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Formal Educational Vocabulary"
+  },
+  {
+    "word": "typical",
+    "meaning": "Having the distinctive qualities of a particular type of person or thing",
+    "pronunciation": "",
+    "definition": "Having the distinctive qualities of a particular type of person or thing",
+    "example": "This is a typical example of the problem.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Archetypal, Quintessential, Emblematic, Representative, Paradigmatic"
+  },
+  {
+    "word": "ubiquitous",
+    "meaning": "Present, appearing, or found everywhere; extremely common",
+    "pronunciation": "",
+    "definition": "Present, appearing, or found everywhere; extremely common",
+    "example": "Technology has become ubiquitous in modern educational environments.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Formal Educational Vocabulary"
+  },
+  {
+    "word": "ugly",
+    "meaning": "Unpleasant or repulsive in appearance",
+    "pronunciation": "",
+    "definition": "Unpleasant or repulsive in appearance",
+    "example": "The building had an ugly facade.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Grotesque, Repugnant, Hideous, Unsightly, Repulsive"
+  },
+  {
+    "word": "undergraduate",
+    "meaning": "A university student who has not yet earned a first degree",
+    "pronunciation": "",
+    "definition": "A university student who has not yet earned a first degree",
+    "example": "Undergraduate students must complete general education requirements before specializing.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Formal Educational Vocabulary"
+  },
+  {
+    "word": "unique",
+    "meaning": "Being the only one of its kind; unlike anything else",
+    "pronunciation": "",
+    "definition": "Referring to individual visitors to a site, counted only once.",
+    "example": "This is a unique opportunity.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Singular, Unparalleled, Unprecedented, Inimitable, Sui Generis"
+  },
+  {
+    "word": "unparalleled",
+    "meaning": "Having no parallel or equal; unique in its excellence.",
+    "pronunciation": "",
+    "definition": "Having no parallel or equal; unique in its excellence.",
+    "example": "The sculptor's attention to detail was unparalleled.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Goat / Best Ever"
+  },
+  {
+    "word": "unprecedented",
+    "meaning": "Never done or known before; without a previous example.",
+    "pronunciation": "",
+    "definition": "Never done or known before; without a previous example.",
+    "example": "The breakthrough was unprecedented in the history of medical science.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Never Been Done / Hits Different"
+  },
+  {
+    "word": "upskill",
+    "meaning": "To teach an employee new or additional skills (strong alternative to 'train more' or 'teach more').",
+    "pronunciation": "",
+    "definition": "To teach an employee new or additional skills (strong alternative to 'train more' or 'teach more').",
+    "example": "The organization invested heavily to upskill its workforce in AI tools.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Professional Vocabulary"
+  },
+  {
+    "word": "use",
+    "meaning": "????? ????",
+    "pronunciation": "",
+    "definition": "To put into service or apply for a purpose.",
+    "example": "We need to use a different approach.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Employ, Leverage, Utilize, Deploy, Harness"
+  },
+  {
+    "word": "useful",
+    "meaning": "Able to be used for a practical purpose or in several ways",
+    "pronunciation": "",
+    "definition": "Able to be used for a practical purpose or in several ways",
+    "example": "This tool is very useful for analysis.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Pragmatic, Functional, Efficacious, Instrumental, Advantageous"
+  },
+  {
+    "word": "useless",
+    "meaning": "Not fulfilling or not expected to achieve the intended purpose",
+    "pronunciation": "",
+    "definition": "Not fulfilling or not expected to achieve the intended purpose",
+    "example": "The old approach is now completely useless.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Futile, Ineffectual, Superfluous, Redundant, Inoperative"
+  },
+  {
+    "word": "venerable",
+    "meaning": "Accorded great respect due to age, wisdom, or character.",
+    "pronunciation": "",
+    "definition": "Accorded great respect due to age, wisdom, or character.",
+    "example": "The venerable scientist had dedicated fifty years to cancer research.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Og / Legend"
+  },
+  {
+    "word": "verbatim",
+    "meaning": "In exactly the same words as were used originally",
+    "pronunciation": "",
+    "definition": "In exactly the same words as were used originally",
+    "example": "Verbatim quotations must be enclosed in quotation marks and properly cited.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Formal Educational Vocabulary"
+  },
+  {
+    "word": "verified",
+    "meaning": "Confirmed as true, accurate, or genuine.",
+    "pronunciation": "",
+    "definition": "Confirmed as true, accurate, or genuine.",
+    "example": "The scientist's findings were verified by three independent laboratories.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: No Cap / Facts"
+  },
+  {
+    "word": "very",
+    "meaning": "Used as an intensifier to add emphasis",
+    "pronunciation": "",
+    "definition": "Used as an intensifier to add emphasis",
+    "example": "She was very excited about the trip.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Exceedingly, Extraordinarily, Remarkably, Profoundly, Immensely"
+  },
+  {
+    "word": "vindicated",
+    "meaning": "Cleared of blame or suspicion; shown to be right.",
+    "pronunciation": "",
+    "definition": "Cleared of blame or suspicion; shown to be right.",
+    "example": "She felt vindicated when the investigation confirmed her report.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: I Told You So / W"
+  },
+  {
+    "word": "vivacious",
+    "meaning": "Attractively lively and animated.",
+    "pronunciation": "",
+    "definition": "Attractively lively and animated.",
+    "example": "Her vivacious personality made her the centre of every gathering.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Lowkey Iconic / Vibrant"
+  },
+  {
+    "word": "vocation",
+    "meaning": "A strong feeling of suitability for a particular career or occupation",
+    "pronunciation": "",
+    "definition": "A strong feeling of suitability for a particular career or occupation",
+    "example": "Teaching is more than a job; for many educators it is a vocation.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Formal Educational Vocabulary"
+  },
+  {
+    "word": "vociferous",
+    "meaning": "Expressing or characterized by vehement opinions; loud and forceful.",
+    "pronunciation": "",
+    "definition": "Expressing or characterized by vehement opinions; loud and forceful.",
+    "example": "The vociferous crowd made their disapproval known immediately.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Loud / Screaming In The Comments"
+  },
+  {
+    "word": "volatile",
+    "meaning": "Liable to change rapidly and unpredictably, especially for the worse.",
+    "pronunciation": "",
+    "definition": "Liable to change rapidly and unpredictably, especially for the worse.",
+    "example": "The political situation in the region remains volatile.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Unhinged / Chaotic"
+  },
+  {
+    "word": "voracious",
+    "meaning": "Wanting or devouring great quantities; insatiable.",
+    "pronunciation": "",
+    "definition": "Wanting or devouring great quantities; insatiable.",
+    "example": "He was a voracious reader, finishing a book almost every day.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Obsessed / Can't Stop"
+  },
+  {
+    "word": "waiver",
+    "meaning": "The relinquishment of a right or condition, often in academic settings",
+    "pronunciation": "",
+    "definition": "The relinquishment of a right or condition, often in academic settings",
+    "example": "The department granted a prerequisite waiver to the exceptionally qualified applicant.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Formal Educational Vocabulary"
+  },
+  {
+    "word": "way",
+    "meaning": "A method, style, or manner of doing something",
+    "pronunciation": "",
+    "definition": "A method, style, or manner of doing something",
+    "example": "There has to be a better way to do this.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Methodology, Approach, Mechanism, Paradigm, Modality"
+  },
+  {
+    "word": "weary",
+    "meaning": "Feeling or showing extreme tiredness, especially from exertion.",
+    "pronunciation": "",
+    "definition": "Feeling or showing extreme tiredness, especially from exertion.",
+    "example": "After ten hours of travel, she was weary and desperate for rest.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Dead / I'm Dead"
+  },
+  {
+    "word": "weird",
+    "meaning": "Suggesting something supernatural; very strange",
+    "pronunciation": "",
+    "definition": "Suggesting something supernatural; very strange",
+    "example": "There was a weird noise outside.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Bizarre, Uncanny, Anomalous, Aberrant, Incongruous"
+  },
+  {
+    "word": "whimsical",
+    "meaning": "Playfully quaint or fanciful; attractively unusual.",
+    "pronunciation": "",
+    "definition": "Playfully quaint or fanciful; attractively unusual.",
+    "example": "The artist's whimsical illustrations delighted children and adults alike.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Random / Quirky"
+  },
+  {
+    "word": "whole",
+    "meaning": "All of; entire; complete",
+    "pronunciation": "",
+    "definition": "All of; entire; complete",
+    "example": "The whole team needs to be involved.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Entire, Comprehensive, Aggregate, Holistic, Encompassing"
+  },
+  {
+    "word": "wholeheartedly",
+    "meaning": "With complete sincerity and commitment; without reservation.",
+    "pronunciation": "",
+    "definition": "With complete sincerity and commitment; without reservation.",
+    "example": "She wholeheartedly supported her colleague's campaign.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Full Send / 100%"
+  },
+  {
+    "word": "worse",
+    "meaning": "Of poorer quality or lower standard",
+    "pronunciation": "",
+    "definition": "Of poorer quality or lower standard",
+    "example": "The outcome was worse than expected.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Inferior, Deteriorated, Aggravated, Exacerbated, Regressed"
+  },
+  {
+    "word": "worst",
+    "meaning": "Of the poorest quality or the lowest standard",
+    "pronunciation": "",
+    "definition": "Of the poorest quality or the lowest standard",
+    "example": "This is the worst possible outcome.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Weak Abstract Â†’ Strong Alternatives: Most Detrimental, Most Egregious, Most Catastrophic, Most Deleterious, Least Viable"
+  },
+  {
+    "word": "zenith",
+    "meaning": "The time at which something is most powerful or successful; the peak.",
+    "pronunciation": "",
+    "definition": "The point in the sky or celestial sphere directly above an observer.",
+    "example": "The artist was at the zenith of her career when the retrospective opened.",
+    "category": "Weak vs Strong Alternatives",
+    "subCategory": "Alternative To: Peak / At Their Peak"
+  }
+]

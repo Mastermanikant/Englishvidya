@@ -1,0 +1,48 @@
+﻿[
+    {
+        "word":  "Walk",
+        "hindi_meaning":  "चलना",
+        "pronunciation_help":  "वॉक",
+        "word_type":  "Verb",
+        "simple_explanation":  "To move on foot at a regular pace.",
+        "daily_life_use":  "Moving around the house or street.",
+        "spoken_use":  "I walk to the store.",
+        "natural_native_use":  "Let\u0027s take a walk.",
+        "emotional_tone":  "Neutral",
+        "common_collocations":  [
+                                    "take a walk",
+                                    "walk away"
+                                ],
+        "examples":  [
+                         "She walks to school.",
+                         "He is walking his dog."
+                     ],
+        "common_mistakes":  "Saying \u0027go by walk\u0027 instead of \u0027walk\u0027.",
+        "hindi_confusion_correction":  "Walk implies \u0027paidal chalna\u0027, no need to add \u0027on foot\u0027 usually.",
+        "formal_informal_note":  "Universal",
+        "image_url":  "https://upload.wikimedia.org/wikipedia/commons/4/41/Walking_icon.svg"
+    },
+    {
+        "word":  "Run",
+        "hindi_meaning":  "दौड़ना",
+        "pronunciation_help":  "रन",
+        "word_type":  "Verb",
+        "simple_explanation":  "To move on foot faster than a walk.",
+        "daily_life_use":  "Exercising or hurrying.",
+        "spoken_use":  "I need to run now.",
+        "natural_native_use":  "I\u0027m running late.",
+        "emotional_tone":  "Urgent, Energetic",
+        "common_collocations":  [
+                                    "run fast",
+                                    "go for a run"
+                                ],
+        "examples":  [
+                         "He runs every morning.",
+                         "Don\u0027t run indoors."
+                     ],
+        "common_mistakes":  "Using \u0027run\u0027 for vehicles (vehicles drive).",
+        "hindi_confusion_correction":  "Also means managing something (\u0027running a business\u0027).",
+        "formal_informal_note":  "Universal",
+        "image_url":  "https://upload.wikimedia.org/wikipedia/commons/a/a2/Running_icon_-_Noun_Project_17646.svg"
+    }
+]

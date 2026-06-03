@@ -1,0 +1,682 @@
+[
+  {
+    "word": "Science",
+    "pos": "noun",
+    "meaning": "विज्ञान",
+    "meaning_en": "The study of the nature and behaviour of natural things",
+    "example": "Science helps us understand the world.",
+    "example_hi": "विज्ञान हमें दुनिया को समझने में मदद करता है।"
+  },
+  {
+    "word": "Mathematics",
+    "pos": "noun",
+    "meaning": "गणित",
+    "meaning_en": "The study of numbers, shapes, and patterns",
+    "example": "He is very good at mathematics.",
+    "example_hi": "वह गणित में बहुत अच्छा है।"
+  },
+  {
+    "word": "Physics",
+    "pos": "noun",
+    "meaning": "भौतिक विज्ञान",
+    "meaning_en": "The scientific study of matter and energy",
+    "example": "We are studying electricity in physics.",
+    "example_hi": "हम भौतिक विज्ञान में विद्युत का अध्ययन कर रहे हैं।"
+  },
+  {
+    "word": "Chemistry",
+    "pos": "noun",
+    "meaning": "रसायन विज्ञान",
+    "meaning_en": "The scientific study of the basic characteristics of substances",
+    "example": "In chemistry, we learned about atoms.",
+    "example_hi": "रसायन विज्ञान में, हमने परमाणुओं के बारे में सीखा।"
+  },
+  {
+    "word": "Biology",
+    "pos": "noun",
+    "meaning": "जीव विज्ञान",
+    "meaning_en": "The scientific study of living things",
+    "example": "Biology teaches us about human body parts.",
+    "example_hi": "जीव विज्ञान हमें मानव शरीर के अंगों के बारे में सिखाता है।"
+  },
+  {
+    "word": "Geography",
+    "pos": "noun",
+    "meaning": "भूगोल",
+    "meaning_en": "The study of the physical features of the earth",
+    "example": "We learned about mountains in geography class.",
+    "example_hi": "हमने भूगोल की कक्षा में पहाड़ों के बारे में सीखा।"
+  },
+  {
+    "word": "History",
+    "pos": "noun",
+    "meaning": "इतिहास",
+    "meaning_en": "The study of past events",
+    "example": "Indian history is very fascinating.",
+    "example_hi": "भारतीय इतिहास बहुत आकर्षक है।"
+  },
+  {
+    "word": "Subject",
+    "pos": "noun",
+    "meaning": "विषय",
+    "meaning_en": "An area of knowledge that is studied in school",
+    "example": "English is my favorite subject.",
+    "example_hi": "अंग्रेजी मेरा पसंदीदा विषय है।"
+  },
+  {
+    "word": "Experiment",
+    "pos": "noun",
+    "meaning": "प्रयोग",
+    "meaning_en": "A scientific test done to find out something",
+    "example": "The scientists are doing an experiment.",
+    "example_hi": "वैज्ञानिक एक प्रयोग कर रहे हैं।"
+  },
+  {
+    "word": "Laboratory",
+    "pos": "noun",
+    "meaning": "प्रयोगशाला",
+    "meaning_en": "A room used for scientific work and experiments",
+    "example": "Students must wear safety glasses in the laboratory.",
+    "example_hi": "छात्रों को प्रयोगशाला में सुरक्षा चश्मा पहनना चाहिए।"
+  },
+  {
+    "word": "Microscope",
+    "pos": "noun",
+    "meaning": "सूक्ष्मदर्शी",
+    "meaning_en": "An instrument used to see very small objects",
+    "example": "We looked at cells through a microscope.",
+    "example_hi": "हमने सूक्ष्मदर्शी के माध्यम से कोशिकाओं को देखा।"
+  },
+  {
+    "word": "Telescope",
+    "pos": "noun",
+    "meaning": "दूरबीन",
+    "meaning_en": "An instrument used to see distant objects like stars",
+    "example": "He looked at the moon through a telescope.",
+    "example_hi": "उसने दूरबीन के माध्यम से चाँद को देखा।"
+  },
+  {
+    "word": "Gravity",
+    "pos": "noun",
+    "meaning": "गुरुत्वाकर्षण",
+    "meaning_en": "The force that attracts objects towards the earth",
+    "example": "Things fall to the ground because of gravity.",
+    "example_hi": "चीजें गुरुत्वाकर्षण के कारण जमीन पर गिरती हैं।"
+  },
+  {
+    "word": "Energy",
+    "pos": "noun",
+    "meaning": "ऊर्जा",
+    "meaning_en": "The power from sources such as electricity or the sun",
+    "example": "The sun is the main source of energy on earth.",
+    "example_hi": "सूर्य पृथ्वी पर ऊर्जा का मुख्य स्रोत है।"
+  },
+  {
+    "word": "Force",
+    "pos": "noun",
+    "meaning": "बल",
+    "meaning_en": "A push or pull on an object",
+    "example": "He used a lot of force to open the door.",
+    "example_hi": "उसने दरवाजा खोलने के लिए बहुत बल लगाया।"
+  },
+  {
+    "word": "Atom",
+    "pos": "noun",
+    "meaning": "परमाणु",
+    "meaning_en": "The smallest unit of any chemical element",
+    "example": "Everything around us is made of atoms.",
+    "example_hi": "हमारे आस-पास की हर चीज परमाणुओं से बनी है।"
+  },
+  {
+    "word": "Molecule",
+    "pos": "noun",
+    "meaning": "अणु",
+    "meaning_en": "The simplest unit of a chemical substance, usually a group of two or more atoms",
+    "example": "A water molecule has two hydrogen atoms and one oxygen atom.",
+    "example_hi": "पानी के एक अणु में दो हाइड्रोजन परमाणु और एक ऑक्सीजन परमाणु होता है।"
+  },
+  {
+    "word": "Element",
+    "pos": "noun",
+    "meaning": "तत्व",
+    "meaning_en": "A simple substance that cannot be reduced to smaller chemical parts",
+    "example": "Gold is a chemical element.",
+    "example_hi": "सोना एक रासायनिक तत्व है।"
+  },
+  {
+    "word": "Reaction",
+    "pos": "noun",
+    "meaning": "प्रतिक्रिया",
+    "meaning_en": "A chemical change when substances are mixed",
+    "example": "Mixing the two chemicals caused a loud reaction.",
+    "example_hi": "दोनों रसायनों को मिलाने से जोरदार प्रतिक्रिया हुई।"
+  },
+  {
+    "word": "Acid",
+    "pos": "noun",
+    "meaning": "अम्ल",
+    "meaning_en": "A chemical substance with a pH of less than 7",
+    "example": "Lemon juice contains a mild acid.",
+    "example_hi": "नींबू के रस में हल्का अम्ल होता है।"
+  },
+  {
+    "word": "Base",
+    "pos": "noun",
+    "meaning": "क्षार",
+    "meaning_en": "A substance that can react with an acid to form a salt and water",
+    "example": "Soap is a common household base.",
+    "example_hi": "साबुन एक आम घरेलू क्षार है।"
+  },
+  {
+    "word": "Magnet",
+    "pos": "noun",
+    "meaning": "चुंबक",
+    "meaning_en": "An object that pulls iron or steel towards itself",
+    "example": "The magnet attracted the iron nails.",
+    "example_hi": "चुंबक ने लोहे की कीलों को आकर्षित किया।"
+  },
+  {
+    "word": "Electricity",
+    "pos": "noun",
+    "meaning": "विद्युत",
+    "meaning_en": "A form of energy that can produce light and heat",
+    "example": "We use electricity to run our fans.",
+    "example_hi": "हम अपने पंखे चलाने के लिए विद्युत का उपयोग करते हैं।"
+  },
+  {
+    "word": "Light",
+    "pos": "noun",
+    "meaning": "प्रकाश",
+    "meaning_en": "The energy from the sun or a lamp that allows you to see things",
+    "example": "Light travels faster than sound.",
+    "example_hi": "प्रकाश ध्वनि से अधिक तेज यात्रा करता है।"
+  },
+  {
+    "word": "Sound",
+    "pos": "noun",
+    "meaning": "ध्वनि",
+    "meaning_en": "Something that you can hear",
+    "example": "Sound cannot travel in space.",
+    "example_hi": "ध्वनि अंतरिक्ष में यात्रा नहीं कर सकती।"
+  },
+  {
+    "word": "Heat",
+    "pos": "noun",
+    "meaning": "ऊष्मा",
+    "meaning_en": "The quality of being hot or warm",
+    "example": "The sun gives us light and heat.",
+    "example_hi": "सूर्य हमें प्रकाश और ऊष्मा देता है।"
+  },
+  {
+    "word": "Cell",
+    "pos": "noun",
+    "meaning": "कोशिका",
+    "meaning_en": "The smallest basic unit of a plant or animal",
+    "example": "Human body is made up of millions of cells.",
+    "example_hi": "मानव शरीर लाखों कोशिकाओं से बना है।"
+  },
+  {
+    "word": "Tissue",
+    "pos": "noun",
+    "meaning": "ऊतक",
+    "meaning_en": "A group of connected cells in an animal or plant that are similar to each other",
+    "example": "Muscles are made of special tissues.",
+    "example_hi": "मांसपेशियां विशेष ऊतकों से बनी होती हैं।"
+  },
+  {
+    "word": "Organ",
+    "pos": "noun",
+    "meaning": "अंग",
+    "meaning_en": "A part of the body that does a particular job",
+    "example": "The heart is a very important organ.",
+    "example_hi": "हृदय एक बहुत महत्वपूर्ण अंग है।"
+  },
+  {
+    "word": "Skeleton",
+    "pos": "noun",
+    "meaning": "कंकाल",
+    "meaning_en": "The frame of bones supporting a human or animal body",
+    "example": "The human skeleton has 206 bones.",
+    "example_hi": "मानव कंकाल में 206 हड्डियां होती हैं।"
+  },
+  {
+    "word": "Blood",
+    "pos": "noun",
+    "meaning": "रक्त",
+    "meaning_en": "The red liquid that flows through the bodies of humans and animals",
+    "example": "The heart pumps blood around the body.",
+    "example_hi": "हृदय पूरे शरीर में रक्त पंप करता है।"
+  },
+  {
+    "word": "Heart",
+    "pos": "noun",
+    "meaning": "हृदय",
+    "meaning_en": "The organ in your chest that sends the blood around your body",
+    "example": "My heart is beating fast.",
+    "example_hi": "मेरा हृदय तेजी से धड़क रहा है।"
+  },
+  {
+    "word": "Brain",
+    "pos": "noun",
+    "meaning": "मस्तिष्क",
+    "meaning_en": "The organ inside the head that controls thought, memory, and feeling",
+    "example": "The brain controls all the parts of our body.",
+    "example_hi": "मस्तिष्क हमारे शरीर के सभी अंगों को नियंत्रित करता है।"
+  },
+  {
+    "word": "Lungs",
+    "pos": "noun",
+    "meaning": "फेफड़े",
+    "meaning_en": "The organs in the chest used for breathing",
+    "example": "We use our lungs to breathe air.",
+    "example_hi": "हम हवा में सांस लेने के लिए अपने फेफड़ों का उपयोग करते हैं।"
+  },
+  {
+    "word": "Muscle",
+    "pos": "noun",
+    "meaning": "मांसपेशी",
+    "meaning_en": "Body tissue that can contract and produce movement",
+    "example": "Exercise makes your muscles strong.",
+    "example_hi": "व्यायाम आपकी मांसपेशियों को मजबूत बनाता है।"
+  },
+  {
+    "word": "Disease",
+    "pos": "noun",
+    "meaning": "बीमारी",
+    "meaning_en": "An illness of people, animals, plants, etc.",
+    "example": "Malaria is a serious disease.",
+    "example_hi": "मलेरिया एक गंभीर बीमारी है।"
+  },
+  {
+    "word": "Medicine",
+    "pos": "noun",
+    "meaning": "दवा",
+    "meaning_en": "A substance used for treating illness",
+    "example": "The doctor gave me some medicine.",
+    "example_hi": "डॉक्टर ने मुझे कुछ दवा दी।"
+  },
+  {
+    "word": "Vaccine",
+    "pos": "noun",
+    "meaning": "टीका",
+    "meaning_en": "A substance put into a person's body to prevent them getting a disease",
+    "example": "Scientists developed a new vaccine.",
+    "example_hi": "वैज्ञानिकों ने एक नया टीका विकसित किया।"
+  },
+  {
+    "word": "Virus",
+    "pos": "noun",
+    "meaning": "विषाणु",
+    "meaning_en": "An extremely small living thing that can cause disease",
+    "example": "The flu is caused by a virus.",
+    "example_hi": "फ्लू एक विषाणु के कारण होता है।"
+  },
+  {
+    "word": "Bacteria",
+    "pos": "noun",
+    "meaning": "जीवाणु",
+    "meaning_en": "Very small living things that can cause disease",
+    "example": "Washing hands removes harmful bacteria.",
+    "example_hi": "हाथ धोने से हानिकारक जीवाणु दूर हो जाते हैं।"
+  },
+  {
+    "word": "Temperature",
+    "pos": "noun",
+    "meaning": "तापमान",
+    "meaning_en": "The measured amount of heat in a place or in the body",
+    "example": "The temperature is very high today.",
+    "example_hi": "आज तापमान बहुत अधिक है।"
+  },
+  {
+    "word": "Thermometer",
+    "pos": "noun",
+    "meaning": "थर्मामीटर",
+    "meaning_en": "An instrument used for measuring temperature",
+    "example": "The nurse used a thermometer to check my fever.",
+    "example_hi": "नर्स ने मेरा बुखार जांचने के लिए थर्मामीटर का उपयोग किया।"
+  },
+  {
+    "word": "Planet",
+    "pos": "noun",
+    "meaning": "ग्रह",
+    "meaning_en": "A large round object in space that moves around a sun or star",
+    "example": "Earth is the third planet from the Sun.",
+    "example_hi": "पृथ्वी सूर्य से तीसरा ग्रह है।"
+  },
+  {
+    "word": "Orbit",
+    "pos": "noun",
+    "meaning": "कक्षा",
+    "meaning_en": "The curved path through which objects in space move around a planet or star",
+    "example": "The moon moves in an orbit around the earth.",
+    "example_hi": "चाँद पृथ्वी के चारों ओर एक कक्षा में घूमता है।"
+  },
+  {
+    "word": "Eclipse",
+    "pos": "noun",
+    "meaning": "ग्रहण",
+    "meaning_en": "When the sun or moon is hidden by the shadow of another planet",
+    "example": "We saw a solar eclipse yesterday.",
+    "example_hi": "हमने कल सूर्य ग्रहण देखा।"
+  },
+  {
+    "word": "Astronaut",
+    "pos": "noun",
+    "meaning": "अंतरिक्ष यात्री",
+    "meaning_en": "A person who is trained to travel in a spacecraft",
+    "example": "An astronaut floats in space due to zero gravity.",
+    "example_hi": "शून्य गुरुत्वाकर्षण के कारण एक अंतरिक्ष यात्री अंतरिक्ष में तैरता है।"
+  },
+  {
+    "word": "Satellite",
+    "pos": "noun",
+    "meaning": "उपग्रह",
+    "meaning_en": "An object that moves round a bigger object in space",
+    "example": "The moon is a natural satellite of the earth.",
+    "example_hi": "चाँद पृथ्वी का एक प्राकृतिक उपग्रह है।"
+  },
+  {
+    "word": "Number",
+    "pos": "noun",
+    "meaning": "संख्या",
+    "meaning_en": "A mathematical symbol or word used to count or measure",
+    "example": "Five is my lucky number.",
+    "example_hi": "पाँच मेरी भाग्यशाली संख्या है।"
+  },
+  {
+    "word": "Addition",
+    "pos": "noun",
+    "meaning": "जोड़",
+    "meaning_en": "The process of adding numbers or amounts together",
+    "example": "The teacher taught us simple addition.",
+    "example_hi": "शिक्षक ने हमें साधारण जोड़ सिखाया।"
+  },
+  {
+    "word": "Subtraction",
+    "pos": "noun",
+    "meaning": "घटाव",
+    "meaning_en": "The process of removing one number from another",
+    "example": "Subtraction is the opposite of addition.",
+    "example_hi": "घटाव जोड़ का उल्टा है।"
+  },
+  {
+    "word": "Multiplication",
+    "pos": "noun",
+    "meaning": "गुणा",
+    "meaning_en": "The process of adding a number to itself a particular number of times",
+    "example": "He is learning the rules of multiplication.",
+    "example_hi": "वह गुणा के नियम सीख रहा है।"
+  },
+  {
+    "word": "Division",
+    "pos": "noun",
+    "meaning": "भाग",
+    "meaning_en": "The calculation of how many times one number is contained in another",
+    "example": "Division by zero is not possible.",
+    "example_hi": "शून्य से भाग संभव नहीं है।"
+  },
+  {
+    "word": "Fraction",
+    "pos": "noun",
+    "meaning": "भिन्न",
+    "meaning_en": "A number that results from dividing one whole number by another",
+    "example": "One-half is a common fraction.",
+    "example_hi": "एक-बटा-दो एक आम भिन्न है।"
+  },
+  {
+    "word": "Decimal",
+    "pos": "noun",
+    "meaning": "दशमलव",
+    "meaning_en": "Relating to a system of numbers based on the number 10",
+    "example": "We can write this fraction as a decimal.",
+    "example_hi": "हम इस भिन्न को दशमलव के रूप में लिख सकते हैं।"
+  },
+  {
+    "word": "Percentage",
+    "pos": "noun",
+    "meaning": "प्रतिशत",
+    "meaning_en": "An amount of something, often expressed as a number out of 100",
+    "example": "A high percentage of students passed the exam.",
+    "example_hi": "छात्रों का एक उच्च प्रतिशत परीक्षा में उत्तीर्ण हुआ।"
+  },
+  {
+    "word": "Geometry",
+    "pos": "noun",
+    "meaning": "ज्यामिति",
+    "meaning_en": "The branch of mathematics involving points, lines, and shapes",
+    "example": "We use a compass and ruler in geometry.",
+    "example_hi": "हम ज्यामिति में कंपास और रूलर का उपयोग গোলাकार करते हैं।"
+  },
+  {
+    "word": "Shape",
+    "pos": "noun",
+    "meaning": "आकार",
+    "meaning_en": "The form or outline of an object",
+    "example": "A ball has a round shape.",
+    "example_hi": "एक गेंद का आकार गोल होता है।"
+  },
+  {
+    "word": "Circle",
+    "pos": "noun",
+    "meaning": "वृत्त",
+    "meaning_en": "A perfectly round shape",
+    "example": "Draw a circle on the paper.",
+    "example_hi": "कागज पर एक वृत्त खींचें।"
+  },
+  {
+    "word": "Square",
+    "pos": "noun",
+    "meaning": "वर्ग",
+    "meaning_en": "A flat shape with four sides of equal length and four angles of 90 degrees",
+    "example": "A chessboard is divided into 64 small squares.",
+    "example_hi": "एक शतरंज बोर्ड 64 छोटे वर्गों में विभाजित होता है।"
+  },
+  {
+    "word": "Triangle",
+    "pos": "noun",
+    "meaning": "त्रिभुज",
+    "meaning_en": "A flat shape with three straight sides",
+    "example": "A pyramid has faces in the shape of a triangle.",
+    "example_hi": "एक पिरामिड के चेहरे त्रिभुज के आकार के होते हैं।"
+  },
+  {
+    "word": "Rectangle",
+    "pos": "noun",
+    "meaning": "आयत",
+    "meaning_en": "A shape with four straight sides and four 90-degree angles",
+    "example": "The door is in the shape of a rectangle.",
+    "example_hi": "दरवाजा एक आयत के आकार का है।"
+  },
+  {
+    "word": "Angle",
+    "pos": "noun",
+    "meaning": "कोण",
+    "meaning_en": "The space between two lines or surfaces at the point where they meet",
+    "example": "A square has four right angles.",
+    "example_hi": "एक वर्ग में चार समकोण होते हैं।"
+  },
+  {
+    "word": "Line",
+    "pos": "noun",
+    "meaning": "रेखा",
+    "meaning_en": "A long, thin mark on the surface of something",
+    "example": "Draw a straight line using a ruler.",
+    "example_hi": "रूलर का उपयोग करके एक सीधी रेखा खींचें।"
+  },
+  {
+    "word": "Parallel",
+    "pos": "adjective",
+    "meaning": "समानांतर",
+    "meaning_en": "Lines that always stay the same distance apart and never meet",
+    "example": "The railway tracks are parallel to each other.",
+    "example_hi": "रेलवे ट्रैक एक दूसरे के समानांतर हैं।"
+  },
+  {
+    "word": "Equation",
+    "pos": "noun",
+    "meaning": "समीकरण",
+    "meaning_en": "A mathematical statement showing that two amounts are equal",
+    "example": "The teacher asked me to solve the equation.",
+    "example_hi": "शिक्षक ने मुझे समीकरण को हल करने के लिए कहा।"
+  },
+  {
+    "word": "Algebra",
+    "pos": "noun",
+    "meaning": "बीजगणित",
+    "meaning_en": "A part of mathematics in which signs and letters represent numbers",
+    "example": "I find algebra difficult to understand.",
+    "example_hi": "मुझे बीजगणित समझना मुश्किल लगता है।"
+  },
+  {
+    "word": "Formula",
+    "pos": "noun",
+    "meaning": "सूत्र",
+    "meaning_en": "A mathematical rule expressed in a set of numbers and letters",
+    "example": "You need a formula to find the area of a circle.",
+    "example_hi": "एक वृत्त का क्षेत्रफल ज्ञात करने के लिए आपको एक सूत्र की आवश्यकता होती है।"
+  },
+  {
+    "word": "Volume",
+    "pos": "noun",
+    "meaning": "आयतन",
+    "meaning_en": "The amount of space that an object contains or fills",
+    "example": "Find the volume of this box.",
+    "example_hi": "इस बॉक्स का आयतन ज्ञात कीजिए।"
+  },
+  {
+    "word": "Area",
+    "pos": "noun",
+    "meaning": "क्षेत्रफल",
+    "meaning_en": "The size of a flat surface",
+    "example": "The area of this room is large.",
+    "example_hi": "इस कमरे का क्षेत्रफल बड़ा है।"
+  },
+  {
+    "word": "Perimeter",
+    "pos": "noun",
+    "meaning": "परिमाप",
+    "meaning_en": "The total length of the outside edge of an area or shape",
+    "example": "Calculate the perimeter of the field.",
+    "example_hi": "मैदान के परिमाप की गणना करें।"
+  },
+  {
+    "word": "Graph",
+    "pos": "noun",
+    "meaning": "ग्राफ",
+    "meaning_en": "A picture that shows how two sets of information are related",
+    "example": "The graph shows the temperature over a week.",
+    "example_hi": "ग्राफ एक सप्ताह के तापमान को दर्शाता है।"
+  },
+  {
+    "word": "Chart",
+    "pos": "noun",
+    "meaning": "चार्ट",
+    "meaning_en": "A visual display of information",
+    "example": "Look at the pie chart on the board.",
+    "example_hi": "बोर्ड पर पाई चार्ट को देखो।"
+  },
+  {
+    "word": "Average",
+    "pos": "noun",
+    "meaning": "औसत",
+    "meaning_en": "A standard or level that is considered to be typical or usual",
+    "example": "The average age of students in the class is 15.",
+    "example_hi": "कक्षा में छात्रों की औसत आयु 15 वर्ष है।"
+  },
+  {
+    "word": "Probability",
+    "pos": "noun",
+    "meaning": "प्रायिकता",
+    "meaning_en": "The level of possibility of something happening",
+    "example": "What is the probability of getting a heads on a coin?",
+    "example_hi": "सिक्के पर हेड्स आने की प्रायिकता क्या है?"
+  },
+  {
+    "word": "Statistics",
+    "pos": "noun",
+    "meaning": "सांख्यिकी",
+    "meaning_en": "The science of using numbers to represent facts and describe situations",
+    "example": "Statistics help us understand population growth.",
+    "example_hi": "सांख्यिकी हमें जनसंख्या वृद्धि को समझने में मदद करती है।"
+  },
+  {
+    "word": "Calculation",
+    "pos": "noun",
+    "meaning": "गणना",
+    "meaning_en": "The process of using mathematics to find out an amount or number",
+    "example": "Her mental calculation is very fast.",
+    "example_hi": "उसकी मानसिक गणना बहुत तेज है।"
+  },
+  {
+    "word": "Calculator",
+    "pos": "noun",
+    "meaning": "कैलकुलेटर",
+    "meaning_en": "A small electronic device used for doing math",
+    "example": "You are not allowed to use a calculator in the exam.",
+    "example_hi": "आपको परीक्षा में कैलकुलेटर का उपयोग करने की अनुमति नहीं है।"
+  },
+  {
+    "word": "Distance",
+    "pos": "noun",
+    "meaning": "दूरी",
+    "meaning_en": "The amount of space between two places",
+    "example": "The distance between the two cities is 100 kilometers.",
+    "example_hi": "दोनों शहरों के बीच की दूरी 100 किलोमीटर है।"
+  },
+  {
+    "word": "Weight",
+    "pos": "noun",
+    "meaning": "वजन",
+    "meaning_en": "How heavy something is",
+    "example": "What is the weight of this bag?",
+    "example_hi": "इस बैग का वजन कितना है?"
+  },
+  {
+    "word": "Length",
+    "pos": "noun",
+    "meaning": "लंबाई",
+    "meaning_en": "The measurement of something from end to end",
+    "example": "Measure the length of the table.",
+    "example_hi": "मेज की लंबाई मापें।"
+  },
+  {
+    "word": "Width",
+    "pos": "noun",
+    "meaning": "चौड़ाई",
+    "meaning_en": "The measurement of something from side to side",
+    "example": "The width of the road is 10 meters.",
+    "example_hi": "सड़क की चौड़ाई 10 मीटर है।"
+  },
+  {
+    "word": "Depth",
+    "pos": "noun",
+    "meaning": "गहराई",
+    "meaning_en": "The distance down from the top surface to the bottom",
+    "example": "The depth of the swimming pool is 6 feet.",
+    "example_hi": "स्विमिंग पूल की गहराई 6 फीट है।"
+  },
+  {
+    "word": "Speed",
+    "pos": "noun",
+    "meaning": "गति",
+    "meaning_en": "How fast something moves",
+    "example": "The car was running at a high speed.",
+    "example_hi": "कार तेज गति से दौड़ रही थी।"
+  },
+  {
+    "word": "Measure",
+    "pos": "verb",
+    "meaning": "मापना",
+    "meaning_en": "To discover the exact size or amount of something",
+    "example": "Can you measure the room for the new carpet?",
+    "example_hi": "क्या आप नए कालीन के लिए कमरे को माप सकते हैं?"
+  },
+  {
+    "word": "Scale",
+    "pos": "noun",
+    "meaning": "पैमाना",
+    "meaning_en": "A device for weighing things or people",
+    "example": "He stepped on the weighing scale.",
+    "example_hi": "उसने वजन मापने वाले पैमाने पर कदम रखा।"
+  }
+]

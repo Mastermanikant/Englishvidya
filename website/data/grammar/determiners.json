@@ -1,0 +1,86 @@
+{
+  "topic": "Modern Adjective Family Expansion",
+  "topic_hi": "आधुनिक विशेषण परिवार विस्तार (Determiners, Articles, Quantifiers, Numerals)",
+  "teacher_note": "बच्चों, Part 19 में हमने adjective system पढ़ा। अब हम grammar के एक बहुत important modern concept को समझेंगे। पुराने समय में article, determiner, quantifier, numeral को adjective family के अंदर ही पढ़ाया जाता था। लेकिन modern grammar में: इनकी अलग विशेषताओं और अलग rules की वजह से इन्हें अलग पहचान दी गई।",
+  "historical_context": "पुराने समय में adjective एक बहुत बड़ा परिवार था। लेकिन आधुनिक grammar scholars ने देखा कि इनका function और grammar rules अलग हैं, इसलिए इन्हें अलग categories की तरह पढ़ाना अधिक सही माना गया।",
+  "modern_family": [
+    "1. Determiner (निर्धारक)",
+    "2. Article (आर्टिकल)",
+    "3. Quantifier (परिमाण बोधक)",
+    "4. Numeral (संख्या बोधक)"
+  ],
+  "categories": [
+    {
+      "name": "Determiner",
+      "name_hi": "निर्धारक",
+      "definition": "A word that comes before a noun to identify it or point it out is called a determiner.",
+      "definition_hi": "वह शब्द जो noun से पहले आकर उसे पहचानने या उसकी ओर संकेत करने का कार्य करे, determiner कहलाता है।",
+      "quick_examples": [
+        {"en": "this boy", "hi": "यह लड़का"},
+        {"en": "that house", "hi": "वह घर"},
+        {"en": "these books", "hi": "ये किताबें"},
+        {"en": "those students", "hi": "वे छात्र"}
+      ],
+      "important_understanding": "Determiner: noun की सीमा तय करता है। यह बताता है: कौन-सा noun या किस noun की बात हो रही है। (Determiner सामान्यतः noun से पहले आता है)",
+      "determiner_vs_adjective": {
+        "adjective": "quality बताता है। (Example: red car, smart boy) [कैसा?]",
+        "determiner": "noun की पहचान/सीमा बताता है। (Example: this book, that girl) [कौन-सा?]"
+      },
+      "rules": [
+        {"rule": "Degree Rule", "description": "Adjective degree बदल सकता है (smart -> smarter -> smartest), लेकिन determiner degree नहीं बदलता (❌ thiser, ❌ thisest)."},
+        {"rule": "Position Rule", "description": "Determiner सामान्यतः सबसे पहले आता है (Example: this beautiful girl)."},
+        {"rule": "Repetition Rule", "description": "एक noun के साथ कई adjectives आ सकते हैं (a tall handsome smart boy), लेकिन दो determiners सामान्यतः साथ नहीं आते (❌ the this boy, ❌ a my book)."}
+      ]
+    },
+    {
+      "name": "Article",
+      "name_hi": "आर्टिकल",
+      "definition": "An article is a word that comes before a noun to indicate whether the noun is general or specific.",
+      "definition_hi": "Article वह शब्द है जो noun से पहले आकर यह बताता है कि noun सामान्य है या विशेष।",
+      "types": [
+        {"type": "Indefinite Articles", "examples": "a, an (general/अनिर्दिष्ट)"},
+        {"type": "Definite Article", "examples": "the (specific/विशेष)"}
+      ],
+      "usage_rules": [
+        {"article": "A", "rule": "Singular countable noun से पहले जो consonant sound से शुरू हो। (Examples: a boy, a cat, a university - 'यु' sound)"},
+        {"article": "An", "rule": "Singular countable noun से पहले जो vowel sound से शुरू हो। (Examples: an apple, an egg, an honest man - 'H' silent)"},
+        {"article": "The", "rule": "Specific noun को दिखाता है। (Examples: the sun, the moon, the Taj Mahal). Pronunciation: 'द' (consonant sound से पहले), 'दी' (vowel sound से पहले, e.g. the elephant)."}
+      ],
+      "article_vs_adjective": {
+        "similarity": "दोनों noun के बारे में information देते हैं।",
+        "adjective": "noun की quality बताता है (smart boy).",
+        "article": "noun general है या specific, यह बताता है (a boy, the boy).",
+        "important_rule": "अगर article और adjective दोनों हों, तो article पहले आएगा (✅ a tall boy, ❌ tall a boy)."
+      }
+    },
+    {
+      "name": "Quantifier",
+      "name_hi": "परिमाण बोधक",
+      "definition": "A quantifier is a word that indicates the amount or quantity of a noun in an indefinite way.",
+      "definition_hi": "जो शब्द किसी noun की मात्रा का बोध कराए लेकिन exact संख्या न बताए, उसे quantifier कहते हैं।",
+      "quick_examples": [
+        {"en": "some water", "hi": "कुछ पानी"},
+        {"en": "many books", "hi": "कई किताबें"},
+        {"en": "few students", "hi": "कुछ/कम छात्र"},
+        {"en": "much milk", "hi": "बहुत दूध"}
+      ],
+      "important_understanding": "Quantifier: exact counting नहीं देता, सिर्फ quantity का अंदाज़ा देता है (approximate quantity).",
+      "quantifier_vs_numeral": {
+        "quantifier": "approximate quantity (some, many, few)",
+        "numeral": "exact number/order (one, two, first, second)"
+      }
+    },
+    {
+      "name": "Numeral",
+      "name_hi": "संख्या बोधक",
+      "definition": "A numeral is a word that indicates the exact number or order of a noun.",
+      "definition_hi": "जो शब्द किसी noun की सही संख्या या क्रम का बोध कराए, उसे numeral कहते हैं।",
+      "types": [
+        {"type": "Cardinal Numeral", "description": "Quantity बताता है।", "examples": "one, two, three"},
+        {"type": "Ordinal Numeral", "description": "Position बताता है।", "examples": "first, second, third"}
+      ],
+      "important_understanding": "Numeral: exact counting (Quantifier: अंदाज़ा)"
+    }
+  ],
+  "conclusion": "Old Grammar में सब adjective family के अंदर थे। Modern Grammar में अब determiner, article, quantifier, numeral को अलग functional categories माना जाता है क्योंकि इनके grammar rules अलग हैं, sentence position अलग है और usage logic अलग है।"
+}

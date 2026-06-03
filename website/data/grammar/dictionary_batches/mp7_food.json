@@ -1,0 +1,812 @@
+[
+  {
+    "word": "apple",
+    "part_of_speech": "noun",
+    "meaning_english": "A round fruit with red or green skin and a whitish interior.",
+    "meaning_hindi": "सेब",
+    "example_english": "An apple a day keeps the doctor away.",
+    "example_hindi": "रोज़ एक सेब खाने से बीमारियाँ दूर रहती हैं।",
+    "pronunciation": "ऐपल"
+  },
+  {
+    "word": "banana",
+    "part_of_speech": "noun",
+    "meaning_english": "A long curved fruit which grows in clusters and has soft pulpy flesh and yellow skin when ripe.",
+    "meaning_hindi": "केला",
+    "example_english": "Monkeys love to eat bananas.",
+    "example_hindi": "बंदरों को केले खाना बहुत पसंद है।",
+    "pronunciation": "बनाना"
+  },
+  {
+    "word": "orange",
+    "part_of_speech": "noun",
+    "meaning_english": "A round citrus fruit with a tough bright reddish-yellow rind.",
+    "meaning_hindi": "संतरा",
+    "example_english": "She drank a glass of fresh orange juice.",
+    "example_hindi": "उसने एक गिलास ताज़ा संतरे का रस पिया।",
+    "pronunciation": "ऑरेंज"
+  },
+  {
+    "word": "mango",
+    "part_of_speech": "noun",
+    "meaning_english": "A fleshy yellowish-red tropical fruit.",
+    "meaning_hindi": "आम",
+    "example_english": "Mango is the king of fruits.",
+    "example_hindi": "आम फलों का राजा है।",
+    "pronunciation": "मैंगो"
+  },
+  {
+    "word": "grapes",
+    "part_of_speech": "noun",
+    "meaning_english": "Berries growing in clusters on a grapevine.",
+    "meaning_hindi": "अंगूर",
+    "example_english": "These grapes are very sweet.",
+    "example_hindi": "ये अंगूर बहुत मीठे हैं।",
+    "pronunciation": "ग्रेप्स"
+  },
+  {
+    "word": "potato",
+    "part_of_speech": "noun",
+    "meaning_english": "A starchy plant tuber which is one of the most important food crops.",
+    "meaning_hindi": "आलू",
+    "example_english": "I like boiled potatoes.",
+    "example_hindi": "मुझे उबले हुए आलू पसंद हैं।",
+    "pronunciation": "पोटैटो"
+  },
+  {
+    "word": "tomato",
+    "part_of_speech": "noun",
+    "meaning_english": "A glossy red, or occasionally yellow, pulpy edible fruit.",
+    "meaning_hindi": "टमाटर",
+    "example_english": "We need tomatoes for the salad.",
+    "example_hindi": "हमें सलाद के लिए टमाटर चाहिए।",
+    "pronunciation": "टोमैटो"
+  },
+  {
+    "word": "onion",
+    "part_of_speech": "noun",
+    "meaning_english": "An edible bulb with a pungent taste and smell.",
+    "meaning_hindi": "प्याज",
+    "example_english": "Chopping onions makes me cry.",
+    "example_hindi": "प्याज काटने से मुझे रोना आता है।",
+    "pronunciation": "अनियन"
+  },
+  {
+    "word": "garlic",
+    "part_of_speech": "noun",
+    "meaning_english": "A strong-smelling pungent-tasting bulb, used as a flavoring.",
+    "meaning_hindi": "लहसुन",
+    "example_english": "Garlic adds a lot of flavor to the food.",
+    "example_hindi": "लहसुन भोजन में बहुत स्वाद जोड़ता है।",
+    "pronunciation": "गार्लिक"
+  },
+  {
+    "word": "ginger",
+    "part_of_speech": "noun",
+    "meaning_english": "A hot, fragrant spice made from the rhizome of a plant.",
+    "meaning_hindi": "अदरक",
+    "example_english": "I prefer ginger tea in the winter.",
+    "example_hindi": "मुझे सर्दियों में अदरक की चाय पसंद है।",
+    "pronunciation": "जिंजर"
+  },
+  {
+    "word": "carrot",
+    "part_of_speech": "noun",
+    "meaning_english": "A tapering orange-colored root eaten as a vegetable.",
+    "meaning_hindi": "गाजर",
+    "example_english": "Rabbits love eating carrots.",
+    "example_hindi": "खरगोशों को गाजर खाना बहुत पसंद है।",
+    "pronunciation": "कैरट"
+  },
+  {
+    "word": "cabbage",
+    "part_of_speech": "noun",
+    "meaning_english": "A cultivated plant eaten as a vegetable, having thick green or purple leaves.",
+    "meaning_hindi": "पत्ता गोभी",
+    "example_english": "She made a healthy cabbage soup.",
+    "example_hindi": "उसने एक पौष्टिक पत्ता गोभी का सूप बनाया।",
+    "pronunciation": "कैबेज"
+  },
+  {
+    "word": "cauliflower",
+    "part_of_speech": "noun",
+    "meaning_english": "A vegetable with a large white flower head.",
+    "meaning_hindi": "फूल गोभी",
+    "example_english": "Cauliflower can be roasted or boiled.",
+    "example_hindi": "फूल गोभी को भूना या उबाला जा सकता है।",
+    "pronunciation": "कॉलीफ्लॉवर"
+  },
+  {
+    "word": "spinach",
+    "part_of_speech": "noun",
+    "meaning_english": "An edible Asian plant with large dark green leaves.",
+    "meaning_hindi": "पालक",
+    "example_english": "Spinach is rich in iron.",
+    "example_hindi": "पालक में आयरन भरपूर मात्रा में होता है।",
+    "pronunciation": "स्पिनिच"
+  },
+  {
+    "word": "rice",
+    "part_of_speech": "noun",
+    "meaning_english": "A swamp grass which is widely cultivated as a source of food.",
+    "meaning_hindi": "चावल",
+    "example_english": "They eat rice with curry.",
+    "example_hindi": "वे करी के साथ चावल खाते हैं।",
+    "pronunciation": "राइस"
+  },
+  {
+    "word": "wheat",
+    "part_of_speech": "noun",
+    "meaning_english": "A cereal plant that is the most important kind grown in temperate countries.",
+    "meaning_hindi": "गेहूं",
+    "example_english": "Wheat is used to make flour.",
+    "example_hindi": "गेहूं का उपयोग आटा बनाने के लिए किया जाता है।",
+    "pronunciation": "व्हीट"
+  },
+  {
+    "word": "bread",
+    "part_of_speech": "noun",
+    "meaning_english": "Food made of flour, water, and yeast mixed together and baked.",
+    "meaning_hindi": "रोटी/ब्रेड",
+    "example_english": "I had a slice of bread for breakfast.",
+    "example_hindi": "मैंने नाश्ते में ब्रेड का एक टुकड़ा खाया।",
+    "pronunciation": "ब्रेड"
+  },
+  {
+    "word": "butter",
+    "part_of_speech": "noun",
+    "meaning_english": "A pale yellow edible fatty substance made by churning cream.",
+    "meaning_hindi": "मक्खन",
+    "example_english": "She spread butter on her toast.",
+    "example_hindi": "उसने अपने टोस्ट पर मक्खन लगाया।",
+    "pronunciation": "बटर"
+  },
+  {
+    "word": "cheese",
+    "part_of_speech": "noun",
+    "meaning_english": "A food made from the pressed curds of milk.",
+    "meaning_hindi": "पनीर/चीज़",
+    "example_english": "The pizza has extra cheese.",
+    "example_hindi": "पिज़्ज़ा में अतिरिक्त चीज़ है।",
+    "pronunciation": "चीज़"
+  },
+  {
+    "word": "milk",
+    "part_of_speech": "noun",
+    "meaning_english": "An opaque white fluid rich in fat and protein, secreted by female mammals.",
+    "meaning_hindi": "दूध",
+    "example_english": "Drink a glass of warm milk before bed.",
+    "example_hindi": "सोने से पहले एक गिलास गर्म दूध पिएं।",
+    "pronunciation": "मिल्क"
+  },
+  {
+    "word": "egg",
+    "part_of_speech": "noun",
+    "meaning_english": "An oval or round object laid by a female bird, reptile, fish, or invertebrate.",
+    "meaning_hindi": "अंडा",
+    "example_english": "He had a boiled egg for breakfast.",
+    "example_hindi": "उसने नाश्ते में एक उबला हुआ अंडा खाया।",
+    "pronunciation": "एग"
+  },
+  {
+    "word": "meat",
+    "part_of_speech": "noun",
+    "meaning_english": "The flesh of an animal as food.",
+    "meaning_hindi": "मांस",
+    "example_english": "He doesn't eat meat.",
+    "example_hindi": "वह मांस नहीं खाता है।",
+    "pronunciation": "मीट"
+  },
+  {
+    "word": "chicken",
+    "part_of_speech": "noun",
+    "meaning_english": "A domestic fowl kept for its eggs or meat.",
+    "meaning_hindi": "मुर्गा/चिकन",
+    "example_english": "We are having roast chicken for dinner.",
+    "example_hindi": "हम रात के खाने में भुना हुआ चिकन खा रहे हैं।",
+    "pronunciation": "चिकन"
+  },
+  {
+    "word": "fish",
+    "part_of_speech": "noun",
+    "meaning_english": "A limbless cold-blooded vertebrate animal with gills and fins.",
+    "meaning_hindi": "मछली",
+    "example_english": "They caught a large fish in the river.",
+    "example_hindi": "उन्होंने नदी में एक बड़ी मछली पकड़ी।",
+    "pronunciation": "फिश"
+  },
+  {
+    "word": "lentil",
+    "part_of_speech": "noun",
+    "meaning_english": "A high-protein pulse which is dried and then soaked and cooked prior to eating.",
+    "meaning_hindi": "मसूर/दाल",
+    "example_english": "Lentil soup is very healthy.",
+    "example_hindi": "मसूर दाल का सूप बहुत सेहतमंद होता है।",
+    "pronunciation": "लेंटिल"
+  },
+  {
+    "word": "bean",
+    "part_of_speech": "noun",
+    "meaning_english": "An edible seed, typically kidney-shaped.",
+    "meaning_hindi": "फली/बीन",
+    "example_english": "Green beans are good for health.",
+    "example_hindi": "हरी फलियां स्वास्थ्य के लिए अच्छी होती हैं।",
+    "pronunciation": "बीन"
+  },
+  {
+    "word": "sugar",
+    "part_of_speech": "noun",
+    "meaning_english": "A sweet crystalline substance obtained from various plants.",
+    "meaning_hindi": "चीनी",
+    "example_english": "Do you take sugar in your tea?",
+    "example_hindi": "क्या आप अपनी चाय में चीनी लेते हैं?",
+    "pronunciation": "शुगर"
+  },
+  {
+    "word": "salt",
+    "part_of_speech": "noun",
+    "meaning_english": "A white crystalline substance that gives seawater its characteristic taste.",
+    "meaning_hindi": "नमक",
+    "example_english": "Add a pinch of salt to the dish.",
+    "example_hindi": "पकवान में एक चुटकी नमक डालें।",
+    "pronunciation": "सॉल्ट"
+  },
+  {
+    "word": "pepper",
+    "part_of_speech": "noun",
+    "meaning_english": "A pungent hot-tasting powder prepared from dried and ground peppercorns.",
+    "meaning_hindi": "काली मिर्च",
+    "example_english": "Sprinkle some black pepper on the eggs.",
+    "example_hindi": "अंडों पर थोड़ी काली मिर्च छिड़कें।",
+    "pronunciation": "पेपर"
+  },
+  {
+    "word": "spice",
+    "part_of_speech": "noun",
+    "meaning_english": "An aromatic or pungent vegetable substance used to flavor food.",
+    "meaning_hindi": "मसाला",
+    "example_english": "Indian food uses a lot of spices.",
+    "example_hindi": "भारतीय भोजन में बहुत सारे मसालों का उपयोग होता है।",
+    "pronunciation": "स्पाइस"
+  },
+  {
+    "word": "oil",
+    "part_of_speech": "noun",
+    "meaning_english": "A viscous liquid derived from petroleum or plants, used for cooking.",
+    "meaning_hindi": "तेल",
+    "example_english": "Heat the oil in a frying pan.",
+    "example_hindi": "फ्राईंग पैन में तेल गरम करें।",
+    "pronunciation": "ऑयल"
+  },
+  {
+    "word": "flour",
+    "part_of_speech": "noun",
+    "meaning_english": "A powder obtained by grinding grain.",
+    "meaning_hindi": "आटा",
+    "example_english": "Mix the flour and water to make dough.",
+    "example_hindi": "आटा और पानी मिलाकर गूंथ लें।",
+    "pronunciation": "फ्लावर"
+  },
+  {
+    "word": "honey",
+    "part_of_speech": "noun",
+    "meaning_english": "A sweet, sticky yellowish-brown fluid made by bees.",
+    "meaning_hindi": "शहद",
+    "example_english": "She put some honey in her green tea.",
+    "example_hindi": "उसने अपनी ग्रीन टी में थोड़ा शहद डाला।",
+    "pronunciation": "हनी"
+  },
+  {
+    "word": "nut",
+    "part_of_speech": "noun",
+    "meaning_english": "A fruit consisting of a hard or tough shell around an edible kernel.",
+    "meaning_hindi": "अखरोट/मेवा",
+    "example_english": "Eating nuts is good for your brain.",
+    "example_hindi": "मेवे खाना आपके दिमाग के लिए अच्छा है।",
+    "pronunciation": "नट"
+  },
+  {
+    "word": "almond",
+    "part_of_speech": "noun",
+    "meaning_english": "The oval nut-like seed of the almond tree.",
+    "meaning_hindi": "बादाम",
+    "example_english": "I soaked some almonds overnight.",
+    "example_hindi": "मैंने रात भर कुछ बादाम भिगोए।",
+    "pronunciation": "आमंड"
+  },
+  {
+    "word": "cashew",
+    "part_of_speech": "noun",
+    "meaning_english": "An edible kidney-shaped nut.",
+    "meaning_hindi": "काजू",
+    "example_english": "He bought a packet of roasted cashews.",
+    "example_hindi": "उसने भुने हुए काजू का एक पैकेट खरीदा।",
+    "pronunciation": "कैश्यू"
+  },
+  {
+    "word": "peanut",
+    "part_of_speech": "noun",
+    "meaning_english": "The oval seed of a tropical South American plant.",
+    "meaning_hindi": "मूंगफली",
+    "example_english": "Peanut butter is my favorite.",
+    "example_hindi": "मूंगफली का मक्खन मेरा पसंदीदा है।",
+    "pronunciation": "पीनट"
+  },
+  {
+    "word": "water",
+    "part_of_speech": "noun",
+    "meaning_english": "A colorless, transparent, odorless liquid.",
+    "meaning_hindi": "पानी",
+    "example_english": "Drink plenty of water every day.",
+    "example_hindi": "रोजाना खूब पानी पिएं।",
+    "pronunciation": "वाटर"
+  },
+  {
+    "word": "tea",
+    "part_of_speech": "noun",
+    "meaning_english": "A hot drink made by infusing dried crushed leaves in boiling water.",
+    "meaning_hindi": "चाय",
+    "example_english": "Would you like a cup of tea?",
+    "example_hindi": "क्या आप एक कप चाय लेंगे?",
+    "pronunciation": "टी"
+  },
+  {
+    "word": "coffee",
+    "part_of_speech": "noun",
+    "meaning_english": "A hot drink made from roasted and ground coffee beans.",
+    "meaning_hindi": "कॉफी",
+    "example_english": "I need a strong cup of coffee in the morning.",
+    "example_hindi": "मुझे सुबह एक कड़क कॉफी चाहिए।",
+    "pronunciation": "कॉफी"
+  },
+  {
+    "word": "juice",
+    "part_of_speech": "noun",
+    "meaning_english": "The liquid obtained from or present in fruit or vegetables.",
+    "meaning_hindi": "रस/जूस",
+    "example_english": "Fresh apple juice is very refreshing.",
+    "example_hindi": "ताज़ा सेब का जूस बहुत ताज़गी देने वाला होता है।",
+    "pronunciation": "जूस"
+  },
+  {
+    "word": "lemonade",
+    "part_of_speech": "noun",
+    "meaning_english": "A drink made from lemon juice and sweetened water.",
+    "meaning_hindi": "नींबू पानी",
+    "example_english": "She served chilled lemonade to the guests.",
+    "example_hindi": "उसने मेहमानों को ठंडा नींबू पानी परोसा।",
+    "pronunciation": "लेमोनेड"
+  },
+  {
+    "word": "soup",
+    "part_of_speech": "noun",
+    "meaning_english": "A liquid dish, typically made by boiling meat, fish, or vegetables.",
+    "meaning_hindi": "सूप",
+    "example_english": "Tomato soup is perfect for cold evenings.",
+    "example_hindi": "टमाटर का सूप ठंडी शामों के लिए एकदम सही है।",
+    "pronunciation": "सूप"
+  },
+  {
+    "word": "bake",
+    "part_of_speech": "verb",
+    "meaning_english": "Cook (food) by dry heat without direct exposure to a flame, typically in an oven.",
+    "meaning_hindi": "सेंकना",
+    "example_english": "She is going to bake a cake for his birthday.",
+    "example_hindi": "वह उसके जन्मदिन के लिए एक केक सेंकने वाली है।",
+    "pronunciation": "बेक"
+  },
+  {
+    "word": "boil",
+    "part_of_speech": "verb",
+    "meaning_english": "Reach or cause to reach the temperature at which it bubbles and turns to vapor.",
+    "meaning_hindi": "उबालना",
+    "example_english": "Boil the water before drinking it.",
+    "example_hindi": "पानी को पीने से पहले उबाल लें।",
+    "pronunciation": "बॉयल"
+  },
+  {
+    "word": "fry",
+    "part_of_speech": "verb",
+    "meaning_english": "Cook (food) in hot fat or oil, typically in a shallow pan.",
+    "meaning_hindi": "तलना",
+    "example_english": "Fry the potatoes until they are golden brown.",
+    "example_hindi": "आलू को सुनहरा भूरा होने तक तलें।",
+    "pronunciation": "फ्राई"
+  },
+  {
+    "word": "roast",
+    "part_of_speech": "verb",
+    "meaning_english": "Cook (food, especially meat) by prolonged exposure to heat in an oven or over a fire.",
+    "meaning_hindi": "भूनना",
+    "example_english": "We roasted peanuts on the fire.",
+    "example_hindi": "हमने आग पर मूंगफली भूनी।",
+    "pronunciation": "रोस्ट"
+  },
+  {
+    "word": "grill",
+    "part_of_speech": "verb",
+    "meaning_english": "Cook (something) using a grill.",
+    "meaning_hindi": "ग्रिल करना/भूनना",
+    "example_english": "They decided to grill some chicken.",
+    "example_hindi": "उन्होंने कुछ चिकन ग्रिल करने का फैसला किया।",
+    "pronunciation": "ग्रिल"
+  },
+  {
+    "word": "chop",
+    "part_of_speech": "verb",
+    "meaning_english": "Cut (something) into pieces with repeated sharp blows of an axe or knife.",
+    "meaning_hindi": "काटना",
+    "example_english": "Chop the vegetables finely.",
+    "example_hindi": "सब्जियों को बारीक काट लें।",
+    "pronunciation": "चॉप"
+  },
+  {
+    "word": "slice",
+    "part_of_speech": "verb",
+    "meaning_english": "Cut (something, especially food) into slices.",
+    "meaning_hindi": "टुकड़े करना",
+    "example_english": "Slice the bread before serving.",
+    "example_hindi": "परोसने से पहले ब्रेड के टुकड़े कर लें।",
+    "pronunciation": "स्लाइस"
+  },
+  {
+    "word": "peel",
+    "part_of_speech": "verb",
+    "meaning_english": "Remove the outer covering or skin from (a fruit or vegetable).",
+    "meaning_hindi": "छीलना",
+    "example_english": "Please peel the apple for me.",
+    "example_hindi": "कृपया मेरे लिए सेब छील दें।",
+    "pronunciation": "पील"
+  },
+  {
+    "word": "stir",
+    "part_of_speech": "verb",
+    "meaning_english": "Move a spoon or other implement around in (a liquid or other substance).",
+    "meaning_hindi": "हिलाना/चलाना",
+    "example_english": "Stir the soup constantly so it doesn't burn.",
+    "example_hindi": "सूप को लगातार हिलाते रहें ताकि वह जले नहीं।",
+    "pronunciation": "स्टर"
+  },
+  {
+    "word": "mix",
+    "part_of_speech": "verb",
+    "meaning_english": "Combine or put together to form one substance or mass.",
+    "meaning_hindi": "मिलाना",
+    "example_english": "Mix all the ingredients in a large bowl.",
+    "example_hindi": "सभी सामग्रियों को एक बड़े कटोरे में मिला लें।",
+    "pronunciation": "मिक्स"
+  },
+  {
+    "word": "pour",
+    "part_of_speech": "verb",
+    "meaning_english": "Flow rapidly in a steady stream.",
+    "meaning_hindi": "डालना/उंडेलना",
+    "example_english": "Pour the milk into the glass.",
+    "example_hindi": "गिलास में दूध डालें।",
+    "pronunciation": "पोर"
+  },
+  {
+    "word": "knead",
+    "part_of_speech": "verb",
+    "meaning_english": "Work (moistened flour or clay) into dough or paste with the hands.",
+    "meaning_hindi": "गूंथना",
+    "example_english": "She began to knead the dough for bread.",
+    "example_hindi": "उसने ब्रेड के लिए आटा गूंथना शुरू किया।",
+    "pronunciation": "नीड"
+  },
+  {
+    "word": "simmer",
+    "part_of_speech": "verb",
+    "meaning_english": "Stay just below boiling point while bubbling gently.",
+    "meaning_hindi": "धीमी आंच पर पकाना",
+    "example_english": "Let the soup simmer for ten minutes.",
+    "example_hindi": "सूप को दस मिनट तक धीमी आंच पर पकने दें।",
+    "pronunciation": "सिमर"
+  },
+  {
+    "word": "steam",
+    "part_of_speech": "verb",
+    "meaning_english": "Cook (food) by heating it in steam from boiling water.",
+    "meaning_hindi": "भाप से पकाना",
+    "example_english": "Steam the vegetables to keep them healthy.",
+    "example_hindi": "सब्जियों को सेहतमंद रखने के लिए भाप में पकाएं।",
+    "pronunciation": "स्टीम"
+  },
+  {
+    "word": "whisk",
+    "part_of_speech": "verb",
+    "meaning_english": "Beat or stir (a substance, especially cream or eggs) with a light, rapid movement.",
+    "meaning_hindi": "फेंटना",
+    "example_english": "Whisk the eggs in a bowl.",
+    "example_hindi": "एक कटोरे में अंडे फेंट लें।",
+    "pronunciation": "विस्क"
+  },
+  {
+    "word": "grate",
+    "part_of_speech": "verb",
+    "meaning_english": "Reduce (food) to small shreds by rubbing it on a grater.",
+    "meaning_hindi": "कद्दूकस करना",
+    "example_english": "Grate some cheese over the pasta.",
+    "example_hindi": "पास्ता के ऊपर थोड़ा पनीर कद्दूकस कर लें।",
+    "pronunciation": "ग्रेट"
+  },
+  {
+    "word": "taste",
+    "part_of_speech": "verb",
+    "meaning_english": "Perceive or experience the flavor of.",
+    "meaning_hindi": "चखना/स्वाद लेना",
+    "example_english": "Taste the curry and add salt if needed.",
+    "example_hindi": "करी को चखें और जरूरत हो तो नमक डालें।",
+    "pronunciation": "टेस्ट"
+  },
+  {
+    "word": "serve",
+    "part_of_speech": "verb",
+    "meaning_english": "Present (food or drink) to someone.",
+    "meaning_hindi": "परोसना",
+    "example_english": "Serve the food while it is hot.",
+    "example_hindi": "खाना गर्म रहते ही परोसें।",
+    "pronunciation": "सर्व"
+  },
+  {
+    "word": "recipe",
+    "part_of_speech": "noun",
+    "meaning_english": "A set of instructions for preparing a particular dish.",
+    "meaning_hindi": "पकाने की विधि/रेसिपी",
+    "example_english": "I found a great recipe for chocolate cake.",
+    "example_hindi": "मुझे चॉकलेट केक की एक बेहतरीन रेसिपी मिली है।",
+    "pronunciation": "रेसिपी"
+  },
+  {
+    "word": "ingredient",
+    "part_of_speech": "noun",
+    "meaning_english": "Any of the foods or substances that are combined to make a particular dish.",
+    "meaning_hindi": "सामग्री",
+    "example_english": "Check if we have all the ingredients.",
+    "example_hindi": "जांच लें कि क्या हमारे पास सभी सामग्री है।",
+    "pronunciation": "इनग्रेडिएंट"
+  },
+  {
+    "word": "pan",
+    "part_of_speech": "noun",
+    "meaning_english": "A metal container used for cooking food in.",
+    "meaning_hindi": "कड़ाही/पैन",
+    "example_english": "Heat the pan on the stove.",
+    "example_hindi": "कड़ाही को गैस पर गरम करें।",
+    "pronunciation": "पैन"
+  },
+  {
+    "word": "pot",
+    "part_of_speech": "noun",
+    "meaning_english": "A container, typically rounded or cylindrical, used for cooking.",
+    "meaning_hindi": "बर्तन/पतीला",
+    "example_english": "Boil the water in a large pot.",
+    "example_hindi": "एक बड़े बर्तन में पानी उबालें।",
+    "pronunciation": "पॉट"
+  },
+  {
+    "word": "bowl",
+    "part_of_speech": "noun",
+    "meaning_english": "A round, deep dish or basin used for food or liquid.",
+    "meaning_hindi": "कटोरा",
+    "example_english": "She poured soup into the bowl.",
+    "example_hindi": "उसने कटोरे में सूप डाला।",
+    "pronunciation": "बोल"
+  },
+  {
+    "word": "spoon",
+    "part_of_speech": "noun",
+    "meaning_english": "An implement consisting of a small, shallow oval or round bowl on a long handle.",
+    "meaning_hindi": "चम्मच",
+    "example_english": "Eat the ice cream with a spoon.",
+    "example_hindi": "आइसक्रीम को चम्मच से खाएं।",
+    "pronunciation": "स्पून"
+  },
+  {
+    "word": "fork",
+    "part_of_speech": "noun",
+    "meaning_english": "An implement with two or more prongs used for lifting food to the mouth.",
+    "meaning_hindi": "कांटा",
+    "example_english": "Use a knife and fork to eat the steak.",
+    "example_hindi": "स्टेक खाने के लिए चाकू और कांटे का प्रयोग करें।",
+    "pronunciation": "फोर्क"
+  },
+  {
+    "word": "knife",
+    "part_of_speech": "noun",
+    "meaning_english": "An instrument composed of a blade fixed into a handle, used for cutting.",
+    "meaning_hindi": "चाकू",
+    "example_english": "Be careful with that sharp knife.",
+    "example_hindi": "उस तेज़ चाकू से सावधान रहें।",
+    "pronunciation": "नाइफ"
+  },
+  {
+    "word": "plate",
+    "part_of_speech": "noun",
+    "meaning_english": "A flat dish from which food is eaten or served.",
+    "meaning_hindi": "थाली/प्लेट",
+    "example_english": "Put the sandwiches on a plate.",
+    "example_hindi": "सैंडविच को एक प्लेट में रखें।",
+    "pronunciation": "प्लेट"
+  },
+  {
+    "word": "cup",
+    "part_of_speech": "noun",
+    "meaning_english": "A small bowl-shaped container for drinking from.",
+    "meaning_hindi": "प्याला/कप",
+    "example_english": "Would you like a cup of coffee?",
+    "example_hindi": "क्या आप एक कप कॉफी लेना चाहेंगे?",
+    "pronunciation": "कप"
+  },
+  {
+    "word": "breakfast",
+    "part_of_speech": "noun",
+    "meaning_english": "A meal eaten in the morning.",
+    "meaning_hindi": "नाश्ता",
+    "example_english": "I usually have oats for breakfast.",
+    "example_hindi": "मैं आमतौर पर नाश्ते में ओट्स खाता हूँ।",
+    "pronunciation": "ब्रेकफास्ट"
+  },
+  {
+    "word": "lunch",
+    "part_of_speech": "noun",
+    "meaning_english": "A meal eaten in the middle of the day.",
+    "meaning_hindi": "दोपहर का भोजन",
+    "example_english": "We had lunch at a restaurant.",
+    "example_hindi": "हमने एक रेस्तरां में दोपहर का भोजन किया।",
+    "pronunciation": "लंच"
+  },
+  {
+    "word": "dinner",
+    "part_of_speech": "noun",
+    "meaning_english": "The main meal of the day, taken either around midday or in the evening.",
+    "meaning_hindi": "रात का भोजन",
+    "example_english": "What is for dinner tonight?",
+    "example_hindi": "आज रात के खाने में क्या है?",
+    "pronunciation": "डिनर"
+  },
+  {
+    "word": "snack",
+    "part_of_speech": "noun",
+    "meaning_english": "A small amount of food eaten between meals.",
+    "meaning_hindi": "हल्का भोजन/स्नैक",
+    "example_english": "I eat fruits as a healthy snack.",
+    "example_hindi": "मैं सेहतमंद स्नैक के रूप में फल खाता हूँ।",
+    "pronunciation": "स्नैक"
+  },
+  {
+    "word": "dessert",
+    "part_of_speech": "noun",
+    "meaning_english": "The sweet course eaten at the end of a meal.",
+    "meaning_hindi": "मिठाई",
+    "example_english": "We had ice cream for dessert.",
+    "example_hindi": "हमने खाने के बाद मिठाई में आइसक्रीम खाई।",
+    "pronunciation": "डेज़र्ट"
+  },
+  {
+    "word": "appetite",
+    "part_of_speech": "noun",
+    "meaning_english": "A natural desire to satisfy a bodily need, especially for food.",
+    "meaning_hindi": "भूख",
+    "example_english": "Exercise gives you a good appetite.",
+    "example_hindi": "व्यायाम करने से अच्छी भूख लगती है।",
+    "pronunciation": "ऐपिटाइट"
+  },
+  {
+    "word": "hungry",
+    "part_of_speech": "adjective",
+    "meaning_english": "Feeling or displaying the need for food.",
+    "meaning_hindi": "भूखा",
+    "example_english": "I am very hungry right now.",
+    "example_hindi": "मुझे अभी बहुत भूख लगी है।",
+    "pronunciation": "हंग्री"
+  },
+  {
+    "word": "thirsty",
+    "part_of_speech": "adjective",
+    "meaning_english": "Feeling a need to drink.",
+    "meaning_hindi": "प्यासा",
+    "example_english": "He was thirsty after running.",
+    "example_hindi": "दौड़ने के बाद उसे प्यास लगी थी।",
+    "pronunciation": "थर्स्टी"
+  },
+  {
+    "word": "delicious",
+    "part_of_speech": "adjective",
+    "meaning_english": "Highly pleasant to the taste.",
+    "meaning_hindi": "स्वादिष्ट",
+    "example_english": "The cake she baked was delicious.",
+    "example_hindi": "उसने जो केक बनाया वह बहुत स्वादिष्ट था।",
+    "pronunciation": "डिलिशस"
+  },
+  {
+    "word": "tasty",
+    "part_of_speech": "adjective",
+    "meaning_english": "Having a pleasant, distinct flavor.",
+    "meaning_hindi": "स्वादिष्ट",
+    "example_english": "This soup is really tasty.",
+    "example_hindi": "यह सूप सचमुच स्वादिष्ट है।",
+    "pronunciation": "टेस्टी"
+  },
+  {
+    "word": "spicy",
+    "part_of_speech": "adjective",
+    "meaning_english": "Flavored with or fragrant with spice.",
+    "meaning_hindi": "मसालेदार/तीखा",
+    "example_english": "I love spicy Indian food.",
+    "example_hindi": "मुझे मसालेदार भारतीय खाना पसंद है।",
+    "pronunciation": "स्पाइसी"
+  },
+  {
+    "word": "sweet",
+    "part_of_speech": "adjective",
+    "meaning_english": "Having the pleasant taste characteristic of sugar or honey.",
+    "meaning_hindi": "मीठा",
+    "example_english": "These mangoes are very sweet.",
+    "example_hindi": "ये आम बहुत मीठे हैं।",
+    "pronunciation": "स्वीट"
+  },
+  {
+    "word": "sour",
+    "part_of_speech": "adjective",
+    "meaning_english": "Having an acid taste like lemon or vinegar.",
+    "meaning_hindi": "खट्टा",
+    "example_english": "The lemon made the drink sour.",
+    "example_hindi": "नींबू ने पेय को खट्टा कर दिया।",
+    "pronunciation": "सावर"
+  },
+  {
+    "word": "bitter",
+    "part_of_speech": "adjective",
+    "meaning_english": "Having a sharp, pungent taste or smell; not sweet.",
+    "meaning_hindi": "कड़वा",
+    "example_english": "Bitter gourd is good for health.",
+    "example_hindi": "करेला (कड़वा लौकी) स्वास्थ्य के लिए अच्छा है।",
+    "pronunciation": "बिटर"
+  },
+  {
+    "word": "salty",
+    "part_of_speech": "adjective",
+    "meaning_english": "Tasting of, containing, or preserved with salt.",
+    "meaning_hindi": "नमकीन",
+    "example_english": "The soup was too salty to eat.",
+    "example_hindi": "सूप खाने के लिए बहुत अधिक नमकीन था।",
+    "pronunciation": "सॉल्टी"
+  },
+  {
+    "word": "fresh",
+    "part_of_speech": "adjective",
+    "meaning_english": "Recently made or obtained; not canned, frozen, or otherwise preserved.",
+    "meaning_hindi": "ताजा",
+    "example_english": "We bought some fresh vegetables.",
+    "example_hindi": "हमने कुछ ताजी सब्जियां खरीदीं।",
+    "pronunciation": "फ्रेश"
+  },
+  {
+    "word": "stale",
+    "part_of_speech": "adjective",
+    "meaning_english": "No longer fresh and pleasant to eat; hard, musty, or dry.",
+    "meaning_hindi": "बासी",
+    "example_english": "Do not eat stale bread.",
+    "example_hindi": "बासी रोटी मत खाओ।",
+    "pronunciation": "स्टेल"
+  },
+  {
+    "word": "raw",
+    "part_of_speech": "adjective",
+    "meaning_english": "Uncooked food.",
+    "meaning_hindi": "कच्चा",
+    "example_english": "Carrots can be eaten raw.",
+    "example_hindi": "गाजर को कच्चा खाया जा सकता है।",
+    "pronunciation": "रॉ"
+  },
+  {
+    "word": "ripe",
+    "part_of_speech": "adjective",
+    "meaning_english": "Developed to the point of readiness for harvesting and eating.",
+    "meaning_hindi": "पका हुआ",
+    "example_english": "Pick the mangoes when they are ripe.",
+    "example_hindi": "आम जब पक जाएं तब उन्हें तोड़ लें।",
+    "pronunciation": "राइप"
+  }
+]

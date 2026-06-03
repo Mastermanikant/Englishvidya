@@ -1,0 +1,71 @@
+{
+  "project": "English Vidya",
+  "version": "2.0.0",
+  "data_directory": "/website/data",
+  "endpoints": {
+    "site_index": {
+      "path": "/site/articles-index.json",
+      "description": "Index list of all active grammar units and lessons.",
+      "schema": {
+        "unit": "string (Unit name)",
+        "slug": "string (Lesson identifier slug)",
+        "title": "string (Hindi Lesson Title)",
+        "english_title": "string (English Lesson Title)"
+      }
+    },
+    "categories_index": {
+      "path": "/site/categories-index.json",
+      "description": "Index of all dictionary categories with word counts.",
+      "schema": {
+        "slug": "string (Category slug, matches vocabulary JSON file name)",
+        "name_hi": "string (Hindi Category Name)",
+        "name_en": "string (English Category Name)",
+        "count": "integer (Total words inside this category)"
+      }
+    },
+    "search_index": {
+      "path": "/site/search-index.json",
+      "description": "Pre-compiled flat search index for client-side fuzzy search.",
+      "schema": {
+        "w": "string (English Word)",
+        "m": "string (Hindi Meaning)",
+        "s": "string (Category Slug reference)"
+      }
+    },
+    "grammar_lessons": {
+      "path": "/grammar/[slug].json",
+      "description": "Structured grammar lesson containing definitions, lists, and bilingual examples.",
+      "schema": {
+        "topic": "string (English Topic Name)",
+        "topic_hi": "string (Hindi Topic Name)",
+        "teacher_note": "string (Pedagogical advice for the student)",
+        "types": [
+          {
+            "name": "string (Name of grammar type, e.g. Proper Noun)",
+            "definition": "string (Bilingual explanation)",
+            "examples": [
+              {
+                "english": "string (English sentence example)",
+                "hindi": "string (Hindi translation)"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "vocabulary_categories": {
+      "path": "/vocabulary/categories/[slug].json",
+      "description": "List of vocabulary words inside a specific category (e.g. animals.json).",
+      "schema": {
+        "category": "string (Category name)",
+        "words": [
+          {
+            "word": "string (English Word)",
+            "meaning": "string (Hindi Meaning)",
+            "pronunciation": "string (Devanagari phonetic pronunciation, e.g. एलीफ़ेंट)"
+          }
+        ]
+      }
+    }
+  }
+}

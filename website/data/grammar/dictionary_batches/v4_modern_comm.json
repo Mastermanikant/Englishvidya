@@ -1,0 +1,812 @@
+[
+  {
+    "word": "attachment",
+    "meaning": "A file sent along with an email message",
+    "example": "Please find the report as an attachment to this email.",
+    "category": "Email"
+  },
+  {
+    "word": "CC",
+    "meaning": "Carbon Copy; sending a copy of an email to additional recipients",
+    "example": "I will CC the manager so she is aware of our discussion.",
+    "category": "Email"
+  },
+  {
+    "word": "BCC",
+    "meaning": "Blind Carbon Copy; sending a copy to recipients without others knowing",
+    "example": "He BCCed the HR department on the sensitive message.",
+    "category": "Email"
+  },
+  {
+    "word": "reply-all",
+    "meaning": "Responding to an email so that all original recipients receive the response",
+    "example": "Do not reply-all unless your response is relevant to everyone.",
+    "category": "Email"
+  },
+  {
+    "word": "subject line",
+    "meaning": "The brief heading of an email that summarises its content",
+    "example": "A clear subject line helps recipients prioritise their inbox.",
+    "category": "Email"
+  },
+  {
+    "word": "inbox",
+    "meaning": "The folder where incoming messages are received",
+    "example": "She checks her inbox first thing every morning.",
+    "category": "Email"
+  },
+  {
+    "word": "spam",
+    "meaning": "Unsolicited or irrelevant messages sent in bulk, especially by email",
+    "example": "The promotional newsletter ended up in his spam folder.",
+    "category": "Email"
+  },
+  {
+    "word": "thread",
+    "meaning": "A chain of email messages on the same topic",
+    "example": "Scroll up the thread to read the full conversation history.",
+    "category": "Email"
+  },
+  {
+    "word": "auto-reply",
+    "meaning": "An automatic response sent when someone is unavailable",
+    "example": "She set an auto-reply message while on vacation.",
+    "category": "Email"
+  },
+  {
+    "word": "signature",
+    "meaning": "A block of text appended to the end of an email with the sender's details",
+    "example": "His email signature includes his phone number and job title.",
+    "category": "Email"
+  },
+  {
+    "word": "forward",
+    "meaning": "To send a received email to another person",
+    "example": "Please forward the invitation to your colleague.",
+    "category": "Email"
+  },
+  {
+    "word": "draft",
+    "meaning": "An unsent, saved version of a message",
+    "example": "She saved the email as a draft before finalising it.",
+    "category": "Email"
+  },
+  {
+    "word": "phishing",
+    "meaning": "A fraudulent attempt to obtain sensitive information via deceptive emails",
+    "example": "The phishing email appeared to come from the bank but was fake.",
+    "category": "Email"
+  },
+  {
+    "word": "mailing list",
+    "meaning": "A collection of email addresses used to send messages to multiple people at once",
+    "example": "Subscribe to our mailing list for weekly updates.",
+    "category": "Email"
+  },
+  {
+    "word": "newsletter",
+    "meaning": "A regularly distributed email containing news and updates",
+    "example": "The company sends a newsletter to all clients every Friday.",
+    "category": "Email"
+  },
+  {
+    "word": "video call",
+    "meaning": "A real-time communication session that transmits both audio and video",
+    "example": "They held a video call to discuss the project milestones.",
+    "category": "Video Calls"
+  },
+  {
+    "word": "virtual meeting",
+    "meaning": "A meeting conducted online using video or audio conferencing tools",
+    "example": "The team scheduled a virtual meeting for Monday morning.",
+    "category": "Video Calls"
+  },
+  {
+    "word": "mute",
+    "meaning": "To silence one's microphone during a call so others cannot hear",
+    "example": "Please mute yourself when you are not speaking to reduce background noise.",
+    "category": "Video Calls"
+  },
+  {
+    "word": "unmute",
+    "meaning": "To re-enable the microphone so others can hear the speaker",
+    "example": "You can unmute now and share your thoughts.",
+    "category": "Video Calls"
+  },
+  {
+    "word": "screen share",
+    "meaning": "Displaying one's computer screen to other participants in a call",
+    "example": "She used screen share to walk the team through the slides.",
+    "category": "Video Calls"
+  },
+  {
+    "word": "breakout room",
+    "meaning": "A smaller virtual room created within a larger video meeting for group discussions",
+    "example": "Participants were divided into breakout rooms for the workshop activity.",
+    "category": "Video Calls"
+  },
+  {
+    "word": "bandwidth",
+    "meaning": "The data transmission capacity of a network connection",
+    "example": "Low bandwidth caused the video to freeze during the call.",
+    "category": "Video Calls"
+  },
+  {
+    "word": "latency",
+    "meaning": "The delay between sending and receiving data in a communication system",
+    "example": "High latency made the conversation difficult as responses were delayed.",
+    "category": "Video Calls"
+  },
+  {
+    "word": "virtual background",
+    "meaning": "A digitally applied image or video shown behind a person on a video call",
+    "example": "He used a blurred virtual background to hide his messy room.",
+    "category": "Video Calls"
+  },
+  {
+    "word": "webinar",
+    "meaning": "An online seminar or presentation conducted via the internet",
+    "example": "Over 500 people attended the live webinar on digital marketing.",
+    "category": "Video Calls"
+  },
+  {
+    "word": "host",
+    "meaning": "The person who organises and manages a video call or online event",
+    "example": "The host can remove disruptive participants from the meeting.",
+    "category": "Video Calls"
+  },
+  {
+    "word": "waiting room",
+    "meaning": "A virtual holding area where participants wait before being admitted to a meeting",
+    "example": "Attendees stayed in the waiting room until the host started the session.",
+    "category": "Video Calls"
+  },
+  {
+    "word": "recording",
+    "meaning": "A saved audio or video file of a meeting or call",
+    "example": "A recording of the webinar was sent to those who missed it.",
+    "category": "Video Calls"
+  },
+  {
+    "word": "caption",
+    "meaning": "Live or auto-generated text displayed during a video call showing spoken words",
+    "example": "She enabled captions so the hearing-impaired participant could follow along.",
+    "category": "Video Calls"
+  },
+  {
+    "word": "instant message",
+    "meaning": "A short text message sent and received in real time over the internet",
+    "example": "She sent an instant message to ask if he was free to talk.",
+    "category": "Messaging"
+  },
+  {
+    "word": "direct message",
+    "meaning": "A private message sent to a specific individual on a platform",
+    "example": "Send me a direct message if you have any questions.",
+    "category": "Messaging"
+  },
+  {
+    "word": "group chat",
+    "meaning": "A messaging conversation involving three or more participants",
+    "example": "The project team uses a group chat for quick daily updates.",
+    "category": "Messaging"
+  },
+  {
+    "word": "emoji",
+    "meaning": "A small digital image or icon used to express emotion in text",
+    "example": "She added a thumbs-up emoji to show her agreement.",
+    "category": "Messaging"
+  },
+  {
+    "word": "GIF",
+    "meaning": "A short, looping animated image used in digital communication",
+    "example": "He replied to the good news with a celebratory GIF.",
+    "category": "Messaging"
+  },
+  {
+    "word": "sticker",
+    "meaning": "A larger, illustrated digital image used like an emoji in messaging apps",
+    "example": "The app offers custom sticker packs for expressive chats.",
+    "category": "Messaging"
+  },
+  {
+    "word": "read receipt",
+    "meaning": "A notification indicating that the recipient has seen a message",
+    "example": "The blue ticks serve as read receipts in many messaging apps.",
+    "category": "Messaging"
+  },
+  {
+    "word": "notification",
+    "meaning": "An alert informing a user of a new message or event",
+    "example": "He turned off notifications during the meeting to avoid distractions.",
+    "category": "Messaging"
+  },
+  {
+    "word": "pin",
+    "meaning": "To highlight and fix an important message at the top of a chat",
+    "example": "The manager pinned the meeting agenda in the team chat.",
+    "category": "Messaging"
+  },
+  {
+    "word": "mention",
+    "meaning": "Tagging a specific person in a message using @ to alert them",
+    "example": "Use @John in the chat to make sure he sees the update.",
+    "category": "Messaging"
+  },
+  {
+    "word": "reaction",
+    "meaning": "An emoji-based response to a specific message without typing a reply",
+    "example": "He gave a heart reaction to show appreciation for the update.",
+    "category": "Messaging"
+  },
+  {
+    "word": "thread",
+    "meaning": "A series of replies nested under a specific message in a chat",
+    "example": "Reply in the thread to keep the main channel uncluttered.",
+    "category": "Messaging"
+  },
+  {
+    "word": "do not disturb",
+    "meaning": "A status setting that suppresses incoming message notifications",
+    "example": "She activated do not disturb during focused work hours.",
+    "category": "Messaging"
+  },
+  {
+    "word": "chatbot",
+    "meaning": "An automated program that simulates conversation with users",
+    "example": "The chatbot answered basic customer queries instantly.",
+    "category": "Messaging"
+  },
+  {
+    "word": "encrypted message",
+    "meaning": "A message that is encoded so only the intended recipient can read it",
+    "example": "The app sends encrypted messages to protect user privacy.",
+    "category": "Messaging"
+  },
+  {
+    "word": "slide deck",
+    "meaning": "A set of slides used in a presentation, typically created with software",
+    "example": "She prepared a polished slide deck for the investor pitch.",
+    "category": "Presentations"
+  },
+  {
+    "word": "presenter view",
+    "meaning": "A display mode showing the speaker's notes and upcoming slides during a presentation",
+    "example": "He used presenter view so he could see his notes while the audience saw the slides.",
+    "category": "Presentations"
+  },
+  {
+    "word": "bullet point",
+    "meaning": "A short piece of information highlighted with a dot or symbol in a list",
+    "example": "Keep bullet points concise for better audience readability.",
+    "category": "Presentations"
+  },
+  {
+    "word": "infographic",
+    "meaning": "A visual representation of information or data using graphics",
+    "example": "The infographic summarised the survey results in a clear format.",
+    "category": "Presentations"
+  },
+  {
+    "word": "transition",
+    "meaning": "An animated effect between slides in a presentation",
+    "example": "Avoid overusing flashy transitions as they can distract the audience.",
+    "category": "Presentations"
+  },
+  {
+    "word": "animation",
+    "meaning": "Movement effects applied to text or objects within a presentation slide",
+    "example": "Each bullet point appeared with a fade animation.",
+    "category": "Presentations"
+  },
+  {
+    "word": "Q&A session",
+    "meaning": "A segment of a presentation where the audience asks questions",
+    "example": "Please save your questions for the Q&A session at the end.",
+    "category": "Presentations"
+  },
+  {
+    "word": "handout",
+    "meaning": "A printed or digital document distributed to audience members during a presentation",
+    "example": "Participants received a handout summarising the key points.",
+    "category": "Presentations"
+  },
+  {
+    "word": "pitch",
+    "meaning": "A persuasive presentation aimed at selling an idea or product",
+    "example": "The startup delivered a compelling pitch to attract investors.",
+    "category": "Presentations"
+  },
+  {
+    "word": "data visualisation",
+    "meaning": "The graphical representation of information and data",
+    "example": "Effective data visualisation makes complex trends easy to understand.",
+    "category": "Presentations"
+  },
+  {
+    "word": "whiteboard",
+    "meaning": "A digital or physical surface used to draw and write ideas during a presentation",
+    "example": "The trainer used the interactive whiteboard to illustrate the concept.",
+    "category": "Presentations"
+  },
+  {
+    "word": "run of show",
+    "meaning": "A detailed timeline of events during a presentation or event",
+    "example": "The event coordinator shared the run of show with all speakers.",
+    "category": "Presentations"
+  },
+  {
+    "word": "talking points",
+    "meaning": "Key ideas or facts a speaker wishes to convey during a presentation",
+    "example": "He prepared talking points to stay on track during the interview.",
+    "category": "Presentations"
+  },
+  {
+    "word": "call to action",
+    "meaning": "An instruction prompting the audience to take a specific next step",
+    "example": "End your presentation with a clear call to action.",
+    "category": "Presentations"
+  },
+  {
+    "word": "remote work",
+    "meaning": "Working from a location outside the traditional office, often from home",
+    "example": "Remote work has become the norm for many tech companies.",
+    "category": "Remote Collaboration"
+  },
+  {
+    "word": "asynchronous communication",
+    "meaning": "Communication that does not require all parties to be available at the same time",
+    "example": "Asynchronous communication allows global teams to collaborate across time zones.",
+    "category": "Remote Collaboration"
+  },
+  {
+    "word": "synchronous communication",
+    "meaning": "Communication that occurs in real time with all parties present simultaneously",
+    "example": "Video calls are a form of synchronous communication.",
+    "category": "Remote Collaboration"
+  },
+  {
+    "word": "cloud storage",
+    "meaning": "Online storage of data accessible from any device with internet access",
+    "example": "The team stores all project files on cloud storage for easy access.",
+    "category": "Remote Collaboration"
+  },
+  {
+    "word": "shared document",
+    "meaning": "A file that multiple users can view and edit simultaneously online",
+    "example": "They used a shared document to co-write the project report.",
+    "category": "Remote Collaboration"
+  },
+  {
+    "word": "version control",
+    "meaning": "A system that tracks changes to files so previous versions can be restored",
+    "example": "Version control ensures no edits are permanently lost.",
+    "category": "Remote Collaboration"
+  },
+  {
+    "word": "collaboration tool",
+    "meaning": "Software designed to help teams work together efficiently online",
+    "example": "Slack and Trello are popular collaboration tools for remote teams.",
+    "category": "Remote Collaboration"
+  },
+  {
+    "word": "digital workspace",
+    "meaning": "A virtual environment where employees access work tools and communicate online",
+    "example": "The company set up a digital workspace for its distributed team.",
+    "category": "Remote Collaboration"
+  },
+  {
+    "word": "stand-up meeting",
+    "meaning": "A brief daily check-in meeting where team members share progress and blockers",
+    "example": "The team holds a 15-minute stand-up meeting every morning.",
+    "category": "Remote Collaboration"
+  },
+  {
+    "word": "task management",
+    "meaning": "The process of tracking, organising, and prioritising work tasks",
+    "example": "Effective task management keeps the remote team aligned on priorities.",
+    "category": "Remote Collaboration"
+  },
+  {
+    "word": "deadline",
+    "meaning": "The latest time by which a task or project must be completed",
+    "example": "All team members must submit their sections before the deadline.",
+    "category": "Remote Collaboration"
+  },
+  {
+    "word": "milestone",
+    "meaning": "A key point or significant achievement in a project's timeline",
+    "example": "Completing the prototype was an important project milestone.",
+    "category": "Remote Collaboration"
+  },
+  {
+    "word": "workflow",
+    "meaning": "A defined sequence of steps or processes followed to complete a task",
+    "example": "An efficient workflow reduces time wasted on repetitive steps.",
+    "category": "Remote Collaboration"
+  },
+  {
+    "word": "agile",
+    "meaning": "A project management approach based on iterative progress and flexibility",
+    "example": "The development team follows an agile methodology with two-week sprints.",
+    "category": "Remote Collaboration"
+  },
+  {
+    "word": "sprint",
+    "meaning": "A short, time-boxed period in which a team completes a set amount of work",
+    "example": "The team plans new features at the start of each sprint.",
+    "category": "Remote Collaboration"
+  },
+  {
+    "word": "VPN",
+    "meaning": "Virtual Private Network; a secure connection to a private network over the internet",
+    "example": "Employees connect via VPN to access internal company systems remotely.",
+    "category": "Remote Collaboration"
+  },
+  {
+    "word": "time zone",
+    "meaning": "A region of the globe observing a uniform standard time",
+    "example": "Schedule meetings mindful of everyone's time zone.",
+    "category": "Remote Collaboration"
+  },
+  {
+    "word": "availability",
+    "meaning": "The times during which a person is reachable and able to communicate",
+    "example": "Share your availability on the shared calendar so the team can plan meetings.",
+    "category": "Remote Collaboration"
+  },
+  {
+    "word": "feedback loop",
+    "meaning": "A process where responses to actions are used to improve future performance",
+    "example": "Regular check-ins create a healthy feedback loop within the team.",
+    "category": "Remote Collaboration"
+  },
+  {
+    "word": "hybrid work",
+    "meaning": "A work model combining in-office and remote working",
+    "example": "The company adopted a hybrid work policy allowing two remote days per week.",
+    "category": "Remote Collaboration"
+  },
+  {
+    "word": "ping",
+    "meaning": "To send a brief message to get someone's attention quickly",
+    "example": "Ping me on Slack when the document is ready to review.",
+    "category": "Messaging"
+  },
+  {
+    "word": "conference call",
+    "meaning": "A telephone or online call involving multiple participants simultaneously",
+    "example": "All regional managers joined the conference call to hear the quarterly results.",
+    "category": "Video Calls"
+  },
+  {
+    "word": "dial-in",
+    "meaning": "Joining a call by telephone rather than through an app",
+    "example": "Participants without internet access can use the dial-in number.",
+    "category": "Video Calls"
+  },
+  {
+    "word": "follow-up email",
+    "meaning": "A message sent after a meeting or conversation to summarise actions or next steps",
+    "example": "She sent a follow-up email recapping the decisions made in the meeting.",
+    "category": "Email"
+  },
+  {
+    "word": "out-of-office",
+    "meaning": "An automatic email reply informing senders that the recipient is away",
+    "example": "He set an out-of-office message for the duration of his leave.",
+    "category": "Email"
+  },
+  {
+    "word": "unsubscribe",
+    "meaning": "To remove oneself from an email mailing list",
+    "example": "Click the link at the bottom of the email to unsubscribe.",
+    "category": "Email"
+  },
+  {
+    "word": "flag",
+    "meaning": "To mark an email as important for easy retrieval later",
+    "example": "She flagged the email from the client to address it later.",
+    "category": "Email"
+  },
+  {
+    "word": "archive",
+    "meaning": "To move emails out of the inbox into a storage folder without deleting them",
+    "example": "Archive old emails to keep your inbox organised.",
+    "category": "Email"
+  },
+  {
+    "word": "label",
+    "meaning": "A tag applied to an email to categorise and organise messages",
+    "example": "She uses labels like 'urgent' and 'invoices' to sort her inbox.",
+    "category": "Email"
+  },
+  {
+    "word": "embed",
+    "meaning": "To insert content such as an image, video, or link directly into a message",
+    "example": "He embedded the video link in the email so recipients could watch immediately.",
+    "category": "Email"
+  },
+  {
+    "word": "hyperlink",
+    "meaning": "A clickable link in a digital message that redirects to a webpage or file",
+    "example": "Click the hyperlink in the email to access the registration form.",
+    "category": "Email"
+  },
+  {
+    "word": "deliverability",
+    "meaning": "The ability of an email to successfully reach the recipient's inbox",
+    "example": "Poor email deliverability results in messages being marked as spam.",
+    "category": "Email"
+  },
+  {
+    "word": "poll",
+    "meaning": "An interactive feature in a message or meeting allowing participants to vote on options",
+    "example": "The host launched a live poll to gauge audience opinions.",
+    "category": "Presentations"
+  },
+  {
+    "word": "presenter",
+    "meaning": "The person delivering a presentation or leading a meeting",
+    "example": "The presenter spoke clearly and maintained eye contact with the camera.",
+    "category": "Presentations"
+  },
+  {
+    "word": "audience engagement",
+    "meaning": "Techniques used to involve and interest the audience during a presentation",
+    "example": "Quizzes and polls improve audience engagement during webinars.",
+    "category": "Presentations"
+  },
+  {
+    "word": "key takeaway",
+    "meaning": "The most important point or lesson from a presentation or discussion",
+    "example": "The key takeaway is that early planning reduces project risks.",
+    "category": "Presentations"
+  },
+  {
+    "word": "agenda",
+    "meaning": "A list of topics or items to be discussed in a meeting",
+    "example": "Please review the agenda before the meeting begins.",
+    "category": "Presentations"
+  },
+  {
+    "word": "minutes",
+    "meaning": "A written record of what was discussed and decided in a meeting",
+    "example": "The secretary shared the meeting minutes with all participants.",
+    "category": "Presentations"
+  },
+  {
+    "word": "action item",
+    "meaning": "A specific task assigned to a person following a meeting or discussion",
+    "example": "Each action item was assigned an owner and a due date.",
+    "category": "Remote Collaboration"
+  },
+  {
+    "word": "sync",
+    "meaning": "A brief meeting or conversation to align team members on status or decisions",
+    "example": "Let's have a quick sync before the client call.",
+    "category": "Remote Collaboration"
+  },
+  {
+    "word": "onboarding",
+    "meaning": "The process of integrating a new employee or user into a system or organisation",
+    "example": "Virtual onboarding helps remote employees feel welcomed from day one.",
+    "category": "Remote Collaboration"
+  },
+  {
+    "word": "knowledge base",
+    "meaning": "A centralised repository of information and documentation for a team or organisation",
+    "example": "New employees can find answers in the company knowledge base.",
+    "category": "Remote Collaboration"
+  },
+  {
+    "word": "escalate",
+    "meaning": "To refer a problem to a higher authority or more experienced person",
+    "example": "If the issue is not resolved today, we will need to escalate it.",
+    "category": "Remote Collaboration"
+  },
+  {
+    "word": "stakeholder",
+    "meaning": "A person or group with an interest in the outcome of a project or decision",
+    "example": "Keep all stakeholders informed of project progress via weekly updates.",
+    "category": "Remote Collaboration"
+  },
+  {
+    "word": "touchpoint",
+    "meaning": "A point of contact or interaction between team members or with a client",
+    "example": "Regular touchpoints help maintain strong client relationships.",
+    "category": "Remote Collaboration"
+  },
+  {
+    "word": "bandwidth (figurative)",
+    "meaning": "A person's capacity to take on more work or responsibilities",
+    "example": "I don't have the bandwidth to take on another project this week.",
+    "category": "Remote Collaboration"
+  },
+  {
+    "word": "blocker",
+    "meaning": "An obstacle preventing progress on a task or project",
+    "example": "The delayed approval is a blocker for the entire team.",
+    "category": "Remote Collaboration"
+  },
+  {
+    "word": "retrospective",
+    "meaning": "A meeting held after a project or sprint to reflect on what went well and what to improve",
+    "example": "The team's retrospective revealed a need for clearer communication.",
+    "category": "Remote Collaboration"
+  },
+  {
+    "word": "opt-in",
+    "meaning": "Choosing to receive messages or communications voluntarily",
+    "example": "Users must opt-in to receive marketing emails.",
+    "category": "Messaging"
+  },
+  {
+    "word": "broadcast message",
+    "meaning": "A message sent to many recipients at once, typically one-way",
+    "example": "The company sent a broadcast message to announce the new policy.",
+    "category": "Messaging"
+  },
+  {
+    "word": "status update",
+    "meaning": "A brief message communicating current progress or situation",
+    "example": "She posted a status update in the project channel every Friday.",
+    "category": "Remote Collaboration"
+  },
+  {
+    "word": "documentation",
+    "meaning": "Written materials that record processes, decisions, or information",
+    "example": "Good documentation allows team members to work independently.",
+    "category": "Remote Collaboration"
+  },
+  {
+    "word": "cross-functional",
+    "meaning": "Involving members from different departments or specialisations",
+    "example": "The cross-functional team included developers, designers, and marketers.",
+    "category": "Remote Collaboration"
+  },
+  {
+    "word": "integration",
+    "meaning": "The connection of different software tools so they work together seamlessly",
+    "example": "The Slack and Google Calendar integration sends meeting reminders automatically.",
+    "category": "Remote Collaboration"
+  },
+  {
+    "word": "dashboard",
+    "meaning": "A visual interface displaying key information and metrics at a glance",
+    "example": "The project dashboard shows task completion rates in real time.",
+    "category": "Remote Collaboration"
+  },
+  {
+    "word": "annotation",
+    "meaning": "A note or comment added to a document or presentation slide",
+    "example": "She added annotations to highlight key data points on the slide.",
+    "category": "Presentations"
+  },
+  {
+    "word": "template",
+    "meaning": "A pre-designed format or structure used to create documents or messages",
+    "example": "Use the email template for consistent brand communication.",
+    "category": "Email"
+  },
+  {
+    "word": "acknowledgement",
+    "meaning": "A brief reply confirming receipt of a message or information",
+    "example": "Please send an acknowledgement once you receive the brief.",
+    "category": "Email"
+  },
+  {
+    "word": "real-time collaboration",
+    "meaning": "Working together on shared content simultaneously over the internet",
+    "example": "Real-time collaboration tools allow multiple editors to update a document at once.",
+    "category": "Remote Collaboration"
+  },
+  {
+    "word": "upload",
+    "meaning": "To transfer a file from a local device to the internet or a shared system",
+    "example": "Please upload the final version of the report to the shared drive.",
+    "category": "Remote Collaboration"
+  },
+  {
+    "word": "download",
+    "meaning": "To transfer a file from the internet or a shared system to a local device",
+    "example": "Download the meeting recording from the link in your email.",
+    "category": "Remote Collaboration"
+  },
+  {
+    "word": "permission",
+    "meaning": "Access rights granted to a user to view or edit a file or system",
+    "example": "You need edit permission to make changes to the shared spreadsheet.",
+    "category": "Remote Collaboration"
+  },
+  {
+    "word": "co-presenter",
+    "meaning": "A person who shares the role of presenting alongside the main presenter",
+    "example": "The marketing director joined as co-presenter for the product launch webinar.",
+    "category": "Presentations"
+  },
+  {
+    "word": "moderator",
+    "meaning": "A person who manages the flow of a meeting, webinar, or online discussion",
+    "example": "The moderator collected audience questions during the live session.",
+    "category": "Video Calls"
+  },
+  {
+    "word": "spotlight",
+    "meaning": "A feature that highlights one participant's video above others in a call",
+    "example": "The host used spotlight to focus the audience's attention on the speaker.",
+    "category": "Video Calls"
+  },
+  {
+    "word": "channel",
+    "meaning": "A dedicated space in a messaging platform for a specific topic or team",
+    "example": "Post design-related updates in the #design channel.",
+    "category": "Messaging"
+  },
+  {
+    "word": "workspace",
+    "meaning": "An organisation's dedicated area within a collaboration or messaging platform",
+    "example": "All company communications happen in our Slack workspace.",
+    "category": "Remote Collaboration"
+  },
+  {
+    "word": "invite link",
+    "meaning": "A URL shared with participants to join a meeting or platform",
+    "example": "Copy the invite link and send it to all confirmed attendees.",
+    "category": "Video Calls"
+  },
+  {
+    "word": "passcode",
+    "meaning": "A security code required to enter a virtual meeting or account",
+    "example": "Enter the passcode shown in the meeting invitation to join the call.",
+    "category": "Video Calls"
+  },
+  {
+    "word": "transcription",
+    "meaning": "A written record of spoken words from a meeting or call",
+    "example": "AI-generated transcription makes it easy to review what was said in the meeting.",
+    "category": "Video Calls"
+  },
+  {
+    "word": "raise hand",
+    "meaning": "A virtual signal used in online meetings to indicate a desire to speak",
+    "example": "Use the raise hand feature to ask a question without interrupting the speaker.",
+    "category": "Video Calls"
+  },
+  {
+    "word": "profile picture",
+    "meaning": "An image representing a user on a digital platform or messaging app",
+    "example": "Use a professional profile picture for work-related platforms.",
+    "category": "Messaging"
+  },
+  {
+    "word": "handle",
+    "meaning": "A username or identifier used on a digital platform",
+    "example": "Her Twitter handle is @sarahdesigns.",
+    "category": "Messaging"
+  },
+  {
+    "word": "tagging",
+    "meaning": "Linking a person or topic in a post or message to draw attention",
+    "example": "She posted the update and tagged the relevant team members.",
+    "category": "Messaging"
+  },
+  {
+    "word": "away message",
+    "meaning": "A status message informing others that a user is temporarily unavailable",
+    "example": "His away message said he would be back in an hour.",
+    "category": "Messaging"
+  },
+  {
+    "word": "cloud-based",
+    "meaning": "Software or services hosted on remote internet servers rather than locally",
+    "example": "The company switched to a cloud-based communication platform.",
+    "category": "Remote Collaboration"
+  },
+  {
+    "word": "end-to-end encryption",
+    "meaning": "A security method ensuring only communicating users can read the messages",
+    "example": "The app uses end-to-end encryption to protect private conversations.",
+    "category": "Messaging"
+  }
+]

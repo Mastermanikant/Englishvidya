@@ -1,0 +1,583 @@
+[
+  {
+    "word": "epistemology",
+    "partOfSpeech": "noun",
+    "meaning": "The branch of philosophy concerned with the theory of knowledge.",
+    "usage": "His research in epistemology focuses on how we can be certain of our scientific discoveries.",
+    "synonyms": ["theory of knowledge"]
+  },
+  {
+    "word": "ontology",
+    "partOfSpeech": "noun",
+    "meaning": "The branch of metaphysics dealing with the nature of being.",
+    "usage": "Ontology asks fundamental questions about what entities exist in the universe.",
+    "synonyms": ["metaphysics of being"]
+  },
+  {
+    "word": "syllogism",
+    "partOfSpeech": "noun",
+    "meaning": "An instance of a form of reasoning in which a conclusion is drawn from two given or assumed propositions.",
+    "usage": "The classic syllogism is: All men are mortal; Socrates is a man; therefore, Socrates is mortal.",
+    "synonyms": ["deductive reasoning"]
+  },
+  {
+    "word": "solipsism",
+    "partOfSpeech": "noun",
+    "meaning": "The view or theory that the self is all that can be known to exist.",
+    "usage": "Taken to its extreme, his philosophy borders on solipsism, denying the reality of other minds.",
+    "synonyms": ["egocentrism"]
+  },
+  {
+    "word": "heuristic",
+    "partOfSpeech": "noun",
+    "meaning": "A practical approach to problem-solving or learning that is not guaranteed to be optimal or perfect, but sufficient for immediate goals.",
+    "usage": "We used a heuristic to quickly approximate the answer instead of calculating the exact value.",
+    "synonyms": ["rule of thumb", "strategy"]
+  },
+  {
+    "word": "empirical",
+    "partOfSpeech": "adjective",
+    "meaning": "Based on, concerned with, or verifiable by observation or experience rather than theory or pure logic.",
+    "usage": "The scientists required empirical evidence before accepting the new theory.",
+    "synonyms": ["observational", "factual", "practical"]
+  },
+  {
+    "word": "axiom",
+    "partOfSpeech": "noun",
+    "meaning": "A statement or proposition that is regarded as being established, accepted, or self-evidently true.",
+    "usage": "It is a widely held axiom that governments should not negotiate with terrorists.",
+    "synonyms": ["truism", "principle"]
+  },
+  {
+    "word": "determinism",
+    "partOfSpeech": "noun",
+    "meaning": "The doctrine that all events, including human action, are ultimately determined by causes external to the will.",
+    "usage": "Philosophical determinism argues that free will is merely an illusion.",
+    "synonyms": ["fatalism", "predestination"]
+  },
+  {
+    "word": "dichotomy",
+    "partOfSpeech": "noun",
+    "meaning": "A division or contrast between two things that are or are represented as being opposed or entirely different.",
+    "usage": "The dichotomy between theory and practice is a common theme in education.",
+    "synonyms": ["contrast", "division", "separation"]
+  },
+  {
+    "word": "existential",
+    "partOfSpeech": "adjective",
+    "meaning": "Relating to existence, especially human existence and the challenges of finding meaning.",
+    "usage": "He faced an existential crisis after realizing his career brought him no joy.",
+    "synonyms": ["experiential", "ontological"]
+  },
+  {
+    "word": "paradigm",
+    "partOfSpeech": "noun",
+    "meaning": "A typical example or pattern of something; a model or overarching framework.",
+    "usage": "The discovery of quantum mechanics represented a paradigm shift in physics.",
+    "synonyms": ["model", "framework", "standard"]
+  },
+  {
+    "word": "pragmatic",
+    "partOfSpeech": "adjective",
+    "meaning": "Dealing with things sensibly and realistically in a way that is based on practical rather than theoretical considerations.",
+    "usage": "She took a pragmatic approach to the problem, focusing on what could actually be achieved.",
+    "synonyms": ["practical", "realistic", "sensible"]
+  },
+  {
+    "word": "rhetoric",
+    "partOfSpeech": "noun",
+    "meaning": "The art of effective or persuasive speaking or writing.",
+    "usage": "The politician's speech was full of empty rhetoric rather than concrete policies.",
+    "synonyms": ["oratory", "eloquence", "bombast"]
+  },
+  {
+    "word": "semantic",
+    "partOfSpeech": "adjective",
+    "meaning": "Relating to meaning in language or logic.",
+    "usage": "The debate was largely semantic, as they actually agreed on the core concepts.",
+    "synonyms": ["linguistic", "meaning-related"]
+  },
+  {
+    "word": "teleological",
+    "partOfSpeech": "adjective",
+    "meaning": "Relating to or involving the explanation of phenomena in terms of the purpose they serve rather than of the cause by which they arise.",
+    "usage": "A teleological view of nature assumes that biological features evolved for a specific purpose.",
+    "synonyms": ["purposeful", "design-based"]
+  },
+  {
+    "word": "utilitarianism",
+    "partOfSpeech": "noun",
+    "meaning": "The doctrine that actions are right if they are useful or for the benefit of a majority.",
+    "usage": "Utilitarianism suggests that we should aim for the greatest good for the greatest number.",
+    "synonyms": ["pragmatism", "functionalism"]
+  },
+  {
+    "word": "stoicism",
+    "partOfSpeech": "noun",
+    "meaning": "The endurance of pain or hardship without a display of feelings and without complaint.",
+    "usage": "She endured the long, painful treatment with remarkable stoicism.",
+    "synonyms": ["endurance", "fortitude", "resilience"]
+  },
+  {
+    "word": "nihilism",
+    "partOfSpeech": "noun",
+    "meaning": "The rejection of all religious and moral principles, often in the belief that life is meaningless.",
+    "usage": "His teenage years were marked by a sense of nihilism and rebellion against societal norms.",
+    "synonyms": ["cynicism", "pessimism", "skepticism"]
+  },
+  {
+    "word": "tautology",
+    "partOfSpeech": "noun",
+    "meaning": "The saying of the same thing twice in different words, generally considered to be a fault of style.",
+    "usage": "Saying 'they arrived one after the other in succession' is a tautology.",
+    "synonyms": ["repetition", "redundancy"]
+  },
+  {
+    "word": "dialectic",
+    "partOfSpeech": "noun",
+    "meaning": "The art of investigating or discussing the truth of opinions, often through contrasting opposing viewpoints.",
+    "usage": "The dialectic process involves reaching a synthesis from a thesis and an antithesis.",
+    "synonyms": ["reasoning", "argumentation", "debate"]
+  },
+  {
+    "word": "empiricism",
+    "partOfSpeech": "noun",
+    "meaning": "The theory that all knowledge is derived from sense-experience.",
+    "usage": "Empiricism heavily influenced the development of the modern scientific method.",
+    "synonyms": ["observation-based knowledge"]
+  },
+  {
+    "word": "phenomenology",
+    "partOfSpeech": "noun",
+    "meaning": "The philosophical study of the structures of experience and consciousness.",
+    "usage": "Phenomenology explores how things appear to us in our first-person experience.",
+    "synonyms": ["subjective experience"]
+  },
+  {
+    "word": "positivism",
+    "partOfSpeech": "noun",
+    "meaning": "A philosophical system recognizing only that which can be scientifically verified or which is capable of logical or mathematical proof.",
+    "usage": "Positivism rejects metaphysics in favor of observable, empirical facts.",
+    "synonyms": ["empiricism", "scientific philosophy"]
+  },
+  {
+    "word": "rationalism",
+    "partOfSpeech": "noun",
+    "meaning": "The belief or theory that opinions and actions should be based on reason and knowledge rather than on religious belief or emotional response.",
+    "usage": "Rationalism posits that reason is the chief source and test of knowledge.",
+    "synonyms": ["logic", "reason"]
+  },
+  {
+    "word": "relativism",
+    "partOfSpeech": "noun",
+    "meaning": "The doctrine that knowledge, truth, and morality exist in relation to culture, society, or historical context.",
+    "usage": "Moral relativism argues that there are no universal or absolute ethical guidelines.",
+    "synonyms": ["subjectivism"]
+  },
+  {
+    "word": "skepticism",
+    "partOfSpeech": "noun",
+    "meaning": "A skeptical attitude; doubt as to the truth of something.",
+    "usage": "Claims of supernatural occurrences should be approached with a healthy degree of skepticism.",
+    "synonyms": ["doubt", "cynicism", "disbelief"]
+  },
+  {
+    "word": "a priori",
+    "partOfSpeech": "adjective",
+    "meaning": "Relating to or denoting reasoning or knowledge which proceeds from theoretical deduction rather than from observation.",
+    "usage": "Mathematical equations are considered a priori knowledge.",
+    "synonyms": ["deductive", "presumptive"]
+  },
+  {
+    "word": "a posteriori",
+    "partOfSpeech": "adjective",
+    "meaning": "Relating to or denoting reasoning or knowledge which proceeds from observations or experiences.",
+    "usage": "Knowledge of the natural world is a posteriori, requiring empirical evidence.",
+    "synonyms": ["empirical", "inductive"]
+  },
+  {
+    "word": "reductionism",
+    "partOfSpeech": "noun",
+    "meaning": "The practice of analyzing and describing a complex phenomenon in terms of phenomena that are held to represent a simpler or more fundamental level.",
+    "usage": "Critics argue that explaining consciousness purely through brain chemistry is a form of reductionism.",
+    "synonyms": ["simplification", "over-simplification"]
+  },
+  {
+    "word": "gestalt",
+    "partOfSpeech": "noun",
+    "meaning": "An organized whole that is perceived as more than the sum of its parts.",
+    "usage": "In design, the gestalt principle explains how humans group similar elements together.",
+    "synonyms": ["whole", "pattern", "configuration"]
+  },
+  {
+    "word": "schema",
+    "partOfSpeech": "noun",
+    "meaning": "A cognitive framework or concept that helps organize and interpret information.",
+    "usage": "A child's schema for 'dog' might initially include all four-legged animals.",
+    "synonyms": ["framework", "model", "outline"]
+  },
+  {
+    "word": "subconscious",
+    "partOfSpeech": "noun",
+    "meaning": "The part of the mind of which one is not fully aware but which influences one's actions and feelings.",
+    "usage": "His fear of dogs stemmed from a subconscious memory of being bitten as a child.",
+    "synonyms": ["unconscious", "inner mind"]
+  },
+  {
+    "word": "zeitgeist",
+    "partOfSpeech": "noun",
+    "meaning": "The defining spirit or mood of a particular period of history as shown by the ideas and beliefs of the time.",
+    "usage": "The film perfectly captured the zeitgeist of the 1990s.",
+    "synonyms": ["spirit of the times", "trend", "ethos"]
+  },
+  {
+    "word": "fallacy",
+    "partOfSpeech": "noun",
+    "meaning": "A mistaken belief, especially one based on unsound argument.",
+    "usage": "The notion that the earth is flat is a well-known fallacy.",
+    "synonyms": ["misconception", "delusion", "error"]
+  },
+  {
+    "word": "paradox",
+    "partOfSpeech": "noun",
+    "meaning": "A seemingly absurd or self-contradictory statement or proposition that when investigated may prove to be well founded or true.",
+    "usage": "It is a paradox that the more you know, the more you realize you don't know.",
+    "synonyms": ["contradiction", "anomaly", "enigma"]
+  },
+  {
+    "word": "premise",
+    "partOfSpeech": "noun",
+    "meaning": "A previous statement or proposition from which another is inferred or follows as a conclusion.",
+    "usage": "If the premise is true, then the conclusion must necessarily be true.",
+    "synonyms": ["proposition", "assumption", "hypothesis"]
+  },
+  {
+    "word": "induction",
+    "partOfSpeech": "noun",
+    "meaning": "The inference of a general law from particular instances.",
+    "usage": "Scientific theories are often formulated through a process of induction.",
+    "synonyms": ["inductive reasoning", "generalization"]
+  },
+  {
+    "word": "deduction",
+    "partOfSpeech": "noun",
+    "meaning": "The inference of particular instances by reference to a general law or principle.",
+    "usage": "Through deduction, the detective determined the identity of the culprit.",
+    "synonyms": ["deductive reasoning", "conclusion"]
+  },
+  {
+    "word": "validity",
+    "partOfSpeech": "noun",
+    "meaning": "The quality of being logically or factually sound.",
+    "usage": "The professor questioned the validity of the student's experimental data.",
+    "synonyms": ["soundness", "legitimacy", "authenticity"]
+  },
+  {
+    "word": "soundness",
+    "partOfSpeech": "noun",
+    "meaning": "In logic, the property of an argument that is both valid and has true premises.",
+    "usage": "While the argument was logically valid, its lack of true premises destroyed its soundness.",
+    "synonyms": ["accuracy", "reliability"]
+  },
+  {
+    "word": "cogent",
+    "partOfSpeech": "adjective",
+    "meaning": "Clear, logical, and convincing.",
+    "usage": "She presented a highly cogent argument for increasing the budget.",
+    "synonyms": ["compelling", "convincing", "persuasive"]
+  },
+  {
+    "word": "equivocation",
+    "partOfSpeech": "noun",
+    "meaning": "The use of ambiguous language to conceal the truth or to avoid committing oneself.",
+    "usage": "The politician's answers were full of equivocation and deflection.",
+    "synonyms": ["ambiguity", "evasion", "prevarication"]
+  },
+  {
+    "word": "metaphysics",
+    "partOfSpeech": "noun",
+    "meaning": "The branch of philosophy that examines the fundamental nature of reality, including the relationship between mind and matter.",
+    "usage": "Metaphysics asks profound questions about time, space, and existence.",
+    "synonyms": ["ontology", "cosmology"]
+  },
+  {
+    "word": "aesthetics",
+    "partOfSpeech": "noun",
+    "meaning": "A set of principles concerned with the nature and appreciation of beauty, especially in art.",
+    "usage": "The building was functional, but its aesthetics left much to be desired.",
+    "synonyms": ["artistic philosophy", "beauty"]
+  },
+  {
+    "word": "ethics",
+    "partOfSpeech": "noun",
+    "meaning": "Moral principles that govern a person's behavior or the conducting of an activity.",
+    "usage": "Medical ethics strictly prohibit doctors from harming their patients.",
+    "synonyms": ["morals", "principles", "values"]
+  },
+  {
+    "word": "normative",
+    "partOfSpeech": "adjective",
+    "meaning": "Establishing, relating to, or deriving from a standard or norm, especially of behavior.",
+    "usage": "Normative ethics focuses on what actions are morally right or wrong.",
+    "synonyms": ["prescriptive", "standardizing"]
+  },
+  {
+    "word": "descriptive",
+    "partOfSpeech": "adjective",
+    "meaning": "Seeking to describe phenomena or behavior without making judgments.",
+    "usage": "A descriptive analysis of language focuses on how it is actually used, rather than how it should be.",
+    "synonyms": ["explanatory", "illustrative"]
+  },
+  {
+    "word": "subjective",
+    "partOfSpeech": "adjective",
+    "meaning": "Based on or influenced by personal feelings, tastes, or opinions.",
+    "usage": "Art appreciation is highly subjective, as everyone has different preferences.",
+    "synonyms": ["personal", "biased", "individual"]
+  },
+  {
+    "word": "objective",
+    "partOfSpeech": "adjective",
+    "meaning": "Not influenced by personal feelings or opinions in considering and representing facts.",
+    "usage": "The jury was instructed to remain objective and look only at the evidence.",
+    "synonyms": ["impartial", "unbiased", "neutral"]
+  },
+  {
+    "word": "introspective",
+    "partOfSpeech": "adjective",
+    "meaning": "Characterized by examination of one's own thoughts and feelings.",
+    "usage": "After the failure, he became highly introspective, analyzing his every decision.",
+    "synonyms": ["inward-looking", "reflective", "contemplative"]
+  },
+  {
+    "word": "metacognition",
+    "partOfSpeech": "noun",
+    "meaning": "Awareness and understanding of one's own thought processes.",
+    "usage": "Metacognition allows students to reflect on their learning strategies and improve them.",
+    "synonyms": ["self-awareness", "reflective thinking"]
+  },
+  {
+    "word": "cognitive dissonance",
+    "partOfSpeech": "noun",
+    "meaning": "The state of having inconsistent thoughts, beliefs, or attitudes, especially relating to behavioral decisions.",
+    "usage": "Knowing smoking causes cancer but continuing to smoke creates cognitive dissonance.",
+    "synonyms": ["mental conflict", "inconsistency"]
+  },
+  {
+    "word": "anchoring",
+    "partOfSpeech": "noun",
+    "meaning": "A cognitive bias where an individual relies too heavily on an initial piece of information to make subsequent judgments.",
+    "usage": "The initial high asking price served as an anchoring point for the negotiation.",
+    "synonyms": ["anchoring effect", "bias"]
+  },
+  {
+    "word": "framing",
+    "partOfSpeech": "noun",
+    "meaning": "A cognitive bias where people decide on options based on whether the options are presented with positive or negative connotations.",
+    "usage": "The framing of the question greatly influenced the survey respondents' answers.",
+    "synonyms": ["contextualizing", "presentation"]
+  },
+  {
+    "word": "confirmation bias",
+    "partOfSpeech": "noun",
+    "meaning": "The tendency to interpret new evidence as confirmation of one's existing beliefs or theories.",
+    "usage": "Due to confirmation bias, he ignored all data that contradicted his hypothesis.",
+    "synonyms": ["myside bias", "prejudice"]
+  },
+  {
+    "word": "availability heuristic",
+    "partOfSpeech": "noun",
+    "meaning": "A mental shortcut that relies on immediate examples that come to a given person's mind when evaluating a specific topic, concept, method or decision.",
+    "usage": "Because plane crashes are highly publicized, the availability heuristic makes people overestimate their danger.",
+    "synonyms": ["availability bias"]
+  },
+  {
+    "word": "behaviorism",
+    "partOfSpeech": "noun",
+    "meaning": "The theory that human and animal behavior can be explained in terms of conditioning, without appeal to thoughts or feelings.",
+    "usage": "B.F. Skinner was a leading figure in the school of behaviorism.",
+    "synonyms": ["behavioral psychology"]
+  },
+  {
+    "word": "psychoanalysis",
+    "partOfSpeech": "noun",
+    "meaning": "A set of psychological theories and therapeutic techniques that have their origin in the work of Sigmund Freud.",
+    "usage": "Through psychoanalysis, the therapist aimed to uncover the patient's repressed memories.",
+    "synonyms": ["therapy", "analysis"]
+  },
+  {
+    "word": "humanism",
+    "partOfSpeech": "noun",
+    "meaning": "A psychological perspective that emphasizes the study of the whole person and their inherent drive towards self-actualization.",
+    "usage": "Humanism in psychology focuses on individual potential and the importance of growth.",
+    "synonyms": ["humanistic psychology"]
+  },
+  {
+    "word": "self-actualization",
+    "partOfSpeech": "noun",
+    "meaning": "The realization or fulfillment of one's talents and potentialities, considered as a drive or need present in everyone.",
+    "usage": "According to Maslow, self-actualization is the highest level of psychological development.",
+    "synonyms": ["fulfillment", "realization"]
+  },
+  {
+    "word": "classical conditioning",
+    "partOfSpeech": "noun",
+    "meaning": "A learning process that occurs when two stimuli are repeatedly paired.",
+    "usage": "Pavlov's dogs are the most famous example of classical conditioning.",
+    "synonyms": ["Pavlovian conditioning"]
+  },
+  {
+    "word": "operant conditioning",
+    "partOfSpeech": "noun",
+    "meaning": "A method of learning that employs rewards and punishments for behavior.",
+    "usage": "Training a dog with treats is a form of operant conditioning.",
+    "synonyms": ["instrumental conditioning"]
+  },
+  {
+    "word": "reinforcement",
+    "partOfSpeech": "noun",
+    "meaning": "In psychology, any consequence that increases the future likelihood of a behavior.",
+    "usage": "Positive reinforcement, like praising a child, encourages them to repeat good behavior.",
+    "synonyms": ["reward", "encouragement"]
+  },
+  {
+    "word": "punishment",
+    "partOfSpeech": "noun",
+    "meaning": "In psychology, any consequence that decreases the future likelihood of a behavior.",
+    "usage": "Time-outs are a common form of negative punishment used by parents.",
+    "synonyms": ["penalty", "discipline"]
+  },
+  {
+    "word": "archetype",
+    "partOfSpeech": "noun",
+    "meaning": "In Jungian psychology, a collectively inherited unconscious idea, pattern of thought, image, etc., universally present in individual psyches.",
+    "usage": "The 'hero' is a common archetype found in myths and stories across all cultures.",
+    "synonyms": ["prototype", "model", "ideal"]
+  },
+  {
+    "word": "collective unconscious",
+    "partOfSpeech": "noun",
+    "meaning": "In Jungian psychology, the part of the unconscious mind that is derived from ancestral memory and experience and is common to all humankind.",
+    "usage": "Jung believed that the collective unconscious populated our dreams with universal symbols.",
+    "synonyms": ["ancestral memory"]
+  },
+  {
+    "word": "defense mechanism",
+    "partOfSpeech": "noun",
+    "meaning": "An unconscious psychological strategy brought into play by various entities to cope with reality and to maintain self-image.",
+    "usage": "Denial is a common defense mechanism used when facing a traumatic event.",
+    "synonyms": ["coping strategy"]
+  },
+  {
+    "word": "repression",
+    "partOfSpeech": "noun",
+    "meaning": "The psychological attempt to direct one's own desires and impulses toward pleasurable instincts by excluding them from one's consciousness.",
+    "usage": "His memory loss of the accident was a clear case of psychological repression.",
+    "synonyms": ["suppression", "subjugation"]
+  },
+  {
+    "word": "projection",
+    "partOfSpeech": "noun",
+    "meaning": "A psychological defense mechanism in which individuals attribute characteristics they find unacceptable in themselves to another person.",
+    "usage": "Accusing others of being greedy when you yourself are greedy is an example of projection.",
+    "synonyms": ["attribution", "transference"]
+  },
+  {
+    "word": "sublimation",
+    "partOfSpeech": "noun",
+    "meaning": "A mature type of defense mechanism, in which socially unacceptable impulses or idealizations are transformed into socially acceptable actions.",
+    "usage": "Channeling aggression into sports is a healthy form of sublimation.",
+    "synonyms": ["redirection", "channeling"]
+  },
+  {
+    "word": "id",
+    "partOfSpeech": "noun",
+    "meaning": "In Freudian theory, the part of the mind in which innate instinctive impulses and primary processes are manifest.",
+    "usage": "The id operates on the pleasure principle, demanding immediate gratification.",
+    "synonyms": ["instincts", "primitive mind"]
+  },
+  {
+    "word": "ego",
+    "partOfSpeech": "noun",
+    "meaning": "In Freudian theory, the part of the mind that mediates between the conscious and the unconscious and is responsible for reality testing.",
+    "usage": "A strong ego is needed to balance the conflicting demands of the id and superego.",
+    "synonyms": ["self", "conscious mind"]
+  },
+  {
+    "word": "superego",
+    "partOfSpeech": "noun",
+    "meaning": "In Freudian theory, the part of a person's mind that acts as a self-critical conscience, reflecting social standards learned from parents and teachers.",
+    "usage": "His strict superego made him feel incredibly guilty for telling a minor lie.",
+    "synonyms": ["conscience", "moral compass"]
+  },
+  {
+    "word": "placebo effect",
+    "partOfSpeech": "noun",
+    "meaning": "A beneficial effect produced by a placebo drug or treatment, which cannot be attributed to the properties of the placebo itself.",
+    "usage": "Due to the placebo effect, patients often feel better just because they believe they are being treated.",
+    "synonyms": ["psychosomatic response"]
+  },
+  {
+    "word": "cognitive load",
+    "partOfSpeech": "noun",
+    "meaning": "The used amount of working memory resources.",
+    "usage": "Complex tasks can increase cognitive load to the point where learning becomes inefficient.",
+    "synonyms": ["mental effort"]
+  },
+  {
+    "word": "neuroplasticity",
+    "partOfSpeech": "noun",
+    "meaning": "The ability of the brain to form and reorganize synaptic connections, especially in response to learning or experience.",
+    "usage": "Thanks to neuroplasticity, the patient was able to relearn how to walk after the brain injury.",
+    "synonyms": ["brain plasticity"]
+  },
+  {
+    "word": "implicit memory",
+    "partOfSpeech": "noun",
+    "meaning": "A type of long-term memory that stands in contrast to explicit memory in that it doesn't require conscious thought.",
+    "usage": "Riding a bicycle relies heavily on implicit memory.",
+    "synonyms": ["unconscious memory", "procedural memory"]
+  },
+  {
+    "word": "explicit memory",
+    "partOfSpeech": "noun",
+    "meaning": "Information that you have to consciously work to remember.",
+    "usage": "Recalling the capital of France requires explicit memory.",
+    "synonyms": ["declarative memory", "conscious memory"]
+  },
+  {
+    "word": "declarative memory",
+    "partOfSpeech": "noun",
+    "meaning": "The memory of facts and events, and refers to those memories that can be consciously recalled.",
+    "usage": "Knowing that water boils at 100 degrees Celsius is an example of declarative memory.",
+    "synonyms": ["explicit memory"]
+  },
+  {
+    "word": "procedural memory",
+    "partOfSpeech": "noun",
+    "meaning": "A part of the long-term memory that is responsible for knowing how to do things, also known as motor skills.",
+    "usage": "Typing on a keyboard without looking is a skill stored in procedural memory.",
+    "synonyms": ["implicit memory", "muscle memory"]
+  },
+  {
+    "word": "episodic memory",
+    "partOfSpeech": "noun",
+    "meaning": "The memory of autobiographical events (times, places, associated emotions, and other contextual who, what, when, where, why knowledge) that can be explicitly stated.",
+    "usage": "Remembering your 10th birthday party is a function of episodic memory.",
+    "synonyms": ["autobiographical memory"]
+  },
+  {
+    "word": "logic",
+    "partOfSpeech": "noun",
+    "meaning": "Reasoning conducted or assessed according to strict principles of validity.",
+    "usage": "The logic behind his argument was flawed, leading to an incorrect conclusion.",
+    "synonyms": ["reasoning", "rationale"]
+  },
+  {
+    "word": "absurdism",
+    "partOfSpeech": "noun",
+    "meaning": "The belief that human beings exist in a purposeless, chaotic universe.",
+    "usage": "In literature, absurdism often highlights the meaningless of human existence.",
+    "synonyms": ["nihilism", "existentialism"]
+  }
+]

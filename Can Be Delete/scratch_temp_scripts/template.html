@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>English Vidya - Complete Grammar Study Material</title>
+<style>
+:root{--bg:#0d0f1a;--surf:#161929;--surf2:#1e2238;--acc:#7c6cff;--acc2:#ff6b8a;--acc3:#3de89a;--txt:#dde1ff;--mute:#7b82a8;--bdr:#252944;}
+*{box-sizing:border-box;margin:0;padding:0;}
+body{background:var(--bg);color:var(--txt);font-family:'Segoe UI',system-ui,sans-serif;font-size:15px;line-height:1.75;}
+/* TOPBAR */
+.topbar{position:sticky;top:0;z-index:100;background:linear-gradient(135deg,#161929,#1e2238);border-bottom:1px solid var(--bdr);padding:0 24px;height:58px;display:flex;align-items:center;justify-content:space-between;box-shadow:0 2px 24px rgba(124,108,255,.18);}
+.logo{font-size:1.3rem;font-weight:800;background:linear-gradient(90deg,#7c6cff,#ff6b8a);-webkit-background-clip:text;-webkit-text-fill-color:transparent;letter-spacing:.5px;}
+.controls{display:flex;gap:8px;}
+.btn{padding:6px 16px;border-radius:20px;border:none;cursor:pointer;font-size:12px;font-weight:700;transition:all .2s;letter-spacing:.3px;}
+.btn-o{background:transparent;border:1.5px solid var(--acc);color:var(--acc);}
+.btn-o:hover{background:var(--acc);color:#fff;}
+.btn-s{background:var(--acc);color:#fff;}
+.btn-s:hover{background:#6658e0;transform:translateY(-1px);}
+/* SEARCH */
+.srch-wrap{max-width:860px;margin:18px auto 0;padding:0 20px;}
+.srch{width:100%;padding:11px 22px;background:var(--surf);border:1.5px solid var(--bdr);border-radius:30px;color:var(--txt);font-size:15px;outline:none;transition:border .2s;}
+.srch:focus{border-color:var(--acc);box-shadow:0 0 0 3px rgba(124,108,255,.15);}
+/* STATS */
+.stats{display:flex;gap:14px;flex-wrap:wrap;max-width:860px;margin:12px auto 20px;padding:0 20px;}
+.chip{background:var(--surf);border:1px solid var(--bdr);border-radius:20px;padding:3px 14px;font-size:12px;color:var(--mute);}
+.chip b{color:var(--acc);}
+/* CONTAINER */
+.wrap{max-width:860px;margin:0 auto;padding:0 20px 80px;}
+/* SECTION */
+.section{background:var(--surf);border:1px solid var(--bdr);border-radius:14px;margin-bottom:14px;overflow:hidden;transition:box-shadow .2s;}
+.section:hover{box-shadow:0 4px 24px rgba(124,108,255,.13);}
+.sec-hdr{display:flex;align-items:center;gap:12px;padding:16px 20px;cursor:pointer;user-select:none;transition:background .2s;}
+.sec-hdr:hover{background:var(--surf2);}
+.ico{font-size:10px;color:var(--acc);transition:transform .28s;flex-shrink:0;}
+.ico.open{transform:rotate(90deg);}
+.sec-hdr h2{flex:1;font-size:1.05rem;font-weight:700;}
+.cnt{font-size:11px;color:var(--mute);background:var(--surf2);padding:2px 12px;border-radius:20px;flex-shrink:0;}
+.sec-body{display:none;padding:4px 20px 18px;}
+/* CONTENT */
+p{margin:6px 0;padding:7px 12px;border-radius:6px;background:rgba(255,255,255,.025);border-left:3px solid transparent;transition:border-color .2s;}
+p:hover{border-left-color:var(--acc);}
+li{margin:5px 0 5px 28px;line-height:1.65;}
+li::marker{color:var(--acc3);}
+.h1{margin:20px 0 10px;color:var(--acc);font-size:1rem;font-weight:800;border-bottom:1px solid var(--bdr);padding-bottom:5px;}
+.h2{margin:14px 0 7px;color:var(--acc3);font-size:.93rem;font-weight:700;}
+.h3{margin:10px 0 5px;color:var(--acc2);font-size:.88rem;font-weight:600;}
+/* HIGHLIGHT */
+mark{background:rgba(255,220,50,.28);color:inherit;border-radius:2px;}
+/* SCROLL TOP */
+.scroll-top{position:fixed;bottom:28px;right:28px;width:42px;height:42px;border-radius:50%;background:var(--acc);color:#fff;border:none;cursor:pointer;font-size:20px;box-shadow:0 4px 18px rgba(124,108,255,.45);display:none;align-items:center;justify-content:center;transition:all .2s;}
+.scroll-top:hover{transform:translateY(-3px);}
+.scroll-top.vis{display:flex;}
+/* PROGRESS */
+.pgbar{position:fixed;top:0;left:0;height:3px;background:linear-gradient(90deg,#7c6cff,#ff6b8a);transition:width .1s;z-index:200;width:0;}
+/* PRINT */
+@media print{.topbar,.scroll-top,.srch-wrap,.stats,.pgbar{display:none!important;}.sec-body{display:block!important;}.section{border:1px solid #ccc;margin-bottom:8px;}}
+</style>
+</head>
+<body>
+<div class="pgbar" id="pgbar"></div>
+<header class="topbar">
+  <div class="logo">&#128218; English Vidya</div>
+  <div class="controls">
+    <button class="btn btn-o" onclick="expandAll()">Expand All</button>
+    <button class="btn btn-o" onclick="collapseAll()">Collapse All</button>
+    <button class="btn btn-s" onclick="window.print()">&#128438; Print / Save PDF</button>
+  </div>
+</header>
+<div class="srch-wrap">
+  <input type="text" class="srch" id="srch" placeholder="Search grammar topics, rules, examples..." oninput="doSearch(this.value)">
+</div>
+<div class="stats">
+  <div class="chip">Sections: <b>6</b></div>
+  <div class="chip">Paragraphs: <b>25,537</b></div>
+  <div class="chip">Level: <b>Basic to Advanced</b></div>
+  <div class="chip">Language: <b>English Grammar</b></div>
+</div>
+<div class="wrap" id="wrap">
+<!--CONTENT-->
+</div>
+<button class="scroll-top" id="stb" onclick="window.scrollTo({top:0,behavior:'smooth'})">&#8679;</button>
+<script>
+function tog(hdr){
+  var body=hdr.nextElementSibling;
+  var ico=hdr.querySelector('.ico');
+  if(!body)return;
+  var open=body.style.display==='block';
+  body.style.display=open?'none':'block';
+  if(ico)ico.classList.toggle('open',!open);
+}
+function expandAll(){
+  document.querySelectorAll('.sec-body').forEach(function(b){b.style.display='block';});
+  document.querySelectorAll('.ico').forEach(function(i){i.classList.add('open');});
+}
+function collapseAll(){
+  document.querySelectorAll('.sec-body').forEach(function(b){b.style.display='none';});
+  document.querySelectorAll('.ico').forEach(function(i){i.classList.remove('open');});
+}
+function doSearch(q){
+  q=q.trim().toLowerCase();
+  var els=document.querySelectorAll('p,li,.h1,.h2,.h3');
+  els.forEach(function(el){
+    var orig=el.getAttribute('data-orig')||el.textContent;
+    el.setAttribute('data-orig',orig);
+    if(!q){el.style.display='';el.innerHTML=orig;return;}
+    if(orig.toLowerCase().indexOf(q)>=0){
+      el.style.display='';
+      var re=new RegExp('('+q.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+')','gi');
+      el.innerHTML=orig.replace(re,'<mark>$1</mark>');
+      var p=el.parentElement;
+      while(p){if(p.classList&&p.classList.contains('sec-body')){p.style.display='block';var ic=p.previousElementSibling&&p.previousElementSibling.querySelector('.ico');if(ic)ic.classList.add('open');}p=p.parentElement;}
+    } else {el.style.display='none';}
+  });
+}
+window.addEventListener('scroll',function(){
+  var sc=window.scrollY/(document.body.scrollHeight-window.innerHeight||1)*100;
+  document.getElementById('pgbar').style.width=sc+'%';
+  document.getElementById('stb').classList.toggle('vis',window.scrollY>400);
+});
+</script>
+</body>
+</html>

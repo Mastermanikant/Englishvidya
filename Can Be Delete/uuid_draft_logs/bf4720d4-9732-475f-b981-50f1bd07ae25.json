@@ -1,0 +1,50 @@
+﻿[
+    {
+        "word":  "Head",
+        "hindi_meaning":  "सिर",
+        "pronunciation_help":  "hed",
+        "word_type":  "Noun",
+        "simple_explanation":  "The upper part of the human body containing the brain, eyes, and mouth.",
+        "daily_life_use":  "Used when talking about headaches, wearing hats, or nodding.",
+        "spoken_use":  "My head hurts.",
+        "natural_native_use":  "Keep a clear head.",
+        "emotional_tone":  "Neutral",
+        "common_collocations":  [
+                                    "nod head",
+                                    "headache",
+                                    "shake head"
+                                ],
+        "examples":  [
+                         "She shook her head.",
+                         "Put this hat on your head."
+                     ],
+        "common_mistakes":  "Saying \u0027head pain\u0027 instead of \u0027headache\u0027.",
+        "hindi_confusion_correction":  "Don\u0027t confuse \u0027sir\u0027 (head) with the respectful title \u0027Sir\u0027.",
+        "formal_informal_note":  "Standard. \u0027Noggin\u0027 is informal.",
+        "image_url":  "https://upload.wikimedia.org/wikipedia/commons/4/4b/Human_head.jpg"
+    },
+    {
+        "word":  "Hair",
+        "hindi_meaning":  "बाल",
+        "pronunciation_help":  "heər",
+        "word_type":  "Noun",
+        "simple_explanation":  "The fine strands growing from the skin, especially on the head.",
+        "daily_life_use":  "Used when discussing grooming, haircuts, or appearance.",
+        "spoken_use":  "I need to wash my hair.",
+        "natural_native_use":  "Let your hair down.",
+        "emotional_tone":  "Neutral",
+        "common_collocations":  [
+                                    "brush hair",
+                                    "cut hair",
+                                    "long hair"
+                                ],
+        "examples":  [
+                         "She has dark hair.",
+                         "He is losing his hair."
+                     ],
+        "common_mistakes":  "Saying \u0027hairs\u0027 when talking about all the hair on your head.",
+        "hindi_confusion_correction":  "In English, hair is usually uncountable, unlike Hindi \u0027baal\u0027.",
+        "formal_informal_note":  "Standard in all contexts.",
+        "image_url":  "https://upload.wikimedia.org/wikipedia/commons/d/d4/Brunette_hair.jpg"
+    }
+]

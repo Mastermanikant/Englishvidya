@@ -1,0 +1,610 @@
+[
+  {
+    "word": "gossip",
+    "part_of_speech": "verb/noun",
+    "meaning": "casual conversations or reports about other people, typically involving details that are not confirmed as being true.",
+    "example": "He became the subject of much local gossip."
+  },
+  {
+    "word": "banter",
+    "part_of_speech": "noun/verb",
+    "meaning": "the playful and friendly exchange of teasing remarks.",
+    "example": "There was much good-natured banter."
+  },
+  {
+    "word": "chat",
+    "part_of_speech": "verb/noun",
+    "meaning": "talk in a friendly and informal way.",
+    "example": "She chatted to her mother on the phone."
+  },
+  {
+    "word": "catch up",
+    "part_of_speech": "phrasal verb",
+    "meaning": "talk to someone you have not seen for some time to find out what they have been doing.",
+    "example": "It was great to catch up with old friends."
+  },
+  {
+    "word": "spill the tea",
+    "part_of_speech": "idiom",
+    "meaning": "to share gossip or reveal secret information.",
+    "example": "Come on, spill the tea about what happened at the party!"
+  },
+  {
+    "word": "small talk",
+    "part_of_speech": "noun",
+    "meaning": "polite conversation about unimportant or uncontroversial matters.",
+    "example": "We made small talk while waiting for the meeting to start."
+  },
+  {
+    "word": "chew the fat",
+    "part_of_speech": "idiom",
+    "meaning": "chat in a leisurely way, especially at length.",
+    "example": "We sat around chewing the fat for hours."
+  },
+  {
+    "word": "shoot the breeze",
+    "part_of_speech": "idiom",
+    "meaning": "to have a casual conversation.",
+    "example": "We've just been shooting the breeze."
+  },
+  {
+    "word": "reconnect",
+    "part_of_speech": "verb",
+    "meaning": "build a connection or relationship again.",
+    "example": "The holidays are a great time to reconnect with family."
+  },
+  {
+    "word": "rant",
+    "part_of_speech": "verb/noun",
+    "meaning": "speak or shout at length in a wild, impassioned way.",
+    "example": "She was still ranting on about the unfairness of it all."
+  },
+  {
+    "word": "vent",
+    "part_of_speech": "verb",
+    "meaning": "give free expression to (a strong emotion).",
+    "example": "He had come to vent his frustration."
+  },
+  {
+    "word": "confide",
+    "part_of_speech": "verb",
+    "meaning": "tell someone about a secret or private matter while trusting them not to repeat it to others.",
+    "example": "He confided his fears to his mother."
+  },
+  {
+    "word": "dish",
+    "part_of_speech": "verb",
+    "meaning": "gossip or share information, especially of a sensational nature.",
+    "example": "They love to dish about their coworkers."
+  },
+  {
+    "word": "eavesdrop",
+    "part_of_speech": "verb",
+    "meaning": "secretly listen to a conversation.",
+    "example": "She opened the window just enough to eavesdrop on the conversation outside."
+  },
+  {
+    "word": "whisper",
+    "part_of_speech": "verb/noun",
+    "meaning": "speak very softly using one's breath without one's vocal cords.",
+    "example": "Alison was whispering in his ear."
+  },
+  {
+    "word": "overshare",
+    "part_of_speech": "verb",
+    "meaning": "reveal an inappropriate amount of detail about one's personal life.",
+    "example": "I think I overshared on our first date."
+  },
+  {
+    "word": "blab",
+    "part_of_speech": "verb",
+    "meaning": "reveal secrets by indiscreet talk.",
+    "example": "She blabbed to the press."
+  },
+  {
+    "word": "converse",
+    "part_of_speech": "verb",
+    "meaning": "engage in conversation.",
+    "example": "She sat conversing with her friend."
+  },
+  {
+    "word": "mingle",
+    "part_of_speech": "verb",
+    "meaning": "move freely around a place or at a social function, associating with others.",
+    "example": "The guests started to mingle and chat."
+  },
+  {
+    "word": "network",
+    "part_of_speech": "verb",
+    "meaning": "interact with other people to exchange information and develop contacts.",
+    "example": "The conference was a great opportunity to network."
+  },
+  {
+    "word": "schmooze",
+    "part_of_speech": "verb",
+    "meaning": "talk intimately and cozily; gossip.",
+    "example": "We schmoozed about our respective careers."
+  },
+  {
+    "word": "socialize",
+    "part_of_speech": "verb",
+    "meaning": "participate in social activities; mix socially with others.",
+    "example": "He didn't mind socializing with his staff."
+  },
+  {
+    "word": "touch base",
+    "part_of_speech": "idiom",
+    "meaning": "briefly make or renew contact with someone.",
+    "example": "They are going to touch base on the project next week."
+  },
+  {
+    "word": "update",
+    "part_of_speech": "verb",
+    "meaning": "make someone aware of the most recent facts or information.",
+    "example": "I'll update you on the progress."
+  },
+  {
+    "word": "check in",
+    "part_of_speech": "phrasal verb",
+    "meaning": "contact someone to make sure they are okay or to get an update.",
+    "example": "I just wanted to check in and see how you're doing."
+  },
+  {
+    "word": "badmouth",
+    "part_of_speech": "verb",
+    "meaning": "criticize (someone or something); speak disloyally of.",
+    "example": "No one wants to hire someone who badmouths their former employer."
+  },
+  {
+    "word": "brag",
+    "part_of_speech": "verb",
+    "meaning": "say in a boastful manner.",
+    "example": "He bragged that he was sure of victory."
+  },
+  {
+    "word": "boast",
+    "part_of_speech": "verb",
+    "meaning": "talk with excessive pride and self-satisfaction about one's achievements, possessions, or abilities.",
+    "example": "She boasted about her many conquests."
+  },
+  {
+    "word": "complain",
+    "part_of_speech": "verb",
+    "meaning": "express dissatisfaction or annoyance about something.",
+    "example": "Local authorities complained that they lacked sufficient resources."
+  },
+  {
+    "word": "whine",
+    "part_of_speech": "verb",
+    "meaning": "give or make a long, high-pitched complaining cry or sound.",
+    "example": "The waitress whined about the increased work."
+  },
+  {
+    "word": "bicker", "part_of_speech": "verb", "meaning": "argue about petty and trivial matters.",
+    "example": "Whenever the phone rings, they bicker over who must answer it."
+  },
+  {
+    "word": "argue",
+    "part_of_speech": "verb",
+    "meaning": "exchange or express diverging or opposite views, typically in a heated or angry way.",
+    "example": "I wasn't going to argue with a man twice my size."
+  },
+  {
+    "word": "debate",
+    "part_of_speech": "verb", "meaning": "argue about (a subject), especially in a formal manner.",
+    "example": "The board debated his proposal."
+  },
+  {
+    "word": "discuss", "part_of_speech": "verb", "meaning": "talk about (something) with another person or group of people.",
+    "example": "They were discussing the new project."
+  },
+  {
+    "word": "tease",
+    "part_of_speech": "verb", "meaning": "make fun of or attempt to provoke (a person or animal) in a playful way.",
+    "example": "Brenda teased her father about the new car."
+  },
+  {
+    "word": "roast",
+    "part_of_speech": "verb", "meaning": "subject to severe and good-natured criticism or ridicule.",
+    "example": "His friends roasted him at his birthday party."
+  },
+  {
+    "word": "mock",
+    "part_of_speech": "verb", "meaning": "tease or laugh at in a scornful or contemptuous manner.",
+    "example": "He mocks them as weekend warriors."
+  },
+  {
+    "word": "joke",
+    "part_of_speech": "verb", "meaning": "make jokes; talk humorously or flippantly.",
+    "example": "She could laugh and joke with her colleagues."
+  },
+  {
+    "word": "kid", "part_of_speech": "verb",
+    "meaning": "deceive (someone) in a playful way; tease.",
+    "example": "I'm just kidding you."
+  },
+  {
+    "word": "sarcasm",
+    "part_of_speech": "noun",
+    "meaning": "the use of irony to mock or convey contempt.",
+    "example": "His voice, hardened by sarcasm, could not hide his resentment."
+  },
+  {
+    "word": "irony",
+    "part_of_speech": "noun",
+    "meaning": "the expression of one's meaning by using language that normally signifies the opposite.",
+    "example": "“Don't go overboard with the gratitude,” he rejoined with heavy irony."
+  },
+  {
+    "word": "wit",
+    "part_of_speech": "noun",
+    "meaning": "mental sharpness and inventiveness; keen intelligence.",
+    "example": "He does not lack perception or native wit."
+  },
+  {
+    "word": "repartee",
+    "part_of_speech": "noun",
+    "meaning": "conversation or speech characterized by quick, witty comments or replies.",
+    "example": "He had a quick mind and a splendid gift of repartee."
+  },
+  {
+    "word": "chatter",
+    "part_of_speech": "verb",
+    "meaning": "talk informally about unimportant matters.",
+    "example": "She was chattering about her holiday."
+  },
+  {
+    "word": "prattle",
+    "part_of_speech": "verb",
+    "meaning": "talk at length in a foolish or inconsequential way.",
+    "example": "She began to prattle on about her visit to the dentist."
+  },
+  {
+    "word": "babble",
+    "part_of_speech": "verb",
+    "meaning": "talk rapidly and continuously in a foolish, excited, or incomprehensible way.",
+    "example": "They babbled on about their holiday."
+  },
+  {
+    "word": "ramble",
+    "part_of_speech": "verb",
+    "meaning": "talk or write at length in a confused or inconsequential way.",
+    "example": "Willy rambled on about Norman."
+  },
+  {
+    "word": "digress",
+    "part_of_speech": "verb",
+    "meaning": "leave the main subject temporarily in speech or writing.",
+    "example": "I have digressed a little from my original plan."
+  },
+  {
+    "word": "gab",
+    "part_of_speech": "verb",
+    "meaning": "talk at length, typically about trivial matters.",
+    "example": "They've been gabbing on the phone all morning."
+  },
+  {
+    "word": "yak",
+    "part_of_speech": "verb",
+    "meaning": "talk at length about trivial or boring subjects.",
+    "example": "She's always yakking on the phone."
+  },
+  {
+    "word": "natter",
+    "part_of_speech": "verb",
+    "meaning": "talk casually, especially about unimportant matters.",
+    "example": "They had a natter over a cup of tea."
+  },
+  {
+    "word": "chitchat",
+    "part_of_speech": "noun",
+    "meaning": "inconsequential conversation.",
+    "example": "We exchanged some pleasant chitchat."
+  },
+  {
+    "word": "jaw",
+    "part_of_speech": "verb",
+    "meaning": "talk at length; chatter.",
+    "example": "He and his friends were jawing away."
+  },
+  {
+    "word": "blather",
+    "part_of_speech": "verb",
+    "meaning": "talk long-windedly without making very much sense.",
+    "example": "She blathered on about her problems."
+  },
+  {
+    "word": "drivel",
+    "part_of_speech": "noun",
+    "meaning": "silly nonsense.",
+    "example": "Don't talk such drivel!"
+  },
+  {
+    "word": "rumor",
+    "part_of_speech": "noun",
+    "meaning": "a currently circulating story or report of uncertain or doubtful truth.",
+    "example": "They were investigating rumors of a massacre."
+  },
+  {
+    "word": "hearsay",
+    "part_of_speech": "noun",
+    "meaning": "information received from other people that one cannot adequately substantiate; rumor.",
+    "example": "According to hearsay, Bob had managed to break his arm."
+  },
+  {
+    "word": "grapevine",
+    "part_of_speech": "noun",
+    "meaning": "the informal transmission of information, gossip, or rumor from person to person.",
+    "example": "I heard on the grapevine that he was resigning."
+  },
+  {
+    "word": "scuttlebutt",
+    "part_of_speech": "noun",
+    "meaning": "rumor or gossip.",
+    "example": "The current scuttlebutt is that she's leaving."
+  },
+  {
+    "word": "tittle-tattle",
+    "part_of_speech": "noun",
+    "meaning": "casual conversation or gossip about other people's affairs.",
+    "example": "I'm not interested in their tittle-tattle."
+  },
+  {
+    "word": "scandal",
+    "part_of_speech": "noun",
+    "meaning": "an action or event regarded as morally or legally wrong and causing general public outrage.",
+    "example": "A bribery scandal involving one of his key supporters."
+  },
+  {
+    "word": "secret",
+    "part_of_speech": "noun",
+    "meaning": "something that is kept or meant to be kept unknown or unseen by others.",
+    "example": "A state secret."
+  },
+  {
+    "word": "disclose",
+    "part_of_speech": "verb",
+    "meaning": "make (secret or new information) known.",
+    "example": "They disclosed her name to the press."
+  },
+  {
+    "word": "reveal",
+    "part_of_speech": "verb",
+    "meaning": "make (previously unknown or secret information) known to others.",
+    "example": "Brenda was forced to reveal Robbie's whereabouts."
+  },
+  {
+    "word": "leak",
+    "part_of_speech": "verb",
+    "meaning": "intentionally disclose (secret information).",
+    "example": "He leaked the news to the press."
+  },
+  {
+    "word": "slip",
+    "part_of_speech": "verb",
+    "meaning": "accidentally reveal a secret or make a mistake in speaking.",
+    "example": "I let it slip that I had seen them together."
+  },
+  {
+    "word": "blurt",
+    "part_of_speech": "verb",
+    "meaning": "say (something) suddenly and without careful consideration.",
+    "example": "She blurted out the truth."
+  },
+  {
+    "word": "stammer",
+    "part_of_speech": "verb",
+    "meaning": "speak with sudden involuntary pauses and a tendency to repeat the initial letters of words.",
+    "example": "He stammered his apologies."
+  },
+  {
+    "word": "stutter",
+    "part_of_speech": "verb",
+    "meaning": "talk with continued involuntary repetition of sounds, especially initial consonants.",
+    "example": "The child was stuttering in fright."
+  },
+  {
+    "word": "mumble",
+    "part_of_speech": "verb",
+    "meaning": "say something indistinctly and quietly, making it difficult for others to hear.",
+    "example": "He mumbled something about leaving."
+  },
+  {
+    "word": "mutter",
+    "part_of_speech": "verb",
+    "meaning": "say something in a low or barely audible voice, especially in dissatisfaction or irritation.",
+    "example": "He muttered something under his breath."
+  },
+  {
+    "word": "murmur",
+    "part_of_speech": "verb",
+    "meaning": "say something in a low, soft, or indistinct voice.",
+    "example": "Nina murmured an excuse and hurried away."
+  },
+  {
+    "word": "shout",
+    "part_of_speech": "verb",
+    "meaning": "say something very loudly.",
+    "example": "She shouted his name."
+  },
+  {
+    "word": "yell",
+    "part_of_speech": "verb",
+    "meaning": "give a loud, sharp cry.",
+    "example": "You don't have to yell, I can hear you."
+  },
+  {
+    "word": "scream",
+    "part_of_speech": "verb",
+    "meaning": "give a long, loud, piercing cry or sounds expressing extreme emotion or pain.",
+    "example": "They were screaming in terror."
+  },
+  {
+    "word": "exclaim",
+    "part_of_speech": "verb",
+    "meaning": "cry out suddenly, especially in surprise, anger, or pain.",
+    "example": "\"Well I never!\" she exclaimed."
+  },
+  {
+    "word": "interrupt",
+    "part_of_speech": "verb",
+    "meaning": "stop the continuous progress of (an activity or process).",
+    "example": "He interrupted her while she was speaking."
+  },
+  {
+    "word": "chime in",
+    "part_of_speech": "phrasal verb",
+    "meaning": "interject a remark.",
+    "example": "\"Yes, you do that,\" chimed in Dave."
+  },
+  {
+    "word": "interject",
+    "part_of_speech": "verb",
+    "meaning": "say (something) abruptly, especially as an aside or interruption.",
+    "example": "She interjected the odd question here and there."
+  },
+  {
+    "word": "butt in",
+    "part_of_speech": "phrasal verb",
+    "meaning": "interrupt a conversation or activity.",
+    "example": "Sorry to butt in, but I couldn't help overhearing."
+  },
+  {
+    "word": "overhear",
+    "part_of_speech": "verb",
+    "meaning": "hear (someone or something) without meaning to or without the knowledge of the speaker.",
+    "example": "I couldn't help overhearing your conversation."
+  },
+  {
+    "word": "snoop",
+    "part_of_speech": "verb",
+    "meaning": "investigate or look around furtively in an attempt to find out something, especially information about someone's private affairs.",
+    "example": "Your sister might find the ring if she goes snooping about."
+  },
+  {
+    "word": "pry",
+    "part_of_speech": "verb",
+    "meaning": "inquire too closely into a person's private affairs.",
+    "example": "I'm sick of you prying into my personal life."
+  },
+  {
+    "word": "nosy",
+    "part_of_speech": "adjective",
+    "meaning": "showing too much curiosity about other people's affairs.",
+    "example": "Nosy neighbors."
+  },
+  {
+    "word": "inquisitive",
+    "part_of_speech": "adjective",
+    "meaning": "curious or inquiring.",
+    "example": "He was very chatty and inquisitive about everything."
+  },
+  {
+    "word": "interrogate",
+    "part_of_speech": "verb",
+    "meaning": "ask questions of (someone, especially a suspect or a prisoner) closely, aggressively, or formally.",
+    "example": "He was interrogated by the police for over 12 hours."
+  },
+  {
+    "word": "question",
+    "part_of_speech": "verb",
+    "meaning": "ask questions of (someone), especially in an official context.",
+    "example": "Four men were being questioned about the killings."
+  },
+  {
+    "word": "inquire",
+    "part_of_speech": "verb",
+    "meaning": "ask for information from someone.",
+    "example": "He inquired about cottages for sale."
+  },
+  {
+    "word": "answer",
+    "part_of_speech": "verb",
+    "meaning": "say or write something to deal with or as a reaction to someone or something.",
+    "example": "Of course I can, he answered."
+  },
+  {
+    "word": "respond",
+    "part_of_speech": "verb",
+    "meaning": "say something in reply.",
+    "example": "She could not get Robert to respond to her words."
+  },
+  {
+    "word": "reply",
+    "part_of_speech": "verb",
+    "meaning": "say something in response to something someone has said.",
+    "example": "He was gone before we could reply to him."
+  },
+  {
+    "word": "retort",
+    "part_of_speech": "verb",
+    "meaning": "say something in answer to a remark or accusation, typically in a sharp, angry, or wittily incisive manner.",
+    "example": "\"No need to be rude,\" retorted Isabel."
+  },
+  {
+    "word": "comeback",
+    "part_of_speech": "noun",
+    "meaning": "a quick reply to a critical remark.",
+    "example": "He was always ready with a witty comeback."
+  },
+  {
+    "word": "quip",
+    "part_of_speech": "noun",
+    "meaning": "a witty remark.",
+    "example": "Peter ate heartily with a quip about being a growing boy."
+  },
+  {
+    "word": "pun",
+    "part_of_speech": "noun",
+    "meaning": "a joke exploiting the different possible meanings of a word or the fact that there are words that sound alike but have different meanings.",
+    "example": "The pigs were a squeal (if you'll forgive the pun)."
+  },
+  {
+    "word": "anecdote",
+    "part_of_speech": "noun",
+    "meaning": "a short amusing or interesting story about a real incident or person.",
+    "example": "He told anecdotes about his job."
+  },
+  {
+    "word": "story",
+    "part_of_speech": "noun",
+    "meaning": "an account of imaginary or real people and events told for entertainment.",
+    "example": "An adventure story."
+  },
+  {
+    "word": "tale",
+    "part_of_speech": "noun",
+    "meaning": "a fictitious or true narrative or story, especially one that is imaginatively recounted.",
+    "example": "A delightful children's tale."
+  },
+  {
+    "word": "yarn",
+    "part_of_speech": "noun",
+    "meaning": "a long or rambling story, especially one that is implausible.",
+    "example": "He never let reality get in the way of a good yarn."
+  },
+  {
+    "word": "exaggerate",
+    "part_of_speech": "verb",
+    "meaning": "represent (something) as being larger, greater, better, or worse than it really is.",
+    "example": "He was apt to exaggerate any aches and pains."
+  },
+  {
+    "word": "embellish",
+    "part_of_speech": "verb",
+    "meaning": "make (a statement or story) more interesting or entertaining by adding extra details, especially ones that are not true.",
+    "example": "Followers often embellish stories about their heroes."
+  },
+  {
+    "word": "downplay",
+    "part_of_speech": "verb",
+    "meaning": "make (something) appear less important than it really is.",
+    "example": "This report downplays the seriousness of global warming."
+  },
+  {
+    "word": "recap",
+    "part_of_speech": "verb",
+    "meaning": "state again as a summary; recapitulate.",
+    "example": "To recap, we have discussed the key features."
+  }
+]

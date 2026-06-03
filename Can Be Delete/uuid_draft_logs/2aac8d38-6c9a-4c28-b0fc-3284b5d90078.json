@@ -1,0 +1,48 @@
+﻿[
+    {
+        "word":  "Sweep",
+        "hindi_meaning":  "झाड़ू लगाना",
+        "pronunciation_help":  "स्वीप",
+        "word_type":  "Verb",
+        "simple_explanation":  "To clean a floor using a broom.",
+        "daily_life_use":  "Used when doing morning house cleaning.",
+        "spoken_use":  "I need to sweep the floor.",
+        "natural_native_use":  "Could you sweep up the mess?",
+        "emotional_tone":  "Neutral",
+        "common_collocations":  [
+                                    "sweep the floor",
+                                    "sweep up"
+                                ],
+        "examples":  [
+                         "She sweeps the kitchen every morning.",
+                         "He is sweeping the yard."
+                     ],
+        "common_mistakes":  "Saying \u0027doing the sweep\u0027 instead of \u0027sweeping\u0027.",
+        "hindi_confusion_correction":  "In Hindi, it\u0027s \u0027झाड़ू (noun) लगाना (verb)\u0027, but in English \u0027sweep\u0027 is the action itself.",
+        "formal_informal_note":  "Appropriate for both formal and informal use.",
+        "image_url":  "https://commons.wikimedia.org/wiki/Special:FilePath/Broom.jpg"
+    },
+    {
+        "word":  "Mop",
+        "hindi_meaning":  "पोंछा लगाना",
+        "pronunciation_help":  "मॉप",
+        "word_type":  "Verb / Noun",
+        "simple_explanation":  "To wash a floor with a wet tool.",
+        "daily_life_use":  "Cleaning up spills or washing floors.",
+        "spoken_use":  "Did you mop the living room?",
+        "natural_native_use":  "Give the floor a quick mop.",
+        "emotional_tone":  "Neutral",
+        "common_collocations":  [
+                                    "mop the floor",
+                                    "wet mop"
+                                ],
+        "examples":  [
+                         "I mopped the spilled milk.",
+                         "The floor needs mopping."
+                     ],
+        "common_mistakes":  "Confusing \u0027mop\u0027 (wet cleaning) with \u0027sweep\u0027 (dry cleaning).",
+        "hindi_confusion_correction":  "Mop refers to both the tool (पोंछा) and the action (पोंछा लगाना).",
+        "formal_informal_note":  "Everyday informal and formal word.",
+        "image_url":  "https://commons.wikimedia.org/wiki/Special:FilePath/Mop.jpg"
+    }
+]

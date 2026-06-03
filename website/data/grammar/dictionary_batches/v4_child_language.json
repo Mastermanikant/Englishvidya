@@ -1,0 +1,782 @@
+[
+  {
+    "word": "Cooing",
+    "meaning": "The early stage of baby vocalization (around 2-4 months) consisting of soft, vowel-like sounds like 'oo' and 'ah'.",
+    "example": "When the mother smiled, the baby started cooing in response, making soft vowel sounds.",
+    "category": "Pre-linguistic Stage"
+  },
+  {
+    "word": "Babbling",
+    "meaning": "A stage around 6 months where babies repeat consonant-vowel combinations like 'ba-ba' or 'da-da'.",
+    "example": "The six-month-old was babbling happily in her crib, repeating sounds like 'ma-ma-ma'.",
+    "category": "Pre-linguistic Stage"
+  },
+  {
+    "word": "Canonical Babbling",
+    "meaning": "The repetition of identical consonant-vowel syllables, such as 'ba-ba-ba' or 'da-da-da', typically starting around 6 to 9 months.",
+    "example": "Canonical babbling is an important milestone because it shows the child is learning to coordinate their lips and tongue.",
+    "category": "Pre-linguistic Stage"
+  },
+  {
+    "word": "Variegated Babbling",
+    "meaning": "A stage of baby speech (around 9-12 months) where they combine different consonant and vowel sounds, like 'ba-da-bi'.",
+    "example": "During variegated babbling, babies mix different sounds together, making it sound more like real language.",
+    "category": "Pre-linguistic Stage"
+  },
+  {
+    "word": "Jargon Babbling",
+    "meaning": "The final stage of babbling where a baby's sounds have the rhythm and tone of real sentences but contain no real words.",
+    "example": "The toddler had a long conversation with his teddy bear in jargon babbling, sounding like he was telling a real story.",
+    "category": "Pre-linguistic Stage"
+  },
+  {
+    "word": "Vocal Play",
+    "meaning": "A stage around 4-6 months where babies experiment with their voice, making high pitches, squeals, growls, and loud sounds.",
+    "example": "The baby discovered her own voice and spent the afternoon in vocal play, squealing and making growling noises.",
+    "category": "Pre-linguistic Stage"
+  },
+  {
+    "word": "Vegetative Sounds",
+    "meaning": "Natural, automatic sounds babies make from birth that are not for communication, such as coughing, burping, or crying.",
+    "example": "In the first few weeks of life, a newborn's vocalizations are limited to crying and vegetative sounds.",
+    "category": "Pre-linguistic Stage"
+  },
+  {
+    "word": "Protoword",
+    "meaning": "An invented word that a child uses consistently to refer to a specific object before learning the actual word (e.g., 'yaya' for pacifier).",
+    "example": "Leo kept calling his blanket 'bobo,' which was a protoword his family easily understood.",
+    "category": "Early Word Stage"
+  },
+  {
+    "word": "Vocables",
+    "meaning": "Consistent, word-like sounds used by a child to represent specific objects, even though they are not real words.",
+    "example": "The toddler used vocables like 'tata' every time he wanted to ask for water.",
+    "category": "Early Word Stage"
+  },
+  {
+    "word": "Holophrase",
+    "meaning": "A single word used by a child to express a complete, complex thought or sentence (e.g., saying 'Up!' to mean 'Pick me up').",
+    "example": "When the toddler said 'juice' while pointing to the fridge, she was using a holophrase to ask for a drink.",
+    "category": "Early Word Stage"
+  },
+  {
+    "word": "One-Word Stage",
+    "meaning": "The period in child development (typically 12-18 months) when children communicate using only single, isolated words.",
+    "example": "In the one-word stage, a toddler might point to a dog and simply say 'dog' to get your attention.",
+    "category": "Developmental Milestones"
+  },
+  {
+    "word": "Two-Word Stage",
+    "meaning": "A stage around 18-24 months where children begin combining two words to form simple sentences like 'more milk' or 'big dog'.",
+    "example": "Moving into the two-word stage is a major step forward, as children begin to put nouns and verbs together.",
+    "category": "Developmental Milestones"
+  },
+  {
+    "word": "Telegraphic Speech",
+    "meaning": "Early sentences that contain only the most important words (nouns and verbs) and leave out smaller words like 'the', 'is', or 'to'.",
+    "example": "When the child said 'Daddy go work,' she was using telegraphic speech to explain where her father went.",
+    "category": "Syntactic Milestones"
+  },
+  {
+    "word": "Mean Length of Utterance",
+    "meaning": "A measure of language development calculated by finding the average number of words or meaningful units in a child's sentences.",
+    "example": "Speech therapists measure a child's mean length of utterance to check if their sentence structure is developing normally.",
+    "category": "Developmental Milestones"
+  },
+  {
+    "word": "Vocabulary Spurt",
+    "meaning": "A period of rapid language growth, usually around 18 months, when a child suddenly learns many new words each day.",
+    "example": "After his vocabulary spurt, the toddler started saying five to ten new words every day.",
+    "category": "Early Word Stage"
+  },
+  {
+    "word": "Naming Explosion",
+    "meaning": "Another term for the vocabulary spurt, describing the sudden and rapid increase in a child's vocabulary, especially nouns.",
+    "example": "During the naming explosion, the young girl wanted to know the name of every object in the room.",
+    "category": "Early Word Stage"
+  },
+  {
+    "word": "Fast Mapping",
+    "meaning": "A child's ability to learn the basic meaning of a new word after hearing it only once or twice.",
+    "example": "Thanks to fast mapping, the toddler remembered the word 'ostrich' after seeing it just once in a picture book.",
+    "category": "Cognitive Milestones"
+  },
+  {
+    "word": "Slow Mapping",
+    "meaning": "The gradual process of fully understanding a word's meaning through repeated exposure in different situations.",
+    "example": "While fast mapping helps a child first learn a word, slow mapping is needed to understand all the ways it can be used.",
+    "category": "Cognitive Milestones"
+  },
+  {
+    "word": "Underextension",
+    "meaning": "A language error where a child uses a word too narrowly, applying it to only one specific object rather than all objects of its kind.",
+    "example": "Underextension occurs when a child calls only their own family dog 'doggy' and does not use the word for other dogs.",
+    "category": "Speech Variations"
+  },
+  {
+    "word": "Overextension",
+    "meaning": "A language error where a child uses a word too broadly, applying it to objects that are similar but have different names.",
+    "example": "When the baby called the cat, the squirrel, and the rabbit 'kitty,' she was making an overextension error.",
+    "category": "Speech Variations"
+  },
+  {
+    "word": "Overregularization",
+    "meaning": "The mistake of applying regular grammar rules to irregular words, such as saying 'foots' instead of 'feet' or 'runned' instead of 'ran'.",
+    "example": "When the child said, 'I comed to the park,' it was a natural case of overregularization showing he knew the rule for past tense.",
+    "category": "Speech Variations"
+  },
+  {
+    "word": "Critical Period",
+    "meaning": "A biologically determined window of time during early childhood when language acquisition occurs most easily and naturally.",
+    "example": "Children who are exposed to a second language during the critical period often achieve native-like pronunciation.",
+    "category": "Developmental Milestones"
+  },
+  {
+    "word": "Language Acquisition Device",
+    "meaning": "Noam Chomsky's theoretical term for the built-in system in the human brain that helps children naturally discover the rules of language.",
+    "example": "Chomsky argued that children are born with a language acquisition device that makes grammar learning natural.",
+    "category": "Linguistic Theories"
+  },
+  {
+    "word": "Universal Grammar",
+    "meaning": "The theory that all human languages share a common underlying structural framework that is pre-programmed into the human brain.",
+    "example": "Proponents of universal grammar believe that babies are born with a basic layout of how sentences work.",
+    "category": "Linguistic Theories"
+  },
+  {
+    "word": "Social Interactionism",
+    "meaning": "A theory that emphasizes the importance of social relationships and communication with caregivers in a child's language development.",
+    "example": "Social interactionism suggests that babies learn to speak because they want to connect and share experiences with their parents.",
+    "category": "Linguistic Theories"
+  },
+  {
+    "word": "Child-Directed Speech",
+    "meaning": "The high-pitched, slow, and repetitive way adults talk to infants to catch their attention and help them learn words.",
+    "example": "He naturally shifted to child-directed speech, saying, 'Look at the pretty birdy!' to his baby nephew.",
+    "category": "Environmental Factors"
+  },
+  {
+    "word": "Infant-Directed Speech",
+    "meaning": "Another term for child-directed speech, characterized by exaggerated pitch, simple grammar, and slow speaking rate.",
+    "example": "Studies show that babies prefer infant-directed speech over regular adult conversation because it is easier to follow.",
+    "category": "Environmental Factors"
+  },
+  {
+    "word": "Motherese",
+    "meaning": "A common, informal term for child-directed speech, referring to the baby-talk style parents use with infants.",
+    "example": "Her voice naturally became higher and warmer as she used motherese to soothe her baby.",
+    "category": "Environmental Factors"
+  },
+  {
+    "word": "Parentese",
+    "meaning": "The musical, high-pitched, and loving speech style that parents use to communicate with babies to aid language development.",
+    "example": "Using parentese helps infants pay attention to speech sounds and makes it easier for them to learn words.",
+    "category": "Environmental Factors"
+  },
+  {
+    "word": "Caretaker Speech",
+    "meaning": "The simplified, slower, and more repetitive language that adults use when speaking to young children, which aids language acquisition.",
+    "example": "Parents instinctively use caretaker speech — short sentences, clear pronunciation — to help toddlers acquire words.",
+    "category": "Environmental Factors"
+  },
+  {
+    "word": "Joint Attention",
+    "meaning": "A milestone where a child and an adult look at the same object together and both know they are sharing the experience.",
+    "example": "Pointing at a toy and looking back at his mom was the baby's way of establishing joint attention.",
+    "category": "Cognitive Milestones"
+  },
+  {
+    "word": "Gaze Following",
+    "meaning": "The act of a baby looking in the same direction that an adult is looking, which helps them connect words to objects.",
+    "example": "Through gaze following, the infant looked at the red ball when she saw her father staring at it.",
+    "category": "Cognitive Milestones"
+  },
+  {
+    "word": "Proto-Declarative Pointing",
+    "meaning": "Pointing to an object simply to show it to someone else and share interest, rather than to ask for it.",
+    "example": "The toddler used proto-declarative pointing to show his dad a plane flying high in the sky.",
+    "category": "Cognitive Milestones"
+  },
+  {
+    "word": "Proto-Imperative Pointing",
+    "meaning": "Pointing to an object to request it or get someone to do something (e.g., pointing to a cookie to get it).",
+    "example": "The little girl used proto-imperative pointing toward the juice bottle, wanting her mother to hand it to her.",
+    "category": "Cognitive Milestones"
+  },
+  {
+    "word": "Imitation",
+    "meaning": "Copying the actions, gestures, or vocal sounds of others, which is a major way children learn to speak.",
+    "example": "Babies learn many of their first words through simple imitation of the sounds their parents make.",
+    "category": "Cognitive Milestones"
+  },
+  {
+    "word": "Object Permanence",
+    "meaning": "The cognitive understanding that objects continue to exist even when they cannot be seen, heard, or touched.",
+    "example": "Developing object permanence helps a baby understand that when mom leaves the room, she still exists and will return.",
+    "category": "Cognitive Milestones"
+  },
+  {
+    "word": "Linguistic Input",
+    "meaning": "All the language that a child hears or is exposed to in their daily environment.",
+    "example": "A rich linguistic input, filled with conversations and stories, helps children build a large vocabulary.",
+    "category": "Environmental Factors"
+  },
+  {
+    "word": "Recasting",
+    "meaning": "A technique where an adult repeats a child's incorrect sentence in a corrected form without directly correcting them.",
+    "example": "When the child said, 'Doggy barked,' the father used recasting by replying, 'Yes, the dog is barking.'",
+    "category": "Environmental Factors"
+  },
+  {
+    "word": "Expansion",
+    "meaning": "An adult technique of repeating what a child says but adding more words to make it grammatically complete.",
+    "example": "When the toddler said 'Car go,' the mother used expansion by saying, 'Yes, the blue car is going fast!'",
+    "category": "Environmental Factors"
+  },
+  {
+    "word": "Phoneme",
+    "meaning": "The smallest unit of sound in a language that can distinguish one word from another (e.g., the sound /p/ in 'pin').",
+    "example": "Children must learn to hear the difference between phonemes like /b/ and /p/ to tell 'bat' and 'pat' apart.",
+    "category": "Phonetic Milestones"
+  },
+  {
+    "word": "Phonological Processing",
+    "meaning": "The ability to analyze, remember, and manipulate speech sounds in words.",
+    "example": "Good phonological processing skills help children segment words into individual sounds when they start learning to read.",
+    "category": "Phonetic Milestones"
+  },
+  {
+    "word": "Phonotactics",
+    "meaning": "The rules of a language that determine which sound combinations are allowed at the beginning, middle, or end of words.",
+    "example": "Babies naturally learn English phonotactics and realize that words can start with 'str' but not 'rt'.",
+    "category": "Phonetic Milestones"
+  },
+  {
+    "word": "Auditory Discrimination",
+    "meaning": "The ability to detect differences between similar speech sounds, such as distinguishing 'cat' from 'cap'.",
+    "example": "Infants have amazing auditory discrimination and can hear sound differences that adults sometimes fail to notice.",
+    "category": "Phonetic Milestones"
+  },
+  {
+    "word": "Babbling Drift",
+    "meaning": "The gradual change in a baby's babbling sounds to match the specific language spoken by the adults around them.",
+    "example": "Babbling drift explains why a French baby's sounds begin to sound different from a Chinese baby's sounds by 9 months.",
+    "category": "Pre-linguistic Stage"
+  },
+  {
+    "word": "Speech Sound Disorder",
+    "meaning": "A difficulty in producing or pronouncing speech sounds correctly, making it hard for others to understand.",
+    "example": "The speech therapist helped the child overcome his speech sound disorder so he could pronounce the letter 'r' clearly.",
+    "category": "Speech Variations"
+  },
+  {
+    "word": "Speech Delay",
+    "meaning": "A condition where a child's speech and language skills develop at a slower rate than expected for their age.",
+    "example": "Although he experienced a speech delay, with regular therapy he was speaking in full sentences by age four.",
+    "category": "Speech Variations"
+  },
+  {
+    "word": "Developmental Language Disorder",
+    "meaning": "A persistent condition that makes it difficult for children to understand or use spoken language, unrelated to intelligence.",
+    "example": "Children with developmental language disorder need extra support at school to help them follow instructions.",
+    "category": "Speech Variations"
+  },
+  {
+    "word": "Simultaneous Bilingualism",
+    "meaning": "Learning two languages at the same time from birth or early infancy.",
+    "example": "Growing up with an English-speaking mother and a Spanish-speaking father led to simultaneous bilingualism for the child.",
+    "category": "Bilingual Acquisition"
+  },
+  {
+    "word": "Sequential Bilingualism",
+    "meaning": "Learning a second language after the first language is already established, usually after age three.",
+    "example": "When she moved to Germany at age five, she began sequential bilingualism by learning German at preschool.",
+    "category": "Bilingual Acquisition"
+  },
+  {
+    "word": "Code-Mixing",
+    "meaning": "Combining words, phrases, or grammar from two different languages within a single sentence or conversation.",
+    "example": "The bilingual child used code-mixing when he said, 'I want my juguete,' combining English and Spanish.",
+    "category": "Bilingual Acquisition"
+  },
+  {
+    "word": "Turn-Taking",
+    "meaning": "The social rule of conversation where speakers alternate talking and listening, which babies practice before using real words.",
+    "example": "During their vocal play, the mother and baby practiced turn-taking by replying to each other's noises.",
+    "category": "Pragmatic Milestones"
+  },
+  {
+    "word": "Communicative Intent",
+    "meaning": "A child's desire to communicate a message to another person using gestures, eye contact, or sounds.",
+    "example": "Even before he could speak, the baby showed clear communicative intent by pointing at the cookie jar and making a sound.",
+    "category": "Pragmatic Milestones"
+  },
+  {
+    "word": "Conversational Repair",
+    "meaning": "The ability to fix a misunderstanding during a conversation, such as repeating a word more clearly when someone doesn't understand.",
+    "example": "When the father looked confused, the toddler used conversational repair by pointing at the toy and saying 'truck' again.",
+    "category": "Pragmatic Milestones"
+  },
+  {
+    "word": "Metalinguistic Awareness",
+    "meaning": "The ability to think about and discuss the structure and rules of language itself, rather than just using it.",
+    "example": "When the child joked about how two words rhyme, she was showing early signs of metalinguistic awareness.",
+    "category": "Advanced Milestones"
+  },
+  {
+    "word": "Private Speech",
+    "meaning": "Spoken language that a child directs to themselves to guide their own thoughts, actions, and behavior.",
+    "example": "While building the block tower, the boy used private speech, whispering to himself, 'Put the blue one on top.'",
+    "category": "Cognitive Milestones"
+  },
+  {
+    "word": "Egocentric Speech",
+    "meaning": "Piaget's term for speech that is not directed to anyone else and does not take the listener's point of view into account.",
+    "example": "In egocentric speech, two toddlers might talk side-by-side without actually responding to what the other is saying.",
+    "category": "Cognitive Milestones"
+  },
+  {
+    "word": "Sensory Integration",
+    "meaning": "The process where the brain organizes and interprets information from all the senses, helping children connect sounds with sights.",
+    "example": "Playing with musical toys helps babies with sensory integration by linking the sound they hear to the touch of the keys.",
+    "category": "Cognitive Milestones"
+  },
+  {
+    "word": "Statistical Learning",
+    "meaning": "The subconscious ability of babies to track patterns in the speech they hear, helping them figure out where words start and end.",
+    "example": "Through statistical learning, babies realize that certain syllables, like 'ba-by', often appear together as a single unit.",
+    "category": "Cognitive Milestones"
+  },
+  {
+    "word": "Pattern Recognition",
+    "meaning": "The cognitive ability to notice regularities and rules in sensory input, which helps babies learn grammar rules.",
+    "example": "Infant pattern recognition allows a child to notice that we usually add an 's' sound to talk about more than one thing.",
+    "category": "Cognitive Milestones"
+  },
+  {
+    "word": "Pragmatics",
+    "meaning": "The social rules of language, such as staying on topic, using polite words, and understanding the speaker's tone.",
+    "example": "Pragmatics helps children learn when to speak, how to listen, and how to change their tone depending on who they are talking to.",
+    "category": "Pragmatic Milestones"
+  },
+  {
+    "word": "Reinforcement",
+    "meaning": "In behaviorist theory, the encouragement or rewards (like smiles or praise) given to a child that motivate them to repeat a language behavior.",
+    "example": "The parents' happy reaction served as positive reinforcement, encouraging the baby to repeat the word 'mama'.",
+    "category": "Environmental Factors"
+  },
+  {
+    "word": "Modeling",
+    "meaning": "Demonstrating correct language use for a child to hear and copy.",
+    "example": "Modeling good sentence structure by speaking clearly is the best way to teach grammar to children.",
+    "category": "Environmental Factors"
+  },
+  {
+    "word": "Zone of Proximal Development",
+    "meaning": "The gap between what a child can do alone and what they can do with help, which is the best area for learning.",
+    "example": "In the zone of proximal development, a child can say a complex sentence with a little help and guidance from a teacher.",
+    "category": "Linguistic Theories"
+  },
+  {
+    "word": "Scaffolding",
+    "meaning": "The temporary support (like clues, gestures, or simplified sentences) that adults give to help a child learn a new language skill.",
+    "example": "Using simple gestures while teaching the word 'big' provides scaffolding that helps the child grasp the meaning.",
+    "category": "Environmental Factors"
+  },
+  {
+    "word": "Pivot Grammar",
+    "meaning": "An early grammar system where toddlers use a few high-frequency 'pivot' words (like 'more' or 'no') combined with 'open' words (like 'milk', 'cookie').",
+    "example": "In pivot grammar, the toddler creates sentences like 'more toy,' 'more sleep,' and 'more juice' using the pivot word 'more'.",
+    "category": "Syntactic Milestones"
+  },
+  {
+    "word": "Poverty of the Stimulus",
+    "meaning": "The argument that the language children hear is too messy and incomplete to explain how they learn complex grammar so quickly.",
+    "example": "Chomsky used the poverty of the stimulus argument to suggest that the human brain must have built-in grammar rules.",
+    "category": "Linguistic Theories"
+  },
+  {
+    "word": "Innateness Hypothesis",
+    "meaning": "The idea that humans are born with a biological capability for language acquisition, rather than learning it entirely from scratch.",
+    "example": "The innateness hypothesis suggests that human speech is as natural to our species as flying is to birds.",
+    "category": "Linguistic Theories"
+  },
+  {
+    "word": "Behaviorism",
+    "meaning": "A theory of learning that focuses on observable behaviors, suggesting language is learned through imitation, reward, and practice.",
+    "example": "Behaviorism explains why children copy their parents' words, though it struggles to explain how they make up new sentences.",
+    "category": "Linguistic Theories"
+  },
+  {
+    "word": "Constructivism",
+    "meaning": "A theory suggesting that children actively build their language skills through their interactions with the physical and social world.",
+    "example": "According to constructivism, children don't just copy speech; they build their own understanding of grammar rules step by step.",
+    "category": "Linguistic Theories"
+  },
+  {
+    "word": "Operant Conditioning",
+    "meaning": "A learning process where behavior is shaped by rewards or punishments, used by behaviorists to explain how children learn words.",
+    "example": "Through operant conditioning, a baby learns that saying 'milk' gets them a drink, reinforcing the use of that word.",
+    "category": "Linguistic Theories"
+  },
+  {
+    "word": "Gliding",
+    "meaning": "A phonological process where a child replaces consonant sounds like /l/ or /r/ with /w/ or /j/ (e.g., saying 'wabbit' for 'rabbit').",
+    "example": "Gliding is very common in young children and is why many toddlers say 'wewy' instead of 'very'.",
+    "category": "Phonetic Milestones"
+  },
+  {
+    "word": "Stopping",
+    "meaning": "A phonological process where a child replaces fricative sounds (like /f/ or /s/) with stop sounds (like /p/ or /t/), e.g., saying 'punny' for 'funny'.",
+    "example": "The child showed stopping when she pronounced 'sun' as 'tun' and 'fish' as 'pish'.",
+    "category": "Phonetic Milestones"
+  },
+  {
+    "word": "Cluster Reduction",
+    "meaning": "A phonological process where a child simplifies consonant groups by dropping one of the consonant sounds, e.g., saying 'poon' for 'spoon'.",
+    "example": "Cluster reduction is the reason why a toddler might refer to a 'train' as a 'tain'.",
+    "category": "Phonetic Milestones"
+  },
+  {
+    "word": "Fronting",
+    "meaning": "A phonological process where sounds made in the back of the mouth (like /k/ or /g/) are replaced by sounds made in the front (like /t/ or /d/).",
+    "example": "The toddler's fronting error turned the word 'car' into 'tar' and 'go' into 'do'.",
+    "category": "Phonetic Milestones"
+  },
+  {
+    "word": "Syllable Deletion",
+    "meaning": "A phonological process where a child drops an unstressed syllable from a word, e.g., saying 'nana' instead of 'banana'.",
+    "example": "Saying 'tato' instead of 'potato' is a common example of syllable deletion in early child speech.",
+    "category": "Phonetic Milestones"
+  },
+  {
+    "word": "Assimilation",
+    "meaning": "A phonological process where one sound in a word becomes similar to another sound in the same word, e.g., saying 'goggie' for 'doggy'.",
+    "example": "The toddler used assimilation when he pronounced the word 'tub' as 'bub'.",
+    "category": "Phonetic Milestones"
+  },
+  {
+    "word": "Vocalization",
+    "meaning": "The production of sounds using the vocal cords, which starts with crying and cooing and eventually leads to speech.",
+    "example": "The teacher noticed a lot of happy vocalization from the babies during music class.",
+    "category": "Pre-linguistic Stage"
+  },
+  {
+    "word": "Target Word",
+    "meaning": "The actual, correct adult word that a child is trying to pronounce or learn.",
+    "example": "When the child said 'nana,' the target word she was trying to say was 'banana.'",
+    "category": "Early Word Stage"
+  },
+  {
+    "word": "Morpheme",
+    "meaning": "The smallest unit of meaning in a language, which can be a whole word (like 'cat') or a word part (like the plural 's').",
+    "example": "The word 'dogs' contains two morphemes: the noun 'dog' and the plural marker '-s'.",
+    "category": "Syntactic Milestones"
+  },
+  {
+    "word": "Nativism",
+    "meaning": "The belief that language ability is innate in humans, meaning we are biologically born with the capacity to acquire language.",
+    "example": "Chomsky's theory of nativism suggests that our brain is pre-wired to learn complex sentence structures.",
+    "category": "Linguistic Theories"
+  },
+  {
+    "word": "Phonological Awareness",
+    "meaning": "The ability to recognize and work with the sounds of spoken language, such as rhyming and counting syllables.",
+    "example": "Clapping along with the syllables of a word is a great way to build phonological awareness in preschoolers.",
+    "category": "Phonetic Milestones"
+  },
+  {
+    "word": "Narrative Development",
+    "meaning": "The growing ability of children to tell structured stories, describe past events, and link ideas together in a sequence.",
+    "example": "A child's narrative development can be observed when they tell you about their day at preschool using 'first', 'next', and 'then'.",
+    "category": "Advanced Milestones"
+  },
+  {
+    "word": "Decontextualized Language",
+    "meaning": "Language used to discuss things that are not present in the immediate surroundings, such as past events, future plans, or imaginary worlds.",
+    "example": "Talking about dinosaurs or what they want to do tomorrow helps children practice decontextualized language.",
+    "category": "Advanced Milestones"
+  },
+  {
+    "word": "Cognitive Schema",
+    "meaning": "A mental structure or framework that helps a child organize and interpret new information and experiences.",
+    "example": "Once the child created a cognitive schema for 'birds', she could easily understand that penguins and ducks belong to the same group.",
+    "category": "Cognitive Milestones"
+  },
+  {
+    "word": "Symbolic Play",
+    "meaning": "A type of play where children use objects to represent other things, such as using a banana as a telephone.",
+    "example": "Symbolic play shows that a child understands that one thing can stand for another, which is essential for learning words.",
+    "category": "Cognitive Milestones"
+  },
+  {
+    "word": "Theory of Mind",
+    "meaning": "The cognitive ability to understand that other people have beliefs, desires, and perspectives that are different from one's own.",
+    "example": "Developing theory of mind helps children understand why a character in a book might feel sad or surprised.",
+    "category": "Cognitive Milestones"
+  },
+  {
+    "word": "Speech Sounds",
+    "meaning": "The individual sounds made by the voice to produce speech, categorized into vowels and consonants.",
+    "example": "Young children spend their first years learning how to control their mouth and tongue to make correct speech sounds.",
+    "category": "Phonetic Milestones"
+  },
+  {
+    "word": "Articulation",
+    "meaning": "The physical process of producing clear and distinct speech sounds using the lips, teeth, tongue, and jaw.",
+    "example": "The boy's articulation improved, and his classmates could finally understand the words he was saying.",
+    "category": "Speech Variations"
+  },
+  {
+    "word": "Developmental Milestone",
+    "meaning": "An important skill or ability that a child is expected to achieve by a certain age during their growth.",
+    "example": "Saying a first word around twelve months of age is a major developmental milestone for a baby.",
+    "category": "Developmental Milestones"
+  },
+  {
+    "word": "Intentionality",
+    "meaning": "The conscious purpose or goal behind a child's actions or communication, showing they want to make something happen.",
+    "example": "When the baby looked at the toy, then at his mother, and pointed, he showed clear intentionality.",
+    "category": "Pragmatic Milestones"
+  },
+  {
+    "word": "Auditory Input",
+    "meaning": "Any sound or spoken language that a child hears through their ears, which is crucial for language development.",
+    "example": "Without enough auditory input, it is very difficult for a child to learn how to speak.",
+    "category": "Environmental Factors"
+  },
+  {
+    "word": "Phonological System",
+    "meaning": "The set of rules and patterns that govern how sounds are organized and used in a specific language.",
+    "example": "Every language has its own phonological system, which dictates which sounds can be grouped together.",
+    "category": "Phonetic Milestones"
+  },
+  {
+    "word": "Morphological Milestones",
+    "meaning": "The developmental steps a child takes in learning how to use word endings and parts, like plurals and past tense.",
+    "example": "Learning to add '-ed' to show past tense is one of the key morphological milestones for toddlers.",
+    "category": "Syntactic Milestones"
+  },
+  {
+    "word": "Syntax Acquisition",
+    "meaning": "The process by which children learn the rules for ordering words to build correct sentences.",
+    "example": "Syntax acquisition happens naturally as children notice that English sentences put the subject before the verb.",
+    "category": "Syntactic Milestones"
+  },
+  {
+    "word": "Vocabulary Development",
+    "meaning": "The continuous process of learning new words, understanding their meanings, and using them in conversation.",
+    "example": "Reading books together daily is one of the most effective ways to support a child's vocabulary development.",
+    "category": "Early Word Stage"
+  },
+  {
+    "word": "Expressive Language",
+    "meaning": "The ability to communicate thoughts, feelings, and ideas using spoken words, signs, or writing.",
+    "example": "Although he understood everything his mother said, his expressive language skills were still developing.",
+    "category": "Language Skills"
+  },
+  {
+    "word": "Receptive Language",
+    "meaning": "The ability to understand and comprehend spoken or written language that is received from others.",
+    "example": "Receptive language is always ahead of expressive language; children understand many words before they can say them.",
+    "category": "Language Skills"
+  },
+  {
+    "word": "Semantic Development",
+    "meaning": "The process of learning the meanings of words and how these meanings connect to each other.",
+    "example": "Semantic development is shown when a child realizes that 'large', 'huge', and 'big' mean similar things.",
+    "category": "Vocabulary Knowledge"
+  },
+  {
+    "word": "Phonetics",
+    "meaning": "The study of the physical sounds of human speech, focusing on how sounds are created, heard, and written.",
+    "example": "A speech therapist uses phonetics to understand exactly why a child is having trouble making certain sounds.",
+    "category": "Phonetic Milestones"
+  },
+  {
+    "word": "Phonology",
+    "meaning": "The study of how speech sounds are organized and used as patterns in a specific language.",
+    "example": "Phonology helps us understand why children make predictable errors like dropping the 's' in 'stop'.",
+    "category": "Phonetic Milestones"
+  },
+  {
+    "word": "Phonetic Inventory",
+    "meaning": "The complete collection of speech sounds that a child is able to produce, whether they use them correctly or not.",
+    "example": "The therapist noted that the child's phonetic inventory included most vowels but was missing several consonant sounds.",
+    "category": "Phonetic Milestones"
+  },
+  {
+    "word": "Sound Repertoire",
+    "meaning": "The total range of sounds a baby makes during babbling and early vocal play.",
+    "example": "As a baby gets older, their sound repertoire expands to include clicking noises, raspberries, and squeals.",
+    "category": "Pre-linguistic Stage"
+  },
+  {
+    "word": "Word Envelope",
+    "meaning": "The overall rhythmic shape and intonation contour of a word, which children often recognize before the individual consonant sounds.",
+    "example": "Even if they can't pronounce the consonants, toddlers often mimic the word envelope, getting the rhythm and vowels right.",
+    "category": "Phonetic Milestones"
+  },
+  {
+    "word": "Recast",
+    "meaning": "To repeat a child's incorrect statement with corrected grammar and vocabulary, showing them the right way without criticising.",
+    "example": "When the toddler said 'Daddy eat,' the father chose to recast it as 'Yes, Daddy is eating his lunch.'",
+    "category": "Environmental Factors"
+  },
+  {
+    "word": "Expand",
+    "meaning": "To respond to a child's short phrase by repeating it and adding missing grammatical parts to show a complete sentence.",
+    "example": "When a child says 'doggy run,' a parent can expand it by saying 'Yes, the doggy is running in the grass!'",
+    "category": "Environmental Factors"
+  },
+  {
+    "word": "Communicative Competence",
+    "meaning": "The overall ability to use language effectively and appropriately to communicate in various social situations.",
+    "example": "Developing communicative competence means knowing not only how to form sentences but also how to speak politely.",
+    "category": "Pragmatic Milestones"
+  },
+  {
+    "word": "Mother Tongue Acquisition",
+    "meaning": "The natural process of learning one's first language from birth through exposure and interaction at home.",
+    "example": "Mother tongue acquisition happens effortlessly and subconsciously for young children in their home environment.",
+    "category": "Developmental Milestones"
+  },
+  {
+    "word": "Language Environment",
+    "meaning": "The physical and social setting surrounding a child, including the amount and quality of spoken language they hear.",
+    "example": "A language environment filled with books, talking, and singing gives children a head start in school.",
+    "category": "Environmental Factors"
+  },
+  {
+    "word": "Social Referencing",
+    "meaning": "The process where an infant looks at a caregiver's facial expressions to figure out how to respond to an unfamiliar situation.",
+    "example": "Before touching the strange new toy, the baby used social referencing, looking at his mother to see if she was smiling.",
+    "category": "Cognitive Milestones"
+  },
+  {
+    "word": "Speech Discrimination",
+    "meaning": "The ability of a child's brain to distinguish between different speech sounds and sound patterns.",
+    "example": "Speech discrimination allows a four-month-old baby to tell their mother's voice apart from a stranger's voice.",
+    "category": "Phonetic Milestones"
+  },
+  {
+    "word": "Language Delay",
+    "meaning": "A temporary or persistent delay in a child's ability to understand or speak language compared to other children of their age.",
+    "example": "Early intervention and playing talking games can help a child catch up if they are experiencing a language delay.",
+    "category": "Speech Variations"
+  },
+  {
+    "word": "Phonological Delay",
+    "meaning": "A type of speech difficulty where a child continues to use simplified speech sound patterns (like saying 'tar' for 'car') long after the typical age.",
+    "example": "The speech pathologist diagnosed the child with a phonological delay because he was still dropping consonants at age five.",
+    "category": "Speech Variations"
+  },
+  {
+    "word": "Target Phoneme",
+    "meaning": "The specific speech sound that a child is aiming to produce in a word.",
+    "example": "In practicing the word 'sun', the target phoneme was the initial /s/ sound, which the child was pronouncing as /t/.",
+    "category": "Phonetic Milestones"
+  },
+  {
+    "word": "Symbolic Thought",
+    "meaning": "The cognitive ability to use mental representations, such as words, symbols, or images, to stand for objects or ideas.",
+    "example": "Symbolic thought is a massive milestone because it allows children to understand that words represent real things.",
+    "category": "Cognitive Milestones"
+  },
+  {
+    "word": "Intentional Vocalization",
+    "meaning": "Sounds that a baby makes deliberately to get attention, express a need, or interact with a caregiver.",
+    "example": "The baby's intentional vocalization became louder when she saw her bottle being prepared.",
+    "category": "Pre-linguistic Stage"
+  },
+  {
+    "word": "Critical Window",
+    "meaning": "A biologically determined period in early life when the brain is uniquely flexible and able to easily learn specific skills like language.",
+    "example": "The critical window for speech development begins in infancy and starts to close around puberty.",
+    "category": "Developmental Milestones"
+  },
+  {
+    "word": "Operant Behavior",
+    "meaning": "Actions that are controlled by their consequences, which behaviorists believe include a child's early attempts at speaking.",
+    "example": "If a child's word produces a positive result, like getting a hug, it becomes a stronger operant behavior.",
+    "category": "Linguistic Theories"
+  },
+  {
+    "word": "Dialect Acquisition",
+    "meaning": "The natural process of learning the regional accent, vocabulary, and grammar rules of the local community.",
+    "example": "Dialect acquisition occurs automatically as a child interacts with peers and teachers in their neighborhood school.",
+    "category": "Bilingual Acquisition"
+  },
+  {
+    "word": "Language Model",
+    "meaning": "A person (usually a parent, sibling, or teacher) whose speech serves as an example for a child to copy and learn from.",
+    "example": "A child's primary language model is usually their mother, which is why children often mimic their parents' accents.",
+    "category": "Environmental Factors"
+  },
+  {
+    "word": "Auditory Perception",
+    "meaning": "How the brain processes, interprets, and makes sense of the sounds that are heard by the ears.",
+    "example": "Healthy auditory perception is essential for babies to identify phonemes and match them to meanings.",
+    "category": "Cognitive Milestones"
+  },
+  {
+    "word": "Word Comprehension",
+    "meaning": "The cognitive process of understanding the meaning of a spoken or written word.",
+    "example": "Word comprehension begins around nine months of age, when babies start looking at the door when they hear the word 'bye-bye'.",
+    "category": "Vocabulary Knowledge"
+  },
+  {
+    "word": "One-Word Utterance",
+    "meaning": "A single word spoken by a child to convey meaning, often functioning as a full sentence.",
+    "example": "The toddler's one-word utterance 'cookie' was accompanied by pointing, making it clear she wanted a snack.",
+    "category": "Early Word Stage"
+  },
+  {
+    "word": "Pre-Linguistic Vocalization",
+    "meaning": "The sounds babies make before they start speaking real words, including crying, cooing, and babbling.",
+    "example": "Pre-linguistic vocalization is crucial for exercising the muscles used for speech later on.",
+    "category": "Pre-linguistic Stage"
+  },
+  {
+    "word": "Language Exposure",
+    "meaning": "The opportunity for a child to hear and interact with language in their environment, which is necessary for learning.",
+    "example": "Early language exposure through reading books has a huge impact on a child's vocabulary at school entry.",
+    "category": "Environmental Factors"
+  },
+  {
+    "word": "Overgeneralization",
+    "meaning": "Applying a grammatical rule too broadly, such as adding regular plural or past tense endings to irregular words.",
+    "example": "When a toddler says 'two mouses' or 'he runned', they are demonstrating overgeneralization.",
+    "category": "Speech Variations"
+  },
+  {
+    "word": "Infant Speech Perception",
+    "meaning": "The ability of young infants to hear and distinguish differences between speech sounds, even before they can talk.",
+    "example": "Infant speech perception studies show that newborns can distinguish their mother's native language from other tongues.",
+    "category": "Phonetic Milestones"
+  },
+  {
+    "word": "Lexical Milestones",
+    "meaning": "Key developmental stages in a child's vocabulary growth, such as speaking a first word or experiencing a naming explosion.",
+    "example": "Parents often celebrate lexical milestones, like when their baby says their first clear word.",
+    "category": "Developmental Milestones"
+  },
+  {
+    "word": "Mother Tongue",
+    "meaning": "The first language a person learns at home in childhood, also called a native language.",
+    "example": "Her mother tongue is Spanish, but she learned English fluently when she started school.",
+    "category": "Developmental Milestones"
+  },
+  {
+    "word": "First Language",
+    "meaning": "The language that a child acquires naturally from birth, which forms the foundation of their communication.",
+    "example": "Acquiring a first language occurs without formal classes, simply by interacting with family members.",
+    "category": "Developmental Milestones"
+  },
+  {
+    "word": "Speech Production",
+    "meaning": "The physical and cognitive process of speaking, which involves planning thoughts and using vocal organs to make sounds.",
+    "example": "Speech production requires complex coordination between a child's brain, lungs, vocal cords, and lips.",
+    "category": "Language Skills"
+  }
+]

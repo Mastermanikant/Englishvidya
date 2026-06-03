@@ -1,0 +1,85 @@
+{
+    "topic": "Smart Dictionary & Spoken Vocabulary",
+    "topic_hi": "स्मार्ट डिक्शनरी और स्पोकन शब्दावली",
+    "introduction": {
+        "text": "Vocabulary is the building block of fluency. Instead of memorizing words, understand their context, feeling, and native usage.",
+        "text_hi": "शब्दावली (Vocabulary) अंग्रेजी बोलने की नींव है। शब्दों को रटने के बजाय उनके संदर्भ, भावना और उपयोग को समझें।"
+    },
+    "dictionary": [
+        {
+            "word": "Absolutely",
+            "type": "Adverb",
+            "hindi_meaning": "बिल्कुल / पूरी तरह से",
+            "pronunciation": "ऐब्सलूटली (Ab-so-loot-lee)",
+            "simple_explanation": "When you 100% agree with something or someone.",
+            "real_life_use": "जब कोई आपसे पूछे कि क्या आप पक्का आ रहे हैं, तो 'Yes' के बजाय 'Absolutely' बोलें।",
+            "native_usage": "Used to express strong agreement in conversations.",
+            "collocations": ["absolutely right", "absolutely free", "absolutely necessary"],
+            "examples": [
+                { "english": "Are you sure? - Absolutely!", "hindi": "क्या आपको यकीन है? - बिल्कुल!" },
+                { "english": "You are absolutely right.", "hindi": "तुम बिल्कुल सही हो।" }
+            ],
+            "common_mistakes": "Don't say 'very absolutely'. 'Absolutely' itself means 100%."
+        },
+        {
+            "word": "Actually",
+            "type": "Adverb",
+            "hindi_meaning": "दरअसल / वास्तव में",
+            "pronunciation": "ऐक्चुअली (Ak-chu-a-lee)",
+            "simple_explanation": "Used to tell the truth about a situation, often when correcting someone.",
+            "real_life_use": "जब आपको किसी की बात सुधारनी हो या असली कारण बताना हो।",
+            "native_usage": "Often used at the beginning of a sentence to gently correct a misunderstanding.",
+            "collocations": ["actually happened", "well, actually"],
+            "examples": [
+                { "english": "Actually, I am busy today.", "hindi": "दरअसल, मैं आज व्यस्त हूँ।" },
+                { "english": "What actually happened there?", "hindi": "वहाँ असल में क्या हुआ?" }
+            ],
+            "common_mistakes": "Overusing 'actually' in every sentence makes you sound unsure."
+        },
+        {
+            "word": "Literally",
+            "type": "Adverb",
+            "hindi_meaning": "सचमुच / अक्षरशः",
+            "pronunciation": "लिटरली (Lit-er-a-lee)",
+            "simple_explanation": "Used to emphasize that something is exactly true, without exaggeration.",
+            "real_life_use": "जब आपको कहना हो कि जो मैं बोल रहा हूँ वह 'सच में' हुआ है, कोई मुहावरा नहीं है।",
+            "native_usage": "Natives often use it for strong emphasis, even if not literally true (e.g., 'I am literally starving').",
+            "collocations": ["literally dying", "literally nothing", "literally just"],
+            "examples": [
+                { "english": "I literally have no money.", "hindi": "मेरे पास सचमुच बिल्कुल पैसे नहीं हैं।" },
+                { "english": "He literally ran away.", "hindi": "वह सचमुच भाग गया।" }
+            ],
+            "common_mistakes": "Don't use it for things that didn't happen (e.g., 'I literally died laughing' is technically incorrect, but native slang)."
+        },
+        {
+            "word": "Figure out",
+            "type": "Phrasal Verb",
+            "hindi_meaning": "पता लगाना / हल निकालना",
+            "pronunciation": "फिगर आउट (Fig-er out)",
+            "simple_explanation": "To understand or solve a problem.",
+            "real_life_use": "जब आप किसी समस्या का समाधान ढूँढ रहे हों।",
+            "native_usage": "Replaces 'understand' or 'solve' in everyday spoken English.",
+            "collocations": ["figure out a way", "try to figure out", "can't figure out"],
+            "examples": [
+                { "english": "I will figure it out.", "hindi": "मैं इसका हल निकाल लूंगा।" },
+                { "english": "Can you figure out what happened?", "hindi": "क्या तुम पता लगा सकते हो कि क्या हुआ?" }
+            ],
+            "common_mistakes": "Using 'find out' instead of 'figure out'. 'Find out' is for getting information; 'figure out' is for solving a problem."
+        },
+        {
+            "word": "Overwhelmed",
+            "type": "Adjective",
+            "hindi_meaning": "अभिभूत / भावनाओं या काम से दबा हुआ",
+            "pronunciation": "ओवर-व्हेल्म्ड (O-ver-whelmd)",
+            "simple_explanation": "Having too much to deal with, either emotionally or with work.",
+            "real_life_use": "जब आपके पास इतना काम हो कि समझ न आए कहाँ से शुरू करें, या आप बहुत भावुक हो जाएं।",
+            "native_usage": "Used constantly in professional and personal life to describe stress or extreme gratitude.",
+            "collocations": ["feeling overwhelmed", "completely overwhelmed", "overwhelmed with joy"],
+            "examples": [
+                { "english": "I am feeling overwhelmed with work.", "hindi": "मैं काम के बोझ से दबा हुआ महसूस कर रहा हूँ।" },
+                { "english": "She was overwhelmed by the surprise.", "hindi": "वह सरप्राइज से अभिभूत हो गई थी।" }
+            ],
+            "common_mistakes": "Don't say 'I am overwhelming'. That means YOU are causing stress to others."
+        }
+    ]
+}

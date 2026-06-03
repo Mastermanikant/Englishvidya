@@ -1,0 +1,770 @@
+[
+  {
+    "word": "comprehend",
+    "meaning": "To understand something fully and clearly",
+    "example": "Students must comprehend the core concepts before attempting advanced problems.",
+    "category": "metacognitive"
+  },
+  {
+    "word": "analyze",
+    "meaning": "To examine something in detail in order to understand or explain it",
+    "example": "The scientist analyzed the data to find patterns in the results.",
+    "category": "metacognitive"
+  },
+  {
+    "word": "synthesize",
+    "meaning": "To combine different ideas or information to form a new whole",
+    "example": "She synthesized research from multiple sources to write her thesis.",
+    "category": "metacognitive"
+  },
+  {
+    "word": "evaluate",
+    "meaning": "To assess the quality, importance, or value of something",
+    "example": "The teacher asked students to evaluate the strengths and weaknesses of the argument.",
+    "category": "metacognitive"
+  },
+  {
+    "word": "interpret",
+    "meaning": "To explain the meaning of something",
+    "example": "He could not interpret the author's underlying message at first reading.",
+    "category": "metacognitive"
+  },
+  {
+    "word": "reflect",
+    "meaning": "To think deeply and carefully about something",
+    "example": "Students should reflect on what they have learned at the end of each lesson.",
+    "category": "metacognitive"
+  },
+  {
+    "word": "deduce",
+    "meaning": "To reach a conclusion by reasoning from known facts",
+    "example": "From the clues given, she was able to deduce the correct answer.",
+    "category": "metacognitive"
+  },
+  {
+    "word": "infer",
+    "meaning": "To reach an opinion based on evidence and reasoning",
+    "example": "Readers must infer the character's emotions from the text.",
+    "category": "metacognitive"
+  },
+  {
+    "word": "recollect",
+    "meaning": "To remember or bring back to mind",
+    "example": "He tried to recollect the formula he had studied the night before.",
+    "category": "metacognitive"
+  },
+  {
+    "word": "apply",
+    "meaning": "To put knowledge or a rule into practice",
+    "example": "She applied the grammar rule correctly in her essay.",
+    "category": "metacognitive"
+  },
+  {
+    "word": "concept",
+    "meaning": "An abstract idea or general notion",
+    "example": "The concept of gravity is central to understanding physics.",
+    "category": "academic"
+  },
+  {
+    "word": "principle",
+    "meaning": "A fundamental rule or belief guiding behavior or reasoning",
+    "example": "The principle of fairness guides the school's discipline policy.",
+    "category": "academic"
+  },
+  {
+    "word": "theory",
+    "meaning": "A system of ideas intended to explain something",
+    "example": "Darwin's theory of evolution changed scientific thinking permanently.",
+    "category": "academic"
+  },
+  {
+    "word": "hypothesis",
+    "meaning": "A proposed explanation made as a starting point for investigation",
+    "example": "The researcher formed a hypothesis before conducting the experiment.",
+    "category": "academic"
+  },
+  {
+    "word": "argument",
+    "meaning": "A set of reasons given to support an idea or viewpoint",
+    "example": "Her argument for the new policy was well-structured and convincing.",
+    "category": "academic"
+  },
+  {
+    "word": "evidence",
+    "meaning": "Facts or information indicating whether something is true",
+    "example": "The student provided strong evidence to support her claim.",
+    "category": "academic"
+  },
+  {
+    "word": "context",
+    "meaning": "The circumstances or background that help explain something",
+    "example": "Understanding the historical context is key to analyzing literature.",
+    "category": "academic"
+  },
+  {
+    "word": "perspective",
+    "meaning": "A particular way of thinking about or viewing something",
+    "example": "The book presents history from the perspective of ordinary people.",
+    "category": "academic"
+  },
+  {
+    "word": "framework",
+    "meaning": "A basic structure or system of ideas used to solve a problem",
+    "example": "The teacher introduced a framework for critical thinking.",
+    "category": "academic"
+  },
+  {
+    "word": "discipline",
+    "meaning": "A branch of knowledge studied in an academic setting",
+    "example": "Mathematics is a discipline that develops logical reasoning.",
+    "category": "academic"
+  },
+  {
+    "word": "curriculum",
+    "meaning": "The subjects comprising a course of study",
+    "example": "The new curriculum includes topics on digital literacy.",
+    "category": "academic"
+  },
+  {
+    "word": "objective",
+    "meaning": "The specific goal or aim of a lesson or task",
+    "example": "The learning objective was to understand photosynthesis.",
+    "category": "academic"
+  },
+  {
+    "word": "methodology",
+    "meaning": "A system of methods used in a particular field",
+    "example": "The research methodology included surveys and interviews.",
+    "category": "academic"
+  },
+  {
+    "word": "abstract",
+    "meaning": "Relating to general ideas rather than specific things",
+    "example": "Freedom is an abstract concept that means different things to different people.",
+    "category": "academic"
+  },
+  {
+    "word": "terminology",
+    "meaning": "The specialized words and phrases used in a particular subject",
+    "example": "Students must learn the scientific terminology before starting the course.",
+    "category": "academic"
+  },
+  {
+    "word": "classify",
+    "meaning": "To arrange or organize things into groups based on shared qualities",
+    "example": "Biologists classify living organisms into kingdoms.",
+    "category": "analytical"
+  },
+  {
+    "word": "compare",
+    "meaning": "To examine two or more things to find similarities and differences",
+    "example": "The essay asked students to compare two different political systems.",
+    "category": "analytical"
+  },
+  {
+    "word": "contrast",
+    "meaning": "To show the differences between two or more things",
+    "example": "The teacher asked students to contrast democracy and dictatorship.",
+    "category": "analytical"
+  },
+  {
+    "word": "categorize",
+    "meaning": "To place people or things in particular groups or classes",
+    "example": "You can categorize vocabulary words by their parts of speech.",
+    "category": "analytical"
+  },
+  {
+    "word": "differentiate",
+    "meaning": "To recognize or describe the differences between things",
+    "example": "Students must differentiate between facts and opinions in the article.",
+    "category": "analytical"
+  },
+  {
+    "word": "identify",
+    "meaning": "To recognize and name something correctly",
+    "example": "Can you identify the main theme of the poem?",
+    "category": "analytical"
+  },
+  {
+    "word": "examine",
+    "meaning": "To look at something carefully and in detail",
+    "example": "The students examined the specimen under the microscope.",
+    "category": "analytical"
+  },
+  {
+    "word": "investigate",
+    "meaning": "To carry out a systematic inquiry to discover facts",
+    "example": "They investigated the cause of the chemical reaction.",
+    "category": "analytical"
+  },
+  {
+    "word": "determine",
+    "meaning": "To find out or establish something with certainty",
+    "example": "The scientist determined the exact temperature at which the liquid boiled.",
+    "category": "analytical"
+  },
+  {
+    "word": "distinguish",
+    "meaning": "To recognize or point out a difference",
+    "example": "A good reader can distinguish between literal and figurative language.",
+    "category": "analytical"
+  },
+  {
+    "word": "correlate",
+    "meaning": "To show a mutual relationship or connection between two things",
+    "example": "Researchers correlate regular exercise with improved mental health.",
+    "category": "analytical"
+  },
+  {
+    "word": "deconstruct",
+    "meaning": "To break something down into its component parts for analysis",
+    "example": "The professor asked students to deconstruct the author's argument.",
+    "category": "analytical"
+  },
+  {
+    "word": "outline",
+    "meaning": "To give the main facts or ideas about something",
+    "example": "He outlined the key points of his presentation before speaking.",
+    "category": "analytical"
+  },
+  {
+    "word": "paraphrase",
+    "meaning": "To restate something in different words while keeping the same meaning",
+    "example": "She paraphrased the difficult paragraph to make it easier to understand.",
+    "category": "comprehension"
+  },
+  {
+    "word": "summarize",
+    "meaning": "To give a brief statement of the main points",
+    "example": "Please summarize the chapter in no more than five sentences.",
+    "category": "comprehension"
+  },
+  {
+    "word": "clarify",
+    "meaning": "To make something easier to understand by explaining it further",
+    "example": "The teacher clarified the instructions after students looked confused.",
+    "category": "comprehension"
+  },
+  {
+    "word": "define",
+    "meaning": "To state or describe the exact meaning of a word or concept",
+    "example": "The textbook defines osmosis as the movement of water through a membrane.",
+    "category": "comprehension"
+  },
+  {
+    "word": "explain",
+    "meaning": "To make an idea clear by describing it in detail",
+    "example": "The student explained how the water cycle works.",
+    "category": "comprehension"
+  },
+  {
+    "word": "describe",
+    "meaning": "To give a detailed account of the qualities of something",
+    "example": "Describe the setting of the novel in your own words.",
+    "category": "comprehension"
+  },
+  {
+    "word": "restate",
+    "meaning": "To say or write something again or differently",
+    "example": "She restated the main point to ensure everyone understood.",
+    "category": "comprehension"
+  },
+  {
+    "word": "elaborate",
+    "meaning": "To add more detail or information to something",
+    "example": "The student was asked to elaborate on her answer to the exam question.",
+    "category": "comprehension"
+  },
+  {
+    "word": "illustrate",
+    "meaning": "To make something clear by using examples, diagrams, or stories",
+    "example": "He illustrated his point with a real-life example.",
+    "category": "comprehension"
+  },
+  {
+    "word": "demonstrate",
+    "meaning": "To show how something works or is done",
+    "example": "The teacher demonstrated the experiment before asking students to try.",
+    "category": "comprehension"
+  },
+  {
+    "word": "translate",
+    "meaning": "To convert information from one form or language to another",
+    "example": "Can you translate this scientific diagram into plain language?",
+    "category": "comprehension"
+  },
+  {
+    "word": "review",
+    "meaning": "To look at something again in order to assess or understand it better",
+    "example": "Students should review their notes before the test.",
+    "category": "comprehension"
+  },
+  {
+    "word": "absorb",
+    "meaning": "To take in and understand information fully",
+    "example": "It takes time to absorb all the ideas presented in a complex text.",
+    "category": "comprehension"
+  },
+  {
+    "word": "retain",
+    "meaning": "To keep or hold information in one's memory",
+    "example": "Regular revision helps students retain what they have learned.",
+    "category": "comprehension"
+  },
+  {
+    "word": "grasp",
+    "meaning": "To understand something, especially something complex",
+    "example": "It took him a while to grasp the concept of negative numbers.",
+    "category": "comprehension"
+  },
+  {
+    "word": "assess",
+    "meaning": "To judge the quality, importance, or value of something",
+    "example": "The examiner assessed each student's written work carefully.",
+    "category": "evaluative"
+  },
+  {
+    "word": "critique",
+    "meaning": "To give a detailed analysis and judgment of something",
+    "example": "Students were asked to critique the author's argument for bias.",
+    "category": "evaluative"
+  },
+  {
+    "word": "judge",
+    "meaning": "To form an opinion or conclusion about something",
+    "example": "Do not judge the effectiveness of a solution before testing it.",
+    "category": "evaluative"
+  },
+  {
+    "word": "justify",
+    "meaning": "To give reasons or evidence for a decision or action",
+    "example": "You must justify your answer with relevant facts.",
+    "category": "evaluative"
+  },
+  {
+    "word": "validate",
+    "meaning": "To confirm that something is correct, accurate, or acceptable",
+    "example": "The experiment was repeated to validate the original findings.",
+    "category": "evaluative"
+  },
+  {
+    "word": "refute",
+    "meaning": "To prove that something is wrong or false",
+    "example": "The student refuted the argument by presenting counter-evidence.",
+    "category": "evaluative"
+  },
+  {
+    "word": "challenge",
+    "meaning": "To question or dispute the truth of something",
+    "example": "She challenged the author's assumption about human nature.",
+    "category": "evaluative"
+  },
+  {
+    "word": "measure",
+    "meaning": "To determine the extent or degree of something",
+    "example": "Tests are used to measure a student's understanding of the topic.",
+    "category": "evaluative"
+  },
+  {
+    "word": "prioritize",
+    "meaning": "To decide the order of importance of things",
+    "example": "Good learners prioritize understanding over memorization.",
+    "category": "evaluative"
+  },
+  {
+    "word": "weigh",
+    "meaning": "To consider the relative importance or value of different factors",
+    "example": "She carefully weighed the pros and cons before forming her opinion.",
+    "category": "evaluative"
+  },
+  {
+    "word": "scrutinize",
+    "meaning": "To examine or inspect something very carefully",
+    "example": "The editor scrutinized every sentence of the research paper.",
+    "category": "evaluative"
+  },
+  {
+    "word": "integrate",
+    "meaning": "To combine two or more things to create a unified whole",
+    "example": "Good writers integrate ideas from multiple sources seamlessly.",
+    "category": "synthesis"
+  },
+  {
+    "word": "combine",
+    "meaning": "To join or merge two or more things together",
+    "example": "The student combined information from three chapters to answer the question.",
+    "category": "synthesis"
+  },
+  {
+    "word": "construct",
+    "meaning": "To build or create something systematically",
+    "example": "Students were asked to construct a coherent argument from the given data.",
+    "category": "synthesis"
+  },
+  {
+    "word": "formulate",
+    "meaning": "To create or devise something in a precise way",
+    "example": "The researcher formulated a new approach based on existing theories.",
+    "category": "synthesis"
+  },
+  {
+    "word": "develop",
+    "meaning": "To grow or cause to grow and become more advanced",
+    "example": "Reading widely helps students develop a broader vocabulary.",
+    "category": "synthesis"
+  },
+  {
+    "word": "compose",
+    "meaning": "To create something by putting parts or elements together",
+    "example": "Students composed their own essays using newly learned vocabulary.",
+    "category": "synthesis"
+  },
+  {
+    "word": "design",
+    "meaning": "To plan and make something for a specific purpose",
+    "example": "She designed a study plan that covered all the topics.",
+    "category": "synthesis"
+  },
+  {
+    "word": "generate",
+    "meaning": "To produce or create something",
+    "example": "Brainstorming helps generate new ideas for an essay.",
+    "category": "synthesis"
+  },
+  {
+    "word": "produce",
+    "meaning": "To make or create something as a result of effort",
+    "example": "Students produced a detailed report after the field trip.",
+    "category": "synthesis"
+  },
+  {
+    "word": "revise",
+    "meaning": "To reconsider and change or improve something",
+    "example": "She revised her essay after receiving feedback from the teacher.",
+    "category": "synthesis"
+  },
+  {
+    "word": "adapt",
+    "meaning": "To change or adjust something to suit a new purpose",
+    "example": "Good teachers adapt their lessons to suit different learning styles.",
+    "category": "synthesis"
+  },
+  {
+    "word": "knowledge",
+    "meaning": "Facts, information, or skills acquired through experience or study",
+    "example": "A wide vocabulary is a sign of broad knowledge.",
+    "category": "learning"
+  },
+  {
+    "word": "understanding",
+    "meaning": "The ability to perceive the significance or explanation of something",
+    "example": "Deep understanding comes from practice, not just reading.",
+    "category": "learning"
+  },
+  {
+    "word": "awareness",
+    "meaning": "Knowledge or perception of a situation or fact",
+    "example": "Cultural awareness improves communication skills.",
+    "category": "learning"
+  },
+  {
+    "word": "insight",
+    "meaning": "A deep and accurate understanding of something",
+    "example": "The discussion gave students new insight into the poem's meaning.",
+    "category": "learning"
+  },
+  {
+    "word": "mastery",
+    "meaning": "Comprehensive knowledge or great skill in a subject",
+    "example": "Mastery of grammar rules takes consistent practice.",
+    "category": "learning"
+  },
+  {
+    "word": "proficiency",
+    "meaning": "A high degree of skill or competence in something",
+    "example": "Proficiency in English opens many academic opportunities.",
+    "category": "learning"
+  },
+  {
+    "word": "fluency",
+    "meaning": "The ability to express oneself easily and accurately",
+    "example": "Daily conversation practice builds fluency in spoken English.",
+    "category": "learning"
+  },
+  {
+    "word": "competence",
+    "meaning": "The ability to do something successfully and efficiently",
+    "example": "Reading widely builds competence in language use.",
+    "category": "learning"
+  },
+  {
+    "word": "aptitude",
+    "meaning": "A natural ability or tendency to do something",
+    "example": "He showed great aptitude for understanding complex ideas quickly.",
+    "category": "learning"
+  },
+  {
+    "word": "curiosity",
+    "meaning": "A strong desire to know or learn something",
+    "example": "Curiosity drives a learner to ask better questions.",
+    "category": "learning"
+  },
+  {
+    "word": "inquiry",
+    "meaning": "An act of asking for information or investigating a topic",
+    "example": "Scientific inquiry begins with a well-formed question.",
+    "category": "learning"
+  },
+  {
+    "word": "exploration",
+    "meaning": "The process of investigating something unknown",
+    "example": "Learning a new subject requires exploration and an open mind.",
+    "category": "learning"
+  },
+  {
+    "word": "discovery",
+    "meaning": "The act of finding out something not previously known",
+    "example": "Every lesson should lead to a moment of discovery for the student.",
+    "category": "learning"
+  },
+  {
+    "word": "recognition",
+    "meaning": "The identification of something or someone from previous experience",
+    "example": "Word recognition is a key skill in reading comprehension.",
+    "category": "learning"
+  },
+  {
+    "word": "recall",
+    "meaning": "The ability to remember information that was previously learned",
+    "example": "Testing yourself improves the recall of learned vocabulary.",
+    "category": "learning"
+  },
+  {
+    "word": "annotate",
+    "meaning": "To add notes or comments to a text to aid understanding",
+    "example": "Students were asked to annotate the passage as they read.",
+    "category": "study-skills"
+  },
+  {
+    "word": "highlight",
+    "meaning": "To mark important information to draw attention to it",
+    "example": "She highlighted the key definitions in her textbook.",
+    "category": "study-skills"
+  },
+  {
+    "word": "organize",
+    "meaning": "To arrange things in a structured and systematic way",
+    "example": "Organizing notes into categories makes revision easier.",
+    "category": "study-skills"
+  },
+  {
+    "word": "memorize",
+    "meaning": "To commit something to memory by learning it thoroughly",
+    "example": "Students memorized the vocabulary list for the test.",
+    "category": "study-skills"
+  },
+  {
+    "word": "consolidate",
+    "meaning": "To strengthen or reinforce knowledge by reviewing it",
+    "example": "Regular practice helps consolidate grammar rules.",
+    "category": "study-skills"
+  },
+  {
+    "word": "question",
+    "meaning": "To ask something in order to gain information or understanding",
+    "example": "Students who question what they read learn more deeply.",
+    "category": "study-skills"
+  },
+  {
+    "word": "predict",
+    "meaning": "To say what will happen in the future based on available information",
+    "example": "Skilled readers predict the outcome before finishing the text.",
+    "category": "study-skills"
+  },
+  {
+    "word": "visualize",
+    "meaning": "To form a mental image or picture of something",
+    "example": "Visualizing a concept can help you understand and remember it better.",
+    "category": "study-skills"
+  },
+  {
+    "word": "connect",
+    "meaning": "To link new information with things already known",
+    "example": "Good learners connect new vocabulary with words they already know.",
+    "category": "study-skills"
+  },
+  {
+    "word": "simplify",
+    "meaning": "To make something easier to understand or do",
+    "example": "Breaking a complex topic into steps helps simplify learning.",
+    "category": "study-skills"
+  },
+  {
+    "word": "focus",
+    "meaning": "To concentrate attention or effort on something",
+    "example": "You need to focus on the main idea, not just the details.",
+    "category": "study-skills"
+  },
+  {
+    "word": "literal",
+    "meaning": "Taking words in their basic or exact meaning",
+    "example": "A literal reading of the sentence misses its deeper meaning.",
+    "category": "language-skills"
+  },
+  {
+    "word": "figurative",
+    "meaning": "Using words in a non-literal sense to add meaning or effect",
+    "example": "Figurative language like metaphors makes writing more vivid.",
+    "category": "language-skills"
+  },
+  {
+    "word": "connotation",
+    "meaning": "An idea or feeling that a word suggests beyond its literal meaning",
+    "example": "The word 'home' has warm connotations of safety and family.",
+    "category": "language-skills"
+  },
+  {
+    "word": "denotation",
+    "meaning": "The literal or primary meaning of a word",
+    "example": "The denotation of 'serpent' is simply a snake.",
+    "category": "language-skills"
+  },
+  {
+    "word": "synonym",
+    "meaning": "A word that means the same or nearly the same as another word",
+    "example": "Happy is a synonym for joyful.",
+    "category": "language-skills"
+  },
+  {
+    "word": "antonym",
+    "meaning": "A word that means the opposite of another word",
+    "example": "Cold is the antonym of hot.",
+    "category": "language-skills"
+  },
+  {
+    "word": "prefix",
+    "meaning": "A word part added before a root word to change its meaning",
+    "example": "The prefix 'un-' in 'unclear' means not clear.",
+    "category": "language-skills"
+  },
+  {
+    "word": "suffix",
+    "meaning": "A word part added at the end of a root word to change its meaning or function",
+    "example": "The suffix '-tion' in 'understanding' turns a verb into a noun.",
+    "category": "language-skills"
+  },
+  {
+    "word": "root",
+    "meaning": "The base form of a word from which other words are made",
+    "example": "The root word 'dict' means to say or speak.",
+    "category": "language-skills"
+  },
+  {
+    "word": "inference",
+    "meaning": "A conclusion reached by reasoning from evidence and not stated directly",
+    "example": "The reader made an inference about the character's feelings.",
+    "category": "language-skills"
+  },
+  {
+    "word": "implication",
+    "meaning": "Something suggested or indicated without being directly stated",
+    "example": "The implication of the headline was that the crisis was worsening.",
+    "category": "language-skills"
+  },
+  {
+    "word": "nuance",
+    "meaning": "A subtle difference in meaning, expression, or shade of meaning",
+    "example": "Good vocabulary helps writers capture the nuance of their ideas.",
+    "category": "language-skills"
+  },
+  {
+    "word": "coherent",
+    "meaning": "Logical and well-organized; easy to understand",
+    "example": "A coherent essay connects all its ideas clearly.",
+    "category": "language-skills"
+  },
+  {
+    "word": "precise",
+    "meaning": "Marked by exact, accurate expression or detail",
+    "example": "Precise language avoids confusion in scientific writing.",
+    "category": "language-skills"
+  },
+  {
+    "word": "relevant",
+    "meaning": "Closely connected or appropriate to the matter at hand",
+    "example": "Only include relevant evidence in your argument.",
+    "category": "language-skills"
+  },
+  {
+    "word": "critical",
+    "meaning": "Involving careful judgment or evaluation",
+    "example": "Critical reading means questioning the author's assumptions.",
+    "category": "thinking-skills"
+  },
+  {
+    "word": "logical",
+    "meaning": "Reasonable and based on sound reasoning",
+    "example": "Her argument was logical and easy to follow.",
+    "category": "thinking-skills"
+  },
+  {
+    "word": "systematic",
+    "meaning": "Done according to a fixed plan or order",
+    "example": "A systematic approach to learning vocabulary produces better results.",
+    "category": "thinking-skills"
+  },
+  {
+    "word": "objective",
+    "meaning": "Not influenced by personal feelings; based on facts",
+    "example": "An objective analysis does not let personal bias affect the conclusion.",
+    "category": "thinking-skills"
+  },
+  {
+    "word": "subjective",
+    "meaning": "Based on personal feelings, tastes, or opinions",
+    "example": "Whether a poem is beautiful is a subjective judgment.",
+    "category": "thinking-skills"
+  },
+  {
+    "word": "abstract thinking",
+    "meaning": "The ability to think about ideas that do not have physical form",
+    "example": "Abstract thinking is required to understand philosophical concepts.",
+    "category": "thinking-skills"
+  },
+  {
+    "word": "generalize",
+    "meaning": "To make a broad statement based on specific examples",
+    "example": "It is dangerous to generalize from only one or two cases.",
+    "category": "thinking-skills"
+  },
+  {
+    "word": "speculate",
+    "meaning": "To form an opinion without certain knowledge",
+    "example": "Scientists sometimes speculate about possible causes before testing.",
+    "category": "thinking-skills"
+  },
+  {
+    "word": "conclude",
+    "meaning": "To reach a decision or judgment after considering evidence",
+    "example": "From the data, we can conclude that the method was effective.",
+    "category": "thinking-skills"
+  },
+  {
+    "word": "reason",
+    "meaning": "To think logically about a problem in order to form a conclusion",
+    "example": "Students learn to reason clearly through debate and discussion.",
+    "category": "thinking-skills"
+  },
+  {
+    "word": "perceive",
+    "meaning": "To become aware of something through the senses or the mind",
+    "example": "She perceived the hidden irony in the speaker's words.",
+    "category": "thinking-skills"
+  },
+  {
+    "word": "interpret",
+    "meaning": "To explain or understand something in a particular way",
+    "example": "Different readers may interpret the same poem differently.",
+    "category": "thinking-skills"
+  }
+]

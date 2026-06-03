@@ -1,0 +1,46 @@
+﻿[
+    {
+        "word":  "Happy",
+        "hindi_meaning":  "खुश",
+        "pronunciation_help":  "hap-ee",
+        "word_type":  "Adjective",
+        "simple_explanation":  "Feeling pleasure or contentment.",
+        "daily_life_use":  "Used when something good happens.",
+        "spoken_use":  "I feel so happy today!",
+        "natural_native_use":  "I\u0027m in a really good mood.",
+        "emotional_tone":  "Positive",
+        "common_collocations":  [
+                                    "happy face",
+                                    "happy ending"
+                                ],
+        "examples":  [
+                         "He is very happy with his new car."
+                     ],
+        "common_mistakes":  "Saying \u0027I am happiness\u0027 instead of \u0027I am happy\u0027.",
+        "hindi_confusion_correction":  "Happy is the feeling (खुश), happiness is the noun (खुशी).",
+        "formal_informal_note":  "Used in both formal and informal settings.",
+        "image_url":  "https://upload.wikimedia.org/wikipedia/commons/7/79/Face-smile.svg"
+    },
+    {
+        "word":  "Sad",
+        "hindi_meaning":  "उदास",
+        "pronunciation_help":  "sad",
+        "word_type":  "Adjective",
+        "simple_explanation":  "Feeling sorrow or unhappiness.",
+        "daily_life_use":  "Used when dealing with a loss or disappointment.",
+        "spoken_use":  "I am feeling a bit sad.",
+        "natural_native_use":  "I\u0027m feeling a bit down.",
+        "emotional_tone":  "Negative",
+        "common_collocations":  [
+                                    "sad news",
+                                    "sad story"
+                                ],
+        "examples":  [
+                         "She was sad to leave her friends."
+                     ],
+        "common_mistakes":  "Saying \u0027I am sadness\u0027.",
+        "hindi_confusion_correction":  "उदास (sad) vs दुख (sadness).",
+        "formal_informal_note":  "Universal usage.",
+        "image_url":  "https://upload.wikimedia.org/wikipedia/commons/0/06/Face-sad.svg"
+    }
+]

@@ -1,0 +1,465 @@
+﻿{
+    "topic":  "Pronoun System",
+    "topic_hi":  "à¤¸à¤°à¥à¤µà¤¨à¤¾à¤® à¤ªà¥à¤°à¤£à¤¾à¤²à¥€",
+    "introduction":  {
+                         "text":  "The word that is used instead of a noun or noun phrase to avoid its repetition is called a pronoun. ",
+                         "text_hi":  "वह शब्द जो संज्ञा या संज्ञा वाक्यांश की जगह उसकी पुनरावृत्ति को रोकने के लिए उपयोग किया जाता है, pronoun कहलाता है। ",
+                         "important":  "Pronoun का मुख्य कार्य: repetition रोकना sentence को छोटा बनाना communication को smooth बनाना है। Types of Pronoun अब हम pronoun के मुख्य प्रकार समझेंगे। "
+                     },
+    "teacher_note":  "बच्चों, Part 17 में हमने noun को detail में समझा। अब एक समस्या आती है। अगर noun को बार-बार repeat करें, तो sentence भारी और awkward लगने लगता है। Example: Ram is a good boy. Ram goes to school daily. Ram studies hard. यह sentence बार-बार “Ram” repeat कर रहा है। इस repetition को रोकने के लिए: Pronoun का उपयोग किया जाता है। What is a Pronoun? ",
+    "types":  [
+                  {
+                      "name":  "Personal Pronoun",
+                      "name_hi":  "पुरुषवाचक सर्वनाम",
+                      "definition":  "The pronoun used for persons or things is called a personal pronoun. ",
+                      "definition_hi":  "जो सर्वनाम व्यक्ति या वस्तु के लिए प्रयोग किया जाए, उसे Personal Pronoun कहते हैं। ",
+                      "important_understanding":  "",
+                      "examples":  [
+                                       {
+                                           "english":  "I",
+                                           "hindi":  ""
+                                       },
+                                       {
+                                           "english":  "We",
+                                           "hindi":  ""
+                                       },
+                                       {
+                                           "english":  "You",
+                                           "hindi":  ""
+                                       },
+                                       {
+                                           "english":  "He",
+                                           "hindi":  ""
+                                       },
+                                       {
+                                           "english":  "She",
+                                           "hindi":  ""
+                                       },
+                                       {
+                                           "english":  "It",
+                                           "hindi":  ""
+                                       },
+                                       {
+                                           "english":  "They",
+                                           "hindi":  ""
+                                       },
+                                       {
+                                           "english":  "Example",
+                                           "hindi":  "Sentences"
+                                       },
+                                       {
+                                           "english":  "I",
+                                           "hindi":  "am a teacher."
+                                       },
+                                       {
+                                           "english":  "→",
+                                           "hindi":  "मैं शिक्षक हूँ।"
+                                       },
+                                       {
+                                           "english":  "She",
+                                           "hindi":  "is happy."
+                                       },
+                                       {
+                                           "english":  "→",
+                                           "hindi":  "वह खुश है।"
+                                       },
+                                       {
+                                           "english":  "They",
+                                           "hindi":  "are playing."
+                                       },
+                                       {
+                                           "english":  "→",
+                                           "hindi":  "वे खेल रहे हैं।"
+                                       },
+                                       {
+                                           "english":  "Person",
+                                           "hindi":  "System"
+                                       },
+                                       {
+                                           "english":  "First",
+                                           "hindi":  "Person"
+                                       },
+                                       {
+                                           "english":  "Speaker",
+                                           "hindi":  ""
+                                       },
+                                       {
+                                           "english":  "I",
+                                           "hindi":  "We"
+                                       },
+                                       {
+                                           "english":  "Second",
+                                           "hindi":  "Person"
+                                       },
+                                       {
+                                           "english":  "Listener",
+                                           "hindi":  ""
+                                       },
+                                       {
+                                           "english":  "You",
+                                           "hindi":  ""
+                                       },
+                                       {
+                                           "english":  "Third",
+                                           "hindi":  "Person"
+                                       },
+                                       {
+                                           "english":  "Others",
+                                           "hindi":  ""
+                                       },
+                                       {
+                                           "english":  "He",
+                                           "hindi":  "She, It, They"
+                                       }
+                                   ]
+                  },
+                  {
+                      "name":  "Reflexive Pronoun",
+                      "name_hi":  "निजवाचक सर्वनाम",
+                      "definition":  "The pronoun that reflects the action back to the subject is called a reflexive pronoun. ",
+                      "definition_hi":  "जो सर्वनाम क्रिया का प्रभाव वापस subject पर दिखाए, उसे Reflexive Pronoun कहते हैं। ",
+                      "important_understanding":  "Reflexive pronoun: subject और object को same व्यक्ति बनाता है। ",
+                      "examples":  [
+                                       {
+                                           "english":  "myself",
+                                           "hindi":  ""
+                                       },
+                                       {
+                                           "english":  "yourself",
+                                           "hindi":  ""
+                                       },
+                                       {
+                                           "english":  "himself",
+                                           "hindi":  ""
+                                       },
+                                       {
+                                           "english":  "herself",
+                                           "hindi":  ""
+                                       },
+                                       {
+                                           "english":  "themselves",
+                                           "hindi":  ""
+                                       },
+                                       {
+                                           "english":  "Example",
+                                           "hindi":  "Sentences"
+                                       },
+                                       {
+                                           "english":  "I",
+                                           "hindi":  "hurt myself."
+                                       },
+                                       {
+                                           "english":  "→",
+                                           "hindi":  "मैंने स्वयं को चोट पहुँचाई।"
+                                       },
+                                       {
+                                           "english":  "She",
+                                           "hindi":  "looked at herself in the mirror."
+                                       },
+                                       {
+                                           "english":  "→",
+                                           "hindi":  "उसने स्वयं को दर्पण में देखा।"
+                                       }
+                                   ]
+                  },
+                  {
+                      "name":  "Emphatic Pronoun",
+                      "name_hi":  "बलवाचक सर्वनाम",
+                      "definition":  "The pronoun used to emphasize a noun or pronoun is called an emphatic pronoun. ",
+                      "definition_hi":  "जो सर्वनाम किसी noun या pronoun पर बल देने के लिए प्रयोग किया जाए, उसे Emphatic Pronoun कहते हैं। ",
+                      "important_understanding":  "Reflexive और emphatic pronoun के forms same होते हैं, लेकिन function अलग होता है। ",
+                      "examples":  [
+                                       {
+                                           "english":  "I",
+                                           "hindi":  "myself did the work."
+                                       },
+                                       {
+                                           "english":  "→",
+                                           "hindi":  "मैंने स्वयं काम किया।"
+                                       },
+                                       {
+                                           "english":  "The",
+                                           "hindi":  "principal himself came here."
+                                       },
+                                       {
+                                           "english":  "→",
+                                           "hindi":  "प्रधानाचार्य स्वयं यहाँ आए।"
+                                       }
+                                   ]
+                  },
+                  {
+                      "name":  "Demonstrative Pronoun",
+                      "name_hi":  "संकेतवाचक सर्वनाम",
+                      "definition":  "The pronoun used to point out a person or thing is called a demonstrative pronoun. ",
+                      "definition_hi":  "जो सर्वनाम किसी व्यक्ति या वस्तु की ओर संकेत करे, उसे Demonstrative Pronoun कहते हैं। ",
+                      "important_understanding":  "Near this, these Far that, those ",
+                      "examples":  [
+                                       {
+                                           "english":  "this",
+                                           "hindi":  ""
+                                       },
+                                       {
+                                           "english":  "that",
+                                           "hindi":  ""
+                                       },
+                                       {
+                                           "english":  "these",
+                                           "hindi":  ""
+                                       },
+                                       {
+                                           "english":  "those",
+                                           "hindi":  ""
+                                       },
+                                       {
+                                           "english":  "Example",
+                                           "hindi":  "Sentences"
+                                       },
+                                       {
+                                           "english":  "This",
+                                           "hindi":  "is my book."
+                                       },
+                                       {
+                                           "english":  "→",
+                                           "hindi":  "यह मेरी किताब है।"
+                                       },
+                                       {
+                                           "english":  "Those",
+                                           "hindi":  "are students."
+                                       },
+                                       {
+                                           "english":  "→",
+                                           "hindi":  "वे छात्र हैं।"
+                                       }
+                                   ]
+                  },
+                  {
+                      "name":  "Relative Pronoun",
+                      "name_hi":  "संबंधवाचक सर्वनाम",
+                      "definition":  "The pronoun that relates a clause to a noun or pronoun is called a relative pronoun. ",
+                      "definition_hi":  "जो सर्वनाम किसी clause को noun या pronoun से जोड़े, उसे Relative Pronoun कहते हैं। ",
+                      "important_understanding":  "",
+                      "examples":  [
+                                       {
+                                           "english":  "who",
+                                           "hindi":  ""
+                                       },
+                                       {
+                                           "english":  "whom",
+                                           "hindi":  ""
+                                       },
+                                       {
+                                           "english":  "whose",
+                                           "hindi":  ""
+                                       },
+                                       {
+                                           "english":  "which",
+                                           "hindi":  ""
+                                       },
+                                       {
+                                           "english":  "that",
+                                           "hindi":  ""
+                                       },
+                                       {
+                                           "english":  "Example",
+                                           "hindi":  "Sentence"
+                                       },
+                                       {
+                                           "english":  "The",
+                                           "hindi":  "boy who is standing there is my friend."
+                                       },
+                                       {
+                                           "english":  "यह",
+                                           "hindi":  "ँ: “who” boy और clause को जोड़ रहा है।"
+                                       }
+                                   ]
+                  },
+                  {
+                      "name":  "Distributive Pronoun",
+                      "name_hi":  "वितरणवाचक सर्वनाम",
+                      "definition":  "The pronoun that refers to persons or things one at a time is called a distributive pronoun. ",
+                      "definition_hi":  "जो सर्वनाम व्यक्तियों या वस्तुओं को एक-एक करके दर्शाए, उसे Distributive Pronoun कहते हैं। ",
+                      "important_understanding":  "",
+                      "examples":  [
+                                       {
+                                           "english":  "each",
+                                           "hindi":  ""
+                                       },
+                                       {
+                                           "english":  "either",
+                                           "hindi":  ""
+                                       },
+                                       {
+                                           "english":  "neither",
+                                           "hindi":  ""
+                                       },
+                                       {
+                                           "english":  "Example",
+                                           "hindi":  "Sentences"
+                                       },
+                                       {
+                                           "english":  "Each",
+                                           "hindi":  "of the boys was present."
+                                       },
+                                       {
+                                           "english":  "Neither",
+                                           "hindi":  "of the answers is correct."
+                                       }
+                                   ]
+                  },
+                  {
+                      "name":  "Reciprocal Pronoun",
+                      "name_hi":  "परस्परवाचक सर्वनाम",
+                      "definition":  "The pronoun used to show mutual action or relationship is called a reciprocal pronoun. ",
+                      "definition_hi":  "जो सर्वनाम परस्पर संबंध या क्रिया को व्यक्त करे, उसे Reciprocal Pronoun कहते हैं। ",
+                      "important_understanding":  "",
+                      "examples":  [
+                                       {
+                                           "english":  "each",
+                                           "hindi":  "other"
+                                       },
+                                       {
+                                           "english":  "one",
+                                           "hindi":  "another"
+                                       },
+                                       {
+                                           "english":  "Example",
+                                           "hindi":  "Sentences"
+                                       },
+                                       {
+                                           "english":  "The",
+                                           "hindi":  "two friends helped each other."
+                                       },
+                                       {
+                                           "english":  "The",
+                                           "hindi":  "students greeted one another."
+                                       }
+                                   ]
+                  },
+                  {
+                      "name":  "Interrogative Pronoun",
+                      "name_hi":  "प्रश्नवाचक सर्वनाम",
+                      "definition":  "The pronoun used for asking questions is called an interrogative pronoun. ",
+                      "definition_hi":  "जो सर्वनाम प्रश्न पूछने के लिए प्रयोग किया जाए, उसे Interrogative Pronoun कहते हैं। ",
+                      "important_understanding":  "",
+                      "examples":  [
+                                       {
+                                           "english":  "who",
+                                           "hindi":  ""
+                                       },
+                                       {
+                                           "english":  "whom",
+                                           "hindi":  ""
+                                       },
+                                       {
+                                           "english":  "whose",
+                                           "hindi":  ""
+                                       },
+                                       {
+                                           "english":  "what",
+                                           "hindi":  ""
+                                       },
+                                       {
+                                           "english":  "which",
+                                           "hindi":  ""
+                                       },
+                                       {
+                                           "english":  "Example",
+                                           "hindi":  "Sentences"
+                                       },
+                                       {
+                                           "english":  "Who",
+                                           "hindi":  "are you?"
+                                       },
+                                       {
+                                           "english":  "→",
+                                           "hindi":  "तुम कौन हो?"
+                                       },
+                                       {
+                                           "english":  "Which",
+                                           "hindi":  "is your book?"
+                                       },
+                                       {
+                                           "english":  "→",
+                                           "hindi":  "तुम्हारी किताब कौन-सी है?"
+                                       }
+                                   ]
+                  },
+                  {
+                      "name":  "Indefinite Pronoun",
+                      "name_hi":  "अनिश्चित सर्वनाम",
+                      "definition":  "The pronoun that refers to persons or things in a general or indefinite way is called an indefinite pronoun. ",
+                      "definition_hi":  "जो सर्वनाम किसी व्यक्ति या वस्तु का अनिश्चित रूप से बोध कराए, उसे Indefinite Pronoun कहते हैं। ",
+                      "important_understanding":  "Pronoun हमेशा: जिस noun की जगह आता है, उससे logically match करना चाहिए। Common Mistakes कुछ students: pronoun और noun का agreement बिगाड़ देते हैं। singular noun के साथ plural pronoun लगा देते हैं। Tiny Practice बताइए नीचे दिए गए pronouns किस प्रकार के हैं: 1. He 2. Myself 3. This 4. Who 5. Each other ",
+                      "examples":  [
+                                       {
+                                           "english":  "someone",
+                                           "hindi":  ""
+                                       },
+                                       {
+                                           "english":  "anyone",
+                                           "hindi":  ""
+                                       },
+                                       {
+                                           "english":  "everyone",
+                                           "hindi":  ""
+                                       },
+                                       {
+                                           "english":  "nothing",
+                                           "hindi":  ""
+                                       },
+                                       {
+                                           "english":  "something",
+                                           "hindi":  ""
+                                       },
+                                       {
+                                           "english":  "Example",
+                                           "hindi":  "Sentences"
+                                       },
+                                       {
+                                           "english":  "Someone",
+                                           "hindi":  "is knocking at the door."
+                                       },
+                                       {
+                                           "english":  "Everybody",
+                                           "hindi":  "likes honesty."
+                                       },
+                                       {
+                                           "english":  "Pronoun",
+                                           "hindi":  "Agreement"
+                                       },
+                                       {
+                                           "english":  "Pronoun",
+                                           "hindi":  "का:"
+                                       },
+                                       {
+                                           "english":  "number",
+                                           "hindi":  ""
+                                       },
+                                       {
+                                           "english":  "person",
+                                           "hindi":  ""
+                                       },
+                                       {
+                                           "english":  "gender",
+                                           "hindi":  ""
+                                       },
+                                       {
+                                           "english":  "अपने",
+                                           "hindi":  "noun के अनुसार होना चाहिए।"
+                                       },
+                                       {
+                                           "english":  "Example",
+                                           "hindi":  ""
+                                       },
+                                       {
+                                           "english":  "Ram",
+                                           "hindi":  "lost his book. ✅"
+                                       },
+                                       {
+                                           "english":  "Ram",
+                                           "hindi":  "lost her book. ❌"
+                                       }
+                                   ]
+                  }
+              ]
+}

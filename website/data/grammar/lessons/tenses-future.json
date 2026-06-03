@@ -1,0 +1,37 @@
+{
+  "title": "Future Tense (भविष्य काल)",
+  "slug": "tenses-future",
+  "part": 14,
+  "definition_en": "The future tense is used to describe an action that will happen at a later time.",
+  "definition_hi": "भविष्य काल उस कार्य को दर्शाता है जो आने वाले समय में होगा।",
+  "categories": [
+    {
+      "name": "Simple Future",
+      "intro": "Will / Shall",
+      "examples": [
+        {
+          "en": "I will play cricket.",
+          "hi": "मैं क्रिकेट खेलूँगा।"
+        },
+        {
+          "en": "She will go to school.",
+          "hi": "वह स्कूल जाएगी।"
+        }
+      ]
+    },
+    {
+      "name": "Future Continuous",
+      "intro": "Action that will be happening",
+      "examples": [
+        {
+          "en": "I will be eating.",
+          "hi": "मैं खा रहा हूँगा।"
+        },
+        {
+          "en": "They will be playing.",
+          "hi": "वे खेल रहे होंगे।"
+        }
+      ]
+    }
+  ]
+}

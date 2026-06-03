@@ -1,0 +1,83 @@
+[
+  {
+    "topic": "Alphabet & Letter",
+    "topic_hi": "वर्णमाला और वर्ण",
+    "introduction": {
+      "english": "A letter is the smallest indivisible unit of a written language. An alphabet is a systematically arranged collection of letters.",
+      "hindi": "वर्ण भाषा की सबसे छोटी और अविभाज्य इकाई है जिसके टुकड़े नहीं किए जा सकते। वर्णों के व्यवस्थित समूह को वर्णमाला कहते हैं।"
+    },
+    "types": []
+  },
+  {
+    "topic": "Capital & Small Letters",
+    "topic_hi": "बड़े और छोटे अक्षर",
+    "introduction": {
+      "english": "English letters are written in two forms: capital letters and small letters.",
+      "hindi": "अंग्रेज़ी अक्षरों को दो रूपों में लिखा जाता है: बड़े अक्षर (Capital Letters) और छोटे अक्षर (Small Letters)।"
+    },
+    "types": [
+      {
+        "name": "Capital Letter",
+        "description": "Uppercase letters (e.g. A, B, C) used for sentence beginnings and proper nouns."
+      },
+      {
+        "name": "Small Letter",
+        "description": "Lowercase letters (e.g. a, b, c) used for most other characters."
+      }
+    ]
+  },
+  {
+    "topic": "Vowels",
+    "topic_hi": "स्वर",
+    "introduction": {
+      "english": "A vowel is a speech sound in which air comes out freely through the mouth without major blockage.",
+      "hindi": "स्वर वे ध्वनियाँ हैं जिनके उच्चारण के समय हवा मुँह से बिना किसी बड़ी रुकावट के बाहर निकलती है।"
+    },
+    "types": [
+      {
+        "name": "Main Vowels",
+        "description": "A, E, I, O, U"
+      },
+      {
+        "name": "Y as a Special Letter",
+        "description": "Sometimes acts as a vowel (e.g., Sky, Cry), sometimes as a consonant (e.g., Yes, Yard)."
+      }
+    ]
+  },
+  {
+    "topic": "Consonants",
+    "topic_hi": "व्यंजन",
+    "introduction": {
+      "english": "A consonant is a speech sound in which airflow is blocked or restricted by the tongue, lips, teeth, or throat.",
+      "hindi": "व्यंजन वे ध्वनियाँ हैं जिनके उच्चारण के समय हवा के प्रवाह में जीभ, होंठ, दाँत या गले द्वारा रुकावट या बाधा उत्पन्न होती है।"
+    },
+    "types": [
+      {
+        "name": "Main Consonants",
+        "description": "The 21 non-vowel letters of the alphabet."
+      }
+    ]
+  },
+  {
+    "topic": "Basic Phonics & Pronunciation",
+    "topic_hi": "मूल ध्वनि और उच्चारण",
+    "introduction": {
+      "english": "Phonics is the relationship between letters and sounds. Pronunciation is the correct way of speaking a word.",
+      "hindi": "फ़ोनिक्स अक्षरों और ध्वनियों के संबंध को समझने की प्रक्रिया है। उच्चारण किसी शब्द को सही ध्वनि के साथ बोलने की प्रक्रिया है।"
+    },
+    "types": [
+      {
+        "name": "Homophones",
+        "description": "Same pronunciation, different spelling and meaning (e.g., Right / Write)."
+      },
+      {
+        "name": "Homographs",
+        "description": "Same spelling, different pronunciation or meaning (e.g., Lead / Lead)."
+      },
+      {
+        "name": "Homonyms",
+        "description": "Same spelling and pronunciation, different meaning (e.g., Bat / Bat)."
+      }
+    ]
+  }
+]

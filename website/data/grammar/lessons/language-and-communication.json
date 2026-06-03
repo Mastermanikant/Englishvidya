@@ -1,0 +1,67 @@
+{
+  "title": "Language & Communication (भाषा और संचार)",
+  "slug": "language-and-communication",
+  "part": 1,
+  "definition_en": "Language is a structured system of symbols, signs, or sounds used by humans to express and share thoughts, feelings, and information. Communication is the process of encoding, transmitting, and decoding messages to share meaning between a sender and a receiver.",
+  "definition_hi": "भाषा संकेतों, ध्वनियों या शब्दों का वह व्यवस्थित माध्यम है जिसके द्वारा मनुष्य अपने विचारों, भावनाओं और सूचनाओं का आदान-प्रदान करता है। संचार (Communication) संदेशों को भेजने, प्राप्त करने और समझने की एक पारस्परिक प्रक्रिया है।",
+  "categories": [
+    {
+      "name": "1. भाषा क्या है? (What is Language?)",
+      "intro": "आप अपने विचारों (thoughts), भावनाओं (feelings) और जानकारियों (information) को दूसरों तक पहुँचाने के लिए जिस माध्यम का उपयोग करते हैं, उसे ही भाषा (Language) कहते हैं।\n\nभाषा का मुख्य काम चार स्तंभों पर टिका है:\n1. पूछना (To ask)\n2. बताना (To inform)\n3. समझाना (To explain)\n4. व्यक्त करना (To express)\n\nभाषा के बिना कोई भी सभ्य समाज ठीक तरह से काम नहीं कर सकता।",
+      "examples": [
+        {
+          "en": "Can you help me?",
+          "hi": "क्या आप मेरी मदद कर सकते हैं? (पूछना - To ask)"
+        },
+        {
+          "en": "The train leaves at 9 AM.",
+          "hi": "ट्रेन सुबह 9 बजे रवाना होती है। (बताना - To inform)"
+        },
+        {
+          "en": "Press this red button to start.",
+          "hi": "शुरू करने के लिए इस लाल बटन को दबाएं। (समझाना - To explain)"
+        },
+        {
+          "en": "I love reading English books.",
+          "hi": "मुझे अंग्रेजी किताबें पढ़ना बहुत पसंद है। (व्यक्त करना - To express)"
+        }
+      ]
+    },
+    {
+      "name": "2. भाषा के विभिन्न रूप (Forms of Language)",
+      "intro": "भाषा केवल मुँह से बोलने का नाम नहीं है। यह मुख्य रूप से तीन रूपों में पाई जाती है:\n\n1. Spoken Language (मौखिक): बोलकर बात करना। जैसे: 'Hello', 'How are you?' बोलना।\n2. Written Language (लिखित): लिखकर व्यक्त करना या लिखी हुई बात को पढ़ना। जैसे: किताबें, संदेश या पत्र।\n3. Sign Language (सांकेतिक): बिना बोले केवल शारीरिक हाव-भाव (gestures) या चेहरे की अभिव्यक्ति से बात समझाना। जैसे: हाथ हिलाना या सिर हिलाना।",
+      "examples": [
+        {
+          "en": "She is speaking on the phone.",
+          "hi": "वह फोन पर बात कर रही है। (मौखिक - Spoken)"
+        },
+        {
+          "en": "I am writing an email.",
+          "hi": "मैं एक ईमेल लिख रहा हूँ। (लिखित - Written)"
+        },
+        {
+          "en": "He waved his hand to say goodbye.",
+          "hi": "उसने अलविदा कहने के लिए हाथ हिलाया। (सांकेतिक - Sign)"
+        }
+      ]
+    },
+    {
+      "name": "3. संचार के मूल तत्व (Communication Basics)",
+      "intro": "कम्युनिकेशन की साइकिल इन तीन मुख्य कड़ियों से मिलकर पूरी होती है:\n\n* Sender (प्रेषक): वह व्यक्ति जो संदेश देना शुरू करता है।\n* Message (संदेश): वह विचार या जानकारी जो पहुँचाई जा रही है।\n* Receiver (प्राप्तकर्ता): वह व्यक्ति जो संदेश सुनता और समझता है।\n\nसफल संवाद तब माना जाता है जब प्राप्तकर्ता संदेश का वही सटीक अर्थ समझे जो प्रेषक समझाना चाहता था।",
+      "examples": [
+        {
+          "en": "The sender must speak clearly.",
+          "hi": "प्रेषक को स्पष्ट रूप से बोलना चाहिए।"
+        },
+        {
+          "en": "The receiver listens carefully.",
+          "hi": "प्राप्तकर्ता ध्यान से सुनता है।"
+        },
+        {
+          "en": "Simple words make the message clear.",
+          "hi": "सरल शब्द संदेश को स्पष्ट बनाते हैं।"
+        }
+      ]
+    }
+  ]
+}
