@@ -30,6 +30,7 @@
     fcDeck: [],
     fcIndex: 0,
     fcKnown: 0,
+    fcTransitioning: false,
     route: '',
     isHashMode: location.protocol === 'file:',
     basePath: '/'
@@ -166,9 +167,8 @@
   // ═══════════════════════════════════════════════════
   const Router = {
     init() {
-      if (state.isHashMode) {
-        window.addEventListener('hashchange', () => this.resolve());
-      } else {
+      window.addEventListener('hashchange', () => this.resolve());
+      if (!state.isHashMode) {
         window.addEventListener('popstate', () => this.resolve());
       }
       this.resolve();
@@ -178,9 +178,14 @@
       let route = 'home';
       let param = null;
 
-      if (state.isHashMode) {
-        // Hash routing mode for offline/local file protocol
-        const hash = location.hash.slice(1) || '/';
+      const hasDeepHash = location.hash && (location.hash.startsWith('#/') || location.hash.length > 1);
+
+      if (state.isHashMode || hasDeepHash) {
+        // Hash routing mode for offline/local file protocol or deep links typed directly
+        let hash = location.hash.slice(1) || '/';
+        if (hash.startsWith('/')) {
+          hash = hash.slice(1);
+        }
         const parts = hash.split('/').filter(Boolean);
         route = parts[0] || 'home';
         param = parts[1] || null;
@@ -1571,6 +1576,12 @@
     const example = parsed.example;
     const pron = parsed.pron;
 
+    // Reset scroll positions of front and back scroll containers
+    const scrollContainers = $$('.flashcard-scroll-container');
+    scrollContainers.forEach(container => {
+      container.scrollTop = 0;
+    });
+
     // Update progress bar
     const progressFill = $('.progress-bar-fill');
     if (progressFill) {
@@ -1585,8 +1596,8 @@
     const frontWord = $('.flashcard-front .flashcard-word');
     if (frontWord) frontWord.textContent = word;
     
-    const frontFace = $('.flashcard-front .flashcard-scroll-container');
-    if (frontFace) {
+    const frontWrapper = $('.flashcard-front .flashcard-content-wrapper');
+    if (frontWrapper) {
       let pronEl = $('.flashcard-front .flashcard-devanagari-pron');
       if (pron) {
         if (!pronEl) {
@@ -1594,9 +1605,9 @@
           pronEl.className = 'flashcard-devanagari-pron';
           const tapHint = $('.flashcard-front .flashcard-tap-hint');
           if (tapHint) {
-            frontFace.insertBefore(pronEl, tapHint);
+            frontWrapper.insertBefore(pronEl, tapHint);
           } else {
-            frontFace.appendChild(pronEl);
+            frontWrapper.appendChild(pronEl);
           }
         }
         pronEl.textContent = pron;
@@ -1612,6 +1623,30 @@
     
     const backWord = $('.flashcard-back .flashcard-word');
     if (backWord) backWord.textContent = word;
+
+    const backWrapper = $('.flashcard-back .flashcard-content-wrapper');
+    if (backWrapper) {
+      let backPronEl = $('.flashcard-back .flashcard-devanagari-pron');
+      if (pron) {
+        if (!backPronEl) {
+          backPronEl = document.createElement('div');
+          backPronEl.className = 'flashcard-devanagari-pron';
+          backPronEl.style.fontSize = '0.95rem';
+          backPronEl.style.color = 'var(--accent)';
+          backPronEl.style.marginTop = 'var(--sp-1)';
+          const backExample = $('.flashcard-back .flashcard-example');
+          if (backExample) {
+            backWrapper.insertBefore(backPronEl, backExample);
+          } else {
+            backWrapper.appendChild(backPronEl);
+          }
+        }
+        backPronEl.textContent = pron;
+        backPronEl.style.display = 'block';
+      } else if (backPronEl) {
+        backPronEl.style.display = 'none';
+      }
+    }
     
     const backExample = $('.flashcard-back .flashcard-example');
     if (backExample) {
@@ -1625,11 +1660,13 @@
   }
 
   function prevFlashcard(categories, activeSlug) {
+    if (state.fcTransitioning) return;
     if (state.fcIndex > 0) {
       state.fcIndex--;
       
       const cardEl = $('#flashcard');
       if (cardEl) {
+        state.fcTransitioning = true;
         cardEl.classList.remove('flipped');
         cardEl.classList.add('swipe-left');
         
@@ -1640,6 +1677,7 @@
           
           cardEl.offsetHeight;
           cardEl.classList.remove('swipe-in-left');
+          state.fcTransitioning = false;
         }, 150);
       } else {
         updateCardContent(categories, activeSlug);
@@ -1729,17 +1767,22 @@
             <div class="flashcard" id="flashcard" style="margin: 0;">
               <div class="flashcard-inner">
                 <div class="flashcard-face flashcard-front">
-                  <div class="flashcard-scroll-container">
-                    <div class="flashcard-word">${escHtml(word)}</div>
-                    ${pron ? `<div class="flashcard-devanagari-pron">${escHtml(pron)}</div>` : ''}
-                    <div class="flashcard-hint flashcard-tap-hint" style="margin-top: var(--sp-4); opacity: 0.6;">👆 Tap to reveal</div>
+                  <div class="flashcard-scroll-container" style="width: 100%; height: 100%; overflow-y: auto; display: flex; flex-direction: column; align-items: center; box-sizing: border-box; padding: var(--sp-4) var(--sp-2);">
+                    <div class="flashcard-content-wrapper" style="margin: auto 0; display: flex; flex-direction: column; align-items: center; width: 100%;">
+                      <div class="flashcard-word">${escHtml(word)}</div>
+                      ${pron ? `<div class="flashcard-devanagari-pron">${escHtml(pron)}</div>` : ''}
+                      <div class="flashcard-hint flashcard-tap-hint" style="margin-top: var(--sp-4); opacity: 0.6;">👆 Tap to reveal</div>
+                    </div>
                   </div>
                 </div>
                 <div class="flashcard-face flashcard-back">
-                  <div class="flashcard-scroll-container">
-                    <div class="flashcard-devanagari-meaning">${escHtml(meaning)}</div>
-                    <div class="flashcard-word" style="font-size: 1.2rem; color: var(--text-secondary); margin-top: var(--sp-2);">${escHtml(word)}</div>
-                    ${example ? `<div class="flashcard-example" style="margin-top: var(--sp-4);">"${escHtml(example)}"</div>` : ''}
+                  <div class="flashcard-scroll-container" style="width: 100%; height: 100%; overflow-y: auto; display: flex; flex-direction: column; align-items: center; box-sizing: border-box; padding: var(--sp-4) var(--sp-2);">
+                    <div class="flashcard-content-wrapper" style="margin: auto 0; display: flex; flex-direction: column; align-items: center; width: 100%;">
+                      <div class="flashcard-devanagari-meaning">${escHtml(meaning)}</div>
+                      <div class="flashcard-word" style="font-size: 1.2rem; color: var(--text-secondary); margin-top: var(--sp-2);">${escHtml(word)}</div>
+                      ${pron ? `<div class="flashcard-devanagari-pron" style="font-size: 0.95rem; color: var(--accent); margin-top: var(--sp-1);">${escHtml(pron)}</div>` : ''}
+                      ${example ? `<div class="flashcard-example" style="margin-top: var(--sp-4);">"${escHtml(example)}"</div>` : ''}
+                    </div>
                   </div>
                 </div>
               </div>
@@ -1758,7 +1801,10 @@
     `;
 
     const flashcard = $('#flashcard');
-    flashcard.addEventListener('click', () => flashcard.classList.toggle('flipped'));
+    flashcard.addEventListener('click', () => {
+      if (state.fcTransitioning) return;
+      flashcard.classList.toggle('flipped');
+    });
 
     $('#fc-skip').addEventListener('click', () => nextFlashcard(categories, activeSlug, false));
     $('#fc-know').addEventListener('click', () => nextFlashcard(categories, activeSlug, true));
@@ -1797,6 +1843,7 @@
   }
 
   function nextFlashcard(categories, activeSlug, known) {
+    if (state.fcTransitioning) return;
     if (known) state.fcKnown++;
     
     const cardEl = $('#flashcard');
@@ -1810,6 +1857,7 @@
       return;
     }
     
+    state.fcTransitioning = true;
     const swipeClass = known ? 'swipe-right' : 'swipe-left';
     cardEl.classList.add(swipeClass);
     
@@ -1818,6 +1866,7 @@
       
       if (state.fcIndex >= state.fcDeck.length) {
         renderFlashcardResult(categories, activeSlug);
+        state.fcTransitioning = false;
         return;
       }
       
@@ -1832,6 +1881,7 @@
       cardEl.offsetHeight;
       
       cardEl.classList.remove(slideInClass);
+      state.fcTransitioning = false;
     }, 350);
   }
 
@@ -2021,6 +2071,7 @@
       Router.resolve();
     }
   }
+  window.navigate = navigate;
 
   // ═══════════════════════════════════════════════════
   //  12. INITIALIZE GLOBAL LISTENERS & INTERACTION ENGINE

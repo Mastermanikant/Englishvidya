@@ -13,6 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
     initProgressDisplay();
     initLastUpdatedTimestamps();
     initActivityTracker();
+    initNavButtons();
 });
 
 // ─── 0a. Last Updated Timestamp Formatter ────────────────────────────────
@@ -45,6 +46,18 @@ function initLastUpdatedTimestamps() {
             console.warn('[EV] Timestamp parse error:', e);
         }
     });
+}
+
+// ─── 0c. Back/Forward Navigation Buttons ──────────────────────────────────
+function initNavButtons() {
+    const backBtn = document.getElementById('nav-back');
+    const forwardBtn = document.getElementById('nav-forward');
+    if (backBtn) {
+        backBtn.addEventListener('click', () => history.back());
+    }
+    if (forwardBtn) {
+        forwardBtn.addEventListener('click', () => history.forward());
+    }
 }
 
 // ─── 0. Section Expand/Collapse ───────────────────────────────────────────
@@ -609,7 +622,8 @@ function renderTracker() {
             const targetEl = document.getElementById(targetId);
             if (!targetEl) return;
             
-            const isOpen = targetEl.classList.toggle('open');
+            toggleSection(targetEl);
+            const isOpen = targetEl.classList.contains('open');
             row.classList.toggle('active', isOpen);
             
             const chevron = row.querySelector('.tracker-chevron');
@@ -619,6 +633,33 @@ function renderTracker() {
             }
         });
     });
+}
+
+// ─── Utility: Toggle Section (Smooth Height Transition) ───────────────────
+function toggleSection(el) {
+    if (!el) return;
+    const isOpen = el.classList.contains('open');
+    if (isOpen) {
+        el.style.maxHeight = el.scrollHeight + 'px';
+        el.offsetHeight; // reflow
+        el.style.maxHeight = '0px';
+        el.classList.remove('open');
+    } else {
+        el.style.maxHeight = '0px';
+        el.classList.add('open');
+        el.offsetHeight; // reflow
+        el.style.maxHeight = el.scrollHeight + 'px';
+        
+        const transitionEndHandler = (e) => {
+            if (e.propertyName === 'max-height') {
+                if (el.classList.contains('open')) {
+                    el.style.maxHeight = 'none';
+                }
+                el.removeEventListener('transitionend', transitionEndHandler);
+            }
+        };
+        el.addEventListener('transitionend', transitionEndHandler);
+    }
 }
 
 function recordActivity(minutes = 1) {

@@ -127,10 +127,10 @@
                 <span class="logo-text"><span>English</span> <span class="logo-accent">Vidya</span></span>
             </a>
             <div class="header-nav-buttons" style="display: flex; gap: var(--sp-2); margin-left: var(--sp-4);">
-                <button class="nav-btn-glass" id="nav-back" aria-label="Go Back">
+                <button class="nav-btn-glass" id="nav-back" aria-label="Go Back" onclick="history.back()">
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
                 </button>
-                <button class="nav-btn-glass" id="nav-forward" aria-label="Go Forward">
+                <button class="nav-btn-glass" id="nav-forward" aria-label="Go Forward" onclick="history.forward()">
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
                 </button>
             </div>
@@ -794,11 +794,7 @@
                     का डिजिटल मंच।</p>
             </div>
             <div class="footer-links-col">
-                <comment-tag id="4">
-                    <h4>Navigation</h4>
-                </comment-tag id="4"
-                    text="Avoid skipping heading levels for better accessibility (a11y) and SEO. Assuming your main page sections use <h2> tags, this should be an <h3> rather than an <h4>. Consider making this change for 'Support' and 'Follow Us' as well."
-                    type="suggestion">
+                <h3>Navigation</h3>
                 <ul class="footer-links">
                     <li><a href="/">Home</a></li>
                     <li><a href="/grammar">Grammar</a></li>
@@ -807,7 +803,7 @@
                 </ul>
             </div>
             <div class="footer-links-col">
-                <h4>Support</h4>
+                <h3>Support</h3>
                 <ul class="footer-links">
                     <li><a href="/about-us">About Us</a></li>
                     <li><a href="/contact">Contact Us</a></li>
@@ -815,14 +811,11 @@
                 </ul>
             </div>
             <div class="footer-links-col">
-                <h4>Follow Us</h4>
+                <h3>Follow Us</h3>
                 <div class="footer-social-icons">
                     <a href="https://whatsapp.com/channel/0029VbCnmPe0VycPXCmBBH43" target="_blank"
-                        rel="noopener noreferrer" <comment-tag id="5">class="social-icon-btn whatsapp"
-                        data-tooltip="WhatsApp"</comment-tag id="5"
-                            text="Icon-only links require descriptive text for screen readers. While 'data-tooltip' works for visual users on hover, adding 'aria-label=\"
-                            WhatsApp\"' ensures visually impaired users navigating via assistive technology understand
-                            the link's destination. Repeat this for all social icons below." type="suggestion">>
+                        rel="noopener noreferrer" class="social-icon-btn whatsapp"
+                        data-tooltip="WhatsApp" aria-label="WhatsApp" id="footer-social-whatsapp">
                         <div class="social-icon-wrapper" style="background: #25D366;">
                             <svg viewBox="0 0 24 24" fill="#fff" width="18" height="18">
                                 <path
@@ -831,7 +824,7 @@
                         </div>
                     </a>
                     <a href="https://youtube.com/@englishvidyahq" target="_blank" rel="noopener noreferrer"
-                        class="social-icon-btn youtube" data-tooltip="YouTube">
+                        class="social-icon-btn youtube" data-tooltip="YouTube" aria-label="YouTube" id="footer-social-youtube">
                         <div class="social-icon-wrapper" style="background: #FF0000;">
                             <svg viewBox="0 0 24 24" fill="#fff" width="18" height="18">
                                 <path
@@ -840,7 +833,7 @@
                         </div>
                     </a>
                     <a href="https://instagram.com/englishvidyahq" target="_blank" rel="noopener noreferrer"
-                        class="social-icon-btn instagram" data-tooltip="Instagram">
+                        class="social-icon-btn instagram" data-tooltip="Instagram" aria-label="Instagram" id="footer-social-instagram">
                         <div class="social-icon-wrapper"
                             style="background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);">
                             <svg viewBox="0 0 24 24" fill="#fff" width="18" height="18">
@@ -850,7 +843,7 @@
                         </div>
                     </a>
                     <a href="https://t.me/englishvidyahq" target="_blank" rel="noopener noreferrer"
-                        class="social-icon-btn telegram" data-tooltip="Telegram">
+                        class="social-icon-btn telegram" data-tooltip="Telegram" aria-label="Telegram" id="footer-social-telegram">
                         <div class="social-icon-wrapper" style="background: #0088cc;">
                             <svg viewBox="0 0 24 24" fill="#fff" width="18" height="18">
                                 <path
@@ -859,7 +852,7 @@
                         </div>
                     </a>
                     <a href="https://facebook.com/englishvidyahq" target="_blank" rel="noopener noreferrer"
-                        class="social-icon-btn facebook" data-tooltip="Facebook">
+                        class="social-icon-btn facebook" data-tooltip="Facebook" aria-label="Facebook" id="footer-social-facebook">
                         <div class="social-icon-wrapper" style="background: #1877F2;">
                             <svg viewBox="0 0 24 24" fill="#fff" width="18" height="18">
                                 <path
@@ -868,7 +861,7 @@
                         </div>
                     </a>
                     <a href="https://pinterest.com/englishvidyahq" target="_blank" rel="noopener noreferrer"
-                        class="social-icon-btn pinterest" data-tooltip="Pinterest">
+                        class="social-icon-btn pinterest" data-tooltip="Pinterest" aria-label="Pinterest" id="footer-social-pinterest">
                         <div class="social-icon-wrapper" style="background: #BD081C;">
                             <svg viewBox="0 0 24 24" fill="#fff" width="18" height="18">
                                 <path
@@ -877,7 +870,7 @@
                         </div>
                     </a>
                     <a href="https://linkedin.com/company/englishvidyahq" target="_blank" rel="noopener noreferrer"
-                        class="social-icon-btn linkedin" data-tooltip="LinkedIn">
+                        class="social-icon-btn linkedin" data-tooltip="LinkedIn" aria-label="LinkedIn" id="footer-social-linkedin">
                         <div class="social-icon-wrapper" style="background: #0A66C2;">
                             <svg viewBox="0 0 24 24" fill="#fff" width="18" height="18">
                                 <path
@@ -886,7 +879,7 @@
                         </div>
                     </a>
                     <a href="https://x.com/englishvidyahq" target="_blank" rel="noopener noreferrer"
-                        class="social-icon-btn x-twitter" data-tooltip="X (Twitter)">
+                        class="social-icon-btn x-twitter" data-tooltip="X (Twitter)" aria-label="X (Twitter)" id="footer-social-twitter">
                         <div class="social-icon-wrapper"
                             style="background: #000000; border: 1px solid rgba(255,255,255,0.15);">
                             <svg viewBox="0 0 24 24" fill="#fff" width="18" height="18">
