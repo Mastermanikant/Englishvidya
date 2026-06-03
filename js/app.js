@@ -256,6 +256,11 @@
 
       // Scroll to top on route change
       window.scrollTo({ top: 0, behavior: 'instant' });
+
+      // Record activity on page navigation
+      if (typeof window.recordActivity === 'function') {
+        window.recordActivity(1);
+      }
     },
 
     updateNav(route) {
@@ -1578,13 +1583,13 @@
     const frontWord = $('.flashcard-front .flashcard-word');
     if (frontWord) frontWord.textContent = word;
     
-    const frontFace = $('.flashcard-front');
+    const frontFace = $('.flashcard-front .flashcard-scroll-container');
     if (frontFace) {
-      let pronEl = $('.flashcard-front .flashcard-hint-pron');
+      let pronEl = $('.flashcard-front .flashcard-devanagari-pron');
       if (pron) {
         if (!pronEl) {
           pronEl = document.createElement('div');
-          pronEl.className = 'flashcard-hint flashcard-hint-pron';
+          pronEl.className = 'flashcard-devanagari-pron';
           const tapHint = $('.flashcard-front .flashcard-tap-hint');
           if (tapHint) {
             frontFace.insertBefore(pronEl, tapHint);
@@ -1593,14 +1598,14 @@
           }
         }
         pronEl.textContent = pron;
-        pronEl.style.display = 'block';
+        pronEl.style.display = 'inline-block';
       } else if (pronEl) {
         pronEl.style.display = 'none';
       }
     }
 
     // Update back face
-    const backMeaning = $('.flashcard-back .flashcard-meaning');
+    const backMeaning = $('.flashcard-back .flashcard-devanagari-meaning');
     if (backMeaning) backMeaning.textContent = meaning;
     
     const backWord = $('.flashcard-back .flashcard-word');
@@ -1613,6 +1618,29 @@
         backExample.style.display = 'block';
       } else {
         backExample.style.display = 'none';
+      }
+    }
+  }
+
+  function prevFlashcard(categories, activeSlug) {
+    if (state.fcIndex > 0) {
+      state.fcIndex--;
+      
+      const cardEl = $('#flashcard');
+      if (cardEl) {
+        cardEl.classList.remove('flipped');
+        cardEl.classList.add('swipe-left');
+        
+        setTimeout(() => {
+          updateCardContent(categories, activeSlug);
+          cardEl.classList.remove('swipe-left');
+          cardEl.classList.add('swipe-in-left');
+          
+          cardEl.offsetHeight;
+          cardEl.classList.remove('swipe-in-left');
+        }, 150);
+      } else {
+        updateCardContent(categories, activeSlug);
       }
     }
   }
@@ -1685,30 +1713,40 @@
           </div>
         ` : ''}
 
-        <div class="flashcard-container">
-          <div class="flashcard-progress">
+        <div class="flashcard-container" style="position: relative; display: flex; flex-direction: column; align-items: center;">
+          <div class="flashcard-progress" style="width: 100%; max-width: 480px;">
             <div class="progress-bar-track">
               <div class="progress-bar-fill" style="width: ${((state.fcIndex) / total) * 100}%"></div>
             </div>
             <span class="progress-text">${state.fcIndex + 1}/${total}</span>
           </div>
 
-          <div class="flashcard" id="flashcard">
-            <div class="flashcard-inner">
-              <div class="flashcard-face flashcard-front">
-                <div class="flashcard-word">${escHtml(word)}</div>
-                ${pron ? `<div class="flashcard-hint flashcard-hint-pron">${escHtml(pron)}</div>` : ''}
-                <div class="flashcard-hint flashcard-tap-hint" style="margin-top: var(--sp-4); opacity: 0.6;">👆 Tap to reveal</div>
-              </div>
-              <div class="flashcard-face flashcard-back">
-                <div class="flashcard-meaning">${escHtml(meaning)}</div>
-                <div class="flashcard-word" style="font-size: 1.2rem; color: var(--text-secondary);">${escHtml(word)}</div>
-                ${example ? `<div class="flashcard-example" style="margin-top: var(--sp-4);">"${escHtml(example)}"</div>` : ''}
+          <div style="position: relative; width: 100%; max-width: 480px; display: flex; align-items: center; justify-content: center; margin: var(--sp-4) 0;">
+            <button class="flashcard-nav-arrow left" id="fc-prev-arrow" aria-label="Previous Word">←</button>
+
+            <div class="flashcard" id="flashcard" style="margin: 0;">
+              <div class="flashcard-inner">
+                <div class="flashcard-face flashcard-front">
+                  <div class="flashcard-scroll-container">
+                    <div class="flashcard-word">${escHtml(word)}</div>
+                    ${pron ? `<div class="flashcard-devanagari-pron">${escHtml(pron)}</div>` : ''}
+                    <div class="flashcard-hint flashcard-tap-hint" style="margin-top: var(--sp-4); opacity: 0.6;">👆 Tap to reveal</div>
+                  </div>
+                </div>
+                <div class="flashcard-face flashcard-back">
+                  <div class="flashcard-scroll-container">
+                    <div class="flashcard-devanagari-meaning">${escHtml(meaning)}</div>
+                    <div class="flashcard-word" style="font-size: 1.2rem; color: var(--text-secondary); margin-top: var(--sp-2);">${escHtml(word)}</div>
+                    ${example ? `<div class="flashcard-example" style="margin-top: var(--sp-4);">"${escHtml(example)}"</div>` : ''}
+                  </div>
+                </div>
               </div>
             </div>
+
+            <button class="flashcard-nav-arrow right" id="fc-next-arrow" aria-label="Next Word">→</button>
           </div>
 
-          <div class="flashcard-controls">
+          <div class="flashcard-controls" style="width: 100%; max-width: 480px;">
             <button class="fc-btn fc-btn-skip" id="fc-skip">⏭️ Skip</button>
             <button class="fc-btn fc-btn-know" id="fc-speak" style="background: var(--accent-soft); color: var(--accent);">🔊 Listen</button>
             <button class="fc-btn fc-btn-know" id="fc-know">✅ Remembered</button>
@@ -1722,6 +1760,23 @@
 
     $('#fc-skip').addEventListener('click', () => nextFlashcard(categories, activeSlug, false));
     $('#fc-know').addEventListener('click', () => nextFlashcard(categories, activeSlug, true));
+    
+    const prevArrow = $('#fc-prev-arrow');
+    if (prevArrow) {
+      prevArrow.addEventListener('click', (e) => {
+        e.stopPropagation();
+        prevFlashcard(categories, activeSlug);
+      });
+    }
+
+    const nextArrow = $('#fc-next-arrow');
+    if (nextArrow) {
+      nextArrow.addEventListener('click', (e) => {
+        e.stopPropagation();
+        nextFlashcard(categories, activeSlug, false);
+      });
+    }
+
     $('#fc-speak').addEventListener('click', () => {
       const curr = state.fcDeck[state.fcIndex];
       if (curr) {
@@ -1972,6 +2027,16 @@
     ThemeManager.init();
     SearchEngine.init();
     initScrollProgress();
+
+    // 🔙 Back / Forward Navigation Button Listeners
+    const btnBack = $('#nav-back');
+    const btnForward = $('#nav-forward');
+    if (btnBack) {
+      btnBack.addEventListener('click', () => history.back());
+    }
+    if (btnForward) {
+      btnForward.addEventListener('click', () => history.forward());
+    }
 
     // 📲 Mobile Navigation Drawer Handlers
     const menuTrigger = $('#mobile-menu-trigger');

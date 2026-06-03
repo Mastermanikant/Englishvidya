@@ -1378,3 +1378,174 @@
   .hero-stats-strip { gap: var(--sp-6); }
 }
 
+/* ───────────────────────────────────────────────────────────────────
+   GLASSMORPHIC NAVIGATION BUTTONS
+   ─────────────────────────────────────────────────────────────────── */
+.nav-btn-glass {
+  width: 36px;
+  height: 36px;
+  border-radius: var(--radius-full);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg-hover);
+  backdrop-filter: blur(12px) saturate(180%);
+  -webkit-backdrop-filter: blur(12px) saturate(180%);
+  border: 1px solid var(--border);
+  color: var(--text-secondary);
+  transition: all var(--duration-fast) var(--ease-out);
+}
+.nav-btn-glass:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: var(--accent-soft);
+  transform: translateY(-1px) scale(1.05);
+}
+.nav-btn-glass:active {
+  transform: scale(0.95);
+}
+
+/* ───────────────────────────────────────────────────────────────────
+   COLLAPSIBLE TRANSITIONS (Expand-Shrink Animation)
+   ─────────────────────────────────────────────────────────────────── */
+.collapsible-container {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.35s ease-out, opacity 0.3s ease-out;
+  opacity: 0;
+}
+.collapsible-container.open {
+  max-height: 1000px;
+  opacity: 1;
+}
+
+/* ───────────────────────────────────────────────────────────────────
+   ACTIVITY TRACKER
+   ─────────────────────────────────────────────────────────────────── */
+.activity-tracker-card {
+  margin-top: var(--sp-4);
+}
+.tracker-tree {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-2);
+}
+.tracker-year-item, .tracker-month-item {
+  border-left: 2px solid var(--border);
+  padding-left: var(--sp-3);
+  margin-left: var(--sp-2);
+}
+.tracker-header-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--sp-2) var(--sp-3);
+  border-radius: var(--radius-md);
+  background: var(--bg-hover);
+  cursor: pointer;
+  user-select: none;
+  transition: background 0.2s ease;
+}
+.tracker-header-row:hover {
+  background: var(--bg-active);
+}
+.tracker-chevron {
+  font-size: 0.8rem;
+  transition: transform 0.25s ease;
+  color: var(--text-tertiary);
+}
+.tracker-header-row.active .tracker-chevron {
+  transform: rotate(90deg);
+}
+.tracker-days-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(65px, 1fr));
+  gap: var(--sp-2);
+  padding: var(--sp-3) 0 var(--sp-1) 0;
+}
+.tracker-day-cell {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--sp-2);
+  border-radius: var(--radius-sm);
+  background: var(--bg-hover);
+  border: 1px solid var(--border);
+  font-size: 0.75rem;
+}
+.tracker-day-cell.active {
+  background: var(--accent-soft);
+  border-color: var(--accent);
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+/* ───────────────────────────────────────────────────────────────────
+   FLASHCARD UI ENHANCEMENTS
+   ─────────────────────────────────────────────────────────────────── */
+.flashcard-scroll-container {
+  overflow-y: auto;
+  max-height: 220px;
+  padding-right: var(--sp-2);
+}
+.flashcard-scroll-container::-webkit-scrollbar {
+  width: 4px;
+}
+.flashcard-scroll-container::-webkit-scrollbar-track {
+  background: transparent;
+}
+.flashcard-scroll-container::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: var(--radius-full);
+}
+.flashcard-devanagari-pron {
+  font-family: var(--font-heading);
+  font-size: 1.15rem;
+  color: var(--accent);
+  margin-top: var(--sp-2);
+  background: var(--accent-soft);
+  padding: var(--sp-1) var(--sp-3);
+  border-radius: var(--radius-full);
+  display: inline-block;
+}
+.flashcard-devanagari-meaning {
+  font-size: 1.1rem;
+  color: var(--text-primary);
+  margin-top: var(--sp-3);
+  font-weight: 500;
+}
+.flashcard-nav-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  border-radius: var(--radius-full);
+  background: var(--bg-raised);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  z-index: 10;
+  color: var(--text-secondary);
+}
+.flashcard-nav-arrow:hover {
+  background: var(--bg-hover);
+  color: var(--accent);
+  border-color: var(--accent);
+}
+.flashcard-nav-arrow.left {
+  left: -20px;
+}
+.flashcard-nav-arrow.right {
+  right: -20px;
+}
+@media (max-width: 600px) {
+  .flashcard-nav-arrow.left { left: -10px; }
+  .flashcard-nav-arrow.right { right: -10px; }
+}
+

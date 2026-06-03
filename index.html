@@ -129,6 +129,14 @@
                 <img src="./icons/logo.png" alt="English Vidya" class="logo-svg" width="36" height="36" loading="eager">
                 <span class="logo-text"><span>English</span> <span class="logo-accent">Vidya</span></span>
             </a>
+            <div class="header-nav-buttons" style="display: flex; gap: var(--sp-2); margin-left: var(--sp-4);">
+                <button class="nav-btn-glass" id="nav-back" aria-label="Go Back">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+                </button>
+                <button class="nav-btn-glass" id="nav-forward" aria-label="Go Forward">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                </button>
+            </div>
         </div>
         <nav class="desktop-nav" aria-label="Desktop Navigation" id="desktop-nav">
             <a href="/" class="desktop-nav-link active" data-route="home">Home</a>
@@ -509,6 +517,19 @@
                 <div class="wa-arrow" aria-hidden="true">→</div>
             </a>
 
+            <!-- ═══ 9b. ACTIVITY TRACKER ═══ -->
+            <section class="activity-tracker-section premium-card animate-in d-8" aria-labelledby="activity-heading">
+                <div class="section-header-wrap" style="margin-bottom: var(--sp-3); cursor: pointer;" id="activity-tracker-toggle">
+                    <p class="section-label" id="activity-heading" style="margin-bottom: 0;">📅 Study Activity Tracker</p>
+                    <span class="tracker-chevron" id="activity-tracker-chevron" style="font-size: 1rem; color: var(--text-tertiary); transition: transform 0.25s ease;">▼</span>
+                </div>
+                <div class="collapsible-container" id="activity-tracker-content">
+                    <div class="tracker-tree" id="activity-tracker-tree-root">
+                        <!-- Populated dynamically by JS -->
+                    </div>
+                </div>
+            </section>
+
             <!-- ═══ 10. TIP OF THE DAY ═══ -->
             <div class="tip-card animate-in d-8">
                 <div class="tip-badge">💡 आज का टिप</div>
@@ -541,6 +562,9 @@
                     <p class="promo-hero-subtitle">
                         ग्रामीण भारत और हिंदी-माध्यम के छात्रों के बीच अंग्रेजी के डर को खत्म कर उन्हें रोजगार और डिजिटल
                         अवसरों के लिए सशक्त बनाना।
+                    </p>
+                    <p style="font-size: 0.75rem; color: var(--text-tertiary); margin-top: var(--sp-3); opacity: 0.8; font-family: var(--font-body);">
+                        🕒 <span class="last-updated" data-updated="2026-06-03T13:25:00+05:30">Last Updated</span>
                     </p>
                 </div>
 

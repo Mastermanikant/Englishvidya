@@ -11,7 +11,41 @@ document.addEventListener('DOMContentLoaded', () => {
     initQuickQuiz();
     initBottomNavHighlight();
     initProgressDisplay();
+    initLastUpdatedTimestamps();
+    initActivityTracker();
 });
+
+// ─── 0a. Last Updated Timestamp Formatter ────────────────────────────────
+/**
+ * सभी [data-updated] वाले .last-updated spans को
+ * DD-MM-YYYY, HH:mm (भारतीय समय) format में दिखाता है।
+ */
+function initLastUpdatedTimestamps() {
+    const spans = document.querySelectorAll('.last-updated[data-updated]');
+    spans.forEach(span => {
+        const raw = span.getAttribute('data-updated');
+        if (!raw) return;
+        try {
+            const dt = new Date(raw);
+            if (isNaN(dt.getTime())) return;
+            // DD-MM-YYYY, HH:mm  (UTC+5:30 = IST)
+            const opts = {
+                timeZone: 'Asia/Kolkata',
+                day:    '2-digit',
+                month:  '2-digit',
+                year:   'numeric',
+                hour:   '2-digit',
+                minute: '2-digit',
+                hour12: false
+            };
+            const parts = new Intl.DateTimeFormat('en-IN', opts).formatToParts(dt);
+            const get = type => parts.find(p => p.type === type)?.value ?? '00';
+            span.textContent = `अंतिम अपडेट: ${get('day')}-${get('month')}-${get('year')}, ${get('hour')}:${get('minute')}`;
+        } catch (e) {
+            console.warn('[EV] Timestamp parse error:', e);
+        }
+    });
+}
 
 // ─── 0. Section Expand/Collapse ───────────────────────────────────────────
 function initSectionToggles() {
@@ -422,3 +456,186 @@ function showToast(msg) {
     toast.classList.add('show');
     setTimeout(() => toast.classList.remove('show'), 3000);
 }
+
+// ─── 5. Study Activity Tracker ───────────────────────────────────────────
+function initActivityTracker() {
+    const toggleBtn = document.getElementById('activity-tracker-toggle');
+    const contentEl = document.getElementById('activity-tracker-content');
+    const chevronEl = document.getElementById('activity-tracker-chevron');
+    
+    if (!toggleBtn || !contentEl) return;
+
+    // Restore saved state from localStorage
+    const savedState = localStorage.getItem('ev-section-activity');
+    if (savedState === 'expanded') {
+        contentEl.classList.add('open');
+        toggleBtn.classList.add('active');
+        if (chevronEl) chevronEl.style.transform = 'rotate(90deg)';
+    }
+
+    toggleBtn.addEventListener('click', () => {
+        const isOpen = contentEl.classList.toggle('open');
+        toggleBtn.classList.toggle('active', isOpen);
+        if (chevronEl) {
+            chevronEl.style.transform = isOpen ? 'rotate(90deg)' : 'rotate(0deg)';
+        }
+        localStorage.setItem('ev-section-activity', isOpen ? 'expanded' : 'collapsed');
+    });
+
+    // Populate mock activity data if none exists
+    seedMockActivityData();
+
+    // Render activity tracker tree
+    renderTracker();
+}
+
+function seedMockActivityData() {
+    const raw = localStorage.getItem('ev-activity');
+    if (!raw) {
+        const now = new Date();
+        const data = {};
+        
+        for (let i = 0; i < 4; i++) {
+            const d = new Date(now.getTime() - i * 24 * 60 * 60 * 1000);
+            const y = d.getFullYear().toString();
+            const m = (d.getMonth() + 1).toString().padStart(2, '0');
+            const dayStr = d.getDate().toString().padStart(2, '0');
+            
+            if (!data[y]) data[y] = {};
+            if (!data[y][m]) data[y][m] = {};
+            data[y][m][dayStr] = Math.floor(Math.random() * 20) + 5;
+        }
+        localStorage.setItem('ev-activity', JSON.stringify(data));
+    }
+}
+
+function renderTracker() {
+    const root = document.getElementById('activity-tracker-tree-root');
+    if (!root) return;
+
+    let data = {};
+    try {
+        data = JSON.parse(localStorage.getItem('ev-activity') || '{}');
+    } catch (e) {
+        data = {};
+    }
+
+    const years = Object.keys(data).sort((a, b) => b - a);
+    if (years.length === 0) {
+        root.innerHTML = '<p class="text-secondary" style="font-size: 0.9rem; text-align: center;">No activity recorded yet.</p>';
+        return;
+    }
+
+    let html = '';
+    years.forEach(year => {
+        const monthsData = data[year] || {};
+        const months = Object.keys(monthsData).sort((a, b) => b - a);
+        
+        let yearTotal = 0;
+        months.forEach(m => {
+            Object.values(monthsData[m]).forEach(v => yearTotal += v);
+        });
+
+        html += `
+            <div class="tracker-year-container" style="margin-bottom: var(--sp-2);">
+                <div class="tracker-header-row" data-toggle="year-${year}">
+                    <span style="font-weight: 700; color: var(--text-primary);">📅 Year ${year}</span>
+                    <span style="display: flex; align-items: center; gap: 8px;">
+                        <span class="badge" style="font-size: 0.7rem;">${yearTotal} min</span>
+                        <span class="tracker-chevron">▶</span>
+                    </span>
+                </div>
+                <div class="collapsible-container tracker-year-item" id="year-${year}">
+        `;
+
+        months.forEach(month => {
+            const daysData = monthsData[month] || {};
+            const days = Object.keys(daysData).sort((a, b) => b - a);
+            
+            const monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+            const monthIdx = parseInt(month, 10) - 1;
+            const monthName = monthNames[monthIdx] || `Month ${month}`;
+
+            let monthTotal = 0;
+            days.forEach(d => monthTotal += daysData[d]);
+
+            html += `
+                <div class="tracker-month-container" style="margin-top: var(--sp-2);">
+                    <div class="tracker-header-row" data-toggle="month-${year}-${month}">
+                        <span style="font-weight: 600; color: var(--text-secondary);">📁 ${monthName}</span>
+                        <span style="display: flex; align-items: center; gap: 8px;">
+                            <span class="badge badge-success" style="font-size: 0.65rem; background: rgba(34, 197, 94, 0.1); color: var(--success);">${monthTotal} min</span>
+                            <span class="tracker-chevron">▶</span>
+                        </span>
+                    </div>
+                    <div class="collapsible-container tracker-month-item" id="month-${year}-${month}">
+                        <div class="tracker-days-grid">
+            `;
+
+            days.forEach(day => {
+                const mins = daysData[day];
+                html += `
+                    <div class="tracker-day-cell active">
+                        <span style="font-weight: 700; opacity: 0.9;">Day ${day}</span>
+                        <span style="font-size: 0.65rem; opacity: 0.7; margin-top: 2px;">${mins} min</span>
+                    </div>
+                `;
+            });
+
+            html += `
+                        </div>
+                    </div>
+                </div>
+            `;
+        });
+
+        html += `
+                </div>
+            </div>
+        `;
+    });
+
+    root.innerHTML = html;
+
+    root.querySelectorAll('.tracker-header-row').forEach(row => {
+        row.addEventListener('click', () => {
+            const targetId = row.getAttribute('data-toggle');
+            const targetEl = document.getElementById(targetId);
+            if (!targetEl) return;
+            
+            const isOpen = targetEl.classList.toggle('open');
+            row.classList.toggle('active', isOpen);
+            
+            const chevron = row.querySelector('.tracker-chevron');
+            if (chevron) {
+                chevron.style.transform = isOpen ? 'rotate(90deg)' : 'rotate(0deg)';
+                chevron.style.transition = 'transform 0.25s ease';
+            }
+        });
+    });
+}
+
+function recordActivity(minutes = 1) {
+    try {
+        const now = new Date();
+        const year = now.getFullYear().toString();
+        const month = (now.getMonth() + 1).toString().padStart(2, '0');
+        const day = now.getDate().toString().padStart(2, '0');
+        
+        const raw = localStorage.getItem('ev-activity') || '{}';
+        const data = JSON.parse(raw);
+        
+        if (!data[year]) data[year] = {};
+        if (!data[year][month]) data[year][month] = {};
+        if (!data[year][month][day]) data[year][month][day] = 0;
+        
+        data[year][month][day] += minutes;
+        localStorage.setItem('ev-activity', JSON.stringify(data));
+        
+        renderTracker();
+    } catch (e) {
+        console.warn('[Activity] Error recording:', e);
+    }
+}
+
+window.recordActivity = recordActivity;
