@@ -1,2 +1,1 @@
-# 404 fallback for Cloudflare Workers static assets
-/404 /404.html 200
+# No redirects needed — Eleventy generates clean URLs natively
