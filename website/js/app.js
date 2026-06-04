@@ -192,8 +192,10 @@
     open() {
       const searchOverlay = $('#search-overlay');
       const searchInput = $('#search-input');
+      const triggerBtn = $('#search-trigger-btn');
       if (!searchOverlay) return;
       searchOverlay.classList.add('active');
+      if (triggerBtn) triggerBtn.setAttribute('aria-expanded', 'true');
       document.body.style.overflow = 'hidden';
       setTimeout(() => { if (searchInput) searchInput.focus(); }, 100);
       this.showRecent();
@@ -203,8 +205,10 @@
       const searchOverlay = $('#search-overlay');
       const searchInput = $('#search-input');
       const searchResults = $('#search-results');
+      const triggerBtn = $('#search-trigger-btn');
       if (!searchOverlay) return;
       searchOverlay.classList.remove('active');
+      if (triggerBtn) triggerBtn.setAttribute('aria-expanded', 'false');
       document.body.style.overflow = '';
       if (searchInput) searchInput.value = '';
       if (searchResults) searchResults.innerHTML = '<div class="search-placeholder"><p class="search-hint">🔍 Type above — results appear instantly</p><div id="recent-searches-container"></div></div>';
@@ -498,10 +502,11 @@
 
     card.addEventListener('click', (e) => {
       if (e.target.closest('.word-speak-btn')) return;
-      card.classList.toggle('expanded');
+      const isExpanded = card.classList.toggle('expanded');
+      card.setAttribute('aria-expanded', isExpanded);
       const drawer = card.querySelector('.word-details-drawer');
       if (drawer) {
-        if (card.classList.contains('expanded')) {
+        if (isExpanded) {
           drawer.style.maxHeight = drawer.scrollHeight + 'px';
         } else {
           drawer.style.maxHeight = '0px';
@@ -1043,17 +1048,56 @@
     const menuTrigger = $('#mobile-menu-trigger');
     const drawerOverlay = $('#mobile-drawer-overlay');
     const drawerClose = $('#mobile-drawer-close');
+    const drawer = $('#mobile-drawer');
 
-    if (!menuTrigger || !drawerOverlay || !drawerClose) return;
+    if (!menuTrigger || !drawerOverlay || !drawerClose || !drawer) return;
+
+    // Accessibility focus trap setup
+    const focusableElementsString = 'a[href], area[href], input:not([disabled]), select:not([disabled]), textarea:not([disabled]), button:not([disabled]), iframe, object, embed, [tabindex="0"], [contenteditable]';
+    let focusableElements = [];
+    let firstFocusableElement;
+    let lastFocusableElement;
+    let previousActiveElement;
+
+    const trapTabKey = (e) => {
+      if (e.key === 'Tab') {
+        if (e.shiftKey) { // Shift + Tab
+          if (document.activeElement === firstFocusableElement) {
+            e.preventDefault();
+            lastFocusableElement.focus();
+          }
+        } else { // Tab
+          if (document.activeElement === lastFocusableElement) {
+            e.preventDefault();
+            firstFocusableElement.focus();
+          }
+        }
+      } else if (e.key === 'Escape') {
+        closeDrawer();
+      }
+    };
 
     const openDrawer = () => {
       drawerOverlay.classList.add('active');
       menuTrigger.setAttribute('aria-expanded', 'true');
+      
+      previousActiveElement = document.activeElement;
+      focusableElements = Array.from(drawer.querySelectorAll(focusableElementsString));
+      if (focusableElements.length > 0) {
+        firstFocusableElement = focusableElements[0];
+        lastFocusableElement = focusableElements[focusableElements.length - 1];
+        setTimeout(() => firstFocusableElement.focus(), 100);
+      }
+      drawer.addEventListener('keydown', trapTabKey);
     };
     
     const closeDrawer = () => {
       drawerOverlay.classList.remove('active');
       menuTrigger.setAttribute('aria-expanded', 'false');
+      drawer.removeEventListener('keydown', trapTabKey);
+      if (previousActiveElement) {
+        previousActiveElement.focus();
+      }
     };
 
     menuTrigger.addEventListener('click', openDrawer);
@@ -1092,6 +1136,22 @@
         if (installBanner) installBanner.style.display = 'none';
       });
     }
+  }
+
+  function initExpandableSections() {
+    $$('.section-toggle').forEach(toggle => {
+      const isExpanded = toggle.classList.contains('expanded') || toggle.getAttribute('aria-expanded') === 'true';
+      toggle.setAttribute('aria-expanded', isExpanded);
+      toggle.addEventListener('click', () => {
+        const currentlyExpanded = toggle.getAttribute('aria-expanded') === 'true';
+        toggle.setAttribute('aria-expanded', !currentlyExpanded);
+        const targetId = toggle.getAttribute('aria-controls');
+        if (targetId) {
+          const target = document.getElementById(targetId);
+          if (target) target.classList.toggle('expanded', !currentlyExpanded);
+        }
+      });
+    });
   }
 
   // ═══════════════════════════════════════════════════
@@ -1135,6 +1195,7 @@
     SearchEngine.init();
     initScrollProgress();
     initMobileDrawer();
+    initExpandableSections();
     initPWA();
 
     // Page-specific features

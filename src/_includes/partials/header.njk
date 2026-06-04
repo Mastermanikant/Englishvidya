@@ -5,7 +5,7 @@
   <div class="mobile-drawer" id="mobile-drawer">
     <div class="mobile-drawer-header">
       <a href="/" class="logo" aria-label="{{ site.siteName }} Home">
-        <img src="/assets/icons/logo.png" alt="{{ site.siteName }}" class="logo-svg" width="36" height="36" loading="eager">
+        <img src="/assets/icons/logo.webp" alt="{{ site.siteName }}" class="logo-svg" width="36" height="36" loading="eager">
         <span class="logo-text"><span>English</span> <span class="logo-accent">Vidya</span></span>
       </a>
       <button class="mobile-drawer-close" id="mobile-drawer-close" aria-label="Close menu">
@@ -16,14 +16,9 @@
       </button>
     </div>
     <nav class="mobile-drawer-nav" aria-label="Mobile Navigation Drawer">
-      {% for item in site.nav %}
-      <a href="{{ item.href }}" class="mobile-drawer-link{% if page.url == item.href %} active{% endif %}" data-route="{{ item.route }}">
-        {{ item.icon }} {{ item.label }}
-      </a>
-      {% endfor %}
-      <hr class="drawer-divider">
       <a href="/contact/" class="mobile-drawer-link" data-route="contact">✉️ Contact Us</a>
       <a href="/legal/" class="mobile-drawer-link" data-route="legal">📜 Policies</a>
+      <a href="/settings/" class="mobile-drawer-link" data-route="settings">⚙️ Settings / Profile</a>
     </nav>
   </div>
 </div>
@@ -40,7 +35,7 @@
       </svg>
     </button>
     <a href="/" class="logo" id="logo-link" aria-label="{{ site.siteName }} Home">
-      <img src="/assets/icons/logo.png" alt="{{ site.siteName }}" class="logo-svg" width="36" height="36" loading="eager">
+      <img src="/assets/icons/logo.webp" alt="{{ site.siteName }}" class="logo-svg" width="36" height="36" loading="eager">
       <span class="logo-text"><span>English</span> <span class="logo-accent">Vidya</span></span>
     </a>
     <div class="header-nav-buttons" style="display:flex;gap:var(--sp-2);margin-left:var(--sp-4);">
