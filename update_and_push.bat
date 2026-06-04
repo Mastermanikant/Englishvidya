@@ -18,7 +18,7 @@ echo  ====================================
 echo.
 
 echo  [1/2] Installing dependencies...
-call npm ci
+call npm install
 if %errorlevel% neq 0 (
     echo  ERROR: npm ci failed!
     pause
