@@ -15,7 +15,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "website/manifest.json":   "manifest.json"   });
   eleventyConfig.addPassthroughCopy({ "website/service-worker.js": "service-worker.js" });
   eleventyConfig.addPassthroughCopy({ "website/robots.txt":      "robots.txt"      });
-  eleventyConfig.addPassthroughCopy({ "website/_redirects":      "_redirects"      });
+
   eleventyConfig.addPassthroughCopy({ "website/.nojekyll":       ".nojekyll"       });
   eleventyConfig.addPassthroughCopy({ "website/404.html":        "404.html"        });
 
