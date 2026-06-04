@@ -1,6 +1,6 @@
 {
   "name": "englishvidya",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "English Vidya — Static site powered by Eleventy. Hindi-medium students ke liye English learning platform.",
   "scripts": {
     "build": "eleventy",
