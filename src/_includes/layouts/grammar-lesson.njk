@@ -1,0 +1,87 @@
+---
+layout: layouts/base.njk
+---
+
+{# Breadcrumb #}
+<nav class="breadcrumb" aria-label="Breadcrumb">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a href="/" itemprop="item"><span itemprop="name">Home</span></a>
+      <meta itemprop="position" content="1">
+    </li>
+    <span class="breadcrumb-sep" aria-hidden="true">›</span>
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a href="/grammar/" itemprop="item"><span itemprop="name">Grammar</span></a>
+      <meta itemprop="position" content="2">
+    </li>
+    <span class="breadcrumb-sep" aria-hidden="true">›</span>
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <span itemprop="name">{{ title }}</span>
+      <meta itemprop="position" content="3">
+    </li>
+  </ol>
+</nav>
+
+{# Article Schema #}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": {{ title | jsonify | safe }},
+  "description": {{ (description or title) | truncate(200) | jsonify | safe }},
+  "url": "https://englishvidya.com/grammar/{{ slug }}/",
+  "inLanguage": ["hi", "en"],
+  "isPartOf": {
+    "@type": "Course",
+    "name": "English Grammar Course",
+    "url": "https://englishvidya.com/grammar/"
+  },
+  "author": { "@type": "Organization", "name": "English Vidya" },
+  "publisher": {
+    "@type": "EducationalOrganization",
+    "name": "English Vidya",
+    "url": "https://englishvidya.com"
+  },
+  "educationalLevel": "Beginner",
+  "about": { "@type": "Thing", "name": "English Grammar" }
+}
+</script>
+
+{# Lesson Header #}
+<div class="lesson-header animate-fade-in">
+  {% if part %}
+  <span class="badge">Lesson {{ part }}</span>
+  {% endif %}
+  <h1 style="margin-top: var(--sp-3);">{{ title | escHtml }}</h1>
+</div>
+
+{# Markdown Content #}
+<div class="card markdown-content" style="margin-top: var(--sp-6);">
+  {{ content | safe }}
+</div>
+
+{# Prev / Next Navigation using Eleventy Collections #}
+{% set previousLesson = collections.grammar | getPreviousCollectionItem(page) %}
+{% set nextLesson = collections.grammar | getNextCollectionItem(page) %}
+
+<div class="lesson-nav-row" style="margin-top: var(--sp-6);">
+  {% if previousLesson %}
+  <a href="{{ previousLesson.url }}" class="lesson-nav-btn prev">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+    <span>{{ previousLesson.data.title | truncate(30) }}</span>
+  </a>
+  {% else %}
+  <div></div>
+  {% endif %}
+
+  {% if nextLesson %}
+  <a href="{{ nextLesson.url }}" class="lesson-nav-btn next">
+    <span>{{ nextLesson.data.title | truncate(30) }}</span>
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+  </a>
+  {% endif %}
+</div>
+
+<div style="text-align: center; margin-top: var(--sp-6); margin-bottom: var(--sp-8);">
+  <a href="/grammar/" class="lesson-back-btn">← सभी Grammar Lessons देखें</a>
+</div>

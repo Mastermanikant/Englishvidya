@@ -39,11 +39,11 @@ permalink: /grammar/
     "url": "https://englishvidya.com"
   },
   "hasCourseInstance": [
-    {% for lesson in lessonPages %}
+    {% for lesson in collections.grammar %}
     {
       "@type": "CourseInstance",
-      "name": "{{ lesson.title | escHtml }}",
-      "url": "https://englishvidya.com/grammar/{{ lesson.slug }}/"
+      "name": "{{ lesson.data.title | escHtml }}",
+      "url": "https://englishvidya.com{{ lesson.url }}"
     }{% if not loop.last %},{% endif %}
     {% endfor %}
   ]
@@ -52,12 +52,12 @@ permalink: /grammar/
 
 {# Lesson List — Real HTML for SEO #}
 <div class="chapter-list" role="list">
-  {% for lesson in lessonPages | sort(false, false, 'part') %}
-  <a href="/grammar/{{ lesson.slug }}/" class="chapter-item" role="listitem"
-     aria-label="Lesson {{ lesson.part }}: {{ lesson.title }}">
-    <div class="chapter-num">{{ lesson.part }}</div>
+  {% for lesson in collections.grammar %}
+  <a href="{{ lesson.url }}" class="chapter-item" role="listitem"
+     aria-label="Lesson {{ lesson.data.part }}: {{ lesson.data.title }}">
+    <div class="chapter-num">{{ lesson.data.part }}</div>
     <div class="chapter-info">
-      <div class="chapter-title">{{ lesson.title | escHtml }}</div>
+      <div class="chapter-title">{{ lesson.data.title | escHtml }}</div>
     </div>
     <span class="chapter-arrow" aria-hidden="true">→</span>
   </a>

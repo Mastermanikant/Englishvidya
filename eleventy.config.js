@@ -59,25 +59,40 @@ module.exports = function (eleventyConfig) {
     return s.length > len ? s.slice(0, len) + "…" : s;
   });
 
-  // ── 3. COMPUTED DATA for lesson pages ──────────────────────────────
-  // Load all lessons once for prev/next navigation
-  function loadLessons() {
-    const dir = path.join(__dirname, "website/data/grammar/lessons");
-    try {
-      return fs.readdirSync(dir)
-        .filter(f => f.endsWith(".json"))
-        .map(f => {
-          try { return JSON.parse(fs.readFileSync(path.join(dir, f), "utf8")); }
-          catch(e) { return null; }
-        })
-        .filter(Boolean)
-        .sort((a, b) => (a.part || 999) - (b.part || 999));
-    } catch(e) { return []; }
-  }
+  // ── 3. COLLECTIONS ───────────────────────────────────────────────
+  // Custom sorted collection for grammar lessons
+  eleventyConfig.addCollection("grammar", function(collectionApi) {
+    return collectionApi.getFilteredByTag("grammar").sort((a, b) => {
+      let partA = a.data.part || 999;
+      let partB = b.data.part || 999;
+      return partA - partB;
+    });
+  });
 
-  const ALL_LESSONS = loadLessons();
-
-  eleventyConfig.addGlobalData("allLessons", ALL_LESSONS);
+  // ── 4. SHORTCODES ──────────────────────────────────────────────────
+  eleventyConfig.addShortcode("include_word", function(word) {
+    const allWords = require('./src/_data/allWords.js')();
+    const targetSlug = String(word).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+    const foundWord = allWords.find(w => w.slug === targetSlug);
+    
+    if (!foundWord) {
+      return `<div class="card" style="border-left: 4px solid var(--accent);"><p><strong>${word}</strong> (Definition not found)</p></div>`;
+    }
+    
+    return `
+      <div class="card" style="border-left: 4px solid var(--accent); margin: var(--sp-4) 0; padding: var(--sp-4);">
+        <h3 style="margin-bottom: var(--sp-2); display: flex; align-items: center; gap: 8px;">
+          ${foundWord.word} 
+          <button onclick="speakWord('${foundWord.word.replace(/'/g, "\\'")}')" style="background:none; border:none; cursor:pointer; font-size:1.2rem;">🔊</button>
+        </h3>
+        <div style="font-size: 1.1rem; margin-bottom: var(--sp-2);"><strong>Hindi:</strong> ${foundWord.meaning}</div>
+        ${foundWord.example ? `<div style="font-style: italic; color: var(--text-secondary);">"${foundWord.example}"</div>` : ''}
+        <div style="margin-top: var(--sp-3);">
+          <a href="/dictionary/${foundWord.slug}/" style="font-size: 0.9rem; font-weight: bold; color: var(--accent);">View full details →</a>
+        </div>
+      </div>
+    `;
+  });
 
   // ── 4. BUILD OPTIONS ───────────────────────────────────────────────
   return {

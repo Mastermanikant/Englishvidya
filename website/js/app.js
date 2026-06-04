@@ -584,7 +584,18 @@
       return;
     }
 
-    state.fcDeck = shuffleArray([...words]).slice(0, 20);
+    const progressData = JSON.parse(localStorage.getItem(STORAGE_KEYS.fcProgress) || '{}');
+    const now = Date.now();
+
+    const sortedWords = [...words].sort((a, b) => {
+      const pA = progressData[a.word || a.w] || { nextReviewDate: 0 };
+      const pB = progressData[b.word || b.w] || { nextReviewDate: 0 };
+      const dueA = pA.nextReviewDate <= now ? 0 : pA.nextReviewDate;
+      const dueB = pB.nextReviewDate <= now ? 0 : pB.nextReviewDate;
+      return dueA - dueB;
+    });
+
+    state.fcDeck = shuffleArray(sortedWords.slice(0, 20));
     state.fcIndex = 0;
     state.fcKnown = 0;
 
@@ -652,10 +663,13 @@
             <button class="flashcard-nav-arrow right" id="fc-next-arrow" aria-label="Next Word">→</button>
           </div>
 
-          <div class="flashcard-controls" style="width: 100%; max-width: 480px;">
-            <button class="fc-btn fc-btn-skip" id="fc-skip">⏭️ Skip</button>
-            <button class="fc-btn fc-btn-know" id="fc-speak" style="background: var(--accent-soft); color: var(--accent);">🔊 Listen</button>
-            <button class="fc-btn fc-btn-know" id="fc-know">✅ Remembered</button>
+          <div class="flashcard-controls" style="width: 100%; max-width: 480px; gap: 8px; display: grid; grid-template-columns: 1fr 1fr 1fr;">
+            <button class="fc-btn" id="fc-hard" style="background: var(--bg-card); color: #ef4444; border: 1px solid #ef4444;">🔴 Hard</button>
+            <button class="fc-btn" id="fc-good" style="background: var(--bg-card); color: #eab308; border: 1px solid #eab308;">🟡 Good</button>
+            <button class="fc-btn" id="fc-easy" style="background: var(--bg-card); color: #22c55e; border: 1px solid #22c55e;">🟢 Easy</button>
+          </div>
+          <div style="width: 100%; max-width: 480px; margin-top: 8px;">
+            <button class="fc-btn" id="fc-speak" style="background: var(--accent-soft); color: var(--accent); width: 100%;">🔊 Listen Pronunciation</button>
           </div>
         </div>
       </div>
@@ -670,14 +684,16 @@
       });
     }
 
-    const skipBtn = $('#fc-skip');
-    const knowBtn = $('#fc-know');
+    const hardBtn = $('#fc-hard');
+    const goodBtn = $('#fc-good');
+    const easyBtn = $('#fc-easy');
     const speakBtn = $('#fc-speak');
     const prevArrow = $('#fc-prev-arrow');
     const nextArrow = $('#fc-next-arrow');
 
-    if (skipBtn) skipBtn.addEventListener('click', () => nextFlashcard(container, categories, activeSlug, false));
-    if (knowBtn) knowBtn.addEventListener('click', () => nextFlashcard(container, categories, activeSlug, true));
+    if (hardBtn) hardBtn.addEventListener('click', () => processFlashcardResponse(container, categories, activeSlug, 1));
+    if (goodBtn) goodBtn.addEventListener('click', () => processFlashcardResponse(container, categories, activeSlug, 3));
+    if (easyBtn) easyBtn.addEventListener('click', () => processFlashcardResponse(container, categories, activeSlug, 5));
     
     if (prevArrow) {
       prevArrow.addEventListener('click', (e) => {
@@ -764,6 +780,50 @@
     } else {
       updateCardContent(container, categories, activeSlug);
     }
+  }
+
+  function processFlashcardResponse(container, categories, activeSlug, quality) {
+    if (state.fcTransitioning) return;
+    
+    const current = state.fcDeck[state.fcIndex];
+    if (!current) return;
+    
+    const parsed = parseWord(current);
+    const wordKey = parsed.word;
+    
+    const progressData = JSON.parse(localStorage.getItem(STORAGE_KEYS.fcProgress) || '{}');
+    const p = progressData[wordKey] || { interval: 0, repetitions: 0, easeFactor: 2.5 };
+    
+    let easeFactor = p.easeFactor + (0.1 - (5 - quality) * (0.08 + (5 - quality) * 0.02));
+    if (easeFactor < 1.3) easeFactor = 1.3;
+    
+    let interval;
+    let repetitions = p.repetitions;
+    
+    if (quality < 3) {
+      repetitions = 0;
+      interval = 1;
+    } else {
+      if (repetitions === 0) {
+        interval = 1;
+      } else if (repetitions === 1) {
+        interval = 6;
+      } else {
+        interval = Math.round(p.interval * easeFactor);
+      }
+      repetitions++;
+    }
+    
+    progressData[wordKey] = {
+      interval,
+      repetitions,
+      easeFactor,
+      nextReviewDate: Date.now() + interval * 86400000
+    };
+    
+    localStorage.setItem(STORAGE_KEYS.fcProgress, JSON.stringify(progressData));
+    
+    nextFlashcard(container, categories, activeSlug, true);
   }
 
   function nextFlashcard(container, categories, activeSlug, known) {

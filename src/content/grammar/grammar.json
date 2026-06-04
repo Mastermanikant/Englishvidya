@@ -1,0 +1,5 @@
+{
+  "layout": "layouts/grammar-lesson.njk",
+  "tags": ["grammar"],
+  "permalink": "/grammar/{{ slug }}/index.html"
+}
