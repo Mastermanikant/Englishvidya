@@ -1,0 +1,33 @@
+---
+layout: layouts/base.njk
+pageTitle: "Flashcards Practice — English Vidya"
+metaDescription: "English शब्दों को Flashcards से याद करें — वैज्ञानिक तरीके से अभ्यास करें। 19,773 शब्द 148 categories में।"
+permalink: /flashcards/
+---
+
+{# Breadcrumb #}
+<nav class="breadcrumb" aria-label="Breadcrumb">
+  <a href="/">Home</a>
+  <span class="breadcrumb-sep" aria-hidden="true">›</span>
+  <span aria-current="page">Flashcards</span>
+</nav>
+
+<div class="hero-welcome animate-fade-in" style="padding-bottom: var(--sp-4);">
+  <h1 style="font-size: 1.5rem;">🃏 Flashcards Practice</h1>
+  <p class="hero-subtitle">See, memorise and listen to words — वैज्ञानिक तरीके से याद करें!</p>
+</div>
+
+{# Flashcards is JS-powered #}
+<div id="flashcards-app">
+  <div class="loading-screen" style="min-height:200px;">
+    <div class="loader-spinner"></div>
+    <p class="loader-text">Loading flashcards...</p>
+  </div>
+</div>
+
+<noscript>
+  <div class="card" style="padding: var(--sp-8); text-align:center;">
+    <h2>JavaScript Required</h2>
+    <p>Flashcards ke liye JavaScript enable karein.</p>
+  </div>
+</noscript>

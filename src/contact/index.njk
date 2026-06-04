@@ -34,7 +34,7 @@ bodyClass: page-contact
 
 {# ── Contact Options ── #}
 <section class="contact-cards animate-fade-in" style="animation-delay:0.1s">
-  <a href="https://whatsapp.com/channel/0029VbCnmPe0VycPXCmBBH43"
+  <a href="https://wa.me/917070133396"
      target="_blank" rel="noopener noreferrer"
      class="contact-card card" id="contact-whatsapp">
     <div class="contact-card-icon" style="background:#25D366;">
@@ -43,9 +43,9 @@ bodyClass: page-contact
       </svg>
     </div>
     <div>
-      <h3>WhatsApp Channel</h3>
-      <p>Updates, notes और tips पाएँ सीधे WhatsApp पर।</p>
-      <span class="contact-link">Join Now ↗</span>
+      <h3>WhatsApp Direct</h3>
+      <p>सीधे WhatsApp पर message करें।</p>
+      <span class="contact-link">Message Now ↗</span>
     </div>
   </a>
 
@@ -79,6 +79,57 @@ bodyClass: page-contact
       <span class="contact-link">Subscribe करें ↗</span>
     </div>
   </a>
+</section>
+
+{# ── Contact Form → WhatsApp ── #}
+<section class="card contact-form-section animate-fade-in" style="max-width:650px; margin:2rem auto; padding:1.5rem; animation-delay:0.15s;">
+  <h2 style="margin-bottom: var(--sp-4); color: var(--accent);">📝 Message भेजें</h2>
+  <p class="text-secondary" style="margin-bottom: var(--sp-5); font-size:0.92rem;">
+    Form भरें → WhatsApp पर structured message खुलेगा → हमें Send करें।
+  </p>
+  <form id="contact-form" autocomplete="on">
+    <div style="display:flex; flex-direction:column; gap:var(--sp-4);">
+      <div>
+        <label for="contact-name" style="display:block; font-weight:600; margin-bottom:6px; font-size:0.9rem;">
+          👤 आपका नाम <span style="color:#ef4444;">*</span>
+        </label>
+        <input type="text" id="contact-name" name="name" required placeholder="अपना नाम लिखें"
+               style="width:100%; padding:12px 16px; border-radius:10px; border:1px solid var(--border); background:var(--bg-primary); color:var(--text-primary); font-size:1rem; box-sizing:border-box;">
+      </div>
+      <div>
+        <label for="contact-email" style="display:block; font-weight:600; margin-bottom:6px; font-size:0.9rem;">
+          📧 Email (Optional)
+        </label>
+        <input type="email" id="contact-email" name="email" placeholder="your@email.com"
+               style="width:100%; padding:12px 16px; border-radius:10px; border:1px solid var(--border); background:var(--bg-primary); color:var(--text-primary); font-size:1rem; box-sizing:border-box;">
+      </div>
+      <div>
+        <label for="contact-category" style="display:block; font-weight:600; margin-bottom:6px; font-size:0.9rem;">
+          📌 विषय (Subject)
+        </label>
+        <select id="contact-category" name="category"
+                style="width:100%; padding:12px 16px; border-radius:10px; border:1px solid var(--border); background:var(--bg-primary); color:var(--text-primary); font-size:1rem; box-sizing:border-box;">
+          <option value="General Query">General Query</option>
+          <option value="Bug Report">Bug Report / Error</option>
+          <option value="Content Suggestion">Content Suggestion</option>
+          <option value="Feature Request">Feature Request</option>
+          <option value="Collaboration">Collaboration</option>
+          <option value="Other">Other</option>
+        </select>
+      </div>
+      <div>
+        <label for="contact-message" style="display:block; font-weight:600; margin-bottom:6px; font-size:0.9rem;">
+          💬 संदेश <span style="color:#ef4444;">*</span>
+        </label>
+        <textarea id="contact-message" name="message" required rows="4" placeholder="अपना संदेश यहाँ लिखें..."
+                  style="width:100%; padding:12px 16px; border-radius:10px; border:1px solid var(--border); background:var(--bg-primary); color:var(--text-primary); font-size:1rem; resize:vertical; box-sizing:border-box; font-family:inherit;"></textarea>
+      </div>
+      <button type="submit" id="contact-submit-btn"
+              style="padding:14px; border-radius:12px; background:#25D366; color:#fff; font-size:1rem; font-weight:700; border:none; cursor:pointer; display:flex; align-items:center; justify-content:center; gap:8px;">
+        💬 WhatsApp पर भेजें
+      </button>
+    </div>
+  </form>
 </section>
 
 {# ── Note ── #}

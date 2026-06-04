@@ -6,14 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
 
   {# ── SEO Meta ── #}
-  <title>{{ pageTitle or site.siteName }}</title>
-  <meta name="description" content="{{ metaDescription or site.siteDescription }}">
+  <title>{{ pageTitle or title or site.siteName }}</title>
+  <meta name="description" content="{{ metaDescription or description or site.siteDescription }}">
   <link rel="canonical" href="{{ site.canonicalBase }}{{ page.url }}">
 
   {# ── Open Graph (WhatsApp, Facebook, Twitter preview) ── #}
   <meta property="og:type" content="{{ ogType or 'website' }}">
-  <meta property="og:title" content="{{ pageTitle or site.siteName }}">
-  <meta property="og:description" content="{{ metaDescription or site.siteDescription }}">
+  <meta property="og:title" content="{{ pageTitle or title or site.siteName }}">
+  <meta property="og:description" content="{{ metaDescription or description or site.siteDescription }}">
   <meta property="og:url" content="{{ site.canonicalBase }}{{ page.url }}">
   <meta property="og:image" content="{{ ogImage or site.ogImage }}">
   <meta property="og:site_name" content="{{ site.siteName }}">
@@ -104,5 +104,20 @@
   <script src="/js/app.js" defer></script>
   <script src="/js/home-redesign.js" defer></script>
   {{ extraScripts | safe }}
+
+  {# ── PWA Service Worker Registration ── #}
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function () {
+        navigator.serviceWorker.register('/service-worker.js')
+          .then(function (reg) {
+            console.log('[SW] Registered:', reg.scope);
+          })
+          .catch(function (err) {
+            console.warn('[SW] Registration failed:', err);
+          });
+      });
+    }
+  </script>
 </body>
 </html>
