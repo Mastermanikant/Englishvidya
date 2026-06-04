@@ -1,0 +1,82 @@
+{# ══ HEADER PARTIAL — यहाँ बदलो, सभी pages पर बदलेगा ══ #}
+
+{# Mobile Drawer Overlay #}
+<div class="mobile-drawer-overlay" id="mobile-drawer-overlay" role="dialog" aria-label="Mobile Navigation Menu">
+  <div class="mobile-drawer" id="mobile-drawer">
+    <div class="mobile-drawer-header">
+      <a href="/" class="logo" aria-label="{{ site.siteName }} Home">
+        <img src="/assets/icons/logo.png" alt="{{ site.siteName }}" class="logo-svg" width="36" height="36" loading="eager">
+        <span class="logo-text"><span>English</span> <span class="logo-accent">Vidya</span></span>
+      </a>
+      <button class="mobile-drawer-close" id="mobile-drawer-close" aria-label="Close menu">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+    <nav class="mobile-drawer-nav" aria-label="Mobile Navigation Drawer">
+      {% for item in site.nav %}
+      <a href="{{ item.href }}" class="mobile-drawer-link{% if page.url == item.href %} active{% endif %}" data-route="{{ item.route }}">
+        {{ item.icon }} {{ item.label }}
+      </a>
+      {% endfor %}
+      <hr class="drawer-divider">
+      <a href="/contact-us/" class="mobile-drawer-link" data-route="contact">✉️ Contact Us</a>
+      <a href="/legal/" class="mobile-drawer-link" data-route="legal">📜 Policies</a>
+    </nav>
+  </div>
+</div>
+
+{# Sticky Glass Header #}
+<header class="app-header" id="app-header">
+  <div class="header-left">
+    <button class="header-btn mobile-menu-trigger" id="mobile-menu-trigger"
+      aria-label="Menu" aria-expanded="false" style="margin-right: var(--sp-3);">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="4" y1="12" x2="20" y2="12"></line>
+        <line x1="4" y1="6" x2="20" y2="6"></line>
+        <line x1="4" y1="18" x2="20" y2="18"></line>
+      </svg>
+    </button>
+    <a href="/" class="logo" id="logo-link" aria-label="{{ site.siteName }} Home">
+      <img src="/assets/icons/logo.png" alt="{{ site.siteName }}" class="logo-svg" width="36" height="36" loading="eager">
+      <span class="logo-text"><span>English</span> <span class="logo-accent">Vidya</span></span>
+    </a>
+    <div class="header-nav-buttons" style="display:flex;gap:var(--sp-2);margin-left:var(--sp-4);">
+      <button class="nav-btn-glass" id="nav-back" aria-label="Go Back" onclick="history.back()">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+      </button>
+      <button class="nav-btn-glass" id="nav-forward" aria-label="Go Forward" onclick="history.forward()">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+      </button>
+    </div>
+  </div>
+
+  {# Desktop Navigation #}
+  <nav class="desktop-nav" aria-label="Desktop Navigation" id="desktop-nav">
+    {% for item in site.nav %}
+    <a href="{{ item.href }}" class="desktop-nav-link{% if page.url == item.href %} active{% endif %}" data-route="{{ item.route }}">
+      {{ item.label }}
+    </a>
+    {% endfor %}
+    <a href="/about-us/" class="desktop-nav-link{% if page.url == '/about-us/' %} active{% endif %}" data-route="about">About Us</a>
+  </nav>
+
+  <div class="header-right">
+    <button class="header-btn" id="search-trigger-btn" aria-label="Search">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="11" cy="11" r="8"/>
+        <path d="m21 21-4.35-4.35"/>
+      </svg>
+    </button>
+    <button class="header-btn" id="theme-toggle-btn" aria-label="Toggle Theme">
+      <svg class="icon-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+      </svg>
+      <svg class="icon-moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+      </svg>
+    </button>
+  </div>
+</header>

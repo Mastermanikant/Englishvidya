@@ -1,0 +1,6 @@
+node_modules/
+.cache/
+_site/
+dist/
+*.log
+.env

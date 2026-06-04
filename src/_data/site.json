@@ -1,0 +1,21 @@
+{
+  "siteName": "English Vidya",
+  "siteUrl": "https://englishvidya.com",
+  "siteDescription": "हिंदी माध्यम के छात्रों के लिए अंग्रेजी सीखने का सरल, तेज़ और आधुनिक डिजिटल मंच।",
+  "siteDescriptionEn": "Learn English with confidence — Grammar, Vocabulary & Spoken English for Hindi-medium students.",
+  "logoText": "English Vidya",
+  "wordCount": "19,773",
+  "topicCount": "60+",
+  "canonicalBase": "https://englishvidya.com",
+  "ogImage": "https://englishvidya.com/assets/icons/og-banner.png",
+  "year": 2026,
+  "whatsappChannel": "https://whatsapp.com/channel/0029VbCnmPe0VycPXCmBBH43",
+  "youtubeChannel": "https://youtube.com/@englishvidyahq",
+  "nav": [
+    { "label": "Home",       "href": "/",           "route": "home",       "icon": "🏠" },
+    { "label": "Grammar",    "href": "/grammar/",   "route": "grammar",    "icon": "📖" },
+    { "label": "Dictionary", "href": "/dictionary/","route": "dictionary", "icon": "🔤" },
+    { "label": "Flashcards", "href": "/flashcards/","route": "flashcards", "icon": "🃏" },
+    { "label": "About Us",   "href": "/about-us/",  "route": "about",      "icon": "ℹ️" }
+  ]
+}

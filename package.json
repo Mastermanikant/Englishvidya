@@ -1,0 +1,15 @@
+{
+  "name": "englishvidya",
+  "version": "2.0.0",
+  "description": "English Vidya — Static site powered by Eleventy. Hindi-medium students ke liye English learning platform.",
+  "scripts": {
+    "build": "eleventy",
+    "dev":   "eleventy --serve --port=3000",
+    "build:prod": "NODE_ENV=production eleventy"
+  },
+  "author": "Mastermanikant",
+  "license": "MIT",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0"
+  }
+}

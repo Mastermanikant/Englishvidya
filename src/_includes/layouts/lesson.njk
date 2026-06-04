@@ -1,0 +1,117 @@
+---
+layout: layouts/base.njk
+---
+
+{#
+  GRAMMAR LESSON PAGE
+  ══════════════════════════════════════════════════════════
+  यह template हर grammar lesson JSON से एक real HTML page बनाता है।
+  URL: englishvidya.com/grammar/what-is-noun/
+  SEO: Real HTML in page source — Google और GPT dono padh sakte hain
+  ══════════════════════════════════════════════════════════
+#}
+
+{# Breadcrumb Navigation #}
+<nav class="breadcrumb" aria-label="Breadcrumb">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a href="/" itemprop="item"><span itemprop="name">Home</span></a>
+      <meta itemprop="position" content="1">
+    </li>
+    <span class="breadcrumb-sep" aria-hidden="true">›</span>
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a href="/grammar/" itemprop="item"><span itemprop="name">Grammar</span></a>
+      <meta itemprop="position" content="2">
+    </li>
+    <span class="breadcrumb-sep" aria-hidden="true">›</span>
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <span itemprop="name">{{ lessonData.title }}</span>
+      <meta itemprop="position" content="3">
+    </li>
+  </ol>
+</nav>
+
+{# Lesson Header #}
+<div class="lesson-header animate-fade-in">
+  <span class="badge">Lesson {{ lessonData.part }}</span>
+  <h1 style="margin-top: var(--sp-3);">{{ lessonData.title | escHtml }}</h1>
+</div>
+
+{# Teacher Note Card #}
+{% if lessonData.teacher_note %}
+<div class="card teacher-card">
+  <div class="teacher-header">
+    <div class="teacher-avatar">👨‍🏫</div>
+    <div>
+      <div class="teacher-name">Teacher's Note</div>
+      <div class="teacher-role">English Mentor</div>
+    </div>
+  </div>
+  <div class="teacher-quote">"{{ lessonData.teacher_note | escHtml }}"</div>
+</div>
+{% endif %}
+
+{# Definition Card #}
+{% if lessonData.definition_en %}
+<div class="card">
+  <h2>Definition</h2>
+  <p style="margin-top: var(--sp-3); font-size: 1.05rem; font-weight: 500;">
+    {{ lessonData.definition_en | escHtml }}
+  </p>
+  {% if lessonData.definition_hi %}
+  <div class="definition-block" style="margin-top: var(--sp-3);">
+    <strong>Hindi:</strong> {{ lessonData.definition_hi | escHtml }}
+  </div>
+  {% endif %}
+</div>
+{% endif %}
+
+{# Categories / Examples Accordion #}
+{% if lessonData.categories and lessonData.categories.length > 0 %}
+<div class="examples-accordion">
+  {% for cat in lessonData.categories %}
+  <details class="accordion-item" {% if loop.first %}open{% endif %}>
+    <summary class="accordion-trigger">
+      <span>{{ cat.name | escHtml }}</span>
+      <span class="accordion-arrow">›</span>
+    </summary>
+    <div class="accordion-content">
+      <div class="accordion-body">
+        {% if cat.intro %}
+        <p class="accordion-intro">{{ cat.intro | nl2br | safe }}</p>
+        {% endif %}
+        {% if cat.examples %}
+        {% for ex in cat.examples %}
+        <div class="example-pair">
+          <div class="example-en">{{ ex.en | escHtml }}</div>
+          <div class="example-hi">{{ ex.hi | escHtml }}</div>
+        </div>
+        {% endfor %}
+        {% endif %}
+      </div>
+    </div>
+  </details>
+  {% endfor %}
+</div>
+{% endif %}
+
+{# Next / Previous Navigation #}
+<div class="lesson-nav-row">
+  {% if prevLesson %}
+  <a href="/grammar/{{ prevLesson.slug }}/" class="lesson-nav-btn prev">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+    <span>पिछला: {{ prevLesson.title }}</span>
+  </a>
+  {% endif %}
+  {% if nextLesson %}
+  <a href="/grammar/{{ nextLesson.slug }}/" class="lesson-nav-btn next">
+    <span>अगला: {{ nextLesson.title }}</span>
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+  </a>
+  {% endif %}
+</div>
+
+{# Back to all lessons #}
+<div style="text-align: center; margin-top: var(--sp-6);">
+  <a href="/grammar/" class="lesson-back-btn">← सभी Grammar Lessons देखें</a>
+</div>

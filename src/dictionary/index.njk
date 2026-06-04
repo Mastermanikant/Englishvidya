@@ -1,0 +1,27 @@
+---
+layout: layouts/base.njk
+pageTitle: "शब्दकोश — 19,773 English Words with Hindi Meanings | English Vidya"
+metaDescription: "English Vidya का शब्दकोश — 19,773 अंग्रेजी शब्द हिंदी अर्थ सहित। 148 categories में organized। बिल्कुल मुफ़्त।"
+permalink: /dictionary/
+---
+
+<div class="hero-welcome animate-fade-in" style="padding-bottom: var(--sp-4);">
+  <h1 style="font-size: 1.5rem;">🔤 शब्दकोश (Dictionary)</h1>
+  <p class="hero-subtitle">{{ site.wordCount }} words across 148 categories — with Hindi meanings</p>
+</div>
+
+{# Dictionary is JS-powered (19,773 words need client-side filtering) #}
+{# SEO ke liye static description diya, baaki JS handle karega #}
+<div id="dict-app">
+  <div class="loading-screen" style="min-height:200px;">
+    <div class="loader-spinner"></div>
+    <p class="loader-text">Loading dictionary...</p>
+  </div>
+</div>
+
+<noscript>
+  <div class="card" style="padding: var(--sp-8); text-align:center;">
+    <h2>JavaScript Required</h2>
+    <p>Dictionary ke liye JavaScript enable karein. 19,773 words load karne ke liye yeh zaruri hai.</p>
+  </div>
+</noscript>

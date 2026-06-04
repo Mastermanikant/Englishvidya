@@ -1,0 +1,90 @@
+---
+layout: layouts/base.njk
+title: "Contact Us — English Vidya"
+description: "English Vidya से संपर्क करें — हमें feedback, सुझाव या सहायता के लिए WhatsApp, Email या इस form से message करें।"
+permalink: /contact/
+bodyClass: page-contact
+---
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ContactPage",
+  "name": "Contact English Vidya",
+  "url": "https://englishvidya.com/contact/",
+  "description": "English Vidya से संपर्क करें।"
+}
+</script>
+
+{# ── Breadcrumb ── #}
+<nav class="breadcrumb" aria-label="breadcrumb">
+  <a href="/">Home</a>
+  <span aria-hidden="true">›</span>
+  <span aria-current="page">Contact Us</span>
+</nav>
+
+{# ── Hero ── #}
+<section class="contact-hero animate-fade-in">
+  <div class="about-hero-badge">📬 हम यहाँ हैं</div>
+  <h1 class="about-hero-title">संपर्क करें</h1>
+  <p class="about-hero-subtitle">
+    कोई सुझाव, सवाल या error मिली? हमें ज़रूर बताएँ — हम जल्दी जवाब देते हैं।
+  </p>
+</section>
+
+{# ── Contact Options ── #}
+<section class="contact-cards animate-fade-in" style="animation-delay:0.1s">
+  <a href="https://whatsapp.com/channel/0029VbCnmPe0VycPXCmBBH43"
+     target="_blank" rel="noopener noreferrer"
+     class="contact-card card" id="contact-whatsapp">
+    <div class="contact-card-icon" style="background:#25D366;">
+      <svg viewBox="0 0 24 24" fill="#fff" width="28" height="28">
+        <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.514 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.724-1.457L0 24zm6.59-4.846c1.6.95 3.188 1.449 4.825 1.451 5.436.002 9.858-4.42 9.86-9.86.001-2.636-1.024-5.113-2.887-6.978C16.581 1.884 14.103.859 11.472.859 6.037.859 1.615 5.28 1.613 10.717c0 1.696.442 3.352 1.28 4.809l-1.037 3.79 3.882-1.018zm11.758-6.84c-.297-.15-1.758-.867-2.03-.967-.273-.099-.471-.15-.669.15-.198.297-.768.967-.941 1.16-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.521.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+      </svg>
+    </div>
+    <div>
+      <h3>WhatsApp Channel</h3>
+      <p>Updates, notes और tips पाएँ सीधे WhatsApp पर।</p>
+      <span class="contact-link">Join Now ↗</span>
+    </div>
+  </a>
+
+  <a href="mailto:support@englishvidya.com"
+     class="contact-card card" id="contact-email">
+    <div class="contact-card-icon" style="background:var(--accent);">
+      <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"
+           stroke-linecap="round" stroke-linejoin="round" width="28" height="28">
+        <rect x="2" y="4" width="20" height="16" rx="2"/>
+        <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
+      </svg>
+    </div>
+    <div>
+      <h3>Email</h3>
+      <p>support@englishvidya.com</p>
+      <span class="contact-link">Email करें ↗</span>
+    </div>
+  </a>
+
+  <a href="https://youtube.com/@englishvidyahq"
+     target="_blank" rel="noopener noreferrer"
+     class="contact-card card" id="contact-youtube">
+    <div class="contact-card-icon" style="background:#FF0000;">
+      <svg viewBox="0 0 24 24" fill="#fff" width="28" height="28">
+        <path d="M23.498 6.163a3.003 3.003 0 00-2.11-2.11C19.518 3.5 12 3.5 12 3.5s-7.518 0-9.388.553a3.003 3.003 0 00-2.11 2.11C0 8.033 0 12 0 12s0 3.967.502 5.837a3.003 3.003 0 002.11 2.11c1.87.553 9.388.553 9.388.553s7.518 0 9.388-.553a3.003 3.003 0 002.11-2.11C24 15.967 24 12 24 12s0-3.967-.502-5.837zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+      </svg>
+    </div>
+    <div>
+      <h3>YouTube Channel</h3>
+      <p>Video lessons और explanations।</p>
+      <span class="contact-link">Subscribe करें ↗</span>
+    </div>
+  </a>
+</section>
+
+{# ── Note ── #}
+<section class="card animate-fade-in" style="max-width:650px; margin:2rem auto; padding:1.5rem; animation-delay:0.2s;">
+  <p style="color:var(--text-secondary); font-size:0.95rem; line-height:1.7;">
+    📌 <strong>Note:</strong> हम एक छोटी team हैं। आपके message का जवाब 24–48 घंटों में मिलेगा।
+    Bug report या content में error मिली हो तो please screenshot के साथ भेजें।
+  </p>
+</section>

@@ -1,0 +1,23 @@
+{# ══ BOTTOM NAV PARTIAL (Mobile) ══ #}
+<nav class="bottom-nav" aria-label="Main Navigation">
+  <a href="/" class="nav-item{% if page.url == '/' %} active{% endif %}" data-route="home">
+    <span class="nav-icon">🏠</span>
+    <span>Home</span>
+  </a>
+  <a href="/grammar/" class="nav-item{% if page.url | includes('/grammar') %} active{% endif %}" data-route="grammar">
+    <span class="nav-icon">📖</span>
+    <span>Grammar</span>
+  </a>
+  <a href="/dictionary/" class="nav-item{% if page.url | includes('/dictionary') %} active{% endif %}" data-route="dictionary">
+    <span class="nav-icon">🔤</span>
+    <span>Dictionary</span>
+  </a>
+  <a href="/flashcards/" class="nav-item{% if page.url | includes('/flashcards') %} active{% endif %}" data-route="flashcards">
+    <span class="nav-icon">🃏</span>
+    <span>Practice</span>
+  </a>
+  <a href="/profile/" class="nav-item{% if page.url | includes('/profile') %} active{% endif %}" data-route="profile">
+    <span class="nav-icon">👤</span>
+    <span>Profile</span>
+  </a>
+</nav>

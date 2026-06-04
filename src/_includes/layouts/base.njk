@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="{{ htmlLang or 'hi' }}" data-theme="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+
+  {# ── SEO Meta ── #}
+  <title>{{ pageTitle or site.siteName }}</title>
+  <meta name="description" content="{{ metaDescription or site.siteDescription }}">
+  <link rel="canonical" href="{{ site.canonicalBase }}{{ page.url }}">
+
+  {# ── Open Graph (WhatsApp, Facebook, Twitter preview) ── #}
+  <meta property="og:type" content="{{ ogType or 'website' }}">
+  <meta property="og:title" content="{{ pageTitle or site.siteName }}">
+  <meta property="og:description" content="{{ metaDescription or site.siteDescription }}">
+  <meta property="og:url" content="{{ site.canonicalBase }}{{ page.url }}">
+  <meta property="og:image" content="{{ ogImage or site.ogImage }}">
+  <meta property="og:site_name" content="{{ site.siteName }}">
+  <meta name="twitter:card" content="summary_large_image">
+
+  {# ── Theme Color ── #}
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#f8fafc">
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0c1222">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="{{ site.siteName }}">
+
+  {# ── Favicon & PWA ── #}
+  <link rel="icon" type="image/png" href="/assets/icons/icon-192.png">
+  <link rel="icon" type="image/svg+xml" href="/assets/icons/logo.svg">
+  <link rel="apple-touch-icon" href="/assets/icons/icon-192.png">
+  <link rel="manifest" href="/manifest.json">
+
+  {# ── Schema.org Structured Data (SEO + AEO) ── #}
+  {% if schemaJson %}
+  <script type="application/ld+json">{{ schemaJson | safe }}</script>
+  {% else %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "{{ pageTitle or site.siteName }}",
+    "url": "{{ site.canonicalBase }}{{ page.url }}",
+    "description": "{{ metaDescription or site.siteDescription }}",
+    "isPartOf": {
+      "@type": "EducationalOrganization",
+      "name": "{{ site.siteName }}",
+      "url": "{{ site.siteUrl }}"
+    }
+  }
+  </script>
+  {% endif %}
+
+  {# ── Fonts ── #}
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@600;700;800;900&display=swap" rel="stylesheet">
+
+  {# ── CSS ── #}
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/home-redesign.css">
+
+  {# ── FOUC Prevention + Theme Restore ── #}
+  <script>
+    (function () {
+      var t = localStorage.getItem('ev-theme') || 'dark';
+      document.documentElement.setAttribute('data-theme', t);
+    })();
+  </script>
+
+  {# ── Page-specific extra head content ── #}
+  {{ extraHead | safe }}
+</head>
+
+<body>
+
+  {# ── Scroll Progress Bar ── #}
+  <div class="scroll-progress-track" aria-hidden="true">
+    <div class="scroll-progress-bar" id="scroll-progress"></div>
+  </div>
+
+  {# ══ HEADER — एक जगह बदलो, सब जगह बदलेगा ══ #}
+  {% include "partials/header.njk" %}
+
+  {# ══ SEARCH OVERLAY ══ #}
+  {% include "partials/search-overlay.njk" %}
+
+  {# ══ MAIN CONTENT ══ #}
+  <main class="app-main" id="app-content" role="main">
+    {{ content | safe }}
+  </main>
+
+  {# ══ FOOTER ══ #}
+  {% include "partials/footer.njk" %}
+
+  {# ══ BOTTOM NAV (Mobile) ══ #}
+  {% include "partials/bottom-nav.njk" %}
+
+  {# ══ TOAST CONTAINER ══ #}
+  <div id="toast-container" aria-live="polite" aria-atomic="true"></div>
+
+  {# ── JS — existing app files ── #}
+  <script src="/js/app.js" defer></script>
+  <script src="/js/home-redesign.js" defer></script>
+  {{ extraScripts | safe }}
+</body>
+</html>

@@ -1,0 +1,25 @@
+{# ══ SEARCH OVERLAY PARTIAL ══ #}
+<div class="search-overlay" id="search-overlay" role="dialog" aria-label="Search Words" aria-modal="true">
+  <div class="search-overlay-header">
+    <div class="search-input-wrap">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+      </svg>
+      <input type="text" id="search-input"
+        placeholder="Search any English word..."
+        autocomplete="off" autocapitalize="off" spellcheck="false"
+        aria-label="Search words">
+      <button class="search-close-btn" id="search-close-btn" aria-label="Close search">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+  <div class="search-results-area" id="search-results" role="listbox">
+    <div class="search-placeholder">
+      <p class="search-hint">🔍 Type above — results will appear instantly</p>
+      <div id="recent-searches-container"></div>
+    </div>
+  </div>
+</div>

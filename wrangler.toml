@@ -1,0 +1,7 @@
+name = "englishvidya"
+compatibility_date = "2026-06-03"
+
+# Eleventy build output folder
+# 'npm run build' se _site/ folder generate hoga
+# Cloudflare Pages yahi serve karega
+assets = { directory = "./_site" }
