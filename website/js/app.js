@@ -1041,6 +1041,58 @@
     return 'Good Evening 🌙';
   }
 
+  // ══════════════════════════════════════════════════════════════
+  //  15. PWA INSTALL PROMPT
+  // ══════════════════════════════════════════════════════════════
+  function initPWA() {
+    let deferredPrompt;
+    const installBanner = $('#pwa-install-banner');
+    const installBtn = $('#pwa-install-btn');
+    const drawerAction = $('#drawer-pwa-action');
+    
+    // Check if already installed
+    const isStandalone = window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone;
+    
+    if (isStandalone) {
+      if (drawerAction) {
+        drawerAction.style.display = 'block';
+        drawerAction.innerHTML = '📱 App Installed ✓';
+        drawerAction.style.color = 'var(--text-tertiary)';
+        drawerAction.disabled = true;
+      }
+    } else {
+      window.addEventListener('beforeinstallprompt', (e) => {
+        e.preventDefault();
+        deferredPrompt = e;
+        
+        // Show banner and drawer button
+        if (installBanner) installBanner.style.display = 'flex'; // It's a flex container
+        if (drawerAction) {
+          drawerAction.style.display = 'block';
+          drawerAction.innerHTML = '📱 Install App';
+        }
+      });
+    }
+
+    const handleInstall = async () => {
+      if (!deferredPrompt) return;
+      deferredPrompt.prompt();
+      const { outcome } = await deferredPrompt.userChoice;
+      if (outcome === 'accepted') {
+        deferredPrompt = null;
+        if (installBanner) installBanner.style.display = 'none';
+        if (drawerAction) {
+          drawerAction.innerHTML = '📱 App Installed ✓';
+          drawerAction.style.color = 'var(--text-tertiary)';
+          drawerAction.disabled = true;
+        }
+      }
+    };
+
+    if (installBtn) installBtn.addEventListener('click', handleInstall);
+    if (drawerAction) drawerAction.addEventListener('click', handleInstall);
+  }
+
   // ═══════════════════════════════════════════════════
   //  14. MOBILE DRAWER
   // ═══════════════════════════════════════════════════
