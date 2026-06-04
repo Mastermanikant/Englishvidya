@@ -1065,17 +1065,19 @@
         e.preventDefault();
         deferredPrompt = e;
         
-        // Show banner and drawer button
+        // Show banner 
         if (installBanner) installBanner.style.display = 'flex'; // It's a flex container
-        if (drawerAction) {
-          drawerAction.style.display = 'block';
-          drawerAction.innerHTML = '📱 Install App';
-        }
+        // Drawer action is already block by default, we can update text just in case
+        if (drawerAction) drawerAction.innerHTML = '📱 Install App';
       });
     }
 
     const handleInstall = async () => {
-      if (!deferredPrompt) return;
+      if (!deferredPrompt) {
+        // Fallback if browser doesn't support or prompt isn't ready
+        alert("App install is either not supported on this browser (like iOS/Safari), or it's already installed. On iPhone, use Share -> Add to Home Screen.");
+        return;
+      }
       deferredPrompt.prompt();
       const { outcome } = await deferredPrompt.userChoice;
       if (outcome === 'accepted') {
