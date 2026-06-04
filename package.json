@@ -5,7 +5,8 @@
   "scripts": {
     "build": "eleventy",
     "dev":   "eleventy --serve --port=3000",
-    "build:prod": "NODE_ENV=production eleventy"
+    "build:prod": "NODE_ENV=production eleventy",
+    "deploy": "npm run build && wrangler deploy"
   },
   "author": "Mastermanikant",
   "license": "MIT",
