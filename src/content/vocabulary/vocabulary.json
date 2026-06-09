@@ -1,5 +1,5 @@
 {
   "layout": "layouts/grammar-lesson.njk",
   "tags": ["vocabulary_article"],
-  "permalink": "/vocabulary/{{ slug }}/index.html"
+  "permalink": "/vocabulary/{{ slug | default(page.fileSlug) }}/index.html"
 }
