@@ -1,0 +1,99 @@
+---
+layout: layouts/base.njk
+pageTitle: "Contact Us - EnglishVidya"
+metaDescription: "Get in touch with Master Manikant and the EnglishVidya team."
+permalink: /contact/
+---
+
+<style>
+.contact-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    background: #f8fafc;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+.btn-whatsapp {
+    background-color: #25D366; /* WhatsApp Green */
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    transition: background 0.3s;
+}
+.btn-whatsapp:hover {
+    background-color: #128C7E;
+}
+</style>
+
+<div class="contact-container">
+    <h1 style="text-align: center; margin-bottom: 10px;">Contact Us</h1>
+    <p style="text-align: center; color: #64748b; margin-bottom: 30px;">
+        Have a question? Send us a direct message on WhatsApp!
+    </p>
+
+    <form class="contact-form" id="waForm">
+        <div class="form-group">
+            <label for="name">Your Name (आपका नाम)</label>
+            <input type="text" id="name" required placeholder="Enter your name">
+        </div>
+        
+        <div class="form-group">
+            <label for="purpose">Purpose (आप किस लिए मैसेज कर रहे हैं?)</label>
+            <input type="text" id="purpose" required placeholder="e.g., Grammar Doubt, Suggestion">
+        </div>
+
+        <div class="form-group">
+            <label for="message">Message (आपका संदेश)</label>
+            <textarea id="message" rows="5" required placeholder="Type your message here..."></textarea>
+        </div>
+
+        <button type="submit" class="btn-whatsapp">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="white"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86s.274.072.376-.043c.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.045.072.045.419-.1.824z"/></svg>
+            Send via WhatsApp
+        </button>
+    </form>
+</div>
+
+<script>
+document.getElementById('waForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    
+    // Get values
+    const name = document.getElementById('name').value;
+    const purpose = document.getElementById('purpose').value;
+    const message = document.getElementById('message').value;
+    
+    // Format message for WhatsApp
+    const waNumber = '917070133396';
+    const waText = `*Hello EnglishVidya Team!*%0A%0A*Name:* ${name}%0A*Purpose:* ${purpose}%0A*Message:* ${message}`;
+    
+    // Open WhatsApp
+    window.open(`https://wa.me/${waNumber}?text=${waText}`, '_blank');
+});
+</script>
