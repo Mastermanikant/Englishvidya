@@ -534,8 +534,8 @@ h1, h2, h3, h4, h5 {
   color: var(--text-primary);
 }
 
-h1 { font-size: 1.85rem; font-weight: 800; letter-spacing: -1px; }
-h2 { font-size: 1.45rem; font-weight: 700; letter-spacing: -0.5px; }
+h1 { font-size: 1.85rem; font-weight: 800; letter-spacing: -0.2px; }
+h2 { font-size: 1.45rem; font-weight: 700; letter-spacing: 0px; }
 h3 { font-size: 1.15rem; font-weight: 600; color: var(--accent); }
 h4 { font-size: 1.05rem; font-weight: 600; }
 
