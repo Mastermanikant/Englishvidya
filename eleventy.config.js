@@ -11,6 +11,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "website/css":             "css"             });
   eleventyConfig.addPassthroughCopy({ "website/js":              "js"              });
   eleventyConfig.addPassthroughCopy({ "website/icons":           "assets/icons"    });
+  eleventyConfig.addPassthroughCopy({ "src/assets/images":       "assets/images"   });
   eleventyConfig.addPassthroughCopy({ "website/data":            "data"            });
   eleventyConfig.addPassthroughCopy({ "website/manifest.json":   "manifest.json"   });
   eleventyConfig.addPassthroughCopy({ "website/service-worker.js": "service-worker.js" });
