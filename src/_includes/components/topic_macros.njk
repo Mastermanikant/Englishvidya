@@ -1,0 +1,60 @@
+{% macro definition_card(data) %}
+<div class="definition-card">
+    <div class="def-short">
+        <span class="badge" style="background:#fde047; color:#854d0e; padding:3px 8px; border-radius:4px; font-size:0.8rem; margin-bottom:10px; display:inline-block;">Short Definition of {{ data.topic_en }} ({{ data.topic_hi }} की सरल परिभाषा)</span><br>
+        {{ data.short_en }}<br>
+        ( {{ data.short_pron }} )<br>
+        <strong style="color:#0284c7;">{{ data.short_hi }}</strong>
+    </div>
+    
+    <details class="vocab-accordion">
+        <summary class="vocab-summary">Detailed Definition of {{ data.topic_en }} ({{ data.topic_hi }} की विस्तृत परिभाषा)</summary>
+        <div class="vocab-content">
+            <p>{{ data.detailed_en }}</p>
+            <p>( {{ data.detailed_pron }} )</p>
+            <p style="color:#0284c7;">{{ data.detailed_hi }}</p>
+            
+            {% if data.explanation or data.example %}
+            <hr style="margin: 15px 0; border: 0; border-top: 1px dashed #cbd5e1;">
+            {% endif %}
+            
+            {% if data.explanation %}
+            <p><strong>Explanation (समझें):</strong> {{ data.explanation }}</p>
+            {% endif %}
+            {% if data.example %}
+            <p><strong>Example:</strong> {{ data.example }}</p>
+            {% endif %}
+            
+            {% if data.more_examples_link %}
+            <a href="{{ data.more_examples_link }}" style="display:inline-block; margin-top:10px; color:#2563eb; font-weight:bold; text-decoration:none;">🔗 View More Examples ({{ data.more_examples_text }}) →</a>
+            {% endif %}
+        </div>
+    </details>
+
+    <details class="vocab-accordion">
+        <summary class="vocab-summary">Layer 3: Word Meaning (कठिन शब्द)</summary>
+        <div class="vocab-content">
+            <ul class="vocab-list">
+                {% for item in data.vocab %}
+                <li><strong>{{ item.word }}</strong> <span class="vocab-pronunciation">( {{ item.pron }} )</span> - {{ item.meaning }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+    </details>
+</div>
+{% endmacro %}
+
+{% macro importance_section(data) %}
+<div class="importance-section">
+    <div class="importance-title">
+        <span>🤔 Why {{ data.topic_en }} is important? ({{ data.topic_hi }} क्यों महत्वपूर्ण है?)</span>
+    </div>
+    <details class="importance-accordion">
+        <summary></summary>
+        <div class="importance-content">
+            <p><strong>This topic is important because</strong> {{ data.reason_en }}</p>
+            <p><strong>यह टॉपिक इसलिए महत्वपूर्ण है क्योंकि</strong> {{ data.reason_hi }}</p>
+        </div>
+    </details>
+</div>
+{% endmacro %}
