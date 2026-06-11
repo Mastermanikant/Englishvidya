@@ -5,7 +5,7 @@
    Versioning: Update CACHE_VERSION to bust old caches on deploy
    ═══════════════════════════════════════════════════════════════ */
 
-const CACHE_VERSION   = 'ev-v5';
+const CACHE_VERSION   = 'ev-v6';
 const SHELL_CACHE     = `${CACHE_VERSION}-shell`;
 const DATA_CACHE      = `${CACHE_VERSION}-data`;
 const LESSON_CACHE    = `${CACHE_VERSION}-lessons`;
