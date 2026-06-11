@@ -17,12 +17,16 @@ permalink: /flashcards/
   <p class="hero-subtitle">See, memorise and listen to words — वैज्ञानिक तरीके से याद करें!</p>
 </div>
 
-{# Flashcards is JS-powered #}
-<div id="flashcards-app">
-  <div class="loading-screen" style="min-height:200px;">
-    <div class="loader-spinner"></div>
-    <p class="loader-text">Loading flashcards...</p>
-  </div>
+<div class="word-grid animate-fade-in" style="margin-top: var(--sp-6);">
+  {% for cat in categoriesIndex %}
+    <a href="/flashcards/{{ cat.slug }}/" class="word-card" style="text-decoration: none; padding: var(--sp-4); display: flex; align-items: center; gap: var(--sp-3);">
+      <div style="font-size: 2rem;">{{ cat.icon | default('📁') }}</div>
+      <div>
+        <h3 style="margin: 0; color: var(--text-color);">{{ cat.name }}</h3>
+        <p style="margin: 0; font-size: 0.9rem; color: var(--text-secondary);">{{ cat.count }} words</p>
+      </div>
+    </a>
+  {% endfor %}
 </div>
 
 <noscript>

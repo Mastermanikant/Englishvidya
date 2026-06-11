@@ -55,6 +55,33 @@ layout: layouts/base.njk
   <h1 style="margin-top: var(--sp-3);">{{ title | escHtml }}</h1>
 </div>
 
+{# Audio Player Section (Listen Feature) #}
+<div class="audio-player-wrapper">
+  <div class="audio-controls">
+    <button id="audio-play-btn" class="audio-btn play-btn" aria-label="Play/Pause Article">
+      <svg class="icon-play" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+      <svg class="icon-pause" viewBox="0 0 24 24" fill="currentColor" style="display:none;"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/></svg>
+      <span class="btn-text">Listen</span>
+    </button>
+    <button id="audio-stop-btn" class="audio-btn stop-btn" aria-label="Stop Audio" disabled>
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6 6h12v12H6z"/></svg>
+    </button>
+    
+    <div class="audio-settings">
+      <select id="audio-voice-select" class="audio-select" aria-label="Select Voice">
+        <option value="">Default Voice</option>
+      </select>
+      <select id="audio-speed-select" class="audio-select" aria-label="Select Speed">
+        <option value="0.75">0.75x</option>
+        <option value="1" selected>1x</option>
+        <option value="1.25">1.25x</option>
+        <option value="1.5">1.5x</option>
+      </select>
+    </div>
+  </div>
+  <div id="audio-status" class="audio-status-text"></div>
+</div>
+
 {# Markdown Content #}
 <div class="premium-card markdown-content" style="padding: var(--sp-6);">
   {{ content | safe }}

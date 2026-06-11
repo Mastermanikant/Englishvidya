@@ -1,0 +1,40 @@
+---
+layout: layouts/base.njk
+pagination:
+  data: categoriesIndex
+  size: 1
+  alias: category
+permalink: /flashcards/{{ category.slug }}/
+eleventyComputed:
+  pageTitle: "Flashcards: {{ category.name }} — English Vidya"
+  metaDescription: "{{ category.name }} vocabulary flashcards. Learn English words, Hindi meanings, and Devanagari pronunciation."
+---
+
+{# Breadcrumb #}
+<nav class="breadcrumb" aria-label="Breadcrumb">
+  <a href="/">Home</a>
+  <span class="breadcrumb-sep" aria-hidden="true">›</span>
+  <a href="/flashcards/">Flashcards</a>
+  <span class="breadcrumb-sep" aria-hidden="true">›</span>
+  <span aria-current="page">{{ category.name }}</span>
+</nav>
+
+<div class="hero-welcome animate-fade-in" style="padding-bottom: var(--sp-4);">
+  <h1 style="font-size: 1.5rem;">{{ category.icon }} {{ category.name }} Flashcards</h1>
+  <p class="hero-subtitle">See, memorise and listen to words — वैज्ञानिक तरीके से याद करें!</p>
+</div>
+
+{# Flashcards is JS-powered #}
+<div id="flashcards-app" data-category-slug="{{ category.slug }}">
+  <div class="loading-screen" style="min-height:200px;">
+    <div class="loader-spinner"></div>
+    <p class="loader-text">Loading flashcards...</p>
+  </div>
+</div>
+
+<noscript>
+  <div class="card" style="padding: var(--sp-8); text-align:center;">
+    <h2>JavaScript Required</h2>
+    <p>Flashcards ke liye JavaScript enable karein.</p>
+  </div>
+</noscript>

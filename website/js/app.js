@@ -565,9 +565,9 @@
     const container = $('#flashcards-app');
     if (!container) return;
 
-    // Get category from URL query param if present
+    // Get category from dataset (pagination) or URL query param if present
     const urlParams = new URLSearchParams(window.location.search);
-    const requestedCategory = urlParams.get('cat');
+    const requestedCategory = container.dataset.categorySlug || urlParams.get('cat');
 
     container.innerHTML = `
       <div class="loading-screen" style="min-height: 200px;">
@@ -654,11 +654,14 @@
                 </div>
                 <div class="flashcard-face flashcard-back">
                   <div class="flashcard-scroll-container" style="width: 100%; height: 100%; overflow-y: auto; display: flex; flex-direction: column; align-items: center; box-sizing: border-box; padding: var(--sp-4) var(--sp-2);">
-                    <div class="flashcard-content-wrapper" style="margin: auto 0; display: flex; flex-direction: column; align-items: center; width: 100%;">
-                      <div class="flashcard-devanagari-meaning">${escHtml(meaning)}</div>
-                      <div class="flashcard-word" style="font-size: 1.2rem; color: var(--text-secondary); margin-top: var(--sp-2);">${escHtml(word)}</div>
-                      ${pron ? `<div class="flashcard-devanagari-pron" style="font-size: 0.95rem; color: var(--accent); margin-top: var(--sp-1);">${escHtml(pron)}</div>` : ''}
-                      ${example ? `<div class="flashcard-example" style="margin-top: var(--sp-4);">"${escHtml(example)}"</div>` : ''}
+                    <div class="flashcard-content-wrapper" style="margin: auto 0; display: flex; flex-direction: column; align-items: center; width: 100%; text-align: center;">
+                      ${parsed.definition ? `<div class="flashcard-definition" style="font-size: 1.05rem; font-weight: 500; color: var(--text-color); margin-bottom: var(--sp-4);">${escHtml(parsed.definition)}</div>` : ''}
+                      
+                      <div class="flashcard-word" style="font-size: 1.8rem; font-weight: 800; color: var(--text-color);">${escHtml(word)}</div>
+                      ${pron ? `<div class="flashcard-devanagari-pron" style="font-size: 1.1rem; color: var(--text-secondary); margin-top: var(--sp-1);">${escHtml(pron)}</div>` : ''}
+                      ${meaning ? `<div class="flashcard-devanagari-meaning" style="font-size: 1.2rem; color: var(--accent); margin-top: var(--sp-2); font-weight: bold;">${escHtml(meaning)}</div>` : ''}
+                      
+                      ${example ? `<div class="flashcard-example" style="font-size: 1rem; font-style: italic; color: var(--text-secondary); margin-top: var(--sp-5); padding-left: 12px; border-left: 3px solid var(--accent-soft);">"${escHtml(example)}"</div>` : ''}
                     </div>
                   </div>
                 </div>
@@ -748,12 +751,49 @@
 
     const frontWord = $('.flashcard-front .flashcard-word');
     if (frontWord) frontWord.textContent = parsed.word;
+    
+    const frontPron = $('.flashcard-front .flashcard-devanagari-pron');
+    if (frontPron) {
+      if (parsed.pron) {
+        frontPron.textContent = parsed.pron;
+        frontPron.style.display = 'block';
+      } else {
+        frontPron.style.display = 'none';
+      }
+    }
 
-    const backMeaning = $('.flashcard-back .flashcard-devanagari-meaning');
-    if (backMeaning) backMeaning.textContent = parsed.meaning || parsed.definition;
+    const backDefinition = $('.flashcard-back .flashcard-definition');
+    if (backDefinition) {
+      if (parsed.definition) {
+        backDefinition.textContent = parsed.definition;
+        backDefinition.style.display = 'block';
+      } else {
+        backDefinition.style.display = 'none';
+      }
+    }
 
     const backWord = $('.flashcard-back .flashcard-word');
     if (backWord) backWord.textContent = parsed.word;
+    
+    const backPron = $('.flashcard-back .flashcard-devanagari-pron');
+    if (backPron) {
+      if (parsed.pron) {
+        backPron.textContent = parsed.pron;
+        backPron.style.display = 'block';
+      } else {
+        backPron.style.display = 'none';
+      }
+    }
+
+    const backMeaning = $('.flashcard-back .flashcard-devanagari-meaning');
+    if (backMeaning) {
+      if (parsed.meaning) {
+        backMeaning.textContent = parsed.meaning;
+        backMeaning.style.display = 'block';
+      } else {
+        backMeaning.style.display = 'none';
+      }
+    }
 
     const backExample = $('.flashcard-back .flashcard-example');
     if (backExample) {
@@ -1266,4 +1306,160 @@
     init();
   }
 
+})();
+
+// --- Article Audio Player ---
+(function initAudioPlayer() {
+  const playBtn = document.getElementById('audio-play-btn');
+  const stopBtn = document.getElementById('audio-stop-btn');
+  const voiceSelect = document.getElementById('audio-voice-select');
+  const speedSelect = document.getElementById('audio-speed-select');
+  const statusText = document.getElementById('audio-status');
+  
+  if (!playBtn) return; // Not on an article page
+  
+  let synth = window.speechSynthesis;
+  let voices = [];
+  let isPlaying = false;
+  let isPaused = false;
+  
+  function populateVoices() {
+    voices = synth.getVoices();
+    // Filter for English and Hindi if available
+    let preferredVoices = voices.filter(v => v.lang.startsWith('hi') || v.lang.startsWith('en-IN') || v.lang.startsWith('en'));
+    if (preferredVoices.length === 0) preferredVoices = voices;
+    
+    voiceSelect.innerHTML = '';
+    preferredVoices.forEach((voice, i) => {
+      let option = document.createElement('option');
+      option.textContent = `${voice.name} (${voice.lang})`;
+      option.setAttribute('data-name', voice.name);
+      voiceSelect.appendChild(option);
+    });
+  }
+  
+  if (synth.onvoiceschanged !== undefined) {
+    synth.onvoiceschanged = populateVoices;
+  }
+  populateVoices();
+  
+  function getTextToRead() {
+    // We want to read the article content, avoiding code blocks or hidden stuff
+    const contentDiv = document.querySelector('.markdown-content');
+    if (!contentDiv) return '';
+    
+    // Create a clone to remove unwanted elements before reading
+    const clone = contentDiv.cloneNode(true);
+    
+    // Remove the audio player UI itself and share section if inside
+    const shareSec = clone.querySelector('.share-article-section');
+    if (shareSec) shareSec.remove();
+    const audioWrapper = clone.querySelector('.audio-player-wrapper');
+    if(audioWrapper) audioWrapper.remove();
+    
+    return clone.innerText || clone.textContent;
+  }
+  
+  function startPlaying() {
+    synth.cancel(); // clear queue
+    const text = getTextToRead();
+    if (!text.trim()) return;
+    
+    const utterance = new SpeechSynthesisUtterance(text);
+    const selectedVoiceName = voiceSelect.options[voiceSelect.selectedIndex]?.getAttribute('data-name');
+    if (selectedVoiceName) {
+      utterance.voice = voices.find(v => v.name === selectedVoiceName);
+    }
+    
+    utterance.rate = parseFloat(speedSelect.value);
+    
+    utterance.onend = () => {
+      isPlaying = false;
+      isPaused = false;
+      updateUI();
+    };
+    
+    utterance.onerror = (e) => {
+      console.error("Speech Synthesis Error:", e);
+      isPlaying = false;
+      isPaused = false;
+      updateUI();
+    };
+    
+    synth.speak(utterance);
+    isPlaying = true;
+    isPaused = false;
+    updateUI();
+  }
+  
+  function updateUI() {
+    const iconPlay = playBtn.querySelector('.icon-play');
+    const iconPause = playBtn.querySelector('.icon-pause');
+    const btnText = playBtn.querySelector('.btn-text');
+    
+    if (isPlaying && !isPaused) {
+      playBtn.classList.add('playing');
+      iconPlay.style.display = 'none';
+      iconPause.style.display = 'block';
+      btnText.textContent = 'Pause';
+      stopBtn.disabled = false;
+      statusText.textContent = 'Playing article audio...';
+      statusText.classList.add('active');
+    } else if (isPlaying && isPaused) {
+      playBtn.classList.remove('playing');
+      iconPlay.style.display = 'block';
+      iconPause.style.display = 'none';
+      btnText.textContent = 'Resume';
+      stopBtn.disabled = false;
+      statusText.textContent = 'Audio paused.';
+    } else {
+      playBtn.classList.remove('playing');
+      iconPlay.style.display = 'block';
+      iconPause.style.display = 'none';
+      btnText.textContent = 'Listen';
+      stopBtn.disabled = true;
+      statusText.textContent = '';
+      statusText.classList.remove('active');
+    }
+  }
+  
+  playBtn.addEventListener('click', () => {
+    if (isPlaying) {
+      if (isPaused) {
+        synth.resume();
+        isPaused = false;
+      } else {
+        synth.pause();
+        isPaused = true;
+      }
+      updateUI();
+    } else {
+      startPlaying();
+    }
+  });
+  
+  stopBtn.addEventListener('click', () => {
+    synth.cancel();
+    isPlaying = false;
+    isPaused = false;
+    updateUI();
+  });
+  
+  speedSelect.addEventListener('change', () => {
+    if (isPlaying && !isPaused) {
+      // Need to restart to change speed reliably across browsers
+      startPlaying();
+    }
+  });
+  
+  voiceSelect.addEventListener('change', () => {
+    if (isPlaying && !isPaused) {
+      startPlaying();
+    }
+  });
+  
+  // Handle page unload to stop audio
+  window.addEventListener('beforeunload', () => {
+    synth.cancel();
+  });
 })();
