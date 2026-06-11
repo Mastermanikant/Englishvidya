@@ -1,5 +1,36 @@
 {# ══ HEADER PARTIAL — यहाँ बदलो, सभी pages पर बदलेगा ══ #}
 
+{# ── TOP UTILITY BAR ── #}
+<div class="top-utility-bar" id="top-utility-bar" role="banner">
+  <div class="top-utility-inner">
+
+    {# Left: Announcement #}
+    <div class="utility-announcement">
+      <span class="utility-dot" aria-hidden="true"></span>
+      <span>🎓 Bihar Board Class 10 &amp; 12 content coming soon!</span>
+    </div>
+
+    {# Right: Contact + Social #}
+    <div class="utility-links">
+      <a href="mailto:contact@englishvidya.com" class="utility-link" aria-label="Email us">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+        <span class="utility-link-text">contact@englishvidya.com</span>
+      </a>
+
+      <div class="utility-socials">
+        <a href="{{ site.youtubeChannel | default('#') }}" target="_blank" rel="noopener noreferrer" class="utility-social-link" aria-label="YouTube Channel">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8zM9.7 15.5V8.5l6.3 3.5-6.3 3.5z"/></svg>
+        </a>
+        <a href="{{ site.whatsappChannel | default('#') }}" target="_blank" rel="noopener noreferrer" class="utility-social-link" aria-label="WhatsApp Channel">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.7-.8-1.9-.9-.3-.1-.5-.1-.7.1-.2.3-.7.9-.9 1.1-.2.2-.3.2-.6.1-1.6-.8-2.7-1.4-3.7-3.2-.3-.5.3-.5.8-1.5.1-.2 0-.4-.1-.5-.1-.1-.7-1.7-.9-2.3-.3-.8-.5-.7-.7-.7h-.6c-.2 0-.5.1-.8.3-.3.3-1 1-1 2.4 0 1.4 1 2.7 1.1 2.9.1.2 2 3.1 4.9 4.3 1.8.8 2.5.8 3.4.7.5-.1 1.7-.7 1.9-1.3.2-.7.2-1.2.1-1.3z"/><path d="M12 2C6.5 2 2 6.5 2 12c0 1.9.5 3.7 1.4 5.3L2 22l4.7-1.4C8.3 21.5 10.1 22 12 22c5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18.3c-1.8 0-3.5-.5-5-1.4l-.3-.2-3.3 1 1-3.2-.2-.4C3.6 14.8 3.2 13.4 3.2 12c0-4.9 3.9-8.8 8.8-8.8 4.9 0 8.8 3.9 8.8 8.8 0 4.8-4 8.8-8.8 8.8z"/></svg>
+        </a>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
 {# Mobile Drawer Overlay #}
 <div class="mobile-drawer-overlay" id="mobile-drawer-overlay" role="dialog" aria-label="Mobile Navigation Menu">
   <div class="mobile-drawer" id="mobile-drawer">

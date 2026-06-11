@@ -3,187 +3,329 @@ layout: layouts/base.njk
 pageTitle: "About EnglishVidya & Master Manikant"
 metaDescription: "Learn the inspiring story of Master Manikant and how EnglishVidya was rebuilt from zero to help Hindi-medium students."
 permalink: /about-us/
+breadcrumbs:
+  - { label: "Home", url: "/" }
+  - { label: "About Us" }
 ---
 
 <style>
-/* CSS for the EN / HI Toggle Switch */
-.lang-toggle-container {
-    display: flex;
-    justify-content: flex-end;
-    margin-bottom: 20px;
-}
-
-.lang-toggle {
-    display: inline-flex;
-    background-color: #1e293b;
-    border-radius: 8px;
-    padding: 4px;
-    cursor: pointer;
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-}
-
-.lang-btn {
-    padding: 8px 16px;
-    border-radius: 6px;
-    font-weight: 600;
-    font-size: 14px;
-    color: #94a3b8;
-    transition: all 0.3s ease;
-    border: none;
-    background: transparent;
-    cursor: pointer;
-}
-
-.lang-btn.active {
-    background-color: #0f172a;
-    color: #14b8a6; /* A nice teal color matching the screenshot */
-    box-shadow: 0 1px 3px rgba(0,0,0,0.3);
-}
-
-.hindi-content {
-    display: none; /* Hidden by default */
-}
-
-/* Fix spacing for the page */
-.page-container {
+/* ── Page Container ── */
+.about-container {
     max-width: 800px;
     margin: 0 auto;
-    padding: 20px;
+    padding: var(--sp-4) var(--sp-4) var(--sp-12);
+}
+
+/* ── Top Controls (Tabs & Lang) ── */
+.about-controls {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--sp-4);
+    margin-bottom: var(--sp-8);
+    background: var(--bg-raised);
+    padding: var(--sp-3) var(--sp-4);
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--border);
+    box-shadow: var(--shadow-sm);
+}
+
+/* Section Tabs */
+.section-tabs {
+    display: flex;
+    gap: var(--sp-2);
+}
+.tab-btn {
+    padding: var(--sp-2) var(--sp-4);
+    border-radius: var(--radius-md);
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    transition: all var(--duration-fast);
+}
+.tab-btn:hover {
+    color: var(--text-primary);
+    background: var(--bg-hover);
+}
+.tab-btn.active {
+    background: var(--accent-soft);
+    color: var(--accent);
+}
+
+/* Language Toggle */
+.lang-toggle {
+    display: flex;
+    background: var(--bg-hover);
+    border-radius: var(--radius-md);
+    padding: 4px;
+    border: 1px solid var(--border);
+}
+.lang-btn {
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    transition: all var(--duration-fast);
+}
+.lang-btn.active {
+    background: var(--bg-raised);
+    color: var(--accent);
+    box-shadow: var(--shadow-sm);
+}
+
+/* ── Content Sections ── */
+.content-section {
+    display: none;
+    animation: fadeSlideUp var(--duration-normal) var(--ease-out);
+}
+.content-section.active {
+    display: block;
+}
+
+@keyframes fadeSlideUp {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.about-content h1 {
+    font-size: 2rem;
+    margin-bottom: var(--sp-2);
+}
+.about-content h2 {
+    margin-top: var(--sp-8);
+    margin-bottom: var(--sp-4);
+    padding-bottom: var(--sp-2);
+    border-bottom: 1px solid var(--border);
+    color: var(--accent);
+}
+.about-content p {
+    font-size: 1.05rem;
+    line-height: 1.8;
+    color: var(--text-secondary);
+    margin-bottom: var(--sp-4);
+}
+.about-content strong {
+    color: var(--text-primary);
+}
+.about-content ul, .about-content ol {
+    margin-bottom: var(--sp-5);
+    padding-left: var(--sp-6);
+    color: var(--text-secondary);
     line-height: 1.8;
 }
-
-.page-container h2 {
-    margin-top: 40px;
-    margin-bottom: 20px;
-    color: #0f172a;
-    border-bottom: 2px solid #e2e8f0;
-    padding-bottom: 10px;
-}
-[data-theme="dark"] .page-container h2 {
-    color: #f8fafc;
-    border-bottom-color: #334155;
+.about-content li {
+    margin-bottom: var(--sp-2);
 }
 
-.page-container p {
-    margin-bottom: 20px;
+.founder-img-wrapper {
+    text-align: center;
+    margin: var(--sp-6) 0;
 }
-
 .founder-img {
     width: 100%;
-    max-width: 350px;
-    border-radius: 12px;
-    margin: 20px 0 30px 0;
-    border: 3px solid #38bdf8;
-    object-fit: cover;
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    border-radius: var(--radius-xl);
+    border: 4px solid var(--bg-raised);
+    box-shadow: var(--shadow-md);
+    transition: transform var(--duration-normal);
+}
+.founder-img:hover {
+    transform: scale(1.02) rotate(-1deg);
+}
+
+/* Mobile Adjustments */
+@media (max-width: 600px) {
+    .about-controls {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .section-tabs {
+        flex-direction: column;
+    }
+    .lang-toggle {
+        justify-content: center;
+    }
 }
 </style>
 
-<div class="page-container">
+<div class="about-container">
 
-<div class="lang-toggle-container">
-    <div class="lang-toggle" id="languageToggle">
-        <button class="lang-btn active" id="btn-en">EN</button>
-        <button class="lang-btn" id="btn-hi">हि</button>
+    {# ── CONTROLS ── #}
+    <div class="about-controls">
+        <div class="section-tabs" id="sectionTabs">
+            <button class="tab-btn active" data-target="platform">🏫 About EnglishVidya</button>
+            <button class="tab-btn" data-target="founder">👨‍🏫 About Founder</button>
+        </div>
+        <div class="lang-toggle" id="langToggle">
+            <button class="lang-btn active" data-lang="en">English</button>
+            <button class="lang-btn" data-lang="hi">हिंदी</button>
+        </div>
+    </div>
+
+    <div class="about-content">
+        
+        {# ════════ SECTION 1: PLATFORM ════════ #}
+        <div id="section-platform" class="content-section active">
+            
+            {# EN Platform #}
+            <div class="lang-content lang-en active">
+                <h1>About EnglishVidya</h1>
+                <p style="color: var(--accent); font-weight: 600; margin-top: -10px;">Transforming the Way Hindi-Medium Students Learn English</p>
+                
+                <p>Welcome to <strong>EnglishVidya</strong>, a platform born out of necessity, built through extreme struggle, and driven by a single mission: to make English easy, practical, and accessible for every Hindi-medium student in India.</p>
+                <p>We are not just another English teaching website. We are a complete <strong>English Learning Ecosystem</strong>. From basic grammar to advanced competitive rules, and from zero-level translation to confident Spoken English, EnglishVidya is your final destination.</p>
+
+                <h2>🎯 Our Mission & Vision</h2>
+                <ul>
+                    <li><strong>Our Mission:</strong> To replace the culture of "rote memorization" (रट्टा मारना) with logical understanding. We want to make quality English education understandable and affordable for every Hindi-medium learner.</li>
+                    <li><strong>Our Vision:</strong> To build India's most trusted English learning ecosystem where a student can find everything they need in one place. We want to transform English from a "Subject of Fear" into a "Skill for Life."</li>
+                </ul>
+
+                <h2>🌟 What Makes Us Unique?</h2>
+                <ol>
+                    <li><strong>The 'Dual-Definition' System:</strong> Every grammar concept is taught twice—a simple definition for quick learning, and an advanced definition hidden in a dropdown for competitive exams.</li>
+                    <li><strong>MTI Neutralization:</strong> We train your brain to stop translating Hindi to English word-by-word, and start <em>thinking</em> in English.</li>
+                    <li><strong>100% Comprehensive:</strong> We cover every single rule, exception, and grammar trap. Nothing is left out.</li>
+                </ol>
+            </div>
+
+            {# HI Platform #}
+            <div class="lang-content lang-hi" style="display:none;">
+                <h1>EnglishVidya के बारे में</h1>
+                <p style="color: var(--accent); font-weight: 600; margin-top: -10px;">हिंदी-मीडियम छात्रों के अंग्रेज़ी सीखने का तरीका बदलना</p>
+                
+                <p><strong>EnglishVidya</strong> में आपका स्वागत है! यह प्लेटफार्म किसी बिज़नेस के लिए नहीं, बल्कि एक ज़रूरत से पैदा हुआ है। इसे बहुत मेहनत और संघर्षों के बाद खड़ा किया गया है। हमारा सिर्फ़ एक ही मकसद है: भारत के हर हिंदी-मीडियम छात्र के लिए अंग्रेज़ी को आसान और प्रैक्टिकल बनाना ताकि यह सब तक पहुँच सके।</p>
+                <p>हम सिर्फ एक आम अंग्रेज़ी सिखाने वाली वेबसाइट नहीं हैं। हम एक पूरा <strong>English Learning Ecosystem (सीखने का माहौल)</strong> हैं। एकदम ज़ीरो लेवल से लेकर स्पोकन इंग्लिश तक, और बेसिक ग्रामर से लेकर एडवांस नियमों तक—EnglishVidya आपकी आख़िरी मंज़िल है।</p>
+
+                <h2>🎯 हमारा मिशन और विज़न</h2>
+                <ul>
+                    <li><strong>हमारा मिशन:</strong> "रट्टा मारने" की आदत को ख़त्म करके लॉजिक (समझ) के साथ अंग्रेज़ी सिखाना। हम चाहते हैं कि हर हिंदी-मीडियम छात्र को क्वालिटी एजुकेशन मिले जो आसान भी हो और उनकी पहुँच में भी।</li>
+                    <li><strong>हमारा विज़न:</strong> भारत का सबसे भरोसेमंद इंग्लिश लर्निंग प्लेटफार्म बनाना, जहाँ छात्र को अपनी ज़रूरत की हर चीज़ एक ही जगह मिल जाए। हम अंग्रेज़ी को "डर का विषय" से बदलकर "ज़िंदगी भर काम आने वाली स्किल" बनाना चाहते हैं।</li>
+                </ul>
+
+                <h2>🌟 EnglishVidya में क्या खास है?</h2>
+                <ol>
+                    <li><strong>'Dual-Definition' (दोहरी परिभाषा) सिस्टम:</strong> हर टॉपिक को दो तरह से समझाया गया है—जल्दी समझने के लिए एक सरल परिभाषा, और एग्जाम्स के लिए एक डिटेल्ड परिभाषा।</li>
+                    <li><strong>MTI Neutralization (मातृभाषा के प्रभाव को हटाना):</strong> हम आपके दिमाग को इस तरह ट्रेन करते हैं कि आप हिंदी से अंग्रेज़ी में वर्ड-बाय-वर्ड ट्रांसलेट करना छोड़ दें, और सीधे <em>अंग्रेज़ी में सोचना</em> शुरू कर दें।</li>
+                    <li><strong>100% कम्पलीट सिलेबस:</strong> हम हर एक नियम और अपवाद (exceptions) को कवर करते हैं। कुछ भी छूटता नहीं है।</li>
+                </ol>
+            </div>
+        </div>
+
+        {# ════════ SECTION 2: FOUNDER ════════ #}
+        <div id="section-founder" class="content-section">
+            
+            <div class="founder-img-wrapper">
+                <img src="/assets/images/my-pic.png" alt="Master Manikant" class="founder-img" onerror="this.src='/assets/icons/logo.webp'">
+            </div>
+
+            {# EN Founder #}
+            <div class="lang-content lang-en active">
+                <h1>The Founder’s Story</h1>
+                <p>Hello! I am <strong>Master Manikant</strong>, the founder of EnglishVidya. My educational background includes a <strong>B.Sc. in Mathematics, a B.Ed. degree, and STET qualification</strong>. Over the years, I have taught students ranging from Classes 6 to 10 in coaching institutes, and Class 12 students through home tuition.</p>
+
+                <h2>The Incident That Changed Everything</h2>
+                <p>The story of EnglishVidya didn't start in a boardroom; it started in a classroom.</p>
+                <p>One day, while teaching a Class 10 student, I asked him to translate a very simple Hindi sentence into English. Despite studying English for years in school, reading grammar books, and attending coaching classes, <strong>he went completely blank</strong>. He couldn't do it.</p>
+                <p>That moment hit me hard. Millions of Hindi-medium students study English merely to "pass the exam." They memorize rules, cram definitions, and yet, they live in constant fear of speaking or writing practical English. I decided it was time to build a platform that solves this exact problem.</p>
+
+                <h2>Rebuilding from Zero</h2>
+                <p>The journey of building EnglishVidya was not easy. I purchased the domain and hosting on <strong>18 March 2025</strong>. For months, I poured my heart into it, and by <strong>January 2026</strong>, the website was running smoothly with great content.</p>
+                <p>However, due to financial struggles, the hosting expired on <strong>18 March 2026</strong>. I couldn't renew it. I managed to save all the website's data and hard work on my old laptop, hoping to upload it later when things got better.</p>
+                <p>But fate had other plans. In <strong>June 2026</strong>, my old laptop completely broke down and could not be repaired. Years of hard work, drafted articles, and data were trapped inside a dead machine. I had nothing left.</p>
+                <p>It was devastating. But a mission driven by true purpose doesn't die. Instead of giving up, I chose to start from absolute zero. I am rebuilding EnglishVidya from the ground up—this time, not just as a blog, but as an indestructible, 100% comprehensive learning ecosystem.</p>
+            </div>
+
+            {# HI Founder #}
+            <div class="lang-content lang-hi" style="display:none;">
+                <h1>फाउंडर की कहानी</h1>
+                <p>नमस्ते! मैं <strong>मास्टर मणिकांत</strong> हूँ, EnglishVidya का फाउंडर। मैंने <strong>B.Sc. (गणित) और B.Ed.</strong> किया है और मैं <strong>STET पास</strong> हूँ। मैंने सालों तक कोचिंग में छठी से दसवीं के बच्चों को और होम-ट्यूशन में 12वीं के बच्चों को पढ़ाया है।</p>
+
+                <h2>वो घटना जिसने सब बदल दिया</h2>
+                <p>EnglishVidya की कहानी किसी बड़े ऑफिस से नहीं, बल्कि एक छोटे से क्लासरूम से शुरू हुई थी।</p>
+                <p>एक दिन मैं 10वीं क्लास के एक छात्र को पढ़ा रहा था। मैंने उससे हिंदी का एक बहुत ही आसान सा वाक्य अंग्रेज़ी में बदलने (Translate) को कहा। स्कूल में सालों तक अंग्रेज़ी पढ़ने, भारी-भरकम ग्रामर की किताबें रटने और कोचिंग जाने के बावजूद, <strong>वह बच्चा एकदम ब्लैंक हो गया</strong>। उससे वह आसान सा वाक्य नहीं बना।</p>
+                <p>उस पल ने मुझे अंदर तक झकझोर दिया। हमारे लाखों हिंदी-मीडियम छात्र सिर्फ "एग्जाम पास करने" के लिए अंग्रेज़ी पढ़ते हैं। वे परिभाषाएं रट लेते हैं, लेकिन जब बात प्रैक्टिकल अंग्रेज़ी बोलने या लिखने की आती है, तो उनके मन में डर बैठा होता है। उसी दिन मैंने तय किया कि मैं एक ऐसा प्लेटफार्म बनाऊँगा जो इस असली समस्या को जड़ से ख़त्म करेगा।</p>
+
+                <h2>ज़ीरो से दोबारा शुरुआत</h2>
+                <p>EnglishVidya बनाने का यह सफर आसान नहीं था। मैंने <strong>18 मार्च 2025</strong> को इसका डोमेन और होस्टिंग खरीदा। महीनों तक मैंने इसमें अपना जी-जान लगा दिया, और <strong>जनवरी 2026</strong> तक वेबसाइट अच्छी चल रही थी।</p>
+                <p>लेकिन पैसों की तंगी के कारण, <strong>18 मार्च 2026</strong> को मेरी होस्टिंग एक्सपायर हो गई और मैं उसे रिन्यू नहीं कर पाया। मैंने किसी तरह वेबसाइट का सारा डेटा अपने पुराने लैपटॉप में सेव कर लिया था।</p>
+                <p>पर किस्मत को कुछ और ही मंज़ूर था। <strong>जून 2026</strong> में मेरा वह पुराना लैपटॉप पूरी तरह से खराब हो गया। मेरी सालों की मेहनत, लिखे गए सारे आर्टिकल्स और डेटा उसी में फंसे रह गए। मेरे पास कुछ नहीं बचा।</p>
+                <p>यह बहुत दुखद था। लेकिन हार मानने की बजाय, मैंने एकदम ज़ीरो से फिर शुरुआत करने का फैसला किया। और अब, मैं EnglishVidya को सिर्फ़ एक ब्लॉग की तरह नहीं, बल्कि एक 100% कम्पलीट और कभी न टूटने वाले सिस्टम की तरह दोबारा बना रहा हूँ।</p>
+            </div>
+            
+            {# Include Author Bio Component at the bottom of the Founder section #}
+            {% include "partials/author-bio.njk" %}
+            
+        </div>
+
     </div>
 </div>
 
-<div class="english-content" id="content-en">
-    <h1>About EnglishVidya</h1>
-    <p class="lead" style="margin-top: 5px; margin-bottom: 25px; color: #cbd5e1;">Transforming the Way Hindi-Medium Students Learn English</p>
-    
-    <p>Welcome to <strong>EnglishVidya</strong>, a platform born out of necessity, built through extreme struggle, and driven by a single mission: to make English easy, practical, and accessible for every Hindi-medium student in India.</p>
-
-    <p>We are not just another English teaching website. We are a complete <strong>English Learning Ecosystem</strong>. From basic grammar to advanced competitive rules, and from zero-level translation to confident Spoken English, EnglishVidya is your final destination.</p>
-
-    <h2>👨‍🏫 The Founder’s Story: The Incident That Changed Everything</h2>
-    <img src="/assets/images/my-pic.png" alt="Master Manikant" class="founder-img" onerror="this.style.display='none'">
-    <p>Hello! I am <strong>Master Manikant</strong>, the founder of EnglishVidya. My educational background includes a <strong>B.Sc. in Mathematics, a B.Ed. degree, and STET qualification</strong>. Over the years, I have taught students ranging from Classes 6 to 10 in coaching institutes, and Class 12 students through home tuition.</p>
-
-    <p>The story of EnglishVidya didn't start in a boardroom; it started in a classroom.</p>
-    <p>One day, while teaching a Class 10 student, I asked him to translate a very simple Hindi sentence into English. Despite studying English for years in school, reading grammar books, and attending coaching classes, <strong>he went completely blank</strong>. He couldn't do it.</p>
-    <p>That moment hit me hard. Millions of Hindi-medium students study English merely to "pass the exam." They memorize rules, cram definitions, and yet, they live in constant fear of speaking or writing practical English. I decided it was time to build a platform that solves this exact problem.</p>
-
-    <h2>💻 The Ultimate Struggle: Rebuilding from Zero</h2>
-    <p>The journey of building EnglishVidya was not easy. I purchased the domain and hosting on <strong>18 March 2025</strong>. For months, I poured my heart into it, and by <strong>January 2026</strong>, the website was running smoothly with great content.</p>
-    <p>However, due to financial struggles, the hosting expired on <strong>18 March 2026</strong>. I couldn't renew it. I managed to save all the website's data and hard work on my old laptop, hoping to upload it later when things got better.</p>
-    <p>But fate had other plans. In <strong>June 2026</strong>, my old laptop completely broke down and could not be repaired. Years of hard work, drafted articles, and data were trapped inside a dead machine. I had nothing left.</p>
-    <p>It was devastating. But a mission driven by true purpose doesn't die. Instead of giving up, I chose to start from absolute zero. I am rebuilding EnglishVidya from the ground up—this time, not just as a blog, but as an indestructible, 100% comprehensive learning ecosystem.</p>
-
-    <h2>🎯 Our Mission & Vision</h2>
-    <ul>
-        <li><strong>Our Mission:</strong> To replace the culture of "rote memorization" (रट्टा मारना) with logical understanding. We want to make quality English education understandable and affordable for every Hindi-medium learner.</li>
-        <li><strong>Our Vision:</strong> To build India's most trusted English learning ecosystem where a student can find everything they need in one place. We want to transform English from a "Subject of Fear" into a "Skill for Life."</li>
-    </ul>
-
-    <h2>🌟 What Makes EnglishVidya Unique?</h2>
-    <ol>
-        <li><strong>The 'Dual-Definition' System:</strong> Every grammar concept is taught twice—a simple definition for quick learning, and an advanced definition hidden in a dropdown for competitive exams.</li>
-        <li><strong>Mother Tongue Influence (MTI) Neutralization:</strong> We train your brain to stop translating Hindi to English word-by-word, and start <em>thinking</em> in English.</li>
-        <li><strong>100% Comprehensive Master Syllabus:</strong> We cover every single rule, exception, and grammar trap. Nothing is left out.</li>
-    </ol>
-</div>
-
-<div class="hindi-content" id="content-hi">
-    <h1>EnglishVidya के बारे में</h1>
-    <p class="lead" style="margin-top: 5px; margin-bottom: 25px; color: #cbd5e1;">हिंदी-मीडियम छात्रों के अंग्रेज़ी सीखने का तरीका बदलना</p>
-    
-    <p><strong>EnglishVidya</strong> में आपका स्वागत है! यह प्लेटफार्म किसी बिज़नेस के लिए नहीं, बल्कि एक ज़रूरत से पैदा हुआ है। इसे बहुत मेहनत और संघर्षों के बाद खड़ा किया गया है। हमारा सिर्फ़ एक ही मकसद है: भारत के हर हिंदी-मीडियम छात्र के लिए अंग्रेज़ी को आसान और प्रैक्टिकल बनाना ताकि यह सब तक पहुँच सके।</p>
-
-    <p>हम सिर्फ एक आम अंग्रेज़ी सिखाने वाली वेबसाइट नहीं हैं। हम एक पूरा <strong>English Learning Ecosystem (सीखने का माहौल)</strong> हैं। एकदम ज़ीरो लेवल से लेकर स्पोकन इंग्लिश तक, और बेसिक ग्रामर से लेकर एडवांस नियमों तक—EnglishVidya आपकी आख़िरी मंज़िल है।</p>
-
-    <h2>👨‍🏫 फाउंडर की कहानी: वो घटना जिसने सब बदल दिया</h2>
-    <img src="/assets/images/my-pic.png" alt="Master Manikant" class="founder-img" onerror="this.style.display='none'">
-    <p>नमस्ते! मैं <strong>मास्टर मणिकांत</strong> हूँ, EnglishVidya का फाउंडर। मैंने B.Sc. (गणित) और B.Ed. किया है और मैं STET पास हूँ। मैंने सालों तक कोचिंग में छठी से दसवीं के बच्चों को और होम-ट्यूशन में 12वीं के बच्चों को पढ़ाया है।</p>
-
-    <p>EnglishVidya की कहानी किसी बड़े ऑफिस से नहीं, बल्कि एक छोटे से क्लासरूम से शुरू हुई थी।</p>
-    <p>एक दिन मैं 10वीं क्लास के एक छात्र को पढ़ा रहा था। मैंने उससे हिंदी का एक बहुत ही आसान सा वाक्य अंग्रेज़ी में बदलने (Translate) को कहा। स्कूल में सालों तक अंग्रेज़ी पढ़ने, भारी-भरकम ग्रामर की किताबें रटने और कोचिंग जाने के बावजूद, <strong>वह बच्चा एकदम ब्लैंक हो गया</strong>। उससे वह आसान सा वाक्य नहीं बना।</p>
-    <p>उस पल ने मुझे अंदर तक झकझोर दिया। हमारे लाखों हिंदी-मीडियम छात्र सिर्फ "एग्जाम पास करने" के लिए अंग्रेज़ी पढ़ते हैं। वे परिभाषाएं रट लेते हैं, लेकिन जब बात प्रैक्टिकल अंग्रेज़ी बोलने या लिखने की आती है, तो उनके मन में डर बैठा होता है। उसी दिन मैंने तय किया कि मैं एक ऐसा प्लेटफार्म बनाऊँगा जो इस असली समस्या को जड़ से ख़त्म करेगा।</p>
-
-    <h2>💻 सबसे बड़ा संघर्ष: ज़ीरो से दोबारा शुरुआत</h2>
-    <p>EnglishVidya बनाने का यह सफर आसान नहीं था। मैंने <strong>18 मार्च 2025</strong> को इसका डोमेन और होस्टिंग खरीदा। महीनों तक मैंने इसमें अपना जी-जान लगा दिया, और <strong>जनवरी 2026</strong> तक वेबसाइट पर बहुत सारा शानदार कंटेंट आ गया था और वेबसाइट अच्छी चल रही थी।</p>
-    <p>लेकिन पैसों की तंगी के कारण, <strong>18 मार्च 2026</strong> को मेरी होस्टिंग एक्सपायर हो गई और मैं उसे रिन्यू नहीं कर पाया। मैंने किसी तरह वेबसाइट का सारा डेटा और अपनी मेहनत अपने पुराने लैपटॉप में सेव कर ली थी, यह सोचकर कि जब दिन अच्छे होंगे तो इसे वापस लाइव कर दूँगा।</p>
-    <p>पर किस्मत को कुछ और ही मंज़ूर था। <strong>जून 2026</strong> में मेरा वह पुराना लैपटॉप पूरी तरह से खराब हो गया। उसे ठीक नहीं किया जा सका। मेरी सालों की मेहनत, लिखे गए सारे आर्टिकल्स और डेटा उसी में फंसे रह गए। मेरे पास कुछ नहीं बचा।</p>
-    <p>यह बहुत दुखद था। लेकिन जो मिशन सच्चे दिल से शुरू होता है, वह कभी मरता नहीं है। हार मानने की बजाय, मैंने एकदम ज़ीरो से फिर शुरुआत करने का फैसला किया। और अब, मैं EnglishVidya को सिर्फ़ एक ब्लॉग की तरह नहीं, बल्कि एक 100% कम्पलीट और कभी न टूटने वाले सिस्टम की तरह दोबारा बना रहा हूँ।</p>
-
-    <h2>🎯 हमारा मिशन और विज़न</h2>
-    <ul>
-        <li><strong>हमारा मिशन:</strong> "रट्टा मारने" की आदत को ख़त्म करके लॉजिक (समझ) के साथ अंग्रेज़ी सिखाना। हम चाहते हैं कि हर हिंदी-मीडियम छात्र को क्वालिटी एजुकेशन मिले जो आसान भी हो और उनकी पहुँच में भी।</li>
-        <li><strong>हमारा विज़न:</strong> भारत का सबसे भरोसेमंद इंग्लिश लर्निंग प्लेटफार्म बनाना, जहाँ छात्र को अपनी ज़रूरत की हर चीज़ एक ही जगह मिल जाए। हम अंग्रेज़ी को "डर का विषय" से बदलकर "ज़िंदगी भर काम आने वाली स्किल" बनाना चाहते हैं।</li>
-    </ul>
-
-    <h2>🌟 EnglishVidya में क्या खास है?</h2>
-    <ol>
-        <li><strong>'Dual-Definition' (दोहरी परिभाषा) सिस्टम:</strong> हर टॉपिक को दो तरह से समझाया गया है—जल्दी समझने के लिए एक सरल परिभाषा, और एग्जाम्स के लिए एक डिटेल्ड परिभाषा (जो बटन दबाने पर खुलती है)।</li>
-        <li><strong>MTI Neutralization (मातृभाषा के प्रभाव को हटाना):</strong> हम आपके दिमाग को इस तरह ट्रेन करते हैं कि आप हिंदी से अंग्रेज़ी में वर्ड-बाय-वर्ड ट्रांसलेट करना छोड़ दें, और सीधे <em>अंग्रेज़ी में सोचना</em> शुरू कर दें।</li>
-        <li><strong>100% कम्पलीट मास्टर सिलेबस:</strong> हम हर एक नियम और अपवाद (exceptions) को कवर करते हैं। कुछ भी छूटता नहीं है।</li>
-    </ol>
-</div>
-
 <script>
-// JavaScript to handle the Language Toggle Logic
-document.addEventListener('DOMContentLoaded', function() {
-    const btnEn = document.getElementById('btn-en');
-    const btnHi = document.getElementById('btn-hi');
-    const contentEn = document.getElementById('content-en');
-    const contentHi = document.getElementById('content-hi');
+document.addEventListener('DOMContentLoaded', () => {
+    // State
+    let currentSection = 'platform';
+    let currentLang = 'en';
 
-    btnEn.addEventListener('click', function() {
-        // Update Buttons
-        btnEn.classList.add('active');
-        btnHi.classList.remove('active');
-        // Update Content
-        contentEn.style.display = 'block';
-        contentHi.style.display = 'none';
+    const tabBtns = document.querySelectorAll('.tab-btn');
+    const langBtns = document.querySelectorAll('.lang-btn');
+    const sections = {
+        platform: document.getElementById('section-platform'),
+        founder: document.getElementById('section-founder')
+    };
+
+    function updateUI() {
+        // Update Section Tabs
+        tabBtns.forEach(btn => {
+            if (btn.dataset.target === currentSection) {
+                btn.classList.add('active');
+            } else {
+                btn.classList.remove('active');
+            }
+        });
+
+        // Update Lang Tabs
+        langBtns.forEach(btn => {
+            if (btn.dataset.lang === currentLang) {
+                btn.classList.add('active');
+            } else {
+                btn.classList.remove('active');
+            }
+        });
+
+        // Show/Hide Sections
+        Object.keys(sections).forEach(key => {
+            if (key === currentSection) {
+                sections[key].classList.add('active');
+                // Within active section, update language display
+                const enContent = sections[key].querySelector('.lang-en');
+                const hiContent = sections[key].querySelector('.lang-hi');
+                if (enContent) enContent.style.display = currentLang === 'en' ? 'block' : 'none';
+                if (hiContent) hiContent.style.display = currentLang === 'hi' ? 'block' : 'none';
+            } else {
+                sections[key].classList.remove('active');
+            }
+        });
+    }
+
+    // Event Listeners
+    tabBtns.forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            currentSection = e.target.dataset.target;
+            updateUI();
+        });
     });
 
-    btnHi.addEventListener('click', function() {
-        // Update Buttons
-        btnHi.classList.add('active');
-        btnEn.classList.remove('active');
-        // Update Content
-        contentHi.style.display = 'block';
-        contentEn.style.display = 'none';
+    langBtns.forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            currentLang = e.target.dataset.lang;
+            updateUI();
+        });
     });
+
+    // Initial render
+    updateUI();
 });
 </script>

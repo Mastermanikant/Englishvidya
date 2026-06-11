@@ -19,8 +19,16 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy({ "website/.nojekyll":       ".nojekyll"       });
   eleventyConfig.addPassthroughCopy({ "website/404.html":        "404.html"        });
+  eleventyConfig.addPassthroughCopy({ "website/_headers":        "_headers"        });
+  eleventyConfig.addPassthroughCopy({ "website/llms.txt":        "llms.txt"        });
 
   // ── 2. FILTERS ─────────────────────────────────────────────────────
+
+  // Date → YYYY-MM-DD (for sitemap lastmod)
+  eleventyConfig.addFilter("toISO", (dateVal) => {
+    const d = dateVal ? new Date(dateVal) : new Date();
+    return d.toISOString().slice(0, 10);
+  });
 
   // HTML escape (XSS prevention)
   eleventyConfig.addFilter("escHtml", (str) => {
@@ -91,6 +99,29 @@ module.exports = function (eleventyConfig) {
         <div style="margin-top: var(--sp-3);">
           <a href="/dictionary/${foundWord.slug}/" style="font-size: 0.9rem; font-weight: bold; color: var(--accent);">View full details →</a>
         </div>
+      </div>
+    `;
+  });
+
+  // ── 5. YOUTUBE EMBED SHORTCODE ──────────────────────────────────────
+  // Usage in any .njk or .md file: {% youtube "VIDEO_ID" %}
+  // Lazy-loads YouTube using a click-to-play facade (no CLS, no speed penalty)
+  eleventyConfig.addShortcode("youtube", function(videoId, title) {
+    const safeTitle = title || "YouTube Video";
+    const safeId    = String(videoId).replace(/[^a-zA-Z0-9_-]/g, "");
+    return `
+      <div class="yt-facade" style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; border-radius:12px; background:#000; cursor:pointer; margin: var(--sp-6) 0;" onclick="this.innerHTML='<iframe width=\'100%\' height=\'100%\' src=\'https://www.youtube-nocookie.com/embed/${safeId}?autoplay=1\' title=\'${safeTitle}\' style=\'position:absolute;top:0;left:0;width:100%;height:100%;border:0;\' allow=\'autoplay; encrypted-media; picture-in-picture\' allowfullscreen loading=\'lazy\'></iframe>';" role="button" aria-label="Play: ${safeTitle}">
+        <img
+          src="https://i.ytimg.com/vi/${safeId}/hqdefault.jpg"
+          alt="${safeTitle}"
+          loading="lazy"
+          width="480" height="270"
+          style="position:absolute; top:0; left:0; width:100%; height:100%; object-fit:cover; border-radius:12px;"
+        >
+        <div style="position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); width:72px; height:72px; background:rgba(255,0,0,0.9); border-radius:50%; display:flex; align-items:center; justify-content:center; box-shadow:0 4px 20px rgba(0,0,0,0.5);">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="white"><polygon points="5,3 19,12 5,21"/></svg>
+        </div>
+        <div style="position:absolute; bottom:12px; left:12px; background:rgba(0,0,0,0.7); color:#fff; font-size:0.8rem; padding:4px 10px; border-radius:20px; font-family:var(--font-sans);">${safeTitle}</div>
       </div>
     `;
   });

@@ -87,6 +87,8 @@
 
   {# ══ MAIN CONTENT ══ #}
   <main class="app-main" id="app-content" role="main">
+    {# Breadcrumbs — automatically shown when page has breadcrumbs frontmatter #}
+    {% include "partials/breadcrumbs.njk" %}
     {{ content | safe }}
   </main>
 

@@ -4856,3 +4856,198 @@ p {
 }
 
 @media (prefers-reduced-motion: reduce) { *, ::before, ::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; scroll-behavior: auto !important; } }
+
+/* ══════════════════════════════════════════════════════════════
+   NEW: TOP UTILITY BAR + BREADCRUMBS
+   Added June 2026
+   ══════════════════════════════════════════════════════════════ */
+
+/* ── Utility Bar Variables ── */
+:root {
+  --utility-bar-height: 36px;
+  --total-header-height: calc(var(--utility-bar-height) + var(--header-height));
+}
+
+/* ── Top Utility Bar ── */
+.top-utility-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: var(--utility-bar-height);
+  background: var(--gradient-accent);
+  z-index: 5001; /* above app-header */
+  display: flex;
+  align-items: center;
+  font-size: 0.75rem;
+  color: #fff;
+  overflow: hidden;
+}
+
+.top-utility-inner {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 var(--sp-5);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--sp-4);
+}
+
+/* Pulsing green dot for announcement */
+.utility-announcement {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-2);
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.utility-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #4ade80;
+  flex-shrink: 0;
+  animation: utilityPulse 2s infinite;
+}
+
+@keyframes utilityPulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.6; transform: scale(1.3); }
+}
+
+.utility-links {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-4);
+  flex-shrink: 0;
+}
+
+.utility-link {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-1);
+  color: rgba(255,255,255,0.9);
+  text-decoration: none;
+  font-size: 0.72rem;
+  transition: color var(--duration-fast);
+}
+
+.utility-link:hover { color: #fff; }
+
+.utility-link-text {
+  /* Hide email text on small screens to avoid overflow */
+}
+
+.utility-socials {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-3);
+}
+
+.utility-social-link {
+  display: flex;
+  align-items: center;
+  color: rgba(255,255,255,0.85);
+  transition: color var(--duration-fast), transform var(--duration-fast);
+}
+
+.utility-social-link:hover {
+  color: #fff;
+  transform: scale(1.15);
+}
+
+/* ── Push main header DOWN to sit below utility bar ── */
+.app-header {
+  top: var(--utility-bar-height);
+}
+
+/* ── Adjust body top padding for both bars ── */
+body {
+  padding-top: var(--total-header-height);
+}
+
+/* ── Mobile: hide email text, keep icons ── */
+@media (max-width: 600px) {
+  .utility-link-text { display: none; }
+  .utility-announcement {
+    font-size: 0.7rem;
+  }
+  .top-utility-inner {
+    padding: 0 var(--sp-3);
+  }
+}
+
+/* ── Hide utility bar on scroll down (JS handles class toggle) ── */
+.top-utility-bar.hidden {
+  transform: translateY(-100%);
+  transition: transform 0.3s var(--ease-out);
+}
+
+/* ══ BREADCRUMBS ══ */
+.breadcrumbs {
+  margin-bottom: var(--sp-5);
+  padding: var(--sp-2) 0;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.breadcrumbs-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.breadcrumbs-item {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-1);
+}
+
+.breadcrumbs-link {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color var(--duration-fast);
+  padding: var(--sp-1) var(--sp-2);
+  border-radius: var(--radius-sm);
+}
+
+.breadcrumbs-link:hover {
+  color: var(--accent);
+  background: var(--accent-soft);
+}
+
+.breadcrumbs-current {
+  font-size: 0.8rem;
+  color: var(--accent);
+  font-weight: 600;
+  padding: var(--sp-1) var(--sp-2);
+  background: var(--accent-soft);
+  border-radius: var(--radius-sm);
+  /* Truncate long titles on mobile */
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.breadcrumbs-sep {
+  display: flex;
+  align-items: center;
+  color: var(--text-tertiary);
+  margin: 0 2px;
+}
+
+@media (max-width: 480px) {
+  .breadcrumbs-current { max-width: 140px; }
+}
+

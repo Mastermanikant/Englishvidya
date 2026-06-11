@@ -1,0 +1,52 @@
+# Cloudflare _headers file — EnglishVidya.com
+# Ye file Cloudflare Pages ko batati hai ki har response ke saath kaunse HTTP headers bhejne hain.
+# Docs: https://developers.cloudflare.com/pages/configuration/headers/
+
+# ══ RULE 1: Saari site ke liye Security Headers ══
+/*
+  # Clickjacking se bachao — dusri site hamare pages ko iframe mein nahi le sakti
+  X-Frame-Options: SAMEORIGIN
+
+  # MIME sniffing attack se bachao
+  X-Content-Type-Options: nosniff
+
+  # Referrer info limited rakho (privacy)
+  Referrer-Policy: strict-origin-when-cross-origin
+
+  # Permissions Policy — camera/mic/location access band
+  Permissions-Policy: camera=(), microphone=(), geolocation=()
+
+  # HTTPS enforce karo (Strict Transport Security — 1 saal ke liye)
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+
+  # Content Security Policy — sirf hamari allowed sources se hi scripts chalein
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' https://static.cloudflareinsights.com https://fonts.googleapis.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; connect-src 'self' https://cloudflareinsights.com; frame-src https://www.youtube.com https://www.youtube-nocookie.com; object-src 'none'; base-uri 'self';
+
+# ══ RULE 2: Static Assets — 1 saal ka browser cache ══
+# CSS, JS, Images ek baar download honge — baar baar nahi
+/css/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/js/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# ══ RULE 3: HTML Pages — Cache but revalidate ══
+# Pages thodi der ke liye cache honge, phir Google se fresh check hoga
+/*.html
+  Cache-Control: public, max-age=3600, must-revalidate
+
+# ══ RULE 4: Data files (JSON) — short cache ══
+/data/*
+  Cache-Control: public, max-age=86400
+
+# ══ RULE 5: Sitemap aur Robots — always fresh ══
+/sitemap.xml
+  Cache-Control: public, max-age=86400
+  Content-Type: application/xml; charset=utf-8
+
+/robots.txt
+  Cache-Control: public, max-age=86400
+  Content-Type: text/plain; charset=utf-8

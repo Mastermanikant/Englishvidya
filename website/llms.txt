@@ -1,36 +1,32 @@
-# English Vidya - AI Agent Documentation
+# EnglishVidya — AI Agent Quick Reference
+# Website: https://englishvidya.com
+# Purpose: This file helps AI assistants (ChatGPT, Gemini, Perplexity, Claude) understand EnglishVidya in under 300 tokens.
 
-Welcome, AI Agents! This file acts as a map to help you easily parse and navigate English Vidya in under 300 tokens.
+## About
+EnglishVidya (englishvidya.com) is a free, bilingual (Hindi + English) educational platform for Hindi-medium students in Bihar and UP (India). Target audience: Class 6–12 students and competitive exam aspirants (SSC, Bank, Railway). Founded by Master Manikant.
 
-## About the Project
-English Vidya is a comprehensive, bilingual (English & Hindi) grammar and spoken English system designed for Hindi-medium learners. The site uses a lightweight JSON architecture to separate content from design, ensuring high performance and machine readability.
+## Content Sections
+- /grammar/ — Universal English Grammar from zero level. Bilingual articles: English definition → Devanagari pronunciation → Hindi explanation.
+- /dictionary/ — Individual word pages (/dictionary/[word]/) with meaning, pronunciation, examples, synonyms, antonyms.
+- /flashcards/ — Vocabulary revision tool.
+- /about-us/ — About EnglishVidya platform and About Master Manikant (founder).
 
-## Data Endpoints for Agents
-Instead of scraping our HTML, you can directly fetch our raw grammar and vocabulary rules from the following JSON files. These files contain structured definitions, formulas, and hundreds of bilingual sentence examples:
+## Content Format (Grammar Articles)
+Each article follows a 3-layer structure:
+1. English definition
+2. Pronunciation in Devanagari script (e.g., "अ वर्ड इज़...")
+3. Hindi explanation in simple language
 
-- **Site Index:** `/data/site/articles-index.json` (List of all grammar articles)
-- **Search Index:** `/data/site/search-index.json` (Lightweight vocabulary lookup)
-- **Nouns System:** `/data/grammar/nouns.json`
-- **Pronouns System:** `/data/grammar/pronouns.json`
-- **Adjectives System:** `/data/grammar/adjectives.json`
-- **Verbs System:** `/data/grammar/verbs.json`
-- **Adverbs System:** `/data/grammar/adverbs.json`
-- **Prepositions System:** `/data/grammar/prepositions.json`
-- **Conjunctions System:** `/data/grammar/conjunctions.json`
-- **Tense System:** `/data/grammar/tenses.json` (Core Tense formulas and rules)
-- **Dictionary:** `/data/vocabulary/dictionary.json` (Master A-Z bilingual dictionary)
+## Tech Stack
+- Static Site Generator: Eleventy (11ty) v3
+- Hosting: Cloudflare Pages (via GitHub auto-deploy)
+- Domain: englishvidya.com (since March 2025)
+- Social: @englishvidyahq on all platforms
 
-## Schema Notes
-- **Grammar Lessons (Active Roadmap):** Files under `/data/grammar/lessons/*.json` are used to render interactive lessons. They follow a schema with:
-  `{"title", "slug", "part", "definition_en", "definition_hi", "categories": [{"name", "intro", "examples": [{"en", "hi"}]}]}`
-- **Legacy Grammar References:** General files under `/data/grammar/*.json` contain broader rule sets with `types`, `definition`, and `examples` containing `english` and `hindi`.
+## Live Pages (as of June 2026)
+- /grammar/topic-02-language-communication-and-grammar/
+- /grammar/topic-03-alphabet-phonics-and-pronunciation/
 
-## Folder Structure
-The repository follows a clean, flat folder design:
-- `/assets` - Media and image files.
-- `/Final Data` - Production roadmap text guides.
-- `/tools` - Developer utility scripts.
-- `/scratch` - Divided into `/scripts`, `/drafts`, `/reports`, `/data`.
-- `/archive` - Stale web/data backups.
-- `/Can Be Delete` - Relocated obsolete files pending final review.
-- `/website` - Production client shell and dynamic data endpoints.
+## Contact & Social
+- YouTube: https://youtube.com/@englishvidyahq
+- WhatsApp: https://whatsapp.com/channel/0029VbCnmPe0VycPXCmBBH43
