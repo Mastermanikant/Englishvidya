@@ -9,8 +9,12 @@
   "canonicalBase": "https://englishvidya.com",
   "ogImage": "https://englishvidya.com/assets/icons/og-banner.png",
   "year": 2026,
+  "email": "englishvidyahq@gmail.com",
   "whatsappChannel": "https://whatsapp.com/channel/0029VbCnmPe0VycPXCmBBH43",
   "youtubeChannel": "https://youtube.com/@englishvidyahq",
+  "facebookPage": "https://facebook.com/EnglishVidyaHq",
+  "instagramPage": "https://instagram.com/EnglishVidyaHq",
+  "twitterPage": "https://x.com/EnglishVidyaHq",
   "nav": [
     { "label": "Home",       "href": "/",           "route": "home",       "icon": "🏠" },
     { "label": "Grammar",    "href": "/grammar/",   "route": "grammar",    "icon": "📖" },
