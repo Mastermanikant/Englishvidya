@@ -5051,3 +5051,119 @@ body {
   .breadcrumbs-current { max-width: 140px; }
 }
 
+/* Share Article Section */
+.share-article-section {
+  margin-top: var(--sp-8);
+  padding-top: var(--sp-6);
+  border-top: 1px dashed var(--border);
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-3);
+}
+
+.share-title {
+  font-family: var(--font-heading);
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  display: flex;
+  align-items: center;
+  gap: var(--sp-2);
+}
+
+.share-buttons-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-2);
+}
+
+.share-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--sp-2);
+  padding: 8px 16px;
+  border-radius: var(--radius-full);
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-decoration: none;
+  border: 1px solid var(--border);
+  background: var(--bg-hover);
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: all var(--duration-fast) var(--ease-out);
+}
+
+.share-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+  color: var(--text-primary);
+}
+
+.share-btn:active {
+  transform: translateY(0);
+}
+
+/* Specific branding colors on hover */
+.share-btn.whatsapp:hover {
+  background-color: #25d366;
+  color: white;
+  border-color: #25d366;
+}
+
+.share-btn.facebook:hover {
+  background-color: #1877f2;
+  color: white;
+  border-color: #1877f2;
+}
+
+.share-btn.x-platform:hover {
+  background-color: #000000;
+  color: white;
+  border-color: #000000;
+}
+
+[data-theme="dark"] .share-btn.x-platform:hover {
+  background-color: #ffffff;
+  color: #000000;
+  border-color: #ffffff;
+}
+
+.share-btn.threads:hover {
+  background-color: #000000;
+  color: white;
+  border-color: #000000;
+}
+
+[data-theme="dark"] .share-btn.threads:hover {
+  background-color: #ffffff;
+  color: #000000;
+  border-color: #ffffff;
+}
+
+.share-btn.pinterest:hover {
+  background-color: #bd081c;
+  color: white;
+  border-color: #bd081c;
+}
+
+.share-btn.copy-link:hover {
+  background-color: var(--accent);
+  color: white;
+  border-color: var(--accent);
+}
+
+.share-btn.native-share:hover {
+  background-color: var(--accent);
+  color: white;
+  border-color: var(--accent);
+}
+
+.share-btn svg {
+  width: 16px;
+  height: 16px;
+  fill: currentColor;
+  display: block;
+}
+
+
