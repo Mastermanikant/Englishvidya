@@ -1,5 +1,5 @@
 ---
-layout: layouts/base.njk
+layout: layouts/article.njk
 title: "व्यंजन ध्वनियाँ और उनका व्यवहार (Consonant Sounds & Their Behavior)"
 permalink: /grammar/gr-006/
 ---

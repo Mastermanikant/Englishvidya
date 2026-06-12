@@ -15,7 +15,7 @@
 .quiz-result h3 { color: #22c55e; margin-bottom: 10px; font-size: 1.5rem; }
 @keyframes fadeIn { from { opacity: 0; transform: translateY(-5px); } to { opacity: 1; transform: translateY(0); } }
 </style>
-<div class="quiz-wrapper" x-data="quizComponent({{ quizData | dump | safe }})">
+<div class="quiz-wrapper" x-data="quizComponent({{ quizData | dump | escape }})">
     <div class="quiz-header">
         <div>📝 Question <span x-text="attempted"></span>/<span x-text="questions.length"></span></div>
         <div>✅ <span x-text="right" style="color: #22c55e;"></span> | ❌ <span x-text="wrong" style="color: #ef4444;"></span></div>
