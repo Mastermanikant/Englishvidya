@@ -2,38 +2,42 @@
   {
     "word": "Accountability",
     "meaning": "The requirement for government officials to explain their actions and decisions, and accept responsibility if they make mistakes.",
-    "pronunciation": "",
+    "pronunciation": "एकाउंटेबिलिटी",
     "definition": "The requirement for government officials to explain their actions and decisions, and accept responsibility if they make mistakes.",
     "example": "The city council must show accountability by explaining how tax money was spent.",
     "category": "Civic Administration",
-    "subCategory": "Civic Administration"
+    "subCategory": "Civic Administration",
+    "exampleHindi": "नगर परिषद को यह बताकर जवाबदेही दिखानी चाहिए कि कर का पैसा कैसे खर्च किया गया।"
   },
   {
     "word": "Assembly",
     "meaning": "A group of people who gather together for a shared purpose, often to make laws or discuss public matters.",
-    "pronunciation": "",
+    "pronunciation": "असेंबली",
     "definition": "A group of people who gather together for a shared purpose, often to make laws or discuss public matters.",
     "example": "The state assembly met to debate the new budget proposed by the governor.",
     "category": "Civic Administration",
-    "subCategory": "Civic Administration"
+    "subCategory": "Civic Administration",
+    "exampleHindi": "राज्यपाल द्वारा प्रस्तावित नए बजट पर बहस के लिए राज्य विधानसभा की बैठक हुई।"
   },
   {
     "word": "Bureaucracy",
     "meaning": "A large, complex system of government administration run by non-elected officials who follow strict rules.",
-    "pronunciation": "",
+    "pronunciation": "ब्यूरोक्रेसी",
     "definition": "A large, complex system of government administration run by non-elected officials who follow strict rules.",
     "example": "It took months of dealing with government bureaucracy just to get a permit to open the restaurant.",
     "category": "Civic Administration",
-    "subCategory": "Civic Administration"
+    "subCategory": "Civic Administration",
+    "exampleHindi": "रेस्तरां खोलने की अनुमति प्राप्त करने के लिए सरकारी नौकरशाही से निपटने में महीनों लग गए।"
   },
   {
     "word": "By-law",
     "meaning": "A local law made by a city or town government that applies only to that area.",
-    "pronunciation": "",
+    "pronunciation": "By-law",
     "definition": "A local law made by a city or town government that applies only to that area.",
     "example": "Under the city by-law, dogs must be kept on a leash in all public parks.",
     "category": "Civic Administration",
-    "subCategory": "Civic Administration"
+    "subCategory": "Civic Administration",
+    "exampleHindi": "शहर के उपनियम के तहत, सभी सार्वजनिक पार्कों में कुत्तों को पट्टे पर रखा जाना चाहिए।"
   },
   {
     "word": "Citizen",
@@ -42,231 +46,257 @@
     "definition": "",
     "example": "As a citizen, you have the right to vote and the duty to obey the nation's laws.",
     "category": "Civic Administration",
-    "subCategory": "Civic Administration"
+    "subCategory": "Civic Administration",
+    "exampleHindi": "एक नागरिक के रूप में, आपको वोट देने का अधिकार और देश के कानूनों का पालन करने का कर्तव्य है।"
   },
   {
     "word": "City Council",
     "meaning": "A group of elected officials who govern a city and vote on local laws and budgets.",
-    "pronunciation": "",
+    "pronunciation": "सिटी कौंसिल",
     "definition": "A group of elected officials who govern a city and vote on local laws and budgets.",
     "example": "The city council voted to approve the construction of a new bike lane downtown.",
     "category": "Civic Administration",
-    "subCategory": "Civic Administration"
+    "subCategory": "Civic Administration",
+    "exampleHindi": "नगर परिषद ने शहर में एक नई बाइक लेन के निर्माण को मंजूरी देने के लिए मतदान किया।"
   },
   {
     "word": "Civic Duty",
     "meaning": "Something that a citizen has a legal or moral responsibility to do, such as voting or serving on a jury.",
-    "pronunciation": "",
+    "pronunciation": "सिविक ड्यूटी",
     "definition": "Something that a citizen has a legal or moral responsibility to do, such as voting or serving on a jury.",
     "example": "Serving on a jury when called is a fundamental civic duty that supports the justice system.",
     "category": "Civic Administration",
-    "subCategory": "Civic Administration"
+    "subCategory": "Civic Administration",
+    "exampleHindi": "बुलाए जाने पर जूरी में सेवा करना एक मौलिक नागरिक कर्तव्य है जो न्याय प्रणाली का समर्थन करता है।"
   },
   {
     "word": "Civic Engagement",
     "meaning": "Active participation by citizens in the life of their community to make it better.",
-    "pronunciation": "",
+    "pronunciation": "सिविक इंगेजमेंट",
     "definition": "Active participation by citizens in the life of their community to make it better.",
     "example": "Voting in elections and volunteering at local charities are great examples of civic engagement.",
     "category": "Civic Administration",
-    "subCategory": "Civic Administration"
+    "subCategory": "Civic Administration",
+    "exampleHindi": "चुनावों में मतदान करना और स्थानीय दान में स्वयंसेवा करना नागरिक सहभागिता के महान उदाहरण हैं।"
   },
   {
     "word": "Civil Service",
     "meaning": "The permanent, professional branches of government administration, where staff are hired based on qualifications rather than political connections.",
-    "pronunciation": "",
+    "pronunciation": "सिविल सर्विस",
     "definition": "The permanent, professional branches of government administration, where staff are hired based on qualifications rather than political connections.",
     "example": "He chose a career in the civil service to help improve public transportation systems in his city.",
     "category": "Civic Administration",
-    "subCategory": "Civic Administration"
+    "subCategory": "Civic Administration",
+    "exampleHindi": "उन्होंने अपने शहर में सार्वजनिक परिवहन प्रणालियों को बेहतर बनाने में मदद करने के लिए सिविल सेवा में करियर चुना।"
   },
   {
     "word": "Decentralization",
     "meaning": "Moving power and decision-making from a single central government office to local offices in different areas.",
-    "pronunciation": "",
+    "pronunciation": "डेंटरलिज़तिओन",
     "definition": "Moving power and decision-making from a single central government office to local offices in different areas.",
     "example": "The decentralization of the education department gave individual schools more control over their budgets.",
     "category": "Civic Administration",
-    "subCategory": "Civic Administration"
+    "subCategory": "Civic Administration",
+    "exampleHindi": "शिक्षा विभाग के विकेंद्रीकरण ने व्यक्तिगत स्कूलों को अपने बजट पर अधिक नियंत्रण दिया।"
   },
   {
     "word": "Gentrification",
     "meaning": "The process where a poor urban neighborhood is changed by wealthier people moving in, improving housing but displacing poorer residents.",
-    "pronunciation": "",
+    "pronunciation": "गेंट्रीफिकेशन",
     "definition": "The process where a poor urban neighborhood is changed by wealthier people moving in, improving housing but displacing poorer residents.",
     "example": "The gentrification of the historic neighborhood caused property taxes to rise, forcing many families to move away.",
     "category": "Civic Administration",
-    "subCategory": "Civic Administration"
+    "subCategory": "Civic Administration",
+    "exampleHindi": "ऐतिहासिक पड़ोस के सभ्यताकरण के कारण संपत्ति कर में वृद्धि हुई, जिससे कई परिवारों को दूर जाने के लिए मजबूर होना पड़ा।"
   },
   {
     "word": "Infrastructure",
     "meaning": "The basic physical structures and systems needed for a society to function, like roads, bridges, and power lines.",
-    "pronunciation": "",
+    "pronunciation": "इंफ्रास्ट्रक्चर",
     "definition": "The basic physical and digital systems needed for technology to work â€” servers, cables, and data centres.",
     "example": "The government is investing billions of dollars to repair the country's aging infrastructure.",
     "category": "Civic Administration",
-    "subCategory": "Civic Administration"
+    "subCategory": "Civic Administration",
+    "exampleHindi": "सरकार देश के पुराने बुनियादी ढांचे की मरम्मत के लिए अरबों डॉलर का निवेश कर रही है।"
   },
   {
     "word": "Local Government",
     "meaning": "The level of government that manages towns, cities, or counties, handling local issues rather than national ones.",
-    "pronunciation": "",
+    "pronunciation": "लोकल गवर्नमेंट",
     "definition": "The level of government that manages towns, cities, or counties, handling local issues rather than national ones.",
     "example": "The local government decided to build a new community library in the town center.",
     "category": "Civic Administration",
-    "subCategory": "Civic Administration"
+    "subCategory": "Civic Administration",
+    "exampleHindi": "स्थानीय सरकार ने शहर के केंद्र में एक नया सामुदायिक पुस्तकालय बनाने का निर्णय लिया।"
   },
   {
     "word": "Mayor",
     "meaning": "The elected leader of a city, town, or municipality.",
-    "pronunciation": "",
+    "pronunciation": "मेयर",
     "definition": "The elected leader of a city, town, or municipality.",
     "example": "The mayor announced a new plan to build affordable housing for low-income families.",
     "category": "Civic Administration",
-    "subCategory": "Civic Administration"
+    "subCategory": "Civic Administration",
+    "exampleHindi": "मेयर ने कम आय वाले परिवारों के लिए किफायती आवास बनाने की एक नई योजना की घोषणा की।"
   },
   {
     "word": "Municipality",
     "meaning": "A city, town, or local area that has its own local government.",
-    "pronunciation": "",
+    "pronunciation": "म्युनिसिपेलिटी",
     "definition": "A city, town, or local area that has its own local government.",
     "example": "The municipality is responsible for trash collection, local roads, and public parks.",
     "category": "Civic Administration",
-    "subCategory": "Civic Administration"
+    "subCategory": "Civic Administration",
+    "exampleHindi": "नगर पालिका कचरा संग्रहण, स्थानीय सड़कों और सार्वजनिक पार्कों के लिए जिम्मेदार है।"
   },
   {
     "word": "Ombudsman",
     "meaning": "An official appointed to investigate complaints by individuals against government departments or public authorities.",
-    "pronunciation": "",
+    "pronunciation": "ओम्बड्समैन",
     "definition": "An official appointed to investigate complaints by individuals against government departments or public authorities.",
     "example": "If you feel a government agency treated you unfairly, you can file a complaint with the ombudsman.",
     "category": "Civic Administration",
-    "subCategory": "Civic Administration"
+    "subCategory": "Civic Administration",
+    "exampleHindi": "यदि आपको लगता है कि किसी सरकारी एजेंसी ने आपके साथ गलत व्यवहार किया है, तो आप लोकपाल के पास शिकायत दर्ज कर सकते हैं।"
   },
   {
     "word": "Ordinance",
     "meaning": "A law passed by a local government, such as a city or county.",
-    "pronunciation": "",
+    "pronunciation": "आर्डिनेंस",
     "definition": "A law passed by a local government, such as a city or county.",
     "example": "The town passed a noise ordinance banning loud music after 10:00 PM.",
     "category": "Civic Administration",
-    "subCategory": "Civic Administration"
+    "subCategory": "Civic Administration",
+    "exampleHindi": "शहर ने रात 10:00 बजे के बाद तेज़ संगीत पर प्रतिबंध लगाने वाला एक शोर अध्यादेश पारित किया।"
   },
   {
     "word": "Public Hearing",
     "meaning": "A formal meeting where citizens can voice their opinions on proposed laws, projects, or budgets.",
-    "pronunciation": "",
+    "pronunciation": "पब्लिक हियरिंग",
     "definition": "A formal meeting where citizens can voice their opinions on proposed laws, projects, or budgets.",
     "example": "The town held a public hearing to listen to residents' concerns about the new highway project.",
     "category": "Civic Administration",
-    "subCategory": "Civic Administration"
+    "subCategory": "Civic Administration",
+    "exampleHindi": "शहर में नई राजमार्ग परियोजना के बारे में निवासियों की चिंताओं को सुनने के लिए एक सार्वजनिक सुनवाई आयोजित की गई।"
   },
   {
     "word": "Public Registry",
     "meaning": "A government database of official records that the public can look at, such as land ownership or birth records.",
-    "pronunciation": "",
+    "pronunciation": "पब्लिक रजिस्ट्री",
     "definition": "A government database of official records that the public can look at, such as land ownership or birth records.",
     "example": "You can check the public registry to find out who owns the property next to your house.",
     "category": "Civic Administration",
-    "subCategory": "Civic Administration"
+    "subCategory": "Civic Administration",
+    "exampleHindi": "आप यह पता लगाने के लिए सार्वजनिक रजिस्ट्री की जांच कर सकते हैं कि आपके घर के बगल की संपत्ति का मालिक कौन है।"
   },
   {
     "word": "Public Sector",
     "meaning": "The part of the economy that is owned, managed, and funded by the government.",
-    "pronunciation": "",
+    "pronunciation": "पब्लिक सेक्टर",
     "definition": "The part of the economy that is owned, managed, and funded by the government.",
     "example": "Public schools, hospitals, and police departments are all part of the public sector.",
     "category": "Civic Administration",
-    "subCategory": "Civic Administration"
+    "subCategory": "Civic Administration",
+    "exampleHindi": "पब्लिक स्कूल, अस्पताल और पुलिस विभाग सभी सार्वजनिक क्षेत्र का हिस्सा हैं।"
   },
   {
     "word": "Public Servant",
     "meaning": "A person who works for the government or in public services, such as a teacher, firefighter, or postal worker.",
-    "pronunciation": "",
+    "pronunciation": "पब्लिक सर्वेंट",
     "definition": "A person who works for the government or in public services, such as a teacher, firefighter, or postal worker.",
     "example": "Police officers are public servants who work daily to keep our neighborhoods safe.",
     "category": "Civic Administration",
-    "subCategory": "Civic Administration"
+    "subCategory": "Civic Administration",
+    "exampleHindi": "पुलिस अधिकारी लोक सेवक हैं जो हमारे पड़ोस को सुरक्षित रखने के लिए प्रतिदिन काम करते हैं।"
   },
   {
     "word": "Public Utility",
     "meaning": "A service that is essential to the public, such as electricity, water, or gas, often regulated or run by the government.",
-    "pronunciation": "",
+    "pronunciation": "पब्लिक यूटिलिटी",
     "definition": "A service that is essential to the public, such as electricity, water, or gas, often regulated or run by the government.",
     "example": "The local public utility worked quickly to restore water service after the pipe broke.",
     "category": "Civic Administration",
-    "subCategory": "Civic Administration"
+    "subCategory": "Civic Administration",
+    "exampleHindi": "पाइप टूटने के बाद स्थानीय सार्वजनिक उपयोगिता ने जल सेवा बहाल करने के लिए तेजी से काम किया।"
   },
   {
     "word": "Public Works",
     "meaning": "Building and repair projects done by the government for the community, such as roads, schools, and sewers.",
-    "pronunciation": "",
+    "pronunciation": "पब्लिक वर्क्स",
     "definition": "Building and repair projects done by the government for the community, such as roads, schools, and sewers.",
     "example": "The department of public works is responsible for paving roads and clearing snow during the winter.",
     "category": "Civic Administration",
-    "subCategory": "Civic Administration"
+    "subCategory": "Civic Administration",
+    "exampleHindi": "लोक निर्माण विभाग सर्दियों के दौरान सड़कें बनाने और बर्फ साफ करने के लिए जिम्मेदार है।"
   },
   {
     "word": "Red Tape",
     "meaning": "Excessive rules, paperwork, and official procedures that slow down government actions and decisions.",
-    "pronunciation": "",
+    "pronunciation": "रेड टेप",
     "definition": "Excessive rules, paperwork, and official procedures that slow down government actions and decisions.",
     "example": "The small business owner complained that red tape made it extremely difficult to get a business license.",
     "category": "Civic Administration",
-    "subCategory": "Civic Administration"
+    "subCategory": "Civic Administration",
+    "exampleHindi": "छोटे व्यवसाय के मालिक ने शिकायत की कि लालफीताशाही के कारण व्यवसाय लाइसेंस प्राप्त करना बेहद कठिन हो गया है।"
   },
   {
     "word": "Resident",
     "meaning": "A person who lives in a particular place, even if they are not a citizen of that country.",
-    "pronunciation": "",
+    "pronunciation": "रेजिडेंट",
     "definition": "A person who lives in a particular place, even if they are not a citizen of that country.",
     "example": "Although she is a foreign student, she is a resident of this city and pays local sales tax.",
     "category": "Civic Administration",
-    "subCategory": "Civic Administration"
+    "subCategory": "Civic Administration",
+    "exampleHindi": "हालाँकि वह एक विदेशी छात्रा है, वह इसी शहर की निवासी है और स्थानीय बिक्री कर का भुगतान करती है।"
   },
   {
     "word": "Revenue Collection",
     "meaning": "The process by which the government collects money, such as taxes and fees, to fund public services.",
-    "pronunciation": "",
+    "pronunciation": "रेवेनुए कलेक्शन",
     "definition": "The process by which the government collects money, such as taxes and fees, to fund public services.",
     "example": "Effective revenue collection allows the city to maintain roads, parks, and schools.",
     "category": "Civic Administration",
-    "subCategory": "Civic Administration"
+    "subCategory": "Civic Administration",
+    "exampleHindi": "प्रभावी राजस्व संग्रह शहर को सड़कों, पार्कों और स्कूलों को बनाए रखने की अनुमति देता है।"
   },
   {
     "word": "Social Contract",
     "meaning": "An unspoken agreement where citizens give up some freedoms to the government in exchange for protection of their rights.",
-    "pronunciation": "",
+    "pronunciation": "सोशल कॉन्ट्रैक्ट",
     "definition": "An unspoken agreement where citizens give up some freedoms to the government in exchange for protection of their rights.",
     "example": "According to the social contract theory, citizens obey laws because the government protects their safety and property.",
     "category": "Civic Administration",
-    "subCategory": "Civic Administration"
+    "subCategory": "Civic Administration",
+    "exampleHindi": "सामाजिक अनुबंध सिद्धांत के अनुसार, नागरिक कानूनों का पालन करते हैं क्योंकि सरकार उनकी सुरक्षा और संपत्ति की रक्षा करती है।"
   },
   {
     "word": "Town Hall",
     "meaning": "A local government building, or an open meeting where local politicians answer questions from residents.",
-    "pronunciation": "",
+    "pronunciation": "टाउन हॉल",
     "definition": "A local government building, or an open meeting where local politicians answer questions from residents.",
     "example": "The senator hosted a town hall meeting to discuss the new healthcare law with her constituents.",
     "category": "Civic Administration",
-    "subCategory": "Civic Administration"
+    "subCategory": "Civic Administration",
+    "exampleHindi": "सीनेटर ने अपने मतदाताओं के साथ नए स्वास्थ्य देखभाल कानून पर चर्चा करने के लिए एक टाउन हॉल बैठक की मेजबानी की।"
   },
   {
     "word": "Transparency",
     "meaning": "The practice of keeping government actions, records, and decisions open and clear so the public can see them.",
-    "pronunciation": "",
+    "pronunciation": "ट्रांसपेरेंसी",
     "definition": "The condition of being open and not secretive (strong alternative to 'openness').",
     "example": "To ensure transparency, the government publishes its spending reports online for everyone to read.",
     "category": "Civic Administration",
-    "subCategory": "Civic Administration"
+    "subCategory": "Civic Administration",
+    "exampleHindi": "पारदर्शिता सुनिश्चित करने के लिए, सरकार सभी के पढ़ने के लिए अपनी व्यय रिपोर्ट ऑनलाइन प्रकाशित करती है।"
   },
   {
     "word": "Zoning",
     "meaning": "Rules about how land in a city or town can be used, such as for houses, stores, or factories.",
-    "pronunciation": "",
+    "pronunciation": "जोनिंग",
     "definition": "Rules about how land in a city or town can be used, such as for houses, stores, or factories.",
     "example": "The zoning laws in this neighborhood do not allow tall commercial buildings to be constructed.",
     "category": "Civic Administration",
-    "subCategory": "Civic Administration"
+    "subCategory": "Civic Administration",
+    "exampleHindi": "इस पड़ोस में ज़ोनिंग कानून ऊंची व्यावसायिक इमारतों के निर्माण की अनुमति नहीं देते हैं।"
   }
 ]

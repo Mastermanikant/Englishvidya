@@ -2,190 +2,211 @@
   {
     "word": "algorithmic bias",
     "meaning": "Systematic errors in AI systems that produce unfair or discriminatory outcomes due to biased training data or design.",
-    "pronunciation": "",
+    "pronunciation": "अल्गोरिथ्मिक बायस",
     "definition": "Systematic errors in AI systems that produce unfair or discriminatory outcomes due to biased training data or design.",
     "example": "The hiring algorithm had to be retrained after researchers discovered algorithmic bias against female applicants.",
     "category": "Automation",
-    "subCategory": "Automation"
+    "subCategory": "Automation",
+    "exampleHindi": "शोधकर्ताओं द्वारा महिला आवेदकों के प्रति एल्गोरिथम पूर्वाग्रह की खोज के बाद भर्ती एल्गोरिदम को फिर से प्रशिक्षित करना पड़ा।"
   },
   {
     "word": "algorithmic management",
     "meaning": "The use of algorithms and data-driven systems to monitor, evaluate, and direct workers' activities.",
-    "pronunciation": "",
+    "pronunciation": "अल्गोरिथ्मिक मैनेजमेंट",
     "definition": "The use of algorithms and data-driven systems to monitor, evaluate, and direct workers' activities.",
     "example": "Delivery drivers operating under algorithmic management have little control over their own schedules.",
     "category": "Automation",
-    "subCategory": "Automation"
+    "subCategory": "Automation",
+    "exampleHindi": "एल्गोरिथम प्रबंधन के तहत काम करने वाले डिलीवरी ड्राइवरों का अपने शेड्यूल पर बहुत कम नियंत्रण होता है।"
   },
   {
     "word": "artificial intelligence (AI)",
     "meaning": "The simulation of human intelligence processes by machines, enabling them to learn, reason, and make decisions.",
-    "pronunciation": "",
+    "pronunciation": "आर्टिफीसियल इंटेलिजेंस (ै)",
     "definition": "The simulation of human intelligence processes by machines, enabling them to learn, reason, and make decisions.",
     "example": "AI-powered chatbots now handle the majority of routine customer service inquiries instantly.",
     "category": "Automation",
-    "subCategory": "Automation"
+    "subCategory": "Automation",
+    "exampleHindi": "एआई-संचालित चैटबॉट अब अधिकांश नियमित ग्राहक सेवा पूछताछ को तुरंत संभाल लेते हैं।"
   },
   {
     "word": "augmented intelligence",
     "meaning": "A design philosophy that uses AI to enhance and support human decision-making rather than replace humans entirely.",
-    "pronunciation": "",
+    "pronunciation": "ऑगमेंटेड इंटेलिजेंस",
     "definition": "A design philosophy that uses AI to enhance and support human decision-making rather than replace humans entirely.",
     "example": "Radiologists use augmented intelligence tools to detect anomalies faster while retaining final diagnostic authority.",
     "category": "Automation",
-    "subCategory": "Automation"
+    "subCategory": "Automation",
+    "exampleHindi": "रेडियोलॉजिस्ट अंतिम निदान प्राधिकार को बरकरार रखते हुए विसंगतियों का तेजी से पता लगाने के लिए संवर्धित खुफिया उपकरणों का उपयोग करते हैं।"
   },
   {
     "word": "automation",
     "meaning": "The use of technology to perform tasks with minimal human intervention, replacing or augmenting manual processes.",
-    "pronunciation": "",
+    "pronunciation": "ऑटोमेशन",
     "definition": "à¤¸à¥à¤µà¤šà¤¾à¤²à¤¨",
     "example": "Automation of invoice processing saved the accounting team over 20 hours of manual work per week.",
     "category": "Automation",
-    "subCategory": "Automation"
+    "subCategory": "Automation",
+    "exampleHindi": "चालान प्रसंस्करण के स्वचालन से लेखांकन टीम को प्रति सप्ताह 20 घंटे से अधिक मैन्युअल कार्य की बचत हुई।"
   },
   {
     "word": "automation anxiety",
     "meaning": "The psychological fear or worry experienced by workers concerned that their jobs will be replaced by machines or AI.",
-    "pronunciation": "",
+    "pronunciation": "ऑटोमेशन एंग्जायटी",
     "definition": "The psychological fear or worry experienced by workers concerned that their jobs will be replaced by machines or AI.",
     "example": "Automation anxiety was widespread in the warehouse after management announced a new robotic fulfilment system.",
     "category": "Automation",
-    "subCategory": "Automation"
+    "subCategory": "Automation",
+    "exampleHindi": "प्रबंधन द्वारा एक नई रोबोटिक पूर्ति प्रणाली की घोषणा के बाद गोदाम में स्वचालन संबंधी चिंता व्यापक थी।"
   },
   {
     "word": "bionic workforce",
     "meaning": "A workforce in which human workers are enhanced and empowered by AI and advanced technology to perform at higher levels.",
-    "pronunciation": "",
+    "pronunciation": "बीओनिक वर्कफोर्स",
     "definition": "A workforce in which human workers are enhanced and empowered by AI and advanced technology to perform at higher levels.",
     "example": "The consulting firm envisioned a bionic workforce where every consultant is supported by an AI-powered research assistant.",
     "category": "Automation",
-    "subCategory": "Automation"
+    "subCategory": "Automation",
+    "exampleHindi": "परामर्श फर्म ने एक बायोनिक कार्यबल की कल्पना की, जहां प्रत्येक सलाहकार को एआई-संचालित अनुसंधान सहायक द्वारा समर्थित किया जाता है।"
   },
   {
     "word": "co-bot (collaborative robot)",
     "meaning": "A robot designed to work safely alongside humans in shared workspaces, assisting rather than replacing them.",
-    "pronunciation": "",
+    "pronunciation": "co-bot (कलबोरेटिवे रोबोट)",
     "definition": "A robot designed to work safely alongside humans in shared workspaces, assisting rather than replacing them.",
     "example": "Factory workers now operate alongside co-bots that handle heavy lifting while humans manage quality control.",
     "category": "Automation",
-    "subCategory": "Automation"
+    "subCategory": "Automation",
+    "exampleHindi": "फ़ैक्टरी कर्मचारी अब सह-बॉटों के साथ काम करते हैं जो भारी सामान उठाने का काम संभालते हैं जबकि मनुष्य गुणवत्ता नियंत्रण का प्रबंधन करते हैं।"
   },
   {
     "word": "cognitive automation",
     "meaning": "Advanced automation that mimics human thought processes such as reasoning, judgement, and understanding language.",
-    "pronunciation": "",
+    "pronunciation": "कॉग्निटिव ऑटोमेशन",
     "definition": "Advanced automation that mimics human thought processes such as reasoning, judgement, and understanding language.",
     "example": "Cognitive automation tools can now draft legal summaries, reducing the workload of junior associates.",
     "category": "Automation",
-    "subCategory": "Automation"
+    "subCategory": "Automation",
+    "exampleHindi": "संज्ञानात्मक स्वचालन उपकरण अब कानूनी सारांश तैयार कर सकते हैं, जिससे कनिष्ठ सहयोगियों का कार्यभार कम हो जाएगा।"
   },
   {
     "word": "data-driven decision making",
     "meaning": "The practice of basing business decisions on analysis and interpretation of data rather than intuition alone.",
-    "pronunciation": "",
+    "pronunciation": "data-driven डिसिशन मेकिंग",
     "definition": "The practice of basing business decisions on analysis and interpretation of data rather than intuition alone.",
     "example": "Data-driven decision making has reduced costly errors in their supply chain planning process.",
     "category": "Automation",
-    "subCategory": "Automation"
+    "subCategory": "Automation",
+    "exampleHindi": "डेटा-संचालित निर्णय लेने से उनकी आपूर्ति श्रृंखला योजना प्रक्रिया में महंगी त्रुटियां कम हो गई हैं।"
   },
   {
     "word": "digital transformation",
     "meaning": "The integration of digital technology into all areas of a business, fundamentally changing how it operates and delivers value.",
-    "pronunciation": "",
+    "pronunciation": "डिजिटल ट्रांसफॉर्मेशन",
     "definition": "The integration of digital technology into all areas of a business, fundamentally changing how it operates and delivers value.",
     "example": "The company's digital transformation journey involved adopting cloud computing and AI-driven analytics.",
     "category": "Automation",
-    "subCategory": "Automation"
+    "subCategory": "Automation",
+    "exampleHindi": "कंपनी की डिजिटल परिवर्तन यात्रा में क्लाउड कंप्यूटिंग और एआई-संचालित एनालिटिक्स को अपनाना शामिल था।"
   },
   {
     "word": "generative AI",
     "meaning": "Artificial intelligence systems capable of creating original text, images, code, and other content in response to user prompts.",
-    "pronunciation": "",
+    "pronunciation": "गेनेरेटिवे ै",
     "definition": "Artificial intelligence systems capable of creating original text, images, code, and other content in response to user prompts.",
     "example": "Generative AI tools like ChatGPT are now used for drafting emails, reports, and marketing content.",
     "category": "Automation",
-    "subCategory": "Automation"
+    "subCategory": "Automation",
+    "exampleHindi": "चैटजीपीटी जैसे जेनरेटिव एआई टूल का उपयोग अब ईमेल, रिपोर्ट और मार्केटिंग सामग्री का मसौदा तैयार करने के लिए किया जाता है।"
   },
   {
     "word": "hyperautomation",
     "meaning": "A strategy to automate as many business processes as possible using a combination of AI, machine learning, and RPA.",
-    "pronunciation": "",
+    "pronunciation": "ह्यपेरॉटोमेशन",
     "definition": "A strategy to automate as many business processes as possible using a combination of AI, machine learning, and RPA.",
     "example": "Their hyperautomation initiative reduced operational costs by 35% in under a year.",
     "category": "Automation",
-    "subCategory": "Automation"
+    "subCategory": "Automation",
+    "exampleHindi": "उनकी हाइपरऑटोमेशन पहल ने एक वर्ष से कम समय में परिचालन लागत में 35% की कमी की।"
   },
   {
     "word": "intelligent automation",
     "meaning": "The combination of AI and automation technologies to create systems capable of performing complex, end-to-end processes.",
-    "pronunciation": "",
+    "pronunciation": "इंटेलीजेंट ऑटोमेशन",
     "definition": "The combination of AI and automation technologies to create systems capable of performing complex, end-to-end processes.",
     "example": "Intelligent automation is transforming how insurance claims are processed, approved, and paid.",
     "category": "Automation",
-    "subCategory": "Automation"
+    "subCategory": "Automation",
+    "exampleHindi": "इंटेलिजेंट ऑटोमेशन बीमा दावों को संसाधित करने, अनुमोदित करने और भुगतान करने के तरीके को बदल रहा है।"
   },
   {
     "word": "Internet of Things (IoT)",
     "meaning": "A network of physical objects embedded with sensors, software, and connectivity that enables them to collect and exchange data.",
-    "pronunciation": "",
+    "pronunciation": "इंटरनेट ऑफ़ थिंग्स (ीोत)",
     "definition": "A network of physical objects embedded with sensors, software, and connectivity that enables them to collect and exchange data.",
     "example": "In smart offices, IoT devices adjust lighting and temperature based on occupancy levels throughout the day.",
     "category": "Automation",
-    "subCategory": "Automation"
+    "subCategory": "Automation",
+    "exampleHindi": "स्मार्ट कार्यालयों में, IoT उपकरण पूरे दिन अधिभोग स्तर के आधार पर प्रकाश और तापमान को समायोजित करते हैं।"
   },
   {
     "word": "job displacement",
     "meaning": "The loss of employment caused when automation, technology, or economic shifts eliminate certain roles or industries.",
-    "pronunciation": "",
+    "pronunciation": "जॉब डिस्प्लेसमेंट",
     "definition": "The loss of employment caused when automation, technology, or economic shifts eliminate certain roles or industries.",
     "example": "Job displacement in manufacturing has accelerated as robots take over assembly line tasks.",
     "category": "Automation",
-    "subCategory": "Automation"
+    "subCategory": "Automation",
+    "exampleHindi": "विनिर्माण क्षेत्र में नौकरियों का विस्थापन तेज हो गया है क्योंकि रोबोट असेंबली लाइन कार्यों को अपने हाथ में ले रहे हैं।"
   },
   {
     "word": "labour market polarisation",
     "meaning": "A phenomenon where job growth occurs at the high-skill and low-skill ends of the labour market while middle-skill jobs decline.",
-    "pronunciation": "",
+    "pronunciation": "लेबर मार्किट पोलरिसतिओं",
     "definition": "A phenomenon where job growth occurs at the high-skill and low-skill ends of the labour market while middle-skill jobs decline.",
     "example": "Labour market polarisation has eroded stable, middle-income careers in manufacturing and routine office work.",
     "category": "Automation",
-    "subCategory": "Automation"
+    "subCategory": "Automation",
+    "exampleHindi": "श्रम बाजार ध्रुवीकरण ने विनिर्माण और नियमित कार्यालय कार्य में स्थिर, मध्यम आय वाले करियर को नष्ट कर दिया है।"
   },
   {
     "word": "machine learning",
     "meaning": "A subset of AI where systems automatically learn and improve from experience without being explicitly programmed.",
-    "pronunciation": "",
+    "pronunciation": "मशीन लर्निंग",
     "definition": "à¤®à¤¶à¥€à¤¨ à¤²à¤°à¥à¤¨à¤¿à¤‚à¤— (à¤®à¤¶à¥€à¤¨à¥€ à¤…à¤§à¤¿à¤—à¤®)",
     "example": "The recruitment software uses machine learning to screen thousands of CVs within seconds.",
     "category": "Automation",
-    "subCategory": "Automation"
+    "subCategory": "Automation",
+    "exampleHindi": "भर्ती सॉफ्टवेयर सेकंड के भीतर हजारों सीवी को स्क्रीन करने के लिए मशीन लर्निंग का उपयोग करता है।"
   },
   {
     "word": "prompt engineering",
     "meaning": "The practice of designing and refining inputs to AI language models in order to produce desired, high-quality outputs.",
-    "pronunciation": "",
+    "pronunciation": "प्रांप्ट इंजीनियरिंग",
     "definition": "The practice of designing and refining inputs to AI language models in order to produce desired, high-quality outputs.",
     "example": "Prompt engineering has emerged as a sought-after skill as organisations integrate AI into their workflows.",
     "category": "Automation",
-    "subCategory": "Automation"
+    "subCategory": "Automation",
+    "exampleHindi": "जैसे-जैसे संगठन एआई को अपने वर्कफ़्लो में एकीकृत करते हैं, प्रॉम्प्ट इंजीनियरिंग एक मांग वाले कौशल के रूप में उभरी है।"
   },
   {
     "word": "robotic process automation (RPA)",
     "meaning": "Technology that uses software robots to automate repetitive, rule-based business tasks previously performed by humans.",
-    "pronunciation": "",
+    "pronunciation": "रोबोटिक प्रोसेस ऑटोमेशन (रपा)",
     "definition": "Technology that uses software robots to automate repetitive, rule-based business tasks previously performed by humans.",
     "example": "The bank deployed RPA to automate data entry, dramatically reducing processing errors.",
     "category": "Automation",
-    "subCategory": "Automation"
+    "subCategory": "Automation",
+    "exampleHindi": "बैंक ने डेटा प्रविष्टि को स्वचालित करने के लिए आरपीए तैनात किया, जिससे प्रसंस्करण त्रुटियों में नाटकीय रूप से कमी आई।"
   },
   {
     "word": "smart factory",
     "meaning": "A highly digitised manufacturing plant where machines, systems, and processes are interconnected and monitored through IoT and AI.",
-    "pronunciation": "",
+    "pronunciation": "स्मार्ट फैक्ट्री",
     "definition": "A highly digitised manufacturing plant where machines, systems, and processes are interconnected and monitored through IoT and AI.",
     "example": "The smart factory uses real-time sensor data to predict equipment failures before they disrupt production.",
     "category": "Automation",
-    "subCategory": "Automation"
+    "subCategory": "Automation",
+    "exampleHindi": "स्मार्ट फैक्ट्री उत्पादन को बाधित करने से पहले उपकरण विफलताओं की भविष्यवाणी करने के लिए वास्तविक समय सेंसर डेटा का उपयोग करती है।"
   }
 ]

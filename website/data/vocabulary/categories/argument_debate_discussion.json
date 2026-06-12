@@ -2,38 +2,42 @@
   {
     "word": "academic discourse",
     "meaning": "Formal language and structured ways of discussing ideas in an academic setting",
-    "pronunciation": "",
+    "pronunciation": "अकादमिक डिस्कोर्स",
     "definition": "Formal language and structured ways of discussing ideas in an academic setting",
     "example": "Students were taught phrases for academic discourse such as 'In contrast to...'",
     "category": "Argument, Debate & Discussion",
-    "subCategory": "Discussion"
+    "subCategory": "Discussion",
+    "exampleHindi": "छात्रों को अकादमिक प्रवचन के लिए वाक्यांश सिखाए गए जैसे 'इसके विपरीत...'"
   },
   {
     "word": "acknowledge",
     "meaning": "To accept or admit the existence or truth of something.",
-    "pronunciation": "",
+    "pronunciation": "एकनॉलेज",
     "definition": "To recognize or admit the truth or existence of something.",
     "example": "A fair argument acknowledges the strongest objections to its own position.",
     "category": "Argument, Debate & Discussion",
-    "subCategory": "Argumentative"
+    "subCategory": "Argumentative",
+    "exampleHindi": "एक निष्पक्ष तर्क अपनी स्थिति पर सबसे मजबूत आपत्तियों को स्वीकार करता है।"
   },
   {
     "word": "analyse",
     "meaning": "To examine something in detail to understand it better",
-    "pronunciation": "",
+    "pronunciation": "अनलयसे",
     "definition": "To examine something in detail to understand it better",
     "example": "The essay required students to analyse the themes of the novel.",
     "category": "Argument, Debate & Discussion",
-    "subCategory": "Discussion"
+    "subCategory": "Discussion",
+    "exampleHindi": "निबंध में छात्रों को उपन्यास के विषयों का विश्लेषण करने की आवश्यकता थी।"
   },
   {
     "word": "antithesis",
     "meaning": "The direct opposite of something; a contrast of opposing ideas.",
-    "pronunciation": "",
+    "pronunciation": "अतिथेसिस",
     "definition": "The direct opposite of something; a contrast of opposing ideas.",
     "example": "Reckless spending is the antithesis of sound financial planning.",
     "category": "Argument, Debate & Discussion",
-    "subCategory": "Argumentative"
+    "subCategory": "Argumentative",
+    "exampleHindi": "बेतहाशा खर्च करना अच्छी वित्तीय योजना का विरोधी है।"
   },
   {
     "word": "argue",
@@ -42,672 +46,747 @@
     "definition": "To express disagreement in a loud or angry way.",
     "example": "The essay argues that climate change requires immediate policy intervention.",
     "category": "Argument, Debate & Discussion",
-    "subCategory": "Argumentation"
+    "subCategory": "Argumentation",
+    "exampleHindi": "निबंध में तर्क दिया गया है कि जलवायु परिवर्तन के लिए तत्काल नीतिगत हस्तक्षेप की आवश्यकता है।"
   },
   {
     "word": "argue persuasively",
     "meaning": "To present reasons and evidence in a compelling manner that convinces others.",
-    "pronunciation": "",
+    "pronunciation": "आगे परसुआसीवलय",
     "definition": "To present reasons and evidence in a compelling manner that convinces others.",
     "example": "The debate team learned to argue persuasively even on topics they disagreed with.",
     "category": "Argument, Debate & Discussion",
-    "subCategory": "Argumentation"
+    "subCategory": "Argumentation",
+    "exampleHindi": "वाद-विवाद टीम ने उन विषयों पर भी प्रेरक बहस करना सीखा, जिनसे वे असहमत थे।"
   },
   {
     "word": "articulate",
     "meaning": "To express an idea or feeling clearly and effectively in words.",
-    "pronunciation": "",
+    "pronunciation": "आर्टिकुलेट",
     "definition": "Able to express thoughts and ideas clearly and effectively in speech or writing.",
     "example": "A good writer can articulate complex ideas in simple, clear language.",
     "category": "Argument, Debate & Discussion",
-    "subCategory": "Argumentative"
+    "subCategory": "Argumentative",
+    "exampleHindi": "एक अच्छा लेखक जटिल विचारों को सरल, स्पष्ट भाषा में व्यक्त कर सकता है।"
   },
   {
     "word": "ASSERT",
     "meaning": "To state a fact or belief confidently and forcefully (replaces the conversational 'say strongly').",
-    "pronunciation": "",
+    "pronunciation": "अस्सेर्ट",
     "definition": "To state or declare something confidently and forcefully.",
     "example": "She continued to assert her innocence despite the evidence presented.",
     "category": "Argument, Debate & Discussion",
-    "subCategory": "Arguing & Discussing"
+    "subCategory": "Arguing & Discussing",
+    "exampleHindi": "सबूत पेश किए जाने के बावजूद वह अपनी बेगुनाही का दावा करती रही।"
   },
   {
     "word": "assertion",
     "meaning": "A confident and forceful statement of fact or belief.",
-    "pronunciation": "",
+    "pronunciation": "अस्सेरटीओं",
     "definition": "A confident and forceful statement of fact or belief.",
     "example": "His assertion that crime has increased is not supported by statistics.",
     "category": "Argument, Debate & Discussion",
-    "subCategory": "Argumentative"
+    "subCategory": "Argumentative",
+    "exampleHindi": "उनका यह दावा कि अपराध बढ़ा है, आंकड़ों से समर्थित नहीं है।"
   },
   {
     "word": "BROACH",
     "meaning": "To raise a difficult or sensitive subject for discussion (replaces the conversational 'bring up a topic').",
-    "pronunciation": "",
+    "pronunciation": "ब्रोच",
     "definition": "To raise a difficult or sensitive subject for discussion (replaces the conversational 'bring up a topic').",
     "example": "It was hard for him to broach the subject of a budget deficit with his boss.",
     "category": "Argument, Debate & Discussion",
-    "subCategory": "Arguing & Discussing"
+    "subCategory": "Arguing & Discussing",
+    "exampleHindi": "उनके लिए अपने बॉस के साथ बजट घाटे के विषय पर चर्चा करना कठिन था।"
   },
   {
     "word": "Burden Of Proof",
     "meaning": "The duty to provide evidence to prove a claim that you have made.",
-    "pronunciation": "",
+    "pronunciation": "बर्डन ऑफ़ प्रूफ",
     "definition": "Making a claim that needs justification, then demanding that the opponent justifies the opposite of the claim.",
     "example": "If you accuse someone of lying, the burden of proof is on you, not on them.",
     "category": "Argument, Debate & Discussion",
-    "subCategory": "Argument & Debate"
+    "subCategory": "Argument & Debate",
+    "exampleHindi": "यदि आप किसी पर झूठ बोलने का आरोप लगाते हैं, तो सबूत देने का भार आप पर है, उन पर नहीं।"
   },
   {
     "word": "CHALLENGE",
     "meaning": "To dispute the truth or validity of something (replaces the conversational 'question' or 'argue with').",
-    "pronunciation": "",
+    "pronunciation": "चैलेंज",
     "definition": "To dispute the truth or validity of an idea or belief.",
     "example": "New discoveries challenge the traditional view of dinosaur extinction.",
     "category": "Argument, Debate & Discussion",
-    "subCategory": "Arguing & Discussing"
+    "subCategory": "Arguing & Discussing",
+    "exampleHindi": "नई खोजें डायनासोर के विलुप्त होने के पारंपरिक दृष्टिकोण को चुनौती देती हैं।"
   },
   {
     "word": "circumvent",
     "meaning": "To find a way around an obstacle or to avoid dealing with it directly.",
-    "pronunciation": "",
+    "pronunciation": "सरकमवेंट",
     "definition": "To find a way around an obstacle or to avoid dealing with it directly.",
     "example": "The argument attempts to circumvent the need for empirical evidence.",
     "category": "Argument, Debate & Discussion",
-    "subCategory": "Argumentative"
+    "subCategory": "Argumentative",
+    "exampleHindi": "यह तर्क अनुभवजन्य साक्ष्य की आवश्यकता को दरकिनार करने का प्रयास करता है।"
   },
   {
     "word": "closed question",
     "meaning": "A question that has a specific correct answer, often yes or no",
-    "pronunciation": "",
+    "pronunciation": "क्लोज्ड क्वेश्चन",
     "definition": "A question that has a specific correct answer, often yes or no",
     "example": "The teacher asked a closed question: 'What is the capital of France?'",
     "category": "Argument, Debate & Discussion",
-    "subCategory": "Discussion"
+    "subCategory": "Discussion",
+    "exampleHindi": "शिक्षक ने एक बंद प्रश्न पूछा: 'फ्रांस की राजधानी क्या है?'"
   },
   {
     "word": "cogent",
     "meaning": "Clear, logical, and convincing; compelling.",
-    "pronunciation": "",
+    "pronunciation": "कोगेन्ट",
     "definition": "Clear, logical, and convincing.",
     "example": "She presented a cogent argument that left little room for doubt.",
     "category": "Argument, Debate & Discussion",
-    "subCategory": "Argumentation"
+    "subCategory": "Argumentation",
+    "exampleHindi": "उसने एक ठोस तर्क प्रस्तुत किया जिससे संदेह की कोई गुंजाइश नहीं बची।"
   },
   {
     "word": "Cognitive Bias",
     "meaning": "A systematic error in thinking that affects the decisions and judgments people make.",
-    "pronunciation": "",
+    "pronunciation": "कॉग्निटिव बायस",
     "definition": "A systematic pattern of deviation from rational thinking caused by mental shortcuts or emotional influences.",
     "example": "Confirmation bias is a cognitive bias where you only look for facts that agree with you.",
     "category": "Argument, Debate & Discussion",
-    "subCategory": "Argument & Debate"
+    "subCategory": "Argument & Debate",
+    "exampleHindi": "पुष्टिकरण पूर्वाग्रह एक संज्ञानात्मक पूर्वाग्रह है जहां आप केवल उन तथ्यों की तलाश करते हैं जो आपसे सहमत हैं।"
   },
   {
     "word": "coherent",
     "meaning": "Logical and consistent; easy to understand because well-structured.",
-    "pronunciation": "",
+    "pronunciation": "कोहेरेंट",
     "definition": "Logical and consistent; forming a unified whole.",
     "example": "A coherent argument flows naturally from one point to the next.",
     "category": "Argument, Debate & Discussion",
-    "subCategory": "Argumentative"
+    "subCategory": "Argumentative",
+    "exampleHindi": "एक सुसंगत तर्क स्वाभाविक रूप से एक बिंदु से दूसरे बिंदु तक प्रवाहित होता है।"
   },
   {
     "word": "compelling",
     "meaning": "Evoking interest, attention, or admiration in a powerfully irresistible way.",
-    "pronunciation": "",
+    "pronunciation": "सोमपेल्लिंग",
     "definition": "Evoking interest, attention, or admiration in a powerfully irresistible way.",
     "example": "He made a compelling case for revising the curriculum.",
     "category": "Argument, Debate & Discussion",
-    "subCategory": "Argumentation"
+    "subCategory": "Argumentation",
+    "exampleHindi": "उन्होंने पाठ्यक्रम को संशोधित करने के लिए एक सम्मोहक मामला बनाया।"
   },
   {
     "word": "CONCEDE",
     "meaning": "To admit that something is true or valid after first denying or resisting it (replaces the conversational 'give in' or 'admit').",
-    "pronunciation": "",
+    "pronunciation": "कंकेड़ी",
     "definition": "To admit that something is true or valid after first denying or resisting it (replaces the conversational 'give in' or 'admit').",
     "example": "The candidate refused to concede the election until all votes were counted.",
     "category": "Argument, Debate & Discussion",
-    "subCategory": "Arguing & Discussing"
+    "subCategory": "Arguing & Discussing",
+    "exampleHindi": "उम्मीदवार ने सभी वोटों की गिनती होने तक चुनाव लड़ने से इनकार कर दिया।"
   },
   {
     "word": "Concession",
     "meaning": "Admitting that a point made by your opponent is true or valid, even if you disagree overall.",
-    "pronunciation": "",
+    "pronunciation": "कन्सेशन",
     "definition": "A thing that is granted, especially in response to demands; a thing conceded.",
     "example": "Making a small concession can make you look fair and reasonable in a debate.",
     "category": "Argument, Debate & Discussion",
-    "subCategory": "Argument & Debate"
+    "subCategory": "Argument & Debate",
+    "exampleHindi": "एक छोटी सी रियायत देने से आप बहस में निष्पक्ष और उचित दिख सकते हैं।"
   },
   {
     "word": "concrete",
     "meaning": "Specific, definite, and based on facts rather than ideas or feelings.",
-    "pronunciation": "",
+    "pronunciation": "कंक्रीट",
     "definition": "Specific, definite, and based on facts rather than ideas or feelings.",
     "example": "Support your argument with concrete examples, not vague statements.",
     "category": "Argument, Debate & Discussion",
-    "subCategory": "Argumentative"
+    "subCategory": "Argumentative",
+    "exampleHindi": "अपने तर्क का समर्थन ठोस उदाहरणों से करें, अस्पष्ट बयानों से नहीं।"
   },
   {
     "word": "CONCUR",
     "meaning": "To be of the same opinion or agree (replaces the conversational 'agree').",
-    "pronunciation": "",
+    "pronunciation": "क्योंकर",
     "definition": "To be of the same opinion or agree (replaces the conversational 'agree').",
     "example": "The board members concur that immediate action must be taken.",
     "category": "Argument, Debate & Discussion",
-    "subCategory": "Arguing & Discussing"
+    "subCategory": "Arguing & Discussing",
+    "exampleHindi": "बोर्ड के सदस्य सहमत हैं कि तत्काल कार्रवाई की जानी चाहिए।"
   },
   {
     "word": "consensus",
     "meaning": "General agreement reached by a group after discussion",
-    "pronunciation": "",
+    "pronunciation": "कंसेंसस",
     "definition": "A general agreement.",
     "example": "After the group discussion, students reached a consensus on the best solution.",
     "category": "Argument, Debate & Discussion",
-    "subCategory": "Discussion"
+    "subCategory": "Discussion",
+    "exampleHindi": "समूह चर्चा के बाद छात्र सर्वोत्तम समाधान पर आम सहमति पर पहुंचे।"
   },
   {
     "word": "constructive criticism",
     "meaning": "Feedback that identifies weaknesses while also offering suggestions for improvement",
-    "pronunciation": "",
+    "pronunciation": "कंस्ट्रक्टिवे क्रिटिसिज्म",
     "definition": "Feedback that identifies weaknesses while also offering suggestions for improvement",
     "example": "Peer review sessions practised giving constructive criticism in a respectful way.",
     "category": "Argument, Debate & Discussion",
-    "subCategory": "Discussion"
+    "subCategory": "Discussion",
+    "exampleHindi": "सहकर्मी समीक्षा सत्रों में सम्मानजनक तरीके से रचनात्मक आलोचना देने का अभ्यास किया गया।"
   },
   {
     "word": "contend",
     "meaning": "To assert something as a position in an argument; to maintain firmly.",
-    "pronunciation": "",
+    "pronunciation": "कन्टेन्ड",
     "definition": "Assert something as a position in an argument.",
     "example": "The author contends that modern education fails to teach critical thinking.",
     "category": "Argument, Debate & Discussion",
-    "subCategory": "Argumentative"
+    "subCategory": "Argumentative",
+    "exampleHindi": "लेखक का तर्क है कि आधुनिक शिक्षा आलोचनात्मक सोच सिखाने में विफल रहती है।"
   },
   {
     "word": "contention",
     "meaning": "A point of view put forward in an argument; a position one defends.",
-    "pronunciation": "",
+    "pronunciation": "कंटेन्शन",
     "definition": "A point of view put forward in an argument; a position one defends.",
     "example": "Her central contention is that poverty is a policy choice, not an inevitability.",
     "category": "Argument, Debate & Discussion",
-    "subCategory": "Argumentative"
+    "subCategory": "Argumentative",
+    "exampleHindi": "उनका मुख्य तर्क यह है कि गरीबी एक नीतिगत विकल्प है, अपरिहार्यता नहीं।"
   },
   {
     "word": "contentious",
     "meaning": "Causing or likely to cause argument or disagreement; disputed.",
-    "pronunciation": "",
+    "pronunciation": "कंटेन्टियस",
     "definition": "Causing or likely to cause argument or disagreement; disputed.",
     "example": "The proposal was highly contentious, dividing experts into two camps.",
     "category": "Argument, Debate & Discussion",
-    "subCategory": "Argumentative"
+    "subCategory": "Argumentative",
+    "exampleHindi": "यह प्रस्ताव अत्यधिक विवादास्पद था, जिसने विशेषज्ञों को दो खेमों में विभाजित कर दिया।"
   },
   {
     "word": "CONTEST",
     "meaning": "To oppose an action, decision, or theory as mistaken or wrong (replaces the conversational 'fight against' or 'argue about').",
-    "pronunciation": "",
+    "pronunciation": "कांटेस्ट",
     "definition": "To oppose an action, decision, or theory as mistaken or wrong (replaces the conversational 'fight against' or 'argue about').",
     "example": "The heirs decided to contest the validity of the will in court.",
     "category": "Argument, Debate & Discussion",
-    "subCategory": "Arguing & Discussing"
+    "subCategory": "Arguing & Discussing",
+    "exampleHindi": "वारिसों ने वसीयत की वैधता को अदालत में चुनौती देने का फैसला किया।"
   },
   {
     "word": "contradict",
     "meaning": "To deny or state the opposite of what someone else has said.",
-    "pronunciation": "",
+    "pronunciation": "कॉन्ट्रडिक्ट",
     "definition": "To say or do something that is opposite to what has been said before.",
     "example": "The new findings directly contradict the earlier published results.",
     "category": "Argument, Debate & Discussion",
-    "subCategory": "Argumentative"
+    "subCategory": "Argumentative",
+    "exampleHindi": "नए निष्कर्ष सीधे तौर पर पहले प्रकाशित परिणामों का खंडन करते हैं।"
   },
   {
     "word": "Contradiction",
     "meaning": "A statement or situation where two things are completely opposed, showing that one must be false.",
-    "pronunciation": "",
+    "pronunciation": "कंट्राडिक्शन",
     "definition": "A statement or situation where two things are completely opposed, showing that one must be false.",
     "example": "There is a clear contradiction between saying you want to save money and buying luxury items.",
     "category": "Argument, Debate & Discussion",
-    "subCategory": "Argument & Debate"
+    "subCategory": "Argument & Debate",
+    "exampleHindi": "यह कहने के बीच कि आप पैसे बचाना चाहते हैं और विलासिता की वस्तुएं खरीदना स्पष्ट विरोधाभास है।"
   },
   {
     "word": "convincing",
     "meaning": "Capable of causing someone to believe that something is true or real.",
-    "pronunciation": "",
+    "pronunciation": "कन्विंसिंग",
     "definition": "Capable of causing someone to believe that something is true or real.",
     "example": "A convincing argument requires both strong evidence and clear logic.",
     "category": "Argument, Debate & Discussion",
-    "subCategory": "Argumentation"
+    "subCategory": "Argumentation",
+    "exampleHindi": "एक ठोस तर्क के लिए मजबूत साक्ष्य और स्पष्ट तर्क दोनों की आवश्यकता होती है।"
   },
   {
     "word": "Corroborate",
     "meaning": "To support or confirm a statement or story by providing fresh evidence.",
-    "pronunciation": "",
+    "pronunciation": "करोबोराते",
     "definition": "To confirm or give support to a statement, theory, or finding.",
     "example": "Three other witnesses were called to corroborate the victim's story.",
     "category": "Argument, Debate & Discussion",
-    "subCategory": "Argument & Debate"
+    "subCategory": "Argument & Debate",
+    "exampleHindi": "पीड़िता की कहानी की पुष्टि के लिए तीन अन्य गवाहों को बुलाया गया।"
   },
   {
     "word": "counterargument",
     "meaning": "An argument made to oppose or rebut another argument.",
-    "pronunciation": "",
+    "pronunciation": "कोउन्तेरारगुमेंट",
     "definition": "An argument made to oppose or rebut another argument.",
     "example": "A strong essay acknowledges the counterargument and addresses it directly.",
     "category": "Argument, Debate & Discussion",
-    "subCategory": "Argumentative"
+    "subCategory": "Argumentative",
+    "exampleHindi": "एक सशक्त निबंध प्रतिवाद को स्वीकार करता है और उसे सीधे संबोधित करता है।"
   },
   {
     "word": "Counterexample",
     "meaning": "A specific example that proves a general rule or claim is false.",
-    "pronunciation": "",
+    "pronunciation": "कोउन्तेरेक्साम्पले",
     "definition": "A specific example that proves a general rule or claim is false.",
     "example": "Finding one black swan is a counterexample that disproves the rule that all swans are white.",
     "category": "Argument, Debate & Discussion",
-    "subCategory": "Argument & Debate"
+    "subCategory": "Argument & Debate",
+    "exampleHindi": "एक काले हंस को ढूंढना एक प्रति-उदाहरण है जो इस नियम को अस्वीकार करता है कि सभी हंस सफेद होते हैं।"
   },
   {
     "word": "discussion",
     "meaning": "A conversation in which students and teachers explore ideas together",
-    "pronunciation": "",
+    "pronunciation": "डिस्कशन",
     "definition": "A conversation in which students and teachers explore ideas together",
     "example": "The class held a discussion about the causes of environmental pollution.",
     "category": "Argument, Debate & Discussion",
-    "subCategory": "Discussion"
+    "subCategory": "Discussion",
+    "exampleHindi": "कक्षा में पर्यावरण प्रदूषण के कारणों पर चर्चा हुई।"
   },
   {
     "word": "dispute",
     "meaning": "To question or argue against the truth or validity of something.",
-    "pronunciation": "",
+    "pronunciation": "डिस्प्यूट",
     "definition": "To question or argue against the truth or validity of something.",
     "example": "Several economists dispute the claim that austerity measures promote growth.",
     "category": "Argument, Debate & Discussion",
-    "subCategory": "Argumentative"
+    "subCategory": "Argumentative",
+    "exampleHindi": "कई अर्थशास्त्री इस दावे पर विवाद करते हैं कि मितव्ययता के उपाय विकास को बढ़ावा देते हैं।"
   },
   {
     "word": "DISSENT",
     "meaning": "To hold or express opinions that are at variance with those previously or officially held (replaces the conversational 'disagree').",
-    "pronunciation": "",
+    "pronunciation": "डिस्सेंट",
     "definition": "To hold or express opinions that are at variance with those previously or officially held (replaces the conversational 'disagree').",
     "example": "Two judges chose to dissent from the majority ruling.",
     "category": "Argument, Debate & Discussion",
-    "subCategory": "Arguing & Discussing"
+    "subCategory": "Arguing & Discussing",
+    "exampleHindi": "दो न्यायाधीशों ने बहुमत के फैसले से असहमति जताई।"
   },
   {
     "word": "ELABORATE",
     "meaning": "To present an argument or theory in further detail (replaces the conversational 'say more' or 'go into detail').",
-    "pronunciation": "",
+    "pronunciation": "ेलबोरते",
     "definition": "To develop or present a theory or argument in further detail.",
     "example": "Could you elaborate on the third point you made in your report?",
     "category": "Argument, Debate & Discussion",
-    "subCategory": "Arguing & Discussing"
+    "subCategory": "Arguing & Discussing",
+    "exampleHindi": "क्या आप अपनी रिपोर्ट में बताए गए तीसरे बिंदु के बारे में विस्तार से बता सकते हैं?"
   },
   {
     "word": "EXPOUND",
     "meaning": "To present and explain a theory or idea systematically and in detail (replaces the conversational 'explain in detail').",
-    "pronunciation": "",
+    "pronunciation": "एक्सपॉण्ड",
     "definition": "To present and explain a theory or idea systematically and in detail.",
     "example": "He expounded on his theories of economic growth during the lecture.",
     "category": "Argument, Debate & Discussion",
-    "subCategory": "Arguing & Discussing"
+    "subCategory": "Arguing & Discussing",
+    "exampleHindi": "उन्होंने व्याख्यान के दौरान आर्थिक विकास के अपने सिद्धांतों को उजागर किया।"
   },
   {
     "word": "Falsify",
     "meaning": "To prove that a statement or theory is false (or to alter data dishonestly).",
-    "pronunciation": "",
+    "pronunciation": "फ़लसफ़ी",
     "definition": "To prove that a statement or theory is false (or to alter data dishonestly).",
     "example": "Karl Popper argued that scientific theories must be open to being falsified.",
     "category": "Argument, Debate & Discussion",
-    "subCategory": "Argument & Debate"
+    "subCategory": "Argument & Debate",
+    "exampleHindi": "कार्ल पॉपर ने तर्क दिया कि वैज्ञानिक सिद्धांतों को गलत साबित होने के लिए खुला होना चाहिए।"
   },
   {
     "word": "illustrate",
     "meaning": "To make something clear by using examples, charts, or evidence.",
-    "pronunciation": "",
+    "pronunciation": "इल्लुस्रते",
     "definition": "Explain or make something clear by using examples, charts, pictures, etc.",
     "example": "The case study illustrates how theory can break down in practice.",
     "category": "Argument, Debate & Discussion",
-    "subCategory": "Argumentative"
+    "subCategory": "Argumentative",
+    "exampleHindi": "केस स्टडी से पता चलता है कि सिद्धांत व्यवहार में कैसे विफल हो सकता है।"
   },
   {
     "word": "Invalidate",
     "meaning": "To prove that an argument or claim is incorrect, illogical, or officially void.",
-    "pronunciation": "",
+    "pronunciation": "इनवालीदते",
     "definition": "To prove that an argument or claim is incorrect, illogical, or officially void.",
     "example": "Finding a single error in the math can invalidate the entire calculation.",
     "category": "Argument, Debate & Discussion",
-    "subCategory": "Argument & Debate"
+    "subCategory": "Argument & Debate",
+    "exampleHindi": "गणित में एक भी त्रुटि खोजने से पूरी गणना अमान्य हो सकती है।"
   },
   {
     "word": "justify",
     "meaning": "To show or prove to be right or reasonable.",
-    "pronunciation": "",
+    "pronunciation": "जस्टिफाई",
     "definition": "To show or prove to be right or reasonable.",
     "example": "You must justify your choice of methodology in the research design chapter.",
     "category": "Argument, Debate & Discussion",
-    "subCategory": "Argumentation"
+    "subCategory": "Argumentation",
+    "exampleHindi": "आपको अनुसंधान डिज़ाइन अध्याय में कार्यप्रणाली की अपनी पसंद को उचित ठहराना होगा।"
   },
   {
     "word": "lucid",
     "meaning": "Expressed clearly; easy to understand.",
-    "pronunciation": "",
+    "pronunciation": "लुसिड",
     "definition": "Expressed clearly; easy to understand.",
     "example": "A lucid argument requires precise language and a clear structure.",
     "category": "Argument, Debate & Discussion",
-    "subCategory": "Argumentative"
+    "subCategory": "Argumentative",
+    "exampleHindi": "एक स्पष्ट तर्क के लिए सटीक भाषा और स्पष्ट संरचना की आवश्यकता होती है।"
   },
   {
     "word": "mitigate",
     "meaning": "To make less severe, serious, or painful; to lessen the impact of.",
-    "pronunciation": "",
+    "pronunciation": "मितिगते",
     "definition": "To make less severe, serious, or painful; to lessen the impact of.",
     "example": "Acknowledging limitations in your study helps mitigate criticism.",
     "category": "Argument, Debate & Discussion",
-    "subCategory": "Argumentative"
+    "subCategory": "Argumentative",
+    "exampleHindi": "अपने अध्ययन की सीमाओं को स्वीकार करने से आलोचना को कम करने में मदद मिलती है।"
   },
   {
     "word": "negate",
     "meaning": "To make ineffective or invalid; to nullify a claim or argument.",
-    "pronunciation": "",
+    "pronunciation": "नेगटे",
     "definition": "To make ineffective or invalid; to nullify a claim or argument.",
     "example": "The new data negates the original findings entirely.",
     "category": "Argument, Debate & Discussion",
-    "subCategory": "Argumentative"
+    "subCategory": "Argumentative",
+    "exampleHindi": "नया डेटा मूल निष्कर्षों को पूरी तरह से नकार देता है।"
   },
   {
     "word": "open-ended question",
     "meaning": "A question that requires more than a yes/no answer and promotes thinking",
-    "pronunciation": "",
+    "pronunciation": "open-ended क्वेश्चन",
     "definition": "A question that requires more than a yes/no answer and promotes thinking",
     "example": "Open-ended questions like 'Why do you think so?' encourage deeper thinking.",
     "category": "Argument, Debate & Discussion",
-    "subCategory": "Discussion"
+    "subCategory": "Discussion",
+    "exampleHindi": "ओपन-एंडेड प्रश्न जैसे 'आप ऐसा क्यों सोचते हैं?' गहरी सोच को प्रोत्साहित करें."
   },
   {
     "word": "oral presentation",
     "meaning": "A spoken report or talk delivered to the class by a student",
-    "pronunciation": "",
+    "pronunciation": "ओरल प्रेजेंटेशन",
     "definition": "A spoken report or talk delivered to the class by a student",
     "example": "Each student gave a five-minute oral presentation on their chosen topic.",
     "category": "Argument, Debate & Discussion",
-    "subCategory": "Discussion"
+    "subCategory": "Discussion",
+    "exampleHindi": "प्रत्येक छात्र ने अपने चुने हुए विषय पर पांच मिनट की मौखिक प्रस्तुति दी।"
   },
   {
     "word": "persuade",
     "meaning": "To cause someone to do or believe something through reasoning or argument.",
-    "pronunciation": "",
+    "pronunciation": "परसुएड",
     "definition": "To cause someone to do or believe something through reasoning or argument.",
     "example": "A well-structured argument should persuade even a skeptical reader.",
     "category": "Argument, Debate & Discussion",
-    "subCategory": "Argumentation"
+    "subCategory": "Argumentation",
+    "exampleHindi": "एक सुव्यवस्थित तर्क को संशयवादी पाठक को भी आश्वस्त करना चाहिए।"
   },
   {
     "word": "persuasive",
     "meaning": "Good at convincing someone to do or believe something through reasoning.",
-    "pronunciation": "",
+    "pronunciation": "परसुआसीवे",
     "definition": "Good at convincing someone to do or believe something through reasoning.",
     "example": "Persuasive writing combines emotional appeal with logical argument.",
     "category": "Argument, Debate & Discussion",
-    "subCategory": "Argumentation"
+    "subCategory": "Argumentation",
+    "exampleHindi": "प्रेरक लेखन भावनात्मक अपील को तार्किक तर्क के साथ जोड़ता है।"
   },
   {
     "word": "polemic",
     "meaning": "A strong verbal or written attack on someone or something; contentious argument or controversy",
-    "pronunciation": "",
+    "pronunciation": "पोलेमिक",
     "definition": "A strong verbal or written attack on someone or something; contentious argument or controversy",
     "example": "Her book was a blistering polemic against the pharmaceutical industry's pricing practices.",
     "category": "Argument, Debate & Discussion",
-    "subCategory": "Argument, Debate & Discussion"
+    "subCategory": "Argument, Debate & Discussion",
+    "exampleHindi": "उनकी पुस्तक फार्मास्युटिकल उद्योग की मूल्य निर्धारण प्रथाओं के खिलाफ एक तीखा विवाद था।"
   },
   {
     "word": "pose a question",
     "meaning": "To ask a question, especially to start or continue a discussion",
-    "pronunciation": "",
+    "pronunciation": "पोज़ ा क्वेश्चन",
     "definition": "To ask a question, especially to start or continue a discussion",
     "example": "The teacher posed a question to check if students understood the concept.",
     "category": "Argument, Debate & Discussion",
-    "subCategory": "Discussion"
+    "subCategory": "Discussion",
+    "exampleHindi": "शिक्षक ने यह जांचने के लिए एक प्रश्न पूछा कि क्या छात्रों ने अवधारणा को समझा है।"
   },
   {
     "word": "postulate",
     "meaning": "To suggest or assume the existence, fact, or truth of something as a basis for reasoning.",
-    "pronunciation": "",
+    "pronunciation": "पोस्तुलते",
     "definition": "A suggested truth or principle accepted as the basis of an argument.",
     "example": "The economist postulated that lower taxes stimulate growth.",
     "category": "Argument, Debate & Discussion",
-    "subCategory": "Argumentative"
+    "subCategory": "Argumentative",
+    "exampleHindi": "अर्थशास्त्री ने माना कि कम कर विकास को प्रोत्साहित करते हैं।"
   },
   {
     "word": "predict",
     "meaning": "To say what you think will happen based on available information",
-    "pronunciation": "",
+    "pronunciation": "प्रेडिक्ट",
     "definition": "To say what you think will happen based on available information",
     "example": "Students were asked to predict the outcome of the experiment before conducting it.",
     "category": "Argument, Debate & Discussion",
-    "subCategory": "Discussion"
+    "subCategory": "Discussion",
+    "exampleHindi": "छात्रों को प्रयोग करने से पहले उसके परिणाम की भविष्यवाणी करने के लिए कहा गया था।"
   },
   {
     "word": "premise",
     "meaning": "A statement or assumption that forms the basis of an argument.",
-    "pronunciation": "",
+    "pronunciation": "प्रेमिसे",
     "definition": "A previous statement or proposition from which another is inferred or follows as a conclusion.",
     "example": "The entire argument rests on a flawed premise.",
     "category": "Argument, Debate & Discussion",
-    "subCategory": "Argumentative"
+    "subCategory": "Argumentative",
+    "exampleHindi": "पूरा तर्क एक त्रुटिपूर्ण आधार पर आधारित है।"
   },
   {
     "word": "proposition",
     "meaning": "A statement that expresses an idea or argument to be considered.",
-    "pronunciation": "",
+    "pronunciation": "प्रोपोज़िशन",
     "definition": "A declarative statement that is either true or false.",
     "example": "The proposition that all people are equal before the law is central to democracy.",
     "category": "Argument, Debate & Discussion",
-    "subCategory": "Argumentative"
+    "subCategory": "Argumentative",
+    "exampleHindi": "यह प्रस्ताव कि कानून के समक्ष सभी लोग समान हैं, लोकतंत्र का केंद्र है।"
   },
   {
     "word": "PROVOKE",
     "meaning": "To stimulate or give rise to a reaction or emotion, typically a strong one (replaces the conversational 'cause' or 'stir up').",
-    "pronunciation": "",
+    "pronunciation": "प्रोवोके",
     "definition": "To stimulate or give rise to a reaction or emotion, typically a strong one (replaces the conversational 'cause' or 'stir up').",
     "example": "His controversial statements were designed to provoke a debate.",
     "category": "Argument, Debate & Discussion",
-    "subCategory": "Arguing & Discussing"
+    "subCategory": "Arguing & Discussing",
+    "exampleHindi": "उनके विवादास्पद बयान बहस भड़काने के लिए तैयार किए गए थे।"
   },
   {
     "word": "qualify",
     "meaning": "To make a statement less absolute by adding conditions or reservations.",
-    "pronunciation": "",
+    "pronunciation": "क्वालीफाई",
     "definition": "To make a statement less absolute by adding conditions or reservations.",
     "example": "He qualified his statement by noting that exceptions exist.",
     "category": "Argument, Debate & Discussion",
-    "subCategory": "Argumentative"
+    "subCategory": "Argumentative",
+    "exampleHindi": "उन्होंने अपने कथन को यह कहते हुए प्रमाणित किया कि अपवाद मौजूद हैं।"
   },
   {
     "word": "rationale",
     "meaning": "A set of reasons or a logical basis for a course of action or belief.",
-    "pronunciation": "",
+    "pronunciation": "रैशनल",
     "definition": "A set of reasons or a logical basis for a course of action or a belief (replaces the conversational 'reason' or 'thinking').",
     "example": "The committee explained the rationale behind its decision to cut funding.",
     "category": "Argument, Debate & Discussion",
-    "subCategory": "Argumentative"
+    "subCategory": "Argumentative",
+    "exampleHindi": "समिति ने फंडिंग में कटौती के अपने फैसले के पीछे का तर्क समझाया।"
   },
   {
     "word": "reasoned",
     "meaning": "Based on logic or good sense.",
-    "pronunciation": "",
+    "pronunciation": "रासोनेड",
     "definition": "Based on logic or good sense.",
     "example": "Her reasoned response to the criticism demonstrated academic maturity.",
     "category": "Argument, Debate & Discussion",
-    "subCategory": "Argumentation"
+    "subCategory": "Argumentation",
+    "exampleHindi": "आलोचना पर उनकी तर्कपूर्ण प्रतिक्रिया ने अकादमिक परिपक्वता का प्रदर्शन किया।"
   },
   {
     "word": "rebuttal",
     "meaning": "A response that contradicts or proves a claim or argument wrong.",
-    "pronunciation": "",
+    "pronunciation": "रबुट्टल",
     "definition": "A response that contradicts or proves a claim or argument wrong.",
     "example": "Her rebuttal effectively dismantled every point the opposition had raised.",
     "category": "Argument, Debate & Discussion",
-    "subCategory": "Argumentative"
+    "subCategory": "Argumentative",
+    "exampleHindi": "उनके खंडन ने विपक्ष द्वारा उठाए गए हर बिंदु को प्रभावी ढंग से नष्ट कर दिया।"
   },
   {
     "word": "RECAPITULATE",
     "meaning": "To summarize and state again the main points of something (replaces the conversational 'go over again' or 'sum up').",
-    "pronunciation": "",
+    "pronunciation": "रेकापितुलाते",
     "definition": "To summarize and state again the main points of something (replaces the conversational 'go over again' or 'sum up').",
     "example": "Let me recapitulate the main findings before we open the floor to questions.",
     "category": "Argument, Debate & Discussion",
-    "subCategory": "Arguing & Discussing"
+    "subCategory": "Arguing & Discussing",
+    "exampleHindi": "इससे पहले कि हम प्रश्नों के लिए मंच खोलें, मैं मुख्य निष्कर्षों को दोबारा दोहराना चाहूँगा।"
   },
   {
     "word": "Refutation",
     "meaning": "The act of proving a statement or theory to be wrong or false.",
-    "pronunciation": "",
+    "pronunciation": "रेफुटेशन",
     "definition": "The act of proving a statement or theory to be wrong or false.",
     "example": "The scientist published a complete refutation of the old theory.",
     "category": "Argument, Debate & Discussion",
-    "subCategory": "Argument & Debate"
+    "subCategory": "Argument & Debate",
+    "exampleHindi": "वैज्ञानिक ने पुराने सिद्धांत का पूर्ण खंडन प्रकाशित किया।"
   },
   {
     "word": "REFUTE",
     "meaning": "To prove a statement or theory to be wrong or false (replaces the conversational 'prove wrong' or 'argue against').",
-    "pronunciation": "",
+    "pronunciation": "रेफुटे",
     "definition": "To prove a statement or theory to be wrong or false.",
     "example": "The laboratory results refute the claims made by the manufacturer.",
     "category": "Argument, Debate & Discussion",
-    "subCategory": "Arguing & Discussing"
+    "subCategory": "Arguing & Discussing",
+    "exampleHindi": "प्रयोगशाला के परिणाम निर्माता द्वारा किए गए दावों का खंडन करते हैं।"
   },
   {
     "word": "repudiate",
     "meaning": "To refuse to accept or be associated with something; to deny firmly.",
-    "pronunciation": "",
+    "pronunciation": "रेपुडिएट",
     "definition": "To refuse to accept or be associated with something; to deny firmly.",
     "example": "She repudiated the claim that her research was biased.",
     "category": "Argument, Debate & Discussion",
-    "subCategory": "Argumentative"
+    "subCategory": "Argumentative",
+    "exampleHindi": "उन्होंने इस दावे को खारिज कर दिया कि उनका शोध पक्षपातपूर्ण था।"
   },
   {
     "word": "rhetoric",
     "meaning": "The art of effective or persuasive speaking or writing.",
-    "pronunciation": "",
+    "pronunciation": "रहेटोरिक",
     "definition": "The art of effective or persuasive speaking or writing.",
     "example": "Political speeches often rely on powerful rhetoric to move audiences.",
     "category": "Argument, Debate & Discussion",
-    "subCategory": "Argumentative"
+    "subCategory": "Argumentative",
+    "exampleHindi": "राजनीतिक भाषण अक्सर दर्शकों को प्रभावित करने के लिए शक्तिशाली बयानबाजी पर निर्भर करते हैं।"
   },
   {
     "word": "seminar",
     "meaning": "A structured academic discussion session led by a teacher or student",
-    "pronunciation": "",
+    "pronunciation": "सेमिनार",
     "definition": "A structured academic discussion session led by a teacher or student",
     "example": "The seminar on climate change featured student-led presentations and debate.",
     "category": "Argument, Debate & Discussion",
-    "subCategory": "Discussion"
+    "subCategory": "Discussion",
+    "exampleHindi": "जलवायु परिवर्तन पर सेमिनार में छात्र-नेतृत्व वाली प्रस्तुतियाँ और बहसें हुईं।"
   },
   {
     "word": "stipulate",
     "meaning": "To demand or specify something as a condition of an argument or agreement.",
-    "pronunciation": "",
+    "pronunciation": "स्टीपुलाते",
     "definition": "To demand or specify something as a condition of an argument or agreement.",
     "example": "The author stipulates that freedom must be balanced with responsibility.",
     "category": "Argument, Debate & Discussion",
-    "subCategory": "Argumentative"
+    "subCategory": "Argumentative",
+    "exampleHindi": "लेखक का कहना है कि स्वतंत्रता को जिम्मेदारी के साथ संतुलित किया जाना चाहिए।"
   },
   {
     "word": "substantiate",
     "meaning": "To provide evidence to support or prove the truth of something.",
-    "pronunciation": "",
+    "pronunciation": "सब्सटांटिट",
     "definition": "To provide evidence to support or prove the truth of something.",
     "example": "You must substantiate your claims with credible sources.",
     "category": "Argument, Debate & Discussion",
-    "subCategory": "Argumentative"
+    "subCategory": "Argumentative",
+    "exampleHindi": "आपको विश्वसनीय स्रोतों से अपने दावों की पुष्टि करनी होगी।"
   },
   {
     "word": "summarise",
     "meaning": "To state the main points of something briefly and clearly",
-    "pronunciation": "",
+    "pronunciation": "सुम्मारीसे",
     "definition": "To state the main points of something briefly and clearly",
     "example": "After reading the chapter, students were asked to summarise it in five sentences.",
     "category": "Argument, Debate & Discussion",
-    "subCategory": "Discussion"
+    "subCategory": "Discussion",
+    "exampleHindi": "अध्याय को पढ़ने के बाद, छात्रों को इसे पाँच वाक्यों में सारांशित करने के लिए कहा गया।"
   },
   {
     "word": "thesis",
     "meaning": "A central claim or argument that an essay or paper aims to prove.",
-    "pronunciation": "",
+    "pronunciation": "थीसिस",
     "definition": "A long essay or dissertation involving personal research, written for a university degree.",
     "example": "Her thesis argued that climate change is the defining crisis of our time.",
     "category": "Argument, Debate & Discussion",
-    "subCategory": "Argumentative"
+    "subCategory": "Argumentative",
+    "exampleHindi": "उनकी थीसिस में तर्क दिया गया कि जलवायु परिवर्तन हमारे समय का निर्णायक संकट है।"
   },
   {
     "word": "think-pair-share",
     "meaning": "A strategy where students think, discuss with a partner, then share with the class",
-    "pronunciation": "",
+    "pronunciation": "think-pair-share",
     "definition": "A strategy where students think, discuss with a partner, then share with the class",
     "example": "The teacher used think-pair-share to ensure all students participated in discussion.",
     "category": "Argument, Debate & Discussion",
-    "subCategory": "Discussion"
+    "subCategory": "Discussion",
+    "exampleHindi": "यह सुनिश्चित करने के लिए कि सभी छात्र चर्चा में भाग लें, शिक्षक ने थिंक-पेयर-शेयर का उपयोग किया।"
   },
   {
     "word": "To Concede",
     "meaning": "To reluctantly admit that something is true or that you have lost a point.",
-    "pronunciation": "",
+    "pronunciation": "तो कंकेड़ी",
     "definition": "To reluctantly admit that something is true or that you have lost a point.",
     "example": "After seeing the test results, he had to concede that his theory was wrong.",
     "category": "Argument, Debate & Discussion",
-    "subCategory": "Argument & Debate"
+    "subCategory": "Argument & Debate",
+    "exampleHindi": "परीक्षण के परिणाम देखने के बाद उन्हें मानना ​​पड़ा कि उनका सिद्धांत गलत था।"
   },
   {
     "word": "To Dispute",
     "meaning": "To argue against or challenge the truth of a statement.",
-    "pronunciation": "",
+    "pronunciation": "तो डिस्प्यूट",
     "definition": "To argue against or challenge the truth of a statement.",
     "example": "The defense lawyer disputed the claim that her client was at the scene.",
     "category": "Argument, Debate & Discussion",
-    "subCategory": "Argument & Debate"
+    "subCategory": "Argument & Debate",
+    "exampleHindi": "बचाव पक्ष के वकील ने इस दावे का खंडन किया कि उसका मुवक्किल घटनास्थल पर था।"
   },
   {
     "word": "To Rebut",
     "meaning": "To offer arguments or evidence that contradict or oppose a claim.",
-    "pronunciation": "",
+    "pronunciation": "तो रिबूट",
     "definition": "To offer arguments or evidence that contradict or oppose a claim.",
     "example": "The politician asked for a chance to rebut the criticisms made by his rival.",
     "category": "Argument, Debate & Discussion",
-    "subCategory": "Argument & Debate"
+    "subCategory": "Argument & Debate",
+    "exampleHindi": "राजनेता ने अपने प्रतिद्वंद्वी द्वारा की गई आलोचनाओं का खंडन करने का मौका मांगा।"
   },
   {
     "word": "To Refute",
     "meaning": "To prove that a statement, theory, or accusation is wrong.",
-    "pronunciation": "",
+    "pronunciation": "तो रेफुटे",
     "definition": "To prove that a statement, theory, or accusation is wrong.",
     "example": "New evidence was found to refute the witness's claims.",
     "category": "Argument, Debate & Discussion",
-    "subCategory": "Argument & Debate"
+    "subCategory": "Argument & Debate",
+    "exampleHindi": "गवाहों के दावों का खंडन करने के लिए नए सबूत मिले।"
   },
   {
     "word": "undermine",
     "meaning": "To weaken or damage the effectiveness or force of something.",
-    "pronunciation": "",
+    "pronunciation": "ुंदरमिने",
     "definition": "To weaken or damage the effectiveness or force of something.",
     "example": "A single contradictory fact can undermine an otherwise strong argument.",
     "category": "Argument, Debate & Discussion",
-    "subCategory": "Argumentative"
+    "subCategory": "Argumentative",
+    "exampleHindi": "एक भी विरोधाभासी तथ्य अन्यथा मजबूत तर्क को कमजोर कर सकता है।"
   },
   {
     "word": "Validate",
     "meaning": "To prove that something is correct, acceptable, or logically sound.",
-    "pronunciation": "",
+    "pronunciation": "वलिदाते",
     "definition": "To check or prove the accuracy of something; to make or declare legally or officially valid.",
     "example": "Further scientific research helped to validate the doctor's new treatment method.",
     "category": "Argument, Debate & Discussion",
-    "subCategory": "Argument & Debate"
+    "subCategory": "Argument & Debate",
+    "exampleHindi": "आगे के वैज्ञानिक अनुसंधान ने डॉक्टर की नई उपचार पद्धति को मान्य करने में मदद की।"
   },
   {
     "word": "well-reasoned",
     "meaning": "Based on careful thought and good judgment.",
-    "pronunciation": "",
+    "pronunciation": "well-reasoned",
     "definition": "Based on careful thought and good judgment.",
     "example": "A well-reasoned essay acknowledges counterarguments and addresses them directly.",
     "category": "Argument, Debate & Discussion",
-    "subCategory": "Argumentation"
+    "subCategory": "Argumentation",
+    "exampleHindi": "एक सुविचारित निबंध प्रतितर्कों को स्वीकार करता है और उन्हें सीधे संबोधित करता है।"
   }
 ]

@@ -2,151 +2,167 @@
   {
     "word": "Broadcast",
     "meaning": "To distribute data or send a single message to all users on a network or channel simultaneously (strong alternative to 'send to everyone' or 'tell everyone').",
-    "pronunciation": "",
+    "pronunciation": "ब्रॉडकास्ट",
     "definition": "To distribute data or send a single message to all users on a network or channel simultaneously (strong alternative to 'send to everyone' or 'tell everyone').",
     "example": "The CEO will broadcast the announcement to the entire company channel.",
     "category": "Digital Communication & Collaboration",
-    "subCategory": "Digital Communication & Collaboration"
+    "subCategory": "Digital Communication & Collaboration",
+    "exampleHindi": "सीईओ पूरे कंपनी चैनल पर घोषणा प्रसारित करेगा।"
   },
   {
     "word": "Channel",
     "meaning": "To direct communication or focus user traffic toward a specific digital destination or medium (strong alternative to 'send traffic to' or 'point people to').",
-    "pronunciation": "",
+    "pronunciation": "चैनल",
     "definition": "",
     "example": "We should channel all customer inquiries through our online helpdesk rather than email.",
     "category": "Digital Communication & Collaboration",
-    "subCategory": "Digital Communication & Collaboration"
+    "subCategory": "Digital Communication & Collaboration",
+    "exampleHindi": "हमें ग्राहकों की सभी पूछताछ को ईमेल के बजाय अपने ऑनलाइन हेल्पडेस्क के माध्यम से प्रसारित करना चाहिए।"
   },
   {
     "word": "Delegate",
     "meaning": "To assign tasks, action items, or access permissions to another team member using a project management tool (strong alternative to 'pass the work' or 'give the task').",
-    "pronunciation": "",
+    "pronunciation": "डेलिगेट",
     "definition": "To assign tasks, action items, or access permissions to another team member using a project management tool (strong alternative to 'pass the work' or 'give the task').",
     "example": "You can delegate the database maintenance task to our junior administrator through Jira.",
     "category": "Digital Communication & Collaboration",
-    "subCategory": "Digital Communication & Collaboration"
+    "subCategory": "Digital Communication & Collaboration",
+    "exampleHindi": "आप जीरा के माध्यम से डेटाबेस रखरखाव कार्य हमारे कनिष्ठ प्रशासक को सौंप सकते हैं।"
   },
   {
     "word": "Dispatch",
     "meaning": "To officially send a message, notification, or package of data to its destination (strong alternative to 'send off' or 'mail').",
-    "pronunciation": "",
+    "pronunciation": "डिस्पैच",
     "definition": "To officially send a message, notification, or package of data to its destination (strong alternative to 'send off' or 'mail').",
     "example": "The system will automatically dispatch a confirmation email once payment is processed.",
     "category": "Digital Communication & Collaboration",
-    "subCategory": "Digital Communication & Collaboration"
+    "subCategory": "Digital Communication & Collaboration",
+    "exampleHindi": "भुगतान संसाधित होते ही सिस्टम स्वचालित रूप से एक पुष्टिकरण ईमेल भेज देगा।"
   },
   {
     "word": "Escalate",
     "meaning": "To transfer an unresolved customer issue or technical bug to a higher tier of authority or support (strong alternative to 'pass it up' or 'tell the boss').",
-    "pronunciation": "",
+    "pronunciation": "एस्कलटे",
     "definition": "To refer a problem to a higher authority or more experienced person",
     "example": "If the first-level support cannot resolve the issue, they will escalate it to the engineering team.",
     "category": "Digital Communication & Collaboration",
-    "subCategory": "Digital Communication & Collaboration"
+    "subCategory": "Digital Communication & Collaboration",
+    "exampleHindi": "यदि प्रथम-स्तरीय समर्थन समस्या का समाधान नहीं कर पाता है, तो वे इसे इंजीनियरिंग टीम तक भेज देंगे।"
   },
   {
     "word": "Flag",
     "meaning": "To mark an email, message, or file with a visual indicator for priority or follow-up action (strong alternative to 'mark as important' or 'remember to check').",
-    "pronunciation": "",
+    "pronunciation": "फ्लैग",
     "definition": "To mark an email as important for easy retrieval later",
     "example": "I will flag this email so I remember to draft a response first thing tomorrow.",
     "category": "Digital Communication & Collaboration",
-    "subCategory": "Digital Communication & Collaboration"
+    "subCategory": "Digital Communication & Collaboration",
+    "exampleHindi": "मैं इस ईमेल को फ़्लैग करूंगा ताकि कल सबसे पहले मुझे एक प्रतिक्रिया का मसौदा तैयार करना याद रहे।"
   },
   {
     "word": "Huddle",
     "meaning": "To join a brief, informal online meeting to resolve an issue quickly with team members (strong alternative to 'have a quick call' or 'talk online').",
-    "pronunciation": "",
+    "pronunciation": "हुड़ले",
     "definition": "To join a brief, informal online meeting to resolve an issue quickly with team members (strong alternative to 'have a quick call' or 'talk online').",
     "example": "Let's jump into a quick huddle to resolve this blocker before the end of the day.",
     "category": "Digital Communication & Collaboration",
-    "subCategory": "Digital Communication & Collaboration"
+    "subCategory": "Digital Communication & Collaboration",
+    "exampleHindi": "आइए, दिन ख़त्म होने से पहले इस अवरोधक को हल करने के लिए त्वरित प्रयास करें।"
   },
   {
     "word": "Mention",
     "meaning": "To notify a specific user in a digital thread by using the '@' symbol followed by their username (strong alternative to 'tag someone' or 'call them out by name').",
-    "pronunciation": "",
+    "pronunciation": "मेंशन",
     "definition": "To include a user's handle in a post or comment to notify them.",
     "example": "Be sure to mention the designer in your comment so they get an immediate notification.",
     "category": "Digital Communication & Collaboration",
-    "subCategory": "Digital Communication & Collaboration"
+    "subCategory": "Digital Communication & Collaboration",
+    "exampleHindi": "अपनी टिप्पणी में डिज़ाइनर का उल्लेख अवश्य करें ताकि उन्हें तत्काल सूचना मिल सके।"
   },
   {
     "word": "Moderate",
     "meaning": "To monitor and control user-generated content or discussions to ensure they follow guidelines (strong alternative to 'watch and filter posts' or 'police the chat').",
-    "pronunciation": "",
+    "pronunciation": "मॉडरेट",
     "definition": "To monitor and control user-generated content or discussions to ensure they follow guidelines (strong alternative to 'watch and filter posts' or 'police the chat').",
     "example": "Our community manager will moderate the forum to prevent spam and offensive comments.",
     "category": "Digital Communication & Collaboration",
-    "subCategory": "Digital Communication & Collaboration"
+    "subCategory": "Digital Communication & Collaboration",
+    "exampleHindi": "हमारा समुदाय प्रबंधक स्पैम और आपत्तिजनक टिप्पणियों को रोकने के लिए फ़ोरम को मॉडरेट करेगा।"
   },
   {
     "word": "Mute",
     "meaning": "To temporarily silence notifications or audio from a specific user, channel, or application (strong alternative to 'turn off sounds' or 'make silent').",
-    "pronunciation": "",
+    "pronunciation": "म्यूट",
     "definition": "To hide a user's content from one's feed without unfollowing them.",
     "example": "I had to mute the group chat because the continuous alerts were distracting me during the meeting.",
     "category": "Digital Communication & Collaboration",
-    "subCategory": "Digital Communication & Collaboration"
+    "subCategory": "Digital Communication & Collaboration",
+    "exampleHindi": "मुझे ग्रुप चैट को म्यूट करना पड़ा क्योंकि मीटिंग के दौरान लगातार मिल रहे अलर्ट से मेरा ध्यान भटक रहा था।"
   },
   {
     "word": "Opt-In",
     "meaning": "To explicitly choose or give consent to participate in an email list, data sharing, or feature trial (strong alternative to 'say yes to emails' or 'sign up').",
-    "pronunciation": "",
+    "pronunciation": "Opt-In",
     "definition": "Choosing to receive messages or communications voluntarily",
     "example": "Users must opt-in to receive promotional offers via email.",
     "category": "Digital Communication & Collaboration",
-    "subCategory": "Digital Communication & Collaboration"
+    "subCategory": "Digital Communication & Collaboration",
+    "exampleHindi": "उपयोगकर्ताओं को ईमेल के माध्यम से प्रचार प्रस्ताव प्राप्त करने के लिए ऑप्ट-इन करना होगा।"
   },
   {
     "word": "Opt-Out",
     "meaning": "To explicitly choose to withdraw from or stop receiving a digital service, email list, or tracking program (strong alternative to 'unsubscribe' or 'stop getting emails').",
-    "pronunciation": "",
+    "pronunciation": "Opt-Out",
     "definition": "To explicitly choose to withdraw from or stop receiving a digital service, email list, or tracking program (strong alternative to 'unsubscribe' or 'stop getting emails').",
     "example": "You can opt-out of cookie tracking by adjusting your browser privacy settings.",
     "category": "Digital Communication & Collaboration",
-    "subCategory": "Digital Communication & Collaboration"
+    "subCategory": "Digital Communication & Collaboration",
+    "exampleHindi": "आप अपनी ब्राउज़र गोपनीयता सेटिंग्स को समायोजित करके कुकी ट्रैकिंग से ऑप्ट-आउट कर सकते हैं।"
   },
   {
     "word": "Ping",
     "meaning": "To send a brief, direct message to someone, usually on a chat platform, to get their quick attention (strong alternative to 'send a message' or 'get in touch with').",
-    "pronunciation": "",
+    "pronunciation": "पिंग",
     "definition": "To notify or alert someone online.",
     "example": "Please ping me on Slack once the server is back up.",
     "category": "Digital Communication & Collaboration",
-    "subCategory": "Digital Communication & Collaboration"
+    "subCategory": "Digital Communication & Collaboration",
+    "exampleHindi": "सर्वर वापस आने पर कृपया मुझे स्लैक पर पिंग करें।"
   },
   {
     "word": "Schedule",
     "meaning": "To set a specific future time for an email, message, or calendar event to be automatically sent or held (strong alternative to 'send later' or 'email later').",
-    "pronunciation": "",
+    "pronunciation": "सचेडूले",
     "definition": "",
     "example": "I will schedule the client onboarding email to go out on Monday at 9:00 AM.",
     "category": "Digital Communication & Collaboration",
-    "subCategory": "Digital Communication & Collaboration"
+    "subCategory": "Digital Communication & Collaboration",
+    "exampleHindi": "मैं सोमवार को सुबह 9:00 बजे क्लाइंट के ऑनबोर्डिंग ईमेल को बाहर जाने के लिए शेड्यूल करूंगा।"
   },
   {
     "word": "Solicit",
     "meaning": "To ask for or request information, feedback, or input from users via digital channels (strong alternative to 'ask for' or 'beg for feedback').",
-    "pronunciation": "",
+    "pronunciation": "सोलिसित",
     "definition": "To ask for or request information, feedback, or input from users via digital channels (strong alternative to 'ask for' or 'beg for feedback').",
     "example": "We will solicit customer feedback through a post-purchase survey.",
     "category": "Digital Communication & Collaboration",
-    "subCategory": "Digital Communication & Collaboration"
+    "subCategory": "Digital Communication & Collaboration",
+    "exampleHindi": "हम खरीदारी के बाद सर्वेक्षण के माध्यम से ग्राहकों की प्रतिक्रिया मांगेंगे।"
   },
   {
     "word": "Synchronize",
     "meaning": "To coordinate two or more devices, files, or teams so they contain the exact same updated information (strong alternative to 'make the same' or 'get everyone updated').",
-    "pronunciation": "",
+    "pronunciation": "सिंक्रोनाइज",
     "definition": "To coordinate two or more devices, files, or teams so they contain the exact same updated information (strong alternative to 'make the same' or 'get everyone updated').",
     "example": "We need to synchronize our calendars before booking the client presentations.",
     "category": "Digital Communication & Collaboration",
-    "subCategory": "Digital Communication & Collaboration"
+    "subCategory": "Digital Communication & Collaboration",
+    "exampleHindi": "क्लाइंट प्रेजेंटेशन बुक करने से पहले हमें अपने कैलेंडर को सिंक्रोनाइज़ करना होगा।"
   },
   {
     "word": "thread",
     "meaning": "A series of connected messages or comments on a single topic.",
-    "pronunciation": "",
+    "pronunciation": "थ्रेड",
     "definition": "",
     "example": "",
     "category": "Digital Communication & Collaboration",
@@ -155,10 +171,11 @@
   {
     "word": "Transmit",
     "meaning": "To send signals, messages, or data packets over a communication medium or network (strong alternative to 'send data' or 'pass along information').",
-    "pronunciation": "",
+    "pronunciation": "ट्रांसमिट",
     "definition": "To send signals, messages, or data packets over a communication medium or network (strong alternative to 'send data' or 'pass along information').",
     "example": "The satellite will transmit real-time telemetry data to the ground station.",
     "category": "Digital Communication & Collaboration",
-    "subCategory": "Digital Communication & Collaboration"
+    "subCategory": "Digital Communication & Collaboration",
+    "exampleHindi": "उपग्रह वास्तविक समय टेलीमेट्री डेटा को ग्राउंड स्टेशन पर प्रसारित करेगा।"
   }
 ]

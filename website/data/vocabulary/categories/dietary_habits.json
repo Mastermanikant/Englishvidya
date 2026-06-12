@@ -2,271 +2,301 @@
   {
     "word": "CALORIE DEFICIT",
     "meaning": "A state where you burn more calories than you consume, leading to weight loss.",
-    "pronunciation": "",
+    "pronunciation": "कैलोरी डेफिसिट",
     "definition": "A state where you burn more calories than you consume, leading to weight loss.",
     "example": "To lose weight in a healthy way, you should create a moderate calorie deficit by eating less and moving more.",
     "category": "Dietary Habits",
-    "subCategory": "Dietary Habits"
+    "subCategory": "Dietary Habits",
+    "exampleHindi": "स्वस्थ तरीके से वजन कम करने के लिए, आपको कम खाकर और अधिक घूमकर मध्यम कैलोरी की कमी पैदा करनी चाहिए।"
   },
   {
     "word": "CALORIE SURPLUS",
     "meaning": "A state where you consume more calories than you burn, which is often used to build muscle mass.",
-    "pronunciation": "",
+    "pronunciation": "कैलोरी सरप्लस",
     "definition": "A state where you consume more calories than you burn, which is often used to build muscle mass.",
     "example": "Bodybuilders enter a calorie surplus when they want to gain muscle and strength during their training.",
     "category": "Dietary Habits",
-    "subCategory": "Dietary Habits"
+    "subCategory": "Dietary Habits",
+    "exampleHindi": "जब बॉडीबिल्डर्स अपने प्रशिक्षण के दौरान मांसपेशियों और ताकत हासिल करना चाहते हैं तो वे कैलोरी अधिशेष में प्रवेश करते हैं।"
   },
   {
     "word": "CLEAN EATING",
     "meaning": "A dietary approach that focuses on eating whole, minimally processed foods that are as close to their natural state as possible.",
-    "pronunciation": "",
+    "pronunciation": "क्लीन ईटिंग",
     "definition": "A dietary approach that focuses on eating whole, minimally processed foods that are as close to their natural state as possible.",
     "example": "Clean eating involves choosing fresh fruits, vegetables, and whole grains over packaged snacks.",
     "category": "Dietary Habits",
-    "subCategory": "Dietary Habits"
+    "subCategory": "Dietary Habits",
+    "exampleHindi": "स्वच्छ भोजन में पैकेज्ड स्नैक्स के बजाय ताजे फल, सब्जियां और साबुत अनाज का चयन करना शामिल है।"
   },
   {
     "word": "CRASH DIET",
     "meaning": "A severe, rapid weight-loss plan where you dramatically restrict your food intake, which is often unhealthy and unsustainable.",
-    "pronunciation": "",
+    "pronunciation": "क्रैश डाइट",
     "definition": "A severe, rapid weight-loss plan where you dramatically restrict your food intake, which is often unhealthy and unsustainable.",
     "example": "Instead of a crash diet, it is better to adopt long-term habits that support a healthy weight.",
     "category": "Dietary Habits",
-    "subCategory": "Dietary Habits"
+    "subCategory": "Dietary Habits",
+    "exampleHindi": "क्रैश डाइट के बजाय, दीर्घकालिक आदतों को अपनाना बेहतर है जो स्वस्थ वजन का समर्थन करती हैं।"
   },
   {
     "word": "DAIRY-FREE",
     "meaning": "Containing no milk or milk products from animals, often replaced with plant-based alternatives like almond milk or oat milk.",
-    "pronunciation": "",
+    "pronunciation": "DAIRY-FREE",
     "definition": "Containing no milk or milk products from animals, often replaced with plant-based alternatives like almond milk or oat milk.",
     "example": "This vegan ice cream is completely dairy-free, made instead with coconut milk.",
     "category": "Dietary Habits",
-    "subCategory": "Dietary Habits"
+    "subCategory": "Dietary Habits",
+    "exampleHindi": "यह शाकाहारी आइसक्रीम पूरी तरह से डेयरी-मुक्त है, इसे नारियल के दूध से बनाया गया है।"
   },
   {
     "word": "DIETARY SUPPLEMENT",
     "meaning": "A product taken by mouth that contains a dietary ingredient (like a vitamin, mineral, or herb) intended to add to your diet.",
-    "pronunciation": "",
+    "pronunciation": "डाइटरी सप्लीमेंट",
     "definition": "A product taken by mouth that contains a dietary ingredient (like a vitamin, mineral, or herb) intended to add to your diet.",
     "example": "She takes a vitamin B12 dietary supplement because she follows a strict vegan diet.",
     "category": "Dietary Habits",
-    "subCategory": "Dietary Habits"
+    "subCategory": "Dietary Habits",
+    "exampleHindi": "वह विटामिन बी12 आहार अनुपूरक लेती है क्योंकि वह सख्त शाकाहारी आहार का पालन करती है।"
   },
   {
     "word": "ELIMINATION DIET",
     "meaning": "A short-term eating plan that removes specific foods that may cause allergies or digestive issues, then slowly reintroduces them to identify triggers.",
-    "pronunciation": "",
+    "pronunciation": "एलिमिनेशन डाइट",
     "definition": "A short-term eating plan that removes specific foods that may cause allergies or digestive issues, then slowly reintroduces them to identify triggers.",
     "example": "Her doctor recommended an elimination diet to find out if dairy was causing her skin breakouts.",
     "category": "Dietary Habits",
-    "subCategory": "Dietary Habits"
+    "subCategory": "Dietary Habits",
+    "exampleHindi": "उसके डॉक्टर ने यह पता लगाने के लिए उन्मूलन आहार की सिफारिश की कि क्या डेयरी उत्पाद उसकी त्वचा पर दाने का कारण बन रहे हैं।"
   },
   {
     "word": "EMOTIONAL EATING",
     "meaning": "The practice of consuming food in response to feelings (such as stress, sadness, or boredom) instead of physical hunger.",
-    "pronunciation": "",
+    "pronunciation": "इमोशनल ईटिंग",
     "definition": "The practice of consuming food in response to feelings (such as stress, sadness, or boredom) instead of physical hunger.",
     "example": "Recognizing emotional eating is the first step toward finding healthier ways to cope with stress, like taking a walk.",
     "category": "Dietary Habits",
-    "subCategory": "Dietary Habits"
+    "subCategory": "Dietary Habits",
+    "exampleHindi": "भावनात्मक खान-पान को पहचानना तनाव से निपटने के लिए स्वस्थ तरीके खोजने की दिशा में पहला कदम है, जैसे टहलना।"
   },
   {
     "word": "FARM-TO-TABLE",
     "meaning": "A movement that promotes serving local food at restaurants and school cafeterias, preferably sourced directly from the producer.",
-    "pronunciation": "",
+    "pronunciation": "FARM-TO-TABLE",
     "definition": "A movement that promotes serving local food at restaurants and school cafeterias, preferably sourced directly from the producer.",
     "example": "The restaurant prides itself on its farm-to-table menu, featuring ingredients harvested that very morning.",
     "category": "Dietary Habits",
-    "subCategory": "Dietary Habits"
+    "subCategory": "Dietary Habits",
+    "exampleHindi": "रेस्तरां अपने फार्म-टू-टेबल मेनू पर गर्व करता है, जिसमें उसी सुबह काटी गई सामग्री शामिल होती है।"
   },
   {
     "word": "FLEXITARIAN",
     "meaning": "A person who has a primarily vegetarian diet but occasionally eats meat or fish.",
-    "pronunciation": "",
+    "pronunciation": "फ्लेक्सिटरियन",
     "definition": "A person who has a primarily vegetarian diet but occasionally eats meat or fish.",
     "example": "Being a flexitarian allowed her to reduce her environmental footprint without giving up meat entirely.",
     "category": "Dietary Habits",
-    "subCategory": "Dietary Habits"
+    "subCategory": "Dietary Habits",
+    "exampleHindi": "फ्लेक्सिटेरियन होने के कारण उसे मांस को पूरी तरह से छोड़े बिना अपने पर्यावरणीय प्रभाव को कम करने की अनुमति मिली।"
   },
   {
     "word": "FOOD ALLERGY",
     "meaning": "An immune system reaction that occurs soon after eating a certain food, which can cause serious symptoms like trouble breathing.",
-    "pronunciation": "",
+    "pronunciation": "फ़ूड एलर्जी",
     "definition": "An immune system reaction that occurs soon after eating a certain food, which can cause serious symptoms like trouble breathing.",
     "example": "Because of a severe peanut allergy, she must always carry an epinephrine injector wherever she goes.",
     "category": "Dietary Habits",
-    "subCategory": "Dietary Habits"
+    "subCategory": "Dietary Habits",
+    "exampleHindi": "गंभीर मूंगफली एलर्जी के कारण, वह जहां भी जाती है उसे हमेशा एक एपिनेफ्रिन इंजेक्टर ले जाना पड़ता है।"
   },
   {
     "word": "FOOD INTOLERANCE",
     "meaning": "A digestive system response that occurs when your body cannot properly break down a certain food, causing discomfort.",
-    "pronunciation": "",
+    "pronunciation": "फ़ूड इनटॉलेरेंस",
     "definition": "A digestive system response that occurs when your body cannot properly break down a certain food, causing discomfort.",
     "example": "His lactose intolerance means he gets a stomachache if he drinks regular cow's milk.",
     "category": "Dietary Habits",
-    "subCategory": "Dietary Habits"
+    "subCategory": "Dietary Habits",
+    "exampleHindi": "उसकी लैक्टोज असहिष्णुता का मतलब है कि अगर वह नियमित गाय का दूध पीता है तो उसे पेट में दर्द होता है।"
   },
   {
     "word": "GLUTEN-FREE",
     "meaning": "Containing no gluten, a protein found in wheat and other grains; essential for people with celiac disease.",
-    "pronunciation": "",
+    "pronunciation": "GLUTEN-FREE",
     "definition": "Containing no gluten, a protein found in wheat and other grains; essential for people with celiac disease.",
     "example": "Many bakeries now offer gluten-free bread made from almond or rice flour.",
     "category": "Dietary Habits",
-    "subCategory": "Dietary Habits"
+    "subCategory": "Dietary Habits",
+    "exampleHindi": "कई बेकरियां अब बादाम या चावल के आटे से बनी ग्लूटेन-मुक्त ब्रेड पेश करती हैं।"
   },
   {
     "word": "INTERMITTENT FASTING",
     "meaning": "An eating pattern that cycles between periods of eating and periods of fasting.",
-    "pronunciation": "",
+    "pronunciation": "इंटरमिटेंट फास्टिंग",
     "definition": "An eating pattern that cycles between periods of eating and periods of fasting.",
     "example": "She practices intermittent fasting by eating all her meals within an eight-hour window every day.",
     "category": "Dietary Habits",
-    "subCategory": "Dietary Habits"
+    "subCategory": "Dietary Habits",
+    "exampleHindi": "वह हर दिन आठ घंटे के भीतर अपना सारा भोजन खाकर आंतरायिक उपवास का अभ्यास करती है।"
   },
   {
     "word": "INTUITIVE EATING",
     "meaning": "An approach to food that rejects diet rules and encourages you to listen to your body's natural hunger and fullness signals.",
-    "pronunciation": "",
+    "pronunciation": "इन्टुइटीवे ईटिंग",
     "definition": "An approach to food that rejects diet rules and encourages you to listen to your body's natural hunger and fullness signals.",
     "example": "By practicing intuitive eating, she learned to eat when she was hungry and stop when she felt satisfied.",
     "category": "Dietary Habits",
-    "subCategory": "Dietary Habits"
+    "subCategory": "Dietary Habits",
+    "exampleHindi": "सहज भोजन का अभ्यास करके, उसने भूख लगने पर खाना और संतुष्ट होने पर खाना बंद करना सीख लिया।"
   },
   {
     "word": "KETOGENIC DIET",
     "meaning": "A high-fat, adequate-protein, low-carbohydrate diet that forces the body to burn fats rather than carbohydrates for energy.",
-    "pronunciation": "",
+    "pronunciation": "केटोगेनिक डाइट",
     "definition": "A high-fat, adequate-protein, low-carbohydrate diet that forces the body to burn fats rather than carbohydrates for energy.",
     "example": "People on a ketogenic diet avoid sugary foods and grains, focusing instead on meats, eggs, and healthy oils.",
     "category": "Dietary Habits",
-    "subCategory": "Dietary Habits"
+    "subCategory": "Dietary Habits",
+    "exampleHindi": "केटोजेनिक आहार पर लोग मीठे खाद्य पदार्थों और अनाज से बचते हैं, इसके बजाय मांस, अंडे और स्वस्थ तेलों पर ध्यान केंद्रित करते हैं।"
   },
   {
     "word": "MEAL PREP",
     "meaning": "Short for meal preparation; the practice of planning, preparing, and packaging meals in advance to save time and eat healthier.",
-    "pronunciation": "",
+    "pronunciation": "मील प्रेप",
     "definition": "Short for meal preparation; the practice of planning, preparing, and packaging meals in advance to save time and eat healthier.",
     "example": "She spends her Sunday afternoons doing meal prep so she has healthy lunches ready for the work week.",
     "category": "Dietary Habits",
-    "subCategory": "Dietary Habits"
+    "subCategory": "Dietary Habits",
+    "exampleHindi": "वह अपनी रविवार की दोपहर को भोजन की तैयारी में बिताती है ताकि वह कार्य सप्ताह के लिए स्वस्थ दोपहर का भोजन तैयार कर सके।"
   },
   {
     "word": "MEAL REPLACEMENT",
     "meaning": "A drink, bar, or soup intended as a substitute for a solid meal, often containing controlled amounts of calories and nutrients.",
-    "pronunciation": "",
+    "pronunciation": "मील रिप्लेसमेंट",
     "definition": "A drink, bar, or soup intended as a substitute for a solid meal, often containing controlled amounts of calories and nutrients.",
     "example": "He drinks a protein-rich meal replacement shake in the morning when he is running late for work.",
     "category": "Dietary Habits",
-    "subCategory": "Dietary Habits"
+    "subCategory": "Dietary Habits",
+    "exampleHindi": "सुबह जब उसे काम के लिए देर हो रही होती है तो वह प्रोटीन युक्त भोजन प्रतिस्थापन शेक पीता है।"
   },
   {
     "word": "MEDITERRANEAN DIET",
     "meaning": "A dietary pattern rich in vegetables, fruits, whole grains, beans, nuts, and olive oil, with moderate amounts of fish and poultry.",
-    "pronunciation": "",
+    "pronunciation": "मेडिटरेनीयन डाइट",
     "definition": "A dietary pattern rich in vegetables, fruits, whole grains, beans, nuts, and olive oil, with moderate amounts of fish and poultry.",
     "example": "The Mediterranean diet is widely praised by doctors for its benefits to heart health and longevity.",
     "category": "Dietary Habits",
-    "subCategory": "Dietary Habits"
+    "subCategory": "Dietary Habits",
+    "exampleHindi": "हृदय स्वास्थ्य और दीर्घायु के लिए इसके लाभों के लिए डॉक्टरों द्वारा भूमध्यसागरीय आहार की व्यापक रूप से प्रशंसा की जाती है।"
   },
   {
     "word": "MINDFUL EATING",
     "meaning": "The practice of paying full attention to your food, your hunger cues, and your eating experience without distractions.",
-    "pronunciation": "",
+    "pronunciation": "मिंडफुल ईटिंग",
     "definition": "The practice of eating slowly and paying full attention to the taste, smell, and texture of your food.",
     "example": "Mindful eating helps you appreciate the taste of your food and prevents you from overeating.",
     "category": "Dietary Habits",
-    "subCategory": "Dietary Habits"
+    "subCategory": "Dietary Habits",
+    "exampleHindi": "माइंडफुल ईटिंग आपको अपने भोजन के स्वाद की सराहना करने में मदद करती है और आपको अधिक खाने से रोकती है।"
   },
   {
     "word": "NUTRIENT-DENSE",
     "meaning": "Containing a high amount of nutrients (like vitamins, minerals, and fiber) relative to its calorie content.",
-    "pronunciation": "",
+    "pronunciation": "NUTRIENT-DENSE",
     "definition": "Containing a high amount of nutrients (like vitamins, minerals, and fiber) relative to its calorie content.",
     "example": "Backup vitamins and fiber make spinach extremely nutrient-dense, offering plenty of health benefits with very few calories.",
     "category": "Dietary Habits",
-    "subCategory": "Dietary Habits"
+    "subCategory": "Dietary Habits",
+    "exampleHindi": "बैकअप विटामिन और फाइबर पालक को अत्यधिक पोषक तत्वों से भरपूर बनाते हैं, जो बहुत कम कैलोरी के साथ ढेर सारे स्वास्थ्य लाभ प्रदान करते हैं।"
   },
   {
     "word": "ORGANIC FOOD",
     "meaning": "Food produced using farming methods that do not involve artificial chemicals, pesticides, or genetically modified organisms.",
-    "pronunciation": "",
+    "pronunciation": "आर्गेनिक फ़ूड",
     "definition": "Food produced using farming methods that do not involve artificial chemicals, pesticides, or genetically modified organisms.",
     "example": "Organic food is often more expensive because the natural farming methods require more labor.",
     "category": "Dietary Habits",
-    "subCategory": "Dietary Habits"
+    "subCategory": "Dietary Habits",
+    "exampleHindi": "जैविक भोजन अक्सर अधिक महंगा होता है क्योंकि प्राकृतिक खेती के तरीकों में अधिक श्रम की आवश्यकता होती है।"
   },
   {
     "word": "PESCATARIAN",
     "meaning": "A person who does not eat meat but does eat fish and seafood, often along with vegetables and grains.",
-    "pronunciation": "",
+    "pronunciation": "पेस्काटॅरिअन",
     "definition": "A person who does not eat meat but does eat fish and seafood, often along with vegetables and grains.",
     "example": "As a pescatarian, he gets his protein from salmon, shrimp, and plant sources like beans and tofu.",
     "category": "Dietary Habits",
-    "subCategory": "Dietary Habits"
+    "subCategory": "Dietary Habits",
+    "exampleHindi": "एक पेस्केटेरियन के रूप में, वह अपना प्रोटीन सैल्मन, झींगा और बीन्स और टोफू जैसे पौधों के स्रोतों से प्राप्त करते हैं।"
   },
   {
     "word": "PLANT-BASED DIET",
     "meaning": "A diet consisting mostly or entirely of foods derived from plants, with few or no animal products.",
-    "pronunciation": "",
+    "pronunciation": "PLANT-BASED डाइट",
     "definition": "A diet consisting mostly of foods derived from plants, such as vegetables, grains, nuts, and fruits.",
     "example": "Switching to a plant-based diet helped him lower his blood pressure and increase his daily fiber intake.",
     "category": "Dietary Habits",
-    "subCategory": "Dietary Habits"
+    "subCategory": "Dietary Habits",
+    "exampleHindi": "पौधे-आधारित आहार पर स्विच करने से उन्हें अपना रक्तचाप कम करने और दैनिक फाइबर सेवन बढ़ाने में मदद मिली।"
   },
   {
     "word": "PORTION CONTROL",
     "meaning": "The practice of limiting the amount of food you eat in one sitting to manage weight and prevent overeating.",
-    "pronunciation": "",
+    "pronunciation": "पोरशन कण्ट्रोल",
     "definition": "The practice of limiting the amount of food you eat in one sitting to manage weight and prevent overeating.",
     "example": "Using smaller plates is a simple trick that helps with portion control during dinner.",
     "category": "Dietary Habits",
-    "subCategory": "Dietary Habits"
+    "subCategory": "Dietary Habits",
+    "exampleHindi": "छोटी प्लेटों का उपयोग करना एक सरल तरकीब है जो रात के खाने के दौरान भाग नियंत्रण में मदद करती है।"
   },
   {
     "word": "PORTION DISTORTION",
     "meaning": "The perception that large portion sizes of food are normal, often leading to overeating without realizing it.",
-    "pronunciation": "",
+    "pronunciation": "पोरशन डिस्टॉरशन",
     "definition": "The perception that large portion sizes of food are normal, often leading to overeating without realizing it.",
     "example": "Restaurant plates are much larger now than in the past, contributing to portion distortion.",
     "category": "Dietary Habits",
-    "subCategory": "Dietary Habits"
+    "subCategory": "Dietary Habits",
+    "exampleHindi": "पहले की तुलना में अब रेस्तरां की प्लेटें बहुत बड़ी हो गई हैं, जो हिस्से के विरूपण में योगदान करती हैं।"
   },
   {
     "word": "SUGAR CRASH",
     "meaning": "The sudden drop in energy and mood that occurs after consuming a large amount of sugar or simple carbohydrates.",
-    "pronunciation": "",
+    "pronunciation": "शुगर क्रैश",
     "definition": "The sudden drop in energy and mood that occurs after consuming a large amount of sugar or simple carbohydrates.",
     "example": "Eating a donut for breakfast caused a sugar crash that left him feeling exhausted by noon.",
     "category": "Dietary Habits",
-    "subCategory": "Dietary Habits"
+    "subCategory": "Dietary Habits",
+    "exampleHindi": "नाश्ते में डोनट खाने से शुगर की समस्या हो गई जिससे वह दोपहर तक थका हुआ महसूस करने लगे।"
   },
   {
     "word": "ULTRA-PROCESSED FOOD",
     "meaning": "Industrial formulations made mostly from substances extracted from foods, containing additives like colorings, flavorings, and preservatives.",
-    "pronunciation": "",
+    "pronunciation": "ULTRA-PROCESSED फ़ूड",
     "definition": "Industrial formulations made mostly from substances extracted from foods, containing additives like colorings, flavorings, and preservatives.",
     "example": "Potato chips, soda, and instant noodles are examples of ultra-processed food that we should try to limit.",
     "category": "Dietary Habits",
-    "subCategory": "Dietary Habits"
+    "subCategory": "Dietary Habits",
+    "exampleHindi": "आलू के चिप्स, सोडा और इंस्टेंट नूडल्स अति-प्रसंस्कृत भोजन के उदाहरण हैं जिन्हें हमें सीमित करने का प्रयास करना चाहिए।"
   },
   {
     "word": "VEGANISM",
     "meaning": "The practice of avoiding all animal products in food, clothing, and other aspects of life.",
-    "pronunciation": "",
+    "pronunciation": "वेगनिस्म",
     "definition": "The practice of avoiding all animal products in food, clothing, and other aspects of life.",
     "example": "Veganism requires reading food labels carefully to ensure there are no dairy, egg, or honey ingredients.",
     "category": "Dietary Habits",
-    "subCategory": "Dietary Habits"
+    "subCategory": "Dietary Habits",
+    "exampleHindi": "शाकाहारवाद के लिए भोजन के लेबल को ध्यान से पढ़ने की आवश्यकता होती है ताकि यह सुनिश्चित किया जा सके कि इसमें कोई डेयरी, अंडा या शहद सामग्री नहीं है।"
   },
   {
     "word": "WHOLE FOODS",
     "meaning": "Foods that are unprocessed and unrefined, or processed and refined as little as possible, before being consumed.",
-    "pronunciation": "",
+    "pronunciation": "व्होले फूड्स",
     "definition": "Foods that are unprocessed and unrefined, or processed and refined as little as possible, before being consumed.",
     "example": "A basket of fresh apples, broccoli, and raw almonds is a great example of whole foods.",
     "category": "Dietary Habits",
-    "subCategory": "Dietary Habits"
+    "subCategory": "Dietary Habits",
+    "exampleHindi": "ताजे सेब, ब्रोकोली और कच्चे बादाम की एक टोकरी संपूर्ण खाद्य पदार्थों का एक बेहतरीन उदाहरण है।"
   }
 ]

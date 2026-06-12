@@ -2,172 +2,191 @@
   {
     "word": "Action Item",
     "meaning": "A specific task assigned to an individual during a meeting to be completed later.",
-    "pronunciation": "",
+    "pronunciation": "एक्शन आइटम",
     "definition": "A documented event, task, activity, or action that needs to take place.",
     "example": "Our team has three action items to complete before the next review.",
     "category": "Collaboration & Tasks",
-    "subCategory": "Collaboration & Tasks"
+    "subCategory": "Collaboration & Tasks",
+    "exampleHindi": "हमारी टीम के पास अगली समीक्षा से पहले पूरा करने के लिए तीन कार्य आइटम हैं।"
   },
   {
     "word": "Assign",
     "meaning": "To give someone responsibility for a task or project.",
-    "pronunciation": "",
+    "pronunciation": "असाइन",
     "definition": "To give someone responsibility for a task or project.",
     "example": "The manager will assign the research task to the marketing team.",
     "category": "Collaboration & Tasks",
-    "subCategory": "Collaboration & Tasks"
+    "subCategory": "Collaboration & Tasks",
+    "exampleHindi": "प्रबंधक विपणन टीम को अनुसंधान कार्य सौंपेगा।"
   },
   {
     "word": "Backlog",
     "meaning": "A list of future tasks or project requirements that are waiting to be done.",
-    "pronunciation": "",
+    "pronunciation": "बैकलॉग",
     "definition": "A list of future tasks or project requirements that are waiting to be done.",
     "example": "We put the new feature request into the project backlog for next month.",
     "category": "Collaboration & Tasks",
-    "subCategory": "Collaboration & Tasks"
+    "subCategory": "Collaboration & Tasks",
+    "exampleHindi": "हमने नए फीचर अनुरोध को अगले महीने के प्रोजेक्ट बैकलॉग में डाल दिया है।"
   },
   {
     "word": "Blocked",
     "meaning": "Unable to make progress on a task due to waiting for someone or something else.",
-    "pronunciation": "",
+    "pronunciation": "ब्लॉक्ड",
     "definition": "Unable to make progress on a task due to waiting for someone or something else.",
     "example": "I am blocked on writing the report because I don't have the final numbers.",
     "category": "Collaboration & Tasks",
-    "subCategory": "Collaboration & Tasks"
+    "subCategory": "Collaboration & Tasks",
+    "exampleHindi": "मुझे रिपोर्ट लिखने से रोका गया है क्योंकि मेरे पास अंतिम आंकड़े नहीं हैं।"
   },
   {
     "word": "Co-Author",
     "meaning": "To write or create a document together with one or more people.",
-    "pronunciation": "",
+    "pronunciation": "Co-Author",
     "definition": "To write or create a document together with one or more people.",
     "example": "We will co-author the guide on a shared cloud document.",
     "category": "Collaboration & Tasks",
-    "subCategory": "Collaboration & Tasks"
+    "subCategory": "Collaboration & Tasks",
+    "exampleHindi": "हम साझा क्लाउड दस्तावेज़ पर गाइड का सह-लेखन करेंगे।"
   },
   {
     "word": "Deliverable",
     "meaning": "A final product, document, or service that must be completed and handed over.",
-    "pronunciation": "",
+    "pronunciation": "देलीवेराब्ले",
     "definition": "A thing able to be provided, especially a product of a development process.",
     "example": "The design prototype is our main deliverable for this week.",
     "category": "Collaboration & Tasks",
-    "subCategory": "Collaboration & Tasks"
+    "subCategory": "Collaboration & Tasks",
+    "exampleHindi": "इस सप्ताह के लिए डिज़ाइन प्रोटोटाइप हमारा मुख्य वितरण योग्य है।"
   },
   {
     "word": "Due Date",
     "meaning": "The date or time by which a task must be completed.",
-    "pronunciation": "",
+    "pronunciation": "देय डेट",
     "definition": "The date or time by which a task must be completed.",
     "example": "The due date for submitting the draft proposal is this Friday.",
     "category": "Collaboration & Tasks",
-    "subCategory": "Collaboration & Tasks"
+    "subCategory": "Collaboration & Tasks",
+    "exampleHindi": "मसौदा प्रस्ताव जमा करने की नियत तारीख इस शुक्रवार है।"
   },
   {
     "word": "Handover",
     "meaning": "Passing responsibility for a project or task to another person.",
-    "pronunciation": "",
+    "pronunciation": "हैंडओवर",
     "definition": "Passing responsibility for a project or task to another person.",
     "example": "I completed the handover process before leaving for my vacation.",
     "category": "Collaboration & Tasks",
-    "subCategory": "Collaboration & Tasks"
+    "subCategory": "Collaboration & Tasks",
+    "exampleHindi": "मैंने अपनी छुट्टियों पर जाने से पहले हैंडओवर प्रक्रिया पूरी कर ली।"
   },
   {
     "word": "In Progress",
     "meaning": "Currently being worked on and not yet finished.",
-    "pronunciation": "",
+    "pronunciation": "इन प्रोग्रेस",
     "definition": "Currently being worked on and not yet finished.",
     "example": "The website redesign is currently in progress and looking great.",
     "category": "Collaboration & Tasks",
-    "subCategory": "Collaboration & Tasks"
+    "subCategory": "Collaboration & Tasks",
+    "exampleHindi": "वेबसाइट को नया स्वरूप देने का काम अभी प्रगति पर है और बहुत अच्छा लग रहा है।"
   },
   {
     "word": "Milestone",
     "meaning": "An important event or key stage in the progress of a project.",
-    "pronunciation": "",
+    "pronunciation": "माइलस्टोन",
     "definition": "A significant point in development, like reaching 1M subscribers.",
     "example": "Releasing the beta version was a major milestone for our team.",
     "category": "Collaboration & Tasks",
-    "subCategory": "Collaboration & Tasks"
+    "subCategory": "Collaboration & Tasks",
+    "exampleHindi": "बीटा संस्करण जारी करना हमारी टीम के लिए एक बड़ा मील का पत्थर था।"
   },
   {
     "word": "Project Board",
     "meaning": "A visual tool used to organize and track tasks in a project.",
-    "pronunciation": "",
+    "pronunciation": "प्रोजेक्ट बोर्ड",
     "definition": "A visual tool used to organize and track tasks in a project.",
     "example": "Please check the project board to see which tasks are still pending.",
     "category": "Collaboration & Tasks",
-    "subCategory": "Collaboration & Tasks"
+    "subCategory": "Collaboration & Tasks",
+    "exampleHindi": "कृपया यह देखने के लिए प्रोजेक्ट बोर्ड की जाँच करें कि कौन से कार्य अभी भी लंबित हैं।"
   },
   {
     "word": "Sprint",
     "meaning": "A short, set period of time (typically two weeks) to complete specific tasks.",
-    "pronunciation": "",
+    "pronunciation": "स्प्रिंट",
     "definition": "A set, short time-box wherein a specific work has to be completed and made ready for review.",
     "example": "We have several high-priority tasks to deliver in this sprint.",
     "category": "Collaboration & Tasks",
-    "subCategory": "Collaboration & Tasks"
+    "subCategory": "Collaboration & Tasks",
+    "exampleHindi": "इस स्प्रिंट में देने के लिए हमारे पास कई उच्च प्राथमिकता वाले कार्य हैं।"
   },
   {
     "word": "Standup",
     "meaning": "A quick, daily meeting where team members share progress and issues.",
-    "pronunciation": "",
+    "pronunciation": "स्तनदूप",
     "definition": "A daily short meeting to discuss status.",
     "example": "In our morning standup, I reported that my code changes are complete.",
     "category": "Collaboration & Tasks",
-    "subCategory": "Collaboration & Tasks"
+    "subCategory": "Collaboration & Tasks",
+    "exampleHindi": "हमारे सुबह के स्टैंडअप में, मैंने बताया कि मेरे कोड परिवर्तन पूरे हो गए हैं।"
   },
   {
     "word": "Sync Up",
     "meaning": "To meet or talk to ensure everyone has the same information and goals.",
-    "pronunciation": "",
+    "pronunciation": "सिंक उप",
     "definition": "To meet or talk to ensure everyone has the same information and goals.",
     "example": "Let's sync up tomorrow morning to align our project plans.",
     "category": "Collaboration & Tasks",
-    "subCategory": "Collaboration & Tasks"
+    "subCategory": "Collaboration & Tasks",
+    "exampleHindi": "आइए कल सुबह अपनी परियोजना योजनाओं को संरेखित करने के लिए समन्वय स्थापित करें।"
   },
   {
     "word": "Task Owner",
     "meaning": "The person who is responsible for ensuring a task is finished.",
-    "pronunciation": "",
+    "pronunciation": "टास्क ओनर",
     "definition": "The person who is responsible for ensuring a task is finished.",
     "example": "As the task owner, you must update the status on the board.",
     "category": "Collaboration & Tasks",
-    "subCategory": "Collaboration & Tasks"
+    "subCategory": "Collaboration & Tasks",
+    "exampleHindi": "कार्य स्वामी के रूप में, आपको बोर्ड पर स्थिति अद्यतन करनी होगी।"
   },
   {
     "word": "Ticket",
     "meaning": "A digital record used to track a specific request, task, or bug report.",
-    "pronunciation": "",
+    "pronunciation": "टिकट",
     "definition": "A digital record used to track a specific request, task, or bug report.",
     "example": "I submitted a support ticket to get my password reset.",
     "category": "Collaboration & Tasks",
-    "subCategory": "Collaboration & Tasks"
+    "subCategory": "Collaboration & Tasks",
+    "exampleHindi": "मैंने अपना पासवर्ड रीसेट करने के लिए एक सहायता टिकट जमा किया है।"
   },
   {
     "word": "Timeline",
     "meaning": "A schedule showing when tasks in a project are planned to happen.",
-    "pronunciation": "",
+    "pronunciation": "तिमेलिने",
     "definition": "A schedule showing when tasks in a project are planned to happen.",
     "example": "The project timeline shows we have three weeks left before the launch.",
     "category": "Collaboration & Tasks",
-    "subCategory": "Collaboration & Tasks"
+    "subCategory": "Collaboration & Tasks",
+    "exampleHindi": "प्रोजेक्ट टाइमलाइन से पता चलता है कि लॉन्च से पहले हमारे पास तीन सप्ताह बचे हैं।"
   },
   {
     "word": "Unblock",
     "meaning": "To remove an obstacle so that progress on a task can continue.",
-    "pronunciation": "",
+    "pronunciation": "अनब्लॉक",
     "definition": "To remove an obstacle so that progress on a task can continue.",
     "example": "Thank you for sending the data; that unblocks my analysis task.",
     "category": "Collaboration & Tasks",
-    "subCategory": "Collaboration & Tasks"
+    "subCategory": "Collaboration & Tasks",
+    "exampleHindi": "डेटा भेजने के लिए धन्यवाद; यह मेरे विश्लेषण कार्य को अनब्लॉक करता है।"
   },
   {
     "word": "Workflow",
     "meaning": "The sequence of steps a task goes through from start to finish.",
-    "pronunciation": "",
+    "pronunciation": "वर्कफ़्लो",
     "definition": "The sequence of steps a task goes through from start to finish.",
     "example": "We need to define a clear workflow for review and approval of content.",
     "category": "Collaboration & Tasks",
-    "subCategory": "Collaboration & Tasks"
+    "subCategory": "Collaboration & Tasks",
+    "exampleHindi": "हमें सामग्री की समीक्षा और अनुमोदन के लिए एक स्पष्ट वर्कफ़्लो परिभाषित करने की आवश्यकता है।"
   }
 ]

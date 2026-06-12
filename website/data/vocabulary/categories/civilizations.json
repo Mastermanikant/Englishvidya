@@ -1,209 +1,232 @@
 [
   {
     "word": "Agrarian",
-    "meaning": "",
-    "pronunciation": "",
+    "meaning": "खेती योग्य भूमि या भूमि की खेती से संबंधित।",
+    "pronunciation": "अगररियन",
     "definition": "Relating to cultivated land or the cultivation of land.",
     "example": "The transition to an agrarian society allowed for population growth.",
     "category": "Civilizations",
-    "subCategory": "Civilizations"
+    "subCategory": "Civilizations",
+    "exampleHindi": "कृषि प्रधान समाज में परिवर्तन ने जनसंख्या वृद्धि को अनुमति दी।"
   },
   {
     "word": "Aztec",
-    "meaning": "",
-    "pronunciation": "",
+    "meaning": "एज़्टेक, एक मेसोअमेरिकन संस्कृति से संबंधित।",
+    "pronunciation": "एज़्टेक",
     "definition": "Relating to the Aztecs, a Mesoamerican culture.",
     "example": "The Aztec empire was centered in what is now Mexico City.",
     "category": "Civilizations",
-    "subCategory": "Civilizations"
+    "subCategory": "Civilizations",
+    "exampleHindi": "एज़्टेक साम्राज्य उस स्थान पर केन्द्रित था जो अब मेक्सिको सिटी है।"
   },
   {
     "word": "Babylon",
-    "meaning": "",
-    "pronunciation": "",
+    "meaning": "मेसोपोटामिया का एक प्राचीन शहर, दूसरी सहस्राब्दी ईसा पूर्व में बेबीलोनिया की राजधानी।",
+    "pronunciation": "बेबीलोन",
     "definition": "An ancient city in Mesopotamia, the capital of Babylonia in the 2nd millennium BC.",
     "example": "The Hanging Gardens of Babylon were one of the Seven Wonders of the Ancient World.",
     "category": "Civilizations",
-    "subCategory": "Civilizations"
+    "subCategory": "Civilizations",
+    "exampleHindi": "बेबीलोन के हैंगिंग गार्डन प्राचीन विश्व के सात आश्चर्यों में से एक थे।"
   },
   {
     "word": "Byzantine",
-    "meaning": "",
-    "pronunciation": "",
+    "meaning": "बीजान्टियम, बीजान्टिन साम्राज्य, या पूर्वी रूढ़िवादी चर्च से संबंधित।",
+    "pronunciation": "बीजान्टिन",
     "definition": "Relating to Byzantium, the Byzantine Empire, or the Eastern Orthodox Church.",
     "example": "The Hagia Sophia is a masterpiece of Byzantine architecture.",
     "category": "Civilizations",
-    "subCategory": "Civilizations"
+    "subCategory": "Civilizations",
+    "exampleHindi": "हागिया सोफिया बीजान्टिन वास्तुकला की उत्कृष्ट कृति है।"
   },
   {
     "word": "Civilization",
-    "meaning": "",
-    "pronunciation": "",
+    "meaning": "मानव के सामाजिक एवं सांस्कृतिक विकास एवं संगठन की वह अवस्था जो सबसे उन्नत मानी जाती है।",
+    "pronunciation": "सिविलाइज़ेशन",
     "definition": "The stage of human social and cultural development and organization that is considered most advanced.",
     "example": "Ancient Egypt was a powerful and advanced civilization.",
     "category": "Civilizations",
-    "subCategory": "Civilizations"
+    "subCategory": "Civilizations",
+    "exampleHindi": "प्राचीन मिस्र एक शक्तिशाली और उन्नत सभ्यता थी।"
   },
   {
     "word": "Dynasty",
-    "meaning": "",
-    "pronunciation": "",
+    "meaning": "किसी देश के वंशानुगत शासकों की एक पंक्ति।",
+    "pronunciation": "डायनेस्टी",
     "definition": "A line of hereditary rulers of a country.",
     "example": "The Ming dynasty ruled China for nearly 300 years.",
     "category": "Civilizations",
-    "subCategory": "Civilizations"
+    "subCategory": "Civilizations",
+    "exampleHindi": "मिंग राजवंश ने लगभग 300 वर्षों तक चीन पर शासन किया।"
   },
   {
     "word": "Empire",
-    "meaning": "",
-    "pronunciation": "",
+    "meaning": "एक सर्वोच्च सत्ता के अधीन राज्यों या देशों का एक व्यापक समूह।",
+    "pronunciation": "एम्पायर",
     "definition": "An extensive group of states or countries under a single supreme authority.",
     "example": "The British Empire once spanned across the globe.",
     "category": "Civilizations",
-    "subCategory": "Civilizations"
+    "subCategory": "Civilizations",
+    "exampleHindi": "ब्रिटिश साम्राज्य एक समय पूरी दुनिया में फैला हुआ था।"
   },
   {
     "word": "Hellenistic",
-    "meaning": "",
-    "pronunciation": "",
+    "meaning": "सिकंदर महान की मृत्यु से लेकर क्लियोपेट्रा की हार तक यूनानी इतिहास, भाषा और संस्कृति से संबंधित।",
+    "pronunciation": "हेलेनिस्टिक",
     "definition": "Relating to Greek history, language, and culture from the death of Alexander the Great to the defeat of Cleopatra.",
     "example": "Alexandria was a major center of Hellenistic culture and learning.",
     "category": "Civilizations",
-    "subCategory": "Civilizations"
+    "subCategory": "Civilizations",
+    "exampleHindi": "अलेक्जेंड्रिया हेलेनिस्टिक संस्कृति और शिक्षा का एक प्रमुख केंद्र था।"
   },
   {
     "word": "Hunter-gatherer",
-    "meaning": "",
-    "pronunciation": "",
+    "meaning": "खानाबदोश लोगों का एक सदस्य जो मुख्य रूप से शिकार और मछली पकड़ने और जंगली भोजन की कटाई करके जीवन यापन करता है।",
+    "pronunciation": "Hunter-gatherer",
     "definition": "A member of a nomadic people who live chiefly by hunting and fishing, and harvesting wild food.",
     "example": "For thousands of years, humans survived as hunter-gatherers.",
     "category": "Civilizations",
-    "subCategory": "Civilizations"
+    "subCategory": "Civilizations",
+    "exampleHindi": "हज़ारों वर्षों तक मनुष्य शिकारी-संग्रहकर्ता के रूप में जीवित रहे।"
   },
   {
     "word": "Incan",
-    "meaning": "",
-    "pronunciation": "",
+    "meaning": "इंकास से संबंधित.",
+    "pronunciation": "इंसान",
     "definition": "Relating to the Incas.",
     "example": "Machu Picchu is a famous Incan citadel set high in the Andes Mountains.",
     "category": "Civilizations",
-    "subCategory": "Civilizations"
+    "subCategory": "Civilizations",
+    "exampleHindi": "माचू पिचू एंडीज़ पर्वत की ऊंचाई पर स्थित एक प्रसिद्ध इंका गढ़ है।"
   },
   {
     "word": "Kingdom",
-    "meaning": "",
-    "pronunciation": "",
+    "meaning": "किसी राजा या रानी द्वारा शासित देश, राज्य या क्षेत्र।",
+    "pronunciation": "किंगडम",
     "definition": "A country, state, or territory ruled by a king or queen.",
     "example": "The United Kingdom is a sovereign country in Europe.",
     "category": "Civilizations",
-    "subCategory": "Civilizations"
+    "subCategory": "Civilizations",
+    "exampleHindi": "यूनाइटेड किंगडम यूरोप में एक संप्रभु देश है।"
   },
   {
     "word": "Knight",
-    "meaning": "",
-    "pronunciation": "",
+    "meaning": "एक व्यक्ति जो कवच में घुड़सवार सैनिक के रूप में अपने संप्रभु या स्वामी की सेवा करता था।",
+    "pronunciation": "नाइट",
     "definition": "A man who served his sovereign or lord as a mounted soldier in armor.",
     "example": "The knight rode into battle defending his kingdom.",
     "category": "Civilizations",
-    "subCategory": "Civilizations"
+    "subCategory": "Civilizations",
+    "exampleHindi": "शूरवीर अपने राज्य की रक्षा के लिए युद्ध में उतर गया।"
   },
   {
     "word": "Mayan",
-    "meaning": "",
-    "pronunciation": "",
+    "meaning": "माया सभ्यता से संबंधित.",
+    "pronunciation": "मयान",
     "definition": "Relating to the Maya civilization.",
     "example": "The Mayan civilization is known for its advanced calendar and astronomical systems.",
     "category": "Civilizations",
-    "subCategory": "Civilizations"
+    "subCategory": "Civilizations",
+    "exampleHindi": "माया सभ्यता अपने उन्नत कैलेंडर और खगोलीय प्रणालियों के लिए जानी जाती है।"
   },
   {
     "word": "Mesopotamia",
-    "meaning": "",
-    "pronunciation": "",
+    "meaning": "पश्चिमी एशिया में टाइग्रिस और यूफ्रेट्स नदियों के बीच का एक प्राचीन क्षेत्र, जिसे सभ्यता का उद्गम स्थल माना जाता है।",
+    "pronunciation": "मेसोपोटामिया",
     "definition": "An ancient region in western Asia between the Tigris and Euphrates rivers, considered the cradle of civilization.",
     "example": "The invention of the wheel is attributed to the peoples of Mesopotamia.",
     "category": "Civilizations",
-    "subCategory": "Civilizations"
+    "subCategory": "Civilizations",
+    "exampleHindi": "पहिये के आविष्कार का श्रेय मेसोपोटामिया के लोगों को दिया जाता है।"
   },
   {
     "word": "Mongol",
-    "meaning": "",
-    "pronunciation": "",
+    "meaning": "मंगोलिया का मूल निवासी या निवासी; खानाबदोश लोगों का एक सदस्य जिसने चंगेज खान के अधीन एक विशाल साम्राज्य की स्थापना की।",
+    "pronunciation": "मंगोल",
     "definition": "A native or inhabitant of Mongolia; a member of the nomadic peoples who established a huge empire under Genghis Khan.",
     "example": "The Mongol empire became the largest contiguous land empire in history.",
     "category": "Civilizations",
-    "subCategory": "Civilizations"
+    "subCategory": "Civilizations",
+    "exampleHindi": "मंगोल साम्राज्य इतिहास में सबसे बड़ा सन्निहित भूमि साम्राज्य बन गया।"
   },
   {
     "word": "Nomadic",
-    "meaning": "",
-    "pronunciation": "",
+    "meaning": "खानाबदोश का जीवन जीना; भटकना.",
+    "pronunciation": "नोमेडिक",
     "definition": "Living the life of a nomad; wandering.",
     "example": "Many early human societies lived a nomadic lifestyle, following animal herds.",
     "category": "Civilizations",
-    "subCategory": "Civilizations"
+    "subCategory": "Civilizations",
+    "exampleHindi": "कई प्रारंभिक मानव समाज जानवरों के झुंड का पालन करते हुए खानाबदोश जीवन शैली जीते थे।"
   },
   {
     "word": "Ottoman",
-    "meaning": "",
-    "pronunciation": "",
+    "meaning": "उस्मान प्रथम के तुर्की राजवंश या ऑटोमन साम्राज्य से संबंधित।",
+    "pronunciation": "ओटोमन",
     "definition": "Relating to the Turkish dynasty of Osman I or to the Ottoman Empire.",
     "example": "The Ottoman Empire controlled much of Southeastern Europe and the Middle East.",
     "category": "Civilizations",
-    "subCategory": "Civilizations"
+    "subCategory": "Civilizations",
+    "exampleHindi": "ओटोमन साम्राज्य ने दक्षिणपूर्वी यूरोप और मध्य पूर्व के अधिकांश हिस्से पर नियंत्रण किया।"
   },
   {
     "word": "Pharaoh",
-    "meaning": "",
-    "pronunciation": "",
+    "meaning": "प्राचीन मिस्र में एक शासक.",
+    "pronunciation": "फ़राओ",
     "definition": "A ruler in ancient Egypt.",
     "example": "The pharaoh Tutankhamun is famous for his intact tomb.",
     "category": "Civilizations",
-    "subCategory": "Civilizations"
+    "subCategory": "Civilizations",
+    "exampleHindi": "फिरौन तूतनखामुन अपनी अक्षुण्ण कब्र के लिए प्रसिद्ध है।"
   },
   {
     "word": "Samurai",
-    "meaning": "",
-    "pronunciation": "",
+    "meaning": "सामंती जापान में एक शक्तिशाली सैन्य जाति का सदस्य।",
+    "pronunciation": "समुराई",
     "definition": "A member of a powerful military caste in feudal Japan.",
     "example": "The samurai followed a strict code of honor known as Bushido.",
     "category": "Civilizations",
-    "subCategory": "Civilizations"
+    "subCategory": "Civilizations",
+    "exampleHindi": "समुराई बुशिडो नामक एक सख्त सम्मान संहिता का पालन करते थे।"
   },
   {
     "word": "Serf",
-    "meaning": "",
-    "pronunciation": "",
+    "meaning": "एक खेतिहर मजदूर जो सामंती व्यवस्था के तहत अपने स्वामी की संपत्ति पर काम करने के लिए बाध्य है।",
+    "pronunciation": "सिर्फ",
     "definition": "An agricultural laborer bound under the feudal system to work on his lord's estate.",
     "example": "A serf was not permitted to leave the land they worked on.",
     "category": "Civilizations",
-    "subCategory": "Civilizations"
+    "subCategory": "Civilizations",
+    "exampleHindi": "एक दास को उस भूमि को छोड़ने की अनुमति नहीं थी जिस पर वे काम करते थे।"
   },
   {
     "word": "Shogun",
-    "meaning": "",
-    "pronunciation": "",
+    "meaning": "सामंती जापान में एक वंशानुगत कमांडर-इन-चीफ।",
+    "pronunciation": "शोगून",
     "definition": "A hereditary commander-in-chief in feudal Japan.",
     "example": "The shogun held the real political power during the Edo period.",
     "category": "Civilizations",
-    "subCategory": "Civilizations"
+    "subCategory": "Civilizations",
+    "exampleHindi": "एडो काल के दौरान शोगुन के पास वास्तविक राजनीतिक शक्ति थी।"
   },
   {
     "word": "Sumerian",
-    "meaning": "",
-    "pronunciation": "",
+    "meaning": "सुमेर से संबंधित, इसकी प्राचीन भाषा, या प्रारंभिक, गैर-सामी तत्व जिसने बेबीलोनियन सभ्यता में योगदान दिया।",
+    "pronunciation": "सुमेरियन",
     "definition": "Relating to Sumer, its ancient language, or the early, non-Semitic element it contributed to Babylonian civilization.",
     "example": "Cuneiform is the writing system developed by the Sumerian culture.",
     "category": "Civilizations",
-    "subCategory": "Civilizations"
+    "subCategory": "Civilizations",
+    "exampleHindi": "क्यूनिफॉर्म सुमेरियन संस्कृति द्वारा विकसित लेखन प्रणाली है।"
   },
   {
     "word": "Vassal",
-    "meaning": "",
-    "pronunciation": "",
+    "meaning": "श्रद्धांजलि और निष्ठा की शर्तों पर सामंती कार्यकाल द्वारा भूमि का धारक।",
+    "pronunciation": "वस्सल",
     "definition": "A holder of land by feudal tenure on conditions of homage and allegiance.",
     "example": "The vassal pledged his loyalty to the king.",
     "category": "Civilizations",
-    "subCategory": "Civilizations"
+    "subCategory": "Civilizations",
+    "exampleHindi": "जागीरदार ने राजा के प्रति अपनी वफादारी की प्रतिज्ञा की।"
   }
 ]

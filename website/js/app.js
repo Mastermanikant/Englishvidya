@@ -415,6 +415,7 @@
     const word = fixMojibake(w.word || w.w || '');
     let rawPron = fixMojibake(w.pronunciation || w.p || '');
     const example = fixMojibake(w.example || w.example_en || w.e || w.ex || '');
+    const exampleHindi = fixMojibake(w.exampleHindi || w.example_hi || w.ex_hi || '');
 
     let hindiMeaning = fixMojibake(w.meaning_hi || w.m || w.hindi || '');
     let englishDef = fixMojibake(w.definition_en || w.d || '');
@@ -445,7 +446,8 @@
       pron: rawPron,
       meaning: hindiMeaning,
       definition: englishDef,
-      example
+      example,
+      exampleHindi
     };
   }
 
@@ -662,6 +664,7 @@
                       ${meaning ? `<div class="flashcard-devanagari-meaning" style="font-size: 1.2rem; color: var(--accent); margin-top: var(--sp-2); font-weight: bold;">${escHtml(meaning)}</div>` : ''}
                       
                       ${example ? `<div class="flashcard-example" style="font-size: 1rem; font-style: italic; color: var(--text-secondary); margin-top: var(--sp-5); padding-left: 12px; border-left: 3px solid var(--accent-soft);">"${escHtml(example)}"</div>` : ''}
+                      ${parsed.exampleHindi ? `<div class="flashcard-example-hi" style="font-size: 0.95rem; font-style: normal; color: var(--text-secondary); margin-top: var(--sp-2); padding-left: 12px; border-left: 3px solid var(--accent-soft); opacity: 0.8;">${escHtml(parsed.exampleHindi)}</div>` : ''}
                     </div>
                   </div>
                 </div>

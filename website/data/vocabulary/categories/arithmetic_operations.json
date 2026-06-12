@@ -1,308 +1,342 @@
 [
   {
     "word": "addend",
-    "meaning": "",
-    "pronunciation": "",
+    "meaning": "कोई भी संख्या जो एक साथ जोड़ी जाती है।",
+    "pronunciation": "अडडेन्ड",
     "definition": "Any of the numbers that are added together.",
     "example": "In 3 + 4 = 7, both 3 and 4 are addends.",
     "category": "Arithmetic & Operations",
-    "subCategory": "Arithmetic/operations"
+    "subCategory": "Arithmetic/operations",
+    "exampleHindi": "3 + 4 = 7 में, 3 और 4 दोनों जोड़ हैं।"
   },
   {
     "word": "Addition",
     "meaning": "à¤œà¥‹à¤¡à¤¼",
-    "pronunciation": "",
+    "pronunciation": "अद्दितीओं",
     "definition": "à¤œà¥‹à¤¡à¤¼",
     "example": "The teacher taught us simple addition.",
     "category": "Arithmetic & Operations",
-    "subCategory": "Uncategorized"
+    "subCategory": "Uncategorized",
+    "exampleHindi": "शिक्षक ने हमें सरल जोड़ सिखाया।"
   },
   {
     "word": "arithmetic",
     "meaning": "???????",
-    "pronunciation": "",
+    "pronunciation": "अरिथमेटिक",
     "definition": "The branch of mathematics dealing with the properties and manipulation of numbers.",
     "example": "Basic arithmetic includes addition, subtraction, multiplication, and division.",
     "category": "Arithmetic & Operations",
-    "subCategory": "Arithmetic/operations"
+    "subCategory": "Arithmetic/operations",
+    "exampleHindi": "बुनियादी अंकगणित में जोड़, घटाव, गुणा और भाग शामिल हैं।"
   },
   {
     "word": "calculate",
-    "meaning": "",
-    "pronunciation": "",
+    "meaning": "किसी चीज़ की मात्रा या संख्या को गणितीय रूप से निर्धारित करना।",
+    "pronunciation": "कैलकुलेट",
     "definition": "To determine the amount or number of something mathematically.",
     "example": "We need to calculate the total cost of the items.",
     "category": "Arithmetic & Operations",
-    "subCategory": "Arithmetic/operations"
+    "subCategory": "Arithmetic/operations",
+    "exampleHindi": "हमें वस्तुओं की कुल लागत की गणना करने की आवश्यकता है।"
   },
   {
     "word": "composite number",
-    "meaning": "",
-    "pronunciation": "",
+    "meaning": "एक पूर्ण संख्या जो अन्य पूर्ण संख्याओं को गुणा करके बनाई जा सकती है।",
+    "pronunciation": "कम्पोजिट नंबर",
     "definition": "A whole number that can be made by multiplying other whole numbers.",
     "example": "4 is a composite number because it can be divided by 2.",
     "category": "Arithmetic & Operations",
-    "subCategory": "Arithmetic/operations"
+    "subCategory": "Arithmetic/operations",
+    "exampleHindi": "4 एक भाज्य संख्या है क्योंकि इसे 2 से विभाजित किया जा सकता है।"
   },
   {
     "word": "decimal",
     "meaning": "A number expressed using a decimal point to show values less than one",
-    "pronunciation": "",
+    "pronunciation": "डेसीमल",
     "definition": "à¤¦à¤¶à¤®à¤²à¤µ",
     "example": "The decimal 0.75 is equal to three quarters.",
     "category": "Arithmetic & Operations",
-    "subCategory": "Maths"
+    "subCategory": "Maths",
+    "exampleHindi": "दशमलव 0.75 तीन चौथाई के बराबर है।"
   },
   {
     "word": "denominator",
-    "meaning": "",
-    "pronunciation": "",
+    "meaning": "सामान्य भिन्न में रेखा के नीचे की संख्या.",
+    "pronunciation": "डिनोमिनेटर",
     "definition": "The number below the line in a common fraction.",
     "example": "In the fraction 3/4, 4 is the denominator.",
     "category": "Arithmetic & Operations",
-    "subCategory": "Arithmetic/operations"
+    "subCategory": "Arithmetic/operations",
+    "exampleHindi": "भिन्न 3/4 में, 4 हर है।"
   },
   {
     "word": "difference",
-    "meaning": "",
-    "pronunciation": "",
+    "meaning": "एक संख्या को दूसरी संख्या से घटाने का परिणाम.",
+    "pronunciation": "डिफरेंस",
     "definition": "The result of subtracting one number from another.",
     "example": "The difference between 10 and 4 is 6.",
     "category": "Arithmetic & Operations",
-    "subCategory": "Arithmetic/operations"
+    "subCategory": "Arithmetic/operations",
+    "exampleHindi": "10 और 4 के बीच का अंतर 6 है."
   },
   {
     "word": "Dividend",
     "meaning": "à¤²à¤¾à¤­à¤¾à¤‚à¤¶",
-    "pronunciation": "",
+    "pronunciation": "डिविडेंड",
     "definition": "à¤²à¤¾à¤­à¤¾à¤‚à¤¶",
     "example": "The company pays a high dividend to its investors.",
     "category": "Arithmetic & Operations",
-    "subCategory": "Uncategorized"
+    "subCategory": "Uncategorized",
+    "exampleHindi": "कंपनी अपने निवेशकों को भारी लाभांश देती है।"
   },
   {
     "word": "Division",
     "meaning": "à¤­à¤¾à¤—",
-    "pronunciation": "",
+    "pronunciation": "डिवीज़न",
     "definition": "à¤­à¤¾à¤—",
     "example": "Division by zero is not possible.",
     "category": "Arithmetic & Operations",
-    "subCategory": "Uncategorized"
+    "subCategory": "Uncategorized",
+    "exampleHindi": "शून्य से विभाजन संभव नहीं है."
   },
   {
     "word": "divisor",
-    "meaning": "",
-    "pronunciation": "",
+    "meaning": "वह संख्या जिससे किसी अन्य संख्या को विभाजित किया जाना हो।",
+    "pronunciation": "डिवीज़र",
     "definition": "A number by which another number is to be divided.",
     "example": "In 15 divided by 3, the divisor is 3.",
     "category": "Arithmetic & Operations",
-    "subCategory": "Arithmetic/operations"
+    "subCategory": "Arithmetic/operations",
+    "exampleHindi": "15 को 3 से विभाजित करने पर भाजक 3 होता है।"
   },
   {
     "word": "estimate",
-    "meaning": "",
-    "pronunciation": "",
+    "meaning": "किसी चीज़ के मूल्य, संख्या या मात्रा की मोटे तौर पर गणना या निर्णय करना।",
+    "pronunciation": "एस्टीमेट",
     "definition": "To roughly calculate or judge the value, number, or quantity of something.",
     "example": "She had to estimate the number of jelly beans in the jar.",
     "category": "Arithmetic & Operations",
-    "subCategory": "Arithmetic/operations"
+    "subCategory": "Arithmetic/operations",
+    "exampleHindi": "उसे जार में जेली बीन्स की संख्या का अनुमान लगाना था।"
   },
   {
     "word": "even number",
-    "meaning": "",
-    "pronunciation": "",
+    "meaning": "एक पूर्णांक जो दो से बिल्कुल विभाज्य है।",
+    "pronunciation": "इवन नंबर",
     "definition": "An integer that is exactly divisible by two.",
     "example": "8 is an even number.",
     "category": "Arithmetic & Operations",
-    "subCategory": "Arithmetic/operations"
+    "subCategory": "Arithmetic/operations",
+    "exampleHindi": "8 एक सम संख्या है."
   },
   {
     "word": "exponent",
-    "meaning": "",
-    "pronunciation": "",
+    "meaning": "वह मात्रा जो उस शक्ति का प्रतिनिधित्व करती है जिस तक किसी दी गई संख्या या अभिव्यक्ति को बढ़ाया जाना है।",
+    "pronunciation": "एक्सपोनेंट",
     "definition": "A quantity representing the power to which a given number or expression is to be raised.",
     "example": "In the expression 2^3, 3 is the exponent.",
     "category": "Arithmetic & Operations",
-    "subCategory": "Arithmetic/operations"
+    "subCategory": "Arithmetic/operations",
+    "exampleHindi": "व्यंजक 2^3 में, 3 घातांक है।"
   },
   {
     "word": "factor",
     "meaning": "A number that divides exactly into another number without leaving a remainder",
-    "pronunciation": "",
+    "pronunciation": "फैक्टर",
     "definition": "A number or quantity that when multiplied with another produces a given number or expression.",
     "example": "The factors of 12 are 1, 2, 3, 4, 6, and 12.",
     "category": "Arithmetic & Operations",
-    "subCategory": "Maths"
+    "subCategory": "Maths",
+    "exampleHindi": "12 के गुणनखंड 1, 2, 3, 4, 6 और 12 हैं।"
   },
   {
     "word": "fraction",
     "meaning": "A number that represents a part of a whole, written with a numerator over a denominator",
-    "pronunciation": "",
+    "pronunciation": "फ्रैक्शन",
     "definition": "à¤­à¤¿à¤¨à¥à¤¨",
     "example": "One half is written as the fraction 1/2.",
     "category": "Arithmetic & Operations",
-    "subCategory": "Maths"
+    "subCategory": "Maths",
+    "exampleHindi": "एक आधे को भिन्न 1/2 के रूप में लिखा जाता है।"
   },
   {
     "word": "integer",
     "meaning": "A whole number that can be positive, negative, or zero",
-    "pronunciation": "",
+    "pronunciation": "इन्टिजर",
     "definition": "A whole number; a number that is not a fraction.",
     "example": "â€“5, 0, and 12 are all integers.",
     "category": "Arithmetic & Operations",
-    "subCategory": "Maths"
+    "subCategory": "Maths",
+    "exampleHindi": "-5, 0, और 12 सभी पूर्णांक हैं।"
   },
   {
     "word": "minuend",
-    "meaning": "",
-    "pronunciation": "",
+    "meaning": "वह मात्रा या संख्या जिसमें से कोई अन्य घटाना हो।",
+    "pronunciation": "मिनोएड",
     "definition": "A quantity or number from which another is to be subtracted.",
     "example": "In 10 - 4 = 6, 10 is the minuend.",
     "category": "Arithmetic & Operations",
-    "subCategory": "Arithmetic/operations"
+    "subCategory": "Arithmetic/operations",
+    "exampleHindi": "10 - 4 = 6 में, 10 मिनट है।"
   },
   {
     "word": "multiple",
     "meaning": "A number that is the product of a given number and any whole number",
-    "pronunciation": "",
+    "pronunciation": "मल्टीप्ल",
     "definition": "A number that can be divided by another a certain number of times without a remainder.",
     "example": "The multiples of 5 are 5, 10, 15, 20, and so on.",
     "category": "Arithmetic & Operations",
-    "subCategory": "Maths"
+    "subCategory": "Maths",
+    "exampleHindi": "5 के गुणज 5, 10, 15, 20, इत्यादि हैं।"
   },
   {
     "word": "Multiplication",
     "meaning": "à¤—à¥à¤£à¤¾",
-    "pronunciation": "",
+    "pronunciation": "मल्टिप्लिकेशन",
     "definition": "à¤—à¥à¤£à¤¾",
     "example": "He is learning the rules of multiplication.",
     "category": "Arithmetic & Operations",
-    "subCategory": "Uncategorized"
+    "subCategory": "Uncategorized",
+    "exampleHindi": "वह गुणन के नियम सीख रहा है।"
   },
   {
     "word": "numerator",
-    "meaning": "",
-    "pronunciation": "",
+    "meaning": "सामान्य भिन्न में रेखा के ऊपर की संख्या.",
+    "pronunciation": "नुमेरटर",
     "definition": "The number above the line in a common fraction.",
     "example": "In the fraction 3/4, 3 is the numerator.",
     "category": "Arithmetic & Operations",
-    "subCategory": "Arithmetic/operations"
+    "subCategory": "Arithmetic/operations",
+    "exampleHindi": "भिन्न 3/4 में, 3 अंश है।"
   },
   {
     "word": "odd number",
-    "meaning": "",
-    "pronunciation": "",
+    "meaning": "एक पूर्णांक जो दो से बिल्कुल विभाज्य नहीं है।",
+    "pronunciation": "ओड नंबर",
     "definition": "An integer that is not exactly divisible by two.",
     "example": "9 is an odd number.",
     "category": "Arithmetic & Operations",
-    "subCategory": "Arithmetic/operations"
+    "subCategory": "Arithmetic/operations",
+    "exampleHindi": "9 एक विषम संख्या है."
   },
   {
     "word": "percentage",
     "meaning": "A number or ratio expressed as a fraction of 100",
-    "pronunciation": "",
+    "pronunciation": "परसेंटेज",
     "definition": "à¤ªà¥à¤°à¤¤à¤¿à¤¶à¤¤",
     "example": "She scored 90 percentage in her mathematics test.",
     "category": "Arithmetic & Operations",
-    "subCategory": "Maths"
+    "subCategory": "Maths",
+    "exampleHindi": "उसने गणित की परीक्षा में 90 प्रतिशत अंक प्राप्त किये।"
   },
   {
     "word": "prime number",
     "meaning": "A number greater than 1 that has no factors other than 1 and itself",
-    "pronunciation": "",
+    "pronunciation": "प्राइम नंबर",
     "definition": "A whole number greater than 1 whose only divisors are 1 and itself.",
     "example": "7 is a prime number because it can only be divided by 1 and 7.",
     "category": "Arithmetic & Operations",
-    "subCategory": "Maths"
+    "subCategory": "Maths",
+    "exampleHindi": "7 एक अभाज्य संख्या है क्योंकि इसे केवल 1 और 7 से ही विभाजित किया जा सकता है।"
   },
   {
     "word": "product",
-    "meaning": "",
-    "pronunciation": "",
+    "meaning": "दो या दो से अधिक संख्याओं को एक साथ गुणा करने का परिणाम।",
+    "pronunciation": "प्रोडक्ट",
     "definition": "The result of multiplying two or more numbers together.",
     "example": "The product of 5 and 6 is 30.",
     "category": "Arithmetic & Operations",
-    "subCategory": "Arithmetic/operations"
+    "subCategory": "Arithmetic/operations",
+    "exampleHindi": "5 और 6 का गुणनफल 30 है।"
   },
   {
     "word": "proportion",
-    "meaning": "",
-    "pronunciation": "",
+    "meaning": "एक समीकरण जो बताता है कि दो अनुपात समतुल्य हैं।",
+    "pronunciation": "प्रोपोरशन",
     "definition": "An equation stating that two ratios are equivalent.",
     "example": "The proportion 1/2 = 2/4 demonstrates equal ratios.",
     "category": "Arithmetic & Operations",
-    "subCategory": "Arithmetic/operations"
+    "subCategory": "Arithmetic/operations",
+    "exampleHindi": "अनुपात 1/2 = 2/4 समान अनुपात दर्शाता है।"
   },
   {
     "word": "quotient",
-    "meaning": "",
-    "pronunciation": "",
+    "meaning": "एक मात्रा को दूसरी मात्रा से विभाजित करने पर प्राप्त परिणाम।",
+    "pronunciation": "क्वॉटेंट",
     "definition": "A result obtained by dividing one quantity by another.",
     "example": "The quotient of 20 divided by 4 is 5.",
     "category": "Arithmetic & Operations",
-    "subCategory": "Arithmetic/operations"
+    "subCategory": "Arithmetic/operations",
+    "exampleHindi": "20 को 4 से विभाजित करने पर भागफल 5 आता है।"
   },
   {
     "word": "ratio",
     "meaning": "A comparison of two quantities showing how many times one value contains or is contained within the other",
-    "pronunciation": "",
+    "pronunciation": "रेश्यो",
     "definition": "The quantitative relation between two amounts showing the number of times one value contains or is contained within the other.",
     "example": "The ratio of boys to girls in the class is 3:2.",
     "category": "Arithmetic & Operations",
-    "subCategory": "Maths"
+    "subCategory": "Maths",
+    "exampleHindi": "कक्षा में लड़कों और लड़कियों का अनुपात 3:2 है।"
   },
   {
     "word": "remainder",
-    "meaning": "",
-    "pronunciation": "",
+    "meaning": "विभाजन के बाद बची हुई वह राशि जब एक संख्या दूसरे को समान रूप से विभाजित नहीं करती है।",
+    "pronunciation": "रिमाइंडर",
     "definition": "An amount left over after division when one number does not evenly divide another.",
     "example": "If you divide 10 by 3, the remainder is 1.",
     "category": "Arithmetic & Operations",
-    "subCategory": "Arithmetic/operations"
+    "subCategory": "Arithmetic/operations",
+    "exampleHindi": "यदि आप 10 को 3 से विभाजित करते हैं, तो शेषफल 1 होता है।"
   },
   {
     "word": "square root",
-    "meaning": "",
-    "pronunciation": "",
+    "meaning": "वह संख्या जिसे स्वयं से गुणा करने पर एक निर्दिष्ट मात्रा उत्पन्न होती है।",
+    "pronunciation": "स्क्वायर रुट",
     "definition": "A number which produces a specified quantity when multiplied by itself.",
     "example": "The square root of 25 is 5.",
     "category": "Arithmetic & Operations",
-    "subCategory": "Arithmetic/operations"
+    "subCategory": "Arithmetic/operations",
+    "exampleHindi": "25 का वर्गमूल 5 है."
   },
   {
     "word": "Subtraction",
     "meaning": "à¤˜à¤Ÿà¤¾à¤µ",
-    "pronunciation": "",
+    "pronunciation": "सब्ट्रैक्शन",
     "definition": "à¤˜à¤Ÿà¤¾à¤µ",
     "example": "Subtraction is the opposite of addition.",
     "category": "Arithmetic & Operations",
-    "subCategory": "Uncategorized"
+    "subCategory": "Uncategorized",
+    "exampleHindi": "घटाव जोड़ के विपरीत है।"
   },
   {
     "word": "subtrahend",
-    "meaning": "",
-    "pronunciation": "",
+    "meaning": "एक मात्रा या संख्या जो दूसरे से घटाई जानी है।",
+    "pronunciation": "सुब्त्राहंद",
     "definition": "A quantity or number to be subtracted from another.",
     "example": "In 10 - 4 = 6, 4 is the subtrahend.",
     "category": "Arithmetic & Operations",
-    "subCategory": "Arithmetic/operations"
+    "subCategory": "Arithmetic/operations",
+    "exampleHindi": "10 - 4 = 6 में, 4 उपप्रकार है।"
   },
   {
     "word": "sum",
-    "meaning": "",
-    "pronunciation": "",
+    "meaning": "दो या दो से अधिक संख्याओं को जोड़ने से प्राप्त कुल राशि।",
+    "pronunciation": "शूम",
     "definition": "The total amount resulting from the addition of two or more numbers.",
     "example": "The sum of 10 and 15 is 25.",
     "category": "Arithmetic & Operations",
-    "subCategory": "Arithmetic/operations"
+    "subCategory": "Arithmetic/operations",
+    "exampleHindi": "10 और 15 का योग 25 है."
   },
   {
     "word": "total",
-    "meaning": "",
-    "pronunciation": "",
+    "meaning": "किसी चीज़ की पूरी संख्या या मात्रा।",
+    "pronunciation": "टोटल",
     "definition": "The whole number or amount of something.",
     "example": "The total of the bill was fifty dollars.",
     "category": "Arithmetic & Operations",
-    "subCategory": "Arithmetic/operations"
+    "subCategory": "Arithmetic/operations",
+    "exampleHindi": "बिल का कुल योग पचास डॉलर था।"
   }
 ]

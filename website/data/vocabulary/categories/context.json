@@ -2,532 +2,591 @@
   {
     "word": "academic vocabulary",
     "meaning": "Words commonly used in educational settings and across academic disciplines.",
-    "pronunciation": "",
+    "pronunciation": "अकादमिक वोकैबुलरी",
     "definition": "Words commonly used in school subjects and formal educational contexts",
     "example": "Words like 'analyze', 'evaluate', and 'synthesize' are part of the academic vocabulary.",
     "category": "Context",
-    "subCategory": "Context"
+    "subCategory": "Context",
+    "exampleHindi": "'विश्लेषण', 'मूल्यांकन' और 'संश्लेषण' जैसे शब्द अकादमिक शब्दावली का हिस्सा हैं।"
   },
   {
     "word": "active reading",
     "meaning": "Engaging with text through questioning, annotating, and reflecting rather than passive absorption.",
-    "pronunciation": "",
+    "pronunciation": "एक्टिव रीडिंग",
     "definition": "Engaging with text through questioning, annotating, and reflecting rather than passive absorption.",
     "example": "Active reading strategies help learners notice and investigate unfamiliar vocabulary.",
     "category": "Context",
-    "subCategory": "Context"
+    "subCategory": "Context",
+    "exampleHindi": "सक्रिय पढ़ने की रणनीतियाँ शिक्षार्थियों को अपरिचित शब्दावली पर ध्यान देने और उसकी जाँच करने में मदद करती हैं।"
   },
   {
     "word": "annotation",
     "meaning": "A note added to a text to comment on or explain its content.",
-    "pronunciation": "",
+    "pronunciation": "अननोटेशन",
     "definition": "A note of explanation or commentary added to a text",
     "example": "She wrote an annotation in the margin to record the inferred meaning of the unfamiliar word.",
     "category": "Context",
-    "subCategory": "Context"
+    "subCategory": "Context",
+    "exampleHindi": "उसने अपरिचित शब्द का अनुमानित अर्थ दर्ज करने के लिए हाशिये में एक टिप्पणी लिखी।"
   },
   {
     "word": "appositive",
     "meaning": "A noun or noun phrase placed next to another to identify or explain it, often set off by commas.",
-    "pronunciation": "",
+    "pronunciation": "अपपोसिटीवे",
     "definition": "A noun or noun phrase placed next to another to identify or explain it, often set off by commas.",
     "example": "An appositive can function as a definition clue: 'The philologist, a scholar of languages, lectured for hours.'",
     "category": "Context",
-    "subCategory": "Context"
+    "subCategory": "Context",
+    "exampleHindi": "एक सकारात्मक एक परिभाषा सुराग के रूप में कार्य कर सकता है: 'भाषाविज्ञानी, भाषाओं का विद्वान, घंटों तक व्याख्यान देता था।'"
   },
   {
     "word": "challenge word",
     "meaning": "A word that is difficult, technical, or uncommon and requires special effort to learn.",
-    "pronunciation": "",
+    "pronunciation": "चैलेंज वर्ड",
     "definition": "A word that is difficult, technical, or uncommon and requires special effort to learn.",
     "example": "The teacher highlighted three challenge words before the students read the science article.",
     "category": "Context",
-    "subCategory": "Context"
+    "subCategory": "Context",
+    "exampleHindi": "छात्रों द्वारा विज्ञान लेख पढ़ने से पहले शिक्षक ने तीन चुनौती शब्दों पर प्रकाश डाला।"
   },
   {
     "word": "collocations",
     "meaning": "Words that are commonly used together in a language.",
-    "pronunciation": "",
+    "pronunciation": "कलोकशन्स",
     "definition": "Words that are commonly used together in a language.",
     "example": "Noticing that 'heavy' often collocates with 'rain', not 'light', can help infer word relationships.",
     "category": "Context",
-    "subCategory": "Context"
+    "subCategory": "Context",
+    "exampleHindi": "यह ध्यान देने से कि 'भारी' अक्सर 'बारिश' के साथ मेल खाता है, न कि 'प्रकाश' से, शब्द संबंधों का अनुमान लगाने में मदद मिल सकती है।"
   },
   {
     "word": "connotation",
     "meaning": "An idea or feeling that a word invokes beyond its literal meaning.",
-    "pronunciation": "",
+    "pronunciation": "कनोटेशन",
     "definition": "The emotional or cultural associations attached to a word, beyond its literal dictionary definition.",
     "example": "The word 'home' has warm connotations of safety and belonging.",
     "category": "Context",
-    "subCategory": "Context"
+    "subCategory": "Context",
+    "exampleHindi": "'घर' शब्द में सुरक्षा और अपनेपन का गर्मजोशी भरा अर्थ है।"
   },
   {
     "word": "context dependency",
     "meaning": "The degree to which a word's meaning depends on the situation in which it is used.",
-    "pronunciation": "",
+    "pronunciation": "कॉन्टेक्स्ट डिपेंडेंसी",
     "definition": "The degree to which a word's meaning depends on the situation in which it is used.",
     "example": "High context dependency means a word can only be understood properly within its sentence.",
     "category": "Context",
-    "subCategory": "Context"
+    "subCategory": "Context",
+    "exampleHindi": "उच्च संदर्भ निर्भरता का मतलब है कि किसी शब्द को केवल उसके वाक्य के भीतर ही ठीक से समझा जा सकता है।"
   },
   {
     "word": "contextual clue",
     "meaning": "Information provided in the surrounding text that hints at the meaning of an unknown word.",
-    "pronunciation": "",
+    "pronunciation": "कंटेक्सटुअल क्लू",
     "definition": "Information provided in the surrounding text that hints at the meaning of an unknown word.",
     "example": "The contextual clue 'despite feeling ill' suggested that 'persevered' meant continued despite difficulty.",
     "category": "Context",
-    "subCategory": "Context"
+    "subCategory": "Context",
+    "exampleHindi": "प्रासंगिक सुराग 'बीमार महसूस करने के बावजूद' ने सुझाव दिया कि 'दृढ़' का मतलब कठिनाई के बावजूद जारी रखना है।"
   },
   {
     "word": "contextual reading",
     "meaning": "The practice of reading with close attention to context to aid in comprehension of new words.",
-    "pronunciation": "",
+    "pronunciation": "कंटेक्सटुअल रीडिंग",
     "definition": "The practice of reading with close attention to context to aid in comprehension of new words.",
     "example": "Contextual reading is a powerful skill that reduces over-reliance on dictionaries.",
     "category": "Context",
-    "subCategory": "Context"
+    "subCategory": "Context",
+    "exampleHindi": "प्रासंगिक पढ़ना एक शक्तिशाली कौशल है जो शब्दकोशों पर अत्यधिक निर्भरता को कम करता है।"
   },
   {
     "word": "definition",
     "meaning": "A precise statement of the meaning of a word or phrase.",
-    "pronunciation": "",
+    "pronunciation": "डेफिनिशन",
     "definition": "A precise statement of the meaning of a word or phrase.",
     "example": "Looking up the definition of 'ephemeral' revealed that it means lasting for only a short time.",
     "category": "Context",
-    "subCategory": "Context"
+    "subCategory": "Context",
+    "exampleHindi": "'क्षणभंगुर' की परिभाषा देखने पर पता चला कि इसका मतलब थोड़े समय तक ही रहना है।"
   },
   {
     "word": "deliberate practice",
     "meaning": "Focused, intentional effort directed at improving a specific skill.",
-    "pronunciation": "",
+    "pronunciation": "देलिबेराते प्रैक्टिस",
     "definition": "Focused, intentional effort directed at improving a specific skill.",
     "example": "Deliberate practice of vocabulary strategies accelerates improvement in reading comprehension.",
     "category": "Context",
-    "subCategory": "Context"
+    "subCategory": "Context",
+    "exampleHindi": "शब्दावली रणनीतियों का जानबूझकर अभ्यास पढ़ने की समझ में सुधार को तेज करता है।"
   },
   {
     "word": "denotation",
     "meaning": "The literal or primary meaning of a word, as found in a dictionary.",
-    "pronunciation": "",
+    "pronunciation": "डेनोटेशन",
     "definition": "The literal, dictionary definition of a word, without any associated feelings or cultural meanings.",
     "example": "The denotation of 'serpent' is simply 'snake', though it often implies danger.",
     "category": "Context",
-    "subCategory": "Context"
+    "subCategory": "Context",
+    "exampleHindi": "'सर्प' का अर्थ केवल 'साँप' है, हालाँकि इसका अर्थ अक्सर खतरा होता है।"
   },
   {
     "word": "diagnostic reading",
     "meaning": "Reading done to identify where a learner struggles, including with unfamiliar vocabulary.",
-    "pronunciation": "",
+    "pronunciation": "डायग्नोस्टिक रीडिंग",
     "definition": "Reading done to identify where a learner struggles, including with unfamiliar vocabulary.",
     "example": "Diagnostic reading revealed that students struggled most with Latinate vocabulary in academic texts.",
     "category": "Context",
-    "subCategory": "Context"
+    "subCategory": "Context",
+    "exampleHindi": "डायग्नोस्टिक पढ़ने से पता चला कि छात्रों को अकादमिक ग्रंथों में लैटिनेट शब्दावली के साथ सबसे अधिक संघर्ष करना पड़ा।"
   },
   {
     "word": "diction",
     "meaning": "The choice and use of words and phrases in speech or writing.",
-    "pronunciation": "",
+    "pronunciation": "डिक्शन",
     "definition": "The choice and use of words and phrases in speech or writing.",
     "example": "The author's elevated diction included many words unfamiliar to casual readers.",
     "category": "Context",
-    "subCategory": "Context"
+    "subCategory": "Context",
+    "exampleHindi": "लेखक की उन्नत शब्दावली में ऐसे कई शब्द शामिल हैं जो सामान्य पाठकों के लिए अपरिचित हैं।"
   },
   {
     "word": "discipline-specific",
     "meaning": "Words that are particular to a specific field of study.",
-    "pronunciation": "",
+    "pronunciation": "discipline-specific",
     "definition": "Words that are particular to a specific field of study.",
     "example": "Discipline-specific vocabulary in chemistry includes words like 'osmosis' and 'valence'.",
     "category": "Context",
-    "subCategory": "Context"
+    "subCategory": "Context",
+    "exampleHindi": "रसायन विज्ञान में अनुशासन-विशिष्ट शब्दावली में 'ऑस्मोसिस' और 'वैलेंस' जैसे शब्द शामिल हैं।"
   },
   {
     "word": "embedded definition",
     "meaning": "A definition placed within the sentence itself, making it unnecessary to look the word up.",
-    "pronunciation": "",
+    "pronunciation": "एम्बेडेड डेफिनिशन",
     "definition": "A definition placed within the sentence itself, making it unnecessary to look the word up.",
     "example": "The text used an embedded definition: 'The nomadic, or wandering, tribes moved with the seasons.'",
     "category": "Context",
-    "subCategory": "Context"
+    "subCategory": "Context",
+    "exampleHindi": "पाठ में एक अंतर्निहित परिभाषा का उपयोग किया गया है: 'खानाबदोश, या भटकने वाली जनजातियाँ मौसम के साथ चलती थीं।'"
   },
   {
     "word": "encounter",
     "meaning": "To meet or come across something unexpectedly.",
-    "pronunciation": "",
+    "pronunciation": "एनकाउंटर",
     "definition": "To meet or come across something unexpectedly.",
     "example": "When you encounter an unfamiliar word, try to identify its parts before consulting a dictionary.",
     "category": "Context",
-    "subCategory": "Context"
+    "subCategory": "Context",
+    "exampleHindi": "जब आपका सामना किसी अपरिचित शब्द से हो, तो शब्दकोश की सलाह लेने से पहले उसके भागों को पहचानने का प्रयास करें।"
   },
   {
     "word": "euphemism",
     "meaning": "A mild or indirect expression substituted for a blunt one.",
-    "pronunciation": "",
+    "pronunciation": "ीूफेमिसम",
     "definition": "A mild or indirect expression substituted for a blunt one.",
     "example": "The euphemism 'passed away' instead of 'died' is a softer way of expressing the same idea.",
     "category": "Context",
-    "subCategory": "Context"
+    "subCategory": "Context",
+    "exampleHindi": "'मर गया' के स्थान पर 'मर गया' की व्यंजना उसी विचार को व्यक्त करने का एक नरम तरीका है।"
   },
   {
     "word": "example clue",
     "meaning": "A context strategy where the meaning of a word is clarified through an example given in the text.",
-    "pronunciation": "",
+    "pronunciation": "एक्साम्प्ले क्लू",
     "definition": "A context strategy where the meaning of a word is clarified through an example given in the text.",
     "example": "An example clue follows the word 'citrus': 'citrus fruits, such as lemons, limes, and oranges, are rich in vitamin C.'",
     "category": "Context",
-    "subCategory": "Context"
+    "subCategory": "Context",
+    "exampleHindi": "एक उदाहरण सुराग 'साइट्रस' शब्द का अनुसरण करता है: 'नींबू, नीबू और संतरे जैसे खट्टे फल, विटामिन सी से भरपूर होते हैं।'"
   },
   {
     "word": "exemplify",
     "meaning": "To be or give a typical example of something.",
-    "pronunciation": "",
+    "pronunciation": "एक्सेम्पलीफी",
     "definition": "To be or give a typical example of something.",
     "example": "The author exemplified the word's meaning by using it in three different sentences.",
     "category": "Context",
-    "subCategory": "Context"
+    "subCategory": "Context",
+    "exampleHindi": "लेखक ने तीन अलग-अलग वाक्यों में शब्द का उपयोग करके उसके अर्थ का उदाहरण दिया है।"
   },
   {
     "word": "explicit instruction",
     "meaning": "Direct, clear teaching of vocabulary where words and their meanings are formally taught.",
-    "pronunciation": "",
+    "pronunciation": "एक्सप्लिसित इंस्ट्रक्शन",
     "definition": "Direct, clear teaching of vocabulary where words and their meanings are formally taught.",
     "example": "Explicit instruction in vocabulary works best for high-priority academic words.",
     "category": "Context",
-    "subCategory": "Context"
+    "subCategory": "Context",
+    "exampleHindi": "शब्दावली में स्पष्ट निर्देश उच्च प्राथमिकता वाले शैक्षणिक शब्दों के लिए सबसे अच्छा काम करता है।"
   },
   {
     "word": "figurative language",
     "meaning": "Language that uses words in a non-literal sense to create a particular effect.",
-    "pronunciation": "",
+    "pronunciation": "फिगरेटिव लैंग्वेज",
     "definition": "Language that uses words in a non-literal sense to create a particular effect.",
     "example": "Understanding figurative language like metaphors can help interpret unfamiliar expressions.",
     "category": "Context",
-    "subCategory": "Context"
+    "subCategory": "Context",
+    "exampleHindi": "रूपकों जैसी आलंकारिक भाषा को समझने से अपरिचित अभिव्यक्तियों की व्याख्या करने में मदद मिल सकती है।"
   },
   {
     "word": "general sense",
     "meaning": "The overall tone and meaning of a passage that helps determine the meaning of individual words.",
-    "pronunciation": "",
+    "pronunciation": "जनरल सेंस",
     "definition": "The overall tone and meaning of a passage that helps determine the meaning of individual words.",
     "example": "The general sense of the paragraph suggested the word 'melancholy' had a sad meaning.",
     "category": "Context",
-    "subCategory": "Context"
+    "subCategory": "Context",
+    "exampleHindi": "अनुच्छेद के सामान्य अर्थ से पता चलता है कि 'उदासी' शब्द का एक दुखद अर्थ था।"
   },
   {
     "word": "glossary",
     "meaning": "An alphabetical list of terms with their definitions, typically found at the back of a book.",
-    "pronunciation": "",
+    "pronunciation": "ग्लोसरी",
     "definition": "A list of difficult or technical words with their definitions",
     "example": "The glossary at the end of the textbook helped her understand technical terms.",
     "category": "Context",
-    "subCategory": "Context"
+    "subCategory": "Context",
+    "exampleHindi": "पाठ्यपुस्तक के अंत में दी गई शब्दावली से उन्हें तकनीकी शब्दों को समझने में मदद मिली।"
   },
   {
     "word": "homonym",
     "meaning": "Each of two or more words having the same spelling or pronunciation but different meanings.",
-    "pronunciation": "",
+    "pronunciation": "हमनाम",
     "definition": "A word that sounds or is spelled the same as another word but has a different meaning and often a different origin.",
     "example": "'Bat' is a homonym that can mean a flying mammal or a sports implement.",
     "category": "Context",
-    "subCategory": "Context"
+    "subCategory": "Context",
+    "exampleHindi": "'बैट' एक समानार्थी शब्द है जिसका अर्थ उड़ने वाला स्तनपायी या खेल उपकरण हो सकता है।"
   },
   {
     "word": "idiomatic expression",
     "meaning": "A phrase or saying whose meaning cannot be deduced from the literal definitions of the words.",
-    "pronunciation": "",
+    "pronunciation": "िडिओमाटिक एक्सप्रेशन",
     "definition": "A phrase or saying whose meaning cannot be deduced from the literal definitions of the words.",
     "example": "The idiomatic expression 'bite the bullet' confused non-native speakers unfamiliar with it.",
     "category": "Context",
-    "subCategory": "Context"
+    "subCategory": "Context",
+    "exampleHindi": "मुहावरेदार अभिव्यक्ति 'गोली खाओ' ने इससे अपरिचित गैर-देशी वक्ताओं को भ्रमित कर दिया।"
   },
   {
     "word": "independent reading",
     "meaning": "Reading done on one's own without teacher guidance, a key driver of vocabulary growth.",
-    "pronunciation": "",
+    "pronunciation": "इंडिपेंडेंट रीडिंग",
     "definition": "Reading done on one's own without teacher guidance, a key driver of vocabulary growth.",
     "example": "Independent reading exposes learners to a wide range of vocabulary in natural contexts.",
     "category": "Context",
-    "subCategory": "Context"
+    "subCategory": "Context",
+    "exampleHindi": "स्वतंत्र पठन शिक्षार्थियों को प्राकृतिक संदर्भों में शब्दावली की एक विस्तृत श्रृंखला से परिचित कराता है।"
   },
   {
     "word": "jargon",
     "meaning": "Specialized words or expressions used by a particular profession or group.",
-    "pronunciation": "",
+    "pronunciation": "जारगन",
     "definition": "Specialised technical vocabulary used within a particular profession or field of study.",
     "example": "Medical jargon can be difficult to understand without prior knowledge of the field.",
     "category": "Context",
-    "subCategory": "Context"
+    "subCategory": "Context",
+    "exampleHindi": "क्षेत्र के पूर्व ज्ञान के बिना चिकित्सा शब्दजाल को समझना मुश्किल हो सकता है।"
   },
   {
     "word": "meaningful use",
     "meaning": "Using a newly learned word in a real-world context to reinforce understanding.",
-    "pronunciation": "",
+    "pronunciation": "मीनिंगफुल उसे",
     "definition": "Using a newly learned word in a real-world context to reinforce understanding.",
     "example": "Meaningful use of new words â€” in writing and conversation â€” accelerates retention.",
     "category": "Context",
-    "subCategory": "Context"
+    "subCategory": "Context",
+    "exampleHindi": "नए शब्दों का सार्थक उपयोग - लेखन और बातचीत में - प्रतिधारण को तेज करता है।"
   },
   {
     "word": "metaphor",
     "meaning": "A figure of speech in which a word is applied to something it does not literally apply to.",
-    "pronunciation": "",
+    "pronunciation": "मेटाफर",
     "definition": "A figure of speech that describes something by saying it is something else, implying a comparison",
     "example": "The metaphor 'time is a thief' helped clarify the meaning of 'ephemeral' in the passage.",
     "category": "Context",
-    "subCategory": "Context"
+    "subCategory": "Context",
+    "exampleHindi": "रूपक 'समय एक चोर है' ने परिच्छेद में 'क्षणभंगुर' के अर्थ को स्पष्ट करने में मदद की।"
   },
   {
     "word": "obscure",
     "meaning": "Not clearly expressed or understood; not well known.",
-    "pronunciation": "",
+    "pronunciation": "ऑब्सक्युरे",
     "definition": "Not clearly expressed or understood; not well known.",
     "example": "The essay used several obscure terms that required dictionary consultation.",
     "category": "Context",
-    "subCategory": "Context"
+    "subCategory": "Context",
+    "exampleHindi": "निबंध में कई अस्पष्ट शब्दों का इस्तेमाल किया गया था जिसके लिए शब्दकोश परामर्श की आवश्यकता थी।"
   },
   {
     "word": "parenthetical",
     "meaning": "A word, phrase, or clause inserted into a sentence as an explanation or aside, set off by brackets or commas.",
-    "pronunciation": "",
+    "pronunciation": "पैरेंथेटिकल",
     "definition": "A word, phrase, or clause inserted into a sentence as an explanation or aside, set off by brackets or commas.",
     "example": "The author used a parenthetical â€” (meaning excessive pride) â€” to define 'hubris' immediately.",
     "category": "Context",
-    "subCategory": "Context"
+    "subCategory": "Context",
+    "exampleHindi": "लेखक ने तुरंत 'अभिमान' को परिभाषित करने के लिए कोष्ठक - (जिसका अर्थ है अत्यधिक गर्व) - का उपयोग किया।"
   },
   {
     "word": "polysemy",
     "meaning": "The coexistence of many possible meanings for a word or phrase.",
-    "pronunciation": "",
+    "pronunciation": "पोलीसेमी",
     "definition": "The coexistence of multiple meanings for a single word or phrase",
     "example": "The polysemy of 'bank' â€” financial institution or riverbank â€” can cause confusion without context.",
     "category": "Context",
-    "subCategory": "Context"
+    "subCategory": "Context",
+    "exampleHindi": "'बैंक' का बहुरूपिया - वित्तीय संस्थान या नदी तट - संदर्भ के बिना भ्रम पैदा कर सकता है।"
   },
   {
     "word": "pronunciation",
     "meaning": "The way in which a word is pronounced.",
-    "pronunciation": "",
+    "pronunciation": "प्रोनन्सिएशन",
     "definition": "The way in which a word or language is spoken",
     "example": "Correct pronunciation of a word can sometimes trigger recognition of its meaning.",
     "category": "Context",
-    "subCategory": "Context"
+    "subCategory": "Context",
+    "exampleHindi": "किसी शब्द का सही उच्चारण कभी-कभी उसके अर्थ की पहचान को ट्रिगर कर सकता है।"
   },
   {
     "word": "punctuation clue",
     "meaning": "A context strategy where punctuation such as dashes, colons, or parentheses signal a definition follows.",
-    "pronunciation": "",
+    "pronunciation": "पंक्चुएशन क्लू",
     "definition": "A context strategy where punctuation such as dashes, colons, or parentheses signal a definition follows.",
     "example": "A punctuation clue appears in: 'He suffered from insomnia â€” the inability to sleep â€” for months.'",
     "category": "Context",
-    "subCategory": "Context"
+    "subCategory": "Context",
+    "exampleHindi": "इसमें एक विराम चिह्न दिखाई देता है: 'वह अनिद्रा से पीड़ित था - सोने में असमर्थता - महीनों तक।'"
   },
   {
     "word": "read aloud",
     "meaning": "To speak written text out loud, which can help with recognition and comprehension of unfamiliar words.",
-    "pronunciation": "",
+    "pronunciation": "रीड अलाउड",
     "definition": "To speak written text out loud, which can help with recognition and comprehension of unfamiliar words.",
     "example": "Reading aloud helped her notice the unfamiliar word within its sentence clearly.",
     "category": "Context",
-    "subCategory": "Context"
+    "subCategory": "Context",
+    "exampleHindi": "ज़ोर से पढ़ने से उसे वाक्य के भीतर अपरिचित शब्द को स्पष्ट रूप से नोटिस करने में मदद मिली।"
   },
   {
     "word": "reading fluency",
     "meaning": "The ability to read accurately, quickly, and with proper expression.",
-    "pronunciation": "",
+    "pronunciation": "रीडिंग फ्लुएंसी",
     "definition": "The ability to read accurately, quickly, and with proper expression.",
     "example": "Developing reading fluency helps readers focus on meaning rather than decoding individual words.",
     "category": "Context",
-    "subCategory": "Context"
+    "subCategory": "Context",
+    "exampleHindi": "पढ़ने का प्रवाह विकसित करने से पाठकों को अलग-अलग शब्दों को डिकोड करने के बजाय अर्थ पर ध्यान केंद्रित करने में मदद मिलती है।"
   },
   {
     "word": "reading widely",
     "meaning": "The practice of reading a broad range of texts to build vocabulary and world knowledge.",
-    "pronunciation": "",
+    "pronunciation": "रीडिंग विदेली",
     "definition": "The practice of reading a broad range of texts to build vocabulary and world knowledge.",
     "example": "Reading widely across genres and subjects is the most effective long-term vocabulary strategy.",
     "category": "Context",
-    "subCategory": "Context"
+    "subCategory": "Context",
+    "exampleHindi": "विभिन्न शैलियों और विषयों को व्यापक रूप से पढ़ना सबसे प्रभावी दीर्घकालिक शब्दावली रणनीति है।"
   },
   {
     "word": "register",
     "meaning": "A variety of language used for a particular purpose or in a particular social setting.",
-    "pronunciation": "",
+    "pronunciation": "रजिस्टर",
     "definition": "The style or level of formality in language use, which varies depending on the social context and audience.",
     "example": "The formal register of the legal document included many unfamiliar vocabulary terms.",
     "category": "Context",
-    "subCategory": "Context"
+    "subCategory": "Context",
+    "exampleHindi": "कानूनी दस्तावेज़ के औपचारिक रजिस्टर में कई अपरिचित शब्दावली शब्द शामिल थे।"
   },
   {
     "word": "rereading",
     "meaning": "The strategy of reading a passage again to improve understanding.",
-    "pronunciation": "",
+    "pronunciation": "रेरीडिंग",
     "definition": "The strategy of reading a passage again to improve understanding.",
     "example": "Rereading the paragraph helped him make a better inference about the word 'tenacious'.",
     "category": "Context",
-    "subCategory": "Context"
+    "subCategory": "Context",
+    "exampleHindi": "पैराग्राफ को दोबारा पढ़ने से उन्हें 'दृढ़' शब्द के बारे में बेहतर अनुमान लगाने में मदद मिली।"
   },
   {
     "word": "restatement",
     "meaning": "A context clue in which the author restates a difficult word in simpler terms nearby.",
-    "pronunciation": "",
+    "pronunciation": "रेस्टटेमेंट",
     "definition": "A context clue in which the author restates a difficult word in simpler terms nearby.",
     "example": "The text offered a restatement: 'the arid, or extremely dry, landscape stretched for miles.'",
     "category": "Context",
-    "subCategory": "Context"
+    "subCategory": "Context",
+    "exampleHindi": "पाठ ने एक पुनर्कथन प्रस्तुत किया: 'शुष्क, या अत्यंत शुष्क, परिदृश्य मीलों तक फैला हुआ है।'"
   },
   {
     "word": "semantic",
     "meaning": "Relating to the meaning of words and language.",
-    "pronunciation": "",
+    "pronunciation": "सिमेंटिक",
     "definition": "Relating to meaning in language or logic.",
     "example": "Semantic clues in a paragraph can help readers guess the meaning of unfamiliar vocabulary.",
     "category": "Context",
-    "subCategory": "Context"
+    "subCategory": "Context",
+    "exampleHindi": "किसी पैराग्राफ में अर्थ संबंधी सुराग पाठकों को अपरिचित शब्दावली के अर्थ का अनुमान लगाने में मदद कर सकते हैं।"
   },
   {
     "word": "semantic field",
     "meaning": "A group of words that all relate to the same concept or subject area.",
-    "pronunciation": "",
+    "pronunciation": "सिमेंटिक फील्ड",
     "definition": "A group of words that all relate to the same concept or subject area.",
     "example": "Words like 'fearful', 'anxious', and 'terrified' belong to the semantic field of fear.",
     "category": "Context",
-    "subCategory": "Context"
+    "subCategory": "Context",
+    "exampleHindi": "'भयभीत', 'चिंतित' और 'भयभीत' जैसे शब्द भय के शब्दार्थ क्षेत्र से संबंधित हैं।"
   },
   {
     "word": "signal word",
     "meaning": "A word or phrase that provides clues about the relationship between ideas in a text.",
-    "pronunciation": "",
+    "pronunciation": "सिग्नल वर्ड",
     "definition": "A word or phrase that provides clues about the relationship between ideas in a text.",
     "example": "Signal words like 'however' and 'therefore' help readers understand how ideas connect.",
     "category": "Context",
-    "subCategory": "Context"
+    "subCategory": "Context",
+    "exampleHindi": "'हालांकि' और 'इसलिए' जैसे संकेत शब्द पाठकों को यह समझने में मदद करते हैं कि विचार कैसे जुड़ते हैं।"
   },
   {
     "word": "strategy",
     "meaning": "A plan or method for achieving a particular goal.",
-    "pronunciation": "",
+    "pronunciation": "स्ट्रेटेजी",
     "definition": "à¤°à¤£à¤¨à¥€à¤¤à¤¿",
     "example": "Using a combination of context, etymology, and inference is an effective vocabulary strategy.",
     "category": "Context",
-    "subCategory": "Context"
+    "subCategory": "Context",
+    "exampleHindi": "संदर्भ, व्युत्पत्ति और अनुमान के संयोजन का उपयोग करना एक प्रभावी शब्दावली रणनीति है।"
   },
   {
     "word": "surrounding text",
     "meaning": "The sentences or paragraphs immediately before and after an unknown word.",
-    "pronunciation": "",
+    "pronunciation": "सुररौनडिंग टेक्स्ट",
     "definition": "The sentences or paragraphs immediately before and after an unknown word.",
     "example": "Reading the surrounding text carefully helped her figure out that 'avaricious' meant greedy.",
     "category": "Context",
-    "subCategory": "Context"
+    "subCategory": "Context",
+    "exampleHindi": "आसपास के पाठ को ध्यान से पढ़ने से उसे यह पता लगाने में मदद मिली कि 'लोभी' का मतलब लालची होता है।"
   },
   {
     "word": "technical",
     "meaning": "Relating to a particular subject, art, or craft; requiring special knowledge.",
-    "pronunciation": "",
+    "pronunciation": "टेक्निकल",
     "definition": "Relating to a particular subject, art, or craft; requiring special knowledge.",
     "example": "Technical vocabulary in a science textbook often requires contextual reading strategies.",
     "category": "Context",
-    "subCategory": "Context"
+    "subCategory": "Context",
+    "exampleHindi": "विज्ञान की पाठ्यपुस्तक में तकनीकी शब्दावली के लिए अक्सर प्रासंगिक पढ़ने की रणनीतियों की आवश्यकता होती है।"
   },
   {
     "word": "uncertainty",
     "meaning": "The state of not being sure or confident about something.",
-    "pronunciation": "",
+    "pronunciation": "अनसर्टेनिटी",
     "definition": "The state of not being sure or confident about something.",
     "example": "Uncertainty about a word's meaning can often be resolved by examining the surrounding text.",
     "category": "Context",
-    "subCategory": "Context"
+    "subCategory": "Context",
+    "exampleHindi": "किसी शब्द के अर्थ के बारे में अनिश्चितता को अक्सर आसपास के पाठ की जांच करके हल किया जा सकता है।"
   },
   {
     "word": "unfamiliar",
     "meaning": "Not known or recognized; strange or new to someone.",
-    "pronunciation": "",
+    "pronunciation": "ुंफामिलिअर",
     "definition": "Not known or recognized; strange or new to someone.",
     "example": "Encountering unfamiliar words is a natural part of expanding one's vocabulary.",
     "category": "Context",
-    "subCategory": "Context"
+    "subCategory": "Context",
+    "exampleHindi": "अपरिचित शब्दों का सामना करना किसी की शब्दावली के विस्तार का एक स्वाभाविक हिस्सा है।"
   },
   {
     "word": "unfamiliar term",
     "meaning": "A word or expression not previously encountered or understood by the reader.",
-    "pronunciation": "",
+    "pronunciation": "ुंफामिलिअर टर्म",
     "definition": "A word or expression not previously encountered or understood by the reader.",
     "example": "She used context strategies to tackle each unfamiliar term in the academic text.",
     "category": "Context",
-    "subCategory": "Context"
+    "subCategory": "Context",
+    "exampleHindi": "उन्होंने शैक्षणिक पाठ में प्रत्येक अपरिचित शब्द से निपटने के लिए संदर्भ रणनीतियों का उपयोग किया।"
   },
   {
     "word": "unknown word",
     "meaning": "A word a reader has not previously encountered or cannot immediately understand.",
-    "pronunciation": "",
+    "pronunciation": "अननोन वर्ड",
     "definition": "A word a reader has not previously encountered or cannot immediately understand.",
     "example": "The reader paused at the unknown word and used context clues to infer its meaning.",
     "category": "Context",
-    "subCategory": "Context"
+    "subCategory": "Context",
+    "exampleHindi": "पाठक अज्ञात शब्द पर रुका और उसके अर्थ का अनुमान लगाने के लिए संदर्भ संकेतों का उपयोग किया।"
   },
   {
     "word": "vocabulary",
     "meaning": "The body of words known and used by a person or found in a particular field.",
-    "pronunciation": "",
+    "pronunciation": "वोकैबुलरी",
     "definition": "The set of words known and used by a person in a language",
     "example": "Expanding your vocabulary makes reading and communication much more effective.",
     "category": "Context",
-    "subCategory": "Context"
+    "subCategory": "Context",
+    "exampleHindi": "अपनी शब्दावली का विस्तार करने से पढ़ना और संचार अधिक प्रभावी हो जाता है।"
   },
   {
     "word": "word consciousness",
     "meaning": "An awareness of and interest in words, their meanings, and how they are used.",
-    "pronunciation": "",
+    "pronunciation": "वर्ड कांशसनेस",
     "definition": "An awareness and interest in words â€” noticing them, playing with them, and seeking to understand them â€” that drives vocabulary growth.",
     "example": "Students with word consciousness notice and explore new vocabulary independently.",
     "category": "Context",
-    "subCategory": "Context"
+    "subCategory": "Context",
+    "exampleHindi": "शब्द चेतना वाले छात्र स्वतंत्र रूप से नई शब्दावली को नोटिस करते हैं और उसका पता लगाते हैं।"
   },
   {
     "word": "word exposure",
     "meaning": "The number of times a person encounters a word through reading or listening.",
-    "pronunciation": "",
+    "pronunciation": "वर्ड एक्सपोज़र",
     "definition": "Each individual instance of encountering a word in reading, listening, or conversation, contributing to its eventual acquisition.",
     "example": "Research shows that repeated word exposure across different contexts leads to lasting vocabulary acquisition.",
     "category": "Context",
-    "subCategory": "Context"
+    "subCategory": "Context",
+    "exampleHindi": "अनुसंधान से पता चलता है कि विभिन्न संदर्भों में बार-बार शब्दों का प्रदर्शन स्थायी शब्दावली अधिग्रहण की ओर ले जाता है।"
   },
   {
     "word": "word journal",
     "meaning": "A personal notebook where learners record, define, and use new vocabulary words.",
-    "pronunciation": "",
+    "pronunciation": "वर्ड जर्नल",
     "definition": "A personal notebook where learners record, define, and use new vocabulary words.",
     "example": "Keeping a word journal helped him track and review unfamiliar vocabulary encountered in reading.",
     "category": "Context",
-    "subCategory": "Context"
+    "subCategory": "Context",
+    "exampleHindi": "शब्द पत्रिका रखने से उन्हें पढ़ने के दौरान सामने आने वाली अपरिचित शब्दावली पर नज़र रखने और उसकी समीक्षा करने में मदद मिली।"
   },
   {
     "word": "word map",
     "meaning": "A visual organizer used to explore a word's definition, synonyms, antonyms, and example sentences.",
-    "pronunciation": "",
+    "pronunciation": "वर्ड मैप",
     "definition": "A visual diagram that shows connections between a target word and its synonyms, antonyms, related words, and example sentences.",
     "example": "Creating a word map for 'resilient' helped her connect the new word to familiar concepts.",
     "category": "Context",
-    "subCategory": "Context"
+    "subCategory": "Context",
+    "exampleHindi": "'लचीला' के लिए एक शब्द मानचित्र बनाने से उन्हें नए शब्द को परिचित अवधारणाओं से जोड़ने में मदद मिली।"
   },
   {
     "word": "word recognition",
     "meaning": "The ability to identify written words automatically and accurately.",
-    "pronunciation": "",
+    "pronunciation": "वर्ड रिकग्निशन",
     "definition": "The ability to identify and understand a written or spoken word instantly, which is automatic in native speakers.",
     "example": "Strong word recognition speeds up reading and frees cognitive resources for comprehension.",
     "category": "Context",
-    "subCategory": "Context"
+    "subCategory": "Context",
+    "exampleHindi": "मजबूत शब्द पहचान पढ़ने की गति बढ़ाती है और समझने के लिए संज्ञानात्मक संसाधनों को मुक्त करती है।"
   },
   {
     "word": "word usage",
     "meaning": "The way in which a word is used in speech or writing.",
-    "pronunciation": "",
+    "pronunciation": "वर्ड यूसेज",
     "definition": "The way in which a word is used in speech or writing.",
     "example": "Studying word usage in multiple texts helps clarify the meaning and range of an unfamiliar word.",
     "category": "Context",
-    "subCategory": "Context"
+    "subCategory": "Context",
+    "exampleHindi": "एकाधिक पाठों में शब्द उपयोग का अध्ययन करने से किसी अपरिचित शब्द के अर्थ और सीमा को स्पष्ट करने में मदद मिलती है।"
   }
 ]

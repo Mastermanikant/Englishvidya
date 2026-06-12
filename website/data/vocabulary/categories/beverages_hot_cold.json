@@ -2,7 +2,7 @@
   {
     "word": "Americano",
     "meaning": "Espresso coffee diluted with hot water.",
-    "pronunciation": "",
+    "pronunciation": "अमेरिकनों",
     "definition": "Espresso coffee diluted with hot water.",
     "example": "",
     "category": "Beverages (Hot & Cold)",
@@ -11,7 +11,7 @@
   {
     "word": "Beer",
     "meaning": "Alcoholic drink made from fermented malt flavored with hops.",
-    "pronunciation": "",
+    "pronunciation": "बियर",
     "definition": "Alcoholic drink made from fermented malt flavored with hops.",
     "example": "",
     "category": "Beverages (Hot & Cold)",
@@ -20,7 +20,7 @@
   {
     "word": "Broth",
     "meaning": "Savory liquid made by simmering bones, meat, or vegetables.",
-    "pronunciation": "",
+    "pronunciation": "ब्रोथ",
     "definition": "Savory liquid made by simmering bones, meat, or vegetables.",
     "example": "",
     "category": "Beverages (Hot & Cold)",
@@ -29,7 +29,7 @@
   {
     "word": "Cappuccino",
     "meaning": "Coffee made with milk that has been frothed up with steam.",
-    "pronunciation": "",
+    "pronunciation": "कैपेचीनो",
     "definition": "Coffee made with milk that has been frothed up with steam.",
     "example": "",
     "category": "Beverages (Hot & Cold)",
@@ -38,7 +38,7 @@
   {
     "word": "Chai",
     "meaning": "Tea made by boiling tea leaves with milk, sugar, and spices.",
-    "pronunciation": "",
+    "pronunciation": "चाय",
     "definition": "Tea made by boiling tea leaves with milk, sugar, and spices.",
     "example": "",
     "category": "Beverages (Hot & Cold)",
@@ -47,7 +47,7 @@
   {
     "word": "Cocktail",
     "meaning": "Mixed alcoholic drink.",
-    "pronunciation": "",
+    "pronunciation": "कॉकटेल",
     "definition": "Mixed alcoholic drink.",
     "example": "",
     "category": "Beverages (Hot & Cold)",
@@ -65,7 +65,7 @@
   {
     "word": "Energy drink",
     "meaning": "Beverage containing stimulant compounds like caffeine.",
-    "pronunciation": "",
+    "pronunciation": "एनर्जी ड्रिंक",
     "definition": "Beverage containing stimulant compounds like caffeine.",
     "example": "",
     "category": "Beverages (Hot & Cold)",
@@ -74,7 +74,7 @@
   {
     "word": "Espresso",
     "meaning": "Strong black coffee made by forcing steam through ground coffee beans.",
-    "pronunciation": "",
+    "pronunciation": "एस्प्रेसो",
     "definition": "Strong black coffee made by forcing steam through ground coffee beans.",
     "example": "",
     "category": "Beverages (Hot & Cold)",
@@ -83,16 +83,17 @@
   {
     "word": "HERBAL TEA",
     "meaning": "A beverage made from the infusion of herbs, spices, or other plant material in hot water, typically caffeine-free.",
-    "pronunciation": "",
+    "pronunciation": "हर्बल टिया",
     "definition": "An infusion made from herbs or spices in hot water.",
     "example": "Drinking chamomile herbal tea before bed helps calm the nervous system and prepare the body for sleep.",
     "category": "Beverages (Hot & Cold)",
-    "subCategory": "Emotions, Feelings & Wellness"
+    "subCategory": "Emotions, Feelings & Wellness",
+    "exampleHindi": "सोने से पहले कैमोमाइल हर्बल चाय पीने से तंत्रिका तंत्र को शांत करने और शरीर को नींद के लिए तैयार करने में मदद मिलती है।"
   },
   {
     "word": "Hot chocolate",
     "meaning": "A hot drink made with milk and chocolate or cocoa powder.",
-    "pronunciation": "",
+    "pronunciation": "हॉट चॉकलेट",
     "definition": "A hot drink made with milk and chocolate or cocoa powder.",
     "example": "",
     "category": "Beverages (Hot & Cold)",
@@ -101,7 +102,7 @@
   {
     "word": "Hot cider",
     "meaning": "Heated apple cider, often spiced.",
-    "pronunciation": "",
+    "pronunciation": "हॉट साइडर",
     "definition": "Heated apple cider, often spiced.",
     "example": "",
     "category": "Beverages (Hot & Cold)",
@@ -110,7 +111,7 @@
   {
     "word": "Iced coffee",
     "meaning": "Chilled coffee beverage.",
-    "pronunciation": "",
+    "pronunciation": "आइस्ड कॉफ़ी",
     "definition": "Chilled coffee beverage.",
     "example": "",
     "category": "Beverages (Hot & Cold)",
@@ -119,7 +120,7 @@
   {
     "word": "Iced tea",
     "meaning": "Chilled tea served with ice.",
-    "pronunciation": "",
+    "pronunciation": "आइस्ड टिया",
     "definition": "Chilled tea served with ice.",
     "example": "",
     "category": "Beverages (Hot & Cold)",
@@ -137,7 +138,7 @@
   {
     "word": "Latte",
     "meaning": "Coffee made with espresso and hot steamed milk.",
-    "pronunciation": "",
+    "pronunciation": "लट्टे",
     "definition": "Coffee made with espresso and hot steamed milk.",
     "example": "",
     "category": "Beverages (Hot & Cold)",
@@ -155,7 +156,7 @@
   {
     "word": "Macchiato",
     "meaning": "Espresso coffee with a dash of frothy steamed milk.",
-    "pronunciation": "",
+    "pronunciation": "मच्छियतो",
     "definition": "Espresso coffee with a dash of frothy steamed milk.",
     "example": "",
     "category": "Beverages (Hot & Cold)",
@@ -164,7 +165,7 @@
   {
     "word": "Matcha",
     "meaning": "Powdered green tea leaves dissolved in hot water.",
-    "pronunciation": "",
+    "pronunciation": "मचा",
     "definition": "Powdered green tea leaves dissolved in hot water.",
     "example": "",
     "category": "Beverages (Hot & Cold)",
@@ -182,7 +183,7 @@
   {
     "word": "Mocha",
     "meaning": "Coffee flavored with chocolate.",
-    "pronunciation": "",
+    "pronunciation": "मोचा",
     "definition": "Coffee flavored with chocolate.",
     "example": "",
     "category": "Beverages (Hot & Cold)",
@@ -191,7 +192,7 @@
   {
     "word": "Mocktail",
     "meaning": "Non-alcoholic mixed drink.",
-    "pronunciation": "",
+    "pronunciation": "मॉकटेल",
     "definition": "Non-alcoholic mixed drink.",
     "example": "",
     "category": "Beverages (Hot & Cold)",
@@ -200,7 +201,7 @@
   {
     "word": "Mulled wine",
     "meaning": "Red wine heated with various mulling spices.",
-    "pronunciation": "",
+    "pronunciation": "मुल्लेड वाइन",
     "definition": "Red wine heated with various mulling spices.",
     "example": "",
     "category": "Beverages (Hot & Cold)",
@@ -209,7 +210,7 @@
   {
     "word": "Smoothie",
     "meaning": "Thick drink of fresh fruit pureed with milk or yogurt.",
-    "pronunciation": "",
+    "pronunciation": "स्मूथी",
     "definition": "Thick drink of fresh fruit pureed with milk or yogurt.",
     "example": "",
     "category": "Beverages (Hot & Cold)",
@@ -218,7 +219,7 @@
   {
     "word": "Soda",
     "meaning": "Carbonated sweet drink.",
-    "pronunciation": "",
+    "pronunciation": "सोडा",
     "definition": "Carbonated sweet drink.",
     "example": "",
     "category": "Beverages (Hot & Cold)",
@@ -227,7 +228,7 @@
   {
     "word": "Sparkling water",
     "meaning": "Water containing dissolved carbon dioxide gas.",
-    "pronunciation": "",
+    "pronunciation": "स्पार्कलिंग वाटर",
     "definition": "Water containing dissolved carbon dioxide gas.",
     "example": "",
     "category": "Beverages (Hot & Cold)",
@@ -236,7 +237,7 @@
   {
     "word": "Sports drink",
     "meaning": "Beverage designed to replace water and electrolytes.",
-    "pronunciation": "",
+    "pronunciation": "स्पोर्ट्स ड्रिंक",
     "definition": "Beverage designed to replace water and electrolytes.",
     "example": "",
     "category": "Beverages (Hot & Cold)",
@@ -263,7 +264,7 @@
   {
     "word": "Wine",
     "meaning": "Alcoholic drink made from fermented grape juice.",
-    "pronunciation": "",
+    "pronunciation": "वाइन",
     "definition": "Alcoholic drink made from fermented grape juice.",
     "example": "",
     "category": "Beverages (Hot & Cold)",

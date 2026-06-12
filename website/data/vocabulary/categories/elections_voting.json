@@ -2,307 +2,341 @@
   {
     "word": "Absentee Ballot",
     "meaning": "A ballot that allows a voter to vote by mail or electronically if they cannot go to a polling station on election day.",
-    "pronunciation": "",
+    "pronunciation": "अब्सेंटी बैलट",
     "definition": "A ballot that allows a voter to vote by mail or electronically if they cannot go to a polling station on election day.",
     "example": "Since he was studying abroad, he had to request an absentee ballot to vote in his home country's election.",
     "category": "Elections & Voting",
-    "subCategory": "Elections & Voting"
+    "subCategory": "Elections & Voting",
+    "exampleHindi": "चूँकि वह विदेश में पढ़ रहे थे, इसलिए उन्हें अपने देश के चुनाव में मतदान करने के लिए अनुपस्थित मतपत्र का अनुरोध करना पड़ा।"
   },
   {
     "word": "Ballot",
     "meaning": "A sheet of paper or electronic screen used to cast a vote in an election.",
-    "pronunciation": "",
+    "pronunciation": "बैलट",
     "definition": "A sheet of paper or electronic screen used to cast a vote in an election.",
     "example": "She marked her choices on the paper ballot and slipped it into the box.",
     "category": "Elections & Voting",
-    "subCategory": "Elections & Voting"
+    "subCategory": "Elections & Voting",
+    "exampleHindi": "उसने मतपत्र पर अपनी पसंद अंकित की और उसे बॉक्स में डाल दिया।"
   },
   {
     "word": "Ballot Box",
     "meaning": "A locked box where voters place their completed voting papers.",
-    "pronunciation": "",
+    "pronunciation": "बैलट बॉक्स",
     "definition": "A locked box where voters place their completed voting papers.",
     "example": "At the end of the day, the ballot boxes were collected and taken to a secure location for counting.",
     "category": "Elections & Voting",
-    "subCategory": "Elections & Voting"
+    "subCategory": "Elections & Voting",
+    "exampleHindi": "दिन के अंत में, मतपेटियों को एकत्र किया गया और गिनती के लिए सुरक्षित स्थान पर ले जाया गया।"
   },
   {
     "word": "Ballot Measure",
     "meaning": "A proposed law or amendment that is placed on a ballot for voters to approve or reject.",
-    "pronunciation": "",
+    "pronunciation": "बैलट मैसूर",
     "definition": "A proposed law or amendment that is placed on a ballot for voters to approve or reject.",
     "example": "Voters approved the ballot measure to fund public parks through a small sales tax increase.",
     "category": "Elections & Voting",
-    "subCategory": "Elections & Voting"
+    "subCategory": "Elections & Voting",
+    "exampleHindi": "मतदाताओं ने एक छोटी बिक्री कर वृद्धि के माध्यम से सार्वजनिक पार्कों को वित्त पोषित करने के लिए मतपत्र उपाय को मंजूरी दे दी।"
   },
   {
     "word": "Campaign",
     "meaning": "A planned series of activities, like rallies and advertisements, to help a candidate win an election.",
-    "pronunciation": "",
+    "pronunciation": "कैंपेन",
     "definition": "à¤…à¤­à¤¿à¤¯à¤¾à¤¨",
     "example": "The mayor launched his campaign with a speech promising to lower taxes and improve schools.",
     "category": "Elections & Voting",
-    "subCategory": "Elections & Voting"
+    "subCategory": "Elections & Voting",
+    "exampleHindi": "मेयर ने अपने अभियान की शुरुआत एक भाषण के साथ की जिसमें करों को कम करने और स्कूलों में सुधार करने का वादा किया गया।"
   },
   {
     "word": "Candidate",
     "meaning": "A person who competes in an election to win a political office.",
-    "pronunciation": "",
+    "pronunciation": "कैंडिडेट",
     "definition": "A person who competes in an election to win a political office.",
     "example": "The candidates participated in a debate to explain their plans for the city's economy.",
     "category": "Elections & Voting",
-    "subCategory": "Elections & Voting"
+    "subCategory": "Elections & Voting",
+    "exampleHindi": "उम्मीदवारों ने शहर की अर्थव्यवस्था के लिए अपनी योजनाओं को समझाने के लिए एक बहस में भाग लिया।"
   },
   {
     "word": "Caucus",
     "meaning": "A meeting of members of a political party to choose candidates, discuss policies, or make decisions.",
-    "pronunciation": "",
+    "pronunciation": "कोकस",
     "definition": "A meeting of members of a political party to choose candidates, discuss policies, or make decisions.",
     "example": "Voters gathered at the local school for the party caucus to select their preferred candidate.",
     "category": "Elections & Voting",
-    "subCategory": "Elections & Voting"
+    "subCategory": "Elections & Voting",
+    "exampleHindi": "मतदाता अपने पसंदीदा उम्मीदवार का चयन करने के लिए पार्टी कॉकस के लिए स्थानीय स्कूल में एकत्र हुए।"
   },
   {
     "word": "Constituency",
     "meaning": "An electoral district or area represented by a specific elected official.",
-    "pronunciation": "",
+    "pronunciation": "कोंस्टीटूएंसी",
     "definition": "An electoral district or area represented by a specific elected official.",
     "example": "The representative promised to build a new hospital in her constituency if she was re-elected.",
     "category": "Elections & Voting",
-    "subCategory": "Elections & Voting"
+    "subCategory": "Elections & Voting",
+    "exampleHindi": "प्रतिनिधि ने दोबारा निर्वाचित होने पर अपने निर्वाचन क्षेत्र में एक नया अस्पताल बनाने का वादा किया।"
   },
   {
     "word": "Disfranchisement",
     "meaning": "The act of taking away a person's or group's right to vote.",
-    "pronunciation": "",
+    "pronunciation": "डिसफ्रैंचीसमेंट",
     "definition": "The act of taking away a person's or group's right to vote.",
     "example": "The new voting laws were criticized as a form of disfranchisement aimed at low-income communities.",
     "category": "Elections & Voting",
-    "subCategory": "Elections & Voting"
+    "subCategory": "Elections & Voting",
+    "exampleHindi": "नए मतदान कानूनों की कम आय वाले समुदायों के लिए मताधिकार के हनन के रूप में आलोचना की गई।"
   },
   {
     "word": "Electioneering",
     "meaning": "Actively working to help a political party or candidate win an election, especially close to or on election day.",
-    "pronunciation": "",
+    "pronunciation": "एलेक्शनेरिंग",
     "definition": "Actively working to help a political party or candidate win an election, especially close to or on election day.",
     "example": "The law bans any electioneering, such as holding campaign signs, within 100 feet of a polling place.",
     "category": "Elections & Voting",
-    "subCategory": "Elections & Voting"
+    "subCategory": "Elections & Voting",
+    "exampleHindi": "कानून किसी भी चुनाव प्रचार पर प्रतिबंध लगाता है, जैसे कि मतदान स्थल के 100 फीट के भीतर अभियान चिन्ह रखना।"
   },
   {
     "word": "Elections Commission",
     "meaning": "An independent organization that manages and monitors elections to make sure they are fair.",
-    "pronunciation": "",
+    "pronunciation": "एलेक्शंस कमीशन",
     "definition": "An independent organization that manages and monitors elections to make sure they are fair.",
     "example": "The elections commission investigated reports of voting machine errors in several districts.",
     "category": "Elections & Voting",
-    "subCategory": "Elections & Voting"
+    "subCategory": "Elections & Voting",
+    "exampleHindi": "चुनाव आयोग ने कई जिलों में वोटिंग मशीनों में गड़बड़ी की रिपोर्ट की जांच की।"
   },
   {
     "word": "Electoral College",
     "meaning": "A group of electors chosen by voters to formally elect the president and vice president in some countries.",
-    "pronunciation": "",
+    "pronunciation": "इलेक्टोरल कॉलेज",
     "definition": "A group of electors chosen by voters to formally elect the president and vice president in some countries.",
     "example": "Although he won the popular vote, he failed to secure enough votes in the Electoral College to become president.",
     "category": "Elections & Voting",
-    "subCategory": "Elections & Voting"
+    "subCategory": "Elections & Voting",
+    "exampleHindi": "हालाँकि उन्होंने लोकप्रिय वोट जीता, लेकिन वे राष्ट्रपति बनने के लिए इलेक्टोरल कॉलेज में पर्याप्त वोट हासिल करने में असफल रहे।"
   },
   {
     "word": "Electoral Roll",
     "meaning": "The official list of people who are registered and allowed to vote in a district.",
-    "pronunciation": "",
+    "pronunciation": "इलेक्टोरल रोल",
     "definition": "The official list of people who are registered and allowed to vote in a district.",
     "example": "Before you can vote, you must make sure your name is registered on the electoral roll.",
     "category": "Elections & Voting",
-    "subCategory": "Elections & Voting"
+    "subCategory": "Elections & Voting",
+    "exampleHindi": "मतदान करने से पहले, आपको यह सुनिश्चित करना होगा कि आपका नाम मतदाता सूची में पंजीकृत है।"
   },
   {
     "word": "Electorate",
     "meaning": "All of the people in a country or region who are registered and eligible to vote in an election.",
-    "pronunciation": "",
+    "pronunciation": "इलेक्टोरेट",
     "definition": "All of the people in a country or region who are registered and eligible to vote in an election.",
     "example": "The candidate spent months traveling the country to win the support of the electorate.",
     "category": "Elections & Voting",
-    "subCategory": "Elections & Voting"
+    "subCategory": "Elections & Voting",
+    "exampleHindi": "मतदाताओं का समर्थन जीतने के लिए उम्मीदवार ने महीनों तक देश भर में यात्रा की।"
   },
   {
     "word": "Exit Poll",
     "meaning": "A survey of voters taken immediately after they leave the polling station, used to predict the winner before official results are ready.",
-    "pronunciation": "",
+    "pronunciation": "एग्जिट पोल्ल",
     "definition": "A survey of voters taken immediately after they leave the polling station, used to predict the winner before official results are ready.",
     "example": "The exit polls suggest a close race, but we must wait for the official vote count.",
     "category": "Elections & Voting",
-    "subCategory": "Elections & Voting"
+    "subCategory": "Elections & Voting",
+    "exampleHindi": "एग्ज़िट पोल में कांटे की टक्कर का अनुमान है, लेकिन हमें आधिकारिक वोटों की गिनती का इंतज़ार करना चाहिए।"
   },
   {
     "word": "General Election",
     "meaning": "A regular election in which voters choose candidates for national or state political offices.",
-    "pronunciation": "",
+    "pronunciation": "जनरल इलेक्शन",
     "definition": "A regular election in which voters choose candidates for national or state political offices.",
     "example": "Citizens will vote for the next president and members of parliament in the general election.",
     "category": "Elections & Voting",
-    "subCategory": "Elections & Voting"
+    "subCategory": "Elections & Voting",
+    "exampleHindi": "आम चुनाव में नागरिक अगले राष्ट्रपति और संसद सदस्यों के लिए मतदान करेंगे।"
   },
   {
     "word": "Gerrymandering",
     "meaning": "Redrawing the boundaries of voting districts in an unfair way to give one political party an advantage.",
-    "pronunciation": "",
+    "pronunciation": "जररीमंडेरिंग",
     "definition": "Redrawing the boundaries of voting districts in an unfair way to give one political party an advantage.",
     "example": "The ruling party was accused of gerrymandering to protect its seats in the upcoming election.",
     "category": "Elections & Voting",
-    "subCategory": "Elections & Voting"
+    "subCategory": "Elections & Voting",
+    "exampleHindi": "सत्तारूढ़ दल पर आगामी चुनाव में अपनी सीटों की रक्षा के लिए हेराफेरी करने का आरोप लगाया गया था।"
   },
   {
     "word": "Incumbent",
     "meaning": "The person who currently holds a political office.",
-    "pronunciation": "",
+    "pronunciation": "इंकमबेंट",
     "definition": "Necessary as a duty or responsibility; the current holder of a role (strong alternative to 'required' or 'current').",
     "example": "It is often difficult for a challenger to defeat an incumbent who has been in office for many years.",
     "category": "Elections & Voting",
-    "subCategory": "Elections & Voting"
+    "subCategory": "Elections & Voting",
+    "exampleHindi": "किसी चुनौती देने वाले के लिए कई वर्षों से पद पर बैठे किसी पदाधिकारी को हराना अक्सर मुश्किल होता है।"
   },
   {
     "word": "Landslide",
     "meaning": "An overwhelming victory in an election where one candidate or party wins by a massive margin.",
-    "pronunciation": "",
+    "pronunciation": "लैंडस्लैड",
     "definition": "",
     "example": "The governor won re-election in a landslide, winning over 75% of the total votes.",
     "category": "Elections & Voting",
-    "subCategory": "Elections & Voting"
+    "subCategory": "Elections & Voting",
+    "exampleHindi": "गवर्नर ने भारी बहुमत से पुनः चुनाव जीता और कुल वोटों में से 75% से अधिक वोट प्राप्त किये।"
   },
   {
     "word": "Nomination",
     "meaning": "The act of officially proposing someone as a candidate for an election or office.",
-    "pronunciation": "",
+    "pronunciation": "नॉमिनेशन",
     "definition": "The act of officially proposing someone as a candidate for an election or office.",
     "example": "The party delegates cheered when the candidate officially accepted the nomination for president.",
     "category": "Elections & Voting",
-    "subCategory": "Elections & Voting"
+    "subCategory": "Elections & Voting",
+    "exampleHindi": "जब उम्मीदवार ने आधिकारिक तौर पर राष्ट्रपति पद के लिए नामांकन स्वीकार कर लिया तो पार्टी प्रतिनिधियों ने खुशी जताई।"
   },
   {
     "word": "Platform",
     "meaning": "A formal statement of the core goals, beliefs, and policies of a political party or candidate.",
-    "pronunciation": "",
+    "pronunciation": "प्लेटफार्म",
     "definition": "à¤®à¤‚à¤š / à¤ªà¥à¤²à¥‡à¤Ÿà¤«à¥‰à¤°à¥à¤®",
     "example": "The candidate's platform focuses heavily on education reform and renewable energy.",
     "category": "Elections & Voting",
-    "subCategory": "Elections & Voting"
+    "subCategory": "Elections & Voting",
+    "exampleHindi": "उम्मीदवार का मंच शिक्षा सुधार और नवीकरणीय ऊर्जा पर बहुत अधिक केंद्रित है।"
   },
   {
     "word": "Plurality",
     "meaning": "Winning the most votes in an election, even if it is not a clear majority (more than 50%).",
-    "pronunciation": "",
+    "pronunciation": "प्लुरलिटी",
     "definition": "Winning the most votes in an election, even if it is not a clear majority (more than 50%).",
     "example": "Because there were four candidates, the winner won by a plurality of 40% of the total votes.",
     "category": "Elections & Voting",
-    "subCategory": "Elections & Voting"
+    "subCategory": "Elections & Voting",
+    "exampleHindi": "चूँकि वहाँ चार उम्मीदवार थे, विजेता कुल मतों के 40% से अधिक मतों से जीता।"
   },
   {
     "word": "Popular Vote",
     "meaning": "The total number of individual votes cast by citizens in an election, rather than the votes of electors.",
-    "pronunciation": "",
+    "pronunciation": "पॉपुलर वोट",
     "definition": "The total number of individual votes cast by citizens in an election, rather than the votes of electors.",
     "example": "She won the popular vote nationwide, but her opponent won the election through the electoral college.",
     "category": "Elections & Voting",
-    "subCategory": "Elections & Voting"
+    "subCategory": "Elections & Voting",
+    "exampleHindi": "उन्होंने देश भर में लोकप्रिय वोट जीता, लेकिन उनके प्रतिद्वंद्वी ने निर्वाचक मंडल के माध्यम से चुनाव जीता।"
   },
   {
     "word": "Primary Election",
     "meaning": "An election held to choose a political party's candidate for the main election.",
-    "pronunciation": "",
+    "pronunciation": "प्राइमरी इलेक्शन",
     "definition": "An election held to choose a political party's candidate for the main election.",
     "example": "She won the primary election and will now represent her party in the general election in November.",
     "category": "Elections & Voting",
-    "subCategory": "Elections & Voting"
+    "subCategory": "Elections & Voting",
+    "exampleHindi": "उन्होंने प्राथमिक चुनाव जीता और अब नवंबर में आम चुनाव में अपनी पार्टी का प्रतिनिधित्व करेंगी।"
   },
   {
     "word": "Referendum",
     "meaning": "A direct vote by the citizens of a country on a specific question or law.",
-    "pronunciation": "",
+    "pronunciation": "रेफेरेंडम",
     "definition": "A direct vote by the citizens of a country on a specific question or law.",
     "example": "The citizens voted in a referendum to decide whether the country should adopt a new constitution.",
     "category": "Elections & Voting",
-    "subCategory": "Elections & Voting"
+    "subCategory": "Elections & Voting",
+    "exampleHindi": "नागरिकों ने जनमत संग्रह में यह निर्णय लेने के लिए मतदान किया कि देश को नया संविधान अपनाना चाहिए या नहीं।"
   },
   {
     "word": "Runoff Election",
     "meaning": "A second election held when no candidate wins the required majority in the first election.",
-    "pronunciation": "",
+    "pronunciation": "रुनोफ़्फ़ इलेक्शन",
     "definition": "A second election held when no candidate wins the required majority in the first election.",
     "example": "Since neither candidate got over 50% of the votes, they will face each other in a runoff election next month.",
     "category": "Elections & Voting",
-    "subCategory": "Elections & Voting"
+    "subCategory": "Elections & Voting",
+    "exampleHindi": "चूँकि किसी भी उम्मीदवार को 50% से अधिक वोट नहीं मिले, वे अगले महीने होने वाले आम चुनाव में एक-दूसरे का सामना करेंगे।"
   },
   {
     "word": "Spoils System",
     "meaning": "The practice of a winning political party giving government jobs to its supporters as a reward.",
-    "pronunciation": "",
+    "pronunciation": "स्पोइलस सिस्टम",
     "definition": "The practice of a winning political party giving government jobs to its supporters as a reward.",
     "example": "The spoils system was replaced by a civil service exam to ensure government jobs were given based on merit.",
     "category": "Elections & Voting",
-    "subCategory": "Elections & Voting"
+    "subCategory": "Elections & Voting",
+    "exampleHindi": "यह सुनिश्चित करने के लिए कि सरकारी नौकरियाँ योग्यता के आधार पर दी जाएँ, लूट प्रणाली को सिविल सेवा परीक्षा से बदल दिया गया।"
   },
   {
     "word": "Straw Poll",
     "meaning": "An unofficial vote taken to see what people think about a candidate or issue before a real election.",
-    "pronunciation": "",
+    "pronunciation": "स्ट्रॉ पोल्ल",
     "definition": "An unofficial vote taken to see what people think about a candidate or issue before a real election.",
     "example": "The party conducted a straw poll at the convention to see which candidate was most popular.",
     "category": "Elections & Voting",
-    "subCategory": "Elections & Voting"
+    "subCategory": "Elections & Voting",
+    "exampleHindi": "पार्टी ने यह देखने के लिए सम्मेलन में एक स्ट्रॉ पोल आयोजित किया कि कौन सा उम्मीदवार सबसे लोकप्रिय है।"
   },
   {
     "word": "Suffrage",
     "meaning": "The legal right to vote in political elections.",
-    "pronunciation": "",
+    "pronunciation": "सुफरागे",
     "definition": "The legal right to vote in political elections.",
     "example": "In the early 20th century, women marched in the streets to fight for suffrage.",
     "category": "Elections & Voting",
-    "subCategory": "Elections & Voting"
+    "subCategory": "Elections & Voting",
+    "exampleHindi": "20वीं सदी की शुरुआत में, महिलाओं ने मताधिकार के लिए लड़ने के लिए सड़कों पर मार्च किया।"
   },
   {
     "word": "Supermajority",
     "meaning": "A majority that is much larger than a simple majority, such as two-thirds (2/3) or three-fifths (3/5), required to pass certain laws.",
-    "pronunciation": "",
+    "pronunciation": "सुपरमजोरिटी",
     "definition": "A majority that is much larger than a simple majority, such as two-thirds (2/3) or three-fifths (3/5), required to pass certain laws.",
     "example": "The senate needs a supermajority of two-thirds to override the president's veto.",
     "category": "Elections & Voting",
-    "subCategory": "Elections & Voting"
+    "subCategory": "Elections & Voting",
+    "exampleHindi": "राष्ट्रपति के वीटो को रद्द करने के लिए सीनेट को दो-तिहाई बहुमत की आवश्यकता है।"
   },
   {
     "word": "Swing State",
     "meaning": "A state where support for different political parties is very similar, so the election outcome is hard to predict.",
-    "pronunciation": "",
+    "pronunciation": "स्विंग स्टेट",
     "definition": "A state where support for different political parties is very similar, so the election outcome is hard to predict.",
     "example": "Both candidates spent a lot of time and money campaigning in the swing state, hoping to win its electoral votes.",
     "category": "Elections & Voting",
-    "subCategory": "Elections & Voting"
+    "subCategory": "Elections & Voting",
+    "exampleHindi": "दोनों उम्मीदवारों ने चुनावी वोट जीतने की उम्मीद में इस महत्वपूर्ण राज्य में प्रचार करने में बहुत समय और पैसा खर्च किया।"
   },
   {
     "word": "Term Limit",
     "meaning": "A legal limit on the number of times a person can be elected to a specific public office.",
-    "pronunciation": "",
+    "pronunciation": "टर्म लिमिट",
     "definition": "A legal limit on the number of times a person can be elected to a specific public office.",
     "example": "The president cannot run for office again because of the country's two-term limit.",
     "category": "Elections & Voting",
-    "subCategory": "Elections & Voting"
+    "subCategory": "Elections & Voting",
+    "exampleHindi": "देश की दो कार्यकाल की सीमा के कारण राष्ट्रपति दोबारा पद के लिए चुनाव नहीं लड़ सकता।"
   },
   {
     "word": "Voter Turnout",
     "meaning": "The percentage of eligible voters who actually participate and vote in an election.",
-    "pronunciation": "",
+    "pronunciation": "वोटर चरणौत",
     "definition": "The percentage of eligible voters who actually participate and vote in an election.",
     "example": "High voter turnout is a sign of strong public interest and active civic engagement.",
     "category": "Elections & Voting",
-    "subCategory": "Elections & Voting"
+    "subCategory": "Elections & Voting",
+    "exampleHindi": "उच्च मतदान प्रतिशत मजबूत सार्वजनिक हित और सक्रिय नागरिक भागीदारी का संकेत है।"
   },
   {
     "word": "Write-In Candidate",
     "meaning": "A candidate whose name is not printed on the ballot but whose name voters can write in to vote for them.",
-    "pronunciation": "",
+    "pronunciation": "Write-In कैंडिडेट",
     "definition": "A candidate whose name is not printed on the ballot but whose name voters can write in to vote for them.",
     "example": "Although she was not on the official ballot, she ran as a write-in candidate and received thousands of votes.",
     "category": "Elections & Voting",
-    "subCategory": "Elections & Voting"
+    "subCategory": "Elections & Voting",
+    "exampleHindi": "हालाँकि वह आधिकारिक मतपत्र पर नहीं थीं, फिर भी वह लिखित उम्मीदवार के रूप में दौड़ीं और उन्हें हजारों वोट मिले।"
   }
 ]

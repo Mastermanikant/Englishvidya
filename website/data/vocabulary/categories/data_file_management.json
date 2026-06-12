@@ -2,217 +2,241 @@
   {
     "word": "Archive",
     "meaning": "To move completed or historical data to a separate, long-term storage location without deleting it (strong alternative to 'hide old files' or 'save in a safe place').",
-    "pronunciation": "",
+    "pronunciation": "आर्काइव",
     "definition": "To store old messages or files in a separate space to keep active areas organized.",
     "example": "Instead of deleting old project folders, we archive them to keep the workspace organized.",
     "category": "Data & File Management",
-    "subCategory": "Data & File Management"
+    "subCategory": "Data & File Management",
+    "exampleHindi": "पुराने प्रोजेक्ट फ़ोल्डरों को हटाने के बजाय, हम कार्यक्षेत्र को व्यवस्थित रखने के लिए उन्हें संग्रहीत करते हैं।"
   },
   {
     "word": "Buffer",
     "meaning": "To temporarily hold data in computer memory while transferring it from one place to another, preventing interruptions (strong alternative to 'load ahead of time' or 'hold data').",
-    "pronunciation": "",
+    "pronunciation": "बफर",
     "definition": "To temporarily hold data in computer memory while transferring it from one place to another, preventing interruptions (strong alternative to 'load ahead of time' or 'hold data').",
     "example": "The video player will buffer a few seconds of video to ensure smooth playback.",
     "category": "Data & File Management",
-    "subCategory": "Data & File Management"
+    "subCategory": "Data & File Management",
+    "exampleHindi": "सुचारू प्लेबैक सुनिश्चित करने के लिए वीडियो प्लेयर कुछ सेकंड के वीडियो को बफर करेगा।"
   },
   {
     "word": "Clone",
     "meaning": "To make a complete, identical copy of a software project, repository, or virtual environment (strong alternative to 'copy a whole setup' or 'make a twin').",
-    "pronunciation": "",
+    "pronunciation": "क्लोन",
     "definition": "To make a complete, identical copy of a software project, repository, or virtual environment (strong alternative to 'copy a whole setup' or 'make a twin').",
     "example": "Developers need to clone the repository to their local machines to begin coding.",
     "category": "Data & File Management",
-    "subCategory": "Data & File Management"
+    "subCategory": "Data & File Management",
+    "exampleHindi": "कोडिंग शुरू करने के लिए डेवलपर्स को रिपॉजिटरी को अपनी स्थानीय मशीनों पर क्लोन करना होगा।"
   },
   {
     "word": "Compress",
     "meaning": "To reduce the file size of data or media using an algorithm, making it easier to send or store (strong alternative to 'make file size smaller' or 'zip a file').",
-    "pronunciation": "",
+    "pronunciation": "कंप्रेस",
     "definition": "To reduce the file size of data or media using an algorithm, making it easier to send or store (strong alternative to 'make file size smaller' or 'zip a file').",
     "example": "You should compress the high-resolution images before uploading them to the web server.",
     "category": "Data & File Management",
-    "subCategory": "Data & File Management"
+    "subCategory": "Data & File Management",
+    "exampleHindi": "आपको उच्च-रिज़ॉल्यूशन छवियों को वेब सर्वर पर अपलोड करने से पहले संपीड़ित करना चाहिए।"
   },
   {
     "word": "Consolidate",
     "meaning": "To combine multiple sources of data, files, or information into a single, unified database or report (strong alternative to 'put spreadsheets together' or 'combine data').",
-    "pronunciation": "",
+    "pronunciation": "कंसोलिडेट",
     "definition": "To make something physically stronger or more solid; to combine into a single more effective unit.",
     "example": "We will consolidate all customer feedback spreadsheets into one central database.",
     "category": "Data & File Management",
-    "subCategory": "Data & File Management"
+    "subCategory": "Data & File Management",
+    "exampleHindi": "हम सभी ग्राहक फीडबैक स्प्रेडशीट को एक केंद्रीय डेटाबेस में समेकित करेंगे।"
   },
   {
     "word": "Decompress",
     "meaning": "To unpack a compressed file or archive back into its original size and format (strong alternative to 'unzip' or 'make file normal size').",
-    "pronunciation": "",
+    "pronunciation": "देकम्प्रेस",
     "definition": "To unpack a compressed file or archive back into its original size and format (strong alternative to 'unzip' or 'make file normal size').",
     "example": "The utility will decompress the backup files automatically during restoration.",
     "category": "Data & File Management",
-    "subCategory": "Data & File Management"
+    "subCategory": "Data & File Management",
+    "exampleHindi": "पुनर्स्थापना के दौरान उपयोगिता स्वचालित रूप से बैकअप फ़ाइलों को डीकंप्रेस कर देगी।"
   },
   {
     "word": "Duplicate",
     "meaning": "To create an exact replica of a file, folder, or database record in the same directory or system (strong alternative to 'copy-paste' or 'make a copy').",
-    "pronunciation": "",
+    "pronunciation": "डुप्लीकेट",
     "definition": "To create an exact replica of a file, folder, or database record in the same directory or system (strong alternative to 'copy-paste' or 'make a copy').",
     "example": "Please duplicate the template folder before you begin customizing it for the new client.",
     "category": "Data & File Management",
-    "subCategory": "Data & File Management"
+    "subCategory": "Data & File Management",
+    "exampleHindi": "नए क्लाइंट के लिए इसे अनुकूलित करना शुरू करने से पहले कृपया टेम्पलेट फ़ोल्डर की डुप्लिकेट बनाएं।"
   },
   {
     "word": "Export",
     "meaning": "To convert and transfer data from a software application into a file format compatible with other software (strong alternative to 'save file as something else' or 'send data out').",
-    "pronunciation": "",
+    "pronunciation": "एक्सपोर्ट",
     "definition": "To convert and transfer data from a software application into a file format compatible with other software (strong alternative to 'save file as something else' or 'send data out').",
     "example": "Once you finish editing the spreadsheet, export it as a PDF to share with the client.",
     "category": "Data & File Management",
-    "subCategory": "Data & File Management"
+    "subCategory": "Data & File Management",
+    "exampleHindi": "एक बार जब आप स्प्रेडशीट का संपादन समाप्त कर लें, तो इसे क्लाइंट के साथ साझा करने के लिए पीडीएफ के रूप में निर्यात करें।"
   },
   {
     "word": "Extract",
     "meaning": "To retrieve and decompress specific files from a compressed archive, or to pull specific data from a database (strong alternative to 'unzip' or 'pull out data').",
-    "pronunciation": "",
+    "pronunciation": "एक्सट्रेक्ट",
     "definition": "To retrieve and decompress specific files from a compressed archive, or to pull specific data from a database (strong alternative to 'unzip' or 'pull out data').",
     "example": "First extract the ZIP folder to your desktop, then run the installer.",
     "category": "Data & File Management",
-    "subCategory": "Data & File Management"
+    "subCategory": "Data & File Management",
+    "exampleHindi": "सबसे पहले ज़िप फ़ोल्डर को अपने डेस्कटॉप पर निकालें, फिर इंस्टॉलर चलाएँ।"
   },
   {
     "word": "Filter",
     "meaning": "To narrow down a list of data or search results by applying specific conditions or criteria (strong alternative to 'narrow down search' or 'sort out').",
-    "pronunciation": "",
+    "pronunciation": "फ़िल्टर",
     "definition": "An effect applied to an image or video to alter its appearance.",
     "example": "You can filter the customer list to show only those who bought a product in the last month.",
     "category": "Data & File Management",
-    "subCategory": "Data & File Management"
+    "subCategory": "Data & File Management",
+    "exampleHindi": "आप केवल उन लोगों को दिखाने के लिए ग्राहक सूची फ़िल्टर कर सकते हैं जिन्होंने पिछले महीने कोई उत्पाद खरीदा था।"
   },
   {
     "word": "Import",
     "meaning": "To transfer data from an external file or format into a software application (strong alternative to 'bring data in' or 'load a file').",
-    "pronunciation": "",
+    "pronunciation": "इम्पोर्ट",
     "definition": "To transfer data from an external file or format into a software application (strong alternative to 'bring data in' or 'load a file').",
     "example": "You can import your contact list directly from a CSV file into the CRM system.",
     "category": "Data & File Management",
-    "subCategory": "Data & File Management"
+    "subCategory": "Data & File Management",
+    "exampleHindi": "आप अपनी संपर्क सूची को CSV फ़ाइल से सीधे CRM सिस्टम में आयात कर सकते हैं।"
   },
   {
     "word": "Index",
     "meaning": "To organize and catalog database records or web pages to optimize search speed and retrieval efficiency (strong alternative to 'make database search fast' or 'make a search list').",
-    "pronunciation": "",
+    "pronunciation": "इंडेक्स",
     "definition": "To organize and catalog database records or web pages to optimize search speed and retrieval efficiency (strong alternative to 'make database search fast' or 'make a search list').",
     "example": "Search engines index new web pages so they can be retrieved quickly by searchers.",
     "category": "Data & File Management",
-    "subCategory": "Data & File Management"
+    "subCategory": "Data & File Management",
+    "exampleHindi": "खोज इंजन नए वेब पेजों को अनुक्रमित करते हैं ताकि खोजकर्ताओं द्वारा उन्हें शीघ्रता से पुनर्प्राप्त किया जा सके।"
   },
   {
     "word": "Ingest",
     "meaning": "To import and absorb large datasets into a database or data warehouse for processing and analysis (strong alternative to 'bring lots of data in' or 'load huge files').",
-    "pronunciation": "",
+    "pronunciation": "यंगेस्ट",
     "definition": "To import and absorb large datasets into a database or data warehouse for processing and analysis (strong alternative to 'bring lots of data in' or 'load huge files').",
     "example": "The analytics platform is designed to ingest millions of data points per second.",
     "category": "Data & File Management",
-    "subCategory": "Data & File Management"
+    "subCategory": "Data & File Management",
+    "exampleHindi": "एनालिटिक्स प्लेटफ़ॉर्म को प्रति सेकंड लाखों डेटा पॉइंट ग्रहण करने के लिए डिज़ाइन किया गया है।"
   },
   {
     "word": "Map",
     "meaning": "To link database fields or values from one system to corresponding fields in another system (strong alternative to 'match up lists' or 'connect fields').",
-    "pronunciation": "",
+    "pronunciation": "मैप",
     "definition": "A diagrammatic representation of an area of land or sea.",
     "example": "You need to map the customer name field in the CSV file to the CRM's name field.",
     "category": "Data & File Management",
-    "subCategory": "Data & File Management"
+    "subCategory": "Data & File Management",
+    "exampleHindi": "आपको CSV फ़ाइल में ग्राहक नाम फ़ील्ड को CRM के नाम फ़ील्ड में मैप करना होगा।"
   },
   {
     "word": "Migrate",
     "meaning": "To move data, applications, or entire operating environments from one platform, server, or system to another (strong alternative to 'move files over' or 'transfer databases').",
-    "pronunciation": "",
+    "pronunciation": "माइग्रेट",
     "definition": "To move data, applications, or entire operating environments from one platform, server, or system to another (strong alternative to 'move files over' or 'transfer databases').",
     "example": "The company plans to migrate its local database to the cloud next month.",
     "category": "Data & File Management",
-    "subCategory": "Data & File Management"
+    "subCategory": "Data & File Management",
+    "exampleHindi": "कंपनी की योजना अगले महीने अपने स्थानीय डेटाबेस को क्लाउड पर स्थानांतरित करने की है।"
   },
   {
     "word": "Overwrite",
     "meaning": "To write new data over existing data, completely replacing the old file or database record (strong alternative to 'save on top of' or 'replace old file').",
-    "pronunciation": "",
+    "pronunciation": "ओवरव्रिते",
     "definition": "To write new data over existing data, completely replacing the old file or database record (strong alternative to 'save on top of' or 'replace old file').",
     "example": "Be careful not to overwrite the original document with your changes.",
     "category": "Data & File Management",
-    "subCategory": "Data & File Management"
+    "subCategory": "Data & File Management",
+    "exampleHindi": "सावधान रहें कि अपने परिवर्तनों के साथ मूल दस्तावेज़ को अधिलेखित न करें।"
   },
   {
     "word": "Parse",
     "meaning": "To analyze a string of code, file, or text by breaking it down into component parts to understand its structure (strong alternative to 'read through text' or 'look through code').",
-    "pronunciation": "",
+    "pronunciation": "पार्स",
     "definition": "To analyze a string of code, file, or text by breaking it down into component parts to understand its structure (strong alternative to 'read through text' or 'look through code').",
     "example": "The script will parse the raw JSON data and display it in a user-friendly table.",
     "category": "Data & File Management",
-    "subCategory": "Data & File Management"
+    "subCategory": "Data & File Management",
+    "exampleHindi": "स्क्रिप्ट कच्चे JSON डेटा को पार्स करेगी और इसे उपयोगकर्ता के अनुकूल तालिका में प्रदर्शित करेगी।"
   },
   {
     "word": "Partition",
     "meaning": "To divide a storage drive or large database into distinct, independent sections for better management (strong alternative to 'split a drive' or 'cut database in half').",
-    "pronunciation": "",
+    "pronunciation": "पार्टीशन",
     "definition": "To divide a storage drive or large database into distinct, independent sections for better management (strong alternative to 'split a drive' or 'cut database in half').",
     "example": "We will partition the hard drive to separate the operating system from personal files.",
     "category": "Data & File Management",
-    "subCategory": "Data & File Management"
+    "subCategory": "Data & File Management",
+    "exampleHindi": "हम ऑपरेटिंग सिस्टम को व्यक्तिगत फ़ाइलों से अलग करने के लिए हार्ड ड्राइव का विभाजन करेंगे।"
   },
   {
     "word": "Purge",
     "meaning": "To permanently and irreversibly remove unwanted data, files, or database records to free up space (strong alternative to 'delete completely' or 'wipe out').",
-    "pronunciation": "",
+    "pronunciation": "परज",
     "definition": "To permanently and irreversibly remove unwanted data, files, or database records to free up space (strong alternative to 'delete completely' or 'wipe out').",
     "example": "The system is configured to purge deleted emails after thirty days.",
     "category": "Data & File Management",
-    "subCategory": "Data & File Management"
+    "subCategory": "Data & File Management",
+    "exampleHindi": "सिस्टम को तीस दिनों के बाद हटाए गए ईमेल को शुद्ध करने के लिए कॉन्फ़िगर किया गया है।"
   },
   {
     "word": "Query",
     "meaning": "A formal request for specific information from a database using structured commands (strong alternative to 'search database' or 'ask database for info').",
-    "pronunciation": "",
+    "pronunciation": "क्वेरी",
     "definition": "A formal request for specific information from a database using structured commands (strong alternative to 'search database' or 'ask database for info').",
     "example": "You can run a SQL query to find out how many users signed up last month.",
     "category": "Data & File Management",
-    "subCategory": "Data & File Management"
+    "subCategory": "Data & File Management",
+    "exampleHindi": "आप यह जानने के लिए SQL क्वेरी चला सकते हैं कि पिछले महीने कितने उपयोगकर्ताओं ने साइन अप किया था।"
   },
   {
     "word": "Replicate",
     "meaning": "To continuously copy and synchronize database changes across multiple servers to ensure high availability (strong alternative to 'copy databases automatically').",
-    "pronunciation": "",
+    "pronunciation": "रेप्लिकेट",
     "definition": "To copy, reproduce, or repeat an experiment to verify results (replaces the conversational 'do again' or 'copy').",
     "example": "The system replicates data across three separate server locations to prevent downtime.",
     "category": "Data & File Management",
-    "subCategory": "Data & File Management"
+    "subCategory": "Data & File Management",
+    "exampleHindi": "सिस्टम डाउनटाइम को रोकने के लिए तीन अलग-अलग सर्वर स्थानों पर डेटा की प्रतिकृति बनाता है।"
   },
   {
     "word": "Retrieve",
     "meaning": "To search for and successfully recall specific data or files from a storage system or database (strong alternative to 'find a file' or 'search and get').",
-    "pronunciation": "",
+    "pronunciation": "रेट्रिएवे",
     "definition": "To search for and successfully recall specific data or files from a storage system or database (strong alternative to 'find a file' or 'search and get').",
     "example": "The search tool makes it easy to retrieve documents using keywords.",
     "category": "Data & File Management",
-    "subCategory": "Data & File Management"
+    "subCategory": "Data & File Management",
+    "exampleHindi": "खोज उपकरण कीवर्ड का उपयोग करके दस्तावेज़ पुनर्प्राप्त करना आसान बनाता है।"
   },
   {
     "word": "Sort",
     "meaning": "To arrange data, files, or records in a specific alphabetical, numerical, or chronological order (strong alternative to 'put in order' or 'line up').",
-    "pronunciation": "",
+    "pronunciation": "सॉर्ट",
     "definition": "To arrange data, files, or records in a specific alphabetical, numerical, or chronological order (strong alternative to 'put in order' or 'line up').",
     "example": "You can sort the files by date modified to find the most recent ones.",
     "category": "Data & File Management",
-    "subCategory": "Data & File Management"
+    "subCategory": "Data & File Management",
+    "exampleHindi": "आप नवीनतम फ़ाइलों को खोजने के लिए संशोधित तिथि के अनुसार फ़ाइलों को क्रमबद्ध कर सकते हैं।"
   },
   {
     "word": "Truncate",
     "meaning": "To shorten a data string or file by cutting off its end after a specific limit (strong alternative to 'cut off' or 'shorten').",
-    "pronunciation": "",
+    "pronunciation": "ट्रंकेट",
     "definition": "To shorten a data string or file by cutting off its end after a specific limit (strong alternative to 'cut off' or 'shorten').",
     "example": "The system will truncate usernames that exceed fifteen characters.",
     "category": "Data & File Management",
-    "subCategory": "Data & File Management"
+    "subCategory": "Data & File Management",
+    "exampleHindi": "सिस्टम पन्द्रह अक्षरों से अधिक वाले उपयोक्तानामों को काट देगा।"
   }
 ]
