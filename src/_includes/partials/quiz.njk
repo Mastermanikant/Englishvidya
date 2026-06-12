@@ -1,0 +1,83 @@
+<style>
+.quiz-wrapper { margin: 2rem 0; font-family: var(--font-sans); }
+.quiz-header { display: flex; justify-content: space-between; background: var(--bg-card); padding: 15px; border-radius: 8px; border-bottom: 3px solid #38bdf8; font-weight: bold; margin-bottom: 20px; font-size: 0.95rem; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+.quiz-question { background: var(--bg-card); border: 1px solid var(--border-color); border-radius: 8px; padding: 20px; margin-bottom: 20px; }
+.quiz-question h4 { margin-top: 0; color: var(--text-color); font-size: 1.1rem; margin-bottom: 15px; line-height: 1.5; }
+.quiz-option { display: block; width: 100%; text-align: left; padding: 12px 15px; margin-bottom: 10px; background: transparent; border: 2px solid var(--border-color); border-radius: 6px; color: var(--text-color); cursor: pointer; transition: all 0.2s; font-size: 1rem; }
+.quiz-option:hover:not(:disabled) { border-color: #38bdf8; background: rgba(56, 189, 248, 0.05); }
+.quiz-option.correct { background: rgba(34, 197, 94, 0.1); border-color: #22c55e; color: #22c55e; font-weight: bold; }
+.quiz-option.wrong { background: rgba(239, 68, 68, 0.1); border-color: #ef4444; color: #ef4444; }
+.quiz-option:disabled { cursor: default; }
+.quiz-explanation { margin-top: 15px; padding: 12px; background: rgba(56, 189, 248, 0.1); border-left: 4px solid #38bdf8; border-radius: 4px; font-size: 0.95rem; color: var(--text-color); animation: fadeIn 0.3s; line-height: 1.5; }
+.quiz-submit { background: #38bdf8; color: #0f172a; border: none; padding: 12px 24px; font-size: 1.1rem; font-weight: bold; border-radius: 6px; cursor: pointer; display: block; width: 100%; text-align: center; transition: background 0.2s; margin-top: 20px; }
+.quiz-submit:hover { background: #0284c7; color: white; }
+.quiz-result { background: var(--bg-card); padding: 20px; border-radius: 8px; text-align: center; margin-top: 20px; border: 2px solid #22c55e; }
+.quiz-result h3 { color: #22c55e; margin-bottom: 10px; font-size: 1.5rem; }
+@keyframes fadeIn { from { opacity: 0; transform: translateY(-5px); } to { opacity: 1; transform: translateY(0); } }
+</style>
+<div class="quiz-wrapper" x-data="quizComponent({{ quizData | dump | safe }})">
+    <div class="quiz-header">
+        <div>📝 Question <span x-text="attempted"></span>/<span x-text="questions.length"></span></div>
+        <div>✅ <span x-text="right" style="color: #22c55e;"></span> | ❌ <span x-text="wrong" style="color: #ef4444;"></span></div>
+    </div>
+    <template x-for="(q, qIndex) in questions" :key="qIndex">
+        <div class="quiz-question" x-show="!submitted">
+            <h4 x-text="q.question"></h4>
+            <div class="quiz-options">
+                <template x-for="(opt, optIndex) in q.options" :key="optIndex">
+                    <button class="quiz-option" 
+                            @click="selectOption(qIndex, optIndex)"
+                            :disabled="q.answered"
+                            :class="{
+                                'correct': q.answered && optIndex === q.correct,
+                                'wrong': q.answered && q.selected === optIndex && optIndex !== q.correct
+                            }">
+                        <span x-text="opt"></span>
+                        <span x-show="q.answered && optIndex === q.correct" style="float: right;">✅</span>
+                        <span x-show="q.answered && q.selected === optIndex && optIndex !== q.correct" style="float: right;">❌</span>
+                    </button>
+                </template>
+            </div>
+            <div class="quiz-explanation" x-show="q.answered" x-html="q.explanation"></div>
+        </div>
+    </template>
+    <button class="quiz-submit" x-show="attempted === questions.length && !submitted" @click="submitted = true">Submit Quiz to see Final Result</button>
+    <div class="quiz-result" x-show="submitted" style="display: none;">
+        <h3>🏆 Quiz Completed!</h3>
+        <p style="font-size: 1.2rem; margin-bottom: 10px;">Your Score: <strong x-text="right"></strong> out of <strong x-text="questions.length"></strong></p>
+        <button class="quiz-submit" @click="resetQuiz()" style="width: auto; padding: 8px 16px; font-size: 1rem; margin: 0 auto; display: inline-block;">Try Again</button>
+    </div>
+</div>
+<script>
+document.addEventListener('alpine:init', () => {
+    Alpine.data('quizComponent', (initialData) => ({
+        questions: initialData.map(q => ({ ...q, answered: false, selected: null })),
+        attempted: 0,
+        right: 0,
+        wrong: 0,
+        submitted: false,
+        selectOption(qIndex, optIndex) {
+            const q = this.questions[qIndex];
+            if (q.answered) return;
+            q.answered = true;
+            q.selected = optIndex;
+            this.attempted++;
+            if (optIndex === q.correct) {
+                this.right++;
+            } else {
+                this.wrong++;
+            }
+        },
+        resetQuiz() {
+            this.questions.forEach(q => {
+                q.answered = false;
+                q.selected = null;
+            });
+            this.attempted = 0;
+            this.right = 0;
+            this.wrong = 0;
+            this.submitted = false;
+        }
+    }));
+});
+</script>

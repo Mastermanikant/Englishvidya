@@ -6,7 +6,8 @@
     "definition": "A brief reply confirming receipt of a message or information",
     "example": "Please send an acknowledgement once you receive the brief.",
     "category": "Email",
-    "subCategory": "Email"
+    "subCategory": "Email",
+    "exampleHindi": "कृपया संक्षिप्त विवरण प्राप्त होने पर एक पावती भेजें।"
   },
   {
     "word": "attachment",
@@ -15,7 +16,8 @@
     "definition": "Emotional dependency or connection to a person, place, or thing",
     "example": "Please find the report as an attachment to this email.",
     "category": "Email",
-    "subCategory": "Email"
+    "subCategory": "Email",
+    "exampleHindi": "कृपया रिपोर्ट को इस ईमेल के साथ अनुलग्नक के रूप में ढूंढें।"
   },
   {
     "word": "auto-reply",
@@ -24,7 +26,8 @@
     "definition": "An automatic response sent when someone is unavailable",
     "example": "She set an auto-reply message while on vacation.",
     "category": "Email",
-    "subCategory": "Email"
+    "subCategory": "Email",
+    "exampleHindi": "छुट्टियों के दौरान उसने एक ऑटो-रिप्लाई संदेश सेट किया।"
   },
   {
     "word": "BCC",
@@ -33,7 +36,8 @@
     "definition": "Blind Carbon Copy; sending a copy to recipients without others knowing",
     "example": "He BCCed the HR department on the sensitive message.",
     "category": "Email",
-    "subCategory": "Email"
+    "subCategory": "Email",
+    "exampleHindi": "उन्होंने संवेदनशील संदेश पर मानव संसाधन विभाग को बीसीसी किया।"
   },
   {
     "word": "CC",
@@ -42,7 +46,8 @@
     "definition": "Carbon Copy; sending a copy of an email to additional recipients",
     "example": "I will CC the manager so she is aware of our discussion.",
     "category": "Email",
-    "subCategory": "Email"
+    "subCategory": "Email",
+    "exampleHindi": "मैं मैनेजर को सीसी दूँगा ताकि उसे हमारी चर्चा के बारे में पता रहे।"
   },
   {
     "word": "deliverability",
@@ -51,7 +56,8 @@
     "definition": "The ability of an email to successfully reach the recipient's inbox",
     "example": "Poor email deliverability results in messages being marked as spam.",
     "category": "Email",
-    "subCategory": "Email"
+    "subCategory": "Email",
+    "exampleHindi": "खराब ईमेल वितरण के परिणामस्वरूप संदेशों को स्पैम के रूप में चिह्नित किया जाता है।"
   },
   {
     "word": "embed",
@@ -60,7 +66,8 @@
     "definition": "To insert content such as an image, video, or link directly into a message",
     "example": "He embedded the video link in the email so recipients could watch immediately.",
     "category": "Email",
-    "subCategory": "Email"
+    "subCategory": "Email",
+    "exampleHindi": "उन्होंने ईमेल में वीडियो लिंक एम्बेड किया ताकि प्राप्तकर्ता तुरंत देख सकें।"
   },
   {
     "word": "follow-up email",
@@ -69,7 +76,8 @@
     "definition": "A message sent after a meeting or conversation to summarise actions or next steps",
     "example": "She sent a follow-up email recapping the decisions made in the meeting.",
     "category": "Email",
-    "subCategory": "Email"
+    "subCategory": "Email",
+    "exampleHindi": "उन्होंने बैठक में लिए गए निर्णयों का पुनर्कथन करते हुए एक अनुवर्ती ईमेल भेजा।"
   },
   {
     "word": "forward",
@@ -78,7 +86,8 @@
     "definition": "",
     "example": "Please forward the invitation to your colleague.",
     "category": "Email",
-    "subCategory": "Email"
+    "subCategory": "Email",
+    "exampleHindi": "कृपया अपने सहकर्मी को निमंत्रण अग्रेषित करें।"
   },
   {
     "word": "hyperlink",
@@ -87,7 +96,8 @@
     "definition": "A link from a hypertext file or document to another location or file.",
     "example": "Click the hyperlink in the email to access the registration form.",
     "category": "Email",
-    "subCategory": "Email"
+    "subCategory": "Email",
+    "exampleHindi": "पंजीकरण फॉर्म तक पहुंचने के लिए ईमेल में हाइपरलिंक पर क्लिक करें।"
   },
   {
     "word": "label",
@@ -96,7 +106,8 @@
     "definition": "A tag applied to an email to categorise and organise messages",
     "example": "She uses labels like 'urgent' and 'invoices' to sort her inbox.",
     "category": "Email",
-    "subCategory": "Email"
+    "subCategory": "Email",
+    "exampleHindi": "वह अपने इनबॉक्स को क्रमबद्ध करने के लिए 'अत्यावश्यक' और 'चालान' जैसे लेबल का उपयोग करती है।"
   },
   {
     "word": "mailing list",
@@ -105,7 +116,8 @@
     "definition": "A collection of email addresses used to send messages to multiple people at once",
     "example": "Subscribe to our mailing list for weekly updates.",
     "category": "Email",
-    "subCategory": "Email"
+    "subCategory": "Email",
+    "exampleHindi": "साप्ताहिक अपडेट के लिए हमारी मेलिंग सूची की सदस्यता लें।"
   },
   {
     "word": "newsletter",
@@ -114,7 +126,8 @@
     "definition": "A regularly distributed email containing news and updates",
     "example": "The company sends a newsletter to all clients every Friday.",
     "category": "Email",
-    "subCategory": "Email"
+    "subCategory": "Email",
+    "exampleHindi": "कंपनी प्रत्येक शुक्रवार को सभी ग्राहकों को एक समाचार पत्र भेजती है।"
   },
   {
     "word": "out-of-office",
@@ -123,7 +136,8 @@
     "definition": "An automatic email reply informing senders that the recipient is away",
     "example": "He set an out-of-office message for the duration of his leave.",
     "category": "Email",
-    "subCategory": "Email"
+    "subCategory": "Email",
+    "exampleHindi": "उन्होंने अपनी छुट्टी की अवधि के लिए कार्यालय से बाहर का संदेश सेट किया।"
   },
   {
     "word": "phishing",
@@ -132,7 +146,8 @@
     "definition": "The fraudulent practice of sending emails purporting to be from reputable companies in order to induce individuals to reveal personal information.",
     "example": "The phishing email appeared to come from the bank but was fake.",
     "category": "Email",
-    "subCategory": "Email"
+    "subCategory": "Email",
+    "exampleHindi": "ऐसा प्रतीत होता है कि फ़िशिंग ईमेल बैंक से आया था लेकिन वह नकली था।"
   },
   {
     "word": "reply-all",
@@ -141,7 +156,8 @@
     "definition": "Responding to an email so that all original recipients receive the response",
     "example": "Do not reply-all unless your response is relevant to everyone.",
     "category": "Email",
-    "subCategory": "Email"
+    "subCategory": "Email",
+    "exampleHindi": "जब तक आपका उत्तर सभी के लिए प्रासंगिक न हो, सभी को उत्तर न दें।"
   },
   {
     "word": "signature",
@@ -150,7 +166,8 @@
     "definition": "A block of text appended to the end of an email with the sender's details",
     "example": "His email signature includes his phone number and job title.",
     "category": "Email",
-    "subCategory": "Email"
+    "subCategory": "Email",
+    "exampleHindi": "उनके ईमेल हस्ताक्षर में उनका फ़ोन नंबर और नौकरी का शीर्षक शामिल है।"
   },
   {
     "word": "spam",
@@ -159,7 +176,8 @@
     "definition": "Unsolicited or irrelevant messages sent in bulk, especially by email",
     "example": "The promotional newsletter ended up in his spam folder.",
     "category": "Email",
-    "subCategory": "Email"
+    "subCategory": "Email",
+    "exampleHindi": "प्रचार समाचार पत्र उसके स्पैम फ़ोल्डर में समाप्त हो गया।"
   },
   {
     "word": "subject line",
@@ -168,7 +186,8 @@
     "definition": "The brief heading of an email that summarises its content",
     "example": "A clear subject line helps recipients prioritise their inbox.",
     "category": "Email",
-    "subCategory": "Email"
+    "subCategory": "Email",
+    "exampleHindi": "एक स्पष्ट विषय पंक्ति प्राप्तकर्ताओं को उनके इनबॉक्स को प्राथमिकता देने में मदद करती है।"
   },
   {
     "word": "template",
@@ -177,7 +196,8 @@
     "definition": "A pre-designed layout or format used as a starting point for content.",
     "example": "Use the email template for consistent brand communication.",
     "category": "Email",
-    "subCategory": "Email"
+    "subCategory": "Email",
+    "exampleHindi": "लगातार ब्रांड संचार के लिए ईमेल टेम्पलेट का उपयोग करें।"
   },
   {
     "word": "unsubscribe",
@@ -186,6 +206,7 @@
     "definition": "To remove oneself from an email mailing list",
     "example": "Click the link at the bottom of the email to unsubscribe.",
     "category": "Email",
-    "subCategory": "Email"
+    "subCategory": "Email",
+    "exampleHindi": "सदस्यता समाप्त करने के लिए ईमेल के नीचे दिए गए लिंक पर क्लिक करें।"
   }
 ]

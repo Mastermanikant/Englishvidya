@@ -1,7 +1,7 @@
 [
   {
     "word": "adapter",
-    "meaning": "",
+    "meaning": "एडाप्टर",
     "pronunciation": "एडाप्टर",
     "definition": "",
     "example": "",
@@ -19,7 +19,7 @@
   },
   {
     "word": "earbuds",
-    "meaning": "",
+    "meaning": "ईयरबड",
     "pronunciation": "एअरबुद्स",
     "definition": "",
     "example": "",
@@ -28,7 +28,7 @@
   },
   {
     "word": "extension cord",
-    "meaning": "",
+    "meaning": "एक्सटेंशन कॉर्ड",
     "pronunciation": "एक्सटेंशन कॉर्ड",
     "definition": "",
     "example": "",
@@ -37,7 +37,7 @@
   },
   {
     "word": "flash drive",
-    "meaning": "",
+    "meaning": "फ़्लैश ड्राइव",
     "pronunciation": "फ़्लैश ड्राइव",
     "definition": "",
     "example": "",
@@ -46,7 +46,7 @@
   },
   {
     "word": "headphones",
-    "meaning": "",
+    "meaning": "हेडफोन",
     "pronunciation": "हेडफोन्स",
     "definition": "",
     "example": "",
@@ -60,7 +60,8 @@
     "definition": "",
     "example": "She typed the password using the wireless keyboard.",
     "category": "Electronics & Gadgets",
-    "subCategory": "Hardware"
+    "subCategory": "Hardware",
+    "exampleHindi": "उसने वायरलेस कीबोर्ड का उपयोग करके पासवर्ड टाइप किया।"
   },
   {
     "word": "laptop",
@@ -69,7 +70,8 @@
     "definition": "A computer that is portable and suitable for use while traveling.",
     "example": "Many students take notes on their laptops during lectures.",
     "category": "Electronics & Gadgets",
-    "subCategory": "Exam & Classroom"
+    "subCategory": "Exam & Classroom",
+    "exampleHindi": "कई छात्र व्याख्यान के दौरान अपने लैपटॉप पर नोट्स लेते हैं।"
   },
   {
     "word": "Monitor",
@@ -78,7 +80,8 @@
     "definition": "",
     "example": "He plugged a second monitor into his laptop to have more screen space.",
     "category": "Electronics & Gadgets",
-    "subCategory": "Hardware"
+    "subCategory": "Hardware",
+    "exampleHindi": "अधिक स्क्रीन स्थान पाने के लिए उन्होंने अपने लैपटॉप में दूसरा मॉनिटर प्लग किया।"
   },
   {
     "word": "Mouse",
@@ -87,11 +90,12 @@
     "definition": "à¤šà¥‚à¤¹à¤¾",
     "example": "She clicked the right mouse button to open the context menu.",
     "category": "Electronics & Gadgets",
-    "subCategory": "Hardware"
+    "subCategory": "Hardware",
+    "exampleHindi": "उसने संदर्भ मेनू खोलने के लिए दाएँ माउस बटन पर क्लिक किया।"
   },
   {
     "word": "plug",
-    "meaning": "",
+    "meaning": "प्लग",
     "pronunciation": "प्लग",
     "definition": "",
     "example": "",
@@ -100,7 +104,7 @@
   },
   {
     "word": "power bank",
-    "meaning": "",
+    "meaning": "पावर बैंक",
     "pronunciation": "पावर बैंक",
     "definition": "",
     "example": "",
@@ -114,11 +118,12 @@
     "definition": "A networking device that forwards data packets between computer networks.",
     "example": "Moving the router to the centre of the house improved the Wi-Fi signal.",
     "category": "Electronics & Gadgets",
-    "subCategory": "Hardware"
+    "subCategory": "Hardware",
+    "exampleHindi": "राउटर को घर के केंद्र में ले जाने से वाई-फाई सिग्नल में सुधार हुआ।"
   },
   {
     "word": "smartphone",
-    "meaning": "",
+    "meaning": "स्मार्टफोन",
     "pronunciation": "स्मार्टफोन",
     "definition": "",
     "example": "",
@@ -127,7 +132,7 @@
   },
   {
     "word": "socket",
-    "meaning": "",
+    "meaning": "सॉकेट",
     "pronunciation": "सॉकेट",
     "definition": "",
     "example": "",
@@ -141,6 +146,7 @@
     "definition": "A small, flat computer that is controlled by touching the screen.",
     "example": "The school provided tablets for digital textbooks.",
     "category": "Electronics & Gadgets",
-    "subCategory": "Exam & Classroom"
+    "subCategory": "Exam & Classroom",
+    "exampleHindi": "स्कूल ने डिजिटल पाठ्यपुस्तकों के लिए टैबलेट उपलब्ध कराए।"
   }
 ]
