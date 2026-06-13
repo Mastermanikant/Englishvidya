@@ -1,0 +1,254 @@
+---
+layout: layouts/base.njk
+title: "Study Library & Notes — English Vidya"
+description: "Browse all class notes, questions & answers, English grammar, and translations."
+permalink: /blog/
+bodyClass: page-blog
+---
+
+{# ── Serialize Collections for Alpine ── #}
+{# We convert 11ty collections.article to a JSON string that Alpine.js can parse #}
+<script>
+  window.eleventyArticles = [
+    {% for post in collections.article %}
+    {
+      title: {{ post.data.title | dump | safe }},
+      url: "{{ post.url }}",
+      date: "{{ post.date | dateIso }}",
+      views: {{ post.data.views | default(0) }},
+      description: {{ post.data.description | default("") | dump | safe }}
+    }{% if not loop.last %},{% endif %}
+    {% endfor %}
+  ];
+</script>
+
+<style>
+  .library-header {
+    text-align: center;
+    padding: var(--sp-8) var(--sp-4);
+    background: linear-gradient(135deg, #022c22, #064e3b);
+    color: #f0fdf4;
+    border-radius: var(--radius-xl);
+    margin: var(--sp-4) auto var(--sp-8);
+    max-width: 900px;
+    box-shadow: var(--shadow-md);
+  }
+  .library-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: var(--sp-2);
+    color: var(--accent);
+  }
+  .library-header p {
+    font-size: 1.1rem;
+    color: var(--text-secondary);
+  }
+
+  .library-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: var(--sp-4);
+    max-width: 900px;
+    margin: 0 auto var(--sp-6);
+    background: var(--bg-raised);
+    padding: var(--sp-3) var(--sp-4);
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--border);
+  }
+
+  .library-search input, .library-sort select {
+    background: var(--bg-main);
+    color: var(--text-primary);
+    border: 1px solid var(--border);
+    padding: 10px 15px;
+    border-radius: var(--radius-md);
+    font-size: 1rem;
+    outline: none;
+    transition: border-color var(--duration-fast);
+  }
+  .library-search input:focus, .library-sort select:focus {
+    border-color: var(--accent);
+  }
+
+  .articles-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--sp-4);
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  @media(min-width: 640px) {
+    .articles-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  .article-card {
+    background: var(--bg-raised);
+    border: 1px solid var(--border);
+    padding: var(--sp-5);
+    border-radius: var(--radius-lg);
+    transition: transform var(--duration-normal), box-shadow var(--duration-normal);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .article-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-md);
+    border-color: var(--accent);
+  }
+  .article-card h2 {
+    font-size: 1.25rem;
+    margin-bottom: var(--sp-2);
+    color: var(--text-primary);
+    line-height: 1.4;
+  }
+  .article-card p {
+    font-size: 0.95rem;
+    color: var(--text-secondary);
+    margin-bottom: var(--sp-4);
+  }
+  .article-meta {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.85rem;
+    color: var(--accent-soft);
+    font-weight: 600;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: var(--sp-4);
+    margin: var(--sp-8) 0;
+  }
+  .pagination button {
+    background: var(--accent);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: var(--radius-full);
+    font-weight: bold;
+    cursor: pointer;
+    transition: opacity 0.2s;
+  }
+  .pagination button:disabled {
+    background: var(--bg-raised);
+    color: var(--text-muted);
+    cursor: not-allowed;
+    border: 1px solid var(--border);
+  }
+  .pagination button:not(:disabled):hover {
+    opacity: 0.9;
+  }
+  .page-info {
+    font-weight: bold;
+    color: var(--text-primary);
+  }
+</style>
+
+<div class="library-header">
+  <h1>📚 Study Library</h1>
+  <p>Find all your English notes, chapters, and grammar lessons in one place.</p>
+</div>
+
+{# ── Alpine.js Component ── #}
+<div x-data="articleLibrary()" x-init="init()" style="max-width: 900px; margin: 0 auto; padding: 0 var(--sp-4);">
+  
+  <div class="library-controls">
+    <div class="library-search">
+      <input type="text" x-model="searchQuery" placeholder="🔍 Search articles...">
+    </div>
+    <div class="library-sort">
+      <select x-model="sortOrder">
+        <option value="newest">🕒 Sort by Latest</option>
+        <option value="popular">🔥 Sort by Popularity</option>
+        <option value="az">🔤 Sort by Name (A-Z)</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="articles-grid">
+    <template x-for="article in paginatedArticles" :key="article.url">
+      <a :href="article.url" style="text-decoration: none;">
+        <article class="article-card">
+          <div>
+            <h2 x-text="article.title"></h2>
+            <p x-text="article.description"></p>
+          </div>
+          <div class="article-meta">
+            <span x-text="'👁️ ' + article.views + ' Views'"></span>
+          </div>
+        </article>
+      </a>
+    </template>
+  </div>
+
+  <div x-show="filteredArticles.length === 0" style="text-align: center; padding: 40px; color: var(--text-muted);">
+    <h3>No articles found for your search.</h3>
+  </div>
+
+  <div class="pagination" x-show="totalPages > 1">
+    <button @click="prevPage()" :disabled="currentPage === 1">← Previous</button>
+    <span class="page-info" x-text="'Page ' + currentPage + ' of ' + totalPages"></span>
+    <button @click="nextPage()" :disabled="currentPage === totalPages">Next →</button>
+  </div>
+</div>
+
+<script>
+document.addEventListener('alpine:init', () => {
+  Alpine.data('articleLibrary', () => ({
+    allArticles: window.eleventyArticles || [],
+    searchQuery: '',
+    sortOrder: 'newest',
+    currentPage: 1,
+    itemsPerPage: 10,
+
+    init() {
+      // Trigger resort when sortOrder changes
+      this.$watch('sortOrder', () => { this.currentPage = 1; });
+      this.$watch('searchQuery', () => { this.currentPage = 1; });
+    },
+
+    get filteredArticles() {
+      let filtered = this.allArticles.filter(article => 
+        article.title.toLowerCase().includes(this.searchQuery.toLowerCase()) || 
+        article.description.toLowerCase().includes(this.searchQuery.toLowerCase())
+      );
+
+      return filtered.sort((a, b) => {
+        if (this.sortOrder === 'newest') {
+          return new Date(b.date) - new Date(a.date);
+        } else if (this.sortOrder === 'popular') {
+          return b.views - a.views;
+        } else if (this.sortOrder === 'az') {
+          return a.title.localeCompare(b.title);
+        }
+      });
+    },
+
+    get paginatedArticles() {
+      const start = (this.currentPage - 1) * this.itemsPerPage;
+      const end = start + this.itemsPerPage;
+      return this.filteredArticles.slice(start, end);
+    },
+
+    get totalPages() {
+      return Math.ceil(this.filteredArticles.length / this.itemsPerPage);
+    },
+
+    nextPage() {
+      if (this.currentPage < this.totalPages) this.currentPage++;
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    },
+
+    prevPage() {
+      if (this.currentPage > 1) this.currentPage--;
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  }))
+})
+</script>

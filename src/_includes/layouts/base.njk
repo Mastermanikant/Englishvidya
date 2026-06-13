@@ -5,6 +5,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
 
+  {# ── Google Analytics (GA4) ── #}
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-VWJHVR3VBL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-VWJHVR3VBL');
+  </script>
+
   {# ── SEO Meta ── #}
   <title>{{ pageTitle or title or site.siteName }}</title>
   <meta name="description" content="{{ metaDescription or description or site.siteDescription }}">

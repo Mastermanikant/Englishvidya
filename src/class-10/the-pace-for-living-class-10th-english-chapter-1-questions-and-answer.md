@@ -42,6 +42,11 @@ schemaJson: |
       }
     ]
   }
+tags:
+  - article
+  - class-10
+views: 400
+date: 2024-05-07
 ---
 # The Pace for Living | Class 10th English Chapter 1 | Questions & Answers
 
@@ -49,7 +54,8 @@ Welcome to the complete solution and notes for **Bihar Board Class 10th English 
 
 ---
 
-## 📝 A. Work in small groups and discuss the following:
+<details>
+<summary>💡 <b>📝 A. Work in small groups and discuss the following:</b></summary>
 
 **(I) Do you find life leisurely or fast?**
 **Answer:** Some find life very fast because of school, homework, and other activities. But a few feel it’s okay as they manage time well. Most of us think life is more fast than relaxed.
@@ -57,9 +63,10 @@ Welcome to the complete solution and notes for **Bihar Board Class 10th English 
 **(II) Are you satisfied with what you see today?**
 **Answer:** No, we are not fully satisfied. Many things have improved, but life has also become more stressful. We miss the simple and peaceful time people had earlier.
 
----
+</details>
 
-## 📖 B. Answer the following question briefly:
+<details>
+<summary>💡 <b>📖 B. Answer the following question briefly:</b></summary>
 
 **1. Where did the writer watch the play?**
 **Answer:** The writer watched the play in Dublin.
@@ -76,9 +83,10 @@ Welcome to the complete solution and notes for **Bihar Board Class 10th English 
 **5. How does the writer classify himself as?**
 **Answer:** The writer classifies himself as a slow thinker.
 
----
+</details>
 
-## ✍️ LONG ANSWER QUESTIONS
+<details>
+<summary>💡 <b>✍️ LONG ANSWER QUESTIONS</b></summary>
 
 **1. Write a few sentences about the elderly corn merchant?**
 **Answer:** The elderly corn merchant was an old man living in a small Irish town. He had a weak heart and worried a lot. His nephew was cheating him, and his wife spent a lot of money, £10 every holiday. He felt that life was moving too fast for him and he was struggling to keep up.
@@ -86,9 +94,10 @@ Welcome to the complete solution and notes for **Bihar Board Class 10th English 
 **6. Summarise the central idea of this essay.**
 **Answer:** The central idea of the essay is that modern life has become too fast and stressful. People are under constant pressure to move quickly, think fast, and act immediately. While some enjoy this speed, others, especially slow thinkers, struggle to cope. The essay shows how the fast pace of life affects mental peace and the ability to enjoy simple pleasures.
 
----
+</details>
 
-## 🗣️ GROUP DISCUSSION
+<details>
+<summary>💡 <b>🗣️ GROUP DISCUSSION</b></summary>
 
 **Discuss the following in groups or pairs:**
 
@@ -98,9 +107,10 @@ People are always busy with work, studies, travel, and technology. There is litt
 **2. The fast life of the western society is compelling the westerners…**
 …to live under pressure and lose the joy of simple living. They are running after speed, success, and material things, but they miss peace and real happiness.
 
----
+</details>
 
-## ✉️ COMPOSITION
+<details>
+<summary>💡 <b>✉️ COMPOSITION</b></summary>
 
 ### 1. Letter Writing
 **Write a letter to your mother about a hectic day that you spent.**
@@ -143,9 +153,10 @@ People are always busy with work, studies, travel, and technology. There is litt
 > Master Manikant<br>
 > *Secretary, Drama Society*
 
----
+</details>
 
-## 🔠 WORD STUDY
+<details>
+<summary>💡 <b>🔠 WORD STUDY</b></summary>
 
 ### Incorrect vs Correct Spelling
 
@@ -178,10 +189,10 @@ People are always busy with work, studies, travel, and technology. There is litt
 - **Solar:** The solar panels on the roof help save energy. *(छत पर सोलर पैनल ऊर्जा बचाने में मदद करते हैं।)*
 
 </details>
+</details>
 
----
-
-## 🧩 D.3. Word-Meaning
+<details>
+<summary>💡 <b>🧩 D.3. Word-Meaning</b></summary>
 
 **Match the words in Column A with their meanings in Column B:**
 
@@ -194,3 +205,4 @@ People are always busy with work, studies, travel, and technology. There is litt
 | **Tribe** | A group of people of the same race |
 | **Prejudice** | Every conceived idea |
 
+</details>
