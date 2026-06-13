@@ -1,0 +1,57 @@
+# ══ EnglishVidya Legacy URLs to New URLs Redirects (301) ══
+# This file prevents 404 errors from old WordPress links ranking in Google.
+
+# 🌟 THE GOLDEN URL (Class 10th The Pace for Living)
+# NOTE: DO NOT redirect this to homepage. You MUST create a new markdown article with exactly this permalink:
+# permalink: /the-pace-for-living-class-10th-english-chapter-1-questions-and-answer/
+
+# Legal / Contact / General
+/terms-of-service/ /legal/ 301
+/privacy-policy/ /legal/ 301
+/about-us/ / 301
+/contact-us/ /contact/ 301
+/author/mastermanikant-in/ / 301
+/master-manikant-social-media/ / 301
+/faq/ / 301
+/live-class-registration-form/ / 301
+/necessary-page/ / 301
+
+# Dictionary / Vocabulary
+/indian-civilization-and-culture-all-words-meaning-with-pronunciation/ /dictionary/ 301
+/free-english-speaking-course/most-useful-vocabulary-list-hindi/ /dictionary/ 301
+/free-english-speaking-course/common-items-name-english-hindi/ /dictionary/ 301
+/bseb-10th-english-pace-living-words-pronunciation/ /dictionary/ 301
+/category/blog/word-meaning/* /dictionary/ 301
+/category/blog/vocabulary/* /dictionary/ 301
+
+# Grammar
+/free-english-speaking-course/basics-english-grammar/ /grammar/ 301
+/category/blog/translation/* /grammar/ 301
+/category/blog/grammar/* /grammar/ 301
+
+# Practice / Flashcards
+/india-civil-test-mcq/ /flashcards/ 301
+/free-english-speaking-course/english-hindi-conversations-pratice-guide/ /flashcards/ 301
+
+# Legacy Articles (Mapping to home until recreated)
+/bihar-board-12th-english-pyq-analysis-exam-strategy-vvi-questions/ / 301
+/bharat-is-my-home-line-by-line-pronunciation-and-hindi-meaning-bharat-is-my-home-word-meaning-pronunciation-and-hindi/ / 301
+/the-pace-for-living-class-10th-english-chapter1/ / 301
+/smart-pdf-of-bharat-is-my-home-by-dr-zakir-husain-class-12th-book/ / 301
+/smart-pdf-indian-civilization-and-culture-by-mahatma-gandhi/ / 301
+/me-and-the-ecology-bit-pdf-download-class-10-english-book-notes-bihar-board/ / 301
+/indian-civilization-and-culture-by-mahatma-gandhi-full-line-by-line-hindi-explanation-pronunciation-word-meanings/ / 301
+/indian-civilaizaton-and-culture-by-mahatma-gandhi/ / 301
+/gillu-pdf-download-class-10-english-book-notes-bihar-board/ / 301
+/class-10-english-the-pace-for-living-pdf-download/ / 301
+/class-10-english-chapter-1-the-pace-for-living-line-by-line-explanation-hindi-meaning-pronunciation/ / 301
+/class-10-english-chapter-1-the-pace-for-living-line-by-line-explanation-hindi-meaning-pronunciation-2/ / 301
+/bihar-board-class-10-english-chapter-list-panorama-reader/ / 301
+
+# Catch-alls for other old categories
+/free-english-speaking-course/* / 301
+/category/blog/class/* / 301
+/category/blog/* / 301
+/blog/* / 301
+/latest-post/ / 301
+/?mailpoet_page=* / 301

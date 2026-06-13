@@ -20,6 +20,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "website/.nojekyll":       ".nojekyll"       });
   eleventyConfig.addPassthroughCopy({ "website/404.html":        "404.html"        });
   eleventyConfig.addPassthroughCopy({ "website/_headers":        "_headers"        });
+  eleventyConfig.addPassthroughCopy({ "website/_redirects":      "_redirects"      });
   eleventyConfig.addPassthroughCopy({ "website/llms.txt":        "llms.txt"        });
 
   // ── 2. FILTERS ─────────────────────────────────────────────────────
