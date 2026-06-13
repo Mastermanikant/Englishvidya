@@ -48,6 +48,10 @@
     </div>
     <nav class="mobile-drawer-nav" aria-label="Mobile Navigation Drawer">
       <button class="mobile-drawer-link pwa-drawer-install-btn" id="drawer-pwa-action" style="display:block; width:100%; text-align:left; background:transparent; border:none; color:var(--accent); font-weight:bold; cursor:pointer;">📱 Install App</button>
+      <a href="/class-10/" class="mobile-drawer-link" data-route="class-10">🏫 Class 10th</a>
+      <a href="/class-12/" class="mobile-drawer-link" data-route="class-12">🎓 Class 12th</a>
+      <a href="/about-us/" class="mobile-drawer-link" data-route="about">ℹ️ About Us</a>
+      <a href="/blog/" class="mobile-drawer-link" data-route="blog">📝 Blog</a>
       <a href="/contact/" class="mobile-drawer-link" data-route="contact">✉️ Contact Us</a>
       <a href="/legal/" class="mobile-drawer-link" data-route="legal">📜 Policies</a>
       <a href="/settings/" class="mobile-drawer-link" data-route="settings">⚙️ Settings / Profile</a>
@@ -94,9 +98,23 @@
   {# Desktop Navigation #}
   <nav class="desktop-nav" aria-label="Desktop Navigation" id="desktop-nav">
     {% for item in site.nav %}
-    <a href="{{ item.href }}" class="desktop-nav-link{% if page.url == item.href %} active{% endif %}" data-route="{{ item.route }}">
-      {{ item.label }}
-    </a>
+      {% if item.children %}
+        <div class="nav-dropdown-container">
+          <button class="desktop-nav-link dropdown-toggle" aria-haspopup="true" aria-expanded="false" style="display:flex; align-items:center; gap:4px; border:none; background:transparent; font-family:inherit; cursor:pointer;">
+            {{ item.label }}
+            <svg class="dropdown-icon" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </button>
+          <div class="nav-dropdown-menu">
+            {% for child in item.children %}
+              <a href="{{ child.href }}" class="dropdown-item">{{ child.label }}</a>
+            {% endfor %}
+          </div>
+        </div>
+      {% else %}
+        <a href="{{ item.href }}" class="desktop-nav-link{% if page.url == item.href %} active{% endif %}" data-route="{{ item.route }}">
+          {{ item.label }}
+        </a>
+      {% endif %}
     {% endfor %}
   </nav>
 

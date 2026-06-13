@@ -21,6 +21,16 @@
     { "label": "Dictionary", "href": "/dictionary/","route": "dictionary", "icon": "🔤" },
     { "label": "Flashcards", "href": "/flashcards/","route": "flashcards", "icon": "🃏" },
     { "label": "About Us",   "href": "/about-us/",  "route": "about",      "icon": "ℹ️" },
-    { "label": "Blog",       "href": "/blog/",      "route": "blog",       "icon": "📝" }
+    { "label": "Blog",       "href": "/blog/",      "route": "blog",       "icon": "📝" },
+    { 
+      "label": "Classes", 
+      "href": "#", 
+      "route": "classes", 
+      "icon": "🏫",
+      "children": [
+        { "label": "Class 10th", "href": "/class-10/", "route": "class-10" },
+        { "label": "Class 12th", "href": "/class-12/", "route": "class-12" }
+      ]
+    }
   ]
 }
