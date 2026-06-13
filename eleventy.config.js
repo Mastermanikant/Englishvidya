@@ -59,6 +59,11 @@ module.exports = function (eleventyConfig) {
     return slug.split("-").map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(" ");
   });
 
+  // Shortcode for current build time
+  eleventyConfig.addShortcode("buildTime", () => {
+    return new Date().toLocaleString("en-IN", { timeZone: "Asia/Kolkata" });
+  });
+
   // Safe JSON stringify (for schema.org)
   eleventyConfig.addFilter("jsonify", (value) => JSON.stringify(value));
 
