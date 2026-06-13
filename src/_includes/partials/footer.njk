@@ -224,5 +224,32 @@
     <p class="master-credit">Everything, Content, Structure & Website Development by <strong>Master Manikant</strong></p>
     <p style="margin-top: 0.25rem;">© {{ site.year | default('2026') }} EnglishVidya — Made with ❤️ for Hindi-medium students of India</p>
     <p style="margin-top: 0.25rem; font-size: 0.75rem; color: #64748b;">Last Updated & Published: {% buildTime %}</p>
+    
+    <!-- Clear Cache Button -->
+    <div style="margin-top: 1rem;">
+      <button onclick="clearWebsiteCache()" style="background: rgba(255,255,255,0.05); border: 1px solid #334155; color: #cbd5e1; padding: 0.4rem 0.8rem; border-radius: 4px; cursor: pointer; font-size: 0.8rem; transition: all 0.2s;">
+        🔄 Clear Browser Cache & Reload
+      </button>
+      <script>
+        function clearWebsiteCache() {
+          if (confirm("Are you sure you want to clear the browser cache and fetch the latest website data?")) {
+            // Clear localStorage and sessionStorage
+            try { localStorage.clear(); sessionStorage.clear(); } catch(e) {}
+            
+            // Clear Service Worker Cache API
+            if ('caches' in window) {
+              caches.keys().then(function(names) {
+                for (let name of names) caches.delete(name);
+              });
+            }
+            
+            // Reload with a timestamp to bust browser HTTP cache
+            const url = new URL(window.location.href);
+            url.searchParams.set('refresh', new Date().getTime());
+            window.location.href = url.toString();
+          }
+        }
+      </script>
+    </div>
   </div>
 </footer>
