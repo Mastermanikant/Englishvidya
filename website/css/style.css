@@ -464,7 +464,7 @@ button {
   align-items: center;
   gap: 2px;
   text-decoration: none;
-  color: var(--text-tertiary);
+  color: var(--text-secondary);
   font-size: 0.65rem;
   font-weight: 600;
   letter-spacing: 0.02em;

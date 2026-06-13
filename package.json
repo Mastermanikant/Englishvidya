@@ -5,13 +5,14 @@
   "scripts": {
     "prebuild": "node -e \"const fs=require('fs'); fs.rmSync('_site', {recursive:true, force:true});\"",
     "build": "eleventy",
-    "dev":   "eleventy --serve --port=3000",
+    "dev": "eleventy --serve --port=3000",
     "build:prod": "NODE_ENV=production eleventy",
     "deploy": "npm run build && wrangler deploy"
   },
   "author": "Mastermanikant",
   "license": "MIT",
   "devDependencies": {
-    "@11ty/eleventy": "^3.0.0"
+    "@11ty/eleventy": "^3.0.0",
+    "sharp": "^0.35.1"
   }
 }

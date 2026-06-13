@@ -413,11 +413,15 @@ function initBottomNavHighlight() {
     const updateHighlight = () => {
         const activeItem = bottomNav.querySelector('.nav-item.active');
         if (activeItem) {
-            const rect = activeItem.getBoundingClientRect();
-            const navRect = bottomNav.getBoundingClientRect();
-            highlight.style.width = `${rect.width * 0.8}px`;
-            highlight.style.left = `${rect.left - navRect.left + (rect.width * 0.1)}px`;
-            highlight.style.opacity = '1';
+            requestAnimationFrame(() => {
+                const rect = activeItem.getBoundingClientRect();
+                const navRect = bottomNav.getBoundingClientRect();
+                requestAnimationFrame(() => {
+                    highlight.style.width = `${rect.width * 0.8}px`;
+                    highlight.style.left = `${rect.left - navRect.left + (rect.width * 0.1)}px`;
+                    highlight.style.opacity = '1';
+                });
+            });
         } else {
             highlight.style.opacity = '0';
         }
@@ -641,14 +645,16 @@ function toggleSection(el) {
     const isOpen = el.classList.contains('open');
     if (isOpen) {
         el.style.maxHeight = el.scrollHeight + 'px';
-        el.offsetHeight; // reflow
-        el.style.maxHeight = '0px';
+        requestAnimationFrame(() => {
+            el.style.maxHeight = '0px';
+        });
         el.classList.remove('open');
     } else {
         el.style.maxHeight = '0px';
         el.classList.add('open');
-        el.offsetHeight; // reflow
-        el.style.maxHeight = el.scrollHeight + 'px';
+        requestAnimationFrame(() => {
+            el.style.maxHeight = el.scrollHeight + 'px';
+        });
         
         const transitionEndHandler = (e) => {
             if (e.propertyName === 'max-height') {
