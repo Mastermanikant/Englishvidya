@@ -4,7 +4,7 @@ layout: layouts/base.njk
 <div style="max-width: 800px; margin: 0 auto; padding: 20px;">
   <div style="margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px solid var(--border); display: flex; justify-content: space-between; color: var(--text-secondary); font-size: 0.9rem; font-weight: 600;">
     {% if date %}
-      <span>📅 {{ date | dateIso | truncate(10, true, "") }}</span>
+      <span>📅 {{ date | toISO | truncate(10, true, "") }}</span>
     {% endif %}
     {% if views %}
       <span style="color: var(--accent);">👁️ {{ views }} Views</span>
