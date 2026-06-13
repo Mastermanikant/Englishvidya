@@ -20,6 +20,7 @@
     { "label": "Grammar",    "href": "/grammar/",   "route": "grammar",    "icon": "📖" },
     { "label": "Dictionary", "href": "/dictionary/","route": "dictionary", "icon": "🔤" },
     { "label": "Flashcards", "href": "/flashcards/","route": "flashcards", "icon": "🃏" },
-    { "label": "About Us",   "href": "/about-us/",  "route": "about",      "icon": "ℹ️" }
+    { "label": "About Us",   "href": "/about-us/",  "route": "about",      "icon": "ℹ️" },
+    { "label": "Blog",       "href": "/blog/",      "route": "blog",       "icon": "📝" }
   ]
 }
