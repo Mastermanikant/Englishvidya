@@ -10,7 +10,35 @@ layout: layouts/base.njk
       <span style="color: var(--accent);">👁️ {{ views }} Views</span>
     {% endif %}
   </div>
+  
   <article class="markdown-body">
     {{ content | safe }}
   </article>
+
+  {# ── Sharing Section (Psychological CTA) ── #}
+  <div class="share-box" style="margin-top: 50px; padding: 25px; background: var(--bg-raised); border-radius: 12px; border: 1px solid var(--border); text-align: center;">
+    <h3 style="font-size: 1.25rem; margin-bottom: 10px; color: var(--text-primary);">💡 क्या आपने इस आर्टिकल से कुछ नया सीखा?</h3>
+    <p style="font-size: 1rem; color: var(--text-secondary); margin-bottom: 20px; line-height: 1.5;">
+      अगर आपको हमारी मेहनत की कद्र है और आप चाहते हैं कि यह सही ज्ञान दूसरे छात्रों तक भी पहुँचे, तो इसे अपने दोस्तों, स्कूल के WhatsApp ग्रुप और Facebook पर ज़रूर शेयर करें। <br><strong>ज्ञान बांटने से ही बढ़ता है!</strong>
+    </p>
+    
+    {% set shareUrl = "https://englishvidya.com" + page.url %}
+    {% set shareText = "इसे ज़रूर पढ़ें: " + (title | urlencode) %}
+    
+    <div style="display: flex; gap: 15px; justify-content: center; flex-wrap: wrap;">
+      <a href="https://api.whatsapp.com/send?text={{ shareText | safe }} - {{ shareUrl | urlencode }}" 
+         target="_blank" rel="noopener noreferrer" 
+         style="background: #25D366; color: #fff; padding: 10px 20px; border-radius: 8px; font-weight: bold; text-decoration: none; display: flex; align-items: center; gap: 8px; transition: transform 0.2s;">
+        <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M12.031 0C5.385 0 .002 5.38.002 12.02c0 2.128.555 4.205 1.608 6.035L.063 24l6.096-1.597c1.766.974 3.76 1.488 5.867 1.488h.004c6.645 0 12.027-5.38 12.027-12.022S18.677 0 12.031 0zm0 21.905h-.002c-1.794 0-3.55-.483-5.09-1.396l-.364-.216-3.784.992.992-3.69-.236-.376A9.977 9.977 0 0 1 2.015 12.02c0-5.534 4.502-10.038 10.04-10.038 2.682 0 5.203 1.045 7.098 2.943 1.895 1.896 2.94 4.417 2.94 7.097 0 5.536-4.505 10.04-10.04 10.04zm5.513-7.536c-.302-.152-1.785-.88-2.062-.982-.277-.101-.48-.152-.68.151-.202.302-.782.982-.958 1.183-.178.201-.355.226-.658.075-1.517-.756-2.617-1.458-3.633-2.912-.258-.37-.027-.57.124-.72.136-.135.302-.353.454-.528.15-.176.201-.302.302-.503.1-.2.05-.378-.026-.528-.076-.151-.68-1.64-.932-2.247-.245-.591-.494-.51-.68-.52-.178-.008-.38-.01-.58-.01-.2 0-.528.075-.805.378-.277.302-1.056 1.03-1.056 2.513 0 1.483 1.082 2.916 1.233 3.118.151.202 2.124 3.243 5.143 4.545.718.31 1.278.494 1.716.633.72.228 1.374.196 1.892.119.58-.087 1.785-.73 2.037-1.434.252-.705.252-1.309.176-1.435-.075-.126-.277-.202-.58-.353z"/></svg>
+        WhatsApp पर शेयर करें
+      </a>
+      
+      <a href="https://www.facebook.com/sharer/sharer.php?u={{ shareUrl | urlencode }}" 
+         target="_blank" rel="noopener noreferrer" 
+         style="background: #1877F2; color: #fff; padding: 10px 20px; border-radius: 8px; font-weight: bold; text-decoration: none; display: flex; align-items: center; gap: 8px; transition: transform 0.2s;">
+        <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.469h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.469h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+        Facebook पर शेयर करें
+      </a>
+    </div>
+  </div>
 </div>

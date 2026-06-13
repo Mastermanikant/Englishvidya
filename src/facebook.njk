@@ -1,0 +1,41 @@
+---
+permalink: /facebook/index.html
+eleventyExcludeFromCollections: true
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecting to Facebook...</title>
+    <meta http-equiv="refresh" content="2; url={{ site.facebookPage }}">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VWJHVR3VBL"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-VWJHVR3VBL');
+      
+      gtag('event', 'smart_link_click', {
+        'event_category': 'Outbound Link',
+        'event_label': 'Facebook Page',
+        'event_callback': function() { window.location.href = "{{ site.facebookPage }}"; }
+      });
+      setTimeout(function() { window.location.href = "{{ site.facebookPage }}"; }, 1500);
+    </script>
+    <style>
+        body { font-family: system-ui, sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; background-color: #f0f2f5; color: #1c1e21; text-align: center; }
+        .container { padding: 30px; background: white; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+        .loader { border: 4px solid #f3f3f3; border-top: 4px solid #1877F2; border-radius: 50%; width: 40px; height: 40px; animation: spin 1s linear infinite; margin: 0 auto 20px; }
+        @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+        a { color: #1877F2; text-decoration: none; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="loader"></div>
+        <h2>Redirecting to our Facebook Page...</h2>
+        <p>If you are not redirected automatically, <a href="{{ site.facebookPage }}">click here</a>.</p>
+    </div>
+</body>
+</html>
