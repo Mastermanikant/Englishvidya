@@ -23,7 +23,8 @@
     streak: 'ev-streak',
     lastVisit: 'ev-last-visit',
     fcProgress: 'ev-fc-progress',
-    userName: 'ev-user-name'
+    userName: 'ev-user-name',
+    fcSettings: 'ev-fc-settings'
   };
   const MAX_RECENT = 8;
 
@@ -37,7 +38,16 @@
     fcDeck: [],
     fcIndex: 0,
     fcKnown: 0,
-    fcTransitioning: false
+    fcTransitioning: false,
+    fcSettings: {
+      frontPron: false,
+      frontMeaning: false,
+      autoPlay: false,
+      timerX: 3,
+      timerY: 4
+    },
+    fcTimerXId: null,
+    fcTimerYId: null
   };
 
   // ── DOM References (null-safe) ──
@@ -595,8 +605,55 @@
   // ═══════════════════════════════════════════════════
   //  8. FLASHCARDS PAGE
   // ═══════════════════════════════════════════════════
+  
+  function loadFCSettings() {
+    try {
+      const saved = localStorage.getItem(STORAGE_KEYS.fcSettings);
+      if (saved) {
+        state.fcSettings = { ...state.fcSettings, ...JSON.parse(saved) };
+      }
+    } catch (e) {}
+  }
+  function saveFCSettings() {
+    localStorage.setItem(STORAGE_KEYS.fcSettings, JSON.stringify(state.fcSettings));
+  }
+
+  function stopFCAutoPlay() {
+    clearTimeout(state.fcTimerXId);
+    clearTimeout(state.fcTimerYId);
+  }
+
+  function runFCAutoPlay(container, categories, activeSlug) {
+    stopFCAutoPlay();
+    if (!state.fcSettings.autoPlay) return;
+
+    const flashcard = $('#flashcard');
+    if (!flashcard) return;
+
+    // We are on the front face. Wait timerX seconds.
+    state.fcTimerXId = setTimeout(() => {
+      if (!state.fcSettings.autoPlay) return;
+      
+      // If user wants to skip flip (fast revision), just go next
+      if (state.fcSettings.frontMeaning && state.fcSettings.frontPron) {
+         nextFlashcard(container, categories, activeSlug);
+      } else {
+         // Standard: flip card
+         if (!flashcard.classList.contains('flipped')) {
+           flashcard.classList.add('flipped');
+         }
+         // Wait timerY seconds, then go next
+         state.fcTimerYId = setTimeout(() => {
+            if (!state.fcSettings.autoPlay) return;
+            nextFlashcard(container, categories, activeSlug);
+         }, state.fcSettings.timerY * 1000);
+      }
+    }, state.fcSettings.timerX * 1000);
+  }
+
   async function initFlashcardsPage() {
     const container = $('#flashcards-app');
+    loadFCSettings();
     if (!container) return;
 
     // Get category from dataset (pagination) or URL query param if present
@@ -668,7 +725,23 @@
         ` : ''}
 
         <div class="flashcard-container" style="position: relative; display: flex; flex-direction: column; align-items: center;">
-          <div class="flashcard-progress" style="width: 100%; max-width: 480px;">
+          ${settingsModalHtml}
+          <div style="display: flex; justify-content: space-between; align-items: center; width: 100%; max-width: 480px; margin-bottom: 8px;">
+            <div class="flashcard-progress" style="flex: 1; margin: 0; padding-right: 12px;">
+              <div class="progress-bar-track" style="margin-bottom: 0;">
+                <div class="progress-bar-fill" style="width: ${((state.fcIndex) / total) * 100}%"></div>
+              </div>
+            </div>
+            <span class="progress-text" style="margin-right: 12px; font-size: 0.9rem;">${state.fcIndex + 1}/${total}</span>
+            <div style="display: flex; gap: 12px; align-items: center;">
+              <label style="display: flex; align-items: center; gap: 4px; font-size: 0.9rem; cursor: pointer;">
+                <input type="checkbox" id="fc-autoplay-toggle" ${state.fcSettings.autoPlay ? 'checked' : ''}>
+                Auto
+              </label>
+              <button id="fc-settings-btn" style="background: none; border: none; font-size: 1.2rem; cursor: pointer;" aria-label="Settings">⚙️</button>
+            </div>
+          </div>
+          <div style="display:none;" class="flashcard-progress" style="width: 100%; max-width: 480px;">
             <div class="progress-bar-track">
               <div class="progress-bar-fill" style="width: ${((state.fcIndex) / total) * 100}%"></div>
             </div>
@@ -685,7 +758,10 @@
                     <div class="flashcard-content-wrapper" style="margin: auto 0; display: flex; flex-direction: column; align-items: center; width: 100%;">
                       ${imageHtml}
                       <div class="flashcard-word">${escHtml(word)}</div>
-                      ${pron ? `<div class="flashcard-devanagari-pron">${escHtml(pron)}</div>` : ''}
+                      
+   <div class="flashcard-devanagari-pron" style="display: ${state.fcSettings.frontPron && pron ? 'block' : 'none'};">${pron ? escHtml(pron) : ''}</div>
+   <div class="flashcard-devanagari-meaning" style="font-size: 1.2rem; color: var(--accent); margin-top: var(--sp-2); font-weight: bold; display: ${state.fcSettings.frontMeaning && meaning ? 'block' : 'none'};">${meaning ? escHtml(meaning) : ''}</div>
+
                       <div class="flashcard-hint flashcard-tap-hint" style="margin-top: var(--sp-4); opacity: 0.6;">👆 Tap to reveal</div>
                     </div>
                   </div>
@@ -723,9 +799,48 @@
     `;
 
     // Bind events
+    const settingsBtn = $('#fc-settings-btn');
+    const settingsModal = $('#fc-settings-modal');
+    const settingsClose = $('#fc-settings-close');
+    const autoPlayToggle = $('#fc-autoplay-toggle');
+    
+    if (settingsBtn && settingsModal) {
+      settingsBtn.addEventListener('click', () => {
+        settingsModal.style.display = 'flex';
+        stopFCAutoPlay();
+      });
+      settingsClose.addEventListener('click', () => {
+        state.fcSettings.frontPron = $('#set-front-pron').checked;
+        state.fcSettings.frontMeaning = $('#set-front-meaning').checked;
+        state.fcSettings.timerX = parseInt($('#set-timer-x').value) || 3;
+        state.fcSettings.timerY = parseInt($('#set-timer-y').value) || 4;
+        saveFCSettings();
+        settingsModal.style.display = 'none';
+        renderFlashcardUI(container, categories, activeSlug); // Re-render to apply
+      });
+    }
+    
+    if (autoPlayToggle) {
+      autoPlayToggle.addEventListener('change', (e) => {
+        state.fcSettings.autoPlay = e.target.checked;
+        saveFCSettings();
+        if (state.fcSettings.autoPlay) {
+          runFCAutoPlay(container, categories, activeSlug);
+        } else {
+          stopFCAutoPlay();
+        }
+      });
+    }
+
+    // Trigger AutoPlay if ON
+    if (state.fcSettings.autoPlay) {
+      runFCAutoPlay(container, categories, activeSlug);
+    }
+
     const flashcard = $('#flashcard');
     if (flashcard) {
       flashcard.addEventListener('click', () => {
+        stopFCAutoPlay(); // Manual flip stops autoplay timer
         if (state.fcTransitioning) return;
         flashcard.classList.toggle('flipped');
       });
@@ -791,15 +906,34 @@
     const frontWord = $('.flashcard-front .flashcard-word');
     if (frontWord) frontWord.textContent = parsed.word;
     
-    const frontPron = $('.flashcard-front .flashcard-devanagari-pron');
+        const frontPron = $('.flashcard-front .flashcard-devanagari-pron');
     if (frontPron) {
       if (parsed.pron) {
         frontPron.textContent = parsed.pron;
-        frontPron.style.display = 'block';
+        frontPron.style.display = state.fcSettings.frontPron ? 'block' : 'none';
       } else {
         frontPron.style.display = 'none';
       }
     }
+    const frontMeaning = $('.flashcard-front .flashcard-devanagari-meaning');
+    if (frontMeaning) {
+      if (parsed.meaning) {
+        frontMeaning.textContent = parsed.meaning;
+        frontMeaning.style.display = state.fcSettings.frontMeaning ? 'block' : 'none';
+      } else {
+        frontMeaning.style.display = 'none';
+      }
+    }
+    
+    // Also update image
+    const frontImage = $('.flashcard-front .flashcard-image');
+    if (frontImage) {
+      const itemSlug = parsed.slug || parsed.word.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+      frontImage.src = `/assets/images/flashcards/${itemSlug}.jpg`;
+      frontImage.alt = parsed.word;
+      frontImage.style.display = 'block'; // reset in case previous was hidden via onerror
+    }
+
 
     const backDefinition = $('.flashcard-back .flashcard-definition');
     if (backDefinition) {
@@ -845,7 +979,10 @@
     }
   }
 
+  
   function prevFlashcard(container, categories, activeSlug) {
+    stopFCAutoPlay();
+
     if (state.fcTransitioning || state.fcIndex <= 0) return;
     state.fcIndex--;
     const cardEl = $('#flashcard');
