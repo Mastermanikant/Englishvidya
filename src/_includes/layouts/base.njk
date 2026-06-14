@@ -177,7 +177,37 @@
       padding: 40px 20px !important; 
       margin: 0 auto !important; 
     }
+    
+    /* ── Floating Watermark (Teacher Mode) ── */
+    #ev-watermark {
+      display: none;
+      position: fixed;
+      font-size: 3rem;
+      font-weight: 900;
+      color: var(--text-color);
+      pointer-events: none;
+      z-index: 9999;
+      user-select: none;
+      white-space: nowrap;
+    }
+    body.presenter-mode #ev-watermark {
+      display: block;
+      animation: float-watermark 25s infinite linear, pulse-watermark 6s infinite alternate;
+    }
+    @keyframes float-watermark {
+      0%   { top: 10%; left: 10%; transform: rotate(-10deg); }
+      25%  { top: 80%; left: 30%; transform: rotate(5deg); }
+      50%  { top: 60%; left: 70%; transform: rotate(-5deg); }
+      75%  { top: 20%; left: 60%; transform: rotate(10deg); }
+      100% { top: 10%; left: 10%; transform: rotate(-10deg); }
+    }
+    @keyframes pulse-watermark {
+      0%   { opacity: 0.02; }
+      100% { opacity: 0.06; }
+    }
   </style>
+
+  <div id="ev-watermark" aria-hidden="true">EnglishVidya.com</div>
 
   <div id="text-scaler-widget" class="text-scaler-widget" style="display: none; touch-action: none;" role="region" aria-label="Text Size Adjustment">
     <button id="text-scaler-toggle" class="text-scaler-toggle" aria-label="Adjust text size" aria-expanded="false">
