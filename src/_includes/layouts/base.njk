@@ -71,11 +71,16 @@
   {# ── CSS ── #}
   <link rel="stylesheet" href="/css/style.css?v=1.1">
 
-  {# ── FOUC Prevention + Theme Restore ── #}
+  {# ── FOUC Prevention + Theme / Font-Scale Restore ── #}
   <script>
     (function () {
       var t = localStorage.getItem('ev-theme') || 'dark';
       document.documentElement.setAttribute('data-theme', t);
+      
+      var s = localStorage.getItem('ev-text-scale');
+      if (s) {
+        document.documentElement.style.fontSize = (parseFloat(s) * 100) + '%';
+      }
     })();
   </script>
 
@@ -84,6 +89,14 @@
 </head>
 
 <body>
+  <script>
+    (function() {
+      var s = localStorage.getItem('ev-text-scale');
+      if (s) {
+        document.body.style.fontSize = (17 * parseFloat(s)) + 'px';
+      }
+    })();
+  </script>
 
   {# ── Scroll Progress Bar ── #}
   <div class="scroll-progress-track" aria-hidden="true">
@@ -148,6 +161,152 @@
           });
       });
     }
+  </script>
+
+  {# ── Text Scaling Widget ── #}
+  <div id="text-scaler-widget" class="text-scaler-widget" style="display: none;" role="region" aria-label="Text Size Adjustment">
+    <button id="text-scaler-toggle" class="text-scaler-toggle" aria-label="Adjust text size" aria-expanded="false">
+      Aa
+    </button>
+    <div id="text-scaler-panel" class="text-scaler-panel" aria-hidden="true">
+      <button id="text-scaler-dec" class="panel-btn" aria-label="Decrease text size">A-</button>
+      <span id="text-scaler-value" class="panel-value">100%</span>
+      <button id="text-scaler-inc" class="panel-btn" aria-label="Increase text size">A+</button>
+      <button id="text-scaler-reset" class="panel-btn reset-btn" aria-label="Reset text size">Reset</button>
+      <button id="text-scaler-hide" class="panel-btn hide-btn" aria-label="Hide widget">✕</button>
+    </div>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const widget = document.getElementById('text-scaler-widget');
+      const toggle = document.getElementById('text-scaler-toggle');
+      const panel = document.getElementById('text-scaler-panel');
+      const decBtn = document.getElementById('text-scaler-dec');
+      const incBtn = document.getElementById('text-scaler-inc');
+      const resetBtn = document.getElementById('text-scaler-reset');
+      const hideBtn = document.getElementById('text-scaler-hide');
+      
+      if (!widget || !toggle) return;
+
+      const isHidden = localStorage.getItem('ev-text-scaler-hidden') === 'true';
+      if (!isHidden) {
+        widget.style.display = 'flex';
+      }
+
+      const savedLeft = localStorage.getItem('ev-text-scaler-left');
+      const savedTop = localStorage.getItem('ev-text-scaler-top');
+      if (savedLeft !== null && savedTop !== null) {
+        widget.style.left = savedLeft;
+        widget.style.top = savedTop;
+        widget.style.bottom = 'auto';
+        widget.style.right = 'auto';
+      }
+
+      let currentScale = parseFloat(localStorage.getItem('ev-text-scale') || '1.0');
+      
+      function setScale(scale) {
+        currentScale = Math.max(0.8, Math.min(1.5, scale));
+        document.documentElement.style.fontSize = (currentScale * 100) + '%';
+        document.body.style.fontSize = (17 * currentScale) + 'px';
+        localStorage.setItem('ev-text-scale', currentScale);
+        const valEl = document.getElementById('text-scaler-value');
+        if (valEl) valEl.textContent = Math.round(currentScale * 100) + '%';
+      }
+
+      setScale(currentScale);
+
+      decBtn.addEventListener('click', () => setScale(currentScale - 0.1));
+      incBtn.addEventListener('click', () => setScale(currentScale + 0.1));
+      resetBtn.addEventListener('click', () => setScale(1.0));
+      hideBtn.addEventListener('click', () => {
+        widget.style.display = 'none';
+        localStorage.setItem('ev-text-scaler-hidden', 'true');
+      });
+
+      let isDragging = false;
+      let startX, startY;
+      let initialLeft, initialTop;
+      let dragThreshold = 6;
+
+      function onStart(e) {
+        const clientX = e.type.startsWith('touch') ? e.touches[0].clientX : e.clientX;
+        const clientY = e.type.startsWith('touch') ? e.touches[0].clientY : e.clientY;
+        
+        isDragging = false;
+        startX = clientX;
+        startY = clientY;
+        
+        const rect = widget.getBoundingClientRect();
+        initialLeft = rect.left;
+        initialTop = rect.top;
+        
+        widget.style.bottom = 'auto';
+        widget.style.right = 'auto';
+        widget.style.left = initialLeft + 'px';
+        widget.style.top = initialTop + 'px';
+        
+        if (e.type === 'touchstart') {
+          document.addEventListener('touchmove', onMove, { passive: false });
+          document.addEventListener('touchend', onEnd);
+        } else {
+          document.addEventListener('mousemove', onMove);
+          document.addEventListener('mouseup', onEnd);
+        }
+      }
+
+      function onMove(e) {
+        const clientX = e.type.startsWith('touch') ? e.touches[0].clientX : e.clientX;
+        const clientY = e.type.startsWith('touch') ? e.touches[0].clientY : e.clientY;
+        
+        const dx = clientX - startX;
+        const dy = clientY - startY;
+        
+        if (!isDragging && (Math.abs(dx) > dragThreshold || Math.abs(dy) > dragThreshold)) {
+          isDragging = true;
+        }
+        
+        if (isDragging) {
+          if (e.cancelable) e.preventDefault();
+          
+          let newLeft = initialLeft + dx;
+          let newTop = initialTop + dy;
+          
+          const viewportWidth = window.innerWidth;
+          const viewportHeight = window.innerHeight;
+          const rect = widget.getBoundingClientRect();
+          
+          newLeft = Math.max(10, Math.min(viewportWidth - rect.width - 10, newLeft));
+          newTop = Math.max(10, Math.min(viewportHeight - rect.height - 10, newTop));
+          
+          widget.style.left = newLeft + 'px';
+          widget.style.top = newTop + 'px';
+        }
+      }
+
+      function onEnd(e) {
+        if (e.type === 'touchend') {
+          document.removeEventListener('touchmove', onMove);
+          document.removeEventListener('touchend', onEnd);
+        } else {
+          document.removeEventListener('mousemove', onMove);
+          document.removeEventListener('mouseup', onEnd);
+        }
+        
+        if (isDragging) {
+          localStorage.setItem('ev-text-scaler-left', widget.style.left);
+          localStorage.setItem('ev-text-scaler-top', widget.style.top);
+        } else {
+          const isExpanded = toggle.getAttribute('aria-expanded') === 'true';
+          toggle.setAttribute('aria-expanded', !isExpanded);
+          panel.setAttribute('aria-hidden', isExpanded);
+          panel.classList.toggle('active');
+        }
+      }
+
+      toggle.addEventListener('mousedown', onStart);
+      toggle.addEventListener('touchstart', onStart, { passive: true });
+    });
   </script>
 </body>
 </html>

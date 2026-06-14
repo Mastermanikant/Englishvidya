@@ -292,5 +292,5 @@ Translate the following sentences into Hindi/Mother tongue.
 
 10\. "Me and the Ecology" पाठ के प्रश्न-उत्तर (Q&A;) और नोट्स कहाँ मिलेंगे?
 
-**Answer:** आप इस पेज के ऊपर दिए गए **"Downloads"** सेक्शन में लाल रंग के **"Premium"** बटन पर क्लिक करके सभी प्रश्न-उत्तर, शब्दार्थ और हिंदी नोट्स डाउनलोड कर सकते हैं। विजिट करें: [Englishvidya.com/notes](https://web.archive.org/web/20260120050442/https://englishvidya.com/notes)
+**Answer:** आप इस पेज के ऊपर दिए गए **"Downloads"** सेक्शन में लाल रंग के **"Premium"** बटन पर क्लिक करके सभी प्रश्न-उत्तर, शब्दार्थ और हिंदी नोट्स डाउनलोड कर सकते हैं। विजिट करें: [Englishvidya.com/notes](/all-post/)
 

@@ -5,7 +5,7 @@ description: "Bharat is my home chapter notes, line by line translation and word
 permalink: /bharat-is-my-home-line-by-line-pronunciation-and-hindi-meaning/
 tags:
   - article
-  - class-10
+  - class-12
 views: 1000
 date: 2024-05-15
 ---

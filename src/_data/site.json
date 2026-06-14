@@ -20,8 +20,19 @@
     { "label": "Grammar",    "href": "/grammar/",   "route": "grammar",    "icon": "📖" },
     { "label": "Dictionary", "href": "/dictionary/","route": "dictionary", "icon": "🔤" },
     { "label": "Flashcards", "href": "/flashcards/","route": "flashcards", "icon": "🃏" },
-    { "label": "About Us",   "href": "/about-us/",  "route": "about",      "icon": "ℹ️" },
-    { "label": "Blog",       "href": "/blog/",      "route": "blog",       "icon": "📝" },
+    {
+      "label": "About Us",
+      "href": "#",
+      "route": "about",
+      "icon": "ℹ️",
+      "children": [
+        { "label": "About English Vidya (English)", "href": "/about-us/", "route": "about-us-en" },
+        { "label": "About English Vidya (Hindi)", "href": "/about-us-hindi/", "route": "about-us-hi" },
+        { "label": "About Founder (English)", "href": "/founder-mastermanikant/", "route": "founder-en" },
+        { "label": "About Founder (Hindi)", "href": "/founder-mastermanikant-hindi/", "route": "founder-hi" }
+      ]
+    },
+    { "label": "All Posts",       "href": "/all-post/",      "route": "all-post",       "icon": "📝" },
     { 
       "label": "Classes", 
       "href": "#", 

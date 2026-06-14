@@ -410,6 +410,7 @@ button {
 }
 
 .dropdown-item {
+  white-space: nowrap;
   padding: var(--sp-2) var(--sp-3);
   border-radius: var(--radius-sm);
   color: var(--text-secondary);
@@ -5367,3 +5368,116 @@ body {
   outline: none;
 }
 .markdown-body details p { margin-top: 10px; margin-bottom: 0; font-size: 0.95rem; }
+
+/* ── Text Scaler Widget (Floating & Draggable) ── */
+.text-scaler-widget {
+  position: fixed;
+  bottom: 90px;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  z-index: 9999;
+  font-family: var(--font-body);
+  user-select: none;
+  pointer-events: auto;
+}
+
+/* Toggle Button (Aa) */
+.text-scaler-toggle {
+  width: 48px;
+  height: 48px;
+  border-radius: var(--radius-full);
+  background: var(--gradient-accent);
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-heading);
+  font-weight: 800;
+  font-size: 1.15rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  cursor: grab;
+  transition: transform 0.2s var(--ease-spring), box-shadow 0.2s var(--ease-spring);
+}
+.text-scaler-toggle:active {
+  cursor: grabbing;
+  transform: scale(0.95);
+}
+.text-scaler-toggle:hover {
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+}
+
+/* Control Panel */
+.text-scaler-panel {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-2);
+  background: rgba(22, 32, 50, 0.9);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--border);
+  padding: 6px 12px;
+  border-radius: 30px;
+  margin-left: 10px;
+  opacity: 0;
+  visibility: hidden;
+  transform: scale(0.8) translateX(-10px);
+  transform-origin: left center;
+  transition: opacity 0.25s var(--ease-out), transform 0.25s var(--ease-spring), visibility 0.25s;
+  box-shadow: var(--shadow-lg);
+}
+
+[data-theme="light"] .text-scaler-panel {
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.text-scaler-panel.active {
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1) translateX(0);
+}
+
+/* Panel Buttons */
+.text-scaler-panel .panel-btn {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: var(--bg-hover);
+  color: var(--text-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.9rem;
+  font-weight: bold;
+  border: 1px solid var(--border);
+  transition: all 0.2s ease;
+}
+.text-scaler-panel .panel-btn:hover {
+  background: var(--bg-active);
+  border-color: var(--accent);
+}
+.text-scaler-panel .panel-value {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  min-width: 42px;
+  text-align: center;
+}
+.text-scaler-panel .reset-btn {
+  font-size: 0.75rem;
+  border-radius: 12px;
+  width: auto;
+  padding: 0 8px;
+}
+.text-scaler-panel .hide-btn {
+  background: transparent;
+  border: none;
+  color: var(--text-tertiary);
+  font-size: 0.75rem;
+  margin-left: 2px;
+}
+.text-scaler-panel .hide-btn:hover {
+  color: var(--error);
+  background: transparent;
+}
+
