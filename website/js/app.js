@@ -445,7 +445,7 @@
 
   function parseWord(w) {
     const word = fixMojibake(w.word || w.w || '');
-    let rawPron = fixMojibake(w.pronunciation || w.p || '');
+    let rawPron = fixMojibake(w.pronunciation || w.pron || w.p || '');
     const example = fixMojibake(w.example || w.example_en || w.e || w.ex || '');
     const exampleHindi = fixMojibake(w.exampleHindi || w.example_hi || w.ex_hi || '');
 
