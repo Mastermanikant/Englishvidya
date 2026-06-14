@@ -710,7 +710,7 @@
     const example = parsed.example;
     const pron = parsed.pron;
     const itemSlug = parsed.slug || word.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
-    const imageHtml = `<img src="/assets/images/flashcards/${itemSlug}.jpg" alt="${escHtml(word)}" class="flashcard-image" onerror="this.style.display='none'" style="max-width: 140px; max-height: 140px; border-radius: 12px; margin-bottom: 16px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); object-fit: cover;">`;
+    const imageHtml = `<img src="/assets/images/flashcards/${itemSlug}.webp" alt="${escHtml(word)}" class="flashcard-image" onerror="this.style.display='none'" style="max-width: 140px; max-height: 140px; border-radius: 12px; margin-bottom: 16px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); object-fit: cover;">`;
 
     container.innerHTML = `
       <div class="animate-fade-in">
@@ -929,7 +929,7 @@
     const frontImage = $('.flashcard-front .flashcard-image');
     if (frontImage) {
       const itemSlug = parsed.slug || parsed.word.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
-      frontImage.src = `/assets/images/flashcards/${itemSlug}.jpg`;
+      frontImage.src = `/assets/images/flashcards/${itemSlug}.webp`;
       frontImage.alt = parsed.word;
       frontImage.style.display = 'block'; // reset in case previous was hidden via onerror
     }
