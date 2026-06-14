@@ -648,9 +648,12 @@
 
     const parsed = parseWord(current);
     const word = parsed.word;
-    const meaning = parsed.meaning || parsed.definition;
+    const meaning = parsed.meaning;
+    const definition = parsed.definition;
     const example = parsed.example;
     const pron = parsed.pron;
+    const itemSlug = parsed.slug || word.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+    const imageHtml = `<img src="/assets/images/flashcards/${itemSlug}.jpg" alt="${escHtml(word)}" class="flashcard-image" onerror="this.style.display='none'" style="max-width: 140px; max-height: 140px; border-radius: 12px; margin-bottom: 16px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); object-fit: cover;">`;
 
     container.innerHTML = `
       <div class="animate-fade-in">
@@ -680,6 +683,7 @@
                 <div class="flashcard-face flashcard-front">
                   <div class="flashcard-scroll-container" style="width: 100%; height: 100%; overflow-y: auto; display: flex; flex-direction: column; align-items: center; box-sizing: border-box; padding: var(--sp-4) var(--sp-2);">
                     <div class="flashcard-content-wrapper" style="margin: auto 0; display: flex; flex-direction: column; align-items: center; width: 100%;">
+                      ${imageHtml}
                       <div class="flashcard-word">${escHtml(word)}</div>
                       ${pron ? `<div class="flashcard-devanagari-pron">${escHtml(pron)}</div>` : ''}
                       <div class="flashcard-hint flashcard-tap-hint" style="margin-top: var(--sp-4); opacity: 0.6;">👆 Tap to reveal</div>
@@ -689,7 +693,7 @@
                 <div class="flashcard-face flashcard-back">
                   <div class="flashcard-scroll-container" style="width: 100%; height: 100%; overflow-y: auto; display: flex; flex-direction: column; align-items: center; box-sizing: border-box; padding: var(--sp-4) var(--sp-2);">
                     <div class="flashcard-content-wrapper" style="margin: auto 0; display: flex; flex-direction: column; align-items: center; width: 100%; text-align: center;">
-                      ${parsed.definition ? `<div class="flashcard-definition" style="font-size: 1.05rem; font-weight: 500; color: var(--text-color); margin-bottom: var(--sp-4);">${escHtml(parsed.definition)}</div>` : ''}
+                      ${definition ? `<div class="flashcard-definition" style="font-size: 1.05rem; font-weight: 500; color: var(--text-color); margin-bottom: var(--sp-4);">${escHtml(definition)}</div>` : ''}
                       
                       <div class="flashcard-word" style="font-size: 1.8rem; font-weight: 800; color: var(--text-color);">${escHtml(word)}</div>
                       ${pron ? `<div class="flashcard-devanagari-pron" style="font-size: 1.1rem; color: var(--text-secondary); margin-top: var(--sp-1);">${escHtml(pron)}</div>` : ''}
@@ -707,9 +711,9 @@
           </div>
 
           <div class="flashcard-controls" style="width: 100%; max-width: 480px; gap: 8px; display: grid; grid-template-columns: 1fr 1fr 1fr;">
-            <button class="fc-btn" id="fc-hard" style="background: var(--bg-card); color: #ef4444; border: 1px solid #ef4444;">🔴 Hard</button>
-            <button class="fc-btn" id="fc-good" style="background: var(--bg-card); color: #eab308; border: 1px solid #eab308;">🟡 Good</button>
-            <button class="fc-btn" id="fc-easy" style="background: var(--bg-card); color: #22c55e; border: 1px solid #22c55e;">🟢 Easy</button>
+            <button class="fc-btn" id="fc-hard" style="background: var(--bg-card); color: #ef4444; border: 1px solid #ef4444; font-size: 0.9rem;">🔴 याद नहीं है</button>
+            <button class="fc-btn" id="fc-good" style="background: var(--bg-card); color: #eab308; border: 1px solid #eab308; font-size: 0.9rem;">🟡 थोड़ा याद है</button>
+            <button class="fc-btn" id="fc-easy" style="background: var(--bg-card); color: #22c55e; border: 1px solid #22c55e; font-size: 0.9rem;">🟢 याद हो गया</button>
           </div>
           <div style="width: 100%; max-width: 480px; margin-top: 8px;">
             <button class="fc-btn" id="fc-speak" style="background: var(--accent-soft); color: var(--accent); width: 100%;">🔊 Listen Pronunciation</button>

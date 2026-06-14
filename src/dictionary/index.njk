@@ -1,17 +1,30 @@
 ---
 layout: layouts/base.njk
-pageTitle: "EnglishVidya Dictionary - Coming Soon"
-metaDescription: "EnglishVidya's comprehensive categorized dictionary is currently being reviewed and updated."
+pageTitle: "English Dictionary Categories — English Vidya"
+metaDescription: "Browse our comprehensive English to Hindi dictionary by categories."
 permalink: /dictionary/
 ---
 
-<div style="text-align: center; padding: 100px 20px;">
-    <h1 style="font-size: 3rem; margin-bottom: 20px;">🔤 Dictionary</h1>
-    <h2 style="color: #64748b;">We are currently reviewing and organizing our 19,773 words!</h2>
-    <p style="margin-top: 20px; font-size: 1.1rem; color: #475569;">
-        हमारी डिक्शनरी को V1, V2, V3, Phrasal Verbs, और Daily Use Words की कैटेगरी में बाँटा जा रहा है। <br>
-        <strong>जल्द ही यह आपके लिए उपलब्ध होगी! (Coming Soon)</strong>
-    </p>
-    <br>
-    <a href="/" style="display: inline-block; margin-top: 20px; background: #14b8a6; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none;">Back to Home</a>
+{# Breadcrumb #}
+<nav class="breadcrumb" aria-label="Breadcrumb">
+  <a href="/">Home</a>
+  <span class="breadcrumb-sep" aria-hidden="true">›</span>
+  <span aria-current="page">Dictionary</span>
+</nav>
+
+<div class="hero-welcome animate-fade-in" style="padding-bottom: var(--sp-4);">
+  <h1 style="font-size: 1.5rem;">🔤 English Dictionary</h1>
+  <p class="hero-subtitle">Browse words by category with Hindi meanings and pronunciation.</p>
+</div>
+
+<div class="word-grid animate-fade-in" style="margin-top: var(--sp-6);">
+  {% for cat in categoriesIndex %}
+    <a href="/dictionary/{{ cat.slug }}/" class="word-card" style="text-decoration: none; padding: var(--sp-4); display: flex; align-items: center; gap: var(--sp-3);">
+      <div style="font-size: 2rem;">{{ cat.icon | default('📁') }}</div>
+      <div>
+        <h3 style="margin: 0; color: var(--text-color);">{{ cat.name }}</h3>
+        <p style="margin: 0; font-size: 0.9rem; color: var(--text-secondary);">{{ cat.count }} words</p>
+      </div>
+    </a>
+  {% endfor %}
 </div>

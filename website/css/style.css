@@ -36,10 +36,11 @@
   --duration-normal: 0.25s;
   --duration-slow: 0.4s;
 
-  /* ── Layout ── */
-  --max-width: 720px;
-  --header-height: 60px;
-  --bottom-nav-height: 64px;
+  /* ── MAIN WIDTH & SPACING ── */
+  --max-width: 1000px;
+  --header-height: 70px;
+  --bottom-nav-height: 65px;
+  --nav-height: 60px;
 
   /* ── Light Theme (Default for data-theme="light") ── */
   --bg-base: #f8fafc;
