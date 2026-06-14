@@ -1,800 +1,1178 @@
 [
     {
-        "name": "Academic Vocabulary & Education",
-        "slug": "academic_vocabulary_education",
-        "count": 316,
-        "icon": "🎓"
+        "name": "Fruits",
+        "slug": "fruits",
+        "count": 0,
+        "icon": "🍎",
+        "mainCategory": "Everyday Life & Household",
+        "subCategory": "Food & Dining"
+    },
+    {
+        "name": "Nuts & Dry Fruits",
+        "slug": "nuts-dry-fruits",
+        "count": 0,
+        "icon": "🥜",
+        "mainCategory": "Everyday Life & Household",
+        "subCategory": "Food & Dining"
+    },
+    {
+        "name": "Vegetables",
+        "slug": "vegetables",
+        "count": 0,
+        "icon": "🥦",
+        "mainCategory": "Everyday Life & Household",
+        "subCategory": "Food & Dining"
+    },
+    {
+        "name": "Spices",
+        "slug": "spices",
+        "count": 0,
+        "icon": "🌶️",
+        "mainCategory": "Everyday Life & Household",
+        "subCategory": "Food & Dining"
+    },
+    {
+        "name": "Herbs",
+        "slug": "herbs",
+        "count": 0,
+        "icon": "🌿",
+        "mainCategory": "Everyday Life & Household",
+        "subCategory": "Food & Dining"
+    },
+    {
+        "name": "Grains & Cereals",
+        "slug": "grains-cereals",
+        "count": 0,
+        "icon": "🌾",
+        "mainCategory": "Everyday Life & Household",
+        "subCategory": "Food & Dining"
+    },
+    {
+        "name": "Pulses & Lentils",
+        "slug": "pulses-lentils",
+        "count": 0,
+        "icon": "🥣",
+        "mainCategory": "Everyday Life & Household",
+        "subCategory": "Food & Dining"
+    },
+    {
+        "name": "Dairy Products",
+        "slug": "dairy-products",
+        "count": 0,
+        "icon": "🥛",
+        "mainCategory": "Everyday Life & Household",
+        "subCategory": "Food & Dining"
+    },
+    {
+        "name": "Meat & Animal Products",
+        "slug": "meat-animal-products",
+        "count": 0,
+        "icon": "🥩",
+        "mainCategory": "Everyday Life & Household",
+        "subCategory": "Food & Dining"
+    },
+    {
+        "name": "Hot Beverages",
+        "slug": "hot-beverages",
+        "count": 0,
+        "icon": "☕",
+        "mainCategory": "Everyday Life & Household",
+        "subCategory": "Food & Dining"
+    },
+    {
+        "name": "Cold Beverages",
+        "slug": "cold-beverages",
+        "count": 0,
+        "icon": "🥤",
+        "mainCategory": "Everyday Life & Household",
+        "subCategory": "Food & Dining"
+    },
+    {
+        "name": "Fast Food & Snacks",
+        "slug": "fast-food-snacks",
+        "count": 0,
+        "icon": "🍔",
+        "mainCategory": "Everyday Life & Household",
+        "subCategory": "Food & Dining"
+    },
+    {
+        "name": "Sweets & Desserts",
+        "slug": "sweets-desserts",
+        "count": 0,
+        "icon": "🍬",
+        "mainCategory": "Everyday Life & Household",
+        "subCategory": "Food & Dining"
     },
     {
-        "name": "Accidents & Safety",
-        "slug": "accidents_safety",
-        "count": 30,
-        "icon": "📚"
+        "name": "Cooking Utensils",
+        "slug": "cooking-utensils",
+        "count": 0,
+        "icon": "🍳",
+        "mainCategory": "Everyday Life & Household",
+        "subCategory": "Food & Dining"
     },
     {
-        "name": "Action & Process",
-        "slug": "action_process",
-        "count": 27,
-        "icon": "📚"
+        "name": "Kitchen Appliances",
+        "slug": "kitchen-appliances",
+        "count": 0,
+        "icon": "🔪",
+        "mainCategory": "Everyday Life & Household",
+        "subCategory": "Food & Dining"
     },
     {
-        "name": "Administration",
-        "slug": "administration",
-        "count": 22,
-        "icon": "📚"
+        "name": "Taste Descriptors",
+        "slug": "taste-descriptors",
+        "count": 0,
+        "icon": "👅",
+        "mainCategory": "Everyday Life & Household",
+        "subCategory": "Food & Dining"
     },
     {
-        "name": "Algebra & Calculations",
-        "slug": "algebra_calculations",
-        "count": 29,
-        "icon": "📊"
+        "name": "Cooking Verbs",
+        "slug": "cooking-verbs",
+        "count": 0,
+        "icon": "🔥",
+        "mainCategory": "Everyday Life & Household",
+        "subCategory": "Food & Dining"
     },
     {
-        "name": "Analytical",
-        "slug": "analytical",
-        "count": 54,
-        "icon": "📚"
+        "name": "Clothes & Daily Wear",
+        "slug": "clothes-daily-wear",
+        "count": 0,
+        "icon": "👕",
+        "mainCategory": "Everyday Life & Household",
+        "subCategory": "Clothing & Appearance"
     },
     {
-        "name": "Anger & Frustration",
-        "slug": "anger_frustration",
-        "count": 65,
-        "icon": "📚"
+        "name": "Footwear",
+        "slug": "footwear",
+        "count": 0,
+        "icon": "👟",
+        "mainCategory": "Everyday Life & Household",
+        "subCategory": "Clothing & Appearance"
     },
     {
-        "name": "Animals & Insects",
-        "slug": "animals_insects",
-        "count": 115,
-        "icon": "🐾"
+        "name": "Jewelry",
+        "slug": "jewelry",
+        "count": 0,
+        "icon": "💍",
+        "mainCategory": "Everyday Life & Household",
+        "subCategory": "Clothing & Appearance"
     },
     {
-        "name": "Argument, Debate & Discussion",
-        "slug": "argument_debate_discussion",
-        "count": 79,
-        "icon": "🗣"
+        "name": "Accessories",
+        "slug": "accessories",
+        "count": 0,
+        "icon": "🎒",
+        "mainCategory": "Everyday Life & Household",
+        "subCategory": "Clothing & Appearance"
     },
     {
-        "name": "Arithmetic & Operations",
-        "slug": "arithmetic_operations",
-        "count": 34,
-        "icon": "➕"
+        "name": "Fabrics",
+        "slug": "fabrics",
+        "count": 0,
+        "icon": "🧵",
+        "mainCategory": "Everyday Life & Household",
+        "subCategory": "Clothing & Appearance"
     },
     {
-        "name": "Assert",
-        "slug": "assert",
-        "count": 40,
-        "icon": "📚"
+        "name": "Living Room Furniture",
+        "slug": "living-room-furniture",
+        "count": 0,
+        "icon": "🛋️",
+        "mainCategory": "Everyday Life & Household",
+        "subCategory": "Home & Living"
     },
     {
-        "name": "Automation",
-        "slug": "automation",
-        "count": 21,
-        "icon": "📚"
+        "name": "Bedroom Items",
+        "slug": "bedroom-items",
+        "count": 0,
+        "icon": "🛏️",
+        "mainCategory": "Everyday Life & Household",
+        "subCategory": "Home & Living"
     },
     {
-        "name": "Banking & Accounts",
-        "slug": "banking_accounts",
-        "count": 38,
-        "icon": "💰"
+        "name": "Bathroom & Toiletries",
+        "slug": "bathroom-toiletries",
+        "count": 0,
+        "icon": "🛁",
+        "mainCategory": "Everyday Life & Household",
+        "subCategory": "Home & Living"
     },
     {
-        "name": "Bargaining & Discounts",
-        "slug": "bargaining_discounts",
-        "count": 25,
-        "icon": "📚"
+        "name": "Household Chores",
+        "slug": "household-chores",
+        "count": 0,
+        "icon": "🧹",
+        "mainCategory": "Everyday Life & Household",
+        "subCategory": "Home & Living"
     },
     {
-        "name": "Beverages (Hot & Cold)",
-        "slug": "beverages_hot_cold",
-        "count": 30,
-        "icon": "☕"
+        "name": "Cleaning Supplies",
+        "slug": "cleaning-supplies",
+        "count": 0,
+        "icon": "🧽",
+        "mainCategory": "Everyday Life & Household",
+        "subCategory": "Home & Living"
     },
     {
-        "name": "Birds & Bird Sounds",
-        "slug": "birds_bird_sounds",
-        "count": 93,
-        "icon": "🐦"
-    },
-    {
-        "name": "Building Consensus",
-        "slug": "building_consensus",
-        "count": 32,
-        "icon": "📚"
-    },
-    {
-        "name": "Business, Finance & Workplace English",
-        "slug": "business_finance_workplace_english",
-        "count": 86,
-        "icon": "💼"
-    },
-    {
-        "name": "Cinema & Film Analysis",
-        "slug": "cinema_film_analysis",
-        "count": 27,
-        "icon": "📚"
-    },
-    {
-        "name": "Civic Administration",
-        "slug": "civic_administration",
-        "count": 30,
-        "icon": "📚"
-    },
-    {
-        "name": "Civilizations",
-        "slug": "civilizations",
-        "count": 23,
-        "icon": "📚"
-    },
-    {
-        "name": "Clarify",
-        "slug": "clarify",
-        "count": 32,
-        "icon": "📚"
-    },
-    {
-        "name": "Clothing, Fashion & Accessories",
-        "slug": "clothing_fashion_accessories",
-        "count": 41,
-        "icon": "👕"
-    },
-    {
-        "name": "Collaboration & Tasks",
-        "slug": "collaboration_tasks",
-        "count": 19,
-        "icon": "📚"
-    },
-    {
-        "name": "Collocations & Phrases",
-        "slug": "collocations_phrases",
-        "count": 144,
-        "icon": "🤝"
-    },
-    {
-        "name": "Conflict Resolution",
-        "slug": "conflict_resolution",
-        "count": 30,
-        "icon": "📚"
-    },
-    {
-        "name": "Context",
-        "slug": "context",
-        "count": 59,
-        "icon": "📚"
-    },
-    {
-        "name": "Corporate Accountability",
-        "slug": "corporate_accountability",
-        "count": 28,
-        "icon": "📚"
-    },
-    {
-        "name": "Courtroom & Trials",
-        "slug": "courtroom_trials",
-        "count": 37,
-        "icon": "📚"
-    },
-    {
-        "name": "Creative Writing",
-        "slug": "creative_writing",
-        "count": 28,
-        "icon": "📚"
-    },
-    {
-        "name": "Crimes & Offences",
-        "slug": "crimes_offences",
-        "count": 29,
-        "icon": "📚"
-    },
-    {
-        "name": "Cultural Empathy",
-        "slug": "cultural_empathy",
-        "count": 17,
-        "icon": "📚"
-    },
-    {
-        "name": "Data & File Management",
-        "slug": "data_file_management",
-        "count": 24,
-        "icon": "📚"
-    },
-    {
-        "name": "Dei Core Concepts",
-        "slug": "dei_core_concepts",
-        "count": 29,
-        "icon": "📚"
-    },
-    {
-        "name": "Delegation & Standards",
-        "slug": "delegation_standards",
-        "count": 27,
-        "icon": "📚"
-    },
-    {
-        "name": "Delivery & Tone",
-        "slug": "delivery_tone",
-        "count": 34,
-        "icon": "📚"
-    },
-    {
-        "name": "Dietary Habits",
-        "slug": "dietary_habits",
-        "count": 30,
-        "icon": "📚"
-    },
-    {
-        "name": "Digital Communication & Collaboration",
-        "slug": "digital_communication_collaboration",
-        "count": 18,
-        "icon": "📚"
-    },
-    {
-        "name": "Digital Communication Idioms",
-        "slug": "digital_communication_idioms",
-        "count": 15,
-        "icon": "📚"
-    },
-    {
-        "name": "Diplomatic Phrasing",
-        "slug": "diplomatic_phrasing",
-        "count": 32,
-        "icon": "📚"
-    },
-    {
-        "name": "Discourse Markers",
-        "slug": "discourse_markers",
-        "count": 79,
-        "icon": "🗣"
-    },
-    {
-        "name": "E-Commerce",
-        "slug": "e_commerce",
-        "count": 28,
-        "icon": "🛒"
-    },
-    {
-        "name": "Elections & Voting",
-        "slug": "elections_voting",
-        "count": 34,
-        "icon": "📚"
-    },
-    {
-        "name": "Electronics & Gadgets",
-        "slug": "electronics_gadgets",
-        "count": 16,
-        "icon": "📚"
-    },
-    {
-        "name": "Email",
-        "slug": "email",
-        "count": 21,
-        "icon": "📚"
-    },
-    {
-        "name": "Emotions, Feelings & Wellness",
-        "slug": "emotions_feelings_wellness",
-        "count": 372,
-        "icon": "😊"
-    },
-    {
-        "name": "Energy & Electricity",
-        "slug": "energy_electricity",
-        "count": 35,
-        "icon": "⚡"
-    },
-    {
-        "name": "English",
-        "slug": "english",
-        "count": 25,
-        "icon": "📚"
-    },
-    {
-        "name": "Essentials",
-        "slug": "essentials",
-        "count": 20,
-        "icon": "📚"
-    },
-    {
-        "name": "Etymology",
-        "slug": "etymology",
-        "count": 20,
-        "icon": "📚"
-    },
-    {
-        "name": "Evaluation",
-        "slug": "evaluation",
-        "count": 27,
-        "icon": "📚"
-    },
-    {
-        "name": "Evaluative",
-        "slug": "evaluative",
-        "count": 45,
-        "icon": "📚"
-    },
-    {
-        "name": "Everyday Verbs & Phrasal Verbs",
-        "slug": "everyday_verbs_phrasal_verbs",
-        "count": 25,
-        "icon": "📚"
-    },
-    {
-        "name": "Fake News & Misinformation",
-        "slug": "fake_news_misinformation",
-        "count": 30,
-        "icon": "📚"
-    },
-    {
-        "name": "Fear & Anxiety",
-        "slug": "fear_anxiety",
-        "count": 31,
-        "icon": "📚"
-    },
-    {
-        "name": "Finance/accounting",
-        "slug": "finance_accounting",
-        "count": 23,
-        "icon": "📚"
-    },
-    {
-        "name": "Fitness & Equipment",
-        "slug": "fitness_equipment",
-        "count": 33,
-        "icon": "📚"
-    },
-    {
-        "name": "Fitness & Recovery",
-        "slug": "fitness_recovery",
-        "count": 26,
-        "icon": "📚"
-    },
-    {
-        "name": "Food, Groceries & Taste Descriptors",
-        "slug": "food_groceries_taste_descriptors",
-        "count": 352,
-        "icon": "🍎"
-    },
-    {
-        "name": "Forces & Motion",
-        "slug": "forces_motion",
-        "count": 30,
-        "icon": "⚙"
-    },
-    {
-        "name": "General English Vocabulary",
-        "slug": "general_english_vocabulary",
-        "count": 1693,
-        "icon": "📚"
-    },
-    {
-        "name": "General Future-of-work",
-        "slug": "general_future_of_work",
-        "count": 33,
-        "icon": "📚"
-    },
-    {
-        "name": "Geometry & Shapes",
-        "slug": "geometry_shapes",
-        "count": 41,
-        "icon": "🔶"
-    },
-    {
-        "name": "Gig Economy",
-        "slug": "gig_economy",
-        "count": 17,
-        "icon": "📚"
-    },
-    {
-        "name": "Government Systems",
-        "slug": "government_systems",
-        "count": 23,
-        "icon": "📚"
-    },
-    {
-        "name": "Grammar & Parts of Speech",
-        "slug": "grammar_parts_of_speech",
-        "count": 351,
-        "icon": "📝"
-    },
-    {
-        "name": "Greetings, Social Manners & Polite English",
-        "slug": "greetings_social_manners_polite_english",
-        "count": 267,
-        "icon": "🤝"
-    },
-    {
-        "name": "Health, Diseases & Symptoms",
-        "slug": "health_diseases_symptoms",
-        "count": 142,
-        "icon": "⚕"
-    },
-    {
-        "name": "Hook & Intro",
-        "slug": "hook_intro",
-        "count": 25,
-        "icon": "📚"
-    },
-    {
-        "name": "Household & Daily Chores",
-        "slug": "household_daily_chores",
-        "count": 112,
-        "icon": "🏠"
-    },
-    {
-        "name": "Hygiene",
-        "slug": "hygiene",
-        "count": 24,
-        "icon": "📚"
-    },
-    {
-        "name": "Indoor Gaming",
-        "slug": "indoor_gaming",
-        "count": 41,
-        "icon": "📚"
-    },
-    {
-        "name": "Innovation",
-        "slug": "innovation",
-        "count": 29,
-        "icon": "📚"
-    },
-    {
-        "name": "Instruction",
-        "slug": "instruction",
-        "count": 17,
-        "icon": "📚"
-    },
-    {
-        "name": "Instruction Verbs",
-        "slug": "instruction_verbs",
-        "count": 18,
-        "icon": "📚"
-    },
-    {
-        "name": "Instruments & Sound",
-        "slug": "instruments_sound",
-        "count": 25,
-        "icon": "📚"
-    },
-    {
-        "name": "Legal Rights",
-        "slug": "legal_rights",
-        "count": 20,
-        "icon": "📚"
-    },
-    {
-        "name": "Light Topics",
-        "slug": "light_topics",
-        "count": 30,
-        "icon": "📚"
-    },
-    {
-        "name": "Linking Words & Connectors",
-        "slug": "linking_words_connectors",
-        "count": 90,
-        "icon": "🔗"
-    },
-    {
-        "name": "Literary Terms",
-        "slug": "literary_terms",
-        "count": 24,
-        "icon": "📚"
-    },
-    {
-        "name": "Logistics & Documents",
-        "slug": "logistics_documents",
-        "count": 24,
-        "icon": "📚"
-    },
-    {
-        "name": "Marketing/sales",
-        "slug": "marketing_sales",
-        "count": 20,
-        "icon": "📚"
-    },
-    {
-        "name": "Matter",
-        "slug": "matter",
-        "count": 22,
-        "icon": "📚"
-    },
-    {
-        "name": "Media Manipulation",
-        "slug": "media_manipulation",
-        "count": 28,
-        "icon": "📚"
-    },
-    {
-        "name": "Media Operations",
-        "slug": "media_operations",
-        "count": 18,
-        "icon": "📚"
-    },
-    {
-        "name": "Meetings & Video Calls",
-        "slug": "meetings_video_calls",
-        "count": 17,
-        "icon": "📚"
-    },
-    {
-        "name": "Meetings/negotiation",
-        "slug": "meetings_negotiation",
-        "count": 18,
-        "icon": "📚"
-    },
-    {
-        "name": "Mindfulness Practices",
-        "slug": "mindfulness_practices",
-        "count": 28,
-        "icon": "📚"
-    },
-    {
-        "name": "Musical Notation & Theory",
-        "slug": "musical_notation_theory",
-        "count": 23,
-        "icon": "📚"
-    },
-    {
-        "name": "Nature, Weather & Environment",
-        "slug": "nature_weather_environment",
-        "count": 231,
-        "icon": "🌳"
-    },
-    {
-        "name": "Negotiation Strategies",
-        "slug": "negotiation_strategies",
-        "count": 29,
-        "icon": "📚"
-    },
-    {
-        "name": "Numbers, Time, Measures & Seasons",
-        "slug": "numbers_time_measures_seasons",
-        "count": 50,
-        "icon": "⏰"
-    },
-    {
-        "name": "Nutrient Intake",
-        "slug": "nutrient_intake",
-        "count": 29,
-        "icon": "📚"
-    },
-    {
-        "name": "Outdoor Athletics",
-        "slug": "outdoor_athletics",
-        "count": 23,
-        "icon": "📚"
-    },
-    {
-        "name": "Payments & Transactions",
-        "slug": "payments_transactions",
-        "count": 30,
-        "icon": "📚"
-    },
-    {
-        "name": "Performance & Live Shows",
-        "slug": "performance_live_shows",
-        "count": 27,
-        "icon": "📚"
-    },
-    {
-        "name": "Performance Feedback",
-        "slug": "performance_feedback",
-        "count": 23,
-        "icon": "📚"
-    },
-    {
-        "name": "Philosophy, Logic & Thinking Skills",
-        "slug": "philosophy_logic_thinking_skills",
-        "count": 453,
-        "icon": "🧠"
-    },
-    {
-        "name": "Phonetic Milestones",
-        "slug": "phonetic_milestones",
-        "count": 20,
-        "icon": "📚"
-    },
-    {
-        "name": "Physical Geography",
-        "slug": "physical_geography",
-        "count": 17,
-        "icon": "📚"
-    },
-    {
-        "name": "Police & Arrests",
-        "slug": "police_arrests",
-        "count": 27,
-        "icon": "📚"
-    },
-    {
-        "name": "Print & Digital Press",
-        "slug": "print_digital_press",
-        "count": 23,
-        "icon": "📚"
-    },
-    {
-        "name": "Problem-solving",
-        "slug": "problem_solving",
-        "count": 23,
-        "icon": "📚"
-    },
-    {
-        "name": "Public Policies",
-        "slug": "public_policies",
-        "count": 30,
-        "icon": "📚"
-    },
-    {
-        "name": "Remote Collaboration",
-        "slug": "remote_collaboration",
-        "count": 24,
-        "icon": "📚"
-    },
-    {
-        "name": "Remote Work",
-        "slug": "remote_work",
-        "count": 19,
-        "icon": "📚"
-    },
-    {
-        "name": "Reporting & Editing",
-        "slug": "reporting_editing",
-        "count": 24,
-        "icon": "📚"
-    },
-    {
-        "name": "Retail & Shopping",
-        "slug": "retail_shopping",
-        "count": 27,
-        "icon": "📚"
+        "name": "Tools & Hardware",
+        "slug": "tools-hardware",
+        "count": 0,
+        "icon": "🔨",
+        "mainCategory": "Everyday Life & Household",
+        "subCategory": "Home & Living"
+    },
+    {
+        "name": "External Body Parts",
+        "slug": "external-body-parts",
+        "count": 0,
+        "icon": "👀",
+        "mainCategory": "People, Emotions & Health",
+        "subCategory": "Human Body"
+    },
+    {
+        "name": "Face Parts",
+        "slug": "face-parts",
+        "count": 0,
+        "icon": "👃",
+        "mainCategory": "People, Emotions & Health",
+        "subCategory": "Human Body"
+    },
+    {
+        "name": "Internal Organs",
+        "slug": "internal-organs",
+        "count": 0,
+        "icon": "🫀",
+        "mainCategory": "People, Emotions & Health",
+        "subCategory": "Human Body"
+    },
+    {
+        "name": "Common Diseases",
+        "slug": "common-diseases",
+        "count": 0,
+        "icon": "🤧",
+        "mainCategory": "People, Emotions & Health",
+        "subCategory": "Health & Medicine"
+    },
+    {
+        "name": "Symptoms",
+        "slug": "symptoms",
+        "count": 0,
+        "icon": "🤕",
+        "mainCategory": "People, Emotions & Health",
+        "subCategory": "Health & Medicine"
+    },
+    {
+        "name": "Medicines",
+        "slug": "medicines",
+        "count": 0,
+        "icon": "💊",
+        "mainCategory": "People, Emotions & Health",
+        "subCategory": "Health & Medicine"
+    },
+    {
+        "name": "Medical Tools",
+        "slug": "medical-tools",
+        "count": 0,
+        "icon": "🩺",
+        "mainCategory": "People, Emotions & Health",
+        "subCategory": "Health & Medicine"
+    },
+    {
+        "name": "Doctors & Specialists",
+        "slug": "doctors-specialists",
+        "count": 0,
+        "icon": "👨‍⚕️",
+        "mainCategory": "People, Emotions & Health",
+        "subCategory": "Health & Medicine"
+    },
+    {
+        "name": "Fitness & Exercise",
+        "slug": "fitness-exercise",
+        "count": 0,
+        "icon": "🏋️",
+        "mainCategory": "People, Emotions & Health",
+        "subCategory": "Health & Medicine"
+    },
+    {
+        "name": "Diet & Nutrition",
+        "slug": "diet-nutrition",
+        "count": 0,
+        "icon": "🥗",
+        "mainCategory": "People, Emotions & Health",
+        "subCategory": "Health & Medicine"
+    },
+    {
+        "name": "Personal Hygiene",
+        "slug": "personal-hygiene",
+        "count": 0,
+        "icon": "🧼",
+        "mainCategory": "People, Emotions & Health",
+        "subCategory": "Health & Medicine"
+    },
+    {
+        "name": "Happiness & Joy",
+        "slug": "happiness-joy",
+        "count": 0,
+        "icon": "😄",
+        "mainCategory": "People, Emotions & Health",
+        "subCategory": "Emotions & States of Mind"
     },
     {
         "name": "Sadness & Grief",
-        "slug": "sadness_grief",
-        "count": 29,
-        "icon": "📚"
+        "slug": "sadness-grief",
+        "count": 0,
+        "icon": "😢",
+        "mainCategory": "People, Emotions & Health",
+        "subCategory": "Emotions & States of Mind"
     },
     {
-        "name": "Science",
-        "slug": "science",
-        "count": 21,
-        "icon": "📚"
+        "name": "Anger & Frustration",
+        "slug": "anger-frustration",
+        "count": 0,
+        "icon": "😡",
+        "mainCategory": "People, Emotions & Health",
+        "subCategory": "Emotions & States of Mind"
     },
     {
-        "name": "Shame, Guilt & Embarrassment",
-        "slug": "shame_guilt_embarrassment",
-        "count": 34,
-        "icon": "📚"
+        "name": "Fear & Anxiety",
+        "slug": "fear-anxiety",
+        "count": 0,
+        "icon": "😨",
+        "mainCategory": "People, Emotions & Health",
+        "subCategory": "Emotions & States of Mind"
     },
     {
-        "name": "Sightseeing",
-        "slug": "sightseeing",
-        "count": 23,
-        "icon": "📚"
+        "name": "Shame & Guilt",
+        "slug": "shame-guilt",
+        "count": 0,
+        "icon": "😳",
+        "mainCategory": "People, Emotions & Health",
+        "subCategory": "Emotions & States of Mind"
     },
     {
-        "name": "Social",
-        "slug": "social",
-        "count": 20,
-        "icon": "📚"
+        "name": "Family Members",
+        "slug": "family-members",
+        "count": 0,
+        "icon": "👨‍👩‍👧",
+        "mainCategory": "People, Emotions & Health",
+        "subCategory": "Relationships & Society"
     },
     {
-        "name": "Social Justice & Equity",
-        "slug": "social_justice_equity",
-        "count": 25,
-        "icon": "📚"
+        "name": "Relatives & Extended Family",
+        "slug": "relatives-extended-family",
+        "count": 0,
+        "icon": "👨‍🦳",
+        "mainCategory": "People, Emotions & Health",
+        "subCategory": "Relationships & Society"
     },
     {
-        "name": "Space & Astronomy",
-        "slug": "space_astronomy",
-        "count": 34,
-        "icon": "🚀"
+        "name": "Friends & Acquaintances",
+        "slug": "friends-acquaintances",
+        "count": 0,
+        "icon": "🤝",
+        "mainCategory": "People, Emotions & Health",
+        "subCategory": "Relationships & Society"
     },
     {
-        "name": "Sports Rules",
-        "slug": "sports_rules",
-        "count": 22,
-        "icon": "📚"
+        "name": "Enemies & Rivals",
+        "slug": "enemies-rivals",
+        "count": 0,
+        "icon": "😠",
+        "mainCategory": "People, Emotions & Health",
+        "subCategory": "Relationships & Society"
     },
     {
-        "name": "Stance Markers",
-        "slug": "stance_markers",
-        "count": 20,
-        "icon": "📚"
+        "name": "Romantic Relationships",
+        "slug": "romantic-relationships",
+        "count": 0,
+        "icon": "❤️",
+        "mainCategory": "People, Emotions & Health",
+        "subCategory": "Relationships & Society"
     },
     {
-        "name": "Strategic Leadership",
-        "slug": "strategic_leadership",
-        "count": 21,
-        "icon": "📚"
+        "name": "School & College",
+        "slug": "school-college",
+        "count": 0,
+        "icon": "🏫",
+        "mainCategory": "Education & Career",
+        "subCategory": "Education & Learning"
     },
     {
-        "name": "Strategic Thought",
-        "slug": "strategic_thought",
-        "count": 27,
-        "icon": "📚"
+        "name": "Classroom Items",
+        "slug": "classroom-items",
+        "count": 0,
+        "icon": "🎒",
+        "mainCategory": "Education & Career",
+        "subCategory": "Education & Learning"
     },
     {
-        "name": "Sustainability Logistics",
-        "slug": "sustainability_logistics",
-        "count": 16,
-        "icon": "📚"
+        "name": "Academic Subjects",
+        "slug": "academic-subjects",
+        "count": 0,
+        "icon": "📚",
+        "mainCategory": "Education & Career",
+        "subCategory": "Education & Learning"
     },
     {
-        "name": "Technology, Computers & AI",
-        "slug": "technology_computers_ai",
-        "count": 361,
-        "icon": "💻"
+        "name": "Exams & Evaluation",
+        "slug": "exams-evaluation",
+        "count": 0,
+        "icon": "📝",
+        "mainCategory": "Education & Career",
+        "subCategory": "Education & Learning"
     },
     {
-        "name": "Texture",
-        "slug": "texture",
-        "count": 25,
-        "icon": "📚"
+        "name": "Science & Experiments",
+        "slug": "science-experiments",
+        "count": 0,
+        "icon": "🔬",
+        "mainCategory": "Education & Career",
+        "subCategory": "Education & Learning"
     },
     {
-        "name": "Theater & Dance",
-        "slug": "theater_dance",
-        "count": 24,
-        "icon": "📚"
+        "name": "Professions & Occupations",
+        "slug": "professions-occupations",
+        "count": 0,
+        "icon": "👷",
+        "mainCategory": "Education & Career",
+        "subCategory": "Career & Workplace"
     },
     {
-        "name": "Transitions & Connectives",
-        "slug": "transitions_connectives",
-        "count": 22,
-        "icon": "🔄"
+        "name": "Office Equipment",
+        "slug": "office-equipment",
+        "count": 0,
+        "icon": "🖨️",
+        "mainCategory": "Education & Career",
+        "subCategory": "Career & Workplace"
     },
     {
-        "name": "Translation Trap",
-        "slug": "translation_trap",
-        "count": 66,
-        "icon": "📚"
-    },
-    {
-        "name": "Travel, Transport & Directions",
-        "slug": "travel_transport_directions",
-        "count": 174,
-        "icon": "✈"
-    },
-    {
-        "name": "Upskilling",
-        "slug": "upskilling",
-        "count": 17,
-        "icon": "📚"
-    },
-    {
-        "name": "Vagueness & Approximators",
-        "slug": "vagueness_approximators",
-        "count": 26,
-        "icon": "📚"
-    },
-    {
-        "name": "Visual Arts",
-        "slug": "visual_arts",
-        "count": 26,
-        "icon": "📚"
-    },
-    {
-        "name": "Weak vs Strong Alternatives",
-        "slug": "weak_vs_strong_alternatives",
-        "count": 319,
-        "icon": "📚"
-    },
-    {
-        "name": "Weekend Plans",
-        "slug": "weekend_plans",
-        "count": 33,
-        "icon": "📚"
+        "name": "Resumes & Job Interviews",
+        "slug": "resumes-job-interviews",
+        "count": 0,
+        "icon": "📄",
+        "mainCategory": "Education & Career",
+        "subCategory": "Career & Workplace"
     },
     {
         "name": "Workplace Dynamics",
-        "slug": "workplace_dynamics",
-        "count": 15,
-        "icon": "📚"
+        "slug": "workplace-dynamics",
+        "count": 0,
+        "icon": "🤝",
+        "mainCategory": "Education & Career",
+        "subCategory": "Career & Workplace"
     },
     {
-        "name": "Workplace Inclusivity",
-        "slug": "workplace_inclusivity",
-        "count": 29,
-        "icon": "📚"
+        "name": "Meetings & Presentations",
+        "slug": "meetings-presentations",
+        "count": 0,
+        "icon": "📊",
+        "mainCategory": "Education & Career",
+        "subCategory": "Career & Workplace"
+    },
+    {
+        "name": "Wild Animals",
+        "slug": "wild-animals",
+        "count": 0,
+        "icon": "🦁",
+        "mainCategory": "Nature, Animals & Universe",
+        "subCategory": "Animal Kingdom"
+    },
+    {
+        "name": "Domestic Animals",
+        "slug": "domestic-animals",
+        "count": 0,
+        "icon": "🐄",
+        "mainCategory": "Nature, Animals & Universe",
+        "subCategory": "Animal Kingdom"
+    },
+    {
+        "name": "Pet Animals",
+        "slug": "pet-animals",
+        "count": 0,
+        "icon": "🐕",
+        "mainCategory": "Nature, Animals & Universe",
+        "subCategory": "Animal Kingdom"
+    },
+    {
+        "name": "Birds",
+        "slug": "birds",
+        "count": 0,
+        "icon": "🐦",
+        "mainCategory": "Nature, Animals & Universe",
+        "subCategory": "Animal Kingdom"
+    },
+    {
+        "name": "Sea Creatures",
+        "slug": "sea-creatures",
+        "count": 0,
+        "icon": "🐬",
+        "mainCategory": "Nature, Animals & Universe",
+        "subCategory": "Animal Kingdom"
+    },
+    {
+        "name": "Insects & Bugs",
+        "slug": "insects-bugs",
+        "count": 0,
+        "icon": "🐛",
+        "mainCategory": "Nature, Animals & Universe",
+        "subCategory": "Animal Kingdom"
+    },
+    {
+        "name": "Reptiles",
+        "slug": "reptiles",
+        "count": 0,
+        "icon": "🐍",
+        "mainCategory": "Nature, Animals & Universe",
+        "subCategory": "Animal Kingdom"
+    },
+    {
+        "name": "Weather & Climate",
+        "slug": "weather-climate",
+        "count": 0,
+        "icon": "🌤️",
+        "mainCategory": "Nature, Animals & Universe",
+        "subCategory": "Nature & Earth"
+    },
+    {
+        "name": "Landforms & Mountains",
+        "slug": "landforms-mountains",
+        "count": 0,
+        "icon": "⛰️",
+        "mainCategory": "Nature, Animals & Universe",
+        "subCategory": "Nature & Earth"
+    },
+    {
+        "name": "Rivers & Oceans",
+        "slug": "rivers-oceans",
+        "count": 0,
+        "icon": "🌊",
+        "mainCategory": "Nature, Animals & Universe",
+        "subCategory": "Nature & Earth"
+    },
+    {
+        "name": "Trees & Plants",
+        "slug": "trees-plants",
+        "count": 0,
+        "icon": "🌳",
+        "mainCategory": "Nature, Animals & Universe",
+        "subCategory": "Nature & Earth"
+    },
+    {
+        "name": "Flowers",
+        "slug": "flowers",
+        "count": 0,
+        "icon": "🌻",
+        "mainCategory": "Nature, Animals & Universe",
+        "subCategory": "Nature & Earth"
+    },
+    {
+        "name": "Natural Disasters",
+        "slug": "natural-disasters",
+        "count": 0,
+        "icon": "🌋",
+        "mainCategory": "Nature, Animals & Universe",
+        "subCategory": "Nature & Earth"
+    },
+    {
+        "name": "Space & Planets",
+        "slug": "space-planets",
+        "count": 0,
+        "icon": "🚀",
+        "mainCategory": "Nature, Animals & Universe",
+        "subCategory": "Universe & Science"
+    },
+    {
+        "name": "Energy & Forces",
+        "slug": "energy-forces",
+        "count": 0,
+        "icon": "⚡",
+        "mainCategory": "Nature, Animals & Universe",
+        "subCategory": "Universe & Science"
+    },
+    {
+        "name": "Matter & Physics",
+        "slug": "matter-physics",
+        "count": 0,
+        "icon": "🧪",
+        "mainCategory": "Nature, Animals & Universe",
+        "subCategory": "Universe & Science"
+    },
+    {
+        "name": "Banking & Accounts",
+        "slug": "banking-accounts",
+        "count": 0,
+        "icon": "🏦",
+        "mainCategory": "Business, Tech & Finance",
+        "subCategory": "Business & Finance"
+    },
+    {
+        "name": "Money & Currencies",
+        "slug": "money-currencies",
+        "count": 0,
+        "icon": "💵",
+        "mainCategory": "Business, Tech & Finance",
+        "subCategory": "Business & Finance"
+    },
+    {
+        "name": "E-Commerce & Retail",
+        "slug": "e-commerce-retail",
+        "count": 0,
+        "icon": "🛒",
+        "mainCategory": "Business, Tech & Finance",
+        "subCategory": "Business & Finance"
+    },
+    {
+        "name": "Bargaining & Discounts",
+        "slug": "bargaining-discounts",
+        "count": 0,
+        "icon": "💸",
+        "mainCategory": "Business, Tech & Finance",
+        "subCategory": "Business & Finance"
+    },
+    {
+        "name": "Marketing & Sales",
+        "slug": "marketing-sales",
+        "count": 0,
+        "icon": "📈",
+        "mainCategory": "Business, Tech & Finance",
+        "subCategory": "Business & Finance"
+    },
+    {
+        "name": "Corporate Strategy",
+        "slug": "corporate-strategy",
+        "count": 0,
+        "icon": "🏢",
+        "mainCategory": "Business, Tech & Finance",
+        "subCategory": "Business & Finance"
+    },
+    {
+        "name": "Computers & Hardware",
+        "slug": "computers-hardware",
+        "count": 0,
+        "icon": "📱",
+        "mainCategory": "Business, Tech & Finance",
+        "subCategory": "Technology & Innovation"
+    },
+    {
+        "name": "Gadgets & Electronics",
+        "slug": "gadgets-electronics",
+        "count": 0,
+        "icon": "🎧",
+        "mainCategory": "Business, Tech & Finance",
+        "subCategory": "Technology & Innovation"
+    },
+    {
+        "name": "Internet & Software",
+        "slug": "internet-software",
+        "count": 0,
+        "icon": "🌐",
+        "mainCategory": "Business, Tech & Finance",
+        "subCategory": "Technology & Innovation"
+    },
+    {
+        "name": "AI & Automation",
+        "slug": "ai-automation",
+        "count": 0,
+        "icon": "🤖",
+        "mainCategory": "Business, Tech & Finance",
+        "subCategory": "Technology & Innovation"
+    },
+    {
+        "name": "Government Systems",
+        "slug": "government-systems",
+        "count": 0,
+        "icon": "🏛️",
+        "mainCategory": "Society, Law & Culture",
+        "subCategory": "Government & Law"
+    },
+    {
+        "name": "Elections & Voting",
+        "slug": "elections-voting",
+        "count": 0,
+        "icon": "🗳️",
+        "mainCategory": "Society, Law & Culture",
+        "subCategory": "Government & Law"
+    },
+    {
+        "name": "Police & Law Enforcement",
+        "slug": "police-law-enforcement",
+        "count": 0,
+        "icon": "🚓",
+        "mainCategory": "Society, Law & Culture",
+        "subCategory": "Government & Law"
+    },
+    {
+        "name": "Crimes & Offences",
+        "slug": "crimes-offences",
+        "count": 0,
+        "icon": "🔪",
+        "mainCategory": "Society, Law & Culture",
+        "subCategory": "Government & Law"
+    },
+    {
+        "name": "Courtroom & Trials",
+        "slug": "courtroom-trials",
+        "count": 0,
+        "icon": "⚖️",
+        "mainCategory": "Society, Law & Culture",
+        "subCategory": "Government & Law"
+    },
+    {
+        "name": "Civilizations & History",
+        "slug": "civilizations-history",
+        "count": 0,
+        "icon": "🏛️",
+        "mainCategory": "Society, Law & Culture",
+        "subCategory": "Culture & Humanities"
+    },
+    {
+        "name": "Religion & Beliefs",
+        "slug": "religion-beliefs",
+        "count": 0,
+        "icon": "🛕",
+        "mainCategory": "Society, Law & Culture",
+        "subCategory": "Culture & Humanities"
+    },
+    {
+        "name": "Philosophy & Ethics",
+        "slug": "philosophy-ethics",
+        "count": 0,
+        "icon": "🤔",
+        "mainCategory": "Society, Law & Culture",
+        "subCategory": "Culture & Humanities"
+    },
+    {
+        "name": "Social Justice & Rights",
+        "slug": "social-justice-rights",
+        "count": 0,
+        "icon": "🤝",
+        "mainCategory": "Society, Law & Culture",
+        "subCategory": "Culture & Humanities"
+    },
+    {
+        "name": "Vehicles",
+        "slug": "vehicles",
+        "count": 0,
+        "icon": "🚗",
+        "mainCategory": "Travel, Sports & Entertainment",
+        "subCategory": "Travel & Transport"
+    },
+    {
+        "name": "Modes of Transport",
+        "slug": "modes-of-transport",
+        "count": 0,
+        "icon": "🚂",
+        "mainCategory": "Travel, Sports & Entertainment",
+        "subCategory": "Travel & Transport"
+    },
+    {
+        "name": "Roads & Navigation",
+        "slug": "roads-navigation",
+        "count": 0,
+        "icon": "🛣️",
+        "mainCategory": "Travel, Sports & Entertainment",
+        "subCategory": "Travel & Transport"
+    },
+    {
+        "name": "Tourism & Hotels",
+        "slug": "tourism-hotels",
+        "count": 0,
+        "icon": "🏨",
+        "mainCategory": "Travel, Sports & Entertainment",
+        "subCategory": "Travel & Transport"
+    },
+    {
+        "name": "Outdoor Sports",
+        "slug": "outdoor-sports",
+        "count": 0,
+        "icon": "⚽",
+        "mainCategory": "Travel, Sports & Entertainment",
+        "subCategory": "Sports & Games"
+    },
+    {
+        "name": "Indoor Games",
+        "slug": "indoor-games",
+        "count": 0,
+        "icon": "♟️",
+        "mainCategory": "Travel, Sports & Entertainment",
+        "subCategory": "Sports & Games"
+    },
+    {
+        "name": "Board Games",
+        "slug": "board-games",
+        "count": 0,
+        "icon": "🎲",
+        "mainCategory": "Travel, Sports & Entertainment",
+        "subCategory": "Sports & Games"
+    },
+    {
+        "name": "Sports Equipment",
+        "slug": "sports-equipment",
+        "count": 0,
+        "icon": "🏆",
+        "mainCategory": "Travel, Sports & Entertainment",
+        "subCategory": "Sports & Games"
+    },
+    {
+        "name": "Sports Rules",
+        "slug": "sports-rules",
+        "count": 0,
+        "icon": "📜",
+        "mainCategory": "Travel, Sports & Entertainment",
+        "subCategory": "Sports & Games"
+    },
+    {
+        "name": "Cinema & Movies",
+        "slug": "cinema-movies",
+        "count": 0,
+        "icon": "🎬",
+        "mainCategory": "Travel, Sports & Entertainment",
+        "subCategory": "Arts & Entertainment"
+    },
+    {
+        "name": "Theater & Drama",
+        "slug": "theater-drama",
+        "count": 0,
+        "icon": "🎭",
+        "mainCategory": "Travel, Sports & Entertainment",
+        "subCategory": "Arts & Entertainment"
+    },
+    {
+        "name": "Musical Instruments",
+        "slug": "musical-instruments",
+        "count": 0,
+        "icon": "🎸",
+        "mainCategory": "Travel, Sports & Entertainment",
+        "subCategory": "Arts & Entertainment"
+    },
+    {
+        "name": "Music Genres",
+        "slug": "music-genres",
+        "count": 0,
+        "icon": "🎵",
+        "mainCategory": "Travel, Sports & Entertainment",
+        "subCategory": "Arts & Entertainment"
+    },
+    {
+        "name": "Visual Arts & Dance",
+        "slug": "visual-arts-dance",
+        "count": 0,
+        "icon": "🎨",
+        "mainCategory": "Travel, Sports & Entertainment",
+        "subCategory": "Arts & Entertainment"
+    },
+    {
+        "name": "Print & Digital Media",
+        "slug": "print-digital-media",
+        "count": 0,
+        "icon": "📰",
+        "mainCategory": "Travel, Sports & Entertainment",
+        "subCategory": "Arts & Entertainment"
+    },
+    {
+        "name": "Greetings & Farewells",
+        "slug": "greetings-farewells",
+        "count": 0,
+        "icon": "👋",
+        "mainCategory": "Communication & Grammar",
+        "subCategory": "Conversational English"
+    },
+    {
+        "name": "Agreeing & Disagreeing",
+        "slug": "agreeing-disagreeing",
+        "count": 0,
+        "icon": "👍",
+        "mainCategory": "Communication & Grammar",
+        "subCategory": "Conversational English"
+    },
+    {
+        "name": "Apologizing & Requesting",
+        "slug": "apologizing-requesting",
+        "count": 0,
+        "icon": "🙏",
+        "mainCategory": "Communication & Grammar",
+        "subCategory": "Conversational English"
+    },
+    {
+        "name": "Polite English",
+        "slug": "polite-english",
+        "count": 0,
+        "icon": "👔",
+        "mainCategory": "Communication & Grammar",
+        "subCategory": "Conversational English"
+    },
+    {
+        "name": "Discourse Markers",
+        "slug": "discourse-markers",
+        "count": 0,
+        "icon": "💬",
+        "mainCategory": "Communication & Grammar",
+        "subCategory": "Grammar Markers"
+    },
+    {
+        "name": "Fillers",
+        "slug": "fillers",
+        "count": 0,
+        "icon": "🤐",
+        "mainCategory": "Communication & Grammar",
+        "subCategory": "Grammar Markers"
+    },
+    {
+        "name": "Conjunctions",
+        "slug": "conjunctions",
+        "count": 0,
+        "icon": "🔗",
+        "mainCategory": "Communication & Grammar",
+        "subCategory": "Grammar Markers"
+    },
+    {
+        "name": "Pronouns",
+        "slug": "pronouns",
+        "count": 0,
+        "icon": "📝",
+        "mainCategory": "Communication & Grammar",
+        "subCategory": "Grammar Markers"
+    },
+    {
+        "name": "Prepositions",
+        "slug": "prepositions",
+        "count": 0,
+        "icon": "📍",
+        "mainCategory": "Communication & Grammar",
+        "subCategory": "Grammar Markers"
+    },
+    {
+        "name": "Articles",
+        "slug": "articles",
+        "count": 0,
+        "icon": "🅰️",
+        "mainCategory": "Communication & Grammar",
+        "subCategory": "Grammar Markers"
+    },
+    {
+        "name": "Everyday Phrasal Verbs",
+        "slug": "everyday-phrasal-verbs",
+        "count": 0,
+        "icon": "🚶",
+        "mainCategory": "Idioms, Proverbs & Phrasal Verbs",
+        "subCategory": "Phrasal Verbs"
+    },
+    {
+        "name": "Business Phrasal Verbs",
+        "slug": "business-phrasal-verbs",
+        "count": 0,
+        "icon": "💼",
+        "mainCategory": "Idioms, Proverbs & Phrasal Verbs",
+        "subCategory": "Phrasal Verbs"
+    },
+    {
+        "name": "Common Daily Idioms",
+        "slug": "common-daily-idioms",
+        "count": 0,
+        "icon": "🍰",
+        "mainCategory": "Idioms, Proverbs & Phrasal Verbs",
+        "subCategory": "Idioms & Sayings"
+    },
+    {
+        "name": "Emotion Idioms",
+        "slug": "emotion-idioms",
+        "count": 0,
+        "icon": "🎭",
+        "mainCategory": "Idioms, Proverbs & Phrasal Verbs",
+        "subCategory": "Idioms & Sayings"
+    },
+    {
+        "name": "Personality Idioms",
+        "slug": "personality-idioms",
+        "count": 0,
+        "icon": "😇",
+        "mainCategory": "Idioms, Proverbs & Phrasal Verbs",
+        "subCategory": "Idioms & Sayings"
+    },
+    {
+        "name": "Famous English Proverbs",
+        "slug": "famous-english-proverbs",
+        "count": 0,
+        "icon": "📜",
+        "mainCategory": "Idioms, Proverbs & Phrasal Verbs",
+        "subCategory": "Idioms & Sayings"
+    },
+    {
+        "name": "Colors",
+        "slug": "colors",
+        "count": 0,
+        "icon": "🔴",
+        "mainCategory": "Action Verbs & Descriptive Words",
+        "subCategory": "Descriptive Words / Adjectives"
+    },
+    {
+        "name": "Shapes",
+        "slug": "shapes",
+        "count": 0,
+        "icon": "🔺",
+        "mainCategory": "Action Verbs & Descriptive Words",
+        "subCategory": "Descriptive Words / Adjectives"
+    },
+    {
+        "name": "Sizes",
+        "slug": "sizes",
+        "count": 0,
+        "icon": "📏",
+        "mainCategory": "Action Verbs & Descriptive Words",
+        "subCategory": "Descriptive Words / Adjectives"
+    },
+    {
+        "name": "Textures & Materials",
+        "slug": "textures-materials",
+        "count": 0,
+        "icon": "🧱",
+        "mainCategory": "Action Verbs & Descriptive Words",
+        "subCategory": "Descriptive Words / Adjectives"
+    },
+    {
+        "name": "Positive Character Traits",
+        "slug": "positive-character-traits",
+        "count": 0,
+        "icon": "😊",
+        "mainCategory": "Action Verbs & Descriptive Words",
+        "subCategory": "Descriptive Words / Adjectives"
+    },
+    {
+        "name": "Negative Character Traits",
+        "slug": "negative-character-traits",
+        "count": 0,
+        "icon": "😠",
+        "mainCategory": "Action Verbs & Descriptive Words",
+        "subCategory": "Descriptive Words / Adjectives"
+    },
+    {
+        "name": "Weak vs Strong Alternatives",
+        "slug": "weak-vs-strong-alternatives",
+        "count": 0,
+        "icon": "⚖️",
+        "mainCategory": "Action Verbs & Descriptive Words",
+        "subCategory": "Descriptive Words / Adjectives"
+    },
+    {
+        "name": "Approximators",
+        "slug": "approximators",
+        "count": 0,
+        "icon": "🌫️",
+        "mainCategory": "Action Verbs & Descriptive Words",
+        "subCategory": "Descriptive Words / Adjectives"
+    },
+    {
+        "name": "Physical Actions",
+        "slug": "physical-actions",
+        "count": 0,
+        "icon": "🏃",
+        "mainCategory": "Action Verbs & Descriptive Words",
+        "subCategory": "Action Verbs"
+    },
+    {
+        "name": "Mental Actions",
+        "slug": "mental-actions",
+        "count": 0,
+        "icon": "🧠",
+        "mainCategory": "Action Verbs & Descriptive Words",
+        "subCategory": "Action Verbs"
+    },
+    {
+        "name": "Instruction Verbs",
+        "slug": "instruction-verbs",
+        "count": 0,
+        "icon": "🛠️",
+        "mainCategory": "Action Verbs & Descriptive Words",
+        "subCategory": "Action Verbs"
+    },
+    {
+        "name": "Basic Counting",
+        "slug": "basic-counting",
+        "count": 0,
+        "icon": "🔢",
+        "mainCategory": "Numbers, Time & Measurements",
+        "subCategory": "Numbers & Counting"
+    },
+    {
+        "name": "Large Numbers",
+        "slug": "large-numbers",
+        "count": 0,
+        "icon": "💵",
+        "mainCategory": "Numbers, Time & Measurements",
+        "subCategory": "Numbers & Counting"
+    },
+    {
+        "name": "Order & Position",
+        "slug": "order-position",
+        "count": 0,
+        "icon": "🥇",
+        "mainCategory": "Numbers, Time & Measurements",
+        "subCategory": "Numbers & Counting"
+    },
+    {
+        "name": "Multipliers & Fractions",
+        "slug": "multipliers-fractions",
+        "count": 0,
+        "icon": "✖️",
+        "mainCategory": "Numbers, Time & Measurements",
+        "subCategory": "Numbers & Counting"
+    },
+    {
+        "name": "Days of the Week",
+        "slug": "days-of-the-week",
+        "count": 0,
+        "icon": "📅",
+        "mainCategory": "Numbers, Time & Measurements",
+        "subCategory": "Time & Calendar"
+    },
+    {
+        "name": "Months of the Year",
+        "slug": "months-of-the-year",
+        "count": 0,
+        "icon": "🗓️",
+        "mainCategory": "Numbers, Time & Measurements",
+        "subCategory": "Time & Calendar"
+    },
+    {
+        "name": "Seasons",
+        "slug": "seasons",
+        "count": 0,
+        "icon": "🍂",
+        "mainCategory": "Numbers, Time & Measurements",
+        "subCategory": "Time & Calendar"
+    },
+    {
+        "name": "Telling Time",
+        "slug": "telling-time",
+        "count": 0,
+        "icon": "⌚",
+        "mainCategory": "Numbers, Time & Measurements",
+        "subCategory": "Time & Calendar"
+    },
+    {
+        "name": "Length & Distance",
+        "slug": "length-distance",
+        "count": 0,
+        "icon": "📏",
+        "mainCategory": "Numbers, Time & Measurements",
+        "subCategory": "Measurements"
+    },
+    {
+        "name": "Weight & Mass",
+        "slug": "weight-mass",
+        "count": 0,
+        "icon": "⚖️",
+        "mainCategory": "Numbers, Time & Measurements",
+        "subCategory": "Measurements"
+    },
+    {
+        "name": "Volume & Quantity",
+        "slug": "volume-quantity",
+        "count": 0,
+        "icon": "🧪",
+        "mainCategory": "Numbers, Time & Measurements",
+        "subCategory": "Measurements"
     }
 ]

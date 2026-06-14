@@ -69,7 +69,7 @@
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@600;700;800;900&display=swap"></noscript>
 
   {# ── CSS ── #}
-  <link rel="stylesheet" href="/css/style.css?v=1.1">
+  <link rel="stylesheet" href="/css/style.css?v=1.2">
 
   {# ── FOUC Prevention + Theme / Font-Scale Restore ── #}
   <script>
@@ -126,9 +126,9 @@
   <div id="toast-container" aria-live="polite" aria-atomic="true"></div>
 
   {# ── JS — existing app files ── #}
-  <script src="/js/app.js" defer></script>
+  <script src="/js/app.js?v=1.2" defer></script>
   <script src="/js/home-redesign.js" defer></script>
-  <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+  <script src="/js/alpine.min.js" defer></script>
   {{ extraScripts | safe }}
 
   {# ── PWA Service Worker Registration & Update Notification ── #}

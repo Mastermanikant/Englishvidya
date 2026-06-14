@@ -1,0 +1,182 @@
+[
+    {
+        "word": "Apple",
+        "slug": "apple",
+        "pron": "ऐपल",
+        "meaning": "सेब",
+        "definition": "A round fruit with red or green skin.",
+        "example": "An apple a day keeps the doctor away.",
+        "category": "fruits"
+    },
+    {
+        "word": "Banana",
+        "slug": "banana",
+        "pron": "बनाना",
+        "meaning": "केला",
+        "definition": "A long curved fruit with a yellow skin.",
+        "example": "Monkeys love bananas.",
+        "category": "fruits"
+    },
+    {
+        "word": "Mango",
+        "slug": "mango",
+        "pron": "मैंगो",
+        "meaning": "आम",
+        "definition": "A sweet tropical fruit with a large pit.",
+        "example": "Mango is the king of fruits.",
+        "category": "fruits"
+    },
+    {
+        "word": "Orange",
+        "slug": "orange",
+        "pron": "ऑरेंज",
+        "meaning": "संतरा",
+        "definition": "A round citrus fruit with thick orange skin.",
+        "example": "I drink fresh orange juice every morning.",
+        "category": "fruits"
+    },
+    {
+        "word": "Grapes",
+        "slug": "grapes",
+        "pron": "ग्रेप्स",
+        "meaning": "अंगूर",
+        "definition": "Small green or purple berries growing in bunches.",
+        "example": "These grapes are very sour.",
+        "category": "fruits"
+    },
+    {
+        "word": "Watermelon",
+        "slug": "watermelon",
+        "pron": "वाटरमेलन",
+        "meaning": "तरबूज",
+        "definition": "A large melon with green rind and red juicy flesh.",
+        "example": "Watermelon is perfect for hot summer days.",
+        "category": "fruits"
+    },
+    {
+        "word": "Papaya",
+        "slug": "papaya",
+        "pron": "पपाया",
+        "meaning": "पपीता",
+        "definition": "A tropical fruit with orange flesh and black seeds.",
+        "example": "Papaya is very good for digestion.",
+        "category": "fruits"
+    },
+    {
+        "word": "Guava",
+        "slug": "guava",
+        "pron": "ग्वावा",
+        "meaning": "अमरूद",
+        "definition": "A tropical fruit with pale green skin and pink flesh.",
+        "example": "I like eating guava with a pinch of salt.",
+        "category": "fruits"
+    },
+    {
+        "word": "Pineapple",
+        "slug": "pineapple",
+        "pron": "पाइनएप्पल",
+        "meaning": "अनानास",
+        "definition": "A large tropical fruit with spiky skin and sweet yellow flesh.",
+        "example": "Pineapple adds a tangy flavor to the salad.",
+        "category": "fruits"
+    },
+    {
+        "word": "Pomegranate",
+        "slug": "pomegranate",
+        "pron": "पोमग्रेनेट",
+        "meaning": "अनार",
+        "definition": "A round fruit filled with juicy red seeds.",
+        "example": "Pomegranate juice is very healthy.",
+        "category": "fruits"
+    },
+    {
+        "word": "Strawberry",
+        "slug": "strawberry",
+        "pron": "स्ट्रॉबेरी",
+        "meaning": "स्ट्रॉबेरी",
+        "definition": "A small red fruit with tiny seeds on the outside.",
+        "example": "She loves eating strawberry ice cream.",
+        "category": "fruits"
+    },
+    {
+        "word": "Coconut",
+        "slug": "coconut",
+        "pron": "कोकोनट",
+        "meaning": "नारियल",
+        "definition": "A large nut with a hard shell, white flesh, and water inside.",
+        "example": "We drank fresh coconut water at the beach.",
+        "category": "fruits"
+    },
+    {
+        "word": "Lemon",
+        "slug": "lemon",
+        "pron": "लेमन",
+        "meaning": "नींबू",
+        "definition": "A small, oval citrus fruit with yellow skin and sour juice.",
+        "example": "Squeeze some lemon on the salad.",
+        "category": "fruits"
+    },
+    {
+        "word": "Pear",
+        "slug": "pear",
+        "pron": "पेयर",
+        "meaning": "नाशपाती",
+        "definition": "A sweet fruit that is narrow near the stem and wider at the bottom.",
+        "example": "This pear is very juicy and sweet.",
+        "category": "fruits"
+    },
+    {
+        "word": "Peach",
+        "slug": "peach",
+        "pron": "पीच",
+        "meaning": "आड़ू",
+        "definition": "A round fruit with fuzzy skin and a large pit.",
+        "example": "The peach is soft and delicious.",
+        "category": "fruits"
+    },
+    {
+        "word": "Plum",
+        "slug": "plum",
+        "pron": "प्लम",
+        "meaning": "आलू बुखारा",
+        "definition": "A small, round fruit with smooth skin and a stone in the middle.",
+        "example": "Plums are my favorite summer snack.",
+        "category": "fruits"
+    },
+    {
+        "word": "Cherry",
+        "slug": "cherry",
+        "pron": "चेरी",
+        "meaning": "चेरी",
+        "definition": "A small, round red fruit with a hard stone inside.",
+        "example": "Put a cherry on top of the cake.",
+        "category": "fruits"
+    },
+    {
+        "word": "Kiwi",
+        "slug": "kiwi",
+        "pron": "कीवी",
+        "meaning": "कीवी",
+        "definition": "A small fruit with fuzzy brown skin and green flesh.",
+        "example": "Kiwi has a unique sweet and sour taste.",
+        "category": "fruits"
+    },
+    {
+        "word": "Fig",
+        "slug": "fig",
+        "pron": "फिग",
+        "meaning": "अंजीर",
+        "definition": "A soft, sweet fruit full of tiny seeds.",
+        "example": "Dried figs are very nutritious.",
+        "category": "fruits"
+    },
+    {
+        "word": "Apricot",
+        "slug": "apricot",
+        "pron": "एप्रिकॉट",
+        "meaning": "खुबानी",
+        "definition": "A small, round, orange fruit with a pit.",
+        "example": "Apricots are great for making jam.",
+        "category": "fruits"
+    }
+]

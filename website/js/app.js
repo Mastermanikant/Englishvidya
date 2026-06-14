@@ -14,6 +14,7 @@
   const DATA_BASE = '/data';
   const VOCAB_PATH = `${DATA_BASE}/vocabulary/categories`;
   const SEARCH_INDEX_PATH = `${DATA_BASE}/site/search-index.json`;
+  const ARTICLES_INDEX_PATH = `${DATA_BASE}/site/articles-search-index.json`;
   const CATEGORIES_INDEX_PATH = `${DATA_BASE}/site/categories-index.json`;
   const WHATSAPP_NUMBER = '917070133396';
   const STORAGE_KEYS = {
@@ -29,6 +30,7 @@
   // ── State ──
   const state = {
     searchIndex: null,
+    articlesIndex: null,
     categoriesIndex: null,
     currentCategory: null,
     currentWords: [],
@@ -132,6 +134,13 @@
     return state.searchIndex;
   }
 
+  async function ensureArticlesIndex() {
+    if (!state.articlesIndex) {
+      state.articlesIndex = await loadJSON(ARTICLES_INDEX_PATH);
+    }
+    return state.articlesIndex;
+  }
+
   async function ensureCategoriesIndex() {
     if (!state.categoriesIndex) {
       state.categoriesIndex = await loadJSON(CATEGORIES_INDEX_PATH);
@@ -223,31 +232,54 @@
         return;
       }
 
-      const index = await ensureSearchIndex();
-      if (!index) {
+      const [dictIndex, articlesIndex] = await Promise.all([
+        ensureSearchIndex(),
+        ensureArticlesIndex()
+      ]);
+
+      if (!dictIndex && !articlesIndex) {
         searchResults.innerHTML = '<div class="search-placeholder"><p class="search-hint">⚠️ Search index could not be loaded</p></div>';
         return;
       }
 
       const q = query.toLowerCase().trim();
-      const matches = index.filter(item =>
+
+      // Search articles/chapters
+      const articleMatches = articlesIndex ? articlesIndex.filter(item =>
+        item.t.toLowerCase().includes(q) || (item.d && item.d.toLowerCase().includes(q))
+      ) : [];
+
+      // Search dictionary words
+      const dictMatches = dictIndex ? dictIndex.filter(item =>
         item.w.toLowerCase().includes(q) || item.m.includes(q)
-      ).slice(0, 20);
+      ) : [];
+
+      // Combine matches: articles first, then dictionary words
+      const matches = [...articleMatches.slice(0, 10), ...dictMatches.slice(0, 15)];
 
       if (matches.length === 0) {
         searchResults.innerHTML = `<div class="search-placeholder"><p class="search-hint">😔 No results found for "${escHtml(query)}"</p></div>`;
         return;
       }
 
-      searchResults.innerHTML = matches.map(item => `
-        <a href="/dictionary/?cat=${encodeURIComponent(item.s)}" class="search-result-item" style="text-decoration:none; color:inherit;">
-          <div>
-            <div class="search-result-word">${escHtml(item.w)}</div>
-            <div class="search-result-meaning">${escHtml(item.m)}</div>
-          </div>
-          <span class="search-result-category">${escHtml(item.s.replace(/_/g, ' '))}</span>
-        </a>
-      `).join('');
+      searchResults.innerHTML = matches.map(item => {
+        const isArticle = !!item.u;
+        const linkHref = isArticle ? item.u : `/dictionary/?cat=${encodeURIComponent(item.s)}`;
+        const displayName = isArticle ? item.t : item.w;
+        const displayMeaning = isArticle ? (item.d || 'Chapter Notes & Summary') : item.m;
+        const displayCategory = isArticle ? item.c : item.s.replace(/_/g, ' ');
+        const badgeClass = isArticle ? 'search-result-category article-badge' : 'search-result-category';
+
+        return `
+          <a href="${linkHref}" class="search-result-item" style="text-decoration:none; color:inherit;">
+            <div>
+              <div class="search-result-word">${escHtml(displayName)}</div>
+              <div class="search-result-meaning">${escHtml(displayMeaning)}</div>
+            </div>
+            <span class="${badgeClass}">${escHtml(displayCategory)}</span>
+          </a>
+        `;
+      }).join('');
 
       searchResults.querySelectorAll('.search-result-item').forEach(el => {
         el.addEventListener('click', () => {
@@ -730,7 +762,7 @@
     if (categories) {
       $$('#fc-category-chips .category-chip').forEach(chip => {
         chip.addEventListener('click', () => {
-          window.location.href = '/flashcards/?cat=' + encodeURIComponent(chip.dataset.slug);
+          window.location.href = `/flashcards/${chip.dataset.slug}/`;
         });
       });
     }
@@ -1298,8 +1330,11 @@
     // Page-specific features
     detectAndInitPage();
 
-    // Pre-load search index in background
-    setTimeout(() => ensureSearchIndex(), 2000);
+    // Pre-load search indices in background
+    setTimeout(() => {
+      ensureSearchIndex();
+      ensureArticlesIndex();
+    }, 2000);
   }
 
   // Boot Application

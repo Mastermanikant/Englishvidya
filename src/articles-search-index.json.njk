@@ -1,0 +1,38 @@
+---
+permalink: /data/site/articles-search-index.json
+eleventyExcludeFromCollections: true
+---
+[
+  {%- set comma = false -%}
+  {%- for page in collections.all -%}
+    {%- if page.url and (page.data.title or page.data.pageTitle) and not page.data.eleventyExcludeFromCollections -%}
+      {%- set title = page.data.title or page.data.pageTitle -%}
+      {%- set desc = page.data.description or page.data.metaDescription or "" -%}
+      {%- set category = "" -%}
+      {%- if "/class-10/" in page.filePathStem -%}
+        {%- set category = "Class 10th" -%}
+      {%- elif "/class-12/" in page.filePathStem -%}
+        {%- set category = "Class 12th" -%}
+      {%- elif "/grammar/" in page.filePathStem -%}
+        {%- set category = "Grammar" -%}
+      {%- elif "/about-us/" in page.filePathStem or "/about-us-hindi/" in page.filePathStem or "/about-englishvidya/" in page.filePathStem -%}
+        {%- set category = "About" -%}
+      {%- elif "/founder-mastermanikant/" in page.filePathStem or "/founder-mastermanikant-hindi/" in page.filePathStem -%}
+        {%- set category = "Founder" -%}
+      {%- elif page.url == "/" -%}
+        {%- set category = "Home" -%}
+      {%- endif -%}
+      
+      {%- if category -%}
+        {%- if comma -%},{%- endif -%}
+        {
+          "t": {{ title | jsonify | safe }},
+          "u": {{ page.url | jsonify | safe }},
+          "d": {{ desc | jsonify | safe }},
+          "c": {{ category | jsonify | safe }}
+        }
+        {%- set comma = true -%}
+      {%- endif -%}
+    {%- endif -%}
+  {%- endfor -%}
+]

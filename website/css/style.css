@@ -462,6 +462,17 @@ button {
   font-weight: 600;
 }
 
+.search-result-category.article-badge {
+  color: #38bdf8;
+  background: rgba(56, 189, 248, 0.15);
+  border: 1px solid rgba(56, 189, 248, 0.3);
+}
+[data-theme="light"] .search-result-category.article-badge {
+  color: #0284c7;
+  background: rgba(2, 132, 199, 0.1);
+  border-color: rgba(2, 132, 199, 0.2);
+}
+
 .recent-tag {
   display: inline-block;
   padding: var(--sp-2) var(--sp-3);
