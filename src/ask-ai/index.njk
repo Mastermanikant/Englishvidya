@@ -172,7 +172,7 @@ breadcrumbs:
         </div>
     </div>
 
-    <div class="ai-summarizer-wrapper" id="ai-widget-container" style="display: none;">
+    <div class="ai-summarizer-wrapper" id="ai-widget-container">
         <h3 class="ai-summarizer-title">
             <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--accent);"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
             Choose your AI to get started:
@@ -202,12 +202,13 @@ breadcrumbs:
 <script>
 document.addEventListener('DOMContentLoaded', () => {
     const checkboxes = document.querySelectorAll('#topics-container input[type="checkbox"]');
-    const aiWidget = document.getElementById('ai-widget-container');
     
     const btnChatgpt = document.getElementById('btn-chatgpt');
     const btnGoogle = document.getElementById('btn-google');
     const btnClaude = document.getElementById('btn-claude');
     const btnGrok = document.getElementById('btn-grok');
+    
+    const aiBtns = [btnChatgpt, btnGoogle, btnClaude, btnGrok];
 
     function updateAILinks() {
         const selectedTopics = Array.from(checkboxes)
@@ -216,10 +217,20 @@ document.addEventListener('DOMContentLoaded', () => {
             .join('\n');
 
         if (selectedTopics.length === 0) {
-            aiWidget.style.display = 'none';
+            aiBtns.forEach(btn => {
+                btn.removeAttribute('href');
+                btn.style.opacity = '0.6';
+                btn.onclick = (e) => {
+                    e.preventDefault();
+                    alert('Please select at least one topic first!');
+                };
+            });
             return;
         } else {
-            aiWidget.style.display = 'flex';
+            aiBtns.forEach(btn => {
+                btn.style.opacity = '1';
+                btn.onclick = null;
+            });
         }
 
         const promptText = `Act as an expert English teacher for a Hindi-medium student. Teach me about the following topics:
