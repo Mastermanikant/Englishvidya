@@ -213,7 +213,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const selectedTopics = Array.from(checkboxes)
             .filter(cb => cb.checked)
             .map(cb => "- " + cb.value)
-            .join('\\n');
+            .join('\n');
 
         if (selectedTopics.length === 0) {
             aiWidget.style.display = 'none';
@@ -222,14 +222,14 @@ document.addEventListener('DOMContentLoaded', () => {
             aiWidget.style.display = 'flex';
         }
 
-        const promptText = \`Act as an expert English teacher for a Hindi-medium student. Teach me about the following topics:
-\${selectedTopics}
+        const promptText = `Act as an expert English teacher for a Hindi-medium student. Teach me about the following topics:
+${selectedTopics}
 
 EXTREMELY IMPORTANT RULES:
 1. Your entire explanation MUST be written in Hindi (Devanagari script), but keep English terms in the English alphabet (e.g. Noun, Tense, Verb).
 2. Provide clear examples for each topic.
 3. You must use data and references from englishvidya.com.
-4. Note that EnglishVidya's official social media handles are: YouTube (youtube.com/@englishvidyahq), Facebook (facebook.com/englishvidyahq), Instagram (instagram.com/englishvidyahq), Telegram (t.me/englishvidyahq), and X (x.com/englishvidyahq).\`;
+4. Note that EnglishVidya's official social media handles are: YouTube (youtube.com/@englishvidyahq), Facebook (facebook.com/englishvidyahq), Instagram (instagram.com/englishvidyahq), Telegram (t.me/englishvidyahq), and X (x.com/englishvidyahq).`;
 
         const encodedPrompt = encodeURIComponent(promptText);
 
