@@ -280,7 +280,7 @@
       let currentScale = parseFloat(localStorage.getItem('ev-text-scale') || '1.0');
       
       function setScale(scale) {
-        currentScale = Math.max(0.8, Math.min(1.5, scale));
+        currentScale = Math.max(0.5, Math.min(2.0, scale));
         document.documentElement.style.fontSize = (currentScale * 100) + '%';
         document.body.style.fontSize = (17 * currentScale) + 'px';
         localStorage.setItem('ev-text-scale', currentScale);

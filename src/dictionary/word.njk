@@ -1,0 +1,154 @@
+---
+layout: layouts/base.njk
+pagination:
+  data: allWords
+  size: 1
+  alias: wordEntry
+permalink: /dictionary/{{ wordEntry.slug }}/
+eleventyComputed:
+  pageTitle: "Meaning of {{ wordEntry.word }} in Hindi — English Vidya"
+  metaDescription: "Learn the Hindi meaning, pronunciation ({{ wordEntry.pron }}), definition, and example sentences for the English word '{{ wordEntry.word }}'."
+  schemaJson: |
+    {
+      "@context": "https://schema.org",
+      "@type": "DefinedTerm",
+      "name": "{{ wordEntry.word | escape }}",
+      "description": "{{ (wordEntry.definition or wordEntry.meaning) | escape }}",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "English Vidya Vocabulary Dictionary",
+        "url": "https://englishvidya.com/dictionary/"
+      }
+    }
+---
+
+{# Breadcrumb #}
+<nav class="breadcrumb" aria-label="Breadcrumb">
+  <a href="/">Home</a>
+  <span class="breadcrumb-sep" aria-hidden="true">›</span>
+  <a href="/dictionary/">Dictionary</a>
+  <span class="breadcrumb-sep" aria-hidden="true">›</span>
+  {# Find Category Name #}
+  {% set catName = wordEntry.category %}
+  {% set catIcon = '📁' %}
+  {% for cat in categoriesIndex %}
+    {% if cat.slug == wordEntry.category %}
+      {% set catName = cat.name %}
+      {% set catIcon = cat.icon %}
+    {% endif %}
+  {% endfor %}
+  <a href="/dictionary/{{ wordEntry.category }}/">{{ catIcon }} {{ catName }}</a>
+  <span class="breadcrumb-sep" aria-hidden="true">›</span>
+  <span aria-current="page">{{ wordEntry.word }}</span>
+</nav>
+
+<div style="margin-top: var(--sp-6); display: flex; flex-direction: column; gap: var(--sp-6);">
+  <div class="card" style="border-left: 4px solid var(--accent); padding: var(--sp-6); display: flex; justify-content: space-between; align-items: flex-start; gap: 24px; flex-wrap: wrap;">
+    <div style="flex: 1; min-width: 280px;">
+      {# Main single line header as requested #}
+      <div style="display: flex; align-items: center; gap: 12px; flex-wrap: wrap; margin-bottom: var(--sp-4);">
+        <h1 style="margin: 0; font-size: 2.2rem; display: flex; align-items: center; gap: 10px; color: var(--text-main);">
+          {{ wordEntry.word }}
+          <button onclick="speakWord('{{ wordEntry.word | escape }}')" style="background:none; border:none; cursor:pointer; font-size:1.6rem; padding:0; display: inline-flex; align-items: center; justify-content: center;" title="Listen">🔊</button>
+        </h1>
+        {% if wordEntry.pron %}
+          <span style="font-size: 1.3rem; color: var(--text-secondary);">( {{ wordEntry.pron }} )</span>
+        {% endif %}
+        {% if wordEntry.meaning %}
+          <span style="font-size: 1.6rem; font-weight: bold; color: var(--accent); margin-left: 8px;">{{ wordEntry.meaning }}</span>
+        {% endif %}
+      </div>
+
+      {# Word Info Cards #}
+      <div style="display: flex; flex-direction: column; gap: 16px; margin-top: 24px; padding-top: 16px; border-top: 1px dashed var(--border);">
+        {% if wordEntry.definition %}
+          <div>
+            <h3 style="margin: 0 0 6px 0; font-size: 1rem; color: var(--text-secondary); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em;">Definition</h3>
+            <p style="margin: 0; font-size: 1.1rem; line-height: 1.5; color: var(--text-main);">{{ wordEntry.definition }}</p>
+          </div>
+        {% endif %}
+
+        {% if wordEntry.example %}
+          <div>
+            <h3 style="margin: 0 0 6px 0; font-size: 1rem; color: var(--text-secondary); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em;">Example Sentence</h3>
+            <div style="font-style: italic; font-size: 1.1rem; color: var(--text-main); border-left: 3px solid var(--border); padding-left: var(--sp-3); margin-top: 4px;">
+              "{{ wordEntry.example }}"
+            </div>
+          </div>
+        {% endif %}
+      </div>
+    </div>
+
+    {# Image displaying with full-screen popup button #}
+    <div class="card-image-wrapper" id="word-img-wrapper" style="position: relative; width: 280px; height: 200px; border-radius: 12px; overflow: hidden; flex-shrink: 0; box-shadow: 0 10px 20px rgba(0,0,0,0.25);">
+      <img src="/assets/images/flashcards/{{ wordEntry.slug }}.webp" onerror="document.getElementById('word-img-wrapper').style.display='none'" style="width: 100%; height: 100%; object-fit: cover;" alt="{{ wordEntry.word }}">
+      <button onclick="openImageModal('/assets/images/flashcards/{{ wordEntry.slug }}.webp')" style="position: absolute; right: 12px; top: 12px; background: rgba(0,0,0,0.6); color: white; border: none; border-radius: 6px; width: 36px; height: 36px; display: flex; align-items: center; justify-content: center; cursor: pointer; transition: background 0.2s;" title="View Fullscreen" onmouseover="this.style.background='rgba(0,0,0,0.8)'" onmouseout="this.style.background='rgba(0,0,0,0.6)'">⛶</button>
+    </div>
+  </div>
+
+  {# Related Words Section #}
+  <div style="margin-top: var(--sp-4);">
+    <h2 style="font-size: 1.3rem; margin-bottom: 16px;">Other Words in {{ catName }}</h2>
+    <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+      {% set count = 0 %}
+      {% for w in allWords %}
+        {% if w.category == wordEntry.category and w.slug != wordEntry.slug and count < 8 %}
+          <a href="/dictionary/{{ w.slug }}/" class="panel-btn" style="text-decoration: none; font-size: 0.9rem; padding: 8px 16px; background: var(--bg-card); border: 1px solid var(--border); border-radius: 6px; color: var(--text-main); font-weight: 500; transition: transform 0.2s, border-color 0.2s;" onmouseover="this.style.borderColor='var(--accent)';" onmouseout="this.style.borderColor='var(--border)';">
+            {{ w.word }}
+          </a>
+          {% set count = count + 1 %}
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+<script>
+  function speakWord(text) {
+    if ('speechSynthesis' in window) {
+      const utterance = new SpeechSynthesisUtterance(text);
+      utterance.lang = 'en-US';
+      window.speechSynthesis.speak(utterance);
+    } else {
+      alert("Text-to-speech is not supported in this browser.");
+    }
+  }
+
+  function openImageModal(src) {
+    let modal = document.getElementById('image-fullscreen-modal');
+    if (!modal) {
+      modal = document.createElement('div');
+      modal.id = 'image-fullscreen-modal';
+      modal.style = `
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background: rgba(0,0,0,0.9);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 10000;
+        cursor: pointer;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+      `;
+      modal.innerHTML = `
+        <img id="fullscreen-modal-img" style="max-width: 90%; max-height: 90%; object-fit: contain; border-radius: 8px; box-shadow: 0 10px 25px rgba(0,0,0,0.5);" />
+        <button style="position: absolute; top: 20px; right: 20px; background: none; border: none; color: white; font-size: 2rem; cursor: pointer;">&times;</button>
+      `;
+      modal.onclick = () => {
+        modal.style.opacity = '0';
+        setTimeout(() => { modal.style.display = 'none'; }, 300);
+      };
+      document.body.appendChild(modal);
+    }
+    const img = document.getElementById('fullscreen-modal-img');
+    img.src = src;
+    modal.style.display = 'flex';
+    // Force reflow
+    modal.offsetHeight;
+    modal.style.opacity = '1';
+  }
+</script>
