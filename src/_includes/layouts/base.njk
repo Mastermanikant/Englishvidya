@@ -250,6 +250,29 @@
         widget.style.display = 'flex';
       }
 
+      function togglePanelState() {
+        const isExpanded = toggle.getAttribute('aria-expanded') === 'true';
+        const nextState = !isExpanded;
+        toggle.setAttribute('aria-expanded', nextState);
+        panel.setAttribute('aria-hidden', !nextState);
+        panel.classList.toggle('active', nextState);
+
+        // If opening, ensure it doesn't overflow the right edge of the screen
+        if (nextState) {
+          requestAnimationFrame(() => {
+            const rect = widget.getBoundingClientRect();
+            const viewportWidth = window.innerWidth;
+            if (rect.right > viewportWidth - 10) {
+              const overflow = rect.right - (viewportWidth - 10);
+              let newLeft = rect.left - overflow;
+              newLeft = Math.max(10, newLeft);
+              widget.style.left = newLeft + 'px';
+              localStorage.setItem('ev-text-scaler-left', widget.style.left);
+            }
+          });
+        }
+      }
+
       function toggleScaler(e) {
         if (e) {
           e.preventDefault();
@@ -260,10 +283,7 @@
         widget.style.display = 'flex';
         localStorage.setItem('ev-text-scaler-hidden', 'false');
         
-        const isExpanded = toggle.getAttribute('aria-expanded') === 'true';
-        toggle.setAttribute('aria-expanded', !isExpanded);
-        panel.setAttribute('aria-hidden', isExpanded);
-        panel.classList.toggle('active');
+        togglePanelState();
       }
 
       if (headerBtn) {
@@ -378,8 +398,13 @@
           const viewportHeight = window.innerHeight;
           const rect = widget.getBoundingClientRect();
           
-          newLeft = Math.max(10, Math.min(viewportWidth - rect.width - 10, newLeft));
-          newTop = Math.max(10, Math.min(viewportHeight - rect.height - 10, newTop));
+          // Calculate boundaries based on whether the panel is active/open
+          const isPanelActive = panel.classList.contains('active');
+          const visibleWidth = isPanelActive ? rect.width : toggle.getBoundingClientRect().width;
+          const visibleHeight = isPanelActive ? rect.height : toggle.getBoundingClientRect().height;
+          
+          newLeft = Math.max(10, Math.min(viewportWidth - visibleWidth - 10, newLeft));
+          newTop = Math.max(10, Math.min(viewportHeight - visibleHeight - 10, newTop));
           
           widget.style.left = newLeft + 'px';
           widget.style.top = newTop + 'px';
@@ -399,10 +424,7 @@
           localStorage.setItem('ev-text-scaler-left', widget.style.left);
           localStorage.setItem('ev-text-scaler-top', widget.style.top);
         } else {
-          const isExpanded = toggle.getAttribute('aria-expanded') === 'true';
-          toggle.setAttribute('aria-expanded', !isExpanded);
-          panel.setAttribute('aria-hidden', isExpanded);
-          panel.classList.toggle('active');
+          togglePanelState();
         }
       }
 
