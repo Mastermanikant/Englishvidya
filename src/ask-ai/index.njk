@@ -1,0 +1,246 @@
+---
+layout: layouts/base.njk
+pageTitle: "Know More With AI - EnglishVidya"
+metaDescription: "Select what you want to learn and instantly generate a personalized, Hindi-medium AI prompt to master English grammar, vocabulary, and translation."
+permalink: /ask-ai/
+breadcrumbs:
+  - { label: "Home", url: "/" }
+  - { label: "Ask AI" }
+---
+
+<style>
+.ask-ai-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: var(--sp-4) var(--sp-4) var(--sp-12);
+}
+
+.ask-ai-header {
+    text-align: center;
+    margin-bottom: var(--sp-8);
+}
+
+.ask-ai-header h1 {
+    font-size: 2.2rem;
+    color: var(--text-primary);
+    margin-bottom: var(--sp-2);
+}
+
+.ask-ai-header p {
+    color: var(--text-secondary);
+    font-size: 1.1rem;
+}
+
+.topic-list {
+    background: var(--bg-raised);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    padding: var(--sp-6);
+    margin-bottom: var(--sp-8);
+    box-shadow: var(--shadow-sm);
+}
+
+.topic-list h2 {
+    font-size: 1.3rem;
+    margin-top: 0;
+    margin-bottom: var(--sp-4);
+    color: var(--text-primary);
+    border-bottom: 2px solid var(--accent);
+    padding-bottom: var(--sp-2);
+    display: inline-block;
+}
+
+.checkbox-group {
+    display: flex;
+    flex-direction: column;
+    gap: var(--sp-3);
+}
+
+.checkbox-label {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 1.1rem;
+    color: var(--text-primary);
+    cursor: pointer;
+    padding: 8px 12px;
+    border-radius: var(--radius-md);
+    transition: background 0.2s;
+}
+
+.checkbox-label:hover {
+    background: var(--bg-hover);
+}
+
+.checkbox-label input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    accent-color: var(--accent);
+    cursor: pointer;
+}
+
+/* AI Widget Styles Reused */
+.ai-summarizer-wrapper {
+  padding: var(--sp-6);
+  background: var(--bg-raised);
+  border: 1px solid var(--accent);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-4);
+  text-align: center;
+}
+
+.ai-summarizer-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.ai-buttons-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--sp-3);
+}
+
+.ai-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  background: var(--bg-default);
+  border: 2px solid var(--border);
+  border-radius: var(--radius-md);
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  text-decoration: none;
+  transition: all var(--duration-fast);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.ai-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transform: translateY(-2px);
+}
+
+.ai-icon {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}
+</style>
+
+<div class="ask-ai-container animate-fade-in">
+    <div class="ask-ai-header">
+        <h1>🤖 Know More With AI</h1>
+        <p>आप इंग्लिश में क्या सीखना चाहते हैं? टॉपिक चुनें और अपना मनपसंद AI सेलेक्ट करें। AI आपको बिल्कुल आसान हिंदी में सब कुछ सिखाएगा!</p>
+    </div>
+
+    <div class="topic-list">
+        <h2>Select Topics to Learn:</h2>
+        <div class="checkbox-group" id="topics-container">
+            <label class="checkbox-label">
+                <input type="checkbox" value="English Grammar Rules">
+                📖 English Grammar Rules
+            </label>
+            <label class="checkbox-label">
+                <input type="checkbox" value="Daily Use Vocabulary">
+                🔤 Daily Use Vocabulary
+            </label>
+            <label class="checkbox-label">
+                <input type="checkbox" value="Translation Practice (Hindi to English)">
+                🔄 Translation Practice (Hindi to English)
+            </label>
+            <label class="checkbox-label">
+                <input type="checkbox" value="Job Interview Practice">
+                💼 Job Interview Practice
+            </label>
+            <label class="checkbox-label">
+                <input type="checkbox" value="Common Mistakes in English">
+                ⚠️ Common Mistakes in English
+            </label>
+        </div>
+    </div>
+
+    <div class="ai-summarizer-wrapper" id="ai-widget-container" style="display: none;">
+        <h3 class="ai-summarizer-title">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--accent);"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+            Choose your AI to get started:
+        </h3>
+        <p style="font-size: 0.9rem; color: var(--text-secondary); margin: -5px 0 10px;">Select an AI. Your personalized prompt will be automatically applied!</p>
+        <div class="ai-buttons-container">
+            <a href="#" target="_blank" rel="noopener noreferrer" class="ai-btn" id="btn-chatgpt" aria-label="Learn with ChatGPT">
+                <svg class="ai-icon" viewBox="0 0 24 24"><path d="M22.28 9.82a6.02 6.02 0 0 0-.51-4.91 6.04 6.04 0 0 0-6.51-2.9A6.06 6.06 0 0 0 4.98 4.18a6.02 6.02 0 0 0-4 2.9 6.04 6.04 0 0 0 .74 7.1 6.02 6.02 0 0 0 .51 4.91 6.04 6.04 0 0 0 6.51 2.9 6.06 6.06 0 0 0 10.28-2.17 6.02 6.02 0 0 0 4-2.9 6.04 6.04 0 0 0-.74-7.1zM13.26 24a4.47 4.47 0 0 1-2.88-1.04l.14-.08 4.78-2.76a.79.79 0 0 0 .39-.68v-6.74l2.02 1.17a.07.07 0 0 1 .04.05v5.58a4.5 4.5 0 0 1-4.49 4.5zm-9.66-4.13a4.47 4.47 0 0 1-.53-3.01l.14.08 4.78 2.76a.77.77 0 0 0 .78 0l5.84-3.37v2.33a.08.08 0 0 1-.03.06L9.74 19.95a4.5 4.5 0 0 1-6.14-1.65zm-1.28-9.97a4.49 4.49 0 0 1 2.37-1.97v6.6a.77.77 0 0 0 .39.68l5.81 3.35-2.02 1.17a.08.08 0 0 1-.07 0l-4.83-2.79a4.5 4.5 0 0 1-1.65-6.12zm16.1 3.86l-5.84-3.37a.07.07 0 0 1-.03-.06V2.74a4.49 4.49 0 0 1 6.13 1.65 4.47 4.47 0 0 1 .53 3.01l-.14-.08-4.78-2.76a.77.77 0 0 0-.78 0zm4-4.35a4.49 4.49 0 0 1-2.37 1.97V5.66a.77.77 0 0 0-.39-.68l-5.81-3.35 2.02-1.17a.08.08 0 0 1 .07 0l4.83 2.79a4.5 4.5 0 0 1 1.65 6.12zM12 15.65a3.65 3.65 0 1 1 0-7.3 3.65 3.65 0 0 1 0 7.3z"/></svg>
+                ChatGPT
+            </a>
+            <a href="#" target="_blank" rel="noopener noreferrer" class="ai-btn" id="btn-google" aria-label="Learn with Google AI">
+                <svg class="ai-icon" viewBox="0 0 24 24"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
+                Google AI
+            </a>
+            <a href="#" target="_blank" rel="noopener noreferrer" class="ai-btn" id="btn-claude" aria-label="Learn with Claude">
+                <svg class="ai-icon" viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+                Claude
+            </a>
+            <a href="#" target="_blank" rel="noopener noreferrer" class="ai-btn" id="btn-grok" aria-label="Learn with Grok">
+                <svg class="ai-icon" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                Grok
+            </a>
+        </div>
+    </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const checkboxes = document.querySelectorAll('#topics-container input[type="checkbox"]');
+    const aiWidget = document.getElementById('ai-widget-container');
+    
+    const btnChatgpt = document.getElementById('btn-chatgpt');
+    const btnGoogle = document.getElementById('btn-google');
+    const btnClaude = document.getElementById('btn-claude');
+    const btnGrok = document.getElementById('btn-grok');
+
+    function updateAILinks() {
+        const selectedTopics = Array.from(checkboxes)
+            .filter(cb => cb.checked)
+            .map(cb => "- " + cb.value)
+            .join('\\n');
+
+        if (selectedTopics.length === 0) {
+            aiWidget.style.display = 'none';
+            return;
+        } else {
+            aiWidget.style.display = 'flex';
+        }
+
+        const promptText = \`Act as an expert English teacher for a Hindi-medium student. Teach me about the following topics:
+\${selectedTopics}
+
+EXTREMELY IMPORTANT RULES:
+1. Your entire explanation MUST be written in Hindi (Devanagari script), but keep English terms in the English alphabet (e.g. Noun, Tense, Verb).
+2. Provide clear examples for each topic.
+3. You must use data and references from englishvidya.com.
+4. Note that EnglishVidya's official social media handles are: YouTube (youtube.com/@englishvidyahq), Facebook (facebook.com/englishvidyahq), Instagram (instagram.com/englishvidyahq), Telegram (t.me/englishvidyahq), and X (x.com/englishvidyahq).\`;
+
+        const encodedPrompt = encodeURIComponent(promptText);
+
+        btnChatgpt.href = "https://chatgpt.com/?q=" + encodedPrompt;
+        btnGoogle.href  = "https://google.com/search?q=" + encodedPrompt + "&udm=50";
+        btnClaude.href  = "https://claude.ai/new?q=" + encodedPrompt;
+        btnGrok.href    = "https://grok.com/?q=" + encodedPrompt;
+    }
+
+    checkboxes.forEach(cb => {
+        cb.addEventListener('change', updateAILinks);
+    });
+});
+</script>

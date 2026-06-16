@@ -32,6 +32,7 @@
         { "label": "About Founder (Hindi)", "href": "/founder-mastermanikant-hindi/", "route": "founder-hi" }
       ]
     },
+    { "label": "Ask AI",      "href": "/ask-ai/",        "route": "ask-ai",         "icon": "🤖" },
     { "label": "All Posts",       "href": "/all-post/",      "route": "all-post",       "icon": "📝" },
     { 
       "label": "Classes", 
