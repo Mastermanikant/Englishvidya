@@ -1,0 +1,96 @@
+/* Floating Pen FAB */
+#floating-pen-fab {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: var(--accent);
+  color: white;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  z-index: 99999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+#floating-pen-fab:hover {
+  transform: scale(1.1);
+  background-color: var(--accent-hover);
+}
+
+/* Floating Drawing Toolbar */
+#floating-pen-toolbar {
+  position: fixed;
+  bottom: 100px;
+  right: 30px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 10px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  display: none;
+  flex-direction: column;
+  gap: 8px;
+  z-index: 99998;
+}
+
+#floating-pen-toolbar.active {
+  display: flex;
+  animation: slideUp 0.3s ease-out;
+}
+
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.fp-tool-btn {
+  background: var(--bg-body);
+  border: 1px solid var(--border);
+  color: var(--text-main);
+  border-radius: 8px;
+  padding: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s;
+  font-size: 18px;
+}
+
+.fp-tool-btn:hover {
+  background: var(--bg-hover);
+}
+
+.fp-tool-btn.active {
+  background: var(--accent);
+  color: white;
+  border-color: var(--accent);
+}
+
+/* The Canvas Overlay */
+#floating-pen-canvas {
+  position: absolute; /* Not fixed, because it must scroll with the page */
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99990; /* Below FAB and toolbar, above website content */
+  pointer-events: none; /* By default, you can click through it */
+}
+
+/* When drawing mode is active, intercept clicks */
+body.drawing-mode-active #floating-pen-canvas {
+  pointer-events: auto;
+  cursor: crosshair;
+}
+
+/* Prevent text selection while drawing */
+body.drawing-mode-active {
+  user-select: none;
+}

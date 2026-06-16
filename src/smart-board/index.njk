@@ -1,0 +1,83 @@
+---
+layout: layouts/base.njk
+pageTitle: "Smart Board - EnglishVidya"
+metaDescription: "Interactive digital whiteboard for teaching and learning English."
+permalink: /smart-board/
+---
+
+<link rel="stylesheet" href="/css/smart-board.css">
+
+<!-- Hide default header and footer for fullscreen app experience -->
+<style>
+  .site-header, .site-footer, .breadcrumb, #floating-pen-fab { display: none !important; }
+  body, html { margin: 0; padding: 0; overflow: hidden; height: 100vh; width: 100vw; }
+  .main-content { padding: 0 !important; max-width: 100% !important; height: 100vh; display: flex; flex-direction: column; }
+</style>
+
+<div id="sb-app">
+  <!-- Top Toolbar -->
+  <header id="sb-toolbar">
+    <div class="sb-tool-group">
+      <button class="sb-btn" id="sb-home" title="Go Home">🏠</button>
+      <div class="sb-divider"></div>
+      <button class="sb-btn active" id="sb-tool-select" title="Select (V)">🖱️</button>
+      <button class="sb-btn" id="sb-tool-pen" title="Draw (P)">✏️</button>
+      <button class="sb-btn" id="sb-tool-text" title="Text (T)">T</button>
+      <label class="sb-btn sb-upload-btn" title="Insert Image">
+        🖼️ <input type="file" id="sb-image-upload" accept="image/*" style="display:none;">
+      </label>
+      <button class="sb-btn" id="sb-tool-eraser" title="Delete Selected (Del)">🗑️</button>
+    </div>
+    
+    <div class="sb-tool-group" id="sb-prop-panel">
+      <!-- Brush Color & Size -->
+      <input type="color" id="sb-color-picker" value="#ffffff" title="Color">
+      <input type="range" id="sb-size-slider" min="1" max="50" value="5" title="Brush/Text Size">
+    </div>
+
+    <div class="sb-tool-group">
+      <button class="sb-btn" id="sb-undo" title="Undo (Ctrl+Z)">↩️</button>
+      <button class="sb-btn" id="sb-redo" title="Redo (Ctrl+Y)">↪️</button>
+      <div class="sb-divider"></div>
+      <button class="sb-btn" id="sb-clear" title="Clear Board">💣 Clear</button>
+      <button class="sb-btn" id="sb-export-pdf" title="Export as PDF">📄 PDF</button>
+      <button class="sb-btn" id="sb-fullscreen" title="Fullscreen">🔲</button>
+    </div>
+  </header>
+
+  <div id="sb-workspace">
+    <!-- Canvas Area -->
+    <div id="sb-canvas-container">
+      <canvas id="sb-canvas"></canvas>
+    </div>
+
+    <!-- Right Pages Panel -->
+    <aside id="sb-pages-panel">
+      <div class="sb-pages-header">
+        <h3>Boards</h3>
+        <button id="sb-add-page" title="New Board">➕</button>
+      </div>
+      <ul id="sb-pages-list">
+        <!-- Pages injected by JS -->
+      </ul>
+    </aside>
+  </div>
+
+  <!-- Bottom Zoom Panel -->
+  <footer id="sb-statusbar">
+    <div class="sb-zoom-controls">
+      <button class="sb-icon-btn" id="sb-zoom-out">➖</button>
+      <input type="range" id="sb-zoom-slider" min="10" max="300" value="100">
+      <button class="sb-icon-btn" id="sb-zoom-in">➕</button>
+      <span id="sb-zoom-label">100%</span>
+      <button class="sb-btn-text" id="sb-zoom-reset">Reset</button>
+    </div>
+    <div class="sb-status-text" id="sb-status-msg">Ready.</div>
+  </footer>
+</div>
+
+<!-- Load Local Libraries -->
+<script src="/assets/js/fabric.min.js"></script>
+<script src="/assets/js/jspdf.umd.min.js"></script>
+<script src="/assets/js/localforage.min.js"></script>
+<script src="/js/smart-board.js"></script>
