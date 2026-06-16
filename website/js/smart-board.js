@@ -27,6 +27,7 @@ function initBoard() {
     resizeCanvas();
 
     // Setup initial brush
+    canvas.freeDrawingBrush = new fabric.PencilBrush(canvas);
     canvas.freeDrawingBrush.color = '#ffffff';
     canvas.freeDrawingBrush.width = 5;
 
