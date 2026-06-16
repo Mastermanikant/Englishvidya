@@ -1,0 +1,96 @@
+{% if faqs and faqs.length > 0 %}
+<style>
+.faq-section {
+  margin: var(--sp-8) 0;
+  padding: var(--sp-6);
+  background: var(--bg-default);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+}
+
+.faq-section h2 {
+  font-size: 1.5rem;
+  margin-top: 0;
+  margin-bottom: var(--sp-5);
+  color: var(--text-primary);
+  border-bottom: 2px solid var(--border);
+  padding-bottom: var(--sp-2);
+}
+
+.faq-accordion {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-3);
+}
+
+.faq-item {
+  background: var(--bg-raised);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+}
+
+.faq-question {
+  padding: var(--sp-3) var(--sp-4);
+  font-weight: 600;
+  font-size: 1.05rem;
+  color: var(--text-primary);
+  cursor: pointer;
+  user-select: none;
+  background: var(--bg-hover);
+  transition: background var(--duration-fast);
+}
+
+.faq-question:hover {
+  background: var(--border);
+}
+
+.faq-item[open] .faq-question {
+  background: var(--border);
+  border-bottom: 1px solid var(--border);
+}
+
+.faq-answer {
+  padding: var(--sp-4);
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+.faq-answer p:last-child {
+  margin-bottom: 0;
+}
+</style>
+
+<div class="faq-section">
+  <h2>Frequently Asked Questions</h2>
+  <div class="faq-accordion">
+    {% for faq in faqs %}
+    <details class="faq-item">
+      <summary class="faq-question">{{ faq.question }}</summary>
+      <div class="faq-answer">
+        {{ faq.answer | safe }}
+      </div>
+    </details>
+    {% endfor %}
+  </div>
+</div>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {% for faq in faqs %}
+    {
+      "@type": "Question",
+      "name": {{ faq.question | jsonify | safe }},
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": {{ faq.answer | jsonify | safe }}
+      }
+    }{% if not loop.last %},{% endif %}
+    {% endfor %}
+  ]
+}
+</script>
+{% endif %}

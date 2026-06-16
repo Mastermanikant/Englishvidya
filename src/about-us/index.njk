@@ -99,12 +99,14 @@ schemaJson: |
 <div class="about-container">
     <div class="about-controls">
         <div class="lang-toggle">
-            <span class="lang-btn active">English</span>
+            <a href="/about-us/" class="lang-btn active">English</a>
             <a href="/about-us-hindi/" class="lang-btn">हिंदी</a>
         </div>
     </div>
 
-    <div class="about-content">
+    {% include "components/ai-summarizer.njk" %}
+
+    <div class="about-content animate-fade-in">
         <h1>About EnglishVidya</h1>
         <p style="color: var(--accent); font-weight: 600; margin-top: -10px;">Learn English — Even If You Know Nothing!</p>
         
