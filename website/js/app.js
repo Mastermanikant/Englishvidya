@@ -701,7 +701,7 @@
       return dueA - dueB;
     });
 
-    state.fcDeck = shuffleArray(sortedWords.slice(0, 20));
+    state.fcDeck = shuffleArray(sortedWords);
     state.fcIndex = 0;
     state.fcKnown = 0;
 
