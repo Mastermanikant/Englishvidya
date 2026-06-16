@@ -32,12 +32,15 @@
   background: var(--bg-card);
   border: 1px solid var(--border);
   border-radius: 12px;
-  padding: 10px;
+  padding: 12px;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
   display: none;
   flex-direction: column;
-  gap: 8px;
+  gap: 12px;
   z-index: 99998;
+  width: max-content;
+  max-height: 70vh;
+  overflow-y: auto;
 }
 
 #floating-pen-toolbar.active {
@@ -48,6 +51,19 @@
 @keyframes slideUp {
   from { opacity: 0; transform: translateY(20px); }
   to { opacity: 1; transform: translateY(0); }
+}
+
+/* Tool Sections */
+.fp-tool-group {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 6px;
+}
+
+.fp-divider {
+  height: 1px;
+  background: var(--border);
+  margin: 4px 0;
 }
 
 .fp-tool-btn {
@@ -74,23 +90,143 @@
   border-color: var(--accent);
 }
 
+/* Color Palette */
+.fp-color-group {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 6px;
+}
+
+.fp-color-swatch {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.fp-color-swatch.active {
+  transform: scale(1.2);
+  border-color: var(--text-main);
+}
+
+.fp-color-picker {
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+/* Stroke Size */
+.fp-size-group {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.fp-size-slider {
+  flex: 1;
+}
+
 /* The Canvas Overlay */
 #floating-pen-canvas {
-  position: absolute; /* Not fixed, because it must scroll with the page */
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 99990; /* Below FAB and toolbar, above website content */
-  pointer-events: none; /* By default, you can click through it */
-}
-
-/* When drawing mode is active, intercept clicks */
-body.drawing-mode-active #floating-pen-canvas {
-  pointer-events: auto;
-  cursor: crosshair;
+  pointer-events: none;
 }
 
 /* Prevent text selection while drawing */
 body.drawing-mode-active {
   user-select: none;
+}
+
+body.drawing-mode-active #floating-pen-canvas {
+  pointer-events: auto;
+}
+
+/* Cursors */
+body.drawing-mode-active.fp-cursor-crosshair #floating-pen-canvas { cursor: crosshair; }
+body.drawing-mode-active.fp-cursor-text #floating-pen-canvas { cursor: text; }
+body.drawing-mode-active.fp-cursor-none #floating-pen-canvas { cursor: none; }
+
+/* Text Input Overlay */
+#fp-text-input {
+  position: absolute;
+  z-index: 99991;
+  background: transparent;
+  border: 1px dashed var(--accent);
+  color: #ff3b30;
+  font-size: 20px;
+  font-family: inherit;
+  outline: none;
+  min-width: 50px;
+  display: none;
+  padding: 2px 4px;
+}
+
+/* Custom Highlighted Cursor */
+#fp-custom-cursor {
+  position: fixed;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: rgba(255, 59, 48, 0.4);
+  border: 2px solid #ff3b30;
+  pointer-events: none;
+  z-index: 99992;
+  transform: translate(-50%, -50%);
+  display: none;
+  box-shadow: 0 0 10px rgba(255, 59, 48, 0.8);
+}
+
+/* Whiteboard / Blackboard Mode */
+#fp-board-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 99989; /* Just below canvas */
+  display: none;
+}
+#fp-board-overlay.whiteboard {
+  display: block;
+  background: #ffffff;
+}
+#fp-board-overlay.blackboard {
+  display: block;
+  background: #111111;
+}
+
+/* Spotlight Overlay */
+#fp-spotlight-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 99991;
+  pointer-events: none;
+  display: none;
+}
+
+/* Magnifier Lens */
+#fp-magnifier {
+  position: fixed;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 2px solid var(--accent);
+  background-repeat: no-repeat;
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+  pointer-events: none;
+  z-index: 99993;
+  display: none;
+  transform: translate(-50%, -50%);
 }

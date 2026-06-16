@@ -7,12 +7,64 @@ permalink: /smart-board/
 
 <link rel="stylesheet" href="/css/smart-board.css">
 
-<!-- Hide default header and footer for fullscreen app experience -->
+<!-- Hide default header and footer dynamically when board launches -->
 <style>
-  .site-header, .site-footer, .breadcrumb, #floating-pen-fab { display: none !important; }
-  body, html { margin: 0; padding: 0; overflow: hidden; height: 100vh; width: 100vw; }
-  .main-content { padding: 0 !important; max-width: 100% !important; height: 100vh; display: flex; flex-direction: column; }
+  /* Splash screen styling */
+  #sb-splash {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    text-align: center;
+  }
+  #sb-splash h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  #sb-splash p {
+    font-size: 1.2rem;
+    color: var(--text-secondary);
+    margin-bottom: 30px;
+  }
+  #sb-start-btn {
+    padding: 15px 30px;
+    font-size: 1.5rem;
+    background: var(--accent);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    transition: transform 0.2s, background 0.2s;
+  }
+  #sb-start-btn:hover {
+    transform: scale(1.05);
+    background: var(--accent-hover);
+  }
+  /* The main app container is hidden initially */
+  #sb-app {
+    display: none;
+  }
+
+  /* Fullscreen layout utilities active when board runs */
+  body.board-active { margin: 0; padding: 0; overflow: hidden; height: 100vh; width: 100vw; }
+  body.board-active .app-header,
+  body.board-active .top-utility-bar,
+  body.board-active .site-footer,
+  body.board-active .bottom-nav,
+  body.board-active .breadcrumb,
+  body.board-active #floating-pen-fab { 
+    display: none !important; 
+  }
+  body.board-active .app-main { padding: 0 !important; max-width: 100% !important; height: 100vh; display: flex; flex-direction: column; }
 </style>
+
+<div id="sb-splash">
+  <h1>EnglishVidya Smart Board</h1>
+  <p>Your interactive digital teaching canvas.</p>
+  <button id="sb-start-btn">🚀 Start Smart Board</button>
+</div>
 
 <div id="sb-app">
   <!-- Top Toolbar -->
@@ -76,8 +128,35 @@ permalink: /smart-board/
   </footer>
 </div>
 
-<!-- Load Local Libraries -->
-<script src="/assets/js/fabric.min.js"></script>
-<script src="/assets/js/jspdf.umd.min.js"></script>
-<script src="/assets/js/localforage.min.js"></script>
-<script src="/js/smart-board.js"></script>
+<script>
+  document.getElementById('sb-start-btn').addEventListener('click', () => {
+    // Hide splash, show app, activate full screen body styling
+    document.getElementById('sb-splash').style.display = 'none';
+    document.getElementById('sb-app').style.display = 'flex';
+    document.body.classList.add('board-active');
+
+    // Attempt to go fullscreen automatically for better experience
+    if (document.documentElement.requestFullscreen) {
+      document.documentElement.requestFullscreen().catch(err => console.log('Fullscreen rejected.'));
+    }
+
+    // Lazy load libraries sequentially
+    const scriptsToLoad = [
+      '/assets/js/fabric.min.js',
+      '/assets/js/jspdf.umd.min.js',
+      '/assets/js/localforage.min.js',
+      '/js/smart-board.js'
+    ];
+
+    function loadScript(idx) {
+      if (idx >= scriptsToLoad.length) return; // All loaded
+      const script = document.createElement('script');
+      script.src = scriptsToLoad[idx];
+      script.onload = () => loadScript(idx + 1);
+      document.body.appendChild(script);
+    }
+    
+    // Start loading
+    loadScript(0);
+  });
+</script>
