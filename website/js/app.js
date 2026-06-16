@@ -722,9 +722,11 @@
     const itemSlug = parsed.slug || word.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
     const imageHtml = `<img src="/assets/images/flashcards/${itemSlug}.webp" alt="${escHtml(word)}" class="flashcard-image" onerror="this.style.display='none'" style="max-width: 140px; max-height: 140px; border-radius: 12px; margin-bottom: 16px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); object-fit: cover;">`;
 
+    const timerOptions = (val) => Array.from({length: 30}, (_, i) => i + 1).map(n => `<option value="${n}" ${val == n ? 'selected' : ''}>${n}s</option>`).join('');
+
     const settingsModalHtml = `
       <div id="fc-settings-modal" class="modal" style="display:none; position:absolute; top:40px; right:0; background:var(--bg-card); border:1px solid var(--border); padding:var(--sp-4); border-radius:8px; z-index:100; box-shadow:0 10px 25px rgba(0,0,0,0.2); width:280px; text-align:left;">
-        <h3 style="margin-top:0; margin-bottom:12px; font-size:1.1rem; display:flex; justify-content:space-between; color:var(--text-main);">Flashcard Settings <button id="fc-close-settings" style="background:none; border:none; cursor:pointer; color:var(--text-main);">✖</button></h3>
+        <h3 style="margin-top:0; margin-bottom:12px; font-size:1.1rem; display:flex; justify-content:space-between; color:var(--text-main);">Flashcard Settings <button id="fc-close-settings" style="background:none; border:none; cursor:pointer; color:var(--text-main);">✕</button></h3>
         <div style="display:flex; flex-direction:column; gap:12px; color:var(--text-main);">
           <label style="display:flex; justify-content:space-between; align-items:center;">
             Show Pronunciation (Front)
@@ -755,9 +757,10 @@
           <div>
             <label style="display:flex; justify-content:space-between; align-items:center; margin-bottom:4px;">
               AutoPlay Timer (Front)
-              <input type="number" id="set-timer-x" value="${state.fcSettings.timerX}" style="width:50px; text-align:center; border:1px solid var(--border); background:var(--bg-footer); color:var(--text-main); border-radius:4px;">
+              <select id="set-timer-x" style="width:70px; text-align:center; padding:2px; border:1px solid var(--border); background:var(--bg-footer); color:var(--text-main); border-radius:4px; cursor:pointer;">
+                ${timerOptions(state.fcSettings.timerX)}
+              </select>
             </label>
-            <div style="font-size:0.8rem; color:var(--text-secondary); text-align:right;">seconds</div>
           </div>
           <div>
             <label style="display:flex; justify-content:space-between; align-items:center; margin-bottom:4px;">
@@ -1240,6 +1243,10 @@
       cardEl.offsetHeight;
       cardEl.classList.remove(slideInClass);
       state.fcTransitioning = false;
+      
+      if (state.fcSettings.autoPlay) {
+        runFCAutoPlay(container, categories, activeSlug);
+      }
     }, 350);
   }
 
