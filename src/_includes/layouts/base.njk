@@ -166,7 +166,10 @@
   {# ── Text Scaling Widget & Teacher Mode ── #}
   <style>
     @media (max-width: 768px) {
-      .text-scaler-widget { display: none !important; }
+      .text-scaler-widget {
+        bottom: 85px !important;
+        right: 16px !important;
+      }
     }
     body.presenter-mode .app-header, 
     body.presenter-mode .site-footer, 
@@ -237,12 +240,37 @@
       const resetBtn = document.getElementById('text-scaler-reset');
       const hideBtn = document.getElementById('text-scaler-hide');
       const fullScreenBtn = document.getElementById('teacher-fullscreen');
+      const headerBtn = document.getElementById('text-scaler-header-btn');
+      const drawerBtn = document.getElementById('text-scaler-drawer-btn');
       
       if (!widget || !toggle) return;
 
       const isHidden = localStorage.getItem('ev-text-scaler-hidden') === 'true';
       if (!isHidden) {
         widget.style.display = 'flex';
+      }
+
+      function toggleScaler(e) {
+        if (e) {
+          e.preventDefault();
+          e.stopPropagation();
+        }
+        
+        // Ensure widget is visible and save preference
+        widget.style.display = 'flex';
+        localStorage.setItem('ev-text-scaler-hidden', 'false');
+        
+        const isExpanded = toggle.getAttribute('aria-expanded') === 'true';
+        toggle.setAttribute('aria-expanded', !isExpanded);
+        panel.setAttribute('aria-hidden', isExpanded);
+        panel.classList.toggle('active');
+      }
+
+      if (headerBtn) {
+        headerBtn.addEventListener('click', toggleScaler);
+      }
+      if (drawerBtn) {
+        drawerBtn.addEventListener('click', toggleScaler);
       }
 
       // Restore presenter mode state
