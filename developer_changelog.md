@@ -38,3 +38,14 @@
   - Removing Pronunciation from the front face by default to encourage active recall.
   - Building a Settings Modal to toggle what appears on the front/back faces.
   - Building a dual-timer Auto-Play system (Timer X for Front View, Timer Y for Back View) using strict `setTimeout` and `clearTimeout` logic to prevent memory leaks and chaotic overlaps.
+
+## Phase 5: Image Format Migration & Monetization Layout
+- **Image Optimization:** 
+  - Wrote a Node script using the `sharp` library to batch convert all `.jpg` flashcard images to `.webp`.
+  - Updated all image sources across the project (`website/js/app.js`, `src/dictionary/category.njk`) to use the `.webp` extension, vastly improving load times.
+- **Responsive Ad Sidebar (2-Column Layout):**
+  - Redesigned `article.njk` and `grammar-lesson.njk` to utilize a CSS Grid layout.
+  - Created a 2-column structure for desktop (`min-width: 1024px`) with a primary content area and a `300px` right sidebar. This sidebar acts as an empty placeholder for future monetization (Google AdSense, etc.).
+  - Ensured the layout remains a single stacked column on mobile devices for ease of reading.
+- **Text Zoom Accessibility:**
+  - Expanded the custom floating text scaler widget's limits. Users can now zoom out to a minimum of 50% and zoom in up to a maximum of 200%.
