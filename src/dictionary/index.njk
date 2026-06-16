@@ -17,14 +17,48 @@ permalink: /dictionary/
   <p class="hero-subtitle">Browse words by category with Hindi meanings and pronunciation.</p>
 </div>
 
-<div class="word-grid animate-fade-in" style="margin-top: var(--sp-6);">
-  {% for cat in categoriesIndex %}
-    <a href="/dictionary/{{ cat.slug }}/" class="word-card" style="text-decoration: none; padding: var(--sp-4); display: flex; align-items: center; gap: var(--sp-3);">
-      <div style="font-size: 2rem;">{{ cat.icon | default('📁') }}</div>
-      <div>
-        <h3 style="margin: 0; color: var(--text-color);">{{ cat.name }}</h3>
-        <p style="margin: 0; font-size: 0.9rem; color: var(--text-secondary);">{{ cat.count }} words</p>
+<div class="category-accordion animate-fade-in" style="margin-top: var(--sp-6); display: flex; flex-direction: column; gap: var(--sp-4);">
+  {% for mainGroup in groupedCategories %}
+    <details class="category-main-folder" style="background: var(--bg-card); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
+      <summary style="padding: var(--sp-4); font-size: 1.25rem; font-weight: 600; cursor: pointer; display: flex; align-items: center; gap: var(--sp-2); list-style: none; user-select: none;">
+        📁 {{ mainGroup.name }}
+        <span style="margin-left: auto; font-size: 1rem; color: var(--text-secondary);">▼</span>
+      </summary>
+      
+      <div style="padding: 0 var(--sp-4) var(--sp-4) var(--sp-4); display: flex; flex-direction: column; gap: var(--sp-3);">
+        {% for subGroup in mainGroup.subCategories %}
+          <details class="category-sub-folder" style="background: var(--bg-footer); border: 1px solid var(--border); border-radius: 6px; overflow: hidden;">
+            <summary style="padding: var(--sp-3); font-size: 1.1rem; font-weight: 500; cursor: pointer; display: flex; align-items: center; gap: var(--sp-2); list-style: none; user-select: none;">
+              📂 {{ subGroup.name }}
+              <span style="margin-left: auto; font-size: 0.9rem; color: var(--text-secondary);">▼</span>
+            </summary>
+            
+            <div style="padding: var(--sp-3); display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: var(--sp-3); background: var(--bg-card); border-top: 1px solid var(--border);">
+              {% for cat in subGroup.items %}
+                <a href="/dictionary/{{ cat.slug }}/" class="word-card" style="text-decoration: none; padding: var(--sp-3); display: flex; align-items: center; gap: var(--sp-2); border: 1px solid var(--border); border-radius: 6px; transition: border-color 0.2s, background 0.2s;" onmouseover="this.style.borderColor='var(--accent)';" onmouseout="this.style.borderColor='var(--border)';">
+                  <div style="font-size: 1.5rem;">{{ cat.icon | default('📄') }}</div>
+                  <div>
+                    <h4 style="margin: 0; color: var(--text-color); font-size: 1rem;">{{ cat.name }}</h4>
+                    <p style="margin: 0; font-size: 0.8rem; color: var(--text-secondary);">{{ cat.count }} words</p>
+                  </div>
+                </a>
+              {% endfor %}
+            </div>
+          </details>
+        {% endfor %}
       </div>
-    </a>
+    </details>
   {% endfor %}
 </div>
+
+<style>
+  details > summary::-webkit-details-marker {
+    display: none;
+  }
+  details[open] > summary span {
+    transform: rotate(180deg);
+  }
+  details summary span {
+    transition: transform 0.3s ease;
+  }
+</style>

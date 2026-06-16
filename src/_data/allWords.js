@@ -25,8 +25,9 @@ module.exports = function() {
             
             if (word) {
               allWords.push({
+                ...item, // include all raw properties like usages, synonyms, antonyms, collocations
                 word: word,
-                slug: word.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, ''),
+                slug: item.slug || word.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, ''),
                 meaning: meaning,
                 pron: pron,
                 example: example,

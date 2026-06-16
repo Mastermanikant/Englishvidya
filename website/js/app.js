@@ -771,17 +771,66 @@
       </div>
     `;
 
+    let categoriesHtml = '';
+    if (categories) {
+      const mainGroups = {};
+      categories.forEach(c => {
+        const main = c.mainCategory || 'Other Categories';
+        const sub = c.subCategory || 'General';
+        if (!mainGroups[main]) mainGroups[main] = {};
+        if (!mainGroups[main][sub]) mainGroups[main][sub] = [];
+        mainGroups[main][sub].push(c);
+      });
+      
+      const activeCat = categories.find(c => c.slug === activeSlug);
+      const activeName = activeCat ? activeCat.name : activeSlug;
+
+      categoriesHtml += `<div class="fc-category-accordion" id="fc-category-chips" style="margin-bottom: 16px; border: 1px solid var(--border); border-radius: 8px; overflow: hidden;">`;
+      categoriesHtml += `<details style="background: var(--bg-card);">
+        <summary style="padding: 12px; font-weight: 600; cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: center; user-select: none;">
+          <span>📚 Category: <span style="color:var(--accent);">${escHtml(activeName)}</span></span>
+          <span style="font-size: 0.9rem; color: var(--text-secondary);">Change ▼</span>
+        </summary>
+        <div style="max-height: 350px; overflow-y: auto; background: var(--bg-body); border-top: 1px solid var(--border);">`;
+
+      for (const mainName in mainGroups) {
+        categoriesHtml += `<details style="border-bottom: 1px solid var(--border);">
+          <summary style="padding: 10px 16px; font-weight: 600; cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: center; background: var(--bg-card); user-select: none;">
+            <span>📁 ${mainName}</span>
+            <span style="font-size: 0.8rem; color: var(--text-secondary);">▼</span>
+          </summary>
+          <div style="padding: 0; background: var(--bg-footer);">`;
+          
+        for (const subName in mainGroups[mainName]) {
+          categoriesHtml += `<details style="border-top: 1px solid var(--border);">
+            <summary style="padding: 8px 16px 8px 24px; font-weight: 500; cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: center; user-select: none;">
+              <span>📂 ${subName}</span>
+              <span style="font-size: 0.8rem; color: var(--text-secondary);">▼</span>
+            </summary>
+            <div style="padding: 12px 16px 12px 24px; display: flex; flex-wrap: wrap; gap: 8px; background: var(--bg-card); border-top: 1px solid var(--border);">`;
+            
+          mainGroups[mainName][subName].forEach(c => {
+            const isActive = c.slug === activeSlug;
+            categoriesHtml += `<button class="category-chip${isActive ? ' active' : ''}" data-slug="${escHtml(c.slug)}" style="margin: 0;">
+              ${c.icon || '📄'} ${escHtml(c.name)}
+            </button>`;
+          });
+          
+          categoriesHtml += `</div></details>`;
+        }
+        categoriesHtml += `</div></details>`;
+      }
+      categoriesHtml += `</div></details></div>
+      <style>
+        .fc-category-accordion details > summary::-webkit-details-marker { display: none; }
+        .fc-category-accordion details[open] > summary > span:last-child { transform: rotate(180deg); }
+        .fc-category-accordion details summary span { transition: transform 0.3s ease; }
+      </style>`;
+    }
+
     container.innerHTML = `
       <div class="animate-fade-in">
-        ${categories ? `
-          <div class="category-chips-scroll" id="fc-category-chips">
-            ${categories.slice(0, 20).map(c => `
-              <button class="category-chip${c.slug === activeSlug ? ' active' : ''}" data-slug="${escHtml(c.slug)}">
-                ${c.icon || '📁'} ${escHtml(c.name)}
-              </button>
-            `).join('')}
-          </div>
-        ` : ''}
+        ${categoriesHtml}
 
         <div class="flashcard-container" style="position: relative; display: flex; flex-direction: column; align-items: center;">
           ${settingsModalHtml}

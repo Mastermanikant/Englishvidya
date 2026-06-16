@@ -132,7 +132,7 @@ eleventyComputed:
     <div style="display: flex; flex-wrap: wrap; gap: 10px;">
       {% set count = 0 %}
       {% for w in allWords %}
-        {% if w.category == wordEntry.category and w.slug != wordEntry.slug and count < 8 %}
+        {% if w.category == wordEntry.category and w.slug != wordEntry.slug and count < 25 %}
           <a href="/dictionary/{{ w.slug }}/" class="panel-btn" style="text-decoration: none; font-size: 0.9rem; padding: 8px 16px; background: var(--bg-card); border: 1px solid var(--border); border-radius: 6px; color: var(--text-main); font-weight: 500; transition: transform 0.2s, border-color 0.2s;" onmouseover="this.style.borderColor='var(--accent)';" onmouseout="this.style.borderColor='var(--border)';">
             {{ w.word }}
           </a>
