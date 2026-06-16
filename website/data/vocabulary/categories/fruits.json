@@ -4,8 +4,30 @@
         "slug": "apple",
         "pron": "ऐपल",
         "meaning": "सेब",
-        "definition": "A round fruit with red or green skin.",
-        "example": "An apple a day keeps the doctor away.",
+        "usages": [
+            {
+                "partOfSpeech": "Noun",
+                "definition": "A round fruit with red or green skin and a whitish interior.",
+                "examples": [
+                    {
+                        "en": "An apple a day keeps the doctor away.",
+                        "hi": "रोजाना एक सेब खाने से डॉक्टर दूर रहते हैं।"
+                    },
+                    {
+                        "en": "She sliced the apple with a knife.",
+                        "hi": "उसने चाकू से सेब काटा।"
+                    }
+                ]
+            }
+        ],
+        "synonyms": [],
+        "antonyms": [],
+        "collocations": [
+            "eat an apple",
+            "peel an apple",
+            "apple pie",
+            "rotten apple"
+        ],
         "category": "fruits"
     },
     {
@@ -13,8 +35,30 @@
         "slug": "banana",
         "pron": "बनाना",
         "meaning": "केला",
-        "definition": "A long curved fruit with a yellow skin.",
-        "example": "Monkeys love bananas.",
+        "usages": [
+            {
+                "partOfSpeech": "Noun",
+                "definition": "A long curved fruit with a yellow skin and soft, sweet flesh.",
+                "examples": [
+                    {
+                        "en": "Monkeys love to eat bananas.",
+                        "hi": "बंदरों को केले खाना बहुत पसंद है।"
+                    },
+                    {
+                        "en": "I had a banana and a glass of milk for breakfast.",
+                        "hi": "मैंने नाश्ते में एक केला और एक गिलास दूध लिया।"
+                    }
+                ]
+            }
+        ],
+        "synonyms": [],
+        "antonyms": [],
+        "collocations": [
+            "bunch of bananas",
+            "peel a banana",
+            "ripe banana",
+            "banana split"
+        ],
         "category": "fruits"
     },
     {
@@ -22,17 +66,77 @@
         "slug": "mango",
         "pron": "मैंगो",
         "meaning": "आम",
-        "definition": "A sweet tropical fruit with a large pit.",
-        "example": "Mango is the king of fruits.",
+        "usages": [
+            {
+                "partOfSpeech": "Noun",
+                "definition": "A sweet, juicy tropical fruit with a large pit.",
+                "examples": [
+                    {
+                        "en": "Mango is known as the king of fruits in India.",
+                        "hi": "भारत में आम को फलों का राजा कहा जाता है।"
+                    },
+                    {
+                        "en": "We made delicious mango shake yesterday.",
+                        "hi": "हमने कल स्वादिष्ट मैंगो शेक बनाया।"
+                    }
+                ]
+            }
+        ],
+        "synonyms": [],
+        "antonyms": [],
+        "collocations": [
+            "ripe mango",
+            "mango tree",
+            "mango juice",
+            "sweet mango"
+        ],
         "category": "fruits"
     },
     {
         "word": "Orange",
         "slug": "orange",
         "pron": "ऑरेंज",
-        "meaning": "संतरा",
-        "definition": "A round citrus fruit with thick orange skin.",
-        "example": "I drink fresh orange juice every morning.",
+        "meaning": "संतरा / नारंगी",
+        "usages": [
+            {
+                "partOfSpeech": "Noun",
+                "definition": "A round citrus fruit with a tough bright reddish-yellow rind.",
+                "examples": [
+                    {
+                        "en": "I drink fresh orange juice every morning.",
+                        "hi": "मैं हर सुबह ताज़ा संतरे का रस पीता हूँ।"
+                    },
+                    {
+                        "en": "Please peel this orange for me.",
+                        "hi": "कृपया मेरे लिए यह संतरा छील दें।"
+                    }
+                ]
+            },
+            {
+                "partOfSpeech": "Adjective",
+                "definition": "A bright reddish-yellow color.",
+                "examples": [
+                    {
+                        "en": "He was wearing a bright orange shirt.",
+                        "hi": "उसने चमकीले नारंगी रंग की शर्ट पहनी हुई थी।"
+                    },
+                    {
+                        "en": "The sunset painted the sky in shades of orange.",
+                        "hi": "सूर्यास्त ने आसमान को नारंगी रंगों में रंग दिया।"
+                    }
+                ]
+            }
+        ],
+        "synonyms": [
+            "citrus (noun)"
+        ],
+        "antonyms": [],
+        "collocations": [
+            "sweet orange",
+            "orange juice",
+            "peel an orange",
+            "orange peel"
+        ],
         "category": "fruits"
     },
     {
@@ -40,8 +144,30 @@
         "slug": "grapes",
         "pron": "ग्रेप्स",
         "meaning": "अंगूर",
-        "definition": "Small green or purple berries growing in bunches.",
-        "example": "These grapes are very sour.",
+        "usages": [
+            {
+                "partOfSpeech": "Noun",
+                "definition": "Small green or purple berries growing in bunches on a vine.",
+                "examples": [
+                    {
+                        "en": "These grapes are very sour.",
+                        "hi": "ये अंगूर बहुत खट्टे हैं।"
+                    },
+                    {
+                        "en": "She bought a bunch of seedless grapes.",
+                        "hi": "उसने बिना बीज वाले अंगूर का एक गुच्छा खरीदा।"
+                    }
+                ]
+            }
+        ],
+        "synonyms": [],
+        "antonyms": [],
+        "collocations": [
+            "bunch of grapes",
+            "seedless grapes",
+            "sour grapes",
+            "grape juice"
+        ],
         "category": "fruits"
     },
     {
@@ -49,8 +175,29 @@
         "slug": "watermelon",
         "pron": "वाटरमेलन",
         "meaning": "तरबूज",
-        "definition": "A large melon with green rind and red juicy flesh.",
-        "example": "Watermelon is perfect for hot summer days.",
+        "usages": [
+            {
+                "partOfSpeech": "Noun",
+                "definition": "A large melon with a hard green rind and sweet, juicy red flesh.",
+                "examples": [
+                    {
+                        "en": "Watermelon is perfect for hot summer days.",
+                        "hi": "तरबूज गर्मी के दिनों के लिए एकदम सही है।"
+                    },
+                    {
+                        "en": "He cut the watermelon into large slices.",
+                        "hi": "उसने तरबूज को बड़े टुकड़ों में काटा।"
+                    }
+                ]
+            }
+        ],
+        "synonyms": [],
+        "antonyms": [],
+        "collocations": [
+            "slice of watermelon",
+            "juicy watermelon",
+            "seedless watermelon"
+        ],
         "category": "fruits"
     },
     {
@@ -58,8 +205,29 @@
         "slug": "papaya",
         "pron": "पपाया",
         "meaning": "पपीता",
-        "definition": "A tropical fruit with orange flesh and black seeds.",
-        "example": "Papaya is very good for digestion.",
+        "usages": [
+            {
+                "partOfSpeech": "Noun",
+                "definition": "A tropical fruit with orange flesh and small black seeds.",
+                "examples": [
+                    {
+                        "en": "Papaya is very good for digestion.",
+                        "hi": "पपीता पाचन के लिए बहुत अच्छा होता है।"
+                    },
+                    {
+                        "en": "I had a bowl of ripe papaya for breakfast.",
+                        "hi": "मैंने नाश्ते में एक कटोरी पका पपीता खाया।"
+                    }
+                ]
+            }
+        ],
+        "synonyms": [],
+        "antonyms": [],
+        "collocations": [
+            "ripe papaya",
+            "raw papaya",
+            "papaya seeds"
+        ],
         "category": "fruits"
     },
     {
@@ -67,8 +235,29 @@
         "slug": "guava",
         "pron": "ग्वावा",
         "meaning": "अमरूद",
-        "definition": "A tropical fruit with pale green skin and pink flesh.",
-        "example": "I like eating guava with a pinch of salt.",
+        "usages": [
+            {
+                "partOfSpeech": "Noun",
+                "definition": "A tropical fruit with pale green or yellow skin and sweet pink or white flesh.",
+                "examples": [
+                    {
+                        "en": "I like eating guava with a pinch of salt and chili powder.",
+                        "hi": "मुझे चुटकी भर नमक और मिर्च पाउडर के साथ अमरूद खाना पसंद है।"
+                    },
+                    {
+                        "en": "Guava is rich in Vitamin C.",
+                        "hi": "अमरूद में विटामिन सी भरपूर मात्रा में होता है।"
+                    }
+                ]
+            }
+        ],
+        "synonyms": [],
+        "antonyms": [],
+        "collocations": [
+            "ripe guava",
+            "guava tree",
+            "sweet guava"
+        ],
         "category": "fruits"
     },
     {
@@ -76,8 +265,30 @@
         "slug": "pineapple",
         "pron": "पाइनएप्पल",
         "meaning": "अनानास",
-        "definition": "A large tropical fruit with spiky skin and sweet yellow flesh.",
-        "example": "Pineapple adds a tangy flavor to the salad.",
+        "usages": [
+            {
+                "partOfSpeech": "Noun",
+                "definition": "A large tropical fruit with spiky, tough skin and sweet, juicy yellow flesh.",
+                "examples": [
+                    {
+                        "en": "Pineapple adds a tangy flavor to the salad.",
+                        "hi": "अनानास सलाद में तीखा और खट्टा स्वाद जोड़ता है।"
+                    },
+                    {
+                        "en": "Would you like some pineapple juice?",
+                        "hi": "क्या आप थोड़ा अनानास का रस लेना चाहेंगे?"
+                    }
+                ]
+            }
+        ],
+        "synonyms": [],
+        "antonyms": [],
+        "collocations": [
+            "fresh pineapple",
+            "pineapple slice",
+            "pineapple juice",
+            "canned pineapple"
+        ],
         "category": "fruits"
     },
     {
@@ -85,26 +296,60 @@
         "slug": "pomegranate",
         "pron": "पोमग्रेनेट",
         "meaning": "अनार",
-        "definition": "A round fruit filled with juicy red seeds.",
-        "example": "Pomegranate juice is very healthy.",
+        "usages": [
+            {
+                "partOfSpeech": "Noun",
+                "definition": "A round fruit with a thick, reddish skin containing many juicy red seeds.",
+                "examples": [
+                    {
+                        "en": "Pomegranate juice is very healthy for the heart.",
+                        "hi": "अनार का रस दिल के लिए बहुत सेहतमंद होता है।"
+                    },
+                    {
+                        "en": "It takes time to peel a pomegranate.",
+                        "hi": "अनार छीलने में समय लगता है।"
+                    }
+                ]
+            }
+        ],
+        "synonyms": [],
+        "antonyms": [],
+        "collocations": [
+            "pomegranate seeds",
+            "pomegranate juice",
+            "ripe pomegranate"
+        ],
         "category": "fruits"
     },
     {
-        "word": "Strawberry",
-        "slug": "strawberry",
-        "pron": "स्ट्रॉबेरी",
-        "meaning": "स्ट्रॉबेरी",
-        "definition": "A small red fruit with tiny seeds on the outside.",
-        "example": "She loves eating strawberry ice cream.",
-        "category": "fruits"
-    },
-    {
-        "word": "Coconut",
-        "slug": "coconut",
-        "pron": "कोकोनट",
-        "meaning": "नारियल",
-        "definition": "A large nut with a hard shell, white flesh, and water inside.",
-        "example": "We drank fresh coconut water at the beach.",
+        "word": "Muskmelon",
+        "slug": "muskmelon",
+        "pron": "मस्कमेलन",
+        "meaning": "खरबूजा",
+        "usages": [
+            {
+                "partOfSpeech": "Noun",
+                "definition": "A sweet melon with a rough, netted rind and fragrant orange flesh.",
+                "examples": [
+                    {
+                        "en": "Muskmelon is very refreshing in summer.",
+                        "hi": "खरबूजा गर्मियों में बहुत ताज़गी देता है।"
+                    },
+                    {
+                        "en": "She served cold muskmelon slices.",
+                        "hi": "उसने ठंडे खरबूजे के टुकड़े परोसे।"
+                    }
+                ]
+            }
+        ],
+        "synonyms": [
+            "cantaloupe"
+        ],
+        "antonyms": [],
+        "collocations": [
+            "sweet muskmelon",
+            "muskmelon juice"
+        ],
         "category": "fruits"
     },
     {
@@ -112,8 +357,105 @@
         "slug": "lemon",
         "pron": "लेमन",
         "meaning": "नींबू",
-        "definition": "A small, oval citrus fruit with yellow skin and sour juice.",
-        "example": "Squeeze some lemon on the salad.",
+        "usages": [
+            {
+                "partOfSpeech": "Noun",
+                "definition": "A yellow oval fruit with sour juice.",
+                "examples": [
+                    {
+                        "en": "Squeeze half a lemon over the salad.",
+                        "hi": "सलाद पर आधा नींबू निचोड़ लें।"
+                    },
+                    {
+                        "en": "I drink hot water with lemon every morning.",
+                        "hi": "मैं हर सुबह नींबू के साथ गर्म पानी पीता हूँ।"
+                    }
+                ]
+            },
+            {
+                "partOfSpeech": "Adjective",
+                "definition": "A pale yellow color.",
+                "examples": [
+                    {
+                        "en": "She wore a lemon dress.",
+                        "hi": "उसने हल्के पीले रंग की ड्रेस पहनी थी।"
+                    },
+                    {
+                        "en": "The walls were painted lemon yellow.",
+                        "hi": "दीवारों को हल्का पीला रंगा गया था।"
+                    }
+                ]
+            }
+        ],
+        "synonyms": [],
+        "antonyms": [],
+        "collocations": [
+            "squeeze a lemon",
+            "lemon juice",
+            "lemon slice"
+        ],
+        "category": "fruits"
+    },
+    {
+        "word": "Coconut",
+        "slug": "coconut",
+        "pron": "कोकोनट",
+        "meaning": "नारियल",
+        "usages": [
+            {
+                "partOfSpeech": "Noun",
+                "definition": "A large oval brown fruit with a hard shell, white flesh, and clear liquid inside.",
+                "examples": [
+                    {
+                        "en": "We drank fresh coconut water at the beach.",
+                        "hi": "हमने समुद्र तट पर ताज़ा नारियल पानी पिया।"
+                    },
+                    {
+                        "en": "Grated coconut is used in many curries.",
+                        "hi": "कसा हुआ नारियल कई करियों में इस्तेमाल होता है।"
+                    }
+                ]
+            }
+        ],
+        "synonyms": [],
+        "antonyms": [],
+        "collocations": [
+            "coconut water",
+            "grated coconut",
+            "coconut oil",
+            "tender coconut"
+        ],
+        "category": "fruits"
+    },
+    {
+        "word": "Sweet lime",
+        "slug": "sweet-lime",
+        "pron": "स्वीट लाइम",
+        "meaning": "मौसंबी",
+        "usages": [
+            {
+                "partOfSpeech": "Noun",
+                "definition": "A yellow-green citrus fruit that has sweet juice.",
+                "examples": [
+                    {
+                        "en": "Sweet lime juice is good for recovering from fever.",
+                        "hi": "बुखार से उबरने के लिए मौसंबी का रस अच्छा होता है।"
+                    },
+                    {
+                        "en": "He bought a dozen sweet limes from the market.",
+                        "hi": "उसने बाज़ार से एक दर्जन मौसंबी खरीदी।"
+                    }
+                ]
+            }
+        ],
+        "synonyms": [
+            "mosambi"
+        ],
+        "antonyms": [],
+        "collocations": [
+            "sweet lime juice",
+            "fresh sweet lime"
+        ],
         "category": "fruits"
     },
     {
@@ -121,8 +463,72 @@
         "slug": "pear",
         "pron": "पेयर",
         "meaning": "नाशपाती",
-        "definition": "A sweet fruit that is narrow near the stem and wider at the bottom.",
-        "example": "This pear is very juicy and sweet.",
+        "usages": [
+            {
+                "partOfSpeech": "Noun",
+                "definition": "A sweet, juicy fruit that is narrow near its stalk and wider at the bottom.",
+                "examples": [
+                    {
+                        "en": "This pear is perfectly ripe and sweet.",
+                        "hi": "यह नाशपाती पूरी तरह से पकी और मीठी है।"
+                    },
+                    {
+                        "en": "She ate a pear for an afternoon snack.",
+                        "hi": "उसने दोपहर के नाश्ते में एक नाशपाती खाई।"
+                    }
+                ]
+            }
+        ],
+        "synonyms": [],
+        "antonyms": [],
+        "collocations": [
+            "ripe pear",
+            "juicy pear"
+        ],
+        "category": "fruits"
+    },
+    {
+        "word": "Plum",
+        "slug": "plum",
+        "pron": "प्लम",
+        "meaning": "आलूबुखारा",
+        "usages": [
+            {
+                "partOfSpeech": "Noun",
+                "definition": "A small, round fruit with smooth purple, red, or yellow skin and a pit.",
+                "examples": [
+                    {
+                        "en": "He washed the plums before eating them.",
+                        "hi": "उसने आलूबुखारे खाने से पहले धोए।"
+                    },
+                    {
+                        "en": "We made plum jam at home.",
+                        "hi": "हमने घर पर आलूबुखारे का जैम बनाया।"
+                    }
+                ]
+            },
+            {
+                "partOfSpeech": "Adjective",
+                "definition": "A dark reddish-purple color.",
+                "examples": [
+                    {
+                        "en": "She bought a beautiful plum dress.",
+                        "hi": "उसने एक सुंदर गहरे बैंगनी रंग की पोशाक खरीदी।"
+                    },
+                    {
+                        "en": "The walls were painted in a rich plum color.",
+                        "hi": "दीवारें गहरे आलूबुखारे (बैंगनी) रंग में रंगी गई थीं।"
+                    }
+                ]
+            }
+        ],
+        "synonyms": [],
+        "antonyms": [],
+        "collocations": [
+            "ripe plum",
+            "plum jam",
+            "plum color"
+        ],
         "category": "fruits"
     },
     {
@@ -130,17 +536,199 @@
         "slug": "peach",
         "pron": "पीच",
         "meaning": "आड़ू",
-        "definition": "A round fruit with fuzzy skin and a large pit.",
-        "example": "The peach is soft and delicious.",
+        "usages": [
+            {
+                "partOfSpeech": "Noun",
+                "definition": "A round fruit with soft slightly furry skin and sweet yellow flesh.",
+                "examples": [
+                    {
+                        "en": "The peach was so juicy it dripped down my chin.",
+                        "hi": "आड़ू इतना रसीला था कि मेरी ठुड्डी तक टपक गया।"
+                    },
+                    {
+                        "en": "She added sliced peaches to her yogurt.",
+                        "hi": "उसने अपने दही में कटे हुए आड़ू डाले।"
+                    }
+                ]
+            },
+            {
+                "partOfSpeech": "Adjective",
+                "definition": "A pale pinkish-yellow color.",
+                "examples": [
+                    {
+                        "en": "The room was decorated in peach tones.",
+                        "hi": "कमरे को आड़ू (हल्के गुलाबी-पीले) रंगों में सजाया गया था।"
+                    },
+                    {
+                        "en": "She wore a peach colored blouse.",
+                        "hi": "उसने आड़ू के रंग का ब्लाउज पहना था।"
+                    }
+                ]
+            }
+        ],
+        "synonyms": [],
+        "antonyms": [],
+        "collocations": [
+            "juicy peach",
+            "fresh peaches",
+            "peach fuzz"
+        ],
         "category": "fruits"
     },
     {
-        "word": "Plum",
-        "slug": "plum",
-        "pron": "प्लम",
-        "meaning": "आलू बुखारा",
-        "definition": "A small, round fruit with smooth skin and a stone in the middle.",
-        "example": "Plums are my favorite summer snack.",
+        "word": "Lychee",
+        "slug": "lychee",
+        "pron": "लीची",
+        "meaning": "लीची",
+        "usages": [
+            {
+                "partOfSpeech": "Noun",
+                "definition": "A small rounded fruit with sweet white scented flesh, a large stone, and a rough red skin.",
+                "examples": [
+                    {
+                        "en": "Lychee is a popular fruit in summer.",
+                        "hi": "गर्मियों में लीची एक लोकप्रिय फल है।"
+                    },
+                    {
+                        "en": "I love eating chilled lychees.",
+                        "hi": "मुझे ठंडी लीची खाना पसंद है।"
+                    }
+                ]
+            }
+        ],
+        "synonyms": [
+            "litchi"
+        ],
+        "antonyms": [],
+        "collocations": [
+            "fresh lychee",
+            "lychee juice",
+            "peel a lychee"
+        ],
+        "category": "fruits"
+    },
+    {
+        "word": "Custard Apple",
+        "slug": "custard-apple",
+        "pron": "कस्टर्ड ऐपल",
+        "meaning": "सीताफल / शरीफा",
+        "usages": [
+            {
+                "partOfSpeech": "Noun",
+                "definition": "A tropical fruit with a scaly green skin and sweet, soft, creamy flesh.",
+                "examples": [
+                    {
+                        "en": "Custard apple is very sweet and creamy.",
+                        "hi": "सीताफल बहुत मीठा और मलाईदार होता है।"
+                    },
+                    {
+                        "en": "You have to spit out the seeds while eating a custard apple.",
+                        "hi": "सीताफल खाते समय आपको इसके बीज थूकने पड़ते हैं।"
+                    }
+                ]
+            }
+        ],
+        "synonyms": [
+            "sugar apple"
+        ],
+        "antonyms": [],
+        "collocations": [
+            "ripe custard apple",
+            "custard apple pulp"
+        ],
+        "category": "fruits"
+    },
+    {
+        "word": "Jackfruit",
+        "slug": "jackfruit",
+        "pron": "जैकफ्रूट",
+        "meaning": "कटहल",
+        "usages": [
+            {
+                "partOfSpeech": "Noun",
+                "definition": "A massive tropical fruit with a bumpy green rind and edible yellow bulbs inside.",
+                "examples": [
+                    {
+                        "en": "Ripe jackfruit has a very strong and sweet aroma.",
+                        "hi": "पके कटहल में बहुत तेज और मीठी सुगंध होती है।"
+                    },
+                    {
+                        "en": "Raw jackfruit is often cooked as a vegetable.",
+                        "hi": "कच्चा कटहल अक्सर सब्जी के रूप में पकाया जाता है।"
+                    }
+                ]
+            }
+        ],
+        "synonyms": [],
+        "antonyms": [],
+        "collocations": [
+            "ripe jackfruit",
+            "raw jackfruit",
+            "jackfruit curry"
+        ],
+        "category": "fruits"
+    },
+    {
+        "word": "Sapota",
+        "slug": "sapota",
+        "pron": "सपोटा",
+        "meaning": "चीकू",
+        "usages": [
+            {
+                "partOfSpeech": "Noun",
+                "definition": "A tropical fruit with brown rough skin and very sweet grainy brown flesh.",
+                "examples": [
+                    {
+                        "en": "Sapota is also commonly known as chikoo in India.",
+                        "hi": "सपोटा को भारत में आमतौर पर चीकू के रूप में भी जाना जाता है।"
+                    },
+                    {
+                        "en": "Chikoo milkshake is very delicious.",
+                        "hi": "चीकू का मिल्कशेक बहुत स्वादिष्ट होता है।"
+                    }
+                ]
+            }
+        ],
+        "synonyms": [
+            "chikoo",
+            "sapodilla"
+        ],
+        "antonyms": [],
+        "collocations": [
+            "chikoo shake",
+            "ripe sapota",
+            "sweet sapota"
+        ],
+        "category": "fruits"
+    },
+    {
+        "word": "Strawberry",
+        "slug": "strawberry",
+        "pron": "स्ट्रॉबेरी",
+        "meaning": "स्ट्रॉबेरी",
+        "usages": [
+            {
+                "partOfSpeech": "Noun",
+                "definition": "A sweet, fleshy red fruit with small seeds on the outside.",
+                "examples": [
+                    {
+                        "en": "She decorated the cake with fresh strawberries.",
+                        "hi": "उसने ताजी स्ट्रॉबेरी से केक को सजाया।"
+                    },
+                    {
+                        "en": "Strawberry ice cream is my favorite.",
+                        "hi": "स्ट्रॉबेरी आइसक्रीम मेरी पसंदीदा है।"
+                    }
+                ]
+            }
+        ],
+        "synonyms": [],
+        "antonyms": [],
+        "collocations": [
+            "fresh strawberry",
+            "strawberry jam",
+            "strawberry ice cream"
+        ],
         "category": "fruits"
     },
     {
@@ -148,8 +736,74 @@
         "slug": "cherry",
         "pron": "चेरी",
         "meaning": "चेरी",
-        "definition": "A small, round red fruit with a hard stone inside.",
-        "example": "Put a cherry on top of the cake.",
+        "usages": [
+            {
+                "partOfSpeech": "Noun",
+                "definition": "A small, round stone fruit that is typically bright or dark red.",
+                "examples": [
+                    {
+                        "en": "He put a cherry on top of the sundae.",
+                        "hi": "उसने संडे (आइसक्रीम) के ऊपर एक चेरी रखी।"
+                    },
+                    {
+                        "en": "The cherries we bought are very sweet.",
+                        "hi": "हमने जो चेरी खरीदीं, वे बहुत मीठी हैं।"
+                    }
+                ]
+            },
+            {
+                "partOfSpeech": "Adjective",
+                "definition": "A bright red color.",
+                "examples": [
+                    {
+                        "en": "She painted her nails cherry red.",
+                        "hi": "उसने अपने नाखूनों को चेरी जैसा लाल रंगा।"
+                    },
+                    {
+                        "en": "He bought a new cherry red car.",
+                        "hi": "उसने एक नई चेरी लाल कार खरीदी।"
+                    }
+                ]
+            }
+        ],
+        "synonyms": [],
+        "antonyms": [],
+        "collocations": [
+            "cherry red",
+            "sweet cherry",
+            "sour cherry",
+            "cherry on top"
+        ],
+        "category": "fruits"
+    },
+    {
+        "word": "Blueberry",
+        "slug": "blueberry",
+        "pron": "ब्लूबेरी",
+        "meaning": "नीलबदरी",
+        "usages": [
+            {
+                "partOfSpeech": "Noun",
+                "definition": "A small sweet dark blue to purple berry.",
+                "examples": [
+                    {
+                        "en": "I love eating blueberry muffins.",
+                        "hi": "मुझे ब्लूबेरी मफिन खाना बहुत पसंद है।"
+                    },
+                    {
+                        "en": "Blueberries are rich in antioxidants.",
+                        "hi": "ब्लूबेरी में एंटीऑक्सीडेंट प्रचुर मात्रा में होते हैं।"
+                    }
+                ]
+            }
+        ],
+        "synonyms": [],
+        "antonyms": [],
+        "collocations": [
+            "fresh blueberries",
+            "blueberry muffin",
+            "blueberry pie"
+        ],
         "category": "fruits"
     },
     {
@@ -157,8 +811,63 @@
         "slug": "kiwi",
         "pron": "कीवी",
         "meaning": "कीवी",
-        "definition": "A small fruit with fuzzy brown skin and green flesh.",
-        "example": "Kiwi has a unique sweet and sour taste.",
+        "usages": [
+            {
+                "partOfSpeech": "Noun",
+                "definition": "A small fruit with thin brown hairy skin and sweet green flesh with black seeds.",
+                "examples": [
+                    {
+                        "en": "Kiwi is slightly sour but very tasty.",
+                        "hi": "कीवी थोड़ी खट्टी होती है लेकिन बहुत स्वादिष्ट होती है।"
+                    },
+                    {
+                        "en": "I added kiwi to the fruit bowl.",
+                        "hi": "मैंने फलों के कटोरे में कीवी डाला।"
+                    }
+                ]
+            }
+        ],
+        "synonyms": [
+            "kiwifruit"
+        ],
+        "antonyms": [],
+        "collocations": [
+            "peel a kiwi",
+            "kiwi slice",
+            "fresh kiwi"
+        ],
+        "category": "fruits"
+    },
+    {
+        "word": "Avocado",
+        "slug": "avocado",
+        "pron": "एवोकाडो",
+        "meaning": "रुचिरा / मक्खन फल",
+        "usages": [
+            {
+                "partOfSpeech": "Noun",
+                "definition": "A pear-shaped fruit with rough, dark green skin and buttery, pale green flesh.",
+                "examples": [
+                    {
+                        "en": "Avocado is great on toast.",
+                        "hi": "एवोकाडो टोस्ट के साथ बहुत अच्छा लगता है।"
+                    },
+                    {
+                        "en": "She made a dip using ripe avocados.",
+                        "hi": "उसने पके एवोकाडो का उपयोग करके एक डिप (चटनी) बनाई।"
+                    }
+                ]
+            }
+        ],
+        "synonyms": [
+            "butter fruit"
+        ],
+        "antonyms": [],
+        "collocations": [
+            "ripe avocado",
+            "mashed avocado",
+            "avocado toast"
+        ],
         "category": "fruits"
     },
     {
@@ -166,8 +875,59 @@
         "slug": "fig",
         "pron": "फिग",
         "meaning": "अंजीर",
-        "definition": "A soft, sweet fruit full of tiny seeds.",
-        "example": "Dried figs are very nutritious.",
+        "usages": [
+            {
+                "partOfSpeech": "Noun",
+                "definition": "A soft, sweet fruit with many small seeds inside, eaten fresh or dried.",
+                "examples": [
+                    {
+                        "en": "Dried figs are very nutritious.",
+                        "hi": "सूखे अंजीर बहुत पौष्टिक होते हैं।"
+                    },
+                    {
+                        "en": "We have a fig tree in our backyard.",
+                        "hi": "हमारे पिछवाड़े में एक अंजीर का पेड़ है।"
+                    }
+                ]
+            }
+        ],
+        "synonyms": [],
+        "antonyms": [],
+        "collocations": [
+            "dried fig",
+            "fresh fig",
+            "fig tree"
+        ],
+        "category": "fruits"
+    },
+    {
+        "word": "Dates",
+        "slug": "dates",
+        "pron": "डेट्स",
+        "meaning": "खजूर",
+        "usages": [
+            {
+                "partOfSpeech": "Noun",
+                "definition": "Sweet, dark brown oval fruits containing a hard stone, commonly dried.",
+                "examples": [
+                    {
+                        "en": "Eating dates gives you instant energy.",
+                        "hi": "खजूर खाने से आपको तुरंत ऊर्जा मिलती है।"
+                    },
+                    {
+                        "en": "She broke her fast with some dates.",
+                        "hi": "उसने कुछ खजूर खाकर अपना व्रत तोड़ा।"
+                    }
+                ]
+            }
+        ],
+        "synonyms": [],
+        "antonyms": [],
+        "collocations": [
+            "dried dates",
+            "fresh dates",
+            "pitted dates"
+        ],
         "category": "fruits"
     },
     {
@@ -175,8 +935,676 @@
         "slug": "apricot",
         "pron": "एप्रिकॉट",
         "meaning": "खुबानी",
-        "definition": "A small, round, orange fruit with a pit.",
-        "example": "Apricots are great for making jam.",
+        "usages": [
+            {
+                "partOfSpeech": "Noun",
+                "definition": "A small, round, yellowish-orange fruit with a stone and soft flesh.",
+                "examples": [
+                    {
+                        "en": "We bought some dried apricots from the market.",
+                        "hi": "हमने बाज़ार से कुछ सूखी खुबानी खरीदी।"
+                    },
+                    {
+                        "en": "The apricot jam was delicious.",
+                        "hi": "खुबानी का जैम स्वादिष्ट था।"
+                    }
+                ]
+            }
+        ],
+        "synonyms": [],
+        "antonyms": [],
+        "collocations": [
+            "dried apricot",
+            "fresh apricot",
+            "apricot jam"
+        ],
+        "category": "fruits"
+    },
+    {
+        "word": "Mulberry",
+        "slug": "mulberry",
+        "pron": "मलबेरी",
+        "meaning": "शहतूत",
+        "usages": [
+            {
+                "partOfSpeech": "Noun",
+                "definition": "A dark red or purple berry resembling a blackberry.",
+                "examples": [
+                    {
+                        "en": "We used to pick mulberries from the tree.",
+                        "hi": "हम पेड़ से शहतूत तोड़ा करते थे।"
+                    },
+                    {
+                        "en": "Mulberry leaves are fed to silkworms.",
+                        "hi": "रेशम के कीड़ों को शहतूत के पत्ते खिलाए जाते हैं।"
+                    }
+                ]
+            }
+        ],
+        "synonyms": [],
+        "antonyms": [],
+        "collocations": [
+            "mulberry tree",
+            "ripe mulberry",
+            "mulberry leaves"
+        ],
+        "category": "fruits"
+    },
+    {
+        "word": "Blackberry",
+        "slug": "blackberry",
+        "pron": "ब्लैकबेरी",
+        "meaning": "ब्लैकबेरी",
+        "usages": [
+            {
+                "partOfSpeech": "Noun",
+                "definition": "An edible soft fruit consisting of a cluster of soft purple-black drupelets.",
+                "examples": [
+                    {
+                        "en": "We picked wild blackberries in the forest.",
+                        "hi": "हमने जंगल में जंगली ब्लैकबेरी तोड़ी।"
+                    },
+                    {
+                        "en": "Blackberry pie is her favorite dessert.",
+                        "hi": "ब्लैकबेरी पाई उसकी पसंदीदा मिठाई है।"
+                    }
+                ]
+            }
+        ],
+        "synonyms": [],
+        "antonyms": [],
+        "collocations": [
+            "wild blackberry",
+            "blackberry jam",
+            "blackberry bush"
+        ],
+        "category": "fruits"
+    },
+    {
+        "word": "Cranberry",
+        "slug": "cranberry",
+        "pron": "क्रैनबेरी",
+        "meaning": "करौंदा / क्रैनबेरी",
+        "usages": [
+            {
+                "partOfSpeech": "Noun",
+                "definition": "A small, red, acid berry used in cooking.",
+                "examples": [
+                    {
+                        "en": "Cranberry juice is known to be healthy.",
+                        "hi": "क्रैनबेरी जूस को सेहतमंद माना जाता है।"
+                    },
+                    {
+                        "en": "They served cranberry sauce with the turkey.",
+                        "hi": "उन्होंने टर्की के साथ क्रैनबेरी सॉस परोसी।"
+                    }
+                ]
+            }
+        ],
+        "synonyms": [],
+        "antonyms": [],
+        "collocations": [
+            "cranberry juice",
+            "dried cranberries",
+            "cranberry sauce"
+        ],
+        "category": "fruits"
+    },
+    {
+        "word": "Raspberry",
+        "slug": "raspberry",
+        "pron": "रास्पबेरी",
+        "meaning": "रसभरी",
+        "usages": [
+            {
+                "partOfSpeech": "Noun",
+                "definition": "An edible soft fruit related to the blackberry, consisting of a cluster of reddish-pink drupelets.",
+                "examples": [
+                    {
+                        "en": "She added fresh raspberries to her cereal.",
+                        "hi": "उसने अपने अनाज (सीरियल) में ताजी रसभरी डाली।"
+                    },
+                    {
+                        "en": "Raspberry flavor is very popular in candies.",
+                        "hi": "कैंडी में रास्पबेरी का स्वाद बहुत लोकप्रिय है।"
+                    }
+                ]
+            }
+        ],
+        "synonyms": [],
+        "antonyms": [],
+        "collocations": [
+            "fresh raspberry",
+            "raspberry jam",
+            "raspberry flavor"
+        ],
+        "category": "fruits"
+    },
+    {
+        "word": "Passion fruit",
+        "slug": "passion-fruit",
+        "pron": "पैशन फ्रूट",
+        "meaning": "कृष्णकमल फल",
+        "usages": [
+            {
+                "partOfSpeech": "Noun",
+                "definition": "A tropical fruit with a tough outer shell and sweet, seedy, gelatinous center.",
+                "examples": [
+                    {
+                        "en": "Passion fruit has a very unique and tart flavor.",
+                        "hi": "पैशन फ्रूट का स्वाद बहुत ही अनूठा और तीखा (खट्टा) होता है।"
+                    },
+                    {
+                        "en": "I ordered a passion fruit mocktail.",
+                        "hi": "मैंने पैशन फ्रूट मॉकटेल का ऑर्डर दिया।"
+                    }
+                ]
+            }
+        ],
+        "synonyms": [],
+        "antonyms": [],
+        "collocations": [
+            "passion fruit juice",
+            "fresh passion fruit"
+        ],
+        "category": "fruits"
+    },
+    {
+        "word": "Dragon fruit",
+        "slug": "dragon-fruit",
+        "pron": "ड्रैगन फ्रूट",
+        "meaning": "ड्रैगन फ्रूट / पिताया",
+        "usages": [
+            {
+                "partOfSpeech": "Noun",
+                "definition": "A tropical fruit with pink or yellow skin and sweet, seed-speckled pulp.",
+                "examples": [
+                    {
+                        "en": "Dragon fruit looks very exotic.",
+                        "hi": "ड्रैगन फ्रूट दिखने में बहुत विदेशी लगता है।"
+                    },
+                    {
+                        "en": "It has white flesh with tiny black seeds.",
+                        "hi": "इसमें छोटे काले बीजों वाला सफेद गूदा होता है।"
+                    }
+                ]
+            }
+        ],
+        "synonyms": [
+            "pitaya"
+        ],
+        "antonyms": [],
+        "collocations": [
+            "pink dragon fruit",
+            "fresh dragon fruit"
+        ],
+        "category": "fruits"
+    },
+    {
+        "word": "Gooseberry",
+        "slug": "gooseberry",
+        "pron": "गूसबेरी",
+        "meaning": "आंवला / करौंदा",
+        "usages": [
+            {
+                "partOfSpeech": "Noun",
+                "definition": "A round edible yellowish-green or reddish berry with a tart flavor.",
+                "examples": [
+                    {
+                        "en": "Indian gooseberry, or Amla, is very rich in Vitamin C.",
+                        "hi": "भारतीय आंवला विटामिन सी से भरपूर होता है।"
+                    },
+                    {
+                        "en": "My grandmother makes tasty gooseberry pickle.",
+                        "hi": "मेरी दादी स्वादिष्ट आंवले का अचार बनाती हैं।"
+                    }
+                ]
+            }
+        ],
+        "synonyms": [
+            "amla (Indian context)"
+        ],
+        "antonyms": [],
+        "collocations": [
+            "gooseberry pickle",
+            "Indian gooseberry",
+            "sour gooseberry"
+        ],
+        "category": "fruits"
+    },
+    {
+        "word": "Tamarind",
+        "slug": "tamarind",
+        "pron": "टैमरिंड",
+        "meaning": "इमली",
+        "usages": [
+            {
+                "partOfSpeech": "Noun",
+                "definition": "A sticky brown acidic pulp from the pod of a tree, used as a flavoring.",
+                "examples": [
+                    {
+                        "en": "Tamarind chutney is essential for making chaat.",
+                        "hi": "चाट बनाने के लिए इमली की चटनी आवश्यक है।"
+                    },
+                    {
+                        "en": "The tamarind is very sour.",
+                        "hi": "इमली बहुत खट्टी होती है।"
+                    }
+                ]
+            }
+        ],
+        "synonyms": [],
+        "antonyms": [],
+        "collocations": [
+            "tamarind paste",
+            "tamarind chutney",
+            "sweet tamarind"
+        ],
+        "category": "fruits"
+    },
+    {
+        "word": "Starfruit",
+        "slug": "starfruit",
+        "pron": "स्टारफ्रूट",
+        "meaning": "कमरख",
+        "usages": [
+            {
+                "partOfSpeech": "Noun",
+                "definition": "A yellow tropical fruit with deeply ridged sides, shaped like a star when cut in cross section.",
+                "examples": [
+                    {
+                        "en": "Starfruit has a crisp texture and tangy taste.",
+                        "hi": "स्टारफ्रूट की बनावट कुरकुरी और स्वाद तीखा होता है।"
+                    },
+                    {
+                        "en": "The slices of starfruit looked beautiful on the plate.",
+                        "hi": "स्टारफ्रूट के टुकड़े प्लेट में बहुत खूबसूरत लग रहे थे।"
+                    }
+                ]
+            }
+        ],
+        "synonyms": [
+            "carambola"
+        ],
+        "antonyms": [],
+        "collocations": [
+            "sliced starfruit",
+            "ripe starfruit"
+        ],
+        "category": "fruits"
+    },
+    {
+        "word": "Grapefruit",
+        "slug": "grapefruit",
+        "pron": "ग्रेपफ्रूट",
+        "meaning": "चकोतरा",
+        "usages": [
+            {
+                "partOfSpeech": "Noun",
+                "definition": "A large, round, yellow citrus fruit with an acid, juicy pulp.",
+                "examples": [
+                    {
+                        "en": "I had half a grapefruit for breakfast.",
+                        "hi": "मैंने नाश्ते में आधा चकोतरा खाया।"
+                    },
+                    {
+                        "en": "Grapefruit juice can be somewhat bitter.",
+                        "hi": "चकोतरे का रस थोड़ा कड़वा हो सकता है।"
+                    }
+                ]
+            }
+        ],
+        "synonyms": [],
+        "antonyms": [],
+        "collocations": [
+            "pink grapefruit",
+            "grapefruit juice",
+            "bitter grapefruit"
+        ],
+        "category": "fruits"
+    },
+    {
+        "word": "Persimmon",
+        "slug": "persimmon",
+        "pron": "पर्सिमन",
+        "meaning": "तेंदू फल",
+        "usages": [
+            {
+                "partOfSpeech": "Noun",
+                "definition": "An edible fruit that resembles a large tomato and has very sweet flesh.",
+                "examples": [
+                    {
+                        "en": "A ripe persimmon is incredibly sweet and soft.",
+                        "hi": "पका हुआ तेंदू फल अविश्वसनीय रूप से मीठा और नरम होता है।"
+                    },
+                    {
+                        "en": "You should only eat persimmons when they are fully ripe.",
+                        "hi": "आपको तेंदू फल तभी खाना चाहिए जब वे पूरी तरह पक जाएं।"
+                    }
+                ]
+            }
+        ],
+        "synonyms": [],
+        "antonyms": [],
+        "collocations": [
+            "ripe persimmon",
+            "sweet persimmon"
+        ],
+        "category": "fruits"
+    },
+    {
+        "word": "Quince",
+        "slug": "quince",
+        "pron": "क्विन्स",
+        "meaning": "श्रीफल / बही",
+        "usages": [
+            {
+                "partOfSpeech": "Noun",
+                "definition": "A hard, acid pear-shaped fruit used in preserves or as flavoring.",
+                "examples": [
+                    {
+                        "en": "Quince makes excellent jam and jelly.",
+                        "hi": "बही से बेहतरीन जैम और जेली बनती है।"
+                    },
+                    {
+                        "en": "The quince is too tart to eat raw.",
+                        "hi": "कच्चा खाने के लिए बही बहुत खट्टा होता है।"
+                    }
+                ]
+            }
+        ],
+        "synonyms": [],
+        "antonyms": [],
+        "collocations": [
+            "quince jelly",
+            "quince jam"
+        ],
+        "category": "fruits"
+    },
+    {
+        "word": "Cantaloupe",
+        "slug": "cantaloupe",
+        "pron": "कैंटालूप",
+        "meaning": "खरबूजा",
+        "usages": [
+            {
+                "partOfSpeech": "Noun",
+                "definition": "A small, round melon with a rough, netted skin and sweet, orange flesh.",
+                "examples": [
+                    {
+                        "en": "The cantaloupe was perfectly sweet and ripe.",
+                        "hi": "खरबूजा एकदम मीठा और पका हुआ था।"
+                    },
+                    {
+                        "en": "We had cantaloupe and ice cream for dessert.",
+                        "hi": "हमने मिठाई में खरबूजा और आइसक्रीम खाई।"
+                    }
+                ]
+            }
+        ],
+        "synonyms": [
+            "muskmelon",
+            "rockmelon"
+        ],
+        "antonyms": [],
+        "collocations": [
+            "sliced cantaloupe",
+            "ripe cantaloupe"
+        ],
+        "category": "fruits"
+    },
+    {
+        "word": "Tangerine",
+        "slug": "tangerine",
+        "pron": "टैंजरीन",
+        "meaning": "किन्नू / संतरा",
+        "usages": [
+            {
+                "partOfSpeech": "Noun",
+                "definition": "A small citrus fruit with a loose skin, related to the mandarin orange.",
+                "examples": [
+                    {
+                        "en": "Tangerines are easy to peel.",
+                        "hi": "किन्नू छीलने में आसान होते हैं।"
+                    },
+                    {
+                        "en": "I put a tangerine in my lunchbox.",
+                        "hi": "मैंने अपने लंचबॉक्स में एक किन्नू रखा।"
+                    }
+                ]
+            }
+        ],
+        "synonyms": [
+            "mandarin"
+        ],
+        "antonyms": [],
+        "collocations": [
+            "peel a tangerine",
+            "sweet tangerine"
+        ],
+        "category": "fruits"
+    },
+    {
+        "word": "Pomelo",
+        "slug": "pomelo",
+        "pron": "पोमेलो",
+        "meaning": "चकोतरा (बड़ा)",
+        "usages": [
+            {
+                "partOfSpeech": "Noun",
+                "definition": "A very large, thick-rinded citrus fruit related to the grapefruit.",
+                "examples": [
+                    {
+                        "en": "The pomelo is the largest of all citrus fruits.",
+                        "hi": "पोमेलो सभी खट्टे फलों में सबसे बड़ा होता है।"
+                    },
+                    {
+                        "en": "She spent ten minutes peeling the thick skin off the pomelo.",
+                        "hi": "उसने पोमेलो का मोटा छिलका उतारने में दस मिनट लगा दिए।"
+                    }
+                ]
+            }
+        ],
+        "synonyms": [
+            "pummelo"
+        ],
+        "antonyms": [],
+        "collocations": [
+            "large pomelo",
+            "peel a pomelo"
+        ],
+        "category": "fruits"
+    },
+    {
+        "word": "Kumquat",
+        "slug": "kumquat",
+        "pron": "कुमक़्वात",
+        "meaning": "कमक्वैट",
+        "usages": [
+            {
+                "partOfSpeech": "Noun",
+                "definition": "A small, orange, edible citrus fruit that is eaten with its rind.",
+                "examples": [
+                    {
+                        "en": "You eat the whole kumquat, including the peel.",
+                        "hi": "आप छिलके सहित पूरा कमक्वैट खाते हैं।"
+                    },
+                    {
+                        "en": "Kumquats have a sweet skin and sour inside.",
+                        "hi": "कमक्वैट का छिलका मीठा और अंदर से खट्टा होता है।"
+                    }
+                ]
+            }
+        ],
+        "synonyms": [],
+        "antonyms": [],
+        "collocations": [
+            "eat a kumquat",
+            "sweet kumquat"
+        ],
+        "category": "fruits"
+    },
+    {
+        "word": "Nectarine",
+        "slug": "nectarine",
+        "pron": "नेक्टराइन",
+        "meaning": "शफ़तालू / आड़ू की किस्म",
+        "usages": [
+            {
+                "partOfSpeech": "Noun",
+                "definition": "A type of peach with a smooth skin.",
+                "examples": [
+                    {
+                        "en": "Nectarines look like peaches but do not have fuzzy skin.",
+                        "hi": "नेक्टराइन आड़ू की तरह दिखते हैं लेकिन उनकी त्वचा रोएंदार नहीं होती।"
+                    },
+                    {
+                        "en": "I prefer nectarines over regular peaches.",
+                        "hi": "मुझे साधारण आड़ू की तुलना में नेक्टराइन ज्यादा पसंद हैं।"
+                    }
+                ]
+            }
+        ],
+        "synonyms": [
+            "smooth peach"
+        ],
+        "antonyms": [],
+        "collocations": [
+            "ripe nectarine",
+            "juicy nectarine"
+        ],
+        "category": "fruits"
+    },
+    {
+        "word": "Olive",
+        "slug": "olive",
+        "pron": "ऑलिव",
+        "meaning": "जैतून",
+        "usages": [
+            {
+                "partOfSpeech": "Noun",
+                "definition": "A small oval fruit with a hard pit and bitter flesh, green when unripe and black when ripe.",
+                "examples": [
+                    {
+                        "en": "We ordered a pizza with extra black olives.",
+                        "hi": "हमने अतिरिक्त काले जैतून वाले पिज्जा का ऑर्डर दिया।"
+                    },
+                    {
+                        "en": "Olive oil is very healthy for the heart.",
+                        "hi": "जैतून का तेल हृदय के लिए बहुत स्वस्थ होता है।"
+                    }
+                ]
+            },
+            {
+                "partOfSpeech": "Adjective",
+                "definition": "A yellowish-green color like that of an unripe olive.",
+                "examples": [
+                    {
+                        "en": "He wore an olive green jacket.",
+                        "hi": "उसने जैतून के हरे रंग की जैकेट पहनी थी।"
+                    },
+                    {
+                        "en": "Her skin had a beautiful olive tone.",
+                        "hi": "उसकी त्वचा का रंग एक सुंदर जैतून (गहरा भूरा-हरा) था।"
+                    }
+                ]
+            }
+        ],
+        "synonyms": [],
+        "antonyms": [],
+        "collocations": [
+            "black olive",
+            "green olive",
+            "olive oil",
+            "olive green"
+        ],
+        "category": "fruits"
+    },
+    {
+        "word": "Elderberry",
+        "slug": "elderberry",
+        "pron": "एल्डरबेरी",
+        "meaning": "एल्डरबेरी",
+        "usages": [
+            {
+                "partOfSpeech": "Noun",
+                "definition": "A small dark purple berry that is used to make wine and jelly.",
+                "examples": [
+                    {
+                        "en": "Elderberry syrup is often used as a natural remedy for colds.",
+                        "hi": "एल्डरबेरी सिरप का उपयोग अक्सर सर्दी के लिए प्राकृतिक उपचार के रूप में किया जाता है।"
+                    },
+                    {
+                        "en": "They made elderberry wine from the harvest.",
+                        "hi": "उन्होंने फसल से एल्डरबेरी वाइन बनाई।"
+                    }
+                ]
+            }
+        ],
+        "synonyms": [],
+        "antonyms": [],
+        "collocations": [
+            "elderberry syrup",
+            "elderberry wine"
+        ],
+        "category": "fruits"
+    },
+    {
+        "word": "Boysenberry",
+        "slug": "boysenberry",
+        "pron": "बॉयसेनबेरी",
+        "meaning": "बॉयसेनबेरी",
+        "usages": [
+            {
+                "partOfSpeech": "Noun",
+                "definition": "A large red-black edible berry.",
+                "examples": [
+                    {
+                        "en": "Boysenberry pie is a famous treat in some regions.",
+                        "hi": "बॉयसेनबेरी पाई कुछ क्षेत्रों में एक प्रसिद्ध व्यंजन है।"
+                    },
+                    {
+                        "en": "We bought a jar of boysenberry jam.",
+                        "hi": "हमने बॉयसेनबेरी जैम का एक जार खरीदा।"
+                    }
+                ]
+            }
+        ],
+        "synonyms": [],
+        "antonyms": [],
+        "collocations": [
+            "boysenberry jam",
+            "boysenberry pie"
+        ],
+        "category": "fruits"
+    },
+    {
+        "word": "Durian",
+        "slug": "durian",
+        "pron": "ड्यूरियन",
+        "meaning": "डूरियन",
+        "usages": [
+            {
+                "partOfSpeech": "Noun",
+                "definition": "A large, spiky tropical fruit known for its strong, pungent odor and custard-like flesh.",
+                "examples": [
+                    {
+                        "en": "Durian is famous for its very strong smell.",
+                        "hi": "डूरियन अपनी बहुत तेज गंध के लिए प्रसिद्ध है।"
+                    },
+                    {
+                        "en": "Some people love the taste of durian, while others hate it.",
+                        "hi": "कुछ लोग डूरियन का स्वाद पसंद करते हैं, जबकि अन्य इससे नफरत करते हैं।"
+                    }
+                ]
+            }
+        ],
+        "synonyms": [],
+        "antonyms": [],
+        "collocations": [
+            "strong-smelling durian",
+            "spiky durian"
+        ],
         "category": "fruits"
     }
 ]

@@ -39,9 +39,14 @@
     fcIndex: 0,
     fcKnown: 0,
     fcTransitioning: false,
+    fcAutoPlayTimer: null,
     fcSettings: {
       frontPron: false,
       frontMeaning: false,
+      backAdvanced: true,
+      backSynonyms: true,
+      backAntonyms: true,
+      backCollocations: true,
       autoPlay: false,
       timerX: 3,
       timerY: 4
@@ -489,7 +494,12 @@
       meaning: hindiMeaning,
       definition: englishDef,
       example,
-      exampleHindi
+      exampleHindi,
+      usages: w.usages || null,
+      synonyms: w.synonyms || null,
+      antonyms: w.antonyms || null,
+      collocations: w.collocations || null,
+      slug: w.slug || null
     };
   }
 
@@ -712,6 +722,55 @@
     const itemSlug = parsed.slug || word.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
     const imageHtml = `<img src="/assets/images/flashcards/${itemSlug}.webp" alt="${escHtml(word)}" class="flashcard-image" onerror="this.style.display='none'" style="max-width: 140px; max-height: 140px; border-radius: 12px; margin-bottom: 16px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); object-fit: cover;">`;
 
+    const settingsModalHtml = `
+      <div id="fc-settings-modal" class="modal" style="display:none; position:absolute; top:40px; right:0; background:var(--bg-card); border:1px solid var(--border); padding:var(--sp-4); border-radius:8px; z-index:100; box-shadow:0 10px 25px rgba(0,0,0,0.2); width:280px; text-align:left;">
+        <h3 style="margin-top:0; margin-bottom:12px; font-size:1.1rem; display:flex; justify-content:space-between; color:var(--text-main);">Flashcard Settings <button id="fc-close-settings" style="background:none; border:none; cursor:pointer; color:var(--text-main);">✖</button></h3>
+        <div style="display:flex; flex-direction:column; gap:12px; color:var(--text-main);">
+          <label style="display:flex; justify-content:space-between; align-items:center;">
+            Show Pronunciation (Front)
+            <input type="checkbox" id="set-front-pron" ${state.fcSettings.frontPron ? 'checked' : ''}>
+          </label>
+          <label style="display:flex; justify-content:space-between; align-items:center;">
+            Show Hindi Meaning (Front)
+            <input type="checkbox" id="set-front-meaning" ${state.fcSettings.frontMeaning ? 'checked' : ''}>
+          </label>
+          <hr style="border:none; border-top:1px solid var(--border); margin:0;">
+          <label style="display:flex; justify-content:space-between; align-items:center;">
+            Show Extra Details (Back)
+            <input type="checkbox" id="set-back-advanced" ${state.fcSettings.backAdvanced !== false ? 'checked' : ''}>
+          </label>
+          <label style="display:flex; justify-content:space-between; align-items:center;">
+            Show Synonyms (Back)
+            <input type="checkbox" id="set-back-synonyms" ${state.fcSettings.backSynonyms !== false ? 'checked' : ''}>
+          </label>
+          <label style="display:flex; justify-content:space-between; align-items:center;">
+            Show Antonyms (Back)
+            <input type="checkbox" id="set-back-antonyms" ${state.fcSettings.backAntonyms !== false ? 'checked' : ''}>
+          </label>
+          <label style="display:flex; justify-content:space-between; align-items:center;">
+            Show Collocations (Back)
+            <input type="checkbox" id="set-back-collocations" ${state.fcSettings.backCollocations !== false ? 'checked' : ''}>
+          </label>
+          <hr style="border:none; border-top:1px solid var(--border); margin:0;">
+          <div>
+            <label style="display:flex; justify-content:space-between; align-items:center; margin-bottom:4px;">
+              AutoPlay Timer (Front)
+              <input type="number" id="set-timer-x" value="${state.fcSettings.timerX}" style="width:50px; text-align:center; border:1px solid var(--border); background:var(--bg-footer); color:var(--text-main); border-radius:4px;">
+            </label>
+            <div style="font-size:0.8rem; color:var(--text-secondary); text-align:right;">seconds</div>
+          </div>
+          <div>
+            <label style="display:flex; justify-content:space-between; align-items:center; margin-bottom:4px;">
+              AutoPlay Timer (Back)
+              <input type="number" id="set-timer-y" value="${state.fcSettings.timerY}" style="width:50px; text-align:center; border:1px solid var(--border); background:var(--bg-footer); color:var(--text-main); border-radius:4px;">
+            </label>
+            <div style="font-size:0.8rem; color:var(--text-secondary); text-align:right;">seconds</div>
+          </div>
+          <button id="fc-save-settings" class="fc-btn" style="background:var(--accent); color:white; margin-top:8px;">Save Settings</button>
+        </div>
+      </div>
+    `;
+
     container.innerHTML = `
       <div class="animate-fade-in">
         ${categories ? `
@@ -777,6 +836,8 @@
                       
                       ${example ? `<div class="flashcard-example" style="font-size: 1rem; font-style: italic; color: var(--text-secondary); margin-top: var(--sp-5); padding-left: 12px; border-left: 3px solid var(--accent-soft);">"${escHtml(example)}"</div>` : ''}
                       ${parsed.exampleHindi ? `<div class="flashcard-example-hi" style="font-size: 0.95rem; font-style: normal; color: var(--text-secondary); margin-top: var(--sp-2); padding-left: 12px; border-left: 3px solid var(--accent-soft); opacity: 0.8;">${escHtml(parsed.exampleHindi)}</div>` : ''}
+                      
+                      <div class="flashcard-advanced-info" style="width:100%; text-align:left; margin-top:var(--sp-4); display:none;"></div>
                     </div>
                   </div>
                 </div>
@@ -801,7 +862,8 @@
     // Bind events
     const settingsBtn = $('#fc-settings-btn');
     const settingsModal = $('#fc-settings-modal');
-    const settingsClose = $('#fc-settings-close');
+    const settingsCloseBtn = $('#fc-close-settings');
+    const settingsSaveBtn = $('#fc-save-settings');
     const autoPlayToggle = $('#fc-autoplay-toggle');
     
     if (settingsBtn && settingsModal) {
@@ -809,15 +871,21 @@
         settingsModal.style.display = 'flex';
         stopFCAutoPlay();
       });
-      settingsClose.addEventListener('click', () => {
+      const saveAndClose = () => {
         state.fcSettings.frontPron = $('#set-front-pron').checked;
         state.fcSettings.frontMeaning = $('#set-front-meaning').checked;
+        state.fcSettings.backAdvanced = $('#set-back-advanced').checked;
+        state.fcSettings.backSynonyms = $('#set-back-synonyms').checked;
+        state.fcSettings.backAntonyms = $('#set-back-antonyms').checked;
+        state.fcSettings.backCollocations = $('#set-back-collocations').checked;
         state.fcSettings.timerX = parseInt($('#set-timer-x').value) || 3;
         state.fcSettings.timerY = parseInt($('#set-timer-y').value) || 4;
         saveFCSettings();
         settingsModal.style.display = 'none';
         renderFlashcardUI(container, categories, activeSlug); // Re-render to apply
-      });
+      };
+      if (settingsCloseBtn) settingsCloseBtn.addEventListener('click', saveAndClose);
+      if (settingsSaveBtn) settingsSaveBtn.addEventListener('click', saveAndClose);
     }
     
     if (autoPlayToggle) {
@@ -936,15 +1004,6 @@
 
 
     const backDefinition = $('.flashcard-back .flashcard-definition');
-    if (backDefinition) {
-      if (parsed.definition) {
-        backDefinition.textContent = parsed.definition;
-        backDefinition.style.display = 'block';
-      } else {
-        backDefinition.style.display = 'none';
-      }
-    }
-
     const backWord = $('.flashcard-back .flashcard-word');
     if (backWord) backWord.textContent = parsed.word;
     
@@ -969,12 +1028,61 @@
     }
 
     const backExample = $('.flashcard-back .flashcard-example');
-    if (backExample) {
-      if (parsed.example) {
-        backExample.textContent = `"${parsed.example}"`;
-        backExample.style.display = 'block';
-      } else {
-        backExample.style.display = 'none';
+    const backExampleHi = $('.flashcard-back .flashcard-example-hi');
+
+    const advancedInfo = $('.flashcard-back .flashcard-advanced-info');
+    if (advancedInfo) {
+      let advHtml = '';
+      if (state.fcSettings.backAdvanced !== false && parsed.usages && parsed.usages.length > 0) {
+        advHtml += parsed.usages.map(u => `
+          <div style="margin-top:12px;">
+            <div style="font-size:0.9rem; font-weight:600; color:var(--text-secondary); text-transform:uppercase;"><span style="background:var(--bg-footer); padding:2px 6px; border-radius:4px;">${u.partOfSpeech}</span></div>
+            <div style="font-size:1.05rem; margin-top:4px;">${u.definition}</div>
+            ${u.examples ? `<div style="margin-top:6px;">${u.examples.map(ex => `
+              <div style="font-style:italic; font-size:0.95rem; color:var(--text-secondary); border-left:2px solid var(--accent-soft); padding-left:8px; margin-bottom:4px;">"${ex.en}"<br><span style="font-style:normal; font-size:0.85rem; opacity:0.8;">${ex.hi}</span></div>
+            `).join('')}</div>` : ''}
+          </div>
+        `).join('');
+      }
+      if (state.fcSettings.backSynonyms !== false && parsed.synonyms && parsed.synonyms.length > 0) {
+        advHtml += `<div style="margin-top:12px; font-size:0.9rem;"><strong style="color:var(--text-secondary); text-transform:uppercase;">Synonyms:</strong><br>${parsed.synonyms.join(', ')}</div>`;
+      }
+      if (state.fcSettings.backAntonyms !== false && parsed.antonyms && parsed.antonyms.length > 0) {
+        advHtml += `<div style="margin-top:12px; font-size:0.9rem;"><strong style="color:var(--text-secondary); text-transform:uppercase;">Antonyms:</strong><br>${parsed.antonyms.join(', ')}</div>`;
+      }
+      if (state.fcSettings.backCollocations !== false && parsed.collocations && parsed.collocations.length > 0) {
+        advHtml += `<div style="margin-top:12px; font-size:0.9rem;"><strong style="color:var(--text-secondary); text-transform:uppercase;">Collocations:</strong><br>${parsed.collocations.join(', ')}</div>`;
+      }
+
+      advancedInfo.innerHTML = advHtml;
+      advancedInfo.style.display = advHtml ? 'block' : 'none';
+
+      // Visibility toggles for older fallback format
+      if (backDefinition) backDefinition.style.display = advHtml ? 'none' : (parsed.definition ? 'block' : 'none');
+      if (backExample) backExample.style.display = advHtml ? 'none' : (parsed.example ? 'block' : 'none');
+      if (backExampleHi) backExampleHi.style.display = advHtml ? 'none' : (parsed.exampleHindi ? 'block' : 'none');
+      
+      // Update text for older format
+      if (!advHtml && backDefinition && parsed.definition) backDefinition.textContent = parsed.definition;
+      if (!advHtml && backExample && parsed.example) backExample.textContent = `"${parsed.example}"`;
+      if (!advHtml && backExampleHi && parsed.exampleHindi) backExampleHi.textContent = parsed.exampleHindi;
+    } else {
+      // Standard fallback behavior if container not present
+      if (backDefinition) {
+        if (parsed.definition) {
+          backDefinition.textContent = parsed.definition;
+          backDefinition.style.display = 'block';
+        } else {
+          backDefinition.style.display = 'none';
+        }
+      }
+      if (backExample) {
+        if (parsed.example) {
+          backExample.textContent = `"${parsed.example}"`;
+          backExample.style.display = 'block';
+        } else {
+          backExample.style.display = 'none';
+        }
       }
     }
   }

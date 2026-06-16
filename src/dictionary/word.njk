@@ -61,20 +61,60 @@ eleventyComputed:
 
       {# Word Info Cards #}
       <div style="display: flex; flex-direction: column; gap: 16px; margin-top: 24px; padding-top: 16px; border-top: 1px dashed var(--border);">
-        {% if wordEntry.definition %}
-          <div>
-            <h3 style="margin: 0 0 6px 0; font-size: 1rem; color: var(--text-secondary); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em;">Definition</h3>
-            <p style="margin: 0; font-size: 1.1rem; line-height: 1.5; color: var(--text-main);">{{ wordEntry.definition }}</p>
-          </div>
-        {% endif %}
-
-        {% if wordEntry.example %}
-          <div>
-            <h3 style="margin: 0 0 6px 0; font-size: 1rem; color: var(--text-secondary); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em;">Example Sentence</h3>
-            <div style="font-style: italic; font-size: 1.1rem; color: var(--text-main); border-left: 3px solid var(--border); padding-left: var(--sp-3); margin-top: 4px;">
-              "{{ wordEntry.example }}"
+        {% if wordEntry.usages and wordEntry.usages.length > 0 %}
+          {% for u in wordEntry.usages %}
+            <div style="margin-bottom: 8px;">
+              <h3 style="margin: 0 0 6px 0; font-size: 1rem; color: var(--text-secondary); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em;"><span style="display:inline-block; padding:2px 6px; background:var(--bg-footer); color:var(--text-secondary); border-radius:4px; font-size:0.75rem; font-weight:bold; margin-right:6px; text-transform:uppercase;">{{ u.partOfSpeech }}</span> Definition</h3>
+              <p style="margin: 0; font-size: 1.1rem; line-height: 1.5; color: var(--text-main);">{{ u.definition }}</p>
+              
+              {% if u.examples %}
+                <div style="margin-top: 12px; display: flex; flex-direction: column; gap: 8px;">
+                  {% for ex in u.examples %}
+                    <div style="font-style: italic; font-size: 1.1rem; color: var(--text-main); border-left: 3px solid var(--border); padding-left: var(--sp-3);">
+                      "{{ ex.en }}"<br>
+                      <span style="font-style:normal; font-size:1rem; color:var(--text-secondary);">{{ ex.hi }}</span>
+                    </div>
+                  {% endfor %}
+                </div>
+              {% endif %}
             </div>
-          </div>
+          {% endfor %}
+          
+          {% if wordEntry.synonyms and wordEntry.synonyms.length > 0 %}
+            <div>
+              <h3 style="margin: 0 0 6px 0; font-size: 1rem; color: var(--text-secondary); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em;">Synonyms</h3>
+              <p style="margin: 0; font-size: 1.1rem; line-height: 1.5; color: var(--text-main);">{{ wordEntry.synonyms | join(', ') }}</p>
+            </div>
+          {% endif %}
+          {% if wordEntry.antonyms and wordEntry.antonyms.length > 0 %}
+            <div>
+              <h3 style="margin: 0 0 6px 0; font-size: 1rem; color: var(--text-secondary); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em;">Antonyms</h3>
+              <p style="margin: 0; font-size: 1.1rem; line-height: 1.5; color: var(--text-main);">{{ wordEntry.antonyms | join(', ') }}</p>
+            </div>
+          {% endif %}
+          {% if wordEntry.collocations and wordEntry.collocations.length > 0 %}
+            <div>
+              <h3 style="margin: 0 0 6px 0; font-size: 1rem; color: var(--text-secondary); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em;">Collocations</h3>
+              <p style="margin: 0; font-size: 1.1rem; line-height: 1.5; color: var(--text-main);">{{ wordEntry.collocations | join(', ') }}</p>
+            </div>
+          {% endif %}
+        {% else %}
+          {# Old Format fallback #}
+          {% if wordEntry.definition %}
+            <div>
+              <h3 style="margin: 0 0 6px 0; font-size: 1rem; color: var(--text-secondary); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em;">Definition</h3>
+              <p style="margin: 0; font-size: 1.1rem; line-height: 1.5; color: var(--text-main);">{{ wordEntry.definition }}</p>
+            </div>
+          {% endif %}
+  
+          {% if wordEntry.example %}
+            <div>
+              <h3 style="margin: 0 0 6px 0; font-size: 1rem; color: var(--text-secondary); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em;">Example Sentence</h3>
+              <div style="font-style: italic; font-size: 1.1rem; color: var(--text-main); border-left: 3px solid var(--border); padding-left: var(--sp-3); margin-top: 4px;">
+                "{{ wordEntry.example }}"
+              </div>
+            </div>
+          {% endif %}
         {% endif %}
       </div>
     </div>
