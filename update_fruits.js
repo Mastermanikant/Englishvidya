@@ -1,4 +1,4 @@
-﻿const fs = require('fs');
+const fs = require('fs');
 const path = require('path');
 
 const dictDir = path.join(__dirname, 'website', 'data', 'dictionary', 'fruits');
@@ -7,6 +7,22 @@ const updates = {
   "blueberry": {
     pron: "ब्लूबेरी",
     meaning: "नीलबदरी",
+    usages: [
+        {
+            partOfSpeech: "Noun",
+            definition: "A small sweet dark blue to purple berry.",
+            examples: [
+                {
+                    en: "I love eating blueberry muffins.",
+                    hi: "मुझे ब्लूबेरी मफिन खाना बहुत पसंद है।"
+                },
+                {
+                    en: "Blueberries are rich in antioxidants.",
+                    hi: "ब्लूबेरी में एंटीऑक्सीडेंट भरपूर मात्रा में होते हैं।"
+                }
+            ]
+        }
+    ],
     detailedInfo: [
       {
         title: "आम बोलचाल में उपयोग (Common Usage)",
@@ -42,7 +58,7 @@ const updates = {
     detailedInfo: [
       {
         title: "आम बोलचाल में उपयोग (Common Usage)",
-        points: ["इसे तकनीकी रूप से 'कृष्णकमल फल' कहा जाता है क्योंकि इसके फूल कृष्णकमल के होते हैं, लेकिन बाजार और आम बोलचाल में छात्र और लोग इसे 'पैशन फ्रूट' (Passion fruit) ही कहते हैं।"]
+        points: ["इसे तकनीकी रूप से 'कृष्णकमल फल' कहा जाता है क्योंकि इसके फूल कृष्णकमल के होते हैं, लेकिन बाजार और आम बोलचाल में लोग इसे 'पैशन फ्रूट' (Passion fruit) ही कहते हैं।"]
       }
     ]
   },
@@ -105,18 +121,12 @@ for (const slug in updates) {
     
     // Add detailedInfo
     data.detailedInfo = updateData.detailedInfo;
-    
-    // Attempt to fix garbled Hindi in examples if they look like ` `
-    data.usages.forEach(u => {
-      u.examples.forEach(ex => {
-        if (ex.hi && ex.hi.includes('')) {
-            // we can't fully restore it automatically here, 
-            // but we can set a fallback placeholder if heavily corrupted
-            ex.hi = "[Hindi translation needs update]";
-        }
-      });
-    });
 
+    // Fix usages for blueberry specifically
+    if (slug === 'blueberry') {
+        data.usages = updateData.usages;
+    }
+    
     fs.writeFileSync(filePath, JSON.stringify(data, null, 4), 'utf8');
     console.log(`Updated word-${slug}.json`);
   }

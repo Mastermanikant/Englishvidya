@@ -1,4 +1,4 @@
-﻿const fs = require('fs');
+const fs = require('fs');
 const path = require('path');
 
 const word_en = "banana";
@@ -25,75 +25,87 @@ const templates = [
   // To Have (Possession)
   { tense: "To Have - Present Affirmative", en: `I have ${article} ${word_en}.`, hi: `मेरे पास एक ${word_hi} है।` },
   { tense: "To Have - Present Affirmative (Plural)", en: `I have many ${word_en_plural}.`, hi: `मेरे पास कई ${word_hi_plural} हैं।` },
-  { tense: "To Have - Present Affirmative (He/She)", en: `She has ${article} ${word_en}.`, hi: `उसके पास एक ${word_hi} है।` },
-  { tense: "To Have - Past Affirmative", en: `We had ${article} ${word_en}.`, hi: `हमारे पास एक ${word_hi} था।` },
+  { tense: "To Have - Past Affirmative", en: `I had ${article} ${word_en}.`, hi: `मेरे पास एक ${word_hi} था।` },
   { tense: "To Have - Present Negative", en: `I don't have ${article} ${word_en}.`, hi: `मेरे पास ${word_hi} नहीं है।` },
-  { tense: "To Have - Present Negative (He/She)", en: `He doesn't have ${article} ${word_en}.`, hi: `उसके पास ${word_hi} नहीं है।` },
   { tense: "To Have - Present Interrogative", en: `Do you have ${article} ${word_en}?`, hi: `क्या तुम्हारे पास एक ${word_hi} है?` },
-  { tense: "To Have - Past Interrogative", en: `Did they have ${article} ${word_en}?`, hi: `क्या उनके पास एक ${word_hi} था?` },
+  { tense: "To Have - Past Interrogative", en: `Did you have ${article} ${word_en}?`, hi: `क्या तुम्हारे पास एक ${word_hi} था?` },
   { tense: "To Have - Wh-Question", en: `How many ${word_en_plural} do you have?`, hi: `तुम्हारे पास कितने ${word_hi_plural} हैं?` },
 
-  // Present Simple (Eat/Like/Want/Buy/Need)
-  { tense: "Present Simple - Affirmative", en: `I eat ${article} ${word_en} every day.`, hi: `मैं रोज़ एक ${word_hi} खाता हूँ।` },
-  { tense: "Present Simple - Affirmative", en: `He likes ${word_en_plural}.`, hi: `उसे ${word_hi_plural} पसंद हैं।` },
-  { tense: "Present Simple - Affirmative", en: `They want ${word_en_plural}.`, hi: `उन्हें ${word_hi_plural} चाहिए।` },
-  { tense: "Present Simple - Negative", en: `I do not eat ${word_en_plural}.`, hi: `मैं ${word_hi_plural} नहीं खाता।` },
-  { tense: "Present Simple - Negative", en: `She does not like ${word_en_plural}.`, hi: `उसे ${word_hi_plural} पसंद नहीं हैं।` },
-  { tense: "Present Simple - Interrogative", en: `Do you like ${word_en_plural}?`, hi: `क्या तुम्हें ${word_hi_plural} पसंद हैं?` },
-  { tense: "Present Simple - Interrogative", en: `Does he eat ${word_en_plural}?`, hi: `क्या वह ${word_hi_plural} खाता है?` },
-  { tense: "Present Simple - Wh-Question", en: `Why do you eat ${word_en_plural}?`, hi: `तुम ${word_hi_plural} क्यों खाते हो?` },
+  // Tenses - Simple Present
+  { tense: "Simple Present - Affirmative", en: `I eat ${article} ${word_en} every day.`, hi: `मैं हर दिन एक ${word_hi} खाता हूँ।` },
+  { tense: "Simple Present - Negative", en: `I don't eat ${word_en_plural}.`, hi: `मैं ${word_hi_plural} नहीं खाता हूँ।` },
+  { tense: "Simple Present - Interrogative", en: `Do you eat ${word_en_plural}?`, hi: `क्या तुम ${word_hi_plural} खाते हो?` },
+  { tense: "Simple Present - Wh-Question", en: `When do you eat ${article} ${word_en}?`, hi: `तुम ${word_hi} कब खाते हो?` },
 
-  // Present Continuous
+  // Tenses - Present Continuous
   { tense: "Present Continuous - Affirmative", en: `I am eating ${article} ${word_en}.`, hi: `मैं एक ${word_hi} खा रहा हूँ।` },
-  { tense: "Present Continuous - Affirmative", en: `She is buying ${word_en_plural}.`, hi: `वह ${word_hi_plural} खरीद रही है।` },
-  { tense: "Present Continuous - Negative", en: `They are not eating ${word_en_plural}.`, hi: `वे ${word_hi_plural} नहीं खा रहे हैं।` },
-  { tense: "Present Continuous - Interrogative", en: `Are you eating ${article} ${word_en}?`, hi: `क्या तुम एक ${word_hi} खा रहे हो?` },
-  { tense: "Present Continuous - Wh-Question", en: `Why is he buying ${word_en_plural}?`, hi: `वह ${word_hi_plural} क्यों खरीद रहा है?` },
+  { tense: "Present Continuous - Negative", en: `I am not eating ${article} ${word_en}.`, hi: `मैं ${word_hi} नहीं खा रहा हूँ।` },
+  { tense: "Present Continuous - Interrogative", en: `Are you eating ${article} ${word_en}?`, hi: `क्या तुम ${word_hi} खा रहे हो?` },
+  { tense: "Present Continuous - Wh-Question", en: `Why are you eating my ${word_en}?`, hi: `तुम मेरा ${word_hi} क्यों खा रहे हो?` },
 
-  // Present Perfect
+  // Tenses - Present Perfect
   { tense: "Present Perfect - Affirmative", en: `I have eaten the ${word_en}.`, hi: `मैंने ${word_hi} खा लिया है।` },
-  { tense: "Present Perfect - Affirmative", en: `She has bought ${word_en_plural}.`, hi: `उसने ${word_hi_plural} खरीद लिए हैं।` },
-  { tense: "Present Perfect - Negative", en: `I have not seen the ${word_en}.`, hi: `मैंने ${word_hi} नहीं देखा है।` },
+  { tense: "Present Perfect - Negative", en: `I have not eaten the ${word_en}.`, hi: `मैंने ${word_hi} नहीं खाया है।` },
   { tense: "Present Perfect - Interrogative", en: `Have you eaten the ${word_en}?`, hi: `क्या तुमने ${word_hi} खा लिया है?` },
 
-  // Past Simple
-  { tense: "Past Simple - Affirmative", en: `I bought ${article} ${word_en} yesterday.`, hi: `मैंने कल एक ${word_hi} खरीदा।` },
-  { tense: "Past Simple - Affirmative", en: `She ate the ${word_en}.`, hi: `उसने ${word_hi} खाया।` },
-  { tense: "Past Simple - Negative", en: `I did not buy any ${word_en_plural}.`, hi: `मैंने कोई ${word_hi_plural} नहीं खरीदे।` },
-  { tense: "Past Simple - Interrogative", en: `Did you eat the ${word_en}?`, hi: `क्या तुमने ${word_hi} खाया?` },
-  { tense: "Past Simple - Wh-Question", en: `Why did you cut the ${word_en}?`, hi: `तुमने ${word_hi} क्यों काटा?` },
+  // Tenses - Simple Past
+  { tense: "Simple Past - Affirmative", en: `I bought ${article} ${word_en} yesterday.`, hi: `मैंने कल एक ${word_hi} खरीदा था।` },
+  { tense: "Simple Past - Negative", en: `I didn't buy ${article} ${word_en}.`, hi: `मैंने ${word_hi} नहीं खरीदा।` },
+  { tense: "Simple Past - Interrogative", en: `Did you buy ${article} ${word_en}?`, hi: `क्या तुमने एक ${word_hi} खरीदा?` },
+  { tense: "Simple Past - Wh-Question", en: `Where did you buy this ${word_en}?`, hi: `तुमने यह ${word_hi} कहाँ से खरीदा?` },
 
-  // Past Continuous
-  { tense: "Past Continuous - Affirmative", en: `I was eating ${article} ${word_en}.`, hi: `मैं एक ${word_hi} खा रहा था।` },
-  { tense: "Past Continuous - Negative", en: `They were not eating ${word_en_plural}.`, hi: `वे ${word_hi_plural} नहीं खा रहे थे।` },
-  { tense: "Past Continuous - Interrogative", en: `Were you looking for a ${word_en}?`, hi: `क्या तुम एक ${word_hi} ढूँढ रहे थे?` },
+  // Tenses - Past Continuous
+  { tense: "Past Continuous - Affirmative", en: `I was eating ${article} ${word_en} when you called.`, hi: `जब तुमने फोन किया तब मैं एक ${word_hi} खा रहा था।` },
+  { tense: "Past Continuous - Interrogative", en: `Were you eating ${article} ${word_en}?`, hi: `क्या तुम एक ${word_hi} खा रहे थे?` },
 
-  // Future Simple
-  { tense: "Future Simple - Affirmative", en: `I will buy ${article} ${word_en} tomorrow.`, hi: `मैं कल एक ${word_hi} खरीदूंगा।` },
-  { tense: "Future Simple - Affirmative", en: `We shall eat ${word_en_plural}.`, hi: `हम ${word_hi_plural} खाएंगे।` },
-  { tense: "Future Simple - Negative", en: `I will not eat the ${word_en}.`, hi: `मैं ${word_hi} नहीं खाऊंगा।` },
-  { tense: "Future Simple - Interrogative", en: `Will you give me ${article} ${word_en}?`, hi: `क्या तुम मुझे एक ${word_hi} दोगे?` },
-  { tense: "Future Simple - Wh-Question", en: `When will he eat the ${word_en}?`, hi: `वह ${word_hi} कब खाएगा?` },
+  // Tenses - Simple Future
+  { tense: "Simple Future - Affirmative", en: `I will eat ${article} ${word_en} tomorrow.`, hi: `मैं कल एक ${word_hi} खाऊँगा।` },
+  { tense: "Simple Future - Negative", en: `I will not eat the ${word_en}.`, hi: `मैं वह ${word_hi} नहीं खाऊँगा।` },
+  { tense: "Simple Future - Interrogative", en: `Will you eat this ${word_en}?`, hi: `क्या तुम यह ${word_hi} खाओगे?` },
 
-  // Modals (Can, Should, Must)
-  { tense: "Modal (Can) - Affirmative", en: `I can eat a dozen ${word_en_plural}.`, hi: `मैं एक दर्जन ${word_hi_plural} खा सकता हूँ।` },
-  { tense: "Modal (Can) - Interrogative", en: `Can you peel the ${word_en}?`, hi: `क्या तुम ${word_hi} छील सकते हो?` },
-  { tense: "Modal (Should) - Affirmative", en: `You should eat a ${word_en} for energy.`, hi: `तुम्हें ऊर्जा के लिए एक ${word_hi} खाना चाहिए।` },
-  { tense: "Modal (Should) - Negative", en: `We should not waste ${word_en_plural}.`, hi: `हमें ${word_hi_plural} बर्बाद नहीं करने चाहिए।` },
-  { tense: "Modal (Must) - Affirmative", en: `You must wash the ${word_en} before eating.`, hi: `खाने से पहले तुम्हें ${word_hi} जरूर धोना चाहिए।` },
+  // Modals
+  { tense: "Modal - Can", en: `Can you peel this ${word_en}?`, hi: `क्या तुम यह ${word_hi} छील सकते हो?` },
+  { tense: "Modal - Should", en: `You should eat ${article} ${word_en}.`, hi: `तुम्हें एक ${word_hi} खाना चाहिए।` },
+  { tense: "Modal - Must", en: `You must buy fresh ${word_en_plural}.`, hi: `तुम्हें ताज़े ${word_hi_plural} ही खरीदने चाहिए।` },
+  { tense: "Modal - May", en: `May I have ${article} ${word_en}?`, hi: `क्या मैं एक ${word_hi} ले सकता हूँ?` },
+  { tense: "Modal - Would", en: `Would you like ${article} ${word_en}?`, hi: `क्या आप एक ${word_hi} लेना पसंद करेंगे?` },
   
-  // Passive Voice
-  { tense: "Passive (Present)", en: `The ${word_en} is eaten by him.`, hi: `${word_hi} उसके द्वारा खाया जाता है।` },
-  { tense: "Passive (Past)", en: `The ${word_en} was eaten.`, hi: `${word_hi} खा लिया गया था।` }
+  // Imperative & Others
+  { tense: "Imperative - Affirmative", en: `Eat this ${word_en}.`, hi: `यह ${word_hi} खाओ।` },
+  { tense: "Imperative - Negative", en: `Don't eat that ${word_en}.`, hi: `वह ${word_hi} मत खाओ।` },
+  { tense: "Passive Voice - Present", en: `The ${word_en} is eaten.`, hi: `${word_hi} खाया जाता है।` },
+  { tense: "Passive Voice - Past", en: `The ${word_en} was eaten by him.`, hi: `${word_hi} उसके द्वारा खाया गया था।` },
+  
+  // Prepositions / Locations
+  { tense: "Location/Preposition", en: `The ${word_en} is on the table.`, hi: `${word_hi} मेज़ पर है।` },
+  { tense: "Location/Preposition", en: `There is a ${word_en} in the basket.`, hi: `टोकरी में एक ${word_hi} है।` },
+  { tense: "Location/Preposition", en: `The monkey is holding a ${word_en}.`, hi: `बंदर ने एक ${word_hi} पकड़ा हुआ है।` },
+
+  // Adjectives
+  { tense: "Adjective Use", en: `This ${word_en} is sweet.`, hi: `यह ${word_hi} मीठा है।` },
+  { tense: "Adjective Use", en: `That ${word_en} is rotten.`, hi: `वह ${word_hi} सड़ा हुआ है।` },
+  { tense: "Adjective Use", en: `I need a ripe ${word_en}.`, hi: `मुझे एक पका हुआ ${word_hi} चाहिए।` },
+
+  // Actions
+  { tense: "Action - Cutting", en: `I am cutting the ${word_en}.`, hi: `मैं ${word_hi} काट रहा हूँ।` },
+  { tense: "Action - Peeling", en: `Please peel the ${word_en}.`, hi: `कृपया ${word_hi} छील दो।` },
+  { tense: "Action - Buying", en: `She is buying ${word_en_plural}.`, hi: `वह ${word_hi_plural} खरीद रही है।` },
+  { tense: "Action - Washing", en: `Wash the ${word_en} before eating.`, hi: `खाने से पहले ${word_hi} धो लो।` },
 ];
 
-const transData = {
+const targetDir = path.join(__dirname, 'website', 'data', 'translations', 'fruits');
+if (!fs.existsSync(targetDir)) {
+  fs.mkdirSync(targetDir, { recursive: true });
+}
+
+const outputPath = path.join(targetDir, `sentence-${word_en}.json`);
+
+const outputData = {
   word: "Banana",
   slug: "banana",
   category: "fruits",
   translations: templates
 };
 
-fs.writeFileSync(path.join(__dirname, 'website', 'data', 'translations', 'fruits', 'sentence-banana.json'), JSON.stringify(transData, null, 4));
-
-console.log(`Generated ${templates.length} translations for Banana.`);
+fs.writeFileSync(outputPath, JSON.stringify(outputData, null, 4), 'utf8');
+console.log(`Successfully generated 58 translations for ${word_en}`);

@@ -74,24 +74,14 @@
             "hi": "मेरे पास कई केले हैं।"
         },
         {
-            "tense": "To Have - Present Affirmative (He/She)",
-            "en": "She has a banana.",
-            "hi": "उसके पास एक केला है।"
-        },
-        {
             "tense": "To Have - Past Affirmative",
-            "en": "We had a banana.",
-            "hi": "हमारे पास एक केला था।"
+            "en": "I had a banana.",
+            "hi": "मेरे पास एक केला था।"
         },
         {
             "tense": "To Have - Present Negative",
             "en": "I don't have a banana.",
             "hi": "मेरे पास केला नहीं है।"
-        },
-        {
-            "tense": "To Have - Present Negative (He/She)",
-            "en": "He doesn't have a banana.",
-            "hi": "उसके पास केला नहीं है।"
         },
         {
             "tense": "To Have - Present Interrogative",
@@ -100,8 +90,8 @@
         },
         {
             "tense": "To Have - Past Interrogative",
-            "en": "Did they have a banana?",
-            "hi": "क्या उनके पास एक केला था?"
+            "en": "Did you have a banana?",
+            "hi": "क्या तुम्हारे पास एक केला था?"
         },
         {
             "tense": "To Have - Wh-Question",
@@ -109,44 +99,24 @@
             "hi": "तुम्हारे पास कितने केले हैं?"
         },
         {
-            "tense": "Present Simple - Affirmative",
+            "tense": "Simple Present - Affirmative",
             "en": "I eat a banana every day.",
-            "hi": "मैं रोज़ एक केला खाता हूँ।"
+            "hi": "मैं हर दिन एक केला खाता हूँ।"
         },
         {
-            "tense": "Present Simple - Affirmative",
-            "en": "He likes bananas.",
-            "hi": "उसे केले पसंद हैं।"
+            "tense": "Simple Present - Negative",
+            "en": "I don't eat bananas.",
+            "hi": "मैं केले नहीं खाता हूँ।"
         },
         {
-            "tense": "Present Simple - Affirmative",
-            "en": "They want bananas.",
-            "hi": "उन्हें केले चाहिए।"
+            "tense": "Simple Present - Interrogative",
+            "en": "Do you eat bananas?",
+            "hi": "क्या तुम केले खाते हो?"
         },
         {
-            "tense": "Present Simple - Negative",
-            "en": "I do not eat bananas.",
-            "hi": "मैं केले नहीं खाता।"
-        },
-        {
-            "tense": "Present Simple - Negative",
-            "en": "She does not like bananas.",
-            "hi": "उसे केले पसंद नहीं हैं।"
-        },
-        {
-            "tense": "Present Simple - Interrogative",
-            "en": "Do you like bananas?",
-            "hi": "क्या तुम्हें केले पसंद हैं?"
-        },
-        {
-            "tense": "Present Simple - Interrogative",
-            "en": "Does he eat bananas?",
-            "hi": "क्या वह केले खाता है?"
-        },
-        {
-            "tense": "Present Simple - Wh-Question",
-            "en": "Why do you eat bananas?",
-            "hi": "तुम केले क्यों खाते हो?"
+            "tense": "Simple Present - Wh-Question",
+            "en": "When do you eat a banana?",
+            "hi": "तुम केला कब खाते हो?"
         },
         {
             "tense": "Present Continuous - Affirmative",
@@ -154,24 +124,19 @@
             "hi": "मैं एक केला खा रहा हूँ।"
         },
         {
-            "tense": "Present Continuous - Affirmative",
-            "en": "She is buying bananas.",
-            "hi": "वह केले खरीद रही है।"
-        },
-        {
             "tense": "Present Continuous - Negative",
-            "en": "They are not eating bananas.",
-            "hi": "वे केले नहीं खा रहे हैं।"
+            "en": "I am not eating a banana.",
+            "hi": "मैं केला नहीं खा रहा हूँ।"
         },
         {
             "tense": "Present Continuous - Interrogative",
             "en": "Are you eating a banana?",
-            "hi": "क्या तुम एक केला खा रहे हो?"
+            "hi": "क्या तुम केला खा रहे हो?"
         },
         {
             "tense": "Present Continuous - Wh-Question",
-            "en": "Why is he buying bananas?",
-            "hi": "वह केले क्यों खरीद रहा है?"
+            "en": "Why are you eating my banana?",
+            "hi": "तुम मेरा केला क्यों खा रहे हो?"
         },
         {
             "tense": "Present Perfect - Affirmative",
@@ -179,14 +144,9 @@
             "hi": "मैंने केला खा लिया है।"
         },
         {
-            "tense": "Present Perfect - Affirmative",
-            "en": "She has bought bananas.",
-            "hi": "उसने केले खरीद लिए हैं।"
-        },
-        {
             "tense": "Present Perfect - Negative",
-            "en": "I have not seen the banana.",
-            "hi": "मैंने केला नहीं देखा है।"
+            "en": "I have not eaten the banana.",
+            "hi": "मैंने केला नहीं खाया है।"
         },
         {
             "tense": "Present Perfect - Interrogative",
@@ -194,104 +154,144 @@
             "hi": "क्या तुमने केला खा लिया है?"
         },
         {
-            "tense": "Past Simple - Affirmative",
+            "tense": "Simple Past - Affirmative",
             "en": "I bought a banana yesterday.",
-            "hi": "मैंने कल एक केला खरीदा।"
+            "hi": "मैंने कल एक केला खरीदा था।"
         },
         {
-            "tense": "Past Simple - Affirmative",
-            "en": "She ate the banana.",
-            "hi": "उसने केला खाया।"
+            "tense": "Simple Past - Negative",
+            "en": "I didn't buy a banana.",
+            "hi": "मैंने केला नहीं खरीदा।"
         },
         {
-            "tense": "Past Simple - Negative",
-            "en": "I did not buy any bananas.",
-            "hi": "मैंने कोई केले नहीं खरीदे।"
+            "tense": "Simple Past - Interrogative",
+            "en": "Did you buy a banana?",
+            "hi": "क्या तुमने एक केला खरीदा?"
         },
         {
-            "tense": "Past Simple - Interrogative",
-            "en": "Did you eat the banana?",
-            "hi": "क्या तुमने केला खाया?"
-        },
-        {
-            "tense": "Past Simple - Wh-Question",
-            "en": "Why did you cut the banana?",
-            "hi": "तुमने केला क्यों काटा?"
+            "tense": "Simple Past - Wh-Question",
+            "en": "Where did you buy this banana?",
+            "hi": "तुमने यह केला कहाँ से खरीदा?"
         },
         {
             "tense": "Past Continuous - Affirmative",
-            "en": "I was eating a banana.",
-            "hi": "मैं एक केला खा रहा था।"
-        },
-        {
-            "tense": "Past Continuous - Negative",
-            "en": "They were not eating bananas.",
-            "hi": "वे केले नहीं खा रहे थे।"
+            "en": "I was eating a banana when you called.",
+            "hi": "जब तुमने फोन किया तब मैं एक केला खा रहा था।"
         },
         {
             "tense": "Past Continuous - Interrogative",
-            "en": "Were you looking for a banana?",
-            "hi": "क्या तुम एक केला ढूँढ रहे थे?"
+            "en": "Were you eating a banana?",
+            "hi": "क्या तुम एक केला खा रहे थे?"
         },
         {
-            "tense": "Future Simple - Affirmative",
-            "en": "I will buy a banana tomorrow.",
-            "hi": "मैं कल एक केला खरीदूंगा।"
+            "tense": "Simple Future - Affirmative",
+            "en": "I will eat a banana tomorrow.",
+            "hi": "मैं कल एक केला खाऊँगा।"
         },
         {
-            "tense": "Future Simple - Affirmative",
-            "en": "We shall eat bananas.",
-            "hi": "हम केले खाएंगे।"
-        },
-        {
-            "tense": "Future Simple - Negative",
+            "tense": "Simple Future - Negative",
             "en": "I will not eat the banana.",
-            "hi": "मैं केला नहीं खाऊंगा।"
+            "hi": "मैं वह केला नहीं खाऊँगा।"
         },
         {
-            "tense": "Future Simple - Interrogative",
-            "en": "Will you give me a banana?",
-            "hi": "क्या तुम मुझे एक केला दोगे?"
+            "tense": "Simple Future - Interrogative",
+            "en": "Will you eat this banana?",
+            "hi": "क्या तुम यह केला खाओगे?"
         },
         {
-            "tense": "Future Simple - Wh-Question",
-            "en": "When will he eat the banana?",
-            "hi": "वह केला कब खाएगा?"
+            "tense": "Modal - Can",
+            "en": "Can you peel this banana?",
+            "hi": "क्या तुम यह केला छील सकते हो?"
         },
         {
-            "tense": "Modal (Can) - Affirmative",
-            "en": "I can eat a dozen bananas.",
-            "hi": "मैं एक दर्जन केले खा सकता हूँ।"
+            "tense": "Modal - Should",
+            "en": "You should eat a banana.",
+            "hi": "तुम्हें एक केला खाना चाहिए।"
         },
         {
-            "tense": "Modal (Can) - Interrogative",
-            "en": "Can you peel the banana?",
-            "hi": "क्या तुम केला छील सकते हो?"
+            "tense": "Modal - Must",
+            "en": "You must buy fresh bananas.",
+            "hi": "तुम्हें ताज़े केले ही खरीदने चाहिए।"
         },
         {
-            "tense": "Modal (Should) - Affirmative",
-            "en": "You should eat a banana for energy.",
-            "hi": "तुम्हें ऊर्जा के लिए एक केला खाना चाहिए।"
+            "tense": "Modal - May",
+            "en": "May I have a banana?",
+            "hi": "क्या मैं एक केला ले सकता हूँ?"
         },
         {
-            "tense": "Modal (Should) - Negative",
-            "en": "We should not waste bananas.",
-            "hi": "हमें केले बर्बाद नहीं करने चाहिए।"
+            "tense": "Modal - Would",
+            "en": "Would you like a banana?",
+            "hi": "क्या आप एक केला लेना पसंद करेंगे?"
         },
         {
-            "tense": "Modal (Must) - Affirmative",
-            "en": "You must wash the banana before eating.",
-            "hi": "खाने से पहले तुम्हें केला जरूर धोना चाहिए।"
+            "tense": "Imperative - Affirmative",
+            "en": "Eat this banana.",
+            "hi": "यह केला खाओ।"
         },
         {
-            "tense": "Passive (Present)",
-            "en": "The banana is eaten by him.",
-            "hi": "केला उसके द्वारा खाया जाता है।"
+            "tense": "Imperative - Negative",
+            "en": "Don't eat that banana.",
+            "hi": "वह केला मत खाओ।"
         },
         {
-            "tense": "Passive (Past)",
-            "en": "The banana was eaten.",
-            "hi": "केला खा लिया गया था।"
+            "tense": "Passive Voice - Present",
+            "en": "The banana is eaten.",
+            "hi": "केला खाया जाता है।"
+        },
+        {
+            "tense": "Passive Voice - Past",
+            "en": "The banana was eaten by him.",
+            "hi": "केला उसके द्वारा खाया गया था।"
+        },
+        {
+            "tense": "Location/Preposition",
+            "en": "The banana is on the table.",
+            "hi": "केला मेज़ पर है।"
+        },
+        {
+            "tense": "Location/Preposition",
+            "en": "There is a banana in the basket.",
+            "hi": "टोकरी में एक केला है।"
+        },
+        {
+            "tense": "Location/Preposition",
+            "en": "The monkey is holding a banana.",
+            "hi": "बंदर ने एक केला पकड़ा हुआ है।"
+        },
+        {
+            "tense": "Adjective Use",
+            "en": "This banana is sweet.",
+            "hi": "यह केला मीठा है।"
+        },
+        {
+            "tense": "Adjective Use",
+            "en": "That banana is rotten.",
+            "hi": "वह केला सड़ा हुआ है।"
+        },
+        {
+            "tense": "Adjective Use",
+            "en": "I need a ripe banana.",
+            "hi": "मुझे एक पका हुआ केला चाहिए।"
+        },
+        {
+            "tense": "Action - Cutting",
+            "en": "I am cutting the banana.",
+            "hi": "मैं केला काट रहा हूँ।"
+        },
+        {
+            "tense": "Action - Peeling",
+            "en": "Please peel the banana.",
+            "hi": "कृपया केला छील दो।"
+        },
+        {
+            "tense": "Action - Buying",
+            "en": "She is buying bananas.",
+            "hi": "वह केले खरीद रही है।"
+        },
+        {
+            "tense": "Action - Washing",
+            "en": "Wash the banana before eating.",
+            "hi": "खाने से पहले केला धो लो।"
         }
     ]
 }
