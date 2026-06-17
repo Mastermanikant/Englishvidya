@@ -13,7 +13,8 @@ module.exports = function() {
     files.forEach(file => {
       try {
         const filePath = path.join(categoriesDir, file);
-        const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+        const fileContent = fs.readFileSync(filePath, 'utf8').replace(/^\uFEFF/, '');
+        const data = JSON.parse(fileContent);
         const categorySlug = file.replace('.json', '');
         
         if (Array.isArray(data)) {
@@ -53,7 +54,8 @@ module.exports = function() {
       files.forEach(file => {
         try {
           const filePath = path.join(catPath, file);
-          const item = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+          const fileContent = fs.readFileSync(filePath, 'utf8').replace(/^\uFEFF/, '');
+          const item = JSON.parse(fileContent);
           
           let word = item.word;
           if (word) {

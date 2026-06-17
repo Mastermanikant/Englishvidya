@@ -1,4 +1,4 @@
-﻿const fs = require('fs');
+const fs = require('fs');
 const path = require('path');
 
 module.exports = function() {
@@ -15,7 +15,8 @@ module.exports = function() {
       files.forEach(file => {
         try {
           const filePath = path.join(catPath, file);
-          const item = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+          const fileContent = fs.readFileSync(filePath, 'utf8').replace(/^\uFEFF/, '');
+          const item = JSON.parse(fileContent);
           
           let word = item.word;
           if (word) {

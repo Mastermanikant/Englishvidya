@@ -342,8 +342,9 @@
       incBtn.addEventListener('click', () => setScale(currentScale + 0.1));
       resetBtn.addEventListener('click', () => setScale(1.0));
       hideBtn.addEventListener('click', () => {
-        widget.style.display = 'none';
-        localStorage.setItem('ev-text-scaler-hidden', 'true');
+        if (toggle.getAttribute('aria-expanded') === 'true') {
+          togglePanelState();
+        }
       });
 
       let isDragging = false;
