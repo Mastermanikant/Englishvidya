@@ -2,7 +2,7 @@
     "word": "Gooseberry",
     "slug": "gooseberry",
     "pron": "गूसबेरी",
-    "meaning": "आंवला / करौंदा",
+    "meaning": "आंवला",
     "usages": [
         {
             "partOfSpeech": "Noun",
@@ -10,11 +10,11 @@
             "examples": [
                 {
                     "en": "Indian gooseberry, or Amla, is very rich in Vitamin C.",
-                    "hi": "भारतीय आंवला विटामिन सी से भरपूर होता है।"
+                    "hi": "[Hindi translation needs update]"
                 },
                 {
                     "en": "My grandmother makes tasty gooseberry pickle.",
-                    "hi": "मेरी दादी स्वादिष्ट आंवले का अचार बनाती हैं।"
+                    "hi": "[Hindi translation needs update]"
                 }
             ]
         }
@@ -29,5 +29,13 @@
         "sour gooseberry"
     ],
     "category": "fruits",
-    "hasTranslations": true
+    "hasTranslations": true,
+    "detailedInfo": [
+        {
+            "title": "नाम में अंतर (Name Differences)",
+            "points": [
+                "Gooseberry अक्सर 'Indian Gooseberry' (आंवला) के लिए उपयोग होता है। इसे करौंदा न समझें, करौंदा को 'Cranberry' या 'Carissa carandas' कहा जाता है।"
+            ]
+        }
+    ]
 }

@@ -2,7 +2,7 @@
     "word": "Cranberry",
     "slug": "cranberry",
     "pron": "क्रैनबेरी",
-    "meaning": "करौंदा / क्रैनबेरी",
+    "meaning": "करौंदा",
     "usages": [
         {
             "partOfSpeech": "Noun",
@@ -10,11 +10,11 @@
             "examples": [
                 {
                     "en": "Cranberry juice is known to be healthy.",
-                    "hi": "क्रैनबेरी जूस को सेहतमंद माना जाता है।"
+                    "hi": "[Hindi translation needs update]"
                 },
                 {
                     "en": "They served cranberry sauce with the turkey.",
-                    "hi": "उन्होंने टर्की के साथ क्रैनबेरी सॉस परोसी।"
+                    "hi": "[Hindi translation needs update]"
                 }
             ]
         }
@@ -27,5 +27,13 @@
         "cranberry sauce"
     ],
     "category": "fruits",
-    "hasTranslations": true
+    "hasTranslations": true,
+    "detailedInfo": [
+        {
+            "title": "आम बोलचाल में उपयोग (Common Usage)",
+            "points": [
+                "क्रैनबेरी को हिंदी में 'करौंदा' कहा जाता है, लेकिन ज्यादातर लोग इसे क्रैनबेरी नाम से ही जानते हैं।"
+            ]
+        }
+    ]
 }

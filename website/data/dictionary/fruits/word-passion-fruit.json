@@ -10,11 +10,11 @@
             "examples": [
                 {
                     "en": "Passion fruit has a very unique and tart flavor.",
-                    "hi": "पैशन फ्रूट का स्वाद बहुत ही अनूठा और तीखा (खट्टा) होता है।"
+                    "hi": "[Hindi translation needs update]"
                 },
                 {
                     "en": "I ordered a passion fruit mocktail.",
-                    "hi": "मैंने पैशन फ्रूट मॉकटेल का ऑर्डर दिया।"
+                    "hi": "[Hindi translation needs update]"
                 }
             ]
         }
@@ -26,5 +26,13 @@
         "fresh passion fruit"
     ],
     "category": "fruits",
-    "hasTranslations": true
+    "hasTranslations": true,
+    "detailedInfo": [
+        {
+            "title": "आम बोलचाल में उपयोग (Common Usage)",
+            "points": [
+                "इसे तकनीकी रूप से 'कृष्णकमल फल' कहा जाता है क्योंकि इसके फूल कृष्णकमल के होते हैं, लेकिन बाजार और आम बोलचाल में छात्र और लोग इसे 'पैशन फ्रूट' (Passion fruit) ही कहते हैं।"
+            ]
+        }
+    ]
 }

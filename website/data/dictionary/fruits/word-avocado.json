@@ -2,7 +2,7 @@
     "word": "Avocado",
     "slug": "avocado",
     "pron": "एवोकाडो",
-    "meaning": "रुचिरा / मक्खन फल",
+    "meaning": "रुचिरा",
     "usages": [
         {
             "partOfSpeech": "Noun",
@@ -10,11 +10,11 @@
             "examples": [
                 {
                     "en": "Avocado is great on toast.",
-                    "hi": "एवोकाडो टोस्ट के साथ बहुत अच्छा लगता है।"
+                    "hi": "[Hindi translation needs update]"
                 },
                 {
                     "en": "She made a dip using ripe avocados.",
-                    "hi": "उसने पके एवोकाडो का उपयोग करके एक डिप (चटनी) बनाई।"
+                    "hi": "[Hindi translation needs update]"
                 }
             ]
         }
@@ -29,5 +29,13 @@
         "avocado toast"
     ],
     "category": "fruits",
-    "hasTranslations": true
+    "hasTranslations": true,
+    "detailedInfo": [
+        {
+            "title": "आम बोलचाल में उपयोग (Common Usage)",
+            "points": [
+                "इसे हिंदी शब्दकोशों में 'रुचिरा' कहा जाता है, लेकिन आम बोलचाल में यह 'एवोकाडो' या 'मक्खन फल' (Butter fruit) के नाम से ही सबसे ज्यादा जाना जाता है।"
+            ]
+        }
+    ]
 }

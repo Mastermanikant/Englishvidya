@@ -1,8 +1,8 @@
 {
     "word": "Quince",
     "slug": "quince",
-    "pron": "क्विन्स",
-    "meaning": "श्रीफल / बही",
+    "pron": "क्विंस",
+    "meaning": "सफरजल",
     "usages": [
         {
             "partOfSpeech": "Noun",
@@ -10,11 +10,11 @@
             "examples": [
                 {
                     "en": "Quince makes excellent jam and jelly.",
-                    "hi": "बही से बेहतरीन जैम और जेली बनती है।"
+                    "hi": "[Hindi translation needs update]"
                 },
                 {
                     "en": "The quince is too tart to eat raw.",
-                    "hi": "कच्चा खाने के लिए बही बहुत खट्टा होता है।"
+                    "hi": "[Hindi translation needs update]"
                 }
             ]
         }
@@ -26,5 +26,13 @@
         "quince jam"
     ],
     "category": "fruits",
-    "hasTranslations": true
+    "hasTranslations": true,
+    "detailedInfo": [
+        {
+            "title": "आम बोलचाल में उपयोग (Common Usage)",
+            "points": [
+                "Quince को हिंदी में 'सफरजल' या 'बही' कहा जाता है। 'श्रीफल' आमतौर पर नारियल या बेल के लिए इस्तेमाल होता है, इसलिए सफरजल इसके लिए सबसे सटीक शब्द है।"
+            ]
+        }
+    ]
 }
