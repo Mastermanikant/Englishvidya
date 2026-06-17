@@ -1,7 +1,5 @@
 ---
-layout: layouts/article.njk
-title: "भाषा, संचार और व्याकरण की नींव (Language, Communication & Grammar Foundation)"
-permalink: /grammar/gr-001/
+title: "Article 01 — भाषा, संचार और व्याकरण की नींव (Language, Communication & Grammar Foundation)"
 ---
 # Article 01 — भाषा, संचार और व्याकरण की नींव (Language, Communication & Grammar Foundation)
 
@@ -9,7 +7,7 @@ permalink: /grammar/gr-001/
 
 बच्चों, **English Vidya** के इस सफ़र में आपका स्वागत है! 🎉
 
-English सीखने से पहले हमें कुछ बुनियादी सवालों के जवाब जानने बहुत ज़रूरी हैं — **भाषा (Language) आखिर होती क्या है?** इसका हमारे जीवन में असली उद्देश्य (purpose) क्या है? और **व्याकरण (Grammar)** का नाम सुनते ही हम डरते क्यों हैं?
+English सीखने से पहले हमें कुछ बुनियादी सवालों के जवाब जानने बहुत ज़रूरी हैं — **भाषा (Language) आखिर होती क्या है?** इसका हमारे जीवन में असली उद्देश्य (purpose) क्या है? और **व्याकरण (Grammar)** का भाषा में क्या काम है?  और भाषा में  हिंदी और अंग्रेज़ी का अंतर भी जानेंगे   
 
 जब तक **आपको** भाषा का वास्तविक उद्देश्य समझ में नहीं आएगा, तब तक grammar **आपको** एक बोझ की तरह लगती रहेगी।
 
@@ -374,70 +372,11 @@ English कठिन इसलिए नहीं लगती क्यों�
 
 ---
 
-## 🎯 Practice Questions (अभ्यास प्रश्न)
+## 📌 Quick Revision (One-Liners)
 
-{% set quizData = [
-  {
-    "question": "Q1. भाषा (Language) का मुख्य उद्देश्य क्या है?",
-    "options": ["दूसरों को Impress करना", "अपने विचारों और भावनाओं को दूसरों तक पहुँचाना", "परीक्षा पास करना"],
-    "correct": 1,
-    "explanation": "भाषा का मुख्य काम Communication है, यानी अपने विचारों को दूसरों तक पहुँचाना।"
-  },
-  {
-    "question": "Q2. WhatsApp पर 'Aap kahan ho?' टाइप करना किसका उदाहरण है?",
-    "options": ["Translation (अनुवाद)", "Transliteration (लिप्यंतरण)", "Sign Language (सांकेतिक भाषा)"],
-    "correct": 1,
-    "explanation": "हिंदी भाषा को रोमन लिपि में लिखना लिप्यंतरण (Transliteration) कहलाता है।"
-  },
-  {
-    "question": "Q3. Communication कब असफल (Failed) माना जाता है?",
-    "options": ["जब Sender बोलता है", "जब Receiver संदेश का सही अर्थ नहीं समझ पाता", "जब Message लंबा होता है"],
-    "correct": 1,
-    "explanation": "संवाद तभी पूरा होता है जब सुनने वाला सही अर्थ समझे।"
-  },
-  {
-    "question": "Q4. 'वह बाज़ार जाता है।' — इसका सही अंग्रेज़ी अनुवाद कौन-सा है?",
-    "options": ["He market goes.", "He goes to market.", "Market he goes."],
-    "correct": 1,
-    "explanation": "अंग्रेज़ी SVO (Subject + Verb + Object) पैटर्न फॉलो करती है, इसलिए He (Subject) + goes (Verb) + to market (Object)."
-  },
-  {
-    "question": "Q5. 'He works hard' और 'He hardly works' में क्या अंतर है?",
-    "options": ["कोई अंतर नहीं", "पहले का अर्थ 'मेहनती' और दूसरे का अर्थ 'आलसी' है", "दोनों का अर्थ 'मेहनती' है"],
-    "correct": 1,
-    "explanation": "व्याकरण के नियम से 'hard' का स्थान बदलने पर अर्थ पूरी तरह बदल गया।"
-  },
-  {
-    "question": "Q6. Grammar को किससे तुलना की गई है?",
-    "options": ["खेल के नियम (Sports Rules)", "ट्रैफिक के नियम (Traffic Rules)", "गणित के सूत्र (Math Formulas)"],
-    "correct": 1,
-    "explanation": "जिस तरह ट्रैफिक नियम एक्सीडेंट रोकते हैं, वैसे ही व्याकरण 'अर्थ का अनर्थ' होने से रोकती है।"
-  },
-  {
-    "question": "Q7. अंग्रेज़ी का वाक्य ढांचा (Sentence Pattern) क्या है?",
-    "options": ["SOV (Subject + Object + Verb)", "SVO (Subject + Verb + Object)", "OVS (Object + Verb + Subject)"],
-    "correct": 1,
-    "explanation": "अंग्रेज़ी SVO (Subject + Verb + Object) पैटर्न फॉलो करती है।"
-  },
-  {
-    "question": "Q8. कौन-सा वाक्य सही (Correct) है?",
-    "options": ["She cricket plays.", "She plays cricket."],
-    "correct": 1,
-    "explanation": "अंग्रेज़ी SVO पैटर्न के अनुसार Verb (plays) हमेशा Subject (She) के तुरंत बाद आता है।"
-  },
-  {
-    "question": "Q9. भाषा के कितने मुख्य रूप होते हैं?",
-    "options": ["दो (Spoken और Written)", "तीन (Spoken, Written, और Sign)", "चार"],
-    "correct": 1,
-    "explanation": "भाषा मौखिक, लिखित और सांकेतिक (Sign Language) रूपों में होती है।"
-  },
-  {
-    "question": "Q10. Communication के 3 मुख्य भाग कौन-से हैं?",
-    "options": ["Teacher, Student, Book", "Sender, Message, Receiver", "Speaking, Writing, Reading"],
-    "correct": 1,
-    "explanation": "सफल संवाद के लिए Sender (भेजने वाला), Message (संदेश) और Receiver (पाने वाला) का होना ज़रूरी है।"
-  }
-] %}
-{% include "partials/quiz.njk" %}
-
-> 🔗 **[Want more practice? Click here →](#)** *(अधिक अभ्यास के लिए यहाँ क्लिक करें)*
+* **भाषा (Language):** यह केवल विचारों और भावनाओं के आदान-प्रदान का एक माध्यम (Tool) है, ज्ञान या बुद्धिमत्ता की निशानी नहीं।
+* **संवाद (Communication):** सफल संवाद तब होता है जब सुनने वाला (Receiver) आपकी बात को बिल्कुल उसी अर्थ (Meaning) में समझ ले जो आप समझाना चाहते हैं।
+* **लिपि (Script):** किसी भी भाषा को किसी भी लिपि (देवनागरी, रोमन आदि) में लिखा जा सकता है। भाषा आवाज़ है, लिपि उसकी पोशाक है।
+* **व्याकरण (Grammar):** यह भाषा के 'Traffic Rules' हैं। इसका काम सिर्फ सही अर्थ को सही तरीके से पहुँचाना और 'अर्थ का अनर्थ' होने से रोकना है।
+* **SOV बनाम SVO ढांचा:** हिंदी में 'काम' (Verb) वाक्य के सबसे अंत में आता है (मैं पानी पीता हूँ - SOV)। अंग्रेज़ी में 'काम' (Verb) सब्जेक्ट के तुरंत बाद आता है (I drink water - SVO)।
+* **Fluency का भ्रम:** सुनना, पढ़ना, समझना और लिखना भी भाषा के अहम हिस्से हैं; बोलना (Speaking) इसका अंतिम पड़ाव है।
