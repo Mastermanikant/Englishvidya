@@ -1,0 +1,46 @@
+{
+    "word": "Cherry",
+    "slug": "cherry",
+    "pron": "चेरी",
+    "meaning": "चेरी",
+    "usages": [
+        {
+            "partOfSpeech": "Noun",
+            "definition": "A small, round stone fruit that is typically bright or dark red.",
+            "examples": [
+                {
+                    "en": "He put a cherry on top of the sundae.",
+                    "hi": "उसने संडे (आइसक्रीम) के ऊपर एक चेरी रखी।"
+                },
+                {
+                    "en": "The cherries we bought are very sweet.",
+                    "hi": "हमने जो चेरी खरीदीं, वे बहुत मीठी हैं।"
+                }
+            ]
+        },
+        {
+            "partOfSpeech": "Adjective",
+            "definition": "A bright red color.",
+            "examples": [
+                {
+                    "en": "She painted her nails cherry red.",
+                    "hi": "उसने अपने नाखूनों को चेरी जैसा लाल रंगा।"
+                },
+                {
+                    "en": "He bought a new cherry red car.",
+                    "hi": "उसने एक नई चेरी लाल कार खरीदी।"
+                }
+            ]
+        }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [
+        "cherry red",
+        "sweet cherry",
+        "sour cherry",
+        "cherry on top"
+    ],
+    "category": "fruits",
+    "hasTranslations": true
+}

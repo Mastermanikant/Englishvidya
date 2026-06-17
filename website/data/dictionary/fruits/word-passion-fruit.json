@@ -1,0 +1,30 @@
+{
+    "word": "Passion fruit",
+    "slug": "passion-fruit",
+    "pron": "पैशन फ्रूट",
+    "meaning": "कृष्णकमल फल",
+    "usages": [
+        {
+            "partOfSpeech": "Noun",
+            "definition": "A tropical fruit with a tough outer shell and sweet, seedy, gelatinous center.",
+            "examples": [
+                {
+                    "en": "Passion fruit has a very unique and tart flavor.",
+                    "hi": "पैशन फ्रूट का स्वाद बहुत ही अनूठा और तीखा (खट्टा) होता है।"
+                },
+                {
+                    "en": "I ordered a passion fruit mocktail.",
+                    "hi": "मैंने पैशन फ्रूट मॉकटेल का ऑर्डर दिया।"
+                }
+            ]
+        }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [
+        "passion fruit juice",
+        "fresh passion fruit"
+    ],
+    "category": "fruits",
+    "hasTranslations": true
+}

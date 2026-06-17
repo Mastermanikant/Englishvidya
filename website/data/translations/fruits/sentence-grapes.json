@@ -1,0 +1,17 @@
+{
+    "word": "Grapes",
+    "slug": "grapes",
+    "category": "fruits",
+    "translations": [
+        {
+            "tense": "Example",
+            "en": "These grapes are very sour.",
+            "hi": "ये अंगूर बहुत खट्टे हैं।"
+        },
+        {
+            "tense": "Example",
+            "en": "She bought a bunch of seedless grapes.",
+            "hi": "उसने बिना बीज वाले अंगूर का एक गुच्छा खरीदा।"
+        }
+    ]
+}

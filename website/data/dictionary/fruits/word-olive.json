@@ -1,0 +1,46 @@
+{
+    "word": "Olive",
+    "slug": "olive",
+    "pron": "ऑलिव",
+    "meaning": "जैतून",
+    "usages": [
+        {
+            "partOfSpeech": "Noun",
+            "definition": "A small oval fruit with a hard pit and bitter flesh, green when unripe and black when ripe.",
+            "examples": [
+                {
+                    "en": "We ordered a pizza with extra black olives.",
+                    "hi": "हमने अतिरिक्त काले जैतून वाले पिज्जा का ऑर्डर दिया।"
+                },
+                {
+                    "en": "Olive oil is very healthy for the heart.",
+                    "hi": "जैतून का तेल हृदय के लिए बहुत स्वस्थ होता है।"
+                }
+            ]
+        },
+        {
+            "partOfSpeech": "Adjective",
+            "definition": "A yellowish-green color like that of an unripe olive.",
+            "examples": [
+                {
+                    "en": "He wore an olive green jacket.",
+                    "hi": "उसने जैतून के हरे रंग की जैकेट पहनी थी।"
+                },
+                {
+                    "en": "Her skin had a beautiful olive tone.",
+                    "hi": "उसकी त्वचा का रंग एक सुंदर जैतून (गहरा भूरा-हरा) था।"
+                }
+            ]
+        }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [
+        "black olive",
+        "green olive",
+        "olive oil",
+        "olive green"
+    ],
+    "category": "fruits",
+    "hasTranslations": true
+}

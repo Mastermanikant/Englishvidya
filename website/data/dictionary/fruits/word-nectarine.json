@@ -1,0 +1,32 @@
+{
+    "word": "Nectarine",
+    "slug": "nectarine",
+    "pron": "नेक्टराइन",
+    "meaning": "शफ़तालू / आड़ू की किस्म",
+    "usages": [
+        {
+            "partOfSpeech": "Noun",
+            "definition": "A type of peach with a smooth skin.",
+            "examples": [
+                {
+                    "en": "Nectarines look like peaches but do not have fuzzy skin.",
+                    "hi": "नेक्टराइन आड़ू की तरह दिखते हैं लेकिन उनकी त्वचा रोएंदार नहीं होती।"
+                },
+                {
+                    "en": "I prefer nectarines over regular peaches.",
+                    "hi": "मुझे साधारण आड़ू की तुलना में नेक्टराइन ज्यादा पसंद हैं।"
+                }
+            ]
+        }
+    ],
+    "synonyms": [
+        "smooth peach"
+    ],
+    "antonyms": [],
+    "collocations": [
+        "ripe nectarine",
+        "juicy nectarine"
+    ],
+    "category": "fruits",
+    "hasTranslations": true
+}

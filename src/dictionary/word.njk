@@ -59,6 +59,14 @@ eleventyComputed:
         {% endif %}
       </div>
 
+      {% if wordEntry.hasTranslations %}
+      <div style="margin-bottom: 16px;">
+        <a href="/translation/{{ wordEntry.slug }}/" class="panel-btn" style="text-decoration: none; display: inline-block; padding: 10px 20px; background: var(--accent); border: none; border-radius: 8px; color: white; font-weight: bold; font-size: 1.1rem; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+          ✨ See 100+ Sentence Translations
+        </a>
+      </div>
+      {% endif %}
+
       {# Word Info Cards #}
       <div style="display: flex; flex-direction: column; gap: 16px; margin-top: 24px; padding-top: 16px; border-top: 1px dashed var(--border);">
         {% if wordEntry.usages and wordEntry.usages.length > 0 %}

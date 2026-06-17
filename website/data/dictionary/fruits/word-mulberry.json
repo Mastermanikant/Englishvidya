@@ -1,0 +1,31 @@
+{
+    "word": "Mulberry",
+    "slug": "mulberry",
+    "pron": "मलबेरी",
+    "meaning": "शहतूत",
+    "usages": [
+        {
+            "partOfSpeech": "Noun",
+            "definition": "A dark red or purple berry resembling a blackberry.",
+            "examples": [
+                {
+                    "en": "We used to pick mulberries from the tree.",
+                    "hi": "हम पेड़ से शहतूत तोड़ा करते थे।"
+                },
+                {
+                    "en": "Mulberry leaves are fed to silkworms.",
+                    "hi": "रेशम के कीड़ों को शहतूत के पत्ते खिलाए जाते हैं।"
+                }
+            ]
+        }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [
+        "mulberry tree",
+        "ripe mulberry",
+        "mulberry leaves"
+    ],
+    "category": "fruits",
+    "hasTranslations": true
+}

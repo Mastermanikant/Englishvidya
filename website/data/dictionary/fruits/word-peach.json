@@ -1,0 +1,45 @@
+{
+    "word": "Peach",
+    "slug": "peach",
+    "pron": "पीच",
+    "meaning": "आड़ू",
+    "usages": [
+        {
+            "partOfSpeech": "Noun",
+            "definition": "A round fruit with soft slightly furry skin and sweet yellow flesh.",
+            "examples": [
+                {
+                    "en": "The peach was so juicy it dripped down my chin.",
+                    "hi": "आड़ू इतना रसीला था कि मेरी ठुड्डी तक टपक गया।"
+                },
+                {
+                    "en": "She added sliced peaches to her yogurt.",
+                    "hi": "उसने अपने दही में कटे हुए आड़ू डाले।"
+                }
+            ]
+        },
+        {
+            "partOfSpeech": "Adjective",
+            "definition": "A pale pinkish-yellow color.",
+            "examples": [
+                {
+                    "en": "The room was decorated in peach tones.",
+                    "hi": "कमरे को आड़ू (हल्के गुलाबी-पीले) रंगों में सजाया गया था।"
+                },
+                {
+                    "en": "She wore a peach colored blouse.",
+                    "hi": "उसने आड़ू के रंग का ब्लाउज पहना था।"
+                }
+            ]
+        }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [
+        "juicy peach",
+        "fresh peaches",
+        "peach fuzz"
+    ],
+    "category": "fruits",
+    "hasTranslations": true
+}

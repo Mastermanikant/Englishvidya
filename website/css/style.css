@@ -5392,6 +5392,13 @@ body {
   font-family: var(--font-body);
   user-select: none;
   pointer-events: auto;
+  opacity: 0.55;
+  transition: opacity 0.25s ease, transform 0.25s ease;
+}
+.text-scaler-widget:hover,
+.text-scaler-widget:focus-within,
+.text-scaler-widget.widget-active {
+  opacity: 1;
 }
 
 /* Toggle Button (Aa) */

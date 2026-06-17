@@ -1,0 +1,27 @@
+{
+    "word": "Lemon",
+    "slug": "lemon",
+    "category": "fruits",
+    "translations": [
+        {
+            "tense": "Example",
+            "en": "Squeeze half a lemon over the salad.",
+            "hi": "सलाद पर आधा नींबू निचोड़ लें।"
+        },
+        {
+            "tense": "Example",
+            "en": "I drink hot water with lemon every morning.",
+            "hi": "मैं हर सुबह नींबू के साथ गर्म पानी पीता हूँ।"
+        },
+        {
+            "tense": "Example",
+            "en": "She wore a lemon dress.",
+            "hi": "उसने हल्के पीले रंग की ड्रेस पहनी थी।"
+        },
+        {
+            "tense": "Example",
+            "en": "The walls were painted lemon yellow.",
+            "hi": "दीवारों को हल्का पीला रंगा गया था।"
+        }
+    ]
+}

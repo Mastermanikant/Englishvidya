@@ -1,0 +1,31 @@
+{
+    "word": "Blueberry",
+    "slug": "blueberry",
+    "pron": "ब्लूबेरी",
+    "meaning": "नीलबदरी",
+    "usages": [
+        {
+            "partOfSpeech": "Noun",
+            "definition": "A small sweet dark blue to purple berry.",
+            "examples": [
+                {
+                    "en": "I love eating blueberry muffins.",
+                    "hi": "मुझे ब्लूबेरी मफिन खाना बहुत पसंद है।"
+                },
+                {
+                    "en": "Blueberries are rich in antioxidants.",
+                    "hi": "ब्लूबेरी में एंटीऑक्सीडेंट प्रचुर मात्रा में होते हैं।"
+                }
+            ]
+        }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [
+        "fresh blueberries",
+        "blueberry muffin",
+        "blueberry pie"
+    ],
+    "category": "fruits",
+    "hasTranslations": true
+}

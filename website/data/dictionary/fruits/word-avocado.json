@@ -1,0 +1,33 @@
+{
+    "word": "Avocado",
+    "slug": "avocado",
+    "pron": "एवोकाडो",
+    "meaning": "रुचिरा / मक्खन फल",
+    "usages": [
+        {
+            "partOfSpeech": "Noun",
+            "definition": "A pear-shaped fruit with rough, dark green skin and buttery, pale green flesh.",
+            "examples": [
+                {
+                    "en": "Avocado is great on toast.",
+                    "hi": "एवोकाडो टोस्ट के साथ बहुत अच्छा लगता है।"
+                },
+                {
+                    "en": "She made a dip using ripe avocados.",
+                    "hi": "उसने पके एवोकाडो का उपयोग करके एक डिप (चटनी) बनाई।"
+                }
+            ]
+        }
+    ],
+    "synonyms": [
+        "butter fruit"
+    ],
+    "antonyms": [],
+    "collocations": [
+        "ripe avocado",
+        "mashed avocado",
+        "avocado toast"
+    ],
+    "category": "fruits",
+    "hasTranslations": true
+}

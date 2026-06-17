@@ -3,8 +3,10 @@ const path = require('path');
 
 module.exports = function() {
   const categoriesDir = path.join(__dirname, '..', '..', 'website', 'data', 'vocabulary', 'categories');
+  const dictionaryDir = path.join(__dirname, '..', '..', 'website', 'data', 'dictionary');
   const allWords = [];
   
+  // 1. Process old category arrays
   if (fs.existsSync(categoriesDir)) {
     const files = fs.readdirSync(categoriesDir).filter(f => f.endsWith('.json'));
     
@@ -14,10 +16,8 @@ module.exports = function() {
         const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
         const categorySlug = file.replace('.json', '');
         
-        // Ensure data is an array
         if (Array.isArray(data)) {
           data.forEach(item => {
-            // Some old data might have 'w' instead of 'word'
             let word = item.word || item.w;
             let meaning = item.meaning || item.definition || item.m;
             let pron = item.pron || item.p;
@@ -25,7 +25,7 @@ module.exports = function() {
             
             if (word) {
               allWords.push({
-                ...item, // include all raw properties like usages, synonyms, antonyms, collocations
+                ...item,
                 word: word,
                 slug: item.slug || word.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, ''),
                 meaning: meaning,
@@ -41,17 +41,41 @@ module.exports = function() {
       }
     });
   }
+
+  // 2. Process new dictionary format (individual word files in category folders)
+  if (fs.existsSync(dictionaryDir)) {
+    const categories = fs.readdirSync(dictionaryDir).filter(f => fs.statSync(path.join(dictionaryDir, f)).isDirectory());
+    
+    categories.forEach(categorySlug => {
+      const catPath = path.join(dictionaryDir, categorySlug);
+      const files = fs.readdirSync(catPath).filter(f => f.endsWith('.json'));
+      
+      files.forEach(file => {
+        try {
+          const filePath = path.join(catPath, file);
+          const item = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+          
+          let word = item.word;
+          if (word) {
+            allWords.push({
+              ...item,
+              word: word,
+              slug: item.slug || word.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, ''),
+              category: item.category || categorySlug
+            });
+          }
+        } catch (e) {
+          console.error(`Error parsing dictionary file ${file}:`, e);
+        }
+      });
+    });
+  }
   
-  // Deduplicate by slug just in case
-  const uniqueWords = [];
-  const slugs = new Set();
-  
+  // Deduplicate by slug just in case. New ones will overwrite old ones if they exist at the end
+  const uniqueMap = new Map();
   for (const w of allWords) {
-    if (!slugs.has(w.slug)) {
-      slugs.add(w.slug);
-      uniqueWords.push(w);
-    }
+    uniqueMap.set(w.slug, w);
   }
 
-  return uniqueWords;
+  return Array.from(uniqueMap.values());
 };

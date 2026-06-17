@@ -1,0 +1,53 @@
+﻿---
+layout: layouts/base.njk
+pagination:
+  data: allTranslations
+  size: 1
+  alias: translationEntry
+permalink: /translation/{{ translationEntry.slug }}/
+eleventyComputed:
+  pageTitle: "100+ Hindi to English Translations for {{ translationEntry.word }} — English Vidya"
+  metaDescription: "Learn how to use the word '{{ translationEntry.word }}' in different tenses and situations with Hindi to English translations and example sentences."
+---
+
+{# Breadcrumb #}
+<nav class="breadcrumb" aria-label="Breadcrumb">
+  <a href="/">Home</a>
+  <span class="breadcrumb-sep" aria-hidden="true">›</span>
+  <a href="/dictionary/">Dictionary</a>
+  <span class="breadcrumb-sep" aria-hidden="true">›</span>
+  <a href="/dictionary/{{ translationEntry.slug }}/">{{ translationEntry.word }}</a>
+  <span class="breadcrumb-sep" aria-hidden="true">›</span>
+  <span aria-current="page">Translations</span>
+</nav>
+
+<div style="margin-top: var(--sp-6); display: flex; flex-direction: column; gap: var(--sp-6);">
+  <div class="card" style="border-left: 4px solid var(--accent); padding: var(--sp-6);">
+    <h1 style="margin: 0 0 16px 0; font-size: 2.2rem; color: var(--text-main);">
+      {{ translationEntry.word }} — Sentence Translations
+    </h1>
+    <p style="font-size: 1.1rem; color: var(--text-secondary); margin: 0 0 24px 0;">
+      Here you will find various example sentences and translations using the word <strong>{{ translationEntry.word }}</strong> in different tenses and situations.
+    </p>
+
+    <div style="margin-bottom: 24px;">
+      <a href="/dictionary/{{ translationEntry.slug }}/" class="panel-btn" style="text-decoration: none; display: inline-block; padding: 10px 20px; background: var(--bg-card); border: 2px solid var(--accent); border-radius: 8px; color: var(--accent); font-weight: bold; font-size: 1.1rem;">
+        📖 Read Full Dictionary Meaning
+      </a>
+    </div>
+
+    <div style="display: flex; flex-direction: column; gap: 16px;">
+      {% if translationEntry.translations and translationEntry.translations.length > 0 %}
+        {% for t in translationEntry.translations %}
+          <div style="padding: 16px; background: var(--bg-card); border: 1px solid var(--border); border-radius: 8px;">
+            <h3 style="margin: 0 0 8px 0; font-size: 1rem; color: var(--accent); text-transform: uppercase; letter-spacing: 0.05em;">{{ t.tense }}</h3>
+            <p style="margin: 0 0 4px 0; font-size: 1.2rem; color: var(--text-main); font-weight: 500;">"{{ t.en }}"</p>
+            <p style="margin: 0; font-size: 1.1rem; color: var(--text-secondary);">{{ t.hi }}</p>
+          </div>
+        {% endfor %}
+      {% else %}
+        <p>No translations available for this word yet.</p>
+      {% endif %}
+    </div>
+  </div>
+</div>

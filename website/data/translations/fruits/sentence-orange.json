@@ -1,0 +1,27 @@
+{
+    "word": "Orange",
+    "slug": "orange",
+    "category": "fruits",
+    "translations": [
+        {
+            "tense": "Example",
+            "en": "I drink fresh orange juice every morning.",
+            "hi": "मैं हर सुबह ताज़ा संतरे का रस पीता हूँ।"
+        },
+        {
+            "tense": "Example",
+            "en": "Please peel this orange for me.",
+            "hi": "कृपया मेरे लिए यह संतरा छील दें।"
+        },
+        {
+            "tense": "Example",
+            "en": "He was wearing a bright orange shirt.",
+            "hi": "उसने चमकीले नारंगी रंग की शर्ट पहनी हुई थी।"
+        },
+        {
+            "tense": "Example",
+            "en": "The sunset painted the sky in shades of orange.",
+            "hi": "सूर्यास्त ने आसमान को नारंगी रंगों में रंग दिया।"
+        }
+    ]
+}
