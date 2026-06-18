@@ -4,14 +4,294 @@
     "category": "fruits",
     "translations": [
         {
-            "tense": "Example",
-            "en": "Mango is known as the king of fruits in India.",
-            "hi": "भारत में आम को फलों का राजा कहा जाता है।"
+            "tense": "To Be - Present Affirmative",
+            "en": "This is a mango.",
+            "hi": "यह एक आम है।"
         },
         {
-            "tense": "Example",
-            "en": "We made delicious mango shake yesterday.",
-            "hi": "हमने कल स्वादिष्ट मैंगो शेक बनाया।"
+            "tense": "To Be - Present Affirmative (Plural)",
+            "en": "These are mangoes.",
+            "hi": "ये आम हैं।"
+        },
+        {
+            "tense": "To Be - Past Affirmative",
+            "en": "That was a mango.",
+            "hi": "वह एक आम था।"
+        },
+        {
+            "tense": "To Be - Past Affirmative (Plural)",
+            "en": "Those were mangoes.",
+            "hi": "वे आम थे।"
+        },
+        {
+            "tense": "To Be - Present Negative",
+            "en": "This is not a mango.",
+            "hi": "यह एक आम नहीं है।"
+        },
+        {
+            "tense": "To Be - Present Negative (Plural)",
+            "en": "These are not mangoes.",
+            "hi": "ये आम नहीं हैं।"
+        },
+        {
+            "tense": "To Be - Present Interrogative",
+            "en": "Is this a mango?",
+            "hi": "क्या यह एक आम है?"
+        },
+        {
+            "tense": "To Be - Present Interrogative (Plural)",
+            "en": "Are these mangoes?",
+            "hi": "क्या ये आम हैं?"
+        },
+        {
+            "tense": "To Be - Past Interrogative",
+            "en": "Was that a mango?",
+            "hi": "क्या वह एक आम था?"
+        },
+        {
+            "tense": "To Be - Wh-Question",
+            "en": "Where is the mango?",
+            "hi": "आम कहाँ है?"
+        },
+        {
+            "tense": "To Be - Wh-Question (Plural)",
+            "en": "Where are the mangoes?",
+            "hi": "आम कहाँ हैं?"
+        },
+        {
+            "tense": "To Be - Wh-Question (Why)",
+            "en": "Why is this mango here?",
+            "hi": "यह आम यहाँ क्यों है?"
+        },
+        {
+            "tense": "To Have - Present Affirmative",
+            "en": "I have a mango.",
+            "hi": "मेरे पास एक आम है।"
+        },
+        {
+            "tense": "To Have - Present Affirmative (Plural)",
+            "en": "I have many mangoes.",
+            "hi": "मेरे पास कई आम हैं।"
+        },
+        {
+            "tense": "To Have - Past Affirmative",
+            "en": "I had a mango.",
+            "hi": "मेरे पास एक आम था।"
+        },
+        {
+            "tense": "To Have - Present Negative",
+            "en": "I don't have a mango.",
+            "hi": "मेरे पास आम नहीं है।"
+        },
+        {
+            "tense": "To Have - Present Interrogative",
+            "en": "Do you have a mango?",
+            "hi": "क्या तुम्हारे पास एक आम है?"
+        },
+        {
+            "tense": "To Have - Past Interrogative",
+            "en": "Did you have a mango?",
+            "hi": "क्या तुम्हारे पास एक आम था?"
+        },
+        {
+            "tense": "To Have - Wh-Question",
+            "en": "How many mangoes do you have?",
+            "hi": "तुम्हारे पास कितने आम हैं?"
+        },
+        {
+            "tense": "Simple Present - Affirmative",
+            "en": "I eat a mango every day.",
+            "hi": "मैं हर दिन एक आम खाता हूँ।"
+        },
+        {
+            "tense": "Simple Present - Negative",
+            "en": "I don't eat mangoes.",
+            "hi": "मैं आम नहीं खाता हूँ।"
+        },
+        {
+            "tense": "Simple Present - Interrogative",
+            "en": "Do you eat mangoes?",
+            "hi": "क्या तुम आम खाते हो?"
+        },
+        {
+            "tense": "Simple Present - Wh-Question",
+            "en": "When do you eat a mango?",
+            "hi": "तुम आम कब खाते हो?"
+        },
+        {
+            "tense": "Present Continuous - Affirmative",
+            "en": "I am eating a mango.",
+            "hi": "मैं एक आम खा रहा हूँ।"
+        },
+        {
+            "tense": "Present Continuous - Negative",
+            "en": "I am not eating a mango.",
+            "hi": "मैं आम नहीं खा रहा हूँ।"
+        },
+        {
+            "tense": "Present Continuous - Interrogative",
+            "en": "Are you eating a mango?",
+            "hi": "क्या तुम आम खा रहे हो?"
+        },
+        {
+            "tense": "Present Continuous - Wh-Question",
+            "en": "Why are you eating my mango?",
+            "hi": "तुम मेरा आम क्यों खा रहे हो?"
+        },
+        {
+            "tense": "Present Perfect - Affirmative",
+            "en": "I have eaten the mango.",
+            "hi": "मैंने आम खा लिया है।"
+        },
+        {
+            "tense": "Present Perfect - Negative",
+            "en": "I have not eaten the mango.",
+            "hi": "मैंने आम नहीं खाया है।"
+        },
+        {
+            "tense": "Present Perfect - Interrogative",
+            "en": "Have you eaten the mango?",
+            "hi": "क्या तुमने आम खा लिया है?"
+        },
+        {
+            "tense": "Simple Past - Affirmative",
+            "en": "I bought a mango yesterday.",
+            "hi": "मैंने कल एक आम खरीदा था।"
+        },
+        {
+            "tense": "Simple Past - Negative",
+            "en": "I didn't buy a mango.",
+            "hi": "मैंने आम नहीं खरीदा।"
+        },
+        {
+            "tense": "Simple Past - Interrogative",
+            "en": "Did you buy a mango?",
+            "hi": "क्या तुमने एक आम खरीदा?"
+        },
+        {
+            "tense": "Simple Past - Wh-Question",
+            "en": "Where did you buy this mango?",
+            "hi": "तुमने यह आम कहाँ से खरीदा?"
+        },
+        {
+            "tense": "Past Continuous - Affirmative",
+            "en": "I was eating a mango when you called.",
+            "hi": "जब तुमने फोन किया तब मैं एक आम खा रहा था।"
+        },
+        {
+            "tense": "Past Continuous - Interrogative",
+            "en": "Were you eating a mango?",
+            "hi": "क्या तुम एक आम खा रहे थे?"
+        },
+        {
+            "tense": "Simple Future - Affirmative",
+            "en": "I will eat a mango tomorrow.",
+            "hi": "मैं कल एक आम खाऊँगा।"
+        },
+        {
+            "tense": "Simple Future - Negative",
+            "en": "I will not eat the mango.",
+            "hi": "मैं वह आम नहीं खाऊँगा।"
+        },
+        {
+            "tense": "Simple Future - Interrogative",
+            "en": "Will you eat this mango?",
+            "hi": "क्या तुम यह आम खाओगे?"
+        },
+        {
+            "tense": "Modal - Can",
+            "en": "Can you peel this mango?",
+            "hi": "क्या तुम यह आम छील सकते हो?"
+        },
+        {
+            "tense": "Modal - Should",
+            "en": "You should eat a mango.",
+            "hi": "तुम्हें एक आम खाना चाहिए।"
+        },
+        {
+            "tense": "Modal - Must",
+            "en": "You must buy fresh mangoes.",
+            "hi": "तुम्हें ताज़े आम ही खरीदने चाहिए।"
+        },
+        {
+            "tense": "Modal - May",
+            "en": "May I have a mango?",
+            "hi": "क्या मैं एक आम ले सकता हूँ?"
+        },
+        {
+            "tense": "Modal - Would",
+            "en": "Would you like a mango?",
+            "hi": "क्या आप एक आम लेना पसंद करेंगे?"
+        },
+        {
+            "tense": "Imperative - Affirmative",
+            "en": "Eat this mango.",
+            "hi": "यह आम खाओ।"
+        },
+        {
+            "tense": "Imperative - Negative",
+            "en": "Don't eat that mango.",
+            "hi": "वह आम मत खाओ।"
+        },
+        {
+            "tense": "Passive Voice - Present",
+            "en": "The mango is eaten.",
+            "hi": "आम खाया जाता है।"
+        },
+        {
+            "tense": "Passive Voice - Past",
+            "en": "The mango was eaten by him.",
+            "hi": "आम उसके द्वारा खाया गया था।"
+        },
+        {
+            "tense": "Location/Preposition",
+            "en": "The mango is on the table.",
+            "hi": "आम मेज़ पर है।"
+        },
+        {
+            "tense": "Location/Preposition",
+            "en": "There is a mango in the basket.",
+            "hi": "टोकरी में एक आम है।"
+        },
+        {
+            "tense": "Location/Preposition",
+            "en": "The monkey is holding a mango.",
+            "hi": "बंदर ने एक आम पकड़ा हुआ है।"
+        },
+        {
+            "tense": "Adjective Use",
+            "en": "This mango is sweet.",
+            "hi": "यह आम मीठा है।"
+        },
+        {
+            "tense": "Adjective Use",
+            "en": "That mango is rotten.",
+            "hi": "वह आम सड़ा हुआ है।"
+        },
+        {
+            "tense": "Adjective Use",
+            "en": "I need a ripe mango.",
+            "hi": "मुझे एक पका हुआ आम चाहिए।"
+        },
+        {
+            "tense": "Action - Cutting",
+            "en": "I am cutting the mango.",
+            "hi": "मैं आम काट रहा हूँ।"
+        },
+        {
+            "tense": "Action - Peeling",
+            "en": "Please peel the mango.",
+            "hi": "कृपया आम छील दो।"
+        },
+        {
+            "tense": "Action - Buying",
+            "en": "She is buying mangoes.",
+            "hi": "वह आम खरीद रही है।"
+        },
+        {
+            "tense": "Action - Washing",
+            "en": "Wash the mango before eating.",
+            "hi": "खाने से पहले आम धो लो।"
         }
     ]
 }

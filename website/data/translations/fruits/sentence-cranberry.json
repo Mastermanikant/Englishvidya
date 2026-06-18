@@ -4,14 +4,294 @@
     "category": "fruits",
     "translations": [
         {
-            "tense": "Example",
-            "en": "Cranberry juice is known to be healthy.",
-            "hi": "क्रैनबेरी जूस को सेहतमंद माना जाता है।"
+            "tense": "To Be - Present Affirmative",
+            "en": "This is a cranberry.",
+            "hi": "यह एक क्रैनबेरी है।"
         },
         {
-            "tense": "Example",
-            "en": "They served cranberry sauce with the turkey.",
-            "hi": "उन्होंने टर्की के साथ क्रैनबेरी सॉस परोसी।"
+            "tense": "To Be - Present Affirmative (Plural)",
+            "en": "These are cranberries.",
+            "hi": "ये क्रैनबेरी हैं।"
+        },
+        {
+            "tense": "To Be - Past Affirmative",
+            "en": "That was a cranberry.",
+            "hi": "वह एक क्रैनबेरी थी।"
+        },
+        {
+            "tense": "To Be - Past Affirmative (Plural)",
+            "en": "Those were cranberries.",
+            "hi": "वे क्रैनबेरी थीं।"
+        },
+        {
+            "tense": "To Be - Present Negative",
+            "en": "This is not a cranberry.",
+            "hi": "यह एक क्रैनबेरी नहीं है।"
+        },
+        {
+            "tense": "To Be - Present Negative (Plural)",
+            "en": "These are not cranberries.",
+            "hi": "ये क्रैनबेरी नहीं हैं।"
+        },
+        {
+            "tense": "To Be - Present Interrogative",
+            "en": "Is this a cranberry?",
+            "hi": "क्या यह एक क्रैनबेरी है?"
+        },
+        {
+            "tense": "To Be - Present Interrogative (Plural)",
+            "en": "Are these cranberries?",
+            "hi": "क्या ये क्रैनबेरी हैं?"
+        },
+        {
+            "tense": "To Be - Past Interrogative",
+            "en": "Was that a cranberry?",
+            "hi": "क्या वह एक क्रैनबेरी थी?"
+        },
+        {
+            "tense": "To Be - Wh-Question",
+            "en": "Where is the cranberry?",
+            "hi": "क्रैनबेरी कहाँ है?"
+        },
+        {
+            "tense": "To Be - Wh-Question (Plural)",
+            "en": "Where are the cranberries?",
+            "hi": "क्रैनबेरी कहाँ हैं?"
+        },
+        {
+            "tense": "To Be - Wh-Question (Why)",
+            "en": "Why is this cranberry here?",
+            "hi": "यह क्रैनबेरी यहाँ क्यों है?"
+        },
+        {
+            "tense": "To Have - Present Affirmative",
+            "en": "I have a cranberry.",
+            "hi": "मेरे पास एक क्रैनबेरी है।"
+        },
+        {
+            "tense": "To Have - Present Affirmative (Plural)",
+            "en": "I have many cranberries.",
+            "hi": "मेरे पास कई क्रैनबेरी हैं।"
+        },
+        {
+            "tense": "To Have - Past Affirmative",
+            "en": "I had a cranberry.",
+            "hi": "मेरे पास एक क्रैनबेरी थी।"
+        },
+        {
+            "tense": "To Have - Present Negative",
+            "en": "I don't have a cranberry.",
+            "hi": "मेरे पास क्रैनबेरी नहीं है।"
+        },
+        {
+            "tense": "To Have - Present Interrogative",
+            "en": "Do you have a cranberry?",
+            "hi": "क्या तुम्हारे पास एक क्रैनबेरी है?"
+        },
+        {
+            "tense": "To Have - Past Interrogative",
+            "en": "Did you have a cranberry?",
+            "hi": "क्या तुम्हारे पास एक क्रैनबेरी थी?"
+        },
+        {
+            "tense": "To Have - Wh-Question",
+            "en": "How many cranberries do you have?",
+            "hi": "तुम्हारे पास कितने क्रैनबेरी हैं?"
+        },
+        {
+            "tense": "Simple Present - Affirmative",
+            "en": "I eat a cranberry every day.",
+            "hi": "मैं हर दिन एक क्रैनबेरी खाता हूँ।"
+        },
+        {
+            "tense": "Simple Present - Negative",
+            "en": "I don't eat cranberries.",
+            "hi": "मैं क्रैनबेरी नहीं खाता हूँ।"
+        },
+        {
+            "tense": "Simple Present - Interrogative",
+            "en": "Do you eat cranberries?",
+            "hi": "क्या तुम क्रैनबेरी खाते हो?"
+        },
+        {
+            "tense": "Simple Present - Wh-Question",
+            "en": "When do you eat a cranberry?",
+            "hi": "तुम क्रैनबेरी कब खाते हो?"
+        },
+        {
+            "tense": "Present Continuous - Affirmative",
+            "en": "I am eating a cranberry.",
+            "hi": "मैं एक क्रैनबेरी खा रहा हूँ।"
+        },
+        {
+            "tense": "Present Continuous - Negative",
+            "en": "I am not eating a cranberry.",
+            "hi": "मैं क्रैनबेरी नहीं खा रहा हूँ।"
+        },
+        {
+            "tense": "Present Continuous - Interrogative",
+            "en": "Are you eating a cranberry?",
+            "hi": "क्या तुम क्रैनबेरी खा रहे हो?"
+        },
+        {
+            "tense": "Present Continuous - Wh-Question",
+            "en": "Why are you eating my cranberry?",
+            "hi": "तुम मेरा क्रैनबेरी क्यों खा रहे हो?"
+        },
+        {
+            "tense": "Present Perfect - Affirmative",
+            "en": "I have eaten the cranberry.",
+            "hi": "मैंने क्रैनबेरी खा लिया है।"
+        },
+        {
+            "tense": "Present Perfect - Negative",
+            "en": "I have not eaten the cranberry.",
+            "hi": "मैंने क्रैनबेरी नहीं खाया है।"
+        },
+        {
+            "tense": "Present Perfect - Interrogative",
+            "en": "Have you eaten the cranberry?",
+            "hi": "क्या तुमने क्रैनबेरी खा लिया है?"
+        },
+        {
+            "tense": "Simple Past - Affirmative",
+            "en": "I bought a cranberry yesterday.",
+            "hi": "मैंने कल एक क्रैनबेरी खरीदी थी।"
+        },
+        {
+            "tense": "Simple Past - Negative",
+            "en": "I didn't buy a cranberry.",
+            "hi": "मैंने क्रैनबेरी नहीं खरीदी।"
+        },
+        {
+            "tense": "Simple Past - Interrogative",
+            "en": "Did you buy a cranberry?",
+            "hi": "क्या तुमने एक क्रैनबेरी खरीदी?"
+        },
+        {
+            "tense": "Simple Past - Wh-Question",
+            "en": "Where did you buy this cranberry?",
+            "hi": "तुमने यह क्रैनबेरी कहाँ से खरीदी?"
+        },
+        {
+            "tense": "Past Continuous - Affirmative",
+            "en": "I was eating a cranberry when you called.",
+            "hi": "जब तुमने फोन किया तब मैं एक क्रैनबेरी खा रहा था।"
+        },
+        {
+            "tense": "Past Continuous - Interrogative",
+            "en": "Were you eating a cranberry?",
+            "hi": "क्या तुम एक क्रैनबेरी खा रहे थे?"
+        },
+        {
+            "tense": "Simple Future - Affirmative",
+            "en": "I will eat a cranberry tomorrow.",
+            "hi": "मैं कल एक क्रैनबेरी खाऊँगा।"
+        },
+        {
+            "tense": "Simple Future - Negative",
+            "en": "I will not eat the cranberry.",
+            "hi": "मैं वह क्रैनबेरी नहीं खाऊँगा।"
+        },
+        {
+            "tense": "Simple Future - Interrogative",
+            "en": "Will you eat this cranberry?",
+            "hi": "क्या तुम यह क्रैनबेरी खाओगे?"
+        },
+        {
+            "tense": "Modal - Can",
+            "en": "Can you peel this cranberry?",
+            "hi": "क्या तुम यह क्रैनबेरी छील सकते हो?"
+        },
+        {
+            "tense": "Modal - Should",
+            "en": "You should eat a cranberry.",
+            "hi": "तुम्हें एक क्रैनबेरी खाना चाहिए।"
+        },
+        {
+            "tense": "Modal - Must",
+            "en": "You must buy fresh cranberries.",
+            "hi": "तुम्हें ताज़े क्रैनबेरी ही खरीदने चाहिए।"
+        },
+        {
+            "tense": "Modal - May",
+            "en": "May I have a cranberry?",
+            "hi": "क्या मैं एक क्रैनबेरी ले सकता हूँ?"
+        },
+        {
+            "tense": "Modal - Would",
+            "en": "Would you like a cranberry?",
+            "hi": "क्या आप एक क्रैनबेरी लेना पसंद करेंगे?"
+        },
+        {
+            "tense": "Imperative - Affirmative",
+            "en": "Eat this cranberry.",
+            "hi": "यह क्रैनबेरी खाओ।"
+        },
+        {
+            "tense": "Imperative - Negative",
+            "en": "Don't eat that cranberry.",
+            "hi": "वह क्रैनबेरी मत खाओ।"
+        },
+        {
+            "tense": "Passive Voice - Present",
+            "en": "The cranberry is eaten.",
+            "hi": "क्रैनबेरी खाई जाती है।"
+        },
+        {
+            "tense": "Passive Voice - Past",
+            "en": "The cranberry was eaten by him.",
+            "hi": "क्रैनबेरी उसके द्वारा खाई गई थी।"
+        },
+        {
+            "tense": "Location/Preposition",
+            "en": "The cranberry is on the table.",
+            "hi": "क्रैनबेरी मेज़ पर है।"
+        },
+        {
+            "tense": "Location/Preposition",
+            "en": "There is a cranberry in the basket.",
+            "hi": "टोकरी में एक क्रैनबेरी है।"
+        },
+        {
+            "tense": "Location/Preposition",
+            "en": "The monkey is holding a cranberry.",
+            "hi": "बंदर ने एक क्रैनबेरी पकड़ा हुआ है।"
+        },
+        {
+            "tense": "Adjective Use",
+            "en": "This cranberry is sweet.",
+            "hi": "यह क्रैनबेरी मीठी है।"
+        },
+        {
+            "tense": "Adjective Use",
+            "en": "That cranberry is rotten.",
+            "hi": "वह क्रैनबेरी सड़ी हुई है।"
+        },
+        {
+            "tense": "Adjective Use",
+            "en": "I need a ripe cranberry.",
+            "hi": "मुझे एक पकी हुई क्रैनबेरी चाहिए।"
+        },
+        {
+            "tense": "Action - Cutting",
+            "en": "I am cutting the cranberry.",
+            "hi": "मैं क्रैनबेरी काट रहा हूँ।"
+        },
+        {
+            "tense": "Action - Peeling",
+            "en": "Please peel the cranberry.",
+            "hi": "कृपया क्रैनबेरी छील दो।"
+        },
+        {
+            "tense": "Action - Buying",
+            "en": "She is buying cranberries.",
+            "hi": "वह क्रैनबेरी खरीद रही है।"
+        },
+        {
+            "tense": "Action - Washing",
+            "en": "Wash the cranberry before eating.",
+            "hi": "खाने से पहले क्रैनबेरी धो लो।"
         }
     ]
 }

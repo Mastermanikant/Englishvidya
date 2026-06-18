@@ -4,14 +4,294 @@
     "category": "fruits",
     "translations": [
         {
-            "tense": "Example",
-            "en": "Tangerines are easy to peel.",
-            "hi": "किन्नू छीलने में आसान होते हैं।"
+            "tense": "To Be - Present Affirmative",
+            "en": "This is a tangerine.",
+            "hi": "यह एक कीनू है।"
         },
         {
-            "tense": "Example",
-            "en": "I put a tangerine in my lunchbox.",
-            "hi": "मैंने अपने लंचबॉक्स में एक किन्नू रखा।"
+            "tense": "To Be - Present Affirmative (Plural)",
+            "en": "These are tangerines.",
+            "hi": "ये कीनू हैं।"
+        },
+        {
+            "tense": "To Be - Past Affirmative",
+            "en": "That was a tangerine.",
+            "hi": "वह एक कीनू था।"
+        },
+        {
+            "tense": "To Be - Past Affirmative (Plural)",
+            "en": "Those were tangerines.",
+            "hi": "वे कीनू थे।"
+        },
+        {
+            "tense": "To Be - Present Negative",
+            "en": "This is not a tangerine.",
+            "hi": "यह एक कीनू नहीं है।"
+        },
+        {
+            "tense": "To Be - Present Negative (Plural)",
+            "en": "These are not tangerines.",
+            "hi": "ये कीनू नहीं हैं।"
+        },
+        {
+            "tense": "To Be - Present Interrogative",
+            "en": "Is this a tangerine?",
+            "hi": "क्या यह एक कीनू है?"
+        },
+        {
+            "tense": "To Be - Present Interrogative (Plural)",
+            "en": "Are these tangerines?",
+            "hi": "क्या ये कीनू हैं?"
+        },
+        {
+            "tense": "To Be - Past Interrogative",
+            "en": "Was that a tangerine?",
+            "hi": "क्या वह एक कीनू था?"
+        },
+        {
+            "tense": "To Be - Wh-Question",
+            "en": "Where is the tangerine?",
+            "hi": "कीनू कहाँ है?"
+        },
+        {
+            "tense": "To Be - Wh-Question (Plural)",
+            "en": "Where are the tangerines?",
+            "hi": "कीनू कहाँ हैं?"
+        },
+        {
+            "tense": "To Be - Wh-Question (Why)",
+            "en": "Why is this tangerine here?",
+            "hi": "यह कीनू यहाँ क्यों है?"
+        },
+        {
+            "tense": "To Have - Present Affirmative",
+            "en": "I have a tangerine.",
+            "hi": "मेरे पास एक कीनू है।"
+        },
+        {
+            "tense": "To Have - Present Affirmative (Plural)",
+            "en": "I have many tangerines.",
+            "hi": "मेरे पास कई कीनू हैं।"
+        },
+        {
+            "tense": "To Have - Past Affirmative",
+            "en": "I had a tangerine.",
+            "hi": "मेरे पास एक कीनू था।"
+        },
+        {
+            "tense": "To Have - Present Negative",
+            "en": "I don't have a tangerine.",
+            "hi": "मेरे पास कीनू नहीं है।"
+        },
+        {
+            "tense": "To Have - Present Interrogative",
+            "en": "Do you have a tangerine?",
+            "hi": "क्या तुम्हारे पास एक कीनू है?"
+        },
+        {
+            "tense": "To Have - Past Interrogative",
+            "en": "Did you have a tangerine?",
+            "hi": "क्या तुम्हारे पास एक कीनू था?"
+        },
+        {
+            "tense": "To Have - Wh-Question",
+            "en": "How many tangerines do you have?",
+            "hi": "तुम्हारे पास कितने कीनू हैं?"
+        },
+        {
+            "tense": "Simple Present - Affirmative",
+            "en": "I eat a tangerine every day.",
+            "hi": "मैं हर दिन एक कीनू खाता हूँ।"
+        },
+        {
+            "tense": "Simple Present - Negative",
+            "en": "I don't eat tangerines.",
+            "hi": "मैं कीनू नहीं खाता हूँ।"
+        },
+        {
+            "tense": "Simple Present - Interrogative",
+            "en": "Do you eat tangerines?",
+            "hi": "क्या तुम कीनू खाते हो?"
+        },
+        {
+            "tense": "Simple Present - Wh-Question",
+            "en": "When do you eat a tangerine?",
+            "hi": "तुम कीनू कब खाते हो?"
+        },
+        {
+            "tense": "Present Continuous - Affirmative",
+            "en": "I am eating a tangerine.",
+            "hi": "मैं एक कीनू खा रहा हूँ।"
+        },
+        {
+            "tense": "Present Continuous - Negative",
+            "en": "I am not eating a tangerine.",
+            "hi": "मैं कीनू नहीं खा रहा हूँ।"
+        },
+        {
+            "tense": "Present Continuous - Interrogative",
+            "en": "Are you eating a tangerine?",
+            "hi": "क्या तुम कीनू खा रहे हो?"
+        },
+        {
+            "tense": "Present Continuous - Wh-Question",
+            "en": "Why are you eating my tangerine?",
+            "hi": "तुम मेरा कीनू क्यों खा रहे हो?"
+        },
+        {
+            "tense": "Present Perfect - Affirmative",
+            "en": "I have eaten the tangerine.",
+            "hi": "मैंने कीनू खा लिया है।"
+        },
+        {
+            "tense": "Present Perfect - Negative",
+            "en": "I have not eaten the tangerine.",
+            "hi": "मैंने कीनू नहीं खाया है।"
+        },
+        {
+            "tense": "Present Perfect - Interrogative",
+            "en": "Have you eaten the tangerine?",
+            "hi": "क्या तुमने कीनू खा लिया है?"
+        },
+        {
+            "tense": "Simple Past - Affirmative",
+            "en": "I bought a tangerine yesterday.",
+            "hi": "मैंने कल एक कीनू खरीदा था।"
+        },
+        {
+            "tense": "Simple Past - Negative",
+            "en": "I didn't buy a tangerine.",
+            "hi": "मैंने कीनू नहीं खरीदा।"
+        },
+        {
+            "tense": "Simple Past - Interrogative",
+            "en": "Did you buy a tangerine?",
+            "hi": "क्या तुमने एक कीनू खरीदा?"
+        },
+        {
+            "tense": "Simple Past - Wh-Question",
+            "en": "Where did you buy this tangerine?",
+            "hi": "तुमने यह कीनू कहाँ से खरीदा?"
+        },
+        {
+            "tense": "Past Continuous - Affirmative",
+            "en": "I was eating a tangerine when you called.",
+            "hi": "जब तुमने फोन किया तब मैं एक कीनू खा रहा था।"
+        },
+        {
+            "tense": "Past Continuous - Interrogative",
+            "en": "Were you eating a tangerine?",
+            "hi": "क्या तुम एक कीनू खा रहे थे?"
+        },
+        {
+            "tense": "Simple Future - Affirmative",
+            "en": "I will eat a tangerine tomorrow.",
+            "hi": "मैं कल एक कीनू खाऊँगा।"
+        },
+        {
+            "tense": "Simple Future - Negative",
+            "en": "I will not eat the tangerine.",
+            "hi": "मैं वह कीनू नहीं खाऊँगा।"
+        },
+        {
+            "tense": "Simple Future - Interrogative",
+            "en": "Will you eat this tangerine?",
+            "hi": "क्या तुम यह कीनू खाओगे?"
+        },
+        {
+            "tense": "Modal - Can",
+            "en": "Can you peel this tangerine?",
+            "hi": "क्या तुम यह कीनू छील सकते हो?"
+        },
+        {
+            "tense": "Modal - Should",
+            "en": "You should eat a tangerine.",
+            "hi": "तुम्हें एक कीनू खाना चाहिए।"
+        },
+        {
+            "tense": "Modal - Must",
+            "en": "You must buy fresh tangerines.",
+            "hi": "तुम्हें ताज़े कीनू ही खरीदने चाहिए।"
+        },
+        {
+            "tense": "Modal - May",
+            "en": "May I have a tangerine?",
+            "hi": "क्या मैं एक कीनू ले सकता हूँ?"
+        },
+        {
+            "tense": "Modal - Would",
+            "en": "Would you like a tangerine?",
+            "hi": "क्या आप एक कीनू लेना पसंद करेंगे?"
+        },
+        {
+            "tense": "Imperative - Affirmative",
+            "en": "Eat this tangerine.",
+            "hi": "यह कीनू खाओ।"
+        },
+        {
+            "tense": "Imperative - Negative",
+            "en": "Don't eat that tangerine.",
+            "hi": "वह कीनू मत खाओ।"
+        },
+        {
+            "tense": "Passive Voice - Present",
+            "en": "The tangerine is eaten.",
+            "hi": "कीनू खाया जाता है।"
+        },
+        {
+            "tense": "Passive Voice - Past",
+            "en": "The tangerine was eaten by him.",
+            "hi": "कीनू उसके द्वारा खाया गया था।"
+        },
+        {
+            "tense": "Location/Preposition",
+            "en": "The tangerine is on the table.",
+            "hi": "कीनू मेज़ पर है।"
+        },
+        {
+            "tense": "Location/Preposition",
+            "en": "There is a tangerine in the basket.",
+            "hi": "टोकरी में एक कीनू है।"
+        },
+        {
+            "tense": "Location/Preposition",
+            "en": "The monkey is holding a tangerine.",
+            "hi": "बंदर ने एक कीनू पकड़ा हुआ है।"
+        },
+        {
+            "tense": "Adjective Use",
+            "en": "This tangerine is sweet.",
+            "hi": "यह कीनू मीठा है।"
+        },
+        {
+            "tense": "Adjective Use",
+            "en": "That tangerine is rotten.",
+            "hi": "वह कीनू सड़ा हुआ है।"
+        },
+        {
+            "tense": "Adjective Use",
+            "en": "I need a ripe tangerine.",
+            "hi": "मुझे एक पका हुआ कीनू चाहिए।"
+        },
+        {
+            "tense": "Action - Cutting",
+            "en": "I am cutting the tangerine.",
+            "hi": "मैं कीनू काट रहा हूँ।"
+        },
+        {
+            "tense": "Action - Peeling",
+            "en": "Please peel the tangerine.",
+            "hi": "कृपया कीनू छील दो।"
+        },
+        {
+            "tense": "Action - Buying",
+            "en": "She is buying tangerines.",
+            "hi": "वह कीनू खरीद रही है।"
+        },
+        {
+            "tense": "Action - Washing",
+            "en": "Wash the tangerine before eating.",
+            "hi": "खाने से पहले कीनू धो लो।"
         }
     ]
 }

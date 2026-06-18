@@ -1,17 +1,297 @@
 {
-    "word": "Passion fruit",
+    "word": "Passion Fruit",
     "slug": "passion-fruit",
     "category": "fruits",
     "translations": [
         {
-            "tense": "Example",
-            "en": "Passion fruit has a very unique and tart flavor.",
-            "hi": "पैशन फ्रूट का स्वाद बहुत ही अनूठा और तीखा (खट्टा) होता है।"
+            "tense": "To Be - Present Affirmative",
+            "en": "This is a passion fruit.",
+            "hi": "यह एक पैशन फ्रूट है।"
         },
         {
-            "tense": "Example",
-            "en": "I ordered a passion fruit mocktail.",
-            "hi": "मैंने पैशन फ्रूट मॉकटेल का ऑर्डर दिया।"
+            "tense": "To Be - Present Affirmative (Plural)",
+            "en": "These are passion fruits.",
+            "hi": "ये पैशन फ्रूट हैं।"
+        },
+        {
+            "tense": "To Be - Past Affirmative",
+            "en": "That was a passion fruit.",
+            "hi": "वह एक पैशन फ्रूट था।"
+        },
+        {
+            "tense": "To Be - Past Affirmative (Plural)",
+            "en": "Those were passion fruits.",
+            "hi": "वे पैशन फ्रूट थे।"
+        },
+        {
+            "tense": "To Be - Present Negative",
+            "en": "This is not a passion fruit.",
+            "hi": "यह एक पैशन फ्रूट नहीं है।"
+        },
+        {
+            "tense": "To Be - Present Negative (Plural)",
+            "en": "These are not passion fruits.",
+            "hi": "ये पैशन फ्रूट नहीं हैं।"
+        },
+        {
+            "tense": "To Be - Present Interrogative",
+            "en": "Is this a passion fruit?",
+            "hi": "क्या यह एक पैशन फ्रूट है?"
+        },
+        {
+            "tense": "To Be - Present Interrogative (Plural)",
+            "en": "Are these passion fruits?",
+            "hi": "क्या ये पैशन फ्रूट हैं?"
+        },
+        {
+            "tense": "To Be - Past Interrogative",
+            "en": "Was that a passion fruit?",
+            "hi": "क्या वह एक पैशन फ्रूट था?"
+        },
+        {
+            "tense": "To Be - Wh-Question",
+            "en": "Where is the passion fruit?",
+            "hi": "पैशन फ्रूट कहाँ है?"
+        },
+        {
+            "tense": "To Be - Wh-Question (Plural)",
+            "en": "Where are the passion fruits?",
+            "hi": "पैशन फ्रूट कहाँ हैं?"
+        },
+        {
+            "tense": "To Be - Wh-Question (Why)",
+            "en": "Why is this passion fruit here?",
+            "hi": "यह पैशन फ्रूट यहाँ क्यों है?"
+        },
+        {
+            "tense": "To Have - Present Affirmative",
+            "en": "I have a passion fruit.",
+            "hi": "मेरे पास एक पैशन फ्रूट है।"
+        },
+        {
+            "tense": "To Have - Present Affirmative (Plural)",
+            "en": "I have many passion fruits.",
+            "hi": "मेरे पास कई पैशन फ्रूट हैं।"
+        },
+        {
+            "tense": "To Have - Past Affirmative",
+            "en": "I had a passion fruit.",
+            "hi": "मेरे पास एक पैशन फ्रूट था।"
+        },
+        {
+            "tense": "To Have - Present Negative",
+            "en": "I don't have a passion fruit.",
+            "hi": "मेरे पास पैशन फ्रूट नहीं है।"
+        },
+        {
+            "tense": "To Have - Present Interrogative",
+            "en": "Do you have a passion fruit?",
+            "hi": "क्या तुम्हारे पास एक पैशन फ्रूट है?"
+        },
+        {
+            "tense": "To Have - Past Interrogative",
+            "en": "Did you have a passion fruit?",
+            "hi": "क्या तुम्हारे पास एक पैशन फ्रूट था?"
+        },
+        {
+            "tense": "To Have - Wh-Question",
+            "en": "How many passion fruits do you have?",
+            "hi": "तुम्हारे पास कितने पैशन फ्रूट हैं?"
+        },
+        {
+            "tense": "Simple Present - Affirmative",
+            "en": "I eat a passion fruit every day.",
+            "hi": "मैं हर दिन एक पैशन फ्रूट खाता हूँ।"
+        },
+        {
+            "tense": "Simple Present - Negative",
+            "en": "I don't eat passion fruits.",
+            "hi": "मैं पैशन फ्रूट नहीं खाता हूँ।"
+        },
+        {
+            "tense": "Simple Present - Interrogative",
+            "en": "Do you eat passion fruits?",
+            "hi": "क्या तुम पैशन फ्रूट खाते हो?"
+        },
+        {
+            "tense": "Simple Present - Wh-Question",
+            "en": "When do you eat a passion fruit?",
+            "hi": "तुम पैशन फ्रूट कब खाते हो?"
+        },
+        {
+            "tense": "Present Continuous - Affirmative",
+            "en": "I am eating a passion fruit.",
+            "hi": "मैं एक पैशन फ्रूट खा रहा हूँ।"
+        },
+        {
+            "tense": "Present Continuous - Negative",
+            "en": "I am not eating a passion fruit.",
+            "hi": "मैं पैशन फ्रूट नहीं खा रहा हूँ।"
+        },
+        {
+            "tense": "Present Continuous - Interrogative",
+            "en": "Are you eating a passion fruit?",
+            "hi": "क्या तुम पैशन फ्रूट खा रहे हो?"
+        },
+        {
+            "tense": "Present Continuous - Wh-Question",
+            "en": "Why are you eating my passion fruit?",
+            "hi": "तुम मेरा पैशन फ्रूट क्यों खा रहे हो?"
+        },
+        {
+            "tense": "Present Perfect - Affirmative",
+            "en": "I have eaten the passion fruit.",
+            "hi": "मैंने पैशन फ्रूट खा लिया है।"
+        },
+        {
+            "tense": "Present Perfect - Negative",
+            "en": "I have not eaten the passion fruit.",
+            "hi": "मैंने पैशन फ्रूट नहीं खाया है।"
+        },
+        {
+            "tense": "Present Perfect - Interrogative",
+            "en": "Have you eaten the passion fruit?",
+            "hi": "क्या तुमने पैशन फ्रूट खा लिया है?"
+        },
+        {
+            "tense": "Simple Past - Affirmative",
+            "en": "I bought a passion fruit yesterday.",
+            "hi": "मैंने कल एक पैशन फ्रूट खरीदा था।"
+        },
+        {
+            "tense": "Simple Past - Negative",
+            "en": "I didn't buy a passion fruit.",
+            "hi": "मैंने पैशन फ्रूट नहीं खरीदा।"
+        },
+        {
+            "tense": "Simple Past - Interrogative",
+            "en": "Did you buy a passion fruit?",
+            "hi": "क्या तुमने एक पैशन फ्रूट खरीदा?"
+        },
+        {
+            "tense": "Simple Past - Wh-Question",
+            "en": "Where did you buy this passion fruit?",
+            "hi": "तुमने यह पैशन फ्रूट कहाँ से खरीदा?"
+        },
+        {
+            "tense": "Past Continuous - Affirmative",
+            "en": "I was eating a passion fruit when you called.",
+            "hi": "जब तुमने फोन किया तब मैं एक पैशन फ्रूट खा रहा था।"
+        },
+        {
+            "tense": "Past Continuous - Interrogative",
+            "en": "Were you eating a passion fruit?",
+            "hi": "क्या तुम एक पैशन फ्रूट खा रहे थे?"
+        },
+        {
+            "tense": "Simple Future - Affirmative",
+            "en": "I will eat a passion fruit tomorrow.",
+            "hi": "मैं कल एक पैशन फ्रूट खाऊँगा।"
+        },
+        {
+            "tense": "Simple Future - Negative",
+            "en": "I will not eat the passion fruit.",
+            "hi": "मैं वह पैशन फ्रूट नहीं खाऊँगा।"
+        },
+        {
+            "tense": "Simple Future - Interrogative",
+            "en": "Will you eat this passion fruit?",
+            "hi": "क्या तुम यह पैशन फ्रूट खाओगे?"
+        },
+        {
+            "tense": "Modal - Can",
+            "en": "Can you peel this passion fruit?",
+            "hi": "क्या तुम यह पैशन फ्रूट छील सकते हो?"
+        },
+        {
+            "tense": "Modal - Should",
+            "en": "You should eat a passion fruit.",
+            "hi": "तुम्हें एक पैशन फ्रूट खाना चाहिए।"
+        },
+        {
+            "tense": "Modal - Must",
+            "en": "You must buy fresh passion fruits.",
+            "hi": "तुम्हें ताज़े पैशन फ्रूट ही खरीदने चाहिए।"
+        },
+        {
+            "tense": "Modal - May",
+            "en": "May I have a passion fruit?",
+            "hi": "क्या मैं एक पैशन फ्रूट ले सकता हूँ?"
+        },
+        {
+            "tense": "Modal - Would",
+            "en": "Would you like a passion fruit?",
+            "hi": "क्या आप एक पैशन फ्रूट लेना पसंद करेंगे?"
+        },
+        {
+            "tense": "Imperative - Affirmative",
+            "en": "Eat this passion fruit.",
+            "hi": "यह पैशन फ्रूट खाओ।"
+        },
+        {
+            "tense": "Imperative - Negative",
+            "en": "Don't eat that passion fruit.",
+            "hi": "वह पैशन फ्रूट मत खाओ।"
+        },
+        {
+            "tense": "Passive Voice - Present",
+            "en": "The passion fruit is eaten.",
+            "hi": "पैशन फ्रूट खाया जाता है।"
+        },
+        {
+            "tense": "Passive Voice - Past",
+            "en": "The passion fruit was eaten by him.",
+            "hi": "पैशन फ्रूट उसके द्वारा खाया गया था।"
+        },
+        {
+            "tense": "Location/Preposition",
+            "en": "The passion fruit is on the table.",
+            "hi": "पैशन फ्रूट मेज़ पर है।"
+        },
+        {
+            "tense": "Location/Preposition",
+            "en": "There is a passion fruit in the basket.",
+            "hi": "टोकरी में एक पैशन फ्रूट है।"
+        },
+        {
+            "tense": "Location/Preposition",
+            "en": "The monkey is holding a passion fruit.",
+            "hi": "बंदर ने एक पैशन फ्रूट पकड़ा हुआ है।"
+        },
+        {
+            "tense": "Adjective Use",
+            "en": "This passion fruit is sweet.",
+            "hi": "यह पैशन फ्रूट मीठा है।"
+        },
+        {
+            "tense": "Adjective Use",
+            "en": "That passion fruit is rotten.",
+            "hi": "वह पैशन फ्रूट सड़ा हुआ है।"
+        },
+        {
+            "tense": "Adjective Use",
+            "en": "I need a ripe passion fruit.",
+            "hi": "मुझे एक पका हुआ पैशन फ्रूट चाहिए।"
+        },
+        {
+            "tense": "Action - Cutting",
+            "en": "I am cutting the passion fruit.",
+            "hi": "मैं पैशन फ्रूट काट रहा हूँ।"
+        },
+        {
+            "tense": "Action - Peeling",
+            "en": "Please peel the passion fruit.",
+            "hi": "कृपया पैशन फ्रूट छील दो।"
+        },
+        {
+            "tense": "Action - Buying",
+            "en": "She is buying passion fruits.",
+            "hi": "वह पैशन फ्रूट खरीद रही है।"
+        },
+        {
+            "tense": "Action - Washing",
+            "en": "Wash the passion fruit before eating.",
+            "hi": "खाने से पहले पैशन फ्रूट धो लो।"
         }
     ]
 }

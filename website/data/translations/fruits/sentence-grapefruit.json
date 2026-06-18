@@ -4,14 +4,294 @@
     "category": "fruits",
     "translations": [
         {
-            "tense": "Example",
-            "en": "I had half a grapefruit for breakfast.",
-            "hi": "मैंने नाश्ते में आधा चकोतरा खाया।"
+            "tense": "To Be - Present Affirmative",
+            "en": "This is a grapefruit.",
+            "hi": "यह एक चकोतरा है।"
         },
         {
-            "tense": "Example",
-            "en": "Grapefruit juice can be somewhat bitter.",
-            "hi": "चकोतरे का रस थोड़ा कड़वा हो सकता है।"
+            "tense": "To Be - Present Affirmative (Plural)",
+            "en": "These are grapefruits.",
+            "hi": "ये चकोतरे हैं।"
+        },
+        {
+            "tense": "To Be - Past Affirmative",
+            "en": "That was a grapefruit.",
+            "hi": "वह एक चकोतरा था।"
+        },
+        {
+            "tense": "To Be - Past Affirmative (Plural)",
+            "en": "Those were grapefruits.",
+            "hi": "वे चकोतरे थे।"
+        },
+        {
+            "tense": "To Be - Present Negative",
+            "en": "This is not a grapefruit.",
+            "hi": "यह एक चकोतरा नहीं है।"
+        },
+        {
+            "tense": "To Be - Present Negative (Plural)",
+            "en": "These are not grapefruits.",
+            "hi": "ये चकोतरे नहीं हैं।"
+        },
+        {
+            "tense": "To Be - Present Interrogative",
+            "en": "Is this a grapefruit?",
+            "hi": "क्या यह एक चकोतरा है?"
+        },
+        {
+            "tense": "To Be - Present Interrogative (Plural)",
+            "en": "Are these grapefruits?",
+            "hi": "क्या ये चकोतरे हैं?"
+        },
+        {
+            "tense": "To Be - Past Interrogative",
+            "en": "Was that a grapefruit?",
+            "hi": "क्या वह एक चकोतरा था?"
+        },
+        {
+            "tense": "To Be - Wh-Question",
+            "en": "Where is the grapefruit?",
+            "hi": "चकोतरा कहाँ है?"
+        },
+        {
+            "tense": "To Be - Wh-Question (Plural)",
+            "en": "Where are the grapefruits?",
+            "hi": "चकोतरे कहाँ हैं?"
+        },
+        {
+            "tense": "To Be - Wh-Question (Why)",
+            "en": "Why is this grapefruit here?",
+            "hi": "यह चकोतरा यहाँ क्यों है?"
+        },
+        {
+            "tense": "To Have - Present Affirmative",
+            "en": "I have a grapefruit.",
+            "hi": "मेरे पास एक चकोतरा है।"
+        },
+        {
+            "tense": "To Have - Present Affirmative (Plural)",
+            "en": "I have many grapefruits.",
+            "hi": "मेरे पास कई चकोतरे हैं।"
+        },
+        {
+            "tense": "To Have - Past Affirmative",
+            "en": "I had a grapefruit.",
+            "hi": "मेरे पास एक चकोतरा था।"
+        },
+        {
+            "tense": "To Have - Present Negative",
+            "en": "I don't have a grapefruit.",
+            "hi": "मेरे पास चकोतरा नहीं है।"
+        },
+        {
+            "tense": "To Have - Present Interrogative",
+            "en": "Do you have a grapefruit?",
+            "hi": "क्या तुम्हारे पास एक चकोतरा है?"
+        },
+        {
+            "tense": "To Have - Past Interrogative",
+            "en": "Did you have a grapefruit?",
+            "hi": "क्या तुम्हारे पास एक चकोतरा था?"
+        },
+        {
+            "tense": "To Have - Wh-Question",
+            "en": "How many grapefruits do you have?",
+            "hi": "तुम्हारे पास कितने चकोतरे हैं?"
+        },
+        {
+            "tense": "Simple Present - Affirmative",
+            "en": "I eat a grapefruit every day.",
+            "hi": "मैं हर दिन एक चकोतरा खाता हूँ।"
+        },
+        {
+            "tense": "Simple Present - Negative",
+            "en": "I don't eat grapefruits.",
+            "hi": "मैं चकोतरे नहीं खाता हूँ।"
+        },
+        {
+            "tense": "Simple Present - Interrogative",
+            "en": "Do you eat grapefruits?",
+            "hi": "क्या तुम चकोतरे खाते हो?"
+        },
+        {
+            "tense": "Simple Present - Wh-Question",
+            "en": "When do you eat a grapefruit?",
+            "hi": "तुम चकोतरा कब खाते हो?"
+        },
+        {
+            "tense": "Present Continuous - Affirmative",
+            "en": "I am eating a grapefruit.",
+            "hi": "मैं एक चकोतरा खा रहा हूँ।"
+        },
+        {
+            "tense": "Present Continuous - Negative",
+            "en": "I am not eating a grapefruit.",
+            "hi": "मैं चकोतरा नहीं खा रहा हूँ।"
+        },
+        {
+            "tense": "Present Continuous - Interrogative",
+            "en": "Are you eating a grapefruit?",
+            "hi": "क्या तुम चकोतरा खा रहे हो?"
+        },
+        {
+            "tense": "Present Continuous - Wh-Question",
+            "en": "Why are you eating my grapefruit?",
+            "hi": "तुम मेरा चकोतरा क्यों खा रहे हो?"
+        },
+        {
+            "tense": "Present Perfect - Affirmative",
+            "en": "I have eaten the grapefruit.",
+            "hi": "मैंने चकोतरा खा लिया है।"
+        },
+        {
+            "tense": "Present Perfect - Negative",
+            "en": "I have not eaten the grapefruit.",
+            "hi": "मैंने चकोतरा नहीं खाया है।"
+        },
+        {
+            "tense": "Present Perfect - Interrogative",
+            "en": "Have you eaten the grapefruit?",
+            "hi": "क्या तुमने चकोतरा खा लिया है?"
+        },
+        {
+            "tense": "Simple Past - Affirmative",
+            "en": "I bought a grapefruit yesterday.",
+            "hi": "मैंने कल एक चकोतरा खरीदा था।"
+        },
+        {
+            "tense": "Simple Past - Negative",
+            "en": "I didn't buy a grapefruit.",
+            "hi": "मैंने चकोतरा नहीं खरीदा।"
+        },
+        {
+            "tense": "Simple Past - Interrogative",
+            "en": "Did you buy a grapefruit?",
+            "hi": "क्या तुमने एक चकोतरा खरीदा?"
+        },
+        {
+            "tense": "Simple Past - Wh-Question",
+            "en": "Where did you buy this grapefruit?",
+            "hi": "तुमने यह चकोतरा कहाँ से खरीदा?"
+        },
+        {
+            "tense": "Past Continuous - Affirmative",
+            "en": "I was eating a grapefruit when you called.",
+            "hi": "जब तुमने फोन किया तब मैं एक चकोतरा खा रहा था।"
+        },
+        {
+            "tense": "Past Continuous - Interrogative",
+            "en": "Were you eating a grapefruit?",
+            "hi": "क्या तुम एक चकोतरा खा रहे थे?"
+        },
+        {
+            "tense": "Simple Future - Affirmative",
+            "en": "I will eat a grapefruit tomorrow.",
+            "hi": "मैं कल एक चकोतरा खाऊँगा।"
+        },
+        {
+            "tense": "Simple Future - Negative",
+            "en": "I will not eat the grapefruit.",
+            "hi": "मैं वह चकोतरा नहीं खाऊँगा।"
+        },
+        {
+            "tense": "Simple Future - Interrogative",
+            "en": "Will you eat this grapefruit?",
+            "hi": "क्या तुम यह चकोतरा खाओगे?"
+        },
+        {
+            "tense": "Modal - Can",
+            "en": "Can you peel this grapefruit?",
+            "hi": "क्या तुम यह चकोतरा छील सकते हो?"
+        },
+        {
+            "tense": "Modal - Should",
+            "en": "You should eat a grapefruit.",
+            "hi": "तुम्हें एक चकोतरा खाना चाहिए।"
+        },
+        {
+            "tense": "Modal - Must",
+            "en": "You must buy fresh grapefruits.",
+            "hi": "तुम्हें ताज़े चकोतरे ही खरीदने चाहिए।"
+        },
+        {
+            "tense": "Modal - May",
+            "en": "May I have a grapefruit?",
+            "hi": "क्या मैं एक चकोतरा ले सकता हूँ?"
+        },
+        {
+            "tense": "Modal - Would",
+            "en": "Would you like a grapefruit?",
+            "hi": "क्या आप एक चकोतरा लेना पसंद करेंगे?"
+        },
+        {
+            "tense": "Imperative - Affirmative",
+            "en": "Eat this grapefruit.",
+            "hi": "यह चकोतरा खाओ।"
+        },
+        {
+            "tense": "Imperative - Negative",
+            "en": "Don't eat that grapefruit.",
+            "hi": "वह चकोतरा मत खाओ।"
+        },
+        {
+            "tense": "Passive Voice - Present",
+            "en": "The grapefruit is eaten.",
+            "hi": "चकोतरा खाया जाता है।"
+        },
+        {
+            "tense": "Passive Voice - Past",
+            "en": "The grapefruit was eaten by him.",
+            "hi": "चकोतरा उसके द्वारा खाया गया था।"
+        },
+        {
+            "tense": "Location/Preposition",
+            "en": "The grapefruit is on the table.",
+            "hi": "चकोतरा मेज़ पर है।"
+        },
+        {
+            "tense": "Location/Preposition",
+            "en": "There is a grapefruit in the basket.",
+            "hi": "टोकरी में एक चकोतरा है।"
+        },
+        {
+            "tense": "Location/Preposition",
+            "en": "The monkey is holding a grapefruit.",
+            "hi": "बंदर ने एक चकोतरा पकड़ा हुआ है।"
+        },
+        {
+            "tense": "Adjective Use",
+            "en": "This grapefruit is sweet.",
+            "hi": "यह चकोतरा मीठा है।"
+        },
+        {
+            "tense": "Adjective Use",
+            "en": "That grapefruit is rotten.",
+            "hi": "वह चकोतरा सड़ा हुआ है।"
+        },
+        {
+            "tense": "Adjective Use",
+            "en": "I need a ripe grapefruit.",
+            "hi": "मुझे एक पका हुआ चकोतरा चाहिए।"
+        },
+        {
+            "tense": "Action - Cutting",
+            "en": "I am cutting the grapefruit.",
+            "hi": "मैं चकोतरा काट रहा हूँ।"
+        },
+        {
+            "tense": "Action - Peeling",
+            "en": "Please peel the grapefruit.",
+            "hi": "कृपया चकोतरा छील दो।"
+        },
+        {
+            "tense": "Action - Buying",
+            "en": "She is buying grapefruits.",
+            "hi": "वह चकोतरे खरीद रही है।"
+        },
+        {
+            "tense": "Action - Washing",
+            "en": "Wash the grapefruit before eating.",
+            "hi": "खाने से पहले चकोतरा धो लो।"
         }
     ]
 }

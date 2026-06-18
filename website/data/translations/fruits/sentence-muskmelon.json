@@ -4,14 +4,294 @@
     "category": "fruits",
     "translations": [
         {
-            "tense": "Example",
-            "en": "Muskmelon is very refreshing in summer.",
-            "hi": "खरबूजा गर्मियों में बहुत ताज़गी देता है।"
+            "tense": "To Be - Present Affirmative",
+            "en": "This is a muskmelon.",
+            "hi": "यह एक खरबूजा है।"
         },
         {
-            "tense": "Example",
-            "en": "She served cold muskmelon slices.",
-            "hi": "उसने ठंडे खरबूजे के टुकड़े परोसे।"
+            "tense": "To Be - Present Affirmative (Plural)",
+            "en": "These are muskmelons.",
+            "hi": "ये खरबूजे हैं।"
+        },
+        {
+            "tense": "To Be - Past Affirmative",
+            "en": "That was a muskmelon.",
+            "hi": "वह एक खरबूजा था।"
+        },
+        {
+            "tense": "To Be - Past Affirmative (Plural)",
+            "en": "Those were muskmelons.",
+            "hi": "वे खरबूजे थे।"
+        },
+        {
+            "tense": "To Be - Present Negative",
+            "en": "This is not a muskmelon.",
+            "hi": "यह एक खरबूजा नहीं है।"
+        },
+        {
+            "tense": "To Be - Present Negative (Plural)",
+            "en": "These are not muskmelons.",
+            "hi": "ये खरबूजे नहीं हैं।"
+        },
+        {
+            "tense": "To Be - Present Interrogative",
+            "en": "Is this a muskmelon?",
+            "hi": "क्या यह एक खरबूजा है?"
+        },
+        {
+            "tense": "To Be - Present Interrogative (Plural)",
+            "en": "Are these muskmelons?",
+            "hi": "क्या ये खरबूजे हैं?"
+        },
+        {
+            "tense": "To Be - Past Interrogative",
+            "en": "Was that a muskmelon?",
+            "hi": "क्या वह एक खरबूजा था?"
+        },
+        {
+            "tense": "To Be - Wh-Question",
+            "en": "Where is the muskmelon?",
+            "hi": "खरबूजा कहाँ है?"
+        },
+        {
+            "tense": "To Be - Wh-Question (Plural)",
+            "en": "Where are the muskmelons?",
+            "hi": "खरबूजे कहाँ हैं?"
+        },
+        {
+            "tense": "To Be - Wh-Question (Why)",
+            "en": "Why is this muskmelon here?",
+            "hi": "यह खरबूजा यहाँ क्यों है?"
+        },
+        {
+            "tense": "To Have - Present Affirmative",
+            "en": "I have a muskmelon.",
+            "hi": "मेरे पास एक खरबूजा है।"
+        },
+        {
+            "tense": "To Have - Present Affirmative (Plural)",
+            "en": "I have many muskmelons.",
+            "hi": "मेरे पास कई खरबूजे हैं।"
+        },
+        {
+            "tense": "To Have - Past Affirmative",
+            "en": "I had a muskmelon.",
+            "hi": "मेरे पास एक खरबूजा था।"
+        },
+        {
+            "tense": "To Have - Present Negative",
+            "en": "I don't have a muskmelon.",
+            "hi": "मेरे पास खरबूजा नहीं है।"
+        },
+        {
+            "tense": "To Have - Present Interrogative",
+            "en": "Do you have a muskmelon?",
+            "hi": "क्या तुम्हारे पास एक खरबूजा है?"
+        },
+        {
+            "tense": "To Have - Past Interrogative",
+            "en": "Did you have a muskmelon?",
+            "hi": "क्या तुम्हारे पास एक खरबूजा था?"
+        },
+        {
+            "tense": "To Have - Wh-Question",
+            "en": "How many muskmelons do you have?",
+            "hi": "तुम्हारे पास कितने खरबूजे हैं?"
+        },
+        {
+            "tense": "Simple Present - Affirmative",
+            "en": "I eat a muskmelon every day.",
+            "hi": "मैं हर दिन एक खरबूजा खाता हूँ।"
+        },
+        {
+            "tense": "Simple Present - Negative",
+            "en": "I don't eat muskmelons.",
+            "hi": "मैं खरबूजे नहीं खाता हूँ।"
+        },
+        {
+            "tense": "Simple Present - Interrogative",
+            "en": "Do you eat muskmelons?",
+            "hi": "क्या तुम खरबूजे खाते हो?"
+        },
+        {
+            "tense": "Simple Present - Wh-Question",
+            "en": "When do you eat a muskmelon?",
+            "hi": "तुम खरबूजा कब खाते हो?"
+        },
+        {
+            "tense": "Present Continuous - Affirmative",
+            "en": "I am eating a muskmelon.",
+            "hi": "मैं एक खरबूजा खा रहा हूँ।"
+        },
+        {
+            "tense": "Present Continuous - Negative",
+            "en": "I am not eating a muskmelon.",
+            "hi": "मैं खरबूजा नहीं खा रहा हूँ।"
+        },
+        {
+            "tense": "Present Continuous - Interrogative",
+            "en": "Are you eating a muskmelon?",
+            "hi": "क्या तुम खरबूजा खा रहे हो?"
+        },
+        {
+            "tense": "Present Continuous - Wh-Question",
+            "en": "Why are you eating my muskmelon?",
+            "hi": "तुम मेरा खरबूजा क्यों खा रहे हो?"
+        },
+        {
+            "tense": "Present Perfect - Affirmative",
+            "en": "I have eaten the muskmelon.",
+            "hi": "मैंने खरबूजा खा लिया है।"
+        },
+        {
+            "tense": "Present Perfect - Negative",
+            "en": "I have not eaten the muskmelon.",
+            "hi": "मैंने खरबूजा नहीं खाया है।"
+        },
+        {
+            "tense": "Present Perfect - Interrogative",
+            "en": "Have you eaten the muskmelon?",
+            "hi": "क्या तुमने खरबूजा खा लिया है?"
+        },
+        {
+            "tense": "Simple Past - Affirmative",
+            "en": "I bought a muskmelon yesterday.",
+            "hi": "मैंने कल एक खरबूजा खरीदा था।"
+        },
+        {
+            "tense": "Simple Past - Negative",
+            "en": "I didn't buy a muskmelon.",
+            "hi": "मैंने खरबूजा नहीं खरीदा।"
+        },
+        {
+            "tense": "Simple Past - Interrogative",
+            "en": "Did you buy a muskmelon?",
+            "hi": "क्या तुमने एक खरबूजा खरीदा?"
+        },
+        {
+            "tense": "Simple Past - Wh-Question",
+            "en": "Where did you buy this muskmelon?",
+            "hi": "तुमने यह खरबूजा कहाँ से खरीदा?"
+        },
+        {
+            "tense": "Past Continuous - Affirmative",
+            "en": "I was eating a muskmelon when you called.",
+            "hi": "जब तुमने फोन किया तब मैं एक खरबूजा खा रहा था।"
+        },
+        {
+            "tense": "Past Continuous - Interrogative",
+            "en": "Were you eating a muskmelon?",
+            "hi": "क्या तुम एक खरबूजा खा रहे थे?"
+        },
+        {
+            "tense": "Simple Future - Affirmative",
+            "en": "I will eat a muskmelon tomorrow.",
+            "hi": "मैं कल एक खरबूजा खाऊँगा।"
+        },
+        {
+            "tense": "Simple Future - Negative",
+            "en": "I will not eat the muskmelon.",
+            "hi": "मैं वह खरबूजा नहीं खाऊँगा।"
+        },
+        {
+            "tense": "Simple Future - Interrogative",
+            "en": "Will you eat this muskmelon?",
+            "hi": "क्या तुम यह खरबूजा खाओगे?"
+        },
+        {
+            "tense": "Modal - Can",
+            "en": "Can you peel this muskmelon?",
+            "hi": "क्या तुम यह खरबूजा छील सकते हो?"
+        },
+        {
+            "tense": "Modal - Should",
+            "en": "You should eat a muskmelon.",
+            "hi": "तुम्हें एक खरबूजा खाना चाहिए।"
+        },
+        {
+            "tense": "Modal - Must",
+            "en": "You must buy fresh muskmelons.",
+            "hi": "तुम्हें ताज़े खरबूजे ही खरीदने चाहिए।"
+        },
+        {
+            "tense": "Modal - May",
+            "en": "May I have a muskmelon?",
+            "hi": "क्या मैं एक खरबूजा ले सकता हूँ?"
+        },
+        {
+            "tense": "Modal - Would",
+            "en": "Would you like a muskmelon?",
+            "hi": "क्या आप एक खरबूजा लेना पसंद करेंगे?"
+        },
+        {
+            "tense": "Imperative - Affirmative",
+            "en": "Eat this muskmelon.",
+            "hi": "यह खरबूजा खाओ।"
+        },
+        {
+            "tense": "Imperative - Negative",
+            "en": "Don't eat that muskmelon.",
+            "hi": "वह खरबूजा मत खाओ।"
+        },
+        {
+            "tense": "Passive Voice - Present",
+            "en": "The muskmelon is eaten.",
+            "hi": "खरबूजा खाया जाता है।"
+        },
+        {
+            "tense": "Passive Voice - Past",
+            "en": "The muskmelon was eaten by him.",
+            "hi": "खरबूजा उसके द्वारा खाया गया था।"
+        },
+        {
+            "tense": "Location/Preposition",
+            "en": "The muskmelon is on the table.",
+            "hi": "खरबूजा मेज़ पर है।"
+        },
+        {
+            "tense": "Location/Preposition",
+            "en": "There is a muskmelon in the basket.",
+            "hi": "टोकरी में एक खरबूजा है।"
+        },
+        {
+            "tense": "Location/Preposition",
+            "en": "The monkey is holding a muskmelon.",
+            "hi": "बंदर ने एक खरबूजा पकड़ा हुआ है।"
+        },
+        {
+            "tense": "Adjective Use",
+            "en": "This muskmelon is sweet.",
+            "hi": "यह खरबूजा मीठा है।"
+        },
+        {
+            "tense": "Adjective Use",
+            "en": "That muskmelon is rotten.",
+            "hi": "वह खरबूजा सड़ा हुआ है।"
+        },
+        {
+            "tense": "Adjective Use",
+            "en": "I need a ripe muskmelon.",
+            "hi": "मुझे एक पका हुआ खरबूजा चाहिए।"
+        },
+        {
+            "tense": "Action - Cutting",
+            "en": "I am cutting the muskmelon.",
+            "hi": "मैं खरबूजा काट रहा हूँ।"
+        },
+        {
+            "tense": "Action - Peeling",
+            "en": "Please peel the muskmelon.",
+            "hi": "कृपया खरबूजा छील दो।"
+        },
+        {
+            "tense": "Action - Buying",
+            "en": "She is buying muskmelons.",
+            "hi": "वह खरबूजे खरीद रही है।"
+        },
+        {
+            "tense": "Action - Washing",
+            "en": "Wash the muskmelon before eating.",
+            "hi": "खाने से पहले खरबूजा धो लो।"
         }
     ]
 }

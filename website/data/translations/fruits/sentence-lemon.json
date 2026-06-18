@@ -4,24 +4,294 @@
     "category": "fruits",
     "translations": [
         {
-            "tense": "Example",
-            "en": "Squeeze half a lemon over the salad.",
-            "hi": "सलाद पर आधा नींबू निचोड़ लें।"
+            "tense": "To Be - Present Affirmative",
+            "en": "This is a lemon.",
+            "hi": "यह एक नींबू है।"
         },
         {
-            "tense": "Example",
-            "en": "I drink hot water with lemon every morning.",
-            "hi": "मैं हर सुबह नींबू के साथ गर्म पानी पीता हूँ।"
+            "tense": "To Be - Present Affirmative (Plural)",
+            "en": "These are lemons.",
+            "hi": "ये नींबू हैं।"
         },
         {
-            "tense": "Example",
-            "en": "She wore a lemon dress.",
-            "hi": "उसने हल्के पीले रंग की ड्रेस पहनी थी।"
+            "tense": "To Be - Past Affirmative",
+            "en": "That was a lemon.",
+            "hi": "वह एक नींबू था।"
         },
         {
-            "tense": "Example",
-            "en": "The walls were painted lemon yellow.",
-            "hi": "दीवारों को हल्का पीला रंगा गया था।"
+            "tense": "To Be - Past Affirmative (Plural)",
+            "en": "Those were lemons.",
+            "hi": "वे नींबू थे।"
+        },
+        {
+            "tense": "To Be - Present Negative",
+            "en": "This is not a lemon.",
+            "hi": "यह एक नींबू नहीं है।"
+        },
+        {
+            "tense": "To Be - Present Negative (Plural)",
+            "en": "These are not lemons.",
+            "hi": "ये नींबू नहीं हैं।"
+        },
+        {
+            "tense": "To Be - Present Interrogative",
+            "en": "Is this a lemon?",
+            "hi": "क्या यह एक नींबू है?"
+        },
+        {
+            "tense": "To Be - Present Interrogative (Plural)",
+            "en": "Are these lemons?",
+            "hi": "क्या ये नींबू हैं?"
+        },
+        {
+            "tense": "To Be - Past Interrogative",
+            "en": "Was that a lemon?",
+            "hi": "क्या वह एक नींबू था?"
+        },
+        {
+            "tense": "To Be - Wh-Question",
+            "en": "Where is the lemon?",
+            "hi": "नींबू कहाँ है?"
+        },
+        {
+            "tense": "To Be - Wh-Question (Plural)",
+            "en": "Where are the lemons?",
+            "hi": "नींबू कहाँ हैं?"
+        },
+        {
+            "tense": "To Be - Wh-Question (Why)",
+            "en": "Why is this lemon here?",
+            "hi": "यह नींबू यहाँ क्यों है?"
+        },
+        {
+            "tense": "To Have - Present Affirmative",
+            "en": "I have a lemon.",
+            "hi": "मेरे पास एक नींबू है।"
+        },
+        {
+            "tense": "To Have - Present Affirmative (Plural)",
+            "en": "I have many lemons.",
+            "hi": "मेरे पास कई नींबू हैं।"
+        },
+        {
+            "tense": "To Have - Past Affirmative",
+            "en": "I had a lemon.",
+            "hi": "मेरे पास एक नींबू था।"
+        },
+        {
+            "tense": "To Have - Present Negative",
+            "en": "I don't have a lemon.",
+            "hi": "मेरे पास नींबू नहीं है।"
+        },
+        {
+            "tense": "To Have - Present Interrogative",
+            "en": "Do you have a lemon?",
+            "hi": "क्या तुम्हारे पास एक नींबू है?"
+        },
+        {
+            "tense": "To Have - Past Interrogative",
+            "en": "Did you have a lemon?",
+            "hi": "क्या तुम्हारे पास एक नींबू था?"
+        },
+        {
+            "tense": "To Have - Wh-Question",
+            "en": "How many lemons do you have?",
+            "hi": "तुम्हारे पास कितने नींबू हैं?"
+        },
+        {
+            "tense": "Simple Present - Affirmative",
+            "en": "I eat a lemon every day.",
+            "hi": "मैं हर दिन एक नींबू खाता हूँ।"
+        },
+        {
+            "tense": "Simple Present - Negative",
+            "en": "I don't eat lemons.",
+            "hi": "मैं नींबू नहीं खाता हूँ।"
+        },
+        {
+            "tense": "Simple Present - Interrogative",
+            "en": "Do you eat lemons?",
+            "hi": "क्या तुम नींबू खाते हो?"
+        },
+        {
+            "tense": "Simple Present - Wh-Question",
+            "en": "When do you eat a lemon?",
+            "hi": "तुम नींबू कब खाते हो?"
+        },
+        {
+            "tense": "Present Continuous - Affirmative",
+            "en": "I am eating a lemon.",
+            "hi": "मैं एक नींबू खा रहा हूँ।"
+        },
+        {
+            "tense": "Present Continuous - Negative",
+            "en": "I am not eating a lemon.",
+            "hi": "मैं नींबू नहीं खा रहा हूँ।"
+        },
+        {
+            "tense": "Present Continuous - Interrogative",
+            "en": "Are you eating a lemon?",
+            "hi": "क्या तुम नींबू खा रहे हो?"
+        },
+        {
+            "tense": "Present Continuous - Wh-Question",
+            "en": "Why are you eating my lemon?",
+            "hi": "तुम मेरा नींबू क्यों खा रहे हो?"
+        },
+        {
+            "tense": "Present Perfect - Affirmative",
+            "en": "I have eaten the lemon.",
+            "hi": "मैंने नींबू खा लिया है।"
+        },
+        {
+            "tense": "Present Perfect - Negative",
+            "en": "I have not eaten the lemon.",
+            "hi": "मैंने नींबू नहीं खाया है।"
+        },
+        {
+            "tense": "Present Perfect - Interrogative",
+            "en": "Have you eaten the lemon?",
+            "hi": "क्या तुमने नींबू खा लिया है?"
+        },
+        {
+            "tense": "Simple Past - Affirmative",
+            "en": "I bought a lemon yesterday.",
+            "hi": "मैंने कल एक नींबू खरीदा था।"
+        },
+        {
+            "tense": "Simple Past - Negative",
+            "en": "I didn't buy a lemon.",
+            "hi": "मैंने नींबू नहीं खरीदा।"
+        },
+        {
+            "tense": "Simple Past - Interrogative",
+            "en": "Did you buy a lemon?",
+            "hi": "क्या तुमने एक नींबू खरीदा?"
+        },
+        {
+            "tense": "Simple Past - Wh-Question",
+            "en": "Where did you buy this lemon?",
+            "hi": "तुमने यह नींबू कहाँ से खरीदा?"
+        },
+        {
+            "tense": "Past Continuous - Affirmative",
+            "en": "I was eating a lemon when you called.",
+            "hi": "जब तुमने फोन किया तब मैं एक नींबू खा रहा था।"
+        },
+        {
+            "tense": "Past Continuous - Interrogative",
+            "en": "Were you eating a lemon?",
+            "hi": "क्या तुम एक नींबू खा रहे थे?"
+        },
+        {
+            "tense": "Simple Future - Affirmative",
+            "en": "I will eat a lemon tomorrow.",
+            "hi": "मैं कल एक नींबू खाऊँगा।"
+        },
+        {
+            "tense": "Simple Future - Negative",
+            "en": "I will not eat the lemon.",
+            "hi": "मैं वह नींबू नहीं खाऊँगा।"
+        },
+        {
+            "tense": "Simple Future - Interrogative",
+            "en": "Will you eat this lemon?",
+            "hi": "क्या तुम यह नींबू खाओगे?"
+        },
+        {
+            "tense": "Modal - Can",
+            "en": "Can you peel this lemon?",
+            "hi": "क्या तुम यह नींबू छील सकते हो?"
+        },
+        {
+            "tense": "Modal - Should",
+            "en": "You should eat a lemon.",
+            "hi": "तुम्हें एक नींबू खाना चाहिए।"
+        },
+        {
+            "tense": "Modal - Must",
+            "en": "You must buy fresh lemons.",
+            "hi": "तुम्हें ताज़े नींबू ही खरीदने चाहिए।"
+        },
+        {
+            "tense": "Modal - May",
+            "en": "May I have a lemon?",
+            "hi": "क्या मैं एक नींबू ले सकता हूँ?"
+        },
+        {
+            "tense": "Modal - Would",
+            "en": "Would you like a lemon?",
+            "hi": "क्या आप एक नींबू लेना पसंद करेंगे?"
+        },
+        {
+            "tense": "Imperative - Affirmative",
+            "en": "Eat this lemon.",
+            "hi": "यह नींबू खाओ।"
+        },
+        {
+            "tense": "Imperative - Negative",
+            "en": "Don't eat that lemon.",
+            "hi": "वह नींबू मत खाओ।"
+        },
+        {
+            "tense": "Passive Voice - Present",
+            "en": "The lemon is eaten.",
+            "hi": "नींबू खाया जाता है।"
+        },
+        {
+            "tense": "Passive Voice - Past",
+            "en": "The lemon was eaten by him.",
+            "hi": "नींबू उसके द्वारा खाया गया था।"
+        },
+        {
+            "tense": "Location/Preposition",
+            "en": "The lemon is on the table.",
+            "hi": "नींबू मेज़ पर है।"
+        },
+        {
+            "tense": "Location/Preposition",
+            "en": "There is a lemon in the basket.",
+            "hi": "टोकरी में एक नींबू है।"
+        },
+        {
+            "tense": "Location/Preposition",
+            "en": "The monkey is holding a lemon.",
+            "hi": "बंदर ने एक नींबू पकड़ा हुआ है।"
+        },
+        {
+            "tense": "Adjective Use",
+            "en": "This lemon is sweet.",
+            "hi": "यह नींबू मीठा है।"
+        },
+        {
+            "tense": "Adjective Use",
+            "en": "That lemon is rotten.",
+            "hi": "वह नींबू सड़ा हुआ है।"
+        },
+        {
+            "tense": "Adjective Use",
+            "en": "I need a ripe lemon.",
+            "hi": "मुझे एक पका हुआ नींबू चाहिए।"
+        },
+        {
+            "tense": "Action - Cutting",
+            "en": "I am cutting the lemon.",
+            "hi": "मैं नींबू काट रहा हूँ।"
+        },
+        {
+            "tense": "Action - Peeling",
+            "en": "Please peel the lemon.",
+            "hi": "कृपया नींबू छील दो।"
+        },
+        {
+            "tense": "Action - Buying",
+            "en": "She is buying lemons.",
+            "hi": "वह नींबू खरीद रही है।"
+        },
+        {
+            "tense": "Action - Washing",
+            "en": "Wash the lemon before eating.",
+            "hi": "खाने से पहले नींबू धो लो।"
         }
     ]
 }

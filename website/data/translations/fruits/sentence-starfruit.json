@@ -4,14 +4,294 @@
     "category": "fruits",
     "translations": [
         {
-            "tense": "Example",
-            "en": "Starfruit has a crisp texture and tangy taste.",
-            "hi": "स्टारफ्रूट की बनावट कुरकुरी और स्वाद तीखा होता है।"
+            "tense": "To Be - Present Affirmative",
+            "en": "This is a starfruit.",
+            "hi": "यह एक कमरख है।"
         },
         {
-            "tense": "Example",
-            "en": "The slices of starfruit looked beautiful on the plate.",
-            "hi": "स्टारफ्रूट के टुकड़े प्लेट में बहुत खूबसूरत लग रहे थे।"
+            "tense": "To Be - Present Affirmative (Plural)",
+            "en": "These are starfruits.",
+            "hi": "ये कमरख हैं।"
+        },
+        {
+            "tense": "To Be - Past Affirmative",
+            "en": "That was a starfruit.",
+            "hi": "वह एक कमरख था।"
+        },
+        {
+            "tense": "To Be - Past Affirmative (Plural)",
+            "en": "Those were starfruits.",
+            "hi": "वे कमरख थे।"
+        },
+        {
+            "tense": "To Be - Present Negative",
+            "en": "This is not a starfruit.",
+            "hi": "यह एक कमरख नहीं है।"
+        },
+        {
+            "tense": "To Be - Present Negative (Plural)",
+            "en": "These are not starfruits.",
+            "hi": "ये कमरख नहीं हैं।"
+        },
+        {
+            "tense": "To Be - Present Interrogative",
+            "en": "Is this a starfruit?",
+            "hi": "क्या यह एक कमरख है?"
+        },
+        {
+            "tense": "To Be - Present Interrogative (Plural)",
+            "en": "Are these starfruits?",
+            "hi": "क्या ये कमरख हैं?"
+        },
+        {
+            "tense": "To Be - Past Interrogative",
+            "en": "Was that a starfruit?",
+            "hi": "क्या वह एक कमरख था?"
+        },
+        {
+            "tense": "To Be - Wh-Question",
+            "en": "Where is the starfruit?",
+            "hi": "कमरख कहाँ है?"
+        },
+        {
+            "tense": "To Be - Wh-Question (Plural)",
+            "en": "Where are the starfruits?",
+            "hi": "कमरख कहाँ हैं?"
+        },
+        {
+            "tense": "To Be - Wh-Question (Why)",
+            "en": "Why is this starfruit here?",
+            "hi": "यह कमरख यहाँ क्यों है?"
+        },
+        {
+            "tense": "To Have - Present Affirmative",
+            "en": "I have a starfruit.",
+            "hi": "मेरे पास एक कमरख है।"
+        },
+        {
+            "tense": "To Have - Present Affirmative (Plural)",
+            "en": "I have many starfruits.",
+            "hi": "मेरे पास कई कमरख हैं।"
+        },
+        {
+            "tense": "To Have - Past Affirmative",
+            "en": "I had a starfruit.",
+            "hi": "मेरे पास एक कमरख था।"
+        },
+        {
+            "tense": "To Have - Present Negative",
+            "en": "I don't have a starfruit.",
+            "hi": "मेरे पास कमरख नहीं है।"
+        },
+        {
+            "tense": "To Have - Present Interrogative",
+            "en": "Do you have a starfruit?",
+            "hi": "क्या तुम्हारे पास एक कमरख है?"
+        },
+        {
+            "tense": "To Have - Past Interrogative",
+            "en": "Did you have a starfruit?",
+            "hi": "क्या तुम्हारे पास एक कमरख था?"
+        },
+        {
+            "tense": "To Have - Wh-Question",
+            "en": "How many starfruits do you have?",
+            "hi": "तुम्हारे पास कितने कमरख हैं?"
+        },
+        {
+            "tense": "Simple Present - Affirmative",
+            "en": "I eat a starfruit every day.",
+            "hi": "मैं हर दिन एक कमरख खाता हूँ।"
+        },
+        {
+            "tense": "Simple Present - Negative",
+            "en": "I don't eat starfruits.",
+            "hi": "मैं कमरख नहीं खाता हूँ।"
+        },
+        {
+            "tense": "Simple Present - Interrogative",
+            "en": "Do you eat starfruits?",
+            "hi": "क्या तुम कमरख खाते हो?"
+        },
+        {
+            "tense": "Simple Present - Wh-Question",
+            "en": "When do you eat a starfruit?",
+            "hi": "तुम कमरख कब खाते हो?"
+        },
+        {
+            "tense": "Present Continuous - Affirmative",
+            "en": "I am eating a starfruit.",
+            "hi": "मैं एक कमरख खा रहा हूँ।"
+        },
+        {
+            "tense": "Present Continuous - Negative",
+            "en": "I am not eating a starfruit.",
+            "hi": "मैं कमरख नहीं खा रहा हूँ।"
+        },
+        {
+            "tense": "Present Continuous - Interrogative",
+            "en": "Are you eating a starfruit?",
+            "hi": "क्या तुम कमरख खा रहे हो?"
+        },
+        {
+            "tense": "Present Continuous - Wh-Question",
+            "en": "Why are you eating my starfruit?",
+            "hi": "तुम मेरा कमरख क्यों खा रहे हो?"
+        },
+        {
+            "tense": "Present Perfect - Affirmative",
+            "en": "I have eaten the starfruit.",
+            "hi": "मैंने कमरख खा लिया है।"
+        },
+        {
+            "tense": "Present Perfect - Negative",
+            "en": "I have not eaten the starfruit.",
+            "hi": "मैंने कमरख नहीं खाया है।"
+        },
+        {
+            "tense": "Present Perfect - Interrogative",
+            "en": "Have you eaten the starfruit?",
+            "hi": "क्या तुमने कमरख खा लिया है?"
+        },
+        {
+            "tense": "Simple Past - Affirmative",
+            "en": "I bought a starfruit yesterday.",
+            "hi": "मैंने कल एक कमरख खरीदा था।"
+        },
+        {
+            "tense": "Simple Past - Negative",
+            "en": "I didn't buy a starfruit.",
+            "hi": "मैंने कमरख नहीं खरीदा।"
+        },
+        {
+            "tense": "Simple Past - Interrogative",
+            "en": "Did you buy a starfruit?",
+            "hi": "क्या तुमने एक कमरख खरीदा?"
+        },
+        {
+            "tense": "Simple Past - Wh-Question",
+            "en": "Where did you buy this starfruit?",
+            "hi": "तुमने यह कमरख कहाँ से खरीदा?"
+        },
+        {
+            "tense": "Past Continuous - Affirmative",
+            "en": "I was eating a starfruit when you called.",
+            "hi": "जब तुमने फोन किया तब मैं एक कमरख खा रहा था।"
+        },
+        {
+            "tense": "Past Continuous - Interrogative",
+            "en": "Were you eating a starfruit?",
+            "hi": "क्या तुम एक कमरख खा रहे थे?"
+        },
+        {
+            "tense": "Simple Future - Affirmative",
+            "en": "I will eat a starfruit tomorrow.",
+            "hi": "मैं कल एक कमरख खाऊँगा।"
+        },
+        {
+            "tense": "Simple Future - Negative",
+            "en": "I will not eat the starfruit.",
+            "hi": "मैं वह कमरख नहीं खाऊँगा।"
+        },
+        {
+            "tense": "Simple Future - Interrogative",
+            "en": "Will you eat this starfruit?",
+            "hi": "क्या तुम यह कमरख खाओगे?"
+        },
+        {
+            "tense": "Modal - Can",
+            "en": "Can you peel this starfruit?",
+            "hi": "क्या तुम यह कमरख छील सकते हो?"
+        },
+        {
+            "tense": "Modal - Should",
+            "en": "You should eat a starfruit.",
+            "hi": "तुम्हें एक कमरख खाना चाहिए।"
+        },
+        {
+            "tense": "Modal - Must",
+            "en": "You must buy fresh starfruits.",
+            "hi": "तुम्हें ताज़े कमरख ही खरीदने चाहिए।"
+        },
+        {
+            "tense": "Modal - May",
+            "en": "May I have a starfruit?",
+            "hi": "क्या मैं एक कमरख ले सकता हूँ?"
+        },
+        {
+            "tense": "Modal - Would",
+            "en": "Would you like a starfruit?",
+            "hi": "क्या आप एक कमरख लेना पसंद करेंगे?"
+        },
+        {
+            "tense": "Imperative - Affirmative",
+            "en": "Eat this starfruit.",
+            "hi": "यह कमरख खाओ।"
+        },
+        {
+            "tense": "Imperative - Negative",
+            "en": "Don't eat that starfruit.",
+            "hi": "वह कमरख मत खाओ।"
+        },
+        {
+            "tense": "Passive Voice - Present",
+            "en": "The starfruit is eaten.",
+            "hi": "कमरख खाया जाता है।"
+        },
+        {
+            "tense": "Passive Voice - Past",
+            "en": "The starfruit was eaten by him.",
+            "hi": "कमरख उसके द्वारा खाया गया था।"
+        },
+        {
+            "tense": "Location/Preposition",
+            "en": "The starfruit is on the table.",
+            "hi": "कमरख मेज़ पर है।"
+        },
+        {
+            "tense": "Location/Preposition",
+            "en": "There is a starfruit in the basket.",
+            "hi": "टोकरी में एक कमरख है।"
+        },
+        {
+            "tense": "Location/Preposition",
+            "en": "The monkey is holding a starfruit.",
+            "hi": "बंदर ने एक कमरख पकड़ा हुआ है।"
+        },
+        {
+            "tense": "Adjective Use",
+            "en": "This starfruit is sweet.",
+            "hi": "यह कमरख मीठा है।"
+        },
+        {
+            "tense": "Adjective Use",
+            "en": "That starfruit is rotten.",
+            "hi": "वह कमरख सड़ा हुआ है।"
+        },
+        {
+            "tense": "Adjective Use",
+            "en": "I need a ripe starfruit.",
+            "hi": "मुझे एक पका हुआ कमरख चाहिए।"
+        },
+        {
+            "tense": "Action - Cutting",
+            "en": "I am cutting the starfruit.",
+            "hi": "मैं कमरख काट रहा हूँ।"
+        },
+        {
+            "tense": "Action - Peeling",
+            "en": "Please peel the starfruit.",
+            "hi": "कृपया कमरख छील दो।"
+        },
+        {
+            "tense": "Action - Buying",
+            "en": "She is buying starfruits.",
+            "hi": "वह कमरख खरीद रही है।"
+        },
+        {
+            "tense": "Action - Washing",
+            "en": "Wash the starfruit before eating.",
+            "hi": "खाने से पहले कमरख धो लो।"
         }
     ]
 }

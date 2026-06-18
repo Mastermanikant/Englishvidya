@@ -4,14 +4,294 @@
     "category": "fruits",
     "translations": [
         {
-            "tense": "Example",
-            "en": "You eat the whole kumquat, including the peel.",
-            "hi": "आप छिलके सहित पूरा कमक्वैट खाते हैं।"
+            "tense": "To Be - Present Affirmative",
+            "en": "This is a kumquat.",
+            "hi": "यह एक कुमकुट है।"
         },
         {
-            "tense": "Example",
-            "en": "Kumquats have a sweet skin and sour inside.",
-            "hi": "कमक्वैट का छिलका मीठा और अंदर से खट्टा होता है।"
+            "tense": "To Be - Present Affirmative (Plural)",
+            "en": "These are kumquats.",
+            "hi": "ये कुमकुट हैं।"
+        },
+        {
+            "tense": "To Be - Past Affirmative",
+            "en": "That was a kumquat.",
+            "hi": "वह एक कुमकुट था।"
+        },
+        {
+            "tense": "To Be - Past Affirmative (Plural)",
+            "en": "Those were kumquats.",
+            "hi": "वे कुमकुट थे।"
+        },
+        {
+            "tense": "To Be - Present Negative",
+            "en": "This is not a kumquat.",
+            "hi": "यह एक कुमकुट नहीं है।"
+        },
+        {
+            "tense": "To Be - Present Negative (Plural)",
+            "en": "These are not kumquats.",
+            "hi": "ये कुमकुट नहीं हैं।"
+        },
+        {
+            "tense": "To Be - Present Interrogative",
+            "en": "Is this a kumquat?",
+            "hi": "क्या यह एक कुमकुट है?"
+        },
+        {
+            "tense": "To Be - Present Interrogative (Plural)",
+            "en": "Are these kumquats?",
+            "hi": "क्या ये कुमकुट हैं?"
+        },
+        {
+            "tense": "To Be - Past Interrogative",
+            "en": "Was that a kumquat?",
+            "hi": "क्या वह एक कुमकुट था?"
+        },
+        {
+            "tense": "To Be - Wh-Question",
+            "en": "Where is the kumquat?",
+            "hi": "कुमकुट कहाँ है?"
+        },
+        {
+            "tense": "To Be - Wh-Question (Plural)",
+            "en": "Where are the kumquats?",
+            "hi": "कुमकुट कहाँ हैं?"
+        },
+        {
+            "tense": "To Be - Wh-Question (Why)",
+            "en": "Why is this kumquat here?",
+            "hi": "यह कुमकुट यहाँ क्यों है?"
+        },
+        {
+            "tense": "To Have - Present Affirmative",
+            "en": "I have a kumquat.",
+            "hi": "मेरे पास एक कुमकुट है।"
+        },
+        {
+            "tense": "To Have - Present Affirmative (Plural)",
+            "en": "I have many kumquats.",
+            "hi": "मेरे पास कई कुमकुट हैं।"
+        },
+        {
+            "tense": "To Have - Past Affirmative",
+            "en": "I had a kumquat.",
+            "hi": "मेरे पास एक कुमकुट था।"
+        },
+        {
+            "tense": "To Have - Present Negative",
+            "en": "I don't have a kumquat.",
+            "hi": "मेरे पास कुमकुट नहीं है।"
+        },
+        {
+            "tense": "To Have - Present Interrogative",
+            "en": "Do you have a kumquat?",
+            "hi": "क्या तुम्हारे पास एक कुमकुट है?"
+        },
+        {
+            "tense": "To Have - Past Interrogative",
+            "en": "Did you have a kumquat?",
+            "hi": "क्या तुम्हारे पास एक कुमकुट था?"
+        },
+        {
+            "tense": "To Have - Wh-Question",
+            "en": "How many kumquats do you have?",
+            "hi": "तुम्हारे पास कितने कुमकुट हैं?"
+        },
+        {
+            "tense": "Simple Present - Affirmative",
+            "en": "I eat a kumquat every day.",
+            "hi": "मैं हर दिन एक कुमकुट खाता हूँ।"
+        },
+        {
+            "tense": "Simple Present - Negative",
+            "en": "I don't eat kumquats.",
+            "hi": "मैं कुमकुट नहीं खाता हूँ।"
+        },
+        {
+            "tense": "Simple Present - Interrogative",
+            "en": "Do you eat kumquats?",
+            "hi": "क्या तुम कुमकुट खाते हो?"
+        },
+        {
+            "tense": "Simple Present - Wh-Question",
+            "en": "When do you eat a kumquat?",
+            "hi": "तुम कुमकुट कब खाते हो?"
+        },
+        {
+            "tense": "Present Continuous - Affirmative",
+            "en": "I am eating a kumquat.",
+            "hi": "मैं एक कुमकुट खा रहा हूँ।"
+        },
+        {
+            "tense": "Present Continuous - Negative",
+            "en": "I am not eating a kumquat.",
+            "hi": "मैं कुमकुट नहीं खा रहा हूँ।"
+        },
+        {
+            "tense": "Present Continuous - Interrogative",
+            "en": "Are you eating a kumquat?",
+            "hi": "क्या तुम कुमकुट खा रहे हो?"
+        },
+        {
+            "tense": "Present Continuous - Wh-Question",
+            "en": "Why are you eating my kumquat?",
+            "hi": "तुम मेरा कुमकुट क्यों खा रहे हो?"
+        },
+        {
+            "tense": "Present Perfect - Affirmative",
+            "en": "I have eaten the kumquat.",
+            "hi": "मैंने कुमकुट खा लिया है।"
+        },
+        {
+            "tense": "Present Perfect - Negative",
+            "en": "I have not eaten the kumquat.",
+            "hi": "मैंने कुमकुट नहीं खाया है।"
+        },
+        {
+            "tense": "Present Perfect - Interrogative",
+            "en": "Have you eaten the kumquat?",
+            "hi": "क्या तुमने कुमकुट खा लिया है?"
+        },
+        {
+            "tense": "Simple Past - Affirmative",
+            "en": "I bought a kumquat yesterday.",
+            "hi": "मैंने कल एक कुमकुट खरीदा था।"
+        },
+        {
+            "tense": "Simple Past - Negative",
+            "en": "I didn't buy a kumquat.",
+            "hi": "मैंने कुमकुट नहीं खरीदा।"
+        },
+        {
+            "tense": "Simple Past - Interrogative",
+            "en": "Did you buy a kumquat?",
+            "hi": "क्या तुमने एक कुमकुट खरीदा?"
+        },
+        {
+            "tense": "Simple Past - Wh-Question",
+            "en": "Where did you buy this kumquat?",
+            "hi": "तुमने यह कुमकुट कहाँ से खरीदा?"
+        },
+        {
+            "tense": "Past Continuous - Affirmative",
+            "en": "I was eating a kumquat when you called.",
+            "hi": "जब तुमने फोन किया तब मैं एक कुमकुट खा रहा था।"
+        },
+        {
+            "tense": "Past Continuous - Interrogative",
+            "en": "Were you eating a kumquat?",
+            "hi": "क्या तुम एक कुमकुट खा रहे थे?"
+        },
+        {
+            "tense": "Simple Future - Affirmative",
+            "en": "I will eat a kumquat tomorrow.",
+            "hi": "मैं कल एक कुमकुट खाऊँगा।"
+        },
+        {
+            "tense": "Simple Future - Negative",
+            "en": "I will not eat the kumquat.",
+            "hi": "मैं वह कुमकुट नहीं खाऊँगा।"
+        },
+        {
+            "tense": "Simple Future - Interrogative",
+            "en": "Will you eat this kumquat?",
+            "hi": "क्या तुम यह कुमकुट खाओगे?"
+        },
+        {
+            "tense": "Modal - Can",
+            "en": "Can you peel this kumquat?",
+            "hi": "क्या तुम यह कुमकुट छील सकते हो?"
+        },
+        {
+            "tense": "Modal - Should",
+            "en": "You should eat a kumquat.",
+            "hi": "तुम्हें एक कुमकुट खाना चाहिए।"
+        },
+        {
+            "tense": "Modal - Must",
+            "en": "You must buy fresh kumquats.",
+            "hi": "तुम्हें ताज़े कुमकुट ही खरीदने चाहिए।"
+        },
+        {
+            "tense": "Modal - May",
+            "en": "May I have a kumquat?",
+            "hi": "क्या मैं एक कुमकुट ले सकता हूँ?"
+        },
+        {
+            "tense": "Modal - Would",
+            "en": "Would you like a kumquat?",
+            "hi": "क्या आप एक कुमकुट लेना पसंद करेंगे?"
+        },
+        {
+            "tense": "Imperative - Affirmative",
+            "en": "Eat this kumquat.",
+            "hi": "यह कुमकुट खाओ।"
+        },
+        {
+            "tense": "Imperative - Negative",
+            "en": "Don't eat that kumquat.",
+            "hi": "वह कुमकुट मत खाओ।"
+        },
+        {
+            "tense": "Passive Voice - Present",
+            "en": "The kumquat is eaten.",
+            "hi": "कुमकुट खाया जाता है।"
+        },
+        {
+            "tense": "Passive Voice - Past",
+            "en": "The kumquat was eaten by him.",
+            "hi": "कुमकुट उसके द्वारा खाया गया था।"
+        },
+        {
+            "tense": "Location/Preposition",
+            "en": "The kumquat is on the table.",
+            "hi": "कुमकुट मेज़ पर है।"
+        },
+        {
+            "tense": "Location/Preposition",
+            "en": "There is a kumquat in the basket.",
+            "hi": "टोकरी में एक कुमकुट है।"
+        },
+        {
+            "tense": "Location/Preposition",
+            "en": "The monkey is holding a kumquat.",
+            "hi": "बंदर ने एक कुमकुट पकड़ा हुआ है।"
+        },
+        {
+            "tense": "Adjective Use",
+            "en": "This kumquat is sweet.",
+            "hi": "यह कुमकुट मीठा है।"
+        },
+        {
+            "tense": "Adjective Use",
+            "en": "That kumquat is rotten.",
+            "hi": "वह कुमकुट सड़ा हुआ है।"
+        },
+        {
+            "tense": "Adjective Use",
+            "en": "I need a ripe kumquat.",
+            "hi": "मुझे एक पका हुआ कुमकुट चाहिए।"
+        },
+        {
+            "tense": "Action - Cutting",
+            "en": "I am cutting the kumquat.",
+            "hi": "मैं कुमकुट काट रहा हूँ।"
+        },
+        {
+            "tense": "Action - Peeling",
+            "en": "Please peel the kumquat.",
+            "hi": "कृपया कुमकुट छील दो।"
+        },
+        {
+            "tense": "Action - Buying",
+            "en": "She is buying kumquats.",
+            "hi": "वह कुमकुट खरीद रही है।"
+        },
+        {
+            "tense": "Action - Washing",
+            "en": "Wash the kumquat before eating.",
+            "hi": "खाने से पहले कुमकुट धो लो।"
         }
     ]
 }
