@@ -23,24 +23,22 @@ eleventyComputed:
 ---
 
 {# Breadcrumb #}
-<nav class="breadcrumb" aria-label="Breadcrumb">
-  <a href="/">Home</a>
-  <span class="breadcrumb-sep" aria-hidden="true">›</span>
-  <a href="/dictionary/">Dictionary</a>
-  <span class="breadcrumb-sep" aria-hidden="true">›</span>
-  {# Find Category Name #}
-  {% set catName = wordEntry.category %}
-  {% set catIcon = '📁' %}
-  {% for cat in categoriesIndex %}
-    {% if cat.slug == wordEntry.category %}
-      {% set catName = cat.name %}
-      {% set catIcon = cat.icon %}
-    {% endif %}
-  {% endfor %}
-  <a href="/dictionary/{{ wordEntry.category }}/">{{ catIcon }} {{ catName }}</a>
-  <span class="breadcrumb-sep" aria-hidden="true">›</span>
-  <span aria-current="page">{{ wordEntry.word }}</span>
-</nav>
+{% set catName = wordEntry.category %}
+{% set catIcon = '📁' %}
+{% for cat in categoriesIndex %}
+  {% if cat.slug == wordEntry.category %}
+    {% set catName = cat.name %}
+    {% set catIcon = cat.icon %}
+  {% endif %}
+{% endfor %}
+
+{% set breadcrumbs = [
+  { label: "Home", url: "/" },
+  { label: "Dictionary", url: "/dictionary/" },
+  { label: catIcon + " " + catName, url: "/dictionary/" + wordEntry.category + "/" },
+  { label: wordEntry.word }
+] %}
+{% include "partials/breadcrumbs.njk" %}
 
 <div style="margin-top: var(--sp-6); display: flex; flex-direction: column; gap: var(--sp-6);">
   <div class="card" style="border-left: 4px solid var(--accent); padding: var(--sp-6); display: flex; justify-content: space-between; align-items: flex-start; gap: 24px; flex-wrap: wrap;">
