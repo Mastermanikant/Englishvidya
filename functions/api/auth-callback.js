@@ -47,11 +47,15 @@ export async function onRequestGet(context) {
   // Step 4: JWT Token banao (7 din valid)
   const jwt = await createJWT({ userId: user.id, email: user.email }, env.JWT_SECRET, 7 * 24 * 60 * 60);
 
+  // Read redirect URL from state
+  const state = url.searchParams.get('state');
+  const redirectTo = state ? decodeURIComponent(state) : '/';
+
   // Step 5: Cookie set karke homepage par redirect karo
   return new Response(null, {
     status: 302,
     headers: {
-      'Location': '/',
+      'Location': redirectTo,
       'Set-Cookie': `ev_token=${jwt}; Path=/; HttpOnly; Secure; SameSite=Lax; Max-Age=${7 * 24 * 60 * 60}`,
     },
   });

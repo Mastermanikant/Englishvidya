@@ -9,7 +9,7 @@ permalink: /login/
   <h1 style="font-family: var(--font-heading); margin-bottom: 10px;">Welcome Back!</h1>
   <p style="color: var(--text-secondary); margin-bottom: 30px;">Login to save words to your diary and earn trust points.</p>
   
-  <a href="/api/auth-google" class="btn-primary" style="display: flex; align-items: center; justify-content: center; gap: 10px; width: 100%; padding: 12px; border-radius: var(--radius-lg); font-weight: bold; font-size: 1.1rem; text-decoration: none;">
+  <a id="google-login-btn" href="/api/auth-google" class="btn-primary" style="display: flex; align-items: center; justify-content: center; gap: 10px; width: 100%; padding: 12px; border-radius: var(--radius-lg); font-weight: bold; font-size: 1.1rem; text-decoration: none; margin-bottom: 20px;">
     <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
       <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/>
       <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/>
@@ -19,7 +19,70 @@ permalink: /login/
     Continue with Google
   </a>
 
+  <div style="display: flex; align-items: center; margin-bottom: 20px;">
+    <div style="flex: 1; height: 1px; background: var(--border);"></div>
+    <span style="padding: 0 10px; color: var(--text-tertiary); font-size: 0.9rem;">OR</span>
+    <div style="flex: 1; height: 1px; background: var(--border);"></div>
+  </div>
+
+  <form id="login-form" style="display: flex; flex-direction: column; gap: 16px;">
+    <input type="text" id="login-id" placeholder="Email or UserID" required style="padding: 12px; border-radius: 8px; border: 1px solid var(--border); background: var(--bg-base); color: var(--text-main); font-size: 1rem;">
+    <input type="password" id="login-password" placeholder="Password" required style="padding: 12px; border-radius: 8px; border: 1px solid var(--border); background: var(--bg-base); color: var(--text-main); font-size: 1rem;">
+    <button type="submit" class="btn-primary" id="login-btn" style="padding: 12px; border-radius: 8px; font-weight: bold; font-size: 1.1rem;">Log In</button>
+    <div id="login-error" style="color: red; font-size: 0.9rem; display: none;"></div>
+  </form>
+
   <div style="margin-top: 20px; font-size: 0.85rem; color: var(--text-tertiary); line-height: 1.5;">
     अकाउंट बनाने या लॉगिन करने का मतलब है कि आप हमारी <a href="/terms/" style="color: var(--accent);">Legal Terms</a> और <a href="/privacy/" style="color: var(--accent);">Privacy Policy</a> को स्वीकार करते हैं।
   </div>
 </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const urlParams = new URLSearchParams(window.location.search);
+  const redirect = urlParams.get('redirect') || '/';
+  
+  // Google button redirect
+  const googleBtn = document.getElementById('google-login-btn');
+  googleBtn.href = '/api/auth-google?redirect=' + encodeURIComponent(redirect);
+
+  // Form submit
+  const form = document.getElementById('login-form');
+  const errorDiv = document.getElementById('login-error');
+  const loginBtn = document.getElementById('login-btn');
+
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const loginId = document.getElementById('login-id').value.trim();
+    const password = document.getElementById('login-password').value;
+
+    if (!loginId || !password) return;
+
+    loginBtn.disabled = true;
+    loginBtn.textContent = 'Logging in...';
+    errorDiv.style.display = 'none';
+
+    try {
+      const res = await fetch('/api/auth-login', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ loginId, password })
+      });
+      const data = await res.json();
+
+      if (res.ok && data.success) {
+        window.location.href = redirect;
+      } else {
+        errorDiv.textContent = data.error || 'Login failed.';
+        errorDiv.style.display = 'block';
+      }
+    } catch (err) {
+      errorDiv.textContent = 'Network error. Please try again.';
+      errorDiv.style.display = 'block';
+    }
+    
+    loginBtn.disabled = false;
+    loginBtn.textContent = 'Log In';
+  });
+});
+</script>
