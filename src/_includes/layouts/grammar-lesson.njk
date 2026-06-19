@@ -55,6 +55,10 @@ layout: layouts/base.njk
       <span class="badge">Lesson {{ part }}</span>
       {% endif %}
       <h1 style="margin-top: var(--sp-3);">{{ title | escHtml }}</h1>
+      <button class="focus-mode-toggle btn-haptic" onclick="window.toggleFocusMode && window.toggleFocusMode()" aria-label="Focus Mode" title="Distraction-free पढ़ाई करें">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"/></svg>
+        Focus Mode
+      </button>
     </div>
 
     {# Audio Player Section (Listen Feature) #}
