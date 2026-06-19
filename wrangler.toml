@@ -4,6 +4,9 @@ compatibility_date = "2026-06-03"
 # Eleventy build output folder
 pages_build_output_dir = "./_site"
 
+[assets]
+directory = "./_site"
+
 # --- Cloudflare D1 Database ---
 [[d1_databases]]
 binding = "DB"
