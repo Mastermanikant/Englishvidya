@@ -5771,3 +5771,8 @@ body.focus-mode .focus-exit-btn { display: flex; animation: fadeSlideIn 0.3s var
 @keyframes emoji-bounce { from { transform:translateY(0) rotate(-5deg); } to { transform:translateY(-10px) rotate(5deg); } }
 
 /* END PHASE 3 */
+
+/* -- Phase 4: Mobile Header Cleanup -- */
+@media (max-width: 768px) {
+  .hide-on-mobile { display: none !important; }
+}
