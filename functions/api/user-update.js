@@ -79,6 +79,9 @@ export async function onRequestPost(context) {
     } else if (body.action === 'cancel_delete') {
       await env.DB.prepare(`UPDATE users SET delete_requested_at = NULL WHERE id = ?`).bind(user.id).run();
       return Response.json({ success: true, message: 'Account deletion request cancelled' });
+    } else if (body.action === 'accept_rules') {
+      await env.DB.prepare(`UPDATE users SET has_accepted_rules = 1 WHERE id = ?`).bind(user.id).run();
+      return Response.json({ success: true, message: 'Rules accepted' });
     }
 
     return new Response('Invalid action', { status: 400 });

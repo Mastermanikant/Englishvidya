@@ -170,9 +170,27 @@ eleventyComputed:
       💬 Comments & Discussion
     </h3>
     
-    <div style="margin-bottom: 24px; display: flex; gap: 12px;">
-      <input type="text" id="comment-input" placeholder="Ask a question or add a tip..." style="flex: 1; padding: 12px 16px; border-radius: var(--radius-md); border: 1px solid var(--border); background: var(--bg-base); color: var(--text-main); font-size: 1rem; transition: border-color 0.2s;" onfocus="this.style.borderColor='var(--accent)'" onblur="this.style.borderColor='var(--border)'">
-      <button id="post-comment-btn" class="btn-primary" style="padding: 12px 24px; background: var(--accent); color: white; border: none; border-radius: var(--radius-md); font-weight: bold; cursor: pointer; transition: transform 0.2s;">Post</button>
+    <div style="margin-bottom: 24px; display: flex; flex-direction: column; gap: 12px;">
+      <div style="display: flex; gap: 12px;">
+        <input type="text" id="comment-input" placeholder="Ask a question or add a tip..." style="flex: 1; padding: 12px 16px; border-radius: var(--radius-md); border: 1px solid var(--border); background: var(--bg-base); color: var(--text-main); font-size: 1rem; transition: border-color 0.2s;" onfocus="this.style.borderColor='var(--accent)'" onblur="this.style.borderColor='var(--border)'">
+        <button id="post-comment-btn" class="btn-primary" style="padding: 12px 24px; background: var(--accent); color: white; border: none; border-radius: var(--radius-md); font-weight: bold; cursor: pointer; transition: transform 0.2s;">Post</button>
+      </div>
+      
+      <!-- Reference Links Toggle -->
+      <div>
+        <button id="toggle-refs-btn" style="background: none; border: none; color: var(--accent); font-weight: bold; cursor: pointer; display: flex; align-items: center; gap: 6px; padding: 0; font-size: 0.9rem;">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg>
+          + Add Reference Link
+        </button>
+        <div id="refs-container" style="display: none; margin-top: 12px; flex-direction: column; gap: 8px;">
+          <input type="url" class="ref-input" placeholder="Reference Link 1 (https://...)" style="width: 100%; padding: 8px 12px; border-radius: 6px; border: 1px solid var(--border); background: var(--bg-base); color: var(--text-main); font-size: 0.85rem;">
+          <input type="url" class="ref-input" placeholder="Reference Link 2 (Optional)" style="width: 100%; padding: 8px 12px; border-radius: 6px; border: 1px solid var(--border); background: var(--bg-base); color: var(--text-main); font-size: 0.85rem; display: none;">
+          <input type="url" class="ref-input" placeholder="Reference Link 3 (Optional)" style="width: 100%; padding: 8px 12px; border-radius: 6px; border: 1px solid var(--border); background: var(--bg-base); color: var(--text-main); font-size: 0.85rem; display: none;">
+          <input type="url" class="ref-input" placeholder="Reference Link 4 (Optional)" style="width: 100%; padding: 8px 12px; border-radius: 6px; border: 1px solid var(--border); background: var(--bg-base); color: var(--text-main); font-size: 0.85rem; display: none;">
+          <input type="url" class="ref-input" placeholder="Reference Link 5 (Optional)" style="width: 100%; padding: 8px 12px; border-radius: 6px; border: 1px solid var(--border); background: var(--bg-base); color: var(--text-main); font-size: 0.85rem; display: none;">
+          <button id="add-more-refs-btn" style="background: none; border: none; color: var(--text-secondary); font-size: 0.8rem; cursor: pointer; text-align: left; padding: 0;">+ Add more</button>
+        </div>
+      </div>
     </div>
 
     <div id="comments-list" style="display: flex; flex-direction: column; gap: 16px;">

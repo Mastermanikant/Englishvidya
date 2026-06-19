@@ -300,6 +300,26 @@ async function initComments() {
   const listContainer = document.getElementById('comments-list');
   const postBtn = document.getElementById('post-comment-btn');
   const inputEl = document.getElementById('comment-input');
+  const toggleRefsBtn = document.getElementById('toggle-refs-btn');
+  const refsContainer = document.getElementById('refs-container');
+  const addMoreRefsBtn = document.getElementById('add-more-refs-btn');
+
+  // Handle reference inputs visibility
+  if (toggleRefsBtn && refsContainer) {
+    toggleRefsBtn.addEventListener('click', () => {
+      refsContainer.style.display = refsContainer.style.display === 'none' ? 'flex' : 'none';
+    });
+  }
+
+  if (addMoreRefsBtn) {
+    addMoreRefsBtn.addEventListener('click', () => {
+      const hiddenInputs = refsContainer.querySelectorAll('input[style*="display: none"]');
+      if (hiddenInputs.length > 0) {
+        hiddenInputs[0].style.display = 'block';
+        if (hiddenInputs.length === 1) addMoreRefsBtn.style.display = 'none'; // all shown
+      }
+    });
+  }
 
   if (listContainer) {
     try {
@@ -309,7 +329,21 @@ async function initComments() {
       if (comments.length === 0) {
         listContainer.innerHTML = '<p style="color: var(--text-secondary); font-size: 0.9rem;">No comments yet. Start the discussion!</p>';
       } else {
-        listContainer.innerHTML = comments.map(c => `
+        listContainer.innerHTML = comments.map(c => {
+          let refsHtml = '';
+          try {
+            const refs = JSON.parse(c.reference_links || '[]');
+            if (refs.length > 0) {
+              refsHtml = `<div style="margin-top: 8px; font-size: 0.85rem;">
+                <strong style="color: var(--text-secondary);">References:</strong>
+                <ul style="margin: 4px 0 0 0; padding-left: 20px;">
+                  ${refs.map(r => `<li><a href="${r}" target="_blank" rel="noopener noreferrer" style="color: var(--accent);">${r}</a></li>`).join('')}
+                </ul>
+              </div>`;
+            }
+          } catch(e) {}
+
+          return `
           <div style="display: flex; gap: 12px; border-bottom: 1px solid var(--border); padding-bottom: 12px;">
             <img src="${c.avatar_url || '/assets/icons/icon-192.png'}" style="width: 40px; height: 40px; border-radius: 50%; object-fit: cover;">
             <div style="flex: 1;">
@@ -318,9 +352,11 @@ async function initComments() {
                 <span style="color: var(--text-secondary); font-size: 0.8rem;">${new Date(c.created_at).toLocaleDateString()}</span>
               </div>
               <p style="margin: 0; color: var(--text-main); font-size: 0.95rem;">${c.comment_text}</p>
+              ${refsHtml}
             </div>
           </div>
-        `).join('');
+          `;
+        }).join('');
       }
     } catch (e) {
       listContainer.innerHTML = '<p style="color: red;">Failed to load comments.</p>';
@@ -333,12 +369,34 @@ async function initComments() {
         const text = inputEl.value.trim();
         if (!text) return showToast('Comment cannot be empty', 'error');
         
+        // Client-Side (Offline) Keyword Blocker to save server load
+        const blockedKeywords = ['bjp', 'congress', 'hindu', 'muslim', 'islam', 'christian', 'modi', 'rahul', 'politics', 'धर्म', 'राजनीति', 'गाली', 'chutiya', 'madarchod', 'bhenchod', 'scam'];
+        const lowerText = text.toLowerCase();
+        for (const kw of blockedKeywords) {
+          if (lowerText.includes(kw)) {
+            return showToast('आपका मैसेज हमारी कम्युनिटी गाइडलाइन्स (राजनीति, धर्म या अभद्र भाषा) के खिलाफ है।', 'error');
+          }
+        }
+        
+        // Client-Side URL Blocker
+        const urlRegex = /(https?:\/\/[^\s]+)|(www\.[^\s]+)|([a-zA-Z0-9-]+\.[a-zA-Z]{2,}(\/[^\s]*)?)/i;
+        if (urlRegex.test(text)) {
+          return showToast('कमेंट में लिंक (URL) डालना सख्त मना है। कृपया नीचे "Reference Links" वाले बॉक्स का इस्तेमाल करें।', 'error');
+        }
+
+        // Collect references
+        const refInputs = document.querySelectorAll('.ref-input');
+        const references = [];
+        if (refInputs) {
+          refInputs.forEach(i => { if (i.value.trim()) references.push(i.value.trim()); });
+        }
+
         postBtn.disabled = true;
         try {
           const res = await fetch('/api/comments', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ slug, text })
+            body: JSON.stringify({ slug, text, references })
           });
           const data = await res.json();
           if (data.success) {

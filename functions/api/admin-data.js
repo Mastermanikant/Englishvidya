@@ -19,6 +19,17 @@ export async function onRequestGet(context) {
       ).all();
       return Response.json(results.results);
     } 
+    else if (type === 'pending_links') {
+      // Get comments that have reference_links with status 'pending'
+      const comments = await env.DB.prepare(
+        `SELECT c.id, c.comment_text, c.reference_links, u.name 
+         FROM comments c
+         JOIN users u ON c.user_id = u.id
+         WHERE c.reference_links LIKE '%"status":"pending"%'
+         ORDER BY c.created_at DESC`
+      ).all();
+      return Response.json(comments.results);
+    }
     else if (type === 'deleted') {
       // Only owner should see revert bin (or maybe admins too, but let's restrict to owner for full safety as per plan)
       if (user.role !== 'owner') return new Response('Owner only', { status: 403 });

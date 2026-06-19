@@ -29,6 +29,22 @@ export async function onRequestPost(context) {
       await env.DB.prepare(
         'UPDATE ugc_meanings SET status = ?, action_by_id = ?, action_at = ? WHERE id = ?'
       ).bind(statusToSet, user.id, now, id).run();
+    } else if (type === 'link') {
+      const comment = await env.DB.prepare('SELECT reference_links FROM comments WHERE id = ?').bind(id).first();
+      if (comment) {
+        let refs = JSON.parse(comment.reference_links || '[]');
+        // We approve or reject ALL pending links for this comment id. 
+        // Or we could pass a specific url, but let's do all pending for simplicity.
+        refs = refs.map(r => {
+          if (r.status === 'pending') {
+            return { ...r, status: action === 'approve' ? 'approved' : 'rejected' };
+          }
+          return r;
+        });
+        await env.DB.prepare(
+          'UPDATE comments SET reference_links = ? WHERE id = ?'
+        ).bind(JSON.stringify(refs), id).run();
+      }
     } else if (type === 'comment') {
       // Comments don't really have 'approve' by default unless moderated. 
       // But we can 'reject' (soft delete) them.

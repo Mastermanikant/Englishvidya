@@ -1,0 +1,198 @@
+---
+layout: layouts/base.njk
+title: Community Guidelines Agreement
+permalink: /agreement/
+---
+
+<style>
+  .agreement-container {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 30px;
+    background: var(--bg-raised);
+    border-radius: var(--radius-xl);
+    border: 1px solid var(--border-color);
+  }
+  .warning-box {
+    background: rgba(255, 0, 0, 0.05);
+    border-left: 4px solid var(--error);
+    padding: 16px;
+    margin-bottom: 24px;
+    border-radius: 4px;
+  }
+  .warning-box h2 {
+    color: var(--error);
+    margin-top: 0;
+    margin-bottom: 8px;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .checkbox-group {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 16px;
+    background: var(--bg-body);
+    padding: 16px;
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+  }
+  .checkbox-group input[type="checkbox"] {
+    margin-top: 4px;
+    width: 20px;
+    height: 20px;
+    accent-color: var(--accent);
+    cursor: pointer;
+  }
+  .checkbox-group label {
+    font-size: 0.95rem;
+    color: var(--text-primary);
+    line-height: 1.5;
+    cursor: pointer;
+  }
+  .cyber-warning {
+    margin-top: 30px;
+    padding: 20px;
+    background: #000;
+    color: #ff4d4d;
+    border: 1px solid #ff4d4d;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    text-align: center;
+  }
+  .btn-accept {
+    display: block;
+    width: 100%;
+    padding: 16px;
+    background: var(--accent);
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    margin-top: 24px;
+    cursor: not-allowed;
+    opacity: 0.5;
+    transition: all 0.3s;
+  }
+  .btn-accept.active {
+    cursor: pointer;
+    opacity: 1;
+  }
+  .btn-accept.active:hover {
+    background: var(--accent-dark, #3b82f6);
+  }
+</style>
+
+<div class="agreement-container">
+  <div class="warning-box">
+    <h2>⚠️ फोरम में शामिल होने के नियम</h2>
+    <p style="margin: 0; color: var(--text-secondary); font-size: 0.95rem;">
+      EnglishVidya एक एजुकेशनल प्लेटफार्म है। फोरम और कमेंट्स में भाग लेने से पहले आपको हमारी सख्त कम्युनिटी गाइडलाइन्स को मानना होगा।
+    </p>
+  </div>
+
+  <form id="agreement-form">
+    <div class="checkbox-group">
+      <input type="checkbox" id="rule1" class="rule-cb">
+      <label for="rule1">
+        <strong>नियम 1:</strong> मैं इस फोरम में केवल अंग्रेजी (English Learning) से जुड़े सवाल और जवाब ही पोस्ट करूँगा/करूंगी।
+      </label>
+    </div>
+
+    <div class="checkbox-group">
+      <input type="checkbox" id="rule2" class="rule-cb">
+      <label for="rule2">
+        <strong>नियम 2:</strong> मैं किसी भी प्रकार की राजनीति (Politics), धर्म (Religion) या किसी संवेदनशील मुद्दे पर कोई चर्चा नहीं करूँगा/करूंगी।
+      </label>
+    </div>
+
+    <div class="checkbox-group">
+      <input type="checkbox" id="rule3" class="rule-cb">
+      <label for="rule3">
+        <strong>नियम 3:</strong> मैं किसी भी यूज़र के साथ गाली-गलौज, अभद्र भाषा या अनुचित व्यवहार नहीं करूँगा/करूंगी।
+      </label>
+    </div>
+
+    <div class="checkbox-group">
+      <input type="checkbox" id="rule4" class="rule-cb">
+      <label for="rule4">
+        <strong>नियम 4:</strong> मैं किसी भी प्रकार का स्पैम (Spam) या गलत लिंक्स (URLs) कमेंट के टेक्स्ट में नहीं डालूँगा। (लिंक डालने के लिए मैं 'Reference Links' ऑप्शन का इस्तेमाल करूँगा)।
+      </label>
+    </div>
+
+    <div class="cyber-warning">
+      <strong>🚨 चेतावनी (WARNING) 🚨</strong><br>
+      अगर आपने कम्युनिटी की गरिमा भंग की (गाली-गलौज या स्पैम किया), तो आपका अकाउंट तुरंत डिलीट कर दिया जाएगा। हम आपकी <strong>IP Address और Mobile Device Info</strong> ट्रैक करते हैं। अगर कोई बड़ी बदमाशी या छेड़छाड़ की गई, तो आपकी डिटेल ऑटोमैटिक साइबर क्राइम (Cyber Crime Branch) को रिपोर्ट कर दी जाएगी। अगर आप सही हैं तो डरने की कोई बात नहीं, लेकिन नियम तोड़ने वालों पर सख्त कार्रवाई होगी।
+    </div>
+
+    <button type="submit" id="btn-submit" class="btn-accept" disabled>मैंने सभी नियम पढ़ लिए हैं और मैं सहमत हूँ</button>
+  </form>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', async () => {
+  // Check if logged in
+  const res = await fetch('/api/auth-me');
+  const data = await res.json();
+  if (!data.loggedIn) {
+    window.location.href = '/login/?redirect=/agreement/';
+    return;
+  }
+
+  // Check if already accepted
+  if (data.user.has_accepted_rules) {
+    window.location.href = '/forum/'; // redirect to forum
+    return;
+  }
+
+  const checkboxes = document.querySelectorAll('.rule-cb');
+  const btn = document.getElementById('btn-submit');
+
+  function checkAll() {
+    let allChecked = true;
+    checkboxes.forEach(cb => {
+      if (!cb.checked) allChecked = false;
+    });
+    
+    if (allChecked) {
+      btn.classList.add('active');
+      btn.disabled = false;
+    } else {
+      btn.classList.remove('active');
+      btn.disabled = true;
+    }
+  }
+
+  checkboxes.forEach(cb => cb.addEventListener('change', checkAll));
+
+  document.getElementById('agreement-form').addEventListener('submit', async (e) => {
+    e.preventDefault();
+    if (btn.disabled) return;
+
+    btn.textContent = "Processing...";
+    try {
+      const resp = await fetch('/api/user-update', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ action: 'accept_rules' })
+      });
+
+      if (resp.ok) {
+        // Find redirect param if exists, else go to forum
+        const urlParams = new URLSearchParams(window.location.search);
+        const redirect = urlParams.get('redirect') || '/forum/';
+        window.location.href = redirect;
+      } else {
+        alert("Something went wrong. Please try again.");
+        btn.textContent = "मैंने सभी नियम पढ़ लिए हैं और मैं सहमत हूँ";
+      }
+    } catch (err) {
+      alert("Network Error");
+      btn.textContent = "मैंने सभी नियम पढ़ लिए हैं और मैं सहमत हूँ";
+    }
+  });
+});
+</script>

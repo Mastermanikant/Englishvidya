@@ -1,0 +1,172 @@
+---
+layout: layouts/base.njk
+title: English Discussion Forum
+permalink: /forum/
+---
+
+<style>
+  .forum-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+  }
+  .forum-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  .forum-card {
+    background: var(--bg-card);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-sm);
+    border: 1px solid var(--border);
+    padding: 20px;
+    margin-bottom: 16px;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  .forum-card:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+    border-color: var(--accent);
+  }
+  .topic-title {
+    font-size: 1.3rem;
+    font-family: var(--font-heading);
+    color: var(--accent);
+    text-decoration: none;
+    margin-bottom: 8px;
+    display: block;
+  }
+  .topic-meta {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    display: flex;
+    gap: 16px;
+  }
+  .create-topic-box {
+    background: var(--bg-raised);
+    padding: 24px;
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--border);
+    margin-bottom: 40px;
+    display: none;
+  }
+</style>
+
+<div class="forum-container">
+  <div class="forum-header">
+    <h1 style="font-family: var(--font-heading); margin: 0; font-size: 2rem;">💬 English Discussion Forum</h1>
+    <button id="btn-open-create" class="btn-primary" style="padding: 10px 20px; font-weight: bold; border-radius: 8px;">+ New Topic</button>
+  </div>
+
+  <div class="create-topic-box" id="create-box">
+    <h3 style="margin-top: 0;">Start a New Discussion</h3>
+    <input type="text" id="topic-title" placeholder="Topic Title (e.g., Difference between 'I have' and 'I had')" style="width: 100%; padding: 12px; margin-bottom: 16px; border-radius: 8px; border: 1px solid var(--border); background: var(--bg-base); color: var(--text-main);">
+    <textarea id="topic-content" placeholder="Explain your question or topic in detail..." style="width: 100%; padding: 12px; margin-bottom: 16px; border-radius: 8px; border: 1px solid var(--border); background: var(--bg-base); color: var(--text-main); min-height: 120px; resize: vertical;"></textarea>
+    
+    <div style="display: flex; gap: 12px;">
+      <button id="btn-submit-topic" class="btn-primary" style="padding: 10px 24px; font-weight: bold; border-radius: 8px;">Post Topic</button>
+      <button id="btn-cancel-create" style="padding: 10px 24px; background: transparent; color: var(--text-secondary); border: 1px solid var(--border); border-radius: 8px; cursor: pointer;">Cancel</button>
+    </div>
+  </div>
+
+  <div id="topics-list">
+    <p style="color: var(--text-secondary); text-align: center;">Loading discussions...</p>
+  </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', async () => {
+  const res = await fetch('/api/auth-me');
+  const data = await res.json();
+  const isLoggedIn = data.loggedIn;
+  const hasAcceptedRules = isLoggedIn ? data.user.has_accepted_rules : 0;
+
+  const createBox = document.getElementById('create-box');
+  const btnOpen = document.getElementById('btn-open-create');
+  const btnCancel = document.getElementById('btn-cancel-create');
+  const btnSubmit = document.getElementById('btn-submit-topic');
+  const listEl = document.getElementById('topics-list');
+
+  btnOpen.addEventListener('click', () => {
+    if (!isLoggedIn) {
+      window.location.href = '/login/?redirect=/forum/';
+      return;
+    }
+    if (!hasAcceptedRules) {
+      window.location.href = '/agreement/';
+      return;
+    }
+    createBox.style.display = 'block';
+    btnOpen.style.display = 'none';
+  });
+
+  btnCancel.addEventListener('click', () => {
+    createBox.style.display = 'none';
+    btnOpen.style.display = 'block';
+  });
+
+  // Load Topics
+  async function loadTopics() {
+    try {
+      const resp = await fetch('/api/forum');
+      const topics = await resp.json();
+      if (topics.length === 0) {
+        listEl.innerHTML = '<p style="text-align: center; color: var(--text-secondary);">No topics yet. Be the first to start a discussion!</p>';
+        return;
+      }
+      
+      listEl.innerHTML = topics.map(t => `
+        <div class="forum-card">
+          <a href="/forum/topic/?id=${t.id}" class="topic-title">${t.title}</a>
+          <p style="margin: 8px 0; color: var(--text-main); font-size: 0.95rem;">${t.content.substring(0, 150)}${t.content.length > 150 ? '...' : ''}</p>
+          <div class="topic-meta">
+            <span>👤 ${t.name}</span>
+            <span>🕒 ${new Date(t.created_at).toLocaleDateString()}</span>
+            <span>💬 ${t.reply_count || 0} Replies</span>
+          </div>
+        </div>
+      `).join('');
+    } catch (e) {
+      listEl.innerHTML = '<p style="color: red;">Error loading topics.</p>';
+    }
+  }
+
+  loadTopics();
+
+  // Submit Topic
+  btnSubmit.addEventListener('click', async () => {
+    const title = document.getElementById('topic-title').value.trim();
+    const content = document.getElementById('topic-content').value.trim();
+
+    if (!title || !content) return alert('Title and Content are required.');
+
+    btnSubmit.disabled = true;
+    btnSubmit.textContent = 'Posting...';
+
+    try {
+      const resp = await fetch('/api/forum', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ title, content })
+      });
+      const result = await resp.json();
+
+      if (resp.ok && result.success) {
+        document.getElementById('topic-title').value = '';
+        document.getElementById('topic-content').value = '';
+        createBox.style.display = 'none';
+        btnOpen.style.display = 'block';
+        loadTopics();
+      } else {
+        alert(result.error || 'Failed to post topic.');
+      }
+    } catch (e) {
+      alert('Network error.');
+    }
+    btnSubmit.disabled = false;
+    btnSubmit.textContent = 'Post Topic';
+  });
+});
+</script>

@@ -13,8 +13,9 @@ permalink: /admin/
 
   <div id="admin-content" style="display: none;">
     <div class="tabs" style="display: flex; gap: 10px; margin-bottom: 20px; border-bottom: 1px solid var(--border-color); padding-bottom: 10px; flex-wrap: wrap;">
+      <button class="btn-primary" onclick="loadPendingLinks()" style="padding: 8px 16px; border-radius: var(--radius-sm); cursor: pointer;">Pending Links</button>
       <button class="btn-primary" onclick="loadPendingUGC()" style="padding: 8px 16px; border-radius: var(--radius-sm); cursor: pointer;">Pending Meanings</button>
-      <button class="btn-secondary" onclick="loadSoftDeleted()" style="padding: 8px 16px; border-radius: var(--radius-sm); cursor: pointer; background: var(--bg-raised); color: var(--text-main); border: 1px solid var(--border-color);">Revert Bin (Owner Only)</button>
+      <button class="btn-secondary" id="tab-revert" onclick="loadSoftDeleted()" style="padding: 8px 16px; border-radius: var(--radius-sm); cursor: pointer; background: var(--bg-raised); color: var(--text-main); border: 1px solid var(--border-color); display: none;">Revert Bin (Owner Only)</button>
       <button class="btn-secondary" onclick="loadDeletionRequests()" style="padding: 8px 16px; border-radius: var(--radius-sm); cursor: pointer; background: rgba(255,0,0,0.1); color: var(--error); border: 1px solid var(--error);">Account Deletion Requests</button>
     </div>
 
@@ -26,18 +27,64 @@ permalink: /admin/
 </div>
 
 <script>
-// We need to fetch data from an admin API. 
-// I will build a lightweight admin API in the next step to serve this data.
-document.addEventListener('DOMContentLoaded', () => {
-  // Mocking auth check for now. Will be secured by the API anyway.
-  const token = document.cookie.split('; ').find(row => row.startsWith('ev_token='));
-  if (!token) {
+document.addEventListener('DOMContentLoaded', async () => {
+  try {
+    const res = await fetch('/api/auth-me');
+    const data = await res.json();
+    if (data.loggedIn && (data.user.role === 'admin' || data.user.role === 'owner')) {
+      document.getElementById('admin-content').style.display = 'block';
+      if (data.user.role === 'owner') {
+        document.getElementById('tab-revert').style.display = 'inline-block';
+      }
+      loadPendingLinks();
+    } else {
+      document.getElementById('admin-auth-error').style.display = 'block';
+    }
+  } catch (e) {
     document.getElementById('admin-auth-error').style.display = 'block';
-  } else {
-    document.getElementById('admin-content').style.display = 'block';
-    loadPendingUGC();
   }
 });
+
+async function loadPendingLinks() {
+  const list = document.getElementById('admin-list');
+  list.innerHTML = '<p>Loading pending links...</p>';
+  try {
+    const res = await fetch('/api/admin-data?type=pending_links');
+    if (!res.ok) throw new Error('Unauthorized');
+    const data = await res.json();
+    
+    if (data.length === 0) {
+      list.innerHTML = '<p style="color: var(--text-secondary);">No pending links to review.</p>';
+      return;
+    }
+
+    list.innerHTML = data.map(item => {
+      let pendingUrls = [];
+      try {
+        pendingUrls = JSON.parse(item.reference_links).filter(r => r.status === 'pending');
+      } catch(e) {}
+      if (pendingUrls.length === 0) return '';
+
+      return `
+      <div style="background: var(--bg-raised); padding: 20px; border-radius: var(--radius-lg); border: 1px solid var(--border-color);">
+        <p><strong>Comment:</strong> ${item.comment_text}</p>
+        <p><strong>By:</strong> ${item.name}</p>
+        <div style="margin: 10px 0;">
+          <strong>Pending Links:</strong>
+          <ul>
+            ${pendingUrls.map(u => `<li><a href="${u.url}" target="_blank" style="color: var(--accent);">${u.url}</a></li>`).join('')}
+          </ul>
+        </div>
+        <div style="margin-top: 15px; display: flex; gap: 10px;">
+          <button onclick="adminAction('link', ${item.id}, 'approve')" style="background: #34A853; color: white; padding: 6px 12px; border: none; border-radius: var(--radius-sm); cursor: pointer;">Approve Links</button>
+          <button onclick="adminAction('link', ${item.id}, 'reject')" style="background: #EA4335; color: white; padding: 6px 12px; border: none; border-radius: var(--radius-sm); cursor: pointer;">Reject Links</button>
+        </div>
+      </div>
+    `}).join('');
+  } catch(e) {
+    list.innerHTML = '<p style="color: #EA4335;">Failed to load data.</p>';
+  }
+}
 
 async function loadPendingUGC() {
   const list = document.getElementById('admin-list');

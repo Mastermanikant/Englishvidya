@@ -20,7 +20,8 @@ export async function onRequestGet(context) {
       social_pinterest: user.social_pinterest,
       social_website1: user.social_website1,
       social_website2: user.social_website2,
-      delete_requested_at: user.delete_requested_at
+      delete_requested_at: user.delete_requested_at,
+      has_accepted_rules: user.has_accepted_rules
     }
   });
 }
