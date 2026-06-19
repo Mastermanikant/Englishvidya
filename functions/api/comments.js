@@ -4,7 +4,8 @@ export async function onRequestGet(context) {
   if (!slug) return Response.json({ error: 'slug required' }, { status: 400 });
 
   const comments = await context.env.DB.prepare(
-    `SELECT c.id, c.comment_text, c.reference_links, c.created_at, u.name, u.avatar_url, u.trust_score
+    `SELECT c.id, c.comment_text, c.reference_links, c.created_at, u.name, u.avatar_url, u.trust_score,
+            (SELECT stars FROM ratings r WHERE r.user_id = c.user_id AND r.page_slug = c.page_slug LIMIT 1) as user_rating
      FROM comments c
      JOIN users u ON c.user_id = u.id
      WHERE c.page_slug = ? AND u.is_shadow_banned = 0 AND c.status = 'active'

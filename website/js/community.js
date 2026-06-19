@@ -347,11 +347,15 @@ async function initComments() {
           <div style="display: flex; gap: 12px; border-bottom: 1px solid var(--border); padding-bottom: 12px;">
             <img src="${c.avatar_url || '/assets/icons/icon-192.png'}" style="width: 40px; height: 40px; border-radius: 50%; object-fit: cover;">
             <div style="flex: 1;">
-              <div style="display: flex; justify-content: space-between; margin-bottom: 4px;">
-                <strong style="color: var(--text-main); font-size: 0.9rem;">${c.name} <span style="font-weight: normal; color: var(--text-secondary);">• Trust: ${c.trust_score}</span></strong>
-                <span style="color: var(--text-secondary); font-size: 0.8rem;">${new Date(c.created_at).toLocaleDateString()}</span>
+              <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 4px;">
+                <div>
+                  <span style="font-weight: bold; color: var(--text-main); margin-right: 8px;">${c.name}</span>
+                  ${c.user_rating ? `<span style="color: #f59e0b; font-size: 0.9rem;">${'★'.repeat(c.user_rating)}${'☆'.repeat(5 - c.user_rating)}</span>` : ''}
+                  ${c.trust_score > 50 ? '<span style="background: var(--accent-soft); color: var(--accent); font-size: 0.7rem; padding: 2px 6px; border-radius: 4px; font-weight: bold;">Pro</span>' : ''}
+                </div>
+                <span style="font-size: 0.8rem; color: var(--text-tertiary);">${new Date(c.created_at).toLocaleDateString()}</span>
               </div>
-              <p style="margin: 0; color: var(--text-main); font-size: 0.95rem;">${c.comment_text}</p>
+              <p style="margin: 0; color: var(--text-primary); font-size: 0.95rem; line-height: 1.5; white-space: pre-wrap;">${c.comment_text}</p>
               ${refsHtml}
             </div>
           </div>
@@ -364,6 +368,11 @@ async function initComments() {
   }
 
   if (postBtn && inputEl) {
+    inputEl.addEventListener('focus', () => {
+      // Just check auth; if not logged in, it will trigger the redirect flow
+      requireAuth(() => {});
+    });
+
     postBtn.addEventListener('click', () => {
       requireAuth(async () => {
         const text = inputEl.value.trim();
