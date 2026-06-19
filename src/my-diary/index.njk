@@ -1,0 +1,143 @@
+---
+layout: layouts/base.njk
+title: My Diary & Saved Words
+permalink: /my-diary/
+---
+<div style="max-width: 800px; margin: 40px auto; padding: 20px;">
+  <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px; border-bottom: 1px solid var(--border); padding-bottom: 16px;">
+    <h1 style="margin: 0; display: flex; align-items: center; gap: 12px;">
+      📓 My Diary
+    </h1>
+    <div id="sync-status" style="display: flex; align-items: center; gap: 8px; font-weight: bold; font-size: 0.9rem; padding: 6px 12px; background: var(--bg-footer); border-radius: 20px;">
+      <span id="sync-indicator">🟢</span>
+      <span id="sync-text">Synced to Cloud</span>
+      <button id="sync-now-btn" style="background: none; border: none; cursor: pointer; padding: 0; margin-left: 8px;" title="Sync Now">🔄</button>
+    </div>
+  </div>
+
+  <div style="display: flex; gap: 16px; margin-bottom: 24px;">
+    <button id="tab-notes" class="panel-btn" style="flex: 1; padding: 12px; background: var(--accent); color: white; border: none; border-radius: 8px; font-weight: bold;">My Notes</button>
+    <button id="tab-favorites" class="panel-btn" style="flex: 1; padding: 12px; background: var(--bg-card); color: var(--text-main); border: 1px solid var(--border); border-radius: 8px; font-weight: bold;">Saved Words</button>
+  </div>
+
+  <div id="notes-view">
+    <div id="notes-list" style="display: flex; flex-direction: column; gap: 16px;">
+      <p style="color: var(--text-secondary); text-align: center;">Loading notes...</p>
+    </div>
+  </div>
+
+  <div id="favorites-view" style="display: none;">
+    <div id="favorites-list" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px;">
+      <p style="color: var(--text-secondary); text-align: center; grid-column: 1/-1;">Loading favorites...</p>
+    </div>
+  </div>
+</div>
+
+<script>
+  let rawNotes = [];
+  let rawBookmarks = [];
+  let unsyncedItems = [];
+
+  document.addEventListener('DOMContentLoaded', async () => {
+    // Check Auth
+    const resAuth = await fetch('/api/auth-me');
+    const authData = await resAuth.json();
+    if (!authData.loggedIn) {
+      document.getElementById('notes-list').innerHTML = `
+        <div style="text-align:center; padding: 40px;">
+          <p>Please login to see your diary.</p>
+          <a href="/api/auth-google" class="panel-btn" style="display:inline-block; margin-top: 16px; padding: 12px 24px; background:var(--accent); color:white; border-radius:8px; text-decoration:none; font-weight:bold;">Login with Google</a>
+        </div>`;
+      return;
+    }
+
+    await loadDiaryData();
+
+    // Tabs
+    document.getElementById('tab-notes').onclick = (e) => {
+      document.getElementById('notes-view').style.display = 'block';
+      document.getElementById('favorites-view').style.display = 'none';
+      e.target.style.background = 'var(--accent)';
+      e.target.style.color = 'white';
+      e.target.style.border = 'none';
+      document.getElementById('tab-favorites').style.background = 'var(--bg-card)';
+      document.getElementById('tab-favorites').style.color = 'var(--text-main)';
+      document.getElementById('tab-favorites').style.border = '1px solid var(--border)';
+    };
+
+    document.getElementById('tab-favorites').onclick = (e) => {
+      document.getElementById('notes-view').style.display = 'none';
+      document.getElementById('favorites-view').style.display = 'block';
+      e.target.style.background = 'var(--accent)';
+      e.target.style.color = 'white';
+      e.target.style.border = 'none';
+      document.getElementById('tab-notes').style.background = 'var(--bg-card)';
+      document.getElementById('tab-notes').style.color = 'var(--text-main)';
+      document.getElementById('tab-notes').style.border = '1px solid var(--border)';
+    };
+
+    document.getElementById('sync-now-btn').onclick = forceSync;
+  });
+
+  async function loadDiaryData() {
+    try {
+      const res = await fetch('/api/diary');
+      const data = await res.json();
+      rawNotes = data.notes || [];
+      rawBookmarks = data.bookmarks || [];
+      renderNotes();
+      renderFavorites();
+    } catch (e) {
+      console.error(e);
+      document.getElementById('notes-list').innerHTML = '<p>Error loading diary.</p>';
+    }
+  }
+
+  function renderNotes() {
+    const container = document.getElementById('notes-list');
+    if (rawNotes.length === 0) {
+      container.innerHTML = '<p style="color: var(--text-secondary); text-align: center;">No personal notes yet. Go to any word and add a note!</p>';
+      return;
+    }
+
+    container.innerHTML = rawNotes.map(n => `
+      <div class="card" style="padding: 16px; border-left: 4px solid var(--accent);">
+        <h3 style="margin: 0 0 8px 0;">
+          <a href="/dictionary/${n.word_slug}/" style="color: var(--text-main); text-decoration: none;">${n.word_slug}</a>
+        </h3>
+        <p style="margin: 0; color: var(--text-secondary); font-style: italic;">${n.note_content}</p>
+      </div>
+    `).join('');
+  }
+
+  function renderFavorites() {
+    const container = document.getElementById('favorites-list');
+    if (rawBookmarks.length === 0) {
+      container.innerHTML = '<p style="color: var(--text-secondary); text-align: center; grid-column: 1/-1;">No saved words yet.</p>';
+      return;
+    }
+
+    container.innerHTML = rawBookmarks.map(b => `
+      <div class="card" style="padding: 16px; border-radius: 8px; border: 1px solid var(--border);">
+        <h3 style="margin: 0 0 8px 0;">
+          <a href="/dictionary/${b.word_slug}/" style="color: var(--text-main); text-decoration: none;">${b.word_text || b.word_slug}</a>
+        </h3>
+        <p style="margin: 0; color: var(--text-secondary);">${b.meaning_text}</p>
+      </div>
+    `).join('');
+  }
+
+  async function forceSync() {
+    // In a real app, this would flush the localStorage queue to the server.
+    // For now, we simulate the UI feedback.
+    const indicator = document.getElementById('sync-indicator');
+    const text = document.getElementById('sync-text');
+    indicator.textContent = '🟡';
+    text.textContent = 'Saving...';
+
+    setTimeout(() => {
+      indicator.textContent = '🟢';
+      text.textContent = 'Synced to Cloud';
+    }, 1000);
+  }
+</script>

@@ -2,6 +2,10 @@ name = "englishvidya"
 compatibility_date = "2026-06-03"
 
 # Eleventy build output folder
-# 'npm run build' se _site/ folder generate hoga
-# Cloudflare Pages yahi serve karega
-assets = { directory = "./_site" }
+pages_build_output_dir = "./_site"
+
+# --- Cloudflare D1 Database ---
+[[d1_databases]]
+binding = "DB"
+database_name = "englishvidya-db"
+database_id = "9421954b-e317-42a7-97bf-d47fc5721807"

@@ -66,6 +66,26 @@ eleventyComputed:
       </div>
       {% endif %}
 
+      {# 5-Star Rating System UI #}
+      <div id="word-rating-container" data-slug="{{ wordEntry.slug }}" style="display: flex; align-items: center; gap: 8px; margin-bottom: 16px; background: var(--bg-footer); padding: 8px 16px; border-radius: 8px; width: fit-content;">
+        <div style="display: flex; gap: 4px; font-size: 1.4rem; cursor: pointer;">
+          <span class="rating-star" data-value="1" title="Rate 1 Star" style="color: var(--border); transition: color 0.2s;">★</span>
+          <span class="rating-star" data-value="2" title="Rate 2 Stars" style="color: var(--border); transition: color 0.2s;">★</span>
+          <span class="rating-star" data-value="3" title="Rate 3 Stars" style="color: var(--border); transition: color 0.2s;">★</span>
+          <span class="rating-star" data-value="4" title="Rate 4 Stars" style="color: var(--border); transition: color 0.2s;">★</span>
+          <span class="rating-star" data-value="5" title="Rate 5 Stars" style="color: var(--border); transition: color 0.2s;">★</span>
+        </div>
+        <span style="font-weight: bold; font-size: 1.1rem; color: var(--text-main); margin-left: 8px;" id="rating-avg">0.0</span>
+        <span style="font-size: 0.9rem; color: var(--text-secondary);" id="rating-count">(0 votes)</span>
+      </div>
+
+      {# Personal Diary Button #}
+      <div style="margin-bottom: 16px;">
+        <button id="add-diary-btn" class="panel-btn" style="display: flex; align-items: center; gap: 8px; padding: 8px 16px; background: transparent; border: 1px solid var(--accent); border-radius: 8px; color: var(--text-main); font-weight: bold; cursor: pointer;">
+          📓 Add Personal Note
+        </button>
+      </div>
+
       {# Word Info Cards #}
       <div style="display: flex; flex-direction: column; gap: 16px; margin-top: 24px; padding-top: 16px; border-top: 1px dashed var(--border);">
         {% if wordEntry.usages and wordEntry.usages.length > 0 %}
@@ -132,9 +152,39 @@ eleventyComputed:
       <button onclick="openImageModal('/assets/images/flashcards/{{ wordEntry.slug }}.webp')" style="position: absolute; right: 12px; top: 12px; background: rgba(0,0,0,0.6); color: white; border: none; border-radius: 6px; width: 36px; height: 36px; display: flex; align-items: center; justify-content: center; cursor: pointer; transition: background 0.2s;" title="View Fullscreen" onmouseover="this.style.background='rgba(0,0,0,0.8)'" onmouseout="this.style.background='rgba(0,0,0,0.6)'">⛶</button>
     </div>
   </div>
+  </div>
+
+  {# UGC (User Generated Content) Section #}
+  <div id="ugc-section" style="margin-top: 32px; padding-top: 16px; border-top: 1px dashed var(--border);">
+    <h3 style="margin-bottom: 16px; display: flex; align-items: center; justify-content: space-between;">
+      <span>🌍 Local & Rural Meanings</span>
+      <button id="add-ugc-btn" class="panel-btn" style="padding: 6px 12px; background: var(--bg-footer); border: 1px solid var(--border); border-radius: 8px; font-size: 0.9rem; cursor: pointer;">+ Add Yours</button>
+    </h3>
+    
+    <div id="ugc-list" style="display: flex; flex-direction: column; gap: 12px;">
+      <p style="color: var(--text-secondary); font-size: 0.9rem;">Loading community meanings...</p>
+    </div>
+  </div>
+
+  {# Comments Section #}
+  <div id="comments-section" style="margin-top: 32px; padding-top: 16px; border-top: 1px dashed var(--border);">
+    <h3 style="margin-bottom: 16px; display: flex; align-items: center; justify-content: space-between;">
+      <span>💬 Comments & Discussion</span>
+    </h3>
+    
+    <div style="margin-bottom: 24px; display: flex; gap: 12px;">
+      <input type="text" id="comment-input" placeholder="Ask a question or add a tip..." style="flex: 1; padding: 12px; border-radius: 8px; border: 1px solid var(--border); background: var(--bg-body); color: var(--text-main);">
+      <button id="post-comment-btn" class="panel-btn" style="padding: 12px 24px; background: var(--accent); color: white; border: none; border-radius: 8px; font-weight: bold; cursor: pointer;">Post</button>
+    </div>
+
+    <div id="comments-list" style="display: flex; flex-direction: column; gap: 16px;">
+      <p style="color: var(--text-secondary); font-size: 0.9rem;">Loading comments...</p>
+    </div>
+  </div>
+
   {# Extra Detailed Information Section #}
   {% if wordEntry.detailedInfo and wordEntry.detailedInfo.length > 0 %}
-    <div class="card" style="margin-top: var(--sp-6); padding: var(--sp-6); border-top: 4px solid var(--accent); background: var(--bg-card); border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+    <div class="dictionary-ad" style="margin-top: 32px; padding: var(--sp-6); border-top: 4px solid var(--accent); background: var(--bg-card); border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
       <h2 style="font-size: 1.5rem; margin-bottom: 20px; color: var(--text-main); display: flex; align-items: center; gap: 8px;">
         <span style="font-size: 1.8rem;">💡</span> Extra Facts & Info
       </h2>
