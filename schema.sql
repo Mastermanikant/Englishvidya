@@ -10,6 +10,7 @@ CREATE TABLE IF NOT EXISTS users (
   name TEXT NOT NULL DEFAULT '',
   username TEXT UNIQUE DEFAULT NULL,
   password_hash TEXT DEFAULT NULL,
+  role TEXT NOT NULL DEFAULT 'user',
   avatar_url TEXT DEFAULT '',
   trust_score INTEGER NOT NULL DEFAULT 10,
   is_shadow_banned INTEGER NOT NULL DEFAULT 0,
@@ -58,8 +59,11 @@ CREATE TABLE IF NOT EXISTS ugc_meanings (
   upvotes INTEGER NOT NULL DEFAULT 0,
   downvotes INTEGER NOT NULL DEFAULT 0,
   status TEXT NOT NULL DEFAULT 'not_verified',
+  action_by_id INTEGER,
+  action_at TEXT,
   created_at TEXT NOT NULL DEFAULT (datetime('now')),
-  FOREIGN KEY (user_id) REFERENCES users(id)
+  FOREIGN KEY (user_id) REFERENCES users(id),
+  FOREIGN KEY (action_by_id) REFERENCES users(id)
 );
 
 -- 5. VOTES (Upvote/Downvote on UGC meanings)
@@ -80,8 +84,12 @@ CREATE TABLE IF NOT EXISTS comments (
   page_slug TEXT NOT NULL,
   user_id INTEGER NOT NULL,
   comment_text TEXT NOT NULL,
+  status TEXT NOT NULL DEFAULT 'active',
+  action_by_id INTEGER,
+  action_at TEXT,
   created_at TEXT NOT NULL DEFAULT (datetime('now')),
-  FOREIGN KEY (user_id) REFERENCES users(id)
+  FOREIGN KEY (user_id) REFERENCES users(id),
+  FOREIGN KEY (action_by_id) REFERENCES users(id)
 );
 
 -- 7. USER NOTES (Personal Diary)

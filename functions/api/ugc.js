@@ -7,7 +7,7 @@ export async function onRequestGet(context) {
     `SELECT u.id, u.meaning_text, u.region, u.upvotes, u.downvotes, u.status, u.created_at, users.name, users.trust_score
      FROM ugc_meanings u
      JOIN users ON u.user_id = users.id
-     WHERE u.word_slug = ? AND u.status != 'banned'
+     WHERE u.word_slug = ? AND u.status != 'banned' AND u.status != 'deleted'
      ORDER BY u.upvotes DESC, u.created_at DESC`
   ).bind(slug).all();
 

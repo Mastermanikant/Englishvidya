@@ -19,7 +19,7 @@ export async function onRequest(context) {
       const payload = await verifyJWT(token, env.JWT_SECRET);
       
       const user = await env.DB.prepare(
-        'SELECT id, google_id, email, name, username, avatar_url, trust_score, is_shadow_banned, daily_sync_count, monthly_sync_count, last_sync_date, last_sync_month FROM users WHERE id = ?'
+        'SELECT id, google_id, email, name, username, role, avatar_url, trust_score, is_shadow_banned, daily_sync_count, monthly_sync_count, last_sync_date, last_sync_month FROM users WHERE id = ?'
       ).bind(payload.userId).first();
 
       if (user) {

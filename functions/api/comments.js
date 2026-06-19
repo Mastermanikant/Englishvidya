@@ -7,7 +7,7 @@ export async function onRequestGet(context) {
     `SELECT c.id, c.comment_text, c.created_at, u.name, u.avatar_url, u.trust_score
      FROM comments c
      JOIN users u ON c.user_id = u.id
-     WHERE c.page_slug = ? AND u.is_shadow_banned = 0
+     WHERE c.page_slug = ? AND u.is_shadow_banned = 0 AND c.status = 'active'
      ORDER BY c.created_at DESC`
   ).bind(slug).all();
 

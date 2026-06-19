@@ -137,9 +137,24 @@
     <button class="header-btn" id="text-scaler-header-btn" aria-label="Adjust Text Size" title="Adjust Text Size">
       <span style="font-family: var(--font-heading); font-weight: 800; font-size: 1.1rem; line-height: 1;">Aa</span>
     </button>
-    <button class="header-btn" id="login-btn" aria-label="Login / Profile" style="display: flex; align-items: center; background: var(--bg-footer); padding: 4px 12px; border-radius: 20px; font-weight: 600; font-size: 0.9rem;">
-      Login <span style="font-size: 0.8em; margin-left: 5px;">▼</span>
-    </button>
+    <div class="profile-dropdown-container" style="position: relative;">
+      <a href="/login/" class="header-btn" id="header-profile-btn" aria-label="Login / Profile" style="display: flex; align-items: center; justify-content: center; width: 36px; height: 36px; border-radius: 50%; background: var(--bg-raised); border: 1px solid var(--border-color); overflow: hidden; text-decoration: none; padding: 0;">
+        <svg id="header-profile-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--text-primary);"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+        <img id="header-profile-img" src="" alt="Profile" style="display:none; width: 100%; height: 100%; object-fit: cover;">
+      </a>
+      
+      <!-- Dropdown (Hidden by default) -->
+      <div id="header-profile-menu" style="display: none; position: absolute; top: 45px; right: 0; width: 200px; background: var(--bg-raised); border: 1px solid var(--border-color); border-radius: var(--radius-md); box-shadow: var(--shadow-lg); z-index: 1000; flex-direction: column; overflow: hidden;">
+        <div style="padding: 12px; border-bottom: 1px solid var(--border-color);">
+          <div id="menu-user-name" style="font-weight: bold; color: var(--text-primary);">User</div>
+          <div id="menu-user-email" style="font-size: 0.8rem; color: var(--text-tertiary); word-break: break-all;">user@email.com</div>
+        </div>
+        <a href="/my-diary/" style="padding: 10px 15px; color: var(--text-primary); text-decoration: none; display: flex; align-items: center; gap: 10px; transition: background 0.2s;" onmouseover="this.style.background='var(--bg-hover)'" onmouseout="this.style.background='transparent'">📓 My Diary</a>
+        <a href="/settings/" style="padding: 10px 15px; color: var(--text-primary); text-decoration: none; display: flex; align-items: center; gap: 10px; transition: background 0.2s;" onmouseover="this.style.background='var(--bg-hover)'" onmouseout="this.style.background='transparent'">⚙️ Settings</a>
+        <a href="/admin/" id="menu-admin-link" style="display: none; padding: 10px 15px; color: var(--accent); text-decoration: none; align-items: center; gap: 10px; font-weight: bold; transition: background 0.2s;" onmouseover="this.style.background='var(--accent-soft)'" onmouseout="this.style.background='transparent'">🛡️ Admin</a>
+        <button id="logout-btn" style="padding: 10px 15px; color: var(--error); text-align: left; background: none; border: none; cursor: pointer; width: 100%; display: flex; align-items: center; gap: 10px; font-size: 1rem; border-top: 1px solid var(--border-color); font-family: inherit; transition: background 0.2s;" onmouseover="this.style.background='var(--bg-hover)'" onmouseout="this.style.background='transparent'">🚪 Logout</button>
+      </div>
+    </div>
     <button class="header-btn" id="theme-toggle-btn" aria-label="Toggle Theme">
       <svg class="icon-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
         <circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
