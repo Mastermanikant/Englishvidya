@@ -61,6 +61,7 @@
       <a href="/contact/" class="mobile-drawer-link" data-route="contact">🎧 Help & Support</a>
       <a href="/legal/" class="mobile-drawer-link" data-route="legal">📜 Policies</a>
       <a href="/settings/" class="mobile-drawer-link" data-route="settings">⚙️ Settings / Profile</a>
+      <a href="/my-diary/" class="mobile-drawer-link" data-route="my-diary">📓 My Diary</a>
       <button class="mobile-drawer-link" id="text-scaler-drawer-btn" style="width: 100%; text-align: left; background: transparent; border: none; font-family: inherit; font-size: inherit; cursor: pointer; display: flex; align-items: center; gap: 8px;">
         <span>📏 Text Size (Aa)</span>
       </button>
@@ -70,6 +71,9 @@
       </button>
       <button class="mobile-drawer-link" id="focus-mode-drawer-btn" style="width: 100%; text-align: left; background: transparent; border: none; font-family: inherit; font-size: inherit; cursor: pointer; display: flex; align-items: center; gap: 8px;" onclick="window.toggleFocusMode && window.toggleFocusMode()">
         <span>⛶ Focus Mode (Full Screen)</span>
+      </button>
+      <button class="mobile-drawer-link" style="width: 100%; text-align: left; background: transparent; border: none; font-family: inherit; font-size: inherit; cursor: pointer; display: flex; align-items: center; gap: 8px;" onclick="window.checkForUpdates && window.checkForUpdates()">
+        <span>🔄 Check for Updates</span>
       </button>
 
       <div class="social-icons-drawer" style="display:flex; justify-content:center; gap:var(--sp-4); margin-top:var(--sp-6);">
@@ -167,6 +171,7 @@
         <a href="/settings/" style="padding: 10px 15px; color: var(--text-primary); text-decoration: none; display: flex; align-items: center; gap: 10px; transition: background 0.2s;" onmouseover="this.style.background='var(--bg-hover)'" onmouseout="this.style.background='transparent'">⚙️ Settings</a>
         <a href="/contact/" style="padding: 10px 15px; color: var(--text-primary); text-decoration: none; display: flex; align-items: center; gap: 10px; transition: background 0.2s;" onmouseover="this.style.background='var(--bg-hover)'" onmouseout="this.style.background='transparent'">🎧 Help & Support</a>
         <a href="/admin/" id="menu-admin-link" style="display: none; padding: 10px 15px; color: var(--accent); text-decoration: none; align-items: center; gap: 10px; font-weight: bold; transition: background 0.2s;" onmouseover="this.style.background='var(--accent-soft)'" onmouseout="this.style.background='transparent'">🛡️ Admin</a>
+        <button onclick="window.checkForUpdates && window.checkForUpdates()" style="padding: 10px 15px; color: var(--text-primary); text-align: left; background: none; border: none; cursor: pointer; width: 100%; display: flex; align-items: center; gap: 10px; font-size: 1rem; border-top: 1px solid var(--border-color); font-family: inherit; transition: background 0.2s;" onmouseover="this.style.background='var(--bg-hover)'" onmouseout="this.style.background='transparent'">🔄 Check for Updates</button>
         <button id="logout-btn" style="padding: 10px 15px; color: var(--error); text-align: left; background: none; border: none; cursor: pointer; width: 100%; display: flex; align-items: center; gap: 10px; font-size: 1rem; border-top: 1px solid var(--border-color); font-family: inherit; transition: background 0.2s;" onmouseover="this.style.background='var(--bg-hover)'" onmouseout="this.style.background='transparent'">🚪 Logout</button>
       </div>
     </div>

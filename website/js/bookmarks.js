@@ -20,12 +20,19 @@ function toggleBookmark(slug, word, meaning, pron, category) {
     
     if (index > -1) {
         // Remove bookmark
-        bookmarks.splice(index, 1);
+        const removed = bookmarks.splice(index, 1)[0];
+        if (removed && removed.synced) {
+            let toRemove = JSON.parse(localStorage.getItem('ev-bookmarks-to-remove') || '[]');
+            if (!toRemove.includes(slug)) {
+                toRemove.push(slug);
+                localStorage.setItem('ev-bookmarks-to-remove', JSON.stringify(toRemove));
+            }
+        }
         if (btn) btn.innerHTML = '🤍';
         showToast(`Removed "${word}" from Favorites`);
     } else {
         // Add bookmark
-        bookmarks.unshift({ slug, word, meaning, pron, category, addedAt: new Date().toISOString() });
+        bookmarks.unshift({ slug, word, meaning, pron, category, addedAt: new Date().toISOString(), synced: false });
         if (btn) btn.innerHTML = '❤️';
         showToast(`Added "${word}" to Favorites`);
     }

@@ -133,40 +133,169 @@
   <script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.js" defer></script>
   <script src="/js/search.js" defer></script>
   <script src="/js/bookmarks.js" defer></script>
+  <script src="/js/diary.js" defer></script>
   <script src="/js/auth-ui.js" defer></script>
   <script src="/js/community.js" defer></script>
   {{ extraScripts | safe }}
 
   {# ── PWA Service Worker Registration & Update Notification ── #}
   <style>
-    #toast-container { position: fixed; bottom: 80px; right: 20px; z-index: 9999; display: flex; flex-direction: column; gap: 10px; }
-    .update-toast { background: #38bdf8; color: #0f172a; padding: 12px 20px; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.3); font-weight: 600; display: flex; align-items: center; gap: 15px; animation: slideUp 0.3s ease-out; }
-    .update-toast button { background: #0f172a; color: #fff; border: none; padding: 6px 12px; border-radius: 4px; cursor: pointer; font-weight: bold; }
-    @keyframes slideUp { from { transform: translateY(20px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
+    #toast-container {
+      position: fixed;
+      bottom: 90px;
+      right: 20px;
+      z-index: 9999;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      pointer-events: none;
+    }
+    .update-toast {
+      background: linear-gradient(135deg, rgba(15, 23, 42, 0.95), rgba(30, 41, 59, 0.95));
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      color: #fff;
+      padding: 14px 22px;
+      border-radius: 12px;
+      box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.4), 0 8px 10px -6px rgba(0, 0, 0, 0.4);
+      font-weight: 500;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      animation: swSlideUp 0.35s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+      pointer-events: auto;
+      max-width: 380px;
+      font-family: var(--font-sans, system-ui, -apple-system, sans-serif);
+    }
+    .update-toast button {
+      background: linear-gradient(135deg, var(--accent, #38bdf8), #0284c7);
+      color: #fff;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: 700;
+      font-size: 0.9rem;
+      box-shadow: 0 4px 12px rgba(56, 189, 248, 0.3);
+      transition: all 0.2s ease;
+      white-space: nowrap;
+    }
+    .update-toast button:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 6px 16px rgba(56, 189, 248, 0.4);
+    }
+    .update-toast button:active {
+      transform: translateY(1px);
+    }
+    @keyframes swSlideUp {
+      from { transform: translateY(30px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
   </style>
   <script>
-    if ('serviceWorker' in navigator) {
-      window.addEventListener('load', function () {
-        navigator.serviceWorker.register('/service-worker.js')
-          .then(function (reg) {
-            console.log('[SW] Registered:', reg.scope);
-            reg.addEventListener('updatefound', () => {
-              const newWorker = reg.installing;
-              newWorker.addEventListener('statechange', () => {
-                if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
-                  const toast = document.createElement('div');
-                  toast.className = 'update-toast';
-                  toast.innerHTML = 'New Update Available! <button onclick="window.location.reload()">Refresh</button>';
-                  document.getElementById('toast-container').appendChild(toast);
+    (function() {
+      let refreshing = false;
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.addEventListener('controllerchange', () => {
+          if (refreshing) return;
+          refreshing = true;
+          window.location.reload();
+        });
+      }
+
+      window.showUpdateToast = function(worker) {
+        if (document.querySelector('.update-toast:not(.temp-toast)')) return;
+
+        const toast = document.createElement('div');
+        toast.className = 'update-toast';
+        toast.innerHTML = `
+          <div style="flex: 1; font-size: 0.95rem; line-height: 1.4; font-family: inherit;">
+            ✨ नया अपडेट उपलब्ध है! (New Update Available)
+          </div>
+          <button id="toast-update-btn">अपडेट करें</button>
+        `;
+        
+        toast.querySelector('#toast-update-btn').addEventListener('click', () => {
+          worker.postMessage({ type: 'SKIP_WAITING' });
+        });
+
+        document.getElementById('toast-container').appendChild(toast);
+      };
+
+      window.showTemporaryToast = function(message) {
+        const existing = document.querySelector('.temp-toast');
+        if (existing) existing.remove();
+
+        const toast = document.createElement('div');
+        toast.className = 'update-toast temp-toast';
+        toast.style.background = 'linear-gradient(135deg, rgba(15, 23, 42, 0.9), rgba(30, 41, 59, 0.9))';
+        toast.innerHTML = `<div style="flex: 1; font-size: 0.95rem; font-family: inherit;">${message}</div>`;
+        document.getElementById('toast-container').appendChild(toast);
+        setTimeout(() => {
+          toast.style.opacity = '0';
+          toast.style.transition = 'opacity 0.5s ease';
+          setTimeout(() => toast.remove(), 500);
+        }, 3000);
+      };
+
+      window.checkForUpdates = function() {
+        if ('serviceWorker' in navigator) {
+          window.showTemporaryToast('अपडेट की जांच की जा रही है... 🔄');
+          navigator.serviceWorker.getRegistration().then(reg => {
+            if (reg) {
+              reg.update().then(() => {
+                if (reg.waiting) {
+                  window.showUpdateToast(reg.waiting);
+                } else if (reg.installing) {
+                  reg.installing.addEventListener('statechange', (e) => {
+                    if (e.target.state === 'installed') {
+                      window.showUpdateToast(e.target);
+                    }
+                  });
+                } else {
+                  window.showTemporaryToast('EnglishVidya पहले से ही अप-टू-डेट है! 🚀');
                 }
+              }).catch(err => {
+                console.error('[SW] Update check error:', err);
+                window.showTemporaryToast('अपडेट चेक करने में विफलता आई।');
               });
-            });
-          })
-          .catch(function (err) {
-            console.warn('[SW] Registration failed:', err);
+            } else {
+              window.showTemporaryToast('कोई Service Worker सक्रिय नहीं है।');
+            }
           });
-      });
-    }
+        } else {
+          window.showTemporaryToast('यह ब्राउज़र PWA का समर्थन नहीं करता है।');
+        }
+      };
+
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function () {
+          navigator.serviceWorker.register('/service-worker.js')
+            .then(function (reg) {
+              console.log('[SW] Registered:', reg.scope);
+
+              // Check if waiting
+              if (reg.waiting) {
+                window.showUpdateToast(reg.waiting);
+              }
+
+              // Check if updating
+              reg.addEventListener('updatefound', () => {
+                const newWorker = reg.installing;
+                newWorker.addEventListener('statechange', () => {
+                  if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
+                    window.showUpdateToast(newWorker);
+                  }
+                });
+              });
+            })
+            .catch(function (err) {
+              console.warn('[SW] Registration failed:', err);
+            });
+        });
+      }
+    })();
   </script>
 
   {# ── Text Scaling Widget & Teacher Mode ── #}

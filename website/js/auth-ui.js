@@ -81,9 +81,14 @@ function updateHeaderForLoggedIn() {
   }
   
   if (logoutBtn) {
-    logoutBtn.onclick = () => {
-      document.cookie = 'ev_token=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;';
-      window.location.reload();
+    logoutBtn.onclick = (e) => {
+      if (e) e.preventDefault();
+      if (window.handleLogoutWithProtection) {
+        window.handleLogoutWithProtection();
+      } else {
+        document.cookie = 'ev_token=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;';
+        window.location.reload();
+      }
     };
   }
 
