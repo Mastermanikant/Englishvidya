@@ -444,8 +444,7 @@
   };
 
   function executeLogout() {
-    document.cookie = 'ev_token=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;';
-    window.location.reload();
+    window.location.href = '/api/auth-logout';
   }
 
   // 6. DOM Initialization
