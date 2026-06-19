@@ -93,7 +93,8 @@
     (function() {
       var s = localStorage.getItem('ev-text-scale');
       if (s) {
-        document.body.style.fontSize = (17 * parseFloat(s)) + 'px';
+        var baseSize = window.innerWidth >= 1024 ? 18.5 : 17;
+        document.body.style.fontSize = (baseSize * parseFloat(s)) + 'px';
       }
     })();
   </script>
@@ -465,7 +466,8 @@
       function setScale(scale) {
         currentScale = Math.max(0.5, Math.min(2.0, scale));
         document.documentElement.style.fontSize = (currentScale * 100) + '%';
-        document.body.style.fontSize = (17 * currentScale) + 'px';
+        const baseSize = window.innerWidth >= 1024 ? 18.5 : 17;
+        document.body.style.fontSize = (baseSize * currentScale) + 'px';
         localStorage.setItem('ev-text-scale', currentScale);
         const valEl = document.getElementById('text-scaler-value');
         if (valEl) valEl.textContent = Math.round(currentScale * 100) + '%';
