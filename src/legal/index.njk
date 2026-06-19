@@ -1,7 +1,7 @@
 ---
 layout: layouts/base.njk
 title: "Privacy Policy & Terms — English Vidya"
-description: "English Vidya Privacy Policy, Disclaimer & Terms of Service (English & Hindi)."
+description: "English Vidya Privacy Policy, Disclaimer & Terms of Service."
 permalink: /legal/
 bodyClass: page-legal
 ---
@@ -30,6 +30,44 @@ bodyClass: page-legal
     font-size: 1.1rem;
     max-width: 600px;
     margin: 0 auto;
+  }
+
+  /* Language Toggle */
+  .lang-controls {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+
+  .lang-toggle {
+    display: flex;
+    background: var(--bg-raised);
+    border-radius: var(--radius-md);
+    padding: 4px;
+    border: 1px solid var(--border);
+    box-shadow: var(--shadow-sm);
+  }
+
+  .lang-btn {
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    text-decoration: none;
+    transition: all 0.2s;
+  }
+
+  .lang-btn.active {
+    background: var(--bg-card);
+    color: var(--accent);
+    box-shadow: var(--shadow-sm);
+    cursor: default;
+  }
+
+  .lang-btn:not(.active):hover {
+    color: var(--text-primary);
   }
 
   /* Custom Tabs UI */
@@ -120,7 +158,7 @@ bodyClass: page-legal
   .rule-list li {
     position: relative;
     padding-left: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 16px;
     color: var(--text-secondary);
     line-height: 1.6;
   }
@@ -148,17 +186,6 @@ bodyClass: page-legal
     border-radius: 0 var(--radius-md) var(--radius-md) 0;
     margin: 20px 0;
   }
-  
-  .lang-en {
-    display: block;
-    margin-bottom: 6px;
-  }
-  
-  .lang-hi {
-    display: block;
-    color: var(--text-tertiary);
-    font-size: 0.95em;
-  }
 
   @keyframes fadeIn {
     from { opacity: 0; transform: translateY(10px); }
@@ -168,11 +195,16 @@ bodyClass: page-legal
 
 <div class="legal-container">
   
+  <div class="lang-controls">
+    <div class="lang-toggle">
+      <a href="/legal/" class="lang-btn active">English</a>
+      <a href="/legal-hindi/" class="lang-btn">हिंदी</a>
+    </div>
+  </div>
+
   <div class="legal-hero">
     <h1>Legal & Policies</h1>
-    <p>Welcome to English Vidya! We have explained our policies and rules in very simple language below.<br>
-       <span style="font-size: 0.9em; color: var(--text-tertiary);">English Vidya पर आपका स्वागत है! हमने अपनी प्राइवेसी पॉलिसी और नियमों को बिल्कुल साफ़ और आसान भाषा में नीचे समझाया है।</span>
-    </p>
+    <p>Welcome to English Vidya! We have explained our privacy policy and rules in simple language below.</p>
   </div>
 
   <div class="custom-tabs">
@@ -185,67 +217,37 @@ bodyClass: page-legal
   <div id="pane-privacy" class="legal-content-pane active">
     
     <div class="highlight-box">
-      <h3 style="margin-top:0; color: var(--accent);">We Respect Your Privacy! <br><span style="font-size: 0.8em; color: var(--text-tertiary);">हम आपकी Privacy का सम्मान करते हैं!</span></h3>
-      <p style="margin:0; color: var(--text-secondary);">
-        <span class="lang-en">Your personal data (like email or personal diary) is completely safe. We do not sell it to any 3rd-party company.</span>
-        <span class="lang-hi">आपका पर्सनल डेटा (जैसे ईमेल या पर्सनल डायरी) पूरी तरह से सुरक्षित है। हम इसे किसी भी 3rd-party कंपनी को नहीं बेचते।</span>
-      </p>
+      <h3 style="margin-top:0; color: var(--accent);">We Respect Your Privacy!</h3>
+      <p style="margin:0; color: var(--text-secondary);">Your personal data (like email or personal diary) is completely safe. We do not sell it to any 3rd-party company.</p>
     </div>
 
     <div class="rule-card">
       <div class="rule-icon">👤</div>
-      <h3 class="rule-title">What data do we collect? <br><span style="font-size: 0.7em; color: var(--text-tertiary);">हम क्या डेटा लेते हैं?</span></h3>
+      <h3 class="rule-title">What data do we collect?</h3>
       <ul class="rule-list">
-        <li>
-          <span class="lang-en"><strong>Google Account Data:</strong> When you login with Google, we only take your Name, Email ID, and Profile Photo to create your account.</span>
-          <span class="lang-hi"><strong>Google Account Data:</strong> जब आप Google से लॉगिन करते हैं, तो हम सिर्फ़ आपका Name, Email ID और Profile Photo लेते हैं ताकि आपका अकाउंट बन सके।</span>
-        </li>
-        <li>
-          <span class="lang-en"><strong>Public Data:</strong> The comments you make on the website, or the questions you ask in the forum, are public and everyone can see them.</span>
-          <span class="lang-hi"><strong>Public Data (पब्लिक डेटा):</strong> जो कमेंट्स आप वेबसाइट पर करते हैं, या फोरम में जो सवाल पूछते हैं, वह पब्लिक होता है और सब देख सकते हैं।</span>
-        </li>
-        <li>
-          <span class="lang-en"><strong>Private Data:</strong> Your "Personal Notes" (diary) and "Bookmarks" are completely private. No other user can see them.</span>
-          <span class="lang-hi"><strong>Private Data (प्राइवेट डेटा):</strong> आपकी "Personal Notes" (डायरी) और "Bookmarks" पूरी तरह से प्राइवेट हैं। इसे कोई दूसरा यूज़र नहीं देख सकता।</span>
-        </li>
+        <li><strong>Google Account Data:</strong> When you login with Google, we only take your Name, Email ID, and Profile Photo to create your account.</li>
+        <li><strong>Public Data:</strong> The comments you make on the website, or the questions you ask in the forum, are public and everyone can see them.</li>
+        <li><strong>Private Data:</strong> Your "Personal Notes" (diary) and "Bookmarks" are completely private. No other user can see them.</li>
       </ul>
     </div>
 
     <div class="rule-card">
       <div class="rule-icon">🛡️</div>
-      <h3 class="rule-title">What permissions do Admins have? <br><span style="font-size: 0.7em; color: var(--text-tertiary);">Admin के पास क्या परमिशन है?</span></h3>
+      <h3 class="rule-title">What permissions do Admins have?</h3>
       <ul class="rule-list">
-        <li>
-          <span class="lang-en">Our Admins can only see your public data (your comments, forum posts, and name).</span>
-          <span class="lang-hi">हमारे एडमिन सिर्फ़ आपका पब्लिक डेटा (आपके कमेंट्स, फोरम पोस्ट और नाम) देख सकते हैं।</span>
-        </li>
-        <li>
-          <span class="lang-en"><strong>No Admin or website owner can read your Personal Notes or Bookmarks.</strong> They are fully secure in the system.</span>
-          <span class="lang-hi"><strong>कोई भी एडमिन या वेबसाइट का मालिक आपकी Personal Notes या Bookmarks नहीं पढ़ सकता।</strong> वह सिस्टम में पूरी तरह सुरक्षित है।</span>
-        </li>
-        <li>
-          <span class="lang-en">Admins only work to protect the website from spam.</span>
-          <span class="lang-hi">एडमिन सिर्फ़ वेबसाइट को स्पैम से बचाने के लिए काम करते हैं।</span>
-        </li>
+        <li>Our Admins can only see your public data (your comments, forum posts, and name).</li>
+        <li><strong>No Admin or website owner can read your Personal Notes or Bookmarks.</strong> They are fully secure in the system.</li>
+        <li>Admins only work to protect the website from spam and maintain a healthy environment.</li>
       </ul>
     </div>
 
     <div class="rule-card">
       <div class="rule-icon">🗑️</div>
-      <h3 class="rule-title">Account Deletion <br><span style="font-size: 0.7em; color: var(--text-tertiary);">अकाउंट डिलीट करना</span></h3>
+      <h3 class="rule-title">Account Deletion</h3>
       <ul class="rule-list">
-        <li>
-          <span class="lang-en">You can submit an account deletion request anytime by visiting Settings.</span>
-          <span class="lang-hi">आप Settings में जाकर कभी भी अपना अकाउंट डिलीट करने की रिक्वेस्ट डाल सकते हैं।</span>
-        </li>
-        <li>
-          <span class="lang-en">Upon deletion, your name, email, and photo will be completely erased from the system within <strong>30 days</strong>.</span>
-          <span class="lang-hi">डिलीट करने पर, <strong>30 दिन के अंदर</strong> आपका नाम, ईमेल और फोटो सिस्टम से पूरी तरह मिटा दिया जाएगा।</span>
-        </li>
-        <li>
-          <span class="lang-en">Comments made by you will remain on the website (to help others), but your name will be removed from them (they will become Anonymous).</span>
-          <span class="lang-hi">आपके द्वारा किए गए कमेंट्स वेबसाइट पर रहेंगे (ताकि दूसरों की मदद हो सके), लेकिन वहां से आपका नाम हट जाएगा (Anonymous बन जाएगा)।</span>
-        </li>
+        <li>You can submit an account deletion request anytime by visiting Settings.</li>
+        <li>Upon deletion, your name, email, and photo will be completely erased from the system within <strong>30 days</strong>.</li>
+        <li>Comments made by you will remain on the website (to help others), but your name will be removed from them (they will become Anonymous).</li>
       </ul>
     </div>
 
@@ -255,59 +257,35 @@ bodyClass: page-legal
   <div id="pane-terms" class="legal-content-pane">
     
     <div class="highlight-box" style="border-left-color: #ff4757; background: rgba(255, 71, 87, 0.05);">
-      <h3 style="margin-top:0; color: #ff4757;">Community Rules <br><span style="font-size: 0.8em; color: var(--text-tertiary);">कम्युनिटी के नियम</span></h3>
-      <p style="margin:0; color: var(--text-secondary);">
-        <span class="lang-en">English Vidya is an educational platform. To keep it clean, some strict rules have been made.</span>
-        <span class="lang-hi">English Vidya एक एजुकेशनल प्लेटफार्म है। इसे साफ-सुथरा रखने के लिए कुछ सख्त नियम बनाए गए हैं।</span>
-      </p>
+      <h3 style="margin-top:0; color: #ff4757;">Community Rules</h3>
+      <p style="margin:0; color: var(--text-secondary);">English Vidya is an educational platform. To keep it clean and focused, some strict rules have been made.</p>
     </div>
 
     <div class="rule-card">
       <div class="rule-icon" style="background: rgba(255,71,87,0.1);">🚫</div>
-      <h3 class="rule-title" style="color: #ff4757;">Strictly Prohibited <br><span style="font-size: 0.7em; color: var(--text-tertiary);">सख्त वर्जित</span></h3>
+      <h3 class="rule-title" style="color: #ff4757;">Strictly Prohibited</h3>
       <ul class="rule-list danger">
-        <li>
-          <span class="lang-en"><strong>Abuse:</strong> Use of any kind of abusive language or swearing.</span>
-          <span class="lang-hi"><strong>गाली-गलौज:</strong> किसी भी तरह के अपशब्द या गाली का इस्तेमाल करना।</span>
-        </li>
-        <li>
-          <span class="lang-en"><strong>Religion & Politics:</strong> Commenting or making forum posts about any religion, god, politician, or political party (like BJP, Congress, etc.).</span>
-          <span class="lang-hi"><strong>धर्म और राजनीति:</strong> किसी भी धर्म, भगवान, नेता या राजनीतिक पार्टी (जैसे BJP, Congress आदि) के बारे में कमेंट या फोरम पोस्ट करना।</span>
-        </li>
-        <li>
-          <span class="lang-en"><strong>Spam:</strong> Sending meaningless messages or promoting another product.</span>
-          <span class="lang-hi"><strong>स्पैम (Spam):</strong> बिना मतलब के मैसेज करना या किसी दूसरे प्रोडक्ट का प्रचार करना।</span>
-        </li>
+        <li><strong>Abuse:</strong> Use of any kind of abusive language, swearing, or disrespectful remarks.</li>
+        <li><strong>Religion & Politics:</strong> Commenting or making forum posts about any religion, god, politician, or political party (like BJP, Congress, etc.).</li>
+        <li><strong>Spam:</strong> Sending meaningless messages, self-promotion, or advertising another product.</li>
       </ul>
     </div>
 
     <div class="rule-card">
       <div class="rule-icon">❤️</div>
-      <h3 class="rule-title">Respect & Love <br><span style="font-size: 0.7em; color: var(--text-tertiary);">सम्मान और प्रेम</span></h3>
+      <h3 class="rule-title">Respect & Love</h3>
       <ul class="rule-list heart">
-        <li>
-          <span class="lang-en">Live with love, respect each other, and use this platform <strong>ONLY</strong> for the purpose of learning English.</span>
-          <span class="lang-hi">प्रेम से रहें, एक-दूसरे की रेस्पेक्ट करें, और इस प्लेटफ़ॉर्म का यूज़ <strong>केवल इंग्लिश सीखने के उद्देश्य से करें</strong>।</span>
-        </li>
-        <li>
-          <span class="lang-en">If a user repeatedly violates the rules, their account features may be restricted to maintain a healthy learning environment.</span>
-          <span class="lang-hi">लगातार नियम तोड़ने पर यूज़र के अकाउंट के फ़ीचर्स बंद किए जा सकते हैं, ताकि पढ़ाई का माहौल खराब न हो।</span>
-        </li>
+        <li>Live with love, respect each other, and use this platform <strong>ONLY</strong> for the purpose of learning English.</li>
+        <li>If a user repeatedly violates the rules, their account features may be restricted to maintain a healthy learning environment.</li>
       </ul>
     </div>
 
     <div class="rule-card">
       <div class="rule-icon">🔗</div>
-      <h3 class="rule-title">Reference Links <br><span style="font-size: 0.7em; color: var(--text-tertiary);">लिंक्स शेयर करना</span></h3>
+      <h3 class="rule-title">Reference Links</h3>
       <ul class="rule-list">
-        <li>
-          <span class="lang-en">If you provide a link to another website in the comments, it will not go live immediately.</span>
-          <span class="lang-hi">अगर आप कमेंट्स में किसी और वेबसाइट का लिंक देते हैं, तो वह तुरंत लाइव नहीं होगा।</span>
-        </li>
-        <li>
-          <span class="lang-en">The link first goes into "Pending" mode. It will only be visible to others when our <strong>Admins check and approve it</strong>.</span>
-          <span class="lang-hi">लिंक पहले "Pending" मोड में जाता है। जब हमारे <strong>Admin उसे चेक करके Approve करेंगे</strong>, तभी वह लिंक दूसरों को दिखेगा।</span>
-        </li>
+        <li>If you provide a link to another website in the comments or forum, it will not go live immediately.</li>
+        <li>The link first goes into "Pending" mode. It will only be visible to others when our <strong>Admins check and approve it</strong>.</li>
       </ul>
     </div>
 
@@ -318,31 +296,19 @@ bodyClass: page-legal
     
     <div class="rule-card">
       <div class="rule-icon">📚</div>
-      <h3 class="rule-title">1. Educational Purpose Only <br><span style="font-size: 0.7em; color: var(--text-tertiary);">केवल शैक्षिक उद्देश्य</span></h3>
+      <h3 class="rule-title">1. Educational Purpose Only</h3>
       <ul class="rule-list">
-        <li>
-          <span class="lang-en">All study material, dictionaries, and lessons available on English Vidya are for educational purposes only.</span>
-          <span class="lang-hi">English Vidya पर उपलब्ध सभी अध्ययन सामग्री, शब्दकोश, और पाठ केवल शैक्षिक उद्देश्यों के लिए हैं।</span>
-        </li>
-        <li>
-          <span class="lang-en">We do not give any legal guarantee of 100% success in any type of examination.</span>
-          <span class="lang-hi">हम किसी भी प्रकार की परीक्षा में 100% सफलता की कोई कानूनी गारंटी नहीं देते हैं।</span>
-        </li>
+        <li>All study material, dictionaries, and lessons available on English Vidya are for educational purposes only.</li>
+        <li>We do not give any legal guarantee of 100% success in any type of examination or job interview.</li>
       </ul>
     </div>
 
     <div class="rule-card">
       <div class="rule-icon">✏️</div>
-      <h3 class="rule-title">2. Accuracy & Errors <br><span style="font-size: 0.7em; color: var(--text-tertiary);">सटीकता और त्रुटियां</span></h3>
+      <h3 class="rule-title">2. Accuracy & Errors</h3>
       <ul class="rule-list">
-        <li>
-          <span class="lang-en">We have taken full care in compiling the 19,000+ words, yet human errors (Typing Mistakes) may occur.</span>
-          <span class="lang-hi">हमने 19,000+ शब्दों के संकलन में पूरी सावधानी बरती है, फिर भी मानवीय त्रुटियां (Typing Mistakes) हो सकती हैं।</span>
-        </li>
-        <li>
-          <span class="lang-en">Students are requested to cross-check facts once before important exams.</span>
-          <span class="lang-hi">छात्रों से अनुरोध है कि महत्वपूर्ण परीक्षा से पहले तथ्यों को एक बार क्रॉस-चेक कर लें।</span>
-        </li>
+        <li>We have taken full care in compiling the 19,000+ words and grammar rules, yet human errors (Typing Mistakes) may occur.</li>
+        <li>Students are requested to cross-check facts once before important exams.</li>
       </ul>
     </div>
 
@@ -361,11 +327,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
   btns.forEach(btn => {
     btn.addEventListener('click', () => {
-      // Remove active from all
       btns.forEach(b => b.classList.remove('active'));
       panes.forEach(p => p.classList.remove('active'));
 
-      // Add active to clicked
       btn.classList.add('active');
       const targetId = 'pane-' + btn.getAttribute('data-target');
       document.getElementById(targetId).classList.add('active');
