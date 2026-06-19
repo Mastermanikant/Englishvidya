@@ -1,0 +1,321 @@
+---
+layout: layouts/base.njk
+title: Settings & Profile
+description: Update your EnglishVidya profile, social links, and account settings.
+permalink: /settings/
+---
+
+<style>
+  .settings-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+  }
+  .settings-card {
+    background: var(--bg-raised);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-lg);
+    padding: 24px;
+    margin-bottom: 24px;
+  }
+  .settings-header {
+    margin-bottom: 20px;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 10px;
+  }
+  .settings-header h2 {
+    font-size: 1.5rem;
+    margin: 0;
+    color: var(--text-primary);
+  }
+  .form-group {
+    margin-bottom: 16px;
+  }
+  .form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: var(--text-primary);
+  }
+  .form-group input {
+    width: 100%;
+    padding: 10px 12px;
+    background: var(--bg-body);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    color: var(--text-primary);
+    font-family: inherit;
+  }
+  .form-group input:focus {
+    outline: none;
+    border-color: var(--accent);
+    box-shadow: 0 0 0 2px var(--accent-soft);
+  }
+  .btn-primary {
+    background: var(--accent);
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  .btn-primary:hover {
+    background: var(--accent-dark, #3b82f6);
+  }
+  .btn-danger {
+    background: var(--error);
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+  @media (max-width: 600px) {
+    .grid-2 { grid-template-columns: 1fr; }
+  }
+  .alert-msg {
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    display: none;
+  }
+  .alert-success {
+    background: rgba(37, 211, 102, 0.1);
+    color: #25D366;
+    border: 1px solid #25D366;
+  }
+  .alert-error {
+    background: rgba(255, 76, 76, 0.1);
+    color: var(--error);
+    border: 1px solid var(--error);
+  }
+  .delete-warning {
+    background: rgba(255, 165, 0, 0.1);
+    border: 1px solid orange;
+    color: orange;
+    padding: 16px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+  }
+</style>
+
+<div class="settings-container">
+  <h1 style="margin-bottom: 24px;">⚙️ Account Settings</h1>
+
+  <!-- Profile Settings -->
+  <div class="settings-card">
+    <div class="settings-header">
+      <h2>Profile Information</h2>
+    </div>
+    <div id="profile-alert" class="alert-msg"></div>
+    <form id="profile-form">
+      <div class="grid-2">
+        <div class="form-group">
+          <label>Name</label>
+          <input type="text" id="input-name" required>
+        </div>
+        <div class="form-group">
+          <label>Username</label>
+          <input type="text" id="input-username" placeholder="e.g. rohan_123">
+        </div>
+      </div>
+      
+      <div class="settings-header" style="margin-top: 32px;">
+        <h2>Social Links</h2>
+        <p style="font-size: 0.9rem; color: var(--text-secondary); margin-top: 4px;">Share your social profiles (optional)</p>
+      </div>
+      <div class="grid-2">
+        <div class="form-group">
+          <label>Facebook URL</label>
+          <input type="url" id="input-facebook" placeholder="https://facebook.com/...">
+        </div>
+        <div class="form-group">
+          <label>YouTube URL</label>
+          <input type="url" id="input-youtube" placeholder="https://youtube.com/...">
+        </div>
+        <div class="form-group">
+          <label>Instagram URL</label>
+          <input type="url" id="input-instagram" placeholder="https://instagram.com/...">
+        </div>
+        <div class="form-group">
+          <label>X (Twitter) URL</label>
+          <input type="url" id="input-twitter" placeholder="https://x.com/...">
+        </div>
+        <div class="form-group">
+          <label>LinkedIn URL</label>
+          <input type="url" id="input-linkedin" placeholder="https://linkedin.com/in/...">
+        </div>
+        <div class="form-group">
+          <label>Pinterest URL</label>
+          <input type="url" id="input-pinterest" placeholder="https://pinterest.com/...">
+        </div>
+        <div class="form-group">
+          <label>Custom Website 1</label>
+          <input type="url" id="input-website1" placeholder="https://yourwebsite.com">
+        </div>
+        <div class="form-group">
+          <label>Custom Website 2</label>
+          <input type="url" id="input-website2" placeholder="https://blog.com">
+        </div>
+      </div>
+
+      <button type="submit" class="btn-primary" id="save-profile-btn" style="margin-top: 16px;">Save Changes</button>
+    </form>
+  </div>
+
+  <!-- Account Deletion -->
+  <div class="settings-card" style="border-color: rgba(255,0,0,0.3);">
+    <div class="settings-header">
+      <h2 style="color: var(--error);">Delete Account</h2>
+    </div>
+    
+    <div id="delete-status-container">
+      <p style="color: var(--text-secondary); margin-bottom: 16px;">
+        If you no longer want to use EnglishVidya, you can request to delete your account. 
+        <strong>Note:</strong> Your contributed words and votes will remain to help the community, but your personal information (Name, Email, Photo) will be completely removed (anonymized) within 30 days.
+      </p>
+      <button id="request-delete-btn" class="btn-danger">Request Account Deletion</button>
+    </div>
+
+    <div id="delete-pending-container" style="display: none;">
+      <div class="delete-warning">
+        <strong>⚠️ Deletion Requested</strong><br>
+        Your account is scheduled for deletion within 30 days. You can cancel this request if you change your mind.
+      </div>
+      <button id="cancel-delete-btn" class="btn-primary" style="background: var(--text-primary); color: var(--bg-body);">Cancel Deletion Request</button>
+    </div>
+  </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', async () => {
+  // Fetch user data
+  try {
+    const res = await fetch('/api/auth-me');
+    const data = await res.json();
+    if (!data.loggedIn) {
+      window.location.href = '/login/?redirect=/settings/';
+      return;
+    }
+
+    const u = data.user;
+    document.getElementById('input-name').value = u.name || '';
+    document.getElementById('input-username').value = u.username || '';
+    
+    document.getElementById('input-facebook').value = u.social_facebook || '';
+    document.getElementById('input-youtube').value = u.social_youtube || '';
+    document.getElementById('input-instagram').value = u.social_instagram || '';
+    document.getElementById('input-twitter').value = u.social_twitter || '';
+    document.getElementById('input-linkedin').value = u.social_linkedin || '';
+    document.getElementById('input-pinterest').value = u.social_pinterest || '';
+    document.getElementById('input-website1').value = u.social_website1 || '';
+    document.getElementById('input-website2').value = u.social_website2 || '';
+
+    if (u.delete_requested_at) {
+      document.getElementById('delete-status-container').style.display = 'none';
+      document.getElementById('delete-pending-container').style.display = 'block';
+    }
+
+  } catch (e) {
+    console.error('Failed to load user', e);
+  }
+
+  // Handle Profile Update
+  document.getElementById('profile-form').addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const btn = document.getElementById('save-profile-btn');
+    const alertBox = document.getElementById('profile-alert');
+    btn.disabled = true;
+    btn.textContent = 'Saving...';
+    
+    const payload = {
+      name: document.getElementById('input-name').value,
+      username: document.getElementById('input-username').value,
+      social_facebook: document.getElementById('input-facebook').value,
+      social_youtube: document.getElementById('input-youtube').value,
+      social_instagram: document.getElementById('input-instagram').value,
+      social_twitter: document.getElementById('input-twitter').value,
+      social_linkedin: document.getElementById('input-linkedin').value,
+      social_pinterest: document.getElementById('input-pinterest').value,
+      social_website1: document.getElementById('input-website1').value,
+      social_website2: document.getElementById('input-website2').value,
+    };
+
+    try {
+      const res = await fetch('/api/user-update', {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload)
+      });
+      
+      const data = await res.json();
+      alertBox.style.display = 'block';
+      if (res.ok) {
+        alertBox.className = 'alert-msg alert-success';
+        alertBox.textContent = data.message || 'Profile saved successfully!';
+        setTimeout(() => alertBox.style.display='none', 3000);
+      } else {
+        alertBox.className = 'alert-msg alert-error';
+        alertBox.textContent = data.message || await res.text();
+      }
+    } catch (e) {
+      alertBox.style.display = 'block';
+      alertBox.className = 'alert-msg alert-error';
+      alertBox.textContent = 'Network error. Please try again.';
+    } finally {
+      btn.disabled = false;
+      btn.textContent = 'Save Changes';
+    }
+  });
+
+  // Handle Deletion Request
+  document.getElementById('request-delete-btn').addEventListener('click', async () => {
+    if (!confirm('Are you sure you want to request account deletion?')) return;
+    
+    try {
+      const res = await fetch('/api/user-update', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ action: 'request_delete' })
+      });
+      if (res.ok) {
+        document.getElementById('delete-status-container').style.display = 'none';
+        document.getElementById('delete-pending-container').style.display = 'block';
+      } else {
+        alert(await res.text());
+      }
+    } catch (e) {
+      alert('Error requesting deletion');
+    }
+  });
+
+  // Handle Cancel Deletion
+  document.getElementById('cancel-delete-btn').addEventListener('click', async () => {
+    try {
+      const res = await fetch('/api/user-update', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ action: 'cancel_delete' })
+      });
+      if (res.ok) {
+        document.getElementById('delete-status-container').style.display = 'block';
+        document.getElementById('delete-pending-container').style.display = 'none';
+      } else {
+        alert(await res.text());
+      }
+    } catch (e) {
+      alert('Error cancelling deletion');
+    }
+  });
+});
+</script>

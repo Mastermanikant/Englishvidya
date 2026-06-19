@@ -41,6 +41,15 @@ export async function onRequestGet(context) {
       
       return Response.json(combined);
     } 
+    else if (type === 'deletion_requests') {
+      const results = await env.DB.prepare(
+        `SELECT id, email, name, delete_requested_at 
+         FROM users 
+         WHERE delete_requested_at IS NOT NULL 
+         ORDER BY delete_requested_at DESC`
+      ).all();
+      return Response.json(results.results);
+    }
     
     return new Response('Invalid type', { status: 400 });
   } catch (err) {

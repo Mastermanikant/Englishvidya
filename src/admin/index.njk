@@ -12,9 +12,10 @@ permalink: /admin/
   </div>
 
   <div id="admin-content" style="display: none;">
-    <div class="tabs" style="display: flex; gap: 10px; margin-bottom: 20px; border-bottom: 1px solid var(--border-color); padding-bottom: 10px;">
+    <div class="tabs" style="display: flex; gap: 10px; margin-bottom: 20px; border-bottom: 1px solid var(--border-color); padding-bottom: 10px; flex-wrap: wrap;">
       <button class="btn-primary" onclick="loadPendingUGC()" style="padding: 8px 16px; border-radius: var(--radius-sm); cursor: pointer;">Pending Meanings</button>
       <button class="btn-secondary" onclick="loadSoftDeleted()" style="padding: 8px 16px; border-radius: var(--radius-sm); cursor: pointer; background: var(--bg-raised); color: var(--text-main); border: 1px solid var(--border-color);">Revert Bin (Owner Only)</button>
+      <button class="btn-secondary" onclick="loadDeletionRequests()" style="padding: 8px 16px; border-radius: var(--radius-sm); cursor: pointer; background: rgba(255,0,0,0.1); color: var(--error); border: 1px solid var(--error);">Account Deletion Requests</button>
     </div>
 
     <div id="admin-list" style="display: flex; flex-direction: column; gap: 15px;">
@@ -92,6 +93,33 @@ async function loadSoftDeleted() {
     `).join('');
   } catch(e) {
     list.innerHTML = '<p style="color: #EA4335;">Failed to load data. You must be an Owner to view this.</p>';
+  }
+}
+
+async function loadDeletionRequests() {
+  const list = document.getElementById('admin-list');
+  list.innerHTML = '<p>Loading deletion requests...</p>';
+  try {
+    const res = await fetch('/api/admin-data?type=deletion_requests');
+    if (!res.ok) throw new Error('Unauthorized');
+    const data = await res.json();
+    
+    if (data.length === 0) {
+      list.innerHTML = '<p style="color: var(--text-secondary);">No pending account deletion requests.</p>';
+      return;
+    }
+
+    list.innerHTML = data.map(item => `
+      <div style="background: var(--bg-raised); padding: 20px; border-radius: var(--radius-lg); border: 1px solid var(--error);">
+        <p><strong>Name:</strong> ${item.name} (${item.email})</p>
+        <p><strong>Requested At:</strong> <span style="color: var(--error); font-weight: bold;">${new Date(item.delete_requested_at).toLocaleDateString()}</span></p>
+        <div style="margin-top: 15px; display: flex; gap: 10px;">
+          <button onclick="adminAction('user', ${item.id}, 'approve_delete')" style="background: var(--error); color: white; padding: 6px 12px; border: none; border-radius: var(--radius-sm); cursor: pointer;">Approve Deletion (Anonymize)</button>
+        </div>
+      </div>
+    `).join('');
+  } catch(e) {
+    list.innerHTML = '<p style="color: #EA4335;">Failed to load data. You must be an Admin to view this.</p>';
   }
 }
 
