@@ -1,0 +1,45 @@
+---
+layout: layouts/base.njk
+pageTitle: "English Idioms and Phrases with Hindi Meaning — English Vidya"
+metaDescription: "Learn common English idioms and phrases with their Hindi meanings and example sentences to speak English fluently."
+permalink: /idioms/
+---
+
+{# Breadcrumb #}
+<nav class="breadcrumb" aria-label="Breadcrumb">
+  <a href="/">Home</a>
+  <span class="breadcrumb-sep" aria-hidden="true">›</span>
+  <span aria-current="page">Idioms & Phrases</span>
+</nav>
+
+<div class="hero-welcome animate-fade-in" style="padding-bottom: var(--sp-4);">
+  <h1 style="font-size: 1.8rem;">🎭 Idioms & Phrases</h1>
+  <p class="hero-subtitle">अंग्रेज़ी मुहावरे और उनके सही हिंदी अर्थ, उदाहरणों के साथ।</p>
+</div>
+
+<div class="animate-fade-in" style="margin-top: var(--sp-4); display: flex; flex-direction: column; gap: var(--sp-4);">
+  {% for item in idioms %}
+    <div class="card" style="border-left: 4px solid var(--warning); padding: var(--sp-5);">
+      <h2 style="font-size: 1.5rem; color: var(--text-main); margin-bottom: 8px;">
+        "{{ item.idiom }}"
+      </h2>
+      
+      <div style="margin-bottom: 16px;">
+        <div style="font-size: 1.1rem; color: var(--text-secondary); font-weight: 500;">
+          <span style="display:inline-block; padding:2px 6px; background:var(--bg-footer); border-radius:4px; font-size:0.75rem; font-weight:bold; margin-right:6px; text-transform:uppercase;">EN</span> 
+          {{ item.meaningEn }}
+        </div>
+        <div style="font-size: 1.2rem; color: var(--warning); font-weight: 600; margin-top: 4px;">
+          <span style="display:inline-block; padding:2px 6px; background:rgba(217,119,6,0.1); border-radius:4px; font-size:0.75rem; font-weight:bold; margin-right:6px; text-transform:uppercase; color: var(--warning);">HI</span>
+          {{ item.meaningHi }}
+        </div>
+      </div>
+      
+      <div style="background: var(--bg-hover); padding: var(--sp-4); border-radius: var(--radius-md); border-left: 3px solid var(--border);">
+        <h3 style="font-size: 0.9rem; color: var(--text-tertiary); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px; margin-top: 0;">Example / उदाहरण</h3>
+        <p style="margin: 0 0 6px 0; font-size: 1.05rem; font-style: italic; color: var(--text-main);">"{{ item.exampleEn }}"</p>
+        <p style="margin: 0; font-size: 1rem; color: var(--text-secondary);">{{ item.exampleHi }}</p>
+      </div>
+    </div>
+  {% endfor %}
+</div>

@@ -48,6 +48,7 @@ eleventyComputed:
         <h1 style="margin: 0; font-size: 2.2rem; display: flex; align-items: center; gap: 10px; color: var(--text-main);">
           {{ wordEntry.word }}
           <button onclick="speakWord('{{ wordEntry.word | escape }}')" style="background:none; border:none; cursor:pointer; font-size:1.6rem; padding:0; display: inline-flex; align-items: center; justify-content: center;" title="Listen">🔊</button>
+          <button onclick="toggleBookmark('{{ wordEntry.slug }}', '{{ wordEntry.word | escape }}', '{{ wordEntry.meaning | escape }}', '{{ wordEntry.pron | escape }}', '{{ wordEntry.category }}')" id="bookmark-btn-{{ wordEntry.slug }}" class="bookmark-btn" style="background:none; border:none; cursor:pointer; font-size:1.6rem; padding:0; display: inline-flex; align-items: center; justify-content: center; transition: transform 0.2s;" title="Save to Favorites">🤍</button>
         </h1>
         {% if wordEntry.pron %}
           <span style="font-size: 1.3rem; color: var(--text-secondary);">( {{ wordEntry.pron }} )</span>

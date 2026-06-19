@@ -1,0 +1,15 @@
+---
+permalink: /search-index.json
+eleventyExcludeFromCollections: true
+---
+[
+{%- for w in allWords %}
+  {
+    "slug": "{{ w.slug }}",
+    "word": "{{ w.word | escape }}",
+    "meaning": "{{ w.meaning | escape }}",
+    "pron": "{{ w.pron | escape }}",
+    "category": "{{ w.category }}"
+  }{% if not loop.last %},{% endif %}
+{%- endfor %}
+]
