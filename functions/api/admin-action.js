@@ -73,6 +73,27 @@ export async function onRequestPost(context) {
         WHERE id = ?
       `).bind(id).run();
       return Response.json({ success: true, newStatus: 'anonymized' });
+    } else if (type === 'user_trust') {
+      const { trust_score } = body;
+      if (trust_score === undefined) {
+        return new Response('Missing trust_score', { status: 400 });
+      }
+      await env.DB.prepare('UPDATE users SET trust_score = ? WHERE id = ?').bind(trust_score, id).run();
+      return Response.json({ success: true, newStatus: trust_score });
+    } else if (type === 'user_shadow_ban') {
+      const { is_shadow_banned } = body;
+      if (is_shadow_banned === undefined) {
+        return new Response('Missing is_shadow_banned', { status: 400 });
+      }
+      await env.DB.prepare('UPDATE users SET is_shadow_banned = ? WHERE id = ?').bind(is_shadow_banned, id).run();
+      return Response.json({ success: true, newStatus: is_shadow_banned });
+    } else if (type === 'ticket_status') {
+      const { status } = body;
+      if (status === undefined) {
+        return new Response('Missing status', { status: 400 });
+      }
+      await env.DB.prepare('UPDATE support_tickets SET status = ?, updated_at = datetime("now") WHERE id = ?').bind(status, id).run();
+      return Response.json({ success: true, newStatus: status });
     } else {
       return new Response('Invalid type', { status: 400 });
     }

@@ -36,12 +36,48 @@ export async function onRequestGet(context) {
     'SELECT id, email, name, google_id FROM users WHERE google_id = ?'
   ).bind(googleUser.id).first();
 
+  let referrerId = null;
   if (!user) {
-    // Naya user — insert karo
-    const result = await env.DB.prepare(
-      'INSERT INTO users (google_id, email, name, avatar_url) VALUES (?, ?, ?, ?)'
-    ).bind(googleUser.id, googleUser.email, googleUser.name, googleUser.picture || '').run();
-    user = { id: result.meta.last_row_id, email: googleUser.email, name: googleUser.name };
+    // Check for referral cookie
+    const cookie = request.headers.get('Cookie') || '';
+    const referrerIdMatch = cookie.match(/(?:^|;\s*)ev_referrer=([^;]*)/);
+    referrerId = referrerIdMatch ? parseInt(referrerIdMatch[1]) : null;
+
+    let result;
+    if (referrerId) {
+      // Validate referrer ID
+      const refUser = await env.DB.prepare('SELECT id FROM users WHERE id = ?').bind(referrerId).first();
+      if (refUser) {
+        result = await env.DB.prepare(
+          'INSERT INTO users (google_id, email, name, avatar_url, referred_by_id, referral_coins) VALUES (?, ?, ?, ?, ?, 100)'
+        ).bind(googleUser.id, googleUser.email, googleUser.name, googleUser.picture || '', referrerId).run();
+        
+        const newUserId = result.meta.last_row_id || result.insertId;
+
+        // Credit 100 coins (₹1) to Referrer
+        await env.DB.prepare('UPDATE users SET referral_coins = referral_coins + 100 WHERE id = ?').bind(referrerId).run();
+
+        // Log transaction for new user
+        await env.DB.prepare(
+          'INSERT INTO coin_transactions (user_id, amount, type, description) VALUES (?, 100, "signup_bonus", "Joined via referral link")'
+        ).bind(newUserId).run();
+
+        // Log transaction for referrer
+        await env.DB.prepare(
+          'INSERT INTO coin_transactions (user_id, amount, type, description) VALUES (?, 100, "referral_signup", "Referred a friend (User ID: " || ? || ")")'
+        ).bind(referrerId, newUserId).run();
+      } else {
+        referrerId = null; // Reset if invalid
+        result = await env.DB.prepare(
+          'INSERT INTO users (google_id, email, name, avatar_url) VALUES (?, ?, ?, ?)'
+        ).bind(googleUser.id, googleUser.email, googleUser.name, googleUser.picture || '').run();
+      }
+    } else {
+      result = await env.DB.prepare(
+        'INSERT INTO users (google_id, email, name, avatar_url) VALUES (?, ?, ?, ?)'
+      ).bind(googleUser.id, googleUser.email, googleUser.name, googleUser.picture || '').run();
+    }
+    user = { id: result.meta.last_row_id || result.insertId, email: googleUser.email, name: googleUser.name };
   }
 
   // Step 4: JWT Token banao (7 din valid)
@@ -52,12 +88,17 @@ export async function onRequestGet(context) {
   const redirectTo = state ? decodeURIComponent(state) : '/';
 
   // Step 5: Cookie set karke homepage par redirect karo
+  const headers = new Headers();
+  headers.append('Location', redirectTo);
+  headers.append('Set-Cookie', `ev_token=${jwt}; Path=/; HttpOnly; Secure; SameSite=Lax; Max-Age=${7 * 24 * 60 * 60}`);
+  if (referrerId) {
+    // Clear referral cookie
+    headers.append('Set-Cookie', 'ev_referrer=; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT; HttpOnly; SameSite=Lax; Secure');
+  }
+
   return new Response(null, {
     status: 302,
-    headers: {
-      'Location': redirectTo,
-      'Set-Cookie': `ev_token=${jwt}; Path=/; HttpOnly; Secure; SameSite=Lax; Max-Age=${7 * 24 * 60 * 60}`,
-    },
+    headers: headers
   });
 }
 

@@ -1,0 +1,393 @@
+---
+layout: layouts/base.njk
+pageTitle: "Refer & Earn (Coins) - EnglishVidya"
+permalink: /referral/
+---
+
+<style>
+.ref-dashboard {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+}
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 25px;
+}
+@media (min-width: 768px) {
+  .dashboard-grid {
+    grid-template-columns: 350px 1fr;
+  }
+}
+.coin-card {
+  background: linear-gradient(135deg, var(--accent) 0%, #4f46e5 100%);
+  color: white;
+  border-radius: var(--radius-lg);
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 10px 20px rgba(99, 102, 241, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.coin-balance {
+  font-size: 3rem;
+  font-weight: 800;
+  margin: 15px 0 5px 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.ref-card {
+  background: var(--bg-raised);
+  padding: 25px;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border-color);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+}
+.ref-card-title {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 1.25rem;
+  color: var(--text-main);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.progress-container {
+  background: var(--bg-main);
+  border-radius: var(--radius-sm);
+  height: 12px;
+  width: 100%;
+  margin: 15px 0;
+  overflow: hidden;
+  border: 1px solid var(--border-color);
+}
+.progress-bar {
+  background: var(--accent);
+  height: 100%;
+  width: 0%;
+  transition: width 0.5s ease-out;
+}
+.copy-link-container {
+  display: flex;
+  margin: 15px 0;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  background: var(--bg-main);
+}
+.copy-link-input {
+  flex: 1;
+  border: none;
+  background: none;
+  color: var(--text-main);
+  padding: 10px 14px;
+  font-size: 0.95rem;
+  outline: none;
+}
+.copy-link-btn {
+  background: var(--accent);
+  color: white;
+  border: none;
+  padding: 0 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.copy-link-btn:hover {
+  background: #4f46e5;
+}
+.badge-coin {
+  background: rgba(234, 179, 8, 0.2);
+  color: #eab308;
+  padding: 3px 6px;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+.promo-code-box {
+  background: rgba(16, 185, 129, 0.1);
+  border: 1px dashed #10b981;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #10b981;
+  margin-top: 15px;
+}
+</style>
+
+<div class="ref-dashboard">
+  <h1 style="font-family: var(--font-heading); color: var(--accent); margin-bottom: 5px;">Refer & Earn</h1>
+  <p style="color: var(--text-secondary); margin-bottom: 30px;">दोस्तों को आमंत्रित करें, कॉइन्स कमाएं और नोट्स पर छूट पाएं!</p>
+
+  <div id="loading-view" style="text-align: center; padding: 50px 0;">
+    <p style="color: var(--text-secondary);">Loading your referral dashboard...</p>
+  </div>
+
+  <div id="main-view" style="display: none;" class="dashboard-grid">
+    <!-- Left Column (Balance & Redeem) -->
+    <div style="display: flex; flex-direction: column; gap: 25px;">
+      <!-- Coin Card -->
+      <div class="coin-card">
+        <span style="font-weight: 600; text-transform: uppercase; letter-spacing: 1px; font-size: 0.85rem; opacity: 0.9;">Frankbase Coins</span>
+        <div class="coin-balance">
+          🪙 <span id="coin-balance-text">0</span>
+        </div>
+        <span style="font-size: 0.9rem; opacity: 0.9;" id="coin-value-inr">(= ₹0.00)</span>
+      </div>
+
+      <!-- Redeem Card -->
+      <div class="ref-card">
+        <h3 class="ref-card-title">🎁 Redeem Coins (छूट पाएं)</h3>
+        <p style="font-size: 0.9rem; color: var(--text-secondary); line-height: 1.4; margin-bottom: 15px;">
+          100 कॉइन्स = ₹1 की छूट। कॉइन्स को रिडीम करके कूपन कोड प्राप्त करें, जिसे आप <strong>frankbase.com</strong> पर खरीदारी करते समय इस्तेमाल कर सकते हैं।
+        </p>
+        
+        <div style="margin-bottom: 15px;">
+          <label style="display:block; font-weight:600; margin-bottom:5px; font-size:0.9rem;">Coins to Redeem (न्यूनतम 100):</label>
+          <input type="number" id="redeem-amount-input" step="100" min="100" style="width:100%; padding:10px; border-radius:6px; border:1px solid var(--border-color); background:var(--bg-main); color:var(--text-main);" placeholder="e.g., 500, 1000">
+        </div>
+        
+        <button onclick="redeemCoins()" class="btn-primary" style="width: 100%; padding: 12px; border-radius: 6px; font-weight: bold; cursor: pointer; border: none; background: var(--accent); color: white;">Generate Coupon Code</button>
+        
+        <div id="generated-code-container" style="display: none;">
+          <div class="promo-code-box" id="promo-code-text">FB-EV-XXXXXX</div>
+          <p style="font-size: 0.75rem; text-align: center; color: var(--text-secondary); margin-top: 5px;">
+            *इस कोड को कॉपी करके frankbase.com के चेकआउट पेज पर डालें।
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right Column (Referral Details) -->
+    <div style="display: flex; flex-direction: column; gap: 25px;">
+      <!-- Referral Link Card -->
+      <div class="ref-card">
+        <h3 class="ref-card-title">🔗 Your Referral Link (आपका रेफ़रल लिंक)</h3>
+        <p style="font-size: 0.9rem; color: var(--text-secondary); line-height: 1.4;">
+          इस लिंक को कॉपी करके अपने दोस्तों के साथ साझा करें। आपके लिंक से जुड़ने पर आपको और आपके दोस्त दोनों को रिवॉर्ड मिलेगा!
+        </p>
+
+        <div id="referral-link-active" style="display: none;">
+          <div class="copy-link-container">
+            <input type="text" class="copy-link-input" id="ref-link-input" readonly value="https://englishvidya.com/">
+            <button class="copy-link-btn" onclick="copyRefLink()">Copy</button>
+          </div>
+        </div>
+
+        <div id="referral-link-warning" style="background: rgba(239, 68, 68, 0.1); border: 1px solid rgba(239, 68, 68, 0.2); padding: 15px; border-radius: 8px; margin-top: 15px; display: none;">
+          <p style="margin: 0; color: #ef4444; font-size: 0.9rem;">
+            ⚠️ <strong>रेफ़रल लिंक निष्क्रिय है:</strong> कृपया अपना रेफ़रल लिंक एक्टिव करने के लिए पहले <a href="/settings/" style="color: var(--accent); font-weight: bold; text-decoration: underline;">Settings</a> में जाकर अपना **Username** सेट करें।
+          </p>
+        </div>
+      </div>
+
+      <!-- Gamified Progress Card -->
+      <div class="ref-card" id="gamified-study-card" style="display: none;">
+        <h3 class="ref-card-title">⏳ Study Milestone (पढ़ाई का लक्ष्य)</h3>
+        <p style="margin: 0; font-size: 0.95rem; line-height: 1.4;" id="gamified-countdown-text">
+          आप अपने 900 कॉइन्स (₹9) से केवल 180 मिनट की पढ़ाई दूर हैं!
+        </p>
+        <div class="progress-container">
+          <div class="progress-bar" id="study-progress-bar"></div>
+        </div>
+        <p style="font-size: 0.8rem; color: var(--text-secondary); margin: 0;">
+          *वेबसाइट पर पढ़ते समय हर मिनट आपका स्टडी टाइम ट्रैक होता है। 3 घंटे सक्रिय पढ़ाई करने पर दोनों को बोनस मिलेगा।
+        </p>
+      </div>
+
+      <!-- Referrals List Card -->
+      <div class="ref-card">
+        <h3 class="ref-card-title">👥 Invited Friends (आमंत्रित दोस्त)</h3>
+        <div id="referrals-list-container" style="max-height: 250px; overflow-y: auto;">
+          <!-- Referrals list dynamically loaded -->
+        </div>
+      </div>
+
+      <!-- Transaction Ledger Card -->
+      <div class="ref-card">
+        <h3 class="ref-card-title">📜 Coin History (लेन-देन का इतिहास)</h3>
+        <div id="ledger-list-container" style="max-height: 250px; overflow-y: auto; display: flex; flex-direction: column; gap: 10px;">
+          <!-- Ledger transactions dynamically loaded -->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+let referralData = null;
+
+document.addEventListener('DOMContentLoaded', async () => {
+  try {
+    const res = await fetch('/api/auth-me');
+    const authData = await res.json();
+    if (!authData.loggedIn) {
+      window.location.href = '/login/?redirect_to=/referral/';
+      return;
+    }
+    
+    await loadReferralDashboard();
+  } catch (e) {
+    window.location.href = '/';
+  }
+});
+
+async function loadReferralDashboard() {
+  try {
+    const res = await fetch('/api/referral');
+    if (!res.ok) throw new Error();
+    referralData = await res.json();
+    
+    document.getElementById('loading-view').style.display = 'none';
+    document.getElementById('main-view').style.display = 'grid';
+    
+    // Balance
+    const coins = referralData.referral_coins;
+    document.getElementById('coin-balance-text').innerText = coins;
+    document.getElementById('coin-value-inr').innerText = `(= ₹${(coins / 100).toFixed(2)})`;
+    
+    // Referral Link
+    if (referralData.username) {
+      document.getElementById('referral-link-active').style.display = 'block';
+      document.getElementById('referral-link-warning').style.display = 'none';
+      document.getElementById('ref-link-input').value = `${window.location.origin}/${referralData.username}`;
+    } else {
+      document.getElementById('referral-link-active').style.display = 'none';
+      document.getElementById('referral-link-warning').style.display = 'block';
+    }
+
+    // Gamification Progress (3 Hours Milestone)
+    const activeMins = Math.floor(referralData.active_seconds / 60);
+    const thresholdMins = 180;
+    const remainingMins = Math.max(0, thresholdMins - activeMins);
+    
+    document.getElementById('gamified-study-card').style.display = 'block';
+    const progressPercent = Math.min(100, (activeMins / thresholdMins) * 100);
+    document.getElementById('study-progress-bar').style.style = `width: ${progressPercent}%`; // Let's correct this line: it should set style.width directly
+    document.getElementById('study-progress-bar').style.width = `${progressPercent}%`;
+
+    if (remainingMins > 0) {
+      document.getElementById('gamified-countdown-text').innerHTML = 
+        `आप अपने 900 कॉइन्स (₹9) से केवल <strong>${remainingMins} मिनट</strong> की पढ़ाई दूर हैं! थोड़ी देर और पढ़ें।`;
+    } else {
+      document.getElementById('gamified-countdown-text').innerHTML = 
+        `🎉 <strong>बधाई हो!</strong> आपने 3 घंटे की पढ़ाई का लक्ष्य पूरा कर लिया है और 900 कॉइन्स हासिल कर लिए हैं!`;
+    }
+
+    // Load Referrals List
+    const refContainer = document.getElementById('referrals-list-container');
+    if (referralData.referrals.length === 0) {
+      refContainer.innerHTML = '<p style="color:var(--text-secondary); text-align:center; font-style:italic; margin: 15px 0;">No friends referred yet. (अभी तक कोई रेफ़रल नहीं है)</p>';
+    } else {
+      refContainer.innerHTML = referralData.referrals.map(r => {
+        const date = new Date(r.created_at).toLocaleDateString();
+        const activeMins = Math.floor(r.active_seconds / 60);
+        
+        let statusHtml = '';
+        if (r.referrer_bonus_paid) {
+          statusHtml = `<span style="color:#10b981; font-weight:bold;">Completed (900 coins rewarded)</span>`;
+        } else {
+          statusHtml = `<span style="color:var(--text-secondary);">Active (${activeMins}/180 mins studied)</span>`;
+        }
+        
+        return `
+          <div style="background:var(--bg-main); border:1px solid var(--border-color); padding:12px; border-radius:6px; margin-bottom:10px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px;">
+            <div>
+              <strong style="color:var(--text-main);">${r.name}</strong>
+              <div style="font-size:0.8rem; color:var(--text-secondary); margin-top:3px;">Joined: ${date}</div>
+            </div>
+            <div style="font-size:0.85rem; text-align:right;">
+              ${statusHtml}
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    // Load Transactions Ledger List
+    const ledgerContainer = document.getElementById('ledger-list-container');
+    if (referralData.transactions.length === 0) {
+      ledgerContainer.innerHTML = '<p style="color:var(--text-secondary); text-align:center; font-style:italic; margin: 15px 0;">No coin history yet.</p>';
+    } else {
+      ledgerContainer.innerHTML = referralData.transactions.map(t => {
+        const date = new Date(t.created_at).toLocaleString();
+        const isEarned = t.amount > 0;
+        const amountSign = isEarned ? `+${t.amount}` : `${t.amount}`;
+        const amountColor = isEarned ? `#10b981` : `#ef4444`;
+        
+        return `
+          <div style="background:var(--bg-main); border:1px solid var(--border-color); padding:12px; border-radius:6px; display:flex; justify-content:space-between; align-items:center;">
+            <div>
+              <div style="font-weight:600; color:var(--text-main); font-size:0.95rem;">${t.description}</div>
+              <div style="font-size:0.75rem; color:var(--text-secondary); margin-top:4px;">${date}</div>
+            </div>
+            <div style="font-weight:bold; color:${amountColor}; font-size:1.05rem;">
+              ${amountSign}
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+
+  } catch (e) {
+    console.error(e);
+  }
+}
+
+function copyRefLink() {
+  const input = document.getElementById('ref-link-input');
+  input.select();
+  input.setSelectionRange(0, 99999);
+  navigator.clipboard.writeText(input.value);
+  alert('Referral link copied to clipboard! (लिंक कॉपी हो गया है)');
+}
+
+async function redeemCoins() {
+  const amountInput = document.getElementById('redeem-amount-input');
+  const amount = parseInt(amountInput.value);
+  
+  if (!amount || amount < 100 || amount % 100 !== 0) {
+    alert('Please enter a valid amount in multiples of 100 (e.g. 500, 1000). (कृपया 100 के गुणक में कॉइन्स दर्ज करें)');
+    return;
+  }
+
+  if (amount > referralData.referral_coins) {
+    alert('Insufficient coin balance! (आपके पास पर्याप्त कॉइन्स नहीं हैं)');
+    return;
+  }
+
+  const confirmMsg = `Are you sure you want to redeem ${amount} coins for a ₹${amount / 100} discount coupon code? (क्या आप कॉइन्स को कूपन में बदलना चाहते हैं?)`;
+  if (!confirm(confirmMsg)) return;
+
+  try {
+    const res = await fetch('/api/redeem-coins', {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({ amount })
+    });
+    
+    const result = await res.json();
+    if (result.success) {
+      amountInput.value = '';
+      
+      // Show promo code
+      document.getElementById('generated-code-container').style.display = 'block';
+      document.getElementById('promo-code-text').innerText = result.promo_code;
+      
+      alert('Redemption successful! Your coupon code is generated. (कूपन कोड सफलतापूर्वक जनरेट हो गया है)');
+      
+      // Refresh dashboard data
+      loadReferralDashboard();
+    } else {
+      alert('Error: ' + result.error);
+    }
+  } catch (e) {
+    alert('Redemption failed.');
+  }
+}
+</script>

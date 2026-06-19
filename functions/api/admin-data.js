@@ -61,6 +61,41 @@ export async function onRequestGet(context) {
       ).all();
       return Response.json(results.results);
     }
+    else if (type === 'users') {
+      const results = await env.DB.prepare(
+        `SELECT id, name, email, username, role, trust_score, is_shadow_banned, created_at 
+         FROM users 
+         ORDER BY created_at DESC`
+      ).all();
+      return Response.json(results.results);
+    }
+    else if (type === 'tickets') {
+      let query = `
+        SELECT t.id, t.title, t.message, t.type, t.status, t.created_at, u.name, u.email 
+        FROM support_tickets t 
+        JOIN users u ON t.user_id = u.id
+      `;
+      if (user.role === 'admin') {
+        query += ` WHERE t.type = 'admin'`;
+      }
+      query += ` ORDER BY t.created_at DESC`;
+      const results = await env.DB.prepare(query).all();
+      return Response.json(results.results);
+    }
+    else if (type === 'ticket_replies') {
+      const ticketId = url.searchParams.get('ticket_id');
+      if (!ticketId) {
+        return new Response('Missing ticket_id', { status: 400 });
+      }
+      const results = await env.DB.prepare(
+        `SELECT r.id, r.reply_text, r.created_at, u.name, u.role, u.avatar_url 
+         FROM support_replies r 
+         JOIN users u ON r.user_id = u.id 
+         WHERE r.ticket_id = ? 
+         ORDER BY r.created_at ASC`
+      ).bind(ticketId).all();
+      return Response.json(results.results);
+    }
     
     return new Response('Invalid type', { status: 400 });
   } catch (err) {

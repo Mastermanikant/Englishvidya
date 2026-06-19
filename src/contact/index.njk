@@ -1,99 +1,469 @@
 ---
 layout: layouts/base.njk
-pageTitle: "Contact Us - EnglishVidya"
-metaDescription: "Get in touch with Master Manikant and the EnglishVidya team."
+pageTitle: "Help & Support - EnglishVidya"
+metaDescription: "Contact EnglishVidya support team or submit a direct query to Master Manikant."
 permalink: /contact/
 ---
 
 <style>
-.contact-container {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 40px 20px;
-    background: #f8fafc;
-    border-radius: 12px;
-    border: 1px solid #e2e8f0;
+.support-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
 }
-.contact-form {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
+.support-title {
+  font-family: var(--font-heading);
+  color: var(--accent);
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 2.2rem;
+}
+.support-subtitle {
+  text-align: center;
+  color: var(--text-secondary);
+  margin-bottom: 30px;
+  font-size: 1.05rem;
+}
+.support-card {
+  background: var(--bg-raised);
+  padding: 28px;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border-color);
+  box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1);
+}
+.support-tabs {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 25px;
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 10px;
+}
+.support-tab-btn {
+  padding: 8px 16px;
+  border-radius: var(--radius-sm);
+  border: 1px solid transparent;
+  background: none;
+  color: var(--text-secondary);
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.support-tab-btn:hover {
+  color: var(--accent);
+}
+.support-tab-btn.active {
+  background: rgba(99, 102, 241, 0.1);
+  color: var(--accent);
+  border-color: var(--accent);
+}
+.form-group {
+  margin-bottom: 20px;
 }
 .form-group label {
-    font-weight: bold;
-    margin-bottom: 5px;
-    display: block;
+  display: block;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: var(--text-main);
 }
-.form-group input, .form-group textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #cbd5e1;
-    border-radius: 6px;
-    font-size: 1rem;
+.form-group input, .form-group textarea, .form-group select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  background: var(--bg-main);
+  color: var(--text-main);
+  font-size: 1rem;
+}
+.form-group input:focus, .form-group textarea:focus, .form-group select:focus {
+  border-color: var(--accent);
+  outline: none;
+}
+.btn-submit {
+  background: var(--accent);
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: var(--radius-md);
+  font-size: 1.05rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s, background 0.2s;
+  width: 100%;
+}
+.btn-submit:hover {
+  background: #4f46e5;
+  transform: translateY(-1px);
 }
 .btn-whatsapp {
-    background-color: #25D366; /* WhatsApp Green */
-    color: white;
-    padding: 12px;
-    border: none;
-    border-radius: 6px;
-    font-size: 1.1rem;
-    font-weight: bold;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    transition: background 0.3s;
+  background: #25D366;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: var(--radius-md);
+  font-size: 1.05rem;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  transition: background 0.2s;
 }
 .btn-whatsapp:hover {
-    background-color: #128C7E;
+  background: #128C7E;
+}
+.ticket-item {
+  background: var(--bg-main);
+  border: 1px solid var(--border-color);
+  padding: 18px;
+  border-radius: var(--radius-md);
+  margin-bottom: 15px;
+  cursor: pointer;
+  transition: border-color 0.2s;
+}
+.ticket-item:hover {
+  border-color: var(--accent);
+}
+.badge {
+  display: inline-flex;
+  padding: 3px 6px;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.badge-open { background: rgba(34, 197, 94, 0.2); color: #4ade80; }
+.badge-resolved { background: rgba(59, 130, 246, 0.2); color: #60a5fa; }
+.badge-closed { background: rgba(107, 114, 128, 0.2); color: #9ca3af; }
+
+/* Interactive Ticket View */
+.ticket-detail-view {
+  display: none;
+  flex-direction: column;
+  gap: 20px;
+}
+.message-bubble {
+  padding: 12px 16px;
+  border-radius: var(--radius-lg);
+  max-width: 80%;
+  line-height: 1.4;
+}
+.message-bubble.user {
+  background: var(--accent);
+  color: white;
+  align-self: flex-end;
+  border-bottom-right-radius: 4px;
+}
+.message-bubble.staff {
+  background: rgba(255,255,255,0.05);
+  color: var(--text-main);
+  align-self: flex-start;
+  border-bottom-left-radius: 4px;
 }
 </style>
 
-<div class="contact-container">
-    <h1 style="text-align: center; margin-bottom: 10px;">Contact Us</h1>
-    <p style="text-align: center; color: #64748b; margin-bottom: 30px;">
-        Have a question? Send us a direct message on WhatsApp!
-    </p>
+<div class="support-container">
+  <h1 class="support-title">Help & Support</h1>
+  <p class="support-subtitle">सहायता और शिकायत केंद्र - हम आपकी पूरी मदद करेंगे।</p>
 
-    <form class="contact-form" id="waForm">
+  <div id="unauth-view" style="display: none;">
+    <!-- WhatsApp for guest users -->
+    <div class="support-card">
+      <div style="background: rgba(99,102,241,0.05); border: 1px solid rgba(99,102,241,0.15); padding: 15px; border-radius: 8px; margin-bottom: 25px; text-align: center;">
+        <p style="margin: 0; font-size: 0.95rem;">
+          🔑 <strong>In-App Support Ticket Desk:</strong> Please <a href="/login/" style="color: var(--accent); font-weight: bold;">Log In</a> to submit official tickets and track replies inside your dashboard.
+        </p>
+      </div>
+      
+      <h3 style="margin-top: 0; text-align: center;">Or Send a Message on WhatsApp</h3>
+      <p style="text-align: center; color: var(--text-secondary); margin-bottom: 25px;">
+        (अथवा व्हाट्सएप के माध्यम से सीधे संपर्क करें)
+      </p>
+
+      <form id="waForm">
         <div class="form-group">
-            <label for="name">Your Name (आपका नाम)</label>
-            <input type="text" id="name" required placeholder="Enter your name">
+          <label for="wa-name">Your Name (आपका नाम)</label>
+          <input type="text" id="wa-name" required placeholder="Enter your name">
         </div>
         
         <div class="form-group">
-            <label for="purpose">Purpose (आप किस लिए मैसेज कर रहे हैं?)</label>
-            <input type="text" id="purpose" required placeholder="e.g., Grammar Doubt, Suggestion">
+          <label for="wa-purpose">Purpose (उद्देश्य)</label>
+          <input type="text" id="wa-purpose" required placeholder="e.g., Grammar Doubt, Suggestion">
         </div>
 
         <div class="form-group">
-            <label for="message">Message (आपका संदेश)</label>
-            <textarea id="message" rows="5" required placeholder="Type your message here..."></textarea>
+          <label for="wa-message">Message (आपका संदेश)</label>
+          <textarea id="wa-message" rows="5" required placeholder="Type your message here..."></textarea>
         </div>
 
         <button type="submit" class="btn-whatsapp">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="white"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86s.274.072.376-.043c.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.045.072.045.419-.1.824z"/></svg>
-            Send via WhatsApp
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="white"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86s.274.072.376-.043c.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.045.072.045.419-.1.824z"/></svg>
+          Send via WhatsApp
         </button>
-    </form>
+      </form>
+    </div>
+  </div>
+
+  <div id="auth-view" style="display: none;">
+    <!-- In-app support dashboard -->
+    <div class="support-card">
+      <div class="support-tabs">
+        <button class="support-tab-btn active" id="tab-create" onclick="switchSupportTab('create')">🆕 Create Ticket (नई शिकायत)</button>
+        <button class="support-tab-btn" id="tab-list" onclick="switchSupportTab('list')">📁 My Tickets (मेरी शिकायतें)</button>
+      </div>
+
+      <!-- Create Ticket Pane -->
+      <div id="pane-create">
+        <form id="ticketForm">
+          <div class="form-group">
+            <label for="ticket-title">Topic / Subject (विषय)</label>
+            <input type="text" id="ticket-title" required placeholder="e.g., Problem with Login, Spelling Error in Grammar lesson">
+          </div>
+
+          <div class="form-group">
+            <label for="ticket-route">Route Complaint To (शिकायत किसे भेजनी है?)</label>
+            <select id="ticket-route" required>
+              <option value="admin">Complain to Admin (वेबसाइट/सहायक टीम को शिकायत)</option>
+              <option value="owner">Complain to Owner (सीधा ओनर/मास्टर मणिकांत को शिकायत - Confidential)</option>
+            </select>
+            <p style="font-size: 0.8rem; color: var(--text-secondary); margin-top: 5px;">
+              * Owner route complaints will only be seen by the platform owner. (ओनर को भेजी गई शिकायतें सिर्फ़ मुख्य ओनर ही देख सकते हैं)
+            </p>
+          </div>
+
+          <div class="form-group">
+            <label for="ticket-message">Describe your issue in detail (अपनी समस्या विस्तार से लिखें)</label>
+            <textarea id="ticket-message" rows="6" required placeholder="Type your complaint here..."></textarea>
+          </div>
+
+          <button type="submit" class="btn-submit">Submit Support Ticket (शिकायत दर्ज करें)</button>
+        </form>
+      </div>
+
+      <!-- Ticket List Pane -->
+      <div id="pane-list" style="display: none;">
+        <div id="tickets-list-container">
+          <!-- Tickets load here -->
+        </div>
+      </div>
+
+      <!-- Ticket Detail Thread View Pane -->
+      <div id="pane-detail" class="ticket-detail-view">
+        <div style="display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid var(--border-color); padding-bottom:10px;">
+          <button onclick="switchSupportTab('list')" style="background:none; border:none; color:var(--accent); font-weight:bold; cursor:pointer; font-size:0.95rem;">&larr; Back to List</button>
+          <span class="badge" id="detail-status-badge">Open</span>
+        </div>
+        
+        <div>
+          <h3 id="detail-title" style="margin: 0 0 8px 0;">Ticket Title</h3>
+          <p id="detail-initial-message" style="margin: 0; background:rgba(0,0,0,0.1); padding:12px; border-radius:6px; font-size:0.95rem; line-height:1.4;">Initial Message</p>
+        </div>
+
+        <div style="display:flex; flex-direction:column; gap:12px; max-height: 350px; overflow-y:auto; padding-right:5px;" id="detail-replies">
+          <!-- Replies load here -->
+        </div>
+
+        <div style="border-top: 1px solid var(--border-color); padding-top: 15px;" id="reply-form-container">
+          <div class="form-group" style="margin-bottom:10px;">
+            <label for="detail-reply-text">Post a Reply (अपना जवाब लिखें)</label>
+            <textarea id="detail-reply-text" rows="3" required placeholder="Type reply here..."></textarea>
+          </div>
+          <button onclick="submitUserReply()" class="btn-submit" style="width:auto; float:right;">Send Reply</button>
+          <div style="clear:both;"></div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 
 <script>
-document.getElementById('waForm').addEventListener('submit', function(e) {
-    e.preventDefault();
-    
-    // Get values
-    const name = document.getElementById('name').value;
-    const purpose = document.getElementById('purpose').value;
-    const message = document.getElementById('message').value;
-    
-    // Format message for WhatsApp
-    const waNumber = '917070133396';
-    const waText = `*Hello EnglishVidya Team!*%0A%0A*Name:* ${name}%0A*Purpose:* ${purpose}%0A*Message:* ${message}`;
-    
-    // Open WhatsApp
-    window.open(`https://wa.me/${waNumber}?text=${waText}`, '_blank');
+let loggedInUser = null;
+let activeTicket = null;
+
+document.addEventListener('DOMContentLoaded', async () => {
+  // Check auth
+  try {
+    const res = await fetch('/api/auth-me');
+    const data = await res.json();
+    if (data.loggedIn) {
+      loggedInUser = data.user;
+      document.getElementById('auth-view').style.display = 'block';
+    } else {
+      document.getElementById('unauth-view').style.display = 'block';
+    }
+  } catch (e) {
+    document.getElementById('unauth-view').style.display = 'block';
+  }
 });
+
+// Guest View WhatsApp Logic
+document.getElementById('waForm').addEventListener('submit', function(e) {
+  e.preventDefault();
+  const name = document.getElementById('wa-name').value;
+  const purpose = document.getElementById('wa-purpose').value;
+  const message = document.getElementById('wa-message').value;
+  
+  const waNumber = '917070133396';
+  const waText = `*Hello EnglishVidya Team!*%0A%0A*Name:* ${name}%0A*Purpose:* ${purpose}%0A*Message:* ${message}`;
+  window.open(`https://wa.me/${waNumber}?text=${waText}`, '_blank');
+});
+
+// Support tab switcher
+function switchSupportTab(tabName) {
+  document.getElementById('tab-create').classList.remove('active');
+  document.getElementById('tab-list').classList.remove('active');
+  
+  document.getElementById('pane-create').style.display = 'none';
+  document.getElementById('pane-list').style.display = 'none';
+  document.getElementById('pane-detail').style.display = 'none';
+
+  if (tabName === 'create') {
+    document.getElementById('tab-create').classList.add('active');
+    document.getElementById('pane-create').style.display = 'block';
+  } else if (tabName === 'list') {
+    document.getElementById('tab-list').classList.add('active');
+    document.getElementById('pane-list').style.display = 'block';
+    loadUserTickets();
+  }
+}
+
+// Submit Ticket Form
+document.getElementById('ticketForm').addEventListener('submit', async function(e) {
+  e.preventDefault();
+  const title = document.getElementById('ticket-title').value.trim();
+  const type = document.getElementById('ticket-route').value;
+  const message = document.getElementById('ticket-message').value.trim();
+
+  try {
+    const res = await fetch('/api/support-ticket', {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({ title, type, message })
+    });
+
+    if (res.ok) {
+      alert('Support ticket submitted successfully! (आपकी शिकायत दर्ज हो गई है)');
+      document.getElementById('ticketForm').reset();
+      switchSupportTab('list');
+    } else {
+      const errText = await res.text();
+      alert('Failed to submit: ' + errText);
+    }
+  } catch (e) {
+    alert('Error submitting ticket.');
+  }
+});
+
+// Load user tickets
+async function loadUserTickets() {
+  const container = document.getElementById('tickets-list-container');
+  container.innerHTML = '<p style="color:var(--text-secondary);">Loading tickets...</p>';
+  try {
+    const res = await fetch('/api/support-ticket');
+    if (!res.ok) throw new Error();
+    const data = await res.json();
+
+    if (data.length === 0) {
+      container.innerHTML = '<p style="color:var(--text-secondary); text-align:center; margin-top:20px;">You have not submitted any support tickets. (कोई शिकायत रिकॉर्ड नहीं है)</p>';
+      return;
+    }
+
+    container.innerHTML = data.map(t => {
+      const date = new Date(t.created_at).toLocaleDateString();
+      const statusBadge = `<span class="badge badge-${t.status}">${t.status}</span>`;
+      return `
+        <div class="ticket-item" onclick="viewTicketDetails(${t.id})">
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+            <strong style="font-size:1.05rem; color:var(--text-main);">${t.title}</strong>
+            ${statusBadge}
+          </div>
+          <div style="display:flex; justify-content:space-between; font-size:0.8rem; color:var(--text-secondary);">
+            <span>Sent to: <span style="text-transform:uppercase; font-weight:bold;">${t.type}</span></span>
+            <span>Date: ${date}</span>
+          </div>
+        </div>
+      `;
+    }).join('');
+  } catch (e) {
+    container.innerHTML = '<p style="color:#ef4444;">Failed to load support history.</p>';
+  }
+}
+
+// View ticket details
+async function viewTicketDetails(ticketId) {
+  document.getElementById('pane-create').style.display = 'none';
+  document.getElementById('pane-list').style.display = 'none';
+  document.getElementById('pane-detail').style.display = 'flex';
+
+  const replyTextarea = document.getElementById('detail-reply-text');
+  const repliesContainer = document.getElementById('detail-replies');
+  replyTextarea.value = '';
+  repliesContainer.innerHTML = '<p style="color:var(--text-secondary);">Loading conversation...</p>';
+
+  try {
+    const res = await fetch(`/api/support-ticket?ticket_id=${ticketId}`);
+    if (!res.ok) throw new Error();
+    const data = await res.json();
+    
+    activeTicket = data.ticket;
+    
+    document.getElementById('detail-title').innerText = activeTicket.title;
+    document.getElementById('detail-initial-message').innerText = activeTicket.message;
+    document.getElementById('detail-status-badge').className = `badge badge-${activeTicket.status}`;
+    document.getElementById('detail-status-badge').innerText = activeTicket.status.toUpperCase();
+
+    // Disable reply form if ticket is closed
+    if (activeTicket.status === 'closed') {
+      document.getElementById('reply-form-container').style.display = 'none';
+    } else {
+      document.getElementById('reply-form-container').style.display = 'block';
+    }
+
+    if (data.replies.length === 0) {
+      repliesContainer.innerHTML = '<p style="color:var(--text-secondary); text-align:center; font-style:italic; margin-top:20px;">Waiting for a staff response... (जवाब की प्रतीक्षा है)</p>';
+      return;
+    }
+
+    repliesContainer.innerHTML = data.replies.map(r => {
+      const isStaff = r.role === 'admin' || r.role === 'owner';
+      const bubbleClass = isStaff ? 'staff' : 'user';
+      const senderName = isStaff ? `${r.name} (Support Team)` : 'You';
+      const date = new Date(r.created_at).toLocaleString();
+      
+      return `
+        <div class="message-bubble ${bubbleClass}">
+          <div style="font-size:0.75rem; opacity:0.8; margin-bottom:4px; font-weight:bold;">${senderName}</div>
+          <div>${r.reply_text}</div>
+          <div style="font-size:0.65rem; opacity:0.6; text-align:right; margin-top:4px;">${date}</div>
+        </div>
+      `;
+    }).join('');
+
+    repliesContainer.scrollTop = repliesContainer.scrollHeight;
+  } catch (e) {
+    repliesContainer.innerHTML = '<p style="color:#ef4444;">Failed to load ticket details.</p>';
+  }
+}
+
+async function submitUserReply() {
+  const replyText = document.getElementById('detail-reply-text').value.trim();
+  if (!replyText || !activeTicket) return;
+
+  try {
+    const res = await fetch('/api/support-reply', {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({ ticket_id: activeTicket.id, reply_text: replyText })
+    });
+
+    if (res.ok) {
+      viewTicketDetails(activeTicket.id);
+    } else {
+      alert('Failed to send reply.');
+    }
+  } catch (e) {
+    alert('Error sending reply.');
+  }
+}
 </script>

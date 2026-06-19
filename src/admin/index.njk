@@ -1,42 +1,299 @@
 ---
 layout: layouts/base.njk
-pageTitle: "Admin Dashboard"
+pageTitle: "Admin Dashboard - EnglishVidya"
 permalink: /admin/
 ---
 
-<div class="admin-container" style="max-width: 1000px; margin: 40px auto; padding: 20px;">
-  <h1 style="font-family: var(--font-heading); color: var(--accent); margin-bottom: 30px;">Admin Dashboard</h1>
+<style>
+.admin-container {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 20px;
+}
+.dashboard-title {
+  font-family: var(--font-heading);
+  color: var(--accent);
+  margin-bottom: 30px;
+  font-size: 2.5rem;
+}
+.tabs-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 25px;
+  border-bottom: 2px solid var(--border-color);
+  padding-bottom: 12px;
+  flex-wrap: wrap;
+}
+.tab-btn {
+  padding: 10px 20px;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-color);
+  background: var(--bg-raised);
+  color: var(--text-main);
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.tab-btn:hover {
+  background: var(--accent);
+  color: white;
+  border-color: var(--accent);
+  transform: translateY(-2px);
+}
+.tab-btn.active {
+  background: var(--accent);
+  color: white;
+  border-color: var(--accent);
+  box-shadow: 0 4px 12px rgba(99, 102, 241, 0.3);
+}
+.admin-card {
+  background: var(--bg-raised);
+  padding: 24px;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border-color);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+.admin-card:hover {
+  transform: translateY(-2px);
+}
+.table-responsive {
+  width: 100%;
+  overflow-x: auto;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border-color);
+  background: var(--bg-raised);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+}
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  font-size: 0.95rem;
+}
+.admin-table th {
+  background: rgba(0,0,0,0.2);
+  padding: 14px 18px;
+  font-weight: 700;
+  border-bottom: 2px solid var(--border-color);
+  color: var(--text-main);
+}
+.admin-table td {
+  padding: 14px 18px;
+  border-bottom: 1px solid var(--border-color);
+  color: var(--text-secondary);
+  vertical-align: middle;
+}
+.admin-table tr:hover {
+  background: rgba(255,255,255,0.02);
+}
+.badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+.badge-admin { background: rgba(99, 102, 241, 0.2); color: #818cf8; }
+.badge-owner { background: rgba(236, 72, 153, 0.2); color: #f472b6; }
+.badge-user { background: rgba(156, 163, 175, 0.2); color: #d1d5db; }
+.badge-open { background: rgba(34, 197, 94, 0.2); color: #4ade80; }
+.badge-resolved { background: rgba(59, 130, 246, 0.2); color: #60a5fa; }
+.badge-closed { background: rgba(107, 114, 128, 0.2); color: #9ca3af; }
+
+.search-bar-container {
+  margin-bottom: 20px;
+}
+.search-input {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px 16px;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-color);
+  background: var(--bg-raised);
+  color: var(--text-main);
+  font-size: 1rem;
+}
+.search-input:focus {
+  border-color: var(--accent);
+  outline: none;
+}
+/* Modal/Ticket Detail View Drawer */
+.ticket-drawer {
+  position: fixed;
+  top: 0;
+  right: -500px;
+  width: 100%;
+  max-width: 500px;
+  height: 100%;
+  background: var(--bg-raised);
+  border-left: 1px solid var(--border-color);
+  box-shadow: -4px 0 20px rgba(0,0,0,0.3);
+  z-index: 1000;
+  transition: right 0.3s ease-in-out;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+}
+.ticket-drawer.open {
+  right: 0;
+}
+.drawer-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+}
+.drawer-close {
+  background: none;
+  border: none;
+  color: var(--text-main);
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.messages-container {
+  flex: 1;
+  overflow-y: auto;
+  padding-right: 5px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.msg-bubble {
+  padding: 12px 16px;
+  border-radius: var(--radius-lg);
+  max-width: 85%;
+  line-height: 1.4;
+}
+.msg-bubble.user {
+  background: rgba(255,255,255,0.05);
+  align-self: flex-start;
+  border-bottom-left-radius: 4px;
+}
+.msg-bubble.staff {
+  background: var(--accent);
+  color: white;
+  align-self: flex-end;
+  border-bottom-right-radius: 4px;
+}
+.drawer-footer {
+  border-top: 1px solid var(--border-color);
+  padding-top: 15px;
+}
+.reply-textarea {
+  width: 100%;
+  height: 80px;
+  padding: 10px;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-color);
+  background: var(--bg-main);
+  color: var(--text-main);
+  resize: none;
+  font-size: 0.95rem;
+  margin-bottom: 10px;
+}
+.drawer-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0,0,0,0.5);
+  z-index: 999;
+  display: none;
+}
+.drawer-overlay.open {
+  display: block;
+}
+</style>
+
+<div class="admin-container">
+  <h1 class="dashboard-title">Admin Dashboard</h1>
   
-  <div id="admin-auth-error" style="display: none; padding: 20px; background: #ffebee; color: #c62828; border-radius: var(--radius-md);">
-    You do not have permission to view this page. <a href="/">Go Home</a>
+  <div id="admin-auth-error" style="display: none; padding: 25px; background: rgba(239, 68, 68, 0.1); color: #ef4444; border: 1px solid rgba(239, 68, 68, 0.2); border-radius: var(--radius-lg);">
+    <h3 style="margin-top: 0;">Access Denied (अनुमति नहीं है)</h3>
+    <p>You do not have permission to view this page. <a href="/" style="color: var(--accent); font-weight: bold;">Go Home</a></p>
   </div>
 
   <div id="admin-content" style="display: none;">
-    <div class="tabs" style="display: flex; gap: 10px; margin-bottom: 20px; border-bottom: 1px solid var(--border-color); padding-bottom: 10px; flex-wrap: wrap;">
-      <button class="btn-primary" onclick="loadPendingLinks()" style="padding: 8px 16px; border-radius: var(--radius-sm); cursor: pointer;">Pending Links</button>
-      <button class="btn-primary" onclick="loadPendingUGC()" style="padding: 8px 16px; border-radius: var(--radius-sm); cursor: pointer;">Pending Meanings</button>
-      <button class="btn-secondary" id="tab-revert" onclick="loadSoftDeleted()" style="padding: 8px 16px; border-radius: var(--radius-sm); cursor: pointer; background: var(--bg-raised); color: var(--text-main); border: 1px solid var(--border-color); display: none;">Revert Bin (Owner Only)</button>
-      <button class="btn-secondary" onclick="loadDeletionRequests()" style="padding: 8px 16px; border-radius: var(--radius-sm); cursor: pointer; background: rgba(255,0,0,0.1); color: var(--error); border: 1px solid var(--error);">Account Deletion Requests</button>
+    <!-- Navigation Tabs -->
+    <div class="tabs-container">
+      <button class="tab-btn active" id="btn-pending-links" onclick="switchTab('pending-links')">🔗 Pending Links</button>
+      <button class="tab-btn" id="btn-pending-ugc" onclick="switchTab('pending-ugc')">📝 Pending Meanings</button>
+      <button class="tab-btn" id="btn-users" onclick="switchTab('users')">👥 All Users</button>
+      <button class="tab-btn" id="btn-tickets" onclick="switchTab('tickets')">🎫 Support Tickets</button>
+      <button class="tab-btn" id="tab-revert" style="display: none;" onclick="switchTab('revert')">♻️ Revert Bin</button>
+      <button class="tab-btn" id="btn-deletes" onclick="switchTab('deletes')" style="color: #ef4444; border-color: rgba(239, 68, 68, 0.2);">⚠️ Deletion Requests</button>
     </div>
 
-    <div id="admin-list" style="display: flex; flex-direction: column; gap: 15px;">
-      <!-- Content loads here -->
-      <p style="color: var(--text-secondary);">Loading...</p>
+    <!-- Active Tab Heading / Options -->
+    <div id="tab-controls" class="search-bar-container" style="display: none;">
+      <!-- Placeholders for search input if tab supports it -->
+    </div>
+
+    <!-- Main List Container -->
+    <div id="admin-list" style="display: flex; flex-direction: column; gap: 18px;">
+      <p style="color: var(--text-secondary);">Loading dashboard...</p>
+    </div>
+  </div>
+</div>
+
+<!-- Modal Drawer for Support Ticket Reply Thread -->
+<div class="drawer-overlay" id="drawer-overlay" onclick="closeTicketDrawer()"></div>
+<div class="ticket-drawer" id="ticket-drawer">
+  <div class="drawer-header">
+    <div>
+      <h3 style="margin: 0;" id="drawer-title">Ticket Details</h3>
+      <span class="badge" id="drawer-status-badge">Status</span>
+    </div>
+    <button class="drawer-close" onclick="closeTicketDrawer()">&times;</button>
+  </div>
+  
+  <div style="background: rgba(255,255,255,0.02); padding: 12px; border-radius: 6px; font-size: 0.9rem; border: 1px solid var(--border-color); margin-bottom: 15px;">
+    <p style="margin: 0 0 5px 0;"><strong>From:</strong> <span id="drawer-user-name">User</span> (<span id="drawer-user-email">email</span>)</p>
+    <p style="margin: 0;"><strong>Initial Issue:</strong> <span id="drawer-init-message">Message</span></p>
+  </div>
+
+  <div class="messages-container" id="drawer-messages">
+    <!-- Messages load here -->
+  </div>
+
+  <div class="drawer-footer">
+    <textarea class="reply-textarea" id="drawer-reply-text" placeholder="Type your reply here... (अपना जवाब लिखें)"></textarea>
+    <div style="display: flex; gap: 10px; justify-content: space-between;">
+      <div style="display: flex; gap: 8px;">
+        <button onclick="changeTicketStatus('resolved')" style="background: #10b981; color: white; padding: 8px 12px; border: none; border-radius: var(--radius-sm); cursor: pointer; font-weight: 600;">Mark Resolved</button>
+        <button onclick="changeTicketStatus('closed')" style="background: #6b7280; color: white; padding: 8px 12px; border: none; border-radius: var(--radius-sm); cursor: pointer; font-weight: 600;">Close</button>
+      </div>
+      <button onclick="sendTicketReply()" style="background: var(--accent); color: white; padding: 8px 16px; border: none; border-radius: var(--radius-sm); cursor: pointer; font-weight: 600;">Send Reply</button>
     </div>
   </div>
 </div>
 
 <script>
+let currentUser = null;
+let activeTab = 'pending-links';
+let allUsersData = []; // Cached users for search filter
+let activeTicketId = null;
+
 document.addEventListener('DOMContentLoaded', async () => {
   try {
     const res = await fetch('/api/auth-me');
     const data = await res.json();
     if (data.loggedIn && (data.user.role === 'admin' || data.user.role === 'owner')) {
+      currentUser = data.user;
       document.getElementById('admin-content').style.display = 'block';
-      if (data.user.role === 'owner') {
-        document.getElementById('tab-revert').style.display = 'inline-block';
+      if (currentUser.role === 'owner') {
+        document.getElementById('tab-revert').style.display = 'inline-flex';
       }
-      loadPendingLinks();
+      switchTab('pending-links');
     } else {
       document.getElementById('admin-auth-error').style.display = 'block';
     }
@@ -45,16 +302,48 @@ document.addEventListener('DOMContentLoaded', async () => {
   }
 });
 
+function switchTab(tabName) {
+  activeTab = tabName;
+  
+  // Update UI Tabs Active class
+  document.querySelectorAll('.tab-btn').forEach(btn => {
+    btn.classList.remove('active');
+  });
+  
+  const activeBtn = document.getElementById(`btn-${tabName}`) || document.getElementById(`tab-${tabName}`);
+  if (activeBtn) activeBtn.classList.add('active');
+  
+  // Manage controls/search bar
+  const controls = document.getElementById('tab-controls');
+  if (tabName === 'users') {
+    controls.style.display = 'block';
+    controls.innerHTML = `
+      <input type="text" class="search-input" id="user-search" placeholder="Search users by name or email... (यूज़र खोजें)" oninput="filterUsersList()">
+    `;
+  } else {
+    controls.style.display = 'none';
+    controls.innerHTML = '';
+  }
+
+  // Load appropriate data
+  if (tabName === 'pending-links') loadPendingLinks();
+  else if (tabName === 'pending-ugc') loadPendingUGC();
+  else if (tabName === 'users') loadAllUsers();
+  else if (tabName === 'tickets') loadSupportTickets();
+  else if (tabName === 'revert') loadSoftDeleted();
+  else if (tabName === 'deletes') loadDeletionRequests();
+}
+
 async function loadPendingLinks() {
   const list = document.getElementById('admin-list');
-  list.innerHTML = '<p>Loading pending links...</p>';
+  list.innerHTML = '<p style="color: var(--text-secondary);">Loading pending links...</p>';
   try {
     const res = await fetch('/api/admin-data?type=pending_links');
     if (!res.ok) throw new Error('Unauthorized');
     const data = await res.json();
     
     if (data.length === 0) {
-      list.innerHTML = '<p style="color: var(--text-secondary);">No pending links to review.</p>';
+      list.innerHTML = '<div class="admin-card"><p style="color: var(--text-secondary); margin: 0; text-align: center;">No pending links to review.</p></div>';
       return;
     }
 
@@ -66,135 +355,441 @@ async function loadPendingLinks() {
       if (pendingUrls.length === 0) return '';
 
       return `
-      <div style="background: var(--bg-raised); padding: 20px; border-radius: var(--radius-lg); border: 1px solid var(--border-color);">
-        <p><strong>Comment:</strong> ${item.comment_text}</p>
+      <div class="admin-card">
+        <p style="margin-top:0;"><strong>Comment:</strong> ${item.comment_text}</p>
         <p><strong>By:</strong> ${item.name}</p>
-        <div style="margin: 10px 0;">
+        <div style="margin: 15px 0; background: rgba(0,0,0,0.1); padding: 12px; border-radius: 6px;">
           <strong>Pending Links:</strong>
-          <ul>
-            ${pendingUrls.map(u => `<li><a href="${u.url}" target="_blank" style="color: var(--accent);">${u.url}</a></li>`).join('')}
+          <ul style="margin: 5px 0 0 20px; padding: 0;">
+            ${pendingUrls.map(u => `<li style="margin-bottom: 5px;"><a href="${u.url}" target="_blank" style="color: var(--accent); word-break: break-all;">${u.url}</a></li>`).join('')}
           </ul>
         </div>
-        <div style="margin-top: 15px; display: flex; gap: 10px;">
-          <button onclick="adminAction('link', ${item.id}, 'approve')" style="background: #34A853; color: white; padding: 6px 12px; border: none; border-radius: var(--radius-sm); cursor: pointer;">Approve Links</button>
-          <button onclick="adminAction('link', ${item.id}, 'reject')" style="background: #EA4335; color: white; padding: 6px 12px; border: none; border-radius: var(--radius-sm); cursor: pointer;">Reject Links</button>
+        <div style="display: flex; gap: 10px;">
+          <button onclick="adminAction('link', ${item.id}, 'approve')" style="background: #22c55e; color: white; padding: 8px 16px; border: none; border-radius: var(--radius-sm); cursor: pointer; font-weight:600;">Approve Links</button>
+          <button onclick="adminAction('link', ${item.id}, 'reject')" style="background: #ef4444; color: white; padding: 8px 16px; border: none; border-radius: var(--radius-sm); cursor: pointer; font-weight:600;">Reject Links</button>
         </div>
       </div>
     `}).join('');
   } catch(e) {
-    list.innerHTML = '<p style="color: #EA4335;">Failed to load data.</p>';
+    list.innerHTML = '<p style="color: #ef4444;">Failed to load pending links.</p>';
   }
 }
 
 async function loadPendingUGC() {
   const list = document.getElementById('admin-list');
-  list.innerHTML = '<p>Loading pending UGC...</p>';
+  list.innerHTML = '<p style="color: var(--text-secondary);">Loading pending UGC...</p>';
   try {
     const res = await fetch('/api/admin-data?type=pending_ugc');
     if (!res.ok) throw new Error('Unauthorized');
     const data = await res.json();
     
     if (data.length === 0) {
-      list.innerHTML = '<p style="color: var(--text-secondary);">No pending meanings to review.</p>';
+      list.innerHTML = '<div class="admin-card"><p style="color: var(--text-secondary); margin: 0; text-align: center;">No pending meanings to review.</p></div>';
       return;
     }
 
     list.innerHTML = data.map(item => `
-      <div style="background: var(--bg-raised); padding: 20px; border-radius: var(--radius-lg); border: 1px solid var(--border-color);">
-        <p><strong>Word:</strong> ${item.word_slug}</p>
-        <p><strong>Meaning:</strong> ${item.meaning_text}</p>
-        <p><strong>By:</strong> ${item.name}</p>
+      <div class="admin-card">
+        <p style="margin-top: 0;"><strong>Word Slug:</strong> <span style="color: var(--accent); font-weight:bold;">${item.word_slug}</span></p>
+        <p><strong>Meaning Text:</strong> ${item.meaning_text}</p>
+        <p><strong>Submitted By:</strong> ${item.name}</p>
         <div style="margin-top: 15px; display: flex; gap: 10px;">
-          <button onclick="adminAction('ugc', ${item.id}, 'approve')" style="background: #34A853; color: white; padding: 6px 12px; border: none; border-radius: var(--radius-sm); cursor: pointer;">Approve</button>
-          <button onclick="adminAction('ugc', ${item.id}, 'reject')" style="background: #EA4335; color: white; padding: 6px 12px; border: none; border-radius: var(--radius-sm); cursor: pointer;">Reject</button>
+          <button onclick="adminAction('ugc', ${item.id}, 'approve')" style="background: #22c55e; color: white; padding: 8px 16px; border: none; border-radius: var(--radius-sm); cursor: pointer; font-weight:600;">Approve</button>
+          <button onclick="adminAction('ugc', ${item.id}, 'reject')" style="background: #ef4444; color: white; padding: 8px 16px; border: none; border-radius: var(--radius-sm); cursor: pointer; font-weight:600;">Reject</button>
         </div>
       </div>
     `).join('');
   } catch(e) {
-    list.innerHTML = '<p style="color: #EA4335;">Failed to load data. You might not have admin rights.</p>';
+    list.innerHTML = '<p style="color: #ef4444;">Failed to load pending UGC.</p>';
+  }
+}
+
+async function loadAllUsers() {
+  const list = document.getElementById('admin-list');
+  list.innerHTML = '<p style="color: var(--text-secondary);">Loading users...</p>';
+  try {
+    const res = await fetch('/api/admin-data?type=users');
+    if (!res.ok) throw new Error('Unauthorized');
+    allUsersData = await res.json();
+    renderUsersTable(allUsersData);
+  } catch(e) {
+    list.innerHTML = '<p style="color: #ef4444;">Failed to load users.</p>';
+  }
+}
+
+function renderUsersTable(users) {
+  const list = document.getElementById('admin-list');
+  if (users.length === 0) {
+    list.innerHTML = '<div class="admin-card"><p style="color: var(--text-secondary); margin: 0; text-align: center;">No users found.</p></div>';
+    return;
+  }
+
+  const tableRows = users.map(user => {
+    const date = new Date(user.created_at).toLocaleDateString();
+    const roleBadge = `<span class="badge badge-${user.role}">${user.role.toUpperCase()}</span>`;
+    
+    // Shadow Ban logic
+    const quietModeText = user.is_shadow_banned 
+      ? `<span style="color:#ef4444; font-weight:bold;">Restricted (Quiet)</span>` 
+      : `<span style="color:#22c55e;">Normal</span>`;
+      
+    const quietModeBtn = user.is_shadow_banned
+      ? `<button onclick="toggleShadowBan(${user.id}, 0)" style="background: #22c55e; color:white; border:none; padding:4px 8px; border-radius:4px; cursor:pointer; font-weight:600; font-size:0.8rem;">Unrestrict</button>`
+      : `<button onclick="toggleShadowBan(${user.id}, 1)" style="background: #ef4444; color:white; border:none; padding:4px 8px; border-radius:4px; cursor:pointer; font-weight:600; font-size:0.8rem;">Restrict (Quiet Ban)</button>`;
+
+    return `
+      <tr>
+        <td style="font-weight: bold; color: var(--accent);">${user.id}</td>
+        <td>
+          <div style="font-weight: 600; color: var(--text-main);">${user.name || 'No Name'}</div>
+          <div style="font-size: 0.85rem; color: var(--text-secondary);">${user.email}</div>
+        </td>
+        <td>${roleBadge}</td>
+        <td>
+          <div style="display: flex; align-items: center; gap: 8px;">
+            <button onclick="updateTrustScore(${user.id}, ${user.trust_score - 1})" style="width:24px; height:24px; display:inline-flex; align-items:center; justify-content:center; border: 1px solid var(--border-color); border-radius:4px; background:var(--bg-main); color:var(--text-main); cursor:pointer; font-weight:bold;">-</button>
+            <span style="font-weight: bold; min-width: 20px; text-align: center;">${user.trust_score}</span>
+            <button onclick="updateTrustScore(${user.id}, ${user.trust_score + 1})" style="width:24px; height:24px; display:inline-flex; align-items:center; justify-content:center; border: 1px solid var(--border-color); border-radius:4px; background:var(--bg-main); color:var(--text-main); cursor:pointer; font-weight:bold;">+</button>
+          </div>
+        </td>
+        <td>
+          <div style="display:flex; flex-direction:column; gap:4px; align-items:flex-start;">
+            ${quietModeText}
+            ${quietModeBtn}
+          </div>
+        </td>
+        <td>${date}</td>
+      </tr>
+    `;
+  }).join('');
+
+  list.innerHTML = `
+    <div class="table-responsive">
+      <table class="admin-table">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Name / Email</th>
+            <th>Role</th>
+            <th>Trust Score</th>
+            <th>Quiet Mode (Shadow Ban)</th>
+            <th>Joined</th>
+          </tr>
+        </thead>
+        <tbody>
+          ${tableRows}
+        </tbody>
+      </table>
+    </div>
+  `;
+}
+
+function filterUsersList() {
+  const query = document.getElementById('user-search').value.toLowerCase().trim();
+  if (!query) {
+    renderUsersTable(allUsersData);
+    return;
+  }
+  const filtered = allUsersData.filter(user => {
+    const name = (user.name || '').toLowerCase();
+    const email = (user.email || '').toLowerCase();
+    const username = (user.username || '').toLowerCase();
+    return name.includes(query) || email.includes(query) || username.includes(query);
+  });
+  renderUsersTable(filtered);
+}
+
+async function updateTrustScore(userId, score) {
+  if (score < 0 || score > 100) return;
+  try {
+    const res = await fetch('/api/admin-action', {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({ type: 'user_trust', id: userId, trust_score: score })
+    });
+    if (res.ok) {
+      const user = allUsersData.find(u => u.id === userId);
+      if (user) {
+        user.trust_score = score;
+        filterUsersList();
+      }
+    } else {
+      alert('Failed to update trust score.');
+    }
+  } catch (e) {
+    alert('Error updating trust score.');
+  }
+}
+
+async function toggleShadowBan(userId, isBanned) {
+  const confirmMsg = isBanned 
+    ? 'Are you sure you want to quiet ban this user? They will still think they can post, but other users won\'t see their contributions. (क्या आप इस यूज़र पर प्रतिबंध लगाना चाहते हैं?)' 
+    : 'Are you sure you want to remove the quiet ban? (क्या आप प्रतिबंध हटाना चाहते हैं?)';
+  if (!confirm(confirmMsg)) return;
+
+  try {
+    const res = await fetch('/api/admin-action', {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({ type: 'user_shadow_ban', id: userId, is_shadow_banned: isBanned })
+    });
+    if (res.ok) {
+      const user = allUsersData.find(u => u.id === userId);
+      if (user) {
+        user.is_shadow_banned = isBanned;
+        filterUsersList();
+      }
+    } else {
+      alert('Failed to update restriction state.');
+    }
+  } catch (e) {
+    alert('Error updating ban status.');
+  }
+}
+
+async function loadSupportTickets() {
+  const list = document.getElementById('admin-list');
+  list.innerHTML = '<p style="color: var(--text-secondary);">Loading tickets...</p>';
+  try {
+    const res = await fetch('/api/admin-data?type=tickets');
+    if (!res.ok) throw new Error('Unauthorized');
+    const data = await res.json();
+    
+    if (data.length === 0) {
+      list.innerHTML = '<div class="admin-card"><p style="color: var(--text-secondary); margin: 0; text-align: center;">No support tickets found.</p></div>';
+      return;
+    }
+
+    const ticketsHtml = data.map(t => {
+      const date = new Date(t.created_at).toLocaleString();
+      const statusBadge = `<span class="badge badge-${t.status}">${t.status.toUpperCase()}</span>`;
+      const routeColor = t.type === 'owner' ? '#ec4899' : '#3b82f6';
+      
+      return `
+        <div class="admin-card" style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:15px;">
+          <div style="flex: 1; min-width: 250px;">
+            <div style="display:flex; align-items:center; gap:8px; margin-bottom:8px;">
+              <h3 style="margin:0; font-size:1.15rem; color:var(--text-main);">${t.title}</h3>
+              ${statusBadge}
+              <span style="font-size:0.75rem; font-weight:bold; background: ${routeColor}20; color: ${routeColor}; padding:2px 6px; border-radius:4px; text-transform:uppercase;">To: ${t.type}</span>
+            </div>
+            <p style="margin: 0 0 8px 0; color:var(--text-secondary); line-height: 1.4;">${t.message}</p>
+            <div style="font-size:0.8rem; color: var(--text-secondary);">
+              <strong>Submitted by:</strong> ${t.name} (${t.email}) | <strong>Date:</strong> ${date}
+            </div>
+          </div>
+          <div>
+            <button onclick="openTicketDrawer(${t.id}, '${t.title}', '${t.status}', '${t.name}', '${t.email}', \`${t.message.replace(/`/g, '\\`').replace(/\n/g, ' ')}\`)" style="background: var(--accent); color: white; border: none; padding: 8px 16px; border-radius: var(--radius-sm); cursor: pointer; font-weight: 600;">View & Reply</button>
+          </div>
+        </div>
+      `;
+    }).join('');
+
+    list.innerHTML = ticketsHtml;
+  } catch(e) {
+    list.innerHTML = '<p style="color: #ef4444;">Failed to load tickets.</p>';
+  }
+}
+
+async function openTicketDrawer(ticketId, title, status, userName, userEmail, message) {
+  activeTicketId = ticketId;
+  document.getElementById('drawer-title').innerText = title;
+  document.getElementById('drawer-status-badge').className = `badge badge-${status}`;
+  document.getElementById('drawer-status-badge').innerText = status.toUpperCase();
+  document.getElementById('drawer-user-name').innerText = userName;
+  document.getElementById('drawer-user-email').innerText = userEmail;
+  document.getElementById('drawer-init-message').innerText = message;
+  document.getElementById('drawer-reply-text').value = '';
+
+  const msgsContainer = document.getElementById('drawer-messages');
+  msgsContainer.innerHTML = '<p style="color: var(--text-secondary);">Loading message history...</p>';
+
+  document.getElementById('ticket-drawer').classList.add('open');
+  document.getElementById('drawer-overlay').classList.add('open');
+
+  try {
+    const res = await fetch(`/api/admin-data?type=ticket_replies&ticket_id=${ticketId}`);
+    if (!res.ok) throw new Error();
+    const replies = await res.json();
+
+    if (replies.length === 0) {
+      msgsContainer.innerHTML = '<p style="color: var(--text-secondary); text-align:center; font-style:italic; margin-top:20px;">No replies yet.</p>';
+      return;
+    }
+
+    msgsContainer.innerHTML = replies.map(r => {
+      const isStaff = r.role === 'admin' || r.role === 'owner';
+      const bubbleClass = isStaff ? 'staff' : 'user';
+      const date = new Date(r.created_at).toLocaleString();
+      
+      return `
+        <div class="msg-bubble ${bubbleClass}">
+          <div style="font-size:0.75rem; opacity:0.8; margin-bottom:4px; font-weight:bold;">${r.name} (${r.role.toUpperCase()})</div>
+          <div>${r.reply_text}</div>
+          <div style="font-size:0.65rem; opacity:0.6; text-align:right; margin-top:4px;">${date}</div>
+        </div>
+      `;
+    }).join('');
+    
+    msgsContainer.scrollTop = msgsContainer.scrollHeight;
+  } catch (e) {
+    msgsContainer.innerHTML = '<p style="color: #ef4444;">Failed to load conversation.</p>';
+  }
+}
+
+function closeTicketDrawer() {
+  document.getElementById('ticket-drawer').classList.remove('open');
+  document.getElementById('drawer-overlay').classList.remove('open');
+  activeTicketId = null;
+}
+
+async function sendTicketReply() {
+  const replyText = document.getElementById('drawer-reply-text').value.trim();
+  if (!replyText || !activeTicketId) return;
+
+  try {
+    const res = await fetch('/api/support-reply', {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({ ticket_id: activeTicketId, reply_text: replyText })
+    });
+
+    if (res.ok) {
+      document.getElementById('drawer-reply-text').value = '';
+      const triggerButton = document.querySelector(`button[onclick^="openTicketDrawer(${activeTicketId}"]`);
+      if (triggerButton) {
+        const funcStr = triggerButton.getAttribute('onclick');
+        const args = funcStr.match(/\(([^)]+)\)/)[1].split(',');
+        const title = args[1].trim().replace(/^['"]|['"]$/g, '');
+        const status = args[2].trim().replace(/^['"]|['"]$/g, '');
+        const userName = args[3].trim().replace(/^['"]|['"]$/g, '');
+        const userEmail = args[4].trim().replace(/^['"]|['"]$/g, '');
+        const message = args[5].trim().replace(/^[`'"]|[`'"]$/g, '');
+        openTicketDrawer(activeTicketId, title, status, userName, userEmail, message);
+      } else {
+        closeTicketDrawer();
+        loadSupportTickets();
+      }
+    } else {
+      alert('Failed to send reply.');
+    }
+  } catch (e) {
+    alert('Error sending reply.');
+  }
+}
+
+async function changeTicketStatus(newStatus) {
+  if (!activeTicketId) return;
+  try {
+    const res = await fetch('/api/admin-action', {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({ type: 'ticket_status', id: activeTicketId, status: newStatus })
+    });
+    if (res.ok) {
+      document.getElementById('drawer-status-badge').className = `badge badge-${newStatus}`;
+      document.getElementById('drawer-status-badge').innerText = newStatus.toUpperCase();
+      alert(`Ticket marked as ${newStatus}!`);
+      closeTicketDrawer();
+      loadSupportTickets();
+    } else {
+      alert('Failed to update status.');
+    }
+  } catch (e) {
+    alert('Error updating status.');
   }
 }
 
 async function loadSoftDeleted() {
   const list = document.getElementById('admin-list');
-  list.innerHTML = '<p>Loading revert bin...</p>';
+  list.innerHTML = '<p style="color: var(--text-secondary);">Loading revert bin...</p>';
   try {
     const res = await fetch('/api/admin-data?type=deleted');
     if (!res.ok) throw new Error('Unauthorized');
     const data = await res.json();
     
     if (data.length === 0) {
-      list.innerHTML = '<p style="color: var(--text-secondary);">Recycle bin is empty.</p>';
+      list.innerHTML = '<div class="admin-card"><p style="color: var(--text-secondary); margin: 0; text-align: center;">Recycle bin is empty.</p></div>';
       return;
     }
 
     list.innerHTML = data.map(item => `
-      <div style="background: var(--bg-raised); padding: 20px; border-radius: var(--radius-lg); border: 1px solid var(--border-color); opacity: 0.8;">
-        <p><strong>Type:</strong> <span style="text-transform: uppercase; color: var(--accent);">${item.source}</span></p>
+      <div class="admin-card" style="opacity: 0.85;">
+        <p style="margin-top: 0;"><strong>Type:</strong> <span style="text-transform: uppercase; color: var(--accent); font-weight:bold;">${item.source}</span></p>
         <p><strong>Text:</strong> ${item.text}</p>
-        <p><strong>Deleted By:</strong> Admin #${item.action_by_id} on ${new Date(item.action_at).toLocaleDateString()}</p>
+        <p style="font-size:0.85rem; color:var(--text-secondary);">Deleted By: Admin #${item.action_by_id} on ${new Date(item.action_at).toLocaleString()}</p>
         <div style="margin-top: 15px;">
-          <button onclick="adminRevert('${item.source}', ${item.id})" style="background: var(--accent); color: white; padding: 6px 12px; border: none; border-radius: var(--radius-sm); cursor: pointer;">Restore (Revert)</button>
+          <button onclick="adminRevert('${item.source}', ${item.id})" style="background: var(--accent); color: white; padding: 8px 16px; border: none; border-radius: var(--radius-sm); cursor: pointer; font-weight:600;">Restore (Revert)</button>
         </div>
       </div>
     `).join('');
   } catch(e) {
-    list.innerHTML = '<p style="color: #EA4335;">Failed to load data. You must be an Owner to view this.</p>';
+    list.innerHTML = '<p style="color: #ef4444;">Failed to load data. You must be an Owner to view this.</p>';
   }
 }
 
 async function loadDeletionRequests() {
   const list = document.getElementById('admin-list');
-  list.innerHTML = '<p>Loading deletion requests...</p>';
+  list.innerHTML = '<p style="color: var(--text-secondary);">Loading deletion requests...</p>';
   try {
     const res = await fetch('/api/admin-data?type=deletion_requests');
     if (!res.ok) throw new Error('Unauthorized');
     const data = await res.json();
     
     if (data.length === 0) {
-      list.innerHTML = '<p style="color: var(--text-secondary);">No pending account deletion requests.</p>';
+      list.innerHTML = '<div class="admin-card"><p style="color: var(--text-secondary); margin: 0; text-align: center;">No pending account deletion requests.</p></div>';
       return;
     }
 
     list.innerHTML = data.map(item => `
-      <div style="background: var(--bg-raised); padding: 20px; border-radius: var(--radius-lg); border: 1px solid var(--error);">
-        <p><strong>Name:</strong> ${item.name} (${item.email})</p>
-        <p><strong>Requested At:</strong> <span style="color: var(--error); font-weight: bold;">${new Date(item.delete_requested_at).toLocaleDateString()}</span></p>
+      <div class="admin-card" style="border-color: #ef4444;">
+        <p style="margin-top: 0;"><strong>Name:</strong> ${item.name} (${item.email})</p>
+        <p><strong>Requested At:</strong> <span style="color: #ef4444; font-weight: bold;">${new Date(item.delete_requested_at).toLocaleString()}</span></p>
         <div style="margin-top: 15px; display: flex; gap: 10px;">
-          <button onclick="adminAction('user', ${item.id}, 'approve_delete')" style="background: var(--error); color: white; padding: 6px 12px; border: none; border-radius: var(--radius-sm); cursor: pointer;">Approve Deletion (Anonymize)</button>
+          <button onclick="adminAction('user', ${item.id}, 'approve_delete')" style="background: #ef4444; color: white; padding: 8px 16px; border: none; border-radius: var(--radius-sm); cursor: pointer; font-weight:600;">Approve Deletion (Anonymize)</button>
         </div>
       </div>
     `).join('');
   } catch(e) {
-    list.innerHTML = '<p style="color: #EA4335;">Failed to load data. You must be an Admin to view this.</p>';
+    list.innerHTML = '<p style="color: #ef4444;">Failed to load deletion requests.</p>';
   }
 }
 
 async function adminAction(type, id, action) {
-  const res = await fetch('/api/admin-action', {
-    method: 'POST',
-    headers: {'Content-Type': 'application/json'},
-    body: JSON.stringify({type, id, action})
-  });
-  if(res.ok) {
-    alert('Action successful!');
-    loadPendingUGC();
-  } else {
-    alert('Failed to perform action.');
+  try {
+    const res = await fetch('/api/admin-action', {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({type, id, action})
+    });
+    if(res.ok) {
+      alert('Action successful!');
+      if (activeTab === 'pending-links') loadPendingLinks();
+      else if (activeTab === 'pending-ugc') loadPendingUGC();
+      else if (activeTab === 'deletes') loadDeletionRequests();
+    } else {
+      alert('Failed to perform action.');
+    }
+  } catch (e) {
+    alert('Error performing action.');
   }
 }
 
 async function adminRevert(type, id) {
-  const res = await fetch('/api/admin-revert', {
-    method: 'POST',
-    headers: {'Content-Type': 'application/json'},
-    body: JSON.stringify({type, id})
-  });
-  if(res.ok) {
-    alert('Restored successfully!');
-    loadSoftDeleted();
-  } else {
-    alert('Failed to restore. Are you the Owner?');
+  try {
+    const res = await fetch('/api/admin-revert', {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({type, id})
+    });
+    if(res.ok) {
+      alert('Restored successfully!');
+      loadSoftDeleted();
+    } else {
+      alert('Failed to restore. Are you the Owner?');
+    }
+  } catch(e) {
+    alert('Error restoring item.');
   }
 }
 </script>

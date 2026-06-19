@@ -163,3 +163,30 @@ CREATE TABLE IF NOT EXISTS forum_replies (
     FOREIGN KEY (user_id) REFERENCES users(id),
     FOREIGN KEY (action_by_id) REFERENCES users(id)
 );
+
+-- 11. SUPPORT TICKETS
+CREATE TABLE IF NOT EXISTS support_tickets (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  user_id INTEGER NOT NULL,
+  title TEXT NOT NULL,
+  message TEXT NOT NULL,
+  type TEXT NOT NULL CHECK(type IN ('admin', 'owner')),
+  status TEXT NOT NULL DEFAULT 'open' CHECK(status IN ('open', 'resolved', 'closed')),
+  created_at TEXT NOT NULL DEFAULT (datetime('now')),
+  updated_at TEXT NOT NULL DEFAULT (datetime('now')),
+  FOREIGN KEY (user_id) REFERENCES users(id)
+);
+
+-- 12. SUPPORT REPLIES
+CREATE TABLE IF NOT EXISTS support_replies (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  ticket_id INTEGER NOT NULL,
+  user_id INTEGER NOT NULL,
+  reply_text TEXT NOT NULL,
+  created_at TEXT NOT NULL DEFAULT (datetime('now')),
+  FOREIGN KEY (ticket_id) REFERENCES support_tickets(id),
+  FOREIGN KEY (user_id) REFERENCES users(id)
+);
+
+CREATE INDEX IF NOT EXISTS idx_support_tickets_user ON support_tickets(user_id);
+CREATE INDEX IF NOT EXISTS idx_support_replies_ticket ON support_replies(ticket_id);

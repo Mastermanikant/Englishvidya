@@ -8,6 +8,35 @@ export async function onRequest(context) {
     return Response.redirect(url.toString(), 301);
   }
 
+  // Referral URL routing: englishvidya.com/username
+  const pathname = url.pathname;
+  const segments = pathname.split('/').filter(Boolean);
+  if (request.method === 'GET' && segments.length === 1) {
+    const username = segments[0].toLowerCase();
+    const reserved = [
+      'admin', 'api', 'assets', 'css', 'js', 'dictionary', 'grammar', 
+      'legal', 'legal-hindi', 'settings', 'login', 'contact', 'profile', 
+      'about-us', 'about-us-hindi', 'forum', 'my-diary', 'founder-mastermanikant', 
+      'founder-mastermanikant-hindi', 'class-10', 'class-12', 'flashcards', 
+      'robots.txt', 'manifest.json', 'sitemap.xml', 'favicon.ico'
+    ];
+    
+    if (!reserved.includes(username) && /^[a-z0-9_-]{3,20}$/.test(username)) {
+      try {
+        const referrer = await env.DB.prepare('SELECT id FROM users WHERE LOWER(username) = ?').bind(username).first();
+        if (referrer) {
+          const headers = new Headers();
+          headers.append('Location', '/');
+          // Cookie expires in 30 days
+          headers.append('Set-Cookie', `ev_referrer=${referrer.id}; Path=/; Max-Age=${30 * 24 * 60 * 60}; HttpOnly; SameSite=Lax; Secure`);
+          return new Response('', { status: 302, headers });
+        }
+      } catch (err) {
+        // Fail silently to ensure main site functionality is not affected by database glitches
+      }
+    }
+  }
+
   const cookie = request.headers.get('Cookie') || '';
   const token = getCookieValue(cookie, 'ev_token');
 
