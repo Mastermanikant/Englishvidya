@@ -7,7 +7,7 @@
     "build": "eleventy",
     "dev": "eleventy --serve --port=3000",
     "build:prod": "NODE_ENV=production eleventy",
-    "deploy": "npm run build && wrangler deploy"
+    "deploy": "npm run build && wrangler pages deploy _site"
   },
   "author": "Mastermanikant",
   "license": "MIT",
