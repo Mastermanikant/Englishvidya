@@ -69,7 +69,7 @@
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@600;700;800;900&display=swap"></noscript>
 
   {# ── CSS ── #}
-  <link rel="stylesheet" href="/css/style.css?v=2.0.3">
+  <link rel="stylesheet" href="/css/style.css?v=2.0.4">
 
   {# ── FOUC Prevention + Theme / Font-Scale Restore ── #}
   <script>
@@ -127,16 +127,16 @@
   <div id="toast-container" aria-live="polite" aria-atomic="true"></div>
 
   {# ── JS — existing app files ── #}
-  <script src="/js/app.js?v=2.0.3" defer></script>
-  <script src="/js/heartbeat.js?v=2.0.3" defer></script>
-  <script src="/js/home-redesign.js?v=2.0.3" defer></script>
+  <script src="/js/app.js?v=2.0.4" defer></script>
+  <script src="/js/heartbeat.js?v=2.0.4" defer></script>
+  <script src="/js/home-redesign.js?v=2.0.4" defer></script>
   <script src="/js/alpine.min.js" defer></script>
   <script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.js" defer></script>
-  <script src="/js/search.js?v=2.0.3" defer></script>
-  <script src="/js/bookmarks.js?v=2.0.3" defer></script>
-  <script src="/js/diary.js?v=2.0.3" defer></script>
-  <script src="/js/auth-ui.js?v=2.0.3" defer></script>
-  <script src="/js/community.js?v=2.0.3" defer></script>
+  <script src="/js/search.js?v=2.0.4" defer></script>
+  <script src="/js/bookmarks.js?v=2.0.4" defer></script>
+  <script src="/js/diary.js?v=2.0.4" defer></script>
+  <script src="/js/auth-ui.js?v=2.0.4" defer></script>
+  <script src="/js/community.js?v=2.0.4" defer></script>
   {{ extraScripts | safe }}
 
   {# ── PWA Service Worker Registration & Update Notification ── #}
@@ -348,15 +348,22 @@
 
   <div id="ev-watermark" aria-hidden="true">EnglishVidya.com</div>
 
+  <div id="screen-dimmer" style="position: fixed; top: 0; left: 0; right: 0; bottom: 0; background-color: rgba(0,0,0,0); pointer-events: none; z-index: 9998; transition: background-color 0.3s ease;"></div>
+
   <div id="text-scaler-widget" class="text-scaler-widget" style="display: none; touch-action: none;" role="region" aria-label="Text Size Adjustment">
     <button id="text-scaler-toggle" class="text-scaler-toggle" aria-label="Adjust text size" aria-expanded="false">
       Aa
     </button>
-    <div id="text-scaler-panel" class="text-scaler-panel" aria-hidden="true" style="display: flex; flex-direction: column; gap: 8px; width: 150px;">
+    <div id="text-scaler-panel" class="text-scaler-panel" aria-hidden="true" style="display: flex; flex-direction: column; gap: 8px; width: 170px;">
       <div style="display: flex; gap: 8px; align-items: center; justify-content: space-between;">
         <button id="text-scaler-dec" class="panel-btn" aria-label="Decrease text size" style="flex: 0 0 36px; padding: 0;">A-</button>
         <span id="text-scaler-value" class="panel-value" style="flex: 1; text-align: center;">100%</span>
         <button id="text-scaler-inc" class="panel-btn" aria-label="Increase text size" style="flex: 0 0 36px; padding: 0;">A+</button>
+      </div>
+      <div style="display: flex; gap: 8px; align-items: center; justify-content: space-between; border-top: 1px solid var(--border); padding-top: 8px; margin-top: 2px;">
+        <span style="font-size: 1rem;" title="Brightness">☀️</span>
+        <input type="range" id="screen-dimmer-slider" min="0" max="80" value="0" style="flex: 1; cursor: pointer; accent-color: var(--accent);">
+        <span style="font-size: 1rem;" title="Darkness">🌙</span>
       </div>
       <div style="display: flex; gap: 8px;">
         <button id="teacher-fullscreen" class="panel-btn" aria-label="Teacher Full Screen" title="Teacher Full Screen" style="background: var(--accent); color: white; border: none; padding: 8px; font-weight: bold; border-radius: 4px; flex: 1; font-size: 1.2rem;">⛶</button>
@@ -371,6 +378,20 @@
       const widget = document.getElementById('text-scaler-widget');
       const toggle = document.getElementById('text-scaler-toggle');
       const panel = document.getElementById('text-scaler-panel');
+      
+      const dimmerSlider = document.getElementById('screen-dimmer-slider');
+      const screenDimmer = document.getElementById('screen-dimmer');
+      if (dimmerSlider && screenDimmer) {
+        let savedDimmer = localStorage.getItem('ev-screen-dimmer') || '0';
+        dimmerSlider.value = savedDimmer;
+        screenDimmer.style.backgroundColor = `rgba(0, 0, 0, ${savedDimmer / 100})`;
+        
+        dimmerSlider.addEventListener('input', (e) => {
+          const val = e.target.value;
+          screenDimmer.style.backgroundColor = `rgba(0, 0, 0, ${val / 100})`;
+          localStorage.setItem('ev-screen-dimmer', val);
+        });
+      }
       const decBtn = document.getElementById('text-scaler-dec');
       const incBtn = document.getElementById('text-scaler-inc');
       const resetBtn = document.getElementById('text-scaler-reset');
