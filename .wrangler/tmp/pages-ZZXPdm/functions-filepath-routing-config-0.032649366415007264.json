@@ -1,0 +1,109 @@
+{
+  "routes": [
+    {
+      "routePath": "/api/auth-callback",
+      "mountPath": "/api",
+      "method": "GET",
+      "module": [
+        "api/auth-callback.js:onRequestGet"
+      ]
+    },
+    {
+      "routePath": "/api/auth-google",
+      "mountPath": "/api",
+      "method": "GET",
+      "module": [
+        "api/auth-google.js:onRequestGet"
+      ]
+    },
+    {
+      "routePath": "/api/auth-logout",
+      "mountPath": "/api",
+      "method": "GET",
+      "module": [
+        "api/auth-logout.js:onRequestGet"
+      ]
+    },
+    {
+      "routePath": "/api/auth-me",
+      "mountPath": "/api",
+      "method": "GET",
+      "module": [
+        "api/auth-me.js:onRequestGet"
+      ]
+    },
+    {
+      "routePath": "/api/comments",
+      "mountPath": "/api",
+      "method": "GET",
+      "module": [
+        "api/comments.js:onRequestGet"
+      ]
+    },
+    {
+      "routePath": "/api/comments",
+      "mountPath": "/api",
+      "method": "POST",
+      "module": [
+        "api/comments.js:onRequestPost"
+      ]
+    },
+    {
+      "routePath": "/api/diary",
+      "mountPath": "/api",
+      "method": "GET",
+      "module": [
+        "api/diary.js:onRequestGet"
+      ]
+    },
+    {
+      "routePath": "/api/diary",
+      "mountPath": "/api",
+      "method": "POST",
+      "module": [
+        "api/diary.js:onRequestPost"
+      ]
+    },
+    {
+      "routePath": "/api/rate",
+      "mountPath": "/api",
+      "method": "GET",
+      "module": [
+        "api/rate.js:onRequestGet"
+      ]
+    },
+    {
+      "routePath": "/api/rate",
+      "mountPath": "/api",
+      "method": "POST",
+      "module": [
+        "api/rate.js:onRequestPost"
+      ]
+    },
+    {
+      "routePath": "/api/ugc",
+      "mountPath": "/api",
+      "method": "GET",
+      "module": [
+        "api/ugc.js:onRequestGet"
+      ]
+    },
+    {
+      "routePath": "/api/ugc",
+      "mountPath": "/api",
+      "method": "POST",
+      "module": [
+        "api/ugc.js:onRequestPost"
+      ]
+    },
+    {
+      "routePath": "/",
+      "mountPath": "/",
+      "method": "",
+      "middleware": [
+        "_middleware.js:onRequest"
+      ]
+    }
+  ],
+  "baseURL": "/"
+}

@@ -1,13 +1,10 @@
 name = "englishvidya"
 compatibility_date = "2026-06-03"
 
-# Eleventy build output folder
+# Cloudflare Pages build output directory
 pages_build_output_dir = "./_site"
 
-[assets]
-directory = "./_site"
-
-# --- Cloudflare D1 Database ---
+# --- Cloudflare D1 Database Binding ---
 [[d1_databases]]
 binding = "DB"
 database_name = "englishvidya-db"
