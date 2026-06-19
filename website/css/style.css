@@ -111,7 +111,26 @@ html {
   -webkit-tap-highlight-color: transparent;
 }
 
-body {\n  font-family: var(--font-body);\n  font-size: 17px;\n  line-height: 1.75;\n  background-color: var(--bg-base);\n  color: var(--text-primary);\n  transition: background-color var(--duration-normal) ease, color var(--duration-normal) ease;\n  padding-top: var(--header-height);\n  padding-bottom: calc(var(--bottom-nav-height) + 16px);\n  min-height: 100vh;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n  overflow-x: hidden;\n}\n\n@media (min-width: 1024px) {\n  body {\n    font-size: 18.5px;\n  }\n}
+body {
+  font-family: var(--font-body);
+  font-size: 17px;
+  line-height: 1.75;
+  background-color: var(--bg-base);
+  color: var(--text-primary);
+  transition: background-color var(--duration-normal) ease, color var(--duration-normal) ease;
+  padding-top: var(--header-height);
+  padding-bottom: calc(var(--bottom-nav-height) + 16px);
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+@media (min-width: 1024px) {
+  body {
+    font-size: 18.5px;
+  }
+}
 
 a { color: var(--accent); text-decoration: none; }
 a:hover { color: var(--accent-hover); }
