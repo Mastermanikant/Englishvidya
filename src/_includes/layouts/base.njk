@@ -154,10 +154,28 @@
               const newWorker = reg.installing;
               newWorker.addEventListener('statechange', () => {
                 if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
+                  const existing = document.getElementById('sw-update-toast');
+                  if (existing) existing.remove();
+
                   const toast = document.createElement('div');
+                  toast.id = 'sw-update-toast';
                   toast.className = 'update-toast';
-                  toast.innerHTML = 'New Update Available! <button onclick="window.location.reload()">Refresh</button>';
-                  document.getElementById('toast-container').appendChild(toast);
+                  toast.innerHTML = '🚀 नया अपडेट उपलब्ध है! <button id="sw-update-btn">अभी अपडेट करें</button>';
+                  
+                  const container = document.getElementById('toast-container');
+                  if (container) {
+                    container.appendChild(toast);
+                  } else {
+                    toast.style.position = 'fixed';
+                    toast.style.bottom = '80px';
+                    toast.style.right = '20px';
+                    toast.style.zIndex = '9999';
+                    document.body.appendChild(toast);
+                  }
+
+                  document.getElementById('sw-update-btn').addEventListener('click', () => {
+                    newWorker.postMessage({ type: 'SKIP_WAITING' });
+                  });
                 }
               });
             });
@@ -165,6 +183,13 @@
           .catch(function (err) {
             console.warn('[SW] Registration failed:', err);
           });
+
+        let refreshing = false;
+        navigator.serviceWorker.addEventListener('controllerchange', function () {
+          if (refreshing) return;
+          refreshing = true;
+          window.location.reload();
+        });
       });
     }
   </script>
