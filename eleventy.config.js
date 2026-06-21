@@ -3,6 +3,7 @@
 
 const path = require("path");
 const fs   = require("fs");
+const Image = require("@11ty/eleventy-img");
 
 module.exports = function (eleventyConfig) {
 
@@ -65,6 +66,9 @@ module.exports = function (eleventyConfig) {
   });
 
   // Safe JSON stringify (for schema.org)
+  eleventyConfig.addFilter("stringifySchema", function(value) {
+    return JSON.stringify(value, null, 2);
+  });
   eleventyConfig.addFilter("jsonify", (value) => JSON.stringify(value));
 
   // Truncate string
@@ -85,6 +89,24 @@ module.exports = function (eleventyConfig) {
   });
 
   // ── 4. SHORTCODES ──────────────────────────────────────────────────
+  eleventyConfig.addAsyncShortcode("optimizedImage", async function(src, alt, sizes = "100vw") {
+    let metadata = await Image(src, {
+      widths: [300, 600, 1200],
+      formats: ["avif", "webp", "jpeg"],
+      outputDir: "./_site/assets/images/optimized/",
+      urlPath: "/assets/images/optimized/"
+    });
+
+    let imageAttributes = {
+      alt,
+      sizes,
+      loading: "lazy",
+      decoding: "async",
+    };
+
+    return Image.generateHTML(metadata, imageAttributes);
+  });
+
   eleventyConfig.addShortcode("include_word", function(word) {
     const allWords = require('./src/_data/allWords.js')();
     const targetSlug = String(word).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');

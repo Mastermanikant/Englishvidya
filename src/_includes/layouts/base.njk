@@ -43,7 +43,11 @@
   <link rel="manifest" href="/manifest.json">
 
   {# ── Schema.org Structured Data (SEO + AEO) ── #}
-  {% if schemaJson %}
+  {% if schema %}
+  <script type="application/ld+json">
+    {{ schema | stringifySchema | safe }}
+  </script>
+  {% elif schemaJson %}
   <script type="application/ld+json">{{ schemaJson | safe }}</script>
   {% else %}
   <script type="application/ld+json">

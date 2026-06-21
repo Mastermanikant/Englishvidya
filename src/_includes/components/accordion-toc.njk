@@ -1,0 +1,98 @@
+{% macro render(items) %}
+<style>
+.accordion-toc {
+    background: var(--bg-raised);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    margin: var(--sp-6) 0;
+    box-shadow: var(--shadow-sm);
+}
+.accordion-header {
+    background: var(--bg-hover);
+    padding: var(--sp-4) var(--sp-5);
+    font-family: var(--font-heading);
+    font-weight: 700;
+    color: var(--text-primary);
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+}
+.accordion-item {
+    border-bottom: 1px solid var(--border);
+}
+.accordion-item:last-child {
+    border-bottom: none;
+}
+.accordion-btn {
+    width: 100%;
+    text-align: left;
+    padding: var(--sp-4) var(--sp-5);
+    background: transparent;
+    border: none;
+    color: var(--text-primary);
+    font-weight: 600;
+    font-size: 0.95rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background var(--duration-fast);
+}
+.accordion-btn:hover {
+    background: var(--bg-hover);
+}
+.accordion-icon {
+    transition: transform var(--duration-fast);
+}
+.accordion-btn[aria-expanded="true"] .accordion-icon {
+    transform: rotate(180deg);
+}
+.accordion-content {
+    display: none;
+    padding: 0 var(--sp-5) var(--sp-4) var(--sp-5);
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+.accordion-btn[aria-expanded="true"] + .accordion-content {
+    display: block;
+}
+</style>
+
+<div class="accordion-toc" id="toc-accordion">
+    <div class="accordion-header">
+        <span>Table of Contents (इस लेख में क्या है?)</span>
+    </div>
+    {% for item in items %}
+    <div class="accordion-item">
+        <button class="accordion-btn" aria-expanded="false" onclick="toggleAccordion(this)">
+            {{ loop.index }}. {{ item.title }}
+            <svg class="accordion-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+        </button>
+        <div class="accordion-content">
+            <p>{{ item.desc }}</p>
+            <a href="#section-{{ loop.index }}" style="color: var(--accent); font-weight: 600; font-size: 0.85rem; margin-top: 8px; display: inline-block;">सीधे यहाँ जाएँ →</a>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+<script>
+function toggleAccordion(btn) {
+    const isExpanded = btn.getAttribute('aria-expanded') === 'true';
+    
+    // Close all others first
+    const allBtns = document.querySelectorAll('#toc-accordion .accordion-btn');
+    allBtns.forEach(b => b.setAttribute('aria-expanded', 'false'));
+    
+    // Toggle current
+    if (!isExpanded) {
+        btn.setAttribute('aria-expanded', 'true');
+    }
+}
+</script>
+{% endmacro %}

@@ -25,8 +25,8 @@ schemaJson: |
 .hero {
     text-align: center;
     padding: 60px 20px;
-    background: linear-gradient(135deg, #1e293b, #0f172a);
-    color: white;
+    background: var(--bg-raised);
+    color: var(--text-primary);
     border-radius: var(--radius-xl);
     border: 1px solid var(--border);
     margin-bottom: 40px;
@@ -42,7 +42,7 @@ schemaJson: |
 
 .hero h1 span.highlight {
     color: var(--accent);
-    text-shadow: 0 0 10px rgba(251, 191, 36, 0.2);
+    text-shadow: 0 0 10px rgba(37, 99, 235, 0.2);
 }
 
 .hero p {
@@ -50,7 +50,7 @@ schemaJson: |
     line-height: 1.75;
     max-width: 700px;
     margin: 0 auto 30px auto;
-    color: #cbd5e1;
+    color: var(--text-secondary);
 }
 
 /* ── PORTAL EXPANDABLE CARDS ── */
@@ -92,7 +92,7 @@ schemaJson: |
     justify-content: space-between;
     align-items: center;
     cursor: pointer;
-    background: rgba(255, 255, 255, 0.01);
+    background: var(--bg-hover);
     user-select: none;
 }
 
