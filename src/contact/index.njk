@@ -386,7 +386,7 @@ async function loadUserTickets() {
       `;
     }).join('');
   } catch (e) {
-    container.innerHTML = '<p style="color:#ef4444;">Failed to load support history.</p>';
+    container.innerHTML = '<p style="color:var(--error);">Failed to load support history.</p>';
   }
 }
 
@@ -442,7 +442,7 @@ async function viewTicketDetails(ticketId) {
 
     repliesContainer.scrollTop = repliesContainer.scrollHeight;
   } catch (e) {
-    repliesContainer.innerHTML = '<p style="color:#ef4444;">Failed to load ticket details.</p>';
+    repliesContainer.innerHTML = '<p style="color:var(--error);">Failed to load ticket details.</p>';
   }
 }
 
