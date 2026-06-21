@@ -73,6 +73,12 @@ eleventyExcludeFromCollections: true
     <priority>0.3</priority>
   </url>
 
+  <url>
+    <loc>https://englishvidya.com/legal-hindi/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
   {# ── Grammar Topics — auto-generate from collections ── #}
   {% for post in collections.all %}
     {% if post.url and post.url != "/" and post.data.eleventyExcludeFromCollections != true %}

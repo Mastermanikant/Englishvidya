@@ -70,82 +70,106 @@ bodyClass: page-legal
     color: var(--text-primary);
   }
 
-  /* Custom Tabs UI */
-  .custom-tabs {
+  /* Accordion UI */
+  .legal-accordion {
     display: flex;
-    justify-content: center;
-    gap: 10px;
-    margin-bottom: 30px;
-    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 40px;
   }
 
-  .custom-tab-btn {
-    background: var(--bg-raised);
+  .legal-card {
+    background: var(--bg-card);
     border: 1px solid var(--border);
-    color: var(--text-secondary);
-    padding: 12px 24px;
-    border-radius: 30px;
-    font-size: 1rem;
-    font-weight: bold;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-  }
-
-  .custom-tab-btn:hover {
-    background: var(--bg-card);
-    border-color: var(--accent);
-    color: var(--text-main);
-  }
-
-  .custom-tab-btn.active {
-    background: var(--accent);
-    color: var(--bg-base);
-    border-color: var(--accent);
-    box-shadow: 0 4px 15px rgba(var(--accent-rgb), 0.3);
-  }
-
-  /* Content Cards */
-  .legal-content-pane {
-    display: none;
-    animation: fadeIn 0.4s ease-out forwards;
-  }
-
-  .legal-content-pane.active {
-    display: block;
-  }
-
-  .rule-card {
-    background: var(--bg-card);
     border-radius: var(--radius-lg);
-    padding: 30px;
-    margin-bottom: 24px;
+    overflow: hidden;
     box-shadow: var(--shadow-sm);
-    border: 1px solid var(--border);
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
   }
-  
-  .rule-card:hover {
-    transform: translateY(-2px);
+
+  .legal-card:hover {
+    transform: translateY(-1px);
     box-shadow: var(--shadow-md);
     border-color: var(--border-hover);
   }
 
+  .legal-card-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 24px;
+    background: var(--bg-raised);
+    border: none;
+    cursor: pointer;
+    text-align: left;
+    transition: background 0.3s ease;
+  }
+
+  .legal-card-header:hover {
+    background: rgba(var(--accent-rgb), 0.04);
+  }
+
+  .legal-card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: var(--text-main);
+    font-family: var(--font-heading);
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .legal-card-icon {
+    font-size: 1.1rem;
+    color: var(--accent);
+    transition: transform 0.3s ease;
+  }
+
+  .legal-card.active .legal-card-icon {
+    transform: rotate(180deg);
+  }
+
+  .legal-card-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+  }
+
+  .legal-card.active .legal-card-content {
+    border-top: 1px solid var(--border);
+  }
+
+  .legal-card-inner {
+    padding: 24px;
+  }
+
+  .rule-card {
+    background: var(--bg-raised);
+    border-radius: var(--radius-lg);
+    padding: 24px;
+    margin-bottom: 20px;
+    border: 1px solid var(--border);
+  }
+  
+  .rule-card:last-child {
+    margin-bottom: 0;
+  }
+
   .rule-icon {
     font-size: 2rem;
-    margin-bottom: 16px;
+    margin-bottom: 12px;
     display: inline-block;
-    padding: 12px;
-    background: var(--bg-raised);
+    padding: 8px;
+    background: var(--bg-base);
     border-radius: 50%;
   }
 
   .rule-title {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     color: var(--text-main);
-    margin-bottom: 12px;
+    margin-top: 0;
+    margin-bottom: 10px;
     font-family: var(--font-heading);
   }
 
@@ -157,10 +181,14 @@ bodyClass: page-legal
 
   .rule-list li {
     position: relative;
-    padding-left: 30px;
-    margin-bottom: 16px;
+    padding-left: 28px;
+    margin-bottom: 12px;
     color: var(--text-secondary);
     line-height: 1.6;
+  }
+
+  .rule-list li:last-child {
+    margin-bottom: 0;
   }
 
   .rule-list li::before {
@@ -184,12 +212,7 @@ bodyClass: page-legal
     border-left: 4px solid var(--accent);
     padding: 20px;
     border-radius: 0 var(--radius-md) var(--radius-md) 0;
-    margin: 20px 0;
-  }
-
-  @keyframes fadeIn {
-    from { opacity: 0; transform: translateY(10px); }
-    to { opacity: 1; transform: translateY(0); }
+    margin-bottom: 24px;
   }
 </style>
 
@@ -207,111 +230,125 @@ bodyClass: page-legal
     <p>English Vidya पर आपका स्वागत है! हमने अपनी प्राइवेसी पॉलिसी और नियमों को बिल्कुल साफ़ और आसान भाषा में नीचे समझाया है।</p>
   </div>
 
-  <div class="custom-tabs">
-    <button class="custom-tab-btn active" data-target="privacy">🔒 प्राइवेसी पॉलिसी</button>
-    <button class="custom-tab-btn" data-target="terms">⚖️ कम्युनिटी के नियम</button>
-    <button class="custom-tab-btn" data-target="disclaimer">⚠️ डिस्क्लेमर</button>
-  </div>
+  <div class="legal-accordion">
+    <!-- PRIVACY POLICY CARD -->
+    <div class="legal-card">
+      <button class="legal-card-header" aria-expanded="false">
+        <span class="legal-card-title">🔒 प्राइवेसी पॉलिसी</span>
+        <span class="legal-card-icon">▼</span>
+      </button>
+      <div class="legal-card-content">
+        <div class="legal-card-inner">
+          <div class="highlight-box">
+            <h3 style="margin-top:0; color: var(--accent);">हम आपकी Privacy का सम्मान करते हैं!</h3>
+            <p style="margin:0; color: var(--text-secondary);">आपका पर्सनल डेटा (जैसे ईमेल या पर्सनल डायरी) पूरी तरह से सुरक्षित है। हम इसे किसी भी 3rd-party कंपनी को नहीं बेचते।</p>
+          </div>
 
-  <!-- PRIVACY POLICY PANE -->
-  <div id="pane-privacy" class="legal-content-pane active">
-    
-    <div class="highlight-box">
-      <h3 style="margin-top:0; color: var(--accent);">हम आपकी Privacy का सम्मान करते हैं!</h3>
-      <p style="margin:0; color: var(--text-secondary);">आपका पर्सनल डेटा (जैसे ईमेल या पर्सनल डायरी) पूरी तरह से सुरक्षित है। हम इसे किसी भी 3rd-party कंपनी को नहीं बेचते।</p>
+          <div class="rule-card">
+            <div class="rule-icon">👤</div>
+            <h3 class="rule-title">हम क्या डेटा लेते हैं?</h3>
+            <ul class="rule-list">
+              <li><strong>Google Account Data:</strong> जब आप Google से लॉगिन करते हैं, तो हम सिर्फ़ आपका Name, Email ID और Profile Photo लेते हैं ताकि आपका अकाउंट बन सके।</li>
+              <li><strong>Public Data (पब्लिक डेटा):</strong> जो कमेंट्स आप वेबसाइट पर करते हैं, या फोरम में जो सवाल पूछते हैं, वह पब्लिक होता है और सब देख सकते हैं।</li>
+              <li><strong>Private Data (प्राइवेट डेटा):</strong> आपकी "Personal Notes" (डायरी) और "Bookmarks" पूरी तरह से प्राइवेट हैं। इसे कोई दूसरा यूज़र नहीं देख सकता।</li>
+            </ul>
+          </div>
+
+          <div class="rule-card">
+            <div class="rule-icon">🛡️</div>
+            <h3 class="rule-title">Admin के पास क्या परमिशन है?</h3>
+            <ul class="rule-list">
+              <li>हमारे एडमिन सिर्फ़ आपका पब्लिक डेटा (आपके कमेंट्स, फोरम पोस्ट और नाम) देख सकते हैं।</li>
+              <li><strong>कोई भी एडमिन या वेबसाइट का मालिक आपकी Personal Notes या Bookmarks नहीं पढ़ सकता।</strong> वह सिस्टम में पूरी तरह सुरक्षित है।</li>
+              <li>एडमिन सिर्फ़ वेबसाइट को स्पैम से बचाने के लिए काम करते हैं।</li>
+            </ul>
+          </div>
+
+          <div class="rule-card">
+            <div class="rule-icon">🗑️</div>
+            <h3 class="rule-title">अकाउंट डिलीट करना</h3>
+            <ul class="rule-list">
+              <li>आप Settings में जाकर कभी भी अपना अकाउंट डिलीट करने की रिक्वेस्ट डाल सकते हैं।</li>
+              <li>डिलीट करने पर, <strong>30 दिन के अंदर</strong> आपका नाम, ईमेल और फोटो सिस्टम से पूरी तरह मिटा दिया जाएगा।</li>
+              <li>आपके द्वारा किए गए कमेंट्स वेबसाइट पर रहेंगे (ताकि दूसरों की मदद हो सके), लेकिन वहां से आपका नाम हट जाएगा (Anonymous बन जाएगा)।</li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
 
-    <div class="rule-card">
-      <div class="rule-icon">👤</div>
-      <h3 class="rule-title">हम क्या डेटा लेते हैं?</h3>
-      <ul class="rule-list">
-        <li><strong>Google Account Data:</strong> जब आप Google से लॉगिन करते हैं, तो हम सिर्फ़ आपका Name, Email ID और Profile Photo लेते हैं ताकि आपका अकाउंट बन सके।</li>
-        <li><strong>Public Data (पब्लिक डेटा):</strong> जो कमेंट्स आप वेबसाइट पर करते हैं, या फोरम में जो सवाल पूछते हैं, वह पब्लिक होता है और सब देख सकते हैं।</li>
-        <li><strong>Private Data (प्राइवेट डेटा):</strong> आपकी "Personal Notes" (डायरी) और "Bookmarks" पूरी तरह से प्राइवेट हैं। इसे कोई दूसरा यूज़र नहीं देख सकता।</li>
-      </ul>
+    <!-- TERMS OF SERVICE CARD -->
+    <div class="legal-card">
+      <button class="legal-card-header" aria-expanded="false">
+        <span class="legal-card-title">⚖️ कम्युनिटी के नियम</span>
+        <span class="legal-card-icon">▼</span>
+      </button>
+      <div class="legal-card-content">
+        <div class="legal-card-inner">
+          <div class="highlight-box" style="border-left-color: #ff4757; background: rgba(255, 71, 87, 0.05);">
+            <h3 style="margin-top:0; color: #ff4757;">कम्युनिटी के नियम</h3>
+            <p style="margin:0; color: var(--text-secondary);">English Vidya एक एजुकेशनल प्लेटफार्म है। इसे साफ-सुथरा रखने के लिए कुछ सख्त नियम बनाए गए हैं।</p>
+          </div>
+
+          <div class="rule-card">
+            <div class="rule-icon" style="background: rgba(255,71,87,0.1); color: #ff4757;">🚫</div>
+            <h3 class="rule-title" style="color: #ff4757;">सख्त वर्जित</h3>
+            <ul class="rule-list danger">
+              <li><strong>गाली-गलौज:</strong> किसी भी तरह के अपशब्द या गाली का इस्तेमाल करना।</li>
+              <li><strong>धर्म और राजनीति:</strong> किसी भी धर्म, भगवान, नेता या राजनीतिक पार्टी (जैसे BJP, Congress आदि) के बारे में कमेंट या फोरम पोस्ट करना।</li>
+              <li><strong>स्पैम (Spam):</strong> बिना मतलब के मैसेज करना या किसी दूसरे प्रोडक्ट का प्रचार करना।</li>
+            </ul>
+          </div>
+
+          <div class="rule-card">
+            <div class="rule-icon">❤️</div>
+            <h3 class="rule-title">सम्मान और प्रेम</h3>
+            <ul class="rule-list heart">
+              <li>प्रेम से रहें, एक-दूसरे की रेस्पेक्ट करें, और इस प्लेटफ़ॉर्म का यूज़ <strong>केवल इंग्लिश सीखने के उद्देश्य से करें</strong>।</li>
+              <li>लगातार नियम तोड़ने पर यूज़र के अकाउंट के फ़ीचर्स बंद किए जा सकते हैं, ताकि पढ़ाई का माहौल खराब न हो।</li>
+            </ul>
+          </div>
+
+          <div class="rule-card">
+            <div class="rule-icon">🔗</div>
+            <h3 class="rule-title">लिंक्स शेयर करना</h3>
+            <ul class="rule-list">
+              <li>अगर आप कमेंट्स में किसी और वेबसाइट का लिंक देते हैं, तो वह तुरंत लाइव नहीं होगा।</li>
+              <li>लिंक पहले "Pending" मोड में जाता है। जब हमारे <strong>Admin उसे चेक करके Approve करेंगे</strong>, तभी वह लिंक दूसरों को दिखेगा।</li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
 
-    <div class="rule-card">
-      <div class="rule-icon">🛡️</div>
-      <h3 class="rule-title">Admin के पास क्या परमिशन है?</h3>
-      <ul class="rule-list">
-        <li>हमारे एडमिन सिर्फ़ आपका पब्लिक डेटा (आपके कमेंट्स, फोरम पोस्ट और नाम) देख सकते हैं।</li>
-        <li><strong>कोई भी एडमिन या वेबसाइट का मालिक आपकी Personal Notes या Bookmarks नहीं पढ़ सकता।</strong> वह सिस्टम में पूरी तरह सुरक्षित है।</li>
-        <li>एडमिन सिर्फ़ वेबसाइट को स्पैम से बचाने के लिए काम करते हैं।</li>
-      </ul>
+    <!-- DISCLAIMER CARD -->
+    <div class="legal-card">
+      <button class="legal-card-header" aria-expanded="false">
+        <span class="legal-card-title">⚠️ डिस्क्लेमर</span>
+        <span class="legal-card-icon">▼</span>
+      </button>
+      <div class="legal-card-content">
+        <div class="legal-card-inner">
+          <div class="rule-card">
+            <div class="rule-icon">📚</div>
+            <h3 class="rule-title">1. केवल शैक्षिक उद्देश्य</h3>
+            <ul class="rule-list">
+              <li>English Vidya पर उपलब्ध सभी अध्ययन सामग्री, शब्दकोश, और पाठ केवल शैक्षिक उद्देश्यों के लिए हैं।</li>
+              <li>हम किसी भी प्रकार की परीक्षा में 100% सफलता की कोई कानूनी गारंटी नहीं देते हैं।</li>
+            </ul>
+          </div>
+
+          <div class="rule-card">
+            <div class="rule-icon">✏️</div>
+            <h3 class="rule-title">2. सटीकता और त्रुटियां</h3>
+            <ul class="rule-list">
+              <li>हमने 19,000+ शब्दों के संकलन में पूरी सावधानी बरती है, फिर भी मानवीय त्रुटियां (Typing Mistakes) हो सकती हैं।</li>
+              <li>छात्रों से अनुरोध है कि महत्वपूर्ण परीक्षा से पहले तथ्यों को एक बार क्रॉस-चेक कर लें।</li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
-
-    <div class="rule-card">
-      <div class="rule-icon">🗑️</div>
-      <h3 class="rule-title">अकाउंट डिलीट करना</h3>
-      <ul class="rule-list">
-        <li>आप Settings में जाकर कभी भी अपना अकाउंट डिलीट करने की रिक्वेस्ट डाल सकते हैं।</li>
-        <li>डिलीट करने पर, <strong>30 दिन के अंदर</strong> आपका नाम, ईमेल और फोटो सिस्टम से पूरी तरह मिटा दिया जाएगा।</li>
-        <li>आपके द्वारा किए गए कमेंट्स वेबसाइट पर रहेंगे (ताकि दूसरों की मदद हो सके), लेकिन वहां से आपका नाम हट जाएगा (Anonymous बन जाएगा)।</li>
-      </ul>
-    </div>
-
-  </div>
-
-  <!-- TERMS OF SERVICE PANE -->
-  <div id="pane-terms" class="legal-content-pane">
-    
-    <div class="highlight-box" style="border-left-color: #ff4757; background: rgba(255, 71, 87, 0.05);">
-      <h3 style="margin-top:0; color: #ff4757;">कम्युनिटी के नियम</h3>
-      <p style="margin:0; color: var(--text-secondary);">English Vidya एक एजुकेशनल प्लेटफार्म है। इसे साफ-सुथरा रखने के लिए कुछ सख्त नियम बनाए गए हैं।</p>
-    </div>
-
-    <div class="rule-card">
-      <div class="rule-icon" style="background: rgba(255,71,87,0.1);">🚫</div>
-      <h3 class="rule-title" style="color: #ff4757;">सख्त वर्जित</h3>
-      <ul class="rule-list danger">
-        <li><strong>गाली-गलौज:</strong> किसी भी तरह के अपशब्द या गाली का इस्तेमाल करना।</li>
-        <li><strong>धर्म और राजनीति:</strong> किसी भी धर्म, भगवान, नेता या राजनीतिक पार्टी (जैसे BJP, Congress आदि) के बारे में कमेंट या फोरम पोस्ट करना।</li>
-        <li><strong>स्पैम (Spam):</strong> बिना मतलब के मैसेज करना या किसी दूसरे प्रोडक्ट का प्रचार करना।</li>
-      </ul>
-    </div>
-
-    <div class="rule-card">
-      <div class="rule-icon">❤️</div>
-      <h3 class="rule-title">सम्मान और प्रेम</h3>
-      <ul class="rule-list heart">
-        <li>प्रेम से रहें, एक-दूसरे की रेस्पेक्ट करें, और इस प्लेटफ़ॉर्म का यूज़ <strong>केवल इंग्लिश सीखने के उद्देश्य से करें</strong>।</li>
-        <li>लगातार नियम तोड़ने पर यूज़र के अकाउंट के फ़ीचर्स बंद किए जा सकते हैं, ताकि पढ़ाई का माहौल खराब न हो।</li>
-      </ul>
-    </div>
-
-    <div class="rule-card">
-      <div class="rule-icon">🔗</div>
-      <h3 class="rule-title">लिंक्स शेयर करना</h3>
-      <ul class="rule-list">
-        <li>अगर आप कमेंट्स में किसी और वेबसाइट का लिंक देते हैं, तो वह तुरंत लाइव नहीं होगा।</li>
-        <li>लिंक पहले "Pending" मोड में जाता है। जब हमारे <strong>Admin उसे चेक करके Approve करेंगे</strong>, तभी वह लिंक दूसरों को दिखेगा।</li>
-      </ul>
-    </div>
-
-  </div>
-
-  <!-- DISCLAIMER PANE -->
-  <div id="pane-disclaimer" class="legal-content-pane">
-    
-    <div class="rule-card">
-      <div class="rule-icon">📚</div>
-      <h3 class="rule-title">1. केवल शैक्षिक उद्देश्य</h3>
-      <ul class="rule-list">
-        <li>English Vidya पर उपलब्ध सभी अध्ययन सामग्री, शब्दकोश, और पाठ केवल शैक्षिक उद्देश्यों के लिए हैं।</li>
-        <li>हम किसी भी प्रकार की परीक्षा में 100% सफलता की कोई कानूनी गारंटी नहीं देते हैं।</li>
-      </ul>
-    </div>
-
-    <div class="rule-card">
-      <div class="rule-icon">✏️</div>
-      <h3 class="rule-title">2. सटीकता और त्रुटियां</h3>
-      <ul class="rule-list">
-        <li>हमने 19,000+ शब्दों के संकलन में पूरी सावधानी बरती है, फिर भी मानवीय त्रुटियां (Typing Mistakes) हो सकती हैं।</li>
-        <li>छात्रों से अनुरोध है कि महत्वपूर्ण परीक्षा से पहले तथ्यों को एक बार क्रॉस-चेक कर लें।</li>
-      </ul>
-    </div>
-
   </div>
 
   <p style="text-align: center; color: var(--text-tertiary); margin-top: 40px; font-size: 0.9rem;">
@@ -322,17 +359,23 @@ bodyClass: page-legal
 
 <script>
 document.addEventListener('DOMContentLoaded', () => {
-  const btns = document.querySelectorAll('.custom-tab-btn');
-  const panes = document.querySelectorAll('.legal-content-pane');
+  const headers = document.querySelectorAll('.legal-card-header');
 
-  btns.forEach(btn => {
-    btn.addEventListener('click', () => {
-      btns.forEach(b => b.classList.remove('active'));
-      panes.forEach(p => p.classList.remove('active'));
-
-      btn.classList.add('active');
-      const targetId = 'pane-' + btn.getAttribute('data-target');
-      document.getElementById(targetId).classList.add('active');
+  headers.forEach(header => {
+    header.addEventListener('click', () => {
+      const card = header.parentElement;
+      const isExpanded = card.classList.contains('active');
+      
+      // Toggle current card
+      card.classList.toggle('active');
+      header.setAttribute('aria-expanded', !isExpanded);
+      
+      const content = card.querySelector('.legal-card-content');
+      if (card.classList.contains('active')) {
+        content.style.maxHeight = content.scrollHeight + "px";
+      } else {
+        content.style.maxHeight = "0";
+      }
     });
   });
 });
