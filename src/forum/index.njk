@@ -65,6 +65,105 @@ permalink: /forum/
     <input type="text" id="topic-title" placeholder="Topic Title (e.g., Difference between 'I have' and 'I had')" style="width: 100%; padding: 12px; margin-bottom: 16px; border-radius: 8px; border: 1px solid var(--border); background: var(--bg-base); color: var(--text-main);">
     <textarea id="topic-content" placeholder="Explain your question or topic in detail..." style="width: 100%; padding: 12px; margin-bottom: 16px; border-radius: 8px; border: 1px solid var(--border); background: var(--bg-base); color: var(--text-main); min-height: 120px; resize: vertical;"></textarea>
     
+    <!-- Location Section (Optional) -->
+    <div style="margin-bottom: 16px;">
+      <label style="display: flex; align-items: center; gap: 8px; font-weight: 600; cursor: pointer;">
+        <input type="checkbox" id="toggle-location" style="width: 18px; height: 18px; accent-color: var(--accent);">
+        <span>📍 अपनी लोकेशन जोड़ें (Add Location - Optional)</span>
+      </label>
+    </div>
+    
+    <div id="location-fields-container" style="display: none; flex-direction: column; gap: 12px; margin-bottom: 16px; padding: 16px; background: var(--bg-raised); border: 1px solid var(--border); border-radius: 8px;">
+      <!-- Country -->
+      <div style="display: flex; flex-direction: column; gap: 4px;">
+        <label style="font-size: 0.9rem; font-weight: bold; color: var(--text-secondary);">Country (देश)</label>
+        <select id="topic-loc-country" style="width:100%; padding:10px; border-radius:6px; border:1px solid var(--border); background:var(--bg-base); color:var(--text-main);">
+          <option value="">-- select country --</option>
+          <option value="India">India</option>
+        </select>
+      </div>
+      
+      <!-- State/UT -->
+      <div id="wrapper-state" style="display: none; flex-direction: column; gap: 4px;">
+        <label style="font-size: 0.9rem; font-weight: bold; color: var(--text-secondary);">State/UT (राज्य / केंद्र शासित प्रदेश)</label>
+        <select id="topic-loc-state" style="width:100%; padding:10px; border-radius:6px; border:1px solid var(--border); background:var(--bg-base); color:var(--text-main);">
+          <option value="">-- select state --</option>
+          <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+          <option value="Andhra Pradesh">Andhra Pradesh</option>
+          <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+          <option value="Assam">Assam</option>
+          <option value="Bihar">Bihar</option>
+          <option value="Chandigarh">Chandigarh</option>
+          <option value="Chhattisgarh">Chhattisgarh</option>
+          <option value="Dadra and Nagar Haveli and Daman and Diu">Dadra and Nagar Haveli and Daman and Diu</option>
+          <option value="Delhi">Delhi</option>
+          <option value="Goa">Goa</option>
+          <option value="Gujarat">Gujarat</option>
+          <option value="Haryana">Haryana</option>
+          <option value="Himachal Pradesh">Himachal Pradesh</option>
+          <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+          <option value="Jharkhand">Jharkhand</option>
+          <option value="Karnataka">Karnataka</option>
+          <option value="Kerala">Kerala</option>
+          <option value="Ladakh">Ladakh</option>
+          <option value="Lakshadweep">Lakshadweep</option>
+          <option value="Madhya Pradesh">Madhya Pradesh</option>
+          <option value="Maharashtra">Maharashtra</option>
+          <option value="Manipur">Manipur</option>
+          <option value="Meghalaya">Meghalaya</option>
+          <option value="Mizoram">Mizoram</option>
+          <option value="Nagaland">Nagaland</option>
+          <option value="Odisha">Odisha</option>
+          <option value="Puducherry">Puducherry</option>
+          <option value="Punjab">Punjab</option>
+          <option value="Rajasthan">Rajasthan</option>
+          <option value="Sikkim">Sikkim</option>
+          <option value="Tamil Nadu">Tamil Nadu</option>
+          <option value="Telangana">Telangana</option>
+          <option value="Tripura">Tripura</option>
+          <option value="Uttar Pradesh">Uttar Pradesh</option>
+          <option value="Uttarakhand">Uttarakhand</option>
+          <option value="West Bengal">West Bengal</option>
+        </select>
+      </div>
+      
+      <!-- District -->
+      <div id="wrapper-district" style="display: none; flex-direction: column; gap: 4px;">
+        <label style="font-size: 0.9rem; font-weight: bold; color: var(--text-secondary);">District (जिला)</label>
+        <input type="text" id="topic-loc-district" placeholder="e.g. Saharsa, Patna" style="width:100%; padding:10px; border-radius:6px; border:1px solid var(--border); background:var(--bg-base); color:var(--text-main);">
+      </div>
+      
+      <!-- Sub-district (Tehsil) -->
+      <div id="wrapper-subdistrict" style="display: none; flex-direction: column; gap: 4px;">
+        <label style="font-size: 0.9rem; font-weight: bold; color: var(--text-secondary);">Sub-district / Tehsil (अनुमंडल / तहसील)</label>
+        <input type="text" id="topic-loc-subdistrict" placeholder="e.g. Kahra, Sadar" style="width:100%; padding:10px; border-radius:6px; border:1px solid var(--border); background:var(--bg-base); color:var(--text-main);">
+      </div>
+      
+      <!-- Block -->
+      <div id="wrapper-block" style="display: none; flex-direction: column; gap: 4px;">
+        <label style="font-size: 0.9rem; font-weight: bold; color: var(--text-secondary);">Block (प्रखंड)</label>
+        <input type="text" id="topic-loc-block" placeholder="e.g. Kahra" style="width:100%; padding:10px; border-radius:6px; border:1px solid var(--border); background:var(--bg-base); color:var(--text-main);">
+      </div>
+      
+      <!-- Panchayat -->
+      <div id="wrapper-panchayat" style="display: none; flex-direction: column; gap: 4px;">
+        <label style="font-size: 0.9rem; font-weight: bold; color: var(--text-secondary);">Panchayat (पंचायत)</label>
+        <input type="text" id="topic-loc-panchayat" placeholder="e.g. Rampur" style="width:100%; padding:10px; border-radius:6px; border:1px solid var(--border); background:var(--bg-base); color:var(--text-main);">
+      </div>
+      
+      <!-- Village -->
+      <div id="wrapper-village" style="display: none; flex-direction: column; gap: 4px;">
+        <label style="font-size: 0.9rem; font-weight: bold; color: var(--text-secondary);">Village (गाँव)</label>
+        <input type="text" id="topic-loc-village" placeholder="e.g. Rampur" style="width:100%; padding:10px; border-radius:6px; border:1px solid var(--border); background:var(--bg-base); color:var(--text-main);">
+      </div>
+      
+      <!-- Ward -->
+      <div id="wrapper-ward" style="display: none; flex-direction: column; gap: 4px;">
+        <label style="font-size: 0.9rem; font-weight: bold; color: var(--text-secondary);">Ward (वार्ड नंबर)</label>
+        <input type="text" id="topic-loc-ward" placeholder="e.g. Ward 12" style="width:100%; padding:10px; border-radius:6px; border:1px solid var(--border); background:var(--bg-base); color:var(--text-main);">
+      </div>
+    </div>
+    
     <div style="display: flex; gap: 12px;">
       <button id="btn-submit-topic" class="btn-primary" style="padding: 10px 24px; font-weight: bold; border-radius: 8px;">Post Topic</button>
       <button id="btn-cancel-create" style="padding: 10px 24px; background: transparent; color: var(--text-secondary); border: 1px solid var(--border); border-radius: 8px; cursor: pointer;">Cancel</button>
@@ -88,6 +187,118 @@ document.addEventListener('DOMContentLoaded', async () => {
   const btnCancel = document.getElementById('btn-cancel-create');
   const btnSubmit = document.getElementById('btn-submit-topic');
   const listEl = document.getElementById('topics-list');
+
+  // Location fields
+  const toggleLocation = document.getElementById('toggle-location');
+  const locationFieldsContainer = document.getElementById('location-fields-container');
+  const topicLocCountry = document.getElementById('topic-loc-country');
+  const wrapperState = document.getElementById('wrapper-state');
+  const topicLocState = document.getElementById('topic-loc-state');
+  const wrapperDistrict = document.getElementById('wrapper-district');
+  const topicLocDistrict = document.getElementById('topic-loc-district');
+  const wrapperSubdistrict = document.getElementById('wrapper-subdistrict');
+  const topicLocSubdistrict = document.getElementById('topic-loc-subdistrict');
+  const wrapperBlock = document.getElementById('wrapper-block');
+  const topicLocBlock = document.getElementById('topic-loc-block');
+  const wrapperPanchayat = document.getElementById('wrapper-panchayat');
+  const topicLocPanchayat = document.getElementById('topic-loc-panchayat');
+  const wrapperVillage = document.getElementById('wrapper-village');
+  const topicLocVillage = document.getElementById('topic-loc-village');
+  const wrapperWard = document.getElementById('wrapper-ward');
+  const topicLocWard = document.getElementById('topic-loc-ward');
+
+  toggleLocation.addEventListener('change', () => {
+    if (toggleLocation.checked) {
+      locationFieldsContainer.style.display = 'flex';
+    } else {
+      locationFieldsContainer.style.display = 'none';
+      topicLocCountry.value = '';
+      topicLocState.value = '';
+      topicLocDistrict.value = '';
+      topicLocSubdistrict.value = '';
+      topicLocBlock.value = '';
+      topicLocPanchayat.value = '';
+      topicLocVillage.value = '';
+      topicLocWard.value = '';
+      
+      wrapperState.style.display = 'none';
+      wrapperDistrict.style.display = 'none';
+      wrapperSubdistrict.style.display = 'none';
+      wrapperBlock.style.display = 'none';
+      wrapperPanchayat.style.display = 'none';
+      wrapperVillage.style.display = 'none';
+      wrapperWard.style.display = 'none';
+    }
+  });
+
+  topicLocCountry.addEventListener('change', () => {
+    if (topicLocCountry.value) {
+      wrapperState.style.display = 'flex';
+    } else {
+      wrapperState.style.display = 'none';
+      topicLocState.value = '';
+      topicLocState.dispatchEvent(new Event('change'));
+    }
+  });
+
+  topicLocState.addEventListener('change', () => {
+    if (topicLocState.value) {
+      wrapperDistrict.style.display = 'flex';
+    } else {
+      wrapperDistrict.style.display = 'none';
+      topicLocDistrict.value = '';
+      topicLocDistrict.dispatchEvent(new Event('input'));
+    }
+  });
+
+  topicLocDistrict.addEventListener('input', () => {
+    if (topicLocDistrict.value.trim()) {
+      wrapperSubdistrict.style.display = 'flex';
+    } else {
+      wrapperSubdistrict.style.display = 'none';
+      topicLocSubdistrict.value = '';
+      topicLocSubdistrict.dispatchEvent(new Event('input'));
+    }
+  });
+
+  topicLocSubdistrict.addEventListener('input', () => {
+    if (topicLocSubdistrict.value.trim()) {
+      wrapperBlock.style.display = 'flex';
+    } else {
+      wrapperBlock.style.display = 'none';
+      topicLocBlock.value = '';
+      topicLocBlock.dispatchEvent(new Event('input'));
+    }
+  });
+
+  topicLocBlock.addEventListener('input', () => {
+    if (topicLocBlock.value.trim()) {
+      wrapperPanchayat.style.display = 'flex';
+    } else {
+      wrapperPanchayat.style.display = 'none';
+      topicLocPanchayat.value = '';
+      topicLocPanchayat.dispatchEvent(new Event('input'));
+    }
+  });
+
+  topicLocPanchayat.addEventListener('input', () => {
+    if (topicLocPanchayat.value.trim()) {
+      wrapperVillage.style.display = 'flex';
+    } else {
+      wrapperVillage.style.display = 'none';
+      topicLocVillage.value = '';
+      topicLocVillage.dispatchEvent(new Event('input'));
+    }
+  });
+
+  topicLocVillage.addEventListener('input', () => {
+    if (topicLocVillage.value.trim()) {
+      wrapperWard.style.display = 'flex';
+    } else {
+      wrapperWard.style.display = 'none';
+      topicLocWard.value = '';
+    }
+  });
 
   btnOpen.addEventListener('click', () => {
     if (!isLoggedIn) {
@@ -117,17 +328,30 @@ document.addEventListener('DOMContentLoaded', async () => {
         return;
       }
       
-      listEl.innerHTML = topics.map(t => `
-        <div class="forum-card">
-          <a href="/forum/topic/?id=${t.id}" class="topic-title">${t.title}</a>
-          <p style="margin: 8px 0; color: var(--text-main); font-size: 0.95rem;">${t.content.substring(0, 150)}${t.content.length > 150 ? '...' : ''}</p>
-          <div class="topic-meta">
-            <span>👤 ${t.name}</span>
-            <span>🕒 ${new Date(t.created_at).toLocaleDateString()}</span>
-            <span>💬 ${t.reply_count || 0} Replies</span>
+      listEl.innerHTML = topics.map(t => {
+        let locBadge = '';
+        if (t.location_address) {
+          try {
+            const loc = JSON.parse(t.location_address);
+            const locParts = [loc.village, loc.panchayat, loc.block, loc.district, loc.state].filter(Boolean);
+            if (locParts.length > 0) {
+              locBadge = `<span class="loc-badge" style="background: var(--bg-raised); border: 1px solid var(--border); padding: 2px 6px; border-radius: 4px; font-size: 0.8rem; display: inline-flex; align-items: center; gap: 4px; color: var(--text-secondary);">📍 ${locParts.join(', ')}</span>`;
+            }
+          } catch(e) {}
+        }
+        return `
+          <div class="forum-card">
+            <a href="/forum/topic/?id=${t.id}" class="topic-title">${t.title}</a>
+            <p style="margin: 8px 0; color: var(--text-main); font-size: 0.95rem;">${t.content.substring(0, 150)}${t.content.length > 150 ? '...' : ''}</p>
+            <div class="topic-meta" style="flex-wrap: wrap; align-items: center;">
+              <span>👤 ${t.name}</span>
+              <span>🕒 ${new Date(t.created_at).toLocaleDateString()}</span>
+              <span>💬 ${t.reply_count || 0} Replies</span>
+              ${locBadge}
+            </div>
           </div>
-        </div>
-      `).join('');
+        `;
+      }).join('');
     } catch (e) {
       listEl.innerHTML = '<p style="color: red;">Error loading topics.</p>';
     }
@@ -142,6 +366,23 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     if (!title || !content) return alert('Title and Content are required.');
 
+    let location_address = null;
+    if (toggleLocation.checked) {
+      const locData = {
+        country: topicLocCountry.value || null,
+        state: topicLocState.value || null,
+        district: topicLocDistrict.value.trim() || null,
+        subdistrict: topicLocSubdistrict.value.trim() || null,
+        block: topicLocBlock.value.trim() || null,
+        panchayat: topicLocPanchayat.value.trim() || null,
+        village: topicLocVillage.value.trim() || null,
+        ward: topicLocWard.value.trim() || null
+      };
+      if (locData.country || locData.state || locData.district) {
+        location_address = JSON.stringify(locData);
+      }
+    }
+
     btnSubmit.disabled = true;
     btnSubmit.textContent = 'Posting...';
 
@@ -149,13 +390,15 @@ document.addEventListener('DOMContentLoaded', async () => {
       const resp = await fetch('/api/forum', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ title, content })
+        body: JSON.stringify({ action: 'create_topic', title, content, location_address })
       });
       const result = await resp.json();
 
       if (resp.ok && result.success) {
         document.getElementById('topic-title').value = '';
         document.getElementById('topic-content').value = '';
+        toggleLocation.checked = false;
+        toggleLocation.dispatchEvent(new Event('change'));
         createBox.style.display = 'none';
         btnOpen.style.display = 'block';
         loadTopics();

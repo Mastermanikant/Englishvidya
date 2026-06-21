@@ -1,5 +1,6 @@
 ---
 title: "Article 07 — Consonants Part 1: Plosives & Fricatives (स्पर्श और संघर्षी व्यंजन)"
+permalink: /grammar/consonants-plosives-fricatives/
 ---
 # Article 07 — Consonants Part 1: Plosives & Fricatives (स्पर्श और संघर्षी व्यंजन)
 

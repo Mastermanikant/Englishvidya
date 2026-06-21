@@ -6,7 +6,7 @@ export async function onRequestGet(context) {
   if (id) {
     // Get single topic
     const topic = await env.DB.prepare(
-      `SELECT t.id, t.title, t.content, t.created_at, u.name, u.avatar_url, u.trust_score
+      `SELECT t.id, t.title, t.content, t.created_at, t.location_address, u.name, u.avatar_url, u.trust_score
        FROM forum_topics t
        JOIN users u ON t.user_id = u.id
        WHERE t.id = ? AND t.status = 'active' AND u.is_shadow_banned = 0`
@@ -27,7 +27,7 @@ export async function onRequestGet(context) {
   } else {
     // Get all topics
     const topics = await env.DB.prepare(
-      `SELECT t.id, t.title, t.content, t.created_at, u.name, 
+      `SELECT t.id, t.title, t.content, t.created_at, t.location_address, u.name, 
         (SELECT COUNT(*) FROM forum_replies r WHERE r.topic_id = t.id AND r.status = 'active') as reply_count
        FROM forum_topics t
        JOIN users u ON t.user_id = u.id
@@ -53,7 +53,7 @@ export async function onRequestPost(context) {
   }
 
   const body = await request.json();
-  const { action, title, content, topic_id, reply_text } = body;
+  const { action, title, content, topic_id, reply_text, location_address } = body;
 
   const blockedKeywords = ['bjp', 'congress', 'hindu', 'muslim', 'islam', 'christian', 'modi', 'rahul', 'politics', 'धर्म', 'राजनीति', 'गाली', 'chutiya', 'madarchod', 'bhenchod', 'scam'];
   
@@ -68,8 +68,8 @@ export async function onRequestPost(context) {
     }
 
     await env.DB.prepare(
-      'INSERT INTO forum_topics (user_id, title, content) VALUES (?, ?, ?)'
-    ).bind(user.id, title.trim(), content.trim()).run();
+      'INSERT INTO forum_topics (user_id, title, content, location_address) VALUES (?, ?, ?, ?)'
+    ).bind(user.id, title.trim(), content.trim(), location_address ? location_address.trim() : null).run();
     
     return Response.json({ success: true });
   } 

@@ -1,3 +1,4 @@
 {
-  "tags": ["article", "grammar"]
+  "tags": ["article", "grammar"],
+  "layout": "layouts/article.njk"
 }

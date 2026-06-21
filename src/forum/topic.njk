@@ -119,12 +119,24 @@ document.addEventListener('DOMContentLoaded', async () => {
 
       document.title = t.title + ' - EnglishVidya Forum';
 
+      let locBadge = '';
+      if (t.location_address) {
+        try {
+          const loc = JSON.parse(t.location_address);
+          const locParts = [loc.village, loc.panchayat, loc.block, loc.district, loc.state].filter(Boolean);
+          if (locParts.length > 0) {
+            locBadge = `<span class="loc-badge" style="background: var(--bg-raised); border: 1px solid var(--border); padding: 2px 6px; border-radius: 4px; font-size: 0.8rem; display: inline-flex; align-items: center; gap: 4px; color: var(--text-secondary); margin-left: 10px;">📍 ${locParts.join(', ')}</span>`;
+          }
+        } catch(e) {}
+      }
+
       topicContainer.innerHTML = `
         <div class="topic-card">
           <h1 style="font-family: var(--font-heading); color: var(--accent); margin-top: 0; margin-bottom: 10px; font-size: 2rem;">${t.title}</h1>
-          <div class="meta" style="margin-bottom: 20px; display: flex; gap: 10px; align-items: center;">
+          <div class="meta" style="margin-bottom: 20px; display: flex; gap: 10px; align-items: center; flex-wrap: wrap;">
             <img src="${t.avatar_url || '/assets/icons/icon-192.png'}" class="avatar" style="width: 32px; height: 32px;">
             <span>By <strong>${t.name}</strong> • ${new Date(t.created_at).toLocaleString()}</span>
+            ${locBadge}
           </div>
           <div class="content" style="font-size: 1.1rem;">${t.content}</div>
         </div>

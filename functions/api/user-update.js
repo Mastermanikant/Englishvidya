@@ -22,6 +22,15 @@ export async function onRequestPut(context) {
     const social_website1 = (body.social_website1 || '').trim().substring(0, 200);
     const social_website2 = (body.social_website2 || '').trim().substring(0, 200);
 
+    let location_address = null;
+    if (body.location_address) {
+      if (typeof body.location_address === 'object') {
+        location_address = JSON.stringify(body.location_address);
+      } else if (typeof body.location_address === 'string') {
+        location_address = body.location_address;
+      }
+    }
+
     if (!name) {
       return new Response('Name is required', { status: 400 });
     }
@@ -46,6 +55,7 @@ export async function onRequestPut(context) {
         social_pinterest = ?,
         social_website1 = ?,
         social_website2 = ?,
+        location_address = ?,
         updated_at = datetime('now')
       WHERE id = ?
     `).bind(
@@ -53,6 +63,7 @@ export async function onRequestPut(context) {
       social_facebook, social_youtube, social_instagram, 
       social_twitter, social_linkedin, social_pinterest, 
       social_website1, social_website2, 
+      location_address,
       user.id
     ).run();
 

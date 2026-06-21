@@ -301,9 +301,13 @@
   <style>
     @media (max-width: 768px) {
       .text-scaler-widget {
-        bottom: 85px !important;
-        right: 16px !important;
+        bottom: 85px;
+        right: 16px;
       }
+    }
+    body.presenter-mode {
+      padding-top: 0 !important;
+      padding-bottom: 0 !important;
     }
     body.presenter-mode .app-header, 
     body.presenter-mode .site-footer, 
@@ -469,6 +473,14 @@
           if (document.exitFullscreen && document.fullscreenElement) {
             document.exitFullscreen().catch(err => console.log(err));
           }
+        }
+      });
+
+      document.addEventListener('fullscreenchange', () => {
+        if (!document.fullscreenElement) {
+          isPresenterMode = false;
+          document.body.classList.remove('presenter-mode');
+          localStorage.setItem('ev-presenter-mode', 'false');
         }
       });
 

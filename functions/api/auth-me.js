@@ -22,7 +22,8 @@ export async function onRequestGet(context) {
       social_website2: user.social_website2,
       delete_requested_at: user.delete_requested_at,
       has_accepted_rules: user.has_accepted_rules,
-      has_password: !!user.password_hash
+      has_password: !!user.password_hash,
+      location_address: user.location_address
     }
   });
 }

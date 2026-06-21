@@ -1,5 +1,6 @@
 ---
 title: "Article 02 — वर्णमाला, स्वर-व्यंजन और अक्षर व्यवहार (Alphabet, Vowels, Consonants & Semi-Vowels)"
+permalink: /grammar/alphabet-vowels-consonants-basics/
 ---
 # Article 02 — वर्णमाला, स्वर-व्यंजन और अक्षर व्यवहार (Alphabet, Vowels, Consonants & Semi-Vowels)
 

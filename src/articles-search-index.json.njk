@@ -15,6 +15,8 @@ eleventyExcludeFromCollections: true
         {%- set category = "Class 12th" -%}
       {%- elif "/grammar/" in page.filePathStem -%}
         {%- set category = "Grammar" -%}
+      {%- elif "/blog/" in page.filePathStem or "/content/blog/" in page.filePathStem -%}
+        {%- set category = "Blog & Guide" -%}
       {%- elif "/about-us/" in page.filePathStem or "/about-us-hindi/" in page.filePathStem or "/about-englishvidya/" in page.filePathStem -%}
         {%- set category = "About" -%}
       {%- elif "/founder-mastermanikant/" in page.filePathStem or "/founder-mastermanikant-hindi/" in page.filePathStem -%}

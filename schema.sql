@@ -28,6 +28,7 @@ CREATE TABLE IF NOT EXISTS users (
   monthly_sync_count INTEGER NOT NULL DEFAULT 0,
   last_sync_date TEXT DEFAULT '',
   last_sync_month TEXT DEFAULT '',
+  location_address TEXT DEFAULT NULL,
   created_at TEXT NOT NULL DEFAULT (datetime('now')),
   updated_at TEXT NOT NULL DEFAULT (datetime('now'))
 );
@@ -142,6 +143,7 @@ CREATE TABLE IF NOT EXISTS forum_topics (
     status TEXT NOT NULL DEFAULT 'active',
     action_by_id INTEGER,
     action_at TEXT,
+    location_address TEXT DEFAULT NULL,
     created_at TEXT NOT NULL DEFAULT (datetime('now')),
     updated_at TEXT NOT NULL DEFAULT (datetime('now')),
     FOREIGN KEY (user_id) REFERENCES users(id),

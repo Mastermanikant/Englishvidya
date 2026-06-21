@@ -1,5 +1,6 @@
 ---
 title: "Article 06 — विराम चिन्ह (Punctuation Marks) A to Z: हिंदी बनाम अंग्रेज़ी"
+permalink: /grammar/punctuation-marks-hindi-english/
 ---
 # Article 06 — विराम चिन्ह (Punctuation Marks) A to Z: हिंदी बनाम अंग्रेज़ी
 

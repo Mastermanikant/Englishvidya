@@ -9,103 +9,137 @@ permalink: /settings/
   .settings-container {
     max-width: 800px;
     margin: 40px auto;
-    padding: 20px;
+    padding: 0 20px;
+  }
+  .settings-container h1 {
+    font-family: var(--font-heading);
+    font-weight: 800;
+    font-size: 2.2rem;
+    background: var(--gradient-accent);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 30px;
+    display: inline-block;
   }
   .settings-card {
     background: var(--bg-raised);
-    border: 1px solid var(--border-color);
+    border: 1px solid var(--border);
     border-radius: var(--radius-lg);
-    padding: 24px;
-    margin-bottom: 24px;
+    padding: 30px;
+    margin-bottom: 30px;
+    box-shadow: var(--shadow-md);
+    transition: transform 0.3s var(--ease-out), box-shadow 0.3s var(--ease-out), border-color 0.3s var(--ease-out);
+  }
+  .settings-card:hover {
+    border-color: var(--accent);
+    box-shadow: var(--shadow-lg);
   }
   .settings-header {
-    margin-bottom: 20px;
-    border-bottom: 1px solid var(--border-color);
-    padding-bottom: 10px;
+    margin-bottom: 24px;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 14px;
   }
   .settings-header h2 {
-    font-size: 1.5rem;
+    font-family: var(--font-heading);
+    font-size: 1.4rem;
+    font-weight: 700;
     margin: 0;
     color: var(--text-primary);
   }
   .form-group {
-    margin-bottom: 16px;
+    margin-bottom: 18px;
   }
   .form-group label {
     display: block;
     margin-bottom: 8px;
-    font-weight: bold;
-    color: var(--text-primary);
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: var(--text-secondary);
   }
-  .form-group input {
+  .form-group input, .form-group select {
     width: 100%;
-    padding: 10px 12px;
-    background: var(--bg-body);
-    border: 1px solid var(--border-color);
-    border-radius: 8px;
+    padding: 12px 14px;
+    background: var(--bg-base);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
     color: var(--text-primary);
     font-family: inherit;
+    font-size: 0.95rem;
+    transition: border-color 0.25s var(--ease-out), box-shadow 0.25s var(--ease-out);
   }
-  .form-group input:focus {
+  .form-group input:focus, .form-group select:focus {
     outline: none;
     border-color: var(--accent);
-    box-shadow: 0 0 0 2px var(--accent-soft);
+    box-shadow: 0 0 0 3px var(--accent-soft);
   }
   .btn-primary {
     background: var(--accent);
     color: white;
     border: none;
     padding: 12px 24px;
-    border-radius: 8px;
+    border-radius: var(--radius-sm);
     font-size: 1rem;
     font-weight: bold;
     cursor: pointer;
-    transition: background 0.2s;
+    transition: background 0.2s, transform 0.2s;
   }
   .btn-primary:hover {
-    background: var(--accent-dark, #3b82f6);
+    background: var(--accent-hover);
+    transform: translateY(-1px);
+  }
+  .btn-primary:active {
+    transform: translateY(0);
   }
   .btn-danger {
     background: var(--error);
     color: white;
     border: none;
     padding: 12px 24px;
-    border-radius: 8px;
+    border-radius: var(--radius-sm);
     font-size: 1rem;
     font-weight: bold;
     cursor: pointer;
+    transition: background 0.2s, transform 0.2s;
+  }
+  .btn-danger:hover {
+    background: #b91c1c;
+    transform: translateY(-1px);
   }
   .grid-2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 16px;
+    gap: 20px;
   }
   @media (max-width: 600px) {
-    .grid-2 { grid-template-columns: 1fr; }
+    .grid-2 { grid-template-columns: 1fr; gap: 16px; }
+    .form-group[style*="grid-column: span 2"] {
+      grid-column: span 1 !important;
+    }
   }
   .alert-msg {
-    padding: 12px;
-    border-radius: 8px;
-    margin-bottom: 16px;
+    padding: 14px;
+    border-radius: var(--radius-sm);
+    margin-bottom: 20px;
     display: none;
+    font-weight: 500;
   }
   .alert-success {
-    background: rgba(37, 211, 102, 0.1);
-    color: #25D366;
-    border: 1px solid #25D366;
+    background: rgba(34, 197, 94, 0.1);
+    color: var(--success);
+    border: 1px solid var(--success);
   }
   .alert-error {
-    background: rgba(255, 76, 76, 0.1);
+    background: rgba(220, 38, 38, 0.1);
     color: var(--error);
     border: 1px solid var(--error);
   }
   .delete-warning {
-    background: rgba(255, 165, 0, 0.1);
-    border: 1px solid orange;
-    color: orange;
+    background: rgba(217, 119, 6, 0.1);
+    border: 1px solid var(--warning);
+    color: var(--warning);
     padding: 16px;
-    border-radius: 8px;
-    margin-bottom: 16px;
+    border-radius: var(--radius-sm);
+    margin-bottom: 20px;
   }
 </style>
 
@@ -130,6 +164,53 @@ permalink: /settings/
         </div>
       </div>
       
+      <!-- Location Section -->
+      <div class="settings-header" style="margin-top: 32px;">
+        <h2>📍 Location & Address (स्थान की जानकारी)</h2>
+        <p style="font-size: 0.9rem; color: var(--text-secondary); margin-top: 4px;">Adding your location helps connect with learners from your area.</p>
+      </div>
+      <div class="grid-2">
+        <div class="form-group">
+          <label>Pincode (पिनकोड)</label>
+          <input type="text" id="input-pincode" placeholder="e.g. 852201" pattern="[0-9]{6}" maxlength="6">
+          <span id="pincode-status" style="font-size: 0.8rem; margin-top: 4px; display: block; font-weight: 500;"></span>
+        </div>
+        <div class="form-group">
+          <label>Country (देश)</label>
+          <input type="text" id="input-country" value="India" readonly style="background: var(--bg-hover); opacity: 0.8; cursor: not-allowed;">
+        </div>
+        <div class="form-group">
+          <label>State/UT (राज्य)</label>
+          <input type="text" id="input-state" placeholder="e.g. Bihar">
+        </div>
+        <div class="form-group">
+          <label>District (जिला)</label>
+          <input type="text" id="input-district" placeholder="e.g. Saharsa">
+        </div>
+        <div class="form-group">
+          <label>Sub-district / Tehsil (तहसील)</label>
+          <input type="text" id="input-subdistrict" placeholder="e.g. Kahra">
+        </div>
+        <div class="form-group">
+          <label>Block (प्रखंड)</label>
+          <input type="text" id="input-block" placeholder="e.g. Kahra">
+        </div>
+        <div class="form-group">
+          <label>Panchayat (पंचायत) - Optional</label>
+          <input type="text" id="input-panchayat" placeholder="e.g. Kahra">
+        </div>
+        <div class="form-group">
+          <label>Village / Area (गांव / क्षेत्र)</label>
+          <div id="village-container">
+            <input type="text" id="input-village" placeholder="e.g. Kahra Village">
+          </div>
+        </div>
+        <div class="form-group" style="grid-column: span 2;">
+          <label>Ward No (वार्ड संख्या) - Optional</label>
+          <input type="text" id="input-ward" placeholder="e.g. Ward 12">
+        </div>
+      </div>
+
       <div class="settings-header" style="margin-top: 32px;">
         <h2>Social Links</h2>
         <p style="font-size: 0.9rem; color: var(--text-secondary); margin-top: 4px;">Share your social profiles (optional)</p>
@@ -215,6 +296,99 @@ permalink: /settings/
 
 <script>
 document.addEventListener('DOMContentLoaded', async () => {
+  // Location DOM Elements
+  const pincodeInput = document.getElementById('input-pincode');
+  const pincodeStatus = document.getElementById('pincode-status');
+  const stateInput = document.getElementById('input-state');
+  const districtInput = document.getElementById('input-district');
+  const subdistrictInput = document.getElementById('input-subdistrict');
+  const blockInput = document.getElementById('input-block');
+  const panchayatInput = document.getElementById('input-panchayat');
+  const villageContainer = document.getElementById('village-container');
+  const wardInput = document.getElementById('input-ward');
+
+  let villageTextVal = '';
+
+  // Helper to set village input as text or select
+  function setVillageDropdown(options) {
+    if (!options || options.length === 0) {
+      villageContainer.innerHTML = `<input type="text" id="input-village" placeholder="e.g. Kahra Village" value="${villageTextVal}">`;
+      const textEl = document.getElementById('input-village');
+      textEl.addEventListener('input', () => {
+        villageTextVal = textEl.value;
+      });
+      return;
+    }
+    
+    let html = `<select id="input-village-select">`;
+    html += `<option value="">-- select village/area --</option>`;
+    options.forEach(opt => {
+      const selectedAttr = opt === villageTextVal ? 'selected' : '';
+      html += `<option value="${opt}" ${selectedAttr}>${opt}</option>`;
+    });
+    html += `<option value="__custom__">-- Type custom village --</option>`;
+    html += `</select>`;
+    
+    villageContainer.innerHTML = html;
+
+    const selectEl = document.getElementById('input-village-select');
+    selectEl.addEventListener('change', () => {
+      if (selectEl.value === '__custom__') {
+        villageContainer.innerHTML = `<input type="text" id="input-village" placeholder="e.g. Kahra Village" value="">`;
+        const textEl = document.getElementById('input-village');
+        textEl.focus();
+        textEl.addEventListener('input', () => {
+          villageTextVal = textEl.value;
+        });
+      } else {
+        villageTextVal = selectEl.value;
+      }
+    });
+  }
+
+  function getVillageValue() {
+    const selectEl = document.getElementById('input-village-select');
+    if (selectEl) {
+      return selectEl.value;
+    }
+    const textEl = document.getElementById('input-village');
+    return textEl ? textEl.value.trim() : '';
+  }
+
+  // Handle pincode entry
+  pincodeInput.addEventListener('input', async () => {
+    const pin = pincodeInput.value.trim();
+    if (pin.length === 6 && /^\d{6}$/.test(pin)) {
+      pincodeStatus.textContent = '🔍 Fetching details...';
+      pincodeStatus.style.color = 'var(--text-secondary)';
+      try {
+        const resp = await fetch(`https://api.postalpincode.in/pincode/${pin}`);
+        const resData = await resp.json();
+        if (resData && resData[0] && resData[0].Status === 'Success') {
+          pincodeStatus.textContent = '✅ Pincode details loaded';
+          pincodeStatus.style.color = 'var(--success)';
+          
+          const info = resData[0].PostOffice[0];
+          stateInput.value = info.State || '';
+          districtInput.value = info.District || '';
+          subdistrictInput.value = info.Block === 'No' ? '' : (info.Block || '');
+          blockInput.value = info.Block === 'No' ? '' : (info.Block || '');
+
+          const poList = resData[0].PostOffice.map(po => po.Name);
+          setVillageDropdown(poList);
+        } else {
+          pincodeStatus.textContent = '❌ Invalid Pincode or details not found';
+          pincodeStatus.style.color = 'var(--error)';
+        }
+      } catch (err) {
+        pincodeStatus.textContent = '⚠️ API error, please enter details manually';
+        pincodeStatus.style.color = 'var(--warning)';
+      }
+    } else {
+      pincodeStatus.textContent = '';
+    }
+  });
+
   // Fetch user data
   try {
     const res = await fetch('/api/auth-me');
@@ -236,6 +410,49 @@ document.addEventListener('DOMContentLoaded', async () => {
     document.getElementById('input-pinterest').value = u.social_pinterest || '';
     document.getElementById('input-website1').value = u.social_website1 || '';
     document.getElementById('input-website2').value = u.social_website2 || '';
+
+    if (u.location_address) {
+      try {
+        const loc = JSON.parse(u.location_address);
+        pincodeInput.value = loc.pincode || '';
+        stateInput.value = loc.state || '';
+        districtInput.value = loc.district || '';
+        subdistrictInput.value = loc.subdistrict || '';
+        blockInput.value = loc.block || '';
+        panchayatInput.value = loc.panchayat || '';
+        wardInput.value = loc.ward || '';
+        villageTextVal = loc.village || '';
+        
+        if (loc.pincode) {
+          villageContainer.innerHTML = `<input type="text" id="input-village" placeholder="e.g. Kahra Village" value="${villageTextVal}">`;
+          const textEl = document.getElementById('input-village');
+          textEl.addEventListener('input', () => {
+            villageTextVal = textEl.value;
+          });
+          
+          fetch(`https://api.postalpincode.in/pincode/${loc.pincode}`)
+            .then(r => r.json())
+            .then(resData => {
+              if (resData && resData[0] && resData[0].Status === 'Success') {
+                const poList = resData[0].PostOffice.map(po => po.Name);
+                setVillageDropdown(poList);
+              }
+            }).catch(() => {});
+        } else {
+          villageContainer.innerHTML = `<input type="text" id="input-village" placeholder="e.g. Kahra Village" value="${villageTextVal}">`;
+          const textEl = document.getElementById('input-village');
+          textEl.addEventListener('input', () => {
+            villageTextVal = textEl.value;
+          });
+        }
+      } catch(e) {}
+    } else {
+      villageContainer.innerHTML = `<input type="text" id="input-village" placeholder="e.g. Kahra Village" value="">`;
+      const textEl = document.getElementById('input-village');
+      textEl.addEventListener('input', () => {
+        villageTextVal = textEl.value;
+      });
+    }
 
     if (u.delete_requested_at) {
       document.getElementById('delete-status-container').style.display = 'none';
@@ -275,22 +492,22 @@ document.addEventListener('DOMContentLoaded', async () => {
         
         alertBox.style.display = 'block';
         if (res.ok && data.success) {
-          alertBox.style.backgroundColor = 'rgba(0, 255, 0, 0.1)';
-          alertBox.style.color = 'green';
+          alertBox.style.backgroundColor = 'rgba(34, 197, 94, 0.1)';
+          alertBox.style.color = 'var(--success)';
           alertBox.textContent = 'Password created successfully! You can now log in with your email/username and this password.';
           document.getElementById('input-new-password').value = '';
           setTimeout(() => {
              document.getElementById('password-setup-card').style.display = 'none';
           }, 3000);
         } else {
-          alertBox.style.backgroundColor = 'rgba(255, 0, 0, 0.1)';
-          alertBox.style.color = 'red';
+          alertBox.style.backgroundColor = 'rgba(220, 38, 38, 0.1)';
+          alertBox.style.color = 'var(--error)';
           alertBox.textContent = data.error || 'Failed to save password.';
         }
       } catch (err) {
         alertBox.style.display = 'block';
-        alertBox.style.backgroundColor = 'rgba(255, 0, 0, 0.1)';
-        alertBox.style.color = 'red';
+        alertBox.style.backgroundColor = 'rgba(220, 38, 38, 0.1)';
+        alertBox.style.color = 'var(--error)';
         alertBox.textContent = 'Network error.';
       }
       btn.disabled = false;
@@ -317,6 +534,17 @@ document.addEventListener('DOMContentLoaded', async () => {
       social_pinterest: document.getElementById('input-pinterest').value,
       social_website1: document.getElementById('input-website1').value,
       social_website2: document.getElementById('input-website2').value,
+      location_address: {
+        pincode: pincodeInput.value.trim(),
+        country: 'India',
+        state: stateInput.value.trim(),
+        district: districtInput.value.trim(),
+        subdistrict: subdistrictInput.value.trim(),
+        block: blockInput.value.trim(),
+        panchayat: panchayatInput.value.trim(),
+        village: getVillageValue(),
+        ward: wardInput.value.trim()
+      }
     };
 
     try {

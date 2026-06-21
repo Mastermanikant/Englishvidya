@@ -1,5 +1,6 @@
 ---
 title: "Article 05 — हिंदी बनाम अंग्रेज़ी: उच्चारण का सम्पूर्ण तुलनात्मक विज्ञान (Hindi vs English Phonetics: The Complete Comparison)"
+permalink: /grammar/hindi-english-phonetics-comparison/
 ---
 # Article 05 — हिंदी बनाम अंग्रेज़ी: उच्चारण का सम्पूर्ण तुलनात्मक विज्ञान
 
