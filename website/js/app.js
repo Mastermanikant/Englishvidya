@@ -64,10 +64,33 @@
   // ═══════════════════════════════════════════════════
   const ThemeManager = {
     init() {
-      const saved = localStorage.getItem(STORAGE_KEYS.theme) || 'dark';
-      this.apply(saved);
+      // System theme detection on first visit (no saved preference)
+      const saved = localStorage.getItem(STORAGE_KEYS.theme);
+      const systemPrefers = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      const theme = saved || systemPrefers;
+      this.apply(theme);
+      this.updateDrawerLabel(theme);
+
+      // Desktop toggle button
       const btn = $('#theme-toggle-btn');
       if (btn) btn.addEventListener('click', (e) => this.toggle(e));
+
+      // Mobile drawer toggle button (Bug Fix: was missing)
+      const drawerBtn = $('#theme-toggle-drawer-btn');
+      if (drawerBtn) drawerBtn.addEventListener('click', (e) => this.toggle(e));
+    },
+
+    updateDrawerLabel(theme) {
+      const moonLabel = document.querySelector('#theme-toggle-drawer-btn .theme-label-moon');
+      const sunLabel = document.querySelector('#theme-toggle-drawer-btn .theme-label-sun');
+      if (!moonLabel || !sunLabel) return;
+      if (theme === 'dark') {
+        moonLabel.style.display = 'inline';
+        sunLabel.style.display = 'none';
+      } else {
+        moonLabel.style.display = 'none';
+        sunLabel.style.display = 'inline';
+      }
     },
 
     apply(theme) {
@@ -82,6 +105,16 @@
     toggle(event) {
       const current = document.documentElement.getAttribute('data-theme');
       const next = current === 'dark' ? 'light' : 'dark';
+
+      // Reduced-motion: skip wave animation (Bug Fix)
+      const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+      if (prefersReducedMotion) {
+        this.apply(next);
+        this.updateDrawerLabel(next);
+        showToast(next === 'dark' ? '🌙 Dark Mode Enabled' : '☀️ Light Mode Enabled');
+        return;
+      }
 
       let x = window.innerWidth / 2;
       let y = window.innerHeight / 2;
@@ -119,6 +152,7 @@
 
       setTimeout(() => {
         this.apply(next);
+        this.updateDrawerLabel(next);
         wave.style.transition = 'opacity 0.25s ease';
         wave.style.opacity = '0';
         setTimeout(() => wave.remove(), 250);
@@ -264,9 +298,9 @@
         item.t.toLowerCase().includes(q) || (item.d && item.d.toLowerCase().includes(q))
       ) : [];
 
-      // Search dictionary words
+      // Search dictionary words (Bug Fix: case-insensitive meaning match)
       const dictMatches = dictIndex ? dictIndex.filter(item =>
-        item.w.toLowerCase().includes(q) || item.m.includes(q)
+        item.w.toLowerCase().includes(q) || (item.m && item.m.toLowerCase().includes(q))
       ) : [];
 
       // Combine matches: articles first, then dictionary words
