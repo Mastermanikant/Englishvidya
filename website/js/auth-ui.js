@@ -93,7 +93,7 @@ function updateHeaderForLoggedIn() {
 
   const bottomProfile = document.getElementById('bottom-nav-profile-link');
   if (bottomProfile) {
-    bottomProfile.href = '/settings/';
+    bottomProfile.href = '/profile/';
     const label = bottomProfile.querySelector('span:last-child');
     if (label) label.textContent = 'Profile';
   }
