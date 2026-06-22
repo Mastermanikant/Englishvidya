@@ -85,4 +85,12 @@ layout: layouts/base.njk
   flex-direction: column;
   gap: 20px;
 }
+
+/* Hide ads in presenter-mode if no-ads-active is set */
+body.no-ads-active.presenter-mode .sidebar-ads {
+  display: none !important;
+}
+body.no-ads-active.presenter-mode .article-layout-container {
+  grid-template-columns: 1fr !important;
+}
 </style>

@@ -346,6 +346,96 @@
       0%   { opacity: 0.02; }
       100% { opacity: 0.06; }
     }
+
+    /* ── Freezing Text Scaler Size under Zoom ── */
+    .text-scaler-widget,
+    .text-scaler-widget * {
+      box-sizing: border-box !important;
+    }
+    
+    .text-scaler-panel {
+      border-radius: 20px !important;
+      padding: 12px 14px !important;
+      width: 185px !important;
+      margin-left: 10px !important;
+      flex-direction: column !important;
+      gap: 10px !important;
+    }
+    
+    .text-scaler-widget {
+      font-size: 14px !important;
+    }
+    
+    .text-scaler-toggle {
+      width: 48px !important;
+      height: 48px !important;
+      font-size: 18px !important;
+      font-family: var(--font-heading) !important;
+    }
+    
+    .text-scaler-panel .zoom-btn {
+      color: var(--text-primary) !important;
+      background: none !important;
+      border: none !important;
+      cursor: pointer !important;
+      font-size: 14px !important;
+    }
+    
+    .text-scaler-panel .zoom-btn:hover {
+      color: var(--accent) !important;
+    }
+    
+    .text-scaler-panel .action-btn {
+      transition: all 0.2s ease !important;
+    }
+    .text-scaler-panel .action-btn:hover {
+      background: var(--bg-active) !important;
+      border-color: var(--accent) !important;
+    }
+    .text-scaler-panel .action-btn:active {
+      transform: scale(0.95) !important;
+    }
+    
+    .text-scaler-panel .reset-btn {
+      font-size: 12px !important;
+      border-radius: 8px !important;
+    }
+    
+    .text-scaler-panel .hide-btn {
+      color: var(--text-tertiary) !important;
+      background: transparent !important;
+      font-size: 14px !important;
+    }
+    .text-scaler-panel .hide-btn:hover {
+      color: var(--error) !important;
+    }
+    
+    /* Small warning countdown timer for ad-free pass */
+    #ad-free-warning-timer {
+      position: fixed;
+      top: 10px;
+      right: 10px;
+      background: rgba(220, 38, 38, 0.95);
+      color: white;
+      padding: 6px 12px;
+      border-radius: 8px;
+      font-family: monospace;
+      font-size: 13px;
+      font-weight: bold;
+      z-index: 10000;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+      animation: timerPulse 1s infinite alternate;
+      pointer-events: none;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      border: 1px solid rgba(255,255,255,0.2);
+    }
+    
+    @keyframes timerPulse {
+      from { opacity: 0.85; transform: scale(0.98); }
+      to { opacity: 1; transform: scale(1); }
+    }
   </style>
 
   <div id="ev-watermark" aria-hidden="true">EnglishVidya.com</div>
@@ -356,22 +446,37 @@
     <button id="text-scaler-toggle" class="text-scaler-toggle" aria-label="Adjust text size" aria-expanded="false">
       Aa
     </button>
-    <div id="text-scaler-panel" class="text-scaler-panel" aria-hidden="true" style="display: flex; flex-direction: column; gap: 8px; width: 170px;">
-      <div style="display: flex; gap: 8px; align-items: center; justify-content: space-between;">
-        {# WCAG fix: min 44x44px touch targets for A- and A+ buttons #}
-        <button id="text-scaler-dec" class="panel-btn" aria-label="Decrease text size" style="flex: 0 0 44px; min-height: 44px; padding: 0;">A-</button>
-        <span id="text-scaler-value" class="panel-value" style="flex: 1; text-align: center;">100%</span>
-        <button id="text-scaler-inc" class="panel-btn" aria-label="Increase text size" style="flex: 0 0 44px; min-height: 44px; padding: 0;">A+</button>
+    <div id="text-scaler-panel" class="text-scaler-panel" aria-hidden="true" style="display: flex; flex-direction: column; gap: 10px; width: 185px;">
+      <!-- Zoom Control -->
+      <div style="display: flex; flex-direction: column; gap: 4px; width: 100%;">
+        <div style="display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: var(--text-secondary);">
+          <span>Text Zoom</span>
+          <span id="text-scaler-value" class="panel-value" style="font-weight: 700; color: var(--accent); min-width: auto; text-align: right;">100%</span>
+        </div>
+        <div style="display: flex; gap: 6px; align-items: center; justify-content: space-between; width: 100%;">
+          <button id="text-scaler-dec" class="zoom-btn" aria-label="Decrease text size" style="background: none; border: none; color: var(--text-primary); cursor: pointer; font-size: 12px; font-weight: bold; padding: 4px 6px;">A-</button>
+          <input type="range" id="text-zoom-slider" min="50" max="200" step="10" value="100" style="flex: 1; cursor: pointer; accent-color: var(--accent); height: 6px; border-radius: 3px;">
+          <button id="text-scaler-inc" class="zoom-btn" aria-label="Increase text size" style="background: none; border: none; color: var(--text-primary); cursor: pointer; font-size: 16px; font-weight: bold; padding: 4px 6px;">A+</button>
+        </div>
       </div>
-      <div style="display: flex; gap: 8px; align-items: center; justify-content: space-between; border-top: 1px solid var(--border); padding-top: 8px; margin-top: 2px;">
-        <span style="font-size: 1rem;" title="Brightness">☀️</span>
-        <input type="range" id="screen-dimmer-slider" min="0" max="80" value="0" style="flex: 1; cursor: pointer; accent-color: var(--accent);">
-        <span style="font-size: 1rem;" title="Darkness">🌙</span>
+      
+      <!-- Brightness/Dimmer Control -->
+      <div style="display: flex; flex-direction: column; gap: 4px; border-top: 1px solid var(--border); padding-top: 8px; width: 100%;">
+        <div style="display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: var(--text-secondary);">
+          <span>Brightness</span>
+        </div>
+        <div style="display: flex; gap: 6px; align-items: center; justify-content: space-between; width: 100%;">
+          <span style="font-size: 14px;" title="Light">☀️</span>
+          <input type="range" id="screen-dimmer-slider" min="0" max="80" value="0" style="flex: 1; cursor: pointer; accent-color: var(--accent); height: 6px; border-radius: 3px;">
+          <span style="font-size: 14px;" title="Dark">🌙</span>
+        </div>
       </div>
-      <div style="display: flex; gap: 8px;">
-        <button id="teacher-fullscreen" class="panel-btn" aria-label="Teacher Full Screen" title="Teacher Full Screen" style="background: var(--accent); color: white; border: none; padding: 8px; font-weight: bold; border-radius: 4px; flex: 1; font-size: 1.2rem;">⛶</button>
-        <button id="text-scaler-reset" class="panel-btn reset-btn" style="flex: 1;" title="Reset text size">Reset</button>
-        <button id="text-scaler-hide" class="panel-btn hide-btn" style="flex: 1;" title="Hide this widget">✕</button>
+      
+      <!-- Actions -->
+      <div style="display: flex; gap: 6px; border-top: 1px solid var(--border); padding-top: 8px; align-items: center; justify-content: space-between; width: 100%;">
+        <button id="teacher-fullscreen" class="action-btn" aria-label="Teacher Full Screen" title="Teacher Full Screen" style="background: var(--accent); color: white; border: none; width: 32px; height: 32px; border-radius: 8px; font-weight: bold; font-size: 16px; display: flex; align-items: center; justify-content: center; cursor: pointer;">⛶</button>
+        <button id="text-scaler-reset" class="action-btn reset-btn" style="flex: 1; height: 32px; font-size: 12px; border-radius: 8px; background: var(--bg-hover); color: var(--text-primary); border: 1px solid var(--border); cursor: pointer; font-weight: 600;" title="Reset text size">Reset</button>
+        <button id="text-scaler-hide" class="action-btn hide-btn" style="width: 32px; height: 32px; font-size: 14px; border-radius: 8px; background: transparent; border: none; color: var(--text-tertiary); cursor: pointer; display: flex; align-items: center; justify-content: center;" title="Hide this widget">✕</button>
       </div>
     </div>
   </div>
@@ -402,6 +507,7 @@
       const fullScreenBtn = document.getElementById('teacher-fullscreen');
       const headerBtn = document.getElementById('text-scaler-header-btn');
       const drawerBtn = document.getElementById('text-scaler-drawer-btn');
+      const zoomSlider = document.getElementById('text-zoom-slider');
       
       if (!widget || !toggle) return;
 
@@ -497,15 +603,24 @@
       
       function setScale(scale) {
         currentScale = Math.max(0.5, Math.min(2.0, scale));
-        // Accessibility fix: only set html fontSize % — browser's own font settings are preserved
-        // body inherits via CSS (no px override that breaks WCAG 1.4.4)
         document.documentElement.style.fontSize = (currentScale * 100) + '%';
         localStorage.setItem('ev-text-scale', currentScale);
         const valEl = document.getElementById('text-scaler-value');
         if (valEl) valEl.textContent = Math.round(currentScale * 100) + '%';
+        
+        if (zoomSlider) {
+          zoomSlider.value = Math.round(currentScale * 100);
+        }
       }
 
       setScale(currentScale);
+
+      if (zoomSlider) {
+        zoomSlider.value = Math.round(currentScale * 100);
+        zoomSlider.addEventListener('input', (e) => {
+          setScale(parseFloat(e.target.value) / 100);
+        });
+      }
 
       decBtn.addEventListener('click', () => setScale(currentScale - 0.1));
       incBtn.addEventListener('click', () => setScale(currentScale + 0.1));
@@ -515,6 +630,51 @@
           togglePanelState();
         }
       });
+
+      // ── Ad-Free Pass Warning Timer & State Logic ──
+      let warningTimerDiv = null;
+      let adFreeInterval = null;
+
+      function checkAdFreeStatus() {
+        const noAdsUntilStr = localStorage.getItem('ev-no-ads-until');
+        const showWarningPref = localStorage.getItem('ev-show-warning-timer') !== 'false';
+        
+        if (noAdsUntilStr) {
+          const expirationTime = parseInt(noAdsUntilStr, 10);
+          const now = Date.now();
+          const remainingMs = expirationTime - now;
+          
+          if (remainingMs > 0) {
+            document.body.classList.add('no-ads-active');
+            
+            // Show red warning timer if 1 minute remains and setting is enabled
+            if (remainingMs <= 60000 && showWarningPref) {
+              if (!warningTimerDiv) {
+                warningTimerDiv = document.createElement('div');
+                warningTimerDiv.id = 'ad-free-warning-timer';
+                document.body.appendChild(warningTimerDiv);
+              }
+              const remainingSec = Math.ceil(remainingMs / 1000);
+              warningTimerDiv.innerHTML = `⚠️ <span style="color:#ef4444;margin-left:2px;">00:${remainingSec.toString().padStart(2, '0')}</span>`;
+            } else {
+              if (warningTimerDiv) {
+                warningTimerDiv.remove();
+                warningTimerDiv = null;
+              }
+            }
+            return;
+          }
+        }
+        
+        document.body.classList.remove('no-ads-active');
+        if (warningTimerDiv) {
+          warningTimerDiv.remove();
+          warningTimerDiv = null;
+        }
+      }
+
+      checkAdFreeStatus();
+      adFreeInterval = setInterval(checkAdFreeStatus, 1000);
 
       let isDragging = false;
       let startX, startY;
