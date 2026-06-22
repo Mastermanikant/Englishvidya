@@ -63,7 +63,7 @@ export async function onRequestGet(context) {
     }
     else if (type === 'users') {
       const results = await env.DB.prepare(
-        `SELECT id, name, email, username, role, trust_score, is_shadow_banned, created_at 
+        `SELECT id, name, email, username, role, trust_score, is_shadow_banned, admin_reset_requested_at, created_at 
          FROM users 
          ORDER BY created_at DESC`
       ).all();

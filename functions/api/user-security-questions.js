@@ -12,22 +12,41 @@ export async function onRequestPost(context) {
       return Response.json({ error: '3 security questions are required.' }, { status: 400 });
     }
 
+    // Fetch existing questions to check if we can reuse hashes
+    const existingUser = await env.DB.prepare('SELECT security_questions FROM users WHERE id = ?').bind(user.id).first();
+    const existingQs = existingUser && existingUser.security_questions ? JSON.parse(existingUser.security_questions) : [];
+
     const processedQuestions = [];
-    for (const q of questions) {
+    for (let i = 0; i < 3; i++) {
+      const q = questions[i];
+      if (!q) {
+        return Response.json({ error: '3 security questions are required.' }, { status: 400 });
+      }
       const { question, answer, isCustom } = q;
-      if (!question || !question.trim() || !answer || !answer.trim()) {
-        return Response.json({ error: 'सभी प्रश्नों और उत्तरों को भरना अनिवार्य है।' }, { status: 400 });
+      if (!question || !question.trim()) {
+        return Response.json({ error: 'सभी प्रश्नों को भरना अनिवार्य है।' }, { status: 400 });
       }
 
-      // Clean the answer: lowercase and strip spaces
-      const cleanAnswer = answer.trim().toLowerCase().replace(/\s+/g, '');
+      let answerHash = null;
+      if (!answer || !answer.trim()) {
+        // Check if existing question matches, so we can reuse hash
+        const matchingExisting = existingQs.find(eq => eq.question.trim().toLowerCase() === question.trim().toLowerCase());
+        if (matchingExisting && matchingExisting.answer_hash) {
+          answerHash = matchingExisting.answer_hash;
+        } else {
+          return Response.json({ error: 'सभी नए सुरक्षा प्रश्नों के उत्तर देना अनिवार्य है।' }, { status: 400 });
+        }
+      } else {
+        // Clean the answer: lowercase and strip spaces
+        const cleanAnswer = answer.trim().toLowerCase().replace(/\s+/g, '');
 
-      // Generate SHA-256 hash of clean answer
-      const encoder = new TextEncoder();
-      const data = encoder.encode(cleanAnswer);
-      const hashBuffer = await crypto.subtle.digest('SHA-256', data);
-      const hashArray = Array.from(new Uint8Array(hashBuffer));
-      const answerHash = hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+        // Generate SHA-256 hash of clean answer
+        const encoder = new TextEncoder();
+        const data = encoder.encode(cleanAnswer);
+        const hashBuffer = await crypto.subtle.digest('SHA-256', data);
+        const hashArray = Array.from(new Uint8Array(hashBuffer));
+        answerHash = hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+      }
 
       processedQuestions.push({
         question: question.trim(),

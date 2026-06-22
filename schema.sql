@@ -34,6 +34,8 @@ CREATE TABLE IF NOT EXISTS users (
   reset_token TEXT UNIQUE DEFAULT NULL,
   reset_token_expires_at TEXT DEFAULT NULL,
   admin_reset_requested_at TEXT DEFAULT NULL,
+  reset_attempts INTEGER DEFAULT 0,
+  reset_request_timestamps TEXT DEFAULT NULL,
   created_at TEXT NOT NULL DEFAULT (datetime('now')),
   updated_at TEXT NOT NULL DEFAULT (datetime('now'))
 );

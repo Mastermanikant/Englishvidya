@@ -1,0 +1,195 @@
+---
+layout: layouts/base.njk
+pageTitle: "Forgot Password - EnglishVidya"
+permalink: /forgot-password/
+---
+
+<div class="auth-container" style="max-width: 450px; margin: 60px auto; padding: 35px; background: var(--bg-raised); border-radius: var(--radius-xl); box-shadow: var(--shadow-lg); border: 1px solid var(--border-color);">
+  <h1 style="font-family: var(--font-heading); margin-bottom: 10px; font-size: 1.8rem; background: var(--gradient-accent); -webkit-background-clip: text; -webkit-text-fill-color: transparent; display: inline-block;">🔑 Password Recovery</h1>
+  <p style="color: var(--text-secondary); margin-bottom: 24px; font-size: 0.95rem; line-height: 1.5;">
+    अपना रजिस्टर्ड ईमेल या यूज़रनेम दर्ज करें ताकि हम आपको पासवर्ड रीसेट करने के लिए ६-अंकीय OTP और लिंक भेज सकें।
+  </p>
+
+  <div id="alert-msg" class="alert-msg" style="display: none; padding: 12px; border-radius: 8px; margin-bottom: 18px; font-size: 0.9rem; font-weight: 500;"></div>
+
+  <!-- Step 1 Form -->
+  <form id="forgot-form-step1" style="display: flex; flex-direction: column; gap: 16px;">
+    <div class="form-group" style="text-align: left; margin-bottom: 0;">
+      <label style="display: block; margin-bottom: 8px; font-weight: 600; font-size: 0.9rem; color: var(--text-secondary);">Email or Username (ईमेल या यूज़रनेम)</label>
+      <input type="text" id="input-email-username" placeholder="e.g. rohan@email.com or rohan_12" required style="width: 100%; padding: 12px 14px; border-radius: var(--radius-sm); border: 1px solid var(--border-color); background: var(--bg-base); color: var(--text-main); font-size: 0.95rem;">
+    </div>
+    <button type="submit" class="btn-primary" id="btn-step1" style="padding: 12px; border-radius: var(--radius-sm); font-weight: bold; font-size: 1rem; cursor: pointer; background: var(--accent); color: white; border: none;">Next (आगे बढ़ें)</button>
+  </form>
+
+  <!-- Step 2 Form (Recovery Email Choice) -->
+  <form id="forgot-form-step2" style="display: none; flex-direction: column; gap: 20px; text-align: left;">
+    <p style="color: var(--text-secondary); font-size: 0.95rem; line-height: 1.4; margin-top: 0;">
+      आपके अकाउंट में एक वैकल्पिक रिकवरी ईमेल भी सेट है। कृपया रीसेट कोड भेजने के लिए इनमें से कोई एक ईमेल चुनें:
+    </p>
+    
+    <div style="display: flex; flex-direction: column; gap: 10px;">
+      <label style="display: flex; align-items: center; gap: 10px; padding: 12px; border: 1px solid var(--border-color); border-radius: 8px; background: var(--bg-base); cursor: pointer;">
+        <input type="radio" name="target-email" value="primary" checked style="width: auto;">
+        <div>
+          <span style="font-weight: 600; font-size: 0.9rem; color: var(--text-main);">Primary Email (मुख्य ईमेल)</span>
+          <div id="obfuscated-primary" style="font-size: 0.85rem; color: var(--text-secondary); margin-top: 2px;"></div>
+        </div>
+      </label>
+
+      <label style="display: flex; align-items: center; gap: 10px; padding: 12px; border: 1px solid var(--border-color); border-radius: 8px; background: var(--bg-base); cursor: pointer;">
+        <input type="radio" name="target-email" value="recovery" style="width: auto;">
+        <div>
+          <span style="font-weight: 600; font-size: 0.9rem; color: var(--text-main);">Recovery Email (बैकअप ईमेल)</span>
+          <div id="obfuscated-recovery" style="font-size: 0.85rem; color: var(--text-secondary); margin-top: 2px;"></div>
+        </div>
+      </label>
+    </div>
+
+    <button type="submit" class="btn-primary" id="btn-step2" style="padding: 12px; border-radius: var(--radius-sm); font-weight: bold; font-size: 1rem; cursor: pointer; background: var(--accent); color: white; border: none;">Send Reset Details (रीसेट कोड भेजें)</button>
+  </form>
+
+  <!-- Success Message State -->
+  <div id="success-state" style="display: none; text-align: center;">
+    <div style="font-size: 3rem; margin-bottom: 15px;">✉️</div>
+    <h3 style="color: var(--success); margin-bottom: 10px;">OTP Sent Successfully!</h3>
+    <p id="success-text" style="color: var(--text-secondary); font-size: 0.95rem; line-height: 1.5; margin-bottom: 24px;"></p>
+    <a href="/reset-password/" class="btn-primary" style="display: inline-block; padding: 10px 20px; border-radius: var(--radius-sm); font-weight: bold; text-decoration: none; background: var(--accent); color: white; border: none;">Enter OTP (ओटीपी दर्ज करें)</a>
+  </div>
+
+  <!-- Local Dev Debug Container -->
+  <div id="dev-debug-container" style="display: none; margin-top: 25px; padding: 15px; border: 1px dashed var(--warning); border-radius: 8px; background: rgba(245, 158, 11, 0.05); text-align: left;">
+    <h4 style="color: var(--warning); margin: 0 0 10px 0; font-size: 0.95rem;">⚠️ [Developer Mode] Local Details</h4>
+    <div style="font-size: 0.85rem; color: var(--text-secondary); line-height: 1.4;">
+      <strong>OTP Code:</strong> <code id="dev-otp-code" style="color: var(--warning); font-size: 1rem; font-weight: bold;"></code><br>
+      <strong>Reset Link:</strong> <a id="dev-reset-link" href="" style="color: var(--accent); word-break: break-all;"></a>
+    </div>
+  </div>
+
+  <div style="margin-top: 30px; border-top: 1px solid var(--border-color); padding-top: 15px; font-size: 0.9rem;">
+    <a href="/login/" style="color: var(--text-secondary); text-decoration: none; font-weight: 500;">← Back to Login</a>
+  </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const alertBox = document.getElementById('alert-msg');
+  const step1Form = document.getElementById('forgot-form-step1');
+  const step2Form = document.getElementById('forgot-form-step2');
+  const successState = document.getElementById('success-state');
+  const successText = document.getElementById('success-text');
+  
+  const devDebugContainer = document.getElementById('dev-debug-container');
+  const devOtpCode = document.getElementById('dev-otp-code');
+  const devResetLink = document.getElementById('dev-reset-link');
+
+  let currentUsernameOrEmail = '';
+
+  function showAlert(msg, isError = true) {
+    alertBox.style.display = 'block';
+    if (isError) {
+      alertBox.style.backgroundColor = 'rgba(220, 38, 38, 0.1)';
+      alertBox.style.borderColor = 'var(--error)';
+      alertBox.style.color = 'var(--error)';
+    } else {
+      alertBox.style.backgroundColor = 'rgba(34, 197, 94, 0.1)';
+      alertBox.style.borderColor = 'var(--success)';
+      alertBox.style.color = 'var(--success)';
+    }
+    alertBox.textContent = msg;
+  }
+
+  // Handle Step 1 Submit
+  step1Form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const inputVal = document.getElementById('input-email-username').value.trim();
+    if (!inputVal) return;
+
+    const btn = document.getElementById('btn-step1');
+    btn.disabled = true;
+    btn.textContent = 'Processing...';
+    alertBox.style.display = 'none';
+
+    try {
+      const res = await fetch('/api/auth-reset-request', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ emailOrUsername: inputVal })
+      });
+      const data = await res.json();
+
+      if (res.ok) {
+        currentUsernameOrEmail = inputVal;
+        if (data.requireChoice) {
+          // Show Step 2 Choice Form
+          document.getElementById('obfuscated-primary').textContent = data.primaryEmail;
+          document.getElementById('obfuscated-recovery').textContent = data.recoveryEmail;
+          
+          step1Form.style.display = 'none';
+          step2Form.style.display = 'flex';
+        } else {
+          // Automatically sent to primary email, show success state
+          step1Form.style.display = 'none';
+          successState.style.display = 'block';
+          successText.textContent = data.message || `एक पासवर्ड रीसेट लिंक और ६-अंकीय OTP कोड आपके पंजीकृत ईमेल पर भेज दिया गया है। यह कोड ३० घंटे के लिए वैध रहेगा।`;
+          
+          if (data.devMode) {
+            devDebugContainer.style.display = 'block';
+            devOtpCode.textContent = data.devOtp;
+            devResetLink.href = data.devResetLink;
+            devResetLink.textContent = data.devResetLink;
+          }
+        }
+      } else {
+        showAlert(data.error || 'अकाउंट खोजने में त्रुटि हुई।');
+      }
+    } catch (err) {
+      showAlert('नेटवर्क त्रुटि। कृपया पुनः प्रयास करें।');
+    } finally {
+      btn.disabled = false;
+      btn.textContent = 'Next (आगे बढ़ें)';
+    }
+  });
+
+  // Handle Step 2 Submit
+  step2Form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const selectedTarget = document.querySelector('input[name="target-email"]:checked').value;
+    const btn = document.getElementById('btn-step2');
+    btn.disabled = true;
+    btn.textContent = 'Sending...';
+    alertBox.style.display = 'none';
+
+    try {
+      const res = await fetch('/api/auth-reset-request', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          emailOrUsername: currentUsernameOrEmail,
+          sendTo: selectedTarget
+        })
+      });
+      const data = await res.json();
+
+      if (res.ok) {
+        step2Form.style.display = 'none';
+        successState.style.display = 'block';
+        successText.textContent = data.message || `पासवर्ड रीसेट लिंक और ६-अंकीय OTP कोड आपके चुने हुए ईमेल पर भेज दिया गया है।`;
+        
+        if (data.devMode) {
+          devDebugContainer.style.display = 'block';
+          devOtpCode.textContent = data.devOtp;
+          devResetLink.href = data.devResetLink;
+          devResetLink.textContent = data.devResetLink;
+        }
+      } else {
+        showAlert(data.error || 'कोड भेजने में त्रुटि हुई।');
+      }
+    } catch (err) {
+      showAlert('नेटवर्क त्रुटि। कृपया पुनः प्रयास करें।');
+    } finally {
+      btn.disabled = false;
+      btn.textContent = 'Send Reset Details (रीसेट कोड भेजें)';
+    }
+  });
+});
+</script>

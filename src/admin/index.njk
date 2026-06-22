@@ -437,6 +437,30 @@ function renderUsersTable(users) {
       ? `<button onclick="toggleShadowBan(${user.id}, 0)" style="background: #22c55e; color:white; border:none; padding:4px 8px; border-radius:4px; cursor:pointer; font-weight:600; font-size:0.8rem;">Unrestrict</button>`
       : `<button onclick="toggleShadowBan(${user.id}, 1)" style="background: #ef4444; color:white; border:none; padding:4px 8px; border-radius:4px; cursor:pointer; font-weight:600; font-size:0.8rem;">Restrict (Quiet Ban)</button>`;
 
+    let adminResetHtml = `<span style="color:var(--text-secondary); font-size:0.9rem;">No requests</span>`;
+    if (user.admin_reset_requested_at) {
+      const reqTime = new Date(user.admin_reset_requested_at).getTime();
+      const now = Date.now();
+      const diffHours = (now - reqTime) / (1000 * 60 * 60);
+      
+      if (diffHours < 48) {
+        const remaining = Math.ceil(48 - diffHours);
+        adminResetHtml = `
+          <div style="display:flex; flex-direction:column; gap:4px; align-items:flex-start;">
+            <span style="color:var(--warning); font-weight:bold; font-size:0.85rem;">🔒 Hold (${remaining}h left)</span>
+            <button disabled style="opacity:0.5; background:var(--border-color); color:var(--text-secondary); border:none; padding:4px 8px; border-radius:4px; font-weight:600; font-size:0.8rem; cursor:not-allowed;">Reset Password</button>
+          </div>
+        `;
+      } else {
+        adminResetHtml = `
+          <div style="display:flex; flex-direction:column; gap:4px; align-items:flex-start;">
+            <span style="color:#22c55e; font-weight:bold; font-size:0.85rem;">🔓 Ready</span>
+            <button onclick="adminResetPassword(${user.id}, '${user.name}')" style="background:var(--accent); color:white; border:none; padding:4px 8px; border-radius:4px; cursor:pointer; font-weight:600; font-size:0.8rem;">Reset Password</button>
+          </div>
+        `;
+      }
+    }
+
     return `
       <tr>
         <td style="font-weight: bold; color: var(--accent);">${user.id}</td>
@@ -458,6 +482,7 @@ function renderUsersTable(users) {
             ${quietModeBtn}
           </div>
         </td>
+        <td>${adminResetHtml}</td>
         <td>${date}</td>
       </tr>
     `;
@@ -473,6 +498,7 @@ function renderUsersTable(users) {
             <th>Role</th>
             <th>Trust Score</th>
             <th>Quiet Mode (Shadow Ban)</th>
+            <th>Admin Reset (48h Hold)</th>
             <th>Joined</th>
           </tr>
         </thead>
@@ -544,6 +570,32 @@ async function toggleShadowBan(userId, isBanned) {
     }
   } catch (e) {
     alert('Error updating ban status.');
+  }
+}
+
+async function adminResetPassword(userId, userName) {
+  const newPassword = prompt(`Enter new password for ${userName || 'User #' + userId} (min 6 chars):`);
+  if (!newPassword) return;
+  if (newPassword.length < 6) {
+    alert('Password must be at least 6 characters.');
+    return;
+  }
+
+  try {
+    const res = await fetch('/api/admin-action', {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({ type: 'admin_reset_user_password', id: userId, newPassword })
+    });
+    const data = await res.json();
+    if (res.ok && data.success) {
+      alert(data.message || 'Password reset successfully!');
+      loadAllUsers();
+    } else {
+      alert(data.error || 'Failed to reset password.');
+    }
+  } catch(e) {
+    alert('Network error.');
   }
 }
 

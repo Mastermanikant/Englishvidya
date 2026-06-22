@@ -27,7 +27,10 @@ permalink: /login/
 
   <form id="login-form" style="display: flex; flex-direction: column; gap: 16px;">
     <input type="text" id="login-id" placeholder="Email or UserID" required style="padding: 12px; border-radius: 8px; border: 1px solid var(--border); background: var(--bg-base); color: var(--text-main); font-size: 1rem;">
-    <input type="password" id="login-password" placeholder="Password" required style="padding: 12px; border-radius: 8px; border: 1px solid var(--border); background: var(--bg-base); color: var(--text-main); font-size: 1rem;">
+    <div style="display: flex; flex-direction: column; align-items: flex-end; gap: 6px;">
+      <input type="password" id="login-password" placeholder="Password" required style="width:100%; padding: 12px; border-radius: 8px; border: 1px solid var(--border); background: var(--bg-base); color: var(--text-main); font-size: 1rem;">
+      <a href="/forgot-password/" style="color: var(--accent); font-size: 0.85rem; font-weight: 600; text-decoration: none;">Forgot Password? (पासवर्ड भूल गए?)</a>
+    </div>
     <button type="submit" class="btn-primary" id="login-btn" style="padding: 12px; border-radius: 8px; font-weight: bold; font-size: 1.1rem;">Log In</button>
     <div id="login-error" style="color: red; font-size: 0.9rem; display: none;"></div>
   </form>

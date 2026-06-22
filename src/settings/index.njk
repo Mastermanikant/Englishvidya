@@ -548,21 +548,91 @@ document.addEventListener('DOMContentLoaded', async () => {
       document.getElementById('delete-pending-container').style.display = 'block';
     }
 
-    if (!u.has_password) {
-      document.getElementById('password-setup-card').style.display = 'block';
+    // Populate recovery email and questions
+    document.getElementById('input-recovery-email').value = u.recovery_email || '';
+    
+    if (u.security_questions) {
+      if (u.security_questions[0]) {
+        document.getElementById('q1-select').value = u.security_questions[0].question || '';
+        document.getElementById('q1-answer').placeholder = '•••••• (सहेजा गया है, बदलने के लिए फिर से लिखें)';
+        document.getElementById('q1-answer').required = false;
+      }
+      if (u.security_questions[1]) {
+        document.getElementById('q2-select').value = u.security_questions[1].question || '';
+        document.getElementById('q2-answer').placeholder = '•••••• (सहेजा गया है, बदलने के लिए फिर से लिखें)';
+        document.getElementById('q2-answer').required = false;
+      }
+      if (u.security_questions[2]) {
+        document.getElementById('q3-answer').placeholder = '•••••• (सहेजा गया है, बदलने के लिए फिर से लिखें)';
+        document.getElementById('q3-answer').required = false;
+        if (u.security_questions[2].is_custom) {
+          document.getElementById('custom-q-check').checked = true;
+          document.getElementById('q3-select').style.display = 'none';
+          document.getElementById('q3-select').required = false;
+          document.getElementById('q3-custom-text').style.display = 'block';
+          document.getElementById('q3-custom-text').required = true;
+          document.getElementById('q3-custom-text').value = u.security_questions[2].question || '';
+        } else {
+          document.getElementById('custom-q-check').checked = false;
+          document.getElementById('q3-select').style.display = 'block';
+          document.getElementById('q3-select').required = true;
+          document.getElementById('q3-custom-text').style.display = 'none';
+          document.getElementById('q3-custom-text').required = false;
+          document.getElementById('q3-select').value = u.security_questions[2].question || '';
+        }
+      }
+    }
+
+    // Toggle password fields based on whether they have a password
+    const pwdGroup = document.getElementById('password-current-group');
+    const pwdDesc = document.getElementById('password-desc');
+    const lblNewPwd = document.getElementById('lbl-new-password');
+    const savePwdBtn = document.getElementById('save-password-btn');
+    if (u.has_password) {
+      pwdGroup.style.display = 'block';
+      document.getElementById('input-current-password').required = true;
+      pwdDesc.style.display = 'none';
+      lblNewPwd.textContent = 'New Password (नया पासवर्ड - min 6 chars)';
+      savePwdBtn.textContent = 'Update Password';
+    } else {
+      pwdGroup.style.display = 'none';
+      document.getElementById('input-current-password').required = false;
+      pwdDesc.style.display = 'block';
+      lblNewPwd.textContent = 'Set Password (पासवर्ड सेट करें - min 6 chars)';
+      savePwdBtn.textContent = 'Set Password';
     }
 
   } catch (e) {
     console.error('Failed to load user', e);
   }
 
-  // Handle Password Setup
-  const passForm = document.getElementById('password-form');
-  if (passForm) {
-    passForm.addEventListener('submit', async (e) => {
+  // Handle custom question checkbox toggle
+  const customQCheck = document.getElementById('custom-q-check');
+  const q3Select = document.getElementById('q3-select');
+  const q3CustomText = document.getElementById('q3-custom-text');
+
+  customQCheck.addEventListener('change', () => {
+    if (customQCheck.checked) {
+      q3Select.style.display = 'none';
+      q3Select.required = false;
+      q3CustomText.style.display = 'block';
+      q3CustomText.required = true;
+    } else {
+      q3Select.style.display = 'block';
+      q3Select.required = true;
+      q3CustomText.style.display = 'none';
+      q3CustomText.required = false;
+    }
+  });
+
+  // Handle Password Change Setup
+  const passChangeForm = document.getElementById('password-change-form');
+  if (passChangeForm) {
+    passChangeForm.addEventListener('submit', async (e) => {
       e.preventDefault();
       const btn = document.getElementById('save-password-btn');
-      const alertBox = document.getElementById('password-alert');
+      const alertBox = document.getElementById('security-alert');
+      const currentPassword = document.getElementById('input-current-password').value;
       const newPassword = document.getElementById('input-new-password').value;
 
       if (newPassword.length < 6) return;
@@ -575,32 +645,102 @@ document.addEventListener('DOMContentLoaded', async () => {
         const res = await fetch('/api/user-password', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ password: newPassword })
+          body: JSON.stringify({ currentPassword: currentPassword || undefined, password: newPassword })
         });
         const data = await res.json();
         
         alertBox.style.display = 'block';
         if (res.ok && data.success) {
-          alertBox.style.backgroundColor = 'rgba(34, 197, 94, 0.1)';
-          alertBox.style.color = 'var(--success)';
-          alertBox.textContent = 'Password created successfully! You can now log in with your email/username and this password.';
+          alertBox.className = 'alert-msg alert-success';
+          alertBox.textContent = 'Password updated successfully!';
+          document.getElementById('input-current-password').value = '';
           document.getElementById('input-new-password').value = '';
-          setTimeout(() => {
-             document.getElementById('password-setup-card').style.display = 'none';
-          }, 3000);
+          
+          setTimeout(() => window.location.reload(), 2000);
         } else {
-          alertBox.style.backgroundColor = 'rgba(220, 38, 38, 0.1)';
-          alertBox.style.color = 'var(--error)';
-          alertBox.textContent = data.error || 'Failed to save password.';
+          alertBox.className = 'alert-msg alert-error';
+          alertBox.textContent = data.error || 'Failed to update password.';
         }
       } catch (err) {
         alertBox.style.display = 'block';
-        alertBox.style.backgroundColor = 'rgba(220, 38, 38, 0.1)';
-        alertBox.style.color = 'var(--error)';
+        alertBox.className = 'alert-msg alert-error';
         alertBox.textContent = 'Network error.';
+      } finally {
+        btn.disabled = false;
       }
-      btn.disabled = false;
-      btn.textContent = 'Set Password';
+    });
+  }
+
+  // Handle Security Questions Form
+  const securityQuestionsForm = document.getElementById('security-questions-form');
+  if (securityQuestionsForm) {
+    securityQuestionsForm.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const btn = document.getElementById('save-questions-btn');
+      const alertBox = document.getElementById('security-alert');
+      
+      const recoveryEmail = document.getElementById('input-recovery-email').value.trim();
+      
+      const q1 = document.getElementById('q1-select').value;
+      const a1 = document.getElementById('q1-answer').value;
+      
+      const q2 = document.getElementById('q2-select').value;
+      const a2 = document.getElementById('q2-answer').value;
+      
+      const isCustom3 = document.getElementById('custom-q-check').checked;
+      const q3 = isCustom3 ? document.getElementById('q3-custom-text').value : document.getElementById('q3-select').value;
+      const a3 = document.getElementById('q3-answer').value;
+
+      if (!q1 || !q2 || !q3) {
+        alertBox.style.display = 'block';
+        alertBox.className = 'alert-msg alert-error';
+        alertBox.textContent = 'सभी ३ सुरक्षा प्रश्नों को चुनना अनिवार्य है।';
+        return;
+      }
+
+      if (q1 === q2 || q1 === q3 || q2 === q3) {
+        alertBox.style.display = 'block';
+        alertBox.className = 'alert-msg alert-error';
+        alertBox.textContent = 'सभी ३ सुरक्षा प्रश्न अलग-अलग होने चाहिए।';
+        return;
+      }
+
+      btn.disabled = true;
+      btn.textContent = 'Saving...';
+      alertBox.style.display = 'none';
+
+      try {
+        const res = await fetch('/api/user-security-questions', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            recoveryEmail,
+            questions: [
+              { question: q1, answer: a1 || undefined, isCustom: false },
+              { question: q2, answer: a2 || undefined, isCustom: false },
+              { question: q3, answer: a3 || undefined, isCustom: isCustom3 }
+            ]
+          })
+        });
+        const data = await res.json();
+        
+        alertBox.style.display = 'block';
+        if (res.ok && data.success) {
+          alertBox.className = 'alert-msg alert-success';
+          alertBox.textContent = data.message || 'Security settings saved successfully!';
+          setTimeout(() => window.location.reload(), 2000);
+        } else {
+          alertBox.className = 'alert-msg alert-error';
+          alertBox.textContent = data.error || 'Failed to save security settings.';
+        }
+      } catch (err) {
+        alertBox.style.display = 'block';
+        alertBox.className = 'alert-msg alert-error';
+        alertBox.textContent = 'Network error.';
+      } finally {
+        btn.disabled = false;
+        btn.textContent = 'Save Security Settings';
+      }
     });
   }
 

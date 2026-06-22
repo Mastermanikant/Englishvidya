@@ -94,12 +94,71 @@ export async function onRequestPost(context) {
       }
       await env.DB.prepare('UPDATE support_tickets SET status = ?, updated_at = datetime("now") WHERE id = ?').bind(status, id).run();
       return Response.json({ success: true, newStatus: status });
+    } else if (type === 'admin_reset_user_password') {
+      const { newPassword } = body;
+      if (!newPassword || newPassword.length < 6) {
+        return Response.json({ success: false, error: 'पासवर्ड कम से कम ६ अक्षरों का होना चाहिए।' }, { status: 400 });
+      }
+
+      // Fetch user's admin reset requested at
+      const targetUser = await env.DB.prepare('SELECT admin_reset_requested_at FROM users WHERE id = ?').bind(id).first();
+      if (!targetUser) {
+        return Response.json({ success: false, error: 'यूज़र नहीं मिला।' }, { status: 404 });
+      }
+
+      if (!targetUser.admin_reset_requested_at) {
+        return Response.json({ success: false, error: 'इस यूज़र के लिए कोई एडमिन रीसेट अनुरोध नहीं मिला है।' }, { status: 400 });
+      }
+
+      // Check if 48 hours have passed
+      const reqTime = new Date(targetUser.admin_reset_requested_at).getTime();
+      const now = Date.now();
+      const diffHours = (now - reqTime) / (1000 * 60 * 60);
+
+      if (diffHours < 48) {
+        const remaining = Math.ceil(48 - diffHours);
+        return Response.json({ success: false, error: `सुरक्षा कारणों से होल्ड सक्रिय है। कृपया ${remaining} घंटे बाद प्रयास करें।` }, { status: 400 });
+      }
+
+      // Hash password using PBKDF2
+      const password_hash = await hashPasswordPBKDF2(newPassword);
+
+      // Update password and clear reset state
+      await env.DB.prepare(
+        `UPDATE users 
+         SET password_hash = ?, 
+             admin_reset_requested_at = NULL, 
+             reset_token = NULL, 
+             reset_token_expires_at = NULL, 
+             reset_attempts = 0 
+         WHERE id = ?`
+      )
+        .bind(password_hash, id)
+        .run();
+
+      return Response.json({ success: true, message: 'पासवर्ड सफलतापूर्वक बदल दिया गया है!' });
     } else {
       return new Response('Invalid type', { status: 400 });
     }
 
     return Response.json({ success: true, newStatus: statusToSet });
   } catch (err) {
-    return new Response('Server Error', { status: 500 });
+    return new Response('Server Error: ' + err.message, { status: 500 });
   }
+}
+
+async function hashPasswordPBKDF2(password) {
+  const salt = crypto.getRandomValues(new Uint8Array(16));
+  const keyMaterial = await crypto.subtle.importKey(
+    'raw', new TextEncoder().encode(password),
+    { name: 'PBKDF2' }, false, ['deriveBits']
+  );
+  const derivedBits = await crypto.subtle.deriveBits(
+    { name: 'PBKDF2', salt: salt, iterations: 100000, hash: 'SHA-256' },
+    keyMaterial,
+    512
+  );
+  const saltHex = Array.from(salt).map(b => b.toString(16).padStart(2, '0')).join('');
+  const hashHex = Array.from(new Uint8Array(derivedBits)).map(b => b.toString(16).padStart(2, '0')).join('');
+  return `${saltHex}:${hashHex}`;
 }
