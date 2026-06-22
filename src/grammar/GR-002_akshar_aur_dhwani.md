@@ -113,10 +113,16 @@ Total Letters: 26
 ```
 
 ### 🔊 Vowel (स्वर) — खुली हवा की ध्वनि
-**Detailed Definition of Vowel (स्वर की विस्तृत परिभाषा):**
+<details class="vocab-accordion">
+<summary class="vocab-summary">Detailed Definition of Vowel (स्वर की विस्तृत परिभाषा)</summary>
+<div class="vocab-content">
+
 * **English:** A vowel is a letter representing a sound made when you open your mouth to speak and air comes out freely without being blocked or restricted by your lips, tongue or throat.
 * **Pronunciation:** अ वाउल इज़ अ लेटर रिप्रज़ेंटिंग अ साउंड मेड व्हेन यू ओपन योर माउथ टू स्पीक एंड एयर कम्स आउट फ्रीली विदाउट बीइंग ब्लॉक्ड ऑर रिस्ट्रिक्टेड बाय योर लिप्स, टंग ऑर थ्रोट।
 * **Hindi:** स्वर वह अक्षर है जिसे बोलते समय जब आप अपना मुँह खोलते हैं, तो हवा आपके होंठों, जीभ या गले द्वारा बिना रुके स्वतंत्र रूप से बाहर आती है।
+
+</div>
+</details>
 
 **Vowels के उदाहरण:**
 * **A** ➡️ Apple (ऐपल)

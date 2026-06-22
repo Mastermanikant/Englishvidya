@@ -41,11 +41,16 @@ English सीखने से पहले हमें कुछ बुनि�
 * **English:** Language is the tool humans use to share thoughts and feelings with others.
 * **Pronunciation:** लैंग्वेज इज़ द टूल ह्यूमन्स यूज़ टू शेयर थॉट्स एंड फीलिंग्स विद अदर्स।
 * **Hindi:** भाषा वह साधन है जिसका उपयोग मनुष्य अपने विचारों और भावनाओं को दूसरों के साथ साझा करने के लिए करता है।
+<details class="vocab-accordion">
+<summary class="vocab-summary">Detailed Definition of Language (भाषा की विस्तृत परिभाषा)</summary>
+<div class="vocab-content">
 
-**Detailed Definition of Language (भाषा की विस्तृत परिभाषा):**
 * **English:** Language is a structured system of symbols, signs, or sounds used by humans to express and share thoughts, feelings, and information.
 * **Pronunciation:** लैंग्वेज इज़ अ स्ट्रक्चर्ड सिस्टम ऑफ़ सिम्बल्स, साइन्स, और साउंड्स यूज़्ड बाय ह्यूमन्स टू एक्सप्रेस एंड शेयर थॉट्स, फीलिंग्स, एंड इन्फॉर्मेशन।
 * **Hindi:** भाषा संकेतों, ध्वनियों या शब्दों का वह व्यवस्थित माध्यम है जिसका उपयोग मनुष्य अपने विचारों, भावनाओं और सूचनाओं के आदान-प्रदान (संवाद) के लिए करता है।
+
+</div>
+</details>
 
 <details>
 <summary>💡 <b>इन परिभाषाओं के सभी कठिन शब्दों के अर्थ (यहाँ क्लिक करें)</b></summary>
