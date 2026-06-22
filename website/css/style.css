@@ -5821,3 +5821,29 @@ body.focus-mode .focus-exit-btn { display: flex; animation: fadeSlideIn 0.3s var
 @media (max-width: 768px) {
   .hide-on-mobile { display: none !important; }
 }
+
+/* Collapsible sections in articles */
+.collapsible-header {
+  cursor: pointer;
+  display: flex !important;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  user-select: none;
+  transition: color 0.2s ease;
+}
+.collapsible-header:hover {
+  color: var(--accent) !important;
+}
+.collapsible-header .toggle-icon {
+  font-size: 1rem;
+  color: var(--text-tertiary);
+  transition: transform 0.25s ease;
+  display: inline-block;
+}
+.collapsible-header.collapsed .toggle-icon {
+  transform: rotate(-90deg);
+}
+.collapsible-content {
+  transition: all 0.3s ease-in-out;
+}
