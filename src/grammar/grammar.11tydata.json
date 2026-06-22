@@ -1,4 +1,8 @@
 {
   "tags": ["article", "grammar"],
-  "layout": "layouts/article.njk"
+  "layout": "layouts/article.njk",
+  "breadcrumbs": [
+    { "label": "Home", "url": "/" },
+    { "label": "Grammar", "url": "/grammar/" }
+  ]
 }

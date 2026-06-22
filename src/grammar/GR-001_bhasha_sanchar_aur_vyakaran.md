@@ -162,10 +162,16 @@ English सीखने से पहले हमें कुछ बुनि�
 * **Pronunciation:** कम्युनिकेशन इज़ द प्रोसेस ऑफ़ शेयरिंग इन्फॉर्मेशन, थॉट्स, और फीलिंग्स विद अदर्स।
 * **Hindi:** दूसरों के साथ जानकारी, विचारों या भावनाओं को साझा करने की प्रक्रिया को संचार (Communication) कहते हैं।
 
-**Detailed Definition of Communication (संचार की विस्तृत परिभाषा):**
+<details class="vocab-accordion">
+<summary class="vocab-summary">Detailed Definition of Communication (संचार की विस्तृत परिभाषा)</summary>
+<div class="vocab-content">
+
 * **English:** Communication is a reciprocal process of encoding, transmitting, receiving, and decoding messages to share thoughts, information, or feelings effectively between a sender and a receiver.
-* **Pronunciation:** कम्युनिकेशन इज़ अ रेसिप्रोकल प्रोसेस ऑफ़ एनकोडिंग, ट्रांसमिटिंग, रिसीविंग, एंड डिकोडिंग मैसेजेस टू शेयर थॉट्स, इन्फॉर्मेशन, और फीलिंग्स इफेक्टिवली बिटवीन अ सेंडर एंड अ रिसीवर।
+* **Pronunciation:**  कम्युनिकेशन इज़ अ रेसिप्रोकल प्रोसेस ऑफ़ एनकोडिंग, ट्रांसमिटिंग, रिसीविंग, एंड डिकोडिंग मैसेजेस टू शेयर थॉट्स, इन्फॉर्मेशन, और फीलिंग्स इफेक्टिवली बिटवीन अ सेंडर एंड अ रिसीवर।
 * **Hindi:** संचार एक पारस्परिक (दोतरफा) प्रक्रिया है जिसमें एक प्रेषक (Sender) और एक प्राप्तकर्ता (Receiver) के बीच विचारों, सूचनाओं या भावनाओं को प्रभावी ढंग से साझा करने के लिए संदेशों को कोड करना (Encoding), भेजना (Transmitting), प्राप्त करना (Receiving) और उन्हें समझना (Decoding) शामिल होता है।
+
+</div>
+</details>
 
 <details>
 <summary>💡 <b>इन परिभाषाओं के सभी कठिन शब्दों के अर्थ (यहाँ क्लिक करें)</b></summary>
@@ -230,10 +236,16 @@ English सीखने से पहले हमें कुछ बुनि�
 * **Pronunciation:** ग्रामर इज़ द सेट ऑफ़ रूल्स फॉर मेकिंग करेक्ट एंड मीनिंगफुल सेंटेंसेस।
 * **Hindi:** व्याकरण सही और अर्थपूर्ण वाक्य बनाने के नियमों का समूह है।
 
-**Detailed Definition of Grammar (व्याकरण की विस्तृत परिभाषा):**
+<details class="vocab-accordion">
+<summary class="vocab-summary">Detailed Definition of Grammar (व्याकरण की विस्तृत परिभाषा)</summary>
+<div class="vocab-content">
+
 * **English:** Grammar is the foundational framework of rules that governs the structure, composition, and usage of words, phrases, and sentences in any language to ensure clear and accurate communication.
 * **Pronunciation:** ग्रामर इज़ द फाउंडेशनल फ्रेमवर्क ऑफ़ रूल्स दैट गवर्न्स द स्ट्रक्चर, कम्पोज़िशन, एंड यूसेज ऑफ़ वर्ड्स, फ्रेज़ेज़, एंड सेंटेंसेस इन एनी लैंग्वेज टू एश्योर क्लियर एंड एक्यूरेट कम्युनिकेशन।
 * **Hindi:** व्याकरण नियमों का वह मौलिक ढांचा है जो किसी भी भाषा में शब्दों, वाक्यांशों और वाक्यों की संरचना, बनावट और उपयोग को नियंत्रित करता है ताकि स्पष्ट और शुद्ध संवाद सुनिश्चित किया जा सके।
+
+</div>
+</details>
 
 <details>
 <summary>💡 <b>इन परिभाषाओं के सभी कठिन शब्दों के अर्थ (यहाँ क्लिक करें)</b></summary>

@@ -1,3 +1,8 @@
 {
-  "tags": ["article", "class-10"]
+  "tags": ["article", "class-10"],
+  "layout": "layouts/article.njk",
+  "breadcrumbs": [
+    { "label": "Home", "url": "/" },
+    { "label": "Class 10th", "url": "/class-10/" }
+  ]
 }
