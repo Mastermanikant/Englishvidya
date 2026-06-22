@@ -254,19 +254,108 @@ permalink: /settings/
     </form>
   </div>
 
-  <!-- Password Setup -->
-  <div class="settings-card" id="password-setup-card" style="display: none; border-color: var(--accent);">
+  <!-- Password Setup / Change & Security Questions -->
+  <div class="settings-card" id="security-settings-card">
     <div class="settings-header">
-      <h2>Create Login Password</h2>
-      <p style="font-size: 0.9rem; color: var(--text-secondary);">Since you signed up with Google, you don't have a password yet. Set one here so you can log in using your Email or Username.</p>
+      <h2>🛡️ Password & Security (पासवर्ड और सुरक्षा)</h2>
+      <p style="font-size: 0.9rem; color: var(--text-secondary);">पासवर्ड बदलें या पासवर्ड भूल जाने पर सुरक्षित रिकवरी के लिए सिक्योरिटी प्रश्न सेट करें।</p>
     </div>
-    <form id="password-form" style="display: flex; flex-direction: column; gap: 16px;">
-      <div class="form-group">
-        <label>New Password (min 6 chars)</label>
-        <input type="password" id="input-new-password" placeholder="Enter a secure password" required minlength="6">
+    
+    <div id="security-alert" class="alert-msg"></div>
+
+    <!-- 1. Password Form -->
+    <form id="password-change-form" style="display: flex; flex-direction: column; gap: 16px; margin-bottom: 30px;">
+      <h3>🔒 Change Password (पासवर्ड बदलें)</h3>
+      <p id="password-desc" style="font-size: 0.9rem; color: var(--text-secondary); display: none;">Since you signed up with Google, you don't have a password yet. Set one here so you can log in using your Email or Username.</p>
+      <div id="password-current-group" class="form-group" style="display: none;">
+        <label>Current Password (वर्तमान पासवर्ड)</label>
+        <input type="password" id="input-current-password" placeholder="Enter current password">
       </div>
-      <div id="password-alert" style="display:none; padding: 10px; border-radius: 4px; font-size: 0.9rem;"></div>
-      <button type="submit" class="btn-primary" id="save-password-btn" style="align-self: flex-start;">Set Password</button>
+      <div class="form-group">
+        <label id="lbl-new-password">New Password (नया पासवर्ड - min 6 chars)</label>
+        <input type="password" id="input-new-password" placeholder="Enter new password" required minlength="6">
+      </div>
+      <button type="submit" class="btn-primary" id="save-password-btn" style="align-self: flex-start;">Update Password</button>
+    </form>
+
+    <hr style="border: 0; border-top: 1px solid var(--border); margin: 30px 0;">
+
+    <!-- 2. Security Questions Form -->
+    <form id="security-questions-form" style="display: flex; flex-direction: column; gap: 16px;">
+      <h3>❓ Security Questions (सुरक्षा प्रश्न)</h3>
+      <p style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 8px;">
+        ⚠️ <strong>महत्वपूर्ण निर्देश:</strong> प्रश्नों के उत्तर में अक्षरों के छोटे/बड़े (Case) होने और खाली स्थान (Spaces) का कोई अंतर नहीं पड़ेगा (उदा. "Ram Is" = "ramis")।
+      </p>
+
+      <div class="form-group">
+        <label>Backup Recovery Email (वैकल्पिक रिकवरी ईमेल) - Optional</label>
+        <input type="email" id="input-recovery-email" placeholder="e.g. friend@email.com">
+      </div>
+
+      <!-- Question 1 -->
+      <div class="form-group">
+        <label>Question 1 (प्रश्न 1)</label>
+        <select id="q1-select" required>
+          <option value="">-- चुनें (Select Question) --</option>
+          <option value="What was the name of your first school?">आपके पहले स्कूल का नाम क्या था? (First school)</option>
+          <option value="What is your mother's maiden name?">आपकी माता का शादी से पहले का नाम क्या था? (Mother's maiden name)</option>
+          <option value="What is the name of your favorite childhood friend?">आपके बचपन के पसंदीदा दोस्त का नाम क्या था? (Childhood friend)</option>
+          <option value="In which city were you born?">आपका जन्म किस शहर में हुआ था? (City of birth)</option>
+          <option value="What was the name of your first pet?">आपके पहले पालतू जानवर का नाम क्या था? (First pet)</option>
+          <option value="What is your favorite food?">आपका पसंदीदा भोजन क्या है? (Favorite food)</option>
+          <option value="What was the make of your first car/bike?">आपकी पहली कार/बाइक कौन सी कंपनी की थी? (First car/bike)</option>
+          <option value="What is the name of the hospital you were born in?">आपका जन्म किस अस्पताल में हुआ था? (Birth hospital)</option>
+          <option value="What was your childhood nickname?">आपके बचपन का उपनाम क्या था? (Childhood nickname)</option>
+          <option value="What is your favorite book?">आपकी पसंदीदा किताब कौन सी है? (Favorite book)</option>
+        </select>
+        <input type="text" id="q1-answer" placeholder="उत्तर लिखें (Answer here)" required style="margin-top: 8px;">
+      </div>
+
+      <!-- Question 2 -->
+      <div class="form-group">
+        <label>Question 2 (प्रश्न 2)</label>
+        <select id="q2-select" required>
+          <option value="">-- चुनें (Select Question) --</option>
+          <option value="What was the name of your first school?">आपके पहले स्कूल का नाम क्या था? (First school)</option>
+          <option value="What is your mother's maiden name?">आपकी माता का शादी से पहले का नाम क्या था? (Mother's maiden name)</option>
+          <option value="What is the name of your favorite childhood friend?">आपके बचपन के पसंदीदा दोस्त का नाम क्या था? (Childhood friend)</option>
+          <option value="In which city were you born?">आपका जन्म किस शहर में हुआ था? (City of birth)</option>
+          <option value="What was the name of your first pet?">आपके पहले पालतू जानवर का नाम क्या था? (First pet)</option>
+          <option value="What is your favorite food?">आपका पसंदीदा भोजन क्या है? (Favorite food)</option>
+          <option value="What was the make of your first car/bike?">आपकी पहली कार/बाइक कौन सी कंपनी की थी? (First car/bike)</option>
+          <option value="What is the name of the hospital you were born in?">आपका जन्म किस अस्पताल में हुआ था? (Birth hospital)</option>
+          <option value="What was your childhood nickname?">आपके बचपन का उपनाम क्या था? (Childhood nickname)</option>
+          <option value="What is your favorite book?">आपकी पसंदीदा किताब कौन सी है? (Favorite book)</option>
+        </select>
+        <input type="text" id="q2-answer" placeholder="उत्तर लिखें (Answer here)" required style="margin-top: 8px;">
+      </div>
+
+      <!-- Question 3 -->
+      <div class="form-group">
+        <label>Question 3 (प्रश्न 3)</label>
+        <div style="display: flex; gap: 10px; align-items: center; margin-bottom: 8px;">
+          <input type="checkbox" id="custom-q-check" style="width: auto;">
+          <span style="font-size: 0.9rem; font-weight: 500; color: var(--text-secondary);">स्वयं का सुरक्षा प्रश्न बनाएं (Write custom question)</span>
+        </div>
+        
+        <select id="q3-select">
+          <option value="">-- चुनें (Select Question) --</option>
+          <option value="What was the name of your first school?">आपके पहले स्कूल का नाम क्या था? (First school)</option>
+          <option value="What is your mother's maiden name?">आपकी माता का शादी से पहले का नाम क्या था? (Mother's maiden name)</option>
+          <option value="What is the name of your favorite childhood friend?">आपके बचपन के पसंदीदा दोस्त का नाम क्या था? (Childhood friend)</option>
+          <option value="In which city were you born?">आपका जन्म किस शहर में हुआ था? (City of birth)</option>
+          <option value="What was the name of your first pet?">आपके पहले पालतू जानवर का नाम क्या था? (First pet)</option>
+          <option value="What is your favorite food?">आपका पसंदीदा भोजन क्या है? (Favorite food)</option>
+          <option value="What was the make of your first car/bike?">आपकी पहली कार/बाइक कौन सी कंपनी की थी? (First car/bike)</option>
+          <option value="What is the name of the hospital you were born in?">आपका जन्म किस अस्पताल में हुआ था? (Birth hospital)</option>
+          <option value="What was your childhood nickname?">आपके बचपन का उपनाम क्या था? (Childhood nickname)</option>
+          <option value="What is your favorite book?">आपकी पसंदीदा किताब कौन सी है? (Favorite book)</option>
+        </select>
+        <input type="text" id="q3-custom-text" placeholder="अपना सुरक्षा प्रश्न लिखें (Type custom question)" style="display: none; margin-top: 8px;">
+        <input type="text" id="q3-answer" placeholder="उत्तर लिखें (Answer here)" required style="margin-top: 8px;">
+      </div>
+
+      <button type="submit" class="btn-primary" id="save-questions-btn" style="align-self: flex-start;">Save Security Settings</button>
     </form>
   </div>
 

@@ -23,6 +23,8 @@ export async function onRequestGet(context) {
       delete_requested_at: user.delete_requested_at,
       has_accepted_rules: user.has_accepted_rules,
       has_password: !!user.password_hash,
+      recovery_email: user.recovery_email,
+      security_questions: user.security_questions ? JSON.parse(user.security_questions).map(q => ({ question: q.question, is_custom: q.is_custom || false })) : null,
       location_address: user.location_address
     }
   });

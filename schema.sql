@@ -29,6 +29,11 @@ CREATE TABLE IF NOT EXISTS users (
   last_sync_date TEXT DEFAULT '',
   last_sync_month TEXT DEFAULT '',
   location_address TEXT DEFAULT NULL,
+  recovery_email TEXT DEFAULT NULL,
+  security_questions TEXT DEFAULT NULL,
+  reset_token TEXT UNIQUE DEFAULT NULL,
+  reset_token_expires_at TEXT DEFAULT NULL,
+  admin_reset_requested_at TEXT DEFAULT NULL,
   created_at TEXT NOT NULL DEFAULT (datetime('now')),
   updated_at TEXT NOT NULL DEFAULT (datetime('now'))
 );
