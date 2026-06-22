@@ -163,6 +163,9 @@ document.addEventListener('DOMContentLoaded', () => {
     h2.classList.add('collapsible-header');
     h2.innerHTML = `<span>${h2.innerHTML}</span><span class="toggle-icon">▲</span>`;
 
+    // Collapse by default
+    collapseSection(h2, contentDiv);
+
     // 3. Click handler
     h2.addEventListener('click', () => {
       const isCollapsed = contentDiv.style.display === 'none';
