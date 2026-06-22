@@ -343,5 +343,9 @@ The overall defensive hygiene of EnglishVidya is strong on infrastructure (Cloud
 *All findings are evidence-based and verified directly against active project source files.*
 `;
 
-fs.writeFileSync(reportPath, reportMd, 'utf8');
-console.log(`Audit report successfully saved to: ${reportPath}`);
+try {
+  fs.writeFileSync(reportPath, reportMd, 'utf8');
+  console.log(`Audit report successfully saved to: ${reportPath}`);
+} catch (e) {
+  console.warn(`[Audit Warning] Could not save audit report to ${reportPath}:`, e.message);
+}
