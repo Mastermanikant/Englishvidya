@@ -93,6 +93,11 @@ eleventyComputed:
       </div>
     </div>
   </div>
+
+  {# --- Integrated Reviews & Comments --- #}
+  {% set reviewSlug = testEntry.slug %}
+  {% include "partials/reviews-comments.njk" %}
+
 </div>
 
 <script>

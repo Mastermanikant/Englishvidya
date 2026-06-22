@@ -56,6 +56,11 @@ layout: layouts/base.njk
         </a>
       </div>
     </div>
+
+    {# --- Integrated Reviews & Comments --- #}
+    {% set reviewSlug = page.fileSlug %}
+    {% include "partials/reviews-comments.njk" %}
+
     <div style="text-align: center; margin-top: var(--sp-6); margin-bottom: var(--sp-8);">
       <a href="/" class="lesson-back-btn">← Home</a>
     </div>

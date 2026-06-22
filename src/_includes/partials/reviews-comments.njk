@@ -1,0 +1,40 @@
+{# ══ REVIEWS & COMMENTS PARTIAL ══ #}
+<div class="community-section" id="word-rating-container" data-slug="{{ reviewSlug }}" style="margin-top: var(--sp-8); background: var(--bg-raised); border-radius: var(--radius-xl); padding: var(--sp-6); box-shadow: var(--shadow-sm); border: 1px solid var(--border);">
+  
+  <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: var(--sp-4);">
+    <h3 style="margin: 0; display: flex; align-items: center; gap: var(--sp-2); font-family: 'Outfit', sans-serif; font-size: 1.3rem;">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="color: var(--accent);"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+      Reviews & Comments
+    </h3>
+    <div class="overall-rating" style="display: flex; align-items: center; gap: var(--sp-2);">
+      <span style="font-size: 1.2rem; font-weight: 800; color: #f59e0b;" id="rating-avg">0.0</span>
+      <span style="color: #f59e0b; font-size: 1.1rem;">★</span>
+      <span style="font-size: 0.8rem; color: var(--text-tertiary);" id="rating-count">(0)</span>
+    </div>
+  </div>
+
+  {# Input Area #}
+  <div class="review-input-area" style="background: var(--bg-body); border-radius: var(--radius-md); border: 1px solid var(--border); padding: var(--sp-3); margin-bottom: var(--sp-6);">
+    <textarea id="comment-input" rows="3" placeholder="यह पेज कैसा लगा? अपना रिव्यू लिखें... (लॉग-इन आवश्यक है)" style="width: 100%; border: none; background: transparent; outline: none; resize: none; font-family: inherit; font-size: 1rem; color: var(--text-primary); margin-bottom: var(--sp-3);"></textarea>
+    
+    <div style="display: flex; justify-content: space-between; align-items: center; border-top: 1px solid var(--border-subtle); padding-top: var(--sp-3);">
+      
+      <div class="star-rating-input" style="display: flex; gap: 4px; font-size: 1.5rem; color: var(--border); cursor: pointer;">
+        <span class="rating-star" data-value="1">★</span>
+        <span class="rating-star" data-value="2">★</span>
+        <span class="rating-star" data-value="3">★</span>
+        <span class="rating-star" data-value="4">★</span>
+        <span class="rating-star" data-value="5">★</span>
+      </div>
+
+      <button id="post-comment-btn" class="btn-primary" style="padding: var(--sp-2) var(--sp-4); font-size: 0.9rem;">
+        Submit Review
+      </button>
+    </div>
+  </div>
+
+  {# Comments List #}
+  <div id="comments-list" style="display: flex; flex-direction: column; gap: var(--sp-4);">
+    <div class="loader-spinner" style="margin: 0 auto;"></div>
+  </div>
+</div>
