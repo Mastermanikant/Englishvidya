@@ -1,0 +1,108 @@
+---
+layout: layouts/base.njk
+pageTitle: "English Grammar Online Tests — English Vidya"
+metaDescription: "Test your grammar knowledge with our free online tests. Find tests on nouns, verbs, vowel sounds, pronunciation, and track your progress."
+permalink: /test/
+---
+
+<div class="test-directory-container" style="max-width: 900px; margin: 0 auto; padding: var(--sp-6) var(--sp-4);">
+  <div style="text-align: center; margin-bottom: var(--sp-8);">
+    <h1 style="font-size: 2.5rem; color: var(--accent); margin-bottom: var(--sp-3); font-family: 'Outfit', sans-serif;">📝 Grammar Online Tests</h1>
+    <p style="color: var(--text-secondary); font-size: 1.15rem; max-width: 600px; margin: 0 auto; line-height: 1.6;">
+      अपने व्याकरण ज्ञान का परीक्षण करें! अपनी प्रगति को ट्रैक करने के लिए लॉग-इन करें और देखें कि आपने क्या सीखा है।
+    </p>
+  </div>
+
+  {# Search Input #}
+  <div style="margin-bottom: var(--sp-6); position: relative;">
+    <input type="text" id="test-search-input" placeholder="🔍 टेस्ट खोजें (जैसे: Noun, Sounds...)" 
+           style="width: 100%; padding: var(--sp-4) var(--sp-5); font-size: 1.1rem; border-radius: var(--radius-lg); border: 1px solid var(--border); background: var(--bg-raised); color: var(--text-main); transition: border-color 0.2s;"
+           oninput="filterTests()">
+  </div>
+
+  {# Test Grid/List #}
+  <div id="test-grid" style="display: grid; gap: var(--sp-4); grid-template-columns: 1fr;">
+    {% for test in grammarTests %}
+      <div class="test-card card" data-title="{{ test.title | lower }} {{ test.lessonTitle | lower }}" 
+           style="padding: var(--sp-5); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: var(--sp-4); transition: transform 0.2s, border-color 0.2s; border: 1px solid var(--border); border-radius: var(--radius-lg);"
+           onmouseover="this.style.borderColor='var(--accent)'"
+           onmouseout="this.style.borderColor='var(--border)'">
+        <div style="flex: 1; min-width: 250px;">
+          <span style="font-size: 0.85rem; color: var(--accent); font-weight: bold; text-transform: uppercase; letter-spacing: 0.05em;">Grammar Test</span>
+          <h2 style="font-size: 1.35rem; margin: var(--sp-1) 0 var(--sp-2) 0; color: var(--text-main); font-family: 'Outfit', sans-serif;">{{ test.lessonTitle }}</h2>
+          <p style="font-size: 0.95rem; color: var(--text-secondary); margin: 0;">{{ test.title }}</p>
+        </div>
+        
+        <div style="display: flex; align-items: center; gap: var(--sp-4); flex-wrap: wrap;">
+          {# dynamic placeholder for logged in user's highest score #}
+          <div id="highest-score-{{ test.slug }}" style="font-size: 0.95rem; font-weight: bold; color: var(--text-secondary); display: none;">
+            Best Score: <span class="score-val" style="color: var(--accent);">--</span>
+          </div>
+          
+          <a href="/test/{{ test.slug }}/" class="btn-primary" 
+             style="text-decoration: none; padding: 10px 20px; font-weight: bold; font-size: 1rem; border-radius: var(--radius-md); display: inline-flex; align-items: center; gap: 8px;">
+            ✍️ Start Test
+          </a>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+  
+  <div id="no-tests-found" style="text-align: center; padding: var(--sp-8); color: var(--text-secondary); display: none;">
+    <p style="font-size: 1.2rem;">🔍 कोई टेस्ट नहीं मिला। कृपया दूसरा शब्द खोजें।</p>
+  </div>
+</div>
+
+<script>
+  function filterTests() {
+    const q = document.getElementById('test-search-input').value.toLowerCase().trim();
+    const cards = document.querySelectorAll('.test-card');
+    const noResults = document.getElementById('no-tests-found');
+    let found = 0;
+
+    cards.forEach(card => {
+      const text = card.getAttribute('data-title');
+      if (text.includes(q)) {
+        card.style.display = 'flex';
+        found++;
+      } else {
+        card.style.display = 'none';
+      }
+    });
+
+    noResults.style.display = found === 0 ? 'block' : 'none';
+  }
+
+  // Load scores for logged in users
+  document.addEventListener('DOMContentLoaded', async () => {
+    try {
+      const res = await fetch('/api/tests?type=history');
+      if (res.ok) {
+        const attempts = await res.json();
+        // Compute best score per slug
+        const bestScores = {};
+        attempts.forEach(att => {
+          const scorePercent = (att.score / att.total_questions) * 100;
+          if (!bestScores[att.lesson_slug] || bestScores[att.lesson_slug].percent < scorePercent) {
+            bestScores[att.lesson_slug] = {
+              score: att.score,
+              total: att.total_questions,
+              percent: scorePercent
+            };
+          }
+        });
+
+        // Update DOM
+        Object.keys(bestScores).forEach(slug => {
+          const container = document.getElementById(`highest-score-${slug}`);
+          if (container) {
+            container.querySelector('.score-val').textContent = `${bestScores[slug].score}/${bestScores[slug].total}`;
+            container.style.display = 'block';
+          }
+        });
+      }
+    } catch (e) {
+      console.warn('[EV] Failed to load scores history:', e);
+    }
+  });
+</script>

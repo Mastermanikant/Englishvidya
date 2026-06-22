@@ -16,6 +16,20 @@ layout: layouts/base.njk
       {{ content | safe }}
     </article>
 
+    {# Test Yourself CTA #}
+    {% if tags and "grammar" in tags %}
+      {% set testSlug = permalink | replace("/grammar/", "") | replace("/", "") %}
+      <div style="margin: 40px 0; padding: 25px; background: rgba(56, 189, 248, 0.08); border-radius: 12px; border: 1px dashed var(--accent); text-align: center; box-shadow: var(--shadow-sm);">
+        <h3 style="font-size: 1.3rem; margin-bottom: 10px; color: var(--text-main); font-family: 'Outfit', sans-serif;">📝 अभ्यास करें (Practice Test)</h3>
+        <p style="font-size: 0.95rem; color: var(--text-secondary); margin-bottom: 20px;">
+          इस अध्याय को पढ़ने के बाद, अपनी समझ का परीक्षण करने के लिए यह छोटा सा टेस्ट अवश्य दें।
+        </p>
+        <a href="/test/{{ testSlug }}/" class="btn-primary" style="text-decoration: none; padding: 12px 28px; border-radius: var(--radius-md); font-weight: bold; font-size: 1.05rem; display: inline-flex; align-items: center; gap: 8px; transition: transform 0.2s;">
+          ✍️ Start Practice Test (टेस्ट दें)
+        </a>
+      </div>
+    {% endif %}
+
     {# ── Sharing Section (Psychological CTA) ── #}
     <div class="share-box" style="margin-top: 50px; padding: 25px; background: var(--bg-raised); border-radius: 12px; border: 1px solid var(--border); text-align: center;">
       <h3 style="font-size: 1.25rem; margin-bottom: 10px; color: var(--text-primary);">💡 क्या आपने इस आर्टिकल से कुछ नया सीखा?</h3>

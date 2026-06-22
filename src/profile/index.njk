@@ -1,62 +1,270 @@
 ---
 layout: layouts/base.njk
-title: My Profile
+title: My Profile & Analytics
 permalink: /profile/
 ---
-<div style="max-width: 600px; margin: 40px auto; padding: 20px;">
-  <div class="card" style="padding: 32px; text-align: center; border-radius: 16px;">
-    <img id="profile-avatar" src="/assets/icons/icon-192.png" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover; margin-bottom: 16px; border: 4px solid var(--accent);">
-    <h1 id="profile-name" style="margin: 0 0 8px 0;">Loading...</h1>
-    <p id="profile-email" style="color: var(--text-secondary); margin: 0 0 8px 0;">...</p>
-    <p id="profile-joined" style="font-size: 0.85rem; color: var(--text-secondary); margin: 0 0 24px 0; font-style: italic;">Member since: ...</p>
-    
-    <div style="display: flex; justify-content: center; gap: 24px; margin-bottom: 32px;">
-      <div style="text-align: center;">
-        <div style="font-size: 2rem; font-weight: bold; color: var(--accent);" id="profile-trust">--</div>
-        <div style="font-size: 0.9rem; color: var(--text-secondary); text-transform: uppercase;">Trust Score</div>
+
+<div style="max-width: 950px; margin: 40px auto; padding: 0 20px; display: flex; flex-direction: column; gap: var(--sp-6);">
+  
+  {# 1. Profile Header Card #}
+  <div class="card" style="padding: 32px; border-radius: 16px; border: 1px solid var(--border); display: flex; flex-wrap: wrap; gap: 32px; align-items: center; justify-content: space-between;">
+    <div style="display: flex; align-items: center; gap: 24px; flex-wrap: wrap;">
+      <img id="profile-avatar" src="/assets/icons/icon-192.png" style="width: 90px; height: 90px; border-radius: 50%; object-fit: cover; border: 4px solid var(--accent); box-shadow: 0 4px 10px rgba(0,0,0,0.25);">
+      <div>
+        <h1 id="profile-name" style="margin: 0 0 4px 0; font-size: 1.8rem; font-family: 'Outfit', sans-serif;">Loading...</h1>
+        <p id="profile-email" style="color: var(--text-secondary); margin: 0 0 4px 0; font-size: 1.05rem;">...</p>
+        <span id="profile-role-badge" style="display: inline-block; padding: 3px 10px; border-radius: 12px; font-size: 0.75rem; font-weight: bold; background: var(--bg-footer); color: var(--text-secondary); text-transform: uppercase;">User</span>
       </div>
     </div>
-
-    <div style="display: flex; flex-direction: column; gap: 12px; margin-bottom: 32px;">
-      <a href="/referral/" class="panel-btn" style="padding: 12px; background: rgba(99, 102, 241, 0.15); border: 1px solid var(--accent); border-radius: 8px; text-decoration: none; color: var(--text-primary); font-weight: bold;">
-        💰 Refer & Earn (Coins)
-      </a>
-      <a href="/settings/" class="panel-btn" style="padding: 12px; background: var(--bg-footer); border-radius: 8px; text-decoration: none; color: var(--text-primary); font-weight: bold; border: 1px solid var(--border);">
-        ⚙️ Edit Profile & Settings
-      </a>
-      <a href="/my-diary/" class="panel-btn" style="padding: 12px; background: var(--bg-footer); border-radius: 8px; text-decoration: none; color: var(--text-primary); font-weight: bold;">
-        📓 Go to My Diary
-      </a>
-      <a href="/api/auth-logout" class="panel-btn" style="padding: 12px; background: #ef4444; color: white; border-radius: 8px; text-decoration: none; font-weight: bold;">
-        🚪 Logout
-      </a>
+    
+    <div style="display: flex; gap: 32px;">
+      <div style="text-align: center;">
+        <div style="font-size: 1.8rem; font-weight: bold; color: var(--accent);" id="profile-trust">--</div>
+        <div style="font-size: 0.75rem; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.05em; font-weight: 600;">Trust Score</div>
+      </div>
+      <div style="text-align: center;">
+        <div style="font-size: 1.8rem; font-weight: bold; color: var(--accent);" id="tests-taken-count">0</div>
+        <div style="font-size: 0.75rem; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.05em; font-weight: 600;">Tests Taken</div>
+      </div>
     </div>
   </div>
+
+  {# Quick Links Row #}
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: var(--sp-4);">
+    <a href="/my-diary/" class="btn-secondary" style="text-decoration: none; padding: 12px; border-radius: var(--radius-md); text-align: center; font-weight: bold; display: flex; align-items: center; justify-content: center; gap: 8px;">
+      📓 My Diary & Saved Words
+    </a>
+    <a href="/settings/" class="btn-secondary" style="text-decoration: none; padding: 12px; border-radius: var(--radius-md); text-align: center; font-weight: bold; display: flex; align-items: center; justify-content: center; gap: 8px;">
+      ⚙️ Edit Profile & Settings
+    </a>
+    <a href="/api/auth-logout" class="btn-secondary" style="text-decoration: none; padding: 12px; border-radius: var(--radius-md); text-align: center; font-weight: bold; background: #ef4444; color: white; border-color: #ef4444; display: flex; align-items: center; justify-content: center; gap: 8px;">
+      🚪 Logout
+    </a>
+  </div>
+
+  {# 2. Student test history #}
+  <div class="card" style="padding: 24px; border-radius: 12px; border: 1px solid var(--border);">
+    <h2 style="font-family: 'Outfit', sans-serif; font-size: 1.4rem; color: var(--text-main); margin: 0 0 16px 0; display: flex; align-items: center; gap: 8px;">
+      📈 My Test Attempts (मेरा टेस्ट इतिहास)
+    </h2>
+    <div style="overflow-x: auto;">
+      <table style="width: 100%; border-collapse: collapse; text-align: left; font-size: 0.95rem;">
+        <thead>
+          <tr style="border-bottom: 2px solid var(--border); color: var(--text-secondary); font-weight: 600;">
+            <th style="padding: 12px 8px;">पाठ (Lesson)</th>
+            <th style="padding: 12px 8px;">स्कोर (Score)</th>
+            <th style="padding: 12px 8px;">प्रतिशत (Percentage)</th>
+            <th style="padding: 12px 8px;">तारीख (Date)</th>
+          </tr>
+        </thead>
+        <tbody id="student-attempts-body">
+          <tr>
+            <td colspan="4" style="text-align: center; padding: 24px; color: var(--text-secondary);">कोई टेस्ट प्रयास नहीं मिला।</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  {# 3. Owner Analytics Dashboard (Hidden for regular users) #}
+  <div id="owner-dashboard-container" class="card" style="display: none; padding: 28px; border-radius: 12px; border: 2px solid var(--accent); flex-direction: column; gap: var(--sp-5);">
+    <h2 style="font-family: 'Outfit', sans-serif; font-size: 1.6rem; color: var(--accent); margin: 0; display: flex; align-items: center; gap: 10px;">
+      👑 Owner Analytics Dashboard
+    </h2>
+    
+    <div style="display: flex; gap: var(--sp-4); margin-bottom: 12px;">
+      <button onclick="switchTab('owner-summary')" class="btn-primary" id="tab-summary-btn" style="padding: 8px 16px; font-size: 0.95rem;">Summary Stats</button>
+      <button onclick="switchTab('owner-attempts')" class="btn-secondary" id="tab-attempts-btn" style="padding: 8px 16px; font-size: 0.95rem;">Student Attempts</button>
+    </div>
+
+    {# 3a. Summary Stats Tab #}
+    <div id="owner-summary-tab" style="overflow-x: auto;">
+      <h3 style="font-size: 1.15rem; color: var(--text-main); margin-bottom: 12px;">क्लास टेस्ट परफॉर्मेंस (Class Performance)</h3>
+      <table style="width: 100%; border-collapse: collapse; text-align: left; font-size: 0.95rem;">
+        <thead>
+          <tr style="border-bottom: 2px solid var(--border); color: var(--text-secondary);">
+            <th style="padding: 12px 8px;">Test Slug</th>
+            <th style="padding: 12px 8px;">Attempts</th>
+            <th style="padding: 12px 8px;">Avg Score (%)</th>
+            <th style="padding: 12px 8px;">Max Score</th>
+            <th style="padding: 12px 8px;">Min Score</th>
+          </tr>
+        </thead>
+        <tbody id="owner-summary-body">
+          <tr>
+            <td colspan="5" style="text-align: center; padding: 24px; color: var(--text-secondary);">डाटा लोड हो रहा है...</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    {# 3b. Student Attempts Tab #}
+    <div id="owner-attempts-tab" style="overflow-x: auto; display: none;">
+      <h3 style="font-size: 1.15rem; color: var(--text-main); margin-bottom: 12px;">सभी छात्रों के टेस्ट प्रयास (Student History)</h3>
+      <table style="width: 100%; border-collapse: collapse; text-align: left; font-size: 0.95rem;">
+        <thead>
+          <tr style="border-bottom: 2px solid var(--border); color: var(--text-secondary);">
+            <th style="padding: 12px 8px;">Student</th>
+            <th style="padding: 12px 8px;">Email</th>
+            <th style="padding: 12px 8px;">Test Slug</th>
+            <th style="padding: 12px 8px;">Score</th>
+            <th style="padding: 12px 8px;">Date</th>
+          </tr>
+        </thead>
+        <tbody id="owner-attempts-body">
+          <tr>
+            <td colspan="5" style="text-align: center; padding: 24px; color: var(--text-secondary);">डाटा लोड हो रहा है...</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
 </div>
 
 <script>
   document.addEventListener('DOMContentLoaded', async () => {
     try {
+      // 1. Fetch user authentication info
       const res = await fetch('/api/auth-me');
-      const data = await res.json();
-      if (!data.loggedIn) {
+      const authData = await res.json();
+      if (!authData.loggedIn) {
         window.location.href = '/';
         return;
       }
       
-      document.getElementById('profile-name').textContent = data.user.name;
-      document.getElementById('profile-email').textContent = data.user.email;
-      document.getElementById('profile-trust').textContent = data.user.trust_score;
-      if (data.user.avatar_url) {
-        document.getElementById('profile-avatar').src = data.user.avatar_url;
+      const user = authData.user;
+      document.getElementById('profile-name').textContent = user.name;
+      document.getElementById('profile-email').textContent = user.email;
+      document.getElementById('profile-trust').textContent = user.trust_score;
+      if (user.avatar_url) {
+        document.getElementById('profile-avatar').src = user.avatar_url;
       }
-      if (data.user.created_at) {
-        const joinDate = new Date(data.user.created_at).toLocaleString();
-        document.getElementById('profile-joined').textContent = `Member since: ${joinDate}`;
+
+      // Update role badge
+      const roleBadge = document.getElementById('profile-role-badge');
+      roleBadge.textContent = user.role;
+      if (user.role === 'owner') {
+        roleBadge.style.background = 'var(--accent)';
+        roleBadge.style.color = '#000';
+      } else if (user.role === 'admin') {
+        roleBadge.style.background = 'rgba(99, 102, 241, 0.2)';
+        roleBadge.style.color = 'var(--accent)';
+      }
+
+      // 2. Load personal attempts history
+      const attemptsRes = await fetch('/api/tests');
+      if (attemptsRes.ok) {
+        const attempts = await attemptsRes.json();
+        document.getElementById('tests-taken-count').textContent = attempts.length;
+
+        const studentBody = document.getElementById('student-attempts-body');
+        if (attempts.length > 0) {
+          studentBody.innerHTML = '';
+          attempts.forEach(att => {
+            const tr = document.createElement('tr');
+            tr.style.borderBottom = '1px solid var(--border)';
+            
+            const pct = Math.round((att.score / att.total_questions) * 100);
+            const dateStr = new Date(att.created_at).toLocaleDateString('en-IN', {
+              day: '2-digit', month: 'short', year: 'numeric', hour: '2-digit', minute: '2-digit'
+            });
+
+            tr.innerHTML = `
+              <td style="padding: 12px 8px; font-weight: 600;">${att.lesson_slug}</td>
+              <td style="padding: 12px 8px;">${att.score}/${att.total_questions}</td>
+              <td style="padding: 12px 8px; color: ${pct >= 80 ? '#10b981' : pct >= 50 ? 'var(--accent)' : '#ef4444'}; font-weight: bold;">${pct}%</td>
+              <td style="padding: 12px 8px; color: var(--text-secondary); font-size: 0.85rem;">${dateStr}</td>
+            `;
+            studentBody.appendChild(tr);
+          });
+        }
+      }
+
+      // 3. Load owner dashboard if role is admin/owner
+      if (user.role === 'owner' || user.role === 'admin') {
+        document.getElementById('owner-dashboard-container').style.display = 'flex';
+        loadOwnerAnalytics();
       }
     } catch (e) {
       console.error(e);
       window.location.href = '/';
     }
   });
+
+  async function loadOwnerAnalytics() {
+    try {
+      const res = await fetch('/api/owner-analytics');
+      if (!res.ok) return;
+
+      const data = await res.json();
+      
+      // Render Summary Tab
+      const summaryBody = document.getElementById('owner-summary-body');
+      if (data.summary.length > 0) {
+        summaryBody.innerHTML = '';
+        data.summary.forEach(sum => {
+          const tr = document.createElement('tr');
+          tr.style.borderBottom = '1px solid var(--border)';
+          const avgPct = Math.round(sum.avg_percent);
+
+          tr.innerHTML = `
+            <td style="padding: 12px 8px; font-weight: 600;">${sum.lesson_slug}</td>
+            <td style="padding: 12px 8px;">${sum.total_attempts}</td>
+            <td style="padding: 12px 8px; color: ${avgPct >= 80 ? '#10b981' : avgPct >= 50 ? 'var(--accent)' : '#ef4444'}; font-weight: bold;">${avgPct}%</td>
+            <td style="padding: 12px 8px; color: #10b981; font-weight: bold;">${sum.max_score}/${sum.total_questions}</td>
+            <td style="padding: 12px 8px; color: #ef4444; font-weight: bold;">${sum.min_score}/${sum.total_questions}</td>
+          `;
+          summaryBody.appendChild(tr);
+        });
+      } else {
+        summaryBody.innerHTML = '<tr><td colspan="5" style="text-align: center; padding: 24px;">कोई डेटा उपलब्ध नहीं है।</td></tr>';
+      }
+
+      // Render Attempts Tab
+      const attemptsBody = document.getElementById('owner-attempts-body');
+      if (data.attempts.length > 0) {
+        attemptsBody.innerHTML = '';
+        data.attempts.forEach(att => {
+          const tr = document.createElement('tr');
+          tr.style.borderBottom = '1px solid var(--border)';
+          const dateStr = new Date(att.created_at).toLocaleDateString('en-IN', {
+            day: '2-digit', month: 'short', hour: '2-digit', minute: '2-digit'
+          });
+
+          tr.innerHTML = `
+            <td style="padding: 12px 8px; font-weight: 600;">${att.name || 'Student'}</td>
+            <td style="padding: 12px 8px; color: var(--text-secondary);">${att.email}</td>
+            <td style="padding: 12px 8px;">${att.lesson_slug}</td>
+            <td style="padding: 12px 8px; font-weight: bold;">${att.score}/${att.total_questions}</td>
+            <td style="padding: 12px 8px; color: var(--text-secondary); font-size: 0.85rem;">${dateStr}</td>
+          `;
+          attemptsBody.appendChild(tr);
+        });
+      } else {
+        attemptsBody.innerHTML = '<tr><td colspan="5" style="text-align: center; padding: 24px;">कोई डेटा उपलब्ध नहीं है।</td></tr>';
+      }
+    } catch (e) {
+      console.warn('[EV] Failed to load owner analytics data:', e);
+    }
+  }
+
+  function switchTab(tabId) {
+    const summaryTab = document.getElementById('owner-summary-tab');
+    const attemptsTab = document.getElementById('owner-attempts-tab');
+    const summaryBtn = document.getElementById('tab-summary-btn');
+    const attemptsBtn = document.getElementById('tab-attempts-btn');
+
+    if (tabId === 'owner-summary') {
+      summaryTab.style.display = 'block';
+      attemptsTab.style.display = 'none';
+      summaryBtn.className = 'btn-primary';
+      attemptsBtn.className = 'btn-secondary';
+    } else {
+      summaryTab.style.display = 'none';
+      attemptsTab.style.display = 'block';
+      summaryBtn.className = 'btn-secondary';
+      attemptsBtn.className = 'btn-primary';
+    }
+  }
 </script>

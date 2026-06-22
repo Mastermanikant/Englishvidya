@@ -199,3 +199,17 @@ CREATE TABLE IF NOT EXISTS support_replies (
 
 CREATE INDEX IF NOT EXISTS idx_support_tickets_user ON support_tickets(user_id);
 CREATE INDEX IF NOT EXISTS idx_support_replies_ticket ON support_replies(ticket_id);
+
+-- 13. TEST ATTEMPTS
+CREATE TABLE IF NOT EXISTS test_attempts (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  user_id INTEGER NOT NULL,
+  lesson_slug TEXT NOT NULL,
+  score INTEGER NOT NULL,
+  total_questions INTEGER NOT NULL,
+  answers_json TEXT NOT NULL,
+  created_at TEXT NOT NULL DEFAULT (datetime('now')),
+  FOREIGN KEY (user_id) REFERENCES users(id)
+);
+CREATE INDEX IF NOT EXISTS idx_test_attempts_user ON test_attempts(user_id);
+CREATE INDEX IF NOT EXISTS idx_test_attempts_lesson ON test_attempts(lesson_slug);

@@ -1,0 +1,266 @@
+---
+layout: layouts/base.njk
+pagination:
+  data: grammarTests
+  size: 1
+  alias: testEntry
+permalink: /test/{{ testEntry.slug }}/
+eleventyComputed:
+  pageTitle: "Grammar Test: {{ testEntry.lessonTitle }} — English Vidya"
+  metaDescription: "Test your skills on {{ testEntry.lessonTitle }} ({{ testEntry.title }}). Bilingual multiple choice questions with explanations."
+---
+
+<div class="test-page-container" style="max-width: 750px; margin: 0 auto; padding: var(--sp-6) var(--sp-4);">
+  
+  {# Breadcrumb #}
+  {% set breadcrumbs = [
+    { label: "Home", url: "/" },
+    { label: "Tests", url: "/test/" },
+    { label: testEntry.lessonTitle }
+  ] %}
+  {% include "partials/breadcrumbs.njk" %}
+
+  <div class="card" style="padding: var(--sp-6); margin-top: var(--sp-6); border: 1px solid var(--border); border-radius: var(--radius-lg); position: relative; overflow: hidden;">
+    <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px dashed var(--border); padding-bottom: var(--sp-4); margin-bottom: var(--sp-6); flex-wrap: wrap; gap: 12px;">
+      <div>
+        <span style="font-size: 0.85rem; color: var(--accent); font-weight: bold; text-transform: uppercase; letter-spacing: 0.05em;">Grammar Test</span>
+        <h1 style="font-size: 1.6rem; margin: var(--sp-1) 0 0 0; font-family: 'Outfit', sans-serif; color: var(--text-main);">{{ testEntry.lessonTitle }}</h1>
+      </div>
+      <div id="test-progress-badge" style="background: var(--bg-footer); padding: 6px 14px; border-radius: 20px; font-weight: bold; font-size: 0.95rem; color: var(--text-secondary);">
+        Question <span id="current-q-index">1</span>/<span id="total-q-count">{{ testEntry.questions.length }}</span>
+      </div>
+    </div>
+
+    {# Question Box #}
+    <div id="question-box">
+      <h3 id="question-text" style="font-size: 1.25rem; line-height: 1.6; color: var(--text-main); margin-bottom: var(--sp-5); font-weight: 600;">
+        {# Will be inserted by JS #}
+      </h3>
+      
+      <div id="options-container" style="display: flex; flex-direction: column; gap: var(--sp-3); margin-bottom: var(--sp-6);">
+        {# Options will be inserted by JS #}
+      </div>
+
+      {# Explanation and Hint Box #}
+      <div id="explanation-box" style="display: none; padding: var(--sp-4); background: var(--bg-footer); border-left: 4px solid var(--accent); border-radius: 0 var(--radius-md) var(--radius-md) 0; margin-bottom: var(--sp-6); animation: fadeIn 0.3s ease;">
+        <h4 style="margin: 0 0 6px 0; color: var(--text-main); font-size: 1.05rem; display: flex; align-items: center; gap: 8px;">
+          💡 उत्तर की व्याख्या (Explanation):
+        </h4>
+        <p id="explanation-text" style="margin: 0; font-size: 0.95rem; line-height: 1.6; color: var(--text-secondary);"></p>
+      </div>
+
+      {# Navigation Button #}
+      <div style="display: flex; justify-content: flex-end;">
+        <button id="next-question-btn" onclick="nextQuestion()" class="btn-primary" 
+                style="display: none; padding: 12px 24px; font-weight: bold; font-size: 1.05rem; border-radius: var(--radius-md); align-items: center; gap: 8px;">
+          Next Question ➡️
+        </button>
+      </div>
+    </div>
+
+    {# Results Box (Hidden initially) #}
+    <div id="results-box" style="display: none; text-align: center; padding: var(--sp-6) 0; animation: scaleUp 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);">
+      <div style="font-size: 5rem; margin-bottom: var(--sp-4);">🎉</div>
+      <h2 style="font-family: 'Outfit', sans-serif; font-size: 2rem; color: var(--text-main); margin-bottom: var(--sp-2);">Test Completed!</h2>
+      <p style="color: var(--text-secondary); font-size: 1.15rem; margin-bottom: var(--sp-5);">
+        आपका स्कोर: <span id="final-score" style="font-weight: bold; color: var(--accent); font-size: 1.5rem;">0</span>/<span id="final-total" style="font-weight: bold;">0</span>
+      </p>
+
+      {# Progress Ring or Badge #}
+      <div id="result-feedback" style="font-size: 1.1rem; font-weight: bold; color: var(--text-main); padding: var(--sp-3) var(--sp-5); border-radius: var(--radius-lg); background: var(--bg-footer); display: inline-block; margin-bottom: var(--sp-6);">
+        {# Dynamic message #}
+      </div>
+
+      <div style="display: flex; gap: var(--sp-4); justify-content: center; flex-wrap: wrap; margin-top: var(--sp-4);">
+        <button onclick="restartTest()" class="btn-secondary" style="padding: 12px 24px; font-weight: bold; font-size: 1rem; border-radius: var(--radius-md);">
+          🔄 Test फिर से दें
+        </button>
+        <a href="/test/" class="btn-primary" style="text-decoration: none; padding: 12px 24px; font-weight: bold; font-size: 1rem; border-radius: var(--radius-md);">
+          📚 सभी Tests देखें
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  // Test Data parsed dynamically from Eleventy json
+  const testData = {{ testEntry | jsonify | safe }};
+  const questions = testData.questions;
+
+  let currentIdx = 0;
+  let score = 0;
+  let answered = false;
+  let userAnswers = []; // Save answers: { q_idx: i, correct: bool, selected: index }
+
+  document.addEventListener('DOMContentLoaded', () => {
+    loadQuestion();
+  });
+
+  function loadQuestion() {
+    answered = false;
+    document.getElementById('next-question-btn').style.display = 'none';
+    document.getElementById('explanation-box').style.display = 'none';
+    
+    // Update progress indicator
+    document.getElementById('current-q-index').textContent = currentIdx + 1;
+
+    const q = questions[currentIdx];
+    document.getElementById('question-text').innerHTML = q.q;
+
+    const optsContainer = document.getElementById('options-container');
+    optsContainer.innerHTML = '';
+
+    q.options.forEach((opt, index) => {
+      const btn = document.createElement('button');
+      btn.className = 'test-opt-btn';
+      btn.innerHTML = opt.text;
+      
+      // Styling
+      btn.style.width = '100%';
+      btn.style.textAlign = 'left';
+      btn.style.padding = '14px 20px';
+      btn.style.fontSize = '1.05rem';
+      btn.style.borderRadius = 'var(--radius-md)';
+      btn.style.border = '1px solid var(--border)';
+      btn.style.background = 'var(--bg-raised)';
+      btn.style.color = 'var(--text-main)';
+      btn.style.cursor = 'pointer';
+      btn.style.transition = 'all 0.2s';
+      btn.style.fontWeight = '500';
+
+      // Hover styles
+      btn.onmouseover = () => {
+        if (!answered) {
+          btn.style.borderColor = 'var(--accent)';
+          btn.style.background = 'var(--bg-footer)';
+        }
+      };
+      btn.onmouseout = () => {
+        if (!answered) {
+          btn.style.borderColor = 'var(--border)';
+          btn.style.background = 'var(--bg-raised)';
+        }
+      };
+
+      btn.onclick = () => selectOption(btn, index);
+      optsContainer.appendChild(btn);
+    });
+  }
+
+  function selectOption(selectedBtn, index) {
+    if (answered) return;
+    answered = true;
+
+    const q = questions[currentIdx];
+    const isCorrect = q.options[index].correct;
+    const optsContainer = document.getElementById('options-container');
+    const buttons = optsContainer.querySelectorAll('button');
+
+    // Disable all options
+    buttons.forEach(btn => {
+      btn.style.pointerEvents = 'none';
+    });
+
+    if (isCorrect) {
+      selectedBtn.style.background = 'rgba(16, 185, 129, 0.15)';
+      selectedBtn.style.borderColor = '#10b981';
+      selectedBtn.style.color = '#10b981';
+      score++;
+    } else {
+      selectedBtn.style.background = 'rgba(239, 68, 68, 0.15)';
+      selectedBtn.style.borderColor = '#ef4444';
+      selectedBtn.style.color = '#ef4444';
+      
+      // Highlight correct answer
+      const correctIdx = q.options.findIndex(o => o.correct);
+      if (buttons[correctIdx]) {
+        buttons[correctIdx].style.background = 'rgba(16, 185, 129, 0.15)';
+        buttons[correctIdx].style.borderColor = '#10b981';
+        buttons[correctIdx].style.color = '#10b981';
+      }
+    }
+
+    // Save answer report
+    userAnswers.push({
+      q_idx: currentIdx,
+      selected: index,
+      correct: isCorrect
+    });
+
+    // Show explanation
+    document.getElementById('explanation-text').innerHTML = q.explanation;
+    document.getElementById('explanation-box').style.display = 'block';
+
+    // Show Next Button
+    document.getElementById('next-question-btn').style.display = 'inline-flex';
+  }
+
+  function nextQuestion() {
+    currentIdx++;
+    if (currentIdx < questions.length) {
+      loadQuestion();
+    } else {
+      showResults();
+    }
+  }
+
+  async function showResults() {
+    document.getElementById('question-box').style.display = 'none';
+    document.getElementById('test-progress-badge').style.display = 'none';
+    document.getElementById('results-box').style.display = 'block';
+
+    document.getElementById('final-score').textContent = score;
+    document.getElementById('final-total').textContent = questions.length;
+
+    // Feedback message
+    const ratio = score / questions.length;
+    let feedback = '';
+    if (ratio === 1) feedback = '🌟 कमाल कर दिया! आपने सभी प्रश्नों के सही उत्तर दिए हैं।';
+    else if (ratio >= 0.8) feedback = '😎 बहुत बढ़िया! आपका व्याकरण काफी मज़बूत है।';
+    else if (ratio >= 0.5) feedback = '👍 अच्छा प्रयास! थोड़ा और अभ्यास करने से आप और बेहतर कर सकते हैं।';
+    else feedback = '📚 कोई बात नहीं! एक बार फिर से अध्याय पढ़ें और दोबारा टेस्ट दें।';
+
+    document.getElementById('result-feedback').textContent = feedback;
+
+    // POST score to database if logged in
+    try {
+      const res = await fetch('/api/tests', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          lesson_slug: testData.slug,
+          score: score,
+          total_questions: questions.length,
+          answers_json: JSON.stringify(userAnswers)
+        })
+      });
+      if (res.ok) {
+        showToast('टेस्ट स्कोर सेव कर लिया गया! 💾');
+      }
+    } catch (e) {
+      console.warn('[EV] Failed to save test score:', e);
+    }
+  }
+
+  function restartTest() {
+    currentIdx = 0;
+    score = 0;
+    userAnswers = [];
+    document.getElementById('results-box').style.display = 'none';
+    document.getElementById('test-progress-badge').style.display = 'flex';
+    document.getElementById('question-box').style.display = 'block';
+    loadQuestion();
+  }
+</script>
+
+<style>
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes scaleUp {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}
+</style>

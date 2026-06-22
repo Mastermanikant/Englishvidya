@@ -1,0 +1,210 @@
+[
+  {
+    "slug": "language-communication-grammar-foundation",
+    "title": "Topic 02: Language, Communication & Grammar Foundation Test",
+    "lessonTitle": "भाषा, संचार और व्याकरण की नींव",
+    "questions": [
+      {
+        "q": "संस्कृत व्याकरण के अनुसार 'ज्ञ' किन वर्णों के मेल से बना है?",
+        "options": [
+          { "text": "ज् + ञ", "correct": true },
+          { "text": "ग् + य", "correct": false },
+          { "text": "द् + न्य", "correct": false },
+          { "text": "न् + य", "correct": false }
+        ],
+        "explanation": "संस्कृत व्याकरण (पाणिनी सूत्र) के अनुसार 'ज्ञ' ज् + ञ के मेल से बनता है। इसलिए इसे Jnana या Jnani लिखा जाता है।"
+      },
+      {
+        "q": "अंग्रेज़ी वाक्य संरचना का सही प्रारूप (Word Order) क्या है?",
+        "options": [
+          { "text": "Subject + Object + Verb (SOV)", "correct": false },
+          { "text": "Subject + Verb + Object (SVO)", "correct": true },
+          { "text": "Verb + Subject + Object (VSO)", "correct": false },
+          { "text": "Object + Subject + Verb (OSV)", "correct": false }
+        ],
+        "explanation": "अंग्रेज़ी में वाक्य Subject + Verb + Object (SVO) के प्रारूप में होते हैं (जैसे: I eat mango), जबकि हिंदी में Subject + Object + Verb (SOV) होता है।"
+      },
+      {
+        "q": "व्याकरण (Grammar) का वास्तविक उद्देश्य क्या है?",
+        "options": [
+          { "text": "केवल परीक्षा में अच्छे अंक लाना", "correct": false },
+          { "text": "कठिन अंग्रेज़ी शब्दों का दिखावा करना", "correct": false },
+          { "text": "सही अर्थ को सही तरीके से पहुँचाना और अर्थ का अनर्थ होने से रोकना", "correct": true },
+          { "text": "बिना सोचे-समझे नियम रटना", "correct": false }
+        ],
+        "explanation": "व्याकरण भाषा के 'Traffic Rules' की तरह है, जिसका काम सही अर्थ पहुँचाना और अर्थ का अनर्थ रोकना है।"
+      },
+      {
+        "q": "सफल संवाद (Communication) कब माना जाता है?",
+        "options": [
+          { "text": "जब आप केवल अंग्रेज़ी बोलें", "correct": false },
+          { "text": "जब सुनने वाला आपकी बात को उसी अर्थ में समझ ले जो आप समझाना चाहते हैं", "correct": true },
+          { "text": "जब आप बहुत तेज़ी से बोलते हैं", "correct": false },
+          { "text": "जब संदेश केवल भेज दिया जाता है", "correct": false }
+        ],
+        "explanation": "सफल संवाद तब होता है जब Receiver संदेश को उसी भावना और अर्थ में ग्रहण करता है जिसमें Sender ने उसे भेजा है।"
+      },
+      {
+        "q": "निम्नलिखित में से अंग्रेज़ी (SVO) संरचना का सही वाक्य कौन सा है?",
+        "options": [
+          { "text": "I market go.", "correct": false },
+          { "text": "I go to market.", "correct": true },
+          { "text": "Go to market I.", "correct": false },
+          { "text": "To market I go.", "correct": false }
+        ],
+        "explanation": "अंग्रेज़ी प्रारूप के अनुसार पहले Subject (I), फिर Verb (go) और फिर Object/Complement (to market) आता है।"
+      }
+    ]
+  },
+  {
+    "slug": "alphabet-vowels-consonants-basics",
+    "title": "Topic 03: Alphabet, Vowels & Consonants Basics Test",
+    "lessonTitle": "वर्णमाला, स्वर-व्यंजन और अक्षर व्यवहार",
+    "questions": [
+      {
+        "q": "अंग्रेज़ी वर्णमाला (Alphabet) में कुल कितने अक्षर (Letters) होते हैं?",
+        "options": [
+          { "text": "26", "correct": true },
+          { "text": "44", "correct": false },
+          { "text": "21", "correct": false },
+          { "text": "5", "correct": false }
+        ],
+        "explanation": "अंग्रेज़ी वर्णमाला में कुल 26 लेटर्स (A से Z) होते हैं। ध्यान रहे कि ये लेटर्स हैं, साउंड्स नहीं।"
+      },
+      {
+        "q": "अंग्रेज़ी वर्णमाला में कुल कितनी ध्वनियाँ (Sounds) होती हैं?",
+        "options": [
+          { "text": "26", "correct": false },
+          { "text": "44", "correct": true },
+          { "text": "20", "correct": false },
+          { "text": "24", "correct": false }
+        ],
+        "explanation": "लेटर्स भले ही 26 होते हैं, लेकिन उनसे कुल 44 स्पोकन साउंड्स (ध्वनियाँ) उत्पन्न होती हैं।"
+      },
+      {
+        "q": "निम्नलिखित में से 'Semi-Vowels' (अर्ध-स्वर) कौन से हैं?",
+        "options": [
+          { "text": "A, E", "correct": false },
+          { "text": "W, Y", "correct": true },
+          { "text": "X, Z", "correct": false },
+          { "text": "M, N", "correct": false }
+        ],
+        "explanation": "W और Y को Semi-Vowels कहा जाता है क्योंकि ये वाक्य में अपनी स्थिति के अनुसार कभी कॉन्सोनेंट और कभी वोवेल की तरह व्यवहार करते हैं।"
+      },
+      {
+        "q": "'Yellow' शब्द में 'Y' किस तरह व्यवहार कर रहा है?",
+        "options": [
+          { "text": "Consonant (व्यंजन)", "correct": true },
+          { "text": "Vowel (स्वर)", "correct": false },
+          { "text": "Silent Letter", "correct": false },
+          { "text": "Diphthong", "correct": false }
+        ],
+        "explanation": "जब W या Y किसी शब्द की शुरुआत में आते हैं, तो वे Consonant की तरह व्यवहार करते हैं (जैसे: Yellow में 'य' ध्वनि)।"
+      },
+      {
+        "q": "'Cry' शब्द में 'Y' किस रूप में व्यवहार कर रहा है?",
+        "options": [
+          { "text": "Consonant (व्यंजन)", "correct": false },
+          { "text": "Vowel (स्वर)", "correct": true },
+          { "text": "Silent Letter", "correct": false },
+          { "text": "Plosive", "correct": false }
+        ],
+        "explanation": "जब W या Y किसी शब्द के अंत या बीच में आते हैं, तो वे Vowel की तरह व्यवहार करते हैं (जैसे: Cry में 'आई' वोवेल ध्वनि)।"
+      }
+    ]
+  },
+  {
+    "slug": "vowel-sounds",
+    "title": "Topic 04: Vowel Sounds Test",
+    "lessonTitle": "स्वर ध्वनियाँ (Vowel Sounds)",
+    "questions": [
+      {
+        "q": "44 ध्वनियों में से कुल कितनी स्वर ध्वनियाँ (Vowel Sounds) होती हैं?",
+        "options": [
+          { "text": "5", "correct": false },
+          { "text": "20", "correct": true },
+          { "text": "24", "correct": false },
+          { "text": "12", "correct": false }
+        ],
+        "explanation": "26 लेटर्स में से वोवेल्स (A, E, I, O, U) 5 होते हैं, लेकिन वे कुल 20 वोवेल साउंड्स उत्पन्न करते हैं।"
+      },
+      {
+        "q": "डिफथोंग (Diphthong) किसे कहते हैं?",
+        "options": [
+          { "text": "लघु स्वर (Short Vowel) को", "correct": false },
+          { "text": "अघोष व्यंजन को", "correct": false },
+          { "text": "ग्लाइडिंग वोवेल्स (संयुक्त स्वर) को जहाँ दो स्वर ध्वनियाँ आपस में मिलती हैं", "correct": true },
+          { "text": "मूक अक्षरों को", "correct": false }
+        ],
+        "explanation": "Diphthongs या gliding vowels संयुक्त स्वर होते हैं जहाँ बोलते समय जीभ एक स्वर ध्वनि से दूसरी स्वर ध्वनि पर सरकती है (जैसे: /aɪ/ in 'price')।"
+      },
+      {
+        "q": "20 स्वर ध्वनियों में से Monophthongs (Pure Vowels) की संख्या कितनी है?",
+        "options": [
+          { "text": "12", "correct": true },
+          { "text": "8", "correct": false },
+          { "text": "20", "correct": false },
+          { "text": "24", "correct": false }
+        ],
+        "explanation": "20 वोवेल साउंड्स में से 12 शुद्ध स्वर (Pure Vowels / Monophthongs) होते हैं और शेष 8 संयुक्त स्वर (Diphthongs) होते हैं।"
+      },
+      {
+        "q": "'Sheep' शब्द में किस प्रकार की वोवेल ध्वनि है?",
+        "options": [
+          { "text": "Short Vowel Sound (/ɪ/)", "correct": false },
+          { "text": "Long Vowel Sound (/iː/)", "correct": true },
+          { "text": "Diphthong (/eɪ/)", "correct": false },
+          { "text": "Consonant Sound", "correct": false }
+        ],
+        "explanation": "'Sheep' में बड़ी 'ई' की लंबी ध्वनि (/iː/) होती है, जबकि 'Ship' में छोटी 'इ' की लघु ध्वनि (/ɪ/) होती है।"
+      }
+    ]
+  },
+  {
+    "slug": "consonant-sounds-pronunciation",
+    "title": "Topic 05: Consonant Sounds & Silent Letters Test",
+    "lessonTitle": "व्यंजन ध्वनियाँ और मूक अक्षर",
+    "questions": [
+      {
+        "q": "अंग्रेज़ी में कुल कितनी व्यंजन ध्वनियाँ (Consonant Sounds) होती हैं?",
+        "options": [
+          { "text": "21", "correct": false },
+          { "text": "24", "correct": true },
+          { "text": "20", "correct": false },
+          { "text": "26", "correct": false }
+        ],
+        "explanation": "अंग्रेज़ी में 21 व्यंजन अक्षरों से कुल 24 व्यंजन ध्वनियाँ (Consonant Sounds) बनती हैं।"
+      },
+      {
+        "q": "'Psychology' शब्द में कौन सा अक्षर मूक (Silent) है?",
+        "options": [
+          { "text": "P", "correct": true },
+          { "text": "S", "correct": false },
+          { "text": "Y", "correct": false },
+          { "text": "O", "correct": false }
+        ],
+        "explanation": "'Psychology' (साइकोलॉजी) में शुरुआत का 'P' मूक रहता है, उसका उच्चारण नहीं किया जाता।"
+      },
+      {
+        "q": "यदि किसी शब्द के अंत में 'MB' आए (जैसे: Climb, Comb), तो कौन सा अक्षर प्रायः साइलेंट रहता है?",
+        "options": [
+          { "text": "M", "correct": false },
+          { "text": "B", "correct": true },
+          { "text": "दोनों बोले जाते हैं", "correct": false },
+          { "text": "इनमें से कोई नहीं", "correct": false }
+        ],
+        "explanation": "जब किसी शब्द के अंत में M के बाद B आता है, तो 'B' साइलेंट हो जाता है (जैसे: Clim-b = क्लाइम, Com-b = कोम)।"
+      },
+      {
+        "q": "'City' और 'Cat' में 'C' के अलग-अलग उच्चारण का क्या नियम है?",
+        "options": [
+          { "text": "C के बाद E, I या Y आए तो 'स' (Soft C) बोलते हैं, अन्यथा 'क' (Hard C)", "correct": true },
+          { "text": "C हमेशा 'क' ही बोला जाता है", "correct": false },
+          { "text": "C हमेशा 'स' ही बोला जाता है", "correct": false },
+          { "text": "C के बाद स्वर आने पर 'स' बोलते हैं", "correct": false }
+        ],
+        "explanation": "इसे Soft and Hard C rule कहते हैं। C + E, I, Y = 'स' (जैसे: Cell, City, Cycle)। बाकी समय C = 'क' (जैसे: Cat, Cup)।"
+      }
+    ]
+  }
+]
