@@ -25,15 +25,27 @@ export async function onRequestPost(context) {
       return Response.json({ success: false, error: 'You signed up with Google. Please login with Google, then set a password in Settings.' }, { status: 403 });
     }
 
-    // Hash the input password to compare
-    const encoder = new TextEncoder();
-    const data = encoder.encode(password);
-    const hashBuffer = await crypto.subtle.digest('SHA-256', data);
-    const hashArray = Array.from(new Uint8Array(hashBuffer));
-    const hashedInput = hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+    // Verify password (PBKDF2 with legacy SHA-256 fallback and auto-migration)
+    let isValid = false;
+    let needsUpgrade = false;
 
-    if (hashedInput !== user.password_hash) {
+    if (user.password_hash.includes(':')) {
+      isValid = await verifyPasswordPBKDF2(password, user.password_hash);
+    } else {
+      const legacyHash = await hashSHA256(password);
+      isValid = (legacyHash === user.password_hash);
+      if (isValid) {
+        needsUpgrade = true;
+      }
+    }
+
+    if (!isValid) {
       return Response.json({ success: false, error: 'Incorrect password.' }, { status: 401 });
+    }
+
+    if (needsUpgrade) {
+      const newHash = await hashPasswordPBKDF2(password);
+      await env.DB.prepare('UPDATE users SET password_hash = ? WHERE id = ?').bind(newHash, user.id).run();
     }
 
     // Create JWT
@@ -50,6 +62,49 @@ export async function onRequestPost(context) {
   } catch (err) {
     return Response.json({ success: false, error: 'Server error' }, { status: 500 });
   }
+}
+
+// --- PBKDF2 Hashing Helpers ---
+async function hashPasswordPBKDF2(password) {
+  const salt = crypto.getRandomValues(new Uint8Array(16));
+  const keyMaterial = await crypto.subtle.importKey(
+    'raw', new TextEncoder().encode(password),
+    { name: 'PBKDF2' }, false, ['deriveBits']
+  );
+  const derivedBits = await crypto.subtle.deriveBits(
+    { name: 'PBKDF2', salt: salt, iterations: 100000, hash: 'SHA-256' },
+    keyMaterial,
+    512
+  );
+  const saltHex = Array.from(salt).map(b => b.toString(16).padStart(2, '0')).join('');
+  const hashHex = Array.from(new Uint8Array(derivedBits)).map(b => b.toString(16).padStart(2, '0')).join('');
+  return `${saltHex}:${hashHex}`;
+}
+
+async function verifyPasswordPBKDF2(password, storedHashStr) {
+  const parts = storedHashStr.split(':');
+  if (parts.length !== 2) return false;
+  const [saltHex, hashHex] = parts;
+  const salt = new Uint8Array(saltHex.match(/.{1,2}/g).map(byte => parseInt(byte, 16)));
+  const keyMaterial = await crypto.subtle.importKey(
+    'raw', new TextEncoder().encode(password),
+    { name: 'PBKDF2' }, false, ['deriveBits']
+  );
+  const derivedBits = await crypto.subtle.deriveBits(
+    { name: 'PBKDF2', salt: salt, iterations: 100000, hash: 'SHA-256' },
+    keyMaterial,
+    512
+  );
+  const derivedHex = Array.from(new Uint8Array(derivedBits)).map(b => b.toString(16).padStart(2, '0')).join('');
+  return derivedHex === hashHex;
+}
+
+async function hashSHA256(password) {
+  const encoder = new TextEncoder();
+  const data = encoder.encode(password);
+  const hashBuffer = await crypto.subtle.digest('SHA-256', data);
+  const hashArray = Array.from(new Uint8Array(hashBuffer));
+  return hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
 }
 
 // --- Helper: JWT Create (HMAC-SHA256) ---

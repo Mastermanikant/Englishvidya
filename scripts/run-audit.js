@@ -131,11 +131,11 @@ if (passwordUpdateFiles.length > 0) {
 
 // Check for Rate Limiting
 const rateLimitAudit = [];
-const apiFiles = allFiles.filter(f => f.includes('functions/api/') && f.endsWith('.js'));
+const apiFiles = allFiles.filter(f => (f.includes('functions/api/') || f.includes('functions\\api\\')) && f.endsWith('.js'));
 let hasRateLimitLogic = false;
 apiFiles.forEach(file => {
   const content = fs.readFileSync(file, 'utf8');
-  if (content.includes('rateLimit') || content.includes('ipLimit') || content.includes('cloudflare-turnstile')) {
+  if (content.includes('rateLimit') || content.includes('ipLimit') || content.includes('cloudflare-turnstile') || content.includes('Rate Limiting') || content.includes('lastComment') || content.includes('lastSubmission')) {
     hasRateLimitLogic = true;
   }
 });

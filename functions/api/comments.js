@@ -50,6 +50,19 @@ export async function onRequestPost(context) {
 
   const cleanText = text.trim();
 
+  // Rate Limiting: 1 comment every 15 seconds
+  const lastComment = await context.env.DB.prepare(
+    'SELECT created_at FROM comments WHERE user_id = ? ORDER BY created_at DESC LIMIT 1'
+  ).bind(user.id).first();
+
+  if (lastComment) {
+    const lastTime = new Date(lastComment.created_at).getTime();
+    const nowTime = Date.now();
+    if (nowTime - lastTime < 15000) {
+      return Response.json({ error: 'कमेंट पोस्ट करने की गति बहुत तेज़ है। कृपया १५ सेकंड प्रतीक्षा करें।' }, { status: 429 });
+    }
+  }
+
   // Rule 1: No URLs in the main comment text
   const urlRegex = /(https?:\/\/[^\s]+)|(www\.[^\s]+)|([a-zA-Z0-9-]+\.[a-zA-Z]{2,}(\/[^\s]*)?)/i;
   if (urlRegex.test(cleanText)) {

@@ -1,5 +1,12 @@
 // website/js/community.js
 
+function escapeHTML(str) {
+  if (!str) return '';
+  return str.replace(/[&<>'"]/g, 
+    tag => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;' }[tag] || tag)
+  );
+}
+
 document.addEventListener('DOMContentLoaded', () => {
   initRatings();
   initDiary();
@@ -186,11 +193,11 @@ async function initUGC() {
         listContainer.innerHTML = meanings.map(m => `
           <div class="card" style="padding: 12px; border: 1px solid var(--border); border-radius: 8px; margin-bottom: 8px;">
             <div style="display: flex; justify-content: space-between; margin-bottom: 4px;">
-              <span style="font-weight: bold; color: var(--text-main);">${m.meaning_text}</span>
+              <span style="font-weight: bold; color: var(--text-main);">${escapeHTML(m.meaning_text)}</span>
               ${m.status === 'not_verified' ? '<span style="font-size: 0.75rem; background: #fbbf24; color: black; padding: 2px 6px; border-radius: 4px;">Not Verified</span>' : ''}
             </div>
             <div style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 8px;">
-              ${m.region ? `📍 ${m.region} • ` : ''} By ${m.name}
+              ${m.region ? `📍 ${escapeHTML(m.region)} • ` : ''} By ${escapeHTML(m.name)}
             </div>
             <div style="display: flex; gap: 12px;">
               <button onclick="voteUGC(${m.id}, 'up')" style="background: none; border: none; cursor: pointer; color: #10b981; display: flex; align-items: center; gap: 4px;">
@@ -337,7 +344,7 @@ async function initComments() {
               refsHtml = `<div style="margin-top: 8px; font-size: 0.85rem;">
                 <strong style="color: var(--text-secondary);">References:</strong>
                 <ul style="margin: 4px 0 0 0; padding-left: 20px;">
-                  ${refs.map(r => `<li><a href="${r}" target="_blank" rel="noopener noreferrer" style="color: var(--accent);">${r}</a></li>`).join('')}
+                  ${refs.map(r => `<li><a href="${escapeHTML(r)}" target="_blank" rel="noopener noreferrer" style="color: var(--accent);">${escapeHTML(r)}</a></li>`).join('')}
                 </ul>
               </div>`;
             }
@@ -349,13 +356,13 @@ async function initComments() {
             <div style="flex: 1;">
               <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 4px;">
                 <div>
-                  <span style="font-weight: bold; color: var(--text-main); margin-right: 8px;">${c.name}</span>
+                  <span style="font-weight: bold; color: var(--text-main); margin-right: 8px;">${escapeHTML(c.name)}</span>
                   ${c.user_rating ? `<span style="color: #f59e0b; font-size: 0.9rem;">${'★'.repeat(c.user_rating)}${'☆'.repeat(5 - c.user_rating)}</span>` : ''}
                   ${c.trust_score > 50 ? '<span style="background: var(--accent-soft); color: var(--accent); font-size: 0.7rem; padding: 2px 6px; border-radius: 4px; font-weight: bold;">Pro</span>' : ''}
                 </div>
                 <span style="font-size: 0.8rem; color: var(--text-tertiary);">${new Date(c.created_at).toLocaleDateString()}</span>
               </div>
-              <p style="margin: 0; color: var(--text-primary); font-size: 0.95rem; line-height: 1.5; white-space: pre-wrap;">${c.comment_text}</p>
+              <p style="margin: 0; color: var(--text-primary); font-size: 0.95rem; line-height: 1.5; white-space: pre-wrap;">${escapeHTML(c.comment_text)}</p>
               ${refsHtml}
             </div>
           </div>

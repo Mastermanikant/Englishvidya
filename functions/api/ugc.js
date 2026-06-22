@@ -30,6 +30,19 @@ export async function onRequestPost(context) {
       return Response.json({ error: 'Meaning text required' }, { status: 400 });
     }
 
+    // Rate Limiting: 1 submission every 15 seconds
+    const lastSubmission = await context.env.DB.prepare(
+      'SELECT created_at FROM ugc_meanings WHERE user_id = ? ORDER BY created_at DESC LIMIT 1'
+    ).bind(user.id).first();
+
+    if (lastSubmission) {
+      const lastTime = new Date(lastSubmission.created_at).getTime();
+      const nowTime = Date.now();
+      if (nowTime - lastTime < 15000) {
+        return Response.json({ error: 'योगदान भेजने की गति बहुत तेज़ है। कृपया १५ सेकंड प्रतीक्षा करें।' }, { status: 429 });
+      }
+    }
+
     await context.env.DB.prepare(
       `INSERT INTO ugc_meanings (word_slug, user_id, meaning_text, region, status) 
        VALUES (?, ?, ?, ?, 'not_verified')`
