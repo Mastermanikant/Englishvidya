@@ -18,7 +18,7 @@ export async function onRequest(context) {
       'legal', 'legal-hindi', 'settings', 'login', 'contact', 'profile', 
       'about-us', 'about-us-hindi', 'forum', 'my-diary', 'founder-mastermanikant', 
       'founder-mastermanikant-hindi', 'class-10', 'class-12', 'flashcards', 
-      'robots.txt', 'manifest.json', 'sitemap.xml', 'favicon.ico'
+      'robots.txt', 'manifest.json', 'sitemap.xml', 'favicon.ico', 'paid'
     ];
     
     if (!reserved.includes(username) && /^[a-z0-9_-]{3,20}$/.test(username)) {
