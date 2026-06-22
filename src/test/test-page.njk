@@ -26,8 +26,20 @@ eleventyComputed:
         <span style="font-size: 0.85rem; color: var(--accent); font-weight: bold; text-transform: uppercase; letter-spacing: 0.05em;">Grammar Test</span>
         <h1 style="font-size: 1.6rem; margin: var(--sp-1) 0 0 0; font-family: 'Outfit', sans-serif; color: var(--text-main);">{{ testEntry.lessonTitle }}</h1>
       </div>
-      <div id="test-progress-badge" style="background: var(--bg-footer); padding: 6px 14px; border-radius: 20px; font-weight: bold; font-size: 0.95rem; color: var(--text-secondary);">
-        Question <span id="current-q-index">1</span>/<span id="total-q-count">{{ testEntry.questions.length }}</span>
+      <div style="display: flex; gap: 12px; align-items: center; flex-wrap: wrap;">
+        <!-- Auto Next Control -->
+        <div style="display: flex; align-items: center; gap: 8px; font-size: 0.9rem; color: var(--text-secondary); background: var(--bg-footer); padding: 6px 12px; border-radius: 20px; border: 1px solid var(--border);">
+          ⏱️ Auto Next: 
+          <select id="auto-next-select" style="background: transparent; border: none; color: var(--text-main); font-weight: bold; cursor: pointer; outline: none;">
+            <option value="0" style="background: var(--bg-raised); color: var(--text-main);">Off</option>
+            <option value="2" style="background: var(--bg-raised); color: var(--text-main);">2s</option>
+            <option value="3" selected style="background: var(--bg-raised); color: var(--text-main);">3s</option>
+            <option value="5" style="background: var(--bg-raised); color: var(--text-main);">5s</option>
+          </select>
+        </div>
+        <div id="test-progress-badge" style="background: var(--bg-footer); padding: 6px 14px; border-radius: 20px; font-weight: bold; font-size: 0.95rem; color: var(--text-secondary);">
+          Question <span id="current-q-index">1</span>/<span id="total-q-count">{{ testEntry.questions.length }}</span>
+        </div>
       </div>
     </div>
 
@@ -92,6 +104,8 @@ eleventyComputed:
   let score = 0;
   let answered = false;
   let userAnswers = []; // Save answers: { q_idx: i, correct: bool, selected: index }
+  let autoNextTimer = null;
+  let autoNextCountdownInterval = null;
 
   document.addEventListener('DOMContentLoaded', () => {
     loadQuestion();
@@ -99,6 +113,8 @@ eleventyComputed:
 
   function loadQuestion() {
     answered = false;
+    if (autoNextTimer) clearTimeout(autoNextTimer);
+    if (autoNextCountdownInterval) clearInterval(autoNextCountdownInterval);
     document.getElementById('next-question-btn').style.display = 'none';
     document.getElementById('explanation-box').style.display = 'none';
     
@@ -193,7 +209,32 @@ eleventyComputed:
     document.getElementById('explanation-box').style.display = 'block';
 
     // Show Next Button
-    document.getElementById('next-question-btn').style.display = 'inline-flex';
+    const nextBtn = document.getElementById('next-question-btn');
+    nextBtn.style.display = 'inline-flex';
+    nextBtn.innerHTML = 'Next Question ➡️';
+
+    // Auto Next Timer setup
+    const autoNextVal = parseInt(document.getElementById('auto-next-select').value);
+    if (autoNextVal > 0) {
+      let secondsLeft = autoNextVal;
+      nextBtn.innerHTML = `Next Question (${secondsLeft}s में) ➡️`;
+      
+      if (autoNextTimer) clearTimeout(autoNextTimer);
+      if (autoNextCountdownInterval) clearInterval(autoNextCountdownInterval);
+
+      autoNextCountdownInterval = setInterval(() => {
+        secondsLeft--;
+        if (secondsLeft > 0) {
+          nextBtn.innerHTML = `Next Question (${secondsLeft}s में) ➡️`;
+        } else {
+          clearInterval(autoNextCountdownInterval);
+        }
+      }, 1000);
+
+      autoNextTimer = setTimeout(() => {
+        nextQuestion();
+      }, autoNextVal * 1000);
+    }
   }
 
   function nextQuestion() {
@@ -247,6 +288,8 @@ eleventyComputed:
     currentIdx = 0;
     score = 0;
     userAnswers = [];
+    if (autoNextTimer) clearTimeout(autoNextTimer);
+    if (autoNextCountdownInterval) clearInterval(autoNextCountdownInterval);
     document.getElementById('results-box').style.display = 'none';
     document.getElementById('test-progress-badge').style.display = 'flex';
     document.getElementById('question-box').style.display = 'block';
