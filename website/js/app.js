@@ -85,11 +85,11 @@
       const sunLabel = document.querySelector('#theme-toggle-drawer-btn .theme-label-sun');
       if (!moonLabel || !sunLabel) return;
       if (theme === 'dark') {
-        moonLabel.style.display = 'inline';
-        sunLabel.style.display = 'none';
-      } else {
         moonLabel.style.display = 'none';
         sunLabel.style.display = 'inline';
+      } else {
+        moonLabel.style.display = 'inline';
+        sunLabel.style.display = 'none';
       }
     },
 
@@ -99,6 +99,19 @@
       const metaTheme = document.querySelector('meta[name="theme-color"]');
       if (metaTheme) {
         metaTheme.content = theme === 'dark' ? '#0c1222' : '#f8fafc';
+      }
+      
+      // Desktop toggle icon manual update for 100% reliability
+      const sunIcon = document.querySelector('#theme-toggle-btn .icon-sun');
+      const moonIcon = document.querySelector('#theme-toggle-btn .icon-moon');
+      if (sunIcon && moonIcon) {
+        if (theme === 'dark') {
+          sunIcon.style.display = 'block';
+          moonIcon.style.display = 'none';
+        } else {
+          sunIcon.style.display = 'none';
+          moonIcon.style.display = 'block';
+        }
       }
     },
 

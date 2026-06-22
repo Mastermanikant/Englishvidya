@@ -21,6 +21,7 @@
     { "label": "Dictionary", "href": "/dictionary/","route": "dictionary", "icon": "🔤" },
     { "label": "Flashcards", "href": "/flashcards/","route": "flashcards", "icon": "🃏" },
     { "label": "Idioms",     "href": "/idioms/",    "route": "idioms",     "icon": "🎭" },
+    { "label": "Tests",      "href": "/test/",      "route": "test",       "icon": "🏆" },
     { "label": "Ask AI",      "href": "/ask-ai/",        "route": "ask-ai",         "icon": "🤖" },
     { "label": "All Posts",       "href": "/all-post/",      "route": "all-post",       "icon": "📝" },
     { 
