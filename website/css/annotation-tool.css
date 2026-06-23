@@ -1,0 +1,231 @@
+/* EnglishVidya Annotation Tool Styles */
+
+#ev-annotation-container {
+    font-family: var(--font-sans, system-ui, -apple-system, sans-serif);
+}
+
+#ev-annotation-container canvas {
+    cursor: crosshair;
+}
+
+#ev-annotation-container.ghost-mode canvas {
+    pointer-events: none !important;
+}
+
+/* Floating Toolbar */
+.ev-toolbar {
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    background: rgba(15, 23, 42, 0.85);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    gap: 8px;
+    pointer-events: auto;
+    z-index: 1000000;
+    user-select: none;
+    transition: opacity 0.2s;
+}
+
+.ev-toolbar.horizontal {
+    flex-direction: row;
+}
+
+/* Drag Handle */
+.ev-toolbar-handle {
+    width: 100%;
+    height: 16px;
+    cursor: grab;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.5;
+    transition: opacity 0.2s;
+}
+
+.ev-toolbar.horizontal .ev-toolbar-handle {
+    width: 16px;
+    height: 100%;
+    flex-direction: column;
+}
+
+.ev-toolbar-handle:hover {
+    opacity: 1;
+}
+
+.ev-toolbar-handle::before, .ev-toolbar-handle::after {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: #fff;
+    margin: 2px 0;
+    border-radius: 2px;
+}
+
+.ev-toolbar.horizontal .ev-toolbar-handle::before,
+.ev-toolbar.horizontal .ev-toolbar-handle::after {
+    width: 2px;
+    height: 20px;
+    margin: 0 2px;
+}
+
+/* Tools Row/Column */
+.ev-tools-group {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.ev-toolbar.horizontal .ev-tools-group {
+    flex-direction: row;
+}
+
+/* Tool Buttons */
+.ev-tool-btn {
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+    border: none;
+    background: transparent;
+    color: #cbd5e1;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    transition: all 0.2s;
+}
+
+.ev-tool-btn:hover {
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+}
+
+.ev-tool-btn.active {
+    background: #3b82f6; /* Accent color */
+    color: #fff;
+    box-shadow: 0 2px 8px rgba(59, 130, 246, 0.4);
+}
+
+.ev-tool-btn.ghost-active {
+    background: #10b981;
+    color: #fff;
+    animation: pulseGhost 2s infinite;
+}
+
+@keyframes pulseGhost {
+    0% { box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.4); }
+    70% { box-shadow: 0 0 0 6px rgba(16, 185, 129, 0); }
+    100% { box-shadow: 0 0 0 0 rgba(16, 185, 129, 0); }
+}
+
+/* Color Picker Row */
+.ev-color-picker {
+    display: flex;
+    flex-direction: column; /* Or grid */
+    gap: 4px;
+    padding: 4px;
+    border-top: 1px solid rgba(255,255,255,0.1);
+    margin-top: 4px;
+}
+.ev-toolbar.horizontal .ev-color-picker {
+    flex-direction: row;
+    border-top: none;
+    border-left: 1px solid rgba(255,255,255,0.1);
+    margin-top: 0;
+    margin-left: 4px;
+    padding-left: 8px;
+}
+
+.ev-color-btn {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: transform 0.1s;
+}
+.ev-color-btn:hover {
+    transform: scale(1.1);
+}
+.ev-color-btn.active {
+    border-color: #fff;
+    box-shadow: 0 0 0 2px rgba(255,255,255,0.2);
+}
+
+/* Thickness Slider */
+.ev-thickness-control {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 4px;
+    border-top: 1px solid rgba(255,255,255,0.1);
+}
+.ev-toolbar.horizontal .ev-thickness-control {
+    border-top: none;
+    border-left: 1px solid rgba(255,255,255,0.1);
+}
+
+.ev-thickness-control input[type="range"] {
+    width: 100%;
+    max-width: 80px;
+    accent-color: #3b82f6;
+}
+
+/* Inline Text Input */
+.ev-inline-input {
+    position: absolute;
+    background: transparent;
+    border: 1px dashed rgba(255,255,255,0.5);
+    color: #fff;
+    font-family: inherit;
+    outline: none;
+    padding: 2px 4px;
+    z-index: 1000001;
+    min-width: 50px;
+}
+
+/* Floating Action Button (Global Trigger) */
+#ev-global-pen-trigger {
+    position: fixed;
+    bottom: 20px;
+    right: 70px; /* Next to existing widgets */
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: #013220; /* Board Green */
+    color: white;
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    z-index: 9999;
+    transition: all 0.2s;
+}
+#ev-global-pen-trigger:hover {
+    transform: scale(1.05);
+    background: #024a30;
+}
+#ev-global-pen-trigger.active {
+    background: #ef4444; /* Red close button */
+    transform: rotate(45deg);
+}
+
+/* Smart Snapping Highlight overlay (DOM layer) */
+.ev-smart-highlight {
+    position: absolute;
+    pointer-events: none;
+    background-color: rgba(255, 235, 59, 0.4);
+    border-radius: 2px;
+    z-index: 999998; /* Just below canvas */
+    transition: all 0.1s;
+}

@@ -1,0 +1,225 @@
+---
+layout: null
+permalink: /digital-board/
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <title>EnglishVidya Digital Board</title>
+    <link rel="stylesheet" href="/css/annotation-tool.css">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100vw;
+            height: 100vh;
+            overflow: hidden;
+            background-color: #013220; /* Default Forest Green Board */
+            font-family: var(--font-sans, system-ui, sans-serif);
+        }
+
+        #media-background-container {
+            position: absolute;
+            top: 0; left: 0; width: 100%; height: 100%;
+            z-index: 1; /* Below canvas which is 999999 */
+        }
+        #screen-video {
+            width: 100%; height: 100%; object-fit: contain;
+            display: none;
+        }
+
+        .board-controls {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            z-index: 1000001; /* Above canvas */
+            background: rgba(0,0,0,0.7);
+            padding: 12px;
+            border-radius: 12px;
+            display: flex;
+            gap: 12px;
+            color: white;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255,255,255,0.2);
+        }
+        
+        .board-controls button {
+            background: #3b82f6;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: 0.2s;
+        }
+        .board-controls button:hover {
+            background: #2563eb;
+        }
+
+        .slide-indicator {
+            display: flex;
+            align-items: center;
+            font-weight: bold;
+            font-size: 1.2rem;
+            padding: 0 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="media-background-container">
+        <video id="screen-video" autoplay playsinline></video>
+    </div>
+
+    <div class="board-controls">
+        <button id="btn-share-screen" title="Share Screen/App to draw over it">💻 Share Screen</button>
+        <button id="btn-prev-slide">⬅️ Prev</button>
+        <div class="slide-indicator" id="slide-label">Slide 1</div>
+        <button id="btn-next-slide">Next ➡️</button>
+        <button id="btn-record">🔴 Record Lesson</button>
+    </div>
+
+    <!-- Load the engine -->
+    <script src="/js/annotation-tool.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Auto start the engine
+            if(window.EVAnnotationEngine) {
+                window.EVAnnotationEngine.toggleEngine();
+                // Ensure it's active
+                if(!window.EVAnnotationEngine.isActive) window.EVAnnotationEngine.toggleEngine();
+            }
+
+            // Screen Share Logic
+            const videoElem = document.getElementById('screen-video');
+            const btnShare = document.getElementById('btn-share-screen');
+            
+            btnShare.addEventListener('click', async () => {
+                try {
+                    const stream = await navigator.mediaDevices.getDisplayMedia({ video: true, audio: true });
+                    videoElem.srcObject = stream;
+                    videoElem.style.display = 'block';
+                    document.body.style.backgroundColor = 'transparent'; // Let video show
+                    btnShare.textContent = '⏹️ Stop Share';
+                    
+                    stream.getVideoTracks()[0].onended = () => {
+                        videoElem.style.display = 'none';
+                        document.body.style.backgroundColor = '#013220';
+                        btnShare.textContent = '💻 Share Screen';
+                    };
+                } catch(err) {
+                    console.error("Error: " + err);
+                }
+            });
+
+            // Very basic multi-slide implementation
+            let currentSlide = 1;
+            const slideLabel = document.getElementById('slide-label');
+            
+            // To simulate slides, we change the local storage key namespace
+            // by injecting currentSlide into pathname logic in annotation-tool.js
+            // But since annotation-tool.js hardcoded window.location.pathname,
+            // we override it for board mode.
+            if(window.EVAnnotationEngine) {
+                const baseSave = window.EVAnnotationEngine.saveState;
+                const baseLoad = window.EVAnnotationEngine.loadState;
+                
+                window.EVAnnotationEngine.saveState = function() {
+                    const state = JSON.stringify({ objects: this.objects, stepCounter: this.stepCounter });
+                    localStorage.setItem(`ev_board_slide_${currentSlide}`, state);
+                };
+                
+                window.EVAnnotationEngine.loadState = function() {
+                    const stateStr = localStorage.getItem(`ev_board_slide_${currentSlide}`);
+                    if (stateStr) {
+                        try {
+                            const state = JSON.parse(stateStr);
+                            this.objects = state.objects || [];
+                            this.stepCounter = state.stepCounter || 1;
+                        } catch(e) {}
+                    } else {
+                        this.objects = [];
+                        this.stepCounter = 1;
+                    }
+                    if(this.ctx) this.render();
+                };
+                
+                // Load slide 1
+                window.EVAnnotationEngine.loadState();
+            }
+
+            document.getElementById('btn-prev-slide').addEventListener('click', () => {
+                if (currentSlide > 1) {
+                    currentSlide--;
+                    slideLabel.textContent = `Slide ${currentSlide}`;
+                    if(window.EVAnnotationEngine) window.EVAnnotationEngine.loadState();
+                }
+            });
+
+            document.getElementById('btn-next-slide').addEventListener('click', () => {
+                currentSlide++;
+                slideLabel.textContent = `Slide ${currentSlide}`;
+                if(window.EVAnnotationEngine) window.EVAnnotationEngine.loadState();
+            });
+            
+            // Basic Local Recording Logic
+            let mediaRecorder;
+            let recordedChunks = [];
+            const btnRecord = document.getElementById('btn-record');
+            
+            btnRecord.addEventListener('click', async () => {
+                if(mediaRecorder && mediaRecorder.state === 'recording') {
+                    mediaRecorder.stop();
+                    btnRecord.textContent = '🔴 Record Lesson';
+                    return;
+                }
+                
+                try {
+                    // Try to get Canvas stream + Mic stream
+                    const canvasStream = window.EVAnnotationEngine.canvas.captureStream(30);
+                    const micStream = await navigator.mediaDevices.getUserMedia({audio: true, video: false});
+                    
+                    // Combine tracks
+                    const combinedStream = new MediaStream([
+                        ...canvasStream.getVideoTracks(),
+                        ...micStream.getAudioTracks()
+                    ]);
+                    
+                    // If video is sharing, we actually want the video stream, not just canvas
+                    // For a robust system, we would composite canvas over video using another hidden canvas,
+                    // but for now we capture what's available.
+                    
+                    mediaRecorder = new MediaRecorder(combinedStream, { mimeType: 'video/webm' });
+                    recordedChunks = [];
+                    
+                    mediaRecorder.ondataavailable = e => {
+                        if (e.data.size > 0) recordedChunks.push(e.data);
+                    };
+                    mediaRecorder.onstop = () => {
+                        const blob = new Blob(recordedChunks, { type: 'video/webm' });
+                        const url = URL.createObjectURL(blob);
+                        const a = document.createElement('a');
+                        a.style.display = 'none';
+                        a.href = url;
+                        a.download = `EV_Lesson_Slide_${currentSlide}_${new Date().getTime()}.webm`;
+                        document.body.appendChild(a);
+                        a.click();
+                        setTimeout(() => { document.body.removeChild(a); window.URL.revokeObjectURL(url); }, 100);
+                        
+                        // stop mic
+                        micStream.getTracks().forEach(t => t.stop());
+                    };
+                    
+                    mediaRecorder.start();
+                    btnRecord.textContent = '⏹️ Stop Recording';
+                } catch(err) {
+                    alert("Could not start recording: " + err.message);
+                }
+            });
+        });
+    </script>
+</body>
+</html>

@@ -762,5 +762,42 @@
       toggle.addEventListener('touchstart', onStart, { passive: true });
     });
   </script>
+  <!-- Global Annotation Tool Trigger (Lazy Loaded) -->
+  <button id="ev-global-pen-trigger" title="Smart Writing Tool (Draw on Screen)" aria-label="Toggle Smart Writing Tool" style="position: fixed; bottom: 20px; right: 70px; width: 48px; height: 48px; border-radius: 50%; background: #013220; color: white; border: 2px solid rgba(255,255,255,0.1); box-shadow: 0 4px 16px rgba(0,0,0,0.3); cursor: pointer; display: flex; align-items: center; justify-content: center; font-size: 20px; z-index: 9999; transition: all 0.2s;">
+    ✏️
+  </button>
+  <script>
+    document.getElementById('ev-global-pen-trigger').addEventListener('click', function() {
+      const btn = this;
+      
+      // Load CSS if not loaded
+      if (!document.getElementById('ev-annotation-css')) {
+        const link = document.createElement('link');
+        link.id = 'ev-annotation-css';
+        link.rel = 'stylesheet';
+        link.href = '/css/annotation-tool.css';
+        document.head.appendChild(link);
+      }
+      
+      // Load JS if not loaded
+      if (!window.EVAnnotationEngine) {
+        btn.innerHTML = '⏳'; // Loading state
+        const script = document.createElement('script');
+        script.src = '/js/annotation-tool.js';
+        script.onload = () => {
+          const isActive = window.EVAnnotationEngine.toggleEngine();
+          btn.innerHTML = isActive ? '❌' : '✏️';
+          if (isActive) btn.style.background = '#ef4444';
+          else btn.style.background = '#013220';
+        };
+        document.body.appendChild(script);
+      } else {
+        const isActive = window.EVAnnotationEngine.toggleEngine();
+        btn.innerHTML = isActive ? '❌' : '✏️';
+        if (isActive) btn.style.background = '#ef4444';
+        else btn.style.background = '#013220';
+      }
+    });
+  </script>
 </body>
 </html>
