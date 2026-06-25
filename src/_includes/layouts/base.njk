@@ -19,6 +19,9 @@
   <title>{{ pageTitle or title or site.siteName }}</title>
   <meta name="description" content="{{ metaDescription or description or site.siteDescription }}">
   <link rel="canonical" href="{{ site.canonicalBase }}{{ page.url }}">
+  {% if noindex %}
+  <meta name="robots" content="noindex">
+  {% endif %}
 
   {# ── Open Graph (WhatsApp, Facebook, Twitter preview) ── #}
   <meta property="og:type" content="{{ ogType or 'website' }}">
