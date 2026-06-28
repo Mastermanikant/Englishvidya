@@ -189,6 +189,19 @@ layout: layouts/base.njk
     {% set reviewSlug = page.fileSlug %}
     {% include "partials/reviews-comments.njk" %}
 
+    {# Online Test Link Banner (if testSlug exists) #}
+    {% if testSlug %}
+    <div class="take-test-banner" style="margin: 40px 0 var(--sp-6); padding: 24px; background: rgba(99, 102, 241, 0.05); border: 1px dashed var(--border); border-radius: 12px; text-align: center; box-shadow: var(--shadow-sm);">
+      <h3 style="margin-top: 0; font-size: 1.15rem; color: var(--text-primary); font-family: 'Outfit', sans-serif; display: flex; align-items: center; justify-content: center; gap: 8px;">📝 क्या आपने यह पाठ पूरा कर लिया है?</h3>
+      <p style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 16px; margin-top: 6px;">
+        अपनी समझ की जाँच करने के लिए इस टॉपिक का ऑनलाइन टेस्ट (MCQ Quiz) दें।
+      </p>
+      <a href="/test/{{ testSlug }}/" class="btn-primary" style="text-decoration: none; padding: 10px 20px; font-size: 0.95rem; font-weight: bold; border-radius: var(--radius-md); display: inline-flex; align-items: center; gap: 8px;">
+        ✍️ Start Online Test
+      </a>
+    </div>
+    {% endif %}
+
     {# Prev / Next Navigation using Eleventy Collections #}
     {% set previousLesson = collections.grammar | getPreviousCollectionItem(page) %}
     {% set nextLesson = collections.grammar | getNextCollectionItem(page) %}

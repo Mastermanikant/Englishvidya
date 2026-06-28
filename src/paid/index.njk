@@ -334,6 +334,9 @@ input:checked + .slider-round:before {
       <button onclick="activatePass('pay')" class="action-submit btn-primary-glow">
         💳 Pay & Unlock Instantly (Demo)
       </button>
+      <button id="btn-activate-coins" onclick="activatePass('coins')" class="action-submit btn-primary-glow" style="display: none; background: linear-gradient(135deg, var(--accent, #38bdf8), #0284c7); box-shadow: 0 4px 15px rgba(56, 189, 248, 0.25);">
+        🪙 Unlock with 1,000 Coins (Free)
+      </button>
     </div>
   </div>
 </div>
@@ -341,12 +344,37 @@ input:checked + .slider-round:before {
 <script>
 let selectedPlanId = '1hr';
 let selectedDurationMs = 3600000; // 1 hour default
+let userCoins = 0;
+let isLoggedIn = false;
 
 function selectPlan(element, id, durationMs) {
   document.querySelectorAll('.plan-card').forEach(card => card.classList.remove('selected'));
   element.classList.add('selected');
   selectedPlanId = id;
   selectedDurationMs = durationMs;
+  updateCoinButtonVisibility();
+}
+
+function updateCoinButtonVisibility() {
+  const coinBtn = document.getElementById('btn-activate-coins');
+  if (!coinBtn) return;
+  
+  if (isLoggedIn && selectedPlanId === '24hr') {
+    coinBtn.style.display = 'inline-flex';
+    if (userCoins < 1000) {
+      coinBtn.disabled = true;
+      coinBtn.style.opacity = '0.5';
+      coinBtn.style.cursor = 'not-allowed';
+      coinBtn.innerHTML = `🪙 Insufficient Coins (${userCoins}/1,000)`;
+    } else {
+      coinBtn.disabled = false;
+      coinBtn.style.opacity = '1';
+      coinBtn.style.cursor = 'pointer';
+      coinBtn.innerHTML = `🪙 Unlock with 1,000 Coins (Balance: ${userCoins})`;
+    }
+  } else {
+    coinBtn.style.display = 'none';
+  }
 }
 
 function saveWarningPreference() {
@@ -391,7 +419,47 @@ function updateUI() {
   activePassContainer.style.display = 'none';
 }
 
-function activatePass(method) {
+async function activatePass(method) {
+  if (method === 'coins') {
+    if (userCoins < 1000) return;
+    if (!confirm('क्या आप 1,000 Coins खर्च करके 24-घंटे का Ad-Free Premium Pass अनलॉक करना चाहते हैं?')) return;
+    
+    const coinBtn = document.getElementById('btn-activate-coins');
+    coinBtn.disabled = true;
+    coinBtn.textContent = 'Processing...';
+
+    try {
+      const res = await fetch('/api/redeem-pass-coins', { method: 'POST' });
+      const result = await res.json();
+      
+      if (res.ok && result.success) {
+        localStorage.setItem('ev-no-ads-until', result.expires_at.toString());
+        localStorage.setItem('ev-active-plan-type', '24 Hour Pass');
+        
+        // Dispatch custom storage event to notify base layout timer immediately
+        window.dispatchEvent(new Event('storage'));
+
+        if (window.showTemporaryToast) {
+          window.showTemporaryToast('✨ 24-Hour Premium Ad-Free Pass सक्रिय कर दिया गया है! 🎉');
+        } else {
+          alert('🎉 24-Hour Premium Ad-Free Pass active!');
+        }
+        
+        userCoins = result.remaining_coins;
+        updateCoinButtonVisibility();
+        updateUI();
+      } else {
+        alert('Error: ' + (result.error || 'Failed to unlock pass.'));
+      }
+    } catch (e) {
+      alert('Network error. Please try again.');
+    } finally {
+      coinBtn.disabled = false;
+      updateCoinButtonVisibility();
+    }
+    return;
+  }
+
   const now = Date.now();
   const expiresAt = now + selectedDurationMs;
   
@@ -440,9 +508,28 @@ function deactivatePass() {
 }
 
 // Initial UI check
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', async () => {
   updateUI();
+  
+  // Check auth and load coins
+  try {
+    const authRes = await fetch('/api/auth-me');
+    const authData = await authRes.json();
+    if (authData.loggedIn) {
+      isLoggedIn = true;
+      const refRes = await fetch('/api/referral');
+      if (refRes.ok) {
+        const refData = await refRes.json();
+        userCoins = refData.referral_coins || 0;
+      }
+      updateCoinButtonVisibility();
+    }
+  } catch (e) {
+    console.warn('[EV] Failed to load coins balance:', e);
+  }
+
   // Keep active pass remaining time updated every 10 seconds
   setInterval(updateUI, 10000);
 });
+</script>
 </script>

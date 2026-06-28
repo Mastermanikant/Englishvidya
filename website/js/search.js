@@ -35,20 +35,43 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
+    // Helper for Stale-While-Revalidate client-side caching of search index
+    async function fetchWithCache(url) {
+        if ('caches' in window) {
+            try {
+                const cache = await caches.open('ev-search-cache');
+                const cachedRes = await cache.match(url);
+                if (cachedRes) {
+                    // Update cache in the background
+                    fetch(url).then(async (fresh) => {
+                        if (fresh.ok) await cache.put(url, fresh);
+                    }).catch(() => {});
+                    return cachedRes.json();
+                }
+            } catch (e) {
+                console.warn('Cache Storage access error:', e);
+            }
+        }
+        const res = await fetch(url);
+        if (!res.ok) throw new Error('Network error: ' + url);
+        if ('caches' in window) {
+            try {
+                const cache = await caches.open('ev-search-cache');
+                await cache.put(url, res.clone());
+            } catch (e) {}
+        }
+        return res.json();
+    }
+
     // Load JSON data
     async function loadSearchData() {
         try {
             searchResults.innerHTML = '<div class="search-placeholder"><p>Loading search index... 🔄</p></div>';
             
-            const [wordsRes, articlesRes] = await Promise.all([
-                fetch('/search-index.json'),
-                fetch('/data/site/articles-search-index.json')
+            const [rawWords, rawArticles] = await Promise.all([
+                fetchWithCache('/search-index.json'),
+                fetchWithCache('/data/site/articles-search-index.json')
             ]);
-            
-            if (!wordsRes.ok || !articlesRes.ok) throw new Error('Failed to load search indexes');
-            
-            const rawWords = await wordsRes.json();
-            const rawArticles = await articlesRes.json();
             
             // Map to a unified structure
             const wordsMapped = rawWords.map(w => ({

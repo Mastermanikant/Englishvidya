@@ -144,7 +144,9 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   // Check if already accepted
   if (data.user.has_accepted_rules) {
-    window.location.href = '/forum/'; // redirect to forum
+    const urlParams = new URLSearchParams(window.location.search);
+    const redirect = urlParams.get('redirect') || '/';
+    window.location.href = redirect;
     return;
   }
 
@@ -181,9 +183,9 @@ document.addEventListener('DOMContentLoaded', async () => {
       });
 
       if (resp.ok) {
-        // Find redirect param if exists, else go to forum
+        // Find redirect param if exists, else go to home
         const urlParams = new URLSearchParams(window.location.search);
-        const redirect = urlParams.get('redirect') || '/forum/';
+        const redirect = urlParams.get('redirect') || '/';
         window.location.href = redirect;
       } else {
         alert("Something went wrong. Please try again.");

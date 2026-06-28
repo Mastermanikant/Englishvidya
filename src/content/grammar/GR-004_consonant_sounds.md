@@ -1,5 +1,6 @@
 ---
 title: "Article 04 — व्यंजन ध्वनियाँ और उच्चारण नियम (Consonant Sounds, Spelling Rules & Silent Letters)"
+testSlug: "consonant-sounds-pronunciation"
 ---
 # Article 04 — व्यंजन ध्वनियाँ और उच्चारण नियम (Consonant Sounds, Spelling Rules & Silent Letters)
 

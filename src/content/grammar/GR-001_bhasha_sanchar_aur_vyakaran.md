@@ -1,5 +1,6 @@
 ---
 title: "Article 01 — भाषा, संचार और व्याकरण की नींव (Language, Communication & Grammar Foundation)"
+testSlug: "language-communication-grammar-foundation"
 ---
 # Article 01 — भाषा, संचार और व्याकरण की नींव (Language, Communication & Grammar Foundation)
 

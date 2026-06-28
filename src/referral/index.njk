@@ -246,6 +246,15 @@ permalink: /referral/
           </p>
           <input type="number" id="redeem-amount" class="redeem-input" step="100" min="100" placeholder="कितने Coins? (min 100)">
           <button class="btn-redeem btn-haptic" onclick="redeemCoins()">Coupon Code Generate करें</button>
+          
+          <div style="margin: 16px 0; border-top: 1px solid var(--border); position: relative; text-align: center;">
+            <span style="position: absolute; top: -10px; left: 50%; transform: translateX(-50%); background: var(--bg-raised); padding: 0 10px; font-size: 0.75rem; color: var(--text-tertiary); font-weight: bold; text-transform: uppercase;">या (OR)</span>
+          </div>
+
+          <button class="btn-redeem btn-haptic" id="btn-redeem-pass" onclick="redeemPassWithCoins()" style="background: linear-gradient(135deg, var(--accent, #38bdf8), #0284c7); box-shadow: 0 4px 12px rgba(56, 189, 248, 0.25);">
+            🪙 24h Premium Pass अनलॉक करें (1,000 Coins)
+          </button>
+
           <div class="promo-code-reveal" id="promo-reveal">
             <span class="code-val" id="promo-code-val">FB-EV-XXXXXX</span>
             <span class="code-hint">* इसे frankbase.com के checkout पर enter करें।</span>
@@ -479,6 +488,47 @@ async function redeemCoins() {
     }
   } catch (e) {
     alert('Redemption failed. Please try again.');
+  }
+}
+
+async function redeemPassWithCoins() {
+  const cost = 1000;
+  if ((refData?.referral_coins || 0) < cost) {
+    alert('आपके पास पर्याप्त coins नहीं हैं! 24-घंटे का पास अनलॉक करने के लिए कम से कम 1,000 कॉइन्स होने चाहिए।');
+    return;
+  }
+
+  if (!confirm('क्या आप 1,000 Coins खर्च करके 24-घंटे का Ad-Free Premium Pass अनलॉक करना चाहते हैं?')) return;
+
+  const btn = document.getElementById('btn-redeem-pass');
+  btn.disabled = true;
+  btn.textContent = 'Processing...';
+
+  try {
+    const res = await fetch('/api/redeem-pass-coins', {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'}
+    });
+    const result = await res.json();
+
+    if (res.ok && result.success) {
+      // Set localStorage values (same as /paid/ page logic)
+      localStorage.setItem('ev-no-ads-until', result.expires_at.toString());
+      localStorage.setItem('ev-active-plan-type', '24 Hour Pass');
+      
+      // Dispatch custom storage event to notify base layout timer immediately
+      window.dispatchEvent(new Event('storage'));
+
+      alert('🎉 24-Hour Premium Ad-Free Pass सक्रिय कर दिया गया है! अब आप बिना विज्ञापन के पढ़ सकते हैं।');
+      loadDashboard(); // Refresh balance
+    } else {
+      alert('Error: ' + (result.error || 'Failed to unlock pass.'));
+    }
+  } catch (e) {
+    alert('Failed to connect. Please try again.');
+  } finally {
+    btn.disabled = false;
+    btn.textContent = '🪙 24h Premium Pass अनलॉक करें (1,000 Coins)';
   }
 }
 </script>

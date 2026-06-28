@@ -36,8 +36,14 @@ CREATE TABLE IF NOT EXISTS users (
   admin_reset_requested_at TEXT DEFAULT NULL,
   reset_attempts INTEGER DEFAULT 0,
   reset_request_timestamps TEXT DEFAULT NULL,
+  referral_coins INTEGER NOT NULL DEFAULT 0,
+  active_seconds INTEGER NOT NULL DEFAULT 0,
+  referred_by_id INTEGER DEFAULT NULL,
+  referred_bonus_paid INTEGER NOT NULL DEFAULT 0,
+  referrer_bonus_paid INTEGER NOT NULL DEFAULT 0,
   created_at TEXT NOT NULL DEFAULT (datetime('now')),
-  updated_at TEXT NOT NULL DEFAULT (datetime('now'))
+  updated_at TEXT NOT NULL DEFAULT (datetime('now')),
+  FOREIGN KEY (referred_by_id) REFERENCES users(id)
 );
 
 -- 2. RATINGS TABLE (5-Star System)
@@ -213,3 +219,15 @@ CREATE TABLE IF NOT EXISTS test_attempts (
 );
 CREATE INDEX IF NOT EXISTS idx_test_attempts_user ON test_attempts(user_id);
 CREATE INDEX IF NOT EXISTS idx_test_attempts_lesson ON test_attempts(lesson_slug);
+
+-- 14. COIN TRANSACTIONS
+CREATE TABLE IF NOT EXISTS coin_transactions (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  user_id INTEGER NOT NULL,
+  amount INTEGER NOT NULL,
+  type TEXT NOT NULL,
+  description TEXT NOT NULL,
+  created_at TEXT NOT NULL DEFAULT (datetime('now')),
+  FOREIGN KEY (user_id) REFERENCES users(id)
+);
+CREATE INDEX IF NOT EXISTS idx_coin_transactions_user ON coin_transactions(user_id);

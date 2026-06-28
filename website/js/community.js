@@ -415,6 +415,13 @@ async function initComments() {
             body: JSON.stringify({ slug, text, references })
           });
           const data = await res.json();
+          if (res.status === 403 && data.error && data.error.includes('guidelines')) {
+            showToast('Redirecting to accept guidelines...', 'error');
+            setTimeout(() => {
+              window.location.href = '/agreement/?redirect=' + encodeURIComponent(window.location.pathname);
+            }, 1500);
+            return;
+          }
           if (data.success) {
             inputEl.value = '';
             showToast('Comment posted!', 'success');

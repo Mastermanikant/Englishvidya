@@ -1,5 +1,6 @@
 ---
 title: "Article 03 — स्वर ध्वनियाँ और उच्चारण विज्ञान (Vowel Sounds: Short, Long & Diphthongs)"
+testSlug: "vowel-sounds"
 ---
 # Article 03 — स्वर ध्वनियाँ और उच्चारण विज्ञान (Vowel Sounds: Short, Long & Diphthongs)
 
