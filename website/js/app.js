@@ -49,7 +49,11 @@
       backCollocations: true,
       autoPlay: false,
       timerX: 3,
-      timerY: 4
+      timerY: 4,
+      customSRS: true,
+      intervalHard: 0,
+      intervalGood: 1,
+      intervalEasy: 4
     },
     fcTimerXId: null,
     fcTimerYId: null
@@ -801,6 +805,16 @@
             <input type="checkbox" id="set-back-collocations" ${state.fcSettings.backCollocations !== false ? 'checked' : ''}>
           </label>
           <hr style="border:none; border-top:1px solid var(--border); margin:0;">
+          <label style="display:flex; justify-content:space-between; align-items:center;">
+            <strong>Use Custom Intervals</strong>
+            <input type="checkbox" id="set-custom-srs" ${state.fcSettings.customSRS ? 'checked' : ''}>
+          </label>
+          <div style="display: flex; gap: 8px; justify-content: space-between; align-items: center; text-align: center;">
+            <label style="display:flex; flex-direction:column; font-size: 0.85rem;">Hard (days)<input type="number" id="set-interval-hard" value="${state.fcSettings.intervalHard}" style="width:50px; text-align:center; border:1px solid var(--border); background:var(--bg-footer); color:var(--text-main); border-radius:4px; margin-top: 4px;"></label>
+            <label style="display:flex; flex-direction:column; font-size: 0.85rem;">Good (days)<input type="number" id="set-interval-good" value="${state.fcSettings.intervalGood}" style="width:50px; text-align:center; border:1px solid var(--border); background:var(--bg-footer); color:var(--text-main); border-radius:4px; margin-top: 4px;"></label>
+            <label style="display:flex; flex-direction:column; font-size: 0.85rem;">Easy (days)<input type="number" id="set-interval-easy" value="${state.fcSettings.intervalEasy}" style="width:50px; text-align:center; border:1px solid var(--border); background:var(--bg-footer); color:var(--text-main); border-radius:4px; margin-top: 4px;"></label>
+          </div>
+          <hr style="border:none; border-top:1px solid var(--border); margin:0;">
           <div>
             <label style="display:flex; justify-content:space-between; align-items:center; margin-bottom:4px;">
               AutoPlay Timer (Front)
@@ -947,9 +961,9 @@
           </div>
 
           <div class="flashcard-controls" style="width: 100%; max-width: 480px; gap: 8px; display: grid; grid-template-columns: 1fr 1fr 1fr;">
-            <button class="fc-btn" id="fc-hard" style="background: var(--bg-card); color: #ef4444; border: 1px solid #ef4444; font-size: 0.9rem;">🔴 याद नहीं है</button>
-            <button class="fc-btn" id="fc-good" style="background: var(--bg-card); color: #eab308; border: 1px solid #eab308; font-size: 0.9rem;">🟡 थोड़ा याद है</button>
-            <button class="fc-btn" id="fc-easy" style="background: var(--bg-card); color: #22c55e; border: 1px solid #22c55e; font-size: 0.9rem;">🟢 याद हो गया</button>
+            <button class="fc-btn" id="fc-hard" style="background: var(--bg-card); color: #ef4444; border: 1px solid #ef4444; font-size: 0.9rem; padding: 8px 4px;">🔴 याद नहीं है<br><span style="font-size: 0.75rem; opacity: 0.8;">(${state.fcSettings.customSRS ? (state.fcSettings.intervalHard === 0 ? 'Today' : state.fcSettings.intervalHard + 'd') : 'Again'})</span></button>
+            <button class="fc-btn" id="fc-good" style="background: var(--bg-card); color: #eab308; border: 1px solid #eab308; font-size: 0.9rem; padding: 8px 4px;">🟡 थोड़ा याद है<br><span style="font-size: 0.75rem; opacity: 0.8;">(${state.fcSettings.customSRS ? (state.fcSettings.intervalGood === 0 ? 'Today' : state.fcSettings.intervalGood + 'd') : 'Soon'})</span></button>
+            <button class="fc-btn" id="fc-easy" style="background: var(--bg-card); color: #22c55e; border: 1px solid #22c55e; font-size: 0.9rem; padding: 8px 4px;">🟢 याद हो गया<br><span style="font-size: 0.75rem; opacity: 0.8;">(${state.fcSettings.customSRS ? (state.fcSettings.intervalEasy === 0 ? 'Today' : state.fcSettings.intervalEasy + 'd') : 'Later'})</span></button>
           </div>
           <div style="width: 100%; max-width: 480px; margin-top: 8px;">
             <button class="fc-btn" id="fc-speak" style="background: var(--accent-soft); color: var(--accent); width: 100%;">🔊 Listen Pronunciation</button>
@@ -979,6 +993,10 @@
         state.fcSettings.backCollocations = $('#set-back-collocations').checked;
         state.fcSettings.timerX = parseInt($('#set-timer-x').value) || 3;
         state.fcSettings.timerY = parseInt($('#set-timer-y').value) || 4;
+        state.fcSettings.customSRS = $('#set-custom-srs').checked;
+        state.fcSettings.intervalHard = parseInt($('#set-interval-hard').value) || 0;
+        state.fcSettings.intervalGood = parseInt($('#set-interval-good').value) || 0;
+        state.fcSettings.intervalEasy = parseInt($('#set-interval-easy').value) || 0;
         saveFCSettings();
         settingsModal.style.display = 'none';
         renderFlashcardUI(container, categories, activeSlug); // Re-render to apply
@@ -1222,34 +1240,47 @@
     const progressData = JSON.parse(localStorage.getItem(STORAGE_KEYS.fcProgress) || '{}');
     const p = progressData[wordKey] || { interval: 0, repetitions: 0, easeFactor: 2.5 };
     
-    let easeFactor = p.easeFactor + (0.1 - (5 - quality) * (0.08 + (5 - quality) * 0.02));
-    if (easeFactor < 1.3) easeFactor = 1.3;
-    
-    let interval;
+    let easeFactor = p.easeFactor;
+    let interval = 0;
     let repetitions = p.repetitions;
     
-    if (quality < 3) {
-      repetitions = 0;
-      interval = 1;
+    if (state.fcSettings.customSRS) {
+      if (quality === 1) interval = state.fcSettings.intervalHard;
+      else if (quality === 3) interval = state.fcSettings.intervalGood;
+      else if (quality === 5) interval = state.fcSettings.intervalEasy;
+      
+      // Update repetitions for general tracking
+      if (quality < 3) repetitions = 0;
+      else repetitions++;
+      
     } else {
-      if (repetitions === 0) {
+      easeFactor = p.easeFactor + (0.1 - (5 - quality) * (0.08 + (5 - quality) * 0.02));
+      if (easeFactor < 1.3) easeFactor = 1.3;
+      
+      if (quality < 3) {
+        repetitions = 0;
         interval = 1;
-      } else if (repetitions === 1) {
-        interval = 6;
       } else {
-        interval = Math.round(p.interval * easeFactor);
+        if (repetitions === 0) interval = 1;
+        else if (repetitions === 1) interval = 6;
+        else interval = Math.round(p.interval * easeFactor);
+        repetitions++;
       }
-      repetitions++;
     }
     
     progressData[wordKey] = {
       interval,
       repetitions,
       easeFactor,
-      nextReviewDate: Date.now() + interval * 86400000
+      nextReviewDate: interval === 0 ? 0 : (Date.now() + interval * 86400000)
     };
     
     localStorage.setItem(STORAGE_KEYS.fcProgress, JSON.stringify(progressData));
+    
+    // If interval is 0, add to end of deck so it repeats in this session
+    if (interval === 0) {
+      state.fcDeck.push(current);
+    }
     
     nextFlashcard(container, categories, activeSlug, true);
   }
