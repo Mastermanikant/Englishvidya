@@ -17,7 +17,20 @@ permalink: /dictionary/
   <p class="hero-subtitle">Browse words by category with Hindi meanings and pronunciation.</p>
 </div>
 
+{# A-Z Navigation Bar #}
+<div class="a-z-nav-container animate-fade-in" style="margin-top: var(--sp-4);">
+  <h2 style="font-size: 1.25rem; margin-bottom: var(--sp-3);">Browse Alphabetically</h2>
+  <div class="a-z-nav" style="display: flex; flex-wrap: wrap; gap: 8px; justify-content: flex-start; background: var(--bg-card); padding: 16px; border-radius: 12px; border: 1px solid var(--border);">
+    {% for l in alphabet %}
+      <a href="/dictionary/letter/{{ l | lower }}/" class="letter-btn" style="display: flex; align-items: center; justify-content: center; width: 36px; height: 36px; border-radius: 8px; font-weight: bold; text-decoration: none; transition: all 0.2s; background: var(--bg-hover); color: var(--text-secondary);">
+        {{ l }}
+      </a>
+    {% endfor %}
+  </div>
+</div>
+
 <div class="category-accordion animate-fade-in" style="margin-top: var(--sp-6); display: flex; flex-direction: column; gap: var(--sp-4);">
+  <h2 style="font-size: 1.25rem; margin-bottom: 0;">Browse by Categories</h2>
   {% for mainGroup in groupedCategories %}
     <details class="category-main-folder" style="background: var(--bg-card); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
       <summary style="padding: var(--sp-4); font-size: 1.25rem; font-weight: 600; cursor: pointer; display: flex; align-items: center; gap: var(--sp-2); list-style: none; user-select: none; border-bottom: 1px solid transparent; transition: border-color 0.2s;">
@@ -60,5 +73,10 @@ permalink: /dictionary/
   }
   details summary span {
     transition: transform 0.3s ease;
+  }
+  .letter-btn:hover {
+    background: var(--border) !important;
+    color: var(--text-primary) !important;
+    transform: translateY(-2px);
   }
 </style>

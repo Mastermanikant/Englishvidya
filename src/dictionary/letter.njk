@@ -1,0 +1,82 @@
+---
+layout: layouts/base.njk
+pagination:
+  data: alphabet
+  size: 1
+  alias: letter
+permalink: /dictionary/letter/{{ letter | lower }}/
+eleventyComputed:
+  pageTitle: "Words starting with {{ letter }} — English Vidya"
+  metaDescription: "Browse all English words starting with the letter {{ letter }}, with Hindi meanings, pronunciation, and examples."
+---
+
+{# Breadcrumb #}
+<nav class="breadcrumb" aria-label="Breadcrumb">
+  <a href="/">Home</a>
+  <span class="breadcrumb-sep" aria-hidden="true">›</span>
+  <a href="/dictionary/">Dictionary</a>
+  <span class="breadcrumb-sep" aria-hidden="true">›</span>
+  <span aria-current="page">Letter {{ letter }}</span>
+</nav>
+
+<div class="hero-welcome animate-fade-in" style="padding-bottom: var(--sp-4);">
+  <h1 style="font-size: 1.5rem;">Words Starting With "{{ letter }}"</h1>
+  <p class="hero-subtitle">Browse English vocabulary starting with the letter {{ letter }} along with their Hindi meanings.</p>
+</div>
+
+{# A-Z Navigation Bar #}
+<div class="a-z-nav" style="margin-top: var(--sp-4); display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; background: var(--bg-card); padding: 16px; border-radius: 12px; border: 1px solid var(--border);">
+  {% for l in alphabet %}
+    <a href="/dictionary/letter/{{ l | lower }}/" class="letter-btn {% if l == letter %}active{% endif %}" style="display: flex; align-items: center; justify-content: center; width: 36px; height: 36px; border-radius: 8px; font-weight: bold; text-decoration: none; transition: all 0.2s; {% if l == letter %}background: var(--accent); color: #fff; box-shadow: 0 4px 10px rgba(99,102,241,0.3);{% else %}background: var(--bg-hover); color: var(--text-secondary);{% endif %}">
+      {{ l }}
+    </a>
+  {% endfor %}
+</div>
+
+<div id="dictionary-app" style="margin-top: var(--sp-6);">
+  <div class="category-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: var(--sp-4);">
+    {% set count = 0 %}
+    {% for w in allWords %}
+      {% set firstLetter = w.word | string | truncate(1, true, "") | upper %}
+      {% if firstLetter == letter %}
+        {% set count = count + 1 %}
+        <div class="word-card" style="background: var(--bg-card); border: 1px solid var(--border); border-radius: 12px; padding: var(--sp-4); transition: transform 0.2s, box-shadow 0.2s;">
+          <h2 style="margin: 0 0 8px 0; font-size: 1.2rem; color: var(--text-main);">
+            <a href="/dictionary/{{ w.slug }}/" style="text-decoration: none; color: inherit;">
+              {{ w.word }}
+            </a>
+          </h2>
+          {% if w.pron %}
+            <div style="font-size: 0.9rem; color: var(--text-tertiary); margin-bottom: 8px;">/ {{ w.pron }} /</div>
+          {% endif %}
+          <div style="font-size: 1rem; color: var(--accent); font-weight: 500; margin-bottom: 12px;">
+            {{ w.meaning }}
+          </div>
+          <a href="/dictionary/{{ w.slug }}/" class="btn-secondary" style="font-size: 0.85rem; padding: 6px 12px; border-radius: 20px; display: inline-flex; align-items: center; gap: 4px;">
+            View Details →
+          </a>
+        </div>
+      {% endif %}
+    {% endfor %}
+    
+    {% if count == 0 %}
+      <div style="grid-column: 1 / -1; text-align: center; padding: 40px; background: var(--bg-card); border-radius: 12px; border: 1px dashed var(--border); color: var(--text-secondary);">
+        <p style="font-size: 1.1rem; margin-bottom: 8px;">No words found starting with "{{ letter }}".</p>
+        <p style="font-size: 0.9rem;">We are continuously adding more words to our dictionary!</p>
+      </div>
+    {% endif %}
+  </div>
+</div>
+
+<style>
+.letter-btn:hover:not(.active) {
+  background: var(--border) !important;
+  color: var(--text-primary) !important;
+  transform: translateY(-2px);
+}
+.word-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+  border-color: var(--accent) !important;
+}
+</style>
