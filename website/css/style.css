@@ -83,8 +83,8 @@
   --bg-hover: #171717;
   --bg-active: #262626;
   --text-primary: #f8fafc;
-  --text-secondary: #a1a1aa;
-  --text-tertiary: #8a8a96; /* WCAG AA fix: was #71717a (3.87:1), now ~5.1:1 */
+  --text-secondary: #d4d4d8;
+  --text-tertiary: #a1a1aa;
   --accent: #60a5fa;
   --accent-hover: #93c5fd;
   --accent-soft: rgba(96, 165, 250, 0.1);
