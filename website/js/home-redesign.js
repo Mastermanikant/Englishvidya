@@ -109,6 +109,7 @@ function updateStat(id, value) {
 function initWotdBookmark() {
     const bookmarkBtn = document.getElementById('wotd-bookmark-btn');
     if (!bookmarkBtn) return;
+    bookmarkBtn.setAttribute('aria-label', 'इस शब्द को सेव करें (Bookmark this word)');
 
     const savedWords = JSON.parse(localStorage.getItem('ev-saved-words') || '[]');
     const currentWord = document.getElementById('wotd-word-text')?.textContent.trim();
@@ -139,6 +140,7 @@ function initWotdSpeech() {
     const speakBtn = document.getElementById('wotd-speak-btn');
     const wordText = document.getElementById('wotd-word-text');
     if (!speakBtn || !wordText) return;
+    speakBtn.setAttribute('aria-label', 'शब्द का उच्चारण सुनें (Listen to pronunciation)');
 
     speakBtn.addEventListener('click', () => {
         const text = wordText.textContent.trim();
@@ -191,6 +193,9 @@ function initWotdNavigation() {
     const prevBtn = document.getElementById('wotd-prev-btn');
     const nextBtn = document.getElementById('wotd-next-btn');
     if (!prevBtn) return;
+    
+    prevBtn.setAttribute('aria-label', 'पिछला शब्द देखें (Previous word)');
+    if (nextBtn) nextBtn.setAttribute('aria-label', 'अगला शब्द देखें (Next word)');
 
     // Store today's word data
     pastWords.unshift({

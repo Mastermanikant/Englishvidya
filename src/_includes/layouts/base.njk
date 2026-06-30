@@ -132,7 +132,7 @@
   <script src="/js/heartbeat.js?v=2.0.7" defer></script>
   <script src="/js/home-redesign.js?v=2.0.7" defer></script>
   <script src="/js/alpine.min.js" defer></script>
-  <script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.js" defer></script>
+  <script src="/js/fuse.js" defer></script>
   <script src="/js/search.js?v=2.0.7" defer></script>
   <script src="/js/bookmarks.js?v=2.0.7" defer></script>
   <script src="/js/diary.js?v=2.0.7" defer></script>
@@ -304,7 +304,7 @@
   <style>
     @media (max-width: 768px) {
       .text-scaler-widget {
-        bottom: 85px;
+        bottom: calc(85px + env(safe-area-inset-bottom, 0px));
         right: 16px;
       }
     }

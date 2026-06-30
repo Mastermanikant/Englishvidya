@@ -342,6 +342,89 @@ schemaJson: |
 }
 </style>
 
+<!-- 🎁 Refer & Earn Banner -->
+<div class="refer-earn-banner" id="refer-earn-banner">
+  <div class="refer-earn-content">
+    <div class="refer-earn-icon">🎁</div>
+    <div class="refer-earn-text">
+      <h3>दोस्तों को बुलाओ, Coins कमाओ!</h3>
+      <p>अपने दोस्तों को EnglishVidya पर invite करो — दोनों को <strong>1,000 Frankbase Coins</strong> मिलेंगे। Coins से Ad-Free Pass अनलॉक करो!</p>
+    </div>
+    <a href="/referral/" class="refer-earn-btn">अभी शुरू करें →</a>
+  </div>
+</div>
+<style>
+.refer-earn-banner {
+  margin-bottom: 40px;
+  padding: 24px;
+  background: var(--bg-raised);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--accent);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+.refer-earn-banner:hover {
+  border-color: var(--accent);
+  box-shadow: var(--shadow-md);
+}
+.refer-earn-content {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.refer-earn-icon {
+  font-size: 2.2rem;
+  flex-shrink: 0;
+}
+.refer-earn-text {
+  flex: 1;
+  min-width: 200px;
+}
+.refer-earn-text h3 {
+  margin: 0 0 6px 0;
+  font-size: 1.1rem;
+  color: var(--text-primary);
+  font-weight: 700;
+}
+.refer-earn-text p {
+  margin: 0;
+  font-size: 0.92rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+.refer-earn-text strong {
+  color: var(--accent);
+}
+.refer-earn-btn {
+  flex-shrink: 0;
+  padding: 10px 22px;
+  background: var(--accent);
+  color: #fff;
+  border-radius: var(--radius-md);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+  white-space: nowrap;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+.refer-earn-btn:hover {
+  background: var(--accent-hover, hsl(220, 90%, 50%));
+  transform: translateY(-1px);
+}
+@media (max-width: 600px) {
+  .refer-earn-content {
+    flex-direction: column;
+    text-align: center;
+  }
+  .refer-earn-btn {
+    width: 100%;
+    text-align: center;
+  }
+}
+</style>
+
 <!-- Expandable Portal Grid -->
 <div class="portal-container">
     
