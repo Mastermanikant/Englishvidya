@@ -5,7 +5,7 @@
    Versioning: Update CACHE_VERSION to bust old caches on deploy
    ═══════════════════════════════════════════════════════════════ */
 
-const CACHE_VERSION   = 'ev-v12';
+const CACHE_VERSION   = 'ev-v13';
 const SHELL_CACHE     = `${CACHE_VERSION}-shell`;
 const DATA_CACHE      = `${CACHE_VERSION}-data`;
 const LESSON_CACHE    = `${CACHE_VERSION}-lessons`;
@@ -17,6 +17,7 @@ const SHELL_ASSETS = [
   './index.html',
   './css/style.css',
   './css/annotation-tool.css',
+  './js/toast.js',
   './js/app.js',
   './js/home-redesign.js',
   './js/annotation-tool.js',

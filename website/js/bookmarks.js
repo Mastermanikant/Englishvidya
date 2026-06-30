@@ -49,29 +49,8 @@ function toggleBookmark(slug, word, meaning, pron, category) {
     window.dispatchEvent(new Event('bookmarksUpdated'));
 }
 
-// Simple toast notification if no global toast system exists
-function showToast(message) {
-    let container = document.getElementById('toast-container');
-    if (!container) {
-        container = document.createElement('div');
-        container.id = 'toast-container';
-        document.body.appendChild(container);
-    }
-    
-    const toast = document.createElement('div');
-    toast.className = 'update-toast';
-    toast.style.background = 'var(--accent)';
-    toast.style.color = '#fff';
-    toast.innerText = message;
-    
-    container.appendChild(toast);
-    
-    setTimeout(() => {
-        toast.style.opacity = '0';
-        toast.style.transform = 'translateY(20px)';
-        setTimeout(() => toast.remove(), 300);
-    }, 2500);
-}
+// showToast is now provided by /js/toast.js (unified version)
+
 
 // On page load, initialize bookmark buttons state
 document.addEventListener('DOMContentLoaded', () => {

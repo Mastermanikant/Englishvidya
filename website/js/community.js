@@ -439,27 +439,5 @@ async function initComments() {
 }
 
 // --- TOAST SYSTEM ---
-function showToast(message, type = 'success') {
-  const container = document.getElementById('toast-container');
-  if (!container) return;
+// showToast is now provided by /js/toast.js (unified version)
 
-  const toast = document.createElement('div');
-  toast.style = `
-    background: ${type === 'success' ? '#10b981' : '#ef4444'};
-    color: white;
-    padding: 12px 24px;
-    border-radius: 8px;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
-    font-weight: bold;
-    animation: slideUp 0.3s ease-out;
-  `;
-  toast.textContent = message;
-  
-  container.appendChild(toast);
-  
-  setTimeout(() => {
-    toast.style.opacity = '0';
-    toast.style.transition = 'opacity 0.3s';
-    setTimeout(() => toast.remove(), 300);
-  }, 3000);
-}

@@ -441,49 +441,8 @@ function initBottomNavHighlight() {
     });
 }
 
-// ─── Utility: Toast ───────────────────────────────────────────────────────
-function showToast(msg) {
-    // Try using existing toast container first
-    const container = document.getElementById('toast-container');
-    if (container) {
-        const toast = document.createElement('div');
-        toast.className = 'toast-item';
-        toast.textContent = msg;
-        toast.style.cssText = `
-            background: var(--bg-raised);
-            border: 1px solid var(--border);
-            color: var(--text-primary);
-            padding: 10px 18px;
-            border-radius: var(--radius-lg);
-            font-size: 0.85rem;
-            font-weight: 500;
-            box-shadow: var(--shadow-lg);
-            animation: fade-up 0.3s var(--ease-out);
-        `;
-        container.appendChild(toast);
-        setTimeout(() => {
-            toast.style.opacity = '0';
-            toast.style.transform = 'translateY(8px)';
-            toast.style.transition = 'all 0.3s';
-            setTimeout(() => toast.remove(), 300);
-        }, 2500);
-        return;
-    }
+// showToast is now provided by /js/toast.js (unified version)
 
-    // Fallback
-    let toast = document.getElementById('toast');
-    if (!toast) {
-        toast = document.createElement('div');
-        toast.id = 'toast';
-        toast.className = 'toast';
-        toast.setAttribute('role', 'status');
-        toast.setAttribute('aria-live', 'polite');
-        document.body.appendChild(toast);
-    }
-    toast.textContent = msg;
-    toast.classList.add('show');
-    setTimeout(() => toast.classList.remove('show'), 3000);
-}
 
 // ─── 5. Study Activity Tracker ───────────────────────────────────────────
 function initActivityTracker() {
