@@ -82,8 +82,8 @@ module.exports = function (eleventyConfig) {
   // Custom sorted collection for grammar lessons
   eleventyConfig.addCollection("grammar", function(collectionApi) {
     return collectionApi.getFilteredByTag("grammar").sort((a, b) => {
-      let partA = a.data.part || 999;
-      let partB = b.data.part || 999;
+      let partA = a.data.topicNumber || a.data.part || 999;
+      let partB = b.data.topicNumber || b.data.part || 999;
       return partA - partB;
     });
   });

@@ -1,3 +1,5 @@
+import { createJWT, validateRedirectUrl } from './_shared/auth-utils.js';
+
 export async function onRequestGet(context) {
   const { request, env } = context;
   const url = new URL(request.url);
@@ -85,7 +87,10 @@ export async function onRequestGet(context) {
 
   // Read redirect URL from state
   const state = url.searchParams.get('state');
-  const redirectTo = state ? decodeURIComponent(state) : '/';
+  let redirectTo = state ? decodeURIComponent(state) : '/';
+  
+  // Security: Validate redirect URL
+  redirectTo = validateRedirectUrl(redirectTo);
 
   // Step 5: Cookie set karke homepage par redirect karo
   const headers = new Headers();
@@ -102,22 +107,3 @@ export async function onRequestGet(context) {
   });
 }
 
-// --- Helper: JWT Create (HMAC-SHA256) ---
-async function createJWT(payload, secret, expiresInSeconds) {
-  const header = { alg: 'HS256', typ: 'JWT' };
-  payload.exp = Math.floor(Date.now() / 1000) + expiresInSeconds;
-  payload.iat = Math.floor(Date.now() / 1000);
-
-  const headerB64 = btoa(JSON.stringify(header)).replace(/=/g, '').replace(/\+/g, '-').replace(/\//g, '_');
-  const payloadB64 = btoa(JSON.stringify(payload)).replace(/=/g, '').replace(/\+/g, '-').replace(/\//g, '_');
-
-  const data = headerB64 + '.' + payloadB64;
-  const key = await crypto.subtle.importKey(
-    'raw', new TextEncoder().encode(secret),
-    { name: 'HMAC', hash: 'SHA-256' }, false, ['sign']
-  );
-  const sig = await crypto.subtle.sign('HMAC', key, new TextEncoder().encode(data));
-  const sigB64 = btoa(String.fromCharCode(...new Uint8Array(sig))).replace(/=/g, '').replace(/\+/g, '-').replace(/\//g, '_');
-
-  return data + '.' + sigB64;
-}

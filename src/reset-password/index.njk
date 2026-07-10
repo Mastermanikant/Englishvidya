@@ -4,22 +4,22 @@ pageTitle: "Reset Password - EnglishVidya"
 permalink: /reset-password/
 ---
 
-<div class="auth-container" style="max-width: 500px; margin: 60px auto; padding: 35px; background: var(--bg-raised); border-radius: var(--radius-xl); box-shadow: var(--shadow-lg); border: 1px solid var(--border-color);">
-  <h1 style="font-family: var(--font-heading); margin-bottom: 10px; font-size: 1.8rem; background: var(--gradient-accent); -webkit-background-clip: text; -webkit-text-fill-color: transparent; display: inline-block;">🔒 Reset Password</h1>
+<div class="auth-container">
+  <h1 class="auth-title">🔒 Reset Password</h1>
   
-  <div id="alert-msg" class="alert-msg" style="display: none; padding: 12px; border-radius: 8px; margin-bottom: 18px; font-size: 0.9rem; font-weight: 500; text-align: left;"></div>
+  <div id="alert-msg" class="auth-error" style="display: none; padding: 12px; margin-bottom: 18px; text-align: left;"></div>
 
   <!-- Step 1: OTP Code Entry (Shown if no token in URL) -->
-  <div id="otp-entry-section" style="display: flex; flex-direction: column; gap: 16px; text-align: left;">
-    <p style="color: var(--text-secondary); font-size: 0.95rem; line-height: 1.5; margin-top: 0;">
+  <div id="otp-entry-section" class="auth-form">
+    <p class="auth-desc" style="margin-bottom: 0;">
       कृपया अपने ईमेल पर भेजा गया ६-अंकीय पासवर्ड रीसेट कोड (OTP) नीचे दर्ज करें:
     </p>
-    <form id="otp-verify-form" style="display: flex; flex-direction: column; gap: 16px;">
-      <div class="form-group" style="margin-bottom: 0;">
-        <label style="display: block; margin-bottom: 8px; font-weight: 600; font-size: 0.9rem; color: var(--text-secondary);">Enter 6-digit OTP (६-अंकीय ओटीपी)</label>
-        <input type="text" id="input-otp-code" placeholder="e.g. 123456" required maxlength="6" pattern="[0-9]{6}" style="width: 100%; padding: 12px 14px; border-radius: var(--radius-sm); border: 1px solid var(--border-color); background: var(--bg-base); color: var(--text-main); font-size: 1.1rem; letter-spacing: 4px; text-align: center; font-weight: bold;">
+    <form id="otp-verify-form" class="auth-form" style="gap: 16px;">
+      <div class="form-group">
+        <label class="auth-label">Enter 6-digit OTP (६-अंकीय ओटीपी)</label>
+        <input type="text" id="input-otp-code" class="auth-input" placeholder="e.g. 123456" required maxlength="6" pattern="[0-9]{6}" style="letter-spacing: 4px; text-align: center; font-weight: bold;">
       </div>
-      <button type="submit" class="btn-primary" id="btn-verify-otp" style="padding: 12px; border-radius: var(--radius-sm); font-weight: bold; font-size: 1rem; cursor: pointer; background: var(--accent); color: white; border: none;">Verify Code (ओटीपी सत्यापित करें)</button>
+      <button type="submit" class="btn-primary auth-submit-btn" id="btn-verify-otp">Verify Code (ओटीपी सत्यापित करें)</button>
     </form>
   </div>
 
@@ -29,46 +29,44 @@ permalink: /reset-password/
   </div>
 
   <!-- Step 2: Security Questions & New Password Form -->
-  <div id="reset-form-section" style="display: none; flex-direction: column; gap: 20px; text-align: left;">
-    <p style="color: var(--text-secondary); font-size: 0.9rem; line-height: 1.5; margin-top: 0; padding-bottom: 10px; border-bottom: 1px solid var(--border-color);">
+  <div id="reset-form-section" class="auth-form" style="display: none; gap: 20px;">
+    <p class="auth-desc" style="margin-bottom: 0; padding-bottom: 10px; border-bottom: 1px solid var(--border-color);">
       ⚠️ <strong>सुरक्षा सत्यापन:</strong> कृपया नीचे दिए गए ३ प्रश्नों में से **कोई भी २ प्रश्न** चुनें और उनके सही उत्तर दें। अक्षरों के छोटे/बड़े (Case) होने और खाली स्थान (Spaces) का कोई अंतर नहीं पड़ेगा।
     </p>
 
-    <form id="password-reset-form" style="display: flex; flex-direction: column; gap: 20px;">
+    <form id="password-reset-form" class="auth-form" style="gap: 20px;">
       
       <!-- Questions Container -->
-      <div id="questions-list-container" style="display: flex; flex-direction: column; gap: 16px;">
+      <div id="questions-list-container" class="auth-form" style="gap: 16px;">
         <!-- Question 1 -->
-        <div class="form-group question-group" id="q-group-0" style="display: none; margin-bottom: 0;">
-          <label class="q-label" style="display: block; margin-bottom: 6px; font-weight: 600; font-size: 0.95rem; color: var(--text-main);"></label>
-          <input type="text" class="q-answer-input" id="q-answer-0" placeholder="उत्तर दर्ज करें" style="width: 100%; padding: 10px 12px; border-radius: var(--radius-sm); border: 1px solid var(--border-color); background: var(--bg-base); color: var(--text-main); font-size: 0.95rem;">
+        <div class="form-group question-group" id="q-group-0" style="display: none;">
+          <label class="auth-label q-label"></label>
+          <input type="text" class="auth-input q-answer-input" id="q-answer-0" placeholder="उत्तर दर्ज करें">
         </div>
 
         <!-- Question 2 -->
-        <div class="form-group question-group" id="q-group-1" style="display: none; margin-bottom: 0;">
-          <label class="q-label" style="display: block; margin-bottom: 6px; font-weight: 600; font-size: 0.95rem; color: var(--text-main);"></label>
-          <input type="text" class="q-answer-input" id="q-answer-1" placeholder="उत्तर दर्ज करें" style="width: 100%; padding: 10px 12px; border-radius: var(--radius-sm); border: 1px solid var(--border-color); background: var(--bg-base); color: var(--text-main); font-size: 0.95rem;">
+        <div class="form-group question-group" id="q-group-1" style="display: none;">
+          <label class="auth-label q-label"></label>
+          <input type="text" class="auth-input q-answer-input" id="q-answer-1" placeholder="उत्तर दर्ज करें">
         </div>
 
         <!-- Question 3 -->
-        <div class="form-group question-group" id="q-group-2" style="display: none; margin-bottom: 0;">
-          <label class="q-label" style="display: block; margin-bottom: 6px; font-weight: 600; font-size: 0.95rem; color: var(--text-main);"></label>
-          <input type="text" class="q-answer-input" id="q-answer-2" placeholder="उत्तर दर्ज करें" style="width: 100%; padding: 10px 12px; border-radius: var(--radius-sm); border: 1px solid var(--border-color); background: var(--bg-base); color: var(--text-main); font-size: 0.95rem;">
+        <div class="form-group question-group" id="q-group-2" style="display: none;">
+          <label class="auth-label q-label"></label>
+          <input type="text" class="auth-input q-answer-input" id="q-answer-2" placeholder="उत्तर दर्ज करें">
         </div>
       </div>
 
-      <!-- New Password -->
-      <div class="form-group" style="margin-top: 10px; padding-top: 15px; border-top: 1px solid var(--border-color); margin-bottom: 0;">
-        <label style="display: block; margin-bottom: 8px; font-weight: 600; font-size: 0.95rem; color: var(--text-main);">New Password (नया पासवर्ड - min 6 chars)</label>
-        <input type="password" id="input-new-password" placeholder="Enter new password" required minlength="6" style="width: 100%; padding: 12px 14px; border-radius: var(--radius-sm); border: 1px solid var(--border-color); background: var(--bg-base); color: var(--text-main); font-size: 0.95rem;">
+      <div class="form-group" style="margin-top: 10px; padding-top: 15px; border-top: 1px solid var(--border-color);">
+        <label class="auth-label">New Password (नया पासवर्ड - min 6 chars)</label>
+        <input type="password" id="input-new-password" class="auth-input" placeholder="Enter new password" required minlength="6">
       </div>
 
-      <button type="submit" class="btn-primary" id="btn-save-new-password" style="padding: 12px; border-radius: var(--radius-sm); font-weight: bold; font-size: 1rem; cursor: pointer; background: var(--accent); color: white; border: none;">Reset Password (पासवर्ड अपडेट करें)</button>
+      <button type="submit" class="btn-primary auth-submit-btn" id="btn-save-new-password">Reset Password (पासवर्ड अपडेट करें)</button>
     </form>
 
-    <!-- Admin Hold Request Section -->
     <div style="margin-top: 20px; padding-top: 15px; border-top: 1px dashed var(--border-color); text-align: center;">
-      <p style="font-size: 0.85rem; color: var(--text-secondary); line-height: 1.4; margin-top: 0;">
+      <p class="auth-desc" style="margin-top: 0;">
         क्या आप अपने सुरक्षा प्रश्नों के उत्तर भूल गए हैं? आप सीधे एडमिन को पासवर्ड रीसेट के लिए अनुरोध भेज सकते हैं।
       </p>
       <button id="btn-request-admin" style="background: none; border: 1px solid var(--error); color: var(--error); padding: 8px 14px; border-radius: 6px; cursor: pointer; font-weight: 600; font-size: 0.85rem; transition: background 0.2s;">
@@ -80,15 +78,15 @@ permalink: /reset-password/
   <!-- Success State -->
   <div id="success-state" style="display: none; text-align: center;">
     <div style="font-size: 3rem; margin-bottom: 15px;">🎉</div>
-    <h3 style="color: var(--success); margin-bottom: 10px;">Password Reset Done!</h3>
-    <p style="color: var(--text-secondary); font-size: 0.95rem; line-height: 1.5; margin-bottom: 24px;">
+    <h3 class="auth-title" style="color: var(--success); margin-bottom: 10px;">Password Reset Done!</h3>
+    <p class="auth-desc" style="margin-bottom: 24px;">
       आपका पासवर्ड सफलतापूर्वक बदल दिया गया है। अब आप नए पासवर्ड के साथ लॉगिन कर सकते हैं।
     </p>
-    <a href="/login/" class="btn-primary" style="display: inline-block; padding: 10px 20px; border-radius: var(--radius-sm); font-weight: bold; text-decoration: none; background: var(--accent); color: white; border: none;">Go to Login (लॉगिन करें)</a>
+    <a href="/login/" class="btn-primary auth-submit-btn" style="display: inline-block; text-decoration: none;">Go to Login (लॉगिन पर जाएं)</a>
   </div>
 
-  <div style="margin-top: 30px; border-top: 1px solid var(--border-color); padding-top: 15px; font-size: 0.9rem;">
-    <a href="/login/" style="color: var(--text-secondary); text-decoration: none; font-weight: 500;">← Back to Login</a>
+  <div class="auth-footer">
+    <a href="/login/" class="auth-back-link">← Back to Login</a>
   </div>
 </div>
 

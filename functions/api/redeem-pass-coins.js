@@ -40,6 +40,6 @@ export async function onRequestPost(context) {
     });
 
   } catch (err) {
-    return Response.json({ success: false, error: 'Database error: ' + err.message }, { status: 500 });
+    return Response.json({ success: false, error: 'Something went wrong. Please try again later.' }, { status: 500 });
   }
 }

@@ -69,12 +69,12 @@ eleventyComputed:
       {# Actions Card (Ratings + Diary) #}
       <div class="card" style="margin-bottom: 16px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px; padding: 16px; background: var(--bg-raised); border: 1px solid var(--border); border-radius: var(--radius-lg); box-shadow: var(--shadow-sm);">
         <div id="word-rating-container" data-slug="{{ wordEntry.slug }}" style="display: flex; align-items: center; gap: 8px;">
-          <div style="display: flex; gap: 4px; font-size: 1.4rem; cursor: pointer;">
-            <span class="rating-star" data-value="1" title="Rate 1 Star" style="color: var(--border); transition: color 0.2s;">★</span>
-            <span class="rating-star" data-value="2" title="Rate 2 Stars" style="color: var(--border); transition: color 0.2s;">★</span>
-            <span class="rating-star" data-value="3" title="Rate 3 Stars" style="color: var(--border); transition: color 0.2s;">★</span>
-            <span class="rating-star" data-value="4" title="Rate 4 Stars" style="color: var(--border); transition: color 0.2s;">★</span>
-            <span class="rating-star" data-value="5" title="Rate 5 Stars" style="color: var(--border); transition: color 0.2s;">★</span>
+          <div class="star-rating-input" role="radiogroup" aria-label="Rate this word" style="display: flex; gap: 4px; font-size: 1.5rem; cursor: pointer;">
+            <button type="button" role="radio" aria-checked="false" aria-label="1 Star" class="rating-star" data-value="1" title="Rate 1 Star" style="color: var(--border); transition: color 0.2s; background:none;border:none;padding:0;cursor:pointer;font-size:inherit;">★</button>
+            <button type="button" role="radio" aria-checked="false" aria-label="2 Stars" class="rating-star" data-value="2" title="Rate 2 Stars" style="color: var(--border); transition: color 0.2s; background:none;border:none;padding:0;cursor:pointer;font-size:inherit;">★</button>
+            <button type="button" role="radio" aria-checked="false" aria-label="3 Stars" class="rating-star" data-value="3" title="Rate 3 Stars" style="color: var(--border); transition: color 0.2s; background:none;border:none;padding:0;cursor:pointer;font-size:inherit;">★</button>
+            <button type="button" role="radio" aria-checked="false" aria-label="4 Stars" class="rating-star" data-value="4" title="Rate 4 Stars" style="color: var(--border); transition: color 0.2s; background:none;border:none;padding:0;cursor:pointer;font-size:inherit;">★</button>
+            <button type="button" role="radio" aria-checked="false" aria-label="5 Stars" class="rating-star" data-value="5" title="Rate 5 Stars" style="color: var(--border); transition: color 0.2s; background:none;border:none;padding:0;cursor:pointer;font-size:inherit;">★</button>
           </div>
           <span style="font-weight: bold; font-size: 1.1rem; color: var(--text-main); margin-left: 8px;" id="rating-avg">0.0</span>
           <span style="font-size: 0.9rem; color: var(--text-secondary);" id="rating-count">(0 votes)</span>
@@ -268,7 +268,7 @@ eleventyComputed:
         transition: opacity 0.3s ease;
       `;
       modal.innerHTML = `
-        <img id="fullscreen-modal-img" style="max-width: 90%; max-height: 90%; object-fit: contain; border-radius: 8px; box-shadow: 0 10px 25px rgba(0,0,0,0.5);" />
+        <img id="fullscreen-modal-img" alt="Fullscreen image view" style="max-width: 90%; max-height: 90%; object-fit: contain; border-radius: 8px; box-shadow: 0 10px 25px rgba(0,0,0,0.5);" />
         <button style="position: absolute; top: 20px; right: 20px; background: none; border: none; color: white; font-size: 2rem; cursor: pointer;">&times;</button>
       `;
       modal.onclick = () => {

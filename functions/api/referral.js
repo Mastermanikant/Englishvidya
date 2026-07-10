@@ -43,6 +43,6 @@ export async function onRequestGet(context) {
     });
 
   } catch (err) {
-    return new Response('Database error: ' + err.message, { status: 500 });
+    return new Response('Something went wrong. Please try again later.', { status: 500 });
   }
 }

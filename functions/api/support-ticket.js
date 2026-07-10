@@ -50,7 +50,7 @@ export async function onRequestGet(context) {
       return Response.json(tickets.results);
     }
   } catch (err) {
-    return new Response('Database error: ' + err.message, { status: 500 });
+    return new Response('Something went wrong. Please try again later.', { status: 500 });
   }
 }
 
@@ -81,6 +81,6 @@ export async function onRequestPost(context) {
 
     return Response.json({ success: true, ticketId: result.meta.last_row_id || result.insertId });
   } catch (err) {
-    return new Response('Database error: ' + err.message, { status: 500 });
+    return new Response('Something went wrong. Please try again later.', { status: 500 });
   }
 }

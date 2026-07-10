@@ -1,6 +1,10 @@
 ---
+
 title: "Article 03 — स्वर ध्वनियाँ और उच्चारण विज्ञान (Vowel Sounds: Short, Long & Diphthongs)"
 permalink: /grammar/vowel-sounds/
+module: "Foundation"
+topicNumber: 4
+description: "स्वर ध्वनियाँ (Short, Long, Diphthongs) और उनका मुँह के अंगों द्वारा सटीक उच्चारण विज्ञान।"
 ---
 # Article 03 — स्वर ध्वनियाँ और उच्चारण विज्ञान (Vowel Sounds: Short, Long & Diphthongs)
 

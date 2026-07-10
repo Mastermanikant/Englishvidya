@@ -4,62 +4,62 @@ title: My Profile & Analytics
 permalink: /profile/
 ---
 
-<div style="max-width: 950px; margin: 40px auto; padding: 0 20px; display: flex; flex-direction: column; gap: var(--sp-6);">
+<div class="profile-container">
   
   {# 1. Profile Header Card #}
-  <div class="card" style="padding: 32px; border-radius: 16px; border: 1px solid var(--border); display: flex; flex-wrap: wrap; gap: 32px; align-items: center; justify-content: space-between;">
-    <div style="display: flex; align-items: center; gap: 24px; flex-wrap: wrap;">
-      <img id="profile-avatar" src="/assets/icons/icon-192.png" style="width: 90px; height: 90px; border-radius: 50%; object-fit: cover; border: 4px solid var(--accent); box-shadow: 0 4px 10px rgba(0,0,0,0.25);">
+  <div class="card profile-header-card">
+    <div class="profile-user-info">
+      <img id="profile-avatar" src="/assets/icons/icon-192.png" alt="User profile avatar" class="profile-avatar">
       <div>
-        <h1 id="profile-name" style="margin: 0 0 4px 0; font-size: 1.8rem; font-family: 'Outfit', sans-serif;">Loading...</h1>
-        <p id="profile-email" style="color: var(--text-secondary); margin: 0 0 4px 0; font-size: 1.05rem;">...</p>
-        <span id="profile-role-badge" style="display: inline-block; padding: 3px 10px; border-radius: 12px; font-size: 0.75rem; font-weight: bold; background: var(--bg-footer); color: var(--text-secondary); text-transform: uppercase;">User</span>
+        <h1 id="profile-name" class="profile-name">Loading...</h1>
+        <p id="profile-email" class="profile-email">...</p>
+        <span id="profile-role-badge" class="profile-role-badge">User</span>
       </div>
     </div>
     
-    <div style="display: flex; gap: 32px;">
-      <div style="text-align: center;">
-        <div style="font-size: 1.8rem; font-weight: bold; color: var(--accent);" id="profile-trust">--</div>
-        <div style="font-size: 0.75rem; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.05em; font-weight: 600;">Trust Score</div>
+    <div class="profile-stats-group">
+      <div class="profile-stat-box">
+        <div class="profile-stat-val" id="profile-trust">--</div>
+        <div class="profile-stat-label">Trust Score</div>
       </div>
-      <div style="text-align: center;">
-        <div style="font-size: 1.8rem; font-weight: bold; color: var(--accent);" id="tests-taken-count">0</div>
-        <div style="font-size: 0.75rem; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.05em; font-weight: 600;">Tests Taken</div>
+      <div class="profile-stat-box">
+        <div class="profile-stat-val" id="tests-taken-count">0</div>
+        <div class="profile-stat-label">Tests Taken</div>
       </div>
     </div>
   </div>
 
   {# Quick Links Row #}
-  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: var(--sp-4);">
-    <a href="/my-diary/" class="btn-secondary" style="text-decoration: none; padding: 12px; border-radius: var(--radius-md); text-align: center; font-weight: bold; display: flex; align-items: center; justify-content: center; gap: 8px;">
+  <div class="profile-quick-links">
+    <a href="/my-diary/" class="btn-secondary profile-quick-link">
       📓 My Diary & Saved Words
     </a>
-    <a href="/settings/" class="btn-secondary" style="text-decoration: none; padding: 12px; border-radius: var(--radius-md); text-align: center; font-weight: bold; display: flex; align-items: center; justify-content: center; gap: 8px;">
+    <a href="/settings/" class="btn-secondary profile-quick-link">
       ⚙️ Edit Profile & Settings
     </a>
-    <a href="/api/auth-logout" class="btn-secondary" style="text-decoration: none; padding: 12px; border-radius: var(--radius-md); text-align: center; font-weight: bold; background: #ef4444; color: white; border-color: #ef4444; display: flex; align-items: center; justify-content: center; gap: 8px;">
+    <a href="/api/auth-logout" class="btn-secondary profile-quick-link profile-logout-link">
       🚪 Logout
     </a>
   </div>
 
   {# 2. Student test history #}
-  <div class="card" style="padding: 24px; border-radius: 12px; border: 1px solid var(--border);">
-    <h2 style="font-family: 'Outfit', sans-serif; font-size: 1.4rem; color: var(--text-main); margin: 0 0 16px 0; display: flex; align-items: center; gap: 8px;">
+  <div class="card profile-history-card">
+    <h2 class="profile-history-title">
       📈 My Test Attempts (मेरा टेस्ट इतिहास)
     </h2>
-    <div style="overflow-x: auto;">
-      <table style="width: 100%; border-collapse: collapse; text-align: left; font-size: 0.95rem;">
+    <div class="profile-table-container">
+      <table class="profile-table">
         <thead>
-          <tr style="border-bottom: 2px solid var(--border); color: var(--text-secondary); font-weight: 600;">
-            <th style="padding: 12px 8px;">पाठ (Lesson)</th>
-            <th style="padding: 12px 8px;">स्कोर (Score)</th>
-            <th style="padding: 12px 8px;">प्रतिशत (Percentage)</th>
-            <th style="padding: 12px 8px;">तारीख (Date)</th>
+          <tr>
+            <th>पाठ (Lesson)</th>
+            <th>स्कोर (Score)</th>
+            <th>प्रतिशत (Percentage)</th>
+            <th>तारीख (Date)</th>
           </tr>
         </thead>
         <tbody id="student-attempts-body">
           <tr>
-            <td colspan="4" style="text-align: center; padding: 24px; color: var(--text-secondary);">कोई टेस्ट प्रयास नहीं मिला।</td>
+            <td colspan="4" class="profile-empty-td">कोई टेस्ट प्रयास नहीं मिला।</td>
           </tr>
         </tbody>
       </table>
@@ -67,53 +67,53 @@ permalink: /profile/
   </div>
 
   {# 3. Owner Analytics Dashboard (Hidden for regular users) #}
-  <div id="owner-dashboard-container" class="card" style="display: none; padding: 28px; border-radius: 12px; border: 2px solid var(--accent); flex-direction: column; gap: var(--sp-5);">
-    <h2 style="font-family: 'Outfit', sans-serif; font-size: 1.6rem; color: var(--accent); margin: 0; display: flex; align-items: center; gap: 10px;">
+  <div id="owner-dashboard-container" class="card owner-dashboard-card" style="display: none;">
+    <h2 class="owner-dashboard-title">
       👑 Owner Analytics Dashboard
     </h2>
     
-    <div style="display: flex; gap: var(--sp-4); margin-bottom: 12px;">
-      <button onclick="switchTab('owner-summary')" class="btn-primary" id="tab-summary-btn" style="padding: 8px 16px; font-size: 0.95rem;">Summary Stats</button>
-      <button onclick="switchTab('owner-attempts')" class="btn-secondary" id="tab-attempts-btn" style="padding: 8px 16px; font-size: 0.95rem;">Student Attempts</button>
+    <div class="owner-tab-controls">
+      <button onclick="switchTab('owner-summary')" class="btn-primary owner-tab-btn" id="tab-summary-btn">Summary Stats</button>
+      <button onclick="switchTab('owner-attempts')" class="btn-secondary owner-tab-btn" id="tab-attempts-btn">Student Attempts</button>
     </div>
 
     {# 3a. Summary Stats Tab #}
-    <div id="owner-summary-tab" style="overflow-x: auto;">
-      <h3 style="font-size: 1.15rem; color: var(--text-main); margin-bottom: 12px;">क्लास टेस्ट परफॉर्मेंस (Class Performance)</h3>
-      <table style="width: 100%; border-collapse: collapse; text-align: left; font-size: 0.95rem;">
+    <div id="owner-summary-tab" class="profile-table-container">
+      <h3 class="owner-tab-title">क्लास टेस्ट परफॉर्मेंस (Class Performance)</h3>
+      <table class="profile-table">
         <thead>
-          <tr style="border-bottom: 2px solid var(--border); color: var(--text-secondary);">
-            <th style="padding: 12px 8px;">Test Slug</th>
-            <th style="padding: 12px 8px;">Attempts</th>
-            <th style="padding: 12px 8px;">Avg Score (%)</th>
-            <th style="padding: 12px 8px;">Max Score</th>
-            <th style="padding: 12px 8px;">Min Score</th>
+          <tr>
+            <th>Test Slug</th>
+            <th>Attempts</th>
+            <th>Avg Score (%)</th>
+            <th>Max Score</th>
+            <th>Min Score</th>
           </tr>
         </thead>
         <tbody id="owner-summary-body">
           <tr>
-            <td colspan="5" style="text-align: center; padding: 24px; color: var(--text-secondary);">डाटा लोड हो रहा है...</td>
+            <td colspan="5" class="profile-empty-td">डाटा लोड हो रहा है...</td>
           </tr>
         </tbody>
       </table>
     </div>
 
     {# 3b. Student Attempts Tab #}
-    <div id="owner-attempts-tab" style="overflow-x: auto; display: none;">
-      <h3 style="font-size: 1.15rem; color: var(--text-main); margin-bottom: 12px;">सभी छात्रों के टेस्ट प्रयास (Student History)</h3>
-      <table style="width: 100%; border-collapse: collapse; text-align: left; font-size: 0.95rem;">
+    <div id="owner-attempts-tab" class="profile-table-container" style="display: none;">
+      <h3 class="owner-tab-title">सभी छात्रों के टेस्ट प्रयास (Student History)</h3>
+      <table class="profile-table">
         <thead>
-          <tr style="border-bottom: 2px solid var(--border); color: var(--text-secondary);">
-            <th style="padding: 12px 8px;">Student</th>
-            <th style="padding: 12px 8px;">Email</th>
-            <th style="padding: 12px 8px;">Test Slug</th>
-            <th style="padding: 12px 8px;">Score</th>
-            <th style="padding: 12px 8px;">Date</th>
+          <tr>
+            <th>Student</th>
+            <th>Email</th>
+            <th>Test Slug</th>
+            <th>Score</th>
+            <th>Date</th>
           </tr>
         </thead>
         <tbody id="owner-attempts-body">
           <tr>
-            <td colspan="5" style="text-align: center; padding: 24px; color: var(--text-secondary);">डाटा लोड हो रहा है...</td>
+            <td colspan="5" class="profile-empty-td">डाटा लोड हो रहा है...</td>
           </tr>
         </tbody>
       </table>
@@ -123,6 +123,19 @@ permalink: /profile/
 </div>
 
 <script>
+  function escapeHTML(str) {
+    if (typeof str !== 'string') return str;
+    return str.replace(/[&<>'"]/g, 
+      tag => ({
+        '&': '&amp;',
+        '<': '&lt;',
+        '>': '&gt;',
+        "'": '&#39;',
+        '"': '&quot;'
+      }[tag] || tag)
+    );
+  }
+
   document.addEventListener('DOMContentLoaded', async () => {
     try {
       // 1. Fetch user authentication info
@@ -171,10 +184,10 @@ permalink: /profile/
             });
 
             tr.innerHTML = `
-              <td style="padding: 12px 8px; font-weight: 600;">${att.lesson_slug}</td>
-              <td style="padding: 12px 8px;">${att.score}/${att.total_questions}</td>
-              <td style="padding: 12px 8px; color: ${pct >= 80 ? '#10b981' : pct >= 50 ? 'var(--accent)' : '#ef4444'}; font-weight: bold;">${pct}%</td>
-              <td style="padding: 12px 8px; color: var(--text-secondary); font-size: 0.85rem;">${dateStr}</td>
+              <td class="profile-td" style="font-weight: 600;">${escapeHTML(att.lesson_slug)}</td>
+              <td class="profile-td">${att.score}/${att.total_questions}</td>
+              <td class="profile-td" style="color: ${pct >= 80 ? '#10b981' : pct >= 50 ? 'var(--accent)' : '#ef4444'}; font-weight: bold;">${pct}%</td>
+              <td class="profile-td" style="color: var(--text-secondary); font-size: 0.85rem;">${dateStr}</td>
             `;
             studentBody.appendChild(tr);
           });
@@ -209,16 +222,16 @@ permalink: /profile/
           const avgPct = Math.round(sum.avg_percent);
 
           tr.innerHTML = `
-            <td style="padding: 12px 8px; font-weight: 600;">${sum.lesson_slug}</td>
-            <td style="padding: 12px 8px;">${sum.total_attempts}</td>
-            <td style="padding: 12px 8px; color: ${avgPct >= 80 ? '#10b981' : avgPct >= 50 ? 'var(--accent)' : '#ef4444'}; font-weight: bold;">${avgPct}%</td>
-            <td style="padding: 12px 8px; color: #10b981; font-weight: bold;">${sum.max_score}/${sum.total_questions}</td>
-            <td style="padding: 12px 8px; color: #ef4444; font-weight: bold;">${sum.min_score}/${sum.total_questions}</td>
+            <td class="profile-td" style="font-weight: 600;">${escapeHTML(sum.lesson_slug)}</td>
+            <td class="profile-td">${sum.total_attempts}</td>
+            <td class="profile-td" style="color: ${avgPct >= 80 ? '#10b981' : avgPct >= 50 ? 'var(--accent)' : '#ef4444'}; font-weight: bold;">${avgPct}%</td>
+            <td class="profile-td" style="color: #10b981; font-weight: bold;">${sum.max_score}/${sum.total_questions}</td>
+            <td class="profile-td" style="color: #ef4444; font-weight: bold;">${sum.min_score}/${sum.total_questions}</td>
           `;
           summaryBody.appendChild(tr);
         });
       } else {
-        summaryBody.innerHTML = '<tr><td colspan="5" style="text-align: center; padding: 24px;">कोई डेटा उपलब्ध नहीं है।</td></tr>';
+        summaryBody.innerHTML = '<tr><td colspan="5" class="profile-empty-td">कोई डेटा उपलब्ध नहीं है।</td></tr>';
       }
 
       // Render Attempts Tab
@@ -233,16 +246,16 @@ permalink: /profile/
           });
 
           tr.innerHTML = `
-            <td style="padding: 12px 8px; font-weight: 600;">${att.name || 'Student'}</td>
-            <td style="padding: 12px 8px; color: var(--text-secondary);">${att.email}</td>
-            <td style="padding: 12px 8px;">${att.lesson_slug}</td>
-            <td style="padding: 12px 8px; font-weight: bold;">${att.score}/${att.total_questions}</td>
-            <td style="padding: 12px 8px; color: var(--text-secondary); font-size: 0.85rem;">${dateStr}</td>
+            <td class="profile-td" style="font-weight: 600;">${escapeHTML(att.name || 'Student')}</td>
+            <td class="profile-td" style="color: var(--text-secondary);">${escapeHTML(att.email)}</td>
+            <td class="profile-td">${escapeHTML(att.lesson_slug)}</td>
+            <td class="profile-td" style="font-weight: bold;">${att.score}/${att.total_questions}</td>
+            <td class="profile-td" style="color: var(--text-secondary); font-size: 0.85rem;">${dateStr}</td>
           `;
           attemptsBody.appendChild(tr);
         });
       } else {
-        attemptsBody.innerHTML = '<tr><td colspan="5" style="text-align: center; padding: 24px;">कोई डेटा उपलब्ध नहीं है।</td></tr>';
+        attemptsBody.innerHTML = '<tr><td colspan="5" class="profile-empty-td">कोई डेटा उपलब्ध नहीं है।</td></tr>';
       }
     } catch (e) {
       console.warn('[EV] Failed to load owner analytics data:', e);

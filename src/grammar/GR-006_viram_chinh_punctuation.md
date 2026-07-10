@@ -1,6 +1,10 @@
 ---
+
 title: "Article 06 — विराम चिन्ह (Punctuation Marks) A to Z: हिंदी बनाम अंग्रेज़ी"
 permalink: /grammar/punctuation-marks-hindi-english/
+module: "Foundation"
+topicNumber: 9
+description: "विराम चिन्ह (Punctuation Marks) A to Z: हिंदी बनाम अंग्रेज़ी और Capital Letters के नियम।"
 ---
 # Article 06 — विराम चिन्ह (Punctuation Marks) A to Z: हिंदी बनाम अंग्रेज़ी
 

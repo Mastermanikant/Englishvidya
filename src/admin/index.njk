@@ -4,215 +4,6 @@ pageTitle: "Admin Dashboard - EnglishVidya"
 permalink: /admin/
 ---
 
-<style>
-.admin-container {
-  max-width: 1200px;
-  margin: 40px auto;
-  padding: 20px;
-}
-.dashboard-title {
-  font-family: var(--font-heading);
-  color: var(--accent);
-  margin-bottom: 30px;
-  font-size: 2.5rem;
-}
-.tabs-container {
-  display: flex;
-  gap: 10px;
-  margin-bottom: 25px;
-  border-bottom: 2px solid var(--border-color);
-  padding-bottom: 12px;
-  flex-wrap: wrap;
-}
-.tab-btn {
-  padding: 10px 20px;
-  border-radius: var(--radius-md);
-  border: 1px solid var(--border-color);
-  background: var(--bg-raised);
-  color: var(--text-main);
-  font-weight: 600;
-  cursor: pointer;
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-.tab-btn:hover {
-  background: var(--accent);
-  color: white;
-  border-color: var(--accent);
-  transform: translateY(-2px);
-}
-.tab-btn.active {
-  background: var(--accent);
-  color: white;
-  border-color: var(--accent);
-  box-shadow: 0 4px 12px rgba(99, 102, 241, 0.3);
-}
-.admin-card {
-  background: var(--bg-raised);
-  padding: 24px;
-  border-radius: var(--radius-lg);
-  border: 1px solid var(--border-color);
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s;
-}
-.admin-card:hover {
-  transform: translateY(-2px);
-}
-.table-responsive {
-  width: 100%;
-  overflow-x: auto;
-  border-radius: var(--radius-lg);
-  border: 1px solid var(--border-color);
-  background: var(--bg-raised);
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
-}
-.admin-table {
-  width: 100%;
-  border-collapse: collapse;
-  text-align: left;
-  font-size: 0.95rem;
-}
-.admin-table th {
-  background: rgba(0,0,0,0.2);
-  padding: 14px 18px;
-  font-weight: 700;
-  border-bottom: 2px solid var(--border-color);
-  color: var(--text-main);
-}
-.admin-table td {
-  padding: 14px 18px;
-  border-bottom: 1px solid var(--border-color);
-  color: var(--text-secondary);
-  vertical-align: middle;
-}
-.admin-table tr:hover {
-  background: rgba(255,255,255,0.02);
-}
-.badge {
-  display: inline-flex;
-  align-items: center;
-  padding: 4px 8px;
-  border-radius: 4px;
-  font-size: 0.8rem;
-  font-weight: bold;
-}
-.badge-admin { background: rgba(99, 102, 241, 0.2); color: #818cf8; }
-.badge-owner { background: rgba(236, 72, 153, 0.2); color: #f472b6; }
-.badge-user { background: rgba(156, 163, 175, 0.2); color: #d1d5db; }
-.badge-open { background: rgba(34, 197, 94, 0.2); color: #4ade80; }
-.badge-resolved { background: rgba(59, 130, 246, 0.2); color: #60a5fa; }
-.badge-closed { background: rgba(107, 114, 128, 0.2); color: #9ca3af; }
-
-.search-bar-container {
-  margin-bottom: 20px;
-}
-.search-input {
-  width: 100%;
-  max-width: 400px;
-  padding: 10px 16px;
-  border-radius: var(--radius-md);
-  border: 1px solid var(--border-color);
-  background: var(--bg-raised);
-  color: var(--text-main);
-  font-size: 1rem;
-}
-.search-input:focus {
-  border-color: var(--accent);
-  outline: none;
-}
-/* Modal/Ticket Detail View Drawer */
-.ticket-drawer {
-  position: fixed;
-  top: 0;
-  right: -500px;
-  width: 100%;
-  max-width: 500px;
-  height: 100%;
-  background: var(--bg-raised);
-  border-left: 1px solid var(--border-color);
-  box-shadow: -4px 0 20px rgba(0,0,0,0.3);
-  z-index: 1000;
-  transition: right 0.3s ease-in-out;
-  padding: 24px;
-  display: flex;
-  flex-direction: column;
-}
-.ticket-drawer.open {
-  right: 0;
-}
-.drawer-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border-bottom: 1px solid var(--border-color);
-  padding-bottom: 15px;
-  margin-bottom: 20px;
-}
-.drawer-close {
-  background: none;
-  border: none;
-  color: var(--text-main);
-  font-size: 1.5rem;
-  cursor: pointer;
-}
-.messages-container {
-  flex: 1;
-  overflow-y: auto;
-  padding-right: 5px;
-  margin-bottom: 20px;
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
-.msg-bubble {
-  padding: 12px 16px;
-  border-radius: var(--radius-lg);
-  max-width: 85%;
-  line-height: 1.4;
-}
-.msg-bubble.user {
-  background: rgba(255,255,255,0.05);
-  align-self: flex-start;
-  border-bottom-left-radius: 4px;
-}
-.msg-bubble.staff {
-  background: var(--accent);
-  color: white;
-  align-self: flex-end;
-  border-bottom-right-radius: 4px;
-}
-.drawer-footer {
-  border-top: 1px solid var(--border-color);
-  padding-top: 15px;
-}
-.reply-textarea {
-  width: 100%;
-  height: 80px;
-  padding: 10px;
-  border-radius: var(--radius-md);
-  border: 1px solid var(--border-color);
-  background: var(--bg-main);
-  color: var(--text-main);
-  resize: none;
-  font-size: 0.95rem;
-  margin-bottom: 10px;
-}
-.drawer-overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  background: rgba(0,0,0,0.5);
-  z-index: 999;
-  display: none;
-}
-.drawer-overlay.open {
-  display: block;
-}
-</style>
 
 <div class="admin-container">
   <h1 class="dashboard-title">Admin Dashboard</h1>
@@ -278,6 +69,19 @@ permalink: /admin/
 </div>
 
 <script>
+function escapeHTML(str) {
+  if (typeof str !== 'string') return str;
+  return str.replace(/[&<>'"]/g, 
+    tag => ({
+      '&': '&amp;',
+      '<': '&lt;',
+      '>': '&gt;',
+      "'": '&#39;',
+      '"': '&quot;'
+    }[tag] || tag)
+  );
+}
+
 let currentUser = null;
 let activeTab = 'pending-links';
 let allUsersData = []; // Cached users for search filter
@@ -356,12 +160,12 @@ async function loadPendingLinks() {
 
       return `
       <div class="admin-card">
-        <p style="margin-top:0;"><strong>Comment:</strong> ${item.comment_text}</p>
-        <p><strong>By:</strong> ${item.name}</p>
+        <p style="margin-top:0;"><strong>Comment:</strong> ${escapeHTML(item.comment_text)}</p>
+        <p><strong>By:</strong> ${escapeHTML(item.name)}</p>
         <div style="margin: 15px 0; background: rgba(0,0,0,0.1); padding: 12px; border-radius: 6px;">
           <strong>Pending Links:</strong>
           <ul style="margin: 5px 0 0 20px; padding: 0;">
-            ${pendingUrls.map(u => `<li style="margin-bottom: 5px;"><a href="${u.url}" target="_blank" style="color: var(--accent); word-break: break-all;">${u.url}</a></li>`).join('')}
+            ${pendingUrls.map(u => `<li style="margin-bottom: 5px;"><a href="${escapeHTML(u.url)}" target="_blank" style="color: var(--accent); word-break: break-all;">${escapeHTML(u.url)}</a></li>`).join('')}
           </ul>
         </div>
         <div style="display: flex; gap: 10px;">
@@ -390,9 +194,9 @@ async function loadPendingUGC() {
 
     list.innerHTML = data.map(item => `
       <div class="admin-card">
-        <p style="margin-top: 0;"><strong>Word Slug:</strong> <span style="color: var(--accent); font-weight:bold;">${item.word_slug}</span></p>
-        <p><strong>Meaning Text:</strong> ${item.meaning_text}</p>
-        <p><strong>Submitted By:</strong> ${item.name}</p>
+        <p style="margin-top: 0;"><strong>Word Slug:</strong> <span style="color: var(--accent); font-weight:bold;">${escapeHTML(item.word_slug)}</span></p>
+        <p><strong>Meaning Text:</strong> ${escapeHTML(item.meaning_text)}</p>
+        <p><strong>Submitted By:</strong> ${escapeHTML(item.name)}</p>
         <div style="margin-top: 15px; display: flex; gap: 10px;">
           <button onclick="adminAction('ugc', ${item.id}, 'approve')" style="background: #22c55e; color: white; padding: 8px 16px; border: none; border-radius: var(--radius-sm); cursor: pointer; font-weight:600;">Approve</button>
           <button onclick="adminAction('ugc', ${item.id}, 'reject')" style="background: #ef4444; color: white; padding: 8px 16px; border: none; border-radius: var(--radius-sm); cursor: pointer; font-weight:600;">Reject</button>
@@ -455,7 +259,7 @@ function renderUsersTable(users) {
         adminResetHtml = `
           <div style="display:flex; flex-direction:column; gap:4px; align-items:flex-start;">
             <span style="color:#22c55e; font-weight:bold; font-size:0.85rem;">🔓 Ready</span>
-            <button onclick="adminResetPassword(${user.id}, '${user.name}')" style="background:var(--accent); color:white; border:none; padding:4px 8px; border-radius:4px; cursor:pointer; font-weight:600; font-size:0.8rem;">Reset Password</button>
+            <button onclick="adminResetPassword(${user.id}, '${escapeHTML(user.name || '')}')" style="background:var(--accent); color:white; border:none; padding:4px 8px; border-radius:4px; cursor:pointer; font-weight:600; font-size:0.8rem;">Reset Password</button>
           </div>
         `;
       }
@@ -463,10 +267,10 @@ function renderUsersTable(users) {
 
     return `
       <tr>
-        <td style="font-weight: bold; color: var(--accent);">${user.id}</td>
+        <td style="font-weight: bold; color: var(--accent);">${item.id || user.id}</td>
         <td>
-          <div style="font-weight: 600; color: var(--text-main);">${user.name || 'No Name'}</div>
-          <div style="font-size: 0.85rem; color: var(--text-secondary);">${user.email}</div>
+          <div style="font-weight: 600; color: var(--text-main);">${escapeHTML(user.name || 'No Name')}</div>
+          <div style="font-size: 0.85rem; color: var(--text-secondary);">${escapeHTML(user.email)}</div>
         </td>
         <td>${roleBadge}</td>
         <td>
@@ -621,17 +425,17 @@ async function loadSupportTickets() {
         <div class="admin-card" style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:15px;">
           <div style="flex: 1; min-width: 250px;">
             <div style="display:flex; align-items:center; gap:8px; margin-bottom:8px;">
-              <h3 style="margin:0; font-size:1.15rem; color:var(--text-main);">${t.title}</h3>
+              <h3 style="margin:0; font-size:1.15rem; color:var(--text-main);">${escapeHTML(t.title)}</h3>
               ${statusBadge}
-              <span style="font-size:0.75rem; font-weight:bold; background: ${routeColor}20; color: ${routeColor}; padding:2px 6px; border-radius:4px; text-transform:uppercase;">To: ${t.type}</span>
+              <span style="font-size:0.75rem; font-weight:bold; background: ${routeColor}20; color: ${routeColor}; padding:2px 6px; border-radius:4px; text-transform:uppercase;">To: ${escapeHTML(t.type)}</span>
             </div>
-            <p style="margin: 0 0 8px 0; color:var(--text-secondary); line-height: 1.4;">${t.message}</p>
+            <p style="margin: 0 0 8px 0; color:var(--text-secondary); line-height: 1.4;">${escapeHTML(t.message)}</p>
             <div style="font-size:0.8rem; color: var(--text-secondary);">
-              <strong>Submitted by:</strong> ${t.name} (${t.email}) | <strong>Date:</strong> ${date}
+              <strong>Submitted by:</strong> ${escapeHTML(t.name)} (${escapeHTML(t.email)}) | <strong>Date:</strong> ${date}
             </div>
           </div>
           <div>
-            <button onclick="openTicketDrawer(${t.id}, '${t.title}', '${t.status}', '${t.name}', '${t.email}', \`${t.message.replace(/`/g, '\\`').replace(/\n/g, ' ')}\`)" style="background: var(--accent); color: white; border: none; padding: 8px 16px; border-radius: var(--radius-sm); cursor: pointer; font-weight: 600;">View & Reply</button>
+            <button onclick="openTicketDrawer(${t.id}, '${escapeHTML(t.title).replace(/'/g, "\\'")}', '${escapeHTML(t.status)}', '${escapeHTML(t.name).replace(/'/g, "\\'")}', '${escapeHTML(t.email).replace(/'/g, "\\'")}', \`${escapeHTML(t.message).replace(/`/g, '\\`').replace(/\n/g, ' ')}\`)" style="background: var(--accent); color: white; border: none; padding: 8px 16px; border-radius: var(--radius-sm); cursor: pointer; font-weight: 600;">View & Reply</button>
           </div>
         </div>
       `;
@@ -676,8 +480,8 @@ async function openTicketDrawer(ticketId, title, status, userName, userEmail, me
       
       return `
         <div class="msg-bubble ${bubbleClass}">
-          <div style="font-size:0.75rem; opacity:0.8; margin-bottom:4px; font-weight:bold;">${r.name} (${r.role.toUpperCase()})</div>
-          <div>${r.reply_text}</div>
+          <div style="font-size:0.75rem; opacity:0.8; margin-bottom:4px; font-weight:bold;">${escapeHTML(r.name)} (${escapeHTML(r.role).toUpperCase()})</div>
+          <div>${escapeHTML(r.reply_text).replace(/\n/g, '<br>')}</div>
           <div style="font-size:0.65rem; opacity:0.6; text-align:right; margin-top:4px;">${date}</div>
         </div>
       `;
@@ -767,8 +571,8 @@ async function loadSoftDeleted() {
 
     list.innerHTML = data.map(item => `
       <div class="admin-card" style="opacity: 0.85;">
-        <p style="margin-top: 0;"><strong>Type:</strong> <span style="text-transform: uppercase; color: var(--accent); font-weight:bold;">${item.source}</span></p>
-        <p><strong>Text:</strong> ${item.text}</p>
+        <p style="margin-top: 0;"><strong>Type:</strong> <span style="text-transform: uppercase; color: var(--accent); font-weight:bold;">${escapeHTML(item.source)}</span></p>
+        <p><strong>Text:</strong> ${escapeHTML(item.text)}</p>
         <p style="font-size:0.85rem; color:var(--text-secondary);">Deleted By: Admin #${item.action_by_id} on ${new Date(item.action_at).toLocaleString()}</p>
         <div style="margin-top: 15px;">
           <button onclick="adminRevert('${item.source}', ${item.id})" style="background: var(--accent); color: white; padding: 8px 16px; border: none; border-radius: var(--radius-sm); cursor: pointer; font-weight:600;">Restore (Revert)</button>
@@ -795,7 +599,7 @@ async function loadDeletionRequests() {
 
     list.innerHTML = data.map(item => `
       <div class="admin-card" style="border-color: var(--error);">
-        <p style="margin-top: 0;"><strong>Name:</strong> ${item.name} (${item.email})</p>
+        <p style="margin-top: 0;"><strong>Name:</strong> ${escapeHTML(item.name)} (${escapeHTML(item.email)})</p>
         <p><strong>Requested At:</strong> <span style="color: var(--error); font-weight: bold;">${new Date(item.delete_requested_at).toLocaleString()}</span></p>
         <div style="margin-top: 15px; display: flex; gap: 10px;">
           <button onclick="adminAction('user', ${item.id}, 'approve_delete')" style="background: #ef4444; color: white; padding: 8px 16px; border: none; border-radius: var(--radius-sm); cursor: pointer; font-weight:600;">Approve Deletion (Anonymize)</button>

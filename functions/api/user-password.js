@@ -1,3 +1,11 @@
+import { 
+  verifyJWT,
+  hashPasswordPBKDF2, 
+  verifyPasswordPBKDF2, 
+  hashSHA256,
+  getGenericErrorMsg
+} from './_shared/auth-utils.js';
+
 export async function onRequestPost(context) {
   const { request, env } = context;
   
@@ -52,77 +60,6 @@ export async function onRequestPost(context) {
     return Response.json({ success: true, message: 'Password updated successfully!' });
 
   } catch (err) {
-    return Response.json({ success: false, error: 'Server error' }, { status: 500 });
-  }
-}
-
-// --- PBKDF2 Hashing Helpers ---
-async function hashPasswordPBKDF2(password) {
-  const salt = crypto.getRandomValues(new Uint8Array(16));
-  const keyMaterial = await crypto.subtle.importKey(
-    'raw', new TextEncoder().encode(password),
-    { name: 'PBKDF2' }, false, ['deriveBits']
-  );
-  const derivedBits = await crypto.subtle.deriveBits(
-    { name: 'PBKDF2', salt: salt, iterations: 100000, hash: 'SHA-256' },
-    keyMaterial,
-    512
-  );
-  const saltHex = Array.from(salt).map(b => b.toString(16).padStart(2, '0')).join('');
-  const hashHex = Array.from(new Uint8Array(derivedBits)).map(b => b.toString(16).padStart(2, '0')).join('');
-  return `${saltHex}:${hashHex}`;
-}
-
-async function verifyPasswordPBKDF2(password, storedHashStr) {
-  const parts = storedHashStr.split(':');
-  if (parts.length !== 2) return false;
-  const [saltHex, hashHex] = parts;
-  const salt = new Uint8Array(saltHex.match(/.{1,2}/g).map(byte => parseInt(byte, 16)));
-  const keyMaterial = await crypto.subtle.importKey(
-    'raw', new TextEncoder().encode(password),
-    { name: 'PBKDF2' }, false, ['deriveBits']
-  );
-  const derivedBits = await crypto.subtle.deriveBits(
-    { name: 'PBKDF2', salt: salt, iterations: 100000, hash: 'SHA-256' },
-    keyMaterial,
-    512
-  );
-  const derivedHex = Array.from(new Uint8Array(derivedBits)).map(b => b.toString(16).padStart(2, '0')).join('');
-  return derivedHex === hashHex;
-}
-
-async function hashSHA256(password) {
-  const encoder = new TextEncoder();
-  const data = encoder.encode(password);
-  const hashBuffer = await crypto.subtle.digest('SHA-256', data);
-  const hashArray = Array.from(new Uint8Array(hashBuffer));
-  return hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
-}
-
-// --- Helper: Verify JWT ---
-async function verifyJWT(token, secret) {
-  try {
-    const parts = token.split('.');
-    if (parts.length !== 3) return null;
-
-    const data = parts[0] + '.' + parts[1];
-    const signature = parts[2];
-
-    const key = await crypto.subtle.importKey(
-      'raw', new TextEncoder().encode(secret),
-      { name: 'HMAC', hash: 'SHA-256' }, false, ['verify']
-    );
-
-    const sigBuf = new Uint8Array(atob(signature.replace(/-/g, '+').replace(/_/g, '/')).split('').map(c => c.charCodeAt(0)));
-    
-    const isValid = await crypto.subtle.verify('HMAC', key, sigBuf, new TextEncoder().encode(data));
-    if (!isValid) return null;
-
-    const payload = JSON.parse(atob(parts[1].replace(/-/g, '+').replace(/_/g, '/')));
-    if (payload.exp < Math.floor(Date.now() / 1000)) return null;
-
-    return payload;
-  } catch (e) {
-    return null;
+    return Response.json({ success: false, error: getGenericErrorMsg() }, { status: 500 });
   }
 }

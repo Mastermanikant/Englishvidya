@@ -1,6 +1,10 @@
 ---
+
 title: "Article 01 — भाषा, संचार और व्याकरण की नींव (Language, Communication & Grammar Foundation)"
 permalink: /grammar/language-communication-grammar-foundation/
+module: "Foundation"
+topicNumber: 2
+description: "भाषा, संचार और व्याकरण की नींव। S-V-O Pattern."
 ---
 # Article 01 — भाषा, संचार और व्याकरण की नींव (Language, Communication & Grammar Foundation)
 

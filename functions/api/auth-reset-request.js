@@ -1,3 +1,5 @@
+import { generateSecureOTP, getGenericErrorMsg } from './_shared/auth-utils.js';
+
 export async function onRequestPost(context) {
   const { request, env } = context;
 
@@ -71,7 +73,7 @@ export async function onRequestPost(context) {
     }
 
     // 4. Generate 6-digit Numeric OTP
-    const otp = Math.floor(100000 + Math.random() * 900000).toString();
+    const otp = generateSecureOTP(6);
     const expiryTime = new Date(nowMs + 30 * 60 * 60 * 1000).toISOString(); // 30 hours valid
 
     // Add current timestamp to rate limiting list
@@ -94,8 +96,7 @@ export async function onRequestPost(context) {
     const resetLink = `${siteUrl}/reset-password/?code=${otp}`;
 
     console.log(`[EMAIL SIMULATION] Sending password reset details to ${targetEmail} (${targetLabel})`);
-    console.log(`OTP Code: ${otp}`);
-    console.log(`Reset Link: ${resetLink}`);
+    // Removed OTP and reset link logging in plaintext for security.
 
     // Return success message
     const responsePayload = {
@@ -105,19 +106,12 @@ export async function onRequestPost(context) {
       message: `पासवर्ड रीसेट कोड सफलतापूर्वक ${obfuscateEmail(targetEmail)} पर भेज दिया गया है!`
     };
 
-    // Include debug info only in localhost / development mode
-    const isLocalhost = request.url.includes('localhost') || request.url.includes('127.0.0.1');
-    if (isLocalhost) {
-      responsePayload.devMode = true;
-      responsePayload.devOtp = otp;
-      responsePayload.devResetLink = resetLink;
-    }
+    // Dev mode OTP leak removed for security.
 
     return Response.json(responsePayload);
 
   } catch (err) {
-    console.error('Password reset request error:', err);
-    return Response.json({ error: 'Server error: ' + err.message }, { status: 500 });
+    return Response.json({ error: getGenericErrorMsg() }, { status: 500 });
   }
 }
 

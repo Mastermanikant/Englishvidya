@@ -1,6 +1,10 @@
 ---
+
 title: "Article 04 — व्यंजन ध्वनियाँ और उच्चारण नियम (Consonant Sounds, Spelling Rules & Silent Letters)"
 permalink: /grammar/consonant-sounds-pronunciation/
+module: "Foundation"
+topicNumber: 5
+description: "व्यंजन ध्वनियाँ, स्पेलिंग रूल्स, Hard/Soft C & G नियम और मूक अक्षर (Silent Letters)।"
 ---
 # Article 04 — व्यंजन ध्वनियाँ और उच्चारण नियम (Consonant Sounds, Spelling Rules & Silent Letters)
 

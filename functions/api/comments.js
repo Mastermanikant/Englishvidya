@@ -3,14 +3,18 @@ export async function onRequestGet(context) {
   const slug = url.searchParams.get('slug');
   if (!slug) return Response.json({ error: 'slug required' }, { status: 400 });
 
+  const limit = Math.min(parseInt(url.searchParams.get('limit') || '20', 10), 100);
+  const offset = Math.max(parseInt(url.searchParams.get('offset') || '0', 10), 0);
+
   const comments = await context.env.DB.prepare(
     `SELECT c.id, c.comment_text, c.reference_links, c.created_at, u.name, u.avatar_url, u.trust_score,
             (SELECT stars FROM ratings r WHERE r.user_id = c.user_id AND r.page_slug = c.page_slug LIMIT 1) as user_rating
      FROM comments c
      JOIN users u ON c.user_id = u.id
      WHERE c.page_slug = ? AND u.is_shadow_banned = 0 AND c.status = 'active'
-     ORDER BY c.created_at DESC`
-  ).bind(slug).all();
+     ORDER BY c.created_at DESC
+     LIMIT ? OFFSET ?`
+  ).bind(slug, limit, offset).all();
 
   // Filter reference links to only show approved ones to the public
   const publicComments = comments.results.map(c => {
@@ -46,6 +50,10 @@ export async function onRequestPost(context) {
 
   if (!slug || !text || text.trim() === '') {
     return Response.json({ error: 'Comment text required' }, { status: 400 });
+  }
+
+  if (text.length > 5000) {
+    return Response.json({ error: 'कमेंट ५००० अक्षरों से कम होना चाहिए।' }, { status: 400 });
   }
 
   const cleanText = text.trim();

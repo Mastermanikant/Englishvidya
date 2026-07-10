@@ -42,10 +42,7 @@ export async function onRequestPost(context) {
       .run();
 
     // 3. Simulate warning emails to primary and recovery emails
-    console.log(`[ADMIN RESET REQUEST] Simulated security warning sent to Primary: ${user.email}`);
-    if (user.recovery_email) {
-      console.log(`[ADMIN RESET REQUEST] Simulated security warning sent to Recovery: ${user.recovery_email}`);
-    }
+    console.log(`[ADMIN RESET REQUEST] Simulated security warning sent to Primary and Recovery emails.`);
 
     return Response.json({
       success: true,
@@ -53,6 +50,6 @@ export async function onRequestPost(context) {
     });
 
   } catch (err) {
-    return Response.json({ error: 'Server error: ' + err.message }, { status: 500 });
+    return Response.json({ error: 'Something went wrong. Please try again later.' }, { status: 500 });
   }
 }

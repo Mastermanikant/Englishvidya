@@ -1,7 +1,11 @@
+import { validateRedirectUrl } from './_shared/auth-utils.js';
+
 export async function onRequestGet(context) {
   const { request, env } = context;
   const urlParams = new URL(request.url).searchParams;
-  const redirectTo = urlParams.get('redirect') || '/';
+  let redirectTo = urlParams.get('redirect') || '/';
+  
+  redirectTo = validateRedirectUrl(redirectTo);
   
   const redirectUri = `${env.SITE_URL}/api/auth-callback`;
   const scope = 'openid email profile';

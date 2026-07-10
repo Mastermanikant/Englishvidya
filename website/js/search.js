@@ -1,4 +1,7 @@
-document.addEventListener('DOMContentLoaded', () => {
+// Global access for lazy loading
+window.openSearch = null;
+
+(function initSearch() {
     const searchOverlay = document.getElementById('search-overlay');
     const searchInput = document.getElementById('search-input');
     const searchResults = document.getElementById('search-results');
@@ -10,13 +13,13 @@ document.addEventListener('DOMContentLoaded', () => {
     let isDataLoaded = false;
 
     // Open Search Overlay
-    function openSearch() {
+    window.openSearch = function() {
         searchOverlay.classList.add('active');
         searchInput.focus();
         if (!isDataLoaded) {
             loadSearchData();
         }
-    }
+    };
 
     // Close Search Overlay
     function closeSearch() {
@@ -25,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
         renderPlaceholder();
     }
 
-    searchTriggerBtns.forEach(btn => btn.addEventListener('click', openSearch));
+    searchTriggerBtns.forEach(btn => btn.addEventListener('click', window.openSearch));
     if (searchCloseBtn) searchCloseBtn.addEventListener('click', closeSearch);
 
     // Escape key closes search
@@ -178,4 +181,4 @@ document.addEventListener('DOMContentLoaded', () => {
             performSearch(e.target.value);
         }, 150);
     });
-});
+})();

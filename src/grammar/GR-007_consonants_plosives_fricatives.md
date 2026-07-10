@@ -1,6 +1,10 @@
 ---
+
 title: "Article 07 — Consonants Part 1: Plosives & Fricatives (स्पर्श और संघर्षी व्यंजन)"
 permalink: /grammar/consonants-plosives-fricatives/
+module: "Foundation"
+topicNumber: 8
+description: "स्पर्श (Plosives) और संघर्षी (Fricatives) व्यंजन ध्वनियाँ और उनका सटीक उच्चारण।"
 ---
 # Article 07 — Consonants Part 1: Plosives & Fricatives (स्पर्श और संघर्षी व्यंजन)
 

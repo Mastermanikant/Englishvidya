@@ -5,12 +5,11 @@ metaDescription: "Learn common English idioms and phrases with their Hindi meani
 permalink: /idioms/
 ---
 
-{# Breadcrumb #}
-<nav class="breadcrumb" aria-label="Breadcrumb">
-  <a href="/">Home</a>
-  <span class="breadcrumb-sep" aria-hidden="true">›</span>
-  <span aria-current="page">Idioms & Phrases</span>
-</nav>
+{% set breadcrumbs = [
+  { label: "Home", url: "/" },
+  { label: "Idioms & Phrases" }
+] %}
+{% include "partials/breadcrumbs.njk" %}
 
 <div class="hero-welcome animate-fade-in" style="padding-bottom: var(--sp-4);">
   <h1 style="font-size: 1.8rem;">🎭 Idioms & Phrases</h1>

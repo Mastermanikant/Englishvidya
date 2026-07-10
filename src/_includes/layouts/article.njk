@@ -3,21 +3,21 @@ layout: layouts/base.njk
 ---
 <div class="article-layout-container">
   <div class="article-main-content">
-    <div style="margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px solid var(--border); display: flex; justify-content: space-between; color: var(--text-secondary); font-size: 0.9rem; font-weight: 600;">
+    <div class="article-meta-header">
       {% if date %}
         <span>📅 {{ date | toISO | truncate(10, true, "") }}</span>
       {% endif %}
       {% if views %}
-        <span style="color: var(--accent);">👁️ {{ views }} Views</span>
+        <span class="article-meta-views">👁️ {{ views }} Views</span>
       {% endif %}
     </div>
     
     {# Collapsible Controls #}
-    <div class="collapsible-controls" style="display: flex; gap: var(--sp-3); margin-bottom: var(--sp-4); justify-content: flex-end; width: 100%;">
-      <button id="collapse-all-btn" class="btn-secondary" style="padding: 6px 14px; font-size: 0.85rem; border-radius: 20px; font-weight: bold; cursor: pointer; display: none; align-items: center; gap: 6px;">
+    <div class="collapsible-controls">
+      <button id="collapse-all-btn" class="btn-secondary collapsible-btn">
         🗜️ Collapse All
       </button>
-      <button id="expand-all-btn" class="btn-secondary" style="padding: 6px 14px; font-size: 0.85rem; border-radius: 20px; font-weight: bold; cursor: pointer; display: none; align-items: center; gap: 6px;">
+      <button id="expand-all-btn" class="btn-secondary collapsible-btn">
         📖 Expand All
       </button>
     </div>
@@ -29,38 +29,38 @@ layout: layouts/base.njk
     {# Test Yourself CTA #}
     {% if tags and "grammar" in tags %}
       {% set testSlug = permalink | replace("/grammar/", "") | replace("/", "") %}
-      <div style="margin: 40px 0; padding: 25px; background: rgba(56, 189, 248, 0.08); border-radius: 12px; border: 1px dashed var(--accent); text-align: center; box-shadow: var(--shadow-sm);">
-        <h3 style="font-size: 1.3rem; margin-bottom: 10px; color: var(--text-main); font-family: 'Outfit', sans-serif;">📝 अभ्यास करें (Practice Test)</h3>
-        <p style="font-size: 0.95rem; color: var(--text-secondary); margin-bottom: 20px;">
+      <div class="practice-test-box">
+        <h3 class="practice-test-title">📝 अभ्यास करें (Practice Test)</h3>
+        <p class="practice-test-desc">
           इस अध्याय को पढ़ने के बाद, अपनी समझ का परीक्षण करने के लिए यह छोटा सा टेस्ट अवश्य दें।
         </p>
-        <a href="/test/{{ testSlug }}/" class="btn-primary" style="text-decoration: none; padding: 12px 28px; border-radius: var(--radius-md); font-weight: bold; font-size: 1.05rem; display: inline-flex; align-items: center; gap: 8px; transition: transform 0.2s;">
+        <a href="/test/{{ testSlug }}/" class="btn-primary practice-test-btn">
           ✍️ Start Practice Test (टेस्ट दें)
         </a>
       </div>
     {% endif %}
 
     {# ── Sharing Section (Psychological CTA) ── #}
-    <div class="share-box" style="margin-top: 50px; padding: 25px; background: var(--bg-raised); border-radius: 12px; border: 1px solid var(--border); text-align: center;">
-      <h3 style="font-size: 1.25rem; margin-bottom: 10px; color: var(--text-primary);">💡 क्या आपने इस आर्टिकल से कुछ नया सीखा?</h3>
-      <p style="font-size: 1rem; color: var(--text-secondary); margin-bottom: 20px; line-height: 1.5;">
+    <div class="share-box">
+      <h3 class="share-title">💡 क्या आपने इस आर्टिकल से कुछ नया सीखा?</h3>
+      <p class="share-desc">
         अगर आपको हमारी मेहनत की कद्र है और आप चाहते हैं कि यह सही ज्ञान दूसरे छात्रों तक भी पहुँचे, तो इसे अपने दोस्तों, स्कूल के WhatsApp ग्रुप और Facebook पर ज़रूर शेयर करें। <br><strong>ज्ञान बांटने से ही बढ़ता है!</strong>
       </p>
       
       {% set shareUrl = "https://englishvidya.com" + page.url %}
       {% set shareText = "इसे ज़रूर पढ़ें: " + (title | urlencode) %}
       
-      <div style="display: flex; gap: 15px; justify-content: center; flex-wrap: wrap;">
+      <div class="share-buttons">
         <a href="https://api.whatsapp.com/send?text={{ shareText | safe }} - {{ shareUrl | urlencode }}" 
            target="_blank" rel="noopener noreferrer" 
-           style="background: #25D366; color: #fff; padding: 10px 20px; border-radius: 8px; font-weight: bold; text-decoration: none; display: flex; align-items: center; gap: 8px; transition: transform 0.2s;">
+           class="share-btn-wa">
           <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M12.031 0C5.385 0 .002 5.38.002 12.02c0 2.128.555 4.205 1.608 6.035L.063 24l6.096-1.597c1.766.974 3.76 1.488 5.867 1.488h.004c6.645 0 12.027-5.38 12.027-12.022S18.677 0 12.031 0zm0 21.905h-.002c-1.794 0-3.55-.483-5.09-1.396l-.364-.216-3.784.992.992-3.69-.236-.376A9.977 9.977 0 0 1 2.015 12.02c0-5.534 4.502-10.038 10.04-10.038 2.682 0 5.203 1.045 7.098 2.943 1.895 1.896 2.94 4.417 2.94 7.097 0 5.536-4.505 10.04-10.04 10.04zm5.513-7.536c-.302-.152-1.785-.88-2.062-.982-.277-.101-.48-.152-.68.151-.202.302-.782.982-.958 1.183-.178.201-.355.226-.658.075-1.517-.756-2.617-1.458-3.633-2.912-.258-.37-.027-.57.124-.72.136-.135.302-.353.454-.528.15-.176.201-.302.302-.503.1-.2.05-.378-.026-.528-.076-.151-.68-1.64-.932-2.247-.245-.591-.494-.51-.68-.52-.178-.008-.38-.01-.58-.01-.2 0-.528.075-.805.378-.277.302-1.056 1.03-1.056 2.513 0 1.483 1.082 2.916 1.233 3.118.151.202 2.124 3.243 5.143 4.545.718.31 1.278.494 1.716.633.72.228 1.374.196 1.892.119.58-.087 1.785-.73 2.037-1.434.252-.705.252-1.309.176-1.435-.075-.126-.277-.202-.58-.353z"/></svg>
           WhatsApp पर शेयर करें
         </a>
         
         <a href="https://www.facebook.com/sharer/sharer.php?u={{ shareUrl | urlencode }}" 
            target="_blank" rel="noopener noreferrer" 
-           style="background: #1877F2; color: #fff; padding: 10px 20px; border-radius: 8px; font-weight: bold; text-decoration: none; display: flex; align-items: center; gap: 8px; transition: transform 0.2s;">
+           class="share-btn-fb">
           <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.469h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.469h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
           Facebook पर शेयर करें
         </a>
@@ -71,7 +71,7 @@ layout: layouts/base.njk
     {% set reviewSlug = page.fileSlug %}
     {% include "partials/reviews-comments.njk" %}
 
-    <div style="text-align: center; margin-top: var(--sp-6); margin-bottom: var(--sp-8);">
+    <div class="back-home-container">
       <a href="/" class="lesson-back-btn">← Home</a>
     </div>
 
@@ -80,49 +80,16 @@ layout: layouts/base.njk
   </div>
 
   <aside class="sidebar-ads">
-    <div class="ad-placeholder" style="width: 100%; min-height: 250px; background: var(--bg-raised); border: 1px dashed var(--border); border-radius: 12px; display: flex; align-items: center; justify-content: center; color: var(--text-secondary); text-align: center; padding: 20px;">
-      <p style="font-size: 0.9rem; margin: 0;">Advertisement Space<br><small>(For future ads)</small></p>
+    <div class="ad-placeholder">
+      <p>Advertisement Space<br><small>(For future ads)</small></p>
     </div>
-    <div class="ad-placeholder sticky-ad" style="position: sticky; top: 100px; width: 100%; min-height: 600px; background: var(--bg-raised); border: 1px dashed var(--border); border-radius: 12px; display: flex; align-items: center; justify-content: center; color: var(--text-secondary); text-align: center; padding: 20px;">
-      <p style="font-size: 0.9rem; margin: 0;">Advertisement Space<br><small>(Sticky ad)</small></p>
+    <div class="ad-placeholder sticky-ad">
+      <p>Advertisement Space<br><small>(Sticky ad)</small></p>
     </div>
   </aside>
 </div>
 
-<style>
-.article-layout-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0;
-  display: grid;
-  gap: 40px;
-  grid-template-columns: 1fr;
-}
 
-@media (min-width: 1024px) {
-  .article-layout-container {
-    grid-template-columns: 1fr 300px;
-  }
-}
-
-.article-main-content {
-  width: 100%;
-}
-
-.sidebar-ads {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
-/* Hide ads in presenter-mode if no-ads-active is set */
-body.no-ads-active.presenter-mode .sidebar-ads {
-  display: none !important;
-}
-body.no-ads-active.presenter-mode .article-layout-container {
-  grid-template-columns: 1fr !important;
-}
-</style>
 
 <script>
 document.addEventListener('DOMContentLoaded', () => {

@@ -4,69 +4,69 @@ pageTitle: "Forgot Password - EnglishVidya"
 permalink: /forgot-password/
 ---
 
-<div class="auth-container" style="max-width: 450px; margin: 60px auto; padding: 35px; background: var(--bg-raised); border-radius: var(--radius-xl); box-shadow: var(--shadow-lg); border: 1px solid var(--border-color);">
-  <h1 style="font-family: var(--font-heading); margin-bottom: 10px; font-size: 1.8rem; background: var(--gradient-accent); -webkit-background-clip: text; -webkit-text-fill-color: transparent; display: inline-block;">🔑 Password Recovery</h1>
-  <p style="color: var(--text-secondary); margin-bottom: 24px; font-size: 0.95rem; line-height: 1.5;">
+<div class="auth-container">
+  <h1 class="auth-title">🔑 Password Recovery</h1>
+  <p class="auth-desc">
     अपना रजिस्टर्ड ईमेल या यूज़रनेम दर्ज करें ताकि हम आपको पासवर्ड रीसेट करने के लिए ६-अंकीय OTP और लिंक भेज सकें।
   </p>
 
-  <div id="alert-msg" class="alert-msg" style="display: none; padding: 12px; border-radius: 8px; margin-bottom: 18px; font-size: 0.9rem; font-weight: 500;"></div>
+  <div id="alert-msg" class="auth-error" style="display: none; padding: 12px; margin-bottom: 18px;"></div>
 
   <!-- Step 1 Form -->
-  <form id="forgot-form-step1" style="display: flex; flex-direction: column; gap: 16px;">
-    <div class="form-group" style="text-align: left; margin-bottom: 0;">
-      <label style="display: block; margin-bottom: 8px; font-weight: 600; font-size: 0.9rem; color: var(--text-secondary);">Email or Username (ईमेल या यूज़रनेम)</label>
-      <input type="text" id="input-email-username" placeholder="e.g. rohan@email.com or rohan_12" required style="width: 100%; padding: 12px 14px; border-radius: var(--radius-sm); border: 1px solid var(--border-color); background: var(--bg-base); color: var(--text-main); font-size: 0.95rem;">
+  <form id="forgot-form-step1" class="auth-form">
+    <div class="form-group">
+      <label class="auth-label">Email or Username (ईमेल या यूज़रनेम)</label>
+      <input type="text" id="input-email-username" class="auth-input" placeholder="e.g. rohan@email.com or rohan_12" required>
     </div>
-    <button type="submit" class="btn-primary" id="btn-step1" style="padding: 12px; border-radius: var(--radius-sm); font-weight: bold; font-size: 1rem; cursor: pointer; background: var(--accent); color: white; border: none;">Next (आगे बढ़ें)</button>
+    <button type="submit" class="btn-primary auth-submit-btn" id="btn-step1">Next (आगे बढ़ें)</button>
   </form>
 
   <!-- Step 2 Form (Recovery Email Choice) -->
-  <form id="forgot-form-step2" style="display: none; flex-direction: column; gap: 20px; text-align: left;">
-    <p style="color: var(--text-secondary); font-size: 0.95rem; line-height: 1.4; margin-top: 0;">
+  <form id="forgot-form-step2" class="auth-form" style="display: none; gap: 20px;">
+    <p class="auth-desc" style="margin-bottom: 0;">
       आपके अकाउंट में एक वैकल्पिक रिकवरी ईमेल भी सेट है। कृपया रीसेट कोड भेजने के लिए इनमें से कोई एक ईमेल चुनें:
     </p>
     
-    <div style="display: flex; flex-direction: column; gap: 10px;">
-      <label style="display: flex; align-items: center; gap: 10px; padding: 12px; border: 1px solid var(--border-color); border-radius: 8px; background: var(--bg-base); cursor: pointer;">
-        <input type="radio" name="target-email" value="primary" checked style="width: auto;">
+    <div class="auth-radio-group">
+      <label class="auth-radio-label">
+        <input type="radio" name="target-email" value="primary" checked>
         <div>
-          <span style="font-weight: 600; font-size: 0.9rem; color: var(--text-main);">Primary Email (मुख्य ईमेल)</span>
-          <div id="obfuscated-primary" style="font-size: 0.85rem; color: var(--text-secondary); margin-top: 2px;"></div>
+          <span class="auth-radio-title">Primary Email (मुख्य ईमेल)</span>
+          <div id="obfuscated-primary" class="auth-radio-sub"></div>
         </div>
       </label>
 
-      <label style="display: flex; align-items: center; gap: 10px; padding: 12px; border: 1px solid var(--border-color); border-radius: 8px; background: var(--bg-base); cursor: pointer;">
-        <input type="radio" name="target-email" value="recovery" style="width: auto;">
+      <label class="auth-radio-label">
+        <input type="radio" name="target-email" value="recovery" checked>
         <div>
-          <span style="font-weight: 600; font-size: 0.9rem; color: var(--text-main);">Recovery Email (बैकअप ईमेल)</span>
-          <div id="obfuscated-recovery" style="font-size: 0.85rem; color: var(--text-secondary); margin-top: 2px;"></div>
+          <span class="auth-radio-title">Recovery Email (बैकअप ईमेल)</span>
+          <div id="obfuscated-recovery" class="auth-radio-sub"></div>
         </div>
       </label>
     </div>
 
-    <button type="submit" class="btn-primary" id="btn-step2" style="padding: 12px; border-radius: var(--radius-sm); font-weight: bold; font-size: 1rem; cursor: pointer; background: var(--accent); color: white; border: none;">Send Reset Details (रीसेट कोड भेजें)</button>
+    <button type="submit" class="btn-primary auth-submit-btn" id="btn-step2">Send Reset Details (रीसेट कोड भेजें)</button>
   </form>
 
   <!-- Success Message State -->
   <div id="success-state" style="display: none; text-align: center;">
     <div style="font-size: 3rem; margin-bottom: 15px;">✉️</div>
-    <h3 style="color: var(--success); margin-bottom: 10px;">OTP Sent Successfully!</h3>
-    <p id="success-text" style="color: var(--text-secondary); font-size: 0.95rem; line-height: 1.5; margin-bottom: 24px;"></p>
-    <a href="/reset-password/" class="btn-primary" style="display: inline-block; padding: 10px 20px; border-radius: var(--radius-sm); font-weight: bold; text-decoration: none; background: var(--accent); color: white; border: none;">Enter OTP (ओटीपी दर्ज करें)</a>
+    <h3 class="auth-title" style="margin-bottom: 10px;">OTP Sent Successfully!</h3>
+    <p id="success-text" class="auth-desc" style="margin-bottom: 24px;"></p>
+    <a href="/reset-password/" class="btn-primary auth-submit-btn" style="display: inline-block; text-decoration: none;">Enter OTP (ओटीपी दर्ज करें)</a>
   </div>
 
   <!-- Local Dev Debug Container -->
-  <div id="dev-debug-container" style="display: none; margin-top: 25px; padding: 15px; border: 1px dashed var(--warning); border-radius: 8px; background: rgba(245, 158, 11, 0.05); text-align: left;">
-    <h4 style="color: var(--warning); margin: 0 0 10px 0; font-size: 0.95rem;">⚠️ [Developer Mode] Local Details</h4>
-    <div style="font-size: 0.85rem; color: var(--text-secondary); line-height: 1.4;">
-      <strong>OTP Code:</strong> <code id="dev-otp-code" style="color: var(--warning); font-size: 1rem; font-weight: bold;"></code><br>
-      <strong>Reset Link:</strong> <a id="dev-reset-link" href="" style="color: var(--accent); word-break: break-all;"></a>
+  <div id="dev-debug-container" class="auth-dev-debug">
+    <h4 class="auth-dev-title">⚠️ [Developer Mode] Local Details</h4>
+    <div class="auth-dev-content">
+      <strong>OTP Code:</strong> <code id="dev-otp-code" class="auth-dev-code"></code><br>
+      <strong>Reset Link:</strong> <a id="dev-reset-link" href="" class="auth-dev-link"></a>
     </div>
   </div>
 
-  <div style="margin-top: 30px; border-top: 1px solid var(--border-color); padding-top: 15px; font-size: 0.9rem;">
-    <a href="/login/" style="color: var(--text-secondary); text-decoration: none; font-weight: 500;">← Back to Login</a>
+  <div class="auth-footer">
+    <a href="/login/" class="auth-back-link">← Back to Login</a>
   </div>
 </div>
 

@@ -47,71 +47,45 @@ permalink: /grammar/
 
 <div class="accordion">
 
-    <!-- Foundation -->
-    <div class="accordion-item">
-        <button class="accordion-btn">🟢 Foundation (नींव) <span class="icon">▼</span></button>
-        <div class="accordion-content"><div class="accordion-inner">
-            <ul class="topic-list">
-                <li><span class="topic-title"><span style="color: inherit;">Topic 01: Course Overview & Methodology</span> <span class="badge" style="background:#f59e0b; color:white;">Coming Later</span></span>
-                    <ul class="micro-topics"><li>कोर्स का परिचय और तरीका (Syllabus & Outcomes).</li></ul>
-                </li>
-                <li><span class="topic-title"><a href="/grammar/language-communication-grammar-foundation/" style="color: inherit; text-decoration: underline; display: inline-flex; align-items: center; gap: 8px;">Topic 02: Language, Communication & Grammar <span class="badge" style="background:#10b981; color:white;">Published</span></a></span>
-                    <ul class="micro-topics"><li>भाषा, संचार और व्याकरण की नींव। S-V-O Pattern.</li></ul>
-                </li>
-                <li><span class="topic-title"><a href="/grammar/alphabet-vowels-consonants-basics/" style="color: inherit; text-decoration: underline; display: inline-flex; align-items: center; gap: 8px;">Topic 03: Alphabet, Vowels, Consonants & Semi-Vowels <span class="badge" style="background:#10b981; color:white;">Published</span></a></span>
-                    <ul class="micro-topics"><li>वर्णमाला, स्वर, व्यंजन और सेमी-वोवेल्स (W, Y) का परिचय।</li></ul>
-                </li>
-                <li><span class="topic-title"><a href="/grammar/vowel-sounds/" style="color: inherit; text-decoration: underline; display: inline-flex; align-items: center; gap: 8px;">Topic 04: Vowel Sounds (Short, Long & Diphthongs) <span class="badge" style="background:#10b981; color:white;">Published</span></a></span>
-                    <ul class="micro-topics"><li>स्वर ध्वनियाँ (Short, Long, Diphthongs) और उनका मुँह के अंगों द्वारा सटीक उच्चारण विज्ञान।</li></ul>
-                </li>
-                <li><span class="topic-title"><a href="/grammar/consonant-sounds-pronunciation/" style="color: inherit; text-decoration: underline; display: inline-flex; align-items: center; gap: 8px;">Topic 05: Consonant Sounds & Silent Letters <span class="badge" style="background:#10b981; color:white;">Published</span></a></span>
-                    <ul class="micro-topics"><li>व्यंजन ध्वनियाँ, स्पेलिंग रूल्स, Hard/Soft C & G नियम और मूक अक्षर (Silent Letters)।</li></ul>
-                </li>
-                <li><span class="topic-title"><a href="/grammar/hindi-english-phonetics-comparison/" style="color: inherit; text-decoration: underline; display: inline-flex; align-items: center; gap: 8px;">Topic 06: Hindi vs English Phonetics Comparison <span class="badge" style="background:#10b981; color:white;">Published</span></a></span>
-                    <ul class="micro-topics"><li>हिंदी बनाम अंग्रेज़ी: उच्चारण का सम्पूर्ण तुलनात्मक विज्ञान और दोनों भाषाओं के अक्षरों का ध्वनि मिलान।</li></ul>
-                </li>
-                <li><span class="topic-title"><a href="/grammar/consonant-sounds-behavior/" style="color: inherit; text-decoration: underline; display: inline-flex; align-items: center; gap: 8px;">Topic 07: Consonant Sounds & Their Behavior <span class="badge" style="background:#10b981; color:white;">Published</span></a></span>
-                    <ul class="micro-topics"><li>व्यंजन ध्वनियों का सघोष (Voiced) और अघोष (Voiceless) व्यवहार तथा गले का कंपन परीक्षण।</li></ul>
-                </li>
-                <li><span class="topic-title"><a href="/grammar/consonants-plosives-fricatives/" style="color: inherit; text-decoration: underline; display: inline-flex; align-items: center; gap: 8px;">Topic 08: Plosives & Fricatives <span class="badge" style="background:#10b981; color:white;">Published</span></a></span>
-                    <ul class="micro-topics"><li>स्पर्श (Plosives) और संघर्षी (Fricatives) व्यंजन ध्वनियाँ और उनका सटीक उच्चारण।</li></ul>
-                </li>
-                <li><span class="topic-title"><a href="/grammar/punctuation-marks-hindi-english/" style="color: inherit; text-decoration: underline; display: inline-flex; align-items: center; gap: 8px;">Topic 09: Punctuation Marks A to Z <span class="badge" style="background:#10b981; color:white;">Published</span></a></span>
-                    <ul class="micro-topics"><li>विराम चिन्ह (Punctuation Marks) A to Z: हिंदी बनाम अंग्रेज़ी और Capital Letters के नियम।</li></ul>
-                </li>
-            </ul>
-        </div></div>
-    </div>
+{% set modules = collections.grammar | groupby("data.module") %}
 
-    <!-- Parts of Speech -->
-    <div class="accordion-item">
-        <button class="accordion-btn">🟡 Parts of Speech (शब्द भेद) <span class="icon">▼</span></button>
-        <div class="accordion-content"><div class="accordion-inner">
-            <ul class="topic-list">
-                <li><span class="topic-title"><span style="color: inherit;">Topic 10: Noun (संज्ञा) & Its Types</span> <span class="badge" style="background:#f59e0b; color:white;">Coming Later</span></span>
-                    <ul class="micro-topics"><li>व्यक्तियों, स्थानों और चीज़ों के नाम का लॉजिक।</li></ul>
-                </li>
-                <li><span class="topic-title"><span style="color: inherit;">Topic 11: Pronoun (सर्वनाम)</span> <span class="badge" style="background:#f59e0b; color:white;">Coming Later</span></span>
-                    <ul class="micro-topics"><li>बार-बार नाम दोहराने से बचने का तरीका।</li></ul>
-                </li>
-            </ul>
-        </div></div>
-    </div>
+{# Define the order and labels for the modules #}
+{% set moduleOrder = [
+  { name: 'Foundation', label: '🟢 Foundation (नींव)' },
+  { name: 'Parts of Speech', label: '🟡 Parts of Speech (शब्द भेद)' },
+  { name: 'Tenses & Sentences', label: '🔵 Tenses & Sentences (काल और वाक्य)' }
+] %}
 
-    <!-- Tenses & Sentences -->
+{% for mod in moduleOrder %}
+  {% set items = modules[mod.name] %}
+  {% if items and items.length > 0 %}
     <div class="accordion-item">
-        <button class="accordion-btn">🔵 Tenses & Sentences (काल और वाक्य) <span class="icon">▼</span></button>
+        <button class="accordion-btn">{{ mod.label }} <span class="icon">▼</span></button>
         <div class="accordion-content"><div class="accordion-inner">
             <ul class="topic-list">
-                <li><span class="topic-title"><span style="color: inherit;">Topic 12: Introduction to Tenses</span> <span class="badge" style="background:#f59e0b; color:white;">Coming Later</span></span>
-                    <ul class="micro-topics"><li>समय और काम (Time & Action) का सही तालमेल।</li></ul>
+              {% for item in items %}
+                <li>
+                  <span class="topic-title">
+                    {% if item.data.published == false %}
+                      <span style="color: inherit;">{{ item.data.title }}</span>
+                      <span class="badge" style="background:#f59e0b; color:white;">Coming Later</span>
+                    {% else %}
+                      <a href="{{ item.url }}" style="color: inherit; text-decoration: underline; display: inline-flex; align-items: center; gap: 8px;">
+                        {{ item.data.title }}
+                        <span class="badge" style="background:#10b981; color:white;">Published</span>
+                      </a>
+                    {% endif %}
+                  </span>
+                  {% if item.data.description %}
+                    <ul class="micro-topics"><li>{{ item.data.description }}</li></ul>
+                  {% endif %}
                 </li>
-                <li><span class="topic-title"><span style="color: inherit;">Topic 13: Simple Present Tense</span> <span class="badge" style="background:#f59e0b; color:white;">Coming Later</span></span>
-                    <ul class="micro-topics"><li>आदतें, रूटीन और यूनिवर्सल सच बताना सीखें।</li></ul>
-                </li>
+              {% endfor %}
             </ul>
         </div></div>
     </div>
+  {% endif %}
+{% endfor %}
 
 </div>
 

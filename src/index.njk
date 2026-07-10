@@ -11,11 +11,11 @@ schemaJson: |
     "url": "https://englishvidya.com",
     "logo": "https://englishvidya.com/assets/icons/icon-192.png",
     "sameAs": [
-      "https://youtube.com/@englishvidyahq",
-      "https://facebook.com/EnglishVidyaHq",
-      "https://instagram.com/EnglishVidyaHq",
-      "https://x.com/EnglishVidyaHq",
-      "https://whatsapp.com/channel/0029VbCnmPe0VycPXCmBBH43"
+      "{{ site.youtubeChannel }}",
+      "{{ site.facebookPage }}",
+      "{{ site.instagramPage }}",
+      "{{ site.twitterPage }}",
+      "{{ site.whatsappChannel | default('https://wa.me/917070133396') }}"
     ]
   }
 ---
@@ -430,7 +430,7 @@ schemaJson: |
     
     <!-- 1. Grammar Card -->
     <div class="portal-card" id="card-grammar">
-        <div class="portal-header" onclick="toggleCard('card-grammar', event)">
+        <div class="portal-header" role="button" tabindex="0" aria-expanded="false" onclick="toggleCard('card-grammar', event)" onkeydown="if(event.key==='Enter'||event.key===' ') { toggleCard('card-grammar', event); event.preventDefault(); }">
             <div class="portal-title-area">
                 <span class="portal-badge">Level 1 - 5</span>
                 <h3>Learn Grammar from Basic</h3>
@@ -453,7 +453,7 @@ schemaJson: |
 
     <!-- 2. Class 12th Card -->
     <div class="portal-card" id="card-class-12">
-        <div class="portal-header" onclick="toggleCard('card-class-12', event)">
+        <div class="portal-header" role="button" tabindex="0" aria-expanded="false" onclick="toggleCard('card-class-12', event)" onkeydown="if(event.key==='Enter'||event.key===' ') { toggleCard('card-class-12', event); event.preventDefault(); }">
             <div class="portal-title-area">
                 <span class="portal-badge">BSEB Class 12</span>
                 <h3>BSEB Class 12th English</h3>
@@ -476,7 +476,7 @@ schemaJson: |
 
     <!-- 3. Class 10th Card -->
     <div class="portal-card" id="card-class-10">
-        <div class="portal-header" onclick="toggleCard('card-class-10', event)">
+        <div class="portal-header" role="button" tabindex="0" aria-expanded="false" onclick="toggleCard('card-class-10', event)" onkeydown="if(event.key==='Enter'||event.key===' ') { toggleCard('card-class-10', event); event.preventDefault(); }">
             <div class="portal-title-area">
                 <span class="portal-badge">BSEB Class 10</span>
                 <h3>BSEB Class 10th English</h3>
@@ -500,7 +500,7 @@ schemaJson: |
 
     <!-- 4. Word Meaning Card -->
     <div class="portal-card" id="card-dictionary">
-        <div class="portal-header" onclick="toggleCard('card-dictionary', event)">
+        <div class="portal-header" role="button" tabindex="0" aria-expanded="false" onclick="toggleCard('card-dictionary', event)" onkeydown="if(event.key==='Enter'||event.key===' ') { toggleCard('card-dictionary', event); event.preventDefault(); }">
             <div class="portal-title-area">
                 <span class="portal-badge">Dictionary & Vocab</span>
                 <h3>Word Meaning & Vocabulary</h3>
@@ -537,22 +537,24 @@ schemaJson: |
 <!-- Expand/Collapse Controller Script -->
 <script>
 function toggleCard(cardId, event) {
-    // If the click was on a link inside the header, do not toggle
-    if (event.target.tagName.toLowerCase() === 'a') {
+    if (event.target.tagName.toLowerCase() === 'a' || event.target.closest('a')) {
         return;
     }
-    
     const card = document.getElementById(cardId);
+    const header = card.querySelector('.portal-header');
     const wasExpanded = card.classList.contains('is-expanded');
     
     // Collapse all cards first for a clean accordion style
     document.querySelectorAll('.portal-card').forEach(c => {
         c.classList.remove('is-expanded');
+        const h = c.querySelector('.portal-header');
+        if (h) h.setAttribute('aria-expanded', 'false');
     });
-    
+
     // Toggle the clicked card
     if (!wasExpanded) {
         card.classList.add('is-expanded');
+        if (header) header.setAttribute('aria-expanded', 'true');
     }
 }
 

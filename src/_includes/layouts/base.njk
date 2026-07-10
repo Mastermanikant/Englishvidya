@@ -28,6 +28,8 @@
   <meta property="og:title" content="{{ pageTitle or title or site.siteName }}">
   <meta property="og:description" content="{{ metaDescription or description or site.siteDescription }}">
   <meta property="og:url" content="{{ site.canonicalBase }}{{ page.url }}">
+  <meta property="og:locale" content="{{ htmlLang or 'hi_IN' }}">
+  <link rel="alternate" hreflang="{{ htmlLang or 'hi' }}" href="{{ site.canonicalBase }}{{ page.url }}">
   <meta property="og:image" content="{{ ogImage or site.ogImage }}">
   <meta property="og:site_name" content="{{ site.siteName }}">
   <meta name="twitter:card" content="summary_large_image">
@@ -100,7 +102,8 @@
 </head>
 
 <body>
-  {# ── Scroll Progress Bar ── #}
+  <a href="#app-content" class="skip-link">Skip to main content</a>
+  {# ✨ Scroll Progress Bar ✨ #}
   <div class="scroll-progress-track" aria-hidden="true">
     <div class="scroll-progress-bar" id="scroll-progress"></div>
   </div>
@@ -131,71 +134,59 @@
   <script src="/js/toast.js?v=2.0.8" defer></script>
   <script src="/js/app.js?v=2.0.8" defer></script>
   <script src="/js/heartbeat.js?v=2.0.8" defer></script>
-  <script src="/js/home-redesign.js?v=2.0.8" defer></script>
-  <script src="/js/alpine.min.js" defer></script>
-  <script src="/js/fuse.js" defer></script>
-  <script src="/js/search.js?v=2.0.8" defer></script>
-  <script src="/js/bookmarks.js?v=2.0.8" defer></script>
-  <script src="/js/diary.js?v=2.0.8" defer></script>
   <script src="/js/auth-ui.js?v=2.0.8" defer></script>
+  <script src="/js/bookmarks.js?v=2.0.8" defer></script>
+  <script src="/js/alpine.min.js" defer></script>
+
+  {% if page.url == '/' %}
+  <script src="/js/home-redesign.js?v=2.0.8" defer></script>
+  {% endif %}
+
+  {% if '/my-diary' in page.url %}
+  <script src="/js/diary.js?v=2.0.8" defer></script>
+  {% endif %}
+
+  {% if '/grammar' in page.url or '/meaning' in page.url or '/article' in page.url %}
   <script src="/js/community.js?v=2.0.8" defer></script>
+  {% endif %}
+
+  <script>
+    // Lazy Load Search
+    document.addEventListener('DOMContentLoaded', () => {
+      const searchTriggerBtns = document.querySelectorAll('#search-trigger-btn');
+      let searchLoaded = false;
+      
+      searchTriggerBtns.forEach(btn => {
+        btn.addEventListener('click', function loadSearch(e) {
+          e.preventDefault();
+          if (searchLoaded) return;
+          searchLoaded = true;
+          
+          const fuseScript = document.createElement('script');
+          fuseScript.src = '/js/fuse.js';
+          fuseScript.defer = true;
+          document.body.appendChild(fuseScript);
+          
+          const searchScript = document.createElement('script');
+          searchScript.src = '/js/search.js?v=2.0.8';
+          searchScript.defer = true;
+          fuseScript.onload = () => {
+            document.body.appendChild(searchScript);
+            searchScript.onload = () => {
+              if (window.openSearch) {
+                window.openSearch();
+              }
+            };
+          };
+        });
+      });
+    });
+  </script>
+
   {{ extraScripts | safe }}
 
   {# ── PWA Service Worker Registration & Update Notification ── #}
-  <style>
-    #toast-container {
-      position: fixed;
-      bottom: 90px;
-      right: 20px;
-      z-index: 9999;
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-      pointer-events: none;
-    }
-    .update-toast {
-      background: linear-gradient(135deg, rgba(15, 23, 42, 0.95), rgba(30, 41, 59, 0.95));
-      backdrop-filter: blur(10px);
-      -webkit-backdrop-filter: blur(10px);
-      border: 1px solid rgba(255, 255, 255, 0.1);
-      color: #fff;
-      padding: 14px 22px;
-      border-radius: 12px;
-      box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.4), 0 8px 10px -6px rgba(0, 0, 0, 0.4);
-      font-weight: 500;
-      display: flex;
-      align-items: center;
-      gap: 16px;
-      animation: swSlideUp 0.35s cubic-bezier(0.16, 1, 0.3, 1) forwards;
-      pointer-events: auto;
-      max-width: 380px;
-      font-family: var(--font-sans, system-ui, -apple-system, sans-serif);
-    }
-    .update-toast button {
-      background: linear-gradient(135deg, var(--accent, #38bdf8), #0284c7);
-      color: #fff;
-      border: none;
-      padding: 8px 16px;
-      border-radius: 8px;
-      cursor: pointer;
-      font-weight: 700;
-      font-size: 0.9rem;
-      box-shadow: 0 4px 12px rgba(56, 189, 248, 0.3);
-      transition: all 0.2s ease;
-      white-space: nowrap;
-    }
-    .update-toast button:hover {
-      transform: translateY(-1px);
-      box-shadow: 0 6px 16px rgba(56, 189, 248, 0.4);
-    }
-    .update-toast button:active {
-      transform: translateY(1px);
-    }
-    @keyframes swSlideUp {
-      from { transform: translateY(30px); opacity: 0; }
-      to { transform: translateY(0); opacity: 1; }
-    }
-  </style>
+
   <script>
     (function() {
       let refreshing = false;
@@ -302,155 +293,17 @@
   </script>
 
   {# ── Text Scaling Widget & Teacher Mode ── #}
-  <style>
-    @media (max-width: 768px) {
-      .text-scaler-widget {
-        bottom: calc(85px + env(safe-area-inset-bottom, 0px));
-        right: 16px;
-      }
-    }
-    body.presenter-mode {
-      padding-top: 0 !important;
-      padding-bottom: 0 !important;
-    }
-    body.presenter-mode .app-header, 
-    body.presenter-mode .site-footer, 
-    body.presenter-mode .bottom-nav,
-    body.presenter-mode .breadcrumb { display: none !important; }
-    body.presenter-mode .app-main { 
-      max-width: 96% !important; 
-      padding: 40px 20px !important; 
-      margin: 0 auto !important; 
-    }
-    
-    /* ── Floating Watermark (Teacher Mode) ── */
-    #ev-watermark {
-      display: none;
-      position: fixed;
-      font-size: 3rem;
-      font-weight: 900;
-      color: var(--text-color);
-      pointer-events: none;
-      z-index: 9999;
-      user-select: none;
-      white-space: nowrap;
-    }
-    body.presenter-mode #ev-watermark {
-      display: block;
-      animation: float-watermark 25s infinite linear, pulse-watermark 6s infinite alternate;
-    }
-    @keyframes float-watermark {
-      0%   { top: 10%; left: 10%; transform: rotate(-10deg); }
-      25%  { top: 80%; left: 30%; transform: rotate(5deg); }
-      50%  { top: 60%; left: 70%; transform: rotate(-5deg); }
-      75%  { top: 20%; left: 60%; transform: rotate(10deg); }
-      100% { top: 10%; left: 10%; transform: rotate(-10deg); }
-    }
-    @keyframes pulse-watermark {
-      0%   { opacity: 0.02; }
-      100% { opacity: 0.06; }
-    }
 
-    /* ── Freezing Text Scaler Size under Zoom ── */
-    .text-scaler-widget,
-    .text-scaler-widget * {
-      box-sizing: border-box !important;
-    }
-    
-    .text-scaler-panel {
-      border-radius: 20px !important;
-      padding: 12px 14px !important;
-      width: 230px !important;
-      margin-left: 10px !important;
-      flex-direction: column !important;
-      gap: 10px !important;
-    }
-    
-    .text-scaler-widget {
-      font-size: 14px !important;
-    }
-    
-    .text-scaler-toggle {
-      width: 48px !important;
-      height: 48px !important;
-      font-size: 18px !important;
-      font-family: var(--font-heading) !important;
-    }
-    
-    .text-scaler-panel .zoom-btn {
-      color: var(--text-primary) !important;
-      background: none !important;
-      border: none !important;
-      cursor: pointer !important;
-      font-size: 14px !important;
-    }
-    
-    .text-scaler-panel .zoom-btn:hover {
-      color: var(--accent) !important;
-    }
-    
-    .text-scaler-panel .action-btn {
-      transition: all 0.2s ease !important;
-    }
-    .text-scaler-panel .action-btn:hover {
-      background: var(--bg-active) !important;
-      border-color: var(--accent) !important;
-    }
-    .text-scaler-panel .action-btn:active {
-      transform: scale(0.95) !important;
-    }
-    
-    .text-scaler-panel .reset-btn {
-      font-size: 12px !important;
-      border-radius: 8px !important;
-    }
-    
-    .text-scaler-panel .hide-btn {
-      color: var(--text-tertiary) !important;
-      background: transparent !important;
-      font-size: 14px !important;
-    }
-    .text-scaler-panel .hide-btn:hover {
-      color: var(--error) !important;
-    }
-    
-    /* Small warning countdown timer for ad-free pass */
-    #ad-free-warning-timer {
-      position: fixed;
-      top: 10px;
-      right: 10px;
-      background: rgba(220, 38, 38, 0.95);
-      color: white;
-      padding: 6px 12px;
-      border-radius: 8px;
-      font-family: monospace;
-      font-size: 13px;
-      font-weight: bold;
-      z-index: 10000;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
-      animation: timerPulse 1s infinite alternate;
-      pointer-events: none;
-      display: flex;
-      align-items: center;
-      gap: 6px;
-      border: 1px solid rgba(255,255,255,0.2);
-    }
-    
-    @keyframes timerPulse {
-      from { opacity: 0.85; transform: scale(0.98); }
-      to { opacity: 1; transform: scale(1); }
-    }
-  </style>
 
   <div id="ev-watermark" aria-hidden="true">EnglishVidya.com</div>
 
-  <div id="screen-dimmer" style="position: fixed; top: 0; left: 0; right: 0; bottom: 0; background-color: rgba(0,0,0,0); pointer-events: none; z-index: 9998; transition: background-color 0.3s ease;"></div>
+  <div id="screen-dimmer" class="screen-dimmer-overlay"></div>
 
   <div id="text-scaler-widget" class="text-scaler-widget" style="display: none; touch-action: none;" role="region" aria-label="Text Size Adjustment">
     <button id="text-scaler-toggle" class="text-scaler-toggle" aria-label="Adjust text size" aria-expanded="false">
       Aa
     </button>
-    <div id="text-scaler-panel" class="text-scaler-panel" aria-hidden="true" style="display: flex; flex-direction: column; gap: 10px; width: 230px;">
+    <div id="text-scaler-panel" class="text-scaler-panel" aria-hidden="true" style="display: flex;">
       <!-- Zoom Control -->
       <div style="display: flex; flex-direction: column; gap: 4px; width: 100%;">
         <div style="display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: var(--text-secondary);">
@@ -458,9 +311,9 @@
           <span id="text-scaler-value" class="panel-value" style="font-weight: 700; color: var(--accent); min-width: auto; text-align: right;">100%</span>
         </div>
         <div style="display: flex; gap: 6px; align-items: center; justify-content: space-between; width: 100%;">
-          <button id="text-scaler-dec" class="zoom-btn" aria-label="Decrease text size" style="background: none; border: none; color: var(--text-primary); cursor: pointer; font-size: 12px; font-weight: bold; padding: 4px 6px;">A-</button>
+          <button id="text-scaler-dec" class="zoom-btn" aria-label="Decrease text size">A-</button>
           <input type="range" id="text-zoom-slider" min="50" max="200" step="10" value="100" style="flex: 1; cursor: pointer; accent-color: var(--accent); height: 6px; border-radius: 3px;">
-          <button id="text-scaler-inc" class="zoom-btn" aria-label="Increase text size" style="background: none; border: none; color: var(--text-primary); cursor: pointer; font-size: 16px; font-weight: bold; padding: 4px 6px;">A+</button>
+          <button id="text-scaler-inc" class="zoom-btn" aria-label="Increase text size" style="font-size: 16px !important;">A+</button>
         </div>
       </div>
       
@@ -479,8 +332,8 @@
       <!-- Actions -->
       <div style="display: flex; gap: 6px; border-top: 1px solid var(--border); padding-top: 8px; align-items: center; justify-content: space-between; width: 100%;">
         <button id="teacher-fullscreen" class="action-btn" aria-label="Teacher Full Screen" title="Teacher Full Screen" style="background: var(--accent); color: white; border: none; width: 32px; height: 32px; border-radius: 8px; font-weight: bold; font-size: 16px; display: flex; align-items: center; justify-content: center; cursor: pointer;">⛶</button>
-        <button id="text-scaler-reset" class="action-btn reset-btn" style="flex: 1; height: 32px; font-size: 12px; border-radius: 8px; background: var(--bg-hover); color: var(--text-primary); border: 1px solid var(--border); cursor: pointer; font-weight: 600;" title="Reset text size">Reset</button>
-        <button id="text-scaler-hide" class="action-btn hide-btn" style="width: 32px; height: 32px; font-size: 14px; border-radius: 8px; background: transparent; border: none; color: var(--text-tertiary); cursor: pointer; display: flex; align-items: center; justify-content: center;" title="Hide this widget">✕</button>
+        <button id="text-scaler-reset" class="action-btn reset-btn" style="flex: 1; height: 32px; background: var(--bg-hover); color: var(--text-primary); border: 1px solid var(--border); cursor: pointer; font-weight: 600;" title="Reset text size">Reset</button>
+        <button id="text-scaler-hide" class="action-btn hide-btn" style="width: 32px; height: 32px; display: flex; align-items: center; justify-content: center;" title="Hide this widget">✕</button>
       </div>
     </div>
   </div>
@@ -572,16 +425,23 @@
         if (isPresenterMode) {
           document.body.classList.add('presenter-mode');
           localStorage.setItem('ev-presenter-mode', 'true');
-          // Request native browser fullscreen
-          if (document.documentElement.requestFullscreen) {
-            document.documentElement.requestFullscreen().catch(err => console.log(err));
+          const elem = document.documentElement;
+          if (elem.requestFullscreen) {
+            elem.requestFullscreen().catch(err => console.log(err));
+          } else if (elem.webkitRequestFullscreen) {
+            elem.webkitRequestFullscreen();
+          } else if (elem.msRequestFullscreen) {
+            elem.msRequestFullscreen();
           }
         } else {
           document.body.classList.remove('presenter-mode');
           localStorage.setItem('ev-presenter-mode', 'false');
-          // Exit native browser fullscreen
           if (document.exitFullscreen && document.fullscreenElement) {
             document.exitFullscreen().catch(err => console.log(err));
+          } else if (document.webkitExitFullscreen && document.webkitFullscreenElement) {
+            document.webkitExitFullscreen();
+          } else if (document.msExitFullscreen && document.msFullscreenElement) {
+            document.msExitFullscreen();
           }
         }
       });
@@ -628,7 +488,14 @@
 
       decBtn.addEventListener('click', () => setScale(currentScale - 0.1));
       incBtn.addEventListener('click', () => setScale(currentScale + 0.1));
-      resetBtn.addEventListener('click', () => setScale(1.0));
+      resetBtn.addEventListener('click', () => {
+        setScale(1.0);
+        if (dimmerSlider && screenDimmer) {
+          dimmerSlider.value = 0;
+          screenDimmer.style.backgroundColor = 'rgba(0, 0, 0, 0)';
+          localStorage.setItem('ev-screen-dimmer', '0');
+        }
+      });
       hideBtn.addEventListener('click', () => {
         if (toggle.getAttribute('aria-expanded') === 'true') {
           togglePanelState();
@@ -683,7 +550,7 @@
       let isDragging = false;
       let startX, startY;
       let initialLeft, initialTop;
-      let dragThreshold = 6;
+      let dragThreshold = 10;
 
       function onStart(e) {
         const clientX = e.type.startsWith('touch') ? e.touches[0].clientX : e.clientX;
@@ -717,8 +584,9 @@
         
         const dx = clientX - startX;
         const dy = clientY - startY;
+        const dist = Math.sqrt(dx * dx + dy * dy);
         
-        if (!isDragging && (Math.abs(dx) > dragThreshold || Math.abs(dy) > dragThreshold)) {
+        if (!isDragging && dist > dragThreshold) {
           isDragging = true;
         }
         
@@ -763,7 +631,10 @@
       }
 
       toggle.addEventListener('mousedown', onStart);
-      toggle.addEventListener('touchstart', onStart, { passive: true });
+      toggle.addEventListener('touchstart', (e) => {
+        // Only trigger onStart if the target isn't a child element with its own logic
+        onStart(e);
+      }, { passive: true });
     });
   </script>
   <!-- Global Annotation Tool Trigger (Lazy Loaded) -->

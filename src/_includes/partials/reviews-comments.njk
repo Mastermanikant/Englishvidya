@@ -19,12 +19,12 @@
     
     <div style="display: flex; justify-content: space-between; align-items: center; border-top: 1px solid var(--border-subtle); padding-top: var(--sp-3);">
       
-      <div class="star-rating-input" style="display: flex; gap: 4px; font-size: 1.5rem; color: var(--border); cursor: pointer;">
-        <span class="rating-star" data-value="1">★</span>
-        <span class="rating-star" data-value="2">★</span>
-        <span class="rating-star" data-value="3">★</span>
-        <span class="rating-star" data-value="4">★</span>
-        <span class="rating-star" data-value="5">★</span>
+      <div class="star-rating-input" role="radiogroup" aria-label="Rate this word" style="display: flex; gap: 4px; font-size: 1.5rem; color: var(--border); cursor: pointer;">
+        <button type="button" role="radio" aria-checked="false" aria-label="1 Star" class="rating-star" data-value="1" style="background:none;border:none;padding:0;color:inherit;cursor:pointer;font-size:inherit;">★</button>
+        <button type="button" role="radio" aria-checked="false" aria-label="2 Stars" class="rating-star" data-value="2" style="background:none;border:none;padding:0;color:inherit;cursor:pointer;font-size:inherit;">★</button>
+        <button type="button" role="radio" aria-checked="false" aria-label="3 Stars" class="rating-star" data-value="3" style="background:none;border:none;padding:0;color:inherit;cursor:pointer;font-size:inherit;">★</button>
+        <button type="button" role="radio" aria-checked="false" aria-label="4 Stars" class="rating-star" data-value="4" style="background:none;border:none;padding:0;color:inherit;cursor:pointer;font-size:inherit;">★</button>
+        <button type="button" role="radio" aria-checked="false" aria-label="5 Stars" class="rating-star" data-value="5" style="background:none;border:none;padding:0;color:inherit;cursor:pointer;font-size:inherit;">★</button>
       </div>
 
       <button id="post-comment-btn" class="btn-primary" style="padding: var(--sp-2) var(--sp-4); font-size: 0.9rem;">

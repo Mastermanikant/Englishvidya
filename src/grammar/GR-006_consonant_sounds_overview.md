@@ -1,7 +1,11 @@
 ---
+
 layout: layouts/article.njk
 title: "व्यंजन ध्वनियाँ और उनका व्यवहार (Consonant Sounds & Their Behavior)"
 permalink: /grammar/consonant-sounds-behavior/
+module: "Foundation"
+topicNumber: 7
+description: "व्यंजन ध्वनियों का सघोष (Voiced) और अघोष (Voiceless) व्यवहार तथा गले का कंपन परीक्षण।"
 ---
 # Article 06 — व्यंजन ध्वनियाँ और उनका व्यवहार (Consonant Sounds & Their Behavior)
 

@@ -1,3 +1,5 @@
+import { hashPasswordPBKDF2, hashSHA256 } from './_shared/auth-utils.js';
+
 export async function onRequestGet(context) {
   const { request, env } = context;
   const url = new URL(request.url);
@@ -66,7 +68,7 @@ export async function onRequestGet(context) {
     });
 
   } catch (err) {
-    return Response.json({ error: 'Server error: ' + err.message }, { status: 500 });
+    return Response.json({ error: 'Something went wrong. Please try again later.' }, { status: 500 });
   }
 }
 
@@ -140,12 +142,8 @@ export async function onRequestPost(context) {
       const dbQ = dbQuestions.find(dq => dq.question.trim().toLowerCase() === cleanInputQ);
       if (!dbQ || !dbQ.answer_hash) continue;
 
-      // Hash input answer using SHA-256
-      const encoder = new TextEncoder();
-      const data = encoder.encode(cleanInputA);
-      const hashBuffer = await crypto.subtle.digest('SHA-256', data);
-      const hashArray = Array.from(new Uint8Array(hashBuffer));
-      const inputHash = hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+      // Hash input answer using shared SHA-256
+      const inputHash = await hashSHA256(cleanInputA);
 
       if (inputHash === dbQ.answer_hash) {
         matchedCount++;
@@ -187,23 +185,6 @@ export async function onRequestPost(context) {
     return Response.json({ success: true, message: 'आपका पासवर्ड सफलतापूर्वक बदल दिया गया है! अब आप लॉगिन कर सकते हैं।' });
 
   } catch (err) {
-    return Response.json({ error: 'Server error: ' + err.message }, { status: 500 });
+    return Response.json({ error: 'Something went wrong. Please try again later.' }, { status: 500 });
   }
-}
-
-// --- PBKDF2 Hashing Helpers ---
-async function hashPasswordPBKDF2(password) {
-  const salt = crypto.getRandomValues(new Uint8Array(16));
-  const keyMaterial = await crypto.subtle.importKey(
-    'raw', new TextEncoder().encode(password),
-    { name: 'PBKDF2' }, false, ['deriveBits']
-  );
-  const derivedBits = await crypto.subtle.deriveBits(
-    { name: 'PBKDF2', salt: salt, iterations: 100000, hash: 'SHA-256' },
-    keyMaterial,
-    512
-  );
-  const saltHex = Array.from(salt).map(b => b.toString(16).padStart(2, '0')).join('');
-  const hashHex = Array.from(new Uint8Array(derivedBits)).map(b => b.toString(16).padStart(2, '0')).join('');
-  return `${saltHex}:${hashHex}`;
 }

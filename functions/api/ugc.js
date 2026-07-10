@@ -3,13 +3,17 @@ export async function onRequestGet(context) {
   const slug = url.searchParams.get('slug');
   if (!slug) return Response.json({ error: 'slug required' }, { status: 400 });
 
+  const limit = Math.min(parseInt(url.searchParams.get('limit') || '20', 10), 100);
+  const offset = Math.max(parseInt(url.searchParams.get('offset') || '0', 10), 0);
+
   const meanings = await context.env.DB.prepare(
     `SELECT u.id, u.meaning_text, u.region, u.upvotes, u.downvotes, u.status, u.created_at, users.name, users.trust_score
      FROM ugc_meanings u
      JOIN users ON u.user_id = users.id
      WHERE u.word_slug = ? AND u.status != 'banned' AND u.status != 'deleted'
-     ORDER BY u.upvotes DESC, u.created_at DESC`
-  ).bind(slug).all();
+     ORDER BY u.upvotes DESC, u.created_at DESC
+     LIMIT ? OFFSET ?`
+  ).bind(slug, limit, offset).all();
 
   return Response.json(meanings.results);
 }
@@ -28,6 +32,14 @@ export async function onRequestPost(context) {
   if (action === 'add') {
     if (!meaning_text || meaning_text.trim() === '') {
       return Response.json({ error: 'Meaning text required' }, { status: 400 });
+    }
+
+    if (meaning_text.length > 1000) {
+      return Response.json({ error: 'योगदान १००० अक्षरों से कम होना चाहिए।' }, { status: 400 });
+    }
+
+    if (region && region.length > 100) {
+      return Response.json({ error: 'क्षेत्र १०० अक्षरों से कम होना चाहिए।' }, { status: 400 });
     }
 
     // Rate Limiting: 1 submission every 15 seconds

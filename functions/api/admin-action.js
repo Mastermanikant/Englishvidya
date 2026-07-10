@@ -1,3 +1,5 @@
+import { hashPasswordPBKDF2 } from './_shared/auth-utils.js';
+
 export async function onRequestPost(context) {
   const { request, env, data } = context;
   const user = data.user;
@@ -17,6 +19,11 @@ export async function onRequestPost(context) {
       return new Response('Invalid payload', { status: 400 });
     }
 
+    const parsedId = parseInt(id, 10);
+    if (isNaN(parsedId)) {
+      return new Response('Invalid ID format', { status: 400 });
+    }
+
     let statusToSet = '';
     if (action === 'approve') statusToSet = 'approved';
     else if (action === 'reject') statusToSet = 'deleted';
@@ -28,9 +35,9 @@ export async function onRequestPost(context) {
     if (type === 'ugc') {
       await env.DB.prepare(
         'UPDATE ugc_meanings SET status = ?, action_by_id = ?, action_at = ? WHERE id = ?'
-      ).bind(statusToSet, user.id, now, id).run();
+      ).bind(statusToSet, user.id, now, parsedId).run();
     } else if (type === 'link') {
-      const comment = await env.DB.prepare('SELECT reference_links FROM comments WHERE id = ?').bind(id).first();
+      const comment = await env.DB.prepare('SELECT reference_links FROM comments WHERE id = ?').bind(parsedId).first();
       if (comment) {
         let refs = JSON.parse(comment.reference_links || '[]');
         // We approve or reject ALL pending links for this comment id. 
@@ -43,14 +50,14 @@ export async function onRequestPost(context) {
         });
         await env.DB.prepare(
           'UPDATE comments SET reference_links = ? WHERE id = ?'
-        ).bind(JSON.stringify(refs), id).run();
+        ).bind(JSON.stringify(refs), parsedId).run();
       }
     } else if (type === 'comment') {
       // Comments don't really have 'approve' by default unless moderated. 
       // But we can 'reject' (soft delete) them.
       await env.DB.prepare(
         'UPDATE comments SET status = ?, action_by_id = ?, action_at = ? WHERE id = ?'
-      ).bind(statusToSet, user.id, now, id).run();
+      ).bind(statusToSet, user.id, now, parsedId).run();
     } else if (type === 'user' && action === 'approve_delete') {
       // Soft Delete: Anonymize user data
       await env.DB.prepare(`
@@ -71,28 +78,36 @@ export async function onRequestPost(context) {
           social_website2 = '',
           delete_requested_at = 'anonymized'
         WHERE id = ?
-      `).bind(id).run();
+      `).bind(parsedId).run();
       return Response.json({ success: true, newStatus: 'anonymized' });
     } else if (type === 'user_trust') {
       const { trust_score } = body;
       if (trust_score === undefined) {
         return new Response('Missing trust_score', { status: 400 });
       }
-      await env.DB.prepare('UPDATE users SET trust_score = ? WHERE id = ?').bind(trust_score, id).run();
-      return Response.json({ success: true, newStatus: trust_score });
+      const parsedScore = parseInt(trust_score, 10);
+      if (isNaN(parsedScore) || parsedScore < 0 || parsedScore > 100) {
+        return new Response('Invalid trust_score (must be 0-100)', { status: 400 });
+      }
+      await env.DB.prepare('UPDATE users SET trust_score = ? WHERE id = ?').bind(parsedScore, parsedId).run();
+      return Response.json({ success: true, newStatus: parsedScore });
     } else if (type === 'user_shadow_ban') {
       const { is_shadow_banned } = body;
       if (is_shadow_banned === undefined) {
         return new Response('Missing is_shadow_banned', { status: 400 });
       }
-      await env.DB.prepare('UPDATE users SET is_shadow_banned = ? WHERE id = ?').bind(is_shadow_banned, id).run();
+      await env.DB.prepare('UPDATE users SET is_shadow_banned = ? WHERE id = ?').bind(is_shadow_banned, parsedId).run();
       return Response.json({ success: true, newStatus: is_shadow_banned });
     } else if (type === 'ticket_status') {
       const { status } = body;
       if (status === undefined) {
         return new Response('Missing status', { status: 400 });
       }
-      await env.DB.prepare('UPDATE support_tickets SET status = ?, updated_at = datetime("now") WHERE id = ?').bind(status, id).run();
+      const allowedStatus = ['open', 'closed', 'resolved', 'pending'];
+      if (!allowedStatus.includes(status)) {
+        return new Response('Invalid status', { status: 400 });
+      }
+      await env.DB.prepare('UPDATE support_tickets SET status = ?, updated_at = datetime("now") WHERE id = ?').bind(status, parsedId).run();
       return Response.json({ success: true, newStatus: status });
     } else if (type === 'admin_reset_user_password') {
       const { newPassword } = body;
@@ -101,7 +116,7 @@ export async function onRequestPost(context) {
       }
 
       // Fetch user's admin reset requested at
-      const targetUser = await env.DB.prepare('SELECT admin_reset_requested_at FROM users WHERE id = ?').bind(id).first();
+      const targetUser = await env.DB.prepare('SELECT admin_reset_requested_at FROM users WHERE id = ?').bind(parsedId).first();
       if (!targetUser) {
         return Response.json({ success: false, error: 'यूज़र नहीं मिला।' }, { status: 404 });
       }
@@ -133,7 +148,7 @@ export async function onRequestPost(context) {
              reset_attempts = 0 
          WHERE id = ?`
       )
-        .bind(password_hash, id)
+        .bind(password_hash, parsedId)
         .run();
 
       return Response.json({ success: true, message: 'पासवर्ड सफलतापूर्वक बदल दिया गया है!' });
@@ -143,22 +158,6 @@ export async function onRequestPost(context) {
 
     return Response.json({ success: true, newStatus: statusToSet });
   } catch (err) {
-    return new Response('Server Error: ' + err.message, { status: 500 });
+    return new Response('Something went wrong. Please try again later.', { status: 500 });
   }
-}
-
-async function hashPasswordPBKDF2(password) {
-  const salt = crypto.getRandomValues(new Uint8Array(16));
-  const keyMaterial = await crypto.subtle.importKey(
-    'raw', new TextEncoder().encode(password),
-    { name: 'PBKDF2' }, false, ['deriveBits']
-  );
-  const derivedBits = await crypto.subtle.deriveBits(
-    { name: 'PBKDF2', salt: salt, iterations: 100000, hash: 'SHA-256' },
-    keyMaterial,
-    512
-  );
-  const saltHex = Array.from(salt).map(b => b.toString(16).padStart(2, '0')).join('');
-  const hashHex = Array.from(new Uint8Array(derivedBits)).map(b => b.toString(16).padStart(2, '0')).join('');
-  return `${saltHex}:${hashHex}`;
 }

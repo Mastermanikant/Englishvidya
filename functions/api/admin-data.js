@@ -9,14 +9,18 @@ export async function onRequestGet(context) {
   }
 
   try {
+    const limit = Math.min(parseInt(url.searchParams.get('limit') || '20', 10), 100);
+    const offset = Math.max(parseInt(url.searchParams.get('offset') || '0', 10), 0);
+
     if (type === 'pending_ugc') {
       const results = await env.DB.prepare(
         `SELECT u.id, u.word_slug, u.meaning_text, users.name 
          FROM ugc_meanings u 
          JOIN users ON u.user_id = users.id 
          WHERE u.status = 'not_verified' 
-         ORDER BY u.created_at DESC`
-      ).all();
+         ORDER BY u.created_at DESC
+         LIMIT ? OFFSET ?`
+      ).bind(limit, offset).all();
       return Response.json(results.results);
     } 
     else if (type === 'pending_links') {
@@ -26,8 +30,9 @@ export async function onRequestGet(context) {
          FROM comments c
          JOIN users u ON c.user_id = u.id
          WHERE c.reference_links LIKE '%"status":"pending"%'
-         ORDER BY c.created_at DESC`
-      ).all();
+         ORDER BY c.created_at DESC
+         LIMIT ? OFFSET ?`
+      ).bind(limit, offset).all();
       return Response.json(comments.results);
     }
     else if (type === 'deleted') {
@@ -50,23 +55,25 @@ export async function onRequestGet(context) {
 
       const combined = [...ugc.results, ...comments.results].sort((a, b) => new Date(b.action_at) - new Date(a.action_at));
       
-      return Response.json(combined);
+      return Response.json(combined.slice(offset, offset + limit));
     } 
     else if (type === 'deletion_requests') {
       const results = await env.DB.prepare(
         `SELECT id, email, name, delete_requested_at 
          FROM users 
          WHERE delete_requested_at IS NOT NULL 
-         ORDER BY delete_requested_at DESC`
-      ).all();
+         ORDER BY delete_requested_at DESC
+         LIMIT ? OFFSET ?`
+      ).bind(limit, offset).all();
       return Response.json(results.results);
     }
     else if (type === 'users') {
       const results = await env.DB.prepare(
         `SELECT id, name, email, username, role, trust_score, is_shadow_banned, admin_reset_requested_at, created_at 
          FROM users 
-         ORDER BY created_at DESC`
-      ).all();
+         ORDER BY created_at DESC
+         LIMIT ? OFFSET ?`
+      ).bind(limit, offset).all();
       return Response.json(results.results);
     }
     else if (type === 'tickets') {
@@ -78,8 +85,8 @@ export async function onRequestGet(context) {
       if (user.role === 'admin') {
         query += ` WHERE t.type = 'admin'`;
       }
-      query += ` ORDER BY t.created_at DESC`;
-      const results = await env.DB.prepare(query).all();
+      query += ` ORDER BY t.created_at DESC LIMIT ? OFFSET ?`;
+      const results = await env.DB.prepare(query).bind(limit, offset).all();
       return Response.json(results.results);
     }
     else if (type === 'ticket_replies') {
@@ -92,8 +99,9 @@ export async function onRequestGet(context) {
          FROM support_replies r 
          JOIN users u ON r.user_id = u.id 
          WHERE r.ticket_id = ? 
-         ORDER BY r.created_at ASC`
-      ).bind(ticketId).all();
+         ORDER BY r.created_at ASC
+         LIMIT ? OFFSET ?`
+      ).bind(ticketId, limit, offset).all();
       return Response.json(results.results);
     }
     

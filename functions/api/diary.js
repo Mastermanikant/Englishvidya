@@ -24,13 +24,17 @@ export async function onRequestGet(context) {
     monthlyCount = 0;
   }
 
+  const url = new URL(context.request.url);
+  const limit = Math.min(parseInt(url.searchParams.get('limit') || '50', 10), 200);
+  const offset = Math.max(parseInt(url.searchParams.get('offset') || '0', 10), 0);
+
   const notes = await context.env.DB.prepare(
-    'SELECT word_slug, note_content, updated_at FROM user_notes WHERE user_id = ? ORDER BY updated_at DESC'
-  ).bind(user.id).all();
+    'SELECT word_slug, note_content, updated_at FROM user_notes WHERE user_id = ? ORDER BY updated_at DESC LIMIT ? OFFSET ?'
+  ).bind(user.id, limit, offset).all();
 
   const bookmarks = await context.env.DB.prepare(
-    'SELECT word_slug, word_text, meaning_text, pron_text, category, created_at FROM user_bookmarks WHERE user_id = ? ORDER BY created_at DESC'
-  ).bind(user.id).all();
+    'SELECT word_slug, word_text, meaning_text, pron_text, category, created_at FROM user_bookmarks WHERE user_id = ? ORDER BY created_at DESC LIMIT ? OFFSET ?'
+  ).bind(user.id, limit, offset).all();
 
   return Response.json({ 
     notes: notes.results, 
@@ -77,13 +81,25 @@ export async function onRequestPost(context) {
 
   // --- BATCH UPSERT ---
   for (const item of items) {
+    if (item.word_slug && item.word_slug.length > 100) {
+      return Response.json({ error: 'Word slug exceeds 100 characters limit' }, { status: 400 });
+    }
     if (item.type === 'note') {
+      if (item.note_content && item.note_content.length > 5000) {
+        return Response.json({ error: 'Note content exceeds 5000 characters limit' }, { status: 400 });
+      }
       await context.env.DB.prepare(
         `INSERT INTO user_notes (user_id, word_slug, note_content, updated_at) 
          VALUES (?, ?, ?, datetime('now')) 
          ON CONFLICT(user_id, word_slug) DO UPDATE SET note_content = ?, updated_at = datetime('now')`
       ).bind(user.id, item.word_slug, item.note_content, item.note_content).run();
     } else if (item.type === 'bookmark') {
+      if ((item.word_text && item.word_text.length > 100) ||
+          (item.meaning_text && item.meaning_text.length > 500) ||
+          (item.pron_text && item.pron_text.length > 100) ||
+          (item.category && item.category.length > 50)) {
+        return Response.json({ error: 'Bookmark data exceeds length limit' }, { status: 400 });
+      }
       await context.env.DB.prepare(
         `INSERT INTO user_bookmarks (user_id, word_slug, word_text, meaning_text, pron_text, category) 
          VALUES (?, ?, ?, ?, ?, ?) 

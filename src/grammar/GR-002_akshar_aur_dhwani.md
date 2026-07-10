@@ -1,6 +1,10 @@
 ---
+
 title: "Article 02 — वर्णमाला, स्वर-व्यंजन और अक्षर व्यवहार (Alphabet, Vowels, Consonants & Semi-Vowels)"
 permalink: /grammar/alphabet-vowels-consonants-basics/
+module: "Foundation"
+topicNumber: 3
+description: "वर्णमाला, स्वर, व्यंजन और सेमी-वोवेल्स (W, Y) का परिचय।"
 ---
 # Article 02 — वर्णमाला, स्वर-व्यंजन और अक्षर व्यवहार (Alphabet, Vowels, Consonants & Semi-Vowels)
 

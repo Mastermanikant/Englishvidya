@@ -5,11 +5,11 @@ metaDescription: "Create an EnglishVidya account to save words to your diary, pa
 permalink: /signup/
 ---
 
-<div class="auth-container" style="max-width: 400px; margin: 40px auto; padding: 30px; background: var(--bg-raised); border-radius: var(--radius-xl); box-shadow: var(--shadow-lg); text-align: center;">
-  <h1 style="font-family: var(--font-heading); margin-bottom: 10px;">Create Account</h1>
-  <p style="color: var(--text-secondary); margin-bottom: 30px;">Join the community to save progress and earn trust points.</p>
+<div class="auth-container">
+  <h1 class="auth-title">Create Account</h1>
+  <p class="auth-desc">Join the community to save progress and earn trust points.</p>
   
-  <a href="/api/auth-google" class="btn-primary" style="display: flex; align-items: center; justify-content: center; gap: 10px; width: 100%; padding: 12px; border-radius: var(--radius-lg); font-weight: bold; font-size: 1.1rem; text-decoration: none;">
+  <a href="/api/auth-google" class="btn-primary auth-google-btn">
     <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
       <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/>
       <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/>
@@ -19,11 +19,11 @@ permalink: /signup/
     Continue with Google
   </a>
 
-  <div style="margin-top: 20px; font-size: 0.85rem; color: var(--text-tertiary); line-height: 1.5;">
+  <div class="auth-legal-text">
     अकाउंट बनाने या लॉगिन करने का मतलब है कि आप हमारी <a href="/legal-hindi/" style="color: var(--accent);">नियम और शर्तों (Legal Terms)</a> को स्वीकार करते हैं।
   </div>
 
-  <div style="margin-top: 20px; font-size: 0.9rem; color: var(--text-tertiary);">
-    Already have an account? <a href="/login/" style="color: var(--accent); font-weight: bold;">Log in here</a>
+  <div class="auth-footer-text">
+    Already have an account? <a href="/login/" class="auth-footer-link">Log in here</a>
   </div>
 </div>

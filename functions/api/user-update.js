@@ -69,7 +69,7 @@ export async function onRequestPut(context) {
 
     return Response.json({ success: true, message: 'Profile updated successfully' });
   } catch (e) {
-    return new Response('Error updating profile: ' + e.message, { status: 500 });
+    return new Response('Something went wrong. Please try again later.', { status: 500 });
   }
 }
 
@@ -97,6 +97,6 @@ export async function onRequestPost(context) {
 
     return new Response('Invalid action', { status: 400 });
   } catch (e) {
-    return new Response('Error: ' + e.message, { status: 500 });
+    return new Response('Something went wrong. Please try again later.', { status: 500 });
   }
 }
