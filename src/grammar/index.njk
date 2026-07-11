@@ -60,23 +60,27 @@ permalink: /grammar/
 </div>
 
 <script>
-document.querySelectorAll('.accordion-btn').forEach(btn => {
-    btn.addEventListener('click', () => {
-        const item = btn.parentElement;
-        item.classList.toggle('active');
-        const content = item.querySelector('.accordion-content');
-        if (item.classList.contains('active')) {
-            content.style.maxHeight = content.scrollHeight + "px";
-        } else {
-            content.style.maxHeight = "0";
-        }
+document.addEventListener('DOMContentLoaded', () => {
+    document.querySelectorAll('.accordion-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+            const item = btn.parentElement;
+            item.classList.toggle('active');
+            const content = item.querySelector('.accordion-content');
+            if (item.classList.contains('active')) {
+                content.style.maxHeight = content.scrollHeight + "px";
+            } else {
+                content.style.maxHeight = "0";
+            }
+        });
     });
+    // Open the first one by default
+    const firstItem = document.querySelector('.accordion-item');
+    if (firstItem) {
+        firstItem.classList.add('active');
+        const firstContent = firstItem.querySelector('.accordion-content');
+        if (firstContent) {
+            firstContent.style.maxHeight = firstContent.scrollHeight + "px";
+        }
+    }
 });
-// Open the first one by default
-const firstItem = document.querySelector('.accordion-item');
-if (firstItem) {
-    firstItem.classList.add('active');
-    const firstContent = firstItem.querySelector('.accordion-content');
-    firstContent.style.maxHeight = firstContent.scrollHeight + "px";
-}
 </script>
