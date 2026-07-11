@@ -142,11 +142,11 @@
   <script src="/js/home-redesign.js?v=2.0.8" defer></script>
   {% endif %}
 
-  {% if '/my-diary' in page.url %}
+  {% if page.url and '/my-diary' in page.url %}
   <script src="/js/diary.js?v=2.0.8" defer></script>
   {% endif %}
 
-  {% if '/grammar' in page.url or '/meaning' in page.url or '/article' in page.url %}
+  {% if page.url and ('/grammar' in page.url or '/meaning' in page.url or '/article' in page.url) %}
   <script src="/js/community.js?v=2.0.8" defer></script>
   {% endif %}
 
