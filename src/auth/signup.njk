@@ -19,6 +19,33 @@ permalink: /signup/
     Continue with Google
   </a>
 
+  <div class="auth-divider-container">
+    <div class="auth-divider-line"></div>
+    <span class="auth-divider-text">OR</span>
+    <div class="auth-divider-line"></div>
+  </div>
+
+  <form id="signup-form" class="auth-form">
+    <div style="display: flex; flex-direction: column; width: 100%; text-align: left;">
+      <label for="signup-name" class="visually-hidden" style="display: none;">Full Name (पूरा नाम)</label>
+      <input type="text" id="signup-name" placeholder="Full Name (पूरा नाम)" aria-describedby="signup-error" required class="auth-input">
+    </div>
+    <div style="display: flex; flex-direction: column; width: 100%; text-align: left;">
+      <label for="signup-email" class="visually-hidden" style="display: none;">Email Address (ईमेल)</label>
+      <input type="email" id="signup-email" placeholder="Email Address (ईमेल)" aria-describedby="signup-error" required class="auth-input">
+    </div>
+    <div style="display: flex; flex-direction: column; width: 100%; text-align: left;">
+      <label for="signup-username" class="visually-hidden" style="display: none;">Choose a Username (यूज़रनेम)</label>
+      <input type="text" id="signup-username" placeholder="Choose a Username (यूज़रनेम)" required pattern="[A-Za-z0-9_]{3,20}" title="3-20 letters, numbers, or underscores" aria-describedby="signup-error" class="auth-input">
+    </div>
+    <div class="auth-password-container">
+      <label for="signup-password" class="visually-hidden" style="display: none;">Password (पासवर्ड)</label>
+      <input type="password" id="signup-password" placeholder="Password (पासवर्ड)" required minlength="6" aria-describedby="signup-error" class="auth-input">
+    </div>
+    <button type="submit" class="btn-primary auth-submit-btn" id="signup-btn">Create Account</button>
+    <div id="signup-error" class="auth-error"></div>
+  </form>
+
   <div class="auth-legal-text">
     अकाउंट बनाने या लॉगिन करने का मतलब है कि आप हमारी <a href="/legal-hindi/" style="color: var(--accent);">नियम और शर्तों (Legal Terms)</a> को स्वीकार करते हैं।
   </div>
@@ -27,3 +54,58 @@ permalink: /signup/
     Already have an account? <a href="/login/" class="auth-footer-link">Log in here</a>
   </div>
 </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const urlParams = new URLSearchParams(window.location.search);
+  const redirect = urlParams.get('redirect') || '/';
+  
+  const googleBtn = document.querySelector('.auth-google-btn');
+  if (googleBtn) {
+    googleBtn.href = '/api/auth-google?redirect=' + encodeURIComponent(redirect);
+  }
+
+  const form = document.getElementById('signup-form');
+  const errorDiv = document.getElementById('signup-error');
+  const signupBtn = document.getElementById('signup-btn');
+
+  if (form) {
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      
+      const name = document.getElementById('signup-name').value.trim();
+      const email = document.getElementById('signup-email').value.trim();
+      const username = document.getElementById('signup-username').value.trim();
+      const password = document.getElementById('signup-password').value;
+
+      if (!name || !email || !username || !password) return;
+
+      signupBtn.disabled = true;
+      signupBtn.textContent = 'Creating account...';
+      errorDiv.style.display = 'none';
+
+      try {
+        const res = await fetch('/api/auth-register', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ name, email, username, password })
+        });
+        const data = await res.json();
+
+        if (res.ok && data.success) {
+          window.location.href = redirect;
+        } else {
+          errorDiv.textContent = data.error || 'Signup failed. Username or Email might be taken.';
+          errorDiv.style.display = 'block';
+        }
+      } catch (err) {
+        errorDiv.textContent = 'Network error. Please try again.';
+        errorDiv.style.display = 'block';
+      }
+      
+      signupBtn.disabled = false;
+      signupBtn.textContent = 'Create Account';
+    });
+  }
+});
+</script>

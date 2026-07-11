@@ -271,7 +271,7 @@
       if (!searchOverlay) return;
       searchOverlay.classList.add('active');
       if (triggerBtn) triggerBtn.setAttribute('aria-expanded', 'true');
-      document.body.style.overflow = 'hidden';
+      window.lockScroll();
       setTimeout(() => { if (searchInput) searchInput.focus(); }, 100);
       this.showRecent();
     },
@@ -284,7 +284,7 @@
       if (!searchOverlay) return;
       searchOverlay.classList.remove('active');
       if (triggerBtn) triggerBtn.setAttribute('aria-expanded', 'false');
-      document.body.style.overflow = '';
+      window.unlockScroll();
       if (searchInput) searchInput.value = '';
       if (searchResults) searchResults.innerHTML = '<div class="search-placeholder"><p class="search-hint">🔍 Type above — results appear instantly</p><div id="recent-searches-container"></div></div>';
     },
@@ -979,8 +979,10 @@
     const settingsSaveBtn = $('#fc-save-settings');
     const autoPlayToggle = $('#fc-autoplay-toggle');
     
+    let lastSettingsFocus = null;
     if (settingsBtn && settingsModal) {
       settingsBtn.addEventListener('click', () => {
+        lastSettingsFocus = document.activeElement;
         settingsModal.style.display = 'flex';
         stopFCAutoPlay();
       });
@@ -999,6 +1001,7 @@
         state.fcSettings.intervalEasy = parseInt($('#set-interval-easy').value) || 0;
         saveFCSettings();
         settingsModal.style.display = 'none';
+        if (lastSettingsFocus) lastSettingsFocus.focus();
         renderFlashcardUI(container, categories, activeSlug); // Re-render to apply
       };
       if (settingsCloseBtn) settingsCloseBtn.addEventListener('click', saveAndClose);
@@ -1153,22 +1156,22 @@
       if (state.fcSettings.backAdvanced !== false && parsed.usages && parsed.usages.length > 0) {
         advHtml += parsed.usages.map(u => `
           <div style="margin-top:12px;">
-            <div style="font-size:0.9rem; font-weight:600; color:var(--text-secondary); text-transform:uppercase;"><span style="background:var(--bg-footer); padding:2px 6px; border-radius:4px;">${u.partOfSpeech}</span></div>
-            <div style="font-size:1.05rem; margin-top:4px;">${u.definition}</div>
+            <div style="font-size:0.9rem; font-weight:600; color:var(--text-secondary); text-transform:uppercase;"><span style="background:var(--bg-footer); padding:2px 6px; border-radius:4px;">${escHtml(u.partOfSpeech)}</span></div>
+            <div style="font-size:1.05rem; margin-top:4px;">${escHtml(u.definition)}</div>
             ${u.examples ? `<div style="margin-top:6px;">${u.examples.map(ex => `
-              <div style="font-style:italic; font-size:0.95rem; color:var(--text-secondary); border-left:2px solid var(--accent-soft); padding-left:8px; margin-bottom:4px;">"${ex.en}"<br><span style="font-style:normal; font-size:0.85rem; opacity:0.8;">${ex.hi}</span></div>
+              <div style="font-style:italic; font-size:0.95rem; color:var(--text-secondary); border-left:2px solid var(--accent-soft); padding-left:8px; margin-bottom:4px;">"${escHtml(ex.en)}"<br><span style="font-style:normal; font-size:0.85rem; opacity:0.8;">${escHtml(ex.hi)}</span></div>
             `).join('')}</div>` : ''}
           </div>
         `).join('');
       }
       if (state.fcSettings.backSynonyms !== false && parsed.synonyms && parsed.synonyms.length > 0) {
-        advHtml += `<div style="margin-top:12px; font-size:0.9rem;"><strong style="color:var(--text-secondary); text-transform:uppercase;">Synonyms:</strong><br>${parsed.synonyms.join(', ')}</div>`;
+        advHtml += `<div style="margin-top:12px; font-size:0.9rem;"><strong style="color:var(--text-secondary); text-transform:uppercase;">Synonyms:</strong><br>${escHtml(parsed.synonyms.join(', '))}</div>`;
       }
       if (state.fcSettings.backAntonyms !== false && parsed.antonyms && parsed.antonyms.length > 0) {
-        advHtml += `<div style="margin-top:12px; font-size:0.9rem;"><strong style="color:var(--text-secondary); text-transform:uppercase;">Antonyms:</strong><br>${parsed.antonyms.join(', ')}</div>`;
+        advHtml += `<div style="margin-top:12px; font-size:0.9rem;"><strong style="color:var(--text-secondary); text-transform:uppercase;">Antonyms:</strong><br>${escHtml(parsed.antonyms.join(', '))}</div>`;
       }
       if (state.fcSettings.backCollocations !== false && parsed.collocations && parsed.collocations.length > 0) {
-        advHtml += `<div style="margin-top:12px; font-size:0.9rem;"><strong style="color:var(--text-secondary); text-transform:uppercase;">Collocations:</strong><br>${parsed.collocations.join(', ')}</div>`;
+        advHtml += `<div style="margin-top:12px; font-size:0.9rem;"><strong style="color:var(--text-secondary); text-transform:uppercase;">Collocations:</strong><br>${escHtml(parsed.collocations.join(', '))}</div>`;
       }
 
       advancedInfo.innerHTML = advHtml;
@@ -1457,7 +1460,7 @@
     if (!toastContainer) return;
     const toast = document.createElement('div');
     toast.className = 'toast';
-    toast.innerHTML = `<span class="toast-icon">💬</span><span>${message}</span>`;
+    toast.innerHTML = `<span class="toast-icon">💬</span><span>${escHtml(message)}</span>`;
     toastContainer.appendChild(toast);
 
     setTimeout(() => {
@@ -1591,6 +1594,7 @@
 
     const openDrawer = () => {
       drawerOverlay.classList.add('active');
+      window.lockScroll();
       menuTrigger.setAttribute('aria-expanded', 'true');
       
       previousActiveElement = document.activeElement;
@@ -1605,6 +1609,7 @@
     
     const closeDrawer = () => {
       drawerOverlay.classList.remove('active');
+      window.unlockScroll();
       menuTrigger.setAttribute('aria-expanded', 'false');
       drawer.removeEventListener('keydown', trapTabKey);
       if (previousActiveElement) {
@@ -1625,30 +1630,7 @@
     });
   }
 
-  // ═══════════════════════════════════════════════════
-  //  15. PWA INSTALL PROMPT
-  // ═══════════════════════════════════════════════════
-  function initPWA() {
-    let deferredPrompt;
-    window.addEventListener('beforeinstallprompt', (e) => {
-      e.preventDefault();
-      deferredPrompt = e;
-      const installBanner = $('#pwa-install-banner');
-      if (installBanner) installBanner.style.display = 'block';
-    });
 
-    const installBtn = $('#pwa-install-btn');
-    if (installBtn) {
-      installBtn.addEventListener('click', async () => {
-        if (!deferredPrompt) return;
-        deferredPrompt.prompt();
-        await deferredPrompt.userChoice;
-        deferredPrompt = null;
-        const installBanner = $('#pwa-install-banner');
-        if (installBanner) installBanner.style.display = 'none';
-      });
-    }
-  }
 
   function initExpandableSections() {
     $$('.section-toggle').forEach(toggle => {

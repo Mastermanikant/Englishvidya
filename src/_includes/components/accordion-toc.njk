@@ -1,34 +1,19 @@
 {% macro render(items) %}
 <div class="accordion-toc" id="toc-accordion">
     <div class="accordion-header">
-        <span>Table of Contents (इस लेख में क्या है?)</span>
+        <span>Table of Contents (विषय - सूची)</span>
     </div>
     {% for item in items %}
-    <div class="accordion-item">
-        <button class="accordion-btn" aria-expanded="false" onclick="toggleAccordion(this)">
+    <details class="accordion-item" name="toc-accordion">
+        <summary class="accordion-btn">
             {{ loop.index }}. {{ item.title }}
             <svg class="accordion-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
-        </button>
+        </summary>
         <div class="accordion-content">
             <p>{{ item.desc }}</p>
-            <a href="#section-{{ loop.index }}" style="color: var(--accent); font-weight: 600; font-size: 0.85rem; margin-top: 8px; display: inline-block;">सीधे यहाँ जाएँ →</a>
+            <a href="#section-{{ loop.index }}" style="color: var(--accent); font-weight: 600; font-size: 0.85rem; margin-top: 8px; display: inline-block;">इस विषय पर जाएँ ➔</a>
         </div>
-    </div>
+    </details>
     {% endfor %}
 </div>
-
-<script>
-function toggleAccordion(btn) {
-    const isExpanded = btn.getAttribute('aria-expanded') === 'true';
-    
-    // Close all others first
-    const allBtns = document.querySelectorAll('#toc-accordion .accordion-btn');
-    allBtns.forEach(b => b.setAttribute('aria-expanded', 'false'));
-    
-    // Toggle current
-    if (!isExpanded) {
-        btn.setAttribute('aria-expanded', 'true');
-    }
-}
-</script>
 {% endmacro %}

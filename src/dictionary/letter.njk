@@ -10,14 +10,12 @@ eleventyComputed:
   metaDescription: "Browse all English words starting with the letter {{ letter }}, with Hindi meanings, pronunciation, and examples."
 ---
 
-{# Breadcrumb #}
-<nav class="breadcrumb" aria-label="Breadcrumb">
-  <a href="/">Home</a>
-  <span class="breadcrumb-sep" aria-hidden="true">›</span>
-  <a href="/dictionary/">Dictionary</a>
-  <span class="breadcrumb-sep" aria-hidden="true">›</span>
-  <span aria-current="page">Letter {{ letter }}</span>
-</nav>
+{% set breadcrumbs = [
+  { label: 'Home', href: '/' },
+  { label: 'Dictionary', href: '/dictionary/' },
+  { label: 'Letter ' + letter }
+] %}
+{% include "partials/breadcrumbs.njk" %}
 
 <div class="hero-welcome animate-fade-in" style="padding-bottom: var(--sp-4);">
   <h1 style="font-size: 1.5rem;">Words Starting With "{{ letter }}"</h1>
@@ -68,15 +66,4 @@ eleventyComputed:
   </div>
 </div>
 
-<style>
-.letter-btn:hover:not(.active) {
-  background: var(--border) !important;
-  color: var(--text-primary) !important;
-  transform: translateY(-2px);
-}
-.word-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
-  border-color: var(--accent) !important;
-}
-</style>
+

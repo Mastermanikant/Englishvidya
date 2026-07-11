@@ -11,13 +11,12 @@ eleventyComputed:
 ---
 
 {# Breadcrumb #}
-<nav class="breadcrumb" aria-label="Breadcrumb">
-  <a href="/">Home</a>
-  <span class="breadcrumb-sep" aria-hidden="true">›</span>
-  <a href="/dictionary/">Dictionary</a>
-  <span class="breadcrumb-sep" aria-hidden="true">›</span>
-  <span aria-current="page">{{ category.name }}</span>
-</nav>
+{% set breadcrumbs = [
+  { label: 'Home', href: '/' },
+  { label: 'Dictionary', href: '/dictionary/' },
+  { label: category.name }
+] %}
+{% include "partials/breadcrumbs.njk" %}
 
 <div class="hero-welcome animate-fade-in" style="padding-bottom: var(--sp-4);">
   <h1 style="font-size: 1.5rem;">{{ category.icon }} {{ category.name }} Vocabulary</h1>

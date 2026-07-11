@@ -1,11 +1,12 @@
 ---
-
 title: "Article 05 — हिंदी बनाम अंग्रेज़ी: उच्चारण का सम्पूर्ण तुलनात्मक विज्ञान (Hindi vs English Phonetics: The Complete Comparison)"
-permalink: /grammar/hindi-english-phonetics-comparison/
-module: "Foundation"
-topicNumber: 6
-description: "हिंदी बनाम अंग्रेज़ी: उच्चारण का सम्पूर्ण तुलनात्मक विज्ञान और दोनों भाषाओं के अक्षरों का ध्वनि मिलान।"
+permalink: "/grammar/hindi-vs-english-phonetics-the-complete-comparison/"
+module: "Foundation & Sounds"
+topicNumber: 5
+description: "बच्चों, अब तक हमने अंग्रेज़ी के अक्षर (Letters), स्वर ध्वनियाँ (Vowel Sounds), और व्यंजन ध्वनियाँ (Consonant Sounds) ..."
+published: true
 ---
+
 # Article 05 — हिंदी बनाम अंग्रेज़ी: उच्चारण का सम्पूर्ण तुलनात्मक विज्ञान
 
 ### 📝 Topic Introduction (विषय का परिचय)

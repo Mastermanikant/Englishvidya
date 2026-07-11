@@ -16,6 +16,10 @@ permalink: /reset-password/
     </p>
     <form id="otp-verify-form" class="auth-form" style="gap: 16px;">
       <div class="form-group">
+        <label class="auth-label">Email or Username (ईमेल या यूज़रनेम)</label>
+        <input type="text" id="input-otp-email" class="auth-input" placeholder="e.g. your@email.com" required>
+      </div>
+      <div class="form-group">
         <label class="auth-label">Enter 6-digit OTP (६-अंकीय ओटीपी)</label>
         <input type="text" id="input-otp-code" class="auth-input" placeholder="e.g. 123456" required maxlength="6" pattern="[0-9]{6}" style="letter-spacing: 4px; text-align: center; font-weight: bold;">
       </div>
@@ -104,6 +108,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const btnRequestAdmin = document.getElementById('btn-request-admin');
 
   let verifiedOtpCode = '';
+  let verifiedEmail = '';
   let loadedQuestions = [];
 
   function showAlert(msg, isError = true) {
@@ -121,18 +126,19 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // Helper to fetch security questions
-  async function fetchSecurityQuestions(code) {
+  async function fetchSecurityQuestions(code, email) {
     otpEntrySection.style.display = 'none';
     loadingSection.style.display = 'block';
     alertBox.style.display = 'none';
 
     try {
-      const res = await fetch(`/api/auth-reset-verify?code=${code}`);
+      const res = await fetch(`/api/auth-reset-verify?email=${encodeURIComponent(email)}&code=${code}`);
       const data = await res.json();
 
       loadingSection.style.display = 'none';
       if (res.ok && data.success) {
         verifiedOtpCode = code;
+        verifiedEmail = email;
         
         if (data.noSecurityQuestions) {
           // User has no security questions set, show prompt for admin reset
@@ -163,21 +169,25 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
-  // Check URL query parameters for ?code=123456
+  // Check URL query parameters for ?email=xxx&code=123456
   const urlParams = new URLSearchParams(window.location.search);
   const codeParam = urlParams.get('code');
-  if (codeParam && codeParam.trim().length === 6 && /^\d+$/.test(codeParam.trim())) {
-    fetchSecurityQuestions(codeParam.trim());
+  const emailParam = urlParams.get('email');
+  if (codeParam && codeParam.trim().length === 6 && /^\d+$/.test(codeParam.trim()) && emailParam) {
+    document.getElementById('input-otp-email').value = emailParam.trim();
+    document.getElementById('input-otp-code').value = codeParam.trim();
+    fetchSecurityQuestions(codeParam.trim(), emailParam.trim());
   }
 
   // Handle Manual OTP verification submit
   otpVerifyForm.addEventListener('submit', (e) => {
     e.preventDefault();
     const code = document.getElementById('input-otp-code').value.trim();
-    if (code.length === 6 && /^\d+$/.test(code)) {
-      fetchSecurityQuestions(code);
+    const email = document.getElementById('input-otp-email').value.trim();
+    if (code.length === 6 && /^\d+$/.test(code) && email) {
+      fetchSecurityQuestions(code, email);
     } else {
-      showAlert('कृपया सही ६-अंकीय कोड दर्ज करें।');
+      showAlert('कृपया सही ईमेल और ६-अंकीय कोड दर्ज करें।');
     }
   });
 
@@ -215,6 +225,7 @@ document.addEventListener('DOMContentLoaded', () => {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
+          email: verifiedEmail,
           code: verifiedOtpCode,
           answers,
           newPassword

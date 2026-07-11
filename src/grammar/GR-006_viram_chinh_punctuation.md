@@ -1,11 +1,12 @@
 ---
-
 title: "Article 06 — विराम चिन्ह (Punctuation Marks) A to Z: हिंदी बनाम अंग्रेज़ी"
-permalink: /grammar/punctuation-marks-hindi-english/
-module: "Foundation"
-topicNumber: 9
-description: "विराम चिन्ह (Punctuation Marks) A to Z: हिंदी बनाम अंग्रेज़ी और Capital Letters के नियम।"
+permalink: "/grammar/punctuation-marks-a-to-z/"
+module: "Foundation & Sounds"
+topicNumber: 6
+description: "बच्चों, कल्पना कीजिए कि आप बिना सांस लिए, बिना रुके लगातार बोलते जा रहे हैं। क्या सामने वाला आपकी बात समझ पाएगा? बिल्..."
+published: true
 ---
+
 # Article 06 — विराम चिन्ह (Punctuation Marks) A to Z: हिंदी बनाम अंग्रेज़ी
 
 ### 🎯 Topic Introduction (विषय का परिचय)

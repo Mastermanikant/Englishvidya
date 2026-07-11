@@ -3,7 +3,8 @@ import {
   verifyPasswordPBKDF2, 
   hashSHA256, 
   createJWT, 
-  getGenericErrorMsg 
+  getGenericErrorMsg,
+  cryptoTimingSafeEqual
 } from './_shared/auth-utils.js';
 
 export async function onRequestPost(context) {
@@ -33,7 +34,7 @@ export async function onRequestPost(context) {
         isValid = await verifyPasswordPBKDF2(password, user.password_hash);
       } else {
         const legacyHash = await hashSHA256(password);
-        isValid = (legacyHash === user.password_hash);
+        isValid = cryptoTimingSafeEqual(legacyHash, user.password_hash);
         if (isValid) {
           needsUpgrade = true;
         }

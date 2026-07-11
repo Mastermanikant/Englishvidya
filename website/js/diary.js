@@ -2,8 +2,13 @@
 (function() {
   // Helper: Get local notes
   window.getLocalNotes = function() {
-    const saved = localStorage.getItem('ev-diary-notes');
-    return saved ? JSON.parse(saved) : [];
+    try {
+      const saved = localStorage.getItem('ev-diary-notes');
+      return saved ? JSON.parse(saved) : [];
+    } catch (e) {
+      console.error('Error parsing diary notes:', e);
+      return [];
+    }
   };
 
   // Helper: Save local notes
@@ -13,8 +18,13 @@
 
   // Helper: Get local bookmarks
   window.getLocalBookmarks = function() {
-    const saved = localStorage.getItem('ev-bookmarks');
-    return saved ? JSON.parse(saved) : [];
+    try {
+      const saved = localStorage.getItem('ev-bookmarks');
+      return saved ? JSON.parse(saved) : [];
+    } catch (e) {
+      console.error('Error parsing bookmarks:', e);
+      return [];
+    }
   };
 
   // Helper: Save local bookmarks
@@ -30,7 +40,12 @@
     const bookmarks = window.getLocalBookmarks();
     const hasUnsyncedBookmarks = bookmarks.some(b => !b.synced);
 
-    const toRemove = JSON.parse(localStorage.getItem('ev-bookmarks-to-remove') || '[]');
+    let toRemove = [];
+    try {
+      toRemove = JSON.parse(localStorage.getItem('ev-bookmarks-to-remove') || '[]');
+    } catch (e) {
+      console.error('Error parsing to-remove bookmarks:', e);
+    }
 
     return hasUnsyncedNotes || hasUnsyncedBookmarks || toRemove.length > 0;
   };
@@ -214,7 +229,12 @@
     const bookmarks = window.getLocalBookmarks();
     const unsyncedBookmarks = bookmarks.filter(b => !b.synced);
 
-    const toRemove = JSON.parse(localStorage.getItem('ev-bookmarks-to-remove') || '[]');
+    let toRemove = [];
+    try {
+      toRemove = JSON.parse(localStorage.getItem('ev-bookmarks-to-remove') || '[]');
+    } catch (e) {
+      console.error('Error parsing to-remove bookmarks:', e);
+    }
 
     const items = [];
     
@@ -358,6 +378,7 @@
 
   // 5. Logout Protection Modal
   window.handleLogoutWithProtection = function() {
+    const lastFocusElement = document.activeElement;
     const hasUnsynced = window.hasUnsyncedDiaryData();
     if (!hasUnsynced) {
       // No unsynced notes/bookmarks, proceed to logout
@@ -439,7 +460,10 @@
     };
 
     modal.querySelector('#modal-cancel-btn').onclick = function() {
-      overlay.remove();
+      document.body.removeChild(overlay);
+      if (lastFocusElement) {
+        lastFocusElement.focus();
+      }
     };
   };
 

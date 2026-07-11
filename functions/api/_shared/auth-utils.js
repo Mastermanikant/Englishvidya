@@ -33,7 +33,7 @@ export async function verifyPasswordPBKDF2(password, storedHashStr) {
     512
   );
   const derivedHex = Array.from(new Uint8Array(derivedBits)).map(b => b.toString(16).padStart(2, '0')).join('');
-  return derivedHex === hashHex;
+  return cryptoTimingSafeEqual(derivedHex, hashHex);
 }
 
 export async function hashSHA256(password) {
@@ -42,6 +42,19 @@ export async function hashSHA256(password) {
   const hashBuffer = await crypto.subtle.digest('SHA-256', data);
   const hashArray = Array.from(new Uint8Array(hashBuffer));
   return hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+}
+
+export function cryptoTimingSafeEqual(a, b) {
+  if (typeof a !== 'string' || typeof b !== 'string') return false;
+  let result = 0;
+  if (a.length !== b.length) {
+    b = a; // to ensure same length loop but will fail at the end
+    result = 1;
+  }
+  for (let i = 0; i < a.length; i++) {
+    result |= a.charCodeAt(i) ^ b.charCodeAt(i);
+  }
+  return result === 0;
 }
 
 // --- JWT Helpers ---

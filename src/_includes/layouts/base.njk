@@ -5,16 +5,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
 
-  {# ── Google Analytics (GA4) ── #}
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-VWJHVR3VBL"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-VWJHVR3VBL');
-  </script>
-
   {# ── SEO Meta ── #}
   <title>{{ pageTitle or title or site.siteName }}</title>
   <meta name="description" content="{{ metaDescription or description or site.siteDescription }}">
@@ -135,8 +125,14 @@
   <script src="/js/app.js?v=2.1.0" defer></script>
   <script src="/js/heartbeat.js?v=2.1.0" defer></script>
   <script src="/js/auth-ui.js?v=2.1.0" defer></script>
+  
+  {% if page.url and ('/dictionary' in page.url or '/flashcards' in page.url or '/grammar' in page.url or '/article' in page.url or '/my-diary' in page.url) %}
   <script src="/js/bookmarks.js?v=2.1.0" defer></script>
+  {% endif %}
+
+  {% if page.url and '/all-post' in page.url %}
   <script src="/js/alpine.min.js" defer></script>
+  {% endif %}
 
   {% if page.url == '/' %}
   <script src="/js/home-redesign.js?v=2.1.0" defer></script>
@@ -305,35 +301,35 @@
     </button>
     <div id="text-scaler-panel" class="text-scaler-panel" aria-hidden="true" style="display: flex;">
       <!-- Zoom Control -->
-      <div style="display: flex; flex-direction: column; gap: 4px; width: 100%;">
-        <div style="display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: var(--text-secondary);">
+      <div class="scaler-section">
+        <div class="scaler-section-header">
           <span>Text Zoom</span>
           <span id="text-scaler-value" class="panel-value" style="font-weight: 700; color: var(--accent); min-width: auto; text-align: right;">100%</span>
         </div>
-        <div style="display: flex; gap: 6px; align-items: center; justify-content: space-between; width: 100%;">
+        <div class="scaler-section-controls">
           <button id="text-scaler-dec" class="zoom-btn" aria-label="Decrease text size">A-</button>
-          <input type="range" id="text-zoom-slider" min="50" max="200" step="10" value="100" style="flex: 1; cursor: pointer; accent-color: var(--accent); height: 6px; border-radius: 3px;">
+          <input type="range" id="text-zoom-slider" min="50" max="200" step="10" value="100" class="scaler-slider">
           <button id="text-scaler-inc" class="zoom-btn" aria-label="Increase text size" style="font-size: 16px !important;">A+</button>
         </div>
       </div>
       
       <!-- Brightness/Dimmer Control -->
-      <div style="display: flex; flex-direction: column; gap: 4px; border-top: 1px solid var(--border); padding-top: 8px; width: 100%;">
-        <div style="display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: var(--text-secondary);">
+      <div class="scaler-section" style="border-top: 1px solid var(--border); padding-top: 8px;">
+        <div class="scaler-section-header">
           <span>Brightness</span>
         </div>
-        <div style="display: flex; gap: 6px; align-items: center; justify-content: space-between; width: 100%;">
+        <div class="scaler-section-controls">
           <span style="font-size: 14px;" title="Light">☀️</span>
-          <input type="range" id="screen-dimmer-slider" min="0" max="80" value="0" style="flex: 1; cursor: pointer; accent-color: var(--accent); height: 6px; border-radius: 3px;">
+          <input type="range" id="screen-dimmer-slider" min="0" max="80" value="0" class="scaler-slider">
           <span style="font-size: 14px;" title="Dark">🌙</span>
         </div>
       </div>
       
       <!-- Actions -->
-      <div style="display: flex; gap: 6px; border-top: 1px solid var(--border); padding-top: 8px; align-items: center; justify-content: space-between; width: 100%;">
-        <button id="teacher-fullscreen" class="action-btn" aria-label="Teacher Full Screen" title="Teacher Full Screen" style="background: var(--accent); color: white; border: none; width: 32px; height: 32px; border-radius: 8px; font-weight: bold; font-size: 16px; display: flex; align-items: center; justify-content: center; cursor: pointer;">⛶</button>
-        <button id="text-scaler-reset" class="action-btn reset-btn" style="flex: 1; height: 32px; background: var(--bg-hover); color: var(--text-primary); border: 1px solid var(--border); cursor: pointer; font-weight: 600;" title="Reset text size">Reset</button>
-        <button id="text-scaler-hide" class="action-btn hide-btn" style="width: 32px; height: 32px; display: flex; align-items: center; justify-content: center;" title="Hide this widget">✕</button>
+      <div class="scaler-actions">
+        <button id="teacher-fullscreen" class="action-btn scaler-btn-fullscreen" aria-label="Teacher Full Screen" title="Teacher Full Screen">⛶</button>
+        <button id="text-scaler-reset" class="action-btn reset-btn scaler-btn-reset" title="Reset text size">Reset</button>
+        <button id="text-scaler-hide" class="action-btn hide-btn scaler-btn-hide" title="Hide this widget">✕</button>
       </div>
     </div>
   </div>
@@ -395,6 +391,32 @@
           });
         }
       }
+
+      // Focus Trapping for Text Scaler Widget
+      widget.addEventListener('keydown', (e) => {
+        if (toggle.getAttribute('aria-expanded') !== 'true') return;
+        
+        const focusableElements = widget.querySelectorAll('button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])');
+        const firstFocusable = focusableElements[0];
+        const lastFocusable = focusableElements[focusableElements.length - 1];
+
+        if (e.key === 'Tab') {
+          if (e.shiftKey) { // Shift + Tab
+            if (document.activeElement === firstFocusable) {
+              lastFocusable.focus();
+              e.preventDefault();
+            }
+          } else { // Tab
+            if (document.activeElement === lastFocusable) {
+              firstFocusable.focus();
+              e.preventDefault();
+            }
+          }
+        } else if (e.key === 'Escape') {
+          togglePanelState();
+          toggle.focus();
+        }
+      });
 
       function toggleScaler(e) {
         if (e) {
@@ -673,6 +695,16 @@
         else btn.style.background = '#013220';
       }
     });
+  </script>
+
+  {# ── Google Analytics (GA4) ── #}
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-VWJHVR3VBL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-VWJHVR3VBL');
   </script>
 </body>
 </html>

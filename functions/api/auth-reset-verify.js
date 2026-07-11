@@ -1,22 +1,35 @@
-import { hashPasswordPBKDF2, hashSHA256 } from './_shared/auth-utils.js';
+import { hashPasswordPBKDF2, verifyPasswordPBKDF2, hashSHA256, cryptoTimingSafeEqual } from './_shared/auth-utils.js';
 
 export async function onRequestGet(context) {
   const { request, env } = context;
   const url = new URL(request.url);
   const code = url.searchParams.get('code');
+  const emailOrUsername = url.searchParams.get('email');
 
-  if (!code || !code.trim()) {
-    return Response.json({ error: 'ओटीपी कोड प्रदान करना आवश्यक है।' }, { status: 400 });
+  if (!code || !code.trim() || !emailOrUsername || !emailOrUsername.trim()) {
+    return Response.json({ error: 'ओटीपी कोड और ईमेल/यूज़रनेम प्रदान करना आवश्यक है।' }, { status: 400 });
   }
 
   try {
-    // 1. Fetch user by reset_token
-    const user = await env.DB.prepare(
-      'SELECT id, security_questions, reset_token_expires_at, reset_attempts FROM users WHERE reset_token = ?'
-    ).bind(code.trim()).first();
+    const cleanInput = emailOrUsername.trim();
+    let user;
 
-    if (!user) {
-      return Response.json({ error: 'अमान्य रीसेट कोड दर्ज किया गया है।' }, { status: 400 });
+    if (cleanInput.includes('@')) {
+      user = await env.DB.prepare(
+        'SELECT id, security_questions, reset_token, reset_token_expires_at, reset_attempts FROM users WHERE email = ?'
+      ).bind(cleanInput.toLowerCase()).first();
+    } else {
+      user = await env.DB.prepare(
+        'SELECT id, security_questions, reset_token, reset_token_expires_at, reset_attempts FROM users WHERE username = ?'
+      ).bind(cleanInput).first();
+    }
+
+    if (!user || user.reset_token !== code.trim()) {
+      if (user && user.reset_token) {
+        // Increment attempts on incorrect code for specific user
+        await env.DB.prepare('UPDATE users SET reset_attempts = reset_attempts + 1 WHERE id = ?').bind(user.id).run();
+      }
+      return Response.json({ error: 'अमान्य रीसेट कोड दर्ज किया गया है या ईमेल गलत है।' }, { status: 400 });
     }
 
     // 2. Check failed attempts limit (max 5)
@@ -30,12 +43,12 @@ export async function onRequestGet(context) {
       );
     }
 
-    // 3. Check expiry (30 hours)
+    // 3. Check expiry (15 mins)
     if (user.reset_token_expires_at && new Date(user.reset_token_expires_at).getTime() < Date.now()) {
       await env.DB.prepare('UPDATE users SET reset_token = NULL, reset_token_expires_at = NULL WHERE id = ?')
         .bind(user.id)
         .run();
-      return Response.json({ error: 'इस कोड की समय सीमा (30 घंटे) समाप्त हो चुकी है। कृपया नया कोड प्राप्त करें।' }, { status: 400 });
+      return Response.json({ error: 'इस कोड की समय सीमा (15 मिनट) समाप्त हो चुकी है। कृपया नया कोड प्राप्त करें।' }, { status: 400 });
     }
 
     // 4. Return safety clean questions
@@ -76,19 +89,31 @@ export async function onRequestPost(context) {
   const { request, env } = context;
 
   try {
-    const { code, answers, newPassword } = await request.json();
+    const { email, code, answers, newPassword } = await request.json();
 
-    if (!code || !code.trim() || !newPassword || newPassword.length < 6) {
-      return Response.json({ error: 'कोड और वैध नया पासवर्ड (कम से कम ६ अक्षर) होना आवश्यक है।' }, { status: 400 });
+    if (!email || !email.trim() || !code || !code.trim() || !newPassword || newPassword.length < 6) {
+      return Response.json({ error: 'ईमेल, कोड और वैध नया पासवर्ड (कम से कम ६ अक्षर) होना आवश्यक है।' }, { status: 400 });
     }
 
-    // 1. Fetch user by reset_token
-    const user = await env.DB.prepare(
-      'SELECT id, security_questions, reset_token_expires_at, reset_attempts FROM users WHERE reset_token = ?'
-    ).bind(code.trim()).first();
+    const cleanInput = email.trim();
+    let user;
 
-    if (!user) {
-      return Response.json({ error: 'अमान्य रीसेट कोड।' }, { status: 400 });
+    if (cleanInput.includes('@')) {
+      user = await env.DB.prepare(
+        'SELECT id, security_questions, reset_token, reset_token_expires_at, reset_attempts FROM users WHERE email = ?'
+      ).bind(cleanInput.toLowerCase()).first();
+    } else {
+      user = await env.DB.prepare(
+        'SELECT id, security_questions, reset_token, reset_token_expires_at, reset_attempts FROM users WHERE username = ?'
+      ).bind(cleanInput).first();
+    }
+
+    if (!user || user.reset_token !== code.trim()) {
+      if (user && user.reset_token) {
+        // Increment attempts on incorrect code
+        await env.DB.prepare('UPDATE users SET reset_attempts = reset_attempts + 1 WHERE id = ?').bind(user.id).run();
+      }
+      return Response.json({ error: 'अमान्य रीसेट कोड या ईमेल।' }, { status: 400 });
     }
 
     // 2. Check failed attempts limit (max 5)
@@ -142,10 +167,15 @@ export async function onRequestPost(context) {
       const dbQ = dbQuestions.find(dq => dq.question.trim().toLowerCase() === cleanInputQ);
       if (!dbQ || !dbQ.answer_hash) continue;
 
-      // Hash input answer using shared SHA-256
-      const inputHash = await hashSHA256(cleanInputA);
+      let isValid = false;
+      if (dbQ.answer_hash.includes(':')) {
+        isValid = await verifyPasswordPBKDF2(cleanInputA, dbQ.answer_hash);
+      } else {
+        const inputHash = await hashSHA256(cleanInputA);
+        isValid = cryptoTimingSafeEqual(inputHash, dbQ.answer_hash);
+      }
 
-      if (inputHash === dbQ.answer_hash) {
+      if (isValid) {
         matchedCount++;
       }
     }

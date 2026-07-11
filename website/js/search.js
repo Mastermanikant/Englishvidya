@@ -12,6 +12,21 @@ window.openSearch = null;
     let searchData = [];
     let isDataLoaded = false;
 
+    // Helper to escape HTML and prevent XSS
+    function escapeHTML(str) {
+        if (typeof str !== 'string') return '';
+        return str.replace(/[&<>'"]/g, function(tag) {
+            const charsToReplace = {
+                '&': '&amp;',
+                '<': '&lt;',
+                '>': '&gt;',
+                "'": '&#39;',
+                '"': '&quot;'
+            };
+            return charsToReplace[tag] || tag;
+        });
+    }
+
     // Open Search Overlay
     window.openSearch = function() {
         searchOverlay.classList.add('active');
@@ -137,7 +152,7 @@ window.openSearch = null;
         if (results.length === 0) {
             searchResults.innerHTML = `
                 <div class="search-placeholder">
-                  <p class="search-hint">No results found for "${query}"</p>
+                  <p class="search-hint">No results found for "${escapeHTML(query)}"</p>
                 </div>
             `;
             return;
@@ -150,10 +165,10 @@ window.openSearch = null;
             const badgeText = item.type === 'article' ? `📖 ${item.category}` : `🔤 ${item.category}`;
             
             html += `
-                <a href="${item.url}" class="search-result-item" role="option" style="display: block; text-decoration: none; padding: 12px 16px; border-bottom: 1px solid var(--border); transition: background 0.2s;">
+                <a href="${escapeHTML(item.url)}" class="search-result-item" role="option" style="display: block; text-decoration: none; padding: 12px 16px; border-bottom: 1px solid var(--border); transition: background 0.2s;">
                     <div class="search-result-title" style="display: flex; align-items: center; gap: 8px; flex-wrap: wrap;">
-                        <strong style="font-size: 1.1rem; color: var(--text-primary);">${item.title}</strong>
-                        ${item.subtitle ? `<span class="search-result-pron" style="font-size: 0.85rem; color: var(--text-secondary);">${item.subtitle}</span>` : ''}
+                        <strong style="font-size: 1.1rem; color: var(--text-primary);">${escapeHTML(item.title)}</strong>
+                        ${item.subtitle ? `<span class="search-result-pron" style="font-size: 0.85rem; color: var(--text-secondary);">${escapeHTML(item.subtitle)}</span>` : ''}
                         <span class="search-badge ${badgeClass}" style="
                           font-size: 0.7rem; 
                           padding: 2px 8px; 
@@ -162,9 +177,9 @@ window.openSearch = null;
                           background: ${item.type === 'article' ? 'var(--accent-soft)' : 'rgba(16, 185, 129, 0.1)'};
                           color: ${item.type === 'article' ? 'var(--accent)' : '#10b981'};
                           border: 1px solid ${item.type === 'article' ? 'rgba(56,189,248,0.15)' : 'rgba(16,185,129,0.15)'};
-                        ">${badgeText}</span>
+                        ">${escapeHTML(badgeText)}</span>
                     </div>
-                    <div class="search-result-meaning" style="margin-top: 4px; font-size: 0.95rem; color: var(--text-secondary); line-height: 1.4;">${item.desc}</div>
+                    <div class="search-result-meaning" style="margin-top: 4px; font-size: 0.95rem; color: var(--text-secondary); line-height: 1.4;">${escapeHTML(item.desc)}</div>
                 </a>
             `;
         });

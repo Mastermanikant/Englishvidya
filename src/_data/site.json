@@ -15,6 +15,11 @@
   "facebookPage": "https://facebook.com/EnglishVidyaHq",
   "instagramPage": "https://instagram.com/EnglishVidyaHq",
   "twitterPage": "https://x.com/EnglishVidyaHq",
+  "authorName": "Master Manikant",
+  "authorTitle": "Founder, EnglishVidya",
+  "authorDesc": "Master Manikant is the founder of EnglishVidya. With a passion for helping Hindi-medium students, he simplifies complex English grammar rules into easy-to-understand concepts, empowering students to speak confidently.",
+  "authorImage": "/assets/images/my-pic.webp",
+  "headerAnnouncement": "🚀 Bihar Board Class 10 & 12 content coming soon!",
   "nav": [
     { "label": "Home",       "href": "/",           "route": "home",       "icon": "🏠" },
     { "label": "Grammar",    "href": "/grammar/",   "route": "grammar",    "icon": "📖" },

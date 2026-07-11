@@ -9,7 +9,10 @@ permalink: /profile/
   {# 1. Profile Header Card #}
   <div class="card profile-header-card">
     <div class="profile-user-info">
-      <img id="profile-avatar" src="/assets/icons/icon-192.png" alt="User profile avatar" class="profile-avatar">
+      <picture>
+        <source srcset="/assets/icons/icon-192.webp" type="image/webp">
+        <img id="profile-avatar" src="/assets/icons/icon-192.png" alt="User profile avatar" class="profile-avatar" width="80" height="80">
+      </picture>
       <div>
         <h1 id="profile-name" class="profile-name">Loading...</h1>
         <p id="profile-email" class="profile-email">...</p>
@@ -72,9 +75,9 @@ permalink: /profile/
       👑 Owner Analytics Dashboard
     </h2>
     
-    <div class="owner-tab-controls">
-      <button onclick="switchTab('owner-summary')" class="btn-primary owner-tab-btn" id="tab-summary-btn">Summary Stats</button>
-      <button onclick="switchTab('owner-attempts')" class="btn-secondary owner-tab-btn" id="tab-attempts-btn">Student Attempts</button>
+    <div class="owner-tab-controls" role="tablist" aria-label="Analytics Tabs">
+      <button onclick="switchTab('owner-summary')" class="btn-primary owner-tab-btn" role="tab" aria-selected="true" id="tab-summary-btn">Summary Stats</button>
+      <button onclick="switchTab('owner-attempts')" class="btn-secondary owner-tab-btn" role="tab" aria-selected="false" id="tab-attempts-btn">Student Attempts</button>
     </div>
 
     {# 3a. Summary Stats Tab #}
@@ -123,7 +126,7 @@ permalink: /profile/
 </div>
 
 <script>
-  function escapeHTML(str) {
+  function window.escapeHTML(str) {
     if (typeof str !== 'string') return str;
     return str.replace(/[&<>'"]/g, 
       tag => ({
@@ -184,10 +187,10 @@ permalink: /profile/
             });
 
             tr.innerHTML = `
-              <td class="profile-td" style="font-weight: 600;">${escapeHTML(att.lesson_slug)}</td>
-              <td class="profile-td">${att.score}/${att.total_questions}</td>
+              <td class="profile-td" style="font-weight: 600;">${window.escapeHTML(att.lesson_slug)}</td>
+              <td class="profile-td">${window.escapeHTML(att.score.toString())}/${window.escapeHTML(att.total_questions.toString())}</td>
               <td class="profile-td" style="color: ${pct >= 80 ? '#10b981' : pct >= 50 ? 'var(--accent)' : '#ef4444'}; font-weight: bold;">${pct}%</td>
-              <td class="profile-td" style="color: var(--text-secondary); font-size: 0.85rem;">${dateStr}</td>
+              <td class="profile-td" style="color: var(--text-secondary); font-size: 0.85rem;">${window.escapeHTML(dateStr)}</td>
             `;
             studentBody.appendChild(tr);
           });
@@ -222,11 +225,11 @@ permalink: /profile/
           const avgPct = Math.round(sum.avg_percent);
 
           tr.innerHTML = `
-            <td class="profile-td" style="font-weight: 600;">${escapeHTML(sum.lesson_slug)}</td>
-            <td class="profile-td">${sum.total_attempts}</td>
+            <td class="profile-td" style="font-weight: 600;">${window.escapeHTML(sum.lesson_slug)}</td>
+            <td class="profile-td">${window.escapeHTML(sum.total_attempts.toString())}</td>
             <td class="profile-td" style="color: ${avgPct >= 80 ? '#10b981' : avgPct >= 50 ? 'var(--accent)' : '#ef4444'}; font-weight: bold;">${avgPct}%</td>
-            <td class="profile-td" style="color: #10b981; font-weight: bold;">${sum.max_score}/${sum.total_questions}</td>
-            <td class="profile-td" style="color: #ef4444; font-weight: bold;">${sum.min_score}/${sum.total_questions}</td>
+            <td class="profile-td" style="color: #10b981; font-weight: bold;">${window.escapeHTML(sum.max_score.toString())}/${window.escapeHTML(sum.total_questions.toString())}</td>
+            <td class="profile-td" style="color: #ef4444; font-weight: bold;">${window.escapeHTML(sum.min_score.toString())}/${window.escapeHTML(sum.total_questions.toString())}</td>
           `;
           summaryBody.appendChild(tr);
         });
@@ -246,11 +249,11 @@ permalink: /profile/
           });
 
           tr.innerHTML = `
-            <td class="profile-td" style="font-weight: 600;">${escapeHTML(att.name || 'Student')}</td>
-            <td class="profile-td" style="color: var(--text-secondary);">${escapeHTML(att.email)}</td>
-            <td class="profile-td">${escapeHTML(att.lesson_slug)}</td>
-            <td class="profile-td" style="font-weight: bold;">${att.score}/${att.total_questions}</td>
-            <td class="profile-td" style="color: var(--text-secondary); font-size: 0.85rem;">${dateStr}</td>
+            <td class="profile-td" style="font-weight: 600;">${window.escapeHTML(att.name || 'Student')}</td>
+            <td class="profile-td" style="color: var(--text-secondary);">${window.escapeHTML(att.email)}</td>
+            <td class="profile-td">${window.escapeHTML(att.lesson_slug)}</td>
+            <td class="profile-td" style="font-weight: bold;">${window.escapeHTML(att.score.toString())}/${window.escapeHTML(att.total_questions.toString())}</td>
+            <td class="profile-td" style="color: var(--text-secondary); font-size: 0.85rem;">${window.escapeHTML(dateStr)}</td>
           `;
           attemptsBody.appendChild(tr);
         });

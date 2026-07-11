@@ -9,8 +9,8 @@ export async function onRequestPost(context) {
   try {
     const { amount } = await request.json();
 
-    if (!amount || isNaN(amount) || amount <= 0) {
-      return Response.json({ success: false, error: 'Invalid coin amount.' }, { status: 400 });
+    if (typeof amount !== 'number' || !Number.isInteger(amount) || amount <= 0 || amount % 100 !== 0) {
+      return Response.json({ success: false, error: 'Invalid coin amount. Must be a positive integer multiple of 100.' }, { status: 400 });
     }
 
     if (amount < 100) {

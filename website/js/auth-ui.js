@@ -7,6 +7,10 @@ async function checkAuth() {
     const res = await fetch('/api/auth-me');
     const data = await res.json();
     if (data.loggedIn) {
+      if (window.location.pathname === '/login/') {
+        window.location.href = '/profile/';
+        return;
+      }
       currentUser = data.user;
       updateHeaderForLoggedIn();
       loadCoinBalance(); // Phase 3: load coin balance in header
@@ -50,9 +54,11 @@ function updateHeaderForLoggedIn() {
     profileBtn.style.cursor = 'pointer';
     
     if (currentUser.avatar_url) {
-      profileIcon.style.display = 'none';
-      profileImg.src = currentUser.avatar_url;
-      profileImg.style.display = 'block';
+      if (profileIcon) profileIcon.style.display = 'none';
+      if (profileImg) {
+        profileImg.src = currentUser.avatar_url;
+        profileImg.style.display = 'block';
+      }
     }
 
     profileBtn.onclick = (e) => {
@@ -62,11 +68,14 @@ function updateHeaderForLoggedIn() {
       profileMenu.style.display = isVisible ? 'none' : 'flex';
     };
 
-    document.addEventListener('click', (e) => {
-      if (!profileBtn.contains(e.target) && !profileMenu.contains(e.target)) {
-        profileMenu.style.display = 'none';
-      }
-    });
+    if (!profileBtn.dataset.clickAttached) {
+      document.addEventListener('click', (e) => {
+        if (profileMenu && !profileBtn.contains(e.target) && !profileMenu.contains(e.target)) {
+          profileMenu.style.display = 'none';
+        }
+      });
+      profileBtn.dataset.clickAttached = 'true';
+    }
   }
 
   const nameEl    = document.getElementById('menu-user-name');
@@ -128,13 +137,13 @@ function initFocusMode() {
   const isFocused = localStorage.getItem('ev-focus-mode') === 'true';
   if (isFocused) document.body.classList.add('focus-mode');
 
-  exitBtn.addEventListener('click', () => {
+  exitBtn.onclick = () => {
     document.body.classList.remove('focus-mode');
     localStorage.setItem('ev-focus-mode', 'false');
     if (document.exitFullscreen && document.fullscreenElement) {
       document.exitFullscreen().catch(() => {});
     }
-  });
+  };
 }
 
 // Global helper to toggle focus mode (can be called from any page button)

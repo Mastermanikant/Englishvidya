@@ -1,7 +1,12 @@
 // Bookmarks logic using LocalStorage
 function getBookmarks() {
-    const saved = localStorage.getItem('ev-bookmarks');
-    return saved ? JSON.parse(saved) : [];
+    try {
+        const saved = localStorage.getItem('ev-bookmarks');
+        return saved ? JSON.parse(saved) : [];
+    } catch (e) {
+        console.error('Error parsing bookmarks:', e);
+        return [];
+    }
 }
 
 function saveBookmarks(bookmarks) {
@@ -22,7 +27,12 @@ function toggleBookmark(slug, word, meaning, pron, category) {
         // Remove bookmark
         const removed = bookmarks.splice(index, 1)[0];
         if (removed && removed.synced) {
-            let toRemove = JSON.parse(localStorage.getItem('ev-bookmarks-to-remove') || '[]');
+            let toRemove = [];
+            try {
+                toRemove = JSON.parse(localStorage.getItem('ev-bookmarks-to-remove') || '[]');
+            } catch (e) {
+                console.error('Error parsing bookmarks to remove:', e);
+            }
             if (!toRemove.includes(slug)) {
                 toRemove.push(slug);
                 localStorage.setItem('ev-bookmarks-to-remove', JSON.stringify(toRemove));

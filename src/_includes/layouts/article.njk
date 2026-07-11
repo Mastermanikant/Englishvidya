@@ -29,15 +29,23 @@ layout: layouts/base.njk
     {# Test Yourself CTA #}
     {% if tags and "grammar" in tags %}
       {% set testSlug = permalink | replace("/grammar/", "") | replace("/", "") %}
-      <div class="practice-test-box">
-        <h3 class="practice-test-title">📝 अभ्यास करें (Practice Test)</h3>
-        <p class="practice-test-desc">
-          इस अध्याय को पढ़ने के बाद, अपनी समझ का परीक्षण करने के लिए यह छोटा सा टेस्ट अवश्य दें।
-        </p>
-        <a href="/test/{{ testSlug }}/" class="btn-primary practice-test-btn">
-          ✍️ Start Practice Test (टेस्ट दें)
-        </a>
-      </div>
+      {% set hasTest = false %}
+      {% for test in grammarTests %}
+        {% if test.slug == testSlug %}
+          {% set hasTest = true %}
+        {% endif %}
+      {% endfor %}
+      {% if hasTest %}
+        <div class="practice-test-box">
+          <h3 class="practice-test-title">📝 अभ्यास करें (Practice Test)</h3>
+          <p class="practice-test-desc">
+            इस अध्याय को पढ़ने के बाद, अपनी समझ का परीक्षण करने के लिए यह छोटा सा टेस्ट अवश्य दें।
+          </p>
+          <a href="/test/{{ testSlug }}/" class="btn-primary practice-test-btn">
+            ✍️ Start Practice Test (टेस्ट दें)
+          </a>
+        </div>
+      {% endif %}
     {% endif %}
 
     {# ── Sharing Section (Psychological CTA) ── #}
@@ -69,6 +77,7 @@ layout: layouts/base.njk
 
     {# --- Integrated Reviews & Comments --- #}
     {% set reviewSlug = page.fileSlug %}
+    <script src="/js/collapsible.js?v=2.1.0" defer></script>
     {% include "partials/reviews-comments.njk" %}
 
     <div class="back-home-container">
@@ -88,91 +97,3 @@ layout: layouts/base.njk
     </div>
   </aside>
 </div>
-
-
-
-<script>
-document.addEventListener('DOMContentLoaded', () => {
-  const contentArea = document.querySelector('.markdown-body');
-  if (!contentArea) return;
-
-  const h2s = contentArea.querySelectorAll('h2');
-  if (h2s.length === 0) return;
-
-  // Show control buttons if we have collapsible headings
-  const collapseAllBtn = document.getElementById('collapse-all-btn');
-  const expandAllBtn = document.getElementById('expand-all-btn');
-  if (collapseAllBtn) collapseAllBtn.style.display = 'inline-flex';
-  if (expandAllBtn) expandAllBtn.style.display = 'inline-flex';
-
-  h2s.forEach((h2, idx) => {
-    // 1. Create a content container for elements between this H2 and the next H2
-    const contentDiv = document.createElement('div');
-    contentDiv.className = 'collapsible-content';
-    contentDiv.id = `collapsible-section-${idx}`;
-
-    // Move siblings into the container until next H2 (or end)
-    let sibling = h2.nextSibling;
-    while (sibling) {
-      const nextSibling = sibling.nextSibling;
-      // If we encounter another H2 or share-box or comments, stop
-      if (sibling.nodeType === 1 && (sibling.tagName === 'H2' || sibling.classList.contains('share-box') || sibling.id === 'word-rating-container')) {
-        break;
-      }
-      contentDiv.appendChild(sibling);
-      sibling = nextSibling;
-    }
-
-    // Insert container after H2
-    h2.parentNode.insertBefore(contentDiv, h2.nextSibling);
-
-    // 2. Setup H2 styling and arrow
-    h2.classList.add('collapsible-header');
-    h2.innerHTML = `<span>${h2.innerHTML}</span><span class="toggle-icon">▲</span>`;
-
-    // Collapse by default
-    collapseSection(h2, contentDiv);
-
-    // 3. Click handler
-    h2.addEventListener('click', () => {
-      const isCollapsed = contentDiv.style.display === 'none';
-      if (isCollapsed) {
-        expandSection(h2, contentDiv);
-      } else {
-        collapseSection(h2, contentDiv);
-      }
-    });
-  });
-
-  function collapseSection(header, content) {
-    content.style.display = 'none';
-    header.classList.add('collapsed');
-    header.querySelector('.toggle-icon').textContent = '▼';
-  }
-
-  function expandSection(header, content) {
-    content.style.display = 'block';
-    header.classList.remove('collapsed');
-    header.querySelector('.toggle-icon').textContent = '▲';
-  }
-
-  // Global actions
-  if (collapseAllBtn) {
-    collapseAllBtn.addEventListener('click', () => {
-      h2s.forEach((h2, idx) => {
-        const content = document.getElementById(`collapsible-section-${idx}`);
-        if (content) collapseSection(h2, content);
-      });
-    });
-  }
-
-  if (expandAllBtn) {
-    expandAllBtn.addEventListener('click', () => {
-      h2s.forEach((h2, idx) => {
-        const content = document.getElementById(`collapsible-section-${idx}`);
-        if (content) expandSection(h2, content);
-      });
-    });
-  }
-});
-</script>

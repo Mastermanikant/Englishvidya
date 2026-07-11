@@ -40,8 +40,9 @@ async function initRatings() {
 
   // Handle click to rate
   starsUI.forEach(star => {
-    star.addEventListener('click', async (e) => {
-      const value = parseInt(e.target.dataset.value);
+    const handleRating = async (e) => {
+      const targetStar = e.currentTarget || e.target;
+      const value = parseInt(targetStar.dataset.value);
       
       requireAuth(async () => {
         try {
@@ -58,12 +59,21 @@ async function initRatings() {
             updateStarsUI(starsUI, result.avgRating);
             showToast('Rating saved successfully! ⭐', 'success');
           } else {
-            showToast(result.error || 'Failed to save rating', 'error');
+            showToast(result.error || 'Failed to rate.', 'error');
           }
         } catch (err) {
-          showToast('Network error', 'error');
+          showToast('Network error while rating.', 'error');
         }
       });
+    };
+
+    star.addEventListener('click', handleRating);
+    
+    star.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        handleRating(e);
+      }
     });
 
     // Hover effects
@@ -109,7 +119,10 @@ function initDiary() {
   });
 }
 
+let lastFocusElement = null;
+
 function openDiaryModal(slug) {
+  lastFocusElement = document.activeElement;
   let modal = document.getElementById('diary-modal');
   if (!modal) {
     modal = document.createElement('div');
@@ -171,7 +184,13 @@ function closeDiaryModal() {
   const modal = document.getElementById('diary-modal');
   if (modal) {
     modal.style.opacity = '0';
-    setTimeout(() => { modal.style.display = 'none'; }, 300);
+    setTimeout(() => { 
+      modal.style.display = 'none'; 
+      if (lastFocusElement) {
+        lastFocusElement.focus();
+        lastFocusElement = null;
+      }
+    }, 300);
   }
 }
 
@@ -217,13 +236,16 @@ async function initUGC() {
 
   const addBtn = document.getElementById('add-ugc-btn');
   if (addBtn) {
-    addBtn.addEventListener('click', () => {
+    addBtn.onclick = () => {
       requireAuth(() => openUGCModal(slug));
-    });
+    };
   }
 }
 
+let lastUGCFocusElement = null;
+
 function openUGCModal(slug) {
+  lastUGCFocusElement = document.activeElement;
   let modal = document.getElementById('ugc-modal');
   if (!modal) {
     modal = document.createElement('div');
@@ -277,7 +299,13 @@ function closeUGCModal() {
   const modal = document.getElementById('ugc-modal');
   if (modal) {
     modal.style.opacity = '0';
-    setTimeout(() => { modal.style.display = 'none'; }, 300);
+    setTimeout(() => { 
+      modal.style.display = 'none'; 
+      if (lastUGCFocusElement) {
+        lastUGCFocusElement.focus();
+        lastUGCFocusElement = null;
+      }
+    }, 300);
   }
 }
 
@@ -313,19 +341,19 @@ async function initComments() {
 
   // Handle reference inputs visibility
   if (toggleRefsBtn && refsContainer) {
-    toggleRefsBtn.addEventListener('click', () => {
+    toggleRefsBtn.onclick = () => {
       refsContainer.style.display = refsContainer.style.display === 'none' ? 'flex' : 'none';
-    });
+    };
   }
 
   if (addMoreRefsBtn) {
-    addMoreRefsBtn.addEventListener('click', () => {
+    addMoreRefsBtn.onclick = () => {
       const hiddenInputs = refsContainer.querySelectorAll('input[style*="display: none"]');
       if (hiddenInputs.length > 0) {
         hiddenInputs[0].style.display = 'block';
         if (hiddenInputs.length === 1) addMoreRefsBtn.style.display = 'none'; // all shown
       }
-    });
+    };
   }
 
   if (listContainer) {
@@ -375,12 +403,12 @@ async function initComments() {
   }
 
   if (postBtn && inputEl) {
-    inputEl.addEventListener('focus', () => {
+    inputEl.onfocus = () => {
       // Just check auth; if not logged in, it will trigger the redirect flow
       requireAuth(() => {});
-    });
+    };
 
-    postBtn.addEventListener('click', () => {
+    postBtn.onclick = () => {
       requireAuth(async () => {
         const text = inputEl.value.trim();
         if (!text) return showToast('Comment cannot be empty', 'error');
@@ -434,7 +462,7 @@ async function initComments() {
         }
         postBtn.disabled = false;
       });
-    });
+    };
   }
 }
 

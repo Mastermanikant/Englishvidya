@@ -52,11 +52,6 @@ export async function onRequest(context) {
       ).bind(payload.userId).first();
 
       if (user) {
-        // Auto-assign owner role
-        if (user.email === 'mastermanikant.in@gmail.com' && user.role !== 'owner') {
-          await env.DB.prepare("UPDATE users SET role = 'owner' WHERE id = ?").bind(user.id).run();
-          user.role = 'owner';
-        }
         context.data.user = user;
       }
     } catch (e) {

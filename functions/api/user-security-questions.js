@@ -1,3 +1,5 @@
+import { hashPasswordPBKDF2 } from './_shared/auth-utils.js';
+
 export async function onRequestPost(context) {
   const { request, env } = context;
   const user = context.data.user;
@@ -40,12 +42,8 @@ export async function onRequestPost(context) {
         // Clean the answer: lowercase and strip spaces
         const cleanAnswer = answer.trim().toLowerCase().replace(/\s+/g, '');
 
-        // Generate SHA-256 hash of clean answer
-        const encoder = new TextEncoder();
-        const data = encoder.encode(cleanAnswer);
-        const hashBuffer = await crypto.subtle.digest('SHA-256', data);
-        const hashArray = Array.from(new Uint8Array(hashBuffer));
-        answerHash = hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+        // Generate PBKDF2 hash of clean answer
+        answerHash = await hashPasswordPBKDF2(cleanAnswer);
       }
 
       processedQuestions.push({

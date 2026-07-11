@@ -26,9 +26,13 @@ permalink: /login/
   </div>
 
   <form id="login-form" class="auth-form">
-    <input type="text" id="login-id" placeholder="Email or UserID" required class="auth-input">
+    <div style="display: flex; flex-direction: column; width: 100%; text-align: left;">
+      <label for="login-id" class="visually-hidden" style="display: none;">Email or UserID</label>
+      <input type="text" id="login-id" aria-label="Email or UserID" placeholder="Email or UserID" aria-describedby="login-error" required class="auth-input">
+    </div>
     <div class="auth-password-container">
-      <input type="password" id="login-password" placeholder="Password" required class="auth-input">
+      <label for="login-password" class="visually-hidden" style="display: none;">Password</label>
+      <input type="password" id="login-password" aria-label="Password" placeholder="Password" aria-describedby="login-error" required class="auth-input">
       <a href="/forgot-password/" class="auth-forgot-link">Forgot Password? (पासवर्ड भूल गए?)</a>
     </div>
     <button type="submit" class="btn-primary auth-submit-btn" id="login-btn">Log In</button>

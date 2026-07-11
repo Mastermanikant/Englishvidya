@@ -76,7 +76,8 @@
     toast.style.fontSize = '0.95rem';
     toast.style.lineHeight = '1.4';
     toast.style.animation = 'slideUp 0.3s ease-out';
-    toast.innerHTML = `🪙 <span>${message}</span>`;
+    toast.innerHTML = `🪙 <span></span>`;
+    toast.querySelector('span').textContent = message;
     
     container.appendChild(toast);
     

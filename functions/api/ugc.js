@@ -21,11 +21,6 @@ export async function onRequestGet(context) {
 export async function onRequestPost(context) {
   const user = context.data.user;
   if (!user) return Response.json({ error: 'Login required' }, { status: 401 });
-  if (user.is_shadow_banned) {
-    // Shadow ban logic: Return success, but don't insert it (or insert as banned)
-    return Response.json({ success: true, message: 'Meaning submitted for review.' });
-  }
-
   const body = await context.request.json();
   const { action, slug, meaning_text, region, meaning_id, vote_type } = body;
 
@@ -40,6 +35,11 @@ export async function onRequestPost(context) {
 
     if (region && region.length > 100) {
       return Response.json({ error: 'क्षेत्र १०० अक्षरों से कम होना चाहिए।' }, { status: 400 });
+    }
+
+    if (user.is_shadow_banned) {
+      // Shadow ban logic: Return fake success without saving
+      return Response.json({ success: true, message: 'Added successfully! Marked as Not Verified.' });
     }
 
     // Rate Limiting: 1 submission every 15 seconds
@@ -67,6 +67,25 @@ export async function onRequestPost(context) {
     if (!meaning_id || !vote_type) return Response.json({ error: 'Invalid vote' }, { status: 400 });
 
     try {
+      const meaningAuthor = await context.env.DB.prepare('SELECT user_id, upvotes, downvotes FROM ugc_meanings WHERE id = ?').bind(meaning_id).first();
+      
+      if (!meaningAuthor) {
+         return Response.json({ error: 'Meaning not found' }, { status: 404 });
+      }
+      
+      if (meaningAuthor.user_id === user.id) {
+         return Response.json({ error: 'You cannot vote on your own submission' }, { status: 400 });
+      }
+
+      if (user.is_shadow_banned) {
+        // Shadow ban disguise: pretend vote succeeded
+        let fakeUp = meaningAuthor.upvotes;
+        let fakeDown = meaningAuthor.downvotes;
+        if (vote_type === 'up') fakeUp++;
+        if (vote_type === 'down') fakeDown++;
+        return Response.json({ success: true, upvotes: fakeUp, downvotes: fakeDown });
+      }
+
       // 1. Insert/Update vote
       await context.env.DB.prepare(
         `INSERT INTO votes (user_id, meaning_id, vote_type) VALUES (?, ?, ?)
@@ -82,14 +101,10 @@ export async function onRequestPost(context) {
         'UPDATE ugc_meanings SET upvotes = ?, downvotes = ? WHERE id = ?'
       ).bind(up.c, down.c, meaning_id).run();
 
-      // 4. Auto-ban check (Spam protection)
-      // If a meaning gets 5 downvotes and has less than 2 upvotes, shadow ban the user who created it
+      // 4. Auto-flag check (Spam protection)
+      // If a meaning gets 5 downvotes and has less than 2 upvotes, flag the meaning for admin review
       if (down.c >= 5 && up.c < 2) {
-        const ugc = await context.env.DB.prepare('SELECT user_id FROM ugc_meanings WHERE id = ?').bind(meaning_id).first();
-        if (ugc) {
-          await context.env.DB.prepare('UPDATE users SET is_shadow_banned = 1 WHERE id = ?').bind(ugc.user_id).run();
-          await context.env.DB.prepare('UPDATE ugc_meanings SET status = "banned" WHERE id = ?').bind(meaning_id).run();
-        }
+        await context.env.DB.prepare('UPDATE ugc_meanings SET status = "flagged" WHERE id = ?').bind(meaning_id).run();
       }
 
       return Response.json({ success: true, upvotes: up.c, downvotes: down.c });

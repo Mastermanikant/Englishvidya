@@ -1,7 +1,12 @@
 export async function onRequestPost(context) {
-  const { request, env } = context;
+  const { request, env, data } = context;
 
   try {
+    const userContext = data.user;
+    if (!userContext || (userContext.role !== 'owner' && userContext.role !== 'admin')) {
+      return Response.json({ error: 'Unauthorized: Admin privileges required.' }, { status: 403 });
+    }
+
     const { token, emailOrUsername } = await request.json();
 
     let user = null;

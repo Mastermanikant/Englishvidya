@@ -1,11 +1,13 @@
 ---
-
 title: "Article 04 — व्यंजन ध्वनियाँ और उच्चारण नियम (Consonant Sounds, Spelling Rules & Silent Letters)"
-permalink: /grammar/consonant-sounds-pronunciation/
-module: "Foundation"
-topicNumber: 5
-description: "व्यंजन ध्वनियाँ, स्पेलिंग रूल्स, Hard/Soft C & G नियम और मूक अक्षर (Silent Letters)।"
+permalink: "/grammar/consonant-sounds-pronunciation/"
+module: "Foundation & Sounds"
+topicNumber: 4
+description: "बच्चों, पिछले अध्याय (Article 03) में हमने स्वर ध्वनियों (Vowel Sounds) का पूरा विज्ञान समझा — Short, Long, और Diphth..."
+published: true
+testSlug: "consonant-sounds-pronunciation"
 ---
+
 # Article 04 — व्यंजन ध्वनियाँ और उच्चारण नियम (Consonant Sounds, Spelling Rules & Silent Letters)
 
 ### 📝 Topic Introduction (विषय का परिचय)

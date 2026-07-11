@@ -25,7 +25,13 @@ export async function onRequestPost(context) {
     }
 
     if (!user) {
-      return Response.json({ error: 'यह ईमेल या यूज़रनेम हमारे सिस्टम में मौजूद नहीं है।' }, { status: 404 });
+      // Prevent user enumeration by returning a fake success response
+      return Response.json({
+        success: true,
+        requireChoice: false,
+        sentTo: obfuscateEmail(cleanInput.includes('@') ? cleanInput : 'user@example.com'),
+        message: 'यदि यह खाता मौजूद है, तो पासवर्ड रीसेट कोड भेज दिया गया है!'
+      });
     }
 
     // 2. Check if user has backup recovery email
@@ -74,7 +80,7 @@ export async function onRequestPost(context) {
 
     // 4. Generate 6-digit Numeric OTP
     const otp = generateSecureOTP(6);
-    const expiryTime = new Date(nowMs + 30 * 60 * 60 * 1000).toISOString(); // 30 hours valid
+    const expiryTime = new Date(nowMs + 15 * 60 * 1000).toISOString(); // 15 mins valid
 
     // Add current timestamp to rate limiting list
     timestamps.push(new Date(nowMs).toISOString());
@@ -93,7 +99,7 @@ export async function onRequestPost(context) {
 
     // 6. Simulate email sending
     const siteUrl = env.SITE_URL || new URL(request.url).origin;
-    const resetLink = `${siteUrl}/reset-password/?code=${otp}`;
+    const resetLink = `${siteUrl}/reset-password/?email=${encodeURIComponent(targetEmail)}&code=${otp}`;
 
     console.log(`[EMAIL SIMULATION] Sending password reset details to ${targetEmail} (${targetLabel})`);
     // Removed OTP and reset link logging in plaintext for security.

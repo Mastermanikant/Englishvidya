@@ -7,7 +7,7 @@
     {# Left: Announcement #}
     <div class="utility-announcement">
       <span class="utility-dot" aria-hidden="true"></span>
-      <span>🎓 Bihar Board Class 10 &amp; 12 content coming soon!</span>
+      <span>{{ site.headerAnnouncement }}</span>
     </div>
 
     {# Right: Contact + Social #}
@@ -32,7 +32,7 @@
 
 
 {# Mobile Drawer Overlay #}
-<div class="mobile-drawer-overlay" id="mobile-drawer-overlay" role="dialog" aria-label="Mobile Navigation Menu">
+<div class="mobile-drawer-overlay" id="mobile-drawer-overlay" role="dialog" aria-modal="true" aria-label="Mobile Navigation Menu">
   <div class="mobile-drawer" id="mobile-drawer">
     <div class="mobile-drawer-header">
       <a href="/" class="logo" aria-label="{{ site.siteName }} Home">
@@ -51,6 +51,7 @@
       <a href="/class-10/" class="mobile-drawer-link" data-route="class-10">🏫 Class 10th</a>
       <a href="/class-12/" class="mobile-drawer-link" data-route="class-12">🎓 Class 12th</a>
       <a href="/all-post/" class="mobile-drawer-link" data-route="all-post">📝 All Posts</a>
+      <a href="/idioms/" class="mobile-drawer-link" data-route="idioms">🎭 Idioms</a>
       <a href="/test/" class="mobile-drawer-link" data-route="test">🏆 Tests</a>
       <a href="/ask-ai/" class="mobile-drawer-link" data-route="ask-ai">🤖 Ask AI</a>
       <a href="/contact/" class="mobile-drawer-link" data-route="contact">🎧 Help & Support</a>
@@ -158,6 +159,7 @@
           <div id="menu-user-name" class="profile-menu-name">User</div>
           <div id="menu-user-email" class="profile-menu-email">user@email.com</div>
         </div>
+        <a href="/profile/" class="profile-menu-item">👤 My Profile</a>
         <a href="/referral/" class="profile-menu-item coin-item">🪙 Coins &amp; Referral</a>
         <a href="/my-diary/" class="profile-menu-item">📓 My Diary</a>
         <a href="/settings/" class="profile-menu-item">⚙️ Settings</a>

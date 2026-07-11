@@ -1,11 +1,13 @@
 ---
-
 title: "Article 03 — स्वर ध्वनियाँ और उच्चारण विज्ञान (Vowel Sounds: Short, Long & Diphthongs)"
-permalink: /grammar/vowel-sounds/
-module: "Foundation"
-topicNumber: 4
-description: "स्वर ध्वनियाँ (Short, Long, Diphthongs) और उनका मुँह के अंगों द्वारा सटीक उच्चारण विज्ञान।"
+permalink: "/grammar/vowel-sounds/"
+module: "Foundation & Sounds"
+topicNumber: 3
+description: "बच्चों, अंग्रेज़ी वर्णमाला में केवल 5 Vowel Letters (A, E, I, O, U) हैं, लेकिन इनसे 20 अलग-अलग Vowel Sounds (स्वर ध्व..."
+published: true
+testSlug: "vowel-sounds"
 ---
+
 # Article 03 — स्वर ध्वनियाँ और उच्चारण विज्ञान (Vowel Sounds: Short, Long & Diphthongs)
 
 ### 📝 Topic Introduction (विषय का परिचय)

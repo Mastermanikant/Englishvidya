@@ -5,14 +5,12 @@ metaDescription: "View all the English words you have saved to your favorites li
 permalink: /dictionary/favorites/
 ---
 
-{# Breadcrumb #}
-<nav class="breadcrumb" aria-label="Breadcrumb">
-  <a href="/">Home</a>
-  <span class="breadcrumb-sep" aria-hidden="true">›</span>
-  <a href="/dictionary/">Dictionary</a>
-  <span class="breadcrumb-sep" aria-hidden="true">›</span>
-  <span aria-current="page">Favorites</span>
-</nav>
+{% set breadcrumbs = [
+  { label: 'Home', href: '/' },
+  { label: 'Dictionary', href: '/dictionary/' },
+  { label: 'Favorites' }
+] %}
+{% include "partials/breadcrumbs.njk" %}
 
 <div class="hero-welcome animate-fade-in" style="padding-bottom: var(--sp-4);">
   <h1 style="font-size: 1.8rem; display: flex; align-items: center; gap: 10px;">❤️ My Saved Words</h1>
