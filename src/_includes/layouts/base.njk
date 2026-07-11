@@ -78,7 +78,7 @@
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@600;700;800;900&display=swap"></noscript>
 
   {# ── CSS ── #}
-  <link rel="stylesheet" href="/css/style.css?v=2.0.7">
+  <link rel="stylesheet" href="/css/style.css?v=2.1.0">
 
   {# ── FOUC Prevention + Theme / Font-Scale Restore ── #}
   <script>
@@ -131,23 +131,23 @@
   <div id="toast-container" aria-live="polite" aria-atomic="true"></div>
 
   {# ── JS — existing app files ── #}
-  <script src="/js/toast.js?v=2.0.8" defer></script>
-  <script src="/js/app.js?v=2.0.8" defer></script>
-  <script src="/js/heartbeat.js?v=2.0.8" defer></script>
-  <script src="/js/auth-ui.js?v=2.0.8" defer></script>
-  <script src="/js/bookmarks.js?v=2.0.8" defer></script>
+  <script src="/js/toast.js?v=2.1.0" defer></script>
+  <script src="/js/app.js?v=2.1.0" defer></script>
+  <script src="/js/heartbeat.js?v=2.1.0" defer></script>
+  <script src="/js/auth-ui.js?v=2.1.0" defer></script>
+  <script src="/js/bookmarks.js?v=2.1.0" defer></script>
   <script src="/js/alpine.min.js" defer></script>
 
   {% if page.url == '/' %}
-  <script src="/js/home-redesign.js?v=2.0.8" defer></script>
+  <script src="/js/home-redesign.js?v=2.1.0" defer></script>
   {% endif %}
 
   {% if page.url and '/my-diary' in page.url %}
-  <script src="/js/diary.js?v=2.0.8" defer></script>
+  <script src="/js/diary.js?v=2.1.0" defer></script>
   {% endif %}
 
   {% if page.url and ('/grammar' in page.url or '/meaning' in page.url or '/article' in page.url) %}
-  <script src="/js/community.js?v=2.0.8" defer></script>
+  <script src="/js/community.js?v=2.1.0" defer></script>
   {% endif %}
 
   <script>
@@ -168,7 +168,7 @@
           document.body.appendChild(fuseScript);
           
           const searchScript = document.createElement('script');
-          searchScript.src = '/js/search.js?v=2.0.8';
+          searchScript.src = '/js/search.js?v=2.1.0';
           searchScript.defer = true;
           fuseScript.onload = () => {
             document.body.appendChild(searchScript);
