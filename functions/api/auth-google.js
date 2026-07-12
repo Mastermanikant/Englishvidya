@@ -3,14 +3,20 @@ import { validateRedirectUrl } from './_shared/auth-utils.js';
 export async function onRequestGet(context) {
   const { request, env } = context;
   const urlParams = new URL(request.url).searchParams;
-  let redirectTo = urlParams.get('redirect') || '/';
+  let redirectTo = urlParams.get('redirect') || '/profile/';
   
   redirectTo = validateRedirectUrl(redirectTo);
   
   const redirectUri = `${env.SITE_URL}/api/auth-callback`;
   const scope = 'openid email profile';
-  // Use state to pass the redirect URL safely
-  const state = encodeURIComponent(redirectTo);
+  
+  // Generate CSRF token
+  const csrfToken = crypto.randomUUID();
+  const stateObj = {
+    redirect: redirectTo,
+    csrf: csrfToken
+  };
+  const state = btoa(JSON.stringify(stateObj));
 
   const url = `https://accounts.google.com/o/oauth2/v2/auth?` +
     `client_id=${env.GOOGLE_CLIENT_ID}` +
@@ -20,5 +26,9 @@ export async function onRequestGet(context) {
     `&state=${state}` +
     `&prompt=select_account`;
 
-  return Response.redirect(url, 302);
+  const headers = new Headers();
+  headers.append('Location', url);
+  headers.append('Set-Cookie', `ev_oauth_csrf=${csrfToken}; HttpOnly; Secure; SameSite=Lax; Max-Age=300; Path=/`);
+
+  return new Response(null, { status: 302, headers });
 }

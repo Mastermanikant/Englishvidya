@@ -6,8 +6,8 @@ permalink: /login/
 ---
 
 <div class="auth-container">
-  <h1 class="auth-title">Welcome Back!</h1>
-  <p class="auth-desc">Login to save words to your diary and earn trust points.</p>
+  <h1 class="auth-title">Login or Sign Up</h1>
+  <p class="auth-desc">Continue with Google to start your learning journey and save your progress.</p>
   
   <a id="google-login-btn" href="/api/auth-google" class="btn-primary auth-google-btn">
     <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -19,81 +19,28 @@ permalink: /login/
     Continue with Google
   </a>
 
-  <div class="auth-divider-container">
-    <div class="auth-divider-line"></div>
-    <span class="auth-divider-text">OR</span>
-    <div class="auth-divider-line"></div>
-  </div>
-
-  <form id="login-form" class="auth-form">
-    <div style="display: flex; flex-direction: column; width: 100%; text-align: left;">
-      <label for="login-id" class="visually-hidden" style="display: none;">Email or UserID</label>
-      <input type="text" id="login-id" aria-label="Email or UserID" placeholder="Email or UserID" aria-describedby="login-error" required class="auth-input">
-    </div>
-    <div class="auth-password-container">
-      <label for="login-password" class="visually-hidden" style="display: none;">Password</label>
-      <input type="password" id="login-password" aria-label="Password" placeholder="Password" aria-describedby="login-error" required class="auth-input">
-      <a href="/forgot-password/" class="auth-forgot-link">Forgot Password? (पासवर्ड भूल गए?)</a>
-    </div>
-    <button type="submit" class="btn-primary auth-submit-btn" id="login-btn">Log In</button>
-    <div id="login-error" class="auth-error"></div>
-  </form>
-
-  <div class="auth-legal-text">
+  <div class="auth-legal-text" style="margin-top: 30px;">
     अकाउंट बनाने या लॉगिन करने का मतलब है कि आप हमारी <a href="/legal-hindi/" style="color: var(--accent);">नियम और शर्तों (Legal Terms)</a> को स्वीकार करते हैं।
   </div>
 
-  <div class="auth-footer-text">
-    Don't have an account? <a href="/signup/" class="auth-footer-link">Sign up here</a>
-  </div>
+
 </div>
 
 <script>
 document.addEventListener('DOMContentLoaded', () => {
   const urlParams = new URLSearchParams(window.location.search);
-  const redirect = urlParams.get('redirect') || '/';
+  const redirect = urlParams.get('redirect') || '/profile/';
   
   // Google button redirect
   const googleBtn = document.getElementById('google-login-btn');
-  googleBtn.href = '/api/auth-google?redirect=' + encodeURIComponent(redirect);
-
-  // Form submit
-  const form = document.getElementById('login-form');
-  const errorDiv = document.getElementById('login-error');
-  const loginBtn = document.getElementById('login-btn');
-
-  form.addEventListener('submit', async (e) => {
-    e.preventDefault();
-    const loginId = document.getElementById('login-id').value.trim();
-    const password = document.getElementById('login-password').value;
-
-    if (!loginId || !password) return;
-
-    loginBtn.disabled = true;
-    loginBtn.textContent = 'Logging in...';
-    errorDiv.style.display = 'none';
-
-    try {
-      const res = await fetch('/api/auth-login', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ loginId, password })
-      });
-      const data = await res.json();
-
-      if (res.ok && data.success) {
-        window.location.href = redirect;
-      } else {
-        errorDiv.textContent = data.error || 'Login failed.';
-        errorDiv.style.display = 'block';
-      }
-    } catch (err) {
-      errorDiv.textContent = 'Network error. Please try again.';
-      errorDiv.style.display = 'block';
-    }
+  if (googleBtn) {
+    googleBtn.href = '/api/auth-google?redirect=' + encodeURIComponent(redirect);
     
-    loginBtn.disabled = false;
-    loginBtn.textContent = 'Log In';
-  });
+    googleBtn.addEventListener('click', function() {
+      this.style.opacity = '0.7';
+      this.style.pointerEvents = 'none';
+      this.innerHTML = '⏳ Redirecting to Google...';
+    });
+  }
 });
 </script>

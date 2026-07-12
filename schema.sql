@@ -41,6 +41,7 @@ CREATE TABLE IF NOT EXISTS users (
   referred_by_id INTEGER DEFAULT NULL,
   referred_bonus_paid INTEGER NOT NULL DEFAULT 0,
   referrer_bonus_paid INTEGER NOT NULL DEFAULT 0,
+  signup_ip TEXT DEFAULT NULL,
   created_at TEXT NOT NULL DEFAULT (datetime('now')),
   updated_at TEXT NOT NULL DEFAULT (datetime('now')),
   FOREIGN KEY (referred_by_id) REFERENCES users(id)
