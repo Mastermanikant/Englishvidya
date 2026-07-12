@@ -58,7 +58,17 @@ export async function onRequestPost(context) {
       await env.DB.prepare(
         'UPDATE comments SET status = ?, action_by_id = ?, action_at = ? WHERE id = ?'
       ).bind(statusToSet, user.id, now, parsedId).run();
-    } else if (type === 'user' && action === 'approve_delete') {
+    }
+    
+    // BOLA FIX: Prevent Admin from modifying Owner
+    if (['user', 'user_trust', 'user_shadow_ban'].includes(type)) {
+      const targetUser = await env.DB.prepare('SELECT role FROM users WHERE id = ?').bind(parsedId).first();
+      if (targetUser && targetUser.role === 'owner') {
+        return new Response('Cannot modify owner account', { status: 403 });
+      }
+    }
+
+    if (type === 'user' && action === 'approve_delete') {
       // Soft Delete: Anonymize user data
       await env.DB.prepare(`
         UPDATE users 
@@ -109,49 +119,6 @@ export async function onRequestPost(context) {
       }
       await env.DB.prepare('UPDATE support_tickets SET status = ?, updated_at = datetime("now") WHERE id = ?').bind(status, parsedId).run();
       return Response.json({ success: true, newStatus: status });
-    } else if (type === 'admin_reset_user_password') {
-      const { newPassword } = body;
-      if (!newPassword || newPassword.length < 6) {
-        return Response.json({ success: false, error: 'पासवर्ड कम से कम ६ अक्षरों का होना चाहिए।' }, { status: 400 });
-      }
-
-      // Fetch user's admin reset requested at
-      const targetUser = await env.DB.prepare('SELECT admin_reset_requested_at FROM users WHERE id = ?').bind(parsedId).first();
-      if (!targetUser) {
-        return Response.json({ success: false, error: 'यूज़र नहीं मिला।' }, { status: 404 });
-      }
-
-      if (!targetUser.admin_reset_requested_at) {
-        return Response.json({ success: false, error: 'इस यूज़र के लिए कोई एडमिन रीसेट अनुरोध नहीं मिला है।' }, { status: 400 });
-      }
-
-      // Check if 48 hours have passed
-      const reqTime = new Date(targetUser.admin_reset_requested_at).getTime();
-      const now = Date.now();
-      const diffHours = (now - reqTime) / (1000 * 60 * 60);
-
-      if (diffHours < 48) {
-        const remaining = Math.ceil(48 - diffHours);
-        return Response.json({ success: false, error: `सुरक्षा कारणों से होल्ड सक्रिय है। कृपया ${remaining} घंटे बाद प्रयास करें।` }, { status: 400 });
-      }
-
-      // Hash password using PBKDF2
-      const password_hash = await hashPasswordPBKDF2(newPassword);
-
-      // Update password and clear reset state
-      await env.DB.prepare(
-        `UPDATE users 
-         SET password_hash = ?, 
-             admin_reset_requested_at = NULL, 
-             reset_token = NULL, 
-             reset_token_expires_at = NULL, 
-             reset_attempts = 0 
-         WHERE id = ?`
-      )
-        .bind(password_hash, parsedId)
-        .run();
-
-      return Response.json({ success: true, message: 'पासवर्ड सफलतापूर्वक बदल दिया गया है!' });
     } else {
       return new Response('Invalid type', { status: 400 });
     }

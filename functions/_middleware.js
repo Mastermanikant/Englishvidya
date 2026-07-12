@@ -15,10 +15,10 @@ export async function onRequest(context) {
     const username = segments[0].toLowerCase();
     const reserved = [
       'admin', 'api', 'assets', 'css', 'js', 'dictionary', 'grammar', 
-      'legal', 'legal-hindi', 'settings', 'login', 'contact', 'profile', 
+      'legal', 'legal-hindi', 'settings', 'login', 'signup', 'register', 'contact', 'profile', 
       'about-us', 'about-us-hindi', 'forum', 'my-diary', 'founder-mastermanikant', 
       'founder-mastermanikant-hindi', 'class-10', 'class-12', 'flashcards', 
-      'robots.txt', 'manifest.json', 'sitemap.xml', 'favicon.ico', 'paid'
+      'robots.txt', 'manifest.json', 'sitemap.xml', 'favicon.ico', 'paid', 'iamkingofev'
     ];
     
     if (!reserved.includes(username) && /^[a-z0-9_-]{3,20}$/.test(username)) {

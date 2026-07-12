@@ -86,10 +86,24 @@ export async function onRequestPost(context) {
     }
   }
 
-  // Handle reference links (max 5)
+  // Handle reference links (max 5) with strict protocol validation against XSS
   let refJson = '[]';
   if (Array.isArray(references)) {
-    const validRefs = references.filter(l => l && l.trim().length > 0).slice(0, 5);
+    const validRefs = references
+      .filter(l => typeof l === 'string' && l.trim().length > 0)
+      .map(l => l.trim())
+      .filter(l => {
+        try {
+          const parsed = new URL(l);
+          return ['http:', 'https:'].includes(parsed.protocol);
+        } catch (e) {
+          // If it doesn't parse as a full URL, we might want to reject it
+          // or assume it's a domain and prepend https://, but strict is safer.
+          return false; 
+        }
+      })
+      .slice(0, 5);
+      
     const refsWithStatus = validRefs.map(url => ({ url, status: 'pending' }));
     refJson = JSON.stringify(refsWithStatus);
   }

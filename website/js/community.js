@@ -33,6 +33,25 @@ async function initRatings() {
       avgText.textContent = data.avgRating.toFixed(1);
       countText.textContent = `(${data.totalVotes} votes)`;
       updateStarsUI(starsUI, data.avgRating);
+      
+      // Inject SEO Schema for AggregateRating
+      let script = document.getElementById('rating-schema');
+      if (!script) {
+        script = document.createElement('script');
+        script.id = 'rating-schema';
+        script.type = 'application/ld+json';
+        document.head.appendChild(script);
+      }
+      script.textContent = JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": document.title.split(' — ')[0].replace('Meaning of ', ''),
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": data.avgRating.toFixed(1),
+          "reviewCount": data.totalVotes
+        }
+      });
     }
   } catch (err) {
     console.error('Failed to load ratings', err);
@@ -431,8 +450,22 @@ async function initComments() {
         // Collect references
         const refInputs = document.querySelectorAll('.ref-input');
         const references = [];
+        let hasDangerousUrl = false;
         if (refInputs) {
-          refInputs.forEach(i => { if (i.value.trim()) references.push(i.value.trim()); });
+          refInputs.forEach(i => { 
+            const val = i.value.trim();
+            if (val) {
+              const lowerVal = val.toLowerCase();
+              if (lowerVal.startsWith('javascript:') || lowerVal.startsWith('data:') || lowerVal.startsWith('vbscript:')) {
+                hasDangerousUrl = true;
+              }
+              references.push(val); 
+            }
+          });
+        }
+        
+        if (hasDangerousUrl) {
+          return showToast('सुरक्षा कारणों से यह लिंक स्वीकार नहीं किया जा सकता। (Invalid Protocol)', 'error');
         }
 
         postBtn.disabled = true;
