@@ -1,32 +1,28 @@
 @echo off
-title "EnglishVidya - Push to GitHub"
+title "EnglishVidya - Build, Deploy & Push to GitHub"
 echo ===================================================
-echo   EnglishVidya - Deploying changes to GitHub...
+echo   EnglishVidya - Building & Deploying Live...
 echo ===================================================
 echo.
 
 cd /d "%~dp0"
 
-echo [1/3] Adding modified files to Git...
+echo [1/4] Building static site (Eleventy)...
+call npm run build
+
+echo [2/4] Deploying directly to Cloudflare Pages...
+call npx wrangler pages deploy _site --project-name=englishvidya
+
+echo [3/4] Adding changes to Git...
 git add .
 
-echo [2/3] Committing changes...
-git commit -m "Auto Update - %date% %time%"
-
-echo [3/3] Pushing code to GitHub (origin main)...
+echo [4/4] Committing & Pushing to GitHub...
+git commit -m "Auto Build & Direct Deploy - %date% %time%"
 git push origin main
 
 echo.
-if %ERRORLEVEL% EQU 0 (
-    echo ===================================================
-    echo  SUCCESS! Changes pushed to GitHub successfully!
-    echo  Cloudflare Pages will build and deploy live now.
-    echo ===================================================
-) else (
-    echo ===================================================
-    echo  ERROR: Failed to push to GitHub.
-    echo ===================================================
-)
-
+echo ===================================================
+echo  SUCCESS! Site built, deployed to Cloudflare & pushed to GitHub!
+echo ===================================================
 echo.
 pause
