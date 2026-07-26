@@ -1,0 +1,237 @@
+{
+  "routes": [
+    {
+      "routePath": "/api/admin-action",
+      "mountPath": "/api",
+      "method": "POST",
+      "module": [
+        "api/admin-action.js:onRequestPost"
+      ]
+    },
+    {
+      "routePath": "/api/admin-data",
+      "mountPath": "/api",
+      "method": "GET",
+      "module": [
+        "api/admin-data.js:onRequestGet"
+      ]
+    },
+    {
+      "routePath": "/api/admin-revert",
+      "mountPath": "/api",
+      "method": "POST",
+      "module": [
+        "api/admin-revert.js:onRequestPost"
+      ]
+    },
+    {
+      "routePath": "/api/auth-callback",
+      "mountPath": "/api",
+      "method": "GET",
+      "module": [
+        "api/auth-callback.js:onRequestGet"
+      ]
+    },
+    {
+      "routePath": "/api/auth-custom",
+      "mountPath": "/api",
+      "method": "POST",
+      "module": [
+        "api/auth-custom.js:onRequestPost"
+      ]
+    },
+    {
+      "routePath": "/api/auth-google",
+      "mountPath": "/api",
+      "method": "GET",
+      "module": [
+        "api/auth-google.js:onRequestGet"
+      ]
+    },
+    {
+      "routePath": "/api/auth-logout",
+      "mountPath": "/api",
+      "method": "GET",
+      "module": [
+        "api/auth-logout.js:onRequestGet"
+      ]
+    },
+    {
+      "routePath": "/api/auth-me",
+      "mountPath": "/api",
+      "method": "GET",
+      "module": [
+        "api/auth-me.js:onRequestGet"
+      ]
+    },
+    {
+      "routePath": "/api/comments",
+      "mountPath": "/api",
+      "method": "GET",
+      "module": [
+        "api/comments.js:onRequestGet"
+      ]
+    },
+    {
+      "routePath": "/api/comments",
+      "mountPath": "/api",
+      "method": "POST",
+      "module": [
+        "api/comments.js:onRequestPost"
+      ]
+    },
+    {
+      "routePath": "/api/diary",
+      "mountPath": "/api",
+      "method": "GET",
+      "module": [
+        "api/diary.js:onRequestGet"
+      ]
+    },
+    {
+      "routePath": "/api/diary",
+      "mountPath": "/api",
+      "method": "POST",
+      "module": [
+        "api/diary.js:onRequestPost"
+      ]
+    },
+    {
+      "routePath": "/api/heartbeat",
+      "mountPath": "/api",
+      "method": "POST",
+      "module": [
+        "api/heartbeat.js:onRequestPost"
+      ]
+    },
+    {
+      "routePath": "/api/owner-analytics",
+      "mountPath": "/api",
+      "method": "GET",
+      "module": [
+        "api/owner-analytics.js:onRequestGet"
+      ]
+    },
+    {
+      "routePath": "/api/rate",
+      "mountPath": "/api",
+      "method": "GET",
+      "module": [
+        "api/rate.js:onRequestGet"
+      ]
+    },
+    {
+      "routePath": "/api/rate",
+      "mountPath": "/api",
+      "method": "POST",
+      "module": [
+        "api/rate.js:onRequestPost"
+      ]
+    },
+    {
+      "routePath": "/api/redeem-coins",
+      "mountPath": "/api",
+      "method": "POST",
+      "module": [
+        "api/redeem-coins.js:onRequestPost"
+      ]
+    },
+    {
+      "routePath": "/api/redeem-pass-coins",
+      "mountPath": "/api",
+      "method": "POST",
+      "module": [
+        "api/redeem-pass-coins.js:onRequestPost"
+      ]
+    },
+    {
+      "routePath": "/api/referral",
+      "mountPath": "/api",
+      "method": "GET",
+      "module": [
+        "api/referral.js:onRequestGet"
+      ]
+    },
+    {
+      "routePath": "/api/support-reply",
+      "mountPath": "/api",
+      "method": "POST",
+      "module": [
+        "api/support-reply.js:onRequestPost"
+      ]
+    },
+    {
+      "routePath": "/api/support-ticket",
+      "mountPath": "/api",
+      "method": "GET",
+      "module": [
+        "api/support-ticket.js:onRequestGet"
+      ]
+    },
+    {
+      "routePath": "/api/support-ticket",
+      "mountPath": "/api",
+      "method": "POST",
+      "module": [
+        "api/support-ticket.js:onRequestPost"
+      ]
+    },
+    {
+      "routePath": "/api/tests",
+      "mountPath": "/api",
+      "method": "GET",
+      "module": [
+        "api/tests.js:onRequestGet"
+      ]
+    },
+    {
+      "routePath": "/api/tests",
+      "mountPath": "/api",
+      "method": "POST",
+      "module": [
+        "api/tests.js:onRequestPost"
+      ]
+    },
+    {
+      "routePath": "/api/ugc",
+      "mountPath": "/api",
+      "method": "GET",
+      "module": [
+        "api/ugc.js:onRequestGet"
+      ]
+    },
+    {
+      "routePath": "/api/ugc",
+      "mountPath": "/api",
+      "method": "POST",
+      "module": [
+        "api/ugc.js:onRequestPost"
+      ]
+    },
+    {
+      "routePath": "/api/user-update",
+      "mountPath": "/api",
+      "method": "POST",
+      "module": [
+        "api/user-update.js:onRequestPost"
+      ]
+    },
+    {
+      "routePath": "/api/user-update",
+      "mountPath": "/api",
+      "method": "PUT",
+      "module": [
+        "api/user-update.js:onRequestPut"
+      ]
+    },
+    {
+      "routePath": "/",
+      "mountPath": "/",
+      "method": "",
+      "middleware": [
+        "_middleware.js:onRequest"
+      ]
+    }
+  ],
+  "baseURL": "/"
+}
