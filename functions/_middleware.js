@@ -87,13 +87,19 @@ async function verifyJWT(token, secret) {
 
   if (!valid) throw new Error('Invalid signature');
 
-  const payload = JSON.parse(atob(payloadB64.replace(/-/g, '+').replace(/_/g, '/')));
+  const payload = JSON.parse(base64UrlDecodeText(payloadB64));
 
   if (payload.exp && payload.exp < Math.floor(Date.now() / 1000)) {
     throw new Error('Token expired');
   }
 
   return payload;
+}
+
+function base64UrlDecodeText(str) {
+  let padded = str.replace(/-/g, '+').replace(/_/g, '/');
+  while (padded.length % 4) padded += '=';
+  return atob(padded);
 }
 
 function base64UrlDecode(str) {

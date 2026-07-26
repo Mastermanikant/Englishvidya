@@ -93,7 +93,9 @@ export async function verifyJWT(token, secret) {
     const isValid = await crypto.subtle.verify('HMAC', key, sig, new TextEncoder().encode(data));
 
     if (!isValid) return null;
-    const payload = JSON.parse(atob(payloadB64.replace(/-/g, '+').replace(/_/g, '/')));
+    let paddedPayload = payloadB64.replace(/-/g, '+').replace(/_/g, '/');
+    while (paddedPayload.length % 4) paddedPayload += '=';
+    const payload = JSON.parse(atob(paddedPayload));
     if (payload.exp && Math.floor(Date.now() / 1000) > payload.exp) return null;
     return payload;
   } catch (err) {

@@ -52,7 +52,7 @@ export async function onRequestGet(context) {
 
   // Step 3: DB me user insert ya update karo
   let user = await env.DB.prepare(
-    'SELECT id, email, name, google_id FROM users WHERE google_id = ?'
+    'SELECT id, email, name, google_id, avatar_url FROM users WHERE google_id = ?'
   ).bind(googleUser.id).first();
 
   let referrerId = null;
@@ -102,6 +102,17 @@ export async function onRequestGet(context) {
       ).bind(googleUser.id, googleUser.email, googleUser.name, googleUser.picture || '', clientIp).run();
     }
     user = { id: result.meta.last_row_id || result.insertId, email: googleUser.email, name: googleUser.name };
+  } else {
+    // Existing user: Sync avatar_url & name from Google if changed or missing
+    if (googleUser.picture && user.avatar_url !== googleUser.picture) {
+      try {
+        await env.DB.prepare(
+          'UPDATE users SET avatar_url = ?, name = COALESCE(NULLIF(name, ""), ?) WHERE id = ?'
+        ).bind(googleUser.picture, googleUser.name || '', user.id).run();
+      } catch (e) {
+        // Silently continue if update fails
+      }
+    }
   }
 
   // Step 4: JWT Token banao (7 din valid)
