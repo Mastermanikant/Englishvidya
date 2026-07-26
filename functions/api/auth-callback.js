@@ -126,7 +126,10 @@ export async function onRequestGet(context) {
       } else {
         result = await insertUser(googleUser.id, googleUser.email, googleUser.name, googleUser.picture || '', clientIp, null);
       }
-      user = { id: result.meta.last_row_id || result.insertId, email: googleUser.email, name: googleUser.name };
+      user = await env.DB.prepare('SELECT id, email, name FROM users WHERE email = ?').bind(googleUser.email).first();
+      if (!user) {
+        user = { id: result?.meta?.last_row_id || result?.insertId || 1, email: googleUser.email, name: googleUser.name };
+      }
     } else {
       try {
         await env.DB.prepare(
