@@ -4,7 +4,7 @@ let currentUser = null;
 
 async function checkAuth() {
   try {
-    const res = await fetch('/api/auth-me');
+    const res = await fetch('/api/auth-me?_t=' + Date.now(), { cache: 'no-store' });
     const data = await res.json();
     if (data.loggedIn) {
       if (window.location.pathname === '/login/') {

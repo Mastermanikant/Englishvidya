@@ -38,12 +38,13 @@ export async function onRequest(context) {
   }
 
   const cookie = request.headers.get('Cookie') || '';
-  const token = getCookieValue(cookie, 'ev_token');
+  const tokens = getAllCookieValues(cookie, 'ev_token');
 
   context.data = context.data || {};
   context.data.user = null;
 
-  if (token) {
+  for (const token of tokens) {
+    if (!token) continue;
     try {
       const jwtSecret = env.JWT_SECRET ? String(env.JWT_SECRET).trim() : 'ev_jwt_secret_key_prod_2026_safe_secure';
       const payload = await verifyJWT(token, jwtSecret);
@@ -58,6 +59,7 @@ export async function onRequest(context) {
 
         if (user) {
           context.data.user = user;
+          break;
         }
       }
     } catch (e) {
@@ -68,15 +70,21 @@ export async function onRequest(context) {
   return context.next();
 }
 
-function getCookieValue(cookieString, name) {
-  if (!cookieString) return null;
-  const match = cookieString.match(new RegExp('(?:^|;\\s*)' + name + '=([^;]*)'));
-  if (!match) return null;
-  try {
-    return decodeURIComponent(match[1]).replace(/^"|"$/g, '').trim();
-  } catch (e) {
-    return match[1].replace(/^"|"$/g, '').trim();
+function getAllCookieValues(cookieString, name) {
+  if (!cookieString) return [];
+  const regex = new RegExp('(?:^|;\\s*)' + name + '=([^;]*)', 'g');
+  const values = [];
+  let match;
+  while ((match = regex.exec(cookieString)) !== null) {
+    try {
+      const val = decodeURIComponent(match[1]).replace(/^"|"$/g, '').trim();
+      if (val) values.push(val);
+    } catch (e) {
+      const val = match[1].replace(/^"|"$/g, '').trim();
+      if (val) values.push(val);
+    }
   }
+  return values;
 }
 
 async function verifyJWT(token, secret) {

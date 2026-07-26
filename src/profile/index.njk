@@ -141,8 +141,8 @@ permalink: /profile/
 
   document.addEventListener('DOMContentLoaded', async () => {
     try {
-      // 1. Fetch user authentication info
-      const res = await fetch('/api/auth-me');
+      // 1. Fetch user authentication info (bypassing browser cache)
+      const res = await fetch('/api/auth-me?_t=' + Date.now(), { cache: 'no-store' });
       const authData = await res.json();
       if (!authData.loggedIn) {
         window.location.href = '/login/?redirect=/profile/';

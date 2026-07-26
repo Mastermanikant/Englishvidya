@@ -1,9 +1,20 @@
 export async function onRequestGet(context) {
   const user = context.data.user;
+  const noCacheHeaders = {
+    'Content-Type': 'application/json',
+    'Cache-Control': 'no-store, no-cache, must-revalidate, max-age=0',
+    'Pragma': 'no-cache',
+    'Expires': '0'
+  };
+
   if (!user) {
-    return Response.json({ loggedIn: false, user: null });
+    return new Response(JSON.stringify({ loggedIn: false, user: null }), {
+      status: 200,
+      headers: noCacheHeaders
+    });
   }
-  return Response.json({
+
+  return new Response(JSON.stringify({
     loggedIn: true,
     user: {
       id: user.id,
@@ -24,5 +35,8 @@ export async function onRequestGet(context) {
       has_accepted_rules: user.has_accepted_rules,
       location_address: user.location_address
     }
+  }), {
+    status: 200,
+    headers: noCacheHeaders
   });
 }
