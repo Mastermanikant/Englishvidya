@@ -9602,3 +9602,13 @@ body.focus-mode-active #toc-floating-widget {
 .take-test-desc { font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 16px; margin-top: 6px; }
 .take-test-btn { text-decoration: none; padding: 10px 20px; font-size: 0.95rem; font-weight: bold; border-radius: var(--radius-md); display: inline-flex; align-items: center; gap: 8px; }
 
+/* Responsive Tables for Markdown Content */
+.markdown-body table, 
+.markdown-content table {
+    display: block;
+    max-width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+}
+
