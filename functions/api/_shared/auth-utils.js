@@ -79,7 +79,8 @@ export async function createJWT(payload, secret, expiresInSeconds) {
 
 export async function verifyJWT(token, secret) {
   try {
-    const parts = token.split('.');
+    if (!token || typeof token !== 'string') return null;
+    const parts = token.trim().split('.');
     if (parts.length !== 3) return null;
     const [headerB64, payloadB64, sigB64] = parts;
     const data = headerB64 + '.' + payloadB64;
@@ -89,16 +90,21 @@ export async function verifyJWT(token, secret) {
       { name: 'HMAC', hash: 'SHA-256' }, false, ['verify']
     );
 
-    const sig = new Uint8Array(atob(sigB64.replace(/-/g, '+').replace(/_/g, '/')).split('').map(c => c.charCodeAt(0)));
-    const isValid = await crypto.subtle.verify('HMAC', key, sig, new TextEncoder().encode(data));
+    let paddedSig = sigB64.replace(/-/g, '+').replace(/_/g, '/');
+    while (paddedSig.length % 4) paddedSig += '=';
+    const sig = new Uint8Array(atob(paddedSig).split('').map(c => c.charCodeAt(0)));
 
+    const isValid = await crypto.subtle.verify('HMAC', key, sig, new TextEncoder().encode(data));
     if (!isValid) return null;
+
     let paddedPayload = payloadB64.replace(/-/g, '+').replace(/_/g, '/');
     while (paddedPayload.length % 4) paddedPayload += '=';
     const payload = JSON.parse(atob(paddedPayload));
+
     if (payload.exp && Math.floor(Date.now() / 1000) > payload.exp) return null;
     return payload;
   } catch (err) {
+    console.error('verifyJWT error:', err);
     return null;
   }
 }
