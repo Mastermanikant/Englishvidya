@@ -8,8 +8,8 @@ export async function onRequestGet(context) {
   redirectTo = validateRedirectUrl(redirectTo);
   
   const reqUrl = new URL(request.url);
-  const rawSiteUrl = env.SITE_URL ? env.SITE_URL.trim() : `${reqUrl.protocol}//${reqUrl.host}`;
-  const siteUrl = rawSiteUrl.replace(/\/+$/, '');
+  const rawSiteUrl = env.SITE_URL ? String(env.SITE_URL).replace(/[\r\n\s]+/g, '').replace(/\/+$/, '') : `${reqUrl.protocol}//${reqUrl.host}`;
+  const siteUrl = rawSiteUrl || 'https://englishvidya.com';
   const redirectUri = `${siteUrl}/api/auth-callback`;
   const scope = 'openid email profile';
   
