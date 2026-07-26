@@ -21,8 +21,10 @@ export async function onRequestGet(context) {
   };
   const state = btoa(JSON.stringify(stateObj));
 
+  const clientId = String(env.GOOGLE_CLIENT_ID || '').replace(/[\r\n\s]+/g, '');
+
   const url = `https://accounts.google.com/o/oauth2/v2/auth?` +
-    `client_id=${env.GOOGLE_CLIENT_ID}` +
+    `client_id=${clientId}` +
     `&redirect_uri=${encodeURIComponent(redirectUri)}` +
     `&response_type=code` +
     `&scope=${encodeURIComponent(scope)}` +

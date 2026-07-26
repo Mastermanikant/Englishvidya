@@ -65,8 +65,8 @@ export async function onRequestGet(context) {
     let user = null;
     try {
       user = await env.DB.prepare(
-        'SELECT id, email, name, google_id, avatar_url FROM users WHERE google_id = ?'
-      ).bind(googleUser.id).first();
+        'SELECT id, email, name, google_id, avatar_url FROM users WHERE google_id = ? OR email = ?'
+      ).bind(googleUser.id, googleUser.email).first();
     } catch (dbErr) {
       console.error('DB query error:', dbErr);
     }
@@ -128,13 +128,11 @@ export async function onRequestGet(context) {
       }
       user = { id: result.meta.last_row_id || result.insertId, email: googleUser.email, name: googleUser.name };
     } else {
-      if (googleUser.picture && user.avatar_url !== googleUser.picture) {
-        try {
-          await env.DB.prepare(
-            'UPDATE users SET avatar_url = ?, name = COALESCE(NULLIF(name, ""), ?) WHERE id = ?'
-          ).bind(googleUser.picture, googleUser.name || '', user.id).run();
-        } catch (e) {}
-      }
+      try {
+        await env.DB.prepare(
+          'UPDATE users SET google_id = ?, avatar_url = COALESCE(NULLIF(?, ""), avatar_url), name = COALESCE(NULLIF(name, ""), ?) WHERE id = ?'
+        ).bind(googleUser.id, googleUser.picture || '', googleUser.name || '', user.id).run();
+      } catch (e) {}
     }
 
     // Step 4: JWT Token banao (7 din valid)
