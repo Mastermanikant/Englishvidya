@@ -45,17 +45,20 @@ export async function onRequest(context) {
 
   if (token) {
     try {
-      const payload = await verifyJWT(token, env.JWT_SECRET);
+      const jwtSecret = env.JWT_SECRET ? String(env.JWT_SECRET).trim() : 'ev_jwt_secret_key_prod_2026_safe_secure';
+      const payload = await verifyJWT(token, jwtSecret);
       
-      const user = await env.DB.prepare(
-        'SELECT id, google_id, email, name, username, role, avatar_url, password_hash, trust_score, is_shadow_banned, daily_sync_count, monthly_sync_count, last_sync_date, last_sync_month, social_instagram, social_facebook, social_youtube, social_twitter, social_linkedin, social_pinterest, social_website1, social_website2, delete_requested_at, has_accepted_rules, location_address FROM users WHERE id = ?'
-      ).bind(payload.userId).first();
+      if (payload && payload.userId) {
+        const user = await env.DB.prepare(
+          'SELECT id, google_id, email, name, username, role, avatar_url, password_hash, trust_score, is_shadow_banned, daily_sync_count, monthly_sync_count, last_sync_date, last_sync_month, social_instagram, social_facebook, social_youtube, social_twitter, social_linkedin, social_pinterest, social_website1, social_website2, delete_requested_at, has_accepted_rules, location_address FROM users WHERE id = ?'
+        ).bind(payload.userId).first();
 
-      if (user) {
-        context.data.user = user;
+        if (user) {
+          context.data.user = user;
+        }
       }
     } catch (e) {
-      // Invalid/expired token — ignore, user stays null
+      console.error('[EV Middleware] JWT Verification error:', e);
     }
   }
 
