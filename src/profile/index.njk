@@ -126,7 +126,7 @@ permalink: /profile/
 </div>
 
 <script>
-  function window.escapeHTML(str) {
+  window.escapeHTML = function(str) {
     if (typeof str !== 'string') return str;
     return str.replace(/[&<>'"]/g, 
       tag => ({
@@ -137,7 +137,7 @@ permalink: /profile/
         '"': '&quot;'
       }[tag] || tag)
     );
-  }
+  };
 
   document.addEventListener('DOMContentLoaded', async () => {
     try {
