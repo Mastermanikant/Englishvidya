@@ -5,3 +5,4 @@ dist/
 *.log
 .env
 PROJECT_STRUCTURE.md
+.wrangler/
