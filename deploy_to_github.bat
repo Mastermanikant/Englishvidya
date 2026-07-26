@@ -1,7 +1,7 @@
 @echo off
-title "EnglishVidya - Build, Deploy & Push to GitHub"
+title EnglishVidya - Build, Deploy and Push
 echo ===================================================
-echo   EnglishVidya - Building & Deploying Live...
+echo   EnglishVidya - Building and Deploying Live...
 echo ===================================================
 echo.
 
@@ -16,13 +16,13 @@ call npx wrangler pages deploy _site --project-name=englishvidya
 echo [3/4] Adding changes to Git...
 git add .
 
-echo [4/4] Committing & Pushing to GitHub...
-git commit -m "Auto Build & Direct Deploy - %date% %time%"
+echo [4/4] Committing and Pushing to GitHub...
+git commit -m "Auto Build and Direct Deploy"
 git push origin main
 
 echo.
 echo ===================================================
-echo  SUCCESS! Site built, deployed to Cloudflare & pushed to GitHub!
+echo  SUCCESS! Site built, deployed to Cloudflare and pushed to GitHub!
 echo ===================================================
 echo.
 pause
