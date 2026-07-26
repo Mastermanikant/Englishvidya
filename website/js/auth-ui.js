@@ -50,7 +50,8 @@ function updateHeaderForLoggedIn() {
   const profileMenu = document.getElementById('header-profile-menu');
   
   if (profileBtn) {
-    profileBtn.removeAttribute('href');
+    profileBtn.href = '/profile/';
+    profileBtn.title = currentUser.name || 'My Profile';
     profileBtn.style.cursor = 'pointer';
     
     if (currentUser.avatar_url) {
@@ -58,14 +59,24 @@ function updateHeaderForLoggedIn() {
       if (profileImg) {
         profileImg.src = currentUser.avatar_url;
         profileImg.style.display = 'block';
+        profileImg.style.width = '32px';
+        profileImg.style.height = '32px';
+        profileImg.style.borderRadius = '50%';
+        profileImg.style.objectFit = 'cover';
       }
+    } else {
+      if (profileIcon) profileIcon.style.display = 'block';
+      if (profileImg) profileImg.style.display = 'none';
     }
 
     profileBtn.onclick = (e) => {
-      e.preventDefault();
-      e.stopPropagation();
-      const isVisible = profileMenu.style.display === 'flex';
-      profileMenu.style.display = isVisible ? 'none' : 'flex';
+      // Toggle dropdown menu on desktop click
+      if (profileMenu) {
+        e.preventDefault();
+        e.stopPropagation();
+        const isVisible = profileMenu.style.display === 'flex';
+        profileMenu.style.display = isVisible ? 'none' : 'flex';
+      }
     };
 
     if (!profileBtn.dataset.clickAttached) {
@@ -106,14 +117,29 @@ function updateHeaderForLoggedIn() {
     const label = bottomProfile.querySelector('span:last-child');
     if (label) label.textContent = 'Profile';
   }
+
+  const drawerProfile = document.querySelector('.mobile-drawer-link[data-route="profile"]');
+  if (drawerProfile) drawerProfile.href = '/profile/';
 }
 
 function updateHeaderForLoggedOut() {
-  const profileBtn = document.getElementById('header-profile-btn');
-  if (profileBtn) profileBtn.href = '/login/';
+  const profileBtn  = document.getElementById('header-profile-btn');
+  const profileIcon = document.getElementById('header-profile-icon');
+  const profileImg  = document.getElementById('header-profile-img');
+
+  if (profileBtn) {
+    profileBtn.href = '/login/';
+    profileBtn.title = 'Login';
+    profileBtn.onclick = null;
+  }
+  if (profileIcon) profileIcon.style.display = 'block';
+  if (profileImg) profileImg.style.display = 'none';
 
   const bottomProfile = document.getElementById('bottom-nav-profile-link');
   if (bottomProfile) bottomProfile.href = '/login/';
+
+  const drawerProfile = document.querySelector('.mobile-drawer-link[data-route="profile"]');
+  if (drawerProfile) drawerProfile.href = '/login/';
 
   // Hide coin badge for guests
   const badge = document.getElementById('header-coin-badge');
