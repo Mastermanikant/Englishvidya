@@ -80,6 +80,24 @@ export async function onRequestGet(context) {
       referrerId = referrerIdMatch ? parseInt(referrerIdMatch[1]) : null;
 
       let result;
+      const insertUser = async (gId, uEmail, uName, uPic, ip, refId) => {
+        try {
+          if (refId) {
+            return await env.DB.prepare(
+              'INSERT INTO users (google_id, email, name, avatar_url, referred_by_id, referral_coins, signup_ip) VALUES (?, ?, ?, ?, ?, 100, ?)'
+            ).bind(gId, uEmail, uName, uPic, refId, ip).run();
+          }
+          return await env.DB.prepare(
+            'INSERT INTO users (google_id, email, name, avatar_url, signup_ip) VALUES (?, ?, ?, ?, ?)'
+          ).bind(gId, uEmail, uName, uPic, ip).run();
+        } catch (err) {
+          // Fallback if signup_ip column missing
+          return await env.DB.prepare(
+            'INSERT INTO users (google_id, email, name, avatar_url) VALUES (?, ?, ?, ?)'
+          ).bind(gId, uEmail, uName, uPic).run();
+        }
+      };
+
       if (referrerId) {
         let refUser = null;
         let existingIpUser = null;
@@ -89,10 +107,7 @@ export async function onRequestGet(context) {
         } catch (e) {}
 
         if (refUser && !existingIpUser) {
-          result = await env.DB.prepare(
-            'INSERT INTO users (google_id, email, name, avatar_url, referred_by_id, referral_coins, signup_ip) VALUES (?, ?, ?, ?, ?, 100, ?)'
-          ).bind(googleUser.id, googleUser.email, googleUser.name, googleUser.picture || '', referrerId, clientIp).run();
-          
+          result = await insertUser(googleUser.id, googleUser.email, googleUser.name, googleUser.picture || '', clientIp, referrerId);
           const newUserId = result.meta.last_row_id || result.insertId;
 
           try {
@@ -106,14 +121,10 @@ export async function onRequestGet(context) {
           } catch (e) {}
         } else {
           referrerId = null;
-          result = await env.DB.prepare(
-            'INSERT INTO users (google_id, email, name, avatar_url, signup_ip) VALUES (?, ?, ?, ?, ?)'
-          ).bind(googleUser.id, googleUser.email, googleUser.name, googleUser.picture || '', clientIp).run();
+          result = await insertUser(googleUser.id, googleUser.email, googleUser.name, googleUser.picture || '', clientIp, null);
         }
       } else {
-        result = await env.DB.prepare(
-          'INSERT INTO users (google_id, email, name, avatar_url, signup_ip) VALUES (?, ?, ?, ?, ?)'
-        ).bind(googleUser.id, googleUser.email, googleUser.name, googleUser.picture || '', clientIp).run();
+        result = await insertUser(googleUser.id, googleUser.email, googleUser.name, googleUser.picture || '', clientIp, null);
       }
       user = { id: result.meta.last_row_id || result.insertId, email: googleUser.email, name: googleUser.name };
     } else {
