@@ -27,7 +27,8 @@ export async function onRequestGet(context) {
   }
 
   // Step 1: Code → Token
-  const siteUrl = env.SITE_URL || `${url.protocol}//${url.host}`;
+  const rawSiteUrl = env.SITE_URL ? env.SITE_URL.trim() : `${url.protocol}//${url.host}`;
+  const siteUrl = rawSiteUrl.replace(/\/+$/, '');
   const tokenRes = await fetch('https://oauth2.googleapis.com/token', {
     method: 'POST',
     headers: { 'Content-Type': 'application/x-www-form-urlencoded' },

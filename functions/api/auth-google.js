@@ -8,7 +8,8 @@ export async function onRequestGet(context) {
   redirectTo = validateRedirectUrl(redirectTo);
   
   const reqUrl = new URL(request.url);
-  const siteUrl = env.SITE_URL || `${reqUrl.protocol}//${reqUrl.host}`;
+  const rawSiteUrl = env.SITE_URL ? env.SITE_URL.trim() : `${reqUrl.protocol}//${reqUrl.host}`;
+  const siteUrl = rawSiteUrl.replace(/\/+$/, '');
   const redirectUri = `${siteUrl}/api/auth-callback`;
   const scope = 'openid email profile';
   
