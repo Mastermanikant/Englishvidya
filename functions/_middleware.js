@@ -66,8 +66,14 @@ export async function onRequest(context) {
 }
 
 function getCookieValue(cookieString, name) {
+  if (!cookieString) return null;
   const match = cookieString.match(new RegExp('(?:^|;\\s*)' + name + '=([^;]*)'));
-  return match ? match[1] : null;
+  if (!match) return null;
+  try {
+    return decodeURIComponent(match[1]).replace(/^"|"$/g, '').trim();
+  } catch (e) {
+    return match[1].replace(/^"|"$/g, '').trim();
+  }
 }
 
 async function verifyJWT(token, secret) {

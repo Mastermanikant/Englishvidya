@@ -145,7 +145,7 @@ permalink: /profile/
       const res = await fetch('/api/auth-me');
       const authData = await res.json();
       if (!authData.loggedIn) {
-        window.location.href = '/';
+        window.location.href = '/login/?redirect=/profile/';
         return;
       }
       

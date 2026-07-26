@@ -154,28 +154,26 @@ function requireAuth(actionFunction) {
   }
 }
 
-// ─── Phase 3: Focus Mode JS ───
+// ─── Phase 3: Focus / Presenter Mode JS ───
 function initFocusMode() {
   const exitBtn = document.getElementById('focus-exit-btn');
   if (!exitBtn) return;
 
-  // Restore from localStorage
-  const isFocused = localStorage.getItem('ev-focus-mode') === 'true';
-  if (isFocused) document.body.classList.add('focus-mode');
+  const isFocused = localStorage.getItem('ev-presenter-mode') === 'true';
+  if (isFocused) document.body.classList.add('presenter-mode');
 
   exitBtn.onclick = () => {
-    document.body.classList.remove('focus-mode');
-    localStorage.setItem('ev-focus-mode', 'false');
+    document.body.classList.remove('presenter-mode');
+    localStorage.setItem('ev-presenter-mode', 'false');
     if (document.exitFullscreen && document.fullscreenElement) {
       document.exitFullscreen().catch(() => {});
     }
   };
 }
 
-// Global helper to toggle focus mode (can be called from any page button)
-window.toggleFocusMode = function() {
-  const isActive = document.body.classList.toggle('focus-mode');
-  localStorage.setItem('ev-focus-mode', isActive ? 'true' : 'false');
+window.toggleFocusMode = window.togglePresenterMode = function() {
+  const isActive = document.body.classList.toggle('presenter-mode');
+  localStorage.setItem('ev-presenter-mode', isActive ? 'true' : 'false');
   if (isActive) {
     if (document.documentElement.requestFullscreen) {
       document.documentElement.requestFullscreen().catch(() => {});
