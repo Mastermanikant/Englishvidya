@@ -7,7 +7,9 @@ export async function onRequestGet(context) {
   
   redirectTo = validateRedirectUrl(redirectTo);
   
-  const redirectUri = `${env.SITE_URL}/api/auth-callback`;
+  const reqUrl = new URL(request.url);
+  const siteUrl = env.SITE_URL || `${reqUrl.protocol}//${reqUrl.host}`;
+  const redirectUri = `${siteUrl}/api/auth-callback`;
   const scope = 'openid email profile';
   
   // Generate CSRF token

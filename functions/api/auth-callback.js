@@ -27,6 +27,7 @@ export async function onRequestGet(context) {
   }
 
   // Step 1: Code → Token
+  const siteUrl = env.SITE_URL || `${url.protocol}//${url.host}`;
   const tokenRes = await fetch('https://oauth2.googleapis.com/token', {
     method: 'POST',
     headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
@@ -34,7 +35,7 @@ export async function onRequestGet(context) {
       code,
       client_id: env.GOOGLE_CLIENT_ID,
       client_secret: env.GOOGLE_CLIENT_SECRET,
-      redirect_uri: `${env.SITE_URL}/api/auth-callback`,
+      redirect_uri: `${siteUrl}/api/auth-callback`,
       grant_type: 'authorization_code',
     }),
   });
