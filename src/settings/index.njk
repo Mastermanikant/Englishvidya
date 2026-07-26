@@ -5,141 +5,377 @@ description: Update your EnglishVidya profile, social links, and account setting
 permalink: /settings/
 ---
 
+<style>
+  .settings-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: var(--sp-6) var(--sp-4);
+  }
+  
+  .settings-page-header {
+    margin-bottom: var(--sp-8);
+    text-align: center;
+  }
+  
+  .settings-page-header h1 {
+    font-size: 2.2rem;
+    font-weight: 800;
+    background: var(--gradient-accent);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: var(--sp-2);
+  }
 
+  .settings-section-card {
+    background: var(--bg-raised);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    padding: var(--sp-6);
+    margin-bottom: var(--sp-8);
+    box-shadow: var(--shadow-sm);
+    transition: transform var(--duration-normal), box-shadow var(--duration-normal);
+  }
+
+  .settings-section-card:hover {
+    box-shadow: var(--shadow-md);
+  }
+
+  .settings-section-title {
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: var(--sp-6);
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border-bottom: 1px solid var(--border-subtle);
+    padding-bottom: var(--sp-3);
+  }
+
+  .settings-section-title i {
+    font-style: normal;
+  }
+
+  .form-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--sp-5);
+  }
+  
+  @media(min-width: 600px) {
+    .form-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  .form-group.full-width {
+    grid-column: 1 / -1;
+  }
+
+  .premium-input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .premium-input-group label {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+  }
+
+  .premium-input {
+    width: 100%;
+    padding: 12px 16px;
+    background: var(--bg-base);
+    border: 1.5px solid var(--border);
+    border-radius: var(--radius-md);
+    color: var(--text-primary);
+    font-size: 1rem;
+    font-family: var(--font-body);
+    transition: all 0.2s ease;
+  }
+
+  .premium-input:focus {
+    outline: none;
+    border-color: var(--accent);
+    box-shadow: 0 0 0 4px var(--accent-soft);
+  }
+  
+  .premium-input[readonly] {
+    background: var(--bg-hover);
+    color: var(--text-tertiary);
+    cursor: not-allowed;
+  }
+
+  .premium-select {
+    width: 100%;
+    padding: 12px 16px;
+    background: var(--bg-base);
+    border: 1.5px solid var(--border);
+    border-radius: var(--radius-md);
+    color: var(--text-primary);
+    font-size: 1rem;
+    font-family: var(--font-body);
+    cursor: pointer;
+  }
+
+  .social-input-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+
+  .social-input-wrapper .social-icon {
+    position: absolute;
+    left: 14px;
+    color: var(--text-tertiary);
+    font-size: 1.1rem;
+    font-style: normal;
+  }
+
+  .social-input-wrapper .premium-input {
+    padding-left: 42px;
+  }
+
+  .btn-save-glow {
+    width: 100%;
+    padding: 16px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: white;
+    background: var(--gradient-accent);
+    border: none;
+    border-radius: var(--radius-md);
+    cursor: pointer;
+    box-shadow: var(--shadow-glow);
+    transition: all 0.3s ease;
+    margin-top: var(--sp-6);
+  }
+
+  .btn-save-glow:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 25px -5px rgba(37, 99, 235, 0.4);
+  }
+  
+  .btn-save-glow:disabled {
+    opacity: 0.7;
+    cursor: wait;
+    transform: none;
+  }
+
+  .danger-zone {
+    border-color: rgba(239, 68, 68, 0.3);
+    background: rgba(239, 68, 68, 0.02);
+  }
+
+  .danger-zone .settings-section-title {
+    color: var(--error);
+    border-bottom-color: rgba(239, 68, 68, 0.2);
+  }
+
+  .btn-danger-outline {
+    background: transparent;
+    border: 2px solid var(--error);
+    color: var(--error);
+    padding: 12px 24px;
+    border-radius: var(--radius-md);
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+
+  .btn-danger-outline:hover {
+    background: var(--error);
+    color: white;
+  }
+
+  .alert-msg {
+    padding: 12px 16px;
+    border-radius: var(--radius-md);
+    margin-bottom: var(--sp-5);
+    font-weight: 500;
+    display: none;
+  }
+  
+  .alert-success {
+    background: rgba(34, 197, 94, 0.1);
+    color: var(--success);
+    border: 1px solid rgba(34, 197, 94, 0.2);
+  }
+  
+  .alert-error {
+    background: rgba(239, 68, 68, 0.1);
+    color: var(--error);
+    border: 1px solid rgba(239, 68, 68, 0.2);
+  }
+</style>
 
 <div class="settings-container">
-  <h1 style="margin-bottom: 24px;">⚙️ Account Settings</h1>
-
-  <!-- Profile Settings -->
-  <div class="settings-card">
-    <div class="settings-header">
-      <h2>Profile Information</h2>
-    </div>
-    <div id="profile-alert" class="alert-msg"></div>
-    <form id="profile-form">
-      <div class="grid-2">
-        <div class="form-group">
-          <label>Name</label>
-          <input type="text" id="input-name" required>
-        </div>
-        <div class="form-group">
-          <label>Username</label>
-          <input type="text" id="input-username" placeholder="e.g. rohan_123">
-        </div>
-      </div>
-      
-      <!-- Location Section -->
-      <div class="settings-header" style="margin-top: 32px;">
-        <h2>📍 Location & Address (स्थान की जानकारी)</h2>
-        <p style="font-size: 0.9rem; color: var(--text-secondary); margin-top: 4px;">Adding your location helps connect with learners from your area.</p>
-      </div>
-      <div class="grid-2">
-        <div class="form-group">
-          <label>Pincode (पिनकोड)</label>
-          <input type="text" id="input-pincode" placeholder="e.g. 852201" pattern="[0-9]{6}" maxlength="6">
-          <span id="pincode-status" style="font-size: 0.8rem; margin-top: 4px; display: block; font-weight: 500;"></span>
-        </div>
-        <div class="form-group">
-          <label>Country (देश)</label>
-          <input type="text" id="input-country" value="India" readonly style="background: var(--bg-hover); opacity: 0.8; cursor: not-allowed;">
-        </div>
-        <div class="form-group">
-          <label>State/UT (राज्य)</label>
-          <input type="text" id="input-state" placeholder="e.g. Bihar">
-        </div>
-        <div class="form-group">
-          <label>District (जिला)</label>
-          <input type="text" id="input-district" placeholder="e.g. Saharsa">
-        </div>
-        <div class="form-group">
-          <label>Sub-district / Tehsil (तहसील)</label>
-          <input type="text" id="input-subdistrict" placeholder="e.g. Kahra">
-        </div>
-        <div class="form-group">
-          <label>Block (प्रखंड)</label>
-          <input type="text" id="input-block" placeholder="e.g. Kahra">
-        </div>
-        <div class="form-group">
-          <label>Panchayat (पंचायत) - Optional</label>
-          <input type="text" id="input-panchayat" placeholder="e.g. Kahra">
-        </div>
-        <div class="form-group">
-          <label>Village / Area (गांव / क्षेत्र)</label>
-          <div id="village-container">
-            <input type="text" id="input-village" placeholder="e.g. Kahra Village">
-          </div>
-        </div>
-        <div class="form-group" style="grid-column: span 2;">
-          <label>Ward No (वार्ड संख्या) - Optional</label>
-          <input type="text" id="input-ward" placeholder="e.g. Ward 12">
-        </div>
-      </div>
-
-      <div class="settings-header" style="margin-top: 32px;">
-        <h2>Social Links</h2>
-        <p style="font-size: 0.9rem; color: var(--text-secondary); margin-top: 4px;">Share your social profiles (optional)</p>
-      </div>
-      <div class="grid-2">
-        <div class="form-group">
-          <label>Facebook URL</label>
-          <input type="url" id="input-facebook" placeholder="https://facebook.com/...">
-        </div>
-        <div class="form-group">
-          <label>YouTube URL</label>
-          <input type="url" id="input-youtube" placeholder="https://youtube.com/...">
-        </div>
-        <div class="form-group">
-          <label>Instagram URL</label>
-          <input type="url" id="input-instagram" placeholder="https://instagram.com/...">
-        </div>
-        <div class="form-group">
-          <label>X (Twitter) URL</label>
-          <input type="url" id="input-twitter" placeholder="https://x.com/...">
-        </div>
-        <div class="form-group">
-          <label>LinkedIn URL</label>
-          <input type="url" id="input-linkedin" placeholder="https://linkedin.com/in/...">
-        </div>
-        <div class="form-group">
-          <label>Pinterest URL</label>
-          <input type="url" id="input-pinterest" placeholder="https://pinterest.com/...">
-        </div>
-        <div class="form-group">
-          <label>Custom Website 1</label>
-          <input type="url" id="input-website1" placeholder="https://yourwebsite.com">
-        </div>
-        <div class="form-group">
-          <label>Custom Website 2</label>
-          <input type="url" id="input-website2" placeholder="https://blog.com">
-        </div>
-      </div>
-
-      <button type="submit" class="btn-primary" id="save-profile-btn" style="margin-top: 16px;">Save Changes</button>
-    </form>
+  <div class="settings-page-header">
+    <h1>Account Settings</h1>
+    <p style="color: var(--text-secondary);">Manage your profile, location, and connected accounts.</p>
   </div>
 
+  <form id="profile-form">
+    <div id="profile-alert" class="alert-msg"></div>
 
+    <!-- 1. Profile Information -->
+    <div class="settings-section-card">
+      <div class="settings-section-title">
+        <i>👤</i> Profile Information
+      </div>
+      <div class="form-grid">
+        <div class="premium-input-group">
+          <label for="input-name">Full Name</label>
+          <input type="text" id="input-name" class="premium-input" placeholder="Your Name" required>
+        </div>
+        <div class="premium-input-group">
+          <label for="input-username">Username</label>
+          <input type="text" id="input-username" class="premium-input" placeholder="e.g. rohan_123">
+        </div>
+      </div>
+    </div>
 
-  <!-- Account Deletion -->
-  <div class="settings-card" style="border-color: rgba(255,0,0,0.3);">
-    <div class="settings-header">
-      <h2 style="color: var(--error);">Delete Account</h2>
+    <!-- 2. Location & Address -->
+    <div class="settings-section-card">
+      <div class="settings-section-title">
+        <i>📍</i> Location & Address
+      </div>
+      <p style="font-size: 0.9rem; color: var(--text-tertiary); margin-top: -16px; margin-bottom: 24px;">Adding your location helps connect with learners from your area.</p>
+      
+      <div class="form-grid">
+        <div class="premium-input-group">
+          <label for="input-pincode">Pincode (पिनकोड)</label>
+          <input type="text" id="input-pincode" class="premium-input" placeholder="e.g. 852201" pattern="[0-9]{6}" maxlength="6">
+          <span id="pincode-status" style="font-size: 0.85rem; margin-top: 4px; display: block; font-weight: 500;"></span>
+        </div>
+        <div class="premium-input-group">
+          <label for="input-country">Country (देश)</label>
+          <input type="text" id="input-country" class="premium-input" value="India" readonly>
+        </div>
+        <div class="premium-input-group">
+          <label for="input-state">State/UT (राज्य)</label>
+          <input type="text" id="input-state" class="premium-input" placeholder="e.g. Bihar">
+        </div>
+        <div class="premium-input-group">
+          <label for="input-district">District (जिला)</label>
+          <input type="text" id="input-district" class="premium-input" placeholder="e.g. Saharsa">
+        </div>
+        <div class="premium-input-group">
+          <label for="input-subdistrict">Sub-district / Tehsil (तहसील)</label>
+          <input type="text" id="input-subdistrict" class="premium-input" placeholder="e.g. Kahra">
+        </div>
+        <div class="premium-input-group">
+          <label for="input-block">Block (प्रखंड)</label>
+          <input type="text" id="input-block" class="premium-input" placeholder="e.g. Kahra">
+        </div>
+        <div class="premium-input-group">
+          <label for="input-panchayat">Panchayat (पंचायत) <span style="font-weight:400; color:var(--text-tertiary);">- Optional</span></label>
+          <input type="text" id="input-panchayat" class="premium-input" placeholder="e.g. Kahra">
+        </div>
+        <div class="premium-input-group">
+          <label for="input-village">Village / Area (गांव / क्षेत्र)</label>
+          <div id="village-container">
+            <input type="text" id="input-village" class="premium-input" placeholder="e.g. Kahra Village">
+          </div>
+        </div>
+        <div class="premium-input-group full-width">
+          <label for="input-ward">Ward No (वार्ड संख्या) <span style="font-weight:400; color:var(--text-tertiary);">- Optional</span></label>
+          <input type="text" id="input-ward" class="premium-input" placeholder="e.g. Ward 12">
+        </div>
+      </div>
+    </div>
+
+    <!-- 3. Social Links -->
+    <div class="settings-section-card">
+      <div class="settings-section-title">
+        <i>🔗</i> Social Links
+      </div>
+      <p style="font-size: 0.9rem; color: var(--text-tertiary); margin-top: -16px; margin-bottom: 24px;">Share your social profiles (optional)</p>
+      
+      <div class="form-grid">
+        <div class="premium-input-group">
+          <label for="input-facebook">Facebook URL</label>
+          <div class="social-input-wrapper">
+            <i class="social-icon">📘</i>
+            <input type="url" id="input-facebook" class="premium-input" placeholder="https://facebook.com/...">
+          </div>
+        </div>
+        <div class="premium-input-group">
+          <label for="input-youtube">YouTube URL</label>
+          <div class="social-input-wrapper">
+            <i class="social-icon">▶️</i>
+            <input type="url" id="input-youtube" class="premium-input" placeholder="https://youtube.com/...">
+          </div>
+        </div>
+        <div class="premium-input-group">
+          <label for="input-instagram">Instagram URL</label>
+          <div class="social-input-wrapper">
+            <i class="social-icon">📸</i>
+            <input type="url" id="input-instagram" class="premium-input" placeholder="https://instagram.com/...">
+          </div>
+        </div>
+        <div class="premium-input-group">
+          <label for="input-twitter">X (Twitter) URL</label>
+          <div class="social-input-wrapper">
+            <i class="social-icon">𝕏</i>
+            <input type="url" id="input-twitter" class="premium-input" placeholder="https://x.com/...">
+          </div>
+        </div>
+        <div class="premium-input-group">
+          <label for="input-linkedin">LinkedIn URL</label>
+          <div class="social-input-wrapper">
+            <i class="social-icon">💼</i>
+            <input type="url" id="input-linkedin" class="premium-input" placeholder="https://linkedin.com/in/...">
+          </div>
+        </div>
+        <div class="premium-input-group">
+          <label for="input-pinterest">Pinterest URL</label>
+          <div class="social-input-wrapper">
+            <i class="social-icon">📌</i>
+            <input type="url" id="input-pinterest" class="premium-input" placeholder="https://pinterest.com/...">
+          </div>
+        </div>
+        <div class="premium-input-group">
+          <label for="input-website1">Custom Website 1</label>
+          <div class="social-input-wrapper">
+            <i class="social-icon">🌐</i>
+            <input type="url" id="input-website1" class="premium-input" placeholder="https://yourwebsite.com">
+          </div>
+        </div>
+        <div class="premium-input-group">
+          <label for="input-website2">Custom Website 2</label>
+          <div class="social-input-wrapper">
+            <i class="social-icon">🌐</i>
+            <input type="url" id="input-website2" class="premium-input" placeholder="https://blog.com">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <button type="submit" class="btn-save-glow" id="save-profile-btn">Save All Changes</button>
+  </form>
+
+  <!-- 4. Danger Zone -->
+  <div class="settings-section-card danger-zone" style="margin-top: 64px;">
+    <div class="settings-section-title">
+      <i>⚠️</i> Danger Zone
     </div>
     
     <div id="delete-status-container">
-      <p style="color: var(--text-secondary); margin-bottom: 16px;">
+      <p style="color: var(--text-secondary); margin-bottom: 24px; font-size: 0.95rem; line-height: 1.6;">
         If you no longer want to use EnglishVidya, you can request to delete your account. 
         <strong>Note:</strong> Your contributed words and votes will remain to help the community, but your personal information (Name, Email, Photo) will be completely removed (anonymized) within 30 days.
       </p>
-      <button id="request-delete-btn" class="btn-danger">Request Account Deletion</button>
+      <button id="request-delete-btn" class="btn-danger-outline">Request Account Deletion</button>
     </div>
 
     <div id="delete-pending-container" style="display: none;">
-      <div class="delete-warning">
+      <div class="alert-msg alert-error" style="display:block;">
         <strong>⚠️ Deletion Requested</strong><br>
         Your account is scheduled for deletion within 30 days. You can cancel this request if you change your mind.
       </div>
-      <button id="cancel-delete-btn" class="btn-primary" style="background: var(--text-primary); color: var(--bg-body);">Cancel Deletion Request</button>
+      <button id="cancel-delete-btn" class="btn-save-glow" style="background: var(--text-primary); color: var(--bg-body);">Cancel Deletion Request</button>
     </div>
   </div>
 </div>
@@ -162,7 +398,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   // Helper to set village input as text or select
   function setVillageDropdown(options) {
     if (!options || options.length === 0) {
-      villageContainer.innerHTML = `<input type="text" id="input-village" placeholder="e.g. Kahra Village" value="${villageTextVal}">`;
+      villageContainer.innerHTML = \`<input type="text" id="input-village" class="premium-input" placeholder="e.g. Kahra Village" value="\${villageTextVal}">\`;
       const textEl = document.getElementById('input-village');
       textEl.addEventListener('input', () => {
         villageTextVal = textEl.value;
@@ -170,21 +406,21 @@ document.addEventListener('DOMContentLoaded', async () => {
       return;
     }
     
-    let html = `<select id="input-village-select">`;
-    html += `<option value="">-- select village/area --</option>`;
+    let html = \`<select id="input-village-select" class="premium-select">\`;
+    html += \`<option value="">-- select village/area --</option>\`;
     options.forEach(opt => {
       const selectedAttr = opt === villageTextVal ? 'selected' : '';
-      html += `<option value="${opt}" ${selectedAttr}>${opt}</option>`;
+      html += \`<option value="\${opt}" \${selectedAttr}>\${opt}</option>\`;
     });
-    html += `<option value="__custom__">-- Type custom village --</option>`;
-    html += `</select>`;
+    html += \`<option value="__custom__">-- Type custom village --</option>\`;
+    html += \`</select>\`;
     
     villageContainer.innerHTML = html;
 
     const selectEl = document.getElementById('input-village-select');
     selectEl.addEventListener('change', () => {
       if (selectEl.value === '__custom__') {
-        villageContainer.innerHTML = `<input type="text" id="input-village" placeholder="e.g. Kahra Village" value="">`;
+        villageContainer.innerHTML = \`<input type="text" id="input-village" class="premium-input" placeholder="e.g. Kahra Village" value="">\`;
         const textEl = document.getElementById('input-village');
         textEl.focus();
         textEl.addEventListener('input', () => {
@@ -208,11 +444,11 @@ document.addEventListener('DOMContentLoaded', async () => {
   // Handle pincode entry
   pincodeInput.addEventListener('input', async () => {
     const pin = pincodeInput.value.trim();
-    if (pin.length === 6 && /^\d{6}$/.test(pin)) {
+    if (pin.length === 6 && /^\\d{6}$/.test(pin)) {
       pincodeStatus.textContent = '🔍 Fetching details...';
       pincodeStatus.style.color = 'var(--text-secondary)';
       try {
-        const resp = await fetch(`https://api.postalpincode.in/pincode/${pin}`);
+        const resp = await fetch(\`https://api.postalpincode.in/pincode/\${pin}\`);
         const resData = await resp.json();
         if (resData && resData[0] && resData[0].Status === 'Success') {
           pincodeStatus.textContent = '✅ Pincode details loaded';
@@ -241,7 +477,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   // Fetch user data
   try {
-    const res = await fetch('/api/auth-me');
+    const res = await fetch('/api/auth-me?_t=' + Date.now(), { cache: 'no-store' });
     const data = await res.json();
     if (!data.loggedIn) {
       window.location.href = '/login/?redirect=/settings/';
@@ -274,13 +510,13 @@ document.addEventListener('DOMContentLoaded', async () => {
         villageTextVal = loc.village || '';
         
         if (loc.pincode) {
-          villageContainer.innerHTML = `<input type="text" id="input-village" placeholder="e.g. Kahra Village" value="${villageTextVal}">`;
+          villageContainer.innerHTML = \`<input type="text" id="input-village" class="premium-input" placeholder="e.g. Kahra Village" value="\${villageTextVal}">\`;
           const textEl = document.getElementById('input-village');
           textEl.addEventListener('input', () => {
             villageTextVal = textEl.value;
           });
           
-          fetch(`https://api.postalpincode.in/pincode/${loc.pincode}`)
+          fetch(\`https://api.postalpincode.in/pincode/\${loc.pincode}\`)
             .then(r => r.json())
             .then(resData => {
               if (resData && resData[0] && resData[0].Status === 'Success') {
@@ -289,7 +525,7 @@ document.addEventListener('DOMContentLoaded', async () => {
               }
             }).catch(() => {});
         } else {
-          villageContainer.innerHTML = `<input type="text" id="input-village" placeholder="e.g. Kahra Village" value="${villageTextVal}">`;
+          villageContainer.innerHTML = \`<input type="text" id="input-village" class="premium-input" placeholder="e.g. Kahra Village" value="\${villageTextVal}">\`;
           const textEl = document.getElementById('input-village');
           textEl.addEventListener('input', () => {
             villageTextVal = textEl.value;
@@ -297,7 +533,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         }
       } catch(e) {}
     } else {
-      villageContainer.innerHTML = `<input type="text" id="input-village" placeholder="e.g. Kahra Village" value="">`;
+      villageContainer.innerHTML = \`<input type="text" id="input-village" class="premium-input" placeholder="e.g. Kahra Village" value="">\`;
       const textEl = document.getElementById('input-village');
       textEl.addEventListener('input', () => {
         villageTextVal = textEl.value;
@@ -309,7 +545,9 @@ document.addEventListener('DOMContentLoaded', async () => {
       document.getElementById('delete-pending-container').style.display = 'block';
     }
 
-
+  } catch (e) {
+    console.error(e);
+  }
 
   // Handle Profile Update
   document.getElementById('profile-form').addEventListener('submit', async (e) => {
@@ -317,7 +555,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     const btn = document.getElementById('save-profile-btn');
     const alertBox = document.getElementById('profile-alert');
     btn.disabled = true;
-    btn.textContent = 'Saving...';
+    btn.textContent = 'Saving Changes...';
     
     const payload = {
       name: document.getElementById('input-name').value,
@@ -355,7 +593,7 @@ document.addEventListener('DOMContentLoaded', async () => {
       if (res.ok) {
         alertBox.className = 'alert-msg alert-success';
         alertBox.textContent = data.message || 'Profile saved successfully!';
-        setTimeout(() => alertBox.style.display='none', 3000);
+        setTimeout(() => alertBox.style.display='none', 4000);
       } else {
         alertBox.className = 'alert-msg alert-error';
         alertBox.textContent = data.message || await res.text();
@@ -366,7 +604,7 @@ document.addEventListener('DOMContentLoaded', async () => {
       alertBox.textContent = 'Network error. Please try again.';
     } finally {
       btn.disabled = false;
-      btn.textContent = 'Save Changes';
+      btn.textContent = 'Save All Changes';
     }
   });
 
