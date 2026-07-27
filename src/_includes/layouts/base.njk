@@ -13,6 +13,20 @@
   <meta name="robots" content="noindex">
   {% endif %}
 
+  {# OpenGraph & Twitter Cards #}
+  <meta property="og:title" content="{{ pageTitle or title or site.siteName }}">
+  <meta property="og:description" content="{{ metaDescription or description or site.siteDescription }}">
+  <meta property="og:url" content="{{ site.canonicalBase }}{{ page.url }}">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="{{ site.canonicalBase }}{{ ogImage or '/assets/icons/icon-512.png' }}">
+  <meta property="og:site_name" content="{{ site.siteName }}">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ pageTitle or title or site.siteName }}">
+  <meta name="twitter:description" content="{{ metaDescription or description or site.siteDescription }}">
+  <meta name="twitter:image" content="{{ site.canonicalBase }}{{ ogImage or '/assets/icons/icon-512.png' }}">
+
+
   <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
   <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0f172a">
   
@@ -58,7 +72,7 @@
     {% include "partials/header.njk" %}
 
     {# ══ MAIN CONTENT ══ #}
-    <main class="flex-1 overflow-y-auto w-full p-4 md:p-8" id="app-content" role="main">
+    <main class="flex-1 overflow-y-auto w-full p-4 md:p-8 pb-24 md:pb-8" id="app-content" role="main">
       <div class="max-w-4xl mx-auto w-full">
         {# Breadcrumbs #}
         {% include "partials/breadcrumbs.njk" %}
@@ -68,10 +82,10 @@
           {{ content | safe }}
         </article>
       </div>
-    </main>
 
-    {# ══ FOOTER ══ #}
-    {% include "partials/footer.njk" %}
+      {# ══ FOOTER ══ #}
+      {% include "partials/footer.njk" %}
+    </main>
   </div>
 
   {# ══ SEARCH OVERLAY ══ #}

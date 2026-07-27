@@ -4,6 +4,7 @@
 const path = require("path");
 const fs   = require("fs");
 const Image = require("@11ty/eleventy-img");
+const htmlmin = require("html-minifier");
 
 module.exports = function (eleventyConfig) {
 
@@ -152,6 +153,21 @@ module.exports = function (eleventyConfig) {
         <div style="position:absolute; bottom:12px; left:12px; background:rgba(0,0,0,0.7); color:#fff; font-size:0.8rem; padding:4px 10px; border-radius:20px; font-family:var(--font-sans);">${safeTitle}</div>
       </div>
     `;
+  });
+
+  // ── 6. HTML MINIFIER TRANSFORM ──────────────────────────────────────
+  eleventyConfig.addTransform("htmlmin", function (content, outputPath) {
+    if (outputPath && outputPath.endsWith(".html")) {
+      let minified = htmlmin.minify(content, {
+        useShortDoctype: true,
+        removeComments: true,
+        collapseWhitespace: true,
+        minifyCSS: true,
+        minifyJS: true
+      });
+      return minified;
+    }
+    return content;
   });
 
   // ── 4. BUILD OPTIONS ───────────────────────────────────────────────
