@@ -4,9 +4,10 @@
   "description": "English Vidya — Static site powered by Eleventy. Hindi-medium students ke liye English learning platform.",
   "scripts": {
     "prebuild": "node -e \"const fs=require('fs'); fs.rmSync('_site', {recursive:true, force:true});\" && node scripts/run-audit.js",
-    "build": "eleventy",
-    "dev": "eleventy --serve --port=3000",
-    "build:prod": "node -e \"process.env.NODE_ENV='production'; require('child_process').execSync('npx eleventy', {stdio:'inherit'})\"",
+    "build:css": "npx @tailwindcss/cli -i ./website/css/input.css -o ./website/css/style.css",
+    "build": "npm run build:css && eleventy",
+    "dev": "npm run build:css && eleventy --serve --port=3000",
+    "build:prod": "npm run build:css && node -e \"process.env.NODE_ENV='production'; require('child_process').execSync('npx eleventy', {stdio:'inherit'})\"",
     "deploy": "npm run build",
     "audit": "node scripts/run-audit.js"
   },
@@ -15,7 +16,11 @@
   "devDependencies": {
     "@11ty/eleventy": "^3.0.0",
     "@11ty/eleventy-img": "^6.0.4",
+    "@tailwindcss/cli": "^4.3.3",
+    "@tailwindcss/forms": "^0.5.11",
+    "@tailwindcss/typography": "^0.5.20",
     "sharp": "^0.35.1",
+    "tailwindcss": "^4.3.3",
     "wrangler": "^3.114.17"
   }
 }

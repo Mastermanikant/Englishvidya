@@ -1,25 +1,25 @@
-{# ══ SEARCH OVERLAY PARTIAL ══ #}
-<div class="search-overlay" id="search-overlay" role="dialog" aria-label="Search Words" aria-modal="true">
-  <div class="search-overlay-header">
-    <div class="search-input-wrap">
-      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+<div class="fixed inset-0 z-50 bg-black/60 backdrop-blur-md hidden" id="search-overlay" role="dialog" aria-label="Search Words" aria-modal="true">
+  <div class="max-w-2xl mx-auto w-full mt-0 sm:mt-12 bg-base sm:rounded-2xl shadow-2xl overflow-hidden flex flex-col h-full sm:h-[80vh] border border-border transform transition-transform duration-200 scale-95 opacity-0" id="search-modal-content">
+    <div class="p-4 border-b border-border flex items-center gap-3 bg-raised">
+      <svg class="text-secondary shrink-0" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
         <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
       </svg>
       <input type="text" id="search-input"
-        placeholder="Search any English word..."
+        class="w-full bg-transparent border-none text-lg text-primary placeholder-secondary focus:ring-0 p-0"
+        placeholder="Search any English word or topic..."
         autocomplete="off" autocapitalize="off" spellcheck="false"
         aria-label="Search words">
-      <button class="search-close-btn" id="search-close-btn" aria-label="Close search">
+      <button class="p-2 shrink-0 text-secondary hover:text-primary hover:bg-base rounded-full transition-colors" id="search-close-btn" aria-label="Close search">
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
           <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
         </svg>
       </button>
     </div>
-  </div>
-  <div class="search-results-area" id="search-results" role="listbox">
-    <div class="search-placeholder">
-      <p class="search-hint">🔍 Type above — results will appear instantly</p>
-      <div id="recent-searches-container"></div>
+    <div class="flex-1 overflow-y-auto p-2" id="search-results" role="listbox">
+      <div class="text-center py-12">
+        <p class="text-secondary">🔍 Type above — results will appear instantly</p>
+        <div id="recent-searches-container"></div>
+      </div>
     </div>
   </div>
 </div>

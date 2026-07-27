@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", sans-serif;
+  --font-heading: "Outfit", sans-serif;
+
+  --color-base: var(--bg-base);
+  --color-raised: var(--bg-raised);
+  --color-primary: var(--text-primary);
+  --color-secondary: var(--text-secondary);
+  --color-accent: var(--accent);
+  --color-accent-glow: var(--accent-glow);
+  --color-border: var(--border);
+}
+
+@plugin "@tailwindcss/typography";
+@plugin "@tailwindcss/forms";
+
+/* Custom utility styles */
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

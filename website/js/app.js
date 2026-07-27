@@ -1593,7 +1593,8 @@
     };
 
     const openDrawer = () => {
-      drawerOverlay.classList.add('active');
+      drawerOverlay.classList.remove('hidden');
+      setTimeout(() => drawer.classList.remove('-translate-x-full'), 10);
       window.lockScroll();
       menuTrigger.setAttribute('aria-expanded', 'true');
       
@@ -1608,7 +1609,8 @@
     };
     
     const closeDrawer = () => {
-      drawerOverlay.classList.remove('active');
+      drawer.classList.add('-translate-x-full');
+      setTimeout(() => drawerOverlay.classList.add('hidden'), 300);
       window.unlockScroll();
       menuTrigger.setAttribute('aria-expanded', 'false');
       drawer.removeEventListener('keydown', trapTabKey);

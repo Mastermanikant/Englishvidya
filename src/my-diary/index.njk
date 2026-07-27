@@ -345,7 +345,7 @@ permalink: /my-diary/
           </div>
           <div>
             <label style="font-size: 0.85rem; font-weight: 700; color: var(--text-secondary);">मेरी टिप्पणी / Custom Note:</label>
-            <textarea class="note-textarea" placeholder="यहाँ अपनी समझ या प्रश्न लिखें..." onchange="updateNoteContent('${n.slug}', this.value)">${n.note_content || ''}</textarea>
+            <textarea class="note-textarea" placeholder="यहाँ अपनी समझ या प्रश्न लिखें..." oninput="debouncedUpdateNoteContent('${n.slug}', this.value)">${n.note_content || ''}</textarea>
           </div>
         </div>
       `;
@@ -509,6 +509,29 @@ permalink: /my-diary/
       renderTasks();
     }
   };
+
+  // Debounce helper for typing auto-save
+  function debounce(func, wait) {
+    let timeout;
+    return function(...args) {
+      clearTimeout(timeout);
+      timeout = setTimeout(() => func.apply(this, args), wait);
+    };
+  }
+
+  window.debouncedUpdateNoteContent = debounce(function(slug, newText) {
+    if (!window.getLocalNotes) return;
+    const notes = window.getLocalNotes();
+    const index = notes.findIndex(n => n.slug === slug);
+    if (index > -1) {
+      notes[index].note_content = newText;
+      notes[index].synced = false; // Mark unsynced
+      window.saveLocalNotes(notes);
+      // We don't call renderNotes() here to avoid stealing focus while typing
+      updateLimitsUI();
+      if (window.updateDiaryBadge) window.updateDiaryBadge();
+    }
+  }, 500);
 
   window.updateNoteContent = function(slug, newText) {
     if (!window.getLocalNotes) return;

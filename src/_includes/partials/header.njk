@@ -1,182 +1,57 @@
-{# ══ HEADER PARTIAL — यहाँ बदलो, सभी pages पर बदलेगा ══ #}
-
-{# ── TOP UTILITY BAR ── #}
-<div class="top-utility-bar" id="top-utility-bar" role="banner">
-  <div class="top-utility-inner">
-
-    {# Left: Announcement #}
-    <div class="utility-announcement">
-      <span class="utility-dot" aria-hidden="true"></span>
-      <span>{{ site.headerAnnouncement }}</span>
-    </div>
-
-    {# Right: Contact + Social #}
-    <div class="utility-links">
-      <a href="mailto:{{ site.email }}" class="utility-link" aria-label="Email us">
-        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
-        <span class="utility-link-text">{{ site.email }}</span>
-      </a>
-
-      <div class="utility-socials">
-        <a href="{{ site.youtubeChannel | default('#') }}" target="_blank" rel="noopener noreferrer" class="utility-social-link" aria-label="YouTube Channel">
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8zM9.7 15.5V8.5l6.3 3.5-6.3 3.5z"/></svg>
-        </a>
-        <a href="{{ site.whatsappChannel | default('#') }}" target="_blank" rel="noopener noreferrer" class="utility-social-link" aria-label="WhatsApp Channel">
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.7-.8-1.9-.9-.3-.1-.5-.1-.7.1-.2.3-.7.9-.9 1.1-.2.2-.3.2-.6.1-1.6-.8-2.7-1.4-3.7-3.2-.3-.5.3-.5.8-1.5.1-.2 0-.4-.1-.5-.1-.1-.7-1.7-.9-2.3-.3-.8-.5-.7-.7-.7h-.6c-.2 0-.5.1-.8.3-.3.3-1 1-1 2.4 0 1.4 1 2.7 1.1 2.9.1.2 2 3.1 4.9 4.3 1.8.8 2.5.8 3.4.7.5-.1 1.7-.7 1.9-1.3.2-.7.2-1.2.1-1.3z"/><path d="M12 2C6.5 2 2 6.5 2 12c0 1.9.5 3.7 1.4 5.3L2 22l4.7-1.4C8.3 21.5 10.1 22 12 22c5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18.3c-1.8 0-3.5-.5-5-1.4l-.3-.2-3.3 1 1-3.2-.2-.4C3.6 14.8 3.2 13.4 3.2 12c0-4.9 3.9-8.8 8.8-8.8 4.9 0 8.8 3.9 8.8 8.8 0 4.8-4 8.8-8.8 8.8z"/></svg>
-        </a>
-      </div>
-    </div>
-
-  </div>
-</div>
-
-
-{# Mobile Drawer Overlay #}
-<div class="mobile-drawer-overlay" id="mobile-drawer-overlay" role="dialog" aria-modal="true" aria-label="Mobile Navigation Menu">
-  <div class="mobile-drawer" id="mobile-drawer">
-    <div class="mobile-drawer-header">
-      <a href="/" class="logo" aria-label="{{ site.siteName }} Home">
-        <img src="/assets/icons/logo.webp" alt="" class="logo-svg" width="36" height="36" loading="eager" aria-hidden="true">
-        <span class="logo-text"><span>English</span> <span class="logo-accent">Vidya</span></span>
-      </a>
-      <button class="mobile-drawer-close" id="mobile-drawer-close" aria-label="Close menu">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-          <line x1="18" y1="6" x2="6" y2="18"></line>
-          <line x1="6" y1="6" x2="18" y2="18"></line>
-        </svg>
-      </button>
-    </div>
-    <nav class="mobile-drawer-nav" aria-label="Mobile Navigation Drawer">
-      <button class="drawer-btn-link pwa-drawer-install-btn" id="drawer-pwa-action">📱 Install App</button>
-      <a href="/class-10/" class="mobile-drawer-link" data-route="class-10">🏫 Class 10th</a>
-      <a href="/class-12/" class="mobile-drawer-link" data-route="class-12">🎓 Class 12th</a>
-      <a href="/all-post/" class="mobile-drawer-link" data-route="all-post">📝 All Posts</a>
-      <a href="/idioms/" class="mobile-drawer-link" data-route="idioms">🎭 Idioms</a>
-      <a href="/test/" class="mobile-drawer-link" data-route="test">🏆 Tests</a>
-      <a href="/ask-ai/" class="mobile-drawer-link" data-route="ask-ai">🤖 Ask AI</a>
-      <a href="/contact/" class="mobile-drawer-link" data-route="contact">🎧 Help & Support</a>
-      <a href="/legal/" class="mobile-drawer-link" data-route="legal">📜 Policies</a>
-      <a href="/profile/" class="mobile-drawer-link" data-route="profile">👤 My Profile</a>
-      <a href="/my-diary/" class="mobile-drawer-link" data-route="my-diary">📓 My Diary</a>
-      <button class="drawer-btn-link" id="theme-toggle-drawer-btn">
-        <span class="theme-label-moon">🌙 Dark Mode</span>
-        <span class="theme-label-sun" style="display:none;">☀️ Light Mode</span>
-      </button>
-      <button class="drawer-btn-link" onclick="window.checkForUpdates && window.checkForUpdates()">
-        <span>🔄 Check for Updates</span>
-      </button>
-
-      <div class="social-icons-drawer">
-        <a href="{{ site.whatsappChannel | default('#') }}" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" style="color: #25D366;">
-          <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M11.996 0A12 12 0 000 12c0 2.115.555 4.103 1.536 5.82L.053 23.951l6.27-1.643A11.968 11.968 0 0011.996 24C18.625 24 24 18.625 24 12S18.625 0 11.996 0zm6.98 17.202c-.302.846-1.748 1.583-2.42 1.637-.622.046-1.419.143-4.542-1.15-3.754-1.554-6.177-5.405-6.363-5.653-.186-.248-1.521-2.025-1.521-3.864 0-1.839.957-2.744 1.298-3.116.34-.372.743-.464.991-.464.248 0 .496.002.712.012.23.01.536-.084.846.662.31.743 1.053 2.569 1.146 2.755.093.186.155.403.03.65-.123.248-.186.403-.372.62-.186.216-.388.48-.557.65-.186.185-.383.39-.17.761.213.372.951 1.576 2.044 2.553 1.408 1.258 2.585 1.644 2.957 1.83.372.186.589.155.806-.093.217-.248.93-1.085 1.178-1.456.248-.372.496-.31.837-.186.34.124 2.169 1.023 2.54 1.209.372.186.62.279.713.433.093.155.093.898-.21 1.744z"/></svg>
-        </a>
-        <a href="{{ site.facebookPage | default('#') }}" target="_blank" rel="noopener noreferrer" aria-label="Facebook" style="color: #1877F2;">
-          <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
-        </a>
-        <a href="{{ site.instagramPage | default('#') }}" target="_blank" rel="noopener noreferrer" aria-label="Instagram" style="color: #E4405F;">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
-        </a>
-        <a href="{{ site.youtubeChannel | default('#') }}" target="_blank" rel="noopener noreferrer" aria-label="YouTube" style="color: #FF0000;">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33 2.78 2.78 0 0 0 1.94 2c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.33 29 29 0 0 0-.46-5.33z"></path><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon></svg>
-        </a>
-        <a href="{{ site.twitterPage | default('#') }}" target="_blank" rel="noopener noreferrer" aria-label="X (Twitter)" style="color: #1DA1F2;">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4l11.733 16h4.267l-11.733 -16z" /><path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772" /></svg>
-        </a>
-      </div>
-    </nav>
-  </div>
-</div>
-
-{# Sticky Glass Header #}
-<header class="app-header" id="app-header">
-  <div class="header-left">
-    <button class="header-btn mobile-menu-trigger" id="mobile-menu-trigger"
-      aria-label="Menu" aria-expanded="false" style="margin-right: var(--sp-3);">
-      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+<header class="bg-base border-b border-border sticky top-0 z-30 h-16 flex items-center px-4 md:px-8 justify-between shrink-0" id="app-header">
+  <div class="flex items-center gap-4">
+    <button class="md:hidden p-2 -ml-2 text-primary hover:bg-raised rounded-md transition-colors" id="mobile-menu-trigger" aria-label="Menu" aria-expanded="false">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
         <line x1="4" y1="12" x2="20" y2="12"></line>
         <line x1="4" y1="6" x2="20" y2="6"></line>
         <line x1="4" y1="18" x2="20" y2="18"></line>
       </svg>
     </button>
-    <a href="/" class="logo" id="logo-link" aria-label="{{ site.siteName }} Home">
-      <img src="/assets/icons/logo.webp" alt="" class="logo-svg" width="36" height="36" loading="eager" aria-hidden="true">
-      <span class="logo-text"><span>English</span> <span class="logo-accent">Vidya</span></span>
+    <a href="/" class="md:hidden flex items-center gap-2" aria-label="{{ site.siteName }} Home">
+      <img src="/assets/icons/logo.webp" alt="" class="w-8 h-8 object-contain" loading="eager" aria-hidden="true">
+      <span class="font-heading font-bold text-xl tracking-tight text-primary">English <span class="text-accent">Vidya</span></span>
     </a>
-
   </div>
 
-  {# Desktop Navigation #}
-  <nav class="desktop-nav" aria-label="Desktop Navigation" id="desktop-nav">
-    {% for item in site.nav %}
-      {% if item.children %}
-        <div class="nav-dropdown-container">
-          <button class="desktop-nav-link dropdown-toggle dropdown-toggle-btn" aria-haspopup="true" aria-expanded="false">
-            {{ item.label }}
-            <svg class="dropdown-icon" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
-          </button>
-          <div class="nav-dropdown-menu">
-            {% for child in item.children %}
-              <a href="{{ child.href }}" class="dropdown-item">{{ child.label }}</a>
-            {% endfor %}
-          </div>
-        </div>
-      {% else %}
-        <a href="{{ item.href }}" class="desktop-nav-link{% if page.url == item.href %} active{% endif %}" data-route="{{ item.route }}">
-          {{ item.label }}
-        </a>
-      {% endif %}
-    {% endfor %}
-  </nav>
-
-  <div class="header-right">
-    {# ── Coin Badge (logged-in users only) ── #}
-    <a href="/referral/" class="coin-badge" id="header-coin-badge" aria-label="Frankbase Coins" style="display:none;" title="आपके Frankbase Coins">
-      <span class="coin-icon">🪙</span>
-      <span class="coin-count" id="header-coin-count">0</span>
-    </a>
-
-    <button class="header-btn" id="search-trigger-btn" aria-label="Search">
-      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <div class="flex items-center gap-2 sm:gap-4">
+    <button class="p-2 text-secondary hover:text-primary hover:bg-raised rounded-full transition-colors" id="search-trigger-btn" aria-label="Search">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
         <circle cx="11" cy="11" r="8"/>
         <path d="m21 21-4.35-4.35"/>
       </svg>
     </button>
-    <div class="profile-dropdown-container hide-on-mobile" style="position: relative;">
-      <a href="/login/" class="header-btn profile-btn" id="header-profile-btn" aria-label="Login / Profile">
-        <svg id="header-profile-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--text-primary);"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
-        <img id="header-profile-img" src="" alt="Profile" style="display:none;">
-      </a>
-      
-      <!-- Dropdown (Hidden by default) -->
-      <div id="header-profile-menu" class="profile-menu">
-        <div class="profile-menu-header">
-          <div id="menu-user-name" class="profile-menu-name">User</div>
-          <div id="menu-user-email" class="profile-menu-email">user@email.com</div>
-        </div>
-        <a href="/profile/" class="profile-menu-item">👤 My Profile</a>
-        <a href="/referral/" class="profile-menu-item coin-item">🪙 Coins &amp; Referral</a>
-        <a href="/my-diary/" class="profile-menu-item">📓 My Diary</a>
-        <a href="/settings/" class="profile-menu-item">⚙️ Settings</a>
-        <a href="/contact/" class="profile-menu-item">🎧 Help & Support</a>
-        <a href="/admin/" id="menu-admin-link" class="profile-menu-item admin-item" style="display: none;">🛡️ Admin</a>
-        <button onclick="window.checkForUpdates && window.checkForUpdates()" class="profile-menu-item border-top">🔄 Check for Updates</button>
-        <button id="logout-btn" class="profile-menu-item logout-item border-top">🚪 Logout</button>
-      </div>
-    </div>
-    <button class="header-btn hide-on-mobile" id="theme-toggle-btn" aria-label="Toggle Theme">
-      <svg class="icon-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+
+    <button class="hidden sm:flex p-2 text-secondary hover:text-primary hover:bg-raised rounded-full transition-colors" id="theme-toggle-btn" aria-label="Toggle Theme">
+      <svg class="dark:hidden w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
         <circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
       </svg>
-      <svg class="icon-moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <svg class="hidden dark:block w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
         <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
       </svg>
     </button>
+
+    <div class="relative hidden sm:block">
+      <button class="p-2 text-secondary hover:text-primary hover:bg-raised rounded-full transition-colors flex items-center justify-center" id="header-profile-btn" aria-label="Login / Profile">
+        <svg id="header-profile-icon" class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+        <img id="header-profile-img" src="" alt="Profile" class="w-8 h-8 rounded-full border border-border hidden">
+      </button>
+      
+      <!-- Dropdown (Hidden by default) -->
+      <div id="header-profile-menu" class="hidden absolute right-0 mt-2 w-56 bg-raised border border-border rounded-xl shadow-lg py-2 z-50">
+        <div class="px-4 py-3 border-b border-border">
+          <div id="menu-user-name" class="font-bold text-primary truncate">User</div>
+          <div id="menu-user-email" class="text-xs text-secondary truncate mt-1">user@email.com</div>
+        </div>
+        <a href="/profile/" class="block px-4 py-2 text-sm text-secondary hover:text-primary hover:bg-base transition-colors">👤 My Profile</a>
+        <a href="/my-diary/" class="block px-4 py-2 text-sm text-secondary hover:text-primary hover:bg-base transition-colors">📓 My Diary</a>
+        <a href="/settings/" class="block px-4 py-2 text-sm text-secondary hover:text-primary hover:bg-base transition-colors">⚙️ Settings</a>
+        <a href="/contact/" class="block px-4 py-2 text-sm text-secondary hover:text-primary hover:bg-base transition-colors">🎧 Help & Support</a>
+        <a href="/admin/" id="menu-admin-link" class="hidden px-4 py-2 text-sm text-accent font-medium hover:bg-base transition-colors">🛡️ Admin</a>
+        <div class="border-t border-border mt-2 pt-2">
+          <button onclick="window.checkForUpdates && window.checkForUpdates()" class="w-full text-left px-4 py-2 text-sm text-secondary hover:text-primary hover:bg-base transition-colors">🔄 Check Updates</button>
+          <button id="logout-btn" class="w-full text-left px-4 py-2 text-sm text-red-500 hover:bg-red-500/10 transition-colors">🚪 Logout</button>
+        </div>
+      </div>
+    </div>
   </div>
 </header>
-
-{# ── Focus Mode Exit Button (visible only in focus mode) ── #}
-<button class="focus-exit-btn" id="focus-exit-btn" aria-label="Exit Focus Mode" title="Focus Mode बंद करें (Exit)">
-  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"/>
-  </svg>
-</button>
