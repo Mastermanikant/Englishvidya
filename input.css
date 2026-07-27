@@ -1,24 +1,9 @@
 @import "tailwindcss";
 @source "./src/**/*.njk";
-@source "./src/**/*.html";
-@source "./website/js/**/*.js";
 
 @theme {
   --font-sans: "Inter", sans-serif;
   --font-heading: "Outfit", sans-serif;
-
-  --color-brand-50: #eef2ff;
-  --color-brand-100: #e0e7ff;
-  --color-brand-400: #818cf8;
-  --color-brand-500: #6366f1;
-  --color-brand-600: #4f46e5;
-  --color-brand-700: #4338ca;
-
-  --color-violet-500: #8b5cf6;
-  --color-violet-600: #7c3aed;
-
-  --color-cyan-400: #22d3ee;
-  --color-cyan-500: #06b6d4;
 
   --color-base: var(--bg-base);
   --color-raised: var(--bg-raised);
@@ -32,47 +17,9 @@
 @plugin "@tailwindcss/typography";
 @plugin "@tailwindcss/forms";
 
-/* Glassmorphism & Custom Utility Styles */
+/* Custom utility styles */
 @layer utilities {
   .text-balance {
     text-wrap: balance;
-  }
-
-  .glass-panel {
-    background: rgba(24, 24, 27, 0.65);
-    backdrop-filter: blur(16px);
-    -webkit-backdrop-filter: blur(16px);
-    border: 1px solid rgba(255, 255, 255, 0.08);
-  }
-
-  .glass-panel-hover {
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  }
-
-  .glass-panel-hover:hover {
-    border-color: rgba(99, 102, 241, 0.35);
-    box-shadow: 0 0 30px -5px rgba(99, 102, 241, 0.2);
-    transform: translateY(-3px);
-  }
-
-  .text-gradient {
-    background: linear-gradient(135deg, #a5b4fc 0%, #6366f1 50%, #c084fc 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-
-  .text-gradient-cyan {
-    background: linear-gradient(135deg, #38bdf8 0%, #818cf8 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-
-  .glow-orb {
-    position: absolute;
-    border-radius: 50%;
-    filter: blur(100px);
-    pointer-events: none;
-    z-index: 0;
-    opacity: 0.4;
   }
 }

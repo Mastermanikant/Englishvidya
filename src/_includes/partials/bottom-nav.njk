@@ -1,25 +1,23 @@
-{# ══ BOTTOM NAV PARTIAL (Mobile Glass Dock) ══ #}
-<div class="md:hidden fixed bottom-4 left-4 right-4 z-50">
-  <nav class="glass-panel rounded-2xl px-4 py-2.5 flex items-center justify-around shadow-2xl border border-white/15 backdrop-blur-xl" aria-label="Main Mobile Navigation">
-    <a href="/" class="flex flex-col items-center gap-0.5 {% if page.url == '/' %}text-brand-400{% else %}text-zinc-400 hover:text-white{% endif %} font-medium text-[10px]" data-route="home">
-      <span class="material-symbols-outlined text-[22px]">home</span>
-      <span>Home</span>
-    </a>
-    <a href="/grammar/" class="flex flex-col items-center gap-0.5 {% if page.url | includes('/grammar') %}text-brand-400{% else %}text-zinc-400 hover:text-white{% endif %} font-medium text-[10px]" data-route="grammar">
-      <span class="material-symbols-outlined text-[22px]">menu_book</span>
-      <span>Grammar</span>
-    </a>
-    <a href="/dictionary/" class="flex flex-col items-center gap-0.5 {% if page.url | includes('/dictionary') %}text-brand-400{% else %}text-zinc-400 hover:text-white{% endif %} font-medium text-[10px]" data-route="dictionary">
-      <span class="material-symbols-outlined text-[22px]">translate</span>
-      <span>Dictionary</span>
-    </a>
-    <a href="/flashcards/" class="flex flex-col items-center gap-0.5 {% if page.url | includes('/flashcards') %}text-brand-400{% else %}text-zinc-400 hover:text-white{% endif %} font-medium text-[10px]" data-route="flashcards">
-      <span class="material-symbols-outlined text-[22px]">quiz</span>
-      <span>Practice</span>
-    </a>
-    <a href="/login/" id="bottom-nav-profile-link" class="flex flex-col items-center gap-0.5 {% if page.url | includes('/login') or page.url | includes('/settings') or page.url | includes('/profile') %}text-brand-400{% else %}text-zinc-400 hover:text-white{% endif %} font-medium text-[10px]" data-route="profile">
-      <span class="material-symbols-outlined text-[22px]">account_circle</span>
-      <span>Profile</span>
-    </a>
-  </nav>
-</div>
+{# ══ BOTTOM NAV PARTIAL (Mobile) ══ #}
+<nav class="bottom-nav" aria-label="Main Navigation">
+  <a href="/" class="nav-item{% if page.url == '/' %} active{% endif %}" data-route="home">
+    <span class="nav-icon">🏠</span>
+    <span>Home</span>
+  </a>
+  <a href="/grammar/" class="nav-item{% if page.url | includes('/grammar') %} active{% endif %}" data-route="grammar">
+    <span class="nav-icon">📖</span>
+    <span>Grammar</span>
+  </a>
+  <a href="/dictionary/" class="nav-item{% if page.url | includes('/dictionary') %} active{% endif %}" data-route="dictionary">
+    <span class="nav-icon">🔤</span>
+    <span>Dictionary</span>
+  </a>
+  <a href="/flashcards/" class="nav-item{% if page.url | includes('/flashcards') %} active{% endif %}" data-route="flashcards">
+    <span class="nav-icon">🃏</span>
+    <span>Practice</span>
+  </a>
+  <a href="/login/" id="bottom-nav-profile-link" class="nav-item{% if page.url | includes('/login') or page.url | includes('/settings') %} active{% endif %}" data-route="profile">
+    <span class="nav-icon">👤</span>
+    <span>Profile</span>
+  </a>
+</nav>

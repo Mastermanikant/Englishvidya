@@ -1,84 +1,55 @@
-<header class="glass-panel border-b border-white/10 sticky top-0 z-30 h-16 flex items-center px-4 md:px-8 justify-between shrink-0 backdrop-blur-xl" id="app-header">
-  <!-- Left Side Logo & Mobile Menu Trigger -->
-  <div class="flex items-center gap-3">
-    <button class="md:hidden p-2 -ml-2 text-zinc-400 hover:text-white hover:bg-white/5 rounded-xl transition-colors" id="mobile-menu-trigger" aria-label="Menu" aria-expanded="false">
-      <span class="material-symbols-outlined text-[24px]">menu</span>
+<header class="bg-base border-b border-border sticky top-0 z-30 h-16 flex items-center px-4 md:px-8 justify-between shrink-0" id="app-header">
+  <div class="flex items-center gap-4">
+    <button class="md:hidden p-2 -ml-2 text-primary hover:bg-raised rounded-md transition-colors" id="mobile-menu-trigger" aria-label="Menu" aria-expanded="false">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="4" y1="12" x2="20" y2="12"></line>
+        <line x1="4" y1="6" x2="20" y2="6"></line>
+        <line x1="4" y1="18" x2="20" y2="18"></line>
+      </svg>
     </button>
-    
-    <a href="/" class="flex items-center gap-2.5 group" aria-label="{{ site.siteName }} Home">
-      <div class="w-9 h-9 rounded-xl bg-gradient-to-tr from-brand-600 to-violet-500 flex items-center justify-center shadow-lg shadow-brand-500/20 group-hover:scale-105 transition-transform">
-        <span class="material-symbols-outlined text-white text-[20px]">school</span>
-      </div>
-      <span class="font-heading font-bold text-lg tracking-tight text-white flex items-center gap-1.5">
-        English<span class="text-gradient">Vidya</span>
-        <span class="hidden sm:inline-block text-[9px] font-semibold tracking-wider bg-brand-500/20 text-brand-300 border border-brand-500/30 px-2 py-0.5 rounded-full uppercase">हिन्दी ➔ Eng</span>
-      </span>
+    <a href="/" class="md:hidden flex items-center gap-2" aria-label="{{ site.siteName }} Home">
+      <img src="/assets/icons/logo.webp" alt="" class="w-8 h-8 object-contain" loading="eager" aria-hidden="true">
+      <span class="font-heading font-bold text-xl tracking-tight text-primary">English <span class="text-accent">Vidya</span></span>
     </a>
   </div>
 
-  <!-- Right Side Actions & Badges -->
-  <div class="flex items-center gap-2 sm:gap-3">
-    <!-- Quick Search Pill -->
-    <button class="flex items-center gap-2 bg-zinc-800/80 hover:bg-zinc-700/80 text-zinc-400 hover:text-white border border-white/10 px-3 py-1.5 rounded-xl text-xs transition-colors" id="search-trigger-btn" aria-label="Search">
-      <span class="material-symbols-outlined text-[18px]">search</span>
-      <span class="hidden md:inline">Search...</span>
-      <kbd class="hidden md:inline-block bg-zinc-900 border border-zinc-700 text-zinc-300 px-1.5 py-0.5 rounded text-[9px]">Ctrl K</kbd>
+  <div class="flex items-center gap-2 sm:gap-4">
+    <button class="p-2 text-secondary hover:text-primary hover:bg-raised rounded-full transition-colors" id="search-trigger-btn" aria-label="Search">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="11" cy="11" r="8"/>
+        <path d="m21 21-4.35-4.35"/>
+      </svg>
     </button>
 
-    <!-- Streak & XP Badges -->
-    <div class="hidden lg:flex items-center gap-2 bg-zinc-900/60 border border-white/10 px-3 py-1.5 rounded-xl text-xs">
-      <span class="flex items-center gap-1 text-amber-400 font-semibold" title="Daily Learning Streak">
-        <span class="material-symbols-outlined text-[16px] animate-bounce">local_fire_department</span>
-        <span id="headerStreak">12 Days</span>
-      </span>
-      <span class="text-zinc-700">|</span>
-      <span class="flex items-center gap-1 text-emerald-400 font-semibold" title="XP Points">
-        <span class="material-symbols-outlined text-[16px]">workspace_premium</span>
-        <span id="headerXP">450 XP</span>
-      </span>
-    </div>
-
-    <!-- Theme Toggle -->
-    <button class="p-2 text-zinc-400 hover:text-white hover:bg-white/5 rounded-xl transition-colors" id="theme-toggle-btn" aria-label="Toggle Theme">
-      <span class="material-symbols-outlined text-[20px] dark:hidden">light_mode</span>
-      <span class="material-symbols-outlined text-[20px] hidden dark:block text-amber-400">dark_mode</span>
+    <button class="hidden sm:flex p-2 text-secondary hover:text-primary hover:bg-raised rounded-full transition-colors" id="theme-toggle-btn" aria-label="Toggle Theme">
+      <svg class="dark:hidden w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+      </svg>
+      <svg class="hidden dark:block w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+      </svg>
     </button>
 
-    <!-- Profile Dropdown Container -->
-    <div class="relative">
-      <button class="p-1.5 text-zinc-400 hover:text-white hover:bg-white/5 rounded-xl transition-colors flex items-center justify-center border border-white/10" id="header-profile-btn" aria-label="Login / Profile">
-        <span class="material-symbols-outlined text-[20px]" id="header-profile-icon">account_circle</span>
-        <img id="header-profile-img" src="" alt="Profile" class="w-7 h-7 rounded-full border border-brand-500/50 hidden">
+    <div class="relative hidden sm:block">
+      <button class="p-2 text-secondary hover:text-primary hover:bg-raised rounded-full transition-colors flex items-center justify-center" id="header-profile-btn" aria-label="Login / Profile">
+        <svg id="header-profile-icon" class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+        <img id="header-profile-img" src="" alt="Profile" class="w-8 h-8 rounded-full border border-border hidden">
       </button>
       
-      <!-- Dropdown Menu -->
-      <div id="header-profile-menu" class="hidden absolute right-0 mt-2 w-56 glass-panel rounded-2xl shadow-2xl py-2 z-50 border border-white/15">
-        <div class="px-4 py-3 border-b border-white/10">
-          <div id="menu-user-name" class="font-bold text-white truncate">User</div>
-          <div id="menu-user-email" class="text-xs text-zinc-400 truncate mt-1">user@email.com</div>
+      <!-- Dropdown (Hidden by default) -->
+      <div id="header-profile-menu" class="hidden absolute right-0 mt-2 w-56 bg-raised border border-border rounded-xl shadow-lg py-2 z-50">
+        <div class="px-4 py-3 border-b border-border">
+          <div id="menu-user-name" class="font-bold text-primary truncate">User</div>
+          <div id="menu-user-email" class="text-xs text-secondary truncate mt-1">user@email.com</div>
         </div>
-        <a href="/profile/" class="flex items-center gap-2 px-4 py-2 text-xs text-zinc-300 hover:text-white hover:bg-white/5 transition-colors">
-          <span class="material-symbols-outlined text-[18px]">person</span> My Profile
-        </a>
-        <a href="/my-diary/" class="flex items-center gap-2 px-4 py-2 text-xs text-zinc-300 hover:text-white hover:bg-white/5 transition-colors">
-          <span class="material-symbols-outlined text-[18px]">menu_book</span> My Diary
-        </a>
-        <a href="/settings/" class="flex items-center gap-2 px-4 py-2 text-xs text-zinc-300 hover:text-white hover:bg-white/5 transition-colors">
-          <span class="material-symbols-outlined text-[18px]">settings</span> Settings
-        </a>
-        <a href="/contact/" class="flex items-center gap-2 px-4 py-2 text-xs text-zinc-300 hover:text-white hover:bg-white/5 transition-colors">
-          <span class="material-symbols-outlined text-[18px]">help</span> Help & Support
-        </a>
-        <a href="/admin/" id="menu-admin-link" class="hidden flex items-center gap-2 px-4 py-2 text-xs text-brand-400 font-medium hover:bg-white/5 transition-colors">
-          <span class="material-symbols-outlined text-[18px]">admin_panel_settings</span> Admin
-        </a>
-        <div class="border-t border-white/10 mt-2 pt-2">
-          <button onclick="window.checkForUpdates && window.checkForUpdates()" class="w-full text-left flex items-center gap-2 px-4 py-2 text-xs text-zinc-400 hover:text-white hover:bg-white/5 transition-colors">
-            <span class="material-symbols-outlined text-[18px]">sync</span> Check Updates
-          </button>
-          <button id="logout-btn" class="w-full text-left flex items-center gap-2 px-4 py-2 text-xs text-rose-400 hover:bg-rose-500/10 transition-colors">
-            <span class="material-symbols-outlined text-[18px]">logout</span> Logout
-          </button>
+        <a href="/profile/" class="block px-4 py-2 text-sm text-secondary hover:text-primary hover:bg-base transition-colors">👤 My Profile</a>
+        <a href="/my-diary/" class="block px-4 py-2 text-sm text-secondary hover:text-primary hover:bg-base transition-colors">📓 My Diary</a>
+        <a href="/settings/" class="block px-4 py-2 text-sm text-secondary hover:text-primary hover:bg-base transition-colors">⚙️ Settings</a>
+        <a href="/contact/" class="block px-4 py-2 text-sm text-secondary hover:text-primary hover:bg-base transition-colors">🎧 Help & Support</a>
+        <a href="/admin/" id="menu-admin-link" class="hidden px-4 py-2 text-sm text-accent font-medium hover:bg-base transition-colors">🛡️ Admin</a>
+        <div class="border-t border-border mt-2 pt-2">
+          <button onclick="window.checkForUpdates && window.checkForUpdates()" class="w-full text-left px-4 py-2 text-sm text-secondary hover:text-primary hover:bg-base transition-colors">🔄 Check Updates</button>
+          <button id="logout-btn" class="w-full text-left px-4 py-2 text-sm text-red-500 hover:bg-red-500/10 transition-colors">🚪 Logout</button>
         </div>
       </div>
     </div>

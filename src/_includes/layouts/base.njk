@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ htmlLang or 'hi' }}" data-theme="dark" class="dark scroll-smooth">
+<html lang="{{ htmlLang or 'hi' }}" data-theme="dark" class="dark">
 
 <head>
   <meta charset="UTF-8">
@@ -26,19 +26,20 @@
   <meta name="twitter:description" content="{{ metaDescription or description or site.siteDescription }}">
   <meta name="twitter:image" content="{{ site.canonicalBase }}{{ ogImage or '/assets/icons/icon-512.png' }}">
 
+
   <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
-  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#09090b">
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0f172a">
   
   <link rel="icon" type="image/png" href="/assets/icons/icon-192.png">
   <link rel="icon" type="image/svg+xml" href="/assets/icons/logo.svg">
   <link rel="apple-touch-icon" href="/assets/icons/icon-192.png">
   <link rel="manifest" href="/manifest.json">
 
-  {# ── Fonts & Icons ── #}
+  {# ── Fonts ── #}
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@600;700;800;900&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@600;700;800;900&display=swap"></noscript>
 
   {# ── CSS ── #}
   <link rel="stylesheet" href="/css/custom.css?v=3.0.0">
@@ -59,38 +60,27 @@
   {{ extraHead | safe }}
 </head>
 
-<body class="bg-[#09090b] text-zinc-100 font-sans antialiased min-h-screen flex overflow-x-hidden selection:bg-brand-500 selection:text-white">
-
-  {# Ambient Glowing Orbs #}
-  <div class="glow-orb top-[-100px] left-[-100px] w-[500px] h-[500px] bg-brand-600/30"></div>
-  <div class="glow-orb top-[40%] right-[-150px] w-[600px] h-[600px] bg-violet-600/25"></div>
-  <div class="glow-orb bottom-10 left-[20%] w-[450px] h-[450px] bg-cyan-500/20"></div>
+<body class="bg-base text-primary font-sans antialiased h-screen flex overflow-hidden selection:bg-accent selection:text-white">
 
   {# ══ DESKTOP SIDEBAR ══ #}
   {% include "partials/sidebar.njk" %}
 
   {# ══ MAIN CONTENT AREA ══ #}
-  <div class="flex-1 flex flex-col min-w-0 min-h-screen bg-[#09090b] relative z-10">
+  <div class="flex-1 flex flex-col min-w-0 h-screen bg-base relative">
     
     {# ══ HEADER ══ #}
     {% include "partials/header.njk" %}
 
     {# ══ MAIN CONTENT ══ #}
     <main class="flex-1 overflow-y-auto w-full p-4 md:p-8 pb-24 md:pb-8" id="app-content" role="main">
-      <div class="{% if fullWidth %}max-w-7xl{% else %}max-w-4xl{% endif %} mx-auto w-full">
+      <div class="max-w-4xl mx-auto w-full">
         {# Breadcrumbs #}
-        {% if not disableBreadcrumbs %}
-          {% include "partials/breadcrumbs.njk" %}
-        {% endif %}
+        {% include "partials/breadcrumbs.njk" %}
         
-        {# Article / Content wrapper #}
-        {% if rawContent %}
+        {# Article / Content wrapper with Typography plugin #}
+        <article class="prose dark:prose-invert prose-indigo max-w-none mt-6">
           {{ content | safe }}
-        {% else %}
-          <article class="prose dark:prose-invert prose-indigo max-w-none mt-4">
-            {{ content | safe }}
-          </article>
-        {% endif %}
+        </article>
       </div>
 
       {# ══ FOOTER ══ #}
