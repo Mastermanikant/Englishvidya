@@ -26,9 +26,10 @@
     { "label": "Dictionary", "href": "/dictionary/","route": "dictionary", "icon": "🔤" },
     { "label": "Flashcards", "href": "/flashcards/","route": "flashcards", "icon": "🃏" },
     { "label": "Idioms",     "href": "/idioms/",    "route": "idioms",     "icon": "🎭" },
-    { "label": "Tests",      "href": "/test/",      "route": "test",       "icon": "🏆" },
-    { "label": "Ask AI",      "href": "/ask-ai/",        "route": "ask-ai",         "icon": "🤖" },
-    { "label": "All Posts",       "href": "/all-post/",      "route": "all-post",       "icon": "📝" },
+    { "label": "Quiz",       "href": "/test/",      "route": "test",       "icon": "📝" },
+    { "label": "Ask AI",     "href": "/ask-ai/",    "route": "ask-ai",     "icon": "🤖" },
+    { "label": "Kids",       "href": "/kids/",      "route": "kids",       "icon": "🧒" },
+    { "label": "All Posts",  "href": "/all-post/",  "route": "all-post",   "icon": "📝" },
     { 
       "label": "Classes", 
       "href": "#", 
@@ -36,7 +37,8 @@
       "icon": "🏫",
       "children": [
         { "label": "Class 10th", "href": "/class-10/", "route": "class-10" },
-        { "label": "Class 12th", "href": "/class-12/", "route": "class-12" }
+        { "label": "Class 12th", "href": "/class-12/", "route": "class-12" },
+        { "label": "Kids", "href": "/kids/", "route": "kids" }
       ]
     }
   ]

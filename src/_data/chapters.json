@@ -1,0 +1,144 @@
+{
+  "class10": {
+    "title": "Class 10th English — Panorama",
+    "subtitle": "Bihar Board Class 10 English (Panorama) — Complete Study Material",
+    "chapters": [
+      {
+        "no": 1,
+        "title": "The Pace for Living",
+        "author": "R.C. Hutchinson",
+        "type": "prose",
+        "hindiTitle": "जीवन की गति",
+        "summary": "इस पाठ में लेखक आधुनिक जीवन की तेज़ रफ़्तार और उससे उत्पन्न तनाव पर विचार करते हैं।",
+        "slug": "the-pace-for-living-class-10th-english-chapter-1-questions-and-answer",
+        "mcqCount": 10,
+        "difficulty": "medium",
+        "icon": "📖"
+      },
+      {
+        "no": 2,
+        "title": "Me and the Ecology Bit",
+        "author": "John Clark",
+        "type": "prose",
+        "hindiTitle": "मैं और पर्यावरण",
+        "summary": "यह पाठ पर्यावरण संरक्षण के महत्व और एक परिवार की पर्यावरण-संबंधी जागरूकता पर आधारित है।",
+        "slug": "me-and-the-ecology-bit-class-10-english-chapter-notes-questions-answers",
+        "mcqCount": 12,
+        "difficulty": "easy",
+        "icon": "🌿"
+      },
+      {
+        "no": 3,
+        "title": "Gillu",
+        "author": "Mahadevi Verma",
+        "type": "prose",
+        "hindiTitle": "गिल्लू",
+        "summary": "महादेवी वर्मा जी की यह रचना एक गिलहरी 'गिल्लू' के साथ उनके भावनात्मक संबंध की कहानी है।",
+        "slug": "gillu-class-10-english-chapter-notes-questions-answers",
+        "mcqCount": 15,
+        "difficulty": "easy",
+        "icon": "🐿️"
+      },
+      {
+        "no": 4,
+        "title": "What is Wrong with Indian Films?",
+        "author": "Satyajit Ray",
+        "type": "prose",
+        "hindiTitle": "भारतीय फिल्मों में क्या गड़बड़ है?",
+        "summary": "प्रसिद्ध फ़िल्म निर्देशक सत्यजित राय ने इस लेख में भारतीय सिनेमा की कमियों का विश्लेषण किया है।",
+        "slug": "bihar-board-class-10-english-chapter-list-panorama-reader",
+        "mcqCount": 10,
+        "difficulty": "hard",
+        "icon": "🎬"
+      },
+      {
+        "no": 5,
+        "title": "Acceptance Speech",
+        "author": "Malala Yousafzai",
+        "type": "prose",
+        "hindiTitle": "स्वीकृति भाषण",
+        "summary": "मलाला यूसुफज़ई का यह भाषण नोबेल शांति पुरस्कार ग्रहण करते समय दिया गया — शिक्षा और लड़कियों के अधिकारों पर।",
+        "slug": "bihar-board-class-10-english-chapter-list-panorama-reader",
+        "mcqCount": 8,
+        "difficulty": "medium",
+        "icon": "🏆"
+      }
+    ],
+    "modelPapers": [
+      { "year": "2024", "type": "Bihar Board", "url": "#", "icon": "📄" },
+      { "year": "2023", "type": "Bihar Board", "url": "#", "icon": "📄" },
+      { "year": "2022", "type": "Bihar Board", "url": "#", "icon": "📄" }
+    ]
+  },
+  "class12": {
+    "title": "Class 12th English — Rainbow",
+    "subtitle": "Bihar Board Class 12 English (Rainbow Part-2) — Complete Study Material",
+    "chapters": [
+      {
+        "no": 1,
+        "title": "A Pinch of Snuff",
+        "author": "Manohar Malgonkar",
+        "type": "prose",
+        "hindiTitle": "एक चुटकी नसवार",
+        "summary": "यह कहानी एक भारतीय सैनिक की युद्ध के दौरान की घटनाओं पर आधारित है।",
+        "slug": "#",
+        "mcqCount": 10,
+        "difficulty": "medium",
+        "icon": "📖"
+      },
+      {
+        "no": 2,
+        "title": "Bharat is My Home",
+        "author": "Dr. Zakir Hussain",
+        "type": "prose",
+        "hindiTitle": "भारत मेरा घर है",
+        "summary": "डॉ. ज़ाकिर हुसैन का यह भाषण भारत की विविधता में एकता का संदेश देता है।",
+        "slug": "bharat-is-my-home-line-by-line-pronunciation-and-hindi-meaning",
+        "mcqCount": 15,
+        "difficulty": "easy",
+        "icon": "🇮🇳"
+      },
+      {
+        "no": 3,
+        "title": "Indian Civilization and Culture",
+        "author": "M.K. Gandhi",
+        "type": "prose",
+        "hindiTitle": "भारतीय सभ्यता और संस्कृति",
+        "summary": "महात्मा गांधी ने इस लेख में भारतीय सभ्यता की श्रेष्ठता और पाश्चात्य सभ्यता की तुलनात्मक आलोचना की है।",
+        "slug": "indian-civilization-and-culture",
+        "mcqCount": 20,
+        "difficulty": "hard",
+        "icon": "🏛️"
+      },
+      {
+        "no": 4,
+        "title": "I Have a Dream",
+        "author": "Martin Luther King Jr.",
+        "type": "prose",
+        "hindiTitle": "मेरा एक सपना है",
+        "summary": "मार्टिन लूथर किंग जूनियर का यह ऐतिहासिक भाषण नस्लीय समानता और नागरिक अधिकारों के लिए दिया गया था।",
+        "slug": "#",
+        "mcqCount": 12,
+        "difficulty": "medium",
+        "icon": "✊"
+      },
+      {
+        "no": 5,
+        "title": "The Earth",
+        "author": "R.C. Hutchinson",
+        "type": "poem",
+        "hindiTitle": "पृथ्वी (कविता)",
+        "summary": "यह कविता प्रकृति और पृथ्वी की सुंदरता का वर्णन करती है।",
+        "slug": "#",
+        "mcqCount": 8,
+        "difficulty": "easy",
+        "icon": "🌍"
+      }
+    ],
+    "modelPapers": [
+      { "year": "2024", "type": "Bihar Board 100 Marks", "url": "#", "icon": "📄" },
+      { "year": "2023", "type": "Bihar Board 100 Marks", "url": "#", "icon": "📄" },
+      { "year": "2022", "type": "Bihar Board 100 Marks", "url": "#", "icon": "📄" }
+    ]
+  }
+}

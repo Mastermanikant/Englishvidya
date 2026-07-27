@@ -1,0 +1,596 @@
+---
+layout: layouts/base.njk
+pageTitle: "English Grammar Quiz — English Vidya"
+metaDescription: "अंग्रेजी व्याकरण का टेस्ट दें — बिल्कुल मुफ़्त!"
+permalink: /quiz/
+---
+
+<style>
+  :root {
+    --quiz-bg: var(--bg-main, #ffffff);
+    --quiz-card: var(--bg-raised, #f8fafc);
+    --quiz-text: var(--text-main, #1e293b);
+    --quiz-muted: var(--text-secondary, #64748b);
+    --quiz-accent: var(--accent, #3b82f6);
+    --quiz-success: var(--success, #10b981);
+    --quiz-danger: var(--error, #ef4444);
+    --quiz-border: var(--border, #e2e8f0);
+  }
+
+  .quiz-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+    font-family: 'Outfit', 'Inter', sans-serif;
+  }
+
+  /* Screens */
+  .quiz-screen {
+    display: none;
+    animation: fadeIn 0.3s ease-in-out;
+  }
+  .quiz-screen.active {
+    display: block;
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  /* Category Cards */
+  .category-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+
+  .category-card {
+    background: var(--quiz-card);
+    border: 2px solid var(--quiz-border);
+    border-radius: 1rem;
+    padding: 2rem 1.5rem;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.2s;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+  }
+  .category-card:hover {
+    border-color: var(--quiz-accent);
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  }
+  .cat-emoji {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  .cat-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--quiz-text);
+    margin-bottom: 0.5rem;
+  }
+  .cat-desc {
+    color: var(--quiz-muted);
+    font-size: 0.875rem;
+  }
+
+  /* Active Quiz Screen */
+  .quiz-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+
+  .progress-container {
+    flex: 1;
+    margin: 0 2rem;
+  }
+  .progress-bar {
+    height: 8px;
+    background: var(--quiz-border);
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  .progress-fill {
+    height: 100%;
+    background: var(--quiz-accent);
+    width: 0%;
+    transition: width 0.3s ease;
+  }
+
+  .timer-ring {
+    position: relative;
+    width: 50px;
+    height: 50px;
+  }
+  .timer-ring svg {
+    transform: rotate(-90deg);
+  }
+  .timer-circle-bg {
+    fill: none;
+    stroke: var(--quiz-border);
+    stroke-width: 4;
+  }
+  .timer-circle {
+    fill: none;
+    stroke: var(--quiz-accent);
+    stroke-width: 4;
+    stroke-dasharray: 125.6; /* 2 * pi * r (20) */
+    stroke-dashoffset: 0;
+    transition: stroke-dashoffset 1s linear;
+  }
+  .timer-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 700;
+    color: var(--quiz-text);
+  }
+  
+  .question-text {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: var(--quiz-text);
+    margin-bottom: 2rem;
+    line-height: 1.4;
+    text-align: center;
+  }
+
+  .options-grid {
+    display: grid;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .option-btn {
+    padding: 1.25rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--quiz-text);
+    background: var(--quiz-card);
+    border: 2px solid var(--quiz-border);
+    border-radius: 0.75rem;
+    cursor: pointer;
+    transition: all 0.2s;
+    text-align: left;
+    display: flex;
+    align-items: center;
+  }
+  .option-btn:hover:not(:disabled) {
+    background: var(--quiz-border);
+    border-color: var(--quiz-accent);
+  }
+  .option-btn.correct {
+    background: rgba(16, 185, 129, 0.1);
+    border-color: var(--quiz-success);
+    color: var(--quiz-success);
+  }
+  .option-btn.wrong {
+    background: rgba(239, 68, 68, 0.1);
+    border-color: var(--quiz-danger);
+    color: var(--quiz-danger);
+  }
+  .option-letter {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    background: rgba(0,0,0,0.05);
+    border-radius: 50%;
+    margin-right: 1rem;
+    font-weight: 700;
+  }
+
+  .explanation-box {
+    display: none;
+    background: var(--quiz-card);
+    border-left: 4px solid var(--quiz-accent);
+    padding: 1rem 1.5rem;
+    border-radius: 0 0.5rem 0.5rem 0;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    color: var(--quiz-text);
+    animation: fadeIn 0.3s;
+  }
+
+  .next-btn {
+    display: none;
+    width: 100%;
+    padding: 1rem;
+    background: var(--quiz-accent);
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 0.75rem;
+    cursor: pointer;
+    box-shadow: 0 4px 6px -1px rgba(59, 130, 246, 0.5);
+  }
+  .next-btn:hover {
+    opacity: 0.9;
+  }
+
+  /* Score Screen */
+  .score-screen {
+    text-align: center;
+    padding: 3rem 1rem;
+  }
+  .score-circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 8px solid var(--quiz-accent);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 2rem;
+    background: var(--quiz-card);
+  }
+  .score-number {
+    font-size: 3rem;
+    font-weight: 800;
+    color: var(--quiz-text);
+    line-height: 1;
+  }
+  .score-percent {
+    font-size: 1.25rem;
+    color: var(--quiz-muted);
+    font-weight: 600;
+  }
+  .stars {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #fbbf24;
+  }
+  .score-message {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--quiz-text);
+    margin-bottom: 0.5rem;
+  }
+  .time-taken {
+    color: var(--quiz-muted);
+    margin-bottom: 2rem;
+  }
+  
+  .action-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+  }
+  .btn-outline {
+    padding: 1rem 2rem;
+    border: 2px solid var(--quiz-accent);
+    color: var(--quiz-accent);
+    background: transparent;
+    font-weight: 700;
+    border-radius: 0.75rem;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  .btn-outline:hover {
+    background: rgba(59, 130, 246, 0.1);
+  }
+</style>
+
+<div class="quiz-container">
+  
+  <!-- SCREEN 1: CATEGORY SELECTION -->
+  <div id="screen-select" class="quiz-screen active">
+    <div style="text-align: center; margin-bottom: 2rem;">
+      <h1 style="font-size: 2.5rem; font-weight: 800; color: var(--quiz-text); margin-bottom: 0.5rem;">Grammar Quizzes</h1>
+      <p style="color: var(--quiz-muted); font-size: 1.1rem;">Choose a topic and test your knowledge!</p>
+    </div>
+    
+    <div class="category-grid" id="category-container">
+      <!-- Generated by JS -->
+    </div>
+  </div>
+
+  <!-- SCREEN 2: ACTIVE QUIZ -->
+  <div id="screen-quiz" class="quiz-screen">
+    <div class="quiz-header">
+      <div id="quiz-title" style="font-weight: 700; color: var(--quiz-muted);">Grammar Basics</div>
+      
+      <div class="progress-container">
+        <div style="text-align: right; font-size: 0.875rem; color: var(--quiz-muted); margin-bottom: 0.25rem;" id="q-counter">1 / 10</div>
+        <div class="progress-bar">
+          <div class="progress-fill" id="progress-fill"></div>
+        </div>
+      </div>
+      
+      <div class="timer-ring">
+        <svg width="50" height="50">
+          <circle class="timer-circle-bg" cx="25" cy="25" r="20"></circle>
+          <circle class="timer-circle" id="timer-circle" cx="25" cy="25" r="20"></circle>
+        </svg>
+        <div class="timer-text" id="timer-text">30</div>
+      </div>
+    </div>
+
+    <div class="question-text" id="question-text">
+      Loading question...
+    </div>
+
+    <div class="options-grid" id="options-container">
+      <!-- Generated by JS -->
+    </div>
+
+    <div class="explanation-box" id="explanation-box">
+      <!-- Explanation here -->
+    </div>
+
+    <button class="next-btn" id="next-btn" onclick="nextQuestion()">Next Question &rarr;</button>
+  </div>
+
+  <!-- SCREEN 3: SCORE CARD -->
+  <div id="screen-score" class="quiz-screen">
+    <div class="score-screen">
+      <div class="stars" id="score-stars">⭐⭐⭐</div>
+      <div class="score-circle">
+        <div class="score-number" id="score-number">7</div>
+        <div class="score-percent" id="score-percent">/ 10</div>
+      </div>
+      <div class="score-message" id="score-message">Excellent Job!</div>
+      <div class="time-taken" id="time-taken">Time taken: 02:15</div>
+      
+      <div class="action-buttons">
+        <button class="btn-outline" onclick="retryQuiz()">Retry Quiz</button>
+        <button class="next-btn" style="display: block; width: auto;" onclick="showScreen('select')">Try Another</button>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<script>
+const QUIZ_DATA = {
+  grammar: {
+    title: 'Grammar Basics',
+    emoji: '📖',
+    questions: [
+      {q: "'I __ a student.' mein sahi verb kya hoga?", options:['am','is','are','was'], correct:0, exp:'First person singular ke liye "am" use karte hain।'},
+      {q: "Present Continuous Tense ka formula kya hai?", options:['S + V1','S + is/am/are + V4','S + V2','S + has/have + V3'], correct:1, exp:'Present Continuous = Subject + is/am/are + Verb+ing (V4)'},
+      {q: "'She __ to school daily.' mein sahi verb kya hoga?", options:['go','goes','going','gone'], correct:1, exp:'Third person singular (She/He/It) ke saath V1 mein -s/-es lagata hai।'},
+      {q: "Noun kya hota hai?", options:['Kaam batata hai','Naam batata hai','Warna batata hai','Jagah batata hai'], correct:1, exp:'Noun kisi bhi vyakti, sthan, vastu, ya vichar ka naam hota hai।'},
+      {q: "'They __ playing cricket.' mein kaunsa tense hai?", options:['Simple Present','Past Continuous','Present Continuous','Future Simple'], correct:2, exp:'is/am/are + V4 = Present Continuous Tense।'},
+      {q: "Article 'an' ka use kab karta hai?", options:['Consonant sound se pehle','Vowel sound se pehle','Proper noun se pehle','Plural noun se pehle'], correct:1, exp:'"an" vowel sound (a,e,i,o,u) se shuru hone wale shabdon se pehle lagata hai।'},
+      {q: "'He works hard.' mein kaunsa tense hai?", options:['Present Continuous','Simple Past','Simple Present','Present Perfect'], correct:2, exp:'Simple Present = Subject + V1 (he/she/it ke saath V1+s/es)।'},
+      {q: "Pronoun ka example kaunsa hai?", options:['Table','Run','He','Beautiful'], correct:2, exp:'He, She, It, They — ye sab pronouns hain jo nouns ki jagah use hote hain।'},
+      {q: "'I will go to Delhi tomorrow.' mein kaunsa tense hai?", options:['Simple Present','Simple Past','Present Perfect','Simple Future'], correct:3, exp:'will/shall + V1 = Simple Future Tense।'},
+      {q: "Adjective kya karta hai?", options:['Verb ko describe karta hai','Noun ko describe karta hai','Pronoun replace karta hai','Subject banata hai'], correct:1, exp:'Adjective noun ya pronoun ki visheshta batata hai, jaise: Beautiful girl, Tall boy।'}
+    ]
+  },
+  tenses: {
+    title: 'Tenses Quiz',
+    emoji: '⏰',
+    questions: [
+      {q:"Present Perfect ka formula kya hai?", options:['S+V2','S+has/have+V3','S+is/am/are+V4','S+V1'], correct:1, exp:'Present Perfect = Subject + has/have + V3 (3rd form of verb)'},
+      {q:"'She had eaten food.' — kaunsa tense?", options:['Past Perfect','Present Perfect','Past Continuous','Simple Past'], correct:0, exp:'had + V3 = Past Perfect Tense'},
+      {q:"V4 matlab kya hota hai?", options:['1st form','2nd form','3rd form','Verb+ing'], correct:3, exp:'V4 = Verb ki -ing form, jaise go → going, run → running'},
+      {q:"'I have been studying for 2 hours.' — kaunsa tense?", options:['Present Perfect','Present Perfect Continuous','Past Perfect','Present Continuous'], correct:1, exp:'has/have + been + V4 = Present Perfect Continuous Tense'},
+      {q:"Simple Past mein V2 kab use karte hain?", options:['Future actions mein','Habitual actions mein','Completed past actions mein','Ongoing actions mein'], correct:2, exp:'Simple Past = completed actions in the past, V2 (2nd form) use hoti hai'},
+      {q:"'They will have finished the work by 5 PM.' — kaunsa tense?", options:['Future Perfect','Simple Future','Future Continuous','Past Perfect'], correct:0, exp:'will/shall + have + V3 = Future Perfect Tense'},
+      {q:"Present Indefinite mein he/she/it ke saath kya lagata hai?", options:['V1 only','V2','V1 + s/es','has/have'], correct:2, exp:'He/She/It ke saath Simple Present mein V1 mein -s ya -es lagata hai'},
+      {q:"'Ram was reading a book.' — is sentence mein kya galat hai?", options:['Kuch galat nahi, Past Continuous hai','Subject galat hai','Verb galat hai','Article galat hai'], correct:0, exp:'was + V4 = Past Continuous Tense, bilkul sahi hai!'},
+      {q:"Future Continuous ka formula kya hai?", options:['will+V1','will+be+V4','will+have+V3','will+have+been+V4'], correct:1, exp:'will/shall + be + V4 (verb-ing) = Future Continuous Tense'},
+      {q:"'Since' aur 'For' mein kya difference hai Tense context mein?", options:['Koi difference nahi','Since = point of time, For = period of time','Since = period, For = point','Dono same hain'], correct:1, exp:'Since = specific point in time (since Monday, since 2020), For = duration/period (for 2 hours, for 3 days)'}
+    ]
+  },
+  vocabulary: {
+    title: 'Vocabulary Challenge',
+    emoji: '🔤',
+    questions: [
+      {q:"'Abundant' ka matlab kya hota hai?", options:['Kam','Bahut zyada','Sundar','Kharab'], correct:1, exp:'Abundant = Plentiful (Prachur matra mein)'},
+      {q:"'Diligent' ka synonym kya hai?", options:['Lazy','Hardworking','Stupid','Angry'], correct:1, exp:'Diligent = Hardworking (Mehanti)'},
+      {q:"'Optimistic' ka antonym (opposite) kya hoga?", options:['Happy','Pessimistic','Positive','Hopeful'], correct:1, exp:'Optimistic (Aashawadi) ka opposite Pessimistic (Nirashawadi) hota hai'},
+      {q:"'Obstacle' ka matlab kya hai?", options:['Rasta','Rukawat','Madad','Dost'], correct:1, exp:'Obstacle = Hurdle / Barrier (Rukawat ya baadha)'},
+      {q:"'Enormous' ka meaning kya hai?", options:['Chhota','Bahut bada','Patla','Lamba'], correct:1, exp:'Enormous = Huge / Very big (Vishal)'},
+      {q:"'Fascinating' ka kya arth hai?", options:['Boring','Interesting','Sad','Angry'], correct:1, exp:'Fascinating = Extremely interesting (Akarshak)'},
+      {q:"'Reluctant' ka synonym chunein:", options:['Eager','Willing','Hesitant','Ready'], correct:2, exp:'Reluctant = Hesitant (Anichhuk ya hichkichahat bhara)'},
+      {q:"'Crucial' ka matlab:", options:['Important','Useless','Easy','Hard'], correct:0, exp:'Crucial = Very important / Critical (Mahatvapurna)'},
+      {q:"'Appreciate' ka kya arth hota hai?", options:['Gussa karna','Tareef/Kadar karna','Bhul jana','Rona'], correct:1, exp:'Appreciate = To value or be grateful for (Kadar karna)'},
+      {q:"'Vanish' ka matlab kya hai?", options:['Aana','Gayab hona','Dikhna','Banana'], correct:1, exp:'Vanish = Disappear suddenly (Achanak gayab ho jana)'}
+    ]
+  },
+  board: {
+    title: 'Bihar Board Special',
+    emoji: '🏫',
+    questions: [
+      {q:"Choose the correct spelling:", options:['Goverment','Government','Govarment','Governmant'], correct:1, exp:'Sahi spelling "Government" (Sarkar) hoti hai।'},
+      {q:"He is blind __ one eye. (Choose correct preposition)", options:['of','in','to','with'], correct:1, exp:'Blind "in" one eye sahi phrase hota hai।'},
+      {q:"Change to passive voice: 'She helps me.'", options:['I am helped by her.','Me is helped by she.','I was helped by her.','She is helped by me.'], correct:0, exp:'Passive rule for Simple Present: Object + is/am/are + V3 + by + Subject.'},
+      {q:"'A lot of energy __ wasted on finding the treasure.'", options:['was','were','have','can'], correct:0, exp:'Energy uncountable noun hai, isliye singular verb "was" aayega।'},
+      {q:"The doctor said, 'Take medicine in time.' (Change to indirect)", options:['The doctor asked to take medicine.','The doctor advised to take medicine in time.','The doctor order to take medicine.','The doctor say to take medicine.'], correct:1, exp:'Doctor always "advises", so "advised to take..." is correct.'},
+      {q:"Synonym of 'Confess' is:", options:['Deny','Admit','Hide','Argue'], correct:1, exp:'Confess ka matlab apna gunah manna (Admit) hota hai।'},
+      {q:"I have been living here __ 2015.", options:['for','from','since','to'], correct:2, exp:'Specific year (2015) ek point of time hai, isliye "since" aayega।'},
+      {q:"Choose the correct sentence:", options:['I need a soap.','I need soap.','I need some soap.','Both B & C'], correct:3, exp:'Soap uncountable hai, isliye "a soap" galat hai. "Soap" ya "some soap" sahi hai।'},
+      {q:"The antonym of 'Modern' is:", options:['Recent','New','Ancient','Current'], correct:2, exp:'Modern (Aadhunik) ka opposite Ancient (Prachin) hota hai।'},
+      {q:"He died __ malaria.", options:['from','of','with','by'], correct:1, exp:'Kisi bimari se marne ke liye preposition "of" ka prayog hota hai (died of malaria)।'}
+    ]
+  }
+};
+
+let currentCategory = '';
+let currentQuestions = [];
+let currentIndex = 0;
+let score = 0;
+let timer;
+let timeLeft = 30;
+const TIME_LIMIT = 30;
+let startTime;
+
+// Init categories
+function initCategories() {
+  const container = document.getElementById('category-container');
+  container.innerHTML = Object.keys(QUIZ_DATA).map(key => {
+    const cat = QUIZ_DATA[key];
+    return `
+      <div class="category-card" onclick="startQuiz('${key}')">
+        <div class="cat-emoji">${cat.emoji}</div>
+        <div class="cat-title">${cat.title}</div>
+        <div class="cat-desc">${cat.questions.length} Questions • ${TIME_LIMIT}s / q</div>
+      </div>
+    `;
+  }).join('');
+}
+
+function showScreen(screenId) {
+  document.querySelectorAll('.quiz-screen').forEach(s => s.classList.remove('active'));
+  document.getElementById(`screen-${screenId}`).classList.add('active');
+}
+
+function startQuiz(catKey) {
+  currentCategory = catKey;
+  currentQuestions = [...QUIZ_DATA[catKey].questions];
+  
+  // Optional: Shuffle questions here if desired
+  
+  document.getElementById('quiz-title').textContent = QUIZ_DATA[catKey].title;
+  currentIndex = 0;
+  score = 0;
+  startTime = Date.now();
+  
+  showScreen('quiz');
+  loadQuestion();
+}
+
+function loadQuestion() {
+  clearTimeout(timer);
+  const q = currentQuestions[currentIndex];
+  
+  document.getElementById('q-counter').textContent = `${currentIndex + 1} / ${currentQuestions.length}`;
+  document.getElementById('progress-fill').style.width = `${((currentIndex) / currentQuestions.length) * 100}%`;
+  
+  document.getElementById('question-text').textContent = q.q;
+  
+  const optsContainer = document.getElementById('options-container');
+  const letters = ['A','B','C','D'];
+  optsContainer.innerHTML = q.options.map((opt, i) => `
+    <button class="option-btn" id="opt-${i}" onclick="checkAnswer(${i})">
+      <span class="option-letter">${letters[i]}</span>
+      ${opt}
+    </button>
+  `).join('');
+  
+  document.getElementById('explanation-box').style.display = 'none';
+  document.getElementById('next-btn').style.display = 'none';
+  
+  startTimer();
+}
+
+function startTimer() {
+  timeLeft = TIME_LIMIT;
+  const circle = document.getElementById('timer-circle');
+  const text = document.getElementById('timer-text');
+  
+  circle.style.transition = 'none';
+  circle.style.strokeDashoffset = '0';
+  circle.style.stroke = 'var(--quiz-accent)';
+  
+  text.textContent = timeLeft;
+  
+  timer = setInterval(() => {
+    timeLeft--;
+    text.textContent = timeLeft;
+    
+    // Update circle
+    const offset = 125.6 - (timeLeft / TIME_LIMIT) * 125.6;
+    circle.style.transition = 'stroke-dashoffset 1s linear, stroke 0.5s';
+    circle.style.strokeDashoffset = offset;
+    
+    if (timeLeft <= 10) circle.style.stroke = 'var(--quiz-danger)';
+    if (timeLeft <= 5) circle.style.stroke = 'var(--quiz-warning, #f59e0b)';
+    
+    if (timeLeft <= 0) {
+      clearInterval(timer);
+      checkAnswer(-1); // Timeout
+    }
+  }, 1000);
+}
+
+function checkAnswer(selectedIndex) {
+  clearInterval(timer);
+  
+  const q = currentQuestions[currentIndex];
+  const isCorrect = selectedIndex === q.correct;
+  
+  // Disable all options
+  document.querySelectorAll('.option-btn').forEach(btn => btn.disabled = true);
+  
+  // Highlight correct and wrong
+  if (selectedIndex !== -1) {
+    document.getElementById(`opt-${selectedIndex}`).classList.add(isCorrect ? 'correct' : 'wrong');
+  }
+  document.getElementById(`opt-${q.correct}`).classList.add('correct');
+  
+  if (isCorrect) score++;
+  
+  // Show explanation
+  const expBox = document.getElementById('explanation-box');
+  expBox.innerHTML = `<strong>${isCorrect ? '✅ Sahi Jawab!' : '❌ Galat Jawab.'}</strong> <br>${q.exp}`;
+  expBox.style.display = 'block';
+  expBox.style.borderColor = isCorrect ? 'var(--quiz-success)' : 'var(--quiz-danger)';
+  
+  document.getElementById('next-btn').style.display = 'block';
+  document.getElementById('next-btn').textContent = (currentIndex === currentQuestions.length - 1) ? 'See Results' : 'Next Question &rarr;';
+}
+
+function nextQuestion() {
+  currentIndex++;
+  if (currentIndex >= currentQuestions.length) {
+    showResults();
+  } else {
+    loadQuestion();
+  }
+}
+
+function showResults() {
+  document.getElementById('progress-fill').style.width = '100%';
+  
+  const timeSecs = Math.floor((Date.now() - startTime) / 1000);
+  const mins = Math.floor(timeSecs / 60);
+  const secs = timeSecs % 60;
+  
+  document.getElementById('score-number').textContent = score;
+  document.getElementById('score-percent').textContent = `/ ${currentQuestions.length}`;
+  document.getElementById('time-taken').textContent = `Time taken: ${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
+  
+  const percent = score / currentQuestions.length;
+  let msg = 'Keep Practicing!';
+  let stars = '⭐';
+  
+  if (percent >= 0.8) { msg = 'Excellent Job!'; stars = '⭐⭐⭐'; }
+  else if (percent >= 0.5) { msg = 'Good Effort!'; stars = '⭐⭐'; }
+  
+  document.getElementById('score-message').textContent = msg;
+  document.getElementById('score-stars').textContent = stars;
+  
+  showScreen('score');
+  
+  // Save to localStorage
+  try {
+    const history = JSON.parse(localStorage.getItem('ev-quiz-history') || '[]');
+    history.push({
+      category: currentCategory,
+      score: score,
+      total: currentQuestions.length,
+      date: new Date().toISOString()
+    });
+    localStorage.setItem('ev-quiz-history', JSON.stringify(history));
+  } catch(e) {}
+}
+
+function retryQuiz() {
+  startQuiz(currentCategory);
+}
+
+// Start
+document.addEventListener('DOMContentLoaded', initCategories);
+</script>

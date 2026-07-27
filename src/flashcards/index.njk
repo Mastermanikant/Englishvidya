@@ -11,34 +11,208 @@ permalink: /flashcards/
 ] %}
 {% include "partials/breadcrumbs.njk" %}
 
-<div class="hero-welcome animate-fade-in dict-hero">
-  <h1 class="dict-hero-title">🃏 Flashcards Practice</h1>
-  <p class="hero-subtitle">See, memorise and listen to words — वैज्ञानिक तरीके से याद करें!</p>
+<style>
+  .premium-hero {
+    background: linear-gradient(135deg, #8b5cf6, var(--accent));
+    border-radius: var(--radius-lg);
+    padding: var(--sp-8);
+    text-align: center;
+    margin-bottom: var(--sp-8);
+    color: white;
+    box-shadow: var(--shadow-md);
+  }
+  .premium-hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: var(--sp-2);
+    text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  }
+  
+  .fc-session {
+    max-width: 600px;
+    margin: 0 auto var(--sp-12) auto;
+  }
+  .fc-stats {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: var(--sp-4);
+    font-weight: bold;
+    color: var(--text-secondary);
+  }
+  .fc-progress-bar {
+    height: 8px;
+    background: var(--bg-raised);
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom: var(--sp-6);
+  }
+  .fc-progress-fill {
+    height: 100%;
+    background: var(--accent);
+    width: 0%;
+    transition: width 0.3s ease;
+  }
+
+  .flashcard-container {
+    perspective: 1000px;
+    width: 100%;
+    height: 350px;
+    margin-bottom: var(--sp-6);
+    cursor: pointer;
+  }
+  .flashcard-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s cubic-bezier(0.4, 0.2, 0.2, 1);
+    transform-style: preserve-3d;
+  }
+  .flashcard-container.flipped .flashcard-inner {
+    transform: rotateY(180deg);
+  }
+  .flashcard-front, .flashcard-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-md);
+    border: 1px solid var(--border);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: var(--sp-6);
+    background: var(--bg-raised);
+  }
+  .flashcard-back {
+    transform: rotateY(180deg);
+    background: var(--bg-base);
+    border-top: 4px solid var(--accent);
+  }
+  
+  .fc-word { font-size: 3rem; font-weight: bold; color: var(--text-primary); margin-bottom: var(--sp-4); }
+  .fc-audio { 
+    background: var(--bg-base); border: 1px solid var(--border); border-radius: 50%;
+    width: 50px; height: 50px; display: flex; align-items: center; justify-content: center;
+    font-size: 1.5rem; cursor: pointer; transition: all 0.2s;
+  }
+  .fc-audio:hover { background: var(--accent); color: white; border-color: var(--accent); }
+  
+  .fc-hindi { font-size: 2rem; color: var(--accent); font-weight: bold; margin-bottom: var(--sp-4); }
+  .fc-ex { font-size: 1.1rem; color: var(--text-primary); font-style: italic; margin-bottom: var(--sp-1); }
+  .fc-ex-hi { font-size: 1rem; color: var(--text-secondary); margin-bottom: var(--sp-4); }
+  .fc-syn { font-size: 0.9rem; color: var(--text-secondary); }
+  .fc-syn span { background: var(--bg-raised); padding: 4px 8px; border-radius: 4px; border: 1px solid var(--border); margin: 0 4px; }
+
+  .fc-controls {
+    display: flex;
+    justify-content: space-between;
+    gap: var(--sp-4);
+  }
+  .fc-btn {
+    flex: 1;
+    padding: var(--sp-4);
+    border: none;
+    border-radius: var(--radius-lg);
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s, opacity 0.2s;
+    color: white;
+  }
+  .fc-btn:hover { transform: translateY(-2px); opacity: 0.9; }
+  .btn-know { background: #22c55e; }
+  .btn-review { background: #ef4444; }
+  .btn-nav { background: var(--text-secondary); }
+
+  .dict-cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: var(--sp-4);
+    margin-top: var(--sp-4);
+  }
+  .premium-card {
+    display: block;
+    background: var(--bg-raised);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    padding: var(--sp-4);
+    text-decoration: none;
+    color: var(--text-primary);
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  }
+  .premium-card:hover {
+    transform: translateY(-4px);
+    border-color: var(--accent);
+    box-shadow: 0 4px 12px rgba(var(--accent-rgb, 59, 130, 246), 0.2);
+  }
+</style>
+
+<div class="premium-hero animate-fade-in">
+  <h1>🃏 Vocabulary Flashcards</h1>
+  <p>Learn words faster with interactive spaced repetition style flashcards!</p>
 </div>
 
+<div class="fc-session animate-fade-in" id="flashcard-app">
+  <div class="fc-stats">
+    <span id="fc-counter">Card 1 / 10</span>
+    <span>Score: <span id="fc-score" style="color: #22c55e;">0</span> Mastered | <span id="fc-review" style="color: #ef4444;">0</span> To Review</span>
+  </div>
+  
+  <div class="fc-progress-bar">
+    <div class="fc-progress-fill" id="fc-progress"></div>
+  </div>
+
+  <div class="flashcard-container" id="fc-container" onclick="toggleFlip()">
+    <div class="flashcard-inner">
+      <div class="flashcard-front">
+        <div class="fc-word" id="fc-front-word">Word</div>
+        <button class="fc-audio" onclick="event.stopPropagation(); playAudio()" title="Listen">🔊</button>
+        <p style="margin-top: var(--sp-4); color: var(--text-secondary); font-size: 0.9rem;">(Click to flip)</p>
+      </div>
+      <div class="flashcard-back">
+        <div class="fc-hindi" id="fc-back-hi">हिंदी</div>
+        <div class="fc-ex" id="fc-back-ex">Example en</div>
+        <div class="fc-ex-hi" id="fc-back-exhi">Example hi</div>
+        <div class="fc-syn" id="fc-back-syn">Synonyms: </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="fc-controls">
+    <button class="fc-btn btn-nav" onclick="prevCard()">◀ Prev</button>
+    <button class="fc-btn btn-review" onclick="markReview()">Needs Review</button>
+    <button class="fc-btn btn-know" onclick="markKnow()">I Know This</button>
+    <button class="fc-btn btn-nav" onclick="nextCard()">Next ▶</button>
+  </div>
+</div>
+
+<h2 style="margin: var(--sp-12) 0 var(--sp-6); text-align: center;">Or Browse Categories</h2>
 <div class="category-accordion animate-fade-in dict-category-container">
   {% for mainGroup in groupedCategories %}
-    <details class="category-main-folder dict-main-folder">
-      <summary class="dict-main-summary">
-        📁 {{ mainGroup.name }}
+    <details class="category-main-folder dict-main-folder" style="background: var(--bg-raised); border: 1px solid var(--border); border-radius: var(--radius-lg); padding: var(--sp-4); margin-bottom: var(--sp-4);">
+      <summary class="dict-main-summary" style="font-weight: bold; cursor: pointer; list-style: none; display: flex; justify-content: space-between;">
+        <span>📁 {{ mainGroup.name }}</span>
         <span class="dict-summary-icon">▼</span>
       </summary>
       
-      <div class="dict-sub-folder-container">
+      <div class="dict-sub-folder-container" style="padding-top: var(--sp-4); padding-left: var(--sp-4);">
         {% for subGroup in mainGroup.subCategories %}
-          <details class="category-sub-folder dict-sub-folder">
-            <summary class="dict-sub-summary">
-              📂 {{ subGroup.name }}
+          <details class="category-sub-folder dict-sub-folder" style="margin-bottom: var(--sp-4);">
+            <summary class="dict-sub-summary" style="font-weight: 500; cursor: pointer; list-style: none; display: flex; justify-content: space-between;">
+              <span>📂 {{ subGroup.name }}</span>
               <span class="dict-summary-icon">▼</span>
             </summary>
             
             <div class="dict-cards-grid">
               {% for cat in subGroup.items %}
-                <a href="/flashcards/{{ cat.slug }}/" class="word-card dict-word-card">
-                  <div class="dict-word-card-icon">{{ cat.icon | default('📄') }}</div>
+                <a href="/flashcards/{{ cat.slug }}/" class="premium-card">
+                  <div class="dict-word-card-icon" style="font-size: 1.5rem; margin-bottom: var(--sp-2);">{{ cat.icon | default('📄') }}</div>
                   <div>
-                    <div class="dict-word-card-title">{{ cat.name }}</div>
-                    <div class="dict-word-card-count">{{ cat.count }} words</div>
+                    <div class="dict-word-card-title" style="font-weight: bold; font-size: 0.95rem;">{{ cat.name }}</div>
+                    <div class="dict-word-card-count" style="font-size: 0.8rem; color: var(--text-secondary);">{{ cat.count }} words</div>
                   </div>
                 </a>
               {% endfor %}
@@ -50,11 +224,88 @@ permalink: /flashcards/
   {% endfor %}
 </div>
 
-
-
 <noscript>
   <div class="card" style="padding: var(--sp-8); text-align:center;">
-    <h2 class="dict-word-card-title">JavaScript Required</h2>
-    <p>Flashcards ke liye JavaScript enable karein.</p>
+    <h2>JavaScript Required</h2>
+    <p>Flashcards practice requires JavaScript to be enabled.</p>
   </div>
 </noscript>
+
+<script>
+  const VOCAB = [
+    {word:'Serendipity', hindi:'सुखद संयोग', ex:'Finding this book was serendipity.', exHi:'यह किताब मिलना सुखद संयोग था।', synonyms:['luck','fortune']},
+    {word:'Ephemeral', hindi:'क्षणिक', ex:'Fame is ephemeral.', exHi:'शोहरत क्षणिक होती है।', synonyms:['transient','fleeting']},
+    {word:'Eloquent', hindi:'वाक्पटु', ex:'She gave an eloquent speech.', exHi:'उसने एक वाक्पटु भाषण दिया।', synonyms:['articulate','expressive']},
+    {word:'Perseverance', hindi:'दृढ़ता', ex:'Success comes with perseverance.', exHi:'सफलता दृढ़ता से मिलती है।', synonyms:['persistence','determination']},
+    {word:'Benevolent', hindi:'परोपकारी', ex:'She is a benevolent leader.', exHi:'वह एक परोपकारी नेता हैं।', synonyms:['kind','generous']},
+    {word:'Diligent', hindi:'परिश्रमी', ex:'A diligent student always succeeds.', exHi:'एक परिश्रमी छात्र सदा सफल होता है।', synonyms:['hardworking','industrious']},
+    {word:'Amicable', hindi:'मैत्रीपूर्ण', ex:'We reached an amicable agreement.', exHi:'हम एक मैत्रीपूर्ण समझौते पर पहुंचे।', synonyms:['friendly','cordial']},
+    {word:'Tenacious', hindi:'दृढ़निश्चयी', ex:'He is tenacious in his efforts.', exHi:'वह अपने प्रयासों में दृढ़निश्चयी हैं।', synonyms:['persistent','stubborn']},
+    {word:'Profound', hindi:'गहरा/गंभीर', ex:'This is a profound thought.', exHi:'यह एक गहरा विचार है।', synonyms:['deep','thoughtful']},
+    {word:'Resilient', hindi:'लचीला/मज़बूत', ex:'Children are resilient.', exHi:'बच्चे बहुत मज़बूत होते हैं।', synonyms:['tough','flexible']}
+  ];
+
+  let currentIndex = 0;
+  let scoreKnow = 0;
+  let scoreReview = 0;
+  
+  function updateCard() {
+    const v = VOCAB[currentIndex];
+    document.getElementById('fc-front-word').innerText = v.word;
+    document.getElementById('fc-back-hi').innerText = v.hindi;
+    document.getElementById('fc-back-ex').innerText = v.ex;
+    document.getElementById('fc-back-exhi').innerText = v.exHi;
+    
+    let synHtml = 'Synonyms: ';
+    v.synonyms.forEach(s => synHtml += `<span>${s}</span>`);
+    document.getElementById('fc-back-syn').innerHTML = synHtml;
+    
+    document.getElementById('fc-counter').innerText = `Card ${currentIndex + 1} / ${VOCAB.length}`;
+    document.getElementById('fc-progress').style.width = `${((currentIndex + 1) / VOCAB.length) * 100}%`;
+    
+    // Ensure card is not flipped when showing a new one
+    document.getElementById('fc-container').classList.remove('flipped');
+  }
+
+  function toggleFlip() {
+    document.getElementById('fc-container').classList.toggle('flipped');
+  }
+
+  function playAudio() {
+    if ('speechSynthesis' in window) {
+      const v = VOCAB[currentIndex];
+      const utterance = new SpeechSynthesisUtterance(v.word);
+      utterance.lang = 'en-US';
+      window.speechSynthesis.speak(utterance);
+    }
+  }
+
+  function nextCard() {
+    if(currentIndex < VOCAB.length - 1) {
+      currentIndex++;
+      updateCard();
+    }
+  }
+
+  function prevCard() {
+    if(currentIndex > 0) {
+      currentIndex--;
+      updateCard();
+    }
+  }
+
+  function markKnow() {
+    scoreKnow++;
+    document.getElementById('fc-score').innerText = scoreKnow;
+    nextCard();
+  }
+
+  function markReview() {
+    scoreReview++;
+    document.getElementById('fc-review').innerText = scoreReview;
+    nextCard();
+  }
+
+  // Initialize
+  updateCard();
+</script>

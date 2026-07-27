@@ -8,31 +8,142 @@ breadcrumbs:
   - { label: "Class 10th" }
 ---
 
-<div style="max-width: 800px; margin: 0 auto; padding: 2rem 1rem;">
-  <header style="text-align: center; margin-bottom: 3rem;">
-    <h1 style="font-size: 2.5rem; color: var(--text-primary); margin-bottom: 1rem;">🏫 Class 10th English</h1>
-    <p style="font-size: 1.1rem; color: var(--text-secondary);">
-      Complete study materials, line-by-line Hindi meaning, and question answers for Bihar Board Class 10th (Panorama).
-    </p>
-  </header>
+<style>
+  .hub-container { max-width: 1000px; margin: 0 auto; padding: 2rem 1rem; }
+  .hub-hero { background: var(--gradient-accent, linear-gradient(135deg, var(--accent), #8b5cf6)); color: #fff; padding: 3rem 2rem; border-radius: var(--radius-lg); text-align: center; margin-bottom: 2.5rem; box-shadow: var(--shadow-md); position: relative; overflow: hidden; }
+  .hub-title { font-size: 2.5rem; margin-bottom: 1rem; font-weight: 800; }
+  .hub-subtitle { font-size: 1.1rem; opacity: 0.9; max-width: 600px; margin: 0 auto 1.5rem; }
+  .hub-badges { display: flex; gap: 0.5rem; justify-content: center; flex-wrap: wrap; }
+  .badge-hero { background: rgba(255,255,255,0.2); padding: 0.25rem 0.75rem; border-radius: 9999px; font-size: 0.875rem; font-weight: 600; backdrop-filter: blur(4px); }
+  
+  .search-container { margin-bottom: 2rem; }
+  .search-input { width: 100%; padding: 1rem 1.5rem; border: 1px solid var(--border); border-radius: var(--radius-lg); background: var(--bg-raised); color: var(--text-primary); font-size: 1rem; box-shadow: var(--shadow-sm); transition: all 0.2s var(--ease-out, ease-out); }
+  .search-input:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.2); }
 
-  <div style="display: grid; gap: 1.5rem;">
+  .chapter-grid { display: grid; gap: 1.5rem; grid-template-columns: 1fr; }
+  @media (min-width: 768px) { .chapter-grid { grid-template-columns: 1fr 1fr; } }
+  
+  .chapter-card { background: var(--bg-raised); border: 1px solid var(--border); border-radius: var(--radius-lg); padding: 1.5rem; transition: all 0.2s var(--ease-out, ease-out); box-shadow: var(--shadow-sm); display: flex; flex-direction: column; text-decoration: none; color: inherit; }
+  .chapter-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-md); border-color: var(--accent); }
+  
+  .card-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 1rem; }
+  .ch-number { background: var(--accent); color: white; width: 32px; height: 32px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; font-size: 0.9rem; flex-shrink: 0; }
+  .ch-type { background: rgba(0,0,0,0.05); color: var(--text-secondary); padding: 0.25rem 0.5rem; border-radius: var(--radius-md); font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; }
+  
+  .ch-title { font-size: 1.25rem; color: var(--text-primary); margin-bottom: 0.25rem; font-weight: 700; line-height: 1.3; }
+  .ch-hindi { font-size: 0.95rem; color: var(--text-secondary); margin-bottom: 0.5rem; }
+  .ch-author { font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 1rem; font-style: italic; }
+  
+  .ch-desc { font-size: 0.95rem; color: var(--text-secondary); margin-bottom: 1.5rem; line-height: 1.5; flex-grow: 1; }
+  
+  .card-footer { display: flex; justify-content: space-between; align-items: center; border-top: 1px solid var(--border); padding-top: 1rem; margin-top: auto; }
+  .mcq-badge { display: flex; align-items: center; gap: 0.25rem; color: var(--accent); font-size: 0.85rem; font-weight: 600; background: rgba(99, 102, 241, 0.1); padding: 0.25rem 0.5rem; border-radius: var(--radius-md); }
+  .read-btn { color: var(--accent); font-weight: 600; font-size: 0.95rem; display: flex; align-items: center; gap: 0.25rem; transition: gap 0.2s; }
+  .chapter-card:hover .read-btn { gap: 0.5rem; }
+
+  .section-title { font-size: 1.75rem; color: var(--text-primary); margin: 3rem 0 1.5rem; font-weight: 700; text-align: center; }
+  .feature-grid { display: grid; gap: 1.5rem; grid-template-columns: 1fr; }
+  @media (min-width: 768px) { .feature-grid { grid-template-columns: 1fr 1fr; } }
+  .model-paper-card { background: var(--bg-raised); border: 1px solid var(--border); padding: 1.5rem; border-radius: var(--radius-lg); text-align: center; transition: all 0.2s var(--ease-out, ease-out); }
+  .model-paper-card:hover { transform: translateY(-2px); box-shadow: var(--shadow-md); }
+  .download-btn { display: inline-block; background: var(--accent); color: white; padding: 0.5rem 1.5rem; border-radius: var(--radius-md); text-decoration: none; font-weight: 600; margin-top: 1rem; transition: opacity 0.2s; }
+  .download-btn:hover { opacity: 0.9; }
+</style>
+
+<div class="hub-container">
+  <div class="hub-hero">
+    <h1 class="hub-title">🏫 Class 10th English</h1>
+    <p class="hub-subtitle">Bihar Board (Panorama) — Complete Study Material, Notes, Line-by-Line Hindi Meaning & Question Answers.</p>
+    <div class="hub-badges">
+      <span class="badge-hero">📚 {% if collections['class-10'] %}{{ collections['class-10'].length }}{% else %}0{% endif %} Chapters</span>
+      <span class="badge-hero">🎯 Objective & Subjective</span>
+      <span class="badge-hero">⭐ Board Exam Ready</span>
+    </div>
+  </div>
+
+  <div class="search-container">
+    <input type="text" id="chapterSearch" class="search-input" placeholder="Search chapters by name or author..." onkeyup="filterChapters()">
+  </div>
+
+  <div class="chapter-grid" id="chapterGrid">
     {% set count = 0 %}
     {% for post in collections['class-10'] %}
       {% set count = count + 1 %}
-      <article style="background: var(--bg-raised); border: 1px solid var(--border); border-radius: var(--radius-lg); padding: 1.5rem; transition: transform 0.2s, box-shadow 0.2s; box-shadow: var(--shadow-sm);">
-        <h2 style="font-size: 1.25rem; margin-bottom: 0.5rem; line-height: 1.4;">
-          <a href="{{ post.url }}" style="color: var(--text-primary); text-decoration: none; font-weight: 700;">{{ post.data.title }}</a>
-        </h2>
-        {% if post.data.description %}
-          <p style="color: var(--text-secondary); font-size: 0.95rem; margin-bottom: 1rem; line-height: 1.5;">{{ post.data.description }}</p>
-        {% endif %}
-        <a href="{{ post.url }}" style="display: inline-block; color: var(--accent); font-weight: 600; text-decoration: none; font-size: 0.95rem;">Read More →</a>
-      </article>
+      <a href="{{ post.url }}" class="chapter-card" data-title="{{ post.data.title | lower }}">
+        <div class="card-header">
+          <div class="ch-number">{{ post.data.chapterNumber | default(count) }}</div>
+          <div class="ch-type">{{ post.data.type | default("Prose") }}</div>
+        </div>
+        <h2 class="ch-title">{{ post.data.title }}</h2>
+        {% if post.data.hindiTitle %}<div class="ch-hindi">{{ post.data.hindiTitle }}</div>{% endif %}
+        {% if post.data.author %}<div class="ch-author">By {{ post.data.author }}</div>{% endif %}
+        <p class="ch-desc">{{ post.data.description | default("Complete study material and question answers for this chapter.") }}</p>
+        <div class="card-footer">
+          <div class="mcq-badge">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>
+            {{ post.data.mcqCount | default("30+") }} MCQs
+          </div>
+          <div class="read-btn">Read More <span>→</span></div>
+        </div>
+      </a>
     {% endfor %}
-    
+
     {% if count == 0 %}
-      <p style="text-align: center; color: var(--text-secondary); padding: 3rem; background: var(--bg-raised); border-radius: var(--radius-md);">More articles coming soon!</p>
+      <!-- Fallback Mock Data if collections are empty -->
+      <a href="#" class="chapter-card" data-title="the pace for living">
+        <div class="card-header"><div class="ch-number">1</div><div class="ch-type">Prose</div></div>
+        <h2 class="ch-title">The Pace for Living</h2>
+        <div class="ch-hindi">जीने की रफ़्तार</div>
+        <div class="ch-author">By R.C. Hutchinson</div>
+        <p class="ch-desc">An essay exploring the fast pace of modern life and how it affects human psychology and society.</p>
+        <div class="card-footer"><div class="mcq-badge">45 MCQs</div><div class="read-btn">Read More <span>→</span></div></div>
+      </a>
+      <a href="#" class="chapter-card" data-title="me and the ecology bit">
+        <div class="card-header"><div class="ch-number">2</div><div class="ch-type">Prose</div></div>
+        <h2 class="ch-title">Me and the Ecology Bit</h2>
+        <div class="ch-hindi">मैं और पर्यावरण</div>
+        <div class="ch-author">By Joan Lexau</div>
+        <p class="ch-desc">A story about a boy named Jim and his efforts to make people aware of ecology.</p>
+        <div class="card-footer"><div class="mcq-badge">38 MCQs</div><div class="read-btn">Read More <span>→</span></div></div>
+      </a>
+      <a href="#" class="chapter-card" data-title="god made the country">
+        <div class="card-header"><div class="ch-number">1</div><div class="ch-type">Poetry</div></div>
+        <h2 class="ch-title">God Made the Country</h2>
+        <div class="ch-hindi">ईश्वर ने गांव बनाए</div>
+        <div class="ch-author">By William Cowper</div>
+        <p class="ch-desc">A beautiful poem contrasting the peaceful life of the country with the artificial life of the town.</p>
+        <div class="card-footer"><div class="mcq-badge">25 MCQs</div><div class="read-btn">Read More <span>→</span></div></div>
+      </a>
     {% endif %}
   </div>
+
+  <h2 class="section-title">Model Papers & Previous Years</h2>
+  <div class="feature-grid">
+    <div class="model-paper-card">
+      <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 0.5rem; color: var(--text-primary);">2025 Model Paper</h3>
+      <p style="color: var(--text-secondary); font-size: 0.95rem;">Official Bihar Board Pattern</p>
+      <a href="#" class="download-btn">Download PDF</a>
+    </div>
+    <div class="model-paper-card">
+      <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 0.5rem; color: var(--text-primary);">2024 Question Bank</h3>
+      <p style="color: var(--text-secondary); font-size: 0.95rem;">With Detailed Solutions</p>
+      <a href="#" class="download-btn">View Answers</a>
+    </div>
+  </div>
 </div>
+
+<script>
+function filterChapters() {
+  const input = document.getElementById('chapterSearch').value.toLowerCase();
+  const cards = document.querySelectorAll('.chapter-card');
+  cards.forEach(card => {
+    const title = card.getAttribute('data-title') || '';
+    const text = card.textContent.toLowerCase();
+    if (title.includes(input) || text.includes(input)) {
+      card.style.display = 'flex';
+    } else {
+      card.style.display = 'none';
+    }
+  });
+}
+</script>

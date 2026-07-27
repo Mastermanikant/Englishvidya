@@ -1,587 +1,282 @@
 ---
 layout: layouts/base.njk
-title: My Diary & Notes - EnglishVidya
+title: My Learning Diary
 permalink: /my-diary/
 ---
 
-
+<style>
+.diary-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  font-family: sans-serif;
+}
+.card {
+  background: var(--bg-raised, #ffffff);
+  border: 1px solid var(--border, #e2e8f0);
+  border-radius: 1rem;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+.input-group {
+  margin-bottom: 1rem;
+}
+.input-group input, .input-group textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid var(--border, #e2e8f0);
+  border-radius: 0.5rem;
+  background: var(--bg-raised, #fff);
+  color: var(--text, #333);
+  font-family: inherit;
+}
+.pill-selector {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+.tag-pill {
+  padding: 0.25rem 1rem;
+  border: 1px solid var(--border, #e2e8f0);
+  border-radius: 9999px;
+  background: var(--bg-raised, #fff);
+  color: var(--text, #333);
+  cursor: pointer;
+  font-size: 0.875rem;
+}
+.tag-pill.active {
+  background: var(--accent, #3b82f6);
+  color: white;
+  border-color: var(--accent, #3b82f6);
+}
+.btn-save {
+  background: linear-gradient(90deg, #10b981, #059669);
+  color: white;
+  border: none;
+  padding: 0.75rem 2rem;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+  font-size: 1.1rem;
+}
+.search-bar {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+.search-bar input {
+  flex: 1;
+  padding: 0.75rem;
+  border: 1px solid var(--border, #e2e8f0);
+  border-radius: 0.5rem;
+}
+.note-item {
+  border: 1px solid var(--border, #e2e8f0);
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  background: var(--bg-raised, #fff);
+}
+.note-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.note-title {
+  margin: 0;
+  font-size: 1.25rem;
+  color: var(--text, #333);
+}
+.note-tag {
+  background: var(--accent, #3b82f6);
+  color: white;
+  padding: 0.2rem 0.75rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+}
+.note-content {
+  color: var(--text-muted, #666);
+  white-space: pre-wrap;
+}
+.note-actions {
+  margin-top: 1rem;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: flex-end;
+}
+.btn-small {
+  padding: 0.4rem 1rem;
+  border-radius: 0.25rem;
+  border: none;
+  cursor: pointer;
+  font-size: 0.875rem;
+}
+.btn-edit { background: var(--border, #e2e8f0); color: var(--text, #333); }
+.btn-delete { background: #fee2e2; color: #ef4444; }
+.empty-state {
+  text-align: center;
+  padding: 3rem;
+  color: var(--text-muted, #666);
+}
+</style>
 
 <div class="diary-container">
-  <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 25px;">
-    <h1 class="diary-title">📓 My Diary</h1>
+  <div class="card">
+    <h2 style="margin-top:0;">📝 Add New Note</h2>
+    <div class="pill-selector" id="tag-selector">
+      <button class="tag-pill active" onclick="selectTag(this, 'Grammar')">Grammar</button>
+      <button class="tag-pill" onclick="selectTag(this, 'Vocabulary')">Vocabulary</button>
+      <button class="tag-pill" onclick="selectTag(this, 'Class 10')">Class 10</button>
+      <button class="tag-pill" onclick="selectTag(this, 'Class 12')">Class 12</button>
+      <button class="tag-pill" onclick="selectTag(this, 'General')">General</button>
+    </div>
+    <div class="input-group">
+      <input type="text" id="note-title" placeholder="Note Title...">
+    </div>
+    <div class="input-group">
+      <textarea id="note-content" rows="4" placeholder="अपने नोट्स यहाँ लिखें..."></textarea>
+    </div>
+    <button class="btn-save" onclick="saveNote()">Save Note</button>
   </div>
 
-  <!-- Notice Block -->
-  <div class="diary-notice-card">
-    <div class="diary-notice-title">
-      <span>⚠️ जरूरी सूचना (Low Server Cost &amp; Local-First Notice)</span>
-    </div>
-    <div style="font-size: 0.95rem;">
-      आप यहाँ जो भी जोड़ेंगे वह आपके इसी फोन/लैपटॉप में सुरक्षित रहेगा। यदि आप इसे अपनी ID (ऑनलाइन) पर हमेशा के लिए सेव करना चाहते हैं, तो नीचे दिए गए बटन से सर्वर पर अपडेट कर सकते हैं। कृपया इसका अत्यधिक उपयोग न करें अन्यथा सर्वर का खर्च बढ़ने पर हमें इसे बंद करना पड़ सकता है। यह सिर्फ आपकी सहूलियत के लिए है।
-    </div>
+  <div class="search-bar">
+    <input type="text" id="search-input" placeholder="Search notes..." onkeyup="renderNotes()">
+    <button class="btn-edit" onclick="exportNotes()">Export</button>
   </div>
 
-  <!-- Sync Controls -->
-  <div class="sync-status-box">
-    <div>
-      <div id="sync-summary-text" style="font-weight: 700; margin-bottom: 10px; font-size: 1rem;">
-        डेटा सिंक स्टेटस: जांच की जा रही है... 🔄
-      </div>
-      <div style="display: flex; flex-direction: column; gap: 4px;">
-        <div class="limit-item">
-          <span>दैनिक सीमा (Daily Sync Count):</span>
-          <span class="limit-value" id="daily-limit-text">0 / 15</span>
-        </div>
-        <div class="limit-item">
-          <span>मासिक सीमा (Monthly Sync Count):</span>
-          <span class="limit-value" id="monthly-limit-text">0 / 150</span>
-        </div>
-      </div>
-      <div id="limit-warning-link" style="display: none; font-size: 0.8rem; color: var(--error, #ef4444); margin-top: 8px; font-weight: 600;">
-        सीमा समाप्त? <a href="/contact/" style="color: var(--accent); text-decoration: underline;">Need more limit? Contact admin</a>
-      </div>
-    </div>
-    <div>
-      <button class="sync-btn" id="sync-action-btn">
-        <span>☁️ Update on Server (Sync)</span>
-      </button>
-    </div>
-  </div>
-
-  <!-- Tabs -->
-  <div class="diary-tabs">
-    <button class="diary-tab-btn active" id="tab-btn-notes">My Notes (<span id="count-notes">0</span>)</button>
-    <button class="diary-tab-btn" id="tab-btn-favorites">Saved Words (<span id="count-favorites">0</span>)</button>
-    <button class="diary-tab-btn" id="tab-btn-tasks">Study Tasks (<span id="count-tasks">0</span>)</button>
-  </div>
-
-  <!-- Notes View -->
-  <div id="diary-notes-view">
-    <!-- Add New Study Note Card -->
-    <div class="diary-card" style="margin-bottom: 30px; border: 1px solid var(--accent); background: var(--bg-hover);">
-      <h3 style="margin-top: 0; color: var(--accent); font-size: 1.25rem; margin-bottom: 12px; display: flex; align-items: center; gap: 8px;">✍️ नया स्टडी नोट लिखें (Write Study Note)</h3>
-      <div style="display: flex; flex-direction: column; gap: 12px;">
-        <input type="text" id="new-note-title" placeholder="नोट का शीर्षक (उदा: Tense Rule, Passive Voice Exception...)" style="width: 100%; padding: 10px 12px; border-radius: 8px; border: 1px solid var(--border-color); background: var(--bg-body); color: var(--text-primary); font-family: inherit; font-weight: 600;">
-        
-        <!-- Formatting Toolbar -->
-        <div class="formatting-toolbar" style="display: flex; gap: 8px; background: var(--bg-body); padding: 6px; border-radius: 6px; border: 1px solid var(--border-color); align-items: center;">
-          <button type="button" onclick="formatDoc('bold')" style="padding: 4px 10px; font-weight: bold; background: var(--bg-hover); color: var(--text-primary); border: 1px solid var(--border-color); border-radius: 4px; cursor: pointer;" title="Bold">B</button>
-          <button type="button" onclick="formatDoc('italic')" style="padding: 4px 10px; font-style: italic; background: var(--bg-hover); color: var(--text-primary); border: 1px solid var(--border-color); border-radius: 4px; cursor: pointer;" title="Italic">I</button>
-          <button type="button" onclick="insertDiaryTable()" style="padding: 4px 8px; font-size: 0.9rem; background: var(--bg-hover); color: var(--text-primary); border: 1px solid var(--border-color); border-radius: 4px; cursor: pointer; display: flex; align-items: center; gap: 4px;" title="Insert Vocabulary Table">📊 + Table Template</button>
-        </div>
-
-        <!-- Content Editable Rich Box -->
-        <div id="new-note-body" contenteditable="true" placeholder="यहाँ अपना स्टडी नोट विस्तार में लिखें..." style="width: 100%; min-height: 120px; max-height: 400px; overflow-y: auto; background: var(--bg-body); border: 1px solid var(--border-color); border-radius: 8px; color: var(--text-primary); padding: 12px; font-family: inherit; font-size: 1rem; line-height: 1.6; outline: none;"></div>
-        
-        <button id="btn-save-new-note" class="sync-btn" style="align-self: flex-end; padding: 8px 20px; font-size: 0.95rem;">💾 Save Note (सहेजें)</button>
-      </div>
-    </div>
-
-    <div id="notes-container">
-      <p style="color: var(--text-secondary); text-align: center;">Loading notes...</p>
-    </div>
-  </div>
-
-  <!-- Favorites View -->
-  <div id="diary-favorites-view" style="display: none;">
-    <div class="word-grid" id="favorites-container">
-      <p style="color: var(--text-secondary); text-align: center; grid-column: 1/-1;">Loading saved words...</p>
-    </div>
-  </div>
-
-  <!-- Tasks View -->
-  <div id="diary-tasks-view" style="display: none;">
-    <div class="diary-card" style="border: 1px solid var(--accent); background: var(--bg-hover); margin-bottom: 24px;">
-      <h3 style="margin-top: 0; color: var(--accent); font-size: 1.25rem; margin-bottom: 12px; display: flex; align-items: center; gap: 8px;">📝 नया स्टडी टास्क जोड़ें (Add Study Task)</h3>
-      <div style="display: flex; gap: 10px;">
-        <input type="text" id="new-task-text" placeholder="उदा: Class 10 Chapter 1 पढ़ना है, 10 Verbs याद करने हैं..." style="flex: 1; padding: 10px 12px; border-radius: 8px; border: 1px solid var(--border-color); background: var(--bg-body); color: var(--text-primary); font-family: inherit; font-weight: 500;">
-        <button id="btn-add-task" class="sync-btn" style="padding: 8px 20px; white-space: nowrap;">➕ Add Task</button>
-      </div>
-    </div>
-    
-    <div id="tasks-container" style="display: flex; flex-direction: column; gap: 12px;">
-      <p style="color: var(--text-secondary); text-align: center;">Loading tasks...</p>
-    </div>
+  <div id="notes-list">
+    <!-- Rendered via JS -->
   </div>
 </div>
 
 <script>
-  let serverLimits = { daily: 0, monthly: 0 };
-  let currentTab = 'notes';
+let currentTag = 'Grammar';
+let editingId = null;
 
-  // Rich Text Editor Helpers
-  window.formatDoc = function(cmd, value = null) {
-    document.execCommand(cmd, false, value);
-    document.getElementById('new-note-body').focus();
-  };
+function selectTag(btn, tag) {
+  document.querySelectorAll('#tag-selector .tag-pill').forEach(p => p.classList.remove('active'));
+  btn.classList.add('active');
+  currentTag = tag;
+}
 
-  window.insertDiaryTable = function() {
-    const tableHTML = `
-      <table class="diary-table">
-        <thead>
-          <tr style="background: var(--bg-hover);">
-            <th>Word / Rule</th>
-            <th>Hindi Meaning</th>
-            <th>Example Sentence</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Example Word</td>
-            <td>शब्द का अर्थ</td>
-            <td>This is an example.</td>
-          </tr>
-          <tr>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-          </tr>
-        </tbody>
-      </table><p></p>
-    `;
-    formatDoc('insertHTML', tableHTML);
-  };
+function getNotes() {
+  const notes = localStorage.getItem('ev-diary-notes');
+  return notes ? JSON.parse(notes) : [];
+}
 
-  document.addEventListener('DOMContentLoaded', async () => {
-    // 1. Authenticate user
-    try {
-      const res = await fetch('/api/auth-me');
-      const auth = await res.json();
-      if (!auth.loggedIn) {
-        document.querySelector('.diary-container').innerHTML = `
-          <div style="text-align: center; padding: 60px 20px; background: var(--bg-raised); border: 1px solid var(--border-color); border-radius: 12px; margin-top: 40px;">
-            <div style="font-size: 3rem; margin-bottom: 20px;">🔒</div>
-            <h2 style="margin-bottom: 12px;">Login Required</h2>
-            <p style="color: var(--text-secondary); margin-bottom: 24px; max-width: 400px; margin-left: auto; margin-right: auto;">
-              कृपया अपनी व्यक्तिगत डायरी और नोट्स को सर्वर से सुरक्षित सिंक करने के लिए लॉगिन करें।
-            </p>
-            <a href="/login/" class="sync-btn" style="display: inline-flex; text-decoration: none; justify-content: center;">
-              Go to Login Page
-            </a>
-          </div>
-        `;
-        return;
-      }
-    } catch (e) {
-      console.error(e);
-    }
-
-    // 2. Pull server updates and render
-    await loadDiaryAndLimits();
-
-    // 3. Tab switching
-    const notesTabBtn = document.getElementById('tab-btn-notes');
-    const favoritesTabBtn = document.getElementById('tab-btn-favorites');
-    const tasksTabBtn = document.getElementById('tab-btn-tasks');
-    
-    const notesView = document.getElementById('diary-notes-view');
-    const favoritesView = document.getElementById('diary-favorites-view');
-    const tasksView = document.getElementById('diary-tasks-view');
-
-    notesTabBtn.onclick = () => {
-      notesTabBtn.classList.add('active');
-      favoritesTabBtn.classList.remove('active');
-      tasksTabBtn.classList.remove('active');
-      notesView.style.display = 'block';
-      favoritesView.style.display = 'none';
-      tasksView.style.display = 'none';
-      currentTab = 'notes';
-    };
-
-    favoritesTabBtn.onclick = () => {
-      favoritesTabBtn.classList.add('active');
-      notesTabBtn.classList.remove('active');
-      tasksTabBtn.classList.remove('active');
-      favoritesView.style.display = 'grid';
-      notesView.style.display = 'none';
-      tasksView.style.display = 'none';
-      currentTab = 'favorites';
-    };
-
-    tasksTabBtn.onclick = () => {
-      tasksTabBtn.classList.add('active');
-      notesTabBtn.classList.remove('active');
-      favoritesTabBtn.classList.remove('active');
-      tasksView.style.display = 'block';
-      notesView.style.display = 'none';
-      favoritesView.style.display = 'none';
-      currentTab = 'tasks';
-    };
-
-    // 4. Sync button
-    const syncBtn = document.getElementById('sync-action-btn');
-    if (syncBtn) syncBtn.onclick = handleSync;
-
-    // 5. Rich note manual save handler
-    const btnSaveNote = document.getElementById('btn-save-new-note');
-    if (btnSaveNote) {
-      btnSaveNote.onclick = saveManualNote;
-    }
-
-    // 6. Task add handler
-    const btnAddTask = document.getElementById('btn-add-task');
-    if (btnAddTask) {
-      btnAddTask.onclick = addStudyTask;
-    }
-  });
-
-  async function loadDiaryAndLimits() {
-    try {
-      const res = await fetch('/api/diary');
-      const data = await res.json();
-
-      serverLimits.daily = data.daily_sync_count || 0;
-      serverLimits.monthly = data.monthly_sync_count || 0;
-
-      if (window.pullDiaryFromServer) {
-        await window.pullDiaryFromServer();
-      }
-
-      renderAll();
-    } catch (e) {
-      console.error('[Diary Load] Failed:', e);
-      renderAll();
-    }
+function saveNote() {
+  const title = document.getElementById('note-title').value.trim();
+  const content = document.getElementById('note-content').value.trim();
+  if (!title || !content) {
+    if (window.showToast) window.showToast('Please fill all fields');
+    return;
   }
 
-  function renderAll() {
-    renderNotes();
-    renderFavorites();
-    renderTasks();
-    updateLimitsUI();
-  }
-
-  function updateLimitsUI() {
-    const dailyText = document.getElementById('daily-limit-text');
-    const monthlyText = document.getElementById('monthly-limit-text');
-    const warningLink = document.getElementById('limit-warning-link');
-    const syncBtn = document.getElementById('sync-action-btn');
-    const summaryText = document.getElementById('sync-summary-text');
-
-    const unsyncedNotes = window.getLocalNotes ? window.getLocalNotes().filter(n => !n.synced).length : 0;
-    const unsyncedBookmarks = window.getLocalBookmarks ? window.getLocalBookmarks().filter(b => !b.synced).length : 0;
-    const toRemove = JSON.parse(localStorage.getItem('ev-bookmarks-to-remove') || '[]').length;
-    const unsyncedCount = unsyncedNotes + unsyncedBookmarks + toRemove;
-
-    dailyText.textContent = `${serverLimits.daily} / 15`;
-    monthlyText.textContent = `${serverLimits.monthly} / 150`;
-
-    if (serverLimits.daily >= 15 || serverLimits.monthly >= 150) {
-      warningLink.style.display = 'block';
-    } else {
-      warningLink.style.display = 'none';
+  const notes = getNotes();
+  if (editingId) {
+    const idx = notes.findIndex(n => n.id === editingId);
+    if (idx > -1) {
+      notes[idx].title = title;
+      notes[idx].content = content;
+      notes[idx].tag = currentTag;
+      notes[idx].updatedAt = new Date().toISOString();
     }
-
-    if (unsyncedCount > 0) {
-      summaryText.innerHTML = `☁️ आपके पास <span style="color:var(--accent); font-weight:800;">${unsyncedCount}</span> नए बदलाव हैं जो सिंक नहीं हुए हैं!`;
-      syncBtn.disabled = false;
-    } else {
-      summaryText.innerHTML = `🟢 आपका सारा डेटा सर्वर पर सुरक्षित है!`;
-      syncBtn.disabled = true;
-    }
-  }
-
-  function renderNotes() {
-    const container = document.getElementById('notes-container');
-    const countSpan = document.getElementById('count-notes');
-    const notes = window.getLocalNotes ? window.getLocalNotes() : [];
-
-    countSpan.textContent = notes.length;
-
-    if (notes.length === 0) {
-      container.innerHTML = `
-        <div style="text-align: center; padding: 40px; color: var(--text-secondary);">
-          <p>आपकी डायरी अभी खाली है।</p>
-          <p style="font-size: 0.85rem; margin-top: 10px;">
-            💡 नया नोट लिखने के लिए ऊपर दिए गए संपादक (Editor) का उपयोग करें या किसी व्याकरण पाठ (Grammar Lesson) में जाकर टेक्स्ट सिलेक्ट करें!
-          </p>
-        </div>
-      `;
-      return;
-    }
-
-    container.innerHTML = notes.map((n, idx) => {
-      const date = new Date(n.created_at).toLocaleDateString();
-      const statusBadge = n.synced 
-        ? '<span class="status-badge synced">Synced</span>'
-        : '<span class="status-badge local">Local Only</span>';
-
-      if (!n.selected_text) {
-        // Custom manually written study note
-        return `
-          <div class="diary-card" id="note-card-${n.slug}">
-            <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 12px;">
-              <div>
-                <span style="font-weight: 800; font-size: 1.15rem; color: var(--accent);">${n.page_title || 'Study Note'}</span>
-                <div style="font-size: 0.75rem; color: var(--text-secondary); margin-top: 4px;">Created: ${date}</div>
-              </div>
-              <div style="display: flex; align-items: center; gap: 10px;">
-                ${statusBadge}
-                <button class="note-delete-btn" onclick="deleteNote('${n.slug}')" title="Delete Note">🗑️</button>
-              </div>
-            </div>
-            <div class="note-body-content markdown-body" style="background: var(--bg-main); padding: 16px; border-radius: 8px; border-left: 3px solid var(--accent); font-size: 0.98rem; line-height: 1.6; margin-bottom: 12px; overflow-x: auto; color: var(--text-primary);">
-              ${n.note_content || '<p style="color:var(--text-muted);">Empty note content</p>'}
-            </div>
-          </div>
-        `;
-      }
-
-      // Text selection note
-      return `
-        <div class="diary-card" id="note-card-${n.slug}">
-          <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 12px;">
-            <div>
-              <a href="${n.page_url || '#'}" class="note-source-link">📖 Source: ${n.page_title || 'Grammar Lesson'}</a>
-              <div style="font-size: 0.75rem; color: var(--text-secondary); margin-top: 4px;">Date: ${date}</div>
-            </div>
-            <div style="display: flex; align-items: center; gap: 10px;">
-              ${statusBadge}
-              <button class="note-delete-btn" onclick="deleteNote('${n.slug}')" title="Delete Note">🗑️</button>
-            </div>
-          </div>
-          <div style="background: var(--bg-main); padding: 12px; border-radius: 8px; border-left: 3px solid var(--accent); font-style: italic; font-size: 0.95rem; margin-bottom: 12px;">
-            "${n.selected_text}"
-          </div>
-          <div>
-            <label style="font-size: 0.85rem; font-weight: 700; color: var(--text-secondary);">मेरी टिप्पणी / Custom Note:</label>
-            <textarea class="note-textarea" placeholder="यहाँ अपनी समझ या प्रश्न लिखें..." oninput="debouncedUpdateNoteContent('${n.slug}', this.value)">${n.note_content || ''}</textarea>
-          </div>
-        </div>
-      `;
-    }).join('');
-  }
-
-  function renderFavorites() {
-    const container = document.getElementById('favorites-container');
-    const countSpan = document.getElementById('count-favorites');
-    const bookmarks = window.getLocalBookmarks ? window.getLocalBookmarks() : [];
-
-    countSpan.textContent = bookmarks.length;
-
-    if (bookmarks.length === 0) {
-      container.innerHTML = `
-        <p style="color: var(--text-secondary); text-align: center; grid-column: 1/-1; padding: 40px;">
-          कोई पसंदीदा शब्द (Saved Words) नहीं मिला। डिक्शनरी से शब्द सेव करें!
-        </p>
-      `;
-      return;
-    }
-
-    container.innerHTML = bookmarks.map(b => {
-      const statusBadge = b.synced 
-        ? '<span class="status-badge synced" style="font-size:0.65rem; padding: 1px 4px;">Synced</span>'
-        : '<span class="status-badge local" style="font-size:0.65rem; padding: 1px 4px;">Local</span>';
-
-      return `
-        <div class="diary-card" style="margin-bottom: 0;">
-          <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 8px;">
-            <span class="status-badge" style="background: rgba(99, 102, 241, 0.1); color: var(--accent); font-size: 0.7rem; text-transform: uppercase;">
-              ${b.category || 'General'}
-            </span>
-            <div style="display: flex; align-items: center; gap: 6px;">
-              ${statusBadge}
-              <button onclick="toggleBookmark('${b.slug}', '${b.word.replace(/'/g, "\\'")}')" style="background: none; border: none; cursor: pointer; font-size: 1rem; padding: 0;">❤️</button>
-            </div>
-          </div>
-          <h3 style="margin: 0 0 4px 0; font-size: 1.2rem;">
-            <a href="/dictionary/${b.slug}/" style="color: var(--text-main); text-decoration: none;">${b.word}</a>
-          </h3>
-          <div style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 4px; font-style: italic;">
-            ${b.pron ? `[${b.pron}]` : ''}
-          </div>
-          <p style="margin: 0; font-size: 0.95rem; color: var(--text-primary); font-weight: 500;">
-            ${b.meaning}
-          </p>
-        </div>
-      `;
-    }).join('');
-  }
-
-  function saveManualNote() {
-    const titleEl = document.getElementById('new-note-title');
-    const bodyEl = document.getElementById('new-note-body');
-    const title = titleEl.value.trim();
-    const content = bodyEl.innerHTML.trim();
-
-    if (!title || !content || content === '<br>') {
-      alert('कृपया शीर्षक और नोट दोनों लिखें!');
-      return;
-    }
-
-    const notes = window.getLocalNotes ? window.getLocalNotes() : [];
-    const noteId = `manual-note-${Date.now()}`;
-
+    editingId = null;
+  } else {
     notes.unshift({
-      slug: noteId,
-      selected_text: '', // Empty means manual custom note
-      page_title: title,
-      page_url: '/my-diary/',
-      note_content: content,
-      created_at: new Date().toISOString(),
-      synced: false
+      id: Date.now().toString(),
+      title,
+      content,
+      tag: currentTag,
+      createdAt: new Date().toISOString(),
+      updatedAt: new Date().toISOString()
     });
+  }
 
-    window.saveLocalNotes(notes);
-    titleEl.value = '';
-    bodyEl.innerHTML = '';
-    
-    window.showTemporaryToast ? window.showTemporaryToast('स्टडी नोट स्थानीय रूप से सहेजा गया! 📓') : alert('Note saved locally!');
+  localStorage.setItem('ev-diary-notes', JSON.stringify(notes));
+  
+  document.getElementById('note-title').value = '';
+  document.getElementById('note-content').value = '';
+  if (window.showToast) window.showToast('Note saved!');
+  renderNotes();
+}
+
+function renderNotes() {
+  const list = document.getElementById('notes-list');
+  const query = document.getElementById('search-input').value.toLowerCase();
+  const notes = getNotes().filter(n => 
+    n.title.toLowerCase().includes(query) || 
+    n.content.toLowerCase().includes(query)
+  );
+
+  if (notes.length === 0) {
+    list.innerHTML = \`
+      <div class="empty-state">
+        <div style="font-size: 3rem; margin-bottom: 1rem;">📓</div>
+        <h3>Start writing your first note!</h3>
+      </div>
+    \`;
+    return;
+  }
+
+  list.innerHTML = notes.map(n => \`
+    <div class="note-item">
+      <div class="note-header">
+        <h3 class="note-title">\${n.title}</h3>
+        <span class="note-tag">\${n.tag}</span>
+      </div>
+      <div class="note-content">\${n.content}</div>
+      <div style="font-size: 0.75rem; color: var(--border, #ccc); margin-top: 1rem;">
+        \${new Date(n.createdAt).toLocaleString()}
+      </div>
+      <div class="note-actions">
+        <button class="btn-small btn-edit" onclick="editNote('\${n.id}')">Edit</button>
+        <button class="btn-small btn-delete" onclick="deleteNote('\${n.id}')">Delete</button>
+      </div>
+    </div>
+  \`).join('');
+}
+
+function deleteNote(id) {
+  if (confirm('Delete this note?')) {
+    let notes = getNotes();
+    notes = notes.filter(n => n.id !== id);
+    localStorage.setItem('ev-diary-notes', JSON.stringify(notes));
+    if (window.showToast) window.showToast('Note deleted');
     renderNotes();
-    updateLimitsUI();
-    if (window.updateDiaryBadge) window.updateDiaryBadge();
   }
+}
 
-  // --- STUDY TO-DO TASKS LOGIC ---
-  function getStudyTasks() {
-    const saved = localStorage.getItem('ev-study-tasks');
-    return saved ? JSON.parse(saved) : [];
-  }
-
-  function saveStudyTasks(tasks) {
-    localStorage.setItem('ev-study-tasks', JSON.stringify(tasks));
-  }
-
-  function renderTasks() {
-    const container = document.getElementById('tasks-container');
-    const countSpan = document.getElementById('count-tasks');
-    const tasks = getStudyTasks();
-
-    const activeTasksCount = tasks.filter(t => !t.completed).length;
-    countSpan.textContent = activeTasksCount;
-
-    if (tasks.length === 0) {
-      container.innerHTML = `
-        <div style="text-align: center; padding: 40px; color: var(--text-secondary);">
-          <p>कोई टास्क नहीं है। अपने दैनिक अंग्रेजी अध्ययन लक्ष्य यहाँ जोड़ें!</p>
-        </div>
-      `;
-      return;
-    }
-
-    container.innerHTML = tasks.map(t => {
-      const isChecked = t.completed ? 'checked' : '';
-      const textClass = t.completed ? 'completed' : '';
-      return `
-        <div class="task-item">
-          <div style="display: flex; align-items: center; flex: 1;">
-            <input type="checkbox" ${isChecked} onchange="toggleTask(${t.id})" style="width: 18px; height: 18px; cursor: pointer; accent-color: var(--accent);">
-            <span class="task-text ${textClass}">${t.text}</span>
-          </div>
-          <button class="task-delete-btn" onclick="deleteTask(${t.id})" title="Delete Task">🗑️</button>
-        </div>
-      `;
-    }).join('');
-  }
-
-  function addStudyTask() {
-    const input = document.getElementById('new-task-text');
-    const text = input.value.trim();
-    if (!text) return;
-
-    const tasks = getStudyTasks();
-    tasks.unshift({
-      id: Date.now(),
-      text: text,
-      completed: false
+function editNote(id) {
+  const notes = getNotes();
+  const note = notes.find(n => n.id === id);
+  if (note) {
+    document.getElementById('note-title').value = note.title;
+    document.getElementById('note-content').value = note.content;
+    currentTag = note.tag;
+    document.querySelectorAll('#tag-selector .tag-pill').forEach(p => {
+      if(p.textContent === note.tag) p.classList.add('active');
+      else p.classList.remove('active');
     });
-
-    saveStudyTasks(tasks);
-    input.value = '';
-    renderTasks();
+    editingId = id;
+    window.scrollTo({top: 0, behavior: 'smooth'});
   }
+}
 
-  window.toggleTask = function(id) {
-    const tasks = getStudyTasks();
-    const index = tasks.findIndex(t => t.id === id);
-    if (index > -1) {
-      tasks[index].completed = !tasks[index].completed;
-      saveStudyTasks(tasks);
-      renderTasks();
-    }
-  };
+function exportNotes() {
+  const data = localStorage.getItem('ev-diary-notes') || '[]';
+  const blob = new Blob([data], { type: 'application/json' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = 'my-notes.json';
+  a.click();
+  URL.revokeObjectURL(url);
+}
 
-  window.deleteTask = function(id) {
-    if (confirm('क्या आप इस टास्क को हटाना चाहते हैं?')) {
-      let tasks = getStudyTasks();
-      tasks = tasks.filter(t => t.id !== id);
-      saveStudyTasks(tasks);
-      renderTasks();
-    }
-  };
-
-  // Debounce helper for typing auto-save
-  function debounce(func, wait) {
-    let timeout;
-    return function(...args) {
-      clearTimeout(timeout);
-      timeout = setTimeout(() => func.apply(this, args), wait);
-    };
-  }
-
-  window.debouncedUpdateNoteContent = debounce(function(slug, newText) {
-    if (!window.getLocalNotes) return;
-    const notes = window.getLocalNotes();
-    const index = notes.findIndex(n => n.slug === slug);
-    if (index > -1) {
-      notes[index].note_content = newText;
-      notes[index].synced = false; // Mark unsynced
-      window.saveLocalNotes(notes);
-      // We don't call renderNotes() here to avoid stealing focus while typing
-      updateLimitsUI();
-      if (window.updateDiaryBadge) window.updateDiaryBadge();
-    }
-  }, 500);
-
-  window.updateNoteContent = function(slug, newText) {
-    if (!window.getLocalNotes) return;
-    const notes = window.getLocalNotes();
-    const index = notes.findIndex(n => n.slug === slug);
-    if (index > -1) {
-      notes[index].note_content = newText;
-      notes[index].synced = false; // Mark unsynced
-      window.saveLocalNotes(notes);
-      renderNotes();
-      updateLimitsUI();
-      if (window.updateDiaryBadge) window.updateDiaryBadge();
-    }
-  };
-
-  window.deleteNote = function(slug) {
-    if (!window.getLocalNotes) return;
-    if (confirm('क्या आप सच में इस नोट को हटाना चाहते हैं?')) {
-      const notes = window.getLocalNotes();
-      const filtered = notes.filter(n => n.slug !== slug);
-      window.saveLocalNotes(filtered);
-      renderNotes();
-      updateLimitsUI();
-      if (window.updateDiaryBadge) window.updateDiaryBadge();
-    }
-  };
-
-  async function handleSync() {
-    const syncBtn = document.getElementById('sync-action-btn');
-    const summaryText = document.getElementById('sync-summary-text');
-    
-    syncBtn.disabled = true;
-    summaryText.innerHTML = 'सिंक किया जा रहा है... 🔄 (Uploading data)';
-
-    try {
-      if (window.syncDiaryToServer) {
-        const result = await window.syncDiaryToServer();
-        window.showTemporaryToast ? window.showTemporaryToast(`सफलतापूर्वक सिंक किया गया! ✨`) : alert('Synced!');
-      }
-      await loadDiaryAndLimits();
-    } catch (err) {
-      console.error('[Diary Sync]', err);
-      summaryText.innerHTML = `<span style="color:var(--error, #ef4444);">❌ सिंक विफल: ${err.message}</span>`;
-      syncBtn.disabled = false;
-    }
-  }
-
-  // Handle bookmark updates dynamically
-  window.addEventListener('bookmarksUpdated', () => {
-    renderFavorites();
-    updateLimitsUI();
-  });
+document.addEventListener('DOMContentLoaded', renderNotes);
 </script>

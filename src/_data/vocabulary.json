@@ -1,0 +1,966 @@
+[
+  {
+    "word": "Serendipity",
+    "hindi": "सुखद संयोग",
+    "pronunciation": "ser-en-DIP-i-tee",
+    "partOfSpeech": "noun",
+    "example": "Finding this job was pure serendipity.",
+    "exampleHindi": "यह नौकरी मिलना एक सुखद संयोग था।",
+    "synonyms": [
+      "luck",
+      "fortune",
+      "chance"
+    ],
+    "antonyms": [
+      "misfortune"
+    ],
+    "category": "daily",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Eloquent",
+    "hindi": "सुवक्ता",
+    "pronunciation": "EL-uh-kwuhnt",
+    "partOfSpeech": "adjective",
+    "example": "She gave an eloquent speech.",
+    "exampleHindi": "उन्होंने एक सुवक्ता भाषण दिया।",
+    "synonyms": [
+      "fluent",
+      "expressive"
+    ],
+    "antonyms": [
+      "inarticulate"
+    ],
+    "category": "hard",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Accomplish",
+    "hindi": "पूरा करना",
+    "pronunciation": "uh-KOM-plish",
+    "partOfSpeech": "verb",
+    "example": "I will accomplish my goals.",
+    "exampleHindi": "मैं अपने लक्ष्यों को पूरा करूँगा।",
+    "synonyms": [
+      "achieve",
+      "attain"
+    ],
+    "antonyms": [
+      "fail"
+    ],
+    "category": "medium",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Water",
+    "hindi": "पानी",
+    "pronunciation": "WAH-ter",
+    "partOfSpeech": "noun",
+    "example": "Drink more water.",
+    "exampleHindi": "अधिक पानी पिएं।",
+    "synonyms": [
+      "liquid"
+    ],
+    "antonyms": [],
+    "category": "daily",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Eloquent",
+    "hindi": "सुवक्ता",
+    "pronunciation": "EL-uh-kwuhnt",
+    "partOfSpeech": "adjective",
+    "example": "She gave an eloquent speech.",
+    "exampleHindi": "उन्होंने एक सुवक्ता भाषण दिया।",
+    "synonyms": [
+      "fluent",
+      "expressive"
+    ],
+    "antonyms": [
+      "inarticulate"
+    ],
+    "category": "hard",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Accomplish",
+    "hindi": "पूरा करना",
+    "pronunciation": "uh-KOM-plish",
+    "partOfSpeech": "verb",
+    "example": "I will accomplish my goals.",
+    "exampleHindi": "मैं अपने लक्ष्यों को पूरा करूँगा।",
+    "synonyms": [
+      "achieve",
+      "attain"
+    ],
+    "antonyms": [
+      "fail"
+    ],
+    "category": "medium",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Water",
+    "hindi": "पानी",
+    "pronunciation": "WAH-ter",
+    "partOfSpeech": "noun",
+    "example": "Drink more water.",
+    "exampleHindi": "अधिक पानी पिएं।",
+    "synonyms": [
+      "liquid"
+    ],
+    "antonyms": [],
+    "category": "daily",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Eloquent",
+    "hindi": "सुवक्ता",
+    "pronunciation": "EL-uh-kwuhnt",
+    "partOfSpeech": "adjective",
+    "example": "She gave an eloquent speech.",
+    "exampleHindi": "उन्होंने एक सुवक्ता भाषण दिया।",
+    "synonyms": [
+      "fluent",
+      "expressive"
+    ],
+    "antonyms": [
+      "inarticulate"
+    ],
+    "category": "hard",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Accomplish",
+    "hindi": "पूरा करना",
+    "pronunciation": "uh-KOM-plish",
+    "partOfSpeech": "verb",
+    "example": "I will accomplish my goals.",
+    "exampleHindi": "मैं अपने लक्ष्यों को पूरा करूँगा।",
+    "synonyms": [
+      "achieve",
+      "attain"
+    ],
+    "antonyms": [
+      "fail"
+    ],
+    "category": "medium",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Water",
+    "hindi": "पानी",
+    "pronunciation": "WAH-ter",
+    "partOfSpeech": "noun",
+    "example": "Drink more water.",
+    "exampleHindi": "अधिक पानी पिएं।",
+    "synonyms": [
+      "liquid"
+    ],
+    "antonyms": [],
+    "category": "daily",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Eloquent",
+    "hindi": "सुवक्ता",
+    "pronunciation": "EL-uh-kwuhnt",
+    "partOfSpeech": "adjective",
+    "example": "She gave an eloquent speech.",
+    "exampleHindi": "उन्होंने एक सुवक्ता भाषण दिया।",
+    "synonyms": [
+      "fluent",
+      "expressive"
+    ],
+    "antonyms": [
+      "inarticulate"
+    ],
+    "category": "hard",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Accomplish",
+    "hindi": "पूरा करना",
+    "pronunciation": "uh-KOM-plish",
+    "partOfSpeech": "verb",
+    "example": "I will accomplish my goals.",
+    "exampleHindi": "मैं अपने लक्ष्यों को पूरा करूँगा।",
+    "synonyms": [
+      "achieve",
+      "attain"
+    ],
+    "antonyms": [
+      "fail"
+    ],
+    "category": "medium",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Water",
+    "hindi": "पानी",
+    "pronunciation": "WAH-ter",
+    "partOfSpeech": "noun",
+    "example": "Drink more water.",
+    "exampleHindi": "अधिक पानी पिएं।",
+    "synonyms": [
+      "liquid"
+    ],
+    "antonyms": [],
+    "category": "daily",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Eloquent",
+    "hindi": "सुवक्ता",
+    "pronunciation": "EL-uh-kwuhnt",
+    "partOfSpeech": "adjective",
+    "example": "She gave an eloquent speech.",
+    "exampleHindi": "उन्होंने एक सुवक्ता भाषण दिया।",
+    "synonyms": [
+      "fluent",
+      "expressive"
+    ],
+    "antonyms": [
+      "inarticulate"
+    ],
+    "category": "hard",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Accomplish",
+    "hindi": "पूरा करना",
+    "pronunciation": "uh-KOM-plish",
+    "partOfSpeech": "verb",
+    "example": "I will accomplish my goals.",
+    "exampleHindi": "मैं अपने लक्ष्यों को पूरा करूँगा।",
+    "synonyms": [
+      "achieve",
+      "attain"
+    ],
+    "antonyms": [
+      "fail"
+    ],
+    "category": "medium",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Water",
+    "hindi": "पानी",
+    "pronunciation": "WAH-ter",
+    "partOfSpeech": "noun",
+    "example": "Drink more water.",
+    "exampleHindi": "अधिक पानी पिएं।",
+    "synonyms": [
+      "liquid"
+    ],
+    "antonyms": [],
+    "category": "daily",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Eloquent",
+    "hindi": "सुवक्ता",
+    "pronunciation": "EL-uh-kwuhnt",
+    "partOfSpeech": "adjective",
+    "example": "She gave an eloquent speech.",
+    "exampleHindi": "उन्होंने एक सुवक्ता भाषण दिया।",
+    "synonyms": [
+      "fluent",
+      "expressive"
+    ],
+    "antonyms": [
+      "inarticulate"
+    ],
+    "category": "hard",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Accomplish",
+    "hindi": "पूरा करना",
+    "pronunciation": "uh-KOM-plish",
+    "partOfSpeech": "verb",
+    "example": "I will accomplish my goals.",
+    "exampleHindi": "मैं अपने लक्ष्यों को पूरा करूँगा।",
+    "synonyms": [
+      "achieve",
+      "attain"
+    ],
+    "antonyms": [
+      "fail"
+    ],
+    "category": "medium",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Water",
+    "hindi": "पानी",
+    "pronunciation": "WAH-ter",
+    "partOfSpeech": "noun",
+    "example": "Drink more water.",
+    "exampleHindi": "अधिक पानी पिएं।",
+    "synonyms": [
+      "liquid"
+    ],
+    "antonyms": [],
+    "category": "daily",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Eloquent",
+    "hindi": "सुवक्ता",
+    "pronunciation": "EL-uh-kwuhnt",
+    "partOfSpeech": "adjective",
+    "example": "She gave an eloquent speech.",
+    "exampleHindi": "उन्होंने एक सुवक्ता भाषण दिया।",
+    "synonyms": [
+      "fluent",
+      "expressive"
+    ],
+    "antonyms": [
+      "inarticulate"
+    ],
+    "category": "hard",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Accomplish",
+    "hindi": "पूरा करना",
+    "pronunciation": "uh-KOM-plish",
+    "partOfSpeech": "verb",
+    "example": "I will accomplish my goals.",
+    "exampleHindi": "मैं अपने लक्ष्यों को पूरा करूँगा।",
+    "synonyms": [
+      "achieve",
+      "attain"
+    ],
+    "antonyms": [
+      "fail"
+    ],
+    "category": "medium",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Water",
+    "hindi": "पानी",
+    "pronunciation": "WAH-ter",
+    "partOfSpeech": "noun",
+    "example": "Drink more water.",
+    "exampleHindi": "अधिक पानी पिएं।",
+    "synonyms": [
+      "liquid"
+    ],
+    "antonyms": [],
+    "category": "daily",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Eloquent",
+    "hindi": "सुवक्ता",
+    "pronunciation": "EL-uh-kwuhnt",
+    "partOfSpeech": "adjective",
+    "example": "She gave an eloquent speech.",
+    "exampleHindi": "उन्होंने एक सुवक्ता भाषण दिया।",
+    "synonyms": [
+      "fluent",
+      "expressive"
+    ],
+    "antonyms": [
+      "inarticulate"
+    ],
+    "category": "hard",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Accomplish",
+    "hindi": "पूरा करना",
+    "pronunciation": "uh-KOM-plish",
+    "partOfSpeech": "verb",
+    "example": "I will accomplish my goals.",
+    "exampleHindi": "मैं अपने लक्ष्यों को पूरा करूँगा।",
+    "synonyms": [
+      "achieve",
+      "attain"
+    ],
+    "antonyms": [
+      "fail"
+    ],
+    "category": "medium",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Water",
+    "hindi": "पानी",
+    "pronunciation": "WAH-ter",
+    "partOfSpeech": "noun",
+    "example": "Drink more water.",
+    "exampleHindi": "अधिक पानी पिएं।",
+    "synonyms": [
+      "liquid"
+    ],
+    "antonyms": [],
+    "category": "daily",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Eloquent",
+    "hindi": "सुवक्ता",
+    "pronunciation": "EL-uh-kwuhnt",
+    "partOfSpeech": "adjective",
+    "example": "She gave an eloquent speech.",
+    "exampleHindi": "उन्होंने एक सुवक्ता भाषण दिया।",
+    "synonyms": [
+      "fluent",
+      "expressive"
+    ],
+    "antonyms": [
+      "inarticulate"
+    ],
+    "category": "hard",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Accomplish",
+    "hindi": "पूरा करना",
+    "pronunciation": "uh-KOM-plish",
+    "partOfSpeech": "verb",
+    "example": "I will accomplish my goals.",
+    "exampleHindi": "मैं अपने लक्ष्यों को पूरा करूँगा।",
+    "synonyms": [
+      "achieve",
+      "attain"
+    ],
+    "antonyms": [
+      "fail"
+    ],
+    "category": "medium",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Water",
+    "hindi": "पानी",
+    "pronunciation": "WAH-ter",
+    "partOfSpeech": "noun",
+    "example": "Drink more water.",
+    "exampleHindi": "अधिक पानी पिएं।",
+    "synonyms": [
+      "liquid"
+    ],
+    "antonyms": [],
+    "category": "daily",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Eloquent",
+    "hindi": "सुवक्ता",
+    "pronunciation": "EL-uh-kwuhnt",
+    "partOfSpeech": "adjective",
+    "example": "She gave an eloquent speech.",
+    "exampleHindi": "उन्होंने एक सुवक्ता भाषण दिया।",
+    "synonyms": [
+      "fluent",
+      "expressive"
+    ],
+    "antonyms": [
+      "inarticulate"
+    ],
+    "category": "hard",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Accomplish",
+    "hindi": "पूरा करना",
+    "pronunciation": "uh-KOM-plish",
+    "partOfSpeech": "verb",
+    "example": "I will accomplish my goals.",
+    "exampleHindi": "मैं अपने लक्ष्यों को पूरा करूँगा।",
+    "synonyms": [
+      "achieve",
+      "attain"
+    ],
+    "antonyms": [
+      "fail"
+    ],
+    "category": "medium",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Water",
+    "hindi": "पानी",
+    "pronunciation": "WAH-ter",
+    "partOfSpeech": "noun",
+    "example": "Drink more water.",
+    "exampleHindi": "अधिक पानी पिएं।",
+    "synonyms": [
+      "liquid"
+    ],
+    "antonyms": [],
+    "category": "daily",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Eloquent",
+    "hindi": "सुवक्ता",
+    "pronunciation": "EL-uh-kwuhnt",
+    "partOfSpeech": "adjective",
+    "example": "She gave an eloquent speech.",
+    "exampleHindi": "उन्होंने एक सुवक्ता भाषण दिया।",
+    "synonyms": [
+      "fluent",
+      "expressive"
+    ],
+    "antonyms": [
+      "inarticulate"
+    ],
+    "category": "hard",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Accomplish",
+    "hindi": "पूरा करना",
+    "pronunciation": "uh-KOM-plish",
+    "partOfSpeech": "verb",
+    "example": "I will accomplish my goals.",
+    "exampleHindi": "मैं अपने लक्ष्यों को पूरा करूँगा।",
+    "synonyms": [
+      "achieve",
+      "attain"
+    ],
+    "antonyms": [
+      "fail"
+    ],
+    "category": "medium",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Water",
+    "hindi": "पानी",
+    "pronunciation": "WAH-ter",
+    "partOfSpeech": "noun",
+    "example": "Drink more water.",
+    "exampleHindi": "अधिक पानी पिएं।",
+    "synonyms": [
+      "liquid"
+    ],
+    "antonyms": [],
+    "category": "daily",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Eloquent",
+    "hindi": "सुवक्ता",
+    "pronunciation": "EL-uh-kwuhnt",
+    "partOfSpeech": "adjective",
+    "example": "She gave an eloquent speech.",
+    "exampleHindi": "उन्होंने एक सुवक्ता भाषण दिया।",
+    "synonyms": [
+      "fluent",
+      "expressive"
+    ],
+    "antonyms": [
+      "inarticulate"
+    ],
+    "category": "hard",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Accomplish",
+    "hindi": "पूरा करना",
+    "pronunciation": "uh-KOM-plish",
+    "partOfSpeech": "verb",
+    "example": "I will accomplish my goals.",
+    "exampleHindi": "मैं अपने लक्ष्यों को पूरा करूँगा।",
+    "synonyms": [
+      "achieve",
+      "attain"
+    ],
+    "antonyms": [
+      "fail"
+    ],
+    "category": "medium",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Water",
+    "hindi": "पानी",
+    "pronunciation": "WAH-ter",
+    "partOfSpeech": "noun",
+    "example": "Drink more water.",
+    "exampleHindi": "अधिक पानी पिएं।",
+    "synonyms": [
+      "liquid"
+    ],
+    "antonyms": [],
+    "category": "daily",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Eloquent",
+    "hindi": "सुवक्ता",
+    "pronunciation": "EL-uh-kwuhnt",
+    "partOfSpeech": "adjective",
+    "example": "She gave an eloquent speech.",
+    "exampleHindi": "उन्होंने एक सुवक्ता भाषण दिया।",
+    "synonyms": [
+      "fluent",
+      "expressive"
+    ],
+    "antonyms": [
+      "inarticulate"
+    ],
+    "category": "hard",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Accomplish",
+    "hindi": "पूरा करना",
+    "pronunciation": "uh-KOM-plish",
+    "partOfSpeech": "verb",
+    "example": "I will accomplish my goals.",
+    "exampleHindi": "मैं अपने लक्ष्यों को पूरा करूँगा।",
+    "synonyms": [
+      "achieve",
+      "attain"
+    ],
+    "antonyms": [
+      "fail"
+    ],
+    "category": "medium",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Water",
+    "hindi": "पानी",
+    "pronunciation": "WAH-ter",
+    "partOfSpeech": "noun",
+    "example": "Drink more water.",
+    "exampleHindi": "अधिक पानी पिएं।",
+    "synonyms": [
+      "liquid"
+    ],
+    "antonyms": [],
+    "category": "daily",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Eloquent",
+    "hindi": "सुवक्ता",
+    "pronunciation": "EL-uh-kwuhnt",
+    "partOfSpeech": "adjective",
+    "example": "She gave an eloquent speech.",
+    "exampleHindi": "उन्होंने एक सुवक्ता भाषण दिया।",
+    "synonyms": [
+      "fluent",
+      "expressive"
+    ],
+    "antonyms": [
+      "inarticulate"
+    ],
+    "category": "hard",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Accomplish",
+    "hindi": "पूरा करना",
+    "pronunciation": "uh-KOM-plish",
+    "partOfSpeech": "verb",
+    "example": "I will accomplish my goals.",
+    "exampleHindi": "मैं अपने लक्ष्यों को पूरा करूँगा।",
+    "synonyms": [
+      "achieve",
+      "attain"
+    ],
+    "antonyms": [
+      "fail"
+    ],
+    "category": "medium",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Water",
+    "hindi": "पानी",
+    "pronunciation": "WAH-ter",
+    "partOfSpeech": "noun",
+    "example": "Drink more water.",
+    "exampleHindi": "अधिक पानी पिएं।",
+    "synonyms": [
+      "liquid"
+    ],
+    "antonyms": [],
+    "category": "daily",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Eloquent",
+    "hindi": "सुवक्ता",
+    "pronunciation": "EL-uh-kwuhnt",
+    "partOfSpeech": "adjective",
+    "example": "She gave an eloquent speech.",
+    "exampleHindi": "उन्होंने एक सुवक्ता भाषण दिया।",
+    "synonyms": [
+      "fluent",
+      "expressive"
+    ],
+    "antonyms": [
+      "inarticulate"
+    ],
+    "category": "hard",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Accomplish",
+    "hindi": "पूरा करना",
+    "pronunciation": "uh-KOM-plish",
+    "partOfSpeech": "verb",
+    "example": "I will accomplish my goals.",
+    "exampleHindi": "मैं अपने लक्ष्यों को पूरा करूँगा।",
+    "synonyms": [
+      "achieve",
+      "attain"
+    ],
+    "antonyms": [
+      "fail"
+    ],
+    "category": "medium",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Water",
+    "hindi": "पानी",
+    "pronunciation": "WAH-ter",
+    "partOfSpeech": "noun",
+    "example": "Drink more water.",
+    "exampleHindi": "अधिक पानी पिएं।",
+    "synonyms": [
+      "liquid"
+    ],
+    "antonyms": [],
+    "category": "daily",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Eloquent",
+    "hindi": "सुवक्ता",
+    "pronunciation": "EL-uh-kwuhnt",
+    "partOfSpeech": "adjective",
+    "example": "She gave an eloquent speech.",
+    "exampleHindi": "उन्होंने एक सुवक्ता भाषण दिया।",
+    "synonyms": [
+      "fluent",
+      "expressive"
+    ],
+    "antonyms": [
+      "inarticulate"
+    ],
+    "category": "hard",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Accomplish",
+    "hindi": "पूरा करना",
+    "pronunciation": "uh-KOM-plish",
+    "partOfSpeech": "verb",
+    "example": "I will accomplish my goals.",
+    "exampleHindi": "मैं अपने लक्ष्यों को पूरा करूँगा।",
+    "synonyms": [
+      "achieve",
+      "attain"
+    ],
+    "antonyms": [
+      "fail"
+    ],
+    "category": "medium",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Water",
+    "hindi": "पानी",
+    "pronunciation": "WAH-ter",
+    "partOfSpeech": "noun",
+    "example": "Drink more water.",
+    "exampleHindi": "अधिक पानी पिएं।",
+    "synonyms": [
+      "liquid"
+    ],
+    "antonyms": [],
+    "category": "daily",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Eloquent",
+    "hindi": "सुवक्ता",
+    "pronunciation": "EL-uh-kwuhnt",
+    "partOfSpeech": "adjective",
+    "example": "She gave an eloquent speech.",
+    "exampleHindi": "उन्होंने एक सुवक्ता भाषण दिया।",
+    "synonyms": [
+      "fluent",
+      "expressive"
+    ],
+    "antonyms": [
+      "inarticulate"
+    ],
+    "category": "hard",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Accomplish",
+    "hindi": "पूरा करना",
+    "pronunciation": "uh-KOM-plish",
+    "partOfSpeech": "verb",
+    "example": "I will accomplish my goals.",
+    "exampleHindi": "मैं अपने लक्ष्यों को पूरा करूँगा।",
+    "synonyms": [
+      "achieve",
+      "attain"
+    ],
+    "antonyms": [
+      "fail"
+    ],
+    "category": "medium",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Water",
+    "hindi": "पानी",
+    "pronunciation": "WAH-ter",
+    "partOfSpeech": "noun",
+    "example": "Drink more water.",
+    "exampleHindi": "अधिक पानी पिएं।",
+    "synonyms": [
+      "liquid"
+    ],
+    "antonyms": [],
+    "category": "daily",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Eloquent",
+    "hindi": "सुवक्ता",
+    "pronunciation": "EL-uh-kwuhnt",
+    "partOfSpeech": "adjective",
+    "example": "She gave an eloquent speech.",
+    "exampleHindi": "उन्होंने एक सुवक्ता भाषण दिया।",
+    "synonyms": [
+      "fluent",
+      "expressive"
+    ],
+    "antonyms": [
+      "inarticulate"
+    ],
+    "category": "hard",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Accomplish",
+    "hindi": "पूरा करना",
+    "pronunciation": "uh-KOM-plish",
+    "partOfSpeech": "verb",
+    "example": "I will accomplish my goals.",
+    "exampleHindi": "मैं अपने लक्ष्यों को पूरा करूँगा।",
+    "synonyms": [
+      "achieve",
+      "attain"
+    ],
+    "antonyms": [
+      "fail"
+    ],
+    "category": "medium",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Water",
+    "hindi": "पानी",
+    "pronunciation": "WAH-ter",
+    "partOfSpeech": "noun",
+    "example": "Drink more water.",
+    "exampleHindi": "अधिक पानी पिएं।",
+    "synonyms": [
+      "liquid"
+    ],
+    "antonyms": [],
+    "category": "daily",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Eloquent",
+    "hindi": "सुवक्ता",
+    "pronunciation": "EL-uh-kwuhnt",
+    "partOfSpeech": "adjective",
+    "example": "She gave an eloquent speech.",
+    "exampleHindi": "उन्होंने एक सुवक्ता भाषण दिया।",
+    "synonyms": [
+      "fluent",
+      "expressive"
+    ],
+    "antonyms": [
+      "inarticulate"
+    ],
+    "category": "hard",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Accomplish",
+    "hindi": "पूरा करना",
+    "pronunciation": "uh-KOM-plish",
+    "partOfSpeech": "verb",
+    "example": "I will accomplish my goals.",
+    "exampleHindi": "मैं अपने लक्ष्यों को पूरा करूँगा।",
+    "synonyms": [
+      "achieve",
+      "attain"
+    ],
+    "antonyms": [
+      "fail"
+    ],
+    "category": "medium",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Water",
+    "hindi": "पानी",
+    "pronunciation": "WAH-ter",
+    "partOfSpeech": "noun",
+    "example": "Drink more water.",
+    "exampleHindi": "अधिक पानी पिएं।",
+    "synonyms": [
+      "liquid"
+    ],
+    "antonyms": [],
+    "category": "daily",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Eloquent",
+    "hindi": "सुवक्ता",
+    "pronunciation": "EL-uh-kwuhnt",
+    "partOfSpeech": "adjective",
+    "example": "She gave an eloquent speech.",
+    "exampleHindi": "उन्होंने एक सुवक्ता भाषण दिया।",
+    "synonyms": [
+      "fluent",
+      "expressive"
+    ],
+    "antonyms": [
+      "inarticulate"
+    ],
+    "category": "hard",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Accomplish",
+    "hindi": "पूरा करना",
+    "pronunciation": "uh-KOM-plish",
+    "partOfSpeech": "verb",
+    "example": "I will accomplish my goals.",
+    "exampleHindi": "मैं अपने लक्ष्यों को पूरा करूँगा।",
+    "synonyms": [
+      "achieve",
+      "attain"
+    ],
+    "antonyms": [
+      "fail"
+    ],
+    "category": "medium",
+    "difficulty": "medium"
+  }
+]

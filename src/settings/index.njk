@@ -1,651 +1,288 @@
 ---
 layout: layouts/base.njk
-title: Settings & Profile
-description: Update your EnglishVidya profile, social links, and account settings.
+title: Settings & Preferences
 permalink: /settings/
 ---
 
 <style>
-  .settings-container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: var(--sp-6) var(--sp-4);
-  }
-  
-  .settings-page-header {
-    margin-bottom: var(--sp-8);
-    text-align: center;
-  }
-  
-  .settings-page-header h1 {
-    font-size: 2.2rem;
-    font-weight: 800;
-    background: var(--gradient-accent);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    margin-bottom: var(--sp-2);
-  }
-
-  .settings-section-card {
-    background: var(--bg-raised);
-    border: 1px solid var(--border);
-    border-radius: var(--radius-lg);
-    padding: var(--sp-6);
-    margin-bottom: var(--sp-8);
-    box-shadow: var(--shadow-sm);
-    transition: transform var(--duration-normal), box-shadow var(--duration-normal);
-  }
-
-  .settings-section-card:hover {
-    box-shadow: var(--shadow-md);
-  }
-
-  .settings-section-title {
-    font-size: 1.4rem;
-    font-weight: 700;
-    margin-bottom: var(--sp-6);
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    border-bottom: 1px solid var(--border-subtle);
-    padding-bottom: var(--sp-3);
-  }
-
-  .settings-section-title i {
-    font-style: normal;
-  }
-
-  .form-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: var(--sp-5);
-  }
-  
-  @media(min-width: 600px) {
-    .form-grid {
-      grid-template-columns: 1fr 1fr;
-    }
-  }
-
-  .form-group.full-width {
-    grid-column: 1 / -1;
-  }
-
-  .premium-input-group {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-  }
-
-  .premium-input-group label {
-    font-size: 0.95rem;
-    font-weight: 600;
-    color: var(--text-secondary);
-  }
-
-  .premium-input {
-    width: 100%;
-    padding: 12px 16px;
-    background: var(--bg-base);
-    border: 1.5px solid var(--border);
-    border-radius: var(--radius-md);
-    color: var(--text-primary);
-    font-size: 1rem;
-    font-family: var(--font-body);
-    transition: all 0.2s ease;
-  }
-
-  .premium-input:focus {
-    outline: none;
-    border-color: var(--accent);
-    box-shadow: 0 0 0 4px var(--accent-soft);
-  }
-  
-  .premium-input[readonly] {
-    background: var(--bg-hover);
-    color: var(--text-tertiary);
-    cursor: not-allowed;
-  }
-
-  .premium-select {
-    width: 100%;
-    padding: 12px 16px;
-    background: var(--bg-base);
-    border: 1.5px solid var(--border);
-    border-radius: var(--radius-md);
-    color: var(--text-primary);
-    font-size: 1rem;
-    font-family: var(--font-body);
-    cursor: pointer;
-  }
-
-  .social-input-wrapper {
-    position: relative;
-    display: flex;
-    align-items: center;
-  }
-
-  .social-input-wrapper .social-icon {
-    position: absolute;
-    left: 14px;
-    color: var(--text-tertiary);
-    font-size: 1.1rem;
-    font-style: normal;
-  }
-
-  .social-input-wrapper .premium-input {
-    padding-left: 42px;
-  }
-
-  .btn-save-glow {
-    width: 100%;
-    padding: 16px;
-    font-size: 1.1rem;
-    font-weight: 700;
-    color: white;
-    background: var(--gradient-accent);
-    border: none;
-    border-radius: var(--radius-md);
-    cursor: pointer;
-    box-shadow: var(--shadow-glow);
-    transition: all 0.3s ease;
-    margin-top: var(--sp-6);
-  }
-
-  .btn-save-glow:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 12px 25px -5px rgba(37, 99, 235, 0.4);
-  }
-  
-  .btn-save-glow:disabled {
-    opacity: 0.7;
-    cursor: wait;
-    transform: none;
-  }
-
-  .danger-zone {
-    border-color: rgba(239, 68, 68, 0.3);
-    background: rgba(239, 68, 68, 0.02);
-  }
-
-  .danger-zone .settings-section-title {
-    color: var(--error);
-    border-bottom-color: rgba(239, 68, 68, 0.2);
-  }
-
-  .btn-danger-outline {
-    background: transparent;
-    border: 2px solid var(--error);
-    color: var(--error);
-    padding: 12px 24px;
-    border-radius: var(--radius-md);
-    font-weight: 600;
-    cursor: pointer;
-    transition: all 0.2s;
-  }
-
-  .btn-danger-outline:hover {
-    background: var(--error);
-    color: white;
-  }
-
-  .alert-msg {
-    padding: 12px 16px;
-    border-radius: var(--radius-md);
-    margin-bottom: var(--sp-5);
-    font-weight: 500;
-    display: none;
-  }
-  
-  .alert-success {
-    background: rgba(34, 197, 94, 0.1);
-    color: var(--success);
-    border: 1px solid rgba(34, 197, 94, 0.2);
-  }
-  
-  .alert-error {
-    background: rgba(239, 68, 68, 0.1);
-    color: var(--error);
-    border: 1px solid rgba(239, 68, 68, 0.2);
-  }
+.settings-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  font-family: sans-serif;
+}
+.settings-section {
+  background: var(--bg-raised, #ffffff);
+  border: 1px solid var(--border, #e2e8f0);
+  border-radius: 1rem;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+.settings-section h2 {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid var(--border, #e2e8f0);
+  padding-bottom: 0.5rem;
+  color: var(--text, #333);
+}
+/* Toggle Button styling */
+#big-theme-toggle {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.25rem;
+  background: var(--bg-raised, #f1f5f9);
+  border: 2px solid var(--accent, #3b82f6);
+  border-radius: 0.75rem;
+  color: var(--text, #333);
+  cursor: pointer;
+  transition: all 0.3s;
+  font-weight: bold;
+}
+#big-theme-toggle:hover {
+  background: var(--accent, #3b82f6);
+  color: white;
+}
+.cards-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+.option-card {
+  border: 2px solid var(--border, #e2e8f0);
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  text-align: center;
+  cursor: pointer;
+  background: var(--bg-raised, #fff);
+  color: var(--text, #333);
+  transition: border-color 0.2s;
+}
+.option-card.selected {
+  border-color: var(--accent, #3b82f6);
+  background: rgba(59, 130, 246, 0.05);
+}
+.pill-group {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+.pill-btn {
+  padding: 0.5rem 1.5rem;
+  border: 1px solid var(--border, #e2e8f0);
+  border-radius: 9999px;
+  background: var(--bg-raised, #fff);
+  color: var(--text, #333);
+  cursor: pointer;
+}
+.pill-btn.selected {
+  background: var(--accent, #3b82f6);
+  color: white;
+  border-color: var(--accent, #3b82f6);
+}
+.toggle-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--border, #e2e8f0);
+}
+.toggle-switch {
+  width: 50px;
+  height: 26px;
+  background-color: var(--border, #ccc);
+  border-radius: 26px;
+  position: relative;
+  cursor: pointer;
+  border: none;
+  transition: 0.3s;
+}
+.toggle-switch::after {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 22px;
+  height: 22px;
+  background: white;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+.toggle-switch.active {
+  background-color: var(--accent, #3b82f6);
+}
+.toggle-switch.active::after {
+  transform: translateX(24px);
+}
+.btn {
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+.btn-danger {
+  background: #ef4444;
+  color: white;
+}
+.btn-outline {
+  background: transparent;
+  border: 2px solid var(--accent, #3b82f6);
+  color: var(--accent, #3b82f6);
+}
 </style>
 
 <div class="settings-container">
-  <div class="settings-page-header">
-    <h1>Account Settings</h1>
-    <p style="color: var(--text-secondary);">Manage your profile, location, and connected accounts.</p>
+  <!-- Appearance -->
+  <div class="settings-section">
+    <h2>1. Appearance</h2>
+    <button id="big-theme-toggle" role="switch" aria-checked="false">☀️ Day Mode / 🌙 Night Mode</button>
   </div>
 
-  <form id="profile-form">
-    <div id="profile-alert" class="alert-msg"></div>
-
-    <!-- 1. Profile Information -->
-    <div class="settings-section-card">
-      <div class="settings-section-title">
-        <i>👤</i> Profile Information
+  <!-- Language -->
+  <div class="settings-section">
+    <h2>2. Language Medium</h2>
+    <div class="cards-grid">
+      <div class="option-card selected" id="lang-hi" onclick="setLang('hi')">
+        <h3>Hindi Medium</h3>
+        <p>Learn English through Hindi</p>
       </div>
-      <div class="form-grid">
-        <div class="premium-input-group">
-          <label for="input-name">Full Name</label>
-          <input type="text" id="input-name" class="premium-input" placeholder="Your Name" required>
-        </div>
-        <div class="premium-input-group">
-          <label for="input-username">Username</label>
-          <input type="text" id="input-username" class="premium-input" placeholder="e.g. rohan_123">
-        </div>
+      <div class="option-card" id="lang-en" onclick="setLang('en')">
+        <h3>English Medium</h3>
+        <p>Learn entirely in English</p>
       </div>
     </div>
+  </div>
 
-    <!-- 2. Location & Address -->
-    <div class="settings-section-card">
-      <div class="settings-section-title">
-        <i>📍</i> Location & Address
-      </div>
-      <p style="font-size: 0.9rem; color: var(--text-tertiary); margin-top: -16px; margin-bottom: 24px;">Adding your location helps connect with learners from your area.</p>
-      
-      <div class="form-grid">
-        <div class="premium-input-group">
-          <label for="input-pincode">Pincode (पिनकोड)</label>
-          <input type="text" id="input-pincode" class="premium-input" placeholder="e.g. 852201" pattern="[0-9]{6}" maxlength="6">
-          <span id="pincode-status" style="font-size: 0.85rem; margin-top: 4px; display: block; font-weight: 500;"></span>
-        </div>
-        <div class="premium-input-group">
-          <label for="input-country">Country (देश)</label>
-          <input type="text" id="input-country" class="premium-input" value="India" readonly>
-        </div>
-        <div class="premium-input-group">
-          <label for="input-state">State/UT (राज्य)</label>
-          <input type="text" id="input-state" class="premium-input" placeholder="e.g. Bihar">
-        </div>
-        <div class="premium-input-group">
-          <label for="input-district">District (जिला)</label>
-          <input type="text" id="input-district" class="premium-input" placeholder="e.g. Saharsa">
-        </div>
-        <div class="premium-input-group">
-          <label for="input-subdistrict">Sub-district / Tehsil (तहसील)</label>
-          <input type="text" id="input-subdistrict" class="premium-input" placeholder="e.g. Kahra">
-        </div>
-        <div class="premium-input-group">
-          <label for="input-block">Block (प्रखंड)</label>
-          <input type="text" id="input-block" class="premium-input" placeholder="e.g. Kahra">
-        </div>
-        <div class="premium-input-group">
-          <label for="input-panchayat">Panchayat (पंचायत) <span style="font-weight:400; color:var(--text-tertiary);">- Optional</span></label>
-          <input type="text" id="input-panchayat" class="premium-input" placeholder="e.g. Kahra">
-        </div>
-        <div class="premium-input-group">
-          <label for="input-village">Village / Area (गांव / क्षेत्र)</label>
-          <div id="village-container">
-            <input type="text" id="input-village" class="premium-input" placeholder="e.g. Kahra Village">
-          </div>
-        </div>
-        <div class="premium-input-group full-width">
-          <label for="input-ward">Ward No (वार्ड संख्या) <span style="font-weight:400; color:var(--text-tertiary);">- Optional</span></label>
-          <input type="text" id="input-ward" class="premium-input" placeholder="e.g. Ward 12">
-        </div>
-      </div>
+  <!-- Notifications -->
+  <div class="settings-section">
+    <h2>3. Notifications</h2>
+    <div class="toggle-row">
+      <span>Daily Reminder</span>
+      <button class="toggle-switch active" onclick="this.classList.toggle('active')"></button>
     </div>
+    <div class="toggle-row">
+      <span>New Lessons</span>
+      <button class="toggle-switch active" onclick="this.classList.toggle('active')"></button>
+    </div>
+    <div class="toggle-row">
+      <span>Test Reminders</span>
+      <button class="toggle-switch" onclick="this.classList.toggle('active')"></button>
+    </div>
+  </div>
 
-    <!-- 3. Social Links -->
-    <div class="settings-section-card">
-      <div class="settings-section-title">
-        <i>🔗</i> Social Links
-      </div>
-      <p style="font-size: 0.9rem; color: var(--text-tertiary); margin-top: -16px; margin-bottom: 24px;">Share your social profiles (optional)</p>
-      
-      <div class="form-grid">
-        <div class="premium-input-group">
-          <label for="input-facebook">Facebook URL</label>
-          <div class="social-input-wrapper">
-            <i class="social-icon">📘</i>
-            <input type="url" id="input-facebook" class="premium-input" placeholder="https://facebook.com/...">
-          </div>
-        </div>
-        <div class="premium-input-group">
-          <label for="input-youtube">YouTube URL</label>
-          <div class="social-input-wrapper">
-            <i class="social-icon">▶️</i>
-            <input type="url" id="input-youtube" class="premium-input" placeholder="https://youtube.com/...">
-          </div>
-        </div>
-        <div class="premium-input-group">
-          <label for="input-instagram">Instagram URL</label>
-          <div class="social-input-wrapper">
-            <i class="social-icon">📸</i>
-            <input type="url" id="input-instagram" class="premium-input" placeholder="https://instagram.com/...">
-          </div>
-        </div>
-        <div class="premium-input-group">
-          <label for="input-twitter">X (Twitter) URL</label>
-          <div class="social-input-wrapper">
-            <i class="social-icon">𝕏</i>
-            <input type="url" id="input-twitter" class="premium-input" placeholder="https://x.com/...">
-          </div>
-        </div>
-        <div class="premium-input-group">
-          <label for="input-linkedin">LinkedIn URL</label>
-          <div class="social-input-wrapper">
-            <i class="social-icon">💼</i>
-            <input type="url" id="input-linkedin" class="premium-input" placeholder="https://linkedin.com/in/...">
-          </div>
-        </div>
-        <div class="premium-input-group">
-          <label for="input-pinterest">Pinterest URL</label>
-          <div class="social-input-wrapper">
-            <i class="social-icon">📌</i>
-            <input type="url" id="input-pinterest" class="premium-input" placeholder="https://pinterest.com/...">
-          </div>
-        </div>
-        <div class="premium-input-group">
-          <label for="input-website1">Custom Website 1</label>
-          <div class="social-input-wrapper">
-            <i class="social-icon">🌐</i>
-            <input type="url" id="input-website1" class="premium-input" placeholder="https://yourwebsite.com">
-          </div>
-        </div>
-        <div class="premium-input-group">
-          <label for="input-website2">Custom Website 2</label>
-          <div class="social-input-wrapper">
-            <i class="social-icon">🌐</i>
-            <input type="url" id="input-website2" class="premium-input" placeholder="https://blog.com">
-          </div>
-        </div>
-      </div>
+  <!-- Learning Preferences -->
+  <div class="settings-section">
+    <h2>4. Learning Preferences</h2>
+    <p>Difficulty Level:</p>
+    <div class="pill-group">
+      <button class="pill-btn selected" onclick="selectPill(this, 'diff')">Easy</button>
+      <button class="pill-btn" onclick="selectPill(this, 'diff')">Medium</button>
+      <button class="pill-btn" onclick="selectPill(this, 'diff')">Hard</button>
     </div>
+    <p style="margin-top:1.5rem;">Daily Goal (Words):</p>
+    <div class="pill-group">
+      <button class="pill-btn" onclick="selectPill(this, 'goal')">5</button>
+      <button class="pill-btn selected" onclick="selectPill(this, 'goal')">10</button>
+      <button class="pill-btn" onclick="selectPill(this, 'goal')">15</button>
+      <button class="pill-btn" onclick="selectPill(this, 'goal')">20</button>
+    </div>
+  </div>
 
-    <button type="submit" class="btn-save-glow" id="save-profile-btn">Save All Changes</button>
-  </form>
+  <!-- Data & Privacy -->
+  <div class="settings-section">
+    <h2>5. Data & Privacy</h2>
+    <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+      <button class="btn btn-outline" onclick="exportData()">Export My Notes</button>
+      <button class="btn btn-danger" onclick="clearData()">Clear All Local Data</button>
+    </div>
+  </div>
 
-  <!-- 4. Danger Zone -->
-  <div class="settings-section-card danger-zone" style="margin-top: 64px;">
-    <div class="settings-section-title">
-      <i>⚠️</i> Danger Zone
-    </div>
-    
-    <div id="delete-status-container">
-      <p style="color: var(--text-secondary); margin-bottom: 24px; font-size: 0.95rem; line-height: 1.6;">
-        If you no longer want to use EnglishVidya, you can request to delete your account. 
-        <strong>Note:</strong> Your contributed words and votes will remain to help the community, but your personal information (Name, Email, Photo) will be completely removed (anonymized) within 30 days.
-      </p>
-      <button id="request-delete-btn" class="btn-danger-outline">Request Account Deletion</button>
-    </div>
-
-    <div id="delete-pending-container" style="display: none;">
-      <div class="alert-msg alert-error" style="display:block;">
-        <strong>⚠️ Deletion Requested</strong><br>
-        Your account is scheduled for deletion within 30 days. You can cancel this request if you change your mind.
-      </div>
-      <button id="cancel-delete-btn" class="btn-save-glow" style="background: var(--text-primary); color: var(--bg-body);">Cancel Deletion Request</button>
-    </div>
+  <!-- About -->
+  <div class="settings-section">
+    <h2>6. About English Vidya</h2>
+    <p>Version: <strong>v3.0.0</strong></p>
+    <button class="btn btn-outline" style="margin-bottom: 1rem;" onclick="checkUpdates()">Check for updates</button>
+    <p>
+      <a href="/privacy/" style="color: var(--accent);">Privacy Policy</a> | 
+      <a href="/contact/" style="color: var(--accent);">Contact Us</a>
+    </p>
   </div>
 </div>
 
 <script>
-document.addEventListener('DOMContentLoaded', async () => {
-  // Location DOM Elements
-  const pincodeInput = document.getElementById('input-pincode');
-  const pincodeStatus = document.getElementById('pincode-status');
-  const stateInput = document.getElementById('input-state');
-  const districtInput = document.getElementById('input-district');
-  const subdistrictInput = document.getElementById('input-subdistrict');
-  const blockInput = document.getElementById('input-block');
-  const panchayatInput = document.getElementById('input-panchayat');
-  const villageContainer = document.getElementById('village-container');
-  const wardInput = document.getElementById('input-ward');
-
-  let villageTextVal = '';
-
-  // Helper to set village input as text or select
-  function setVillageDropdown(options) {
-    if (!options || options.length === 0) {
-      villageContainer.innerHTML = \`<input type="text" id="input-village" class="premium-input" placeholder="e.g. Kahra Village" value="\${villageTextVal}">\`;
-      const textEl = document.getElementById('input-village');
-      textEl.addEventListener('input', () => {
-        villageTextVal = textEl.value;
-      });
-      return;
-    }
-    
-    let html = \`<select id="input-village-select" class="premium-select">\`;
-    html += \`<option value="">-- select village/area --</option>\`;
-    options.forEach(opt => {
-      const selectedAttr = opt === villageTextVal ? 'selected' : '';
-      html += \`<option value="\${opt}" \${selectedAttr}>\${opt}</option>\`;
-    });
-    html += \`<option value="__custom__">-- Type custom village --</option>\`;
-    html += \`</select>\`;
-    
-    villageContainer.innerHTML = html;
-
-    const selectEl = document.getElementById('input-village-select');
-    selectEl.addEventListener('change', () => {
-      if (selectEl.value === '__custom__') {
-        villageContainer.innerHTML = \`<input type="text" id="input-village" class="premium-input" placeholder="e.g. Kahra Village" value="">\`;
-        const textEl = document.getElementById('input-village');
-        textEl.focus();
-        textEl.addEventListener('input', () => {
-          villageTextVal = textEl.value;
-        });
-      } else {
-        villageTextVal = selectEl.value;
-      }
-    });
+document.addEventListener('DOMContentLoaded', () => {
+  // Theme setup
+  const themeToggle = document.getElementById('big-theme-toggle');
+  const currentTheme = localStorage.getItem('ev-theme') || 'light';
+  if(currentTheme === 'dark') {
+    document.documentElement.setAttribute('data-theme', 'dark');
+    themeToggle.setAttribute('aria-checked', 'true');
+    themeToggle.innerHTML = '🌙 Night Mode Active (Switch to Day)';
   }
-
-  function getVillageValue() {
-    const selectEl = document.getElementById('input-village-select');
-    if (selectEl) {
-      return selectEl.value;
-    }
-    const textEl = document.getElementById('input-village');
-    return textEl ? textEl.value.trim() : '';
-  }
-
-  // Handle pincode entry
-  pincodeInput.addEventListener('input', async () => {
-    const pin = pincodeInput.value.trim();
-    if (pin.length === 6 && /^\\d{6}$/.test(pin)) {
-      pincodeStatus.textContent = '🔍 Fetching details...';
-      pincodeStatus.style.color = 'var(--text-secondary)';
-      try {
-        const resp = await fetch(\`https://api.postalpincode.in/pincode/\${pin}\`);
-        const resData = await resp.json();
-        if (resData && resData[0] && resData[0].Status === 'Success') {
-          pincodeStatus.textContent = '✅ Pincode details loaded';
-          pincodeStatus.style.color = 'var(--success)';
-          
-          const info = resData[0].PostOffice[0];
-          stateInput.value = info.State || '';
-          districtInput.value = info.District || '';
-          subdistrictInput.value = info.Block === 'No' ? '' : (info.Block || '');
-          blockInput.value = info.Block === 'No' ? '' : (info.Block || '');
-
-          const poList = resData[0].PostOffice.map(po => po.Name);
-          setVillageDropdown(poList);
-        } else {
-          pincodeStatus.textContent = '❌ Invalid Pincode or details not found';
-          pincodeStatus.style.color = 'var(--error)';
-        }
-      } catch (err) {
-        pincodeStatus.textContent = '⚠️ API error, please enter details manually';
-        pincodeStatus.style.color = 'var(--warning)';
-      }
+  
+  themeToggle.addEventListener('click', () => {
+    let theme = document.documentElement.getAttribute('data-theme');
+    if (theme === 'dark') {
+      document.documentElement.removeAttribute('data-theme');
+      localStorage.setItem('ev-theme', 'light');
+      themeToggle.setAttribute('aria-checked', 'false');
+      themeToggle.innerHTML = '☀️ Day Mode Active (Switch to Night)';
+      if (window.showToast) window.showToast('Switched to Day Mode');
     } else {
-      pincodeStatus.textContent = '';
+      document.documentElement.setAttribute('data-theme', 'dark');
+      localStorage.setItem('ev-theme', 'dark');
+      themeToggle.setAttribute('aria-checked', 'true');
+      themeToggle.innerHTML = '🌙 Night Mode Active (Switch to Day)';
+      if (window.showToast) window.showToast('Switched to Night Mode');
     }
   });
 
-  // Fetch user data
-  try {
-    const res = await fetch('/api/auth-me?_t=' + Date.now(), { cache: 'no-store' });
-    const data = await res.json();
-    if (!data.loggedIn) {
-      window.location.href = '/login/?redirect=/settings/';
-      return;
-    }
-
-    const u = data.user;
-    document.getElementById('input-name').value = u.name || '';
-    document.getElementById('input-username').value = u.username || '';
-    
-    document.getElementById('input-facebook').value = u.social_facebook || '';
-    document.getElementById('input-youtube').value = u.social_youtube || '';
-    document.getElementById('input-instagram').value = u.social_instagram || '';
-    document.getElementById('input-twitter').value = u.social_twitter || '';
-    document.getElementById('input-linkedin').value = u.social_linkedin || '';
-    document.getElementById('input-pinterest').value = u.social_pinterest || '';
-    document.getElementById('input-website1').value = u.social_website1 || '';
-    document.getElementById('input-website2').value = u.social_website2 || '';
-
-    if (u.location_address) {
-      try {
-        const loc = JSON.parse(u.location_address);
-        pincodeInput.value = loc.pincode || '';
-        stateInput.value = loc.state || '';
-        districtInput.value = loc.district || '';
-        subdistrictInput.value = loc.subdistrict || '';
-        blockInput.value = loc.block || '';
-        panchayatInput.value = loc.panchayat || '';
-        wardInput.value = loc.ward || '';
-        villageTextVal = loc.village || '';
-        
-        if (loc.pincode) {
-          villageContainer.innerHTML = \`<input type="text" id="input-village" class="premium-input" placeholder="e.g. Kahra Village" value="\${villageTextVal}">\`;
-          const textEl = document.getElementById('input-village');
-          textEl.addEventListener('input', () => {
-            villageTextVal = textEl.value;
-          });
-          
-          fetch(\`https://api.postalpincode.in/pincode/\${loc.pincode}\`)
-            .then(r => r.json())
-            .then(resData => {
-              if (resData && resData[0] && resData[0].Status === 'Success') {
-                const poList = resData[0].PostOffice.map(po => po.Name);
-                setVillageDropdown(poList);
-              }
-            }).catch(() => {});
-        } else {
-          villageContainer.innerHTML = \`<input type="text" id="input-village" class="premium-input" placeholder="e.g. Kahra Village" value="\${villageTextVal}">\`;
-          const textEl = document.getElementById('input-village');
-          textEl.addEventListener('input', () => {
-            villageTextVal = textEl.value;
-          });
-        }
-      } catch(e) {}
-    } else {
-      villageContainer.innerHTML = \`<input type="text" id="input-village" class="premium-input" placeholder="e.g. Kahra Village" value="">\`;
-      const textEl = document.getElementById('input-village');
-      textEl.addEventListener('input', () => {
-        villageTextVal = textEl.value;
-      });
-    }
-
-    if (u.delete_requested_at) {
-      document.getElementById('delete-status-container').style.display = 'none';
-      document.getElementById('delete-pending-container').style.display = 'block';
-    }
-
-  } catch (e) {
-    console.error(e);
-  }
-
-  // Handle Profile Update
-  document.getElementById('profile-form').addEventListener('submit', async (e) => {
-    e.preventDefault();
-    const btn = document.getElementById('save-profile-btn');
-    const alertBox = document.getElementById('profile-alert');
-    btn.disabled = true;
-    btn.textContent = 'Saving Changes...';
-    
-    const payload = {
-      name: document.getElementById('input-name').value,
-      username: document.getElementById('input-username').value,
-      social_facebook: document.getElementById('input-facebook').value,
-      social_youtube: document.getElementById('input-youtube').value,
-      social_instagram: document.getElementById('input-instagram').value,
-      social_twitter: document.getElementById('input-twitter').value,
-      social_linkedin: document.getElementById('input-linkedin').value,
-      social_pinterest: document.getElementById('input-pinterest').value,
-      social_website1: document.getElementById('input-website1').value,
-      social_website2: document.getElementById('input-website2').value,
-      location_address: {
-        pincode: pincodeInput.value.trim(),
-        country: 'India',
-        state: stateInput.value.trim(),
-        district: districtInput.value.trim(),
-        subdistrict: subdistrictInput.value.trim(),
-        block: blockInput.value.trim(),
-        panchayat: panchayatInput.value.trim(),
-        village: getVillageValue(),
-        ward: wardInput.value.trim()
-      }
-    };
-
-    try {
-      const res = await fetch('/api/user-update', {
-        method: 'PUT',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(payload)
-      });
-      
-      const data = await res.json();
-      alertBox.style.display = 'block';
-      if (res.ok) {
-        alertBox.className = 'alert-msg alert-success';
-        alertBox.textContent = data.message || 'Profile saved successfully!';
-        setTimeout(() => alertBox.style.display='none', 4000);
-      } else {
-        alertBox.className = 'alert-msg alert-error';
-        alertBox.textContent = data.message || await res.text();
-      }
-    } catch (e) {
-      alertBox.style.display = 'block';
-      alertBox.className = 'alert-msg alert-error';
-      alertBox.textContent = 'Network error. Please try again.';
-    } finally {
-      btn.disabled = false;
-      btn.textContent = 'Save All Changes';
-    }
-  });
-
-  // Handle Deletion Request
-  document.getElementById('request-delete-btn').addEventListener('click', async () => {
-    if (!confirm('Are you sure you want to request account deletion?')) return;
-    
-    try {
-      const res = await fetch('/api/user-update', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ action: 'request_delete' })
-      });
-      if (res.ok) {
-        document.getElementById('delete-status-container').style.display = 'none';
-        document.getElementById('delete-pending-container').style.display = 'block';
-      } else {
-        alert(await res.text());
-      }
-    } catch (e) {
-      alert('Error requesting deletion');
-    }
-  });
-
-  // Handle Cancel Deletion
-  document.getElementById('cancel-delete-btn').addEventListener('click', async () => {
-    try {
-      const res = await fetch('/api/user-update', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ action: 'cancel_delete' })
-      });
-      if (res.ok) {
-        document.getElementById('delete-status-container').style.display = 'block';
-        document.getElementById('delete-pending-container').style.display = 'none';
-      } else {
-        alert(await res.text());
-      }
-    } catch (e) {
-      alert('Error cancelling deletion');
-    }
-  });
+  // Lang setup
+  const lang = localStorage.getItem('ev-lang') || 'hi';
+  setLang(lang, false);
 });
+
+function setLang(lang, showToastMsg = true) {
+  document.getElementById('lang-hi').classList.remove('selected');
+  document.getElementById('lang-en').classList.remove('selected');
+  document.getElementById('lang-' + lang).classList.add('selected');
+  localStorage.setItem('ev-lang', lang);
+  if (showToastMsg && window.showToast) window.showToast('Language updated');
+}
+
+function selectPill(btn, group) {
+  const siblings = btn.parentElement.querySelectorAll('.pill-btn');
+  siblings.forEach(s => s.classList.remove('selected'));
+  btn.classList.add('selected');
+  if (window.showToast) window.showToast('Preference saved');
+}
+
+function clearData() {
+  if (confirm('Are you sure you want to delete all local data? This cannot be undone.')) {
+    localStorage.clear();
+    if (window.showToast) window.showToast('All local data cleared');
+    setTimeout(() => location.reload(), 1000);
+  }
+}
+
+function exportData() {
+  const data = localStorage.getItem('ev-diary-notes') || 'No notes found.';
+  const blob = new Blob([data], { type: 'text/plain' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = 'english-vidya-notes.txt';
+  a.click();
+  URL.revokeObjectURL(url);
+  if (window.showToast) window.showToast('Notes exported');
+}
+
+function checkUpdates() {
+  if (window.checkForUpdates) {
+    window.checkForUpdates();
+  } else {
+    if (window.showToast) window.showToast('You are on the latest version!');
+  }
+}
 </script>

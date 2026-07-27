@@ -1,626 +1,278 @@
 ---
 layout: layouts/base.njk
-title: My Profile & Analytics
+title: My Profile & Learning Dashboard
 permalink: /profile/
 ---
 
 <style>
-  .profile-container {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: var(--sp-6) var(--sp-4);
-  }
-
-  /* Glassmorphism Premium Header */
-  .profile-header-card {
-    position: relative;
-    background: linear-gradient(135deg, var(--bg-raised), var(--bg-hover));
-    border: 1px solid var(--border-subtle);
-    border-radius: var(--radius-xl);
-    padding: var(--sp-8);
-    display: flex;
-    flex-direction: column;
-    gap: var(--sp-6);
-    box-shadow: var(--shadow-md);
-    overflow: hidden;
-    margin-bottom: var(--sp-8);
-  }
-  
-  .profile-header-card::before {
-    content: '';
-    position: absolute;
-    top: -50%;
-    right: -20%;
-    width: 60%;
-    height: 150%;
-    background: radial-gradient(circle, var(--accent-glow) 0%, transparent 70%);
-    pointer-events: none;
-    z-index: 0;
-  }
-
-  .profile-user-info {
-    display: flex;
-    align-items: center;
-    gap: var(--sp-6);
-    position: relative;
-    z-index: 1;
-  }
-
-  .profile-avatar-wrapper {
-    position: relative;
-  }
-
-  .profile-avatar {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 4px solid var(--bg-base);
-    box-shadow: var(--shadow-sm);
-  }
-
-  .profile-role-badge {
-    position: absolute;
-    bottom: -6px;
-    left: 50%;
-    transform: translateX(-50%);
-    background: var(--accent);
-    color: white;
-    font-size: 0.75rem;
-    font-weight: 800;
-    padding: 2px 10px;
-    border-radius: 12px;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    border: 2px solid var(--bg-base);
-    box-shadow: var(--shadow-sm);
-  }
-
-  .profile-name {
-    font-family: var(--font-heading);
-    font-size: 2rem;
-    font-weight: 800;
-    margin: 0;
-    line-height: 1.1;
-    color: var(--text-primary);
-  }
-
-  .profile-username {
-    font-size: 1rem;
-    color: var(--accent);
-    font-weight: 600;
-    margin-bottom: 4px;
-  }
-
-  .profile-email {
-    font-size: 0.95rem;
-    color: var(--text-secondary);
-    margin: 0;
-  }
-  
-  .profile-location {
-    font-size: 0.85rem;
-    color: var(--text-tertiary);
-    display: flex;
-    align-items: center;
-    gap: 4px;
-    margin-top: 4px;
-  }
-
-  .profile-stats-group {
-    display: flex;
-    gap: var(--sp-4);
-    position: relative;
-    z-index: 1;
-    flex-wrap: wrap;
-  }
-
-  .profile-stat-box {
-    flex: 1;
-    min-width: 120px;
-    background: var(--bg-base);
-    border: 1px solid var(--border);
-    border-radius: var(--radius-lg);
-    padding: var(--sp-4);
-    text-align: center;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.02);
-    transition: transform 0.2s ease;
-  }
-  
-  .profile-stat-box:hover {
-    transform: translateY(-4px);
-    box-shadow: var(--shadow-md);
-    border-color: var(--accent-soft);
-  }
-
-  .profile-stat-val {
-    font-family: var(--font-heading);
-    font-size: 1.8rem;
-    font-weight: 800;
-    color: var(--accent);
-    line-height: 1;
-    margin-bottom: 4px;
-  }
-
-  .profile-stat-label {
-    font-size: 0.8rem;
-    font-weight: 600;
-    color: var(--text-secondary);
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-  }
-
-  /* Social Links Grid */
-  .social-links-grid {
-    display: flex;
-    gap: 12px;
-    margin-top: var(--sp-4);
-    flex-wrap: wrap;
-  }
-  
-  .social-link-btn {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background: var(--bg-base);
-    color: var(--text-primary);
-    border: 1px solid var(--border);
-    font-size: 1.1rem;
-    transition: all 0.2s ease;
-    text-decoration: none;
-    box-shadow: var(--shadow-sm);
-  }
-  
-  .social-link-btn:hover {
-    transform: translateY(-3px);
-    border-color: var(--accent);
-    color: var(--accent);
-    box-shadow: var(--shadow-md);
-  }
-
-  /* Action Buttons */
-  .profile-quick-links {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: var(--sp-4);
-    margin-bottom: var(--sp-8);
-  }
-
-  .profile-action-btn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 8px;
-    padding: 16px;
-    border-radius: var(--radius-md);
-    font-weight: 700;
-    font-size: 1rem;
-    text-decoration: none;
-    transition: all 0.2s ease;
-    background: var(--bg-raised);
-    border: 1px solid var(--border);
-    color: var(--text-primary);
-    box-shadow: var(--shadow-sm);
-  }
-
-  .profile-action-btn:hover {
-    background: var(--bg-hover);
-    border-color: var(--border-subtle);
-    transform: translateY(-2px);
-  }
-  
-  .btn-accent {
-    background: var(--accent);
-    color: white;
-    border-color: var(--accent);
-  }
-  
-  .btn-accent:hover {
-    background: var(--accent-hover);
-    color: white;
-  }
-  
-  .btn-danger {
-    color: var(--error);
-  }
-  
-  .btn-danger:hover {
-    background: rgba(239, 68, 68, 0.05);
-    border-color: rgba(239, 68, 68, 0.2);
-  }
-
-  /* History Table */
-  .profile-history-card {
-    background: var(--bg-raised);
-    border-radius: var(--radius-lg);
-    border: 1px solid var(--border);
-    padding: var(--sp-6);
-    box-shadow: var(--shadow-sm);
-    margin-bottom: var(--sp-8);
-  }
-
-  .profile-history-title {
-    font-size: 1.4rem;
-    font-weight: 800;
-    margin-bottom: var(--sp-5);
-    color: var(--text-primary);
-    display: flex;
-    align-items: center;
-    gap: 8px;
-  }
-
-  .profile-table-container {
-    overflow-x: auto;
-    border-radius: var(--radius-md);
-    border: 1px solid var(--border);
-  }
-
-  .profile-table {
-    width: 100%;
-    border-collapse: collapse;
-    text-align: left;
-  }
-
-  .profile-table th {
-    background: var(--bg-hover);
-    padding: 14px 16px;
-    font-size: 0.9rem;
-    font-weight: 700;
-    color: var(--text-secondary);
-    border-bottom: 2px solid var(--border);
-    white-space: nowrap;
-  }
-
-  .profile-table td {
-    padding: 14px 16px;
-    border-bottom: 1px solid var(--border);
-    font-size: 0.95rem;
-  }
-
-  .profile-table tr:last-child td {
-    border-bottom: none;
-  }
-  
-  .profile-table tbody tr {
-    transition: background 0.15s;
-  }
-  
-  .profile-table tbody tr:hover {
-    background: var(--bg-hover);
-  }
-
-  @media (max-width: 600px) {
-    .profile-user-info {
-      flex-direction: column;
-      text-align: center;
-    }
-    .profile-stats-group {
-      flex-direction: column;
-    }
-    .social-links-grid {
-      justify-content: center;
-    }
-  }
+/* Use var(--bg-raised), var(--accent), etc. */
+.profile-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  font-family: sans-serif;
+}
+.glass-card {
+  background: var(--bg-raised, #ffffff);
+  border: 1px solid var(--border, #e2e8f0);
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+  backdrop-filter: blur(10px);
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.avatar-container {
+  width: 120px;
+  height: 120px;
+  margin: 0 auto 1rem;
+  border-radius: 50%;
+  padding: 4px;
+  background: linear-gradient(45deg, var(--accent, #3b82f6), #8b5cf6);
+}
+.avatar-container img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid var(--bg-raised, #ffffff);
+}
+.role-badge {
+  display: inline-block;
+  background: var(--accent, #3b82f6);
+  color: #fff;
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 1rem;
+  margin-top: 2rem;
+}
+.stat-card {
+  background: var(--bg-raised, #ffffff);
+  border: 1px solid var(--border, #e2e8f0);
+  padding: 1rem;
+  border-radius: 0.75rem;
+}
+.stat-value {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--accent, #3b82f6);
+}
+.streak-grid {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+.streak-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  background: var(--bg-raised, #f1f5f9);
+  border: 1px solid var(--border, #e2e8f0);
+  color: var(--text, #333);
+}
+.streak-circle.active {
+  background: #10b981;
+  color: white;
+  border-color: #10b981;
+}
+.bookmark-list, .quiz-list {
+  text-align: left;
+  list-style: none;
+  padding: 0;
+}
+.bookmark-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  border-bottom: 1px solid var(--border, #e2e8f0);
+}
+.bookmark-item:last-child {
+  border-bottom: none;
+}
+.btn {
+  background: var(--accent, #3b82f6);
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+.btn-outline {
+  background: transparent;
+  color: var(--accent, #3b82f6);
+  border: 1px solid var(--accent, #3b82f6);
+}
 </style>
 
-<div class="profile-container">
-  
-  {# 1. Profile Header Card #}
-  <div class="profile-header-card">
-    <div class="profile-user-info">
-      <div class="profile-avatar-wrapper">
-        <picture>
-          <source srcset="/assets/icons/icon-192.webp" type="image/webp">
-          <img id="profile-avatar" src="/assets/icons/icon-192.png" alt="User profile avatar" class="profile-avatar" width="100" height="100">
-        </picture>
-        <span id="profile-role-badge" class="profile-role-badge">User</span>
-      </div>
-      <div>
-        <h1 id="profile-name" class="profile-name">Loading...</h1>
-        <div id="profile-username" class="profile-username"></div>
-        <p id="profile-email" class="profile-email">...</p>
-        <div id="profile-location" class="profile-location"></div>
-        
-        <!-- Social Links Container -->
-        <div id="social-links-container" class="social-links-grid"></div>
-      </div>
+<div class="profile-container" id="profile-content" style="display: none;">
+  <div class="glass-card">
+    <div class="avatar-container">
+      <img src="https://ui-avatars.com/api/?name=User&background=random" id="user-avatar" alt="User Avatar">
     </div>
-    
-    <div class="profile-stats-group">
-      <div class="profile-stat-box">
-        <div class="profile-stat-val" id="profile-trust">--</div>
-        <div class="profile-stat-label">Trust Score</div>
+    <h2 id="user-name" style="margin: 0; color: var(--text, #333);">Student Name</h2>
+    <p id="user-email" style="color: var(--text-muted, #666); margin: 0.5rem 0;">student@example.com</p>
+    <div class="role-badge">Student</div>
+    <br>
+    <button class="btn btn-outline" style="margin-top: 1rem;" onclick="window.location.href='/settings/'">Edit Profile</button>
+  </div>
+
+  <div class="glass-card" style="display: flex; flex-direction: column; align-items: center;">
+    <h3 style="margin-top: 0;">Learning Progress</h3>
+    <svg class="progress-ring" width="120" height="120">
+      <circle class="progress-ring-bg" cx="60" cy="60" r="50" fill="none" stroke="var(--border, #e2e8f0)" stroke-width="10"/>
+      <circle id="progress-ring-fill" cx="60" cy="60" r="50" fill="none" stroke="var(--accent, #3b82f6)" stroke-width="10" stroke-dasharray="314" stroke-dashoffset="220" stroke-linecap="round" style="transform: rotate(-90deg); transform-origin: center; transition: stroke-dashoffset 1s ease;"/>
+    </svg>
+    <div class="stats-grid" style="width: 100%;">
+      <div class="stat-card">
+        <div class="stat-value" id="stat-lessons">0</div>
+        <div>Lessons</div>
       </div>
-      <div class="profile-stat-box">
-        <div class="profile-stat-val" id="tests-taken-count">0</div>
-        <div class="profile-stat-label">Tests Taken</div>
+      <div class="stat-card">
+        <div class="stat-value" id="stat-streak">0</div>
+        <div>Day Streak</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value" id="stat-quiz">0</div>
+        <div>Avg Score</div>
       </div>
     </div>
   </div>
 
-  {# Quick Links Row #}
-  <div class="profile-quick-links">
-    <a href="/my-diary/" class="profile-action-btn">
-      📓 My Diary & Saved Words
-    </a>
-    <a href="/settings/" class="profile-action-btn btn-accent">
-      ⚙️ Edit Profile & Settings
-    </a>
-    <a href="/api/auth-logout" class="profile-action-btn btn-danger">
-      🚪 Logout
-    </a>
-  </div>
-
-  {# 2. Student test history #}
-  <div class="profile-history-card">
-    <h2 class="profile-history-title">
-      📈 My Test Attempts
-    </h2>
-    <div class="profile-table-container">
-      <table class="profile-table">
-        <thead>
-          <tr>
-            <th>Lesson / Test</th>
-            <th>Score</th>
-            <th>Percentage</th>
-            <th>Date</th>
-          </tr>
-        </thead>
-        <tbody id="student-attempts-body">
-          <tr>
-            <td colspan="4" style="text-align:center; color:var(--text-tertiary);">No test attempts found.</td>
-          </tr>
-        </tbody>
-      </table>
+  <div class="glass-card">
+    <h3 style="margin-top: 0;">7-Day Streak</h3>
+    <div class="streak-grid" id="streak-container">
+      <!-- Generated by JS -->
     </div>
   </div>
 
-  {# 3. Owner Analytics Dashboard (Hidden for regular users) #}
-  <div id="owner-dashboard-container" class="profile-history-card" style="display: none; border-color: var(--accent);">
-    <h2 class="profile-history-title" style="color: var(--accent);">
-      👑 Owner Analytics Dashboard
-    </h2>
-    
-    <div style="display:flex; gap:12px; margin-bottom: 24px;">
-      <button onclick="switchTab('owner-summary')" class="profile-action-btn btn-accent" style="padding: 8px 16px;" id="tab-summary-btn">Summary Stats</button>
-      <button onclick="switchTab('owner-attempts')" class="profile-action-btn" style="padding: 8px 16px;" id="tab-attempts-btn">Student Attempts</button>
-    </div>
-
-    {# 3a. Summary Stats Tab #}
-    <div id="owner-summary-tab" class="profile-table-container">
-      <table class="profile-table">
-        <thead>
-          <tr>
-            <th>Test Slug</th>
-            <th>Attempts</th>
-            <th>Avg Score</th>
-            <th>Max / Min</th>
-          </tr>
-        </thead>
-        <tbody id="owner-summary-body">
-          <tr>
-            <td colspan="4" style="text-align:center;">Loading data...</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-
-    {# 3b. Student Attempts Tab #}
-    <div id="owner-attempts-tab" class="profile-table-container" style="display: none;">
-      <table class="profile-table">
-        <thead>
-          <tr>
-            <th>Student</th>
-            <th>Test Slug</th>
-            <th>Score</th>
-            <th>Date</th>
-          </tr>
-        </thead>
-        <tbody id="owner-attempts-body">
-          <tr>
-            <td colspan="4" style="text-align:center;">Loading data...</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
+  <div class="glass-card">
+    <h3 style="margin-top: 0;">Bookmarked Lessons</h3>
+    <ul class="bookmark-list" id="bookmark-list">
+      <li>No bookmarks yet. Start reading to bookmark lessons!</li>
+    </ul>
   </div>
 
+  <div class="glass-card">
+    <h3 style="margin-top: 0;">Recent Quiz Scores</h3>
+    <ul class="quiz-list" id="quiz-list">
+      <li>No quizzes taken yet.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="profile-container" id="login-prompt" style="display: none; text-align: center;">
+  <div class="glass-card">
+    <h2>Please login to see your full profile</h2>
+    <p>Track your progress, bookmarks, and quiz scores.</p>
+    <button class="btn" onclick="window.location.href='/login/'">Login Now</button>
+  </div>
 </div>
 
 <script>
-  window.escapeHTML = function(str) {
-    if (typeof str !== 'string') return str;
-    return str.replace(/[&<>'"]/g, 
-      tag => ({
-        '&': '&amp;',
-        '<': '&lt;',
-        '>': '&gt;',
-        "'": '&#39;',
-        '"': '&quot;'
-      }[tag] || tag)
-    );
-  };
+document.addEventListener('DOMContentLoaded', () => {
+  const userDataStr = localStorage.getItem('ev-user-data');
+  if (!userDataStr) {
+    document.getElementById('login-prompt').style.display = 'block';
+    return;
+  }
+  
+  const userData = JSON.parse(userDataStr);
+  document.getElementById('profile-content').style.display = 'block';
+  
+  // Populate User Info
+  document.getElementById('user-name').textContent = userData.name || 'Student';
+  document.getElementById('user-email').textContent = userData.email || '';
+  if (userData.name) {
+    document.getElementById('user-avatar').src = 'https://ui-avatars.com/api/?name=' + encodeURIComponent(userData.name) + '&background=random';
+  }
 
-  document.addEventListener('DOMContentLoaded', async () => {
-    try {
-      const res = await fetch('/api/auth-me?_t=' + Date.now(), { cache: 'no-store' });
-      const authData = await res.json();
-      if (!authData.loggedIn) {
-        window.location.href = '/login/?redirect=/profile/';
-        return;
-      }
-      
-      const user = authData.user;
-      document.getElementById('profile-name').textContent = user.name || 'Anonymous';
-      document.getElementById('profile-email').textContent = user.email || '';
-      
-      if (user.username) {
-        document.getElementById('profile-username').textContent = '@' + user.username;
-      }
-      
-      // Parse Location
-      if (user.location_address) {
-        try {
-          const loc = JSON.parse(user.location_address);
-          const parts = [];
-          if(loc.district) parts.push(loc.district);
-          if(loc.state) parts.push(loc.state);
-          if(loc.pincode) parts.push(loc.pincode);
-          if(parts.length > 0) {
-            document.getElementById('profile-location').innerHTML = '📍 ' + window.escapeHTML(parts.join(', '));
-          }
-        } catch(e) {}
-      }
-
-      // Render Social Links
-      const socialContainer = document.getElementById('social-links-container');
-      const socials = [
-        { key: 'social_facebook', icon: '📘' },
-        { key: 'social_youtube', icon: '▶️' },
-        { key: 'social_instagram', icon: '📸' },
-        { key: 'social_twitter', icon: '𝕏' },
-        { key: 'social_linkedin', icon: '💼' },
-        { key: 'social_pinterest', icon: '📌' },
-        { key: 'social_website1', icon: '🌐' },
-        { key: 'social_website2', icon: '🌐' }
-      ];
-      
-      socials.forEach(s => {
-        if (user[s.key]) {
-          const a = document.createElement('a');
-          a.href = user[s.key];
-          a.target = '_blank';
-          a.className = 'social-link-btn';
-          a.title = s.key.replace('social_', '').toUpperCase();
-          a.innerHTML = s.icon;
-          socialContainer.appendChild(a);
-        }
+  // Populate Bookmarks
+  const bookmarksStr = localStorage.getItem('ev-bookmarks');
+  const bookmarkList = document.getElementById('bookmark-list');
+  if (bookmarksStr) {
+    const bookmarks = JSON.parse(bookmarksStr);
+    if (bookmarks.length > 0) {
+      bookmarkList.innerHTML = '';
+      bookmarks.forEach((b, index) => {
+        const li = document.createElement('li');
+        li.className = 'bookmark-item';
+        li.innerHTML = \`
+          <a href="\${b.link}" style="color: var(--accent); text-decoration: none; font-weight: bold;">\${b.title}</a>
+          <button class="btn btn-outline" style="padding: 0.25rem 0.5rem; font-size: 0.8rem;" onclick="removeBookmark(\${index})">Remove</button>
+        \`;
+        bookmarkList.appendChild(li);
       });
-
-      document.getElementById('profile-trust').textContent = user.trust_score || '0';
-      if (user.avatar_url) {
-        document.getElementById('profile-avatar').src = user.avatar_url;
-      }
-
-      // Update role badge
-      const roleBadge = document.getElementById('profile-role-badge');
-      roleBadge.textContent = user.role;
-      if (user.role === 'owner') {
-        roleBadge.style.background = '#000';
-        roleBadge.style.color = 'var(--coin-gold, #f59e0b)';
-        roleBadge.style.borderColor = 'var(--coin-gold, #f59e0b)';
-      } else if (user.role === 'admin') {
-        roleBadge.style.background = 'var(--accent-hover)';
-      }
-
-      // 2. Load personal attempts history
-      const attemptsRes = await fetch('/api/tests');
-      if (attemptsRes.ok) {
-        const attempts = await attemptsRes.json();
-        document.getElementById('tests-taken-count').textContent = attempts.length;
-
-        const studentBody = document.getElementById('student-attempts-body');
-        if (attempts.length > 0) {
-          studentBody.innerHTML = '';
-          attempts.forEach(att => {
-            const tr = document.createElement('tr');
-            
-            const pct = Math.round((att.score / att.total_questions) * 100);
-            const dateStr = new Date(att.created_at).toLocaleDateString('en-IN', {
-              day: '2-digit', month: 'short', year: 'numeric'
-            });
-
-            tr.innerHTML = \`
-              <td style="font-weight: 600;">\${window.escapeHTML(att.lesson_slug)}</td>
-              <td style="font-weight: 700;">\${window.escapeHTML(att.score.toString())}/\${window.escapeHTML(att.total_questions.toString())}</td>
-              <td style="color: \${pct >= 80 ? '#10b981' : pct >= 50 ? 'var(--accent)' : '#ef4444'}; font-weight: 800;">\${pct}%</td>
-              <td style="color: var(--text-tertiary); font-size: 0.85rem;">\${window.escapeHTML(dateStr)}</td>
-            \`;
-            studentBody.appendChild(tr);
-          });
-        }
-      }
-
-      // 3. Load owner dashboard if role is admin/owner
-      if (user.role === 'owner' || user.role === 'admin') {
-        document.getElementById('owner-dashboard-container').style.display = 'block';
-        loadOwnerAnalytics();
-      }
-    } catch (e) {
-      console.error(e);
-      window.location.href = '/';
+      document.getElementById('stat-lessons').textContent = bookmarks.length;
     }
-  });
+  }
 
-  async function loadOwnerAnalytics() {
-    try {
-      const res = await fetch('/api/owner-analytics');
-      if (!res.ok) return;
-
-      const data = await res.json();
+  // Populate Quiz History
+  const quizStr = localStorage.getItem('ev-quiz-history');
+  const quizList = document.getElementById('quiz-list');
+  if (quizStr) {
+    const quizzes = JSON.parse(quizStr).slice(0, 5);
+    if (quizzes.length > 0) {
+      quizList.innerHTML = '';
+      let totalScore = 0;
+      quizzes.forEach(q => {
+        totalScore += q.score;
+        const li = document.createElement('li');
+        li.className = 'bookmark-item';
+        li.innerHTML = \`
+          <span>\${q.title}</span>
+          <strong>\${q.score}%</strong>
+        \`;
+        quizList.appendChild(li);
+      });
+      const avg = Math.round(totalScore / quizzes.length);
+      document.getElementById('stat-quiz').textContent = avg;
       
-      const summaryBody = document.getElementById('owner-summary-body');
-      if (data.summary.length > 0) {
-        summaryBody.innerHTML = '';
-        data.summary.forEach(sum => {
-          const tr = document.createElement('tr');
-          const avgPct = Math.round(sum.avg_percent);
-
-          tr.innerHTML = \`
-            <td style="font-weight: 600;">\${window.escapeHTML(sum.lesson_slug)}</td>
-            <td>\${window.escapeHTML(sum.total_attempts.toString())}</td>
-            <td style="color: \${avgPct >= 80 ? '#10b981' : avgPct >= 50 ? 'var(--accent)' : '#ef4444'}; font-weight: bold;">\${avgPct}%</td>
-            <td><span style="color:#10b981;font-weight:bold;">\${window.escapeHTML(sum.max_score.toString())}</span> / <span style="color:#ef4444;font-weight:bold;">\${window.escapeHTML(sum.min_score.toString())}</span></td>
-          \`;
-          summaryBody.appendChild(tr);
-        });
-      }
-
-      const attemptsBody = document.getElementById('owner-attempts-body');
-      if (data.attempts.length > 0) {
-        attemptsBody.innerHTML = '';
-        data.attempts.forEach(att => {
-          const tr = document.createElement('tr');
-          const dateStr = new Date(att.created_at).toLocaleDateString('en-IN', {
-            day: '2-digit', month: 'short', hour: '2-digit', minute: '2-digit'
-          });
-
-          tr.innerHTML = \`
-            <td>
-              <div style="font-weight: 600;">\${window.escapeHTML(att.name || 'Student')}</div>
-              <div style="color: var(--text-tertiary); font-size: 0.8rem;">\${window.escapeHTML(att.email)}</div>
-            </td>
-            <td>\${window.escapeHTML(att.lesson_slug)}</td>
-            <td style="font-weight: 800;">\${window.escapeHTML(att.score.toString())}/\${window.escapeHTML(att.total_questions.toString())}</td>
-            <td style="color: var(--text-tertiary); font-size: 0.85rem;">\${window.escapeHTML(dateStr)}</td>
-          \`;
-          attemptsBody.appendChild(tr);
-        });
-      }
-    } catch (e) {
-      console.warn('[EV] Failed to load owner analytics data:', e);
+      // Update progress ring (offset based on avg)
+      const ring = document.getElementById('progress-ring-fill');
+      const offset = 314 - (314 * avg / 100);
+      ring.style.strokeDashoffset = offset;
     }
   }
 
-  window.switchTab = function(tabId) {
-    const summaryTab = document.getElementById('owner-summary-tab');
-    const attemptsTab = document.getElementById('owner-attempts-tab');
-    const summaryBtn = document.getElementById('tab-summary-btn');
-    const attemptsBtn = document.getElementById('tab-attempts-btn');
-
-    if (tabId === 'owner-summary') {
-      summaryTab.style.display = 'block';
-      attemptsTab.style.display = 'none';
-      summaryBtn.className = 'profile-action-btn btn-accent';
-      attemptsBtn.className = 'profile-action-btn';
-    } else {
-      summaryTab.style.display = 'none';
-      attemptsTab.style.display = 'block';
-      summaryBtn.className = 'profile-action-btn';
-      attemptsBtn.className = 'profile-action-btn btn-accent';
-    }
+  // Populate Streak
+  const streakStr = localStorage.getItem('ev-streak-data');
+  const days = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
+  let activeDays = [];
+  if (streakStr) {
+    activeDays = JSON.parse(streakStr);
   }
+  const streakContainer = document.getElementById('streak-container');
+  let currentStreak = 0;
+  days.forEach((day, i) => {
+    const div = document.createElement('div');
+    div.className = 'streak-circle ' + (activeDays.includes(i) ? 'active' : '');
+    div.textContent = day;
+    streakContainer.appendChild(div);
+    if (activeDays.includes(i)) currentStreak++;
+  });
+  document.getElementById('stat-streak').textContent = currentStreak;
+});
+
+function removeBookmark(index) {
+  const bookmarksStr = localStorage.getItem('ev-bookmarks');
+  if (bookmarksStr) {
+    const bookmarks = JSON.parse(bookmarksStr);
+    bookmarks.splice(index, 1);
+    localStorage.setItem('ev-bookmarks', JSON.stringify(bookmarks));
+    if (window.showToast) window.showToast('Bookmark removed');
+    location.reload();
+  }
+}
 </script>

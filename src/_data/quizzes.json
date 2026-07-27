@@ -1,0 +1,6 @@
+[
+  { "id": "grammar", "title": "Grammar Basics", "emoji": "📖", "questionCount": 10, "difficulty": "Easy", "description": "Parts of Speech, Articles, Pronouns — बुनियादी व्याकरण", "timePerQuestion": 30 },
+  { "id": "tenses", "title": "Tenses Quiz", "emoji": "⏰", "questionCount": 10, "difficulty": "Medium", "description": "All 12 Tenses — Present, Past, Future", "timePerQuestion": 30 },
+  { "id": "vocabulary", "title": "Vocabulary Challenge", "emoji": "🔤", "questionCount": 10, "difficulty": "Medium", "description": "Advanced vocabulary words with Hindi meanings", "timePerQuestion": 25 },
+  { "id": "board", "title": "Bihar Board Special", "emoji": "🏫", "questionCount": 10, "difficulty": "Hard", "description": "Class 10 & 12 Board Exam oriented questions", "timePerQuestion": 35 }
+]

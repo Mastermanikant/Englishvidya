@@ -11,47 +11,223 @@ permalink: /dictionary/
 ] %}
 {% include "partials/breadcrumbs.njk" %}
 
-<div class="hero-welcome animate-fade-in dict-hero">
-  <h1 class="dict-hero-title">🔤 English Dictionary</h1>
-  <p class="hero-subtitle">Browse words by category with Hindi meanings and pronunciation.</p>
+<style>
+  .premium-hero {
+    background: linear-gradient(135deg, var(--bg-raised), var(--bg-base));
+    border-radius: var(--radius-lg);
+    padding: var(--sp-8);
+    text-align: center;
+    margin-bottom: var(--sp-8);
+    box-shadow: var(--shadow-md);
+    border: 1px solid var(--border);
+  }
+  .premium-hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: var(--sp-2);
+    background: linear-gradient(90deg, var(--accent), #8b5cf6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .search-container {
+    max-width: 600px;
+    margin: 0 auto var(--sp-6) auto;
+    position: relative;
+  }
+  .search-input {
+    width: 100%;
+    padding: var(--sp-4) var(--sp-12) var(--sp-4) var(--sp-4);
+    font-size: 1.1rem;
+    border: 2px solid var(--border);
+    border-radius: var(--radius-lg);
+    background: var(--bg-base);
+    color: var(--text-primary);
+    transition: all 0.3s ease;
+  }
+  .search-input:focus {
+    border-color: var(--accent);
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(var(--accent-rgb, 59, 130, 246), 0.2);
+  }
+  .search-icon {
+    position: absolute;
+    right: var(--sp-4);
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.2rem;
+    color: var(--text-secondary);
+    pointer-events: none;
+  }
+  .daily-word-card {
+    background: var(--bg-raised);
+    border-radius: var(--radius-lg);
+    padding: var(--sp-6);
+    margin-bottom: var(--sp-8);
+    box-shadow: var(--shadow-md);
+    border: 1px solid var(--border);
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  .daily-word-card:hover {
+    transform: translateY(-2px);
+  }
+  .daily-word-card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; height: 4px;
+    background: linear-gradient(90deg, #f59e0b, var(--accent));
+  }
+  .daily-word-title {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--accent);
+    margin-bottom: var(--sp-2);
+    font-weight: bold;
+  }
+  .daily-word-content {
+    display: flex;
+    align-items: center;
+    gap: var(--sp-4);
+    flex-wrap: wrap;
+  }
+  .daily-word-en { font-size: 1.8rem; font-weight: bold; }
+  .daily-word-hi { font-size: 1.4rem; color: var(--text-secondary); }
+  .daily-word-ex { margin-top: var(--sp-2); font-style: italic; color: var(--text-secondary); }
+  .audio-btn {
+    background: var(--bg-base);
+    border: 1px solid var(--border);
+    border-radius: 50%;
+    width: 40px; height: 40px;
+    display: flex; align-items: center; justify-content: center;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: all 0.2s ease;
+  }
+  .audio-btn:hover {
+    background: var(--accent);
+    color: white;
+    border-color: var(--accent);
+  }
+
+  .az-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--sp-2);
+    justify-content: center;
+    margin-bottom: var(--sp-8);
+  }
+  .az-btn {
+    width: 40px; height: 40px;
+    display: flex; align-items: center; justify-content: center;
+    border-radius: var(--radius-lg);
+    background: var(--bg-raised);
+    border: 1px solid var(--border);
+    color: var(--text-primary);
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.2s ease;
+  }
+  .az-btn:hover {
+    background: var(--accent);
+    color: white;
+    border-color: var(--accent);
+    transform: translateY(-2px);
+  }
+
+  .premium-card {
+    display: block;
+    background: var(--bg-raised);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    padding: var(--sp-4);
+    text-decoration: none;
+    color: var(--text-primary);
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    position: relative;
+    z-index: 1;
+  }
+  .premium-card::after {
+    content: '';
+    position: absolute;
+    inset: -2px;
+    border-radius: calc(var(--radius-lg) + 2px);
+    background: linear-gradient(135deg, var(--accent), #8b5cf6);
+    z-index: -1;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  .premium-card:hover {
+    transform: translateY(-4px);
+    border-color: transparent;
+  }
+  .premium-card:hover::after {
+    opacity: 1;
+  }
+  
+  .dict-cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: var(--sp-4);
+    margin-top: var(--sp-4);
+  }
+  .hidden { display: none !important; }
+</style>
+
+<div class="premium-hero animate-fade-in">
+  <h1>🔤 English Dictionary</h1>
+  <p style="color: var(--text-secondary); margin-bottom: var(--sp-6);">Browse words by category with Hindi meanings and pronunciation.</p>
+  
+  <div class="search-container">
+    <input type="text" id="quick-search" class="search-input" placeholder="अंग्रेजी या हिंदी में शब्द खोजें...">
+    <div class="search-icon">🔍</div>
+  </div>
 </div>
 
-{# A-Z Navigation Bar #}
+<div class="daily-word-card animate-fade-in" id="daily-word-card">
+  <div class="daily-word-title">⭐ Word of the Day</div>
+  <div class="daily-word-content">
+    <span class="daily-word-en" id="dw-en">Serendipity</span>
+    <button class="audio-btn" onclick="speak('Serendipity')">🔊</button>
+    <span class="daily-word-hi" id="dw-hi">(सुखद संयोग)</span>
+  </div>
+  <div class="daily-word-ex" id="dw-ex">"Finding this book was serendipity."</div>
+</div>
+
 <div class="a-z-nav-container animate-fade-in dict-nav-container">
-  <h2 class="dict-nav-title">Browse Alphabetically</h2>
-  <div class="a-z-nav dict-a-z-list">
+  <h2 class="dict-nav-title" style="text-align: center; margin-bottom: var(--sp-4);">Browse Alphabetically</h2>
+  <div class="az-nav">
     {% for l in alphabet %}
-      <a href="/dictionary/letter/{{ l | lower }}/" class="letter-btn dict-letter-btn">
-        {{ l }}
-      </a>
+      <a href="/dictionary/letter/{{ l | lower }}/" class="az-btn searchable-btn">{{ l }}</a>
     {% endfor %}
   </div>
 </div>
 
-<div class="category-accordion animate-fade-in dict-category-container">
-  <h2 class="dict-category-title">Browse by Categories</h2>
+<div class="category-accordion animate-fade-in dict-category-container" id="category-container">
+  <h2 class="dict-category-title" style="margin-bottom: var(--sp-4);">Browse by Categories</h2>
   {% for mainGroup in groupedCategories %}
-    <details class="category-main-folder dict-main-folder">
-      <summary class="dict-main-summary">
-        📁 {{ mainGroup.name }}
+    <details class="category-main-folder dict-main-folder" style="background: var(--bg-raised); border: 1px solid var(--border); border-radius: var(--radius-lg); padding: var(--sp-4); margin-bottom: var(--sp-4);">
+      <summary class="dict-main-summary" style="font-weight: bold; cursor: pointer; list-style: none; display: flex; justify-content: space-between;">
+        <span>📁 <span class="cat-name">{{ mainGroup.name }}</span></span>
         <span class="dict-summary-icon">▼</span>
       </summary>
       
-      <div class="dict-sub-folder-container">
+      <div class="dict-sub-folder-container" style="padding-top: var(--sp-4); padding-left: var(--sp-4);">
         {% for subGroup in mainGroup.subCategories %}
-          <details class="category-sub-folder dict-sub-folder">
-            <summary class="dict-sub-summary">
-              📂 {{ subGroup.name }}
+          <details class="category-sub-folder dict-sub-folder" style="margin-bottom: var(--sp-4);">
+            <summary class="dict-sub-summary" style="font-weight: 500; cursor: pointer; list-style: none; display: flex; justify-content: space-between;">
+              <span>📂 <span class="cat-name">{{ subGroup.name }}</span></span>
               <span class="dict-summary-icon">▼</span>
             </summary>
             
             <div class="dict-cards-grid">
               {% for cat in subGroup.items %}
-                <a href="/dictionary/{{ cat.slug }}/" class="word-card dict-word-card">
-                  <div class="dict-word-card-icon">{{ cat.icon | default('📄') }}</div>
-                  <div>
-                    <div class="dict-word-card-title">{{ cat.name }}</div>
-                    <div class="dict-word-card-count">{{ cat.count }} words</div>
+                <a href="/dictionary/{{ cat.slug }}/" class="premium-card searchable-card">
+                  <div class="dict-word-card-icon" style="font-size: 1.5rem; margin-bottom: var(--sp-2);">{{ cat.icon | default('📄') }}</div>
+                  <div style="background: var(--bg-raised); position: relative; z-index: 2; height: 100%; border-radius: calc(var(--radius-lg) - 2px);">
+                    <div class="dict-word-card-title cat-name" style="font-weight: bold; font-size: 0.95rem;">{{ cat.name }}</div>
+                    <div class="dict-word-card-count" style="font-size: 0.8rem; color: var(--text-secondary);">{{ cat.count }} words</div>
                   </div>
                 </a>
               {% endfor %}
@@ -63,3 +239,46 @@ permalink: /dictionary/
   {% endfor %}
 </div>
 
+<script>
+  function speak(text) {
+    if ('speechSynthesis' in window) {
+      const utterance = new SpeechSynthesisUtterance(text);
+      utterance.lang = 'en-US';
+      window.speechSynthesis.speak(utterance);
+    }
+  }
+
+  // Quick search functionality
+  document.getElementById('quick-search').addEventListener('input', function(e) {
+    const term = e.target.value.toLowerCase();
+    
+    // Search in categories
+    document.querySelectorAll('.searchable-card').forEach(card => {
+      const name = card.querySelector('.cat-name').textContent.toLowerCase();
+      if (name.includes(term)) {
+        card.classList.remove('hidden');
+      } else {
+        card.classList.add('hidden');
+      }
+    });
+
+    // Expand details if searching
+    if (term.length > 0) {
+      document.querySelectorAll('.dict-main-folder, .dict-sub-folder').forEach(d => d.setAttribute('open', ''));
+    } else {
+      document.querySelectorAll('.dict-main-folder, .dict-sub-folder').forEach(d => d.removeAttribute('open'));
+    }
+  });
+
+  // Daily word logic
+  const dailyWords = [
+    {en: "Serendipity", hi: "सुखद संयोग", ex: "Finding this book was serendipity."},
+    {en: "Ephemeral", hi: "क्षणिक", ex: "Fame is ephemeral."},
+    {en: "Eloquent", hi: "वाक्पटु", ex: "She gave an eloquent speech."}
+  ];
+  const todayWord = dailyWords[new Date().getDay() % dailyWords.length];
+  document.getElementById('dw-en').innerText = todayWord.en;
+  document.getElementById('dw-hi').innerText = '(' + todayWord.hi + ')';
+  document.getElementById('dw-ex').innerText = '"' + todayWord.ex + '"';
+  document.querySelector('.audio-btn').setAttribute('onclick', `speak('${todayWord.en}')`);
+</script>
