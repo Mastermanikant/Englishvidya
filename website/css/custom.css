@@ -3099,21 +3099,7 @@ p {
 }
 
 /* Footer Social Icons Grid Layout */
-.footer-social-icons {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: var(--sp-2);
-  margin-top: var(--sp-3);
-  max-width: 180px;
-}
-.footer-social-icons .social-icon-btn {
-  width: 40px;
-  height: 40px;
-}
-.footer-social-icons .social-icon-wrapper {
-  width: 28px;
-  height: 28px;
-}
+.footer-social-icons {/* Footer is now fully handled by Tailwind v4 utilities in footer.njk */ }
 
 /* Master Manikant Premium Animated Link */
 .manikant-link {
