@@ -1,5 +1,5 @@
 @import "tailwindcss";
-@source "../../src";
+@source "./src/**/*.njk";
 
 @theme {
   --font-sans: "Inter", sans-serif;
