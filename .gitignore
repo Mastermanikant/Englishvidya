@@ -1,8 +1,18 @@
+# Node / IDE junk
 node_modules/
-.cache/
-_site/
-dist/
+.DS_Store
+Thumbs.db
+*.tmp
 *.log
-.env
-PROJECT_STRUCTURE.md
-.wrangler/
+
+# Windows specific
+$RECYCLE.BIN/
+
+# Large temporary search and dump files
+sounds_broad_search.txt
+sounds_44_search.txt
+chat_history_dump.txt
+today_ide_chat_summary.txt
+details_snippets.txt
+details_dump.md
+

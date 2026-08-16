@@ -1,0 +1,297 @@
+{
+    "word": "Avocado",
+    "slug": "avocado",
+    "category": "fruits",
+    "translations": [
+        {
+            "tense": "To Be - Present Affirmative",
+            "en": "This is an avocado.",
+            "hi": "यह एक एवोकाडो है।"
+        },
+        {
+            "tense": "To Be - Present Affirmative (Plural)",
+            "en": "These are avocados.",
+            "hi": "ये एवोकाडो हैं।"
+        },
+        {
+            "tense": "To Be - Past Affirmative",
+            "en": "That was an avocado.",
+            "hi": "वह एक एवोकाडो था।"
+        },
+        {
+            "tense": "To Be - Past Affirmative (Plural)",
+            "en": "Those were avocados.",
+            "hi": "वे एवोकाडो थे।"
+        },
+        {
+            "tense": "To Be - Present Negative",
+            "en": "This is not an avocado.",
+            "hi": "यह एक एवोकाडो नहीं है।"
+        },
+        {
+            "tense": "To Be - Present Negative (Plural)",
+            "en": "These are not avocados.",
+            "hi": "ये एवोकाडो नहीं हैं।"
+        },
+        {
+            "tense": "To Be - Present Interrogative",
+            "en": "Is this an avocado?",
+            "hi": "क्या यह एक एवोकाडो है?"
+        },
+        {
+            "tense": "To Be - Present Interrogative (Plural)",
+            "en": "Are these avocados?",
+            "hi": "क्या ये एवोकाडो हैं?"
+        },
+        {
+            "tense": "To Be - Past Interrogative",
+            "en": "Was that an avocado?",
+            "hi": "क्या वह एक एवोकाडो था?"
+        },
+        {
+            "tense": "To Be - Wh-Question",
+            "en": "Where is the avocado?",
+            "hi": "एवोकाडो कहाँ है?"
+        },
+        {
+            "tense": "To Be - Wh-Question (Plural)",
+            "en": "Where are the avocados?",
+            "hi": "एवोकाडो कहाँ हैं?"
+        },
+        {
+            "tense": "To Be - Wh-Question (Why)",
+            "en": "Why is this avocado here?",
+            "hi": "यह एवोकाडो यहाँ क्यों है?"
+        },
+        {
+            "tense": "To Have - Present Affirmative",
+            "en": "I have an avocado.",
+            "hi": "मेरे पास एक एवोकाडो है।"
+        },
+        {
+            "tense": "To Have - Present Affirmative (Plural)",
+            "en": "I have many avocados.",
+            "hi": "मेरे पास कई एवोकाडो हैं।"
+        },
+        {
+            "tense": "To Have - Past Affirmative",
+            "en": "I had an avocado.",
+            "hi": "मेरे पास एक एवोकाडो था।"
+        },
+        {
+            "tense": "To Have - Present Negative",
+            "en": "I don't have an avocado.",
+            "hi": "मेरे पास एवोकाडो नहीं है।"
+        },
+        {
+            "tense": "To Have - Present Interrogative",
+            "en": "Do you have an avocado?",
+            "hi": "क्या तुम्हारे पास एक एवोकाडो है?"
+        },
+        {
+            "tense": "To Have - Past Interrogative",
+            "en": "Did you have an avocado?",
+            "hi": "क्या तुम्हारे पास एक एवोकाडो था?"
+        },
+        {
+            "tense": "To Have - Wh-Question",
+            "en": "How many avocados do you have?",
+            "hi": "तुम्हारे पास कितने एवोकाडो हैं?"
+        },
+        {
+            "tense": "Simple Present - Affirmative",
+            "en": "I eat an avocado every day.",
+            "hi": "मैं हर दिन एक एवोकाडो खाता हूँ।"
+        },
+        {
+            "tense": "Simple Present - Negative",
+            "en": "I don't eat avocados.",
+            "hi": "मैं एवोकाडो नहीं खाता हूँ।"
+        },
+        {
+            "tense": "Simple Present - Interrogative",
+            "en": "Do you eat avocados?",
+            "hi": "क्या तुम एवोकाडो खाते हो?"
+        },
+        {
+            "tense": "Simple Present - Wh-Question",
+            "en": "When do you eat an avocado?",
+            "hi": "तुम एवोकाडो कब खाते हो?"
+        },
+        {
+            "tense": "Present Continuous - Affirmative",
+            "en": "I am eating an avocado.",
+            "hi": "मैं एक एवोकाडो खा रहा हूँ।"
+        },
+        {
+            "tense": "Present Continuous - Negative",
+            "en": "I am not eating an avocado.",
+            "hi": "मैं एवोकाडो नहीं खा रहा हूँ।"
+        },
+        {
+            "tense": "Present Continuous - Interrogative",
+            "en": "Are you eating an avocado?",
+            "hi": "क्या तुम एवोकाडो खा रहे हो?"
+        },
+        {
+            "tense": "Present Continuous - Wh-Question",
+            "en": "Why are you eating my avocado?",
+            "hi": "तुम मेरा एवोकाडो क्यों खा रहे हो?"
+        },
+        {
+            "tense": "Present Perfect - Affirmative",
+            "en": "I have eaten the avocado.",
+            "hi": "मैंने एवोकाडो खा लिया है।"
+        },
+        {
+            "tense": "Present Perfect - Negative",
+            "en": "I have not eaten the avocado.",
+            "hi": "मैंने एवोकाडो नहीं खाया है।"
+        },
+        {
+            "tense": "Present Perfect - Interrogative",
+            "en": "Have you eaten the avocado?",
+            "hi": "क्या तुमने एवोकाडो खा लिया है?"
+        },
+        {
+            "tense": "Simple Past - Affirmative",
+            "en": "I bought an avocado yesterday.",
+            "hi": "मैंने कल एक एवोकाडो खरीदा था।"
+        },
+        {
+            "tense": "Simple Past - Negative",
+            "en": "I didn't buy an avocado.",
+            "hi": "मैंने एवोकाडो नहीं खरीदा।"
+        },
+        {
+            "tense": "Simple Past - Interrogative",
+            "en": "Did you buy an avocado?",
+            "hi": "क्या तुमने एक एवोकाडो खरीदा?"
+        },
+        {
+            "tense": "Simple Past - Wh-Question",
+            "en": "Where did you buy this avocado?",
+            "hi": "तुमने यह एवोकाडो कहाँ से खरीदा?"
+        },
+        {
+            "tense": "Past Continuous - Affirmative",
+            "en": "I was eating an avocado when you called.",
+            "hi": "जब तुमने फोन किया तब मैं एक एवोकाडो खा रहा था।"
+        },
+        {
+            "tense": "Past Continuous - Interrogative",
+            "en": "Were you eating an avocado?",
+            "hi": "क्या तुम एक एवोकाडो खा रहे थे?"
+        },
+        {
+            "tense": "Simple Future - Affirmative",
+            "en": "I will eat an avocado tomorrow.",
+            "hi": "मैं कल एक एवोकाडो खाऊँगा।"
+        },
+        {
+            "tense": "Simple Future - Negative",
+            "en": "I will not eat the avocado.",
+            "hi": "मैं वह एवोकाडो नहीं खाऊँगा।"
+        },
+        {
+            "tense": "Simple Future - Interrogative",
+            "en": "Will you eat this avocado?",
+            "hi": "क्या तुम यह एवोकाडो खाओगे?"
+        },
+        {
+            "tense": "Modal - Can",
+            "en": "Can you peel this avocado?",
+            "hi": "क्या तुम यह एवोकाडो छील सकते हो?"
+        },
+        {
+            "tense": "Modal - Should",
+            "en": "You should eat an avocado.",
+            "hi": "तुम्हें एक एवोकाडो खाना चाहिए।"
+        },
+        {
+            "tense": "Modal - Must",
+            "en": "You must buy fresh avocados.",
+            "hi": "तुम्हें ताज़े एवोकाडो ही खरीदने चाहिए।"
+        },
+        {
+            "tense": "Modal - May",
+            "en": "May I have an avocado?",
+            "hi": "क्या मैं एक एवोकाडो ले सकता हूँ?"
+        },
+        {
+            "tense": "Modal - Would",
+            "en": "Would you like an avocado?",
+            "hi": "क्या आप एक एवोकाडो लेना पसंद करेंगे?"
+        },
+        {
+            "tense": "Imperative - Affirmative",
+            "en": "Eat this avocado.",
+            "hi": "यह एवोकाडो खाओ।"
+        },
+        {
+            "tense": "Imperative - Negative",
+            "en": "Don't eat that avocado.",
+            "hi": "वह एवोकाडो मत खाओ।"
+        },
+        {
+            "tense": "Passive Voice - Present",
+            "en": "The avocado is eaten.",
+            "hi": "एवोकाडो खाया जाता है।"
+        },
+        {
+            "tense": "Passive Voice - Past",
+            "en": "The avocado was eaten by him.",
+            "hi": "एवोकाडो उसके द्वारा खाया गया था।"
+        },
+        {
+            "tense": "Location/Preposition",
+            "en": "The avocado is on the table.",
+            "hi": "एवोकाडो मेज़ पर है।"
+        },
+        {
+            "tense": "Location/Preposition",
+            "en": "There is a avocado in the basket.",
+            "hi": "टोकरी में एक एवोकाडो है।"
+        },
+        {
+            "tense": "Location/Preposition",
+            "en": "The monkey is holding a avocado.",
+            "hi": "बंदर ने एक एवोकाडो पकड़ा हुआ है।"
+        },
+        {
+            "tense": "Adjective Use",
+            "en": "This avocado is sweet.",
+            "hi": "यह एवोकाडो मीठा है।"
+        },
+        {
+            "tense": "Adjective Use",
+            "en": "That avocado is rotten.",
+            "hi": "वह एवोकाडो सड़ा हुआ है।"
+        },
+        {
+            "tense": "Adjective Use",
+            "en": "I need a ripe avocado.",
+            "hi": "मुझे एक पका हुआ एवोकाडो चाहिए।"
+        },
+        {
+            "tense": "Action - Cutting",
+            "en": "I am cutting the avocado.",
+            "hi": "मैं एवोकाडो काट रहा हूँ।"
+        },
+        {
+            "tense": "Action - Peeling",
+            "en": "Please peel the avocado.",
+            "hi": "कृपया एवोकाडो छील दो।"
+        },
+        {
+            "tense": "Action - Buying",
+            "en": "She is buying avocados.",
+            "hi": "वह एवोकाडो खरीद रही है।"
+        },
+        {
+            "tense": "Action - Washing",
+            "en": "Wash the avocado before eating.",
+            "hi": "खाने से पहले एवोकाडो धो लो।"
+        }
+    ]
+}

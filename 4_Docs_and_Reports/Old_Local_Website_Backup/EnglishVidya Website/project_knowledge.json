@@ -1,0 +1,31 @@
+{
+  "architecture_decisions": [
+    "Jamstack architecture using Eleventy (11ty) for static site generation.",
+    "Zero-cost deployment on Cloudflare Serverless ecosystem (Pages, Workers).",
+    "Offline-first PWA implementation via service-worker.js and manifest.json.",
+    "Zero-backend client-side search using a compressed local JSON index.",
+    "Component templating utilizing Nunjucks (e.g., header.njk, footer.njk).",
+    "CSS Consolidation: All styles merged into a single style.css to eliminate render blocking."
+  ],
+  "business_logic": [
+    "Client-side SPA routing with hash-based deep linking (e.g., /#/flashcards) and 404.html fallback redirects.",
+    "Bilingual pedagogical model focusing on SOV (Hindi) to SVO (English) transition via Hinglish.",
+    "Flashcard engine utilizing spaced repetition and Devanagari pronunciation formatting.",
+    "Activity tracker logging daily minutes in localStorage with collapsible time trees.",
+    "Device anti-fraud with 3-device limit via JWT/fingerprintjs and Google Sign-in."
+  ],
+  "user_preferences": [
+    "Mobile-first navigation: primary links in bottom-nav, secondary links in a hamburger drawer.",
+    "Premium UI styling using glassmorphism (backdrop-filter blur, soft borders, glow shadows).",
+    "High readability: 17px base font size, 1.75 line-height, and increased card paddings.",
+    "Smooth and modern spring animations defined by cubic-bezier(0.34, 1.56, 0.64, 1).",
+    "Accessibility for animations: infinite loops disabled via @media (prefers-reduced-motion: reduce)."
+  ],
+  "code_standards": [
+    "Strictly Vanilla HTML, CSS, and JS. Avoid heavy JavaScript frameworks.",
+    "Mandatory use of CSS variables (e.g., var(--bg-base), var(--accent)) for theme tokens.",
+    "Strict UI accessibility: implement focus traps in modals/drawers and comprehensive ARIA tags.",
+    "Performance constraints: Keep DOM nodes under 1000 and utilize system-ui fallback fonts.",
+    "AI Agents must follow 'Zero-Output Execution' avoiding massive console outputs to conserve tokens."
+  ]
+}

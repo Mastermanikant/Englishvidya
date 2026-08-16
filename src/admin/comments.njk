@@ -1,0 +1,69 @@
+---
+layout: layouts/base.njk
+title: Manage Comments
+---
+<div class="max-w-6xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
+  <div class="flex items-center justify-between mb-8">
+    <div>
+      <h1 class="text-3xl font-heading font-bold text-primary">Comments & Replies</h1>
+      <p class="text-sm text-secondary mt-1">Moderate user discussions</p>
+    </div>
+    <a href="/admin/" class="text-sm text-accent hover:text-accent-hover transition-colors">← Dashboard</a>
+  </div>
+
+  <div class="glass rounded-2xl overflow-hidden">
+    <div class="p-4 border-b border-border flex gap-4 bg-raised overflow-x-auto">
+      <button class="px-4 py-2 bg-accent text-white rounded-full text-sm font-medium whitespace-nowrap">Pending (12)</button>
+      <button class="px-4 py-2 bg-base border border-border text-primary hover:bg-raised rounded-full text-sm font-medium whitespace-nowrap transition-colors">Approved</button>
+      <button class="px-4 py-2 bg-base border border-border text-primary hover:bg-raised rounded-full text-sm font-medium whitespace-nowrap transition-colors">Spam</button>
+    </div>
+
+    <div class="divide-y divide-border">
+      <!-- Comment 1 -->
+      <div class="p-6 hover:bg-raised transition-colors">
+        <div class="flex items-start justify-between gap-4">
+          <div class="flex gap-4">
+            <div class="w-10 h-10 rounded-full bg-accent/20 flex-shrink-0 flex items-center justify-center text-accent font-bold">D</div>
+            <div>
+              <div class="flex items-center gap-2 mb-1">
+                <span class="font-bold text-primary">Dave</span>
+                <span class="text-xs text-secondary">• 2 hours ago</span>
+              </div>
+              <p class="text-xs text-secondary mb-2">On article: <a href="#" class="text-accent hover:underline">Tenses: Past Perfect</a></p>
+              <p class="text-sm text-primary mb-3">This explanation is really confusing. Could you provide more examples of when to use it versus past simple?</p>
+              <div class="flex gap-3">
+                <button class="text-xs font-medium text-green-500 hover:text-green-600 transition-colors">Approve</button>
+                <button class="text-xs font-medium text-accent hover:text-accent-hover transition-colors">Reply</button>
+                <button class="text-xs font-medium text-red-500 hover:text-red-600 transition-colors">Spam</button>
+                <button class="text-xs font-medium text-red-500 hover:text-red-600 transition-colors">Delete</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Comment 2 -->
+      <div class="p-6 hover:bg-raised transition-colors">
+        <div class="flex items-start justify-between gap-4">
+          <div class="flex gap-4">
+            <div class="w-10 h-10 rounded-full bg-accent/20 flex-shrink-0 flex items-center justify-center text-accent font-bold">E</div>
+            <div>
+              <div class="flex items-center gap-2 mb-1">
+                <span class="font-bold text-primary">Eve</span>
+                <span class="text-xs text-secondary">• 5 hours ago</span>
+              </div>
+              <p class="text-xs text-secondary mb-2">On article: <a href="#" class="text-accent hover:underline">Vocabulary: Daily Routine</a></p>
+              <p class="text-sm text-primary mb-3">Check out my amazing link to learn fast! http://spam-link.com</p>
+              <div class="flex gap-3">
+                <button class="text-xs font-medium text-green-500 hover:text-green-600 transition-colors">Approve</button>
+                <button class="text-xs font-medium text-accent hover:text-accent-hover transition-colors">Reply</button>
+                <button class="text-xs font-medium text-red-500 hover:text-red-600 transition-colors">Spam</button>
+                <button class="text-xs font-medium text-red-500 hover:text-red-600 transition-colors">Delete</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

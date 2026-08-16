@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>EnglishVidya - Flashcards</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&amp;family=Inter:wght@400;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "tertiary": "#ffb95f",
+                      "primary": "#b4c5ff",
+                      "surface-container-high": "#222a3d",
+                      "primary-fixed": "#dbe1ff",
+                      "surface-container-highest": "#2d3449",
+                      "primary-container": "#2563eb",
+                      "surface-glass": "rgba(30, 41, 59, 0.7)",
+                      "secondary": "#d2bbff",
+                      "background": "#0b1326",
+                      "tertiary-fixed": "#ffddb8",
+                      "on-tertiary-container": "#ffeedd",
+                      "on-primary": "#002a78",
+                      "on-error": "#690005",
+                      "on-error-container": "#ffdad6",
+                      "surface-container": "#171f33",
+                      "secondary-container": "#6001d1",
+                      "inverse-primary": "#0053db",
+                      "on-secondary-fixed": "#25005a",
+                      "secondary-fixed": "#eaddff",
+                      "error-container": "#93000a",
+                      "on-tertiary-fixed-variant": "#653e00",
+                      "secondary-fixed-dim": "#d2bbff",
+                      "surface-dim": "#0b1326",
+                      "text-secondary": "#d4d4d8",
+                      "surface-container-low": "#131b2e",
+                      "on-background": "#dae2fd",
+                      "surface-tint": "#b4c5ff",
+                      "on-tertiary": "#472a00",
+                      "outline-variant": "#434655",
+                      "primary-fixed-dim": "#b4c5ff",
+                      "surface": "#0b1326",
+                      "on-primary-fixed": "#00174b",
+                      "tertiary-fixed-dim": "#ffb95f",
+                      "surface-raised": "#1e293b",
+                      "tertiary-container": "#996100",
+                      "surface-bright": "#31394d",
+                      "on-primary-container": "#eeefff",
+                      "outline": "#8d90a0",
+                      "inverse-surface": "#dae2fd",
+                      "surface-container-lowest": "#060e20",
+                      "text-primary": "#f8fafc",
+                      "on-secondary-container": "#c9aeff",
+                      "success-emerald": "#10b981",
+                      "error": "#ffb4ab",
+                      "surface-variant": "#2d3449",
+                      "on-tertiary-fixed": "#2a1700",
+                      "error-crimson": "#dc2626",
+                      "on-primary-fixed-variant": "#003ea8",
+                      "on-secondary": "#3f008e",
+                      "on-surface": "#dae2fd",
+                      "inverse-on-surface": "#283044",
+                      "on-surface-variant": "#c3c6d7",
+                      "on-secondary-fixed-variant": "#5a00c6"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0.25rem",
+                      "lg": "0.5rem",
+                      "xl": "0.75rem",
+                      "full": "9999px"
+              },
+              "spacing": {
+                      "container-max": "1000px",
+                      "sp-1": "4px",
+                      "bottom-nav-height": "65px",
+                      "unit": "4px",
+                      "sp-2": "8px",
+                      "sp-6": "24px",
+                      "sp-8": "32px",
+                      "sp-4": "16px",
+                      "sp-3": "12px",
+                      "sp-12": "48px",
+                      "sidebar-width": "256px"
+              },
+              "fontFamily": {
+                      "display-xl": [
+                              "Outfit"
+                      ],
+                      "label-caps": [
+                              "Outfit"
+                      ],
+                      "headline-sm": [
+                              "Outfit"
+                      ],
+                      "headline-lg": [
+                              "Outfit"
+                      ],
+                      "body-bold": [
+                              "Inter"
+                      ],
+                      "body-base": [
+                              "Inter"
+                      ],
+                      "headline-md": [
+                              "Outfit"
+                      ],
+                      "headline-lg-mobile": [
+                              "Outfit"
+                      ]
+              },
+              "fontSize": {
+                      "display-xl": [
+                              "40px",
+                              {
+                                      "lineHeight": "48px",
+                                      "letterSpacing": "-0.03em",
+                                      "fontWeight": "850"
+                              }
+                      ],
+                      "label-caps": [
+                              "12px",
+                              {
+                                      "lineHeight": "16px",
+                                      "letterSpacing": "0.12em",
+                                      "fontWeight": "800"
+                              }
+                      ],
+                      "headline-sm": [
+                              "18px",
+                              {
+                                      "lineHeight": "24px",
+                                      "letterSpacing": "0em",
+                                      "fontWeight": "600"
+                              }
+                      ],
+                      "headline-lg": [
+                              "32px",
+                              {
+                                      "lineHeight": "40px",
+                                      "letterSpacing": "-0.02em",
+                                      "fontWeight": "800"
+                              }
+                      ],
+                      "body-bold": [
+                              "17px",
+                              {
+                                      "lineHeight": "30px",
+                                      "letterSpacing": "0em",
+                                      "fontWeight": "600"
+                              }
+                      ],
+                      "body-base": [
+                              "17px",
+                              {
+                                      "lineHeight": "30px",
+                                      "letterSpacing": "0em",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "headline-md": [
+                              "23px",
+                              {
+                                      "lineHeight": "30px",
+                                      "letterSpacing": "0em",
+                                      "fontWeight": "700"
+                              }
+                      ],
+                      "headline-lg-mobile": [
+                              "28px",
+                              {
+                                      "lineHeight": "36px",
+                                      "letterSpacing": "-0.02em",
+                                      "fontWeight": "800"
+                              }
+                      ]
+              }
+      },
+          },
+        }
+    </script>
+<style>
+        .flashcard-container {
+            perspective: 1000px;
+        }
+        .flashcard {
+            transition: transform 0.6s;
+            transform-style: preserve-3d;
+            cursor: pointer;
+        }
+        .flashcard.flipped {
+            transform: rotateX(180deg);
+        }
+        .flashcard-front, .flashcard-back {
+            backface-visibility: hidden;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        .flashcard-back {
+            transform: rotateX(180deg);
+        }
+    </style>
+</head>
+<body class="bg-background text-on-background min-h-screen flex flex-col font-body-base">
+<!-- TopNavBar -->
+<header class="bg-surface-glass backdrop-blur-xl dark:bg-surface-glass text-primary dark:text-primary-fixed fixed top-0 w-full z-50 border-b border-outline-variant/30 dark:border-outline-variant/20 shadow-sm flex justify-between items-center px-sp-6 h-sp-12 max-w-container-max mx-auto left-0 right-0">
+<div class="font-headline-md text-headline-md text-primary dark:text-primary-fixed tracking-tight">
+            EnglishVidya
+        </div>
+<nav class="hidden md:flex gap-sp-6 items-center">
+<a class="text-on-surface-variant hover:text-primary transition-colors font-body-bold text-body-bold" href="#">Grammar</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors font-body-bold text-body-bold" href="#">Bihar Board</a>
+<a class="text-primary font-bold border-b-2 border-primary pb-1 font-body-bold text-body-bold" href="#">Vocabulary</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors font-body-bold text-body-bold" href="#">Referral</a>
+</nav>
+<div class="flex gap-sp-4 items-center">
+<button class="hover:bg-surface-container-high transition-all p-1 rounded-full"><span class="material-symbols-outlined">account_circle</span></button>
+<button class="hover:bg-surface-container-high transition-all p-1 rounded-full"><span class="material-symbols-outlined">notifications</span></button>
+</div>
+</header>
+<div class="pt-sp-12 flex-grow flex justify-center max-w-container-max mx-auto w-full px-sp-6 gap-sp-8 mt-sp-8">
+<!-- Left Sidebar: Categories & Stats -->
+<aside class="hidden md:flex flex-col w-sidebar-width shrink-0 gap-sp-6">
+<div class="bg-surface-raised rounded-xl p-sp-4 border border-outline-variant/20 shadow-sm">
+<h3 class="font-headline-sm text-headline-sm text-primary mb-sp-4">Your Progress</h3>
+<div class="flex flex-col gap-sp-3">
+<div class="flex items-center justify-between">
+<span class="flex items-center gap-sp-2 text-on-surface-variant"><span class="material-symbols-outlined text-tertiary">local_fire_department</span> Streak</span>
+<span class="font-body-bold text-body-bold text-tertiary">14 Days</span>
+</div>
+<div class="flex items-center justify-between">
+<span class="flex items-center gap-sp-2 text-on-surface-variant"><span class="material-symbols-outlined text-success-emerald">done_all</span> Mastered</span>
+<span class="font-body-bold text-body-bold text-success-emerald">342 Words</span>
+</div>
+</div>
+</div>
+<div class="bg-surface-container rounded-xl p-sp-4 border border-outline-variant/10">
+<h3 class="font-headline-sm text-headline-sm text-secondary mb-sp-4">Decks</h3>
+<ul class="flex flex-col gap-sp-2">
+<li><a class="flex items-center gap-sp-2 p-sp-2 rounded-lg bg-surface-container-high text-primary" href="#"><span class="material-symbols-outlined">school</span> SSC CGL Vocab</a></li>
+<li><a class="flex items-center gap-sp-2 p-sp-2 rounded-lg hover:bg-surface-container-highest transition-colors text-on-surface-variant" href="#"><span class="material-symbols-outlined">book</span> Daily English</a></li>
+<li><a class="flex items-center gap-sp-2 p-sp-2 rounded-lg hover:bg-surface-container-highest transition-colors text-on-surface-variant" href="#"><span class="material-symbols-outlined">translate</span> Phrasal Verbs</a></li>
+</ul>
+</div>
+</aside>
+<!-- Main Area: Flashcard -->
+<main class="flex-grow flex flex-col items-center max-w-[600px] w-full">
+<div class="w-full flex justify-between items-center mb-sp-4 px-sp-2">
+<span class="text-on-surface-variant font-label-caps text-label-caps">SSC CGL Vocab • Card 12/50</span>
+<button class="text-on-surface-variant hover:text-primary transition-colors"><span class="material-symbols-outlined">settings</span></button>
+</div>
+<div class="flashcard-container w-full h-[400px] mb-sp-8">
+<div class="flashcard relative w-full h-full rounded-2xl shadow-lg" onclick="this.classList.toggle('flipped')">
+<!-- Front -->
+<div class="flashcard-front bg-gradient-to-br from-primary-container to-secondary-container rounded-2xl flex flex-col items-center justify-center p-sp-8 border border-outline-variant/30 relative overflow-hidden">
+<!-- Glow effect -->
+<div class="absolute inset-0 bg-primary/20 blur-3xl rounded-full scale-150 pointer-events-none"></div>
+<button aria-label="Play pronunciation" class="absolute top-sp-4 right-sp-4 w-sp-12 h-sp-12 bg-surface-glass backdrop-blur-md rounded-full flex items-center justify-center hover:scale-105 transition-transform border border-white/20 z-10" onclick="event.stopPropagation()">
+<span class="material-symbols-outlined text-white" style="font-variation-settings: 'FILL' 1;">volume_up</span>
+</button>
+<h2 class="font-display-xl text-display-xl text-white mb-sp-2 z-10 relative">Resilience</h2>
+<span class="font-body-base text-body-base text-white/80 z-10 relative">/rɪˈzɪliəns/</span>
+<div class="absolute bottom-sp-4 text-white/50 font-label-caps text-label-caps">Click to flip</div>
+</div>
+<!-- Back -->
+<div class="flashcard-back bg-surface-raised rounded-2xl flex flex-col items-start justify-center p-sp-8 border border-outline-variant/30">
+<div class="w-full">
+<div class="flex items-center gap-sp-2 mb-sp-2">
+<span class="bg-primary/20 text-primary font-label-caps text-label-caps px-2 py-1 rounded">Noun</span>
+</div>
+<h3 class="font-headline-lg text-headline-lg text-text-primary mb-sp-4">The capacity to recover quickly from difficulties; toughness.</h3>
+<div class="bg-surface-container-high p-sp-4 rounded-lg w-full mb-sp-6 border-l-4 border-primary">
+<p class="text-on-surface-variant font-body-base text-body-base italic">"The <strong class="text-primary font-body-bold">resilience</strong> of the students during exam season was inspiring."</p>
+<p class="text-on-surface-variant/70 font-body-base text-body-base mt-2">परीक्षा के मौसम के दौरान छात्रों का <strong class="text-secondary">लचीलापन</strong> प्रेरणादायक था।</p>
+</div>
+<div class="flex gap-sp-2 flex-wrap">
+<span class="text-success-emerald text-sm bg-success-emerald/10 px-2 py-1 rounded">Synonyms: toughness, flexibility</span>
+<span class="text-error-crimson text-sm bg-error-crimson/10 px-2 py-1 rounded">Antonyms: vulnerability, weakness</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Controls -->
+<div class="w-full flex gap-sp-4 justify-between">
+<div class="flex flex-col items-center flex-1">
+<button class="w-full py-sp-3 bg-surface-container hover:bg-surface-container-high text-error-crimson rounded-lg font-body-bold text-body-bold transition-colors border border-outline-variant/20 shadow-sm hover:translate-y-[-2px] active:translate-y-[0px]">Again</button>
+<span class="text-on-surface-variant/50 font-label-caps text-label-caps mt-sp-1">1</span>
+<span class="text-on-surface-variant/50 text-xs mt-1">&lt; 1m</span>
+</div>
+<div class="flex flex-col items-center flex-1">
+<button class="w-full py-sp-3 bg-surface-container hover:bg-surface-container-high text-tertiary rounded-lg font-body-bold text-body-bold transition-colors border border-outline-variant/20 shadow-sm hover:translate-y-[-2px] active:translate-y-[0px]">Hard</button>
+<span class="text-on-surface-variant/50 font-label-caps text-label-caps mt-sp-1">2</span>
+<span class="text-on-surface-variant/50 text-xs mt-1">6m</span>
+</div>
+<div class="flex flex-col items-center flex-1">
+<button class="w-full py-sp-3 bg-surface-container hover:bg-surface-container-high text-primary rounded-lg font-body-bold text-body-bold transition-colors border border-outline-variant/20 shadow-sm hover:translate-y-[-2px] active:translate-y-[0px]">Good</button>
+<span class="text-on-surface-variant/50 font-label-caps text-label-caps mt-sp-1">3</span>
+<span class="text-on-surface-variant/50 text-xs mt-1">10m</span>
+</div>
+<div class="flex flex-col items-center flex-1">
+<button class="w-full py-sp-3 bg-surface-container hover:bg-surface-container-high text-success-emerald rounded-lg font-body-bold text-body-bold transition-colors border border-outline-variant/20 shadow-sm hover:translate-y-[-2px] active:translate-y-[0px]">Easy</button>
+<span class="text-on-surface-variant/50 font-label-caps text-label-caps mt-sp-1">4</span>
+<span class="text-on-surface-variant/50 text-xs mt-1">4d</span>
+</div>
+</div>
+</main>
+<!-- Right Sidebar: Recently Learned -->
+<aside class="hidden lg:flex flex-col w-sidebar-width shrink-0 gap-sp-6">
+<div class="bg-surface-raised rounded-xl p-sp-4 border border-outline-variant/20">
+<h3 class="font-headline-sm text-headline-sm text-secondary mb-sp-4 flex items-center gap-sp-2"><span class="material-symbols-outlined text-secondary">history</span> Recently Learned</h3>
+<ul class="flex flex-col gap-sp-3">
+<li class="flex justify-between items-center bg-surface-container p-sp-2 rounded-lg">
+<span class="font-body-bold text-body-bold text-text-primary">Meticulous</span>
+<span class="material-symbols-outlined text-success-emerald text-sm">check_circle</span>
+</li>
+<li class="flex justify-between items-center bg-surface-container p-sp-2 rounded-lg">
+<span class="font-body-bold text-body-bold text-text-primary">Obfuscate</span>
+<span class="material-symbols-outlined text-tertiary text-sm">warning</span>
+</li>
+<li class="flex justify-between items-center bg-surface-container p-sp-2 rounded-lg">
+<span class="font-body-bold text-body-bold text-text-primary">Pragmatic</span>
+<span class="material-symbols-outlined text-success-emerald text-sm">check_circle</span>
+</li>
+<li class="flex justify-between items-center bg-surface-container p-sp-2 rounded-lg opacity-50">
+<span class="font-body-bold text-body-bold text-text-primary">Ephemeral</span>
+<span class="material-symbols-outlined text-on-surface-variant text-sm">schedule</span>
+</li>
+</ul>
+</div>
+</aside>
+</div>
+<!-- Footer -->
+<footer class="bg-surface-container-lowest dark:bg-surface-container-lowest text-on-surface-variant font-body-base text-body-base w-full relative border-t border-outline-variant/10 hidden md:block py-sp-8 px-sp-6 border-outline-variant max-w-container-max mx-auto text-center mt-sp-12">
+<div class="font-headline-sm text-headline-sm text-primary mb-sp-4">EnglishVidya</div>
+<div class="flex justify-center gap-sp-6 mb-sp-4">
+<a class="text-on-surface-variant hover:text-secondary hover:text-secondary-fixed transition-colors" href="#">About Us</a>
+<a class="text-on-surface-variant hover:text-secondary hover:text-secondary-fixed transition-colors" href="#">BSEB Syllabus</a>
+<a class="text-on-surface-variant hover:text-secondary hover:text-secondary-fixed transition-colors" href="#">Privacy Policy</a>
+<a class="text-on-surface-variant hover:text-secondary hover:text-secondary-fixed transition-colors" href="#">Contact Support</a>
+</div>
+<div>© 2024 EnglishVidya - Seekho English, Dil Se.</div>
+</footer>
+</body></html>

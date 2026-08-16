@@ -9,8 +9,8 @@ CREATE TABLE IF NOT EXISTS users (
   email TEXT UNIQUE NOT NULL,
   name TEXT NOT NULL DEFAULT '',
   username TEXT UNIQUE DEFAULT NULL,
-  password_hash TEXT DEFAULT NULL,
   role TEXT NOT NULL DEFAULT 'user',
+  admin_permissions TEXT,
   avatar_url TEXT DEFAULT '',
   trust_score INTEGER NOT NULL DEFAULT 10,
   is_shadow_banned INTEGER NOT NULL DEFAULT 0,
@@ -29,13 +29,6 @@ CREATE TABLE IF NOT EXISTS users (
   last_sync_date TEXT DEFAULT '',
   last_sync_month TEXT DEFAULT '',
   location_address TEXT DEFAULT NULL,
-  recovery_email TEXT DEFAULT NULL,
-  security_questions TEXT DEFAULT NULL,
-  reset_token TEXT UNIQUE DEFAULT NULL,
-  reset_token_expires_at TEXT DEFAULT NULL,
-  admin_reset_requested_at TEXT DEFAULT NULL,
-  reset_attempts INTEGER DEFAULT 0,
-  reset_request_timestamps TEXT DEFAULT NULL,
   referral_coins INTEGER NOT NULL DEFAULT 0,
   active_seconds INTEGER NOT NULL DEFAULT 0,
   referred_by_id INTEGER DEFAULT NULL,
@@ -46,6 +39,20 @@ CREATE TABLE IF NOT EXISTS users (
   updated_at TEXT NOT NULL DEFAULT (datetime('now')),
   FOREIGN KEY (referred_by_id) REFERENCES users(id)
 );
+
+-- 15. AUDIT LOGS
+CREATE TABLE IF NOT EXISTS audit_logs (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  user_id INTEGER NOT NULL,
+  action TEXT NOT NULL,
+  target_id TEXT,
+  details TEXT,
+  created_at TEXT NOT NULL DEFAULT (datetime('now')),
+  FOREIGN KEY (user_id) REFERENCES users(id)
+);
+-- Note: SQLite does not automatically delete old records.
+-- Run the following query in a scheduled worker (Cron Trigger) to delete logs older than 30 days:
+-- DELETE FROM audit_logs WHERE created_at < datetime('now', '-30 days');
 
 -- 2. RATINGS TABLE (5-Star System)
 CREATE TABLE IF NOT EXISTS ratings (

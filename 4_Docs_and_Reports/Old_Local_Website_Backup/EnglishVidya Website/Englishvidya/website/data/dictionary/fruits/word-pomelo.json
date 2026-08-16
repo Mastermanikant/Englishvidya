@@ -1,0 +1,32 @@
+{
+    "word": "Pomelo",
+    "slug": "pomelo",
+    "pron": "पोमेलो",
+    "meaning": "चकोतरा (बड़ा)",
+    "usages": [
+        {
+            "partOfSpeech": "Noun",
+            "definition": "A very large, thick-rinded citrus fruit related to the grapefruit.",
+            "examples": [
+                {
+                    "en": "The pomelo is the largest of all citrus fruits.",
+                    "hi": "पोमेलो सभी खट्टे फलों में सबसे बड़ा होता है।"
+                },
+                {
+                    "en": "She spent ten minutes peeling the thick skin off the pomelo.",
+                    "hi": "उसने पोमेलो का मोटा छिलका उतारने में दस मिनट लगा दिए।"
+                }
+            ]
+        }
+    ],
+    "synonyms": [
+        "pummelo"
+    ],
+    "antonyms": [],
+    "collocations": [
+        "large pomelo",
+        "peel a pomelo"
+    ],
+    "category": "fruits",
+    "hasTranslations": true
+}

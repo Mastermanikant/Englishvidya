@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>English Vidya - Student Platform</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; -webkit-tap-highlight-color: transparent; }
+        ::-webkit-scrollbar { width: 0px; background: transparent; }
+        .app-screen { display: none; animation: fadeIn 0.2s ease-in-out; }
+        .app-screen.active { display: block; }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(5px); } to { opacity: 1; transform: translateY(0); } }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 flex h-screen overflow-hidden">
+
+    <!-- Sidebar (Desktop) -->
+    <aside class="w-64 bg-white border-r border-gray-200 flex-col hidden md:flex shrink-0">
+        <div class="h-16 flex items-center px-6 border-b border-gray-100 font-bold text-blue-700 text-xl">📚 English Vidya</div>
+        <nav class="flex-1 px-4 py-4 space-y-1 overflow-y-auto" id="desktop-nav">
+            <button onclick="nav('s1_dash')" data-t="s1_dash" class="w-full text-left px-3 py-2 bg-blue-50 text-blue-700 font-bold rounded-lg border-l-4 border-blue-600">🏠 Dashboard</button>
+            <button onclick="nav('s2_lesson')" data-t="s2_lesson" class="w-full text-left px-3 py-2 text-gray-600 hover:bg-gray-100 rounded-lg">📝 Grammar Lesson</button>
+            <button onclick="nav('s3_board')" data-t="s3_board" class="w-full text-left px-3 py-2 text-gray-600 hover:bg-gray-100 rounded-lg">🎓 Board Exam Hub</button>
+            <button onclick="nav('s4_kids')" data-t="s4_kids" class="w-full text-left px-3 py-2 text-gray-600 hover:bg-gray-100 rounded-lg">🧸 Kids Learning</button>
+            <button onclick="nav('s5_dict')" data-t="s5_dict" class="w-full text-left px-3 py-2 text-gray-600 hover:bg-gray-100 rounded-lg">📖 Dictionary</button>
+            <button onclick="nav('s6_tutor')" data-t="s6_tutor" class="w-full text-left px-3 py-2 text-gray-600 hover:bg-gray-100 rounded-lg">🤖 AI Tutor</button>
+            <button onclick="nav('s7_profile')" data-t="s7_profile" class="w-full text-left px-3 py-2 text-gray-600 hover:bg-gray-100 rounded-lg">👤 Profile Progress</button>
+            <button onclick="nav('s8_quiz')" data-t="s8_quiz" class="w-full text-left px-3 py-2 text-gray-600 hover:bg-gray-100 rounded-lg">✅ Interactive Quiz</button>
+            <button onclick="nav('s9_settings')" data-t="s9_settings" class="w-full text-left px-3 py-2 text-gray-600 hover:bg-gray-100 rounded-lg">⚙️ Diary & Settings</button>
+        </nav>
+    </aside>
+
+    <main class="flex-1 flex flex-col h-screen overflow-hidden w-full relative">
+        <header class="h-16 bg-white border-b flex items-center justify-between px-4 shrink-0">
+            <div class="font-bold text-blue-700 text-lg md:hidden">📚 English Vidya</div>
+            <div class="hidden md:block font-bold" id="header-title">Dashboard</div>
+            <button onclick="nav('s7_profile')" class="w-8 h-8 rounded-full bg-blue-100 overflow-hidden"><img src="https://ui-avatars.com/api/?name=Riya+Sharma&background=eff6ff&color=1d4ed8" class="w-full h-full object-cover"></button>
+        </header>
+
+        <div class="flex-1 overflow-y-auto p-4 pb-20 md:p-8">
+
+            <!-- Screen 1: Dashboard -->
+            <div id="s1_dash" class="app-screen active">
+                <h1 class="text-2xl font-bold mb-4">Explore Lessons</h1>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div class="bg-white p-4 rounded-xl border flex items-center gap-4 cursor-pointer hover:shadow-md" onclick="nav('s2_lesson')">
+                        <div class="w-16 h-16 bg-teal-100 rounded-xl flex items-center justify-center text-3xl">📖</div>
+                        <div class="flex-1">
+                            <h4 class="font-bold">Grammar Essentials</h4>
+                            <div class="w-full bg-gray-200 h-1.5 rounded-full mt-2"><div class="bg-blue-600 h-1.5 rounded-full w-1/2"></div></div>
+                            <button class="mt-2 text-xs bg-blue-600 text-white px-4 py-1.5 rounded-lg">Start Lesson</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Screen 2: Grammar Lesson -->
+            <div id="s2_lesson" class="app-screen">
+                <h1 class="text-2xl font-bold mb-4">Present Continuous</h1>
+                <div class="bg-white p-4 rounded-xl border mb-4 shadow-sm">
+                    <p class="font-bold">Rule: Subject + is/am/are + V1 + ing + Object.</p>
+                    <p class="text-sm text-gray-500">नियम: वाक्य वर्तमान समय में चल रहा है</p>
+                </div>
+                <div class="bg-blue-50 border-blue-200 border p-4 rounded-xl flex justify-between items-center mb-4">
+                    <div>
+                        <p class="font-medium">1. I <span class="bg-blue-200 px-1 rounded">am playing</span> football.</p>
+                        <span class="text-[10px] bg-blue-100 text-blue-700 px-2 py-1 rounded-full font-bold mt-2 inline-block">Affirmative</span>
+                    </div>
+                    <button class="text-xl">🔊</button>
+                </div>
+            </div>
+
+            <!-- Screen 3: Board Exam Hub -->
+            <div id="s3_board" class="app-screen">
+                <div class="bg-gradient-to-r from-blue-600 to-green-500 rounded-xl p-4 text-white mb-6">
+                    <h1 class="text-xl font-bold">Class 10th & 12th<br>Board Exam Hub</h1>
+                </div>
+                <h2 class="font-bold mb-3">My Courses</h2>
+                <div class="bg-white rounded-xl border p-4 shadow-sm mb-4">
+                    <div class="flex justify-between items-center border-b pb-2 mb-2">
+                        <span class="font-bold">English (Prose & Poetry)</span><span class="text-xs bg-blue-100 text-blue-600 px-2 rounded-full">12th</span>
+                    </div>
+                    <div class="flex gap-2 mb-4 text-sm font-bold"><button class="bg-blue-600 text-white px-4 py-1 rounded-full">Panorama</button><button class="text-gray-500 px-4 py-1">Rainbow</button></div>
+                    <div class="space-y-3 text-sm">
+                        <div><p class="font-semibold">Chapter 1: The Pace for Living</p><p class="text-xs text-gray-500">▶ Lesson  ▶ Videos  📄 Notes</p></div>
+                        <div class="border-t pt-2"><p class="font-semibold">Chapter 2: Me and the Ecology Bit</p></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Screen 4: Kids Learning -->
+            <div id="s4_kids" class="app-screen">
+                <div class="flex items-center gap-2 mb-6"><h1 class="text-2xl font-bold">Kids Basic Learning</h1><span class="bg-blue-100 text-pink-500 font-bold px-2 rounded-xl">Kids</span></div>
+                <h2 class="font-bold mb-3">Learn Phonics</h2>
+                <div class="grid grid-cols-4 gap-2 mb-6 text-center">
+                    <div class="border border-red-200 bg-white p-2 rounded-xl shadow-sm"><div class="text-red-500 font-bold text-2xl">A</div><div class="text-xl">🍎</div><div class="text-[10px]">Apple</div></div>
+                    <div class="border border-blue-200 bg-white p-2 rounded-xl shadow-sm"><div class="text-blue-500 font-bold text-2xl">B</div><div class="text-xl">⚽</div><div class="text-[10px]">Ball</div></div>
+                    <div class="border border-yellow-200 bg-white p-2 rounded-xl shadow-sm"><div class="text-yellow-500 font-bold text-2xl">C</div><div class="text-xl">🐱</div><div class="text-[10px]">Cat</div></div>
+                    <div class="border border-green-200 bg-white p-2 rounded-xl shadow-sm"><div class="text-green-500 font-bold text-2xl">D</div><div class="text-xl">🐶</div><div class="text-[10px]">Dog</div></div>
+                </div>
+                <div class="bg-gradient-to-r from-purple-500 to-pink-500 p-4 rounded-xl text-white flex justify-between items-center shadow-lg">
+                    <div><h3 class="font-bold text-sm">Star Rewards & Games</h3><p class="text-xs text-purple-100">Level 3: Fun with Words</p></div>
+                    <button class="bg-white text-purple-600 text-xs font-bold px-3 py-1.5 rounded-full">Game On!</button>
+                </div>
+            </div>
+
+            <!-- Screen 5: Dictionary -->
+            <div id="s5_dict" class="app-screen">
+                <div class="bg-[#0f172a] p-6 rounded-2xl text-white h-[500px]">
+                    <input type="text" placeholder="Hindi text / English Meaning" class="w-full bg-gray-800 border border-gray-700 rounded-full px-4 py-2 text-sm mb-6 outline-none">
+                    <div class="bg-gradient-to-b from-blue-900 to-gray-900 p-6 rounded-2xl text-center border border-gray-700 shadow-2xl relative">
+                        <div class="text-3xl mb-2">✨</div>
+                        <h2 class="text-3xl font-bold">Serendipity</h2>
+                        <p class="text-gray-400 text-sm">/ˌserənˈdipəti/ [noun]</p>
+                        <p class="mt-4 text-sm">Synonyms: Fortuity, Godsend, Luck</p>
+                        <div class="mt-6 flex justify-center gap-3"><button class="w-10 h-10 bg-gray-700 rounded-full flex items-center justify-center">🔊</button><button class="bg-white text-black font-bold px-6 py-2 rounded-full">Flip Card</button></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Screen 6: AI Tutor -->
+            <div id="s6_tutor" class="app-screen">
+                <div class="bg-white border rounded-2xl h-[500px] flex flex-col shadow-sm">
+                    <div class="p-4 border-b flex gap-2 items-center bg-gray-50 rounded-t-2xl font-bold"><span class="text-xl">👩🏻‍🏫</span> Vidya AI</div>
+                    <div class="flex-1 p-4 overflow-y-auto space-y-4 text-sm">
+                        <div class="flex justify-end"><div class="bg-gray-800 text-white p-3 rounded-xl rounded-tr-sm">Can you correct: He go to school yesterday.</div></div>
+                        <div class="flex justify-start"><div class="bg-blue-50 border p-3 rounded-xl rounded-tl-sm"><b>Correct:</b> He <b>went</b> to school yesterday.<br><span class="text-xs text-gray-500">(Rule: Past Tense)</span></div></div>
+                    </div>
+                    <div class="p-3 border-t"><div class="bg-gray-100 flex rounded-full px-4 py-2"><input type="text" placeholder="Ask Vidya AI..." class="bg-transparent flex-1 outline-none text-sm"><button class="text-blue-600 font-bold">➤</button></div></div>
+                </div>
+            </div>
+
+            <!-- Screen 7: Profile Progress -->
+            <div id="s7_profile" class="app-screen">
+                <div class="bg-indigo-900 rounded-t-3xl p-6 text-white text-center rounded-b-xl shadow-lg mb-6">
+                    <img src="https://ui-avatars.com/api/?name=Riya+Sharma" class="w-20 h-20 rounded-full mx-auto border-4 border-white mb-2">
+                    <h2 class="font-bold text-xl">Riya Sharma</h2><p class="text-xs text-indigo-200">riya@email.com</p>
+                </div>
+                <div class="bg-white border p-5 rounded-2xl shadow-sm">
+                    <h3 class="font-bold mb-4">Learning Progress</h3>
+                    <div class="flex items-center gap-6 mb-6">
+                        <div class="w-20 h-20 rounded-full border-8 border-teal-400 flex items-center justify-center font-bold text-xl">72%</div>
+                        <div class="text-sm font-medium"><p><span class="text-indigo-900 mr-2">•</span>Courses (3/4)</p><p><span class="text-teal-400 mr-2">•</span>Modules (18/25)</p></div>
+                    </div>
+                    <div class="bg-gradient-to-r from-indigo-900 to-purple-800 text-white text-center py-2 rounded-xl font-bold">7-DAY STREAK 🔥</div>
+                </div>
+            </div>
+
+            <!-- Screen 8: Quiz -->
+            <div id="s8_quiz" class="app-screen">
+                <div class="text-center mb-6">
+                    <p class="text-sm font-bold text-gray-500">Quiz: Vocabulary Boost</p>
+                    <div class="w-24 h-24 mx-auto mt-4 rounded-full border-8 border-gray-200 flex items-center justify-center relative"><span class="font-bold">14:32</span></div>
+                </div>
+                <div class="bg-white border p-5 rounded-2xl shadow-sm">
+                    <h3 class="font-bold mb-4">What is a synonym for 'Vast'?</h3>
+                    <div class="space-y-3">
+                        <button class="w-full text-left p-3 border rounded-xl">(A) Small</button>
+                        <div class="w-full p-3 border-2 border-indigo-900 bg-indigo-900 text-white rounded-xl font-bold flex justify-between"><span>(C) Huge</span><span>✓</span></div>
+                        <div class="bg-green-100 text-green-800 text-xs p-2 rounded -mt-2">CORRECT! Huge means extremely large.</div>
+                        <button class="w-full text-left p-3 border rounded-xl">(D) Narrow</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Screen 9: Settings & Diary -->
+            <div id="s9_settings" class="app-screen">
+                <div class="bg-white border p-5 rounded-2xl shadow-sm mb-6">
+                    <h3 class="font-bold mb-3">My Diary</h3>
+                    <input type="text" placeholder="Search saved vocabulary..." class="w-full bg-gray-50 border p-2 rounded-lg text-sm mb-4">
+                    <div class="space-y-3 text-sm">
+                        <div class="flex justify-between border-b pb-2"><span class="font-bold">Eager</span><span class="text-gray-500 text-xs">Eagerly awaiting... ✎</span></div>
+                        <div class="flex justify-between border-b pb-2"><span class="font-bold">Eloquent</span><span class="text-gray-500 text-xs">Eloquent speaker... ✎</span></div>
+                    </div>
+                </div>
+                <div class="bg-white border p-5 rounded-2xl shadow-sm">
+                    <h3 class="font-bold mb-3">Settings</h3>
+                    <div class="space-y-4 text-sm font-medium">
+                        <div class="flex justify-between"><span>🔔 Notifications</span><div class="w-10 h-6 bg-blue-600 rounded-full relative"><div class="absolute right-1 top-1 w-4 h-4 bg-white rounded-full"></div></div></div>
+                        <div class="flex justify-between"><span>☀️ App Theme</span><div class="bg-gray-100 flex p-1 rounded-lg"><button class="bg-white px-2 py-1 rounded shadow text-xs font-bold">Day</button><button class="px-2 py-1 text-gray-500 text-xs">Night</button></div></div>
+                        <div class="text-red-500 pt-3 border-t">🚪 Logout</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Mobile Bottom Nav -->
+        <nav class="md:hidden fixed bottom-0 w-full bg-white border-t flex overflow-x-auto items-center pt-2 pb-4 px-2 z-50 rounded-t-xl" id="mobile-nav">
+            <button onclick="nav('s1_dash')" data-t="s1_dash" class="flex flex-col items-center min-w-[4rem] text-blue-600"><span class="text-xl">🏠</span><span class="text-[10px] font-bold">Home</span></button>
+            <button onclick="nav('s3_board')" data-t="s3_board" class="flex flex-col items-center min-w-[4rem] text-gray-400"><span class="text-xl">🎓</span><span class="text-[10px] font-medium">Board</span></button>
+            <button onclick="nav('s4_kids')" data-t="s4_kids" class="flex flex-col items-center min-w-[4rem] text-gray-400"><span class="text-xl">🧸</span><span class="text-[10px] font-medium">Kids</span></button>
+            <button onclick="nav('s5_dict')" data-t="s5_dict" class="flex flex-col items-center min-w-[4rem] text-gray-400"><span class="text-xl">📖</span><span class="text-[10px] font-medium">Dict</span></button>
+            <button onclick="nav('s6_tutor')" data-t="s6_tutor" class="flex flex-col items-center min-w-[4rem] text-gray-400"><span class="text-xl">🤖</span><span class="text-[10px] font-medium">AI</span></button>
+            <button onclick="nav('s8_quiz')" data-t="s8_quiz" class="flex flex-col items-center min-w-[4rem] text-gray-400"><span class="text-xl">✅</span><span class="text-[10px] font-medium">Quiz</span></button>
+            <button onclick="nav('s9_settings')" data-t="s9_settings" class="flex flex-col items-center min-w-[4rem] text-gray-400"><span class="text-xl">⚙️</span><span class="text-[10px] font-medium">Settings</span></button>
+        </nav>
+    </main>
+
+    <script>
+        function nav(targetId) {
+            document.querySelectorAll('.app-screen').forEach(s => s.classList.remove('active'));
+            document.getElementById(targetId).classList.add('active');
+            let tName = document.querySelector(`button[data-t="${targetId}"]`).innerText.replace(/[🏠📝🎓🧸📖🤖👤✅⚙️]/g, '').trim();
+            document.getElementById('header-title').innerText = tName;
+
+            document.querySelectorAll('#desktop-nav button').forEach(b => {
+                b.className = "w-full text-left px-3 py-2 text-gray-600 hover:bg-gray-100 rounded-lg";
+                if(b.dataset.t === targetId) b.className = "w-full text-left px-3 py-2 bg-blue-50 text-blue-700 font-bold rounded-lg border-l-4 border-blue-600";
+            });
+
+            document.querySelectorAll('#mobile-nav button').forEach(b => {
+                b.classList.replace('text-blue-600', 'text-gray-400');
+                b.querySelector('span:last-child').classList.replace('font-bold', 'font-medium');
+                if(b.dataset.t === targetId) {
+                    b.classList.replace('text-gray-400', 'text-blue-600');
+                    b.querySelector('span:last-child').classList.replace('font-medium', 'font-bold');
+                }
+            });
+        }
+    </script>
+</body>
+</html>

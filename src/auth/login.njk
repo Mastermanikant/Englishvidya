@@ -1,145 +1,74 @@
 ---
 layout: layouts/base.njk
-pageTitle: "Login to EnglishVidya"
-metaDescription: "Login to EnglishVidya to save your progress, add words to your diary, and participate in community discussions."
+pageTitle: "Login / Sign Up — EnglishVidya"
+metaDescription: "Login to your EnglishVidya account to save chapter bookmarks, manage your personal vocabulary diary, and track your learning progress."
 permalink: /login/
+schemaJson: |
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Login to EnglishVidya",
+    "description": "Secure Google authentication portal for EnglishVidya students."
+  }
 ---
 
-<style>
-  .auth-page-wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: calc(100vh - var(--header-height) - var(--bottom-nav-height));
-    padding: var(--sp-6) var(--sp-4);
-  }
+<div class="min-h-[75vh] flex items-center justify-center py-8 px-4">
+  <div class="w-full max-w-md bg-raised border border-border/80 rounded-3xl p-6 sm:p-10 shadow-lg relative overflow-hidden text-center">
+    
+    <!-- Top Glow Effect -->
+    <div class="absolute -top-24 -left-24 w-48 h-48 bg-accent/15 rounded-full blur-3xl pointer-events-none"></div>
+    <div class="absolute -bottom-24 -right-24 w-48 h-48 bg-accent/10 rounded-full blur-3xl pointer-events-none"></div>
 
-  .auth-card {
-    background: linear-gradient(145deg, var(--bg-base), var(--bg-raised));
-    border: 1px solid var(--border);
-    border-radius: var(--radius-xl);
-    padding: var(--sp-10) var(--sp-6);
-    max-width: 440px;
-    width: 100%;
-    text-align: center;
-    box-shadow: var(--shadow-lg), 0 0 40px var(--shadow-glow);
-    position: relative;
-    overflow: hidden;
-  }
-
-  .auth-card::before {
-    content: '';
-    position: absolute;
-    top: -50%;
-    left: -20%;
-    width: 60%;
-    height: 150%;
-    background: radial-gradient(circle, var(--accent-glow) 0%, transparent 70%);
-    pointer-events: none;
-    z-index: 0;
-  }
-
-  .auth-content {
-    position: relative;
-    z-index: 1;
-  }
-
-  .auth-logo-icon {
-    font-size: 3rem;
-    margin-bottom: var(--sp-4);
-    display: inline-block;
-    filter: drop-shadow(0 4px 12px rgba(37, 99, 235, 0.3));
-    animation: float 4s ease-in-out infinite;
-  }
-  
-  @keyframes float {
-    0%, 100% { transform: translateY(0); }
-    50% { transform: translateY(-8px); }
-  }
-
-  .auth-title {
-    font-family: var(--font-heading);
-    font-size: 2.2rem;
-    font-weight: 800;
-    margin-bottom: var(--sp-2);
-    color: var(--text-primary);
-  }
-
-  .auth-desc {
-    font-size: 1rem;
-    color: var(--text-secondary);
-    margin-bottom: var(--sp-8);
-    line-height: 1.6;
-  }
-
-  .auth-google-btn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 12px;
-    background: var(--bg-base);
-    color: var(--text-primary);
-    border: 2px solid var(--border);
-    border-radius: var(--radius-full);
-    padding: 16px 24px;
-    font-size: 1.1rem;
-    font-weight: 700;
-    text-decoration: none;
-    transition: all 0.2s var(--ease-out);
-    box-shadow: var(--shadow-sm);
-    width: 100%;
-  }
-
-  .auth-google-btn:hover {
-    background: var(--bg-hover);
-    border-color: var(--accent);
-    transform: translateY(-2px);
-    box-shadow: var(--shadow-md), 0 0 15px var(--accent-glow);
-  }
-
-  .auth-google-btn:active {
-    transform: translateY(1px);
-  }
-
-  .auth-legal-text {
-    margin-top: var(--sp-8);
-    font-size: 0.85rem;
-    color: var(--text-tertiary);
-    line-height: 1.5;
-  }
-
-  .auth-legal-text a {
-    color: var(--accent);
-    font-weight: 600;
-  }
-  
-  .auth-legal-text a:hover {
-    text-decoration: underline;
-  }
-</style>
-
-<div class="auth-page-wrapper">
-  <div class="auth-card">
-    <div class="auth-content">
+    <div class="relative z-10">
       
-      <div class="auth-logo-icon">🚀</div>
-      <h1 class="auth-title">Welcome Back</h1>
-      <p class="auth-desc">Sign in with Google to save your progress, add words to your diary, and unlock premium features.</p>
+      <!-- Brand Icon / Header -->
+      <div class="w-16 h-16 rounded-2xl bg-accent/10 border border-accent/20 flex items-center justify-center text-3xl mx-auto mb-5 text-accent shadow-xs">
+        🎓
+      </div>
+
+      <h1 class="text-2xl sm:text-3xl font-extrabold font-heading text-primary tracking-tight mb-2">
+        EnglishVidya में आपका स्वागत है
+      </h1>
       
-      <a id="google-login-btn" href="/api/auth-google" class="auth-google-btn">
-        <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <p class="text-xs sm:text-sm text-secondary leading-relaxed mb-6">
+        1-क्लिक में Google से लॉगिन करें और अपनी पढ़ाई, वोकैबुलरी नोट्स और चैप्टर बुकमार्क्स सुरक्षित रखें।
+      </p>
+
+      <!-- Google One-Click CTA Button -->
+      <a id="google-login-btn" href="/api/auth-google" class="w-full py-3.5 px-6 rounded-2xl bg-base border border-border hover:border-accent text-primary font-bold text-sm sm:text-base flex items-center justify-center gap-3 transition-all hover:shadow-md hover:-translate-y-0.5 group">
+        <svg class="w-5 h-5 shrink-0" viewBox="0 0 24 24">
           <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/>
           <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/>
           <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/>
           <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/>
         </svg>
-        Continue with Google
+        <span class="group-hover:text-accent transition-colors">Continue with Google</span>
       </a>
 
-      <div class="auth-legal-text">
-        अकाउंट बनाने या लॉगिन करने का मतलब है कि आप हमारी <br><a href="/legal-hindi/">नियम और शर्तों (Terms & Privacy)</a> को स्वीकार करते हैं।
+      <!-- Student Perks List -->
+      <div class="mt-8 pt-6 border-t border-border/60 text-left space-y-3">
+        <div class="text-xs font-bold text-primary uppercase tracking-wider mb-2">
+          लॉगिन करने के फायदे:
+        </div>
+        <div class="flex items-start gap-2.5 text-xs text-secondary">
+          <span class="text-emerald-500 font-bold">✓</span>
+          <span><strong>चैप्टर बुकमार्क्स:</strong> 10वीं/12वीं व ग्रामर के महत्वपूर्ण पाठ सेव करें।</span>
+        </div>
+        <div class="flex items-start gap-2.5 text-xs text-secondary">
+          <span class="text-emerald-500 font-bold">✓</span>
+          <span><strong>माय डायरी (My Diary):</strong> कठिन शब्दों के नोट्स क्लाउड पर सुरक्षित रखें।</span>
+        </div>
+        <div class="flex items-start gap-2.5 text-xs text-secondary">
+          <span class="text-emerald-500 font-bold">✓</span>
+          <span><strong>मल्टी-डिवाइस सिंक:</strong> मोबाइल और कंप्यूटर दोनों पर एक साथ पढ़ें।</span>
+        </div>
       </div>
-      
+
+      <!-- Legal / Privacy notice -->
+      <div class="mt-8 text-[11px] text-secondary/80 leading-normal">
+        लॉगिन करने पर आप हमारी <a href="/legal/" class="text-accent underline">नियम व गोपनीयता नीति</a> को स्वीकार करते हैं।
+      </div>
+
     </div>
   </div>
 </div>
@@ -149,20 +78,19 @@ document.addEventListener('DOMContentLoaded', () => {
   const urlParams = new URLSearchParams(window.location.search);
   const redirect = urlParams.get('redirect') || '/profile/';
   
-  // Google button redirect
   const googleBtn = document.getElementById('google-login-btn');
   if (googleBtn) {
     googleBtn.href = '/api/auth-google?redirect=' + encodeURIComponent(redirect);
     
     googleBtn.addEventListener('click', function(e) {
-      if(this.classList.contains('loading')) {
+      if(this.classList.contains('is-loading')) {
         e.preventDefault();
         return;
       }
-      this.classList.add('loading');
-      this.style.opacity = '0.8';
+      this.classList.add('is-loading');
+      this.style.opacity = '0.7';
       this.style.pointerEvents = 'none';
-      this.innerHTML = '⏳ Securely authenticating...';
+      this.innerHTML = '<span class="inline-block animate-spin mr-2">🔄</span> Connecting securely to Google...';
     });
   }
 });

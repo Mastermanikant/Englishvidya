@@ -1,278 +1,167 @@
 ---
 layout: layouts/base.njk
-title: My Profile & Learning Dashboard
+pageTitle: "Student Profile & Learning Dashboard — EnglishVidya"
+metaDescription: "Manage your EnglishVidya profile, review saved chapter bookmarks, track daily learning streaks, and access your vocabulary notes."
 permalink: /profile/
+schemaJson: |
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfilePage",
+    "name": "Student Profile",
+    "description": "Personalized learning dashboard for EnglishVidya students."
+  }
 ---
 
-<style>
-/* Use var(--bg-raised), var(--accent), etc. */
-.profile-container {
-  max-width: 800px;
-  margin: 2rem auto;
-  padding: 1rem;
-  font-family: sans-serif;
-}
-.glass-card {
-  background: var(--bg-raised, #ffffff);
-  border: 1px solid var(--border, #e2e8f0);
-  border-radius: 1rem;
-  padding: 2rem;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
-  backdrop-filter: blur(10px);
-  margin-bottom: 2rem;
-  text-align: center;
-}
-.avatar-container {
-  width: 120px;
-  height: 120px;
-  margin: 0 auto 1rem;
-  border-radius: 50%;
-  padding: 4px;
-  background: linear-gradient(45deg, var(--accent, #3b82f6), #8b5cf6);
-}
-.avatar-container img {
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 4px solid var(--bg-raised, #ffffff);
-}
-.role-badge {
-  display: inline-block;
-  background: var(--accent, #3b82f6);
-  color: #fff;
-  padding: 0.25rem 0.75rem;
-  border-radius: 9999px;
-  font-size: 0.875rem;
-  font-weight: bold;
-  margin-top: 0.5rem;
-}
-.stats-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-  gap: 1rem;
-  margin-top: 2rem;
-}
-.stat-card {
-  background: var(--bg-raised, #ffffff);
-  border: 1px solid var(--border, #e2e8f0);
-  padding: 1rem;
-  border-radius: 0.75rem;
-}
-.stat-value {
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: var(--accent, #3b82f6);
-}
-.streak-grid {
-  display: flex;
-  justify-content: center;
-  gap: 0.5rem;
-  margin-top: 1rem;
-}
-.streak-circle {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 0.75rem;
-  background: var(--bg-raised, #f1f5f9);
-  border: 1px solid var(--border, #e2e8f0);
-  color: var(--text, #333);
-}
-.streak-circle.active {
-  background: #10b981;
-  color: white;
-  border-color: #10b981;
-}
-.bookmark-list, .quiz-list {
-  text-align: left;
-  list-style: none;
-  padding: 0;
-}
-.bookmark-item {
-  display: flex;
-  justify-content: space-between;
-  padding: 1rem;
-  border-bottom: 1px solid var(--border, #e2e8f0);
-}
-.bookmark-item:last-child {
-  border-bottom: none;
-}
-.btn {
-  background: var(--accent, #3b82f6);
-  color: #fff;
-  border: none;
-  padding: 0.5rem 1rem;
-  border-radius: 0.5rem;
-  cursor: pointer;
-}
-.btn-outline {
-  background: transparent;
-  color: var(--accent, #3b82f6);
-  border: 1px solid var(--accent, #3b82f6);
-}
-</style>
+<div class="max-w-4xl mx-auto py-8 px-4 sm:px-6">
+  
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <!-- 1. AUTHENTICATED DASHBOARD (SHOWN WHEN LOGGED IN OR LOCAL) -->
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <div id="profile-content">
+    
+    <!-- Profile Card Header -->
+    <div class="p-6 sm:p-8 rounded-3xl bg-raised border border-border/80 mb-8 relative overflow-hidden flex flex-col sm:flex-row items-center sm:items-start gap-6 shadow-xs">
+      
+      <!-- Avatar -->
+      <div class="relative shrink-0">
+        <img src="https://ui-avatars.com/api/?name=Student&background=2563eb&color=fff&size=128" id="user-avatar" alt="Avatar" class="w-24 h-24 rounded-full border-4 border-base shadow-md object-cover">
+        <span class="absolute bottom-0 right-0 w-6 h-6 bg-emerald-500 border-2 border-base rounded-full flex items-center justify-center text-white text-[10px]" title="Active">✓</span>
+      </div>
 
-<div class="profile-container" id="profile-content" style="display: none;">
-  <div class="glass-card">
-    <div class="avatar-container">
-      <img src="https://ui-avatars.com/api/?name=User&background=random" id="user-avatar" alt="User Avatar">
+      <!-- User Details -->
+      <div class="flex-1 text-center sm:text-left">
+        <div class="flex flex-wrap items-center justify-center sm:justify-start gap-2 mb-1">
+          <h1 class="text-2xl sm:text-3xl font-extrabold font-heading text-primary" id="user-name">Student</h1>
+          <span class="px-2.5 py-0.5 rounded-full text-xs font-bold bg-accent/10 text-accent border border-accent/20" id="user-role-badge">Learner</span>
+        </div>
+        <p class="text-xs sm:text-sm text-secondary mb-4" id="user-email">student@englishvidya.com</p>
+        
+        <div class="flex flex-wrap items-center justify-center sm:justify-start gap-3">
+          <a href="/my-diary/" class="px-4 py-2 rounded-xl bg-base border border-border hover:border-accent text-xs font-semibold text-primary hover:text-accent transition-all flex items-center gap-1.5">
+            <span>📓 माय डायरी खोलें</span>
+            <span>→</span>
+          </a>
+          <button id="logout-profile-btn" class="px-4 py-2 rounded-xl bg-base border border-border hover:border-rose-500/40 text-xs font-semibold text-rose-500 hover:bg-rose-500/10 transition-all">
+            लॉगआउट
+          </button>
+        </div>
+      </div>
+
     </div>
-    <h2 id="user-name" style="margin: 0; color: var(--text, #333);">Student Name</h2>
-    <p id="user-email" style="color: var(--text-muted, #666); margin: 0.5rem 0;">student@example.com</p>
-    <div class="role-badge">Student</div>
-    <br>
-    <button class="btn btn-outline" style="margin-top: 1rem;" onclick="window.location.href='/settings/'">Edit Profile</button>
+
+    <!-- Learning Metrics Stats Grid -->
+    <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-8">
+      <div class="p-4 rounded-2xl bg-raised border border-border/70 text-center">
+        <div class="text-2xl sm:text-3xl font-extrabold font-heading text-primary" id="stat-chapters">0</div>
+        <div class="text-xs text-secondary mt-1">सेव किए गए पाठ</div>
+      </div>
+      <div class="p-4 rounded-2xl bg-raised border border-border/70 text-center">
+        <div class="text-2xl sm:text-3xl font-extrabold font-heading text-accent" id="stat-words">0</div>
+        <div class="text-xs text-secondary mt-1">डायरी शब्द नोट्स</div>
+      </div>
+      <div class="p-4 rounded-2xl bg-raised border border-border/70 text-center">
+        <div class="text-2xl sm:text-3xl font-extrabold font-heading text-emerald-500" id="stat-streak">1 🔥</div>
+        <div class="text-xs text-secondary mt-1">डेली स्ट्रीक (Days)</div>
+      </div>
+      <div class="p-4 rounded-2xl bg-raised border border-border/70 text-center">
+        <div class="text-2xl sm:text-3xl font-extrabold font-heading text-primary" id="stat-class">12th / 10th</div>
+        <div class="text-xs text-secondary mt-1">लर्निंग ट्रैक</div>
+      </div>
+    </div>
+
+    <!-- Quick Navigation Hub -->
+    <div class="p-6 sm:p-8 rounded-3xl bg-raised border border-border/80 mb-8">
+      <h2 class="text-lg font-bold font-heading text-primary mb-4 flex items-center gap-2">
+        <span>⚡</span> त्वरित अध्ययन शॉर्टकट्स
+      </h2>
+
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+        <a href="/class-12/" class="p-4 rounded-xl bg-base border border-border/60 hover:border-accent group transition-all">
+          <div class="font-bold text-sm text-primary group-hover:text-accent transition-colors">12वीं Rainbow 2</div>
+          <div class="text-xs text-secondary mt-1">30 चैप्टर्स, उच्चारण व प्रश्न-उत्तर</div>
+        </a>
+        <a href="/class-10/" class="p-4 rounded-xl bg-base border border-border/60 hover:border-accent group transition-all">
+          <div class="font-bold text-sm text-primary group-hover:text-accent transition-colors">10वीं Panorama 2</div>
+          <div class="text-xs text-secondary mt-1">23 चैप्टर्स, नोट्स व गाइड्स</div>
+        </a>
+        <a href="/grammar/" class="p-4 rounded-xl bg-base border border-border/60 hover:border-accent group transition-all">
+          <div class="font-bold text-sm text-primary group-hover:text-accent transition-colors">ग्रामर मास्टर लैडर</div>
+          <div class="text-xs text-secondary mt-1">10 लेवल्स और 17 सेक्शंस</div>
+        </a>
+      </div>
+    </div>
+
   </div>
 
-  <div class="glass-card" style="display: flex; flex-direction: column; align-items: center;">
-    <h3 style="margin-top: 0;">Learning Progress</h3>
-    <svg class="progress-ring" width="120" height="120">
-      <circle class="progress-ring-bg" cx="60" cy="60" r="50" fill="none" stroke="var(--border, #e2e8f0)" stroke-width="10"/>
-      <circle id="progress-ring-fill" cx="60" cy="60" r="50" fill="none" stroke="var(--accent, #3b82f6)" stroke-width="10" stroke-dasharray="314" stroke-dashoffset="220" stroke-linecap="round" style="transform: rotate(-90deg); transform-origin: center; transition: stroke-dashoffset 1s ease;"/>
-    </svg>
-    <div class="stats-grid" style="width: 100%;">
-      <div class="stat-card">
-        <div class="stat-value" id="stat-lessons">0</div>
-        <div>Lessons</div>
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <!-- 2. LOGGED OUT FALLBACK CARD (DISPLAYED WHEN GUEST) -->
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <div id="login-fallback" class="hidden text-center py-16 px-4">
+    <div class="max-w-md mx-auto p-8 rounded-3xl bg-raised border border-border/80 shadow-md">
+      <div class="w-16 h-16 rounded-2xl bg-accent/10 text-accent flex items-center justify-center text-3xl mx-auto mb-4">
+        🔒
       </div>
-      <div class="stat-card">
-        <div class="stat-value" id="stat-streak">0</div>
-        <div>Day Streak</div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-value" id="stat-quiz">0</div>
-        <div>Avg Score</div>
-      </div>
+      <h2 class="text-xl font-bold font-heading text-primary mb-2">लॉगिन आवश्यक है</h2>
+      <p class="text-xs sm:text-sm text-secondary mb-6 leading-relaxed">
+        अपना डैशबोर्ड, सेव किए गए चैप्टर्स और वोकैबुलरी डायरी देखने के लिए कृपया लॉगिन करें।
+      </p>
+      <a href="/login/?redirect=/profile/" class="w-full py-3 px-6 rounded-xl bg-accent text-white font-bold text-sm inline-flex items-center justify-center gap-2 hover:bg-accent/90 transition-all">
+        <span>Google से लॉगिन करें</span>
+        <span>→</span>
+      </a>
     </div>
   </div>
 
-  <div class="glass-card">
-    <h3 style="margin-top: 0;">7-Day Streak</h3>
-    <div class="streak-grid" id="streak-container">
-      <!-- Generated by JS -->
-    </div>
-  </div>
-
-  <div class="glass-card">
-    <h3 style="margin-top: 0;">Bookmarked Lessons</h3>
-    <ul class="bookmark-list" id="bookmark-list">
-      <li>No bookmarks yet. Start reading to bookmark lessons!</li>
-    </ul>
-  </div>
-
-  <div class="glass-card">
-    <h3 style="margin-top: 0;">Recent Quiz Scores</h3>
-    <ul class="quiz-list" id="quiz-list">
-      <li>No quizzes taken yet.</li>
-    </ul>
-  </div>
-</div>
-
-<div class="profile-container" id="login-prompt" style="display: none; text-align: center;">
-  <div class="glass-card">
-    <h2>Please login to see your full profile</h2>
-    <p>Track your progress, bookmarks, and quiz scores.</p>
-    <button class="btn" onclick="window.location.href='/login/'">Login Now</button>
-  </div>
 </div>
 
 <script>
-document.addEventListener('DOMContentLoaded', () => {
-  const userDataStr = localStorage.getItem('ev-user-data');
-  if (!userDataStr) {
-    document.getElementById('login-prompt').style.display = 'block';
-    return;
-  }
-  
-  const userData = JSON.parse(userDataStr);
-  document.getElementById('profile-content').style.display = 'block';
-  
-  // Populate User Info
-  document.getElementById('user-name').textContent = userData.name || 'Student';
-  document.getElementById('user-email').textContent = userData.email || '';
-  if (userData.name) {
-    document.getElementById('user-avatar').src = 'https://ui-avatars.com/api/?name=' + encodeURIComponent(userData.name) + '&background=random';
-  }
+document.addEventListener('DOMContentLoaded', async () => {
+  const profileContainer = document.getElementById('profile-content');
+  const fallbackContainer = document.getElementById('login-fallback');
+  const logoutBtn = document.getElementById('logout-profile-btn');
 
-  // Populate Bookmarks
-  const bookmarksStr = localStorage.getItem('ev-bookmarks');
-  const bookmarkList = document.getElementById('bookmark-list');
-  if (bookmarksStr) {
-    const bookmarks = JSON.parse(bookmarksStr);
-    if (bookmarks.length > 0) {
-      bookmarkList.innerHTML = '';
-      bookmarks.forEach((b, index) => {
-        const li = document.createElement('li');
-        li.className = 'bookmark-item';
-        li.innerHTML = \`
-          <a href="\${b.link}" style="color: var(--accent); text-decoration: none; font-weight: bold;">\${b.title}</a>
-          <button class="btn btn-outline" style="padding: 0.25rem 0.5rem; font-size: 0.8rem;" onclick="removeBookmark(\${index})">Remove</button>
-        \`;
-        bookmarkList.appendChild(li);
-      });
-      document.getElementById('stat-lessons').textContent = bookmarks.length;
+  try {
+    const res = await fetch('/api/auth-me?_t=' + Date.now());
+    const data = await res.json();
+
+    if (data.loggedIn && data.user) {
+      const u = data.user;
+      document.getElementById('user-name').textContent = u.name || 'Student';
+      document.getElementById('user-email').textContent = u.email || '';
+      if (u.role && u.role !== 'user') {
+        document.getElementById('user-role-badge').textContent = u.role.toUpperCase();
+      }
+      if (u.avatar_url) {
+        document.getElementById('user-avatar').src = u.avatar_url;
+      }
+      profileContainer.classList.remove('hidden');
+      if (fallbackContainer) fallbackContainer.classList.add('hidden');
+    } else {
+      // If guest and not on localhost, display fallback prompt
+      if (window.location.hostname !== 'localhost' && window.location.hostname !== '127.0.0.1') {
+        profileContainer.classList.add('hidden');
+        if (fallbackContainer) fallbackContainer.classList.remove('hidden');
+      }
     }
+  } catch (e) {
+    console.warn('Local profile preview fallback active:', e);
   }
 
-  // Populate Quiz History
-  const quizStr = localStorage.getItem('ev-quiz-history');
-  const quizList = document.getElementById('quiz-list');
-  if (quizStr) {
-    const quizzes = JSON.parse(quizStr).slice(0, 5);
-    if (quizzes.length > 0) {
-      quizList.innerHTML = '';
-      let totalScore = 0;
-      quizzes.forEach(q => {
-        totalScore += q.score;
-        const li = document.createElement('li');
-        li.className = 'bookmark-item';
-        li.innerHTML = \`
-          <span>\${q.title}</span>
-          <strong>\${q.score}%</strong>
-        \`;
-        quizList.appendChild(li);
-      });
-      const avg = Math.round(totalScore / quizzes.length);
-      document.getElementById('stat-quiz').textContent = avg;
-      
-      // Update progress ring (offset based on avg)
-      const ring = document.getElementById('progress-ring-fill');
-      const offset = 314 - (314 * avg / 100);
-      ring.style.strokeDashoffset = offset;
-    }
-  }
+  // Count saved diary words from localStorage
+  try {
+    const savedWords = JSON.parse(localStorage.getItem('ev_diary_words') || '[]');
+    const statWords = document.getElementById('stat-words');
+    if (statWords) statWords.textContent = savedWords.length;
 
-  // Populate Streak
-  const streakStr = localStorage.getItem('ev-streak-data');
-  const days = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
-  let activeDays = [];
-  if (streakStr) {
-    activeDays = JSON.parse(streakStr);
+    const savedBookmarks = JSON.parse(localStorage.getItem('ev_bookmarks') || '[]');
+    const statChapters = document.getElementById('stat-chapters');
+    if (statChapters) statChapters.textContent = savedBookmarks.length;
+  } catch (e) {}
+
+  if (logoutBtn) {
+    logoutBtn.addEventListener('click', () => {
+      window.location.href = '/api/auth-logout';
+    });
   }
-  const streakContainer = document.getElementById('streak-container');
-  let currentStreak = 0;
-  days.forEach((day, i) => {
-    const div = document.createElement('div');
-    div.className = 'streak-circle ' + (activeDays.includes(i) ? 'active' : '');
-    div.textContent = day;
-    streakContainer.appendChild(div);
-    if (activeDays.includes(i)) currentStreak++;
-  });
-  document.getElementById('stat-streak').textContent = currentStreak;
 });
-
-function removeBookmark(index) {
-  const bookmarksStr = localStorage.getItem('ev-bookmarks');
-  if (bookmarksStr) {
-    const bookmarks = JSON.parse(bookmarksStr);
-    bookmarks.splice(index, 1);
-    localStorage.setItem('ev-bookmarks', JSON.stringify(bookmarks));
-    if (window.showToast) window.showToast('Bookmark removed');
-    location.reload();
-  }
-}
 </script>

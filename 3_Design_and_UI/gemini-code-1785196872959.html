@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English Vidya - Admin & Owner Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .admin-screen { display: none; }
+        .admin-screen.active { display: block; animation: fade 0.2s ease; }
+        @keyframes fade { from { opacity: 0; } to { opacity: 1; } }
+    </style>
+</head>
+<body class="bg-[#0f111a] text-gray-300 flex h-screen overflow-hidden">
+
+    <!-- Sidebar -->
+    <aside class="w-64 bg-[#161925] border-r border-gray-800 flex flex-col shrink-0">
+        <div class="h-16 flex items-center px-6 border-b border-gray-800">
+            <div class="text-indigo-400 font-bold text-xl">📚 Admin Panel</div>
+        </div>
+        <nav class="flex-1 px-4 py-6 space-y-2" id="admin-nav">
+            <button onclick="nav('s10_mod')" data-t="s10_mod" class="w-full text-left px-3 py-2 bg-indigo-500/10 text-indigo-400 font-medium rounded-lg">🛡️ Moderation</button>
+            <button onclick="nav('s11_owner')" data-t="s11_owner" class="w-full text-left px-3 py-2 hover:bg-gray-800 rounded-lg text-gray-400">📊 Analytics (Owner)</button>
+        </nav>
+    </aside>
+
+    <main class="flex-1 flex flex-col h-screen overflow-hidden">
+        <header class="h-16 bg-[#161925] border-b border-gray-800 flex items-center justify-between px-8">
+            <div class="relative w-96">
+                <input type="text" placeholder="Search logs, users..." class="w-full pl-10 pr-4 py-2 bg-[#0f111a] border border-gray-700 rounded-lg text-sm focus:outline-none focus:border-indigo-500 text-white">
+                <span class="absolute left-3 top-2.5">🔍</span>
+            </div>
+            <div class="flex items-center gap-4">
+                <div class="flex items-center gap-2 bg-[#0f111a] py-1 px-3 rounded-full border border-gray-700">
+                    <img src="https://ui-avatars.com/api/?name=Admin&background=4f46e5&color=fff" class="w-6 h-6 rounded-full">
+                    <span class="text-sm font-medium">Admin / Owner</span>
+                </div>
+            </div>
+        </header>
+
+        <div class="flex-1 overflow-y-auto p-8">
+            
+            <!-- Screen 10: Admin Dashboard (Moderation) -->
+            <div id="s10_mod" class="admin-screen active">
+                <h1 class="text-2xl font-bold text-white mb-6">Admin Dashboard Screen</h1>
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                    <!-- Comment Moderation Panel -->
+                    <div class="bg-[#161925] rounded-xl border border-gray-800 p-6">
+                        <div class="flex justify-between items-center mb-4"><h3 class="font-bold text-white">Comment Moderation Panel</h3><select class="bg-[#0f111a] border border-gray-700 text-xs px-2 py-1 rounded text-white"><option>All Comments</option></select></div>
+                        <div class="space-y-3">
+                            <div class="bg-[#0f111a] p-4 rounded-lg border border-gray-800 flex justify-between items-center">
+                                <div><div class="flex items-center gap-2 mb-1"><img src="https://ui-avatars.com/api/?name=User1" class="w-5 h-5 rounded-full"><span class="font-bold text-white text-sm">User 1</span><span class="text-green-400 text-xs bg-green-400/10 px-1 rounded">Active</span></div><p class="text-sm text-gray-400">Loved this lesson!</p></div>
+                                <div class="flex gap-2"><button class="bg-indigo-600/20 text-indigo-400 text-xs px-3 py-1 rounded">Reply</button><button class="bg-green-500/20 text-green-400 text-xs px-3 py-1 rounded">Approve</button><button class="bg-red-500/20 text-red-400 text-xs px-3 py-1 rounded">Delete</button></div>
+                            </div>
+                            <div class="bg-[#0f111a] p-4 rounded-lg border border-red-900/50 flex justify-between items-center">
+                                <div><div class="flex items-center gap-2 mb-1"><img src="https://ui-avatars.com/api/?name=User3" class="w-5 h-5 rounded-full"><span class="font-bold text-white text-sm">User 3</span><span class="text-red-400 text-xs bg-red-400/10 px-1 rounded">Flagged</span></div><p class="text-sm text-gray-400">Unhelpful comment... spam link.</p></div>
+                                <div class="flex gap-2"><button class="bg-indigo-600/20 text-indigo-400 text-xs px-3 py-1 rounded">Reply</button><button class="bg-green-500/20 text-green-400 text-xs px-3 py-1 rounded">Approve</button><button class="bg-red-600 text-white text-xs px-3 py-1 rounded">Delete</button></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Content Editor & AI Log -->
+                    <div class="space-y-6">
+                        <div class="bg-[#161925] rounded-xl border border-gray-800 p-6">
+                            <h3 class="font-bold text-white mb-4">Content Editor (Grammar Lessons)</h3>
+                            <input type="text" value="Grammar 101: Tense Mastery" class="w-full bg-[#0f111a] border border-gray-700 p-2 rounded text-white mb-3 text-sm">
+                            <textarea class="w-full bg-[#0f111a] border border-gray-700 p-2 rounded text-white h-32 text-sm">Grammar 101: Tense Mastery is structured to correct common mistakes...</textarea>
+                            <div class="flex justify-end gap-2 mt-3"><button class="text-xs bg-gray-800 px-4 py-2 rounded">Save Draft</button><button class="text-xs bg-indigo-600 text-white px-4 py-2 rounded">Publish</button></div>
+                        </div>
+                        <div class="bg-[#161925] rounded-xl border border-gray-800 p-6">
+                            <h3 class="font-bold text-white mb-4">AI Conversation Monitoring Log</h3>
+                            <table class="w-full text-xs text-left text-gray-400">
+                                <tr class="border-b border-gray-800"><th>Timestamp</th><th>User Input</th><th>Status</th></tr>
+                                <tr class="border-b border-gray-800"><td class="py-2">2024-03-23 15:35</td><td>How to use Present...</td><td class="text-red-400">▲ Flagged</td></tr>
+                                <tr><td class="py-2">2024-03-23 15:30</td><td>Translate this...</td><td class="text-green-400">✔ Normal</td></tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Screen 11: Owner Dashboard (Analytics) -->
+            <div id="s11_owner" class="admin-screen">
+                <h1 class="text-2xl font-bold text-white mb-6">Owner Super-Admin Screen</h1>
+                <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-6">
+                    <!-- Chart Area -->
+                    <div class="lg:col-span-2 bg-[#161925] rounded-xl border border-gray-800 p-6">
+                        <h3 class="font-bold text-white mb-4">Student Growth & Metrics (Last 30 Days)</h3>
+                        <div class="h-48 relative border-l border-b border-gray-700 pb-2 pl-2">
+                            <!-- Chart visual simulation -->
+                            <div class="w-full h-1/2 border-t-2 border-indigo-500 absolute bottom-10 -rotate-2"></div>
+                            <div class="w-full h-1/2 border-t-2 border-purple-500 absolute bottom-16 rotate-3"></div>
+                        </div>
+                        <div class="grid grid-cols-3 gap-4 mt-6 pt-6 border-t border-gray-800">
+                            <div><p class="text-gray-500 text-xs">Total Students</p><p class="text-2xl font-bold text-white">124,500</p></div>
+                            <div><p class="text-gray-500 text-xs">Active Learners</p><p class="text-2xl font-bold text-white">98,321</p></div>
+                            <div><p class="text-gray-500 text-xs">Revenue / Course Sales</p><p class="text-2xl font-bold text-green-400">₹12.5M</p></div>
+                        </div>
+                    </div>
+                    <!-- Role Management -->
+                    <div class="bg-[#161925] rounded-xl border border-gray-800 p-6 flex flex-col">
+                        <h3 class="font-bold text-white mb-4">User Role Management</h3>
+                        <div class="flex-1 space-y-4">
+                            <div class="flex justify-between border-b border-gray-800 pb-3"><div class="flex gap-2"><img src="https://ui-avatars.com/api/?name=Jane" class="w-8 h-8 rounded-full"><div><p class="text-sm font-bold text-white">Admin Jane D.</p><p class="text-xs text-indigo-400">Admin</p></div></div><button class="bg-indigo-600 text-white text-xs px-2 py-1 rounded">Promote</button></div>
+                            <div class="flex justify-between border-b border-gray-800 pb-3"><div class="flex gap-2"><img src="https://ui-avatars.com/api/?name=John" class="w-8 h-8 rounded-full"><div><p class="text-sm font-bold text-white">Tutor John D.</p><p class="text-xs text-blue-400">Tutor</p></div></div><button class="bg-gray-800 text-white text-xs px-2 py-1 rounded">View Details</button></div>
+                            <div class="flex justify-between"><div class="flex gap-2"><img src="https://ui-avatars.com/api/?name=Sia" class="w-8 h-8 rounded-full"><div><p class="text-sm font-bold text-white">Tutor Sia O.</p><p class="text-xs text-blue-400">Tutor</p></div></div><button class="bg-red-500/20 text-red-400 text-xs px-2 py-1 rounded">Ban</button></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </main>
+
+    <script>
+        function nav(targetId) {
+            document.querySelectorAll('.admin-screen').forEach(s => s.classList.remove('active'));
+            document.getElementById(targetId).classList.add('active');
+            
+            document.querySelectorAll('#admin-nav button').forEach(b => {
+                b.className = "w-full text-left px-3 py-2 hover:bg-gray-800 rounded-lg text-gray-400";
+                if(b.dataset.t === targetId) b.className = "w-full text-left px-3 py-2 bg-indigo-500/10 text-indigo-400 font-medium rounded-lg";
+            });
+        }
+    </script>
+</body>
+</html>

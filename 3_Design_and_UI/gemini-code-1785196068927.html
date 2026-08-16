@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English Vidya - Dashboard</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts: Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 flex h-screen overflow-hidden">
+
+    <!-- Sidebar -->
+    <aside class="w-64 bg-white border-r border-gray-200 flex flex-col hidden md:flex">
+        <!-- Logo Area -->
+        <div class="h-16 flex items-center px-6 border-b border-gray-100">
+            <div class="flex items-center gap-2 text-blue-700 font-bold text-xl">
+                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20"><path d="M9 4.804A7.968 7.968 0 005.5 4c-1.255 0-2.443.29-3.5.804v10A7.969 7.969 0 015.5 14c1.669 0 3.218.51 4.5 1.385A7.962 7.962 0 0114.5 14c1.255 0 2.443.29 3.5.804v-10A7.968 7.968 0 0014.5 4c-1.255 0-2.443.29-3.5.804V12a1 1 0 11-2 0V4.804z"></path></svg>
+                English Vidya
+            </div>
+        </div>
+
+        <!-- Navigation -->
+        <nav class="flex-1 px-4 py-6 space-y-2 overflow-y-auto">
+            <a href="#" class="flex items-center gap-3 px-3 py-2 text-gray-600 hover:bg-gray-100 rounded-lg transition-colors">
+                <span class="text-lg">🏠</span> Dashboard
+            </a>
+            <a href="#" class="flex items-center gap-3 px-3 py-2 bg-gray-100 text-gray-900 font-medium rounded-lg border-l-4 border-blue-600">
+                <span class="text-lg">📘</span> Grammar Basics
+            </a>
+            <a href="#" class="flex items-center gap-3 px-3 py-2 text-gray-600 hover:bg-gray-100 rounded-lg transition-colors">
+                <span class="text-lg">🌐</span> Vocabulary
+            </a>
+            <a href="#" class="flex items-center gap-3 px-3 py-2 text-gray-600 hover:bg-gray-100 rounded-lg transition-colors">
+                <span class="text-lg">🗣️</span> Speaking Skills
+            </a>
+            <a href="#" class="flex items-center gap-3 px-3 py-2 text-gray-600 hover:bg-gray-100 rounded-lg transition-colors">
+                <span class="text-lg">✍️</span> Writing Lab
+            </a>
+            <a href="#" class="flex items-center gap-3 px-3 py-2 text-gray-600 hover:bg-gray-100 rounded-lg transition-colors">
+                <span class="text-lg">💼</span> Business English
+            </a>
+            <a href="#" class="flex items-center gap-3 px-3 py-2 text-gray-600 hover:bg-gray-100 rounded-lg transition-colors">
+                <span class="text-lg">📝</span> Mock Tests
+            </a>
+            <a href="#" class="flex items-center gap-3 px-3 py-2 text-gray-600 hover:bg-gray-100 rounded-lg transition-colors">
+                <span class="text-lg">👥</span> Community
+            </a>
+        </nav>
+    </aside>
+
+    <!-- Main Content Area -->
+    <main class="flex-1 flex flex-col overflow-hidden">
+        <!-- Top Header -->
+        <header class="h-16 bg-white border-b border-gray-200 flex items-center justify-between px-8">
+            <!-- Search -->
+            <div class="relative w-96">
+                <input type="text" placeholder="Search courses, grammar, videos..." class="w-full pl-10 pr-4 py-2 bg-gray-50 border border-gray-200 rounded-full text-sm focus:outline-none focus:border-blue-500">
+                <span class="absolute left-3 top-2.5 text-gray-400">🔍</span>
+            </div>
+            
+            <!-- Right Actions -->
+            <div class="flex items-center gap-4">
+                <button class="w-8 h-8 flex items-center justify-center rounded-full bg-gray-100 hover:bg-gray-200 text-sm font-semibold">A+</button>
+                <button class="relative w-8 h-8 flex items-center justify-center rounded-full hover:bg-gray-100">
+                    🔔
+                    <span class="absolute top-1 right-1 w-2 h-2 bg-red-500 rounded-full"></span>
+                </button>
+                <div class="w-8 h-8 rounded-full bg-blue-100 overflow-hidden border border-gray-200 cursor-pointer">
+                    <img src="https://ui-avatars.com/api/?name=User&background=eff6ff&color=1d4ed8" alt="Profile" class="w-full h-full object-cover">
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Scrollable Content -->
+        <div class="flex-1 overflow-y-auto p-8">
+            <h1 class="text-3xl font-bold text-gray-900 mb-2">Welcome to <span class="text-blue-700">English Vidya</span></h1>
+            <p class="text-gray-600 font-medium mb-8">Your Learning Journey</p>
+
+            <!-- Active Courses Section -->
+            <div class="mb-10">
+                <h2 class="text-xl font-semibold mb-4">Active Courses</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    
+                    <!-- Card 1 -->
+                    <div class="bg-white rounded-2xl border border-gray-200 shadow-sm overflow-hidden flex flex-col">
+                        <div class="h-32 bg-gradient-to-r from-blue-700 to-indigo-800 p-4 flex items-end relative">
+                            <!-- Decorative BG pattern could go here -->
+                            <h3 class="text-white font-semibold text-lg relative z-10">Grammar<br>Fundamentals</h3>
+                        </div>
+                        <div class="p-5 flex-1 flex flex-col">
+                            <h4 class="font-semibold text-gray-900 mb-2">Grammar Fundamentals</h4>
+                            <div class="flex justify-between text-sm text-gray-500 mb-2">
+                                <span>10 Lessons</span>
+                                <span>45%</span>
+                            </div>
+                            <!-- Progress bar -->
+                            <div class="w-full bg-gray-200 rounded-full h-1.5 mb-4">
+                                <div class="bg-blue-600 h-1.5 rounded-full" style="width: 45%"></div>
+                            </div>
+                            <button class="mt-auto w-full py-2 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-xl transition-colors">Continue</button>
+                        </div>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="bg-white rounded-2xl border border-gray-200 shadow-sm overflow-hidden flex flex-col">
+                        <div class="h-32 bg-gradient-to-r from-blue-600 to-blue-800 p-4 flex items-end relative">
+                             <h3 class="text-white font-semibold text-lg relative z-10">Essential<br>Vocabulary</h3>
+                             <div class="absolute top-4 right-4 bg-orange-400 text-white text-xs font-bold px-2 py-1 rounded">A+</div>
+                        </div>
+                        <div class="p-5 flex-1 flex flex-col">
+                            <h4 class="font-semibold text-gray-900 mb-2">Essential Vocabulary</h4>
+                            <div class="flex justify-between text-sm text-gray-500 mb-2">
+                                <span>8 Lessons</span>
+                                <span>20%</span>
+                            </div>
+                            <!-- Progress bar -->
+                            <div class="w-full bg-gray-200 rounded-full h-1.5 mb-4">
+                                <div class="bg-blue-600 h-1.5 rounded-full" style="width: 20%"></div>
+                            </div>
+                            <button class="mt-auto w-full py-2 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-xl transition-colors">Start</button>
+                        </div>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="bg-white rounded-2xl border border-gray-200 shadow-sm overflow-hidden flex flex-col">
+                        <div class="h-32 bg-gradient-to-r from-indigo-500 to-purple-600 p-4 flex items-end">
+                             <h3 class="text-white font-semibold text-lg">Speaking<br>English</h3>
+                        </div>
+                        <div class="p-5 flex-1 flex flex-col">
+                            <h4 class="font-semibold text-gray-900 mb-2">Speaking English</h4>
+                            <div class="flex justify-between text-sm text-gray-500 mb-2">
+                                <span>12 Lessons</span>
+                                <span>0%</span>
+                            </div>
+                            <!-- Progress bar -->
+                            <div class="w-full bg-gray-200 rounded-full h-1.5 mb-4">
+                                <div class="bg-blue-600 h-1.5 rounded-full" style="width: 0%"></div>
+                            </div>
+                            <button class="mt-auto w-full py-2 border border-gray-300 text-gray-700 hover:bg-gray-50 font-medium rounded-xl transition-colors">Explore</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Recommended Section -->
+            <div>
+                <h2 class="text-xl font-semibold mb-4">Recommended for You</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    
+                    <!-- Rec Card 1 -->
+                    <div class="bg-white rounded-2xl border border-gray-200 shadow-sm p-4 cursor-pointer hover:shadow-md transition-shadow">
+                        <div class="w-full h-36 bg-gray-200 rounded-xl mb-4 overflow-hidden relative">
+                            <!-- Placeholder for Image -->
+                            <div class="absolute inset-0 bg-gray-800/40 flex items-center justify-center">
+                                <span class="text-white font-bold text-xl">TENSE MASTERY</span>
+                            </div>
+                        </div>
+                        <h4 class="font-semibold text-gray-900">Tense Mastery</h4>
+                        <p class="text-sm text-gray-500">10 Lessons Tense Mastery</p>
+                    </div>
+
+                    <!-- Rec Card 2 -->
+                    <div class="bg-white rounded-2xl border border-gray-200 shadow-sm p-4 cursor-pointer hover:shadow-md transition-shadow">
+                        <div class="w-full h-36 bg-gray-200 rounded-xl mb-4 overflow-hidden relative">
+                            <!-- Placeholder for Image -->
+                            <div class="absolute inset-0 bg-gray-800/60 flex items-center justify-center">
+                                <span class="text-white font-bold text-xl">IDIOMS & PHRASES</span>
+                            </div>
+                        </div>
+                        <h4 class="font-semibold text-gray-900">Idioms & Phrases</h4>
+                        <p class="text-sm text-gray-500">10 Lessons Idiom & Phrases</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer area -->
+            <div class="mt-12 pt-6 border-t border-gray-200 flex flex-wrap justify-between items-center text-sm text-gray-500">
+                <div class="flex gap-4">
+                    <a href="#" class="hover:text-gray-800">About</a>
+                    <a href="#" class="hover:text-gray-800">Contact</a>
+                    <a href="#" class="hover:text-gray-800">Terms</a>
+                    <a href="#" class="hover:text-gray-800">Privacy</a>
+                    <a href="#" class="hover:text-gray-800">Careers</a>
+                </div>
+                <div class="mt-4 md:mt-0">
+                    &copy; 2024 English Vidya. All Rights Reserved.
+                </div>
+            </div>
+
+        </div>
+    </main>
+</body>
+</html>

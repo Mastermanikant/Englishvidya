@@ -1,0 +1,297 @@
+{
+    "word": "Pear",
+    "slug": "pear",
+    "category": "fruits",
+    "translations": [
+        {
+            "tense": "To Be - Present Affirmative",
+            "en": "This is a pear.",
+            "hi": "यह एक नाशपाती है।"
+        },
+        {
+            "tense": "To Be - Present Affirmative (Plural)",
+            "en": "These are pears.",
+            "hi": "ये नाशपाती हैं।"
+        },
+        {
+            "tense": "To Be - Past Affirmative",
+            "en": "That was a pear.",
+            "hi": "वह एक नाशपाती थी।"
+        },
+        {
+            "tense": "To Be - Past Affirmative (Plural)",
+            "en": "Those were pears.",
+            "hi": "वे नाशपाती थीं।"
+        },
+        {
+            "tense": "To Be - Present Negative",
+            "en": "This is not a pear.",
+            "hi": "यह एक नाशपाती नहीं है।"
+        },
+        {
+            "tense": "To Be - Present Negative (Plural)",
+            "en": "These are not pears.",
+            "hi": "ये नाशपाती नहीं हैं।"
+        },
+        {
+            "tense": "To Be - Present Interrogative",
+            "en": "Is this a pear?",
+            "hi": "क्या यह एक नाशपाती है?"
+        },
+        {
+            "tense": "To Be - Present Interrogative (Plural)",
+            "en": "Are these pears?",
+            "hi": "क्या ये नाशपाती हैं?"
+        },
+        {
+            "tense": "To Be - Past Interrogative",
+            "en": "Was that a pear?",
+            "hi": "क्या वह एक नाशपाती थी?"
+        },
+        {
+            "tense": "To Be - Wh-Question",
+            "en": "Where is the pear?",
+            "hi": "नाशपाती कहाँ है?"
+        },
+        {
+            "tense": "To Be - Wh-Question (Plural)",
+            "en": "Where are the pears?",
+            "hi": "नाशपाती कहाँ हैं?"
+        },
+        {
+            "tense": "To Be - Wh-Question (Why)",
+            "en": "Why is this pear here?",
+            "hi": "यह नाशपाती यहाँ क्यों है?"
+        },
+        {
+            "tense": "To Have - Present Affirmative",
+            "en": "I have a pear.",
+            "hi": "मेरे पास एक नाशपाती है।"
+        },
+        {
+            "tense": "To Have - Present Affirmative (Plural)",
+            "en": "I have many pears.",
+            "hi": "मेरे पास कई नाशपाती हैं।"
+        },
+        {
+            "tense": "To Have - Past Affirmative",
+            "en": "I had a pear.",
+            "hi": "मेरे पास एक नाशपाती थी।"
+        },
+        {
+            "tense": "To Have - Present Negative",
+            "en": "I don't have a pear.",
+            "hi": "मेरे पास नाशपाती नहीं है।"
+        },
+        {
+            "tense": "To Have - Present Interrogative",
+            "en": "Do you have a pear?",
+            "hi": "क्या तुम्हारे पास एक नाशपाती है?"
+        },
+        {
+            "tense": "To Have - Past Interrogative",
+            "en": "Did you have a pear?",
+            "hi": "क्या तुम्हारे पास एक नाशपाती थी?"
+        },
+        {
+            "tense": "To Have - Wh-Question",
+            "en": "How many pears do you have?",
+            "hi": "तुम्हारे पास कितने नाशपाती हैं?"
+        },
+        {
+            "tense": "Simple Present - Affirmative",
+            "en": "I eat a pear every day.",
+            "hi": "मैं हर दिन एक नाशपाती खाता हूँ।"
+        },
+        {
+            "tense": "Simple Present - Negative",
+            "en": "I don't eat pears.",
+            "hi": "मैं नाशपाती नहीं खाता हूँ।"
+        },
+        {
+            "tense": "Simple Present - Interrogative",
+            "en": "Do you eat pears?",
+            "hi": "क्या तुम नाशपाती खाते हो?"
+        },
+        {
+            "tense": "Simple Present - Wh-Question",
+            "en": "When do you eat a pear?",
+            "hi": "तुम नाशपाती कब खाते हो?"
+        },
+        {
+            "tense": "Present Continuous - Affirmative",
+            "en": "I am eating a pear.",
+            "hi": "मैं एक नाशपाती खा रहा हूँ।"
+        },
+        {
+            "tense": "Present Continuous - Negative",
+            "en": "I am not eating a pear.",
+            "hi": "मैं नाशपाती नहीं खा रहा हूँ।"
+        },
+        {
+            "tense": "Present Continuous - Interrogative",
+            "en": "Are you eating a pear?",
+            "hi": "क्या तुम नाशपाती खा रहे हो?"
+        },
+        {
+            "tense": "Present Continuous - Wh-Question",
+            "en": "Why are you eating my pear?",
+            "hi": "तुम मेरा नाशपाती क्यों खा रहे हो?"
+        },
+        {
+            "tense": "Present Perfect - Affirmative",
+            "en": "I have eaten the pear.",
+            "hi": "मैंने नाशपाती खा लिया है।"
+        },
+        {
+            "tense": "Present Perfect - Negative",
+            "en": "I have not eaten the pear.",
+            "hi": "मैंने नाशपाती नहीं खाया है।"
+        },
+        {
+            "tense": "Present Perfect - Interrogative",
+            "en": "Have you eaten the pear?",
+            "hi": "क्या तुमने नाशपाती खा लिया है?"
+        },
+        {
+            "tense": "Simple Past - Affirmative",
+            "en": "I bought a pear yesterday.",
+            "hi": "मैंने कल एक नाशपाती खरीदी थी।"
+        },
+        {
+            "tense": "Simple Past - Negative",
+            "en": "I didn't buy a pear.",
+            "hi": "मैंने नाशपाती नहीं खरीदी।"
+        },
+        {
+            "tense": "Simple Past - Interrogative",
+            "en": "Did you buy a pear?",
+            "hi": "क्या तुमने एक नाशपाती खरीदी?"
+        },
+        {
+            "tense": "Simple Past - Wh-Question",
+            "en": "Where did you buy this pear?",
+            "hi": "तुमने यह नाशपाती कहाँ से खरीदी?"
+        },
+        {
+            "tense": "Past Continuous - Affirmative",
+            "en": "I was eating a pear when you called.",
+            "hi": "जब तुमने फोन किया तब मैं एक नाशपाती खा रहा था।"
+        },
+        {
+            "tense": "Past Continuous - Interrogative",
+            "en": "Were you eating a pear?",
+            "hi": "क्या तुम एक नाशपाती खा रहे थे?"
+        },
+        {
+            "tense": "Simple Future - Affirmative",
+            "en": "I will eat a pear tomorrow.",
+            "hi": "मैं कल एक नाशपाती खाऊँगा।"
+        },
+        {
+            "tense": "Simple Future - Negative",
+            "en": "I will not eat the pear.",
+            "hi": "मैं वह नाशपाती नहीं खाऊँगा।"
+        },
+        {
+            "tense": "Simple Future - Interrogative",
+            "en": "Will you eat this pear?",
+            "hi": "क्या तुम यह नाशपाती खाओगे?"
+        },
+        {
+            "tense": "Modal - Can",
+            "en": "Can you peel this pear?",
+            "hi": "क्या तुम यह नाशपाती छील सकते हो?"
+        },
+        {
+            "tense": "Modal - Should",
+            "en": "You should eat a pear.",
+            "hi": "तुम्हें एक नाशपाती खाना चाहिए।"
+        },
+        {
+            "tense": "Modal - Must",
+            "en": "You must buy fresh pears.",
+            "hi": "तुम्हें ताज़े नाशपाती ही खरीदने चाहिए।"
+        },
+        {
+            "tense": "Modal - May",
+            "en": "May I have a pear?",
+            "hi": "क्या मैं एक नाशपाती ले सकता हूँ?"
+        },
+        {
+            "tense": "Modal - Would",
+            "en": "Would you like a pear?",
+            "hi": "क्या आप एक नाशपाती लेना पसंद करेंगे?"
+        },
+        {
+            "tense": "Imperative - Affirmative",
+            "en": "Eat this pear.",
+            "hi": "यह नाशपाती खाओ।"
+        },
+        {
+            "tense": "Imperative - Negative",
+            "en": "Don't eat that pear.",
+            "hi": "वह नाशपाती मत खाओ।"
+        },
+        {
+            "tense": "Passive Voice - Present",
+            "en": "The pear is eaten.",
+            "hi": "नाशपाती खाई जाती है।"
+        },
+        {
+            "tense": "Passive Voice - Past",
+            "en": "The pear was eaten by him.",
+            "hi": "नाशपाती उसके द्वारा खाई गई थी।"
+        },
+        {
+            "tense": "Location/Preposition",
+            "en": "The pear is on the table.",
+            "hi": "नाशपाती मेज़ पर है।"
+        },
+        {
+            "tense": "Location/Preposition",
+            "en": "There is a pear in the basket.",
+            "hi": "टोकरी में एक नाशपाती है।"
+        },
+        {
+            "tense": "Location/Preposition",
+            "en": "The monkey is holding a pear.",
+            "hi": "बंदर ने एक नाशपाती पकड़ा हुआ है।"
+        },
+        {
+            "tense": "Adjective Use",
+            "en": "This pear is sweet.",
+            "hi": "यह नाशपाती मीठी है।"
+        },
+        {
+            "tense": "Adjective Use",
+            "en": "That pear is rotten.",
+            "hi": "वह नाशपाती सड़ी हुई है।"
+        },
+        {
+            "tense": "Adjective Use",
+            "en": "I need a ripe pear.",
+            "hi": "मुझे एक पकी हुई नाशपाती चाहिए।"
+        },
+        {
+            "tense": "Action - Cutting",
+            "en": "I am cutting the pear.",
+            "hi": "मैं नाशपाती काट रहा हूँ।"
+        },
+        {
+            "tense": "Action - Peeling",
+            "en": "Please peel the pear.",
+            "hi": "कृपया नाशपाती छील दो।"
+        },
+        {
+            "tense": "Action - Buying",
+            "en": "She is buying pears.",
+            "hi": "वह नाशपाती खरीद रही है।"
+        },
+        {
+            "tense": "Action - Washing",
+            "en": "Wash the pear before eating.",
+            "hi": "खाने से पहले नाशपाती धो लो।"
+        }
+    ]
+}

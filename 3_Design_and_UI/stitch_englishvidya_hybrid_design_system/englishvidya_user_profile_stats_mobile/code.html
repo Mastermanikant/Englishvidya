@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>User Profile &amp; Stats | EnglishVidya</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&amp;family=Outfit:wght@600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "on-secondary-fixed-variant": "#5a00c6",
+                      "secondary-fixed": "#eaddff",
+                      "on-secondary-container": "#c9aeff",
+                      "inverse-on-surface": "#283044",
+                      "surface-variant": "#2d3449",
+                      "surface-container-lowest": "#060e20",
+                      "text-primary": "#f8fafc",
+                      "surface-tint": "#b4c5ff",
+                      "background": "#0b1326",
+                      "surface-bright": "#31394d",
+                      "primary-fixed-dim": "#b4c5ff",
+                      "on-secondary": "#3f008e",
+                      "on-primary-fixed": "#00174b",
+                      "surface-container-high": "#222a3d",
+                      "inverse-surface": "#dae2fd",
+                      "on-surface": "#dae2fd",
+                      "surface-raised": "#1e293b",
+                      "secondary-container": "#6001d1",
+                      "on-tertiary": "#472a00",
+                      "surface": "#0b1326",
+                      "secondary": "#d2bbff",
+                      "on-secondary-fixed": "#25005a",
+                      "on-primary-container": "#eeefff",
+                      "on-primary": "#002a78",
+                      "on-error-container": "#ffdad6",
+                      "surface-dim": "#0b1326",
+                      "tertiary": "#ffb95f",
+                      "surface-glass": "rgba(30, 41, 59, 0.7)",
+                      "tertiary-fixed-dim": "#ffb95f",
+                      "on-tertiary-fixed": "#2a1700",
+                      "tertiary-container": "#996100",
+                      "on-primary-fixed-variant": "#003ea8",
+                      "tertiary-fixed": "#ffddb8",
+                      "on-tertiary-fixed-variant": "#653e00",
+                      "outline-variant": "#434655",
+                      "surface-container-low": "#131b2e",
+                      "on-tertiary-container": "#ffeedd",
+                      "success-emerald": "#10b981",
+                      "inverse-primary": "#0053db",
+                      "secondary-fixed-dim": "#d2bbff",
+                      "error": "#ffb4ab",
+                      "surface-container": "#171f33",
+                      "on-background": "#dae2fd",
+                      "error-container": "#93000a",
+                      "error-crimson": "#dc2626",
+                      "outline": "#8d90a0",
+                      "surface-container-highest": "#2d3449",
+                      "text-secondary": "#d4d4d8",
+                      "primary-container": "#2563eb",
+                      "on-surface-variant": "#c3c6d7",
+                      "primary-fixed": "#dbe1ff",
+                      "primary": "#b4c5ff",
+                      "on-error": "#690005"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0.25rem",
+                      "lg": "0.5rem",
+                      "xl": "0.75rem",
+                      "full": "9999px"
+              },
+              "spacing": {
+                      "sp-2": "8px",
+                      "sp-6": "24px",
+                      "sp-4": "16px",
+                      "container-max": "1000px",
+                      "sp-8": "32px",
+                      "sp-3": "12px",
+                      "bottom-nav-height": "65px",
+                      "unit": "4px",
+                      "sp-12": "48px",
+                      "sidebar-width": "256px",
+                      "sp-1": "4px"
+              },
+              "fontFamily": {
+                      "headline-lg-mobile": [
+                              "Outfit"
+                      ],
+                      "body-bold": [
+                              "Inter"
+                      ],
+                      "headline-md": [
+                              "Outfit"
+                      ],
+                      "headline-lg": [
+                              "Outfit"
+                      ],
+                      "body-base": [
+                              "Inter"
+                      ],
+                      "display-xl": [
+                              "Outfit"
+                      ],
+                      "label-caps": [
+                              "Outfit"
+                      ],
+                      "headline-sm": [
+                              "Outfit"
+                      ]
+              },
+              "fontSize": {
+                      "headline-lg-mobile": [
+                              "28px",
+                              {
+                                      "lineHeight": "36px",
+                                      "letterSpacing": "-0.02em",
+                                      "fontWeight": "800"
+                              }
+                      ],
+                      "body-bold": [
+                              "17px",
+                              {
+                                      "lineHeight": "30px",
+                                      "letterSpacing": "0em",
+                                      "fontWeight": "600"
+                              }
+                      ],
+                      "headline-md": [
+                              "23px",
+                              {
+                                      "lineHeight": "30px",
+                                      "letterSpacing": "0em",
+                                      "fontWeight": "700"
+                              }
+                      ],
+                      "headline-lg": [
+                              "32px",
+                              {
+                                      "lineHeight": "40px",
+                                      "letterSpacing": "-0.02em",
+                                      "fontWeight": "800"
+                              }
+                      ],
+                      "body-base": [
+                              "17px",
+                              {
+                                      "lineHeight": "30px",
+                                      "letterSpacing": "0em",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "display-xl": [
+                              "40px",
+                              {
+                                      "lineHeight": "48px",
+                                      "letterSpacing": "-0.03em",
+                                      "fontWeight": "850"
+                              }
+                      ],
+                      "label-caps": [
+                              "12px",
+                              {
+                                      "lineHeight": "16px",
+                                      "letterSpacing": "0.12em",
+                                      "fontWeight": "800"
+                              }
+                      ],
+                      "headline-sm": [
+                              "18px",
+                              {
+                                      "lineHeight": "24px",
+                                      "letterSpacing": "0em",
+                                      "fontWeight": "600"
+                              }
+                      ]
+              }
+      },
+          },
+        }
+      </script>
+<style>
+        .glass-panel {
+            background: rgba(30, 41, 59, 0.4);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .gradient-text {
+            background: linear-gradient(135deg, #b4c5ff, #d2bbff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .ambient-glow {
+            box-shadow: 0 0 20px rgba(37, 99, 235, 0.2);
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background text-text-primary font-body-base pb-[85px]">
+<!-- Header / TopNav (Mobile context, profile specific) -->
+<header class="bg-surface-glass backdrop-blur-xl fixed top-0 w-full z-50 shadow-sm border-b border-outline-variant/20 px-sp-6 h-sp-12 flex justify-between items-center max-w-container-max mx-auto md:hidden">
+<h1 class="font-headline-md text-headline-md text-primary tracking-tight">Profile</h1>
+<div class="flex gap-sp-4">
+<button class="text-primary"><span class="material-symbols-outlined">notifications</span></button>
+<button class="text-primary"><span class="material-symbols-outlined">settings</span></button>
+</div>
+</header>
+<main class="pt-sp-12 md:pt-0 max-w-container-max mx-auto md:px-sp-6 md:grid md:grid-cols-12 md:gap-sp-6 md:py-sp-8">
+<!-- Mobile Profile Content -->
+<div class="md:col-span-8 md:col-start-3">
+<!-- User Info Header -->
+<section class="flex flex-col items-center py-sp-8 px-sp-6">
+<div class="relative w-24 h-24 mb-sp-4">
+<img class="w-full h-full rounded-full object-cover border-2 border-primary ambient-glow" data-alt="A high-quality, professional headshot of a young Indian male student looking confident. He is wearing casual, modern clothing. The background is a clean, dark slate blue with a subtle indigo glow, matching the dark mode, modern native app aesthetic of the design. High contrast, well-lit, shallow depth of field." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAuJ33WxbFL7e7Gcsz6y0LuhXk8Pa8n0iNySDmgNMcVvcr79xMWUxsCgr2QYfk525yH0OlceKcaWvGiUQwMWssGI3bA1e3SI6JSCstsL_cOcrjVvYAEKna1uARjAB_KI3L0rnjWuNzelx7_YvfsoxBqyC9knI4e-ctt8dWbdLfP_w73iYRbQjjQm_qVX7J-E3pyQ9sPnlRw8m3a_GqJr8N1jGU74baUJCk1HkYNnA2PsFyvA0mX4M75FBcTo1oMeJxMdnLet-h1098"/>
+<div class="absolute bottom-0 right-0 bg-primary-container text-text-primary rounded-full w-8 h-8 flex items-center justify-center border-2 border-background">
+<span class="material-symbols-outlined" style="font-size: 16px;">edit</span>
+</div>
+</div>
+<h2 class="font-headline-lg-mobile text-headline-lg-mobile md:font-headline-lg md:text-headline-lg text-text-primary mb-sp-1">Amit Kumar</h2>
+<div class="bg-surface-raised border border-outline-variant/30 px-sp-3 py-sp-1 rounded-full flex items-center gap-sp-2">
+<span class="material-symbols-outlined text-tertiary" style="font-size: 14px;">school</span>
+<span class="font-label-caps text-label-caps text-text-secondary">Hindi-Medium</span>
+</div>
+</section>
+<!-- Gamification Stats Grid -->
+<section class="px-sp-4 mb-sp-8 grid grid-cols-2 gap-sp-4">
+<!-- Coins -->
+<div class="glass-panel rounded-xl p-sp-4 flex flex-col items-center text-center relative overflow-hidden group hover:-translate-y-1 transition-transform">
+<div class="absolute -top-4 -right-4 w-16 h-16 bg-tertiary/20 rounded-full blur-xl"></div>
+<span class="material-symbols-outlined text-tertiary mb-sp-2" style="font-variation-settings: 'FILL' 1; font-size: 32px;">monetization_on</span>
+<span class="font-headline-md text-headline-md text-text-primary mb-sp-1">1,240</span>
+<span class="font-label-caps text-label-caps text-text-secondary">Frankbase Coins</span>
+</div>
+<!-- Streak -->
+<div class="glass-panel rounded-xl p-sp-4 flex flex-col items-center text-center relative overflow-hidden group hover:-translate-y-1 transition-transform">
+<div class="absolute -top-4 -right-4 w-16 h-16 bg-success-emerald/20 rounded-full blur-xl"></div>
+<span class="material-symbols-outlined text-success-emerald mb-sp-2" style="font-variation-settings: 'FILL' 1; font-size: 32px;">local_fire_department</span>
+<span class="font-headline-md text-headline-md text-text-primary mb-sp-1">12 Days</span>
+<span class="font-label-caps text-label-caps text-text-secondary">Current Streak</span>
+</div>
+<!-- Words Mastered -->
+<div class="col-span-2 glass-panel rounded-xl p-sp-4 flex justify-between items-center relative overflow-hidden group hover:-translate-y-1 transition-transform border-l-4 border-l-primary">
+<div class="flex items-center gap-sp-4">
+<div class="bg-primary/20 p-sp-2 rounded-lg">
+<span class="material-symbols-outlined text-primary" style="font-variation-settings: 'FILL' 1; font-size: 28px;">school</span>
+</div>
+<div class="flex flex-col text-left">
+<span class="font-headline-md text-headline-md text-text-primary">342</span>
+<span class="font-label-caps text-label-caps text-text-secondary">Words Mastered</span>
+</div>
+</div>
+<button class="text-primary flex items-center">
+<span class="font-body-bold text-body-bold text-sm mr-1">View</span>
+<span class="material-symbols-outlined" style="font-size: 18px;">arrow_forward</span>
+</button>
+</div>
+</section>
+<!-- Learning Progress -->
+<section class="px-sp-4 mb-sp-8">
+<h3 class="font-headline-sm text-headline-sm text-text-primary mb-sp-4">Learning Progress</h3>
+<div class="space-y-sp-4">
+<!-- Grammar Progress -->
+<div class="bg-surface-raised rounded-xl p-sp-4 border border-outline-variant/20 flex items-center gap-sp-4">
+<div class="relative w-16 h-16 flex-shrink-0">
+<!-- SVG Circle Progress -->
+<svg class="w-full h-full transform -rotate-90" viewbox="0 0 36 36">
+<path class="text-surface-container-high" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="currentColor" stroke-width="3"></path>
+<path class="text-primary" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="currentColor" stroke-dasharray="60, 100" stroke-linecap="round" stroke-width="3"></path>
+</svg>
+<div class="absolute inset-0 flex items-center justify-center font-body-bold text-body-bold text-sm text-text-primary">
+                                Lvl 3
+                            </div>
+</div>
+<div class="flex-grow">
+<h4 class="font-body-bold text-body-bold text-text-primary mb-sp-1">Core Grammar</h4>
+<p class="font-body-base text-body-base text-sm text-text-secondary">Level 3 of 5 Completed</p>
+</div>
+</div>
+<!-- BSEB Progress -->
+<div class="bg-surface-raised rounded-xl p-sp-4 border border-outline-variant/20 flex items-center gap-sp-4">
+<div class="relative w-16 h-16 flex-shrink-0">
+<svg class="w-full h-full transform -rotate-90" viewbox="0 0 36 36">
+<path class="text-surface-container-high" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="currentColor" stroke-width="3"></path>
+<path class="text-secondary" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="currentColor" stroke-dasharray="65, 100" stroke-linecap="round" stroke-width="3"></path>
+</svg>
+<div class="absolute inset-0 flex items-center justify-center font-body-bold text-body-bold text-sm text-text-primary">
+                                65%
+                            </div>
+</div>
+<div class="flex-grow">
+<h4 class="font-body-bold text-body-bold text-text-primary mb-sp-1">Bihar Board Syllabus</h4>
+<p class="font-body-base text-body-base text-sm text-text-secondary">Class 12th Track</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Achievements -->
+<section class="px-sp-4 mb-sp-8">
+<div class="flex justify-between items-center mb-sp-4">
+<h3 class="font-headline-sm text-headline-sm text-text-primary">Recent Achievements</h3>
+<button class="text-primary font-body-bold text-body-bold text-sm">See All</button>
+</div>
+<div class="flex gap-sp-4 overflow-x-auto pb-sp-4 hide-scrollbar">
+<!-- Badge 1 -->
+<div class="bg-surface-container p-sp-4 rounded-xl border border-outline-variant/20 flex flex-col items-center min-w-[120px] shrink-0">
+<div class="w-12 h-12 rounded-full bg-tertiary/20 flex items-center justify-center mb-sp-2 border border-tertiary/50">
+<span class="material-symbols-outlined text-tertiary" style="font-variation-settings: 'FILL' 1;">workspace_premium</span>
+</div>
+<span class="font-body-bold text-body-bold text-sm text-text-primary text-center">Early Bird</span>
+</div>
+<!-- Badge 2 -->
+<div class="bg-surface-container p-sp-4 rounded-xl border border-outline-variant/20 flex flex-col items-center min-w-[120px] shrink-0">
+<div class="w-12 h-12 rounded-full bg-primary/20 flex items-center justify-center mb-sp-2 border border-primary/50">
+<span class="material-symbols-outlined text-primary" style="font-variation-settings: 'FILL' 1;">psychology</span>
+</div>
+<span class="font-body-bold text-body-bold text-sm text-text-primary text-center">Quick Learner</span>
+</div>
+<!-- Badge 3 (Locked) -->
+<div class="bg-surface-container-lowest p-sp-4 rounded-xl border border-outline-variant/10 flex flex-col items-center min-w-[120px] shrink-0 opacity-50">
+<div class="w-12 h-12 rounded-full bg-surface-variant flex items-center justify-center mb-sp-2">
+<span class="material-symbols-outlined text-text-secondary">lock</span>
+</div>
+<span class="font-body-bold text-body-bold text-sm text-text-secondary text-center">Grammar Pro</span>
+</div>
+</div>
+</section>
+<!-- Settings Links -->
+<section class="px-sp-4 mb-sp-8">
+<div class="bg-surface-raised rounded-xl overflow-hidden border border-outline-variant/20">
+<a class="flex items-center justify-between p-sp-4 border-b border-outline-variant/10 hover:bg-surface-container-highest transition-colors" href="#">
+<div class="flex items-center gap-sp-3">
+<span class="material-symbols-outlined text-text-secondary">person</span>
+<span class="font-body-base text-body-base text-text-primary">Edit Profile</span>
+</div>
+<span class="material-symbols-outlined text-text-secondary">chevron_right</span>
+</a>
+<a class="flex items-center justify-between p-sp-4 border-b border-outline-variant/10 hover:bg-surface-container-highest transition-colors" href="#">
+<div class="flex items-center gap-sp-3">
+<span class="material-symbols-outlined text-text-secondary">notifications</span>
+<span class="font-body-base text-body-base text-text-primary">Notifications</span>
+</div>
+<span class="material-symbols-outlined text-text-secondary">chevron_right</span>
+</a>
+<a class="flex items-center justify-between p-sp-4 border-b border-outline-variant/10 hover:bg-surface-container-highest transition-colors" href="#">
+<div class="flex items-center gap-sp-3">
+<span class="material-symbols-outlined text-tertiary">share</span>
+<span class="font-body-base text-body-base text-text-primary">Referral Link</span>
+</div>
+<span class="material-symbols-outlined text-text-secondary">chevron_right</span>
+</a>
+<a class="flex items-center justify-between p-sp-4 hover:bg-surface-container-highest transition-colors text-error-crimson" href="#">
+<div class="flex items-center gap-sp-3">
+<span class="material-symbols-outlined">logout</span>
+<span class="font-body-base text-body-base">Log Out</span>
+</div>
+</a>
+</div>
+</section>
+</div>
+</main>
+<!-- BottomNavBar -->
+<nav class="bg-surface-container dark:bg-surface-container-low fixed bottom-0 w-full h-[65px] z-50 border-t border-outline-variant/20 shadow-[0_-4px_12px_rgba(37,99,235,0.15)] fixed bottom-0 left-0 w-full flex justify-around items-center px-sp-2 md:hidden">
+<a class="flex flex-col items-center justify-center text-on-surface-variant hover:bg-surface-container-highest transition-colors w-16" href="#">
+<span class="material-symbols-outlined mb-1">home</span>
+<span class="font-label-caps text-label-caps text-secondary dark:text-secondary-fixed-dim">Home</span>
+</a>
+<a class="flex flex-col items-center justify-center text-on-surface-variant hover:bg-surface-container-highest transition-colors w-16" href="#">
+<span class="material-symbols-outlined mb-1">menu_book</span>
+<span class="font-label-caps text-label-caps text-secondary dark:text-secondary-fixed-dim">Learn</span>
+</a>
+<a class="flex flex-col items-center justify-center text-on-surface-variant hover:bg-surface-container-highest transition-colors w-16" href="#">
+<span class="material-symbols-outlined mb-1">style</span>
+<span class="font-label-caps text-label-caps text-secondary dark:text-secondary-fixed-dim">Cards</span>
+</a>
+<a class="flex flex-col items-center justify-center text-on-surface-variant hover:bg-surface-container-highest transition-colors w-16" href="#">
+<span class="material-symbols-outlined mb-1">monetization_on</span>
+<span class="font-label-caps text-label-caps text-secondary dark:text-secondary-fixed-dim">Earn</span>
+</a>
+<a class="flex flex-col items-center justify-center bg-secondary-container text-on-secondary-container rounded-xl px-sp-4 py-sp-1 hover:bg-surface-container-highest transition-colors Active: scale-90 duration-200 w-20" href="#">
+<span class="material-symbols-outlined mb-1" style="font-variation-settings: 'FILL' 1;">person</span>
+<span class="font-label-caps text-label-caps text-secondary dark:text-secondary-fixed-dim">Profile</span>
+</a>
+</nav>
+<style>
+        /* Hide scrollbar for horizontal scroll areas but keep functionality */
+        .hide-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .hide-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+    </style>
+</body></html>

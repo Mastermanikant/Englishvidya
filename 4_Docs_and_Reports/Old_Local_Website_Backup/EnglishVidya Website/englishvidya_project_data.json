@@ -1,0 +1,123 @@
+{
+  "project_name": "English Vidya",
+  "tagline": "Learn English Grammar & Vocabulary from Zero (Zero-se-Hero)",
+  "mission": "Empowering Hindi-medium students from states like Bihar and Uttar Pradesh to master English Grammar and Vocabulary through simple Hinglish explanations, phonetic Devanagari pronunciations, and custom study plans.",
+  "target_audience": {
+    "personas": [
+      {
+        "name": "School Student (Primary)",
+        "age_group": "11-18 years (Class 6 to Class 12)",
+        "demographics": "Hindi-medium backgrounds, primarily residing in Bihar, Uttar Pradesh, Madhya Pradesh, Rajasthan, Jharkhand, and Chhattisgarh.",
+        "goals": "Understand grammar fundamentals from scratch, complete homework, pass school exams.",
+        "device_preference": "Mobile phones (60%+)"
+      },
+      {
+        "name": "Board Exam Student (Secondary)",
+        "classes": ["Class 10", "Class 12"],
+        "goals": "Score high marks in Board exams, master NCERT chapter summaries and textbook-based questions.",
+        "needs": "Bilingual chapter summaries, important questions, exam prep, and specific NCERT-aligned grammar exercises."
+      },
+      {
+        "name": "Competitive Exam Aspirant",
+        "exams": ["SSC CGL", "SSC CHSL", "Bank PO/Clerk", "Railway", "UPSC (English paper)", "State PSC", "Defence"],
+        "goals": "Crack the English grammar and vocabulary sections of competitive exams.",
+        "needs": "Advanced grammar rules, error detection, sentence improvement, active-passive voice, direct-indirect narration, high-frequency vocabulary."
+      }
+    ]
+  },
+  "website_architecture": {
+    "technology_stack": {
+      "ssg": "Eleventy (11ty) static site compiler",
+      "hosting": "Cloudflare Pages (Serverless & CDN)",
+      "pwa": "Offline-first Progressive Web App (manifest.json, service-worker.js)",
+      "styling": "Modern UI with default dark mode, glassmorphism, responsive styles",
+      "search": "Zero-backend local JSON compressed index search"
+    },
+    "sections": [
+      {
+        "name": "Universal Grammar",
+        "url_path": "/grammar/",
+        "description": "Step-by-step Hindi-English bilingual grammar chapters from zero to advanced."
+      },
+      {
+        "name": "Class 10 English",
+        "url_path": "/class-10/",
+        "description": "NCERT book summaries (First Flight, Footprints Without Feet) and exercises."
+      },
+      {
+        "name": "Class 12 English",
+        "url_path": "/class-12/",
+        "description": "NCERT book summaries (Flamingo, Vistas) and exercises."
+      },
+      {
+        "name": "Online Dictionary",
+        "url_path": "/dictionary/",
+        "description": "Over 19,000 static word meaning pages with Devanagari pronunciation transliteration and examples."
+      },
+      {
+        "name": "Flashcards App",
+        "url_path": "/#flashcards",
+        "description": "Spaced repetition vocabulary building tool."
+      },
+      {
+        "name": "Competitive Exams",
+        "url_path": "/competitive/",
+        "description": "Practice sets, fill-in-the-blanks, error correction quizzes, and rule indexes."
+      }
+    ]
+  },
+  "pedagogy_usps": [
+    "Bilingual hinges: Explanations in natural Hindi, with terms and rules in English.",
+    "SOV to SVO: Clear transition training from Hindi Subject-Object-Verb syntax to English Subject-Verb-Object syntax.",
+    "Devanagari Pronunciation: English pronunciations transliterated in Devanagari script (e.g. 'मैंगो' for /mæŋ.ɡoʊ/) to overcome pronunciation shyness.",
+    "Accordion Vocabularies: Contextual word lists hidden behind expandable `<details>` tags.",
+    "Common Mistakes Highlights: Proactively warning students about common Hindi-to-English translation errors."
+  ],
+  "grammar_syllabus": [
+    { "module": 1, "title": "Course Overview & What We Teach" },
+    { "module": 2, "title": "Language and Communication (Hindi vs. English basics)" },
+    { "module": 3, "title": "Alphabet, Phonics, and Pronunciation (Silent letters, vowels)" },
+    { "module": 4, "title": "Advanced Pronunciation & Accent Training" },
+    { "module": 5, "title": "Words, Sentences, and Structures (Subject-Verb-Object word order)" },
+    { "module": 6, "title": "Parts of Speech Overview (Noun to Interjection introduction)" },
+    { "module": 7, "title": "Noun System Deep Study (Types, gender, singular/plural rules, spoken drills)" },
+    { "module": 8, "title": "Pronoun System Deep Study (Subjective, Objective, Possessive cases)" },
+    { "module": 9, "title": "Adjective System Deep Study (Degrees of comparison, determiners, quantifiers)" },
+    { "module": 10, "title": "Verb System Deep Study (Transitive/Intransitive, Auxiliary verbs like is/am/are, has/have)" },
+    { "module": 11, "title": "Adverb System Deep Study (Manner, Time, Place, Frequency, position rules)" },
+    { "module": 12, "title": "Preposition System Deep Study (In, on, at, since, for, common mistakes)" },
+    { "module": 13, "title": "Conjunction and Interjection Systems (Coordinating & Subordinating)" },
+    { "module": 14, "title": "Number, Person, and Agreement (Subject-Verb Agreement rules)" },
+    { "module": 15, "title": "Sentence Drills & Spoken Patterns (Affirmative, Negative, Interrogative, WH-questions)" },
+    { "module": 16, "title": "Tense System Foundation (Simple Present, Past, Future)" },
+    { "module": 17, "title": "Tense System Continuous & Perfect (Progressive & Complete actions)" },
+    { "module": 18, "title": "Advanced Tenses & Complex Patterns (Conditional tenses, sequence of tenses)" },
+    { "module": 19, "title": "Active and Passive Voice (Rules and transformation shortcuts)" },
+    { "module": 20, "title": "Direct and Indirect Speech (Narration changes, reporting verbs)" },
+    { "module": 21, "title": "Conditionals & Complex Sentences (Zero, 1st, 2nd, 3rd conditionals)" },
+    { "module": 22, "title": "Real-Life Spoken & Translation Intelligence (Error correction, speaking drills)" }
+  ],
+  "social_media_profiles": [
+    "YouTube (YT)",
+    "Facebook (FB)",
+    "Instagram (IG)",
+    "WhatsApp (WA Channels/Groups)",
+    "Telegram (TG Channels/Quiz Bots)",
+    "Pinterest",
+    "LinkedIn",
+    "X (formerly Twitter)"
+  ],
+  "seo_target_keywords": [
+    "English grammar in Hindi",
+    "learn English from zero",
+    "board exam English grammar",
+    "Class 10 English summary",
+    "Class 12 English Flamingo",
+    "SSC CGL English preparation",
+    "Hinglish grammar course",
+    "Hindi medium English speaking",
+    "zero level grammar book",
+    "English word meaning in Hindi",
+    "English pronunciation in Devanagari"
+  ]
+}

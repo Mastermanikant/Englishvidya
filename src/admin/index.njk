@@ -1,476 +1,81 @@
 ---
 layout: layouts/base.njk
-pageTitle: "Admin Dashboard - EnglishVidya"
-permalink: /admin/
+title: Admin Overview
 ---
+<div class="max-w-6xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
+  <div class="flex items-center justify-between mb-8">
+    <h1 class="text-3xl font-heading font-bold text-primary">Dashboard Overview</h1>
+    <a href="/" class="text-sm text-accent hover:text-accent-hover transition-colors">← Back to Site</a>
+  </div>
 
-<style>
-/* PREMIUM ADMIN STYLING — scoped, no body override */
-.admin-wrapper {
-  --admin-bg: var(--bg-base);
-  --admin-card: var(--bg-raised);
-  --admin-text: var(--text-primary);
-  --admin-muted: var(--text-secondary);
-  --admin-accent: var(--accent);
-  --admin-success: var(--success, #22c55e);
-  --admin-warning: var(--warning, #f59e0b);
-  --admin-danger: var(--error, #ef4444);
-  --admin-owner: #fbbf24;
-  color: var(--admin-text);
-}
+  <div class="grid grid-cols-1 md:grid-cols-4 gap-6 mb-8">
+    <div class="glass p-6 rounded-2xl hover-lift">
+      <h3 class="text-secondary text-sm font-semibold mb-2">Total Users</h3>
+      <p class="text-3xl font-bold text-primary">1,248</p>
+      <span class="text-green-500 text-xs font-medium">↑ 12% this week</span>
+    </div>
+    <div class="glass p-6 rounded-2xl hover-lift">
+      <h3 class="text-secondary text-sm font-semibold mb-2">Active Comments</h3>
+      <p class="text-3xl font-bold text-primary">456</p>
+      <span class="text-green-500 text-xs font-medium">↑ 5% this week</span>
+    </div>
+    <div class="glass p-6 rounded-2xl hover-lift">
+      <h3 class="text-secondary text-sm font-semibold mb-2">Articles</h3>
+      <p class="text-3xl font-bold text-primary">84</p>
+      <span class="text-blue-500 text-xs font-medium">Updated 2h ago</span>
+    </div>
+    <div class="glass p-6 rounded-2xl hover-lift">
+      <h3 class="text-secondary text-sm font-semibold mb-2">System Status</h3>
+      <p class="text-3xl font-bold text-green-500">Healthy</p>
+      <span class="text-secondary text-xs font-medium">Uptime 99.9%</span>
+    </div>
+  </div>
 
-.admin-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 2rem;
-  font-family: 'Inter', sans-serif;
-}
+  <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+    <div class="glass p-6 rounded-2xl">
+      <h2 class="text-xl font-heading font-bold text-primary mb-4">Recent Activity</h2>
+      <ul class="space-y-4">
+        <li class="flex items-center justify-between border-b border-border pb-4">
+          <div>
+            <p class="text-sm font-semibold text-primary">New user registration</p>
+            <p class="text-xs text-secondary">alice@example.com</p>
+          </div>
+          <span class="text-xs text-secondary">5m ago</span>
+        </li>
+        <li class="flex items-center justify-between border-b border-border pb-4">
+          <div>
+            <p class="text-sm font-semibold text-primary">Comment posted</p>
+            <p class="text-xs text-secondary">On "Grammar Basics"</p>
+          </div>
+          <span class="text-xs text-secondary">12m ago</span>
+        </li>
+        <li class="flex items-center justify-between">
+          <div>
+            <p class="text-sm font-semibold text-primary">Profile updated</p>
+            <p class="text-xs text-secondary">bob@example.com</p>
+          </div>
+          <span class="text-xs text-secondary">1h ago</span>
+        </li>
+      </ul>
+      <a href="/admin/audit/" class="block text-center text-sm text-accent mt-4 hover:underline">View all activity</a>
+    </div>
 
-.header-badge {
-  display: inline-block;
-  padding: 0.5rem 1.5rem;
-  border-radius: 9999px;
-  font-weight: 700;
-  font-size: 1.5rem;
-  margin-bottom: 2rem;
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-}
-
-.badge-admin {
-  background: linear-gradient(135deg, #2563eb, #3b82f6);
-  color: white;
-}
-
-.badge-owner {
-  background: linear-gradient(135deg, #d97706, #fbbf24);
-  color: #fff;
-  text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
-}
-
-.stats-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 1.5rem;
-  margin-bottom: 2rem;
-}
-
-.stat-card {
-  background: var(--admin-card);
-  padding: 1.5rem;
-  border-radius: 1rem;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  transition: transform 0.2s, box-shadow 0.2s;
-}
-.stat-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.2);
-}
-
-.stat-title {
-  color: var(--admin-muted);
-  font-size: 0.875rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  margin-bottom: 0.5rem;
-}
-
-.stat-value {
-  font-size: 2rem;
-  font-weight: 700;
-  color: var(--admin-text);
-}
-
-.panel-section {
-  background: var(--admin-card);
-  border-radius: 1rem;
-  padding: 1.5rem;
-  margin-bottom: 2rem;
-  border: 1px solid rgba(255,255,255,0.05);
-}
-
-.panel-title {
-  font-size: 1.25rem;
-  font-weight: 700;
-  margin-bottom: 1.5rem;
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-}
-
-.comment-card {
-  background: rgba(0,0,0,0.2);
-  border-radius: 0.75rem;
-  padding: 1.25rem;
-  margin-bottom: 1rem;
-  border-left: 4px solid var(--admin-accent);
-  transition: all 0.2s;
-}
-.comment-card.approved { border-left-color: var(--admin-success); }
-.comment-card.flagged { border-left-color: var(--admin-warning); }
-
-.comment-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 0.75rem;
-}
-
-.comment-user {
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-  font-weight: 600;
-}
-.avatar {
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
-  background: var(--admin-accent);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 0.875rem;
-  color: white;
-}
-
-.btn {
-  padding: 0.5rem 1rem;
-  border-radius: 0.5rem;
-  font-weight: 600;
-  cursor: pointer;
-  border: none;
-  transition: opacity 0.2s;
-}
-.btn:hover { opacity: 0.8; }
-.btn-approve { background: rgba(16, 185, 129, 0.2); color: var(--admin-success); }
-.btn-flag { background: rgba(245, 158, 11, 0.2); color: var(--admin-warning); }
-.btn-reply { background: rgba(59, 130, 246, 0.2); color: var(--admin-accent); }
-.btn-danger { background: rgba(239, 68, 68, 0.2); color: var(--admin-danger); }
-
-.shortcuts-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1rem;
-}
-
-.shortcut-card {
-  background: rgba(255,255,255,0.03);
-  border: 1px solid rgba(255,255,255,0.1);
-  padding: 1.25rem;
-  border-radius: 0.75rem;
-  text-align: center;
-  cursor: pointer;
-  transition: all 0.2s;
-}
-.shortcut-card:hover {
-  background: rgba(255,255,255,0.08);
-  border-color: var(--admin-accent);
-}
-
-.table-wrapper {
-  overflow-x: auto;
-}
-table {
-  width: 100%;
-  border-collapse: collapse;
-}
-th, td {
-  padding: 1rem;
-  text-align: left;
-  border-bottom: 1px solid rgba(255,255,255,0.05);
-}
-th {
-  color: var(--admin-muted);
-  font-weight: 600;
-  text-transform: uppercase;
-  font-size: 0.75rem;
-}
-
-.input-group {
-  margin-bottom: 1rem;
-}
-.input-group label {
-  display: block;
-  margin-bottom: 0.5rem;
-  color: var(--admin-muted);
-  font-size: 0.875rem;
-}
-.input-group input {
-  width: 100%;
-  padding: 0.75rem;
-  background: rgba(0,0,0,0.2);
-  border: 1px solid rgba(255,255,255,0.1);
-  border-radius: 0.5rem;
-  color: white;
-  outline: none;
-}
-.input-group input:focus {
-  border-color: var(--admin-accent);
-}
-
-.access-denied {
-  text-align: center;
-  padding: 4rem;
-  background: rgba(239, 68, 68, 0.1);
-  border: 1px solid var(--admin-danger);
-  border-radius: 1rem;
-  margin-top: 2rem;
-}
-</style>
-
-<div class="admin-wrapper admin-container" id="app-root">
-  <div style="text-align: center; padding: 3rem;">Loading Dashboard...</div>
+    <div class="glass p-6 rounded-2xl">
+      <h2 class="text-xl font-heading font-bold text-primary mb-4">Quick Links</h2>
+      <div class="flex flex-col gap-3">
+        <a href="/admin/users/" class="p-4 bg-raised rounded-xl hover-lift flex items-center justify-between border border-border">
+          <span class="font-medium text-primary">Manage Users</span>
+          <span class="text-secondary">→</span>
+        </a>
+        <a href="/admin/comments/" class="p-4 bg-raised rounded-xl hover-lift flex items-center justify-between border border-border">
+          <span class="font-medium text-primary">Review Comments</span>
+          <span class="text-secondary">→</span>
+        </a>
+        <a href="/admin/audit/" class="p-4 bg-raised rounded-xl hover-lift flex items-center justify-between border border-border">
+          <span class="font-medium text-primary">Audit Logs</span>
+          <span class="text-secondary">→</span>
+        </a>
+      </div>
+    </div>
+  </div>
 </div>
-
-<script>
-const MOCK_COMMENTS = [
-  {id:1, user:'Rahul Kumar', text:'Sir, Present Tense ke baare mein aur examples chahiye', page:'Grammar - Tenses', time:'2 hours ago', status:'pending'},
-  {id:2, user:'Priya Singh', text:'Class 10 ka chapter 3 bahut helpful tha!', page:'Class 10 - Gillu', time:'5 hours ago', status:'approved'},
-  {id:3, user:'Amit Verma', text:'Dictionary mein aur words add karo', page:'Dictionary', time:'1 day ago', status:'pending', spam: true}
-];
-
-const MOCK_AI_LOGS = [
-  {user:'Student #1234', query:'Present Perfect mein kya difference hai?', time:'10 min ago'}, 
-  {user:'Student #5678', query:'Idiom: Break a leg ka meaning?', time:'25 min ago'}, 
-  {user:'Student #9012', query:'Essay writing format Hindi mein?', time:'1 hr ago'}
-];
-
-const MOCK_USERS = [
-  {name:'Rahul Kumar', email:'rahul@example.com', role:'student', joined:'2025-01-15'}, 
-  {name:'Priya Singh', email:'priya@example.com', role:'admin', joined:'2024-11-20'}, 
-  {name:'Master Manikant', email:'englishvidyahq@gmail.com', role:'owner', joined:'2024-01-01'}
-];
-
-function getInitials(name) {
-  return name.split(' ').map(n => n[0]).join('').substring(0, 2).toUpperCase();
-}
-
-function renderAccessDenied() {
-  return `
-    <div class="access-denied">
-      <h2 style="color: var(--admin-danger); margin-bottom: 1rem; font-size: 2rem;">Access Denied 🔒</h2>
-      <p style="color: var(--admin-muted); margin-bottom: 2rem;">You do not have permission to view the admin dashboard.</p>
-      <a href="/" class="btn btn-reply" style="text-decoration: none; padding: 1rem 2rem;">Return Home</a>
-    </div>
-  `;
-}
-
-function renderCommentCard(comment) {
-  return `
-    <div class="comment-card ${comment.status === 'approved' ? 'approved' : ''}" id="comment-${comment.id}">
-      <div class="comment-header">
-        <div class="comment-user">
-          <div class="avatar">${getInitials(comment.user)}</div>
-          <span>${comment.user}</span>
-          ${comment.spam ? '<span style="background: var(--admin-danger); padding: 0.2rem 0.5rem; border-radius: 4px; font-size: 0.75rem;">AI Spam Alert</span>' : ''}
-        </div>
-        <span style="color: var(--admin-muted); font-size: 0.875rem;">${comment.time}</span>
-      </div>
-      <p style="margin: 0.75rem 0;">"${comment.text}"</p>
-      <div style="font-size: 0.75rem; color: var(--admin-muted); margin-bottom: 1rem;">Page: ${comment.page}</div>
-      <div style="display: flex; gap: 0.5rem;">
-        <button class="btn btn-approve" onclick="document.getElementById('comment-${comment.id}').className='comment-card approved'">Approve</button>
-        <button class="btn btn-flag" onclick="document.getElementById('comment-${comment.id}').className='comment-card flagged'">Flag/Hide</button>
-        <button class="btn btn-reply" onclick="alert('Reply box opened for ${comment.user}')">Reply</button>
-      </div>
-    </div>
-  `;
-}
-
-function renderAdminPanel(isOwner) {
-  return `
-    <div style="text-align: center;">
-      <div class="header-badge ${isOwner ? 'badge-owner' : 'badge-admin'}">
-        ${isOwner ? 'Owner Dashboard 👑' : 'Admin Panel 🛡️'}
-      </div>
-    </div>
-
-    ${isOwner ? `
-    <div class="stats-grid">
-      <div class="stat-card">
-        <div class="stat-title">Total Registered Users</div>
-        <div class="stat-value">12,450</div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-title">This Month Revenue</div>
-        <div class="stat-value" style="color: var(--admin-success)">₹45,200</div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-title">New Signups Today</div>
-        <div class="stat-value">+124</div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-title">Avg Session Time</div>
-        <div class="stat-value">14m 20s</div>
-      </div>
-    </div>
-    ` : `
-    <div class="stats-grid">
-      <div class="stat-card"><div class="stat-title">Total Students</div><div class="stat-value">12,450</div></div>
-      <div class="stat-card"><div class="stat-title">Active Today</div><div class="stat-value">1,240</div></div>
-      <div class="stat-card"><div class="stat-title">Comments Pending</div><div class="stat-value">42</div></div>
-      <div class="stat-card"><div class="stat-title">Content Published</div><div class="stat-value">156</div></div>
-    </div>
-    `}
-
-    <div class="panel-section">
-      <div class="panel-title">💬 Comment Moderation</div>
-      ${MOCK_COMMENTS.map(c => renderCommentCard(c)).join('')}
-    </div>
-
-    <div class="panel-section">
-      <div class="panel-title">⚡ Quick Actions</div>
-      <div class="shortcuts-grid">
-        <div class="shortcut-card">
-          <div style="font-size: 2rem; margin-bottom: 0.5rem;">📖</div>
-          <h3>Add Grammar Lesson</h3>
-          <p style="color: var(--admin-muted); font-size: 0.875rem;">Create a new grammar post</p>
-        </div>
-        <div class="shortcut-card">
-          <div style="font-size: 2rem; margin-bottom: 0.5rem;">🔤</div>
-          <h3>Add Vocabulary</h3>
-          <p style="color: var(--admin-muted); font-size: 0.875rem;">Add daily words</p>
-        </div>
-        <div class="shortcut-card">
-          <div style="font-size: 2rem; margin-bottom: 0.5rem;">📝</div>
-          <h3>Create Quiz</h3>
-          <p style="color: var(--admin-muted); font-size: 0.875rem;">Build a new test</p>
-        </div>
-        <div class="shortcut-card">
-          <div style="font-size: 2rem; margin-bottom: 0.5rem;">📂</div>
-          <h3>Upload Notes</h3>
-          <p style="color: var(--admin-muted); font-size: 0.875rem;">PDF study materials</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="panel-section">
-      <div class="panel-title">🤖 AI Tutor Activity</div>
-      <div class="table-wrapper">
-        <table>
-          <thead>
-            <tr><th>Student</th><th>Query</th><th>Time</th></tr>
-          </thead>
-          <tbody>
-            ${MOCK_AI_LOGS.map(log => `
-              <tr>
-                <td><strong>${log.user}</strong></td>
-                <td><span style="background: rgba(255,255,255,0.1); padding: 0.25rem 0.5rem; border-radius: 4px;">${log.query}</span></td>
-                <td style="color: var(--admin-muted)">${log.time}</td>
-              </tr>
-            `).join('')}
-          </tbody>
-        </table>
-      </div>
-    </div>
-
-    ${isOwner ? `
-    <div class="panel-section">
-      <div class="panel-title">👥 User Role Manager</div>
-      <div class="table-wrapper">
-        <table>
-          <thead>
-            <tr><th>Name</th><th>Email</th><th>Role</th><th>Actions</th></tr>
-          </thead>
-          <tbody>
-            ${MOCK_USERS.map(user => `
-              <tr>
-                <td><strong>${user.name}</strong></td>
-                <td>${user.email}</td>
-                <td>
-                  <span style="background: ${user.role === 'owner' ? 'var(--admin-owner)' : user.role === 'admin' ? 'var(--admin-accent)' : 'rgba(255,255,255,0.1)'}; color: ${user.role === 'student' ? 'white' : 'black'}; padding: 0.25rem 0.5rem; border-radius: 4px; font-size: 0.75rem; font-weight: bold; text-transform: uppercase;">
-                    ${user.role}
-                  </span>
-                </td>
-                <td>
-                  <button class="btn btn-reply" style="padding: 0.25rem 0.5rem; font-size: 0.75rem;">Make Admin</button>
-                  <button class="btn btn-flag" style="padding: 0.25rem 0.5rem; font-size: 0.75rem;">Remove</button>
-                  <button class="btn btn-danger" style="padding: 0.25rem 0.5rem; font-size: 0.75rem;">Ban</button>
-                </td>
-              </tr>
-            `).join('')}
-          </tbody>
-        </table>
-      </div>
-    </div>
-
-    <div class="panel-section">
-      <div class="panel-title">🔑 API & Credentials</div>
-      <div class="input-group">
-        <label>Gemini API Key</label>
-        <div style="display: flex; gap: 0.5rem;">
-          <input type="password" id="gemini-key" placeholder="AIzaSy...">
-          <button class="btn btn-approve" onclick="saveConfig()">Save</button>
-        </div>
-      </div>
-      <div class="input-group">
-        <label>Google Sheet Webhook URL</label>
-        <div style="display: flex; gap: 0.5rem;">
-          <input type="text" id="webhook-url" placeholder="https://script.google.com/macros/s/...">
-          <button class="btn btn-approve" onclick="saveConfig()">Save</button>
-        </div>
-      </div>
-    </div>
-
-    <div class="panel-section">
-      <div class="panel-title">⚙️ System Health</div>
-      <div style="display: flex; gap: 2rem; align-items: center; margin-bottom: 1rem;">
-        <div><strong style="color: var(--admin-muted)">Uptime:</strong> <span style="color: var(--admin-success)">99.9%</span></div>
-        <div><strong style="color: var(--admin-muted)">Last Deploy:</strong> Today, 10:45 AM</div>
-        <div><strong style="color: var(--admin-muted)">Build:</strong> ✅ Success</div>
-      </div>
-      <button class="btn btn-reply" onclick="alert('Backup feature coming with full backend')">Download Backup .zip</button>
-    </div>
-    ` : ''}
-  `;
-}
-
-function saveConfig() {
-  const gk = document.getElementById('gemini-key').value;
-  const wh = document.getElementById('webhook-url').value;
-  localStorage.setItem('ev-owner-config', JSON.stringify({gemini: gk, webhook: wh}));
-  if(window.showToast) {
-    window.showToast('Configuration saved successfully!', 'success');
-  } else {
-    alert('Configuration saved successfully!');
-  }
-}
-
-// Authentication Logic & Rendering
-document.addEventListener('DOMContentLoaded', () => {
-  const appRoot = document.getElementById('app-root');
-  
-  try {
-    // Read user role from local storage as instructed
-    const userDataRaw = localStorage.getItem('ev-user-data');
-    let userRole = 'student';
-    
-    if (userDataRaw) {
-      const userData = JSON.parse(userDataRaw);
-      if (userData && userData.role) {
-        userRole = userData.role;
-      }
-    }
-    
-    if (userRole === 'admin' || userRole === 'owner') {
-      appRoot.innerHTML = renderAdminPanel(userRole === 'owner');
-      
-      // Load saved config if owner
-      if (userRole === 'owner') {
-        const confRaw = localStorage.getItem('ev-owner-config');
-        if (confRaw) {
-          const conf = JSON.parse(confRaw);
-          document.getElementById('gemini-key').value = conf.gemini || '';
-          document.getElementById('webhook-url').value = conf.webhook || '';
-        }
-      }
-    } else {
-      appRoot.innerHTML = renderAccessDenied();
-    }
-  } catch (e) {
-    console.error(e);
-    appRoot.innerHTML = renderAccessDenied();
-  }
-});
-</script>

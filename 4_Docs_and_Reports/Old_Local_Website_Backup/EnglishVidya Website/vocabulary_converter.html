@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EnglishVidya - AI Text to JSON Converter</title>
+    <style>
+        :root {
+            --bg-color: #f8fafc;
+            --surface-color: #ffffff;
+            --primary: #14b8a6;
+            --primary-hover: #0d9488;
+            --text-main: #1e293b;
+            --text-muted: #64748b;
+            --border: #e2e8f0;
+        }
+
+        * { box-sizing: border-box; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            margin: 0;
+            padding: 2rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1000px;
+            background: var(--surface-color);
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+            padding: 2rem;
+        }
+
+        h1 { margin-top: 0; color: var(--primary); text-align: center; }
+        p.subtitle { text-align: center; color: var(--text-muted); margin-bottom: 2rem; }
+
+        .form-group { margin-bottom: 1.5rem; }
+        label { display: block; font-weight: bold; margin-bottom: 0.5rem; }
+        
+        input[type="text"], textarea {
+            width: 100%;
+            padding: 0.75rem;
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            font-size: 1rem;
+        }
+
+        textarea { height: 200px; resize: vertical; font-family: monospace; white-space: pre; }
+
+        .btn {
+            background: var(--primary);
+            color: white;
+            border: none;
+            padding: 0.75rem 1.5rem;
+            border-radius: 6px;
+            font-size: 1rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background 0.2s;
+            margin-right: 10px;
+        }
+
+        .btn:hover { background: var(--primary-hover); }
+        .btn-secondary { background: var(--text-muted); }
+        .btn-secondary:hover { background: #475569; }
+
+        .output-box {
+            background: #1e1e1e;
+            color: #d4d4d4;
+            padding: 1rem;
+            border-radius: 6px;
+            height: 300px;
+            overflow-y: auto;
+            font-family: 'Consolas', monospace;
+            white-space: pre-wrap;
+            margin-top: 1rem;
+        }
+
+        .controls { display: flex; justify-content: space-between; align-items: center; margin-top: 1.5rem; }
+
+        .instructions {
+            background: #e0f2fe;
+            border-left: 4px solid #0ea5e9;
+            padding: 1rem;
+            margin-bottom: 1.5rem;
+            border-radius: 4px;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>🚀 Text to JSON Converter (Updated for Flashcards)</h1>
+    <p class="subtitle">AI (Gemini/ChatGPT) से मिले नॉर्मल टेक्स्ट को एक क्लिक में JSON में बदलें</p>
+
+    <div class="instructions">
+        <strong>⚡ AI को देने वाला प्रॉम्प्ट (AI Prompt):</strong><br>
+        <code>Provide a list of 30-50 English words related to [YOUR TOPIC]. Do not use markdown tables or numbering. Provide simple text where values are separated by a pipe (|). Use this strict format on every single line:<br>
+        Word | Pronunciation in Hindi | Exact Hindi Meaning | Short English Definition | Simple Example Sentence</code><br><br>
+        <strong>✅ Example Output from AI:</strong><br>
+        Apple | ऐपल | सेब | A round fruit with red or green skin. | An apple a day keeps the doctor away.<br>
+        Banana | बनाना | केला | A long curved fruit with a yellow skin. | Monkeys love bananas.
+    </div>
+
+    <div class="form-group">
+        <label for="categorySlug">Category Slug (फाइल का नाम क्या रखना है? जैसे: fruits, wild_animals, daily_verbs):</label>
+        <input type="text" id="categorySlug" placeholder="enter_category_slug_here" required>
+    </div>
+
+    <div class="form-group">
+        <label for="rawText">Paste AI Text Here (AI से कॉपी किया हुआ नॉर्मल टेक्स्ट यहाँ पेस्ट करें):</label>
+        <textarea id="rawText" placeholder="Word | Pronunciation | Hindi Meaning | English Definition | Example..."></textarea>
+    </div>
+
+    <button class="btn" onclick="convertText()">⚡ Convert to JSON</button>
+
+    <div class="controls">
+        <label>JSON Output:</label>
+        <div>
+            <button class="btn btn-secondary" onclick="copyJSON()">📋 Copy JSON</button>
+            <button class="btn" onclick="downloadJSON()">💾 Download .json File</button>
+        </div>
+    </div>
+
+    <div id="jsonOutput" class="output-box">Output will appear here...</div>
+</div>
+
+<script>
+    let finalJsonData = [];
+
+    function convertText() {
+        const rawText = document.getElementById('rawText').value.trim();
+        const categorySlug = document.getElementById('categorySlug').value.trim();
+        const outputBox = document.getElementById('jsonOutput');
+
+        if (!rawText) {
+            alert('कृपया AI का टेक्स्ट पेस्ट करें!');
+            return;
+        }
+        if (!categorySlug) {
+            alert('कृपया Category Slug (फाइल का नाम) जरूर लिखें!');
+            return;
+        }
+
+        const lines = rawText.split('\n');
+        finalJsonData = [];
+
+        lines.forEach(line => {
+            // Ignore empty lines or table separators like |---|---|
+            if (line.trim() === '' || line.includes('---')) return;
+
+            // Remove leading/trailing pipes if AI added them
+            let cleanLine = line.trim();
+            if (cleanLine.startsWith('|')) cleanLine = cleanLine.substring(1);
+            if (cleanLine.endsWith('|')) cleanLine = cleanLine.substring(0, cleanLine.length - 1);
+
+            const parts = cleanLine.split('|').map(p => p.trim());
+            
+            // Ensure we have exactly 5 parts (Word | Pron | Meaning | Definition | Example)
+            if (parts.length >= 5) {
+                const word = parts[0];
+                const pron = parts[1];
+                const meaning = parts[2];
+                const definition = parts[3];
+                const example = parts[4];
+
+                // Auto-generate slug from word (lowercase, replace spaces with hyphen)
+                const wordSlug = word.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+
+                finalJsonData.push({
+                    word: word,
+                    slug: wordSlug,
+                    pron: pron,
+                    meaning: meaning,
+                    definition: definition,
+                    example: example,
+                    category: categorySlug
+                });
+            }
+        });
+
+        if(finalJsonData.length === 0){
+            outputBox.innerHTML = "Error: No valid data found. Make sure you use the '|' separator and have 5 parts per line.";
+        } else {
+            const jsonString = JSON.stringify(finalJsonData, null, 4);
+            outputBox.textContent = jsonString;
+        }
+    }
+
+    function copyJSON() {
+        const outputText = document.getElementById('jsonOutput').textContent;
+        if (!outputText || outputText.startsWith('Output') || outputText.startsWith('Error')) return;
+
+        navigator.clipboard.writeText(outputText).then(() => {
+            alert('JSON Copied to clipboard! अब आप इसे वेबसाइट के फोल्डर में सेव कर सकते हैं।');
+        });
+    }
+
+    function downloadJSON() {
+        if (finalJsonData.length === 0) {
+            alert('पहले Convert बटन दबाएं!');
+            return;
+        }
+
+        const categorySlug = document.getElementById('categorySlug').value.trim() || 'data';
+        const jsonString = JSON.stringify(finalJsonData, null, 4);
+        
+        const blob = new Blob([jsonString], { type: 'application/json' });
+        const url = URL.createObjectURL(blob);
+        
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = categorySlug + '.json';
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+    }
+</script>
+
+</body>
+</html>

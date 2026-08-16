@@ -1,0 +1,112 @@
+{
+  "project_name": "EnglishVidya",
+  "tech_stack": [
+    "Eleventy (11ty)",
+    "Node.js",
+    "Nunjucks",
+    "Markdown",
+    "JavaScript",
+    "CSS",
+    "Cloudflare Serverless ecosystem (Pages, Workers, D1 SQLite, R2)",
+    "PWA"
+  ],
+  "architecture_and_structure": {
+    "Englishvidya/src": {
+      "_data": "Global config (site.json)",
+      "content/grammar": "Grammar Markdown lessons (01_*, 02_*, etc.)",
+      "content/vocabulary": "Vocabulary thematic Markdown files",
+      "dictionary": "Word page templates (19k+ static pages)",
+      "_includes": "Nunjucks layouts and component partials (header.njk, footer.njk)",
+      "about-us": "About page templates",
+      "contact": "Contact page templates",
+      "flashcards": "Flashcards app templates",
+      "grammar": "Grammar landing templates"
+    },
+    "Englishvidya/website": {
+      "css": "Stylesheets (style.css, home-redesign.css)",
+      "js": "Client logic (app.js, service-worker.js)",
+      "data": "JSON databases (search index, vocab index)"
+    },
+    "Englishvidya/_site": "Output folder compiled by Eleventy ('npm run build') and served by Cloudflare Pages",
+    "02_Project_Tracking_and_AI_Memory": {
+      "coaching_docs": "Consent forms and rule constitutions for the coaching institute",
+      "EV_website_journey": "Website design, timeline, data pipeline, and expert profile metadata",
+      "project_meta": "Private planning files, design decisions, and active AI guidelines"
+    },
+    "03_Raw_Sources_and_Drafts": {
+      "scanned_grammar_books": "Original scanned grammar books (.gdoc format)",
+      "ai_drafts_pending_review": "AI drafted new grammar chapters pending review",
+      "raw_vocabulary_sources": "Combined master vocabulary chunks and raw source guides"
+    },
+    "04_Archive_and_Design_Media": {
+      "graphics_and_posters": "Marketing posters, QR codes, and design graphics",
+      "legacy_backups": "Obsolete drafts, old guidelines, and deprecated reports"
+    },
+    "core_concepts": [
+      "Zero-backend static site generation",
+      "Offline-first PWA with Service Worker caching",
+      "Client-side search via optimized/compressed JSON",
+      "Zero-cost server deployment strategy"
+    ]
+  },
+  "roadmap": {
+    "monetization": "Dodo Payments, micro-transactions, reward-based ad-free passes",
+    "growth": "WhatsApp streak sharing, voice search SEO, Schema.org metadata",
+    "security": "Google One-Tap, secure client-side checks",
+    "future_ai": "Zero-cost WebSpeech API for pronunciation reviews, Cloudflare Workers AI for grammar chatbot"
+  },
+  "progress_and_history": {
+    "completed_milestones": [
+      "Directory restructuring and workspace organization (Eleventy conversion)",
+      "SPA routing, view stacking, and DOM leakage bugs resolved",
+      "Converted all 57 grammar lessons and vocabulary clusters to Markdown files under src/content/",
+      "PWA Setup: Implemented service-worker.js, manifest.json, and install prompts",
+      "UI Readability Upgrade: Set base font to 17px, line-height to 1.75, increased card paddings, and smoothed box-shadows",
+      "Mobile Footer Redesign: Structured footer links into a strict 3-column grid on all viewports",
+      "Social Media Integration: Added circle SVG icons/links for all 8 platforms (WhatsApp, YouTube, Instagram, Telegram, Facebook, Pinterest, LinkedIn, X) to footer and hamburger drawer menu",
+      "App Orientation: Set orientation to 'any' in manifest.json to allow native auto-rotation on mobile devices",
+      "Local compilation verified via 'npm run build' generating ~8982 compiled static files"
+    ],
+    "current_status": {
+      "architecture": "Jamstack (11ty) PWA serving from Cloudflare Pages via wrangler.toml",
+      "strengths": [
+        "Ultra-fast First Contentful Paint (FCP)",
+        "Easy Markdown CMS structure for lessons",
+        "19k+ static SEO-friendly pages",
+        "Fully offline-capable web application",
+        "Zero-cost database search structure"
+      ]
+    },
+    "pending_tasks": [
+      "Ask user to push changes using GitHub Desktop to deploy them live",
+      "Confirm UI layout looks clean and readable on live staging/production website",
+      "Monitor build and deployment timeouts on Cloudflare Pages dashboard",
+      "Begin Phase 4: Content Addition (Add new lessons, enrich bilingual translation drills, expand flashcard lists)",
+      "Clean up duplicate/old placeholder markdown files in src/content/grammar/",
+      "Delete obsolete '/Can Be Delete' and old unused files directory safely"
+    ]
+  },
+  "historical_knowledge": {
+    "gamification": "WhatsApp status streak loops, QR/referral watermarks on PDFs, JS 1v1 grammar game.",
+    "pedagogy": "Focus on SOV (Hindi) to SVO (English) syntax transition using engaging Hinglish explanations.",
+    "performance": "<1000 DOM nodes limit, system-ui fallback fonts, 0-byte analytics integrations.",
+    "anti_fraud": "3-device limit via JWT/fingerprintjs, Secure HttpOnly Cookies, Google Sign-in only."
+  },
+  "ai_rules_and_guidelines": {
+    "ai_guidelines": [
+      "Zero-Output Execution: never print full JSONs to terminal; use limits/lengths.",
+      "Script-First Approach: process large files via Node/Python scripts.",
+      "Save directly to files; do not dump whole files back to user for verification.",
+      "Strict token conservation is mandatory.",
+      "Always reply to the user in Hindi (Devanagari script) as requested."
+    ],
+    "rules": {
+      "architecture": "Vanilla HTML/CSS/JS only. Flat static directory structure where possible.",
+      "design": [
+        "Use strict CSS variables (var(--bg-base), var(--accent)).",
+        "Glassmorphism styling (backdrop-filter blur(12px), subtle borders, soft shadows).",
+        "Smooth spring animations via cubic-bezier(0.34, 1.56, 0.64, 1)."
+      ]
+    }
+  }
+}

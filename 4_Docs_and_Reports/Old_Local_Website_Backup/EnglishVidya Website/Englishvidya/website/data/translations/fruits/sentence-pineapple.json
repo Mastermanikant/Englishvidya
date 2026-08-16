@@ -1,0 +1,297 @@
+{
+    "word": "Pineapple",
+    "slug": "pineapple",
+    "category": "fruits",
+    "translations": [
+        {
+            "tense": "To Be - Present Affirmative",
+            "en": "This is a pineapple.",
+            "hi": "यह एक अनानास है।"
+        },
+        {
+            "tense": "To Be - Present Affirmative (Plural)",
+            "en": "These are pineapples.",
+            "hi": "ये अनानास हैं।"
+        },
+        {
+            "tense": "To Be - Past Affirmative",
+            "en": "That was a pineapple.",
+            "hi": "वह एक अनानास था।"
+        },
+        {
+            "tense": "To Be - Past Affirmative (Plural)",
+            "en": "Those were pineapples.",
+            "hi": "वे अनानास थे।"
+        },
+        {
+            "tense": "To Be - Present Negative",
+            "en": "This is not a pineapple.",
+            "hi": "यह एक अनानास नहीं है।"
+        },
+        {
+            "tense": "To Be - Present Negative (Plural)",
+            "en": "These are not pineapples.",
+            "hi": "ये अनानास नहीं हैं।"
+        },
+        {
+            "tense": "To Be - Present Interrogative",
+            "en": "Is this a pineapple?",
+            "hi": "क्या यह एक अनानास है?"
+        },
+        {
+            "tense": "To Be - Present Interrogative (Plural)",
+            "en": "Are these pineapples?",
+            "hi": "क्या ये अनानास हैं?"
+        },
+        {
+            "tense": "To Be - Past Interrogative",
+            "en": "Was that a pineapple?",
+            "hi": "क्या वह एक अनानास था?"
+        },
+        {
+            "tense": "To Be - Wh-Question",
+            "en": "Where is the pineapple?",
+            "hi": "अनानास कहाँ है?"
+        },
+        {
+            "tense": "To Be - Wh-Question (Plural)",
+            "en": "Where are the pineapples?",
+            "hi": "अनानास कहाँ हैं?"
+        },
+        {
+            "tense": "To Be - Wh-Question (Why)",
+            "en": "Why is this pineapple here?",
+            "hi": "यह अनानास यहाँ क्यों है?"
+        },
+        {
+            "tense": "To Have - Present Affirmative",
+            "en": "I have a pineapple.",
+            "hi": "मेरे पास एक अनानास है।"
+        },
+        {
+            "tense": "To Have - Present Affirmative (Plural)",
+            "en": "I have many pineapples.",
+            "hi": "मेरे पास कई अनानास हैं।"
+        },
+        {
+            "tense": "To Have - Past Affirmative",
+            "en": "I had a pineapple.",
+            "hi": "मेरे पास एक अनानास था।"
+        },
+        {
+            "tense": "To Have - Present Negative",
+            "en": "I don't have a pineapple.",
+            "hi": "मेरे पास अनानास नहीं है।"
+        },
+        {
+            "tense": "To Have - Present Interrogative",
+            "en": "Do you have a pineapple?",
+            "hi": "क्या तुम्हारे पास एक अनानास है?"
+        },
+        {
+            "tense": "To Have - Past Interrogative",
+            "en": "Did you have a pineapple?",
+            "hi": "क्या तुम्हारे पास एक अनानास था?"
+        },
+        {
+            "tense": "To Have - Wh-Question",
+            "en": "How many pineapples do you have?",
+            "hi": "तुम्हारे पास कितने अनानास हैं?"
+        },
+        {
+            "tense": "Simple Present - Affirmative",
+            "en": "I eat a pineapple every day.",
+            "hi": "मैं हर दिन एक अनानास खाता हूँ।"
+        },
+        {
+            "tense": "Simple Present - Negative",
+            "en": "I don't eat pineapples.",
+            "hi": "मैं अनानास नहीं खाता हूँ।"
+        },
+        {
+            "tense": "Simple Present - Interrogative",
+            "en": "Do you eat pineapples?",
+            "hi": "क्या तुम अनानास खाते हो?"
+        },
+        {
+            "tense": "Simple Present - Wh-Question",
+            "en": "When do you eat a pineapple?",
+            "hi": "तुम अनानास कब खाते हो?"
+        },
+        {
+            "tense": "Present Continuous - Affirmative",
+            "en": "I am eating a pineapple.",
+            "hi": "मैं एक अनानास खा रहा हूँ।"
+        },
+        {
+            "tense": "Present Continuous - Negative",
+            "en": "I am not eating a pineapple.",
+            "hi": "मैं अनानास नहीं खा रहा हूँ।"
+        },
+        {
+            "tense": "Present Continuous - Interrogative",
+            "en": "Are you eating a pineapple?",
+            "hi": "क्या तुम अनानास खा रहे हो?"
+        },
+        {
+            "tense": "Present Continuous - Wh-Question",
+            "en": "Why are you eating my pineapple?",
+            "hi": "तुम मेरा अनानास क्यों खा रहे हो?"
+        },
+        {
+            "tense": "Present Perfect - Affirmative",
+            "en": "I have eaten the pineapple.",
+            "hi": "मैंने अनानास खा लिया है।"
+        },
+        {
+            "tense": "Present Perfect - Negative",
+            "en": "I have not eaten the pineapple.",
+            "hi": "मैंने अनानास नहीं खाया है।"
+        },
+        {
+            "tense": "Present Perfect - Interrogative",
+            "en": "Have you eaten the pineapple?",
+            "hi": "क्या तुमने अनानास खा लिया है?"
+        },
+        {
+            "tense": "Simple Past - Affirmative",
+            "en": "I bought a pineapple yesterday.",
+            "hi": "मैंने कल एक अनानास खरीदा था।"
+        },
+        {
+            "tense": "Simple Past - Negative",
+            "en": "I didn't buy a pineapple.",
+            "hi": "मैंने अनानास नहीं खरीदा।"
+        },
+        {
+            "tense": "Simple Past - Interrogative",
+            "en": "Did you buy a pineapple?",
+            "hi": "क्या तुमने एक अनानास खरीदा?"
+        },
+        {
+            "tense": "Simple Past - Wh-Question",
+            "en": "Where did you buy this pineapple?",
+            "hi": "तुमने यह अनानास कहाँ से खरीदा?"
+        },
+        {
+            "tense": "Past Continuous - Affirmative",
+            "en": "I was eating a pineapple when you called.",
+            "hi": "जब तुमने फोन किया तब मैं एक अनानास खा रहा था।"
+        },
+        {
+            "tense": "Past Continuous - Interrogative",
+            "en": "Were you eating a pineapple?",
+            "hi": "क्या तुम एक अनानास खा रहे थे?"
+        },
+        {
+            "tense": "Simple Future - Affirmative",
+            "en": "I will eat a pineapple tomorrow.",
+            "hi": "मैं कल एक अनानास खाऊँगा।"
+        },
+        {
+            "tense": "Simple Future - Negative",
+            "en": "I will not eat the pineapple.",
+            "hi": "मैं वह अनानास नहीं खाऊँगा।"
+        },
+        {
+            "tense": "Simple Future - Interrogative",
+            "en": "Will you eat this pineapple?",
+            "hi": "क्या तुम यह अनानास खाओगे?"
+        },
+        {
+            "tense": "Modal - Can",
+            "en": "Can you peel this pineapple?",
+            "hi": "क्या तुम यह अनानास छील सकते हो?"
+        },
+        {
+            "tense": "Modal - Should",
+            "en": "You should eat a pineapple.",
+            "hi": "तुम्हें एक अनानास खाना चाहिए।"
+        },
+        {
+            "tense": "Modal - Must",
+            "en": "You must buy fresh pineapples.",
+            "hi": "तुम्हें ताज़े अनानास ही खरीदने चाहिए।"
+        },
+        {
+            "tense": "Modal - May",
+            "en": "May I have a pineapple?",
+            "hi": "क्या मैं एक अनानास ले सकता हूँ?"
+        },
+        {
+            "tense": "Modal - Would",
+            "en": "Would you like a pineapple?",
+            "hi": "क्या आप एक अनानास लेना पसंद करेंगे?"
+        },
+        {
+            "tense": "Imperative - Affirmative",
+            "en": "Eat this pineapple.",
+            "hi": "यह अनानास खाओ।"
+        },
+        {
+            "tense": "Imperative - Negative",
+            "en": "Don't eat that pineapple.",
+            "hi": "वह अनानास मत खाओ।"
+        },
+        {
+            "tense": "Passive Voice - Present",
+            "en": "The pineapple is eaten.",
+            "hi": "अनानास खाया जाता है।"
+        },
+        {
+            "tense": "Passive Voice - Past",
+            "en": "The pineapple was eaten by him.",
+            "hi": "अनानास उसके द्वारा खाया गया था।"
+        },
+        {
+            "tense": "Location/Preposition",
+            "en": "The pineapple is on the table.",
+            "hi": "अनानास मेज़ पर है।"
+        },
+        {
+            "tense": "Location/Preposition",
+            "en": "There is a pineapple in the basket.",
+            "hi": "टोकरी में एक अनानास है।"
+        },
+        {
+            "tense": "Location/Preposition",
+            "en": "The monkey is holding a pineapple.",
+            "hi": "बंदर ने एक अनानास पकड़ा हुआ है।"
+        },
+        {
+            "tense": "Adjective Use",
+            "en": "This pineapple is sweet.",
+            "hi": "यह अनानास मीठा है।"
+        },
+        {
+            "tense": "Adjective Use",
+            "en": "That pineapple is rotten.",
+            "hi": "वह अनानास सड़ा हुआ है।"
+        },
+        {
+            "tense": "Adjective Use",
+            "en": "I need a ripe pineapple.",
+            "hi": "मुझे एक पका हुआ अनानास चाहिए।"
+        },
+        {
+            "tense": "Action - Cutting",
+            "en": "I am cutting the pineapple.",
+            "hi": "मैं अनानास काट रहा हूँ।"
+        },
+        {
+            "tense": "Action - Peeling",
+            "en": "Please peel the pineapple.",
+            "hi": "कृपया अनानास छील दो।"
+        },
+        {
+            "tense": "Action - Buying",
+            "en": "She is buying pineapples.",
+            "hi": "वह अनानास खरीद रही है।"
+        },
+        {
+            "tense": "Action - Washing",
+            "en": "Wash the pineapple before eating.",
+            "hi": "खाने से पहले अनानास धो लो।"
+        }
+    ]
+}

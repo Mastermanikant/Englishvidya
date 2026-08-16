@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport"/>
+<title>Refer &amp; Earn - EnglishVidya</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&amp;family=Inter:wght@400;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "success-emerald": "#10b981",
+                        "surface-variant": "#2d3449",
+                        "on-primary": "#002a78",
+                        "on-secondary-container": "#c9aeff",
+                        "primary-container": "#2563eb",
+                        "inverse-surface": "#dae2fd",
+                        "on-primary-fixed": "#00174b",
+                        "secondary-fixed-dim": "#d2bbff",
+                        "on-primary-container": "#eeefff",
+                        "on-secondary-fixed-variant": "#5a00c6",
+                        "surface-tint": "#b4c5ff",
+                        "surface-raised": "#1e293b",
+                        "surface": "#0b1326",
+                        "surface-container-low": "#131b2e",
+                        "secondary-container": "#6001d1",
+                        "on-tertiary": "#472a00",
+                        "on-background": "#dae2fd",
+                        "surface-bright": "#31394d",
+                        "outline-variant": "#434655",
+                        "on-secondary": "#3f008e",
+                        "on-error-container": "#ffdad6",
+                        "primary-fixed": "#dbe1ff",
+                        "surface-glass": "rgba(30, 41, 59, 0.7)",
+                        "on-tertiary-container": "#ffeedd",
+                        "on-secondary-fixed": "#25005a",
+                        "surface-container": "#171f33",
+                        "text-primary": "#f8fafc",
+                        "outline": "#8d90a0",
+                        "background": "#0b1326",
+                        "surface-container-highest": "#2d3449",
+                        "on-error": "#690005",
+                        "on-surface": "#dae2fd",
+                        "error-crimson": "#dc2626",
+                        "tertiary-fixed-dim": "#ffb95f",
+                        "error-container": "#93000a",
+                        "secondary": "#d2bbff",
+                        "primary": "#b4c5ff",
+                        "inverse-primary": "#0053db",
+                        "tertiary-fixed": "#ffddb8",
+                        "tertiary-container": "#996100",
+                        "primary-fixed-dim": "#b4c5ff",
+                        "secondary-fixed": "#eaddff",
+                        "on-primary-fixed-variant": "#003ea8",
+                        "surface-dim": "#0b1326",
+                        "surface-container-high": "#222a3d",
+                        "tertiary": "#ffb95f",
+                        "inverse-on-surface": "#283044",
+                        "surface-container-lowest": "#060e20",
+                        "error": "#ffb4ab",
+                        "on-tertiary-fixed": "#2a1700",
+                        "on-tertiary-fixed-variant": "#653e00",
+                        "text-secondary": "#d4d4d8",
+                        "on-surface-variant": "#c3c6d7"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "sp-8": "32px",
+                        "sp-6": "24px",
+                        "sp-12": "48px",
+                        "unit": "4px",
+                        "sp-2": "8px",
+                        "sidebar-width": "256px",
+                        "sp-3": "12px",
+                        "sp-4": "16px",
+                        "container-max": "1000px",
+                        "bottom-nav-height": "65px",
+                        "sp-1": "4px"
+                    },
+                    "fontFamily": {
+                        "headline-lg-mobile": ["Outfit"],
+                        "body-base": ["Inter"],
+                        "headline-md": ["Outfit"],
+                        "display-xl": ["Outfit"],
+                        "label-caps": ["Outfit"],
+                        "headline-sm": ["Outfit"],
+                        "headline-lg": ["Outfit"],
+                        "body-bold": ["Inter"]
+                    },
+                    "fontSize": {
+                        "headline-lg-mobile": ["28px", {"lineHeight": "36px", "letterSpacing": "-0.02em", "fontWeight": "800"}],
+                        "body-base": ["17px", {"lineHeight": "30px", "letterSpacing": "0em", "fontWeight": "400"}],
+                        "headline-md": ["23px", {"lineHeight": "30px", "letterSpacing": "0em", "fontWeight": "700"}],
+                        "display-xl": ["40px", {"lineHeight": "48px", "letterSpacing": "-0.03em", "fontWeight": "850"}],
+                        "label-caps": ["12px", {"lineHeight": "16px", "letterSpacing": "0.12em", "fontWeight": "800"}],
+                        "headline-sm": ["18px", {"lineHeight": "24px", "letterSpacing": "0em", "fontWeight": "600"}],
+                        "headline-lg": ["32px", {"lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "800"}],
+                        "body-bold": ["17px", {"lineHeight": "30px", "letterSpacing": "0em", "fontWeight": "600"}]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        body {
+            background-color: #0f172a; /* Canvas */
+            -webkit-tap-highlight-color: transparent;
+        }
+        .touch-target {
+            min-height: 44px;
+            min-width: 44px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .glass-surface {
+            background: rgba(30, 41, 59, 0.7);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .gradient-primary {
+            background: linear-gradient(135deg, #4f46e5 0%, #9333ea 100%);
+        }
+        .glow-shadow {
+            box-shadow: 0 0 20px rgba(37, 99, 235, 0.3);
+        }
+        .whatsapp-green {
+            background-color: #25D366;
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="text-text-primary font-body-base pb-[85px] md:pb-0 pt-[64px]">
+<!-- TopNavBar (Web Focus, Mobile Hybrid) -->
+<nav class="fixed top-0 w-full z-50 bg-surface-glass backdrop-blur-xl dark:bg-surface-glass border-b border-outline-variant/30 dark:border-outline-variant/20 shadow-sm">
+<div class="flex justify-between items-center px-sp-6 h-sp-12 max-w-container-max mx-auto">
+<div class="font-headline-md text-headline-md text-primary dark:text-primary-fixed tracking-tight">
+                EnglishVidya
+            </div>
+<!-- Web Links -->
+<div class="hidden md:flex space-x-sp-6">
+<a class="text-on-surface-variant hover:text-primary transition-colors hover:bg-surface-container-high transition-all p-2 rounded-lg" href="#">Grammar</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors hover:bg-surface-container-high transition-all p-2 rounded-lg" href="#">Bihar Board</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors hover:bg-surface-container-high transition-all p-2 rounded-lg" href="#">Vocabulary</a>
+<a class="text-primary font-bold border-b-2 border-primary pb-1 p-2 rounded-lg hover:bg-surface-container-high transition-all" href="#">Referral</a>
+</div>
+<!-- Actions -->
+<div class="flex items-center space-x-sp-2">
+<button aria-label="account_circle" class="touch-target text-primary dark:text-primary-fixed hover:bg-surface-container-high transition-all rounded-full">
+<span class="material-symbols-outlined">account_circle</span>
+</button>
+<button aria-label="notifications" class="touch-target text-primary dark:text-primary-fixed hover:bg-surface-container-high transition-all rounded-full">
+<span class="material-symbols-outlined">notifications</span>
+</button>
+</div>
+</div>
+</nav>
+<!-- Main Content -->
+<main class="max-w-container-max mx-auto px-sp-4 md:px-sp-6 py-sp-6 md:grid md:grid-cols-12 md:gap-sp-6">
+<!-- Center Column -->
+<div class="md:col-span-8 md:col-start-3 space-y-sp-6">
+<!-- Hero Card -->
+<div class="gradient-primary rounded-xl p-sp-6 text-center shadow-lg relative overflow-hidden group">
+<!-- Decorative background elements -->
+<div class="absolute -top-10 -right-10 w-32 h-32 bg-white/10 rounded-full blur-xl"></div>
+<div class="absolute -bottom-10 -left-10 w-40 h-40 bg-black/10 rounded-full blur-xl"></div>
+<h1 class="font-headline-lg-mobile md:font-headline-lg text-headline-lg-mobile md:text-headline-lg text-white mb-2 relative z-10">Refer &amp; Get 1,000 Coins</h1>
+<p class="font-body-base text-body-base text-white/90 relative z-10">Invite friends and unlock premium lessons!</p>
+<img class="w-32 h-32 mx-auto mt-4 object-contain relative z-10 mix-blend-screen" data-alt="A stylized 3D illustration of golden coins and a gift box floating in a vibrant purple and indigo gradient space, modern high-quality 3D icon style, soft cinematic lighting, isolated on a transparent background." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCMj3byKTZvfGZ4M_Ij1FMu-l5BBmiolgQPdMnjDVGGmd_9i4pyGMgZTbQ8jJw6fpZ9n5h2PcOQ-820rw4VDlKrIP7jM1Se5L1BiDXU2P7rSavPXDsV2Yu5iVMdBAxnFYRaQaoTRJ9pb8t1Cvmqkk5ySDJjrdgORkaxHY0KFEDBXTtQZPXy9_Cmr_VqwVVGTb5_mgel6Ffqml2PYKPQL86DKWP5udqG_DnpSFtzsDt_3-dDVLI5It93o6VuuEwsxredgRQwhgD6Aw4"/>
+</div>
+<!-- Action Section -->
+<div class="bg-surface-raised rounded-xl p-sp-6 border border-outline-variant/30 shadow-md">
+<h2 class="font-headline-sm text-headline-sm text-center mb-sp-4">Your Referral Code</h2>
+<div class="flex flex-col sm:flex-row gap-sp-3 items-center w-full">
+<div class="relative w-full">
+<input class="w-full bg-surface-container text-center font-headline-md text-headline-md text-primary tracking-widest border border-outline-variant/50 rounded-lg h-[56px] focus:ring-2 focus:ring-primary focus:border-transparent cursor-default selection:bg-primary-container selection:text-white" readonly="" type="text" value="VIDYA-892X"/>
+</div>
+<button class="touch-target w-full sm:w-auto bg-surface-container-high border border-outline-variant/50 hover:bg-surface-container-highest rounded-lg px-sp-6 font-body-bold text-body-bold text-text-primary transition-colors flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-xl">content_copy</span>
+                        Copy
+                    </button>
+</div>
+<div class="mt-sp-6">
+<button class="touch-target w-full whatsapp-green hover:bg-[#128C7E] rounded-lg px-sp-6 font-body-bold text-body-bold text-white transition-colors glow-shadow flex items-center justify-center gap-3 h-[56px]">
+<!-- Basic generic share icon as a stand-in for whatsapp due to material icons limitation -->
+<span class="material-symbols-outlined text-2xl" style="font-variation-settings: 'FILL' 1;">share</span>
+                        Share via WhatsApp
+                    </button>
+</div>
+</div>
+<!-- Dashboard Cards -->
+<div class="grid grid-cols-2 gap-sp-3">
+<div class="bg-surface-container-low rounded-xl p-sp-4 border border-outline-variant/20 flex flex-col items-center justify-center text-center group hover:-translate-y-1 transition-transform cursor-pointer">
+<span class="material-symbols-outlined text-tertiary text-3xl mb-1" style="font-variation-settings: 'FILL' 1;">monetization_on</span>
+<span class="font-headline-md text-headline-md text-text-primary">2,500</span>
+<span class="font-label-caps text-label-caps text-text-secondary mt-1">Total Coins</span>
+</div>
+<div class="bg-surface-container-low rounded-xl p-sp-4 border border-outline-variant/20 flex flex-col items-center justify-center text-center group hover:-translate-y-1 transition-transform cursor-pointer">
+<span class="material-symbols-outlined text-success-emerald text-3xl mb-1" style="font-variation-settings: 'FILL' 1;">group_add</span>
+<span class="font-headline-md text-headline-md text-text-primary">3</span>
+<span class="font-label-caps text-label-caps text-text-secondary mt-1">Pending Referrals</span>
+</div>
+</div>
+<!-- FAQ Accordion -->
+<div class="bg-surface-raised rounded-xl border border-outline-variant/30 overflow-hidden mt-sp-6">
+<button class="w-full text-left px-sp-4 py-sp-4 flex justify-between items-center bg-surface-container hover:bg-surface-container-high transition-colors focus:outline-none" onclick="document.getElementById('faq-content').classList.toggle('hidden'); this.querySelector('span.icon').classList.toggle('rotate-180')">
+<span class="font-headline-sm text-headline-sm">How it works (नियम)</span>
+<span class="material-symbols-outlined icon transition-transform duration-300">expand_more</span>
+</button>
+<div class="px-sp-4 py-sp-4 bg-surface-raised border-t border-outline-variant/20 space-y-sp-3 text-text-secondary" id="faq-content">
+<div class="flex gap-3">
+<span class="material-symbols-outlined text-primary mt-1">mobile_arrow_right</span>
+<p class="font-body-base text-body-base">Share your code with friends. <br/><span class="text-sm opacity-80">अपने दोस्तों के साथ कोड शेयर करें।</span></p>
+</div>
+<div class="flex gap-3">
+<span class="material-symbols-outlined text-primary mt-1">waves</span>
+<p class="font-body-base text-body-base">They sign up &amp; complete 1 lesson. <br/><span class="text-sm opacity-80">वे साइन अप करें और 1 लेसन पूरा करें।</span></p>
+</div>
+<div class="flex gap-3">
+<span class="material-symbols-outlined text-primary mt-1">cloud_download</span>
+<p class="font-body-base text-body-base">Both get 1,000 Coins! <br/><span class="text-sm opacity-80">दोनों को 1,000 कॉइन्स मिलेंगे!</span></p>
+</div>
+</div>
+</div>
+</div>
+</main>
+<!-- BottomNavBar (Mobile Only) -->
+<nav class="fixed bottom-0 w-full h-[65px] z-50 bg-surface-container dark:bg-surface-container-low border-t border-outline-variant/20 shadow-[0_-4px_12px_rgba(37,99,235,0.15)] md:hidden">
+<div class="fixed bottom-0 left-0 w-full flex justify-around items-center px-sp-2 h-full">
+<a class="flex flex-col items-center justify-center text-on-surface-variant hover:bg-surface-container-highest transition-colors rounded-xl p-1 touch-target" href="#">
+<span class="material-symbols-outlined mb-1">home</span>
+<span class="font-label-caps text-label-caps">Home</span>
+</a>
+<a class="flex flex-col items-center justify-center text-on-surface-variant hover:bg-surface-container-highest transition-colors rounded-xl p-1 touch-target" href="#">
+<span class="material-symbols-outlined mb-1">menu_book</span>
+<span class="font-label-caps text-label-caps">Learn</span>
+</a>
+<a class="flex flex-col items-center justify-center text-on-surface-variant hover:bg-surface-container-highest transition-colors rounded-xl p-1 touch-target" href="#">
+<span class="material-symbols-outlined mb-1">style</span>
+<span class="font-label-caps text-label-caps">Cards</span>
+</a>
+<a class="flex flex-col items-center justify-center bg-secondary-container text-on-secondary-container rounded-xl px-sp-4 py-sp-1 hover:bg-surface-container-highest transition-colors touch-target transform scale-95" href="#">
+<span class="material-symbols-outlined mb-1" style="font-variation-settings: 'FILL' 1;">monetization_on</span>
+<span class="font-label-caps text-label-caps">Earn</span>
+</a>
+<a class="flex flex-col items-center justify-center text-on-surface-variant hover:bg-surface-container-highest transition-colors rounded-xl p-1 touch-target" href="#">
+<span class="material-symbols-outlined mb-1">person</span>
+<span class="font-label-caps text-label-caps">Profile</span>
+</a>
+</div>
+</nav>
+<!-- Footer (Desktop Only) -->
+<footer class="hidden md:block w-full py-sp-8 px-sp-6 border-t border-outline-variant max-w-container-max mx-auto text-center bg-surface-container-lowest dark:bg-surface-container-lowest mt-12">
+<div class="flex justify-center space-x-sp-6 mb-4">
+<a class="font-body-base text-body-base text-on-surface-variant hover:text-secondary transition-colors" href="#">About Us</a>
+<a class="font-body-base text-body-base text-on-surface-variant hover:text-secondary transition-colors" href="#">BSEB Syllabus</a>
+<a class="font-body-base text-body-base text-on-surface-variant hover:text-secondary transition-colors" href="#">Privacy Policy</a>
+<a class="font-body-base text-body-base text-on-surface-variant hover:text-secondary transition-colors" href="#">Contact Support</a>
+</div>
+<p class="font-body-base text-body-base text-on-surface-variant">© 2024 EnglishVidya - Seekho English, Dil Se.</p>
+</footer>
+</body></html>

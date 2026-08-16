@@ -1,18 +1,8 @@
 {
-  "tags": [
-    "class10",
-    "biharboard"
-  ],
+  "tags": ["article", "class-10"],
   "layout": "layouts/article.njk",
-  "noindex": true,
   "breadcrumbs": [
-    {
-      "label": "Home",
-      "url": "/"
-    },
-    {
-      "label": "Class 10th English",
-      "url": "/class-10/"
-    }
+    { "label": "Home", "url": "/" },
+    { "label": "Class 10th", "url": "/class-10/" }
   ]
 }

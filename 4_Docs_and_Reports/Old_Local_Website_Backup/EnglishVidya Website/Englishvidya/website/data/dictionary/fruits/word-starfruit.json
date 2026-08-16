@@ -1,0 +1,32 @@
+{
+    "word": "Starfruit",
+    "slug": "starfruit",
+    "pron": "स्टारफ्रूट",
+    "meaning": "कमरख",
+    "usages": [
+        {
+            "partOfSpeech": "Noun",
+            "definition": "A yellow tropical fruit with deeply ridged sides, shaped like a star when cut in cross section.",
+            "examples": [
+                {
+                    "en": "Starfruit has a crisp texture and tangy taste.",
+                    "hi": "स्टारफ्रूट की बनावट कुरकुरी और स्वाद तीखा होता है।"
+                },
+                {
+                    "en": "The slices of starfruit looked beautiful on the plate.",
+                    "hi": "स्टारफ्रूट के टुकड़े प्लेट में बहुत खूबसूरत लग रहे थे।"
+                }
+            ]
+        }
+    ],
+    "synonyms": [
+        "carambola"
+    ],
+    "antonyms": [],
+    "collocations": [
+        "sliced starfruit",
+        "ripe starfruit"
+    ],
+    "category": "fruits",
+    "hasTranslations": true
+}

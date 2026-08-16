@@ -1,0 +1,32 @@
+{
+    "word": "Grapes",
+    "slug": "grapes",
+    "pron": "ग्रेप्स",
+    "meaning": "अंगूर",
+    "usages": [
+        {
+            "partOfSpeech": "Noun",
+            "definition": "Small green or purple berries growing in bunches on a vine.",
+            "examples": [
+                {
+                    "en": "These grapes are very sour.",
+                    "hi": "ये अंगूर बहुत खट्टे हैं।"
+                },
+                {
+                    "en": "She bought a bunch of seedless grapes.",
+                    "hi": "उसने बिना बीज वाले अंगूर का एक गुच्छा खरीदा।"
+                }
+            ]
+        }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [
+        "bunch of grapes",
+        "seedless grapes",
+        "sour grapes",
+        "grape juice"
+    ],
+    "category": "fruits",
+    "hasTranslations": true
+}

@@ -1,5 +1,7 @@
 @import "tailwindcss";
-@source "./src/**/*.njk";
+@source "./src/**/*.{njk,md,html}";
+@source "./src/_includes/**/*.njk";
+@source "./website/js/**/*.js";
 
 @theme {
   --font-sans: "Inter", sans-serif;
@@ -10,16 +12,95 @@
   --color-primary: var(--text-primary);
   --color-secondary: var(--text-secondary);
   --color-accent: var(--accent);
-  --color-accent-glow: var(--accent-glow);
+  --color-accent-hover: var(--accent-hover);
   --color-border: var(--border);
+  
+  --animate-fade-in: fade-in 0.3s ease-out;
+  --animate-shimmer: shimmer 2s linear infinite;
+  --animate-glow-pulse: glow-pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
 }
 
 @plugin "@tailwindcss/typography";
 @plugin "@tailwindcss/forms";
 
-/* Custom utility styles */
+@layer base {
+  :root {
+    /* Crisp Pearl & Blue-Violet Light Mode — WCAG AA Compliant */
+    --bg-base: #f9fafb;
+    --bg-raised: #ffffff;
+    --text-primary: #111827;   /* contrast 4.5:1+ on bg-base */
+    --text-secondary: #374151; /* contrast 4.5:1+ — was too light before */
+    --accent: #4f46e5;         /* deeper indigo for better contrast on white */
+    --accent-hover: #4338ca;
+    --border: #d1d5db;         /* neutral gray — easier to see on all screens */
+  }
+
+  /* Royal Indigo & Cyan Glow Dark Mode */
+  [data-theme="dark"] {
+    --bg-base: #0a0514;
+    --bg-raised: #140b2e;
+    --text-primary: #f8fafc;
+    --text-secondary: #94a3b8;
+    --accent: #22d3ee;
+    --accent-hover: #06b6d4;
+    --border: #2e1065;
+  }
+
+  html {
+    /* Fluid typography */
+    font-size: clamp(1rem, 0.95rem + 0.25vw, 1.125rem);
+  }
+
+  body {
+    @apply bg-base text-primary transition-all duration-300 ease-in-out;
+  }
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+  
+  .glass {
+    @apply bg-white/70 dark:bg-black/50 backdrop-blur-lg border border-slate-200/50 dark:border-slate-800/50 shadow-sm;
+  }
+  
+  .hover-lift {
+    @apply transition-transform duration-300 hover:-translate-y-1 hover:shadow-lg;
+  }
+
+  .smooth-transition {
+    @apply transition-all duration-300 ease-in-out;
+  }
+
+  .premium-glass {
+    @apply bg-white/70 dark:bg-slate-900/60 backdrop-blur-xl border border-white/20 dark:border-white/10 shadow-lg;
+  }
+
+  .neon-border {
+    /* Subtle resting state - always visible but not distracting */
+    @apply border border-accent/20 transition-all duration-500;
+  }
+  
+  .neon-border:hover {
+    @apply border-accent/60;
+    box-shadow: 0 0 8px color-mix(in srgb, var(--accent) 40%, transparent),
+                0 0 20px color-mix(in srgb, var(--accent) 20%, transparent);
+  }
+}
+
+@keyframes fade-in {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+@keyframes glow-pulse {
+  /* Slower, more breathing — not seizure-inducing */
+  0%, 100% { opacity: 0.6; transform: scale(1); }
+  50% { opacity: 0.35; transform: scale(1.05); }
 }

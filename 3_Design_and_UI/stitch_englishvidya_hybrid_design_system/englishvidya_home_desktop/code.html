@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>EnglishVidya - Learn Real English</title>
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&amp;family=Outfit:wght@600;700;800;900&amp;display=swap" rel="stylesheet"/>
+<!-- Material Symbols -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Theme Configuration -->
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "secondary-fixed-dim": "#d2bbff",
+                    "surface-bright": "#31394d",
+                    "error-crimson": "#dc2626",
+                    "surface-container-low": "#131b2e",
+                    "outline-variant": "#434655",
+                    "inverse-primary": "#0053db",
+                    "secondary-container": "#6001d1",
+                    "secondary": "#d2bbff",
+                    "surface-container": "#171f33",
+                    "on-primary": "#002a78",
+                    "on-secondary": "#3f008e",
+                    "outline": "#8d90a0",
+                    "on-error": "#690005",
+                    "tertiary": "#ffb95f",
+                    "on-background": "#dae2fd",
+                    "primary": "#b4c5ff",
+                    "surface-variant": "#2d3449",
+                    "surface-tint": "#b4c5ff",
+                    "primary-fixed": "#dbe1ff",
+                    "surface-container-lowest": "#060e20",
+                    "background": "#0b1326",
+                    "on-tertiary": "#472a00",
+                    "on-primary-fixed-variant": "#003ea8",
+                    "inverse-on-surface": "#283044",
+                    "error": "#ffb4ab",
+                    "surface": "#0b1326",
+                    "tertiary-container": "#996100",
+                    "tertiary-fixed-dim": "#ffb95f",
+                    "on-tertiary-fixed-variant": "#653e00",
+                    "surface-container-highest": "#2d3449",
+                    "on-primary-container": "#eeefff",
+                    "on-secondary-fixed": "#25005a",
+                    "on-surface": "#dae2fd",
+                    "on-tertiary-container": "#ffeedd",
+                    "primary-container": "#2563eb",
+                    "surface-container-high": "#222a3d",
+                    "text-secondary": "#d4d4d8",
+                    "on-error-container": "#ffdad6",
+                    "surface-dim": "#0b1326",
+                    "text-primary": "#f8fafc",
+                    "primary-fixed-dim": "#b4c5ff",
+                    "on-tertiary-fixed": "#2a1700",
+                    "on-secondary-fixed-variant": "#5a00c6",
+                    "surface-glass": "rgba(30, 41, 59, 0.7)",
+                    "error-container": "#93000a",
+                    "secondary-fixed": "#eaddff",
+                    "on-surface-variant": "#c3c6d7",
+                    "on-primary-fixed": "#00174b",
+                    "surface-raised": "#1e293b",
+                    "on-secondary-container": "#c9aeff",
+                    "tertiary-fixed": "#ffddb8",
+                    "inverse-surface": "#dae2fd",
+                    "success-emerald": "#10b981"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.25rem",
+                    "lg": "0.5rem",
+                    "xl": "0.75rem",
+                    "full": "9999px"
+            },
+            "spacing": {
+                    "sp-12": "48px",
+                    "sp-6": "24px",
+                    "sp-1": "4px",
+                    "sp-8": "32px",
+                    "sidebar-width": "256px",
+                    "sp-2": "8px",
+                    "bottom-nav-height": "65px",
+                    "sp-4": "16px",
+                    "unit": "4px",
+                    "sp-3": "12px",
+                    "container-max": "1000px"
+            },
+            "fontFamily": {
+                    "body-bold": [
+                            "Inter"
+                    ],
+                    "label-caps": [
+                            "Outfit"
+                    ],
+                    "headline-md": [
+                            "Outfit"
+                    ],
+                    "headline-sm": [
+                            "Outfit"
+                    ],
+                    "headline-lg": [
+                            "Outfit"
+                    ],
+                    "headline-lg-mobile": [
+                            "Outfit"
+                    ],
+                    "body-base": [
+                            "Inter"
+                    ],
+                    "display-xl": [
+                            "Outfit"
+                    ]
+            },
+            "fontSize": {
+                    "body-bold": [
+                            "17px",
+                            {
+                                    "lineHeight": "30px",
+                                    "letterSpacing": "0em",
+                                    "fontWeight": "600"
+                            }
+                    ],
+                    "label-caps": [
+                            "12px",
+                            {
+                                    "lineHeight": "16px",
+                                    "letterSpacing": "0.12em",
+                                    "fontWeight": "800"
+                            }
+                    ],
+                    "headline-md": [
+                            "23px",
+                            {
+                                    "lineHeight": "30px",
+                                    "letterSpacing": "0em",
+                                    "fontWeight": "700"
+                            }
+                    ],
+                    "headline-sm": [
+                            "18px",
+                            {
+                                    "lineHeight": "24px",
+                                    "letterSpacing": "0em",
+                                    "fontWeight": "600"
+                            }
+                    ],
+                    "headline-lg": [
+                            "32px",
+                            {
+                                    "lineHeight": "40px",
+                                    "letterSpacing": "-0.02em",
+                                    "fontWeight": "800"
+                            }
+                    ],
+                    "headline-lg-mobile": [
+                            "28px",
+                            {
+                                    "lineHeight": "36px",
+                                    "letterSpacing": "-0.02em",
+                                    "fontWeight": "800"
+                            }
+                    ],
+                    "body-base": [
+                            "17px",
+                            {
+                                    "lineHeight": "30px",
+                                    "letterSpacing": "0em",
+                                    "fontWeight": "400"
+                            }
+                    ],
+                    "display-xl": [
+                            "40px",
+                            {
+                                    "lineHeight": "48px",
+                                    "letterSpacing": "-0.03em",
+                                    "fontWeight": "850"
+                            }
+                    ]
+            }
+    },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+          font-variation-settings:
+          'FILL' 0,
+          'wght' 400,
+          'GRAD' 0,
+          'opsz' 24
+        }
+        /* Custom glow utility */
+        .glow-primary {
+            box-shadow: 0 4px 20px -2px rgba(37, 99, 235, 0.3);
+        }
+    </style>
+</head>
+<body class="bg-background text-on-background antialiased selection:bg-primary-container selection:text-on-primary-container min-h-screen flex flex-col font-body-base text-body-base">
+<!-- TopNavBar (Web Only) -->
+<header class="fixed top-0 w-full z-50 bg-surface-glass backdrop-blur-xl dark:bg-surface-glass border-b border-outline-variant/30 dark:border-outline-variant/20 shadow-sm hidden md:block">
+<div class="flex justify-between items-center px-sp-6 h-sp-12 max-w-container-max mx-auto">
+<!-- Brand -->
+<div class="font-headline-md text-headline-md text-primary dark:text-primary-fixed tracking-tight">
+                EnglishVidya
+            </div>
+<!-- Navigation Links -->
+<nav class="flex space-x-sp-6">
+<a class="text-on-surface-variant hover:text-primary transition-colors hover:bg-surface-container-high transition-all px-2 py-1 rounded-md font-body-bold text-body-bold" href="#">Grammar</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors hover:bg-surface-container-high transition-all px-2 py-1 rounded-md font-body-bold text-body-bold" href="#">Bihar Board</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors hover:bg-surface-container-high transition-all px-2 py-1 rounded-md font-body-bold text-body-bold" href="#">Vocabulary</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors hover:bg-surface-container-high transition-all px-2 py-1 rounded-md font-body-bold text-body-bold" href="#">Referral</a>
+</nav>
+<!-- Trailing Icons -->
+<div class="flex space-x-sp-4 text-primary dark:text-primary-fixed">
+<button class="hover:bg-surface-container-high p-1 rounded-full transition-all">
+<span class="material-symbols-outlined" data-icon="account_circle">account_circle</span>
+</button>
+<button class="hover:bg-surface-container-high p-1 rounded-full transition-all">
+<span class="material-symbols-outlined" data-icon="notifications">notifications</span>
+</button>
+</div>
+</div>
+</header>
+<!-- Main Content Canvas -->
+<main class="flex-grow pt-[80px] pb-[85px] md:pb-[40px] px-sp-4 md:px-sp-6 max-w-container-max mx-auto w-full space-y-sp-12">
+<!-- Hero Section -->
+<section class="relative rounded-2xl overflow-hidden mt-sp-4 border border-outline-variant/20 bg-surface-container-low min-h-[400px] flex items-center">
+<!-- Atmospheric Background -->
+<div class="absolute inset-0 opacity-40 mix-blend-screen" data-alt="Abstract deep space nebula in shades of vibrant indigo, electric blue, and subtle gold accents. The scene is illuminated by a soft, diffused celestial light creating a sense of boundless knowledge and expansive energy. The aesthetic is clean, modern, and highly polished, fitting a premium digital learning platform's dark mode theme." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuA_yFNs6CaoHLyImxUH0pe4yGGslvZW3Fm78jcC_GBSVjGUc8fzjwcAXzj-_MF2VtXCGBrvqDjMXpyy6e9EI4-oSTaKKN-4bj2kmek6a-1Vev-iO6RCXpG49xRQJ4aqktzrtcRxTZ-yHIxsrN-X2Tw8p9HSOleHPo1crlvV-kl9PSfrQ3C-joHD2_bb4w67d1M_GNK32fzMMb7aqRC_CpmTh85Uhn6qKeE33ooGycAtYx7ytVMykDATMretqQjP_zPNQfXxDknjZkw')"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent"></div>
+<div class="relative z-10 p-sp-6 md:p-sp-12 max-w-3xl">
+<h1 class="font-display-xl text-display-xl text-text-primary mb-sp-4 drop-shadow-lg">
+                    India's most trusted English learning ecosystem for Hindi-medium students.
+                </h1>
+<p class="font-body-base text-body-base text-on-surface-variant mb-sp-8 max-w-xl">
+                    Learn Real English, Not Just Rules. <br class="hidden md:block"/>
+<span class="text-secondary-fixed-dim">असली अंग्रेजी सीखें, सिर्फ नियम नहीं।</span>
+</p>
+<button class="bg-gradient-to-r from-primary-container to-secondary-container text-on-primary-container font-label-caps text-label-caps px-sp-8 py-sp-3 rounded-lg glow-primary hover:-translate-y-1 transition-transform duration-200">
+                    START LEARNING
+                </button>
+</div>
+</section>
+<!-- Word of the Day (Glassmorphism) -->
+<section>
+<h2 class="font-headline-lg-mobile md:font-headline-lg text-headline-lg-mobile md:text-headline-lg text-primary mb-sp-4 flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary" data-icon="lightbulb" style="font-variation-settings: 'FILL' 1;">lightbulb</span>
+                Word of the Day
+            </h2>
+<div class="bg-surface-glass backdrop-blur-[20px] border border-outline-variant/30 rounded-xl relative p-sp-6 md:p-sp-8 shadow-lg overflow-hidden group hover:-translate-y-[4px] transition-transform duration-300">
+<!-- Top Accent Border -->
+<div class="absolute top-0 left-0 w-full h-[4px] bg-gradient-to-r from-primary-container to-secondary-container"></div>
+<div class="flex items-start justify-between">
+<div>
+<div class="font-label-caps text-label-caps text-secondary mb-sp-2 tracking-widest uppercase">Noun</div>
+<h3 class="font-display-xl text-display-xl text-text-primary mb-sp-1">Resilience</h3>
+<p class="font-headline-md text-headline-md text-tertiary-fixed-dim mb-sp-4">लचीलापन (Lachilapan)</p>
+<p class="font-body-base text-body-base text-on-surface-variant max-w-2xl border-l-2 border-primary-container pl-sp-4 italic">
+                            "The capacity to withstand or to recover quickly from difficulties; toughness."
+                        </p>
+</div>
+<!-- TTS Audio Trigger -->
+<button class="w-[48px] h-[48px] rounded-full bg-surface-container flex items-center justify-center border border-outline-variant hover:bg-surface-container-highest transition-colors flex-shrink-0 glow-primary">
+<span class="material-symbols-outlined text-primary" data-icon="volume_up">volume_up</span>
+</button>
+</div>
+</div>
+</section>
+<!-- Portals (Bento Grid) -->
+<section>
+<h2 class="font-headline-lg-mobile md:font-headline-lg text-headline-lg-mobile md:text-headline-lg text-primary mb-sp-6">Learning Portals</h2>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-sp-6">
+<!-- Grammar Card -->
+<div class="bg-surface-raised rounded-xl p-sp-6 border border-outline-variant/20 relative overflow-hidden group hover:-translate-y-[4px] transition-transform duration-300 cursor-pointer shadow-md hover:shadow-lg">
+<div class="absolute top-0 right-0 w-32 h-32 bg-primary-container/10 rounded-full blur-2xl -mr-10 -mt-10 transition-all group-hover:bg-primary-container/20"></div>
+<div class="w-12 h-12 bg-surface-container flex items-center justify-center rounded-lg border border-outline-variant/50 mb-sp-6">
+<span class="material-symbols-outlined text-primary" data-icon="account_tree">account_tree</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-text-primary mb-sp-2">Grammar Levels 1-5</h3>
+<p class="font-body-base text-body-base text-on-surface-variant mb-sp-6">
+                        Master the foundations with our logical, rule-free approach to English structures.
+                    </p>
+<div class="flex items-center text-secondary font-label-caps text-label-caps group-hover:translate-x-2 transition-transform">
+                        EXPLORE LEVELS <span class="material-symbols-outlined ml-2 text-sm" data-icon="arrow_forward">arrow_forward</span>
+</div>
+</div>
+<!-- BSEB Card -->
+<div class="bg-surface-raised rounded-xl p-sp-6 border border-outline-variant/20 relative overflow-hidden group hover:-translate-y-[4px] transition-transform duration-300 cursor-pointer shadow-md hover:shadow-lg">
+<div class="absolute top-0 right-0 w-32 h-32 bg-tertiary-container/10 rounded-full blur-2xl -mr-10 -mt-10 transition-all group-hover:bg-tertiary-container/20"></div>
+<div class="w-12 h-12 bg-surface-container flex items-center justify-center rounded-lg border border-outline-variant/50 mb-sp-6">
+<span class="material-symbols-outlined text-tertiary" data-icon="school">school</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-text-primary mb-sp-2">Bihar Board (BSEB)</h3>
+<p class="font-body-base text-body-base text-on-surface-variant mb-sp-6">
+                        Tailored curriculum mapped exactly to the BSEB syllabus for top marks.
+                    </p>
+<div class="flex items-center text-tertiary font-label-caps text-label-caps group-hover:translate-x-2 transition-transform">
+                        VIEW SYLLABUS <span class="material-symbols-outlined ml-2 text-sm" data-icon="arrow_forward">arrow_forward</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Refer & Earn Banner -->
+<section>
+<div class="bg-gradient-to-br from-secondary-container to-surface-container-high rounded-xl p-sp-6 md:p-sp-8 border border-secondary/20 flex flex-col md:flex-row items-center justify-between relative overflow-hidden shadow-lg">
+<!-- Decorative element -->
+<div class="absolute -right-20 -bottom-20 opacity-20 pointer-events-none text-[200px] leading-none">
+<span class="material-symbols-outlined" data-icon="monetization_on">monetization_on</span>
+</div>
+<div class="relative z-10 mb-sp-4 md:mb-0 max-w-xl text-center md:text-left">
+<h3 class="font-headline-md text-headline-md text-on-secondary-container mb-sp-2 flex items-center justify-center md:justify-start gap-2">
+<span class="material-symbols-outlined" data-icon="group_add">group_add</span>
+                        Refer Friends, Earn Rewards
+                    </h3>
+<p class="font-body-base text-body-base text-on-surface-variant">
+                        Invite your classmates to EnglishVidya and get <span class="text-tertiary font-bold">1,000 Frankbase Coins</span> for every successful signup!
+                    </p>
+</div>
+<button class="relative z-10 bg-tertiary text-on-tertiary font-label-caps text-label-caps px-sp-6 py-sp-3 rounded-lg hover:bg-tertiary-fixed-dim transition-colors shadow-md whitespace-nowrap">
+                    GET INVITE LINK
+                </button>
+</div>
+</section>
+</main>
+<!-- Footer (Web Only) -->
+<footer class="w-full relative bg-surface-container-lowest dark:bg-surface-container-lowest border-t border-outline-variant/10 hidden md:block">
+<div class="w-full py-sp-8 px-sp-6 border-t border-outline-variant max-w-container-max mx-auto text-center">
+<div class="font-headline-sm text-headline-sm text-primary mb-sp-4">
+                EnglishVidya
+            </div>
+<nav class="flex justify-center space-x-sp-6 mb-sp-6">
+<a class="font-body-base text-body-base text-on-surface-variant hover:text-secondary hover:text-secondary-fixed transition-colors" href="#">About Us</a>
+<a class="font-body-base text-body-base text-on-surface-variant hover:text-secondary hover:text-secondary-fixed transition-colors" href="#">BSEB Syllabus</a>
+<a class="font-body-base text-body-base text-on-surface-variant hover:text-secondary hover:text-secondary-fixed transition-colors" href="#">Privacy Policy</a>
+<a class="font-body-base text-body-base text-on-surface-variant hover:text-secondary hover:text-secondary-fixed transition-colors" href="#">Contact Support</a>
+</nav>
+<div class="font-body-base text-body-base text-on-surface-variant text-sm opacity-70">
+                © 2024 EnglishVidya - Seekho English, Dil Se.
+            </div>
+</div>
+</footer>
+<!-- BottomNavBar (Mobile Only) -->
+<nav class="fixed bottom-0 w-full h-[65px] z-50 md:hidden bg-surface-container dark:bg-surface-container-low border-t border-outline-variant/20 shadow-[0_-4px_12px_rgba(37,99,235,0.15)] pb-safe">
+<div class="fixed bottom-0 left-0 w-full flex justify-around items-center px-sp-2 h-[65px]">
+<!-- Active Nav Item (Home) -->
+<a class="flex flex-col items-center justify-center bg-secondary-container text-on-secondary-container rounded-xl px-sp-4 py-sp-1 hover:bg-surface-container-highest transition-colors scale-90 duration-200" href="#">
+<span class="material-symbols-outlined mb-1" data-icon="home" style="font-variation-settings: 'FILL' 1;">home</span>
+<span class="font-label-caps text-label-caps">Home</span>
+</a>
+<!-- Inactive Nav Items -->
+<a class="flex flex-col items-center justify-center text-on-surface-variant hover:bg-surface-container-highest transition-colors rounded-xl px-sp-2 py-sp-1" href="#">
+<span class="material-symbols-outlined mb-1" data-icon="menu_book">menu_book</span>
+<span class="font-label-caps text-label-caps">Learn</span>
+</a>
+<a class="flex flex-col items-center justify-center text-on-surface-variant hover:bg-surface-container-highest transition-colors rounded-xl px-sp-2 py-sp-1" href="#">
+<span class="material-symbols-outlined mb-1" data-icon="style">style</span>
+<span class="font-label-caps text-label-caps">Cards</span>
+</a>
+<a class="flex flex-col items-center justify-center text-on-surface-variant hover:bg-surface-container-highest transition-colors rounded-xl px-sp-2 py-sp-1" href="#">
+<span class="material-symbols-outlined mb-1" data-icon="monetization_on">monetization_on</span>
+<span class="font-label-caps text-label-caps">Earn</span>
+</a>
+<a class="flex flex-col items-center justify-center text-on-surface-variant hover:bg-surface-container-highest transition-colors rounded-xl px-sp-2 py-sp-1" href="#">
+<span class="material-symbols-outlined mb-1" data-icon="person">person</span>
+<span class="font-label-caps text-label-caps">Profile</span>
+</a>
+</div>
+</nav>
+</body></html>

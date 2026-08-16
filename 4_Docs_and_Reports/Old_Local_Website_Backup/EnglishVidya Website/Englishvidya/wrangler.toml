@@ -1,0 +1,12 @@
+name = "englishvidya"
+compatibility_date = "2026-06-03"
+
+# Cloudflare Pages build output directory
+pages_build_output_dir = "./_site"
+
+# --- Cloudflare D1 Database Binding ---
+[[d1_databases]]
+binding = "DB"
+database_name = "englishvidya-db"
+database_id = "9421954b-e317-42a7-97bf-d47fc5721807"
+migrations_dir = "migrations"

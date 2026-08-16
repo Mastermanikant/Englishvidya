@@ -1,27 +1,34 @@
-<header class="bg-base border-b border-border sticky top-0 z-30 h-16 flex items-center px-4 md:px-8 justify-between shrink-0" id="app-header">
+<header class="premium-glass border-b border-border sticky top-0 z-30 h-16 flex items-center px-4 md:px-8 justify-between shrink-0" id="app-header">
   <div class="flex items-center gap-4">
-    <button class="md:hidden p-2 -ml-2 text-primary hover:bg-raised rounded-md transition-colors" id="mobile-menu-trigger" aria-label="Menu" aria-expanded="false">
+    <button class="md:hidden p-2 -ml-2 text-primary hover:bg-raised hover:text-accent rounded-md transition-colors" id="mobile-menu-trigger" aria-label="Menu" aria-expanded="false">
       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
         <line x1="4" y1="12" x2="20" y2="12"></line>
         <line x1="4" y1="6" x2="20" y2="6"></line>
         <line x1="4" y1="18" x2="20" y2="18"></line>
       </svg>
     </button>
-    <a href="/" class="md:hidden flex items-center gap-2" aria-label="{{ site.siteName }} Home">
+    <a href="/" class="md:hidden flex items-center gap-2 transition-opacity hover:opacity-80" aria-label="{{ site.siteName }} Home">
       <img src="/assets/icons/logo.webp" alt="" class="w-8 h-8 object-contain" loading="eager" aria-hidden="true">
       <span class="font-heading font-bold text-xl tracking-tight text-primary">English <span class="text-accent">Vidya</span></span>
     </a>
+    
+    <!-- Desktop Navigation -->
+    <nav class="hidden md:flex items-center gap-6 ml-4">
+      <a href="/about-us/" class="text-sm font-medium text-secondary hover:text-accent transition-colors">About Us</a>
+    </nav>
   </div>
 
   <div class="flex items-center gap-2 sm:gap-4">
-    <button class="p-2 text-secondary hover:text-primary hover:bg-raised rounded-full transition-colors" id="search-trigger-btn" aria-label="Search">
+    <a href="/about-us/" class="md:hidden text-sm font-medium text-secondary hover:text-accent transition-colors mr-2">About Us</a>
+
+    <button class="p-2 text-secondary hover:text-accent hover:bg-raised rounded-full transition-colors" id="search-trigger-btn" aria-label="Search">
       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
         <circle cx="11" cy="11" r="8"/>
         <path d="m21 21-4.35-4.35"/>
       </svg>
     </button>
 
-    <button class="hidden sm:flex p-2 text-secondary hover:text-primary hover:bg-raised rounded-full transition-colors" id="theme-toggle-btn" aria-label="Toggle Theme">
+    <button class="flex p-2 text-secondary hover:text-accent hover:bg-raised rounded-full transition-colors" id="theme-toggle-btn" aria-label="Toggle Theme">
       <svg class="dark:hidden w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
         <circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
       </svg>
@@ -31,7 +38,7 @@
     </button>
 
     <div class="relative hidden sm:block">
-      <button class="p-2 text-secondary hover:text-primary hover:bg-raised rounded-full transition-colors flex items-center justify-center" id="header-profile-btn" aria-label="Login / Profile">
+      <button class="p-2 text-secondary hover:text-accent hover:bg-raised rounded-full transition-colors flex items-center justify-center" id="header-profile-btn" aria-label="Login / Profile">
         <svg id="header-profile-icon" class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
         <img id="header-profile-img" src="" alt="Profile" class="w-8 h-8 rounded-full border border-border hidden">
       </button>

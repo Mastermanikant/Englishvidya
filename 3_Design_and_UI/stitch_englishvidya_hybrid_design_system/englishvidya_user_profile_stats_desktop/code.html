@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>User Profile &amp; Stats | EnglishVidya</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800;900&amp;family=Inter:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-secondary-fixed-variant": "#5a00c6",
+                        "secondary-fixed": "#eaddff",
+                        "on-secondary-container": "#c9aeff",
+                        "inverse-on-surface": "#283044",
+                        "surface-variant": "#2d3449",
+                        "surface-container-lowest": "#060e20",
+                        "text-primary": "#f8fafc",
+                        "surface-tint": "#b4c5ff",
+                        "background": "#0b1326",
+                        "surface-bright": "#31394d",
+                        "primary-fixed-dim": "#b4c5ff",
+                        "on-secondary": "#3f008e",
+                        "on-primary-fixed": "#00174b",
+                        "surface-container-high": "#222a3d",
+                        "inverse-surface": "#dae2fd",
+                        "on-surface": "#dae2fd",
+                        "surface-raised": "#1e293b",
+                        "secondary-container": "#6001d1",
+                        "on-tertiary": "#472a00",
+                        "surface": "#0b1326",
+                        "secondary": "#d2bbff",
+                        "on-secondary-fixed": "#25005a",
+                        "on-primary-container": "#eeefff",
+                        "on-primary": "#002a78",
+                        "on-error-container": "#ffdad6",
+                        "surface-dim": "#0b1326",
+                        "tertiary": "#ffb95f",
+                        "surface-glass": "rgba(30, 41, 59, 0.7)",
+                        "tertiary-fixed-dim": "#ffb95f",
+                        "on-tertiary-fixed": "#2a1700",
+                        "tertiary-container": "#996100",
+                        "on-primary-fixed-variant": "#003ea8",
+                        "tertiary-fixed": "#ffddb8",
+                        "on-tertiary-fixed-variant": "#653e00",
+                        "outline-variant": "#434655",
+                        "surface-container-low": "#131b2e",
+                        "on-tertiary-container": "#ffeedd",
+                        "success-emerald": "#10b981",
+                        "inverse-primary": "#0053db",
+                        "secondary-fixed-dim": "#d2bbff",
+                        "error": "#ffb4ab",
+                        "surface-container": "#171f33",
+                        "on-background": "#dae2fd",
+                        "error-container": "#93000a",
+                        "error-crimson": "#dc2626",
+                        "outline": "#8d90a0",
+                        "surface-container-highest": "#2d3449",
+                        "text-secondary": "#d4d4d8",
+                        "primary-container": "#2563eb",
+                        "on-surface-variant": "#c3c6d7",
+                        "primary-fixed": "#dbe1ff",
+                        "primary": "#b4c5ff",
+                        "on-error": "#690005"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "sp-2": "8px",
+                        "sp-6": "24px",
+                        "sp-4": "16px",
+                        "container-max": "1000px",
+                        "sp-8": "32px",
+                        "sp-3": "12px",
+                        "bottom-nav-height": "65px",
+                        "unit": "4px",
+                        "sp-12": "48px",
+                        "sidebar-width": "256px",
+                        "sp-1": "4px"
+                    },
+                    "fontFamily": {
+                        "headline-lg-mobile": ["Outfit"],
+                        "body-bold": ["Inter"],
+                        "headline-md": ["Outfit"],
+                        "headline-lg": ["Outfit"],
+                        "body-base": ["Inter"],
+                        "display-xl": ["Outfit"],
+                        "label-caps": ["Outfit"],
+                        "headline-sm": ["Outfit"]
+                    },
+                    "fontSize": {
+                        "headline-lg-mobile": ["28px", { "lineHeight": "36px", "letterSpacing": "-0.02em", "fontWeight": "800" }],
+                        "body-bold": ["17px", { "lineHeight": "30px", "letterSpacing": "0em", "fontWeight": "600" }],
+                        "headline-md": ["23px", { "lineHeight": "30px", "letterSpacing": "0em", "fontWeight": "700" }],
+                        "headline-lg": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "800" }],
+                        "body-base": ["17px", { "lineHeight": "30px", "letterSpacing": "0em", "fontWeight": "400" }],
+                        "display-xl": ["40px", { "lineHeight": "48px", "letterSpacing": "-0.03em", "fontWeight": "850" }],
+                        "label-caps": ["12px", { "lineHeight": "16px", "letterSpacing": "0.12em", "fontWeight": "800" }],
+                        "headline-sm": ["18px", { "lineHeight": "24px", "letterSpacing": "0em", "fontWeight": "600" }]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        .glass-panel {
+            background: rgba(30, 41, 59, 0.7);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid rgba(67, 70, 85, 0.3);
+        }
+        .glow-shadow {
+            box-shadow: 0 0 20px rgba(37, 99, 235, 0.3);
+        }
+        .brand-gradient {
+            background: linear-gradient(135deg, #b4c5ff 0%, #d2bbff 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .bg-brand-gradient {
+            background: linear-gradient(135deg, #2563eb 0%, #6001d1 100%);
+        }
+        
+        /* Interactive Card Flip */
+        .perspective-1000 {
+            perspective: 1000px;
+        }
+        .transform-style-3d {
+            transform-style: preserve-3d;
+        }
+        .backface-hidden {
+            backface-visibility: hidden;
+        }
+        .rotate-y-180 {
+            transform: rotateY(180deg);
+        }
+        .group:hover .group-hover\:rotate-y-180 {
+            transform: rotateY(180deg);
+        }
+        .group:hover .group-hover\:rotate-y-0 {
+            transform: rotateY(0deg);
+        }
+        
+        /* Scrollbar styling for a cleaner look */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #0b1326; 
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #2d3449; 
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #434655; 
+        }
+    </style>
+</head>
+<body class="bg-background text-text-primary min-h-screen flex flex-col font-body-base overflow-x-hidden pt-[65px] md:pt-[70px]">
+<!-- TopNavBar -->
+<header class="fixed top-0 w-full z-50 bg-surface-glass backdrop-blur-xl dark:bg-surface-glass border-b border-outline-variant/30 dark:border-outline-variant/20 shadow-sm hidden md:block transition-all duration-300">
+<div class="flex justify-between items-center px-sp-6 h-[70px] max-w-container-max mx-auto">
+<div class="font-headline-md text-headline-md text-primary dark:text-primary-fixed tracking-tight cursor-pointer hover:scale-95 duration-150">
+                EnglishVidya
+            </div>
+<nav class="flex gap-sp-6 h-full items-center">
+<a class="text-on-surface-variant hover:text-primary transition-colors hover:bg-surface-container-high px-3 py-2 rounded-lg duration-150 flex items-center font-body-bold text-body-bold h-full" href="#">Grammar</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors hover:bg-surface-container-high px-3 py-2 rounded-lg duration-150 flex items-center font-body-bold text-body-bold h-full" href="#">Bihar Board</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors hover:bg-surface-container-high px-3 py-2 rounded-lg duration-150 flex items-center font-body-bold text-body-bold h-full" href="#">Vocabulary</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors hover:bg-surface-container-high px-3 py-2 rounded-lg duration-150 flex items-center font-body-bold text-body-bold h-full" href="#">Referral</a>
+</nav>
+<div class="flex items-center gap-4">
+<button class="text-on-surface-variant hover:text-primary transition-colors hover:bg-surface-container-high p-2 rounded-full duration-150 flex items-center justify-center">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 0;">notifications</span>
+</button>
+<button class="text-primary font-bold border-b-2 border-primary pb-1 flex items-center justify-center">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">account_circle</span>
+</button>
+</div>
+</div>
+</header>
+<!-- Main Content Area -->
+<div class="flex-1 max-w-container-max mx-auto w-full flex flex-col md:flex-row gap-sp-6 px-sp-4 md:px-sp-6 py-sp-8 pb-32 md:pb-sp-8">
+<!-- Sidebar Navigation (Desktop) / Settings Menu -->
+<aside class="w-full md:w-sidebar-width shrink-0 flex flex-col gap-sp-2">
+<!-- User Profile Snippet -->
+<div class="glass-panel rounded-xl p-sp-6 flex flex-col items-center mb-sp-4 relative overflow-hidden group">
+<div class="absolute inset-0 bg-brand-gradient opacity-10 group-hover:opacity-20 transition-opacity duration-300"></div>
+<div class="w-24 h-24 rounded-full border-2 border-primary p-1 mb-sp-4 relative z-10 glow-shadow">
+<img class="w-full h-full object-cover rounded-full" data-alt="A futuristic, stylized 3D avatar of an energetic student with glowing headphones, immersed in learning, set against a dark, neon-lit educational interface background, high resolution." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBQjjw92zDEusbxoC9d6N-a-gDmrci6mM7AnNVm0OWBqRYYutpoDCwuU7hQLXBhXBnH2du9ptyZY_PRrnSExQC17JG8bHeKJs26LKzNto7qfWzx4sEn7rQeKuyvPFR9zSh-onS629K0uWgNV3_nN6QQwlZZeYYk-FtxHsL0X-Pyet9LVQGXFNaSODhiyt49hsi0OzoVfbxUaVU90H88l2YnckZwN2mW7LnUpcz1KQjs1okNVx5SMba6Qpg1mIdo96pibyg6d9j7cbs"/>
+</div>
+<h2 class="font-headline-sm text-headline-sm text-primary mb-1 relative z-10">Rahul Kumar</h2>
+<p class="font-body-base text-body-base text-on-surface-variant text-sm relative z-10">Class 12 - BSEB</p>
+<div class="mt-4 px-3 py-1 rounded-full bg-surface-container text-tertiary font-label-caps text-label-caps flex items-center gap-1 border border-outline-variant/30 relative z-10">
+<span class="material-symbols-outlined text-[14px]">stars</span>
+                    Pro Member
+                </div>
+</div>
+<!-- Navigation Links -->
+<nav class="glass-panel rounded-xl p-sp-2 flex flex-col gap-1">
+<a class="flex items-center gap-sp-3 px-sp-4 py-sp-3 rounded-lg bg-surface-container-high text-primary font-body-bold text-body-bold transition-all border-l-4 border-primary" href="#">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">dashboard</span>
+                    Overview
+                </a>
+<a class="flex items-center gap-sp-3 px-sp-4 py-sp-3 rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-primary transition-all group" href="#">
+<span class="material-symbols-outlined group-hover:scale-110 transition-transform">emoji_events</span>
+                    Achievements
+                </a>
+<a class="flex items-center gap-sp-3 px-sp-4 py-sp-3 rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-primary transition-all group" href="#">
+<span class="material-symbols-outlined group-hover:scale-110 transition-transform">group_add</span>
+                    Referral
+                </a>
+<a class="flex items-center gap-sp-3 px-sp-4 py-sp-3 rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-primary transition-all group" href="#">
+<span class="material-symbols-outlined group-hover:scale-110 transition-transform">settings</span>
+                    Settings
+                </a>
+</nav>
+</aside>
+<!-- Dashboard Main View -->
+<main class="flex-1 flex flex-col gap-sp-6">
+<h1 class="font-headline-lg text-headline-lg-mobile md:text-headline-lg text-text-primary tracking-tight">Your Progress</h1>
+<!-- Quick Stats Bento Grid -->
+<div class="grid grid-cols-2 lg:grid-cols-4 gap-sp-4">
+<!-- Stat: Study Time -->
+<div class="glass-panel p-sp-4 rounded-xl flex flex-col justify-between group hover:-translate-y-1 transition-transform duration-300">
+<div class="flex justify-between items-start mb-sp-4">
+<div class="p-2 rounded-lg bg-primary-container/20 text-primary group-hover:glow-shadow transition-shadow">
+<span class="material-symbols-outlined">schedule</span>
+</div>
+</div>
+<div>
+<p class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-wider mb-1">Total Time</p>
+<p class="font-headline-md text-headline-md text-text-primary">45 <span class="text-sm font-normal text-text-secondary">hrs</span></p>
+</div>
+</div>
+<!-- Stat: Coins -->
+<div class="glass-panel p-sp-4 rounded-xl flex flex-col justify-between group hover:-translate-y-1 transition-transform duration-300 relative overflow-hidden">
+<div class="absolute -right-4 -top-4 w-16 h-16 bg-tertiary/10 rounded-full blur-xl"></div>
+<div class="flex justify-between items-start mb-sp-4 relative z-10">
+<div class="p-2 rounded-lg bg-tertiary-container/30 text-tertiary group-hover:glow-shadow transition-shadow">
+<span class="material-symbols-outlined">monetization_on</span>
+</div>
+</div>
+<div class="relative z-10">
+<p class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-wider mb-1">Vidya Coins</p>
+<p class="font-headline-md text-headline-md text-text-primary">1,240</p>
+</div>
+</div>
+<!-- Stat: Streak -->
+<div class="glass-panel p-sp-4 rounded-xl flex flex-col justify-between group hover:-translate-y-1 transition-transform duration-300">
+<div class="flex justify-between items-start mb-sp-4">
+<div class="p-2 rounded-lg bg-error-container/30 text-error-crimson group-hover:glow-shadow transition-shadow">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">local_fire_department</span>
+</div>
+</div>
+<div>
+<p class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-wider mb-1">Active Streak</p>
+<p class="font-headline-md text-headline-md text-text-primary">12 <span class="text-sm font-normal text-text-secondary">Days</span></p>
+</div>
+</div>
+<!-- Stat: Rank -->
+<div class="glass-panel p-sp-4 rounded-xl flex flex-col justify-between group hover:-translate-y-1 transition-transform duration-300">
+<div class="flex justify-between items-start mb-sp-4">
+<div class="p-2 rounded-lg bg-success-emerald/20 text-success-emerald group-hover:glow-shadow transition-shadow">
+<span class="material-symbols-outlined">public</span>
+</div>
+</div>
+<div>
+<p class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-wider mb-1">Global Rank</p>
+<p class="font-headline-md text-headline-md text-text-primary">#4,208</p>
+</div>
+</div>
+</div>
+<!-- Complex Area: Activity Graph & Breakdown -->
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-sp-6">
+<!-- Main Activity Chart Placeholder -->
+<div class="lg:col-span-2 glass-panel rounded-xl p-sp-6 flex flex-col border-t-4 border-primary">
+<div class="flex justify-between items-center mb-sp-6">
+<h3 class="font-headline-sm text-headline-sm text-text-primary">Learning Activity</h3>
+<select class="bg-surface-container border border-outline-variant/30 text-on-surface-variant text-sm rounded-lg focus:ring-primary focus:border-primary block p-2 font-body-base text-body-base">
+<option>This Week</option>
+<option>This Month</option>
+</select>
+</div>
+<!-- Faux Bar Chart for visual representation -->
+<div class="flex-1 flex items-end justify-between gap-2 pt-8 relative">
+<!-- Y-axis labels -->
+<div class="absolute left-0 top-0 bottom-0 flex flex-col justify-between text-xs text-on-surface-variant py-4 hidden md:flex">
+<span>4h</span>
+<span>3h</span>
+<span>2h</span>
+<span>1h</span>
+<span>0</span>
+</div>
+<div class="w-full flex justify-between items-end h-48 pl-0 md:pl-8">
+<div class="w-full bg-surface-container-high rounded-t-sm h-[40%] group relative mx-1">
+<div class="absolute -top-8 left-1/2 -translate-x-1/2 bg-surface-raised px-2 py-1 rounded text-xs opacity-0 group-hover:opacity-100 transition-opacity">1.5h</div>
+</div>
+<div class="w-full bg-primary/80 rounded-t-sm h-[70%] group relative mx-1 glow-shadow">
+<div class="absolute -top-8 left-1/2 -translate-x-1/2 bg-surface-raised px-2 py-1 rounded text-xs opacity-0 group-hover:opacity-100 transition-opacity">3h</div>
+</div>
+<div class="w-full bg-surface-container-high rounded-t-sm h-[20%] group relative mx-1">
+<div class="absolute -top-8 left-1/2 -translate-x-1/2 bg-surface-raised px-2 py-1 rounded text-xs opacity-0 group-hover:opacity-100 transition-opacity">45m</div>
+</div>
+<div class="w-full bg-surface-container-high rounded-t-sm h-[50%] group relative mx-1">
+<div class="absolute -top-8 left-1/2 -translate-x-1/2 bg-surface-raised px-2 py-1 rounded text-xs opacity-0 group-hover:opacity-100 transition-opacity">2h</div>
+</div>
+<div class="w-full bg-tertiary/80 rounded-t-sm h-[90%] group relative mx-1 shadow-[0_0_15px_rgba(255,185,95,0.4)]">
+<div class="absolute -top-8 left-1/2 -translate-x-1/2 bg-surface-raised px-2 py-1 rounded text-xs opacity-0 group-hover:opacity-100 transition-opacity">4h</div>
+</div>
+<div class="w-full bg-surface-container-high rounded-t-sm h-[30%] group relative mx-1">
+<div class="absolute -top-8 left-1/2 -translate-x-1/2 bg-surface-raised px-2 py-1 rounded text-xs opacity-0 group-hover:opacity-100 transition-opacity">1h</div>
+</div>
+<div class="w-full bg-surface-container-high rounded-t-sm h-[60%] group relative mx-1">
+<div class="absolute -top-8 left-1/2 -translate-x-1/2 bg-surface-raised px-2 py-1 rounded text-xs opacity-0 group-hover:opacity-100 transition-opacity">2.5h</div>
+</div>
+</div>
+</div>
+<!-- X-axis labels -->
+<div class="flex justify-between text-xs text-on-surface-variant mt-2 pl-0 md:pl-8">
+<span class="w-full text-center">Mon</span>
+<span class="w-full text-center">Tue</span>
+<span class="w-full text-center">Wed</span>
+<span class="w-full text-center">Thu</span>
+<span class="w-full text-center">Fri</span>
+<span class="w-full text-center">Sat</span>
+<span class="w-full text-center">Sun</span>
+</div>
+</div>
+<!-- Subject Progress -->
+<div class="glass-panel rounded-xl p-sp-6 flex flex-col h-full bg-surface-raised/50">
+<h3 class="font-headline-sm text-headline-sm text-text-primary mb-sp-6">Curriculum Progress</h3>
+<div class="space-y-sp-4 flex-1 flex flex-col justify-center">
+<!-- BSEB Class 10 -->
+<div>
+<div class="flex justify-between items-end mb-2">
+<span class="font-body-bold text-body-bold text-on-surface">BSEB Class 10</span>
+<span class="font-label-caps text-label-caps text-primary">85%</span>
+</div>
+<div class="w-full bg-surface-container-high rounded-full h-2.5">
+<div class="bg-brand-gradient h-2.5 rounded-full glow-shadow" style="width: 85%"></div>
+</div>
+</div>
+<!-- BSEB Class 12 -->
+<div>
+<div class="flex justify-between items-end mb-2">
+<span class="font-body-bold text-body-bold text-on-surface">BSEB Class 12</span>
+<span class="font-label-caps text-label-caps text-primary">32%</span>
+</div>
+<div class="w-full bg-surface-container-high rounded-full h-2.5">
+<div class="bg-brand-gradient h-2.5 rounded-full glow-shadow" style="width: 32%"></div>
+</div>
+</div>
+<!-- Spoken English -->
+<div>
+<div class="flex justify-between items-end mb-2">
+<span class="font-body-bold text-body-bold text-on-surface">Spoken English</span>
+<span class="font-label-caps text-label-caps text-tertiary">60%</span>
+</div>
+<div class="w-full bg-surface-container-high rounded-full h-2.5">
+<div class="bg-tertiary h-2.5 rounded-full shadow-[0_0_10px_rgba(255,185,95,0.4)]" style="width: 60%"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Refer & Earn Banner -->
+<div class="rounded-xl p-sp-6 md:p-sp-8 bg-brand-gradient relative overflow-hidden flex flex-col md:flex-row items-center justify-between gap-sp-6 shadow-xl">
+<!-- Abstract Background Elements -->
+<div class="absolute -right-10 -top-10 w-48 h-48 bg-white/10 rounded-full blur-2xl"></div>
+<div class="absolute -left-10 -bottom-10 w-32 h-32 bg-secondary-container/30 rounded-full blur-xl"></div>
+<div class="relative z-10 text-center md:text-left">
+<h3 class="font-headline-md text-headline-md text-white mb-2">Refer Friends, Earn Rewards</h3>
+<p class="font-body-base text-body-base text-primary-fixed max-w-md">Invite your friends to EnglishVidya. When they join, you both get 500 bonus Vidya Coins!</p>
+</div>
+<div class="relative z-10 w-full md:w-auto flex flex-col gap-3">
+<div class="bg-black/20 rounded-lg p-3 flex items-center justify-between border border-white/10 w-full md:w-64">
+<span class="font-body-bold text-body-bold text-white tracking-widest font-mono">RAHUL500</span>
+<button class="text-primary-fixed hover:text-white transition-colors" title="Copy Code">
+<span class="material-symbols-outlined">content_copy</span>
+</button>
+</div>
+<button class="w-full py-3 px-6 bg-white text-primary-container font-body-bold text-body-bold rounded-lg shadow-lg hover:scale-105 transition-transform duration-200">
+                        Share Link
+                    </button>
+</div>
+</div>
+</main>
+</div>
+<!-- BottomNavBar (Mobile Only) -->
+<nav class="fixed bottom-0 w-full h-[65px] z-50 bg-surface-container dark:bg-surface-container-low border-t border-outline-variant/20 shadow-[0_-4px_12px_rgba(37,99,235,0.15)] md:hidden">
+<div class="w-full flex justify-around items-center px-sp-2 h-full">
+<a class="flex flex-col items-center justify-center text-on-surface-variant hover:bg-surface-container-highest transition-colors flex-1 h-full" href="#">
+<span class="material-symbols-outlined mb-1">home</span>
+<span class="font-label-caps text-[10px]">Home</span>
+</a>
+<a class="flex flex-col items-center justify-center text-on-surface-variant hover:bg-surface-container-highest transition-colors flex-1 h-full" href="#">
+<span class="material-symbols-outlined mb-1">menu_book</span>
+<span class="font-label-caps text-[10px]">Learn</span>
+</a>
+<a class="flex flex-col items-center justify-center text-on-surface-variant hover:bg-surface-container-highest transition-colors flex-1 h-full" href="#">
+<span class="material-symbols-outlined mb-1">style</span>
+<span class="font-label-caps text-[10px]">Cards</span>
+</a>
+<a class="flex flex-col items-center justify-center text-on-surface-variant hover:bg-surface-container-highest transition-colors flex-1 h-full" href="#">
+<span class="material-symbols-outlined mb-1">monetization_on</span>
+<span class="font-label-caps text-[10px]">Earn</span>
+</a>
+<a class="flex flex-col items-center justify-center bg-secondary-container text-on-secondary-container rounded-xl px-2 py-1 flex-1 h-[80%] my-auto scale-90 duration-200" href="#">
+<span class="material-symbols-outlined mb-1" style="font-variation-settings: 'FILL' 1;">person</span>
+<span class="font-label-caps text-[10px] font-bold">Profile</span>
+</a>
+</div>
+</nav>
+<!-- Footer -->
+<footer class="hidden md:block w-full py-sp-8 px-sp-6 border-t border-outline-variant/10 max-w-container-max mx-auto text-center bg-surface-container-lowest dark:bg-surface-container-lowest mt-auto relative z-10">
+<div class="font-headline-sm text-headline-sm text-primary mb-sp-4">
+            EnglishVidya
+        </div>
+<div class="flex justify-center gap-sp-6 mb-sp-4">
+<a class="text-on-surface-variant hover:text-secondary transition-colors font-body-base text-body-base hover:text-secondary-fixed" href="#">About Us</a>
+<a class="text-on-surface-variant hover:text-secondary transition-colors font-body-base text-body-base hover:text-secondary-fixed" href="#">BSEB Syllabus</a>
+<a class="text-on-surface-variant hover:text-secondary transition-colors font-body-base text-body-base hover:text-secondary-fixed" href="#">Privacy Policy</a>
+<a class="text-on-surface-variant hover:text-secondary transition-colors font-body-base text-body-base hover:text-secondary-fixed" href="#">Contact Support</a>
+</div>
+<div class="text-on-surface-variant font-body-base text-body-base text-sm">
+            © 2024 EnglishVidya - Seekho English, Dil Se.
+        </div>
+</footer>
+</body></html>

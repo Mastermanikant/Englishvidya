@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>EnglishVidya - Grammar Levels</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&amp;family=Outfit:wght@600;700;800;850&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "background": "#0b1326",
+                        "error": "#ffb4ab",
+                        "tertiary-fixed-dim": "#ffb95f",
+                        "primary-fixed": "#dbe1ff",
+                        "surface-container-high": "#222a3d",
+                        "on-primary-fixed": "#00174b",
+                        "surface-container-lowest": "#060e20",
+                        "surface-container": "#171f33",
+                        "on-secondary-container": "#c9aeff",
+                        "on-error": "#690005",
+                        "on-tertiary-fixed-variant": "#653e00",
+                        "inverse-surface": "#dae2fd",
+                        "surface-bright": "#31394d",
+                        "on-tertiary": "#472a00",
+                        "outline-variant": "#434655",
+                        "inverse-on-surface": "#283044",
+                        "on-surface-variant": "#c3c6d7",
+                        "surface": "#0b1326",
+                        "on-background": "#dae2fd",
+                        "inverse-primary": "#0053db",
+                        "tertiary-container": "#996100",
+                        "surface-container-low": "#131b2e",
+                        "on-tertiary-container": "#ffeedd",
+                        "secondary": "#d2bbff",
+                        "on-primary-fixed-variant": "#003ea8",
+                        "surface-variant": "#2d3449",
+                        "on-secondary-fixed": "#25005a",
+                        "on-surface": "#dae2fd",
+                        "on-error-container": "#ffdad6",
+                        "error-container": "#93000a",
+                        "text-secondary": "#d4d4d8",
+                        "secondary-fixed-dim": "#d2bbff",
+                        "surface-dim": "#0b1326",
+                        "surface-container-highest": "#2d3449",
+                        "surface-raised": "#1e293b",
+                        "primary-fixed-dim": "#b4c5ff",
+                        "on-primary": "#002a78",
+                        "tertiary-fixed": "#ffddb8",
+                        "surface-glass": "rgba(30, 41, 59, 0.7)",
+                        "primary-container": "#2563eb",
+                        "text-primary": "#f8fafc",
+                        "on-secondary-fixed-variant": "#5a00c6",
+                        "surface-tint": "#b4c5ff",
+                        "secondary-fixed": "#eaddff",
+                        "on-primary-container": "#eeefff",
+                        "outline": "#8d90a0",
+                        "success-emerald": "#10b981",
+                        "secondary-container": "#6001d1",
+                        "error-crimson": "#dc2626",
+                        "on-tertiary-fixed": "#2a1700",
+                        "primary": "#b4c5ff",
+                        "tertiary": "#ffb95f",
+                        "on-secondary": "#3f008e"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "unit": "4px",
+                        "container-max": "1000px",
+                        "sp-8": "32px",
+                        "bottom-nav-height": "65px",
+                        "sp-1": "4px",
+                        "sp-6": "24px",
+                        "sp-4": "16px",
+                        "sp-2": "8px",
+                        "sidebar-width": "256px",
+                        "sp-3": "12px",
+                        "sp-12": "48px"
+                    },
+                    "fontFamily": {
+                        "body-base": ["Inter"],
+                        "body-bold": ["Inter"],
+                        "label-caps": ["Outfit"],
+                        "headline-md": ["Outfit"],
+                        "headline-lg": ["Outfit"],
+                        "display-xl": ["Outfit"],
+                        "headline-lg-mobile": ["Outfit"],
+                        "headline-sm": ["Outfit"]
+                    },
+                    "fontSize": {
+                        "body-base": ["17px", { "lineHeight": "30px", "letterSpacing": "0em", "fontWeight": "400" }],
+                        "body-bold": ["17px", { "lineHeight": "30px", "letterSpacing": "0em", "fontWeight": "600" }],
+                        "label-caps": ["12px", { "lineHeight": "16px", "letterSpacing": "0.12em", "fontWeight": "800" }],
+                        "headline-md": ["23px", { "lineHeight": "30px", "letterSpacing": "0em", "fontWeight": "700" }],
+                        "headline-lg": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "800" }],
+                        "display-xl": ["40px", { "lineHeight": "48px", "letterSpacing": "-0.03em", "fontWeight": "850" }],
+                        "headline-lg-mobile": ["28px", { "lineHeight": "36px", "letterSpacing": "-0.02em", "fontWeight": "800" }],
+                        "headline-sm": ["18px", { "lineHeight": "24px", "letterSpacing": "0em", "fontWeight": "600" }]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        .glow-shadow {
+            box-shadow: 0 0 20px rgba(37, 99, 235, 0.3);
+        }
+        .card-hover:hover {
+            transform: translateY(-4px);
+        }
+    </style>
+</head>
+<body class="bg-background text-on-background font-body-base antialiased selection:bg-primary-container selection:text-white pt-sp-12">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-surface-glass backdrop-blur-xl dark:bg-surface-glass shadow-sm border-b border-outline-variant/30 dark:border-outline-variant/20 hidden md:block">
+<div class="flex justify-between items-center px-sp-6 h-sp-12 max-w-container-max mx-auto">
+<div class="font-headline-md text-headline-md text-primary dark:text-primary-fixed tracking-tight">
+                EnglishVidya
+            </div>
+<div class="flex items-center space-x-sp-6 font-body-bold text-body-bold">
+<a class="text-primary font-bold border-b-2 border-primary pb-1" href="#">Grammar</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors" href="#">Bihar Board</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors" href="#">Vocabulary</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors" href="#">Referral</a>
+</div>
+<div class="flex items-center space-x-sp-4">
+<button class="text-on-surface-variant hover:text-primary transition-colors hover:bg-surface-container-high rounded-full p-2">
+<span class="material-symbols-outlined">account_circle</span>
+</button>
+<button class="text-on-surface-variant hover:text-primary transition-colors hover:bg-surface-container-high rounded-full p-2">
+<span class="material-symbols-outlined">notifications</span>
+</button>
+</div>
+</div>
+</nav>
+<!-- BottomNavBar (Mobile Only) -->
+<nav class="fixed bottom-0 left-0 w-full flex justify-around items-center px-sp-2 bg-surface-container dark:bg-surface-container-low h-[65px] z-50 border-t border-outline-variant/20 shadow-[0_-4px_12px_rgba(37,99,235,0.15)] md:hidden">
+<a class="flex flex-col items-center justify-center text-on-surface-variant hover:bg-surface-container-highest transition-colors rounded-xl p-2 w-16" href="#">
+<span class="material-symbols-outlined mb-1">home</span>
+<span class="font-label-caps text-label-caps">Home</span>
+</a>
+<a class="flex flex-col items-center justify-center bg-secondary-container text-on-secondary-container rounded-xl px-sp-4 py-sp-1 w-16" href="#">
+<span class="material-symbols-outlined mb-1" style="font-variation-settings: 'FILL' 1;">menu_book</span>
+<span class="font-label-caps text-label-caps">Learn</span>
+</a>
+<a class="flex flex-col items-center justify-center text-on-surface-variant hover:bg-surface-container-highest transition-colors rounded-xl p-2 w-16" href="#">
+<span class="material-symbols-outlined mb-1">style</span>
+<span class="font-label-caps text-label-caps">Cards</span>
+</a>
+<a class="flex flex-col items-center justify-center text-on-surface-variant hover:bg-surface-container-highest transition-colors rounded-xl p-2 w-16" href="#">
+<span class="material-symbols-outlined mb-1">monetization_on</span>
+<span class="font-label-caps text-label-caps">Earn</span>
+</a>
+<a class="flex flex-col items-center justify-center text-on-surface-variant hover:bg-surface-container-highest transition-colors rounded-xl p-2 w-16" href="#">
+<span class="material-symbols-outlined mb-1">person</span>
+<span class="font-label-caps text-label-caps">Profile</span>
+</a>
+</nav>
+<!-- Main Content -->
+<main class="max-w-container-max mx-auto px-sp-4 md:px-sp-6 py-sp-8 pb-[85px] md:pb-sp-8 min-h-screen">
+<!-- Hero Section -->
+<header class="mb-sp-12 text-center md:text-left">
+<h1 class="font-display-xl text-display-xl text-primary-fixed mb-sp-2">Grammar Foundation: Levels 1–5</h1>
+<p class="font-body-base text-body-base text-on-surface-variant max-w-2xl">Master English structures logically, not through rote memorization.</p>
+</header>
+<div class="flex flex-col md:flex-row gap-sp-8">
+<!-- Levels Grid (Main Column) -->
+<div class="flex-1 space-y-sp-6">
+<!-- Level 1: Completed -->
+<div class="bg-surface-raised rounded-xl p-sp-6 border border-success-emerald/30 relative overflow-hidden card-hover transition-transform duration-300">
+<div class="absolute top-0 right-0 p-sp-4 text-success-emerald">
+<span class="material-symbols-outlined text-3xl" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+</div>
+<div class="flex items-center space-x-sp-3 mb-sp-4">
+<div class="bg-success-emerald/20 text-success-emerald font-label-caps text-label-caps px-2 py-1 rounded">LEVEL 1</div>
+<h2 class="font-headline-md text-headline-md text-primary-fixed">The Basics</h2>
+</div>
+<div class="w-full bg-surface-container-high rounded-full h-2 mb-sp-4">
+<div class="bg-success-emerald h-2 rounded-full" style="width: 100%"></div>
+</div>
+<p class="font-body-base text-body-base text-on-surface-variant mb-sp-4">Topics: Sentence Structure, Nouns, Pronouns.</p>
+<button class="bg-transparent border-2 border-outline-variant text-text-secondary font-body-bold text-body-bold px-sp-4 py-2 rounded-lg hover:bg-surface-container-high transition-colors">Review Level</button>
+</div>
+<!-- Level 2: Current -->
+<div class="bg-surface-raised rounded-xl p-sp-6 border-2 border-primary-container relative overflow-hidden card-hover transition-transform duration-300 glow-shadow">
+<div class="absolute top-0 right-0 w-32 h-32 bg-primary-container/10 rounded-full blur-2xl -mr-10 -mt-10"></div>
+<div class="flex items-center justify-between mb-sp-4">
+<div class="flex items-center space-x-sp-3">
+<div class="bg-primary-container text-white font-label-caps text-label-caps px-2 py-1 rounded">LEVEL 2</div>
+<h2 class="font-headline-md text-headline-md text-primary-fixed">Tense Mastery</h2>
+</div>
+<span class="font-body-bold text-body-bold text-primary">45%</span>
+</div>
+<div class="w-full bg-surface-container-high rounded-full h-2 mb-sp-4">
+<div class="bg-gradient-to-r from-primary-container to-secondary-container h-2 rounded-full" style="width: 45%"></div>
+</div>
+<p class="font-body-base text-body-base text-on-surface-variant mb-sp-6">Topics: Present, Past, Future.</p>
+<button class="w-full bg-gradient-to-r from-primary-container to-secondary-container text-white font-headline-sm text-headline-sm py-3 rounded-lg shadow-lg hover:opacity-90 transition-opacity">Continue Learning</button>
+</div>
+<!-- Level 3: Locked -->
+<div class="bg-surface-container rounded-xl p-sp-6 border border-outline-variant/30 opacity-75 relative">
+<div class="absolute inset-0 bg-background/40 backdrop-blur-[2px] rounded-xl flex items-center justify-center z-10">
+<span class="material-symbols-outlined text-outline-variant text-5xl">lock</span>
+</div>
+<div class="flex items-center space-x-sp-3 mb-sp-4">
+<div class="bg-surface-container-high text-outline-variant font-label-caps text-label-caps px-2 py-1 rounded">LEVEL 3</div>
+<h2 class="font-headline-md text-headline-md text-outline-variant">Functional Grammar</h2>
+</div>
+<p class="font-body-base text-body-base text-outline-variant">Topics: Modals, Active/Passive Voice.</p>
+</div>
+<!-- Level 4: Locked -->
+<div class="bg-surface-container rounded-xl p-sp-6 border border-outline-variant/30 opacity-60 relative">
+<div class="absolute inset-0 bg-background/50 backdrop-blur-[2px] rounded-xl flex items-center justify-center z-10">
+<span class="material-symbols-outlined text-outline-variant text-4xl">lock</span>
+</div>
+<div class="flex items-center space-x-sp-3 mb-sp-4">
+<div class="bg-surface-container-high text-outline-variant font-label-caps text-label-caps px-2 py-1 rounded">LEVEL 4</div>
+<h2 class="font-headline-md text-headline-md text-outline-variant">Advanced Syntax</h2>
+</div>
+<p class="font-body-base text-body-base text-outline-variant">Topics: Direct/Indirect Speech, Conditionals.</p>
+</div>
+<!-- Level 5: Locked -->
+<div class="bg-surface-container rounded-xl p-sp-6 border border-outline-variant/30 opacity-50 relative">
+<div class="absolute inset-0 bg-background/60 backdrop-blur-[2px] rounded-xl flex items-center justify-center z-10">
+<span class="material-symbols-outlined text-outline-variant text-4xl">lock</span>
+</div>
+<div class="flex items-center space-x-sp-3 mb-sp-4">
+<div class="bg-surface-container-high text-outline-variant font-label-caps text-label-caps px-2 py-1 rounded">LEVEL 5</div>
+<h2 class="font-headline-md text-headline-md text-outline-variant">Fluency &amp; Style</h2>
+</div>
+<p class="font-body-base text-body-base text-outline-variant">Topics: Idioms, Phrasal Verbs, Composition.</p>
+</div>
+</div>
+<!-- Sidebar (Learning Stats) -->
+<aside class="w-full md:w-sidebar-width shrink-0">
+<div class="bg-surface-glass backdrop-blur-xl border border-outline-variant/20 rounded-xl p-sp-6 sticky top-[100px]">
+<h3 class="font-headline-sm text-headline-sm text-primary-fixed mb-sp-6 border-b border-outline-variant/20 pb-2">Learning Stats</h3>
+<div class="space-y-sp-6">
+<div class="flex items-center space-x-sp-4">
+<div class="bg-primary-container/20 p-3 rounded-lg text-primary">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">schedule</span>
+</div>
+<div>
+<div class="font-label-caps text-label-caps text-on-surface-variant">TOTAL HOURS</div>
+<div class="font-headline-md text-headline-md text-primary-fixed">12.5h</div>
+</div>
+</div>
+<div class="flex items-center space-x-sp-4">
+<div class="bg-tertiary-container/20 p-3 rounded-lg text-tertiary">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">stars</span>
+</div>
+<div>
+<div class="font-label-caps text-label-caps text-on-surface-variant">POINTS EARNED</div>
+<div class="font-headline-md text-headline-md text-tertiary-fixed-dim">2,450</div>
+</div>
+</div>
+<div class="flex items-center space-x-sp-4">
+<div class="bg-error-container/20 p-3 rounded-lg text-error">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">local_fire_department</span>
+</div>
+<div>
+<div class="font-label-caps text-label-caps text-on-surface-variant">CURRENT STREAK</div>
+<div class="font-headline-md text-headline-md text-error">5 Days</div>
+</div>
+</div>
+</div>
+<div class="mt-sp-8 pt-sp-4 border-t border-outline-variant/20">
+<div class="bg-cover bg-center w-full h-32 rounded-lg opacity-80 mix-blend-screen" data-alt="A small, stylized, dark-mode 3D illustration of a glowing graduation cap sitting on a stack of books, illuminated by soft indigo and gold neon lights, representing academic achievement." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuA402RKb50pGknekLjmb3r1BX8p1PdbqQuG2ZWD4iWrY9mzEgwxI0VgdKKQgqP6ga3bmX3Ymj4JenK-v-F5_0xWllmyleo0fEzWFZuA8VUBfhL7_9IhOvyDJmCozt5HPnzOm1iaQTO7JxJHNx8hyTVNnla5GJ7CgBVetLgFWncIsPktqpbAXRq2XJVhQufUmd-LqG7etdtgev7pGuOBxyV7gHO7d4Fwcb_Guj_V7VrmV8NqGkjoLxxpgKgJYIfAcp_-frTf7hB_jM4')"></div>
+</div>
+</div>
+</aside>
+</div>
+</main>
+<!-- Footer -->
+<footer class="w-full relative bg-surface-container-lowest dark:bg-surface-container-lowest border-t border-outline-variant/10 hidden md:block mt-sp-12">
+<div class="w-full py-sp-8 px-sp-6 border-t border-outline-variant max-w-container-max mx-auto text-center">
+<div class="font-headline-sm text-headline-sm text-primary mb-sp-4">EnglishVidya</div>
+<div class="flex justify-center space-x-sp-6 mb-sp-6">
+<a class="text-on-surface-variant hover:text-secondary hover:text-secondary-fixed transition-colors font-body-base text-body-base" href="#">About Us</a>
+<a class="text-on-surface-variant hover:text-secondary hover:text-secondary-fixed transition-colors font-body-base text-body-base" href="#">BSEB Syllabus</a>
+<a class="text-on-surface-variant hover:text-secondary hover:text-secondary-fixed transition-colors font-body-base text-body-base" href="#">Privacy Policy</a>
+<a class="text-on-surface-variant hover:text-secondary hover:text-secondary-fixed transition-colors font-body-base text-body-base" href="#">Contact Support</a>
+</div>
+<div class="text-on-surface-variant font-body-base text-body-base">
+                © 2024 EnglishVidya - Seekho English, Dil Se.
+            </div>
+</div>
+</footer>
+</body></html>
