@@ -5,7 +5,7 @@
    Versioning: Update CACHE_VERSION to bust old caches on deploy
    ═══════════════════════════════════════════════════════════════ */
 
-const CACHE_VERSION   = 'ev-v15';
+const CACHE_VERSION   = 'ev-v16-prod-profile';
 const SHELL_CACHE     = `${CACHE_VERSION}-shell`;
 const DATA_CACHE      = `${CACHE_VERSION}-data`;
 const LESSON_CACHE    = `${CACHE_VERSION}-lessons`;
@@ -16,15 +16,11 @@ const SHELL_ASSETS = [
   './',
   './index.html',
   './css/style.css',
-  './css/annotation-tool.css',
+  './css/custom.css',
   './js/toast.js',
   './js/app.js',
-  './js/home-redesign.js',
-  './js/annotation-tool.js',
+  './js/auth-ui.js',
   './manifest.json',
-  './data/site/categories-index.json',
-  './data/site/search-index.json',
-  './data/site/articles-index.json',
   './offline.html'
 ];
 
@@ -122,6 +118,17 @@ self.addEventListener('fetch', (event) => {
   if (url.origin !== self.location.origin) return;
 
   const path = url.pathname;
+
+  // ── Always Network for dynamic routes & APIs ─────────────────
+  if (path.startsWith('/api/') || 
+      path.startsWith('/profile') || 
+      path.startsWith('/login') || 
+      path.startsWith('/signup') || 
+      path.startsWith('/my-diary') || 
+      path.startsWith('/admin')) {
+    event.respondWith(fetch(req).catch(() => caches.match(req)));
+    return;
+  }
 
   // ── Strategy A: Grammar Lessons (Network-First, 5s timeout) ──
   // Lessons update rarely but may get refreshed — try network first
