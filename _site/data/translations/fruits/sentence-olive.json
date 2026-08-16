@@ -1,0 +1,297 @@
+{
+    "word": "Olive",
+    "slug": "olive",
+    "category": "fruits",
+    "translations": [
+        {
+            "tense": "To Be - Present Affirmative",
+            "en": "This is an olive.",
+            "hi": "यह एक जैतून है।"
+        },
+        {
+            "tense": "To Be - Present Affirmative (Plural)",
+            "en": "These are olives.",
+            "hi": "ये जैतून हैं।"
+        },
+        {
+            "tense": "To Be - Past Affirmative",
+            "en": "That was an olive.",
+            "hi": "वह एक जैतून था।"
+        },
+        {
+            "tense": "To Be - Past Affirmative (Plural)",
+            "en": "Those were olives.",
+            "hi": "वे जैतून थे।"
+        },
+        {
+            "tense": "To Be - Present Negative",
+            "en": "This is not an olive.",
+            "hi": "यह एक जैतून नहीं है।"
+        },
+        {
+            "tense": "To Be - Present Negative (Plural)",
+            "en": "These are not olives.",
+            "hi": "ये जैतून नहीं हैं।"
+        },
+        {
+            "tense": "To Be - Present Interrogative",
+            "en": "Is this an olive?",
+            "hi": "क्या यह एक जैतून है?"
+        },
+        {
+            "tense": "To Be - Present Interrogative (Plural)",
+            "en": "Are these olives?",
+            "hi": "क्या ये जैतून हैं?"
+        },
+        {
+            "tense": "To Be - Past Interrogative",
+            "en": "Was that an olive?",
+            "hi": "क्या वह एक जैतून था?"
+        },
+        {
+            "tense": "To Be - Wh-Question",
+            "en": "Where is the olive?",
+            "hi": "जैतून कहाँ है?"
+        },
+        {
+            "tense": "To Be - Wh-Question (Plural)",
+            "en": "Where are the olives?",
+            "hi": "जैतून कहाँ हैं?"
+        },
+        {
+            "tense": "To Be - Wh-Question (Why)",
+            "en": "Why is this olive here?",
+            "hi": "यह जैतून यहाँ क्यों है?"
+        },
+        {
+            "tense": "To Have - Present Affirmative",
+            "en": "I have an olive.",
+            "hi": "मेरे पास एक जैतून है।"
+        },
+        {
+            "tense": "To Have - Present Affirmative (Plural)",
+            "en": "I have many olives.",
+            "hi": "मेरे पास कई जैतून हैं।"
+        },
+        {
+            "tense": "To Have - Past Affirmative",
+            "en": "I had an olive.",
+            "hi": "मेरे पास एक जैतून था।"
+        },
+        {
+            "tense": "To Have - Present Negative",
+            "en": "I don't have an olive.",
+            "hi": "मेरे पास जैतून नहीं है।"
+        },
+        {
+            "tense": "To Have - Present Interrogative",
+            "en": "Do you have an olive?",
+            "hi": "क्या तुम्हारे पास एक जैतून है?"
+        },
+        {
+            "tense": "To Have - Past Interrogative",
+            "en": "Did you have an olive?",
+            "hi": "क्या तुम्हारे पास एक जैतून था?"
+        },
+        {
+            "tense": "To Have - Wh-Question",
+            "en": "How many olives do you have?",
+            "hi": "तुम्हारे पास कितने जैतून हैं?"
+        },
+        {
+            "tense": "Simple Present - Affirmative",
+            "en": "I eat an olive every day.",
+            "hi": "मैं हर दिन एक जैतून खाता हूँ।"
+        },
+        {
+            "tense": "Simple Present - Negative",
+            "en": "I don't eat olives.",
+            "hi": "मैं जैतून नहीं खाता हूँ।"
+        },
+        {
+            "tense": "Simple Present - Interrogative",
+            "en": "Do you eat olives?",
+            "hi": "क्या तुम जैतून खाते हो?"
+        },
+        {
+            "tense": "Simple Present - Wh-Question",
+            "en": "When do you eat an olive?",
+            "hi": "तुम जैतून कब खाते हो?"
+        },
+        {
+            "tense": "Present Continuous - Affirmative",
+            "en": "I am eating an olive.",
+            "hi": "मैं एक जैतून खा रहा हूँ।"
+        },
+        {
+            "tense": "Present Continuous - Negative",
+            "en": "I am not eating an olive.",
+            "hi": "मैं जैतून नहीं खा रहा हूँ।"
+        },
+        {
+            "tense": "Present Continuous - Interrogative",
+            "en": "Are you eating an olive?",
+            "hi": "क्या तुम जैतून खा रहे हो?"
+        },
+        {
+            "tense": "Present Continuous - Wh-Question",
+            "en": "Why are you eating my olive?",
+            "hi": "तुम मेरा जैतून क्यों खा रहे हो?"
+        },
+        {
+            "tense": "Present Perfect - Affirmative",
+            "en": "I have eaten the olive.",
+            "hi": "मैंने जैतून खा लिया है।"
+        },
+        {
+            "tense": "Present Perfect - Negative",
+            "en": "I have not eaten the olive.",
+            "hi": "मैंने जैतून नहीं खाया है।"
+        },
+        {
+            "tense": "Present Perfect - Interrogative",
+            "en": "Have you eaten the olive?",
+            "hi": "क्या तुमने जैतून खा लिया है?"
+        },
+        {
+            "tense": "Simple Past - Affirmative",
+            "en": "I bought an olive yesterday.",
+            "hi": "मैंने कल एक जैतून खरीदा था।"
+        },
+        {
+            "tense": "Simple Past - Negative",
+            "en": "I didn't buy an olive.",
+            "hi": "मैंने जैतून नहीं खरीदा।"
+        },
+        {
+            "tense": "Simple Past - Interrogative",
+            "en": "Did you buy an olive?",
+            "hi": "क्या तुमने एक जैतून खरीदा?"
+        },
+        {
+            "tense": "Simple Past - Wh-Question",
+            "en": "Where did you buy this olive?",
+            "hi": "तुमने यह जैतून कहाँ से खरीदा?"
+        },
+        {
+            "tense": "Past Continuous - Affirmative",
+            "en": "I was eating an olive when you called.",
+            "hi": "जब तुमने फोन किया तब मैं एक जैतून खा रहा था।"
+        },
+        {
+            "tense": "Past Continuous - Interrogative",
+            "en": "Were you eating an olive?",
+            "hi": "क्या तुम एक जैतून खा रहे थे?"
+        },
+        {
+            "tense": "Simple Future - Affirmative",
+            "en": "I will eat an olive tomorrow.",
+            "hi": "मैं कल एक जैतून खाऊँगा।"
+        },
+        {
+            "tense": "Simple Future - Negative",
+            "en": "I will not eat the olive.",
+            "hi": "मैं वह जैतून नहीं खाऊँगा।"
+        },
+        {
+            "tense": "Simple Future - Interrogative",
+            "en": "Will you eat this olive?",
+            "hi": "क्या तुम यह जैतून खाओगे?"
+        },
+        {
+            "tense": "Modal - Can",
+            "en": "Can you peel this olive?",
+            "hi": "क्या तुम यह जैतून छील सकते हो?"
+        },
+        {
+            "tense": "Modal - Should",
+            "en": "You should eat an olive.",
+            "hi": "तुम्हें एक जैतून खाना चाहिए।"
+        },
+        {
+            "tense": "Modal - Must",
+            "en": "You must buy fresh olives.",
+            "hi": "तुम्हें ताज़े जैतून ही खरीदने चाहिए।"
+        },
+        {
+            "tense": "Modal - May",
+            "en": "May I have an olive?",
+            "hi": "क्या मैं एक जैतून ले सकता हूँ?"
+        },
+        {
+            "tense": "Modal - Would",
+            "en": "Would you like an olive?",
+            "hi": "क्या आप एक जैतून लेना पसंद करेंगे?"
+        },
+        {
+            "tense": "Imperative - Affirmative",
+            "en": "Eat this olive.",
+            "hi": "यह जैतून खाओ।"
+        },
+        {
+            "tense": "Imperative - Negative",
+            "en": "Don't eat that olive.",
+            "hi": "वह जैतून मत खाओ।"
+        },
+        {
+            "tense": "Passive Voice - Present",
+            "en": "The olive is eaten.",
+            "hi": "जैतून खाया जाता है।"
+        },
+        {
+            "tense": "Passive Voice - Past",
+            "en": "The olive was eaten by him.",
+            "hi": "जैतून उसके द्वारा खाया गया था।"
+        },
+        {
+            "tense": "Location/Preposition",
+            "en": "The olive is on the table.",
+            "hi": "जैतून मेज़ पर है।"
+        },
+        {
+            "tense": "Location/Preposition",
+            "en": "There is a olive in the basket.",
+            "hi": "टोकरी में एक जैतून है।"
+        },
+        {
+            "tense": "Location/Preposition",
+            "en": "The monkey is holding a olive.",
+            "hi": "बंदर ने एक जैतून पकड़ा हुआ है।"
+        },
+        {
+            "tense": "Adjective Use",
+            "en": "This olive is sweet.",
+            "hi": "यह जैतून मीठा है।"
+        },
+        {
+            "tense": "Adjective Use",
+            "en": "That olive is rotten.",
+            "hi": "वह जैतून सड़ा हुआ है।"
+        },
+        {
+            "tense": "Adjective Use",
+            "en": "I need a ripe olive.",
+            "hi": "मुझे एक पका हुआ जैतून चाहिए।"
+        },
+        {
+            "tense": "Action - Cutting",
+            "en": "I am cutting the olive.",
+            "hi": "मैं जैतून काट रहा हूँ।"
+        },
+        {
+            "tense": "Action - Peeling",
+            "en": "Please peel the olive.",
+            "hi": "कृपया जैतून छील दो।"
+        },
+        {
+            "tense": "Action - Buying",
+            "en": "She is buying olives.",
+            "hi": "वह जैतून खरीद रही है।"
+        },
+        {
+            "tense": "Action - Washing",
+            "en": "Wash the olive before eating.",
+            "hi": "खाने से पहले जैतून धो लो।"
+        }
+    ]
+}

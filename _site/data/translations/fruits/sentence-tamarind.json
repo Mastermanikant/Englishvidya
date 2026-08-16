@@ -1,0 +1,297 @@
+{
+    "word": "Tamarind",
+    "slug": "tamarind",
+    "category": "fruits",
+    "translations": [
+        {
+            "tense": "To Be - Present Affirmative",
+            "en": "This is a tamarind.",
+            "hi": "यह एक इमली है।"
+        },
+        {
+            "tense": "To Be - Present Affirmative (Plural)",
+            "en": "These are tamarinds.",
+            "hi": "ये इमली हैं।"
+        },
+        {
+            "tense": "To Be - Past Affirmative",
+            "en": "That was a tamarind.",
+            "hi": "वह एक इमली थी।"
+        },
+        {
+            "tense": "To Be - Past Affirmative (Plural)",
+            "en": "Those were tamarinds.",
+            "hi": "वे इमली थीं।"
+        },
+        {
+            "tense": "To Be - Present Negative",
+            "en": "This is not a tamarind.",
+            "hi": "यह एक इमली नहीं है।"
+        },
+        {
+            "tense": "To Be - Present Negative (Plural)",
+            "en": "These are not tamarinds.",
+            "hi": "ये इमली नहीं हैं।"
+        },
+        {
+            "tense": "To Be - Present Interrogative",
+            "en": "Is this a tamarind?",
+            "hi": "क्या यह एक इमली है?"
+        },
+        {
+            "tense": "To Be - Present Interrogative (Plural)",
+            "en": "Are these tamarinds?",
+            "hi": "क्या ये इमली हैं?"
+        },
+        {
+            "tense": "To Be - Past Interrogative",
+            "en": "Was that a tamarind?",
+            "hi": "क्या वह एक इमली थी?"
+        },
+        {
+            "tense": "To Be - Wh-Question",
+            "en": "Where is the tamarind?",
+            "hi": "इमली कहाँ है?"
+        },
+        {
+            "tense": "To Be - Wh-Question (Plural)",
+            "en": "Where are the tamarinds?",
+            "hi": "इमली कहाँ हैं?"
+        },
+        {
+            "tense": "To Be - Wh-Question (Why)",
+            "en": "Why is this tamarind here?",
+            "hi": "यह इमली यहाँ क्यों है?"
+        },
+        {
+            "tense": "To Have - Present Affirmative",
+            "en": "I have a tamarind.",
+            "hi": "मेरे पास एक इमली है।"
+        },
+        {
+            "tense": "To Have - Present Affirmative (Plural)",
+            "en": "I have many tamarinds.",
+            "hi": "मेरे पास कई इमली हैं।"
+        },
+        {
+            "tense": "To Have - Past Affirmative",
+            "en": "I had a tamarind.",
+            "hi": "मेरे पास एक इमली थी।"
+        },
+        {
+            "tense": "To Have - Present Negative",
+            "en": "I don't have a tamarind.",
+            "hi": "मेरे पास इमली नहीं है।"
+        },
+        {
+            "tense": "To Have - Present Interrogative",
+            "en": "Do you have a tamarind?",
+            "hi": "क्या तुम्हारे पास एक इमली है?"
+        },
+        {
+            "tense": "To Have - Past Interrogative",
+            "en": "Did you have a tamarind?",
+            "hi": "क्या तुम्हारे पास एक इमली थी?"
+        },
+        {
+            "tense": "To Have - Wh-Question",
+            "en": "How many tamarinds do you have?",
+            "hi": "तुम्हारे पास कितने इमली हैं?"
+        },
+        {
+            "tense": "Simple Present - Affirmative",
+            "en": "I eat a tamarind every day.",
+            "hi": "मैं हर दिन एक इमली खाता हूँ।"
+        },
+        {
+            "tense": "Simple Present - Negative",
+            "en": "I don't eat tamarinds.",
+            "hi": "मैं इमली नहीं खाता हूँ।"
+        },
+        {
+            "tense": "Simple Present - Interrogative",
+            "en": "Do you eat tamarinds?",
+            "hi": "क्या तुम इमली खाते हो?"
+        },
+        {
+            "tense": "Simple Present - Wh-Question",
+            "en": "When do you eat a tamarind?",
+            "hi": "तुम इमली कब खाते हो?"
+        },
+        {
+            "tense": "Present Continuous - Affirmative",
+            "en": "I am eating a tamarind.",
+            "hi": "मैं एक इमली खा रहा हूँ।"
+        },
+        {
+            "tense": "Present Continuous - Negative",
+            "en": "I am not eating a tamarind.",
+            "hi": "मैं इमली नहीं खा रहा हूँ।"
+        },
+        {
+            "tense": "Present Continuous - Interrogative",
+            "en": "Are you eating a tamarind?",
+            "hi": "क्या तुम इमली खा रहे हो?"
+        },
+        {
+            "tense": "Present Continuous - Wh-Question",
+            "en": "Why are you eating my tamarind?",
+            "hi": "तुम मेरा इमली क्यों खा रहे हो?"
+        },
+        {
+            "tense": "Present Perfect - Affirmative",
+            "en": "I have eaten the tamarind.",
+            "hi": "मैंने इमली खा लिया है।"
+        },
+        {
+            "tense": "Present Perfect - Negative",
+            "en": "I have not eaten the tamarind.",
+            "hi": "मैंने इमली नहीं खाया है।"
+        },
+        {
+            "tense": "Present Perfect - Interrogative",
+            "en": "Have you eaten the tamarind?",
+            "hi": "क्या तुमने इमली खा लिया है?"
+        },
+        {
+            "tense": "Simple Past - Affirmative",
+            "en": "I bought a tamarind yesterday.",
+            "hi": "मैंने कल एक इमली खरीदी थी।"
+        },
+        {
+            "tense": "Simple Past - Negative",
+            "en": "I didn't buy a tamarind.",
+            "hi": "मैंने इमली नहीं खरीदी।"
+        },
+        {
+            "tense": "Simple Past - Interrogative",
+            "en": "Did you buy a tamarind?",
+            "hi": "क्या तुमने एक इमली खरीदी?"
+        },
+        {
+            "tense": "Simple Past - Wh-Question",
+            "en": "Where did you buy this tamarind?",
+            "hi": "तुमने यह इमली कहाँ से खरीदी?"
+        },
+        {
+            "tense": "Past Continuous - Affirmative",
+            "en": "I was eating a tamarind when you called.",
+            "hi": "जब तुमने फोन किया तब मैं एक इमली खा रहा था।"
+        },
+        {
+            "tense": "Past Continuous - Interrogative",
+            "en": "Were you eating a tamarind?",
+            "hi": "क्या तुम एक इमली खा रहे थे?"
+        },
+        {
+            "tense": "Simple Future - Affirmative",
+            "en": "I will eat a tamarind tomorrow.",
+            "hi": "मैं कल एक इमली खाऊँगा।"
+        },
+        {
+            "tense": "Simple Future - Negative",
+            "en": "I will not eat the tamarind.",
+            "hi": "मैं वह इमली नहीं खाऊँगा।"
+        },
+        {
+            "tense": "Simple Future - Interrogative",
+            "en": "Will you eat this tamarind?",
+            "hi": "क्या तुम यह इमली खाओगे?"
+        },
+        {
+            "tense": "Modal - Can",
+            "en": "Can you peel this tamarind?",
+            "hi": "क्या तुम यह इमली छील सकते हो?"
+        },
+        {
+            "tense": "Modal - Should",
+            "en": "You should eat a tamarind.",
+            "hi": "तुम्हें एक इमली खाना चाहिए।"
+        },
+        {
+            "tense": "Modal - Must",
+            "en": "You must buy fresh tamarinds.",
+            "hi": "तुम्हें ताज़े इमली ही खरीदने चाहिए।"
+        },
+        {
+            "tense": "Modal - May",
+            "en": "May I have a tamarind?",
+            "hi": "क्या मैं एक इमली ले सकता हूँ?"
+        },
+        {
+            "tense": "Modal - Would",
+            "en": "Would you like a tamarind?",
+            "hi": "क्या आप एक इमली लेना पसंद करेंगे?"
+        },
+        {
+            "tense": "Imperative - Affirmative",
+            "en": "Eat this tamarind.",
+            "hi": "यह इमली खाओ।"
+        },
+        {
+            "tense": "Imperative - Negative",
+            "en": "Don't eat that tamarind.",
+            "hi": "वह इमली मत खाओ।"
+        },
+        {
+            "tense": "Passive Voice - Present",
+            "en": "The tamarind is eaten.",
+            "hi": "इमली खाई जाती है।"
+        },
+        {
+            "tense": "Passive Voice - Past",
+            "en": "The tamarind was eaten by him.",
+            "hi": "इमली उसके द्वारा खाई गई थी।"
+        },
+        {
+            "tense": "Location/Preposition",
+            "en": "The tamarind is on the table.",
+            "hi": "इमली मेज़ पर है।"
+        },
+        {
+            "tense": "Location/Preposition",
+            "en": "There is a tamarind in the basket.",
+            "hi": "टोकरी में एक इमली है।"
+        },
+        {
+            "tense": "Location/Preposition",
+            "en": "The monkey is holding a tamarind.",
+            "hi": "बंदर ने एक इमली पकड़ा हुआ है।"
+        },
+        {
+            "tense": "Adjective Use",
+            "en": "This tamarind is sweet.",
+            "hi": "यह इमली मीठी है।"
+        },
+        {
+            "tense": "Adjective Use",
+            "en": "That tamarind is rotten.",
+            "hi": "वह इमली सड़ी हुई है।"
+        },
+        {
+            "tense": "Adjective Use",
+            "en": "I need a ripe tamarind.",
+            "hi": "मुझे एक पकी हुई इमली चाहिए।"
+        },
+        {
+            "tense": "Action - Cutting",
+            "en": "I am cutting the tamarind.",
+            "hi": "मैं इमली काट रहा हूँ।"
+        },
+        {
+            "tense": "Action - Peeling",
+            "en": "Please peel the tamarind.",
+            "hi": "कृपया इमली छील दो।"
+        },
+        {
+            "tense": "Action - Buying",
+            "en": "She is buying tamarinds.",
+            "hi": "वह इमली खरीद रही है।"
+        },
+        {
+            "tense": "Action - Washing",
+            "en": "Wash the tamarind before eating.",
+            "hi": "खाने से पहले इमली धो लो।"
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "word": "Dates",
+    "slug": "dates",
+    "pron": "डेट्स",
+    "meaning": "खजूर",
+    "usages": [
+        {
+            "partOfSpeech": "Noun",
+            "definition": "Sweet, dark brown oval fruits containing a hard stone, commonly dried.",
+            "examples": [
+                {
+                    "en": "Eating dates gives you instant energy.",
+                    "hi": "खजूर खाने से आपको तुरंत ऊर्जा मिलती है।"
+                },
+                {
+                    "en": "She broke her fast with some dates.",
+                    "hi": "उसने कुछ खजूर खाकर अपना व्रत तोड़ा।"
+                }
+            ]
+        }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [
+        "dried dates",
+        "fresh dates",
+        "pitted dates"
+    ],
+    "category": "fruits",
+    "hasTranslations": true
+}

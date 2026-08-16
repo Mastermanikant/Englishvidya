@@ -1,0 +1,297 @@
+{
+    "word": "Papaya",
+    "slug": "papaya",
+    "category": "fruits",
+    "translations": [
+        {
+            "tense": "To Be - Present Affirmative",
+            "en": "This is a papaya.",
+            "hi": "यह एक पपीता है।"
+        },
+        {
+            "tense": "To Be - Present Affirmative (Plural)",
+            "en": "These are papayas.",
+            "hi": "ये पपीते हैं।"
+        },
+        {
+            "tense": "To Be - Past Affirmative",
+            "en": "That was a papaya.",
+            "hi": "वह एक पपीता था।"
+        },
+        {
+            "tense": "To Be - Past Affirmative (Plural)",
+            "en": "Those were papayas.",
+            "hi": "वे पपीते थे।"
+        },
+        {
+            "tense": "To Be - Present Negative",
+            "en": "This is not a papaya.",
+            "hi": "यह एक पपीता नहीं है।"
+        },
+        {
+            "tense": "To Be - Present Negative (Plural)",
+            "en": "These are not papayas.",
+            "hi": "ये पपीते नहीं हैं।"
+        },
+        {
+            "tense": "To Be - Present Interrogative",
+            "en": "Is this a papaya?",
+            "hi": "क्या यह एक पपीता है?"
+        },
+        {
+            "tense": "To Be - Present Interrogative (Plural)",
+            "en": "Are these papayas?",
+            "hi": "क्या ये पपीते हैं?"
+        },
+        {
+            "tense": "To Be - Past Interrogative",
+            "en": "Was that a papaya?",
+            "hi": "क्या वह एक पपीता था?"
+        },
+        {
+            "tense": "To Be - Wh-Question",
+            "en": "Where is the papaya?",
+            "hi": "पपीता कहाँ है?"
+        },
+        {
+            "tense": "To Be - Wh-Question (Plural)",
+            "en": "Where are the papayas?",
+            "hi": "पपीते कहाँ हैं?"
+        },
+        {
+            "tense": "To Be - Wh-Question (Why)",
+            "en": "Why is this papaya here?",
+            "hi": "यह पपीता यहाँ क्यों है?"
+        },
+        {
+            "tense": "To Have - Present Affirmative",
+            "en": "I have a papaya.",
+            "hi": "मेरे पास एक पपीता है।"
+        },
+        {
+            "tense": "To Have - Present Affirmative (Plural)",
+            "en": "I have many papayas.",
+            "hi": "मेरे पास कई पपीते हैं।"
+        },
+        {
+            "tense": "To Have - Past Affirmative",
+            "en": "I had a papaya.",
+            "hi": "मेरे पास एक पपीता था।"
+        },
+        {
+            "tense": "To Have - Present Negative",
+            "en": "I don't have a papaya.",
+            "hi": "मेरे पास पपीता नहीं है।"
+        },
+        {
+            "tense": "To Have - Present Interrogative",
+            "en": "Do you have a papaya?",
+            "hi": "क्या तुम्हारे पास एक पपीता है?"
+        },
+        {
+            "tense": "To Have - Past Interrogative",
+            "en": "Did you have a papaya?",
+            "hi": "क्या तुम्हारे पास एक पपीता था?"
+        },
+        {
+            "tense": "To Have - Wh-Question",
+            "en": "How many papayas do you have?",
+            "hi": "तुम्हारे पास कितने पपीते हैं?"
+        },
+        {
+            "tense": "Simple Present - Affirmative",
+            "en": "I eat a papaya every day.",
+            "hi": "मैं हर दिन एक पपीता खाता हूँ।"
+        },
+        {
+            "tense": "Simple Present - Negative",
+            "en": "I don't eat papayas.",
+            "hi": "मैं पपीते नहीं खाता हूँ।"
+        },
+        {
+            "tense": "Simple Present - Interrogative",
+            "en": "Do you eat papayas?",
+            "hi": "क्या तुम पपीते खाते हो?"
+        },
+        {
+            "tense": "Simple Present - Wh-Question",
+            "en": "When do you eat a papaya?",
+            "hi": "तुम पपीता कब खाते हो?"
+        },
+        {
+            "tense": "Present Continuous - Affirmative",
+            "en": "I am eating a papaya.",
+            "hi": "मैं एक पपीता खा रहा हूँ।"
+        },
+        {
+            "tense": "Present Continuous - Negative",
+            "en": "I am not eating a papaya.",
+            "hi": "मैं पपीता नहीं खा रहा हूँ।"
+        },
+        {
+            "tense": "Present Continuous - Interrogative",
+            "en": "Are you eating a papaya?",
+            "hi": "क्या तुम पपीता खा रहे हो?"
+        },
+        {
+            "tense": "Present Continuous - Wh-Question",
+            "en": "Why are you eating my papaya?",
+            "hi": "तुम मेरा पपीता क्यों खा रहे हो?"
+        },
+        {
+            "tense": "Present Perfect - Affirmative",
+            "en": "I have eaten the papaya.",
+            "hi": "मैंने पपीता खा लिया है।"
+        },
+        {
+            "tense": "Present Perfect - Negative",
+            "en": "I have not eaten the papaya.",
+            "hi": "मैंने पपीता नहीं खाया है।"
+        },
+        {
+            "tense": "Present Perfect - Interrogative",
+            "en": "Have you eaten the papaya?",
+            "hi": "क्या तुमने पपीता खा लिया है?"
+        },
+        {
+            "tense": "Simple Past - Affirmative",
+            "en": "I bought a papaya yesterday.",
+            "hi": "मैंने कल एक पपीता खरीदा था।"
+        },
+        {
+            "tense": "Simple Past - Negative",
+            "en": "I didn't buy a papaya.",
+            "hi": "मैंने पपीता नहीं खरीदा।"
+        },
+        {
+            "tense": "Simple Past - Interrogative",
+            "en": "Did you buy a papaya?",
+            "hi": "क्या तुमने एक पपीता खरीदा?"
+        },
+        {
+            "tense": "Simple Past - Wh-Question",
+            "en": "Where did you buy this papaya?",
+            "hi": "तुमने यह पपीता कहाँ से खरीदा?"
+        },
+        {
+            "tense": "Past Continuous - Affirmative",
+            "en": "I was eating a papaya when you called.",
+            "hi": "जब तुमने फोन किया तब मैं एक पपीता खा रहा था।"
+        },
+        {
+            "tense": "Past Continuous - Interrogative",
+            "en": "Were you eating a papaya?",
+            "hi": "क्या तुम एक पपीता खा रहे थे?"
+        },
+        {
+            "tense": "Simple Future - Affirmative",
+            "en": "I will eat a papaya tomorrow.",
+            "hi": "मैं कल एक पपीता खाऊँगा।"
+        },
+        {
+            "tense": "Simple Future - Negative",
+            "en": "I will not eat the papaya.",
+            "hi": "मैं वह पपीता नहीं खाऊँगा।"
+        },
+        {
+            "tense": "Simple Future - Interrogative",
+            "en": "Will you eat this papaya?",
+            "hi": "क्या तुम यह पपीता खाओगे?"
+        },
+        {
+            "tense": "Modal - Can",
+            "en": "Can you peel this papaya?",
+            "hi": "क्या तुम यह पपीता छील सकते हो?"
+        },
+        {
+            "tense": "Modal - Should",
+            "en": "You should eat a papaya.",
+            "hi": "तुम्हें एक पपीता खाना चाहिए।"
+        },
+        {
+            "tense": "Modal - Must",
+            "en": "You must buy fresh papayas.",
+            "hi": "तुम्हें ताज़े पपीते ही खरीदने चाहिए।"
+        },
+        {
+            "tense": "Modal - May",
+            "en": "May I have a papaya?",
+            "hi": "क्या मैं एक पपीता ले सकता हूँ?"
+        },
+        {
+            "tense": "Modal - Would",
+            "en": "Would you like a papaya?",
+            "hi": "क्या आप एक पपीता लेना पसंद करेंगे?"
+        },
+        {
+            "tense": "Imperative - Affirmative",
+            "en": "Eat this papaya.",
+            "hi": "यह पपीता खाओ।"
+        },
+        {
+            "tense": "Imperative - Negative",
+            "en": "Don't eat that papaya.",
+            "hi": "वह पपीता मत खाओ।"
+        },
+        {
+            "tense": "Passive Voice - Present",
+            "en": "The papaya is eaten.",
+            "hi": "पपीता खाया जाता है।"
+        },
+        {
+            "tense": "Passive Voice - Past",
+            "en": "The papaya was eaten by him.",
+            "hi": "पपीता उसके द्वारा खाया गया था।"
+        },
+        {
+            "tense": "Location/Preposition",
+            "en": "The papaya is on the table.",
+            "hi": "पपीता मेज़ पर है।"
+        },
+        {
+            "tense": "Location/Preposition",
+            "en": "There is a papaya in the basket.",
+            "hi": "टोकरी में एक पपीता है।"
+        },
+        {
+            "tense": "Location/Preposition",
+            "en": "The monkey is holding a papaya.",
+            "hi": "बंदर ने एक पपीता पकड़ा हुआ है।"
+        },
+        {
+            "tense": "Adjective Use",
+            "en": "This papaya is sweet.",
+            "hi": "यह पपीता मीठा है।"
+        },
+        {
+            "tense": "Adjective Use",
+            "en": "That papaya is rotten.",
+            "hi": "वह पपीता सड़ा हुआ है।"
+        },
+        {
+            "tense": "Adjective Use",
+            "en": "I need a ripe papaya.",
+            "hi": "मुझे एक पका हुआ पपीता चाहिए।"
+        },
+        {
+            "tense": "Action - Cutting",
+            "en": "I am cutting the papaya.",
+            "hi": "मैं पपीता काट रहा हूँ।"
+        },
+        {
+            "tense": "Action - Peeling",
+            "en": "Please peel the papaya.",
+            "hi": "कृपया पपीता छील दो।"
+        },
+        {
+            "tense": "Action - Buying",
+            "en": "She is buying papayas.",
+            "hi": "वह पपीते खरीद रही है।"
+        },
+        {
+            "tense": "Action - Washing",
+            "en": "Wash the papaya before eating.",
+            "hi": "खाने से पहले पपीता धो लो।"
+        }
+    ]
+}
