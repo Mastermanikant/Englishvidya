@@ -1867,4 +1867,36 @@
   window.addEventListener('beforeunload', () => {
     synth.cancel();
   });
+
+  // ── 7. Interactive Sidebar Dropdowns ──
+  document.addEventListener('DOMContentLoaded', () => {
+    const dropdownToggles = document.querySelectorAll('.dropdown-toggle');
+    dropdownToggles.forEach(toggle => {
+      toggle.addEventListener('click', (e) => {
+        e.preventDefault();
+        const parent = toggle.closest('.nav-dropdown-container');
+        if (parent) {
+          const menu = parent.querySelector('.nav-dropdown-menu');
+          if (menu) {
+            menu.classList.toggle('hidden');
+            menu.classList.toggle('flex');
+            const expanded = menu.classList.contains('flex');
+            toggle.setAttribute('aria-expanded', expanded ? 'true' : 'false');
+          }
+        }
+      });
+    });
+
+    // ── 8. Chapter Reading Progress Bar ──
+    const readingProgress = document.getElementById('reading-progress-bar');
+    if (readingProgress) {
+      window.addEventListener('scroll', () => {
+        const totalHeight = document.documentElement.scrollHeight - window.innerHeight;
+        if (totalHeight > 0) {
+          const progress = (window.scrollY / totalHeight) * 100;
+          readingProgress.style.width = Math.min(100, Math.max(0, progress)) + '%';
+        }
+      }, { passive: true });
+    }
+  });
 })();
