@@ -1,91 +1,74 @@
+// website/js/heartbeat.js — Zero-Server-Load Local Study Timer
+
 (function() {
-  // Check if token exists in cookie first (purely client-side, zero server load)
-  function isUserLoggedIn() {
-    return document.cookie.split(';').some(item => item.trim().startsWith('ev_token='));
+  const STORAGE_KEY = 'ev_study_seconds';
+  const LAST_ACTIVE_KEY = 'ev_last_active_date';
+  const TARGET_SECONDS = 3 * 60 * 60; // 3 Hours (10800s)
+
+  let localSeconds = 0;
+  try {
+    localSeconds = parseInt(localStorage.getItem(STORAGE_KEY) || '0', 10);
+  } catch (e) {
+    localSeconds = 0;
   }
 
-  if (!isUserLoggedIn()) {
-    return; // Stop if not logged in
-  }
+  // Check if day changed - reset daily study count
+  const today = new Date().toISOString().slice(0, 10);
+  try {
+    const lastDate = localStorage.getItem(LAST_ACTIVE_KEY);
+    if (lastDate !== today) {
+      localStorage.setItem(LAST_ACTIVE_KEY, today);
+      localStorage.setItem(STORAGE_KEY, '0');
+      localSeconds = 0;
+    }
+  } catch (e) {}
 
-  let lastActivityTime = Date.now();
-  let heartbeatInterval = null;
+  let userActive = true;
+  let lastInteraction = Date.now();
 
-  // Track user activity
   const activityEvents = ['mousemove', 'keydown', 'scroll', 'touchstart', 'click'];
-  function recordActivity() {
-    lastActivityTime = Date.now();
+  function onUserInteraction() {
+    userActive = true;
+    lastInteraction = Date.now();
   }
 
-  activityEvents.forEach(eventName => {
-    window.addEventListener(eventName, recordActivity, { passive: true });
+  activityEvents.forEach(evt => {
+    window.addEventListener(evt, onUserInteraction, { passive: true });
   });
 
-  // Start heartbeat interval (every 60 seconds)
-  heartbeatInterval = setInterval(async () => {
-    // Check if tab is visible and user has been active within the last 60 seconds
-    const isTabVisible = document.visibilityState === 'visible';
-    const hasBeenActive = (Date.now() - lastActivityTime) < 60000;
+  // Local study timer ticker (Runs every 5 seconds locally, ZERO server network requests)
+  setInterval(() => {
+    const isVisible = document.visibilityState === 'visible';
+    const isRecentlyActive = (Date.now() - lastInteraction) < 120000; // Active in last 2 mins
 
-    if (isTabVisible && hasBeenActive) {
+    if (isVisible && isRecentlyActive) {
+      localSeconds += 5;
       try {
-        const res = await fetch('/api/heartbeat', { method: 'POST' });
-        
-        if (res.status === 401) {
-          // Token expired or logged out - stop pings
-          clearInterval(heartbeatInterval);
-          return;
-        }
+        localStorage.setItem(STORAGE_KEY, localSeconds.toString());
+      } catch (e) {}
 
-        if (res.ok) {
-          const data = await res.json();
-          
-          if (data.user_awarded) {
-            showRewardToast("बधाई हो! आपने 3 घंटे की पढ़ाई पूरी की और 900 कॉइन्स (₹9) अर्जित किए!");
-          }
-          if (data.referrer_awarded) {
-            showRewardToast("बधाई हो! आपके रेफ़र किए गए दोस्त ने 3 घंटे पूरे किए और आपको 900 कॉइन्स मिले!");
-          }
-
-          // If milestone is reached, update current page if it is the referral dashboard
-          if (data.milestone_reached && typeof window.loadReferralDashboard === 'function') {
-            window.loadReferralDashboard();
-          }
-        }
-      } catch (err) {
-        // Fail silently to minimize errors in console
+      // Milestone trigger: Only fire 1 single network request when milestone is reached
+      if (localSeconds === TARGET_SECONDS) {
+        claimStudyMilestoneReward();
       }
     }
-  }, 60000);
+  }, 5000);
 
-  // Helper to show custom premium toast
-  function showRewardToast(message) {
-    const container = document.getElementById('toast-container');
-    if (!container) return;
-    
-    const toast = document.createElement('div');
-    toast.style.background = 'linear-gradient(135deg, #eab308 0%, #ca8a04 100%)';
-    toast.style.color = '#000';
-    toast.style.padding = '14px 20px';
-    toast.style.borderRadius = '8px';
-    toast.style.boxShadow = '0 10px 25px rgba(234, 179, 8, 0.3)';
-    toast.style.fontWeight = 'bold';
-    toast.style.display = 'flex';
-    toast.style.alignItems = 'center';
-    toast.style.gap = '10px';
-    toast.style.fontSize = '0.95rem';
-    toast.style.lineHeight = '1.4';
-    toast.style.animation = 'slideUp 0.3s ease-out';
-    toast.innerHTML = `🪙 <span></span>`;
-    toast.querySelector('span').textContent = message;
-    
-    container.appendChild(toast);
-    
-    setTimeout(() => {
-      toast.style.transition = 'opacity 0.5s ease-out, transform 0.5s ease-out';
-      toast.style.opacity = '0';
-      toast.style.transform = 'translateY(-10px)';
-      setTimeout(() => toast.remove(), 500);
-    }, 10000);
+  async function claimStudyMilestoneReward() {
+    try {
+      const res = await fetch('/api/heartbeat', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ milestone_reached: true, seconds: localSeconds })
+      });
+      if (res.ok) {
+        const data = await res.json();
+        if (data.user_awarded && window.showToast) {
+          window.showToast("🎉 बधाई हो! आपने आज 3 घंटे की पढ़ाई पूरी की और कॉइन्स अर्जित किए!", "success");
+        }
+      }
+    } catch (err) {
+      console.warn('Milestone reward non-fatal sync error:', err);
+    }
   }
 })();
