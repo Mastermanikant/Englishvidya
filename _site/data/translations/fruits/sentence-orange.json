@@ -1,0 +1,297 @@
+{
+    "word": "Orange",
+    "slug": "orange",
+    "category": "fruits",
+    "translations": [
+        {
+            "tense": "To Be - Present Affirmative",
+            "en": "This is an orange.",
+            "hi": "यह एक संतरा है।"
+        },
+        {
+            "tense": "To Be - Present Affirmative (Plural)",
+            "en": "These are oranges.",
+            "hi": "ये संतरे हैं।"
+        },
+        {
+            "tense": "To Be - Past Affirmative",
+            "en": "That was an orange.",
+            "hi": "वह एक संतरा था।"
+        },
+        {
+            "tense": "To Be - Past Affirmative (Plural)",
+            "en": "Those were oranges.",
+            "hi": "वे संतरे थे।"
+        },
+        {
+            "tense": "To Be - Present Negative",
+            "en": "This is not an orange.",
+            "hi": "यह एक संतरा नहीं है।"
+        },
+        {
+            "tense": "To Be - Present Negative (Plural)",
+            "en": "These are not oranges.",
+            "hi": "ये संतरे नहीं हैं।"
+        },
+        {
+            "tense": "To Be - Present Interrogative",
+            "en": "Is this an orange?",
+            "hi": "क्या यह एक संतरा है?"
+        },
+        {
+            "tense": "To Be - Present Interrogative (Plural)",
+            "en": "Are these oranges?",
+            "hi": "क्या ये संतरे हैं?"
+        },
+        {
+            "tense": "To Be - Past Interrogative",
+            "en": "Was that an orange?",
+            "hi": "क्या वह एक संतरा था?"
+        },
+        {
+            "tense": "To Be - Wh-Question",
+            "en": "Where is the orange?",
+            "hi": "संतरा कहाँ है?"
+        },
+        {
+            "tense": "To Be - Wh-Question (Plural)",
+            "en": "Where are the oranges?",
+            "hi": "संतरे कहाँ हैं?"
+        },
+        {
+            "tense": "To Be - Wh-Question (Why)",
+            "en": "Why is this orange here?",
+            "hi": "यह संतरा यहाँ क्यों है?"
+        },
+        {
+            "tense": "To Have - Present Affirmative",
+            "en": "I have an orange.",
+            "hi": "मेरे पास एक संतरा है।"
+        },
+        {
+            "tense": "To Have - Present Affirmative (Plural)",
+            "en": "I have many oranges.",
+            "hi": "मेरे पास कई संतरे हैं।"
+        },
+        {
+            "tense": "To Have - Past Affirmative",
+            "en": "I had an orange.",
+            "hi": "मेरे पास एक संतरा था।"
+        },
+        {
+            "tense": "To Have - Present Negative",
+            "en": "I don't have an orange.",
+            "hi": "मेरे पास संतरा नहीं है।"
+        },
+        {
+            "tense": "To Have - Present Interrogative",
+            "en": "Do you have an orange?",
+            "hi": "क्या तुम्हारे पास एक संतरा है?"
+        },
+        {
+            "tense": "To Have - Past Interrogative",
+            "en": "Did you have an orange?",
+            "hi": "क्या तुम्हारे पास एक संतरा था?"
+        },
+        {
+            "tense": "To Have - Wh-Question",
+            "en": "How many oranges do you have?",
+            "hi": "तुम्हारे पास कितने संतरे हैं?"
+        },
+        {
+            "tense": "Simple Present - Affirmative",
+            "en": "I eat an orange every day.",
+            "hi": "मैं हर दिन एक संतरा खाता हूँ।"
+        },
+        {
+            "tense": "Simple Present - Negative",
+            "en": "I don't eat oranges.",
+            "hi": "मैं संतरे नहीं खाता हूँ।"
+        },
+        {
+            "tense": "Simple Present - Interrogative",
+            "en": "Do you eat oranges?",
+            "hi": "क्या तुम संतरे खाते हो?"
+        },
+        {
+            "tense": "Simple Present - Wh-Question",
+            "en": "When do you eat an orange?",
+            "hi": "तुम संतरा कब खाते हो?"
+        },
+        {
+            "tense": "Present Continuous - Affirmative",
+            "en": "I am eating an orange.",
+            "hi": "मैं एक संतरा खा रहा हूँ।"
+        },
+        {
+            "tense": "Present Continuous - Negative",
+            "en": "I am not eating an orange.",
+            "hi": "मैं संतरा नहीं खा रहा हूँ।"
+        },
+        {
+            "tense": "Present Continuous - Interrogative",
+            "en": "Are you eating an orange?",
+            "hi": "क्या तुम संतरा खा रहे हो?"
+        },
+        {
+            "tense": "Present Continuous - Wh-Question",
+            "en": "Why are you eating my orange?",
+            "hi": "तुम मेरा संतरा क्यों खा रहे हो?"
+        },
+        {
+            "tense": "Present Perfect - Affirmative",
+            "en": "I have eaten the orange.",
+            "hi": "मैंने संतरा खा लिया है।"
+        },
+        {
+            "tense": "Present Perfect - Negative",
+            "en": "I have not eaten the orange.",
+            "hi": "मैंने संतरा नहीं खाया है।"
+        },
+        {
+            "tense": "Present Perfect - Interrogative",
+            "en": "Have you eaten the orange?",
+            "hi": "क्या तुमने संतरा खा लिया है?"
+        },
+        {
+            "tense": "Simple Past - Affirmative",
+            "en": "I bought an orange yesterday.",
+            "hi": "मैंने कल एक संतरा खरीदा था।"
+        },
+        {
+            "tense": "Simple Past - Negative",
+            "en": "I didn't buy an orange.",
+            "hi": "मैंने संतरा नहीं खरीदा।"
+        },
+        {
+            "tense": "Simple Past - Interrogative",
+            "en": "Did you buy an orange?",
+            "hi": "क्या तुमने एक संतरा खरीदा?"
+        },
+        {
+            "tense": "Simple Past - Wh-Question",
+            "en": "Where did you buy this orange?",
+            "hi": "तुमने यह संतरा कहाँ से खरीदा?"
+        },
+        {
+            "tense": "Past Continuous - Affirmative",
+            "en": "I was eating an orange when you called.",
+            "hi": "जब तुमने फोन किया तब मैं एक संतरा खा रहा था।"
+        },
+        {
+            "tense": "Past Continuous - Interrogative",
+            "en": "Were you eating an orange?",
+            "hi": "क्या तुम एक संतरा खा रहे थे?"
+        },
+        {
+            "tense": "Simple Future - Affirmative",
+            "en": "I will eat an orange tomorrow.",
+            "hi": "मैं कल एक संतरा खाऊँगा।"
+        },
+        {
+            "tense": "Simple Future - Negative",
+            "en": "I will not eat the orange.",
+            "hi": "मैं वह संतरा नहीं खाऊँगा।"
+        },
+        {
+            "tense": "Simple Future - Interrogative",
+            "en": "Will you eat this orange?",
+            "hi": "क्या तुम यह संतरा खाओगे?"
+        },
+        {
+            "tense": "Modal - Can",
+            "en": "Can you peel this orange?",
+            "hi": "क्या तुम यह संतरा छील सकते हो?"
+        },
+        {
+            "tense": "Modal - Should",
+            "en": "You should eat an orange.",
+            "hi": "तुम्हें एक संतरा खाना चाहिए।"
+        },
+        {
+            "tense": "Modal - Must",
+            "en": "You must buy fresh oranges.",
+            "hi": "तुम्हें ताज़े संतरे ही खरीदने चाहिए।"
+        },
+        {
+            "tense": "Modal - May",
+            "en": "May I have an orange?",
+            "hi": "क्या मैं एक संतरा ले सकता हूँ?"
+        },
+        {
+            "tense": "Modal - Would",
+            "en": "Would you like an orange?",
+            "hi": "क्या आप एक संतरा लेना पसंद करेंगे?"
+        },
+        {
+            "tense": "Imperative - Affirmative",
+            "en": "Eat this orange.",
+            "hi": "यह संतरा खाओ।"
+        },
+        {
+            "tense": "Imperative - Negative",
+            "en": "Don't eat that orange.",
+            "hi": "वह संतरा मत खाओ।"
+        },
+        {
+            "tense": "Passive Voice - Present",
+            "en": "The orange is eaten.",
+            "hi": "संतरा खाया जाता है।"
+        },
+        {
+            "tense": "Passive Voice - Past",
+            "en": "The orange was eaten by him.",
+            "hi": "संतरा उसके द्वारा खाया गया था।"
+        },
+        {
+            "tense": "Location/Preposition",
+            "en": "The orange is on the table.",
+            "hi": "संतरा मेज़ पर है।"
+        },
+        {
+            "tense": "Location/Preposition",
+            "en": "There is a orange in the basket.",
+            "hi": "टोकरी में एक संतरा है।"
+        },
+        {
+            "tense": "Location/Preposition",
+            "en": "The monkey is holding a orange.",
+            "hi": "बंदर ने एक संतरा पकड़ा हुआ है।"
+        },
+        {
+            "tense": "Adjective Use",
+            "en": "This orange is sweet.",
+            "hi": "यह संतरा मीठा है।"
+        },
+        {
+            "tense": "Adjective Use",
+            "en": "That orange is rotten.",
+            "hi": "वह संतरा सड़ा हुआ है।"
+        },
+        {
+            "tense": "Adjective Use",
+            "en": "I need a ripe orange.",
+            "hi": "मुझे एक पका हुआ संतरा चाहिए।"
+        },
+        {
+            "tense": "Action - Cutting",
+            "en": "I am cutting the orange.",
+            "hi": "मैं संतरा काट रहा हूँ।"
+        },
+        {
+            "tense": "Action - Peeling",
+            "en": "Please peel the orange.",
+            "hi": "कृपया संतरा छील दो।"
+        },
+        {
+            "tense": "Action - Buying",
+            "en": "She is buying oranges.",
+            "hi": "वह संतरे खरीद रही है।"
+        },
+        {
+            "tense": "Action - Washing",
+            "en": "Wash the orange before eating.",
+            "hi": "खाने से पहले संतरा धो लो।"
+        }
+    ]
+}

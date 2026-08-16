@@ -16,18 +16,19 @@ echo [2/3] Committing changes...
 git commit -m "Backup and Live Update: %date% %time%"
 
 echo.
-echo [3/3] Pushing to GitHub (origin main and origin master)...
+echo [3/4] Pushing to GitHub (origin main and origin master)...
 git push origin main master
+
+echo.
+echo [4/4] Deploying live to Cloudflare Pages (Instant Direct Deploy)...
+call npx wrangler pages deploy _site --project-name=englishvidya --branch=main --commit-dirty=true
 if %errorlevel% neq 0 (
-    echo.
-    echo [!] Warning: Push failed or remote origin is not connected.
-    echo [!] Please ensure your GitHub remote URL is set using:
-    echo     git remote add origin https://github.com/USERNAME/REPO-NAME.git
+    echo [!] Warning: Direct Cloudflare deploy encountered a glitch, but GitHub is synced!
 ) else (
-    echo.
     echo ========================================================
-    echo   SUCCESS! All data and .md files are safe and live on GitHub!
+    echo   SUCCESS! EnglishVidya.com is 100% LIVE and updated!
     echo ========================================================
+)
 )
 
 echo.

@@ -1,0 +1,31 @@
+{
+    "word": "Apricot",
+    "slug": "apricot",
+    "pron": "एप्रिकॉट",
+    "meaning": "खुबानी",
+    "usages": [
+        {
+            "partOfSpeech": "Noun",
+            "definition": "A small, round, yellowish-orange fruit with a stone and soft flesh.",
+            "examples": [
+                {
+                    "en": "We bought some dried apricots from the market.",
+                    "hi": "हमने बाज़ार से कुछ सूखी खुबानी खरीदी।"
+                },
+                {
+                    "en": "The apricot jam was delicious.",
+                    "hi": "खुबानी का जैम स्वादिष्ट था।"
+                }
+            ]
+        }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [
+        "dried apricot",
+        "fresh apricot",
+        "apricot jam"
+    ],
+    "category": "fruits",
+    "hasTranslations": true
+}

@@ -1,0 +1,32 @@
+{
+    "word": "Custard Apple",
+    "slug": "custard-apple",
+    "pron": "कस्टर्ड ऐपल",
+    "meaning": "सीताफल / शरीफा",
+    "usages": [
+        {
+            "partOfSpeech": "Noun",
+            "definition": "A tropical fruit with a scaly green skin and sweet, soft, creamy flesh.",
+            "examples": [
+                {
+                    "en": "Custard apple is very sweet and creamy.",
+                    "hi": "सीताफल बहुत मीठा और मलाईदार होता है।"
+                },
+                {
+                    "en": "You have to spit out the seeds while eating a custard apple.",
+                    "hi": "सीताफल खाते समय आपको इसके बीज थूकने पड़ते हैं।"
+                }
+            ]
+        }
+    ],
+    "synonyms": [
+        "sugar apple"
+    ],
+    "antonyms": [],
+    "collocations": [
+        "ripe custard apple",
+        "custard apple pulp"
+    ],
+    "category": "fruits",
+    "hasTranslations": true
+}

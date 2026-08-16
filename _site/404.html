@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Not Found — English Vidya</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            background-color: #0c1222;
+            color: #f1f5f9;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            text-align: center;
+            padding: 20px;
+        }
+        .error-container {
+            max-width: 480px;
+        }
+        .error-emoji {
+            font-size: 4rem;
+            margin-bottom: 16px;
+        }
+        h1 {
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin-bottom: 12px;
+            background: linear-gradient(135deg, #60a5fa, #a78bfa);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        p {
+            color: #94a3b8;
+            line-height: 1.7;
+            font-size: 0.95rem;
+            margin-bottom: 24px;
+        }
+        .back-btn {
+            display: inline-block;
+            padding: 12px 28px;
+            background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+            color: #fff;
+            border: none;
+            border-radius: 10px;
+            font-size: 1rem;
+            font-weight: 600;
+            text-decoration: none;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .back-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 20px rgba(59, 130, 246, 0.4);
+        }
+    </style>
+</head>
+<body>
+    <div class="error-container">
+        <div class="error-emoji">🔍</div>
+        <h1>Page Not Found</h1>
+        <p>
+            यह page उपलब्ध नहीं है।<br>
+            शायद URL गलत है, या यह page हटा दिया गया है।
+        </p>
+        <a href="/" class="back-btn">🏠 Home पर जाएँ</a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,297 @@
+{
+    "word": "Apple",
+    "slug": "apple",
+    "category": "fruits",
+    "translations": [
+        {
+            "tense": "To Be - Present Affirmative",
+            "en": "This is an apple.",
+            "hi": "यह एक सेब है।"
+        },
+        {
+            "tense": "To Be - Present Affirmative (Plural)",
+            "en": "These are apples.",
+            "hi": "ये सेब हैं।"
+        },
+        {
+            "tense": "To Be - Past Affirmative",
+            "en": "That was an apple.",
+            "hi": "वह एक सेब था।"
+        },
+        {
+            "tense": "To Be - Past Affirmative (Plural)",
+            "en": "Those were apples.",
+            "hi": "वे सेब थे।"
+        },
+        {
+            "tense": "To Be - Present Negative",
+            "en": "This is not an apple.",
+            "hi": "यह एक सेब नहीं है।"
+        },
+        {
+            "tense": "To Be - Present Negative (Plural)",
+            "en": "These are not apples.",
+            "hi": "ये सेब नहीं हैं।"
+        },
+        {
+            "tense": "To Be - Present Interrogative",
+            "en": "Is this an apple?",
+            "hi": "क्या यह एक सेब है?"
+        },
+        {
+            "tense": "To Be - Present Interrogative (Plural)",
+            "en": "Are these apples?",
+            "hi": "क्या ये सेब हैं?"
+        },
+        {
+            "tense": "To Be - Past Interrogative",
+            "en": "Was that an apple?",
+            "hi": "क्या वह एक सेब था?"
+        },
+        {
+            "tense": "To Be - Wh-Question",
+            "en": "Where is the apple?",
+            "hi": "सेब कहाँ है?"
+        },
+        {
+            "tense": "To Be - Wh-Question (Plural)",
+            "en": "Where are the apples?",
+            "hi": "सेब कहाँ हैं?"
+        },
+        {
+            "tense": "To Be - Wh-Question (Why)",
+            "en": "Why is this apple here?",
+            "hi": "यह सेब यहाँ क्यों है?"
+        },
+        {
+            "tense": "To Have - Present Affirmative",
+            "en": "I have an apple.",
+            "hi": "मेरे पास एक सेब है।"
+        },
+        {
+            "tense": "To Have - Present Affirmative (Plural)",
+            "en": "I have many apples.",
+            "hi": "मेरे पास कई सेब हैं।"
+        },
+        {
+            "tense": "To Have - Past Affirmative",
+            "en": "I had an apple.",
+            "hi": "मेरे पास एक सेब था।"
+        },
+        {
+            "tense": "To Have - Present Negative",
+            "en": "I don't have an apple.",
+            "hi": "मेरे पास सेब नहीं है।"
+        },
+        {
+            "tense": "To Have - Present Interrogative",
+            "en": "Do you have an apple?",
+            "hi": "क्या तुम्हारे पास एक सेब है?"
+        },
+        {
+            "tense": "To Have - Past Interrogative",
+            "en": "Did you have an apple?",
+            "hi": "क्या तुम्हारे पास एक सेब था?"
+        },
+        {
+            "tense": "To Have - Wh-Question",
+            "en": "How many apples do you have?",
+            "hi": "तुम्हारे पास कितने सेब हैं?"
+        },
+        {
+            "tense": "Simple Present - Affirmative",
+            "en": "I eat an apple every day.",
+            "hi": "मैं हर दिन एक सेब खाता हूँ।"
+        },
+        {
+            "tense": "Simple Present - Negative",
+            "en": "I don't eat apples.",
+            "hi": "मैं सेब नहीं खाता हूँ।"
+        },
+        {
+            "tense": "Simple Present - Interrogative",
+            "en": "Do you eat apples?",
+            "hi": "क्या तुम सेब खाते हो?"
+        },
+        {
+            "tense": "Simple Present - Wh-Question",
+            "en": "When do you eat an apple?",
+            "hi": "तुम सेब कब खाते हो?"
+        },
+        {
+            "tense": "Present Continuous - Affirmative",
+            "en": "I am eating an apple.",
+            "hi": "मैं एक सेब खा रहा हूँ।"
+        },
+        {
+            "tense": "Present Continuous - Negative",
+            "en": "I am not eating an apple.",
+            "hi": "मैं सेब नहीं खा रहा हूँ।"
+        },
+        {
+            "tense": "Present Continuous - Interrogative",
+            "en": "Are you eating an apple?",
+            "hi": "क्या तुम सेब खा रहे हो?"
+        },
+        {
+            "tense": "Present Continuous - Wh-Question",
+            "en": "Why are you eating my apple?",
+            "hi": "तुम मेरा सेब क्यों खा रहे हो?"
+        },
+        {
+            "tense": "Present Perfect - Affirmative",
+            "en": "I have eaten the apple.",
+            "hi": "मैंने सेब खा लिया है।"
+        },
+        {
+            "tense": "Present Perfect - Negative",
+            "en": "I have not eaten the apple.",
+            "hi": "मैंने सेब नहीं खाया है।"
+        },
+        {
+            "tense": "Present Perfect - Interrogative",
+            "en": "Have you eaten the apple?",
+            "hi": "क्या तुमने सेब खा लिया है?"
+        },
+        {
+            "tense": "Simple Past - Affirmative",
+            "en": "I bought an apple yesterday.",
+            "hi": "मैंने कल एक सेब खरीदा था।"
+        },
+        {
+            "tense": "Simple Past - Negative",
+            "en": "I didn't buy an apple.",
+            "hi": "मैंने सेब नहीं खरीदा।"
+        },
+        {
+            "tense": "Simple Past - Interrogative",
+            "en": "Did you buy an apple?",
+            "hi": "क्या तुमने एक सेब खरीदा?"
+        },
+        {
+            "tense": "Simple Past - Wh-Question",
+            "en": "Where did you buy this apple?",
+            "hi": "तुमने यह सेब कहाँ से खरीदा?"
+        },
+        {
+            "tense": "Past Continuous - Affirmative",
+            "en": "I was eating an apple when you called.",
+            "hi": "जब तुमने फोन किया तब मैं एक सेब खा रहा था।"
+        },
+        {
+            "tense": "Past Continuous - Interrogative",
+            "en": "Were you eating an apple?",
+            "hi": "क्या तुम एक सेब खा रहे थे?"
+        },
+        {
+            "tense": "Simple Future - Affirmative",
+            "en": "I will eat an apple tomorrow.",
+            "hi": "मैं कल एक सेब खाऊँगा।"
+        },
+        {
+            "tense": "Simple Future - Negative",
+            "en": "I will not eat the apple.",
+            "hi": "मैं वह सेब नहीं खाऊँगा।"
+        },
+        {
+            "tense": "Simple Future - Interrogative",
+            "en": "Will you eat this apple?",
+            "hi": "क्या तुम यह सेब खाओगे?"
+        },
+        {
+            "tense": "Modal - Can",
+            "en": "Can you peel this apple?",
+            "hi": "क्या तुम यह सेब छील सकते हो?"
+        },
+        {
+            "tense": "Modal - Should",
+            "en": "You should eat an apple.",
+            "hi": "तुम्हें एक सेब खाना चाहिए।"
+        },
+        {
+            "tense": "Modal - Must",
+            "en": "You must buy fresh apples.",
+            "hi": "तुम्हें ताज़े सेब ही खरीदने चाहिए।"
+        },
+        {
+            "tense": "Modal - May",
+            "en": "May I have an apple?",
+            "hi": "क्या मैं एक सेब ले सकता हूँ?"
+        },
+        {
+            "tense": "Modal - Would",
+            "en": "Would you like an apple?",
+            "hi": "क्या आप एक सेब लेना पसंद करेंगे?"
+        },
+        {
+            "tense": "Imperative - Affirmative",
+            "en": "Eat this apple.",
+            "hi": "यह सेब खाओ।"
+        },
+        {
+            "tense": "Imperative - Negative",
+            "en": "Don't eat that apple.",
+            "hi": "वह सेब मत खाओ।"
+        },
+        {
+            "tense": "Passive Voice - Present",
+            "en": "The apple is eaten.",
+            "hi": "सेब खाया जाता है।"
+        },
+        {
+            "tense": "Passive Voice - Past",
+            "en": "The apple was eaten by him.",
+            "hi": "सेब उसके द्वारा खाया गया था।"
+        },
+        {
+            "tense": "Location/Preposition",
+            "en": "The apple is on the table.",
+            "hi": "सेब मेज़ पर है।"
+        },
+        {
+            "tense": "Location/Preposition",
+            "en": "There is a apple in the basket.",
+            "hi": "टोकरी में एक सेब है।"
+        },
+        {
+            "tense": "Location/Preposition",
+            "en": "The monkey is holding a apple.",
+            "hi": "बंदर ने एक सेब पकड़ा हुआ है।"
+        },
+        {
+            "tense": "Adjective Use",
+            "en": "This apple is sweet.",
+            "hi": "यह सेब मीठा है।"
+        },
+        {
+            "tense": "Adjective Use",
+            "en": "That apple is rotten.",
+            "hi": "वह सेब सड़ा हुआ है।"
+        },
+        {
+            "tense": "Adjective Use",
+            "en": "I need a ripe apple.",
+            "hi": "मुझे एक पका हुआ सेब चाहिए।"
+        },
+        {
+            "tense": "Action - Cutting",
+            "en": "I am cutting the apple.",
+            "hi": "मैं सेब काट रहा हूँ।"
+        },
+        {
+            "tense": "Action - Peeling",
+            "en": "Please peel the apple.",
+            "hi": "कृपया सेब छील दो।"
+        },
+        {
+            "tense": "Action - Buying",
+            "en": "She is buying apples.",
+            "hi": "वह सेब खरीद रही है।"
+        },
+        {
+            "tense": "Action - Washing",
+            "en": "Wash the apple before eating.",
+            "hi": "खाने से पहले सेब धो लो।"
+        }
+    ]
+}

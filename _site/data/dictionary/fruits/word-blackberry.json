@@ -1,0 +1,31 @@
+{
+    "word": "Blackberry",
+    "slug": "blackberry",
+    "pron": "ब्लैकबेरी",
+    "meaning": "ब्लैकबेरी",
+    "usages": [
+        {
+            "partOfSpeech": "Noun",
+            "definition": "An edible soft fruit consisting of a cluster of soft purple-black drupelets.",
+            "examples": [
+                {
+                    "en": "We picked wild blackberries in the forest.",
+                    "hi": "हमने जंगल में जंगली ब्लैकबेरी तोड़ी।"
+                },
+                {
+                    "en": "Blackberry pie is her favorite dessert.",
+                    "hi": "ब्लैकबेरी पाई उसकी पसंदीदा मिठाई है।"
+                }
+            ]
+        }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [
+        "wild blackberry",
+        "blackberry jam",
+        "blackberry bush"
+    ],
+    "category": "fruits",
+    "hasTranslations": true
+}

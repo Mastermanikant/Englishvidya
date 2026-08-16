@@ -1,0 +1,32 @@
+{
+    "word": "Apple",
+    "slug": "apple",
+    "pron": "ऐपल",
+    "meaning": "सेब",
+    "usages": [
+        {
+            "partOfSpeech": "Noun",
+            "definition": "A round fruit with red or green skin and a whitish interior.",
+            "examples": [
+                {
+                    "en": "An apple a day keeps the doctor away.",
+                    "hi": "रोजाना एक सेब खाने से डॉक्टर दूर रहता है। (💡 अर्थ: यह मुहावरा फलों के दैनिक सेवन के स्वास्थ्य लाभों को उजागर करता है। अच्छे स्वास्थ्य का महत्व ही इस कहावत का सार है।)"
+                },
+                {
+                    "en": "She sliced the apple with a knife.",
+                    "hi": "उसने चाकू से सेब काटा।"
+                }
+            ]
+        }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [
+        "eat an apple",
+        "peel an apple",
+        "apple pie",
+        "rotten apple"
+    ],
+    "category": "fruits",
+    "hasTranslations": true
+}

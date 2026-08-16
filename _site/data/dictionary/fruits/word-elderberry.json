@@ -1,0 +1,30 @@
+{
+    "word": "Elderberry",
+    "slug": "elderberry",
+    "pron": "एल्डरबेरी",
+    "meaning": "एल्डरबेरी",
+    "usages": [
+        {
+            "partOfSpeech": "Noun",
+            "definition": "A small dark purple berry that is used to make wine and jelly.",
+            "examples": [
+                {
+                    "en": "Elderberry syrup is often used as a natural remedy for colds.",
+                    "hi": "एल्डरबेरी सिरप का उपयोग अक्सर सर्दी के लिए प्राकृतिक उपचार के रूप में किया जाता है।"
+                },
+                {
+                    "en": "They made elderberry wine from the harvest.",
+                    "hi": "उन्होंने फसल से एल्डरबेरी वाइन बनाई।"
+                }
+            ]
+        }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [
+        "elderberry syrup",
+        "elderberry wine"
+    ],
+    "category": "fruits",
+    "hasTranslations": true
+}

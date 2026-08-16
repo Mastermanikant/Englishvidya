@@ -1,0 +1,297 @@
+{
+    "word": "Peach",
+    "slug": "peach",
+    "category": "fruits",
+    "translations": [
+        {
+            "tense": "To Be - Present Affirmative",
+            "en": "This is a peach.",
+            "hi": "यह एक आड़ू है।"
+        },
+        {
+            "tense": "To Be - Present Affirmative (Plural)",
+            "en": "These are peaches.",
+            "hi": "ये आड़ू हैं।"
+        },
+        {
+            "tense": "To Be - Past Affirmative",
+            "en": "That was a peach.",
+            "hi": "वह एक आड़ू था।"
+        },
+        {
+            "tense": "To Be - Past Affirmative (Plural)",
+            "en": "Those were peaches.",
+            "hi": "वे आड़ू थे।"
+        },
+        {
+            "tense": "To Be - Present Negative",
+            "en": "This is not a peach.",
+            "hi": "यह एक आड़ू नहीं है।"
+        },
+        {
+            "tense": "To Be - Present Negative (Plural)",
+            "en": "These are not peaches.",
+            "hi": "ये आड़ू नहीं हैं।"
+        },
+        {
+            "tense": "To Be - Present Interrogative",
+            "en": "Is this a peach?",
+            "hi": "क्या यह एक आड़ू है?"
+        },
+        {
+            "tense": "To Be - Present Interrogative (Plural)",
+            "en": "Are these peaches?",
+            "hi": "क्या ये आड़ू हैं?"
+        },
+        {
+            "tense": "To Be - Past Interrogative",
+            "en": "Was that a peach?",
+            "hi": "क्या वह एक आड़ू था?"
+        },
+        {
+            "tense": "To Be - Wh-Question",
+            "en": "Where is the peach?",
+            "hi": "आड़ू कहाँ है?"
+        },
+        {
+            "tense": "To Be - Wh-Question (Plural)",
+            "en": "Where are the peaches?",
+            "hi": "आड़ू कहाँ हैं?"
+        },
+        {
+            "tense": "To Be - Wh-Question (Why)",
+            "en": "Why is this peach here?",
+            "hi": "यह आड़ू यहाँ क्यों है?"
+        },
+        {
+            "tense": "To Have - Present Affirmative",
+            "en": "I have a peach.",
+            "hi": "मेरे पास एक आड़ू है।"
+        },
+        {
+            "tense": "To Have - Present Affirmative (Plural)",
+            "en": "I have many peaches.",
+            "hi": "मेरे पास कई आड़ू हैं।"
+        },
+        {
+            "tense": "To Have - Past Affirmative",
+            "en": "I had a peach.",
+            "hi": "मेरे पास एक आड़ू था।"
+        },
+        {
+            "tense": "To Have - Present Negative",
+            "en": "I don't have a peach.",
+            "hi": "मेरे पास आड़ू नहीं है।"
+        },
+        {
+            "tense": "To Have - Present Interrogative",
+            "en": "Do you have a peach?",
+            "hi": "क्या तुम्हारे पास एक आड़ू है?"
+        },
+        {
+            "tense": "To Have - Past Interrogative",
+            "en": "Did you have a peach?",
+            "hi": "क्या तुम्हारे पास एक आड़ू था?"
+        },
+        {
+            "tense": "To Have - Wh-Question",
+            "en": "How many peaches do you have?",
+            "hi": "तुम्हारे पास कितने आड़ू हैं?"
+        },
+        {
+            "tense": "Simple Present - Affirmative",
+            "en": "I eat a peach every day.",
+            "hi": "मैं हर दिन एक आड़ू खाता हूँ।"
+        },
+        {
+            "tense": "Simple Present - Negative",
+            "en": "I don't eat peaches.",
+            "hi": "मैं आड़ू नहीं खाता हूँ।"
+        },
+        {
+            "tense": "Simple Present - Interrogative",
+            "en": "Do you eat peaches?",
+            "hi": "क्या तुम आड़ू खाते हो?"
+        },
+        {
+            "tense": "Simple Present - Wh-Question",
+            "en": "When do you eat a peach?",
+            "hi": "तुम आड़ू कब खाते हो?"
+        },
+        {
+            "tense": "Present Continuous - Affirmative",
+            "en": "I am eating a peach.",
+            "hi": "मैं एक आड़ू खा रहा हूँ।"
+        },
+        {
+            "tense": "Present Continuous - Negative",
+            "en": "I am not eating a peach.",
+            "hi": "मैं आड़ू नहीं खा रहा हूँ।"
+        },
+        {
+            "tense": "Present Continuous - Interrogative",
+            "en": "Are you eating a peach?",
+            "hi": "क्या तुम आड़ू खा रहे हो?"
+        },
+        {
+            "tense": "Present Continuous - Wh-Question",
+            "en": "Why are you eating my peach?",
+            "hi": "तुम मेरा आड़ू क्यों खा रहे हो?"
+        },
+        {
+            "tense": "Present Perfect - Affirmative",
+            "en": "I have eaten the peach.",
+            "hi": "मैंने आड़ू खा लिया है।"
+        },
+        {
+            "tense": "Present Perfect - Negative",
+            "en": "I have not eaten the peach.",
+            "hi": "मैंने आड़ू नहीं खाया है।"
+        },
+        {
+            "tense": "Present Perfect - Interrogative",
+            "en": "Have you eaten the peach?",
+            "hi": "क्या तुमने आड़ू खा लिया है?"
+        },
+        {
+            "tense": "Simple Past - Affirmative",
+            "en": "I bought a peach yesterday.",
+            "hi": "मैंने कल एक आड़ू खरीदा था।"
+        },
+        {
+            "tense": "Simple Past - Negative",
+            "en": "I didn't buy a peach.",
+            "hi": "मैंने आड़ू नहीं खरीदा।"
+        },
+        {
+            "tense": "Simple Past - Interrogative",
+            "en": "Did you buy a peach?",
+            "hi": "क्या तुमने एक आड़ू खरीदा?"
+        },
+        {
+            "tense": "Simple Past - Wh-Question",
+            "en": "Where did you buy this peach?",
+            "hi": "तुमने यह आड़ू कहाँ से खरीदा?"
+        },
+        {
+            "tense": "Past Continuous - Affirmative",
+            "en": "I was eating a peach when you called.",
+            "hi": "जब तुमने फोन किया तब मैं एक आड़ू खा रहा था।"
+        },
+        {
+            "tense": "Past Continuous - Interrogative",
+            "en": "Were you eating a peach?",
+            "hi": "क्या तुम एक आड़ू खा रहे थे?"
+        },
+        {
+            "tense": "Simple Future - Affirmative",
+            "en": "I will eat a peach tomorrow.",
+            "hi": "मैं कल एक आड़ू खाऊँगा।"
+        },
+        {
+            "tense": "Simple Future - Negative",
+            "en": "I will not eat the peach.",
+            "hi": "मैं वह आड़ू नहीं खाऊँगा।"
+        },
+        {
+            "tense": "Simple Future - Interrogative",
+            "en": "Will you eat this peach?",
+            "hi": "क्या तुम यह आड़ू खाओगे?"
+        },
+        {
+            "tense": "Modal - Can",
+            "en": "Can you peel this peach?",
+            "hi": "क्या तुम यह आड़ू छील सकते हो?"
+        },
+        {
+            "tense": "Modal - Should",
+            "en": "You should eat a peach.",
+            "hi": "तुम्हें एक आड़ू खाना चाहिए।"
+        },
+        {
+            "tense": "Modal - Must",
+            "en": "You must buy fresh peaches.",
+            "hi": "तुम्हें ताज़े आड़ू ही खरीदने चाहिए।"
+        },
+        {
+            "tense": "Modal - May",
+            "en": "May I have a peach?",
+            "hi": "क्या मैं एक आड़ू ले सकता हूँ?"
+        },
+        {
+            "tense": "Modal - Would",
+            "en": "Would you like a peach?",
+            "hi": "क्या आप एक आड़ू लेना पसंद करेंगे?"
+        },
+        {
+            "tense": "Imperative - Affirmative",
+            "en": "Eat this peach.",
+            "hi": "यह आड़ू खाओ।"
+        },
+        {
+            "tense": "Imperative - Negative",
+            "en": "Don't eat that peach.",
+            "hi": "वह आड़ू मत खाओ।"
+        },
+        {
+            "tense": "Passive Voice - Present",
+            "en": "The peach is eaten.",
+            "hi": "आड़ू खाया जाता है।"
+        },
+        {
+            "tense": "Passive Voice - Past",
+            "en": "The peach was eaten by him.",
+            "hi": "आड़ू उसके द्वारा खाया गया था।"
+        },
+        {
+            "tense": "Location/Preposition",
+            "en": "The peach is on the table.",
+            "hi": "आड़ू मेज़ पर है।"
+        },
+        {
+            "tense": "Location/Preposition",
+            "en": "There is a peach in the basket.",
+            "hi": "टोकरी में एक आड़ू है।"
+        },
+        {
+            "tense": "Location/Preposition",
+            "en": "The monkey is holding a peach.",
+            "hi": "बंदर ने एक आड़ू पकड़ा हुआ है।"
+        },
+        {
+            "tense": "Adjective Use",
+            "en": "This peach is sweet.",
+            "hi": "यह आड़ू मीठा है।"
+        },
+        {
+            "tense": "Adjective Use",
+            "en": "That peach is rotten.",
+            "hi": "वह आड़ू सड़ा हुआ है।"
+        },
+        {
+            "tense": "Adjective Use",
+            "en": "I need a ripe peach.",
+            "hi": "मुझे एक पका हुआ आड़ू चाहिए।"
+        },
+        {
+            "tense": "Action - Cutting",
+            "en": "I am cutting the peach.",
+            "hi": "मैं आड़ू काट रहा हूँ।"
+        },
+        {
+            "tense": "Action - Peeling",
+            "en": "Please peel the peach.",
+            "hi": "कृपया आड़ू छील दो।"
+        },
+        {
+            "tense": "Action - Buying",
+            "en": "She is buying peaches.",
+            "hi": "वह आड़ू खरीद रही है।"
+        },
+        {
+            "tense": "Action - Washing",
+            "en": "Wash the peach before eating.",
+            "hi": "खाने से पहले आड़ू धो लो।"
+        }
+    ]
+}
