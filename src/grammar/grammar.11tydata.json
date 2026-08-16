@@ -1,8 +1,18 @@
 {
-  "tags": ["article", "grammar"],
+  "tags": [
+    "article",
+    "grammar"
+  ],
   "layout": "layouts/article.njk",
+  "noindex": true,
   "breadcrumbs": [
-    { "label": "Home", "url": "/" },
-    { "label": "Grammar", "url": "/grammar/" }
+    {
+      "label": "Home",
+      "url": "/"
+    },
+    {
+      "label": "Grammar",
+      "url": "/grammar/"
+    }
   ]
 }

@@ -9,8 +9,11 @@
   <title>{{ pageTitle or title or site.siteName }}</title>
   <meta name="description" content="{{ metaDescription or description or site.siteDescription }}">
   <link rel="canonical" href="{{ site.canonicalBase }}{{ page.url }}">
+  {# ── Robots Meta ── #}
   {% if noindex %}
-  <meta name="robots" content="noindex">
+  <meta name="robots" content="noindex, follow">
+  {% else %}
+  <meta name="robots" content="index, follow">
   {% endif %}
 
   {# OpenGraph & Twitter Cards #}

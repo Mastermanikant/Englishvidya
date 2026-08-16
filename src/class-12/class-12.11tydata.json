@@ -1,8 +1,18 @@
 {
-  "tags": ["article", "class-12"],
+  "tags": [
+    "class12",
+    "biharboard"
+  ],
   "layout": "layouts/article.njk",
+  "noindex": true,
   "breadcrumbs": [
-    { "label": "Home", "url": "/" },
-    { "label": "Class 12th", "url": "/class-12/" }
+    {
+      "label": "Home",
+      "url": "/"
+    },
+    {
+      "label": "Class 12th English",
+      "url": "/class-12/"
+    }
   ]
 }
