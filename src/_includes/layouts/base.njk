@@ -113,6 +113,8 @@
   
   {% if page.url and '/my-diary' in page.url %}
   <script src="/js/diary.js?v=2.1.0" defer></script>
+  {% endif %}
+  
   {{ extraScripts | safe }}
   
   {# ── Stale Service Worker Unregister & Fresh Sync ── #}
