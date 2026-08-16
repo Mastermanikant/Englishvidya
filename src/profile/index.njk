@@ -119,7 +119,7 @@ schemaJson: |
 </div>
 
 <script>
-document.addEventListener('DOMContentLoaded', async () => {
+(function() {
   const guestBanner = document.getElementById('guest-banner');
   const actionBtn = document.getElementById('profile-action-btn');
   const nameEl = document.getElementById('user-name');
@@ -127,7 +127,31 @@ document.addEventListener('DOMContentLoaded', async () => {
   const roleEl = document.getElementById('user-role-badge');
   const avatarEl = document.getElementById('user-avatar');
 
-  // Load saved local stats
+  function renderUserData(u) {
+    if (!u) return;
+    if (nameEl) nameEl.textContent = u.name || 'Student';
+    if (emailEl) emailEl.textContent = u.email || '';
+    if (roleEl) roleEl.textContent = (u.role || 'Learner').toUpperCase();
+    if (avatarEl && u.avatar_url) avatarEl.src = u.avatar_url;
+    
+    if (guestBanner) guestBanner.style.display = 'none';
+    if (actionBtn) {
+      actionBtn.textContent = 'लॉगआउट';
+      actionBtn.href = '/api/auth-logout';
+      actionBtn.className = 'px-4 py-2 rounded-xl bg-base border border-border hover:border-rose-500/40 text-xs font-semibold text-rose-500 hover:bg-rose-500/10 transition-all';
+      actionBtn.onclick = (e) => {
+        try { localStorage.removeItem('ev_cached_user'); } catch (err) {}
+      };
+    }
+  }
+
+  // 1. Instant rendering from cache
+  try {
+    const cached = localStorage.getItem('ev_cached_user');
+    if (cached) renderUserData(JSON.parse(cached));
+  } catch (e) {}
+
+  // 2. Local stats
   try {
     const savedWords = JSON.parse(localStorage.getItem('ev_diary_words') || '[]');
     const statWords = document.getElementById('stat-words');
@@ -138,28 +162,26 @@ document.addEventListener('DOMContentLoaded', async () => {
     if (statChapters) statChapters.textContent = savedBookmarks.length;
   } catch (e) {}
 
-  // Check login state via API
-  try {
-    const res = await fetch('/api/auth-me?_t=' + Date.now(), { cache: 'no-store' });
-    if (res.ok) {
-      const data = await res.json();
-      if (data.loggedIn && data.user) {
-        const u = data.user;
-        if (nameEl) nameEl.textContent = u.name || 'Student';
-        if (emailEl) emailEl.textContent = u.email || '';
-        if (roleEl) roleEl.textContent = (u.role || 'Learner').toUpperCase();
-        if (avatarEl && u.avatar_url) avatarEl.src = u.avatar_url;
-        
-        if (guestBanner) guestBanner.style.display = 'none';
-        if (actionBtn) {
-          actionBtn.textContent = 'लॉगआउट';
-          actionBtn.href = '/api/auth-logout';
-          actionBtn.className = 'px-4 py-2 rounded-xl bg-base border border-border hover:border-rose-500/40 text-xs font-semibold text-rose-500 hover:bg-rose-500/10 transition-all';
+  // 3. Live server sync
+  async function refreshServerAuth() {
+    try {
+      const res = await fetch('/api/auth-me?_t=' + Date.now(), { cache: 'no-store' });
+      if (res.ok) {
+        const data = await res.json();
+        if (data.loggedIn && data.user) {
+          try { localStorage.setItem('ev_cached_user', JSON.stringify(data.user)); } catch (e) {}
+          renderUserData(data.user);
+        } else {
+          try { localStorage.removeItem('ev_cached_user'); } catch (e) {}
         }
       }
-    }
-  } catch (err) {
-    console.warn('Auth status check offline/guest:', err);
+    } catch (err) {}
   }
-});
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', refreshServerAuth);
+  } else {
+    refreshServerAuth();
+  }
+})();
 </script>

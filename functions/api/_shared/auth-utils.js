@@ -36,19 +36,11 @@ export async function verifyPasswordPBKDF2(password, storedHashStr) {
   return cryptoTimingSafeEqual(derivedHex, hashHex);
 }
 
-export async function hashSHA256(password) {
-  const encoder = new TextEncoder();
-  const data = encoder.encode(password);
-  const hashBuffer = await crypto.subtle.digest('SHA-256', data);
-  const hashArray = Array.from(new Uint8Array(hashBuffer));
-  return hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
-}
-
 export function cryptoTimingSafeEqual(a, b) {
   if (typeof a !== 'string' || typeof b !== 'string') return false;
   let result = 0;
   if (a.length !== b.length) {
-    b = a; // to ensure same length loop but will fail at the end
+    b = a;
     result = 1;
   }
   for (let i = 0; i < a.length; i++) {
@@ -58,13 +50,17 @@ export function cryptoTimingSafeEqual(a, b) {
 }
 
 // --- JWT Helpers ---
-export async function createJWT(payload, secret, expiresInSeconds) {
+export async function createJWT(payload, secret, expiresInSeconds = 7 * 24 * 3600) {
   const header = { alg: 'HS256', typ: 'JWT' };
-  payload.exp = Math.floor(Date.now() / 1000) + expiresInSeconds;
-  payload.iat = Math.floor(Date.now() / 1000);
+  const now = Math.floor(Date.now() / 1000);
+  const fullPayload = {
+    ...payload,
+    iat: now,
+    exp: now + expiresInSeconds
+  };
 
   const headerB64 = btoa(JSON.stringify(header)).replace(/=/g, '').replace(/\+/g, '-').replace(/\//g, '_');
-  const payloadB64 = btoa(JSON.stringify(payload)).replace(/=/g, '').replace(/\+/g, '-').replace(/\//g, '_');
+  const payloadB64 = btoa(unescape(encodeURIComponent(JSON.stringify(fullPayload)))).replace(/=/g, '').replace(/\+/g, '-').replace(/\//g, '_');
 
   const data = headerB64 + '.' + payloadB64;
   const key = await crypto.subtle.importKey(
@@ -99,47 +95,24 @@ export async function verifyJWT(token, secret) {
 
     let paddedPayload = payloadB64.replace(/-/g, '+').replace(/_/g, '/');
     while (paddedPayload.length % 4) paddedPayload += '=';
-    const payload = JSON.parse(atob(paddedPayload));
+    const payloadJson = decodeURIComponent(escape(atob(paddedPayload)));
+    const payload = JSON.parse(payloadJson);
 
-    if (payload.exp && Math.floor(Date.now() / 1000) > payload.exp) return null;
+    if (payload.exp && payload.exp < Math.floor(Date.now() / 1000)) {
+      return null;
+    }
+
     return payload;
-  } catch (err) {
-    console.error('verifyJWT error:', err);
+  } catch (e) {
     return null;
   }
 }
 
-// --- Security Helpers ---
-export function generateSecureOTP(length = 6) {
-  const array = new Uint32Array(1);
-  const maxSafeValue = Math.floor(4294967295 / Math.pow(10, length)) * Math.pow(10, length);
-  let randomVal;
-  do {
-    crypto.getRandomValues(array);
-    randomVal = array[0];
-  } while (randomVal >= maxSafeValue);
-  
-  return (randomVal % Math.pow(10, length)).toString().padStart(length, '0');
-}
-
 export function validateRedirectUrl(url) {
-  if (!url || typeof url !== 'string') return '/';
-  
-  // Only allow relative URLs starting with '/' but not '//'
-  if (url.startsWith('/') && !url.startsWith('//')) {
-    return url;
+  if (!url || typeof url !== 'string') return '/profile/';
+  const trimmed = url.trim();
+  if (trimmed.startsWith('/') && !trimmed.startsWith('//') && !trimmed.includes('\\')) {
+    return trimmed;
   }
-  
-  return '/';
-}
-
-export function isStrongPassword(password) {
-  if (!password || password.length < 8) return false;
-  // Let's enforce 8 chars minimum, but no special characters required for now so users don't get frustrated, 
-  // since this is an education platform. But we can require at least a mix.
-  return true; // We will handle exact requirements in the endpoint to give proper error messages
-}
-
-export function getGenericErrorMsg() {
-  return 'Something went wrong. Please try again later.';
+  return '/profile/';
 }

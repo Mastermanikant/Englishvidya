@@ -1,5 +1,5 @@
 export async function onRequestGet(context) {
-  const user = context.data.user;
+  const user = context.data?.user;
   const noCacheHeaders = {
     'Content-Type': 'application/json',
     'Cache-Control': 'no-store, no-cache, must-revalidate, max-age=0',
@@ -17,23 +17,11 @@ export async function onRequestGet(context) {
   return new Response(JSON.stringify({
     loggedIn: true,
     user: {
-      id: user.id,
-      name: user.name,
-      username: user.username,
-      email: user.email,
-      avatar_url: user.avatar_url,
-      trust_score: user.trust_score,
-      social_instagram: user.social_instagram,
-      social_facebook: user.social_facebook,
-      social_youtube: user.social_youtube,
-      social_twitter: user.social_twitter,
-      social_linkedin: user.social_linkedin,
-      social_pinterest: user.social_pinterest,
-      social_website1: user.social_website1,
-      social_website2: user.social_website2,
-      delete_requested_at: user.delete_requested_at,
-      has_accepted_rules: user.has_accepted_rules,
-      location_address: user.location_address
+      id: user.id || 1,
+      name: user.name || 'Student',
+      email: user.email || '',
+      avatar_url: user.avatar_url || '',
+      role: user.role || 'learner'
     }
   }), {
     status: 200,
