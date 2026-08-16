@@ -16,8 +16,8 @@ echo [2/3] Committing changes...
 git commit -m "Backup and Live Update: %date% %time%"
 
 echo.
-echo [3/3] Pushing to GitHub (origin main)...
-git push origin main
+echo [3/3] Pushing to GitHub (origin main and origin master)...
+git push origin main master
 if %errorlevel% neq 0 (
     echo.
     echo [!] Warning: Push failed or remote origin is not connected.
