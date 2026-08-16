@@ -1,0 +1,352 @@
+[
+  {
+    "slug": "apple",
+    "word": "Apple",
+    "meaning": "सेब",
+    "pron": "ऐपल",
+    "category": "fruits"
+  },
+  {
+    "slug": "banana",
+    "word": "Banana",
+    "meaning": "केला",
+    "pron": "बनाना",
+    "category": "fruits"
+  },
+  {
+    "slug": "mango",
+    "word": "Mango",
+    "meaning": "आम",
+    "pron": "मैंगो",
+    "category": "fruits"
+  },
+  {
+    "slug": "orange",
+    "word": "Orange",
+    "meaning": "संतरा / नारंगी",
+    "pron": "ऑरेंज",
+    "category": "fruits"
+  },
+  {
+    "slug": "grapes",
+    "word": "Grapes",
+    "meaning": "अंगूर",
+    "pron": "ग्रेप्स",
+    "category": "fruits"
+  },
+  {
+    "slug": "watermelon",
+    "word": "Watermelon",
+    "meaning": "तरबूज",
+    "pron": "वाटरमेलन",
+    "category": "fruits"
+  },
+  {
+    "slug": "papaya",
+    "word": "Papaya",
+    "meaning": "पपीता",
+    "pron": "पपाया",
+    "category": "fruits"
+  },
+  {
+    "slug": "guava",
+    "word": "Guava",
+    "meaning": "अमरूद",
+    "pron": "ग्वावा",
+    "category": "fruits"
+  },
+  {
+    "slug": "pineapple",
+    "word": "Pineapple",
+    "meaning": "अनानास",
+    "pron": "पाइनएप्पल",
+    "category": "fruits"
+  },
+  {
+    "slug": "pomegranate",
+    "word": "Pomegranate",
+    "meaning": "अनार",
+    "pron": "पोमग्रेनेट",
+    "category": "fruits"
+  },
+  {
+    "slug": "muskmelon",
+    "word": "Muskmelon",
+    "meaning": "खरबूजा",
+    "pron": "मस्कमेलन",
+    "category": "fruits"
+  },
+  {
+    "slug": "lemon",
+    "word": "Lemon",
+    "meaning": "नींबू",
+    "pron": "लेमन",
+    "category": "fruits"
+  },
+  {
+    "slug": "coconut",
+    "word": "Coconut",
+    "meaning": "नारियल",
+    "pron": "कोकोनट",
+    "category": "fruits"
+  },
+  {
+    "slug": "sweet-lime",
+    "word": "Sweet lime",
+    "meaning": "मौसंबी",
+    "pron": "स्वीट लाइम",
+    "category": "fruits"
+  },
+  {
+    "slug": "pear",
+    "word": "Pear",
+    "meaning": "नाशपाती",
+    "pron": "पेयर",
+    "category": "fruits"
+  },
+  {
+    "slug": "plum",
+    "word": "Plum",
+    "meaning": "आलूबुखारा",
+    "pron": "प्लम",
+    "category": "fruits"
+  },
+  {
+    "slug": "peach",
+    "word": "Peach",
+    "meaning": "आड़ू",
+    "pron": "पीच",
+    "category": "fruits"
+  },
+  {
+    "slug": "lychee",
+    "word": "Lychee",
+    "meaning": "लीची",
+    "pron": "लीची",
+    "category": "fruits"
+  },
+  {
+    "slug": "custard-apple",
+    "word": "Custard Apple",
+    "meaning": "सीताफल / शरीफा",
+    "pron": "कस्टर्ड ऐपल",
+    "category": "fruits"
+  },
+  {
+    "slug": "jackfruit",
+    "word": "Jackfruit",
+    "meaning": "कटहल",
+    "pron": "जैकफ्रूट",
+    "category": "fruits"
+  },
+  {
+    "slug": "sapota",
+    "word": "Sapota",
+    "meaning": "चीकू",
+    "pron": "सपोटा",
+    "category": "fruits"
+  },
+  {
+    "slug": "strawberry",
+    "word": "Strawberry",
+    "meaning": "स्ट्रॉबेरी",
+    "pron": "स्ट्रॉबेरी",
+    "category": "fruits"
+  },
+  {
+    "slug": "cherry",
+    "word": "Cherry",
+    "meaning": "चेरी",
+    "pron": "चेरी",
+    "category": "fruits"
+  },
+  {
+    "slug": "blueberry",
+    "word": "Blueberry",
+    "meaning": "नीलबदरी",
+    "pron": "ब्लूबेरी",
+    "category": "fruits"
+  },
+  {
+    "slug": "kiwi",
+    "word": "Kiwi",
+    "meaning": "कीवी",
+    "pron": "कीवी",
+    "category": "fruits"
+  },
+  {
+    "slug": "avocado",
+    "word": "Avocado",
+    "meaning": "रुचिरा",
+    "pron": "एवोकाडो",
+    "category": "fruits"
+  },
+  {
+    "slug": "fig",
+    "word": "Fig",
+    "meaning": "अंजीर",
+    "pron": "फिग",
+    "category": "fruits"
+  },
+  {
+    "slug": "dates",
+    "word": "Dates",
+    "meaning": "खजूर",
+    "pron": "डेट्स",
+    "category": "fruits"
+  },
+  {
+    "slug": "apricot",
+    "word": "Apricot",
+    "meaning": "खुबानी",
+    "pron": "एप्रिकॉट",
+    "category": "fruits"
+  },
+  {
+    "slug": "mulberry",
+    "word": "Mulberry",
+    "meaning": "शहतूत",
+    "pron": "मलबेरी",
+    "category": "fruits"
+  },
+  {
+    "slug": "blackberry",
+    "word": "Blackberry",
+    "meaning": "ब्लैकबेरी",
+    "pron": "ब्लैकबेरी",
+    "category": "fruits"
+  },
+  {
+    "slug": "cranberry",
+    "word": "Cranberry",
+    "meaning": "करौंदा",
+    "pron": "क्रैनबेरी",
+    "category": "fruits"
+  },
+  {
+    "slug": "raspberry",
+    "word": "Raspberry",
+    "meaning": "रसभरी",
+    "pron": "रास्पबेरी",
+    "category": "fruits"
+  },
+  {
+    "slug": "passion-fruit",
+    "word": "Passion fruit",
+    "meaning": "कृष्णकमल फल",
+    "pron": "पैशन फ्रूट",
+    "category": "fruits"
+  },
+  {
+    "slug": "dragon-fruit",
+    "word": "Dragon fruit",
+    "meaning": "ड्रैगन फ्रूट / पिताया",
+    "pron": "ड्रैगन फ्रूट",
+    "category": "fruits"
+  },
+  {
+    "slug": "gooseberry",
+    "word": "Gooseberry",
+    "meaning": "आंवला",
+    "pron": "गूसबेरी",
+    "category": "fruits"
+  },
+  {
+    "slug": "tamarind",
+    "word": "Tamarind",
+    "meaning": "इमली",
+    "pron": "टैमरिंड",
+    "category": "fruits"
+  },
+  {
+    "slug": "starfruit",
+    "word": "Starfruit",
+    "meaning": "कमरख",
+    "pron": "स्टारफ्रूट",
+    "category": "fruits"
+  },
+  {
+    "slug": "grapefruit",
+    "word": "Grapefruit",
+    "meaning": "चकोतरा",
+    "pron": "ग्रेपफ्रूट",
+    "category": "fruits"
+  },
+  {
+    "slug": "persimmon",
+    "word": "Persimmon",
+    "meaning": "तेंदू फल",
+    "pron": "पर्सिमन",
+    "category": "fruits"
+  },
+  {
+    "slug": "quince",
+    "word": "Quince",
+    "meaning": "सफरजल",
+    "pron": "क्विंस",
+    "category": "fruits"
+  },
+  {
+    "slug": "cantaloupe",
+    "word": "Cantaloupe",
+    "meaning": "खरबूजा",
+    "pron": "कैंटालूप",
+    "category": "fruits"
+  },
+  {
+    "slug": "tangerine",
+    "word": "Tangerine",
+    "meaning": "किन्नू / संतरा",
+    "pron": "टैंजरीन",
+    "category": "fruits"
+  },
+  {
+    "slug": "pomelo",
+    "word": "Pomelo",
+    "meaning": "चकोतरा (बड़ा)",
+    "pron": "पोमेलो",
+    "category": "fruits"
+  },
+  {
+    "slug": "kumquat",
+    "word": "Kumquat",
+    "meaning": "कमक्वैट",
+    "pron": "कुमक़्वात",
+    "category": "fruits"
+  },
+  {
+    "slug": "nectarine",
+    "word": "Nectarine",
+    "meaning": "शफ़तालू / आड़ू की किस्म",
+    "pron": "नेक्टराइन",
+    "category": "fruits"
+  },
+  {
+    "slug": "olive",
+    "word": "Olive",
+    "meaning": "जैतून",
+    "pron": "ऑलिव",
+    "category": "fruits"
+  },
+  {
+    "slug": "elderberry",
+    "word": "Elderberry",
+    "meaning": "एल्डरबेरी",
+    "pron": "एल्डरबेरी",
+    "category": "fruits"
+  },
+  {
+    "slug": "boysenberry",
+    "word": "Boysenberry",
+    "meaning": "बॉयसेनबेरी",
+    "pron": "बॉयसेनबेरी",
+    "category": "fruits"
+  },
+  {
+    "slug": "durian",
+    "word": "Durian",
+    "meaning": "डूरियन",
+    "pron": "ड्यूरियन",
+    "category": "fruits"
+  }
+]

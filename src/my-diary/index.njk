@@ -1,282 +1,267 @@
 ---
 layout: layouts/base.njk
-title: My Learning Diary
+pageTitle: "My Personal English Diary — EnglishVidya"
+metaDescription: "Access your personal vocabulary notebook, saved chapter highlights, and practice custom flashcards on EnglishVidya."
 permalink: /my-diary/
+schemaJson: |
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "My Personal English Diary",
+    "description": "Student vocabulary diary and personalized chapter notebook."
+  }
 ---
 
-<style>
-.diary-container {
-  max-width: 800px;
-  margin: 2rem auto;
-  padding: 1rem;
-  font-family: sans-serif;
-}
-.card {
-  background: var(--bg-raised, #ffffff);
-  border: 1px solid var(--border, #e2e8f0);
-  border-radius: 1rem;
-  padding: 2rem;
-  margin-bottom: 2rem;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
-}
-.input-group {
-  margin-bottom: 1rem;
-}
-.input-group input, .input-group textarea {
-  width: 100%;
-  padding: 0.75rem;
-  border: 1px solid var(--border, #e2e8f0);
-  border-radius: 0.5rem;
-  background: var(--bg-raised, #fff);
-  color: var(--text, #333);
-  font-family: inherit;
-}
-.pill-selector {
-  display: flex;
-  gap: 0.5rem;
-  flex-wrap: wrap;
-  margin-bottom: 1rem;
-}
-.tag-pill {
-  padding: 0.25rem 1rem;
-  border: 1px solid var(--border, #e2e8f0);
-  border-radius: 9999px;
-  background: var(--bg-raised, #fff);
-  color: var(--text, #333);
-  cursor: pointer;
-  font-size: 0.875rem;
-}
-.tag-pill.active {
-  background: var(--accent, #3b82f6);
-  color: white;
-  border-color: var(--accent, #3b82f6);
-}
-.btn-save {
-  background: linear-gradient(90deg, #10b981, #059669);
-  color: white;
-  border: none;
-  padding: 0.75rem 2rem;
-  border-radius: 0.5rem;
-  font-weight: bold;
-  cursor: pointer;
-  width: 100%;
-  font-size: 1.1rem;
-}
-.search-bar {
-  display: flex;
-  gap: 1rem;
-  margin-bottom: 2rem;
-}
-.search-bar input {
-  flex: 1;
-  padding: 0.75rem;
-  border: 1px solid var(--border, #e2e8f0);
-  border-radius: 0.5rem;
-}
-.note-item {
-  border: 1px solid var(--border, #e2e8f0);
-  border-radius: 0.75rem;
-  padding: 1.5rem;
-  margin-bottom: 1rem;
-  background: var(--bg-raised, #fff);
-}
-.note-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 1rem;
-}
-.note-title {
-  margin: 0;
-  font-size: 1.25rem;
-  color: var(--text, #333);
-}
-.note-tag {
-  background: var(--accent, #3b82f6);
-  color: white;
-  padding: 0.2rem 0.75rem;
-  border-radius: 9999px;
-  font-size: 0.75rem;
-}
-.note-content {
-  color: var(--text-muted, #666);
-  white-space: pre-wrap;
-}
-.note-actions {
-  margin-top: 1rem;
-  display: flex;
-  gap: 0.5rem;
-  justify-content: flex-end;
-}
-.btn-small {
-  padding: 0.4rem 1rem;
-  border-radius: 0.25rem;
-  border: none;
-  cursor: pointer;
-  font-size: 0.875rem;
-}
-.btn-edit { background: var(--border, #e2e8f0); color: var(--text, #333); }
-.btn-delete { background: #fee2e2; color: #ef4444; }
-.empty-state {
-  text-align: center;
-  padding: 3rem;
-  color: var(--text-muted, #666);
-}
-</style>
+<div class="max-w-4xl mx-auto py-8 px-4 sm:px-6">
+  
+  <!-- Header Banner -->
+  <div class="p-6 sm:p-8 rounded-3xl bg-raised border border-border/80 mb-8 flex flex-col sm:flex-row items-center justify-between gap-6 shadow-xs">
+    <div>
+      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-accent/10 text-accent text-xs font-bold uppercase tracking-wider mb-2">
+        <span>📓</span> पर्सनल नोटबुक
+      </div>
+      <h1 class="text-2xl sm:text-3xl font-extrabold font-heading text-primary tracking-tight">
+        माय इंग्लिश डायरी (My Diary)
+      </h1>
+      <p class="text-xs sm:text-sm text-secondary mt-1 max-w-xl">
+        आपके द्वारा सेव किए गए सभी कठिन शब्द, महत्वपूर्ण वाक्य और नोट्स यहाँ ऑफलाइन व क्लाउड दोनों पर सुरक्षित रहते हैं।
+      </p>
+    </div>
 
-<div class="diary-container">
-  <div class="card">
-    <h2 style="margin-top:0;">📝 Add New Note</h2>
-    <div class="pill-selector" id="tag-selector">
-      <button class="tag-pill active" onclick="selectTag(this, 'Grammar')">Grammar</button>
-      <button class="tag-pill" onclick="selectTag(this, 'Vocabulary')">Vocabulary</button>
-      <button class="tag-pill" onclick="selectTag(this, 'Class 10')">Class 10</button>
-      <button class="tag-pill" onclick="selectTag(this, 'Class 12')">Class 12</button>
-      <button class="tag-pill" onclick="selectTag(this, 'General')">General</button>
+    <!-- Quick Action -->
+    <div class="flex items-center gap-2 shrink-0">
+      <button id="add-custom-note-btn" class="px-4 py-2.5 rounded-xl bg-accent text-white font-semibold text-xs sm:text-sm hover:bg-accent/90 transition-all flex items-center gap-1.5 shadow-sm">
+        <span>➕ नया शब्द/नोट जोड़ें</span>
+      </button>
     </div>
-    <div class="input-group">
-      <input type="text" id="note-title" placeholder="Note Title...">
-    </div>
-    <div class="input-group">
-      <textarea id="note-content" rows="4" placeholder="अपने नोट्स यहाँ लिखें..."></textarea>
-    </div>
-    <button class="btn-save" onclick="saveNote()">Save Note</button>
   </div>
 
-  <div class="search-bar">
-    <input type="text" id="search-input" placeholder="Search notes..." onkeyup="renderNotes()">
-    <button class="btn-edit" onclick="exportNotes()">Export</button>
+  <!-- Search & Filter Controls -->
+  <div class="flex flex-col sm:flex-row items-center justify-between gap-4 mb-6">
+    <div class="relative w-full sm:w-72">
+      <input type="text" id="diary-search-input" placeholder="डायरी में खोजें..." class="w-full px-4 py-2.5 rounded-xl bg-raised border border-border text-sm text-primary placeholder-secondary focus:outline-none focus:border-accent">
+      <span class="absolute right-3 top-2.5 text-secondary text-sm">🔍</span>
+    </div>
+
+    <!-- Filter Pills -->
+    <div class="flex items-center gap-2 w-full sm:w-auto overflow-x-auto pb-1" id="diary-filter-group">
+      <button class="diary-filter-pill active px-3 py-1.5 rounded-lg text-xs font-semibold bg-accent text-white" data-filter="all">सभी (<span id="count-all">0</span>)</button>
+      <button class="diary-filter-pill px-3 py-1.5 rounded-lg text-xs font-semibold bg-raised border border-border text-secondary hover:text-primary" data-filter="word">शब्द (<span id="count-words">0</span>)</button>
+      <button class="diary-filter-pill px-3 py-1.5 rounded-lg text-xs font-semibold bg-raised border border-border text-secondary hover:text-primary" data-filter="note">नोट्स (<span id="count-notes">0</span>)</button>
+    </div>
   </div>
 
-  <div id="notes-list">
-    <!-- Rendered via JS -->
+  <!-- Diary Entries Container -->
+  <div id="diary-entries-list" class="space-y-3">
+    <!-- Populated by JavaScript -->
+  </div>
+
+  <!-- Empty State (Shown when 0 entries) -->
+  <div id="diary-empty-state" class="hidden text-center py-16 px-4 bg-raised rounded-3xl border border-border/80">
+    <div class="w-16 h-16 rounded-2xl bg-accent/10 text-accent flex items-center justify-center text-3xl mx-auto mb-4">
+      ✍️
+    </div>
+    <h3 class="text-lg font-bold font-heading text-primary mb-2">आपकी डायरी अभी खाली है</h3>
+    <p class="text-xs sm:text-sm text-secondary max-w-md mx-auto mb-6 leading-relaxed">
+      किसी भी चैप्टर या ग्रामर पाठ को पढ़ते समय किसी भी टेक्स्ट को सिलेक्ट करें और <strong>"✍️ Save to Diary"</strong> पर क्लिक करें, या ऊपर दिए गए <strong>"नया शब्द/नोट जोड़ें"</strong> बटन का उपयोग करें।
+    </p>
+    <a href="/dictionary/" class="px-5 py-2.5 rounded-xl bg-base border border-border hover:border-accent text-xs font-semibold text-primary hover:text-accent transition-all inline-flex items-center gap-1.5">
+      <span>डिक्शनरी में शब्द खोजें</span>
+      <span>→</span>
+    </a>
+  </div>
+
+</div>
+
+<!-- Modal: Add Custom Note -->
+<div id="add-note-modal" class="fixed inset-0 z-50 bg-black/60 backdrop-blur-xs hidden flex items-center justify-center p-4">
+  <div class="bg-base border border-border rounded-3xl p-6 sm:p-8 max-w-md w-full shadow-2xl relative">
+    <div class="flex items-center justify-between mb-4 pb-2 border-b border-border">
+      <h3 class="text-lg font-bold font-heading text-primary">डायरी में नया नोट जोड़ें</h3>
+      <button id="close-modal-btn" class="text-secondary hover:text-primary text-xl font-bold">✕</button>
+    </div>
+
+    <div class="space-y-4">
+      <div>
+        <label class="block text-xs font-semibold text-secondary mb-1">अंग्रेज़ी शब्द / शीर्षक (Title / Word)</label>
+        <input type="text" id="note-title-input" class="w-full px-3.5 py-2 rounded-xl bg-raised border border-border text-sm text-primary focus:outline-none focus:border-accent" placeholder="उदा. Persevere">
+      </div>
+
+      <div>
+        <label class="block text-xs font-semibold text-secondary mb-1">हिन्दी अर्थ / विवरण (Meaning / Details)</label>
+        <textarea id="note-desc-input" rows="3" class="w-full px-3.5 py-2 rounded-xl bg-raised border border-border text-sm text-primary focus:outline-none focus:border-accent" placeholder="उदा. कठिनाइयों के बावजूद लगातार प्रयास जारी रखना"></textarea>
+      </div>
+
+      <button id="save-note-submit-btn" class="w-full py-2.5 rounded-xl bg-accent text-white font-bold text-sm hover:bg-accent/90 transition-all">
+        डायरी में सेव करें
+      </button>
+    </div>
   </div>
 </div>
 
 <script>
-let currentTag = 'Grammar';
-let editingId = null;
+document.addEventListener('DOMContentLoaded', () => {
+  const entriesList = document.getElementById('diary-entries-list');
+  const emptyState = document.getElementById('diary-empty-state');
+  const searchInput = document.getElementById('diary-search-input');
+  const addModal = document.getElementById('add-note-modal');
+  const addBtn = document.getElementById('add-custom-note-btn');
+  const closeBtn = document.getElementById('close-modal-btn');
+  const submitBtn = document.getElementById('save-note-submit-btn');
 
-function selectTag(btn, tag) {
-  document.querySelectorAll('#tag-selector .tag-pill').forEach(p => p.classList.remove('active'));
-  btn.classList.add('active');
-  currentTag = tag;
-}
+  let activeFilter = 'all';
 
-function getNotes() {
-  const notes = localStorage.getItem('ev-diary-notes');
-  return notes ? JSON.parse(notes) : [];
-}
+  function getNotes() {
+    try {
+      const notes = JSON.parse(localStorage.getItem('ev-diary-notes') || '[]');
+      const words = JSON.parse(localStorage.getItem('ev_diary_words') || '[]');
+      
+      const formattedWords = words.map(w => ({
+        id: 'w_' + (w.slug || w.word),
+        title: w.word,
+        text: w.meaning || '',
+        pron: w.pron || '',
+        type: 'word',
+        date: w.date || new Date().toISOString()
+      }));
 
-function saveNote() {
-  const title = document.getElementById('note-title').value.trim();
-  const content = document.getElementById('note-content').value.trim();
-  if (!title || !content) {
-    if (window.showToast) window.showToast('Please fill all fields');
-    return;
-  }
+      const formattedNotes = notes.map(n => ({
+        ...n,
+        type: n.type || 'note'
+      }));
 
-  const notes = getNotes();
-  if (editingId) {
-    const idx = notes.findIndex(n => n.id === editingId);
-    if (idx > -1) {
-      notes[idx].title = title;
-      notes[idx].content = content;
-      notes[idx].tag = currentTag;
-      notes[idx].updatedAt = new Date().toISOString();
+      return [...formattedWords, ...formattedNotes];
+    } catch (e) {
+      return [];
     }
-    editingId = null;
-  } else {
-    notes.unshift({
-      id: Date.now().toString(),
-      title,
-      content,
-      tag: currentTag,
-      createdAt: new Date().toISOString(),
-      updatedAt: new Date().toISOString()
+  }
+
+  function renderDiary() {
+    const allItems = getNotes();
+    const query = (searchInput.value || '').toLowerCase().trim();
+
+    const filtered = allItems.filter(item => {
+      if (activeFilter === 'word' && item.type !== 'word') return false;
+      if (activeFilter === 'note' && item.type === 'word') return false;
+      if (query) {
+        const t = (item.title || '').toLowerCase();
+        const txt = (item.text || '').toLowerCase();
+        return t.includes(query) || txt.includes(query);
+      }
+      return true;
+    });
+
+    // Update counts
+    document.getElementById('count-all').textContent = allItems.length;
+    document.getElementById('count-words').textContent = allItems.filter(i => i.type === 'word').length;
+    document.getElementById('count-notes').textContent = allItems.filter(i => i.type !== 'word').length;
+
+    if (filtered.length === 0) {
+      entriesList.innerHTML = '';
+      emptyState.classList.remove('hidden');
+      return;
+    }
+
+    emptyState.classList.add('hidden');
+    entriesList.innerHTML = filtered.map(item => `
+      <div class="p-4 sm:p-5 rounded-2xl bg-raised border border-border/70 hover:border-accent/40 transition-all flex items-start justify-between gap-4">
+        <div class="flex-1">
+          <div class="flex items-center gap-2 mb-1">
+            <h3 class="text-base sm:text-lg font-bold font-heading text-primary">${escapeHtml(item.title)}</h3>
+            ${item.pron ? `<span class="text-xs text-secondary italic">/${escapeHtml(item.pron)}/</span>` : ''}
+            <span class="px-2 py-0.5 rounded-md text-[10px] font-bold ${item.type === 'word' ? 'bg-emerald-500/10 text-emerald-500' : 'bg-blue-500/10 text-blue-500'}">
+              ${item.type === 'word' ? 'शब्द' : 'नोट'}
+            </span>
+          </div>
+          <p class="text-xs sm:text-sm text-secondary leading-relaxed">${escapeHtml(item.text)}</p>
+        </div>
+
+        <div class="flex items-center gap-2 shrink-0">
+          <button onclick="speakText('${escapeHtml(item.title)}')" class="p-2 rounded-lg bg-base border border-border text-secondary hover:text-accent hover:border-accent transition-all" title="उच्चारण सुनें">
+            🔊
+          </button>
+          <button onclick="deleteDiaryItem('${item.id}')" class="p-2 rounded-lg bg-base border border-border text-secondary hover:text-rose-500 hover:border-rose-500/30 transition-all" title="हटाएं">
+            🗑️
+          </button>
+        </div>
+      </div>
+    `).join('');
+  }
+
+  function escapeHtml(str) {
+    if (!str) return '';
+    return String(str).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+  }
+
+  window.speakText = function(text) {
+    if ('speechSynthesis' in window) {
+      const u = new SpeechSynthesisUtterance(text);
+      u.lang = 'en-US';
+      window.speechSynthesis.speak(u);
+    }
+  };
+
+  window.deleteDiaryItem = function(id) {
+    if (!confirm('क्या आप इस नोट को डायरी से हटाना चाहते हैं?')) return;
+    
+    if (id.startsWith('w_')) {
+      let words = JSON.parse(localStorage.getItem('ev_diary_words') || '[]');
+      words = words.filter(w => 'w_' + (w.slug || w.word) !== id);
+      localStorage.setItem('ev_diary_words', JSON.stringify(words));
+    } else {
+      let notes = JSON.parse(localStorage.getItem('ev-diary-notes') || '[]');
+      notes = notes.filter(n => n.id !== id);
+      localStorage.setItem('ev-diary-notes', JSON.stringify(notes));
+    }
+    renderDiary();
+  };
+
+  // Filter Buttons
+  document.querySelectorAll('.diary-filter-pill').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.diary-filter-pill').forEach(b => {
+        b.classList.remove('active', 'bg-accent', 'text-white');
+        b.classList.add('bg-raised', 'border', 'border-border', 'text-secondary');
+      });
+      btn.classList.add('active', 'bg-accent', 'text-white');
+      btn.classList.remove('bg-raised', 'border', 'border-border', 'text-secondary');
+      activeFilter = btn.dataset.filter;
+      renderDiary();
+    });
+  });
+
+  if (searchInput) searchInput.addEventListener('input', renderDiary);
+
+  // Modal Actions
+  if (addBtn && addModal) {
+    addBtn.addEventListener('click', () => addModal.classList.remove('hidden'));
+    closeBtn.addEventListener('click', () => addModal.classList.add('hidden'));
+    
+    submitBtn.addEventListener('click', () => {
+      const title = document.getElementById('note-title-input').value.trim();
+      const text = document.getElementById('note-desc-input').value.trim();
+      if (!title) {
+        alert('कृपया शीर्षक या शब्द दर्ज करें');
+        return;
+      }
+
+      const notes = JSON.parse(localStorage.getItem('ev-diary-notes') || '[]');
+      notes.unshift({
+        id: 'n_' + Date.now(),
+        title,
+        text,
+        type: 'note',
+        date: new Date().toISOString()
+      });
+      localStorage.setItem('ev-diary-notes', JSON.stringify(notes));
+
+      document.getElementById('note-title-input').value = '';
+      document.getElementById('note-desc-input').value = '';
+      addModal.classList.add('hidden');
+      renderDiary();
     });
   }
 
-  localStorage.setItem('ev-diary-notes', JSON.stringify(notes));
-  
-  document.getElementById('note-title').value = '';
-  document.getElementById('note-content').value = '';
-  if (window.showToast) window.showToast('Note saved!');
-  renderNotes();
-}
-
-function renderNotes() {
-  const list = document.getElementById('notes-list');
-  const query = document.getElementById('search-input').value.toLowerCase();
-  const notes = getNotes().filter(n => 
-    n.title.toLowerCase().includes(query) || 
-    n.content.toLowerCase().includes(query)
-  );
-
-  if (notes.length === 0) {
-    list.innerHTML = \`
-      <div class="empty-state">
-        <div style="font-size: 3rem; margin-bottom: 1rem;">📓</div>
-        <h3>Start writing your first note!</h3>
-      </div>
-    \`;
-    return;
-  }
-
-  list.innerHTML = notes.map(n => \`
-    <div class="note-item">
-      <div class="note-header">
-        <h3 class="note-title">\${n.title}</h3>
-        <span class="note-tag">\${n.tag}</span>
-      </div>
-      <div class="note-content">\${n.content}</div>
-      <div style="font-size: 0.75rem; color: var(--border, #ccc); margin-top: 1rem;">
-        \${new Date(n.createdAt).toLocaleString()}
-      </div>
-      <div class="note-actions">
-        <button class="btn-small btn-edit" onclick="editNote('\${n.id}')">Edit</button>
-        <button class="btn-small btn-delete" onclick="deleteNote('\${n.id}')">Delete</button>
-      </div>
-    </div>
-  \`).join('');
-}
-
-function deleteNote(id) {
-  if (confirm('Delete this note?')) {
-    let notes = getNotes();
-    notes = notes.filter(n => n.id !== id);
-    localStorage.setItem('ev-diary-notes', JSON.stringify(notes));
-    if (window.showToast) window.showToast('Note deleted');
-    renderNotes();
-  }
-}
-
-function editNote(id) {
-  const notes = getNotes();
-  const note = notes.find(n => n.id === id);
-  if (note) {
-    document.getElementById('note-title').value = note.title;
-    document.getElementById('note-content').value = note.content;
-    currentTag = note.tag;
-    document.querySelectorAll('#tag-selector .tag-pill').forEach(p => {
-      if(p.textContent === note.tag) p.classList.add('active');
-      else p.classList.remove('active');
-    });
-    editingId = id;
-    window.scrollTo({top: 0, behavior: 'smooth'});
-  }
-}
-
-function exportNotes() {
-  const data = localStorage.getItem('ev-diary-notes') || '[]';
-  const blob = new Blob([data], { type: 'application/json' });
-  const url = URL.createObjectURL(blob);
-  const a = document.createElement('a');
-  a.href = url;
-  a.download = 'my-notes.json';
-  a.click();
-  URL.revokeObjectURL(url);
-}
-
-document.addEventListener('DOMContentLoaded', renderNotes);
+  renderDiary();
+});
 </script>
