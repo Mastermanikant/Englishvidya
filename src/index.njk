@@ -1,7 +1,7 @@
 ---
 layout: layouts/base.njk
-pageTitle: "EnglishVidya - बिहार बोर्ड एवं प्रतियोगी परीक्षाओं के लिए प्रामाणिक अंग्रेज़ी"
-metaDescription: "बिहार बोर्ड 12वीं और 10वीं अंग्रेजी, व्याकरण (Grammar) और 19,000+ शब्दकोश का संपूर्ण और प्रामाणिक शैक्षणिक मंच।"
+pageTitle: "EnglishVidya — Learn English with Logic"
+metaDescription: "EnglishVidya — Hindi-medium students के लिए logic-based English learning platform. Bihar Board 12th & 10th English, Grammar & 19,000+ Dictionary."
 permalink: /
 schemaJson: |
   {
@@ -18,269 +18,408 @@ schemaJson: |
   }
 ---
 
-<!-- 1. Hero Section (Authoritative, Academic & Human-Crafted) -->
-<section class="relative bg-slate-950 text-slate-100 py-16 md:py-24 px-4 sm:px-6 border-b border-slate-800/80 overflow-hidden">
-  <div class="max-w-5xl mx-auto text-center relative z-10 space-y-6">
-    
-    <!-- Academic Badge -->
-    <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-slate-800/90 border border-slate-700/80 text-sky-400 text-xs font-semibold tracking-wide uppercase">
-      <span>🏛️</span> बिहार बोर्ड (BSEB) एवं प्रतियोगी परीक्षाओं हेतु विशेष
+<style>
+:root{
+  --slate:#0f172a; --slate2:#172033; --blue:#0ea5e9; --blue2:#38bdf8;
+  --white:#fff; --muted:#64748b; --line:#e2e8f0; --bg:#f8fafc;
+  --green:#10b981; --amber:#f59e0b; --radius:20px;
+}
+.ev-home{margin:-1rem -1rem -2rem;color:var(--slate);font-family:Inter,"Noto Sans Devanagari",sans-serif}
+.ev-home a{text-decoration:none;color:inherit}
+.ev-container{width:min(1160px,calc(100% - 32px));margin:auto}
+.hero{background:linear-gradient(180deg,#f8fbff 0%,#fff 100%);padding:76px 0 58px;border-bottom:1px solid #eef2f7}
+.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:54px;align-items:center}
+.eyebrow{display:inline-flex;align-items:center;gap:8px;color:#0369a1;background:#e0f2fe;padding:7px 11px;border-radius:999px;font-size:12px;font-weight:700}
+.hero h1{font-size:clamp(36px,5vw,58px);line-height:1.15;letter-spacing:-2px;margin:18px 0 17px;max-width:700px;font-weight:800;color:var(--slate)}
+.hero h1 span{color:var(--blue)}
+.hero p{font-family:"Noto Sans Devanagari",Inter,sans-serif;font-size:18px;line-height:1.8;color:#475569;max-width:650px;margin:0 0 27px}
+.ctas{display:flex;gap:11px;flex-wrap:wrap}
+.primary,.secondary{padding:13px 18px;border-radius:12px;font-weight:700;cursor:pointer;border:1px solid transparent;display:inline-flex;align-items:center;justify-content:center}
+.primary{background:var(--blue);color:#fff}.primary:hover{background:#0284c7}
+.secondary{background:#fff;border-color:var(--line);color:var(--slate)}.secondary:hover{background:#f8fafc}
+.hero-card{background:var(--slate);border-radius:28px;padding:24px;color:#fff;box-shadow:0 24px 60px rgba(15,23,42,.16)}
+.study-top{display:flex;justify-content:space-between;align-items:center;color:#cbd5e1;font-size:12px;margin-bottom:18px}
+.progress{height:6px;background:#334155;border-radius:99px;overflow:hidden}.progress i{display:block;width:68%;height:100%;background:var(--blue2);border-radius:99px}
+.lesson{background:#fff;color:var(--slate);border-radius:18px;padding:22px;margin-top:18px}
+.lesson small{color:var(--blue);font-weight:700}.lesson h3{font-family:"Noto Sans Devanagari";font-size:24px;margin:9px 0 13px;font-weight:700}
+.formula{background:#f0f9ff;border:1px solid #bae6fd;padding:14px;border-radius:12px;color:#075985;font-weight:700}
+.stats{padding:19px 0;border-bottom:1px solid var(--line);background:#fff}
+.stat-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1px}
+.stat{text-align:center;padding:10px;border-right:1px solid var(--line)}.stat:last-child{border:0}
+.stat strong{display:block;font-size:20px;color:var(--slate)}.stat span{font-size:12px;color:var(--muted)}
+.ev-section{padding:68px 0}
+.section-head{display:flex;justify-content:space-between;align-items:flex-end;gap:20px;margin-bottom:28px}
+.section-head h2{font-family:"Noto Sans Devanagari",Inter;font-size:32px;letter-spacing:-1px;margin:0 0 6px;font-weight:800;color:var(--slate)}
+.section-head p{margin:0;color:var(--muted);line-height:1.7}
+.link{color:#0284c7;font-weight:700;font-size:14px;white-space:nowrap}
+.hubs{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.card{border:1px solid var(--line);border-radius:18px;padding:22px;background:#fff;transition:.2s;display:flex;flex-direction:column}
+.card:hover{transform:translateY(-3px);box-shadow:0 14px 35px rgba(15,23,42,.08);border-color:var(--blue2)}
+.card-icon{width:44px;height:44px;border-radius:13px;background:#e0f2fe;color:#0369a1;display:grid;place-items:center;font-size:20px;margin-bottom:18px}
+.card h3{margin:0 0 8px;font-size:18px;font-weight:700;color:var(--slate)}
+.card p{font-family:"Noto Sans Devanagari";font-size:13px;line-height:1.7;color:var(--muted);min-height:65px;margin-bottom:14px}
+.card a{font-size:13px;color:#0284c7;font-weight:700;margin-top:auto}
+.daily{background:var(--bg)}
+.daily-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.daily-card{border:1px solid var(--line);background:#fff;border-radius:22px;padding:27px;display:flex;flex-direction:column;justify-content:space-between}
+.daily-card h3{margin:0 0 12px;font-size:20px;font-weight:700;color:var(--slate)}
+.word{font-size:36px;font-weight:800;letter-spacing:-1px;color:var(--slate)}
+.pron{color:var(--muted);font-size:13px;margin:5px 0 13px}
+.meaning{font-family:"Noto Sans Devanagari";font-size:17px;font-weight:700;color:var(--slate)}
+.example{margin:16px 0;padding:13px;border-left:3px solid var(--blue);background:#f8fafc;color:#475569;line-height:1.7;font-size:14px;border-radius:0 8px 8px 0}
+.roadmap{display:grid;grid-template-columns:repeat(5,1fr);gap:10px}
+.level{padding:19px;border:1px solid var(--line);border-radius:17px;background:#fff;position:relative}
+.level:first-child{border-color:#bae6fd;background:#f0f9ff}
+.num{font-size:12px;color:var(--blue);font-weight:800}
+.level h3{font-size:16px;margin:10px 0 7px;font-weight:700;color:var(--slate)}
+.level p{font-size:12px;line-height:1.6;color:var(--muted);margin:0}
+.method{background:var(--slate);color:#fff}
+.method .section-head h2{color:#fff}
+.method .section-head p{color:#94a3b8}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.step{padding:22px;border:1px solid #263247;border-radius:17px;background:#151f32}
+.step b{color:var(--blue2);font-size:12px}
+.step h3{margin:10px 0 7px;font-family:"Noto Sans Devanagari";font-size:18px;font-weight:700;color:#fff}
+.step p{color:#94a3b8;font-family:"Noto Sans Devanagari";font-size:13px;line-height:1.7;margin:0}
+.dictionary{background:#f8fafc}
+.searchbox{display:flex;gap:10px;max-width:760px;margin:0 auto 22px}
+.searchbox input{flex:1;padding:16px 18px;border:1px solid var(--line);border-radius:13px;font-size:15px;outline:none;background:#fff}
+.searchbox input:focus{border-color:var(--blue);box-shadow:0 0 0 3px rgba(14,165,233,.15)}
+.alphabet{display:flex;flex-wrap:wrap;justify-content:center;gap:6px;margin-bottom:25px}
+.alphabet button{width:34px;height:34px;border:1px solid var(--line);background:#fff;border-radius:9px;cursor:pointer;font-weight:600;color:var(--slate)}
+.alphabet button:hover{background:var(--blue);color:#fff;border-color:var(--blue)}
+.words{display:grid;grid-template-columns:repeat(3,1fr);gap:13px}
+.word-card{background:#fff;border:1px solid var(--line);border-radius:15px;padding:18px;transition:.2s}
+.word-card:hover{border-color:var(--blue);transform:translateY(-2px)}
+.word-card b{font-size:18px;color:var(--slate)}
+.word-card span{display:block;color:var(--muted);font-family:"Noto Sans Devanagari";margin-top:5px;font-size:14px}
+.diary-grid{display:grid;grid-template-columns:1fr 1fr;gap:35px;align-items:center}
+.diary-preview{background:linear-gradient(135deg,#f0f9ff,#fff);border:1px solid #bae6fd;border-radius:24px;padding:24px}
+.note{background:#fff;border:1px solid var(--line);border-radius:13px;padding:15px;margin-top:10px}
+.note b{display:block;color:var(--slate)}
+.note span{font-size:12px;color:var(--muted)}
+.board{background:#fff}
+.board-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.board-card{border:1px solid var(--line);border-radius:21px;padding:28px;background:#fff;display:flex;flex-direction:column;justify-content:space-between}
+.board-card h3{font-family:"Noto Sans Devanagari";font-size:23px;margin:0 0 4px;font-weight:700;color:var(--slate)}
+.board-card .book{color:var(--blue);font-weight:700;font-size:13px}
+.chips{display:flex;flex-wrap:wrap;gap:7px;margin:18px 0}
+.chip{background:#f1f5f9;padding:7px 10px;border-radius:8px;font-size:12px;color:#475569;font-weight:500}
+.final{padding:70px 0}
+.final-box{background:linear-gradient(135deg,#0f172a,#172033);border-radius:26px;padding:45px;text-align:center;color:#fff}
+.final-box h2{font-family:"Noto Sans Devanagari";font-size:34px;margin:0 0 10px;font-weight:800}
+.final-box p{color:#cbd5e1;font-family:"Noto Sans Devanagari";margin:0 auto 22px;max-width:600px;line-height:1.7}
+
+/* Dark Mode Overrides */
+.dark .ev-home{color:#f8fafc;background:var(--slate)}
+.dark .hero{background:linear-gradient(180deg,#090e17 0%,#0f172a 100%);border-bottom-color:#1e293b}
+.dark .hero h1{color:#fff}
+.dark .hero p{color:#94a3b8}
+.dark .secondary{background:#1e293b;border-color:#334155;color:#f8fafc}
+.dark .stats{background:#0f172a;border-bottom-color:#1e293b}
+.dark .stat{border-right-color:#1e293b}
+.dark .stat strong{color:#fff}
+.dark .card,.dark .daily-card,.dark .level,.dark .word-card,.dark .board-card{background:#172033;border-color:#1e293b}
+.dark .card h3,.dark .daily-card h3,.dark .level h3,.dark .word-card b,.dark .board-card h3,.dark .section-head h2,.dark .meaning{color:#fff}
+.dark .card p,.dark .level p{color:#94a3b8}
+.dark .daily{background:#0b1220}
+.dark .example{background:#0f172a;color:#cbd5e1}
+.dark .dictionary{background:#0b1220}
+.dark .searchbox input{background:#172033;border-color:#334155;color:#fff}
+.dark .alphabet button{background:#172033;border-color:#334155;color:#cbd5e1}
+.dark .chip{background:#0f172a;color:#94a3b8}
+.dark .note{background:#0f172a;border-color:#1e293b}
+.dark .note b{color:#fff}
+.dark .diary-preview{background:linear-gradient(135deg,#172033,#0f172a);border-color:#1e293b}
+.dark .lesson{background:#1e293b;color:#fff}
+.dark .formula{background:#0b1220;border-color:#1e293b;color:#38bdf8}
+
+@media(max-width:950px){
+  .hero-grid{grid-template-columns:1fr}
+  .hero-card{max-width:650px}
+  .hubs{grid-template-columns:repeat(2,1fr)}
+  .roadmap{grid-template-columns:repeat(3,1fr)}
+  .steps{grid-template-columns:repeat(2,1fr)}
+}
+@media(max-width:620px){
+  .ev-container{width:min(100% - 24px,1160px)}
+  .hero{padding:48px 0 38px}
+  .hero h1{font-size:36px;letter-spacing:-1.2px}
+  .hero p{font-size:16px}
+  .hero-card{padding:17px}
+  .stats{padding:10px 0}
+  .stat-grid{grid-template-columns:repeat(2,1fr)}
+  .stat{border-bottom:1px solid var(--line)}
+  .ev-section{padding:50px 0}
+  .section-head{display:block}
+  .section-head h2{font-size:26px}
+  .section-head .link{display:inline-block;margin-top:10px}
+  .hubs,.daily-grid,.words,.board-grid,.diary-grid{grid-template-columns:1fr}
+  .roadmap{grid-template-columns:1fr 1fr}
+  .steps{grid-template-columns:1fr}
+  .final-box{padding:32px 20px}
+  .final-box h2{font-size:26px}
+  .searchbox{flex-direction:column}
+  .searchbox .primary{width:100%}
+  .alphabet{gap:4px}
+  .alphabet button{width:30px;height:30px;font-size:12px}
+}
+</style>
+
+<div class="ev-home">
+
+<!-- 1. Hero Section -->
+<section class="hero">
+  <div class="ev-container hero-grid">
+    <div>
+      <span class="eyebrow">✦ Hindi-medium students के लिए</span>
+      <h1>अंग्रेज़ी को रटना छोड़िए, <span>लॉजिक</span> और समझ के साथ सीखिए।</h1>
+      <p>Grammar, Vocabulary और Bihar Board English को सही structure, examples और practice के साथ सीखिए — बिल्कुल सरल तरीके से।</p>
+      <div class="ctas">
+        <a class="primary" href="/class-12/">📚 12वीं English शुरू करें</a>
+        <a class="secondary" href="/grammar/">✨ Grammar Master देखें</a>
+      </div>
     </div>
-
-    <!-- Main Headline -->
-    <h1 class="text-3xl sm:text-5xl md:text-6xl font-extrabold font-heading tracking-tight text-white leading-tight">
-      अंग्रेज़ी को रटना छोड़िए, <br class="hidden sm:inline" />
-      <span class="text-sky-400">लॉजिक और समझ</span> के साथ सीखिए
-    </h1>
-
-    <!-- Subtitle -->
-    <p class="text-base sm:text-lg md:text-xl text-slate-300 max-w-3xl mx-auto leading-relaxed font-normal">
-      Master Manikant की विशेष शिक्षण पद्धति द्वारा तैयार—बिहार बोर्ड 12वीं (Rainbow 2), 10वीं (Panorama 2), बुनियादी से उच्च स्तर का व्याकरण और 19,000+ शब्दों का संपूर्ण शब्दकोश।
-    </p>
-
-    <!-- CTAs -->
-    <div class="pt-4 flex flex-wrap items-center justify-center gap-3 sm:gap-4">
-      <a href="/class-12/" class="px-6 py-3 rounded-xl bg-sky-500 hover:bg-sky-400 text-slate-950 font-bold text-sm sm:text-base transition-all shadow-md flex items-center gap-2">
-        <span>📚 12वीं बोर्ड (Rainbow 2)</span>
-        <span>→</span>
-      </a>
-      <a href="/grammar/" class="px-6 py-3 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-100 border border-slate-700 font-semibold text-sm sm:text-base transition-all flex items-center gap-2">
-        <span>✨ व्याकरण (Grammar)</span>
-      </a>
-      <a href="/dictionary/" class="px-6 py-3 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-100 border border-slate-700 font-semibold text-sm sm:text-base transition-all flex items-center gap-2">
-        <span>🔍 शब्दकोश (A-Z)</span>
-      </a>
-    </div>
-
-    <!-- Academic Trust Badges Strip -->
-    <div class="pt-10 grid grid-cols-2 sm:grid-cols-4 gap-4 max-w-4xl mx-auto border-t border-slate-800/80 text-slate-400 text-xs sm:text-sm">
-      <div class="flex items-center justify-center gap-2 py-2">
-        <span class="text-lg text-sky-400">📖</span>
-        <span><strong>53+</strong> बोर्ड चैप्टर्स</span>
-      </div>
-      <div class="flex items-center justify-center gap-2 py-2">
-        <span class="text-lg text-emerald-400">🎯</span>
-        <span><strong>100 Marks</strong> सम्पूर्ण तैयारी</span>
-      </div>
-      <div class="flex items-center justify-center gap-2 py-2">
-        <span class="text-lg text-amber-400">🗂️</span>
-        <span><strong>19,000+</strong> शब्दकोश</span>
-      </div>
-      <div class="flex items-center justify-center gap-2 py-2">
-        <span class="text-lg text-indigo-400">🛡️</span>
-        <span><strong>100%</strong> निःशुल्क व प्रामाणिक</span>
+    <div class="hero-card">
+      <div class="study-top"><span>Master Manikant Method</span><span>68% concept</span></div>
+      <div class="progress"><i></i></div>
+      <div class="lesson">
+        <small>ENGLISH FORMULA</small>
+        <h3>Sentence को समझने की शुरुआत</h3>
+        <div class="formula">Subject + Verb + Object</div>
+        <p style="color:#64748b;line-height:1.7;font-family:'Noto Sans Devanagari';margin-top:10px;">I read books. → मैं किताबें पढ़ता हूँ।</p>
       </div>
     </div>
   </div>
 </section>
 
-<div class="max-w-6xl mx-auto px-4 sm:px-6 py-12 space-y-16">
+<!-- 2. Stats Strip -->
+<div class="stats">
+  <div class="ev-container stat-grid">
+    <div class="stat"><strong>Class 10</strong><span>Bihar Board English</span></div>
+    <div class="stat"><strong>Class 12</strong><span>Rainbow Part 2</span></div>
+    <div class="stat"><strong>5 Levels</strong><span>Grammar Master</span></div>
+    <div class="stat"><strong>19,000+</strong><span>Dictionary Words</span></div>
+  </div>
+</div>
 
-  <!-- 2. Daily Learning Card & Quick Tip Grid -->
-  <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-    <!-- Word of the Day (Lightweight, Zero-Load Engine) -->
-    <div class="p-6 rounded-2xl bg-raised border border-border/90 shadow-xs flex flex-col justify-between">
+<!-- 3. Learning Path Hubs -->
+<section class="ev-section">
+  <div class="ev-container">
+    <div class="section-head">
       <div>
-        <div class="flex items-center justify-between gap-2 mb-4">
-          <div class="inline-flex items-center gap-1.5 text-xs font-bold text-sky-500 uppercase tracking-wider">
-            <span>🌟</span> आज का शब्द (Word of the Day)
-          </div>
-          <span class="text-xs text-secondary bg-base px-2.5 py-1 rounded-full border border-border">दैनिक ज्ञान</span>
-        </div>
-        <div id="wotd-container" class="space-y-3">
-          <h2 class="text-2xl font-bold font-heading text-primary">
-            Perseverance <span class="text-sm font-normal text-secondary ml-1">/ ˌpɜː.sɪˈvɪə.rəns /</span>
-          </h2>
-          <p class="text-sm text-secondary">
-            <strong>हिन्दी अर्थ:</strong> दृढ़ता, निरंतर प्रयास, लगन।
-          </p>
-          <p class="text-xs text-secondary/80 italic">
-            "Success in board exams requires continuous perseverance and smart study."
-          </p>
-        </div>
+        <h2>आप क्या सीखना चाहते हैं?</h2>
+        <p>अपनी जरूरत के अनुसार learning path चुनिए।</p>
       </div>
-      <div class="pt-6 border-t border-border/80 mt-6 flex items-center justify-between">
-        <a href="/dictionary/" class="text-xs sm:text-sm font-semibold text-accent hover:underline flex items-center gap-1">
-          <span>पूरा शब्दकोश देखें</span>
-          <span>→</span>
-        </a>
-        <button onclick="window.speakWord && window.speakWord('Perseverance')" class="px-3 py-1.5 rounded-lg bg-base border border-border hover:border-accent text-xs font-medium text-primary flex items-center gap-1">
-          <span>🔊 उच्चारण सुनें</span>
-        </button>
-      </div>
+      <a class="link" href="/class-12/">सभी देखें →</a>
     </div>
-
-    <!-- Logic Method Highlight -->
-    <div class="p-6 rounded-2xl bg-raised border border-border/90 shadow-xs flex flex-col justify-between">
-      <div>
-        <div class="flex items-center justify-between gap-2 mb-4">
-          <div class="inline-flex items-center gap-1.5 text-xs font-bold text-emerald-500 uppercase tracking-wider">
-            <span>💡</span> मास्टर मणिकांत शिक्षण सूत्र
-          </div>
-          <span class="text-xs text-emerald-500 bg-emerald-500/10 px-2.5 py-1 rounded-full font-semibold">लॉजिक आधारित</span>
-        </div>
-        <h2 class="text-xl font-bold font-heading text-primary mb-2">
-          "रूल नहीं, वाक्य की बनावट (Syntax) समझें"
-        </h2>
-        <p class="text-xs sm:text-sm text-secondary leading-relaxed">
-          अंग्रेजी में 500 नियम याद करने की जगह यदि आप <strong>Subject + Verb + Object (SVO)</strong> और शब्दों के बीच के संबंध को समझ लें, तो अनुवाद और व्याकरण अपने-आप आसान हो जाते हैं।
-        </p>
+    <div class="hubs">
+      <div class="card">
+        <div class="card-icon">📖</div>
+        <h3>BSEB Class 12</h3>
+        <p>Rainbow Part 2 · Prose, Poetry, Hindi Explanation, Q&A और MCQs.</p>
+        <a href="/class-12/">12वीं पढ़ें →</a>
       </div>
-      <div class="pt-6 border-t border-border/80 mt-6">
-        <a href="/grammar/" class="text-xs sm:text-sm font-semibold text-accent hover:underline flex items-center gap-1">
-          <span>व्याकरण के 5 लेवल्स देखें</span>
-          <span>→</span>
-        </a>
+      <div class="card">
+        <div class="card-icon">🎓</div>
+        <h3>BSEB Class 10</h3>
+        <p>Panorama Part 2 · Chapters, explanation, important questions और revision.</p>
+        <a href="/class-10/">10वीं पढ़ें →</a>
+      </div>
+      <div class="card">
+        <div class="card-icon">✦</div>
+        <h3>Grammar Master</h3>
+        <p>Zero से Advanced तक 5-Level systematic English Grammar.</p>
+        <a href="/grammar/">Grammar सीखें →</a>
+      </div>
+      <div class="card">
+        <div class="card-icon">🔎</div>
+        <h3>A-Z Dictionary</h3>
+        <p>19,000+ words · Meaning, pronunciation, synonyms, antonyms और examples.</p>
+        <a href="/dictionary/">Dictionary खोलें →</a>
       </div>
     </div>
   </div>
+</section>
 
-  <!-- 3. Four Core Academic Portals -->
-  <section class="space-y-6">
-    <div class="text-center max-w-2xl mx-auto space-y-2">
-      <h2 class="text-2xl sm:text-3xl font-extrabold font-heading text-primary tracking-tight">
-        शैक्षणिक अध्ययन केंद्र (Academic Portals)
+<!-- 4. Daily Learning (Word of the Day & Master Manikant Formula) -->
+<section class="daily ev-section">
+  <div class="ev-container">
+    <div class="section-head">
+      <div>
+        <h2>हर दिन थोड़ा सीखिए</h2>
+        <p>छोटी learning, लगातार progress.</p>
+      </div>
+    </div>
+    <div class="daily-grid">
+      <div class="daily-card">
+        <div>
+          <h3>🌟 Word of the Day</h3>
+          <div class="word" id="home-wotd-word">Persistent</div>
+          <div class="pron" id="home-wotd-pron">/pəˈsɪstənt/ · परसिस्टेन्ट</div>
+          <div class="meaning" id="home-wotd-meaning">दृढ़ · लगातार प्रयास करने वाला</div>
+          <div class="example" id="home-wotd-example">
+            He is persistent in his studies.<br>
+            <span style="font-family:'Noto Sans Devanagari'">वह अपनी पढ़ाई में दृढ़ रहता है।</span>
+          </div>
+        </div>
+        <div class="ctas" style="margin-top:18px;">
+          <button class="secondary" onclick="window.speakWord && window.speakWord('Persistent')">🔊 सुनें</button>
+          <a class="primary" href="/dictionary/">📖 पूरा विवरण देखें</a>
+        </div>
+      </div>
+      <div class="daily-card">
+        <div>
+          <h3>💡 Master Manikant Formula</h3>
+          <div class="formula" style="margin:18px 0;font-size:18px">Subject + Verb + Object</div>
+          <div style="font-size:24px;font-weight:800">I + read + books.</div>
+          <p style="font-family:'Noto Sans Devanagari';color:#64748b;line-height:1.8;margin-top:12px;">
+            English sentence को समझने की शुरुआत Subject, Verb और Object की पहचान से कीजिए।
+          </p>
+        </div>
+        <div style="margin-top:18px;">
+          <a class="link" href="/grammar/">और Grammar सीखें →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 5. 5-Level Grammar Roadmap -->
+<section class="ev-section" id="grammar">
+  <div class="ev-container">
+    <div class="section-head">
+      <div>
+        <h2>Grammar को Zero से Advanced तक सीखिए</h2>
+        <p>एक structured 5-Level system के साथ।</p>
+      </div>
+      <a class="link" href="/grammar/">Grammar खोलें →</a>
+    </div>
+    <div class="roadmap">
+      <div class="level"><div class="num">01</div><h3>Foundation</h3><p>SVO, words और basic sentences.</p></div>
+      <div class="level"><div class="num">02</div><h3>Core Grammar</h3><p>Parts of Speech, Articles और Tenses.</p></div>
+      <div class="level"><div class="num">03</div><h3>Syntax</h3><p>Voice, Narration, Modals और Clauses.</p></div>
+      <div class="level"><div class="num">04</div><h3>Competitive</h3><p>Transformation और Error Detection.</p></div>
+      <div class="level"><div class="num">05</div><h3>Advanced</h3><p>Common Errors और Spoken English.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 6. Master Manikant Method (4 Steps) -->
+<section class="method ev-section">
+  <div class="ev-container">
+    <div class="section-head">
+      <div>
+        <h2>यहाँ English रटनी नहीं है</h2>
+        <p>हर concept को समझिए, फिर apply कीजिए।</p>
+      </div>
+    </div>
+    <div class="steps">
+      <div class="step"><b>01</b><h3>समझिए</h3><p>Rule को आसान भाषा में समझिए।</p></div>
+      <div class="step"><b>02</b><h3>Logic देखिए</h3><p>Rule क्यों काम करता है, जानिए।</p></div>
+      <div class="step"><b>03</b><h3>Example कीजिए</h3><p>सही और गलत examples compare कीजिए।</p></div>
+      <div class="step"><b>04</b><h3>Practice कीजिए</h3><p>Questions solve करके concept मजबूत कीजिए।</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 7. A-Z Dictionary Search & Alphabets -->
+<section class="dictionary ev-section" id="dictionary">
+  <div class="ev-container">
+    <div class="section-head">
+      <div>
+        <h2>किसी भी English Word का अर्थ खोजिए</h2>
+        <p>Meaning, pronunciation और examples एक जगह।</p>
+      </div>
+    </div>
+    <form class="searchbox" onsubmit="event.preventDefault(); window.location.href='/dictionary/?q=' + encodeURIComponent(document.getElementById('home-search-input').value);">
+      <input id="home-search-input" placeholder="Search an English word (e.g. Courage, Civilization)..." />
+      <button class="primary" type="submit">Search</button>
+    </form>
+    <div class="alphabet">
+      {% for letter in ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"] %}
+      <button onclick="window.location.href='/dictionary/?letter={{ letter }}'">{{ letter }}</button>
+      {% endfor %}
+    </div>
+    <div class="words">
+      <a href="/dictionary/" class="word-card"><b>Abandon</b><span>छोड़ देना, त्यागना</span></a>
+      <a href="/dictionary/" class="word-card"><b>Ability</b><span>क्षमता, सामर्थ्य</span></a>
+      <a href="/dictionary/" class="word-card"><b>Accurate</b><span>सटीक, बिल्कुल सही</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- 8. My Diary Feature Banner -->
+<section class="ev-section">
+  <div class="ev-container diary-grid">
+    <div>
+      <div class="eyebrow">📓 Personal Learning</div>
+      <h2 style="font-family:'Noto Sans Devanagari';font-size:34px;margin:17px 0 10px;font-weight:800;">
+        जो कठिन लगे, उसे अपनी Diary में सेव कर लीजिए।
       </h2>
-      <p class="text-xs sm:text-sm text-secondary">
-        अपनी कक्षा या अध्ययन क्षेत्र का चयन करें और व्यवस्थित रूप से अध्ययन शुरू करें।
+      <p style="font-family:'Noto Sans Devanagari';color:#64748b;line-height:1.8;">
+        Difficult words, important sentences, grammar notes और chapter notes को एक जगह सुरक्षित रखें।
       </p>
+      <a class="primary" href="/my-diary/">My Diary देखें →</a>
     </div>
-
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-
-      <!-- Portal 1: BSEB Class 12th -->
-      <div class="p-6 sm:p-8 rounded-2xl bg-raised border border-border/90 hover:border-sky-500/60 transition-all shadow-xs flex flex-col justify-between group">
-        <div class="space-y-4">
-          <div class="flex items-center justify-between gap-2">
-            <span class="px-3 py-1 rounded-full bg-sky-500/10 text-sky-500 text-xs font-bold uppercase tracking-wider">
-              BSEB 12th (Rainbow 2)
-            </span>
-            <span class="text-xs font-semibold text-secondary">100 Marks Target</span>
-          </div>
-          <h3 class="text-xl sm:text-2xl font-bold font-heading text-primary group-hover:text-sky-500 transition-colors">
-            बिहार बोर्ड 12वीं अंग्रेज़ी (Rainbow Part 2)
-          </h3>
-          <p class="text-xs sm:text-sm text-secondary leading-relaxed">
-            प्रत्येक गद्य (Prose) और पद्य (Poetry) का शब्द-दर-शब्द उच्चारण, सरल हिन्दी अनुवाद, सारांश (Summary), और VVI वस्तुनिष्ठ प्रश्नोत्तर।
-          </p>
-          <div class="pt-2 flex flex-wrap gap-2 text-xs text-secondary">
-            <span class="px-2.5 py-1 rounded-lg bg-base border border-border">📖 Prose & Poetry</span>
-            <span class="px-2.5 py-1 rounded-lg bg-base border border-border">🎯 Objective MCQs</span>
-            <span class="px-2.5 py-1 rounded-lg bg-base border border-border">📝 Subjective Q&A</span>
-          </div>
-        </div>
-        <div class="pt-6 border-t border-border/80 mt-6">
-          <a href="/class-12/" class="w-full py-2.5 rounded-xl bg-sky-500 hover:bg-sky-400 text-slate-950 font-bold text-xs sm:text-sm flex items-center justify-center gap-2 transition-all">
-            <span>12वीं के सभी चैप्टर्स खोलें</span>
-            <span>→</span>
-          </a>
-        </div>
-      </div>
-
-      <!-- Portal 2: BSEB Class 10th -->
-      <div class="p-6 sm:p-8 rounded-2xl bg-raised border border-border/90 hover:border-emerald-500/60 transition-all shadow-xs flex flex-col justify-between group">
-        <div class="space-y-4">
-          <div class="flex items-center justify-between gap-2">
-            <span class="px-3 py-1 rounded-full bg-emerald-500/10 text-emerald-500 text-xs font-bold uppercase tracking-wider">
-              BSEB 10th (Panorama 2)
-            </span>
-            <span class="text-xs font-semibold text-secondary">मैट्रिक स्पेशल</span>
-          </div>
-          <h3 class="text-xl sm:text-2xl font-bold font-heading text-primary group-hover:text-emerald-500 transition-colors">
-            बिहार बोर्ड 10वीं अंग्रेज़ी (Panorama Part 2)
-          </h3>
-          <p class="text-xs sm:text-sm text-secondary leading-relaxed">
-            मैट्रिक परीक्षा हेतु सभी गद्य एवं पद्य पाठों का संपूर्ण अध्ययन, लेखक परिचय, महत्वपूर्ण शब्दावली और सटीक प्रश्न-उत्तर।
-          </p>
-          <div class="pt-2 flex flex-wrap gap-2 text-xs text-secondary">
-            <span class="px-2.5 py-1 rounded-lg bg-base border border-border">📖 Panorama 2</span>
-            <span class="px-2.5 py-1 rounded-lg bg-base border border-border">🎯 बोर्ड स्पेशल नोट्स</span>
-            <span class="px-2.5 py-1 rounded-lg bg-base border border-border">💡 सरल हिन्दी व्याख्या</span>
-          </div>
-        </div>
-        <div class="pt-6 border-t border-border/80 mt-6">
-          <a href="/class-10/" class="w-full py-2.5 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-bold text-xs sm:text-sm flex items-center justify-center gap-2 transition-all">
-            <span>10वीं के सभी चैप्टर्स खोलें</span>
-            <span>→</span>
-          </a>
-        </div>
-      </div>
-
-      <!-- Portal 3: Complete English Grammar -->
-      <div class="p-6 sm:p-8 rounded-2xl bg-raised border border-border/90 hover:border-indigo-500/60 transition-all shadow-xs flex flex-col justify-between group">
-        <div class="space-y-4">
-          <div class="flex items-center justify-between gap-2">
-            <span class="px-3 py-1 rounded-full bg-indigo-500/10 text-indigo-500 text-xs font-bold uppercase tracking-wider">
-              Grammar Master (5 Levels)
-            </span>
-            <span class="text-xs font-semibold text-secondary">ज़ीरो से शिखर तक</span>
-          </div>
-          <h3 class="text-xl sm:text-2xl font-bold font-heading text-primary group-hover:text-indigo-500 transition-colors">
-            व्याकरण मास्टर (5-Level Grammar)
-          </h3>
-          <p class="text-xs sm:text-sm text-secondary leading-relaxed">
-            Sentence Structure, Tense, Voice, Narration, Modals, Synthesis और Clause Analysis की वैज्ञानिक एवं सरल समझ।
-          </p>
-          <div class="pt-2 flex flex-wrap gap-2 text-xs text-secondary">
-            <span class="px-2.5 py-1 rounded-lg bg-base border border-border">✨ Foundation (L1)</span>
-            <span class="px-2.5 py-1 rounded-lg bg-base border border-border">⚡ Core Grammar (L2)</span>
-            <span class="px-2.5 py-1 rounded-lg bg-base border border-border">🎯 Competitive (L4)</span>
-          </div>
-        </div>
-        <div class="pt-6 border-t border-border/80 mt-6">
-          <a href="/grammar/" class="w-full py-2.5 rounded-xl bg-indigo-500 hover:bg-indigo-400 text-white font-bold text-xs sm:text-sm flex items-center justify-center gap-2 transition-all">
-            <span>संपूर्ण व्याकरण सिलेबस देखें</span>
-            <span>→</span>
-          </a>
-        </div>
-      </div>
-
-      <!-- Portal 4: A-Z Dictionary & Vocab -->
-      <div class="p-6 sm:p-8 rounded-2xl bg-raised border border-border/90 hover:border-amber-500/60 transition-all shadow-xs flex flex-col justify-between group">
-        <div class="space-y-4">
-          <div class="flex items-center justify-between gap-2">
-            <span class="px-3 py-1 rounded-full bg-amber-500/10 text-amber-500 text-xs font-bold uppercase tracking-wider">
-              19,000+ Words
-            </span>
-            <span class="text-xs font-semibold text-secondary">सर्च व उच्चारण सहित</span>
-          </div>
-          <h3 class="text-xl sm:text-2xl font-bold font-heading text-primary group-hover:text-amber-500 transition-colors">
-            A-Z हिन्दी-अंग्रेज़ी शब्दकोश (Dictionary)
-          </h3>
-          <p class="text-xs sm:text-sm text-secondary leading-relaxed">
-            प्रामाणिक IPA उच्चारण, हिन्दी अर्थ, पर्यायवाची (Synonyms), विलोम (Antonyms) और वाक्यों में सही प्रयोग।
-          </p>
-          <div class="pt-2 flex flex-wrap gap-2 text-xs text-secondary">
-            <span class="px-2.5 py-1 rounded-lg bg-base border border-border">🔍 A to Z डिक्शनरी</span>
-            <span class="px-2.5 py-1 rounded-lg bg-base border border-border">🔊 सटीक उच्चारण</span>
-            <span class="px-2.5 py-1 rounded-lg bg-base border border-border">🗂️ फ्लैशकार्ड्स प्रैक्टिस</span>
-          </div>
-        </div>
-        <div class="pt-6 border-t border-border/80 mt-6">
-          <a href="/dictionary/" class="w-full py-2.5 rounded-xl bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold text-xs sm:text-sm flex items-center justify-center gap-2 transition-all">
-            <span>शब्दकोश में शब्द खोजें</span>
-            <span>→</span>
-          </a>
-        </div>
-      </div>
-
+    <div class="diary-preview">
+      <strong>📓 My Diary</strong>
+      <div class="note"><b>Persistent</b><span>Vocabulary · दृढ़</span></div>
+      <div class="note"><b>Subject + Verb + Object</b><span>Grammar Note · Saved today</span></div>
+      <div class="note"><b>Indian Civilization and Culture</b><span>Class 12 · Chapter Note</span></div>
     </div>
-  </section>
-
-  <!-- 4. Community & Support Banner -->
-  <div class="p-6 sm:p-8 rounded-2xl bg-slate-900 text-white border border-slate-800 flex flex-col sm:flex-row items-center justify-between gap-6">
-    <div class="space-y-1 text-center sm:text-left">
-      <h3 class="text-lg sm:text-xl font-bold font-heading">
-        📚 कोई संशय या डाउट है?
-      </h3>
-      <p class="text-xs sm:text-sm text-slate-400">
-        मास्टर मणिकांत सर से सीधे जुड़ने के लिए हमारे आधिकारिक WhatsApp चैनल से जुड़ें।
-      </p>
-    </div>
-    <a href="https://whatsapp.com/channel/0029VbCnmPe0VycPXCmBBH43" target="_blank" rel="noopener noreferrer" class="px-5 py-2.5 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-bold text-xs sm:text-sm whitespace-nowrap transition-all flex items-center gap-2">
-      <span>💬 WhatsApp चैनल से जुड़ें</span>
-      <span>→</span>
-    </a>
   </div>
+</section>
+
+<!-- 9. Board Exam Portals -->
+<section class="board ev-section" id="board">
+  <div class="ev-container">
+    <div class="section-head">
+      <div>
+        <h2>Board Exam की तैयारी भी, सही तरीके से</h2>
+        <p>Chapter से practice तक एक structured learning experience.</p>
+      </div>
+    </div>
+    <div class="board-grid">
+      <div class="board-card">
+        <div>
+          <div class="book">BSEB CLASS 12</div>
+          <h3>Rainbow Part 2</h3>
+          <div class="chips">
+            <span class="chip">Chapter Explanation</span>
+            <span class="chip">Summary</span>
+            <span class="chip">Q&A</span>
+            <span class="chip">VVI MCQs</span>
+          </div>
+        </div>
+        <a class="primary" href="/class-12/">12वीं की तैयारी →</a>
+      </div>
+      <div class="board-card">
+        <div>
+          <div class="book">BSEB CLASS 10</div>
+          <h3>Panorama Part 2</h3>
+          <div class="chips">
+            <span class="chip">Chapter Explanation</span>
+            <span class="chip">Important Questions</span>
+            <span class="chip">Objective</span>
+            <span class="chip">Revision</span>
+          </div>
+        </div>
+        <a class="primary" href="/class-10/">10वीं की तैयारी →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 10. Final Call to Action -->
+<section class="final ev-section">
+  <div class="ev-container">
+    <div class="final-box">
+      <h2>आज से English को समझकर सीखना शुरू कीजिए।</h2>
+      <p>Grammar हो, Vocabulary हो या Bihar Board English — शुरुआत सही foundation से कीजिए।</p>
+      <a class="primary" href="/class-12/">Start Learning →</a>
+    </div>
+  </div>
+</section>
 
 </div>
