@@ -15,7 +15,7 @@ schemaJson: |
 <div class="max-w-4xl mx-auto py-8 px-4 sm:px-6">
   
   <!-- Header Banner -->
-  <div class="p-6 sm:p-8 rounded-3xl bg-raised border border-border/80 mb-8 flex flex-col sm:flex-row items-center justify-between gap-6 shadow-xs">
+  <div class="p-6 sm:p-8 rounded-3xl bg-raised border border-border/80 mb-6 flex flex-col sm:flex-row items-center justify-between gap-6 shadow-xs">
     <div>
       <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-accent/10 text-accent text-xs font-bold uppercase tracking-wider mb-2">
         <span>📓</span> पर्सनल नोटबुक
@@ -24,7 +24,7 @@ schemaJson: |
         माय इंग्लिश डायरी (My Diary)
       </h1>
       <p class="text-xs sm:text-sm text-secondary mt-1 max-w-xl">
-        आपके द्वारा सेव किए गए सभी कठिन शब्द, महत्वपूर्ण वाक्य और नोट्स यहाँ ऑफलाइन व क्लाउड दोनों पर सुरक्षित रहते हैं।
+        आपके द्वारा सेव किए गए सभी कठिन शब्द, महत्वपूर्ण वाक्य और नोट्स यहाँ सुरक्षित रहते हैं।
       </p>
     </div>
 
@@ -34,6 +34,17 @@ schemaJson: |
         <span>➕ नया शब्द/नोट जोड़ें</span>
       </button>
     </div>
+  </div>
+
+  <!-- Smart Sync Status Banner -->
+  <div id="diary-sync-banner" class="p-4 rounded-2xl bg-amber-500/10 border border-amber-500/20 mb-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs">
+    <div class="flex items-center gap-2.5 text-amber-600 dark:text-amber-400">
+      <span class="text-base">💡</span>
+      <span><strong>गेस्ट मोड (Guest Mode):</strong> आपके नोट्स इस डिवाइस में सुरक्षित हैं। अपने मोबाइल और कंप्यूटर पर हमेशा के लिए सुरक्षित रखने हेतु 1-क्लिक में लॉगिन करें।</span>
+    </div>
+    <a href="/login/?redirect=/my-diary/" class="px-3.5 py-1.5 rounded-lg bg-amber-500 hover:bg-amber-600 text-white font-bold whitespace-nowrap transition-colors">
+      Google लॉगिन करें →
+    </a>
   </div>
 
   <!-- Search & Filter Controls -->
@@ -258,10 +269,37 @@ document.addEventListener('DOMContentLoaded', () => {
       document.getElementById('note-title-input').value = '';
       document.getElementById('note-desc-input').value = '';
       addModal.classList.add('hidden');
-      renderDiary();
     });
   }
 
+  // Check login state and update sync banner
+  function checkSyncState() {
+    const banner = document.getElementById('diary-sync-banner');
+    if (!banner) return;
+
+    let user = null;
+    try {
+      user = JSON.parse(localStorage.getItem('ev_cached_user'));
+    } catch(e) {}
+
+    if (user && user.email) {
+      banner.className = 'p-4 rounded-2xl bg-emerald-500/10 border border-emerald-500/20 mb-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs';
+      banner.innerHTML = `
+        <div class="flex items-center gap-2.5 text-emerald-600 dark:text-emerald-400">
+          <span class="text-base">🟢</span>
+          <span><strong>क्लाउड बैकअप सक्रिय (${window.escapeHTML(user.name || 'Student')}):</strong> आपके सभी शब्द और नोट्स सुरक्षित हैं।</span>
+        </div>
+        <button onclick="window.syncDiaryToServer && window.syncDiaryToServer().then(() => alert('क्लाउड पर नोट्स सिंक हो गए!'))" class="px-3.5 py-1.5 rounded-lg bg-emerald-500 hover:bg-emerald-600 text-white font-bold whitespace-nowrap transition-colors flex items-center gap-1.5">
+          <span>🔄 अभी सिंक करें</span>
+        </button>
+      `;
+      // Trigger background sync
+      if (window.syncDiaryToServer) window.syncDiaryToServer().catch(() => {});
+      if (window.pullDiaryFromServer) window.pullDiaryFromServer().then(renderDiary).catch(() => {});
+    }
+  }
+
+  checkSyncState();
   renderDiary();
 });
 </script>
