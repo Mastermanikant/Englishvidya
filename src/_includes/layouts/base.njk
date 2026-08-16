@@ -38,8 +38,7 @@
   {# ── Fonts ── #}
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@600;700;800;900&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@600;700;800;900&display=swap"></noscript>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+Devanagari:wght@400;500;600;700;800&family=Outfit:wght@600;700;800;900&display=swap">
 
   {# ── CSS ── #}
   <link rel="stylesheet" href="/css/custom.css?v=4.0.0-live">
@@ -61,6 +60,8 @@
 </head>
 
 <body class="bg-base text-primary font-sans antialiased h-screen flex overflow-hidden selection:bg-accent selection:text-white">
+  <!-- WCAG Skip to Main Content Link -->
+  <a href="#app-content" class="sr-only skip-to-content">मुख्य सामग्री पर जाएं (Skip to main content)</a>
 
   {# ══ DESKTOP SIDEBAR ══ #}
   {% include "partials/sidebar.njk" %}
