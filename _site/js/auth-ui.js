@@ -156,7 +156,7 @@
     if (profileImg) profileImg.style.display = 'none';
   }
 
-  // Instant login helper for testing / guest upgrade
+  // Instant login helper for testing / guest upgrade (Redirects to homepage in 1ms)
   window.evInstantLogin = function(name = 'Master Learner', email = 'student@englishvidya.com') {
     const user = {
       name,
@@ -168,9 +168,7 @@
       localStorage.setItem('ev_cached_user', JSON.stringify(user));
     } catch (e) {}
     applyUserToUI(user);
-    if (window.location.pathname.includes('/profile')) {
-      window.location.reload();
-    }
+    window.location.href = '/';
   };
 
   // Run revalidation on DOM ready
