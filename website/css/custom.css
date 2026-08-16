@@ -9631,4 +9631,54 @@ body.focus-mode-active #toc-floating-widget {
   }
 }
 
+/* ══════════════════════════════════════════════════════════════
+   CLAUDE UI SYNTAX ERROR DETECTION & FORMULA CALLOUTS
+   ══════════════════════════════════════════════════════════════ */
+.ev-syntax-box {
+  border: 1px solid var(--border, #e2e8f0);
+  border-radius: 16px;
+  padding: 16px;
+  background: var(--bg-base, #ffffff);
+  margin: 16px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.dark .ev-syntax-box {
+  background: var(--slate2, #172033);
+  border-color: var(--border, #334155);
+}
+.syntax-wrong {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  font-size: 0.95rem;
+  color: #ef4444;
+  text-decoration: line-through;
+}
+.syntax-right {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  font-size: 0.95rem;
+  color: #10b981;
+  font-weight: 700;
+}
+.syntax-why {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  font-size: 0.85rem;
+  background: rgba(14, 165, 233, 0.08);
+  border-radius: 8px;
+  padding: 10px 12px;
+  color: var(--text-secondary, #475569);
+  margin-top: 4px;
+}
+.dark .syntax-why {
+  background: rgba(56, 189, 248, 0.1);
+  color: #cbd5e1;
+}
+
+
 
