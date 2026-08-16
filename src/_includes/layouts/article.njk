@@ -1,99 +1,176 @@
 ---
 layout: layouts/base.njk
 ---
-<div class="article-layout-container">
-  <div class="article-main-content">
-    <div class="article-meta-header">
-      {% if date %}
-        <span>📅 {{ date | toISO | truncate(10, true, "") }}</span>
-      {% endif %}
-      {% if views %}
-        <span class="article-meta-views">👁️ {{ views }} Views</span>
-      {% endif %}
-    </div>
+
+<div class="max-w-4xl mx-auto w-full px-2 sm:px-4 py-4">
+
+  <!-- 1. Sticky Study Toolbar -->
+  <div class="sticky top-16 z-20 bg-base/95 backdrop-blur-md border border-border/90 rounded-2xl p-3 sm:p-4 mb-6 shadow-xs flex flex-wrap items-center justify-between gap-3">
     
-    {# Collapsible Controls #}
-    <div class="collapsible-controls">
-      <button id="collapse-all-btn" class="btn-secondary collapsible-btn">
-        🗜️ Collapse All
-      </button>
-      <button id="expand-all-btn" class="btn-secondary collapsible-btn">
-        📖 Expand All
-      </button>
+    <!-- Left: Breadcrumb & Progress -->
+    <div class="flex items-center gap-2 text-xs text-secondary font-medium">
+      <a href="/" class="hover:text-accent transition-colors">Home</a>
+      <span>/</span>
+      {% if tags and "class-12" in tags %}
+      <a href="/class-12/" class="hover:text-accent transition-colors">Class 12th</a>
+      {% elif tags and "class-10" in tags %}
+      <a href="/class-10/" class="hover:text-accent transition-colors">Class 10th</a>
+      {% elif tags and "grammar" in tags %}
+      <a href="/grammar/" class="hover:text-accent transition-colors">Grammar</a>
+      {% else %}
+      <span>Study Material</span>
+      {% endif %}
+      <span>/</span>
+      <span class="text-primary font-bold truncate max-w-[150px] sm:max-w-[250px]">{{ title | default(pageTitle) }}</span>
     </div>
 
-    <article class="markdown-body">
-      {{ content | safe }}
-    </article>
+    <!-- Right: Reader Controls (Font size, Audio, Print, Bookmark) -->
+    <div class="flex items-center gap-1.5 shrink-0">
+      
+      <!-- Font Size Adjuster -->
+      <div class="flex items-center bg-raised border border-border rounded-lg p-0.5 text-xs font-bold text-secondary">
+        <button onclick="window.changeArticleFontSize && window.changeArticleFontSize(-1)" class="px-2 py-1 hover:text-accent rounded transition-colors" title="Decrease Font Size" aria-label="Decrease Font Size">A−</button>
+        <button onclick="window.changeArticleFontSize && window.changeArticleFontSize(1)" class="px-2 py-1 hover:text-accent rounded transition-colors" title="Increase Font Size" aria-label="Increase Font Size">A+</button>
+      </div>
 
-    {# Test Yourself CTA #}
-    {% if tags and "grammar" in tags %}
-      {% set testSlug = permalink | replace("/grammar/", "") | replace("/", "") %}
-      {% set hasTest = false %}
-      {% for test in grammarTests %}
-        {% if test.slug == testSlug %}
-          {% set hasTest = true %}
+      <!-- 3-Speed Audio Player Button -->
+      <button onclick="window.toggleSpeechPlayer && window.toggleSpeechPlayer()" class="px-2.5 py-1.5 rounded-lg bg-raised border border-border hover:border-accent text-xs font-semibold text-primary flex items-center gap-1 transition-colors" title="Listen with Audio (3-Speed)" aria-label="Listen with Audio">
+        <span>🔊 सुनो</span>
+      </button>
+
+      <!-- Print / PDF Button -->
+      <button onclick="window.print()" class="px-2.5 py-1.5 rounded-lg bg-raised border border-border hover:border-accent text-xs font-semibold text-primary flex items-center gap-1 transition-colors" title="Print / Save PDF Notes" aria-label="Print Notes">
+        <span>🖨️ प्रिंट</span>
+      </button>
+
+      <!-- Save / Bookmark Button -->
+      <button onclick="window.saveCurrentChapterBookmark && window.saveCurrentChapterBookmark()" class="px-2.5 py-1.5 rounded-lg bg-raised border border-border hover:border-accent text-xs font-semibold text-primary flex items-center gap-1 transition-colors" title="Bookmark Chapter" aria-label="Bookmark Chapter">
+        <span>🔖</span>
+      </button>
+
+    </div>
+  </div>
+
+  <!-- 2. Reading Progress Line Indicator -->
+  <div class="fixed top-16 left-0 right-0 h-1 bg-border/40 z-30">
+    <div id="reading-progress-bar" class="h-full bg-sky-500 transition-all duration-100" style="width: 0%;"></div>
+  </div>
+
+  <!-- 3. Main Reading Content Container -->
+  <div class="bg-raised border border-border/80 rounded-3xl p-6 sm:p-10 shadow-xs">
+    
+    <!-- Meta & Collapsible Controls Header -->
+    <div class="flex flex-wrap items-center justify-between gap-3 pb-6 mb-6 border-b border-border text-xs text-secondary">
+      <div class="flex items-center gap-3">
+        {% if date %}
+        <span>📅 {{ date | toISO | truncate(10, true, "") }}</span>
         {% endif %}
-      {% endfor %}
-      {% if hasTest %}
-        <div class="practice-test-box">
-          <h3 class="practice-test-title">📝 अभ्यास करें (Practice Test)</h3>
-          <p class="practice-test-desc">
-            इस अध्याय को पढ़ने के बाद, अपनी समझ का परीक्षण करने के लिए यह छोटा सा टेस्ट अवश्य दें।
-          </p>
-          <a href="/test/{{ testSlug }}/" class="btn-primary practice-test-btn">
-            ✍️ Start Practice Test (टेस्ट दें)
-          </a>
-        </div>
-      {% endif %}
-    {% endif %}
+        <span class="inline-flex items-center gap-1 font-semibold text-sky-500 bg-sky-500/10 px-2.5 py-0.5 rounded-full">
+          <span>🎯</span> बिहार बोर्ड स्पेशल
+        </span>
+      </div>
 
-    {# ── Sharing Section (Psychological CTA) ── #}
-    <div class="share-box">
-      <h3 class="share-title">💡 क्या आपने इस आर्टिकल से कुछ नया सीखा?</h3>
-      <p class="share-desc">
-        अगर आपको हमारी मेहनत की कद्र है और आप चाहते हैं कि यह सही ज्ञान दूसरे छात्रों तक भी पहुँचे, तो इसे अपने दोस्तों, स्कूल के WhatsApp ग्रुप और Facebook पर ज़रूर शेयर करें। <br><strong>ज्ञान बांटने से ही बढ़ता है!</strong>
-      </p>
-      
-      {% set shareUrl = "https://englishvidya.com" + page.url %}
-      {% set shareText = "इसे ज़रूर पढ़ें: " + (title | urlencode) %}
-      
-      <div class="share-buttons">
-        <a href="https://api.whatsapp.com/send?text={{ shareText | safe }} - {{ shareUrl | urlencode }}" 
-           target="_blank" rel="noopener noreferrer" 
-           class="share-btn-wa">
-          <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M12.031 0C5.385 0 .002 5.38.002 12.02c0 2.128.555 4.205 1.608 6.035L.063 24l6.096-1.597c1.766.974 3.76 1.488 5.867 1.488h.004c6.645 0 12.027-5.38 12.027-12.022S18.677 0 12.031 0zm0 21.905h-.002c-1.794 0-3.55-.483-5.09-1.396l-.364-.216-3.784.992.992-3.69-.236-.376A9.977 9.977 0 0 1 2.015 12.02c0-5.534 4.502-10.038 10.04-10.038 2.682 0 5.203 1.045 7.098 2.943 1.895 1.896 2.94 4.417 2.94 7.097 0 5.536-4.505 10.04-10.04 10.04zm5.513-7.536c-.302-.152-1.785-.88-2.062-.982-.277-.101-.48-.152-.68.151-.202.302-.782.982-.958 1.183-.178.201-.355.226-.658.075-1.517-.756-2.617-1.458-3.633-2.912-.258-.37-.027-.57.124-.72.136-.135.302-.353.454-.528.15-.176.201-.302.302-.503.1-.2.05-.378-.026-.528-.076-.151-.68-1.64-.932-2.247-.245-.591-.494-.51-.68-.52-.178-.008-.38-.01-.58-.01-.2 0-.528.075-.805.378-.277.302-1.056 1.03-1.056 2.513 0 1.483 1.082 2.916 1.233 3.118.151.202 2.124 3.243 5.143 4.545.718.31 1.278.494 1.716.633.72.228 1.374.196 1.892.119.58-.087 1.785-.73 2.037-1.434.252-.705.252-1.309.176-1.435-.075-.126-.277-.202-.58-.353z"/></svg>
-          WhatsApp पर शेयर करें
-        </a>
-        
-        <a href="https://www.facebook.com/sharer/sharer.php?u={{ shareUrl | urlencode }}" 
-           target="_blank" rel="noopener noreferrer" 
-           class="share-btn-fb">
-          <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.469h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.469h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
-          Facebook पर शेयर करें
-        </a>
+      <div class="flex items-center gap-2">
+        <button id="collapse-all-btn" class="px-3 py-1.5 rounded-lg bg-base border border-border hover:border-accent font-semibold text-xs transition-colors">
+          🗜️ Collapse All
+        </button>
+        <button id="expand-all-btn" class="px-3 py-1.5 rounded-lg bg-base border border-border hover:border-accent font-semibold text-xs transition-colors">
+          📖 Expand All
+        </button>
       </div>
     </div>
 
-    {# --- Integrated Reviews & Comments --- #}
-    {% set reviewSlug = page.fileSlug %}
-    <script src="/js/collapsible.js?v=2.1.0" defer></script>
-    {% include "partials/reviews-comments.njk" %}
+    <!-- Article Content (Line-by-line, summary, Q&A) -->
+    <article class="markdown-body prose dark:prose-invert max-w-none text-base sm:text-lg leading-relaxed">
+      {{ content | safe }}
+    </article>
 
-    <div class="back-home-container">
-      <a href="/" class="lesson-back-btn">← Home</a>
+    <!-- 4. Interactive 5-Star Chapter Rating Card -->
+    <div class="mt-12 p-6 rounded-2xl bg-base border border-border text-center space-y-3">
+      <h3 class="text-base sm:text-lg font-bold font-heading text-primary">
+        ⭐ क्या यह पाठ आपको अच्छी तरह समझ आया?
+      </h3>
+      <p class="text-xs sm:text-sm text-secondary">
+        अपनी समझ के अनुसार रेटिंग दें ताकि हम इसे और बेहतर बना सकें।
+      </p>
+      <div class="flex items-center justify-center gap-2 text-2xl" id="chapter-rating-stars">
+        <button onclick="window.rateChapter && window.rateChapter(1)" class="hover:scale-125 transition-transform" title="1 Star" aria-label="1 Star">⭐</button>
+        <button onclick="window.rateChapter && window.rateChapter(2)" class="hover:scale-125 transition-transform" title="2 Stars" aria-label="2 Stars">⭐</button>
+        <button onclick="window.rateChapter && window.rateChapter(3)" class="hover:scale-125 transition-transform" title="3 Stars" aria-label="3 Stars">⭐</button>
+        <button onclick="window.rateChapter && window.rateChapter(4)" class="hover:scale-125 transition-transform" title="4 Stars" aria-label="4 Stars">⭐</button>
+        <button onclick="window.rateChapter && window.rateChapter(5)" class="hover:scale-125 transition-transform" title="5 Stars" aria-label="5 Stars">⭐</button>
+      </div>
+      <div id="chapter-rating-status" class="text-xs font-semibold text-emerald-500 hidden">
+        धन्यवाद! आपकी रेटिंग दर्ज हो गई है।
+      </div>
     </div>
 
-    {% include "components/faq-section.njk" %}
-    {% include "components/author-bio.njk" %}
+    <!-- 5. WhatsApp Doubt & Sharing Bar -->
+    <div class="mt-8 p-6 rounded-2xl bg-emerald-500/10 border border-emerald-500/20 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs">
+      <div class="space-y-1 text-center sm:text-left">
+        <strong class="text-sm text-emerald-700 dark:text-emerald-400 font-bold block">💡 कोई लाइन या प्रश्न समझ नहीं आया?</strong>
+        <span class="text-secondary">मास्टर मणिकांत सर से सीधे WhatsApp पर डाउट पूछें।</span>
+      </div>
+      <a href="https://api.whatsapp.com/send?text={{ ('नमस्ते सर, मुझे EnglishVidya पर इस पाठ में डाउट है: ' + (title | default(pageTitle)) + ' - https://englishvidya.com' + page.url) | urlencode }}" target="_blank" rel="noopener noreferrer" class="px-4 py-2 rounded-xl bg-emerald-500 hover:bg-emerald-600 text-white font-bold whitespace-nowrap transition-colors flex items-center gap-1.5">
+        <span>💬 WhatsApp पर डाउट पूछें</span>
+      </a>
+    </div>
+
+    <!-- 6. Next / Previous Navigation -->
+    <div class="mt-10 pt-6 border-t border-border flex items-center justify-between gap-4">
+      <a href="/" class="px-4 py-2 rounded-xl bg-base border border-border hover:border-accent text-xs sm:text-sm font-semibold text-primary transition-colors">
+        ← होमपेज (Home)
+      </a>
+      {% if tags and "class-12" in tags %}
+      <a href="/class-12/" class="px-4 py-2 rounded-xl bg-sky-500 hover:bg-sky-400 text-slate-950 text-xs sm:text-sm font-bold transition-colors">
+        12वीं के सभी पाठ देखें →
+      </a>
+      {% elif tags and "class-10" in tags %}
+      <a href="/class-10/" class="px-4 py-2 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-slate-950 text-xs sm:text-sm font-bold transition-colors">
+        10वीं के सभी पाठ देखें →
+      </a>
+      {% else %}
+      <a href="/grammar/" class="px-4 py-2 rounded-xl bg-indigo-500 hover:bg-indigo-400 text-white text-xs sm:text-sm font-bold transition-colors">
+        व्याकरण के सभी पाठ देखें →
+      </a>
+      {% endif %}
+    </div>
+
   </div>
-
-  <aside class="sidebar-ads">
-    <div class="ad-placeholder">
-      <p>Advertisement Space<br><small>(For future ads)</small></p>
-    </div>
-    <div class="ad-placeholder sticky-ad">
-      <p>Advertisement Space<br><small>(Sticky ad)</small></p>
-    </div>
-  </aside>
 </div>
+
+<script src="/js/collapsible.js?v=2.1.0" defer></script>
+<script>
+// Article Reader Utilities
+(function() {
+  let currentZoom = 100;
+  window.changeArticleFontSize = function(delta) {
+    const article = document.querySelector('.markdown-body');
+    if (!article) return;
+    currentZoom = Math.min(140, Math.max(85, currentZoom + (delta * 10)));
+    article.style.fontSize = (currentZoom / 100) * 1.1 + 'rem';
+  };
+
+  window.rateChapter = function(stars) {
+    const status = document.getElementById('chapter-rating-status');
+    if (status) status.classList.remove('hidden');
+    if (window.showToast) window.showToast(`⭐ आपने ${stars}/5 स्टार रेटिंग दी! धन्यवाद।`, 'success');
+  };
+
+  window.saveCurrentChapterBookmark = function() {
+    const bookmarks = JSON.parse(localStorage.getItem('ev-bookmarks') || '[]');
+    const title = document.title || 'Chapter Note';
+    const url = window.location.pathname;
+    
+    if (!bookmarks.some(b => b.url === url)) {
+      bookmarks.unshift({ title, url, date: new Date().toISOString() });
+      localStorage.setItem('ev-bookmarks', JSON.stringify(bookmarks));
+      if (window.showToast) window.showToast('🔖 चैप्टर बुकमार्क में सुरक्षित हो गया!', 'success');
+      else alert('🔖 चैप्टर बुकमार्क में सुरक्षित हो गया!');
+    } else {
+      if (window.showToast) window.showToast('ℹ️ यह चैप्टर पहले से बुकमार्क है!', 'info');
+      else alert('ℹ️ यह चैप्टर पहले से बुकमार्क है!');
+    }
+  };
+})();
+</script>
