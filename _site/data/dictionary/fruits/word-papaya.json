@@ -1,0 +1,31 @@
+{
+    "word": "Papaya",
+    "slug": "papaya",
+    "pron": "पपाया",
+    "meaning": "पपीता",
+    "usages": [
+        {
+            "partOfSpeech": "Noun",
+            "definition": "A tropical fruit with orange flesh and small black seeds.",
+            "examples": [
+                {
+                    "en": "Papaya is very good for digestion.",
+                    "hi": "पपीता पाचन के लिए बहुत अच्छा होता है।"
+                },
+                {
+                    "en": "I had a bowl of ripe papaya for breakfast.",
+                    "hi": "मैंने नाश्ते में एक कटोरी पका पपीता खाया।"
+                }
+            ]
+        }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [
+        "ripe papaya",
+        "raw papaya",
+        "papaya seeds"
+    ],
+    "category": "fruits",
+    "hasTranslations": true
+}

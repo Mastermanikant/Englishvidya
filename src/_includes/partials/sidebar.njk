@@ -7,34 +7,49 @@
   </div>
   
   <nav class="flex-1 overflow-y-auto py-4 px-3 flex flex-col gap-1" aria-label="Desktop Navigation" id="desktop-nav">
-    {% for item in site.nav %}
-      {% if item.children %}
-        <div class="nav-dropdown-container group">
-          <button class="w-full flex items-center justify-between px-3 py-2 text-sm font-medium text-secondary rounded-lg hover:bg-base hover:text-primary transition-colors dropdown-toggle" aria-haspopup="true" aria-expanded="false">
-            {{ item.label }}
-            <svg class="w-4 h-4 opacity-50 group-hover:opacity-100 transition-opacity" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
-          </button>
-          <div class="hidden flex-col gap-1 pl-4 pr-2 mt-1 nav-dropdown-menu">
-            {% for child in item.children %}
-              <a href="{{ child.href }}" class="block px-3 py-2 text-sm text-secondary hover:text-accent hover:bg-base rounded-md transition-colors">{{ child.label }}</a>
-            {% endfor %}
-          </div>
-        </div>
-      {% else %}
-        <a href="{{ item.href }}" class="block px-3 py-2 text-sm font-medium text-secondary hover:text-accent hover:bg-base rounded-lg transition-colors {% if page.url == item.href %}bg-base text-accent{% endif %}" data-route="{{ item.route }}">
-          {{ item.label }}
-        </a>
-      {% endif %}
-    {% endfor %}
+    <a href="/" class="block px-3 py-2 text-sm font-medium text-secondary hover:text-accent hover:bg-base rounded-lg transition-colors {% if page.url == '/' %}bg-base text-accent{% endif %}" data-route="home">
+      🏠 Home
+    </a>
+    
+    <div class="nav-dropdown-container group">
+      <button class="w-full flex items-center justify-between px-3 py-2 text-sm font-medium text-secondary rounded-lg hover:bg-base hover:text-primary transition-colors dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+        📚 Board Classes
+        <svg class="w-4 h-4 opacity-50 group-hover:opacity-100 transition-opacity" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+      </button>
+      <div class="hidden flex-col gap-1 pl-4 pr-2 mt-1 nav-dropdown-menu">
+        <a href="/class-12/" class="block px-3 py-2 text-sm text-secondary hover:text-accent hover:bg-base rounded-md transition-colors">Class 12th (Rainbow 2)</a>
+        <a href="/class-10/" class="block px-3 py-2 text-sm text-secondary hover:text-accent hover:bg-base rounded-md transition-colors">Class 10th (Panorama 2)</a>
+      </div>
+    </div>
+
+    <a href="/grammar/" class="block px-3 py-2 text-sm font-medium text-secondary hover:text-accent hover:bg-base rounded-lg transition-colors {% if '/grammar/' in page.url %}bg-base text-accent{% endif %}" data-route="grammar">
+      ✨ Grammar Master
+    </a>
+
+    <a href="/dictionary/" class="block px-3 py-2 text-sm font-medium text-secondary hover:text-accent hover:bg-base rounded-lg transition-colors {% if '/dictionary/' in page.url %}bg-base text-accent{% endif %}" data-route="dictionary">
+      🔍 A-Z Dictionary
+    </a>
+
+    <a href="/flashcards/" class="block px-3 py-2 text-sm font-medium text-secondary hover:text-accent hover:bg-base rounded-lg transition-colors {% if '/flashcards/' in page.url %}bg-base text-accent{% endif %}" data-route="flashcards">
+      🗂️ Flashcards Drill
+    </a>
+
+    <a href="/my-diary/" class="block px-3 py-2 text-sm font-medium text-secondary hover:text-accent hover:bg-base rounded-lg transition-colors {% if '/my-diary/' in page.url %}bg-base text-accent{% endif %}" data-route="diary">
+      📓 My Diary & Notes
+    </a>
+
+    <a href="/profile/" class="block px-3 py-2 text-sm font-medium text-secondary hover:text-accent hover:bg-base rounded-lg transition-colors {% if '/profile/' in page.url or '/login/' in page.url %}bg-base text-accent{% endif %}" data-route="profile">
+      👤 Profile & Login
+    </a>
   </nav>
 
   <div class="p-4 border-t border-border mt-auto">
     <div class="text-xs text-secondary/60 mb-2 font-medium uppercase tracking-wider">Connect</div>
     <div class="flex items-center gap-3">
-      <a href="{{ site.youtubeChannel | default('#') }}" target="_blank" rel="noopener noreferrer" aria-label="YouTube" class="text-secondary hover:text-red-500 transition-colors">
+      <a href="{{ site.youtubeChannel | default('https://youtube.com/@englishvidyahq') }}" target="_blank" rel="noopener noreferrer" aria-label="YouTube" class="text-secondary hover:text-red-500 transition-colors">
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33 2.78 2.78 0 0 0 1.94 2c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.33 29 29 0 0 0-.46-5.33z"></path><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon></svg>
       </a>
-      <a href="{{ site.whatsappChannel | default('#') }}" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" class="text-secondary hover:text-green-500 transition-colors">
+      <a href="{{ site.whatsappChannel | default('https://whatsapp.com/channel/0029VbCnmPe0VycPXCmBBH43') }}" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" class="text-secondary hover:text-green-500 transition-colors">
         <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M11.996 0A12 12 0 000 12c0 2.115.555 4.103 1.536 5.82L.053 23.951l6.27-1.643A11.968 11.968 0 0011.996 24C18.625 24 24 18.625 24 12S18.625 0 11.996 0zm6.98 17.202c-.302.846-1.748 1.583-2.42 1.637-.622.046-1.419.143-4.542-1.15-3.754-1.554-6.177-5.405-6.363-5.653-.186-.248-1.521-2.025-1.521-3.864 0-1.839.957-2.744 1.298-3.116.34-.372.743-.464.991-.464.248 0 .496.002.712.012.23.01.536-.084.846.662.31.743 1.053 2.569 1.146 2.755.093.186.155.403.03.65-.123.248-.186.403-.372.62-.186.216-.388.48-.557.65-.186.185-.383.39-.17.761.213.372.951 1.576 2.044 2.553 1.408 1.258 2.585 1.644 2.957 1.83.372.186.589.155.806-.093.217-.248.93-1.085 1.178-1.456.248-.372.496-.31.837-.186.34.124 2.169 1.023 2.54 1.209.372.186.62.279.713.433.093.155.093.898-.21 1.744z"/></svg>
       </a>
     </div>

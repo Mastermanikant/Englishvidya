@@ -1,0 +1,32 @@
+{
+    "word": "Mango",
+    "slug": "mango",
+    "pron": "मैंगो",
+    "meaning": "आम",
+    "usages": [
+        {
+            "partOfSpeech": "Noun",
+            "definition": "A sweet, juicy tropical fruit with a large pit.",
+            "examples": [
+                {
+                    "en": "Mango is known as the king of fruits in India.",
+                    "hi": "भारत में आम को फलों का राजा कहा जाता है।"
+                },
+                {
+                    "en": "We made delicious mango shake yesterday.",
+                    "hi": "हमने कल स्वादिष्ट मैंगो शेक बनाया।"
+                }
+            ]
+        }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [
+        "ripe mango",
+        "mango tree",
+        "mango juice",
+        "sweet mango"
+    ],
+    "category": "fruits",
+    "hasTranslations": true
+}

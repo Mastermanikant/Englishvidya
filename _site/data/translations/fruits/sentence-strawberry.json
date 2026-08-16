@@ -1,0 +1,297 @@
+{
+    "word": "Strawberry",
+    "slug": "strawberry",
+    "category": "fruits",
+    "translations": [
+        {
+            "tense": "To Be - Present Affirmative",
+            "en": "This is a strawberry.",
+            "hi": "यह एक स्ट्रॉबेरी है।"
+        },
+        {
+            "tense": "To Be - Present Affirmative (Plural)",
+            "en": "These are strawberries.",
+            "hi": "ये स्ट्रॉबेरी हैं।"
+        },
+        {
+            "tense": "To Be - Past Affirmative",
+            "en": "That was a strawberry.",
+            "hi": "वह एक स्ट्रॉबेरी थी।"
+        },
+        {
+            "tense": "To Be - Past Affirmative (Plural)",
+            "en": "Those were strawberries.",
+            "hi": "वे स्ट्रॉबेरी थीं।"
+        },
+        {
+            "tense": "To Be - Present Negative",
+            "en": "This is not a strawberry.",
+            "hi": "यह एक स्ट्रॉबेरी नहीं है।"
+        },
+        {
+            "tense": "To Be - Present Negative (Plural)",
+            "en": "These are not strawberries.",
+            "hi": "ये स्ट्रॉबेरी नहीं हैं।"
+        },
+        {
+            "tense": "To Be - Present Interrogative",
+            "en": "Is this a strawberry?",
+            "hi": "क्या यह एक स्ट्रॉबेरी है?"
+        },
+        {
+            "tense": "To Be - Present Interrogative (Plural)",
+            "en": "Are these strawberries?",
+            "hi": "क्या ये स्ट्रॉबेरी हैं?"
+        },
+        {
+            "tense": "To Be - Past Interrogative",
+            "en": "Was that a strawberry?",
+            "hi": "क्या वह एक स्ट्रॉबेरी थी?"
+        },
+        {
+            "tense": "To Be - Wh-Question",
+            "en": "Where is the strawberry?",
+            "hi": "स्ट्रॉबेरी कहाँ है?"
+        },
+        {
+            "tense": "To Be - Wh-Question (Plural)",
+            "en": "Where are the strawberries?",
+            "hi": "स्ट्रॉबेरी कहाँ हैं?"
+        },
+        {
+            "tense": "To Be - Wh-Question (Why)",
+            "en": "Why is this strawberry here?",
+            "hi": "यह स्ट्रॉबेरी यहाँ क्यों है?"
+        },
+        {
+            "tense": "To Have - Present Affirmative",
+            "en": "I have a strawberry.",
+            "hi": "मेरे पास एक स्ट्रॉबेरी है।"
+        },
+        {
+            "tense": "To Have - Present Affirmative (Plural)",
+            "en": "I have many strawberries.",
+            "hi": "मेरे पास कई स्ट्रॉबेरी हैं।"
+        },
+        {
+            "tense": "To Have - Past Affirmative",
+            "en": "I had a strawberry.",
+            "hi": "मेरे पास एक स्ट्रॉबेरी थी।"
+        },
+        {
+            "tense": "To Have - Present Negative",
+            "en": "I don't have a strawberry.",
+            "hi": "मेरे पास स्ट्रॉबेरी नहीं है।"
+        },
+        {
+            "tense": "To Have - Present Interrogative",
+            "en": "Do you have a strawberry?",
+            "hi": "क्या तुम्हारे पास एक स्ट्रॉबेरी है?"
+        },
+        {
+            "tense": "To Have - Past Interrogative",
+            "en": "Did you have a strawberry?",
+            "hi": "क्या तुम्हारे पास एक स्ट्रॉबेरी थी?"
+        },
+        {
+            "tense": "To Have - Wh-Question",
+            "en": "How many strawberries do you have?",
+            "hi": "तुम्हारे पास कितने स्ट्रॉबेरी हैं?"
+        },
+        {
+            "tense": "Simple Present - Affirmative",
+            "en": "I eat a strawberry every day.",
+            "hi": "मैं हर दिन एक स्ट्रॉबेरी खाता हूँ।"
+        },
+        {
+            "tense": "Simple Present - Negative",
+            "en": "I don't eat strawberries.",
+            "hi": "मैं स्ट्रॉबेरी नहीं खाता हूँ।"
+        },
+        {
+            "tense": "Simple Present - Interrogative",
+            "en": "Do you eat strawberries?",
+            "hi": "क्या तुम स्ट्रॉबेरी खाते हो?"
+        },
+        {
+            "tense": "Simple Present - Wh-Question",
+            "en": "When do you eat a strawberry?",
+            "hi": "तुम स्ट्रॉबेरी कब खाते हो?"
+        },
+        {
+            "tense": "Present Continuous - Affirmative",
+            "en": "I am eating a strawberry.",
+            "hi": "मैं एक स्ट्रॉबेरी खा रहा हूँ।"
+        },
+        {
+            "tense": "Present Continuous - Negative",
+            "en": "I am not eating a strawberry.",
+            "hi": "मैं स्ट्रॉबेरी नहीं खा रहा हूँ।"
+        },
+        {
+            "tense": "Present Continuous - Interrogative",
+            "en": "Are you eating a strawberry?",
+            "hi": "क्या तुम स्ट्रॉबेरी खा रहे हो?"
+        },
+        {
+            "tense": "Present Continuous - Wh-Question",
+            "en": "Why are you eating my strawberry?",
+            "hi": "तुम मेरा स्ट्रॉबेरी क्यों खा रहे हो?"
+        },
+        {
+            "tense": "Present Perfect - Affirmative",
+            "en": "I have eaten the strawberry.",
+            "hi": "मैंने स्ट्रॉबेरी खा लिया है।"
+        },
+        {
+            "tense": "Present Perfect - Negative",
+            "en": "I have not eaten the strawberry.",
+            "hi": "मैंने स्ट्रॉबेरी नहीं खाया है।"
+        },
+        {
+            "tense": "Present Perfect - Interrogative",
+            "en": "Have you eaten the strawberry?",
+            "hi": "क्या तुमने स्ट्रॉबेरी खा लिया है?"
+        },
+        {
+            "tense": "Simple Past - Affirmative",
+            "en": "I bought a strawberry yesterday.",
+            "hi": "मैंने कल एक स्ट्रॉबेरी खरीदी थी।"
+        },
+        {
+            "tense": "Simple Past - Negative",
+            "en": "I didn't buy a strawberry.",
+            "hi": "मैंने स्ट्रॉबेरी नहीं खरीदी।"
+        },
+        {
+            "tense": "Simple Past - Interrogative",
+            "en": "Did you buy a strawberry?",
+            "hi": "क्या तुमने एक स्ट्रॉबेरी खरीदी?"
+        },
+        {
+            "tense": "Simple Past - Wh-Question",
+            "en": "Where did you buy this strawberry?",
+            "hi": "तुमने यह स्ट्रॉबेरी कहाँ से खरीदी?"
+        },
+        {
+            "tense": "Past Continuous - Affirmative",
+            "en": "I was eating a strawberry when you called.",
+            "hi": "जब तुमने फोन किया तब मैं एक स्ट्रॉबेरी खा रहा था।"
+        },
+        {
+            "tense": "Past Continuous - Interrogative",
+            "en": "Were you eating a strawberry?",
+            "hi": "क्या तुम एक स्ट्रॉबेरी खा रहे थे?"
+        },
+        {
+            "tense": "Simple Future - Affirmative",
+            "en": "I will eat a strawberry tomorrow.",
+            "hi": "मैं कल एक स्ट्रॉबेरी खाऊँगा।"
+        },
+        {
+            "tense": "Simple Future - Negative",
+            "en": "I will not eat the strawberry.",
+            "hi": "मैं वह स्ट्रॉबेरी नहीं खाऊँगा।"
+        },
+        {
+            "tense": "Simple Future - Interrogative",
+            "en": "Will you eat this strawberry?",
+            "hi": "क्या तुम यह स्ट्रॉबेरी खाओगे?"
+        },
+        {
+            "tense": "Modal - Can",
+            "en": "Can you peel this strawberry?",
+            "hi": "क्या तुम यह स्ट्रॉबेरी छील सकते हो?"
+        },
+        {
+            "tense": "Modal - Should",
+            "en": "You should eat a strawberry.",
+            "hi": "तुम्हें एक स्ट्रॉबेरी खाना चाहिए।"
+        },
+        {
+            "tense": "Modal - Must",
+            "en": "You must buy fresh strawberries.",
+            "hi": "तुम्हें ताज़े स्ट्रॉबेरी ही खरीदने चाहिए।"
+        },
+        {
+            "tense": "Modal - May",
+            "en": "May I have a strawberry?",
+            "hi": "क्या मैं एक स्ट्रॉबेरी ले सकता हूँ?"
+        },
+        {
+            "tense": "Modal - Would",
+            "en": "Would you like a strawberry?",
+            "hi": "क्या आप एक स्ट्रॉबेरी लेना पसंद करेंगे?"
+        },
+        {
+            "tense": "Imperative - Affirmative",
+            "en": "Eat this strawberry.",
+            "hi": "यह स्ट्रॉबेरी खाओ।"
+        },
+        {
+            "tense": "Imperative - Negative",
+            "en": "Don't eat that strawberry.",
+            "hi": "वह स्ट्रॉबेरी मत खाओ।"
+        },
+        {
+            "tense": "Passive Voice - Present",
+            "en": "The strawberry is eaten.",
+            "hi": "स्ट्रॉबेरी खाई जाती है।"
+        },
+        {
+            "tense": "Passive Voice - Past",
+            "en": "The strawberry was eaten by him.",
+            "hi": "स्ट्रॉबेरी उसके द्वारा खाई गई थी।"
+        },
+        {
+            "tense": "Location/Preposition",
+            "en": "The strawberry is on the table.",
+            "hi": "स्ट्रॉबेरी मेज़ पर है।"
+        },
+        {
+            "tense": "Location/Preposition",
+            "en": "There is a strawberry in the basket.",
+            "hi": "टोकरी में एक स्ट्रॉबेरी है।"
+        },
+        {
+            "tense": "Location/Preposition",
+            "en": "The monkey is holding a strawberry.",
+            "hi": "बंदर ने एक स्ट्रॉबेरी पकड़ा हुआ है।"
+        },
+        {
+            "tense": "Adjective Use",
+            "en": "This strawberry is sweet.",
+            "hi": "यह स्ट्रॉबेरी मीठी है।"
+        },
+        {
+            "tense": "Adjective Use",
+            "en": "That strawberry is rotten.",
+            "hi": "वह स्ट्रॉबेरी सड़ी हुई है।"
+        },
+        {
+            "tense": "Adjective Use",
+            "en": "I need a ripe strawberry.",
+            "hi": "मुझे एक पकी हुई स्ट्रॉबेरी चाहिए।"
+        },
+        {
+            "tense": "Action - Cutting",
+            "en": "I am cutting the strawberry.",
+            "hi": "मैं स्ट्रॉबेरी काट रहा हूँ।"
+        },
+        {
+            "tense": "Action - Peeling",
+            "en": "Please peel the strawberry.",
+            "hi": "कृपया स्ट्रॉबेरी छील दो।"
+        },
+        {
+            "tense": "Action - Buying",
+            "en": "She is buying strawberries.",
+            "hi": "वह स्ट्रॉबेरी खरीद रही है।"
+        },
+        {
+            "tense": "Action - Washing",
+            "en": "Wash the strawberry before eating.",
+            "hi": "खाने से पहले स्ट्रॉबेरी धो लो।"
+        }
+    ]
+}

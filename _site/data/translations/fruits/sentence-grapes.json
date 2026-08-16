@@ -1,0 +1,297 @@
+{
+    "word": "Grapes",
+    "slug": "grapes",
+    "category": "fruits",
+    "translations": [
+        {
+            "tense": "To Be - Present Affirmative",
+            "en": "This is a grape.",
+            "hi": "यह एक अंगूर है।"
+        },
+        {
+            "tense": "To Be - Present Affirmative (Plural)",
+            "en": "These are grapes.",
+            "hi": "ये अंगूर हैं।"
+        },
+        {
+            "tense": "To Be - Past Affirmative",
+            "en": "That was a grape.",
+            "hi": "वह एक अंगूर था।"
+        },
+        {
+            "tense": "To Be - Past Affirmative (Plural)",
+            "en": "Those were grapes.",
+            "hi": "वे अंगूर थे।"
+        },
+        {
+            "tense": "To Be - Present Negative",
+            "en": "This is not a grape.",
+            "hi": "यह एक अंगूर नहीं है।"
+        },
+        {
+            "tense": "To Be - Present Negative (Plural)",
+            "en": "These are not grapes.",
+            "hi": "ये अंगूर नहीं हैं।"
+        },
+        {
+            "tense": "To Be - Present Interrogative",
+            "en": "Is this a grape?",
+            "hi": "क्या यह एक अंगूर है?"
+        },
+        {
+            "tense": "To Be - Present Interrogative (Plural)",
+            "en": "Are these grapes?",
+            "hi": "क्या ये अंगूर हैं?"
+        },
+        {
+            "tense": "To Be - Past Interrogative",
+            "en": "Was that a grape?",
+            "hi": "क्या वह एक अंगूर था?"
+        },
+        {
+            "tense": "To Be - Wh-Question",
+            "en": "Where is the grape?",
+            "hi": "अंगूर कहाँ है?"
+        },
+        {
+            "tense": "To Be - Wh-Question (Plural)",
+            "en": "Where are the grapes?",
+            "hi": "अंगूर कहाँ हैं?"
+        },
+        {
+            "tense": "To Be - Wh-Question (Why)",
+            "en": "Why is this grape here?",
+            "hi": "यह अंगूर यहाँ क्यों है?"
+        },
+        {
+            "tense": "To Have - Present Affirmative",
+            "en": "I have a grape.",
+            "hi": "मेरे पास एक अंगूर है।"
+        },
+        {
+            "tense": "To Have - Present Affirmative (Plural)",
+            "en": "I have many grapes.",
+            "hi": "मेरे पास कई अंगूर हैं।"
+        },
+        {
+            "tense": "To Have - Past Affirmative",
+            "en": "I had a grape.",
+            "hi": "मेरे पास एक अंगूर था।"
+        },
+        {
+            "tense": "To Have - Present Negative",
+            "en": "I don't have a grape.",
+            "hi": "मेरे पास अंगूर नहीं है।"
+        },
+        {
+            "tense": "To Have - Present Interrogative",
+            "en": "Do you have a grape?",
+            "hi": "क्या तुम्हारे पास एक अंगूर है?"
+        },
+        {
+            "tense": "To Have - Past Interrogative",
+            "en": "Did you have a grape?",
+            "hi": "क्या तुम्हारे पास एक अंगूर था?"
+        },
+        {
+            "tense": "To Have - Wh-Question",
+            "en": "How many grapes do you have?",
+            "hi": "तुम्हारे पास कितने अंगूर हैं?"
+        },
+        {
+            "tense": "Simple Present - Affirmative",
+            "en": "I eat a grape every day.",
+            "hi": "मैं हर दिन एक अंगूर खाता हूँ।"
+        },
+        {
+            "tense": "Simple Present - Negative",
+            "en": "I don't eat grapes.",
+            "hi": "मैं अंगूर नहीं खाता हूँ।"
+        },
+        {
+            "tense": "Simple Present - Interrogative",
+            "en": "Do you eat grapes?",
+            "hi": "क्या तुम अंगूर खाते हो?"
+        },
+        {
+            "tense": "Simple Present - Wh-Question",
+            "en": "When do you eat a grape?",
+            "hi": "तुम अंगूर कब खाते हो?"
+        },
+        {
+            "tense": "Present Continuous - Affirmative",
+            "en": "I am eating a grape.",
+            "hi": "मैं एक अंगूर खा रहा हूँ।"
+        },
+        {
+            "tense": "Present Continuous - Negative",
+            "en": "I am not eating a grape.",
+            "hi": "मैं अंगूर नहीं खा रहा हूँ।"
+        },
+        {
+            "tense": "Present Continuous - Interrogative",
+            "en": "Are you eating a grape?",
+            "hi": "क्या तुम अंगूर खा रहे हो?"
+        },
+        {
+            "tense": "Present Continuous - Wh-Question",
+            "en": "Why are you eating my grape?",
+            "hi": "तुम मेरा अंगूर क्यों खा रहे हो?"
+        },
+        {
+            "tense": "Present Perfect - Affirmative",
+            "en": "I have eaten the grape.",
+            "hi": "मैंने अंगूर खा लिया है।"
+        },
+        {
+            "tense": "Present Perfect - Negative",
+            "en": "I have not eaten the grape.",
+            "hi": "मैंने अंगूर नहीं खाया है।"
+        },
+        {
+            "tense": "Present Perfect - Interrogative",
+            "en": "Have you eaten the grape?",
+            "hi": "क्या तुमने अंगूर खा लिया है?"
+        },
+        {
+            "tense": "Simple Past - Affirmative",
+            "en": "I bought a grape yesterday.",
+            "hi": "मैंने कल एक अंगूर खरीदा था।"
+        },
+        {
+            "tense": "Simple Past - Negative",
+            "en": "I didn't buy a grape.",
+            "hi": "मैंने अंगूर नहीं खरीदा।"
+        },
+        {
+            "tense": "Simple Past - Interrogative",
+            "en": "Did you buy a grape?",
+            "hi": "क्या तुमने एक अंगूर खरीदा?"
+        },
+        {
+            "tense": "Simple Past - Wh-Question",
+            "en": "Where did you buy this grape?",
+            "hi": "तुमने यह अंगूर कहाँ से खरीदा?"
+        },
+        {
+            "tense": "Past Continuous - Affirmative",
+            "en": "I was eating a grape when you called.",
+            "hi": "जब तुमने फोन किया तब मैं एक अंगूर खा रहा था।"
+        },
+        {
+            "tense": "Past Continuous - Interrogative",
+            "en": "Were you eating a grape?",
+            "hi": "क्या तुम एक अंगूर खा रहे थे?"
+        },
+        {
+            "tense": "Simple Future - Affirmative",
+            "en": "I will eat a grape tomorrow.",
+            "hi": "मैं कल एक अंगूर खाऊँगा।"
+        },
+        {
+            "tense": "Simple Future - Negative",
+            "en": "I will not eat the grape.",
+            "hi": "मैं वह अंगूर नहीं खाऊँगा।"
+        },
+        {
+            "tense": "Simple Future - Interrogative",
+            "en": "Will you eat this grape?",
+            "hi": "क्या तुम यह अंगूर खाओगे?"
+        },
+        {
+            "tense": "Modal - Can",
+            "en": "Can you peel this grape?",
+            "hi": "क्या तुम यह अंगूर छील सकते हो?"
+        },
+        {
+            "tense": "Modal - Should",
+            "en": "You should eat a grape.",
+            "hi": "तुम्हें एक अंगूर खाना चाहिए।"
+        },
+        {
+            "tense": "Modal - Must",
+            "en": "You must buy fresh grapes.",
+            "hi": "तुम्हें ताज़े अंगूर ही खरीदने चाहिए।"
+        },
+        {
+            "tense": "Modal - May",
+            "en": "May I have a grape?",
+            "hi": "क्या मैं एक अंगूर ले सकता हूँ?"
+        },
+        {
+            "tense": "Modal - Would",
+            "en": "Would you like a grape?",
+            "hi": "क्या आप एक अंगूर लेना पसंद करेंगे?"
+        },
+        {
+            "tense": "Imperative - Affirmative",
+            "en": "Eat this grape.",
+            "hi": "यह अंगूर खाओ।"
+        },
+        {
+            "tense": "Imperative - Negative",
+            "en": "Don't eat that grape.",
+            "hi": "वह अंगूर मत खाओ।"
+        },
+        {
+            "tense": "Passive Voice - Present",
+            "en": "The grape is eaten.",
+            "hi": "अंगूर खाया जाता है।"
+        },
+        {
+            "tense": "Passive Voice - Past",
+            "en": "The grape was eaten by him.",
+            "hi": "अंगूर उसके द्वारा खाया गया था।"
+        },
+        {
+            "tense": "Location/Preposition",
+            "en": "The grape is on the table.",
+            "hi": "अंगूर मेज़ पर है।"
+        },
+        {
+            "tense": "Location/Preposition",
+            "en": "There is a grape in the basket.",
+            "hi": "टोकरी में एक अंगूर है।"
+        },
+        {
+            "tense": "Location/Preposition",
+            "en": "The monkey is holding a grape.",
+            "hi": "बंदर ने एक अंगूर पकड़ा हुआ है।"
+        },
+        {
+            "tense": "Adjective Use",
+            "en": "This grape is sweet.",
+            "hi": "यह अंगूर मीठा है।"
+        },
+        {
+            "tense": "Adjective Use",
+            "en": "That grape is rotten.",
+            "hi": "वह अंगूर सड़ा हुआ है।"
+        },
+        {
+            "tense": "Adjective Use",
+            "en": "I need a ripe grape.",
+            "hi": "मुझे एक पका हुआ अंगूर चाहिए।"
+        },
+        {
+            "tense": "Action - Cutting",
+            "en": "I am cutting the grape.",
+            "hi": "मैं अंगूर काट रहा हूँ।"
+        },
+        {
+            "tense": "Action - Peeling",
+            "en": "Please peel the grape.",
+            "hi": "कृपया अंगूर छील दो।"
+        },
+        {
+            "tense": "Action - Buying",
+            "en": "She is buying grapes.",
+            "hi": "वह अंगूर खरीद रही है।"
+        },
+        {
+            "tense": "Action - Washing",
+            "en": "Wash the grape before eating.",
+            "hi": "खाने से पहले अंगूर धो लो।"
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "word": "Pomegranate",
+    "slug": "pomegranate",
+    "pron": "पोमग्रेनेट",
+    "meaning": "अनार",
+    "usages": [
+        {
+            "partOfSpeech": "Noun",
+            "definition": "A round fruit with a thick, reddish skin containing many juicy red seeds.",
+            "examples": [
+                {
+                    "en": "Pomegranate juice is very healthy for the heart.",
+                    "hi": "अनार का रस दिल के लिए बहुत सेहतमंद होता है।"
+                },
+                {
+                    "en": "It takes time to peel a pomegranate.",
+                    "hi": "अनार छीलने में समय लगता है।"
+                }
+            ]
+        }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "collocations": [
+        "pomegranate seeds",
+        "pomegranate juice",
+        "ripe pomegranate"
+    ],
+    "category": "fruits",
+    "hasTranslations": true
+}
