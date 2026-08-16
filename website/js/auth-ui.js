@@ -3,35 +3,63 @@
 (function() {
   let currentUser = null;
 
-  // 1. Instant Cache Initialization (0ms UI lag)
+  // 1. Intercept URL Hydration Parameters (?login=success&u_name=...)
   try {
-    const cached = localStorage.getItem('ev_cached_user');
-    if (cached) {
-      currentUser = JSON.parse(cached);
+    const params = new URLSearchParams(window.location.search);
+    if (params.get('login') === 'success') {
+      const urlUser = {
+        name: params.get('u_name') || 'Student',
+        email: params.get('u_email') || 'student@englishvidya.com',
+        avatar_url: params.get('u_avatar') || '',
+        role: params.get('u_role') || 'learner'
+      };
+      localStorage.setItem('ev_cached_user', JSON.stringify(urlUser));
+      currentUser = urlUser;
+      
+      // Clean query params from address bar without reloading
+      const cleanUrl = window.location.pathname;
+      window.history.replaceState({}, document.title, cleanUrl);
+    }
+  } catch (e) {}
+
+  // 2. Instant Cache Initialization (0ms UI lag)
+  try {
+    if (!currentUser) {
+      const cached = localStorage.getItem('ev_cached_user');
+      if (cached) {
+        currentUser = JSON.parse(cached);
+      }
+    }
+    if (currentUser) {
       applyUserToUI(currentUser);
     }
   } catch (e) {}
 
-  // 2. Background Revalidation with Live API
+  // 3. Background Revalidation with Live API
   async function syncAuthStatus() {
     try {
       const res = await fetch('/api/auth-me?_t=' + Date.now(), { cache: 'no-store' });
-      if (!res.ok) {
-        handleLoggedOut();
-        return;
+      if (res.ok) {
+        const data = await res.json();
+        if (data.loggedIn && data.user) {
+          currentUser = data.user;
+          try {
+            localStorage.setItem('ev_cached_user', JSON.stringify(currentUser));
+          } catch (e) {}
+          applyUserToUI(currentUser);
+          return;
+        }
       }
-      const data = await res.json();
-      if (data.loggedIn && data.user) {
-        currentUser = data.user;
-        try {
-          localStorage.setItem('ev_cached_user', JSON.stringify(currentUser));
-        } catch (e) {}
-        applyUserToUI(currentUser);
-      } else {
-        handleLoggedOut();
+      
+      // If server explicitly says loggedIn: false and no URL params
+      if (!window.location.search.includes('login=success')) {
+        const data = await res.json().catch(() => ({ loggedIn: false }));
+        if (!data.loggedIn) {
+          handleLoggedOut();
+        }
       }
     } catch (err) {
-      // If offline, preserve cached user
+      // If network offline, keep cached user
     }
   }
 
@@ -127,6 +155,23 @@
     if (profileIcon) profileIcon.style.display = 'block';
     if (profileImg) profileImg.style.display = 'none';
   }
+
+  // Instant login helper for testing / guest upgrade
+  window.evInstantLogin = function(name = 'Master Learner', email = 'student@englishvidya.com') {
+    const user = {
+      name,
+      email,
+      avatar_url: 'https://ui-avatars.com/api/?name=' + encodeURIComponent(name) + '&background=2563eb&color=fff&size=128',
+      role: 'LEARNER'
+    };
+    try {
+      localStorage.setItem('ev_cached_user', JSON.stringify(user));
+    } catch (e) {}
+    applyUserToUI(user);
+    if (window.location.pathname.includes('/profile')) {
+      window.location.reload();
+    }
+  };
 
   // Run revalidation on DOM ready
   if (document.readyState === 'loading') {

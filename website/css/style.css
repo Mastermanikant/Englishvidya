@@ -78,6 +78,7 @@
     --color-pink-800: oklch(45.9% 0.187 3.815);
     --color-pink-900: oklch(40.8% 0.153 2.432);
     --color-rose-500: oklch(64.5% 0.246 16.439);
+    --color-slate-100: oklch(96.8% 0.007 247.896);
     --color-slate-200: oklch(92.9% 0.013 255.508);
     --color-slate-700: oklch(37.2% 0.044 257.287);
     --color-slate-800: oklch(27.9% 0.041 260.031);
@@ -3398,6 +3399,9 @@
       color: color-mix(in oklab, var(--color-secondary) 80%, transparent);
     }
   }
+  .text-slate-900 {
+    color: var(--color-slate-900);
+  }
   .text-teal-400 {
     color: var(--color-teal-400);
   }
@@ -3964,10 +3968,6 @@
     border-color: var(--color-primary);
   }
   @media (hover: hover) {
-    .hover\:-translate-y-0\.5:hover {
-      --tw-translate-y: calc(var(--spacing) * -0.5);
-      translate: var(--tw-translate-x) var(--tw-translate-y);
-    }
     .hover\:-translate-y-1:hover {
       --tw-translate-y: calc(var(--spacing) * -1);
       translate: var(--tw-translate-x) var(--tw-translate-y);
@@ -4162,6 +4162,9 @@
     .hover\:bg-secondary:hover {
       background-color: var(--color-secondary);
     }
+    .hover\:bg-slate-100:hover {
+      background-color: var(--color-slate-100);
+    }
     .hover\:bg-white\/5:hover {
       background-color: color-mix(in srgb, #fff 5%, transparent);
     }
@@ -4335,6 +4338,12 @@
     --tw-scale-x: 95%;
     --tw-scale-y: 95%;
     --tw-scale-z: 95%;
+    scale: var(--tw-scale-x) var(--tw-scale-y);
+  }
+  .active\:scale-98:active {
+    --tw-scale-x: 98%;
+    --tw-scale-y: 98%;
+    --tw-scale-z: 98%;
     scale: var(--tw-scale-x) var(--tw-scale-y);
   }
   .active\:scale-\[0\.95\]:active {
