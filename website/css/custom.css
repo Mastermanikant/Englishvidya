@@ -43,30 +43,30 @@
   --nav-height: 60px;
 
   /* ── Light Theme (Default for data-theme="light") ── */
-  --bg-base: #ffffff;
-  --bg-raised: #f8fafc;
+  --bg-base: #f8fafc;
+  --bg-raised: #ffffff;
   --bg-hover: #f1f5f9;
   --bg-active: #e2e8f0;
   --text-primary: #0f172a;
   --text-secondary: #334155;
-  --text-tertiary: #5a6a7d; /* WCAG AA fix: was #64748b (4.1:1), now ~4.6:1 */
-  --accent: #2563eb;
-  --accent-hover: #1d4ed8;
-  --accent-soft: rgba(37, 99, 235, 0.08);
-  --accent-glow: rgba(37, 99, 235, 0.15);
+  --text-tertiary: #64748b;
+  --accent: #0284c7;
+  --accent-hover: #0369a1;
+  --accent-soft: rgba(2, 132, 199, 0.08);
+  --accent-glow: rgba(2, 132, 199, 0.15);
   --border: #e2e8f0;
   --border-subtle: #f1f5f9;
   --shadow-sm: 0 1px 3px rgba(15, 23, 42, 0.04), 0 1px 2px rgba(15, 23, 42, 0.06);
-  --shadow-md: 0 4px 6px -1px rgba(15, 23, 42, 0.05), 0 2px 4px -2px rgba(15, 23, 42, 0.05);
-  --shadow-lg: 0 10px 15px -3px rgba(15, 23, 42, 0.06), 0 4px 6px -4px rgba(15, 23, 42, 0.06);
-  --shadow-glow: 0 0 20px rgba(37, 99, 235, 0.08);
-  --nav-bg: rgba(255, 255, 255, 0.82);
-  --overlay-bg: rgba(15, 23, 42, 0.4);
-  --success: #16a34a;
+  --shadow-md: 0 4px 12px -2px rgba(15, 23, 42, 0.06), 0 2px 4px -2px rgba(15, 23, 42, 0.04);
+  --shadow-lg: 0 14px 28px -4px rgba(15, 23, 42, 0.08), 0 4px 8px -4px rgba(15, 23, 42, 0.04);
+  --shadow-glow: 0 0 25px rgba(2, 132, 199, 0.08);
+  --nav-bg: rgba(255, 255, 255, 0.9);
+  --overlay-bg: rgba(15, 23, 42, 0.5);
+  --success: #059669;
   --warning: #d97706;
-  --error: #dc2626;
-  --gradient-accent: linear-gradient(135deg, #2563eb, #7c3aed);
-  --gradient-card: linear-gradient(135deg, var(--bg-raised), var(--bg-hover));
+  --error: #e11d48;
+  --gradient-accent: linear-gradient(135deg, #0284c7, #4f46e5);
+  --gradient-card: linear-gradient(135deg, #ffffff, #f8fafc);
   /* ── Backward-compat aliases (older templates) ── */
   --border-color: var(--border);
   --text-main: var(--text-primary);
@@ -74,42 +74,42 @@
   --bg-main: var(--bg-raised);
   --bg-card: var(--bg-raised);
   --bg-footer: var(--bg-raised);
-  --accent-dark: #1d4ed8;
+  --accent-dark: #0369a1;
 }
 
 [data-theme="dark"] {
-  --bg-base: #000000;
-  --bg-raised: #0a0a0a;
-  --bg-hover: #171717;
-  --bg-active: #262626;
+  --bg-base: #080c14;
+  --bg-raised: #0f172a;
+  --bg-hover: #1e293b;
+  --bg-active: #334155;
   --text-primary: #f8fafc;
-  --text-secondary: #d4d4d8;
-  --text-tertiary: #a1a1aa;
-  --accent: #60a5fa;
-  --accent-hover: #93c5fd;
-  --accent-soft: rgba(96, 165, 250, 0.1);
-  --accent-glow: rgba(96, 165, 250, 0.12);
-  --border: #262626;
-  --border-subtle: #171717;
-  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.2), 0 1px 2px rgba(0, 0, 0, 0.3);
-  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.3), 0 2px 4px -2px rgba(0, 0, 0, 0.25);
-  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.35), 0 4px 6px -4px rgba(0, 0, 0, 0.3);
-  --shadow-glow: 0 0 30px rgba(96, 165, 250, 0.06);
-  --nav-bg: rgba(0, 0, 0, 0.88);
-  --overlay-bg: rgba(0, 0, 0, 0.6);
-  --success: #22c55e;
+  --text-secondary: #cbd5e1;
+  --text-tertiary: #94a3b8;
+  --accent: #38bdf8;
+  --accent-hover: #7dd3fc;
+  --accent-soft: rgba(56, 189, 248, 0.12);
+  --accent-glow: rgba(56, 189, 248, 0.2);
+  --border: rgba(255, 255, 255, 0.09);
+  --border-subtle: rgba(255, 255, 255, 0.05);
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px 2px rgba(0, 0, 0, 0.4);
+  --shadow-md: 0 4px 12px -2px rgba(0, 0, 0, 0.4), 0 2px 6px -2px rgba(0, 0, 0, 0.3);
+  --shadow-lg: 0 12px 24px -4px rgba(0, 0, 0, 0.5), 0 4px 8px -4px rgba(0, 0, 0, 0.4);
+  --shadow-glow: 0 0 35px rgba(56, 189, 248, 0.1);
+  --nav-bg: rgba(8, 12, 20, 0.88);
+  --overlay-bg: rgba(8, 12, 20, 0.7);
+  --success: #10b981;
   --warning: #f59e0b;
-  --error: #ef4444;
-  --gradient-accent: linear-gradient(135deg, #3b82f6, #8b5cf6);
-  --gradient-card: linear-gradient(135deg, var(--bg-raised), var(--bg-hover));
+  --error: #f43f5e;
+  --gradient-accent: linear-gradient(135deg, #0284c7, #6366f1);
+  --gradient-card: linear-gradient(135deg, rgba(15, 23, 42, 0.8), rgba(30, 41, 59, 0.6));
   /* ── Backward-compat aliases (older templates) ── */
   --border-color: var(--border);
   --text-main: var(--text-primary);
   --bg-body: var(--bg-base);
   --bg-main: var(--bg-raised);
   --bg-card: var(--bg-raised);
-  --bg-footer: var(--bg-hover);
-  --accent-dark: #93c5fd;
+  --bg-footer: var(--bg-raised);
+  --accent-dark: #38bdf8;
 }
 
 /* ─────────────────────────────────────────────
