@@ -574,7 +574,7 @@ function showResults() {
   
   showScreen('score');
   
-  // Save to localStorage
+  // Save to localStorage & Cloud Database
   try {
     const history = JSON.parse(localStorage.getItem('ev-quiz-history') || '[]');
     history.push({
@@ -584,6 +584,20 @@ function showResults() {
       date: new Date().toISOString()
     });
     localStorage.setItem('ev-quiz-history', JSON.stringify(history));
+
+    // Cloudflare D1 Cloud Sync
+    fetch('/api/tests', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        lesson_slug: 'quiz-' + currentCategory,
+        score: score,
+        total_questions: currentQuestions.length,
+        answers_json: JSON.stringify({ category: currentCategory, time_seconds: timeSecs })
+      })
+    }).then(r => {
+      if (r.ok && window.showToast) window.showToast('क्विज़ स्कोर सुरक्षित हो गया! 💾');
+    }).catch(() => {});
   } catch(e) {}
 }
 

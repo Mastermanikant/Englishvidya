@@ -55,8 +55,29 @@ function toggleBookmark(slug, word, meaning, pron, category) {
     
     saveBookmarks(bookmarks);
     
-    // Dispatch event so favorites page can update if it's open
+    // Dispatch event so favorites page and profile can update if open
     window.dispatchEvent(new Event('bookmarksUpdated'));
+
+    // Attempt instant background cloud sync if user is logged in
+    try {
+      const cachedUser = localStorage.getItem('ev_cached_user');
+      if (cachedUser) {
+        if (window.syncDiaryToServer) {
+          window.syncDiaryToServer().catch(() => {});
+        } else {
+          // Direct API call fallback
+          const actionItem = (index > -1)
+            ? { type: 'remove_bookmark', word_slug: slug }
+            : { type: 'bookmark', word_slug: slug, word_text: word, meaning_text: meaning, pron_text: pron, category: category || 'general' };
+          
+          fetch('/api/diary', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ items: [actionItem] })
+          }).catch(() => {});
+        }
+      }
+    } catch(e) {}
 }
 
 // showToast is now provided by /js/toast.js (unified version)

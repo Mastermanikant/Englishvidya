@@ -17,9 +17,9 @@ schemaJson: |
   <!-- ═══════════════════════════════════════════════════════════════ -->
   <!-- 1. GUEST / LOGGED-OUT PROMPT (VISIBLE WHEN NOT LOGGED IN) -->
   <!-- ═══════════════════════════════════════════════════════════════ -->
-  <div id="guest-banner" class="p-5 sm:p-6 rounded-2xl bg-gradient-to-r from-accent/15 via-raised to-base border border-accent/30 mb-8 flex flex-col sm:flex-row items-center justify-between gap-4 shadow-sm">
+  <div id="guest-banner" class="p-5 sm:p-6 rounded-3xl bg-gradient-to-r from-accent/15 via-raised to-base border border-accent/30 mb-8 flex flex-col sm:flex-row items-center justify-between gap-4 shadow-xs">
     <div class="flex items-center gap-3.5 text-center sm:text-left">
-      <div class="w-12 h-12 rounded-xl bg-accent/20 text-accent flex items-center justify-center text-2xl shrink-0">
+      <div class="w-12 h-12 rounded-2xl bg-accent/20 text-accent flex items-center justify-center text-2xl shrink-0">
         🎓
       </div>
       <div>
@@ -27,7 +27,7 @@ schemaJson: |
           आप गेस्ट मोड (Guest Mode) में पढ़ रहे हैं
         </h2>
         <p class="text-xs text-secondary mt-0.5">
-          Google से 1-क्लिक में लॉगिन करें ताकि आपके सारे नोट्स, डायरी और बुकमार्क्स क्लाउड पर सुरक्षित रहें।
+          Google से 1-क्लिक में लॉगिन करें ताकि आपके सारे नोट्स, डायरी, टेस्ट रिजल्ट्स और बुकमार्क्स क्लाउड पर सुरक्षित रहें।
         </p>
       </div>
     </div>
@@ -40,7 +40,7 @@ schemaJson: |
   <!-- ═══════════════════════════════════════════════════════════════ -->
   <!-- 2. STUDENT PROFILE HEADER CARD -->
   <!-- ═══════════════════════════════════════════════════════════════ -->
-  <div class="p-6 sm:p-8 rounded-3xl bg-raised border border-border mb-8 flex flex-col sm:flex-row items-center sm:items-start gap-6 shadow-xs">
+  <div class="p-6 sm:p-8 rounded-3xl bg-raised border border-border mb-8 flex flex-col sm:flex-row items-center sm:items-start gap-6 shadow-xs relative overflow-hidden">
     
     <!-- User Avatar -->
     <div class="relative shrink-0">
@@ -59,9 +59,16 @@ schemaJson: |
       <!-- Action Buttons -->
       <div class="flex flex-wrap items-center justify-center sm:justify-start gap-3">
         <a href="/my-diary/" class="px-4 py-2 rounded-xl bg-base border border-border hover:border-accent text-xs font-semibold text-primary hover:text-accent transition-all flex items-center gap-1.5">
-          <span>📓 माय डायरी खोलें</span>
+          <span>📓 माय डायरी</span>
           <span>→</span>
         </a>
+        <a href="/referral/" class="px-4 py-2 rounded-xl bg-base border border-border hover:border-amber-500 text-xs font-semibold text-primary hover:text-amber-500 transition-all flex items-center gap-1.5">
+          <span>🪙 रिवार्ड्स व कॉइन्स</span>
+          <span>→</span>
+        </a>
+        <button onclick="toggleProfileEditModal()" id="edit-profile-btn" class="hidden px-4 py-2 rounded-xl bg-base border border-border hover:border-accent text-xs font-semibold text-primary hover:text-accent transition-all flex items-center gap-1.5">
+          <span>⚙️ प्रोफाइल एडिट</span>
+        </button>
         <a href="/login/?redirect=/profile/" id="profile-action-btn" class="px-4 py-2 rounded-xl bg-base border border-border hover:border-accent text-xs font-semibold text-primary hover:text-accent transition-all">
           Google लॉगिन
         </a>
@@ -76,40 +83,61 @@ schemaJson: |
   <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-8">
     <div class="p-4 rounded-2xl bg-raised border border-border text-center">
       <div class="text-2xl sm:text-3xl font-extrabold font-heading text-primary" id="stat-chapters">0</div>
-      <div class="text-xs text-secondary mt-1">सेव किए गए पाठ</div>
+      <div class="text-xs text-secondary mt-1">फेवरिट शब्द (Bookmarks)</div>
     </div>
     <div class="p-4 rounded-2xl bg-raised border border-border text-center">
       <div class="text-2xl sm:text-3xl font-extrabold font-heading text-accent" id="stat-words">0</div>
-      <div class="text-xs text-secondary mt-1">डायरी शब्द नोट्स</div>
+      <div class="text-xs text-secondary mt-1">डायरी नोट्स (Notes)</div>
     </div>
     <div class="p-4 rounded-2xl bg-raised border border-border text-center">
-      <div class="text-2xl sm:text-3xl font-extrabold font-heading text-emerald-500" id="stat-streak">1 🔥</div>
+      <div class="text-2xl sm:text-3xl font-extrabold font-heading text-emerald-500" id="stat-tests">0</div>
+      <div class="text-xs text-secondary mt-1">दिए गए टेस्ट्स (Tests)</div>
+    </div>
+    <div class="p-4 rounded-2xl bg-raised border border-border text-center">
+      <div class="text-2xl sm:text-3xl font-extrabold font-heading text-amber-500" id="stat-streak">1 🔥</div>
       <div class="text-xs text-secondary mt-1">डेली स्ट्रीक (Days)</div>
-    </div>
-    <div class="p-4 rounded-2xl bg-raised border border-border text-center">
-      <div class="text-2xl sm:text-3xl font-extrabold font-heading text-primary" id="stat-class">12th / 10th</div>
-      <div class="text-xs text-secondary mt-1">लर्निंग ट्रैक</div>
     </div>
   </div>
 
   <!-- ═══════════════════════════════════════════════════════════════ -->
-  <!-- 4. QUICK STUDY SHORTCUTS -->
+  <!-- 4. RECENT QUIZ & TEST ATTEMPTS HISTORY CARD -->
   <!-- ═══════════════════════════════════════════════════════════════ -->
-  <div class="p-6 sm:p-8 rounded-3xl bg-raised border border-border mb-8">
+  <div class="p-6 sm:p-8 rounded-3xl bg-raised border border-border mb-8 shadow-xs">
+    <div class="flex items-center justify-between mb-4 border-b border-border pb-3">
+      <h2 class="text-lg font-bold font-heading text-primary flex items-center gap-2">
+        <span>📝</span> हालिया टेस्ट एवं क्विज़ इतिहास (Test History)
+      </h2>
+      <a href="/test/" class="text-xs text-accent hover:underline font-semibold flex items-center gap-1">
+        <span>सभी टेस्ट्स देखें</span>
+        <span>→</span>
+      </a>
+    </div>
+
+    <div id="profile-test-history" class="space-y-3">
+      <div class="text-center py-6 text-xs text-secondary" id="test-history-empty">
+        आपने अभी तक कोई टेस्ट नहीं दिया है। <a href="/test/" class="text-accent underline font-semibold">यहाँ क्लिक करके पहला टेस्ट दें!</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <!-- 5. QUICK STUDY SHORTCUTS -->
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <div class="p-6 sm:p-8 rounded-3xl bg-raised border border-border mb-8 shadow-xs">
     <h2 class="text-lg font-bold font-heading text-primary mb-4 flex items-center gap-2">
-      <span>⚡</span> त्वरित अध्ययन शॉर्टकट्स
+      <span>⚡</span> त्वरित अध्ययन शॉर्टकट्स (Quick Study)
     </h2>
 
     <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
-      <a href="/class-12/" class="p-4 rounded-xl bg-base border border-border hover:border-accent group transition-all">
+      <a href="/class-12/" class="p-4 rounded-2xl bg-base border border-border hover:border-accent group transition-all">
         <div class="font-bold text-sm text-primary group-hover:text-accent transition-colors">12वीं Rainbow 2</div>
         <div class="text-xs text-secondary mt-1">30 चैप्टर्स, उच्चारण व प्रश्न-उत्तर</div>
       </a>
-      <a href="/class-10/" class="p-4 rounded-xl bg-base border border-border hover:border-accent group transition-all">
+      <a href="/class-10/" class="p-4 rounded-2xl bg-base border border-border hover:border-accent group transition-all">
         <div class="font-bold text-sm text-primary group-hover:text-accent transition-colors">10वीं Panorama 2</div>
         <div class="text-xs text-secondary mt-1">23 चैप्टर्स, नोट्स व गाइड्स</div>
       </a>
-      <a href="/grammar/" class="p-4 rounded-xl bg-base border border-border hover:border-accent group transition-all">
+      <a href="/grammar/" class="p-4 rounded-2xl bg-base border border-border hover:border-accent group transition-all">
         <div class="font-bold text-sm text-primary group-hover:text-accent transition-colors">ग्रामर मास्टर लैडर</div>
         <div class="text-xs text-secondary mt-1">10 लेवल्स और 17 सेक्शंस</div>
       </a>
@@ -118,28 +146,70 @@ schemaJson: |
 
 </div>
 
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- PROFILE EDIT MODAL -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div id="profile-edit-modal" class="fixed inset-0 z-50 bg-black/60 backdrop-blur-xs hidden flex items-center justify-center p-4">
+  <div class="bg-base border border-border rounded-3xl p-6 sm:p-8 max-w-md w-full shadow-2xl relative">
+    <div class="flex items-center justify-between mb-4 pb-2 border-b border-border">
+      <h3 class="text-lg font-bold font-heading text-primary">प्रोफाइल विवरण संपादित करें</h3>
+      <button onclick="toggleProfileEditModal()" class="text-secondary hover:text-primary text-xl font-bold">✕</button>
+    </div>
+
+    <form id="edit-profile-form" onsubmit="saveProfileDetails(event)" class="space-y-4">
+      <div>
+        <label class="block text-xs font-semibold text-secondary mb-1">आपका नाम (Name)</label>
+        <input type="text" id="edit-name" class="w-full px-3.5 py-2 rounded-xl bg-raised border border-border text-sm text-primary focus:outline-none focus:border-accent">
+      </div>
+      <div>
+        <label class="block text-xs font-semibold text-secondary mb-1">यूज़रनेम (Username)</label>
+        <input type="text" id="edit-username" placeholder="@username" class="w-full px-3.5 py-2 rounded-xl bg-raised border border-border text-sm text-primary focus:outline-none focus:border-accent">
+      </div>
+      <div>
+        <label class="block text-xs font-semibold text-secondary mb-1">पता / जिला (Location / City)</label>
+        <input type="text" id="edit-location" placeholder="उदा. पटना, बिहार" class="w-full px-3.5 py-2 rounded-xl bg-raised border border-border text-sm text-primary focus:outline-none focus:border-accent">
+      </div>
+      <div>
+        <label class="block text-xs font-semibold text-secondary mb-1">इंस्टाग्राम हैंडल (Instagram)</label>
+        <input type="text" id="edit-instagram" placeholder="https://instagram.com/..." class="w-full px-3.5 py-2 rounded-xl bg-raised border border-border text-sm text-primary focus:outline-none focus:border-accent">
+      </div>
+
+      <div class="flex justify-end gap-3 pt-2 border-t border-border">
+        <button type="button" onclick="toggleProfileEditModal()" class="px-4 py-2 rounded-xl bg-raised border border-border text-xs font-semibold text-secondary hover:text-primary">रद्द करें</button>
+        <button type="submit" id="save-profile-btn" class="px-5 py-2 rounded-xl bg-accent text-white font-bold text-xs hover:bg-accent/90 transition-all">सेव करें</button>
+      </div>
+    </form>
+  </div>
+</div>
+
 <script>
 (function() {
   const guestBanner = document.getElementById('guest-banner');
   const actionBtn = document.getElementById('profile-action-btn');
+  const editBtn = document.getElementById('edit-profile-btn');
   const nameEl = document.getElementById('user-name');
   const emailEl = document.getElementById('user-email');
   const roleEl = document.getElementById('user-role-badge');
   const avatarEl = document.getElementById('user-avatar');
 
+  let activeUser = null;
+
   function renderUserData(u) {
     if (!u) return;
+    activeUser = u;
     if (nameEl) nameEl.textContent = u.name || 'Student';
     if (emailEl) emailEl.textContent = u.email || '';
     if (roleEl) roleEl.textContent = (u.role || 'Learner').toUpperCase();
     if (avatarEl && u.avatar_url) avatarEl.src = u.avatar_url;
     
     if (guestBanner) guestBanner.style.display = 'none';
+    if (editBtn) editBtn.classList.remove('hidden');
+
     if (actionBtn) {
       actionBtn.textContent = 'लॉगआउट';
       actionBtn.href = '/api/auth-logout';
       actionBtn.className = 'px-4 py-2 rounded-xl bg-base border border-border hover:border-rose-500/40 text-xs font-semibold text-rose-500 hover:bg-rose-500/10 transition-all';
-      actionBtn.onclick = (e) => {
+      actionBtn.onclick = () => {
         try { localStorage.removeItem('ev_cached_user'); } catch (err) {}
       };
     }
@@ -151,19 +221,24 @@ schemaJson: |
     if (cached) renderUserData(JSON.parse(cached));
   } catch (e) {}
 
-  // 2. Local stats
-  try {
-    const savedWords = JSON.parse(localStorage.getItem('ev_diary_words') || '[]');
-    const statWords = document.getElementById('stat-words');
-    if (statWords) statWords.textContent = savedWords.length;
+  // 2. Count local + standardized metrics
+  function updateStats() {
+    try {
+      // Notes
+      const notes = JSON.parse(localStorage.getItem('ev-diary-notes') || localStorage.getItem('ev_diary_words') || '[]');
+      const statWords = document.getElementById('stat-words');
+      if (statWords) statWords.textContent = notes.length;
 
-    const savedBookmarks = JSON.parse(localStorage.getItem('ev_bookmarks') || '[]');
-    const statChapters = document.getElementById('stat-chapters');
-    if (statChapters) statChapters.textContent = savedBookmarks.length;
-  } catch (e) {}
+      // Bookmarks
+      const bookmarks = JSON.parse(localStorage.getItem('ev-bookmarks') || localStorage.getItem('ev_bookmarks') || '[]');
+      const statChapters = document.getElementById('stat-chapters');
+      if (statChapters) statChapters.textContent = bookmarks.length;
+    } catch (e) {}
+  }
+  updateStats();
 
-  // 3. Live server sync
-  async function refreshServerAuth() {
+  // 3. Live server sync & fetch test attempts + diary stats
+  async function refreshServerData() {
     try {
       const res = await fetch('/api/auth-me?_t=' + Date.now(), { cache: 'no-store' });
       if (res.ok) {
@@ -171,6 +246,60 @@ schemaJson: |
         if (data.loggedIn && data.user) {
           try { localStorage.setItem('ev_cached_user', JSON.stringify(data.user)); } catch (e) {}
           renderUserData(data.user);
+
+          // Fetch cloud diary stats
+          fetch('/api/diary')
+            .then(r => r.json())
+            .then(d => {
+              if (d.success) {
+                if (d.notes && d.notes.length) {
+                  const statWords = document.getElementById('stat-words');
+                  if (statWords) statWords.textContent = Math.max(d.notes.length, parseInt(statWords.textContent || '0'));
+                }
+                if (d.bookmarks && d.bookmarks.length) {
+                  const statChapters = document.getElementById('stat-chapters');
+                  if (statChapters) statChapters.textContent = Math.max(d.bookmarks.length, parseInt(statChapters.textContent || '0'));
+                }
+              }
+            }).catch(() => {});
+
+          // Fetch test history
+          fetch('/api/tests')
+            .then(r => r.json())
+            .then(attempts => {
+              if (Array.isArray(attempts) && attempts.length > 0) {
+                const statTests = document.getElementById('stat-tests');
+                if (statTests) statTests.textContent = attempts.length;
+
+                const historyContainer = document.getElementById('profile-test-history');
+                const emptyMsg = document.getElementById('test-history-empty');
+                if (emptyMsg) emptyMsg.style.display = 'none';
+
+                historyContainer.innerHTML = attempts.slice(0, 5).map(att => {
+                  const percent = Math.round((att.score / att.total_questions) * 100);
+                  const isPass = percent >= 50;
+                  const dateStr = att.created_at ? new Date(att.created_at).toLocaleDateString('hi-IN') : '';
+                  const cleanSlug = att.lesson_slug.replace('quiz-', '').replace(/-/g, ' ').toUpperCase();
+
+                  return `
+                    <div class="p-3.5 rounded-2xl bg-base border border-border flex items-center justify-between gap-3">
+                      <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 rounded-xl ${isPass ? 'bg-emerald-500/10 text-emerald-500' : 'bg-rose-500/10 text-rose-500'} flex items-center justify-center font-bold text-sm">
+                          ${percent}%
+                        </div>
+                        <div>
+                          <div class="font-bold text-xs sm:text-sm text-primary">${cleanSlug}</div>
+                          <div class="text-[11px] text-secondary">स्कोर: ${att.score}/${att.total_questions} • ${dateStr}</div>
+                        </div>
+                      </div>
+                      <a href="/test/${att.lesson_slug.replace('quiz-', '')}/" class="px-3 py-1 rounded-lg bg-raised border border-border text-[11px] font-semibold text-primary hover:border-accent">
+                        री-टेस्ट
+                      </a>
+                    </div>
+                  `;
+                }).join('');
+              }
+            }).catch(() => {});
         } else {
           try { localStorage.removeItem('ev_cached_user'); } catch (e) {}
         }
@@ -178,10 +307,62 @@ schemaJson: |
     } catch (err) {}
   }
 
+  // Profile Edit Modal Handler
+  window.toggleProfileEditModal = function() {
+    const modal = document.getElementById('profile-edit-modal');
+    if (!modal) return;
+    modal.classList.toggle('hidden');
+    if (!modal.classList.contains('hidden') && activeUser) {
+      document.getElementById('edit-name').value = activeUser.name || '';
+      document.getElementById('edit-username').value = activeUser.username || '';
+      document.getElementById('edit-location').value = activeUser.location_address || '';
+      document.getElementById('edit-instagram').value = activeUser.social_instagram || '';
+    }
+  };
+
+  window.saveProfileDetails = async function(e) {
+    e.preventDefault();
+    const btn = document.getElementById('save-profile-btn');
+    btn.disabled = true;
+    btn.textContent = 'सेव हो रहा है...';
+
+    const payload = {
+      name: document.getElementById('edit-name').value.trim(),
+      username: document.getElementById('edit-username').value.trim(),
+      location_address: document.getElementById('edit-location').value.trim(),
+      social_instagram: document.getElementById('edit-instagram').value.trim()
+    };
+
+    try {
+      const res = await fetch('/api/user-update', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload)
+      });
+      const data = await res.json().catch(() => ({}));
+      if (res.ok && data.success) {
+        if (activeUser) {
+          Object.assign(activeUser, payload);
+          localStorage.setItem('ev_cached_user', JSON.stringify(activeUser));
+          renderUserData(activeUser);
+        }
+        toggleProfileEditModal();
+        if (window.showToast) window.showToast('प्रोफाइल विवरण अपडेट हो गया! ✨');
+      } else {
+        alert(data.error || 'प्रोफाइल अपडेट करने में त्रुटि आई।');
+      }
+    } catch(err) {
+      alert('नेटवर्क त्रुटि।');
+    } finally {
+      btn.disabled = false;
+      btn.textContent = 'सेव करें';
+    }
+  };
+
   if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', refreshServerAuth);
+    document.addEventListener('DOMContentLoaded', refreshServerData);
   } else {
-    refreshServerAuth();
+    refreshServerData();
   }
 })();
 </script>

@@ -105,6 +105,40 @@ export async function onRequestGet(context) {
       return Response.json(results.results);
     }
     
+    else if (type === 'comments') {
+      const results = await env.DB.prepare(
+        `SELECT c.id, c.page_slug, c.comment_text, c.status, c.created_at, u.name, u.email 
+         FROM comments c 
+         JOIN users u ON c.user_id = u.id 
+         ORDER BY c.created_at DESC 
+         LIMIT ? OFFSET ?`
+      ).bind(limit, offset).all();
+      return Response.json(results.results || []);
+    }
+    else if (type === 'overview_stats') {
+      const [usersCount, commentsCount, notesCount, testsCount, openTicketsCount, pendingUgcCount, recentUsers, recentComments] = await Promise.all([
+        env.DB.prepare('SELECT COUNT(*) as count FROM users').first('count').catch(() => 0),
+        env.DB.prepare("SELECT COUNT(*) as count FROM comments WHERE status != 'deleted'").first('count').catch(() => 0),
+        env.DB.prepare('SELECT COUNT(*) as count FROM user_notes').first('count').catch(() => 0),
+        env.DB.prepare('SELECT COUNT(*) as count FROM test_attempts').first('count').catch(() => 0),
+        env.DB.prepare("SELECT COUNT(*) as count FROM support_tickets WHERE status = 'open'").first('count').catch(() => 0),
+        env.DB.prepare("SELECT COUNT(*) as count FROM ugc_meanings WHERE status = 'not_verified'").first('count').catch(() => 0),
+        env.DB.prepare('SELECT id, name, email, role, created_at FROM users ORDER BY created_at DESC LIMIT 5').all().then(r => r.results).catch(() => []),
+        env.DB.prepare('SELECT c.id, c.page_slug, c.comment_text, c.created_at, u.name, u.email FROM comments c JOIN users u ON c.user_id = u.id ORDER BY c.created_at DESC LIMIT 5').all().then(r => r.results).catch(() => [])
+      ]);
+
+      return Response.json({
+        total_users: usersCount || 0,
+        total_comments: commentsCount || 0,
+        total_notes: notesCount || 0,
+        total_tests: testsCount || 0,
+        open_tickets: openTicketsCount || 0,
+        pending_ugc: pendingUgcCount || 0,
+        recent_users: recentUsers || [],
+        recent_comments: recentComments || []
+      });
+    }
+    
     return new Response('Invalid type', { status: 400 });
   } catch (err) {
     return new Response('Server error', { status: 500 });

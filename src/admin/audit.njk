@@ -1,71 +1,150 @@
 ---
 layout: layouts/base.njk
-title: Audit Logs
+title: Audit Logs — EnglishVidya Admin
 ---
 <div class="max-w-6xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
   <div class="flex items-center justify-between mb-8">
     <div>
-      <h1 class="text-3xl font-heading font-bold text-primary">Audit Logs</h1>
-      <p class="text-sm text-secondary mt-1">System activity and security events</p>
+      <h1 class="text-3xl font-heading font-extrabold text-primary flex items-center gap-2">
+        <span>📜</span> सिस्टम ऑडिट एवं सुरक्षा लॉग्स (Audit Logs)
+      </h1>
+      <p class="text-xs text-secondary mt-1">D1 डेटाबेस में दर्ज सुरक्षा घटनाएं, एडमिन कार्रवाइयां एवं डेटा परिवर्तन</p>
     </div>
-    <a href="/admin/" class="text-sm text-accent hover:text-accent-hover transition-colors">← Dashboard</a>
+    <a href="/admin/" class="text-xs font-semibold text-accent hover:underline">← डैशबोर्ड</a>
   </div>
 
-  <div class="glass rounded-2xl overflow-hidden">
-    <div class="p-4 border-b border-border flex flex-wrap gap-4 bg-raised items-center justify-between">
-      <div class="flex gap-2">
-        <select class="bg-base border border-border text-primary text-sm rounded-lg px-3 py-2 focus:outline-none focus:border-accent">
-          <option>All Events</option>
-          <option>Logins</option>
-          <option>Data Changes</option>
-          <option>Security</option>
-        </select>
-        <select class="bg-base border border-border text-primary text-sm rounded-lg px-3 py-2 focus:outline-none focus:border-accent">
-          <option>Last 24 Hours</option>
-          <option>Last 7 Days</option>
-          <option>Last 30 Days</option>
-        </select>
+  <div class="rounded-3xl border border-border bg-raised overflow-hidden shadow-xs">
+    
+    <!-- Controls Bar -->
+    <div class="p-4 border-b border-border flex flex-wrap gap-3 bg-base items-center justify-between">
+      <div class="flex items-center gap-2">
+        <input type="text" id="audit-filter-input" placeholder="लॉग्स में खोजें..." oninput="filterLogs()" class="px-4 py-2 rounded-xl bg-raised border border-border text-xs text-primary focus:outline-none focus:border-accent placeholder-secondary w-64">
       </div>
-      <button class="px-4 py-2 bg-base border border-border text-primary rounded-lg text-sm font-medium hover:bg-raised transition-colors">Download Logs</button>
+      <div class="flex items-center gap-2">
+        <button onclick="downloadAuditLogs()" class="px-4 py-2 bg-accent text-white rounded-xl text-xs font-bold hover:bg-accent/90 transition-all shadow-xs flex items-center gap-1.5">
+          <span>📥</span> लॉग्स डाउनलोड करें
+        </button>
+        <button onclick="loadAuditLogs()" class="px-3 py-2 bg-raised border border-border rounded-xl text-xs font-semibold text-primary hover:border-accent flex items-center gap-1">
+          🔄 रिफ्रेश
+        </button>
+      </div>
     </div>
 
+    <!-- Live Logs Table -->
     <div class="overflow-x-auto">
       <table class="w-full text-left border-collapse">
         <thead>
-          <tr class="bg-raised border-b border-border">
-            <th class="py-3 px-4 text-xs font-semibold text-secondary uppercase tracking-wider">Timestamp</th>
-            <th class="py-3 px-4 text-xs font-semibold text-secondary uppercase tracking-wider">Event Type</th>
-            <th class="py-3 px-4 text-xs font-semibold text-secondary uppercase tracking-wider">User / IP</th>
-            <th class="py-3 px-4 text-xs font-semibold text-secondary uppercase tracking-wider">Details</th>
+          <tr class="bg-base/50 border-b border-border text-[11px] font-bold text-secondary uppercase tracking-wider">
+            <th class="py-3.5 px-4">समय (Timestamp)</th>
+            <th class="py-3.5 px-4">कार्रवाई (Action)</th>
+            <th class="py-3.5 px-4">यूजर आईडी</th>
+            <th class="py-3.5 px-4">टारगेट</th>
+            <th class="py-3.5 px-4">विवरण (Details)</th>
           </tr>
         </thead>
-        <tbody class="divide-y divide-border text-sm">
-          <tr class="hover:bg-raised transition-colors">
-            <td class="py-3 px-4 text-secondary whitespace-nowrap">2023-11-20 14:32:01</td>
-            <td class="py-3 px-4"><span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-blue-100 text-blue-800 dark:bg-blue-900/30 dark:text-blue-400">auth.login</span></td>
-            <td class="py-3 px-4 text-primary">alice@example.com<br><span class="text-xs text-secondary">192.168.1.100</span></td>
-            <td class="py-3 px-4 text-primary">Successful login via Google OAuth</td>
-          </tr>
-          <tr class="hover:bg-raised transition-colors">
-            <td class="py-3 px-4 text-secondary whitespace-nowrap">2023-11-20 13:15:45</td>
-            <td class="py-3 px-4"><span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-orange-100 text-orange-800 dark:bg-orange-900/30 dark:text-orange-400">user.update</span></td>
-            <td class="py-3 px-4 text-primary">bob_admin<br><span class="text-xs text-secondary">10.0.0.5</span></td>
-            <td class="py-3 px-4 text-primary">Changed role of <code>charlie@example.com</code> to <code>banned</code></td>
-          </tr>
-          <tr class="hover:bg-raised transition-colors">
-            <td class="py-3 px-4 text-secondary whitespace-nowrap">2023-11-20 12:05:12</td>
-            <td class="py-3 px-4"><span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-red-100 text-red-800 dark:bg-red-900/30 dark:text-red-400">auth.failed</span></td>
-            <td class="py-3 px-4 text-primary">unknown<br><span class="text-xs text-secondary">203.0.113.42</span></td>
-            <td class="py-3 px-4 text-primary">Failed login attempt for <code>admin@site.com</code> (Invalid password)</td>
-          </tr>
-          <tr class="hover:bg-raised transition-colors">
-            <td class="py-3 px-4 text-secondary whitespace-nowrap">2023-11-20 10:22:33</td>
-            <td class="py-3 px-4"><span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-green-100 text-green-800 dark:bg-green-900/30 dark:text-green-400">content.publish</span></td>
-            <td class="py-3 px-4 text-primary">bob_admin<br><span class="text-xs text-secondary">10.0.0.5</span></td>
-            <td class="py-3 px-4 text-primary">Published new article: <code>"Advanced Phrasal Verbs"</code></td>
+        <tbody id="audit-table-body" class="divide-y divide-border text-xs">
+          <tr>
+            <td colspan="5" class="py-8 text-center text-secondary">ऑडिट लॉग्स लोड हो रहे हैं...</td>
           </tr>
         </tbody>
       </table>
     </div>
+
+    <!-- Footer -->
+    <div class="p-4 border-t border-border bg-base/50 flex items-center justify-between text-xs text-secondary">
+      <span id="audit-count-summary">कुल: 0 लॉग्स</span>
+      <span>ऑटो-प्रूनिंग: 30 दिन</span>
+    </div>
+
   </div>
 </div>
+
+<script>
+let allLogs = [];
+
+async function loadAuditLogs() {
+  const tbody = document.getElementById('audit-table-body');
+  tbody.innerHTML = '<tr><td colspan="5" class="py-8 text-center text-secondary">ऑडिट लॉग्स लोड हो रहे हैं...</td></tr>';
+
+  try {
+    const res = await fetch('/api/admin/audit-logs');
+    if (!res.ok) {
+      tbody.innerHTML = '<tr><td colspan="5" class="py-8 text-center text-rose-500">अनधिकृत या सर्वर त्रुटि।</td></tr>';
+      return;
+    }
+
+    const data = await res.json();
+    allLogs = data.logs || [];
+    renderLogs(allLogs);
+  } catch(e) {
+    tbody.innerHTML = '<tr><td colspan="5" class="py-8 text-center text-rose-500">नेटवर्क त्रुटि।</td></tr>';
+  }
+}
+
+function renderLogs(logs) {
+  const tbody = document.getElementById('audit-table-body');
+  const countSummary = document.getElementById('audit-count-summary');
+  countSummary.textContent = `कुल: ${logs.length} लॉग्स`;
+
+  if (logs.length === 0) {
+    tbody.innerHTML = '<tr><td colspan="5" class="py-8 text-center text-secondary">कोई ऑडिट लॉग रिकॉर्ड नहीं मिला।</td></tr>';
+    return;
+  }
+
+  tbody.innerHTML = logs.map(l => {
+    const timeStr = l.created_at ? new Date(l.created_at).toLocaleDateString('hi-IN', { hour: '2-digit', minute: '2-digit', second: '2-digit' }) : '--';
+    const action = window.escapeHTML ? window.escapeHTML(l.action || 'system') : (l.action || 'system');
+    const details = window.escapeHTML ? window.escapeHTML(l.details || '') : (l.details || '');
+    const target = window.escapeHTML ? window.escapeHTML(l.target_id || '--') : (l.target_id || '--');
+
+    let badgeClass = 'bg-base text-secondary border-border';
+    if (action.includes('auth') || action.includes('login')) badgeClass = 'bg-blue-500/10 text-blue-500 border-blue-500/20';
+    else if (action.includes('ban') || action.includes('delete')) badgeClass = 'bg-rose-500/10 text-rose-500 border-rose-500/20';
+    else if (action.includes('update') || action.includes('edit')) badgeClass = 'bg-amber-500/10 text-amber-500 border-amber-500/20';
+
+    return `
+      <tr class="hover:bg-base/30 transition-colors">
+        <td class="py-3 px-4 text-secondary text-[11px] whitespace-nowrap">${timeStr}</td>
+        <td class="py-3 px-4">
+          <span class="px-2 py-0.5 rounded-full text-[10px] font-bold border ${badgeClass}">${action}</span>
+        </td>
+        <td class="py-3 px-4 font-semibold text-primary">#${l.user_id || 'sys'}</td>
+        <td class="py-3 px-4 text-secondary">${target}</td>
+        <td class="py-3 px-4 text-primary font-mono text-[11px] max-w-xs truncate" title="${details}">
+          ${details || '--'}
+        </td>
+      </tr>
+    `;
+  }).join('');
+}
+
+function filterLogs() {
+  const q = document.getElementById('audit-filter-input').value.toLowerCase().trim();
+  if (!q) {
+    renderLogs(allLogs);
+    return;
+  }
+  const filtered = allLogs.filter(l => 
+    (l.action && l.action.toLowerCase().includes(q)) || 
+    (l.details && l.details.toLowerCase().includes(q)) ||
+    (l.target_id && String(l.target_id).toLowerCase().includes(q))
+  );
+  renderLogs(filtered);
+}
+
+function downloadAuditLogs() {
+  if (!allLogs || allLogs.length === 0) {
+    alert('डाउनलोड करने के लिए कोई लॉग नहीं है।');
+    return;
+  }
+  const blob = new Blob([JSON.stringify(allLogs, null, 2)], { type: 'application/json' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = `englishvidya-audit-logs-${new Date().toISOString().slice(0, 10)}.json`;
+  a.click();
+  URL.revokeObjectURL(url);
+}
+
+document.addEventListener('DOMContentLoaded', loadAuditLogs);
+</script>

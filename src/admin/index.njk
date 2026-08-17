@@ -1,81 +1,185 @@
 ---
 layout: layouts/base.njk
-title: Admin Overview
+title: Admin Command Center — EnglishVidya
 ---
 <div class="max-w-6xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
   <div class="flex items-center justify-between mb-8">
-    <h1 class="text-3xl font-heading font-bold text-primary">Dashboard Overview</h1>
-    <a href="/" class="text-sm text-accent hover:text-accent-hover transition-colors">← Back to Site</a>
+    <div>
+      <h1 class="text-3xl font-heading font-extrabold text-primary flex items-center gap-2">
+        <span>🛡️</span> एडमिन कंट्रोल सेंटर (Command Center)
+      </h1>
+      <p class="text-xs text-secondary mt-1">लाइव डेटाबेस मेट्रिक्स, यूजर मैनेजमेंट एवं मॉडरेशन</p>
+    </div>
+    <a href="/" class="text-xs font-semibold text-accent hover:underline">← वेबसाइट पर वापस जाएं</a>
   </div>
 
-  <div class="grid grid-cols-1 md:grid-cols-4 gap-6 mb-8">
-    <div class="glass p-6 rounded-2xl hover-lift">
-      <h3 class="text-secondary text-sm font-semibold mb-2">Total Users</h3>
-      <p class="text-3xl font-bold text-primary">1,248</p>
-      <span class="text-green-500 text-xs font-medium">↑ 12% this week</span>
+  <!-- Real-time Stats Grid -->
+  <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
+    <div class="p-6 rounded-3xl bg-raised border border-border">
+      <h3 class="text-secondary text-xs font-bold uppercase tracking-wider mb-1">कुल पंजीकृत यूजर्स</h3>
+      <p class="text-3xl font-extrabold text-primary" id="stat-total-users">--</p>
+      <span class="text-emerald-500 text-[11px] font-semibold">🟢 सक्रिय D1 डेटाबेस</span>
     </div>
-    <div class="glass p-6 rounded-2xl hover-lift">
-      <h3 class="text-secondary text-sm font-semibold mb-2">Active Comments</h3>
-      <p class="text-3xl font-bold text-primary">456</p>
-      <span class="text-green-500 text-xs font-medium">↑ 5% this week</span>
+
+    <div class="p-6 rounded-3xl bg-raised border border-border">
+      <h3 class="text-secondary text-xs font-bold uppercase tracking-wider mb-1">सक्रिय कमेंट्स</h3>
+      <p class="text-3xl font-extrabold text-primary" id="stat-total-comments">--</p>
+      <span class="text-accent text-[11px] font-semibold">छात्र चर्चाएं</span>
     </div>
-    <div class="glass p-6 rounded-2xl hover-lift">
-      <h3 class="text-secondary text-sm font-semibold mb-2">Articles</h3>
-      <p class="text-3xl font-bold text-primary">84</p>
-      <span class="text-blue-500 text-xs font-medium">Updated 2h ago</span>
+
+    <div class="p-6 rounded-3xl bg-raised border border-border">
+      <h3 class="text-secondary text-xs font-bold uppercase tracking-wider mb-1">डायरी नोट्स / शब्द</h3>
+      <p class="text-3xl font-extrabold text-primary" id="stat-total-notes">--</p>
+      <span class="text-emerald-500 text-[11px] font-semibold">क्लाउड सेव्ड</span>
     </div>
-    <div class="glass p-6 rounded-2xl hover-lift">
-      <h3 class="text-secondary text-sm font-semibold mb-2">System Status</h3>
-      <p class="text-3xl font-bold text-green-500">Healthy</p>
-      <span class="text-secondary text-xs font-medium">Uptime 99.9%</span>
+
+    <div class="p-6 rounded-3xl bg-raised border border-border">
+      <h3 class="text-secondary text-xs font-bold uppercase tracking-wider mb-1">खुले सपोर्ट टिकट्स</h3>
+      <p class="text-3xl font-extrabold text-amber-500" id="stat-open-tickets">--</p>
+      <span class="text-secondary text-[11px] font-semibold">मदद अनुरोध</span>
     </div>
   </div>
 
+  <!-- Split Grid: Recent Activity & Quick Moderation -->
   <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
-    <div class="glass p-6 rounded-2xl">
-      <h2 class="text-xl font-heading font-bold text-primary mb-4">Recent Activity</h2>
-      <ul class="space-y-4">
-        <li class="flex items-center justify-between border-b border-border pb-4">
-          <div>
-            <p class="text-sm font-semibold text-primary">New user registration</p>
-            <p class="text-xs text-secondary">alice@example.com</p>
-          </div>
-          <span class="text-xs text-secondary">5m ago</span>
-        </li>
-        <li class="flex items-center justify-between border-b border-border pb-4">
-          <div>
-            <p class="text-sm font-semibold text-primary">Comment posted</p>
-            <p class="text-xs text-secondary">On "Grammar Basics"</p>
-          </div>
-          <span class="text-xs text-secondary">12m ago</span>
-        </li>
-        <li class="flex items-center justify-between">
-          <div>
-            <p class="text-sm font-semibold text-primary">Profile updated</p>
-            <p class="text-xs text-secondary">bob@example.com</p>
-          </div>
-          <span class="text-xs text-secondary">1h ago</span>
-        </li>
+    
+    <!-- Recent Activity Stream -->
+    <div class="p-6 sm:p-8 rounded-3xl bg-raised border border-border">
+      <div class="flex items-center justify-between mb-4 pb-2 border-b border-border">
+        <h2 class="text-lg font-bold font-heading text-primary flex items-center gap-2">
+          <span>⚡</span> हालिया गतिविधियाँ (Recent Activity)
+        </h2>
+        <span class="text-xs text-secondary" id="activity-status">लोड हो रहा है...</span>
+      </div>
+
+      <ul class="space-y-3" id="recent-activity-list">
+        <li class="py-4 text-center text-xs text-secondary">डेटा लोड हो रहा है...</li>
       </ul>
-      <a href="/admin/audit/" class="block text-center text-sm text-accent mt-4 hover:underline">View all activity</a>
+
+      <a href="/admin/audit/" class="block text-center text-xs text-accent font-semibold mt-4 hover:underline">
+        सभी सिस्टम ऑडिट लॉग्स देखें →
+      </a>
     </div>
 
-    <div class="glass p-6 rounded-2xl">
-      <h2 class="text-xl font-heading font-bold text-primary mb-4">Quick Links</h2>
-      <div class="flex flex-col gap-3">
-        <a href="/admin/users/" class="p-4 bg-raised rounded-xl hover-lift flex items-center justify-between border border-border">
-          <span class="font-medium text-primary">Manage Users</span>
-          <span class="text-secondary">→</span>
-        </a>
-        <a href="/admin/comments/" class="p-4 bg-raised rounded-xl hover-lift flex items-center justify-between border border-border">
-          <span class="font-medium text-primary">Review Comments</span>
-          <span class="text-secondary">→</span>
-        </a>
-        <a href="/admin/audit/" class="p-4 bg-raised rounded-xl hover-lift flex items-center justify-between border border-border">
-          <span class="font-medium text-primary">Audit Logs</span>
-          <span class="text-secondary">→</span>
-        </a>
+    <!-- Moderation Shortcuts -->
+    <div class="p-6 sm:p-8 rounded-3xl bg-raised border border-border flex flex-col justify-between">
+      <div>
+        <h2 class="text-lg font-bold font-heading text-primary mb-4 flex items-center gap-2">
+          <span>⚙️</span> मॉडरेशन एवं प्रबंधन लिंक्स
+        </h2>
+
+        <div class="flex flex-col gap-3">
+          <a href="/admin/users/" class="p-4 bg-base rounded-2xl border border-border hover:border-accent flex items-center justify-between group transition-all">
+            <div>
+              <div class="font-bold text-sm text-primary group-hover:text-accent transition-colors">👥 यूजर्स प्रबंधन (Manage Users)</div>
+              <div class="text-xs text-secondary mt-0.5">रोल बदलना, ट्रस्ट स्कोर एवं शैडो-बैन</div>
+            </div>
+            <span class="text-secondary group-hover:text-accent transition-colors">→</span>
+          </a>
+
+          <a href="/admin/comments/" class="p-4 bg-base rounded-2xl border border-border hover:border-accent flex items-center justify-between group transition-all">
+            <div>
+              <div class="font-bold text-sm text-primary group-hover:text-accent transition-colors">💬 कमेंट्स एवं लिंक्स मॉडरेशन (Comments)</div>
+              <div class="text-xs text-secondary mt-0.5">स्पैम नियंत्रण, लिंक्स अप्रूवल एवं डिलीशन</div>
+            </div>
+            <span class="text-secondary group-hover:text-accent transition-colors">→</span>
+          </a>
+
+          <a href="/admin/audit/" class="p-4 bg-base rounded-2xl border border-border hover:border-accent flex items-center justify-between group transition-all">
+            <div>
+              <div class="font-bold text-sm text-primary group-hover:text-accent transition-colors">📜 सिक्योरिटी एवं ऑडिट लॉग्स (Audit Logs)</div>
+              <div class="text-xs text-secondary mt-0.5">लॉगिन घटनाएं, रोल परिवर्तन व सुरक्षा लॉग</div>
+            </div>
+            <span class="text-secondary group-hover:text-accent transition-colors">→</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="mt-6 pt-4 border-t border-border flex items-center justify-between text-xs text-secondary">
+        <span>डेटाबेस: <strong>Cloudflare D1 (SQLite)</strong></span>
+        <span>सर्वर: <strong>Cloudflare Edge Functions</strong></span>
       </div>
     </div>
+
   </div>
 </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', async () => {
+  try {
+    const res = await fetch('/api/admin-data?type=overview_stats');
+    if (!res.ok) {
+      if (res.status === 403) {
+        document.querySelector('.max-w-6xl').innerHTML = `
+          <div class="text-center py-16">
+            <div class="text-5xl mb-4">🔒</div>
+            <h1 class="text-2xl font-bold text-primary mb-2">अनधिकृत पहुँच (Unauthorized)</h1>
+            <p class="text-xs text-secondary mb-6">इस डैशबोर्ड को देखने के लिए एडमिन या ओनर रोल होना आवश्यक है।</p>
+            <a href="/" class="px-5 py-2.5 rounded-xl bg-accent text-white font-bold text-xs">मुख्य पृष्ठ पर जाएं</a>
+          </div>
+        `;
+        return;
+      }
+      throw new Error();
+    }
+
+    const data = await res.json();
+    document.getElementById('stat-total-users').textContent = (data.total_users || 0).toLocaleString();
+    document.getElementById('stat-total-comments').textContent = (data.total_comments || 0).toLocaleString();
+    document.getElementById('stat-total-notes').textContent = (data.total_notes || 0).toLocaleString();
+    document.getElementById('stat-open-tickets').textContent = (data.open_tickets || 0).toLocaleString();
+
+    // Render Recent Activity Stream
+    const activityList = document.getElementById('recent-activity-list');
+    const statusText = document.getElementById('activity-status');
+    if (statusText) statusText.textContent = 'अपडेटेड';
+
+    let items = [];
+    if (Array.isArray(data.recent_users)) {
+      data.recent_users.forEach(u => {
+        items.push({
+          type: 'user',
+          text: `नया यूजर: <strong>${window.escapeHTML ? window.escapeHTML(u.name || u.email) : (u.name || u.email)}</strong>`,
+          sub: u.email,
+          date: u.created_at
+        });
+      });
+    }
+    if (Array.isArray(data.recent_comments)) {
+      data.recent_comments.forEach(c => {
+        items.push({
+          type: 'comment',
+          text: `कमेंट: <em>"${window.escapeHTML ? window.escapeHTML(c.comment_text.slice(0, 50)) : c.comment_text.slice(0, 50)}..."</em>`,
+          sub: `लेख: ${c.page_slug} (द्वारा: ${c.name || 'User'})`,
+          date: c.created_at
+        });
+      });
+    }
+
+    items.sort((a, b) => new Date(b.date) - new Date(a.date));
+
+    if (items.length === 0) {
+      activityList.innerHTML = '<li class="py-4 text-center text-xs text-secondary">कोई हालिया गतिविधि नहीं मिली।</li>';
+    } else {
+      activityList.innerHTML = items.slice(0, 6).map(it => {
+        const timeStr = it.date ? new Date(it.date).toLocaleDateString('hi-IN', { hour: '2-digit', minute: '2-digit' }) : '';
+        const icon = it.type === 'user' ? '👤' : '💬';
+        return `
+          <li class="flex items-center justify-between border-b border-border pb-3">
+            <div class="flex items-center gap-2.5">
+              <span class="text-base">${icon}</span>
+              <div>
+                <p class="text-xs font-semibold text-primary">${it.text}</p>
+                <p class="text-[11px] text-secondary">${it.sub}</p>
+              </div>
+            </div>
+            <span class="text-[10px] text-secondary shrink-0">${timeStr}</span>
+          </li>
+        `;
+      }).join('');
+    }
+  } catch(err) {
+    console.error('Failed to load admin stats', err);
+  }
+});
+</script>
