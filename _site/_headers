@@ -34,24 +34,24 @@
 /api/*
   Cache-Control: no-store, no-cache, must-revalidate, max-age=0
 
-# ══ RULE 3: Static CSS & JS Assets ══
+# ══ RULE 3: Fresh CSS & JS (Instant Update Guaranteed) ══
 /css/*
-  Cache-Control: public, max-age=3600, must-revalidate
+  Cache-Control: public, max-age=0, must-revalidate
 
 /js/*
-  Cache-Control: public, max-age=3600, must-revalidate
+  Cache-Control: public, max-age=0, must-revalidate
 
 /assets/*
-  Cache-Control: public, max-age=86400
+  Cache-Control: public, max-age=3600
 
 # ══ RULE 4: Data & Sitemap ══
 /data/*
-  Cache-Control: public, max-age=3600
+  Cache-Control: public, max-age=0, must-revalidate
 
 /sitemap.xml
-  Cache-Control: public, max-age=86400
+  Cache-Control: public, max-age=3600
   Content-Type: application/xml; charset=utf-8
 
 /robots.txt
-  Cache-Control: public, max-age=86400
+  Cache-Control: public, max-age=3600
   Content-Type: text/plain; charset=utf-8

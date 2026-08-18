@@ -1,0 +1,5 @@
+# Bulk dictionary pagination templates (kept in local for fast iteration)
+src/dictionary/word.njk
+src/dictionary/category.njk
+src/flashcards/category.njk
+src/translation/word.njk
