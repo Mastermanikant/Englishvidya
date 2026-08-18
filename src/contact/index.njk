@@ -1,314 +1,112 @@
 ---
 layout: layouts/base.njk
-pageTitle: "Contact & Help Center — EnglishVidya"
-metaDescription: "Contact EnglishVidya support team. Submit doubts, suggest new words, or ask grammar queries."
-permalink: /contact/
+title: "Contact Us — EnglishVidya Support & Student Desk"
+description: "Get in touch with EnglishVidya and Master Manikant Yadav. Submit questions, report corrections in notes, or connect via WhatsApp and email."
+permalink: "/contact/"
 ---
 
-<div class="max-w-4xl mx-auto py-8 px-4 sm:px-6">
-
-  <!-- Hero Banner -->
-  <div class="p-8 sm:p-10 rounded-3xl bg-gradient-to-br from-accent/20 via-raised to-base border border-accent/30 text-center mb-8 shadow-xs relative overflow-hidden">
-    <div class="w-16 h-16 rounded-2xl bg-accent/20 text-accent flex items-center justify-center text-3xl mx-auto mb-4">
-      🎧
+<!-- Page Header -->
+<section class="section" style="padding-bottom: 2rem; border-bottom: 1px solid var(--border);">
+  <div class="container">
+    <div class="section-header" style="margin-bottom: 1.5rem;">
+      <div class="pill-badge"><span>Direct Student Desk</span></div>
+      <h1 class="section-title">Get in Touch with EnglishVidya</h1>
+      <p>Doubt, note correction, grammar feedback, ya general inquiry ke liye hume direct message bhejein.</p>
     </div>
-    <h1 class="text-3xl sm:text-4xl font-extrabold font-heading text-primary tracking-tight">
-      सहायता एवं संपर्क केंद्र (Help & Support)
-    </h1>
-    <p class="text-sm sm:text-base text-secondary mt-2 max-w-xl mx-auto leading-relaxed">
-      अंग्रेजी सीखने में कोई परेशानी हो, व्याकरण का कोई संशय हो या सुझाव — हमारी टीम आपकी मदद के लिए सदैव तत्पर है।
-    </p>
   </div>
+</section>
 
-  <!-- Quick Channels Grid -->
-  <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-8">
-    <a href="mailto:englishvidyahq@gmail.com" class="p-6 rounded-2xl bg-raised border border-border hover:border-accent group transition-all text-center flex flex-col items-center">
-      <div class="w-12 h-12 rounded-xl bg-accent/10 text-accent flex items-center justify-center text-2xl mb-3 group-hover:scale-110 transition-transform">
-        📧
-      </div>
-      <div class="font-bold text-sm text-primary group-hover:text-accent transition-colors">ईमेल सपोर्ट</div>
-      <div class="text-xs text-secondary mt-1">englishvidyahq@gmail.com</div>
-    </a>
+<!-- Contact Form & Direct Channels -->
+<section class="section">
+  <div class="container">
+    <div class="grid-2" style="align-items: flex-start;">
+      
+      <!-- Contact Form Card -->
+      <div class="card">
+        <h2 style="font-size: 1.4rem; margin-bottom: 1.25rem;">Send Us a Direct Message</h2>
+        <div id="form-feedback" class="form-feedback"></div>
 
-    <a href="https://wa.me/917070133396" target="_blank" rel="noopener" class="p-6 rounded-2xl bg-raised border border-border hover:border-emerald-500/50 group transition-all text-center flex flex-col items-center">
-      <div class="w-12 h-12 rounded-xl bg-emerald-500/10 text-emerald-500 flex items-center justify-center text-2xl mb-3 group-hover:scale-110 transition-transform">
-        💬
-      </div>
-      <div class="font-bold text-sm text-primary group-hover:text-emerald-500 transition-colors">व्हाट्सएप हेल्पलाइन</div>
-      <div class="text-xs text-secondary mt-1">+91 7070133396</div>
-    </a>
-
-    <a href="https://youtube.com/@englishvidyahq" target="_blank" rel="noopener" class="p-6 rounded-2xl bg-raised border border-border hover:border-rose-500/50 group transition-all text-center flex flex-col items-center">
-      <div class="w-12 h-12 rounded-xl bg-rose-500/10 text-rose-500 flex items-center justify-center text-2xl mb-3 group-hover:scale-110 transition-transform">
-        📱
-      </div>
-      <div class="font-bold text-sm text-primary group-hover:text-rose-500 transition-colors">यूट्यूब कम्युनिटी</div>
-      <div class="text-xs text-secondary mt-1">@englishvidyahq</div>
-    </a>
-  </div>
-
-  <!-- Main Support Form & Ticket Tracker Card -->
-  <div class="p-6 sm:p-8 rounded-3xl bg-raised border border-border mb-8 shadow-xs">
-    
-    <!-- Logged-Out Prompt -->
-    <div id="contact-guest-notice" class="hidden p-5 rounded-2xl bg-amber-500/10 border border-amber-500/20 mb-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs">
-      <div class="flex items-center gap-3">
-        <span class="text-2xl">🔒</span>
-        <div class="text-secondary">
-          <strong class="text-primary block text-sm">सपोर्ट टिकट सबमिट करने के लिए लॉगिन आवश्यक है</strong>
-          ताकि जब हमारे शिक्षक या एडमिन आपकी समस्या का उत्तर दें, तो आप उसे अपने डैशबोर्ड में देख सकें।
-        </div>
-      </div>
-      <a href="/login/?redirect=/contact/" class="px-4 py-2 rounded-xl bg-accent hover:bg-accent/90 text-white font-bold whitespace-nowrap transition-all shadow-sm">
-        Google से लॉगिन करें →
-      </a>
-    </div>
-
-    <!-- Ticket Form Container -->
-    <div id="form-container">
-      <h2 class="text-xl font-bold font-heading text-primary mb-2 flex items-center gap-2">
-        <span>✍️</span> नया सपोर्ट टिकट / प्रश्न दर्ज करें
-      </h2>
-      <p class="text-xs text-secondary mb-6">
-        कृपया अपनी समस्या या प्रश्न का विस्तार से विवरण दें ताकि हम त्वरित सहायता कर सकें।
-      </p>
-
-      <form id="contact-form" onsubmit="submitTicket(event)" class="space-y-4">
-        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-          <div>
-            <label class="block text-xs font-semibold text-secondary mb-1.5">आपका नाम (Name)</label>
-            <input type="text" id="f-name" required class="w-full px-4 py-2.5 rounded-xl bg-base border border-border text-sm text-primary focus:outline-none focus:border-accent">
+        <form id="ev-contact-form" onsubmit="handleContactSubmit(event)">
+          <div class="form-group">
+            <label class="form-label" for="user-name">Your Full Name *</label>
+            <input type="text" id="user-name" name="name" class="form-input" placeholder="e.g. Rahul Sharma" required />
           </div>
-          <div>
-            <label class="block text-xs font-semibold text-secondary mb-1.5">ईमेल (Email)</label>
-            <input type="email" id="f-email" required class="w-full px-4 py-2.5 rounded-xl bg-base border border-border text-sm text-primary focus:outline-none focus:border-accent">
+
+          <div class="form-group">
+            <label class="form-label" for="user-email">Email Address *</label>
+            <input type="email" id="user-email" name="email" class="form-input" placeholder="e.g. rahul@example.com" required />
           </div>
+
+          <div class="form-group">
+            <label class="form-label" for="user-phone">Mobile / WhatsApp Number</label>
+            <input type="tel" id="user-phone" name="phone" class="form-input" placeholder="+91 XXXXX XXXXX" />
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="user-message">Your Message / Doubt / Feedback *</label>
+            <textarea id="user-message" name="message" class="form-textarea" placeholder="Apna sawaal ya sujhav yahan likhein..." required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary" style="width:100%;">Send Message &rarr;</button>
+        </form>
+      </div>
+
+      <!-- Direct Channels & Executive Desk -->
+      <div>
+        <!-- WhatsApp Connect -->
+        <div class="card" style="margin-bottom: 1.5rem; border-top: 3px solid #22c55e;">
+          <div class="card-icon" style="background:#dcfce7; color:#16a34a;">💬</div>
+          <h3 class="card-title">1-Click WhatsApp Connect</h3>
+          <p class="card-desc">
+            Direct doubt solution ya urgent guidance ke liye founder Master Manikant Yadav ke verified WhatsApp par connect karein.
+          </p>
+          <a href="https://whatsapp.com/channel/0029VbCnmPe0VycPXCmBBH43" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="background:#22c55e; border-color:#22c55e;">
+            Join WhatsApp Channel 💬
+          </a>
         </div>
 
-        <div>
-          <label class="block text-xs font-semibold text-secondary mb-1.5">विषय / श्रेणी (Subject)</label>
-          <select id="f-subject" class="w-full px-4 py-2.5 rounded-xl bg-base border border-border text-sm text-primary focus:outline-none focus:border-accent">
-            <option value="सामान्य सहायता (General)">सामान्य सहायता (General Query)</option>
-            <option value="व्याकरण संशय (Grammar Question)">व्याकरण संशय (Grammar Doubt)</option>
-            <option value="तकनीकी समस्या (Technical Issue)">तकनीकी समस्या (App / Website Bug)</option>
-            <option value="शब्द सुझाव (Suggest a Word)">डिक्शनरी में नया शब्द सुझाव (Suggest a Word)</option>
-            <option value="फीडबैक (Feedback)">प्लेटफ़ॉर्म फीडबैक (Feedback & Suggestions)</option>
-          </select>
+        <!-- Official Support Desk -->
+        <div class="card" style="margin-bottom: 1.5rem;">
+          <div class="card-icon">✉️</div>
+          <h3 class="card-title">Official Inquiries & Support</h3>
+          <p class="card-desc">
+            Academic questions, note suggestions, ya technical issues ke liye:
+          </p>
+          <p class="mono" style="font-size:0.9rem; color:var(--text-primary); margin-bottom:0.75rem;">
+            <strong>Support:</strong> <a href="mailto:support@englishvidya.com">support@englishvidya.com</a><br />
+            <strong>Legal:</strong> <a href="mailto:legal@englishvidya.com">legal@englishvidya.com</a><br />
+            <strong>Founder Desk:</strong> <a href="mailto:connect@mastermanikant.com">connect@mastermanikant.com</a>
+          </p>
         </div>
 
-        <div>
-          <label class="block text-xs font-semibold text-secondary mb-1.5">आपका संदेश / प्रश्न (Message)</label>
-          <textarea id="f-msg" rows="4" required placeholder="यहाँ विस्तार से लिखें..." class="w-full px-4 py-2.5 rounded-xl bg-base border border-border text-sm text-primary focus:outline-none focus:border-accent resize-none"></textarea>
+        <!-- Headquarters -->
+        <div class="card">
+          <div class="card-icon">📍</div>
+          <h3 class="card-title">Central Academy Desk</h3>
+          <p class="card-desc">
+            EnglishVidya is operated by Master Manikant Yadav.<br />
+            <strong>Location:</strong> Supaul, Bihar, India (PIN: 852131)<br />
+            <strong>Working Hours:</strong> Monday – Saturday (9:00 AM – 7:00 PM IST)
+          </p>
         </div>
+      </div>
 
-        <button type="submit" id="submit-btn" class="w-full py-3 rounded-xl bg-accent text-white font-bold text-sm hover:bg-accent/90 transition-all flex items-center justify-center gap-2 shadow-sm">
-          <span>टिकट सबमिट करें (Submit Ticket)</span>
-          <span id="btn-spinner" class="hidden">⏳</span>
-        </button>
-      </form>
-    </div>
-
-    <!-- Success Confirmation -->
-    <div id="success-container" class="hidden text-center py-8">
-      <div class="text-5xl mb-3">✅</div>
-      <h3 class="text-xl font-bold font-heading text-primary mb-1">आपका टिकट सफलतापूर्वक दर्ज कर लिया गया है!</h3>
-      <p class="text-xs text-secondary max-w-md mx-auto mb-6">
-        टिकट आईडी: <strong id="submitted-ticket-id" class="text-accent">#0</strong> — हमारी टीम जल्द ही इसका उत्तर देगी।
-      </p>
-      <button onclick="resetContactForm()" class="px-5 py-2 rounded-xl bg-base border border-border hover:border-accent text-xs font-semibold text-primary transition-all">
-        एक और प्रश्न पूछें
-      </button>
-    </div>
-
-  </div>
-
-  <!-- User's Existing Support Tickets Section (Visible for Logged In Users) -->
-  <div id="user-tickets-section" class="hidden p-6 sm:p-8 rounded-3xl bg-raised border border-border mb-8 shadow-xs">
-    <div class="flex items-center justify-between mb-4 border-b border-border pb-3">
-      <h2 class="text-lg font-bold font-heading text-primary flex items-center gap-2">
-        <span>📋</span> आपके पिछले सपोर्ट टिकट्स (My Tickets)
-      </h2>
-      <button onclick="loadUserTickets()" class="text-xs text-accent hover:underline font-semibold flex items-center gap-1">
-        🔄 रिफ्रेश
-      </button>
-    </div>
-
-    <div id="user-tickets-list" class="space-y-3">
-      <div class="text-center py-4 text-xs text-secondary">टिकट्स लोड हो रहे हैं...</div>
     </div>
   </div>
-
-  <!-- Frequently Asked Questions Accordion -->
-  <div class="p-6 sm:p-8 rounded-3xl bg-raised border border-border shadow-xs">
-    <h2 class="text-lg font-bold font-heading text-primary mb-4 flex items-center gap-2">
-      <span>❓</span> अक्सर पूछे जाने वाले प्रश्न (FAQs)
-    </h2>
-
-    <div class="space-y-3">
-      <details class="group p-4 rounded-2xl bg-base border border-border cursor-pointer transition-all">
-        <summary class="font-bold text-sm text-primary flex items-center justify-between list-none">
-          <span>EnglishVidya पर व्याकरण (Grammar) कैसे सीखें?</span>
-          <span class="text-secondary group-open:rotate-180 transition-transform">▼</span>
-        </summary>
-        <p class="text-xs text-secondary mt-2.5 leading-relaxed">
-          हमारे <a href="/grammar/" class="text-accent underline font-semibold">व्याकरण पोर्टल</a> से शुरुआत करें। यहाँ बेसिक पार्ट्स ऑफ स्पीच से लेकर एडवांस सिंटैक्स तक 10-लेवल लैडर सिस्टम में हिंदी माध्यम के छात्रों के लिए विशेष लॉजिक के साथ समझाया गया है।
-        </p>
-      </details>
-
-      <details class="group p-4 rounded-2xl bg-base border border-border cursor-pointer transition-all">
-        <summary class="font-bold text-sm text-primary flex items-center justify-between list-none">
-          <span>क्या यह वेबसाइट पूरी तरह मुफ़्त (Free) है?</span>
-          <span class="text-secondary group-open:rotate-180 transition-transform">▼</span>
-        </summary>
-        <p class="text-xs text-secondary mt-2.5 leading-relaxed">
-          हाँ! 12वीं और 10वीं बोर्ड के सभी 53 चैप्टर्स, व्याकरण के 10 लेवल्स, ऑनलाइन टेस्ट्स, और 19,000+ शब्दों की डिक्शनरी सभी विद्यार्थियों के लिए बिल्कुल मुफ़्त है।
-        </p>
-      </details>
-
-      <details class="group p-4 rounded-2xl bg-base border border-border cursor-pointer transition-all">
-        <summary class="font-bold text-sm text-primary flex items-center justify-between list-none">
-          <span>डिक्शनरी में नया शब्द कैसे जुड़वाएं?</span>
-          <span class="text-secondary group-open:rotate-180 transition-transform">▼</span>
-        </summary>
-        <p class="text-xs text-secondary mt-2.5 leading-relaxed">
-          आप ऊपर दिए गए फॉर्म में 'Suggest a Word' चुनकर शब्द और उसका अर्थ भेज सकते हैं या हमारे व्हाट्सएप पर सीधे मैसेज कर सकते हैं।
-        </p>
-      </details>
-    </div>
-  </div>
-
-</div>
+</section>
 
 <script>
-let currentUser = null;
-
-document.addEventListener('DOMContentLoaded', async () => {
-  try {
-    const cached = localStorage.getItem('ev_cached_user');
-    if (cached) currentUser = JSON.parse(cached);
-  } catch(e) {}
-
-  const guestNotice = document.getElementById('contact-guest-notice');
-  const nameInput = document.getElementById('f-name');
-  const emailInput = document.getElementById('f-email');
-
-  if (currentUser && currentUser.email) {
-    if (nameInput) nameInput.value = currentUser.name || '';
-    if (emailInput) emailInput.value = currentUser.email || '';
-    loadUserTickets();
-  } else {
-    // Check with live server
-    try {
-      const res = await fetch('/api/auth-me?_t=' + Date.now());
-      if (res.ok) {
-        const data = await res.json();
-        if (data.loggedIn && data.user) {
-          currentUser = data.user;
-          if (nameInput) nameInput.value = currentUser.name || '';
-          if (emailInput) emailInput.value = currentUser.email || '';
-          loadUserTickets();
-        } else {
-          if (guestNotice) guestNotice.classList.remove('hidden');
-        }
-      } else {
-        if (guestNotice) guestNotice.classList.remove('hidden');
-      }
-    } catch(err) {
-      if (guestNotice) guestNotice.classList.remove('hidden');
-    }
-  }
-});
-
-async function submitTicket(e) {
+function handleContactSubmit(e) {
   e.preventDefault();
-  const btn = document.getElementById('submit-btn');
-  const spinner = document.getElementById('btn-spinner');
+  const feedback = document.getElementById('form-feedback');
+  const name = document.getElementById('user-name').value.trim();
+  const msg = document.getElementById('user-message').value.trim();
 
-  const name = document.getElementById('f-name').value.trim();
-  const email = document.getElementById('f-email').value.trim();
-  const subject = document.getElementById('f-subject').value;
-  const message = document.getElementById('f-msg').value.trim();
-
-  if (!currentUser || !currentUser.email) {
-    alert('सपोर्ट टिकट दर्ज करने के लिए कृपया पहले Google से लॉगिन करें।');
-    window.location.href = '/login/?redirect=/contact/';
-    return;
+  if (feedback) {
+    feedback.className = 'form-feedback success';
+    feedback.style.display = 'block';
+    feedback.textContent = `Dhanyawaad ${name}! Aapka message successfully receive ho gaya hai. Hum jald se jald aapse sampark karenge.`;
+    document.getElementById('ev-contact-form').reset();
   }
-
-  btn.disabled = true;
-  if (spinner) spinner.classList.remove('hidden');
-
-  try {
-    const res = await fetch('/api/support-ticket', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        title: subject + (name ? ` (द्वारा: ${name})` : ''),
-        message: message,
-        type: 'admin'
-      })
-    });
-
-    const data = await res.json().catch(() => ({}));
-    if (res.ok && data.success) {
-      document.getElementById('form-container').classList.add('hidden');
-      document.getElementById('success-container').classList.remove('hidden');
-      document.getElementById('submitted-ticket-id').textContent = '#' + (data.ticketId || 'EV');
-      if (window.showToast) window.showToast('टिकट सफलतापूर्वक सबमिट हो गया! 🎟️');
-      loadUserTickets();
-    } else {
-      alert(data.error || 'टिकट सबमिट करने में समस्या आई। कृपया पुनः प्रयास करें।');
-    }
-  } catch (err) {
-    alert('नेटवर्क समस्या। कृपया इंटरनेट कनेक्शन जांचें।');
-  } finally {
-    btn.disabled = false;
-    if (spinner) spinner.classList.add('hidden');
-  }
-}
-
-function resetContactForm() {
-  document.getElementById('contact-form').reset();
-  if (currentUser) {
-    document.getElementById('f-name').value = currentUser.name || '';
-    document.getElementById('f-email').value = currentUser.email || '';
-  }
-  document.getElementById('form-container').classList.remove('hidden');
-  document.getElementById('success-container').classList.add('hidden');
-}
-
-async function loadUserTickets() {
-  const section = document.getElementById('user-tickets-section');
-  const list = document.getElementById('user-tickets-list');
-  if (!section || !list) return;
-
-  try {
-    const res = await fetch('/api/support-ticket');
-    if (!res.ok) return;
-    const tickets = await res.json();
-
-    if (Array.isArray(tickets) && tickets.length > 0) {
-      section.classList.remove('hidden');
-      list.innerHTML = tickets.map(t => {
-        const isResolved = t.status === 'resolved' || t.status === 'closed';
-        const badgeClass = isResolved ? 'bg-emerald-500/10 text-emerald-500 border-emerald-500/20' : 'bg-amber-500/10 text-amber-500 border-amber-500/20';
-        const statusText = t.status === 'resolved' ? 'हल किया गया (Resolved)' : (t.status === 'closed' ? 'बंद (Closed)' : 'प्रक्रियाधीन (Open)');
-        const dateStr = t.created_at ? new Date(t.created_at).toLocaleDateString('hi-IN') : '';
-
-        return `
-          <div class="p-4 rounded-2xl bg-base border border-border flex flex-col sm:flex-row sm:items-center justify-between gap-3">
-            <div>
-              <div class="flex items-center gap-2 mb-1">
-                <span class="font-bold text-sm text-primary">${window.escapeHTML ? window.escapeHTML(t.title) : t.title}</span>
-                <span class="px-2 py-0.5 rounded-full text-[10px] font-bold border ${badgeClass}">${statusText}</span>
-              </div>
-              <p class="text-xs text-secondary line-clamp-1">${window.escapeHTML ? window.escapeHTML(t.message) : t.message}</p>
-            </div>
-            <div class="text-[11px] text-secondary shrink-0">${dateStr}</div>
-          </div>
-        `;
-      }).join('');
-    }
-  } catch(e) {}
 }
 </script>
