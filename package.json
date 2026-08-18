@@ -5,10 +5,10 @@
   "scripts": {
     "prebuild": "node -e \"const fs=require('fs'); fs.rmSync('_site', {recursive:true, force:true});\" && node scripts/run-audit.js",
     "build:css": "npx @tailwindcss/cli -i ./input.css -o ./website/css/style.css",
-    "build": "npm run build:css && eleventy",
-    "dev": "npm run build:css && eleventy --serve --port=3000",
-    "build:prod": "npm run build:css && node -e \"process.env.NODE_ENV='production'; require('child_process').execSync('npx eleventy', {stdio:'inherit'})\"",
-    "deploy": "npm run build",
+    "build": "eleventy",
+    "dev": "eleventy --serve --port=3000",
+    "build:prod": "node -e \"process.env.NODE_ENV='production'; require('child_process').execSync('npx eleventy', {stdio:'inherit'})\"",
+    "deploy": "eleventy",
     "audit": "node scripts/run-audit.js"
   },
   "author": "Mastermanikant",
