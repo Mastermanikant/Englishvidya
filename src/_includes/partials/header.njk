@@ -1,64 +1,47 @@
-<header class="bg-base border-b border-border sticky top-0 z-30 h-16 flex items-center px-4 md:px-8 justify-between shrink-0" id="app-header">
-  <div class="flex items-center gap-4">
-    <button class="md:hidden p-2 -ml-2 text-primary hover:bg-raised hover:text-accent rounded-md transition-colors" id="mobile-menu-trigger" aria-label="Menu" aria-expanded="false">
-      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-        <line x1="4" y1="12" x2="20" y2="12"></line>
-        <line x1="4" y1="6" x2="20" y2="6"></line>
-        <line x1="4" y1="18" x2="20" y2="18"></line>
-      </svg>
-    </button>
-    <a href="/" class="md:hidden flex items-center gap-2 transition-opacity hover:opacity-80" aria-label="{{ site.siteName }} Home">
-      <img src="/assets/icons/logo.webp" alt="" class="w-8 h-8 object-contain" loading="eager" aria-hidden="true">
-      <span class="font-heading font-bold text-xl tracking-tight text-primary">English <span class="text-accent">Vidya</span></span>
+<!-- ============================================================
+     UNIVERSAL FIXED HEADER PARTIAL (FRANKBASE ARCHITECTURE)
+     ============================================================ -->
+<header class="site-header" role="banner">
+  <div class="container header-inner">
+    <a href="/" class="header-logo" aria-label="EnglishVidya Home">
+      <span class="logo-badge">EV</span>
+      <span class="logo-text">English<span>Vidya</span></span>
     </a>
-  </div>
 
-  <div class="flex items-center gap-2 sm:gap-3">
-    <!-- Search Button -->
-    <button class="p-2 text-secondary hover:text-accent hover:bg-raised rounded-full transition-colors" id="search-trigger-btn" aria-label="Search">
-      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-        <circle cx="11" cy="11" r="8"/>
-        <path d="m21 21-4.35-4.35"/>
-      </svg>
-    </button>
+    <nav class="header-nav" aria-label="Main Navigation">
+      <a href="/" class="nav-link">Home</a>
+      <a href="/#tracks" class="nav-link">Study Tracks</a>
+      <a href="/class-12/" class="nav-link">Class 12th</a>
+      <a href="/class-10/" class="nav-link">Class 10th</a>
+      <a href="/grammar/" class="nav-link">Grammar Master</a>
+      <a href="/dictionary/" class="nav-link">A-Z Lexicon</a>
+      <a href="/about-us/" class="nav-link">About Founder</a>
+      <a href="/contact/" class="nav-link">Contact</a>
+    </nav>
 
-    <!-- Theme Toggle -->
-    <button class="flex p-2 text-secondary hover:text-accent hover:bg-raised rounded-full transition-colors" id="theme-toggle-btn" aria-label="Toggle Theme">
-      <svg class="dark:hidden w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-        <circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
-      </svg>
-      <svg class="hidden dark:block w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
-      </svg>
-    </button>
-
-    <!-- Login / Profile Button Container -->
-    <div class="relative">
-      <!-- Direct Login / Profile Link -->
-      <a href="/login/" id="header-profile-btn" class="px-3.5 py-1.5 rounded-full bg-raised border border-border hover:border-accent text-primary hover:text-accent text-xs sm:text-sm font-semibold flex items-center gap-1.5 transition-all shadow-xs">
-        <svg id="header-profile-icon" class="w-4 h-4 text-accent" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
-          <circle cx="12" cy="7" r="4"></circle>
-        </svg>
-        <img id="header-profile-img" src="" alt="Profile" class="w-6 h-6 rounded-full border border-border hidden object-cover">
-        <span id="header-profile-text">Login</span>
-      </a>
-      
-      <!-- Dropdown (Hidden by default) -->
-      <div id="header-profile-menu" class="hidden absolute right-0 mt-2 w-56 bg-raised border border-border rounded-2xl shadow-xl py-2 z-50">
-        <div class="px-4 py-3 border-b border-border">
-          <div id="menu-user-name" class="font-bold text-sm text-primary truncate">User</div>
-          <div id="menu-user-email" class="text-xs text-secondary truncate mt-0.5">user@email.com</div>
-        </div>
-        <a href="/profile/" class="block px-4 py-2 text-xs sm:text-sm text-secondary hover:text-accent hover:bg-base transition-colors">👤 My Profile Dashboard</a>
-        <a href="/my-diary/" class="block px-4 py-2 text-xs sm:text-sm text-secondary hover:text-accent hover:bg-base transition-colors">📓 My Diary & Notes</a>
-        <a href="/contact/" class="block px-4 py-2 text-xs sm:text-sm text-secondary hover:text-accent hover:bg-base transition-colors">🎧 Help & Support</a>
-        <a href="/admin/" id="menu-admin-link" class="hidden px-4 py-2 text-xs sm:text-sm text-accent font-medium hover:bg-base transition-colors">🛡️ Admin</a>
-        <div class="border-t border-border mt-2 pt-2">
-          <button id="logout-btn" class="w-full text-left px-4 py-2 text-xs sm:text-sm text-rose-500 hover:bg-rose-500/10 transition-colors">🚪 Logout</button>
-        </div>
-      </div>
+    <div class="header-actions">
+      <button class="theme-toggle-btn" id="theme-toggle" type="button" aria-label="Toggle Theme" title="Toggle Light/Dark Mode">
+        <span id="theme-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+        </span>
+      </button>
+      <a href="/#tracks" class="btn btn-primary btn-sm">Explore Notes</a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle Menu" aria-expanded="false">
+        ☰
+      </button>
     </div>
-
   </div>
 </header>
+
+<!-- Mobile Dropdown Drawer -->
+<div class="mobile-menu" id="mobile-menu">
+  <a href="/" class="nav-link">Home</a>
+  <a href="/#tracks" class="nav-link">Study Tracks</a>
+  <a href="/class-12/" class="nav-link">Class 12th</a>
+  <a href="/class-10/" class="nav-link">Class 10th</a>
+  <a href="/grammar/" class="nav-link">Grammar Master</a>
+  <a href="/dictionary/" class="nav-link">A-Z Lexicon</a>
+  <a href="/about-us/" class="nav-link">About Founder</a>
+  <a href="/contact/" class="nav-link">Contact</a>
+  <a href="/legal/" class="nav-link">Legal Hub</a>
+</div>

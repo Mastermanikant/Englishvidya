@@ -1,68 +1,66 @@
-<footer class="w-full shrink-0 bg-[#0b1220] text-[#cbd5e1] mt-16 py-14 border-t border-[#1e293b] font-sans" role="contentinfo" aria-label="Site Footer">
-  <div class="max-w-6xl mx-auto px-4 sm:px-6">
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-10">
+<!-- ============================================================
+     UNIVERSAL MODULAR FOOTER PARTIAL (FRANKBASE ARCHITECTURE)
+     ============================================================ -->
+<footer class="site-footer" role="contentinfo">
+  <div class="container">
+    <div class="footer-grid">
       
-      <!-- Column 1: Brand & Social -->
-      <div class="space-y-4">
-        <a href="/" class="flex items-center gap-2 text-white font-bold text-xl tracking-tight">
-          <div class="w-8 h-8 rounded-lg bg-sky-500 text-slate-950 font-extrabold flex items-center justify-center text-sm">EV</div>
-          <span>English<span class="text-sky-400">Vidya</span></span>
+      <div class="footer-brand">
+        <a href="/" class="header-logo">
+          <span class="logo-badge">EV</span>
+          <span class="logo-text">English<span>Vidya</span></span>
         </a>
-        <p class="text-xs sm:text-sm text-[#94a3b8] leading-relaxed font-hindi">
-          अंग्रेज़ी को रटना छोड़िए, लॉजिक और समझ के साथ सीखिए।
+        <p>
+          India's open educational English academy by Master Manikant. Delivering high-yield notes for Bihar Board 10th/12th, 10-Level Grammar Ladder, and 19,000+ words audio dictionary.
         </p>
-        <div class="pt-2 flex items-center gap-3 text-xs text-[#94a3b8]">
-          <a href="{{ site.youtubeChannel | default('https://youtube.com/@englishvidyahq') }}" target="_blank" rel="noopener noreferrer" class="hover:text-red-400 transition-colors">YouTube</a>
-          <span>·</span>
-          <a href="{{ site.whatsappChannel | default('https://whatsapp.com/channel/0029VbCnmPe0VycPXCmBBH43') }}" target="_blank" rel="noopener noreferrer" class="hover:text-green-400 transition-colors">WhatsApp</a>
-          <span>·</span>
-          <a href="https://t.me/englishvidyahq" target="_blank" rel="noopener noreferrer" class="hover:text-sky-400 transition-colors">Telegram</a>
-        </div>
+        <p class="mono" style="font-size:0.8rem; color:var(--text-dim);">
+          Operated by Master Manikant Yadav, Supaul, Bihar (PIN: 852131)
+        </p>
       </div>
 
-      <!-- Column 2: Academic Portals -->
-      <div>
-        <h3 class="text-white font-bold text-sm uppercase tracking-wider mb-4">Academic</h3>
-        <ul class="space-y-2.5 text-xs sm:text-sm text-[#94a3b8] font-hindi">
-          <li><a href="/class-12/" class="hover:text-sky-400 transition-colors">Class 12 English (Rainbow 2)</a></li>
-          <li><a href="/class-10/" class="hover:text-sky-400 transition-colors">Class 10 English (Panorama 2)</a></li>
-          <li><a href="/grammar/" class="hover:text-sky-400 transition-colors">Grammar Master (5 Levels)</a></li>
-          <li><a href="/dictionary/" class="hover:text-sky-400 transition-colors">A-Z Dictionary (19,000+ Words)</a></li>
-          <li><a href="/flashcards/" class="hover:text-sky-400 transition-colors">Vocabulary Flashcards</a></li>
+      <div class="footer-col">
+        <h4>Study Tracks</h4>
+        <ul class="footer-links">
+          <li><a href="/class-12/" class="footer-link">Bihar Board 12th</a></li>
+          <li><a href="/class-10/" class="footer-link">Bihar Board 10th</a></li>
+          <li><a href="/grammar/" class="footer-link">Grammar Master</a></li>
+          <li><a href="/dictionary/" class="footer-link">19k+ Audio Lexicon</a></li>
+          <li><a href="/quiz/" class="footer-link">Free Quiz Arena</a></li>
         </ul>
       </div>
 
-      <!-- Column 3: Student Tools -->
-      <div>
-        <h3 class="text-white font-bold text-sm uppercase tracking-wider mb-4">Student Tools</h3>
-        <ul class="space-y-2.5 text-xs sm:text-sm text-[#94a3b8] font-hindi">
-          <li><a href="/my-diary/" class="hover:text-sky-400 transition-colors">My Diary & Notes</a></li>
-          <li><a href="/#home-wotd-word" class="hover:text-sky-400 transition-colors">Word of the Day</a></li>
-          <li><a href="/profile/" class="hover:text-sky-400 transition-colors">Student Dashboard</a></li>
-          <li><a href="https://whatsapp.com/channel/0029VbCnmPe0VycPXCmBBH43" target="_blank" rel="noopener noreferrer" class="hover:text-sky-400 transition-colors">Ask Doubt on WhatsApp</a></li>
-          <li><a href="/referral/" class="hover:text-sky-400 transition-colors">Refer & Earn Coins</a></li>
+      <div class="footer-col">
+        <h4>Ecosystem Network</h4>
+        <ul class="footer-links">
+          <li><a href="https://frankbase.com" target="_blank" rel="noopener noreferrer" class="footer-link">FrankBase</a></li>
+          <li><a href="https://frankpass.com" target="_blank" rel="noopener noreferrer" class="footer-link">FrankPass</a></li>
+          <li><a href="https://speed.frankbase.com" target="_blank" rel="noopener noreferrer" class="footer-link">SpeedPulse</a></li>
+          <li><a href="https://typing.frankbase.com" target="_blank" rel="noopener noreferrer" class="footer-link">Typing Tutor</a></li>
+          <li><a href="https://mastermanikant.com" target="_blank" rel="noopener noreferrer" class="footer-link">MasterManikant</a></li>
         </ul>
       </div>
 
-      <!-- Column 4: Trust & Legal -->
-      <div>
-        <h3 class="text-white font-bold text-sm uppercase tracking-wider mb-4">Trust & Legal</h3>
-        <ul class="space-y-2.5 text-xs sm:text-sm text-[#94a3b8]">
-          <li><a href="/founder-mastermanikant/" class="hover:text-sky-400 transition-colors">About Master Manikant</a></li>
-          <li><a href="/about-us/" class="hover:text-sky-400 transition-colors">About EnglishVidya</a></li>
-          <li><a href="/contact/" class="hover:text-sky-400 transition-colors">Contact & Support</a></li>
-          <li><a href="/legal/" class="hover:text-sky-400 transition-colors">Privacy Policy</a></li>
-          <li><a href="/agreement/" class="hover:text-sky-400 transition-colors">Terms & Agreement</a></li>
+      <div class="footer-col">
+        <h4>Trust & Legal</h4>
+        <ul class="footer-links">
+          <li><a href="/about-us/" class="footer-link">About Founder</a></li>
+          <li><a href="/contact/" class="footer-link">Contact Support</a></li>
+          <li><a href="/legal/#privacy" class="footer-link">Privacy Policy</a></li>
+          <li><a href="/legal/#terms" class="footer-link">Terms & Conditions</a></li>
+          <li><a href="/legal/#liability" class="footer-link">Limited Liability</a></li>
+          <li><a href="/legal/#advertising" class="footer-link">Ads & Affiliate Disclosure</a></li>
+          <li><a href="/legal/" class="footer-link">Legal Hub</a></li>
         </ul>
       </div>
 
     </div>
 
-    <!-- Copyright Bar -->
-    <div class="border-t border-[#1e293b] pt-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-[#64748b]">
-      <div>© 2026 EnglishVidya (Master Manikant). All rights reserved.</div>
-      <div class="flex items-center gap-4 text-[11px]">
-        <span>Designed for 4G mobile learning across Bihar & India.</span>
+    <div class="footer-bottom">
+      <div>
+        &copy; 2026 EnglishVidya. Built with pride by <a href="/about-us/" style="font-weight:600;">Master Manikant Yadav</a>.
+      </div>
+      <div class="mono" style="font-size:0.8rem;">
+        Fast • Open • Pure Logic
       </div>
     </div>
   </div>

@@ -75,11 +75,25 @@
       this.apply(theme);
       this.updateDrawerLabel(theme);
 
-      // Desktop toggle button
-      const btn = $('#theme-toggle-btn');
+      // Desktop toggle buttons (both #theme-toggle and #theme-toggle-btn)
+      const btn = $('#theme-toggle-btn') || $('#theme-toggle');
       if (btn) btn.addEventListener('click', (e) => this.toggle(e));
 
-      // Mobile drawer toggle button (Bug Fix: was missing)
+      const fbToggle = $('#theme-toggle');
+      if (fbToggle && fbToggle !== btn) fbToggle.addEventListener('click', (e) => this.toggle(e));
+
+      // Mobile hamburger menu toggle
+      const hamburger = $('#hamburger');
+      const mobileMenu = $('#mobile-menu');
+      if (hamburger && mobileMenu) {
+        hamburger.addEventListener('click', () => {
+          mobileMenu.classList.toggle('open');
+          const isOpen = mobileMenu.classList.contains('open');
+          hamburger.setAttribute('aria-expanded', isOpen);
+        });
+      }
+
+      // Mobile drawer toggle button
       const drawerBtn = $('#theme-toggle-drawer-btn');
       if (drawerBtn) drawerBtn.addEventListener('click', (e) => this.toggle(e));
     },

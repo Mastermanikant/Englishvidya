@@ -1,130 +1,93 @@
 <!DOCTYPE html>
-<html lang="{{ htmlLang or 'hi' }}" data-theme="dark" class="dark">
-
+<html lang="{{ htmlLang or 'hi' }}" data-theme="light">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
-
-  {# ── SEO Meta ── #}
-  <title>{{ pageTitle or title or site.siteName }}</title>
-  <meta name="description" content="{{ metaDescription or description or site.siteDescription }}">
-  <link rel="canonical" href="{{ site.canonicalBase }}{{ page.url }}">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>{{ pageTitle or title or "EnglishVidya — Learn English with Logic | Master Manikant" }}</title>
+  <meta name="description" content="{{ metaDescription or description or "EnglishVidya is an open, high-speed English learning platform by Master Manikant. Free Bihar Board 12th & 10th English, 10-Level Grammar Ladder, and 19,000+ Bilingual Dictionary." }}" />
+  <link rel="canonical" href="https://englishvidya.com{{ page.url }}" />
   {% if noindex %}
-  <meta name="robots" content="noindex">
+  <meta name="robots" content="noindex, follow" />
   {% endif %}
 
-  {# OpenGraph & Twitter Cards #}
-  <meta property="og:title" content="{{ pageTitle or title or site.siteName }}">
-  <meta property="og:description" content="{{ metaDescription or description or site.siteDescription }}">
-  <meta property="og:url" content="{{ site.canonicalBase }}{{ page.url }}">
-  <meta property="og:type" content="website">
-  <meta property="og:image" content="{{ site.canonicalBase }}{{ ogImage or '/assets/icons/icon-512.png' }}">
-  <meta property="og:site_name" content="{{ site.siteName }}">
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://englishvidya.com{{ page.url }}" />
+  <meta property="og:title" content="{{ pageTitle or title or "EnglishVidya — Learn English with Logic" }}" />
+  <meta property="og:description" content="{{ metaDescription or description or "Free educational notes for Bihar Board 10th/12th, Grammar, and 19,000+ Dictionary." }}" />
+  <meta property="og:image" content="https://englishvidya.com/assets/icons/icon-512.png" />
+  <meta property="og:site_name" content="EnglishVidya" />
 
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="{{ pageTitle or title or site.siteName }}">
-  <meta name="twitter:description" content="{{ metaDescription or description or site.siteDescription }}">
-  <meta name="twitter:image" content="{{ site.canonicalBase }}{{ ogImage or '/assets/icons/icon-512.png' }}">
+  <!-- Twitter Meta -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="{{ pageTitle or title or "EnglishVidya — Learn English with Logic" }}" />
+  <meta name="twitter:description" content="{{ metaDescription or description or "100% Free & Open study material for Hindi-medium students." }}" />
+  <meta name="twitter:image" content="https://englishvidya.com/assets/icons/icon-512.png" />
 
-
-  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
-  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0f172a">
-  
-  <link rel="icon" type="image/png" href="/assets/icons/icon-192.png">
-  <link rel="icon" type="image/svg+xml" href="/assets/icons/logo.svg">
-  <link rel="apple-touch-icon" href="/assets/icons/icon-192.png">
-  <link rel="manifest" href="/manifest.json">
-
-  {# ── Fonts ── #}
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+Devanagari:wght@400;500;600;700;800&family=Outfit:wght@600;700;800;900&display=swap">
-
-  {# ── CSS ── #}
-  <link rel="stylesheet" href="/css/custom.css?v=4.0.0-live">
-  <link rel="stylesheet" href="/css/style.css?v=4.0.0-live">
-
-  {# ── Theme Restore ── #}
+  <!-- CRITICAL ANTI-FOUC DAY/NIGHT THEME SCRIPT (FRANKBASE ENGINE) -->
   <script>
-    (function () {
-      var saved = localStorage.getItem('ev-theme');
-      var systemPref = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-      var t = saved || systemPref;
-      document.documentElement.setAttribute('data-theme', t);
-      if (t === 'dark') document.documentElement.classList.add('dark');
-      else document.documentElement.classList.remove('dark');
+    (function() {
+      try {
+        var savedTheme = localStorage.getItem('ev-theme') || 'light';
+        document.documentElement.setAttribute('data-theme', savedTheme);
+        if (savedTheme === 'dark') document.documentElement.classList.add('dark');
+        else document.documentElement.classList.remove('dark');
+      } catch (e) {}
     })();
+  </script>
+
+  <!-- Google Fonts: Outfit + Plus Jakarta Sans + JetBrains Mono + Noto Sans Devanagari -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&family=Noto+Sans+Devanagari:wght@400;500;600;700;800&display=swap" />
+
+  <link rel="stylesheet" href="/css/style.css?v=5.0.0" />
+  <link rel="icon" href="/favicon.ico" sizes="any" />
+  <link rel="icon" type="image/svg+xml" href="/assets/icons/logo.svg" />
+  <link rel="apple-touch-icon" href="/assets/icons/icon-192.png" />
+  <link rel="manifest" href="/manifest.json" />
+
+  <!-- Schema.org EducationalOrganization -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "EducationalOrganization",
+    "name": "EnglishVidya",
+    "url": "https://englishvidya.com",
+    "logo": "https://englishvidya.com/assets/icons/logo.svg",
+    "founder": {
+      "@type": "Person",
+      "name": "Master Manikant Yadav",
+      "jobTitle": "Educator & Systems Architect",
+      "url": "https://mastermanikant.com"
+    },
+    "description": "Bihar Board 12th & 10th English, Grammar, and Hindi-English Vocabulary Platform by Master Manikant.",
+    "sameAs": [
+      "https://youtube.com/@englishvidyahq",
+      "https://whatsapp.com/channel/0029VbCnmPe0VycPXCmBBH43"
+    ]
+  }
   </script>
 
   {{ extraHead | safe }}
 </head>
+<body>
 
-<body class="bg-base text-primary font-sans antialiased h-screen flex overflow-hidden selection:bg-accent selection:text-white">
-  <!-- WCAG Skip to Main Content Link -->
-  <a href="#app-content" class="sr-only skip-to-content">मुख्य सामग्री पर जाएं (Skip to main content)</a>
+  <!-- UNIVERSAL MODULAR HEADER (FRANKBASE ARCHITECTURE) -->
+  {% include "partials/header.njk" %}
 
-  {# ══ DESKTOP SIDEBAR ══ #}
-  {% include "partials/sidebar.njk" %}
+  <main id="main-content">
+    {{ content | safe }}
+  </main>
 
-  {# ══ MAIN CONTENT AREA ══ #}
-  <div class="flex-1 flex flex-col min-w-0 h-screen bg-base relative overflow-hidden">
-    
-    <!-- Soft Ambient Background Gradients - slow breathing, not distracting -->
-    <div class="absolute inset-0 pointer-events-none z-0 overflow-hidden" aria-hidden="true">
-      <div class="absolute -top-[10%] -left-[10%] w-[50%] h-[50%] rounded-full bg-accent/10 blur-[140px] animate-glow-pulse opacity-40" style="animation-duration: 8s;"></div>
-      <div class="absolute top-[40%] -right-[10%] w-[60%] h-[60%] rounded-full bg-indigo-500/5 blur-[160px] animate-glow-pulse opacity-30" style="animation-duration: 12s; animation-delay: 4s;"></div>
-    </div>
+  <!-- UNIVERSAL MODULAR FOOTER (FRANKBASE ARCHITECTURE) -->
+  {% include "partials/footer.njk" %}
 
-    {# ══ HEADER ══ #}
-    {% include "partials/header.njk" %}
-
-    {# ══ MAIN CONTENT ══ #}
-    <main class="flex-1 overflow-y-auto w-full p-4 md:p-8 pb-24 md:pb-8 relative z-10" id="app-content" role="main">
-      <div class="max-w-4xl mx-auto w-full">
-        {# Breadcrumbs #}
-        {% include "partials/breadcrumbs.njk" %}
-        
-        {# Article / Content wrapper with Typography plugin #}
-        <article class="prose dark:prose-invert prose-indigo max-w-none mt-6">
-          {{ content | safe }}
-        </article>
-      </div>
-
-      {# ══ FOOTER ══ #}
-      {% include "partials/footer.njk" %}
-    </main>
-  </div>
-
-  {# ══ SEARCH OVERLAY ══ #}
+  <!-- Search Overlay Modal -->
   {% include "partials/search-overlay.njk" %}
 
-  {# ══ MOBILE DRAWER ══ #}
-  {% include "partials/mobile-drawer.njk" %}
-
-  {# ══ BOTTOM NAV (Mobile) ══ #}
-  {% include "partials/bottom-nav.njk" %}
-
-  {# ══ TOAST CONTAINER ══ #}
-  <div id="toast-container" aria-live="polite" aria-atomic="true" class="fixed bottom-20 left-1/2 transform -translate-x-1/2 z-50 flex flex-col gap-2"></div>
-
-  {# ── JS ── #}
-  <script src="/js/toast.js?v=4.0.0-live" defer></script>
-  <script src="/js/app.js?v=4.0.0-live" defer></script>
-  <script src="/js/auth-ui.js?v=4.0.0-live" defer></script>
-  
-  {% if page.url and '/my-diary' in page.url %}
-  <script src="/js/diary.js?v=2.1.0" defer></script>
-  {% endif %}
-  
-  {{ extraScripts | safe }}
-  
-  {# ── Stale Service Worker Unregister & Fresh Sync ── #}
-  <script>
-    if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.getRegistrations().then(function(regs) {
-        regs.forEach(function(r) { r.unregister(); });
-      });
-    }
-  </script>
+  <script src="/js/app.js?v=5.0.0"></script>
+  <script src="/js/bookmarks.js?v=5.0.0"></script>
 </body>
 </html>
