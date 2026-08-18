@@ -1,454 +1,343 @@
 ---
 layout: layouts/base.njk
-pageTitle: "EnglishVidya — India's Logic-Based English & Bihar Board Hub | Master Manikant"
-metaDescription: "EnglishVidya is an open, high-speed English learning platform by Master Manikant. Free Bihar Board 12th & 10th English, 10-Level Grammar Ladder, and 19,000+ Bilingual Dictionary."
+title: "EnglishVidya — India's Open Logic-Based English & Bihar Board Hub | Master Manikant"
+description: "EnglishVidya is an open, high-speed English learning platform by Master Manikant Yadav. Free Bihar Board (10th/12th) notes, 10-Level Grammar Ladder, 19,000+ Dictionary words, and formula sheets."
 permalink: "/"
-schemaJson: |
-  {
-    "@context": "https://schema.org",
-    "@type": "EducationalOrganization",
-    "name": "EnglishVidya",
-    "url": "https://englishvidya.com",
-    "logo": "https://englishvidya.com/assets/icons/logo.svg",
-    "founder": {
-      "@type": "Person",
-      "name": "Master Manikant Yadav",
-      "jobTitle": "Educator & Systems Architect",
-      "url": "https://mastermanikant.com"
-    },
-    "description": "Comprehensive Hindi-Medium & Bihar Board (10th/12th Rainbow & Panorama, 10-Level Grammar Master, 19k+ Audio Dictionary) logic-based open learning hub.",
-    "sameAs": [
-      "https://youtube.com/@englishvidyahq",
-      "https://whatsapp.com/channel/0029VbCnmPe0VycPXCmBBH43"
-    ]
-  }
 ---
 
-<!-- ═══════════════════════════════════════════════════════════════ -->
-<!-- 1. HERO SECTION (FRANKBASE SIGNATURE ARCHITECTURE) -->
-<!-- ═══════════════════════════════════════════════════════════════ -->
-<section class="relative pt-6 sm:pt-12 pb-8 sm:pb-12 text-center overflow-hidden">
-  <div class="max-w-4xl mx-auto space-y-6">
-    
-    <!-- Pill Badge -->
-    <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-accent/10 border border-accent/25 text-accent text-xs sm:text-sm font-bold uppercase tracking-wider shadow-xs">
-      <span class="inline-block w-2 h-2 rounded-full bg-accent animate-ping"></span>
-      <span>✨ 100% Free & Open English Academy • Master Manikant Method</span>
-    </div>
-
-    <!-- Hero Title -->
-    <h1 class="text-3xl sm:text-5xl lg:text-6xl font-extrabold font-heading text-primary tracking-tight leading-[1.12]">
-      Structured Logic.<br />
-      Zero Ratta. <span class="text-accent">Pure English Mastery.</span>
-    </h1>
-
-    <!-- Hero Subtitle -->
-    <p class="text-sm sm:text-base lg:text-lg text-secondary leading-relaxed font-sans max-w-2xl mx-auto">
-      Bihar Board (10th & 12th), 10-Level Grammar Master, aur 19,000+ bilingual words ka centralized open hub. Master Manikant dwara design kiya gaya simplified Hindi-medium study ecosystem.
-    </p>
-
-    <!-- Unified Search Box -->
-    <div class="max-w-2xl mx-auto pt-2">
-      <div class="p-2 rounded-2xl bg-raised border-2 border-border hover:border-accent focus-within:border-accent focus-within:ring-4 focus-within:ring-accent/15 transition-all shadow-md flex items-center gap-2">
-        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="text-secondary ml-3 shrink-0"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
-        <input type="text" id="hero-interactive-search" placeholder="Search 19,000+ words, grammar rules, or 12th/10th chapters..." class="w-full bg-transparent border-none outline-none text-xs sm:text-sm text-primary placeholder:text-secondary/70 py-2 font-sans" aria-label="Search study materials">
-        <button onclick="triggerSearchOverlay()" class="px-5 py-2.5 rounded-xl bg-accent text-white font-bold text-xs sm:text-sm hover:bg-accent/90 transition-all shrink-0 shadow-xs flex items-center gap-1">
-          <span>Search</span>
-          <span>→</span>
-        </button>
+<!-- HERO SECTION -->
+<section class="hero-section">
+  <div class="container">
+    <div class="hero-content">
+      <div class="pill-badge">
+        <span>✨ 100% Free & Open English Academy</span>
       </div>
-
-      <!-- Quick Trending Tags -->
-      <div class="flex flex-wrap items-center justify-center gap-2 mt-3 text-xs text-secondary">
-        <span class="font-bold text-primary text-[11px] uppercase tracking-wider">🔥 Trending Tracks:</span>
-        <a href="/class-12/indian-civilization-and-culture/" class="px-2.5 py-1 rounded-lg bg-raised border border-border hover:border-accent hover:text-accent transition-colors font-medium">Indian Civilization</a>
-        <a href="/grammar/" class="px-2.5 py-1 rounded-lg bg-raised border border-border hover:border-accent hover:text-accent transition-colors font-medium">Tenses Ladder</a>
-        <a href="/class-12/" class="px-2.5 py-1 rounded-lg bg-raised border border-border hover:border-accent hover:text-accent transition-colors font-medium">12th Rainbow 2</a>
-        <a href="/class-10/" class="px-2.5 py-1 rounded-lg bg-raised border border-border hover:border-accent hover:text-accent transition-colors font-medium">10th Panorama</a>
-        <a href="/quiz/" class="px-2.5 py-1 rounded-lg bg-raised border border-border hover:border-accent hover:text-accent transition-colors font-medium">Grammar Quiz</a>
-      </div>
-    </div>
-
-    <!-- CTA Button Group -->
-    <div class="flex flex-wrap items-center justify-center gap-3 pt-2">
-      <a href="#tracks" class="px-6 py-3 rounded-xl bg-accent text-white font-bold text-sm hover:bg-accent/90 transition-all shadow-sm">
-        Browse Study Tracks ↓
-      </a>
-      <a href="#logic-lab" class="px-6 py-3 rounded-xl bg-raised border border-border text-primary font-bold text-sm hover:border-accent transition-all shadow-xs">
-        Open Logic Lab 🧪
-      </a>
-    </div>
-
-  </div>
-
-  <!-- 4-COLUMN TRUST PILLARS BAR (FRANKBASE TRUST BAR) -->
-  <div class="max-w-5xl mx-auto mt-12 grid grid-cols-2 md:grid-cols-4 gap-3 p-4 rounded-3xl bg-raised border border-border shadow-xs text-left">
-    <div class="p-3.5 rounded-2xl bg-base border border-border/60 flex items-center gap-3">
-      <div class="w-10 h-10 rounded-xl bg-accent/15 text-accent flex items-center justify-center text-xl shrink-0">🔓</div>
-      <div>
-        <div class="text-xs font-bold text-primary">100% Open Access</div>
-        <div class="text-[11px] text-secondary">Zero forced paywalls</div>
-      </div>
-    </div>
-
-    <div class="p-3.5 rounded-2xl bg-base border border-border/60 flex items-center gap-3">
-      <div class="w-10 h-10 rounded-xl bg-emerald-500/15 text-emerald-500 flex items-center justify-center text-xl shrink-0">🎙️</div>
-      <div>
-        <div class="text-xs font-bold text-primary">Native Audio TTS</div>
-        <div class="text-[11px] text-secondary">Line-by-line speech 🔊</div>
-      </div>
-    </div>
-
-    <div class="p-3.5 rounded-2xl bg-base border border-border/60 flex items-center gap-3">
-      <div class="w-10 h-10 rounded-xl bg-amber-500/15 text-amber-500 flex items-center justify-center text-xl shrink-0">🎯</div>
-      <div>
-        <div class="text-xs font-bold text-primary">Bihar Board Aligned</div>
-        <div class="text-[11px] text-secondary">BSEB 10th & 12th Focus</div>
-      </div>
-    </div>
-
-    <div class="p-3.5 rounded-2xl bg-base border border-border/60 flex items-center gap-3">
-      <div class="w-10 h-10 rounded-xl bg-indigo-500/15 text-indigo-500 flex items-center justify-center text-xl shrink-0">⚡</div>
-      <div>
-        <div class="text-xs font-bold text-primary">Lightning Fast</div>
-        <div class="text-[11px] text-secondary">Cloudflare Edge powered</div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ═══════════════════════════════════════════════════════════════ -->
-<!-- 2. CORE STUDY TRACKS & KNOWLEDGE BASE (FRANKBASE GRID-3/GRID-4) -->
-<!-- ═══════════════════════════════════════════════════════════════ -->
-<section class="max-w-6xl mx-auto space-y-6 pt-6" id="tracks">
-  <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-2 border-b border-border pb-4">
-    <div>
-      <h2 class="text-2xl sm:text-3xl font-extrabold font-heading text-primary tracking-tight">
-        Core Study Tracks & Knowledge Base
-      </h2>
-      <p class="text-xs sm:text-sm text-secondary mt-0.5">
-        Carefully organized Hindi-medium English learning pathways with authentic chapter notes and logic formulas.
+      <h1 class="hero-title">
+        Structured Logic.<br />
+        Zero Ratta. <span style="color:var(--accent);">Pure English Mastery.</span>
+      </h1>
+      <p class="hero-subtitle">
+        Bihar Board (10th & 12th), 10-Level Grammar Master, 19,000+ Audio Lexicon, aur high-speed educational tools ka centralized open hub. Master Manikant Yadav dwara design kiya gaya simplified Hindi-medium study ecosystem.
       </p>
-    </div>
-    <a href="/all-post/" class="text-xs sm:text-sm font-bold text-accent hover:underline flex items-center gap-1 shrink-0">
-      <span>View Master Directory</span>
-      <span>→</span>
-    </a>
-  </div>
 
-  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-    
-    <!-- Track 1: Bihar Board 12th -->
-    <div class="p-6 rounded-3xl bg-raised border border-border hover:border-accent hover:-translate-y-1 transition-all shadow-xs hover:shadow-md flex flex-col justify-between group">
-      <div>
-        <div class="w-12 h-12 rounded-2xl bg-accent/15 text-accent flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform">
-          🎓
-        </div>
-        <h3 class="text-lg font-bold font-heading text-primary mb-2">Bihar Board Class 12th English</h3>
-        <p class="text-xs text-secondary leading-relaxed mb-4">
-          Complete Rainbow Part 2 syllabus: Line-by-line Hindi explanation of all prose & poetry chapters, summaries, author bios, and objective question banks.
-        </p>
-        <div class="flex flex-wrap gap-1.5 mb-6">
-          <span class="px-2.5 py-1 rounded-lg bg-base text-[11px] text-secondary font-medium border border-border">Rainbow 2 Prose</span>
-          <span class="px-2.5 py-1 rounded-lg bg-base text-[11px] text-secondary font-medium border border-border">Poetry</span>
-          <span class="px-2.5 py-1 rounded-lg bg-base text-[11px] text-secondary font-medium border border-border">Hindi Translation</span>
-          <span class="px-2.5 py-1 rounded-lg bg-base text-[11px] text-secondary font-medium border border-border">MCQ Bank</span>
+      <!-- Search Bar -->
+      <div class="hero-search-box">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="color:var(--text-muted);"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+        <input type="text" id="global-search" class="hero-search-input" placeholder="Search 19,000+ words, grammar rules, or 12th/10th chapters..." aria-label="Search study materials" />
+        <button class="btn btn-primary btn-sm" onclick="document.getElementById('tracks').scrollIntoView({behavior: 'smooth'})">Search</button>
+      </div>
+
+      <div class="hero-cta-group">
+        <a href="#tracks" class="btn btn-primary">Browse Study Tracks &darr;</a>
+        <a href="#ecosystem" class="btn btn-outline">Explore Ecosystem Apps &rarr;</a>
+      </div>
+    </div>
+
+    <!-- Trust Pillars Bar -->
+    <div class="trust-bar">
+      <div class="trust-item">
+        <div class="trust-item-icon">🔓</div>
+        <div>
+          <div class="trust-item-title">100% Open Access</div>
+          <div class="trust-item-sub">No forced logins or paywalls</div>
         </div>
       </div>
-      <a href="/class-12/" class="inline-flex items-center justify-between px-4 py-2.5 rounded-xl bg-base border border-border text-xs font-bold text-primary group-hover:border-accent group-hover:text-accent transition-all">
-        <span>Explore Class 12th Hub</span>
-        <span>→</span>
-      </a>
-    </div>
-
-    <!-- Track 2: Bihar Board 10th -->
-    <div class="p-6 rounded-3xl bg-raised border border-border hover:border-accent hover:-translate-y-1 transition-all shadow-xs hover:shadow-md flex flex-col justify-between group">
-      <div>
-        <div class="w-12 h-12 rounded-2xl bg-emerald-500/15 text-emerald-500 flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform">
-          📚
-        </div>
-        <h3 class="text-lg font-bold font-heading text-primary mb-2">Bihar Board Class 10th (Matric)</h3>
-        <p class="text-xs text-secondary leading-relaxed mb-4">
-          Complete Panorama Part 2 guide: High-yield revision capsules, difficult vocabulary meanings in Hindi, grammar notes, and exam model question sets.
-        </p>
-        <div class="flex flex-wrap gap-1.5 mb-6">
-          <span class="px-2.5 py-1 rounded-lg bg-base text-[11px] text-secondary font-medium border border-border">Panorama 2</span>
-          <span class="px-2.5 py-1 rounded-lg bg-base text-[11px] text-secondary font-medium border border-border">Matric English</span>
-          <span class="px-2.5 py-1 rounded-lg bg-base text-[11px] text-secondary font-medium border border-border">Grammar Notes</span>
-          <span class="px-2.5 py-1 rounded-lg bg-base text-[11px] text-secondary font-medium border border-border">Model Papers</span>
+      <div class="trust-item">
+        <div class="trust-item-icon">🎙️</div>
+        <div>
+          <div class="trust-item-title">Native Audio TTS</div>
+          <div class="trust-item-sub">Line-by-line speech 🔊</div>
         </div>
       </div>
-      <a href="/class-10/" class="inline-flex items-center justify-between px-4 py-2.5 rounded-xl bg-base border border-border text-xs font-bold text-primary group-hover:border-accent group-hover:text-accent transition-all">
-        <span>Explore Class 10th Hub</span>
-        <span>→</span>
-      </a>
-    </div>
-
-    <!-- Track 3: 10-Level Grammar Ladder -->
-    <div class="p-6 rounded-3xl bg-raised border border-border hover:border-accent hover:-translate-y-1 transition-all shadow-xs hover:shadow-md flex flex-col justify-between group">
-      <div>
-        <div class="w-12 h-12 rounded-2xl bg-indigo-500/15 text-indigo-500 flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform">
-          ⚡
-        </div>
-        <h3 class="text-lg font-bold font-heading text-primary mb-2">10-Level Grammar Master Ladder</h3>
-        <p class="text-xs text-secondary leading-relaxed mb-4">
-          Zero to Advanced systematic English grammar: Parts of Speech, Tenses Master, Active & Passive Voice, Direct/Indirect Narration, Clauses, and Syntax.
-        </p>
-        <div class="flex flex-wrap gap-1.5 mb-6">
-          <span class="px-2.5 py-1 rounded-lg bg-base text-[11px] text-secondary font-medium border border-border">Tenses Ladder</span>
-          <span class="px-2.5 py-1 rounded-lg bg-base text-[11px] text-secondary font-medium border border-border">Passive Voice</span>
-          <span class="px-2.5 py-1 rounded-lg bg-base text-[11px] text-secondary font-medium border border-border">Narration</span>
-          <span class="px-2.5 py-1 rounded-lg bg-base text-[11px] text-secondary font-medium border border-border">Syntax Algebra</span>
+      <div class="trust-item">
+        <div class="trust-item-icon">🎯</div>
+        <div>
+          <div class="trust-item-title">Bihar Board Aligned</div>
+          <div class="trust-item-sub">BSEB 10th & 12th Focus</div>
         </div>
       </div>
-      <a href="/grammar/" class="inline-flex items-center justify-between px-4 py-2.5 rounded-xl bg-base border border-border text-xs font-bold text-primary group-hover:border-accent group-hover:text-accent transition-all">
-        <span>Explore Grammar Ladder</span>
-        <span>→</span>
-      </a>
-    </div>
-
-    <!-- Track 4: 19,000+ A-Z Bilingual Lexicon -->
-    <div class="p-6 rounded-3xl bg-raised border border-border hover:border-accent hover:-translate-y-1 transition-all shadow-xs hover:shadow-md flex flex-col justify-between group">
-      <div>
-        <div class="w-12 h-12 rounded-2xl bg-amber-500/15 text-amber-500 flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform">
-          📖
-        </div>
-        <h3 class="text-lg font-bold font-heading text-primary mb-2">19,000+ A-Z Audio Lexicon</h3>
-        <p class="text-xs text-secondary leading-relaxed mb-4">
-          Bilingual dictionary with accurate Hindi definitions, native audio pronunciations, contextual sentences, synonyms, antonyms, and 1-click personal diary bookmarks.
-        </p>
-        <div class="flex flex-wrap gap-1.5 mb-6">
-          <span class="px-2.5 py-1 rounded-lg bg-base text-[11px] text-secondary font-medium border border-border">A-Z Index</span>
-          <span class="px-2.5 py-1 rounded-lg bg-base text-[11px] text-secondary font-medium border border-border">Audio TTS 🔊</span>
-          <span class="px-2.5 py-1 rounded-lg bg-base text-[11px] text-secondary font-medium border border-border">Daily 10 Words</span>
-          <span class="px-2.5 py-1 rounded-lg bg-base text-[11px] text-secondary font-medium border border-border">Flashcards</span>
+      <div class="trust-item">
+        <div class="trust-item-icon">⚡</div>
+        <div>
+          <div class="trust-item-title">Lightning Fast</div>
+          <div class="trust-item-sub">Cloudflare Edge powered</div>
         </div>
       </div>
-      <a href="/dictionary/" class="inline-flex items-center justify-between px-4 py-2.5 rounded-xl bg-base border border-border text-xs font-bold text-primary group-hover:border-accent group-hover:text-accent transition-all">
-        <span>Open Audio Dictionary</span>
-        <span>→</span>
-      </a>
     </div>
-
-    <!-- Track 5: Formula Sheets & Logic Algebra -->
-    <div class="p-6 rounded-3xl bg-raised border border-border hover:border-accent hover:-translate-y-1 transition-all shadow-xs hover:shadow-md flex flex-col justify-between group">
-      <div>
-        <div class="w-12 h-12 rounded-2xl bg-rose-500/15 text-rose-500 flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform">
-          📐
-        </div>
-        <h3 class="text-lg font-bold font-heading text-primary mb-2">Logic Formula Sheets & Cheat Sheets</h3>
-        <p class="text-xs text-secondary leading-relaxed mb-4">
-          1-page quick formula summaries for Tenses transformation matrix, Subject-Verb agreement rules, Preposition cheat sheets, and Irregular verbs tables.
-        </p>
-        <div class="flex flex-wrap gap-1.5 mb-6">
-          <span class="px-2.5 py-1 rounded-lg bg-base text-[11px] text-secondary font-medium border border-border">Tense Matrix</span>
-          <span class="px-2.5 py-1 rounded-lg bg-base text-[11px] text-secondary font-medium border border-border">Preposition Map</span>
-          <span class="px-2.5 py-1 rounded-lg bg-base text-[11px] text-secondary font-medium border border-border">Verb Tables</span>
-        </div>
-      </div>
-      <a href="/grammar/" class="inline-flex items-center justify-between px-4 py-2.5 rounded-xl bg-base border border-border text-xs font-bold text-primary group-hover:border-accent group-hover:text-accent transition-all">
-        <span>View Formula Sheets</span>
-        <span>→</span>
-      </a>
-    </div>
-
-    <!-- Track 6: Interactive Quizzes & Test Arena -->
-    <div class="p-6 rounded-3xl bg-raised border border-border hover:border-accent hover:-translate-y-1 transition-all shadow-xs hover:shadow-md flex flex-col justify-between group">
-      <div>
-        <div class="w-12 h-12 rounded-2xl bg-cyan-500/15 text-cyan-500 flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform">
-          🎯
-        </div>
-        <h3 class="text-lg font-bold font-heading text-primary mb-2">Interactive Quiz & Test Arena</h3>
-        <p class="text-xs text-secondary leading-relaxed mb-4">
-          Real-time practice tests with instant evaluation, explanatory answers, performance scorecards, and persistent Cloudflare D1 student attempt history.
-        </p>
-        <div class="flex flex-wrap gap-1.5 mb-6">
-          <span class="px-2.5 py-1 rounded-lg bg-base text-[11px] text-secondary font-medium border border-border">Grammar MCQs</span>
-          <span class="px-2.5 py-1 rounded-lg bg-base text-[11px] text-secondary font-medium border border-border">Board Practice</span>
-          <span class="px-2.5 py-1 rounded-lg bg-base text-[11px] text-secondary font-medium border border-border">Score Tracker 💾</span>
-        </div>
-      </div>
-      <a href="/quiz/" class="inline-flex items-center justify-between px-4 py-2.5 rounded-xl bg-base border border-border text-xs font-bold text-primary group-hover:border-accent group-hover:text-accent transition-all">
-        <span>Start Free Quiz</span>
-        <span>→</span>
-      </a>
-    </div>
-
   </div>
 </section>
 
-<!-- ═══════════════════════════════════════════════════════════════ -->
-<!-- 3. THE MASTER MANIKANT LOGIC LABORATORY (INTERACTIVE LAB) -->
-<!-- ═══════════════════════════════════════════════════════════════ -->
-<section class="max-w-6xl mx-auto pt-8" id="logic-lab">
-  <div class="p-6 sm:p-10 rounded-3xl bg-raised border border-border shadow-xs space-y-6">
-    <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-border pb-4">
-      <div>
-        <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-accent/10 text-accent text-xs font-bold uppercase tracking-wider mb-1">
-          <span>🧪</span> Live Grammar Decoder
-        </div>
-        <h2 class="text-2xl sm:text-3xl font-extrabold font-heading text-primary">
-          Master Manikant Sentence Logic Laboratory
-        </h2>
-        <p class="text-xs sm:text-sm text-secondary">
-          हिंदी वाक्य संरचना (S+O+V) से अंग्रेज़ी संरचना (S+V+O) में लाइव रूपांतरण का अचूक गणितीय मॉडल।
-        </p>
-      </div>
-
-      <!-- Lab Switcher Tabs -->
-      <div class="flex items-center gap-1.5 p-1 rounded-xl bg-base border border-border text-xs font-bold">
-        <button onclick="setLogicExample(0)" id="logic-tab-0" class="px-3.5 py-1.5 rounded-lg bg-accent text-white transition-all shadow-xs">Present Simple</button>
-        <button onclick="setLogicExample(1)" id="logic-tab-1" class="px-3.5 py-1.5 rounded-lg text-secondary hover:text-primary transition-all">Past Simple</button>
-        <button onclick="setLogicExample(2)" id="logic-tab-2" class="px-3.5 py-1.5 rounded-lg text-secondary hover:text-primary transition-all">Passive Voice</button>
-      </div>
+<!-- STUDY TRACKS SECTION -->
+<section class="section" id="tracks">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title">Core Study Tracks & Knowledge Base</h2>
+      <p>Carefully organized learning pathways with chapter summaries, formula sheets, and practice sets.</p>
     </div>
 
-    <!-- Active Sentence Breakdown Deck -->
-    <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-center">
+    <div class="grid-3">
       
-      <!-- Hindi Input Box -->
-      <div class="lg:col-span-5 p-5 rounded-2xl bg-base border border-border/80 space-y-2">
-        <div class="text-[11px] font-bold uppercase tracking-wider text-secondary flex items-center justify-between">
-          <span>मूल हिंदी वाक्य (Hindi Order):</span>
-          <span class="text-amber-500 font-mono font-bold">कर्ता (S) + कर्म (O) + क्रिया (V)</span>
+      <!-- Track 1: Bihar Board 12th -->
+      <div class="card">
+        <div class="card-icon">🎓</div>
+        <h3 class="card-title">Bihar Board Class 12th English</h3>
+        <p class="card-desc">Complete Rainbow Part 2 syllabus: Line-by-line Hindi explanation of all prose & poetry chapters, summaries, author bios, and objective question banks.</p>
+        <div class="tag-list">
+          <span class="tag">Rainbow 2 Prose</span>
+          <span class="tag">Poetry</span>
+          <span class="tag">Hindi Translation</span>
+          <span class="tag">MCQ Bank</span>
         </div>
-        <div id="logic-hindi-text" class="text-base sm:text-lg font-bold text-primary leading-snug">
+        <a href="/class-12/" class="btn btn-outline btn-sm">Explore Class 12th &rarr;</a>
+      </div>
+
+      <!-- Track 2: Bihar Board 10th -->
+      <div class="card">
+        <div class="card-icon">📚</div>
+        <h3 class="card-title">Bihar Board Class 10th (Matric)</h3>
+        <p class="card-desc">Complete Panorama Part 2 guide: High-yield revision capsules, difficult vocabulary meanings in Hindi, grammar notes, and exam model question sets.</p>
+        <div class="tag-list">
+          <span class="tag">Panorama 2</span>
+          <span class="tag">Matric English</span>
+          <span class="tag">Grammar Notes</span>
+          <span class="tag">Model Papers</span>
+        </div>
+        <a href="/class-10/" class="btn btn-outline btn-sm">Explore Class 10th &rarr;</a>
+      </div>
+
+      <!-- Track 3: Grammar Master Ladder -->
+      <div class="card">
+        <div class="card-icon">⚡</div>
+        <h3 class="card-title">10-Level Grammar Master Ladder</h3>
+        <p class="card-desc">Zero to Advanced systematic English grammar: Parts of Speech, Tenses Master, Active & Passive Voice, Direct/Indirect Narration, Clauses, and Syntax.</p>
+        <div class="tag-list">
+          <span class="tag">Tenses Ladder</span>
+          <span class="tag">Passive Voice</span>
+          <span class="tag">Narration</span>
+          <span class="tag">Syntax Algebra</span>
+        </div>
+        <a href="/grammar/" class="btn btn-outline btn-sm">Explore Grammar Hub &rarr;</a>
+      </div>
+
+      <!-- Track 4: 19,000+ A-Z Audio Lexicon -->
+      <div class="card">
+        <div class="card-icon">📖</div>
+        <h3 class="card-title">19,000+ A-Z Audio Lexicon</h3>
+        <p class="card-desc">Bilingual dictionary with accurate Hindi definitions, native audio pronunciations, contextual sentences, synonyms, antonyms, and 1-click personal diary bookmarks.</p>
+        <div class="tag-list">
+          <span class="tag">A-Z Index</span>
+          <span class="tag">Audio TTS 🔊</span>
+          <span class="tag">Daily 10 Words</span>
+          <span class="tag">Flashcards</span>
+        </div>
+        <a href="/dictionary/" class="btn btn-outline btn-sm">Open Audio Dictionary &rarr;</a>
+      </div>
+
+      <!-- Track 5: Formula Sheets & Logic Algebra -->
+      <div class="card">
+        <div class="card-icon">📐</div>
+        <h3 class="card-title">Formula Sheets & Cheat Sheets</h3>
+        <p class="card-desc">1-page quick formula summaries for Tenses transformation matrix, Subject-Verb agreement rules, Preposition cheat sheets, and Irregular verbs tables.</p>
+        <div class="tag-list">
+          <span class="tag">Tense Matrix</span>
+          <span class="tag">Preposition Map</span>
+          <span class="tag">Verb Tables</span>
+        </div>
+        <a href="/grammar/" class="btn btn-outline btn-sm">View Formula Sheets &rarr;</a>
+      </div>
+
+      <!-- Track 6: Interactive Quizzes & Test Arena -->
+      <div class="card">
+        <div class="card-icon">🎯</div>
+        <h3 class="card-title">Interactive Quiz & Test Arena</h3>
+        <p class="card-desc">Real-time practice tests with instant evaluation, explanatory answers, performance scorecards, and persistent Cloudflare D1 student attempt history.</p>
+        <div class="tag-list">
+          <span class="tag">Grammar MCQs</span>
+          <span class="tag">Board Practice</span>
+          <span class="tag">Score Tracker 💾</span>
+        </div>
+        <a href="/quiz/" class="btn btn-outline btn-sm">Start Free Quiz &rarr;</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- MASTER MANIKANT SENTENCE LOGIC LABORATORY -->
+<section class="section section-alt" id="logic-lab">
+  <div class="container">
+    <div class="section-header">
+      <div class="pill-badge"><span>🧪 Live Grammar Decoder</span></div>
+      <h2 class="section-title">Master Manikant Sentence Logic Laboratory</h2>
+      <p>हिंदी वाक्य संरचना (S+O+V) से अंग्रेज़ी संरचना (S+V+O) में लाइव रूपांतरण का अचूक गणितीय मॉडल।</p>
+    </div>
+
+    <div class="lab-card">
+      <div class="lab-header">
+        <div>
+          <h3 style="font-size:1.3rem; margin-bottom:0.25rem;">Interactive Syntax Transformer</h3>
+          <p style="font-size:0.85rem; color:var(--text-muted);">Click a scenario to see how sentence parts rearrange mathematically.</p>
+        </div>
+
+        <div class="lab-tabs">
+          <button onclick="setLogicExample(0)" id="logic-tab-0" class="lab-tab-btn active">Present Simple</button>
+          <button onclick="setLogicExample(1)" id="logic-tab-1" class="lab-tab-btn">Past Simple</button>
+          <button onclick="setLogicExample(2)" id="logic-tab-2" class="lab-tab-btn">Passive Voice</button>
+        </div>
+      </div>
+
+      <div style="background:var(--bg-secondary); border:1px solid var(--border); border-radius:var(--radius-md); padding:1.25rem; margin-bottom:1.5rem;">
+        <div style="font-size:0.75rem; font-weight:700; color:var(--text-muted); text-transform:uppercase; margin-bottom:0.25rem;">मूल हिंदी वाक्य (Hindi Order: S + O + V):</div>
+        <div id="logic-hindi-text" style="font-size:1.2rem; font-weight:700; color:var(--text-primary);">
           "हम रोज़ अंग्रेज़ी सीखते हैं।"
         </div>
-        <p class="text-[11px] text-secondary leading-relaxed">
-          हिंदी में क्रिया हमेशा अंत में आती है, जबकि अंग्रेज़ी में क्रिया (Verb) कर्ता (Subject) के तुरंत बाद आती है।
-        </p>
       </div>
 
-      <!-- Conversion Transformation Syntax Blocks -->
-      <div class="lg:col-span-7 space-y-3">
-        <div class="flex items-center justify-between text-xs font-bold text-secondary">
-          <span>English Syntax Equation:</span>
-          <span id="logic-formula-badge" class="font-mono text-accent font-bold">Subject + Verb + Object</span>
-        </div>
+      <div style="font-size:0.8rem; font-weight:700; color:var(--text-muted); display:flex; justify-content:space-between; margin-bottom:0.5rem;">
+        <span>English Syntax Equation:</span>
+        <span id="logic-formula-badge" class="mono" style="color:var(--accent); font-weight:700;">Subject + Verb + Object</span>
+      </div>
 
-        <div id="logic-syntax-blocks" class="grid grid-cols-3 gap-2 sm:gap-3">
-          <div class="p-3 rounded-xl bg-amber-500/10 border border-amber-500/20 text-center">
-            <div class="text-[10px] font-extrabold text-amber-500 uppercase">1. Subject [कर्ता]</div>
-            <div id="block-subject" class="font-bold text-sm sm:text-base text-primary mt-1">We</div>
-          </div>
-          <div class="p-3 rounded-xl bg-accent/10 border border-accent/20 text-center">
-            <div class="text-[10px] font-extrabold text-accent uppercase">2. Verb [क्रिया]</div>
-            <div id="block-verb" class="font-bold text-sm sm:text-base text-primary mt-1">learn</div>
-          </div>
-          <div class="p-3 rounded-xl bg-emerald-500/10 border border-emerald-500/20 text-center">
-            <div class="text-[10px] font-extrabold text-emerald-500 uppercase">3. Object [कर्म]</div>
-            <div id="block-object" class="font-bold text-sm sm:text-base text-primary mt-1">English every day</div>
+      <div class="syntax-grid">
+        <div class="syntax-block" style="background:var(--amber-light); border-color:var(--amber);">
+          <div class="syntax-label" style="color:var(--amber);">1. Subject [कर्ता]</div>
+          <div id="block-subject" class="syntax-val">We</div>
+        </div>
+        <div class="syntax-block" style="background:var(--accent-light); border-color:var(--accent);">
+          <div class="syntax-label" style="color:var(--accent);">2. Verb [क्रिया]</div>
+          <div id="block-verb" class="syntax-val">learn</div>
+        </div>
+        <div class="syntax-block" style="background:var(--emerald-light); border-color:var(--emerald);">
+          <div class="syntax-label" style="color:var(--emerald);">3. Object [कर्म]</div>
+          <div id="block-object" class="syntax-val">English every day</div>
+        </div>
+      </div>
+
+      <div class="output-box">
+        <div>
+          <div style="font-size:0.75rem; font-weight:700; color:var(--accent); text-transform:uppercase;">Final Assembled English:</div>
+          <div id="logic-english-text" style="font-size:1.15rem; font-weight:800; color:var(--text-primary); margin-top:0.25rem;">
+            "We learn English every day."
           </div>
         </div>
+        <button onclick="playLogicAudio()" class="btn btn-primary btn-sm" title="Listen Pronunciation">
+          🔊 Listen Audio
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
 
-        <!-- Assembled Output -->
-        <div class="p-4 rounded-2xl bg-base border-2 border-accent/40 flex items-center justify-between gap-3 shadow-xs">
-          <div>
-            <div class="text-[10px] font-extrabold text-accent uppercase tracking-wider">Final Assembled English:</div>
-            <div id="logic-english-text" class="text-sm sm:text-base font-extrabold text-primary">
-              "We learn English every day."
-            </div>
-          </div>
-          <button onclick="playLogicAudio()" class="w-10 h-10 rounded-xl bg-accent text-white flex items-center justify-center text-lg hover:scale-105 active:scale-95 transition-all shrink-0 shadow-sm" title="Listen Audio">
-            🔊
-          </button>
+<!-- ECOSYSTEM NETWORK SHOWCASE (FRANKBASE ECOSYSTEM) -->
+<section class="section" id="ecosystem">
+  <div class="container">
+    <div class="section-header">
+      <div class="pill-badge"><span>🌐 The Complete Ecosystem Network</span></div>
+      <h2 class="section-title">Beyond Notes: Specialized Web Engines & Tools</h2>
+      <p>EnglishVidya connects you to dedicated high-speed SaaS engines, practice portals, and security applications across our network.</p>
+    </div>
+
+    <div class="grid-3">
+      
+      <!-- 1. FrankBase -->
+      <div class="card">
+        <div class="card-icon">🏛️</div>
+        <h3 class="card-title">FrankBase.com</h3>
+        <p class="card-desc">India's centralized open educational knowledge base hosting high-yield study tracks for Bihar Board 10th/12th, BPSC TRE, CTET, and NCERT formula sheets.</p>
+        <div class="tag-list">
+          <span class="tag">Knowledge Hub</span>
+          <span class="tag">BPSC & Board</span>
         </div>
+        <a href="https://frankbase.com" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">Visit frankbase.com &rarr;</a>
+      </div>
 
+      <!-- 2. SpeedPulse -->
+      <div class="card">
+        <div class="card-icon">⚡</div>
+        <h3 class="card-title">SpeedPulse</h3>
+        <p class="card-desc">Ultra-low latency, ad-free internet speed test and network telemetry diagnostics (Download, Upload, Bufferbloat & Jitter).</p>
+        <div class="tag-list">
+          <span class="tag">Network Tool</span>
+          <span class="tag">Cloudflare Worker</span>
+        </div>
+        <a href="https://speed.frankbase.com" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">Launch speed.frankbase.com &rarr;</a>
+      </div>
+
+      <!-- 3. Typing Tutor -->
+      <div class="card">
+        <div class="card-icon">⌨️</div>
+        <h3 class="card-title">Typing FrankBase</h3>
+        <p class="card-desc">Interactive Hindi & English typing assessment platform with real-time WPM, accuracy analytics, and Dexie.js offline persistence.</p>
+        <div class="tag-list">
+          <span class="tag">Exam Prep</span>
+          <span class="tag">Hindi/English</span>
+        </div>
+        <a href="https://typing.frankbase.com" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">Launch typing.frankbase.com &rarr;</a>
+      </div>
+
+      <!-- 4. PDF Exam Parser -->
+      <div class="card">
+        <div class="card-icon">📄</div>
+        <h3 class="card-title">PDF Exam Converter</h3>
+        <p class="card-desc">High-speed document OCR tool that converts scanned exam question papers (BPSC, CTET, BSEB) into interactive practice tests.</p>
+        <div class="tag-list">
+          <span class="tag">OCR Tool</span>
+          <span class="tag">Quiz Generator</span>
+        </div>
+        <a href="https://pdf.frankbase.com" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">Launch pdf.frankbase.com &rarr;</a>
+      </div>
+
+      <!-- 5. FrankPass -->
+      <div class="card">
+        <div class="card-icon">🔐</div>
+        <h3 class="card-title">FrankPass Security</h3>
+        <p class="card-desc">Zero-knowledge, 100% stateless cryptographic password generator. Zero database vaults, zero tracking, mathematically secure.</p>
+        <div class="tag-list">
+          <span class="tag">Privacy SaaS</span>
+          <span class="tag">PWA Offline</span>
+        </div>
+        <a href="https://frankpass.com" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">Visit frankpass.com &rarr;</a>
+      </div>
+
+      <!-- 6. Master Manikant Flagship -->
+      <div class="card">
+        <div class="card-icon">👤</div>
+        <h3 class="card-title">MasterManikant.com</h3>
+        <p class="card-desc">Personal authority portal, systems architecture blueprints, offline coaching constitution, and AI scheduler for founder Master Manikant.</p>
+        <div class="tag-list">
+          <span class="tag">Personal Brand</span>
+          <span class="tag">AI OS Hub</span>
+        </div>
+        <a href="https://mastermanikant.com" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">Visit mastermanikant.com &rarr;</a>
       </div>
 
     </div>
   </div>
 </section>
 
-<!-- ═══════════════════════════════════════════════════════════════ -->
-<!-- 4. DAILY VOCABULARY & METHOD PILLARS (FRANKBASE ECOSYSTEM) -->
-<!-- ═══════════════════════════════════════════════════════════════ -->
-<section class="max-w-6xl mx-auto space-y-6 pt-6">
-  <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-    
-    <!-- Word of the Day -->
-    <div class="p-6 sm:p-8 rounded-3xl bg-raised border border-border shadow-xs flex flex-col justify-between">
-      <div>
-        <div class="flex items-center justify-between mb-4 pb-2 border-b border-border">
-          <span class="text-xs font-bold text-accent uppercase tracking-wider flex items-center gap-1.5">
-            <span>🌟</span> Word of the Day
-          </span>
-          <span class="text-[11px] text-secondary">Bilingual Vocabulary</span>
+<!-- FOUNDER CALLOUT (EXACT FRANKBASE STRUCTURE) -->
+<section class="section section-alt">
+  <div class="container">
+    <div class="founder-card">
+      <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbeMsLb7-1opZtRl9NwEao44eomwjGZSocV3Ljhe24PVTmP3k97fqGbyIREDJWjq9PEsJvpG6djUNDltOp2DcTwFaVU2nwFDlD-uZZUpgLnOZTpdALH2y-xaJtrseMbuYPnKzGfGNLKs_O3cGmG_LDEApjU_cyBA1Xn1mTQtCcRwdZ0afg9gj_mqf7WZmU/w388-h388/Profie-Pic-of-Master-Manikant.png" alt="Master Manikant Yadav" class="founder-avatar" loading="lazy" />
+      <div class="founder-info">
+        <h3>Master Manikant Yadav (Manikant Kumar)</h3>
+        <div class="founder-role">Founder, Educator & Systems Architect • Supaul, Bihar</div>
+        <p>
+          <em>"Mera lakshya simple hai: Har student ko structured, simplified, aur 100% open education uplabdh karana bina kisi hidden paywall ya complex signups ke."</em>
+        </p>
+        <div class="founder-badges">
+          <span class="credential-badge">🎓 B.Sc Mathematics (Hons) — BNMU</span>
+          <span class="credential-badge">📜 B.Ed — Jiwaji University</span>
+          <span class="credential-badge">🏆 Bihar STET 2025 Qualified (107 Marks)</span>
+          <span class="credential-badge">💻 ADCA Certified</span>
         </div>
-
-        <div class="flex items-center justify-between gap-4 mb-2">
-          <div>
-            <h3 class="text-2xl sm:text-3xl font-extrabold font-heading text-primary">Persevere</h3>
-            <span class="text-xs text-secondary font-mono">( प़र-सि-वि-अर / /ˌpɜː.sɪˈvɪər/ )</span>
-          </div>
-          <div class="flex items-center gap-2">
-            <button onclick="window.speakText && window.speakText('Persevere')" class="w-10 h-10 rounded-xl bg-base border border-border hover:border-accent text-primary flex items-center justify-center text-lg shadow-xs" title="Listen Audio">
-              🔊
-            </button>
-            <button onclick="toggleBookmark('persevere', 'Persevere', 'दृढ़ रहना / लगातार प्रयास करते रहना', 'प़र-सि-वि-अर', 'general')" id="bookmark-btn-persevere" class="w-10 h-10 rounded-xl bg-base border border-border hover:border-accent text-primary flex items-center justify-center text-lg shadow-xs" title="Save to Diary">
-              🤍
-            </button>
-          </div>
+        <div style="margin-top:1.25rem;">
+          <a href="/about-us/" class="btn btn-primary btn-sm">Read Full Founder Story &rarr;</a>
+          <a href="https://mastermanikant.com" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm" style="margin-left:0.5rem;">Personal Website</a>
         </div>
-
-        <div class="text-sm font-bold text-emerald-500 mb-3">
-          Meaning: दृढ़ रहना, कठिनाई के बावजूद लगातार प्रयास करते रहना।
-        </div>
-
-        <div class="p-3.5 rounded-2xl bg-base border-l-4 border-accent text-xs text-secondary leading-relaxed">
-          <strong class="text-primary block mb-0.5">Example:</strong>
-          "If you persevere with your English practice, you will speak fluently."<br>
-          <span class="text-[11px] text-secondary/80">यदि आप अपने अंग्रेजी अभ्यास में दृढ़ रहेंगे, तो आप धाराप्रवाह बोलेंगे।</span>
-        </div>
-      </div>
-
-      <div class="mt-6 pt-4 border-t border-border flex items-center justify-between text-xs">
-        <a href="/dictionary/persevere/" class="text-accent font-bold hover:underline">Full Dictionary Entry →</a>
-        <a href="/my-diary/" class="text-secondary hover:text-primary font-semibold">Open My Diary 📓</a>
       </div>
     </div>
-
-    <!-- Why Master Manikant Method (4 Pillars) -->
-    <div class="p-6 sm:p-8 rounded-3xl bg-raised border border-border shadow-xs flex flex-col justify-between">
-      <div>
-        <div class="flex items-center justify-between mb-4 pb-2 border-b border-border">
-          <span class="text-xs font-bold text-indigo-500 uppercase tracking-wider flex items-center gap-1.5">
-            <span>🧠</span> The 4 Logic Pillars
-          </span>
-          <span class="text-[11px] text-secondary">Zero Cramming Method</span>
-        </div>
-
-        <h3 class="text-xl sm:text-2xl font-bold font-heading text-primary mb-3">
-          Why EnglishVidya Works for Hindi Medium
-        </h3>
-
-        <div class="space-y-2.5 text-xs text-secondary">
-          <div class="p-2.5 rounded-xl bg-base border border-border flex items-start gap-2.5">
-            <span class="font-bold text-accent">1.</span>
-            <div><strong class="text-primary">No Blind Memorization:</strong> Every grammar rule is decoded via practical logic formulas.</div>
-          </div>
-          <div class="p-2.5 rounded-xl bg-base border border-border flex items-start gap-2.5">
-            <span class="font-bold text-emerald-500">2.</span>
-            <div><strong class="text-primary">Bilingual Grounding:</strong> Connect native Hindi thought structure directly to English syntax.</div>
-          </div>
-          <div class="p-2.5 rounded-xl bg-base border border-border flex items-start gap-2.5">
-            <span class="font-bold text-amber-500">3.</span>
-            <div><strong class="text-primary">Pronunciation Audio:</strong> Native speech synthesis on every word and board chapter.</div>
-          </div>
-          <div class="p-2.5 rounded-xl bg-base border border-border flex items-start gap-2.5">
-            <span class="font-bold text-rose-500">4.</span>
-            <div><strong class="text-primary">Cloud Sync Diary:</strong> 1-click bookmarking to review difficult terms anytime.</div>
-          </div>
-        </div>
-      </div>
-
-      <div class="mt-6 pt-4 border-t border-border flex items-center justify-between text-xs">
-        <a href="/about-us/" class="text-accent font-bold hover:underline">About Master Manikant →</a>
-        <a href="/contact/" class="text-secondary hover:text-primary font-semibold">Support Desk ✉️</a>
-      </div>
-    </div>
-
   </div>
 </section>
 
@@ -486,19 +375,14 @@ function setLogicExample(idx) {
   currentExampleIndex = idx;
   const ex = logicExamples[idx];
   
-  // Update Tab active classes
   [0, 1, 2].forEach(i => {
     const tabEl = document.getElementById(`logic-tab-${i}`);
     if (tabEl) {
-      if (i === idx) {
-        tabEl.className = 'px-3.5 py-1.5 rounded-lg bg-accent text-white transition-all shadow-xs';
-      } else {
-        tabEl.className = 'px-3.5 py-1.5 rounded-lg text-secondary hover:text-primary transition-all';
-      }
+      if (i === idx) tabEl.classList.add('active');
+      else tabEl.classList.remove('active');
     }
   });
 
-  // Update dynamic content
   const hindiEl = document.getElementById('logic-hindi-text');
   const formulaEl = document.getElementById('logic-formula-badge');
   const subEl = document.getElementById('block-subject');
@@ -524,30 +408,4 @@ function playLogicAudio() {
     window.speechSynthesis.speak(utter);
   }
 }
-
-function triggerSearchOverlay() {
-  const triggerBtn = document.getElementById('search-trigger-btn');
-  if (triggerBtn) {
-    triggerBtn.click();
-  }
-}
-
-document.addEventListener('DOMContentLoaded', () => {
-  const heroSearchInput = document.getElementById('hero-interactive-search');
-  if (heroSearchInput) {
-    heroSearchInput.addEventListener('focus', () => {
-      triggerSearchOverlay();
-      const overlayInput = document.getElementById('search-input');
-      if (overlayInput && heroSearchInput.value) {
-        overlayInput.value = heroSearchInput.value;
-      }
-    });
-
-    heroSearchInput.addEventListener('keydown', (e) => {
-      if (e.key === 'Enter') {
-        triggerSearchOverlay();
-      }
-    });
-  }
-});
 </script>
