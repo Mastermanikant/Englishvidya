@@ -16,7 +16,7 @@
   const SEARCH_INDEX_PATH = `${DATA_BASE}/site/search-index.json`;
   const ARTICLES_INDEX_PATH = `${DATA_BASE}/site/articles-search-index.json`;
   const CATEGORIES_INDEX_PATH = `${DATA_BASE}/site/categories-index.json`;
-  const WHATSAPP_NUMBER = '917070133396';
+  const WHATSAPP_NUMBER = '';
   const STORAGE_KEYS = {
     theme: 'ev-theme',
     recent: 'ev-recent-searches',
